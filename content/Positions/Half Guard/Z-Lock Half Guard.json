@@ -94,35 +94,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while you're in Z-Lock Half Guard Top - what immediate adjustment maintains control?",
-        "answer": "When opponent bridges, drive your weight forward and low rather than posting on hands. Increase shoulder pressure into their chest while keeping hips heavy on their trapped leg. Use your posted leg to widen base in direction of the bridge. The key is staying connected and heavy rather than lifting up to regain balance, which creates the space they need to escape."
+        "answer": "When opponent bridges, drive your weight forward and low rather than posting on hands. Increase shoulder pressure into their chest while keeping hips heavy on their trapped leg. Use your posted leg to widen base in direction of the bridge. The key is staying connected and heavy rather than lifting up to regain balance, which creates the space they need to escape.",
+        "answer_line": "Stay heavy, drive shoulder forward",
+        "distractors": {
+          "plausible": [
+            "Post on hands to rebalance",
+            "Widen base but ease pressure"
+          ],
+          "trap": [
+            "Lift hips to ride the bridge"
+          ]
+        }
       },
       {
         "question": "What are the three primary contact points you must maintain to retain Z-Lock Half Guard Top position?",
-        "answer": "The three essential contact points are: (1) shoulder driving into opponent's chest or face creating upper body pressure, (2) knee positioned across opponent's hip with shin creating the characteristic Z-shape blocking hip movement, and (3) your hips driving weight into their trapped leg. Losing any of these three points significantly compromises the position and opens escape opportunities."
+        "answer": "The three essential contact points are: (1) shoulder driving into opponent's chest or face creating upper body pressure, (2) knee positioned across opponent's hip with shin creating the characteristic Z-shape blocking hip movement, and (3) your hips driving weight into their trapped leg. Losing any of these three points significantly compromises the position and opens escape opportunities.",
+        "answer_line": "Shoulder, knee, hips pressure",
+        "distractors": {
+          "plausible": [
+            "Head, hip, and foot control",
+            "Grip, elbow, and knee pressure"
+          ],
+          "trap": [
+            "Post hands, knee, hip pressure"
+          ]
+        }
       },
       {
         "question": "How do you shut down an opponent's primary escape - the underhook recovery - from Z-Lock Half Guard Top?",
-        "answer": "Prevent underhook recovery by controlling opponent's inside arm with your nearside hand, keeping their elbow pinned to their ribs or controlled at the wrist. If they begin threading their arm, immediately swim your arm over theirs to establish your own underhook, or drive crossface pressure that flattens their shoulder to the mat. The underhook battle is won through anticipation - address it before they fully establish rather than fighting an established underhook."
+        "answer": "Prevent underhook recovery by controlling opponent's inside arm with your nearside hand, keeping their elbow pinned to their ribs or controlled at the wrist. If they begin threading their arm, immediately swim your arm over theirs to establish your own underhook, or drive crossface pressure that flattens their shoulder to the mat. The underhook battle is won through anticipation - address it before they fully establish rather than fighting an established underhook.",
+        "answer_line": "Pin inside arm before it threads",
+        "distractors": {
+          "plausible": [
+            "React after underhook is set",
+            "Grip wrist only, ignore elbow"
+          ],
+          "trap": [
+            "Release the arm to re-angle"
+          ]
+        }
       },
       {
         "question": "Which grips take priority when maintaining Z-Lock Half Guard Top in no-gi versus gi scenarios?",
-        "answer": "In no-gi, prioritize wrist control on their inside arm and head-arm control through crossface or underhook position. In gi, add collar grip options - a deep cross-collar grip provides excellent posture control while sleeve grips limit their framing ability. Regardless of attire, controlling the inside arm remains highest priority as this prevents both underhook recovery and effective frames."
+        "answer": "In no-gi, prioritize wrist control on their inside arm and head-arm control through crossface or underhook position. In gi, add collar grip options - a deep cross-collar grip provides excellent posture control while sleeve grips limit their framing ability. Regardless of attire, controlling the inside arm remains highest priority as this prevents both underhook recovery and effective frames.",
+        "answer_line": "Inside-arm control always priority",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip matters most in gi",
+            "Collar grip needed in no-gi too"
+          ],
+          "trap": [
+            "Grip legs, ignore the inside arm"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure through your body weight in Z-Lock Half Guard Top without gassing yourself out?",
-        "answer": "Effective pressure application comes from skeletal alignment rather than muscular tension. Drive weight through your shoulder bone into their chest and let your hips sink heavy onto their trapped leg. Keep hands light for grip adjustments rather than supporting weight. Your head should be low and heavy, letting gravity do the work. This structural pressure is sustainable for extended periods while constant muscular squeezing leads to rapid fatigue."
+        "answer": "Effective pressure application comes from skeletal alignment rather than muscular tension. Drive weight through your shoulder bone into their chest and let your hips sink heavy onto their trapped leg. Keep hands light for grip adjustments rather than supporting weight. Your head should be low and heavy, letting gravity do the work. This structural pressure is sustainable for extended periods while constant muscular squeezing leads to rapid fatigue.",
+        "answer_line": "Skeletal weight, not muscle squeeze",
+        "distractors": {
+          "plausible": [
+            "Squeeze tight with strong grips",
+            "Push hard with arms constantly"
+          ],
+          "trap": [
+            "Grip fiercely, tense whole body"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to create a knee shield frame despite your Z-Lock position - what sequence recovers dominant pressure?",
-        "answer": "When opponent establishes knee shield, first control their shield knee by gripping behind it with your free hand. Drive the knee to the mat while maintaining shoulder pressure on their upper body. As the knee clears, immediately re-establish your Z-lock positioning with your knee across their hip before they can recreate the frame. The key is addressing the knee shield while never losing upper body pressure that prevents them from turning into you."
+        "answer": "When opponent establishes knee shield, first control their shield knee by gripping behind it with your free hand. Drive the knee to the mat while maintaining shoulder pressure on their upper body. As the knee clears, immediately re-establish your Z-lock positioning with your knee across their hip before they can recreate the frame. The key is addressing the knee shield while never losing upper body pressure that prevents them from turning into you.",
+        "answer_line": "Control knee, drive down, re-lock",
+        "distractors": {
+          "plausible": [
+            "Back off, then reset position",
+            "Grip ankle, ignore the knee"
+          ],
+          "trap": [
+            "Release upper pressure to reset"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when opponent is actively hand-fighting and creating defensive frames from bottom?",
-        "answer": "Rather than constantly fighting their hands, use positional pressure to make their frames ineffective. Heavy shoulder pressure limits how much their frames can create space. Strip grips methodically using short, efficient movements rather than extended arm wrestling. When they exhaust energy creating frames that don't move you, they'll slow down. Stay patient with steady pressure rather than bursts of explosive effort that drain your cardio equally."
+        "answer": "Rather than constantly fighting their hands, use positional pressure to make their frames ineffective. Heavy shoulder pressure limits how much their frames can create space. Strip grips methodically using short, efficient movements rather than extended arm wrestling. When they exhaust energy creating frames that don't move you, they'll slow down. Stay patient with steady pressure rather than bursts of explosive effort that drain your cardio equally.",
+        "answer_line": "Use pressure, not hand-fighting",
+        "distractors": {
+          "plausible": [
+            "Match grip intensity constantly",
+            "Burst explosively to break frames"
+          ],
+          "trap": [
+            "Arm-wrestle their frames nonstop"
+          ]
+        }
       },
       {
         "question": "Your opponent nearly escapes by turning away from you - how do you recover the Z-Lock position rather than transitioning?",
-        "answer": "If committed to recovering Z-Lock rather than taking the back, immediately drive your shoulder back into their chest while pulling with your underhook or overhook to turn them flat. Re-establish your knee across their hip by circling it back into position as you flatten them. The window for recovery is brief - if they complete the turn to turtle, you're better served transitioning to turtle attacks rather than forcing them flat again. Prevention through heavy pressure is easier than recovery."
+        "answer": "If committed to recovering Z-Lock rather than taking the back, immediately drive your shoulder back into their chest while pulling with your underhook or overhook to turn them flat. Re-establish your knee across their hip by circling it back into position as you flatten them. The window for recovery is brief - if they complete the turn to turtle, you're better served transitioning to turtle attacks rather than forcing them flat again. Prevention through heavy pressure is easier than recovery.",
+        "answer_line": "Drive shoulder back, flatten fast",
+        "distractors": {
+          "plausible": [
+            "Chase the turn indefinitely",
+            "Release grips to re-angle"
+          ],
+          "trap": [
+            "Force flat once they've turtled"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -427,35 +507,115 @@
     "flashcards": [
       {
         "question": "Opponent drives heavy shoulder pressure into your chest while attempting to flatten you - what immediate adjustment preserves Z-Lock control?",
-        "answer": "Hip out to your underhook side while simultaneously pulling with the lockdown to off-balance them. Use your butterfly hook leg to create space by pushing against their thigh. Frame on their shoulder with your free arm while turning your body to face them rather than laying flat. The angle change makes their pressure less effective and opens sweep opportunities as they adjust."
+        "answer": "Hip out to your underhook side while simultaneously pulling with the lockdown to off-balance them. Use your butterfly hook leg to create space by pushing against their thigh. Frame on their shoulder with your free arm while turning your body to face them rather than laying flat. The angle change makes their pressure less effective and opens sweep opportunities as they adjust.",
+        "answer_line": "Hip out, pull lockdown, frame",
+        "distractors": {
+          "plausible": [
+            "Lie flat and absorb pressure",
+            "Push away with both hands"
+          ],
+          "trap": [
+            "Turn flat onto your back"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Z-Lock Half Guard Bottom and preventing guard passes?",
-        "answer": "The three critical grips are: (1) underhook on the far side reaching toward their back or belt, (2) collar grip, overhook, or wrist control on the near side to prevent crossface, and (3) your lockdown leg configuration securing their trapped leg. The underhook is highest priority as it prevents flattening and enables offensive threats. Without it, focus on collar or overhook control to prevent them establishing crossface before working to recover the underhook."
+        "answer": "The three critical grips are: (1) underhook on the far side reaching toward their back or belt, (2) collar grip, overhook, or wrist control on the near side to prevent crossface, and (3) your lockdown leg configuration securing their trapped leg. The underhook is highest priority as it prevents flattening and enables offensive threats. Without it, focus on collar or overhook control to prevent them establishing crossface before working to recover the underhook.",
+        "answer_line": "Underhook far side is top priority",
+        "distractors": {
+          "plausible": [
+            "Collar grip matters most",
+            "Lockdown leg alone is enough"
+          ],
+          "trap": [
+            "Let go of underhook for wrist grip"
+          ]
+        }
       },
       {
         "question": "How do you shut down the knee slice pass - the primary threat to your Z-Lock position?",
-        "answer": "When opponent initiates knee slice, immediately hip out away from the slicing knee while maintaining lockdown tension. Use your butterfly hook to block their knee from advancing by lifting and redirecting it. Frame on their shoulder to prevent them driving through. If possible, transition to deep half by ducking under their pressure. The key is early recognition and immediate hip movement - once the knee clears your hip line, recovery is difficult."
+        "answer": "When opponent initiates knee slice, immediately hip out away from the slicing knee while maintaining lockdown tension. Use your butterfly hook to block their knee from advancing by lifting and redirecting it. Frame on their shoulder to prevent them driving through. If possible, transition to deep half by ducking under their pressure. The key is early recognition and immediate hip movement - once the knee clears your hip line, recovery is difficult.",
+        "answer_line": "Hip out, block knee with hook",
+        "distractors": {
+          "plausible": [
+            "Push knee away with hands only",
+            "Wait until knee clears hip"
+          ],
+          "trap": [
+            "Flatten out to block the slice"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes crossface control and begins flattening you - what sequence restores the position?",
-        "answer": "First, frame on their crossface arm or shoulder to create space for your head. Bridge and hip escape toward your underhook side to create the angle needed to relieve pressure. As space opens, reinforce your lockdown grip and activate your butterfly hook to threaten elevation. Work to recover your underhook or at minimum establish an overhook to control their attacking arm. Prevention is easier than recovery - prioritize denying crossface initially."
+        "answer": "First, frame on their crossface arm or shoulder to create space for your head. Bridge and hip escape toward your underhook side to create the angle needed to relieve pressure. As space opens, reinforce your lockdown grip and activate your butterfly hook to threaten elevation. Work to recover your underhook or at minimum establish an overhook to control their attacking arm. Prevention is easier than recovery - prioritize denying crossface initially.",
+        "answer_line": "Frame, bridge, recover underhook",
+        "distractors": {
+          "plausible": [
+            "Push straight up to sit out",
+            "Wait for pressure to fade"
+          ],
+          "trap": [
+            "Turn into the crossface arm"
+          ]
+        }
       },
       {
         "question": "What is the correct weight distribution through your Z-Lock leg configuration to maintain control?",
-        "answer": "Your lockdown leg should maintain constant pulling tension toward your body, keeping their trapped leg stretched and unable to post. Your butterfly hook should be active but not overcommitted - positioned under their thigh with enough pressure to threaten elevation but able to adjust quickly. Avoid death-gripping with both legs simultaneously as this limits your mobility. Think 70% lockdown tension, 30% butterfly activity, adjusting ratio based on opponent's reactions."
+        "answer": "Your lockdown leg should maintain constant pulling tension toward your body, keeping their trapped leg stretched and unable to post. Your butterfly hook should be active but not overcommitted - positioned under their thigh with enough pressure to threaten elevation but able to adjust quickly. Avoid death-gripping with both legs simultaneously as this limits your mobility. Think 70% lockdown tension, 30% butterfly activity, adjusting ratio based on opponent's reactions.",
+        "answer_line": "Lockdown pulls, hook stays light",
+        "distractors": {
+          "plausible": [
+            "Grip both legs equally hard",
+            "Butterfly hook does the pulling"
+          ],
+          "trap": [
+            "Death-grip both legs at once"
+          ]
+        }
       },
       {
         "question": "Opponent attempts to strip your lockdown by straightening their trapped leg forcefully - what counter maintains position?",
-        "answer": "When they straighten, immediately attack the electric chair by transitioning to a shoulder-walk position while maintaining lockdown. Their straightening actually helps your electric chair attack by creating the stretch. If electric chair isn't available, use their straightening momentum to come up toward dogfight by driving off your butterfly hook while maintaining underhook. Converting their escape attempt into your offensive transition neutralizes the defense."
+        "answer": "When they straighten, immediately attack the electric chair by transitioning to a shoulder-walk position while maintaining lockdown. Their straightening actually helps your electric chair attack by creating the stretch. If electric chair isn't available, use their straightening momentum to come up toward dogfight by driving off your butterfly hook while maintaining underhook. Converting their escape attempt into your offensive transition neutralizes the defense.",
+        "answer_line": "Attack electric chair off stretch",
+        "distractors": {
+          "plausible": [
+            "Re-grip lockdown immediately",
+            "Pull leg back to original bend"
+          ],
+          "trap": [
+            "Release the leg and reset guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy conservation when playing extended Z-Lock sequences against a heavy pressure passer?",
-        "answer": "Focus on structural frames rather than muscular resistance. Keep your skeleton aligned so their pressure transfers through your frame to the mat. Use hip movement to redirect pressure rather than absorbing it directly. Attack in short bursts when they commit weight forward, then return to defensive framing. Avoid constant grip tension - grip firmly during attacks, maintain lighter control during defensive phases. Let them work harder than you while you control distance and timing."
+        "answer": "Focus on structural frames rather than muscular resistance. Keep your skeleton aligned so their pressure transfers through your frame to the mat. Use hip movement to redirect pressure rather than absorbing it directly. Attack in short bursts when they commit weight forward, then return to defensive framing. Avoid constant grip tension - grip firmly during attacks, maintain lighter control during defensive phases. Let them work harder than you while you control distance and timing.",
+        "answer_line": "Frame structurally, attack in bursts",
+        "distractors": {
+          "plausible": [
+            "Grip tightly the entire time",
+            "Absorb pressure with strength"
+          ],
+          "trap": [
+            "Match their pressure constantly"
+          ]
+        }
       },
       {
         "question": "Your opponent nearly passes and you lose your butterfly hook but maintain lockdown - how do you recover full Z-Lock configuration?",
-        "answer": "Immediately create space by bridging and hip escaping toward your underhook side while pulling with lockdown. As opponent adjusts to your movement, use the opening to re-insert your butterfly hook under their free leg. You may need to temporarily abandon the full Z-Lock to recover closed guard or traditional half guard, then re-establish the butterfly hook once you've stabilized. Recovery requires space - create it through movement before attempting to reconfigure."
+        "answer": "Immediately create space by bridging and hip escaping toward your underhook side while pulling with lockdown. As opponent adjusts to your movement, use the opening to re-insert your butterfly hook under their free leg. You may need to temporarily abandon the full Z-Lock to recover closed guard or traditional half guard, then re-establish the butterfly hook once you've stabilized. Recovery requires space - create it through movement before attempting to reconfigure.",
+        "answer_line": "Hip escape, then re-insert hook",
+        "distractors": {
+          "plausible": [
+            "Force the hook back in place",
+            "Hold still and wait for space"
+          ],
+          "trap": [
+            "Release lockdown to reset legs"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -716,15 +876,45 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines the Z-Lock Half Guard and gives it its name?",
-      "answer": "The bottom player's two legs form a 'Z' shape around the top player's trapped leg: one leg establishes a lockdown by hooking behind the opponent's ankle and stretching the trapped leg away, while the other leg acts as a butterfly hook positioned under the opponent's opposite thigh. Viewed from above, the stretched lockdown leg and the elevated butterfly leg create the angular Z geometry. This dual-leg system is the structural signature of the position and separates it from a single-function leg entanglement. Both legs work in opposition to each other, one pulling and stretching while the other lifts and elevates."
+      "answer": "The bottom player's two legs form a 'Z' shape around the top player's trapped leg: one leg establishes a lockdown by hooking behind the opponent's ankle and stretching the trapped leg away, while the other leg acts as a butterfly hook positioned under the opponent's opposite thigh. Viewed from above, the stretched lockdown leg and the elevated butterfly leg create the angular Z geometry. This dual-leg system is the structural signature of the position and separates it from a single-function leg entanglement. Both legs work in opposition to each other, one pulling and stretching while the other lifts and elevates.",
+      "answer_line": "Lockdown stretch + butterfly hook",
+      "distractors": {
+        "plausible": [
+          "Both legs form a single hook",
+          "Butterfly hook on same side"
+        ],
+        "trap": [
+          "Both legs squeeze the same knee"
+        ]
+      }
     },
     {
       "question": "Why does the Z-Lock create a genuine dilemma that a standard lockdown does not?",
-      "answer": "A standard lockdown threatens attacks predominantly on one side, letting the top player commit their weight and base against that single vector. The Z-Lock adds a butterfly hook on the opposite side, so the two legs threaten opposite directions simultaneously: the lockdown stretches and off-balances one way while the butterfly elevates the other. Defending the lockdown side opens the butterfly sweep, and shutting down the butterfly opens the electric chair and old-school attacks. This fork is the defining shared dynamic of the position, forcing the top player to split their attention and base rather than committing fully to one side."
+      "answer": "A standard lockdown threatens attacks predominantly on one side, letting the top player commit their weight and base against that single vector. The Z-Lock adds a butterfly hook on the opposite side, so the two legs threaten opposite directions simultaneously: the lockdown stretches and off-balances one way while the butterfly elevates the other. Defending the lockdown side opens the butterfly sweep, and shutting down the butterfly opens the electric chair and old-school attacks. This fork is the defining shared dynamic of the position, forcing the top player to split their attention and base rather than committing fully to one side.",
+      "answer_line": "Two legs threaten opposite ways",
+      "distractors": {
+        "plausible": [
+          "Lockdown alone forces the fork",
+          "Butterfly hook doubles as lockdown"
+        ],
+        "trap": [
+          "Both legs attack the same side"
+        ]
+      }
     },
     {
       "question": "How does hip angle function as a shared control mechanism in Z-Lock Half Guard?",
-      "answer": "The position lives or dies on the bottom player staying angled onto their side rather than flat on their back, and the top player's central goal is to flatten them. When the hips are angled, the Z-configuration retains its geometry and the butterfly hook can elevate; once the hips are squared flat, the butterfly hook collapses and the position degrades toward a flattened half guard. This makes hip angle the pivotal contested variable for both players, one fighting to preserve it and the other fighting to remove it. The entire offensive and defensive struggle is organized around whether that angle survives."
+      "answer": "The position lives or dies on the bottom player staying angled onto their side rather than flat on their back, and the top player's central goal is to flatten them. When the hips are angled, the Z-configuration retains its geometry and the butterfly hook can elevate; once the hips are squared flat, the butterfly hook collapses and the position degrades toward a flattened half guard. This makes hip angle the pivotal contested variable for both players, one fighting to preserve it and the other fighting to remove it. The entire offensive and defensive struggle is organized around whether that angle survives.",
+      "answer_line": "Hip angle preserves the Z shape",
+      "distractors": {
+        "plausible": [
+          "Shoulder pressure controls angle",
+          "Grip strength preserves the angle"
+        ],
+        "trap": [
+          "Squaring hips flat keeps control"
+        ]
+      }
     },
     {
       "question": "What roles do the two legs play in the opposing tension that holds the Z-Lock together?",
@@ -736,15 +926,45 @@
     },
     {
       "question": "How does the Z-Lock Half Guard differ from butterfly half guard and deep half guard?",
-      "answer": "Butterfly half guard uses a butterfly hook for elevation but lacks the ankle-stretching lockdown, so it does not stretch and immobilize the trapped leg the way the Z-Lock does. Deep half guard places the bottom player fully underneath the opponent's hips seeking a different set of sweeps, sacrificing the angular topside leverage the Z-Lock keeps. The Z-Lock is distinguished by combining a lockdown and a butterfly hook at once, retaining more mobility than a plain lockdown while stretching the trapped leg more than butterfly half guard. It occupies a middle ground that borrows the immobilizing stretch of one and the elevation threat of the other."
+      "answer": "Butterfly half guard uses a butterfly hook for elevation but lacks the ankle-stretching lockdown, so it does not stretch and immobilize the trapped leg the way the Z-Lock does. Deep half guard places the bottom player fully underneath the opponent's hips seeking a different set of sweeps, sacrificing the angular topside leverage the Z-Lock keeps. The Z-Lock is distinguished by combining a lockdown and a butterfly hook at once, retaining more mobility than a plain lockdown while stretching the trapped leg more than butterfly half guard. It occupies a middle ground that borrows the immobilizing stretch of one and the elevation threat of the other.",
+      "answer_line": "Combines lockdown stretch and hook",
+      "distractors": {
+        "plausible": [
+          "Same as deep half guard",
+          "Same as plain butterfly guard"
+        ],
+        "trap": [
+          "Z-lock skips the lockdown entirely"
+        ]
+      }
     },
     {
       "question": "What conditions cause the Z-Lock to degrade into an inferior position for the bottom player?",
-      "answer": "The configuration collapses when the bottom player is flattened onto their back, when the butterfly hook is stripped so only a static lockdown remains, or when the top player secures a crossface that removes the hip angle. Loss of the upper-body connection lets the opponent consolidate chest pressure, and once the hips square up the two-legged fork disappears. At that point the position slides toward a flattened half guard where the top player can begin standard passing sequences. Recognizing these degradation triggers is shared knowledge both players use, one to prevent them and the other to force them."
+      "answer": "The configuration collapses when the bottom player is flattened onto their back, when the butterfly hook is stripped so only a static lockdown remains, or when the top player secures a crossface that removes the hip angle. Loss of the upper-body connection lets the opponent consolidate chest pressure, and once the hips square up the two-legged fork disappears. At that point the position slides toward a flattened half guard where the top player can begin standard passing sequences. Recognizing these degradation triggers is shared knowledge both players use, one to prevent them and the other to force them.",
+      "answer_line": "Flattened, hook stripped, crossface",
+      "distractors": {
+        "plausible": [
+          "Losing grips only, legs intact",
+          "Opponent passes guard completely"
+        ],
+        "trap": [
+          "Switching to butterfly hook only"
+        ]
+      }
     },
     {
       "question": "Why is the Z-Lock especially valued in no-gi grappling relative to gi?",
-      "answer": "No-gi removes the friction and grip-based controls that both players rely on to slow exchanges, making dynamic leg entanglements and hook-based off-balancing comparatively more effective. The Z-Lock's control comes from the mechanical stretch of the lockdown and the elevation of the butterfly hook rather than fabric grips, so it retains its full leverage without a gi. It emerged from and was refined within the 10th Planet system, which is explicitly no-gi oriented. While the configuration still functions in the gi, its reliance on leg geometry rather than cloth grips is what makes it a signature no-gi framework."
+      "answer": "No-gi removes the friction and grip-based controls that both players rely on to slow exchanges, making dynamic leg entanglements and hook-based off-balancing comparatively more effective. The Z-Lock's control comes from the mechanical stretch of the lockdown and the elevation of the butterfly hook rather than fabric grips, so it retains its full leverage without a gi. It emerged from and was refined within the 10th Planet system, which is explicitly no-gi oriented. While the configuration still functions in the gi, its reliance on leg geometry rather than cloth grips is what makes it a signature no-gi framework.",
+      "answer_line": "Leverage from legs, not gi grips",
+      "distractors": {
+        "plausible": [
+          "Better because of collar grips",
+          "Needs friction from gi fabric"
+        ],
+        "trap": [
+          "Relies on cloth grips for control"
+        ]
+      }
     }
   ],
   "clips": [

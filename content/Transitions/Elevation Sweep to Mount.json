@@ -214,51 +214,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Elevation Sweep to Mount?",
-        "answer": "The primary goal is to use the hook configuration of Reverse X-Guard to lift the opponent's base entirely off the ground, toppling them backward while you follow to land directly in mount position. This bypasses intermediate positions and achieves maximum positional advancement in a single movement."
+        "answer": "The primary goal is to use the hook configuration of Reverse X-Guard to lift the opponent's base entirely off the ground, toppling them backward while you follow to land directly in mount position. This bypasses intermediate positions and achieves maximum positional advancement in a single movement.",
+        "answer_line": "Lift base, topple to mount",
+        "distractors": {
+          "plausible": [
+            "Sweep to top, then pass guard",
+            "Off-balance to side control"
+          ],
+          "trap": [
+            "Release hooks, scramble on top"
+          ]
+        }
       },
       {
         "question": "What position do you start Elevation Sweep to Mount from?",
-        "answer": "This technique starts from Reverse X-Guard Bottom, with your primary hook behind the opponent's near knee, secondary hook controlling their hip, and your body angled away with hips positioned underneath their center of gravity."
+        "answer": "This technique starts from Reverse X-Guard Bottom, with your primary hook behind the opponent's near knee, secondary hook controlling their hip, and your body angled away with hips positioned underneath their center of gravity.",
+        "answer_line": "Reverse X-Guard Bottom",
+        "distractors": {
+          "plausible": [
+            "Single Leg X-Guard bottom",
+            "Standard X-Guard bottom"
+          ],
+          "trap": [
+            "Closed guard, ankles crossed"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Elevation Sweep to Mount?",
-        "answer": "The essential grip is sleeve or wrist control on the same side as your hooks, preventing the opponent from posting when swept. In gi, alternatives include belt grip for enhanced rotational control or deep collar grip for diagonal pulling. The grip must enable forward pulling to load the opponent's weight onto your hooks."
+        "answer": "The essential grip is sleeve or wrist control on the same side as your hooks, preventing the opponent from posting when swept. In gi, alternatives include belt grip for enhanced rotational control or deep collar grip for diagonal pulling. The grip must enable forward pulling to load the opponent's weight onto your hooks.",
+        "answer_line": "Sleeve/wrist grip, same side",
+        "distractors": {
+          "plausible": [
+            "Opposite-side collar grip",
+            "Both sleeves, cross grip"
+          ],
+          "trap": [
+            "Grab both pant cuffs"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Elevation Sweep to Mount?",
-        "answer": "The optimal timing is when the opponent maintains centered weight distribution with upright posture, particularly when they are reaching to establish grips on your upper body. Their forward weight shift and elevated center of gravity create the ideal conditions for the elevation mechanics to work."
+        "answer": "The optimal timing is when the opponent maintains centered weight distribution with upright posture, particularly when they are reaching to establish grips on your upper body. Their forward weight shift and elevated center of gravity create the ideal conditions for the elevation mechanics to work.",
+        "answer_line": "Centered, upright, reaching in",
+        "distractors": {
+          "plausible": [
+            "Opponent basing out wide",
+            "Opponent seated and passive"
+          ],
+          "trap": [
+            "Opponent already flat on back"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base significantly when you attempt the elevation - what is your response?",
-        "answer": "When the opponent widens base, the direct elevation becomes difficult. Immediately transition to the technical Reverse X-Guard Sweep that works with their lateral base extension, or follow their widening movement to establish Single Leg X-Guard. Their wide stance actually creates vulnerability to directional sweeps that exploit the lateral imbalance."
+        "answer": "When the opponent widens base, the direct elevation becomes difficult. Immediately transition to the technical Reverse X-Guard Sweep that works with their lateral base extension, or follow their widening movement to establish Single Leg X-Guard. Their wide stance actually creates vulnerability to directional sweeps that exploit the lateral imbalance.",
+        "answer_line": "Switch to lateral X-Guard sweep",
+        "distractors": {
+          "plausible": [
+            "Force the elevation harder",
+            "Release everything, reset guard"
+          ],
+          "trap": [
+            "Pull straight back for elevation"
+          ]
+        }
       },
       {
         "question": "What is the critical hip position required before initiating the sweep?",
-        "answer": "Your hips must be positioned directly underneath the opponent's center of gravity, creating a platform where your hook extension generates vertical force through their base. If hips are too far away, you lift toward you rather than up. If too close, you lack extension range. The optimal position creates a fulcrum directly under their standing leg."
+        "answer": "Your hips must be positioned directly underneath the opponent's center of gravity, creating a platform where your hook extension generates vertical force through their base. If hips are too far away, you lift toward you rather than up. If too close, you lack extension range. The optimal position creates a fulcrum directly under their standing leg.",
+        "answer_line": "Hips under their center of gravity",
+        "distractors": {
+          "plausible": [
+            "Hips pulled back for range",
+            "Hips tucked close to your chest"
+          ],
+          "trap": [
+            "Hips angled away, far from them"
+          ]
+        }
       },
       {
         "question": "How do you coordinate upper body and lower body mechanics during the sweep?",
-        "answer": "The sleeve pull and hip extension must be perfectly synchronized. Begin the forward pull slightly before hip extension to load weight onto hooks, then extend hips explosively as you continue pulling. The upper body pull prevents backward recovery while the hip extension provides lifting power. Disconnecting these creates weakness the opponent can exploit."
+        "answer": "The sleeve pull and hip extension must be perfectly synchronized. Begin the forward pull slightly before hip extension to load weight onto hooks, then extend hips explosively as you continue pulling. The upper body pull prevents backward recovery while the hip extension provides lifting power. Disconnecting these creates weakness the opponent can exploit.",
+        "answer_line": "Pull first, then explode hips",
+        "distractors": {
+          "plausible": [
+            "Extend hips first, then pull",
+            "Pull and extend at same time"
+          ],
+          "trap": [
+            "Release grip during hip extension"
+          ]
+        }
       },
       {
         "question": "What distinguishes this sweep from the standard Reverse X-Guard Sweep?",
-        "answer": "The Elevation Sweep uses vertical lifting mechanics to topple the opponent directly backward to mount, while the standard Reverse X-Guard Sweep uses rotational force to sweep laterally. Elevation Sweep works against centered opponents and leads to mount. The standard sweep works against opponents with lateral base and typically leads to top position requiring guard passing."
+        "answer": "The Elevation Sweep uses vertical lifting mechanics to topple the opponent directly backward to mount, while the standard Reverse X-Guard Sweep uses rotational force to sweep laterally. Elevation Sweep works against centered opponents and leads to mount. The standard sweep works against opponents with lateral base and typically leads to top position requiring guard passing.",
+        "answer_line": "Vertical lift to mount, not pass",
+        "distractors": {
+          "plausible": [
+            "Rotational sweep to top position",
+            "Both lead to same position"
+          ],
+          "trap": [
+            "Elevation sweep ends in back take"
+          ]
+        }
       },
       {
         "question": "If your hooks start slipping during the elevation attempt, what is your recovery option?",
-        "answer": "If hooks slip, immediately abandon the elevation and transition before losing control entirely. If primary hook slips, transition to Single Leg X-Guard which requires less hook depth. If secondary hook slips, use remaining hook to follow opponent and attempt back take or Ashi Garami entry. Never continue a sweep attempt with compromised hooks."
+        "answer": "If hooks slip, immediately abandon the elevation and transition before losing control entirely. If primary hook slips, transition to Single Leg X-Guard which requires less hook depth. If secondary hook slips, use remaining hook to follow opponent and attempt back take or Ashi Garami entry. Never continue a sweep attempt with compromised hooks.",
+        "answer_line": "Abandon, transition hook-specific",
+        "distractors": {
+          "plausible": [
+            "Push through with one hook",
+            "Reset guard, restart entry"
+          ],
+          "trap": [
+            "Force the sweep regardless"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand behind them as you begin the elevation - how do you adjust mid-technique?",
-        "answer": "When the opponent posts behind them, immediately increase the forward pull on your sleeve grip to collapse the posting arm. If you cannot break the post, redirect your sweep angle laterally toward the posting side, as the posted arm cannot provide lateral base. Alternatively, the posting hand removes it from controlling your grips, opening an immediate transition to a different sweep angle or arm drag opportunity."
+        "answer": "When the opponent posts behind them, immediately increase the forward pull on your sleeve grip to collapse the posting arm. If you cannot break the post, redirect your sweep angle laterally toward the posting side, as the posted arm cannot provide lateral base. Alternatively, the posting hand removes it from controlling your grips, opening an immediate transition to a different sweep angle or arm drag opportunity.",
+        "answer_line": "Pull harder, collapse the post",
+        "distractors": {
+          "plausible": [
+            "Switch angle away from post",
+            "Abandon sweep, reset position"
+          ],
+          "trap": [
+            "Push opponent toward their post"
+          ]
+        }
       },
       {
         "question": "What is the direction of force generated by each hook during the elevation?",
-        "answer": "The primary hook behind the knee generates upward and slightly backward force, lifting the opponent's base off the ground. The secondary hook on the hip generates backward and rotational force, tilting the opponent's pelvis over the fulcrum created by the primary hook. Together they create a compound vector that projects the opponent up and over your body. The combined force must be directed through the opponent's center line to prevent lateral escape."
+        "answer": "The primary hook behind the knee generates upward and slightly backward force, lifting the opponent's base off the ground. The secondary hook on the hip generates backward and rotational force, tilting the opponent's pelvis over the fulcrum created by the primary hook. Together they create a compound vector that projects the opponent up and over your body. The combined force must be directed through the opponent's center line to prevent lateral escape.",
+        "answer_line": "Up-back lift, hip tilts over",
+        "distractors": {
+          "plausible": [
+            "Both hooks pull straight down",
+            "Hooks push forward and out"
+          ],
+          "trap": [
+            "Hooks pull opponent toward you"
+          ]
+        }
       },
       {
         "question": "The sweep succeeds but you land in a loose mount with the opponent already framing - what went wrong and how do you prevent it?",
-        "answer": "This typically occurs from releasing hooks too early or failing to follow the sweep momentum closely enough. The correction is to maintain hook contact deeper into the sweep transition, keeping your body tight to the opponent throughout the rotation. As you land, immediately drive hips forward to the solar plexus and control at least one arm before the opponent can establish frames. The mount should be consolidated within the first half-second of landing."
+        "answer": "This typically occurs from releasing hooks too early or failing to follow the sweep momentum closely enough. The correction is to maintain hook contact deeper into the sweep transition, keeping your body tight to the opponent throughout the rotation. As you land, immediately drive hips forward to the solar plexus and control at least one arm before the opponent can establish frames. The mount should be consolidated within the first half-second of landing.",
+        "answer_line": "Stay tight, control arm fast",
+        "distractors": {
+          "plausible": [
+            "Sit back and reset base",
+            "Post hands, then settle in"
+          ],
+          "trap": [
+            "Release hooks, jump to mount"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Elevation Sweep, ensure controlled execution throughout the movement to protect both training partners. The sweep generates significant rotational force that can cause the opponent to fall unexpectedly. The landing partner should practice controlled breakfalls and the sweeping partner should guide the fall rather than dumping. Avoid executing at full power until both partners are comfortable with the mechanics. During drilling, the landing partner should tap immediately if they feel loss of control. Be cautious of knee strain when hooks are loaded heavily - release if the position feels compromised rather than forcing technique. Partners with lower back issues should communicate limitations as the elevation requires significant hip mobility.",
@@ -372,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an Elevation Sweep is being set up?",
-        "answer": "The earliest cue is the opponent sliding their hips underneath your center of gravity while angling their body diagonally away from you. This hip loading precedes any pulling or elevation and represents the setup phase where defensive intervention is most effective. You will also feel their hooks adjusting to create a bilateral platform rather than maintaining a guard retention position."
+        "answer": "The earliest cue is the opponent sliding their hips underneath your center of gravity while angling their body diagonally away from you. This hip loading precedes any pulling or elevation and represents the setup phase where defensive intervention is most effective. You will also feel their hooks adjusting to create a bilateral platform rather than maintaining a guard retention position.",
+        "answer_line": "Hips loading under you, angling",
+        "distractors": {
+          "plausible": [
+            "Opponent gripping your collar tight",
+            "Sudden explosive hip extension"
+          ],
+          "trap": [
+            "Opponent basing out wide already"
+          ]
+        }
       },
       {
         "question": "Why is widening your base the primary prevention defense, and what risk does it create?",
-        "answer": "Widening your base removes the bilateral lifting platform the sweeper needs by distributing your weight laterally rather than centering it over their hooks. However, the wide base creates vulnerability to lateral sweeps like the technical Reverse X-Guard Sweep and may open transitions to Single Leg X-Guard. The defender must be prepared to address these secondary threats immediately after widening base."
+        "answer": "Widening your base removes the bilateral lifting platform the sweeper needs by distributing your weight laterally rather than centering it over their hooks. However, the wide base creates vulnerability to lateral sweeps like the technical Reverse X-Guard Sweep and may open transitions to Single Leg X-Guard. The defender must be prepared to address these secondary threats immediately after widening base.",
+        "answer_line": "Denies lift, opens lateral sweep",
+        "distractors": {
+          "plausible": [
+            "Fully safe with no follow-up risk",
+            "Stops all sweeps permanently"
+          ],
+          "trap": [
+            "Ignore hooks after widening base"
+          ]
+        }
       },
       {
         "question": "You are already being elevated and cannot prevent the sweep - what is your damage control strategy?",
-        "answer": "When prevention fails and you are mid-elevation, immediately shift to mitigation. Post one hand behind you to slow the fall, then aggressively rotate your hips and drive your near knee across the opponent's body during the descent. The goal is to land in half guard rather than full mount. Time the knee insertion for the moment of landing when the sweeper transitions from hook control to mount establishment, as this is when their control is weakest."
+        "answer": "When prevention fails and you are mid-elevation, immediately shift to mitigation. Post one hand behind you to slow the fall, then aggressively rotate your hips and drive your near knee across the opponent's body during the descent. The goal is to land in half guard rather than full mount. Time the knee insertion for the moment of landing when the sweeper transitions from hook control to mount establishment, as this is when their control is weakest.",
+        "answer_line": "Post, rotate, knee to half guard",
+        "distractors": {
+          "plausible": [
+            "Relax and accept full mount",
+            "Fight hooks, refuse to fall"
+          ],
+          "trap": [
+            "Turtle up to escape the sweep"
+          ]
+        }
       },
       {
         "question": "Why is the controlling grip on your sleeve or wrist so critical to the sweep's success?",
-        "answer": "The controlling grip enables the forward-loading pull that shifts your weight onto the opponent's hooks, creating the conditions for effective elevation. Without this grip, the sweeper cannot prevent you from leaning away or stepping back when hooks engage. Breaking or preventing this grip removes the upper body component of the sweep, forcing the opponent to rely on hooks alone, which provides significantly less sweeping power and control."
+        "answer": "The controlling grip enables the forward-loading pull that shifts your weight onto the opponent's hooks, creating the conditions for effective elevation. Without this grip, the sweeper cannot prevent you from leaning away or stepping back when hooks engage. Breaking or preventing this grip removes the upper body component of the sweep, forcing the opponent to rely on hooks alone, which provides significantly less sweeping power and control.",
+        "answer_line": "Enables pull that loads hooks",
+        "distractors": {
+          "plausible": [
+            "Only for balance, not essential",
+            "Used just to control posture"
+          ],
+          "trap": [
+            "Grip only needed after sweep lands"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts the elevation but you successfully widen your base - what should you do next?",
-        "answer": "After widening base to deny the elevation, immediately begin addressing the hooks before the opponent can transition to alternative attacks. Drive forward pressure to flatten their structure, start clearing the primary hook behind your knee, and establish upper body control through collar or sleeve grips. Do not remain in the wide-base position passively, as the opponent will quickly transition to lateral sweeps or leg entanglement entries that exploit your widened stance."
+        "answer": "After widening base to deny the elevation, immediately begin addressing the hooks before the opponent can transition to alternative attacks. Drive forward pressure to flatten their structure, start clearing the primary hook behind your knee, and establish upper body control through collar or sleeve grips. Do not remain in the wide-base position passively, as the opponent will quickly transition to lateral sweeps or leg entanglement entries that exploit your widened stance.",
+        "answer_line": "Clear hooks, pressure forward now",
+        "distractors": {
+          "plausible": [
+            "Stay wide and wait passively",
+            "Immediately stand up to disengage"
+          ],
+          "trap": [
+            "Relax base, let hooks re-engage"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -232,19 +232,59 @@
     "flashcards": [
       {
         "question": "Why must you secure the underhook and cross-face before threading your knee in the leg weave entry?",
-        "answer": "The underhook and cross-face flatten the opponent's shoulders and remove their ability to sit up or dive under your advancing leg. If you commit the knee first, the opponent simply enters deep half guard or comes up on the underhook before the weave sets, reversing the position. Upper body control is the prerequisite that makes the knee thread the easy final step rather than a gamble that hands the opponent a counter."
+        "answer": "The underhook and cross-face flatten the opponent's shoulders and remove their ability to sit up or dive under your advancing leg. If you commit the knee first, the opponent simply enters deep half guard or comes up on the underhook before the weave sets, reversing the position. Upper body control is the prerequisite that makes the knee thread the easy final step rather than a gamble that hands the opponent a counter.",
+        "answer_line": "Flatten shoulders before the knee",
+        "distractors": {
+          "plausible": [
+            "Thread the knee first, control after",
+            "Cross-face alone, skip the underhook"
+          ],
+          "trap": [
+            "Thread knee immediately for speed"
+          ]
+        }
       },
       {
         "question": "What is the difference between weaving your leg under versus over the opponent's bottom leg, and why does it matter?",
-        "answer": "Weaving under means your shin slides beneath the opponent's bottom leg, instep toward the mat, so your shin staples their leg from below and pins it flat. Weaving over leaves their leg mobile and their hooks active, which lets them retain guard or sweep you. Only the under-weave converts the entry into a genuine control that neutralizes their legs - going over is the single most common reason the entry fails to produce a real leg weave."
+        "answer": "Weaving under means your shin slides beneath the opponent's bottom leg, instep toward the mat, so your shin staples their leg from below and pins it flat. Weaving over leaves their leg mobile and their hooks active, which lets them retain guard or sweep you. Only the under-weave converts the entry into a genuine control that neutralizes their legs - going over is the single most common reason the entry fails to produce a real leg weave.",
+        "answer_line": "Weave under, staple leg down",
+        "distractors": {
+          "plausible": [
+            "Weave over for a quicker entry",
+            "Either side controls the leg"
+          ],
+          "trap": [
+            "Weave over to free their hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent dives under your advancing knee to enter deep half guard - how do you respond?",
-        "answer": "Immediately drop your hips low and post your far hand wide so they cannot elevate you for the deep half sweep. Whizzer the arm on the underhook side and back-step out, circling your trapped leg free before they consolidate their grip under your leg. The priority is denying their depth and re-establishing cross-face pressure; if you feel the dive early, re-flattening them before they get under is far better than fighting the established deep half."
+        "answer": "Immediately drop your hips low and post your far hand wide so they cannot elevate you for the deep half sweep. Whizzer the arm on the underhook side and back-step out, circling your trapped leg free before they consolidate their grip under your leg. The priority is denying their depth and re-establishing cross-face pressure; if you feel the dive early, re-flattening them before they get under is far better than fighting the established deep half.",
+        "answer_line": "Drop hips, whizzer, back-step out",
+        "distractors": {
+          "plausible": [
+            "Fight the deep half grip directly",
+            "Yank your trapped knee straight back"
+          ],
+          "trap": [
+            "Post near hand and lean back"
+          ]
+        }
       },
       {
         "question": "How should you free your trapped knee during the entry, and what is the common mistake?",
-        "answer": "Slide the knee forward and angle it across the opponent's centerline toward their far hip, so it travels into the thread between their legs. The common mistake is yanking the knee straight back to free it, which opens space between your hips and the opponent. That space is exactly what they need to insert a knee shield or shrimp to guard, so the knee must always move forward into the opponent, never away from them."
+        "answer": "Slide the knee forward and angle it across the opponent's centerline toward their far hip, so it travels into the thread between their legs. The common mistake is yanking the knee straight back to free it, which opens space between your hips and the opponent. That space is exactly what they need to insert a knee shield or shrimp to guard, so the knee must always move forward into the opponent, never away from them.",
+        "answer_line": "Angle knee forward to far hip",
+        "distractors": {
+          "plausible": [
+            "Slide knee straight up the middle",
+            "Angle knee toward the near hip"
+          ],
+          "trap": [
+            "Yank knee straight back to free it"
+          ]
+        }
       },
       {
         "question": "What weight and head position consolidates the leg weave once the knee is threaded?",
@@ -252,7 +292,17 @@
       },
       {
         "question": "What happens if you rise up onto your hips while driving the knee through, and how do you avoid it?",
-        "answer": "Rising onto your hips lifts your chest off the opponent, removing the pressure that keeps them flat and simultaneously opening both the deep half guard dive and the underhook sit-up. To avoid it, keep your hips low and your chest connected throughout, driving the knee forward along the mat rather than lifting up to step it over. Pressure must never lighten during the thread - the entry is a low, connected slide, not a high step."
+        "answer": "Rising onto your hips lifts your chest off the opponent, removing the pressure that keeps them flat and simultaneously opening both the deep half guard dive and the underhook sit-up. To avoid it, keep your hips low and your chest connected throughout, driving the knee forward along the mat rather than lifting up to step it over. Pressure must never lighten during the thread - the entry is a low, connected slide, not a high step.",
+        "answer_line": "Stay low, keep chest connected",
+        "distractors": {
+          "plausible": [
+            "Rise slightly for a better angle",
+            "Lift chest to watch the knee thread"
+          ],
+          "trap": [
+            "Pop onto hips to step knee over"
+          ]
+        }
       }
     ],
     "safety_considerations": "This entry is mechanically safe for both players when threaded with control. The main concern is the knee-threading leg: drive it between the opponent's legs deliberately rather than kicking it through, since an uncontrolled knee can strike the partner's inner thigh, groin, or tailbone. The cross-face should pressure the jaw and cheek, never the throat or eyes, and should be applied with steady weight rather than a sudden crank to the neck. During the deep half counter, control your descent so you do not collapse your weight onto the partner's diving head or neck. Beginners should drill the thread slowly at low resistance to learn the under-weave path before adding pressure, protecting both partners' knees and the bottom player's neck.",
@@ -355,7 +405,17 @@
     "flashcards": [
       {
         "question": "When is the critical moment to react to the leg weave entry, and why?",
-        "answer": "The critical moment is the instant you feel the passer's knee advance forward and low between your legs. The entry is defeated during the thread, before the weave sets - once your legs are stapled flat and your knee shield is gone, you are left only with the difficult frame-and-shrimp recovery. Reacting early lets you re-shield, dive into deep half, or come up on the underhook while you still have the leg connection and hip mobility to make those counters work."
+        "answer": "The critical moment is the instant you feel the passer's knee advance forward and low between your legs. The entry is defeated during the thread, before the weave sets - once your legs are stapled flat and your knee shield is gone, you are left only with the difficult frame-and-shrimp recovery. Reacting early lets you re-shield, dive into deep half, or come up on the underhook while you still have the leg connection and hip mobility to make those counters work.",
+        "answer_line": "Feel the knee advance and thread",
+        "distractors": {
+          "plausible": [
+            "Wait until the weave is fully set",
+            "React the moment cross-face lands"
+          ],
+          "trap": [
+            "Wait until your hips go flat"
+          ]
+        }
       },
       {
         "question": "How can you use the passer's forward commitment against them during the entry?",
@@ -367,7 +427,17 @@
       },
       {
         "question": "What is the risk of coming up on the underhook to defend the entry, and how do you manage it?",
-        "answer": "Coming up on the underhook to reach a dogfight or sweep risks exposing your back if you turn too far or lose the underhook, letting the passer take the back or re-establish the weave with you turned away. Manage it by keeping your inside shoulder connected to the passer's chest, coming up on your elbow first rather than leading with a turn, and abandoning the come-up to flatten back down if you feel an arm starting to snake around your back."
+        "answer": "Coming up on the underhook to reach a dogfight or sweep risks exposing your back if you turn too far or lose the underhook, letting the passer take the back or re-establish the weave with you turned away. Manage it by keeping your inside shoulder connected to the passer's chest, coming up on your elbow first rather than leading with a turn, and abandoning the come-up to flatten back down if you feel an arm starting to snake around your back.",
+        "answer_line": "Elbow up first, stay connected",
+        "distractors": {
+          "plausible": [
+            "Turn fully away to reach the back",
+            "Release underhook to sweep faster"
+          ],
+          "trap": [
+            "Turn belly-down chasing their arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

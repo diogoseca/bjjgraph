@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What serves as the rotational pivot point during the transition, and why is it critical?",
-        "answer": "Your inside leg serves as the rotational pivot. It stays locked inside the entanglement structure, pressing inward against the opponent's leg while your body circles around it. Without this fixed pivot, the rotation has no axis, causing you to either lose entanglement tension or create gaps that allow leg extraction. Every other element of the transition depends on this anchor remaining stable throughout."
+        "answer": "Your inside leg serves as the rotational pivot. It stays locked inside the entanglement structure, pressing inward against the opponent's leg while your body circles around it. Without this fixed pivot, the rotation has no axis, causing you to either lose entanglement tension or create gaps that allow leg extraction. Every other element of the transition depends on this anchor remaining stable throughout.",
+        "answer_line": "Inside leg locked as pivot",
+        "distractors": {
+          "plausible": [
+            "Outside leg anchors rotation",
+            "Top hip drives the rotation"
+          ],
+          "trap": [
+            "Release leg to spin faster"
+          ]
+        }
       },
       {
         "question": "Your opponent is aggressively grip fighting your hands in standard 50-50. Is this a good or bad time to initiate the rotation?",
-        "answer": "This is an excellent time to initiate the rotation. When your opponent is focused on hand fighting, their hips are typically static because their attention and physical effort are directed toward their upper body. Their reduced hip mobility creates the ideal window for the hip walking arc. Secure one anchor grip during the exchange, then begin the rotation while they are still processing the grip battle."
+        "answer": "This is an excellent time to initiate the rotation. When your opponent is focused on hand fighting, their hips are typically static because their attention and physical effort are directed toward their upper body. Their reduced hip mobility creates the ideal window for the hip walking arc. Secure one anchor grip during the exchange, then begin the rotation while they are still processing the grip battle.",
+        "answer_line": "Yes — hand fighting stalls hips",
+        "distractors": {
+          "plausible": [
+            "No — wait until hips are free",
+            "Yes — but only after they attack"
+          ],
+          "trap": [
+            "No — retreat to closed guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that must happen simultaneously with the final step of the rotation?",
-        "answer": "Chest-to-back pressure must be established simultaneously with the completion of the rotational arc. There cannot be a gap between arriving behind the opponent and establishing forward driving pressure. Even a one-second delay allows an experienced opponent to turn and re-face you, negating the transition. The final hip step and the chest pressure drive forward should be one continuous motion."
+        "answer": "Chest-to-back pressure must be established simultaneously with the completion of the rotational arc. There cannot be a gap between arriving behind the opponent and establishing forward driving pressure. Even a one-second delay allows an experienced opponent to turn and re-face you, negating the transition. The final hip step and the chest pressure drive forward should be one continuous motion.",
+        "answer_line": "Chest-to-back pressure, no gap",
+        "distractors": {
+          "plausible": [
+            "Secure grips before pressure",
+            "Pressure right after arriving"
+          ],
+          "trap": [
+            "Pause to reset grips first"
+          ]
+        }
       },
       {
         "question": "You begin the rotation but feel your entanglement loosening around the opponent's trapped leg. What should you do?",
-        "answer": "Immediately pause the hip walk and consciously squeeze your legs tighter around the opponent's trapped leg before continuing. The rotation naturally creates momentary loosening because your hip angle changes relative to the entanglement. Counter this by actively tightening your triangle leg configuration at each step. If the loosening is severe, stop entirely, re-consolidate the entanglement from standard 50-50, and attempt again with more deliberate tension maintenance."
+        "answer": "Immediately pause the hip walk and consciously squeeze your legs tighter around the opponent's trapped leg before continuing. The rotation naturally creates momentary loosening because your hip angle changes relative to the entanglement. Counter this by actively tightening your triangle leg configuration at each step. If the loosening is severe, stop entirely, re-consolidate the entanglement from standard 50-50, and attempt again with more deliberate tension maintenance.",
+        "answer_line": "Pause, squeeze legs tighter",
+        "distractors": {
+          "plausible": [
+            "Speed up to finish rotation",
+            "Release leg, regrip tighter"
+          ],
+          "trap": [
+            "Keep rotating, ignore the gap"
+          ]
+        }
       },
       {
         "question": "Why should the hip walk use small incremental steps rather than one explosive jump behind the opponent?",
-        "answer": "Small steps maintain constant entanglement tension and pressure throughout the rotation, preventing gaps that allow extraction. Large jumps telegraph intent, giving opponents time to counter with hip escape or matching rotation. Incremental movement is also harder for the opponent to detect, so they often do not realize you are circling behind them until the transition is nearly complete. The three-to-five-second smooth arc is tactically superior to a one-second explosive repositioning."
+        "answer": "Small steps maintain constant entanglement tension and pressure throughout the rotation, preventing gaps that allow extraction. Large jumps telegraph intent, giving opponents time to counter with hip escape or matching rotation. Incremental movement is also harder for the opponent to detect, so they often do not realize you are circling behind them until the transition is nearly complete. The three-to-five-second smooth arc is tactically superior to a one-second explosive repositioning.",
+        "answer_line": "Small steps preserve tension",
+        "distractors": {
+          "plausible": [
+            "Big jump is faster and safer",
+            "Speed matters more than stealth"
+          ],
+          "trap": [
+            "Jump explosively behind them"
+          ]
+        }
       },
       {
         "question": "Your opponent begins matching your rotation by spinning in the same direction. How do you address this counter?",
-        "answer": "You have two immediate options. First, reverse your rotation direction to catch them spinning the wrong way, which often works because their momentum carries them further into the counter even after you change direction. Second, increase downward hip pressure to pin their hips and prevent the matching spin. If neither works and they successfully re-face you, you return to standard 50-50 with no positional loss. Reset and create a new timing window by threatening a heel hook, then reattempt when they commit to defending the submission."
+        "answer": "You have two immediate options. First, reverse your rotation direction to catch them spinning the wrong way, which often works because their momentum carries them further into the counter even after you change direction. Second, increase downward hip pressure to pin their hips and prevent the matching spin. If neither works and they successfully re-face you, you return to standard 50-50 with no positional loss. Reset and create a new timing window by threatening a heel hook, then reattempt when they commit to defending the submission.",
+        "answer_line": "Reverse rotation, pin their hips",
+        "distractors": {
+          "plausible": [
+            "Push through, out-muscle spin",
+            "Release grip, restart entirely"
+          ],
+          "trap": [
+            "Release anchor grip to reset"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the entire rotation and why?",
-        "answer": "At least one anchor grip on the opponent's lower leg, ankle, or heel must be maintained throughout the entire rotation. This grip serves two purposes: it prevents the opponent from spinning to match your rotation by anchoring their lower body in place, and it maintains submission threat continuity so you can immediately attack the heel upon arriving in Backside 50-50. Releasing this grip mid-rotation gives the opponent freedom to turn with you or extract their leg."
+        "answer": "At least one anchor grip on the opponent's lower leg, ankle, or heel must be maintained throughout the entire rotation. This grip serves two purposes: it prevents the opponent from spinning to match your rotation by anchoring their lower body in place, and it maintains submission threat continuity so you can immediately attack the heel upon arriving in Backside 50-50. Releasing this grip mid-rotation gives the opponent freedom to turn with you or extract their leg.",
+        "answer_line": "Anchor grip on ankle or heel",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar tight",
+            "Underhook grip on near arm"
+          ],
+          "trap": [
+            "Release grip to speed rotation"
+          ]
+        }
       },
       {
         "question": "How do you create the ideal timing window for this transition when your opponent is being defensively disciplined?",
-        "answer": "Threaten a heel hook from standard 50-50 to force a defensive commitment. When the opponent focuses on hiding their heel, tucking their knee, or grip fighting to protect the heel, their hips become static and their attention is directed away from monitoring your positional changes. This defensive reaction creates the ideal window. The heel hook threat does not need to be a serious finishing attempt; even a credible setup attempt is enough to shift their focus and open the rotational pathway."
+        "answer": "Threaten a heel hook from standard 50-50 to force a defensive commitment. When the opponent focuses on hiding their heel, tucking their knee, or grip fighting to protect the heel, their hips become static and their attention is directed away from monitoring your positional changes. This defensive reaction creates the ideal window. The heel hook threat does not need to be a serious finishing attempt; even a credible setup attempt is enough to shift their focus and open the rotational pathway.",
+        "answer_line": "Threaten a heel hook first",
+        "distractors": {
+          "plausible": [
+            "Wait for them to attack you",
+            "Match grips, then explode"
+          ],
+          "trap": [
+            "Abandon entanglement, pass guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to Backside 50-50 involves rotational forces around knee and ankle joints that can create unintended torque if executed carelessly. Always maintain controlled movement during the hip walk rather than explosive jerking motions that could hyper-rotate the entangled knee. In training, communicate with your partner before drilling this transition at speed, as the rotation can catch defenders off-guard and create sudden pressure on their knee ligaments. If your partner indicates discomfort during the entanglement tightening phase, immediately reduce pressure and adjust leg positioning. Never continue the rotation if you feel your own or your partner's knee being loaded in a twisting direction that does not align with natural joint movement.",
@@ -394,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the single earliest recognition cue that your opponent is about to attempt the Backside 50-50 transition?",
-        "answer": "The earliest cue is a lateral shift in their hip pressure. In standard 50-50 top, pressure is directed straight down through your centerline. When they begin the rotation, pressure shifts to one side as their hips start the walking arc. This lateral shift happens before any visible rotation and is the earliest tactile signal that the transition is being initiated. Responding to this cue gives you maximum time to counter."
+        "answer": "The earliest cue is a lateral shift in their hip pressure. In standard 50-50 top, pressure is directed straight down through your centerline. When they begin the rotation, pressure shifts to one side as their hips start the walking arc. This lateral shift happens before any visible rotation and is the earliest tactile signal that the transition is being initiated. Responding to this cue gives you maximum time to counter.",
+        "answer_line": "Lateral shift in hip pressure",
+        "distractors": {
+          "plausible": [
+            "Sudden grip release on your leg",
+            "Opponent's shoulders turning away"
+          ],
+          "trap": [
+            "Wait until they fully rotate"
+          ]
+        }
       },
       {
         "question": "Why is matching the opponent's rotation direction more effective than trying to hold your position statically?",
-        "answer": "Static resistance against a rotational force is mechanically inefficient because the opponent can incrementally overcome your resistance with each small hip step. Matching their rotation by turning your body in the same direction keeps your chest oriented toward them, which is the one thing that prevents the Backside angle from forming. You do not need to out-rotate them, you only need to maintain facing orientation. This requires far less energy than trying to pin them in place."
+        "answer": "Static resistance against a rotational force is mechanically inefficient because the opponent can incrementally overcome your resistance with each small hip step. Matching their rotation by turning your body in the same direction keeps your chest oriented toward them, which is the one thing that prevents the Backside angle from forming. You do not need to out-rotate them, you only need to maintain facing orientation. This requires far less energy than trying to pin them in place.",
+        "answer_line": "Match rotation to stay facing them",
+        "distractors": {
+          "plausible": [
+            "Brace hard and refuse to move",
+            "Out-rotate them faster"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent secures a heel grip and you feel them begin the rotation. You cannot break the grip quickly. What alternative defense do you use?",
-        "answer": "If the grip break fails, immediately bridge explosively toward the side they are rotating from. Their mid-rotation base is compromised because their weight is shifting laterally rather than driving straight down. The bridge exploits this compromised base to either sweep them or at minimum disrupt their arc enough to buy time for a secondary defense. Alternatively, attack their heel as a counter-submission since their focus on rotation reduces their heel defense awareness."
+        "answer": "If the grip break fails, immediately bridge explosively toward the side they are rotating from. Their mid-rotation base is compromised because their weight is shifting laterally rather than driving straight down. The bridge exploits this compromised base to either sweep them or at minimum disrupt their arc enough to buy time for a secondary defense. Alternatively, attack their heel as a counter-submission since their focus on rotation reduces their heel defense awareness.",
+        "answer_line": "Bridge explosively toward rotation",
+        "distractors": {
+          "plausible": [
+            "Pull knee in and wait it out",
+            "Grip fight harder to break free"
+          ],
+          "trap": [
+            "Turn away from the rotation"
+          ]
+        }
       },
       {
         "question": "At what point during the transition should you abandon prevention and switch to Backside 50-50 Bottom defense?",
-        "answer": "When the opponent's chest has passed perpendicular to your back and they have begun establishing forward pressure, the rotation is past the point of efficient prevention. Continuing to fight the transition at this point wastes energy that you will desperately need for Backside 50-50 Bottom defense. Immediately shift to back exposure management, heel protection, and active hip movement to prevent complete flattening. Accept the positional loss and focus on the next phase of defense."
+        "answer": "When the opponent's chest has passed perpendicular to your back and they have begun establishing forward pressure, the rotation is past the point of efficient prevention. Continuing to fight the transition at this point wastes energy that you will desperately need for Backside 50-50 Bottom defense. Immediately shift to back exposure management, heel protection, and active hip movement to prevent complete flattening. Accept the positional loss and focus on the next phase of defense.",
+        "answer_line": "When chest passes perpendicular",
+        "distractors": {
+          "plausible": [
+            "The moment they start rotating",
+            "Only after they finish the choke"
+          ],
+          "trap": [
+            "Keep fighting the rotation longer"
+          ]
+        }
       }
     ],
     "training_progressions": [

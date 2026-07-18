@@ -102,23 +102,73 @@
     "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while you have double unders established - what adjustment prevents you from being off-balanced?",
-        "answer": "Widen your base immediately by stepping one foot out laterally while maintaining your grip behind their back. Drop your chest weight lower onto their thighs to ride out the bridge momentum. Keep your head positioned on the side opposite to their bridge direction to maintain balance. The bridge will exhaust them quickly, so maintain pressure and wait for them to return to the mat before advancing the pass."
+        "answer": "Widen your base immediately by stepping one foot out laterally while maintaining your grip behind their back. Drop your chest weight lower onto their thighs to ride out the bridge momentum. Keep your head positioned on the side opposite to their bridge direction to maintain balance. The bridge will exhaust them quickly, so maintain pressure and wait for them to return to the mat before advancing the pass.",
+        "answer_line": "Widen base, drop chest, ride bridge",
+        "distractors": {
+          "plausible": [
+            "Sit up and post to balance",
+            "Chase their hips side to side"
+          ],
+          "trap": [
+            "Release grip to post your hands"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining double unders control against a resisting opponent?",
-        "answer": "The primary grip options are: hands clasped together (gable grip or S-grip) behind opponent's lower back, gripping their belt or pants waistband, or in no-gi, securing a body lock with hands meeting on their far hip. The grip must be deep enough that your forearms are fully under their legs. Shallow grips allow leg separation and escape. Your elbows must stay tight to your ribs throughout to prevent frame insertion."
+        "answer": "The primary grip options are: hands clasped together (gable grip or S-grip) behind opponent's lower back, gripping their belt or pants waistband, or in no-gi, securing a body lock with hands meeting on their far hip. The grip must be deep enough that your forearms are fully under their legs. Shallow grips allow leg separation and escape. Your elbows must stay tight to your ribs throughout to prevent frame insertion.",
+        "answer_line": "Deep gable grip, elbows to ribs",
+        "distractors": {
+          "plausible": [
+            "Shallow grip, elbows flared out",
+            "Grip high on mid-back, not belt"
+          ],
+          "trap": [
+            "Release one hand to post on mat"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape attempt of diving to deep half guard from double unders?",
-        "answer": "Prevent deep half entry by keeping your hips low and connected to their body rather than creating space underneath you. When you sense them trying to dive under, immediately walk your knees forward to pin their hips and eliminate the space they need to rotate. You can also switch your head position to the opposite hip to block their rotation direction. If they start getting under, sprawl your hips back slightly while maintaining underhook control to flatten them back out."
+        "answer": "Prevent deep half entry by keeping your hips low and connected to their body rather than creating space underneath you. When you sense them trying to dive under, immediately walk your knees forward to pin their hips and eliminate the space they need to rotate. You can also switch your head position to the opposite hip to block their rotation direction. If they start getting under, sprawl your hips back slightly while maintaining underhook control to flatten them back out.",
+        "answer_line": "Walk knees forward, pin hips low",
+        "distractors": {
+          "plausible": [
+            "Sprawl hips high to block dive",
+            "Switch head only, keep pressure"
+          ],
+          "trap": [
+            "Release underhook to grab ankle"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you prioritize when opponent begins to separate their legs during double unders control?",
-        "answer": "The moment you feel leg separation beginning, tighten your elbow connection to your ribcage and squeeze your arms together to compress their legs. If one leg begins to escape, immediately transition to controlling that leg individually while maintaining underhook on the other - this shifts you toward a leg weave or over-under passing configuration. Never chase both legs simultaneously as this creates space. Commit to controlling whichever leg they're exposing more."
+        "answer": "The moment you feel leg separation beginning, tighten your elbow connection to your ribcage and squeeze your arms together to compress their legs. If one leg begins to escape, immediately transition to controlling that leg individually while maintaining underhook on the other - this shifts you toward a leg weave or over-under passing configuration. Never chase both legs simultaneously as this creates space. Commit to controlling whichever leg they're exposing more.",
+        "answer_line": "Squeeze elbows, commit to one leg",
+        "distractors": {
+          "plausible": [
+            "Switch straight to over-under pass",
+            "Release grip and restart entry"
+          ],
+          "trap": [
+            "Chase both legs to prevent escape"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maximize control pressure while maintaining the ability to advance the pass?",
-        "answer": "Weight should be primarily forward through your chest into their thighs, with approximately 70% of your pressure driving downward and forward. Your hips stay low but mobile, knees bent with feet positioned to push forward. The key is keeping weight on your toes rather than flat-footed, allowing you to walk knees forward progressively. Your head provides additional downward pressure on their chest or hip depending on their defensive posture."
+        "answer": "Weight should be primarily forward through your chest into their thighs, with approximately 70% of your pressure driving downward and forward. Your hips stay low but mobile, knees bent with feet positioned to push forward. The key is keeping weight on your toes rather than flat-footed, allowing you to walk knees forward progressively. Your head provides additional downward pressure on their chest or hip depending on their defensive posture.",
+        "answer_line": "Chest forward, weight on toes",
+        "distractors": {
+          "plausible": [
+            "Weight flat-footed, hips high",
+            "Weight back on heels, knees straight"
+          ],
+          "trap": [
+            "Drop all weight onto their knees"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a frame with their forearms against your face while you have double unders - how do you address this without releasing control?",
@@ -130,7 +180,17 @@
       },
       {
         "question": "How do you manage energy expenditure to maintain double unders pressure over an extended period against a defensive opponent?",
-        "answer": "Rather than constant muscular tension, use skeletal alignment to maintain pressure - stack your body weight onto their legs rather than actively pushing. Keep your arms connected but not straining, letting the grip configuration hold rather than squeezing constantly. Breathe steadily and avoid holding your breath. Make small progressive adjustments rather than explosive movements. The goal is transferring your body weight through structure rather than generating force through muscular effort, allowing you to maintain pressure indefinitely while they exhaust defending."
+        "answer": "Rather than constant muscular tension, use skeletal alignment to maintain pressure - stack your body weight onto their legs rather than actively pushing. Keep your arms connected but not straining, letting the grip configuration hold rather than squeezing constantly. Breathe steadily and avoid holding your breath. Make small progressive adjustments rather than explosive movements. The goal is transferring your body weight through structure rather than generating force through muscular effort, allowing you to maintain pressure indefinitely while they exhaust defending.",
+        "answer_line": "Stack weight via skeletal structure",
+        "distractors": {
+          "plausible": [
+            "Squeeze grip constantly, hold breath",
+            "Explosive bursts to break resistance"
+          ],
+          "trap": [
+            "Hold breath, muscle through it"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -437,35 +497,115 @@
     "flashcards": [
       {
         "question": "Your opponent is driving heavy stacking pressure through double unders - what immediate frame should you establish to create space?",
-        "answer": "Establish a cross-face frame by placing your forearm across their jawline or neck, using your elbow tight to your body as the anchor point. This frame creates a lever that generates space proportional to their forward pressure - the harder they drive, the more effective the frame becomes. Your other hand should control their bicep or shoulder to prevent them from walking around your frame. The frame must be skeletal rather than muscular, using bone alignment to redirect their pressure."
+        "answer": "Establish a cross-face frame by placing your forearm across their jawline or neck, using your elbow tight to your body as the anchor point. This frame creates a lever that generates space proportional to their forward pressure - the harder they drive, the more effective the frame becomes. Your other hand should control their bicep or shoulder to prevent them from walking around your frame. The frame must be skeletal rather than muscular, using bone alignment to redirect their pressure.",
+        "answer_line": "Cross-face frame, elbow tight",
+        "distractors": {
+          "plausible": [
+            "Push both hands on their hips",
+            "Frame with forearm on their chest"
+          ],
+          "trap": [
+            "Push off with muscle, no anchor"
+          ]
+        }
       },
       {
         "question": "What are the fundamental requirements for maintaining any defensive structure against double unders pressure?",
-        "answer": "Three elements must be maintained: active hip mobility to prevent complete flattening, at least one frame creating space between your body and theirs, and leg activity to threaten guard recovery. If any element is lost, the others become progressively harder to maintain. Priority is hip mobility first (turn to side, don't accept flat back), then frames second, then leg positioning. Without hip mobility, frames become ineffective; without frames, leg recovery becomes impossible."
+        "answer": "Three elements must be maintained: active hip mobility to prevent complete flattening, at least one frame creating space between your body and theirs, and leg activity to threaten guard recovery. If any element is lost, the others become progressively harder to maintain. Priority is hip mobility first (turn to side, don't accept flat back), then frames second, then leg positioning. Without hip mobility, frames become ineffective; without frames, leg recovery becomes impossible.",
+        "answer_line": "Hip mobility, then frames, legs",
+        "distractors": {
+          "plausible": [
+            "Frames first, then hip movement",
+            "Leg activity first, ignore frames"
+          ],
+          "trap": [
+            "Accept flat back, keep framing"
+          ]
+        }
       },
       {
         "question": "How do you execute the primary escape of diving to deep half guard when trapped in double unders bottom?",
-        "answer": "Time the entry when opponent drives their weight forward. Turn your hips toward the side you're escaping to, thread your bottom arm under their near leg to establish the deep half underhook, and rotate your body underneath their hips using their forward pressure as momentum. Your head must get below their hip line. The key is committing fully to the rotation rather than fighting to stay on top - use their energy against them by diving deep underneath rather than resisting the pressure direction."
+        "answer": "Time the entry when opponent drives their weight forward. Turn your hips toward the side you're escaping to, thread your bottom arm under their near leg to establish the deep half underhook, and rotate your body underneath their hips using their forward pressure as momentum. Your head must get below their hip line. The key is committing fully to the rotation rather than fighting to stay on top - use their energy against them by diving deep underneath rather than resisting the pressure direction.",
+        "answer_line": "Thread arm under, dive as they drive",
+        "distractors": {
+          "plausible": [
+            "Push them back, then thread arm",
+            "Sit up and shrimp away first"
+          ],
+          "trap": [
+            "Fight their pressure, resist"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you prioritize when opponent begins walking their knees forward to complete the pass?",
-        "answer": "When knees start walking forward, your window for standard escapes closes rapidly. Prioritize getting one hand to their hip on the passing side to create a frame that blocks their knee advancement. If that fails, immediately commit to either deep half entry by threading under, or granby roll by using their forward momentum to rotate away. Do not try to push their chest away - redirect to hip control or commit to rotation-based escapes that work with their passing momentum."
+        "answer": "When knees start walking forward, your window for standard escapes closes rapidly. Prioritize getting one hand to their hip on the passing side to create a frame that blocks their knee advancement. If that fails, immediately commit to either deep half entry by threading under, or granby roll by using their forward momentum to rotate away. Do not try to push their chest away - redirect to hip control or commit to rotation-based escapes that work with their passing momentum.",
+        "answer_line": "Hand to hip, block their knee",
+        "distractors": {
+          "plausible": [
+            "Try to sit up and re-guard",
+            "Insert butterfly hooks instead"
+          ],
+          "trap": [
+            "Push their chest away with arms"
+          ]
+        }
       },
       {
         "question": "How should you use hip positioning to maximize your defensive options and prevent complete pass completion?",
-        "answer": "Never accept a flat back position with both shoulders on the mat. Always turn your hips to one side, which accomplishes three things: reduces the stacking pressure on your spine, creates an angle for deep half entry on the low side, and maintains granby roll option toward the high side. The side you turn toward becomes your deep half escape side, while the opposite side becomes your granby direction. Staying angled rather than flat maintains both escape pathways."
+        "answer": "Never accept a flat back position with both shoulders on the mat. Always turn your hips to one side, which accomplishes three things: reduces the stacking pressure on your spine, creates an angle for deep half entry on the low side, and maintains granby roll option toward the high side. The side you turn toward becomes your deep half escape side, while the opposite side becomes your granby direction. Staying angled rather than flat maintains both escape pathways.",
+        "answer_line": "Turn hips to angle, never go flat",
+        "distractors": {
+          "plausible": [
+            "Stay flat, use arms as frames only",
+            "Turn hips fully away from pressure"
+          ],
+          "trap": [
+            "Accept flat back to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent pauses their forward pressure momentarily to readjust grips - what immediate action gives you the best recovery chance?",
-        "answer": "The grip adjustment pause is your primary window. Immediately create maximum hip movement by bridging and turning to your side to break their chest connection. Then establish butterfly hook with your free leg by inserting your foot inside their thigh. The butterfly hook combined with your frame allows you to create enough space to either recover full butterfly guard or transition to half guard with knee shield. Speed is critical - you have approximately 1-2 seconds before they reestablish pressure."
+        "answer": "The grip adjustment pause is your primary window. Immediately create maximum hip movement by bridging and turning to your side to break their chest connection. Then establish butterfly hook with your free leg by inserting your foot inside their thigh. The butterfly hook combined with your frame allows you to create enough space to either recover full butterfly guard or transition to half guard with knee shield. Speed is critical - you have approximately 1-2 seconds before they reestablish pressure.",
+        "answer_line": "Bridge, turn, insert butterfly hook",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening later",
+            "Push their head away with hands"
+          ],
+          "trap": [
+            "Stay still to save energy first"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to survive extended periods in double unders bottom while maintaining escape capability?",
-        "answer": "Avoid constant muscular straining against their pressure, which exhausts you faster than them. Use frames based on skeletal alignment rather than muscular pushing. Time your explosive escape attempts for moments when their pressure lightens or shifts. Between escape attempts, focus on maintaining hip angle and breathing steadily rather than constantly fighting. Accept that you may need to survive 30-60 seconds before a legitimate escape window opens. Preserve your explosive capacity for committed escape attempts rather than wasting it on half-efforts."
+        "answer": "Avoid constant muscular straining against their pressure, which exhausts you faster than them. Use frames based on skeletal alignment rather than muscular pushing. Time your explosive escape attempts for moments when their pressure lightens or shifts. Between escape attempts, focus on maintaining hip angle and breathing steadily rather than constantly fighting. Accept that you may need to survive 30-60 seconds before a legitimate escape window opens. Preserve your explosive capacity for committed escape attempts rather than wasting it on half-efforts.",
+        "answer_line": "Save explosive energy, use frames",
+        "distractors": {
+          "plausible": [
+            "Fight continuously at max effort",
+            "Rest completely, ignore hip angle"
+          ],
+          "trap": [
+            "Strain constantly to prevent stack"
+          ]
+        }
       },
       {
         "question": "When should you strategically accept transitioning to turtle rather than continuing to fight double unders bottom, and how do you execute this safely?",
-        "answer": "Accept turtle transition when you cannot establish any frames and your back is being completely flattened, or when opponent's pass is imminent and turtle provides better scramble opportunity. Execute by timing a granby roll as they commit weight forward - use their momentum to roll over your shoulder toward turtle rather than trying to sit up against their pressure. Immediately establish defensive turtle posture with elbows tight and head protected. Turtle from active choice is far better than being flattened into side control with no defensive options."
+        "answer": "Accept turtle transition when you cannot establish any frames and your back is being completely flattened, or when opponent's pass is imminent and turtle provides better scramble opportunity. Execute by timing a granby roll as they commit weight forward - use their momentum to roll over your shoulder toward turtle rather than trying to sit up against their pressure. Immediately establish defensive turtle posture with elbows tight and head protected. Turtle from active choice is far better than being flattened into side control with no defensive options.",
+        "answer_line": "Granby roll to turtle on their drive",
+        "distractors": {
+          "plausible": [
+            "Sit up to guard against pressure",
+            "Stay flat and wait for scramble"
+          ],
+          "trap": [
+            "Fight to stay on back, resist"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -719,35 +859,115 @@
   "flashcards_position": [
     {
       "question": "What arm and body configuration defines the Double Unders position?",
-      "answer": "The top player threads both arms underneath the bottom player's thighs and clasps the hands together behind the lower back or grips the belt, forming a closed loop that binds both legs as a single controlled unit. The passer's chest drives into the backs of the thighs, stacking the bottom player's hips upward and loading weight onto their shoulders and upper back. Because both legs are captured simultaneously, the defender cannot deploy either leg independently as a frame or hook. This bilateral capture, combined with forward chest pressure and elevated hips, is what distinguishes the configuration from single-leg or half-guard-based control."
+      "answer": "The top player threads both arms underneath the bottom player's thighs and clasps the hands together behind the lower back or grips the belt, forming a closed loop that binds both legs as a single controlled unit. The passer's chest drives into the backs of the thighs, stacking the bottom player's hips upward and loading weight onto their shoulders and upper back. Because both legs are captured simultaneously, the defender cannot deploy either leg independently as a frame or hook. This bilateral capture, combined with forward chest pressure and elevated hips, is what distinguishes the configuration from single-leg or half-guard-based control.",
+      "answer_line": "Both arms under thighs clasped",
+      "distractors": {
+        "plausible": [
+          "One arm under, one arm over",
+          "Hands clasped in front, chest back"
+        ],
+        "trap": [
+          "Grip only ankles, arms extended"
+        ]
+      }
     },
     {
       "question": "Why is the connection behind the back the single most important control point in Double Unders?",
-      "answer": "The clasped hands behind the lower back close the loop that keeps both thighs bound together, so if that connection breaks the whole position dissolves into separate single-leg battles. Keeping the hands joined and the elbows pinned to the ribs turns both arms into one rigid structure that resists leg separation and frame insertion. The depth of the grip matters as much as the join: forearms fully under the legs give leverage, while a shallow grip lets the legs slip free. Everything else in the position — chest pressure, stacking angle, hip pinning — depends on this loop remaining intact for both players' calculations."
+      "answer": "The clasped hands behind the lower back close the loop that keeps both thighs bound together, so if that connection breaks the whole position dissolves into separate single-leg battles. Keeping the hands joined and the elbows pinned to the ribs turns both arms into one rigid structure that resists leg separation and frame insertion. The depth of the grip matters as much as the join: forearms fully under the legs give leverage, while a shallow grip lets the legs slip free. Everything else in the position — chest pressure, stacking angle, hip pinning — depends on this loop remaining intact for both players' calculations.",
+      "answer_line": "Clasped hands close the leg loop",
+      "distractors": {
+        "plausible": [
+          "Deep grip alone, hands not joined",
+          "Elbows flared for stronger squeeze"
+        ],
+        "trap": [
+          "Release one hand to grab a collar"
+        ]
+      }
     },
     {
       "question": "How does weight and pressure travel through the bodies in Double Unders?",
-      "answer": "The passer directs the bulk of their weight forward and downward through the chest into the backs of the thighs, driving the defender's hips up toward their own head and collapsing their spine into a stacked, curved posture. This vector loads the defender onto their shoulders and upper back rather than letting them stay flat and mobile on their hips. The pressure is skeletal rather than purely muscular when done well, with the passer stacking body weight through structure so it can be sustained. The stacked, hips-elevated posture is the position's signature stress and the reason it fatigues the bottom player rapidly."
+      "answer": "The passer directs the bulk of their weight forward and downward through the chest into the backs of the thighs, driving the defender's hips up toward their own head and collapsing their spine into a stacked, curved posture. This vector loads the defender onto their shoulders and upper back rather than letting them stay flat and mobile on their hips. The pressure is skeletal rather than purely muscular when done well, with the passer stacking body weight through structure so it can be sustained. The stacked, hips-elevated posture is the position's signature stress and the reason it fatigues the bottom player rapidly.",
+      "answer_line": "Chest drives forward, stacks hips",
+      "distractors": {
+        "plausible": [
+          "Weight down through their knees",
+          "Weight back, pull hips toward you"
+        ],
+        "trap": [
+          "Push down on chest, hips stay flat"
+        ]
+      }
     },
     {
       "question": "What role does hip mobility play in determining how Double Unders resolves?",
-      "answer": "The position is fundamentally a contest over the bottom player's hips: whoever controls hip orientation controls the outcome. The top player works to pin the hips square and elevated so the defender cannot turn to either side, while the bottom player fights to keep the hips angled and mobile to preserve escape lanes. A flattened, squared hip means the defender has lost the ability to enter deep half on one side or granby toward the other. Because both escape and pass hinge on this single variable, hip control is the pivot point that both players are truly competing for beneath the surface of grip and pressure."
+      "answer": "The position is fundamentally a contest over the bottom player's hips: whoever controls hip orientation controls the outcome. The top player works to pin the hips square and elevated so the defender cannot turn to either side, while the bottom player fights to keep the hips angled and mobile to preserve escape lanes. A flattened, squared hip means the defender has lost the ability to enter deep half on one side or granby toward the other. Because both escape and pass hinge on this single variable, hip control is the pivot point that both players are truly competing for beneath the surface of grip and pressure.",
+      "answer_line": "Hip control decides pass or escape",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides the outcome",
+          "Chest pressure alone decides it"
+        ],
+        "trap": [
+          "Ignore hips, focus only frames"
+        ]
+      }
     },
     {
       "question": "Why is Double Unders considered an inherently transitional position rather than a stable holding point?",
-      "answer": "Neither player can profitably sit still: static control lets the defender recover frames and reinsert legs, while passive defense simply invites the stack to complete. The passer must continuously advance by walking the knees forward to complete the pass, and the defender must continuously work frames, hip angle, and leg recovery to escape. The position also scores no points on its own, so there is no incentive to dwell in it. This mutual pressure to keep moving is why the configuration typically resolves within roughly fifteen to forty-five seconds toward either a pass or an escape."
+      "answer": "Neither player can profitably sit still: static control lets the defender recover frames and reinsert legs, while passive defense simply invites the stack to complete. The passer must continuously advance by walking the knees forward to complete the pass, and the defender must continuously work frames, hip angle, and leg recovery to escape. The position also scores no points on its own, so there is no incentive to dwell in it. This mutual pressure to keep moving is why the configuration typically resolves within roughly fifteen to forty-five seconds toward either a pass or an escape.",
+      "answer_line": "Stalling lets stack or escape happen",
+      "distractors": {
+        "plausible": [
+          "Position scores points to hold",
+          "Best played slow over minutes"
+        ],
+        "trap": [
+          "Sit still to save energy and hold"
+        ]
+      }
     },
     {
       "question": "How does Double Unders differ from an over-under or leg-weave passing configuration?",
-      "answer": "In Double Unders both arms pass underneath both of the defender's legs, capturing them symmetrically and lifting the hips to stack the opponent onto their shoulders. Over-under and leg-weave configurations are asymmetric: one arm goes under a leg while the other threads over or weaves through, pinning one leg to the mat rather than elevating both together. Because Double Unders is bilateral, it generates a pure stacking pressure and forward compression, whereas the asymmetric passes rely on shearing one leg away and staple pressure to a single side. When one leg escapes the Double Unders loop, the position naturally converts into one of these asymmetric configurations."
+      "answer": "In Double Unders both arms pass underneath both of the defender's legs, capturing them symmetrically and lifting the hips to stack the opponent onto their shoulders. Over-under and leg-weave configurations are asymmetric: one arm goes under a leg while the other threads over or weaves through, pinning one leg to the mat rather than elevating both together. Because Double Unders is bilateral, it generates a pure stacking pressure and forward compression, whereas the asymmetric passes rely on shearing one leg away and staple pressure to a single side. When one leg escapes the Double Unders loop, the position naturally converts into one of these asymmetric configurations.",
+      "answer_line": "Both legs captured, pure stacking",
+      "distractors": {
+        "plausible": [
+          "One arm over, staple leg to mat",
+          "Both arms grip a single leg only"
+        ],
+        "trap": [
+          "Same grip, different hip angle"
+        ]
+      }
     },
     {
       "question": "What makes the frame battle central to the shared dynamic of Double Unders?",
-      "answer": "The entire position turns on whether the defender can wedge any structure between the two chests: any frame that creates space lets escape mechanics function, and eliminating every frame lets the stack complete. The passer fights this by keeping elbows glued to the ribs so no arm can be inserted into the loop and by driving the chest tight to erase gaps. The defender fights it by seeking forearm frames against the face, neck, or hip to generate space proportional to the incoming pressure. Because space is the currency both players are trading, the frame contest is the underlying engine of the whole exchange."
+      "answer": "The entire position turns on whether the defender can wedge any structure between the two chests: any frame that creates space lets escape mechanics function, and eliminating every frame lets the stack complete. The passer fights this by keeping elbows glued to the ribs so no arm can be inserted into the loop and by driving the chest tight to erase gaps. The defender fights it by seeking forearm frames against the face, neck, or hip to generate space proportional to the incoming pressure. Because space is the currency both players are trading, the frame contest is the underlying engine of the whole exchange.",
+      "answer_line": "Space via frames decides exchange",
+      "distractors": {
+        "plausible": [
+          "Grip strength alone decides frames",
+          "Frames matter only for passer"
+        ],
+        "trap": [
+          "Muscle through frames with strength"
+        ]
+      }
     },
     {
       "question": "From which positions does Double Unders typically arise, and what makes those guards vulnerable to it?",
-      "answer": "Double Unders most often emerges from half guard, butterfly guard, and seated or open guards where the bottom player's legs are elevated and reachable rather than pinned to the mat. Those guards expose the undersides of the thighs, giving the passer the openings needed to thread both arms and clasp behind the back. Once the guard is sufficiently opened or broken, the passer penetrates the defensive frames and captures both legs before the defender can reset. This origin explains why the position functions as a gateway in the passing hierarchy, converting elevated-leg guards into a stacked, frame-killed configuration that funnels toward side control, mount, or back."
+      "answer": "Double Unders most often emerges from half guard, butterfly guard, and seated or open guards where the bottom player's legs are elevated and reachable rather than pinned to the mat. Those guards expose the undersides of the thighs, giving the passer the openings needed to thread both arms and clasp behind the back. Once the guard is sufficiently opened or broken, the passer penetrates the defensive frames and captures both legs before the defender can reset. This origin explains why the position functions as a gateway in the passing hierarchy, converting elevated-leg guards into a stacked, frame-killed configuration that funnels toward side control, mount, or back.",
+      "answer_line": "Open guards with legs elevated",
+      "distractors": {
+        "plausible": [
+          "Closed guard with legs wrapped tight",
+          "Mount or side control transitions"
+        ],
+        "trap": [
+          "Deep half guard with leg trapped"
+        ]
+      }
     }
   ],
   "clips": [

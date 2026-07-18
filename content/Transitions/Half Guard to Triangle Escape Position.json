@@ -248,35 +248,115 @@
     "flashcards": [
       {
         "question": "What is the first physical action you should take when you feel the triangle closing around your neck during a half guard pass?",
-        "answer": "Immediately pin your trapped arm's elbow tightly against your ribs with your hand near your chest. This is the first priority because it prevents two critical problems: the opponent isolating the arm for an armbar transition, and the trapped arm acting as a fulcrum that increases choking pressure against your own neck. Arm protection must happen before posture recovery."
+        "answer": "Immediately pin your trapped arm's elbow tightly against your ribs with your hand near your chest. This is the first priority because it prevents two critical problems: the opponent isolating the arm for an armbar transition, and the trapped arm acting as a fulcrum that increases choking pressure against your own neck. Arm protection must happen before posture recovery.",
+        "answer_line": "Pin trapped elbow to ribs",
+        "distractors": {
+          "plausible": [
+            "Posture up first",
+            "Grab their head instead"
+          ],
+          "trap": [
+            "Straighten arm to pull free"
+          ]
+        }
       },
       {
         "question": "Why is it critical to drive forward into the triangle rather than pulling backward to create distance?",
-        "answer": "Pulling backward creates extension in the opponent's legs, which is exactly how the triangle generates maximum choking pressure. The triangle works by constricting the carotids through leg extension against the trapped arm and neck. Driving forward compresses the triangle structure by stacking the opponent's weight onto their shoulders, reducing their ability to extend their hips and generate finishing pressure."
+        "answer": "Pulling backward creates extension in the opponent's legs, which is exactly how the triangle generates maximum choking pressure. The triangle works by constricting the carotids through leg extension against the trapped arm and neck. Driving forward compresses the triangle structure by stacking the opponent's weight onto their shoulders, reducing their ability to extend their hips and generate finishing pressure.",
+        "answer_line": "Drive forward, stack weight",
+        "distractors": {
+          "plausible": [
+            "Circle away to create space",
+            "Push their knees down"
+          ],
+          "trap": [
+            "Pull back to break grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins scooting their hips to the side to optimize their choking angle - how do you counter this adjustment?",
-        "answer": "Press down firmly on their hip or inner thigh with your free hand to resist the lateral movement while simultaneously stepping in the same direction they are moving. You must match their angle change to prevent them from achieving the perpendicular position that maximizes triangle effectiveness. Maintain forward stacking pressure throughout this adjustment rather than stopping to address the angle change in isolation."
+        "answer": "Press down firmly on their hip or inner thigh with your free hand to resist the lateral movement while simultaneously stepping in the same direction they are moving. You must match their angle change to prevent them from achieving the perpendicular position that maximizes triangle effectiveness. Maintain forward stacking pressure throughout this adjustment rather than stopping to address the angle change in isolation.",
+        "answer_line": "Press hip, step with them",
+        "distractors": {
+          "plausible": [
+            "Stop and square back up",
+            "Push down on their far knee"
+          ],
+          "trap": [
+            "Lean back away from angle"
+          ]
+        }
       },
       {
         "question": "What distinguishes the posture recovery in this transition from simply sitting upright?",
-        "answer": "The posture recovery must be driven from the legs, not the back muscles. Pushing upward from your toes and knees through hip drive creates sustainable, powerful force that can overcome the opponent's downward pulling pressure. Using back muscles alone fatigues rapidly under the weight of the triangle and leads to re-breaking of posture within seconds. The spine should move toward vertical alignment through forward-and-upward hip drive."
+        "answer": "The posture recovery must be driven from the legs, not the back muscles. Pushing upward from your toes and knees through hip drive creates sustainable, powerful force that can overcome the opponent's downward pulling pressure. Using back muscles alone fatigues rapidly under the weight of the triangle and leads to re-breaking of posture within seconds. The spine should move toward vertical alignment through forward-and-upward hip drive.",
+        "answer_line": "Drive up with legs, not back",
+        "distractors": {
+          "plausible": [
+            "Pull up using core strength",
+            "Yank head up with hands"
+          ],
+          "trap": [
+            "Arch back hard to sit up"
+          ]
+        }
       },
       {
         "question": "During the transition, your opponent releases the triangle momentarily to readjust their figure-four lock - what opportunity does this create?",
-        "answer": "This brief loosening creates a critical window for accelerating the transition. Drive your posture upward explosively while the pressure is reduced, and begin circling toward your trapped arm side. The momentary loosening also makes it possible to improve your trapped arm position by driving the elbow even tighter to your ribs. Recognize these adjustment moments and exploit them immediately rather than waiting for the opponent to re-establish full pressure."
+        "answer": "This brief loosening creates a critical window for accelerating the transition. Drive your posture upward explosively while the pressure is reduced, and begin circling toward your trapped arm side. The momentary loosening also makes it possible to improve your trapped arm position by driving the elbow even tighter to your ribs. Recognize these adjustment moments and exploit them immediately rather than waiting for the opponent to re-establish full pressure.",
+        "answer_line": "Explode posture, tighten elbow",
+        "distractors": {
+          "plausible": [
+            "Wait for full lock to reform",
+            "Try to pass guard immediately"
+          ],
+          "trap": [
+            "Relax and catch your breath"
+          ]
+        }
       },
       {
         "question": "What are the three most common half guard passing errors that expose you to triangle entries?",
-        "answer": "First, leading with your head during knee slice passes places your neck directly in triangle range when the bottom player elevates their hips. Second, losing track of your arm position by posting too wide with the inside arm during passing creates the one-arm-in, one-arm-out configuration triangles require. Third, allowing the bottom player to control your head with an overhook while your arm is isolated inside their guard structure gives them the angle and control to close the triangle."
+        "answer": "First, leading with your head during knee slice passes places your neck directly in triangle range when the bottom player elevates their hips. Second, losing track of your arm position by posting too wide with the inside arm during passing creates the one-arm-in, one-arm-out configuration triangles require. Third, allowing the bottom player to control your head with an overhook while your arm is isolated inside their guard structure gives them the angle and control to close the triangle.",
+        "answer_line": "Head down, wide arm, overhook",
+        "distractors": {
+          "plausible": [
+            "Passing too slow, losing pace",
+            "Standing too tall while passing"
+          ],
+          "trap": [
+            "Keeping elbows tucked in tight"
+          ]
+        }
       },
       {
         "question": "How should you manage your breathing when caught in the triangle during this transition?",
-        "answer": "Breathe through your nose in controlled, deliberate cycles rather than gasping through your mouth. The triangle creates compression that makes breathing difficult, and hyperventilation accelerates panic and exhaustion. Short, controlled nasal breaths maintain oxygen delivery while keeping your heart rate manageable. During the posture recovery phase, exhale as you drive upward to engage your core muscles effectively."
+        "answer": "Breathe through your nose in controlled, deliberate cycles rather than gasping through your mouth. The triangle creates compression that makes breathing difficult, and hyperventilation accelerates panic and exhaustion. Short, controlled nasal breaths maintain oxygen delivery while keeping your heart rate manageable. During the posture recovery phase, exhale as you drive upward to engage your core muscles effectively.",
+        "answer_line": "Slow nasal breaths, controlled",
+        "distractors": {
+          "plausible": [
+            "Hold breath through the squeeze",
+            "Deep mouth breaths to recover"
+          ],
+          "trap": [
+            "Gasp and hyperventilate fast"
+          ]
+        }
       },
       {
         "question": "Your posture recovery attempt fails and the opponent breaks you back down - what is the correct reset procedure?",
-        "answer": "Re-establish your trapped arm position with elbow pinned to ribs as the first priority, then replant your posting hand. Take one controlled breath to reset mentally, then reinitiate the posture sequence with emphasis on leg drive rather than back pull. Each recovery attempt should restart from the fundamentals rather than trying to continue a failed sequence. Build cumulative progress through repeated correct technique rather than single explosive attempts."
+        "answer": "Re-establish your trapped arm position with elbow pinned to ribs as the first priority, then replant your posting hand. Take one controlled breath to reset mentally, then reinitiate the posture sequence with emphasis on leg drive rather than back pull. Each recovery attempt should restart from the fundamentals rather than trying to continue a failed sequence. Build cumulative progress through repeated correct technique rather than single explosive attempts.",
+        "answer_line": "Re-pin elbow, reset, retry",
+        "distractors": {
+          "plausible": [
+            "Push harder with same effort",
+            "Switch straight to submission"
+          ],
+          "trap": [
+            "Give up posture, stay flat"
+          ]
+        }
       }
     ],
     "safety_considerations": "Triangle chokes restrict blood flow to the brain and can cause unconsciousness in seconds when fully locked. During training drills for this transition, partners must apply triangle pressure progressively and tap immediately when the escape is not working. Never hold a fully locked triangle at maximum pressure during transition drilling. Communicate clearly with your training partner about pressure levels and always err on the side of releasing early rather than late. Training partners applying the triangle should watch for signs of distress including facial color changes, loss of coordination, or failure to respond to verbal cues.",
@@ -390,19 +470,59 @@
     "flashcards": [
       {
         "question": "What is the most critical window for preventing the triangle escape position from being established?",
-        "answer": "The first two to three seconds after the opponent recognizes the triangle threat. During this window, the opponent is transitioning from offensive passing mindset to defensive survival and has not yet established arm protection, posting base, or posture recovery. Aggressive head pulling and angle optimization during this window can prevent the escape position from ever being established, making the finish dramatically more likely."
+        "answer": "The first two to three seconds after the opponent recognizes the triangle threat. During this window, the opponent is transitioning from offensive passing mindset to defensive survival and has not yet established arm protection, posting base, or posture recovery. Aggressive head pulling and angle optimization during this window can prevent the escape position from ever being established, making the finish dramatically more likely.",
+        "answer_line": "First 2-3 seconds of recognition",
+        "distractors": {
+          "plausible": [
+            "Once they post their hand",
+            "After they stack your weight"
+          ],
+          "trap": [
+            "Wait for them to fully lock"
+          ]
+        }
       },
       {
         "question": "How does threatening an armbar transition disrupt the opponent's escape sequence?",
-        "answer": "The armbar threat forces the opponent to prioritize keeping their trapped arm's elbow pinned to their ribs, which reduces the range of motion and force they can generate during posture recovery. It also creates a decision dilemma: if they focus on posture recovery they expose the arm, if they focus on arm protection they cannot generate full escape power. This divided attention slows their transition and gives you more time to finish the triangle."
+        "answer": "The armbar threat forces the opponent to prioritize keeping their trapped arm's elbow pinned to their ribs, which reduces the range of motion and force they can generate during posture recovery. It also creates a decision dilemma: if they focus on posture recovery they expose the arm, if they focus on arm protection they cannot generate full escape power. This divided attention slows their transition and gives you more time to finish the triangle.",
+        "answer_line": "Forces choice: arm or posture",
+        "distractors": {
+          "plausible": [
+            "Makes them posture up faster",
+            "Weakens their choking grip"
+          ],
+          "trap": [
+            "Lets them ignore the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent has recovered partial posture and is beginning to stack your weight - what adjustment maintains your finishing threat?",
-        "answer": "Angle your hips further laterally to maintain the perpendicular choking alignment despite the changed pressure angle. Use your hands on the back of their head to re-pull them down while simultaneously walking your shoulders away to create more distance for hip elevation. If the stack is deep, consider transitioning to an armbar or omoplata rather than fighting a losing battle against the stacking pressure."
+        "answer": "Angle your hips further laterally to maintain the perpendicular choking alignment despite the changed pressure angle. Use your hands on the back of their head to re-pull them down while simultaneously walking your shoulders away to create more distance for hip elevation. If the stack is deep, consider transitioning to an armbar or omoplata rather than fighting a losing battle against the stacking pressure.",
+        "answer_line": "Re-angle hips or switch to armbar",
+        "distractors": {
+          "plausible": [
+            "Push their head down harder",
+            "Sit up to reset the angle"
+          ],
+          "trap": [
+            "Fight the stack, hold position"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's free posting arm so important during the early transition phase?",
-        "answer": "The free posting arm is the structural foundation for the opponent's entire escape sequence. Without it, they cannot establish the base needed for posture recovery, cannot create the structural frame for stacking pressure, and cannot control your hips to prevent angle optimization. Removing this single element cascades through their entire escape plan, making every subsequent step significantly harder to execute."
+        "answer": "The free posting arm is the structural foundation for the opponent's entire escape sequence. Without it, they cannot establish the base needed for posture recovery, cannot create the structural frame for stacking pressure, and cannot control your hips to prevent angle optimization. Removing this single element cascades through their entire escape plan, making every subsequent step significantly harder to execute.",
+        "answer_line": "It's their whole escape base",
+        "distractors": {
+          "plausible": [
+            "It sets up their sweep only",
+            "It protects their trapped arm"
+          ],
+          "trap": [
+            "Let them post to tire them out"
+          ]
+        }
       }
     ],
     "training_progressions": [

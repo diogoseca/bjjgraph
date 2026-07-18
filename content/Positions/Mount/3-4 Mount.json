@@ -102,35 +102,115 @@
     "flashcards": [
       {
         "question": "What is the primary advantage of maintaining 3-4 Mount over traditional mount with both legs crossed?",
-        "answer": "The 3-4 Mount provides superior base stability against bridging attempts through the posted leg while maintaining offensive mobility for transitions and submission attacks. The asymmetric configuration allows rapid weight shifts to counter defensive movements while preserving the ability to flow between mount variations, S-mount, technical mount, and back control positions that would be slower to access from standard mount."
+        "answer": "The 3-4 Mount provides superior base stability against bridging attempts through the posted leg while maintaining offensive mobility for transitions and submission attacks. The asymmetric configuration allows rapid weight shifts to counter defensive movements while preserving the ability to flow between mount variations, S-mount, technical mount, and back control positions that would be slower to access from standard mount.",
+        "answer_line": "Base stability + fast transitions",
+        "distractors": {
+          "plausible": [
+            "Both knees pin ribs tighter",
+            "Easier submission finishes only"
+          ],
+          "trap": [
+            "Sit upright, weight on knees"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging toward your posted leg side. How do you adjust to maintain position?",
-        "answer": "Immediately shift your weight toward the mounted side by driving your mounted-side knee deeper into their ribs while posting your hand on the mat near their far shoulder. This redistributes your weight away from the bridge direction. If the bridge is powerful, be ready to transition to side control or knee on belly rather than fighting the momentum—maintaining top position is more important than forcing the specific mount configuration."
+        "answer": "Immediately shift your weight toward the mounted side by driving your mounted-side knee deeper into their ribs while posting your hand on the mat near their far shoulder. This redistributes your weight away from the bridge direction. If the bridge is powerful, be ready to transition to side control or knee on belly rather than fighting the momentum—maintaining top position is more important than forcing the specific mount configuration.",
+        "answer_line": "Shift weight to mounted side",
+        "distractors": {
+          "plausible": [
+            "Push off posted foot harder",
+            "Grip both wrists, hold still"
+          ],
+          "trap": [
+            "Fight the bridge, stay mounted"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and contact points for maintaining 3-4 Mount control?",
-        "answer": "The critical contact points are: mounted knee tight against opponent's ribcage or armpit, posted leg's knee and foot creating triangular base outside opponent's body, chest-to-chest pressure driving forward and down, and at least one hand controlling opponent's arms (wrist, sleeve, or cross-grip). The hip-to-hip connection must remain constant, with your weight distributed primarily through your hips rather than sitting upright on your knees."
+        "answer": "The critical contact points are: mounted knee tight against opponent's ribcage or armpit, posted leg's knee and foot creating triangular base outside opponent's body, chest-to-chest pressure driving forward and down, and at least one hand controlling opponent's arms (wrist, sleeve, or cross-grip). The hip-to-hip connection must remain constant, with your weight distributed primarily through your hips rather than sitting upright on your knees.",
+        "answer_line": "Knee in ribs, chest heavy",
+        "distractors": {
+          "plausible": [
+            "Both hands gripping collar",
+            "Weight balanced on both knees"
+          ],
+          "trap": [
+            "Sit tall, control with hands"
+          ]
+        }
       },
       {
         "question": "How do you shut down the elbow escape (shrimp) when your opponent begins creating hip movement?",
-        "answer": "Drive your mounted-side knee deeper into their armpit as a wedge, eliminating the space they need to insert their elbow. Simultaneously drop your chest weight forward to pin their shoulders, making hip movement more difficult. If they manage to get their elbow inside, immediately transition to side control or switch to the opposite side 3-4 configuration rather than allowing them to continue building the escape sequence."
+        "answer": "Drive your mounted-side knee deeper into their armpit as a wedge, eliminating the space they need to insert their elbow. Simultaneously drop your chest weight forward to pin their shoulders, making hip movement more difficult. If they manage to get their elbow inside, immediately transition to side control or switch to the opposite side 3-4 configuration rather than allowing them to continue building the escape sequence.",
+        "answer_line": "Wedge knee into armpit",
+        "distractors": {
+          "plausible": [
+            "Grab the trapped elbow",
+            "Push their hip down hard"
+          ],
+          "trap": [
+            "Let elbow in, adjust after"
+          ]
+        }
       },
       {
         "question": "What weight distribution error most commonly allows opponents to escape from 3-4 Mount?",
-        "answer": "Sitting too upright with weight distributed through the knees instead of forward through the hips and chest. This common error reduces chest pressure, allows the opponent breathing room to generate explosive movement, and shifts your center of gravity higher, making you vulnerable to bridge and roll escapes. The correction is maintaining constant forward lean with chest heavy on opponent's sternum while using your posted leg for balance, not primary weight support."
+        "answer": "Sitting too upright with weight distributed through the knees instead of forward through the hips and chest. This common error reduces chest pressure, allows the opponent breathing room to generate explosive movement, and shifts your center of gravity higher, making you vulnerable to bridge and roll escapes. The correction is maintaining constant forward lean with chest heavy on opponent's sternum while using your posted leg for balance, not primary weight support.",
+        "answer_line": "Sitting upright, weight on knees",
+        "distractors": {
+          "plausible": [
+            "Too much weight on posted foot",
+            "Gripping too tight with hands"
+          ],
+          "trap": [
+            "Sitting back on your heels"
+          ]
+        }
       },
       {
         "question": "Your opponent traps your posted arm and attempts to bridge toward that side. What is your response?",
-        "answer": "Immediately withdraw the trapped arm while posting your opposite hand for base. Shift your weight sharply toward the mounted side and drive your mounted knee into their ribs. If the bridge is already in motion, transition with it rather than against it—flow to side control on the side they're bridging toward, maintaining top position throughout. Never fight directly against a committed bridge when your posting arm is compromised."
+        "answer": "Immediately withdraw the trapped arm while posting your opposite hand for base. Shift your weight sharply toward the mounted side and drive your mounted knee into their ribs. If the bridge is already in motion, transition with it rather than against it—flow to side control on the side they're bridging toward, maintaining top position throughout. Never fight directly against a committed bridge when your posting arm is compromised.",
+        "answer_line": "Free arm, shift to mounted side",
+        "distractors": {
+          "plausible": [
+            "Yank arm free, fight the bridge",
+            "Post trapped arm harder"
+          ],
+          "trap": [
+            "Resist the bridge, stay square"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when maintaining 3-4 Mount against an actively resisting opponent?",
-        "answer": "Use skeletal structure and gravity rather than muscular effort for pressure—let your body weight do the work by staying heavy through your hips and chest. Minimize unnecessary movement by making small, precise adjustments rather than large reactive movements. When the opponent pauses their escape attempts, use that time to consolidate grips and positioning. Recognize that 3-4 Mount is transitional—if maintaining it becomes energy-intensive, advance to full mount or attack a submission rather than grinding in an unstable position."
+        "answer": "Use skeletal structure and gravity rather than muscular effort for pressure—let your body weight do the work by staying heavy through your hips and chest. Minimize unnecessary movement by making small, precise adjustments rather than large reactive movements. When the opponent pauses their escape attempts, use that time to consolidate grips and positioning. Recognize that 3-4 Mount is transitional—if maintaining it becomes energy-intensive, advance to full mount or attack a submission rather than grinding in an unstable position.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Constantly reposition grips",
+            "Match their intensity always"
+          ],
+          "trap": [
+            "Muscle through with strength"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and gets one knee inside, threatening half guard. How do you recover full mount control?",
-        "answer": "Do not try to pull your leg back out against their hook—this wastes energy and rarely succeeds. Instead, accept top half guard temporarily and work to clear the knee using underhook pressure, crossface, and hip switching. Alternatively, if you feel their half guard is weak, immediately backstep to mount on the opposite side or transition to knee on belly to reset the position. The goal is maintaining dominant top position, not forcing a specific configuration."
+        "answer": "Do not try to pull your leg back out against their hook—this wastes energy and rarely succeeds. Instead, accept top half guard temporarily and work to clear the knee using underhook pressure, crossface, and hip switching. Alternatively, if you feel their half guard is weak, immediately backstep to mount on the opposite side or transition to knee on belly to reset the position. The goal is maintaining dominant top position, not forcing a specific configuration.",
+        "answer_line": "Clear knee with underhook pressure",
+        "distractors": {
+          "plausible": [
+            "Yank leg back out immediately",
+            "Force leg back to full mount"
+          ],
+          "trap": [
+            "Pull knee out, fight for base"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -464,35 +544,115 @@
     "flashcards": [
       {
         "question": "What is the primary escape advantage of 3-4 Mount Bottom compared to traditional mount bottom?",
-        "answer": "The asymmetric weight distribution in 3-4 Mount creates a natural escape angle toward the lighter side where the opponent has fewer contact points. Unlike traditional mount where weight is evenly distributed, the posted leg configuration in 3-4 Mount means one side has compromised base stability. Recognizing this lighter side and directing escape movements toward it significantly increases success rates compared to escaping symmetric mount positions."
+        "answer": "The asymmetric weight distribution in 3-4 Mount creates a natural escape angle toward the lighter side where the opponent has fewer contact points. Unlike traditional mount where weight is evenly distributed, the posted leg configuration in 3-4 Mount means one side has compromised base stability. Recognizing this lighter side and directing escape movements toward it significantly increases success rates compared to escaping symmetric mount positions.",
+        "answer_line": "Escape toward lighter posted side",
+        "distractors": {
+          "plausible": [
+            "Escape toward mounted heavy side",
+            "Push straight up, both sides equal"
+          ],
+          "trap": [
+            "Bridge toward mounted knee side"
+          ]
+        }
       },
       {
         "question": "Your opponent has heavy chest pressure in 3-4 Mount. How do you create space for escape without exhausting yourself?",
-        "answer": "Establish frames using skeletal structure rather than muscular pushing—keep elbows bent at 90 degrees with forearms against their hips and shoulders. Bridge at a 45-degree angle toward the heavier side to momentarily unweight their chest pressure, then immediately shrimp your hips away toward the lighter side while maintaining your frames. Use controlled, systematic bridge-and-shrimp sequences rather than explosive single attempts that waste energy without creating cumulative space."
+        "answer": "Establish frames using skeletal structure rather than muscular pushing—keep elbows bent at 90 degrees with forearms against their hips and shoulders. Bridge at a 45-degree angle toward the heavier side to momentarily unweight their chest pressure, then immediately shrimp your hips away toward the lighter side while maintaining your frames. Use controlled, systematic bridge-and-shrimp sequences rather than explosive single attempts that waste energy without creating cumulative space.",
+        "answer_line": "Bridge heavy side, shrimp light",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively, single try",
+            "Shrimp toward the heavier side"
+          ],
+          "trap": [
+            "Push with straight arms"
+          ]
+        }
       },
       {
         "question": "What are the essential frames needed to prevent submissions while escaping 3-4 Mount?",
-        "answer": "The primary defensive frames are: near-side elbow tight to your ribs creating a barrier against their hip pressure, far-side forearm across their bicep or shoulder preventing them from dropping chest weight, and chin tucked to chest protecting the neck from choke attempts. These frames must be maintained throughout the escape sequence—never extend arms fully as this creates armbar and Americana vulnerabilities."
+        "answer": "The primary defensive frames are: near-side elbow tight to your ribs creating a barrier against their hip pressure, far-side forearm across their bicep or shoulder preventing them from dropping chest weight, and chin tucked to chest protecting the neck from choke attempts. These frames must be maintained throughout the escape sequence—never extend arms fully as this creates armbar and Americana vulnerabilities.",
+        "answer_line": "Elbows in, chin tucked",
+        "distractors": {
+          "plausible": [
+            "One arm frame, other posted wide",
+            "Forearms crossed over their back"
+          ],
+          "trap": [
+            "Extend arms fully to push off"
+          ]
+        }
       },
       {
         "question": "How do you identify which side is the lighter side in 3-4 Mount configuration?",
-        "answer": "The lighter side is the side with the posted leg—this leg has its knee off your body and foot posted on the mat, creating fewer contact points and less direct pressure on that side of your torso. Feel for where the opponent's weight is concentrated: the mounted side with the knee on your body will feel heavier. Direct your hip escape movements toward the posted leg side where there is less resistance and the opponent has compromised base stability."
+        "answer": "The lighter side is the side with the posted leg—this leg has its knee off your body and foot posted on the mat, creating fewer contact points and less direct pressure on that side of your torso. Feel for where the opponent's weight is concentrated: the mounted side with the knee on your body will feel heavier. Direct your hip escape movements toward the posted leg side where there is less resistance and the opponent has compromised base stability.",
+        "answer_line": "Side with the posted leg",
+        "distractors": {
+          "plausible": [
+            "Side facing away from you",
+            "Side with their free arm"
+          ],
+          "trap": [
+            "Side with their mounted knee"
+          ]
+        }
       },
       {
         "question": "Your opponent begins setting up an Americana from 3-4 Mount. What is your immediate defensive response?",
-        "answer": "Immediately straighten the threatened arm and drive it toward your hip, pulling your elbow tight to your body to deny the necessary angle. Simultaneously bridge toward the side of the attack to disrupt their base and reduce their control leverage. If they persist, grip your own collar or belt with the attacked hand to create an anchor point. Use the space created by their submission focus to execute an escape toward the opposite side, as their attention on the arm creates a momentary base weakness."
+        "answer": "Immediately straighten the threatened arm and drive it toward your hip, pulling your elbow tight to your body to deny the necessary angle. Simultaneously bridge toward the side of the attack to disrupt their base and reduce their control leverage. If they persist, grip your own collar or belt with the attacked hand to create an anchor point. Use the space created by their submission focus to execute an escape toward the opposite side, as their attention on the arm creates a momentary base weakness.",
+        "answer_line": "Straighten arm, pull elbow in",
+        "distractors": {
+          "plausible": [
+            "Bend elbow, pull arm to chest",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Bend arm, try to muscle out"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to attempt a bridge and roll escape from 3-4 Mount Bottom?",
-        "answer": "The optimal timing is when the opponent reaches high for a collar grip, submission setup, or adjusts their position—these moments raise their center of gravity and compromise their base. Additionally, if they shift their weight strongly toward the mounted side, this creates vulnerability to a bridge toward the posted leg side. Never attempt bridge and roll when they are settled low with heavy chest pressure and stable base; wait for or create movement that disrupts their equilibrium first."
+        "answer": "The optimal timing is when the opponent reaches high for a collar grip, submission setup, or adjusts their position—these moments raise their center of gravity and compromise their base. Additionally, if they shift their weight strongly toward the mounted side, this creates vulnerability to a bridge toward the posted leg side. Never attempt bridge and roll when they are settled low with heavy chest pressure and stable base; wait for or create movement that disrupts their equilibrium first.",
+        "answer_line": "When they reach high, base rises",
+        "distractors": {
+          "plausible": [
+            "Right after they settle in tight",
+            "As soon as mount is established"
+          ],
+          "trap": [
+            "Bridge when chest is heavy, low"
+          ]
+        }
       },
       {
         "question": "How do you recover guard after successfully creating space from 3-4 Mount Bottom?",
-        "answer": "After creating space through the bridge-and-shrimp sequence, immediately insert your near-side knee between your body and theirs as a knee shield, preventing them from reclosing the distance. Continue shrimping to create angle, then work to either recover closed guard by bringing your far leg around their body, establish half guard by trapping their leg with both of yours, or create open guard distance. Maintain frames throughout guard recovery to prevent them from immediately re-passing."
+        "answer": "After creating space through the bridge-and-shrimp sequence, immediately insert your near-side knee between your body and theirs as a knee shield, preventing them from reclosing the distance. Continue shrimping to create angle, then work to either recover closed guard by bringing your far leg around their body, establish half guard by trapping their leg with both of yours, or create open guard distance. Maintain frames throughout guard recovery to prevent them from immediately re-passing.",
+        "answer_line": "Knee shield, then shrimp to guard",
+        "distractors": {
+          "plausible": [
+            "Stand straight up immediately",
+            "Grab both legs, pull closed guard"
+          ],
+          "trap": [
+            "Drop frames, chase full guard"
+          ]
+        }
       },
       {
         "question": "What common error most frequently leads to failed escapes from 3-4 Mount Bottom?",
-        "answer": "Escaping toward the heavier side where the opponent's mounted knee creates maximum pressure and base stability. This common error results from not recognizing the asymmetric configuration or panicking without assessing weight distribution. The correction is to always identify the posted leg side first, bridge toward the mounted side to disrupt their base, then immediately escape toward the lighter posted leg side where their base is compromised and escape success rates are significantly higher."
+        "answer": "Escaping toward the heavier side where the opponent's mounted knee creates maximum pressure and base stability. This common error results from not recognizing the asymmetric configuration or panicking without assessing weight distribution. The correction is to always identify the posted leg side first, bridge toward the mounted side to disrupt their base, then immediately escape toward the lighter posted leg side where their base is compromised and escape success rates are significantly higher.",
+        "answer_line": "Escaping toward the heavy side",
+        "distractors": {
+          "plausible": [
+            "Escaping too early in exchange",
+            "Not bridging before shrimping"
+          ],
+          "trap": [
+            "Escaping straight up the middle"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -752,23 +912,73 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines the 3-4 Mount and gives the position its name?",
-      "answer": "In 3-4 Mount the top player crosses one leg fully over the opponent's torso in the traditional mount configuration while the other leg posts outside the opponent's body, knee on the mat and foot planted. The name reflects the contact pattern created by this split: one side carries the full mounted-leg connection (the '4') while the posted-leg side has fewer points touching the opponent (the '3'). This deliberate asymmetry is the defining structural feature that separates it from symmetric mount, where both knees pinch the ribs. Everything else about the position's mechanics flows from this one-in, one-out leg split."
+      "answer": "In 3-4 Mount the top player crosses one leg fully over the opponent's torso in the traditional mount configuration while the other leg posts outside the opponent's body, knee on the mat and foot planted. The name reflects the contact pattern created by this split: one side carries the full mounted-leg connection (the '4') while the posted-leg side has fewer points touching the opponent (the '3'). This deliberate asymmetry is the defining structural feature that separates it from symmetric mount, where both knees pinch the ribs. Everything else about the position's mechanics flows from this one-in, one-out leg split.",
+      "answer_line": "One leg mounted, one posted out",
+      "distractors": {
+        "plausible": [
+          "Both legs hooked under their hips",
+          "Both knees pinched on the ribs"
+        ],
+        "trap": [
+          "Both feet hooked, S-mount style"
+        ]
+      }
     },
     {
       "question": "Why does the 3-4 Mount produce an inherently asymmetric weight distribution?",
-      "answer": "Because one leg is mounted across the torso while the other posts wide on the mat, the top player's mass is not evenly balanced between two knees as it is in standard mount. The mounted side carries concentrated pressure through the crossed leg and driving knee, making it the heavier side, while the posted-leg side offloads weight into the planted foot and knee on the floor, making it lighter. This creates a directional bias that both players can feel: pressure and control are stronger toward the mounted side, and instability is greater toward the posted side. The entire tactical character of the position stems from this uneven loading."
+      "answer": "Because one leg is mounted across the torso while the other posts wide on the mat, the top player's mass is not evenly balanced between two knees as it is in standard mount. The mounted side carries concentrated pressure through the crossed leg and driving knee, making it the heavier side, while the posted-leg side offloads weight into the planted foot and knee on the floor, making it lighter. This creates a directional bias that both players can feel: pressure and control are stronger toward the mounted side, and instability is greater toward the posted side. The entire tactical character of the position stems from this uneven loading.",
+      "answer_line": "Mounted leg heavy, posted leg light",
+      "distractors": {
+        "plausible": [
+          "Both legs equally load the hips",
+          "Weight shifts randomly each rep"
+        ],
+        "trap": [
+          "Posted leg carries most weight"
+        ]
+      }
     },
     {
       "question": "How does the posted outside leg function as a base for the top player?",
-      "answer": "The posted leg acts as a dynamic outrigger, its knee on the mat and foot planted to widen the base on that side. This planted limb lets the top player brace against and redirect a bridge by pushing off the floor rather than relying solely on hip-to-hip contact. It also frees the top player to shift weight and adjust angle quickly, since one leg is no longer committed to pinching the ribs. The trade-off is that the posted leg's contribution to base comes from the floor, not from clamping the opponent, so the control it provides is directional rather than symmetric."
+      "answer": "The posted leg acts as a dynamic outrigger, its knee on the mat and foot planted to widen the base on that side. This planted limb lets the top player brace against and redirect a bridge by pushing off the floor rather than relying solely on hip-to-hip contact. It also frees the top player to shift weight and adjust angle quickly, since one leg is no longer committed to pinching the ribs. The trade-off is that the posted leg's contribution to base comes from the floor, not from clamping the opponent, so the control it provides is directional rather than symmetric.",
+      "answer_line": "Outrigger that braces bridges",
+      "distractors": {
+        "plausible": [
+          "Clamps the ribs for control",
+          "Hooks their leg for a base"
+        ],
+        "trap": [
+          "Locks under their hip for base"
+        ]
+      }
     },
     {
       "question": "What are the primary contact and control points shared across the 3-4 Mount regardless of role?",
-      "answer": "The mounted-side knee driving into the opponent's ribs or armpit is the primary internal control point, wedging space closed on that side. Chest-to-chest or chest-to-sternum pressure supplies the forward-and-down force that limits the bottom player's breathing and explosive movement. The posted leg's knee and foot form the external base point that resists tipping, and upper-body arm control (wrists, sleeves, or a crossface) anchors the opponent's frames. These points exist for both players to reckon with: the top player maintains them, the bottom player must break or exploit them."
+      "answer": "The mounted-side knee driving into the opponent's ribs or armpit is the primary internal control point, wedging space closed on that side. Chest-to-chest or chest-to-sternum pressure supplies the forward-and-down force that limits the bottom player's breathing and explosive movement. The posted leg's knee and foot form the external base point that resists tipping, and upper-body arm control (wrists, sleeves, or a crossface) anchors the opponent's frames. These points exist for both players to reckon with: the top player maintains them, the bottom player must break or exploit them.",
+      "answer_line": "Knee in ribs, chest, arm control",
+      "distractors": {
+        "plausible": [
+          "Both knees pinching the ribs",
+          "Both hands gripping the collar"
+        ],
+        "trap": [
+          "Sitting upright, hands free"
+        ]
+      }
     },
     {
       "question": "Why is the mounted-side knee driving into the ribs so central to how this position controls the bottom player?",
-      "answer": "The mounted knee acts as a wedge that eliminates the inside space the bottom player needs to insert an elbow and begin a shrimp or elbow escape. By pinning tight to the ribs or armpit, it closes off the most common recovery channel on the heavier side and pins the opponent's hips to the mat. This concentrated pressure is also what makes the mounted side feel heavier and harder to escape toward. When that knee drifts away and space opens, the primary control mechanism of the whole position degrades, which is why maintaining or attacking that connection defines the exchange for both players."
+      "answer": "The mounted knee acts as a wedge that eliminates the inside space the bottom player needs to insert an elbow and begin a shrimp or elbow escape. By pinning tight to the ribs or armpit, it closes off the most common recovery channel on the heavier side and pins the opponent's hips to the mat. This concentrated pressure is also what makes the mounted side feel heavier and harder to escape toward. When that knee drifts away and space opens, the primary control mechanism of the whole position degrades, which is why maintaining or attacking that connection defines the exchange for both players.",
+      "answer_line": "Wedge blocks elbow insertion",
+      "distractors": {
+        "plausible": [
+          "Controls their far-side hand",
+          "Sets up the chest-to-chest lock"
+        ],
+        "trap": [
+          "Lets knee drift for mobility"
+        ]
+      }
     },
     {
       "question": "How does the heavy-side/light-side gradient govern the shared bridge-and-escape logic of the position?",
@@ -776,11 +986,31 @@
     },
     {
       "question": "Why is the 3-4 Mount considered a transitional position rather than a static holding position?",
-      "answer": "The asymmetric base that gives the top player mobility to shift and attack is the same asymmetry that leaves a directional vulnerability toward the posted-leg side, so the configuration does not settle into a stable equilibrium the way flat, symmetric mount can. Weight must be actively managed and angles constantly adjusted, meaning neither player can afford to stay put. The position naturally pulls toward change: the top player toward full mount, S-mount, technical mount, or a submission, and the bottom player toward guard recovery or a reversal. Its value lies in the doorways it opens, not in the pressure it holds indefinitely."
+      "answer": "The asymmetric base that gives the top player mobility to shift and attack is the same asymmetry that leaves a directional vulnerability toward the posted-leg side, so the configuration does not settle into a stable equilibrium the way flat, symmetric mount can. Weight must be actively managed and angles constantly adjusted, meaning neither player can afford to stay put. The position naturally pulls toward change: the top player toward full mount, S-mount, technical mount, or a submission, and the bottom player toward guard recovery or a reversal. Its value lies in the doorways it opens, not in the pressure it holds indefinitely.",
+      "answer_line": "Its mobility is also unstable",
+      "distractors": {
+        "plausible": [
+          "It's the strongest static hold",
+          "Pressure alone finishes fights"
+        ],
+        "trap": [
+          "Hold it indefinitely for control"
+        ]
+      }
     },
     {
       "question": "How does the 3-4 Mount differ mechanically from traditional symmetric mount and from S-mount?",
-      "answer": "Traditional mount seats both knees against the ribs for a balanced, two-point base that maximizes stability but commits both legs and slows transitions. The 3-4 Mount trades one of those knees for a posted outside leg, sacrificing symmetric stability in exchange for a mobile base and faster access to attacks and mount variations. S-mount goes further, folding one leg under and turning the hips to isolate the far arm for armbar mechanics, whereas 3-4 Mount keeps the posted leg as a bracing outrigger rather than a trapping structure. In essence 3-4 Mount sits between symmetric mount's stability and S-mount's specialization, offering asymmetric mobility without fully committing to a single attack."
+      "answer": "Traditional mount seats both knees against the ribs for a balanced, two-point base that maximizes stability but commits both legs and slows transitions. The 3-4 Mount trades one of those knees for a posted outside leg, sacrificing symmetric stability in exchange for a mobile base and faster access to attacks and mount variations. S-mount goes further, folding one leg under and turning the hips to isolate the far arm for armbar mechanics, whereas 3-4 Mount keeps the posted leg as a bracing outrigger rather than a trapping structure. In essence 3-4 Mount sits between symmetric mount's stability and S-mount's specialization, offering asymmetric mobility without fully committing to a single attack.",
+      "answer_line": "Trades stability for mobility",
+      "distractors": {
+        "plausible": [
+          "Same base as traditional mount",
+          "Identical setup to S-mount"
+        ],
+        "trap": [
+          "Both legs trap for an armbar"
+        ]
+      }
     }
   ],
   "clips": [

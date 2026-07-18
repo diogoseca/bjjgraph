@@ -261,39 +261,129 @@
     "flashcards": [
       {
         "question": "What is the most critical body position you must secure before attempting to insert the knee shield?",
-        "answer": "You must first secure an underhook on the opponent's far side. The underhook provides the structural foundation that prevents the opponent from fully settling their weight and creates the leverage needed for effective hip escapes. Without the underhook, hip escape attempts lack structural support to generate meaningful space, and the opponent can easily drive you flat again after each micro-movement."
+        "answer": "You must first secure an underhook on the opponent's far side. The underhook provides the structural foundation that prevents the opponent from fully settling their weight and creates the leverage needed for effective hip escapes. Without the underhook, hip escape attempts lack structural support to generate meaningful space, and the opponent can easily drive you flat again after each micro-movement.",
+        "answer_line": "Secure far-side underhook first",
+        "distractors": {
+          "plausible": [
+            "Hip escape before securing grip",
+            "Frame on their far hip first"
+          ],
+          "trap": [
+            "Push off with both hands"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure as you begin hip escaping - how do you continue the recovery?",
-        "answer": "Accept the crossface and focus on maintaining your underhook rather than fighting the head position directly. Use your underhook arm to brace against their far shoulder while executing smaller, more controlled hip escapes toward your trapped leg side. The underhook prevents the crossface from completely pinning you, and each hip escape compounds even under heavy pressure. Time your shrimps with moments when the opponent adjusts their crossface angle and pressure briefly lightens."
+        "answer": "Accept the crossface and focus on maintaining your underhook rather than fighting the head position directly. Use your underhook arm to brace against their far shoulder while executing smaller, more controlled hip escapes toward your trapped leg side. The underhook prevents the crossface from completely pinning you, and each hip escape compounds even under heavy pressure. Time your shrimps with moments when the opponent adjusts their crossface angle and pressure briefly lightens.",
+        "answer_line": "Keep underhook, small hip escapes",
+        "distractors": {
+          "plausible": [
+            "Fight off the crossface first",
+            "Wait for pressure to fully release"
+          ],
+          "trap": [
+            "Turn away to relieve pressure"
+          ]
+        }
       },
       {
         "question": "Why must you hip escape toward your trapped leg side rather than away from it?",
-        "answer": "Hip escaping toward your trapped leg side keeps your chest facing the opponent, preventing back exposure that skilled top players immediately exploit for back takes. Moving toward the free leg side naturally turns you away from the opponent, creating the exact rotation pattern they need to transition to back control. The trapped leg side direction also creates space at the correct angle for knee shield insertion across their hip line."
+        "answer": "Hip escaping toward your trapped leg side keeps your chest facing the opponent, preventing back exposure that skilled top players immediately exploit for back takes. Moving toward the free leg side naturally turns you away from the opponent, creating the exact rotation pattern they need to transition to back control. The trapped leg side direction also creates space at the correct angle for knee shield insertion across their hip line.",
+        "answer_line": "Keeps chest facing opponent",
+        "distractors": {
+          "plausible": [
+            "Escape toward the free leg side",
+            "Creates more space overall"
+          ],
+          "trap": [
+            "Turn belly-down to explode"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for filling space after each hip escape increment?",
-        "answer": "Immediately insert your elbow or forearm into the gap created between your torso and the opponent's chest before they can collapse the space. This creates a structural wedge that preserves gained distance through a ratchet effect. Once the elbow is established, the next hip escape creates enough room to drive your knee upward toward their centerline. Each frame insertion must happen in the same motion as the hip escape with zero delay, because any gap allows the top player to re-establish pressure."
+        "answer": "Immediately insert your elbow or forearm into the gap created between your torso and the opponent's chest before they can collapse the space. This creates a structural wedge that preserves gained distance through a ratchet effect. Once the elbow is established, the next hip escape creates enough room to drive your knee upward toward their centerline. Each frame insertion must happen in the same motion as the hip escape with zero delay, because any gap allows the top player to re-establish pressure.",
+        "answer_line": "Frame elbow in immediately",
+        "distractors": {
+          "plausible": [
+            "Insert the knee before framing",
+            "Pause to reset before framing"
+          ],
+          "trap": [
+            "Grab their far collar first"
+          ]
+        }
       },
       {
         "question": "When during the opponent's movement cycle is the optimal time to initiate your knee shield recovery?",
-        "answer": "The best window opens when the opponent shifts weight to advance position, adjust grips, or initiate a passing sequence. When they start a knee slice, change their crossface angle, or shift weight laterally for grip changes, their chest pressure momentarily reduces. This instant of lighter pressure is your trigger to execute a hip escape and advance the recovery. Recovering reactively during their movements is far more efficient than trying to create space against settled, static pressure."
+        "answer": "The best window opens when the opponent shifts weight to advance position, adjust grips, or initiate a passing sequence. When they start a knee slice, change their crossface angle, or shift weight laterally for grip changes, their chest pressure momentarily reduces. This instant of lighter pressure is your trigger to execute a hip escape and advance the recovery. Recovering reactively during their movements is far more efficient than trying to create space against settled, static pressure.",
+        "answer_line": "When opponent shifts weight to pass",
+        "distractors": {
+          "plausible": [
+            "Only when pressure fully releases",
+            "Right after they resettle"
+          ],
+          "trap": [
+            "Wait for them to attack the arm"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent strips your underhook during the recovery attempt?",
-        "answer": "Immediately re-fight for the underhook before attempting further hip escapes. Without the underhook, your recovery lacks structural integrity and subsequent movements will be neutralized by the opponent simply resettling their weight. Frame on their bicep or shoulder to create momentary space, then swim your arm back through. If they actively deny the underhook with a deep whizzer, transition to lockdown with your legs to stabilize the position before reattempting."
+        "answer": "Immediately re-fight for the underhook before attempting further hip escapes. Without the underhook, your recovery lacks structural integrity and subsequent movements will be neutralized by the opponent simply resettling their weight. Frame on their bicep or shoulder to create momentary space, then swim your arm back through. If they actively deny the underhook with a deep whizzer, transition to lockdown with your legs to stabilize the position before reattempting.",
+        "answer_line": "Re-fight for the underhook",
+        "distractors": {
+          "plausible": [
+            "Switch straight to deep half",
+            "Push on their hip for space"
+          ],
+          "trap": [
+            "Give up the arm, turn away"
+          ]
+        }
       },
       {
         "question": "How do you prevent the top player from completing a knee slice pass as you create space for the knee shield?",
-        "answer": "The space you create for knee shield insertion is the same space the opponent can exploit for a knee slice. The critical defense is speed of shield insertion: drive your knee across their hip line immediately as space opens, before they can redirect their knee through the gap. Maintain your bottom leg hook tight to prevent their leg from slicing through. If they begin the knee slice, press your recovering shin into their advancing thigh as a block rather than trying to complete the full shield across their chest."
+        "answer": "The space you create for knee shield insertion is the same space the opponent can exploit for a knee slice. The critical defense is speed of shield insertion: drive your knee across their hip line immediately as space opens, before they can redirect their knee through the gap. Maintain your bottom leg hook tight to prevent their leg from slicing through. If they begin the knee slice, press your recovering shin into their advancing thigh as a block rather than trying to complete the full shield across their chest.",
+        "answer_line": "Insert shield fast, keep hook tight",
+        "distractors": {
+          "plausible": [
+            "Complete the full shield first",
+            "Try to out-muscle the slice"
+          ],
+          "trap": [
+            "Loosen bottom hook for space"
+          ]
+        }
       },
       {
         "question": "Your partial knee shield keeps getting knocked down before you can fully establish it - what adjustment should you make?",
-        "answer": "Ensure you are creating sufficient space through hip escaping before attempting shield insertion. A premature attempt without adequate room results in a weak frame that is easily collapsed. Create at least one full elbow-width of space before driving the knee across. Additionally, support the knee shield with your hand pressing on the inside of your own knee, creating a reinforced frame structure the opponent cannot easily smash flat. Once the shield has structural support, immediately secure a collar or sleeve grip to lock in the position."
+        "answer": "Ensure you are creating sufficient space through hip escaping before attempting shield insertion. A premature attempt without adequate room results in a weak frame that is easily collapsed. Create at least one full elbow-width of space before driving the knee across. Additionally, support the knee shield with your hand pressing on the inside of your own knee, creating a reinforced frame structure the opponent cannot easily smash flat. Once the shield has structural support, immediately secure a collar or sleeve grip to lock in the position.",
+        "answer_line": "Create more space before inserting",
+        "distractors": {
+          "plausible": [
+            "Insert the shield faster",
+            "Grip their sleeve before shield"
+          ],
+          "trap": [
+            "Push shield in without space"
+          ]
+        }
       },
       {
         "question": "What alternative transition should you pursue if direct knee shield recovery is repeatedly blocked?",
-        "answer": "Transition to deep half guard by diving under the opponent's hips instead of fighting for the shield insertion. When the opponent's crossface and forward pressure make direct recovery impossible, the directional change to deep half catches them off-guard. From deep half, the sweeping threat forces them to post and redistribute weight, which often creates the space needed to come back up to knee shield from a stronger position. The key is recognizing early when direct recovery is not viable and switching rather than burning energy on failed attempts."
+        "answer": "Transition to deep half guard by diving under the opponent's hips instead of fighting for the shield insertion. When the opponent's crossface and forward pressure make direct recovery impossible, the directional change to deep half catches them off-guard. From deep half, the sweeping threat forces them to post and redistribute weight, which often creates the space needed to come back up to knee shield from a stronger position. The key is recognizing early when direct recovery is not viable and switching rather than burning energy on failed attempts.",
+        "answer_line": "Dive under to deep half guard",
+        "distractors": {
+          "plausible": [
+            "Switch to full guard retention",
+            "Sit up into an overhook"
+          ],
+          "trap": [
+            "Turtle up and wait it out"
+          ]
+        }
       }
     ],
     "safety_considerations": "This recovery technique involves operating under heavy chest pressure that restricts breathing. Never train to the point of genuine respiratory distress, and tap immediately if you experience lightheadedness, vision changes, or panic from breathing restriction. The knee shield insertion movement can stress the medial knee joint if forced through insufficient space - always create adequate room through hip escapes before driving the knee across. Partners should gradually increase pressure during drilling rather than applying maximum weight from the start. Communicate clearly about pressure levels during training and establish hand signals for reducing pressure when verbal communication is difficult.",
@@ -402,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that signals your opponent is about to attempt knee shield recovery?",
-        "answer": "The first cue is typically the opponent fighting to establish or strengthen their underhook on your far side. You will feel increased hand activity and arm movement under your armpit as they try to swim their arm through. This underhook attempt precedes the hip escape sequence and is the clearest early warning that a systematic recovery is beginning rather than a random panic movement."
+        "answer": "The first cue is typically the opponent fighting to establish or strengthen their underhook on your far side. You will feel increased hand activity and arm movement under your armpit as they try to swim their arm through. This underhook attempt precedes the hip escape sequence and is the clearest early warning that a systematic recovery is beginning rather than a random panic movement.",
+        "answer_line": "Fighting to get the underhook",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge",
+            "Grip fighting for your collar"
+          ],
+          "trap": [
+            "Random panicked leg kicks"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pressure distribution when you feel the bottom player beginning to hip escape?",
-        "answer": "Immediately follow their hip movement with your own hips, driving forward to close any space they create. Shift your weight diagonally toward their trapped leg side, the direction they are escaping toward. Simultaneously increase crossface pressure to limit their head and shoulder mobility. The critical principle is being proactive rather than reactive: follow their hips in real-time rather than waiting for them to create space and then trying to reclaim it."
+        "answer": "Immediately follow their hip movement with your own hips, driving forward to close any space they create. Shift your weight diagonally toward their trapped leg side, the direction they are escaping toward. Simultaneously increase crossface pressure to limit their head and shoulder mobility. The critical principle is being proactive rather than reactive: follow their hips in real-time rather than waiting for them to create space and then trying to reclaim it.",
+        "answer_line": "Follow their hips, add crossface",
+        "distractors": {
+          "plausible": [
+            "Wait, then reclaim space after",
+            "Shift weight away from escape"
+          ],
+          "trap": [
+            "Back off to reset your base"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a knee slice during your opponent's knee shield recovery?",
-        "answer": "The best moment is when the opponent has created partial space for their knee shield but has not yet established the frame across your body. At this point, they have committed to the lateral hip escape movement and their leg hook is often slightly loosened in preparation for driving the knee across. Drive your knee slice through the newly created gap while they are in mid-transition between hip escape and shield insertion, when they cannot simultaneously complete the shield and defend the slice."
+        "answer": "The best moment is when the opponent has created partial space for their knee shield but has not yet established the frame across your body. At this point, they have committed to the lateral hip escape movement and their leg hook is often slightly loosened in preparation for driving the knee across. Drive your knee slice through the newly created gap while they are in mid-transition between hip escape and shield insertion, when they cannot simultaneously complete the shield and defend the slice.",
+        "answer_line": "Mid-transition, before shield sets",
+        "distractors": {
+          "plausible": [
+            "After the shield is fully set",
+            "As soon as hip escape starts"
+          ],
+          "trap": [
+            "Wait until they settle fully"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps recovering their knee shield despite your pressure - what systematic adjustment breaks the cycle?",
-        "answer": "Address the root cause rather than fighting each individual recovery. If they keep recovering, you are likely allowing too much underhook control or creating space during your own grip adjustments. Establish a whizzer or arm control on their underhook side to eliminate the structural foundation of their recovery. Without the underhook, their hip escapes lack the support needed to generate meaningful space. Combine this with hip-to-hip pressure driving directly into their recovering knee to collapse the shield before it establishes."
+        "answer": "Address the root cause rather than fighting each individual recovery. If they keep recovering, you are likely allowing too much underhook control or creating space during your own grip adjustments. Establish a whizzer or arm control on their underhook side to eliminate the structural foundation of their recovery. Without the underhook, their hip escapes lack the support needed to generate meaningful space. Combine this with hip-to-hip pressure driving directly into their recovering knee to collapse the shield before it establishes.",
+        "answer_line": "Whizzer their underhook side",
+        "distractors": {
+          "plausible": [
+            "Increase crossface pressure only",
+            "Chase each hip escape individually"
+          ],
+          "trap": [
+            "Sit back and re-strategize"
+          ]
+        }
       },
       {
         "question": "What is the risk of maintaining purely static pressure when your opponent is attempting recovery?",
-        "answer": "Static pressure, while initially effective, becomes predictable and allows the opponent to time their micro-escapes with your breathing cycle and natural weight shifts. They systematically chip away at your control through incremental gains that compound over time. Dynamic pressure that includes small weight shifts, crossface angle changes, and proactive passing threats keeps the opponent guessing about the timing and direction of your pressure, disrupting their systematic recovery pattern and forcing reactive rather than planned movements."
+        "answer": "Static pressure, while initially effective, becomes predictable and allows the opponent to time their micro-escapes with your breathing cycle and natural weight shifts. They systematically chip away at your control through incremental gains that compound over time. Dynamic pressure that includes small weight shifts, crossface angle changes, and proactive passing threats keeps the opponent guessing about the timing and direction of your pressure, disrupting their systematic recovery pattern and forcing reactive rather than planned movements.",
+        "answer_line": "Becomes predictable, gets timed",
+        "distractors": {
+          "plausible": [
+            "Wastes too much of your energy",
+            "Telegraphs your next pass"
+          ],
+          "trap": [
+            "Relax pressure between rounds"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -259,39 +259,129 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating a pummel attempt against an opponent with an established overhook?",
-        "answer": "The optimal window opens when the opponent shifts their weight, adjusts their grip, or momentarily relaxes overhook pressure. This typically occurs during transitions between techniques or when you create a distraction through push-pull rhythm or feint. Attempting to pummel against a fully loaded, actively maintained overhook is significantly harder and should be avoided in favor of creating the opening first."
+        "answer": "The optimal window opens when the opponent shifts their weight, adjusts their grip, or momentarily relaxes overhook pressure. This typically occurs during transitions between techniques or when you create a distraction through push-pull rhythm or feint. Attempting to pummel against a fully loaded, actively maintained overhook is significantly harder and should be avoided in favor of creating the opening first.",
+        "answer_line": "When they shift weight or grip",
+        "distractors": {
+          "plausible": [
+            "Right after initial contact",
+            "During a hand-fighting exchange"
+          ],
+          "trap": [
+            "Force through the loaded overhook"
+          ]
+        }
       },
       {
         "question": "What body position must be established before you can effectively initiate a pummel from the disadvantaged clinch?",
-        "answer": "You need a stable base with knees bent and feet shoulder-width apart, with your center of gravity low enough to generate forward pressure. Your head should be actively fighting for position rather than completely controlled by opponent's collar tie. Without base stability and some head position autonomy, pummel attempts are easily countered because your structure is compromised and you lack the platform to generate the required swimming motion."
+        "answer": "You need a stable base with knees bent and feet shoulder-width apart, with your center of gravity low enough to generate forward pressure. Your head should be actively fighting for position rather than completely controlled by opponent's collar tie. Without base stability and some head position autonomy, pummel attempts are easily countered because your structure is compromised and you lack the platform to generate the required swimming motion.",
+        "answer_line": "Low stable base, head still free",
+        "distractors": {
+          "plausible": [
+            "Feet together, upright posture",
+            "Chase underhook, ignore base"
+          ],
+          "trap": [
+            "Let head be fully controlled"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether a pummel attempt succeeds or fails?",
-        "answer": "The elbow path during the swim is the decisive mechanical factor. The elbow must stay tight against your ribs throughout the entire motion, threading in a compact arc close to both bodies. A wide elbow path creates a visible telegraph that the opponent blocks easily, while a tight elbow path reduces the reaction window and makes the swim faster and significantly more difficult to counter."
+        "answer": "The elbow path during the swim is the decisive mechanical factor. The elbow must stay tight against your ribs throughout the entire motion, threading in a compact arc close to both bodies. A wide elbow path creates a visible telegraph that the opponent blocks easily, while a tight elbow path reduces the reaction window and makes the swim faster and significantly more difficult to counter.",
+        "answer_line": "Keep elbow tight to the ribs",
+        "distractors": {
+          "plausible": [
+            "Wide swim for more power",
+            "Speed matters more than path"
+          ],
+          "trap": [
+            "Swing arm wide, then thread in"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point when practitioners attempt to pummel against an experienced opponent?",
-        "answer": "The most common failure occurs immediately after the underhook is threaded—practitioners fail to consolidate with head position and hip drive, giving the opponent a window to re-pummel or strip the underhook. Securing the arm underneath is only one-third of the technique; without immediate follow-up of forehead pressure to the shoulder and hips driving forward, the underhook is recovered by the opponent within seconds."
+        "answer": "The most common failure occurs immediately after the underhook is threaded—practitioners fail to consolidate with head position and hip drive, giving the opponent a window to re-pummel or strip the underhook. Securing the arm underneath is only one-third of the technique; without immediate follow-up of forehead pressure to the shoulder and hips driving forward, the underhook is recovered by the opponent within seconds.",
+        "answer_line": "Consolidate head and hips fast",
+        "distractors": {
+          "plausible": [
+            "Just secure the underhook",
+            "Focus on gripping the wrist"
+          ],
+          "trap": [
+            "Pause to reset grip after thread"
+          ]
+        }
       },
       {
         "question": "What hand configuration on the swimming arm best facilitates a successful pummel attempt?",
-        "answer": "The swimming arm should begin with the hand open and elbow bent close to the body, ready to thread quickly underneath the opponent's arm. Clenching the fist or extending the arm creates tension that slows the swim. Once the underhook is established, the hand should reach the opponent's far shoulder blade or wrap their back with the elbow clamped tight to lock the position and prevent it from being stripped."
+        "answer": "The swimming arm should begin with the hand open and elbow bent close to the body, ready to thread quickly underneath the opponent's arm. Clenching the fist or extending the arm creates tension that slows the swim. Once the underhook is established, the hand should reach the opponent's far shoulder blade or wrap their back with the elbow clamped tight to lock the position and prevent it from being stripped.",
+        "answer_line": "Open hand, elbow bent and tight",
+        "distractors": {
+          "plausible": [
+            "Closed fist for a stronger swim",
+            "Extend arm straight to thread"
+          ],
+          "trap": [
+            "Grab cloth instead of the back"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied when consolidating an underhook gained through pummeling?",
-        "answer": "Force should be applied diagonally forward and upward through the underhook, driving your shoulder into the opponent's armpit while simultaneously driving your hips into their hip on the same side. This combined vector lifts their arm away from re-pummeling position and closes the space needed for them to swim back. Pure forward pressure alone is insufficient—the upward component makes the underhook structurally difficult to strip."
+        "answer": "Force should be applied diagonally forward and upward through the underhook, driving your shoulder into the opponent's armpit while simultaneously driving your hips into their hip on the same side. This combined vector lifts their arm away from re-pummeling position and closes the space needed for them to swim back. Pure forward pressure alone is insufficient—the upward component makes the underhook structurally difficult to strip.",
+        "answer_line": "Diagonal: up through the armpit",
+        "distractors": {
+          "plausible": [
+            "Straight forward pressure only",
+            "Pure upward lift, no hip drive"
+          ],
+          "trap": [
+            "Push straight down on the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent immediately responds to your successful pummel with an aggressive re-pummel attempt on the opposite side—how do you adjust?",
-        "answer": "Immediately consolidate the first underhook by clamping your elbow and driving your head to that side. Then use the opposite arm to either frame on their bicep to slow their re-pummel or preemptively swim to establish double underhooks before they complete their swim. If they win the opposite underhook, you reach an over-under position—one underhook each—which is neutral rather than disadvantaged, representing a significant improvement from your starting position."
+        "answer": "Immediately consolidate the first underhook by clamping your elbow and driving your head to that side. Then use the opposite arm to either frame on their bicep to slow their re-pummel or preemptively swim to establish double underhooks before they complete their swim. If they win the opposite underhook, you reach an over-under position—one underhook each—which is neutral rather than disadvantaged, representing a significant improvement from your starting position.",
+        "answer_line": "Clamp first side, frame the other",
+        "distractors": {
+          "plausible": [
+            "Let go and re-pummel both sides",
+            "Focus only on stopping their swim"
+          ],
+          "trap": [
+            "Release your underhook to defend"
+          ]
+        }
       },
       {
         "question": "Your initial pummel attempt is blocked by a strong whizzer—what chain technique should you use to still advance position?",
-        "answer": "When the whizzer blocks your pummel, use the opponent's commitment to that side as an anchor point. Circle toward the whizzer side to create an angle, then attack the opposite side where they are now weaker, or use the angle for a duck under to the back. The whizzer commits their arm and weight to one side, creating an opening on the other—attack the weakness their defense creates rather than continuing to fight through their strongest defensive point."
+        "answer": "When the whizzer blocks your pummel, use the opponent's commitment to that side as an anchor point. Circle toward the whizzer side to create an angle, then attack the opposite side where they are now weaker, or use the angle for a duck under to the back. The whizzer commits their arm and weight to one side, creating an opening on the other—attack the weakness their defense creates rather than continuing to fight through their strongest defensive point.",
+        "answer_line": "Angle into whizzer, hit far side",
+        "distractors": {
+          "plausible": [
+            "Muscle through the whizzer arm",
+            "Retreat and reset the pummel"
+          ],
+          "trap": [
+            "Fight straight into the whizzer"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pummeling approach when your opponent is significantly taller with longer arms?",
-        "answer": "Against taller opponents, the level change pummel variant is most effective. Drop your level by bending your knees while executing the swim, changing the entry angle so you're pummeling underneath their longer arm at a point closer to their body where their leverage advantage is minimized. The height differential actually creates a wider swimming lane when you lower your level, making the underhook easier to establish from below rather than attempting the swim at their height."
+        "answer": "Against taller opponents, the level change pummel variant is most effective. Drop your level by bending your knees while executing the swim, changing the entry angle so you're pummeling underneath their longer arm at a point closer to their body where their leverage advantage is minimized. The height differential actually creates a wider swimming lane when you lower your level, making the underhook easier to establish from below rather than attempting the swim at their height.",
+        "answer_line": "Drop level, swim under their arm",
+        "distractors": {
+          "plausible": [
+            "Reach higher to match their frame",
+            "Pummel at their height, standard"
+          ],
+          "trap": [
+            "Extend arm fully to close distance"
+          ]
+        }
       }
     ],
     "safety_considerations": "Pummeling involves rapid arm movements near the face and neck area. Avoid striking or jerking motions that could cause accidental eye pokes, ear damage, or neck strain. During training, establish clear communication about intensity levels before engaging. Avoid aggressive forward driving after establishing underhooks, which can cause cervical spine compression if your partner's head is caught. Stop immediately if either partner reports shoulder impingement, neck discomfort, or finger injuries from caught grips. Warm up shoulders thoroughly before intensive pummeling sessions.",
@@ -400,23 +490,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt an underhook pummel?",
-        "answer": "The earliest cue is a subtle weight shift to one side combined with their elbow beginning to drop toward their hip on the swimming side. This preparatory movement occurs before the actual swim motion begins. Recognizing this preparation gives you maximum response time to clamp your overhook, drive your forehead into their shoulder, and close the swimming lane before the attempt fully develops."
+        "answer": "The earliest cue is a subtle weight shift to one side combined with their elbow beginning to drop toward their hip on the swimming side. This preparatory movement occurs before the actual swim motion begins. Recognizing this preparation gives you maximum response time to clamp your overhook, drive your forehead into their shoulder, and close the swimming lane before the attempt fully develops.",
+        "answer_line": "Weight shift, elbow drops to hip",
+        "distractors": {
+          "plausible": [
+            "Sudden grip change on collar",
+            "Head pressure increases first"
+          ],
+          "trap": [
+            "Wait until the swim is complete"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully pummel-wins one underhook and is beginning to drive their head to that side—what is your immediate priority?",
-        "answer": "Your immediate priority is counter-pummeling on that same side before they consolidate with head position and hip drive. The window between the underhook being threaded and full consolidation is approximately one to two seconds. Use your overhook on that side to create downward pressure while swimming your arm underneath theirs to strip the underhook. If you miss the window, transition to managing the over-under position rather than fighting a fully consolidated underhook."
+        "answer": "Your immediate priority is counter-pummeling on that same side before they consolidate with head position and hip drive. The window between the underhook being threaded and full consolidation is approximately one to two seconds. Use your overhook on that side to create downward pressure while swimming your arm underneath theirs to strip the underhook. If you miss the window, transition to managing the over-under position rather than fighting a fully consolidated underhook.",
+        "answer_line": "Counter-pummel that side fast",
+        "distractors": {
+          "plausible": [
+            "Counter-pummel the far side instead",
+            "Wait for them to fully consolidate"
+          ],
+          "trap": [
+            "Retreat and reset your stance"
+          ]
+        }
       },
       {
         "question": "How do you prevent an opponent from chaining a blocked pummel into an attack on the opposite side?",
-        "answer": "After blocking the initial pummel with your overhook, immediately re-establish pressure on both sides rather than relaxing after the successful defense. The opponent's natural chain is to use your overhook commitment against them by attacking the opposite side. Use your free hand to frame on their bicep or establish collar tie control on the side they are likely to attack next, denying them the space and angle needed for a combination pummel sequence."
+        "answer": "After blocking the initial pummel with your overhook, immediately re-establish pressure on both sides rather than relaxing after the successful defense. The opponent's natural chain is to use your overhook commitment against them by attacking the opposite side. Use your free hand to frame on their bicep or establish collar tie control on the side they are likely to attack next, denying them the space and angle needed for a combination pummel sequence.",
+        "answer_line": "Re-pressure both sides after block",
+        "distractors": {
+          "plausible": [
+            "Relax after blocking successfully",
+            "Focus grip only on blocked side"
+          ],
+          "trap": [
+            "Release control to celebrate block"
+          ]
+        }
       },
       {
         "question": "When is it more advantageous to capitalize into a body lock rather than simply blocking the pummel attempt?",
-        "answer": "Capitalizing into a body lock is most advantageous when the opponent's pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away during the swim and their head drops momentarily. This window occurs during aggressive pummel attempts where the opponent commits significant body movement. If their pummel is subtle and controlled, blocking and counter-pummeling is safer because the body lock attempt may fail and could compromise your existing dominant position."
+        "answer": "Capitalizing into a body lock is most advantageous when the opponent's pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away during the swim and their head drops momentarily. This window occurs during aggressive pummel attempts where the opponent commits significant body movement. If their pummel is subtle and controlled, blocking and counter-pummeling is safer because the body lock attempt may fail and could compromise your existing dominant position.",
+        "answer_line": "When their elbow lifts, head drops",
+        "distractors": {
+          "plausible": [
+            "Anytime you feel any opening",
+            "Only against a passive opponent"
+          ],
+          "trap": [
+            "Body lock every subtle attempt"
+          ]
+        }
       },
       {
         "question": "What stance adjustment prevents the opponent from creating the angle they need for effective pummeling?",
-        "answer": "Maintain a slightly staggered stance with your lead foot positioned slightly inside their lead foot, keeping your hips square to their centerline. This positioning closes the inside lane they need for the swim motion and forces them to pummel from a wider angle, which is slower and easier to detect. Additionally, slight forward pressure through your chest and shoulders reduces the space between bodies, making the swimming arc more difficult to complete regardless of the angle attempted."
+        "answer": "Maintain a slightly staggered stance with your lead foot positioned slightly inside their lead foot, keeping your hips square to their centerline. This positioning closes the inside lane they need for the swim motion and forces them to pummel from a wider angle, which is slower and easier to detect. Additionally, slight forward pressure through your chest and shoulders reduces the space between bodies, making the swimming arc more difficult to complete regardless of the angle attempted.",
+        "answer_line": "Lead foot inside, hips square",
+        "distractors": {
+          "plausible": [
+            "Wide stance, hips open to angle",
+            "Square stance, feet parallel"
+          ],
+          "trap": [
+            "Step back to create more space"
+          ]
+        }
       }
     ],
     "training_progressions": [

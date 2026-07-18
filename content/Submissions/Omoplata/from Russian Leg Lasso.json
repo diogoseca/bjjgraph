@@ -286,52 +286,152 @@
       {
         "question": "What anatomical structures does the omoplata from Russian Leg Lasso primarily attack?",
         "answer": "The omoplata primarily attacks the shoulder joint complex, specifically targeting the rotator cuff muscles and tendons, the glenohumeral capsule, and the AC (acromioclavicular) joint. The submission works by internally rotating the humerus past its natural range of motion while the shoulder is pinned in place by the attacker's legs and bodyweight. Secondary stress is placed on the labrum, the cartilage ring that stabilizes the shoulder socket.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint & rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist and forearm bones"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up as you initiate the hip pivot - what adjustment prevents escape?",
         "answer": "Immediately pull harder on the collar grip to break their posture back down before completing the pivot. If they've already achieved partial posture, angle your hips further away from them to maintain distance and use your non-lasso leg as a frame against their hip to prevent them from driving forward. If posture recovery is significant, consider aborting the omoplata and switching to a triangle entry since their upright posture creates space for your leg to cross their neck rather than their back.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Break posture, pull collar grip",
+        "distractors": {
+          "plausible": [
+            "Speed up the hip pivot",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Release grips and reset guard"
+          ]
+        }
       },
       {
         "question": "What control points must be secured before applying any finishing pressure to the shoulder?",
         "answer": "Three control points must be confirmed before finishing: first, the leg must be fully across the opponent's back with your hamstring against their neck-shoulder junction and knees pinched tight trapping the arm. Second, you must be fully seated upright with your hips positioned directly behind their trapped shoulder. Third, far hip control must be established with both hands gripping belt, pants, or hooking the hip to prevent the forward roll escape. Attempting to finish without all three invites escape or positional loss.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap arm, seat hips, control far hip",
+        "distractors": {
+          "plausible": [
+            "Leg across back only",
+            "Sit up and grip belt"
+          ],
+          "trap": [
+            "Finish fast before they defend"
+          ]
+        }
       },
       {
         "question": "At what point during the omoplata sequence is the defender past the point of no escape?",
         "answer": "The defender is past the point of no escape once the attacker has sat up, secured far hip control, and begun walking their hips toward the defender's head with knees pinched tight. At this stage, the arm is fully trapped, forward roll is blocked by hip control, and the shoulder rotation angle makes arm extraction mechanically impossible. The narrow defensive windows exist earlier in the sequence, primarily during the hip pivot phase and the brief moment between sit-up and hip control establishment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sat up, hip control, walking in",
+        "distractors": {
+          "plausible": [
+            "Leg fully across their back",
+            "Sleeve grip fully broken"
+          ],
+          "trap": [
+            "As soon as leg swings over"
+          ]
+        }
       },
       {
         "question": "You have sat up and secured hip control but the opponent begins turning into you to relieve pressure - what finishing error likely caused this?",
         "answer": "Your hips are likely too far from the opponent's shoulder, creating insufficient leverage for the rotational finish. When the fulcrum point between your body and their shoulder is too distant, the opponent can turn their torso to face you, which alleviates the internal rotation force on the shoulder. Correct this by walking your hips closer to directly behind their trapped shoulder until your hip bone presses against the back of their shoulder, creating a tight and inescapable fulcrum for the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips too far from shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip on hip is too loose",
+            "Knees not pinched tight enough"
+          ],
+          "trap": [
+            "Opponent is too strong"
+          ]
+        }
       },
       {
         "question": "How should your grip placement and body position change as you transition from lasso configuration to the omoplata finish?",
         "answer": "During the lasso phase, your hands hold collar grip (non-lasso side) and sleeve grip (lasso side). As you begin the hip pivot, the collar grip pulls posture down then releases once you commit to the transition. The sleeve grip is maintained throughout and only releases once your leg is fully across their back and knees are pinched. Upon sitting up, both hands immediately transition to far hip control, gripping belt or pants. During the finish, your near hand may cup under their elbow to isolate the joint while the far hand maintains hip control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sleeve held, then both to hip grip",
+        "distractors": {
+          "plausible": [
+            "Both hands grip collar throughout",
+            "Sleeve releases before leg crosses"
+          ],
+          "trap": [
+            "Grab far collar to control posture"
+          ]
+        }
       },
       {
         "question": "What is the proper speed of application for the omoplata finish and why is this critical?",
         "answer": "The finish must be applied with slow, progressive forward pressure over a minimum of four to six seconds. This controlled speed is critical because the shoulder joint is vulnerable to catastrophic injury including rotator cuff tears, AC joint separation, and labrum tears that can require surgical repair and six to twelve months of recovery. The omoplata places the shoulder at the end of its rotational range where small increases in force can cause sudden structural failure. Jerking or spiking the pressure eliminates the opponent's ability to tap before injury occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, progressive 4-6 seconds",
+        "distractors": {
+          "plausible": [
+            "Fast snap for a quick tap",
+            "Steady 1-2 second pressure"
+          ],
+          "trap": [
+            "Jerk hard to force the tap"
+          ]
+        }
       },
       {
         "question": "Describe the correct release sequence after your opponent taps to the omoplata from Russian Leg Lasso?",
         "answer": "Upon receiving any tap signal, immediately stop all forward pressure and lean back to neutral posture. Release your knee pinch to decompress the trapped arm. Unwind your leg from over their back and return your hips to a neutral position. Allow the opponent to slowly extract their own arm at their own pace rather than pulling or pushing it. Check verbally that they are uninjured before resuming training. Never maintain any residual pressure after the tap, as the shoulder may already be at its structural limit.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, unwind, let them pull out",
+        "distractors": {
+          "plausible": [
+            "Release grip, jump to next roll",
+            "Quickly extract their arm for them"
+          ],
+          "trap": [
+            "Hold pressure until they nod ok"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent defends by clasping their hands together to prevent the shoulder rotation - what adjustment secures the finish?",
         "answer": "Walk your hips incrementally toward the opponent's head to increase the rotation angle, which makes the clasped hands position progressively harder to maintain as the leverage increases. Simultaneously use your near hand to attack the grip by prying at their wrist or fingers to break the clasp. You can also use a wrist-control technique by gripping their clasping hand and pulling it away while maintaining forward body pressure. Apply steady incremental pressure rather than trying to force through the defense, as the angle increase alone often makes the clasped grip unsustainable.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips up, break the clasp",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Yank the trapped arm straight"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a forward roll as you apply finishing pressure - how do you maintain the submission?",
         "answer": "If hip control was properly established, the forward roll should be blocked entirely. If they initiate the roll despite your control, maintain your leg position across their back and follow their rolling motion by transitioning to the rolling omoplata: stay attached to their arm with your legs, roll with them, and reestablish the seated omoplata position on the other side. The key is never releasing the leg position across their back during the roll. If you lose leg position during the roll, immediately transition to a scramble and work to reestablish guard rather than chasing a compromised omoplata.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep hip control, roll with them",
+        "distractors": {
+          "plausible": [
+            "Release leg, reset to guard",
+            "Fight the roll and hold ground"
+          ],
+          "trap": [
+            "Let go of the trapped arm"
+          ]
+        }
       }
     ],
     "clips": [
@@ -453,27 +553,77 @@
       {
         "question": "How do you recognize the omoplata from Russian Leg Lasso is being initiated versus a standard sweep attempt?",
         "answer": "The key differentiator is the direction of the hip pivot. For sweeps, the opponent's hips load toward you to generate sweeping force. For the omoplata, the opponent pivots their hips perpendicular and away from the lasso side, beginning to swing their leg over your shoulder rather than using it for rotational sweep mechanics. You will also feel the sleeve grip tighten significantly as they prepare for the transition, and the collar grip will pull your posture down rather than to the side.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips pivot away, leg over shoulder",
+        "distractors": {
+          "plausible": [
+            "Hips load toward you sharply",
+            "Collar grip pulls to the side"
+          ],
+          "trap": [
+            "Sleeve grip suddenly loosens"
+          ]
+        }
       },
       {
         "question": "When should you tap to the omoplata from Russian Leg Lasso to prevent injury?",
         "answer": "Tap immediately when you feel significant pressure on your shoulder joint that you cannot relieve through defensive movement. Do not wait for pain—the shoulder can sustain catastrophic structural damage including rotator cuff tears, AC separation, and labrum tears before pain signals fully register. If the attacker has consolidated the position with hip control and begun the forward lean, and your defensive options have been exhausted, tap early rather than risking an injury that could require surgery and months of recovery. Any verbal signal, hand tap, or foot tap is a valid tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Immediately at real pressure",
+        "distractors": {
+          "plausible": [
+            "Wait until it starts to hurt",
+            "Tap only if hip control locked"
+          ],
+          "trap": [
+            "Try to power through it"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for the forward roll escape against this submission?",
         "answer": "The optimal window is the brief moment after the attacker completes their sit-up but before they secure far hip control with their hands. This window typically lasts one to two seconds. You recognize the window by feeling the attacker's weight shift upward as they sit up while their hands are still transitioning from grips to hip control. Commit fully to the forward roll in this window with explosive hip drive. If you feel their hands lock onto your far hip or belt, the window has closed and you must seek alternative defenses.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After sit-up, before hip control",
+        "distractors": {
+          "plausible": [
+            "During the initial hip pivot",
+            "Once knees are pinched tight"
+          ],
+          "trap": [
+            "After far hip control locks in"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the omoplata from Russian Leg Lasso?",
         "answer": "Early stage during hip pivot: posture up aggressively and retract trapped arm before leg crosses back. Mid-stage during leg transition: stack weight forward to flatten opponent and prevent sit-up. Late stage after sit-up: forward roll escape before hip control is established. Last resort after consolidation: clasp hands together to stall and create scramble opportunity. Each stage has progressively lower success rates, making early recognition and immediate response critical for successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture early, stack mid, roll late",
+        "distractors": {
+          "plausible": [
+            "Stack weight then posture up",
+            "Roll early, clasp hands late"
+          ],
+          "trap": [
+            "Wait and hope for a mistake"
+          ]
+        }
       },
       {
         "question": "How does defending the omoplata from Russian Leg Lasso differ from defending a standard omoplata from closed guard?",
         "answer": "The Russian Leg Lasso omoplata gives less warning because the attacking leg is already threaded through your arm in the lasso configuration, eliminating the visible leg-swinging motion that signals a standard omoplata entry. The defensive windows are narrower because the attacker skips the initial leg positioning step. However, the lasso-to-omoplata transition requires the attacker to unwind and rethread the leg, creating a brief mechanical vulnerability during the conversion that does not exist in standard omoplata setups. Defending requires earlier recognition based on hip pivot cues rather than leg movement cues.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Less warning, no leg-swing tell",
+        "distractors": {
+          "plausible": [
+            "Identical setup, same timing",
+            "Easier to see leg swing coming"
+          ],
+          "trap": [
+            "Watch for leg movement cues"
+          ]
+        }
       }
     ],
     "training_progressions": [

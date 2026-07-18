@@ -238,47 +238,157 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Drag While Clearing Lapel?",
-        "answer": "The primary goal is to simultaneously neutralize the opponent's lapel control configuration while establishing dominant leg drag passing position, combining what would otherwise be two separate actions into one efficient movement that prevents the bottom player from re-establishing guard."
+        "answer": "The primary goal is to simultaneously neutralize the opponent's lapel control configuration while establishing dominant leg drag passing position, combining what would otherwise be two separate actions into one efficient movement that prevents the bottom player from re-establishing guard.",
+        "answer_line": "Clear lapel while dragging leg",
+        "distractors": {
+          "plausible": [
+            "Just strip the lapel grip",
+            "Drag leg then clear lapel after"
+          ],
+          "trap": [
+            "Ignore lapel, force the pass"
+          ]
+        }
       },
       {
         "question": "What position do you start Leg Drag While Clearing Lapel from?",
-        "answer": "This technique starts from Lapel Guard top position, where your opponent has established a lapel configuration (worm guard, squid guard, or similar) that creates barriers to standard passing approaches. You must have sufficient posture to generate the dragging motion."
+        "answer": "This technique starts from Lapel Guard top position, where your opponent has established a lapel configuration (worm guard, squid guard, or similar) that creates barriers to standard passing approaches. You must have sufficient posture to generate the dragging motion.",
+        "answer_line": "Lapel Guard top position",
+        "distractors": {
+          "plausible": [
+            "Half guard top position",
+            "Standing guard passing stance"
+          ],
+          "trap": [
+            "Bottom of lapel guard"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Leg Drag While Clearing Lapel?",
-        "answer": "The essential grips are: sleeve or wrist control on the hand maintaining the lapel configuration to prevent re-gripping, and a low pant grip at the shin or ankle on the same side as the lapel wrap. The low grip provides maximum mechanical advantage for the dragging motion."
+        "answer": "The essential grips are: sleeve or wrist control on the hand maintaining the lapel configuration to prevent re-gripping, and a low pant grip at the shin or ankle on the same side as the lapel wrap. The low grip provides maximum mechanical advantage for the dragging motion.",
+        "answer_line": "Sleeve/wrist + low pant grip",
+        "distractors": {
+          "plausible": [
+            "Collar tie + ankle grip",
+            "Cross-collar + knee grip"
+          ],
+          "trap": [
+            "Both hands on far lapel"
+          ]
+        }
       },
       {
         "question": "Why is combining the clearing and dragging motions superior to sequential execution?",
-        "answer": "Combining the motions uses the rotational force of the drag to assist in stripping the lapel, creates a single continuous action that gives the opponent no recovery window, and converts a defensive problem into offensive advancement. Sequential execution allows time for grip adjustment and counter-loading."
+        "answer": "Combining the motions uses the rotational force of the drag to assist in stripping the lapel, creates a single continuous action that gives the opponent no recovery window, and converts a defensive problem into offensive advancement. Sequential execution allows time for grip adjustment and counter-loading.",
+        "answer_line": "No recovery window for opponent",
+        "distractors": {
+          "plausible": [
+            "Uses less grip strength overall",
+            "Easier to teach step by step"
+          ],
+          "trap": [
+            "Clear lapel fully before dragging"
+          ]
+        }
       },
       {
         "question": "Your opponent frames on your shoulder mid-drag and begins hip escaping—how do you adjust?",
-        "answer": "Maintain heavy shoulder pressure by driving into their hip and switch to a knee slice if they create significant space. The key is recognizing that their frame creates an angle for the knee slice. If they over-commit to the hip escape, you can also redirect to a back take opportunity."
+        "answer": "Maintain heavy shoulder pressure by driving into their hip and switch to a knee slice if they create significant space. The key is recognizing that their frame creates an angle for the knee slice. If they over-commit to the hip escape, you can also redirect to a back take opportunity.",
+        "answer_line": "Press in, switch to knee slice",
+        "distractors": {
+          "plausible": [
+            "Release pressure, reset position",
+            "Chase the hip escape directly"
+          ],
+          "trap": [
+            "Back off to avoid the frame"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Leg Drag While Clearing Lapel?",
-        "answer": "The optimal timing is when the opponent has established their lapel configuration but before they have loaded their sweeping or back-taking mechanics. Look for moments when their weight is centered and they are focused on maintaining the grip rather than attacking. Their grip-focused attention creates the window for explosive passing."
+        "answer": "The optimal timing is when the opponent has established their lapel configuration but before they have loaded their sweeping or back-taking mechanics. Look for moments when their weight is centered and they are focused on maintaining the grip rather than attacking. Their grip-focused attention creates the window for explosive passing.",
+        "answer_line": "Before they load sweep/back attack",
+        "distractors": {
+          "plausible": [
+            "Right after they secure the grip",
+            "When they've fully committed weight"
+          ],
+          "trap": [
+            "Wait until they invert first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting as you initiate the drag—what is your response?",
-        "answer": "Recognize the early inversion and backstep away from the leg entanglement rather than forcing the drag through. Their inversion creates leg lock and guard recovery opportunities. Resetting to standing preserves your passing position without exposing you to leg attacks. Alternatively, if you're committed, sprawl heavy and pass to their back."
+        "answer": "Recognize the early inversion and backstep away from the leg entanglement rather than forcing the drag through. Their inversion creates leg lock and guard recovery opportunities. Resetting to standing preserves your passing position without exposing you to leg attacks. Alternatively, if you're committed, sprawl heavy and pass to their back.",
+        "answer_line": "Backstep away from entanglement",
+        "distractors": {
+          "plausible": [
+            "Force the drag through anyway",
+            "Follow them into the inversion"
+          ],
+          "trap": [
+            "Chase the leg lock position"
+          ]
+        }
       },
       {
         "question": "What distinguishes the standing variation from the kneeling version of this technique?",
-        "answer": "The standing variation uses height and gravity to assist the lapel stripping, making it more explosive but requiring better balance. It works best when the opponent is flat with minimal hip elevation. The kneeling version provides more control and shoulder pressure but requires more grip work to strip the lapel configuration."
+        "answer": "The standing variation uses height and gravity to assist the lapel stripping, making it more explosive but requiring better balance. It works best when the opponent is flat with minimal hip elevation. The kneeling version provides more control and shoulder pressure but requires more grip work to strip the lapel configuration.",
+        "answer_line": "Standing: gravity, more explosive",
+        "distractors": {
+          "plausible": [
+            "Kneeling gives more explosiveness",
+            "Standing needs less balance control"
+          ],
+          "trap": [
+            "Standing works best if hips high"
+          ]
+        }
       },
       {
         "question": "How does this technique create a chain attack if the initial pass is blocked?",
-        "answer": "If the drag stalls, you have immediate options: switch to knee slice through the path created by partial clearing, backstep to address remaining lapel then re-engage, or if they over-defend by turning away, take the back. The leg control maintained throughout creates multiple follow-up vectors regardless of their defensive choice."
+        "answer": "If the drag stalls, you have immediate options: switch to knee slice through the path created by partial clearing, backstep to address remaining lapel then re-engage, or if they over-defend by turning away, take the back. The leg control maintained throughout creates multiple follow-up vectors regardless of their defensive choice.",
+        "answer_line": "Knee slice, backstep, or back take",
+        "distractors": {
+          "plausible": [
+            "Reset to standing and restart",
+            "Switch immediately to leg lock"
+          ],
+          "trap": [
+            "Release all grips and re-guard"
+          ]
+        }
       },
       {
         "question": "Which direction should you drag relative to the lapel wrap, and why does this matter?",
-        "answer": "Always drag in the direction that creates a peeling or unwinding force on the lapel configuration. Dragging the wrong direction tightens the wrap and worsens your entanglement. Analyze the wrap direction before committing—if the lapel goes behind your right knee from left to right, drag their legs to your left to create the unwinding motion."
+        "answer": "Always drag in the direction that creates a peeling or unwinding force on the lapel configuration. Dragging the wrong direction tightens the wrap and worsens your entanglement. Analyze the wrap direction before committing—if the lapel goes behind your right knee from left to right, drag their legs to your left to create the unwinding motion.",
+        "answer_line": "Drag toward the unwinding direction",
+        "distractors": {
+          "plausible": [
+            "Drag away from their hips",
+            "Drag toward your strong side"
+          ],
+          "trap": [
+            "Drag into the wrap direction"
+          ]
+        }
       },
       {
         "question": "Your opponent re-grips the lapel with their free hand as you complete the drag—do you stop and re-clear or continue?",
-        "answer": "Continue consolidating the pass. A completed leg drag with a partially re-gripped lapel is far better than losing the pass to re-clear the grip. Once you have hip contact and crossface control, their lapel grip loses most of its defensive utility because the guard has already been passed. Address the remaining grip after consolidation."
+        "answer": "Continue consolidating the pass. A completed leg drag with a partially re-gripped lapel is far better than losing the pass to re-clear the grip. Once you have hip contact and crossface control, their lapel grip loses most of its defensive utility because the guard has already been passed. Address the remaining grip after consolidation.",
+        "answer_line": "Continue, consolidate the pass",
+        "distractors": {
+          "plausible": [
+            "Stop and strip the grip first",
+            "Pause to reset your own grips"
+          ],
+          "trap": [
+            "Abandon pass to re-clear lapel"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique is generally low-risk for both practitioners when executed properly. Primary safety concerns involve knee strain on the person being passed if the drag is performed with excessive force while their leg is trapped at an awkward angle. Execute the drag with controlled force, especially during drilling phases. Avoid cranking or twisting motions on the trapped leg. The person on bottom should tap if they feel knee pressure building before attempting to escape. Ensure adequate warm-up focusing on hip mobility and knee stability before drilling sequences.",
@@ -386,23 +496,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt Leg Drag While Clearing Lapel?",
-        "answer": "The primary telegraph is when your opponent secures both sleeve or wrist control on your lapel-gripping hand and a low pant grip on your shin simultaneously. This dual-grip setup is the prerequisite for the technique and should trigger immediate defensive action before the drag motion begins."
+        "answer": "The primary telegraph is when your opponent secures both sleeve or wrist control on your lapel-gripping hand and a low pant grip on your shin simultaneously. This dual-grip setup is the prerequisite for the technique and should trigger immediate defensive action before the drag motion begins.",
+        "answer_line": "Wrist control plus low pant grip",
+        "distractors": {
+          "plausible": [
+            "Opponent gripping both lapels",
+            "Single sleeve grip on your arm"
+          ],
+          "trap": [
+            "Opponent flattening their hips"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the passer particularly dangerous when defending this technique?",
-        "answer": "Turning away exposes your back to the passer who already has lateral control of your legs. The leg drag position naturally creates back-taking angles, and turning away accelerates this transition. Instead, you should always turn toward the passer to face them, using hip escape and frames to prevent the drag from completing."
+        "answer": "Turning away exposes your back to the passer who already has lateral control of your legs. The leg drag position naturally creates back-taking angles, and turning away accelerates this transition. Instead, you should always turn toward the passer to face them, using hip escape and frames to prevent the drag from completing.",
+        "answer_line": "Exposes back to the passer",
+        "distractors": {
+          "plausible": [
+            "Loses grip strength quickly",
+            "Slows down your recovery frame"
+          ],
+          "trap": [
+            "Turn away to hide your hips"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially completed the drag but has not established shoulder contact on your hip—what is your best defensive option?",
-        "answer": "Frame immediately on their lead shoulder with your near-side hand and hip escape aggressively toward them to re-face. Simultaneously use your free leg to post on their hip or insert between your bodies as a barrier. This window before shoulder contact is your highest-percentage recovery moment because the passer lacks the pressure to pin you down."
+        "answer": "Frame immediately on their lead shoulder with your near-side hand and hip escape aggressively toward them to re-face. Simultaneously use your free leg to post on their hip or insert between your bodies as a barrier. This window before shoulder contact is your highest-percentage recovery moment because the passer lacks the pressure to pin you down.",
+        "answer_line": "Frame shoulder, hip escape to face",
+        "distractors": {
+          "plausible": [
+            "Push their head away and stand up",
+            "Grab both pant legs and pull in"
+          ],
+          "trap": [
+            "Turn belly-down to block the pass"
+          ]
+        }
       },
       {
         "question": "When should you abandon lapel guard recovery and transition to half guard defense instead?",
-        "answer": "Transition to half guard defense when the passer has stripped your lapel grip and your legs have been dragged past center line. At this point, re-establishing the lapel configuration requires too much time and the passer will consolidate during your attempt. Focus on trapping their lead leg with a scissoring motion and establishing knee shield before they achieve full leg drag control."
+        "answer": "Transition to half guard defense when the passer has stripped your lapel grip and your legs have been dragged past center line. At this point, re-establishing the lapel configuration requires too much time and the passer will consolidate during your attempt. Focus on trapping their lead leg with a scissoring motion and establishing knee shield before they achieve full leg drag control.",
+        "answer_line": "When legs dragged past center line",
+        "distractors": {
+          "plausible": [
+            "As soon as they touch your lapel",
+            "When they secure wrist control only"
+          ],
+          "trap": [
+            "Never abandon lapel recovery"
+          ]
+        }
       },
       {
         "question": "How do you prevent the passer from stripping your lapel grip using the rotational force of the drag?",
-        "answer": "Deepen your lapel wrap before they initiate by feeding more fabric through the configuration, making it harder to strip through rotation alone. Simultaneously, control their pant-gripping hand with your free hand to prevent the low grip that anchors the drag. Without the shin grip, the rotational force has no anchor point and the clearing motion loses most of its effectiveness."
+        "answer": "Deepen your lapel wrap before they initiate by feeding more fabric through the configuration, making it harder to strip through rotation alone. Simultaneously, control their pant-gripping hand with your free hand to prevent the low grip that anchors the drag. Without the shin grip, the rotational force has no anchor point and the clearing motion loses most of its effectiveness.",
+        "answer_line": "Control their pant-gripping hand",
+        "distractors": {
+          "plausible": [
+            "Deepen lapel wrap only",
+            "Pull your knees away sharply"
+          ],
+          "trap": [
+            "Release lapel to re-grip higher"
+          ]
+        }
       }
     ],
     "training_progressions": [

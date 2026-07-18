@@ -259,91 +259,311 @@
     "flashcards": [
       {
         "question": "What is the critical mechanical difference between a successful duck under level change and one that gets stuffed?",
-        "answer": "The successful duck under changes levels by bending at the knees while keeping the torso relatively upright, which maintains base, speed, and protects the neck from front headlock attacks. A failed duck under typically bends at the waist, which exposes the back of the neck, removes hip power from the lateral motion, and creates a slow telegraphed movement. The knee bend preserves the ability to drive laterally with explosive steps while the waist bend collapses your structure forward into the opponent's control framework."
+        "answer": "The successful duck under changes levels by bending at the knees while keeping the torso relatively upright, which maintains base, speed, and protects the neck from front headlock attacks. A failed duck under typically bends at the waist, which exposes the back of the neck, removes hip power from the lateral motion, and creates a slow telegraphed movement. The knee bend preserves the ability to drive laterally with explosive steps while the waist bend collapses your structure forward into the opponent's control framework.",
+        "answer_line": "Bend knees, keep torso upright",
+        "distractors": {
+          "plausible": [
+            "Bend at the waist to drop low",
+            "Lower head first, hips follow"
+          ],
+          "trap": [
+            "Collapse forward into control"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong collar tie on your right side—which direction do you duck under and why?",
-        "answer": "Duck under to your right, going beneath their collar tie arm. The collar tie creates the ideal opportunity because the arm is already extended and positioned above your head level. By ducking under this arm, you use their grip commitment against them—their hand is occupied controlling your head, making it slower to react to the level change. Push their right elbow upward with your right hand as you step across with your right foot, clearing your head under the arm they cannot quickly retract."
+        "answer": "Duck under to your right, going beneath their collar tie arm. The collar tie creates the ideal opportunity because the arm is already extended and positioned above your head level. By ducking under this arm, you use their grip commitment against them—their hand is occupied controlling your head, making it slower to react to the level change. Push their right elbow upward with your right hand as you step across with your right foot, clearing your head under the arm they cannot quickly retract.",
+        "answer_line": "Duck right, under collar tie",
+        "distractors": {
+          "plausible": [
+            "Duck left, away from the tie",
+            "Pull tie arm down, duck right"
+          ],
+          "trap": [
+            "Fight the collar tie grip off"
+          ]
+        }
       },
       {
         "question": "What misdirection setup most effectively disguises the duck under from an experienced clinch fighter?",
-        "answer": "A brief snap down or push on the opponent's head toward their weak side creates a momentary upward or lateral reaction that opens space for the duck under. The opponent instinctively resists the snap by posturing up or pushing back, which lifts their arms and creates the gap beneath them. Alternatively, threatening a single leg entry on the opposite side forces them to defend low, then immediately redirecting to the duck under exploits their downward defensive commitment and creates maximum space beneath the arms."
+        "answer": "A brief snap down or push on the opponent's head toward their weak side creates a momentary upward or lateral reaction that opens space for the duck under. The opponent instinctively resists the snap by posturing up or pushing back, which lifts their arms and creates the gap beneath them. Alternatively, threatening a single leg entry on the opposite side forces them to defend low, then immediately redirecting to the duck under exploits their downward defensive commitment and creates maximum space beneath the arms.",
+        "answer_line": "Snap head, then duck under",
+        "distractors": {
+          "plausible": [
+            "Push straight back, then duck",
+            "Fake a double leg, then duck"
+          ],
+          "trap": [
+            "Announce level change slowly"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before attempting the duck under and where does that hand go during execution?",
-        "answer": "You need at least a bicep or wrist control on the duck under side before initiating. During execution, this hand transitions to pushing the opponent's elbow upward and past your head to clear the path. Without this controlling grip, you cannot effectively redirect their arm above your head, and the duck under becomes a pure level change without arm clearance—dramatically increasing the risk of getting caught in a front headlock or guillotine as you lower your head into their control range."
+        "answer": "You need at least a bicep or wrist control on the duck under side before initiating. During execution, this hand transitions to pushing the opponent's elbow upward and past your head to clear the path. Without this controlling grip, you cannot effectively redirect their arm above your head, and the duck under becomes a pure level change without arm clearance—dramatically increasing the risk of getting caught in a front headlock or guillotine as you lower your head into their control range.",
+        "answer_line": "Bicep control, push elbow up",
+        "distractors": {
+          "plausible": [
+            "Underhook, then release grip",
+            "Collar tie only, no arm grip"
+          ],
+          "trap": [
+            "No grip, dive under blind"
+          ]
+        }
       },
       {
         "question": "Your duck under gets halfway through but the opponent whizzers your near arm—how do you complete the technique?",
-        "answer": "Keep your hips tight to their body and continue circling despite the whizzer. The overhook only works defensively if you stop your lateral movement—as long as you maintain circular momentum, the whizzer actually becomes a connection point that keeps you attached to their body. Drop your hips lower to reduce their leverage angle, keep driving short shuffle steps behind them, and use your free arm to secure a grip around their waist. If the whizzer is extremely deep and stops your rotation, switch to an inside trip on their far leg using the close proximity the whizzer creates."
+        "answer": "Keep your hips tight to their body and continue circling despite the whizzer. The overhook only works defensively if you stop your lateral movement—as long as you maintain circular momentum, the whizzer actually becomes a connection point that keeps you attached to their body. Drop your hips lower to reduce their leverage angle, keep driving short shuffle steps behind them, and use your free arm to secure a grip around their waist. If the whizzer is extremely deep and stops your rotation, switch to an inside trip on their far leg using the close proximity the whizzer creates.",
+        "answer_line": "Stay tight, keep circling",
+        "distractors": {
+          "plausible": [
+            "Stop and reset to neutral",
+            "Pull arm free, then circle"
+          ],
+          "trap": [
+            "Back away to escape whizzer"
+          ]
+        }
       },
       {
         "question": "What is the most common counter an opponent will use against the duck under and how do you prevent it?",
-        "answer": "The sprawl is the most common counter. Opponents who feel the level change immediately drive their hips backward and push down on your head or shoulders. Prevention relies on proper misdirection and explosive commitment—if you snap or push before ducking, the opponent's upward reaction opens a window where a sprawl is physiologically delayed by their recovery. Additionally, keeping your head tight to their body rather than leading with your head extended forward makes the sprawl less effective because there is less exposed surface for them to push down on."
+        "answer": "The sprawl is the most common counter. Opponents who feel the level change immediately drive their hips backward and push down on your head or shoulders. Prevention relies on proper misdirection and explosive commitment—if you snap or push before ducking, the opponent's upward reaction opens a window where a sprawl is physiologically delayed by their recovery. Additionally, keeping your head tight to their body rather than leading with your head extended forward makes the sprawl less effective because there is less exposed surface for them to push down on.",
+        "answer_line": "Sprawl, beat it with misdirection",
+        "distractors": {
+          "plausible": [
+            "Cross-face, fight for grips",
+            "Underhook, deny the takedown"
+          ],
+          "trap": [
+            "Lead with head extended out"
+          ]
+        }
       },
       {
         "question": "In what clinch scenario is the duck under highest percentage versus when should you choose a different technique?",
-        "answer": "The duck under is highest percentage when the opponent is focused on upper body control with committed grips—collar ties, overhooks, or high wrist controls that leave space beneath their arms. It works best against taller opponents whose natural arm extension creates larger gaps for head clearance. Avoid the duck under when the opponent has low tight underhooks with their head buried in your chest, as there is no space to duck through and your level change exposes you to lifts. In that scenario, an arm drag or snap down is more appropriate since the opponent's structure is compact and low."
+        "answer": "The duck under is highest percentage when the opponent is focused on upper body control with committed grips—collar ties, overhooks, or high wrist controls that leave space beneath their arms. It works best against taller opponents whose natural arm extension creates larger gaps for head clearance. Avoid the duck under when the opponent has low tight underhooks with their head buried in your chest, as there is no space to duck through and your level change exposes you to lifts. In that scenario, an arm drag or snap down is more appropriate since the opponent's structure is compact and low.",
+        "answer_line": "High grips open, not tight unders",
+        "distractors": {
+          "plausible": [
+            "Works vs any clinch position",
+            "Only vs shorter opponents"
+          ],
+          "trap": [
+            "Attempt into buried head unders"
+          ]
+        }
       },
       {
         "question": "How does the duck under chain with other clinch techniques when your initial attempt is blocked?",
-        "answer": "If the duck under is stuffed by a sprawl, immediately transition to a single leg by catching the near leg before they recover their hips forward. If they counter with a cross-face, convert to an arm drag by capturing the cross-facing arm and circling the opposite direction. If they re-square quickly, the duck under attempt has created a reaction you can exploit with a snap down to front headlock. The duck under must be treated as the first link in a chain rather than an isolated technique—the failed attempt always creates a follow-up opening."
+        "answer": "If the duck under is stuffed by a sprawl, immediately transition to a single leg by catching the near leg before they recover their hips forward. If they counter with a cross-face, convert to an arm drag by capturing the cross-facing arm and circling the opposite direction. If they re-square quickly, the duck under attempt has created a reaction you can exploit with a snap down to front headlock. The duck under must be treated as the first link in a chain rather than an isolated technique—the failed attempt always creates a follow-up opening.",
+        "answer_line": "Chain to single leg or drag",
+        "distractors": {
+          "plausible": [
+            "Repeat same duck immediately",
+            "Reset to neutral clinch only"
+          ],
+          "trap": [
+            "Force through the sprawl"
+          ]
+        }
       },
       {
         "question": "What footwork pattern makes the duck under most mechanically effective?",
-        "answer": "The footwork follows a penetration step pattern where your near foot—same side as the duck—steps across past the opponent's centerline as you duck beneath their arm. This initial penetration step is the most critical movement because it commits your body to the circular path and creates the angular momentum needed to complete the back take. Follow immediately with short lateral shuffle steps driving behind them, never crossing your feet which would compromise your base. The near foot leads, the far foot follows, maintaining shoulder-width balance throughout the circling motion."
+        "answer": "The footwork follows a penetration step pattern where your near foot—same side as the duck—steps across past the opponent's centerline as you duck beneath their arm. This initial penetration step is the most critical movement because it commits your body to the circular path and creates the angular momentum needed to complete the back take. Follow immediately with short lateral shuffle steps driving behind them, never crossing your feet which would compromise your base. The near foot leads, the far foot follows, maintaining shoulder-width balance throughout the circling motion.",
+        "answer_line": "Near foot steps across first",
+        "distractors": {
+          "plausible": [
+            "Cross feet for faster angle",
+            "Far foot leads the circle"
+          ],
+          "trap": [
+            "Wide static stance, no steps"
+          ]
+        }
       },
       {
         "question": "What body contact point must you achieve immediately after clearing the opponent's arm and why is it critical?",
-        "answer": "Chest-to-back contact is the essential connection point that must be established the instant you clear their arm. Your chest pressed firmly against the opponent's upper back creates a physical barrier that prevents them from turning to face you by blocking their rotational movement. Without immediate chest contact, there is a critical window where the opponent can spin their hips, re-square their stance, and face you before you establish any controlling grip. The chest contact also provides the sustained forward pressure needed to prevent them from simply stepping away from you."
+        "answer": "Chest-to-back contact is the essential connection point that must be established the instant you clear their arm. Your chest pressed firmly against the opponent's upper back creates a physical barrier that prevents them from turning to face you by blocking their rotational movement. Without immediate chest contact, there is a critical window where the opponent can spin their hips, re-square their stance, and face you before you establish any controlling grip. The chest contact also provides the sustained forward pressure needed to prevent them from simply stepping away from you.",
+        "answer_line": "Chest-to-back contact",
+        "distractors": {
+          "plausible": [
+            "Grip the far hip first",
+            "Head contact, chest away"
+          ],
+          "trap": [
+            "Create space to see opponent"
+          ]
+        }
       },
       {
         "question": "What is the primary goal of the Duck Under technique?",
-        "answer": "The primary goal is to transition from a neutral clinch position to dominant back control by ducking underneath the opponent's arm. This allows you to reach Standing Rear Clinch or Back Control without the risks associated with shot-based takedowns, maintaining a favorable risk-reward profile while advancing to a superior position."
+        "answer": "The primary goal is to transition from a neutral clinch position to dominant back control by ducking underneath the opponent's arm. This allows you to reach Standing Rear Clinch or Back Control without the risks associated with shot-based takedowns, maintaining a favorable risk-reward profile while advancing to a superior position.",
+        "answer_line": "Reach back control safely",
+        "distractors": {
+          "plausible": [
+            "Score a takedown points",
+            "Tire out the opponent"
+          ],
+          "trap": [
+            "Force a guillotine attempt"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt the Duck Under?",
-        "answer": "The optimal moment is when your opponent pushes back against your collar tie pressure or drives forward into you. Their forward commitment or defensive reaction elevates their arm and momentarily fixes their weight distribution, creating the opening needed to duck through. Also effective when they focus on establishing their own offense and neglect arm positioning."
+        "answer": "The optimal moment is when your opponent pushes back against your collar tie pressure or drives forward into you. Their forward commitment or defensive reaction elevates their arm and momentarily fixes their weight distribution, creating the opening needed to duck through. Also effective when they focus on establishing their own offense and neglect arm positioning.",
+        "answer_line": "When they push or drive in",
+        "distractors": {
+          "plausible": [
+            "When they retreat and circle",
+            "Right after the whistle"
+          ],
+          "trap": [
+            "When their arms are tight low"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed to execute the Duck Under effectively?",
-        "answer": "You need a collar tie or head control on one side to create setup pressure, plus control of opponent's elbow or tricep on the same side to manipulate their arm position. As you execute the duck, your collar tie hand releases and reaches for their far hip or waist to control their rotation while you circle behind."
+        "answer": "You need a collar tie or head control on one side to create setup pressure, plus control of opponent's elbow or tricep on the same side to manipulate their arm position. As you execute the duck, your collar tie hand releases and reaches for their far hip or waist to control their rotation while you circle behind.",
+        "answer_line": "Collar tie plus elbow control",
+        "distractors": {
+          "plausible": [
+            "Double underhooks both sides",
+            "Wrist control only, no head"
+          ],
+          "trap": [
+            "Release all grips before duck"
+          ]
+        }
       },
       {
         "question": "Your opponent whizzers your arm as you attempt to circle behind - how do you complete the technique?",
-        "answer": "Continue driving forward with your shoulder into their hip while maintaining your far-side grip. Their whizzer actually compromises their defensive positioning if you can complete the circle. Use a limp arm motion by relaxing your trapped arm and letting it slide free of the whizzer as you continue your forward momentum. If the whizzer is too tight, convert to an arm drag using their own grip against them."
+        "answer": "Continue driving forward with your shoulder into their hip while maintaining your far-side grip. Their whizzer actually compromises their defensive positioning if you can complete the circle. Use a limp arm motion by relaxing your trapped arm and letting it slide free of the whizzer as you continue your forward momentum. If the whizzer is too tight, convert to an arm drag using their own grip against them.",
+        "answer_line": "Limp arm, drive forward",
+        "distractors": {
+          "plausible": [
+            "Pull hard against the whizzer",
+            "Stop and re-grip immediately"
+          ],
+          "trap": [
+            "Retreat to break the whizzer"
+          ]
+        }
       },
       {
         "question": "What adjustment do you make if opponent sprawls their hips back as you drop level?",
-        "answer": "If you feel their hips retreating, abort the duck immediately and either pummel back to neutral clinch or shoot directly to a double leg. Their sprawl creates the exact distance needed for a penetration step, so converting to a double leg often catches them in transition. Forcing the duck against a successful sprawl typically results in front headlock position for opponent."
+        "answer": "If you feel their hips retreating, abort the duck immediately and either pummel back to neutral clinch or shoot directly to a double leg. Their sprawl creates the exact distance needed for a penetration step, so converting to a double leg often catches them in transition. Forcing the duck against a successful sprawl typically results in front headlock position for opponent.",
+        "answer_line": "Abort, shoot a double leg",
+        "distractors": {
+          "plausible": [
+            "Force through to complete",
+            "Switch grips and try again"
+          ],
+          "trap": [
+            "Drop head down and push in"
+          ]
+        }
       },
       {
         "question": "Why must you keep your head tight to opponent's ribs during the circling phase?",
-        "answer": "Your head pressed against their torso acts as a control point that prevents them from rotating to face you. Any space between your head and their body gives them room to pivot their hips and square up, negating your positional advantage. The head-to-body contact essentially controls their spine's ability to rotate until you've secured rear clinch grips."
+        "answer": "Your head pressed against their torso acts as a control point that prevents them from rotating to face you. Any space between your head and their body gives them room to pivot their hips and square up, negating your positional advantage. The head-to-body contact essentially controls their spine's ability to rotate until you've secured rear clinch grips.",
+        "answer_line": "Blocks them from squaring up",
+        "distractors": {
+          "plausible": [
+            "Protects from a guillotine",
+            "Keeps your balance centered"
+          ],
+          "trap": [
+            "Frees your hands for grips"
+          ]
+        }
       },
       {
         "question": "What happens if you pause in the side body position after threading through?",
-        "answer": "Pausing creates a vulnerable transition point where opponent has multiple defensive options. They can establish a strong whizzer, square their hips to face you, drop to turtle position, or initiate their own offensive sequence. Each second of hesitation increases the difficulty of completing the back take. The technique must flow as one continuous motion from level change to secured rear clinch."
+        "answer": "Pausing creates a vulnerable transition point where opponent has multiple defensive options. They can establish a strong whizzer, square their hips to face you, drop to turtle position, or initiate their own offensive sequence. Each second of hesitation increases the difficulty of completing the back take. The technique must flow as one continuous motion from level change to secured rear clinch.",
+        "answer_line": "Gives them time to defend",
+        "distractors": {
+          "plausible": [
+            "Lets you reset your grips",
+            "Improves your base briefly"
+          ],
+          "trap": [
+            "Sets up a stronger finish"
+          ]
+        }
       },
       {
         "question": "Why should your hips be offset rather than directly behind opponent after completing the duck?",
-        "answer": "Positioning hips directly behind allows opponent to sit straight back into you, potentially reversing position through sacrifice throws or simply creating a scramble that neutralizes your advantage. The offset angle prevents this counter by ensuring they cannot load your weight effectively. It also positions you for better takedown mechanics if you need to bring them to the ground."
+        "answer": "Positioning hips directly behind allows opponent to sit straight back into you, potentially reversing position through sacrifice throws or simply creating a scramble that neutralizes your advantage. The offset angle prevents this counter by ensuring they cannot load your weight effectively. It also positions you for better takedown mechanics if you need to bring them to the ground.",
+        "answer_line": "Prevents them sitting back",
+        "distractors": {
+          "plausible": [
+            "Improves your grip strength",
+            "Makes takedown easier only"
+          ],
+          "trap": [
+            "Lets them square up faster"
+          ]
+        }
       },
       {
         "question": "How does the threat of Duck Under create openings for other techniques?",
-        "answer": "Opponents who respect the Duck Under will often keep their arms tight and elbows down to prevent the duck, which creates openings for snap downs since they cannot post effectively. When they widen their elbows to defend the snap down, the Duck Under becomes available. This creates an offensive system where defending one attack opens vulnerability to another, forcing opponents into reactive positions."
+        "answer": "Opponents who respect the Duck Under will often keep their arms tight and elbows down to prevent the duck, which creates openings for snap downs since they cannot post effectively. When they widen their elbows to defend the snap down, the Duck Under becomes available. This creates an offensive system where defending one attack opens vulnerability to another, forcing opponents into reactive positions.",
+        "answer_line": "Sets up the snap down",
+        "distractors": {
+          "plausible": [
+            "Only threatens single legs",
+            "Forces a guillotine error"
+          ],
+          "trap": [
+            "Has no effect on grip habits"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your shoulder as you initiate the level change - how do you adjust?",
-        "answer": "Their extended arm actually creates a better ducking lane if you redirect the energy. Use your tricep-side hand to push their posting arm upward and across while simultaneously dropping your level deeper than usual. The posted arm becomes a bridge you duck under rather than an obstacle. If their post is too strong to redirect, abandon the duck and convert to a snap down since their extended arm is vulnerable to being pulled forward and down."
+        "answer": "Their extended arm actually creates a better ducking lane if you redirect the energy. Use your tricep-side hand to push their posting arm upward and across while simultaneously dropping your level deeper than usual. The posted arm becomes a bridge you duck under rather than an obstacle. If their post is too strong to redirect, abandon the duck and convert to a snap down since their extended arm is vulnerable to being pulled forward and down.",
+        "answer_line": "Redirect post, duck deeper",
+        "distractors": {
+          "plausible": [
+            "Push post arm straight down",
+            "Stop and re-grip the collar"
+          ],
+          "trap": [
+            "Duck under the posting arm blind"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the grip transfer timing in a successful versus failed Duck Under?",
-        "answer": "In a successful Duck Under, the collar tie hand releases and the far-hip hand establishes grip nearly simultaneously, creating no gap in control. In a failed attempt, the practitioner releases the collar tie too early, leaving a window where they have no control over the opponent's movement. This gap allows the opponent to turn, sprawl, or create separation. The grip transfer must overlap so that at no point during the technique do you lack a controlling connection to the opponent's body."
+        "answer": "In a successful Duck Under, the collar tie hand releases and the far-hip hand establishes grip nearly simultaneously, creating no gap in control. In a failed attempt, the practitioner releases the collar tie too early, leaving a window where they have no control over the opponent's movement. This gap allows the opponent to turn, sprawl, or create separation. The grip transfer must overlap so that at no point during the technique do you lack a controlling connection to the opponent's body.",
+        "answer_line": "Release and re-grip together",
+        "distractors": {
+          "plausible": [
+            "Release collar tie first",
+            "Grip far hip before ducking"
+          ],
+          "trap": [
+            "Let go of all grips early"
+          ]
+        }
       },
       {
         "question": "How do you integrate the Duck Under with arm drags in a systematic clinch approach?",
-        "answer": "The arm drag and duck under create complementary threats - defending one often exposes vulnerability to the other. When opponent extends their arm to establish grips, the arm drag is available. When they retract their arm to deny the drag, the duck under opening appears as their elbow rises. Chain these techniques by reading opponent's arm positioning and defensive priorities, always attacking whichever option they're not defending."
+        "answer": "The arm drag and duck under create complementary threats - defending one often exposes vulnerability to the other. When opponent extends their arm to establish grips, the arm drag is available. When they retract their arm to deny the drag, the duck under opening appears as their elbow rises. Chain these techniques by reading opponent's arm positioning and defensive priorities, always attacking whichever option they're not defending.",
+        "answer_line": "Attack the undefended option",
+        "distractors": {
+          "plausible": [
+            "Always duck under first",
+            "Use arm drag only when tired"
+          ],
+          "trap": [
+            "Alternate randomly each time"
+          ]
+        }
       }
     ],
     "safety_considerations": "The duck under involves rapid level changes that can strain the lower back and knees if performed with poor mechanics. Always warm up the neck, lower back, hip flexors, and knees thoroughly before drilling. Partners should avoid applying excessive downward pressure on the head or neck during the ducking phase, as this can compress the cervical spine dangerously. Practice at controlled speed initially, progressing to full speed only after proper knee-bend mechanics are habitual. In live training, be aware of potential collision risk when both practitioners change levels simultaneously from the clinch.",
@@ -461,43 +681,143 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating a duck under from the clinch?",
-        "answer": "The earliest cue is a combination of the opponent's grip shifting to your elbow or bicep on one side—preparing to clear your arm upward—and a subtle weight drop as they load their legs for the level change. This is often preceded by a misdirection push or snap on your head. The grip adjustment combined with the level change preparation is the definitive tell that distinguishes a duck under setup from other clinch attacks like snap downs or double leg entries."
+        "answer": "The earliest cue is a combination of the opponent's grip shifting to your elbow or bicep on one side—preparing to clear your arm upward—and a subtle weight drop as they load their legs for the level change. This is often preceded by a misdirection push or snap on your head. The grip adjustment combined with the level change preparation is the definitive tell that distinguishes a duck under setup from other clinch attacks like snap downs or double leg entries.",
+        "answer_line": "Grip shifts to your elbow",
+        "distractors": {
+          "plausible": [
+            "Sudden change in eye contact",
+            "They step back to reset"
+          ],
+          "trap": [
+            "They tighten their stance"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully clears your arm and is halfway behind you—what is your highest-percentage recovery?",
-        "answer": "Immediately thread a whizzer on the arm closest to them and drive your hips toward the opponent rather than pulling away. Simultaneously step your far foot backward to begin re-squaring your body toward them. The whizzer creates a connection point that prevents full completion of the circle, while the hip drive stops their forward momentum. If the whizzer holds, use it to turn and face them recovering to clinch. If they are too deep for the whizzer to hold, sit to guard rather than giving up full standing back control."
+        "answer": "Immediately thread a whizzer on the arm closest to them and drive your hips toward the opponent rather than pulling away. Simultaneously step your far foot backward to begin re-squaring your body toward them. The whizzer creates a connection point that prevents full completion of the circle, while the hip drive stops their forward momentum. If the whizzer holds, use it to turn and face them recovering to clinch. If they are too deep for the whizzer to hold, sit to guard rather than giving up full standing back control.",
+        "answer_line": "Whizzer, drive hips into them",
+        "distractors": {
+          "plausible": [
+            "Pull away and create space",
+            "Sprawl your hips backward"
+          ],
+          "trap": [
+            "Turn your back to escape"
+          ]
+        }
       },
       {
         "question": "How should you adjust your overall clinch strategy against an opponent who repeatedly threatens the duck under?",
-        "answer": "Lower your clinch engagement level by keeping hands and elbows tighter to your body, avoiding high collar ties that create gaps beneath your arms, and maintaining slightly more distance to reduce the effectiveness of their level change. Punish their duck under attempts by establishing front headlock or guillotine grip whenever their head drops below your arm level. Make the consequences of a failed duck under severe enough to discourage repeated attempts, forcing them to invest more heavily in misdirection before committing."
+        "answer": "Lower your clinch engagement level by keeping hands and elbows tighter to your body, avoiding high collar ties that create gaps beneath your arms, and maintaining slightly more distance to reduce the effectiveness of their level change. Punish their duck under attempts by establishing front headlock or guillotine grip whenever their head drops below your arm level. Make the consequences of a failed duck under severe enough to discourage repeated attempts, forcing them to invest more heavily in misdirection before committing.",
+        "answer_line": "Tighten elbows, punish attempts",
+        "distractors": {
+          "plausible": [
+            "Widen grips for more control",
+            "Increase distance only"
+          ],
+          "trap": [
+            "Extend arms for longer reach"
+          ]
+        }
       },
       {
         "question": "Why is sprawling more effective as a duck under defense than stepping backward away from the opponent?",
-        "answer": "Sprawling drives your hips away from the opponent while keeping your upper body weight on top of them, creating a structural barrier to their circular movement and dropping your center of gravity below their duck. Stepping backward maintains the spatial relationship between your bodies, gives them room to continue circling, and does nothing to close the gap beneath your arms. The sprawl also positions your chest weight on their upper back if their head is exposed, which can be converted directly to front headlock control."
+        "answer": "Sprawling drives your hips away from the opponent while keeping your upper body weight on top of them, creating a structural barrier to their circular movement and dropping your center of gravity below their duck. Stepping backward maintains the spatial relationship between your bodies, gives them room to continue circling, and does nothing to close the gap beneath your arms. The sprawl also positions your chest weight on their upper back if their head is exposed, which can be converted directly to front headlock control.",
+        "answer_line": "Sprawl blocks, drops your weight",
+        "distractors": {
+          "plausible": [
+            "Stepping back closes distance",
+            "Both defenses work equally"
+          ],
+          "trap": [
+            "Step back to reset position"
+          ]
+        }
       },
       {
         "question": "What is the relationship between your arm positioning in the clinch and vulnerability to the duck under?",
-        "answer": "High extended arms such as collar ties with elbows flared or overhooks with loose elbow angles create large gaps beneath your arms that the opponent can duck through with minimal clearance effort. Compact positioning with elbows closer to your ribs reduces these gaps dramatically and forces the opponent to work much harder to clear your arm during the duck. The trade-off is that compact arms offer less reach for offensive clinch control, but against a confirmed duck under threat the defensive benefit outweighs the lost offensive range."
+        "answer": "High extended arms such as collar ties with elbows flared or overhooks with loose elbow angles create large gaps beneath your arms that the opponent can duck through with minimal clearance effort. Compact positioning with elbows closer to your ribs reduces these gaps dramatically and forces the opponent to work much harder to clear your arm during the duck. The trade-off is that compact arms offer less reach for offensive clinch control, but against a confirmed duck under threat the defensive benefit outweighs the lost offensive range.",
+        "answer_line": "High elbows create big gaps",
+        "distractors": {
+          "plausible": [
+            "Grip strength matters most",
+            "Only overhooks create gaps"
+          ],
+          "trap": [
+            "Flare elbows for more reach"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that a Duck Under is being set up?",
-        "answer": "The earliest cue is opponent increasing collar tie pressure while their opposite hand moves to control your elbow or tricep. This arm manipulation sequence is the prerequisite for elevating your arm to create the ducking lane. Recognizing this grip configuration allows you to deny the setup by swimming your elbow back down before they can initiate the level change."
+        "answer": "The earliest cue is opponent increasing collar tie pressure while their opposite hand moves to control your elbow or tricep. This arm manipulation sequence is the prerequisite for elevating your arm to create the ducking lane. Recognizing this grip configuration allows you to deny the setup by swimming your elbow back down before they can initiate the level change.",
+        "answer_line": "Tie tightens, elbow grip added",
+        "distractors": {
+          "plausible": [
+            "Sudden head level change",
+            "They step back for space"
+          ],
+          "trap": [
+            "They release all their grips"
+          ]
+        }
       },
       {
         "question": "Your opponent has already threaded past your arm and their head is at your ribcage - what is your best defensive option at this stage?",
-        "answer": "At this late stage, your best option is an aggressive hip pivot to square up and face the attacker before they can complete the circle to your back. Simultaneously apply a whizzer on the closest arm to slow their progress while your feet reposition. The sprawl window has passed, so you must use rotation rather than hip retreat. If they are very deep, immediately establish underhook control on the far side to prevent them from locking rear clinch grips."
+        "answer": "At this late stage, your best option is an aggressive hip pivot to square up and face the attacker before they can complete the circle to your back. Simultaneously apply a whizzer on the closest arm to slow their progress while your feet reposition. The sprawl window has passed, so you must use rotation rather than hip retreat. If they are very deep, immediately establish underhook control on the far side to prevent them from locking rear clinch grips.",
+        "answer_line": "Pivot hips, add a whizzer",
+        "distractors": {
+          "plausible": [
+            "Sprawl your hips backward",
+            "Push their head down hard"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "Why is maintaining tight elbow position more important than grip strength when defending the Duck Under?",
-        "answer": "Elbow position determines whether the ducking lane exists at all. No matter how strong your grips are, if your elbow is elevated above your shoulder, there is a clear path for the attacker to thread underneath. Conversely, with elbows pinned to your ribs, even a weak grip makes the duck under geometrically impossible because there is no space to pass through. Elbow discipline removes the technique entirely rather than merely making it harder."
+        "answer": "Elbow position determines whether the ducking lane exists at all. No matter how strong your grips are, if your elbow is elevated above your shoulder, there is a clear path for the attacker to thread underneath. Conversely, with elbows pinned to your ribs, even a weak grip makes the duck under geometrically impossible because there is no space to pass through. Elbow discipline removes the technique entirely rather than merely making it harder.",
+        "answer_line": "Tight elbows remove the lane",
+        "distractors": {
+          "plausible": [
+            "Strong grips stop any duck",
+            "Wide elbows help defense too"
+          ],
+          "trap": [
+            "Flare elbows to see better"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution in the clinch affect your ability to defend the Duck Under?",
-        "answer": "Forward weight commitment makes sprawling difficult because your hips are already loaded toward the attacker, and your momentum assists their level change. Slightly rearward weight bias with hips loaded underneath you allows explosive sprawl response and prevents the attacker from using your forward pressure as timing cue. The ideal defensive distribution is about 45% forward and 55% back, giving you the ability to react in either direction without telegraphing your intent."
+        "answer": "Forward weight commitment makes sprawling difficult because your hips are already loaded toward the attacker, and your momentum assists their level change. Slightly rearward weight bias with hips loaded underneath you allows explosive sprawl response and prevents the attacker from using your forward pressure as timing cue. The ideal defensive distribution is about 45% forward and 55% back, giving you the ability to react in either direction without telegraphing your intent.",
+        "answer_line": "Slightly rearward, 45/55 split",
+        "distractors": {
+          "plausible": [
+            "Fully forward for pressure",
+            "Perfectly even 50/50 split"
+          ],
+          "trap": [
+            "Lean forward to load hips"
+          ]
+        }
       },
       {
         "question": "Your training partner consistently catches you with Duck Unders despite your sprawl attempts - what systematic adjustment should you make?",
-        "answer": "If sprawls are consistently late, the issue is likely recognition timing rather than sprawl mechanics. Focus on identifying the collar-tie-plus-elbow-control setup pattern rather than waiting for the level change to react. Additionally, evaluate your arm positioning during grip fighting - if your elbows frequently rise above shoulder height, you are providing the opening. Drill maintaining elbow discipline under active grip fighting pressure, and add preemptive counter-attacks like snap downs when you read the setup pattern rather than waiting to defend the execution."
+        "answer": "If sprawls are consistently late, the issue is likely recognition timing rather than sprawl mechanics. Focus on identifying the collar-tie-plus-elbow-control setup pattern rather than waiting for the level change to react. Additionally, evaluate your arm positioning during grip fighting - if your elbows frequently rise above shoulder height, you are providing the opening. Drill maintaining elbow discipline under active grip fighting pressure, and add preemptive counter-attacks like snap downs when you read the setup pattern rather than waiting to defend the execution.",
+        "answer_line": "Fix recognition, elbow discipline",
+        "distractors": {
+          "plausible": [
+            "Just sprawl harder each time",
+            "Add more strength training"
+          ],
+          "trap": [
+            "Widen elbows for more reach"
+          ]
+        }
       }
     ],
     "training_progressions": [

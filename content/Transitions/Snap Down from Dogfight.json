@@ -259,35 +259,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the snap down from dogfight?",
-        "answer": "The optimal moment is when the bottom player commits their weight forward aggressively with their underhook drive. You feel increased pressure through the whizzer contact and their head elevates to or above your shoulder level. This forward commitment creates momentum that the snap redirects downward, making the technique require significantly less force than attempting it against a neutral or backward-sitting opponent. Initiating the snap against a retreating opponent will fail because there is no forward momentum to exploit."
+        "answer": "The optimal moment is when the bottom player commits their weight forward aggressively with their underhook drive. You feel increased pressure through the whizzer contact and their head elevates to or above your shoulder level. This forward commitment creates momentum that the snap redirects downward, making the technique require significantly less force than attempting it against a neutral or backward-sitting opponent. Initiating the snap against a retreating opponent will fail because there is no forward momentum to exploit.",
+        "answer_line": "Forward weight commit, head high",
+        "distractors": {
+          "plausible": [
+            "Snap when they sit back neutral",
+            "Wait for a completely still stance"
+          ],
+          "trap": [
+            "Snap during their retreat"
+          ]
+        }
       },
       {
         "question": "Why must you release the whizzer fully before executing the snap rather than maintaining partial whizzer control?",
-        "answer": "Maintaining partial whizzer control splits your grip between two incompatible objectives—controlling the opponent's arm and controlling their head. This half-commitment produces a weak snap that lacks the explosive force needed to break posture and also compromises your whizzer control. Full commitment to the collar tie allows maximum pulling force and proper body mechanics for the snap. The whizzer release also creates a momentary void that the opponent's forward-driving underhook falls into, actually enhancing the snap's effectiveness by removing the resistance their arm was pressing against."
+        "answer": "Maintaining partial whizzer control splits your grip between two incompatible objectives—controlling the opponent's arm and controlling their head. This half-commitment produces a weak snap that lacks the explosive force needed to break posture and also compromises your whizzer control. Full commitment to the collar tie allows maximum pulling force and proper body mechanics for the snap. The whizzer release also creates a momentary void that the opponent's forward-driving underhook falls into, actually enhancing the snap's effectiveness by removing the resistance their arm was pressing against.",
+        "answer_line": "Fully release whizzer for pull",
+        "distractors": {
+          "plausible": [
+            "Keep partial whizzer grip",
+            "Release whizzer after the pull"
+          ],
+          "trap": [
+            "Maintain whizzer through snap"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hands strongly after the snap breaks their posture partially. How do you complete the front headlock establishment?",
-        "answer": "When the opponent posts their hands to resist, circle laterally while maintaining collar tie control rather than continuing to pull straight down against their skeletal posting structure. Circling breaks the alignment of their arm posts and forces them to reposition their hands, creating windows where their base momentarily weakens. You can also use your free hand to attack one of their posting arms by pulling it out, collapsing that side of their base and completing the postural breakdown. Never engage in a straight pulling contest against posted arms."
+        "answer": "When the opponent posts their hands to resist, circle laterally while maintaining collar tie control rather than continuing to pull straight down against their skeletal posting structure. Circling breaks the alignment of their arm posts and forces them to reposition their hands, creating windows where their base momentarily weakens. You can also use your free hand to attack one of their posting arms by pulling it out, collapsing that side of their base and completing the postural breakdown. Never engage in a straight pulling contest against posted arms.",
+        "answer_line": "Circle laterally, attack a post",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Force head down harder"
+          ],
+          "trap": [
+            "Pull straight down against posts"
+          ]
+        }
       },
       {
         "question": "What is the critical difference in hip position between the snap initiation and the front headlock consolidation?",
-        "answer": "During snap initiation, your hips are relatively close to the opponent to generate the pulling angle and transfer your level change into the snap force. During front headlock consolidation, your hips must sprawl back and away from the opponent, creating distance that prevents them from re-engaging the underhook and recovering their kneeling posture. This hip position change is one of the most commonly missed details—practitioners who keep their hips close after snapping allow the opponent to pummel back to the underhook and re-establish dogfight, negating the successful snap."
+        "answer": "During snap initiation, your hips are relatively close to the opponent to generate the pulling angle and transfer your level change into the snap force. During front headlock consolidation, your hips must sprawl back and away from the opponent, creating distance that prevents them from re-engaging the underhook and recovering their kneeling posture. This hip position change is one of the most commonly missed details—practitioners who keep their hips close after snapping allow the opponent to pummel back to the underhook and re-establish dogfight, negating the successful snap.",
+        "answer_line": "Sprawl hips back after the snap",
+        "distractors": {
+          "plausible": [
+            "Sprawl hips before the snap",
+            "Widen base but stay hip-close"
+          ],
+          "trap": [
+            "Keep hips tight to opponent"
+          ]
+        }
       },
       {
         "question": "How does the direction of the snap force differ from a straight downward pull, and why does this matter biomechanically?",
-        "answer": "The snap should be directed at a forty-five degree angle, pulling the opponent's head downward and toward your own chest simultaneously. A straight downward pull is easily resisted because the opponent's arms can post directly beneath their shoulders in alignment with the force. The diagonal pull angle loads the opponent's weight forward past their center of gravity, causing them to pitch forward onto their hands rather than absorbing the force through their base. This diagonal vector also brings their head closer to your body, facilitating the chest-to-back connection needed for front headlock consolidation."
+        "answer": "The snap should be directed at a forty-five degree angle, pulling the opponent's head downward and toward your own chest simultaneously. A straight downward pull is easily resisted because the opponent's arms can post directly beneath their shoulders in alignment with the force. The diagonal pull angle loads the opponent's weight forward past their center of gravity, causing them to pitch forward onto their hands rather than absorbing the force through their base. This diagonal vector also brings their head closer to your body, facilitating the chest-to-back connection needed for front headlock consolidation.",
+        "answer_line": "Pull at 45°, toward your chest",
+        "distractors": {
+          "plausible": [
+            "Straight down, away from body",
+            "90° pull off to the side"
+          ],
+          "trap": [
+            "Straight down over their base"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward with an explosive underhook as you attempt the snap. The forward drive overpowers your snap attempt. What is the correct response?",
-        "answer": "Immediately abandon the snap attempt and focus on base recovery. If the opponent's forward drive is overwhelming your snap, continuing to pull will result in being driven backward and potentially swept to half guard bottom. Disengage the collar tie, re-establish your whizzer or crossface, and use their forward momentum to guide them past you with a matador-style redirection rather than absorbing the force head-on. Once you have stabilized, reset in dogfight and wait for the next opportunity when their forward pressure is strong but not overwhelming."
+        "answer": "Immediately abandon the snap attempt and focus on base recovery. If the opponent's forward drive is overwhelming your snap, continuing to pull will result in being driven backward and potentially swept to half guard bottom. Disengage the collar tie, re-establish your whizzer or crossface, and use their forward momentum to guide them past you with a matador-style redirection rather than absorbing the force head-on. Once you have stabilized, reset in dogfight and wait for the next opportunity when their forward pressure is strong but not overwhelming.",
+        "answer_line": "Abandon snap, recover base",
+        "distractors": {
+          "plausible": [
+            "Pull harder to finish snap",
+            "Absorb the drive head-on"
+          ],
+          "trap": [
+            "Keep pulling, fight through it"
+          ]
+        }
       },
       {
         "question": "What grip position on the opponent's neck produces the maximum leverage for the snap down?",
-        "answer": "The hand should cup the back of the neck at the base of the skull, with the fingers wrapping around the occipital ridge and the palm seated on the cervical vertebrae. This high grip position gives maximum leverage because it controls the heaviest point of the head and creates the longest lever arm for the downward pull. A grip that is too low on the neck or on the trapezius lacks the leverage to control head position effectively and allows the opponent to posture through the snap. The elbow of the gripping arm should drive downward toward the mat as part of the pull, not flare outward."
+        "answer": "The hand should cup the back of the neck at the base of the skull, with the fingers wrapping around the occipital ridge and the palm seated on the cervical vertebrae. This high grip position gives maximum leverage because it controls the heaviest point of the head and creates the longest lever arm for the downward pull. A grip that is too low on the neck or on the trapezius lacks the leverage to control head position effectively and allows the opponent to posture through the snap. The elbow of the gripping arm should drive downward toward the mat as part of the pull, not flare outward.",
+        "answer_line": "Cup skull base, elbow drives down",
+        "distractors": {
+          "plausible": [
+            "Grip on the trapezius muscle",
+            "Skull grip with elbow flared out"
+          ],
+          "trap": [
+            "Low neck grip near the collar"
+          ]
+        }
       },
       {
         "question": "Your snap lands and you establish front headlock, but the opponent defends the guillotine by tucking their chin and pinching their elbows tight. What chain attacks remain available?",
-        "answer": "With the guillotine shut down, flow into the arm-in front headlock system rather than forcing the choke against a tucked chin. Thread your free arm under their near armpit to set up a darce or anaconda, both of which attack the same bent-over posture without needing chin access. If they drive their weight forward into you to relieve the head pressure, release the head, step around their posted arms, and take the back. If they post and circle away from your snapping side, follow the circle into a back take. The entire value of the front headlock is this dilemma—every defense to one attack opens the next, so never stall on a defended guillotine when darce, anaconda, and back take are one motion away."
+        "answer": "With the guillotine shut down, flow into the arm-in front headlock system rather than forcing the choke against a tucked chin. Thread your free arm under their near armpit to set up a darce or anaconda, both of which attack the same bent-over posture without needing chin access. If they drive their weight forward into you to relieve the head pressure, release the head, step around their posted arms, and take the back. If they post and circle away from your snapping side, follow the circle into a back take. The entire value of the front headlock is this dilemma—every defense to one attack opens the next, so never stall on a defended guillotine when darce, anaconda, and back take are one motion away.",
+        "answer_line": "Flow to darce, anaconda, back take",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and restart",
+            "Switch to a leg attack entry"
+          ],
+          "trap": [
+            "Force the guillotine harder"
+          ]
+        }
       }
     ],
     "safety_considerations": "The snap down targets the cervical spine and neck musculature, requiring controlled force application to prevent injury. Never execute explosive snaps with maximum force during drilling—build to full speed gradually. Partners should communicate immediately if they experience neck pain, numbness, or tingling. Practitioners with pre-existing cervical spine issues should consult a medical professional before practicing this technique. During live training, be aware that the snap can drive an opponent's head into the mat forcefully, so ensure adequate mat surface and avoid practicing on hard floors.",
@@ -405,15 +485,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a snap down is being initiated from dogfight?",
-        "answer": "The earliest cue is the release of the whizzer or overhook grip. In dogfight, the top player's whizzer is their primary defensive tool against your underhook. When they voluntarily release it, they are converting to a different attack—most commonly the snap down via collar tie. The moment you feel the whizzer pressure disappear from your underhook arm without a corresponding crossface or re-flatten attempt, you should immediately assume a snap is coming and activate your defensive posture by tucking your chin and preparing to post."
+        "answer": "The earliest cue is the release of the whizzer or overhook grip. In dogfight, the top player's whizzer is their primary defensive tool against your underhook. When they voluntarily release it, they are converting to a different attack—most commonly the snap down via collar tie. The moment you feel the whizzer pressure disappear from your underhook arm without a corresponding crossface or re-flatten attempt, you should immediately assume a snap is coming and activate your defensive posture by tucking your chin and preparing to post.",
+        "answer_line": "Feel the whizzer grip release",
+        "distractors": {
+          "plausible": [
+            "See their head drop suddenly",
+            "Feel new crossface pressure"
+          ],
+          "trap": [
+            "Wait until collar tie is set"
+          ]
+        }
       },
       {
         "question": "Why is driving forward with the underhook an effective counter to the snap down rather than a risky overcommitment?",
-        "answer": "The snap down requires the opponent to pull you downward while simultaneously sprawling their hips backward. This backward hip movement weakens their base in the forward direction precisely when you drive forward. Your underhook drive exploits the direction they are weakest because their weight is moving away from you. The key is timing—you must drive forward at the moment they initiate the snap, not after it has already broken your posture. If timed correctly, your forward momentum combined with their backward sprawl creates a force differential that reverses the position."
+        "answer": "The snap down requires the opponent to pull you downward while simultaneously sprawling their hips backward. This backward hip movement weakens their base in the forward direction precisely when you drive forward. Your underhook drive exploits the direction they are weakest because their weight is moving away from you. The key is timing—you must drive forward at the moment they initiate the snap, not after it has already broken your posture. If timed correctly, your forward momentum combined with their backward sprawl creates a force differential that reverses the position.",
+        "answer_line": "Drive forward as they sprawl back",
+        "distractors": {
+          "plausible": [
+            "Drive forward after posture breaks",
+            "Pull back against the snap"
+          ],
+          "trap": [
+            "Retreat and reset base"
+          ]
+        }
       },
       {
         "question": "What defensive posture adjustment should you maintain as a default in dogfight to reduce snap down vulnerability?",
-        "answer": "Keep your forehead pressed into your opponent's shoulder with a slightly tucked chin as your default head position. This accomplishes three things: it denies the collar tie depth needed for an effective snap because your head is pressed against their body rather than exposed in space, it loads your weight forward through your head which increases your resistance to downward pulls, and it keeps your neck in a structurally strong flexed position rather than an extended vulnerable position. This single adjustment reduces snap down effectiveness dramatically even without active defensive responses."
+        "answer": "Keep your forehead pressed into your opponent's shoulder with a slightly tucked chin as your default head position. This accomplishes three things: it denies the collar tie depth needed for an effective snap because your head is pressed against their body rather than exposed in space, it loads your weight forward through your head which increases your resistance to downward pulls, and it keeps your neck in a structurally strong flexed position rather than an extended vulnerable position. This single adjustment reduces snap down effectiveness dramatically even without active defensive responses.",
+        "answer_line": "Forehead in shoulder, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Head up, chin tucked",
+            "Forehead in shoulder, chin up"
+          ],
+          "trap": [
+            "Head back, neck extended"
+          ]
+        }
       },
       {
         "question": "Your opponent's snap attempt partially breaks your posture and you are now on your hands with your head below shoulder level. What is your immediate priority?",
@@ -421,7 +531,17 @@
       },
       {
         "question": "How should your knee base width change when you detect snap down threat in dogfight compared to sweep threat?",
-        "answer": "When defending against a snap down, you should widen your knee base slightly and sit your weight back toward your heels rather than leaning forward. This wider, slightly rear-weighted base provides greater resistance to the downward diagonal pull of the snap because your center of gravity is lower and your posting distance is shorter. In contrast, when defending against sweeps in dogfight, your base should be narrower and your weight more forward to prevent being driven backward. Recognizing whether the primary threat is snap down versus sweep allows you to adjust your base proactively rather than reactively."
+        "answer": "When defending against a snap down, you should widen your knee base slightly and sit your weight back toward your heels rather than leaning forward. This wider, slightly rear-weighted base provides greater resistance to the downward diagonal pull of the snap because your center of gravity is lower and your posting distance is shorter. In contrast, when defending against sweeps in dogfight, your base should be narrower and your weight more forward to prevent being driven backward. Recognizing whether the primary threat is snap down versus sweep allows you to adjust your base proactively rather than reactively.",
+        "answer_line": "Widen base, sit weight back",
+        "distractors": {
+          "plausible": [
+            "Widen base, lean forward",
+            "Narrow base, sit weight back"
+          ],
+          "trap": [
+            "Narrow base, weight forward"
+          ]
+        }
       }
     ],
     "training_progressions": [

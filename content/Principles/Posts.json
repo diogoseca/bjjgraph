@@ -395,11 +395,31 @@
   "flashcards": [
     {
       "question": "What is a post in BJJ?",
-      "answer": "A post is an extended limb — hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base."
+      "answer": "A post is an extended limb — hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base.",
+      "answer_line": "Limb planted to stop toppling",
+      "distractors": {
+        "plausible": [
+          "Any limb touching the mat",
+          "A grip that controls the opponent"
+        ],
+        "trap": [
+          "A limb left loose for balance"
+        ]
+      }
     },
     {
       "question": "Why must a post be placed in the direction of displacement?",
-      "answer": "A post only stops a topple if it sits between your body and the ground along the line you are being moved. Posting in any other direction creates no structural strut, so the sweep succeeds despite the effort."
+      "answer": "A post only stops a topple if it sits between your body and the ground along the line you are being moved. Posting in any other direction creates no structural strut, so the sweep succeeds despite the effort.",
+      "answer_line": "It must block the line of the fall",
+      "distractors": {
+        "plausible": [
+          "It must be the strongest limb",
+          "It must be closest to the opponent"
+        ],
+        "trap": [
+          "Post opposite the fall direction"
+        ]
+      }
     },
     {
       "question": "Why does a straight-arm post resist collapse better than a bent-arm post?",
@@ -411,11 +431,31 @@
     },
     {
       "question": "When should you use a head post instead of a hand post?",
-      "answer": "Use a head post — forehead driven into the mat or opponent — when both hands are committed to grips or controls, such as in turtle, scrambles, or passing, so you keep a stability option without sacrificing your grips."
+      "answer": "Use a head post — forehead driven into the mat or opponent — when both hands are committed to grips or controls, such as in turtle, scrambles, or passing, so you keep a stability option without sacrificing your grips.",
+      "answer_line": "When both hands are busy gripping",
+      "distractors": {
+        "plausible": [
+          "When passing the guard only",
+          "When defending a submission"
+        ],
+        "trap": [
+          "Release your grips to free a hand"
+        ]
+      }
     },
     {
       "question": "What is the most common reason sweeps fail at all levels?",
-      "answer": "The attacker ignores the opponent's posts. The opponent catches their balance with a hand or foot post that was never accounted for, so a sweep with perfect setup and execution still fails on the unaddressed posting limb."
+      "answer": "The attacker ignores the opponent's posts. The opponent catches their balance with a hand or foot post that was never accounted for, so a sweep with perfect setup and execution still fails on the unaddressed posting limb.",
+      "answer_line": "Ignoring the opponent's post",
+      "distractors": {
+        "plausible": [
+          "Wrong grip on the sleeve",
+          "Bad hip angle at initiation"
+        ],
+        "trap": [
+          "Rushing the setup too slowly"
+        ]
+      }
     },
     {
       "question": "Why should a post be treated as temporary rather than a position to hold?",

@@ -295,52 +295,152 @@
       {
         "question": "What anatomical structures does the Arm Triangle from Modified Scarf Hold attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously to restrict blood flow to the brain. The opponent's own trapped shoulder bone presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral compression causes unconsciousness in 6-8 seconds if not released, making it a true blood choke rather than an airway choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids, blood choke",
+        "distractors": {
+          "plausible": [
+            "Windpipe, airway choke",
+            "Only the far-side carotid"
+          ],
+          "trap": [
+            "Cervical spine, neck crank"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent's near arm has crossed the throat line and the arm triangle setup is available from Modified Scarf Hold?",
         "answer": "You feel the opponent's forearm or wrist pressing across their own neck, either because you steered it there with chest pressure and underhook manipulation, or because they instinctively framed against your chest with their near arm crossing their throat line. The key tactile cue is feeling their arm bone sandwiched between your chest and their neck with no gap. Once you feel solid bone-on-bone contact through the trapped arm, the setup is available.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bone-on-bone: arm pinned to neck",
+        "distractors": {
+          "plausible": [
+            "Feel deep underhook control",
+            "See their hand on your hip"
+          ],
+          "trap": [
+            "They relax and stop framing"
+          ]
+        }
       },
       {
         "question": "What control must you establish before releasing your Modified Scarf Hold grips to transition to the head-and-arm lock?",
         "answer": "Your chest weight must be pinning the opponent's trapped arm firmly against their own neck before you release any grip. The body pressure alone must immobilize the arm so it cannot be retracted during the grip switch. Test this by slightly loosening your grip without moving your chest—if the arm stays pinned, you have sufficient chest pressure to proceed. If the arm starts sliding free, increase chest pressure before attempting the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins trapped arm to neck",
+        "distractors": {
+          "plausible": [
+            "Underhook stays locked tight",
+            "Cross-face grip alone holds it"
+          ],
+          "trap": [
+            "Release grip first, then adjust"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to retract their near arm while you are mid-transition between Modified Scarf Hold and the arm triangle grip - what do you do?",
         "answer": "Immediately abandon the arm triangle transition and return to Modified Scarf Hold control. Drive your chest weight back down and re-establish your underhook or cross-face grip on the near arm. Do not chase a half-locked arm triangle—a compromised configuration will not finish and wastes energy. Reset your chest pressure and wait for the arm to cross the throat line again, which it will when you re-steer it or the opponent frames.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abandon, return to Scarf Hold",
+        "distractors": {
+          "plausible": [
+            "Chase and force the grip",
+            "Switch to a different sub"
+          ],
+          "trap": [
+            "Ease chest pressure to reset"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Modified Scarf Hold?",
         "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's own shoulder into their carotid while your forearm blade compresses the other side. Finishing from an oblique angle reduces the shoulder compression and produces a less effective choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips perpendicular, head to mat",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder from an angle",
+            "Sit up tall over their chest"
+          ],
+          "trap": [
+            "Angle away from trapped arm"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the opponent has passed the point of no escape once the arm triangle is locked?",
         "answer": "The choke has passed the point of no escape when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with zero space between your chest and their body, your hip is dropped and head is sealed to the mat, and the opponent cannot create any meaningful frame with their free hand. Their defensive movements become weaker and less coordinated as blood restriction takes effect. Their face may begin changing color. At this point, the tap is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No space, no frame, fading resist",
+        "distractors": {
+          "plausible": [
+            "They stop talking or protesting",
+            "Face flushes red then fades"
+          ],
+          "trap": [
+            "They go stiff and limp, wait"
+          ]
+        }
       },
       {
         "question": "What common finishing error causes the arm triangle from Modified Scarf Hold to become a neck crank instead of a blood choke?",
         "answer": "Attempting to finish before walking your hips to the perpendicular angle is the most common cause of neck cranking instead of choking. When you squeeze at an oblique angle relative to the opponent's body, the pressure misaligns with the carotid arteries and instead torques the neck. The perpendicular angle ensures the opponent's shoulder drives straight into the carotid while your forearm blade compresses the other side cleanly. Always complete the full hip walk before squeezing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeezing before hips are square",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip too loose",
+            "Head not sealed to the mat"
+          ],
+          "trap": [
+            "Crank harder to bend the neck"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the Arm Triangle from Modified Scarf Hold in training?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for changes in resistance and watching for facial color changes. Always ensure at least one of their hands is free to tap. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp or stops resisting, release immediately and place them in recovery position on their side with legs elevated. Blood chokes cause unconsciousness in 6-8 seconds, so there is minimal warning before the opponent goes out.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, release on tap",
+        "distractors": {
+          "plausible": [
+            "Squeeze fast to stop escape",
+            "Only watch for verbal taps"
+          ],
+          "trap": [
+            "Hold through resistance to finish"
+          ]
+        }
       },
       {
         "question": "How does the grip adjustment differ between a figure-four lock and a gable grip for the arm triangle finish, and when should you choose each?",
         "answer": "The figure-four lock (grabbing your own bicep with the choking hand, free hand behind the opponent's head) creates a tighter triangular configuration with more mechanical advantage but takes slightly longer to set. The gable grip (palm-to-palm behind the head) locks faster and works well when you need to secure the grip quickly before the opponent escapes. Use the figure-four when you have time and control, use the gable grip when the transition window is closing fast. Both generate sufficient pressure when combined with proper body angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four tighter, gable faster",
+        "distractors": {
+          "plausible": [
+            "Gable grip is always stronger",
+            "Figure-four always locks quicker"
+          ],
+          "trap": [
+            "Gable grip only cranks the neck"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic adjustments maximize your finishing rate with the arm triangle from Modified Scarf Hold?",
         "answer": "In competition, establish Modified Scarf Hold control for 10-15 seconds before initiating the arm triangle to drain the opponent's energy and force framing responses that create the arm trap. Use the scoring threat of transitioning to mount to force them to keep their arms active in defense, which opens the throat-line crossing. Once the arm triangle is locked, walk to the angle decisively—competition opponents will explode with escape attempts if given time. Drop your hip and seal immediately rather than incrementally. The chest compression finish is more reliable than arm squeezing under adrenaline.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control first, then walk fast",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms hard under adrenaline",
+            "Wait passively for the tap"
+          ],
+          "trap": [
+            "Rush choke before control set"
+          ]
+        }
       }
     ],
     "clips": [
@@ -463,27 +563,77 @@
       {
         "question": "How do you recognize that the attacker is setting up an arm triangle from Modified Scarf Hold?",
         "answer": "The first recognition cue is feeling the attacker steer your near arm across your own neck using underhook manipulation or chest pressure angle changes. The second cue is feeling their chest weight drive down with unusual deliberateness onto your near arm, pinning it against your neck. The third cue is feeling them release their Modified Scarf Hold grip to thread their arm behind your head. Early recognition at the first cue gives you the most defensive options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel arm steered across your neck",
+        "distractors": {
+          "plausible": [
+            "Feel their grips loosen up",
+            "Feel weight shift to far side"
+          ],
+          "trap": [
+            "Feel them go for mount instead"
+          ]
+        }
       },
       {
         "question": "What is the safest response when you are caught in a fully locked and sealed arm triangle from Modified Scarf Hold?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is fully sealed with the attacker's hip dropped and head planted. Arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal warning. Tapping early prevents injury and allows you to continue training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Try to escape once sealed",
+            "Wait to see how tight it is"
+          ],
+          "trap": [
+            "Bridge hard and fight through"
+          ]
+        }
       },
       {
         "question": "What near-arm positioning prevents the attacker from converting Modified Scarf Hold pressure into an arm triangle?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow pointing down toward your hip and your hand on your own chest, or extend it fully away from your neck beyond the attacker's reach. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending Modified Scarf Hold chest pressure, use hip movement and far-side frames rather than near-side arm frames across your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin arm to body or extend away",
+        "distractors": {
+          "plausible": [
+            "Frame across your own neck",
+            "Push palm on their chest"
+          ],
+          "trap": [
+            "Post your arm on your throat"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm grip but has not yet walked to the perpendicular finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get your knees under you. Simultaneously frame against their hips with your free arm to prevent them from completing the walk to the perpendicular angle. If you can face into the attacker and get your knees beneath you, they cannot generate the chest compression needed to finish. Alternatively, bridge powerfully toward the trapped-arm side and attempt to pull them into your closed guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, frame hips, get knees in",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Push their head down and away"
+          ],
+          "trap": [
+            "Turn away from trapped-arm side"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker the most dangerous defensive mistake when caught in the arm triangle from Modified Scarf Hold?",
         "answer": "Turning away from the attacker gives them the perpendicular angle they need for maximum finishing pressure and simultaneously drives your own shoulder deeper into your carotid artery, accelerating the blood choke from both sides. This effectively finishes the choke for the attacker without them needing to do additional work. Always turn into the attacker toward the trapped-arm side, which flattens the choke angle and relieves the shoulder pressure on your carotid.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gives them the perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Only wastes your energy",
+            "Makes the tap harder to see"
+          ],
+          "trap": [
+            "Turning away creates escape room"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -258,35 +258,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the knee pin from X-Guard top?",
-        "answer": "The optimal timing window is when the bottom player's inside hook begins to lose depth or when they shift focus to establishing upper body grips, creating a moment where the hook is less actively maintained and more vulnerable to downward pressure. Initiating during active elevation attempts is significantly harder due to the opposing upward force."
+        "answer": "The optimal timing window is when the bottom player's inside hook begins to lose depth or when they shift focus to establishing upper body grips, creating a moment where the hook is less actively maintained and more vulnerable to downward pressure. Initiating during active elevation attempts is significantly harder due to the opposing upward force.",
+        "answer_line": "Hook loses depth or grips shift up",
+        "distractors": {
+          "plausible": [
+            "The moment X-Guard is secured",
+            "When both hooks are locked in"
+          ],
+          "trap": [
+            "During their active elevation"
+          ]
+        }
       },
       {
         "question": "Why must you establish an upper body anchor before committing your hand to the knee pin?",
-        "answer": "Without an upper body anchor such as a collar grip, head control, or far shoulder grip, the opponent can freely rotate away from the pin or create sweeping angles. The anchor prevents the opponent from using the moment of your hand commitment to change angles and initiate sweeps while your near-side hand is occupied with the pin."
+        "answer": "Without an upper body anchor such as a collar grip, head control, or far shoulder grip, the opponent can freely rotate away from the pin or create sweeping angles. The anchor prevents the opponent from using the moment of your hand commitment to change angles and initiate sweeps while your near-side hand is occupied with the pin.",
+        "answer_line": "Prevents rotation and sweep angles",
+        "distractors": {
+          "plausible": [
+            "Frees your hips to drive forward",
+            "Adds pressure to the pinning knee"
+          ],
+          "trap": [
+            "Skip it, both hands drive the pin"
+          ]
+        }
       },
       {
         "question": "Your opponent re-pummels their inside hook as you attempt the knee pin - what is your immediate adjustment?",
-        "answer": "If the hook recovers before the pin is established, immediately chain to an alternative pass such as a knee slice or long step rather than repeatedly forcing the pin. The opponent's focus on re-pummeling the hook creates a brief window where their attention is on hook recovery rather than sweep execution, making movement-based passes temporarily more effective."
+        "answer": "If the hook recovers before the pin is established, immediately chain to an alternative pass such as a knee slice or long step rather than repeatedly forcing the pin. The opponent's focus on re-pummeling the hook creates a brief window where their attention is on hook recovery rather than sweep execution, making movement-based passes temporarily more effective.",
+        "answer_line": "Chain to knee slice instead",
+        "distractors": {
+          "plausible": [
+            "Reset and re-attempt the pin",
+            "Switch to double unders"
+          ],
+          "trap": [
+            "Force the pin harder"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between using bodyweight versus arm strength for the pin?",
-        "answer": "Bodyweight generates sustained, structural pressure that is energy-efficient and difficult for the opponent to overcome through muscular effort. Arm strength alone is fatiguing, generates less total force, and is vulnerable to the opponent's stronger leg muscles re-pummeling the hook. Shifting your center of gravity into the pin creates a mechanical advantage that arm strength cannot match."
+        "answer": "Bodyweight generates sustained, structural pressure that is energy-efficient and difficult for the opponent to overcome through muscular effort. Arm strength alone is fatiguing, generates less total force, and is vulnerable to the opponent's stronger leg muscles re-pummeling the hook. Shifting your center of gravity into the pin creates a mechanical advantage that arm strength cannot match.",
+        "answer_line": "Bodyweight: sustained pressure",
+        "distractors": {
+          "plausible": [
+            "Arm strength locks it in faster",
+            "Both generate equal pressure"
+          ],
+          "trap": [
+            "Yank hard with the gripping arm"
+          ]
+        }
       },
       {
         "question": "If your knee pin stalls with the hook partially collapsed, what follow-up technique offers the highest percentage?",
-        "answer": "A knee slice pass through the weakened hook structure offers the highest percentage follow-up because the partially collapsed inside hook can no longer generate full elevation, making the knee slice cut significantly easier. The opponent's compromised structure creates less resistance to the slice than a fully intact X-Guard would present."
+        "answer": "A knee slice pass through the weakened hook structure offers the highest percentage follow-up because the partially collapsed inside hook can no longer generate full elevation, making the knee slice cut significantly easier. The opponent's compromised structure creates less resistance to the slice than a fully intact X-Guard would present.",
+        "answer_line": "Knee slice through weak hook",
+        "distractors": {
+          "plausible": [
+            "Re-attempt the same knee pin",
+            "Long step to the far side"
+          ],
+          "trap": [
+            "Retreat and reset to guard"
+          ]
+        }
       },
       {
         "question": "What grip should your free hand maintain during the knee pin execution?",
-        "answer": "The free hand should maintain a controlling anchor grip, either on the opponent's collar in gi, the back of their head in no-gi, or their far shoulder. This grip serves the dual purpose of preventing the opponent from rotating away from the pin and providing a stabilization point that helps maintain your balance during the weight transfer into the pinning action."
+        "answer": "The free hand should maintain a controlling anchor grip, either on the opponent's collar in gi, the back of their head in no-gi, or their far shoulder. This grip serves the dual purpose of preventing the opponent from rotating away from the pin and providing a stabilization point that helps maintain your balance during the weight transfer into the pinning action.",
+        "answer_line": "Collar, head, or far shoulder grip",
+        "distractors": {
+          "plausible": [
+            "Grip the far pant leg",
+            "Post on the mat for base"
+          ],
+          "trap": [
+            "Grab their same-side sleeve"
+          ]
+        }
       },
       {
         "question": "The bottom player transitions to Single Leg X-Guard during your pin attempt - how do you adapt?",
-        "answer": "When the opponent abandons the inside hook to reconfigure into Single Leg X, immediately accelerate your leg extraction since the hook is no longer actively blocking you. Follow their hips with forward pressure and look to advance past the weakened guard structure before they can establish the Single Leg X hooks and frames that would create a new defensive barrier."
+        "answer": "When the opponent abandons the inside hook to reconfigure into Single Leg X, immediately accelerate your leg extraction since the hook is no longer actively blocking you. Follow their hips with forward pressure and look to advance past the weakened guard structure before they can establish the Single Leg X hooks and frames that would create a new defensive barrier.",
+        "answer_line": "Extract leg fast, press forward",
+        "distractors": {
+          "plausible": [
+            "Stop and reset the knee pin",
+            "Wait for hooks to re-establish"
+          ],
+          "trap": [
+            "Pull back to create space"
+          ]
+        }
       },
       {
         "question": "Why is lowering your center of gravity critical during the pinning phase rather than remaining upright?",
-        "answer": "Lowering your center of gravity maximizes the downward pressure transmitted through the pin and dramatically reduces your vulnerability to sweeps. A high stance with narrow base creates maximum leverage for the opponent's remaining outside leg and upper body connections to generate sweeping forces. A low, wide stance distributes your weight in a way that resists off-balancing in all directions."
+        "answer": "Lowering your center of gravity maximizes the downward pressure transmitted through the pin and dramatically reduces your vulnerability to sweeps. A high stance with narrow base creates maximum leverage for the opponent's remaining outside leg and upper body connections to generate sweeping forces. A low, wide stance distributes your weight in a way that resists off-balancing in all directions.",
+        "answer_line": "Low wide base resists sweeps",
+        "distractors": {
+          "plausible": [
+            "Stay upright for better vision",
+            "Narrow base for quick passing"
+          ],
+          "trap": [
+            "Rise up to drive the pin"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Knee Pin from X-Guard carries moderate risk to both practitioners. The top player must control the rate and force of downward pressure on the pinned knee to avoid hyperextension of the bottom player's knee joint, particularly when the hook is deep and the knee is loaded. The bottom player should avoid explosively re-pummeling hooks when significant pinning pressure is already applied, as this can create shearing forces on the knee ligaments. Both practitioners should communicate immediately if knee discomfort occurs. Training partners should begin with cooperative resistance and gradually increase intensity to build familiarity with safe pressure thresholds.",
@@ -394,23 +474,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the top player is setting up a knee pin?",
-        "answer": "The earliest cues are the opponent's near-side hand reaching toward your inside hooking knee instead of fighting for upper body position, combined with them establishing a far-hand anchor on your collar or head. Additionally, you will feel a shift in their weight distribution as they prepare to commit bodyweight forward and downward into the pin."
+        "answer": "The earliest cues are the opponent's near-side hand reaching toward your inside hooking knee instead of fighting for upper body position, combined with them establishing a far-hand anchor on your collar or head. Additionally, you will feel a shift in their weight distribution as they prepare to commit bodyweight forward and downward into the pin.",
+        "answer_line": "Hand reaches your hooking knee",
+        "distractors": {
+          "plausible": [
+            "They grip your far ankle",
+            "They flatten their hips first"
+          ],
+          "trap": [
+            "Their weight settles back"
+          ]
+        }
       },
       {
         "question": "Your inside hook is being driven to the mat - what is your highest-priority defensive action?",
-        "answer": "The highest priority is immediately re-pummeling the inside hook by driving your knee back behind the opponent's knee before they commit full bodyweight into the pin. If the re-pummel is blocked, immediately transition to a sweep attempt using the opponent's forward commitment against them, or flow to Single Leg X-Guard where the compromised hook becomes less critical."
+        "answer": "The highest priority is immediately re-pummeling the inside hook by driving your knee back behind the opponent's knee before they commit full bodyweight into the pin. If the re-pummel is blocked, immediately transition to a sweep attempt using the opponent's forward commitment against them, or flow to Single Leg X-Guard where the compromised hook becomes less critical.",
+        "answer_line": "Re-pummel hook before they commit",
+        "distractors": {
+          "plausible": [
+            "Pull guard and reset position",
+            "Switch to upper body grips"
+          ],
+          "trap": [
+            "Let it go, defend upright"
+          ]
+        }
       },
       {
         "question": "The top player has pinned your knee but has not yet extracted their leg - what sweep opportunity exists?",
-        "answer": "The opponent's forward weight commitment into the pin creates vulnerability to hip bump sweeps and upper body pull sweeps. Because their hands are occupied with the pin and anchor, they have reduced ability to post defensively. Timing an explosive hip elevation or directional pull during this extraction phase can sweep them forward into half guard bottom."
+        "answer": "The opponent's forward weight commitment into the pin creates vulnerability to hip bump sweeps and upper body pull sweeps. Because their hands are occupied with the pin and anchor, they have reduced ability to post defensively. Timing an explosive hip elevation or directional pull during this extraction phase can sweep them forward into half guard bottom.",
+        "answer_line": "Hip bump or pull sweep now",
+        "distractors": {
+          "plausible": [
+            "Wait until leg fully extracts",
+            "Push their head down instead"
+          ],
+          "trap": [
+            "Post your hand flat on the mat"
+          ]
+        }
       },
       {
         "question": "Why is maintaining upper body grip connections essential when defending the knee pin?",
-        "answer": "Upper body grips serve three critical functions during knee pin defense: they disrupt the opponent's posture and balance, making it harder to commit stable bodyweight into the pin; they provide the pulling force needed to execute counter-sweeps when the opponent overcommits; and they prevent the opponent from freely establishing the upper body anchor grip that enables a controlled, committed pin."
+        "answer": "Upper body grips serve three critical functions during knee pin defense: they disrupt the opponent's posture and balance, making it harder to commit stable bodyweight into the pin; they provide the pulling force needed to execute counter-sweeps when the opponent overcommits; and they prevent the opponent from freely establishing the upper body anchor grip that enables a controlled, committed pin.",
+        "answer_line": "Disrupts posture, fuels counters",
+        "distractors": {
+          "plausible": [
+            "Only needed for scoring points",
+            "Mainly to control their head"
+          ],
+          "trap": [
+            "Release grips to move hips free"
+          ]
+        }
       },
       {
         "question": "What position should you transition to if the knee pin partially succeeds and your inside hook cannot be recovered?",
-        "answer": "Single Leg X-Guard is the highest-percentage transition because it requires only the outside leg frame and ankle control, which remain intact when the inside hook is compromised. Alternatively, Butterfly Guard offers a reset position if you can withdraw both legs and reconfigure hooks before the opponent consolidates their pass. The key is initiating the transition early rather than clinging to a collapsing X-Guard structure."
+        "answer": "Single Leg X-Guard is the highest-percentage transition because it requires only the outside leg frame and ankle control, which remain intact when the inside hook is compromised. Alternatively, Butterfly Guard offers a reset position if you can withdraw both legs and reconfigure hooks before the opponent consolidates their pass. The key is initiating the transition early rather than clinging to a collapsing X-Guard structure.",
+        "answer_line": "Single Leg X-Guard transition",
+        "distractors": {
+          "plausible": [
+            "Full Guard reset immediately",
+            "Butterfly Guard first choice"
+          ],
+          "trap": [
+            "Cling to the collapsing X-Guard"
+          ]
+        }
       }
     ],
     "training_progressions": [

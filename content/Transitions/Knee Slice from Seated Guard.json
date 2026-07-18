@@ -253,43 +253,143 @@
     "flashcards": [
       {
         "question": "What grip combination provides the most reliable control for initiating a knee slice from seated guard?",
-        "answer": "A collar grip with the lead hand combined with a same-side pants grip at the knee provides the most reliable control. The collar grip prevents the opponent from sitting up, standing, or creating distance, while the pants grip controls their primary defensive tool. This combination allows you to simultaneously restrict their mobility and create the angle necessary for the knee slice entry. Some practitioners prefer a sleeve grip, but the collar provides superior posture control against the seated base."
+        "answer": "A collar grip with the lead hand combined with a same-side pants grip at the knee provides the most reliable control. The collar grip prevents the opponent from sitting up, standing, or creating distance, while the pants grip controls their primary defensive tool. This combination allows you to simultaneously restrict their mobility and create the angle necessary for the knee slice entry. Some practitioners prefer a sleeve grip, but the collar provides superior posture control against the seated base.",
+        "answer_line": "Collar + same-side pants grip",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip + same-side pants",
+            "Collar grip + far-side pants"
+          ],
+          "trap": [
+            "Double sleeve grip control"
+          ]
+        }
       },
       {
         "question": "Why is the 45-degree knee angle critical for a successful knee slice entry?",
-        "answer": "The 45-degree angle creates a wedge effect that splits the opponent's legs apart as it drives across their thigh line. A vertical knee drive gets stuck between the legs without creating lateral separation, resulting in a stalled half guard with no passing momentum. The diagonal angle channels your forward momentum into a lateral splitting force that opens the path for your hips to follow through. This angle also positions your shin as a barrier that prevents the opponent from closing their legs around your thigh."
+        "answer": "The 45-degree angle creates a wedge effect that splits the opponent's legs apart as it drives across their thigh line. A vertical knee drive gets stuck between the legs without creating lateral separation, resulting in a stalled half guard with no passing momentum. The diagonal angle channels your forward momentum into a lateral splitting force that opens the path for your hips to follow through. This angle also positions your shin as a barrier that prevents the opponent from closing their legs around your thigh.",
+        "answer_line": "Diagonal 45° wedges legs open",
+        "distractors": {
+          "plausible": [
+            "Straight vertical knee drive",
+            "Steep 80-degree knee angle"
+          ],
+          "trap": [
+            "Full vertical knee smash"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a knee shield as you begin the knee slice - how do you adjust?",
-        "answer": "When the opponent establishes a knee shield, your primary options are to switch to a long step pass by stepping your lead leg back and around the shield, or to use the toreando pass by redirecting their legs laterally. Do not force the knee slice through the shield since this burns energy and rarely succeeds against a well-placed frame. The knee shield blocks the diagonal angle of the slice, so you must change the angle of attack entirely rather than trying to power through the frame."
+        "answer": "When the opponent establishes a knee shield, your primary options are to switch to a long step pass by stepping your lead leg back and around the shield, or to use the toreando pass by redirecting their legs laterally. Do not force the knee slice through the shield since this burns energy and rarely succeeds against a well-placed frame. The knee shield blocks the diagonal angle of the slice, so you must change the angle of attack entirely rather than trying to power through the frame.",
+        "answer_line": "Long step or toreando pass",
+        "distractors": {
+          "plausible": [
+            "Stack pass over the shield",
+            "Backstep away completely"
+          ],
+          "trap": [
+            "Force the knee through shield"
+          ]
+        }
       },
       {
         "question": "At what moment during the seated guard exchange is the knee slice most likely to succeed?",
-        "answer": "The knee slice is most effective when the opponent's weight is committed to their posted hands, typically occurring when they scoot backward, attempt to re-grip, or transition between defensive positions. During these moments, their legs are momentarily less active as defensive frames. The optimal timing window is approximately half a second when their hips are transitioning and they cannot instantly deploy knee shields or butterfly hooks. Reading these weight shifts through your grips provides the timing cues for the entry."
+        "answer": "The knee slice is most effective when the opponent's weight is committed to their posted hands, typically occurring when they scoot backward, attempt to re-grip, or transition between defensive positions. During these moments, their legs are momentarily less active as defensive frames. The optimal timing window is approximately half a second when their hips are transitioning and they cannot instantly deploy knee shields or butterfly hooks. Reading these weight shifts through your grips provides the timing cues for the entry.",
+        "answer_line": "When they scoot/re-grip hands",
+        "distractors": {
+          "plausible": [
+            "When they sit flat and square",
+            "Right after initial grip fight"
+          ],
+          "trap": [
+            "When knee shields are set"
+          ]
+        }
       },
       {
         "question": "What is the most critical upper body control to establish after the knee lands across the thigh?",
-        "answer": "The crossface is the single most critical upper body control after the knee lands. Driving your forearm or shoulder across the opponent's jaw to turn their head away prevents them from turning into you for underhook battles, which is the primary counter to the knee slice. Without the crossface, the opponent can face you, establish an underhook, and initiate sweeps or back takes from half guard. The crossface should arrive simultaneously with the knee drop as a unified motion."
+        "answer": "The crossface is the single most critical upper body control after the knee lands. Driving your forearm or shoulder across the opponent's jaw to turn their head away prevents them from turning into you for underhook battles, which is the primary counter to the knee slice. Without the crossface, the opponent can face you, establish an underhook, and initiate sweeps or back takes from half guard. The crossface should arrive simultaneously with the knee drop as a unified motion.",
+        "answer_line": "Crossface to block underhook",
+        "distractors": {
+          "plausible": [
+            "Underhook on far-side arm",
+            "Whizzer on near-side arm"
+          ],
+          "trap": [
+            "Chase the far-side collar tie"
+          ]
+        }
       },
       {
         "question": "Your knee slice gets stuck in half guard with the opponent fighting for the underhook - what is your immediate priority?",
-        "answer": "Your immediate priority is establishing or maintaining the crossface to prevent the opponent from completing the underhook. If they already have the underhook, apply a whizzer on their underhook arm while driving shoulder pressure to flatten them back to the mat. Do not try to extract your trapped leg while they have an active underhook because this exposes your back to a back take. Neutralize their upper body offense first through crossface and pressure, then work on extracting the leg through standard half guard passing mechanics."
+        "answer": "Your immediate priority is establishing or maintaining the crossface to prevent the opponent from completing the underhook. If they already have the underhook, apply a whizzer on their underhook arm while driving shoulder pressure to flatten them back to the mat. Do not try to extract your trapped leg while they have an active underhook because this exposes your back to a back take. Neutralize their upper body offense first through crossface and pressure, then work on extracting the leg through standard half guard passing mechanics.",
+        "answer_line": "Crossface, then whizzer if lost",
+        "distractors": {
+          "plausible": [
+            "Whizzer without crossface first",
+            "Flatten with shoulder pressure only"
+          ],
+          "trap": [
+            "Extract trapped leg immediately"
+          ]
+        }
       },
       {
         "question": "How does the knee slice from seated guard differ mechanically from a knee slice initiated from half guard top?",
-        "answer": "The knee slice from seated guard must first close the distance gap that the seated player maintains with posted hands and extended legs. This requires grip fighting and precise timing that the half guard knee slice does not need. From half guard, the passer is already chest-to-chest with one leg trapped, so the knee slice is a continuation of existing pressure. From seated guard, the passer must bridge open space, land the knee correctly, and establish upper body control in one fluid motion, making grip setup and entry timing far more critical to success."
+        "answer": "The knee slice from seated guard must first close the distance gap that the seated player maintains with posted hands and extended legs. This requires grip fighting and precise timing that the half guard knee slice does not need. From half guard, the passer is already chest-to-chest with one leg trapped, so the knee slice is a continuation of existing pressure. From seated guard, the passer must bridge open space, land the knee correctly, and establish upper body control in one fluid motion, making grip setup and entry timing far more critical to success.",
+        "answer_line": "Must close distance first",
+        "distractors": {
+          "plausible": [
+            "Same entry, different grips",
+            "Requires more hip pressure only"
+          ],
+          "trap": [
+            "Skip grip fighting, dive knee"
+          ]
+        }
       },
       {
         "question": "What is the primary chain attack if the knee slice from seated guard is blocked repeatedly?",
-        "answer": "The primary chain is to fake the knee slice to draw the knee shield defense, then switch to a toreando pass going the opposite direction. When the opponent commits their legs to blocking the slice angle, their lateral mobility is temporarily compromised, creating an opening for the toreando to redirect their legs to one side. Alternatively, backstep to the far side when the opponent over-commits their knee shield toward you. The three-pass chain of knee slice, toreando, and backstep covers all defensive angles from seated guard."
+        "answer": "The primary chain is to fake the knee slice to draw the knee shield defense, then switch to a toreando pass going the opposite direction. When the opponent commits their legs to blocking the slice angle, their lateral mobility is temporarily compromised, creating an opening for the toreando to redirect their legs to one side. Alternatively, backstep to the far side when the opponent over-commits their knee shield toward you. The three-pass chain of knee slice, toreando, and backstep covers all defensive angles from seated guard.",
+        "answer_line": "Fake slice, switch to toreando",
+        "distractors": {
+          "plausible": [
+            "Repeat knee slice harder",
+            "Go straight to backstep"
+          ],
+          "trap": [
+            "Force through knee shield again"
+          ]
+        }
       },
       {
         "question": "Why should you avoid attempting the knee slice when the opponent has established strong collar and sleeve grips on you?",
-        "answer": "When the opponent controls your collar and sleeve simultaneously, they can break your posture, redirect your movement, and execute sweeps as you drive forward. The knee slice requires forward weight commitment, which their grips can exploit by pulling you off-balance or channeling your momentum into a sweep. You must break at least one of their grips before initiating the slice. Entering the knee slice against double grips is one of the most common errors that leads to being swept or pulled into closed guard."
+        "answer": "When the opponent controls your collar and sleeve simultaneously, they can break your posture, redirect your movement, and execute sweeps as you drive forward. The knee slice requires forward weight commitment, which their grips can exploit by pulling you off-balance or channeling your momentum into a sweep. You must break at least one of their grips before initiating the slice. Entering the knee slice against double grips is one of the most common errors that leads to being swept or pulled into closed guard.",
+        "answer_line": "Break a grip before entering",
+        "distractors": {
+          "plausible": [
+            "Power through with speed",
+            "Switch hips and drive anyway"
+          ],
+          "trap": [
+            "Commit forward weight anyway"
+          ]
+        }
       },
       {
         "question": "What role does the trail leg play during the knee slice entry, and what happens if it is neglected?",
-        "answer": "The trail leg provides base and balance during the forward drive. It should remain posted on the mat with the foot flat, ready to adjust position as the lead knee slices forward. If neglected, the trail leg floats off the mat or gets too far behind, removing your base and making you vulnerable to being swept laterally. After the knee lands, the trail leg becomes the free leg used to backstep or windshield-wiper past the opponent's half guard retention. Proper trail leg positioning is the difference between a controlled entry and an off-balance lunge."
+        "answer": "The trail leg provides base and balance during the forward drive. It should remain posted on the mat with the foot flat, ready to adjust position as the lead knee slices forward. If neglected, the trail leg floats off the mat or gets too far behind, removing your base and making you vulnerable to being swept laterally. After the knee lands, the trail leg becomes the free leg used to backstep or windshield-wiper past the opponent's half guard retention. Proper trail leg positioning is the difference between a controlled entry and an off-balance lunge.",
+        "answer_line": "Trail leg posts for base",
+        "distractors": {
+          "plausible": [
+            "Trail leg drives forward too",
+            "Trail leg hooks their leg early"
+          ],
+          "trap": [
+            "Let trail leg float free"
+          ]
+        }
       }
     ],
     "safety_considerations": "The knee slice involves significant forward pressure on the opponent's knee and hip structures. Apply pressure gradually and maintain control throughout the technique. Avoid explosive twisting motions that could hyperextend the opponent's trapped knee, particularly when their foot is caught between your legs during the slice. Rapid angle changes during the drive can stress the medial collateral ligament. In training, drive smoothly rather than explosively, and immediately release pressure if your partner signals discomfort in their knee or hip. Be especially cautious when the opponent's leg is externally rotated during the half guard catch.",
@@ -398,19 +498,59 @@
     "flashcards": [
       {
         "question": "What is the earliest defensive action you can take to prevent a knee slice from seated guard?",
-        "answer": "The earliest defensive action is aggressive grip fighting to prevent the passer from establishing the collar-and-pants grip combination. Without these grips, the passer cannot control your posture or legs for the slice entry. Use your hands to strip their collar grip immediately when it lands, and use your feet to push on their hips to maintain distance. The grip-fighting phase is where the pass is most easily prevented because once grips are established and the knee is in motion, your defensive options narrow significantly."
+        "answer": "The earliest defensive action is aggressive grip fighting to prevent the passer from establishing the collar-and-pants grip combination. Without these grips, the passer cannot control your posture or legs for the slice entry. Use your hands to strip their collar grip immediately when it lands, and use your feet to push on their hips to maintain distance. The grip-fighting phase is where the pass is most easily prevented because once grips are established and the knee is in motion, your defensive options narrow significantly.",
+        "answer_line": "Strip grips, push hips away",
+        "distractors": {
+          "plausible": [
+            "Frame with feet on hips only",
+            "Strip grip after knee lands"
+          ],
+          "trap": [
+            "Attack leg lock instead"
+          ]
+        }
       },
       {
         "question": "Your opponent's knee has already landed across your thigh and they are driving forward - what is your highest-priority action?",
-        "answer": "Your highest priority is preventing the crossface from settling. Use your near-side forearm to frame against their neck or shoulder, turning their head away or preventing them from driving their shoulder across your jaw. Without the crossface, you can still turn into them, fight for the underhook, and initiate sweeps from half guard. If the crossface establishes before you frame, you will be flattened on your back with severely limited offensive and defensive options."
+        "answer": "Your highest priority is preventing the crossface from settling. Use your near-side forearm to frame against their neck or shoulder, turning their head away or preventing them from driving their shoulder across your jaw. Without the crossface, you can still turn into them, fight for the underhook, and initiate sweeps from half guard. If the crossface establishes before you frame, you will be flattened on your back with severely limited offensive and defensive options.",
+        "answer_line": "Frame to stop the crossface",
+        "distractors": {
+          "plausible": [
+            "Fight for underhook first",
+            "Push off their knee/leg"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Why is the underhook the most critical grip to establish when defending in half guard after a knee slice entry?",
-        "answer": "The underhook on the trapped-leg side provides the primary offensive pathway for sweeps, back takes, and guard recoveries from half guard. Without it, you are relegated to purely defensive framing while the passer methodically works through to side control. With the underhook, you threaten the old school sweep, the back take from half guard, and the dogfight position, all of which force the passer to defend rather than advance. The underhook transforms your position from survival mode to active attack mode."
+        "answer": "The underhook on the trapped-leg side provides the primary offensive pathway for sweeps, back takes, and guard recoveries from half guard. Without it, you are relegated to purely defensive framing while the passer methodically works through to side control. With the underhook, you threaten the old school sweep, the back take from half guard, and the dogfight position, all of which force the passer to defend rather than advance. The underhook transforms your position from survival mode to active attack mode.",
+        "answer_line": "Underhook fuels sweeps/back takes",
+        "distractors": {
+          "plausible": [
+            "Overhook on far arm",
+            "Underhook on far-side"
+          ],
+          "trap": [
+            "Turtle up and give back"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to attempt a technical standup against a knee slice attempt from seated guard?",
-        "answer": "The optimal timing is during the grip-fighting phase before the passer has established both collar and pants grips. Once they control your collar, the standup becomes significantly harder because they can snap you back down. The best window opens when the passer is reaching for their second grip since they are momentarily off-balance and committed to the grip fight, giving you a clean window to post and stand. Attempting the standup after the passer has committed their weight forward risks being snapped down to front headlock."
+        "answer": "The optimal timing is during the grip-fighting phase before the passer has established both collar and pants grips. Once they control your collar, the standup becomes significantly harder because they can snap you back down. The best window opens when the passer is reaching for their second grip since they are momentarily off-balance and committed to the grip fight, giving you a clean window to post and stand. Attempting the standup after the passer has committed their weight forward risks being snapped down to front headlock.",
+        "answer_line": "Before both grips are set",
+        "distractors": {
+          "plausible": [
+            "After first grip lands",
+            "When knee starts sliding"
+          ],
+          "trap": [
+            "Stand once weight commits forward"
+          ]
+        }
       }
     ],
     "training_progressions": [

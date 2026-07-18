@@ -275,41 +275,121 @@
       {
         "question": "What anatomical structure does the Americana from Reverse Scarf Hold primarily attack?",
         "answer": "The Americana primarily attacks the glenohumeral joint by forcing external rotation of the shoulder beyond its natural range of motion. The rotational stress targets the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule ligaments. Secondary stress is applied to the AC joint and the biceps tendon. The figure-four grip creates a lever system where the elbow acts as the fulcrum and the wrist arc generates the rotational force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder via external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension",
+            "Wrist flexion and pressure"
+          ],
+          "trap": [
+            "Elbow joint like an armbar"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the shoulder is approaching its breaking point during the Americana?",
         "answer": "Key indicators include the defender's body tensing significantly as the shoulder reaches end range, involuntary sounds or sharp breathing changes indicating pain response, visible resistance in the wrist arc where further rotation meets hard anatomical limitation, and the defender's shoulder beginning to lift off the mat as the joint reaches maximum external rotation. In training, you must stop well before these indicators and rely on your partner's tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder lifts off mat",
+        "distractors": {
+          "plausible": [
+            "Loud tap only, ignore body",
+            "Arm suddenly goes limp"
+          ],
+          "trap": [
+            "Push until you feel a pop"
+          ]
+        }
       },
       {
         "question": "What grip and positional control must be established before committing to the finish?",
         "answer": "Before finishing, you need four elements secured: heavy hip-to-chest pressure maintaining the pin, the near-side wrist pinned to the mat with your grip, the figure-four threaded under the upper arm with forearm contact just above the elbow crease, and the far-side arm either trapped under your body weight or neutralized against framing. Without all four, the submission attempt risks losing position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin wrist, lock fig-4, trap arm",
+        "distractors": {
+          "plausible": [
+            "Chest pressure alone is enough",
+            "Figure-4 without wrist control"
+          ],
+          "trap": [
+            "Release far arm to grip figure-4"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana from Reverse Scarf Hold can the defender no longer escape?",
         "answer": "The point of no escape occurs when the figure-four grip is fully locked with the elbow tight to the defender's body and the wrist begins its arc away from the body along the mat. Once the shoulder enters external rotation past approximately forty-five degrees with the figure-four secured and chest pressure maintained, the defender cannot generate sufficient force to reverse the grip or create enough space to extract the arm. Prior to this point, arm straightening or explosive bridging can still disrupt the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-4 locked, rotation begins",
+        "distractors": {
+          "plausible": [
+            "Once wrist first touches mat",
+            "As soon as grip is threaded"
+          ],
+          "trap": [
+            "Never — always keep fighting"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their trapped arm during your Americana attempt - what adjustment prevents escape?",
         "answer": "When the opponent straightens their arm, immediately transition from the americana grip to a kimura grip by maintaining your figure-four but reversing the rotational direction. The straight arm is actually more vulnerable to the kimura than the bent arm is to the americana. Alternatively, if they extend forcefully, use the momentum to step over their arm into an armbar position. Never fight to re-bend a straightening arm against resistance, as this wastes energy and telegraphs your intention.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to kimura grip",
+        "distractors": {
+          "plausible": [
+            "Force arm back to bend it",
+            "Abandon and reset position"
+          ],
+          "trap": [
+            "Muscle through to re-bend arm"
+          ]
+        }
       },
       {
         "question": "How should you adjust your figure-four grip if the initial placement feels loose or ineffective?",
         "answer": "If the grip feels loose, walk your elbows inward toward your own centerline to tighten the slack in the figure-four. Ensure your gripping forearm is positioned directly above the elbow crease rather than mid-forearm. Squeeze your elbows together while maintaining wrist contact on the mat. If necessary, briefly release and re-thread the grip with better placement rather than attempting to muscle through a poorly positioned figure-four, which wastes energy and alerts the defender.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk elbows in, reset forearm",
+        "distractors": {
+          "plausible": [
+            "Grip tighter with wrist only",
+            "Add body weight and push down"
+          ],
+          "trap": [
+            "Muscle through the loose grip"
+          ]
+        }
       },
       {
         "question": "What are the key safety protocols when applying the Americana from Reverse Scarf Hold in training?",
         "answer": "Apply rotational pressure slowly over three to five seconds minimum, never jerking or spiking. Use ten to twenty percent pressure maximum in drilling. Release immediately upon any tap signal including verbal, hand tap, foot tap, or distress vocalization. After release, carefully lower the arm to neutral position rather than dropping it. Never apply repeated submissions to the same shoulder in one session. Stop at any sign of discomfort without waiting for a formal tap during cooperative drilling.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, release on tap",
+        "distractors": {
+          "plausible": [
+            "Fast pressure, ask if it hurts",
+            "Full pressure, stop if screamed"
+          ],
+          "trap": [
+            "Jerk quickly to save time"
+          ]
+        }
       },
       {
         "question": "How do you adapt the finishing strategy when competing versus training with a partner?",
-        "answer": "In competition, you apply progressive pressure more decisively once the grip is locked, committing fully to the finish and being prepared to transition immediately if the opponent defends. In training, you deliberately throttle pressure to ten to twenty percent, give your partner clear space to tap, and release the moment you feel the submission is locked rather than completing the arc. The mechanical setup is identical, but competition allows full commitment to the finish while training requires constant awareness of your partner's safety and comfort level."
+        "answer": "In competition, you apply progressive pressure more decisively once the grip is locked, committing fully to the finish and being prepared to transition immediately if the opponent defends. In training, you deliberately throttle pressure to ten to twenty percent, give your partner clear space to tap, and release the moment you feel the submission is locked rather than completing the arc. The mechanical setup is identical, but competition allows full commitment to the finish while training requires constant awareness of your partner's safety and comfort level.",
+        "answer_line": "Full send comp, throttle training",
+        "distractors": {
+          "plausible": [
+            "Same pressure both contexts",
+            "Go easier in competition too"
+          ],
+          "trap": [
+            "Full pressure every partner rep"
+          ]
+        }
       }
     ],
     "clips": [
@@ -423,27 +503,77 @@
       {
         "question": "How do you recognize that the Americana from Reverse Scarf Hold is being set up?",
         "answer": "The primary recognition cue is the attacker releasing their far-side control to reach for your near-side wrist while maintaining chest pressure. You will feel them attempting to drive your wrist toward the mat near your hip. The transition from positional control to submission attempt creates a brief moment where their base shifts, which is both the warning sign and your best escape window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far-side release, wrist grab",
+        "distractors": {
+          "plausible": [
+            "Sudden hip escape attempt",
+            "Increase in chest pressure only"
+          ],
+          "trap": [
+            "Ignore it, wrist grabs are safe"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Americana from Reverse Scarf Hold?",
         "answer": "Tap immediately when you feel rotational pressure approaching your shoulder's comfortable range of motion. Use your free hand to tap clearly on the attacker's body or the mat at least twice. If your free hand is trapped, tap with your feet on the mat or verbalize 'tap' loudly. Never attempt to tough out an americana that is locked in because shoulder injuries from this submission can be career-ending and require months of recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand or feet, or shout",
+        "distractors": {
+          "plausible": [
+            "Wait until pain is unbearable",
+            "Try to power out first"
+          ],
+          "trap": [
+            "Tough it out, it will pass"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Americana from Reverse Scarf Hold?",
         "answer": "The primary defense is prevention by keeping your near-side elbow tight to your ribs with your hand near the opposite shoulder. If the attacker grabs your wrist, straighten the arm forcefully before the figure-four locks. If the figure-four is being threaded, grab your own belt or shorts to create an anchor. If the grip is fully locked, bridge toward the attacker's head during a pressure transition and hip escape to recover guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbow tight, grab own belt",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively right away",
+            "Pull elbow away from body"
+          ],
+          "trap": [
+            "Let go and try to sit up"
+          ]
+        }
       },
       {
         "question": "Why is early prevention more important than late-stage escape against this submission?",
         "answer": "Once the figure-four grip is fully locked with the attacker's elbows squeezed tight and chest pressure maintained, the mechanical advantage is overwhelmingly in the attacker's favor. Breaking a locked figure-four under reverse scarf hold pressure requires explosive strength that is rarely available when your breathing is already compromised. Defending during the wrist control phase before the figure-four forms requires far less energy and has a much higher success rate.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locked grip is nearly unbreakable",
+        "distractors": {
+          "plausible": [
+            "Escapes work fine at any stage",
+            "Explosive strength beats it late"
+          ],
+          "trap": [
+            "Save your energy, escape later"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel sharp shoulder pain before you have a chance to tap?",
         "answer": "Verbalize immediately by shouting 'tap' or any distress signal. Simultaneously tap with any available limb, feet included. Your training partner should recognize any vocalization as a tap signal. After release, do not immediately resume training. Assess the shoulder for range of motion limitations or persistent pain. If pain continues beyond a few minutes or range of motion is reduced, seek medical evaluation before returning to training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shout tap, use any limb",
+        "distractors": {
+          "plausible": [
+            "Stay silent, tap when free",
+            "Push through the sharp pain"
+          ],
+          "trap": [
+            "Wait for partner to notice"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -240,27 +240,87 @@
     "flashcards": [
       {
         "question": "Your opponent initiates a strong whip-up and you feel your weight shifting laterally - what is your immediate first response?",
-        "answer": "Immediately widen your base by sprawling your free leg out to the side opposite the sweep direction and lower your hips toward the mat. This creates a wider platform that resists the rotational force of the whip-up. Simultaneously drive your shoulder into their chest to limit their hip driving ability. The instinct to post your hand should be overridden by the base widening response, as a hand post near their hip creates a lever point they can exploit for the Old School sweep."
+        "answer": "Immediately widen your base by sprawling your free leg out to the side opposite the sweep direction and lower your hips toward the mat. This creates a wider platform that resists the rotational force of the whip-up. Simultaneously drive your shoulder into their chest to limit their hip driving ability. The instinct to post your hand should be overridden by the base widening response, as a hand post near their hip creates a lever point they can exploit for the Old School sweep.",
+        "answer_line": "Widen base, sprawl, drop hips",
+        "distractors": {
+          "plausible": [
+            "Post hand near their hip",
+            "Sit through to face them"
+          ],
+          "trap": [
+            "Turn away to escape the roll"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt to clear the lockdown?",
-        "answer": "You should only begin active lockdown clearing once you have established a stable wide base and neutralized the bottom player's upper body control through a whizzer or crossface. Attempting to clear the lockdown while your base is narrow or while they have an active underhook creates space and opportunities for them to complete the sweep or advance to the Electric Chair. The lockdown clearing is the final phase of the defensive sequence, not the first response."
+        "answer": "You should only begin active lockdown clearing once you have established a stable wide base and neutralized the bottom player's upper body control through a whizzer or crossface. Attempting to clear the lockdown while your base is narrow or while they have an active underhook creates space and opportunities for them to complete the sweep or advance to the Electric Chair. The lockdown clearing is the final phase of the defensive sequence, not the first response.",
+        "answer_line": "Base + crossface before clearing",
+        "distractors": {
+          "plausible": [
+            "Clear lockdown right away",
+            "Clear once base is wide"
+          ],
+          "trap": [
+            "Clear lockdown while underhooked"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between defending an Old School sweep versus a rolling back take from the Vaporizer?",
-        "answer": "The Old School sweep operates on a lateral rolling plane where the bottom player uses their posted foot and underhook to roll you sideways. Defense requires widening base in the opposite direction of the roll. The rolling back take operates on a rotational plane where they attempt to rotate your body to expose your back for Truck entry. Defense requires turning your hips toward them rather than allowing rotation away. Misidentifying the attack and applying the wrong defense can accelerate the technique rather than stopping it."
+        "answer": "The Old School sweep operates on a lateral rolling plane where the bottom player uses their posted foot and underhook to roll you sideways. Defense requires widening base in the opposite direction of the roll. The rolling back take operates on a rotational plane where they attempt to rotate your body to expose your back for Truck entry. Defense requires turning your hips toward them rather than allowing rotation away. Misidentifying the attack and applying the wrong defense can accelerate the technique rather than stopping it.",
+        "answer_line": "Widen base vs roll, turn in vs spin",
+        "distractors": {
+          "plausible": [
+            "Widen base for both attacks",
+            "Turn hips for both attacks"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       },
       {
         "question": "Why should you avoid explosive movements when clearing the lockdown from the Vaporizer?",
-        "answer": "Explosive extraction attempts trigger a reflexive tightening response in the bottom player's lockdown, making the entanglement harder to escape. The rapid movement also creates momentary space between your bodies that the bottom player uses to adjust grips, re-angle hips, or transition to a different attack. Controlled circulation movements work incrementally to loosen the configuration without creating these defensive openings. Energy expenditure from explosive attempts also accelerates fatigue while the lockdown requires minimal energy to maintain."
+        "answer": "Explosive extraction attempts trigger a reflexive tightening response in the bottom player's lockdown, making the entanglement harder to escape. The rapid movement also creates momentary space between your bodies that the bottom player uses to adjust grips, re-angle hips, or transition to a different attack. Controlled circulation movements work incrementally to loosen the configuration without creating these defensive openings. Energy expenditure from explosive attempts also accelerates fatigue while the lockdown requires minimal energy to maintain.",
+        "answer_line": "Circulate slowly, don't yank",
+        "distractors": {
+          "plausible": [
+            "Explode out before it tightens",
+            "Match tempo with quick jerks"
+          ],
+          "trap": [
+            "Rip free with a hard yank"
+          ]
+        }
       },
       {
         "question": "Your opponent's lockdown is very tight and you cannot make progress clearing it - what alternative approach should you consider?",
-        "answer": "If the lockdown cannot be cleared through circulation, shift focus to neutralizing their upper body control completely. By establishing dominant crossface pressure and eliminating their underhook, you remove their ability to generate meaningful sweep threats even with the lockdown intact. This buys time to work the lockdown from a safer position. Alternatively, consider pointing the knee to mat and walking your free foot to create a passing angle that works around the lockdown rather than through it."
+        "answer": "If the lockdown cannot be cleared through circulation, shift focus to neutralizing their upper body control completely. By establishing dominant crossface pressure and eliminating their underhook, you remove their ability to generate meaningful sweep threats even with the lockdown intact. This buys time to work the lockdown from a safer position. Alternatively, consider pointing the knee to mat and walking your free foot to create a passing angle that works around the lockdown rather than through it.",
+        "answer_line": "Kill upper body control instead",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the lockdown harder",
+            "Wait passively for them to tire"
+          ],
+          "trap": [
+            "Abandon crossface to free hands"
+          ]
+        }
       },
       {
         "question": "How should your grip strategy change when you feel the bottom player transitioning from an Old School sweep to an Electric Chair attempt?",
-        "answer": "When the bottom player transitions to Electric Chair, they need to release the lockdown partially and control your far leg for the split. Your grip priority shifts from whizzer defense against the underhook to actively squeezing your knees together and blocking access to your far leg. Use your hands to control their wrist or forearm reaching for your far leg. Keep hips low and legs tight rather than maintaining the wide base for Old School defense, as the wide base actually facilitates the Electric Chair leg separation."
+        "answer": "When the bottom player transitions to Electric Chair, they need to release the lockdown partially and control your far leg for the split. Your grip priority shifts from whizzer defense against the underhook to actively squeezing your knees together and blocking access to your far leg. Use your hands to control their wrist or forearm reaching for your far leg. Keep hips low and legs tight rather than maintaining the wide base for Old School defense, as the wide base actually facilitates the Electric Chair leg separation.",
+        "answer_line": "Squeeze knees, block far leg",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for the whizzer",
+            "Widen base like Old School"
+          ],
+          "trap": [
+            "Post wide and lower hips"
+          ]
+        }
       }
     ],
     "safety_considerations": "When defending Vaporizer sweeps, be mindful of medial collateral ligament stress on the trapped knee during lockdown clearing. Avoid explosive twisting motions that can strain knee ligaments. If you feel sharp pain in the trapped knee during extraction attempts, stop immediately and tap. During training, communicate with partners about lockdown tightness and agree on resistance levels before drilling. The lockdown can apply significant force to the knee joint, particularly when combined with rotation during sweep defense.",
@@ -378,15 +438,45 @@
     "flashcards": [
       {
         "question": "The top player widens their base and lowers their hips to defend your Old School sweep - what attack does this defensive reaction expose?",
-        "answer": "The wide base with lowered hips directly exposes the top player to the Electric Chair submission and sweep. When their knees are spread apart for lateral stability, their far leg becomes accessible for capture. Release the lockdown deliberately, secure their far leg, and drive your hips upward to split their legs. Their wide defensive stance, which protects against the lateral sweep, becomes a liability against the vertical leg split of the Electric Chair."
+        "answer": "The wide base with lowered hips directly exposes the top player to the Electric Chair submission and sweep. When their knees are spread apart for lateral stability, their far leg becomes accessible for capture. Release the lockdown deliberately, secure their far leg, and drive your hips upward to split their legs. Their wide defensive stance, which protects against the lateral sweep, becomes a liability against the vertical leg split of the Electric Chair.",
+        "answer_line": "Electric Chair leg split",
+        "distractors": {
+          "plausible": [
+            "Truck back take",
+            "Kimura from lockdown"
+          ],
+          "trap": [
+            "Old School sweep again"
+          ]
+        }
       },
       {
         "question": "How should you adjust your attack strategy when you feel the top player beginning to clear your lockdown?",
-        "answer": "When you detect lockdown clearing through leg circulation or knee positioning changes, immediately escalate offensive urgency. Either tighten the lockdown by squeezing your legs together and extending their leg further, or commit to an immediate sweep attempt before the lockdown degrades to the point where it no longer provides leverage. A partially cleared lockdown still provides enough control for one committed sweep attempt, but waiting longer eliminates remaining offensive options entirely."
+        "answer": "When you detect lockdown clearing through leg circulation or knee positioning changes, immediately escalate offensive urgency. Either tighten the lockdown by squeezing your legs together and extending their leg further, or commit to an immediate sweep attempt before the lockdown degrades to the point where it no longer provides leverage. A partially cleared lockdown still provides enough control for one committed sweep attempt, but waiting longer eliminates remaining offensive options entirely.",
+        "answer_line": "Tighten or commit to sweep now",
+        "distractors": {
+          "plausible": [
+            "Wait for a cleaner opening",
+            "Reset lockdown from scratch"
+          ],
+          "trap": [
+            "Let go and reset guard"
+          ]
+        }
       },
       {
         "question": "Why is chaining attacks more effective than committing fully to a single sweep from the Vaporizer?",
-        "answer": "A committed single sweep can be identified and defended with focused attention. By chaining attacks, you force the top player to defend in multiple directions, and each defensive commitment opens the complementary attack. Defending the Old School sweep requires widening base laterally, which opens the Electric Chair. Defending the Electric Chair requires squeezing knees together, which enables the lateral Old School sweep. This creates an unsolvable dilemma where defending one threat guarantees vulnerability to another."
+        "answer": "A committed single sweep can be identified and defended with focused attention. By chaining attacks, you force the top player to defend in multiple directions, and each defensive commitment opens the complementary attack. Defending the Old School sweep requires widening base laterally, which opens the Electric Chair. Defending the Electric Chair requires squeezing knees together, which enables the lateral Old School sweep. This creates an unsolvable dilemma where defending one threat guarantees vulnerability to another.",
+        "answer_line": "Each defense opens the other attack",
+        "distractors": {
+          "plausible": [
+            "One sweep drilled to perfection",
+            "Speed beats chaining attacks"
+          ],
+          "trap": [
+            "Commit fully to one sweep"
+          ]
+        }
       }
     ],
     "training_progressions": [

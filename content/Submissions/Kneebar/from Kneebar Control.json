@@ -288,42 +288,122 @@
       {
         "question": "What anatomical structures does the kneebar primarily attack?",
         "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. Secondary structures at risk include the medial collateral ligament (MCL), the joint capsule, and potentially the meniscus. The mechanism creates a straight-line lever against the knee's natural flexion range, distinguishing it from rotational attacks like heel hooks that target different ligament groups.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "PCL via knee hyperextension",
+        "distractors": {
+          "plausible": [
+            "ACL via knee hyperextension",
+            "MCL is the primary target"
+          ],
+          "trap": [
+            "Rotational attack like heel hook"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a strong bent-knee defense and you cannot break their posture after 10 seconds - what adjustment prevents stalemate?",
         "answer": "After 10 seconds of unsuccessful posture breaking, transition to an alternate attack rather than forcing the kneebar. Redirect your grip toward the foot for a toe hold, which attacks a different joint and forces the opponent to change their defensive posture. Alternatively, use the kneebar threat to create a reaction that opens pathways to heel hook by adjusting leg entanglement. Continuing to force against a locked defense wastes energy and reduces subsequent attack effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to toe hold attack",
+        "distractors": {
+          "plausible": [
+            "Increase pulling pressure",
+            "Transition directly to heel hook"
+          ],
+          "trap": [
+            "Keep grinding for the finish"
+          ]
+        }
       },
       {
         "question": "What control requirements must be established before committing to the kneebar finish?",
         "answer": "Before committing to the finish, you must have: tight arm control around the lower leg near the ankle with elbows squeezed together, hips positioned directly against the back of the opponent's knee with no gap, at least one leg entangling the opponent's body to prevent hip rotation, and the opponent's defensive posture at least partially compromised through initial pulling pressure. Attempting the finish without these prerequisites results in low-percentage attacks that waste positional advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Full arm, hip, and leg control",
+        "distractors": {
+          "plausible": [
+            "Just arm control is enough",
+            "Break posture fully, then control"
+          ],
+          "trap": [
+            "Commit to finish immediately"
+          ]
+        }
       },
       {
         "question": "At what point during the kneebar extension does the opponent reach the point of no escape?",
         "answer": "The point of no escape occurs when the opponent's leg has been straightened past approximately 160 degrees of extension while the attacker maintains tight hip connection and arm control. Once the leg passes this threshold with hips driving forward, the opponent cannot generate enough hamstring force to re-bend the knee against the attacker's full-body leverage. Before this point, defensive options remain viable. After this point, the tap becomes inevitable and the attacker must apply pressure slowly to allow time for the tap signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Past ~160 degrees with hip pressure",
+        "distractors": {
+          "plausible": [
+            "At full 180 degree extension",
+            "Once arm grip is secured"
+          ],
+          "trap": [
+            "Apply fast pressure at that point"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip configuration if the opponent begins rotating their foot during the finish?",
         "answer": "When the opponent rotates their foot, tighten elbow squeeze to prevent further rotation and adjust your grip to track the movement. If the foot rotates inward (toward your body), maintain kneebar angle by following with slight hip adjustment. If the foot rotates outward, this may expose the heel—consider transitioning to heel hook if the rotation is significant. The key is preventing the rotation from converting your hyperextension angle into a less threatening rotational angle where the knee joint has more tolerance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten elbows, track rotation",
+        "distractors": {
+          "plausible": [
+            "Let foot rotate freely",
+            "Immediately switch to heel hook"
+          ],
+          "trap": [
+            "Loosen grip to reposition"
+          ]
+        }
       },
       {
         "question": "What are the most dangerous finishing errors that could injure a training partner?",
         "answer": "The most dangerous errors are: jerking or spiking the extension rather than applying progressive pressure, continuing to apply pressure after receiving a tap signal, using competition-speed finishing in training, and failing to recognize that the submission is locked before full extension. The knee joint can sustain permanent damage in under one second of uncontrolled hyperextension. Always apply pressure over a minimum 3-5 second window in training and release immediately upon any tap, verbal signal, or distress vocalization.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Jerking or ignoring the tap",
+        "distractors": {
+          "plausible": [
+            "Slow pressure without check-ins",
+            "Extending past 150 degrees"
+          ],
+          "trap": [
+            "Finish fast like in competition"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially extracted their leg and your grip is slipping - what is the highest-percentage response?",
         "answer": "When grip is slipping during extraction, do not chase the leg with arm strength alone—this leads to a losing grip battle. Instead, immediately redirect to the closest available submission: if the ankle is exposed, transition to straight ankle lock by adjusting grip to the foot. If the opponent is pulling backward, use their momentum to enter 50-50 position which resets the leg entanglement. If extraction is nearly complete, let go cleanly and immediately re-establish guard to prevent the opponent from capitalizing on your compromised position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Redirect to nearest submission",
+        "distractors": {
+          "plausible": [
+            "Chase leg with arm strength",
+            "Hold on and reset grip"
+          ],
+          "trap": [
+            "Grip harder and pull back"
+          ]
+        }
       },
       {
         "question": "How does competition strategy differ when finishing the kneebar under IBJJF versus ADCC rulesets?",
         "answer": "Under IBJJF rules, kneebars are only legal at brown and black belt levels, and the attacker must be aware that reaping penalties can result from certain leg entanglement configurations during the finish. Under ADCC rules, kneebars are legal at all levels with fewer positional restrictions, allowing more aggressive entanglement and finishing angles. In IBJJF competition, maintain clean leg positioning to avoid disqualification. In ADCC, use the broader ruleset to incorporate inside and outside reaping positions that increase finishing leverage but would be penalized under IBJJF.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "IBJJF limits reaping, ADCC allows it",
+        "distractors": {
+          "plausible": [
+            "Kneebars banned in IBJJF",
+            "Same rules in both formats"
+          ],
+          "trap": [
+            "Use max reaping in IBJJF too"
+          ]
+        }
       }
     ],
     "clips": [
@@ -433,27 +513,77 @@
       {
         "question": "How do you recognize that a kneebar from kneebar control is being set up against you?",
         "answer": "Key recognition cues include the opponent wrapping both arms around your lower leg near the ankle with elbows squeezed tight, feeling their hips driving into contact with the back of your knee joint, and sensing their legs tightening around your body to restrict hip rotation. The earlier you recognize these cues, the more defensive options remain available. Once the grip is consolidated and hip pressure established, defensive difficulty increases dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm wrap, hip pressure on knee",
+        "distractors": {
+          "plausible": [
+            "Feel grip on your ankle only",
+            "Notice legs tightening first"
+          ],
+          "trap": [
+            "Wait for full extension to react"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to a kneebar to prevent knee injury?",
         "answer": "Tap immediately using any available signal: verbal tap by clearly saying 'tap,' physical hand tap on the opponent's body or mat, foot tap if hands are trapped, or any clear vocalization of distress. Tap before you feel sharp pain in the knee—the sensation of increasing pressure near your tolerance threshold should trigger the tap, not acute pain. The knee joint can sustain permanent damage within fractions of a second once the hyperextension threshold is breached. Never try to 'tough it out' against a locked kneebar in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, before sharp pain",
+        "distractors": {
+          "plausible": [
+            "Tap only after pain hits",
+            "Verbally tap only if hands trapped"
+          ],
+          "trap": [
+            "Try to tough it out briefly"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the kneebar from kneebar control at different stages?",
         "answer": "Early defense (before grip consolidation): fight grips, prevent arm wrap, kick leg free. Mid-stage defense (grip established but posture intact): maintain strong bent-knee position, rotate hips toward attacker to disrupt angle, use free leg to push and create distance. Late-stage defense (posture breaking): explosive extraction attempt if grip loosens, or immediate tap if leg begins straightening under force. The later the stage, the fewer options remain and the more critical timely tapping becomes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Fight grips, posture, then escape",
+        "distractors": {
+          "plausible": [
+            "Rotate hips only, skip grip fight",
+            "Extract explosively from the start"
+          ],
+          "trap": [
+            "Wait passively for opponent error"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a bent-knee position the most critical first line of defense against the kneebar?",
         "answer": "A bent knee physically cannot be hyperextended because the hamstring contraction prevents the joint from reaching the range of motion where ligament damage occurs. As long as the knee remains significantly bent (below approximately 150 degrees of extension), the kneebar lacks sufficient leverage to create a submission threat regardless of how strong the attacker's hip drive is. This defense buys time for escape attempts and forces the attacker to invest energy in breaking your posture.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bent knee blocks hyperextension",
+        "distractors": {
+          "plausible": [
+            "Strength alone stops the lock",
+            "Rotating hips is the key factor"
+          ],
+          "trap": [
+            "Straighten leg to create space"
+          ]
+        }
       },
       {
         "question": "Your attacker is applying rhythmic hip pulses to break your bent-knee defense - how should you respond?",
         "answer": "Counter rhythmic hip pulses by timing your hip rotation with their pulses—as they drive forward, rotate your hips toward them to redirect the force away from direct hyperextension. Simultaneously, use your free leg to push against their hip during each pulse to create incremental separation. If their pulses are weakening your defense over time, prioritize immediate escape attempts during the brief relaxation phase between pulses rather than waiting until your hamstring endurance fails completely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Time hip rotation to their pulses",
+        "distractors": {
+          "plausible": [
+            "Push back constantly, no timing",
+            "Wait until hamstrings fully fail"
+          ],
+          "trap": [
+            "Match their pulse rhythm passively"
+          ]
+        }
       }
     ],
     "training_progressions": [

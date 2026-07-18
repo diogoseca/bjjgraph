@@ -255,15 +255,45 @@
     "flashcards": [
       {
         "question": "Why must the lockdown be established before attempting the underhook?",
-        "answer": "The lockdown immobilizes the top player's trapped leg and removes their primary base on that side, which is the mechanical prerequisite for successful underhook entry. Without lockdown, the top player retains full mobility to sprawl, drive crossface, or hip away when the underhook is attempted. The lockdown pumps also create the forward weight shifts that open windows for threading the underhook. Attempting the underhook first against a fully based opponent results in easy defensive counters."
+        "answer": "The lockdown immobilizes the top player's trapped leg and removes their primary base on that side, which is the mechanical prerequisite for successful underhook entry. Without lockdown, the top player retains full mobility to sprawl, drive crossface, or hip away when the underhook is attempted. The lockdown pumps also create the forward weight shifts that open windows for threading the underhook. Attempting the underhook first against a fully based opponent results in easy defensive counters.",
+        "answer_line": "Lockdown removes their base first",
+        "distractors": {
+          "plausible": [
+            "Underhook first, lockdown after",
+            "Head control before lockdown"
+          ],
+          "trap": [
+            "Attack underhook against full base"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a deep whizzer as you attempt the underhook - how do you adjust?",
-        "answer": "Maintain the lockdown and assess the depth of their whizzer. If the whizzer is shallow, continue pumping and re-attempt the underhook during the next forward weight shift by driving your shoulder deeper under their armpit. If the whizzer is deep and well-established, abandon the underhook attempt and transition to Deep Half Guard entry by diving under their hips using the lockdown extension as your entry mechanism. Fighting a losing underhook battle against a deep whizzer wastes energy and flattens you."
+        "answer": "Maintain the lockdown and assess the depth of their whizzer. If the whizzer is shallow, continue pumping and re-attempt the underhook during the next forward weight shift by driving your shoulder deeper under their armpit. If the whizzer is deep and well-established, abandon the underhook attempt and transition to Deep Half Guard entry by diving under their hips using the lockdown extension as your entry mechanism. Fighting a losing underhook battle against a deep whizzer wastes energy and flattens you.",
+        "answer_line": "Deep whizzer: switch to deep half",
+        "distractors": {
+          "plausible": [
+            "Continue pumping, retry underhook",
+            "Abandon lockdown and reset guard"
+          ],
+          "trap": [
+            "Fight through the deep whizzer"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip position during this transition and why?",
-        "answer": "You must be on your side angled toward the underhook direction throughout the entire transition. This side angle creates the geometric alignment necessary for both the underhook thread and the subsequent sweeping leverage. Being flat on your back eliminates all mechanical advantage because the underhook has no sweeping power without hip angle, the lockdown pumps lose their directional disruption, and the top player can apply chest-to-chest smashing pressure that kills all offensive options."
+        "answer": "You must be on your side angled toward the underhook direction throughout the entire transition. This side angle creates the geometric alignment necessary for both the underhook thread and the subsequent sweeping leverage. Being flat on your back eliminates all mechanical advantage because the underhook has no sweeping power without hip angle, the lockdown pumps lose their directional disruption, and the top player can apply chest-to-chest smashing pressure that kills all offensive options.",
+        "answer_line": "Stay on your side, angled in",
+        "distractors": {
+          "plausible": [
+            "Stay flat but frame heavily",
+            "Angle away from the underhook"
+          ],
+          "trap": [
+            "Flatten out to relieve pressure"
+          ]
+        }
       },
       {
         "question": "What are the three controls that define complete Old School position and in what order should they be established?",
@@ -271,23 +301,73 @@
       },
       {
         "question": "How do you use lockdown pumps to create the window for the underhook entry?",
-        "answer": "Lockdown pumps are rhythmic extensions of your legs that pull the top player's hips forward, disrupting their weight distribution and forcing them to post their hands for balance. During the forward weight shift, the top player's near-side arm lifts off your body to catch their balance, creating a brief window to thread your arm underneath their armpit. Vary the pump rhythm between short sharp jolts and longer extensions to prevent the top player from timing their defensive adjustments to your pumping pattern."
+        "answer": "Lockdown pumps are rhythmic extensions of your legs that pull the top player's hips forward, disrupting their weight distribution and forcing them to post their hands for balance. During the forward weight shift, the top player's near-side arm lifts off your body to catch their balance, creating a brief window to thread your arm underneath their armpit. Vary the pump rhythm between short sharp jolts and longer extensions to prevent the top player from timing their defensive adjustments to your pumping pattern.",
+        "answer_line": "Thread underhook as they post",
+        "distractors": {
+          "plausible": [
+            "Pump steadily, ignore timing",
+            "Wait for the whizzer to loosen"
+          ],
+          "trap": [
+            "Pump in one predictable rhythm"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure to flatten you before you secure the underhook - what is your response sequence?",
-        "answer": "First, frame against the crossface shoulder with your far arm to prevent being completely flattened. Simultaneously, increase lockdown extension to maintain hip angle and create space to stay on your side. If the crossface is overwhelming, accept the temporary setback by recovering to Knee Shield Half Guard for distance management, then re-establish lockdown when the pressure lightens. Never fight for the underhook while flat on your back, as this guarantees failure and accelerates the top player's pass."
+        "answer": "First, frame against the crossface shoulder with your far arm to prevent being completely flattened. Simultaneously, increase lockdown extension to maintain hip angle and create space to stay on your side. If the crossface is overwhelming, accept the temporary setback by recovering to Knee Shield Half Guard for distance management, then re-establish lockdown when the pressure lightens. Never fight for the underhook while flat on your back, as this guarantees failure and accelerates the top player's pass.",
+        "answer_line": "Frame crossface, keep hip angle",
+        "distractors": {
+          "plausible": [
+            "Push hips flat, power through it",
+            "Grip fight the crossface hand"
+          ],
+          "trap": [
+            "Fight for underhook while flattened"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating this transition during a scramble or guard recovery?",
-        "answer": "The best timing window is immediately after recovering half guard when the top player is still settling their weight and establishing control. During this transitional moment, they have not yet secured crossface or whizzer, making lockdown and underhook establishment significantly easier. The second-best window is when the top player shifts their weight to attempt a pass, momentarily lifting pressure off your upper body. Attempting the transition against a fully settled, pressure-heavy top player has the lowest success rate."
+        "answer": "The best timing window is immediately after recovering half guard when the top player is still settling their weight and establishing control. During this transitional moment, they have not yet secured crossface or whizzer, making lockdown and underhook establishment significantly easier. The second-best window is when the top player shifts their weight to attempt a pass, momentarily lifting pressure off your upper body. Attempting the transition against a fully settled, pressure-heavy top player has the lowest success rate.",
+        "answer_line": "Right after recovering half guard",
+        "distractors": {
+          "plausible": [
+            "When they secure crossface control",
+            "During their strongest base"
+          ],
+          "trap": [
+            "Wait until they fully settle in"
+          ]
+        }
       },
       {
         "question": "How does the depth of your underhook affect the subsequent Old School Sweep?",
-        "answer": "A deep underhook where your hand reaches the opponent's far shoulder or high back creates maximum rotational leverage for the sweep. Your shoulder acts as a fulcrum directly under their center of gravity, and the deeper the hook, the more mechanical advantage you have to rotate them over. A shallow underhook with the hand barely past their armpit provides insufficient leverage, and the top player can easily strip it with a whizzer or limp arm escape. The depth of the underhook directly determines sweep success probability."
+        "answer": "A deep underhook where your hand reaches the opponent's far shoulder or high back creates maximum rotational leverage for the sweep. Your shoulder acts as a fulcrum directly under their center of gravity, and the deeper the hook, the more mechanical advantage you have to rotate them over. A shallow underhook with the hand barely past their armpit provides insufficient leverage, and the top player can easily strip it with a whizzer or limp arm escape. The depth of the underhook directly determines sweep success probability.",
+        "answer_line": "Deep hook to their far shoulder",
+        "distractors": {
+          "plausible": [
+            "Shallow hook near the armpit",
+            "Grip their belt for leverage"
+          ],
+          "trap": [
+            "Settle for a shallow underhook"
+          ]
+        }
       },
       {
         "question": "What body mechanics generate the most effective lockdown pump for disrupting top player's base?",
-        "answer": "The pump power comes from extending your hips and legs simultaneously in a coordinated motion. Your bottom foot hooks their ankle and pulls it toward you while your knees drive away, creating a stretching force on their trapped leg that pulls their hips forward. The motion should originate from your core and hips, not just your calves or feet. Synchronize the pump with a slight hip escape in the opposite direction to maximize the disruption and create the underhook opening angle."
+        "answer": "The pump power comes from extending your hips and legs simultaneously in a coordinated motion. Your bottom foot hooks their ankle and pulls it toward you while your knees drive away, creating a stretching force on their trapped leg that pulls their hips forward. The motion should originate from your core and hips, not just your calves or feet. Synchronize the pump with a slight hip escape in the opposite direction to maximize the disruption and create the underhook opening angle.",
+        "answer_line": "Extend hips and legs together",
+        "distractors": {
+          "plausible": [
+            "Push only with your calves",
+            "Kick straight out with your feet"
+          ],
+          "trap": [
+            "Yank the ankle with your hands"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to Old School is generally low-risk as it involves positional control establishment rather than joint manipulation or choking mechanics. However, the lockdown figure-four can create uncomfortable pressure on training partners' knees and ankles if applied with excessive force. Always establish the lockdown with controlled extension rather than explosive jerking motions. During drilling, communicate with your partner about lockdown tightness and pump intensity. Practitioners with knee injuries should be cautious about having the lockdown applied to their trapped leg. Tap if you feel sharp knee or ankle pain when caught in a lockdown during training.",
@@ -405,23 +485,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Transition to Old School is being initiated?",
-        "answer": "The earliest cue is feeling the bottom player's foot hook behind your trapped ankle and their legs beginning to triangle into the figure-four lockdown configuration. This is the foundational control of the entire Old School system, and recognizing it immediately gives you the maximum defensive window. Before they can pump, thread an underhook, or establish head control, you should already be deploying your whizzer, crossface, and wide base posting."
+        "answer": "The earliest cue is feeling the bottom player's foot hook behind your trapped ankle and their legs beginning to triangle into the figure-four lockdown configuration. This is the foundational control of the entire Old School system, and recognizing it immediately gives you the maximum defensive window. Before they can pump, thread an underhook, or establish head control, you should already be deploying your whizzer, crossface, and wide base posting.",
+        "answer_line": "Foot hooks your trapped ankle",
+        "distractors": {
+          "plausible": [
+            "Feel hip pressure shift first",
+            "Sense their weight settle in"
+          ],
+          "trap": [
+            "Wait until whizzer is deep"
+          ]
+        }
       },
       {
         "question": "Why is it counterproductive to explosively pull your trapped leg out of the lockdown?",
-        "answer": "The lockdown is mechanically designed to exploit exactly this reaction. When you explosively extend or pull your leg, you create the hip extension and forward weight shift that the bottom player needs to execute the Old School Sweep or Electric Chair transition. The explosive motion also momentarily compromises your base and upper body control, creating windows for the underhook. Instead, free the leg through gradual ankle manipulation and hip pressure changes while maintaining upper body defensive structure."
+        "answer": "The lockdown is mechanically designed to exploit exactly this reaction. When you explosively extend or pull your leg, you create the hip extension and forward weight shift that the bottom player needs to execute the Old School Sweep or Electric Chair transition. The explosive motion also momentarily compromises your base and upper body control, creating windows for the underhook. Instead, free the leg through gradual ankle manipulation and hip pressure changes while maintaining upper body defensive structure.",
+        "answer_line": "It feeds the sweep's setup",
+        "distractors": {
+          "plausible": [
+            "It only tires your leg out",
+            "It signals you're panicking"
+          ],
+          "trap": [
+            "Explosively rip the leg free"
+          ]
+        }
       },
       {
         "question": "What defensive structure should you establish immediately upon recognizing the lockdown?",
-        "answer": "Deploy three simultaneous defensive measures: 1) Thread a deep whizzer under the bottom player's near-side arm to prevent underhook establishment, 2) Drive heavy crossface pressure with your opposite shoulder into their jaw to turn their head and prevent them from turning to their side, 3) Post your free leg wide with knee angled out for maximum base stability against pump-induced weight shifts. This three-point defense must be established within 2-3 seconds of lockdown recognition."
+        "answer": "Deploy three simultaneous defensive measures: 1) Thread a deep whizzer under the bottom player's near-side arm to prevent underhook establishment, 2) Drive heavy crossface pressure with your opposite shoulder into their jaw to turn their head and prevent them from turning to their side, 3) Post your free leg wide with knee angled out for maximum base stability against pump-induced weight shifts. This three-point defense must be established within 2-3 seconds of lockdown recognition.",
+        "answer_line": "Whizzer, crossface, wide base",
+        "distractors": {
+          "plausible": [
+            "Crossface, whizzer, sit up",
+            "Whizzer, sprawl, grab far arm"
+          ],
+          "trap": [
+            "Pull your trapped leg out fast"
+          ]
+        }
       },
       {
         "question": "How should you counter the bottom player's lockdown pumps without feeding into their sweep timing?",
-        "answer": "Absorb the pump energy through your wide-posted free leg rather than resisting with your trapped leg. Keep your hips low and heavy, letting the pump pass through your base without disrupting your upper body positioning. Do not react with explosive counter-movements as these create the rhythm the bottom player is trying to establish. Maintain steady, consistent downward pressure through your chest and crossface, and use the moments between pumps to incrementally work on ankle extraction."
+        "answer": "Absorb the pump energy through your wide-posted free leg rather than resisting with your trapped leg. Keep your hips low and heavy, letting the pump pass through your base without disrupting your upper body positioning. Do not react with explosive counter-movements as these create the rhythm the bottom player is trying to establish. Maintain steady, consistent downward pressure through your chest and crossface, and use the moments between pumps to incrementally work on ankle extraction.",
+        "answer_line": "Absorb pumps, stay heavy and still",
+        "distractors": {
+          "plausible": [
+            "Match their rhythm with counters",
+            "Push back hard on every pump"
+          ],
+          "trap": [
+            "Explosively counter each pump"
+          ]
+        }
       },
       {
         "question": "Your opponent has established lockdown and underhook but not yet secured head control - what is your best defensive option?",
-        "answer": "This is your last high-percentage window. Drive your crossface pressure dramatically harder to turn their head away and prevent them from reaching for head control with their far arm. Simultaneously deepen your whizzer to limit the underhook's range of motion and prevent them from positioning their shoulder under your center of gravity. If you can flatten them back to the mat before head control is secured, the Old School position is incomplete and their sweep leverage is significantly reduced. Consider transitioning to Kimura attack on their underhooking arm if they overcommit to the position."
+        "answer": "This is your last high-percentage window. Drive your crossface pressure dramatically harder to turn their head away and prevent them from reaching for head control with their far arm. Simultaneously deepen your whizzer to limit the underhook's range of motion and prevent them from positioning their shoulder under your center of gravity. If you can flatten them back to the mat before head control is secured, the Old School position is incomplete and their sweep leverage is significantly reduced. Consider transitioning to Kimura attack on their underhooking arm if they overcommit to the position.",
+        "answer_line": "Crossface hard, deepen whizzer",
+        "distractors": {
+          "plausible": [
+            "Fight to strip the underhook",
+            "Bridge and roll away immediately"
+          ],
+          "trap": [
+            "Reach to block head control directly"
+          ]
+        }
       }
     ],
     "training_progressions": [

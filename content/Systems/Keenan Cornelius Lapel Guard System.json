@@ -368,39 +368,129 @@
   "flashcards": [
     {
       "question": "What makes the Keenan Cornelius Lapel Guard System fundamentally different from traditional open guards?",
-      "answer": "It weaponizes the opponent's own gi lapel as a primary control point, using fabric tension to break posture, manage distance, and generate mechanical leverage that hand grips alone cannot produce — letting structure compensate for deficits in size or strength."
+      "answer": "It weaponizes the opponent's own gi lapel as a primary control point, using fabric tension to break posture, manage distance, and generate mechanical leverage that hand grips alone cannot produce — letting structure compensate for deficits in size or strength.",
+      "answer_line": "Lapel fabric replaces hand grips",
+      "distractors": {
+        "plausible": [
+          "More aggressive grip fighting",
+          "Faster transitions between guards"
+        ],
+        "trap": [
+          "Ignore grips, rely on athleticism"
+        ]
+      }
     },
     {
       "question": "How is the foundational Worm Guard position established?",
-      "answer": "You feed the opponent's lapel under their near leg and grip it on the opposite side, locking their posture and mobility while building a stable platform for sweeps, back takes, and transitions into the system's other lapel configurations."
+      "answer": "You feed the opponent's lapel under their near leg and grip it on the opposite side, locking their posture and mobility while building a stable platform for sweeps, back takes, and transitions into the system's other lapel configurations.",
+      "answer_line": "Feed lapel under leg, grip far side",
+      "distractors": {
+        "plausible": [
+          "Grip lapel on same side as feed",
+          "Feed lapel over the near leg"
+        ],
+        "trap": [
+          "Release lapel to grip the sleeve"
+        ]
+      }
     },
     {
       "question": "How does Squid Guard differ from Worm Guard within the system?",
-      "answer": "Squid Guard wraps the lapel around the opponent's arm and leg simultaneously, eliminating many hand-fighting options and forcing predictable defensive patterns, which raises sweep success rates and simplifies decision-making during guard retention."
+      "answer": "Squid Guard wraps the lapel around the opponent's arm and leg simultaneously, eliminating many hand-fighting options and forcing predictable defensive patterns, which raises sweep success rates and simplifies decision-making during guard retention.",
+      "answer_line": "Wraps lapel around arm and leg",
+      "distractors": {
+        "plausible": [
+          "Wraps lapel around waist only",
+          "Uses two separate lapel grips"
+        ],
+        "trap": [
+          "Drop the wrap to free their arm"
+        ]
+      }
     },
     {
       "question": "Why should you never rely on lapel control alone?",
-      "answer": "A single lapel grip is vulnerable to a simple strip-and-pass. Layering collar, sleeve, and leg controls builds redundancy so the position survives even when the opponent successfully attacks any one connection point."
+      "answer": "A single lapel grip is vulnerable to a simple strip-and-pass. Layering collar, sleeve, and leg controls builds redundancy so the position survives even when the opponent successfully attacks any one connection point.",
+      "answer_line": "Single grip strips, layer controls",
+      "distractors": {
+        "plausible": [
+          "Lapel grips tire out your hands",
+          "One grip slows your sweeps down"
+        ],
+        "trap": [
+          "Trade lapel for a deep half hook"
+        ]
+      }
     },
     {
       "question": "What is the recommended way for beginners to enter lapel guards?",
-      "answer": "Start from open guards you already know — collar-sleeve, spider, or De La Riva — and feed the lapel from there, reducing the learning curve while secondary grips keep the opponent's hands occupied during the feed."
+      "answer": "Start from open guards you already know — collar-sleeve, spider, or De La Riva — and feed the lapel from there, reducing the learning curve while secondary grips keep the opponent's hands occupied during the feed.",
+      "answer_line": "Feed lapel from known open guards",
+      "distractors": {
+        "plausible": [
+          "Master Squid Guard before basics",
+          "Drill lapel entries isolated only"
+        ],
+        "trap": [
+          "Abandon grips to shoot the feed"
+        ]
+      }
     },
     {
       "question": "How do you maintain lapel control under heavy stack pressure?",
-      "answer": "Use hip mobility and core strength to preserve the connection, convert lapel tension into frames that create escape angles, and transition to an alternative lapel configuration when the primary position becomes compromised."
+      "answer": "Use hip mobility and core strength to preserve the connection, convert lapel tension into frames that create escape angles, and transition to an alternative lapel configuration when the primary position becomes compromised.",
+      "answer_line": "Hips and frames convert tension",
+      "distractors": {
+        "plausible": [
+          "Grip tighter and wait it out",
+          "Post on hands to stop the stack"
+        ],
+        "trap": [
+          "Release lapel to bridge and roll"
+        ]
+      }
     },
     {
       "question": "Why is lapel control especially effective for smaller or weaker practitioners?",
-      "answer": "Wrapping the lapel around limbs creates fixed points and leverage systems that multiply pulling and redirecting force, allowing skeletal structure and fabric tension to replace raw strength when off-balancing larger opponents."
+      "answer": "Wrapping the lapel around limbs creates fixed points and leverage systems that multiply pulling and redirecting force, allowing skeletal structure and fabric tension to replace raw strength when off-balancing larger opponents.",
+      "answer_line": "Fabric wraps multiply leverage",
+      "distractors": {
+        "plausible": [
+          "It tires opponents out quicker",
+          "It hides your grips from them"
+        ],
+        "trap": [
+          "Muscle through with raw strength"
+        ]
+      }
     },
     {
       "question": "What are the most common mistakes when learning this system?",
-      "answer": "Chasing complex variations like Squid Guard before mastering fundamental Worm Guard mechanics and basic sweeps, treating lapel guards as static positions while neglecting hip movement, and relying on lapel control without layering supporting grips."
+      "answer": "Chasing complex variations like Squid Guard before mastering fundamental Worm Guard mechanics and basic sweeps, treating lapel guards as static positions while neglecting hip movement, and relying on lapel control without layering supporting grips.",
+      "answer_line": "Rushing Squid before Worm basics",
+      "distractors": {
+        "plausible": [
+          "Drilling too slowly at first",
+          "Overusing collar-sleeve grips"
+        ],
+        "trap": [
+          "Skip grips, chase the submission"
+        ]
+      }
     },
     {
       "question": "How should the lapel guard system be drilled for fastest progress?",
-      "answer": "Begin with isolated, no-resistance lapel-feeding reps, progress to cooperative drilling with graduated resistance, then run focused positional sparring that starts and resets from lapel positions for high-volume, system-specific repetition."
+      "answer": "Begin with isolated, no-resistance lapel-feeding reps, progress to cooperative drilling with graduated resistance, then run focused positional sparring that starts and resets from lapel positions for high-volume, system-specific repetition.",
+      "answer_line": "No-resistance reps, then live rounds",
+      "distractors": {
+        "plausible": [
+          "Live spar every session from start",
+          "Study video before touching gi"
+        ],
+        "trap": [
+          "Skip drilling, only compete live"
+        ]
+      }
     },
     {
       "question": "What primary attacks does the system threaten once control is consolidated?",

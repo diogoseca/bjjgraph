@@ -274,52 +274,152 @@
       {
         "question": "What anatomical structures does the Bow and Arrow Choke target, and how does the stretching mechanic compress them?",
         "answer": "The Bow and Arrow targets both carotid arteries simultaneously through bilateral compression. The cross-collar grip pulls the lapel across one side of the neck while your forearm presses against the opposite carotid. The stretching force from extending your body while anchoring the far leg tightens this collar-to-forearm compression without requiring grip strength, creating efficient blood flow restriction to the brain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Trachea compression via forearm",
+            "Requires grip strength to lock"
+          ],
+          "trap": [
+            "Targets vagus nerve, not carotids"
+          ]
+        }
       },
       {
         "question": "What are the reliable indicators that the choke is reaching the breaking point and the opponent will likely tap?",
         "answer": "Key indicators include: the opponent's defensive grip fighting becomes weaker and less coordinated, their body begins to go limp or stops resisting the stretch, their breathing becomes audible or labored, and their face changes color visibly. If you feel the opponent stop actively defending and their muscle tension drops, the choke is effective and you should maintain steady pressure while watching for tap signals rather than increasing force.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Body goes limp, breathing labored",
+        "distractors": {
+          "plausible": [
+            "Wait until face turns visibly blue",
+            "They stop grip fighting entirely"
+          ],
+          "trap": [
+            "Increase pressure until they tap"
+          ]
+        }
       },
       {
         "question": "Why must near-arm control be established before threading the cross-collar grip from Rodeo Ride?",
         "answer": "Near-arm control prevents the opponent from posting with their closest arm, which would allow them to create a frame, turn into you, and recover guard. Without near-arm control, reaching for the collar exposes you to the opponent rotating underneath your reaching arm. The near arm is their primary defensive tool from turtle—controlling it eliminates their ability to generate the base needed to disrupt your collar grip establishment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control near arm before collar grip",
+        "distractors": {
+          "plausible": [
+            "Control far arm before collar grip",
+            "Grab collar first, arm control later"
+          ],
+          "trap": [
+            "Skip arm control, grab collar fast"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your collar grip by peeling your fingers with both hands—what adjustment prevents this escape?",
         "answer": "If the opponent commits both hands to stripping your collar grip, they have abandoned their turtle base entirely. Punish this by immediately driving your weight forward to flatten them while pulling the collar grip deeper. With both their hands occupied on grip fighting, they cannot post or maintain turtle structure. Alternatively, if the grip is being successfully stripped, release and immediately transition to a back take—both their hands are occupied and cannot defend hook insertion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive forward, flatten and pull deep",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the stripped grip",
+            "Switch to a different collar side"
+          ],
+          "trap": [
+            "Let go and retreat to standing"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender once the Bow and Arrow is properly configured?",
         "answer": "The point of no escape occurs once the attacker has established all three control points simultaneously: deep cross-collar grip across both carotids, far leg secured at the knee crease preventing hip rotation, and body extended to create the stretching force. Once full extension is achieved with both grips locked, the defender cannot generate enough force to strip either grip because the stretching mechanics make the grips self-tightening. Defense must happen before all three elements connect.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "All three grips locked, extended",
+        "distractors": {
+          "plausible": [
+            "Once collar grip alone is set",
+            "Once leg grip alone is set"
+          ],
+          "trap": [
+            "Wait for full body extension only"
+          ]
+        }
       },
       {
         "question": "How does the far leg grip contribute to the finishing mechanics, and what happens if you lose it during the extension?",
         "answer": "The far leg grip creates the second anchor point that generates opposing force against the collar pull. Without it, the opponent's entire body slides with the collar pull, eliminating the stretching compression across the neck. If you lose the leg grip during extension, immediately re-grip the pant leg or knee crease before continuing. If you cannot re-establish leg control, abandon the bow and arrow and transition back to Rodeo Ride control rather than forcing a finish without proper mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg anchors stretch; re-grip if lost",
+        "distractors": {
+          "plausible": [
+            "Collar grip alone creates stretch",
+            "Push forward if leg grip is lost"
+          ],
+          "trap": [
+            "Force the finish without leg grip"
+          ]
+        }
       },
       {
         "question": "What is the proper speed and progression for applying the finishing stretch in training?",
         "answer": "Apply the finishing stretch progressively over three to five seconds minimum, never jerking or spiking the extension. Begin with gentle tension to confirm both grips are secure and the collar is positioned across the carotid line rather than the jaw. Increase stretching force gradually while monitoring your partner's response. In training, never apply the choke at competition speed. The progressive application allows your partner adequate time to assess the choke and tap before unconsciousness occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply stretch gradually, 3-5 sec",
+        "distractors": {
+          "plausible": [
+            "Full pressure in under a second",
+            "Skip confirming collar position"
+          ],
+          "trap": [
+            "Jerk and spike the extension"
+          ]
+        }
       },
       {
         "question": "How should you release the Bow and Arrow Choke immediately after receiving a tap signal?",
         "answer": "Upon any tap signal—verbal, hand tap, foot tap, or loss of resistance—immediately release the collar grip first since it is the primary choking mechanism. Simultaneously release the far leg control and allow your body to relax the extension. Let the opponent's head return to neutral position without forcing any movement. Check that they are conscious and responsive. If they lost consciousness before tapping, place them in recovery position with legs elevated and monitor continuously until they are fully alert.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release collar grip first",
+        "distractors": {
+          "plausible": [
+            "Release leg grip first",
+            "Release both grips at once"
+          ],
+          "trap": [
+            "Hold position to confirm tap"
+          ]
+        }
       },
       {
         "question": "Your opponent starts sitting back toward closed guard during your collar grip threading—what adjustment prevents this escape?",
         "answer": "When the opponent sits back, immediately widen your posted leg stance and drop your hips lower to resist the pull. Drive your chest pressure forward into their upper back to counteract their backward momentum. If you already have the collar grip secured, follow their sit-back and transition to a standard bow and arrow finish from behind them—their sit-back actually helps your positioning if you maintain the collar grip. If the grip is not yet established, abandon the choke attempt and re-establish Rodeo Ride control before they complete the guard recovery.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Pull collar tighter to stop them",
+            "Switch immediately to leg grip"
+          ],
+          "trap": [
+            "Chase them without changing base"
+          ]
+        }
       },
       {
         "question": "In competition, how do you set up the Bow and Arrow from Rodeo Ride using the Clock Choke as a feint?",
         "answer": "Threaten the Clock Choke by walking toward the opponent's head with your near-side hand gripping their collar. Most experienced opponents will defend by tucking their chin aggressively and protecting the near-side collar with both hands. This defensive commitment turns their head away from you and exposes the far-side collar—exactly the grip you need for the Bow and Arrow. Thread the cross-collar grip on the exposed far side while they are occupied defending the Clock Choke threat, then transition to the bow and arrow configuration before they can readjust their defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clock Choke feint exposes far collar",
+        "distractors": {
+          "plausible": [
+            "Feint the armbar to open collar",
+            "Threaten back take, grab collar"
+          ],
+          "trap": [
+            "Announce the choke to bait a tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -438,27 +538,77 @@
       {
         "question": "How do you recognize the Bow and Arrow Choke setup from Rodeo Ride before the grip is established?",
         "answer": "The primary recognition cue is the attacker's free hand reaching across your neck toward the far-side collar while maintaining chest pressure from Rodeo Ride. You will feel their arm crossing over your shoulder or neck area as they thread fingers inside the lapel. A secondary cue is the attacker shifting their hip position from perpendicular to angling behind you, indicating they are transitioning from Rodeo Ride control to the bow and arrow finishing configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Free hand reaches for far collar",
+        "distractors": {
+          "plausible": [
+            "Both hands grip your near collar",
+            "Hips square up behind your back"
+          ],
+          "trap": [
+            "Wait for the choke to feel tight"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Bow and Arrow Choke, and what signals should you use?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot effectively strip either the collar grip or the leg control. Do not wait until you feel lightheaded or see visual changes—blood chokes can cause unconsciousness in as few as four seconds. Use any available tap signal: verbal tap, hand tap on the attacker's body or the mat, or foot tap on the mat. If your arms are trapped, use a loud verbal tap immediately. Never rely on trying to outlast the choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap fast, bilateral neck pressure",
+        "distractors": {
+          "plausible": [
+            "Tap only once vision starts to blur",
+            "Wait to see if you can outlast it"
+          ],
+          "trap": [
+            "Try to power through and escape"
+          ]
+        }
       },
       {
         "question": "What is the most effective defensive window during the Bow and Arrow setup from Rodeo Ride?",
         "answer": "The most effective defensive window occurs when the attacker releases near-arm control to reach for either the collar grip or the far-leg grip. This grip transition momentarily frees your primary defensive tool—the near arm—and compromises the attacker's Rodeo Ride control. Use this window for either an explosive sit-back to guard, a two-on-one collar strip, or a turn toward the attacker. Once both the collar and leg grips are established simultaneously, your escape probability drops dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When near-arm control releases",
+        "distractors": {
+          "plausible": [
+            "After the collar grip is set",
+            "Once leg grip is fully locked"
+          ],
+          "trap": [
+            "Wait until full extension starts"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker more effective than turning away when defending this choke?",
         "answer": "Turning toward the attacker collapses the angle needed for the cross-collar grip to cross your neck and compress both carotids. When you turn away, you actually open the far-side collar and expose the exact grip path the attacker needs. Turning toward them also creates opportunities for guard recovery since you are moving into a facing position. The bow and arrow requires you to be oriented away from the attacker—eliminating that angle is the most direct counter to the choke mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward attacker, collapse angle",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Post hands and wait passively"
+          ],
+          "trap": [
+            "Turn away, opening the far collar"
+          ]
+        }
       },
       {
         "question": "What defensive options remain if the attacker has already established the deep collar grip?",
         "answer": "If the collar grip is already deep, your highest-priority defense is preventing the far-leg grip that enables the finishing stretch. Tuck your legs tight and use your hands to defend your knee crease and pant legs. If you can deny the leg grip, the attacker cannot generate the stretching force needed to finish. Simultaneously, work to turn toward the attacker to collapse the choking angle. If both grips are locked and extension begins, tap immediately—fighting a fully configured Bow and Arrow risks unconsciousness before you can execute an escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Deny the leg grip, tuck legs",
+        "distractors": {
+          "plausible": [
+            "Focus on stripping the collar grip",
+            "Turn away to protect your knees"
+          ],
+          "trap": [
+            "Keep fighting once extension starts"
+          ]
+        }
       }
     ],
     "training_progressions": [

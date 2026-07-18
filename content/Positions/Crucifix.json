@@ -331,35 +331,115 @@
     "flashcards": [
       {
         "question": "What is the optimal weight distribution for maintaining crucifix top position?",
-        "answer": "Weight should be distributed primarily through the hips onto the opponent's torso and shoulder, keeping heavy pressure on the upper body while maintaining a mobile upper body for attacks. The hips serve as the anchor point, preventing bridging and rolling escapes. Avoid placing excessive weight forward on the hands, as this reduces control over the leg trap and allows the opponent to create space. The chest stays tight to the opponent's back and shoulders to eliminate escape angles."
+        "answer": "Weight should be distributed primarily through the hips onto the opponent's torso and shoulder, keeping heavy pressure on the upper body while maintaining a mobile upper body for attacks. The hips serve as the anchor point, preventing bridging and rolling escapes. Avoid placing excessive weight forward on the hands, as this reduces control over the leg trap and allows the opponent to create space. The chest stays tight to the opponent's back and shoulders to eliminate escape angles.",
+        "answer_line": "Heavy hips, not hands",
+        "distractors": {
+          "plausible": [
+            "Chest pressure, light hips",
+            "Balance weight evenly"
+          ],
+          "trap": [
+            "Drive weight into your hands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins shrimping their hips away from you while in crucifix—what adjustment do you make?",
-        "answer": "Immediately follow with your hips, maintaining perpendicular alignment to their body. Increase the squeeze on the leg triangle trapping their arm and use your free hand to control their hip or pull them back toward you. If they continue creating space, transition your weight forward and consider securing a submission while they're focused on escaping, or transition to back control or mount position if the crucifix becomes untenable."
+        "answer": "Immediately follow with your hips, maintaining perpendicular alignment to their body. Increase the squeeze on the leg triangle trapping their arm and use your free hand to control their hip or pull them back toward you. If they continue creating space, transition your weight forward and consider securing a submission while they're focused on escaping, or transition to back control or mount position if the crucifix becomes untenable.",
+        "answer_line": "Follow hips, stay perpendicular",
+        "distractors": {
+          "plausible": [
+            "Post and stop the shrimp",
+            "Release grip to reposition"
+          ],
+          "trap": [
+            "Release the arm to re-grip"
+          ]
+        }
       },
       {
         "question": "What are the essential control points for maintaining crucifix position?",
-        "answer": "The two essential control points are: (1) the leg triangle trapping the near arm—this must maintain constant inward squeeze with one leg over the shoulder and one under the armpit; and (2) hand control of the far arm through wrist grip, overhook, or kimura configuration. Both arms must remain controlled at all times. Secondary controls include chest-to-back connection, hip positioning perpendicular to opponent, and head control to prevent them from finding escape angles."
+        "answer": "The two essential control points are: (1) the leg triangle trapping the near arm—this must maintain constant inward squeeze with one leg over the shoulder and one under the armpit; and (2) hand control of the far arm through wrist grip, overhook, or kimura configuration. Both arms must remain controlled at all times. Secondary controls include chest-to-back connection, hip positioning perpendicular to opponent, and head control to prevent them from finding escape angles.",
+        "answer_line": "Leg triangle + far-arm grip",
+        "distractors": {
+          "plausible": [
+            "Chest pressure + head control",
+            "Hip control + underhook"
+          ],
+          "trap": [
+            "Both hands on the near arm"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape attempt from crucifix—the arm extraction?",
-        "answer": "The arm extraction is prevented by maintaining constant inward pressure with the leg triangle, keeping the legs tight over the shoulder and under the armpit without any slack. When you feel the opponent pulling on the trapped arm, increase the squeeze rather than trying to outmuscle them. Adjust your body angle to take away their leverage—if they're pulling, angle your hips to make the extraction angle worse for them. Simultaneously threaten the neck to give them a more urgent problem to address."
+        "answer": "The arm extraction is prevented by maintaining constant inward pressure with the leg triangle, keeping the legs tight over the shoulder and under the armpit without any slack. When you feel the opponent pulling on the trapped arm, increase the squeeze rather than trying to outmuscle them. Adjust your body angle to take away their leverage—if they're pulling, angle your hips to make the extraction angle worse for them. Simultaneously threaten the neck to give them a more urgent problem to address.",
+        "answer_line": "Squeeze tighter, angle hips",
+        "distractors": {
+          "plausible": [
+            "Match their pulling strength",
+            "Release then re-trap the arm"
+          ],
+          "trap": [
+            "Let go and re-triangle"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize when controlling the far arm in crucifix?",
-        "answer": "The wrist grip is the highest priority initial control, allowing you to manipulate the arm position and prevent defensive frames. Once established, transition to an overhook or kimura grip configuration for more secure control that opens submission pathways. The kimura grip is particularly effective as it simultaneously controls the arm and threatens a submission. Never release control of the far arm completely—always maintain at least one hand in a controlling position while the other attacks."
+        "answer": "The wrist grip is the highest priority initial control, allowing you to manipulate the arm position and prevent defensive frames. Once established, transition to an overhook or kimura grip configuration for more secure control that opens submission pathways. The kimura grip is particularly effective as it simultaneously controls the arm and threatens a submission. Never release control of the far arm completely—always maintain at least one hand in a controlling position while the other attacks.",
+        "answer_line": "Wrist grip first, then kimura",
+        "distractors": {
+          "plausible": [
+            "Overhook first, then wrist",
+            "Kimura grip immediately"
+          ],
+          "trap": [
+            "Release far arm to attack neck"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure from crucifix top without exhausting yourself?",
-        "answer": "Pressure in crucifix comes from proper positioning rather than muscular effort. Keep your hips heavy on the opponent's torso using gravity, not active pressing. The leg triangle maintains control through the mechanical advantage of the figure-four configuration, not constant squeezing. Use your body weight by staying tight rather than pushing. Breathe normally and maintain relaxed muscles in non-essential areas. The position should feel sustainable—if you're working hard to maintain it, your positioning is wrong."
+        "answer": "Pressure in crucifix comes from proper positioning rather than muscular effort. Keep your hips heavy on the opponent's torso using gravity, not active pressing. The leg triangle maintains control through the mechanical advantage of the figure-four configuration, not constant squeezing. Use your body weight by staying tight rather than pushing. Breathe normally and maintain relaxed muscles in non-essential areas. The position should feel sustainable—if you're working hard to maintain it, your positioning is wrong.",
+        "answer_line": "Gravity and structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Constant hard squeezing",
+            "Active pressing with arms"
+          ],
+          "trap": [
+            "Muscle through with strength"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges while you have crucifix—how do you anticipate and respond?",
-        "answer": "Anticipate bridging by feeling for tension building in their hips and core. When the bridge comes, stay tight to their back rather than posting—posting creates space. Roll with the bridge if necessary, maintaining your leg triangle and arm control throughout. As they return from the bridge (the moment of greatest vulnerability), immediately threaten a submission or advance your position. The bridge actually exposes the neck momentarily, creating an opportunity for the rear naked choke if you're ready for it."
+        "answer": "Anticipate bridging by feeling for tension building in their hips and core. When the bridge comes, stay tight to their back rather than posting—posting creates space. Roll with the bridge if necessary, maintaining your leg triangle and arm control throughout. As they return from the bridge (the moment of greatest vulnerability), immediately threaten a submission or advance your position. The bridge actually exposes the neck momentarily, creating an opportunity for the rear naked choke if you're ready for it.",
+        "answer_line": "Stay tight, roll with the bridge",
+        "distractors": {
+          "plausible": [
+            "Post out to stop the bridge",
+            "Release grips to ride it out"
+          ],
+          "trap": [
+            "Post hands to block the bridge"
+          ]
+        }
       },
       {
         "question": "How do you recover if your opponent partially frees their trapped arm from the leg triangle?",
-        "answer": "If the arm begins to slip, immediately adjust your leg position—typically the bottom leg has slipped too far from under the armpit. Pull the leg back into position using hip movement, not just leg strength. If the arm is significantly free, transition to back control rather than fighting to re-establish crucifix from a compromised position. Alternatively, if they've freed the arm but remain controlled, immediately switch your attack to the neck since they've committed their free hand to the escape rather than defense."
+        "answer": "If the arm begins to slip, immediately adjust your leg position—typically the bottom leg has slipped too far from under the armpit. Pull the leg back into position using hip movement, not just leg strength. If the arm is significantly free, transition to back control rather than fighting to re-establish crucifix from a compromised position. Alternatively, if they've freed the arm but remain controlled, immediately switch your attack to the neck since they've committed their free hand to the escape rather than defense.",
+        "answer_line": "Reset the leg, or take the back",
+        "distractors": {
+          "plausible": [
+            "Force the arm back with legs",
+            "Regrip the wrist to save it"
+          ],
+          "trap": [
+            "Abandon position, chase choke"
+          ]
+        }
       }
     ],
     "clips": [
@@ -683,35 +763,115 @@
     "flashcards": [
       {
         "question": "What is the single most important priority when you recognize you're being put into crucifix?",
-        "answer": "Protecting the neck is the absolute priority. Before any escape attempt, establish chin tuck, shoulder raise, and use any available hand to create barriers against choke attacks. The hierarchy of threats in crucifix puts neck attacks at the top—you can survive position and attempt escapes, but a locked choke ends the match. Only after securing neck defense should you begin working on arm extraction and position recovery."
+        "answer": "Protecting the neck is the absolute priority. Before any escape attempt, establish chin tuck, shoulder raise, and use any available hand to create barriers against choke attacks. The hierarchy of threats in crucifix puts neck attacks at the top—you can survive position and attempt escapes, but a locked choke ends the match. Only after securing neck defense should you begin working on arm extraction and position recovery.",
+        "answer_line": "Protect the neck first",
+        "distractors": {
+          "plausible": [
+            "Fight the leg trap first",
+            "Bridge explosively immediately"
+          ],
+          "trap": [
+            "Pull the arm free first"
+          ]
+        }
       },
       {
         "question": "Your opponent has your near arm trapped in their leg triangle—what is the correct method to free it?",
-        "answer": "Do not pull explosively against the leg trap, as this wastes energy and typically tightens the position. Instead, use subtle hip movement and angle changes to create space around the trapped arm. Shrimp your hips to change the angle of the leg trap, making extraction easier. Work incrementally—small movements that don't telegraph your intention are more effective than large explosive attempts that alert the opponent to counter."
+        "answer": "Do not pull explosively against the leg trap, as this wastes energy and typically tightens the position. Instead, use subtle hip movement and angle changes to create space around the trapped arm. Shrimp your hips to change the angle of the leg trap, making extraction easier. Work incrementally—small movements that don't telegraph your intention are more effective than large explosive attempts that alert the opponent to counter.",
+        "answer_line": "Shrimp hips, small angle shifts",
+        "distractors": {
+          "plausible": [
+            "Yank the arm free explosively",
+            "Push against the legs hard"
+          ],
+          "trap": [
+            "Rip the arm out with force"
+          ]
+        }
       },
       {
         "question": "How do you maintain effective defensive positioning of your free arm in crucifix?",
-        "answer": "The free arm must remain active and defensive at all times. Primary uses: defend the neck by keeping the hand at the collar or chin level, create frames against opponent's head or shoulder to prevent them from advancing, and work to push against opponent's leg triangle to create space for the trapped arm. Never allow the free arm to be captured—if both arms are controlled, the position becomes virtually inescapable and submission is inevitable."
+        "answer": "The free arm must remain active and defensive at all times. Primary uses: defend the neck by keeping the hand at the collar or chin level, create frames against opponent's head or shoulder to prevent them from advancing, and work to push against opponent's leg triangle to create space for the trapped arm. Never allow the free arm to be captured—if both arms are controlled, the position becomes virtually inescapable and submission is inevitable.",
+        "answer_line": "Defend neck, frame, push legs",
+        "distractors": {
+          "plausible": [
+            "Grip their far wrist tight",
+            "Push on their hips instead"
+          ],
+          "trap": [
+            "Reach back to grab a leg"
+          ]
+        }
       },
       {
         "question": "Why is energy management critical from crucifix bottom, and how do you conserve energy?",
-        "answer": "Crucifix bottom has a short time sustainability—you cannot outlast the opponent by simply defending. However, explosive movements often tighten the position and exhaust you faster. Conserve energy by breathing calmly (avoiding panic hyperventilation), using micro-adjustments rather than large movements, and working incrementally. Accept that escape takes time and systematic effort. Explosive energy expenditure should be reserved for the final moment of escape execution, not wasted on preliminary movements."
+        "answer": "Crucifix bottom has a short time sustainability—you cannot outlast the opponent by simply defending. However, explosive movements often tighten the position and exhaust you faster. Conserve energy by breathing calmly (avoiding panic hyperventilation), using micro-adjustments rather than large movements, and working incrementally. Accept that escape takes time and systematic effort. Explosive energy expenditure should be reserved for the final moment of escape execution, not wasted on preliminary movements.",
+        "answer_line": "Micro-adjust, save burst for exit",
+        "distractors": {
+          "plausible": [
+            "Explode early to break grips",
+            "Stay fully still, wait it out"
+          ],
+          "trap": [
+            "Bridge explosively right away"
+          ]
+        }
       },
       {
         "question": "What escape pathway should you prioritize: freeing the trapped arm or recovering guard position?",
-        "answer": "Address the hierarchy of threats in order: (1) defend immediate submission threats, especially chokes, (2) free the trapped arm, (3) recover position. Freeing the trapped arm is prerequisite to meaningful guard recovery because you cannot create effective frames or escape structures with only one arm. However, if a choke is being applied, defending the choke takes priority over arm extraction. The free arm's primary job shifts between neck defense and working to free the trapped arm based on opponent's attacks."
+        "answer": "Address the hierarchy of threats in order: (1) defend immediate submission threats, especially chokes, (2) free the trapped arm, (3) recover position. Freeing the trapped arm is prerequisite to meaningful guard recovery because you cannot create effective frames or escape structures with only one arm. However, if a choke is being applied, defending the choke takes priority over arm extraction. The free arm's primary job shifts between neck defense and working to free the trapped arm based on opponent's attacks.",
+        "answer_line": "Defend choke, free arm, recover",
+        "distractors": {
+          "plausible": [
+            "Recover guard before the arm",
+            "Free arm before defending choke"
+          ],
+          "trap": [
+            "Ignore choke, chase the sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent begins applying a rear naked choke while you're in crucifix—what is your immediate response?",
-        "answer": "Immediately use your free hand to establish two-on-one defense against the choking arm, pulling it away from your neck. Simultaneously tuck your chin hard and raise your shoulder on the choking side to create barriers. If the choke is shallow, you may be able to strip the grip. If deep, fight the hands while beginning to turn toward the choking arm—this takes pressure off the neck and may create escape angles. Do not abandon choke defense to work escapes—survive first."
+        "answer": "Immediately use your free hand to establish two-on-one defense against the choking arm, pulling it away from your neck. Simultaneously tuck your chin hard and raise your shoulder on the choking side to create barriers. If the choke is shallow, you may be able to strip the grip. If deep, fight the hands while beginning to turn toward the choking arm—this takes pressure off the neck and may create escape angles. Do not abandon choke defense to work escapes—survive first.",
+        "answer_line": "Two-on-one grip, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Strip grip, ignore chin tuck",
+            "Free trapped arm first"
+          ],
+          "trap": [
+            "Pull away from the choking arm"
+          ]
+        }
       },
       {
         "question": "When is the optimal window to attempt escape from crucifix bottom?",
-        "answer": "The optimal escape windows occur when the opponent is in transition—either entering the crucifix (before full consolidation), adjusting their position for better control, or committing to a submission attempt. During adjustments and submissions, the opponent's weight and attention shift, creating momentary gaps in their control. Recognize these windows and execute escape movements with proper timing. The worst time to escape is when the opponent has settled into stable control with no movement."
+        "answer": "The optimal escape windows occur when the opponent is in transition—either entering the crucifix (before full consolidation), adjusting their position for better control, or committing to a submission attempt. During adjustments and submissions, the opponent's weight and attention shift, creating momentary gaps in their control. Recognize these windows and execute escape movements with proper timing. The worst time to escape is when the opponent has settled into stable control with no movement.",
+        "answer_line": "During their transitions",
+        "distractors": {
+          "plausible": [
+            "Once they're fully settled",
+            "Right after they secure grips"
+          ],
+          "trap": [
+            "Wait for full stability"
+          ]
+        }
       },
       {
         "question": "If you partially free your trapped arm but the opponent recaptures it, what adjustment should you make?",
-        "answer": "If the arm was partially freed but recaptured, the opponent likely closed the gap you created. On the next attempt, combine arm extraction with immediate position recovery—don't just free the arm and wait. As the arm begins to clear, immediately shrimp your hips and work to insert your knee or turn to turtle. The arm extraction and position change must happen together, or the opponent will simply re-establish the trap. Also consider that their leg position may have weakened—look for better extraction angles."
+        "answer": "If the arm was partially freed but recaptured, the opponent likely closed the gap you created. On the next attempt, combine arm extraction with immediate position recovery—don't just free the arm and wait. As the arm begins to clear, immediately shrimp your hips and work to insert your knee or turn to turtle. The arm extraction and position change must happen together, or the opponent will simply re-establish the trap. Also consider that their leg position may have weakened—look for better extraction angles.",
+        "answer_line": "Free arm and move together",
+        "distractors": {
+          "plausible": [
+            "Free the arm, then pause",
+            "Recover guard, then free arm"
+          ],
+          "trap": [
+            "Wait, then try again slowly"
+          ]
+        }
       }
     ],
     "clips": [
@@ -738,35 +898,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the crucifix and gives it its name?",
-      "answer": "The crucifix is defined by the simultaneous isolation of both of the opponent's arms through two distinct mechanisms operating at once. One arm—typically the near arm—is trapped by the legs in a figure-four or triangle configuration, while the other arm is controlled by the hands via a wrist grip, overhook, or kimura. Because both arms are pulled away from the centerline and extended outward, the trapped player's body takes on the cross-like shape that gives the position its name. This bilateral arm control, achieved through two different limbs of the controlling player, is the defining feature that separates the crucifix from ordinary back or side control."
+      "answer": "The crucifix is defined by the simultaneous isolation of both of the opponent's arms through two distinct mechanisms operating at once. One arm—typically the near arm—is trapped by the legs in a figure-four or triangle configuration, while the other arm is controlled by the hands via a wrist grip, overhook, or kimura. Because both arms are pulled away from the centerline and extended outward, the trapped player's body takes on the cross-like shape that gives the position its name. This bilateral arm control, achieved through two different limbs of the controlling player, is the defining feature that separates the crucifix from ordinary back or side control.",
+      "answer_line": "Legs trap one arm, hands the other",
+      "distractors": {
+        "plausible": [
+          "Both arms trapped by the legs",
+          "One arm free, one hooked"
+        ],
+        "trap": [
+          "Both hands on the same arm"
+        ]
+      }
     },
     {
       "question": "Why does controlling both arms through two separate mechanisms make the crucifix so mechanically dominant?",
-      "answer": "Bilateral arm isolation produces a complete collapse of the trapped player's defensive architecture because the arms are the primary tools for framing, hand-fighting, and protecting the neck. By committing the legs to one arm and the hands to the other, the controlling player denies both defensive weapons simultaneously rather than trading control of one for freedom of the other. This creates an extreme asymmetric advantage: the top player retains offensive freedom while the bottom player cannot create frames, defend chokes, or generate escape momentum. The position embodies the principle of weapons denial, which is why escape rates drop sharply once both arms are genuinely isolated."
+      "answer": "Bilateral arm isolation produces a complete collapse of the trapped player's defensive architecture because the arms are the primary tools for framing, hand-fighting, and protecting the neck. By committing the legs to one arm and the hands to the other, the controlling player denies both defensive weapons simultaneously rather than trading control of one for freedom of the other. This creates an extreme asymmetric advantage: the top player retains offensive freedom while the bottom player cannot create frames, defend chokes, or generate escape momentum. The position embodies the principle of weapons denial, which is why escape rates drop sharply once both arms are genuinely isolated.",
+      "answer_line": "Denies both arms as weapons",
+      "distractors": {
+        "plausible": [
+          "Denies just striking power",
+          "Controls hips, not arms"
+        ],
+        "trap": [
+          "Frees one arm to bait defense"
+        ]
+      }
     },
     {
       "question": "What are the two primary control points that hold the crucifix together?",
-      "answer": "The first control point is the leg trap, where a figure-four or triangle configuration—one leg over the shoulder, the other under the armpit—applies constant inward pressure to immobilize the near arm and prevent its extraction. The second is the hand control on the far arm, secured through a wrist grip, overhook, or kimura to eliminate that arm's ability to frame or defend. Both must be maintained continuously, because releasing either restores a defensive tool to the trapped player. Secondary supports such as chest-to-back connection, perpendicular hip alignment, and head control reinforce these two anchors but do not replace them."
+      "answer": "The first control point is the leg trap, where a figure-four or triangle configuration—one leg over the shoulder, the other under the armpit—applies constant inward pressure to immobilize the near arm and prevent its extraction. The second is the hand control on the far arm, secured through a wrist grip, overhook, or kimura to eliminate that arm's ability to frame or defend. Both must be maintained continuously, because releasing either restores a defensive tool to the trapped player. Secondary supports such as chest-to-back connection, perpendicular hip alignment, and head control reinforce these two anchors but do not replace them.",
+      "answer_line": "Leg trap + far-arm hand grip",
+      "distractors": {
+        "plausible": [
+          "Chest pressure + hip pin",
+          "Head control + far-leg hook"
+        ],
+        "trap": [
+          "Both legs trapping one arm"
+        ]
+      }
     },
     {
       "question": "How does weight distribution and body angle govern the stability of the crucifix for both players?",
-      "answer": "The controlling player's weight is directed through the hips into the trapped player's torso and shoulder, keeping them pinned to their side or back while the upper body stays mobile for attacks. Perpendicular alignment—the top player's body crossing the opponent's at an angle rather than lying parallel—is what prevents the bottom player from turning in and reclaiming their arms. When this angle is maintained, bridging and rolling forces are absorbed rather than resisted; when it is lost, the bottom player gains the space to spin free. The stability of the position is therefore a function of angle and hip pressure far more than of raw squeezing strength."
+      "answer": "The controlling player's weight is directed through the hips into the trapped player's torso and shoulder, keeping them pinned to their side or back while the upper body stays mobile for attacks. Perpendicular alignment—the top player's body crossing the opponent's at an angle rather than lying parallel—is what prevents the bottom player from turning in and reclaiming their arms. When this angle is maintained, bridging and rolling forces are absorbed rather than resisted; when it is lost, the bottom player gains the space to spin free. The stability of the position is therefore a function of angle and hip pressure far more than of raw squeezing strength.",
+      "answer_line": "Perpendicular angle, hip pressure",
+      "distractors": {
+        "plausible": [
+          "Parallel alignment, chest weight",
+          "Square base, even pressure"
+        ],
+        "trap": [
+          "Lie parallel to their body"
+        ]
+      }
     },
     {
       "question": "What shared dynamic explains why the crucifix is so difficult for the bottom player to escape once consolidated?",
-      "answer": "With both arms isolated, the bottom player loses the ability to create the frames and posts that every escape depends on, so movement alone cannot generate meaningful space. Any attempt to bridge, shrimp, or roll must overcome the controlling player's hip pressure and perpendicular angle without the aid of the arms, which drastically reduces leverage. The trapped player also faces a hierarchy of simultaneous threats—chokes and arm attacks—forcing defensive attention to split. This combination of eliminated framing, compromised leverage, and layered threats is why the escape window narrows rapidly and why early recognition, before full consolidation, matters so much."
+      "answer": "With both arms isolated, the bottom player loses the ability to create the frames and posts that every escape depends on, so movement alone cannot generate meaningful space. Any attempt to bridge, shrimp, or roll must overcome the controlling player's hip pressure and perpendicular angle without the aid of the arms, which drastically reduces leverage. The trapped player also faces a hierarchy of simultaneous threats—chokes and arm attacks—forcing defensive attention to split. This combination of eliminated framing, compromised leverage, and layered threats is why the escape window narrows rapidly and why early recognition, before full consolidation, matters so much.",
+      "answer_line": "No frames, no leverage left",
+      "distractors": {
+        "plausible": [
+          "Just superior strength",
+          "Only the choke threat matters"
+        ],
+        "trap": [
+          "Arms are still free to frame"
+        ]
+      }
     },
     {
       "question": "How does the crucifix differ from standard back control despite often being entered from it?",
-      "answer": "In standard back control both of the opponent's arms remain largely mobile, allowing them to hand-fight, defend the neck, and frame during escape attempts. The crucifix is distinguished by the systematic removal of that arm functionality: one arm is trapped by the legs and the other by the hands, so the defender's frames are gone entirely. Where back control relies primarily on the seatbelt and hooks to maintain position, the crucifix substitutes a leg trap on one arm for one of the hooks, converting positional control into near-total arm denial. This makes the crucifix a more committed, more offensively lethal configuration than the back control it typically grows out of."
+      "answer": "In standard back control both of the opponent's arms remain largely mobile, allowing them to hand-fight, defend the neck, and frame during escape attempts. The crucifix is distinguished by the systematic removal of that arm functionality: one arm is trapped by the legs and the other by the hands, so the defender's frames are gone entirely. Where back control relies primarily on the seatbelt and hooks to maintain position, the crucifix substitutes a leg trap on one arm for one of the hooks, converting positional control into near-total arm denial. This makes the crucifix a more committed, more offensively lethal configuration than the back control it typically grows out of.",
+      "answer_line": "Removes both arms, not just hooks",
+      "distractors": {
+        "plausible": [
+          "Uses seatbelt instead of legs",
+          "Same arm control as back mount"
+        ],
+        "trap": [
+          "Leaves both arms mobile"
+        ]
+      }
     },
     {
       "question": "What role does head and upper-body positioning play in the crucifix beyond the arm traps themselves?",
-      "answer": "Even with both arms isolated, the controlling player must stay tight to the opponent's head and upper back to eliminate the space needed for turning and rolling escapes. Chest-to-back connection keeps the trapped player flattened and denies them the room to spin into the top player and reclaim an arm. Controlling head direction—preventing the opponent from looking toward their intended escape angle—further disrupts their ability to coordinate movement and find leverage. This close upper-body connection is the glue that keeps the two arm-control mechanisms working together rather than as two isolated grips that can be broken independently."
+      "answer": "Even with both arms isolated, the controlling player must stay tight to the opponent's head and upper back to eliminate the space needed for turning and rolling escapes. Chest-to-back connection keeps the trapped player flattened and denies them the room to spin into the top player and reclaim an arm. Controlling head direction—preventing the opponent from looking toward their intended escape angle—further disrupts their ability to coordinate movement and find leverage. This close upper-body connection is the glue that keeps the two arm-control mechanisms working together rather than as two isolated grips that can be broken independently.",
+      "answer_line": "Chest-to-back, control the head",
+      "distractors": {
+        "plausible": [
+          "Hands only, ignore upper body",
+          "Weight on hips, ignore head"
+        ],
+        "trap": [
+          "Let them turn to face you"
+        ]
+      }
     },
     {
       "question": "How does the mounted crucifix variation change the shared dynamics of the standard crucifix?",
-      "answer": "The mounted crucifix layers mount pressure onto the same bilateral arm-isolation principle, so the top player's weight is delivered downward through a mounted base rather than from the back or side. This trades some of the back-attack choking access for heavier frontal pressure and a more direct line to arm attacks and neck cranks. The core defining feature—both arms trapped by two separate mechanisms—remains unchanged, which is why it is still a crucifix rather than a distinct position. The difference lies in the vector of control and available finishes, not in the underlying weapons-denial structure that both variations share."
+      "answer": "The mounted crucifix layers mount pressure onto the same bilateral arm-isolation principle, so the top player's weight is delivered downward through a mounted base rather than from the back or side. This trades some of the back-attack choking access for heavier frontal pressure and a more direct line to arm attacks and neck cranks. The core defining feature—both arms trapped by two separate mechanisms—remains unchanged, which is why it is still a crucifix rather than a distinct position. The difference lies in the vector of control and available finishes, not in the underlying weapons-denial structure that both variations share.",
+      "answer_line": "Same arm trap, mounted pressure",
+      "distractors": {
+        "plausible": [
+          "A different position entirely",
+          "Loses one arm's isolation"
+        ],
+        "trap": [
+          "Frees an arm for mount control"
+        ]
+      }
     }
   ],
   "clips": [

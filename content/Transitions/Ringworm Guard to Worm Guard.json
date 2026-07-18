@@ -221,51 +221,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of transitioning from Ringworm Guard to Worm Guard?",
-        "answer": "The primary goal is to reconfigure the lapel wrap for deeper mechanical control. Worm Guard threads the lapel under and through the opponent's leg rather than around the outside, creating a tighter connection that offers superior sweeping mechanics and submission entries compared to Ringworm Guard."
+        "answer": "The primary goal is to reconfigure the lapel wrap for deeper mechanical control. Worm Guard threads the lapel under and through the opponent's leg rather than around the outside, creating a tighter connection that offers superior sweeping mechanics and submission entries compared to Ringworm Guard.",
+        "answer_line": "Thread lapel deeper for control",
+        "distractors": {
+          "plausible": [
+            "Switch to a fresh submission grip",
+            "Free up the far-side underhook"
+          ],
+          "trap": [
+            "Release lapel to reset grips"
+          ]
+        }
       },
       {
         "question": "What position do you start this transition from and what grip configuration must already exist?",
-        "answer": "This technique starts from Ringworm Guard Bottom, where you already have the opponent's lapel wrapped around their leg in the Ringworm configuration with tension maintained. You also need sufficient lapel material extracted and at least one secondary grip on the opponent's sleeve or collar."
+        "answer": "This technique starts from Ringworm Guard Bottom, where you already have the opponent's lapel wrapped around their leg in the Ringworm configuration with tension maintained. You also need sufficient lapel material extracted and at least one secondary grip on the opponent's sleeve or collar.",
+        "answer_line": "Ringworm Bottom w/ lapel tension",
+        "distractors": {
+          "plausible": [
+            "Any bottom guard, lapel free",
+            "Closed guard with collar grip"
+          ],
+          "trap": [
+            "Loose lapel, no secondary grip"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for this transition?",
-        "answer": "You need your primary grip on the opponent's lapel to maintain and rethread the control, plus a secondary grip on their opposite sleeve or collar to prevent them from posturing or stripping the lapel during the vulnerable rethreading moment. The secondary grip is critical for transition success."
+        "answer": "You need your primary grip on the opponent's lapel to maintain and rethread the control, plus a secondary grip on their opposite sleeve or collar to prevent them from posturing or stripping the lapel during the vulnerable rethreading moment. The secondary grip is critical for transition success.",
+        "answer_line": "Lapel grip + sleeve/collar grip",
+        "distractors": {
+          "plausible": [
+            "Two hands both on the lapel",
+            "Collar grip plus belt grip"
+          ],
+          "trap": [
+            "Release secondary grip to thread"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt this transition?",
-        "answer": "The optimal timing is when the opponent attempts to stand, shifts their weight backward, or creates distance. These movements naturally create space under their leg for the lapel rethread. Avoid attempting when opponent has strong forward pressure as no space exists for proper threading."
+        "answer": "The optimal timing is when the opponent attempts to stand, shifts their weight backward, or creates distance. These movements naturally create space under their leg for the lapel rethread. Avoid attempting when opponent has strong forward pressure as no space exists for proper threading.",
+        "answer_line": "When opponent retreats or stands",
+        "distractors": {
+          "plausible": [
+            "When opponent postures up tight",
+            "Right after securing Ringworm"
+          ],
+          "trap": [
+            "During opponent's forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward as you start the transition - how do you adjust?",
-        "answer": "Use your free leg to frame against their hip and push them back to create distance. If you cannot restore space, abort the transition and return to Ringworm Guard or convert their forward pressure into a sweep attempt using your existing control rather than forcing a transition with insufficient space."
+        "answer": "Use your free leg to frame against their hip and push them back to create distance. If you cannot restore space, abort the transition and return to Ringworm Guard or convert their forward pressure into a sweep attempt using your existing control rather than forcing a transition with insufficient space.",
+        "answer_line": "Frame free leg, push back",
+        "distractors": {
+          "plausible": [
+            "Push through and force the thread",
+            "Switch to a different sweep"
+          ],
+          "trap": [
+            "Release lapel to reframe hips"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail when threading the lapel for Worm Guard?",
-        "answer": "The lapel must be threaded deep under the opponent's thigh, passing completely from outside to inside of their leg before wrapping around your shin. Shallow threading creates weak control that collapses under pressure. The depth of the weave determines the strength of the resulting Worm Guard."
+        "answer": "The lapel must be threaded deep under the opponent's thigh, passing completely from outside to inside of their leg before wrapping around your shin. Shallow threading creates weak control that collapses under pressure. The depth of the weave determines the strength of the resulting Worm Guard.",
+        "answer_line": "Thread deep, outside to inside",
+        "distractors": {
+          "plausible": [
+            "Wrap shin first, thread after",
+            "Thread shallow for quick control"
+          ],
+          "trap": [
+            "Skip the thigh wrap, grip only"
+          ]
+        }
       },
       {
         "question": "Why is maintaining hand contact with the lapel throughout the transition so important?",
-        "answer": "Maintaining hand contact prevents complete loss of control during the reconfiguration. If you release the lapel entirely, even briefly, the opponent can extract their leg and escape to neutral position. Sliding your grip along the lapel rather than releasing and re-gripping maintains continuous control throughout."
+        "answer": "Maintaining hand contact prevents complete loss of control during the reconfiguration. If you release the lapel entirely, even briefly, the opponent can extract their leg and escape to neutral position. Sliding your grip along the lapel rather than releasing and re-gripping maintains continuous control throughout.",
+        "answer_line": "Never fully release the lapel",
+        "distractors": {
+          "plausible": [
+            "Re-grip fresh after each slide",
+            "Switch hands mid-transition"
+          ],
+          "trap": [
+            "Release lapel to reposition freely"
+          ]
+        }
       },
       {
         "question": "How should you coordinate hip movement with the lapel rethreading?",
-        "answer": "Execute a hip escape away from the opponent simultaneously with the lapel rethread. This creates the space under their leg needed for proper threading while keeping you on your side in an optimal attacking angle. The hip movement and lapel work should be one continuous motion rather than sequential steps."
+        "answer": "Execute a hip escape away from the opponent simultaneously with the lapel rethread. This creates the space under their leg needed for proper threading while keeping you on your side in an optimal attacking angle. The hip movement and lapel work should be one continuous motion rather than sequential steps.",
+        "answer_line": "Hip escape and rethread together",
+        "distractors": {
+          "plausible": [
+            "Rethread first, then hip escape",
+            "Hip escape toward opponent"
+          ],
+          "trap": [
+            "Stay flat, thread with hands only"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully strips your lapel during the transition, what is your immediate response?",
-        "answer": "Immediately transition to an alternative guard position using your remaining grips. If you have sleeve control, transition to Spider Guard or Lasso Guard. If you have collar grip, work to De La Riva or Collar Sleeve Guard. Do not attempt to re-establish the lapel guard from a compromised position."
+        "answer": "Immediately transition to an alternative guard position using your remaining grips. If you have sleeve control, transition to Spider Guard or Lasso Guard. If you have collar grip, work to De La Riva or Collar Sleeve Guard. Do not attempt to re-establish the lapel guard from a compromised position.",
+        "answer_line": "Switch to guard from remaining grip",
+        "distractors": {
+          "plausible": [
+            "Re-grip the lapel immediately",
+            "Stand up and reset to neutral"
+          ],
+          "trap": [
+            "Chase the stripped lapel grip"
+          ]
+        }
       },
       {
         "question": "What chain attacks become available once you successfully establish Worm Guard from this transition?",
-        "answer": "From established Worm Guard, you gain access to lapel elevator sweeps that use the deep weave for powerful off-balancing, omoplata entries when the opponent reaches to strip the lapel, bolo sweeps to back control using the rotational leverage, and triangle setups when the opponent postures to escape. The deeper mechanical connection of Worm Guard makes all of these significantly higher percentage than from Ringworm."
+        "answer": "From established Worm Guard, you gain access to lapel elevator sweeps that use the deep weave for powerful off-balancing, omoplata entries when the opponent reaches to strip the lapel, bolo sweeps to back control using the rotational leverage, and triangle setups when the opponent postures to escape. The deeper mechanical connection of Worm Guard makes all of these significantly higher percentage than from Ringworm.",
+        "answer_line": "Elevator, omoplata, bolo, triangle",
+        "distractors": {
+          "plausible": [
+            "Only basic scissor sweep opens up",
+            "Just tighter guard retention"
+          ],
+          "trap": [
+            "Kimura from bottom guard only"
+          ]
+        }
       },
       {
         "question": "How do you manage grip endurance when working extended lapel guard sequences that include this transition?",
-        "answer": "Let the mechanical structure of the lapel wrap carry the control load rather than relying on raw grip strength. Once the lapel is properly threaded and wrapped around your shin, the friction and wrapping tension maintain control with minimal hand effort. Save explosive grip engagement for the actual transition moment and sweep attempts. If grip fatigue sets in, execute the transition to Worm Guard quickly since its deeper threading requires less active gripping to maintain."
+        "answer": "Let the mechanical structure of the lapel wrap carry the control load rather than relying on raw grip strength. Once the lapel is properly threaded and wrapped around your shin, the friction and wrapping tension maintain control with minimal hand effort. Save explosive grip engagement for the actual transition moment and sweep attempts. If grip fatigue sets in, execute the transition to Worm Guard quickly since its deeper threading requires less active gripping to maintain.",
+        "answer_line": "Let the wrap carry the load",
+        "distractors": {
+          "plausible": [
+            "Grip harder throughout the position",
+            "Switch grips constantly to rest"
+          ],
+          "trap": [
+            "Release lapel to shake out grips"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their base low and wide, preventing you from creating space for the transition - what alternative approach works?",
-        "answer": "Initiate a sweep attempt from Ringworm Guard to force the opponent to react and shift their weight. When they post a hand or adjust their base defensively, the momentary weight redistribution creates space under their leg. Use that opening to execute the lapel rethread rather than completing the original sweep. This sweep-to-transition chain converts their defensive reactions into transition opportunities."
+        "answer": "Initiate a sweep attempt from Ringworm Guard to force the opponent to react and shift their weight. When they post a hand or adjust their base defensively, the momentary weight redistribution creates space under their leg. Use that opening to execute the lapel rethread rather than completing the original sweep. This sweep-to-transition chain converts their defensive reactions into transition opportunities.",
+        "answer_line": "Fake a sweep to open space",
+        "distractors": {
+          "plausible": [
+            "Wait passively for them to move",
+            "Force the thread through tight base"
+          ],
+          "trap": [
+            "Release lapel to reset stance"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves minimal injury risk as it is a control reconfiguration rather than a joint attack or impact movement. The primary safety concern is maintaining awareness of your own posture during the transition to avoid being stacked or having your neck compressed if the opponent drives forward aggressively. Ensure sufficient space exists before attempting the transition rather than forcing it under pressure. When drilling, communicate with your partner about the lapel tension to avoid friction burns on fingers or wrists from the gi material. Stop immediately if either partner feels sharp pain from the lapel wrapping.",
@@ -381,23 +501,73 @@
     "flashcards": [
       {
         "question": "What is the most critical moment to intervene when defending against this transition?",
-        "answer": "The most critical moment is when lapel tension decreases as the bottom player begins loosening the Ringworm wrap to rethread it. This brief window is when the lapel control is at its weakest and most vulnerable to being stripped entirely. Once the new threading is complete and tension is re-established in Worm Guard configuration, the defensive opportunity has passed."
+        "answer": "The most critical moment is when lapel tension decreases as the bottom player begins loosening the Ringworm wrap to rethread it. This brief window is when the lapel control is at its weakest and most vulnerable to being stripped entirely. Once the new threading is complete and tension is re-established in Worm Guard configuration, the defensive opportunity has passed.",
+        "answer_line": "When lapel tension first loosens",
+        "distractors": {
+          "plausible": [
+            "Once Worm Guard is fully set",
+            "Right when Ringworm is secured"
+          ],
+          "trap": [
+            "Wait until they attempt a sweep"
+          ]
+        }
       },
       {
         "question": "Why is it strategically important to prevent the transition from completing rather than dealing with Worm Guard afterward?",
-        "answer": "Worm Guard provides significantly deeper mechanical control than Ringworm Guard, with more powerful sweeps, better submission entries, and tighter restrictions on the top player's movement. Preventing the transition keeps the bottom player in the less threatening Ringworm position. The energy cost of defending against established Worm Guard is substantially higher than interrupting the transition."
+        "answer": "Worm Guard provides significantly deeper mechanical control than Ringworm Guard, with more powerful sweeps, better submission entries, and tighter restrictions on the top player's movement. Preventing the transition keeps the bottom player in the less threatening Ringworm position. The energy cost of defending against established Worm Guard is substantially higher than interrupting the transition.",
+        "answer_line": "Worm Guard is far harder to escape",
+        "distractors": {
+          "plausible": [
+            "Both guards are equally dangerous",
+            "Ringworm is more threatening"
+          ],
+          "trap": [
+            "Let it complete, defend later"
+          ]
+        }
       },
       {
         "question": "Your opponent starts hip escaping and you feel the lapel tension decrease - what is your immediate sequence of actions?",
-        "answer": "Immediately drive your hips forward and down to eliminate the space created by their hip escape. Simultaneously use your nearest hand to grip the lapel material where it is loosening around your leg and begin peeling it away. If you can control their lapel-gripping hand with your other hand, do so to prevent them from completing the rethread. Priority is denying space first, then attacking the grip."
+        "answer": "Immediately drive your hips forward and down to eliminate the space created by their hip escape. Simultaneously use your nearest hand to grip the lapel material where it is loosening around your leg and begin peeling it away. If you can control their lapel-gripping hand with your other hand, do so to prevent them from completing the rethread. Priority is denying space first, then attacking the grip.",
+        "answer_line": "Close space, then strip the grip",
+        "distractors": {
+          "plausible": [
+            "Strip grip first, then close space",
+            "Posture up and stand immediately"
+          ],
+          "trap": [
+            "Release your own grips to reset"
+          ]
+        }
       },
       {
         "question": "How does the bottom player's secondary grip affect your defensive options?",
-        "answer": "The secondary grip on your sleeve or collar limits your ability to posture, use both hands for lapel stripping, or create distance by standing. If they have strong sleeve control, your grip-stripping hand is restricted. If they have collar control, your posture and base are compromised. Address the secondary grip first when possible, or accept that you may need to sacrifice posture temporarily to strip the primary lapel control."
+        "answer": "The secondary grip on your sleeve or collar limits your ability to posture, use both hands for lapel stripping, or create distance by standing. If they have strong sleeve control, your grip-stripping hand is restricted. If they have collar control, your posture and base are compromised. Address the secondary grip first when possible, or accept that you may need to sacrifice posture temporarily to strip the primary lapel control.",
+        "answer_line": "Secondary grip limits your options",
+        "distractors": {
+          "plausible": [
+            "Secondary grip doesn't matter",
+            "Only the primary grip matters"
+          ],
+          "trap": [
+            "Ignore it, rip the lapel free"
+          ]
+        }
       },
       {
         "question": "What visual and tactile cues distinguish an actual transition attempt from normal Ringworm Guard adjustments?",
-        "answer": "An actual transition attempt is characterized by a deliberate hip escape creating a new angle, simultaneous strengthening of the secondary grip on your sleeve or collar, and the lapel hand sliding along the material rather than simply adjusting tension. Normal adjustments maintain consistent tension direction. The transition involves a clear directional change in how the lapel is being fed - from around the outside of your leg to under and through it."
+        "answer": "An actual transition attempt is characterized by a deliberate hip escape creating a new angle, simultaneous strengthening of the secondary grip on your sleeve or collar, and the lapel hand sliding along the material rather than simply adjusting tension. Normal adjustments maintain consistent tension direction. The transition involves a clear directional change in how the lapel is being fed - from around the outside of your leg to under and through it.",
+        "answer_line": "Hip angle change + grip sliding",
+        "distractors": {
+          "plausible": [
+            "Any grip adjustment signals it",
+            "Increased tension alone means it"
+          ],
+          "trap": [
+            "Ignore hands, watch legs only"
+          ]
+        }
       }
     ],
     "training_progressions": [

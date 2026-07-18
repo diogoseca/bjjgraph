@@ -226,43 +226,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of X-Guard Elevation Sweep?",
-        "answer": "The primary goal is to transition from the inverted grasshopper guard position through an X-Guard hook configuration to lift the opponent off their base and sweep them directly into bottom mount. This bypasses intermediate positions entirely, achieving maximum 4-point positional advancement in a single explosive motion from a guard that is inherently unsustainable."
+        "answer": "The primary goal is to transition from the inverted grasshopper guard position through an X-Guard hook configuration to lift the opponent off their base and sweep them directly into bottom mount. This bypasses intermediate positions entirely, achieving maximum 4-point positional advancement in a single explosive motion from a guard that is inherently unsustainable.",
+        "answer_line": "Sweep straight to mount",
+        "distractors": {
+          "plausible": [
+            "Sweep to knee-on-belly",
+            "Advance to back control"
+          ],
+          "trap": [
+            "Pull guard and reset"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the X-Guard Elevation Sweep?",
-        "answer": "You need grasshopper guard established with shoulders on mat and hips elevated, a controlling grip on the opponent's near-side limb, and the opponent must be standing with weight centered or forward. Their base should be narrow enough that your hooks can reach both legs. If they have already widened their stance and dropped their hips, the direct elevation will lack sufficient leverage."
+        "answer": "You need grasshopper guard established with shoulders on mat and hips elevated, a controlling grip on the opponent's near-side limb, and the opponent must be standing with weight centered or forward. Their base should be narrow enough that your hooks can reach both legs. If they have already widened their stance and dropped their hips, the direct elevation will lack sufficient leverage.",
+        "answer_line": "Hooks loaded, grip, narrow base",
+        "distractors": {
+          "plausible": [
+            "Opponent seated, loose grip",
+            "Wide stance, deep grips"
+          ],
+          "trap": [
+            "Opponent already sprawled flat"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip position required before initiating the elevation?",
-        "answer": "Your hips must be loaded directly underneath the opponent's center of gravity so that your hook extension generates vertical force through their base rather than pushing them horizontally away from you. If hips are too far away, you pull them toward you instead of lifting. If too close, you lack extension range. The optimal position places the hook platform directly under their standing legs."
+        "answer": "Your hips must be loaded directly underneath the opponent's center of gravity so that your hook extension generates vertical force through their base rather than pushing them horizontally away from you. If hips are too far away, you pull them toward you instead of lifting. If too close, you lack extension range. The optimal position places the hook platform directly under their standing legs.",
+        "answer_line": "Hips under their center",
+        "distractors": {
+          "plausible": [
+            "Hips pulled in close",
+            "Hips extended far back"
+          ],
+          "trap": [
+            "Hips off to the side"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for X-Guard Elevation Sweep?",
-        "answer": "The essential grip is near-side ankle, sleeve, or wrist control that prevents the opponent from stepping back or posting when swept. This grip serves two functions: it blocks their primary recovery option (backward stepping) and allows you to pull their weight forward onto your hooks before the elevation. In gi, belt grip provides enhanced rotational control as an alternative."
+        "answer": "The essential grip is near-side ankle, sleeve, or wrist control that prevents the opponent from stepping back or posting when swept. This grip serves two functions: it blocks their primary recovery option (backward stepping) and allows you to pull their weight forward onto your hooks before the elevation. In gi, belt grip provides enhanced rotational control as an alternative.",
+        "answer_line": "Near-side ankle or wrist grip",
+        "distractors": {
+          "plausible": [
+            "Far-side collar grip",
+            "Both sleeves control"
+          ],
+          "trap": [
+            "Grip their lead knee"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and drops their hips as you begin inserting X-Guard hooks - how do you adjust?",
-        "answer": "Abandon the elevation sweep and transition to leg entanglement entries. Their lowered hips and wide base make vertical elevation ineffective but create vulnerability to Ashi Garami or Single Leg X-Guard entries. Use your existing hook contact to thread into inside ashi, or redirect to a rolling kneebar. The defensive posture that stops the sweep actually assists leg attack transitions."
+        "answer": "Abandon the elevation sweep and transition to leg entanglement entries. Their lowered hips and wide base make vertical elevation ineffective but create vulnerability to Ashi Garami or Single Leg X-Guard entries. Use your existing hook contact to thread into inside ashi, or redirect to a rolling kneebar. The defensive posture that stops the sweep actually assists leg attack transitions.",
+        "answer_line": "Switch to leg entanglement",
+        "distractors": {
+          "plausible": [
+            "Force the elevation harder",
+            "Re-grip and reset guard"
+          ],
+          "trap": [
+            "Release hooks and stand up"
+          ]
+        }
       },
       {
         "question": "What direction of force does the elevation sweep generate, and how does the grip coordinate with it?",
-        "answer": "The legs generate vertical and slightly backward force through hip extension, lifting the opponent up and over. The upper body grip simultaneously pulls the opponent forward and down, preventing backward recovery. These opposing vectors create rotational force that topples the opponent over the fulcrum of your hooks. Disconnecting these forces by extending without pulling allows the opponent to simply step back."
+        "answer": "The legs generate vertical and slightly backward force through hip extension, lifting the opponent up and over. The upper body grip simultaneously pulls the opponent forward and down, preventing backward recovery. These opposing vectors create rotational force that topples the opponent over the fulcrum of your hooks. Disconnecting these forces by extending without pulling allows the opponent to simply step back.",
+        "answer_line": "Legs lift, grip pulls down",
+        "distractors": {
+          "plausible": [
+            "Legs push, grip pulls up",
+            "Legs pull, grip pushes back"
+          ],
+          "trap": [
+            "Extend legs, release grip"
+          ]
+        }
       },
       {
         "question": "Your hooks start slipping during the elevation attempt because the opponent is stepping back - what is your immediate recovery?",
-        "answer": "If hooks begin slipping, abandon the elevation immediately rather than forcing a compromised sweep. If the primary knee hook slips, transition to Single Leg X-Guard which requires less hook depth. If the hip hook slips, use the remaining knee hook to follow their retreating movement and enter Ashi Garami. Never continue an elevation attempt with compromised hooks as it wastes energy and exposes you to passing."
+        "answer": "If hooks begin slipping, abandon the elevation immediately rather than forcing a compromised sweep. If the primary knee hook slips, transition to Single Leg X-Guard which requires less hook depth. If the hip hook slips, use the remaining knee hook to follow their retreating movement and enter Ashi Garami. Never continue an elevation attempt with compromised hooks as it wastes energy and exposes you to passing.",
+        "answer_line": "Abandon, flow to ashi entry",
+        "distractors": {
+          "plausible": [
+            "Reinsert same hook harder",
+            "Switch grips and retry"
+          ],
+          "trap": [
+            "Chase with a forward drive"
+          ]
+        }
       },
       {
         "question": "How does the grasshopper-to-X-Guard transition differ from entering X-Guard directly from seated or butterfly guard?",
-        "answer": "The grasshopper entry uses the inverted position to thread hooks from below while the opponent stands above, inserting legs upward into the X-Guard configuration. Standard butterfly or seated entries require ducking underneath the opponent. The grasshopper entry benefits from pre-existing hip elevation and shoulder base, but demands more core strength and happens faster due to the position's unsustainability. The inverted angle also provides different leverage for the initial hook insertion."
+        "answer": "The grasshopper entry uses the inverted position to thread hooks from below while the opponent stands above, inserting legs upward into the X-Guard configuration. Standard butterfly or seated entries require ducking underneath the opponent. The grasshopper entry benefits from pre-existing hip elevation and shoulder base, but demands more core strength and happens faster due to the position's unsustainability. The inverted angle also provides different leverage for the initial hook insertion.",
+        "answer_line": "Thread hooks up from inverted",
+        "distractors": {
+          "plausible": [
+            "Duck under like butterfly",
+            "Enter from seated base"
+          ],
+          "trap": [
+            "Sit up to shoot the hooks"
+          ]
+        }
       },
       {
         "question": "Why must the grasshopper-to-X-Guard-to-elevation sequence happen as one continuous motion rather than three separate steps?",
-        "answer": "Grasshopper guard has a 10-15 second sustainability window due to extreme core engagement demands. Pausing at each stage wastes this limited window and gives the opponent time to recognize and counter each phase individually. The continuous motion also generates momentum that carries through into the elevation, making the sweep more powerful. A stalled transition in X-Guard configuration without immediate elevation allows the opponent to begin stepping around or back-stepping."
+        "answer": "Grasshopper guard has a 10-15 second sustainability window due to extreme core engagement demands. Pausing at each stage wastes this limited window and gives the opponent time to recognize and counter each phase individually. The continuous motion also generates momentum that carries through into the elevation, making the sweep more powerful. A stalled transition in X-Guard configuration without immediate elevation allows the opponent to begin stepping around or back-stepping.",
+        "answer_line": "Grasshopper window is seconds",
+        "distractors": {
+          "plausible": [
+            "Builds grip strength first",
+            "Lets opponent commit weight"
+          ],
+          "trap": [
+            "Pause to secure grips first"
+          ]
+        }
       },
       {
         "question": "After successfully sweeping to mount, what is your immediate priority and why?",
-        "answer": "Immediately establish heavy hip pressure at the opponent's solar plexus with knees squeezed against their torso before they can frame or bridge. The opponent is momentarily disoriented from the sweep landing, giving you a brief window to consolidate mount control. If you hesitate or land light, they will bridge, create frames, or insert a knee to recover half guard. Establishing heavy contact first, then transitioning to grips or submissions second."
+        "answer": "Immediately establish heavy hip pressure at the opponent's solar plexus with knees squeezed against their torso before they can frame or bridge. The opponent is momentarily disoriented from the sweep landing, giving you a brief window to consolidate mount control. If you hesitate or land light, they will bridge, create frames, or insert a knee to recover half guard. Establishing heavy contact first, then transitioning to grips or submissions second.",
+        "answer_line": "Heavy hips at solar plexus",
+        "distractors": {
+          "plausible": [
+            "Immediately hunt an armbar",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Sit up tall to posture"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the X-Guard Elevation Sweep, both partners must prioritize controlled execution throughout the movement. The sweep generates significant vertical and rotational force that can cause unexpected falls. The landing partner should be proficient in backward breakfalls before drilling at any meaningful speed. The sweeping partner must guide the opponent's descent rather than simply dumping them. Avoid full-power execution until both partners are comfortable with the landing mechanics. Be cautious of knee strain on both the sweeping player's hooks and the swept player's trapped leg - release immediately if either partner feels compression or torque on the knee joint. The inverted grasshopper position places load on the cervical spine, so practitioners with neck issues should approach cautiously and avoid forcing the inversion. During live training, tap immediately if the position feels compromised rather than fighting through structural failure.",
@@ -370,23 +470,73 @@
     "flashcards": [
       {
         "question": "What is the earliest moment you can recognize that an X-Guard Elevation Sweep is being initiated from grasshopper guard?",
-        "answer": "The earliest recognition point is when the opponent's legs begin threading underneath your hips from the inverted position, with the inside foot seeking your far hip. Before they reach full X-Guard hook configuration, you should feel their body sliding directly underneath your base and their grip tightening on your near-side ankle or wrist. This hook-threading phase is the optimal defensive window because the attacker has not yet loaded their platform."
+        "answer": "The earliest recognition point is when the opponent's legs begin threading underneath your hips from the inverted position, with the inside foot seeking your far hip. Before they reach full X-Guard hook configuration, you should feel their body sliding directly underneath your base and their grip tightening on your near-side ankle or wrist. This hook-threading phase is the optimal defensive window because the attacker has not yet loaded their platform.",
+        "answer_line": "Feel legs thread under hips",
+        "distractors": {
+          "plausible": [
+            "See hooks fully locked in",
+            "Notice ankle grip tighten"
+          ],
+          "trap": [
+            "Wait until elevation starts"
+          ]
+        }
       },
       {
         "question": "Why is stepping backward the first defensive priority when you feel X-Guard hooks being inserted?",
-        "answer": "Stepping backward extracts your legs from the hook configuration before the attacker can load their hips underneath your center of gravity. The X-Guard elevation requires both hooks to be set and the attacker's hips to be positioned directly beneath you. Backward movement removes your legs from their threading range and breaks the mechanical structure needed for the sweep. However, you must also break their grip on your ankle or wrist, because that grip prevents backward extraction and allows them to follow your retreat."
+        "answer": "Stepping backward extracts your legs from the hook configuration before the attacker can load their hips underneath your center of gravity. The X-Guard elevation requires both hooks to be set and the attacker's hips to be positioned directly beneath you. Backward movement removes your legs from their threading range and breaks the mechanical structure needed for the sweep. However, you must also break their grip on your ankle or wrist, because that grip prevents backward extraction and allows them to follow your retreat.",
+        "answer_line": "Step back, break their grip",
+        "distractors": {
+          "plausible": [
+            "Step back, keep grip contact",
+            "Sprawl forward to flatten"
+          ],
+          "trap": [
+            "Push forward into the hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully loaded X-Guard hooks and is beginning the elevation - what is your best late-stage defensive option?",
-        "answer": "Post your hand firmly on the mat behind you to create a structural brace against the backward toppling motion while simultaneously widening your base as much as possible. This is an emergency defense that arrests the sweep mid-execution. Once the fall is stopped, immediately work to step around the hooks and disengage or initiate a pass. Be aware that the attacker will try to increase their grip pull to break your post, so prepare to angle your body diagonally rather than absorbing force straight backward."
+        "answer": "Post your hand firmly on the mat behind you to create a structural brace against the backward toppling motion while simultaneously widening your base as much as possible. This is an emergency defense that arrests the sweep mid-execution. Once the fall is stopped, immediately work to step around the hooks and disengage or initiate a pass. Be aware that the attacker will try to increase their grip pull to break your post, so prepare to angle your body diagonally rather than absorbing force straight backward.",
+        "answer_line": "Post hand, widen base",
+        "distractors": {
+          "plausible": [
+            "Sprawl weight straight back",
+            "Grab their far ankle"
+          ],
+          "trap": [
+            "Drive forward through hooks"
+          ]
+        }
       },
       {
         "question": "Why should you avoid driving forward into a grasshopper guard player who already has partial X-Guard hooks set?",
-        "answer": "Forward pressure after hooks are partially set loads your weight directly onto the attacker's hook platform, providing the energy they need to complete the elevation sweep. The X-Guard Elevation Sweep is fundamentally a counter-pressure technique that converts forward weight commitment into upward sweeping force. Your forward drive becomes the sweep's power source. Instead, move laterally through base widening or backward through leg extraction to deny the attacker the weight loading they require."
+        "answer": "Forward pressure after hooks are partially set loads your weight directly onto the attacker's hook platform, providing the energy they need to complete the elevation sweep. The X-Guard Elevation Sweep is fundamentally a counter-pressure technique that converts forward weight commitment into upward sweeping force. Your forward drive becomes the sweep's power source. Instead, move laterally through base widening or backward through leg extraction to deny the attacker the weight loading they require.",
+        "answer_line": "Don't feed forward pressure",
+        "distractors": {
+          "plausible": [
+            "Drive through to flatten them",
+            "Push in to smash the hooks"
+          ],
+          "trap": [
+            "Lean in to break posture"
+          ]
+        }
       },
       {
         "question": "How does the grasshopper guard's limited sustainability factor into your defensive strategy?",
-        "answer": "Grasshopper guard requires extreme core engagement and cannot be maintained beyond 10-15 seconds effectively. This means patient, safe defense that denies attack opportunities will force the attacker to either commit to a compromised sweep attempt or abandon the position entirely due to fatigue. Your strategy should prioritize denying their quick attack windows through base management and active hook denial rather than rushing to counter-attack, because time itself degrades their offensive capacity from this position."
+        "answer": "Grasshopper guard requires extreme core engagement and cannot be maintained beyond 10-15 seconds effectively. This means patient, safe defense that denies attack opportunities will force the attacker to either commit to a compromised sweep attempt or abandon the position entirely due to fatigue. Your strategy should prioritize denying their quick attack windows through base management and active hook denial rather than rushing to counter-attack, because time itself degrades their offensive capacity from this position.",
+        "answer_line": "Play patient, let fatigue win",
+        "distractors": {
+          "plausible": [
+            "Rush a scramble immediately",
+            "Match their pace and force"
+          ],
+          "trap": [
+            "Counter-attack aggressively now"
+          ]
+        }
       }
     ],
     "training_progressions": [

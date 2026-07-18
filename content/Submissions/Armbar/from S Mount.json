@@ -314,45 +314,145 @@
       {
         "question": "What anatomical structures does the Armbar from S Mount primarily attack?",
         "answer": "The armbar primarily targets the elbow joint, specifically hyperextending it beyond its natural range of motion. The fulcrum point at the hip applies force against the olecranon process of the ulna, stretching the ulnar collateral ligament and radial collateral ligament. Secondary stress is placed on the shoulder joint through the combined rotational and extension forces. The biceps tendon and brachialis muscle also resist the extension, making them vulnerable to strain when the submission is applied against muscular resistance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint primarily",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "What are the breaking point indicators that tell you the submission is close to causing injury?",
         "answer": "The primary indicators include the opponent's arm reaching near-full extension with visible muscle trembling as they resist, any audible popping or clicking sound from the elbow joint, sudden loss of resistance indicating ligament failure, and the opponent's verbal or physical expressions of pain. The elbow reaches its breaking point within 2-3 degrees of full extension under load. As the attacker, you must apply pressure slowly enough to recognize these signs and allow adequate tap time before injury occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Popping sound or sudden give",
+        "distractors": {
+          "plausible": [
+            "Opponent verbally protests",
+            "Arm reaches full extension"
+          ],
+          "trap": [
+            "Wait for audible bone crack"
+          ]
+        }
       },
       {
         "question": "What control requirements must be established before attempting the armbar finish from S Mount?",
-        "answer": "Before finishing, you must establish: continuous two-on-one wrist control with thumb-up arm orientation, your near leg fully extended over the opponent's head with foot planted on the mat, your far leg crossing their torso with knees squeezed together creating a vise, the opponent's free arm pinned or neutralized to prevent grip fighting, and the elbow positioned directly against your hip bone as the fulcrum. Attempting the finish without any of these control points dramatically increases failure probability."
+        "answer": "Before finishing, you must establish: continuous two-on-one wrist control with thumb-up arm orientation, your near leg fully extended over the opponent's head with foot planted on the mat, your far leg crossing their torso with knees squeezed together creating a vise, the opponent's free arm pinned or neutralized to prevent grip fighting, and the elbow positioned directly against your hip bone as the fulcrum. Attempting the finish without any of these control points dramatically increases failure probability.",
+        "answer_line": "Wrist control, knees squeezed",
+        "distractors": {
+          "plausible": [
+            "Underhook and cross-face grip",
+            "Far leg pin, arm still free"
+          ],
+          "trap": [
+            "Attack immediately, control later"
+          ]
+        }
       },
       {
         "question": "At what point during the armbar sequence does the submission become inescapable for the defender?",
-        "answer": "The point of no escape occurs when the arm is fully extended across the attacker's hips with knees squeezed, the thumb is pointing upward with proper rotation, and the attacker's hips begin driving upward into the elbow joint. Once the hips engage for the bridge-like extension, the mechanical advantage is overwhelming—no amount of bicep strength can overcome the leverage of the entire hip structure. Before this point, the defender can potentially extract the arm, clasp hands, or create space. After hip engagement with full extension, only the tap remains."
+        "answer": "The point of no escape occurs when the arm is fully extended across the attacker's hips with knees squeezed, the thumb is pointing upward with proper rotation, and the attacker's hips begin driving upward into the elbow joint. Once the hips engage for the bridge-like extension, the mechanical advantage is overwhelming—no amount of bicep strength can overcome the leverage of the entire hip structure. Before this point, the defender can potentially extract the arm, clasp hands, or create space. After hip engagement with full extension, only the tap remains.",
+        "answer_line": "Hips drive after full extension",
+        "distractors": {
+          "plausible": [
+            "Thumb rotates upward",
+            "Knees squeeze together"
+          ],
+          "trap": [
+            "Lean back before hips engage"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up and stack you during the lean-back phase—what adjustment prevents escape?",
-        "answer": "When the opponent stacks, pull their wrist toward your hip rather than reaching overhead, which kills their stacking angle. Simultaneously, hook your near leg behind their head to prevent them from posturing up further. If stacking continues, consider transitioning to a belly-down armbar by following their movement and rotating your body to pin them face-down. The critical mistake is trying to lean back further against a stacking opponent—this creates space and weakens your control."
+        "answer": "When the opponent stacks, pull their wrist toward your hip rather than reaching overhead, which kills their stacking angle. Simultaneously, hook your near leg behind their head to prevent them from posturing up further. If stacking continues, consider transitioning to a belly-down armbar by following their movement and rotating your body to pin them face-down. The critical mistake is trying to lean back further against a stacking opponent—this creates space and weakens your control.",
+        "answer_line": "Pull wrist to hip, hook head",
+        "distractors": {
+          "plausible": [
+            "Reach overhead for the wrist",
+            "Switch straight to a triangle"
+          ],
+          "trap": [
+            "Lean back further to finish"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make when the opponent rotates their arm to change the submission angle?",
-        "answer": "If the opponent rotates their arm so the thumb points downward or sideways, you must correct the rotation before finishing. Use your two-on-one grip to rotate their forearm back to thumb-up position by torquing at the wrist. If they actively fight the rotation, switch your grip to control above the elbow and use your hips to force the proper alignment. The armbar requires the elbow's hinge joint to face your hips—any other orientation reduces finishing effectiveness and may allow the arm to bend rather than hyperextend."
+        "answer": "If the opponent rotates their arm so the thumb points downward or sideways, you must correct the rotation before finishing. Use your two-on-one grip to rotate their forearm back to thumb-up position by torquing at the wrist. If they actively fight the rotation, switch your grip to control above the elbow and use your hips to force the proper alignment. The armbar requires the elbow's hinge joint to face your hips—any other orientation reduces finishing effectiveness and may allow the arm to bend rather than hyperextend.",
+        "answer_line": "Torque grip back to thumb-up",
+        "distractors": {
+          "plausible": [
+            "Switch to leg attack instead",
+            "Ignore rotation, keep pulling"
+          ],
+          "trap": [
+            "Force finish at current angle"
+          ]
+        }
       },
       {
         "question": "How should you handle the transition when your opponent defends with explosive bridging?",
-        "answer": "When the opponent bridges explosively, drop your weight immediately by lowering your center of gravity and widening your posted foot for stability. Do not try to finish the armbar during the bridge—instead, ride the movement by following their hips with yours, maintaining the hip-to-shoulder connection. Once the bridge subsides and they return to the mat, immediately resume the finishing sequence. If the bridge creates significant positional compromise, abandon the armbar and secure standard mount rather than risking position loss."
+        "answer": "When the opponent bridges explosively, drop your weight immediately by lowering your center of gravity and widening your posted foot for stability. Do not try to finish the armbar during the bridge—instead, ride the movement by following their hips with yours, maintaining the hip-to-shoulder connection. Once the bridge subsides and they return to the mat, immediately resume the finishing sequence. If the bridge creates significant positional compromise, abandon the armbar and secure standard mount rather than risking position loss.",
+        "answer_line": "Drop weight, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Post hard and stay high",
+            "Immediately abandon to mount"
+          ],
+          "trap": [
+            "Try to finish during the bridge"
+          ]
+        }
       },
       {
         "question": "What are the most effective competition finishing strategies for the Armbar from S Mount?",
-        "answer": "In competition, speed and decisiveness matter. Establish S Mount control, immediately secure two-on-one wrist grip, and attack the finish before the opponent can establish defensive grips. If they clasp hands, use the clock—IBJJF rules give you time to work the grip break while maintaining dominant position. Chain from armbar to mounted triangle to back take, forcing the opponent to defend multiple threats. Against elite defenders, the armbar from S Mount often serves as a positional threat that opens other submissions rather than being the final finish itself."
+        "answer": "In competition, speed and decisiveness matter. Establish S Mount control, immediately secure two-on-one wrist grip, and attack the finish before the opponent can establish defensive grips. If they clasp hands, use the clock—IBJJF rules give you time to work the grip break while maintaining dominant position. Chain from armbar to mounted triangle to back take, forcing the opponent to defend multiple threats. Against elite defenders, the armbar from S Mount often serves as a positional threat that opens other submissions rather than being the final finish itself.",
+        "answer_line": "Attack fast before grips set",
+        "distractors": {
+          "plausible": [
+            "Stall in S Mount for points",
+            "Wait for opponent to tire"
+          ],
+          "trap": [
+            "Chase submission, ignore position"
+          ]
+        }
       },
       {
         "question": "When should you release the armbar attempt and return to positional control?",
-        "answer": "Release and return to S Mount or standard mount when: the opponent successfully clasps hands and you cannot break the grip within 10-15 seconds, significant positional space has opened that compromises your leg control, the opponent has created enough hip escape distance to begin extracting their arm, or your own energy expenditure on grip breaking exceeds the likely return. The position is always available to re-enter. Forcing a stalled armbar wastes energy and creates counter-attack opportunities for the defender."
+        "answer": "Release and return to S Mount or standard mount when: the opponent successfully clasps hands and you cannot break the grip within 10-15 seconds, significant positional space has opened that compromises your leg control, the opponent has created enough hip escape distance to begin extracting their arm, or your own energy expenditure on grip breaking exceeds the likely return. The position is always available to re-enter. Forcing a stalled armbar wastes energy and creates counter-attack opportunities for the defender.",
+        "answer_line": "Grip clasped 10-15s, no progress",
+        "distractors": {
+          "plausible": [
+            "Only after 30+ seconds stalled",
+            "Wait until hips fully escape"
+          ],
+          "trap": [
+            "Keep grinding no matter what"
+          ]
+        }
       },
       {
         "question": "What is the correct release procedure if your training partner does not tap but you feel their elbow reaching its limit?",
         "answer": "Stop applying additional pressure immediately and hold the current position without releasing. Verbally ask your partner if they want to tap. If they do not respond or seem unaware of the danger, release the submission entirely and communicate that the armbar was fully locked. Never continue applying pressure past the point where you feel structural resistance decreasing—this indicates ligament failure is beginning. In training, your partner's safety always takes priority over finishing the submission. Report any unusual sounds or feelings to your instructor immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, hold, ask, then release",
+        "distractors": {
+          "plausible": [
+            "Ease pressure, finish slowly",
+            "Release instantly without warning"
+          ],
+          "trap": [
+            "Keep applying until they tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -482,29 +582,89 @@
       {
         "question": "What is the single most important defensive action when you feel the armbar being set up from S Mount?",
         "answer": "Immediately grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. This bent-arm position is structurally resistant to extension and buys time for secondary defensive actions. The grip must be established before the attacker secures full wrist control—once they have two-on-one on your wrist with the arm extended, the submission is effectively complete.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Grip own collar, bend elbow",
+        "distractors": {
+          "plausible": [
+            "Pummel for an underhook",
+            "Turn away and hide the arm"
+          ],
+          "trap": [
+            "Push against their hips"
+          ]
+        }
       },
       {
         "question": "When should you tap to an armbar from S Mount rather than continue defending?",
         "answer": "Tap immediately when your arm reaches full extension with the attacker's hips engaged against your elbow and their knees squeezed together. At this point, the mechanical advantage is overwhelming and continued resistance will result in elbow ligament damage within 2-3 seconds. Other tap indicators include any popping sensation in the elbow, sudden sharp pain in the joint, or the feeling that the attacker's hip elevation is driving your elbow past its natural range. Training tomorrow is more important than defending a finished submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Full extension, hips engaged",
+        "distractors": {
+          "plausible": [
+            "Tap as soon as arm aches",
+            "Tap only if they yell"
+          ],
+          "trap": [
+            "Wait for sharp pain to tap"
+          ]
+        }
       },
       {
         "question": "How do you create escape opportunities when the attacker maintains tight S Mount control without attacking?",
-        "answer": "When the attacker holds position without transitioning, use micro-movements to test their base—small hip bumps and shoulder adjustments that force weight shifts. You can bait the armbar attempt by slightly extending the arm, then capitalize on their weight shift as they commit to the lean-back by bridging toward them and collapsing their perpendicular angle. The key principle is forcing them to move so you can time your escape during their transition rather than against their settled control."
+        "answer": "When the attacker holds position without transitioning, use micro-movements to test their base—small hip bumps and shoulder adjustments that force weight shifts. You can bait the armbar attempt by slightly extending the arm, then capitalize on their weight shift as they commit to the lean-back by bridging toward them and collapsing their perpendicular angle. The key principle is forcing them to move so you can time your escape during their transition rather than against their settled control.",
+        "answer_line": "Bait extension, bridge on shift",
+        "distractors": {
+          "plausible": [
+            "Wait passively for their mistake",
+            "Push straight up with both arms"
+          ],
+          "trap": [
+            "Yank the arm free immediately"
+          ]
+        }
       },
       {
         "question": "What is the correct defensive hand positioning when trapped in S Mount with armbar threat?",
-        "answer": "Your trapped hand grips your own collar with a tight fist, keeping the elbow bent and pressed against your ribs. Your free hand controls the attacker's near leg at the knee or shin, physically blocking their ability to step fully over your head. Never switch both hands to the same task—the collar grip is non-negotiable for arm protection, and the leg control prevents the finish. Both must be maintained simultaneously as a coordinated defensive structure."
+        "answer": "Your trapped hand grips your own collar with a tight fist, keeping the elbow bent and pressed against your ribs. Your free hand controls the attacker's near leg at the knee or shin, physically blocking their ability to step fully over your head. Never switch both hands to the same task—the collar grip is non-negotiable for arm protection, and the leg control prevents the finish. Both must be maintained simultaneously as a coordinated defensive structure.",
+        "answer_line": "Collar grip, block near leg",
+        "distractors": {
+          "plausible": [
+            "Both hands grip the collar",
+            "Push their hip, free the arm"
+          ],
+          "trap": [
+            "Let go of collar to push away"
+          ]
+        }
       },
       {
         "question": "How does the bridge escape work against the armbar from S Mount, and when is it most effective?",
-        "answer": "The bridge escape involves explosive hip elevation directed toward the attacker while simultaneously turning toward the trapped arm. This disrupts their perpendicular base and can collapse S Mount back to standard mount. The escape is most effective during the attacker's lean-back phase, when their weight shifts backward and their base becomes momentarily compromised. The bridge must be timed precisely—bridging against a settled attacker wastes energy, while bridging during their transition exploits the weight shift for maximum effectiveness."
+        "answer": "The bridge escape involves explosive hip elevation directed toward the attacker while simultaneously turning toward the trapped arm. This disrupts their perpendicular base and can collapse S Mount back to standard mount. The escape is most effective during the attacker's lean-back phase, when their weight shifts backward and their base becomes momentarily compromised. The bridge must be timed precisely—bridging against a settled attacker wastes energy, while bridging during their transition exploits the weight shift for maximum effectiveness.",
+        "answer_line": "Bridge and turn during lean-back",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up any time",
+            "Turn away without bridging"
+          ],
+          "trap": [
+            "Bridge hard against settled base"
+          ]
+        }
       },
       {
         "question": "What should you prioritize if the attacker successfully extends your arm but has not yet engaged their hips for the finish?",
         "answer": "Immediately turn your body toward the extended arm and try to curl it back by pulling your elbow toward your hip. Simultaneously bridge toward the attacker to reduce the angle they need for the finish. If you can get your elbow past the centerline of their hips, you can begin extracting the arm. If the arm is fully extended but hips are not yet engaged, you have a 1-2 second window—this is your last opportunity before the submission becomes mechanically complete and you must tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Curl elbow to hip, bridge in",
+        "distractors": {
+          "plausible": [
+            "Wait for hips before reacting",
+            "Pull straight back with bicep"
+          ],
+          "trap": [
+            "Relax and accept the position"
+          ]
+        }
       }
     ],
     "training_progressions": [

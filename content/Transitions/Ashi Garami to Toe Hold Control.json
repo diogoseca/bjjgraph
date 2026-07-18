@@ -222,23 +222,73 @@
     "flashcards": [
       {
         "question": "Why is the straight ankle lock defense often the trigger for switching to the toe hold?",
-        "answer": "When a defender points their toes and rotates their heel inward to kill the straight ankle lock, they orient the foot exactly the way a toe hold wants it. The toe hold rotates the foot whereas the ankle lock extends and plantar-flexes it, so the defender's own ankle-lock defense hands the attacker the foot orientation needed for the rotational finish. Reading that rotation and switching grips makes the two attacks a continuous chain."
+        "answer": "When a defender points their toes and rotates their heel inward to kill the straight ankle lock, they orient the foot exactly the way a toe hold wants it. The toe hold rotates the foot whereas the ankle lock extends and plantar-flexes it, so the defender's own ankle-lock defense hands the attacker the foot orientation needed for the rotational finish. Reading that rotation and switching grips makes the two attacks a continuous chain.",
+        "answer_line": "Their defense orients the foot",
+        "distractors": {
+          "plausible": [
+            "Ankle lock fails so switch anyway",
+            "Same foot pressure as ankle lock"
+          ],
+          "trap": [
+            "Release entanglement to re-grip"
+          ]
+        }
       },
       {
         "question": "What must remain constant while you change from the ankle lock grip to the toe hold figure-four?",
-        "answer": "The ashi garami entanglement must remain constant. The grip switch is purely an upper-body change - your legs and hooks keep pinning the opponent's knee line the entire time. If you loosen the entanglement to free your hand, the opponent clears the knee and extracts the leg, collapsing the position to a neutral exchange before you ever lock the toe hold."
+        "answer": "The ashi garami entanglement must remain constant. The grip switch is purely an upper-body change - your legs and hooks keep pinning the opponent's knee line the entire time. If you loosen the entanglement to free your hand, the opponent clears the knee and extracts the leg, collapsing the position to a neutral exchange before you ever lock the toe hold.",
+        "answer_line": "Keep the knee-line pinned",
+        "distractors": {
+          "plausible": [
+            "Keep straight-ankle grip locked",
+            "Switch legs before hands"
+          ],
+          "trap": [
+            "Release entanglement to free hand"
+          ]
+        }
       },
       {
         "question": "How should you grip the foot to make the toe hold effective, and why?",
-        "answer": "Thread your inside hand over the top of the foot to cup the toes and the ball, with your forearm across the instep, then clasp your other wrist underneath to complete a figure-four below the ankle. Gripping the foot itself, rather than the shin or ankle, concentrates rotational torque directly on the ankle joint. Gripping too high spreads the force across the lower leg and produces an ineffective finish."
+        "answer": "Thread your inside hand over the top of the foot to cup the toes and the ball, with your forearm across the instep, then clasp your other wrist underneath to complete a figure-four below the ankle. Gripping the foot itself, rather than the shin or ankle, concentrates rotational torque directly on the ankle joint. Gripping too high spreads the force across the lower leg and produces an ineffective finish.",
+        "answer_line": "Figure-four grip on the foot",
+        "distractors": {
+          "plausible": [
+            "Grip the shin for leverage",
+            "Clasp above the ankle joint"
+          ],
+          "trap": [
+            "Grab the heel and yank hard"
+          ]
+        }
       },
       {
         "question": "What is the correct way to apply the finish once toe hold control is established?",
-        "answer": "Apply rotation slowly and progressively, only after the figure-four grip and knee-line control are completely secured. Rotate the foot toward the opponent's backside while keeping their knee pinned, increasing tension gradually and watching your partner's response. Explosive rotation warns the opponent, invites escapes, and risks injury because it removes the tap window - controlled progression is both safer and higher-percentage."
+        "answer": "Apply rotation slowly and progressively, only after the figure-four grip and knee-line control are completely secured. Rotate the foot toward the opponent's backside while keeping their knee pinned, increasing tension gradually and watching your partner's response. Explosive rotation warns the opponent, invites escapes, and risks injury because it removes the tap window - controlled progression is both safer and higher-percentage.",
+        "answer_line": "Slow rotation once fully locked",
+        "distractors": {
+          "plausible": [
+            "Apply pressure before full grip",
+            "Rotate before knee is pinned"
+          ],
+          "trap": [
+            "Snap the rotation explosively"
+          ]
+        }
       },
       {
         "question": "If the opponent strips your foot grip during the switch, what should you do?",
-        "answer": "Do not chase the degraded foot grip at the expense of your legs. Re-establish the ashi garami entanglement first, re-pinch the knee line, and then either switch back to the straight ankle lock or pummel for a fresh toe hold grip. The entanglement is the position; the grip is replaceable, so falling back to it lets you re-attack instead of losing the position entirely."
+        "answer": "Do not chase the degraded foot grip at the expense of your legs. Re-establish the ashi garami entanglement first, re-pinch the knee line, and then either switch back to the straight ankle lock or pummel for a fresh toe hold grip. The entanglement is the position; the grip is replaceable, so falling back to it lets you re-attack instead of losing the position entirely.",
+        "answer_line": "Re-secure the ashi entanglement",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to toe hold",
+            "Abandon position, reset guard"
+          ],
+          "trap": [
+            "Chase the stripped foot grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "Toe holds attack the ankle ligaments through rotation and can cause serious injury extremely quickly, so this transition demands strict control discipline. Establish the figure-four grip and complete knee-line control before adding any rotational tension, then apply pressure slowly and progressively so your partner has a clear, early tap window. Never rotate explosively or use a sudden jerk, as ligament damage from toe holds can occur within fractions of a second. In training, communicate clearly, tap early, and respect that many gyms and rulesets restrict or ban toe holds for lower belts - drill the grip and control mechanics at low intensity before ever loading the finish.",
@@ -350,15 +400,45 @@
     "flashcards": [
       {
         "question": "What is the single best moment to defend the toe hold entry from ashi garami?",
-        "answer": "The best moment is the grip switch itself - when the attacker releases their straight-ankle-lock blade grip to reach over the top of your foot. During that release their upper-body control is incomplete, so stripping the threading hand and denying your foot before the figure-four clasps is far easier than escaping a fully locked toe hold. Recognizing the release of the ankle-lock grip is the key recognition cue."
+        "answer": "The best moment is the grip switch itself - when the attacker releases their straight-ankle-lock blade grip to reach over the top of your foot. During that release their upper-body control is incomplete, so stripping the threading hand and denying your foot before the figure-four clasps is far easier than escaping a fully locked toe hold. Recognizing the release of the ankle-lock grip is the key recognition cue.",
+        "answer_line": "During the grip-switch release",
+        "distractors": {
+          "plausible": [
+            "Once the figure-four is locked",
+            "Right when rotation begins"
+          ],
+          "trap": [
+            "Wait for them to fully commit"
+          ]
+        }
       },
       {
         "question": "Why should you attack the leg entanglement rather than only fighting the foot grip?",
-        "answer": "The attacker must keep their legs pinning your knee line throughout the grip switch, so the entanglement is the platform the toe hold depends on. If you only fight the hands, the attacker keeps the knee line and simply re-grips your foot. By freeing your knee line - straightening the leg and driving the knee out, or rolling out of the ashi - you dismantle the platform entirely and reset to a neutral guard."
+        "answer": "The attacker must keep their legs pinning your knee line throughout the grip switch, so the entanglement is the platform the toe hold depends on. If you only fight the hands, the attacker keeps the knee line and simply re-grips your foot. By freeing your knee line - straightening the leg and driving the knee out, or rolling out of the ashi - you dismantle the platform entirely and reset to a neutral guard.",
+        "answer_line": "Free the knee line, not the hand",
+        "distractors": {
+          "plausible": [
+            "Strip the figure-four grip fast",
+            "Pry apart their finger grips"
+          ],
+          "trap": [
+            "Fight only the hand grip"
+          ]
+        }
       },
       {
         "question": "When should you stop trying to escape and tap instead?",
-        "answer": "Tap immediately once the figure-four is locked, your foot is isolated, and rotational pressure is being applied with no escape available. Toe holds attack the ankle ligaments through rotation and damage them within fractions of a second with almost no warning. Distinguishing a still-escapable position from an already-locked finish - and tapping early on the latter - is what protects your ankle from a serious, slow-healing injury."
+        "answer": "Tap immediately once the figure-four is locked, your foot is isolated, and rotational pressure is being applied with no escape available. Toe holds attack the ankle ligaments through rotation and damage them within fractions of a second with almost no warning. Distinguishing a still-escapable position from an already-locked finish - and tapping early on the latter - is what protects your ankle from a serious, slow-healing injury.",
+        "answer_line": "Locked, isolated, pressure on",
+        "distractors": {
+          "plausible": [
+            "Tap only if it truly hurts",
+            "Try to power out and stand"
+          ],
+          "trap": [
+            "Wait for an audible pop"
+          ]
+        }
       }
     ],
     "training_progressions": [

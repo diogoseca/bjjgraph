@@ -223,11 +223,31 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Extraction to Guard?",
-        "answer": "The primary goal is to completely clear your leg from the reversed ashi-garami entanglement while maintaining heel protection, then immediately establish an active guard position. This converts a compromised defensive situation into neutral or advantageous positioning without conceding top position."
+        "answer": "The primary goal is to completely clear your leg from the reversed ashi-garami entanglement while maintaining heel protection, then immediately establish an active guard position. This converts a compromised defensive situation into neutral or advantageous positioning without conceding top position.",
+        "answer_line": "Clear leg, protect heel, hit guard",
+        "distractors": {
+          "plausible": [
+            "Clear leg then attack submission",
+            "Escape fully to standing"
+          ],
+          "trap": [
+            "Force leg out ignoring heel"
+          ]
+        }
       },
       {
         "question": "What foot position must you maintain throughout the entire extraction and why?",
-        "answer": "You must maintain dorsiflexion (foot flexed with toes pulled toward shin) throughout the entire extraction sequence. This position protects your heel by pulling it closer to your lower leg, making it extremely difficult for your opponent to establish the grip needed for a heel hook finish even during the movement of extraction."
+        "answer": "You must maintain dorsiflexion (foot flexed with toes pulled toward shin) throughout the entire extraction sequence. This position protects your heel by pulling it closer to your lower leg, making it extremely difficult for your opponent to establish the grip needed for a heel hook finish even during the movement of extraction.",
+        "answer_line": "Dorsiflex foot to protect heel",
+        "distractors": {
+          "plausible": [
+            "Point toes to slip faster",
+            "Relax foot once leg starts moving"
+          ],
+          "trap": [
+            "Extend ankle for more reach"
+          ]
+        }
       },
       {
         "question": "Why is controlling your opponent's inside knee critical during extraction?",
@@ -255,11 +275,31 @@
       },
       {
         "question": "You have cleared the outside leg but the inside leg is still deeply controlling your thigh - what is your best option?",
-        "answer": "When only the outside leg is cleared but inside control remains deep, convert to a partial extraction position rather than forcing full clearance. Insert your free foot as a butterfly hook against their hip to establish an offensive guard position, or transition to deep half guard by using the space created from clearing the outside leg. Forcing full extraction against deep inside control risks re-entanglement or saddle transition."
+        "answer": "When only the outside leg is cleared but inside control remains deep, convert to a partial extraction position rather than forcing full clearance. Insert your free foot as a butterfly hook against their hip to establish an offensive guard position, or transition to deep half guard by using the space created from clearing the outside leg. Forcing full extraction against deep inside control risks re-entanglement or saddle transition.",
+        "answer_line": "Hook foot on hip or go deep half",
+        "distractors": {
+          "plausible": [
+            "Yank inside leg free anyway",
+            "Sit up to standing escape"
+          ],
+          "trap": [
+            "Force full clearance immediately"
+          ]
+        }
       },
       {
         "question": "What grip on your opponent's body creates the most effective frame for pushing their hips away during extraction?",
-        "answer": "Place your free foot on their far hip with your knee pointed outward, creating a structural push frame that uses your entire leg's strength rather than just your arms. Supplement with your free hand pushing on their near-side knee or hip. The foot-on-hip frame is critical because it generates enough force to create meaningful separation while being difficult for the opponent to strip, unlike hand frames which can be grip-fought away."
+        "answer": "Place your free foot on their far hip with your knee pointed outward, creating a structural push frame that uses your entire leg's strength rather than just your arms. Supplement with your free hand pushing on their near-side knee or hip. The foot-on-hip frame is critical because it generates enough force to create meaningful separation while being difficult for the opponent to strip, unlike hand frames which can be grip-fought away.",
+        "answer_line": "Foot on far hip, knee out",
+        "distractors": {
+          "plausible": [
+            "Both hands framing on their hips",
+            "Forearm across their far hip"
+          ],
+          "trap": [
+            "Grip their pants for leverage"
+          ]
+        }
       },
       {
         "question": "How does the direction of your hip escape affect the success of the extraction?",
@@ -375,7 +415,17 @@
       },
       {
         "question": "Your opponent has cleared your outside leg and is working on your inside leg - what is your highest percentage response?",
-        "answer": "Your highest percentage response is to immediately step your inside leg through to establish saddle position. The moment they clear the outside leg, their inside knee control must shift to address your inside leg extraction, creating a brief window. Drive your inside leg across their thigh while your outside leg follows to establish the crossed configuration. This converts their successful outside leg clearance into a positional downgrade from their perspective, moving from partial escape to deeper entanglement."
+        "answer": "Your highest percentage response is to immediately step your inside leg through to establish saddle position. The moment they clear the outside leg, their inside knee control must shift to address your inside leg extraction, creating a brief window. Drive your inside leg across their thigh while your outside leg follows to establish the crossed configuration. This converts their successful outside leg clearance into a positional downgrade from their perspective, moving from partial escape to deeper entanglement.",
+        "answer_line": "Step inside leg through to saddle",
+        "distractors": {
+          "plausible": [
+            "Retreat both legs and reset guard",
+            "Push away and stand up"
+          ],
+          "trap": [
+            "Release entanglement, chase pass"
+          ]
+        }
       },
       {
         "question": "How should you adjust your submission attacks to prevent creating extraction windows during grip changes?",

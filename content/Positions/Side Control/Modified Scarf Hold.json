@@ -85,35 +85,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts to bridge explosively - what adjustment do you make to maintain position?",
-        "answer": "Stay on your toes and lower your hips while driving your chest pressure diagonally toward their far shoulder. Anticipate the bridge direction and be ready to transition to mount if they turn away, or to north-south if they turn into you. Never resist the bridge with static weight - flow with their movement while maintaining chest contact."
+        "answer": "Stay on your toes and lower your hips while driving your chest pressure diagonally toward their far shoulder. Anticipate the bridge direction and be ready to transition to mount if they turn away, or to north-south if they turn into you. Never resist the bridge with static weight - flow with their movement while maintaining chest contact.",
+        "answer_line": "Lower hips, drive chest diagonal",
+        "distractors": {
+          "plausible": [
+            "Post hands and sit back",
+            "Drop straight down chest pressure"
+          ],
+          "trap": [
+            "Resist bridge with static weight"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and contact points for maintaining Modified Scarf Hold?",
-        "answer": "The primary contact point is sternum-to-sternum chest pressure with your weight driving downward. Control the near arm by threading it under your armpit or wrapping your arm around their head. Your head should be heavy on their face or chest. In gi, secure cross-face grip or lapel control; in no-gi, establish an underhook or head control. Keep your far hand posted for base adjustment."
+        "answer": "The primary contact point is sternum-to-sternum chest pressure with your weight driving downward. Control the near arm by threading it under your armpit or wrapping your arm around their head. Your head should be heavy on their face or chest. In gi, secure cross-face grip or lapel control; in no-gi, establish an underhook or head control. Keep your far hand posted for base adjustment.",
+        "answer_line": "Chest-to-chest, trap arm, head heavy",
+        "distractors": {
+          "plausible": [
+            "Lead with cross-face grip control",
+            "Control far arm, head heavy"
+          ],
+          "trap": [
+            "Free near arm for base"
+          ]
+        }
       },
       {
         "question": "How do you shut down your opponent's primary elbow escape attempt from Modified Scarf Hold?",
-        "answer": "Prevent the elbow escape by maintaining heavy hip-to-hip connection on the near side, blocking their ability to create hip space. When you feel them begin to shrimp, drive your hips forward and down while shifting your chest pressure toward their far shoulder. Keep their near arm controlled to prevent frame creation. If they manage to insert a knee, immediately transition to knee-on-belly or float to north-south."
+        "answer": "Prevent the elbow escape by maintaining heavy hip-to-hip connection on the near side, blocking their ability to create hip space. When you feel them begin to shrimp, drive your hips forward and down while shifting your chest pressure toward their far shoulder. Keep their near arm controlled to prevent frame creation. If they manage to insert a knee, immediately transition to knee-on-belly or float to north-south.",
+        "answer_line": "Hip-to-hip pressure, block hip space",
+        "distractors": {
+          "plausible": [
+            "Cross-face harder to stop shrimp",
+            "Chase their hips with your hands"
+          ],
+          "trap": [
+            "Let them shrimp, meet the knee"
+          ]
+        }
       },
       {
         "question": "What is the grip priority hierarchy when your opponent begins fighting grips in Modified Scarf Hold?",
-        "answer": "Priority one is maintaining near-arm control - this prevents both frames and submissions. Priority two is chest-to-chest contact through your sternum. Priority three is head position for directional pressure. If forced to release something, release the head position last because it enables both pressure application and submission setups. Never chase grips at the expense of chest pressure."
+        "answer": "Priority one is maintaining near-arm control - this prevents both frames and submissions. Priority two is chest-to-chest contact through your sternum. Priority three is head position for directional pressure. If forced to release something, release the head position last because it enables both pressure application and submission setups. Never chase grips at the expense of chest pressure.",
+        "answer_line": "Near arm first, release head last",
+        "distractors": {
+          "plausible": [
+            "Chest pressure is top priority",
+            "Release near arm before chest"
+          ],
+          "trap": [
+            "Chase grips over chest pressure"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure to maximize control without exhausting yourself?",
-        "answer": "Use skeletal alignment rather than muscular effort by positioning your sternum directly over their ribcage and letting gravity do the work. Stay on your toes for mobility but let your chest settle heavy. Drive pressure through your core at a 45-degree angle toward their far shoulder rather than straight down. Relax your arms and shoulders - tension should be in your core connection, not your limbs."
+        "answer": "Use skeletal alignment rather than muscular effort by positioning your sternum directly over their ribcage and letting gravity do the work. Stay on your toes for mobility but let your chest settle heavy. Drive pressure through your core at a 45-degree angle toward their far shoulder rather than straight down. Relax your arms and shoulders - tension should be in your core connection, not your limbs.",
+        "answer_line": "Sink weight diagonal, relax arms",
+        "distractors": {
+          "plausible": [
+            "Drop weight straight down",
+            "Flatten out, drop full weight"
+          ],
+          "trap": [
+            "Squeeze hard with your arms"
+          ]
+        }
       },
       {
         "question": "Your opponent creates slight hip space and begins turning their hips toward you - how do you respond?",
-        "answer": "Immediately recognize this as a north-south transition opportunity. Circle your hips toward their head while maintaining chest contact, sliding into north-south position before they can complete the turn. Alternatively, if they expose their back while turning, take the gift and transition to back control. Never fight their turning motion directly - use it to improve your position."
+        "answer": "Immediately recognize this as a north-south transition opportunity. Circle your hips toward their head while maintaining chest contact, sliding into north-south position before they can complete the turn. Alternatively, if they expose their back while turning, take the gift and transition to back control. Never fight their turning motion directly - use it to improve your position.",
+        "answer_line": "Flow to north-south, chest attached",
+        "distractors": {
+          "plausible": [
+            "Follow to mount instead",
+            "Stay put and reinforce chest"
+          ],
+          "trap": [
+            "Fight the turn back to side"
+          ]
+        }
       },
       {
         "question": "How do you manage your energy during an extended period in Modified Scarf Hold?",
-        "answer": "Settle your weight through proper skeletal alignment so gravity maintains pressure, not muscular effort. Breathe steadily and avoid holding your breath when applying pressure. Stay mentally calm and patient rather than rushing submissions. Use micro-adjustments rather than major repositioning. Let the position do the work - their energy expenditure escaping should far exceed your energy maintaining."
+        "answer": "Settle your weight through proper skeletal alignment so gravity maintains pressure, not muscular effort. Breathe steadily and avoid holding your breath when applying pressure. Stay mentally calm and patient rather than rushing submissions. Use micro-adjustments rather than major repositioning. Let the position do the work - their energy expenditure escaping should far exceed your energy maintaining.",
+        "answer_line": "Settle weight, breathe steady",
+        "distractors": {
+          "plausible": [
+            "Hold your breath under pressure",
+            "Big resets to reload pressure"
+          ],
+          "trap": [
+            "Rush finishes to end it fast"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and inserts their far knee between your bodies - how do you recover position?",
-        "answer": "Immediately address the knee before it becomes a full knee shield. Drive your hips forward and use your near-side arm to push their knee down and toward their chest, flattening them. If the knee is too established, transition to knee-on-belly on the far side or float to north-south. Never settle into half guard from Modified Scarf Hold - either recover full control or advance position."
+        "answer": "Immediately address the knee before it becomes a full knee shield. Drive your hips forward and use your near-side arm to push their knee down and toward their chest, flattening them. If the knee is too established, transition to knee-on-belly on the far side or float to north-south. Never settle into half guard from Modified Scarf Hold - either recover full control or advance position.",
+        "answer_line": "Flatten the knee, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Sit back and reset your base",
+            "Push knee away, disengage chest"
+          ],
+          "trap": [
+            "Settle into half guard top"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -408,31 +488,101 @@
       },
       {
         "question": "What are the essential frames you need to establish before attempting any escape from Modified Scarf Hold bottom?",
-        "answer": "The primary frame is your free (far) arm positioned with elbow against their hip and hand on their shoulder or bicep, creating a diagonal barrier. This prevents them from advancing to mount and creates the initial space for hip movement. Secondary frame is protecting your trapped arm by keeping elbow connected to your ribs. Never attempt escapes without frames - you need structure before movement."
+        "answer": "The primary frame is your free (far) arm positioned with elbow against their hip and hand on their shoulder or bicep, creating a diagonal barrier. This prevents them from advancing to mount and creates the initial space for hip movement. Secondary frame is protecting your trapped arm by keeping elbow connected to your ribs. Never attempt escapes without frames - you need structure before movement.",
+        "answer_line": "Far-arm frame at hip and shoulder",
+        "distractors": {
+          "plausible": [
+            "Push off their hips with both hands",
+            "Bridge first, then build frames"
+          ],
+          "trap": [
+            "Skip frames, explode immediately"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from isolating your near arm for americana or kimura submissions?",
-        "answer": "Keep your near arm elbow glued to your ribs at all times - the arm only becomes vulnerable when it extends away from your body. If they begin prying your arm loose, grab your own lapel (gi) or grip your far bicep (no-gi) to anchor the arm. Fight to keep your elbow pointing down toward your hip, never allow it to point toward your head or away from your centerline."
+        "answer": "Keep your near arm elbow glued to your ribs at all times - the arm only becomes vulnerable when it extends away from your body. If they begin prying your arm loose, grab your own lapel (gi) or grip your far bicep (no-gi) to anchor the arm. Fight to keep your elbow pointing down toward your hip, never allow it to point toward your head or away from your centerline.",
+        "answer_line": "Glue elbow to ribs, anchor grip",
+        "distractors": {
+          "plausible": [
+            "Grab their sleeve to block arm",
+            "Push their hand away with yours"
+          ],
+          "trap": [
+            "Point elbow toward your head"
+          ]
+        }
       },
       {
         "question": "What is the proper timing for a bridge escape attempt from Modified Scarf Hold bottom?",
-        "answer": "Bridge only when your opponent shifts their weight - typically when they reach for a submission, adjust their position, or begin transitioning. Never bridge against a fully settled opponent as they will simply ride it and potentially advance to mount. Feel for the moment their hips lift or their chest pressure lightens, then bridge immediately and directionally toward their trapped side."
+        "answer": "Bridge only when your opponent shifts their weight - typically when they reach for a submission, adjust their position, or begin transitioning. Never bridge against a fully settled opponent as they will simply ride it and potentially advance to mount. Feel for the moment their hips lift or their chest pressure lightens, then bridge immediately and directionally toward their trapped side.",
+        "answer_line": "Bridge on their weight shift",
+        "distractors": {
+          "plausible": [
+            "Bridge the moment guard is passed",
+            "Bridge straight up, not angled"
+          ],
+          "trap": [
+            "Bridge hard against settled opponent"
+          ]
+        }
       },
       {
         "question": "How should you apply your frames to create the initial space needed for hip escape?",
-        "answer": "Use your free arm frame to push at their hip at a 45-degree angle away from you - not straight up. Simultaneously turn your hips away from them, even just a few inches. The goal is incremental space creation, not explosive movement. Once you have any hip angle, immediately insert your near knee between your bodies to establish a guard recovery pathway."
+        "answer": "Use your free arm frame to push at their hip at a 45-degree angle away from you - not straight up. Simultaneously turn your hips away from them, even just a few inches. The goal is incremental space creation, not explosive movement. Once you have any hip angle, immediately insert your near knee between your bodies to establish a guard recovery pathway.",
+        "answer_line": "Frame hip at 45°, turn hips away",
+        "distractors": {
+          "plausible": [
+            "Push straight up off their chest",
+            "Turn hips toward them for space"
+          ],
+          "trap": [
+            "Explode hips all at once"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to transition toward mount while maintaining chest pressure - how do you anticipate and respond?",
-        "answer": "The mount transition telegraph is when they shift their weight toward your far side and begin walking their knees up. The moment you feel this weight shift, turn aggressively toward them and shoot your near knee across their path to block the mount. If too late to block, immediately switch to a mount escape - do not try to recover side control bottom once mount is being established."
+        "answer": "The mount transition telegraph is when they shift their weight toward your far side and begin walking their knees up. The moment you feel this weight shift, turn aggressively toward them and shoot your near knee across their path to block the mount. If too late to block, immediately switch to a mount escape - do not try to recover side control bottom once mount is being established.",
+        "answer_line": "Shoot knee across to block mount",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to stop the mount",
+            "Frame on their hips and wait"
+          ],
+          "trap": [
+            "Try to recover side control bottom"
+          ]
+        }
       },
       {
         "question": "How do you manage your energy when trapped in an extended Modified Scarf Hold situation?",
-        "answer": "Avoid explosive movements that deplete energy without creating escape opportunities. Maintain steady breathing despite pressure. Make small, purposeful adjustments rather than large desperate movements. Accept that you may need to survive for extended periods - settle mentally into efficient defense mode. Save explosive movements for high-percentage escape moments only."
+        "answer": "Avoid explosive movements that deplete energy without creating escape opportunities. Maintain steady breathing despite pressure. Make small, purposeful adjustments rather than large desperate movements. Accept that you may need to survive for extended periods - settle mentally into efficient defense mode. Save explosive movements for high-percentage escape moments only.",
+        "answer_line": "Micro-adjustments, stay patient",
+        "distractors": {
+          "plausible": [
+            "Rush every escape opportunity",
+            "Hold breath, brace for pressure"
+          ],
+          "trap": [
+            "Big desperate explosive escapes"
+          ]
+        }
       },
       {
         "question": "You partially escape to turtle position but opponent still has hooks and chest contact - how do you complete the escape?",
-        "answer": "From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard or standing, or be prepared to defend back takes."
+        "answer": "From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard or standing, or be prepared to defend back takes.",
+        "answer_line": "Post, drive back, keep moving",
+        "distractors": {
+          "plausible": [
+            "Sit flat and turtle deeper",
+            "Turn to face and rebuild guard slow"
+          ],
+          "trap": [
+            "Stay static, let them settle"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -669,35 +819,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Modified Scarf Hold and distinguishes it from other pins?",
-      "answer": "Modified Scarf Hold, or Kuzure Kesa-Gatame, is a side-control-family pin in which the top player lies chest-to-chest across the bottom player's torso while trapping the near arm and pressuring the head. The defining feature is the squarer, more centered chest alignment combined with head-and-arm entanglement, blending elements of both classical scarf hold and orthodox side control. The near-side arm is bundled between the two bodies rather than free, and the top player's sternum sits directly over the bottom player's ribcage. This chest-centered geometry is what separates it as a distinct configuration rather than a simple side-control variant."
+      "answer": "Modified Scarf Hold, or Kuzure Kesa-Gatame, is a side-control-family pin in which the top player lies chest-to-chest across the bottom player's torso while trapping the near arm and pressuring the head. The defining feature is the squarer, more centered chest alignment combined with head-and-arm entanglement, blending elements of both classical scarf hold and orthodox side control. The near-side arm is bundled between the two bodies rather than free, and the top player's sternum sits directly over the bottom player's ribcage. This chest-centered geometry is what separates it as a distinct configuration rather than a simple side-control variant.",
+      "answer_line": "Chest-to-chest, near arm trapped",
+      "distractors": {
+        "plausible": [
+          "Hip-to-hip pin like Kesa Gatame",
+          "Both arms free, head control only"
+        ],
+        "trap": [
+          "Loose chest, arm hangs free"
+        ]
+      }
     },
     {
       "question": "How does the chest-over-chest pressure of Modified Scarf Hold create its characteristic control dynamic?",
-      "answer": "The top player's sternum is stacked directly over the bottom player's ribcage, channeling body weight through skeletal alignment rather than muscular effort. This downward, slightly diagonal force toward the far shoulder compresses the ribcage and restricts the bottom player's ability to expand the chest and breathe fully. Because the weight is centered rather than offset, the bottom player cannot easily rotate their torso to create the hip space needed for escape. The sustained compression drains energy over time, making the pressure itself a control mechanism shared by the dynamic between both players."
+      "answer": "The top player's sternum is stacked directly over the bottom player's ribcage, channeling body weight through skeletal alignment rather than muscular effort. This downward, slightly diagonal force toward the far shoulder compresses the ribcage and restricts the bottom player's ability to expand the chest and breathe fully. Because the weight is centered rather than offset, the bottom player cannot easily rotate their torso to create the hip space needed for escape. The sustained compression drains energy over time, making the pressure itself a control mechanism shared by the dynamic between both players.",
+      "answer_line": "Centered weight blocks rotation",
+      "distractors": {
+        "plausible": [
+          "Weight sits on shoulder, not chest",
+          "Pressure comes from muscling down"
+        ],
+        "trap": [
+          "Offset weight lets them rotate free"
+        ]
+      }
     },
     {
       "question": "Why is control of the near-side arm the pivotal control point that defines this position for both players?",
-      "answer": "The near arm is bundled between the two torsos, either threaded under the top player's armpit or wrapped with the head, which eliminates the bottom player's primary framing tool on that side. For the top player, this trapped arm is the anchor that prevents frames and simultaneously opens upper-body submission lines. For the bottom player, whether that elbow stays glued to the ribs or extends away determines both escape viability and submission exposure. The position effectively lives or dies on the status of this single arm, making it the shared fulcrum of the exchange."
+      "answer": "The near arm is bundled between the two torsos, either threaded under the top player's armpit or wrapped with the head, which eliminates the bottom player's primary framing tool on that side. For the top player, this trapped arm is the anchor that prevents frames and simultaneously opens upper-body submission lines. For the bottom player, whether that elbow stays glued to the ribs or extends away determines both escape viability and submission exposure. The position effectively lives or dies on the status of this single arm, making it the shared fulcrum of the exchange.",
+      "answer_line": "Trapped arm removes bottom's frame",
+      "distractors": {
+        "plausible": [
+          "Far arm control is the key point",
+          "Head control alone decides it"
+        ],
+        "trap": [
+          "Freeing the arm improves control"
+        ]
+      }
     },
     {
       "question": "How does head positioning govern the pressure angles that hold Modified Scarf Hold together?",
-      "answer": "The top player's head is heavy on the bottom player's face or chest, adding a directional vector of pressure that supplements the chest compression. This head pressure restricts the bottom player's vision and, more importantly, blocks their ability to turn either into or away from the top player. Because turning the torso is the prerequisite for most escapes, the trapped head effectively pins the bottom player's rotational axis. When the head lifts, overall pressure drops sharply and rotational freedom returns, which is why head position dictates the position's stability for both sides."
+      "answer": "The top player's head is heavy on the bottom player's face or chest, adding a directional vector of pressure that supplements the chest compression. This head pressure restricts the bottom player's vision and, more importantly, blocks their ability to turn either into or away from the top player. Because turning the torso is the prerequisite for most escapes, the trapped head effectively pins the bottom player's rotational axis. When the head lifts, overall pressure drops sharply and rotational freedom returns, which is why head position dictates the position's stability for both sides.",
+      "answer_line": "Head pins rotation, blocks turns",
+      "distractors": {
+        "plausible": [
+          "Hip pressure controls the turn",
+          "Head position only affects vision"
+        ],
+        "trap": [
+          "Lifting head increases pressure"
+        ]
+      }
     },
     {
       "question": "What distinguishes Modified Scarf Hold from traditional Kesa Gatame in terms of hip placement and body angle?",
-      "answer": "In classical Kesa Gatame the top player's head and hips drop low toward the opponent's hip line, sitting to the side with the near arm hooked high and the body angled steeply away. Modified Scarf Hold keeps a higher, squarer chest position stacked over the ribcage rather than dropping toward the hips. This trades away some of the scarf hold's hip mobility and headlock leverage for heavier, more centered chest pressure and a cleaner platform for upper-body attacks. The result sits on the spectrum between orthodox side control and full Kesa Gatame."
+      "answer": "In classical Kesa Gatame the top player's head and hips drop low toward the opponent's hip line, sitting to the side with the near arm hooked high and the body angled steeply away. Modified Scarf Hold keeps a higher, squarer chest position stacked over the ribcage rather than dropping toward the hips. This trades away some of the scarf hold's hip mobility and headlock leverage for heavier, more centered chest pressure and a cleaner platform for upper-body attacks. The result sits on the spectrum between orthodox side control and full Kesa Gatame.",
+      "answer_line": "Higher chest, not dropped to hips",
+      "distractors": {
+        "plausible": [
+          "Lower hips like classic Kesa",
+          "Same angle, just tighter grips"
+        ],
+        "trap": [
+          "Drop hips low for more leverage"
+        ]
+      }
     },
     {
       "question": "How does the weight distribution in Modified Scarf Hold shift dynamically as the bottom player moves?",
-      "answer": "Effective weight in this position is not static; it rides the top player's toes and shifts diagonally toward the far shoulder in response to the bottom player's bridges and hip movement. When the bottom player bridges, the pressure vector redirects rather than resisting head-on, flowing with the movement to preserve chest contact. This dynamic redistribution is the shared mechanic that makes the position stable, because static weight gives the bottom player micro-movements to accumulate into escapes. Both players are effectively negotiating where the weight settles from moment to moment."
+      "answer": "Effective weight in this position is not static; it rides the top player's toes and shifts diagonally toward the far shoulder in response to the bottom player's bridges and hip movement. When the bottom player bridges, the pressure vector redirects rather than resisting head-on, flowing with the movement to preserve chest contact. This dynamic redistribution is the shared mechanic that makes the position stable, because static weight gives the bottom player micro-movements to accumulate into escapes. Both players are effectively negotiating where the weight settles from moment to moment.",
+      "answer_line": "Weight flows, not static",
+      "distractors": {
+        "plausible": [
+          "Weight shifts only side to side",
+          "Weight moves only when submitting"
+        ],
+        "trap": [
+          "Weight stays fixed for stability"
+        ]
+      }
     },
     {
       "question": "How does Modified Scarf Hold sit within the side control family relative to North-South, Mount, and Knee on Belly?",
-      "answer": "Modified Scarf Hold is a member of the side-control family that shares the same chest-to-chest pinning logic but occupies a specific angular niche. When the bottom player turns in toward the top player, the configuration naturally flows toward North-South, and when they turn away or expose the back, it flows toward Mount or back control. Knee on Belly is a lighter, more mobile cousin in the same family, trading pin heaviness for scoring mobility. This position's transitional adjacency to these neighbors is a defining structural trait, since the angle of the bottom player's rotation dictates which family position emerges next."
+      "answer": "Modified Scarf Hold is a member of the side-control family that shares the same chest-to-chest pinning logic but occupies a specific angular niche. When the bottom player turns in toward the top player, the configuration naturally flows toward North-South, and when they turn away or expose the back, it flows toward Mount or back control. Knee on Belly is a lighter, more mobile cousin in the same family, trading pin heaviness for scoring mobility. This position's transitional adjacency to these neighbors is a defining structural trait, since the angle of the bottom player's rotation dictates which family position emerges next.",
+      "answer_line": "Flows to N-S, Mount, or KOB",
+      "distractors": {
+        "plausible": [
+          "Always leads directly to mount",
+          "Fixed pin, no transitions available"
+        ],
+        "trap": [
+          "Identical to Knee on Belly"
+        ]
+      }
     },
     {
       "question": "Why does Modified Scarf Hold restrict the bottom player's breathing more than orthodox side control?",
-      "answer": "Orthodox side control often distributes the top player's weight across the shoulder and hip lines with a cross-face, leaving portions of the ribcage relatively free. Modified Scarf Hold concentrates the sternum directly over the center of the ribcage, compressing the chest cavity where lung expansion occurs. This centered compression, combined with the trapped near arm removing a framing outlet, produces a suffocating, claustrophobic sensation that accelerates fatigue. The breathing restriction is a mechanical consequence of the centered chest geometry rather than a deliberate choke, and it shapes the tempo of the exchange for both players."
+      "answer": "Orthodox side control often distributes the top player's weight across the shoulder and hip lines with a cross-face, leaving portions of the ribcage relatively free. Modified Scarf Hold concentrates the sternum directly over the center of the ribcage, compressing the chest cavity where lung expansion occurs. This centered compression, combined with the trapped near arm removing a framing outlet, produces a suffocating, claustrophobic sensation that accelerates fatigue. The breathing restriction is a mechanical consequence of the centered chest geometry rather than a deliberate choke, and it shapes the tempo of the exchange for both players.",
+      "answer_line": "Centered sternum compresses ribcage",
+      "distractors": {
+        "plausible": [
+          "Cross-face grip cuts off air",
+          "Head pressure alone restricts air"
+        ],
+        "trap": [
+          "It's a deliberate choke setup"
+        ]
+      }
     }
   ],
   "clips": [

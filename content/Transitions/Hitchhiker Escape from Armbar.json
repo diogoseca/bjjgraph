@@ -253,91 +253,311 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the hitchhiker escape?",
-        "answer": "The best moment is when the opponent begins elevating their hips to finish but has not achieved full arm extension. At this point, your arm retains enough bend to generate rotational force, and their commitment to the finish creates predictable upward pressure you can redirect laterally through rotation. Initiating earlier wastes surprise; initiating later risks injury from extension."
+        "answer": "The best moment is when the opponent begins elevating their hips to finish but has not achieved full arm extension. At this point, your arm retains enough bend to generate rotational force, and their commitment to the finish creates predictable upward pressure you can redirect laterally through rotation. Initiating earlier wastes surprise; initiating later risks injury from extension.",
+        "answer_line": "Slight bend, before extension",
+        "distractors": {
+          "plausible": [
+            "Immediately when armbar begins",
+            "Once hips reach max elevation"
+          ],
+          "trap": [
+            "Wait until arm is fully straight"
+          ]
+        }
       },
       {
         "question": "What happens if you rotate your thumb away from your head instead of toward it?",
-        "answer": "Rotating the thumb away from your head moves the elbow into the armbar's extension plane rather than perpendicular to it. This feeds directly into the opponent's finishing mechanics, making the submission easier to complete. The thumb must always point toward your own head to create the correct rotational escape vector that takes the elbow out of the finishing angle."
+        "answer": "Rotating the thumb away from your head moves the elbow into the armbar's extension plane rather than perpendicular to it. This feeds directly into the opponent's finishing mechanics, making the submission easier to complete. The thumb must always point toward your own head to create the correct rotational escape vector that takes the elbow out of the finishing angle.",
+        "answer_line": "Thumb must point toward your head",
+        "distractors": {
+          "plausible": [
+            "Thumb points toward the ceiling",
+            "Thumb points toward opponent's hip"
+          ],
+          "trap": [
+            "Thumb rotates away from your head"
+          ]
+        }
       },
       {
         "question": "Your opponent squeezes their knees tight as you begin rotating - how do you adjust?",
-        "answer": "Use your free hand to push their top knee away from your face while simultaneously bridging higher to create more rotational momentum. If the squeeze completely prevents rotation, abandon the hitchhiker attempt and revert to hand-clasping defense or stacking. Forcing rotation against locked knees risks injury to the elbow joint under the combined torsional and extension forces."
+        "answer": "Use your free hand to push their top knee away from your face while simultaneously bridging higher to create more rotational momentum. If the squeeze completely prevents rotation, abandon the hitchhiker attempt and revert to hand-clasping defense or stacking. Forcing rotation against locked knees risks injury to the elbow joint under the combined torsional and extension forces.",
+        "answer_line": "Push knee away, bridge higher",
+        "distractors": {
+          "plausible": [
+            "Squeeze your own knees tighter",
+            "Wait for opponent to relax grip"
+          ],
+          "trap": [
+            "Force rotation against locked knees"
+          ]
+        }
       },
       {
         "question": "What grip should your free hand establish before initiating the rotation?",
-        "answer": "Your free hand should grip the opponent's leg that crosses your face, specifically behind the knee or at the ankle. This grip serves two purposes: it creates a leverage point to assist your rotation, and it prevents the opponent from tightening leg control as you spin. Without this grip, the rotation lacks the mechanical advantage needed to overcome their leg pressure and the escape stalls."
+        "answer": "Your free hand should grip the opponent's leg that crosses your face, specifically behind the knee or at the ankle. This grip serves two purposes: it creates a leverage point to assist your rotation, and it prevents the opponent from tightening leg control as you spin. Without this grip, the rotation lacks the mechanical advantage needed to overcome their leg pressure and the escape stalls.",
+        "answer_line": "Grip crossing leg behind knee/ankle",
+        "distractors": {
+          "plausible": [
+            "Grip opponent's far wrist",
+            "Grip your own gi collar"
+          ],
+          "trap": [
+            "Skip the grip, rotate immediately"
+          ]
+        }
       },
       {
         "question": "Why must you commit fully to the rotation rather than attempting partial turns?",
-        "answer": "A partial rotation leaves your arm in a transitional angle that is actually more vulnerable than the starting position. Half-rotations expose the elbow to torque from a different direction while you lack the structural protection of either the initial defensive position or the completed escape. Full commitment carries you past the danger zone quickly, while hesitation creates a worse mechanical situation."
+        "answer": "A partial rotation leaves your arm in a transitional angle that is actually more vulnerable than the starting position. Half-rotations expose the elbow to torque from a different direction while you lack the structural protection of either the initial defensive position or the completed escape. Full commitment carries you past the danger zone quickly, while hesitation creates a worse mechanical situation.",
+        "answer_line": "Partial rotation is more vulnerable",
+        "distractors": {
+          "plausible": [
+            "Partial turns conserve energy",
+            "Partial turns test opponent's grip"
+          ],
+          "trap": [
+            "Stop halfway to reassess position"
+          ]
+        }
       },
       {
         "question": "What is your immediate priority after successfully extracting your arm?",
-        "answer": "Immediately recover to a guard position by turning to face the opponent and inserting your legs between your bodies to establish open guard. If you end up in turtle from the belly-down variant, work to re-guard before the opponent establishes back control. The arm extraction alone is not the escape - you must reach a defensible position within two to three seconds or the opponent will re-establish dominance."
+        "answer": "Immediately recover to a guard position by turning to face the opponent and inserting your legs between your bodies to establish open guard. If you end up in turtle from the belly-down variant, work to re-guard before the opponent establishes back control. The arm extraction alone is not the escape - you must reach a defensible position within two to three seconds or the opponent will re-establish dominance.",
+        "answer_line": "Recover guard within seconds",
+        "distractors": {
+          "plausible": [
+            "Stand up immediately",
+            "Attack opponent's other arm"
+          ],
+          "trap": [
+            "Pause to shake out your arm"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force your body must generate during the hitchhiker escape?",
-        "answer": "The primary force vector is rotational, perpendicular to the armbar's extension plane. Your hip bridge generates upward force that is immediately converted into lateral rotation toward the trapped arm side. This perpendicular rotation exploits the armbar's structural weakness: the opponent's legs and hips are configured to resist linear pulling but have minimal mechanical advantage against a spinning body. The bridge provides the initial momentum, and your core sustains the rotation through completion."
+        "answer": "The primary force vector is rotational, perpendicular to the armbar's extension plane. Your hip bridge generates upward force that is immediately converted into lateral rotation toward the trapped arm side. This perpendicular rotation exploits the armbar's structural weakness: the opponent's legs and hips are configured to resist linear pulling but have minimal mechanical advantage against a spinning body. The bridge provides the initial momentum, and your core sustains the rotation through completion.",
+        "answer_line": "Rotational force, perpendicular",
+        "distractors": {
+          "plausible": [
+            "Linear pull away from opponent",
+            "Downward pressure into the mat"
+          ],
+          "trap": [
+            "Push straight up against hips"
+          ]
+        }
       },
       {
         "question": "Your hitchhiker escape stalls mid-rotation and the opponent begins re-tightening control - what are your options?",
-        "answer": "If stalled mid-rotation, you face the worst-case angle where your arm is vulnerable from a new direction. You have two options: recommit with a second explosive bridge to complete the rotation before they re-establish control, or reverse direction and return to your original defensive position to reset. Never remain static at the mid-rotation angle. If returning to start, immediately re-clasp hands and rebuild your primary defense to attempt the escape again when a better window appears."
+        "answer": "If stalled mid-rotation, you face the worst-case angle where your arm is vulnerable from a new direction. You have two options: recommit with a second explosive bridge to complete the rotation before they re-establish control, or reverse direction and return to your original defensive position to reset. Never remain static at the mid-rotation angle. If returning to start, immediately re-clasp hands and rebuild your primary defense to attempt the escape again when a better window appears.",
+        "answer_line": "Recommit or reverse, not static",
+        "distractors": {
+          "plausible": [
+            "Hold still and re-grip wrist",
+            "Push through with steady pressure"
+          ],
+          "trap": [
+            "Freeze at the mid-rotation angle"
+          ]
+        }
       },
       {
         "question": "How does the hitchhiker escape chain with other armbar defenses in a layered defensive system?",
-        "answer": "The hitchhiker sits as the secondary escape after primary defenses are exhausted. The typical chain begins with hand clasping to prevent extension, followed by stacking to compromise the opponent's angle. When the opponent strips the hand clasp and defeats the stack, the hitchhiker provides a rotational escape on a completely different axis. Each defense forces the opponent to adjust, and the hitchhiker capitalizes on the grip and positional changes they made to defeat your earlier defenses. The transition between defenses should be fluid rather than waiting for complete failure."
+        "answer": "The hitchhiker sits as the secondary escape after primary defenses are exhausted. The typical chain begins with hand clasping to prevent extension, followed by stacking to compromise the opponent's angle. When the opponent strips the hand clasp and defeats the stack, the hitchhiker provides a rotational escape on a completely different axis. Each defense forces the opponent to adjust, and the hitchhiker capitalizes on the grip and positional changes they made to defeat your earlier defenses. The transition between defenses should be fluid rather than waiting for complete failure.",
+        "answer_line": "Clasp, stack, then hitchhiker",
+        "distractors": {
+          "plausible": [
+            "Hitchhiker first, then hand clasp",
+            "Stack first, then hand clasp"
+          ],
+          "trap": [
+            "Skip clasp, hitchhiker immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far foot on the mat during the armbar - how does this affect your hitchhiker escape attempt?",
-        "answer": "A posted far foot gives the opponent a base to follow your rotation, making the belly-down armbar transition much easier for them. Recognize this by feeling reduced weight through their near leg. Adjust by accelerating your rotation to outpace their follow, or target the posted leg with your free hand to disrupt their base before rotating. If they are already tracking your movement effectively, consider switching to a stack escape instead, as their posted foot actually makes them more vulnerable to being driven backward."
+        "answer": "A posted far foot gives the opponent a base to follow your rotation, making the belly-down armbar transition much easier for them. Recognize this by feeling reduced weight through their near leg. Adjust by accelerating your rotation to outpace their follow, or target the posted leg with your free hand to disrupt their base before rotating. If they are already tracking your movement effectively, consider switching to a stack escape instead, as their posted foot actually makes them more vulnerable to being driven backward.",
+        "answer_line": "Accelerate rotation or attack base",
+        "distractors": {
+          "plausible": [
+            "Ignore it, rotation unaffected",
+            "Slow down to feel their base"
+          ],
+          "trap": [
+            "Continue rotating at same pace"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing factor for executing the Hitchhiker Escape successfully?",
-        "answer": "The escape must be executed before the arm reaches full extension. Once the elbow is completely straight, the escape becomes exponentially more dangerous and difficult. The optimal window is when there's still a slight bend in the arm and before opponent achieves maximum hip extension."
+        "answer": "The escape must be executed before the arm reaches full extension. Once the elbow is completely straight, the escape becomes exponentially more dangerous and difficult. The optimal window is when there's still a slight bend in the arm and before opponent achieves maximum hip extension.",
+        "answer_line": "Before elbow reaches full extension",
+        "distractors": {
+          "plausible": [
+            "Before opponent grips your wrist",
+            "Before your hips leave the mat"
+          ],
+          "trap": [
+            "After elbow locks out straight"
+          ]
+        }
       },
       {
         "question": "Why does the Hitchhiker Escape require rotating toward the opponent rather than away from them?",
-        "answer": "Rotating toward the opponent changes the angle of leverage on your elbow joint, reducing the effectiveness of their extension. The thumb-out rotation combined with turning into their body actually reduces joint stress by aligning your arm structure differently against their attack. Rotating away would increase the pressure and make the submission easier to finish."
+        "answer": "Rotating toward the opponent changes the angle of leverage on your elbow joint, reducing the effectiveness of their extension. The thumb-out rotation combined with turning into their body actually reduces joint stress by aligning your arm structure differently against their attack. Rotating away would increase the pressure and make the submission easier to finish.",
+        "answer_line": "Changes elbow leverage angle",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Confuses opponent's grip timing"
+          ],
+          "trap": [
+            "Rotating away reduces pressure"
+          ]
+        }
       },
       {
         "question": "What role does the free hand play during the Hitchhiker Escape execution?",
-        "answer": "The free hand creates space by pushing against opponent's hip or thigh, preventing them from maintaining tight control and re-securing the armbar. This space is essential for completing the rotation and recovering guard after the escape. Without active use of the free hand, opponent can simply readjust and finish the submission."
+        "answer": "The free hand creates space by pushing against opponent's hip or thigh, preventing them from maintaining tight control and re-securing the armbar. This space is essential for completing the rotation and recovering guard after the escape. Without active use of the free hand, opponent can simply readjust and finish the submission.",
+        "answer_line": "Push hip or thigh to create space",
+        "distractors": {
+          "plausible": [
+            "Grip your own wrist for support",
+            "Push opponent's head down"
+          ],
+          "trap": [
+            "Keep free hand tucked, do nothing"
+          ]
+        }
       },
       {
         "question": "What physical attribute is most important for successfully executing this escape?",
-        "answer": "Shoulder flexibility is the most critical physical attribute. The hitchhiker rotation requires exceptional shoulder mobility to rotate the arm outward while turning the body without causing shoulder injury. Without adequate flexibility, attempting this escape can result in shoulder damage even if it relieves pressure on the elbow."
+        "answer": "Shoulder flexibility is the most critical physical attribute. The hitchhiker rotation requires exceptional shoulder mobility to rotate the arm outward while turning the body without causing shoulder injury. Without adequate flexibility, attempting this escape can result in shoulder damage even if it relieves pressure on the elbow.",
+        "answer_line": "Shoulder flexibility",
+        "distractors": {
+          "plausible": [
+            "Grip strength",
+            "Core endurance"
+          ],
+          "trap": [
+            "Speed of the rotation"
+          ]
+        }
       },
       {
         "question": "When should you tap instead of attempting the Hitchhiker Escape?",
-        "answer": "You should tap immediately if: the arm is already fully extended, opponent has secured strong shoulder control in addition to the armbar, you lack the necessary shoulder flexibility, or you feel sharp pain during the rotation attempt. The escape is a last resort and should never be forced if the timing window has closed or if you feel unsafe."
+        "answer": "You should tap immediately if: the arm is already fully extended, opponent has secured strong shoulder control in addition to the armbar, you lack the necessary shoulder flexibility, or you feel sharp pain during the rotation attempt. The escape is a last resort and should never be forced if the timing window has closed or if you feel unsafe.",
+        "answer_line": "Arm fully extended or sharp pain",
+        "distractors": {
+          "plausible": [
+            "Whenever opponent tightens knees",
+            "As soon as rotation stalls"
+          ],
+          "trap": [
+            "Only tap after shoulder pops"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extending their hips explosively mid-rotation - what should you do?",
-        "answer": "Tap immediately. This is the most dangerous scenario in the Hitchhiker Escape. If full extension occurs during your rotation, the joint stress actually increases rather than decreases because your arm is in a transitional position. The rotation only reduces pressure when completed before extension - attempting to finish the escape under explosive hip pressure risks catastrophic elbow injury."
+        "answer": "Tap immediately. This is the most dangerous scenario in the Hitchhiker Escape. If full extension occurs during your rotation, the joint stress actually increases rather than decreases because your arm is in a transitional position. The rotation only reduces pressure when completed before extension - attempting to finish the escape under explosive hip pressure risks catastrophic elbow injury.",
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Push through the rotation faster",
+            "Reverse direction quickly"
+          ],
+          "trap": [
+            "Finish the rotation regardless"
+          ]
+        }
       },
       {
         "question": "What grip configuration on your trapped arm makes the Hitchhiker Escape most viable?",
-        "answer": "The escape is most viable when opponent relies primarily on wrist control without securing shoulder control. A pure wrist grip allows the rotation to break the angle of attack. If opponent controls both the wrist and secures an overhook or grip above the elbow on your shoulder, the rotation becomes nearly impossible as they can simply follow your movement and maintain the submission angle."
+        "answer": "The escape is most viable when opponent relies primarily on wrist control without securing shoulder control. A pure wrist grip allows the rotation to break the angle of attack. If opponent controls both the wrist and secures an overhook or grip above the elbow on your shoulder, the rotation becomes nearly impossible as they can simply follow your movement and maintain the submission angle.",
+        "answer_line": "Wrist-only, no shoulder grip",
+        "distractors": {
+          "plausible": [
+            "Wrist and overhook combined",
+            "Shoulder control only"
+          ],
+          "trap": [
+            "Any grip works equally well"
+          ]
+        }
       },
       {
         "question": "How does the hitchhiker thumb rotation biomechanically reduce pressure on the elbow joint?",
-        "answer": "The thumb-out rotation externally rotates the forearm, which changes the plane of the elbow joint relative to opponent's hip pressure. Instead of the joint bending against its natural range of motion, the rotation aligns the stronger aspects of the joint structure against the extension force. The bicep and forearm bones also rotate into a more favorable position that can better resist hyperextension pressure."
+        "answer": "The thumb-out rotation externally rotates the forearm, which changes the plane of the elbow joint relative to opponent's hip pressure. Instead of the joint bending against its natural range of motion, the rotation aligns the stronger aspects of the joint structure against the extension force. The bicep and forearm bones also rotate into a more favorable position that can better resist hyperextension pressure.",
+        "answer_line": "Changes elbow's plane vs hip force",
+        "distractors": {
+          "plausible": [
+            "Loosens opponent's leg squeeze",
+            "Increases blood flow to forearm"
+          ],
+          "trap": [
+            "Aligns elbow into extension plane"
+          ]
+        }
       },
       {
         "question": "You complete the rotation but opponent maintains wrist control - how do you extract your arm?",
-        "answer": "Once rotated onto your stomach, use your free hand to peel their fingers off your wrist one at a time while driving your hips away from their body. Your body weight and hip drive provide far more force than their grip strength alone. If they maintain the grip, continue turning past perpendicular until the angle makes their grip mechanically unsustainable, then immediately bend your elbow and retract the arm tight to your body."
+        "answer": "Once rotated onto your stomach, use your free hand to peel their fingers off your wrist one at a time while driving your hips away from their body. Your body weight and hip drive provide far more force than their grip strength alone. If they maintain the grip, continue turning past perpendicular until the angle makes their grip mechanically unsustainable, then immediately bend your elbow and retract the arm tight to your body.",
+        "answer_line": "Peel fingers off, drive hips away",
+        "distractors": {
+          "plausible": [
+            "Yank arm straight back",
+            "Wait for grip to fatigue"
+          ],
+          "trap": [
+            "Pull directly against their grip"
+          ]
+        }
       },
       {
         "question": "What is the proper guard recovery sequence after successfully escaping the armbar?",
-        "answer": "Immediately after extracting your arm, establish defensive frames with both hands to prevent opponent from advancing. Work to recover closed guard, half guard, or create a knee shield depending on opponent's position. The key is continuous movement without pausing - the escape isn't complete until you've established a safe defensive position and neutralized immediate follow-up attacks."
+        "answer": "Immediately after extracting your arm, establish defensive frames with both hands to prevent opponent from advancing. Work to recover closed guard, half guard, or create a knee shield depending on opponent's position. The key is continuous movement without pausing - the escape isn't complete until you've established a safe defensive position and neutralized immediate follow-up attacks.",
+        "answer_line": "Frame up, recover guard fast",
+        "distractors": {
+          "plausible": [
+            "Stand and create distance first",
+            "Attack a submission immediately"
+          ],
+          "trap": [
+            "Pause to check for injury first"
+          ]
+        }
       },
       {
         "question": "What distinguishes the Rolling Hitchhiker variant from the standard technique?",
-        "answer": "The Rolling Hitchhiker involves executing a full shoulder roll while performing the thumb rotation, rather than rotating in place. This creates additional space and momentum that can overwhelm opponent's grip control. The roll also confuses opponent's tracking of your movement, making it harder for them to adjust and maintain the submission. However, it requires more space, greater shoulder mobility, and carries additional risk if mistimed."
+        "answer": "The Rolling Hitchhiker involves executing a full shoulder roll while performing the thumb rotation, rather than rotating in place. This creates additional space and momentum that can overwhelm opponent's grip control. The roll also confuses opponent's tracking of your movement, making it harder for them to adjust and maintain the submission. However, it requires more space, greater shoulder mobility, and carries additional risk if mistimed.",
+        "answer_line": "Full shoulder roll during rotation",
+        "distractors": {
+          "plausible": [
+            "Faster version of same rotation",
+            "Rotation done only from turtle"
+          ],
+          "trap": [
+            "Rolling replaces the thumb turn"
+          ]
+        }
       },
       {
         "question": "Your opponent has tight leg control across your face but only a wrist grip - what is your best approach?",
-        "answer": "This scenario favors the hitchhiker escape because wrist-only control is the weakest grip configuration for preventing rotation. Begin the thumb rotation immediately while using your free hand to push their top leg (across your face) toward their body. The combination of arm rotation breaking the wrist grip angle and leg displacement creates a compound escape where both control points deteriorate simultaneously. Execute explosively once you feel their wrist grip start to slip."
+        "answer": "This scenario favors the hitchhiker escape because wrist-only control is the weakest grip configuration for preventing rotation. Begin the thumb rotation immediately while using your free hand to push their top leg (across your face) toward their body. The combination of arm rotation breaking the wrist grip angle and leg displacement creates a compound escape where both control points deteriorate simultaneously. Execute explosively once you feel their wrist grip start to slip.",
+        "answer_line": "Rotate thumb, push their top leg",
+        "distractors": {
+          "plausible": [
+            "Focus only on breaking leg control",
+            "Wait for wrist grip to loosen"
+          ],
+          "trap": [
+            "Pull your arm straight back"
+          ]
+        }
       }
     ],
     "safety_considerations": "The hitchhiker escape involves rotating against an active armbar attempt, creating significant risk to the elbow joint if executed incorrectly. Never attempt this escape when the arm is fully extended - tap immediately to prevent hyperextension or ligament damage. During training, communicate clearly with your partner about resistance levels and always tap early when the escape stalls with the arm in a vulnerable position. Practice at slow speeds initially to develop proper rotation mechanics before adding speed or resistance. Partners applying the armbar should release pressure immediately upon feeling a tap or sensing the escape has stalled with the arm under load. The rotational forces involved can cause injury patterns different from standard armbar hyperextension, including torsional stress on the elbow and shoulder, so err on the side of caution.",
@@ -448,43 +668,143 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a hitchhiker escape?",
-        "answer": "The first cue is feeling the trapped arm rotate so the thumb begins pointing toward the opponent's own head rather than toward the ceiling. This rotation precedes the body turn and is the earliest warning that the hitchhiker sequence has begun. Immediately respond by squeezing your knees together and re-gripping the wrist to prevent further rotation before momentum builds."
+        "answer": "The first cue is feeling the trapped arm rotate so the thumb begins pointing toward the opponent's own head rather than toward the ceiling. This rotation precedes the body turn and is the earliest warning that the hitchhiker sequence has begun. Immediately respond by squeezing your knees together and re-gripping the wrist to prevent further rotation before momentum builds.",
+        "answer_line": "Thumb turns toward own head",
+        "distractors": {
+          "plausible": [
+            "Elbow bends more sharply",
+            "Hips shift away from you"
+          ],
+          "trap": [
+            "Wrist grip suddenly loosens"
+          ]
+        }
       },
       {
         "question": "How should you adjust your hip position when you feel rotation beginning?",
-        "answer": "Drive your hips tighter against their shoulder and angle them slightly toward the direction of their rotation to block the rotational path with your body mass rather than relying solely on grip strength. Simultaneously elevate your hips to increase finishing pressure, forcing them to choose between continuing the escape attempt and protecting the elbow joint from extension."
+        "answer": "Drive your hips tighter against their shoulder and angle them slightly toward the direction of their rotation to block the rotational path with your body mass rather than relying solely on grip strength. Simultaneously elevate your hips to increase finishing pressure, forcing them to choose between continuing the escape attempt and protecting the elbow joint from extension.",
+        "answer_line": "Drive hips tight, block rotation",
+        "distractors": {
+          "plausible": [
+            "Release hips to follow rotation",
+            "Grip tighter with both hands"
+          ],
+          "trap": [
+            "Lean back to add extension"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially rotated and is now perpendicular to you - what transition should you pursue?",
-        "answer": "If they have achieved significant rotation, transition to the belly-down armbar by following their rotation and maintaining your grip. As they turn face-down, keep your hips connected to their shoulder and your legs controlling their upper body. The belly-down position gives you a stronger finishing angle because their face-down orientation eliminates the bridging defense they rely on from supine."
+        "answer": "If they have achieved significant rotation, transition to the belly-down armbar by following their rotation and maintaining your grip. As they turn face-down, keep your hips connected to their shoulder and your legs controlling their upper body. The belly-down position gives you a stronger finishing angle because their face-down orientation eliminates the bridging defense they rely on from supine.",
+        "answer_line": "Transition to belly-down armbar",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to triangle",
+            "Release and reset to start"
+          ],
+          "trap": [
+            "Force original angle to finish"
+          ]
+        }
       },
       {
         "question": "When should you abandon the armbar and transition to a different position?",
-        "answer": "Abandon the armbar when the opponent has completed enough rotation that your hips have lost contact with their shoulder and you cannot re-establish the connection. At this point, maintaining grip becomes counterproductive. Release and immediately transition to mount by driving your weight onto their torso as they complete their turn, or follow to back control if they end up in turtle position."
+        "answer": "Abandon the armbar when the opponent has completed enough rotation that your hips have lost contact with their shoulder and you cannot re-establish the connection. At this point, maintaining grip becomes counterproductive. Release and immediately transition to mount by driving your weight onto their torso as they complete their turn, or follow to back control if they end up in turtle position.",
+        "answer_line": "When hip-shoulder contact is lost",
+        "distractors": {
+          "plausible": [
+            "As soon as they start rotating",
+            "Once your grip feels weak"
+          ],
+          "trap": [
+            "Hold on and pull harder"
+          ]
+        }
       },
       {
         "question": "What leg adjustment prevents the initial thumb rotation that starts the hitchhiker sequence?",
-        "answer": "Pinch your knees tightly together with the leg across their face driving downward into their cheek, creating friction against the arm rotation and limiting the space available for the thumb to rotate toward their head. Additionally, hooking your top foot under their far shoulder adds a control point that resists the entire rotational movement, not just the arm portion of the escape."
+        "answer": "Pinch your knees tightly together with the leg across their face driving downward into their cheek, creating friction against the arm rotation and limiting the space available for the thumb to rotate toward their head. Additionally, hooking your top foot under their far shoulder adds a control point that resists the entire rotational movement, not just the arm portion of the escape.",
+        "answer_line": "Pinch knees, drive leg into face",
+        "distractors": {
+          "plausible": [
+            "Cross ankles behind their back",
+            "Widen knees for better base"
+          ],
+          "trap": [
+            "Loosen knees to feel their arm"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a Hitchhiker Escape?",
-        "answer": "The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively."
+        "answer": "The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively.",
+        "answer_line": "Thumb rotates outward, pre-turn",
+        "distractors": {
+          "plausible": [
+            "Shoulders square up to you",
+            "Legs begin to loosen"
+          ],
+          "trap": [
+            "Hips lift off the mat"
+          ]
+        }
       },
       {
         "question": "Why is wrist-only control insufficient to prevent the Hitchhiker Escape?",
-        "answer": "Wrist-only control allows the opponent to externally rotate their forearm, which changes the plane of their elbow joint relative to your hip extension force. The hitchhiker rotation is biomechanically designed to exploit single-point wrist control by redirecting the hyperextension vector away from the vulnerable joint angle. Controlling both the wrist and shoulder eliminates the rotation axis entirely."
+        "answer": "Wrist-only control allows the opponent to externally rotate their forearm, which changes the plane of their elbow joint relative to your hip extension force. The hitchhiker rotation is biomechanically designed to exploit single-point wrist control by redirecting the hyperextension vector away from the vulnerable joint angle. Controlling both the wrist and shoulder eliminates the rotation axis entirely.",
+        "answer_line": "Lets forearm rotate freely",
+        "distractors": {
+          "plausible": [
+            "Wrist grip naturally slips",
+            "Wrist control tires your grip"
+          ],
+          "trap": [
+            "Wrist control increases their pain"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun rotating and you cannot finish the standard armbar - what is your highest-percentage transition?",
-        "answer": "Follow the rotation and transition to a belly-down armbar. As the opponent turns, maintain your wrist grip and turn your body in the same direction, ending up with your chest facing the mat and their arm still controlled. This position actually provides a stronger finishing angle than the standard armbar because your body weight drives directly into the hyperextension. If wrist control is lost during the transition, immediately switch to triangle as backup."
+        "answer": "Follow the rotation and transition to a belly-down armbar. As the opponent turns, maintain your wrist grip and turn your body in the same direction, ending up with your chest facing the mat and their arm still controlled. This position actually provides a stronger finishing angle than the standard armbar because your body weight drives directly into the hyperextension. If wrist control is lost during the transition, immediately switch to triangle as backup.",
+        "answer_line": "Follow to belly-down armbar",
+        "distractors": {
+          "plausible": [
+            "Abandon and go to back control",
+            "Switch immediately to kimura"
+          ],
+          "trap": [
+            "Force the original armbar angle"
+          ]
+        }
       },
       {
         "question": "How should you adjust your leg positioning to counter the hitchhiker rotation?",
-        "answer": "Drive the leg across your opponent's face downward with active pressure, using your hamstring and calf to pin their head and prevent the turning motion. Simultaneously squeeze both knees together to eliminate space around the trapped arm. The combination of head control preventing rotation and knee pressure tracking the arm creates a two-point defensive system that makes the hitchhiker mechanically impossible to complete."
+        "answer": "Drive the leg across your opponent's face downward with active pressure, using your hamstring and calf to pin their head and prevent the turning motion. Simultaneously squeeze both knees together to eliminate space around the trapped arm. The combination of head control preventing rotation and knee pressure tracking the arm creates a two-point defensive system that makes the hitchhiker mechanically impossible to complete.",
+        "answer_line": "Pin their head, squeeze knees",
+        "distractors": {
+          "plausible": [
+            "Cross feet to lock triangle",
+            "Push down on far shoulder"
+          ],
+          "trap": [
+            "Loosen legs to reposition"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to release the armbar and transition to triangle during a Hitchhiker Escape attempt?",
-        "answer": "Transition to triangle when the opponent has rotated past 45 degrees and your armbar leverage is clearly compromised but you still have leg control over their upper body. Their rotation naturally separates their head from their trapped arm, creating the angle needed for triangle entry. Swing your far leg over their head as they continue turning and lock the triangle before they can complete the escape to turtle or half guard. This is a higher-percentage response than forcing a deteriorating armbar."
+        "answer": "Transition to triangle when the opponent has rotated past 45 degrees and your armbar leverage is clearly compromised but you still have leg control over their upper body. Their rotation naturally separates their head from their trapped arm, creating the angle needed for triangle entry. Swing your far leg over their head as they continue turning and lock the triangle before they can complete the escape to turtle or half guard. This is a higher-percentage response than forcing a deteriorating armbar.",
+        "answer_line": "Past 45°, still have leg control",
+        "distractors": {
+          "plausible": [
+            "As soon as rotation begins",
+            "Only after losing wrist grip"
+          ],
+          "trap": [
+            "Never switch, finish armbar"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the high guard climb from closed guard?",
-        "answer": "The optimal window opens immediately after successfully breaking the opponent's posture, when their head and chest are pulled close to your torso and their weight is committed forward. Attempting the climb while opponent has strong posture allows them to sit back and create distance. You need their posture collapsed and base compromised before beginning the guard climb."
+        "answer": "The optimal window opens immediately after successfully breaking the opponent's posture, when their head and chest are pulled close to your torso and their weight is committed forward. Attempting the climb while opponent has strong posture allows them to sit back and create distance. You need their posture collapsed and base compromised before beginning the guard climb.",
+        "answer_line": "Once posture is fully broken",
+        "distractors": {
+          "plausible": [
+            "Right after closing guard",
+            "When opponent sits to escape"
+          ],
+          "trap": [
+            "While posture is still strong"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can attempt the leg threading phase?",
-        "answer": "Your guard must be climbed high enough that your hips sit at or above the opponent's ribcage level, and you must have an established overhook on their near-side arm. Without the high guard position, the leg cannot clear the shoulder. Without the overhook, the opponent can post with their arm and create space during the threading movement."
+        "answer": "Your guard must be climbed high enough that your hips sit at or above the opponent's ribcage level, and you must have an established overhook on their near-side arm. Without the high guard position, the leg cannot clear the shoulder. Without the overhook, the opponent can post with their arm and create space during the threading movement.",
+        "answer_line": "Hips at rib height, overhook set",
+        "distractors": {
+          "plausible": [
+            "Underhook on far-side arm",
+            "Guard still at waist level"
+          ],
+          "trap": [
+            "Release overhook to thread leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the transition from high guard to Mission Control?",
-        "answer": "The angular hip displacement of thirty to forty-five degrees toward the overhook side is the most critical movement. This creates the clearance angle needed for your leg to pass over the opponent's shoulder. Without this angle, the leg jams against their shoulder and the transition stalls, giving the opponent time to recover posture and defend."
+        "answer": "The angular hip displacement of thirty to forty-five degrees toward the overhook side is the most critical movement. This creates the clearance angle needed for your leg to pass over the opponent's shoulder. Without this angle, the leg jams against their shoulder and the transition stalls, giving the opponent time to recover posture and defend.",
+        "answer_line": "Angle hips 30-45° to overhook side",
+        "distractors": {
+          "plausible": [
+            "Square hips straight ahead",
+            "Angle away from overhook side"
+          ],
+          "trap": [
+            "Flatten hips to the mat"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the leg threading phase fails?",
-        "answer": "Insufficient guard height before attempting to thread the leg is the most common failure point. Practitioners try to swing the leg over the shoulder while their hips are still at waist level, which lacks the elevation angle needed for clearance. The guard must be climbed to ribcage height before the threading action can succeed mechanically."
+        "answer": "Insufficient guard height before attempting to thread the leg is the most common failure point. Practitioners try to swing the leg over the shoulder while their hips are still at waist level, which lacks the elevation angle needed for clearance. The guard must be climbed to ribcage height before the threading action can succeed mechanically.",
+        "answer_line": "Guard too low, hips at waist",
+        "distractors": {
+          "plausible": [
+            "Missing the overhook grip",
+            "Wrong hip angle on entry"
+          ],
+          "trap": [
+            "Force the leg over anyway"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before opening your guard ankles during the transition?",
-        "answer": "You must have a secure overhook on the opponent's near-side arm before unlocking your ankles. The overhook serves as your primary control anchor during the brief moment when your legs are transitioning from closed guard to rubber guard configuration. Without it, the opponent can posture up or drive forward to pass during the vulnerable ankle unlock."
+        "answer": "You must have a secure overhook on the opponent's near-side arm before unlocking your ankles. The overhook serves as your primary control anchor during the brief moment when your legs are transitioning from closed guard to rubber guard configuration. Without it, the opponent can posture up or drive forward to pass during the vulnerable ankle unlock.",
+        "answer_line": "Overhook on their near arm",
+        "distractors": {
+          "plausible": [
+            "Underhook on far-side arm",
+            "Double collar grip first"
+          ],
+          "trap": [
+            "Open ankles, grip after"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force when securing Mission Control?",
-        "answer": "The force direction is diagonally downward across the opponent's trapped shoulder and neck. Your locked leg creates a lever that pushes their shoulder down while your hand grip on the foot pulls the leg tight, compressing their posture. The free hand reinforces this by pulling the head down. All forces converge to pin the opponent's upper body in a forward-flexed position."
+        "answer": "The force direction is diagonally downward across the opponent's trapped shoulder and neck. Your locked leg creates a lever that pushes their shoulder down while your hand grip on the foot pulls the leg tight, compressing their posture. The free hand reinforces this by pulling the head down. All forces converge to pin the opponent's upper body in a forward-flexed position.",
+        "answer_line": "Diagonal force down shoulder-neck",
+        "distractors": {
+          "plausible": [
+            "Straight down on head only",
+            "Pull trapped leg straight back"
+          ],
+          "trap": [
+            "Push their hips away from you"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up aggressively as you start climbing your guard high - how do you adjust?",
-        "answer": "Abandon the rubber guard attempt temporarily and refocus on posture breaking using your existing grips. Drive your heels harder into their lower back while pulling collar or head control down with both hands. Only resume the guard climb once posture is fully collapsed again. Forcing the transition against active posture recovery exposes you to guard opening and passing."
+        "answer": "Abandon the rubber guard attempt temporarily and refocus on posture breaking using your existing grips. Drive your heels harder into their lower back while pulling collar or head control down with both hands. Only resume the guard climb once posture is fully collapsed again. Forcing the transition against active posture recovery exposes you to guard opening and passing.",
+        "answer_line": "Pause, re-break their posture",
+        "distractors": {
+          "plausible": [
+            "Push through the climb faster",
+            "Switch to overhook right away"
+          ],
+          "trap": [
+            "Release grips and reset guard"
+          ]
+        }
       },
       {
         "question": "If the opponent defends by stripping your foot grip as you establish Mission Control, what chain attack should you pursue?",
-        "answer": "When the opponent strips your foot grip, their arm movement creates space for a triangle setup. As they reach to strip the grip, their near arm is already trapped by your overhook while their far arm extends forward, creating the one-arm-in one-arm-out configuration needed for triangle entry. Transition immediately by controlling the extending arm and swinging your leg across their neck."
+        "answer": "When the opponent strips your foot grip, their arm movement creates space for a triangle setup. As they reach to strip the grip, their near arm is already trapped by your overhook while their far arm extends forward, creating the one-arm-in one-arm-out configuration needed for triangle entry. Transition immediately by controlling the extending arm and swinging your leg across their neck.",
+        "answer_line": "Chain straight into triangle",
+        "distractors": {
+          "plausible": [
+            "Re-grip the stripped foot",
+            "Switch to omoplata instead"
+          ],
+          "trap": [
+            "Let go and reset your guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition places significant stress on the bottom player's hips, hamstrings, and lower back. Practitioners must develop adequate flexibility through a dedicated stretching program before attempting the full range of motion in live training. Forcing the high guard position without sufficient flexibility risks hip flexor strains, hamstring tears, and lower back injuries. The top player should be aware that aggressive posture recovery attempts while the leg is being threaded can hyperextend the bottom player's knee. Both partners should communicate during drilling to establish safe movement boundaries and tap immediately if any joint feels compromised.",
@@ -397,23 +477,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the High Guard to Rubber Guard transition?",
-        "answer": "The earliest cue is feeling your opponent's hips rising and their guard climbing higher on your torso beyond the normal waist position, combined with a strong collar pull breaking your posture and an overhook attempt on your near arm. These signals indicate rubber guard entry within seconds. Early recognition at the posture break phase provides the best defensive window."
+        "answer": "The earliest cue is feeling your opponent's hips rising and their guard climbing higher on your torso beyond the normal waist position, combined with a strong collar pull breaking your posture and an overhook attempt on your near arm. These signals indicate rubber guard entry within seconds. Early recognition at the posture break phase provides the best defensive window.",
+        "answer_line": "Hips rising, guard climbing high",
+        "distractors": {
+          "plausible": [
+            "Ankles locking tighter",
+            "Sudden hip bump escape"
+          ],
+          "trap": [
+            "Only once foot hits shoulder"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous moment during this transition where your submission risk is highest?",
-        "answer": "The most dangerous moment occurs when you attempt to pull your trapped arm free after Mission Control is partially or fully established. Pulling the arm out creates the exact arm configuration needed for a triangle choke entry. You should address the leg control first by pushing the opponent's foot off your shoulder before attempting to extract the trapped arm."
+        "answer": "The most dangerous moment occurs when you attempt to pull your trapped arm free after Mission Control is partially or fully established. Pulling the arm out creates the exact arm configuration needed for a triangle choke entry. You should address the leg control first by pushing the opponent's foot off your shoulder before attempting to extract the trapped arm.",
+        "answer_line": "Pulling trapped arm out early",
+        "distractors": {
+          "plausible": [
+            "Right after leg threading",
+            "During initial overhook grip"
+          ],
+          "trap": [
+            "Yank arm free to escape"
+          ]
+        }
       },
       {
         "question": "What posture recovery technique is most effective against the high guard climb?",
-        "answer": "Place both hands on the opponent's hips or ribcage and drive your hips back while straightening your spine, creating a structural frame that resists their pulling force. Simultaneously work your elbows tight to your body to prevent overhook establishment. Combine hip-back drive with elbow control rather than just muscling your head up, which they can easily counter with grip adjustments."
+        "answer": "Place both hands on the opponent's hips or ribcage and drive your hips back while straightening your spine, creating a structural frame that resists their pulling force. Simultaneously work your elbows tight to your body to prevent overhook establishment. Combine hip-back drive with elbow control rather than just muscling your head up, which they can easily counter with grip adjustments.",
+        "answer_line": "Hips back, elbows tight, frame",
+        "distractors": {
+          "plausible": [
+            "Push down on head only",
+            "Grab overhook to block climb"
+          ],
+          "trap": [
+            "Muscle your head up straight"
+          ]
+        }
       },
       {
         "question": "When should you attempt to stand up as a defense against this transition?",
-        "answer": "Standing is most effective during the early phase when your posture is only partially broken and the guard has not yet climbed above your waist. Once you feel the opponent's hips rising, immediately post one foot and drive up. Standing creates distance that makes the high guard climb mechanically impossible and may break the closed guard entirely for passing."
+        "answer": "Standing is most effective during the early phase when your posture is only partially broken and the guard has not yet climbed above your waist. Once you feel the opponent's hips rising, immediately post one foot and drive up. Standing creates distance that makes the high guard climb mechanically impossible and may break the closed guard entirely for passing.",
+        "answer_line": "Early, before guard climbs high",
+        "distractors": {
+          "plausible": [
+            "After leg threading starts",
+            "Once Mission Control locks"
+          ],
+          "trap": [
+            "Wait for full mount attempt"
+          ]
+        }
       },
       {
         "question": "What is the biggest mistake top players make when defending against Rubber Guard entry?",
-        "answer": "The biggest mistake is waiting too long to react, allowing the opponent to fully establish Mission Control before attempting any escape. Every named position in the Rubber Guard system becomes progressively harder to escape. Defending during the posture break or guard climb phase is exponentially easier than defending once the leg is threaded and the foot is secured across your back."
+        "answer": "The biggest mistake is waiting too long to react, allowing the opponent to fully establish Mission Control before attempting any escape. Every named position in the Rubber Guard system becomes progressively harder to escape. Defending during the posture break or guard climb phase is exponentially easier than defending once the leg is threaded and the foot is secured across your back.",
+        "answer_line": "Waiting too long to react",
+        "distractors": {
+          "plausible": [
+            "Over-reacting too early",
+            "Focusing only on posture"
+          ],
+          "trap": [
+            "Wait until leg is threaded"
+          ]
+        }
       }
     ],
     "training_progressions": [

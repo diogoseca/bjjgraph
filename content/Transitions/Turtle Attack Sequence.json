@@ -264,43 +264,143 @@
     "flashcards": [
       {
         "question": "What is the critical grip that must be established before attempting hook insertion from turtle top?",
-        "answer": "The seat belt grip (over-under harness) must be established before hook insertion. The overhook arm crosses over the defender's shoulder controlling the neck line, while the underhook arm threads beneath the far armpit. This grip controls the defender's upper body rotation and prevents them from spinning out during hook insertion. Without this upper body control, hook attempts are easily defended through granby rolls and sit-throughs because the defender's torso is free to create rotational escape movement."
+        "answer": "The seat belt grip (over-under harness) must be established before hook insertion. The overhook arm crosses over the defender's shoulder controlling the neck line, while the underhook arm threads beneath the far armpit. This grip controls the defender's upper body rotation and prevents them from spinning out during hook insertion. Without this upper body control, hook attempts are easily defended through granby rolls and sit-throughs because the defender's torso is free to create rotational escape movement.",
+        "answer_line": "Seatbelt: overhook + underhook",
+        "distractors": {
+          "plausible": [
+            "Just underhook, skip overhook",
+            "Double underhooks both arms"
+          ],
+          "trap": [
+            "Chase hooks before any grip"
+          ]
+        }
       },
       {
         "question": "Why should the near-side hook be inserted before the far-side hook?",
-        "answer": "The near-side hook should be inserted first because your knee is already positioned at the defender's hip, creating the shortest threading distance and maintaining your base throughout insertion. Reaching for the far hook first compromises your weight distribution, creating excessive space on the near side that the defender can exploit for sit-throughs or granby rolls. The near hook also serves as an anchor point that limits the defender's hip mobility, making the subsequent far hook insertion significantly easier."
+        "answer": "The near-side hook should be inserted first because your knee is already positioned at the defender's hip, creating the shortest threading distance and maintaining your base throughout insertion. Reaching for the far hook first compromises your weight distribution, creating excessive space on the near side that the defender can exploit for sit-throughs or granby rolls. The near hook also serves as an anchor point that limits the defender's hip mobility, making the subsequent far hook insertion significantly easier.",
+        "answer_line": "Insert near hook first",
+        "distractors": {
+          "plausible": [
+            "Far hook first for control",
+            "Insert hooks simultaneously"
+          ],
+          "trap": [
+            "Reach far hook, abandon base"
+          ]
+        }
       },
       {
         "question": "Your opponent aggressively strips your seat belt overhook with two-on-one grip fighting - how do you adapt?",
-        "answer": "When the defender strips your overhook through two-on-one grip fighting, immediately assess whether to re-establish the seat belt from the opposite side or transition to front headlock position. The hand fighting required to strip the overhook often lifts the defender's head and creates space above their shoulders, exposing the neck for front headlock entries. Circle toward their head while maintaining chest pressure and underhook control, sliding into front headlock or snap-down position where their hand fighting now works against them by leaving the neck exposed."
+        "answer": "When the defender strips your overhook through two-on-one grip fighting, immediately assess whether to re-establish the seat belt from the opposite side or transition to front headlock position. The hand fighting required to strip the overhook often lifts the defender's head and creates space above their shoulders, exposing the neck for front headlock entries. Circle toward their head while maintaining chest pressure and underhook control, sliding into front headlock or snap-down position where their hand fighting now works against them by leaving the neck exposed.",
+        "answer_line": "Circle to front headlock",
+        "distractors": {
+          "plausible": [
+            "Re-grip overhook same side",
+            "Switch to double unders"
+          ],
+          "trap": [
+            "Release underhook, chase overhook"
+          ]
+        }
       },
       {
         "question": "What determines whether you should follow a granby roll or disengage and re-engage from turtle top?",
-        "answer": "You should follow the granby roll if you maintain at least seat belt grip contact, because their rotation creates momentum you can use to end up in a superior back control position on the other side. Keep your chest glued to their back throughout the roll and use their rotational energy rather than fighting it. Disengage only if you have completely lost all upper body control during the roll, as following without grips simply places you in their guard. The key indicator is grip retention: maintained seat belt means follow, lost grips means sprawl and re-engage."
+        "answer": "You should follow the granby roll if you maintain at least seat belt grip contact, because their rotation creates momentum you can use to end up in a superior back control position on the other side. Keep your chest glued to their back throughout the roll and use their rotational energy rather than fighting it. Disengage only if you have completely lost all upper body control during the roll, as following without grips simply places you in their guard. The key indicator is grip retention: maintained seat belt means follow, lost grips means sprawl and re-engage.",
+        "answer_line": "Follow if grips retained",
+        "distractors": {
+          "plausible": [
+            "Always follow the roll",
+            "Follow using only chest weight"
+          ],
+          "trap": [
+            "Release grips, chase around"
+          ]
+        }
       },
       {
         "question": "What is the optimal chest pressure angle for preventing both standup and granby roll escapes simultaneously?",
-        "answer": "The optimal pressure angle is forward and downward at approximately 45 degrees, driving your sternum into the defender's upper back between the shoulder blades. This angle collapses the turtle structure by pushing their chest toward the mat, making standup impossible because they cannot extend their hips against the downward component. The forward component prevents granby rolls because the defender needs space above their shoulders to initiate the inversion. Pressure that is purely downward allows standup, while pressure that is purely forward allows granby rolls underneath."
+        "answer": "The optimal pressure angle is forward and downward at approximately 45 degrees, driving your sternum into the defender's upper back between the shoulder blades. This angle collapses the turtle structure by pushing their chest toward the mat, making standup impossible because they cannot extend their hips against the downward component. The forward component prevents granby rolls because the defender needs space above their shoulders to initiate the inversion. Pressure that is purely downward allows standup, while pressure that is purely forward allows granby rolls underneath.",
+        "answer_line": "45° forward-downward pressure",
+        "distractors": {
+          "plausible": [
+            "Straight down pressure only",
+            "Straight forward pressure only"
+          ],
+          "trap": [
+            "Sit back, pull hips away"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks into an extremely tight defensive turtle with elbows glued to knees - what is your attack strategy?",
-        "answer": "Against a tight defensive shell, use progressive flattening or angle change rather than forcing grips through the shell. Apply cross-face with one hand while controlling the far hip with the other, then drive the defender's face to the mat to break the four-point base into a flattened position. Once flat, the shell loses structural integrity and you can work underhooks from the side. Alternatively, circle to the head position to attack front headlock, as the tight elbow position that protects against back takes simultaneously prevents the defender from defending head and neck attacks."
+        "answer": "Against a tight defensive shell, use progressive flattening or angle change rather than forcing grips through the shell. Apply cross-face with one hand while controlling the far hip with the other, then drive the defender's face to the mat to break the four-point base into a flattened position. Once flat, the shell loses structural integrity and you can work underhooks from the side. Alternatively, circle to the head position to attack front headlock, as the tight elbow position that protects against back takes simultaneously prevents the defender from defending head and neck attacks.",
+        "answer_line": "Flatten with cross-face, hip",
+        "distractors": {
+          "plausible": [
+            "Force grips through the shell",
+            "Pry elbows off the knees"
+          ],
+          "trap": [
+            "Dive for a leglock entry"
+          ]
+        }
       },
       {
         "question": "How should your weight distribution change between the grip establishment phase and the hook insertion phase?",
-        "answer": "During grip establishment, weight should be approximately 70% through your chest onto the defender's upper back with hips relatively light and mobile, allowing you to adjust to their movements and fight for grips. During hook insertion, weight shifts more laterally toward the seat belt overhook side while maintaining chest contact, creating the angle needed to thread hooks through. The key transition is the slight lateral lean that opens the hook path while keeping forward pressure to prevent the defender from using the weight shift to escape. Never fully commit weight backward during hook insertion as this creates space for the defender to sit through."
+        "answer": "During grip establishment, weight should be approximately 70% through your chest onto the defender's upper back with hips relatively light and mobile, allowing you to adjust to their movements and fight for grips. During hook insertion, weight shifts more laterally toward the seat belt overhook side while maintaining chest contact, creating the angle needed to thread hooks through. The key transition is the slight lateral lean that opens the hook path while keeping forward pressure to prevent the defender from using the weight shift to escape. Never fully commit weight backward during hook insertion as this creates space for the defender to sit through.",
+        "answer_line": "Chest heavy, then lean lateral",
+        "distractors": {
+          "plausible": [
+            "Hips heavy throughout",
+            "Weight back during insertion"
+          ],
+          "trap": [
+            "Commit weight fully backward"
+          ]
+        }
       },
       {
         "question": "When is circling to front headlock a better option than continuing the back take from turtle top?",
-        "answer": "Front headlock becomes the superior option when the defender successfully prevents seat belt establishment through strong hand fighting, when they keep their elbows extremely tight making hook threading impossible, or when they lift their head to look for escape routes exposing the neck. The front headlock is also preferred when the defender is actively attempting to stand because circling to the head allows you to use their upward drive against them with snap-down pressure. If you have been fighting for seat belt for more than 5-7 seconds without success, transitioning to front headlock prevents the exchange from becoming a stalemate that favors the defender."
+        "answer": "Front headlock becomes the superior option when the defender successfully prevents seat belt establishment through strong hand fighting, when they keep their elbows extremely tight making hook threading impossible, or when they lift their head to look for escape routes exposing the neck. The front headlock is also preferred when the defender is actively attempting to stand because circling to the head allows you to use their upward drive against them with snap-down pressure. If you have been fighting for seat belt for more than 5-7 seconds without success, transitioning to front headlock prevents the exchange from becoming a stalemate that favors the defender.",
+        "answer_line": "When seatbelt fight stalls",
+        "distractors": {
+          "plausible": [
+            "Always prefer headlock first",
+            "Only if hooks already in"
+          ],
+          "trap": [
+            "Never abandon seatbelt fight"
+          ]
+        }
       },
       {
         "question": "What is the hand-over-hand principle and why is it critical during turtle attack transitions?",
-        "answer": "The hand-over-hand principle requires maintaining at least one dominant grip or control point at all times before releasing another, similar to climbing a ladder where one hand is always gripping. During turtle attacks, this means never creating a moment where the defender is completely uncontrolled. When transitioning from seat belt to front headlock, maintain the underhook until the headlock grip is established. When switching from back take to crucifix, keep chest pressure until arm control is secured. This principle is critical because experienced defenders are trained to explode into escapes the instant all controls are released, and even a half-second gap in control is sufficient for a well-timed granby roll or sit-through."
+        "answer": "The hand-over-hand principle requires maintaining at least one dominant grip or control point at all times before releasing another, similar to climbing a ladder where one hand is always gripping. During turtle attacks, this means never creating a moment where the defender is completely uncontrolled. When transitioning from seat belt to front headlock, maintain the underhook until the headlock grip is established. When switching from back take to crucifix, keep chest pressure until arm control is secured. This principle is critical because experienced defenders are trained to explode into escapes the instant all controls are released, and even a half-second gap in control is sufficient for a well-timed granby roll or sit-through.",
+        "answer_line": "Never release all grips at once",
+        "distractors": {
+          "plausible": [
+            "Switch grips as fast as possible",
+            "One grip is enough anytime"
+          ],
+          "trap": [
+            "Let go to reset stronger grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a sit-through toward butterfly guard while you have one hook inserted - what is the correct response?",
-        "answer": "When the defender initiates a sit-through with one hook already inserted, immediately drive your free knee across their hip line on the side they are sitting toward, blocking the sit-through completion. Simultaneously tighten your seat belt grip and pull them back into turtle using your inserted hook as a lever. If the block fails and they achieve partial butterfly position, follow their body by maintaining harness control and work to re-insert hooks from the new angle. Do not release the inserted hook to address the sit-through, as losing that hook while they are in motion virtually guarantees complete guard recovery."
+        "answer": "When the defender initiates a sit-through with one hook already inserted, immediately drive your free knee across their hip line on the side they are sitting toward, blocking the sit-through completion. Simultaneously tighten your seat belt grip and pull them back into turtle using your inserted hook as a lever. If the block fails and they achieve partial butterfly position, follow their body by maintaining harness control and work to re-insert hooks from the new angle. Do not release the inserted hook to address the sit-through, as losing that hook while they are in motion virtually guarantees complete guard recovery.",
+        "answer_line": "Block hip with free knee",
+        "distractors": {
+          "plausible": [
+            "Release hook to block sit-through",
+            "Pull them straight backward"
+          ],
+          "trap": [
+            "Release the inserted hook"
+          ]
+        }
       }
     ],
     "safety_considerations": "Turtle transitions involve dynamic movements and scrambles where both practitioners are moving explosively with compromised base and balance. Primary injury risks include neck strain from aggressive front headlock attacks, shoulder injuries from posted arms being driven into during flattening sequences, and knee stress from sudden weight changes during hook insertion. When drilling turtle attacks, start at reduced speed to develop proper mechanics before adding explosive power. Top players should avoid driving excessive weight directly onto the bottom player's neck during front headlock transitions and should release pressure immediately if the bottom player's base collapses unexpectedly into a dangerous neck position. During hook insertion drills, communicate with training partners to avoid driving hooks in with excessive force against the inner thigh. Granby roll follow-throughs require adequate mat space to complete safely. When practicing crucifix entries, respect shoulder joint limits on the trapped arm and release immediately if the training partner signals discomfort. Stop all turtle attack drills immediately if either person experiences neck pain, joint entrapment, or loss of positional awareness.",
@@ -418,23 +518,73 @@
     "flashcards": [
       {
         "question": "What is the first defensive priority when you feel your opponent establish chest contact on your back from turtle position?",
-        "answer": "The immediate priority is preventing seat belt establishment by tucking your chin, tightening your elbows inside your knees, and preparing to fight any arm that threads over your shoulder or under your armpit. Do not wait for the grip to be clasped before reacting. Address the overhook arm the instant you feel it cross your shoulder with two hands on one grip to strip it explosively. Simultaneously, begin planning your escape direction by assessing which side the attacker's weight favors."
+        "answer": "The immediate priority is preventing seat belt establishment by tucking your chin, tightening your elbows inside your knees, and preparing to fight any arm that threads over your shoulder or under your armpit. Do not wait for the grip to be clasped before reacting. Address the overhook arm the instant you feel it cross your shoulder with two hands on one grip to strip it explosively. Simultaneously, begin planning your escape direction by assessing which side the attacker's weight favors.",
+        "answer_line": "Strip overhook before it locks",
+        "distractors": {
+          "plausible": [
+            "Wait for grip then react",
+            "Tuck chin, ignore arms"
+          ],
+          "trap": [
+            "Post hands, stand up now"
+          ]
+        }
       },
       {
         "question": "Why is the granby roll most effective when the attacker's weight is committed forward rather than when they are sitting back?",
-        "answer": "The granby roll uses rotational inversion to escape, requiring space above your shoulders to initiate the backward shoulder roll. When the attacker's weight is forward and down on your upper back, their commitment in that direction means they cannot effectively follow your backward rotation, and their forward momentum works against them as you reverse direction. When the attacker sits back with their weight behind you, they can easily follow the granby roll by simply driving their weight forward into the rotation, maintaining control throughout and often ending in a superior back control position."
+        "answer": "The granby roll uses rotational inversion to escape, requiring space above your shoulders to initiate the backward shoulder roll. When the attacker's weight is forward and down on your upper back, their commitment in that direction means they cannot effectively follow your backward rotation, and their forward momentum works against them as you reverse direction. When the attacker sits back with their weight behind you, they can easily follow the granby roll by simply driving their weight forward into the rotation, maintaining control throughout and often ending in a superior back control position.",
+        "answer_line": "Forward weight can't follow roll",
+        "distractors": {
+          "plausible": [
+            "Works best when they sit back",
+            "Weight direction doesn't matter"
+          ],
+          "trap": [
+            "Roll toward their pressure"
+          ]
+        }
       },
       {
         "question": "Your attacker has established one hook but does not have a consolidated seat belt grip - what escape should you prioritize?",
-        "answer": "With one hook in but no tight upper body control, the Peterson roll becomes the highest percentage escape. Grab the attacker's far ankle on the hook side, explosively roll over your shoulder toward that ankle, and use the momentum to end in top position. The single hook actually assists your roll by providing a pivot point, and the lack of upper body control means the attacker cannot prevent the rotation. If the Peterson roll is not available, kick the hook out explosively while simultaneously turning to face the attacker before they can re-insert the hook or establish the seat belt."
+        "answer": "With one hook in but no tight upper body control, the Peterson roll becomes the highest percentage escape. Grab the attacker's far ankle on the hook side, explosively roll over your shoulder toward that ankle, and use the momentum to end in top position. The single hook actually assists your roll by providing a pivot point, and the lack of upper body control means the attacker cannot prevent the rotation. If the Peterson roll is not available, kick the hook out explosively while simultaneously turning to face the attacker before they can re-insert the hook or establish the seat belt.",
+        "answer_line": "Peterson roll over the ankle",
+        "distractors": {
+          "plausible": [
+            "Kick hook out immediately",
+            "Grab their overhook arm"
+          ],
+          "trap": [
+            "Sit still and fight the hook"
+          ]
+        }
       },
       {
         "question": "How should you chain escape attempts from turtle rather than resetting to a static position after a failed attempt?",
-        "answer": "After a failed escape attempt, immediately flow into a different escape direction rather than returning to static turtle. If a granby roll fails because the attacker follows your rotation, chain into a sit-through on the opposite side using the attacker's forward commitment against them. If a sit-through is blocked by the attacker's knee, immediately attempt a technical standup using the posting arm. The key principle is continuous motion: a failed escape that flows into another attempt is far more effective than resetting because each movement disrupts the attacker's control and creates micro-windows for the next attempt."
+        "answer": "After a failed escape attempt, immediately flow into a different escape direction rather than returning to static turtle. If a granby roll fails because the attacker follows your rotation, chain into a sit-through on the opposite side using the attacker's forward commitment against them. If a sit-through is blocked by the attacker's knee, immediately attempt a technical standup using the posting arm. The key principle is continuous motion: a failed escape that flows into another attempt is far more effective than resetting because each movement disrupts the attacker's control and creates micro-windows for the next attempt.",
+        "answer_line": "Flow into next attempt, no reset",
+        "distractors": {
+          "plausible": [
+            "Reset to static turtle after fail",
+            "Repeat same escape harder"
+          ],
+          "trap": [
+            "Freeze and cover up"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize fighting first when the attacker begins establishing seat belt control?",
-        "answer": "Prioritize fighting the choking-side overhook arm first because this arm crosses over your shoulder and controls the neck line, creating the foundation for rear naked choke and other finishing attacks. Stripping the overhook eliminates the immediate submission threat and significantly weakens the seat belt's ability to control your upper body rotation. Use two hands on one grip to strip the overhook arm explosively. The underhook arm is secondary because while it prevents you from turning away, it alone does not create immediate submission danger. Fighting the correct arm first buys maximum escape time with minimum defensive effort."
+        "answer": "Prioritize fighting the choking-side overhook arm first because this arm crosses over your shoulder and controls the neck line, creating the foundation for rear naked choke and other finishing attacks. Stripping the overhook eliminates the immediate submission threat and significantly weakens the seat belt's ability to control your upper body rotation. Use two hands on one grip to strip the overhook arm explosively. The underhook arm is secondary because while it prevents you from turning away, it alone does not create immediate submission danger. Fighting the correct arm first buys maximum escape time with minimum defensive effort.",
+        "answer_line": "Strip the overhook arm first",
+        "distractors": {
+          "plausible": [
+            "Fight underhook arm first",
+            "Grip fight both arms equally"
+          ],
+          "trap": [
+            "Ignore arms, turn away now"
+          ]
+        }
       }
     ],
     "training_progressions": [

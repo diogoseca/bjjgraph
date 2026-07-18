@@ -260,43 +260,143 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the armbar transition from clamp guard?",
-        "answer": "The optimal moment is when the opponent pulls their trapped arm straight back in an extraction attempt. This rearward pull naturally extends their arm in the direction you need for the armbar, and their retraction effort means they are already committed to moving away from you. Their pulling force actually assists your transition by pre-extending the elbow. Initiating during a static moment or when the opponent is driving forward makes the transition significantly harder because you are working against their momentum rather than with it."
+        "answer": "The optimal moment is when the opponent pulls their trapped arm straight back in an extraction attempt. This rearward pull naturally extends their arm in the direction you need for the armbar, and their retraction effort means they are already committed to moving away from you. Their pulling force actually assists your transition by pre-extending the elbow. Initiating during a static moment or when the opponent is driving forward makes the transition significantly harder because you are working against their momentum rather than with it.",
+        "answer_line": "Arm pulled back in extraction",
+        "distractors": {
+          "plausible": [
+            "The instant clamp is secured",
+            "When posture is broken"
+          ],
+          "trap": [
+            "While opponent drives forward"
+          ]
+        }
       },
       {
         "question": "What grip and body conditions must be established before attempting the armbar from clamp guard?",
-        "answer": "Four conditions must exist simultaneously: a secure C-clamp wrist grip on the trapped hand pulling toward your hip, shin-on-bicep placement confirmed at the thickest part of the upper arm, opponent's posture broken with their head below hip level through collar or head control, and hips angled 30-45 degrees toward the trapped arm side to pre-load the rotational path. If any one of these conditions is missing, the transition success rate drops substantially and you should address the missing element before committing."
+        "answer": "Four conditions must exist simultaneously: a secure C-clamp wrist grip on the trapped hand pulling toward your hip, shin-on-bicep placement confirmed at the thickest part of the upper arm, opponent's posture broken with their head below hip level through collar or head control, and hips angled 30-45 degrees toward the trapped arm side to pre-load the rotational path. If any one of these conditions is missing, the transition success rate drops substantially and you should address the missing element before committing.",
+        "answer_line": "Grip, shin-bicep, posture, angle",
+        "distractors": {
+          "plausible": [
+            "Just shin-on-bicep placement",
+            "Grip and posture break only"
+          ],
+          "trap": [
+            "Skip hip angle, just clamp arm"
+          ]
+        }
       },
       {
         "question": "What role does hip angle play in the transition from clamp to armbar control?",
-        "answer": "Hip angle determines both the path of the leg swing and the quality of the final armbar position. A 30-45 degree pre-angle toward the trapped arm creates the rotational arc your outside leg needs to clear the opponent's head efficiently. Without this angle, the leg must travel a longer path, giving the opponent more time to react. After the swing, your hips must arrive perpendicular to the opponent's shoulder — this 90-degree alignment is what creates the fulcrum for hyperextension. Insufficient angle means reduced leverage and easier defense."
+        "answer": "Hip angle determines both the path of the leg swing and the quality of the final armbar position. A 30-45 degree pre-angle toward the trapped arm creates the rotational arc your outside leg needs to clear the opponent's head efficiently. Without this angle, the leg must travel a longer path, giving the opponent more time to react. After the swing, your hips must arrive perpendicular to the opponent's shoulder — this 90-degree alignment is what creates the fulcrum for hyperextension. Insufficient angle means reduced leverage and easier defense.",
+        "answer_line": "Pre-angle sets arc, finish square",
+        "distractors": {
+          "plausible": [
+            "Angle matters only at finish",
+            "More angle is always better"
+          ],
+          "trap": [
+            "Skip the angle, swing straight over"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the armbar from clamp guard fails during the leg swing?",
-        "answer": "The most common failure is releasing or loosening the wrist grip during the leg swing. The swing requires significant hip rotation and body movement, and many practitioners unconsciously relax their grip hand as their attention shifts to the leg motion. This creates a split-second window where the opponent can retract the arm through the opening. The correction is to consciously tighten the wrist grip at the moment of the swing, treating it as the anchor point that everything else rotates around."
+        "answer": "The most common failure is releasing or loosening the wrist grip during the leg swing. The swing requires significant hip rotation and body movement, and many practitioners unconsciously relax their grip hand as their attention shifts to the leg motion. This creates a split-second window where the opponent can retract the arm through the opening. The correction is to consciously tighten the wrist grip at the moment of the swing, treating it as the anchor point that everything else rotates around.",
+        "answer_line": "Grip loosens during leg swing",
+        "distractors": {
+          "plausible": [
+            "Shin slips off the bicep",
+            "Hips fail to rotate enough"
+          ],
+          "trap": [
+            "Release grip to speed up swing"
+          ]
+        }
       },
       {
         "question": "How should you manage wrist control during the transition from clamp to armbar?",
-        "answer": "Your near hand maintains a C-clamp grip on the wrist throughout the entire transition without interruption. The thumb wraps around the wrist with fingers on the opposite side, and you pull the wrist toward your near hip continuously. As the leg swings over, the wrist pull actually accelerates the arm extension needed for armbar control. Once the leg clears the head, your far hand joins the wrist control, creating a two-handed grip that pulls toward your chest centerline. The grip transfer from one-hand to two-hands happens only after both legs are in position."
+        "answer": "Your near hand maintains a C-clamp grip on the wrist throughout the entire transition without interruption. The thumb wraps around the wrist with fingers on the opposite side, and you pull the wrist toward your near hip continuously. As the leg swings over, the wrist pull actually accelerates the arm extension needed for armbar control. Once the leg clears the head, your far hand joins the wrist control, creating a two-handed grip that pulls toward your chest centerline. The grip transfer from one-hand to two-hands happens only after both legs are in position.",
+        "answer_line": "Grip stays, second hand joins later",
+        "distractors": {
+          "plausible": [
+            "Switch hands before leg swings",
+            "Release wrist once leg clears"
+          ],
+          "trap": [
+            "Let go to grab the far shoulder"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your hips during the final phase of the armbar entry?",
-        "answer": "Your hips drive upward toward the ceiling and inward toward the opponent's shoulder simultaneously. The upward vector creates the hyperextension pressure on the elbow joint, while the inward vector closes the gap between your hips and their shoulder to maximize leverage. Think of driving your pelvis toward the junction of their shoulder and neck. This combined vector ensures that your body weight and hip thrust translate directly into finishing pressure rather than pushing the opponent away or creating space."
+        "answer": "Your hips drive upward toward the ceiling and inward toward the opponent's shoulder simultaneously. The upward vector creates the hyperextension pressure on the elbow joint, while the inward vector closes the gap between your hips and their shoulder to maximize leverage. Think of driving your pelvis toward the junction of their shoulder and neck. This combined vector ensures that your body weight and hip thrust translate directly into finishing pressure rather than pushing the opponent away or creating space.",
+        "answer_line": "Hips drive up and into shoulder",
+        "distractors": {
+          "plausible": [
+            "Hips drive straight up only",
+            "Hips drive back for space"
+          ],
+          "trap": [
+            "Push hips away to create room"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stacking forward as you swing your leg over their head — how do you adjust?",
-        "answer": "Post your free hand on their shoulder or chest to create a frame that absorbs the forward pressure and prevents your spine from being compressed. Angle your body slightly away from the stack rather than fighting it head-on. If the stack continues and you cannot complete the armbar, immediately transition to a triangle by allowing their forward momentum to carry their head past your leg, then lock your legs in triangle position. Their stacking posture actually facilitates the triangle entry because their head is already driving forward into the triangle space. Never fight a committed stack from the armbar position — redirect it into the chain attack instead."
+        "answer": "Post your free hand on their shoulder or chest to create a frame that absorbs the forward pressure and prevents your spine from being compressed. Angle your body slightly away from the stack rather than fighting it head-on. If the stack continues and you cannot complete the armbar, immediately transition to a triangle by allowing their forward momentum to carry their head past your leg, then lock your legs in triangle position. Their stacking posture actually facilitates the triangle entry because their head is already driving forward into the triangle space. Never fight a committed stack from the armbar position — redirect it into the chain attack instead.",
+        "answer_line": "Frame, angle off, chain to triangle",
+        "distractors": {
+          "plausible": [
+            "Power through the stack forward",
+            "Release everything, reset guard"
+          ],
+          "trap": [
+            "Fight the stack head-on"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the armbar by clasping their hands together — what chain attack do you pursue?",
-        "answer": "You have three primary options depending on their body position. First, attack the grip directly by inserting your wrist between their clasped hands and prying them apart using a figure-four grip break. Second, transition to a triangle by releasing one leg from armbar position and threading it under their chin while their clasped hands remove one arm from choke defense. Third, attack the kimura on the trapped arm by controlling their wrist and rotating their arm behind their back while maintaining leg control over their head. The triangle is generally highest percentage because the opponent has voluntarily removed one hand from neck defense to clasp the other."
+        "answer": "You have three primary options depending on their body position. First, attack the grip directly by inserting your wrist between their clasped hands and prying them apart using a figure-four grip break. Second, transition to a triangle by releasing one leg from armbar position and threading it under their chin while their clasped hands remove one arm from choke defense. Third, attack the kimura on the trapped arm by controlling their wrist and rotating their arm behind their back while maintaining leg control over their head. The triangle is generally highest percentage because the opponent has voluntarily removed one hand from neck defense to clasp the other.",
+        "answer_line": "Go to triangle, highest percentage",
+        "distractors": {
+          "plausible": [
+            "Pry the clasped grip apart",
+            "Switch to kimura on trapped arm"
+          ],
+          "trap": [
+            "Keep cranking the same armbar"
+          ]
+        }
       },
       {
         "question": "How do you adjust the armbar entry when facing a significantly larger or stronger opponent from clamp guard?",
-        "answer": "Against larger opponents, the pendulum variation becomes essential. Swing your hips away first to generate momentum, then use that kinetic energy to drive the leg over their head rather than relying on raw speed against their mass. Additionally, deepen your hip angle further before initiating — a 60-degree pre-angle rather than 30-45 — to shorten the arc your leg must travel. Prioritize posture breaking even more aggressively, using both hands on the head or collar before switching one to the wrist, because a larger opponent with intact posture is nearly impossible to swing past. Finally, commit to the belly-down armbar variation more readily, as it uses gravity and your body weight rather than leg squeeze strength."
+        "answer": "Against larger opponents, the pendulum variation becomes essential. Swing your hips away first to generate momentum, then use that kinetic energy to drive the leg over their head rather than relying on raw speed against their mass. Additionally, deepen your hip angle further before initiating — a 60-degree pre-angle rather than 30-45 — to shorten the arc your leg must travel. Prioritize posture breaking even more aggressively, using both hands on the head or collar before switching one to the wrist, because a larger opponent with intact posture is nearly impossible to swing past. Finally, commit to the belly-down armbar variation more readily, as it uses gravity and your body weight rather than leg squeeze strength.",
+        "answer_line": "Pendulum momentum, deeper pre-angle",
+        "distractors": {
+          "plausible": [
+            "Rely on speed, no setup change",
+            "Same angle, just squeeze harder"
+          ],
+          "trap": [
+            "Try to out-muscle their frame"
+          ]
+        }
       },
       {
         "question": "What is the relationship between clamp depth on the bicep and the viability of the armbar entry?",
-        "answer": "Clamp depth directly determines armbar viability. A deep clamp where the shin sits high on the bicep near the shoulder provides maximum retention during the leg swing because the thickest part of the arm is trapped and extraction requires the opponent to pull their entire upper arm through the narrowest part of your leg clamp. A shallow clamp near the elbow or forearm provides almost no retention during the swing, as the tapered forearm slides free easily under any dynamic movement. Before committing to the armbar, check that your shin contacts the belly of the bicep muscle. If the clamp has degraded to the forearm, hip escape to re-seat it on the bicep rather than attempting the armbar from a compromised position."
+        "answer": "Clamp depth directly determines armbar viability. A deep clamp where the shin sits high on the bicep near the shoulder provides maximum retention during the leg swing because the thickest part of the arm is trapped and extraction requires the opponent to pull their entire upper arm through the narrowest part of your leg clamp. A shallow clamp near the elbow or forearm provides almost no retention during the swing, as the tapered forearm slides free easily under any dynamic movement. Before committing to the armbar, check that your shin contacts the belly of the bicep muscle. If the clamp has degraded to the forearm, hip escape to re-seat it on the bicep rather than attempting the armbar from a compromised position.",
+        "answer_line": "Deep shin on bicep, near shoulder",
+        "distractors": {
+          "plausible": [
+            "Any shin contact is enough",
+            "Shin on forearm works fine"
+          ],
+          "trap": [
+            "Armbar anyway from a shallow clamp"
+          ]
+        }
       }
     ],
     "safety_considerations": "The armbar from clamp guard applies significant hyperextension force to the elbow joint. Always apply finishing pressure gradually in training, allowing your partner adequate time to recognize the danger and tap. Release immediately upon receiving any tap signal — verbal, physical, or foot tap. Be especially cautious during the transition phase, as the momentum of swinging the leg over can accelerate arm extension unexpectedly. Never apply explosive or jerking force to the elbow. When drilling, communicate with your partner about pressure levels and establish clear tap protocols before beginning.",
@@ -405,23 +505,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the clamp guard player is setting up an armbar?",
-        "answer": "The earliest cue is a change in the attacker's hip angle — their hips shift from the standard 30-degree clamp position to a sharper 45-60 degree angle toward your trapped arm. This hip angle change precedes all other setup actions (wrist grip tightening, posture break, leg chambering) and gives you the maximum reaction window. A trained defender who reads the hip angle shift has roughly one full second to react before the leg swing begins, which is sufficient time to initiate posture recovery or arm extraction."
+        "answer": "The earliest cue is a change in the attacker's hip angle — their hips shift from the standard 30-degree clamp position to a sharper 45-60 degree angle toward your trapped arm. This hip angle change precedes all other setup actions (wrist grip tightening, posture break, leg chambering) and gives you the maximum reaction window. A trained defender who reads the hip angle shift has roughly one full second to react before the leg swing begins, which is sufficient time to initiate posture recovery or arm extraction.",
+        "answer_line": "Attacker's hip angle sharpens first",
+        "distractors": {
+          "plausible": [
+            "Wrist grip tightens first",
+            "Leg starts chambering first"
+          ],
+          "trap": [
+            "Wait for the leg swing itself"
+          ]
+        }
       },
       {
         "question": "Your arm is trapped in the clamp and you feel the attacker's hip angle change — what immediate action prevents the armbar entry?",
-        "answer": "Immediately drive your posture upward by extending your spine and pressing your hips back while simultaneously fighting to break or loosen the wrist grip on your trapped hand. Use your free hand to push against the attacker's far knee or hip to create distance. The goal is to deny the three conditions the attacker needs: broken posture, wrist control, and hip angle. If you can restore even one of these defensive elements, the armbar entry becomes significantly harder to execute. Prioritize posture first because it physically prevents the leg from crossing over your head."
+        "answer": "Immediately drive your posture upward by extending your spine and pressing your hips back while simultaneously fighting to break or loosen the wrist grip on your trapped hand. Use your free hand to push against the attacker's far knee or hip to create distance. The goal is to deny the three conditions the attacker needs: broken posture, wrist control, and hip angle. If you can restore even one of these defensive elements, the armbar entry becomes significantly harder to execute. Prioritize posture first because it physically prevents the leg from crossing over your head.",
+        "answer_line": "Posture up, fight the wrist grip",
+        "distractors": {
+          "plausible": [
+            "Push their far knee first",
+            "Fight the wrist grip first"
+          ],
+          "trap": [
+            "Relax and wait for an opening"
+          ]
+        }
       },
       {
         "question": "During the leg swing transition, what specific timing window gives you the best chance to extract your arm?",
-        "answer": "The optimal extraction window is the fraction of a second when the attacker's clamping leg must loosen to allow their outside leg to swing over your head. The clamp cannot maintain full bilateral pressure during the swing because one leg is in motion. This momentary reduction in clamping force — typically lasting less than one second — is when your retraction has the highest chance of success. Combine the retraction with an explosive posture drive to maximize the force pulling your arm free. If you miss this window, the knees will pinch together and the next escape opportunity requires significantly more effort."
+        "answer": "The optimal extraction window is the fraction of a second when the attacker's clamping leg must loosen to allow their outside leg to swing over your head. The clamp cannot maintain full bilateral pressure during the swing because one leg is in motion. This momentary reduction in clamping force — typically lasting less than one second — is when your retraction has the highest chance of success. Combine the retraction with an explosive posture drive to maximize the force pulling your arm free. If you miss this window, the knees will pinch together and the next escape opportunity requires significantly more effort.",
+        "answer_line": "When the swinging leg loosens grip",
+        "distractors": {
+          "plausible": [
+            "Right after clamp is first secured",
+            "Once posture is fully broken"
+          ],
+          "trap": [
+            "Wait until knees fully pinch"
+          ]
+        }
       },
       {
         "question": "What posture adjustments reduce the likelihood of the armbar being successfully initiated from clamp guard?",
-        "answer": "Maintain maximum spine extension with your head up and chest forward, keeping your center of gravity over your knees rather than shifted toward the attacker. Press your hips back and down to lower your center of gravity and increase base stability. Keep your chin elevated so the attacker's leg cannot clear over your head — a tucked chin paradoxically makes the leg swing easier because it reduces your head's profile. Use your free arm to post on the mat outside the attacker's hip, creating a structural frame that resists both the posture break and potential sweep attempts."
+        "answer": "Maintain maximum spine extension with your head up and chest forward, keeping your center of gravity over your knees rather than shifted toward the attacker. Press your hips back and down to lower your center of gravity and increase base stability. Keep your chin elevated so the attacker's leg cannot clear over your head — a tucked chin paradoxically makes the leg swing easier because it reduces your head's profile. Use your free arm to post on the mat outside the attacker's hip, creating a structural frame that resists both the posture break and potential sweep attempts.",
+        "answer_line": "Spine long, chin up, hips back",
+        "distractors": {
+          "plausible": [
+            "Shift weight toward attacker",
+            "Post arm on the mat only"
+          ],
+          "trap": [
+            "Tuck chin to block the leg swing"
+          ]
+        }
       },
       {
         "question": "If the attacker has already swung their leg over your head, what defensive priorities determine whether you escape or get submitted?",
-        "answer": "Three priorities in order: First, bend your trapped elbow immediately and pull your fist toward your own shoulder to prevent arm extension — a bent arm cannot be hyperextended regardless of the attacker's hip position. Second, grip the leg across your face with your free hand and push it toward the attacker's body to prevent them from dropping their hips back for the finish. Third, drive your weight forward into a stacking position to compromise their perpendicular hip alignment. Address all three before attempting a full escape. If the attacker achieves full extension with hips tight and knees pinched despite your defense, tap rather than risk elbow injury."
+        "answer": "Three priorities in order: First, bend your trapped elbow immediately and pull your fist toward your own shoulder to prevent arm extension — a bent arm cannot be hyperextended regardless of the attacker's hip position. Second, grip the leg across your face with your free hand and push it toward the attacker's body to prevent them from dropping their hips back for the finish. Third, drive your weight forward into a stacking position to compromise their perpendicular hip alignment. Address all three before attempting a full escape. If the attacker achieves full extension with hips tight and knees pinched despite your defense, tap rather than risk elbow injury.",
+        "answer_line": "Bend elbow, pull fist to shoulder",
+        "distractors": {
+          "plausible": [
+            "Push their leg away first",
+            "Try to escape the position fully"
+          ],
+          "trap": [
+            "Wait it out and hope they slip"
+          ]
+        }
       }
     ],
     "training_progressions": [

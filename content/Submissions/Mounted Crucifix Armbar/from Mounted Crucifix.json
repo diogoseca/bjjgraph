@@ -286,52 +286,152 @@
       {
         "question": "What anatomical structures does the Mounted Crucifix Armbar attack, and why is the mounted crucifix position particularly effective for this submission?",
         "answer": "The submission targets the elbow joint, specifically hyperextending it against the natural range of motion to stress the ulnar collateral ligament and lateral collateral ligament. The mounted crucifix is particularly effective because the defender's arm is already isolated by the leg-based crucifix control, eliminating the most difficult phase of a standard armbar—initial arm isolation. The defender cannot clasp hands to resist extension because one or both arms are trapped, and they cannot create frames or use their free arm effectively to defend the armbar while simultaneously protecting their neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint, arm already isolated",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint, not the elbow",
+            "Wrist joint via grip lock"
+          ],
+          "trap": [
+            "Neck is the real target here"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together to prevent arm extension during the Mounted Crucifix Armbar—what are your options?",
         "answer": "Three primary responses exist. First, wedge your wrist between their clasped hands and pry the grip apart using a splitting motion. Second, maintain the armbar position patiently and apply sustained hip pressure to fatigue the grip over time—the defender is working against gravity and your entire body. Third, switch to a wrist lock on the gripping hand by rotating the trapped wrist against the grip, creating a secondary submission threat that forces them to release the clasp. The worst response is to release and restart, as re-establishing wrist control from scratch wastes the positional advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wedge wrist, pry grip apart",
+        "distractors": {
+          "plausible": [
+            "Yank the arm free with force",
+            "Switch straight to a choke"
+          ],
+          "trap": [
+            "Release grip and restart"
+          ]
+        }
       },
       {
         "question": "What are the essential control requirements before committing to the armbar finish from mounted crucifix?",
         "answer": "Four elements must be confirmed before committing: (1) Crucifix leg control remains tight with knees squeezed and at least one arm securely trapped. (2) Wrist control is established on the target arm with a firm C-grip preventing elbow retraction. (3) Hips have pivoted to create a perpendicular angle to the target arm without lifting weight off the opponent. (4) The defender's free arm is occupied with neck defense or otherwise unable to assist in armbar defense. Committing to the finish without all four elements dramatically reduces success probability and risks losing the crucifix entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "All four control points locked",
+        "distractors": {
+          "plausible": [
+            "Wrist control alone is enough",
+            "Hip angle before wrist control"
+          ],
+          "trap": [
+            "Commit early, secure wrist after"
+          ]
+        }
       },
       {
         "question": "You feel your opponent beginning to bridge explosively as you start the hip pivot—how do you respond?",
         "answer": "Post immediately with your free hand to maintain base while keeping wrist control on the target arm. Ride the bridge rather than fighting against it—your weight advantage from mount means the bridge will collapse. As the bridge peaks and the opponent's energy is committed, their base is actually at its weakest. Time your hip pivot to resume as the bridge collapses, capitalizing on the momentary disorientation. If the bridge significantly disrupts your crucifix leg control, abandon the armbar attempt, resettle into mounted crucifix, and reattempt once control is re-established. Never chase the armbar at the expense of positional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post, ride the bridge, keep wrist",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge head-on",
+            "Abandon wrist to base out"
+          ],
+          "trap": [
+            "Force the pivot through bridge"
+          ]
+        }
       },
       {
         "question": "What indicates you have passed the point of no return on the Mounted Crucifix Armbar—the point where the defender can no longer escape?",
         "answer": "The point of no return occurs when three conditions are met simultaneously: the arm is fully extended past the hip line with the elbow joint positioned directly over the center of your pelvis, your knees are pinched tightly creating a complete seal preventing arm retraction, and your hips have begun upward elevation into the back of the elbow. Once the arm is straight and your legs are locked, the defender has no mechanical pathway to bend the elbow or extract the arm. At this point, the only variable is pressure application speed—controlled and progressive to allow the tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm straight, knees sealed",
+        "distractors": {
+          "plausible": [
+            "Wrist grip finally feels tight",
+            "Opponent simply stops bridging"
+          ],
+          "trap": [
+            "Any extension means finish fast"
+          ]
+        }
       },
       {
         "question": "What cues tell you the armbar has reached the elbow's breaking point so you can control the final pressure?",
         "answer": "The breaking point is signaled when the arm is fully straight with the elbow stacked directly over the center of your pelvis, the defender's forearm rotation has stopped, and resistance suddenly firms as the joint reaches end range—often accompanied by a wince or verbal cue. From the mounted crucifix this point arrives sooner and with less range of motion than a standard armbar because the arm is already pre-extended by the leg trap. Apply hip pressure in small increments past this point, pausing at each one to give the defender time to tap before ligament damage occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm straight, resistance firms",
+        "distractors": {
+          "plausible": [
+            "Opponent stops talking",
+            "Forearm rotation speeds up"
+          ],
+          "trap": [
+            "Crank hard past first resistance"
+          ]
+        }
       },
       {
         "question": "How does grip positioning on the wrist affect the armbar's finishing angle and effectiveness?",
         "answer": "The C-grip should be positioned with the thumb on the back of the wrist and fingers wrapped around the radial side (thumb side) of the forearm. This grip controls wrist rotation, preventing the defender from turning the thumb toward the ground which would misalign the elbow for hyperextension. Pulling the wrist toward your chest with the defender's thumb pointing toward the ceiling ensures the elbow's natural hinge aligns directly against your hip pressure. Gripping too far down the forearm reduces rotational control, while gripping the hand itself allows the wrist to flex and absorb extension force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumb up, C-grip on radial side",
+        "distractors": {
+          "plausible": [
+            "Grip the hand, not the forearm",
+            "Thumb down for a sharper angle"
+          ],
+          "trap": [
+            "Grip low on the forearm instead"
+          ]
+        }
       },
       {
         "question": "What is the single most common error that causes the Mounted Crucifix Armbar to fail at the finish, and how do you correct it?",
         "answer": "The most common failure is sacrificing crucifix leg control to chase the armbar position—releasing the leg traps or lifting your hips to reposition, which lets the defender extract their arms and escape to standard mount bottom or scramble. Correct it by building the armbar incrementally from within the crucifix: keep the knees pinched and weight heavy throughout the pivot, sliding your hips along the torso rather than jumping into position. The finish should be the culmination of unbroken control, never a transition that abandons it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Releasing crucifix to chase arm",
+        "distractors": {
+          "plausible": [
+            "Gripping the wrist too tightly",
+            "Pivoting the hips too slowly"
+          ],
+          "trap": [
+            "Lift hips to reposition faster"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the Mounted Crucifix Armbar and why does the crucifix position make this especially important?",
         "answer": "Application must be slow and progressive, never explosive or jerking. The mounted crucifix makes speed control especially critical for two reasons: first, the defender's arm is already isolated and partially extended by the crucifix control, meaning less force and less range of motion are needed to reach the breaking point than in a standard armbar. Second, the defender has significantly reduced ability to tap because their arms are trapped—they may need to use verbal tap or foot tap, which takes slightly longer to communicate. Apply pressure incrementally, watch for any tap signal, and pause momentarily at each increase to allow recognition and response time.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, progressive, never jerking",
+        "distractors": {
+          "plausible": [
+            "Fast before they can recover",
+            "One steady moderate push"
+          ],
+          "trap": [
+            "One explosive final crank"
+          ]
+        }
       },
       {
         "question": "In competition, how should you approach the Mounted Crucifix Armbar differently than in training?",
         "answer": "In competition, the tactical approach prioritizes establishing the choke threat first to force the defender into the armbar dilemma rather than attacking the armbar directly. Competitors defending mounted crucifix will protect the neck aggressively, leaving the trapped arm as a secondary concern. The armbar becomes available precisely because they are defending the choke. Timing the transition from choke threat to armbar at the moment the defender commits maximum resources to neck defense creates the highest-percentage finishing window. The finish itself should still be controlled despite competitive intensity—referees watch arm locks closely and may stop the match based on visible hyperextension even without a tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten choke first, then armbar",
+        "distractors": {
+          "plausible": [
+            "Attack the armbar immediately",
+            "Ignore the choke, isolate arm"
+          ],
+          "trap": [
+            "Rush pressure for ref stoppage"
+          ]
+        }
       }
     ],
     "clips": [
@@ -445,27 +545,77 @@
       {
         "question": "What are the earliest recognition cues that a Mounted Crucifix Armbar is being set up, and why is early recognition critical?",
         "answer": "The earliest cues are: the attacker grips your wrist with a C-grip, their weight shifts laterally toward the target arm, and they begin adjusting their leg positioning for the pivot. Early recognition is critical because the defensive window in mounted crucifix is dramatically shorter than in standard mount armbar defense. Your arms are already trapped, eliminating your primary defensive tools. Once the attacker completes the hip pivot and achieves perpendicular positioning, the armbar is essentially complete. You must act during the grip establishment and pivot phase—not after.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "C-grip on wrist, weight shifts",
+        "distractors": {
+          "plausible": [
+            "Hips already perpendicular",
+            "Legs already fully locked"
+          ],
+          "trap": [
+            "Wait until the arm extends"
+          ]
+        }
       },
       {
         "question": "Your arm is being extended but has not reached the breaking point yet—what is your highest priority action?",
         "answer": "Your highest priority is to bend the elbow by pulling the hand toward your own body with maximum effort while simultaneously bridging toward the attacker. If you can bend the elbow even slightly, the armbar mechanics are disrupted. However, if the arm is past approximately 160 degrees of extension with the attacker's hips engaged, the mechanical advantage is overwhelmingly against you—tap immediately rather than risking ligament damage. The distinction between a defensible and indefensible position is narrow, and erring toward tapping preserves your training longevity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bend elbow, bridge into attacker",
+        "distractors": {
+          "plausible": [
+            "Pull the straight arm to chest",
+            "Push the attacker's hips away"
+          ],
+          "trap": [
+            "Fight through past 160 degrees"
+          ]
+        }
       },
       {
         "question": "When should you tap to a Mounted Crucifix Armbar and why is the tap decision different from a standard armbar?",
         "answer": "Tap the instant you feel the arm reach full extension against the attacker's hips with their legs locked around the arm. The tap decision differs from standard armbar because: (1) your normal armbar escape techniques (hitchhiker, stack, turn) are unavailable due to crucifix arm traps, (2) the attacker needs less force to finish because your defensive resistance is mechanically compromised, and (3) your ability to tap physically may be limited since your primary hand is trapped—be prepared to use verbal tap or foot tap immediately. There is no ego-worthy reason to fight a fully locked armbar from mounted crucifix.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at full extension, hips locked",
+        "distractors": {
+          "plausible": [
+            "Wait for an audible pop first",
+            "Try the hitchhiker escape first"
+          ],
+          "trap": [
+            "Fight it since arm feels okay"
+          ]
+        }
       },
       {
         "question": "How does defending the Mounted Crucifix Armbar differ when your other arm is also fully trapped by the crucifix legs?",
         "answer": "When both arms are trapped, your defensive options reduce to bridging, hip movement, and verbal communication. You cannot clasp hands, strip grips, or create frames with either arm. Your defense becomes entirely timing-based—bridging during the attacker's pivot is your only mechanical defense. If the pivot completes and the armbar is established with both arms trapped, you have virtually zero escape options and should tap immediately upon feeling extension pressure. Prevention is paramount—fight the arm isolation before the crucifix is fully established rather than defending from within it.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridge on timing, tap early",
+        "distractors": {
+          "plausible": [
+            "Strip grips with the free hand",
+            "Frame off the near hip"
+          ],
+          "trap": [
+            "Wait it out, no arms to move"
+          ]
+        }
       },
       {
         "question": "What positional escape should you prioritize if the attacker's armbar attempt loosens the crucifix leg control?",
         "answer": "If the armbar attempt loosens the crucifix control, immediately prioritize extracting your trapped arm(s) through hip movement and elbow retraction. Do not attempt to counter the armbar itself—use the loosened control to escape the crucifix first. Once arms are free, you are in standard mount bottom which has a much broader defensive toolkit. Even accepting mount bottom is a significant positional improvement over mounted crucifix. Bridge toward the side where control is loosest and work to insert a knee shield for half guard recovery.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extract arms, don't counter",
+        "distractors": {
+          "plausible": [
+            "Counter with your own armbar",
+            "Push away to create space"
+          ],
+          "trap": [
+            "Chase a submission, ignore arms"
+          ]
+        }
       }
     ],
     "training_progressions": [

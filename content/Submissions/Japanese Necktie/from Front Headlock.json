@@ -322,62 +322,182 @@
       {
         "question": "What is the primary choking mechanism of the Japanese Necktie, and how does it differ from a standard guillotine?",
         "answer": "The Japanese Necktie uses the opponent's own trapped shoulder as part of the choking mechanism, creating bilateral carotid compression through your shoulder on one side and their shoulder on the other side of their neck. Your choking arm serves primarily to control head position rather than generate the choking pressure itself. This differs from a standard guillotine where your arms create the compression directly. The Japanese Necktie generates pressure through hip extension and shoulder drive rather than arm strength, making it effective even against larger opponents.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral shoulder compression",
+        "distractors": {
+          "plausible": [
+            "Arms alone create the squeeze",
+            "Just a tighter guillotine grip"
+          ],
+          "trap": [
+            "Crush the windpipe with forearm"
+          ]
+        }
       },
       {
         "question": "Why is the perpendicular body angle critical to the Japanese Necktie's effectiveness, and what happens if the angle is incorrect?",
         "answer": "The perpendicular angle (approximately 90 degrees between your torso and opponent's spine) is essential because it properly positions your shoulder against the far side of their neck while their trapped shoulder compresses the near side. If you're too parallel to their body, your shoulder won't engage the neck and the choke fails completely. If you rotate too far past perpendicular, you lose leverage and they can easily turn into you to escape or take your back. The 90-degree angle maximizes the scissoring action between your shoulder and theirs, creating optimal bilateral carotid compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular, shoulder on far side",
+        "distractors": {
+          "plausible": [
+            "Rotate past 90 for more leverage",
+            "Any angle works if grip is tight"
+          ],
+          "trap": [
+            "Stay parallel to their spine"
+          ]
+        }
       },
       {
         "question": "What are the immediate steps you must take if your training partner goes unconscious during application of the Japanese Necktie?",
         "answer": "Immediately release all grips and choking pressure the instant you notice loss of resistance or body going limp. Roll away from your partner to create space and remove all constriction from their neck. Check their consciousness and breathing immediately. Elevate their legs to help blood return to the brain. Monitor their breathing and be prepared to call for medical attention if they don't regain consciousness within seconds. Never shake them or apply additional stimulation. If breathing stops, begin CPR and call emergency services immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, roll away, check breathing",
+        "distractors": {
+          "plausible": [
+            "Shake them to wake up first",
+            "Hold position, wait it out"
+          ],
+          "trap": [
+            "Keep choke on to confirm tap"
+          ]
+        }
       },
       {
         "question": "Why is gradual pressure application (5-7 seconds minimum) essential when training the Japanese Necktie, even though the choke can work much faster?",
         "answer": "Gradual application allows your training partner time to recognize the danger, assess their defensive options, and tap safely before losing consciousness. The Japanese Necktie can render opponents unconscious in 3-5 seconds when applied explosively, which doesn't provide adequate time for safe tapping in a training environment. Slow application also prevents trachea damage from sudden shoulder pressure and reduces risk of neck strain from rotational torque. In training, the goal is skill development and safety, not demonstrating how quickly you can choke someone unconscious. Partners who apply submissions gradually build trust and create a safer training environment for everyone.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gives time to tap safely",
+        "distractors": {
+          "plausible": [
+            "Prevents cardio fatigue only",
+            "Builds better muscle memory"
+          ],
+          "trap": [
+            "Apply fast to test the choke"
+          ]
+        }
       },
       {
         "question": "What is the purpose of the overhook on the opponent's near arm, and what happens if this arm trap fails during execution?",
         "answer": "The overhook traps the opponent's arm against their body, transforming their own shoulder into part of the choking mechanism. Their trapped shoulder compresses one carotid artery while your shoulder compresses the other, creating the bilateral compression necessary for the choke. If the arm trap fails and they extract their arm, they can post with that hand to create base, turn into you to face guard, or use the free arm to hand fight and break your grips. Without the trapped arm, you lose half of the choking mechanism and the technique becomes a weak front headlock position rather than an effective submission. If the trap fails, you should immediately transition to alternative attacks like anaconda, darce, or standard guillotine.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Traps shoulder to compress neck",
+        "distractors": {
+          "plausible": [
+            "Just controls their posture",
+            "Prevents them from standing"
+          ],
+          "trap": [
+            "Grip harder if arm slips free"
+          ]
+        }
       },
       {
         "question": "How should you generate choking pressure in the Japanese Necktie, and why is using arm strength alone ineffective?",
         "answer": "Choking pressure should come primarily from hip extension, back arch, and shoulder drive rather than arm strength. You extend your hips forward and upward while arching your back, which drives your shoulder into one side of opponent's neck while their trapped shoulder compresses the other side. Your arms serve mainly to control head position and maintain your grip configuration, not to generate squeezing force. Using arm strength alone is ineffective because your biceps and forearms will fatigue quickly, you won't achieve sufficient pressure on the carotid arteries, and you'll telegraph the submission giving opponent time to defend. Proper technique using body mechanics allows you to finish the choke even against larger, stronger opponents.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension and shoulder drive",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with biceps",
+            "Pull down with both arms"
+          ],
+          "trap": [
+            "Crank neck with arm strength"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up and lifting their head during the setup - what adjustment prevents escape and capitalizes on this movement?",
         "answer": "When an opponent lifts their head during Japanese Necktie setup, immediately tighten your grip around their neck and use the opportunity to sink your choking arm deeper under their chin. Their postured position actually makes the neck more accessible. Drop your weight sharply while pulling their head down with your arm, then immediately begin your rotation to perpendicular angle. If they continue lifting despite pressure, transition to a standing guillotine by releasing the arm trap momentarily but maintaining deep neck control. Their upward momentum can be redirected into a pulling motion that accelerates your submission setup rather than allowing their escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drop weight, pull head down",
+        "distractors": {
+          "plausible": [
+            "Let them stand, reset setup",
+            "Push their head up higher"
+          ],
+          "trap": [
+            "Let go completely and back off"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the Japanese Necktie attack, and what physical sensations indicate the choke is properly applied?",
         "answer": "The Japanese Necktie targets the carotid arteries on both sides of the neck, creating bilateral blood choke compression that restricts blood flow to the brain. When properly applied, the opponent will feel immediate pressure on both sides of their neck without significant windpipe compression. The sensation is of tightness around the neck with rapid lightheadedness and tunnel vision rather than choking or breathing difficulty. If the opponent reports pressure on the throat or difficulty breathing, the choke is misaligned and applying airway compression rather than blood choke - adjust your shoulder angle to compress the sides of the neck rather than the front. A properly applied Japanese Necktie should produce unconsciousness in 3-8 seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Carotids: tightness, tunnel vision",
+        "distractors": {
+          "plausible": [
+            "Windpipe pressure, hard breathing",
+            "Neck strain, sharp local pain"
+          ],
+          "trap": [
+            "Trachea crush, gasping for air"
+          ]
+        }
       },
       {
         "question": "What is the 'point of no escape' in the Japanese Necktie, and how do you ensure you reach it before the opponent can defend?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: the arm trap is secure with the opponent's shoulder locked against their neck, the grip configuration is locked (whether gable grip, shin grip, or lapel grip), and your body is positioned at the perpendicular angle with shoulder contact on the far side of their neck. Once all three elements are in place and you begin hip extension, defensive options become severely limited. To reach this point before the opponent defends, prioritize the arm trap first since this is the most commonly defended element. Execute the rotation quickly after securing the arm trap, and lock your grip immediately upon achieving the perpendicular angle. Speed through the transition phase while being deliberate in the finishing phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm trap + lock + perpendicular",
+        "distractors": {
+          "plausible": [
+            "Just get the grip locked tight",
+            "Perpendicular angle is enough"
+          ],
+          "trap": [
+            "Rush the finish before the trap"
+          ]
+        }
       },
       {
         "question": "During competition, your opponent begins turtling defensively - how do you recognize the ideal moment to transition from control to Japanese Necktie finish?",
         "answer": "The ideal finishing moment presents when the opponent commits their weight forward onto their hands in an attempt to create base for escape. This forward weight shift accomplishes two things: it makes the arm trap easier because their arm is loaded against your overhook, and it positions their head lower which allows deeper penetration of your choking arm. Watch for the moment when they drive forward against your chest pressure or attempt to post a hand - this is your trigger to explode through the rotation and lock your grips. Conversely, if they sit back on their heels in a defensive shell, you may need to use chest pressure and forward drive to force them onto their hands before attacking the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "They post hands, weight forward",
+        "distractors": {
+          "plausible": [
+            "They sit back on their heels",
+            "They scramble to stand up"
+          ],
+          "trap": [
+            "Wait for them to relax fully"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if your initial grip configuration is failing to produce choking pressure?",
         "answer": "If the gable grip behind their head isn't generating pressure, first check your shoulder positioning - the grip may be adequate but shoulder alignment off. If shoulder position is correct, try switching to a shin or ankle grip which changes the angle of pull and often produces tighter compression. In gi, grab your own lapel which provides a more rigid anchor point. If no grip variation works from the standard position, execute the rolling variation which dramatically changes the pressure angle by inverting your body position. Sometimes the issue is insufficient hip extension rather than grip selection - ensure your hips are fully extended with back arched before adjusting grips. Finally, if the opponent is simply too large or flexible for the standard finish, maintain control and transition to anaconda or darce which use different mechanical advantages.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Check shoulder, try shin grip",
+        "distractors": {
+          "plausible": [
+            "Just squeeze the gable grip harder",
+            "Switch hands on the same grip"
+          ],
+          "trap": [
+            "Yank head back to add pressure"
+          ]
+        }
       },
       {
         "question": "From a defensive perspective, what is the highest percentage escape from the Japanese Necktie once it's locked, and why does this defense work?",
         "answer": "The highest percentage escape is extracting the trapped arm before your opponent locks their grip configuration. Once the arm is free, their shoulder can no longer function as part of the choking mechanism and the entire technique falls apart. This defense works because it removes one of the two compression points (your own shoulder) from the equation. To execute this escape, you must aggressively pull your trapped arm free before your opponent completes their rotation to perpendicular position and locks their hands. Use your free hand to push on their elbow or shoulder to create space, then extract the arm by pulling it toward your head. Once the arm is free, immediately work to improve your position by sitting back to guard or standing up. Attempting this escape after they've locked their grips becomes much more difficult, making early recognition and reaction critical.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extract trapped arm before lock",
+        "distractors": {
+          "plausible": [
+            "Pull head straight back",
+            "Turn into them right away"
+          ],
+          "trap": [
+            "Wait and bridge out later"
+          ]
+        }
       }
     ],
     "clips": [
@@ -494,27 +614,77 @@
       {
         "question": "What is the single most important defensive action when you recognize a Japanese Necktie is being set up?",
         "answer": "The most important defensive action is extracting your trapped arm before the attacker locks their grip configuration. The Japanese Necktie's unique mechanical advantage comes from using your own shoulder as part of the choking mechanism through the arm trap. Removing the trapped arm eliminates this advantage entirely and converts the position to a standard front headlock, which has well-established defensive sequences. Push on the attacker's overhook elbow with your free hand while aggressively pulling your trapped arm toward your own head to create space for extraction. This must happen before the attacker completes their perpendicular rotation and locks their hands.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extract arm before grips lock",
+        "distractors": {
+          "plausible": [
+            "Pull chin down and wait",
+            "Push their overhook elbow only"
+          ],
+          "trap": [
+            "Turn into them for the takedown"
+          ]
+        }
       },
       {
         "question": "Why is pulling your head straight back an ineffective defense against the Japanese Necktie, unlike some other front headlock chokes?",
         "answer": "Pulling the head straight back extends your neck, which actually makes the choke tighter by creating more space for the attacker's arm to sink deeper under your chin and increasing the distance between your chin and chest. In a standard guillotine, head extraction can work because the choking pressure comes from the attacker's arms alone. In the Japanese Necktie, the pressure comes from your own trapped shoulder on one side and the attacker's shoulder on the other side, so extending your neck doesn't address either compression point. Instead, keep your chin locked to your chest and focus all defensive energy on extracting the trapped arm, which is the structural element that makes this choke uniquely dangerous.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extends neck, tightens choke",
+        "distractors": {
+          "plausible": [
+            "Works same as a guillotine",
+            "Only helps if grip is loose"
+          ],
+          "trap": [
+            "Yank head back hard to escape"
+          ]
+        }
       },
       {
         "question": "At what point during the Japanese Necktie setup does the defense become extremely low percentage, and what should you do if you reach that point?",
         "answer": "The defense becomes extremely low percentage once all three conditions are met: the arm trap is fully consolidated with your shoulder pressed against your neck, the attacker has achieved the perpendicular body angle, and their grip configuration is locked. Once these elements converge and the attacker begins hip extension, the choke will compress both carotid arteries simultaneously and unconsciousness follows within seconds. If you reach this point, you must tap immediately rather than attempting a last-second escape. Fighting through a fully locked Japanese Necktie risks losing consciousness before you can tap, which is dangerous for both training partners. Recognition of this point of no return is a critical safety skill.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "All three locked, tap now",
+        "distractors": {
+          "plausible": [
+            "Try one last hard escape",
+            "Bridge and roll to relieve"
+          ],
+          "trap": [
+            "Fight through, don't tap yet"
+          ]
+        }
       },
       {
         "question": "How does turning into the attacker help defend the Japanese Necktie, and when is this tactic dangerous?",
         "answer": "Turning into the attacker disrupts the perpendicular angle required for the Japanese Necktie's choking mechanics. By rotating to face them, you eliminate the angle that positions their shoulder against the far side of your neck and can potentially pull them into your closed guard where the submission cannot be finished. However, this tactic is dangerous if the choke is already partially locked or the grip configuration is secured, because turning loads your body weight into the attacker's shoulder pressure and can actually accelerate the choke rather than relieve it. The turning defense is only effective during the early setup phase before grips are locked and the attacker's shoulder is fully positioned against your neck.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Breaks angle, risky if grips set",
+        "distractors": {
+          "plausible": [
+            "Always safe, do it anytime",
+            "Only works once choke is tight"
+          ],
+          "trap": [
+            "Turn in after grips are locked"
+          ]
+        }
       },
       {
         "question": "What defensive hand fighting priorities should you maintain when caught in the early stages of a Japanese Necktie attempt?",
         "answer": "Your free hand (the one not being trapped) must work aggressively on two priorities in this order: first, strip the attacker's overhook by pushing on their elbow or forearm to create space for your trapped arm to extract. Second, if the overhook cannot be broken immediately, use your free hand to block the attacker's far hip from stepping over your back, which denies the perpendicular rotation angle they need. Never use your free hand to push on their head or chest, as this doesn't address either critical element of the choke. If both arms are controlled, immediately attempt to stand or sit through to guard before the position consolidates further. The hand fighting window is extremely narrow - you have approximately 2-3 seconds of effective hand fighting before the attacker can lock their grip configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip overhook, block hip step",
+        "distractors": {
+          "plausible": [
+            "Push on their head or chest",
+            "Block hip step first, then arm"
+          ],
+          "trap": [
+            "Wait for grips before defending"
+          ]
+        }
       }
     ],
     "training_progressions": [

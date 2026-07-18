@@ -270,47 +270,137 @@
       {
         "question": "What anatomical structures does the Bow and Arrow Choke from Russian Cowboy primarily attack?",
         "answer": "The choke targets both carotid arteries on the lateral sides of the neck. The cross-collar grip creates a diagonal pressure line across the front of the throat, while the bow-and-arrow stretch compresses the collar material into both carotid arteries simultaneously. When applied correctly, this bilateral compression restricts blood flow to the brain, causing unconsciousness within 6-10 seconds of a clean application. The trachea may also experience incidental pressure, but the primary mechanism is vascular, not respiratory.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe/trachea only",
+            "Jaw and mandible"
+          ],
+          "trap": [
+            "Neck vertebrae crank"
+          ]
+        }
       },
       {
         "question": "Your opponent starts hand fighting your collar grip before you have full depth—what adjustment prevents them from stripping it?",
         "answer": "First, tighten your seatbelt control with your underhook arm to limit their hand mobility. If they grab your wrist, use a circular motion to break their grip by rotating your hand toward their thumb—the weakest point of any grip. If they succeed in partially stripping the collar, do not fight for the same grip. Instead, release and reattempt from the opposite side, or transition to an RNC threat to force their hands up to their neck, reopening the collar. The grip fight should never become static—keep cycling between threats.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Break toward thumb, switch sides",
+        "distractors": {
+          "plausible": [
+            "Muscle through, pull harder",
+            "Regrip same side repeatedly"
+          ],
+          "trap": [
+            "Let go of seatbelt control"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the choke is properly set as a blood choke rather than a windpipe crush or jaw crank?",
         "answer": "A properly set blood choke shows these indicators: the collar grip sits behind the neck at the seam rather than on the front lapel, the forearm crosses diagonally across both sides of the neck without pressing directly on the Adam's apple, and the opponent's face reddens noticeably within seconds. If the opponent is coughing or their jaw is being forced sideways, the grip is too shallow or misaligned. The stretch should feel smooth and progressive, with the opponent's resistance fading steadily rather than them fighting through pain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Grip behind neck, face reddens",
+        "distractors": {
+          "plausible": [
+            "Grip on front lapel, tight",
+            "Straight pull, opponent coughs"
+          ],
+          "trap": [
+            "Force jaw sideways for pain"
+          ]
+        }
       },
       {
         "question": "How does the Russian Cowboy hook function differently from a standard back mount hook during the Bow and Arrow finish?",
         "answer": "In standard back mount, the hook primarily prevents the opponent from escaping laterally and provides positional retention. In Russian Cowboy, the single hook serves as the fixed anchor point of the bow—it pins the opponent's hip in place while the collar grip stretches their upper body in the opposite direction. The hook's rotational control prevents the opponent from turning into the attacker during the extension phase, which is the primary escape from traditional Bow and Arrow setups. This pre-established anchor reduces the technical steps needed to reach the finishing position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Anchors hip, stops turn-in",
+        "distractors": {
+          "plausible": [
+            "Blocks lateral escape only",
+            "Adds extra body weight"
+          ],
+          "trap": [
+            "Release hook to free rotation"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol after your training partner taps to this choke?",
         "answer": "Upon any tap signal—verbal, hand tap, foot tap, or loss of resistance—immediately release the collar grip first to relieve arterial pressure. Simultaneously release the pant grip and retract your hooking leg to free the opponent's body. Allow their head to return to a neutral position without forcing any movement. Check that your partner is responsive and coherent. If they lost consciousness, place them on their back, elevate their legs, and monitor breathing until they fully recover. Never continue training until the tapped partner confirms they are ready.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release collar grip first",
+        "distractors": {
+          "plausible": [
+            "Release pant grip first",
+            "Hold briefly to confirm tap"
+          ],
+          "trap": [
+            "Keep grip until fully limp"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly and grabs the collar material with both hands to create slack—how do you overcome this defense?",
         "answer": "Increase the overall stretch by extending your hooking leg further and pulling the pant grip more aggressively toward your hip. The additional body extension forces the opponent to choose between holding the collar slack and preventing the stretch—they cannot do both. Simultaneously, angle your gripping forearm higher behind the ear to bypass the jaw entirely. If they maintain both defenses, use your free hand to peel their bottom hand off the collar by attacking the pinky-side fingers. The combination of increased stretch and targeted grip breaking defeats the chin tuck defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extend stretch, peel bottom hand",
+        "distractors": {
+          "plausible": [
+            "Pull straight down harder",
+            "Switch to different choke"
+          ],
+          "trap": [
+            "Release pant grip to reset"
+          ]
+        }
       },
       {
         "question": "When during the Russian Cowboy attack sequence is the optimal moment to initiate the collar grip for the Bow and Arrow?",
         "answer": "The optimal window opens when the opponent addresses the leg entanglement threat—specifically when they use both hands to fight the hook or defend a truck entry. At that moment, their collar is completely unprotected. A secondary window appears when they flatten their hips to the mat to prevent the truck roll, which exposes the collar while their hands are occupied managing hip position. Attempting the collar grip while the opponent's hands are free and near their neck has the lowest success rate and should be avoided unless combined with a distraction threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hands busy defending hook/truck",
+        "distractors": {
+          "plausible": [
+            "Hips flattened to the mat",
+            "Right after securing seatbelt"
+          ],
+          "trap": [
+            "Hands free and near their neck"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that turn this blood choke into a painful but ineffective jaw crank?",
         "answer": "The three most common errors are: shallow collar grip sitting on the front lapel rather than behind the neck at the seam, pulling the collar grip straight down toward your own chest rather than diagonally across the opponent's throat line, and failing to angle perpendicular to the opponent's spine during the extension. A shallow grip causes the collar to press against the jaw and mandible rather than the carotid arteries. Pulling straight down compresses the trachea instead of the lateral neck. Without the perpendicular angle, the stretch is linear and generates compression rather than proper bilateral vascular pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shallow grip, straight-down pull",
+        "distractors": {
+          "plausible": [
+            "Grip too far behind neck",
+            "Angling too far past spine"
+          ],
+          "trap": [
+            "Crank the jaw for extra pain"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic considerations affect when to attempt this choke versus other attacks from Russian Cowboy?",
         "answer": "Attempt the Bow and Arrow when: there is sufficient time remaining on the clock for a slow progressive application (minimum 30 seconds), the opponent has already shown vulnerability to collar-based attacks, and you have confirmed your collar grip depth before committing. Avoid this choke when: time is running short and a faster submission like the RNC would be more efficient, the opponent has excellent grip fighting and you cannot secure collar depth, or the opponent's gi collar is sweat-soaked and slippery. In IBJJF scoring, back control points are already secured, so the choke attempt is a low-risk, high-reward play from this position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Time allows, grip confirmed",
+        "distractors": {
+          "plausible": [
+            "Attempt with 10 seconds left",
+            "Force it on slippery gi"
+          ],
+          "trap": [
+            "Abandon back control to chase it"
+          ]
+        }
       }
     ],
     "clips": [
@@ -426,22 +516,62 @@
       {
         "question": "How do you recognize that a Bow and Arrow Choke is being set up from Russian Cowboy?",
         "answer": "The primary cue is the attacker's top hand releasing the seatbelt grip and reaching across your neck toward the far-side collar. You will feel fingers probing behind your neck at the collar seam. Secondary cues include the attacker shifting their weight to their side and their underhook arm loosening as they prepare to transition it to a pant grip. The tactile sensation of collar material being pulled tight against your neck confirms the grip is being seated. Recognizing these cues early—during the reach rather than after the grip—is critical for successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand leaves seatbelt for collar",
+        "distractors": {
+          "plausible": [
+            "Sudden squeeze on both hips",
+            "Opponent pulls both legs in"
+          ],
+          "trap": [
+            "Ignore hand movement near neck"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Bow and Arrow Choke from Russian Cowboy?",
         "answer": "Tap early and clearly using multiple signals simultaneously. The safest approach is verbal tap combined with hand tap on the attacker's body or the mat. Because the choke compresses carotid arteries, unconsciousness can occur within 6-10 seconds of a fully locked application—there is a narrow window between feeling trapped and losing consciousness. If your hands are trapped by the attacker's grips, use verbal tap immediately. Foot taps on the mat are a backup signal. Never assume you can ride out the pressure or that the grip is not deep enough. The safe default is to tap when you feel sustained bilateral neck pressure that you cannot immediately relieve.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early: verbal and hand",
+        "distractors": {
+          "plausible": [
+            "Wait to confirm grip is deep",
+            "Tap only when vision blurs"
+          ],
+          "trap": [
+            "Try to ride out the pressure"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Bow and Arrow Choke from Russian Cowboy?",
         "answer": "Three primary options exist depending on the phase: early-phase, use two-on-one grip control to strip the collar grip before it is fully seated behind the neck. Mid-phase, if the collar grip is secure but the pant grip has not been obtained, turn explosively into the attacker to collapse the choking angle and recover closed guard. Late-phase, if both grips are established, strip the pant grip and shrimp your hips toward the attacker to collapse stretch distance, then work to rotate and face them. Each option has a narrow window of effectiveness—recognizing which phase you are in determines which defense to deploy.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip, turn in, or shrimp",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Bridge and roll them over"
+          ],
+          "trap": [
+            "Turn away from the attacker"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker a dangerous mistake when defending this choke?",
         "answer": "Turning away from the attacker during a Bow and Arrow attempt assists the choking mechanics in two ways: it increases the stretch distance between the collar grip and the leg hook anchor, amplifying compression on the carotid arteries, and it rotates your body in the same direction the attacker is pulling, accelerating their transition to the finishing angle. The correct response is always to turn into the attacker, toward their chest, which collapses the distance and neutralizes the cross-body angle that makes the bow-and-arrow stretch effective. Turning in may momentarily tighten the collar, but it eliminates the finishing mechanics entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Increases stretch, aids finish",
+        "distractors": {
+          "plausible": [
+            "Only tires you out faster",
+            "Loosens their collar grip"
+          ],
+          "trap": [
+            "It's fine if done explosively"
+          ]
+        }
       }
     ],
     "training_progressions": [

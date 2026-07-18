@@ -265,35 +265,115 @@
     "flashcards": [
       {
         "question": "Why is the over-arm targeted first rather than the under-arm in the standard seat belt peel escape?",
-        "answer": "The over-arm is targeted first because it sits on top of your body with less structural support from your torso, making it more accessible to your hands and more vulnerable to peeling force. The under-arm sits against your ribcage where body contact reinforces its position and gravity helps it stay in place. Additionally, removing the over-arm first destroys the diagonal force vector of the seat belt grip, making the under-arm far less effective even if it remains in position."
+        "answer": "The over-arm is targeted first because it sits on top of your body with less structural support from your torso, making it more accessible to your hands and more vulnerable to peeling force. The under-arm sits against your ribcage where body contact reinforces its position and gravity helps it stay in place. Additionally, removing the over-arm first destroys the diagonal force vector of the seat belt grip, making the under-arm far less effective even if it remains in position.",
+        "answer_line": "Over-arm first, no rib support",
+        "distractors": {
+          "plausible": [
+            "Under-arm first, it's weaker",
+            "Attack both arms simultaneously"
+          ],
+          "trap": [
+            "Ignore over-arm, pull under-arm"
+          ]
+        }
       },
       {
         "question": "Your opponent has a gable grip for their seat belt connection - how does this change your peeling approach compared to a wrist grab?",
-        "answer": "A gable grip (palm-to-palm with fingers interlocked) is stronger against direct pulling force but weaker against rotational peeling because the fingers can be individually addressed. Focus the peel on rotating their top hand rather than pulling straight away. Strip individual fingers starting with the pinky side while maintaining diagonal pull direction. A wrist grab is weaker overall but the wrist is harder to individually strip, so use steady progressive force on the entire wrist with emphasis on the diagonal shear angle."
+        "answer": "A gable grip (palm-to-palm with fingers interlocked) is stronger against direct pulling force but weaker against rotational peeling because the fingers can be individually addressed. Focus the peel on rotating their top hand rather than pulling straight away. Strip individual fingers starting with the pinky side while maintaining diagonal pull direction. A wrist grab is weaker overall but the wrist is harder to individually strip, so use steady progressive force on the entire wrist with emphasis on the diagonal shear angle.",
+        "answer_line": "Rotate top hand, strip fingers",
+        "distractors": {
+          "plausible": [
+            "Pull straight back against grip",
+            "Strip thumb side first"
+          ],
+          "trap": [
+            "Try to break both hands at once"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for executing the hip escape after breaking the seat belt grip?",
-        "answer": "The hip escape must begin within approximately one second of grip separation. Any longer and the opponent will reconnect their hands or transition to an alternative grip. The hip escape should actually be pre-loaded during the peel attempt, meaning your hips are already positioned and tensioned to move the instant separation occurs. Think of the grip break as releasing a spring that was already compressed. The coordination between upper body grip work and lower body escape readiness is what makes this technique effective."
+        "answer": "The hip escape must begin within approximately one second of grip separation. Any longer and the opponent will reconnect their hands or transition to an alternative grip. The hip escape should actually be pre-loaded during the peel attempt, meaning your hips are already positioned and tensioned to move the instant separation occurs. Think of the grip break as releasing a spring that was already compressed. The coordination between upper body grip work and lower body escape readiness is what makes this technique effective.",
+        "answer_line": "Pre-load hips, explode on break",
+        "distractors": {
+          "plausible": [
+            "Wait to confirm break, then move",
+            "Break grip fully before moving hips"
+          ],
+          "trap": [
+            "Celebrate the break, reset position"
+          ]
+        }
       },
       {
         "question": "Your opponent releases their seat belt voluntarily as you begin peeling - what does this indicate and how should you respond?",
-        "answer": "A voluntary seat belt release during your peel attempt almost always indicates the opponent is transitioning to a direct choke attack, using the hand separation as an opportunity to slide their forearm under your chin. This is the most dangerous counter to the peel escape. Immediately abandon the peel and return both hands to neck defense, tucking your chin hard and establishing two-on-one control on whatever arm is moving toward your neck. Do not continue the escape sequence until the choking threat is neutralized."
+        "answer": "A voluntary seat belt release during your peel attempt almost always indicates the opponent is transitioning to a direct choke attack, using the hand separation as an opportunity to slide their forearm under your chin. This is the most dangerous counter to the peel escape. Immediately abandon the peel and return both hands to neck defense, tucking your chin hard and establishing two-on-one control on whatever arm is moving toward your neck. Do not continue the escape sequence until the choking threat is neutralized.",
+        "answer_line": "Abandon peel, defend the choke",
+        "distractors": {
+          "plausible": [
+            "Free grip - finish the peel now",
+            "They're gassed, quitting the grip"
+          ],
+          "trap": [
+            "Turn to attack their free arm"
+          ]
+        }
       },
       {
         "question": "How does the direction of your peeling force exploit the biomechanics of the opponent's grip?",
-        "answer": "The diagonal pull toward your far hip creates rotational shear stress on the grip connection rather than simple tensile pulling force. Most grip configurations are strongest against direct pulling where both hands can squeeze together, but much weaker against rotational or shearing forces that try to twist the hands apart at an angle. By pulling diagonally and downward, you attack the grip at its weakest resistance angle while also generating torque through your body rotation that amplifies the separation force beyond what your arms alone could produce."
+        "answer": "The diagonal pull toward your far hip creates rotational shear stress on the grip connection rather than simple tensile pulling force. Most grip configurations are strongest against direct pulling where both hands can squeeze together, but much weaker against rotational or shearing forces that try to twist the hands apart at an angle. By pulling diagonally and downward, you attack the grip at its weakest resistance angle while also generating torque through your body rotation that amplifies the separation force beyond what your arms alone could produce.",
+        "answer_line": "Diagonal shear beats direct pull",
+        "distractors": {
+          "plausible": [
+            "Pull straight down for max power",
+            "Push away then pull back"
+          ],
+          "trap": [
+            "Match their pulling direction"
+          ]
+        }
       },
       {
         "question": "What should you do if your peel attempt partially succeeds - you weaken the grip but cannot fully separate the hands?",
-        "answer": "A partial peel success is still valuable because it degrades the opponent's grip quality and forces them to expend energy rebuilding their connection. Maintain whatever grip degradation you achieved, execute a small hip escape to capitalize on the reduced control, then immediately attempt a second peel while their grip is still weakened. Multiple partial successes accumulate into full separation. The opponent's grip endurance is finite, and each peel attempt taxes their forearm muscles. Do not abandon partial progress to try a completely different escape."
+        "answer": "A partial peel success is still valuable because it degrades the opponent's grip quality and forces them to expend energy rebuilding their connection. Maintain whatever grip degradation you achieved, execute a small hip escape to capitalize on the reduced control, then immediately attempt a second peel while their grip is still weakened. Multiple partial successes accumulate into full separation. The opponent's grip endurance is finite, and each peel attempt taxes their forearm muscles. Do not abandon partial progress to try a completely different escape.",
+        "answer_line": "Bank the damage, hip escape, repeat",
+        "distractors": {
+          "plausible": [
+            "Reset grip work from scratch",
+            "Switch escapes completely"
+          ],
+          "trap": [
+            "Release progress, retreat fully"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from transitioning to body triangle while you are working the seat belt peel?",
-        "answer": "Monitor the opponent's leg activity through feel while working the peel. If you sense them unlocking their hooks to begin threading a body triangle, immediately shift priority from the peel to preventing the triangle lock by straightening your legs and creating space at your hips. A body triangle makes all escapes significantly harder, so preventing it takes temporary priority over the grip break. Once you have blocked the body triangle attempt and they return to hooks, resume the peel sequence."
+        "answer": "Monitor the opponent's leg activity through feel while working the peel. If you sense them unlocking their hooks to begin threading a body triangle, immediately shift priority from the peel to preventing the triangle lock by straightening your legs and creating space at your hips. A body triangle makes all escapes significantly harder, so preventing it takes temporary priority over the grip break. Once you have blocked the body triangle attempt and they return to hooks, resume the peel sequence.",
+        "answer_line": "Straighten legs, block the lock",
+        "distractors": {
+          "plausible": [
+            "Keep peeling, ignore the legs",
+            "Rush the grip break instead"
+          ],
+          "trap": [
+            "Bridge hard to buck them off"
+          ]
+        }
       },
       {
         "question": "After successfully peeling the grip and escaping to half guard, what is your immediate positional priority?",
-        "answer": "Your immediate priority is getting to your side facing the opponent and establishing either a knee shield or underhook before they can recover any back control. Many failed peel escapes occur because the practitioner arrives in half guard but stays flat on their back, allowing the opponent to re-take the back from the top half guard position. Get on your side, establish frames to prevent cross-face, and secure the leg entanglement tightly before the opponent can disengage and circle back to your back."
+        "answer": "Your immediate priority is getting to your side facing the opponent and establishing either a knee shield or underhook before they can recover any back control. Many failed peel escapes occur because the practitioner arrives in half guard but stays flat on their back, allowing the opponent to re-take the back from the top half guard position. Get on your side, establish frames to prevent cross-face, and secure the leg entanglement tightly before the opponent can disengage and circle back to your back.",
+        "answer_line": "Turn to your side, get underhook",
+        "distractors": {
+          "plausible": [
+            "Stay flat, secure the leg lock",
+            "Sit up to face them immediately"
+          ],
+          "trap": [
+            "Turn belly-down, control legs"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Seat Belt Peel Escape carries moderate injury risk primarily from the opponent's potential counter-attacks during grip transition. When both hands leave neck defense to attack the grip, the throat becomes temporarily vulnerable to choke attacks that can cause tracheal injury if applied explosively. Always verify chin defense before committing to the peel. Shoulder strain can occur if the opponent resists the peel by pulling their arm back while your two-on-one grip is locked, creating opposing forces across your shoulder joint. Release the peel rather than forcing through extreme resistance. Finger injuries are possible when stripping grips, particularly against opponents wearing a gi. Never use single-finger manipulation to break grips.",
@@ -411,15 +491,45 @@
     "flashcards": [
       {
         "question": "What is the primary recognition cue that your opponent is attempting a seat belt peel rather than standard hand fighting?",
-        "answer": "The primary cue is feeling two-on-one pressure specifically on your over-arm hand with a diagonal pulling force directed toward the opponent's far hip. Standard hand fighting typically involves the opponent controlling your choking wrist near their neck, while the peel specifically targets the hand connection point across their chest. The diagonal pulling direction is the distinctive marker of the peel technique versus other grip attacks."
+        "answer": "The primary cue is feeling two-on-one pressure specifically on your over-arm hand with a diagonal pulling force directed toward the opponent's far hip. Standard hand fighting typically involves the opponent controlling your choking wrist near their neck, while the peel specifically targets the hand connection point across their chest. The diagonal pulling direction is the distinctive marker of the peel technique versus other grip attacks.",
+        "answer_line": "Diagonal pull on your over-arm",
+        "distractors": {
+          "plausible": [
+            "Hand fighting near your neck",
+            "Grip pressure on your legs"
+          ],
+          "trap": [
+            "Pressure easing, they're tired"
+          ]
+        }
       },
       {
         "question": "When your opponent commits both hands to the peel, what opportunity does this create for you?",
-        "answer": "When both of the opponent's hands leave neck defense to attack your grip, their throat becomes completely undefended for 2-3 seconds. This creates a window to release your seat belt voluntarily and immediately attack the rear naked choke with your choking arm, which is already positioned near their neck. The opponent must then abandon their peel attempt and scramble to defend the choke, often from a worse defensive position than before they started the peel."
+        "answer": "When both of the opponent's hands leave neck defense to attack your grip, their throat becomes completely undefended for 2-3 seconds. This creates a window to release your seat belt voluntarily and immediately attack the rear naked choke with your choking arm, which is already positioned near their neck. The opponent must then abandon their peel attempt and scramble to defend the choke, often from a worse defensive position than before they started the peel.",
+        "answer_line": "Release grip, attack the choke",
+        "distractors": {
+          "plausible": [
+            "Hold tight, don't let go",
+            "Hip escape while hands are busy"
+          ],
+          "trap": [
+            "Push away and stand up"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to body triangle an effective counter to persistent peel escape attempts?",
-        "answer": "The body triangle eliminates the hook vulnerability that the opponent plans to exploit after breaking the seat belt grip. Even if the opponent successfully peels the grip, the body triangle prevents the hip escape and hook clearing that constitute the second and third phases of the escape sequence. Without the ability to chain grip break into positional escape, the peel becomes a standalone grip break that you can recover from while maintaining dominant lower body control."
+        "answer": "The body triangle eliminates the hook vulnerability that the opponent plans to exploit after breaking the seat belt grip. Even if the opponent successfully peels the grip, the body triangle prevents the hip escape and hook clearing that constitute the second and third phases of the escape sequence. Without the ability to chain grip break into positional escape, the peel becomes a standalone grip break that you can recover from while maintaining dominant lower body control.",
+        "answer_line": "Locks hips, blocks hip escape",
+        "distractors": {
+          "plausible": [
+            "Restricts their arms only",
+            "Tires out their grip faster"
+          ],
+          "trap": [
+            "Loosen hooks to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

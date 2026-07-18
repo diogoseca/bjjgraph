@@ -263,15 +263,45 @@
     "flashcards": [
       {
         "question": "What is the optimal angle for driving the knee across the opponent's thigh during the knee slide?",
-        "answer": "The knee should drive diagonally at approximately 45 degrees across the opponent's thigh, cutting from the inside hip toward the mat on the far side. A straight-down angle stalls against the thigh and allows the opponent to insert a knee shield. The diagonal path uses your hip weight to separate their legs while your crossface prevents them from following the direction of your cut."
+        "answer": "The knee should drive diagonally at approximately 45 degrees across the opponent's thigh, cutting from the inside hip toward the mat on the far side. A straight-down angle stalls against the thigh and allows the opponent to insert a knee shield. The diagonal path uses your hip weight to separate their legs while your crossface prevents them from following the direction of your cut.",
+        "answer_line": "Diagonal ~45° across thigh",
+        "distractors": {
+          "plausible": [
+            "Straight line perpendicular",
+            "Steep angle near 70 degrees"
+          ],
+          "trap": [
+            "Drive knee straight down"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you commit to the knee slide from combat base?",
-        "answer": "You need a stable combat base with one knee posted and the opposite foot planted flat, the opponent's near-side hip accessible without a strong knee shield or frame blocking the cutting path, and at least one controlling grip on their upper or lower body. Critically, you must have a forward angle that lets the lead knee drive diagonally across the thigh rather than straight down—attempting the cut without these prerequisites lets the opponent insert a frame and recover guard."
+        "answer": "You need a stable combat base with one knee posted and the opposite foot planted flat, the opponent's near-side hip accessible without a strong knee shield or frame blocking the cutting path, and at least one controlling grip on their upper or lower body. Critically, you must have a forward angle that lets the lead knee drive diagonally across the thigh rather than straight down—attempting the cut without these prerequisites lets the opponent insert a frame and recover guard.",
+        "answer_line": "Stable base, grip, open angle",
+        "distractors": {
+          "plausible": [
+            "Any base works, grab a leg first",
+            "Wait until guard pass is set"
+          ],
+          "trap": [
+            "Cut through a set knee shield"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a knee shield just as you begin the knee slide—how do you adjust your passing strategy?",
-        "answer": "When the opponent inserts a knee shield, do not force the knee slide through the frame. Use your crossface shoulder pressure to flatten their shield knee toward the mat while shifting your hips to the opposite side. If the shield holds, transition to a smash pass by driving your shoulder into their knee shield and walking your hips around, or switch to a long step pass by stepping your lead leg over their shield to the far side."
+        "answer": "When the opponent inserts a knee shield, do not force the knee slide through the frame. Use your crossface shoulder pressure to flatten their shield knee toward the mat while shifting your hips to the opposite side. If the shield holds, transition to a smash pass by driving your shoulder into their knee shield and walking your hips around, or switch to a long step pass by stepping your lead leg over their shield to the far side.",
+        "answer_line": "Flatten shield, switch to smash pass",
+        "distractors": {
+          "plausible": [
+            "Switch sides and restart base",
+            "Grab the shin and yank it clear"
+          ],
+          "trap": [
+            "Force the knee through the shield"
+          ]
+        }
       },
       {
         "question": "Why is the crossface critical during the knee slide, and what happens if you skip it?",
@@ -279,11 +309,31 @@
       },
       {
         "question": "What grip configuration provides the strongest control for completing the knee slide in the gi?",
-        "answer": "The strongest gi configuration combines a cross-collar grip with the lead hand driving the crossface and a pants grip at the knee or belt grip with the trailing hand. The cross-collar grip controls head position and prevents the opponent from turning into you, while the pants grip pins their far hip and prevents guard recovery. This dual control creates a vise that channels all pressure through the cutting knee."
+        "answer": "The strongest gi configuration combines a cross-collar grip with the lead hand driving the crossface and a pants grip at the knee or belt grip with the trailing hand. The cross-collar grip controls head position and prevents the opponent from turning into you, while the pants grip pins their far hip and prevents guard recovery. This dual control creates a vise that channels all pressure through the cutting knee.",
+        "answer_line": "Cross-collar plus pants/belt grip",
+        "distractors": {
+          "plausible": [
+            "Two-on-one sleeve control grip",
+            "Underhook plus lapel grip"
+          ],
+          "trap": [
+            "Both hands grip the belt only"
+          ]
+        }
       },
       {
         "question": "What is the most common timing window for initiating the knee slide from combat base?",
-        "answer": "The optimal timing window occurs when the opponent is reacting to another threat—such as defending a grip break, recovering from a toreando feint, or adjusting their guard after a weight shift. The moment their attention and frames are occupied with one threat is when the knee slide cuts through most efficiently. Initiating the knee slide against a fully set, prepared guard with established frames significantly reduces the success rate."
+        "answer": "The optimal timing window occurs when the opponent is reacting to another threat—such as defending a grip break, recovering from a toreando feint, or adjusting their guard after a weight shift. The moment their attention and frames are occupied with one threat is when the knee slide cuts through most efficiently. Initiating the knee slide against a fully set, prepared guard with established frames significantly reduces the success rate.",
+        "answer_line": "Strike while they react to a threat",
+        "distractors": {
+          "plausible": [
+            "Attack a fully set, ready guard",
+            "Wait for opponent to attack first"
+          ],
+          "trap": [
+            "Rush in before establishing grips"
+          ]
+        }
       },
       {
         "question": "What are the most common points where the knee slide fails, and how do you recognize them developing?",
@@ -291,11 +341,31 @@
       },
       {
         "question": "How should you distribute your weight during each phase of the knee slide?",
-        "answer": "During setup in combat base, weight is distributed 60-40 between posted knee and planted foot. As you initiate the cut, shift weight forward through your hips onto the opponent's torso via the crossface shoulder. At mid-pass, your weight should be almost entirely on the opponent through hip and chest pressure, with the cutting knee serving as a blade rather than a weight-bearing point. Upon completion, transfer to standard side control weight distribution across the opponent's chest and hips."
+        "answer": "During setup in combat base, weight is distributed 60-40 between posted knee and planted foot. As you initiate the cut, shift weight forward through your hips onto the opponent's torso via the crossface shoulder. At mid-pass, your weight should be almost entirely on the opponent through hip and chest pressure, with the cutting knee serving as a blade rather than a weight-bearing point. Upon completion, transfer to standard side control weight distribution across the opponent's chest and hips.",
+        "answer_line": "Weight shifts forward onto opponent",
+        "distractors": {
+          "plausible": [
+            "Weight stays back on your heels",
+            "Weight evenly split throughout"
+          ],
+          "trap": [
+            "Load weight onto the cutting knee"
+          ]
+        }
       },
       {
         "question": "Your opponent frames hard against your crossface shoulder during the knee slide—what is your response?",
-        "answer": "Use a swim move to get your crossface arm inside their frame, collapsing the distance between your shoulder and their neck. If the frame is too strong to swim through, grip their wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch grips and transition to an arm drag that pulls their framing arm across their body, opening the far side for the knee to cut through without resistance."
+        "answer": "Use a swim move to get your crossface arm inside their frame, collapsing the distance between your shoulder and their neck. If the frame is too strong to swim through, grip their wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch grips and transition to an arm drag that pulls their framing arm across their body, opening the far side for the knee to cut through without resistance.",
+        "answer_line": "Swim inside the frame or arm drag",
+        "distractors": {
+          "plausible": [
+            "Push straight through the frame",
+            "Switch to a completely new pass"
+          ],
+          "trap": [
+            "Pull back and reset your grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The knee slide is generally a low-risk technique, but practitioners should apply crossface pressure with control to avoid excessive neck strain on training partners. Avoid driving the knee directly into the opponent's thigh with excessive downward force, which can cause contusions or bruising. When training, communicate with your partner about pressure levels during the crossface and hip pressure phases. Be aware that the cutting knee can compress the opponent's ribs if body weight is applied incorrectly—adjust the cutting angle to pass over the thigh rather than driving into the torso. During drilling, use progressive resistance to allow the bottom player to develop defensive timing without injury.",
@@ -413,11 +483,31 @@
       },
       {
         "question": "When is the latest possible moment to successfully defend a knee slide, and what defense works at that point?",
-        "answer": "The latest effective defense point is when the opponent's knee has begun crossing your thigh but has not yet reached the mat on the far side. At this stage, clamp your legs tightly around their cutting leg to establish half guard retention, immediately insert a knee shield with your inside leg, and frame against their crossface shoulder to prevent being flattened. Once the knee completes its cut to the mat, defensive options drop dramatically and you must transition to side control bottom escape strategies instead."
+        "answer": "The latest effective defense point is when the opponent's knee has begun crossing your thigh but has not yet reached the mat on the far side. At this stage, clamp your legs tightly around their cutting leg to establish half guard retention, immediately insert a knee shield with your inside leg, and frame against their crossface shoulder to prevent being flattened. Once the knee completes its cut to the mat, defensive options drop dramatically and you must transition to side control bottom escape strategies instead.",
+        "answer_line": "Clamp leg, insert shield, frame",
+        "distractors": {
+          "plausible": [
+            "Wait until side control is set",
+            "Push away with both hands"
+          ],
+          "trap": [
+            "Let the knee finish crossing"
+          ]
+        }
       },
       {
         "question": "How does defending the knee slide differ in gi versus no-gi?",
-        "answer": "In the gi, defenders have additional grip options including collar grips and sleeve grips that can stall the passer's forward momentum and break their posture. Pant grips on the cutting leg can directly impede the knee's path across the thigh. In no-gi, defenders rely more heavily on underhook position, elbow-knee connection frames, and hip escape velocity since there are no fabric grips to anchor defensive structures. No-gi defense emphasizes speed and timing, while gi defense can incorporate grip-based stalling and redirection of passing momentum."
+        "answer": "In the gi, defenders have additional grip options including collar grips and sleeve grips that can stall the passer's forward momentum and break their posture. Pant grips on the cutting leg can directly impede the knee's path across the thigh. In no-gi, defenders rely more heavily on underhook position, elbow-knee connection frames, and hip escape velocity since there are no fabric grips to anchor defensive structures. No-gi defense emphasizes speed and timing, while gi defense can incorporate grip-based stalling and redirection of passing momentum.",
+        "answer_line": "Gi grip-stalls; no-gi speed/frames",
+        "distractors": {
+          "plausible": [
+            "No-gi allows more grip stalling",
+            "Gi relies mainly on hip speed"
+          ],
+          "trap": [
+            "Grips are useless in either"
+          ]
+        }
       },
       {
         "question": "Your crossface defense has failed and the passer has heavy shoulder pressure—what is your emergency recovery sequence?",

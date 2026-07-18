@@ -201,15 +201,45 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Frame and Distance Creation?",
-        "answer": "The primary goal is to create separation between you and the attacker by establishing structural frames on their upper body. This distance loosens their grip on your ankle and destabilizes their leg control, opening pathways for foot extraction and escape to open guard or standing position."
+        "answer": "The primary goal is to create separation between you and the attacker by establishing structural frames on their upper body. This distance loosens their grip on your ankle and destabilizes their leg control, opening pathways for foot extraction and escape to open guard or standing position.",
+        "answer_line": "Upper-body frames create space",
+        "distractors": {
+          "plausible": [
+            "Strip their ankle grip directly",
+            "Bridge and roll for escape"
+          ],
+          "trap": [
+            "Push on their legs for space"
+          ]
+        }
       },
       {
         "question": "What position do you start Frame and Distance Creation from?",
-        "answer": "This technique starts from Straight Ankle Lock Control when you are the defender (top person being attacked). Your leg is trapped with the attacker controlling your ankle, but you still maintain hip mobility and your knee remains bent."
+        "answer": "This technique starts from Straight Ankle Lock Control when you are the defender (top person being attacked). Your leg is trapped with the attacker controlling your ankle, but you still maintain hip mobility and your knee remains bent.",
+        "answer_line": "Defending Straight Ankle Lock",
+        "distractors": {
+          "plausible": [
+            "Attacking Straight Ankle Lock",
+            "Trapped in inside ashi-garami"
+          ],
+          "trap": [
+            "Straight Ankle Lock, leg extended"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a bent knee critical during the framing sequence?",
-        "answer": "A bent knee preserves structural integrity that limits submission pressure on the ankle joint. Full leg extension dramatically increases the attacker's leverage for the ankle lock while eliminating your ability to use hip rotation for escape. The bent knee also allows you to pull the leg toward your chest once distance is created."
+        "answer": "A bent knee preserves structural integrity that limits submission pressure on the ankle joint. Full leg extension dramatically increases the attacker's leverage for the ankle lock while eliminating your ability to use hip rotation for escape. The bent knee also allows you to pull the leg toward your chest once distance is created.",
+        "answer_line": "Bent knee limits ankle pressure",
+        "distractors": {
+          "plausible": [
+            "Bent knee protects the hip",
+            "Bent knee speeds up the sweep"
+          ],
+          "trap": [
+            "Extend leg for more power"
+          ]
+        }
       },
       {
         "question": "Your opponent clears your frames and closes distance - how do you respond?",
@@ -217,27 +247,87 @@
       },
       {
         "question": "What are the key grip points for establishing structural frames?",
-        "answer": "Target the attacker's chest, shoulders, or head with your frames. Use palm or forearm placement with skeletal alignment through your elbow and shoulder. The primary frame goes on the same side as your trapped leg, secondary frame on the opposite shoulder or their head to create two contact points."
+        "answer": "Target the attacker's chest, shoulders, or head with your frames. Use palm or forearm placement with skeletal alignment through your elbow and shoulder. The primary frame goes on the same side as your trapped leg, secondary frame on the opposite shoulder or their head to create two contact points.",
+        "answer_line": "Frame chest, shoulders, head",
+        "distractors": {
+          "plausible": [
+            "Frame their hips and thighs",
+            "Grip their wrists and forearms"
+          ],
+          "trap": [
+            "Push on their far knee"
+          ]
+        }
       },
       {
         "question": "The attacker begins transitioning to inside ashi-garami mid-escape - what does this tell you and how do you adjust?",
-        "answer": "This signals the attacker read your framing attempt and chose positional advancement over finishing the ankle lock. Immediately abandon the framing sequence and address the inside ashi position with appropriate defense for that entanglement. Continuing to frame is counterproductive once the position changes fundamentally."
+        "answer": "This signals the attacker read your framing attempt and chose positional advancement over finishing the ankle lock. Immediately abandon the framing sequence and address the inside ashi position with appropriate defense for that entanglement. Continuing to frame is counterproductive once the position changes fundamentally.",
+        "answer_line": "Abandon frames, defend inside ashi",
+        "distractors": {
+          "plausible": [
+            "Increase frame pressure fast",
+            "Reset to Straight Ankle Lock"
+          ],
+          "trap": [
+            "Keep framing, ignore the shift"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate Frame and Distance Creation?",
-        "answer": "The optimal time is immediately upon recognizing ankle lock control before the attacker completes their leg triangle and consolidates grips. The technique also works well when the attacker adjusts their grips, as this creates a brief window where their control is weakest. Avoid attempting after they have full leg triangle control."
+        "answer": "The optimal time is immediately upon recognizing ankle lock control before the attacker completes their leg triangle and consolidates grips. The technique also works well when the attacker adjusts their grips, as this creates a brief window where their control is weakest. Avoid attempting after they have full leg triangle control.",
+        "answer_line": "Before triangle consolidates",
+        "distractors": {
+          "plausible": [
+            "Mid-way through triangle setup",
+            "Right after they secure position"
+          ],
+          "trap": [
+            "After full leg triangle control"
+          ]
+        }
       },
       {
         "question": "Why should frames target the upper body rather than the attacker's legs?",
-        "answer": "Pushing on the attacker's legs does not create the distance needed to loosen their ankle grip and may actually drive your leg deeper into their control. Upper body distance affects their entire control structure - as their torso moves away, their leg wrap loosens, grip security diminishes, and breaking leverage decreases simultaneously."
+        "answer": "Pushing on the attacker's legs does not create the distance needed to loosen their ankle grip and may actually drive your leg deeper into their control. Upper body distance affects their entire control structure - as their torso moves away, their leg wrap loosens, grip security diminishes, and breaking leverage decreases simultaneously.",
+        "answer_line": "Upper body loosens whole control",
+        "distractors": {
+          "plausible": [
+            "Legs are closer, quicker fix",
+            "Both targets work equally well"
+          ],
+          "trap": [
+            "Push their legs for space"
+          ]
+        }
       },
       {
         "question": "Your free leg is being controlled by the attacker's leg wrap - how do you generate pushing force for the escape?",
-        "answer": "If the free leg is partially controlled, focus on arm frames first to create initial separation. Use hip rotation to free the leg incrementally. Even partial free leg movement against their inside knee can destabilize their wrap. If the free leg is fully trapped, rely entirely on arm frames combined with aggressive hip rotation to create enough space for leg extraction."
+        "answer": "If the free leg is partially controlled, focus on arm frames first to create initial separation. Use hip rotation to free the leg incrementally. Even partial free leg movement against their inside knee can destabilize their wrap. If the free leg is fully trapped, rely entirely on arm frames combined with aggressive hip rotation to create enough space for leg extraction.",
+        "answer_line": "Arm frames first, then hips",
+        "distractors": {
+          "plausible": [
+            "Force the leg free immediately",
+            "Push leg only, ignore arms"
+          ],
+          "trap": [
+            "Yank leg hard against the wrap"
+          ]
+        }
       },
       {
         "question": "How do you coordinate multi-directional pressure during Frame and Distance Creation?",
-        "answer": "Push with both arm frames on the attacker's upper body while simultaneously driving your free leg into their hip or inside knee. The arm frames create horizontal separation while the leg push adds a perpendicular force vector. This multi-directional pressure is exponentially harder to resist than single-plane force because the attacker cannot brace against two different directions at once."
+        "answer": "Push with both arm frames on the attacker's upper body while simultaneously driving your free leg into their hip or inside knee. The arm frames create horizontal separation while the leg push adds a perpendicular force vector. This multi-directional pressure is exponentially harder to resist than single-plane force because the attacker cannot brace against two different directions at once.",
+        "answer_line": "Arm frames plus leg push together",
+        "distractors": {
+          "plausible": [
+            "Push arms first, then the leg",
+            "Alternate arms and leg pushes"
+          ],
+          "trap": [
+            "Push only with the free leg"
+          ]
+        }
       }
     ],
     "safety_considerations": "Frame and Distance Creation is a relatively safe defensive technique with low injury risk when performed correctly. The primary safety concern is maintaining your bent knee position throughout - attempting to frame while allowing your leg to straighten dramatically increases ankle lock leverage and injury potential. Never sacrifice knee position for frame establishment. Train this technique with partners who respect tap signals and understand the importance of progressive resistance. When drilling, ensure the attacker does not actively crank the ankle lock while you practice framing mechanics. Communication about pressure levels prevents unnecessary injury during learning phases.",
@@ -347,23 +437,73 @@
     "flashcards": [
       {
         "question": "What is the critical time window for countering Frame and Distance Creation before it becomes effective?",
-        "answer": "The critical window is the first 2-3 seconds after the opponent begins establishing frames on your upper body. Before they achieve full arm extension with skeletal alignment, their frames can be cleared relatively easily by swimming inside. Once structural alignment is established with two contact points, the distance becomes exponentially harder to close."
+        "answer": "The critical window is the first 2-3 seconds after the opponent begins establishing frames on your upper body. Before they achieve full arm extension with skeletal alignment, their frames can be cleared relatively easily by swimming inside. Once structural alignment is established with two contact points, the distance becomes exponentially harder to close.",
+        "answer_line": "First 2-3 seconds, swim inside",
+        "distractors": {
+          "plausible": [
+            "Wait for full arm extension",
+            "Push straight back against frame"
+          ],
+          "trap": [
+            "Let them finish the frame setup"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes strong frames and creates significant distance - should you continue fighting for the ankle lock or transition?",
-        "answer": "Transition immediately to inside ashi-garami or another superior leg entanglement. Once frames create significant distance, the ankle lock becomes mechanically compromised because your breaking leverage depends on proximity. Stubbornly holding a weakened ankle lock wastes energy and allows the opponent to complete their escape. Use their framing commitment as an opportunity to advance position."
+        "answer": "Transition immediately to inside ashi-garami or another superior leg entanglement. Once frames create significant distance, the ankle lock becomes mechanically compromised because your breaking leverage depends on proximity. Stubbornly holding a weakened ankle lock wastes energy and allows the opponent to complete their escape. Use their framing commitment as an opportunity to advance position.",
+        "answer_line": "Transition to inside ashi-garami",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for the ankle lock",
+            "Switch grips and try a heel hook"
+          ],
+          "trap": [
+            "Force the finish through distance"
+          ]
+        }
       },
       {
         "question": "How do you swim inside an opponent's frame to neutralize it?",
-        "answer": "Thread your arm between their forearm frame and your own body, driving your elbow inside their frame structure. This collapses their skeletal alignment because the force can no longer transfer through a straight bone line. From inside position, use your body to crowd their arm back while closing the distance they created. This is significantly more effective than pushing back against the frame from outside."
+        "answer": "Thread your arm between their forearm frame and your own body, driving your elbow inside their frame structure. This collapses their skeletal alignment because the force can no longer transfer through a straight bone line. From inside position, use your body to crowd their arm back while closing the distance they created. This is significantly more effective than pushing back against the frame from outside.",
+        "answer_line": "Thread arm inside, collapse frame",
+        "distractors": {
+          "plausible": [
+            "Push straight back on the frame",
+            "Grab their wrist and pull"
+          ],
+          "trap": [
+            "Push against frame from outside"
+          ]
+        }
       },
       {
         "question": "What visual cue distinguishes a framing escape from a grip-fighting escape?",
-        "answer": "A framing escape targets your upper body with palm or forearm contact on your chest, shoulders, or head to create distance. A grip-fighting escape targets your hands and wrists directly, attempting to strip your ankle grip through two-on-one breaks. Recognizing which escape type the opponent is pursuing determines whether you need to address upper body frames or protect your grip configuration."
+        "answer": "A framing escape targets your upper body with palm or forearm contact on your chest, shoulders, or head to create distance. A grip-fighting escape targets your hands and wrists directly, attempting to strip your ankle grip through two-on-one breaks. Recognizing which escape type the opponent is pursuing determines whether you need to address upper body frames or protect your grip configuration.",
+        "answer_line": "Upper body contact means framing",
+        "distractors": {
+          "plausible": [
+            "Any contact counts as framing",
+            "Grip fighting targets the hips"
+          ],
+          "trap": [
+            "Ignore the difference, defend same"
+          ]
+        }
       },
       {
         "question": "Your opponent pushes frames with both arms while their free leg drives into your hip - how do you address this multi-directional pressure?",
-        "answer": "Prioritize addressing the leg push first by tightening your leg wrap and blocking their free leg from gaining leverage on your hip. The leg push amplifies the arm frames, so neutralizing it reduces overall pressure significantly. Once the leg push is controlled, swim inside the arm frames to close distance. Attempting to address only the arm frames while the leg continues pushing leads to accumulated distance and eventual escape."
+        "answer": "Prioritize addressing the leg push first by tightening your leg wrap and blocking their free leg from gaining leverage on your hip. The leg push amplifies the arm frames, so neutralizing it reduces overall pressure significantly. Once the leg push is controlled, swim inside the arm frames to close distance. Attempting to address only the arm frames while the leg continues pushing leads to accumulated distance and eventual escape.",
+        "answer_line": "Neutralize the leg push first",
+        "distractors": {
+          "plausible": [
+            "Address arm frames first",
+            "Split focus between both evenly"
+          ],
+          "trap": [
+            "Ignore the leg, focus arms only"
+          ]
+        }
       }
     ],
     "training_progressions": [

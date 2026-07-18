@@ -218,51 +218,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Explosive Forward Roll escape?",
-        "answer": "The primary goal is to break the opponent's back control grip structure through explosive forward momentum and inversion, ultimately recovering to a guard position where you face your opponent. This converts a highly vulnerable defensive position into an offensive guard situation."
+        "answer": "The primary goal is to break the opponent's back control grip structure through explosive forward momentum and inversion, ultimately recovering to a guard position where you face your opponent. This converts a highly vulnerable defensive position into an offensive guard situation.",
+        "answer_line": "Break grip, recover guard",
+        "distractors": {
+          "plausible": [
+            "Stand up and disengage",
+            "Reverse to top position"
+          ],
+          "trap": [
+            "Turtle and wait it out"
+          ]
+        }
       },
       {
         "question": "Why must you roll diagonally rather than straight forward?",
-        "answer": "Rolling diagonally toward your non-choking arm side creates separation that makes it difficult for the opponent to follow and maintain back position. A straight forward roll allows them to simply follow your momentum and land in mount or re-establish back control. The diagonal angle is essential for successful separation."
+        "answer": "Rolling diagonally toward your non-choking arm side creates separation that makes it difficult for the opponent to follow and maintain back position. A straight forward roll allows them to simply follow your momentum and land in mount or re-establish back control. The diagonal angle is essential for successful separation.",
+        "answer_line": "Roll toward non-choking arm",
+        "distractors": {
+          "plausible": [
+            "Roll straight forward",
+            "Roll toward choking arm side"
+          ],
+          "trap": [
+            "Roll backward into them"
+          ]
+        }
       },
       {
         "question": "What grip control is critical to maintain throughout the roll and why?",
-        "answer": "Maintaining at least one wrist grip, preferably on the opponent's choking arm, is critical because it prevents them from posting their hand on the mat to stop your roll or to recover position during the scramble. This wrist control is your insurance against the most common counters to this technique."
+        "answer": "Maintaining at least one wrist grip, preferably on the opponent's choking arm, is critical because it prevents them from posting their hand on the mat to stop your roll or to recover position during the scramble. This wrist control is your insurance against the most common counters to this technique.",
+        "answer_line": "Control their choking-arm wrist",
+        "distractors": {
+          "plausible": [
+            "Grip both wrists tightly",
+            "Control their far-side wrist"
+          ],
+          "trap": [
+            "Release grips, post hands"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the explosive forward roll?",
-        "answer": "The optimal timing is when the opponent begins pulling you backward, attempting to drag you down or off-balance. At this moment, you redirect their pulling energy forward and down instead of fighting against it. This uses their momentum to power your escape rather than working against superior positioning."
+        "answer": "The optimal timing is when the opponent begins pulling you backward, attempting to drag you down or off-balance. At this moment, you redirect their pulling energy forward and down instead of fighting against it. This uses their momentum to power your escape rather than working against superior positioning.",
+        "answer_line": "When they pull you backward",
+        "distractors": {
+          "plausible": [
+            "When grips feel fully locked",
+            "Right after they mount"
+          ],
+          "trap": [
+            "When they sprawl hips back"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel the opponent sprawl as you initiate the roll?",
-        "answer": "If you feel the opponent sprawling and sitting their hips back as you begin the roll, abort the technique immediately and transition to an alternative escape - either a technical standup if their grips have loosened, or drop to turtle position to establish a more stable defensive platform. Continuing a roll against a sprawl results in worse positioning."
+        "answer": "If you feel the opponent sprawling and sitting their hips back as you begin the roll, abort the technique immediately and transition to an alternative escape - either a technical standup if their grips have loosened, or drop to turtle position to establish a more stable defensive platform. Continuing a roll against a sprawl results in worse positioning.",
+        "answer_line": "Abort, stand up or turtle",
+        "distractors": {
+          "plausible": [
+            "Power through the roll anyway",
+            "Switch to a different sweep"
+          ],
+          "trap": [
+            "Continue rolling regardless"
+          ]
+        }
       },
       {
         "question": "Why is this escape contraindicated when the opponent has a body triangle secured?",
-        "answer": "The body triangle locks your hips in place and prevents the inversion necessary for the forward roll. Attempting to roll against a body triangle either fails completely or can result in injury to your ribs or spine. The body triangle must be addressed through other escapes before any rolling technique becomes viable."
+        "answer": "The body triangle locks your hips in place and prevents the inversion necessary for the forward roll. Attempting to roll against a body triangle either fails completely or can result in injury to your ribs or spine. The body triangle must be addressed through other escapes before any rolling technique becomes viable.",
+        "answer_line": "Locks hips, risks injury",
+        "distractors": {
+          "plausible": [
+            "Only makes escape slower",
+            "Prevents grip breaks only"
+          ],
+          "trap": [
+            "Force the roll anyway"
+          ]
+        }
       },
       {
         "question": "What is the consequence of lifting your chin during the roll execution?",
-        "answer": "Lifting your chin during the roll creates an opening for the opponent to finish a rear naked choke mid-transition. The roll itself exposes your neck momentarily, and if your chin rises, the opponent can lock the choke and finish you during or immediately after the roll. Chin stays glued to chest throughout."
+        "answer": "Lifting your chin during the roll creates an opening for the opponent to finish a rear naked choke mid-transition. The roll itself exposes your neck momentarily, and if your chin rises, the opponent can lock the choke and finish you during or immediately after the roll. Chin stays glued to chest throughout.",
+        "answer_line": "Exposes neck, gives up choke",
+        "distractors": {
+          "plausible": [
+            "Slows down roll speed",
+            "Loses wrist grip control"
+          ],
+          "trap": [
+            "Lift chin to see landing"
+          ]
+        }
       },
       {
         "question": "How quickly must you establish guard after completing the roll?",
-        "answer": "Guard recovery must happen within approximately one second of completing the roll. Any delay allows the opponent to scramble to mount or side control before you can establish defensive structure. The roll and guard recovery should feel like one continuous motion, not two separate techniques."
+        "answer": "Guard recovery must happen within approximately one second of completing the roll. Any delay allows the opponent to scramble to mount or side control before you can establish defensive structure. The roll and guard recovery should feel like one continuous motion, not two separate techniques.",
+        "answer_line": "About one second",
+        "distractors": {
+          "plausible": [
+            "Two to three seconds",
+            "No rush, reset first"
+          ],
+          "trap": [
+            "Pause to check position"
+          ]
+        }
       },
       {
         "question": "Your opponent starts pulling you backward aggressively while tightening the seatbelt - do you fight the pull or initiate the roll?",
-        "answer": "Initiate the roll immediately. The backward pull provides the ideal timing window because you can redirect their pulling momentum forward and downward. Fighting the pull directly is a losing battle against a consolidated back control position. Use their energy to power the escape by bending forward explosively the moment you feel the backward acceleration."
+        "answer": "Initiate the roll immediately. The backward pull provides the ideal timing window because you can redirect their pulling momentum forward and downward. Fighting the pull directly is a losing battle against a consolidated back control position. Use their energy to power the escape by bending forward explosively the moment you feel the backward acceleration.",
+        "answer_line": "Initiate roll immediately",
+        "distractors": {
+          "plausible": [
+            "Fight the backward pull",
+            "Wait for grips to loosen"
+          ],
+          "trap": [
+            "Brace and sit back harder"
+          ]
+        }
       },
       {
         "question": "You secure wrist control but your opponent posts their free hand wide - how does this change your execution?",
-        "answer": "Roll toward the side opposite their posted hand. The posted hand creates a strong base on one side but leaves the other side vulnerable. By rolling away from the post, you negate their ability to use it as a brake. Additionally, their posted hand means one arm is not controlling you, reducing their harness integrity and making the roll more likely to succeed."
+        "answer": "Roll toward the side opposite their posted hand. The posted hand creates a strong base on one side but leaves the other side vulnerable. By rolling away from the post, you negate their ability to use it as a brake. Additionally, their posted hand means one arm is not controlling you, reducing their harness integrity and making the roll more likely to succeed.",
+        "answer_line": "Roll away from the post",
+        "distractors": {
+          "plausible": [
+            "Roll toward the posted hand",
+            "Attack the posted arm first"
+          ],
+          "trap": [
+            "Stall until they repost"
+          ]
+        }
       },
       {
         "question": "What are the chain attacks available if the roll lands you in half guard rather than open guard?",
-        "answer": "From half guard top after the roll, immediately establish an underhook on the trapped leg side and work to take the back or execute a sweep reversal. Because the opponent just lost back control, they are momentarily disoriented - use this window to fight for the underhook before they establish crossface. You can also transition to deep half guard entry or threaten a kimura on their far arm if they reach for grips."
+        "answer": "From half guard top after the roll, immediately establish an underhook on the trapped leg side and work to take the back or execute a sweep reversal. Because the opponent just lost back control, they are momentarily disoriented - use this window to fight for the underhook before they establish crossface. You can also transition to deep half guard entry or threaten a kimura on their far arm if they reach for grips.",
+        "answer_line": "Underhook, back-take or sweep",
+        "distractors": {
+          "plausible": [
+            "Wait for crossface, then react",
+            "Pull guard and reset fully"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "What specific hip movement generates the force needed to complete the roll against a heavier opponent?",
-        "answer": "The critical hip movement is a forward and downward drive where you shoot your hips toward the mat while bending at the waist. This is not a shoulder-led movement but a hip-initiated power transfer. Think of it as a wrestling level change combined with a forward dive. The hips must lead the motion, creating a pendulum effect that uses your lower body mass to generate rotational force sufficient to carry both you and the opponent through the roll."
+        "answer": "The critical hip movement is a forward and downward drive where you shoot your hips toward the mat while bending at the waist. This is not a shoulder-led movement but a hip-initiated power transfer. Think of it as a wrestling level change combined with a forward dive. The hips must lead the motion, creating a pendulum effect that uses your lower body mass to generate rotational force sufficient to carry both you and the opponent through the roll.",
+        "answer_line": "Hips drive forward and down",
+        "distractors": {
+          "plausible": [
+            "Shoulders lead the motion",
+            "Pull with arms, not hips"
+          ],
+          "trap": [
+            "Arch back and lift chest"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique involves significant spinal loading during the forward roll and carries inherent risk of neck injury if executed improperly. Never practice on hard surfaces - always use proper mats. Beginners should build comfort with basic forward rolls before attempting this technique with a partner. The chin must remain tucked throughout to protect the cervical spine and prevent choke finishing during transition. Do not attempt this escape if you have any existing neck, shoulder, or spine injuries. Partners should initially allow the technique to flow rather than aggressively countering, as resisting mid-roll can cause both practitioners to land awkwardly. In competition, assess the surface and ensure adequate mat space before committing to rolling escapes.",
@@ -375,23 +495,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt an Explosive Forward Roll?",
-        "answer": "The earliest cue is when the opponent establishes two-on-one wrist control on your choking arm or underhook arm. This grip change is necessary before they can safely initiate the roll, and it typically happens 1-2 seconds before the forward bend. Recognizing and disrupting this grip establishment prevents the roll before it begins."
+        "answer": "The earliest cue is when the opponent establishes two-on-one wrist control on your choking arm or underhook arm. This grip change is necessary before they can safely initiate the roll, and it typically happens 1-2 seconds before the forward bend. Recognizing and disrupting this grip establishment prevents the roll before it begins.",
+        "answer_line": "Two-on-one wrist grip forms",
+        "distractors": {
+          "plausible": [
+            "Opponent tightens body triangle",
+            "Opponent starts leaning back"
+          ],
+          "trap": [
+            "Wait until mid-air to react"
+          ]
+        }
       },
       {
         "question": "Why is sprawling the primary defensive response rather than tightening your harness grip?",
-        "answer": "Tightening the harness without moving your hips actually helps the opponent because your grip becomes the anchor that lets them pull you forward into the roll. Sprawling moves your center of gravity behind theirs, which removes the momentum they need for the inversion. Your hips going backward is what stops the roll, not your arms squeezing tighter."
+        "answer": "Tightening the harness without moving your hips actually helps the opponent because your grip becomes the anchor that lets them pull you forward into the roll. Sprawling moves your center of gravity behind theirs, which removes the momentum they need for the inversion. Your hips going backward is what stops the roll, not your arms squeezing tighter.",
+        "answer_line": "Sprawl moves hips behind theirs",
+        "distractors": {
+          "plausible": [
+            "Squeeze harness grip tighter",
+            "Pull their arms off you"
+          ],
+          "trap": [
+            "Lean forward to block roll"
+          ]
+        }
       },
       {
         "question": "Your opponent has already initiated the roll and you are being carried over - what is the optimal response?",
-        "answer": "Ride the roll rather than resisting it. Maintain your harness grip and chest connection through the motion. As you land, immediately post one hand on the mat and drive your hips forward toward mount position. The key is to transition from back control to mount during the scramble rather than trying to maintain back control through an already-committed roll."
+        "answer": "Ride the roll rather than resisting it. Maintain your harness grip and chest connection through the motion. As you land, immediately post one hand on the mat and drive your hips forward toward mount position. The key is to transition from back control to mount during the scramble rather than trying to maintain back control through an already-committed roll.",
+        "answer_line": "Ride it, then drive to mount",
+        "distractors": {
+          "plausible": [
+            "Resist and fight the momentum",
+            "Let go and fall separately"
+          ],
+          "trap": [
+            "Grab their leg to stop roll"
+          ]
+        }
       },
       {
         "question": "How does establishing a body triangle prevent the Explosive Forward Roll from succeeding?",
-        "answer": "The body triangle locks your legs around the opponent's waist in a figure-four configuration that eliminates the hip mobility required for the forward inversion. The opponent cannot bend forward sufficiently or generate the rotational momentum needed because their hips are locked to yours. This forces them to address the body triangle through other escape methods before any rolling technique becomes viable."
+        "answer": "The body triangle locks your legs around the opponent's waist in a figure-four configuration that eliminates the hip mobility required for the forward inversion. The opponent cannot bend forward sufficiently or generate the rotational momentum needed because their hips are locked to yours. This forces them to address the body triangle through other escape methods before any rolling technique becomes viable.",
+        "answer_line": "Locks legs, kills hip mobility",
+        "distractors": {
+          "plausible": [
+            "Only tires out your legs",
+            "Blocks choke, not rolling"
+          ],
+          "trap": [
+            "Push through with shoulders"
+          ]
+        }
       },
       {
         "question": "What hand fighting strategy should you use when you feel the opponent reaching for two-on-one wrist control?",
-        "answer": "Immediately circle your threatened wrist out of their grip attempt by rotating your hand and pulling your elbow toward your hip. If they establish partial control, use your free hand to peel their fingers or push their controlling hand away. Keep your choking arm elbow tight to your body rather than extended, which makes it harder for them to isolate and control your wrist for the roll setup."
+        "answer": "Immediately circle your threatened wrist out of their grip attempt by rotating your hand and pulling your elbow toward your hip. If they establish partial control, use your free hand to peel their fingers or push their controlling hand away. Keep your choking arm elbow tight to your body rather than extended, which makes it harder for them to isolate and control your wrist for the roll setup.",
+        "answer_line": "Circle wrist, elbow to hip",
+        "distractors": {
+          "plausible": [
+            "Push their hand away only",
+            "Extend arm to create space"
+          ],
+          "trap": [
+            "Grip fight with both hands"
+          ]
+        }
       }
     ],
     "training_progressions": [

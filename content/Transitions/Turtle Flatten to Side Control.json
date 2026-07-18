@@ -350,13 +350,14 @@
         "answer": "In gi the belt grip creates a pulling, rotational flatten, while no-gi relies on more linear pushing through hip cupping and chest drive. No-gi requires tighter body-to-body contact throughout the flatten because grips are less secure and the opponent can slip away more easily. The core mechanic remains the same — lateral 45-degree drive — but no-gi demands more chest pressure and body positioning to compensate for reduced grip strength.",
         "distractors": {
           "plausible": [
-            "The gi flatten is more linear because grips lock you in place, while no-gi allows a freer rotational motion.",
-            "In no-gi you pull on the head and neck to rotate them, since the neck replaces the belt as the handle."
+            "Gi is push, no-gi is pull",
+            "No-gi needs looser contact"
           ],
           "trap": [
-            "In no-gi, keep space between your chest and their back so you can switch angles quickly during the drive."
+            "Ease grip pressure in no-gi"
           ]
-        }
+        },
+        "answer_line": "No-gi: push via chest, not pull"
       },
       {
         "question": "Your flatten attempt stalls because the opponent bases out wide with their knees — what adjustment do you make?",

@@ -260,39 +260,129 @@
     "flashcards": [
       {
         "question": "What specific weight distribution change in your opponent signals the optimal window for initiating the hip escape?",
-        "answer": "The optimal window opens when you feel your opponent's weight shift forward onto your upper back or laterally to one side. Forward pressure means their base is compromised backward, making it difficult for them to follow your lateral hip escape. A lateral shift means one side is lighter and available for escape. You can also feel for momentary lightness during grip transitions when they release one control point to establish another - this two to three second window is often the best opportunity for explosive execution."
+        "answer": "The optimal window opens when you feel your opponent's weight shift forward onto your upper back or laterally to one side. Forward pressure means their base is compromised backward, making it difficult for them to follow your lateral hip escape. A lateral shift means one side is lighter and available for escape. You can also feel for momentary lightness during grip transitions when they release one control point to establish another - this two to three second window is often the best opportunity for explosive execution.",
+        "answer_line": "Weight shifts forward or lateral",
+        "distractors": {
+          "plausible": [
+            "Opponent squeezes pressure harder",
+            "Wait for grip to fully lock"
+          ],
+          "trap": [
+            "Escape when they sit back heavy"
+          ]
+        }
       },
       {
         "question": "Why must the leg insertion happen simultaneously with the hip escape rather than as a separate movement?",
-        "answer": "If you hip escape without immediately threading the leg, you create lateral space but no guard structure. The opponent simply follows your hip movement and re-establishes turtle top control in the new position - you have moved but gained nothing. The leg thread is what converts the hip escape into a position change by creating the half guard entanglement. Without it, you are doing a hip escape that ends in the same position. The coordination between hip escape and leg insertion is the fundamental mechanical skill of this technique."
+        "answer": "If you hip escape without immediately threading the leg, you create lateral space but no guard structure. The opponent simply follows your hip movement and re-establishes turtle top control in the new position - you have moved but gained nothing. The leg thread is what converts the hip escape into a position change by creating the half guard entanglement. Without it, you are doing a hip escape that ends in the same position. The coordination between hip escape and leg insertion is the fundamental mechanical skill of this technique.",
+        "answer_line": "Hip escape alone gains nothing",
+        "distractors": {
+          "plausible": [
+            "Leg thread needs space first",
+            "Hip escape sets up the frame"
+          ],
+          "trap": [
+            "Do hip escape, then thread later"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls heavily after you initiate the hip escape, pinning your hips to the mat - how do you salvage the escape attempt?",
-        "answer": "If sprawled on before the leg threads, use the posting arm to create a frame and work a micro hip escape to create just enough space for the inside knee to slide through. Even from a flattened position, if you can get your knee between their legs, you can begin the half guard recovery. If completely flattened with no space, transition to a belly-down escape by reaching for their far ankle to break their sprawl base, then reattempt the hip escape once their weight shifts during the ankle fight."
+        "answer": "If sprawled on before the leg threads, use the posting arm to create a frame and work a micro hip escape to create just enough space for the inside knee to slide through. Even from a flattened position, if you can get your knee between their legs, you can begin the half guard recovery. If completely flattened with no space, transition to a belly-down escape by reaching for their far ankle to break their sprawl base, then reattempt the hip escape once their weight shifts during the ankle fight.",
+        "answer_line": "Frame, micro-escape, knee slides in",
+        "distractors": {
+          "plausible": [
+            "Push off and try again fast",
+            "Bridge hard to buck them off"
+          ],
+          "trap": [
+            "Turn belly-up and turtle harder"
+          ]
+        }
       },
       {
         "question": "What grip should you immediately fight for once you establish half guard from the escape?",
-        "answer": "Fight for the underhook on the trapped-leg side as your primary objective. This underhook transforms half guard from a neutral recovery position into an offensive sweeping platform with access to old school sweeps, back takes, and dogfight transitions. If the underhook is not immediately available due to opponent's crossface, establish a knee shield first to create distance, then work for the underhook from the protected position. The underhook is the gateway to offensive half guard."
+        "answer": "Fight for the underhook on the trapped-leg side as your primary objective. This underhook transforms half guard from a neutral recovery position into an offensive sweeping platform with access to old school sweeps, back takes, and dogfight transitions. If the underhook is not immediately available due to opponent's crossface, establish a knee shield first to create distance, then work for the underhook from the protected position. The underhook is the gateway to offensive half guard.",
+        "answer_line": "Underhook on trapped-leg side",
+        "distractors": {
+          "plausible": [
+            "Overhook on far side",
+            "Collar tie for control"
+          ],
+          "trap": [
+            "Underhook the far-side arm"
+          ]
+        }
       },
       {
         "question": "How do you create the escape opportunity when your opponent is maintaining perfectly centered, stable pressure?",
-        "answer": "When the opponent is stable and settled, you must create your own opening through provocation. Make small movements that force a reaction - briefly shift your weight as if attempting a Granby roll in one direction to draw their pressure that way, then immediately hip escape to the opposite side. Alternatively, bump upward with your hips to force them to rebalance. The goal is creating a momentary weight shift that you can exploit. Never wait indefinitely for an opening that may not come."
+        "answer": "When the opponent is stable and settled, you must create your own opening through provocation. Make small movements that force a reaction - briefly shift your weight as if attempting a Granby roll in one direction to draw their pressure that way, then immediately hip escape to the opposite side. Alternatively, bump upward with your hips to force them to rebalance. The goal is creating a momentary weight shift that you can exploit. Never wait indefinitely for an opening that may not come.",
+        "answer_line": "Fake one way, escape opposite",
+        "distractors": {
+          "plausible": [
+            "Wait patiently for their mistake",
+            "Push straight through pressure"
+          ],
+          "trap": [
+            "Explode straight up under them"
+          ]
+        }
       },
       {
         "question": "What is the primary risk if you turn your upper body to face the opponent before the leg hook is secured?",
-        "answer": "Turning without the leg hook established exposes your back with no guard structure in place. The opponent can immediately insert hooks during your rotation and establish back control with seatbelt grip. The leg entanglement is what makes the turn safe because even if the opponent attempts to follow, their leg is trapped and they cannot freely insert hooks. Without that anchor, you are rotating into the most dangerous position in grappling - back exposure with no defensive structure."
+        "answer": "Turning without the leg hook established exposes your back with no guard structure in place. The opponent can immediately insert hooks during your rotation and establish back control with seatbelt grip. The leg entanglement is what makes the turn safe because even if the opponent attempts to follow, their leg is trapped and they cannot freely insert hooks. Without that anchor, you are rotating into the most dangerous position in grappling - back exposure with no defensive structure.",
+        "answer_line": "Back exposed, no guard structure",
+        "distractors": {
+          "plausible": [
+            "Loses top position control",
+            "Opponent regains full mount"
+          ],
+          "trap": [
+            "Gives opponent an easy sweep"
+          ]
+        }
       },
       {
         "question": "Your escape reaches half guard but the opponent immediately drives a heavy crossface - what is your priority response?",
-        "answer": "Do not accept the crossface and fight through it. Immediately frame on their crossface shoulder with your inside arm to create space, then hip escape away to create the angle needed to get onto your side. If they have already flattened you with the crossface, insert your knee shield as a barrier between your bodies before they can fully consolidate. The knee shield gives you distance to work the crossface off and begin establishing offensive half guard. Accepting the crossface in half guard leads to a rapid pass."
+        "answer": "Do not accept the crossface and fight through it. Immediately frame on their crossface shoulder with your inside arm to create space, then hip escape away to create the angle needed to get onto your side. If they have already flattened you with the crossface, insert your knee shield as a barrier between your bodies before they can fully consolidate. The knee shield gives you distance to work the crossface off and begin establishing offensive half guard. Accepting the crossface in half guard leads to a rapid pass.",
+        "answer_line": "Frame crossface, hip escape angle",
+        "distractors": {
+          "plausible": [
+            "Push their head straight off",
+            "Grip fight the crossface arm"
+          ],
+          "trap": [
+            "Accept crossface and wait it out"
+          ]
+        }
       },
       {
         "question": "Which direction should your hips drive during the escape, and what determines that direction?",
-        "answer": "Your hips drive laterally, into the space the opponent's weight has abandoned rather than against their heaviest pressure point. If they post their weight forward over your upper back, escape to the side where their base is lightest; if they shade to one side, drive toward the opposite, vacated side. Moving into the vacated space lets you create the lateral gap needed to thread the leg with minimal resistance, whereas driving directly against their pressure meets maximum force and stalls the escape before the leg can enter."
+        "answer": "Your hips drive laterally, into the space the opponent's weight has abandoned rather than against their heaviest pressure point. If they post their weight forward over your upper back, escape to the side where their base is lightest; if they shade to one side, drive toward the opposite, vacated side. Moving into the vacated space lets you create the lateral gap needed to thread the leg with minimal resistance, whereas driving directly against their pressure meets maximum force and stalls the escape before the leg can enter.",
+        "answer_line": "Into the vacated lighter side",
+        "distractors": {
+          "plausible": [
+            "Straight back away from pressure",
+            "Toward their heaviest pressure"
+          ],
+          "trap": [
+            "Drive hips into their base"
+          ]
+        }
       },
       {
         "question": "Your hip escape and leg thread are both shut down because the opponent flattens and follows perfectly - what is your chain attack?",
-        "answer": "Do not stall trying to force the half guard against their pressure. Convert the momentum you already created into a Granby roll in the same direction as your hip escape, rolling toward open or closed guard. If the Granby is also blocked, flow immediately into a technical stand-up on the side where their pressure is lightest. The key is never stopping your movement - chaining hip escape to Granby roll to technical stand-up forces the opponent to defend three escapes in sequence rather than committing all their weight to shutting down one."
+        "answer": "Do not stall trying to force the half guard against their pressure. Convert the momentum you already created into a Granby roll in the same direction as your hip escape, rolling toward open or closed guard. If the Granby is also blocked, flow immediately into a technical stand-up on the side where their pressure is lightest. The key is never stopping your movement - chaining hip escape to Granby roll to technical stand-up forces the opponent to defend three escapes in sequence rather than committing all their weight to shutting down one.",
+        "answer_line": "Chain to Granby, then stand-up",
+        "distractors": {
+          "plausible": [
+            "Keep forcing the same escape",
+            "Switch to bridge and roll them"
+          ],
+          "trap": [
+            "Stall and reset base flat"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves explosive hip movement from a compact turtle position, which can strain the lower back and hip flexors if performed without proper warm-up. Practice the hip escape motion at slow speed before adding explosive timing. During partner drilling, the top player should avoid driving excessive downward pressure on the bottom player's spine during the escape attempt, as this can compress vertebrae during the lateral hip movement. If experiencing lower back discomfort during the escape, reduce the explosive intensity and focus on mechanical efficiency rather than speed. Always tap immediately if the opponent establishes a tight neck control during the escape transition.",
@@ -401,23 +491,73 @@
     "flashcards": [
       {
         "question": "What tactile cue tells you the bottom player is about to attempt the hip escape rather than a Granby roll?",
-        "answer": "The hip escape is preceded by the bottom player posting strongly on their inside arm and loading weight onto their hands, preparing for a lateral drive. In contrast, a Granby roll is preceded by tucking the inside shoulder and loading weight onto the upper back and shoulder. The arm posting sensation through your chest contact is distinct - during hip escape setup you feel them pushing outward and laterally, while during Granby setup you feel them collapsing inward and beginning to rotate."
+        "answer": "The hip escape is preceded by the bottom player posting strongly on their inside arm and loading weight onto their hands, preparing for a lateral drive. In contrast, a Granby roll is preceded by tucking the inside shoulder and loading weight onto the upper back and shoulder. The arm posting sensation through your chest contact is distinct - during hip escape setup you feel them pushing outward and laterally, while during Granby setup you feel them collapsing inward and beginning to rotate.",
+        "answer_line": "Posting on arm, loading hands",
+        "distractors": {
+          "plausible": [
+            "Tucking shoulder, loading upper back",
+            "Pushing knees together tightly"
+          ],
+          "trap": [
+            "Relaxing pressure completely"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully threaded their inside leg between yours but has not yet turned to face you - what is your best counter?",
-        "answer": "This is the critical window for back control. Their leg is committed to the thread, which means they have limited ability to retreat back to full Chill Dog. Immediately drive your near-side hook inside their thigh above the threading leg and reach over-under for the seatbelt grip. Their half-completed escape has given you a partially turned back that is easier to control than a fully tucked Chill Dog. Do not try to extract your leg from the thread - instead accept the half guard leg position and focus on establishing upper body back control."
+        "answer": "This is the critical window for back control. Their leg is committed to the thread, which means they have limited ability to retreat back to full Chill Dog. Immediately drive your near-side hook inside their thigh above the threading leg and reach over-under for the seatbelt grip. Their half-completed escape has given you a partially turned back that is easier to control than a fully tucked Chill Dog. Do not try to extract your leg from the thread - instead accept the half guard leg position and focus on establishing upper body back control.",
+        "answer_line": "Hook inside, seatbelt over-under",
+        "distractors": {
+          "plausible": [
+            "Strip the threading leg free",
+            "Sprawl heavy to flatten them"
+          ],
+          "trap": [
+            "Chase the leg back to guard"
+          ]
+        }
       },
       {
         "question": "How do you maintain control when the bottom player creates small hip movements to test your reactions?",
-        "answer": "Small probing movements are designed to map your pressure and find weaknesses before committing to the full escape. Respond with proportional adjustments rather than large reactions. If they shift slightly left, shift your weight slightly left to follow. Do not overreact by sprawling or driving hard - this reveals your reaction patterns and creates the opening they are probing for. Maintain steady chest pressure and hip connection while making micro-adjustments to stay centered on their movement."
+        "answer": "Small probing movements are designed to map your pressure and find weaknesses before committing to the full escape. Respond with proportional adjustments rather than large reactions. If they shift slightly left, shift your weight slightly left to follow. Do not overreact by sprawling or driving hard - this reveals your reaction patterns and creates the opening they are probing for. Maintain steady chest pressure and hip connection while making micro-adjustments to stay centered on their movement.",
+        "answer_line": "Match with proportional micro-adjust",
+        "distractors": {
+          "plausible": [
+            "Sprawl hard on every twitch",
+            "Ignore movement, stay heavy"
+          ],
+          "trap": [
+            "Drive hard to shut it down"
+          ]
+        }
       },
       {
         "question": "What is the fundamental difference between countering a hip escape to half guard versus countering a Granby roll?",
-        "answer": "A hip escape moves laterally and requires you to follow sideways while preventing the leg thread - your counter is lateral pursuit and hip control. A Granby roll moves rotationally forward and requires you to either drive weight forward to prevent the roll or follow the roll to maintain back exposure. The hip escape counter emphasizes staying connected laterally, while the Granby counter emphasizes vertical pressure or rotational following. Misidentifying the escape type leads to applying the wrong counter at the worst possible moment."
+        "answer": "A hip escape moves laterally and requires you to follow sideways while preventing the leg thread - your counter is lateral pursuit and hip control. A Granby roll moves rotationally forward and requires you to either drive weight forward to prevent the roll or follow the roll to maintain back exposure. The hip escape counter emphasizes staying connected laterally, while the Granby counter emphasizes vertical pressure or rotational following. Misidentifying the escape type leads to applying the wrong counter at the worst possible moment.",
+        "answer_line": "Lateral pursuit vs vertical pressure",
+        "distractors": {
+          "plausible": [
+            "Both need the same sprawl",
+            "Follow rotation for both equally"
+          ],
+          "trap": [
+            "Base out and do nothing"
+          ]
+        }
       },
       {
         "question": "When should you choose to follow the escape for back control versus shutting it down to maintain Chill Dog top?",
-        "answer": "Follow for back control when the escape has already created significant lateral space and the bottom player is beginning to rotate - at this point shutting it down requires more energy than capitalizing on the movement. Shut it down when you detect the escape early in the setup phase and can prevent the hip escape with a simple pressure adjustment. The decision point is whether they have already created the space: if space exists, follow and attack the back; if no space yet, prevent the space from being created."
+        "answer": "Follow for back control when the escape has already created significant lateral space and the bottom player is beginning to rotate - at this point shutting it down requires more energy than capitalizing on the movement. Shut it down when you detect the escape early in the setup phase and can prevent the hip escape with a simple pressure adjustment. The decision point is whether they have already created the space: if space exists, follow and attack the back; if no space yet, prevent the space from being created.",
+        "answer_line": "Space exists: follow; none: prevent",
+        "distractors": {
+          "plausible": [
+            "Always follow for the back",
+            "Always shut down immediately"
+          ],
+          "trap": [
+            "Wait until fully mounted on back"
+          ]
+        }
       }
     ],
     "training_progressions": [

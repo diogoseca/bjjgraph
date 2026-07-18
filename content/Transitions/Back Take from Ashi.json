@@ -215,43 +215,143 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals the correct moment to initiate the back take from ashi?",
-        "answer": "The primary trigger is when your opponent commits their weight forward - specifically when they sit up aggressively to address your leg control, reach forward to strip your grips on their heel, or lean toward you while defending heel exposure. This forward weight commitment shifts their center of gravity away from their back and creates the exposure necessary for the transition. Without this trigger, forcing the back take typically results in losing both the leg entanglement and the back take opportunity."
+        "answer": "The primary trigger is when your opponent commits their weight forward - specifically when they sit up aggressively to address your leg control, reach forward to strip your grips on their heel, or lean toward you while defending heel exposure. This forward weight commitment shifts their center of gravity away from their back and creates the exposure necessary for the transition. Without this trigger, forcing the back take typically results in losing both the leg entanglement and the back take opportunity.",
+        "answer_line": "They sit up to defend heel",
+        "distractors": {
+          "plausible": [
+            "Opponent straightens trapped leg",
+            "Any grip break on your heel"
+          ],
+          "trap": [
+            "As soon as ashi is secured"
+          ]
+        }
       },
       {
         "question": "What position do you start Back Take from Ashi from and what must be established?",
-        "answer": "This technique starts from Inside Ashi-Garami with you in the top/controlling position. You must have your inside leg across opponent's hip and outside leg hooking behind their knee, with established control of their trapped leg. The opponent's heel should be effectively defended or rotated away, making immediate leg attack submission unlikely, which creates the strategic motivation to transition."
+        "answer": "This technique starts from Inside Ashi-Garami with you in the top/controlling position. You must have your inside leg across opponent's hip and outside leg hooking behind their knee, with established control of their trapped leg. The opponent's heel should be effectively defended or rotated away, making immediate leg attack submission unlikely, which creates the strategic motivation to transition.",
+        "answer_line": "Inside Ashi-Garami, leg trapped",
+        "distractors": {
+          "plausible": [
+            "Saddle with sankaku lock",
+            "Outside Ashi-Garami control"
+          ],
+          "trap": [
+            "Half guard with legs free"
+          ]
+        }
       },
       {
         "question": "What are the grip transitions required from start to finish during this technique?",
-        "answer": "You begin with whatever grips control the trapped leg in ashi, typically a C-grip or figure-four on the heel. Before releasing leg control, you must secure upper body connection with at least one arm reaching to opponent's far shoulder, collar, or establishing an underhook. During the circling phase you maintain the outside leg hook as your primary anchor. Final grips are seatbelt configuration with one arm over the shoulder and one under the armpit, hands clasped together at the sternum."
+        "answer": "You begin with whatever grips control the trapped leg in ashi, typically a C-grip or figure-four on the heel. Before releasing leg control, you must secure upper body connection with at least one arm reaching to opponent's far shoulder, collar, or establishing an underhook. During the circling phase you maintain the outside leg hook as your primary anchor. Final grips are seatbelt configuration with one arm over the shoulder and one under the armpit, hands clasped together at the sternum.",
+        "answer_line": "Heel grip to seatbelt, in order",
+        "distractors": {
+          "plausible": [
+            "Release legs before upper grip",
+            "Underhook first, then heel grip"
+          ],
+          "trap": [
+            "Drop all grips mid-transition"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending your heel hook by keeping their knee rotated away but maintains a low, compact posture without sitting up - what should you do?",
-        "answer": "Do not force the back take. Continue threatening leg attacks to provoke the forward reaction you need. Alternate between straight ankle lock pressure, toe hold threats, and kneebar setups to force them to address your leg control. Each defensive adjustment they make requires them to engage their hands and shift weight. Eventually they must sit up or reach forward to address the persistent threats, and that is your window. Patience here is critical - forcing the back take against a low, compact defender almost always fails."
+        "answer": "Do not force the back take. Continue threatening leg attacks to provoke the forward reaction you need. Alternate between straight ankle lock pressure, toe hold threats, and kneebar setups to force them to address your leg control. Each defensive adjustment they make requires them to engage their hands and shift weight. Eventually they must sit up or reach forward to address the persistent threats, and that is your window. Patience here is critical - forcing the back take against a low, compact defender almost always fails.",
+        "answer_line": "Keep threatening leg attacks",
+        "distractors": {
+          "plausible": [
+            "Force the back take now",
+            "Switch to guard passing"
+          ],
+          "trap": [
+            "Abandon ashi, dive for back"
+          ]
+        }
       },
       {
         "question": "What is the correct sequencing for releasing leg control and why does this order matter?",
-        "answer": "Always secure upper body grip first before releasing any leg control. Then release your inside leg from across their hip while maintaining the outside leg hook as an anchor. Use the freed inside leg to push off the mat and circle toward their back. Only release the outside leg hook after the first back hook is inserted and the seatbelt is established. This sequencing ensures continuous control at every phase - if you release leg control before establishing upper body connection, the opponent has a clean window to escape with no tether to them."
+        "answer": "Always secure upper body grip first before releasing any leg control. Then release your inside leg from across their hip while maintaining the outside leg hook as an anchor. Use the freed inside leg to push off the mat and circle toward their back. Only release the outside leg hook after the first back hook is inserted and the seatbelt is established. This sequencing ensures continuous control at every phase - if you release leg control before establishing upper body connection, the opponent has a clean window to escape with no tether to them.",
+        "answer_line": "Upper body grip before legs",
+        "distractors": {
+          "plausible": [
+            "Release outside leg first",
+            "Release both legs together"
+          ],
+          "trap": [
+            "Release all legs immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent stands up explosively as you initiate the back take - how do you adjust?",
-        "answer": "Maintain any grip on their leg, pants, or upper body and use their standing motion to pull yourself up to standing back control rather than trying to pull them back down. Their base is compromised during the explosive stand, so a single leg takedown attempt is also viable. If you have good outside leg connection near their hip, consider inverting for a Kiss of the Dragon entry which uses their upward momentum against them. The key principle is redirecting their energy rather than fighting it."
+        "answer": "Maintain any grip on their leg, pants, or upper body and use their standing motion to pull yourself up to standing back control rather than trying to pull them back down. Their base is compromised during the explosive stand, so a single leg takedown attempt is also viable. If you have good outside leg connection near their hip, consider inverting for a Kiss of the Dragon entry which uses their upward momentum against them. The key principle is redirecting their energy rather than fighting it.",
+        "answer_line": "Ride up, keep grip, redirect",
+        "distractors": {
+          "plausible": [
+            "Pull them back down to mat",
+            "Release grips, reset to feet"
+          ],
+          "trap": [
+            "Fight their momentum, hold ground"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the circling phase and what happens if you skip it?",
-        "answer": "The critical movement is a hip escape away from the opponent's centerline combined with a circular arc toward their back. This creates the angular approach necessary to arrive at their side before transitioning fully behind them. If you skip this and move directly behind them in a straight line, the opponent can simply rotate to face you as fast as you move around them, resulting in a scramble where you lose both ashi position and the back take angle. The angular approach forces them to choose between addressing your movement and protecting their back."
+        "answer": "The critical movement is a hip escape away from the opponent's centerline combined with a circular arc toward their back. This creates the angular approach necessary to arrive at their side before transitioning fully behind them. If you skip this and move directly behind them in a straight line, the opponent can simply rotate to face you as fast as you move around them, resulting in a scramble where you lose both ashi position and the back take angle. The angular approach forces them to choose between addressing your movement and protecting their back.",
+        "answer_line": "Hip escape plus circular arc",
+        "distractors": {
+          "plausible": [
+            "Straight line behind them",
+            "Bridge and roll to their back"
+          ],
+          "trap": [
+            "Push straight through center"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls hard as you begin the transition and pushes your upper body away - what is the optimal recovery?",
-        "answer": "Immediately return to leg entanglement by re-establishing inside ashi control. The opponent's sprawl often paradoxically re-exposes their leg for submission attacks because their hips extend away from you while their leg remains within reach. Re-grip the heel and re-establish your inside leg across their hip. This defensive reaction from them is actually a reset to a favorable position for you - they burned energy sprawling and now must restart their heel defense while you still control their leg. The sprawl counter is medium effectiveness precisely because it solves the immediate back take but often worsens the leg lock defense."
+        "answer": "Immediately return to leg entanglement by re-establishing inside ashi control. The opponent's sprawl often paradoxically re-exposes their leg for submission attacks because their hips extend away from you while their leg remains within reach. Re-grip the heel and re-establish your inside leg across their hip. This defensive reaction from them is actually a reset to a favorable position for you - they burned energy sprawling and now must restart their heel defense while you still control their leg. The sprawl counter is medium effectiveness precisely because it solves the immediate back take but often worsens the leg lock defense.",
+        "answer_line": "Re-establish leg entanglement",
+        "distractors": {
+          "plausible": [
+            "Chase the seatbelt harder",
+            "Stand up and reset distance"
+          ],
+          "trap": [
+            "Let go and reshoot to guard"
+          ]
+        }
       },
       {
         "question": "How does the back take from ashi create a systematic dilemma for the defender?",
-        "answer": "The dilemma operates on two axes. First, to defend heel hooks the opponent must rotate their knee away and address your grip, which typically requires sitting up or reaching forward - exactly the trigger that enables the back take. Second, to prevent the back take they must maintain a low, compact posture without extending toward you, which leaves their heel exposed to continued leg attack threats. They cannot simultaneously keep their heel safe and their back safe. This forces them into a constant decision loop where addressing one threat opens the other, and each defensive adjustment gives you information about which attack to pursue."
+        "answer": "The dilemma operates on two axes. First, to defend heel hooks the opponent must rotate their knee away and address your grip, which typically requires sitting up or reaching forward - exactly the trigger that enables the back take. Second, to prevent the back take they must maintain a low, compact posture without extending toward you, which leaves their heel exposed to continued leg attack threats. They cannot simultaneously keep their heel safe and their back safe. This forces them into a constant decision loop where addressing one threat opens the other, and each defensive adjustment gives you information about which attack to pursue.",
+        "answer_line": "Heel defense exposes the back",
+        "distractors": {
+          "plausible": [
+            "Back defense frees the leg",
+            "Both defenses need same posture"
+          ],
+          "trap": [
+            "No real trade-off exists"
+          ]
+        }
       },
       {
         "question": "What determines whether you should finish via the standard back take, the crab ride variant, or the chair sit variant?",
-        "answer": "The standard back take works when the opponent sits up or reaches forward from a grounded position, providing a clean circling path to their back. The crab ride variant is optimal when the opponent is on all fours or has turtled, since you can maintain shin-across-hip control as a lever while circling behind them without fully releasing leg entanglement. The chair sit variant works best when the opponent drives heavy forward pressure to remove your leg control, since their momentum carries them past you and you can sit directly to their hip on the weak side. Read the opponent's body position and weight distribution to select the highest-percentage variant."
+        "answer": "The standard back take works when the opponent sits up or reaches forward from a grounded position, providing a clean circling path to their back. The crab ride variant is optimal when the opponent is on all fours or has turtled, since you can maintain shin-across-hip control as a lever while circling behind them without fully releasing leg entanglement. The chair sit variant works best when the opponent drives heavy forward pressure to remove your leg control, since their momentum carries them past you and you can sit directly to their hip on the weak side. Read the opponent's body position and weight distribution to select the highest-percentage variant.",
+        "answer_line": "Match variant to their posture",
+        "distractors": {
+          "plausible": [
+            "Always default to standard",
+            "Pick based on your grip type"
+          ],
+          "trap": [
+            "Use chair sit if they turtle"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves releasing leg control and moving dynamically to opponent's back, which carries lower injury risk than most leg lock positions but requires controlled practice. Primary safety concerns include avoiding explosive movements that could torque opponent's knee as you release leg control, and ensuring controlled descent when taking opponent to mat from back position. Practice initially at slow speed to develop the timing and pathway. When drilling with resistance, communicate clearly about intensity levels. The transition itself does not apply joint stress but careless execution during release of leg control could strain opponent's knee if their leg is still entangled during explosive movement.",
@@ -368,23 +468,73 @@
     "flashcards": [
       {
         "question": "What body position should you maintain while defending leg attacks to prevent the back take trigger?",
-        "answer": "Maintain a low, compact posture without sitting up or reaching forward toward the attacker. Address heel hook and ankle lock defense through hip rotation, controlled knee positioning, and grip breaks executed from your existing low position. Your spine should remain rounded with your weight centered over your hips rather than shifted forward. This denies the forward weight commitment the attacker needs as the trigger for initiating the back take transition."
+        "answer": "Maintain a low, compact posture without sitting up or reaching forward toward the attacker. Address heel hook and ankle lock defense through hip rotation, controlled knee positioning, and grip breaks executed from your existing low position. Your spine should remain rounded with your weight centered over your hips rather than shifted forward. This denies the forward weight commitment the attacker needs as the trigger for initiating the back take transition.",
+        "answer_line": "Stay low, don't reach forward",
+        "distractors": {
+          "plausible": [
+            "Sit up to strip their grips",
+            "Post hands to break the grip"
+          ],
+          "trap": [
+            "Extend legs straight to escape"
+          ]
+        }
       },
       {
         "question": "You feel the attacker's inside leg release from your hip - what is your immediate priority?",
-        "answer": "Your immediate priority is turning toward the attacker to prevent them from completing the circular arc to your back. Do not continue focusing on heel defense - the threat has shifted from leg attack to back take. Turn your shoulders and hips toward the attacker simultaneously while using your near arm to frame against their upper body. If you can face them before the seatbelt is established, you can recover to guard. Speed of recognition is everything here because the window between inside leg release and seatbelt establishment is typically only two to three seconds."
+        "answer": "Your immediate priority is turning toward the attacker to prevent them from completing the circular arc to your back. Do not continue focusing on heel defense - the threat has shifted from leg attack to back take. Turn your shoulders and hips toward the attacker simultaneously while using your near arm to frame against their upper body. If you can face them before the seatbelt is established, you can recover to guard. Speed of recognition is everything here because the window between inside leg release and seatbelt establishment is typically only two to three seconds.",
+        "answer_line": "Turn in to face the attacker",
+        "distractors": {
+          "plausible": [
+            "Keep defending the heel hook",
+            "Push away and create space"
+          ],
+          "trap": [
+            "Turtle immediately, ignore turn"
+          ]
+        }
       },
       {
         "question": "When is turtling the correct defensive choice rather than attempting to turn into guard?",
-        "answer": "Turtle when the attacker has already progressed past the midpoint of the transition - they have released your leg, established some upper body control, and are actively circling toward your back. At this point, turning into guard risks giving up your back even faster because the attacker can use your turning momentum. Dropping to tight turtle with elbows to knees resets the attacker's positional advantage by forcing them to work from turtle top, where they need to re-establish hooks and harness from scratch rather than flowing directly into back control."
+        "answer": "Turtle when the attacker has already progressed past the midpoint of the transition - they have released your leg, established some upper body control, and are actively circling toward your back. At this point, turning into guard risks giving up your back even faster because the attacker can use your turning momentum. Dropping to tight turtle with elbows to knees resets the attacker's positional advantage by forcing them to work from turtle top, where they need to re-establish hooks and harness from scratch rather than flowing directly into back control.",
+        "answer_line": "After they've passed midpoint",
+        "distractors": {
+          "plausible": [
+            "Turtle immediately every time",
+            "Never turtle, always turn in"
+          ],
+          "trap": [
+            "Turn into guard once hooks in"
+          ]
+        }
       },
       {
         "question": "How can you create a counter-dilemma for the attacker attempting the back take?",
-        "answer": "Threaten to stand, turn into guard, or re-engage leg entanglement simultaneously so the attacker cannot commit fully to the back take without risk. If they release leg control to circle, immediately threaten to stand or turn in. If they maintain leg control to prevent your stand, they cannot circle to your back. This forces them to choose one path, which gives you information to react. The counter-dilemma mirrors their offensive dilemma - just as they create leg attack versus back take choices for you, you create escape versus re-engagement choices for them."
+        "answer": "Threaten to stand, turn into guard, or re-engage leg entanglement simultaneously so the attacker cannot commit fully to the back take without risk. If they release leg control to circle, immediately threaten to stand or turn in. If they maintain leg control to prevent your stand, they cannot circle to your back. This forces them to choose one path, which gives you information to react. The counter-dilemma mirrors their offensive dilemma - just as they create leg attack versus back take choices for you, you create escape versus re-engagement choices for them.",
+        "answer_line": "Threaten stand, guard, and legs",
+        "distractors": {
+          "plausible": [
+            "Focus only on standing up",
+            "Commit fully to one escape"
+          ],
+          "trap": [
+            "Stay still and absorb pressure"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous defensive mistake when the back take is already in progress?",
-        "answer": "The most dangerous mistake is allowing the seatbelt to be established uncontested while focusing on preventing hooks. Hooks without harness are relatively escapable through hip movement and leg extraction. But once the seatbelt is locked with one arm over your shoulder and one under your armpit with hands clasped, the attacker controls your upper body rotation and can follow any escape attempt you make. Denying seatbelt establishment through active hand fighting on their arms is far more important than fighting the hook insertion during the transition."
+        "answer": "The most dangerous mistake is allowing the seatbelt to be established uncontested while focusing on preventing hooks. Hooks without harness are relatively escapable through hip movement and leg extraction. But once the seatbelt is locked with one arm over your shoulder and one under your armpit with hands clasped, the attacker controls your upper body rotation and can follow any escape attempt you make. Denying seatbelt establishment through active hand fighting on their arms is far more important than fighting the hook insertion during the transition.",
+        "answer_line": "Deny seatbelt, not just hooks",
+        "distractors": {
+          "plausible": [
+            "Focus on stripping the hooks",
+            "Fight for underhook instead"
+          ],
+          "trap": [
+            "Let seatbelt lock, escape later"
+          ]
+        }
       }
     ],
     "training_progressions": [

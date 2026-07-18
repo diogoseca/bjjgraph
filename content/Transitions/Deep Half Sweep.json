@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins applying heavy crossface pressure as you establish deep half - how do you use this to your advantage for the sweep?",
-        "answer": "Heavy crossface pressure means the opponent is committing their weight forward, which is exactly what loads the Deep Half Sweep. Rather than fighting the crossface, maintain your underhook and use their forward pressure as fuel for your hip elevation. Their weight commitment forward means they have less ability to sprawl back when you drive your hips up. Time your elevation for the moment their pressure peaks."
+        "answer": "Heavy crossface pressure means the opponent is committing their weight forward, which is exactly what loads the Deep Half Sweep. Rather than fighting the crossface, maintain your underhook and use their forward pressure as fuel for your hip elevation. Their weight commitment forward means they have less ability to sprawl back when you drive your hips up. Time your elevation for the moment their pressure peaks.",
+        "answer_line": "Use forward pressure to load sweep",
+        "distractors": {
+          "plausible": [
+            "Frame against crossface first",
+            "Wait for pressure to ease up"
+          ],
+          "trap": [
+            "Fight the crossface pressure"
+          ]
+        }
       },
       {
         "question": "What is the critical foot positioning adjustment that must happen before attempting the hip elevation?",
-        "answer": "You must walk your feet in small steps toward the opponent's head to create an acute angle between your body and theirs. This angle redirects your hip elevation force from straight upward to forward-and-over, making the sweep dramatically more effective. Without this angle adjustment, the opponent can simply post their hands or sprawl to resist a straight upward elevation. Three to four small steps typically create sufficient angle."
+        "answer": "You must walk your feet in small steps toward the opponent's head to create an acute angle between your body and theirs. This angle redirects your hip elevation force from straight upward to forward-and-over, making the sweep dramatically more effective. Without this angle adjustment, the opponent can simply post their hands or sprawl to resist a straight upward elevation. Three to four small steps typically create sufficient angle.",
+        "answer_line": "Walk feet toward opponent's head",
+        "distractors": {
+          "plausible": [
+            "Walk feet toward opponent's hips",
+            "Square hips flat before lifting"
+          ],
+          "trap": [
+            "Push feet straight up for lift"
+          ]
+        }
       },
       {
         "question": "What grip modifications are required for executing this sweep in no-gi versus gi?",
-        "answer": "In no-gi, the underhook must be deeper with the arm wrapped further around the thigh, often using a gable grip or butterfly grip behind the knee for maximum security since there is no friction from the gi. The free hand uses wrist control or a frame against the hip instead of lapel or belt grips. In gi, you can supplement with a belt grip on the free hand for additional pulling power and pant grip on the near leg for better control."
+        "answer": "In no-gi, the underhook must be deeper with the arm wrapped further around the thigh, often using a gable grip or butterfly grip behind the knee for maximum security since there is no friction from the gi. The free hand uses wrist control or a frame against the hip instead of lapel or belt grips. In gi, you can supplement with a belt grip on the free hand for additional pulling power and pant grip on the near leg for better control.",
+        "answer_line": "Deeper underhook, gable grip no-gi",
+        "distractors": {
+          "plausible": [
+            "Same grips work in both rulesets",
+            "Use lapel grip instead in no-gi"
+          ],
+          "trap": [
+            "Grip the far ankle for control"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back when they feel your elevation attempt - what is your immediate chain attack?",
-        "answer": "When the opponent sprawls back, immediately transition to either the rolling variation by continuing underneath them toward the far side to take the back, or switch to X-Guard or Single Leg X-Guard by hooking their retreating legs with your feet. The sprawl removes their weight from your shoulders but creates space underneath that you can exploit by following their retreating legs with leg hooks rather than trying to force the original sweep path."
+        "answer": "When the opponent sprawls back, immediately transition to either the rolling variation by continuing underneath them toward the far side to take the back, or switch to X-Guard or Single Leg X-Guard by hooking their retreating legs with your feet. The sprawl removes their weight from your shoulders but creates space underneath that you can exploit by following their retreating legs with leg hooks rather than trying to force the original sweep path.",
+        "answer_line": "Follow legs to X-guard or back",
+        "distractors": {
+          "plausible": [
+            "Reset guard and rebuild grips",
+            "Switch immediately to Waiter Sweep"
+          ],
+          "trap": [
+            "Force original elevation harder"
+          ]
+        }
       },
       {
         "question": "What determines whether the Deep Half Sweep will finish in side control versus mount?",
-        "answer": "The angle you create before elevation and the direction of your drive determine the finish position. A more perpendicular angle with a drive across the opponent's body typically finishes in side control. Driving more directly over the opponent's centerline while maintaining the underhook can finish in mount. Side control is the higher-percentage finish because it requires less precision during the scramble phase of the sweep completion."
+        "answer": "The angle you create before elevation and the direction of your drive determine the finish position. A more perpendicular angle with a drive across the opponent's body typically finishes in side control. Driving more directly over the opponent's centerline while maintaining the underhook can finish in mount. Side control is the higher-percentage finish because it requires less precision during the scramble phase of the sweep completion.",
+        "answer_line": "Angle & drive set side vs mount",
+        "distractors": {
+          "plausible": [
+            "Speed determines the finish spot",
+            "Opponent's size decides finish"
+          ],
+          "trap": [
+            "Release underhook to reach mount"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the Deep Half Sweep and the Waiter Sweep from the same position?",
-        "answer": "The Deep Half Sweep generates force through hip elevation directed forward and over the opponent, using the shoulder wedge as a fulcrum. The force vector is primarily upward then forward. The Waiter Sweep generates force by elevating the opponent's far leg with the free hand while using hip movement to off-balance them laterally. The Waiter Sweep force is more rotational while the Deep Half Sweep is more linear and direct."
+        "answer": "The Deep Half Sweep generates force through hip elevation directed forward and over the opponent, using the shoulder wedge as a fulcrum. The force vector is primarily upward then forward. The Waiter Sweep generates force by elevating the opponent's far leg with the free hand while using hip movement to off-balance them laterally. The Waiter Sweep force is more rotational while the Deep Half Sweep is more linear and direct.",
+        "answer_line": "Deep half lifts; Waiter rotates",
+        "distractors": {
+          "plausible": [
+            "Both sweeps use identical force",
+            "Waiter uses hip elevation too"
+          ],
+          "trap": [
+            "Deep half needs a lateral rotation"
+          ]
+        }
       },
       {
         "question": "What body positioning error most commonly causes the Deep Half Sweep to fail against skilled opponents?",
-        "answer": "The most common error is attempting the elevation without creating sufficient angle by walking the feet toward the opponent's head. When the body alignment is too parallel to the opponent, the hip elevation drives them straight up rather than forward, allowing them to simply post their hands or sprawl their weight back to resist. The angle is what transforms raw upward force into sweeping momentum that bypasses their posting ability."
+        "answer": "The most common error is attempting the elevation without creating sufficient angle by walking the feet toward the opponent's head. When the body alignment is too parallel to the opponent, the hip elevation drives them straight up rather than forward, allowing them to simply post their hands or sprawl their weight back to resist. The angle is what transforms raw upward force into sweeping momentum that bypasses their posting ability.",
+        "answer_line": "No angle before elevation",
+        "distractors": {
+          "plausible": [
+            "Underhook too shallow",
+            "Elevating too soon"
+          ],
+          "trap": [
+            "Add more strength to the lift"
+          ]
+        }
       },
       {
         "question": "Your opponent applies a whizzer to your underhook arm during the sweep attempt - what adjustment prevents the counter?",
-        "answer": "When the opponent whizzers your underhook arm, do not try to fight the whizzer directly. Instead, redirect by driving your underhook elbow toward their far hip, making the whizzer less effective at stripping your control. Alternatively, use the whizzer pressure to set up an Electric Chair entry by feeding your hips deeper and establishing lockdown on their trapped leg. The whizzer commits their arm, which can be exploited for the position change."
+        "answer": "When the opponent whizzers your underhook arm, do not try to fight the whizzer directly. Instead, redirect by driving your underhook elbow toward their far hip, making the whizzer less effective at stripping your control. Alternatively, use the whizzer pressure to set up an Electric Chair entry by feeding your hips deeper and establishing lockdown on their trapped leg. The whizzer commits their arm, which can be exploited for the position change.",
+        "answer_line": "Redirect elbow to far hip",
+        "distractors": {
+          "plausible": [
+            "Fight to strip the whizzer",
+            "Abandon underhook, regrip"
+          ],
+          "trap": [
+            "Yank the arm free by force"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Deep Half Sweep is generally a low-risk technique with no joint manipulation or choking mechanics involved. The primary safety concern is neck positioning during the sweep. Ensure your head remains tucked against the opponent's thigh rather than extended or twisted, as the weight loading during elevation can create cervical compression if the head is mispositioned. Avoid attempting the sweep if you feel any neck discomfort in the starting position. Partners should communicate immediately if they feel trapped in an awkward position during the sweep rotation. During drilling, control the speed of the sweep completion to prevent the top player from being dumped unexpectedly onto their head or shoulder.",
@@ -396,19 +476,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is setting up the Deep Half Sweep specifically rather than another attack?",
-        "answer": "The earliest cue is the bottom player walking their feet in small steps toward your head. This angle creation is unique to the hip-lift sweep and distinguishes it from the rolling back take which involves turning away from you or the Waiter Sweep which involves their free hand reaching for your far leg. When you feel the foot walking combined with increased shoulder pressure against your inner thigh, the hip-lift sweep is being loaded."
+        "answer": "The earliest cue is the bottom player walking their feet in small steps toward your head. This angle creation is unique to the hip-lift sweep and distinguishes it from the rolling back take which involves turning away from you or the Waiter Sweep which involves their free hand reaching for your far leg. When you feel the foot walking combined with increased shoulder pressure against your inner thigh, the hip-lift sweep is being loaded.",
+        "answer_line": "Feet walking toward your head",
+        "distractors": {
+          "plausible": [
+            "Opponent turns away from you",
+            "Free hand reaches for far leg"
+          ],
+          "trap": [
+            "Shoulder pressure easing off"
+          ]
+        }
       },
       {
         "question": "Why is driving heavy crossface pressure a risky defensive strategy against the Deep Half Sweep?",
-        "answer": "Heavy crossface pressure requires committing your weight forward toward the bottom player's head side. This forward weight commitment is exactly what powers the Deep Half Sweep, as the bottom player uses your forward pressure combined with their hip elevation to tip you over. A skilled deep half player will deliberately bait the crossface to load the sweep. Instead, use crossface to control their head direction without driving your full weight forward."
+        "answer": "Heavy crossface pressure requires committing your weight forward toward the bottom player's head side. This forward weight commitment is exactly what powers the Deep Half Sweep, as the bottom player uses your forward pressure combined with their hip elevation to tip you over. A skilled deep half player will deliberately bait the crossface to load the sweep. Instead, use crossface to control their head direction without driving your full weight forward.",
+        "answer_line": "Commits weight, loads their sweep",
+        "distractors": {
+          "plausible": [
+            "Crossface has no real downside",
+            "Only risky against small opponents"
+          ],
+          "trap": [
+            "Drive full weight into crossface"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for executing the backstep counter against the Deep Half Sweep?",
-        "answer": "The optimal backstep timing is immediately after you feel the bottom player commit to their foot walking but before they begin the hip elevation. At this point, their focus is on creating angle rather than maintaining leg control, creating a brief window where your trapped leg is less actively restrained. If you backstep too early they have not committed and can easily readjust. If you backstep too late during the elevation their upward pressure makes extraction much more difficult."
+        "answer": "The optimal backstep timing is immediately after you feel the bottom player commit to their foot walking but before they begin the hip elevation. At this point, their focus is on creating angle rather than maintaining leg control, creating a brief window where your trapped leg is less actively restrained. If you backstep too early they have not committed and can easily readjust. If you backstep too late during the elevation their upward pressure makes extraction much more difficult.",
+        "answer_line": "Backstep during their foot walk",
+        "distractors": {
+          "plausible": [
+            "Backstep as soon as sweep starts",
+            "Backstep right after elevation"
+          ],
+          "trap": [
+            "Wait until fully elevated to move"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the sweep elevation beginning?",
-        "answer": "Immediately shift your weight backward by dropping your hips away from the bottom player's shoulder and posting your free leg wider behind you. Do not try to drive forward to counter the elevation as this feeds the sweep. The goal is to remove your weight from their shoulder fulcrum point so their elevation lifts nothing. Simultaneously widen your base laterally to create stability against the forward-directed sweep force."
+        "answer": "Immediately shift your weight backward by dropping your hips away from the bottom player's shoulder and posting your free leg wider behind you. Do not try to drive forward to counter the elevation as this feeds the sweep. The goal is to remove your weight from their shoulder fulcrum point so their elevation lifts nothing. Simultaneously widen your base laterally to create stability against the forward-directed sweep force.",
+        "answer_line": "Drop hips, widen base back",
+        "distractors": {
+          "plausible": [
+            "Push hips forward to counter",
+            "Sprawl weight onto their back"
+          ],
+          "trap": [
+            "Drive forward into the lift"
+          ]
+        }
       }
     ],
     "training_progressions": [

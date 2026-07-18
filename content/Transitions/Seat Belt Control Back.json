@@ -227,51 +227,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Seat Belt Control Back?",
-        "answer": "The primary goal is to convert mounted crucifix control into full back control with seat belt grip established. This transition capitalizes on the positional dominance of crucifix while advancing to back control where rear naked choke and other high-percentage submissions become available. The seat belt grip ensures you arrive at back with immediate offensive capability rather than scrambling to establish control."
+        "answer": "The primary goal is to convert mounted crucifix control into full back control with seat belt grip established. This transition capitalizes on the positional dominance of crucifix while advancing to back control where rear naked choke and other high-percentage submissions become available. The seat belt grip ensures you arrive at back with immediate offensive capability rather than scrambling to establish control.",
+        "answer_line": "Convert crucifix to back control",
+        "distractors": {
+          "plausible": [
+            "Maintain crucifix, don't advance",
+            "Attack armbar from crucifix first"
+          ],
+          "trap": [
+            "Abandon crucifix, chase back"
+          ]
+        }
       },
       {
         "question": "What position do you start Seat Belt Control Back from?",
-        "answer": "This technique starts from Mounted Crucifix Top position. You have mount established with opponent's arm(s) trapped by your legs in crucifix configuration. The transition initiates when opponent's defensive movement begins exposing their back or when crucifix control starts degrading, creating the window for back take."
+        "answer": "This technique starts from Mounted Crucifix Top position. You have mount established with opponent's arm(s) trapped by your legs in crucifix configuration. The transition initiates when opponent's defensive movement begins exposing their back or when crucifix control starts degrading, creating the window for back take.",
+        "answer_line": "Mounted Crucifix Top",
+        "distractors": {
+          "plausible": [
+            "Standard mount",
+            "Back control with hooks"
+          ],
+          "trap": [
+            "Crucifix from bottom"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Seat Belt Control Back?",
-        "answer": "The seat belt grip requires one arm over opponent's shoulder (the over-arm that becomes your choking arm) threading across their chest, and one arm under their armpit (the under-arm) reaching around their torso. These arms connect at the sternum in a gable grip or S-grip. Elbows must be pulled tight to eliminate slack in the configuration to prevent grip stripping."
+        "answer": "The seat belt grip requires one arm over opponent's shoulder (the over-arm that becomes your choking arm) threading across their chest, and one arm under their armpit (the under-arm) reaching around their torso. These arms connect at the sternum in a gable grip or S-grip. Elbows must be pulled tight to eliminate slack in the configuration to prevent grip stripping.",
+        "answer_line": "Over-under arms locked at sternum",
+        "distractors": {
+          "plausible": [
+            "Both arms over the shoulders",
+            "Grip at the belt, not chest"
+          ],
+          "trap": [
+            "Loose grip, elbows flared out"
+          ]
+        }
       },
       {
         "question": "Your opponent starts rolling through before you can lock your seat belt grip - what adjustment do you make?",
-        "answer": "Follow the roll while maintaining whatever upper body contact you have established. Keep your chest connected to their back throughout the roll and you will arrive in mount on the other side. If you cannot maintain back exposure, accept the mount position and re-establish crucifix control rather than losing position entirely by fighting the roll."
+        "answer": "Follow the roll while maintaining whatever upper body contact you have established. Keep your chest connected to their back throughout the roll and you will arrive in mount on the other side. If you cannot maintain back exposure, accept the mount position and re-establish crucifix control rather than losing position entirely by fighting the roll.",
+        "answer_line": "Follow roll, keep chest connected",
+        "distractors": {
+          "plausible": [
+            "Release grips, restart from scratch",
+            "Fight the roll to keep back"
+          ],
+          "trap": [
+            "Chase the roll, lose all contact"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to attempt Seat Belt Control Back?",
-        "answer": "The optimal timing is when opponent begins defensive movement that exposes their back - typically turning toward their trapped arm side to escape crucifix, or when your crucifix leg control starts slipping due to their hip movement. This defensive response actually facilitates back exposure. Attempting the transition when opponent is completely static in crucifix is less effective than capitalizing on their movement."
+        "answer": "The optimal timing is when opponent begins defensive movement that exposes their back - typically turning toward their trapped arm side to escape crucifix, or when your crucifix leg control starts slipping due to their hip movement. This defensive response actually facilitates back exposure. Attempting the transition when opponent is completely static in crucifix is less effective than capitalizing on their movement.",
+        "answer_line": "When opponent moves, exposing back",
+        "distractors": {
+          "plausible": [
+            "Only when opponent goes still",
+            "Right after crucifix is locked"
+          ],
+          "trap": [
+            "Wait for opponent to fully escape"
+          ]
+        }
       },
       {
         "question": "Why must the seat belt grip be established before releasing crucifix leg control?",
-        "answer": "Releasing leg control before upper body control creates a moment of lost connection where opponent can escape. During that gap, they can turn into you, stand up, or recover guard. The seat belt maintains continuous pressure throughout the transition so you never have zero points of control. This principle of overlapping control prevents the scramble situations that favor the escaping opponent."
+        "answer": "Releasing leg control before upper body control creates a moment of lost connection where opponent can escape. During that gap, they can turn into you, stand up, or recover guard. The seat belt maintains continuous pressure throughout the transition so you never have zero points of control. This principle of overlapping control prevents the scramble situations that favor the escaping opponent.",
+        "answer_line": "Avoids gap in control, no scramble",
+        "distractors": {
+          "plausible": [
+            "Leg control matters less than grips",
+            "Speeds up the transition overall"
+          ],
+          "trap": [
+            "Release legs first for more speed"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip with their free hand as you attempt to slide behind them - how do you address this?",
-        "answer": "Use your knee to clear their framing hand by driving it across their arm while simultaneously pulling your seat belt grip tighter. The grip pull collapses their structural defense and takes away the space they need for effective framing. Once their frame is broken, immediately continue your hip slide before they can re-establish. Do not release seat belt to address the frame."
+        "answer": "Use your knee to clear their framing hand by driving it across their arm while simultaneously pulling your seat belt grip tighter. The grip pull collapses their structural defense and takes away the space they need for effective framing. Once their frame is broken, immediately continue your hip slide before they can re-establish. Do not release seat belt to address the frame.",
+        "answer_line": "Knee clears frame, pull grip tight",
+        "distractors": {
+          "plausible": [
+            "Release seat belt to fix the frame",
+            "Push through frame with your hip"
+          ],
+          "trap": [
+            "Let go of grip to grab their wrist"
+          ]
+        }
       },
       {
         "question": "What determines whether you should insert hooks or establish body triangle upon completing the transition?",
-        "answer": "Body triangle provides superior control against opponents with strong hip escape abilities or larger opponents where hooks may be stripped. Hooks allow more mobility for position adjustments and some finishing variations. Choose body triangle when you prioritize control and plan to finish with arm attacks or gi chokes. Choose hooks when you want mobility for rear naked choke angle adjustments or if opponent is smaller where hooks provide sufficient control."
+        "answer": "Body triangle provides superior control against opponents with strong hip escape abilities or larger opponents where hooks may be stripped. Hooks allow more mobility for position adjustments and some finishing variations. Choose body triangle when you prioritize control and plan to finish with arm attacks or gi chokes. Choose hooks when you want mobility for rear naked choke angle adjustments or if opponent is smaller where hooks provide sufficient control.",
+        "answer_line": "Triangle=control, hooks=mobility",
+        "distractors": {
+          "plausible": [
+            "Always use hooks for finishing",
+            "Triangle only vs smaller opponents"
+          ],
+          "trap": [
+            "Insert hooks against strong escapers"
+          ]
+        }
       },
       {
         "question": "During the transition, your opponent turns into you instead of away - how do you adapt?",
-        "answer": "Accept their turn but maintain your seat belt grip which now becomes front headlock or guillotine control as they face you. Their turn hands you a different dominant position rather than escaping. From this front-facing seat belt, you can attack guillotine, anaconda, or re-circle behind them as they continue moving. The key is not releasing upper body control regardless of which direction they turn."
+        "answer": "Accept their turn but maintain your seat belt grip which now becomes front headlock or guillotine control as they face you. Their turn hands you a different dominant position rather than escaping. From this front-facing seat belt, you can attack guillotine, anaconda, or re-circle behind them as they continue moving. The key is not releasing upper body control regardless of which direction they turn.",
+        "answer_line": "Grip becomes front headlock control",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Force them back to original angle"
+          ],
+          "trap": [
+            "Let go and retreat to guard"
+          ]
+        }
       },
       {
         "question": "How does head positioning during the transition affect your finishing options once back control is established?",
-        "answer": "Your head should be on the same side as your over-arm (the arm that crosses over their shoulder and becomes your choking arm). This head position protects you from counters that target head control and puts you in optimal position for rear naked choke. Wrong-side head placement requires adjustment before finishing and exposes you to counter-attacks during that adjustment period."
+        "answer": "Your head should be on the same side as your over-arm (the arm that crosses over their shoulder and becomes your choking arm). This head position protects you from counters that target head control and puts you in optimal position for rear naked choke. Wrong-side head placement requires adjustment before finishing and exposes you to counter-attacks during that adjustment period.",
+        "answer_line": "Head on same side as over-arm",
+        "distractors": {
+          "plausible": [
+            "Head on same side as under-arm",
+            "Head centered behind the neck"
+          ],
+          "trap": [
+            "Head on opposite side of choke arm"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when locking the seat belt grip during this transition?",
-        "answer": "The force direction is inward and downward - elbows pull tight toward your own ribs while hands connect at the opponent's sternum. The over-arm pulls their shoulder toward you while the under-arm cinches their torso. This creates a compressive force that closes all gaps between your chest and their back. Outward elbow position or upward pulling weakens the grip and allows stripping."
+        "answer": "The force direction is inward and downward - elbows pull tight toward your own ribs while hands connect at the opponent's sternum. The over-arm pulls their shoulder toward you while the under-arm cinches their torso. This creates a compressive force that closes all gaps between your chest and their back. Outward elbow position or upward pulling weakens the grip and allows stripping.",
+        "answer_line": "Inward and downward, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Outward pull to create space",
+            "Upward lift to control posture"
+          ],
+          "trap": [
+            "Push elbows out for a wider grip"
+          ]
+        }
       },
       {
         "question": "If your seat belt is locked but you cannot slide your hips behind the opponent, what chain attack should you consider?",
-        "answer": "If the hip slide is blocked, use your seat belt control to attack directly from the mounted position. The over-arm is already positioned for a short choke or can thread deeper for a rear naked choke attempt from a modified mount angle. You can also use the grip to pull opponent onto their side, exposing their back further and creating a new angle for the hip slide. Alternatively, return to mounted crucifix submissions since you still maintain dominant control."
+        "answer": "If the hip slide is blocked, use your seat belt control to attack directly from the mounted position. The over-arm is already positioned for a short choke or can thread deeper for a rear naked choke attempt from a modified mount angle. You can also use the grip to pull opponent onto their side, exposing their back further and creating a new angle for the hip slide. Alternatively, return to mounted crucifix submissions since you still maintain dominant control.",
+        "answer_line": "Attack RNC/choke from mount angle",
+        "distractors": {
+          "plausible": [
+            "Abandon position, reset to guard",
+            "Force the hip slide harder"
+          ],
+          "trap": [
+            "Release grip to reposition legs"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves significant upper body control and pressure during the grip establishment phase. When training, be mindful of your partner's neck and shoulder position during the seat belt lock - avoid cranking or twisting motions that could strain cervical structures. Release pressure immediately if partner taps or shows discomfort during the transition phase. The mounted crucifix starting position already places significant stress on the trapped shoulder; adding aggressive seat belt grip work compounds this stress. Progress gradually through resistance levels to allow both partners to develop appropriate defensive sensitivity.",
@@ -388,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the earliest point at which you can defend against the Seat Belt Control Back transition?",
-        "answer": "The earliest defensive intervention is when you feel the attacker's arm begin threading over your shoulder to establish the over-arm component of the seat belt. At this point, tucking your elbow tight against your neck and shoulder denies the path across your chest and prevents grip completion. Defending at this stage keeps you in mounted crucifix rather than progressing to the more dangerous back control position."
+        "answer": "The earliest defensive intervention is when you feel the attacker's arm begin threading over your shoulder to establish the over-arm component of the seat belt. At this point, tucking your elbow tight against your neck and shoulder denies the path across your chest and prevents grip completion. Defending at this stage keeps you in mounted crucifix rather than progressing to the more dangerous back control position.",
+        "answer_line": "Tuck elbow when arm threads over",
+        "distractors": {
+          "plausible": [
+            "Wait until seat belt fully locks",
+            "Push their arm away with your hand"
+          ],
+          "trap": [
+            "Turn away to create space early"
+          ]
+        }
       },
       {
         "question": "Why is the moment when the attacker releases crucifix leg control the critical escape window for the defender?",
-        "answer": "When the attacker releases their crucifix leg entanglement to begin sliding behind you, there is a brief window where their lower body control is absent. During this moment, your arms may also be freed from the leg trap, and the attacker's base is compromised as they reposition. An explosive bridge and turn during this release can recover half guard or create a scramble before back control consolidates."
+        "answer": "When the attacker releases their crucifix leg entanglement to begin sliding behind you, there is a brief window where their lower body control is absent. During this moment, your arms may also be freed from the leg trap, and the attacker's base is compromised as they reposition. An explosive bridge and turn during this release can recover half guard or create a scramble before back control consolidates.",
+        "answer_line": "Bridge & turn when legs release",
+        "distractors": {
+          "plausible": [
+            "Wait for hooks before escaping",
+            "Escape only after seat belt locks"
+          ],
+          "trap": [
+            "Stay still to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your attacker has locked the seat belt but has not yet inserted hooks - what is your immediate defensive priority?",
-        "answer": "Prevent hook insertion by keeping your legs active and straightened, denying the attacker's feet entry inside your thighs. Simultaneously begin turning toward the attacker to disrupt their back angle. Back control without hooks is significantly easier to escape than with hooks established, so even a few seconds of hook denial creates meaningful escape opportunities. Frame against their hip to prevent further settling."
+        "answer": "Prevent hook insertion by keeping your legs active and straightened, denying the attacker's feet entry inside your thighs. Simultaneously begin turning toward the attacker to disrupt their back angle. Back control without hooks is significantly easier to escape than with hooks established, so even a few seconds of hook denial creates meaningful escape opportunities. Frame against their hip to prevent further settling.",
+        "answer_line": "Deny hooks, turn into attacker",
+        "distractors": {
+          "plausible": [
+            "Focus only on stripping the grip",
+            "Wait for hooks then start defending"
+          ],
+          "trap": [
+            "Curl legs in, expose hip to hooks"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker generally preferable to turning away during this transition?",
-        "answer": "Turning away exposes more of your back and accelerates the back take by giving the attacker the exact angle they seek. Turning into the attacker disrupts this angle and converts the exchange toward a front-facing position where you have access to frames, guard recovery, and defensive grips. Even if the seat belt remains locked, facing the attacker neutralizes back control mechanics and creates guard recovery pathways."
+        "answer": "Turning away exposes more of your back and accelerates the back take by giving the attacker the exact angle they seek. Turning into the attacker disrupts this angle and converts the exchange toward a front-facing position where you have access to frames, guard recovery, and defensive grips. Even if the seat belt remains locked, facing the attacker neutralizes back control mechanics and creates guard recovery pathways.",
+        "answer_line": "Turning in kills the back angle",
+        "distractors": {
+          "plausible": [
+            "Turning away creates more space",
+            "Either direction works equally"
+          ],
+          "trap": [
+            "Turn away to protect your neck"
+          ]
+        }
       },
       {
         "question": "How should you distribute your defensive effort between grip fighting the seat belt and preventing the hip slide?",
-        "answer": "Both threats must be addressed simultaneously rather than sequentially. Use one arm to fight or disrupt the seat belt grip while using your other arm to frame against the attacker's hip to block their slide behind you. Focusing exclusively on grip fighting allows the hip slide to complete, while focusing only on the hip frame allows the seat belt to tighten and eventually collapse your frame through compression."
+        "answer": "Both threats must be addressed simultaneously rather than sequentially. Use one arm to fight or disrupt the seat belt grip while using your other arm to frame against the attacker's hip to block their slide behind you. Focusing exclusively on grip fighting allows the hip slide to complete, while focusing only on the hip frame allows the seat belt to tighten and eventually collapse your frame through compression.",
+        "answer_line": "Fight grip and frame hip at once",
+        "distractors": {
+          "plausible": [
+            "Grip fight first, then frame hip",
+            "Frame hip only, ignore the grip"
+          ],
+          "trap": [
+            "Use both hands on the grip only"
+          ]
+        }
       }
     ],
     "training_progressions": [

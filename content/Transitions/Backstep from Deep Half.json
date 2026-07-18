@@ -258,35 +258,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the backstep from deep half guard?",
-        "answer": "The optimal window is when the bottom player is between sweep attempts, adjusting their grips, or resetting their position after a failed sweep. During these moments, their weight is not loaded for a sweep and their defensive awareness is focused on re-establishing control rather than tracking your movement. Initiating during a loaded sweep invites disaster because your weight shift provides the momentum they need to complete the sweep."
+        "answer": "The optimal window is when the bottom player is between sweep attempts, adjusting their grips, or resetting their position after a failed sweep. During these moments, their weight is not loaded for a sweep and their defensive awareness is focused on re-establishing control rather than tracking your movement. Initiating during a loaded sweep invites disaster because your weight shift provides the momentum they need to complete the sweep.",
+        "answer_line": "Between sweeps, resetting grips",
+        "distractors": {
+          "plausible": [
+            "The moment guard opens",
+            "Right before they attack"
+          ],
+          "trap": [
+            "While sweep is fully loaded"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt the backstep from deep half?",
-        "answer": "You must have crossface or head control established to prevent the bottom player from following the rotation. Your free leg must have solid base on the mat for stepping power. The bottom player's sweep must not be fully loaded. You need a clear posting hand position on the far side of their body. Without crossface control specifically, the backstep should not be attempted as the bottom player will simply rotate with you."
+        "answer": "You must have crossface or head control established to prevent the bottom player from following the rotation. Your free leg must have solid base on the mat for stepping power. The bottom player's sweep must not be fully loaded. You need a clear posting hand position on the far side of their body. Without crossface control specifically, the backstep should not be attempted as the bottom player will simply rotate with you.",
+        "answer_line": "Crossface control secured first",
+        "distractors": {
+          "plausible": [
+            "Underhook control is enough",
+            "Just need free leg base"
+          ],
+          "trap": [
+            "Step without crossface control"
+          ]
+        }
       },
       {
         "question": "What is the most critical body positioning detail during the stepping phase of the backstep?",
-        "answer": "The posting hand placement on the far side of the bottom player is the most critical detail. This hand serves as both your pivot point and your primary base during the entire weight transfer. If it is positioned too close to your body or too far from the bottom player, you lack the structural support needed to complete the rotation safely. It must be planted firmly with fingers spread for maximum surface area and grip."
+        "answer": "The posting hand placement on the far side of the bottom player is the most critical detail. This hand serves as both your pivot point and your primary base during the entire weight transfer. If it is positioned too close to your body or too far from the bottom player, you lack the structural support needed to complete the rotation safely. It must be planted firmly with fingers spread for maximum surface area and grip.",
+        "answer_line": "Posting hand on far side",
+        "distractors": {
+          "plausible": [
+            "Underhook grip depth",
+            "Knee position on the mat"
+          ],
+          "trap": [
+            "Post hand close to your hip"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the backstep from deep half fails?",
-        "answer": "The most common failure is half-committing to the stepping motion. When the top player hesitates midway through the arc, they end up in an intermediate position with compromised base and no control in either direction. The bottom player can then sweep or reguard easily. The backstep demands full commitment once initiated. The second most common failure is attempting the backstep without crossface control, allowing the bottom player to follow the rotation."
+        "answer": "The most common failure is half-committing to the stepping motion. When the top player hesitates midway through the arc, they end up in an intermediate position with compromised base and no control in either direction. The bottom player can then sweep or reguard easily. The backstep demands full commitment once initiated. The second most common failure is attempting the backstep without crossface control, allowing the bottom player to follow the rotation.",
+        "answer_line": "Half-committing, hesitating",
+        "distractors": {
+          "plausible": [
+            "Missing crossface control",
+            "Free leg path too tight"
+          ],
+          "trap": [
+            "Bridge hard mid-rotation"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the backstep to prevent the bottom player from following your rotation?",
-        "answer": "The crossface grip is the essential control that must be maintained throughout the backstep. Your shoulder or forearm driven across the bottom player's jaw pins their head to the mat and prevents them from turning to track your movement. Without this anchor, the bottom player can hip-escape in the same direction as your rotation and reguard before you can establish back control. The crossface is your primary tool for controlling their ability to react."
+        "answer": "The crossface grip is the essential control that must be maintained throughout the backstep. Your shoulder or forearm driven across the bottom player's jaw pins their head to the mat and prevents them from turning to track your movement. Without this anchor, the bottom player can hip-escape in the same direction as your rotation and reguard before you can establish back control. The crossface is your primary tool for controlling their ability to react.",
+        "answer_line": "Crossface grip throughout",
+        "distractors": {
+          "plausible": [
+            "Underhook throughout",
+            "Collar grip on far side"
+          ],
+          "trap": [
+            "Release crossface to post hand"
+          ]
+        }
       },
       {
         "question": "In which direction should your free leg travel during the backstep, and why is this path important?",
-        "answer": "The free leg should travel in a wide backward arc over the bottom player's torso, landing behind their back on the far side. This arc path is important because it generates the hip rotation needed to bring your chest onto their back, it clears their body without getting caught in their legs, and it positions your landing foot behind them where you can immediately begin establishing hooks. A tight or upward path risks getting your leg caught."
+        "answer": "The free leg should travel in a wide backward arc over the bottom player's torso, landing behind their back on the far side. This arc path is important because it generates the hip rotation needed to bring your chest onto their back, it clears their body without getting caught in their legs, and it positions your landing foot behind them where you can immediately begin establishing hooks. A tight or upward path risks getting your leg caught.",
+        "answer_line": "Wide backward arc over torso",
+        "distractors": {
+          "plausible": [
+            "Straight line to their far side",
+            "Short step near their hip"
+          ],
+          "trap": [
+            "Tight upward path near head"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hip-escaping to follow your backstep rotation - how do you adjust mid-technique?",
-        "answer": "If the bottom player begins following your rotation, you have two primary adjustments. First, accelerate the backstep and drive increased crossface pressure downward to pin them before they can complete their hip escape. Second, if they are already matching your speed, abort the backstep entirely by returning your foot to the mat and immediately switch to a forward passing direction such as a smash pass or crossface pass, exploiting the fact that their hips are now angled away from the forward pass defense."
+        "answer": "If the bottom player begins following your rotation, you have two primary adjustments. First, accelerate the backstep and drive increased crossface pressure downward to pin them before they can complete their hip escape. Second, if they are already matching your speed, abort the backstep entirely by returning your foot to the mat and immediately switch to a forward passing direction such as a smash pass or crossface pass, exploiting the fact that their hips are now angled away from the forward pass defense.",
+        "answer_line": "Accelerate, add crossface pressure",
+        "distractors": {
+          "plausible": [
+            "Abort and pass forward instead",
+            "Match their hip-escape speed"
+          ],
+          "trap": [
+            "Release crossface, chase hips"
+          ]
+        }
       },
       {
         "question": "If your initial backstep is blocked because the bottom player hooks your stepping leg, what should you do next?",
-        "answer": "If your stepping leg is hooked, do not try to forcefully pull it free as this creates instability. Instead, use your posted hand to strip their hooking leg while maintaining your crossface anchor. If the hook cannot be stripped, settle your weight down and transition to a leg entanglement or half guard top position using the leg contact. Alternatively, reverse the stepping direction and extract your original trapped leg forward for a conventional pass, since their focus on hooking your step created a defensive gap on the forward side."
+        "answer": "If your stepping leg is hooked, do not try to forcefully pull it free as this creates instability. Instead, use your posted hand to strip their hooking leg while maintaining your crossface anchor. If the hook cannot be stripped, settle your weight down and transition to a leg entanglement or half guard top position using the leg contact. Alternatively, reverse the stepping direction and extract your original trapped leg forward for a conventional pass, since their focus on hooking your step created a defensive gap on the forward side.",
+        "answer_line": "Strip hook with posting hand",
+        "distractors": {
+          "plausible": [
+            "Settle into half guard top",
+            "Reverse direction, extract leg"
+          ],
+          "trap": [
+            "Forcefully yank leg free"
+          ]
+        }
       }
     ],
     "safety_considerations": "The backstep involves significant rotational forces on both players' knees during the stepping phase. The top player must control their descent to avoid landing with full weight on the bottom player's head or neck during the rotation. Both players should be aware of knee torque during the trapped leg extraction, particularly if the trapped leg does not release cleanly as the hips rotate. Practice at controlled speeds before adding intensity, and communicate with your training partner if any knee discomfort occurs during drilling. The posting hand must be positioned carefully to avoid landing on the bottom player's face during the weight transfer.",
@@ -403,23 +483,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate a backstep attempt from deep half guard top?",
-        "answer": "The earliest cues are the top player posting their free hand firmly on the mat beyond your body and a noticeable weight shift from forward downward pressure to lateral loading onto that posted hand. You may also feel the free leg lighten on the mat as they prepare to lift it. These preparatory movements occur before the actual stepping motion and provide your best window for defensive reaction."
+        "answer": "The earliest cues are the top player posting their free hand firmly on the mat beyond your body and a noticeable weight shift from forward downward pressure to lateral loading onto that posted hand. You may also feel the free leg lighten on the mat as they prepare to lift it. These preparatory movements occur before the actual stepping motion and provide your best window for defensive reaction.",
+        "answer_line": "Free hand posts, weight shifts",
+        "distractors": {
+          "plausible": [
+            "Deep crossface pressure eases",
+            "Grip fighting on your sleeve"
+          ],
+          "trap": [
+            "Sudden explosive bridge up"
+          ]
+        }
       },
       {
         "question": "If you recognize the backstep too late and your opponent has already stepped over, what is your best defensive option?",
-        "answer": "If the step has already cleared your body, immediately turtle by pulling your knees to your chest and getting to all fours before they can establish hooks. Turtle is a significantly better defensive position than being flat on your back with an opponent landing on your back. From turtle, you have established defensive sequences for preventing hook insertion and recovering guard. Do not remain flat as this guarantees full back control."
+        "answer": "If the step has already cleared your body, immediately turtle by pulling your knees to your chest and getting to all fours before they can establish hooks. Turtle is a significantly better defensive position than being flat on your back with an opponent landing on your back. From turtle, you have established defensive sequences for preventing hook insertion and recovering guard. Do not remain flat as this guarantees full back control.",
+        "answer_line": "Turtle up, knees to chest",
+        "distractors": {
+          "plausible": [
+            "Bridge and try to reverse",
+            "Flatten out and frame heavily"
+          ],
+          "trap": [
+            "Stay flat on your back"
+          ]
+        }
       },
       {
         "question": "How does your underhook grip management change when you suspect a backstep rather than a forward pass attempt?",
-        "answer": "When you suspect a backstep, your underhook should grip tighter and pull the trapped leg closer to your chest rather than using it as a sweep lever. This increased tension makes it harder for the top player to rotate freely because their trapped leg acts as an anchor keeping them connected to your front-facing position. Additionally, use your free hand to monitor their far hip rather than preparing sweep grips, as the hip contact provides early warning of rotational movement."
+        "answer": "When you suspect a backstep, your underhook should grip tighter and pull the trapped leg closer to your chest rather than using it as a sweep lever. This increased tension makes it harder for the top player to rotate freely because their trapped leg acts as an anchor keeping them connected to your front-facing position. Additionally, use your free hand to monitor their far hip rather than preparing sweep grips, as the hip contact provides early warning of rotational movement.",
+        "answer_line": "Grip tighter, pull leg in",
+        "distractors": {
+          "plausible": [
+            "Use leg as a sweep lever",
+            "Release underhook, frame hip"
+          ],
+          "trap": [
+            "Push leg away to create space"
+          ]
+        }
       },
       {
         "question": "What positioning adjustment makes you most resistant to backstep attempts while maintaining deep half guard?",
-        "answer": "Keeping your hips angled toward the top player rather than perpendicular to them makes you most resistant to backsteps. When your hips face the top player, any backstep rotation forces them to travel a longer arc to reach your back, giving you more time to follow. Additionally, maintaining your free hand as a frame on their far hip rather than reaching for sweep grips provides both early warning and physical resistance to rotational movement."
+        "answer": "Keeping your hips angled toward the top player rather than perpendicular to them makes you most resistant to backsteps. When your hips face the top player, any backstep rotation forces them to travel a longer arc to reach your back, giving you more time to follow. Additionally, maintaining your free hand as a frame on their far hip rather than reaching for sweep grips provides both early warning and physical resistance to rotational movement.",
+        "answer_line": "Hips angled toward opponent",
+        "distractors": {
+          "plausible": [
+            "Hips square, flat to mat",
+            "Reach for sweep grips early"
+          ],
+          "trap": [
+            "Hips perpendicular, legs wide"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand and begins shifting weight for what appears to be a backstep - should you follow the rotation or bridge to sweep?",
-        "answer": "The answer depends on timing. If you detect the weight shift early before the free leg lifts, bridge into the compromised base to attempt the sweep, as their weight commitment to the posted hand creates vulnerability. If the free leg has already begun lifting, following the rotation with your hips is safer because a late bridge may provide momentum that helps complete the backstep. The bridge is higher reward but requires earlier recognition, while following the rotation is the safer default response."
+        "answer": "The answer depends on timing. If you detect the weight shift early before the free leg lifts, bridge into the compromised base to attempt the sweep, as their weight commitment to the posted hand creates vulnerability. If the free leg has already begun lifting, following the rotation with your hips is safer because a late bridge may provide momentum that helps complete the backstep. The bridge is higher reward but requires earlier recognition, while following the rotation is the safer default response.",
+        "answer_line": "Bridge early, follow if late",
+        "distractors": {
+          "plausible": [
+            "Always bridge to sweep them",
+            "Always follow the rotation"
+          ],
+          "trap": [
+            "Wait and do nothing"
+          ]
+        }
       }
     ],
     "training_progressions": [

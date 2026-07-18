@@ -320,62 +320,182 @@
       {
         "question": "What are the two critical points of control on the opponent's arm before initiating a spinning armbar?",
         "answer": "You must control both the wrist (for directional control and prevention of hand retraction) and a point above the elbow such as the triceps or upper forearm (to prevent arm rotation and maintain alignment throughout the spin). Controlling only the wrist allows the opponent to rotate their arm and escape, while controlling only above the elbow gives them the ability to pull the arm back to their body. Two-point control is essential for maintaining the submission throughout the dynamic rotational movement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist and above the elbow",
+        "distractors": {
+          "plausible": [
+            "Wrist grip using both hands",
+            "Bicep and shoulder control"
+          ],
+          "trap": [
+            "Grip only the sleeve fabric"
+          ]
+        }
       },
       {
         "question": "Why must you break the opponent's posture before initiating the spinning motion, and what happens if you skip this step?",
         "answer": "Breaking the opponent's posture is critical because it prevents them from following your rotation and escaping the submission. If their posture is strong and their base is stable, they can simply turn their body with you as you spin, maintaining a neutral position or even improving their position to pass your guard. By compromising their posture first through off-balancing, grip manipulation, or foot placement on their hips, you ensure they cannot react quickly enough to follow your spin. This postural disruption creates the necessary time and space window for you to complete the rotation and establish the finishing position before they can defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevents them following your spin",
+        "distractors": {
+          "plausible": [
+            "Speeds up your rotation",
+            "Sets up the finishing grip"
+          ],
+          "trap": [
+            "Skip it, rely on speed alone"
+          ]
+        }
       },
       {
         "question": "At what point in the spinning armbar sequence should extension pressure be applied to the elbow joint, and why is timing critical for safety?",
         "answer": "Extension pressure should ONLY be applied after the complete rotation is finished and you have landed in proper armbar position with the opponent's arm correctly aligned (thumb pointing up) and your legs established across their chest and face. Applying extension pressure during the spin itself or before proper alignment is achieved creates dangerous torque on the elbow joint at awkward angles, significantly increasing the risk of ligament damage or dislocation. The rotation phase is purely positional - no pressure should be applied until you are stationary in the finishing position. This separation between the dynamic movement and the submission finish is essential for training safety.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Only after landing, arm aligned",
+        "distractors": {
+          "plausible": [
+            "Right as you start the spin",
+            "Once wrist grip is secured"
+          ],
+          "trap": [
+            "Crank pressure mid-rotation"
+          ]
+        }
       },
       {
         "question": "What is the proper tap release protocol for the spinning armbar, particularly regarding the rotational forces involved?",
         "answer": "Upon receiving a tap signal, immediately stop all extension pressure on the elbow and cease any continued rotational movement. Release the leg pressure across the opponent's face and chest, allowing their arm to return naturally to a neutral position without jerking or pulling. Roll away from the submission to create space and allow the opponent to assess their arm and elbow mobility. Because the spinning armbar involves rotational force and momentum, it's particularly important to ensure the opponent can safely exit the position without their arm being torqued or twisted during the release. Check with your partner before continuing training to ensure no strain or discomfort remains from the submission attempt.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, release slow, roll away",
+        "distractors": {
+          "plausible": [
+            "Let go instantly, stand up",
+            "Slowly re-bend, then release"
+          ],
+          "trap": [
+            "Yank the arm back fast"
+          ]
+        }
       },
       {
         "question": "How does rotational momentum contribute to the effectiveness of the spinning armbar compared to static armbar entries?",
         "answer": "Rotational momentum creates several key advantages: it generates force that can overcome grip defenses and postural resistance that would stop static entries; it attacks from an unexpected angle that bypasses traditional armbar defenses focused on preventing hip movement; it allows you to transition from positions where static armbars are unavailable or defended; and it creates submission opportunities during dynamic exchanges and scrambles where positional control is not yet established. The continuous motion makes it difficult for opponents to time their defenses because the attack is constantly changing angles. However, this same momentum requires precise control to ensure safety - the dynamic nature means the practitioner must be highly aware of position and timing to avoid applying pressure during the rotation phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Beats grips, unexpected angle",
+        "distractors": {
+          "plausible": [
+            "Relies on raw arm strength",
+            "Only works after full mount"
+          ],
+          "trap": [
+            "Force through their resistance"
+          ]
+        }
       },
       {
         "question": "What specific adjustments must be made if the opponent attempts to follow your rotation during the spinning armbar?",
         "answer": "If the opponent follows your rotation, you have several adjustment options: increase the speed of your spin to outpace their ability to follow; use your free leg to create a barrier against their body that prevents them from rotating with you; redirect your momentum to complete a full 360-degree rotation and reset; or abandon the spinning armbar entirely and transition to alternative attacks like triangle, omoplata, or sweeps that capitalize on their compromised position while following your movement. The key is recognizing their counter-rotation early enough to make these adjustments before you land in an inferior position. This is why breaking posture before the spin is so important - properly broken posture makes following your rotation nearly impossible for the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Speed up, block leg, or switch",
+        "distractors": {
+          "plausible": [
+            "Finish the extension regardless",
+            "Let go and re-grip the wrist"
+          ],
+          "trap": [
+            "Muscle the finish while they turn"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to grip only the wrist when attempting a spinning armbar, and what injury risk does this create?",
         "answer": "Gripping only the wrist during a spinning armbar allows the opponent to rotate their entire arm within your grip, potentially escaping the submission entirely. More importantly from a safety perspective, if you maintain only wrist control while applying rotational force and extension pressure, you can create dangerous torque on the elbow joint while the upper arm and shoulder rotate in the opposite direction. This can cause spiral fractures, ligament damage, or joint capsule injuries because the force is not being distributed properly across the joint. Two-point control (wrist and above the elbow) ensures the entire arm structure moves as one unit during the rotation, keeping the joint properly aligned and making the submission both more effective and significantly safer for training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm can spiral, elbow torques",
+        "distractors": {
+          "plausible": [
+            "They simply pull the arm free",
+            "Only loses positional control"
+          ],
+          "trap": [
+            "Squeeze the wrist grip harder"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the spinning armbar target, and what are the indicators that you have reached the breaking point?",
         "answer": "The spinning armbar targets the elbow joint, specifically hyperextending the joint to stress the ulnar and radial collateral ligaments (UCL/MCL), the joint capsule, and the surrounding connective tissues. The breaking point indicators include: opponent's arm fully extended with no remaining bend at the elbow, their thumb pointing directly upward confirming proper rotational alignment, visible straightening of the arm against your hip crease fulcrum, and opponent's defensive reactions becoming increasingly urgent (verbal sounds, tapping, attempted bridges). Your hips should be elevated and tight against their shoulder, creating the fulcrum point. In training, you should feel significant resistance before reaching full extension - this is the point to stop and wait for the tap rather than forcing through.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow ligaments; thumb points up",
+        "distractors": {
+          "plausible": [
+            "Shoulder capsule; verbal tap only",
+            "Wrist joint; visible bruising"
+          ],
+          "trap": [
+            "Push past first resistance felt"
+          ]
+        }
       },
       {
         "question": "What hip position adjustments maximize finishing pressure once you have landed from the spin?",
         "answer": "After landing, your hips must be elevated and positioned as close as possible to the opponent's shoulder joint, not resting flat on the mat. Scoot your hips toward their head by bridging and walking your shoulders back on the mat. The higher and tighter your hips are to their armpit, the less range of motion they have to escape and the more mechanical advantage you have for the finish. Your hip crease should serve as the fulcrum point directly under their elbow. Additionally, angle your hips slightly toward their head rather than keeping them square - this prevents them from rolling toward you to relieve pressure and creates a more direct line of force for the hyperextension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips high and tight to shoulder",
+        "distractors": {
+          "plausible": [
+            "Hips flat, square to opponent",
+            "Hips low, weight on their chest"
+          ],
+          "trap": [
+            "Sit back and pull with arms only"
+          ]
+        }
       },
       {
         "question": "How do you maintain control and prevent arm withdrawal when the opponent attempts to bend their elbow and stack during the finish?",
         "answer": "When opponent bends their elbow to prevent extension, squeeze your knees together tightly and hook your feet (crossing ankles if possible) to create a closed system around their shoulder and arm. Pull their wrist to your chest with both hands using your lats rather than just arm strength. Elevate your hips higher to stretch their arm structure. If they begin stacking by driving forward, walk your shoulders away from them while maintaining the hip bridge - this creates distance that prevents the stack while keeping extension pressure on the arm. You can also switch to a belly-down armbar finish by rolling over their arm in the direction they're stacking, which converts their forward pressure into your finishing leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze knees, pull wrist, hips up",
+        "distractors": {
+          "plausible": [
+            "Grip only the wrist tighter",
+            "Push forward into the stack"
+          ],
+          "trap": [
+            "Release legs to re-angle hips"
+          ]
+        }
       },
       {
         "question": "What are the critical differences between competition finishing speed and training finishing speed for the spinning armbar?",
         "answer": "In competition, the spinning armbar can be finished rapidly once position is established because the goal is to secure the tap before opponent can escape. Competitors may apply extension pressure within 1-2 seconds of landing in position. In training, the finish must be applied over 4-6 seconds minimum with progressive, controlled pressure that allows your partner to tap safely at any point. The entry speed can be similar in both contexts, but the finishing pressure application must be dramatically slower in training. Additionally, in training you should feel for the resistance point and stop there, whereas competition finishing may go through that resistance point. Training partners must always be given tap access and time to signal, even during dynamic spinning entries where momentum is involved.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Training: slow, 4-6 sec controlled",
+        "distractors": {
+          "plausible": [
+            "Same speed in both contexts",
+            "Training faster to avoid escape"
+          ],
+          "trap": [
+            "Finish fast, the tap will come"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the finishing phase if your initial wrist control is slipping?",
         "answer": "If wrist control slips during the finish, immediately transition to a figure-four grip (gable grip or S-grip) where both hands connect together while controlling the arm above and below the elbow. This distributes the control across both hands and eliminates the weak point of single-hand wrist control. Alternatively, cup their wrist with one hand while your other forearm presses down on their forearm just below the elbow - this creates a two-point pressure system. You can also secure their wrist in your armpit by pulling it deep toward your far shoulder while squeezing your elbow tight. Never chase a slipping grip by releasing with both hands simultaneously - always maintain at least one control point while adjusting the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to a figure-four grip",
+        "distractors": {
+          "plausible": [
+            "Release both hands, re-grab",
+            "Grab their sleeve instead"
+          ],
+          "trap": [
+            "Let go with both hands at once"
+          ]
+        }
       }
     ],
     "clips": [
@@ -505,27 +625,77 @@
       {
         "question": "What is the earliest and most effective point to defend against a spinning armbar attempt?",
         "answer": "The earliest and most effective defensive point is during the arm isolation phase, before any rotation begins. When you feel the opponent securing a two-handed grip on your arm and attempting to pull it across their centerline, immediately retract your elbow to your hip and posture up aggressively. This denies the arm separation that the entire spinning armbar depends on. Prevention at this stage requires minimal energy and carries almost no positional risk, whereas every subsequent defensive stage becomes progressively harder and more dangerous. Developing sensitivity to recognize the initial grip patterns is the most important defensive skill against this submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract elbow during isolation",
+        "distractors": {
+          "plausible": [
+            "Posture up once the spin starts",
+            "Grab their leg mid-rotation"
+          ],
+          "trap": [
+            "Wait until fully extended"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to remain motionless when you recognize a spinning armbar has been initiated?",
         "answer": "Remaining motionless provides the attacker with a fixed pivot point around which they can generate maximum rotational momentum. The spinning armbar relies on creating angular velocity around the defender's arm, and a stationary defender allows the full spin to complete unimpeded. Movement in any direction - following the spin, posturing up, or driving forward - disrupts the attacker's rotational mechanics and reduces the effectiveness of the technique. Additionally, standing still means you are not defending during the critical 2-3 second window where the spin occurs, allowing the attacker to land in optimal finishing position without resistance. Active movement during the spin phase is essential even if you are unsure which specific defense to apply.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gives them a fixed pivot point",
+        "distractors": {
+          "plausible": [
+            "Saves energy for the escape",
+            "Lets you time a reversal"
+          ],
+          "trap": [
+            "Stay still and absorb the spin"
+          ]
+        }
       },
       {
         "question": "What is the correct arm position to maintain when you suspect or detect a spinning armbar attempt, and why does extending the arm increase injury risk?",
         "answer": "Keep your elbow bent at 90 degrees or less and pinned tightly against your ribcage with your forearm across your body. An extended arm during a spinning armbar creates two dangers: it provides the attacker with the isolation and leverage they need to complete the submission, and it places the elbow joint in a position where rotational forces during the spin can cause lateral ligament damage even before the finishing extension is applied. The bent arm position makes the spin significantly less effective because the attacker cannot generate the lever arm needed for the finish. Additionally, a bent arm allows you to use your entire body weight to resist rather than relying solely on bicep and grip strength against the attacker's two-handed control.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow bent, pinned to ribs",
+        "distractors": {
+          "plausible": [
+            "Arm extended, push them off",
+            "Arm straight, grip their gi"
+          ],
+          "trap": [
+            "Straighten arm to muscle out"
+          ]
+        }
       },
       {
         "question": "When the attacker has landed in armbar position after completing the spin, what stacking defense mechanics neutralize the finishing pressure?",
         "answer": "Drive your weight forward by stepping your far leg up and pressing your shoulder into the attacker's thigh or hip area while keeping your trapped arm bent. The goal is to flatten their hips to the mat, which removes the hip elevation they need to generate extension pressure on your elbow. Walk your body around toward their head in small steps while maintaining forward pressure, which progressively worsens their armbar angle. Clasp your hands together in a gable grip to prevent arm extension while you work the stack. The key mechanical principle is that an armbar cannot finish if the attacker's hips are flat on the mat - all finishing pressure comes from hip elevation against the arm, so eliminating that elevation neutralizes the submission even if they maintain arm control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Flatten their hips, walk to head",
+        "distractors": {
+          "plausible": [
+            "Pull your trapped arm straight back",
+            "Sit back to create distance"
+          ],
+          "trap": [
+            "Extend arm hard to break grip"
+          ]
+        }
       },
       {
         "question": "What tap protocol should you follow when caught in a spinning armbar that you cannot escape, and why is early tapping particularly important for this submission?",
         "answer": "Tap immediately using any available method - verbal tap, hand tap on opponent or mat, or foot tap on mat - as soon as you feel extension pressure approaching your elbow's range of motion limit. Early tapping is especially critical for the spinning armbar because the rotational momentum from the spin can cause the attacker to apply finishing pressure faster than they intend, and the dynamic nature of the technique makes fine pressure control more difficult than in static armbars. Do not wait until you feel pain to tap, as the elbow joint can sustain ligament damage before pain signals fully register. If you cannot physically tap due to arm position, use a loud verbal tap immediately. The spinning armbar's injury potential is amplified by the momentum involved, making the margin between a controlled tap and an injury significantly smaller than with conventional armbars.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, before pain hits",
+        "distractors": {
+          "plausible": [
+            "Wait for sharp pain first",
+            "Try to power out first"
+          ],
+          "trap": [
+            "Fight the rotation to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

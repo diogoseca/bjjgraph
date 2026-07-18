@@ -315,62 +315,182 @@
       {
         "question": "What is the minimum time you should take to apply finishing pressure on a kneebar during training, and why?",
         "answer": "Minimum 5-7 seconds of progressive pressure during training. This slow application allows your training partner ample time to recognize the danger and tap safely. Explosive or fast applications can cause severe knee ligament damage before the person can react, potentially causing ACL/MCL tears that require surgery and 9-12 months recovery. Competition speed and training speed are different—partner safety always takes priority in the training room.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "5-7 sec, slow buildup",
+        "distractors": {
+          "plausible": [
+            "2-3 seconds is enough",
+            "10+ sec, extremely slow only"
+          ],
+          "trap": [
+            "Apply fast, no warning"
+          ]
+        }
       },
       {
         "question": "Where exactly should your hip be positioned to create maximum leverage for the kneebar from 50-50?",
         "answer": "Your hip bone should be positioned directly across the joint line of opponent's knee—not on their thigh and not on their shin. This creates the proper fulcrum for the lever system. Your hip becomes the pivot point, and when you extend your hips backward while controlling their foot in your armpit, you create hyperextension at the knee joint. Incorrect hip placement (too high or too low) results in ineffective leverage and a weak submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip across the knee joint line",
+        "distractors": {
+          "plausible": [
+            "Hip planted on their thigh",
+            "Hip low on their shin"
+          ],
+          "trap": [
+            "Hip off their leg entirely"
+          ]
+        }
       },
       {
         "question": "What anatomical structures are targeted by the kneebar and what type of damage occurs when the submission is completed?",
         "answer": "The kneebar targets the knee joint through hyperextension, primarily stressing the posterior structures. The ACL (anterior cruciate ligament) and PCL (posterior cruciate ligament) resist this hyperextension and are at greatest risk of rupture. The MCL and LCL (medial and lateral collateral ligaments) provide secondary stability and can tear under rotational stress. The meniscus can also be damaged. When the submission is fully applied, the knee is forced to bend backward beyond its natural range, causing ligament tearing, cartilage damage, or complete joint destruction.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "ACL/PCL via hyperextension",
+        "distractors": {
+          "plausible": [
+            "MCL/LCL from rotation only",
+            "Meniscus is the main target"
+          ],
+          "trap": [
+            "Ankle, via rotation not bend"
+          ]
+        }
       },
       {
         "question": "What physical sensation indicates you have reached the point of no escape for your opponent?",
         "answer": "The point of no escape occurs when you feel your opponent's leg become completely rigid against your hip as your extension begins. At this moment, their thigh is pinned by your leg entanglement, their foot is locked in your armpit preventing rotation, and your hip is positioned across their knee joint. Any additional hip extension will immediately hyperextend the joint. Experienced practitioners recognize this feeling—once you achieve this locked configuration, the opponent must tap or suffer injury. In training, this is when you pause and check for the tap rather than completing the extension.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Leg goes rigid against hip",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving at all",
+            "Their foot slips from armpit"
+          ],
+          "trap": [
+            "Wait for a verbal tap only"
+          ]
+        }
       },
       {
         "question": "Why is controlling opponent's foot in your armpit essential for the kneebar, and what happens if you lose this control?",
         "answer": "Controlling the foot in your armpit prevents opponent from rotating their knee and escaping the leg entanglement. The foot control acts as an anchor—when their foot is secured with toes pointing to your back, they cannot turn their knee inward or outward to relieve pressure. If you lose foot control, opponent can immediately rotate their leg, escape the position entirely, and potentially reverse to attack your exposed leg. The armpit grip should be treated like a seatbelt—clamped tight with elbow and forearm glued to your ribs throughout the entire submission sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stops foot rotation, locks leg",
+        "distractors": {
+          "plausible": [
+            "Just adds extra pain",
+            "Only needed for finishing grip"
+          ],
+          "trap": [
+            "Loosen it once hip is set"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up and sit toward you during your kneebar attempt - what adjustment prevents this escape?",
         "answer": "Immediately use your grip hand (not controlling the foot) to push down on their hip, belt, or far leg to drive them back flat. If they are already partially upright, you can also drive your top leg (the one over their thigh) downward forcefully while simultaneously pulling their foot deeper into your armpit. This creates a leverage point that forces them back down. If they fully establish seated posture facing you, the kneebar is likely lost—transition immediately to a heel hook (if legal) by rotating their exposed heel toward you, or reset the position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push their hip flat, deepen foot",
+        "distractors": {
+          "plausible": [
+            "Pull them up to meet you",
+            "Let go and re-shoot the kneebar"
+          ],
+          "trap": [
+            "Release foot to grab collar"
+          ]
+        }
       },
       {
         "question": "What is the primary defensive danger you face when attempting a kneebar from 50-50, and how should you address it?",
         "answer": "The primary danger is opponent counter-attacking your exposed leg with their own kneebar or heel hook (in rule sets where heel hooks are legal). The 50-50 position is symmetrical—both legs are entangled and potentially vulnerable. To address this: (1) Keep your heel hidden by turning it away from opponent; (2) Monitor their hand position on your foot constantly; (3) Establish your controls faster than they establish theirs; (4) If they gain control on your foot, immediately decide whether to finish quickly (competition) or release and defend (training). Never become so focused on your attack that you ignore counter-attacks to your own leg.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Counter heel hook on your leg",
+        "distractors": {
+          "plausible": [
+            "Getting swept to their guard",
+            "Losing top position control"
+          ],
+          "trap": [
+            "Ignore your own leg, attack faster"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip on the opponent's foot when they begin rotating their knee inward to relieve pressure?",
         "answer": "When opponent rotates their knee inward, immediately clamp your elbow tighter against your ribs and pull their foot deeper into your armpit. Simultaneously, rotate your entire body slightly to follow their knee rotation—your hip must stay across their knee joint line regardless of which direction they turn. If their inward rotation continues, this actually exposes their heel for a heel hook transition. Convert your armpit grip to a heel hook grip by releasing the foot, shooting your hand behind their Achilles, and establishing figure-four control. Their defensive movement becomes your offensive opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clamp tighter, follow rotation",
+        "distractors": {
+          "plausible": [
+            "Release and reshoot the grip",
+            "Push their knee back straight"
+          ],
+          "trap": [
+            "Let the knee rotate freely"
+          ]
+        }
       },
       {
         "question": "What should you do in training if you have applied proper kneebar technique with correct hip position and foot control for 5 seconds and opponent has not tapped?",
         "answer": "Release the submission and reset the position. In training, if proper technique with progressive pressure does not produce a tap within 5 seconds, continuing to apply force risks injuring a stubborn partner or indicates a technical error in your execution. This is not competition where you might finish through resistance—training priorities are skill development and partner safety. Release, discuss with your partner whether they felt pressure, and either adjust your technique or acknowledge they successfully defended. Never 'teach someone a lesson' by forcing through their stubbornness in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release and reset position",
+        "distractors": {
+          "plausible": [
+            "Hold steady and wait longer",
+            "Add more pressure gradually"
+          ],
+          "trap": [
+            "Force through their resistance"
+          ]
+        }
       },
       {
         "question": "How do you prevent opponent from sitting up and establishing upper body control while you attack the kneebar?",
         "answer": "Establish grip control on opponent's belt, pants at the hip, or their far leg immediately after securing foot control. This grip prevents them from sitting up and facing you. Keep constant forward pressure to maintain them flat on their back with compromised posture. If they do manage to sit up and face you, they can establish cross-face control, grip fight effectively, or escape the leg entanglement entirely. Your free hand (not controlling the foot) should always be controlling their upper body or hips—never just posting on the mat. Positional control comes before submission attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip belt or far leg, pin flat",
+        "distractors": {
+          "plausible": [
+            "Post free hand on the mat",
+            "Focus only on the foot grip"
+          ],
+          "trap": [
+            "Release grip to switch base"
+          ]
+        }
       },
       {
         "question": "In competition, what indicators tell you to commit fully to the finish versus transition to another attack?",
         "answer": "Commit fully to the finish when: (1) your hip is perfectly positioned across their knee joint with zero space; (2) their foot is locked deep in your armpit with no rotation; (3) your leg entanglement is tight with their thigh completely immobilized; (4) their upper body is flat and they cannot sit up to face you; (5) your own leg is safe from counter-attack. Transition to another attack when: they successfully rotate their knee away from danger, they sit up and establish upper body control, you feel your foot control slipping, or they begin establishing control on your leg. The kneebar-to-heel-hook chain is particularly effective—their kneebar defense often exposes their heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "All 5 controls locked, no gaps",
+        "distractors": {
+          "plausible": [
+            "Just foot control is enough",
+            "Only need hip across the knee"
+          ],
+          "trap": [
+            "Commit even if foot slips free"
+          ]
+        }
       },
       {
         "question": "What are the three most critical ligaments at risk when a kneebar is applied, and what are the typical recovery times if they are torn?",
         "answer": "The three most critical ligaments at risk are: (1) MCL (Medial Collateral Ligament) and LCL (Lateral Collateral Ligament) which provide side-to-side stability, recovery 6-12 months with surgery; (2) ACL (Anterior Cruciate Ligament) and PCL (Posterior Cruciate Ligament) which prevent front-to-back movement, recovery 9-12 months with reconstructive surgery; (3) The meniscus (while not a ligament, it's commonly damaged), recovery 3-6 months. These injuries are severe and career-impacting, which is why controlled application and immediate release upon tap are non-negotiable.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "MCL/LCL, ACL/PCL, meniscus",
+        "distractors": {
+          "plausible": [
+            "Only ACL, 9-12 month recovery",
+            "Just meniscus, 3 months"
+          ],
+          "trap": [
+            "None recover, always career-ending"
+          ]
+        }
       }
     ],
     "clips": [
@@ -492,27 +612,77 @@
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a kneebar from 50-50, and what should your immediate response be?",
         "answer": "The earliest cue is your opponent reaching for your foot and beginning to pull it toward their armpit. Your immediate response must be to retract your foot by pulling your heel toward your buttock while rotating your knee inward. This prevents them from establishing the primary anchor point (foot in armpit) that the entire kneebar depends on. Every second of delay after this cue makes escape progressively more difficult.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract foot, bend knee in",
+        "distractors": {
+          "plausible": [
+            "Wait until hip crosses joint",
+            "Push your leg straight out"
+          ],
+          "trap": [
+            "Straighten leg to pull away"
+          ]
+        }
       },
       {
         "question": "Why does straightening your trapped leg make the kneebar worse rather than helping you escape?",
         "answer": "Straightening your leg creates the exact leverage the attacker needs to hyperextend your knee. A straight leg with the foot locked in the attacker's armpit and their hip across your knee joint is the ideal finishing configuration for them. A bent knee, by contrast, absorbs the pressure without hyperextending. Always keep your knee bent and pull your heel toward your buttock—this creates a structural defense that prevents the hyperextension mechanism from engaging.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Straight leg enables hyperextension",
+        "distractors": {
+          "plausible": [
+            "Straight leg protects the joint",
+            "It only matters for the ankle"
+          ],
+          "trap": [
+            "Kick out hard to break grip"
+          ]
+        }
       },
       {
         "question": "At what point should you tap rather than continue defending the kneebar in training?",
         "answer": "Tap immediately when you feel the attacker's hip bone positioned directly across your knee joint and they begin extending their hips with your foot secured in their armpit. Once all five control points are established (foot capture, hip alignment, leg entanglement, upper body control, and hip extension), escape probability drops below 10% and continuing to resist risks severe ligament damage. In training, tapping at the point of no escape is the correct decision—it preserves your knees for decades of training ahead.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "When all 5 controls lock in",
+        "distractors": {
+          "plausible": [
+            "Only when pain becomes sharp",
+            "Wait for referee to call it"
+          ],
+          "trap": [
+            "Keep fighting past that point"
+          ]
+        }
       },
       {
         "question": "How does the symmetrical nature of 50-50 create unique defensive opportunities against the kneebar?",
         "answer": "The 50-50 position is symmetrical, meaning both practitioners have their legs entangled in approximately equal configurations. While your opponent attacks your knee, their own leg is also exposed and accessible to you. This creates a counter-attack opportunity where you can threaten their knee or heel (in legal rule sets), forcing them to choose between finishing their submission and defending their own leg. This mutual threat dynamic is unique to 50-50 and does not exist in other kneebar positions where only one person's leg is entangled.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their leg is exposed too",
+        "distractors": {
+          "plausible": [
+            "Only the attacker is vulnerable",
+            "Symmetry favors the attacker"
+          ],
+          "trap": [
+            "Ignore your leg, escape only"
+          ]
+        }
       },
       {
         "question": "Your opponent has captured your foot in their armpit but has not yet positioned their hip across your knee - what is the optimal defensive action at this stage?",
         "answer": "At this stage, immediately sit up aggressively and face your opponent while simultaneously fighting to retract your foot from their armpit using both hands. Sitting up changes the angle of your leg relative to their body, preventing them from achieving the perpendicular alignment needed for the kneebar. Establish upper body grips (cross-face, collar, or underhook) as you sit up to maintain the face-to-face engagement. This is your last high-percentage window before the submission becomes dangerous—once their hip crosses your knee joint, sitting up becomes much more difficult.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit up, face them, retract foot",
+        "distractors": {
+          "plausible": [
+            "Stay flat and wait it out",
+            "Pull knee straight to escape"
+          ],
+          "trap": [
+            "Relax the leg to buy time"
+          ]
+        }
       }
     ],
     "training_progressions": [

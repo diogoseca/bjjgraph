@@ -71,35 +71,115 @@
     "flashcards": [
       {
         "question": "What leg configuration adjustment must you make when your opponent inverts from standard ashi-garami?",
-        "answer": "As the opponent inverts, you must adapt your figure-four by keeping your outside leg crossing over their knee line while your inside leg stays underneath. Follow their hip rotation rather than fighting it, adjusting your leg pressure to maintain entanglement integrity throughout their movement. This creates the ushiro configuration where you can still attack despite their reversed hip orientation."
+        "answer": "As the opponent inverts, you must adapt your figure-four by keeping your outside leg crossing over their knee line while your inside leg stays underneath. Follow their hip rotation rather than fighting it, adjusting your leg pressure to maintain entanglement integrity throughout their movement. This creates the ushiro configuration where you can still attack despite their reversed hip orientation.",
+        "answer_line": "Track hip rotation, keep figure-four",
+        "distractors": {
+          "plausible": [
+            "Swap which leg is inside/outside",
+            "Loosen grip until they settle"
+          ],
+          "trap": [
+            "Fight their rotation, hold rigid"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun inverting but their heel is momentarily exposed - what should you prioritize?",
-        "answer": "When the heel becomes exposed during inversion, you face a timing decision. If the exposure is clear and your grip position is favorable, immediately attack the heel hook before they complete rotation. However, if their inversion is progressing rapidly and your grip isn't optimal, prioritize following to maintain entanglement and transition to saddle or back control rather than a low-percentage submission attempt."
+        "answer": "When the heel becomes exposed during inversion, you face a timing decision. If the exposure is clear and your grip position is favorable, immediately attack the heel hook before they complete rotation. However, if their inversion is progressing rapidly and your grip isn't optimal, prioritize following to maintain entanglement and transition to saddle or back control rather than a low-percentage submission attempt.",
+        "answer_line": "Take it only with a good grip",
+        "distractors": {
+          "plausible": [
+            "Always attack the exposed heel",
+            "Wait for full inversion first"
+          ],
+          "trap": [
+            "Force heel hook regardless of grip"
+          ]
+        }
       },
       {
         "question": "How does grip placement differ for heel hooks in ushiro versus standard outside ashi-garami?",
-        "answer": "In ushiro, your opponent's inverted hip position changes the optimal heel hook grip angle. You typically need to adjust your hand placement closer to your own hip line rather than reaching across their body. The reversed configuration often requires a more compact finishing position with different shoulder and hip alignment relative to their trapped leg compared to standard outside ashi mechanics."
+        "answer": "In ushiro, your opponent's inverted hip position changes the optimal heel hook grip angle. You typically need to adjust your hand placement closer to your own hip line rather than reaching across their body. The reversed configuration often requires a more compact finishing position with different shoulder and hip alignment relative to their trapped leg compared to standard outside ashi mechanics.",
+        "answer_line": "Keep hands closer to your hip",
+        "distractors": {
+          "plausible": [
+            "Reach across like standard ashi",
+            "Use same grip angle as usual"
+          ],
+          "trap": [
+            "Extend arm across, loosen frame"
+          ]
+        }
       },
       {
         "question": "What indicates that you should abandon the submission attempt and transition to saddle instead?",
-        "answer": "Transition to saddle when your opponent has successfully cleared your outside leg but your inside leg remains deeply controlling their thigh. Also transition when their continued rotation makes heel hook leverage progressively worse, or when their hand fighting has successfully prevented heel exposure for more than 3-4 seconds. The inside leg control creates the entry point for saddle transition."
+        "answer": "Transition to saddle when your opponent has successfully cleared your outside leg but your inside leg remains deeply controlling their thigh. Also transition when their continued rotation makes heel hook leverage progressively worse, or when their hand fighting has successfully prevented heel exposure for more than 3-4 seconds. The inside leg control creates the entry point for saddle transition.",
+        "answer_line": "Outside leg clear, inside deep",
+        "distractors": {
+          "plausible": [
+            "Heel briefly slips from your grip",
+            "Opponent stops moving entirely"
+          ],
+          "trap": [
+            "Keep forcing the heel hook"
+          ]
+        }
       },
       {
         "question": "Your opponent's free leg is working underneath your body during their inversion - how do you address this?",
-        "answer": "Use your outside leg to actively control their free leg by pressing it away from your center line. If their free leg gets underneath you, they gain a rotational lever to complete escape or enter counter-entanglement. Maintain outside leg pressure on their free thigh while using your inside leg to control the entangled leg, preventing them from using the free leg as a posting or pushing mechanism."
+        "answer": "Use your outside leg to actively control their free leg by pressing it away from your center line. If their free leg gets underneath you, they gain a rotational lever to complete escape or enter counter-entanglement. Maintain outside leg pressure on their free thigh while using your inside leg to control the entangled leg, preventing them from using the free leg as a posting or pushing mechanism.",
+        "answer_line": "Press their free leg away",
+        "distractors": {
+          "plausible": [
+            "Ignore it, focus on trapped leg",
+            "Trap it with your inside leg"
+          ],
+          "trap": [
+            "Let it slide under for control"
+          ]
+        }
       },
       {
         "question": "When is following to back control the superior option compared to maintaining ushiro ashi-garami?",
-        "answer": "Follow to back control when your opponent commits fully to turtle rotation and turns their back to escape, when your leg entanglement has degraded to the point where submission attempts have low success probability, or when they've cleared both legs but their turtle position exposes back access. The back take becomes optimal when their rotation momentum is too strong to reverse for leg attacks."
+        "answer": "Follow to back control when your opponent commits fully to turtle rotation and turns their back to escape, when your leg entanglement has degraded to the point where submission attempts have low success probability, or when they've cleared both legs but their turtle position exposes back access. The back take becomes optimal when their rotation momentum is too strong to reverse for leg attacks.",
+        "answer_line": "They fully turn, exposing back",
+        "distractors": {
+          "plausible": [
+            "Anytime they start to invert",
+            "When your grip feels tired"
+          ],
+          "trap": [
+            "Chase a low-percentage heel hook"
+          ]
+        }
       },
       {
         "question": "How do you maintain weight distribution to keep your opponent pinned while attacking from ushiro?",
-        "answer": "Keep your hips heavy and connected to the opponent's trapped leg, distributing weight through your inside leg control on their thigh. Avoid lifting your hips to reach for grips, as this creates space for escape. Instead, angle your torso toward the trapped leg while maintaining constant downward pressure through your figure-four. Your weight should feel like it is driving through your inside leg into their thigh rather than floating above them."
+        "answer": "Keep your hips heavy and connected to the opponent's trapped leg, distributing weight through your inside leg control on their thigh. Avoid lifting your hips to reach for grips, as this creates space for escape. Instead, angle your torso toward the trapped leg while maintaining constant downward pressure through your figure-four. Your weight should feel like it is driving through your inside leg into their thigh rather than floating above them.",
+        "answer_line": "Drive weight through inside leg",
+        "distractors": {
+          "plausible": [
+            "Lift hips to reach for grips",
+            "Keep weight balanced evenly"
+          ],
+          "trap": [
+            "Float above them for mobility"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that your opponent is about to attempt a counter-attack on your legs?",
-        "answer": "Watch for their free hand reaching toward your legs rather than defending their heel, hip movement that creates angle toward your lower body rather than away, attempts to square their hips back toward you during the inversion, or deliberate slowing of their escape rotation. These indicate they're shifting from escape to counter-attack, requiring you to either accelerate your finish or address their leg entanglement attempt."
+        "answer": "Watch for their free hand reaching toward your legs rather than defending their heel, hip movement that creates angle toward your lower body rather than away, attempts to square their hips back toward you during the inversion, or deliberate slowing of their escape rotation. These indicate they're shifting from escape to counter-attack, requiring you to either accelerate your finish or address their leg entanglement attempt.",
+        "answer_line": "Free hand reaches for your legs",
+        "distractors": {
+          "plausible": [
+            "Rapid continuous rotation speed",
+            "Both hands defending their heel"
+          ],
+          "trap": [
+            "Assume they're only escaping"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -422,35 +502,115 @@
     "flashcards": [
       {
         "question": "You've inverted to escape but your leg is still trapped - what is the critical first priority?",
-        "answer": "The critical first priority is protecting your heel from exposure by maintaining dorsiflexion (foot flexed toward shin) throughout the entire escape sequence. Never point your toes or relax your foot, as this creates the opening for a finishing heel hook grip. Simultaneously use your hands to control the opponent's inside knee to prevent them from deepening the entanglement or transitioning to saddle."
+        "answer": "The critical first priority is protecting your heel from exposure by maintaining dorsiflexion (foot flexed toward shin) throughout the entire escape sequence. Never point your toes or relax your foot, as this creates the opening for a finishing heel hook grip. Simultaneously use your hands to control the opponent's inside knee to prevent them from deepening the entanglement or transitioning to saddle.",
+        "answer_line": "Flex foot, protect your heel",
+        "distractors": {
+          "plausible": [
+            "Point toes to speed escape",
+            "Control their far-side wrist"
+          ],
+          "trap": [
+            "Point toes, relax the foot"
+          ]
+        }
       },
       {
         "question": "What distinguishes a shallow entanglement you can escape from versus a deep entanglement requiring alternative strategy?",
-        "answer": "In shallow entanglement, the opponent's inside leg has minimal control below your knee and their upper body grips haven't established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they're working heel grips. Deep entanglement requires accepting turtle or deep half guard rather than forcing extraction."
+        "answer": "In shallow entanglement, the opponent's inside leg has minimal control below your knee and their upper body grips haven't established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they're working heel grips. Deep entanglement requires accepting turtle or deep half guard rather than forcing extraction.",
+        "answer_line": "Deep control: accept turtle",
+        "distractors": {
+          "plausible": [
+            "Always force leg extraction",
+            "Shallow control also needs turtle"
+          ],
+          "trap": [
+            "Force extraction from deep control"
+          ]
+        }
       },
       {
         "question": "Your opponent is adjusting their grips to attack the heel hook - what counter-attack window does this create?",
-        "answer": "When the opponent releases their inside leg control or shifts their hands to establish heel grips, their own legs often become exposed for counter-entanglement. Watch for their adjustment phase where they're focused on offense rather than defense. You can enter your own outside ashi-garami on their free leg during this window, creating a leg lock exchange situation that favors whoever established position first."
+        "answer": "When the opponent releases their inside leg control or shifts their hands to establish heel grips, their own legs often become exposed for counter-entanglement. Watch for their adjustment phase where they're focused on offense rather than defense. You can enter your own outside ashi-garami on their free leg during this window, creating a leg lock exchange situation that favors whoever established position first.",
+        "answer_line": "Enter ashi on their exposed leg",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully commit",
+            "Retreat and reset your grips"
+          ],
+          "trap": [
+            "Rush your own heel hook blindly"
+          ]
+        }
       },
       {
         "question": "How do you systematically clear your opponent's leg entanglement without creating submission opportunities?",
-        "answer": "Clear legs in sequence while maintaining heel protection. Use your hands to control opponent's inside knee first, preventing saddle transition. Then work to clear their outside leg by pulling your trapped leg away while pushing their hip with your free leg. Never extend your trapped leg toward the opponent as this deepens control. Create space incrementally rather than explosive movement that creates heel exposure."
+        "answer": "Clear legs in sequence while maintaining heel protection. Use your hands to control opponent's inside knee first, preventing saddle transition. Then work to clear their outside leg by pulling your trapped leg away while pushing their hip with your free leg. Never extend your trapped leg toward the opponent as this deepens control. Create space incrementally rather than explosive movement that creates heel exposure.",
+        "answer_line": "Control knee first, clear slowly",
+        "distractors": {
+          "plausible": [
+            "Clear outside leg first",
+            "Yank leg free explosively"
+          ],
+          "trap": [
+            "Extend trapped leg toward them"
+          ]
+        }
       },
       {
         "question": "When should you accept turtle position instead of continuing to fight the leg extraction?",
-        "answer": "Accept turtle when opponent's control is too deep to safely extract your leg, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you've been defending for more than 5-6 seconds without progress, or when your energy is depleting rapidly from escape attempts. Turtle is a safer transitional position than remaining in deep ushiro entanglement."
+        "answer": "Accept turtle when opponent's control is too deep to safely extract your leg, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you've been defending for more than 5-6 seconds without progress, or when your energy is depleting rapidly from escape attempts. Turtle is a safer transitional position than remaining in deep ushiro entanglement.",
+        "answer_line": "Grip set, extraction isn't working",
+        "distractors": {
+          "plausible": [
+            "Fight extraction at all costs",
+            "Accept turtle immediately always"
+          ],
+          "trap": [
+            "Keep struggling past exhaustion"
+          ]
+        }
       },
       {
         "question": "What foot position must you maintain throughout the entire escape sequence and why?",
-        "answer": "Maintain dorsiflexion (foot flexed toward shin with toes pulled up) throughout the entire escape. This position protects the heel by pulling it closer to your lower leg, making it difficult for the opponent to establish the grip needed for heel hook finishing. Pointing toes or relaxing the foot creates slack that exposes the heel to finishing grips even during successful escape attempts."
+        "answer": "Maintain dorsiflexion (foot flexed toward shin with toes pulled up) throughout the entire escape. This position protects the heel by pulling it closer to your lower leg, making it difficult for the opponent to establish the grip needed for heel hook finishing. Pointing toes or relaxing the foot creates slack that exposes the heel to finishing grips even during successful escape attempts.",
+        "answer_line": "Dorsiflex foot, toes pulled up",
+        "distractors": {
+          "plausible": [
+            "Point toes for extra speed",
+            "Relax foot to save energy"
+          ],
+          "trap": [
+            "Point toes, expose the heel"
+          ]
+        }
       },
       {
         "question": "Your opponent's inside leg is controlling your thigh deeply - what does this indicate about their next likely action?",
-        "answer": "Deep inside leg control on your thigh indicates they're preparing to transition to saddle or honey hole rather than finishing from ushiro. Their next action will likely involve stepping their outside leg through to complete the saddle configuration. You must use your hands to block their inside knee and create separation before they can complete this transition, or accelerate your turtle rotation to deny the positional improvement."
+        "answer": "Deep inside leg control on your thigh indicates they're preparing to transition to saddle or honey hole rather than finishing from ushiro. Their next action will likely involve stepping their outside leg through to complete the saddle configuration. You must use your hands to block their inside knee and create separation before they can complete this transition, or accelerate your turtle rotation to deny the positional improvement.",
+        "answer_line": "They're setting up the saddle",
+        "distractors": {
+          "plausible": [
+            "They're about to finish the sub",
+            "They're losing the entanglement"
+          ],
+          "trap": [
+            "Relax and let them finish setup"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when escape attempts aren't immediately successful?",
-        "answer": "Execute deliberate, methodical escape sequences rather than explosive scrambling. Focus energy on grip fighting to prevent heel exposure and controlling opponent's inside knee. Rest in relative safety by maintaining heel protection rather than continuous escape attempts. Recognize when to accept transitional positions like turtle or deep half guard rather than exhausting yourself on low-percentage extraction attempts from deep entanglement."
+        "answer": "Execute deliberate, methodical escape sequences rather than explosive scrambling. Focus energy on grip fighting to prevent heel exposure and controlling opponent's inside knee. Rest in relative safety by maintaining heel protection rather than continuous escape attempts. Recognize when to accept transitional positions like turtle or deep half guard rather than exhausting yourself on low-percentage extraction attempts from deep entanglement.",
+        "answer_line": "Move deliberately, rest safely",
+        "distractors": {
+          "plausible": [
+            "Scramble explosively to escape fast",
+            "Never accept a transitional position"
+          ],
+          "trap": [
+            "Burn energy on low-percent escapes"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -735,35 +895,115 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines Ushiro Ashi-Garami and distinguishes it from standard outside ashi-garami?",
-      "answer": "Ushiro Ashi-Garami is a reversed figure-four leg entanglement in which the entangling player's outside leg crosses over the trapped leg's knee line while the inside leg stays underneath, but with the entangled player's hips inverted rather than facing the entangler. That inverted hip orientation is the defining feature: the identical crossed-leg structure now operates against a player who has rotated their hips away instead of keeping them squared. Standard outside ashi keeps the bottom player's hips oriented toward the entangler, whereas ushiro exists specifically because those hips have turned through an inversion. This reversal is what reshapes the heel hook attacks and escape paths available compared to standard configurations."
+      "answer": "Ushiro Ashi-Garami is a reversed figure-four leg entanglement in which the entangling player's outside leg crosses over the trapped leg's knee line while the inside leg stays underneath, but with the entangled player's hips inverted rather than facing the entangler. That inverted hip orientation is the defining feature: the identical crossed-leg structure now operates against a player who has rotated their hips away instead of keeping them squared. Standard outside ashi keeps the bottom player's hips oriented toward the entangler, whereas ushiro exists specifically because those hips have turned through an inversion. This reversal is what reshapes the heel hook attacks and escape paths available compared to standard configurations.",
+      "answer_line": "Same figure-four, hips inverted",
+      "distractors": {
+        "plausible": [
+          "Different leg cross, same hips",
+          "Outside leg switches to inside"
+        ],
+        "trap": [
+          "Hips squared, legs reversed"
+        ]
+      }
     },
     {
       "question": "Why does the reversed hip orientation in Ushiro Ashi-Garami change the mechanics of heel hook control?",
-      "answer": "The entangled player's inverted hips rotate the trapped foot and heel to a different angle than in standard ashi-garami, where the exposed heel points along a more predictable line. Because of this, the finishing player must bring the heel toward their own hip line rather than reaching across the opponent's body, producing a more compact finishing frame with different shoulder and hip alignment. This is a shared mechanical consequence of the position: the reversed geometry dictates where leverage lives for whoever can establish control first. It is precisely why heel hook grips and finishing mechanics from ushiro require different adjustments than standard outside or inside ashi."
+      "answer": "The entangled player's inverted hips rotate the trapped foot and heel to a different angle than in standard ashi-garami, where the exposed heel points along a more predictable line. Because of this, the finishing player must bring the heel toward their own hip line rather than reaching across the opponent's body, producing a more compact finishing frame with different shoulder and hip alignment. This is a shared mechanical consequence of the position: the reversed geometry dictates where leverage lives for whoever can establish control first. It is precisely why heel hook grips and finishing mechanics from ushiro require different adjustments than standard outside or inside ashi.",
+      "answer_line": "Bring heel toward your own hip",
+      "distractors": {
+        "plausible": [
+          "Reach across their body as usual",
+          "Angle doesn't change from standard"
+        ],
+        "trap": [
+          "Reach across, loosen the frame"
+        ]
+      }
     },
     {
       "question": "How does control of the free (non-entangled) leg govern who wins the Ushiro Ashi-Garami exchange?",
-      "answer": "The entangled player's free leg is a primary rotational lever, because ushiro arises from an inversion that is still in motion. If the free leg slips underneath the entangling player's body, it becomes a post that completes rotation toward turtle or standing, or feeds a counter-entanglement. If the entangler presses that free thigh away from their centerline with their outside leg, rotation stalls and the entanglement holds. The position is therefore defined by a contest over the free leg as much as the trapped one: whoever controls its path controls whether the exchange resolves as escape or retention."
+      "answer": "The entangled player's free leg is a primary rotational lever, because ushiro arises from an inversion that is still in motion. If the free leg slips underneath the entangling player's body, it becomes a post that completes rotation toward turtle or standing, or feeds a counter-entanglement. If the entangler presses that free thigh away from their centerline with their outside leg, rotation stalls and the entanglement holds. The position is therefore defined by a contest over the free leg as much as the trapped one: whoever controls its path controls whether the exchange resolves as escape or retention.",
+      "answer_line": "Free leg decides escape or hold",
+      "distractors": {
+        "plausible": [
+          "Trapped leg alone decides outcome",
+          "Grips matter more than legs"
+        ],
+        "trap": [
+          "Let their free leg slide under you"
+        ]
+      }
     },
     {
       "question": "What makes Ushiro Ashi-Garami a fundamentally dynamic position rather than a static hold?",
-      "answer": "Ushiro Ashi-Garami exists only as a snapshot inside an ongoing inversion, so it lives in a state of continuous rotational tension where both players are mid-movement. Unlike a settled entanglement such as the saddle, neither participant can rest here; the entangling player must constantly adapt leg pressure to the turning hips while the entangled player is actively rotating toward escape or counter. The configuration degrades quickly in either direction, which is why it is treated as transitional with a short time-sustainability. Its instability is intrinsic: the reversed, mid-rotation geometry cannot be locked down the way squared-hip entanglements can."
+      "answer": "Ushiro Ashi-Garami exists only as a snapshot inside an ongoing inversion, so it lives in a state of continuous rotational tension where both players are mid-movement. Unlike a settled entanglement such as the saddle, neither participant can rest here; the entangling player must constantly adapt leg pressure to the turning hips while the entangled player is actively rotating toward escape or counter. The configuration degrades quickly in either direction, which is why it is treated as transitional with a short time-sustainability. Its instability is intrinsic: the reversed, mid-rotation geometry cannot be locked down the way squared-hip entanglements can.",
+      "answer_line": "It's mid-rotation, always changing",
+      "distractors": {
+        "plausible": [
+          "It settles like the saddle",
+          "It's stable once established"
+        ],
+        "trap": [
+          "Treat it like a settled hold"
+        ]
+      }
     },
     {
       "question": "How do the entangled player's inverted hips create simultaneous danger and opportunity in this position?",
-      "answer": "The hip inversion that produces ushiro both traps and liberates, which is why control depth decides the outcome. It keeps the leg captured in the reversed figure-four while presenting the heel at an angle a prepared attacker can exploit, yet the same ongoing rotation opens windows for the entangled player to clear the legs or enter a counter-entanglement. This dual character is the defining shared dynamic: the exact rotation that could complete an escape can also feed a finish, depending on how deeply the entangler has established control. Neither player holds a stable advantage, so the inverted hips act as a pivot point that rewards whoever reads the angle and acts first."
+      "answer": "The hip inversion that produces ushiro both traps and liberates, which is why control depth decides the outcome. It keeps the leg captured in the reversed figure-four while presenting the heel at an angle a prepared attacker can exploit, yet the same ongoing rotation opens windows for the entangled player to clear the legs or enter a counter-entanglement. This dual character is the defining shared dynamic: the exact rotation that could complete an escape can also feed a finish, depending on how deeply the entangler has established control. Neither player holds a stable advantage, so the inverted hips act as a pivot point that rewards whoever reads the angle and acts first.",
+      "answer_line": "Rotation cuts both ways at once",
+      "distractors": {
+        "plausible": [
+          "Only the top player benefits",
+          "Only the bottom player benefits"
+        ],
+        "trap": [
+          "Assume the position favors you"
+        ]
+      }
     },
     {
       "question": "What role does the inside leg's depth of control on the trapped thigh play in Ushiro Ashi-Garami?",
-      "answer": "The inside leg's depth on the trapped thigh is the pivot that determines where the position resolves. Shallow inside-leg control leaves the trapped leg free to slide out toward standing or turtle, favoring extraction. Deep inside-leg control on the thigh blocks that slide and opens the pathway toward higher-control entanglements such as the saddle or honey hole. This is a role-agnostic control measure: both players read the same depth to judge whether the exchange is trending toward escape or toward a tighter entanglement, and both orient their next movement around it."
+      "answer": "The inside leg's depth on the trapped thigh is the pivot that determines where the position resolves. Shallow inside-leg control leaves the trapped leg free to slide out toward standing or turtle, favoring extraction. Deep inside-leg control on the thigh blocks that slide and opens the pathway toward higher-control entanglements such as the saddle or honey hole. This is a role-agnostic control measure: both players read the same depth to judge whether the exchange is trending toward escape or toward a tighter entanglement, and both orient their next movement around it.",
+      "answer_line": "Depth decides escape vs saddle",
+      "distractors": {
+        "plausible": [
+          "Only the outside leg matters",
+          "Depth doesn't affect outcome"
+        ],
+        "trap": [
+          "Ignore inside leg, watch grips only"
+        ]
+      }
     },
     {
       "question": "How does Ushiro Ashi-Garami differ from the saddle and 50-50 in terms of stability and control?",
-      "answer": "The saddle is a deep, hip-committing entanglement that pins the trapped leg with a settled figure-four, and 50-50 is a symmetrical, mutually stable configuration where both players hold equivalent leverage. Ushiro Ashi-Garami is neither settled nor symmetrical: it is a reversed, mid-rotation geometry that neither player can hold statically. Where the saddle traps and 50-50 balances, ushiro is a scramble frame that must convert into one of those more stable positions or dissolve into escape. Recognizing that instability is what separates it from its adjacent entanglements and dictates the urgency both players feel."
+      "answer": "The saddle is a deep, hip-committing entanglement that pins the trapped leg with a settled figure-four, and 50-50 is a symmetrical, mutually stable configuration where both players hold equivalent leverage. Ushiro Ashi-Garami is neither settled nor symmetrical: it is a reversed, mid-rotation geometry that neither player can hold statically. Where the saddle traps and 50-50 balances, ushiro is a scramble frame that must convert into one of those more stable positions or dissolve into escape. Recognizing that instability is what separates it from its adjacent entanglements and dictates the urgency both players feel.",
+      "answer_line": "It's an unstable mid-rotation frame",
+      "distractors": {
+        "plausible": [
+          "It's as stable as the saddle",
+          "It's symmetrical like 50-50"
+        ],
+        "trap": [
+          "Try to hold it like a settled pin"
+        ]
+      }
     },
     {
       "question": "Why is body position relative to the opponent's hips the master variable that decides whether Ushiro Ashi-Garami favors escape or attack?",
-      "answer": "Because ushiro is an inversion caught mid-rotation, the relationship between the two players' hip lines sets every other option. When the entangling player stays behind or beside the turning hips, the entanglement holds and submission angles remain live; when the entangled player drives their hips through and turns away, the leverage collapses toward escape. This hip-to-hip geometry is the shared reference both players track, above grips or foot position. It is the single measurement that tells each participant whether the reversed configuration is currently a trap or a doorway."
+      "answer": "Because ushiro is an inversion caught mid-rotation, the relationship between the two players' hip lines sets every other option. When the entangling player stays behind or beside the turning hips, the entanglement holds and submission angles remain live; when the entangled player drives their hips through and turns away, the leverage collapses toward escape. This hip-to-hip geometry is the shared reference both players track, above grips or foot position. It is the single measurement that tells each participant whether the reversed configuration is currently a trap or a doorway.",
+      "answer_line": "Stay behind their turning hips",
+      "distractors": {
+        "plausible": [
+          "Track their hands instead",
+          "Watch their feet position only"
+        ],
+        "trap": [
+          "Square up in front of them"
+        ]
+      }
     }
   ],
   "clips": [

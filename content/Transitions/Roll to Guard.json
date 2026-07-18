@@ -247,51 +247,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Roll to Guard?",
-        "answer": "The primary goal is to escape back control by executing a controlled forward roll that reverses the positional hierarchy, ending with the defender facing their opponent in a guard position. This converts a highly disadvantageous position (giving up back) into a neutral or slightly advantageous position (playing guard)."
+        "answer": "The primary goal is to escape back control by executing a controlled forward roll that reverses the positional hierarchy, ending with the defender facing their opponent in a guard position. This converts a highly disadvantageous position (giving up back) into a neutral or slightly advantageous position (playing guard).",
+        "answer_line": "Escape back control into guard",
+        "distractors": {
+          "plausible": [
+            "Escape back control to turtle",
+            "Flip to top back mount"
+          ],
+          "trap": [
+            "Stay put and defend the choke"
+          ]
+        }
       },
       {
         "question": "What position do you start Roll to Guard from?",
-        "answer": "This technique starts from Harness Bottom position, where the opponent has established back control with a seat belt grip configuration (one arm over your shoulder, one under your opposite armpit). You may or may not have hooks in, but the harness grip must be present."
+        "answer": "This technique starts from Harness Bottom position, where the opponent has established back control with a seat belt grip configuration (one arm over your shoulder, one under your opposite armpit). You may or may not have hooks in, but the harness grip must be present.",
+        "answer_line": "Harness Bottom, seat belt grip",
+        "distractors": {
+          "plausible": [
+            "Harness Bottom, both hooks in",
+            "Turtle, opponent seat belt"
+          ],
+          "trap": [
+            "Mount, opponent has crossface"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Roll to Guard?",
-        "answer": "The essential grip is two-on-one control on the opponent's choking arm - grip their wrist with your same-side hand and control their elbow or tricep with your other hand. This grip must be maintained throughout the entire roll to prevent choke completion and ensure you can pull opponent into guard upon completion."
+        "answer": "The essential grip is two-on-one control on the opponent's choking arm - grip their wrist with your same-side hand and control their elbow or tricep with your other hand. This grip must be maintained throughout the entire roll to prevent choke completion and ensure you can pull opponent into guard upon completion.",
+        "answer_line": "Two-on-one on choking arm",
+        "distractors": {
+          "plausible": [
+            "One hand grip on their wrist",
+            "Control both their wrists"
+          ],
+          "trap": [
+            "Grab their far ankle"
+          ]
+        }
       },
       {
         "question": "How do you counter Roll to Guard if you are the top player?",
-        "answer": "The most effective counter is preventing the roll by flattening the bottom player - drive hips forward and spread weight wide to eliminate rolling space beneath them. If they initiate the roll, follow their rotation by driving your hips into theirs throughout the motion to maintain back control. Alternatively, release the harness early and transition to front headlock as they roll."
+        "answer": "The most effective counter is preventing the roll by flattening the bottom player - drive hips forward and spread weight wide to eliminate rolling space beneath them. If they initiate the roll, follow their rotation by driving your hips into theirs throughout the motion to maintain back control. Alternatively, release the harness early and transition to front headlock as they roll.",
+        "answer_line": "Flatten hips, kill rolling space",
+        "distractors": {
+          "plausible": [
+            "Squeeze body triangle tighter",
+            "Pull choke tighter to stop"
+          ],
+          "trap": [
+            "Release grips and sit back"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Roll to Guard?",
-        "answer": "Optimal timing windows include: when opponent shifts their weight forward or to one side compromising their base, when they adjust their grip structure creating momentary looseness, after successful grip fighting that weakens their harness connection, or when they attack a choke and over-commit their weight. Avoid attempting when opponent has tight body triangle or fully flattened position."
+        "answer": "Optimal timing windows include: when opponent shifts their weight forward or to one side compromising their base, when they adjust their grip structure creating momentary looseness, after successful grip fighting that weakens their harness connection, or when they attack a choke and over-commit their weight. Avoid attempting when opponent has tight body triangle or fully flattened position.",
+        "answer_line": "When grip loosens or overcommits",
+        "distractors": {
+          "plausible": [
+            "Right after hooks go in",
+            "As soon as back control starts"
+          ],
+          "trap": [
+            "During a tight body triangle"
+          ]
+        }
       },
       {
         "question": "Your opponent begins following your roll by driving their hips - how do you adjust?",
-        "answer": "If you feel opponent following, immediately accelerate the roll and exaggerate the diagonal angle to create separation. Upon completion, do not try to close guard - instead establish open guard frames with feet on hips to create distance. If they successfully maintain back control, immediately address hooks before they re-tighten the harness and look for next escape opportunity."
+        "answer": "If you feel opponent following, immediately accelerate the roll and exaggerate the diagonal angle to create separation. Upon completion, do not try to close guard - instead establish open guard frames with feet on hips to create distance. If they successfully maintain back control, immediately address hooks before they re-tighten the harness and look for next escape opportunity.",
+        "answer_line": "Accelerate, widen the angle",
+        "distractors": {
+          "plausible": [
+            "Slow down and reset position",
+            "Close guard immediately"
+          ],
+          "trap": [
+            "Stop rolling and re-grip"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement in this technique?",
-        "answer": "The critical hip movement is driving your hips up and forward to initiate the roll while simultaneously rotating them diagonally toward your underhook side. This creates the momentum needed to complete the rotation while maximizing your escape angle. Your hips lead the movement - the upper body follows."
+        "answer": "The critical hip movement is driving your hips up and forward to initiate the roll while simultaneously rotating them diagonally toward your underhook side. This creates the momentum needed to complete the rotation while maximizing your escape angle. Your hips lead the movement - the upper body follows.",
+        "answer_line": "Hips up, forward, diagonal",
+        "distractors": {
+          "plausible": [
+            "Hips lead straight forward",
+            "Shoulders initiate rotation"
+          ],
+          "trap": [
+            "Push hips backward first"
+          ]
+        }
       },
       {
         "question": "Why must the roll be directed diagonally rather than straight forward?",
-        "answer": "Rolling diagonally toward the underhook side creates a 45-degree escape angle that makes it significantly harder for the opponent to follow your rotation and re-take your back. A straight forward roll gives them a direct tracking path. The diagonal angle also positions you better for immediate guard recovery with proper alignment."
+        "answer": "Rolling diagonally toward the underhook side creates a 45-degree escape angle that makes it significantly harder for the opponent to follow your rotation and re-take your back. A straight forward roll gives them a direct tracking path. The diagonal angle also positions you better for immediate guard recovery with proper alignment.",
+        "answer_line": "Diagonal beats a direct track",
+        "distractors": {
+          "plausible": [
+            "Straight roll is faster overall",
+            "Diagonal protects the choke arm"
+          ],
+          "trap": [
+            "Roll straight for max power"
+          ]
+        }
       },
       {
         "question": "Your roll completes but opponent immediately begins passing - what is your recovery sequence?",
-        "answer": "Immediately establish frames with feet on hips to create distance while retaining grip on their arm. Use the controlled arm to off-balance them and disrupt their passing attempt. Hip escape to create angle and insert knee shield or recompose closed guard. The arm control you maintained through the roll is your primary tool for disrupting their pass."
+        "answer": "Immediately establish frames with feet on hips to create distance while retaining grip on their arm. Use the controlled arm to off-balance them and disrupt their passing attempt. Hip escape to create angle and insert knee shield or recompose closed guard. The arm control you maintained through the roll is your primary tool for disrupting their pass.",
+        "answer_line": "Frame hips, use arm to off-balance",
+        "distractors": {
+          "plausible": [
+            "Immediately close guard tight",
+            "Release arm and push away"
+          ],
+          "trap": [
+            "Let go of the arm to reset"
+          ]
+        }
       },
       {
         "question": "How does body triangle presence affect your decision to attempt this escape?",
-        "answer": "Body triangle significantly compromises roll to guard because the locked legs prevent the hip freedom needed for rotation and allow opponent to easily follow any attempted motion. Address body triangle first using specific body triangle escapes (turning into triangle, attacking the lock) before attempting roll to guard. Only employ this technique once legs are freed."
+        "answer": "Body triangle significantly compromises roll to guard because the locked legs prevent the hip freedom needed for rotation and allow opponent to easily follow any attempted motion. Address body triangle first using specific body triangle escapes (turning into triangle, attacking the lock) before attempting roll to guard. Only employ this technique once legs are freed.",
+        "answer_line": "Free the triangle lock first",
+        "distractors": {
+          "plausible": [
+            "Roll harder to break triangle",
+            "Ignore it, roll through anyway"
+          ],
+          "trap": [
+            "Attempt the roll immediately"
+          ]
+        }
       },
       {
         "question": "Your grip fighting has weakened the harness but opponent still has one hook deep - should you attempt the roll?",
-        "answer": "One remaining hook is manageable if the harness grip is substantially weakened. The key factor is whether the hook will prevent your rotation or allow them to follow. If the hook is on the side you are rolling toward, clear it first or redirect your roll angle. If it is on the opposite side, proceed with the roll as the rotation naturally strips that hook during the forward momentum."
+        "answer": "One remaining hook is manageable if the harness grip is substantially weakened. The key factor is whether the hook will prevent your rotation or allow them to follow. If the hook is on the side you are rolling toward, clear it first or redirect your roll angle. If it is on the opposite side, proceed with the roll as the rotation naturally strips that hook during the forward momentum.",
+        "answer_line": "Clear or redirect around hook",
+        "distractors": {
+          "plausible": [
+            "Never roll with any hook in",
+            "Always roll toward the hook"
+          ],
+          "trap": [
+            "Roll straight through the hook"
+          ]
+        }
       },
       {
         "question": "What chain attacks are available if the initial roll attempt stalls mid-rotation?",
-        "answer": "If the roll stalls, immediately transition to alternative escapes rather than forcing completion. From a partial roll position, you can hip escape toward turtle and work technical standup, switch to a granby roll using the opposite shoulder angle, or use the partial momentum to create enough space to turn into half guard. The worst option is trying to complete a stalled roll against a prepared opponent."
+        "answer": "If the roll stalls, immediately transition to alternative escapes rather than forcing completion. From a partial roll position, you can hip escape toward turtle and work technical standup, switch to a granby roll using the opposite shoulder angle, or use the partial momentum to create enough space to turn into half guard. The worst option is trying to complete a stalled roll against a prepared opponent.",
+        "answer_line": "Hip escape, granby, or half guard",
+        "distractors": {
+          "plausible": [
+            "Push through and finish the roll",
+            "Reverse direction and re-roll"
+          ],
+          "trap": [
+            "Force the stalled roll through"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice roll mechanics on mats with adequate padding before adding partners. During partner drilling, communicate clearly and tap immediately if neck is compromised during rotation. The rolling motion can cause neck strain if chin is not properly tucked - always tuck chin firmly to chest before initiating. Beginners should drill at slow speed until mechanics are ingrained. Avoid this technique if you have existing neck or cervical spine injuries. When drilling with resistance, ensure partner understands to release grips if you become stuck mid-roll to prevent neck compression injuries.",
@@ -415,23 +535,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is setting up a Roll to Guard escape?",
-        "answer": "The earliest cues are aggressive two-on-one grip fighting on your choking arm combined with chin tucking and spine rounding. You will feel them pulling your choking arm across their body while their feet plant flat on the mat. These preparatory movements must precede the roll, giving you a window to react by driving forward and tightening your harness before they generate momentum."
+        "answer": "The earliest cues are aggressive two-on-one grip fighting on your choking arm combined with chin tucking and spine rounding. You will feel them pulling your choking arm across their body while their feet plant flat on the mat. These preparatory movements must precede the roll, giving you a window to react by driving forward and tightening your harness before they generate momentum.",
+        "answer_line": "Two-on-one grips, chin tuck",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip bump",
+            "Tapping the mat repeatedly"
+          ],
+          "trap": [
+            "Them settling deeper in harness"
+          ]
+        }
       },
       {
         "question": "Your opponent has already initiated the forward roll - what is your best defensive response?",
-        "answer": "Drive your hips forward into their hips and commit to following their rotation rather than resisting it. Maintain chest-to-back contact throughout the roll by matching their speed and direction. Keep your hooks engaged and harness tight. The goal is to arrive at the end of their roll still attached to their back, preventing the guard recovery that makes this escape successful."
+        "answer": "Drive your hips forward into their hips and commit to following their rotation rather than resisting it. Maintain chest-to-back contact throughout the roll by matching their speed and direction. Keep your hooks engaged and harness tight. The goal is to arrive at the end of their roll still attached to their back, preventing the guard recovery that makes this escape successful.",
+        "answer_line": "Follow the roll, stay attached",
+        "distractors": {
+          "plausible": [
+            "Resist and pull them backward",
+            "Release hooks, sit back to base"
+          ],
+          "trap": [
+            "Release grips and create space"
+          ]
+        }
       },
       {
         "question": "How does maintaining proper hook pressure prevent the Roll to Guard from succeeding?",
-        "answer": "Active hooks that pull your heels toward your body and dig insteps into opponent's inner thighs resist the hip extension and forward drive needed to generate rolling momentum. The hooks also allow you to feel when opponent loads their hips for the roll, providing tactile recognition cues. Without hip freedom, the opponent cannot create the forward rotation required, forcing them to address your hooks before attempting the escape."
+        "answer": "Active hooks that pull your heels toward your body and dig insteps into opponent's inner thighs resist the hip extension and forward drive needed to generate rolling momentum. The hooks also allow you to feel when opponent loads their hips for the roll, providing tactile recognition cues. Without hip freedom, the opponent cannot create the forward rotation required, forcing them to address your hooks before attempting the escape.",
+        "answer_line": "Hooks block hip extension",
+        "distractors": {
+          "plausible": [
+            "Hooks only help with scoring",
+            "Hooks control their far arm"
+          ],
+          "trap": [
+            "Loosen hooks to feel movement"
+          ]
+        }
       },
       {
         "question": "Why is driving your hips forward more effective than pulling your opponent backward when defending this escape?",
-        "answer": "Pulling backward uses arm strength against the opponent's entire body momentum and core power, which is a losing leverage exchange. Driving your hips forward uses your body weight and leg drive to eliminate the space needed for rotation while keeping you connected to their back. Forward hip pressure also makes it natural to follow their movement if they do initiate, maintaining back control through the transition rather than getting separated."
+        "answer": "Pulling backward uses arm strength against the opponent's entire body momentum and core power, which is a losing leverage exchange. Driving your hips forward uses your body weight and leg drive to eliminate the space needed for rotation while keeping you connected to their back. Forward hip pressure also makes it natural to follow their movement if they do initiate, maintaining back control through the transition rather than getting separated.",
+        "answer_line": "Bodyweight beats arm strength",
+        "distractors": {
+          "plausible": [
+            "Pulling back uses more control",
+            "Backward pull stops it fastest"
+          ],
+          "trap": [
+            "Yank them back by the collar"
+          ]
+        }
       },
       {
         "question": "Your opponent completes a partial roll but hasn't established guard yet - what is your immediate recovery sequence?",
-        "answer": "Immediately drive forward to re-establish chest-to-back contact before they can turn to face you. Re-insert hooks if they were cleared during the roll, starting with the hook on the side they rolled toward. Tighten your harness grip and pull them back into full back control position. If they are already partially turned, transition to a gift wrap or crucifix to capitalize on their exposed arm rather than fighting to return to standard back control."
+        "answer": "Immediately drive forward to re-establish chest-to-back contact before they can turn to face you. Re-insert hooks if they were cleared during the roll, starting with the hook on the side they rolled toward. Tighten your harness grip and pull them back into full back control position. If they are already partially turned, transition to a gift wrap or crucifix to capitalize on their exposed arm rather than fighting to return to standard back control.",
+        "answer_line": "Re-chest-to-back, reinsert hooks",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully turn",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Release harness and go neutral"
+          ]
+        }
       }
     ],
     "training_progressions": [

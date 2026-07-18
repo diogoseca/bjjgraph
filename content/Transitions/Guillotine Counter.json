@@ -250,43 +250,143 @@
     "flashcards": [
       {
         "question": "Why is it critical to keep your head on the non-choking side during the guillotine counter?",
-        "answer": "Keeping your head on the non-choking side creates the proper angle for escape and prevents opponent from tightening the choke. If your head moves toward the choking arm side, you are pulling directly into their leverage, which makes the choke tighter and nearly impossible to escape. The circular escape pattern away from the choking arm is what creates the space needed to extract your head safely."
+        "answer": "Keeping your head on the non-choking side creates the proper angle for escape and prevents opponent from tightening the choke. If your head moves toward the choking arm side, you are pulling directly into their leverage, which makes the choke tighter and nearly impossible to escape. The circular escape pattern away from the choking arm is what creates the space needed to extract your head safely.",
+        "answer_line": "Head to non-choking side",
+        "distractors": {
+          "plausible": [
+            "Tuck chin, keep head centered",
+            "Pull head straight back"
+          ],
+          "trap": [
+            "Turn head toward choking arm"
+          ]
+        }
       },
       {
         "question": "What is the primary purpose of driving forward pressure during the guillotine counter?",
-        "answer": "Forward pressure serves multiple critical functions: it flattens opponent's posture making it difficult for them to generate upward lift needed for the choke, it reduces their ability to arch their back and create the angle that makes guillotines effective, it breaks their structure and prevents them from tightening their grip, and it sets up the positional advancement to side control. Without forward pressure, the escape becomes much more difficult."
+        "answer": "Forward pressure serves multiple critical functions: it flattens opponent's posture making it difficult for them to generate upward lift needed for the choke, it reduces their ability to arch their back and create the angle that makes guillotines effective, it breaks their structure and prevents them from tightening their grip, and it sets up the positional advancement to side control. Without forward pressure, the escape becomes much more difficult.",
+        "answer_line": "Flatten posture, kill their arch",
+        "distractors": {
+          "plausible": [
+            "Push to create scramble space",
+            "Drive to break their grip only"
+          ],
+          "trap": [
+            "Pull back to create distance"
+          ]
+        }
       },
       {
         "question": "How should you modify your defense if opponent converts to an arm-in guillotine variation?",
-        "answer": "The arm-in guillotine actually becomes less dangerous if you maintain proper posture and forward pressure. Accept the arm-in position rather than fighting to extract your arm immediately. Continue driving pressure through their chest and maintaining head on the safe side. The arm-in variation requires very specific positioning to finish, and your forward pressure disrupts this positioning. Once pressure is established, you can systematically extract your arm while completing the circular escape."
+        "answer": "The arm-in guillotine actually becomes less dangerous if you maintain proper posture and forward pressure. Accept the arm-in position rather than fighting to extract your arm immediately. Continue driving pressure through their chest and maintaining head on the safe side. The arm-in variation requires very specific positioning to finish, and your forward pressure disrupts this positioning. Once pressure is established, you can systematically extract your arm while completing the circular escape.",
+        "answer_line": "Accept arm-in, keep pressure",
+        "distractors": {
+          "plausible": [
+            "Switch head to choking side",
+            "Pause pressure to free arm"
+          ],
+          "trap": [
+            "Yank arm out immediately"
+          ]
+        }
       },
       {
         "question": "What are the key differences between defending a standing guillotine versus a guillotine from guard?",
-        "answer": "Standing guillotine defense emphasizes maintaining base and posture while driving opponent backward to take them down, finishing in top position as they fall. Guard guillotine defense requires breaking the closed guard first while maintaining posture, then executing the standard circular escape. Standing defense often involves more aggressive forward drive to force opponent down, while guard defense requires more technical guard-breaking before the escape can be completed. Both require same fundamental principles of posture, hand control, and pressure."
+        "answer": "Standing guillotine defense emphasizes maintaining base and posture while driving opponent backward to take them down, finishing in top position as they fall. Guard guillotine defense requires breaking the closed guard first while maintaining posture, then executing the standard circular escape. Standing defense often involves more aggressive forward drive to force opponent down, while guard defense requires more technical guard-breaking before the escape can be completed. Both require same fundamental principles of posture, hand control, and pressure.",
+        "answer_line": "Takedown standing, break guard",
+        "distractors": {
+          "plausible": [
+            "Same escape works both ways",
+            "Guard: drive down, standing: break"
+          ],
+          "trap": [
+            "Skip posture, rush the escape"
+          ]
+        }
       },
       {
         "question": "Why is hand control on the choking wrist or forearm essential, and what happens if this control is neglected?",
-        "answer": "Hand control on the choking arm prevents opponent from making micro-adjustments to their grip that could dramatically increase the choke's effectiveness. Without this control, opponent can transition between guillotine variations (standard to high elbow to arm-in), adjust the angle of their forearm against your neck, or use their free hand to assist the choke. The choking arm control also provides you with feedback about their intentions and creates a physical barrier that limits how much they can tighten the submission."
+        "answer": "Hand control on the choking arm prevents opponent from making micro-adjustments to their grip that could dramatically increase the choke's effectiveness. Without this control, opponent can transition between guillotine variations (standard to high elbow to arm-in), adjust the angle of their forearm against your neck, or use their free hand to assist the choke. The choking arm control also provides you with feedback about their intentions and creates a physical barrier that limits how much they can tighten the submission.",
+        "answer_line": "Control wrist, block adjustments",
+        "distractors": {
+          "plausible": [
+            "Control their far arm instead",
+            "Grip their head, not the arm"
+          ],
+          "trap": [
+            "Let go, both hands frame chest"
+          ]
+        }
       },
       {
         "question": "Explain the biomechanical relationship between your forward pressure and the opponent's ability to generate choking force?",
-        "answer": "The guillotine choke requires opponent to create a lifting or arching motion with their torso to generate the upward pressure that closes your windpipe against their forearm. Forward pressure directly opposes this motion by driving their chest and shoulders flat to the mat, preventing them from achieving the arch. Additionally, forward pressure shifts your body weight through their core, making it mechanically difficult for them to lift or create the specific angle needed. The more vertical and flat their torso becomes, the less leverage they have on the choke."
+        "answer": "The guillotine choke requires opponent to create a lifting or arching motion with their torso to generate the upward pressure that closes your windpipe against their forearm. Forward pressure directly opposes this motion by driving their chest and shoulders flat to the mat, preventing them from achieving the arch. Additionally, forward pressure shifts your body weight through their core, making it mechanically difficult for them to lift or create the specific angle needed. The more vertical and flat their torso becomes, the less leverage they have on the choke.",
+        "answer_line": "Pressure kills their arch/lift",
+        "distractors": {
+          "plausible": [
+            "Pressure just tires them out",
+            "Pressure controls their hips only"
+          ],
+          "trap": [
+            "Arch your own back to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent catches a guillotine during your single leg attempt and begins to close guard — what is your optimal timing window for initiating the counter?",
-        "answer": "The optimal timing window is immediately as the guillotine grip is secured but before the guard is fully closed. Once closed guard is established, the defense becomes significantly more complex because you must break the guard before completing the escape. During the single leg, your posture is already compromised, so you must instantly tuck your chin, drive your head to the non-choking side, and commit to forward pressure before the opponent can lock their ankles behind your back. Every second of delay narrows your escape options."
+        "answer": "The optimal timing window is immediately as the guillotine grip is secured but before the guard is fully closed. Once closed guard is established, the defense becomes significantly more complex because you must break the guard before completing the escape. During the single leg, your posture is already compromised, so you must instantly tuck your chin, drive your head to the non-choking side, and commit to forward pressure before the opponent can lock their ankles behind your back. Every second of delay narrows your escape options.",
+        "answer_line": "Act before guard closes",
+        "distractors": {
+          "plausible": [
+            "Finish takedown before defending",
+            "Posture up, then address choke"
+          ],
+          "trap": [
+            "Let them lock guard, then react"
+          ]
+        }
       },
       {
         "question": "After successfully extracting your head from the guillotine, your opponent immediately hip-escapes to recover guard — how do you chain into the next position?",
-        "answer": "As you extract your head, you must immediately drive your crossface shoulder into their neck and secure the underhook on the far side before they can complete the hip escape. Your hips must drop heavy on their near hip to block the knee from re-inserting. If they have already begun the hip escape, follow their movement with your hips and use knee-on-belly as a transitional pin to cut off the guard recovery. The key principle is that head extraction and positional consolidation must be a single continuous movement, not two separate actions."
+        "answer": "As you extract your head, you must immediately drive your crossface shoulder into their neck and secure the underhook on the far side before they can complete the hip escape. Your hips must drop heavy on their near hip to block the knee from re-inserting. If they have already begun the hip escape, follow their movement with your hips and use knee-on-belly as a transitional pin to cut off the guard recovery. The key principle is that head extraction and positional consolidation must be a single continuous movement, not two separate actions.",
+        "answer_line": "Crossface + underhook, hips heavy",
+        "distractors": {
+          "plausible": [
+            "Extract, then look for the next",
+            "Underhook first, head second"
+          ],
+          "trap": [
+            "Back away to reset positioning"
+          ]
+        }
       },
       {
         "question": "How do you assess whether a guillotine is too deep and locked to escape versus still defensible?",
-        "answer": "A guillotine becomes likely inescapable when three factors converge: opponent has fully closed guard high on your back with ankles locked, their choking arm is deep with the blade of the forearm directly across your trachea or both carotid arteries, and your posture is completely broken with your head pulled below their chest level. If any one of these three elements is missing, the counter remains viable. If you can still maintain some posture, their guard is open, or their grip is shallow across your jaw rather than deep on the neck, proceed with the systematic counter. When all three elements are locked in, tap early in training to preserve your training longevity."
+        "answer": "A guillotine becomes likely inescapable when three factors converge: opponent has fully closed guard high on your back with ankles locked, their choking arm is deep with the blade of the forearm directly across your trachea or both carotid arteries, and your posture is completely broken with your head pulled below their chest level. If any one of these three elements is missing, the counter remains viable. If you can still maintain some posture, their guard is open, or their grip is shallow across your jaw rather than deep on the neck, proceed with the systematic counter. When all three elements are locked in, tap early in training to preserve your training longevity.",
+        "answer_line": "Guard, blade, and posture all gone",
+        "distractors": {
+          "plausible": [
+            "Any deep grip means tap now",
+            "Closed guard alone means locked"
+          ],
+          "trap": [
+            "Fight harder, ignore posture cues"
+          ]
+        }
       },
       {
         "question": "If you successfully pass to side control but your opponent refuses to release the guillotine grip, what submission opportunity does this create?",
-        "answer": "When an opponent maintains a guillotine grip after you have passed to side control, they create the conditions for a Von Flue choke. By driving your shoulder into their choking arm while their own grip traps their arm against their neck, you compress the carotid artery using their own arm as the choking mechanism. Establish heavy crossface pressure with your shoulder driving into their forearm against their neck, sprawl your legs back for maximum weight, and wait for the tap. The opponent's refusal to release becomes a liability that assists your counter-submission from side control."
+        "answer": "When an opponent maintains a guillotine grip after you have passed to side control, they create the conditions for a Von Flue choke. By driving your shoulder into their choking arm while their own grip traps their arm against their neck, you compress the carotid artery using their own arm as the choking mechanism. Establish heavy crossface pressure with your shoulder driving into their forearm against their neck, sprawl your legs back for maximum weight, and wait for the tap. The opponent's refusal to release becomes a liability that assists your counter-submission from side control.",
+        "answer_line": "Crossface into their own arm",
+        "distractors": {
+          "plausible": [
+            "Pry their arm off first",
+            "Switch to armbar attempt"
+          ],
+          "trap": [
+            "Force their grip release fast"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap.",
@@ -404,27 +504,87 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that your opponent is initiating a guillotine counter, and what should your immediate response be?",
-        "answer": "The earliest cue is the opponent tucking their chin tightly and driving their head toward the non-choking side while their same-side hand reaches for your choking wrist. Your immediate response should be to elevate your choking elbow toward the ceiling and close your guard higher on their back before they can establish forward pressure. This transitions you to a high elbow guillotine variation that is more resistant to the standard counter mechanics. Reacting at this early stage is far more effective than waiting for the forward pressure to develop."
+        "answer": "The earliest cue is the opponent tucking their chin tightly and driving their head toward the non-choking side while their same-side hand reaches for your choking wrist. Your immediate response should be to elevate your choking elbow toward the ceiling and close your guard higher on their back before they can establish forward pressure. This transitions you to a high elbow guillotine variation that is more resistant to the standard counter mechanics. Reacting at this early stage is far more effective than waiting for the forward pressure to develop.",
+        "answer_line": "Elevate elbow, high guard early",
+        "distractors": {
+          "plausible": [
+            "Wait for pressure, then react",
+            "Push their head away first"
+          ],
+          "trap": [
+            "Lower guard to create space"
+          ]
+        }
       },
       {
         "question": "When should you release the guillotine and transition to guard recovery instead of fighting for the finish?",
-        "answer": "You should release when three conditions are met simultaneously: the opponent has established strong hand control on your choking wrist preventing adjustment, their forward pressure has flattened your posture eliminating your arching leverage, and they have begun circling to the safe side. At this point the choke is structurally compromised beyond recovery. Releasing allows you to use both hands for framing and guard retention before the opponent completes the pass to side control. Holding longer only wastes energy and guarantees a worse final position."
+        "answer": "You should release when three conditions are met simultaneously: the opponent has established strong hand control on your choking wrist preventing adjustment, their forward pressure has flattened your posture eliminating your arching leverage, and they have begun circling to the safe side. At this point the choke is structurally compromised beyond recovery. Releasing allows you to use both hands for framing and guard retention before the opponent completes the pass to side control. Holding longer only wastes energy and guarantees a worse final position.",
+        "answer_line": "They control wrist, flatten, circle",
+        "distractors": {
+          "plausible": [
+            "Hold on, wait for their mistake",
+            "Release only if arm goes numb"
+          ],
+          "trap": [
+            "Keep squeezing, ignore posture"
+          ]
+        }
       },
       {
         "question": "How does the hip bump sweep integrate with guillotine defense when the opponent drives heavy forward pressure?",
-        "answer": "The opponent's committed forward pressure creates ideal conditions for a hip bump sweep because their weight is already driving over your center of gravity. As they drive forward, bridge your hips upward on the non-choking side while maintaining whatever grip remains on the neck. Their forward momentum carries them over and you follow to mount. This works because the opponent cannot simultaneously drive heavy forward pressure for the guillotine counter and maintain a low defensive base against sweeps. The sweep converts their offensive momentum into your positional advantage."
+        "answer": "The opponent's committed forward pressure creates ideal conditions for a hip bump sweep because their weight is already driving over your center of gravity. As they drive forward, bridge your hips upward on the non-choking side while maintaining whatever grip remains on the neck. Their forward momentum carries them over and you follow to mount. This works because the opponent cannot simultaneously drive heavy forward pressure for the guillotine counter and maintain a low defensive base against sweeps. The sweep converts their offensive momentum into your positional advantage.",
+        "answer_line": "Bridge hips as they drive forward",
+        "distractors": {
+          "plausible": [
+            "Push their head down first",
+            "Wait for full mount before sweep"
+          ],
+          "trap": [
+            "Pull guard closed tighter"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully extracts their head — what are your options in the next two seconds?",
-        "answer": "In the immediate moment of head extraction, you have a narrow window before the opponent consolidates side control. Your highest-percentage option is to immediately hip-escape away and insert your knee to recover half guard or closed guard. If their weight is still transitioning, you can attempt to re-pummel an underhook and recover to a seated guard or dogfight position. If you still have any grip on their head or neck, use it to redirect their base and create space for the hip escape. The critical error is freezing — any movement toward guard recovery is better than remaining flat."
+        "answer": "In the immediate moment of head extraction, you have a narrow window before the opponent consolidates side control. Your highest-percentage option is to immediately hip-escape away and insert your knee to recover half guard or closed guard. If their weight is still transitioning, you can attempt to re-pummel an underhook and recover to a seated guard or dogfight position. If you still have any grip on their head or neck, use it to redirect their base and create space for the hip escape. The critical error is freezing — any movement toward guard recovery is better than remaining flat.",
+        "answer_line": "Hip escape, insert knee fast",
+        "distractors": {
+          "plausible": [
+            "Re-pummel underhook instead",
+            "Push away and stand up"
+          ],
+          "trap": [
+            "Freeze and reassess options"
+          ]
+        }
       },
       {
         "question": "Your opponent's head begins circling away from the choking arm — should you transition to an anaconda or darce, and what determines which one?",
-        "answer": "The direction of your opponent's rotation and their arm position determine the optimal transition. If they circle their body away while keeping their near arm posted on the mat and exposed between your bodies, thread your choking arm deeper and secure a darce grip by connecting your hands around their neck and far arm. If they tuck their near arm tight and drive their shoulder into you while circling, the anaconda is more accessible — release the guillotine, shoot your choking arm under their neck and through the far armpit, and lock your grip. The key distinction is near arm position: darce when exposed, anaconda when you can thread under the neck. Both transitions must happen before the opponent completes the circular escape."
+        "answer": "The direction of your opponent's rotation and their arm position determine the optimal transition. If they circle their body away while keeping their near arm posted on the mat and exposed between your bodies, thread your choking arm deeper and secure a darce grip by connecting your hands around their neck and far arm. If they tuck their near arm tight and drive their shoulder into you while circling, the anaconda is more accessible — release the guillotine, shoot your choking arm under their neck and through the far armpit, and lock your grip. The key distinction is near arm position: darce when exposed, anaconda when you can thread under the neck. Both transitions must happen before the opponent completes the circular escape.",
+        "answer_line": "Exposed arm=darce, tucked=anaconda",
+        "distractors": {
+          "plausible": [
+            "Always default to the darce",
+            "Choose based on your own grip"
+          ],
+          "trap": [
+            "Release guillotine, wait it out"
+          ]
+        }
       },
       {
         "question": "How does adjusting your guard height on the opponent's back affect your ability to maintain the guillotine during a counter attempt?",
-        "answer": "Guard height directly controls the opponent's posture and your choking leverage. Closed guard locked high on the opponent's upper back near the shoulder blades maximizes your ability to break their posture downward and prevents them from driving forward effectively, as their hips cannot generate power when their upper body is pulled down. Conversely, guard locked low around the opponent's waist provides minimal posture control and allows them to posture up and drive forward easily. When you feel the counter initiate, immediately climb your guard higher by unlocking your ankles, repositioning your legs, and re-locking as high as possible. This single adjustment can nullify the forward pressure that makes the guillotine counter effective."
+        "answer": "Guard height directly controls the opponent's posture and your choking leverage. Closed guard locked high on the opponent's upper back near the shoulder blades maximizes your ability to break their posture downward and prevents them from driving forward effectively, as their hips cannot generate power when their upper body is pulled down. Conversely, guard locked low around the opponent's waist provides minimal posture control and allows them to posture up and drive forward easily. When you feel the counter initiate, immediately climb your guard higher by unlocking your ankles, repositioning your legs, and re-locking as high as possible. This single adjustment can nullify the forward pressure that makes the guillotine counter effective.",
+        "answer_line": "Climb guard high on their back",
+        "distractors": {
+          "plausible": [
+            "Lock guard at the waist",
+            "Cross ankles tighter, same spot"
+          ],
+          "trap": [
+            "Open guard to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [

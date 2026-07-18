@@ -270,23 +270,73 @@
     "flashcards": [
       {
         "question": "What is the optimal timing for initiating the hip escape from cross body ride?",
-        "answer": "The optimal timing is during weight transitions—when the opponent adjusts their grips, shifts their chest pressure to set up a different attack, or begins inserting hooks. These micro-adjustments momentarily lighten their pressure and compromise their perpendicular connection to your back. Attempting the escape during settled, heavy pressure wastes energy and has a significantly lower success rate. Train yourself to feel pressure changes through tactile awareness and explode during these brief windows."
+        "answer": "The optimal timing is during weight transitions—when the opponent adjusts their grips, shifts their chest pressure to set up a different attack, or begins inserting hooks. These micro-adjustments momentarily lighten their pressure and compromise their perpendicular connection to your back. Attempting the escape during settled, heavy pressure wastes energy and has a significantly lower success rate. Train yourself to feel pressure changes through tactile awareness and explode during these brief windows.",
+        "answer_line": "Explode during pressure shifts",
+        "distractors": {
+          "plausible": [
+            "Wait until they settle heavy",
+            "Go right after they pass guard"
+          ],
+          "trap": [
+            "Explode into heaviest pressure"
+          ]
+        }
       },
       {
         "question": "Your frame against the opponent's hip is being stripped—how do you adjust your escape approach?",
-        "answer": "If your forearm frame is being stripped, immediately switch to a secondary framing point. Use your elbow against their knee or hip crease, which is harder to strip because it creates a bone-on-bone wedge that their grip cannot easily control. Alternatively, abandon the frame entirely and redirect your effort to a quick sit-out or granby roll while the opponent is focused on hand fighting. The key is never fighting a losing grip battle—if one escape pathway closes, immediately redirect energy to another."
+        "answer": "If your forearm frame is being stripped, immediately switch to a secondary framing point. Use your elbow against their knee or hip crease, which is harder to strip because it creates a bone-on-bone wedge that their grip cannot easily control. Alternatively, abandon the frame entirely and redirect your effort to a quick sit-out or granby roll while the opponent is focused on hand fighting. The key is never fighting a losing grip battle—if one escape pathway closes, immediately redirect energy to another.",
+        "answer_line": "Wedge elbow into hip crease",
+        "distractors": {
+          "plausible": [
+            "Re-grip the same forearm spot",
+            "Push off their far-side knee"
+          ],
+          "trap": [
+            "Extend arm to re-frame harder"
+          ]
+        }
       },
       {
         "question": "What direction should you shrimp relative to the opponent's chest pressure?",
-        "answer": "Shrimp directly lateral—away from the perpendicular line of the opponent's chest pressure. If they are riding across your back from right to left, shrimp to the left to escape their weight line. Moving forward or backward is ineffective because the cross body configuration can follow these directions easily. Lateral movement exploits the key weakness of perpendicular positioning: the top player cannot follow lateral hip displacement without completely reorganizing their weight distribution and angle."
+        "answer": "Shrimp directly lateral—away from the perpendicular line of the opponent's chest pressure. If they are riding across your back from right to left, shrimp to the left to escape their weight line. Moving forward or backward is ineffective because the cross body configuration can follow these directions easily. Lateral movement exploits the key weakness of perpendicular positioning: the top player cannot follow lateral hip displacement without completely reorganizing their weight distribution and angle.",
+        "answer_line": "Shrimp lateral, away from chest",
+        "distractors": {
+          "plausible": [
+            "Shrimp straight toward your feet",
+            "Shrimp backward under them"
+          ],
+          "trap": [
+            "Shrimp into their pressure line"
+          ]
+        }
       },
       {
         "question": "Your first hip escape attempt fails and the opponent settles heavier—what is your next action?",
-        "answer": "Do not repeat the identical escape immediately. Instead, create a brief moment of stillness to reset your frame, then chain a different escape variant. Try shrimping in the opposite direction, or transition to a sit-out by threading your near leg through. If the opponent has settled very heavy, use small micro-movements to disrupt their balance before committing to the next explosive attempt. The worst response is remaining still and accepting the position—continuous movement keeps escape possibilities alive."
+        "answer": "Do not repeat the identical escape immediately. Instead, create a brief moment of stillness to reset your frame, then chain a different escape variant. Try shrimping in the opposite direction, or transition to a sit-out by threading your near leg through. If the opponent has settled very heavy, use small micro-movements to disrupt their balance before committing to the next explosive attempt. The worst response is remaining still and accepting the position—continuous movement keeps escape possibilities alive.",
+        "answer_line": "Reset, then chain new variant",
+        "distractors": {
+          "plausible": [
+            "Repeat identical escape harder",
+            "Hold still to save energy"
+          ],
+          "trap": [
+            "Stop moving, accept the position"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you maintain on your defensive arm during the hip escape?",
-        "answer": "Keep your defensive arm—the arm not being used for framing—tight to your body with hand protecting your collar and neck area. This arm should never extend away from your torso during the escape, as extension creates opportunities for arm isolation, kimura attacks, or crucifix entries. After the hip escape creates space, this arm transitions to assist with position recovery: either posting to support a sit-up or threading between your body and the opponent for half guard insertion."
+        "answer": "Keep your defensive arm—the arm not being used for framing—tight to your body with hand protecting your collar and neck area. This arm should never extend away from your torso during the escape, as extension creates opportunities for arm isolation, kimura attacks, or crucifix entries. After the hip escape creates space, this arm transitions to assist with position recovery: either posting to support a sit-up or threading between your body and the opponent for half guard insertion.",
+        "answer_line": "Keep arm tight, guard collar",
+        "distractors": {
+          "plausible": [
+            "Post arm wide for extra base",
+            "Reach for their far collar"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       },
       {
         "question": "How does the opponent's exact angle across your back determine which hip escape variation you use?",
@@ -294,11 +344,31 @@
       },
       {
         "question": "What is the critical mechanical difference between a hip escape from cross body ride and a standard side control hip escape?",
-        "answer": "In cross body ride, the opponent's pressure comes from above and perpendicular to your spine rather than laterally as in side control. This means your frame must push upward against their hip rather than sideways against their chest. Additionally, you are face-down rather than on your back, so the shrimping motion involves rotating your hips laterally while maintaining a turtle-like posture rather than the supine bridge-and-shrimp of side control escapes. The face-down orientation also means you must actively protect your back throughout the entire sequence."
+        "answer": "In cross body ride, the opponent's pressure comes from above and perpendicular to your spine rather than laterally as in side control. This means your frame must push upward against their hip rather than sideways against their chest. Additionally, you are face-down rather than on your back, so the shrimping motion involves rotating your hips laterally while maintaining a turtle-like posture rather than the supine bridge-and-shrimp of side control escapes. The face-down orientation also means you must actively protect your back throughout the entire sequence.",
+        "answer_line": "Frame upward, turtle not supine",
+        "distractors": {
+          "plausible": [
+            "Frame sideways like side control",
+            "Bridge and shrimp like supine"
+          ],
+          "trap": [
+            "Roll onto back to shrimp free"
+          ]
+        }
       },
       {
         "question": "If the hip escape successfully creates space but the opponent transitions to a seatbelt grip, what becomes your immediate priority?",
-        "answer": "Immediately switch priority from completing guard recovery to fighting the seatbelt grip, specifically targeting the choking hand—the arm over your shoulder. Use both hands to strip this grip before the opponent can consolidate back control with hooks. If you cannot strip the grip quickly, continue your hip escape motion aggressively to prevent hook insertion while hand fighting. The seatbelt without hooks is recoverable; seatbelt with hooks means your escape window has closed and you must transition to dedicated back escape techniques."
+        "answer": "Immediately switch priority from completing guard recovery to fighting the seatbelt grip, specifically targeting the choking hand—the arm over your shoulder. Use both hands to strip this grip before the opponent can consolidate back control with hooks. If you cannot strip the grip quickly, continue your hip escape motion aggressively to prevent hook insertion while hand fighting. The seatbelt without hooks is recoverable; seatbelt with hooks means your escape window has closed and you must transition to dedicated back escape techniques.",
+        "answer_line": "Strip the seatbelt choking arm",
+        "distractors": {
+          "plausible": [
+            "Finish your guard recovery first",
+            "Fight the far-side hook first"
+          ],
+          "trap": [
+            "Ignore the grip, keep escaping"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape technique carries low injury risk when performed with proper mechanics. The primary safety concern is neck strain from explosive movement while the opponent maintains heavy upper back pressure. Always maintain chin-tucked posture throughout the escape to protect the cervical spine. During drilling, communicate with training partners about pressure levels and begin with light resistance before gradually increasing intensity. If caught in a choke during the escape attempt, tap immediately rather than continuing the escape. Avoid excessive bridging or twisting movements that could strain the lower back under load, and ensure proper warm-up of hips and shoulders before dedicated drilling sessions.",
@@ -406,19 +476,59 @@
     "flashcards": [
       {
         "question": "What is the earliest indicator that the bottom player is preparing a hip escape from your cross body ride?",
-        "answer": "The earliest indicator is feeling a forearm or hand posting against your hip or thigh. This frame is the essential setup for any effective hip escape—without it, the bottom player cannot generate sufficient lateral force to escape the ride. Secondary indicators include subtle hip loading, where they shift weight toward you before exploding away, and a change in breathing pattern that signals preparation for explosive effort. When you feel the frame establish, immediately address it by driving your hip into their frame to collapse it or begin preparing your own transition."
+        "answer": "The earliest indicator is feeling a forearm or hand posting against your hip or thigh. This frame is the essential setup for any effective hip escape—without it, the bottom player cannot generate sufficient lateral force to escape the ride. Secondary indicators include subtle hip loading, where they shift weight toward you before exploding away, and a change in breathing pattern that signals preparation for explosive effort. When you feel the frame establish, immediately address it by driving your hip into their frame to collapse it or begin preparing your own transition.",
+        "answer_line": "Forearm posts against your hip",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip movement",
+            "Opponent grips your far arm"
+          ],
+          "trap": [
+            "Wait until they fully turn in"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully creates space with a hip escape—should you re-establish the ride or transition to back control?",
-        "answer": "This depends on the amount of space created. If the separation is minimal with six inches or less of displacement, re-establishing the ride by following their movement and driving your chest back down is the higher-percentage option. If significant space has opened with more than a foot of separation, attempting to close that gap risks giving them time to recover guard. In this case, immediately transition to back control by securing a seatbelt grip and inserting your near-side hook while the position is still in flux."
+        "answer": "This depends on the amount of space created. If the separation is minimal with six inches or less of displacement, re-establishing the ride by following their movement and driving your chest back down is the higher-percentage option. If significant space has opened with more than a foot of separation, attempting to close that gap risks giving them time to recover guard. In this case, immediately transition to back control by securing a seatbelt grip and inserting your near-side hook while the position is still in flux.",
+        "answer_line": "Small gap reclose; large gap back",
+        "distractors": {
+          "plausible": [
+            "Always re-establish the ride",
+            "Always go straight for back"
+          ],
+          "trap": [
+            "Chase the space, drop control"
+          ]
+        }
       },
       {
         "question": "How do you maintain cross body ride pressure against a bottom player who chains multiple consecutive hip escapes?",
-        "answer": "Against chained hip escapes, you must match their rhythm and direction, following each escape laterally while maintaining chest contact. After their second or third consecutive escape attempt, the bottom player will often pause from accumulated fatigue—this is the moment to decisively advance your position. You can also break their chain by changing your own pressure angle mid-sequence, switching from perpendicular to diagonal orientation or inserting a far-side hook during the brief pause between escape attempts."
+        "answer": "Against chained hip escapes, you must match their rhythm and direction, following each escape laterally while maintaining chest contact. After their second or third consecutive escape attempt, the bottom player will often pause from accumulated fatigue—this is the moment to decisively advance your position. You can also break their chain by changing your own pressure angle mid-sequence, switching from perpendicular to diagonal orientation or inserting a far-side hook during the brief pause between escape attempts.",
+        "answer_line": "Match rhythm, strike at pause",
+        "distractors": {
+          "plausible": [
+            "Match rhythm, wait for tap",
+            "Release pressure to reset"
+          ],
+          "trap": [
+            "Back off to avoid the chain"
+          ]
+        }
       },
       {
         "question": "What distinguishes a hip escape attempt from a setup for a sit-out or granby roll?",
-        "answer": "A hip escape loads the hips laterally with a frame against your hip—the energy is directed sideways away from your pressure line. A sit-out involves the bottom player threading their near leg through while turning to face you—the energy is directed rotationally. A granby roll loads shoulder rotation with forward-and-over momentum. Feel for the direction of force through your chest: lateral displacement suggests hip escape, rotational hip turning suggests sit-out, shoulder loading suggests granby. This distinction matters because the optimal defensive response differs for each."
+        "answer": "A hip escape loads the hips laterally with a frame against your hip—the energy is directed sideways away from your pressure line. A sit-out involves the bottom player threading their near leg through while turning to face you—the energy is directed rotationally. A granby roll loads shoulder rotation with forward-and-over momentum. Feel for the direction of force through your chest: lateral displacement suggests hip escape, rotational hip turning suggests sit-out, shoulder loading suggests granby. This distinction matters because the optimal defensive response differs for each.",
+        "answer_line": "Lateral load signals hip escape",
+        "distractors": {
+          "plausible": [
+            "Rotational load signals hip escape",
+            "Shoulder load signals sit-out"
+          ],
+          "trap": [
+            "React the same to any loading"
+          ]
+        }
       }
     ],
     "training_progressions": [

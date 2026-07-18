@@ -262,35 +262,115 @@
     "flashcards": [
       {
         "question": "What is the fundamental mechanical principle behind the Frame and Posture escape from Anaconda Control?",
-        "answer": "The anaconda choke requires chest-on-shoulder compression to create the constricting force around the neck. Frames disrupt this compression by inserting a structural barrier between the opponent's chest and your trapped shoulder, reducing the force driving the choke even without breaking the opponent's grip. By removing the chest pressure component through skeletal framing, the choking loop loosens enough to allow posture recovery and eventual head extraction through the expanded opening."
+        "answer": "The anaconda choke requires chest-on-shoulder compression to create the constricting force around the neck. Frames disrupt this compression by inserting a structural barrier between the opponent's chest and your trapped shoulder, reducing the force driving the choke even without breaking the opponent's grip. By removing the chest pressure component through skeletal framing, the choking loop loosens enough to allow posture recovery and eventual head extraction through the expanded opening.",
+        "answer_line": "Frame breaks chest pressure",
+        "distractors": {
+          "plausible": [
+            "Pry the choking grip open",
+            "Force head out immediately"
+          ],
+          "trap": [
+            "Push into their chest harder"
+          ]
+        }
       },
       {
         "question": "Why should you frame against the opponent's body rather than their choking arm?",
-        "answer": "The choking arm has the opponent's full body weight behind it through their chest pressure, making arm-on-arm displacement nearly impossible with your free hand alone. Framing against their shoulder or hip targets their body structure, which you can resist with skeletal alignment. The frame does not need to move the choking arm—it only needs to prevent the opponent's chest from driving into your shoulder, which removes the compression that makes the anaconda choke mechanically effective."
+        "answer": "The choking arm has the opponent's full body weight behind it through their chest pressure, making arm-on-arm displacement nearly impossible with your free hand alone. Framing against their shoulder or hip targets their body structure, which you can resist with skeletal alignment. The frame does not need to move the choking arm—it only needs to prevent the opponent's chest from driving into your shoulder, which removes the compression that makes the anaconda choke mechanically effective.",
+        "answer_line": "Frame hip or shoulder, not arm",
+        "distractors": {
+          "plausible": [
+            "Frame directly against their arm",
+            "Push on their trapped-side elbow"
+          ],
+          "trap": [
+            "Pry their choking hand open"
+          ]
+        }
       },
       {
         "question": "Your frame is established but the opponent is driving forward with heavy chest pressure—what adjustment do you make?",
-        "answer": "Angle your frame to redirect their forward pressure to the side rather than absorbing it head-on. Rotate your forearm so their weight slides past your frame rather than compressing through it directly. Simultaneously increase hip movement away from their pressure vector to create angular displacement that makes their forward drive less effective. If the direct forward pressure overwhelms, shift the frame slightly lower to their hip where you have better mechanical leverage against their mass."
+        "answer": "Angle your frame to redirect their forward pressure to the side rather than absorbing it head-on. Rotate your forearm so their weight slides past your frame rather than compressing through it directly. Simultaneously increase hip movement away from their pressure vector to create angular displacement that makes their forward drive less effective. If the direct forward pressure overwhelms, shift the frame slightly lower to their hip where you have better mechanical leverage against their mass.",
+        "answer_line": "Redirect pressure to the side",
+        "distractors": {
+          "plausible": [
+            "Push straight back head-on",
+            "Square up and match their force"
+          ],
+          "trap": [
+            "Drop the frame, bridge hard"
+          ]
+        }
       },
       {
         "question": "When is the Frame and Posture escape more appropriate than the Anaconda Grip Break?",
-        "answer": "Frame and Posture is preferred when the opponent's grip junction is inaccessible—either because their hands are locked too deep on the far side of your neck for your free hand to reach, or because the figure-four configuration makes the junction resistant to peeling. It is also better when you have limited hand dexterity due to the trapped arm's positioning but can still establish forearm frames with your free arm. The grip break is preferred when you have clear access to the opponent's clasped hands."
+        "answer": "Frame and Posture is preferred when the opponent's grip junction is inaccessible—either because their hands are locked too deep on the far side of your neck for your free hand to reach, or because the figure-four configuration makes the junction resistant to peeling. It is also better when you have limited hand dexterity due to the trapped arm's positioning but can still establish forearm frames with your free arm. The grip break is preferred when you have clear access to the opponent's clasped hands.",
+        "answer_line": "Grip junction is out of reach",
+        "distractors": {
+          "plausible": [
+            "Opponent's grip feels loose",
+            "You have full hand dexterity"
+          ],
+          "trap": [
+            "Always default to grip break"
+          ]
+        }
       },
       {
         "question": "What is the correct timing for beginning posture recovery relative to frame establishment?",
-        "answer": "Begin posture recovery only after the frame has created measurable space between the opponent's chest and your trapped shoulder. If you feel the opponent's chest pressure reduce and your breathing becomes easier, the frame is generating sufficient separation to start lifting your torso. Attempting posture recovery before the frame is loaded invites the choke to tighten during the movement because your body shifts within the constricting loop. The frame must be creating active counter-pressure before any postural change begins."
+        "answer": "Begin posture recovery only after the frame has created measurable space between the opponent's chest and your trapped shoulder. If you feel the opponent's chest pressure reduce and your breathing becomes easier, the frame is generating sufficient separation to start lifting your torso. Attempting posture recovery before the frame is loaded invites the choke to tighten during the movement because your body shifts within the constricting loop. The frame must be creating active counter-pressure before any postural change begins.",
+        "answer_line": "Only after frame loosens choke",
+        "distractors": {
+          "plausible": [
+            "As soon as frame hand lands",
+            "Simultaneously with framing"
+          ],
+          "trap": [
+            "Before frame takes hold"
+          ]
+        }
       },
       {
         "question": "How do you handle the opponent initiating a roll-through while you are mid-frame escape?",
-        "answer": "Immediately abandon the frame and post your free hand on the mat while sprawling your legs backward to resist the roll. The roll-through is the finishing sequence and takes absolute priority over continuing the frame escape. Once the roll attempt stalls and the opponent must resettle, re-establish your frame and resume the escape sequence. The frame escape creates slight vulnerability to the roll because your posting hand is occupied with framing rather than sprawling, so remain alert for rolling initiation throughout."
+        "answer": "Immediately abandon the frame and post your free hand on the mat while sprawling your legs backward to resist the roll. The roll-through is the finishing sequence and takes absolute priority over continuing the frame escape. Once the roll attempt stalls and the opponent must resettle, re-establish your frame and resume the escape sequence. The frame escape creates slight vulnerability to the roll because your posting hand is occupied with framing rather than sprawling, so remain alert for rolling initiation throughout.",
+        "answer_line": "Post and sprawl, abandon frame",
+        "distractors": {
+          "plausible": [
+            "Keep framing through the roll",
+            "Grip fight instead of posting"
+          ],
+          "trap": [
+            "Hold frame, ride the roll out"
+          ]
+        }
       },
       {
         "question": "Your opponent switches to a darce grip during your frame and posture recovery—how do you recognize and respond?",
-        "answer": "You will feel their choking arm threading deeper across the back of your neck while their opposite hand releases and re-grips from a different angle. The pressure vector shifts from the anaconda's lateral compression to the darce's diagonal compression across the neck. Immediately redirect your frame toward the darce's compression angle, typically shifting from their shoulder to their chest or far shoulder. Circle your hips toward the darce arm side while continuing posture recovery, as this direction weakens the darce compression geometry."
+        "answer": "You will feel their choking arm threading deeper across the back of your neck while their opposite hand releases and re-grips from a different angle. The pressure vector shifts from the anaconda's lateral compression to the darce's diagonal compression across the neck. Immediately redirect your frame toward the darce's compression angle, typically shifting from their shoulder to their chest or far shoulder. Circle your hips toward the darce arm side while continuing posture recovery, as this direction weakens the darce compression geometry.",
+        "answer_line": "Shift frame to darce angle",
+        "distractors": {
+          "plausible": [
+            "Keep pressing original frame spot",
+            "Focus on freeing the choking arm"
+          ],
+          "trap": [
+            "Circle away from the darce arm"
+          ]
+        }
       },
       {
         "question": "What grip configuration on your frame hand provides the most structural resistance against the opponent's body weight?",
-        "answer": "An open palm with fingers spread against the opponent's shoulder or a fist pressed into their far hip provides the most structural resistance. The key is forearm alignment—your forearm must be perpendicular to the opponent's body at approximately 90 degrees with your elbow tight against your own ribs. This short-lever configuration transmits force through your skeletal structure rather than relying on muscular effort. Avoid cupping or gripping their clothing, as this engages grip muscles that fatigue quickly under sustained pressure."
+        "answer": "An open palm with fingers spread against the opponent's shoulder or a fist pressed into their far hip provides the most structural resistance. The key is forearm alignment—your forearm must be perpendicular to the opponent's body at approximately 90 degrees with your elbow tight against your own ribs. This short-lever configuration transmits force through your skeletal structure rather than relying on muscular effort. Avoid cupping or gripping their clothing, as this engages grip muscles that fatigue quickly under sustained pressure.",
+        "answer_line": "Open palm, forearm perpendicular",
+        "distractors": {
+          "plausible": [
+            "Grip their gi with a fist",
+            "Curl fingers for a firm grip"
+          ],
+          "trap": [
+            "Clutch their sleeve tightly"
+          ]
+        }
       }
     ],
     "safety_considerations": "Frame and Posture from Anaconda involves defending against an active blood choke that can cause unconsciousness within seconds when fully locked. Always tap immediately if you experience lightheadedness, tunnel vision, or loss of cognitive clarity during the escape attempt. In training, start drilling from loosely established anaconda positions and progressively increase tightness across sessions. Partners holding anaconda control must release immediately upon any tap signal and monitor for signs of distress including facial color changes and loss of muscular tension. Never attempt to power through a fully consolidated anaconda choke to practice this escape—the technique is most effective and safest to drill from early-stage anaconda control before the choke reaches maximum compression depth.",
@@ -403,23 +483,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a Frame and Posture escape rather than a grip break?",
-        "answer": "The Frame and Posture escape is identified by feeling the opponent's free forearm make deliberate perpendicular contact against your shoulder or hip in a structural placement. This differs from the grip break where their free hand reaches toward your grip junction on the far side of their neck. The distinction matters because frame escapes are countered through body pressure adjustment and angle changes, while grip breaks are countered by squeezing elbows together and reinforcing the grip junction."
+        "answer": "The Frame and Posture escape is identified by feeling the opponent's free forearm make deliberate perpendicular contact against your shoulder or hip in a structural placement. This differs from the grip break where their free hand reaches toward your grip junction on the far side of their neck. The distinction matters because frame escapes are countered through body pressure adjustment and angle changes, while grip breaks are countered by squeezing elbows together and reinforcing the grip junction.",
+        "answer_line": "Forearm presses your shoulder",
+        "distractors": {
+          "plausible": [
+            "Free hand reaching for the grip",
+            "Choke pressure suddenly increases"
+          ],
+          "trap": [
+            "Elbows squeezing together harder"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a strong frame against your shoulder and is beginning to lift their posture—should you maintain the anaconda or transition?",
-        "answer": "If posture recovery has reached the point where your chest is separating from their shoulder and the choking pressure is noticeably diminished despite your counter-pressure attempts, transition immediately. Your best options are darce configuration, which attacks from a different angle than the frame was designed to counter, or side control, which maintains dominant positioning. Continuing to fight a failing anaconda wastes energy and risks the opponent completing the escape to front headlock with momentum."
+        "answer": "If posture recovery has reached the point where your chest is separating from their shoulder and the choking pressure is noticeably diminished despite your counter-pressure attempts, transition immediately. Your best options are darce configuration, which attacks from a different angle than the frame was designed to counter, or side control, which maintains dominant positioning. Continuing to fight a failing anaconda wastes energy and risks the opponent completing the escape to front headlock with momentum.",
+        "answer_line": "Transition to darce or side control",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for the anaconda",
+            "Retreat to guard immediately"
+          ],
+          "trap": [
+            "Muscle the choke tighter"
+          ]
+        }
       },
       {
         "question": "How do you defeat a well-established forearm frame placed against your far shoulder?",
-        "answer": "Drive your shoulder and chest pressure diagonally rather than directly into the frame's strongest axis. A frame resists force from the perpendicular direction it was aligned against, so changing your pressure angle to approximately 45 degrees bypasses the frame's structural resistance. Simultaneously, walk your hips laterally to approach from a different angle entirely. If the angle change alone is insufficient, increase compression by squeezing elbows together to tighten the loop independent of chest pressure."
+        "answer": "Drive your shoulder and chest pressure diagonally rather than directly into the frame's strongest axis. A frame resists force from the perpendicular direction it was aligned against, so changing your pressure angle to approximately 45 degrees bypasses the frame's structural resistance. Simultaneously, walk your hips laterally to approach from a different angle entirely. If the angle change alone is insufficient, increase compression by squeezing elbows together to tighten the loop independent of chest pressure.",
+        "answer_line": "Drive pressure at an angle",
+        "distractors": {
+          "plausible": [
+            "Push straight into the frame",
+            "Pull opponent's arm away"
+          ],
+          "trap": [
+            "Back off to reset position"
+          ]
+        }
       },
       {
         "question": "When the Frame and Posture escape is partially successful and your opponent has created significant space, what is your optimal transition?",
-        "answer": "Your optimal transition is to the darce configuration. Thread your choking arm deeper across their neck while the frame-created space exists—the partial space actually assists the darce threading by providing room for your arm to travel across the back of their neck. The opponent's frame was positioned for the anaconda's compression angle, not the darce's diagonal compression, making this transition highly effective against the frame escape specifically. Time the transition before posture recovery completes or you lose the head control needed for the darce."
+        "answer": "Your optimal transition is to the darce configuration. Thread your choking arm deeper across their neck while the frame-created space exists—the partial space actually assists the darce threading by providing room for your arm to travel across the back of their neck. The opponent's frame was positioned for the anaconda's compression angle, not the darce's diagonal compression, making this transition highly effective against the frame escape specifically. Time the transition before posture recovery completes or you lose the head control needed for the darce.",
+        "answer_line": "Transition to darce quickly",
+        "distractors": {
+          "plausible": [
+            "Retighten the anaconda squeeze",
+            "Switch to a guillotine choke"
+          ],
+          "trap": [
+            "Release head control to regrip"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from recovering posture after their frame is established?",
-        "answer": "Counter posture recovery with immediate snap-down pressure—drive your chest weight forward and downward through their head and upper back to re-collapse their posture before upward momentum builds. Simultaneously squeeze your elbows tighter together to maintain the constricting loop's effectiveness. If the snap-down alone is insufficient because the frame prevents forward pressure, walk your hips to the opposite side of the frame to attack from a vector the frame cannot resist, then apply the snap-down from the new angle."
+        "answer": "Counter posture recovery with immediate snap-down pressure—drive your chest weight forward and downward through their head and upper back to re-collapse their posture before upward momentum builds. Simultaneously squeeze your elbows tighter together to maintain the constricting loop's effectiveness. If the snap-down alone is insufficient because the frame prevents forward pressure, walk your hips to the opposite side of the frame to attack from a vector the frame cannot resist, then apply the snap-down from the new angle.",
+        "answer_line": "Snap down, squeeze elbows",
+        "distractors": {
+          "plausible": [
+            "Push straight forward harder",
+            "Pull down on their head only"
+          ],
+          "trap": [
+            "Release pressure to reposition"
+          ]
+        }
       }
     ],
     "training_progressions": [

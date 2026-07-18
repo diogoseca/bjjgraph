@@ -382,39 +382,129 @@
   "flashcards": [
     {
       "question": "What is the core idea behind the Position-Over-Submission Approach?",
-      "answer": "It prioritizes establishing dominant, control-secure positions before attempting submissions, because higher positions in the hierarchy yield safer, higher-percentage finishes and dramatically reduce the risk of escapes, sweeps, or reversals."
+      "answer": "It prioritizes establishing dominant, control-secure positions before attempting submissions, because higher positions in the hierarchy yield safer, higher-percentage finishes and dramatically reduce the risk of escapes, sweeps, or reversals.",
+      "answer_line": "Secure position before submitting",
+      "distractors": {
+        "plausible": [
+          "Submit whenever opportunity appears",
+          "Speed matters more than control"
+        ],
+        "trap": [
+          "Chase the choke, ignore position"
+        ]
+      }
     },
     {
       "question": "How do you know when a position is secure enough to start hunting a submission?",
-      "answer": "When you have established that position's key control points — cross-face and pinning weight in side control, or both hooks and a seat belt on the back — so the opponent's escape pathways are blocked and a failed attempt will not cost you the position."
+      "answer": "When you have established that position's key control points — cross-face and pinning weight in side control, or both hooks and a seat belt on the back — so the opponent's escape pathways are blocked and a failed attempt will not cost you the position.",
+      "answer_line": "Key control points are locked in",
+      "distractors": {
+        "plausible": [
+          "Once you're on top position",
+          "After landing any strong grip"
+        ],
+        "trap": [
+          "Immediately after passing guard"
+        ]
+      }
     },
     {
       "question": "Why are submission attempts from neutral or inferior positions discouraged?",
-      "answer": "Because attacking from poor position frequently lets the opponent escape, counter, or sweep, which negates earlier work and can reverse the positional advantage entirely; the risk-reward trade is simply unfavorable."
+      "answer": "Because attacking from poor position frequently lets the opponent escape, counter, or sweep, which negates earlier work and can reverse the positional advantage entirely; the risk-reward trade is simply unfavorable.",
+      "answer_line": "Risk of escape outweighs reward",
+      "distractors": {
+        "plausible": [
+          "It wastes energy for low gain",
+          "You lose points if it fails"
+        ],
+        "trap": [
+          "Commit fully, ignore the position"
+        ]
+      }
     },
     {
       "question": "How does this principle change your priorities when you are stuck and flattened in bottom half guard?",
-      "answer": "It mandates that guard recovery and escape become the exclusive priority; you forego all submission attempts until you re-establish a neutral or superior position, since offense from an inferior spot only deepens the hole."
+      "answer": "It mandates that guard recovery and escape become the exclusive priority; you forego all submission attempts until you re-establish a neutral or superior position, since offense from an inferior spot only deepens the hole.",
+      "answer_line": "Escape first, forget submissions",
+      "distractors": {
+        "plausible": [
+          "Attempt a quick submission first",
+          "Try to sweep before escaping"
+        ],
+        "trap": [
+          "Go for a leg lock attempt"
+        ]
+      }
     },
     {
       "question": "What common error involves position quality, and how do you correct it?",
-      "answer": "Treating every instance of a position as equal — attacking from any side control regardless of control. Correct it by assessing the specific control points achieved, since a tight cross-face-and-weight pin is fundamentally different from a loose one."
+      "answer": "Treating every instance of a position as equal — attacking from any side control regardless of control. Correct it by assessing the specific control points achieved, since a tight cross-face-and-weight pin is fundamentally different from a loose one.",
+      "answer_line": "Not all positions are equal",
+      "distractors": {
+        "plausible": [
+          "Any side control is attack-ready",
+          "Position alone guarantees control"
+        ],
+        "trap": [
+          "Attack from any control level"
+        ]
+      }
     },
     {
       "question": "How should submission threats be used within this philosophy rather than as all-or-nothing finishes?",
-      "answer": "Use them as tools that force defensive reactions, opening positional advancement or chained attacks; if a submission begins to threaten your position, abandon it to retain control rather than gambling away the position."
+      "answer": "Use them as tools that force defensive reactions, opening positional advancement or chained attacks; if a submission begins to threaten your position, abandon it to retain control rather than gambling away the position.",
+      "answer_line": "Use threats to force reactions",
+      "distractors": {
+        "plausible": [
+          "Commit fully once you start",
+          "Finish every attempt you start"
+        ],
+        "trap": [
+          "Never let go once locked in"
+        ]
+      }
     },
     {
       "question": "Why does the Position-Over-Submission Approach align so well with points-based competition?",
-      "answer": "Because IBJJF-style scoring rewards systematic advancement — passes, mounts, and back takes — letting you build a guaranteed lead and apply psychological pressure while keeping your counter-attack risk low."
+      "answer": "Because IBJJF-style scoring rewards systematic advancement — passes, mounts, and back takes — letting you build a guaranteed lead and apply psychological pressure while keeping your counter-attack risk low.",
+      "answer_line": "Rewards systematic positional gains",
+      "distractors": {
+        "plausible": [
+          "Points matter less than submissions",
+          "Submissions always score more points"
+        ],
+        "trap": [
+          "Ignore points, hunt the finish"
+        ]
+      }
     },
     {
       "question": "How does this approach improve energy efficiency during a match?",
-      "answer": "By channeling effort into consolidating control instead of forcing premature, low-percentage submissions, you avoid the explosive scrambles and wasted grip fights that failed early attacks typically create."
+      "answer": "By channeling effort into consolidating control instead of forcing premature, low-percentage submissions, you avoid the explosive scrambles and wasted grip fights that failed early attacks typically create.",
+      "answer_line": "Saves energy, avoids scrambles",
+      "distractors": {
+        "plausible": [
+          "Go hard early to end it fast",
+          "Explosive bursts save time"
+        ],
+        "trap": [
+          "Force submissions to end quick"
+        ]
+      }
     },
     {
       "question": "What is the relationship between Position-Over-Submission and the Positional Hierarchy principle?",
-      "answer": "Positional Hierarchy is the prerequisite framework that defines which positions are dominant, while Position-Over-Submission is the strategic rule for using that hierarchy: climb it and secure control before you ever commit to a finish."
+      "answer": "Positional Hierarchy is the prerequisite framework that defines which positions are dominant, while Position-Over-Submission is the strategic rule for using that hierarchy: climb it and secure control before you ever commit to a finish.",
+      "answer_line": "Climb hierarchy, then secure control",
+      "distractors": {
+        "plausible": [
+          "Both principles mean the same thing",
+          "Hierarchy replaces this principle"
+        ],
+        "trap": [
+          "Skip hierarchy, submit anytime"
+        ]
+      }
     }
   ],
   "clips": [

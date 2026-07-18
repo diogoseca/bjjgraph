@@ -225,7 +225,17 @@
     "flashcards": [
       {
         "question": "Why must you keep your De La Riva hook loaded until the lapel is wrapped behind the knee?",
-        "answer": "The De La Riva hook holds the opponent's lead leg fixed in place while you free and thread the lapel. If you release the hook before the fabric has taken over its function behind the knee, the leg comes free and the opponent can backstep or pass, leaving you with a loose lapel grip and no leg control during a vulnerable transition. The hook and the wrap should overlap so leg control is continuous."
+        "answer": "The De La Riva hook holds the opponent's lead leg fixed in place while you free and thread the lapel. If you release the hook before the fabric has taken over its function behind the knee, the leg comes free and the opponent can backstep or pass, leaving you with a loose lapel grip and no leg control during a vulnerable transition. The hook and the wrap should overlap so leg control is continuous.",
+        "answer_line": "Hook and wrap must overlap",
+        "distractors": {
+          "plausible": [
+            "Release hook once lapel is grabbed",
+            "Switch legs to free your hook"
+          ],
+          "trap": [
+            "Drop the hook to speed up the feed"
+          ]
+        }
       },
       {
         "question": "Which direction should you route the lapel relative to your own leg, and why does it matter?",
@@ -233,15 +243,45 @@
       },
       {
         "question": "What is the ideal timing window to extract the lapel during this entry?",
-        "answer": "The ideal window is when the opponent commits their lead-leg weight forward, typically as they posture up or stand to pass, because this fixes the lead leg in place over your hook. With the leg committed, it cannot easily retract while you reach for and thread the lapel. Attempting the extraction with their weight back lets them simply pull the leg free and lose you the hook and the guard."
+        "answer": "The ideal window is when the opponent commits their lead-leg weight forward, typically as they posture up or stand to pass, because this fixes the lead leg in place over your hook. With the leg committed, it cannot easily retract while you reach for and thread the lapel. Attempting the extraction with their weight back lets them simply pull the leg free and lose you the hook and the guard.",
+        "answer_line": "When they post weight forward",
+        "distractors": {
+          "plausible": [
+            "When they sit back and relax",
+            "Right after your hook lands"
+          ],
+          "trap": [
+            "The instant they grip your collar"
+          ]
+        }
       },
       {
         "question": "How should you grip the lapel during the feed to avoid losing the wrap?",
-        "answer": "Use a relaxed, structural grip rather than a tense forearm death-grip. Hook your fingers through the fabric and let your body and hip positioning maintain tension, which preserves forearm endurance and dexterity for the precise threading and the final far-side re-grip that locks the wrap. A death-grip fatigues quickly and produces a rushed, sloppy feed that often fails to complete."
+        "answer": "Use a relaxed, structural grip rather than a tense forearm death-grip. Hook your fingers through the fabric and let your body and hip positioning maintain tension, which preserves forearm endurance and dexterity for the precise threading and the final far-side re-grip that locks the wrap. A death-grip fatigues quickly and produces a rushed, sloppy feed that often fails to complete.",
+        "answer_line": "Relaxed grip, hips hold tension",
+        "distractors": {
+          "plausible": [
+            "Death-grip the lapel tight",
+            "Grip hard with your whole forearm"
+          ],
+          "trap": [
+            "Clamp down and rush the feed"
+          ]
+        }
       },
       {
         "question": "Why is secondary sleeve or ankle control important while you feed the lapel?",
-        "answer": "Feeding the lapel occupies your hands, so without a second point of control the opponent is free to backstep, circle, or post and pass during that window. A retained sleeve, ankle, or collar grip pins them in place and limits their escape routes, allowing you to commit both hands to the threading. You only fully commit to the feed once those escape routes are restricted."
+        "answer": "Feeding the lapel occupies your hands, so without a second point of control the opponent is free to backstep, circle, or post and pass during that window. A retained sleeve, ankle, or collar grip pins them in place and limits their escape routes, allowing you to commit both hands to the threading. You only fully commit to the feed once those escape routes are restricted.",
+        "answer_line": "Pin sleeve or ankle first",
+        "distractors": {
+          "plausible": [
+            "Commit both hands immediately",
+            "Control the far collar instead"
+          ],
+          "trap": [
+            "Let go of all grips to feed faster"
+          ]
+        }
       }
     ],
     "safety_considerations": "This entry is a positional gi transition with low inherent injury risk, but a few precautions apply. Avoid cinching the lapel wrap so aggressively around the opponent's knee that it torques the joint laterally - the goal is to trap and control the leg, not to apply a leg lock, so feed the fabric with control and release immediately if your partner signals knee discomfort. Be mindful of finger entanglement in the gi during the feed and re-grip; keep fingers hooked rather than deeply threaded to prevent finger sprains if the opponent rips free. When drilling the standing-pass timing, communicate clearly so neither partner is surprised by the sudden leg entanglement, which can unbalance a standing opponent.",
@@ -337,15 +377,45 @@
     "flashcards": [
       {
         "question": "Why is preventing the lapel extraction more important than escaping a completed wrap?",
-        "answer": "Once the lapel is wrapped behind your knee, your own gi traps the leg independently of the opponent's hand grip, so the control persists even when you break their grips and your escape options narrow to specialized lapel-clearing sequences. Denying the extraction at its source - by protecting your lapel and stripping their feeding hand - is dramatically easier and faster than dismantling a finished worm-guard configuration."
+        "answer": "Once the lapel is wrapped behind your knee, your own gi traps the leg independently of the opponent's hand grip, so the control persists even when you break their grips and your escape options narrow to specialized lapel-clearing sequences. Denying the extraction at its source - by protecting your lapel and stripping their feeding hand - is dramatically easier and faster than dismantling a finished worm-guard configuration.",
+        "answer_line": "Deny the feed at the source",
+        "distractors": {
+          "plausible": [
+            "Break grips after wrap is set",
+            "Learn advanced escapes instead"
+          ],
+          "trap": [
+            "Wait and dismantle the finished wrap"
+          ]
+        }
       },
       {
         "question": "What weight management denies the opponent the window they need for this entry?",
-        "answer": "Keep your weight balanced or slightly back off the committed lead leg rather than posturing forward over the De La Riva hook. The entry depends on your lead-leg weight being committed forward so the leg is fixed in place for the wrap. By staying off that leg you keep it mobile, deny them the committed-leg window, and preserve your ability to circle the leg out and backstep to safety."
+        "answer": "Keep your weight balanced or slightly back off the committed lead leg rather than posturing forward over the De La Riva hook. The entry depends on your lead-leg weight being committed forward so the leg is fixed in place for the wrap. By staying off that leg you keep it mobile, deny them the committed-leg window, and preserve your ability to circle the leg out and backstep to safety.",
+        "answer_line": "Stay light off the lead leg",
+        "distractors": {
+          "plausible": [
+            "Posture forward over the hook",
+            "Load weight onto their knee"
+          ],
+          "trap": [
+            "Drive forward to flatten them"
+          ]
+        }
       },
       {
         "question": "When you feel the lapel freed but not yet wrapped, what is your best response?",
-        "answer": "Strip the loose lapel and drive forward to pass while the fabric is still unsecured. At this stage the wrap is incomplete, so clearing the half-formed configuration frees your leg and converts the opponent's incomplete entry into a passing opportunity against their disrupted open guard. The key is acting decisively before the far-side re-grip locks the wrap - hesitation lets the configuration complete and tightens the entanglement."
+        "answer": "Strip the loose lapel and drive forward to pass while the fabric is still unsecured. At this stage the wrap is incomplete, so clearing the half-formed configuration frees your leg and converts the opponent's incomplete entry into a passing opportunity against their disrupted open guard. The key is acting decisively before the far-side re-grip locks the wrap - hesitation lets the configuration complete and tightens the entanglement.",
+        "answer_line": "Strip it and pass immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for the wrap to finish",
+            "Re-grip and restart the feed"
+          ],
+          "trap": [
+            "Hesitate to check your base first"
+          ]
+        }
       }
     ],
     "training_progressions": [

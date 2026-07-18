@@ -218,47 +218,157 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the position reversal sweep from 50-50 bottom?",
-        "answer": "The primary goal is to escape the defensive bottom 50-50 position and achieve top control where you gain offensive advantages including heel hook opportunities, kneebar access, and back take options while removing yourself from submission danger."
+        "answer": "The primary goal is to escape the defensive bottom 50-50 position and achieve top control where you gain offensive advantages including heel hook opportunities, kneebar access, and back take options while removing yourself from submission danger.",
+        "answer_line": "Escape to top control",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral position",
+            "Finish heel hook from bottom"
+          ],
+          "trap": [
+            "Ignore position, chase submission"
+          ]
+        }
       },
       {
         "question": "Why is inside position control critical before attempting this sweep?",
-        "answer": "Inside position control determines sweep direction and success probability. Your inside leg creates the anchor point around which the sweep rotates. Without inside control, your sweep lacks mechanical advantage and opponent's inside leg blocks your rotation. Attempting to sweep against superior inside control typically fails and may expose your heel."
+        "answer": "Inside position control determines sweep direction and success probability. Your inside leg creates the anchor point around which the sweep rotates. Without inside control, your sweep lacks mechanical advantage and opponent's inside leg blocks your rotation. Attempting to sweep against superior inside control typically fails and may expose your heel.",
+        "answer_line": "It's the sweep's anchor point",
+        "distractors": {
+          "plausible": [
+            "Grip fighting matters more",
+            "Hip angle alone is enough"
+          ],
+          "trap": [
+            "Sweep without inside control"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their hips and widens their base when you attempt elevation—what adjustment should you make?",
-        "answer": "When opponent drops hips low, the reversal sweep becomes low percentage. Switch strategies to either leg extraction escape to standing or transition to Single Leg X-Guard by using their low base against them. Their heavy hips position actually facilitates Single Leg X entry because their weight is committed downward."
+        "answer": "When opponent drops hips low, the reversal sweep becomes low percentage. Switch strategies to either leg extraction escape to standing or transition to Single Leg X-Guard by using their low base against them. Their heavy hips position actually facilitates Single Leg X entry because their weight is committed downward.",
+        "answer_line": "Switch to Single Leg X-Guard",
+        "distractors": {
+          "plausible": [
+            "Force the elevation harder",
+            "Wait for hips to rise"
+          ],
+          "trap": [
+            "Keep attacking the heel hook"
+          ]
+        }
       },
       {
         "question": "What are the essential grips needed during the reversal sweep?",
-        "answer": "Two-handed control fighting opponent's grip on your heel is essential throughout. One hand should cup or control their gripping hand while the other controls their wrist or forearm. These grips serve dual purpose: defending against heel hook and creating anchor point for sweep mechanics. Never release both grips simultaneously."
+        "answer": "Two-handed control fighting opponent's grip on your heel is essential throughout. One hand should cup or control their gripping hand while the other controls their wrist or forearm. These grips serve dual purpose: defending against heel hook and creating anchor point for sweep mechanics. Never release both grips simultaneously.",
+        "answer_line": "Two-hand control of heel grip",
+        "distractors": {
+          "plausible": [
+            "One hand grip, one hand frame",
+            "Grip belt for extra leverage"
+          ],
+          "trap": [
+            "Release both grips to elevate"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate this sweep?",
-        "answer": "The optimal timing is when opponent reaches forward aggressively to attack your heel. This forward weight commitment compromises their base stability and creates momentary vulnerability. Their hands busy reaching for heel means reduced ability to post and stop the rotation. This timing principle applies across all grappling—attack when opponent is in transition."
+        "answer": "The optimal timing is when opponent reaches forward aggressively to attack your heel. This forward weight commitment compromises their base stability and creates momentary vulnerability. Their hands busy reaching for heel means reduced ability to post and stop the rotation. This timing principle applies across all grappling—attack when opponent is in transition.",
+        "answer_line": "When they reach for your heel",
+        "distractors": {
+          "plausible": [
+            "Right after a grip break",
+            "When they settle their base"
+          ],
+          "trap": [
+            "Wait for them to pass guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical action immediately after completing the sweep rotation?",
-        "answer": "Immediately drive hips forward and down to establish heavy top pressure within the first second. Failing to secure top position allows opponent to immediately re-reverse using the same sweep mechanics. The brief moment after sweep completion is highest vulnerability for re-reversal."
+        "answer": "Immediately drive hips forward and down to establish heavy top pressure within the first second. Failing to secure top position allows opponent to immediately re-reverse using the same sweep mechanics. The brief moment after sweep completion is highest vulnerability for re-reversal.",
+        "answer_line": "Drive hips forward, heavy top",
+        "distractors": {
+          "plausible": [
+            "Secure a submission first",
+            "Posture up to survey position"
+          ],
+          "trap": [
+            "Release grips to celebrate"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to stop your sweep rotation—how should you respond?",
-        "answer": "The posted hand creates arm attack opportunity. Control their wrist with your hands while continuing the sweep rotation. Their posted arm becomes trapped as you complete the sweep, potentially exposing Kimura grip or armbar depending on arm angle. Their defense becomes your offense."
+        "answer": "The posted hand creates arm attack opportunity. Control their wrist with your hands while continuing the sweep rotation. Their posted arm becomes trapped as you complete the sweep, potentially exposing Kimura grip or armbar depending on arm angle. Their defense becomes your offense.",
+        "answer_line": "Attack the trapped posted arm",
+        "distractors": {
+          "plausible": [
+            "Ignore arm, finish the sweep",
+            "Switch to ankle lock instead"
+          ],
+          "trap": [
+            "Let go and reset position"
+          ]
+        }
       },
       {
         "question": "What direction should the sweep rotation follow relative to your inside leg?",
-        "answer": "The sweep rotation follows the line of your inside leg control. If your left leg has inside position, you rotate to your left, sweeping opponent in that direction. Your inside leg acts as the pivot point around which the sweep mechanics operate. Sweeping against your inside leg direction has very low success probability."
+        "answer": "The sweep rotation follows the line of your inside leg control. If your left leg has inside position, you rotate to your left, sweeping opponent in that direction. Your inside leg acts as the pivot point around which the sweep mechanics operate. Sweeping against your inside leg direction has very low success probability.",
+        "answer_line": "Rotate toward your inside leg",
+        "distractors": {
+          "plausible": [
+            "Rotate away from their grip",
+            "Rotate toward your stronger side"
+          ],
+          "trap": [
+            "Sweep against your inside leg"
+          ]
+        }
       },
       {
         "question": "Your opponent threatens a heel hook while you are mid-elevation—should you continue the sweep or abort?",
-        "answer": "Abort the sweep immediately and prioritize heel defense. Finishing the rotation under active heel hook tension risks catastrophic knee injury as the rotational force compounds the heel hook torque. Strip their heel grip with two-on-one hand fighting, rotate your knee inward to relieve pressure, and only reattempt the sweep once your heel is safe. No positional gain is worth a knee injury."
+        "answer": "Abort the sweep immediately and prioritize heel defense. Finishing the rotation under active heel hook tension risks catastrophic knee injury as the rotational force compounds the heel hook torque. Strip their heel grip with two-on-one hand fighting, rotate your knee inward to relieve pressure, and only reattempt the sweep once your heel is safe. No positional gain is worth a knee injury.",
+        "answer_line": "Abort sweep, defend the heel",
+        "distractors": {
+          "plausible": [
+            "Rush to finish before they lock",
+            "Elevate faster to escape it"
+          ],
+          "trap": [
+            "Continue rotation through pain"
+          ]
+        }
       },
       {
         "question": "What hip movement creates the mechanical advantage for this sweep?",
-        "answer": "The critical hip movement is an explosive upward bridge combined with lateral rotation. First, shrimp slightly to create an angle that loads your hip muscles. Then drive hips explosively toward the ceiling to lift opponent's weight off your torso. The upward bridge breaks their base, and the subsequent lateral rotation in the direction of your inside leg converts vertical force into sweeping momentum. Without the initial angle creation, the bridge lacks sufficient power."
+        "answer": "The critical hip movement is an explosive upward bridge combined with lateral rotation. First, shrimp slightly to create an angle that loads your hip muscles. Then drive hips explosively toward the ceiling to lift opponent's weight off your torso. The upward bridge breaks their base, and the subsequent lateral rotation in the direction of your inside leg converts vertical force into sweeping momentum. Without the initial angle creation, the bridge lacks sufficient power.",
+        "answer_line": "Shrimp for angle, then bridge",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up only",
+            "Rotate first, then bridge"
+          ],
+          "trap": [
+            "Push straight forward, no angle"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked but opponent's legs remain entangled, what chain attacks become available?",
-        "answer": "When the sweep stalls but entanglement remains, several chain attacks open: counter heel hook becomes available if opponent over-committed their hands defending the sweep rather than protecting their own heel; transition to Single Leg X-Guard by using their committed weight against them; or reattempt the sweep from a different angle after resetting hip position. The key is recognizing that a blocked sweep is not a dead end but a transition point within the 50-50 system."
+        "answer": "When the sweep stalls but entanglement remains, several chain attacks open: counter heel hook becomes available if opponent over-committed their hands defending the sweep rather than protecting their own heel; transition to Single Leg X-Guard by using their committed weight against them; or reattempt the sweep from a different angle after resetting hip position. The key is recognizing that a blocked sweep is not a dead end but a transition point within the 50-50 system.",
+        "answer_line": "Counter heel hook or Single Leg X",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and disengage",
+            "Force the same sweep again"
+          ],
+          "trap": [
+            "Abandon entanglement entirely"
+          ]
+        }
       }
     ],
     "safety_considerations": "This sweep involves dynamic hip elevation and rotation with entangled legs, creating potential for knee stress if executed incorrectly. Always ensure your knee tracks in natural alignment during elevation—avoid twisting motions that could stress the MCL or meniscus. If opponent has deep heel hook control, prioritize defending the heel over completing the sweep, as finishing the rotation under heel hook tension can cause catastrophic knee injury. Practice initially at slow speed to develop proper mechanics before adding explosiveness. Tap early if you feel any heel hook tension during the sweep attempt.",
@@ -375,23 +485,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up the reversal sweep from bottom 50-50?",
-        "answer": "The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success."
+        "answer": "The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success.",
+        "answer_line": "Opponent fights for inside leg",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your heel first",
+            "Opponent creates hip angle"
+          ],
+          "trap": [
+            "Opponent postures up to pass"
+          ]
+        }
       },
       {
         "question": "Why is maintaining heavy hip pressure the most effective passive defense against this sweep?",
-        "answer": "Heavy hip pressure directly denies the elevation component that provides the mechanical force for the sweep. The sweep requires the bottom player to lift your weight upward before rotating—without successful elevation, no rotation is possible. Constant downward hip pressure through your pelvis into their lower abdomen means they must generate enough force to lift your entire bodyweight, which is exponentially harder than lifting light hips. This makes elevation the highest-energy component for the attacker."
+        "answer": "Heavy hip pressure directly denies the elevation component that provides the mechanical force for the sweep. The sweep requires the bottom player to lift your weight upward before rotating—without successful elevation, no rotation is possible. Constant downward hip pressure through your pelvis into their lower abdomen means they must generate enough force to lift your entire bodyweight, which is exponentially harder than lifting light hips. This makes elevation the highest-energy component for the attacker.",
+        "answer_line": "Denies elevation, the key force",
+        "distractors": {
+          "plausible": [
+            "Blocks grip fighting only",
+            "Prevents inside leg control"
+          ],
+          "trap": [
+            "Light hips, base with hands"
+          ]
+        }
       },
       {
         "question": "Your opponent has established inside position and created hip angle—what is your defensive priority sequence?",
-        "answer": "First, immediately drop your hips and widen your base to deny the elevation component even though they have inside position. Second, address the inside position by fighting your own leg back to inside control angle. Third, consider attacking their heel aggressively to force them back into defensive mode. Do not attempt all three simultaneously—the elevation denial is most urgent because once they elevate, the sweep becomes very difficult to stop regardless of other factors."
+        "answer": "First, immediately drop your hips and widen your base to deny the elevation component even though they have inside position. Second, address the inside position by fighting your own leg back to inside control angle. Third, consider attacking their heel aggressively to force them back into defensive mode. Do not attempt all three simultaneously—the elevation denial is most urgent because once they elevate, the sweep becomes very difficult to stop regardless of other factors.",
+        "answer_line": "Deny elevation first",
+        "distractors": {
+          "plausible": [
+            "Fix inside position first",
+            "Attack the heel first"
+          ],
+          "trap": [
+            "Do all three at once"
+          ]
+        }
       },
       {
         "question": "When should you consider disengaging from 50-50 rather than defending the sweep in place?",
-        "answer": "Disengage when opponent has established clear inside position advantage, created significant hip angle, and your defensive adjustments have failed to deny these conditions. At that point, the sweep probability is very high and continued resistance risks being swept to a worse position. Disengagement sacrifices your top offensive position but resets to neutral, which is better than being reversed to bottom 50-50 where you face the same heel hook threats you were previously applying."
+        "answer": "Disengage when opponent has established clear inside position advantage, created significant hip angle, and your defensive adjustments have failed to deny these conditions. At that point, the sweep probability is very high and continued resistance risks being swept to a worse position. Disengagement sacrifices your top offensive position but resets to neutral, which is better than being reversed to bottom 50-50 where you face the same heel hook threats you were previously applying.",
+        "answer_line": "When sweep conditions are set",
+        "distractors": {
+          "plausible": [
+            "Only if heel hook is secured",
+            "Never, always defend in place"
+          ],
+          "trap": [
+            "Push forward and force a scramble"
+          ]
+        }
       },
       {
         "question": "Your opponent begins elevating their hips while you are reaching for their heel—should you complete the heel attack or address the sweep?",
-        "answer": "Address the sweep immediately by driving your hips back down and widening your base. An in-progress heel attack that has not secured control will not finish faster than the sweep completes. If you had strong heel control already established, the sweep would be unlikely—the fact that they are elevating means your heel attack is insufficiently developed. Prioritize position over a speculative submission attempt. You can always re-attack the heel once you have re-established stable top position."
+        "answer": "Address the sweep immediately by driving your hips back down and widening your base. An in-progress heel attack that has not secured control will not finish faster than the sweep completes. If you had strong heel control already established, the sweep would be unlikely—the fact that they are elevating means your heel attack is insufficiently developed. Prioritize position over a speculative submission attempt. You can always re-attack the heel once you have re-established stable top position.",
+        "answer_line": "Abandon heel attack, block sweep",
+        "distractors": {
+          "plausible": [
+            "Finish the heel attack quickly",
+            "Elevate with them to counter"
+          ],
+          "trap": [
+            "Commit to the heel submission"
+          ]
+        }
       }
     ],
     "training_progressions": [

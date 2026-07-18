@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "Your opponent whizzers your underhook attempt aggressively—how do you adjust your sweep strategy?",
-        "answer": "When the opponent whizzers, their weight necessarily shifts forward toward you, which actually loads the sweep. You can use this forward pressure by switching to a lumberjack variation—reach across to grip their far leg while maintaining your knee shield push. Alternatively, swim back inside for the underhook by circling your elbow tight to your body, or transition to deep half guard by diving under their committed weight. The whizzer is most dangerous when you try to force the underhook against it rather than flowing to alternatives."
+        "answer": "When the opponent whizzers, their weight necessarily shifts forward toward you, which actually loads the sweep. You can use this forward pressure by switching to a lumberjack variation—reach across to grip their far leg while maintaining your knee shield push. Alternatively, swim back inside for the underhook by circling your elbow tight to your body, or transition to deep half guard by diving under their committed weight. The whizzer is most dangerous when you try to force the underhook against it rather than flowing to alternatives.",
+        "answer_line": "Switch to lumberjack or deep half",
+        "distractors": {
+          "plausible": [
+            "Fight to regain the underhook",
+            "Pull opponent's whizzer arm off"
+          ],
+          "trap": [
+            "Force underhook against whizzer"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that generates sweep power from the knee shield?",
-        "answer": "The critical movement is the hip escape that creates a 45-degree angle between your body and the opponent before the sweep initiates. This angle converts the sweep from a straight push into their base—which they can easily resist—into a rotational force that tips them laterally over their far shoulder. Without this angle, the sweep becomes a strength contest that the top player wins due to gravity and base advantage. The angle should point your hips toward their far hip."
+        "answer": "The critical movement is the hip escape that creates a 45-degree angle between your body and the opponent before the sweep initiates. This angle converts the sweep from a straight push into their base—which they can easily resist—into a rotational force that tips them laterally over their far shoulder. Without this angle, the sweep becomes a strength contest that the top player wins due to gravity and base advantage. The angle should point your hips toward their far hip.",
+        "answer_line": "Hip escape to 45-degree angle",
+        "distractors": {
+          "plausible": [
+            "Escape hips to 90-degree angle",
+            "Angle hips toward near hip"
+          ],
+          "trap": [
+            "Push straight into their base"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand to prevent being swept—what is your immediate response?",
-        "answer": "If they have already posted, you have several options. Pull their posting arm toward you using a wrist or sleeve grip to remove the post. Switch to an arm drag on their posting arm, which exposes their back for a potential back take. If neither grip is available, use the knee shield to push them laterally while scooping their posting arm with your free hand. Prevention is best—secure far side control before initiating the sweep so the post is never available."
+        "answer": "If they have already posted, you have several options. Pull their posting arm toward you using a wrist or sleeve grip to remove the post. Switch to an arm drag on their posting arm, which exposes their back for a potential back take. If neither grip is available, use the knee shield to push them laterally while scooping their posting arm with your free hand. Prevention is best—secure far side control before initiating the sweep so the post is never available.",
+        "answer_line": "Pull or arm-drag the post arm",
+        "distractors": {
+          "plausible": [
+            "Secure far lapel grip first",
+            "Push knee shield, ignore arm"
+          ],
+          "trap": [
+            "Force the sweep through post"
+          ]
+        }
       },
       {
         "question": "What grip on the far side provides the best sweep leverage in the gi?",
-        "answer": "The far lapel grip at chest level provides the strongest control because it prevents both posting and posture recovery simultaneously. Pulling the lapel toward you while driving with the underhook creates maximum rotational force. The sleeve grip on the far wrist is the second best option, directly controlling their posting ability. In no-gi, a wrist grip or overhook on their far arm serves the same purpose. The key is that whatever grip you choose must prevent the opponent from posting their far hand."
+        "answer": "The far lapel grip at chest level provides the strongest control because it prevents both posting and posture recovery simultaneously. Pulling the lapel toward you while driving with the underhook creates maximum rotational force. The sleeve grip on the far wrist is the second best option, directly controlling their posting ability. In no-gi, a wrist grip or overhook on their far arm serves the same purpose. The key is that whatever grip you choose must prevent the opponent from posting their far hand.",
+        "answer_line": "Far lapel grip at chest",
+        "distractors": {
+          "plausible": [
+            "Far sleeve grip on wrist",
+            "Near lapel grip for control"
+          ],
+          "trap": [
+            "Grip their belt for leverage"
+          ]
+        }
       },
       {
         "question": "You have established the underhook but the opponent is driving forward with heavy pressure—how do you use this momentum?",
-        "answer": "Forward pressure from the opponent is the ideal condition for the sweep. Their weight is already loaded past their base line, so your job is simply to redirect it laterally. Maintain your knee shield angle so their pressure drives across your body rather than straight into you. Pull with the underhook in the direction of the sweep while pushing with the knee shield into their hip crease. Their own momentum becomes the primary sweeping force—you are redirecting energy rather than generating it."
+        "answer": "Forward pressure from the opponent is the ideal condition for the sweep. Their weight is already loaded past their base line, so your job is simply to redirect it laterally. Maintain your knee shield angle so their pressure drives across your body rather than straight into you. Pull with the underhook in the direction of the sweep while pushing with the knee shield into their hip crease. Their own momentum becomes the primary sweeping force—you are redirecting energy rather than generating it.",
+        "answer_line": "Redirect pressure laterally",
+        "distractors": {
+          "plausible": [
+            "Absorb pressure, wait it out",
+            "Push straight back to stop it"
+          ],
+          "trap": [
+            "Retreat guard to reset"
+          ]
+        }
       },
       {
         "question": "At what point should the knee shield transition from a defensive frame to an offensive lever during the sweep?",
-        "answer": "The transition occurs at the moment of the explosive drive, not before. During setup—securing the underhook, creating angle, controlling far side—the knee shield should remain a defensive frame maintaining distance. When all prerequisites are met and you commit to the sweep, the shield angles downward toward the opponent's hip crease and becomes a pushing lever. Transitioning too early collapses your defensive structure before the sweep is ready, exposing you to guard passing."
+        "answer": "The transition occurs at the moment of the explosive drive, not before. During setup—securing the underhook, creating angle, controlling far side—the knee shield should remain a defensive frame maintaining distance. When all prerequisites are met and you commit to the sweep, the shield angles downward toward the opponent's hip crease and becomes a pushing lever. Transitioning too early collapses your defensive structure before the sweep is ready, exposing you to guard passing.",
+        "answer_line": "At the explosive drive moment",
+        "distractors": {
+          "plausible": [
+            "As soon as underhook secured",
+            "During initial angle creation"
+          ],
+          "trap": [
+            "Immediately at guard entry"
+          ]
+        }
       },
       {
         "question": "Your sweep attempt stalls halfway and the opponent begins recovering base—what are your chain attack options?",
-        "answer": "If the sweep stalls mid-execution, you have several follow-up options. Dive underneath for deep half guard entry since the opponent's weight is already committed forward and partially off-balance. Come up to the dogfight position using your underhook and wrestle for the top from knees. Switch to a back take by circling your underhook behind them as they fight to recover base. The worst option is trying to force the same sweep again—the opponent has already adjusted, so transition to an attack that exploits their recovery position."
+        "answer": "If the sweep stalls mid-execution, you have several follow-up options. Dive underneath for deep half guard entry since the opponent's weight is already committed forward and partially off-balance. Come up to the dogfight position using your underhook and wrestle for the top from knees. Switch to a back take by circling your underhook behind them as they fight to recover base. The worst option is trying to force the same sweep again—the opponent has already adjusted, so transition to an attack that exploits their recovery position.",
+        "answer_line": "Deep half, dogfight, or back take",
+        "distractors": {
+          "plausible": [
+            "Reset guard, restart setup",
+            "Push knee shield harder"
+          ],
+          "trap": [
+            "Force the same sweep again"
+          ]
+        }
       },
       {
         "question": "What direction should force be applied through the underhook during the sweep execution?",
-        "answer": "The underhook force should drive diagonally forward and upward toward the opponent's far shoulder, not straight forward into their chest. This diagonal vector creates the rotational moment that tips them over their base. Think of lifting their near-side ribs while pushing their far-side ribs with the knee shield—the combined forces create a rolling motion across their base line. Driving straight forward results in a pushing match that the top player can resist with base and gravity advantage."
+        "answer": "The underhook force should drive diagonally forward and upward toward the opponent's far shoulder, not straight forward into their chest. This diagonal vector creates the rotational moment that tips them over their base. Think of lifting their near-side ribs while pushing their far-side ribs with the knee shield—the combined forces create a rolling motion across their base line. Driving straight forward results in a pushing match that the top player can resist with base and gravity advantage.",
+        "answer_line": "Diagonal, toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Upward only, lift ribs",
+            "Downward into their hips"
+          ],
+          "trap": [
+            "Straight forward into chest"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Knee Shield is a low-risk technique with minimal injury potential when executed properly. The primary safety concern is neck strain from the opponent driving heavy crossface pressure during sweep attempts. Avoid cranking the sweep against a locked-out opponent—if the sweep is not moving, abandon and reset rather than forcing through with explosive power that could injure either player's knees or shoulders. Communicate with training partners about resistance levels during drilling phases.",
@@ -399,23 +479,73 @@
     "flashcards": [
       {
         "question": "You feel the bottom player securing an underhook on your far side—what is your immediate response?",
-        "answer": "Immediately apply a whizzer by threading your arm over their underhook and driving your shoulder into their bicep. Simultaneously apply crossface pressure to flatten their angle and prevent them from using the underhook for leverage. If the underhook is already deep, consider switching to an overhook on that arm and using the control to advance your pass rather than fighting to remove the grip. Time is critical—every second the underhook stays in place increases sweep danger."
+        "answer": "Immediately apply a whizzer by threading your arm over their underhook and driving your shoulder into their bicep. Simultaneously apply crossface pressure to flatten their angle and prevent them from using the underhook for leverage. If the underhook is already deep, consider switching to an overhook on that arm and using the control to advance your pass rather than fighting to remove the grip. Time is critical—every second the underhook stays in place increases sweep danger.",
+        "answer_line": "Whizzer and crossface immediately",
+        "distractors": {
+          "plausible": [
+            "Fight grip-by-grip to strip it",
+            "Switch to overhook, keep passing"
+          ],
+          "trap": [
+            "Wait to see how it develops"
+          ]
+        }
       },
       {
         "question": "What base adjustment prevents being swept from the knee shield top position?",
-        "answer": "Widen your base by posting your far knee out to the side, creating a wide tripod structure. Your base width should exceed the angle of the opponent's potential sweep direction. Keep your hips low and heavy rather than sitting up tall—elevated hips create a higher center of gravity that is easier to tip. Post your far hand on the mat when necessary for additional base, but maintain grip control to prevent the opponent from establishing far side grips."
+        "answer": "Widen your base by posting your far knee out to the side, creating a wide tripod structure. Your base width should exceed the angle of the opponent's potential sweep direction. Keep your hips low and heavy rather than sitting up tall—elevated hips create a higher center of gravity that is easier to tip. Post your far hand on the mat when necessary for additional base, but maintain grip control to prevent the opponent from establishing far side grips.",
+        "answer_line": "Wide low tripod base",
+        "distractors": {
+          "plausible": [
+            "Sit up tall for posture",
+            "Narrow base, knees together"
+          ],
+          "trap": [
+            "Post both hands on the mat"
+          ]
+        }
       },
       {
         "question": "The sweep is already in motion and you feel yourself being tipped—how do you recover?",
-        "answer": "Immediately post your far hand wide on the mat and drive your weight in the opposite direction of the sweep. If the sweep has too much momentum for hand posting, base out with your far leg by stepping it wide. Do not try to simply resist the force directly—redirect your body weight laterally away from the sweep direction. If the sweep completes partially, fight immediately for top position in the scramble rather than conceding mount."
+        "answer": "Immediately post your far hand wide on the mat and drive your weight in the opposite direction of the sweep. If the sweep has too much momentum for hand posting, base out with your far leg by stepping it wide. Do not try to simply resist the force directly—redirect your body weight laterally away from the sweep direction. If the sweep completes partially, fight immediately for top position in the scramble rather than conceding mount.",
+        "answer_line": "Post far hand, drive opposite",
+        "distractors": {
+          "plausible": [
+            "Resist the force head-on",
+            "Grab for guard pull escape"
+          ],
+          "trap": [
+            "Concede mount, reset position"
+          ]
+        }
       },
       {
         "question": "What is the primary grip that prevents the sweep setup from developing?",
-        "answer": "Crossface control across the opponent's jaw and neck is the primary grip because it simultaneously prevents the underhook, kills the sweep angle, and creates flattening pressure. When you drive your forearm across their face and control their far shoulder, they cannot turn their body to create the angle needed for the sweep, and threading the underhook becomes mechanically difficult. The crossface addresses multiple sweep prerequisites with a single control point."
+        "answer": "Crossface control across the opponent's jaw and neck is the primary grip because it simultaneously prevents the underhook, kills the sweep angle, and creates flattening pressure. When you drive your forearm across their face and control their far shoulder, they cannot turn their body to create the angle needed for the sweep, and threading the underhook becomes mechanically difficult. The crossface addresses multiple sweep prerequisites with a single control point.",
+        "answer_line": "Crossface across jaw/neck",
+        "distractors": {
+          "plausible": [
+            "Underhook control on near arm",
+            "Grip far collar tightly"
+          ],
+          "trap": [
+            "Push on their forehead"
+          ]
+        }
       },
       {
         "question": "The bottom player creates a strong angle after hip escaping—how do you shut down the sweep from this position?",
-        "answer": "Follow their hip escape by adjusting your body angle to match theirs—do not let them achieve an angle advantage. Drive your crossface pressure into the direction they escaped to flatten them back square. Simultaneously control their near-side arm with your free hand to prevent or remove the underhook. If their angle is already established, consider switching your passing approach to match the new geometry rather than fighting back to the original alignment."
+        "answer": "Follow their hip escape by adjusting your body angle to match theirs—do not let them achieve an angle advantage. Drive your crossface pressure into the direction they escaped to flatten them back square. Simultaneously control their near-side arm with your free hand to prevent or remove the underhook. If their angle is already established, consider switching your passing approach to match the new geometry rather than fighting back to the original alignment.",
+        "answer_line": "Match angle, crossface flatten",
+        "distractors": {
+          "plausible": [
+            "Force back to original angle",
+            "Control far-side arm instead"
+          ],
+          "trap": [
+            "Chase legs, abandon upper body"
+          ]
+        }
       }
     ],
     "training_progressions": [

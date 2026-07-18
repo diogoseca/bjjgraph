@@ -97,35 +97,115 @@
     "flashcards": [
       {
         "question": "Your opponent is pushing their knee shield strongly into your chest. What adjustment should you make?",
-        "answer": "Angle your body at 45 degrees to the knee shield rather than facing it directly. This redirects the force of their frame away from your centerline, reducing its effectiveness. Simultaneously control their ankle or pants grip on the knee shield leg to limit their ability to adjust the shield angle. Apply shoulder pressure into their upper chest rather than pushing into the shield itself."
+        "answer": "Angle your body at 45 degrees to the knee shield rather than facing it directly. This redirects the force of their frame away from your centerline, reducing its effectiveness. Simultaneously control their ankle or pants grip on the knee shield leg to limit their ability to adjust the shield angle. Apply shoulder pressure into their upper chest rather than pushing into the shield itself.",
+        "answer_line": "Angle 45°, control the shield leg",
+        "distractors": {
+          "plausible": [
+            "Face shield straight on, push back",
+            "Grip collar, ignore the shield leg"
+          ],
+          "trap": [
+            "Drive full weight into the shield"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining pressure while passing the knee shield?",
-        "answer": "The crossface grip controlling opponent's head and near shoulder is primary, preventing them from turning into you or establishing frames. Secondary grip should control the knee shield leg at the ankle, knee, or pants to limit shield mobility. For gi, collar and pants grips provide excellent control. In no-gi, underhook on far side and wrist control on near side prevent their offensive grip establishment."
+        "answer": "The crossface grip controlling opponent's head and near shoulder is primary, preventing them from turning into you or establishing frames. Secondary grip should control the knee shield leg at the ankle, knee, or pants to limit shield mobility. For gi, collar and pants grips provide excellent control. In no-gi, underhook on far side and wrist control on near side prevent their offensive grip establishment.",
+        "answer_line": "Crossface head, control shield leg",
+        "distractors": {
+          "plausible": [
+            "Underhook only, ignore the leg",
+            "Grip pants, leave head free"
+          ],
+          "trap": [
+            "Both hands controlling their hips"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's underhook attempt from bottom knee shield?",
-        "answer": "Maintain heavy crossface pressure driving your shoulder into their jaw to prevent them from turning their shoulder up to create underhook space. Control their near arm with an overhook or wrist grip. If they begin threading their arm through, immediately whizzer their underhook attempt while driving your weight forward. Never allow space between your chest and their shoulder on the near side."
+        "answer": "Maintain heavy crossface pressure driving your shoulder into their jaw to prevent them from turning their shoulder up to create underhook space. Control their near arm with an overhook or wrist grip. If they begin threading their arm through, immediately whizzer their underhook attempt while driving your weight forward. Never allow space between your chest and their shoulder on the near side.",
+        "answer_line": "Crossface into jaw, whizzer the arm",
+        "distractors": {
+          "plausible": [
+            "Post hand on mat and wait",
+            "Push on their far hip instead"
+          ],
+          "trap": [
+            "Let space open, react after"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish when entering knee shield top position?",
-        "answer": "First priority is crossface control to neutralize upper body mobility and underhook threats. Second is controlling the knee shield leg to limit frame adjustments. Third is far hip control to prevent hip escape and re-guard attempts. In gi, collar grip plus pants grip on shield leg creates excellent control. In no-gi, underhook plus head control accomplishes similar objectives."
+        "answer": "First priority is crossface control to neutralize upper body mobility and underhook threats. Second is controlling the knee shield leg to limit frame adjustments. Third is far hip control to prevent hip escape and re-guard attempts. In gi, collar grip plus pants grip on shield leg creates excellent control. In no-gi, underhook plus head control accomplishes similar objectives.",
+        "answer_line": "Crossface, then leg, then far hip",
+        "distractors": {
+          "plausible": [
+            "Far hip first, crossface last",
+            "Shield leg first, skip crossface"
+          ],
+          "trap": [
+            "Grab both ankles, ignore torso"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure effectively without overcommitting and getting swept?",
-        "answer": "Apply pressure in waves rather than constant maximum pressure. Drive weight through your shoulder into their upper chest, not directly into the knee shield. Keep your base wide with knees on either side of their hips. Distribute weight so you can post quickly if they attempt sweeps. Never fully extend your legs or bring knees together—maintain a tripod-like base that allows quick recovery."
+        "answer": "Apply pressure in waves rather than constant maximum pressure. Drive weight through your shoulder into their upper chest, not directly into the knee shield. Keep your base wide with knees on either side of their hips. Distribute weight so you can post quickly if they attempt sweeps. Never fully extend your legs or bring knees together—maintain a tripod-like base that allows quick recovery.",
+        "answer_line": "Pressure waves, wide tripod base",
+        "distractors": {
+          "plausible": [
+            "Constant max pressure the whole time",
+            "Knees together for stability"
+          ],
+          "trap": [
+            "Fully extend legs, lean forward"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to hip escape during your pass attempt—what immediate adjustment do you make?",
-        "answer": "Immediately control their far hip with your free hand, blocking their hip escape motion. Drive your weight forward and down toward their upper body while maintaining crossface. Switch your passing angle to follow their hip movement rather than fighting against it. If they create significant space, consider transitioning to a different pass like the long step that capitalizes on the angle they've created."
+        "answer": "Immediately control their far hip with your free hand, blocking their hip escape motion. Drive your weight forward and down toward their upper body while maintaining crossface. Switch your passing angle to follow their hip movement rather than fighting against it. If they create significant space, consider transitioning to a different pass like the long step that capitalizes on the angle they've created.",
+        "answer_line": "Control far hip, follow the angle",
+        "distractors": {
+          "plausible": [
+            "Fight straight back against the hip",
+            "Drop crossface to chase the hips"
+          ],
+          "trap": [
+            "Back off and reset the position"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when facing a persistent knee shield that won't collapse?",
-        "answer": "Avoid burning energy pushing directly into a strong shield. Instead, create multiple angles of attack forcing them to constantly readjust. Use pressure waves—apply heavy pressure, release slightly to bait reactions, then capitalize on their adjustments. Switch between knee slice threats, smash pass setups, and long step opportunities. The goal is making them expend energy adjusting while you conserve energy through efficient positioning."
+        "answer": "Avoid burning energy pushing directly into a strong shield. Instead, create multiple angles of attack forcing them to constantly readjust. Use pressure waves—apply heavy pressure, release slightly to bait reactions, then capitalize on their adjustments. Switch between knee slice threats, smash pass setups, and long step opportunities. The goal is making them expend energy adjusting while you conserve energy through efficient positioning.",
+        "answer_line": "Multiple angles, pressure waves",
+        "distractors": {
+          "plausible": [
+            "Push harder until it collapses",
+            "Commit fully to one single pass"
+          ],
+          "trap": [
+            "Muscle through with constant force"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and recovers their knee shield after you nearly passed—how do you recover?",
-        "answer": "Immediately re-establish crossface control before they can optimize their shield position. Control their near arm to prevent underhook re-establishment. Don't abandon position—consolidate what you have before restarting the pass sequence. Address any grip they established during the scramble. Reset your base with knees wide, then systematically work to collapse the recovered shield using the same methodical approach."
+        "answer": "Immediately re-establish crossface control before they can optimize their shield position. Control their near arm to prevent underhook re-establishment. Don't abandon position—consolidate what you have before restarting the pass sequence. Address any grip they established during the scramble. Reset your base with knees wide, then systematically work to collapse the recovered shield using the same methodical approach.",
+        "answer_line": "Re-establish crossface immediately",
+        "distractors": {
+          "plausible": [
+            "Restart the entire pass sequence",
+            "Chase the leg, ignore upper body"
+          ],
+          "trap": [
+            "Back away to reassess first"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -452,35 +532,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts driving heavy pressure into your knee shield. What adjustment maintains your frame?",
-        "answer": "Brace your knee shield by keeping your shin at approximately 45 degrees across their chest while engaging your hip flexors to push outward. Support the frame with your elbow behind your knee for additional structural integrity. If they continue driving, hip escape away to create angle rather than absorbing pressure directly. Your free hand should frame on their shoulder or bicep to create secondary support."
+        "answer": "Brace your knee shield by keeping your shin at approximately 45 degrees across their chest while engaging your hip flexors to push outward. Support the frame with your elbow behind your knee for additional structural integrity. If they continue driving, hip escape away to create angle rather than absorbing pressure directly. Your free hand should frame on their shoulder or bicep to create secondary support.",
+        "answer_line": "Shin at 45°, elbow braces the knee",
+        "distractors": {
+          "plausible": [
+            "Push shield with leg muscles harder",
+            "Pull knee tight to your chest"
+          ],
+          "trap": [
+            "Let the shield flatten, absorb it"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining knee shield half guard bottom?",
-        "answer": "Primary grip should control opponent's near arm—sleeve grip in gi, wrist control in no-gi—preventing them from establishing crossface. Secondary grip controls far collar or behind their head to manage distance and prevent posture. In no-gi, an overhook on their near arm combined with head control provides excellent retention. Never allow both your arms to be controlled simultaneously."
+        "answer": "Primary grip should control opponent's near arm—sleeve grip in gi, wrist control in no-gi—preventing them from establishing crossface. Secondary grip controls far collar or behind their head to manage distance and prevent posture. In no-gi, an overhook on their near arm combined with head control provides excellent retention. Never allow both your arms to be controlled simultaneously.",
+        "answer_line": "Control near arm, far collar/head",
+        "distractors": {
+          "plausible": [
+            "Both hands on their far hip",
+            "Grip their belt, skip near arm"
+          ],
+          "trap": [
+            "Let them control both your arms"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's knee slice attempt through your knee shield?",
-        "answer": "As they begin the knee slice, lower your knee shield and drive your shin into their hip or thigh rather than their chest—this blocks the slice angle. Simultaneously frame on their shoulder with your hand to prevent forward pressure. Hip escape away from the direction of their slice while maintaining your bottom leg hook. If they persist, transition to deep half by diving under their weight as they commit forward."
+        "answer": "As they begin the knee slice, lower your knee shield and drive your shin into their hip or thigh rather than their chest—this blocks the slice angle. Simultaneously frame on their shoulder with your hand to prevent forward pressure. Hip escape away from the direction of their slice while maintaining your bottom leg hook. If they persist, transition to deep half by diving under their weight as they commit forward.",
+        "answer_line": "Lower shin to hip, escape the angle",
+        "distractors": {
+          "plausible": [
+            "Raise shield higher on the chest",
+            "Push straight up into the slice"
+          ],
+          "trap": [
+            "Hold flat shin, absorb the slice"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish when entering knee shield from flat half guard?",
-        "answer": "First establish frame with near arm on their bicep or shoulder to create space for shield insertion. Second, hip escape and insert knee shield as high as possible across their chest. Third, establish collar or sleeve grip to prevent them from collapsing the newly established shield. Finally, secure your bottom leg hook behind their far leg. The sequence must be quick—any delay allows them to smash the shield before it's established."
+        "answer": "First establish frame with near arm on their bicep or shoulder to create space for shield insertion. Second, hip escape and insert knee shield as high as possible across their chest. Third, establish collar or sleeve grip to prevent them from collapsing the newly established shield. Finally, secure your bottom leg hook behind their far leg. The sequence must be quick—any delay allows them to smash the shield before it's established.",
+        "answer_line": "Frame arm, insert shield, then grip",
+        "distractors": {
+          "plausible": [
+            "Grip collar first, shield later",
+            "Insert the shield low and slow"
+          ],
+          "trap": [
+            "Wait for space before framing"
+          ]
+        }
       },
       {
         "question": "How do you effectively threaten sweeps while maintaining defensive integrity?",
-        "answer": "Use your grips and hip movement to create sweep angles without fully committing your weight. Threaten the underhook sweep by attempting to swim for underhook, which forces opponent to defend and creates passing hesitation. Keep one hand ready to frame if the sweep fails. The threat of sweeps is often more valuable than the sweep itself—it prevents opponent from committing fully to passing, buying time for better opportunities."
+        "answer": "Use your grips and hip movement to create sweep angles without fully committing your weight. Threaten the underhook sweep by attempting to swim for underhook, which forces opponent to defend and creates passing hesitation. Keep one hand ready to frame if the sweep fails. The threat of sweeps is often more valuable than the sweep itself—it prevents opponent from committing fully to passing, buying time for better opportunities.",
+        "answer_line": "Threaten sweeps, don't fully commit",
+        "distractors": {
+          "plausible": [
+            "Commit fully to every sweep try",
+            "Ignore sweeps, focus only defense"
+          ],
+          "trap": [
+            "Throw both hands into the sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully flattens your knee shield slightly. What immediate recovery do you make?",
-        "answer": "Immediately frame on their shoulder with both hands and explosive hip escape away from them to recreate space. As space opens, re-insert your knee shield at the highest position possible. If they maintain pressure preventing re-insertion, transition to alternative guards—deep half if they're committed forward, butterfly or closed guard if they create distance. Never fight to maintain a compromised knee shield position."
+        "answer": "Immediately frame on their shoulder with both hands and explosive hip escape away from them to recreate space. As space opens, re-insert your knee shield at the highest position possible. If they maintain pressure preventing re-insertion, transition to alternative guards—deep half if they're committed forward, butterfly or closed guard if they create distance. Never fight to maintain a compromised knee shield position.",
+        "answer_line": "Frame shoulder, re-escape hips",
+        "distractors": {
+          "plausible": [
+            "Push the knee back into place",
+            "Wait for their pressure to ease"
+          ],
+          "trap": [
+            "Fight to hold the flattened shield"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when defending persistent passing pressure from knee shield?",
-        "answer": "Rely on skeletal structure rather than muscle tension—your shin bone does the work, not your leg muscles. Use efficient hip escapes rather than pushing against their weight. Time your defensive movements to their pressure waves rather than maintaining constant tension. Create micro-rests by establishing strong frames then relaxing muscles while maintaining frame position. Attack periodically to make them defensive, creating recovery opportunities."
+        "answer": "Rely on skeletal structure rather than muscle tension—your shin bone does the work, not your leg muscles. Use efficient hip escapes rather than pushing against their weight. Time your defensive movements to their pressure waves rather than maintaining constant tension. Create micro-rests by establishing strong frames then relaxing muscles while maintaining frame position. Attack periodically to make them defensive, creating recovery opportunities.",
+        "answer_line": "Use bone structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Tense muscles constantly to hold",
+            "Hip escape nonstop, no rest"
+          ],
+          "trap": [
+            "Match their pressure force for force"
+          ]
+        }
       },
       {
         "question": "Your opponent stands up from knee shield top position. How do you immediately transition?",
-        "answer": "This is an opportunity, not a defensive crisis. Immediately hook their standing leg with your bottom leg and swim to X-guard or single leg X-guard by inverting your hips and establishing double hooks on their standing leg. Alternatively, elevate their standing leg with your knee shield while grabbing their ankle to enter technical stand-up or single leg attack. Standing creates space you can exploit—follow their hips with your hooks as they rise."
+        "answer": "This is an opportunity, not a defensive crisis. Immediately hook their standing leg with your bottom leg and swim to X-guard or single leg X-guard by inverting your hips and establishing double hooks on their standing leg. Alternatively, elevate their standing leg with your knee shield while grabbing their ankle to enter technical stand-up or single leg attack. Standing creates space you can exploit—follow their hips with your hooks as they rise.",
+        "answer_line": "Hook the leg, swim to X-guard",
+        "distractors": {
+          "plausible": [
+            "Sit up and re-guard immediately",
+            "Grab both ankles and pull down"
+          ],
+          "trap": [
+            "Let them stand, reset your guard"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -766,23 +926,73 @@
   "flashcards_position": [
     {
       "question": "What structural feature defines Knee Shield Half Guard and separates it from flat half guard?",
-      "answer": "The defining feature is the bottom player's top-leg shin wedged horizontally across the top player's torso, converting the leg into a load-bearing frame. This shin barrier holds the two chests apart and prevents the chest-to-chest connection that flat half guard permits. In flat half guard the top player settles their weight and crushes downward, whereas the knee shield maintains a fixed distance that keeps weight off the bottom player. The position therefore trades the smothering contact of flat half guard for a spacing frame that both players must constantly manage."
+      "answer": "The defining feature is the bottom player's top-leg shin wedged horizontally across the top player's torso, converting the leg into a load-bearing frame. This shin barrier holds the two chests apart and prevents the chest-to-chest connection that flat half guard permits. In flat half guard the top player settles their weight and crushes downward, whereas the knee shield maintains a fixed distance that keeps weight off the bottom player. The position therefore trades the smothering contact of flat half guard for a spacing frame that both players must constantly manage.",
+      "answer_line": "Shin wedge keeps chests apart",
+      "distractors": {
+        "plausible": [
+          "Overhook keeps shoulders apart",
+          "Both knees pinned between thighs"
+        ],
+        "trap": [
+          "Chest-to-chest contact maintained"
+        ]
+      }
     },
     {
       "question": "Why is the shin, rather than muscular effort, the primary control mechanism in this position?",
-      "answer": "The shin functions as a skeletal strut, transmitting the top player's pressure down the bone and into the bottom player's hip and torso rather than being held up by leg muscles. Because bone bears the load, the bottom player can sustain the frame with minimal energy while the top player's forward drive is redirected instead of absorbed. This is why the shin angle and its contact point matter more than how hard the bottom player pushes. When the top player collapses the shin off its skeletal alignment, the frame loses its structural advantage and the position degrades toward flattened half guard."
+      "answer": "The shin functions as a skeletal strut, transmitting the top player's pressure down the bone and into the bottom player's hip and torso rather than being held up by leg muscles. Because bone bears the load, the bottom player can sustain the frame with minimal energy while the top player's forward drive is redirected instead of absorbed. This is why the shin angle and its contact point matter more than how hard the bottom player pushes. When the top player collapses the shin off its skeletal alignment, the frame loses its structural advantage and the position degrades toward flattened half guard.",
+      "answer_line": "Bone transmits load, not muscle",
+      "distractors": {
+        "plausible": [
+          "Leg muscles hold up the frame",
+          "Hip strength drives the frame"
+        ],
+        "trap": [
+          "Squeeze with quads throughout"
+        ]
+      }
     },
     {
       "question": "How does knee shield height change the balance of the position against different passing approaches?",
-      "answer": "Shield height governs which threats the frame neutralizes, so both players fight over it constantly. A higher shield across the upper chest checks standing and pressure passers by keeping distance and blocking the chest connection, but it exposes space underneath for a knee slice. A lower shield into the hip or thigh blocks the knee slice angle but concedes more upper-body access and invites the pass over the top. Because no single height covers every pass, the position is inherently dynamic, with the shield migrating up and down as the passing threat shifts."
+      "answer": "Shield height governs which threats the frame neutralizes, so both players fight over it constantly. A higher shield across the upper chest checks standing and pressure passers by keeping distance and blocking the chest connection, but it exposes space underneath for a knee slice. A lower shield into the hip or thigh blocks the knee slice angle but concedes more upper-body access and invites the pass over the top. Because no single height covers every pass, the position is inherently dynamic, with the shield migrating up and down as the passing threat shifts.",
+      "answer_line": "High shield stops pressure passes",
+      "distractors": {
+        "plausible": [
+          "Low shield is always the safest",
+          "Height doesn't affect the pass"
+        ],
+        "trap": [
+          "Keep shield fixed at one height"
+        ]
+      }
     },
     {
       "question": "What role does the trapped bottom leg play in the mechanics shared by both players?",
-      "answer": "The trapped leg is what makes this half guard rather than an open guard, keeping one of the top player's legs captured between the bottom player's thighs. Its hook behind the top player's far leg adds a second control point that resists leg extraction and lets the bottom player influence the top player's posture and base. For the top player, freeing this leg is the through-line of every pass, since the position is not cleared until the trapped leg is extracted. The interplay between the upper-body shield and the lower-body leg trap creates the two-front control battle that characterizes the position."
+      "answer": "The trapped leg is what makes this half guard rather than an open guard, keeping one of the top player's legs captured between the bottom player's thighs. Its hook behind the top player's far leg adds a second control point that resists leg extraction and lets the bottom player influence the top player's posture and base. For the top player, freeing this leg is the through-line of every pass, since the position is not cleared until the trapped leg is extracted. The interplay between the upper-body shield and the lower-body leg trap creates the two-front control battle that characterizes the position.",
+      "answer_line": "Leg hook resists leg extraction",
+      "distractors": {
+        "plausible": [
+          "Trapped leg is purely passive",
+          "Only the upper frame matters"
+        ],
+        "trap": [
+          "Release the hook to create space"
+        ]
+      }
     },
     {
       "question": "Why is the grip and hand-fighting exchange central to determining who wins the knee shield battle?",
-      "answer": "The shin controls distance, but grips decide whether that distance can be exploited or collapsed. Whoever secures dominant grips dictates the exchange: the top player seeks a crossface plus control of the shield leg to pin and flatten, while the bottom player fights for sleeve, collar, or wrist control to deny those grips and free their own frames. A key fault line is the near-side underhook, which flips the position toward the bottom player's offense if won and toward the top player's pass if denied. Because the frame alone is neutral, the grip battle is what converts the standoff into advancement or retention."
+      "answer": "The shin controls distance, but grips decide whether that distance can be exploited or collapsed. Whoever secures dominant grips dictates the exchange: the top player seeks a crossface plus control of the shield leg to pin and flatten, while the bottom player fights for sleeve, collar, or wrist control to deny those grips and free their own frames. A key fault line is the near-side underhook, which flips the position toward the bottom player's offense if won and toward the top player's pass if denied. Because the frame alone is neutral, the grip battle is what converts the standoff into advancement or retention.",
+      "answer_line": "Underhook fight decides the battle",
+      "distractors": {
+        "plausible": [
+          "Shin position alone decides it",
+          "Grip fighting barely matters here"
+        ],
+        "trap": [
+          "Give up the near-side underhook"
+        ]
+      }
     },
     {
       "question": "What makes the knee shield an offensive launching point and not merely a defensive barrier?",
@@ -790,11 +1000,31 @@
     },
     {
       "question": "How does the position relate to its adjacent positions, and when does it convert into them?",
-      "answer": "Knee Shield Half Guard sits as a specialized variant of half guard, distinguished by the shin frame that replaces flat pressure contact. When the shield collapses under the top player's pressure it degrades toward flattened half guard, the outcome the bottom player is fighting to avoid. When the top player stands to pass, the exposed leg invites conversion to X-guard or single-leg X as the bottom player follows the rising hips with hooks. When the top player drives forward and commits their weight, the bottom player can dive under into deep half guard, making the position a hub that flows into several adjacent guards depending on which way the pressure breaks."
+      "answer": "Knee Shield Half Guard sits as a specialized variant of half guard, distinguished by the shin frame that replaces flat pressure contact. When the shield collapses under the top player's pressure it degrades toward flattened half guard, the outcome the bottom player is fighting to avoid. When the top player stands to pass, the exposed leg invites conversion to X-guard or single-leg X as the bottom player follows the rising hips with hooks. When the top player drives forward and commits their weight, the bottom player can dive under into deep half guard, making the position a hub that flows into several adjacent guards depending on which way the pressure breaks.",
+      "answer_line": "Hub: flows to deep half or X-guard",
+      "distractors": {
+        "plausible": [
+          "Never transitions, stays static",
+          "Only converts to closed guard"
+        ],
+        "trap": [
+          "Force a finish instead of flowing"
+        ]
+      }
     },
     {
       "question": "Why does this position demand constant micro-adjustment from both players rather than a static hold?",
-      "answer": "The knee shield is an equilibrium of opposing forces, so any shift by one player immediately changes what the other must do. The top player pulses pressure and switches passing angles to bait reactions and find a moment to collapse the shield, while the bottom player continuously retunes shield height, hip angle, and grips to match each threat. A static frame is quickly solved, because a fixed shield height leaves a predictable lane open and a flat hip surrenders the angles needed to defend or attack. This ongoing negotiation of distance, angle, and grips is the fundamental dynamic that makes the position what it is."
+      "answer": "The knee shield is an equilibrium of opposing forces, so any shift by one player immediately changes what the other must do. The top player pulses pressure and switches passing angles to bait reactions and find a moment to collapse the shield, while the bottom player continuously retunes shield height, hip angle, and grips to match each threat. A static frame is quickly solved, because a fixed shield height leaves a predictable lane open and a flat hip surrenders the angles needed to defend or attack. This ongoing negotiation of distance, angle, and grips is the fundamental dynamic that makes the position what it is.",
+      "answer_line": "Keep retuning, never go static",
+      "distractors": {
+        "plausible": [
+          "Hold one fixed frame throughout",
+          "Set grips once and stay still"
+        ],
+        "trap": [
+          "Relax fully once frame is set"
+        ]
+      }
     }
   ],
   "clips": [

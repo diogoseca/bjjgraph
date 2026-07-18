@@ -260,43 +260,143 @@
     "flashcards": [
       {
         "question": "What is the most critical grip to maintain throughout the S Mount Armbar Setup transition?",
-        "answer": "Two-on-one wrist control on the trapped arm is the non-negotiable grip maintained from S Mount through armbar control. Losing wrist control at any point during the transition allows the opponent to retract their arm and escape. Both hands should grip the wrist or forearm with thumbs on the inside, maintaining constant inward tension throughout the fall-back."
+        "answer": "Two-on-one wrist control on the trapped arm is the non-negotiable grip maintained from S Mount through armbar control. Losing wrist control at any point during the transition allows the opponent to retract their arm and escape. Both hands should grip the wrist or forearm with thumbs on the inside, maintaining constant inward tension throughout the fall-back.",
+        "answer_line": "Two-on-one wrist control",
+        "distractors": {
+          "plausible": [
+            "Hip seal against shoulder",
+            "Knee pinch on the arm"
+          ],
+          "trap": [
+            "One hand grip, free hand frames"
+          ]
+        }
       },
       {
         "question": "Your opponent grips their own collar with the trapped hand as you begin the fall-back - how do you respond?",
-        "answer": "Address the collar grip before continuing the transition. Use both hands to pry their fingers off the collar one at a time, or wedge your forearm under their wrist to lever the grip open. If the grip is too strong to break, switch to a mounted triangle by threading your leg under their chin, as the bent arm creates the necessary opening for the triangle configuration."
+        "answer": "Address the collar grip before continuing the transition. Use both hands to pry their fingers off the collar one at a time, or wedge your forearm under their wrist to lever the grip open. If the grip is too strong to break, switch to a mounted triangle by threading your leg under their chin, as the bent arm creates the necessary opening for the triangle configuration.",
+        "answer_line": "Pry grip off or switch triangle",
+        "distractors": {
+          "plausible": [
+            "Force wrist control regardless",
+            "Abandon armbar, return to mount"
+          ],
+          "trap": [
+            "Rip the arm to break the grip"
+          ]
+        }
       },
       {
         "question": "Why must you pinch your knees together before leaning back into armbar control?",
-        "answer": "Pinching knees creates a secondary control mechanism trapping the arm between your thighs independently of hand grips. During the fall-back, your body changes angle and hands may need to readjust. Without the knee pinch, the arm can slip out laterally through this adjustment window. The compression also makes arm retraction mechanically more difficult for the defender."
+        "answer": "Pinching knees creates a secondary control mechanism trapping the arm between your thighs independently of hand grips. During the fall-back, your body changes angle and hands may need to readjust. Without the knee pinch, the arm can slip out laterally through this adjustment window. The compression also makes arm retraction mechanically more difficult for the defender.",
+        "answer_line": "Secondary control, arm can't slip",
+        "distractors": {
+          "plausible": [
+            "Only stabilizes your base",
+            "Speeds up the fall-back"
+          ],
+          "trap": [
+            "Squeeze legs, let go of wrist"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent bridges and creates significant space during your transition?",
-        "answer": "Immediately assess whether you can complete the armbar from the adjusted position. If wrist control is intact and the arm remains between your legs, follow their movement and finish from the new angle. If space is too great and control is compromised, abandon the armbar attempt and recover mount position before the opponent can fully escape. Remaining in a compromised half-committed position is the worst option."
+        "answer": "Immediately assess whether you can complete the armbar from the adjusted position. If wrist control is intact and the arm remains between your legs, follow their movement and finish from the new angle. If space is too great and control is compromised, abandon the armbar attempt and recover mount position before the opponent can fully escape. Remaining in a compromised half-committed position is the worst option.",
+        "answer_line": "Follow if secure else reset mount",
+        "distractors": {
+          "plausible": [
+            "Always push through the bridge",
+            "Release grip and regain top"
+          ],
+          "trap": [
+            "Stay in half-committed spot"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent's free arm from interfering with the armbar setup?",
-        "answer": "Before committing to the fall-back, use your near knee to pin the opponent's free arm against their body or the mat. Apply downward pressure through your shin across their chest to limit arm mobility. If their free hand reaches despite knee pressure, use your near hand momentarily to deflect it before re-gripping the wrist. Neutralizing the free arm eliminates the opponent's primary defensive tool."
+        "answer": "Before committing to the fall-back, use your near knee to pin the opponent's free arm against their body or the mat. Apply downward pressure through your shin across their chest to limit arm mobility. If their free hand reaches despite knee pressure, use your near hand momentarily to deflect it before re-gripping the wrist. Neutralizing the free arm eliminates the opponent's primary defensive tool.",
+        "answer_line": "Pin free arm with near knee",
+        "distractors": {
+          "plausible": [
+            "Grab the free wrist first",
+            "Ignore it, focus on trapped arm"
+          ],
+          "trap": [
+            "Release wrist to block free arm"
+          ]
+        }
       },
       {
         "question": "What is the optimal body positioning during the fall-back transition from S Mount to armbar control?",
-        "answer": "Your hips should maintain constant contact with the opponent's shoulder throughout, serving as a pivot point. Lead the lean-back with your hips rather than shoulders, allowing weight to transfer gradually. Your legs tighten during descent: the leg over the head drops snug against the face while the leg across the torso maintains chest control. The transition should feel like a controlled descent with the arm locked between your legs."
+        "answer": "Your hips should maintain constant contact with the opponent's shoulder throughout, serving as a pivot point. Lead the lean-back with your hips rather than shoulders, allowing weight to transfer gradually. Your legs tighten during descent: the leg over the head drops snug against the face while the leg across the torso maintains chest control. The transition should feel like a controlled descent with the arm locked between your legs.",
+        "answer_line": "Hips stay glued, lead with hips",
+        "distractors": {
+          "plausible": [
+            "Lead the fall-back with shoulders",
+            "Keep hips light, weight on legs"
+          ],
+          "trap": [
+            "Separate hips to gain angle"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the S Mount Armbar Setup?",
-        "answer": "The optimal window is when the opponent's defensive resources are depleted: after a failed escape attempt, during a pause to rest, or when they commit their free hand to pushing your base rather than defending the arm. Initiate when all control points are confirmed: wrist control secure, hip sealed against shoulder, knees pinched, and free arm neutralized. Never initiate during an active bridge or explosive escape attempt."
+        "answer": "The optimal window is when the opponent's defensive resources are depleted: after a failed escape attempt, during a pause to rest, or when they commit their free hand to pushing your base rather than defending the arm. Initiate when all control points are confirmed: wrist control secure, hip sealed against shoulder, knees pinched, and free arm neutralized. Never initiate during an active bridge or explosive escape attempt.",
+        "answer_line": "After failed escape, controls set",
+        "distractors": {
+          "plausible": [
+            "Right when mount is achieved",
+            "As soon as wrist control is on"
+          ],
+          "trap": [
+            "During an active bridge attempt"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful S Mount Armbar Setup from one that fails?",
-        "answer": "Successful setups maintain continuous pressure throughout the transition with no gaps in control. The arm stays trapped at every phase, hips never separate from the shoulder, and wrist control is never released. Failed setups typically have a moment where one control element is abandoned before the next is established, creating a window for arm retraction or escape. The setup should feel like tightening a system, not jumping between positions."
+        "answer": "Successful setups maintain continuous pressure throughout the transition with no gaps in control. The arm stays trapped at every phase, hips never separate from the shoulder, and wrist control is never released. Failed setups typically have a moment where one control element is abandoned before the next is established, creating a window for arm retraction or escape. The setup should feel like tightening a system, not jumping between positions.",
+        "answer_line": "No gaps, controls stack not swap",
+        "distractors": {
+          "plausible": [
+            "Faster overall transition speed",
+            "Using more strength throughout"
+          ],
+          "trap": [
+            "Release one grip before next"
+          ]
+        }
       },
       {
         "question": "How do you adjust the setup when your opponent is significantly larger or stronger than you?",
-        "answer": "Focus on leverage and timing rather than matching their strength. Ensure the hip-to-shoulder seal is airtight before committing, as larger opponents can power through gaps. Use the controlled squeeze transition variant, confirming each control point before advancing. Time the fall-back to coincide with their exhaustion after a failed escape rather than fighting their fresh defensive strength. The S Mount's mechanical advantage is strength-independent when properly applied."
+        "answer": "Focus on leverage and timing rather than matching their strength. Ensure the hip-to-shoulder seal is airtight before committing, as larger opponents can power through gaps. Use the controlled squeeze transition variant, confirming each control point before advancing. Time the fall-back to coincide with their exhaustion after a failed escape rather than fighting their fresh defensive strength. The S Mount's mechanical advantage is strength-independent when properly applied.",
+        "answer_line": "Leverage & timing, seal airtight",
+        "distractors": {
+          "plausible": [
+            "Use more grip strength",
+            "Rush the fall-back quickly"
+          ],
+          "trap": [
+            "Muscle through with power"
+          ]
+        }
       },
       {
         "question": "What signals indicate you should abandon the armbar setup and return to S Mount or standard mount?",
-        "answer": "Abandon when you lose wrist control and cannot immediately re-grip, when the opponent creates significant lateral space through hip escape that breaks your knee pinch, or when their bridge disrupts your base to the point where you risk being reversed. The key indicator is whether you still have redundant control: if only one control element remains such as just wrist control or just knee pinch but not both, the setup is compromised. Returning to mount preserves positional dominance rather than gambling on a deteriorating submission attempt."
+        "answer": "Abandon when you lose wrist control and cannot immediately re-grip, when the opponent creates significant lateral space through hip escape that breaks your knee pinch, or when their bridge disrupts your base to the point where you risk being reversed. The key indicator is whether you still have redundant control: if only one control element remains such as just wrist control or just knee pinch but not both, the setup is compromised. Returning to mount preserves positional dominance rather than gambling on a deteriorating submission attempt.",
+        "answer_line": "Only one control point remains",
+        "distractors": {
+          "plausible": [
+            "Opponent moves at all",
+            "Fall-back takes too long"
+          ],
+          "trap": [
+            "Push through to finish anyway"
+          ]
+        }
       }
     ],
     "safety_considerations": "The S Mount Armbar Setup transitions directly into armbar control where hyperextension of the elbow joint is the submission mechanism. Apply pressure gradually and progressively during drilling, never jerking or cranking the arm. Partners should establish clear tap signals before drilling. When the arm reaches full extension against resistance, the submission is complete - release immediately upon tap. During live training, be cautious during the fall-back phase where momentum can accelerate arm extension beyond the partner's ability to tap in time. Always prioritize training partner safety over submission completion.",
@@ -415,27 +515,87 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the S Mount Armbar Setup?",
-        "answer": "The earliest cue is when the attacker shifts from single-hand or positional control to a deliberate two-on-one grip on your wrist. This grip change signals commitment to the arm attack rather than general S Mount maintenance. The moment you feel both hands securing your wrist, immediately reinforce your collar grip and prepare your free hand for defensive framing."
+        "answer": "The earliest cue is when the attacker shifts from single-hand or positional control to a deliberate two-on-one grip on your wrist. This grip change signals commitment to the arm attack rather than general S Mount maintenance. The moment you feel both hands securing your wrist, immediately reinforce your collar grip and prepare your free hand for defensive framing.",
+        "answer_line": "Two-on-one grip on your wrist",
+        "distractors": {
+          "plausible": [
+            "Opponent shifts hip position",
+            "They grab your far collar"
+          ],
+          "trap": [
+            "Wait until armbar locks in"
+          ]
+        }
       },
       {
         "question": "Why is the transition window the optimal moment for defensive action rather than after armbar control?",
-        "answer": "During the transition from S Mount to armbar control, the attacker must shift weight backward and change body position. This creates a brief moment of reduced stability where pressure on your shoulder decreases and their leg positions are adjusting. Once all five armbar control points are locked in, escape becomes exponentially more difficult because every defensive avenue is simultaneously blocked."
+        "answer": "During the transition from S Mount to armbar control, the attacker must shift weight backward and change body position. This creates a brief moment of reduced stability where pressure on your shoulder decreases and their leg positions are adjusting. Once all five armbar control points are locked in, escape becomes exponentially more difficult because every defensive avenue is simultaneously blocked.",
+        "answer_line": "Attacker's base is briefly weak",
+        "distractors": {
+          "plausible": [
+            "Attacker is most tired then",
+            "Your arm has full mobility then"
+          ],
+          "trap": [
+            "Defend after the lock is set"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a two-on-one grip and begins leaning back - what escape sequence gives the best chance?",
-        "answer": "First, reinforce your collar grip to prevent arm extension. Second, bridge explosively toward the attacker's legs to disrupt their base during the fall-back. Third, hip escape in the same direction to create lateral space. Fourth, use your free hand to push their leg off your head. Fifth, extract your arm and immediately recover to half guard. This sequence must execute as one fluid motion during the transition window."
+        "answer": "First, reinforce your collar grip to prevent arm extension. Second, bridge explosively toward the attacker's legs to disrupt their base during the fall-back. Third, hip escape in the same direction to create lateral space. Fourth, use your free hand to push their leg off your head. Fifth, extract your arm and immediately recover to half guard. This sequence must execute as one fluid motion during the transition window.",
+        "answer_line": "Bridge legs, hip escape, extract",
+        "distractors": {
+          "plausible": [
+            "Bridge away, then hip escape",
+            "Pull arm out first, then bridge"
+          ],
+          "trap": [
+            "Push attacker's hips, then relax"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when trapped in S Mount with the armbar setup imminent?",
-        "answer": "Use structural defense rather than muscular resistance. Maintain your collar grip through hand and forearm positioning rather than bicep strength. Breathe steadily to prevent panic-induced energy depletion. Conserve explosive effort for one well-timed escape attempt during the transition window rather than multiple desperate movements that exhaust you without creating meaningful positional change."
+        "answer": "Use structural defense rather than muscular resistance. Maintain your collar grip through hand and forearm positioning rather than bicep strength. Breathe steadily to prevent panic-induced energy depletion. Conserve explosive effort for one well-timed escape attempt during the transition window rather than multiple desperate movements that exhaust you without creating meaningful positional change.",
+        "answer_line": "Structural defense, save one burst",
+        "distractors": {
+          "plausible": [
+            "Fight strength with strength",
+            "Multiple small escape attempts"
+          ],
+          "trap": [
+            "Muscle the collar grip with bicep"
+          ]
+        }
       },
       {
         "question": "When should you tap rather than continue defending the S Mount Armbar Setup?",
-        "answer": "Tap immediately if your arm reaches full extension with the attacker's hips tight against your shoulder and their legs controlling your upper body. At that point, the armbar is mechanically complete and further resistance risks serious elbow ligament damage. Also tap if you feel any sharp pain or popping sensation in the elbow joint. Training safety always takes absolute priority over positional survival."
+        "answer": "Tap immediately if your arm reaches full extension with the attacker's hips tight against your shoulder and their legs controlling your upper body. At that point, the armbar is mechanically complete and further resistance risks serious elbow ligament damage. Also tap if you feel any sharp pain or popping sensation in the elbow joint. Training safety always takes absolute priority over positional survival.",
+        "answer_line": "Full extension or sharp pain",
+        "distractors": {
+          "plausible": [
+            "Only when elbow pops loudly",
+            "When you feel any discomfort"
+          ],
+          "trap": [
+            "Wait to see if it truly breaks"
+          ]
+        }
       },
       {
         "question": "How should you prioritize your free arm's defensive functions during the setup?",
-        "answer": "The free arm serves three defensive functions in priority order: first, reinforce the collar grip on the trapped arm if it is weakening under the attacker's grip-breaking attempts; second, frame against the attacker's hip to resist the fall-back transition and maintain defensive distance; third, control the attacker's leg over your head to prevent full step-over completion. Avoid using the free arm to push randomly or reach across your body, which can expose it to a second arm attack or mounted triangle entry."
+        "answer": "The free arm serves three defensive functions in priority order: first, reinforce the collar grip on the trapped arm if it is weakening under the attacker's grip-breaking attempts; second, frame against the attacker's hip to resist the fall-back transition and maintain defensive distance; third, control the attacker's leg over your head to prevent full step-over completion. Avoid using the free arm to push randomly or reach across your body, which can expose it to a second arm attack or mounted triangle entry.",
+        "answer_line": "Collar grip, frame hip, leg control",
+        "distractors": {
+          "plausible": [
+            "Frame the hip first always",
+            "Grab the far leg immediately"
+          ],
+          "trap": [
+            "Push randomly across body"
+          ]
+        }
       }
     ],
     "training_progressions": [

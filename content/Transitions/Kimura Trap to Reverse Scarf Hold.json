@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What specific defensive reaction from the opponent signals that the Reverse Scarf Hold transition is the optimal choice from Kimura Trap Top?",
-        "answer": "The opponent committing to an elbow-tucked defense where they pin their elbow to their ribs and keep their arm tight to their body to prevent the Kimura finish. This defensive posture, while effective against the submission, creates the ideal conditions for the positional transition because the opponent is focused on arm protection rather than frame creation or guard recovery. Testing the Kimura with a brief rotational pull confirms this defensive commitment."
+        "answer": "The opponent committing to an elbow-tucked defense where they pin their elbow to their ribs and keep their arm tight to their body to prevent the Kimura finish. This defensive posture, while effective against the submission, creates the ideal conditions for the positional transition because the opponent is focused on arm protection rather than frame creation or guard recovery. Testing the Kimura with a brief rotational pull confirms this defensive commitment.",
+        "answer_line": "Elbow tucked tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Frames hard against your hip",
+            "Grips your sleeve to strip grip"
+          ],
+          "trap": [
+            "Bridges explosively to roll you"
+          ]
+        }
       },
       {
         "question": "Why must you avoid stopping at the perpendicular (90-degree) angle during the rotation?",
-        "answer": "The perpendicular position is a dead zone that provides neither the control mechanics of Kimura Trap nor the pinning power of Reverse Scarf Hold. Your base is at its narrowest and weakest point, your submission angles are compromised, and the opponent has maximum leverage for bridging escapes. Pausing here gives the opponent time to insert frames, adjust their defense, or initiate hip escapes. The perpendicular angle should be transitioned through quickly as part of the continuous rotation."
+        "answer": "The perpendicular position is a dead zone that provides neither the control mechanics of Kimura Trap nor the pinning power of Reverse Scarf Hold. Your base is at its narrowest and weakest point, your submission angles are compromised, and the opponent has maximum leverage for bridging escapes. Pausing here gives the opponent time to insert frames, adjust their defense, or initiate hip escapes. The perpendicular angle should be transitioned through quickly as part of the continuous rotation.",
+        "answer_line": "Rotate through fast, don't pause",
+        "distractors": {
+          "plausible": [
+            "Pause to reset base first",
+            "Switch grips at 90 degrees"
+          ],
+          "trap": [
+            "Stall there to catch breath"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far arm as a frame against your neck halfway through the rotation - how do you adjust?",
-        "answer": "Drive your shoulder into their frame to collapse it while continuing the rotation if possible. If the frame is too strong to collapse, you have two options: abandon the Reverse Scarf Hold and use their framing commitment to advance to mount by stepping over their body, or return to Kimura Trap Top and threaten the submission again to force them to retract the frame. Never stall against a strong frame in the mid-rotation position."
+        "answer": "Drive your shoulder into their frame to collapse it while continuing the rotation if possible. If the frame is too strong to collapse, you have two options: abandon the Reverse Scarf Hold and use their framing commitment to advance to mount by stepping over their body, or return to Kimura Trap Top and threaten the submission again to force them to retract the frame. Never stall against a strong frame in the mid-rotation position.",
+        "answer_line": "Collapse frame, keep rotating",
+        "distractors": {
+          "plausible": [
+            "Fight the frame with your hands",
+            "Wait for frame to tire out"
+          ],
+          "trap": [
+            "Stall against the frame mid-turn"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that maintains pressure throughout the rotation?",
-        "answer": "Transferring your primary weight from hips to chest before beginning the foot walk is the critical mechanical detail. By loading your chest heavily onto the opponent's torso first, your hips become free to rotate while the opponent continues to feel crushing pressure. Your chest slides across their torso like a rolling pin, never lifting off the surface. This weight-to-chest transfer is what distinguishes a successful transition from one that creates escape windows."
+        "answer": "Transferring your primary weight from hips to chest before beginning the foot walk is the critical mechanical detail. By loading your chest heavily onto the opponent's torso first, your hips become free to rotate while the opponent continues to feel crushing pressure. Your chest slides across their torso like a rolling pin, never lifting off the surface. This weight-to-chest transfer is what distinguishes a successful transition from one that creates escape windows.",
+        "answer_line": "Shift weight hips to chest first",
+        "distractors": {
+          "plausible": [
+            "Keep weight on hips throughout",
+            "Load weight onto your knees"
+          ],
+          "trap": [
+            "Lift chest to free hip rotation"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use during the rotation, and when does it change?",
-        "answer": "Maintain the full Kimura figure-four grip throughout the entire rotation. The grip serves as your pivot point and control anchor during the movement. Only transition from the figure-four to a standard arm-hugging control after your hips have fully settled into Reverse Scarf Hold and your base is established. Releasing the figure-four prematurely creates an arm-control gap that the opponent can exploit to recover frames or extract their arm."
+        "answer": "Maintain the full Kimura figure-four grip throughout the entire rotation. The grip serves as your pivot point and control anchor during the movement. Only transition from the figure-four to a standard arm-hugging control after your hips have fully settled into Reverse Scarf Hold and your base is established. Releasing the figure-four prematurely creates an arm-control gap that the opponent can exploit to recover frames or extract their arm.",
+        "answer_line": "Keep figure-four grip the whole time",
+        "distractors": {
+          "plausible": [
+            "Switch to arm-hug mid-rotation",
+            "Loosen grip to save energy"
+          ],
+          "trap": [
+            "Release grip early to reposition"
+          ]
+        }
       },
       {
         "question": "How should your feet move during the transition, and why does step size matter?",
-        "answer": "Walk your feet in small, controlled increments in an arc around the opponent's head, maintaining hip-width or wider base at all times. Small steps matter because each step temporarily narrows your base and slightly shifts your weight distribution. Large steps create pronounced moments of instability where the opponent can bridge effectively or insert their knees. Three to four small steps through the arc maintain constant base width and pressure better than one or two large leaps."
+        "answer": "Walk your feet in small, controlled increments in an arc around the opponent's head, maintaining hip-width or wider base at all times. Small steps matter because each step temporarily narrows your base and slightly shifts your weight distribution. Large steps create pronounced moments of instability where the opponent can bridge effectively or insert their knees. Three to four small steps through the arc maintain constant base width and pressure better than one or two large leaps.",
+        "answer_line": "Small steps, wide base always",
+        "distractors": {
+          "plausible": [
+            "One big step to save time",
+            "Drag both feet together"
+          ],
+          "trap": [
+            "Leap through in one big step"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges during the most vulnerable phase of the rotation - what is your response?",
-        "answer": "Ride the bridge by keeping your chest heavy and grip tight rather than fighting the upward force directly. Use their bridge momentum to accelerate your rotation, essentially letting their upward energy help complete your hip switch faster. If the bridge is powerful enough to genuinely compromise your position, abandon the transition and settle back into Kimura Trap Top, which is a safe default position. Never fight a powerful bridge from the mid-rotation position."
+        "answer": "Ride the bridge by keeping your chest heavy and grip tight rather than fighting the upward force directly. Use their bridge momentum to accelerate your rotation, essentially letting their upward energy help complete your hip switch faster. If the bridge is powerful enough to genuinely compromise your position, abandon the transition and settle back into Kimura Trap Top, which is a safe default position. Never fight a powerful bridge from the mid-rotation position.",
+        "answer_line": "Ride the bridge, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Sprawl hard to flatten bridge",
+            "Push down to stop the bridge"
+          ],
+          "trap": [
+            "Fight bridge head-on with strength"
+          ]
+        }
       },
       {
         "question": "After completing the transition, what are the first three things you verify to confirm proper Reverse Scarf Hold control?",
-        "answer": "First, verify your hip bone is making direct contact with the opponent's sternum with heavy downward pressure that restricts their breathing. Second, confirm the opponent's near arm is trapped across their body with your near arm hugging it tightly, eliminating their primary framing tool. Third, check that your base is wide with your far leg extended and near leg posted, creating a stable triangular structure that resists bridging from multiple angles. Only after these three control points are confirmed should you begin offensive attacks."
+        "answer": "First, verify your hip bone is making direct contact with the opponent's sternum with heavy downward pressure that restricts their breathing. Second, confirm the opponent's near arm is trapped across their body with your near arm hugging it tightly, eliminating their primary framing tool. Third, check that your base is wide with your far leg extended and near leg posted, creating a stable triangular structure that resists bridging from multiple angles. Only after these three control points are confirmed should you begin offensive attacks.",
+        "answer_line": "Hip, arm trap, wide base",
+        "distractors": {
+          "plausible": [
+            "Check grip first, then base",
+            "Secure far leg, then hips"
+          ],
+          "trap": [
+            "Attack submissions right away"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves significant chest compression and rotational pressure on the opponent's shoulder during the grip transfer. Maintain awareness of your partner's breathing, especially when settling hip weight into the final Reverse Scarf Hold position, as the crushing chest pressure can restrict breathing quickly. During training, perform the rotation at controlled speed rather than explosively to prevent accidentally cranking the trapped shoulder during the hip switch. If your partner taps during the transition itself, release immediately as the shoulder may be in a vulnerable rotational position. Always communicate with training partners about pressure tolerance and ensure they know to tap if breathing becomes seriously restricted under the pin.",
@@ -406,19 +486,59 @@
     "flashcards": [
       {
         "question": "What are the earliest tactile cues that the Reverse Scarf Hold transition has begun from Kimura Trap?",
-        "answer": "The earliest cues are the attacker's feet beginning to move in small walking steps in an arc around your head, combined with a pressure shift from their hips to their chest on your torso. You will also feel the Kimura grip angle changing from a lateral orientation to a diagonal one as the attacker's body begins to rotate. The most reliable early indicator is the weight shift to chest, which the attacker must perform to free their hips for rotation."
+        "answer": "The earliest cues are the attacker's feet beginning to move in small walking steps in an arc around your head, combined with a pressure shift from their hips to their chest on your torso. You will also feel the Kimura grip angle changing from a lateral orientation to a diagonal one as the attacker's body begins to rotate. The most reliable early indicator is the weight shift to chest, which the attacker must perform to free their hips for rotation.",
+        "answer_line": "Weight shifts from hips to chest",
+        "distractors": {
+          "plausible": [
+            "Kimura grip suddenly tightens",
+            "Opponent's hips start moving"
+          ],
+          "trap": [
+            "Feels like grip is loosening"
+          ]
+        }
       },
       {
         "question": "Why is the mid-rotation phase the optimal time to attempt defensive actions?",
-        "answer": "During mid-rotation (approximately the perpendicular angle), the attacker's base is at its narrowest point, their weight is distributed across a transitional rather than stable configuration, and their attention is split between completing the rotation and maintaining control. A bridge, frame, or hip escape during this window has the highest probability of success because the attacker cannot simultaneously stabilize their narrow base and complete the rotation against resistance."
+        "answer": "During mid-rotation (approximately the perpendicular angle), the attacker's base is at its narrowest point, their weight is distributed across a transitional rather than stable configuration, and their attention is split between completing the rotation and maintaining control. A bridge, frame, or hip escape during this window has the highest probability of success because the attacker cannot simultaneously stabilize their narrow base and complete the rotation against resistance.",
+        "answer_line": "Attacker's base is narrowest",
+        "distractors": {
+          "plausible": [
+            "Attacker grips are loosest",
+            "Attacker's weight is heaviest"
+          ],
+          "trap": [
+            "Wait until fully mounted to escape"
+          ]
+        }
       },
       {
         "question": "What is the risk-reward calculation of releasing your Kimura arm defense to create frames during the transition?",
-        "answer": "Releasing the Kimura defense during mid-rotation is moderately risky but potentially high-reward. The risk is that the attacker recognizes the arm extension and immediately re-engages the Kimura finish with improved leverage from their new angle. The reward is that a well-timed frame can completely block the rotation and create guard recovery opportunities. The optimal strategy is to release Kimura defense only when the attacker is clearly committed to the positional transition and their focus has shifted from the submission to the rotation."
+        "answer": "Releasing the Kimura defense during mid-rotation is moderately risky but potentially high-reward. The risk is that the attacker recognizes the arm extension and immediately re-engages the Kimura finish with improved leverage from their new angle. The reward is that a well-timed frame can completely block the rotation and create guard recovery opportunities. The optimal strategy is to release Kimura defense only when the attacker is clearly committed to the positional transition and their focus has shifted from the submission to the rotation.",
+        "answer_line": "Release only when fully committed",
+        "distractors": {
+          "plausible": [
+            "Release immediately for frames",
+            "Never release, ride it out"
+          ],
+          "trap": [
+            "Release early to grab far frame"
+          ]
+        }
       },
       {
         "question": "Your frame was insufficient and the attacker has completed the rotation to Reverse Scarf Hold - what is your immediate priority?",
-        "answer": "Immediately re-establish near-arm defense by tucking your elbow tight to your ribs with your hand near your opposite shoulder, as the trapped arm in Reverse Scarf Hold is highly vulnerable to americana and kimura attacks. Then focus on breath control under the chest compression to prevent panic. Only after these survival priorities are addressed should you begin working on escape sequences using far-side frames and hip rotation to create space for guard recovery."
+        "answer": "Immediately re-establish near-arm defense by tucking your elbow tight to your ribs with your hand near your opposite shoulder, as the trapped arm in Reverse Scarf Hold is highly vulnerable to americana and kimura attacks. Then focus on breath control under the chest compression to prevent panic. Only after these survival priorities are addressed should you begin working on escape sequences using far-side frames and hip rotation to create space for guard recovery.",
+        "answer_line": "Tuck elbow, defend near arm",
+        "distractors": {
+          "plausible": [
+            "Fight for far-side underhook",
+            "Bridge immediately to escape"
+          ],
+          "trap": [
+            "Extend arm to push off mat"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -226,43 +226,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Explosive Bridge to Turtle?",
-        "answer": "The primary goal is emergency extraction from mounted crucifix to a recoverable position. While turtle is not dominant, it removes the arm entanglement that makes mounted crucifix so dangerous, restores your primary defensive tools (your arms), and opens multiple recovery pathways including guard recovery, stand-up, and turtle-specific escapes. It prioritizes survival over position improvement."
+        "answer": "The primary goal is emergency extraction from mounted crucifix to a recoverable position. While turtle is not dominant, it removes the arm entanglement that makes mounted crucifix so dangerous, restores your primary defensive tools (your arms), and opens multiple recovery pathways including guard recovery, stand-up, and turtle-specific escapes. It prioritizes survival over position improvement.",
+        "answer_line": "Escape crucifix, save your arms",
+        "distractors": {
+          "plausible": [
+            "Improve position, not just survive",
+            "Reverse straight to top mount"
+          ],
+          "trap": [
+            "Wait out the position passively"
+          ]
+        }
       },
       {
         "question": "What position do you start Explosive Bridge to Turtle from?",
-        "answer": "This technique starts from Mounted Crucifix Bottom, one of the most dangerous defensive positions in BJJ. In this position, your opponent has mount control while also trapping one or both of your arms with their legs, eliminating your primary defensive tools and exposing you to numerous submission threats."
+        "answer": "This technique starts from Mounted Crucifix Bottom, one of the most dangerous defensive positions in BJJ. In this position, your opponent has mount control while also trapping one or both of your arms with their legs, eliminating your primary defensive tools and exposing you to numerous submission threats.",
+        "answer_line": "Mounted crucifix bottom",
+        "distractors": {
+          "plausible": [
+            "Mount bottom, arms free",
+            "Back mount, both hooks in"
+          ],
+          "trap": [
+            "Side control, arm trapped"
+          ]
+        }
       },
       {
         "question": "Why must the bridge be directed laterally toward the trapped arm side rather than straight up?",
-        "answer": "A lateral bridge toward the trapped arm creates both the space needed for arm extraction AND the rotational momentum required to complete the turn to turtle. Bridging straight up only lifts opponent temporarily without creating extraction angle or turning momentum. The diagonal direction makes the opponent's leg control mechanically weaker and sets up the natural rotation into turtle position."
+        "answer": "A lateral bridge toward the trapped arm creates both the space needed for arm extraction AND the rotational momentum required to complete the turn to turtle. Bridging straight up only lifts opponent temporarily without creating extraction angle or turning momentum. The diagonal direction makes the opponent's leg control mechanically weaker and sets up the natural rotation into turtle position.",
+        "answer_line": "Creates space and turning momentum",
+        "distractors": {
+          "plausible": [
+            "Straight up bridge lifts higher",
+            "Bridge away from trapped arm"
+          ],
+          "trap": [
+            "Bridge toward their strongest leg"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight and flattens their hips when you attempt to bridge - how do you adjust?",
-        "answer": "Wait for their attack setup, as any submission attempt requires them to shift weight forward or adjust position, compromising their base. Alternatively, fake the bridge one direction to draw their weight, then explosively commit the opposite direction. You can also chain small movements to bait reactions before committing to the explosive attempt when their counter-positioning creates vulnerability."
+        "answer": "Wait for their attack setup, as any submission attempt requires them to shift weight forward or adjust position, compromising their base. Alternatively, fake the bridge one direction to draw their weight, then explosively commit the opposite direction. You can also chain small movements to bait reactions before committing to the explosive attempt when their counter-positioning creates vulnerability.",
+        "answer_line": "Wait for their attack, then explode",
+        "distractors": {
+          "plausible": [
+            "Bridge harder in same direction",
+            "Rest until they relax fully"
+          ],
+          "trap": [
+            "Force bridge through their base"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent already has a choke grip established before you attempt this escape?",
-        "answer": "Address the immediate choke threat before attempting the bridge escape. The explosive bridge can actually accelerate a blood choke by driving your neck against their grip. First work to strip their choking grip or create defensive space at your neck through posture adjustments and whatever arm mobility you have. Only commit to the positional escape once the immediate submission threat is neutralized."
+        "answer": "Address the immediate choke threat before attempting the bridge escape. The explosive bridge can actually accelerate a blood choke by driving your neck against their grip. First work to strip their choking grip or create defensive space at your neck through posture adjustments and whatever arm mobility you have. Only commit to the positional escape once the immediate submission threat is neutralized.",
+        "answer_line": "Strip the choke grip first",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively right away",
+            "Tap and reset position"
+          ],
+          "trap": [
+            "Bridge hard to break the grip"
+          ]
+        }
       },
       {
         "question": "Why is arm extraction simultaneous with the bridge rather than a separate sequential step?",
-        "answer": "The bridge creates a brief window where opponent's leg control loosens due to balance disruption. This window closes rapidly as they recover. Treating arm extraction as a separate step means the window may close before extraction completes. The arm slides free through space created by hip movement - it's the same motion generating both effects. Timing extraction with bridge peak maximizes the space available and momentum assistance."
+        "answer": "The bridge creates a brief window where opponent's leg control loosens due to balance disruption. This window closes rapidly as they recover. Treating arm extraction as a separate step means the window may close before extraction completes. The arm slides free through space created by hip movement - it's the same motion generating both effects. Timing extraction with bridge peak maximizes the space available and momentum assistance.",
+        "answer_line": "One motion creates the escape",
+        "distractors": {
+          "plausible": [
+            "Bridge first, then pull arm free",
+            "Extract arm before bridging"
+          ],
+          "trap": [
+            "Wait for window to fully open"
+          ]
+        }
       },
       {
         "question": "What are the most critical body positioning details for maximum bridge power?",
-        "answer": "Heels must be driven as close to buttocks as possible with toes dug into the mat for maximum leg drive leverage. Knees should be bent at sharp angles to generate explosive hip extension. The drive initiates from legs through hips, creating a whipping motion that generates both vertical lift and lateral direction. Core engagement connects lower body power to upper body rotation."
+        "answer": "Heels must be driven as close to buttocks as possible with toes dug into the mat for maximum leg drive leverage. Knees should be bent at sharp angles to generate explosive hip extension. The drive initiates from legs through hips, creating a whipping motion that generates both vertical lift and lateral direction. Core engagement connects lower body power to upper body rotation.",
+        "answer_line": "Heels to butt, toes dug in",
+        "distractors": {
+          "plausible": [
+            "Legs straight for max extension",
+            "Wide knees for stable base"
+          ],
+          "trap": [
+            "Push off with hands on mat"
+          ]
+        }
       },
       {
         "question": "How should you continue after successfully reaching turtle position?",
-        "answer": "Immediately begin working toward a better position rather than resting in turtle. Options include: recovering guard by sitting through or granby rolling, standing up through wrestling base if opponent doesn't have hooks, executing turtle-specific escapes like peek-out or switch, or if they take your back, working back escape sequences. Turtle is a transitional position, not a destination."
+        "answer": "Immediately begin working toward a better position rather than resting in turtle. Options include: recovering guard by sitting through or granby rolling, standing up through wrestling base if opponent doesn't have hooks, executing turtle-specific escapes like peek-out or switch, or if they take your back, working back escape sequences. Turtle is a transitional position, not a destination.",
+        "answer_line": "Keep moving, recover guard or stand",
+        "distractors": {
+          "plausible": [
+            "Rest briefly to regain energy",
+            "Stay turtled until refereed"
+          ],
+          "trap": [
+            "Turtle and wait for their move"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to attempt this explosive escape?",
-        "answer": "The optimal window occurs when opponent shifts weight to set up submissions. Choke attacks require forward lean compromising their base. Armbar setups require positional adjustments that temporarily loosen leg control. These attack commitments create brief vulnerability in their balance and control structure. Attempting to escape against a settled, balanced opponent with tight control has much lower success probability."
+        "answer": "The optimal window occurs when opponent shifts weight to set up submissions. Choke attacks require forward lean compromising their base. Armbar setups require positional adjustments that temporarily loosen leg control. These attack commitments create brief vulnerability in their balance and control structure. Attempting to escape against a settled, balanced opponent with tight control has much lower success probability.",
+        "answer_line": "When they shift weight to attack",
+        "distractors": {
+          "plausible": [
+            "Anytime with enough energy",
+            "When they settle into tight control"
+          ],
+          "trap": [
+            "Right after they secure crucifix"
+          ]
+        }
       },
       {
         "question": "Why is accepting back control sometimes a successful outcome when attempting this escape?",
-        "answer": "Back control with free arms is significantly better than mounted crucifix with trapped arms. In mounted crucifix, you cannot defend submissions effectively due to arm entanglement. In back control, even though opponent has dominant position, you have full use of defensive tools - hand fighting, frames, and the ability to execute systematic back escapes. The escape traded a nearly inescapable position for a difficult but escapable one."
+        "answer": "Back control with free arms is significantly better than mounted crucifix with trapped arms. In mounted crucifix, you cannot defend submissions effectively due to arm entanglement. In back control, even though opponent has dominant position, you have full use of defensive tools - hand fighting, frames, and the ability to execute systematic back escapes. The escape traded a nearly inescapable position for a difficult but escapable one.",
+        "answer_line": "Free arms beat trapped arms",
+        "distractors": {
+          "plausible": [
+            "Back control scores more points",
+            "Easier to escape than mount"
+          ],
+          "trap": [
+            "Fight to regain full mount"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique involves explosive full-body movement that can cause injury if executed improperly. Always warm up thoroughly before drilling, focusing on hip flexors, lower back, and neck mobility. Start with cooperative partners and gradually increase resistance. The violent bridging motion places significant stress on the lumbar spine - practitioners with back issues should modify or avoid this technique. During training, partner should not maintain death-grip control that could injure shoulder or elbow joints when arm extraction is attempted against resistance. Communication about tap signals is critical since the bottom player's arms may be compromised. Avoid this escape if opponent has a deep choke already locked - the bridge can accelerate unconsciousness. Practice falling safely into turtle position to avoid face-planting during the turn.",
@@ -361,23 +461,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is preparing an explosive bridge from mounted crucifix bottom?",
-        "answer": "The earliest cues are foot positioning changes - specifically, the bottom player driving their heels close to their buttocks and digging toes into the mat to load their legs for explosive power. Additional indicators include subtle hip adjustments testing bridge angles, chin tucking with shoulder elevation for neck protection, and a pause in active resistance suggesting energy conservation for a single committed effort. Recognizing these pre-bridge signals gives you time to preemptively adjust weight distribution before the explosion."
+        "answer": "The earliest cues are foot positioning changes - specifically, the bottom player driving their heels close to their buttocks and digging toes into the mat to load their legs for explosive power. Additional indicators include subtle hip adjustments testing bridge angles, chin tucking with shoulder elevation for neck protection, and a pause in active resistance suggesting energy conservation for a single committed effort. Recognizing these pre-bridge signals gives you time to preemptively adjust weight distribution before the explosion.",
+        "answer_line": "Heels driving toward buttocks",
+        "distractors": {
+          "plausible": [
+            "Sudden violent thrashing",
+            "Grabbing at your collar or sleeve"
+          ],
+          "trap": [
+            "Relaxed breathing, going limp"
+          ]
+        }
       },
       {
         "question": "Your opponent's bridge succeeds in creating space but their arm is not yet fully extracted - what is your optimal response?",
-        "answer": "Immediately re-squeeze your knees on the partially freed arm while driving your weight back down onto their torso. The arm extraction window is brief - if the bridge disrupted your balance but the arm is still partially trapped, aggressively re-clamping your knees can re-secure the crucifix before they complete extraction. Simultaneously adjust your hips to re-center your weight over their chest. If the arm does come free despite this effort, immediately transition to back control rather than attempting to re-trap the arm."
+        "answer": "Immediately re-squeeze your knees on the partially freed arm while driving your weight back down onto their torso. The arm extraction window is brief - if the bridge disrupted your balance but the arm is still partially trapped, aggressively re-clamping your knees can re-secure the crucifix before they complete extraction. Simultaneously adjust your hips to re-center your weight over their chest. If the arm does come free despite this effort, immediately transition to back control rather than attempting to re-trap the arm.",
+        "answer_line": "Re-squeeze knees, drive weight down",
+        "distractors": {
+          "plausible": [
+            "Release and reset full mount",
+            "Chase the arm with your hands"
+          ],
+          "trap": [
+            "Post up to check your balance"
+          ]
+        }
       },
       {
         "question": "Why is flowing to back control often preferable to fighting for mounted crucifix re-establishment during a partially successful escape?",
-        "answer": "Once the escape generates sufficient momentum for arm extraction and rotation, the physics favor the escaping player - their rotational momentum is difficult to reverse without releasing control points. Fighting against this momentum wastes your energy and risks losing all control. Conversely, following their rotation into back control uses their movement to assist your transition, maintains chest-to-back contact throughout, and preserves a dominant position worth 4 points. Back control offers comparable submission opportunities while being a natural continuation of the escape's trajectory."
+        "answer": "Once the escape generates sufficient momentum for arm extraction and rotation, the physics favor the escaping player - their rotational momentum is difficult to reverse without releasing control points. Fighting against this momentum wastes your energy and risks losing all control. Conversely, following their rotation into back control uses their movement to assist your transition, maintains chest-to-back contact throughout, and preserves a dominant position worth 4 points. Back control offers comparable submission opportunities while being a natural continuation of the escape's trajectory.",
+        "answer_line": "Momentum favors following the roll",
+        "distractors": {
+          "plausible": [
+            "Refighting saves more points",
+            "Blocking rotation regains crucifix"
+          ],
+          "trap": [
+            "Muscle back to original position"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you detect pre-bridge indicators from the bottom player?",
-        "answer": "Shift weight forward and downward by driving your chest onto their upper chest and face area while sprawling your hips down toward the mat. This creates a heavy, low center of gravity that is extremely difficult to displace with a bridge. The forward angle directs their bridge force into the mat rather than lifting you vertically. Simultaneously tighten knee squeeze on trapped arms to prevent any extraction. Avoid the mistake of posting with hands, which sacrifices arm control for balance that should come from hip and chest positioning."
+        "answer": "Shift weight forward and downward by driving your chest onto their upper chest and face area while sprawling your hips down toward the mat. This creates a heavy, low center of gravity that is extremely difficult to displace with a bridge. The forward angle directs their bridge force into the mat rather than lifting you vertically. Simultaneously tighten knee squeeze on trapped arms to prevent any extraction. Avoid the mistake of posting with hands, which sacrifices arm control for balance that should come from hip and chest positioning.",
+        "answer_line": "Drive chest down, sprawl hips heavy",
+        "distractors": {
+          "plausible": [
+            "Shift weight back to their hips",
+            "Loosen grip to stay mobile"
+          ],
+          "trap": [
+            "Post hands on mat for balance"
+          ]
+        }
       },
       {
         "question": "Your opponent fakes a bridge in one direction then explosively commits the opposite way - how do you counter this feint?",
-        "answer": "The key is not overcommitting your weight to counter the initial fake. Instead of shifting laterally to block the first direction, maintain centered weight distribution with forward pressure. React to the fake by dropping heavier through your center rather than chasing their direction. When the real bridge comes, your centered base can absorb force from any direction. Advanced practitioners learn to feel the difference between a committed bridge and a feint through the quality of hip engagement - a fake typically involves less full-body commitment than a genuine explosive attempt."
+        "answer": "The key is not overcommitting your weight to counter the initial fake. Instead of shifting laterally to block the first direction, maintain centered weight distribution with forward pressure. React to the fake by dropping heavier through your center rather than chasing their direction. When the real bridge comes, your centered base can absorb force from any direction. Advanced practitioners learn to feel the difference between a committed bridge and a feint through the quality of hip engagement - a fake typically involves less full-body commitment than a genuine explosive attempt.",
+        "answer_line": "Stay centered, don't chase fakes",
+        "distractors": {
+          "plausible": [
+            "Shift weight to block first fake",
+            "Match their direction each time"
+          ],
+          "trap": [
+            "Commit hard to stop the fake"
+          ]
+        }
       }
     ],
     "training_progressions": [

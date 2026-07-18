@@ -241,11 +241,31 @@
     "flashcards": [
       {
         "question": "What is the most critical element of pressure to establish before attempting the back step?",
-        "answer": "Forward chest pressure driving down toward the opponent's upper body is the most critical element. This pressure prevents them from sitting up and maintaining strong leg entanglement structure, and it creates the conditions necessary for successfully clearing your trapped leg and passing to side control. Without sufficient chest pressure, opponents can easily sit up, strengthen their leg control, and prevent the pass entirely."
+        "answer": "Forward chest pressure driving down toward the opponent's upper body is the most critical element. This pressure prevents them from sitting up and maintaining strong leg entanglement structure, and it creates the conditions necessary for successfully clearing your trapped leg and passing to side control. Without sufficient chest pressure, opponents can easily sit up, strengthen their leg control, and prevent the pass entirely.",
+        "answer_line": "Forward chest pressure down",
+        "distractors": {
+          "plausible": [
+            "Strong grip on far leg",
+            "Fast hip escape angle"
+          ],
+          "trap": [
+            "Pull head down for guillotine"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's near arm essential before executing the back step?",
-        "answer": "Controlling the near arm prevents the opponent from creating frames that push your chest away and maintain distance. Frames allow them to keep strong leg control and better attacking positions. By securing their near arm (wrist, sleeve, or tricep grip), you remove their ability to post and create space, making your forward pressure and back step movement much more effective and difficult to counter."
+        "answer": "Controlling the near arm prevents the opponent from creating frames that push your chest away and maintain distance. Frames allow them to keep strong leg control and better attacking positions. By securing their near arm (wrist, sleeve, or tricep grip), you remove their ability to post and create space, making your forward pressure and back step movement much more effective and difficult to counter.",
+        "answer_line": "Pin near arm, kill their frames",
+        "distractors": {
+          "plausible": [
+            "Control far ankle tightly",
+            "Grip belt for extra base"
+          ],
+          "trap": [
+            "Release arm, grab both ankles"
+          ]
+        }
       },
       {
         "question": "How does the size and commitment of your back step movement affect the success of the pass?",
@@ -253,31 +273,101 @@
       },
       {
         "question": "What is the relationship between the back step timing and the opponent's leg entanglement progression, and when should you abort the technique?",
-        "answer": "The back step is most effective when initiated early in the leg entanglement sequence, particularly when the opponent is entering or establishing outside ashi-garami but has not yet locked in tight heel hook controls. If the opponent successfully locks in a tight heel hook configuration with both legs locked and good grip position on your heel, you should abandon the back step attempt entirely and focus on immediate heel hook defense (hiding heel, turning knee inward, stripping grips). Attempting to back step from a locked heel hook position puts your knee and ankle at severe injury risk."
+        "answer": "The back step is most effective when initiated early in the leg entanglement sequence, particularly when the opponent is entering or establishing outside ashi-garami but has not yet locked in tight heel hook controls. If the opponent successfully locks in a tight heel hook configuration with both legs locked and good grip position on your heel, you should abandon the back step attempt entirely and focus on immediate heel hook defense (hiding heel, turning knee inward, stripping grips). Attempting to back step from a locked heel hook position puts your knee and ankle at severe injury risk.",
+        "answer_line": "Step early, abort if heel hook locks",
+        "distractors": {
+          "plausible": [
+            "Step once ashi is fully deep",
+            "Push through a locked heel hook"
+          ],
+          "trap": [
+            "Force the step, ignore heel grip"
+          ]
+        }
       },
       {
         "question": "How should you adjust your back step execution when the opponent transitions from outside ashi to inside ashi during your passing attempt?",
-        "answer": "When the opponent transitions to inside ashi during your pass attempt, you must adjust by placing extra emphasis on heel protection as you execute the back step. Your heel is now closer to their body and more vulnerable to heel hook attacks. Focus on hiding your heel by keeping your knee turned inward, and consider using your free hand to strip any grips they establish on your heel before completing the step. The basic mechanics remain the same, but your defensive awareness must increase. If they achieve strong inside ashi controls with good heel exposure, consider alternative escapes rather than forcing the back step."
+        "answer": "When the opponent transitions to inside ashi during your pass attempt, you must adjust by placing extra emphasis on heel protection as you execute the back step. Your heel is now closer to their body and more vulnerable to heel hook attacks. Focus on hiding your heel by keeping your knee turned inward, and consider using your free hand to strip any grips they establish on your heel before completing the step. The basic mechanics remain the same, but your defensive awareness must increase. If they achieve strong inside ashi controls with good heel exposure, consider alternative escapes rather than forcing the back step.",
+        "answer_line": "Hide heel, turn knee inward",
+        "distractors": {
+          "plausible": [
+            "Speed through the same step",
+            "Switch straight to leg weave"
+          ],
+          "trap": [
+            "Expose heel to finish step faster"
+          ]
+        }
       },
       {
         "question": "What are the key differences in execution between gi and no-gi back step passing?",
-        "answer": "In gi back step passing, you have more grip options for controlling the near arm (sleeve grips, belt grips) and establishing your crossface (collar and lapel grips). These grips provide more secure control but can slow down your movement. In no-gi, you rely more on direct body contact, underhooks, overhooks, and wrist control. The no-gi version requires more explosive movement and tighter pressure since grips are less secure. No-gi also sees faster transitions and counters, so your back step commitment must be even more decisive. The fundamental mechanics remain identical, but grip strategies and pressure maintenance differ significantly."
+        "answer": "In gi back step passing, you have more grip options for controlling the near arm (sleeve grips, belt grips) and establishing your crossface (collar and lapel grips). These grips provide more secure control but can slow down your movement. In no-gi, you rely more on direct body contact, underhooks, overhooks, and wrist control. The no-gi version requires more explosive movement and tighter pressure since grips are less secure. No-gi also sees faster transitions and counters, so your back step commitment must be even more decisive. The fundamental mechanics remain identical, but grip strategies and pressure maintenance differ significantly.",
+        "answer_line": "Gi grips control, no-gi speed",
+        "distractors": {
+          "plausible": [
+            "No-gi needs more grip options",
+            "Gi is faster, less control"
+          ],
+          "trap": [
+            "Ignore grips entirely in no-gi"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you initiate the back step - how do you adjust?",
-        "answer": "A far-side post indicates the opponent is preparing to sit up or create a frame to block your shoulder pressure. You must swim your near arm underneath their posting arm to establish an underhook before completing the step. Alternatively, collapse their post by driving your shoulder into their posting arm while accelerating through the back step. Do not ignore the post and complete the step without addressing it, as the opponent will use that frame to immediately create space and begin guard recovery once you arrive in side control."
+        "answer": "A far-side post indicates the opponent is preparing to sit up or create a frame to block your shoulder pressure. You must swim your near arm underneath their posting arm to establish an underhook before completing the step. Alternatively, collapse their post by driving your shoulder into their posting arm while accelerating through the back step. Do not ignore the post and complete the step without addressing it, as the opponent will use that frame to immediately create space and begin guard recovery once you arrive in side control.",
+        "answer_line": "Swim underhook or collapse post",
+        "distractors": {
+          "plausible": [
+            "Ignore post, drive step through",
+            "Grab their far wrist instead"
+          ],
+          "trap": [
+            "Release near arm to chase post"
+          ]
+        }
       },
       {
         "question": "What specific direction of force should your shoulder drive generate during step 5, and why is the angle critical?",
-        "answer": "Your shoulder should drive at a 45-degree angle downward and across the opponent's sternum, not straight down. This diagonal force vector accomplishes two things simultaneously: it pins their shoulders flat to the mat preventing them from turning into you, and it drives their hips away preventing guard recovery. A purely downward force allows them to shrimp sideways, while a purely lateral force allows them to bridge up. The diagonal combines both pinning and flattening mechanics for maximum control."
+        "answer": "Your shoulder should drive at a 45-degree angle downward and across the opponent's sternum, not straight down. This diagonal force vector accomplishes two things simultaneously: it pins their shoulders flat to the mat preventing them from turning into you, and it drives their hips away preventing guard recovery. A purely downward force allows them to shrimp sideways, while a purely lateral force allows them to bridge up. The diagonal combines both pinning and flattening mechanics for maximum control.",
+        "answer_line": "45-degree diagonal across sternum",
+        "distractors": {
+          "plausible": [
+            "Straight down onto their chest",
+            "Straight across shoulder line"
+          ],
+          "trap": [
+            "Drive force toward hips only"
+          ]
+        }
       },
       {
         "question": "If your initial back step attempt is blocked and you remain in outside ashi-garami, what chain attacks should you consider?",
-        "answer": "When the back step is blocked, you have several chain options depending on how the opponent stopped you. If they maintained strong leg control, consider switching to a knee slice pass by redirecting your leg to the inside rather than over the top. If they sat up with good posture, try a leg weave pass by threading your free leg through their guard structure. If they created frames, address the frames first then re-attempt. The key is not to force the same technique repeatedly but to use their defensive reaction to set up the next pass in your sequence, creating a passing dilemma where their defense to one pass exposes them to another."
+        "answer": "When the back step is blocked, you have several chain options depending on how the opponent stopped you. If they maintained strong leg control, consider switching to a knee slice pass by redirecting your leg to the inside rather than over the top. If they sat up with good posture, try a leg weave pass by threading your free leg through their guard structure. If they created frames, address the frames first then re-attempt. The key is not to force the same technique repeatedly but to use their defensive reaction to set up the next pass in your sequence, creating a passing dilemma where their defense to one pass exposes them to another.",
+        "answer_line": "Chain to knee slice or leg weave",
+        "distractors": {
+          "plausible": [
+            "Repeat same back step harder",
+            "Abandon pass, reset to guard"
+          ],
+          "trap": [
+            "Force leg through, risk your heel"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the opponent's near arm gives you maximum control during the back step, and how does it differ from gi to no-gi?",
-        "answer": "The optimal grip is a wrist-and-tricep two-on-one control that pins their near arm to their own body or the mat. In gi, you can substitute the wrist grip with a deep sleeve grip and the tricep grip with a collar grip on the same side, which provides excellent rotational control. In no-gi, a wrist grip combined with an overhook on their upper arm creates the strongest pin. The critical detail is that the arm must be controlled against a surface (their body or the mat) rather than held in space, because holding an arm in space requires constant muscular effort and is easily broken by an explosive pull."
+        "answer": "The optimal grip is a wrist-and-tricep two-on-one control that pins their near arm to their own body or the mat. In gi, you can substitute the wrist grip with a deep sleeve grip and the tricep grip with a collar grip on the same side, which provides excellent rotational control. In no-gi, a wrist grip combined with an overhook on their upper arm creates the strongest pin. The critical detail is that the arm must be controlled against a surface (their body or the mat) rather than held in space, because holding an arm in space requires constant muscular effort and is easily broken by an explosive pull.",
+        "answer_line": "Wrist-tricep pinned to their body",
+        "distractors": {
+          "plausible": [
+            "Overhook held out in open space",
+            "Sleeve grip only, no tricep"
+          ],
+          "trap": [
+            "Grab their far arm instead"
+          ]
+        }
       }
     ],
     "safety_considerations": "The back step is generally a safe technique when executed with proper control and awareness. However, practitioners must be extremely cautious about heel hook danger when working from leg entanglement positions. Never force a back step if the opponent has secured a tight heel hook configuration, as this can result in serious knee or ankle injuries. Always prioritize defending the submission before attempting any passing movements. When drilling, communicate clearly with your partner about resistance levels and stop immediately if either person feels vulnerable positioning. Start with slow, controlled repetitions and gradually increase speed and resistance as both partners become comfortable with the movements and safety protocols.",
@@ -389,11 +479,31 @@
       },
       {
         "question": "Why does threatening a heel hook serve as an effective defense against the back step, even if you cannot finish the submission?",
-        "answer": "The heel hook threat creates a dilemma for the opponent: if they continue the back step while your heel hook grip is engaged, the rotational force of their stepping motion combined with your grip can cause serious knee injury. This forces them to stop their pass, address the submission threat by stripping your grips, and restart their sequence. Even an imperfect heel hook attempt buys you critical seconds to re-establish your posture and tighten your leg entanglement. The threat is often as effective as the actual submission in disrupting the pass."
+        "answer": "The heel hook threat creates a dilemma for the opponent: if they continue the back step while your heel hook grip is engaged, the rotational force of their stepping motion combined with your grip can cause serious knee injury. This forces them to stop their pass, address the submission threat by stripping your grips, and restart their sequence. Even an imperfect heel hook attempt buys you critical seconds to re-establish your posture and tighten your leg entanglement. The threat is often as effective as the actual submission in disrupting the pass.",
+        "answer_line": "Forces them to stop, strip grips",
+        "distractors": {
+          "plausible": [
+            "It always finishes the submission",
+            "It slows your own posture reset"
+          ],
+          "trap": [
+            "Release grips to reset your posture"
+          ]
+        }
       },
       {
         "question": "Your opponent has already cleared your top leg and is mid-step - what defensive option gives you the best chance of preventing the pass?",
-        "answer": "At this late stage, your best option is guard recovery rather than trying to re-establish the broken leg entanglement. As their leg clears over your body, immediately work to insert your near knee between your bodies to establish a knee shield or half guard. Your hands should be creating frames on their shoulders and hips to prevent them from settling their weight. The window for this recovery is extremely short - you must act during their stepping motion before they drive shoulder pressure and establish crossface control."
+        "answer": "At this late stage, your best option is guard recovery rather than trying to re-establish the broken leg entanglement. As their leg clears over your body, immediately work to insert your near knee between your bodies to establish a knee shield or half guard. Your hands should be creating frames on their shoulders and hips to prevent them from settling their weight. The window for this recovery is extremely short - you must act during their stepping motion before they drive shoulder pressure and establish crossface control.",
+        "answer_line": "Insert knee, recover half guard",
+        "distractors": {
+          "plausible": [
+            "Re-lock the broken leg entanglement",
+            "Push away with straight arms"
+          ],
+          "trap": [
+            "Turtle up to protect your back"
+          ]
+        }
       },
       {
         "question": "How does maintaining seated posture mechanically prevent the back step from succeeding?",

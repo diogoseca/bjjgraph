@@ -206,43 +206,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Frame and Extract to Half Guard?",
-        "answer": "The primary goal is to safely escape Inside Sankaku leg entanglement while protecting your knee from the inside heel hook, transitioning to Half Guard where you can recompose your defensive structure and have clear pathways to guard recovery, sweeps, or standing up."
+        "answer": "The primary goal is to safely escape Inside Sankaku leg entanglement while protecting your knee from the inside heel hook, transitioning to Half Guard where you can recompose your defensive structure and have clear pathways to guard recovery, sweeps, or standing up.",
+        "answer_line": "Escape heel hook, reach Half Guard",
+        "distractors": {
+          "plausible": [
+            "Escape to open guard instead",
+            "Attack the heel hook first"
+          ],
+          "trap": [
+            "Rip foot free ignoring frames"
+          ]
+        }
       },
       {
         "question": "What position do you start Frame and Extract to Half Guard from?",
-        "answer": "This technique starts from Inside Sankaku bottom (also known as Honey Hole or 411), where your leg is trapped in the opponent's figure-four configuration with your heel exposed toward their centerline."
+        "answer": "This technique starts from Inside Sankaku bottom (also known as Honey Hole or 411), where your leg is trapped in the opponent's figure-four configuration with your heel exposed toward their centerline.",
+        "answer_line": "Inside Sankaku (Honey Hole) bottom",
+        "distractors": {
+          "plausible": [
+            "Saddle (Inside Heel Hook) bottom",
+            "Outside Ashi-Garami bottom"
+          ],
+          "trap": [
+            "Heel hook already fully locked"
+          ]
+        }
       },
       {
         "question": "What are the key frames needed for Frame and Extract to Half Guard?",
-        "answer": "The two key frames are: (1) a primary frame using your far-side forearm against opponent's hip crease to create the main barrier for generating separation, and (2) a secondary frame with your near-side hand against their knee or lower leg to prevent them from tightening the entanglement and assist extraction."
+        "answer": "The two key frames are: (1) a primary frame using your far-side forearm against opponent's hip crease to create the main barrier for generating separation, and (2) a secondary frame with your near-side hand against their knee or lower leg to prevent them from tightening the entanglement and assist extraction.",
+        "answer_line": "Far forearm hip, near hand knee",
+        "distractors": {
+          "plausible": [
+            "Both hands on opponent's hip",
+            "Near forearm on hip crease"
+          ],
+          "trap": [
+            "Push off their far foot only"
+          ]
+        }
       },
       {
         "question": "How does an opponent typically counter Frame and Extract to Half Guard?",
-        "answer": "The most effective counter is advancing their hips forward to maintain hip connection as you escape backward. They may also attack the inside heel hook before frames are established, transition to Saddle if you create improper angles, or use grips on your pants or legs to prevent hip escape movement."
+        "answer": "The most effective counter is advancing their hips forward to maintain hip connection as you escape backward. They may also attack the inside heel hook before frames are established, transition to Saddle if you create improper angles, or use grips on your pants or legs to prevent hip escape movement.",
+        "answer_line": "Drive hips forward, chase you",
+        "distractors": {
+          "plausible": [
+            "Attack heel hook immediately",
+            "Grip pants to stop your hips"
+          ],
+          "trap": [
+            "Let go and reset the position"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Frame and Extract to Half Guard?",
-        "answer": "The optimal timing is when opponent has not yet established firm submission grip on your heel and momentarily loses hip connection - often when they adjust their leg position, reach for grips, or reposition their upper body. Never attempt when submission is already locked."
+        "answer": "The optimal timing is when opponent has not yet established firm submission grip on your heel and momentarily loses hip connection - often when they adjust their leg position, reach for grips, or reposition their upper body. Never attempt when submission is already locked.",
+        "answer_line": "Before heel is locked, hips loose",
+        "distractors": {
+          "plausible": [
+            "Right when they grip your heel",
+            "Anytime hips stay connected"
+          ],
+          "trap": [
+            "After submission is already set"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains tight hip connection despite your frames - what adjustment do you make?",
-        "answer": "Chain multiple hip escapes in sequence rather than one large movement, use your free leg to actively kick their hip away while framing, or transition to Granby roll if they overcommit forward chasing your hips. The key is not stopping after one failed attempt."
+        "answer": "Chain multiple hip escapes in sequence rather than one large movement, use your free leg to actively kick their hip away while framing, or transition to Granby roll if they overcommit forward chasing your hips. The key is not stopping after one failed attempt.",
+        "answer_line": "Chain hip escapes, kick free leg",
+        "distractors": {
+          "plausible": [
+            "One big explosive hip escape",
+            "Push harder with both frames"
+          ],
+          "trap": [
+            "Stop and reset your grips"
+          ]
+        }
       },
       {
         "question": "Why specifically transition to Half Guard rather than open guard after extraction?",
-        "answer": "Half Guard provides immediate structure through knee shield and closed leg position, preventing opponent from re-entering leg entanglements or passing quickly. Open guard after extraction leaves you scrambling without clear defensive barriers, while Half Guard gives defined pathways to guard recovery, sweeps, or standing."
+        "answer": "Half Guard provides immediate structure through knee shield and closed leg position, preventing opponent from re-entering leg entanglements or passing quickly. Open guard after extraction leaves you scrambling without clear defensive barriers, while Half Guard gives defined pathways to guard recovery, sweeps, or standing.",
+        "answer_line": "Knee shield blocks re-entanglement",
+        "distractors": {
+          "plausible": [
+            "Open guard offers more sweeps",
+            "Half Guard is easier to hold"
+          ],
+          "trap": [
+            "Open guard is safer here"
+          ]
+        }
       },
       {
         "question": "What physical indicator tells you that escape is no longer safe and you should tap instead?",
-        "answer": "Tap immediately when: opponent has secured two-on-one grip on your heel with their wrist blade positioned against your Achilles, you feel any rotational pressure beginning on your heel, or you cannot freely move your foot within their grip. The inside heel hook causes catastrophic injury in milliseconds once locked."
+        "answer": "Tap immediately when: opponent has secured two-on-one grip on your heel with their wrist blade positioned against your Achilles, you feel any rotational pressure beginning on your heel, or you cannot freely move your foot within their grip. The inside heel hook causes catastrophic injury in milliseconds once locked.",
+        "answer_line": "Wrist blade + rotation on heel",
+        "distractors": {
+          "plausible": [
+            "Any discomfort in the ankle",
+            "Opponent grips your foot once"
+          ],
+          "trap": [
+            "Wait to feel a pop before tap"
+          ]
+        }
       },
       {
         "question": "Your free leg gets controlled by the opponent during the hip escape phase - how do you recover?",
-        "answer": "If opponent controls your free leg, you lose your primary engine for generating hip escape distance. Use your hands to strip their grip on the free leg first before continuing the escape. If they are controlling both legs, revert to heel protection posture and wait for them to release one control point to advance their submission. The moment they release the free leg to grip your heel, immediately resume hip escaping."
+        "answer": "If opponent controls your free leg, you lose your primary engine for generating hip escape distance. Use your hands to strip their grip on the free leg first before continuing the escape. If they are controlling both legs, revert to heel protection posture and wait for them to release one control point to advance their submission. The moment they release the free leg to grip your heel, immediately resume hip escaping.",
+        "answer_line": "Strip free leg grip, then escape",
+        "distractors": {
+          "plausible": [
+            "Force hip escape through grip",
+            "Immediately attack their heel"
+          ],
+          "trap": [
+            "Abandon heel protection posture"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when executing the hip escape portion of this technique?",
-        "answer": "The force must be directed backward and slightly lateral, moving your hips away from the opponent along the line of your trapped leg. Pushing directly backward without lateral angle keeps you in their strongest control plane. The slight angle creates a spiraling path that helps your leg begin exiting the figure-four configuration while the frames prevent the opponent from following your movement."
+        "answer": "The force must be directed backward and slightly lateral, moving your hips away from the opponent along the line of your trapped leg. Pushing directly backward without lateral angle keeps you in their strongest control plane. The slight angle creates a spiraling path that helps your leg begin exiting the figure-four configuration while the frames prevent the opponent from following your movement.",
+        "answer_line": "Backward and slightly lateral",
+        "distractors": {
+          "plausible": [
+            "Straight backward, no angle",
+            "Straight lateral, no backward"
+          ],
+          "trap": [
+            "Push forward into their hips"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves significant injury risk due to the inside heel hook threat present in Inside Sankaku. Never attempt explosive extraction if opponent has established submission grip on your heel - tap immediately to prevent career-ending knee ligament damage. The inside heel hook attacks the knee through rotational force that can destroy ACL, MCL, and meniscus simultaneously with no warning sensation before catastrophic failure. During training, use controlled movements and tap early when practicing against partners who are actively applying submissions. Communicate clearly with training partners about heel hook intensity levels. Avoid training this escape at full resistance until you have developed reliable recognition of when submission is locked versus when escape is still viable.",
@@ -353,23 +453,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is beginning Frame and Extract to Half Guard?",
-        "answer": "The earliest cue is their far-side forearm moving toward your hip crease to establish the primary frame. This precedes the hip escape movement and is your first opportunity to intervene. Before the frame becomes load-bearing, you can strip it with minimal effort. Once established and loaded with hip escape force, the frame becomes significantly harder to remove."
+        "answer": "The earliest cue is their far-side forearm moving toward your hip crease to establish the primary frame. This precedes the hip escape movement and is your first opportunity to intervene. Before the frame becomes load-bearing, you can strip it with minimal effort. Once established and loaded with hip escape force, the frame becomes significantly harder to remove.",
+        "answer_line": "Far forearm reaching for hip",
+        "distractors": {
+          "plausible": [
+            "Their hip escape movement starts",
+            "Sudden heel hook grip tightens"
+          ],
+          "trap": [
+            "Wait until frame is fully set"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a solid frame against your hip and is beginning to generate hip escape distance - what is your response sequence?",
-        "answer": "First, use your near-side hand to strip or redirect their framing forearm away from your hip. Simultaneously drive your hips forward aggressively to close the gap they are creating. If the frame is too established to strip, use your outside leg to increase downward pressure on the entanglement while advancing your hips. The goal is to collapse the frame under your body weight rather than fighting it with arm strength alone."
+        "answer": "First, use your near-side hand to strip or redirect their framing forearm away from your hip. Simultaneously drive your hips forward aggressively to close the gap they are creating. If the frame is too established to strip, use your outside leg to increase downward pressure on the entanglement while advancing your hips. The goal is to collapse the frame under your body weight rather than fighting it with arm strength alone.",
+        "answer_line": "Strip frame, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Pull away to create your own space",
+            "Fight frame with pure arm strength"
+          ],
+          "trap": [
+            "Retreat further to reset distance"
+          ]
+        }
       },
       {
         "question": "How does the opponent's escape attempt create an opportunity for you to transition to Saddle?",
-        "answer": "When the opponent hip escapes laterally to create extraction angle, their free leg often comes within range of your outside leg. As they angle away, their second leg passes closer to your entanglement structure. By threading your outside leg around their free leg during this lateral movement, you capture both legs in a Saddle configuration. The opponent's own escape movement provides the angle change that makes this transition possible."
+        "answer": "When the opponent hip escapes laterally to create extraction angle, their free leg often comes within range of your outside leg. As they angle away, their second leg passes closer to your entanglement structure. By threading your outside leg around their free leg during this lateral movement, you capture both legs in a Saddle configuration. The opponent's own escape movement provides the angle change that makes this transition possible.",
+        "answer_line": "Thread outside leg around free leg",
+        "distractors": {
+          "plausible": [
+            "Grab their free ankle with hands",
+            "Wait for them to stand up"
+          ],
+          "trap": [
+            "Let go of entanglement to chase"
+          ]
+        }
       },
       {
         "question": "When during the escape sequence is the opponent's heel most vulnerable to attack?",
-        "answer": "The heel is most vulnerable during the extraction phase when they rotate and spiral their trapped leg out of your figure-four. The spiraling motion can momentarily lift the heel away from their hip where they had been hiding it, creating a brief window for heel hook attack. Additionally, when they shift their near-side hand from heel protection to secondary frame establishment, the heel becomes unguarded."
+        "answer": "The heel is most vulnerable during the extraction phase when they rotate and spiral their trapped leg out of your figure-four. The spiraling motion can momentarily lift the heel away from their hip where they had been hiding it, creating a brief window for heel hook attack. Additionally, when they shift their near-side hand from heel protection to secondary frame establishment, the heel becomes unguarded.",
+        "answer_line": "During the spiral extraction phase",
+        "distractors": {
+          "plausible": [
+            "The instant they start hip escaping",
+            "When they first grip your leg"
+          ],
+          "trap": [
+            "Only after they reach Half Guard"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful hip pressure response from overcommitting that allows a Granby roll counter?",
-        "answer": "Successful hip pressure maintains low center of gravity with weight distributed through your hips into the entanglement, keeping your base stable. Overcommitting means driving your upper body forward and high, shifting weight above their hips rather than into them. When your weight goes high and forward, the opponent can use your momentum to invert underneath you with a Granby roll. Keep your pressure low, heavy, and centered through the hip connection point rather than lunging forward with your torso."
+        "answer": "Successful hip pressure maintains low center of gravity with weight distributed through your hips into the entanglement, keeping your base stable. Overcommitting means driving your upper body forward and high, shifting weight above their hips rather than into them. When your weight goes high and forward, the opponent can use your momentum to invert underneath you with a Granby roll. Keep your pressure low, heavy, and centered through the hip connection point rather than lunging forward with your torso.",
+        "answer_line": "Stay low, weight through hips",
+        "distractors": {
+          "plausible": [
+            "Drive hard with your shoulders",
+            "Push chest down onto their legs"
+          ],
+          "trap": [
+            "Lunge forward high with torso"
+          ]
+        }
       }
     ],
     "training_progressions": [

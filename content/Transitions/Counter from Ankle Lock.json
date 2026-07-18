@@ -257,43 +257,143 @@
     "flashcards": [
       {
         "question": "What is the very first action you must take when caught in straight ankle lock control before any grip fighting?",
-        "answer": "Establish boot defense by immediately plantarflexing your trapped foot, pointing your toes downward and tucking them behind or under the attacker's armpit. This removes the dorsiflexion angle needed for the submission finish and creates the structural foundation for all subsequent counter work. Grip fighting without boot defense leaves you vulnerable to the finish."
+        "answer": "Establish boot defense by immediately plantarflexing your trapped foot, pointing your toes downward and tucking them behind or under the attacker's armpit. This removes the dorsiflexion angle needed for the submission finish and creates the structural foundation for all subsequent counter work. Grip fighting without boot defense leaves you vulnerable to the finish.",
+        "answer_line": "Point toes down, tuck under arm",
+        "distractors": {
+          "plausible": [
+            "Grip fight the wrist first",
+            "Pull knee to chest immediately"
+          ],
+          "trap": [
+            "Pull foot back to escape"
+          ]
+        }
       },
       {
         "question": "Why is driving forward toward the attacker more effective than pulling backward to escape the ankle lock?",
-        "answer": "Pulling backward extends your ankle into the exact breaking angle the attacker needs, tightening their grip and increasing submission leverage. Driving forward compresses the attacker's guard, eliminates their arching space needed for finishing mechanics, and weakens their grip by stacking their hips. Forward pressure simultaneously defends the submission and initiates the guard pass, while backward movement only helps the attacker."
+        "answer": "Pulling backward extends your ankle into the exact breaking angle the attacker needs, tightening their grip and increasing submission leverage. Driving forward compresses the attacker's guard, eliminates their arching space needed for finishing mechanics, and weakens their grip by stacking their hips. Forward pressure simultaneously defends the submission and initiates the guard pass, while backward movement only helps the attacker.",
+        "answer_line": "Drive forward, stack their hips",
+        "distractors": {
+          "plausible": [
+            "Pull back to create space",
+            "Kick free leg to break grip"
+          ],
+          "trap": [
+            "Pull backward away from attacker"
+          ]
+        }
       },
       {
         "question": "Which grip should you prioritize stripping first with your two-on-one and why?",
-        "answer": "Target the heel grip first because it provides the majority of the attacker's finishing leverage. The hand cupping the heel controls the angle of dorsiflexion and prevents your foot from rotating free. Even if the attacker maintains their forearm against the Achilles, losing the heel grip dramatically reduces their ability to generate dangerous breaking pressure and makes the remaining control far easier to strip."
+        "answer": "Target the heel grip first because it provides the majority of the attacker's finishing leverage. The hand cupping the heel controls the angle of dorsiflexion and prevents your foot from rotating free. Even if the attacker maintains their forearm against the Achilles, losing the heel grip dramatically reduces their ability to generate dangerous breaking pressure and makes the remaining control far easier to strip.",
+        "answer_line": "Strip the heel grip first",
+        "distractors": {
+          "plausible": [
+            "Strip the forearm on Achilles",
+            "Attack both grips equally"
+          ],
+          "trap": [
+            "Ignore grips, just pull foot"
+          ]
+        }
       },
       {
         "question": "Your opponent begins threading their inside leg behind your knee as you drive forward. What adjustment do you make?",
-        "answer": "Immediately redirect your hip angle by stepping your free leg laterally rather than continuing straight forward. The attacker is transitioning to inside ashi-garami, using your forward momentum to help establish the more dominant entanglement. Stepping laterally denies the inside leg position before it completes. If the inside leg is already deep, accelerate your pass to clear their guard entirely before they can consolidate the new position."
+        "answer": "Immediately redirect your hip angle by stepping your free leg laterally rather than continuing straight forward. The attacker is transitioning to inside ashi-garami, using your forward momentum to help establish the more dominant entanglement. Stepping laterally denies the inside leg position before it completes. If the inside leg is already deep, accelerate your pass to clear their guard entirely before they can consolidate the new position.",
+        "answer_line": "Step laterally, deny inside leg",
+        "distractors": {
+          "plausible": [
+            "Keep driving straight forward",
+            "Post free leg and pause"
+          ],
+          "trap": [
+            "Let leg in, then power pass"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for transitioning from phase one defense to phase two offense?",
-        "answer": "The transition should occur within 5-8 seconds of establishing boot defense. Once boot defense is secure and two-on-one grip fighting has weakened but not necessarily fully stripped the heel grip, begin forward pressure immediately. Waiting for complete grip removal allows the attacker to adjust or transition. The forward stacking pressure itself assists grip stripping, so the phases should overlap rather than being strictly sequential."
+        "answer": "The transition should occur within 5-8 seconds of establishing boot defense. Once boot defense is secure and two-on-one grip fighting has weakened but not necessarily fully stripped the heel grip, begin forward pressure immediately. Waiting for complete grip removal allows the attacker to adjust or transition. The forward stacking pressure itself assists grip stripping, so the phases should overlap rather than being strictly sequential.",
+        "answer_line": "Push forward before full strip",
+        "distractors": {
+          "plausible": [
+            "Wait for full grip removal",
+            "Strip grip fully then drive"
+          ],
+          "trap": [
+            "Pause to reset grips first"
+          ]
+        }
       },
       {
         "question": "How do you maintain boot defense while simultaneously driving forward pressure?",
-        "answer": "Keep active tension in the plantarflexed foot throughout the forward drive by consciously engaging the calf and pointing toes. The forward stacking movement does not require ankle extension if you drive from your posted free leg and hips rather than pushing off the trapped foot. Think of the trapped leg as passive cargo being carried by your hip drive rather than an active participant in the forward movement."
+        "answer": "Keep active tension in the plantarflexed foot throughout the forward drive by consciously engaging the calf and pointing toes. The forward stacking movement does not require ankle extension if you drive from your posted free leg and hips rather than pushing off the trapped foot. Think of the trapped leg as passive cargo being carried by your hip drive rather than an active participant in the forward movement.",
+        "answer_line": "Drive from hips, foot stays passive",
+        "distractors": {
+          "plausible": [
+            "Push off the trapped foot",
+            "Relax the trapped foot briefly"
+          ],
+          "trap": [
+            "Extend ankle to gain leverage"
+          ]
+        }
       },
       {
         "question": "When should you choose the standing counter variant over the standard forward pressure counter?",
-        "answer": "Choose the standing counter when the attacker's leg control is loose, meaning they have not completed a leg triangle or tight shin wrap around your trapped leg. Standing works best when you can post your free leg underneath you and your hip mobility is unrestricted. If the attacker has tight leg control preventing hip elevation, the standard forward pressure counter is more appropriate because stacking does not require the same degree of hip freedom."
+        "answer": "Choose the standing counter when the attacker's leg control is loose, meaning they have not completed a leg triangle or tight shin wrap around your trapped leg. Standing works best when you can post your free leg underneath you and your hip mobility is unrestricted. If the attacker has tight leg control preventing hip elevation, the standard forward pressure counter is more appropriate because stacking does not require the same degree of hip freedom.",
+        "answer_line": "Standing works if leg control loose",
+        "distractors": {
+          "plausible": [
+            "Always stand up immediately",
+            "Stand when grip is fully stripped"
+          ],
+          "trap": [
+            "Stand despite tight leg triangle"
+          ]
+        }
       },
       {
         "question": "What are the critical mechanical requirements for the guard pass portion of this counter?",
-        "answer": "The guard pass requires continuous forward pressure without pausing after grip stripping, a decisive step over the attacker's legs targeting the hip line, and immediate crossface establishment upon clearing the guard. Your knee must drive across their hip while upper body weight maintains the stack. The pass window is brief because the attacker's legs are disorganized from stacking pressure, and any hesitation allows re-guarding or re-entanglement."
+        "answer": "The guard pass requires continuous forward pressure without pausing after grip stripping, a decisive step over the attacker's legs targeting the hip line, and immediate crossface establishment upon clearing the guard. Your knee must drive across their hip while upper body weight maintains the stack. The pass window is brief because the attacker's legs are disorganized from stacking pressure, and any hesitation allows re-guarding or re-entanglement.",
+        "answer_line": "Step over hip, crossface fast",
+        "distractors": {
+          "plausible": [
+            "Pause after stripping grips",
+            "Step over the far shoulder"
+          ],
+          "trap": [
+            "Hesitate to check leg position"
+          ]
+        }
       },
       {
         "question": "Your boot defense is secure but the attacker adjusts to a figure-four grip configuration. How does this change your counter approach?",
-        "answer": "A figure-four grip is structurally stronger against two-on-one stripping but requires the attacker to commit both arms fully, leaving no posting arm for base. Increase forward stacking pressure aggressively since the attacker cannot frame against your drive. The figure-four grip will weaken naturally under heavy stacking as the attacker loses arching space. Focus more on the forward pressure component and less on isolated grip fighting."
+        "answer": "A figure-four grip is structurally stronger against two-on-one stripping but requires the attacker to commit both arms fully, leaving no posting arm for base. Increase forward stacking pressure aggressively since the attacker cannot frame against your drive. The figure-four grip will weaken naturally under heavy stacking as the attacker loses arching space. Focus more on the forward pressure component and less on isolated grip fighting.",
+        "answer_line": "Increase stacking pressure hard",
+        "distractors": {
+          "plausible": [
+            "Grip fight the figure-four hands",
+            "Slow down, reassess grips"
+          ],
+          "trap": [
+            "Back off to avoid the lock"
+          ]
+        }
       },
       {
         "question": "After successfully passing to side control, what specific controls must you establish immediately to prevent the opponent from re-entering leg attacks?",
-        "answer": "Establish crossface pressure immediately to control the opponent's head direction and prevent them from turning back into your legs. Drop your hips heavy on their hip line to eliminate space for knee insertion or leg pummeling. Control their far arm with your near hand to prevent frames that create distance. Keep your legs clear of their reach by sprawling your far leg back. The first 3-5 seconds of side control consolidation are critical because the opponent is most likely to attempt immediate re-entanglement."
+        "answer": "Establish crossface pressure immediately to control the opponent's head direction and prevent them from turning back into your legs. Drop your hips heavy on their hip line to eliminate space for knee insertion or leg pummeling. Control their far arm with your near hand to prevent frames that create distance. Keep your legs clear of their reach by sprawling your far leg back. The first 3-5 seconds of side control consolidation are critical because the opponent is most likely to attempt immediate re-entanglement.",
+        "answer_line": "Crossface, hips heavy, control arm",
+        "distractors": {
+          "plausible": [
+            "Sit back and secure the pin",
+            "Control legs before the head"
+          ],
+          "trap": [
+            "Chase a submission immediately"
+          ]
+        }
       }
     ],
     "safety_considerations": "The ankle joint is highly susceptible to ligament damage from forced dorsiflexion during ankle lock attempts. When drilling this counter, always begin at low resistance and establish clear tap communication with your training partner before starting. Never attempt explosive counters at full speed until the mechanics are well established at slow drilling pace. If boot defense fails and the submission is locked deep, tap immediately rather than forcing the counter. Partners applying the ankle lock during counter practice should release immediately upon feeling the tap and should apply pressure gradually to allow sufficient time for defensive positioning. Particular caution is needed during the forward stacking phase, as sudden weight shifts can unintentionally increase pressure on the trapped ankle.",
@@ -420,23 +520,73 @@
     "flashcards": [
       {
         "question": "What is the most reliable indicator that your opponent is about to initiate a counter from your ankle lock control?",
-        "answer": "The most reliable early indicator is plantarflexion of the trapped foot with toes tucking behind your armpit, establishing boot defense. This is typically the first defensive action and signals that a structured counter sequence is beginning rather than passive endurance. Secondary indicators include hands moving to two-on-one configuration and the free leg posting for forward base, but boot defense is the earliest reliable cue."
+        "answer": "The most reliable early indicator is plantarflexion of the trapped foot with toes tucking behind your armpit, establishing boot defense. This is typically the first defensive action and signals that a structured counter sequence is beginning rather than passive endurance. Secondary indicators include hands moving to two-on-one configuration and the free leg posting for forward base, but boot defense is the earliest reliable cue.",
+        "answer_line": "Plantarflexion, toes tuck in",
+        "distractors": {
+          "plausible": [
+            "Hands moving to two-on-one",
+            "Free leg posting for base"
+          ],
+          "trap": [
+            "Opponent going still and relaxed"
+          ]
+        }
       },
       {
         "question": "When should you abandon the ankle lock finish and transition to inside ashi-garami instead?",
-        "answer": "Transition when the opponent has established secure boot defense and begins driving forward pressure. Their forward drive creates the exact hip angle needed for inside ashi entry by bringing their knee toward you. Continuing to fight for the ankle lock finish against established boot defense wastes energy and time. The 3-5 second window after boot defense is established is optimal for the transition because the opponent is focused on grip fighting and may not recognize the leg threading."
+        "answer": "Transition when the opponent has established secure boot defense and begins driving forward pressure. Their forward drive creates the exact hip angle needed for inside ashi entry by bringing their knee toward you. Continuing to fight for the ankle lock finish against established boot defense wastes energy and time. The 3-5 second window after boot defense is established is optimal for the transition because the opponent is focused on grip fighting and may not recognize the leg threading.",
+        "answer_line": "Abandon lock, thread inside ashi",
+        "distractors": {
+          "plausible": [
+            "Force the finish harder",
+            "Wait for grip to fully break"
+          ],
+          "trap": [
+            "Switch to toe hold instead"
+          ]
+        }
       },
       {
         "question": "How does the opponent's forward stacking pressure create opportunities for you rather than just threatening your position?",
-        "answer": "Forward stacking brings the opponent's hip and knee toward you, which is precisely the positioning needed to thread your inside leg for ashi-garami transitions. Their committed forward drive also creates momentum they cannot easily redirect, making the inside leg entry more fluid. Additionally, the forward lean extends their body and can create kneebar angles as their leg straightens during the drive. The counter movement itself contains the seeds of your next attack."
+        "answer": "Forward stacking brings the opponent's hip and knee toward you, which is precisely the positioning needed to thread your inside leg for ashi-garami transitions. Their committed forward drive also creates momentum they cannot easily redirect, making the inside leg entry more fluid. Additionally, the forward lean extends their body and can create kneebar angles as their leg straightens during the drive. The counter movement itself contains the seeds of your next attack.",
+        "answer_line": "Thread inside leg, angle kneebar",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset entanglement",
+            "Hold ankle lock tighter"
+          ],
+          "trap": [
+            "Release grips to re-angle"
+          ]
+        }
       },
       {
         "question": "Your heel grip is being stripped by two-on-one fighting. What alternative grip options can you switch to?",
-        "answer": "Switch to a figure-four grip by clasping your hands together with the forearm still against the Achilles, which is structurally stronger against two-on-one stripping. Alternatively, use an S-grip that changes the stripping angle the opponent must address. If both hands are compromised, transition your offensive focus entirely from the ankle to leg entanglement advancement using your legs to enter inside ashi before hand grips are fully lost."
+        "answer": "Switch to a figure-four grip by clasping your hands together with the forearm still against the Achilles, which is structurally stronger against two-on-one stripping. Alternatively, use an S-grip that changes the stripping angle the opponent must address. If both hands are compromised, transition your offensive focus entirely from the ankle to leg entanglement advancement using your legs to enter inside ashi before hand grips are fully lost.",
+        "answer_line": "Switch to figure-four or S-grip",
+        "distractors": {
+          "plausible": [
+            "Grip harder with one hand",
+            "Switch to overhook grip"
+          ],
+          "trap": [
+            "Let go and reset both grips"
+          ]
+        }
       },
       {
         "question": "What leg positioning adjustments should you make to prevent the opponent from completing the guard pass phase of their counter?",
-        "answer": "Keep your legs actively wrapped around the opponent's trapped leg rather than allowing them to become passive. If you sense the opponent beginning to step over, use your outside leg to hook behind their knee or frame against their hip to prevent the step-over. Thread your inside leg deeper toward inside ashi positioning as a dual-purpose move that both prevents the pass and advances your entanglement. Active leg engagement is the foundation that makes all transitions possible even when hand grips are compromised."
+        "answer": "Keep your legs actively wrapped around the opponent's trapped leg rather than allowing them to become passive. If you sense the opponent beginning to step over, use your outside leg to hook behind their knee or frame against their hip to prevent the step-over. Thread your inside leg deeper toward inside ashi positioning as a dual-purpose move that both prevents the pass and advances your entanglement. Active leg engagement is the foundation that makes all transitions possible even when hand grips are compromised.",
+        "answer_line": "Hook their knee, thread deeper",
+        "distractors": {
+          "plausible": [
+            "Post hands on their hips",
+            "Grip fight harder with hands"
+          ],
+          "trap": [
+            "Let legs go passive, rest"
+          ]
+        }
       }
     ],
     "training_progressions": [

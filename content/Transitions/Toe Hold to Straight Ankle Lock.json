@@ -276,35 +276,115 @@
     "flashcards": [
       {
         "question": "What defensive response from the defender creates the optimal timing window to switch from toe hold to straight ankle lock?",
-        "answer": "The optimal timing window opens when the defender commits to boot defense or internal foot rotation to neutralize the toe hold's rotational pressure. This defensive posture, while effective against the toe hold, simultaneously exposes the Achilles tendon by flattening the foot and presenting the posterior ankle. The defender's commitment to one defensive plane creates vulnerability on the perpendicular attack plane."
+        "answer": "The optimal timing window opens when the defender commits to boot defense or internal foot rotation to neutralize the toe hold's rotational pressure. This defensive posture, while effective against the toe hold, simultaneously exposes the Achilles tendon by flattening the foot and presenting the posterior ankle. The defender's commitment to one defensive plane creates vulnerability on the perpendicular attack plane.",
+        "answer_line": "Defender sets boot defense",
+        "distractors": {
+          "plausible": [
+            "Defender starts to tap",
+            "Toe hold grip feels tight"
+          ],
+          "trap": [
+            "Right when you first grip up"
+          ]
+        }
       },
       {
         "question": "Why must you tighten your leg entanglement before initiating the grip switch?",
-        "answer": "Your legs must independently control the defender's trapped leg because your hands will temporarily release all attacking grips during the reconfiguration. If the leg entanglement is loose, the defender can extract their leg the moment your hands release the toe hold figure-four. Tightening the leg wrap creates a control checkpoint that functions regardless of hand position, maintaining the entanglement through the transition window."
+        "answer": "Your legs must independently control the defender's trapped leg because your hands will temporarily release all attacking grips during the reconfiguration. If the leg entanglement is loose, the defender can extract their leg the moment your hands release the toe hold figure-four. Tightening the leg wrap creates a control checkpoint that functions regardless of hand position, maintaining the entanglement through the transition window.",
+        "answer_line": "Legs replace hands during switch",
+        "distractors": {
+          "plausible": [
+            "Increases toe hold rotation",
+            "Locks the figure-four tighter"
+          ],
+          "trap": [
+            "Loosen legs, free your hands"
+          ]
+        }
       },
       {
         "question": "What is the correct hand sequence for the grip transition from toe hold to ankle lock?",
-        "answer": "The correct sequence is staggered, not simultaneous. First, release the top hand from the figure-four and redirect it to wrap the ankle with the forearm blade across the Achilles tendon. Maintain bottom hand contact on the foot throughout this movement. Only after the forearm is positioned on the Achilles should the bottom hand release and clasp with the top hand to complete the straight ankle lock grip. This staggered approach ensures continuous partial contact throughout the transition."
+        "answer": "The correct sequence is staggered, not simultaneous. First, release the top hand from the figure-four and redirect it to wrap the ankle with the forearm blade across the Achilles tendon. Maintain bottom hand contact on the foot throughout this movement. Only after the forearm is positioned on the Achilles should the bottom hand release and clasp with the top hand to complete the straight ankle lock grip. This staggered approach ensures continuous partial contact throughout the transition.",
+        "answer_line": "Staggered: one hand at a time",
+        "distractors": {
+          "plausible": [
+            "Release both hands together",
+            "Bottom hand moves first"
+          ],
+          "trap": [
+            "Release both grips at once"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their leg during the grip change. How do you respond?",
-        "answer": "Immediately abandon the ankle lock transition and revert to whatever grip control remains viable. If partial toe hold grip is still available, re-establish the figure-four. If the foot is slipping free, prioritize re-gripping the foot with both hands in any configuration rather than continuing toward the ankle lock. Prevention through initial leg tightening is far more effective than recovery, so if extraction attempts succeed frequently, focus on improving the preparatory leg squeeze."
+        "answer": "Immediately abandon the ankle lock transition and revert to whatever grip control remains viable. If partial toe hold grip is still available, re-establish the figure-four. If the foot is slipping free, prioritize re-gripping the foot with both hands in any configuration rather than continuing toward the ankle lock. Prevention through initial leg tightening is far more effective than recovery, so if extraction attempts succeed frequently, focus on improving the preparatory leg squeeze.",
+        "answer_line": "Abandon switch, regrip foot",
+        "distractors": {
+          "plausible": [
+            "Rush to finish ankle lock",
+            "Re-tighten legs only"
+          ],
+          "trap": [
+            "Push forward for the finish"
+          ]
+        }
       },
       {
         "question": "Where exactly should the forearm blade contact the defender's leg for the straight ankle lock?",
-        "answer": "The wrist bone and forearm blade must be positioned directly across the Achilles tendon, just above the heel bone. Placement too high on the calf or shin distributes pressure across a wider area, dramatically reducing submission effectiveness. The narrow wrist bone against the narrow Achilles tendon creates concentrated pressure that generates meaningful submission threat with minimal force. The heel itself should be pulled tight against the attacker's sternum."
+        "answer": "The wrist bone and forearm blade must be positioned directly across the Achilles tendon, just above the heel bone. Placement too high on the calf or shin distributes pressure across a wider area, dramatically reducing submission effectiveness. The narrow wrist bone against the narrow Achilles tendon creates concentrated pressure that generates meaningful submission threat with minimal force. The heel itself should be pulled tight against the attacker's sternum.",
+        "answer_line": "Wrist bone across the Achilles",
+        "distractors": {
+          "plausible": [
+            "Forearm across the calf",
+            "Forearm across the shin"
+          ],
+          "trap": [
+            "Push heel away from sternum"
+          ]
+        }
       },
       {
         "question": "When should you NOT attempt this grip switch and instead continue attacking the toe hold?",
-        "answer": "Do not switch when the toe hold is still generating effective rotational pressure and the defender has not yet established boot defense. Switching away from a working submission wastes offensive momentum and introduces unnecessary transition risk. Only initiate the switch when the toe hold is genuinely neutralized by the defender's positioning and the Achilles tendon exposure makes the ankle lock a higher-percentage option than continuing to fight for rotational leverage."
+        "answer": "Do not switch when the toe hold is still generating effective rotational pressure and the defender has not yet established boot defense. Switching away from a working submission wastes offensive momentum and introduces unnecessary transition risk. Only initiate the switch when the toe hold is genuinely neutralized by the defender's positioning and the Achilles tendon exposure makes the ankle lock a higher-percentage option than continuing to fight for rotational leverage.",
+        "answer_line": "Toe hold still working",
+        "distractors": {
+          "plausible": [
+            "Defender starts boot defense",
+            "Anytime for variety"
+          ],
+          "trap": [
+            "Switch to reset momentum"
+          ]
+        }
       },
       {
         "question": "How does hip pressure function during the grip transition and why is it critical?",
-        "answer": "Forward hip pressure against the defender's leg compensates for reduced hand control during the grip change. By driving the hips forward and pressing the chest into the defender's shin, the attacker creates positional pressure that prevents the defender from sitting up or hip escaping. This body pressure must actually increase during the transition to substitute for the temporary absence of grip control, maintaining the defensive suppression that prevents escape."
+        "answer": "Forward hip pressure against the defender's leg compensates for reduced hand control during the grip change. By driving the hips forward and pressing the chest into the defender's shin, the attacker creates positional pressure that prevents the defender from sitting up or hip escaping. This body pressure must actually increase during the transition to substitute for the temporary absence of grip control, maintaining the defensive suppression that prevents escape.",
+        "answer_line": "Hips replace lost hand control",
+        "distractors": {
+          "plausible": [
+            "Hips relax during switch",
+            "Hips drive toward the head"
+          ],
+          "trap": [
+            "Sit back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent rotates their foot externally during your grip switch attempt. What opportunity does this create?",
-        "answer": "External foot rotation during the grip switch re-exposes the defender to the original toe hold attack. Their rotation undoes the boot defense that motivated the switch in the first place. The correct response is to abort the ankle lock transition and immediately reattack the toe hold with the figure-four grip, capitalizing on the now-favorable foot position. This creates a catch-22 for the defender where defending one attack opens the other."
+        "answer": "External foot rotation during the grip switch re-exposes the defender to the original toe hold attack. Their rotation undoes the boot defense that motivated the switch in the first place. The correct response is to abort the ankle lock transition and immediately reattack the toe hold with the figure-four grip, capitalizing on the now-favorable foot position. This creates a catch-22 for the defender where defending one attack opens the other.",
+        "answer_line": "Abort switch, reattack toe hold",
+        "distractors": {
+          "plausible": [
+            "Continue the ankle lock switch",
+            "Tighten grip and wait"
+          ],
+          "trap": [
+            "Release everything and reset"
+          ]
+        }
       }
     ],
     "safety_considerations": "Both toe holds and straight ankle locks carry significant injury risk to ankle ligaments and the Achilles tendon. During grip transitions, maintain controlled pressure and never apply explosive force during the switch. The reconfiguration window creates unpredictable force vectors that can cause unintended injury if rushed. Always practice at reduced intensity initially, communicate clearly with training partners about pressure levels, and enforce a tap-early culture during leg lock training. Progressive pressure application is essential, particularly when establishing the new ankle lock grip, as the defender may not immediately recognize the changed threat vector. Stop immediately when a partner taps or verbally signals discomfort.",
@@ -422,19 +502,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is about to switch from toe hold to straight ankle lock?",
-        "answer": "The earliest cue is typically increased leg entanglement squeeze, as the attacker tightens their legs to maintain independent control before releasing their hand grips. This preparatory tightening precedes the actual grip change by 1-2 seconds and should trigger your escape preparation. Secondary cues include loosening of the figure-four grip and increased forward hip pressure."
+        "answer": "The earliest cue is typically increased leg entanglement squeeze, as the attacker tightens their legs to maintain independent control before releasing their hand grips. This preparatory tightening precedes the actual grip change by 1-2 seconds and should trigger your escape preparation. Secondary cues include loosening of the figure-four grip and increased forward hip pressure.",
+        "answer_line": "Increased leg entanglement squeeze",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip tightening",
+            "Attacker leaning back"
+          ],
+          "trap": [
+            "Attacker's hips pull away"
+          ]
+        }
       },
       {
         "question": "Why might your successful toe hold defense actually make you more vulnerable to the straight ankle lock?",
-        "answer": "Boot defense against the toe hold involves internally rotating your foot to hide the heel and resist rotational pressure. However, this internal rotation can simultaneously flatten and expose the posterior ankle area where the Achilles tendon sits. The attacker exploits this by redirecting from rotational attack to extension-based Achilles compression, essentially attacking the mechanical opening your own defense created."
+        "answer": "Boot defense against the toe hold involves internally rotating your foot to hide the heel and resist rotational pressure. However, this internal rotation can simultaneously flatten and expose the posterior ankle area where the Achilles tendon sits. The attacker exploits this by redirecting from rotational attack to extension-based Achilles compression, essentially attacking the mechanical opening your own defense created.",
+        "answer_line": "Internal rotation exposes Achilles",
+        "distractors": {
+          "plausible": [
+            "Boot defense weakens your grip",
+            "External rotation hides heel"
+          ],
+          "trap": [
+            "Toe hold defense stops all attacks"
+          ]
+        }
       },
       {
         "question": "When during the grip transition is your escape probability highest, and why?",
-        "answer": "Escape probability is highest during the 1-2 second window when the attacker has released the toe hold figure-four but has not yet completed the straight ankle lock grip configuration. During this window, the attacker has minimal hand control over your foot and ankle, relying entirely on leg entanglement for positional control. Leg entanglement alone is significantly easier to defeat than leg entanglement combined with secure hand grips, making this your optimal escape window."
+        "answer": "Escape probability is highest during the 1-2 second window when the attacker has released the toe hold figure-four but has not yet completed the straight ankle lock grip configuration. During this window, the attacker has minimal hand control over your foot and ankle, relying entirely on leg entanglement for positional control. Leg entanglement alone is significantly easier to defeat than leg entanglement combined with secure hand grips, making this your optimal escape window.",
+        "answer_line": "Hands released, grip not set yet",
+        "distractors": {
+          "plausible": [
+            "Right as figure-four locks in",
+            "After ankle lock is secured"
+          ],
+          "trap": [
+            "Wait until hips press in"
+          ]
+        }
       },
       {
         "question": "Your attacker begins the grip switch but you feel their leg entanglement is loose. What is your best response?",
-        "answer": "If the leg entanglement is loose during the grip transition, execute immediate aggressive leg extraction by pulling your knee toward your chest with maximum hip flexion while pushing the attacker's hips away with your free leg. A loose leg wrap combined with released hand grips represents the weakest possible control configuration and your highest-percentage escape opportunity. Do not hesitate or wait for better timing, as the attacker may tighten their legs if given additional time."
+        "answer": "If the leg entanglement is loose during the grip transition, execute immediate aggressive leg extraction by pulling your knee toward your chest with maximum hip flexion while pushing the attacker's hips away with your free leg. A loose leg wrap combined with released hand grips represents the weakest possible control configuration and your highest-percentage escape opportunity. Do not hesitate or wait for better timing, as the attacker may tighten their legs if given additional time.",
+        "answer_line": "Extract knee to chest immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for a better opening",
+            "Push attacker's hips away first"
+          ],
+          "trap": [
+            "Stay still to avoid detection"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -406,15 +406,45 @@
   "flashcards": [
     {
       "question": "What is a frame in Brazilian Jiu-Jitsu?",
-      "answer": "A frame is a rigid skeletal barrier — typically the forearms, shin, or knee — braced against an opponent to manage distance, create space, and block positional advancement using bone structure rather than muscle."
+      "answer": "A frame is a rigid skeletal barrier — typically the forearms, shin, or knee — braced against an opponent to manage distance, create space, and block positional advancement using bone structure rather than muscle.",
+      "answer_line": "Skeletal barrier, not muscle",
+      "distractors": {
+        "plausible": [
+          "Pushing hard with your arms",
+          "A tight grip on the gi"
+        ],
+        "trap": [
+          "Pull opponent tight to control"
+        ]
+      }
     },
     {
       "question": "Why should frames rely on skeletal alignment rather than muscular strength?",
-      "answer": "Bones stacked in line transmit force at almost no energy cost, so an aligned frame holds against a much heavier opponent and resists fatigue, whereas a muscle-powered frame collapses as soon as the arms tire."
+      "answer": "Bones stacked in line transmit force at almost no energy cost, so an aligned frame holds against a much heavier opponent and resists fatigue, whereas a muscle-powered frame collapses as soon as the arms tire.",
+      "answer_line": "Bone alignment resists fatigue",
+      "distractors": {
+        "plausible": [
+          "Bigger muscles hold longer",
+          "Strength always wins holds"
+        ],
+        "trap": [
+          "Flex hard to lock the frame"
+        ]
+      }
     },
     {
       "question": "Which direction should a frame point relative to the opponent's pressure?",
-      "answer": "Frames should be positioned perpendicular to the incoming force vector so they redirect pressure laterally instead of opposing it head-on, using leverage rather than a strength-versus-strength contest you will usually lose."
+      "answer": "Frames should be positioned perpendicular to the incoming force vector so they redirect pressure laterally instead of opposing it head-on, using leverage rather than a strength-versus-strength contest you will usually lose.",
+      "answer_line": "Perpendicular to the pressure",
+      "distractors": {
+        "plausible": [
+          "Parallel, absorb the force",
+          "Straight into their pressure"
+        ],
+        "trap": [
+          "Push straight back with strength"
+        ]
+      }
     },
     {
       "question": "How do you build effective frames from bottom side control?",
@@ -422,23 +452,73 @@
     },
     {
       "question": "What is the relationship between framing and escaping a bad position?",
-      "answer": "Frames are the first step of most escapes — they generate the initial space, which is then exploited by hip movement such as shrimping or bridging to recover guard or reverse the position."
+      "answer": "Frames are the first step of most escapes — they generate the initial space, which is then exploited by hip movement such as shrimping or bridging to recover guard or reverse the position.",
+      "answer_line": "Frames create space to shrimp",
+      "distractors": {
+        "plausible": [
+          "Frames alone recover guard",
+          "Shrimp first, then frame"
+        ],
+        "trap": [
+          "Hold frame and stay still"
+        ]
+      }
     },
     {
       "question": "What common error causes frames to collapse under pressure?",
-      "answer": "Overextending the arms or framing parallel to the opponent's pressure removes structural integrity, letting the opponent flatten and bypass the frame; keep a slight bend and stay perpendicular to the force."
+      "answer": "Overextending the arms or framing parallel to the opponent's pressure removes structural integrity, letting the opponent flatten and bypass the frame; keep a slight bend and stay perpendicular to the force.",
+      "answer_line": "Overextended or parallel arms",
+      "distractors": {
+        "plausible": [
+          "Elbows bent too much",
+          "Frame too close to body"
+        ],
+        "trap": [
+          "Lock elbows straight and push"
+        ]
+      }
     },
     {
       "question": "How does breathing affect frame effectiveness?",
-      "answer": "Holding the breath creates muscular tension and rapid fatigue that breaks a frame, so you should exhale to engage the core when establishing it and breathe steadily to sustain the structure under prolonged pressure."
+      "answer": "Holding the breath creates muscular tension and rapid fatigue that breaks a frame, so you should exhale to engage the core when establishing it and breathe steadily to sustain the structure under prolonged pressure.",
+      "answer_line": "Exhale to engage, breathe steady",
+      "distractors": {
+        "plausible": [
+          "Hold your breath for power",
+          "Breathe fast to stay alert"
+        ],
+        "trap": [
+          "Hold breath to brace hard"
+        ]
+      }
     },
     {
       "question": "Why are multiple coordinated frames better than a single isolated frame?",
-      "answer": "A single frame leaves alternative angles open for the opponent to advance, while coordinated arm, leg, and knee-shield frames build a layered barrier that closes off multiple advancement paths at once."
+      "answer": "A single frame leaves alternative angles open for the opponent to advance, while coordinated arm, leg, and knee-shield frames build a layered barrier that closes off multiple advancement paths at once.",
+      "answer_line": "Layered frames block all angles",
+      "distractors": {
+        "plausible": [
+          "One strong frame is enough",
+          "Focus all frames on one point"
+        ],
+        "trap": [
+          "Abandon frame to attack submission"
+        ]
+      }
     },
     {
       "question": "How does the knee shield function as a frame in half guard?",
-      "answer": "The knee shield is a leg frame — the shin and knee are wedged across the opponent's torso or hip to block crossface and flattening pressure, buying space and time to underhook, recover, or attack."
+      "answer": "The knee shield is a leg frame — the shin and knee are wedged across the opponent's torso or hip to block crossface and flattening pressure, buying space and time to underhook, recover, or attack.",
+      "answer_line": "Shin wedge blocks crossface",
+      "distractors": {
+        "plausible": [
+          "Knee pushes opponent's knee",
+          "Foot on hip stops advance"
+        ],
+        "trap": [
+          "Let knee collapse, hug legs"
+        ]
+      }
     }
   ],
   "clips": [

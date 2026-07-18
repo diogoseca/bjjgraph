@@ -246,43 +246,143 @@
     "flashcards": [
       {
         "question": "What is the first control point you should address before attempting to escape Rodeo Ride?",
-        "answer": "The near-arm control must be addressed first because it prevents you from posting and generating the base needed for any escape attempt. Without a free posting arm, you cannot create the leverage to collapse the rider's base or execute the rotation into side control. Fight the near-arm grip by pulling your elbow tight to your body and using your free hand to strip or block the controlling grip before initiating major positional movement."
+        "answer": "The near-arm control must be addressed first because it prevents you from posting and generating the base needed for any escape attempt. Without a free posting arm, you cannot create the leverage to collapse the rider's base or execute the rotation into side control. Fight the near-arm grip by pulling your elbow tight to your body and using your free hand to strip or block the controlling grip before initiating major positional movement.",
+        "answer_line": "Free your near arm first",
+        "distractors": {
+          "plausible": [
+            "Strip the far-side grip first",
+            "Escape your hips before arms"
+          ],
+          "trap": [
+            "Post up and try to stand"
+          ]
+        }
       },
       {
         "question": "How do you identify the optimal timing window for initiating the escape rotation?",
-        "answer": "The optimal timing window occurs when the rider shifts their weight during a grip adjustment, attack setup, or positional transition. Feel for changes in hip pressure—lighter pressure on your torso indicates the rider is moving or reaching for a new grip. The moment between attacks when the rider resets their position creates the largest window. Their posted leg movement also signals a base compromise that you can exploit with the rotation."
+        "answer": "The optimal timing window occurs when the rider shifts their weight during a grip adjustment, attack setup, or positional transition. Feel for changes in hip pressure—lighter pressure on your torso indicates the rider is moving or reaching for a new grip. The moment between attacks when the rider resets their position creates the largest window. Their posted leg movement also signals a base compromise that you can exploit with the rotation.",
+        "answer_line": "When hip pressure lightens",
+        "distractors": {
+          "plausible": [
+            "During their submission attempt",
+            "Right when they insert a hook"
+          ],
+          "trap": [
+            "When hip pressure is heaviest"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains extremely tight hip pressure and you cannot create space for rotation—what alternative approach should you take?",
-        "answer": "When hip pressure prevents rotation, switch to the sit-back guard recovery variant. Rather than trying to rotate underneath, work to bring your hips back between the rider's legs to establish butterfly guard or half guard. Use frames against their chest or arms to create the separation needed for backward hip movement. Tight forward hip pressure actually makes it difficult for the rider to prevent your hips from moving backward, so exploit this directional limitation."
+        "answer": "When hip pressure prevents rotation, switch to the sit-back guard recovery variant. Rather than trying to rotate underneath, work to bring your hips back between the rider's legs to establish butterfly guard or half guard. Use frames against their chest or arms to create the separation needed for backward hip movement. Tight forward hip pressure actually makes it difficult for the rider to prevent your hips from moving backward, so exploit this directional limitation.",
+        "answer_line": "Sit back to butterfly guard",
+        "distractors": {
+          "plausible": [
+            "Force the same rotation harder",
+            "Bridge and roll them over"
+          ],
+          "trap": [
+            "Push forward into their pressure"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the escape rotation and simply rolling over?",
-        "answer": "The escape rotation involves actively driving your shoulder into the rider's body while maintaining contact throughout, which controls the distance and prevents them from recovering their riding position or inserting hooks. Simply rolling over creates separation that allows the rider to adjust and potentially establish full back control. The rotation should keep you connected to the rider so you emerge in side control with contact already established rather than in an open scramble."
+        "answer": "The escape rotation involves actively driving your shoulder into the rider's body while maintaining contact throughout, which controls the distance and prevents them from recovering their riding position or inserting hooks. Simply rolling over creates separation that allows the rider to adjust and potentially establish full back control. The rotation should keep you connected to the rider so you emerge in side control with contact already established rather than in an open scramble.",
+        "answer_line": "Stay connected, don't separate",
+        "distractors": {
+          "plausible": [
+            "Roll fast to create space",
+            "Rotate away then re-engage"
+          ],
+          "trap": [
+            "Explode off for full separation"
+          ]
+        }
       },
       {
         "question": "You begin the escape but feel the rider inserting hooks on your far side—what should you do immediately?",
-        "answer": "Immediately abort the rotation escape and prioritize preventing full back control. Sit back toward the hook side to trap the rider's entering leg between your body and the mat, preventing the second hook from inserting. Use your free hand to fight the first hook while maintaining chin protection. Remaining in Rodeo Ride bottom is far preferable to giving up full back control with both hooks, as submission threat escalates dramatically from back control."
+        "answer": "Immediately abort the rotation escape and prioritize preventing full back control. Sit back toward the hook side to trap the rider's entering leg between your body and the mat, preventing the second hook from inserting. Use your free hand to fight the first hook while maintaining chin protection. Remaining in Rodeo Ride bottom is far preferable to giving up full back control with both hooks, as submission threat escalates dramatically from back control.",
+        "answer_line": "Trap the leg, block hook two",
+        "distractors": {
+          "plausible": [
+            "Finish the rotation escape anyway",
+            "Bridge explosively to dislodge"
+          ],
+          "trap": [
+            "Turn away and create space"
+          ]
+        }
       },
       {
         "question": "Why is it essential to consolidate side control immediately after completing the escape rather than attempting a submission?",
-        "answer": "The former rider will immediately attempt to recover guard or turtle, and the first few seconds after the escape are when your positional control is most vulnerable. Establishing proper crossface, hip-to-hip connection, and wide base prevents guard recovery and secures the positional advantage you earned through the escape. Attempting a submission before consolidating risks losing the position entirely, wasting the energy and timing invested in the escape sequence."
+        "answer": "The former rider will immediately attempt to recover guard or turtle, and the first few seconds after the escape are when your positional control is most vulnerable. Establishing proper crossface, hip-to-hip connection, and wide base prevents guard recovery and secures the positional advantage you earned through the escape. Attempting a submission before consolidating risks losing the position entirely, wasting the energy and timing invested in the escape sequence.",
+        "answer_line": "Crossface and consolidate first",
+        "distractors": {
+          "plausible": [
+            "Chase a quick submission",
+            "Switch straight to mount"
+          ],
+          "trap": [
+            "Release pressure to reset grips"
+          ]
+        }
       },
       {
         "question": "What grip configuration on your near arm is hardest to strip, and how do you break it?",
-        "answer": "A deep elbow-cupping grip where the rider controls your elbow from underneath while pressing their chest into your shoulder is the hardest to strip because it combines grip control with structural pressure. Break it by first tucking your elbow tight against your ribs to deny leverage, then using sharp rotational jerks of the forearm rather than pulling straight away. If the grip persists, use your free hand to peel their fingers while simultaneously hip escaping to change the angle, which reduces their mechanical advantage on the grip."
+        "answer": "A deep elbow-cupping grip where the rider controls your elbow from underneath while pressing their chest into your shoulder is the hardest to strip because it combines grip control with structural pressure. Break it by first tucking your elbow tight against your ribs to deny leverage, then using sharp rotational jerks of the forearm rather than pulling straight away. If the grip persists, use your free hand to peel their fingers while simultaneously hip escaping to change the angle, which reduces their mechanical advantage on the grip.",
+        "answer_line": "Jerk forearm after tucking elbow",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight out",
+            "Yank the hand off directly"
+          ],
+          "trap": [
+            "Push elbow away from your body"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force of your rotation be applied relative to the rider's posted leg?",
-        "answer": "Direct the rotation toward the side opposite the rider's posted leg, targeting the weak side of their tripod base. The posted leg provides the rider's primary stability, so rotating toward it means escaping into their strongest support structure. By rotating away from the posted leg, you force the rider to chase with their base already compromised, and their posted leg cannot quickly reposition to block your movement. Combine this directional choice with a push against their hip or near-side leg to amplify the base disruption."
+        "answer": "Direct the rotation toward the side opposite the rider's posted leg, targeting the weak side of their tripod base. The posted leg provides the rider's primary stability, so rotating toward it means escaping into their strongest support structure. By rotating away from the posted leg, you force the rider to chase with their base already compromised, and their posted leg cannot quickly reposition to block your movement. Combine this directional choice with a push against their hip or near-side leg to amplify the base disruption.",
+        "answer_line": "Rotate away from posted leg",
+        "distractors": {
+          "plausible": [
+            "Rotate toward the posted leg",
+            "Rotate toward their strong hip"
+          ],
+          "trap": [
+            "Charge straight into their base"
+          ]
+        }
       },
       {
         "question": "Your first rotation attempt fails and the rider re-settles—what is your immediate chain attack?",
-        "answer": "Immediately switch to the sit-back guard recovery while the rider is still adjusting from countering your rotation. The rotation attempt forced the rider to shift weight and grips, and their re-settling phase creates a brief window where hip pressure is lighter than normal. Use this window to drive your hips backward between their legs before they re-establish full hip pressure. If the sit-back is also blocked, transition to the explosive stand-up since two failed attempts have likely loosened their grips significantly. Never repeat the same escape variant twice consecutively."
+        "answer": "Immediately switch to the sit-back guard recovery while the rider is still adjusting from countering your rotation. The rotation attempt forced the rider to shift weight and grips, and their re-settling phase creates a brief window where hip pressure is lighter than normal. Use this window to drive your hips backward between their legs before they re-establish full hip pressure. If the sit-back is also blocked, transition to the explosive stand-up since two failed attempts have likely loosened their grips significantly. Never repeat the same escape variant twice consecutively.",
+        "answer_line": "Chain into sit-back recovery",
+        "distractors": {
+          "plausible": [
+            "Repeat the same rotation again",
+            "Go straight to stand-up escape"
+          ],
+          "trap": [
+            "Stall and wait for a new grip"
+          ]
+        }
       },
       {
         "question": "How do you maintain turtle base integrity while simultaneously creating the hip space needed for the escape?",
-        "answer": "The key is keeping your knees under your hips as the fixed anchor point while using a compact hip escape that moves only one hip away from the mat. Rather than a full shrimp that would flatten you, perform a short lateral hip shift that creates just enough gap for the rotation without compromising your knee-hip alignment. Think of it as a hip twitch rather than a full escape. Your weight stays on your knees and one elbow while the other hip lifts momentarily, creating the space you need without abandoning the structural foundation that keeps all escape options available."
+        "answer": "The key is keeping your knees under your hips as the fixed anchor point while using a compact hip escape that moves only one hip away from the mat. Rather than a full shrimp that would flatten you, perform a short lateral hip shift that creates just enough gap for the rotation without compromising your knee-hip alignment. Think of it as a hip twitch rather than a full escape. Your weight stays on your knees and one elbow while the other hip lifts momentarily, creating the space you need without abandoning the structural foundation that keeps all escape options available.",
+        "answer_line": "Small hip twitch, knees anchored",
+        "distractors": {
+          "plausible": [
+            "Full shrimp to flatten out",
+            "Lift both knees off the mat"
+          ],
+          "trap": [
+            "Flatten out to create space"
+          ]
+        }
       }
     ],
     "safety_considerations": "The escape from Rodeo Ride involves explosive hip movement and rotation that can strain the neck and lower back if performed with poor mechanics. Always warm up thoroughly before drilling this technique. The granby roll variant carries cervical spine risk if performed with speed before mechanics are solid—progress gradually from slow repetitions. Communicate with training partners about pressure levels and intensity. Tap immediately if you feel sharp pain in the neck or spine during the rotation phase. Avoid forcing the escape against a fully locked body triangle, as this can cause rib or spinal injury.",
@@ -391,31 +491,101 @@
     "flashcards": [
       {
         "question": "What is the most reliable indicator that the bottom practitioner is about to attempt an escape from Rodeo Ride?",
-        "answer": "The most reliable indicator is a combination of intensified grip fighting on your near-arm control paired with hip positioning changes where the bottom practitioner angles their knees for rotation rather than maintaining square turtle. These two changes together signal imminent escape, as the bottom practitioner needs both a free posting arm and proper hip angle to execute the rotation. Subtle changes in their breathing pattern—deeper breaths followed by breath-holding—also signal the transition from defensive posture to escape preparation."
+        "answer": "The most reliable indicator is a combination of intensified grip fighting on your near-arm control paired with hip positioning changes where the bottom practitioner angles their knees for rotation rather than maintaining square turtle. These two changes together signal imminent escape, as the bottom practitioner needs both a free posting arm and proper hip angle to execute the rotation. Subtle changes in their breathing pattern—deeper breaths followed by breath-holding—also signal the transition from defensive posture to escape preparation.",
+        "answer_line": "Grip fighting plus knee angling",
+        "distractors": {
+          "plausible": [
+            "Faster breathing only",
+            "Sudden calm and stillness"
+          ],
+          "trap": [
+            "Relaxed grips, loose hips"
+          ]
+        }
       },
       {
         "question": "Why should you consider transitioning to back control rather than maintaining Rodeo Ride when the escape is partially successful?",
-        "answer": "Rodeo Ride is inherently a transitional position, and once the bottom practitioner has partially disrupted your control, re-establishing the full riding position requires fighting against their momentum and improved defensive structure. Back control with hooks offers significantly more stable control and higher submission percentage. The escape attempt actually creates the space and movement patterns that facilitate hook insertion, so capitalizing on this opportunity is strategically superior to fighting to re-establish a compromised position."
+        "answer": "Rodeo Ride is inherently a transitional position, and once the bottom practitioner has partially disrupted your control, re-establishing the full riding position requires fighting against their momentum and improved defensive structure. Back control with hooks offers significantly more stable control and higher submission percentage. The escape attempt actually creates the space and movement patterns that facilitate hook insertion, so capitalizing on this opportunity is strategically superior to fighting to re-establish a compromised position.",
+        "answer_line": "Take the back, don't reset",
+        "distractors": {
+          "plausible": [
+            "Reset full Rodeo Ride control",
+            "Chase a quick leg lock instead"
+          ],
+          "trap": [
+            "Let them stand to reset position"
+          ]
+        }
       },
       {
         "question": "How do you adjust your defense when the bottom practitioner uses the granby roll variant to escape?",
-        "answer": "Against the granby roll, immediately drop your weight forward and down toward the mat to prevent the inversion from completing. Drive your chest pressure into their upper back to flatten them before they can get their hips over their shoulders. If the roll is already in progress, follow the rotation by switching your hips to the other side and maintaining chest contact throughout. The granby roll requires them to elevate their hips above their shoulders, so any downward pressure that prevents this elevation defeats the technique entirely."
+        "answer": "Against the granby roll, immediately drop your weight forward and down toward the mat to prevent the inversion from completing. Drive your chest pressure into their upper back to flatten them before they can get their hips over their shoulders. If the roll is already in progress, follow the rotation by switching your hips to the other side and maintaining chest contact throughout. The granby roll requires them to elevate their hips above their shoulders, so any downward pressure that prevents this elevation defeats the technique entirely.",
+        "answer_line": "Flatten them, block hip rise",
+        "distractors": {
+          "plausible": [
+            "Follow the roll passively",
+            "Pull up to stop the spin"
+          ],
+          "trap": [
+            "Release pressure and circle away"
+          ]
+        }
       },
       {
         "question": "Your grip on the near arm is stripped but you still have chest-to-back contact—what is your immediate priority?",
-        "answer": "Your immediate priority is deciding between re-establishing a new control grip and transitioning to hooks based on the bottom practitioner's movement. If they are beginning the escape rotation and creating space, insert hooks immediately since their movement opens the path to back control. If they remain in tight turtle and have not yet begun the rotation, re-establish near-arm control or switch to collar or far-side grip while maintaining chest pressure. The wrong choice is hesitation—a free arm in turtle will be used to escape within seconds."
+        "answer": "Your immediate priority is deciding between re-establishing a new control grip and transitioning to hooks based on the bottom practitioner's movement. If they are beginning the escape rotation and creating space, insert hooks immediately since their movement opens the path to back control. If they remain in tight turtle and have not yet begun the rotation, re-establish near-arm control or switch to collar or far-side grip while maintaining chest pressure. The wrong choice is hesitation—a free arm in turtle will be used to escape within seconds.",
+        "answer_line": "Insert hooks if they're moving",
+        "distractors": {
+          "plausible": [
+            "Always re-establish the grip",
+            "Wait to see what happens"
+          ],
+          "trap": [
+            "Back off to reset distance"
+          ]
+        }
       },
       {
         "question": "The bottom practitioner attempts the sit-back guard recovery variant—how do you counter their backward hip movement?",
-        "answer": "When you feel the bottom practitioner driving their hips backward between your legs, immediately sprawl your hips back and down to the mat to deny the space they need. Simultaneously, drive your chest pressure forward into their upper back to create a push-pull dynamic that prevents them from completing the sit-back. If their hips have already started to come through, switch your legs to a body triangle or cross-body control to maintain leg engagement even as the positional relationship changes. The critical mistake is staying upright when they sit back, as this gives them the space underneath you to establish butterfly hooks."
+        "answer": "When you feel the bottom practitioner driving their hips backward between your legs, immediately sprawl your hips back and down to the mat to deny the space they need. Simultaneously, drive your chest pressure forward into their upper back to create a push-pull dynamic that prevents them from completing the sit-back. If their hips have already started to come through, switch your legs to a body triangle or cross-body control to maintain leg engagement even as the positional relationship changes. The critical mistake is staying upright when they sit back, as this gives them the space underneath you to establish butterfly hooks.",
+        "answer_line": "Sprawl down, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Stand up to block the sit-back",
+            "Pull their hips forward"
+          ],
+          "trap": [
+            "Stay upright and wait"
+          ]
+        }
       },
       {
         "question": "How do you decide between sprawling to maintain position versus inserting hooks during an escape attempt?",
-        "answer": "The decision depends on two factors: how much space the bottom practitioner has created and how compromised your riding grips are. If the escape is early stage with minimal space and you still have strong near-arm control, sprawl to shut it down and maintain the riding position you already have. If the escape has progressed significantly and your primary grips are compromised, attempting to re-establish a lost riding position is lower percentage than capitalizing on the space to insert hooks. Think of it as a threshold: once the bottom practitioner has created enough rotation or hip space that re-establishing riding control requires you to release chest contact, commit to the back take instead."
+        "answer": "The decision depends on two factors: how much space the bottom practitioner has created and how compromised your riding grips are. If the escape is early stage with minimal space and you still have strong near-arm control, sprawl to shut it down and maintain the riding position you already have. If the escape has progressed significantly and your primary grips are compromised, attempting to re-establish a lost riding position is lower percentage than capitalizing on the space to insert hooks. Think of it as a threshold: once the bottom practitioner has created enough rotation or hip space that re-establishing riding control requires you to release chest contact, commit to the back take instead.",
+        "answer_line": "Judge by space and grip loss",
+        "distractors": {
+          "plausible": [
+            "Always sprawl to reset control",
+            "Always take the back immediately"
+          ],
+          "trap": [
+            "Split the difference, do both"
+          ]
+        }
       },
       {
         "question": "What is the most common mistake riders make when the bottom practitioner chains multiple escape variants in sequence?",
-        "answer": "The most common mistake is committing fully to countering each escape variant individually rather than maintaining a neutral control position that addresses all variants simultaneously. When the bottom practitioner feints a rotation then switches to a sit-back, riders who sprawled aggressively to counter the rotation are now out of position to prevent the backward hip movement. The solution is to prioritize maintaining chest-to-back connection and at least one grip as constant anchor points rather than making large positional adjustments to counter specific escape types. From this central control position, you can react to any escape variant without overcommitting to any single counter."
+        "answer": "The most common mistake is committing fully to countering each escape variant individually rather than maintaining a neutral control position that addresses all variants simultaneously. When the bottom practitioner feints a rotation then switches to a sit-back, riders who sprawled aggressively to counter the rotation are now out of position to prevent the backward hip movement. The solution is to prioritize maintaining chest-to-back connection and at least one grip as constant anchor points rather than making large positional adjustments to counter specific escape types. From this central control position, you can react to any escape variant without overcommitting to any single counter.",
+        "answer_line": "Overcommitting to each counter",
+        "distractors": {
+          "plausible": [
+            "Not reacting to feints at all",
+            "Switching grips too rarely"
+          ],
+          "trap": [
+            "Sprawl hard on every feint"
+          ]
+        }
       }
     ],
     "training_progressions": [

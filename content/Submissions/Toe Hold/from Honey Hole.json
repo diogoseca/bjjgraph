@@ -316,47 +316,137 @@
       {
         "question": "How do you recognize the optimal moment to transition from heel hook attempt to toe hold?",
         "answer": "The optimal transition moment is when the opponent successfully hides their heel by curling the foot into your armpit or tucking it behind your hip, but their toes and ball of foot remain exposed. You should see the sole of their foot facing you with toes accessible. If the opponent is actively fighting your heel grip, the transition creates confusion and catches them during a defensive adjustment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Heel hidden, toes/ball exposed",
+        "distractors": {
+          "plausible": [
+            "Opponent's foot fully controlled",
+            "Any moment mid-scramble works"
+          ],
+          "trap": [
+            "Wait for full leg extension"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides maximum rotational force for the toe hold finish?",
         "answer": "The figure-four grip wraps the primary hand around all five toes and the ball of foot from the outside, then the free hand grabs the primary wrist to create a kimura-style lever. The forearm crosses the sole of the foot. Elbows stay close to your ribs for maximum mechanical advantage. This configuration multiplies your rotational force through the lever system while distributing pressure across the entire forefoot.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four, forearm across sole",
+        "distractors": {
+          "plausible": [
+            "Grab heel, twist at the wrist",
+            "One-hand toe grab, elbow flared"
+          ],
+          "trap": [
+            "Grip a single toe, yank hard"
+          ]
+        }
       },
       {
         "question": "What indicates that you have reached the point of no escape for the defender?",
         "answer": "The point of no escape occurs when three conditions align: your figure-four grip is fully locked with elbows tight to your ribs, your inside leg triangle is preventing any hip rotation, and you have begun medial rotational pressure with the slack removed from the ankle. Once rotational pressure engages with the foot fully controlled and the hip pinned, the defender cannot generate enough counter-rotation to relieve the pressure without tapping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, hip pinned, torque on",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip locked only",
+            "Leg triangle set, no torque yet"
+          ],
+          "trap": [
+            "Opponent stops resisting verbally"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error when applying the toe hold from Honey Hole?",
         "answer": "The most common finishing error is applying rotational pressure too quickly. Practitioners accustomed to heel hooks apply sudden twisting force, but the smaller joints of the foot fail with less force and less warning than knee ligaments. The toe hold requires 5-7 seconds of gradual pressure. Rushing the finish risks serious injury to training partners and also reduces mechanical efficiency since the figure-four works best with steady progressive torque.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Applying rotation too fast",
+        "distractors": {
+          "plausible": [
+            "Not locking the grip tight enough",
+            "Releasing leg triangle too early"
+          ],
+          "trap": [
+            "Cranking hard like a heel hook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped leg during your toe hold attempt—what adjustment do you make?",
         "answer": "A straightening leg actually improves your toe hold mechanics by removing the protective bend that absorbs rotational force. Maintain your figure-four grip and continue applying medial rotation. However, also recognize that leg straightening may indicate the opponent is attempting to push off your hip to create escape space. Counter by driving your crossing leg deeper across their hip and scooting your hips forward to close the distance before they can extend fully.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep rotating, deepen hip control",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Switch immediately to heel hook"
+          ],
+          "trap": [
+            "Back hips away to reset space"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent actively flexes their foot and curls their toes during the toe hold?",
         "answer": "Use your forearm across the sole of the foot as a pry bar to work against the flexion. Slide your grip slightly higher on the foot so your forearm crosses the metatarsal heads rather than the toes themselves. Maintain figure-four pressure and use small pulsing adjustments to gradually overcome the flexion. Foot flexion is fatiguing for the defender and will weaken within 10-15 seconds if you maintain steady counter-pressure without wasting energy fighting it explosively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pry with forearm, grip higher",
+        "distractors": {
+          "plausible": [
+            "Pull the toes back explosively",
+            "Switch hands, regrip fully"
+          ],
+          "trap": [
+            "Yank toes back hard and fast"
+          ]
+        }
       },
       {
         "question": "What safety protocols must you follow when training the toe hold from Honey Hole?",
         "answer": "Apply all pressure over 5-7 seconds minimum with no sudden rotational force. Always grip across multiple toes and the ball of foot, never isolate individual toes. Maintain clear tap access for your partner at all times. Stop immediately at any unusual popping sound or sign of discomfort. Never combine toe hold pressure with explosive hip extension. Release gradually upon tap rather than dropping the foot. Verify your partner is okay before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow 5-7 sec, grip whole foot",
+        "distractors": {
+          "plausible": [
+            "Tap fast, release immediately",
+            "Grip big toe only, go slow"
+          ],
+          "trap": [
+            "Snap it quick like a heel hook"
+          ]
+        }
       },
       {
         "question": "How does the Honey Hole's inside leg triangle enhance the toe hold compared to applying it from outside ashi garami?",
         "answer": "The inside leg triangle pins the opponent's hip through the crossing leg, preventing the rotational escape that defeats most toe holds from outside ashi garami. In outside ashi, the opponent can rotate their hip freely to align their foot with the rotational pressure, neutralizing the torque. From Honey Hole, this rotation is blocked mechanically, meaning the full rotational force of the toe hold transfers into the ankle and foot structures without dissipation through hip movement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks the hip rotation escape",
+        "distractors": {
+          "plausible": [
+            "Gives better toe grip access",
+            "Makes the finish come faster"
+          ],
+          "trap": [
+            "Lets opponent rotate hips freely"
+          ]
+        }
       },
       {
         "question": "How should you release the toe hold after your training partner taps?",
         "answer": "Upon hearing or feeling a tap, immediately stop all rotational pressure but do not abruptly release the foot. Gradually unwind the figure-four grip over 1-2 seconds while maintaining light contact on the foot. Allow the opponent's foot to return to its natural position without being dropped. Then release your leg triangle. Abrupt release after sustained pressure can cause injury to already-stressed ligaments. Always ask your partner if they are okay before resuming.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unwind grip gradually, then release",
+        "distractors": {
+          "plausible": [
+            "Drop the foot immediately",
+            "Release triangle before the grip"
+          ],
+          "trap": [
+            "Yank the grip off in one motion"
+          ]
+        }
       }
     ],
     "clips": [
@@ -466,27 +556,77 @@
       {
         "question": "How do you recognize that your opponent is transitioning from heel hook to toe hold from Honey Hole?",
         "answer": "The key recognition cues are: opponent releases pressure on your heel and their hand moves toward your toes or ball of foot, you feel their forearm beginning to cross the sole of your foot, and their grip shifts from heel cupping to a figure-four configuration around your forefoot. This transition takes approximately 1-2 seconds and is your primary escape window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip shifts to a figure-four",
+        "distractors": {
+          "plausible": [
+            "They squeeze harder on your heel",
+            "They pull your leg fully straight"
+          ],
+          "trap": [
+            "They've abandoned the attack"
+          ]
+        }
       },
       {
         "question": "When is the correct moment to tap to a toe hold from Honey Hole?",
         "answer": "Tap immediately when you feel rotational pressure beginning to build on your foot and ankle. Do not attempt to fight through established pressure. The small joints of the foot—particularly the Lisfranc joint and ankle ligaments—fail with significantly less force and warning than knee ligaments targeted by heel hooks. If you are debating whether to tap, you should already be tapping.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first sign of torque",
+        "distractors": {
+          "plausible": [
+            "Tap only if sharp pain hits",
+            "Wait to see if you can escape"
+          ],
+          "trap": [
+            "Try to power out first"
+          ]
+        }
       },
       {
         "question": "What defensive actions are available during the grip transition from heel hook to toe hold?",
         "answer": "During the 1-2 second grip transition window, you can: explosively rotate your hips to enter 50-50 and escape the entanglement, boot your foot free if the leg triangle loosens, or curl your toes and flex your foot to delay grip establishment. The hip rotation escape is highest percentage. All defenses become dramatically less effective once the figure-four grip locks in.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate hips into 50-50",
+        "distractors": {
+          "plausible": [
+            "Curl toes and flex foot only",
+            "Pull your knee to your chest"
+          ],
+          "trap": [
+            "Kick the leg straight to break free"
+          ]
+        }
       },
       {
         "question": "What body alignment minimizes injury risk when caught in a toe hold from Honey Hole?",
         "answer": "Keep your trapped foot aligned with your knee by turning your entire body in the same direction as the rotational pressure. Never allow your foot to face a different direction than your knee, as this misalignment concentrates stress on the ankle ligaments. If you cannot maintain alignment and feel increasing pressure, tap immediately rather than allowing your foot and knee to twist in opposite directions.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Keep foot aligned with knee",
+        "distractors": {
+          "plausible": [
+            "Point foot away from pressure",
+            "Straighten the knee fully"
+          ],
+          "trap": [
+            "Twist foot opposite the knee"
+          ]
+        }
       },
       {
         "question": "Why is the toe hold from Honey Hole more dangerous than toe holds from other positions?",
         "answer": "The Honey Hole's inside leg triangle pins your hip flat through the crossing leg, preventing the rotational escape that normally neutralizes toe holds from open ashi positions. In outside ashi garami, you can rotate your hip to align with the pressure and relieve torque. From Honey Hole, that rotation is mechanically blocked, meaning the full rotational force transfers directly into your ankle and foot structures without any dissipation through hip movement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip pinned, no rotation escape",
+        "distractors": {
+          "plausible": [
+            "Faster grip than other positions",
+            "Only effective in no-gi rules"
+          ],
+          "trap": [
+            "Easy to rotate hip and escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -319,15 +319,45 @@
     "flashcards": [
       {
         "question": "What weight distribution and hip positioning maintain the diamond frame most effectively?",
-        "answer": "The guard player should keep their hips angled slightly toward the overhook side with heels actively pulling into the opponent's lower back. Weight distributes through the closed guard legs pulling the opponent's center of gravity forward and down, while the overhook and head control create a downward spiral force on the upper body. Keeping hips slightly elevated rather than flat on the mat increases the pulling angle and makes the frame stronger against posture recovery attempts."
+        "answer": "The guard player should keep their hips angled slightly toward the overhook side with heels actively pulling into the opponent's lower back. Weight distributes through the closed guard legs pulling the opponent's center of gravity forward and down, while the overhook and head control create a downward spiral force on the upper body. Keeping hips slightly elevated rather than flat on the mat increases the pulling angle and makes the frame stronger against posture recovery attempts.",
+        "answer_line": "Hips elevated, heels dig into back",
+        "distractors": {
+          "plausible": [
+            "Flat hips, heels squeezing tight",
+            "Weight back, heels relaxed"
+          ],
+          "trap": [
+            "Hips flat, release heel pressure"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations that define a properly established diamond guard?",
-        "answer": "The primary grip is a deep overhook where your arm wraps over the opponent's bicep or tricep, elbow pulled tight to your ribs to prevent extraction. The secondary grip is head control behind the opponent's neck, pulling their forehead toward your sternum. The overhook must be deep enough that your elbow passes their tricep, and head control should pull their head below their shoulder line. Closed guard ankles locked at the small of the back reinforce the frame by preventing the opponent from creating distance with their hips."
+        "answer": "The primary grip is a deep overhook where your arm wraps over the opponent's bicep or tricep, elbow pulled tight to your ribs to prevent extraction. The secondary grip is head control behind the opponent's neck, pulling their forehead toward your sternum. The overhook must be deep enough that your elbow passes their tricep, and head control should pull their head below their shoulder line. Closed guard ankles locked at the small of the back reinforce the frame by preventing the opponent from creating distance with their hips.",
+        "answer_line": "Deep overhook plus head control",
+        "distractors": {
+          "plausible": [
+            "Shallow overhook, tight head grip",
+            "Overhook only, no head control"
+          ],
+          "trap": [
+            "Release ankles, double underhooks"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving their hips backward to recover posture — how do you maintain the diamond frame?",
-        "answer": "Increase heel pressure into their lower back by actively squeezing your hamstrings and pulling your heels toward your glutes. Simultaneously deepen the overhook by pulling your elbow tighter to your ribs and increase the head control pull. If they generate significant backward momentum, use it offensively by sitting up into a hip bump sweep as their weight shifts posteriorly. The critical principle is that backward hip drive from the opponent creates sweep opportunities — their defensive movement becomes your offensive trigger."
+        "answer": "Increase heel pressure into their lower back by actively squeezing your hamstrings and pulling your heels toward your glutes. Simultaneously deepen the overhook by pulling your elbow tighter to your ribs and increase the head control pull. If they generate significant backward momentum, use it offensively by sitting up into a hip bump sweep as their weight shifts posteriorly. The critical principle is that backward hip drive from the opponent creates sweep opportunities — their defensive movement becomes your offensive trigger.",
+        "answer_line": "Deepen frame, hip bump sweep",
+        "distractors": {
+          "plausible": [
+            "Release grips, let them stand",
+            "Base out, wait for their move"
+          ],
+          "trap": [
+            "Push them away to create space"
+          ]
+        }
       },
       {
         "question": "In what order should you establish grips when building diamond guard from standard closed guard?",
@@ -335,19 +365,59 @@
       },
       {
         "question": "How does the diamond frame amplify posture-breaking force compared to standard collar or head grips?",
-        "answer": "Standard collar grips create a single line of pull that the opponent can resist by straightening their spine against one directional force. The diamond frame creates a closed geometric structure where the overhook pulls one shoulder down and across while the head control pulls the head down and forward, creating two converging force vectors. The opponent cannot resist both simultaneously because addressing one requires movement that deepens the other. The closed loop means the guard player's arms reinforce each other structurally rather than operating independently."
+        "answer": "Standard collar grips create a single line of pull that the opponent can resist by straightening their spine against one directional force. The diamond frame creates a closed geometric structure where the overhook pulls one shoulder down and across while the head control pulls the head down and forward, creating two converging force vectors. The opponent cannot resist both simultaneously because addressing one requires movement that deepens the other. The closed loop means the guard player's arms reinforce each other structurally rather than operating independently.",
+        "answer_line": "Two converging force vectors",
+        "distractors": {
+          "plausible": [
+            "Stronger single pulling line",
+            "Equal force from both grips"
+          ],
+          "trap": [
+            "Push head and arm apart"
+          ]
+        }
       },
       {
         "question": "Your opponent uses their free hand to push against your head-controlling wrist — what adjustment preserves your control?",
-        "answer": "Switch your head control grip from behind the neck to a deeper position by cupping the crown of their head or grabbing the far collar. Their free hand pushing your wrist creates a predictable committed position — their only free limb is occupied with grip fighting. Use this moment to threaten a submission with the overhook side, such as a kimura or omoplata entry, which punishes their decision to commit their free hand to grip fighting rather than base or escape. The submission threat forces them to abandon the wrist fight."
+        "answer": "Switch your head control grip from behind the neck to a deeper position by cupping the crown of their head or grabbing the far collar. Their free hand pushing your wrist creates a predictable committed position — their only free limb is occupied with grip fighting. Use this moment to threaten a submission with the overhook side, such as a kimura or omoplata entry, which punishes their decision to commit their free hand to grip fighting rather than base or escape. The submission threat forces them to abandon the wrist fight.",
+        "answer_line": "Deepen grip, threaten submission",
+        "distractors": {
+          "plausible": [
+            "Release head control, re-grip neck",
+            "Match their grip fight, pull harder"
+          ],
+          "trap": [
+            "Free your wrist, abandon overhook"
+          ]
+        }
       },
       {
         "question": "Why does diamond guard create an energy advantage for the guard player, and how should you exploit this asymmetry?",
-        "answer": "Maintaining the diamond requires relatively low energy because the overhook and head control are structural controls that use skeletal alignment and connective tissue rather than muscular effort. The closed guard legs reinforce the posture break passively. In contrast, escaping requires the top player to actively fight multiple control points simultaneously using significant muscular effort. Exploit this by being patient and cycling through submission threats at a sustainable pace, forcing the opponent to expend energy defending each threat while your energy expenditure remains minimal."
+        "answer": "Maintaining the diamond requires relatively low energy because the overhook and head control are structural controls that use skeletal alignment and connective tissue rather than muscular effort. The closed guard legs reinforce the posture break passively. In contrast, escaping requires the top player to actively fight multiple control points simultaneously using significant muscular effort. Exploit this by being patient and cycling through submission threats at a sustainable pace, forcing the opponent to expend energy defending each threat while your energy expenditure remains minimal.",
+        "answer_line": "Cycle threats, stay patient",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder to save energy",
+            "Rush subs before they recover"
+          ],
+          "trap": [
+            "Muscle through with strength"
+          ]
+        }
       },
       {
         "question": "Your opponent partially strips your overhook so it slides from their tricep to their wrist — how do you recover full diamond control?",
-        "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup."
+        "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup.",
+        "answer_line": "Keep head control, rebuild overhook",
+        "distractors": {
+          "plausible": [
+            "Release grip, re-establish overhook",
+            "Switch sides, restart the guard"
+          ],
+          "trap": [
+            "Let go and reset to closed guard"
+          ]
+        }
       }
     ],
     "clips": [
@@ -648,15 +718,45 @@
     "flashcards": [
       {
         "question": "What weight distribution and hip positioning maintain the diamond frame most effectively?",
-        "answer": "The guard player should keep their hips angled slightly toward the overhook side with heels actively pulling into the opponent's lower back. Weight distributes through the closed guard legs pulling the opponent's center of gravity forward and down, while the overhook and head control create a downward spiral force on the upper body. Keeping hips slightly elevated rather than flat on the mat increases the pulling angle and makes the frame stronger against posture recovery attempts."
+        "answer": "The guard player should keep their hips angled slightly toward the overhook side with heels actively pulling into the opponent's lower back. Weight distributes through the closed guard legs pulling the opponent's center of gravity forward and down, while the overhook and head control create a downward spiral force on the upper body. Keeping hips slightly elevated rather than flat on the mat increases the pulling angle and makes the frame stronger against posture recovery attempts.",
+        "answer_line": "Hips elevated, heels dig into back",
+        "distractors": {
+          "plausible": [
+            "Flat hips, heels squeezing tight",
+            "Weight back, heels relaxed"
+          ],
+          "trap": [
+            "Hips flat, release heel pressure"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations that define a properly established diamond guard?",
-        "answer": "The primary grip is a deep overhook where your arm wraps over the opponent's bicep or tricep, elbow pulled tight to your ribs to prevent extraction. The secondary grip is head control behind the opponent's neck, pulling their forehead toward your sternum. The overhook must be deep enough that your elbow passes their tricep, and head control should pull their head below their shoulder line. Closed guard ankles locked at the small of the back reinforce the frame by preventing the opponent from creating distance with their hips."
+        "answer": "The primary grip is a deep overhook where your arm wraps over the opponent's bicep or tricep, elbow pulled tight to your ribs to prevent extraction. The secondary grip is head control behind the opponent's neck, pulling their forehead toward your sternum. The overhook must be deep enough that your elbow passes their tricep, and head control should pull their head below their shoulder line. Closed guard ankles locked at the small of the back reinforce the frame by preventing the opponent from creating distance with their hips.",
+        "answer_line": "Deep overhook plus head control",
+        "distractors": {
+          "plausible": [
+            "Shallow overhook, tight head grip",
+            "Overhook only, no head control"
+          ],
+          "trap": [
+            "Release ankles, double underhooks"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving their hips backward to recover posture — how do you maintain the diamond frame?",
-        "answer": "Increase heel pressure into their lower back by actively squeezing your hamstrings and pulling your heels toward your glutes. Simultaneously deepen the overhook by pulling your elbow tighter to your ribs and increase the head control pull. If they generate significant backward momentum, use it offensively by sitting up into a hip bump sweep as their weight shifts posteriorly. The critical principle is that backward hip drive from the opponent creates sweep opportunities — their defensive movement becomes your offensive trigger."
+        "answer": "Increase heel pressure into their lower back by actively squeezing your hamstrings and pulling your heels toward your glutes. Simultaneously deepen the overhook by pulling your elbow tighter to your ribs and increase the head control pull. If they generate significant backward momentum, use it offensively by sitting up into a hip bump sweep as their weight shifts posteriorly. The critical principle is that backward hip drive from the opponent creates sweep opportunities — their defensive movement becomes your offensive trigger.",
+        "answer_line": "Deepen frame, hip bump sweep",
+        "distractors": {
+          "plausible": [
+            "Release grips, let them stand",
+            "Base out, wait for their move"
+          ],
+          "trap": [
+            "Push them away to create space"
+          ]
+        }
       },
       {
         "question": "In what order should you establish grips when building diamond guard from standard closed guard?",
@@ -664,19 +764,59 @@
       },
       {
         "question": "How does the diamond frame amplify posture-breaking force compared to standard collar or head grips?",
-        "answer": "Standard collar grips create a single line of pull that the opponent can resist by straightening their spine against one directional force. The diamond frame creates a closed geometric structure where the overhook pulls one shoulder down and across while the head control pulls the head down and forward, creating two converging force vectors. The opponent cannot resist both simultaneously because addressing one requires movement that deepens the other. The closed loop means the guard player's arms reinforce each other structurally rather than operating independently."
+        "answer": "Standard collar grips create a single line of pull that the opponent can resist by straightening their spine against one directional force. The diamond frame creates a closed geometric structure where the overhook pulls one shoulder down and across while the head control pulls the head down and forward, creating two converging force vectors. The opponent cannot resist both simultaneously because addressing one requires movement that deepens the other. The closed loop means the guard player's arms reinforce each other structurally rather than operating independently.",
+        "answer_line": "Two converging force vectors",
+        "distractors": {
+          "plausible": [
+            "Stronger single pulling line",
+            "Equal force from both grips"
+          ],
+          "trap": [
+            "Push head and arm apart"
+          ]
+        }
       },
       {
         "question": "Your opponent uses their free hand to push against your head-controlling wrist — what adjustment preserves your control?",
-        "answer": "Switch your head control grip from behind the neck to a deeper position by cupping the crown of their head or grabbing the far collar. Their free hand pushing your wrist creates a predictable committed position — their only free limb is occupied with grip fighting. Use this moment to threaten a submission with the overhook side, such as a kimura or omoplata entry, which punishes their decision to commit their free hand to grip fighting rather than base or escape. The submission threat forces them to abandon the wrist fight."
+        "answer": "Switch your head control grip from behind the neck to a deeper position by cupping the crown of their head or grabbing the far collar. Their free hand pushing your wrist creates a predictable committed position — their only free limb is occupied with grip fighting. Use this moment to threaten a submission with the overhook side, such as a kimura or omoplata entry, which punishes their decision to commit their free hand to grip fighting rather than base or escape. The submission threat forces them to abandon the wrist fight.",
+        "answer_line": "Deepen grip, threaten submission",
+        "distractors": {
+          "plausible": [
+            "Release head control, re-grip neck",
+            "Match their grip fight, pull harder"
+          ],
+          "trap": [
+            "Free your wrist, abandon overhook"
+          ]
+        }
       },
       {
         "question": "Why does diamond guard create an energy advantage for the guard player, and how should you exploit this asymmetry?",
-        "answer": "Maintaining the diamond requires relatively low energy because the overhook and head control are structural controls that use skeletal alignment and connective tissue rather than muscular effort. The closed guard legs reinforce the posture break passively. In contrast, escaping requires the top player to actively fight multiple control points simultaneously using significant muscular effort. Exploit this by being patient and cycling through submission threats at a sustainable pace, forcing the opponent to expend energy defending each threat while your energy expenditure remains minimal."
+        "answer": "Maintaining the diamond requires relatively low energy because the overhook and head control are structural controls that use skeletal alignment and connective tissue rather than muscular effort. The closed guard legs reinforce the posture break passively. In contrast, escaping requires the top player to actively fight multiple control points simultaneously using significant muscular effort. Exploit this by being patient and cycling through submission threats at a sustainable pace, forcing the opponent to expend energy defending each threat while your energy expenditure remains minimal.",
+        "answer_line": "Cycle threats, stay patient",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder to save energy",
+            "Rush subs before they recover"
+          ],
+          "trap": [
+            "Muscle through with strength"
+          ]
+        }
       },
       {
         "question": "Your opponent partially strips your overhook so it slides from their tricep to their wrist — how do you recover full diamond control?",
-        "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup."
+        "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup.",
+        "answer_line": "Keep head control, rebuild overhook",
+        "distractors": {
+          "plausible": [
+            "Release grip, re-establish overhook",
+            "Switch sides, restart the guard"
+          ],
+          "trap": [
+            "Let go and reset to closed guard"
+          ]
+        }
       }
     ],
     "clips": [
@@ -703,35 +843,115 @@
   "flashcards_position": [
     {
       "question": "What four structural elements form the enclosed shape that gives Diamond Guard its name?",
-      "answer": "The diamond is bounded by the guard player's overhooking arm on one side, their head-controlling arm on the other, the opponent's trapped arm running through the middle, and the opponent's head at the apex. These four elements enclose a diamond-shaped space that locks the opponent's near shoulder and head into a single rigid unit. Because the two encircling arms meet the opponent's arm and head at converging angles, the frame behaves as a closed geometric loop rather than two independent grips. This closed structure is what distinguishes Diamond Guard from a simple overhook or a lone collar tie."
+      "answer": "The diamond is bounded by the guard player's overhooking arm on one side, their head-controlling arm on the other, the opponent's trapped arm running through the middle, and the opponent's head at the apex. These four elements enclose a diamond-shaped space that locks the opponent's near shoulder and head into a single rigid unit. Because the two encircling arms meet the opponent's arm and head at converging angles, the frame behaves as a closed geometric loop rather than two independent grips. This closed structure is what distinguishes Diamond Guard from a simple overhook or a lone collar tie.",
+      "answer_line": "Both arms plus their arm and head",
+      "distractors": {
+        "plausible": [
+          "Overhook, legs, and their torso",
+          "Both collars and their two arms"
+        ],
+        "trap": [
+          "Both underhooks and their neck"
+        ]
+      }
     },
     {
       "question": "Which three anchors must both players contest to determine who governs the position?",
-      "answer": "The position is decided at three anchors: the depth of the overhook on the opponent's arm, the pull of the head control behind the neck, and the closed guard legs locked at the small of the back. Whoever controls overhook depth dictates whether the trapped arm can be posted or extracted, while control of the head-neck line dictates whether posture can be recovered. The closed guard ankles are the third anchor, since losing them lets the opponent create the hip distance that slackens both upper-body grips. Every meaningful exchange in Diamond Guard is a fight over one of these three anchors."
+      "answer": "The position is decided at three anchors: the depth of the overhook on the opponent's arm, the pull of the head control behind the neck, and the closed guard legs locked at the small of the back. Whoever controls overhook depth dictates whether the trapped arm can be posted or extracted, while control of the head-neck line dictates whether posture can be recovered. The closed guard ankles are the third anchor, since losing them lets the opponent create the hip distance that slackens both upper-body grips. Every meaningful exchange in Diamond Guard is a fight over one of these three anchors.",
+      "answer_line": "Overhook depth, head pull, leg lock",
+      "distractors": {
+        "plausible": [
+          "Overhook, guard pass, hip escape",
+          "Head control, back take, sweep"
+        ],
+        "trap": [
+          "Release ankles to chase submission"
+        ]
+      }
     },
     {
       "question": "How does the head-to-hip-line relationship define whether the position is actually established?",
-      "answer": "Diamond Guard is only truly established once the opponent's head is pulled below their own hip line, spine rounded and weight driven forward onto the guard player. Above that line the opponent retains enough postural extension to straighten their spine and neutralize the frame, meaning the diamond exists in name only. The combined downward pull of overhook and head control is what drags the head under the hip line and holds it there. This broken-posture threshold is the objective marker separating a live diamond from a contested, incomplete one."
+      "answer": "Diamond Guard is only truly established once the opponent's head is pulled below their own hip line, spine rounded and weight driven forward onto the guard player. Above that line the opponent retains enough postural extension to straighten their spine and neutralize the frame, meaning the diamond exists in name only. The combined downward pull of overhook and head control is what drags the head under the hip line and holds it there. This broken-posture threshold is the objective marker separating a live diamond from a contested, incomplete one.",
+      "answer_line": "Head pulled below hip line",
+      "distractors": {
+        "plausible": [
+          "Head pulled below shoulder line",
+          "Spine rounded, chin tucked"
+        ],
+        "trap": [
+          "Posture upright is fine to submit"
+        ]
+      }
     },
     {
       "question": "Why do the overhook and head control function as one interdependent system rather than two separate grips?",
-      "answer": "The overhook pulls one shoulder down and across the body while the head control pulls the head down and forward, producing two converging force vectors that meet at the opponent's trapped side. Neither vector alone breaks posture reliably, but together they trap the opponent between forces that cannot both be answered at once. Addressing the head pull requires movement that deepens the overhook's bite, and freeing the arm requires movement that feeds the head deeper. Losing either element collapses the geometry, which is why the position is defined by the pairing, not by either grip in isolation."
+      "answer": "The overhook pulls one shoulder down and across the body while the head control pulls the head down and forward, producing two converging force vectors that meet at the opponent's trapped side. Neither vector alone breaks posture reliably, but together they trap the opponent between forces that cannot both be answered at once. Addressing the head pull requires movement that deepens the overhook's bite, and freeing the arm requires movement that feeds the head deeper. Losing either element collapses the geometry, which is why the position is defined by the pairing, not by either grip in isolation.",
+      "answer_line": "Interdependent converging forces",
+      "distractors": {
+        "plausible": [
+          "Two independent separate grips",
+          "Overhook matters more than head"
+        ],
+        "trap": [
+          "Drop head control to free a hand"
+        ]
+      }
     },
     {
       "question": "What role do the closed guard legs play in the upper-body diamond frame?",
-      "answer": "The closed guard ankles locked at the small of the opponent's back form the lower anchor that prevents the opponent from retracting their hips and creating distance. Without that leg lock, the opponent could back their hips out and drain the tension from both the overhook and the head control, letting the upper-body diamond slacken. Active heel pressure into the lower back also reinforces the forward-and-down posture break by pulling the opponent's center of gravity toward the guard player. The legs therefore convert the arm frame from a grip the opponent can walk away from into a genuinely closed structure."
+      "answer": "The closed guard ankles locked at the small of the opponent's back form the lower anchor that prevents the opponent from retracting their hips and creating distance. Without that leg lock, the opponent could back their hips out and drain the tension from both the overhook and the head control, letting the upper-body diamond slacken. Active heel pressure into the lower back also reinforces the forward-and-down posture break by pulling the opponent's center of gravity toward the guard player. The legs therefore convert the arm frame from a grip the opponent can walk away from into a genuinely closed structure.",
+      "answer_line": "Legs anchor, block hip retreat",
+      "distractors": {
+        "plausible": [
+          "Legs add extra squeeze power",
+          "Legs control opponent's far arm"
+        ],
+        "trap": [
+          "Open guard to free the hips"
+        ]
+      }
     },
     {
       "question": "How does Diamond Guard differ from standard closed guard and from a plain overhook guard?",
-      "answer": "Standard closed guard leaves the opponent's posture and both arms relatively free, offering a stable but low-threat platform. A plain overhook guard controls one arm but leaves the head uncontrolled, so the opponent can still recover posture by straightening the spine. Diamond Guard adds the head-control arm to the overhook, closing the frame so that arm and head are trapped as one unit and posture cannot recover. The trade-off is reduced guard mobility and higher grip commitment in exchange for a far tighter, more offensive posture-breaking structure."
+      "answer": "Standard closed guard leaves the opponent's posture and both arms relatively free, offering a stable but low-threat platform. A plain overhook guard controls one arm but leaves the head uncontrolled, so the opponent can still recover posture by straightening the spine. Diamond Guard adds the head-control arm to the overhook, closing the frame so that arm and head are trapped as one unit and posture cannot recover. The trade-off is reduced guard mobility and higher grip commitment in exchange for a far tighter, more offensive posture-breaking structure.",
+      "answer_line": "Adds head control to overhook",
+      "distractors": {
+        "plausible": [
+          "More mobile than closed guard",
+          "Just a deeper closed guard grip"
+        ],
+        "trap": [
+          "Trades overhook for double unders"
+        ]
+      }
     },
     {
       "question": "What weight and force dynamics keep the frame stable while draining the opponent's energy?",
-      "answer": "The diamond relies on skeletal alignment and connective-tissue tension rather than sustained muscular squeezing, so the guard player's holding cost stays low. The overhook and head control pull the opponent's upper body forward and down onto the guard player, forcing the opponent to carry their own broken posture against gravity. Because the closed legs passively maintain the break, the opponent must expend continuous muscular effort to fight two anchors at once just to stay even. This asymmetry, where holding is cheap and escaping is expensive, is a defining dynamic of the position for both players."
+      "answer": "The diamond relies on skeletal alignment and connective-tissue tension rather than sustained muscular squeezing, so the guard player's holding cost stays low. The overhook and head control pull the opponent's upper body forward and down onto the guard player, forcing the opponent to carry their own broken posture against gravity. Because the closed legs passively maintain the break, the opponent must expend continuous muscular effort to fight two anchors at once just to stay even. This asymmetry, where holding is cheap and escaping is expensive, is a defining dynamic of the position for both players.",
+      "answer_line": "Low-effort hold, costly escape",
+      "distractors": {
+        "plausible": [
+          "Constant squeezing tires you too",
+          "Both players tire at equal rate"
+        ],
+        "trap": [
+          "Muscle the frame for more control"
+        ]
+      }
     },
     {
       "question": "Why does binding the near shoulder and head into a single unit make the diamond a rigid structure rather than two independent grips?",
-      "answer": "Because the overhook and head control lock the opponent's near shoulder and head together, the two grips stop behaving as separate controls and instead move as one coupled block. Rotating the head cannot happen without also moving the trapped shoulder, and the shoulder cannot travel without dragging the head, so neither element has an independent degree of freedom. This coupling is what lets a low-effort frame resist force from multiple directions: pressure applied to one anchor is transmitted through the shared structure to the other. The bound shoulder-head unit is therefore the mechanical reason the diamond holds posture broken as a single rigid loop."
+      "answer": "Because the overhook and head control lock the opponent's near shoulder and head together, the two grips stop behaving as separate controls and instead move as one coupled block. Rotating the head cannot happen without also moving the trapped shoulder, and the shoulder cannot travel without dragging the head, so neither element has an independent degree of freedom. This coupling is what lets a low-effort frame resist force from multiple directions: pressure applied to one anchor is transmitted through the shared structure to the other. The bound shoulder-head unit is therefore the mechanical reason the diamond holds posture broken as a single rigid loop.",
+      "answer_line": "Shoulder and head move as one",
+      "distractors": {
+        "plausible": [
+          "Shoulder and head move freely",
+          "Only the head is locked in place"
+        ],
+        "trap": [
+          "Release shoulder to isolate head"
+        ]
+      }
     }
   ],
   "clips": [

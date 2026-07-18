@@ -389,35 +389,115 @@
   "flashcards": [
     {
       "question": "What distinguishes a wedge from a frame in BJJ?",
-      "answer": "A frame resists force head-on, absorbing or blocking it, while a wedge is angled to split a single line of force into two diverging vectors or redirect it laterally, so the opponent can only chase one direction at a time."
+      "answer": "A frame resists force head-on, absorbing or blocking it, while a wedge is angled to split a single line of force into two diverging vectors or redirect it laterally, so the opponent can only chase one direction at a time.",
+      "answer_line": "Splits force into two vectors",
+      "distractors": {
+        "plausible": [
+          "Wedge is just a stronger frame",
+          "Frame redirects, wedge blocks"
+        ],
+        "trap": [
+          "Absorb the force head-on"
+        ]
+      }
     },
     {
       "question": "Why should a wedge be built from bony surfaces like the shin, forearm, or elbow?",
-      "answer": "Bony, hard surfaces resist compression and hold their shape under heavy pressure, whereas soft tissue such as the calf belly or palm deforms and collapses, leaving no structural barrier to split or redirect the opponent's force."
+      "answer": "Bony, hard surfaces resist compression and hold their shape under heavy pressure, whereas soft tissue such as the calf belly or palm deforms and collapses, leaving no structural barrier to split or redirect the opponent's force.",
+      "answer_line": "Bone holds shape under pressure",
+      "distractors": {
+        "plausible": [
+          "Bony surfaces grip harder",
+          "Muscle surfaces resist best"
+        ],
+        "trap": [
+          "Use soft tissue for comfort"
+        ]
+      }
     },
     {
       "question": "What is the most iconic wedge in BJJ and how does it work?",
-      "answer": "The knee shield in half guard — the shin placed diagonally across the opponent's chest at roughly 45 degrees redirects their forward pressure laterally toward the mat and opens a channel of space to hip escape or re-guard."
+      "answer": "The knee shield in half guard — the shin placed diagonally across the opponent's chest at roughly 45 degrees redirects their forward pressure laterally toward the mat and opens a channel of space to hip escape or re-guard.",
+      "answer_line": "Shin across chest at 45 degrees",
+      "distractors": {
+        "plausible": [
+          "Shin pressed flat on the chest",
+          "Forearm frame on the far hip"
+        ],
+        "trap": [
+          "Push knee straight into chest"
+        ]
+      }
     },
     {
       "question": "Why must a wedge insertion be followed immediately by hip movement?",
-      "answer": "A wedge only creates transient space; without a hip escape, shrimp, or reposition to convert that space into positional change, the opponent simply re-adjusts and closes the gap, so the wedge buys time but achieves nothing."
+      "answer": "A wedge only creates transient space; without a hip escape, shrimp, or reposition to convert that space into positional change, the opponent simply re-adjusts and closes the gap, so the wedge buys time but achieves nothing.",
+      "answer_line": "Wedge buys time, not position",
+      "distractors": {
+        "plausible": [
+          "Wedge alone secures the escape",
+          "Hold the wedge and wait it out"
+        ],
+        "trap": [
+          "Relax once the wedge is in"
+        ]
+      }
     },
     {
       "question": "At what angle should a wedge be inserted relative to the opponent's pressure?",
-      "answer": "Perpendicular to the opponent's primary pressure or movement line, so the single line of force is split into two weaker diverging vectors rather than absorbed head-on, which would compress the wedge and smash it flat."
+      "answer": "Perpendicular to the opponent's primary pressure or movement line, so the single line of force is split into two weaker diverging vectors rather than absorbed head-on, which would compress the wedge and smash it flat.",
+      "answer_line": "Perpendicular to their pressure",
+      "distractors": {
+        "plausible": [
+          "Parallel to their pressure line",
+          "Angled to match their frame"
+        ],
+        "trap": [
+          "Straight on to absorb the force"
+        ]
+      }
     },
     {
       "question": "How do guard passers use offensive wedges?",
-      "answer": "Passers drive the knee inside the bottom player's thigh or the elbow against the knee line to split the legs apart and pry open a passing lane, converting the guard player's connected structure into separated, passable halves."
+      "answer": "Passers drive the knee inside the bottom player's thigh or the elbow against the knee line to split the legs apart and pry open a passing lane, converting the guard player's connected structure into separated, passable halves.",
+      "answer_line": "Knee or elbow splits the legs",
+      "distractors": {
+        "plausible": [
+          "Elbow pins the far hip down",
+          "Knee circles around the guard"
+        ],
+        "trap": [
+          "Drop full weight onto the legs"
+        ]
+      }
     },
     {
       "question": "Why does inserting a wedge too late usually fail?",
-      "answer": "Gaps in grappling are transient; once the opponent settles and consolidates their weight the space disappears, so forcing a wedge in afterward requires enormous strength, typically fails, and drains energy for no result."
+      "answer": "Gaps in grappling are transient; once the opponent settles and consolidates their weight the space disappears, so forcing a wedge in afterward requires enormous strength, typically fails, and drains energy for no result.",
+      "answer_line": "Gaps close once they settle",
+      "distractors": {
+        "plausible": [
+          "Late wedges just need more force",
+          "Timing matters less with strength"
+        ],
+        "trap": [
+          "Muscle the wedge in anyway"
+        ]
+      }
     },
     {
       "question": "How do you defend against an opponent's wedge insertions when holding a pin?",
-      "answer": "Keep your hips low, pinch the elbows and knees, and proactively eliminate gaps before they form; the moment you feel a knee, shin, or elbow probing for space, close the gap by adjusting your pressure angle or squeezing it shut."
+      "answer": "Keep your hips low, pinch the elbows and knees, and proactively eliminate gaps before they form; the moment you feel a knee, shin, or elbow probing for space, close the gap by adjusting your pressure angle or squeezing it shut.",
+      "answer_line": "Close gaps before they form",
+      "distractors": {
+        "plausible": [
+          "Widen your base to block wedges",
+          "Grip fight to stop the knee"
+        ],
+        "trap": [
+          "Relax pressure to feel for gaps"
+        ]
+      }
     }
   ],
   "clips": [

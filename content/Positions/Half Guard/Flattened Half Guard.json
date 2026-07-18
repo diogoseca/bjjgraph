@@ -294,35 +294,115 @@
     "flashcards": [
       {
         "question": "What is the single most important control point to maintain when playing flattened half guard top?",
-        "answer": "The crossface is the highest priority control point. It turns your opponent's head away from the action, creates a pressure point that multiplies your body weight's effect, and prevents them from using their near-side arm for framing. Losing the crossface opens multiple defensive pathways and allows frame recovery."
+        "answer": "The crossface is the highest priority control point. It turns your opponent's head away from the action, creates a pressure point that multiplies your body weight's effect, and prevents them from using their near-side arm for framing. Losing the crossface opens multiple defensive pathways and allows frame recovery.",
+        "answer_line": "Crossface control",
+        "distractors": {
+          "plausible": [
+            "Far-side underhook",
+            "Trapped leg hook"
+          ],
+          "trap": [
+            "Squeeze with arm strength"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a small hip escape while you have flattened half guard top - what adjustment do you make?",
-        "answer": "Immediately increase your forward pressure through your chest and hips to follow their movement, then use their hip escape motion as the trigger to initiate your knee slice pass. The hip escape creates the angle you need - drive your knee across as they shrimp rather than fighting their movement."
+        "answer": "Immediately increase your forward pressure through your chest and hips to follow their movement, then use their hip escape motion as the trigger to initiate your knee slice pass. The hip escape creates the angle you need - drive your knee across as they shrimp rather than fighting their movement.",
+        "answer_line": "Follow pressure, knee slice",
+        "distractors": {
+          "plausible": [
+            "Match hips, hold position",
+            "Stop escape, reset crossface"
+          ],
+          "trap": [
+            "Freeze and wait it out"
+          ]
+        }
       },
       {
         "question": "Why is static pressure ineffective from flattened half guard top even when your opponent is clearly uncomfortable?",
-        "answer": "Static pressure allows your opponent to systematically work through incremental frame recovery sequences. While uncomfortable, a skilled bottom player will eventually create space through micro-adjustments if you remain stationary. Effective pressure must be dynamic - flowing between control and advancement to prevent them from executing their recovery plan."
+        "answer": "Static pressure allows your opponent to systematically work through incremental frame recovery sequences. While uncomfortable, a skilled bottom player will eventually create space through micro-adjustments if you remain stationary. Effective pressure must be dynamic - flowing between control and advancement to prevent them from executing their recovery plan.",
+        "answer_line": "They rebuild frames incrementally",
+        "distractors": {
+          "plausible": [
+            "It just tires them out",
+            "It only telegraphs your plan"
+          ],
+          "trap": [
+            "Just outlast them passively"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining sustained pressure from flattened half guard top?",
-        "answer": "Use skeletal structure and gravity rather than muscular effort for pressure maintenance. Your chest and hips should create compression through body weight distribution and positioning, not by tensing or squeezing. Keep your crossface arm connected to your skeleton with minimal grip force - firm but relaxed control sustainable over minutes, not seconds. Save explosive energy for initiating passing sequences or capitalizing on opponent mistakes. Between passing attempts, settle your weight and breathe calmly while maintaining heavy but effortless pressure through proper body alignment."
+        "answer": "Use skeletal structure and gravity rather than muscular effort for pressure maintenance. Your chest and hips should create compression through body weight distribution and positioning, not by tensing or squeezing. Keep your crossface arm connected to your skeleton with minimal grip force - firm but relaxed control sustainable over minutes, not seconds. Save explosive energy for initiating passing sequences or capitalizing on opponent mistakes. Between passing attempts, settle your weight and breathe calmly while maintaining heavy but effortless pressure through proper body alignment.",
+        "answer_line": "Skeletal structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze grips tight always",
+            "Rest fully between attempts"
+          ],
+          "trap": [
+            "Grip crossface with max strength"
+          ]
+        }
       },
       {
         "question": "Your opponent reaches their far arm to push against your crossface - how do you capitalize on this?",
-        "answer": "When they extend their arm to push your crossface, immediately secure their wrist and lock a Kimura grip on the exposed arm. This creates a submission threat and a positional advancement opportunity. They must now defend the Kimura while you maintain passing pressure, creating a dilemma where defending one threat opens the other."
+        "answer": "When they extend their arm to push your crossface, immediately secure their wrist and lock a Kimura grip on the exposed arm. This creates a submission threat and a positional advancement opportunity. They must now defend the Kimura while you maintain passing pressure, creating a dilemma where defending one threat opens the other.",
+        "answer_line": "Trap wrist, lock Kimura",
+        "distractors": {
+          "plausible": [
+            "Push their arm back down",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Let go of crossface to grab"
+          ]
+        }
       },
       {
         "question": "How should weight distribution differ between chest pressure and hip pressure in this position?",
-        "answer": "Chest and hip pressure must work together as a unified system. Using only chest pressure allows hip escape opportunities as your weight is too high. Drive pressure through both your chest and hips simultaneously, with your hips staying low and heavy. This creates a broad pressure base that limits their mobility in all directions."
+        "answer": "Chest and hip pressure must work together as a unified system. Using only chest pressure allows hip escape opportunities as your weight is too high. Drive pressure through both your chest and hips simultaneously, with your hips staying low and heavy. This creates a broad pressure base that limits their mobility in all directions.",
+        "answer_line": "Chest and hips together, low",
+        "distractors": {
+          "plausible": [
+            "Chest heavy, hips floating",
+            "Hips heavy, chest light"
+          ],
+          "trap": [
+            "Drive all weight on the head"
+          ]
+        }
       },
       {
         "question": "What is the correct response when your opponent turns away to prevent the crossface pass?",
-        "answer": "When your opponent turns away, immediately follow their rotation while maintaining your crossface control, transitioning to back control. Their turning motion is an attempt to escape but it exposes their back. Use your underhook and crossface to climb onto their back as they rotate, securing hooks and seatbelt control."
+        "answer": "When your opponent turns away, immediately follow their rotation while maintaining your crossface control, transitioning to back control. Their turning motion is an attempt to escape but it exposes their back. Use your underhook and crossface to climb onto their back as they rotate, securing hooks and seatbelt control.",
+        "answer_line": "Follow rotation, take the back",
+        "distractors": {
+          "plausible": [
+            "Reset them flat again",
+            "Switch to knee slice pass"
+          ],
+          "trap": [
+            "Let them turn, reset base"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to insert their bottom elbow as a wedge and creates two inches of space - how do you recover full control?",
-        "answer": "Immediately drive your hips forward and chest down to close the space before they can build on the gain. Redirect your crossface angle to drive their head further away, which flattens their shoulder and weakens the elbow wedge. Use your free hand to control their elbow and strip it past your hip line, collapsing their frame. Then re-establish chest-to-chest pressure by sliding forward over the space they created. The critical principle is addressing the frame immediately rather than allowing them to stack micro-gains that compound into full recovery."
+        "answer": "Immediately drive your hips forward and chest down to close the space before they can build on the gain. Redirect your crossface angle to drive their head further away, which flattens their shoulder and weakens the elbow wedge. Use your free hand to control their elbow and strip it past your hip line, collapsing their frame. Then re-establish chest-to-chest pressure by sliding forward over the space they created. The critical principle is addressing the frame immediately rather than allowing them to stack micro-gains that compound into full recovery.",
+        "answer_line": "Drive in, strip the elbow",
+        "distractors": {
+          "plausible": [
+            "Wait for them to overextend",
+            "Re-grip crossface, hold still"
+          ],
+          "trap": [
+            "Back off to reassess space"
+          ]
+        }
       }
     ],
     "clips": [
@@ -606,35 +686,115 @@
     "flashcards": [
       {
         "question": "What is the correct breathing technique when pinned flat under heavy chest pressure?",
-        "answer": "Practice tactical breathing by taking small, controlled breaths timed with your movements rather than attempting full deep breaths. The opponent's weight prevents full diaphragm expansion, so trying to breathe deeply creates oxygen debt and triggers panic. Small breaths coordinated with hip escapes allow you to maintain oxygenation while conserving energy."
+        "answer": "Practice tactical breathing by taking small, controlled breaths timed with your movements rather than attempting full deep breaths. The opponent's weight prevents full diaphragm expansion, so trying to breathe deeply creates oxygen debt and triggers panic. Small breaths coordinated with hip escapes allow you to maintain oxygenation while conserving energy.",
+        "answer_line": "Small tactical breaths, timed",
+        "distractors": {
+          "plausible": [
+            "Deep breaths between escapes",
+            "Hold breath, then bridge"
+          ],
+          "trap": [
+            "Hyperventilate for more air"
+          ]
+        }
       },
       {
         "question": "Your opponent has crossface control - should you fight to remove it or focus elsewhere?",
-        "answer": "Accept the crossface while fighting to maintain your own underhook on their far side. Attempting to remove crossface directly wastes energy and often fails. The underhook is the higher priority because it prevents them from settling full weight and provides the structural foundation for hip escapes. Fight for the underhook, accept the crossface."
+        "answer": "Accept the crossface while fighting to maintain your own underhook on their far side. Attempting to remove crossface directly wastes energy and often fails. The underhook is the higher priority because it prevents them from settling full weight and provides the structural foundation for hip escapes. Fight for the underhook, accept the crossface.",
+        "answer_line": "Accept it, fight underhook",
+        "distractors": {
+          "plausible": [
+            "Fight to strip the crossface",
+            "Focus only on the leg hook"
+          ],
+          "trap": [
+            "Turn your head away from it"
+          ]
+        }
       },
       {
         "question": "Why are explosive bridge and roll escapes ineffective from flattened half guard?",
-        "answer": "Without frames established, explosive movements have no leverage to generate power against the opponent's weight. These movements burn massive energy while telegraphing your intentions, allowing skilled top players to simply ride your motion and resettle. Incremental micro-adjustments are more effective because each small gain stacks and cannot be countered as easily."
+        "answer": "Without frames established, explosive movements have no leverage to generate power against the opponent's weight. These movements burn massive energy while telegraphing your intentions, allowing skilled top players to simply ride your motion and resettle. Incremental micro-adjustments are more effective because each small gain stacks and cannot be countered as easily.",
+        "answer_line": "No frames means no leverage",
+        "distractors": {
+          "plausible": [
+            "They're just too slow",
+            "Opponent expects a stall"
+          ],
+          "trap": [
+            "Save them for when they tire"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts weight to initiate a knee slice pass - what is the optimal escape timing?",
-        "answer": "The moment they shift weight to pass creates a brief reduction in chest pressure. Use this instant to execute your hip escape, diving under their hips toward deep half guard position. Their commitment to the passing motion means they cannot immediately recover pressure, and your counter-movement takes advantage of their weight transfer."
+        "answer": "The moment they shift weight to pass creates a brief reduction in chest pressure. Use this instant to execute your hip escape, diving under their hips toward deep half guard position. Their commitment to the passing motion means they cannot immediately recover pressure, and your counter-movement takes advantage of their weight transfer.",
+        "answer_line": "Shift moment: dive to deep half",
+        "distractors": {
+          "plausible": [
+            "Wait until the pass completes",
+            "Push away before they commit"
+          ],
+          "trap": [
+            "Bridge hard into their hips"
+          ]
+        }
       },
       {
         "question": "What direction should you shrimp to avoid exposing your back during escape attempts?",
-        "answer": "Shrimp toward your trapped leg side, creating space away from your opponent while keeping your chest facing them. Shrimping toward the free leg side or turning away exposes your back, which skilled opponents anticipate and exploit with back takes. The trapped leg side direction maintains defensive orientation while still creating recovery space."
+        "answer": "Shrimp toward your trapped leg side, creating space away from your opponent while keeping your chest facing them. Shrimping toward the free leg side or turning away exposes your back, which skilled opponents anticipate and exploit with back takes. The trapped leg side direction maintains defensive orientation while still creating recovery space.",
+        "answer_line": "Shrimp toward trapped leg",
+        "distractors": {
+          "plausible": [
+            "Shrimp toward the free leg",
+            "Turn belly-down away"
+          ],
+          "trap": [
+            "Roll toward your back"
+          ]
+        }
       },
       {
         "question": "How do you fill the space created by a hip escape to prevent the opponent from following?",
-        "answer": "Immediately insert your elbow, knee, or a frame into the space created by each hip escape. The elbow slides into the gap between you and your opponent, the knee comes up to create knee shield, or your forearm posts on their hip. Never leave created space empty - fill it with structure before the opponent can collapse it again."
+        "answer": "Immediately insert your elbow, knee, or a frame into the space created by each hip escape. The elbow slides into the gap between you and your opponent, the knee comes up to create knee shield, or your forearm posts on their hip. Never leave created space empty - fill it with structure before the opponent can collapse it again.",
+        "answer_line": "Insert elbow or knee frame",
+        "distractors": {
+          "plausible": [
+            "Shrimp again immediately",
+            "Reset hips flat again"
+          ],
+          "trap": [
+            "Leave the gap, escape further"
+          ]
+        }
       },
       {
         "question": "Why is the trapped leg hook critical even when flattened with no frames?",
-        "answer": "The leg hook is your final barrier preventing the complete guard pass to side control. Even with compromised frames and limited mobility, the hook forces the top player to solve the leg extraction problem before advancing. Releasing it prematurely surrenders this last defensive barrier and allows immediate pass completion."
+        "answer": "The leg hook is your final barrier preventing the complete guard pass to side control. Even with compromised frames and limited mobility, the hook forces the top player to solve the leg extraction problem before advancing. Releasing it prematurely surrenders this last defensive barrier and allows immediate pass completion.",
+        "answer_line": "Last barrier before full pass",
+        "distractors": {
+          "plausible": [
+            "It regains hip mobility",
+            "It sets up a sweep"
+          ],
+          "trap": [
+            "Release it, move freer"
+          ]
+        }
       },
       {
         "question": "What mental approach prevents panic when breathing is restricted under pressure?",
-        "answer": "Develop the ability to remain calm and methodical by accepting temporary discomfort as part of the position. Panic triggers frantic movements that waste energy and tighten opponent's control. Focus on technical execution - systematic micro-adjustments rather than desperate escapes. Mental discipline to maintain the process even when uncomfortable separates successful defenders from those who get passed."
+        "answer": "Develop the ability to remain calm and methodical by accepting temporary discomfort as part of the position. Panic triggers frantic movements that waste energy and tighten opponent's control. Focus on technical execution - systematic micro-adjustments rather than desperate escapes. Mental discipline to maintain the process even when uncomfortable separates successful defenders from those who get passed.",
+        "answer_line": "Stay calm, work methodically",
+        "distractors": {
+          "plausible": [
+            "Push through with bursts",
+            "Distract mind from pain"
+          ],
+          "trap": [
+            "Panic-escape immediately"
+          ]
+        }
       }
     ],
     "clips": [
@@ -670,35 +830,115 @@
   "flashcards_position": [
     {
       "question": "What configuration defines Flattened Half Guard and distinguishes it from standard half guard?",
-      "answer": "Flattened Half Guard occurs when the bottom player's frames collapse and the top player settles chest-to-chest with the bottom player's back flat on the mat, while one of the top player's legs remains trapped in the half guard hook. Standard half guard retains the bottom player's active frames, hip mobility, and space to work sweeps and submissions. In the flattened variation that space is gone, so the position reduces to a compression pin held together by chest pressure over a still-hooked leg. It is defined by the simultaneous presence of a completed upper-body pin and an incomplete lower-body pass."
+      "answer": "Flattened Half Guard occurs when the bottom player's frames collapse and the top player settles chest-to-chest with the bottom player's back flat on the mat, while one of the top player's legs remains trapped in the half guard hook. Standard half guard retains the bottom player's active frames, hip mobility, and space to work sweeps and submissions. In the flattened variation that space is gone, so the position reduces to a compression pin held together by chest pressure over a still-hooked leg. It is defined by the simultaneous presence of a completed upper-body pin and an incomplete lower-body pass.",
+      "answer_line": "Pinned flat, leg still hooked",
+      "distractors": {
+        "plausible": [
+          "Both hips still fully mobile",
+          "Full pass, guard cleared"
+        ],
+        "trap": [
+          "Same as standard half guard"
+        ]
+      }
     },
     {
       "question": "Why does the trapped leg hook function as the central technical tension of this position?",
-      "answer": "The hook is the single element preventing the position from resolving into side control, so it defines the stalemate for both players. The top player has won the upper-body battle but cannot score or advance until the leg is extracted, which forces them to solve a leg-freeing problem while holding pressure. The bottom player has lost the upper-body battle but retains the hook as the last barrier buying time for recovery. Because the hook simultaneously blocks the top player's advance and anchors the bottom player's survival, all meaningful action in the position revolves around whether it is freed or maintained."
+      "answer": "The hook is the single element preventing the position from resolving into side control, so it defines the stalemate for both players. The top player has won the upper-body battle but cannot score or advance until the leg is extracted, which forces them to solve a leg-freeing problem while holding pressure. The bottom player has lost the upper-body battle but retains the hook as the last barrier buying time for recovery. Because the hook simultaneously blocks the top player's advance and anchors the bottom player's survival, all meaningful action in the position revolves around whether it is freed or maintained.",
+      "answer_line": "Blocks pass, anchors survival",
+      "distractors": {
+        "plausible": [
+          "It only matters for scoring",
+          "It's a minor formality"
+        ],
+        "trap": [
+          "Irrelevant once flattened"
+        ]
+      }
     },
     {
       "question": "How is weight and pressure distributed in Flattened Half Guard, and why does that distribution matter to both players?",
-      "answer": "The top player drives forward pressure through the chest and hips into the bottom player's sternum and ribcage, keeping the shoulder blades pinned to the mat while the hips stay low and heavy. This chest-and-hip combination creates a broad, low-center-of-gravity pin rather than a top-heavy one, which is why it restricts breathing and limits movement in all directions. For the bottom player, that same distribution is what compresses the diaphragm and eliminates the space needed to shrimp. Both players read this pressure vector constantly, because any moment the weight rises off the hips is the moment space becomes available."
+      "answer": "The top player drives forward pressure through the chest and hips into the bottom player's sternum and ribcage, keeping the shoulder blades pinned to the mat while the hips stay low and heavy. This chest-and-hip combination creates a broad, low-center-of-gravity pin rather than a top-heavy one, which is why it restricts breathing and limits movement in all directions. For the bottom player, that same distribution is what compresses the diaphragm and eliminates the space needed to shrimp. Both players read this pressure vector constantly, because any moment the weight rises off the hips is the moment space becomes available.",
+      "answer_line": "Chest and hips low, into ribs",
+      "distractors": {
+        "plausible": [
+          "Weight mainly through the head",
+          "High chest, light hips"
+        ],
+        "trap": [
+          "Bounce weight for shock effect"
+        ]
+      }
     },
     {
       "question": "What role does the crossface play in holding this position together for both sides of the exchange?",
-      "answer": "The crossface turns the bottom player's head away from the action, which flattens the near shoulder to the mat and multiplies the top player's effective weight through a bony pressure point on the jaw or cheek. By pinning the head, it also denies the bottom player the near-side arm as a framing tool, since the head and shoulder are steered as a unit. For the bottom player, the crossface is the mechanism that keeps them flat, so relieving even a fraction of its angle is a prerequisite to any recovery. It is the control point whose presence or absence most directly determines whether the flatten holds."
+      "answer": "The crossface turns the bottom player's head away from the action, which flattens the near shoulder to the mat and multiplies the top player's effective weight through a bony pressure point on the jaw or cheek. By pinning the head, it also denies the bottom player the near-side arm as a framing tool, since the head and shoulder are steered as a unit. For the bottom player, the crossface is the mechanism that keeps them flat, so relieving even a fraction of its angle is a prerequisite to any recovery. It is the control point whose presence or absence most directly determines whether the flatten holds.",
+      "answer_line": "Turns head, denies arm frame",
+      "distractors": {
+        "plausible": [
+          "Mainly sets up submissions",
+          "Controls the far-side hip"
+        ],
+        "trap": [
+          "Crossface is optional extra"
+        ]
+      }
     },
     {
       "question": "Why is the far-side underhook battle decisive in determining whether the position holds or breaks?",
-      "answer": "Whoever wins the far-side underhook controls whether the top player can settle full weight or the bottom player can create structure. If the top player secures both crossface and underhook, the bottom player's shoulders are stapled and escape avenues collapse. If the bottom player retains their own underhook, it wedges the top player's weight off the chest and provides the structural frame from which any hip escape can begin. Because the position tolerates only one player owning that connection, the underhook is the contested seam that decides whether flattening deepens toward a pass or loosens toward recovery."
+      "answer": "Whoever wins the far-side underhook controls whether the top player can settle full weight or the bottom player can create structure. If the top player secures both crossface and underhook, the bottom player's shoulders are stapled and escape avenues collapse. If the bottom player retains their own underhook, it wedges the top player's weight off the chest and provides the structural frame from which any hip escape can begin. Because the position tolerates only one player owning that connection, the underhook is the contested seam that decides whether flattening deepens toward a pass or loosens toward recovery.",
+      "answer_line": "Winner controls weight, structure",
+      "distractors": {
+        "plausible": [
+          "Only matters for submissions",
+          "Decides who scores the pass"
+        ],
+        "trap": [
+          "Underhook doesn't matter here"
+        ]
+      }
     },
     {
       "question": "How does Flattened Half Guard differ from side control despite the similar chest-to-chest pinning pressure?",
-      "answer": "Both positions feature chest-to-chest pressure, a crossface, and a flattened bottom player, but side control is a completed, scoring pin with the legs cleared, while Flattened Half Guard still has one of the top player's legs trapped in the hook. That trapped leg means the top player has not passed the guard, scores no points, and remains vulnerable to the bottom player rebuilding frames. Side control is a destination; Flattened Half Guard is a waypoint immediately before it. The distinction lives entirely below the waist, since the upper-body picture can look nearly identical."
+      "answer": "Both positions feature chest-to-chest pressure, a crossface, and a flattened bottom player, but side control is a completed, scoring pin with the legs cleared, while Flattened Half Guard still has one of the top player's legs trapped in the hook. That trapped leg means the top player has not passed the guard, scores no points, and remains vulnerable to the bottom player rebuilding frames. Side control is a destination; Flattened Half Guard is a waypoint immediately before it. The distinction lives entirely below the waist, since the upper-body picture can look nearly identical.",
+      "answer_line": "Leg still hooked, not passed",
+      "distractors": {
+        "plausible": [
+          "Side control has less pressure",
+          "Flattened half scores points"
+        ],
+        "trap": [
+          "They're functionally identical"
+        ]
+      }
     },
     {
       "question": "Why does the energy cost of this position fall asymmetrically on the bottom player rather than evenly on both?",
-      "answer": "Sustained chest pressure drains the bottom player's oxygen and reserves far faster than it costs the top player to hold a broad, weight-supported pin, so every failed micro-escape depletes the defender more than the attacker. This is why time favors the top player and why passivity penalties in competition fall on the bottom. Crucially it does not mean the top player can go static: the file's own principle is that static weight lets the bottom systematically rebuild frames, so the top must keep pressure dynamic to convert the energy advantage into a pass. The asymmetry is why the bottom player must act early while their reserves and windows still exist, and why the top player can afford patience only while staying active."
+      "answer": "Sustained chest pressure drains the bottom player's oxygen and reserves far faster than it costs the top player to hold a broad, weight-supported pin, so every failed micro-escape depletes the defender more than the attacker. This is why time favors the top player and why passivity penalties in competition fall on the bottom. Crucially it does not mean the top player can go static: the file's own principle is that static weight lets the bottom systematically rebuild frames, so the top must keep pressure dynamic to convert the energy advantage into a pass. The asymmetry is why the bottom player must act early while their reserves and windows still exist, and why the top player can afford patience only while staying active.",
+      "answer_line": "Pressure drains bottom's oxygen",
+      "distractors": {
+        "plausible": [
+          "Top spends equal energy too",
+          "Bottom recovers energy faster"
+        ],
+        "trap": [
+          "Top can go fully static"
+        ]
+      }
     },
     {
       "question": "Why are small incremental movements more productive than explosive ones for creating change in this position?",
-      "answer": "Because the bottom player is flattened with no frames and heavy compression on the chest, explosive bridges and rolls have no leverage base to generate power and simply telegraph intent, letting the top player ride the motion and resettle. Small hip escapes and micro-frames, by contrast, create tiny increments of space that can be immediately filled and stacked without giving the top player a clear movement to counter. The same logic constrains the top player, whose passing angles are best created through incremental hip and knee adjustments rather than lunges that spill pressure. The position rewards accumulation of small gains over single decisive bursts on both sides."
+      "answer": "Because the bottom player is flattened with no frames and heavy compression on the chest, explosive bridges and rolls have no leverage base to generate power and simply telegraph intent, letting the top player ride the motion and resettle. Small hip escapes and micro-frames, by contrast, create tiny increments of space that can be immediately filled and stacked without giving the top player a clear movement to counter. The same logic constrains the top player, whose passing angles are best created through incremental hip and knee adjustments rather than lunges that spill pressure. The position rewards accumulation of small gains over single decisive bursts on both sides.",
+      "answer_line": "Small gains stack, no telegraph",
+      "distractors": {
+        "plausible": [
+          "Explosive bursts are faster",
+          "Big movements save energy"
+        ],
+        "trap": [
+          "One big escape wins it all"
+        ]
+      }
     }
   ],
   "clips": [

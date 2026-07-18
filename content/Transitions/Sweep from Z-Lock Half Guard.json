@@ -264,35 +264,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from Z-Lock Half Guard?",
-        "answer": "The optimal window opens when the opponent commits their weight forward to establish crossface or shoulder pressure. You should feel their weight settling onto your chest with their knees becoming lighter on the mat. This forward commitment means their base is compromised in the direction of the sweep, and their own bodyweight becomes the primary force driving the rotation when you engage the compound leg action."
+        "answer": "The optimal window opens when the opponent commits their weight forward to establish crossface or shoulder pressure. You should feel their weight settling onto your chest with their knees becoming lighter on the mat. This forward commitment means their base is compromised in the direction of the sweep, and their own bodyweight becomes the primary force driving the rotation when you engage the compound leg action.",
+        "answer_line": "Opponent drives weight forward",
+        "distractors": {
+          "plausible": [
+            "Whenever grips are secured",
+            "As soon as lockdown is locked"
+          ],
+          "trap": [
+            "When opponent sits back light"
+          ]
+        }
       },
       {
         "question": "Why must the lockdown whip and butterfly elevation fire simultaneously rather than sequentially?",
-        "answer": "Simultaneous activation creates a compound off-balancing force that attacks the opponent's base along two vectors at once - the lockdown pulls their base backward while the butterfly drives upward. Sequential activation allows the opponent to address each force individually by posting or bracing, effectively reducing the sweep to a single-plane attack that experienced grapplers defend easily. The compound nature is what makes this sweep distinct from standard lockdown sweeps."
+        "answer": "Simultaneous activation creates a compound off-balancing force that attacks the opponent's base along two vectors at once - the lockdown pulls their base backward while the butterfly drives upward. Sequential activation allows the opponent to address each force individually by posting or bracing, effectively reducing the sweep to a single-plane attack that experienced grapplers defend easily. The compound nature is what makes this sweep distinct from standard lockdown sweeps.",
+        "answer_line": "Attacks base on two vectors at once",
+        "distractors": {
+          "plausible": [
+            "Whip first, then elevate hook",
+            "Elevate first, then whip lockdown"
+          ],
+          "trap": [
+            "Fire hook only, save lockdown"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand wide to brace against the sweep - how do you adjust?",
-        "answer": "Attack the posted arm with a kimura grip by releasing your near-side hand to grab their posted wrist while your underhook secures above their elbow. This strips their structural brace and creates a dual threat: either the kimura submission forces them to retract the post, allowing the sweep to complete, or you transition to kimura control as an alternative attack. The posted arm becomes a liability rather than a defense when you target it directly."
+        "answer": "Attack the posted arm with a kimura grip by releasing your near-side hand to grab their posted wrist while your underhook secures above their elbow. This strips their structural brace and creates a dual threat: either the kimura submission forces them to retract the post, allowing the sweep to complete, or you transition to kimura control as an alternative attack. The posted arm becomes a liability rather than a defense when you target it directly.",
+        "answer_line": "Kimura grip the posted wrist",
+        "distractors": {
+          "plausible": [
+            "Push through, ignore the post",
+            "Switch sides to the near arm"
+          ],
+          "trap": [
+            "Release underhook to grab post"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether this sweep generates sufficient force?",
-        "answer": "Hip angle is the most critical mechanical factor. The sweeper must maintain their hips turned to the side rather than flat on the mat. This angled position loads both the butterfly hook and lockdown leg with mechanical advantage, creating leverage that multiplies the force output. A flat-back position reduces both legs to pushing from a structurally weak angle where they cannot generate the rotational torque needed to overcome the opponent's base resistance."
+        "answer": "Hip angle is the most critical mechanical factor. The sweeper must maintain their hips turned to the side rather than flat on the mat. This angled position loads both the butterfly hook and lockdown leg with mechanical advantage, creating leverage that multiplies the force output. A flat-back position reduces both legs to pushing from a structurally weak angle where they cannot generate the rotational torque needed to overcome the opponent's base resistance.",
+        "answer_line": "Hips angled, not flat",
+        "distractors": {
+          "plausible": [
+            "Grip strength on lockdown",
+            "Speed of the initial whip"
+          ],
+          "trap": [
+            "Flatten hips for more base"
+          ]
+        }
       },
       {
         "question": "What grip requirements must be established before initiating the sweep?",
-        "answer": "Three grips are essential: the lockdown leg configuration securing the opponent's trapped ankle with feet connected behind their calf, the butterfly hook instep positioned under their opposite thigh, and a deep underhook on the far side reaching toward their belt or lat. The underhook is the steering mechanism that directs the rotation, while both leg positions provide the off-balancing force. Missing any one of these three grips significantly reduces sweep success rate."
+        "answer": "Three grips are essential: the lockdown leg configuration securing the opponent's trapped ankle with feet connected behind their calf, the butterfly hook instep positioned under their opposite thigh, and a deep underhook on the far side reaching toward their belt or lat. The underhook is the steering mechanism that directs the rotation, while both leg positions provide the off-balancing force. Missing any one of these three grips significantly reduces sweep success rate.",
+        "answer_line": "Lockdown, hook, deep underhook",
+        "distractors": {
+          "plausible": [
+            "Two overhooks and a lockdown",
+            "Underhook plus double ankle grip"
+          ],
+          "trap": [
+            "Grab both wrists, skip underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent sits back defensively to avoid committing weight forward - what is your response?",
-        "answer": "When the opponent refuses to drive forward, they create space between your bodies that you can exploit in other ways. Use the space to come up to dogfight position by driving off your underhook and butterfly hook simultaneously. Alternatively, transition to deep half guard by ducking under their elevated hips. The opponent's defensive posture opens different attacking paths - the Z-Lock sweep becomes one threat in a chain that forces them to choose which avenue to defend."
+        "answer": "When the opponent refuses to drive forward, they create space between your bodies that you can exploit in other ways. Use the space to come up to dogfight position by driving off your underhook and butterfly hook simultaneously. Alternatively, transition to deep half guard by ducking under their elevated hips. The opponent's defensive posture opens different attacking paths - the Z-Lock sweep becomes one threat in a chain that forces them to choose which avenue to defend.",
+        "answer_line": "Come up to dogfight position",
+        "distractors": {
+          "plausible": [
+            "Sit tight and rebuild lockdown",
+            "Switch to over-under pass"
+          ],
+          "trap": [
+            "Force the sweep through anyway"
+          ]
+        }
       },
       {
         "question": "What happens if you maintain the lockdown configuration while transitioning to top position after a successful sweep?",
-        "answer": "Keeping the lockdown engaged while coming to top entangles your own legs with the opponent's, preventing you from establishing proper side control positioning. Your hips cannot drop into their body for pressure, your legs cannot post for base, and the opponent can use the remaining entanglement to immediately begin guard recovery sequences. The lockdown must be released during the follow-through phase as you clear their body and begin establishing crossface and hip control for side control."
+        "answer": "Keeping the lockdown engaged while coming to top entangles your own legs with the opponent's, preventing you from establishing proper side control positioning. Your hips cannot drop into their body for pressure, your legs cannot post for base, and the opponent can use the remaining entanglement to immediately begin guard recovery sequences. The lockdown must be released during the follow-through phase as you clear their body and begin establishing crossface and hip control for side control.",
+        "answer_line": "Release lockdown, clear legs",
+        "distractors": {
+          "plausible": [
+            "Keep lockdown for extra control",
+            "Switch lockdown to leg triangle"
+          ],
+          "trap": [
+            "Keep lockdown while dropping hips"
+          ]
+        }
       },
       {
         "question": "How does this sweep create a strategic dilemma for the top player in the broader half guard game?",
-        "answer": "The sweep punishes forward pressure, which is the primary tool top players use to pass half guard. When the top player knows the Z-Lock sweep is available, they must choose between driving forward (risking the sweep) and sitting back (creating space for guard recovery, deep half entries, or dogfight transitions). This dilemma means the bottom player wins strategically regardless of which option the top player chooses, because both defensive responses open alternative attacking paths."
+        "answer": "The sweep punishes forward pressure, which is the primary tool top players use to pass half guard. When the top player knows the Z-Lock sweep is available, they must choose between driving forward (risking the sweep) and sitting back (creating space for guard recovery, deep half entries, or dogfight transitions). This dilemma means the bottom player wins strategically regardless of which option the top player chooses, because both defensive responses open alternative attacking paths.",
+        "answer_line": "Punishes forward pressure to pass",
+        "distractors": {
+          "plausible": [
+            "Forces opponent to stand up",
+            "Removes need for guard retention"
+          ],
+          "trap": [
+            "Only threatens legs, not passing"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Z-Lock Half Guard involves rotational forces through the knee and ankle joints of both practitioners. The lockdown component places stress on the trapped leg's knee and ankle, so partners should communicate if leg pressure becomes excessive. Release the lockdown immediately if your partner signals discomfort. During the rotation phase, avoid driving your bodyweight onto the opponent's extended limbs. Train the timing elements at reduced speed before adding full resistance to prevent knee torque injuries.",
@@ -410,19 +490,59 @@
     "flashcards": [
       {
         "question": "What are the three variables you must manage simultaneously to defend the Sweep from Z-Lock Half Guard?",
-        "answer": "The three critical defensive variables are base width (keeping your free leg posted wide for structural bracing), weight placement (distributing weight centrally rather than committing fully forward), and underhook denial (preventing or stripping the opponent's underhook that serves as the sweep's steering mechanism). Managing all three simultaneously makes the sweep extremely difficult to execute regardless of the attacker's skill level."
+        "answer": "The three critical defensive variables are base width (keeping your free leg posted wide for structural bracing), weight placement (distributing weight centrally rather than committing fully forward), and underhook denial (preventing or stripping the opponent's underhook that serves as the sweep's steering mechanism). Managing all three simultaneously makes the sweep extremely difficult to execute regardless of the attacker's skill level.",
+        "answer_line": "Base width, weight, underhook denial",
+        "distractors": {
+          "plausible": [
+            "Grip fighting, posture, pace",
+            "Frame, distance, angle"
+          ],
+          "trap": [
+            "Drive forward hard, stay heavy"
+          ]
+        }
       },
       {
         "question": "Why is driving heavy crossface pressure both a defensive tool and a potential vulnerability against this sweep?",
-        "answer": "Crossface pressure is defensive because it flattens the opponent's hip angle and reduces their mechanical advantage for the sweep. However, it becomes a vulnerability when you commit excessive bodyweight forward to drive the crossface, because the forward weight commitment is exactly what the sweeper needs to fire the compound off-balance. The solution is controlled crossface using upper body positioning rather than full bodyweight commitment, maintaining your center of gravity over your base."
+        "answer": "Crossface pressure is defensive because it flattens the opponent's hip angle and reduces their mechanical advantage for the sweep. However, it becomes a vulnerability when you commit excessive bodyweight forward to drive the crossface, because the forward weight commitment is exactly what the sweeper needs to fire the compound off-balance. The solution is controlled crossface using upper body positioning rather than full bodyweight commitment, maintaining your center of gravity over your base.",
+        "answer_line": "Controlled crossface pressure",
+        "distractors": {
+          "plausible": [
+            "Heavier crossface, more forward",
+            "Switch crossface to whizzer"
+          ],
+          "trap": [
+            "Commit full bodyweight to crossface"
+          ]
+        }
       },
       {
         "question": "You feel both of the opponent's legs activating simultaneously - lockdown pulling and butterfly pushing. What is your immediate response?",
-        "answer": "Immediately post your far hand wide on the mat in the direction you feel yourself being rotated. This structural post must happen before you pass the tipping point of the sweep. Simultaneously widen your base by stepping your free leg out. If the post stabilizes you, follow up by driving your weight back toward center and re-establishing heavy top pressure. The key is speed of reaction - once the compound off-balance reaches full momentum, posting becomes ineffective."
+        "answer": "Immediately post your far hand wide on the mat in the direction you feel yourself being rotated. This structural post must happen before you pass the tipping point of the sweep. Simultaneously widen your base by stepping your free leg out. If the post stabilizes you, follow up by driving your weight back toward center and re-establishing heavy top pressure. The key is speed of reaction - once the compound off-balance reaches full momentum, posting becomes ineffective.",
+        "answer_line": "Post far hand wide immediately",
+        "distractors": {
+          "plausible": [
+            "Sit back and wait it out",
+            "Grip fight the underhook"
+          ],
+          "trap": [
+            "Drive forward into the pressure"
+          ]
+        }
       },
       {
         "question": "When should you choose to sit your weight back versus driving forward to flatten the opponent?",
-        "answer": "Sit back when you recognize the opponent has established full sweep grips (deep underhook, loaded Z-Lock configuration, and hip angle) and is waiting for you to drive forward. Sitting back denies the sweep but gives space. Drive forward to flatten when the opponent has NOT yet fully established their sweep position - particularly if their underhook is shallow or their hip angle is minimal. The decision depends on how loaded the sweep threat is at that moment."
+        "answer": "Sit back when you recognize the opponent has established full sweep grips (deep underhook, loaded Z-Lock configuration, and hip angle) and is waiting for you to drive forward. Sitting back denies the sweep but gives space. Drive forward to flatten when the opponent has NOT yet fully established their sweep position - particularly if their underhook is shallow or their hip angle is minimal. The decision depends on how loaded the sweep threat is at that moment.",
+        "answer_line": "Sit back once grips fully loaded",
+        "distractors": {
+          "plausible": [
+            "Always drive forward to flatten",
+            "Always sit back to be safe"
+          ],
+          "trap": [
+            "Drive forward once grips are set"
+          ]
+        }
       }
     ],
     "training_progressions": [

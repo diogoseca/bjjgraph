@@ -287,35 +287,115 @@
     "flashcards": [
       {
         "question": "What is the most important principle when finding yourself in reverse mount top position?",
-        "answer": "Recognize that reverse mount is a transitional position and must be converted quickly to either standard mount or back control within 3-5 seconds. Attempting to maintain reverse mount long-term leads to progressively decreasing stability and increasing escape probability for the opponent."
+        "answer": "Recognize that reverse mount is a transitional position and must be converted quickly to either standard mount or back control within 3-5 seconds. Attempting to maintain reverse mount long-term leads to progressively decreasing stability and increasing escape probability for the opponent.",
+        "answer_line": "Convert fast within 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Maintain position, wear them down",
+            "Secure head control first"
+          ],
+          "trap": [
+            "Lock in a submission immediately"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maintain control in reverse mount despite the backward orientation?",
-        "answer": "Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control."
+        "answer": "Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control.",
+        "answer_line": "Sink hip weight onto sternum",
+        "distractors": {
+          "plausible": [
+            "Post hands, lean weight forward",
+            "Distribute weight through knees"
+          ],
+          "trap": [
+            "Lean back for balance"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging strongly while you're in reverse mount - what adjustment do you make?",
-        "answer": "Ride the bridge by maintaining heavy hips and wide knee base while using your posted hands for balance. As they land from the bridge, immediately initiate your transition to standard mount by spinning toward their head, using their exhausted moment post-bridge as your window for smooth conversion."
+        "answer": "Ride the bridge by maintaining heavy hips and wide knee base while using your posted hands for balance. As they land from the bridge, immediately initiate your transition to standard mount by spinning toward their head, using their exhausted moment post-bridge as your window for smooth conversion.",
+        "answer_line": "Ride bridge, then spin to mount",
+        "distractors": {
+          "plausible": [
+            "Stop bridge by grabbing far arm",
+            "Sit up and post both hands"
+          ],
+          "trap": [
+            "Jump off to avoid the bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential base requirements for maintaining stability in reverse mount?",
-        "answer": "Keep knees wide and positioned outside opponent's ribcage to create a broad base similar to standard mount but adjusted for backward orientation. Feet should be positioned near or past opponent's shoulders. At least one hand should be posted on the mat at all times for balance support and to sense opponent's movement."
+        "answer": "Keep knees wide and positioned outside opponent's ribcage to create a broad base similar to standard mount but adjusted for backward orientation. Feet should be positioned near or past opponent's shoulders. At least one hand should be posted on the mat at all times for balance support and to sense opponent's movement.",
+        "answer_line": "Wide knees, one hand posted",
+        "distractors": {
+          "plausible": [
+            "Narrow knees for tighter squeeze",
+            "Both hands gripping collar"
+          ],
+          "trap": [
+            "Sit high on their hips"
+          ]
+        }
       },
       {
         "question": "When does reverse mount naturally occur during rolling, and how should you respond upon recognizing it?",
-        "answer": "Reverse mount typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Upon recognition, immediately assess whether back control (inserting hooks from the reverse position) or standard mount (180-degree rotation) is the better option based on opponent's body position and defensive posture."
+        "answer": "Reverse mount typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Upon recognition, immediately assess whether back control (inserting hooks from the reverse position) or standard mount (180-degree rotation) is the better option based on opponent's body position and defensive posture.",
+        "answer_line": "Assess back take vs mount",
+        "distractors": {
+          "plausible": [
+            "Always force back to standard mount",
+            "Wait for opponent to commit first"
+          ],
+          "trap": [
+            "Chase a submission right away"
+          ]
+        }
       },
       {
         "question": "Your opponent turns to their side attempting a hip escape from reverse mount - how do you capitalize?",
-        "answer": "Their turn exposes their back, creating an excellent opportunity for back take. Insert your first hook on the side they're turning toward, establish seat belt control, and follow with your second hook to secure full back control. This is often a higher-percentage transition than forcing them flat for standard mount."
+        "answer": "Their turn exposes their back, creating an excellent opportunity for back take. Insert your first hook on the side they're turning toward, establish seat belt control, and follow with your second hook to secure full back control. This is often a higher-percentage transition than forcing them flat for standard mount.",
+        "answer_line": "Insert hook, take the back",
+        "distractors": {
+          "plausible": [
+            "Follow them flat to standard mount",
+            "Chase far-side collar grip"
+          ],
+          "trap": [
+            "Post up and look for an armbar"
+          ]
+        }
       },
       {
         "question": "Why is over-committing to submissions from reverse mount considered a critical error?",
-        "answer": "Reverse mount is inherently unstable and submission attempts require committing your base and control to the attack. Over-committing often results in complete position loss as the opponent escapes during the submission attempt. Standard mount and back control offer far superior submission platforms, so prioritize transitioning to these positions rather than forcing low-percentage attacks from reverse mount."
+        "answer": "Reverse mount is inherently unstable and submission attempts require committing your base and control to the attack. Over-committing often results in complete position loss as the opponent escapes during the submission attempt. Standard mount and back control offer far superior submission platforms, so prioritize transitioning to these positions rather than forcing low-percentage attacks from reverse mount.",
+        "answer_line": "Unstable base risks the position",
+        "distractors": {
+          "plausible": [
+            "Submission finish rates are low",
+            "Opponent's arms are too defended"
+          ],
+          "trap": [
+            "Commit fully, finish now"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when controlling from reverse mount?",
-        "answer": "Minimize energy expenditure by keeping transitions brief - make your decision within 3-5 seconds and execute smoothly. Use structural control through proper knee and hip positioning rather than muscular effort. Relying on proprioception rather than constantly looking backward reduces tension and conserves energy. The goal is efficient flow to a superior position, not prolonged battle for unstable control."
+        "answer": "Minimize energy expenditure by keeping transitions brief - make your decision within 3-5 seconds and execute smoothly. Use structural control through proper knee and hip positioning rather than muscular effort. Relying on proprioception rather than constantly looking backward reduces tension and conserves energy. The goal is efficient flow to a superior position, not prolonged battle for unstable control.",
+        "answer_line": "Decide fast, use structure",
+        "distractors": {
+          "plausible": [
+            "Keep looking back constantly",
+            "Use explosive strength always"
+          ],
+          "trap": [
+            "Hold position as long as possible"
+          ]
+        }
       }
     ],
     "clips": [
@@ -596,35 +676,115 @@
     "flashcards": [
       {
         "question": "What should be your immediate first action upon finding yourself in reverse mount bottom?",
-        "answer": "Immediately protect your neck by tucking your chin and bringing your hands to defend the collar and throat area. This prevents the rear naked choke, which is the most dangerous immediate threat from this position. Neck defense takes absolute priority over any escape attempt."
+        "answer": "Immediately protect your neck by tucking your chin and bringing your hands to defend the collar and throat area. This prevents the rear naked choke, which is the most dangerous immediate threat from this position. Neck defense takes absolute priority over any escape attempt.",
+        "answer_line": "Tuck chin, defend the neck",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately for space",
+            "Grab their far ankle"
+          ],
+          "trap": [
+            "Reach back to push their hips"
+          ]
+        }
       },
       {
         "question": "Why is staying flat on your stomach considered the worst possible response in reverse mount bottom?",
-        "answer": "Staying flat allows the opponent to completely control your torso, establish hooks easily, and transition to full back control with minimal resistance. It eliminates all escape angles and gives them full access to your neck for chokes. Maintaining at least one shoulder off the mat preserves escape options and prevents complete flattening."
+        "answer": "Staying flat allows the opponent to completely control your torso, establish hooks easily, and transition to full back control with minimal resistance. It eliminates all escape angles and gives them full access to your neck for chokes. Maintaining at least one shoulder off the mat preserves escape options and prevents complete flattening.",
+        "answer_line": "Lets them insert hooks freely",
+        "distractors": {
+          "plausible": [
+            "Wastes energy over time",
+            "Makes sweeps easier for you"
+          ],
+          "trap": [
+            "Safest since you can't be choked"
+          ]
+        }
       },
       {
         "question": "Your opponent is attempting to flatten you completely while in reverse mount - what counter movement should you use?",
-        "answer": "Use continuous hip movement and shoulder rolls to prevent flattening. Keep one shoulder off the mat at all times, create angles with your hips, and work to turn into your opponent. Frame against their hips or knees when possible. Never stop moving - constant defensive motion prevents them from settling their weight and establishing complete control."
+        "answer": "Use continuous hip movement and shoulder rolls to prevent flattening. Keep one shoulder off the mat at all times, create angles with your hips, and work to turn into your opponent. Frame against their hips or knees when possible. Never stop moving - constant defensive motion prevents them from settling their weight and establishing complete control.",
+        "answer_line": "Keep one shoulder off the mat",
+        "distractors": {
+          "plausible": [
+            "Push straight up with both arms",
+            "Grab their far leg and pull"
+          ],
+          "trap": [
+            "Go still to conserve energy"
+          ]
+        }
       },
       {
         "question": "What is the escape hierarchy from reverse mount bottom?",
-        "answer": "Priority one is preventing back control by stopping hook insertion and seat belt establishment. Priority two is turning to face the opponent while establishing frames. Priority three is recovering guard through hip escapes and guard replacement movements. Throughout all priorities, neck defense remains constant - never sacrifice neck protection for an escape attempt."
+        "answer": "Priority one is preventing back control by stopping hook insertion and seat belt establishment. Priority two is turning to face the opponent while establishing frames. Priority three is recovering guard through hip escapes and guard replacement movements. Throughout all priorities, neck defense remains constant - never sacrifice neck protection for an escape attempt.",
+        "answer_line": "Stop hooks, then turn, then guard",
+        "distractors": {
+          "plausible": [
+            "Escape guard first, then defend",
+            "Turn away to hide your neck"
+          ],
+          "trap": [
+            "Try to sweep before defending"
+          ]
+        }
       },
       {
         "question": "How should you time your explosive bridge and turn from reverse mount bottom?",
-        "answer": "Time your explosive movement when the opponent's weight shifts or becomes unbalanced - typically when they reach for arm control, attempt to secure grips, or adjust their position. Create angles with hip movement first to set up the escape, then execute the bridge when their weight distribution favors your escape direction. Bridging without creating angles first wastes energy."
+        "answer": "Time your explosive movement when the opponent's weight shifts or becomes unbalanced - typically when they reach for arm control, attempt to secure grips, or adjust their position. Create angles with hip movement first to set up the escape, then execute the bridge when their weight distribution favors your escape direction. Bridging without creating angles first wastes energy.",
+        "answer_line": "Angle first, then bridge on shift",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately and often",
+            "Wait for them to fully settle"
+          ],
+          "trap": [
+            "Bridge straight up repeatedly"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts their weight forward to attack your neck with a rear naked choke - how do you use this against them?",
-        "answer": "Their forward weight shift creates an opportunity for explosive bridge and turn. As they commit forward, bridge explosively toward their posted hands, using their own momentum against them. This can create space to turn into them or escape to deep half guard. Their commitment to the attack compromises their base."
+        "answer": "Their forward weight shift creates an opportunity for explosive bridge and turn. As they commit forward, bridge explosively toward their posted hands, using their own momentum against them. This can create space to turn into them or escape to deep half guard. Their commitment to the attack compromises their base.",
+        "answer_line": "Bridge toward their posted hands",
+        "distractors": {
+          "plausible": [
+            "Pull their arm off your neck",
+            "Sit up into their chest"
+          ],
+          "trap": [
+            "Stay still and wait it out"
+          ]
+        }
       },
       {
         "question": "Why should you keep your elbows tight to your ribs rather than extending your arms when defending from reverse mount bottom?",
-        "answer": "Extended arms are vulnerable to kimura attacks, arm triangles, and wrist control that leads to back control. Keeping elbows tight to ribs creates a compact defensive shell that protects your arms while keeping hands available for neck defense. The compact posture also makes it harder for the opponent to isolate and attack individual limbs."
+        "answer": "Extended arms are vulnerable to kimura attacks, arm triangles, and wrist control that leads to back control. Keeping elbows tight to ribs creates a compact defensive shell that protects your arms while keeping hands available for neck defense. The compact posture also makes it harder for the opponent to isolate and attack individual limbs.",
+        "answer_line": "Extended arms invite kimura",
+        "distractors": {
+          "plausible": [
+            "Frees hands for neck defense",
+            "Keeps hips more mobile"
+          ],
+          "trap": [
+            "Push their hips away with arms"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while defending from reverse mount bottom?",
-        "answer": "Use movement efficiency rather than explosive strength for continuous defense. Small, constant hip movements and shoulder adjustments require less energy than explosive bursts. Save explosive movements for actual escape attempts when timing windows open. Maintain calm composure to avoid panic-based energy waste. Focus on technical movement patterns rather than muscular effort."
+        "answer": "Use movement efficiency rather than explosive strength for continuous defense. Small, constant hip movements and shoulder adjustments require less energy than explosive bursts. Save explosive movements for actual escape attempts when timing windows open. Maintain calm composure to avoid panic-based energy waste. Focus on technical movement patterns rather than muscular effort.",
+        "answer_line": "Small constant moves, save bursts",
+        "distractors": {
+          "plausible": [
+            "Explode nonstop until you escape",
+            "Stay motionless to save energy"
+          ],
+          "trap": [
+            "Panic and thrash to break free"
+          ]
+        }
       }
     ],
     "clips": [
@@ -660,35 +820,115 @@
   "flashcards_position": [
     {
       "question": "What spatial configuration defines reverse mount and distinguishes it from standard mount?",
-      "answer": "In reverse mount the top player sits astride the bottom player's torso but faces toward their feet, so the top player's back is turned to the opponent's head. This inverts every relationship of standard mount: there is no head or shoulder control, no line of sight to the opponent's face, and the top player's weight sits over the sternum or upper abdomen while their hips point toward the opponent's legs. Because the orientation is reversed rather than the elevation, it still scores as mount under IBJJF (4 points) despite the fundamentally different control dynamics."
+      "answer": "In reverse mount the top player sits astride the bottom player's torso but faces toward their feet, so the top player's back is turned to the opponent's head. This inverts every relationship of standard mount: there is no head or shoulder control, no line of sight to the opponent's face, and the top player's weight sits over the sternum or upper abdomen while their hips point toward the opponent's legs. Because the orientation is reversed rather than the elevation, it still scores as mount under IBJJF (4 points) despite the fundamentally different control dynamics.",
+      "answer_line": "Top faces their feet, not head",
+      "distractors": {
+        "plausible": [
+          "Top player faces same as guard",
+          "Weight sits on opponent's hips"
+        ],
+        "trap": [
+          "Doesn't count as mount for points"
+        ]
+      }
     },
     {
       "question": "Why does reverse mount function as a transitional position rather than a stable destination for either player?",
-      "answer": "The backward orientation removes the head-and-arm control that anchors standard mount, so the top player has no upper-body attachment to arrest the opponent's movement and must rely purely on hip weight and base. This makes the configuration inherently unstable and time-sensitive, favoring whichever player acts first. For the top player it is a launch point to standard mount or back control, and for the bottom player it is a brief window to escape before hooks are inserted, which is why holding it statically only raises escape probability for the bottom."
+      "answer": "The backward orientation removes the head-and-arm control that anchors standard mount, so the top player has no upper-body attachment to arrest the opponent's movement and must rely purely on hip weight and base. This makes the configuration inherently unstable and time-sensitive, favoring whichever player acts first. For the top player it is a launch point to standard mount or back control, and for the bottom player it is a brief window to escape before hooks are inserted, which is why holding it statically only raises escape probability for the bottom.",
+      "answer_line": "No head control makes it unstable",
+      "distractors": {
+        "plausible": [
+          "Referees penalize holding it long",
+          "It's illegal to maintain long-term"
+        ],
+        "trap": [
+          "Actually a strong finishing hold"
+        ]
+      }
     },
     {
       "question": "Where must the mounted player's weight be concentrated for reverse mount to control at all, given the reversed facing?",
-      "answer": "Because there is no chest-to-chest or head connection to distribute load in this orientation, the hips become the sole heavy control point, and weight must sink through the buttocks and lower back directly onto the sternum or upper abdomen rather than being carried in the legs or posted arms. That single downward pressure point is what pins the ribcage and denies the bottom player the space to bridge or turn. Any weight that stays in the base instead of the hips leaves the position hollow and easy to reverse, which is why reverse mount lives or dies on hip weight alone."
+      "answer": "Because there is no chest-to-chest or head connection to distribute load in this orientation, the hips become the sole heavy control point, and weight must sink through the buttocks and lower back directly onto the sternum or upper abdomen rather than being carried in the legs or posted arms. That single downward pressure point is what pins the ribcage and denies the bottom player the space to bridge or turn. Any weight that stays in the base instead of the hips leaves the position hollow and easy to reverse, which is why reverse mount lives or dies on hip weight alone.",
+      "answer_line": "All weight through the hips",
+      "distractors": {
+        "plausible": [
+          "Weight spread through the legs",
+          "Weight carried in posted arms"
+        ],
+        "trap": [
+          "Weight on their hips and legs"
+        ]
+      }
     },
     {
       "question": "How does the base structure in reverse mount govern stability for both players in the exchange?",
-      "answer": "The top player's knees sit wide outside the opponent's ribcage with the feet near or past the shoulders, creating a broad quadrilateral base that resists tipping despite facing the wrong way. A narrow base makes the top player easy to unbalance backward with minimal hip movement, which is precisely the leverage the bottom player hunts for. Whether the position holds or collapses is therefore decided at the base: wide knees plus at least one posted hand keep it, and any collapse of that footprint hands the reversal to the bottom."
+      "answer": "The top player's knees sit wide outside the opponent's ribcage with the feet near or past the shoulders, creating a broad quadrilateral base that resists tipping despite facing the wrong way. A narrow base makes the top player easy to unbalance backward with minimal hip movement, which is precisely the leverage the bottom player hunts for. Whether the position holds or collapses is therefore decided at the base: wide knees plus at least one posted hand keep it, and any collapse of that footprint hands the reversal to the bottom.",
+      "answer_line": "Wide knee base resists being tipped",
+      "distractors": {
+        "plausible": [
+          "Narrow base for quick reactions",
+          "Weight balanced on toes only"
+        ],
+        "trap": [
+          "Sit high with knees together"
+        ]
+      }
     },
     {
       "question": "What does the loss of visual and head control mean for both players occupying reverse mount?",
-      "answer": "Neither player can see the other's upper body clearly: the top player's back blocks the bottom player's view, and the top player cannot read the opponent's face or hands for reaction cues. This forces both to operate on proprioception and tactile feel rather than sight, sensing weight shifts, bridges, and hip turns through contact instead of vision. The player who reads pressure changes fastest by feel dictates the exchange, since the usual visual feedback loop of face-to-face grappling is absent for both."
+      "answer": "Neither player can see the other's upper body clearly: the top player's back blocks the bottom player's view, and the top player cannot read the opponent's face or hands for reaction cues. This forces both to operate on proprioception and tactile feel rather than sight, sensing weight shifts, bridges, and hip turns through contact instead of vision. The player who reads pressure changes fastest by feel dictates the exchange, since the usual visual feedback loop of face-to-face grappling is absent for both.",
+      "answer_line": "Both must read pressure by feel",
+      "distractors": {
+        "plausible": [
+          "Only the bottom player loses vision",
+          "Verbal cues replace visual reads"
+        ],
+        "trap": [
+          "Watch their hands closely instead"
+        ]
+      }
     },
     {
       "question": "Why does a hip-escape turn from the bottom simultaneously open the top player's back take in reverse mount?",
-      "answer": "The top player is already oriented toward the opponent's lower body and hips, so when the bottom player turns to a side to hip-escape, that same rotation exposes their back to the player who is best positioned to attack it. The movement the bottom player instinctively uses to create space is therefore the exact one that opens the line for hook insertion and seat-belt control, converting reverse mount into back control. This shared dynamic is why the position rewards recognition on both sides: the bottom's escape and the top's advancement are the same rotation, so timing and priority alone decide who wins it."
+      "answer": "The top player is already oriented toward the opponent's lower body and hips, so when the bottom player turns to a side to hip-escape, that same rotation exposes their back to the player who is best positioned to attack it. The movement the bottom player instinctively uses to create space is therefore the exact one that opens the line for hook insertion and seat-belt control, converting reverse mount into back control. This shared dynamic is why the position rewards recognition on both sides: the bottom's escape and the top's advancement are the same rotation, so timing and priority alone decide who wins it.",
+      "answer_line": "Their escape turn exposes the back",
+      "distractors": {
+        "plausible": [
+          "Turning stops the top's hook entry",
+          "It only helps if hooks already in"
+        ],
+        "trap": [
+          "Turning to the knees is always safe"
+        ]
+      }
     },
     {
       "question": "How does reverse mount relate to and convert into its adjacent dominant positions?",
-      "answer": "A 180-degree rotation over either shoulder while keeping hips heavy returns the top player to standard mount, trading the reversed orientation for full head-and-arm control. Inserting hooks as the opponent turns advances to back control, and the position also borders side control and north-south when scrambles create off-angles, or the truck when it flows into a twister attack. It is best understood as a hub sitting one movement away from several superior positions rather than a position with its own long-term game."
+      "answer": "A 180-degree rotation over either shoulder while keeping hips heavy returns the top player to standard mount, trading the reversed orientation for full head-and-arm control. Inserting hooks as the opponent turns advances to back control, and the position also borders side control and north-south when scrambles create off-angles, or the truck when it flows into a twister attack. It is best understood as a hub sitting one movement away from several superior positions rather than a position with its own long-term game.",
+      "answer_line": "Rotate to mount or insert hooks",
+      "distractors": {
+        "plausible": [
+          "Only converts to standard mount",
+          "Must pass guard to advance"
+        ],
+        "trap": [
+          "Stand up to reset the position"
+        ]
+      }
     },
     {
       "question": "Why is the reverse mount configuration so energetically costly to hold compared to standard mount?",
-      "answer": "Without head control or a chest connection, maintaining the position demands continuous active balancing against every bridge and hip movement, so the top player burns energy correcting base while the bottom player burns energy attempting to turn and frame. The reversed facing means small perturbations require large corrections, and neither player gets the passive structural rest that head-and-arm control affords in standard mount. This shared energy drain is precisely why the configuration is treated as a brief transitional window: prolonging it exhausts the top player faster than it does the escaping bottom player."
+      "answer": "Without head control or a chest connection, maintaining the position demands continuous active balancing against every bridge and hip movement, so the top player burns energy correcting base while the bottom player burns energy attempting to turn and frame. The reversed facing means small perturbations require large corrections, and neither player gets the passive structural rest that head-and-arm control affords in standard mount. This shared energy drain is precisely why the configuration is treated as a brief transitional window: prolonging it exhausts the top player faster than it does the escaping bottom player.",
+      "answer_line": "No passive rest, constant balancing",
+      "distractors": {
+        "plausible": [
+          "Bottom player tires faster only",
+          "Legs work harder than in mount"
+        ],
+        "trap": [
+          "Actually less tiring overall"
+        ]
+      }
     }
   ],
   "clips": [

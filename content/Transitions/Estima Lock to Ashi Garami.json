@@ -214,43 +214,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Estima Lock to Ashi Garami transition?",
-        "answer": "The primary goal is to maintain offensive leg attack momentum when the Estima Lock finish is compromised by defensive action. Rather than forcing an incomplete footlock or returning to neutral, this transition converts the existing leg control into ashi garami position, which threatens the heel and knee through different mechanical vectors that the opponent cannot simultaneously defend."
+        "answer": "The primary goal is to maintain offensive leg attack momentum when the Estima Lock finish is compromised by defensive action. Rather than forcing an incomplete footlock or returning to neutral, this transition converts the existing leg control into ashi garami position, which threatens the heel and knee through different mechanical vectors that the opponent cannot simultaneously defend.",
+        "answer_line": "Keep attacking via ashi garami",
+        "distractors": {
+          "plausible": [
+            "Force the Estima finish anyway",
+            "Return to neutral guard"
+          ],
+          "trap": [
+            "Release grips and reset position"
+          ]
+        }
       },
       {
         "question": "What defensive signals indicate you should initiate this transition rather than continuing the Estima Lock attempt?",
-        "answer": "Key defensive signals include: opponent successfully counter-rotating their ankle to reduce lock pressure, opponent hiding their heel by pointing toes away from your control, opponent establishing strong frames on your hips that prevent finishing mechanics, and opponent creating sufficient space that the inverted grip configuration loses its submission threat. Recognizing these signals within 2-3 seconds prevents wasted energy on a compromised position."
+        "answer": "Key defensive signals include: opponent successfully counter-rotating their ankle to reduce lock pressure, opponent hiding their heel by pointing toes away from your control, opponent establishing strong frames on your hips that prevent finishing mechanics, and opponent creating sufficient space that the inverted grip configuration loses its submission threat. Recognizing these signals within 2-3 seconds prevents wasted energy on a compromised position.",
+        "answer_line": "Heel hidden, hip frames appear",
+        "distractors": {
+          "plausible": [
+            "Opponent's leg goes limp",
+            "Opponent stops all movement"
+          ],
+          "trap": [
+            "Wait longer for the tap"
+          ]
+        }
       },
       {
         "question": "Why must you maintain Estima Lock grips until the ashi garami leg triangle is secured?",
-        "answer": "Releasing grips before the leg triangle creates a window where the opponent's leg is momentarily free from both control systems. During this gap, they can pull their knee to their chest, recover guard, sit up to strong frames, or initiate counter-attacks. Maintaining hand grips until the new leg position is complete ensures continuous control—there is never a moment where escape is possible."
+        "answer": "Releasing grips before the leg triangle creates a window where the opponent's leg is momentarily free from both control systems. During this gap, they can pull their knee to their chest, recover guard, sit up to strong frames, or initiate counter-attacks. Maintaining hand grips until the new leg position is complete ensures continuous control—there is never a moment where escape is possible.",
+        "answer_line": "Prevents any escape gap",
+        "distractors": {
+          "plausible": [
+            "Grips prevent opponent from tapping",
+            "Grips help you see the heel"
+          ],
+          "trap": [
+            "Release grips early for speed"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting up and posting their hands as you initiate the transition—how do you adjust?",
-        "answer": "Use your free hand (the one not maintaining foot control) to push their chest back down while completing the leg thread with urgency. If they achieve strong posture before you can flatten them, consider abandoning the ashi garami transition in favor of pursuing top position through leg drag, using their extended leg as a passing handle rather than submission target."
+        "answer": "Use your free hand (the one not maintaining foot control) to push their chest back down while completing the leg thread with urgency. If they achieve strong posture before you can flatten them, consider abandoning the ashi garami transition in favor of pursuing top position through leg drag, using their extended leg as a passing handle rather than submission target.",
+        "answer_line": "Push chest down, finish thread fast",
+        "distractors": {
+          "plausible": [
+            "Grab a fresh underhook instead",
+            "Switch immediately to guillotine"
+          ],
+          "trap": [
+            "Release foot control for posture"
+          ]
+        }
       },
       {
         "question": "What is the correct inside leg position for the ashi garami triangle?",
-        "answer": "The inside leg must thread between the opponent's legs, passing behind their trapped leg's knee with your foot hooking around their far hip or thigh. This deep threading prevents them from straightening their leg to escape or retracting their knee to their chest. If the leg is not deep enough, opponents can easily extract from the entanglement before you consolidate control."
+        "answer": "The inside leg must thread between the opponent's legs, passing behind their trapped leg's knee with your foot hooking around their far hip or thigh. This deep threading prevents them from straightening their leg to escape or retracting their knee to their chest. If the leg is not deep enough, opponents can easily extract from the entanglement before you consolidate control.",
+        "answer_line": "Thread deep behind the knee",
+        "distractors": {
+          "plausible": [
+            "Hook the near hip only",
+            "Rest foot on top of the thigh"
+          ],
+          "trap": [
+            "Keep leg shallow for mobility"
+          ]
+        }
       },
       {
         "question": "Why is outside heel exposure important in the final ashi garami configuration?",
-        "answer": "Outside heel exposure positions the opponent's heel facing away from their body, setting up the standard outside heel hook which has cleaner finishing mechanics than inside heel hooks. The outside heel hook requires less rotation to damage structures and is harder to defend through boot positioning. Failing to achieve outside exposure limits your submission options and requires more complex finishing sequences."
+        "answer": "Outside heel exposure positions the opponent's heel facing away from their body, setting up the standard outside heel hook which has cleaner finishing mechanics than inside heel hooks. The outside heel hook requires less rotation to damage structures and is harder to defend through boot positioning. Failing to achieve outside exposure limits your submission options and requires more complex finishing sequences.",
+        "answer_line": "Sets up cleaner outside heel hook",
+        "distractors": {
+          "plausible": [
+            "Sets up an inside heel hook",
+            "Improves your hip pressure"
+          ],
+          "trap": [
+            "Lets opponent see the finish coming"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls through during the transition in an attempt to reverse position—what is your response?",
-        "answer": "Follow the roll while maintaining leg control through your leg triangle. Depending on the roll direction, you will typically end in 50-50 guard or inside sankaku position. Stay connected to their leg, keep your triangle tight, and be prepared to address any counter leg attacks they initiate. The roll often improves your position if you follow rather than resist."
+        "answer": "Follow the roll while maintaining leg control through your leg triangle. Depending on the roll direction, you will typically end in 50-50 guard or inside sankaku position. Stay connected to their leg, keep your triangle tight, and be prepared to address any counter leg attacks they initiate. The roll often improves your position if you follow rather than resist.",
+        "answer_line": "Follow the roll, keep triangle tight",
+        "distractors": {
+          "plausible": [
+            "Stop the roll and reset grips",
+            "Release leg to avoid getting rolled"
+          ],
+          "trap": [
+            "Fight the roll and hold ground"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you establish after releasing the Estima Lock grips?",
-        "answer": "After releasing the figure-four configuration, immediately secure standard ashi garami grips—one hand controlling the heel (cupping it or gripping the Achilles area) and the other hand on the toes or ankle to control foot direction. This grip setup provides direct heel hook access while maintaining the rotational control necessary to prevent defensive boot positioning."
+        "answer": "After releasing the figure-four configuration, immediately secure standard ashi garami grips—one hand controlling the heel (cupping it or gripping the Achilles area) and the other hand on the toes or ankle to control foot direction. This grip setup provides direct heel hook access while maintaining the rotational control necessary to prevent defensive boot positioning.",
+        "answer_line": "Heel grip + toe/ankle control",
+        "distractors": {
+          "plausible": [
+            "Grip the knee and shin",
+            "Grip both feet together"
+          ],
+          "trap": [
+            "Let go of the foot to re-angle"
+          ]
+        }
       },
       {
         "question": "When might you choose the inside sankaku variant over standard ashi garami?",
-        "answer": "Choose inside sankaku when the opponent's leg is significantly bent at the knee, making standard ashi garami less secure due to the angle. Inside sankaku's figure-four leg configuration provides superior control of bent legs and stronger heel hook finishing position. This variant also suits practitioners with excellent leg dexterity who want maximum submission control, though it requires more precise threading."
+        "answer": "Choose inside sankaku when the opponent's leg is significantly bent at the knee, making standard ashi garami less secure due to the angle. Inside sankaku's figure-four leg configuration provides superior control of bent legs and stronger heel hook finishing position. This variant also suits practitioners with excellent leg dexterity who want maximum submission control, though it requires more precise threading.",
+        "answer_line": "When their knee is sharply bent",
+        "distractors": {
+          "plausible": [
+            "When their leg is fully straight",
+            "When you're low on energy"
+          ],
+          "trap": [
+            "When you want a quicker exit"
+          ]
+        }
       },
       {
         "question": "How do you prevent hip separation from the opponent's leg during the transition?",
-        "answer": "Keep your hips glued to their thigh throughout the entire transition by using your weight as a constant control element. As you thread your legs for ashi garami, your hips should follow their leg rather than backing away to create threading space. If they move, you move with them. This continuous pressure prevents the space creation that enables escape or counter-attack."
+        "answer": "Keep your hips glued to their thigh throughout the entire transition by using your weight as a constant control element. As you thread your legs for ashi garami, your hips should follow their leg rather than backing away to create threading space. If they move, you move with them. This continuous pressure prevents the space creation that enables escape or counter-attack.",
+        "answer_line": "Keep hips glued, follow their leg",
+        "distractors": {
+          "plausible": [
+            "Back away to create thread space",
+            "Sit back to reset base"
+          ],
+          "trap": [
+            "Release hip contact for angle"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the transition relative to the opponent's Estima Lock defense?",
@@ -258,7 +358,17 @@
       },
       {
         "question": "Your opponent successfully defends the ashi garami entry by retracting their knee before you complete the leg triangle—what chain attack option remains?",
-        "answer": "When the opponent retracts their knee successfully, follow their leg with your hips rather than releasing contact. This pursuit typically allows you to enter 50-50 guard, maintaining bilateral leg entanglement where you still have offensive submission opportunities. From 50-50, you can work toward heel hook attempts, transition to inside ashi through superior inside space control, or use the entanglement to sweep and establish top position while maintaining leg control."
+        "answer": "When the opponent retracts their knee successfully, follow their leg with your hips rather than releasing contact. This pursuit typically allows you to enter 50-50 guard, maintaining bilateral leg entanglement where you still have offensive submission opportunities. From 50-50, you can work toward heel hook attempts, transition to inside ashi through superior inside space control, or use the entanglement to sweep and establish top position while maintaining leg control.",
+        "answer_line": "Follow into 50-50, keep attacking",
+        "distractors": {
+          "plausible": [
+            "Release leg and reset to guard",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Let go and stand to pass"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves leg entanglement positions that can stress knee and ankle structures. Practice grip releases and leg threading at slow speeds initially to develop control before adding intensity. When drilling, communicate clearly with your partner about pressure levels during both the Estima Lock phase and the ashi garami consolidation. The heel hook threat in ashi garami can damage knee ligaments rapidly—always tap early when caught and apply submissions with controlled, gradual pressure. Avoid explosive movements during the transition that could torque your partner's joints unexpectedly. Practitioners with existing knee or ankle injuries should exercise additional caution and may need to limit live application intensity.",
@@ -358,23 +468,73 @@
     "flashcards": [
       {
         "question": "What is the primary defensive window during the Estima Lock to Ashi Garami transition and why does it exist?",
-        "answer": "The primary defensive window occurs during the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami. This window exists because the attacker must transition between two distinct control systems—the inverted foot grip and the leg triangle entanglement—and there is a brief period where neither system is fully secured. During this gap, the defender's leg is held only by partial control, making extraction significantly more achievable than from either consolidated position."
+        "answer": "The primary defensive window occurs during the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami. This window exists because the attacker must transition between two distinct control systems—the inverted foot grip and the leg triangle entanglement—and there is a brief period where neither system is fully secured. During this gap, the defender's leg is held only by partial control, making extraction significantly more achievable than from either consolidated position.",
+        "answer_line": "During the grip-change gap",
+        "distractors": {
+          "plausible": [
+            "After the triangle is locked",
+            "While still in Estima grips"
+          ],
+          "trap": [
+            "There is no real window"
+          ]
+        }
       },
       {
         "question": "Your opponent's inside leg begins threading between your legs—what is the most effective immediate response?",
-        "answer": "Immediately pull your trapped knee aggressively toward your chest while simultaneously using your free leg to push against the attacker's far hip. The knee retraction prevents the inside leg from hooking deep behind your knee, which is the critical connection point for the ashi garami triangle. If you can deny this deep hook, the entire entanglement collapses and you can extract your leg to recover guard. Timing is critical—every second of delay allows the thread to deepen."
+        "answer": "Immediately pull your trapped knee aggressively toward your chest while simultaneously using your free leg to push against the attacker's far hip. The knee retraction prevents the inside leg from hooking deep behind your knee, which is the critical connection point for the ashi garami triangle. If you can deny this deep hook, the entire entanglement collapses and you can extract your leg to recover guard. Timing is critical—every second of delay allows the thread to deepen.",
+        "answer_line": "Pull knee to chest, push their hip",
+        "distractors": {
+          "plausible": [
+            "Push their shoulder to create space",
+            "Sit up and posture immediately"
+          ],
+          "trap": [
+            "Let leg relax to slip through"
+          ]
+        }
       },
       {
         "question": "Why is sitting up during the transition both a defensive opportunity and a potential risk?",
-        "answer": "Sitting up disrupts the attacker's forward weight commitment needed for ashi garami consolidation and creates frames that can stall or reverse the transition. However, sitting up also elevates your upper body into range for guillotine or front headlock attacks if the attacker reads your posture change and switches from leg attacks to upper body control. The defensive benefit outweighs the risk when timed during the grip change phase, but you must maintain hand frames on the attacker's shoulders to address any head control attempts."
+        "answer": "Sitting up disrupts the attacker's forward weight commitment needed for ashi garami consolidation and creates frames that can stall or reverse the transition. However, sitting up also elevates your upper body into range for guillotine or front headlock attacks if the attacker reads your posture change and switches from leg attacks to upper body control. The defensive benefit outweighs the risk when timed during the grip change phase, but you must maintain hand frames on the attacker's shoulders to address any head control attempts.",
+        "answer_line": "Stalls attack, risks guillotine",
+        "distractors": {
+          "plausible": [
+            "Guarantees a full escape",
+            "Has no real risk attached"
+          ],
+          "trap": [
+            "Sit up without hand frames"
+          ]
+        }
       },
       {
         "question": "What heel protection positioning should you maintain if the attacker successfully establishes ashi garami despite your defense?",
-        "answer": "If ashi garami is established, immediately turn your foot inward with toes pointed toward your own body to hide the heel from exposure. Keep your knee bent rather than extended to limit the attacker's rotational leverage. Use your free leg to push on the attacker's controlling legs and begin systematic leg extraction by addressing their inside hook first. Hiding the heel buys critical time to work escape sequences without facing immediate submission threat."
+        "answer": "If ashi garami is established, immediately turn your foot inward with toes pointed toward your own body to hide the heel from exposure. Keep your knee bent rather than extended to limit the attacker's rotational leverage. Use your free leg to push on the attacker's controlling legs and begin systematic leg extraction by addressing their inside hook first. Hiding the heel buys critical time to work escape sequences without facing immediate submission threat.",
+        "answer_line": "Turn foot inward, hide the heel",
+        "distractors": {
+          "plausible": [
+            "Point toes away to relax",
+            "Straighten the knee fully"
+          ],
+          "trap": [
+            "Extend leg to create distance"
+          ]
+        }
       },
       {
         "question": "How should you use your free leg defensively throughout the transition?",
-        "answer": "Your free leg serves as your primary defensive tool throughout the entire transition. Initially, use it to push against the attacker's hips to create distance and disrupt their lateral hip shift. As their inside leg begins threading, reposition your free leg to block or kick their threading leg away from your trapped knee. If they complete the thread, use your free leg to push on their outside leg to prevent the triangle from closing. The free leg should never be passive—it is your most powerful lever for creating the space and disruption needed to escape."
+        "answer": "Your free leg serves as your primary defensive tool throughout the entire transition. Initially, use it to push against the attacker's hips to create distance and disrupt their lateral hip shift. As their inside leg begins threading, reposition your free leg to block or kick their threading leg away from your trapped knee. If they complete the thread, use your free leg to push on their outside leg to prevent the triangle from closing. The free leg should never be passive—it is your most powerful lever for creating the space and disruption needed to escape.",
+        "answer_line": "Push, block, then prevent triangle",
+        "distractors": {
+          "plausible": [
+            "Keep it still to conserve energy",
+            "Wrap it around their back"
+          ],
+          "trap": [
+            "Cross it over for a submission"
+          ]
+        }
       }
     ],
     "training_progressions": [

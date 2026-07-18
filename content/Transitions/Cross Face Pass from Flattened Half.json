@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate leg extraction during the cross face pass?",
-        "answer": "The optimal moment is when your opponent is focused on managing the crossface pressure or has just completed a bridge attempt. During the bridge recovery, they are momentarily settling their hips back to the mat and cannot actively defend leg extraction. Timing the windshield-wiper motion with this settling phase exploits the brief window where their hook pressure is weakest and their defensive attention is divided."
+        "answer": "The optimal moment is when your opponent is focused on managing the crossface pressure or has just completed a bridge attempt. During the bridge recovery, they are momentarily settling their hips back to the mat and cannot actively defend leg extraction. Timing the windshield-wiper motion with this settling phase exploits the brief window where their hook pressure is weakest and their defensive attention is divided.",
+        "answer_line": "During bridge recovery settle",
+        "distractors": {
+          "plausible": [
+            "Right when crossface is set",
+            "As soon as hips are squared"
+          ],
+          "trap": [
+            "While hook grip is strongest"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can effectively begin the cross face pass from flattened half guard?",
-        "answer": "You need established crossface control turning their head away, chest-to-chest contact with settled weight through skeletal alignment, the opponent's frames collapsed so they cannot create distance, and their underhook neutralized or controlled. Without all four conditions, attempting the pass creates openings for frame recovery or guard transitions that undo your pressure advantage."
+        "answer": "You need established crossface control turning their head away, chest-to-chest contact with settled weight through skeletal alignment, the opponent's frames collapsed so they cannot create distance, and their underhook neutralized or controlled. Without all four conditions, attempting the pass creates openings for frame recovery or guard transitions that undo your pressure advantage.",
+        "answer_line": "All four control points locked",
+        "distractors": {
+          "plausible": [
+            "Just having crossface control",
+            "Chest pressure only, ignore frames"
+          ],
+          "trap": [
+            "Attack before killing underhook"
+          ]
+        }
       },
       {
         "question": "How does the crossface mechanically create the angle necessary for leg extraction?",
-        "answer": "The crossface turns the opponent's head away from the passing direction, which rotates their shoulders and creates a wedge between their upper body and lower body alignment. This wedge effect restricts their ability to follow your lateral hip movement with their own hips, allowing you to walk your feet and create the extraction angle without the opponent mirroring your movement to maintain their hook."
+        "answer": "The crossface turns the opponent's head away from the passing direction, which rotates their shoulders and creates a wedge between their upper body and lower body alignment. This wedge effect restricts their ability to follow your lateral hip movement with their own hips, allowing you to walk your feet and create the extraction angle without the opponent mirroring your movement to maintain their hook.",
+        "answer_line": "Head turn wedges hips apart",
+        "distractors": {
+          "plausible": [
+            "Chest weight alone creates it",
+            "Hip pressure rotates their spine"
+          ],
+          "trap": [
+            "Yanking the far arm for space"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the cross face pass fails even when crossface control is established?",
-        "answer": "The most common failure is lifting chest pressure during the angle creation or leg extraction phase. Many practitioners unconsciously reduce chest contact when walking their feet or attempting to free their leg. This creates space that allows frame recovery, underhook re-establishment, or knee shield insertion, negating the positional advantage of the crossface and requiring the entire flattening sequence to be repeated."
+        "answer": "The most common failure is lifting chest pressure during the angle creation or leg extraction phase. Many practitioners unconsciously reduce chest contact when walking their feet or attempting to free their leg. This creates space that allows frame recovery, underhook re-establishment, or knee shield insertion, negating the positional advantage of the crossface and requiring the entire flattening sequence to be repeated.",
+        "answer_line": "Lifting chest pressure",
+        "distractors": {
+          "plausible": [
+            "Losing the head turn angle",
+            "Rushing the foot-walk too fast"
+          ],
+          "trap": [
+            "Reaching for the far underhook"
+          ]
+        }
       },
       {
         "question": "Where should your free hand be positioned during the cross face pass and why?",
-        "answer": "Your free hand should control the opponent's far hip, blocking their ability to create hip movement or shrimp away from your pressure. This hand prevents them from using hip escapes to follow your angle creation and keeps their lower body pinned while your crossface controls their upper body. Without hip control, opponents can match your lateral movement and maintain their hook position throughout the passing attempt."
+        "answer": "Your free hand should control the opponent's far hip, blocking their ability to create hip movement or shrimp away from your pressure. This hand prevents them from using hip escapes to follow your angle creation and keeps their lower body pinned while your crossface controls their upper body. Without hip control, opponents can match your lateral movement and maintain their hook position throughout the passing attempt.",
+        "answer_line": "Pin the far hip",
+        "distractors": {
+          "plausible": [
+            "Control the near shoulder",
+            "Grip their belt for leverage"
+          ],
+          "trap": [
+            "Reach for a collar tie"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your shoulder pressure during the crossface and why?",
-        "answer": "Drive your shoulder pressure diagonally downward and across, pushing through the opponent's jawline toward the mat on the far side of their head. This diagonal angle creates maximum head rotation while simultaneously compressing their chest. Driving straight down provides pressure but minimal head turning, while driving purely across lacks the weight component needed to prevent bridging and frame recovery."
+        "answer": "Drive your shoulder pressure diagonally downward and across, pushing through the opponent's jawline toward the mat on the far side of their head. This diagonal angle creates maximum head rotation while simultaneously compressing their chest. Driving straight down provides pressure but minimal head turning, while driving purely across lacks the weight component needed to prevent bridging and frame recovery.",
+        "answer_line": "Diagonal, down through the jaw",
+        "distractors": {
+          "plausible": [
+            "Straight down through the chest",
+            "Straight across the face"
+          ],
+          "trap": [
+            "Push up and away from mat"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip with their near-side hand during the pass attempt - how do you respond?",
-        "answer": "Collapse their frame by driving increased chest and hip pressure forward while pinching your elbow against your body to trap their hand between your hip and their own body. Once their frame is compromised, use the opportunity to advance your passing angle. Their commitment of a hand to the hip frame temporarily eliminates their ability to fight for the underhook, creating a window for accelerated angle creation."
+        "answer": "Collapse their frame by driving increased chest and hip pressure forward while pinching your elbow against your body to trap their hand between your hip and their own body. Once their frame is compromised, use the opportunity to advance your passing angle. Their commitment of a hand to the hip frame temporarily eliminates their ability to fight for the underhook, creating a window for accelerated angle creation.",
+        "answer_line": "Collapse frame, trap their hand",
+        "distractors": {
+          "plausible": [
+            "Peel their wrist off immediately",
+            "Back off to reset position"
+          ],
+          "trap": [
+            "Grab their wrist and pull away"
+          ]
+        }
       },
       {
         "question": "If your opponent re-establishes knee shield during your cross face pass attempt, what follow-up techniques should you chain to?",
-        "answer": "Transition to a smash pass by driving your hip pressure into their knee shield to collapse it, or switch to a long step pass by stepping your free leg over their shield. The crossface you maintained gives you significant advantage for either follow-up because their head is already turned away. You can also transition to an arm triangle setup if their near arm comes across their body while fighting the re-established knee shield."
+        "answer": "Transition to a smash pass by driving your hip pressure into their knee shield to collapse it, or switch to a long step pass by stepping your free leg over their shield. The crossface you maintained gives you significant advantage for either follow-up because their head is already turned away. You can also transition to an arm triangle setup if their near arm comes across their body while fighting the re-established knee shield.",
+        "answer_line": "Smash the shield or long step",
+        "distractors": {
+          "plausible": [
+            "Switch base and re-crossface",
+            "Circle back to guard pull"
+          ],
+          "trap": [
+            "Abandon crossface to armdrag"
+          ]
+        }
       }
     ],
     "safety_considerations": "The crossface applies significant pressure to the opponent's face, jaw, and cervical spine. Position your forearm across the jawline rather than the throat to avoid tracheal compression. In training, apply pressure gradually and release immediately upon tap signals. Be aware that extreme crossface pressure combined with full body weight can create cervical spine strain, particularly for smaller training partners. Never crank the head violently - use steady, controlled pressure that turns rather than torques the neck. Monitor your partner's breathing and reduce pressure if they show signs of respiratory distress.",
@@ -390,23 +470,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a cross face pass rather than simply maintaining flattened half guard?",
-        "answer": "The earliest cue is their feet beginning to walk laterally toward the trapped leg side while maintaining or increasing crossface pressure. Simple position maintenance involves static pressure without lateral movement, while the pass setup involves deliberate foot-walking creating the angle needed for leg extraction. Detecting this lateral movement early provides the maximum window for defensive action before the angle becomes sufficient."
+        "answer": "The earliest cue is their feet beginning to walk laterally toward the trapped leg side while maintaining or increasing crossface pressure. Simple position maintenance involves static pressure without lateral movement, while the pass setup involves deliberate foot-walking creating the angle needed for leg extraction. Detecting this lateral movement early provides the maximum window for defensive action before the angle becomes sufficient.",
+        "answer_line": "Feet walking toward trapped leg",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure increasing",
+            "Hips driving forward harder"
+          ],
+          "trap": [
+            "Hips settling flat on mat"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure during the pass - where should your defensive hands be positioned?",
-        "answer": "Your near-side hand should fight for the underhook on their far side, providing structural resistance against further flattening. Your far-side hand should frame against their hip or bicep to create minimal space for hip movement. Avoid extending either hand toward their head or chest, which exposes your arms to kimura and americana submissions without improving your defensive positioning against the pass."
+        "answer": "Your near-side hand should fight for the underhook on their far side, providing structural resistance against further flattening. Your far-side hand should frame against their hip or bicep to create minimal space for hip movement. Avoid extending either hand toward their head or chest, which exposes your arms to kimura and americana submissions without improving your defensive positioning against the pass.",
+        "answer_line": "Underhook fight, frame the hip",
+        "distractors": {
+          "plausible": [
+            "Both hands push on their chest",
+            "Frame both arms on their head"
+          ],
+          "trap": [
+            "Reach across for a collar grip"
+          ]
+        }
       },
       {
         "question": "At what point during the cross face pass is the defender's window for recovery most favorable?",
-        "answer": "The most favorable window occurs during the foot-walking phase when the passer's base narrows and their weight transitions laterally between stable positions. At this moment, their pressure is shifting rather than settled, and a well-timed hip escape can disrupt their angle creation significantly. The window closes once they pin your thigh with their hip and begin the leg extraction, at which point defensive options become severely limited."
+        "answer": "The most favorable window occurs during the foot-walking phase when the passer's base narrows and their weight transitions laterally between stable positions. At this moment, their pressure is shifting rather than settled, and a well-timed hip escape can disrupt their angle creation significantly. The window closes once they pin your thigh with their hip and begin the leg extraction, at which point defensive options become severely limited.",
+        "answer_line": "During their foot-walking phase",
+        "distractors": {
+          "plausible": [
+            "Right after crossface is set",
+            "Once hip pin is fully locked"
+          ],
+          "trap": [
+            "After leg extraction begins"
+          ]
+        }
       },
       {
         "question": "How does the direction of your hip escape affect your ability to prevent the cross face pass?",
-        "answer": "Shrimping toward the trapped leg side is most effective because it moves your hips in the opposite direction of the passer's intended angle creation, closing the space they need for leg extraction. Shrimping toward the free leg side or away from the opponent can expose your back and actually assist the passer's angle creation by separating your hips from their pressure control point and opening the extraction path."
+        "answer": "Shrimping toward the trapped leg side is most effective because it moves your hips in the opposite direction of the passer's intended angle creation, closing the space they need for leg extraction. Shrimping toward the free leg side or away from the opponent can expose your back and actually assist the passer's angle creation by separating your hips from their pressure control point and opening the extraction path.",
+        "answer_line": "Shrimp toward trapped leg side",
+        "distractors": {
+          "plausible": [
+            "Shrimp toward the free leg",
+            "Shrimp straight back flat"
+          ],
+          "trap": [
+            "Turn away and expose the back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped leg with a windshield-wiper motion - what is the highest priority defensive action?",
-        "answer": "Immediately clamp your leg hook tighter by squeezing your knees together and pulling your heels toward your buttocks to increase hook grip strength. Simultaneously execute a sharp hip escape toward the trapped leg side to remove the angle the passer created for extraction. If the hook is already significantly compromised, transition immediately to inserting your knee for a knee shield before they complete the pass, as recovering full hook control once extraction has begun is rarely successful."
+        "answer": "Immediately clamp your leg hook tighter by squeezing your knees together and pulling your heels toward your buttocks to increase hook grip strength. Simultaneously execute a sharp hip escape toward the trapped leg side to remove the angle the passer created for extraction. If the hook is already significantly compromised, transition immediately to inserting your knee for a knee shield before they complete the pass, as recovering full hook control once extraction has begun is rarely successful.",
+        "answer_line": "Clamp hook, hip escape trapped side",
+        "distractors": {
+          "plausible": [
+            "Push their head away first",
+            "Wait and reset base slowly"
+          ],
+          "trap": [
+            "Let go of hook, frame instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

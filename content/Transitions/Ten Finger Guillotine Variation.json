@@ -243,7 +243,17 @@
       },
       {
         "question": "What is the most critical mechanical detail of the ten finger interlace that determines finishing success?",
-        "answer": "The depth of the finger interlace is paramount. Fingers should mesh together past the second knuckle, creating a solid structural cage rather than a superficial fingertip connection. Shallow interlace allows the grip to slip under pressure, while deep interlace creates a lock that actually strengthens under load. The grip should be compact and tight against the throat before any squeezing begins."
+        "answer": "The depth of the finger interlace is paramount. Fingers should mesh together past the second knuckle, creating a solid structural cage rather than a superficial fingertip connection. Shallow interlace allows the grip to slip under pressure, while deep interlace creates a lock that actually strengthens under load. The grip should be compact and tight against the throat before any squeezing begins.",
+        "answer_line": "Interlace past the second knuckle",
+        "distractors": {
+          "plausible": [
+            "Fingertip hook, squeeze hard fast",
+            "Wide palm grip, then interlace"
+          ],
+          "trap": [
+            "Loose grip first, tighten under load"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points when attempting this variation?",
@@ -255,11 +265,31 @@
       },
       {
         "question": "In which direction should the primary finishing force be applied?",
-        "answer": "The primary force vector is a backward pull toward your own sternum combined with an upward arch of your back. This creates a closing mechanism where the forearm blade drives into the throat while the interlaced grip acts as the anchor point. Avoid pulling sideways or lifting away from your body, as this reduces the mechanical advantage and allows space for the opponent to breathe or adjust their defensive position."
+        "answer": "The primary force vector is a backward pull toward your own sternum combined with an upward arch of your back. This creates a closing mechanism where the forearm blade drives into the throat while the interlaced grip acts as the anchor point. Avoid pulling sideways or lifting away from your body, as this reduces the mechanical advantage and allows space for the opponent to breathe or adjust their defensive position.",
+        "answer_line": "Pull to sternum, arch the back",
+        "distractors": {
+          "plausible": [
+            "Lift straight up and away",
+            "Pull sideways across the neck"
+          ],
+          "trap": [
+            "Push forearm down into the mat"
+          ]
+        }
       },
       {
         "question": "Your opponent begins vigorously hand fighting your interlaced fingers during the grip transition—how do you respond?",
-        "answer": "Complete the finger interlace as rapidly as possible and immediately tighten the grip against your chest before they can separate your hands. If they successfully prevent the interlace, abandon the ten finger attempt and re-establish your previous grip configuration. The worst outcome is being stuck without any grip at all. Either commit fully to the new grip or return to your original hold within one to two seconds."
+        "answer": "Complete the finger interlace as rapidly as possible and immediately tighten the grip against your chest before they can separate your hands. If they successfully prevent the interlace, abandon the ten finger attempt and re-establish your previous grip configuration. The worst outcome is being stuck without any grip at all. Either commit fully to the new grip or return to your original hold within one to two seconds.",
+        "answer_line": "Commit fast or revert to old grip",
+        "distractors": {
+          "plausible": [
+            "Slow down, muscle through the fight",
+            "Switch to a different submission"
+          ],
+          "trap": [
+            "Let go of both grips to reset"
+          ]
+        }
       },
       {
         "question": "If the ten finger guillotine is defended, what chain attacks should you pursue?",
@@ -384,7 +414,17 @@
       },
       {
         "question": "When is the optimal moment to attempt your escape from the ten finger guillotine?",
-        "answer": "The optimal escape window is during the grip transition itself—the one-to-two-second period when the opponent releases their original grip and has not yet completed the finger interlace. During this brief window, their control is at its weakest because neither grip is fully secured. Posture up explosively during this moment, as waiting until the interlaced grip locks makes escape significantly more difficult."
+        "answer": "The optimal escape window is during the grip transition itself—the one-to-two-second period when the opponent releases their original grip and has not yet completed the finger interlace. During this brief window, their control is at its weakest because neither grip is fully secured. Posture up explosively during this moment, as waiting until the interlaced grip locks makes escape significantly more difficult.",
+        "answer_line": "During the grip transition itself",
+        "distractors": {
+          "plausible": [
+            "Right after the interlace locks",
+            "Once pressure feels heaviest"
+          ],
+          "trap": [
+            "Wait and conserve energy first"
+          ]
+        }
       },
       {
         "question": "What happens if you fail to defend before the ten finger grip is fully locked?",
@@ -392,7 +432,17 @@
       },
       {
         "question": "How should you prioritize your defensive responses when caught in a ten finger guillotine?",
-        "answer": "First priority is chin tuck to protect the trachea and reduce choking surface area. Second, frame against the opponent's hips to prevent full compression and create space. Third, work hand fighting to separate the interlaced fingers, targeting the weakest connection points. Fourth, use hip movement to change your angle relative to the choke. Layer these defenses in sequence rather than attempting all four simultaneously."
+        "answer": "First priority is chin tuck to protect the trachea and reduce choking surface area. Second, frame against the opponent's hips to prevent full compression and create space. Third, work hand fighting to separate the interlaced fingers, targeting the weakest connection points. Fourth, use hip movement to change your angle relative to the choke. Layer these defenses in sequence rather than attempting all four simultaneously.",
+        "answer_line": "Chin tuck, frame, hand fight, angle",
+        "distractors": {
+          "plausible": [
+            "Frame first, then tuck the chin",
+            "Hand fight immediately, tuck later"
+          ],
+          "trap": [
+            "Do all four defenses at once"
+          ]
+        }
       },
       {
         "question": "Why is panicking particularly dangerous when caught in this choke variation?",

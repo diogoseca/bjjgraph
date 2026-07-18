@@ -361,39 +361,129 @@
   "flashcards": [
     {
       "question": "What is chest compression in BJJ?",
-      "answer": "Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm so they cannot draw a full breath, which builds a cumulative oxygen deficit over time."
+      "answer": "Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm so they cannot draw a full breath, which builds a cumulative oxygen deficit over time.",
+      "answer_line": "Sustained weight restricts breathing",
+      "distractors": {
+        "plausible": [
+          "Quick squeeze causes instant tap",
+          "Pressure cuts blood to the brain"
+        ],
+        "trap": [
+          "Release pressure to let them rest"
+        ]
+      }
     },
     {
       "question": "Why is sustained compression far more effective than a momentary squeeze?",
-      "answer": "Its effect is cumulative. Each restricted breath forces the defender to expand the ribcage against your weight, compounding fatigue and oxygen debt over minutes until exhaustion and breathing distress force the tap."
+      "answer": "Its effect is cumulative. Each restricted breath forces the defender to expand the ribcage against your weight, compounding fatigue and oxygen debt over minutes until exhaustion and breathing distress force the tap.",
+      "answer_line": "Cumulative fatigue builds over time",
+      "distractors": {
+        "plausible": [
+          "One big squeeze taps them fast",
+          "Speed matters more than duration"
+        ],
+        "trap": [
+          "Release then resqueeze for shock"
+        ]
+      }
     },
     {
       "question": "Which muscle is the primary target of chest compression and why?",
-      "answer": "The diaphragm, the main breathing muscle. It contracts downward during inhalation, so loading the abdomen and lower ribs blocks that downward movement and forces shallow, inefficient chest breathing that cannot sustain exertion."
+      "answer": "The diaphragm, the main breathing muscle. It contracts downward during inhalation, so loading the abdomen and lower ribs blocks that downward movement and forces shallow, inefficient chest breathing that cannot sustain exertion.",
+      "answer_line": "Diaphragm, blocks downward breath",
+      "distractors": {
+        "plausible": [
+          "Lungs, reduces total air capacity",
+          "Intercostal muscles between ribs"
+        ],
+        "trap": [
+          "Trachea, cuts off airflow directly"
+        ]
+      }
     },
     {
       "question": "How do you concentrate weight to maximize compression instead of just feeling heavy?",
-      "answer": "Drive weight through focal contact points such as the shoulder into the sternum, the hips onto the lower ribs, or a body-triangle squeeze around the midsection. Less contact area with the same weight produces greater pressure."
+      "answer": "Drive weight through focal contact points such as the shoulder into the sternum, the hips onto the lower ribs, or a body-triangle squeeze around the midsection. Less contact area with the same weight produces greater pressure.",
+      "answer_line": "Shoulder, hips, or triangle squeeze",
+      "distractors": {
+        "plausible": [
+          "Spread weight evenly across torso",
+          "Push with hands into their chest"
+        ],
+        "trap": [
+          "Base wide for stability first"
+        ]
+      }
     },
     {
       "question": "What is lateral breathing and why does it matter on defense?",
-      "answer": "Lateral breathing means drawing air into the sides and back of the ribcage, where compression is lighter when the sternum and front ribs are loaded. It extends survival time and preserves clear decision-making under heavy pressure."
+      "answer": "Lateral breathing means drawing air into the sides and back of the ribcage, where compression is lighter when the sternum and front ribs are loaded. It extends survival time and preserves clear decision-making under heavy pressure.",
+      "answer_line": "Breathe into sides/back of ribs",
+      "distractors": {
+        "plausible": [
+          "Take deep breaths before engaging",
+          "Hold breath to resist pressure"
+        ],
+        "trap": [
+          "Arch chest up to get air"
+        ]
+      }
     },
     {
       "question": "Which positions are the highest-percentage platforms for chest compression?",
-      "answer": "Mount, side control, kesa gatame, north-south, and back control with a body triangle all let you rest concentrated body weight on the torso while denying the space needed to expand the ribcage and breathe."
+      "answer": "Mount, side control, kesa gatame, north-south, and back control with a body triangle all let you rest concentrated body weight on the torso while denying the space needed to expand the ribcage and breathe.",
+      "answer_line": "Mount, side control, north-south",
+      "distractors": {
+        "plausible": [
+          "Closed guard and half guard",
+          "Standing clinch and takedowns"
+        ],
+        "trap": [
+          "Turtle position for control"
+        ]
+      }
     },
     {
       "question": "What is the most common attacking error with chest compression?",
-      "answer": "Muscling the squeeze instead of using gravity and skeletal alignment. Active squeezing tires the attacker quickly, while resting bodyweight through an aligned skeleton can be sustained for the minutes compression requires to work."
+      "answer": "Muscling the squeeze instead of using gravity and skeletal alignment. Active squeezing tires the attacker quickly, while resting bodyweight through an aligned skeleton can be sustained for the minutes compression requires to work.",
+      "answer_line": "Rest weight, don't muscle squeeze",
+      "distractors": {
+        "plausible": [
+          "Not squeezing hard enough",
+          "Moving too much between positions"
+        ],
+        "trap": [
+          "Standing up to add height pressure"
+        ]
+      }
     },
     {
       "question": "How does chest compression set up submissions?",
-      "answer": "By draining the opponent's energy and slowing their defensive reactions, sustained compression opens transitions to chokes and joint locks that a fresh, rested defender could otherwise resist or escape."
+      "answer": "By draining the opponent's energy and slowing their defensive reactions, sustained compression opens transitions to chokes and joint locks that a fresh, rested defender could otherwise resist or escape.",
+      "answer_line": "Drains energy, slows defense",
+      "distractors": {
+        "plausible": [
+          "Directly cuts off blood flow",
+          "Distracts from limb attacks"
+        ],
+        "trap": [
+          "Let go to reset a fresh attack"
+        ]
+      }
     },
     {
       "question": "What safety risk must you manage when applying a body-triangle squeeze in training?",
-      "answer": "Excessive force can crack ribs, especially with smaller partners or those with lower bone density. Apply pressure progressively, watch for partner distress, and calibrate the squeeze to the size difference."
+      "answer": "Excessive force can crack ribs, especially with smaller partners or those with lower bone density. Apply pressure progressively, watch for partner distress, and calibrate the squeeze to the size difference.",
+      "answer_line": "Can crack ribs, apply gradually",
+      "distractors": {
+        "plausible": [
+          "Only risk is losing position",
+          "Risk of shoulder injury only"
+        ],
+        "trap": [
+          "Squeeze max force immediately"
+        ]
+      }
     }
   ],
   "clips": [

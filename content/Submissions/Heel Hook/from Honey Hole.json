@@ -296,52 +296,152 @@
       {
         "question": "What anatomical structures does the heel hook from Honey Hole primarily attack?",
         "answer": "The heel hook attacks the knee ligaments through rotational force transmitted from the ankle. The ACL is the primary target, with the MCL and LCL receiving simultaneous lateral stress. The rotational force travels from the heel grip through the ankle joint and tibia, creating torque on the knee that the ligaments are not designed to resist. Secondary stress occurs on the meniscus and ankle joint capsule.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "ACL via ankle rotation",
+        "distractors": {
+          "plausible": [
+            "Ankle joint is primary target",
+            "Meniscus takes the worst force"
+          ],
+          "trap": [
+            "Achilles tendon ruptures first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips toward you while you're establishing the cup grip — what adjustment prevents escape?",
         "answer": "Immediately drive your outside leg deeper across their hip to pin them flat, and follow their rotation with your own hips to maintain perpendicular alignment. Do not release the triangle to chase the rotation — instead, tighten the triangle and accelerate your grip sequence. If they commit heavily to rotation, the heel is momentarily more exposed, so capitalize by securing the cup grip during their movement rather than after they settle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow hips, tighten triangle",
+        "distractors": {
+          "plausible": [
+            "Chase rotation, grip stays loose",
+            "Sit back and reset the position"
+          ],
+          "trap": [
+            "Release triangle to re-angle"
+          ]
+        }
       },
       {
         "question": "What control must be established before committing your hands to the heel grip?",
         "answer": "Three control elements must be confirmed: the inside leg triangle must be fully locked around the opponent's thigh with your ankle secured behind their leg, your outside leg must be crossing their hip with shin pressure pinning them down, and you must have upper body control through a grip on their far leg, shorts, or wrist to prevent them from sitting up or rotating. Committing hands to the heel before all three elements are secured creates escape opportunities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle, hip pin, upper grip",
+        "distractors": {
+          "plausible": [
+            "Leg triangle alone is enough",
+            "Cup grip first, control after"
+          ],
+          "trap": [
+            "Grab the heel immediately"
+          ]
+        }
       },
       {
         "question": "How do you recognize the point of no escape when finishing the heel hook from Honey Hole?",
         "answer": "The finish becomes inevitable when three conditions align simultaneously: your cup grip is fully seated on the heel bone with the blade of the wrist contacting directly, your elbows are clamped together trapping the foot against your chest, and your hip bridge begins extending. At this stage, the opponent cannot grip-fight effectively because both your arms form a unified structure, and the rotational force from the hip bridge overwhelms any remaining resistance. This is also the point where training partners should be tapping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cup seated, elbows clamped, bridging",
+        "distractors": {
+          "plausible": [
+            "Cup grip alone is sufficient",
+            "Opponent goes completely still"
+          ],
+          "trap": [
+            "Only once they verbally tap"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that causes the heel hook to fail from Honey Hole?",
         "answer": "The most common error is applying rotational force with the arms alone rather than engaging the posterior chain through hip bridge and torso rotation. Arm-only rotation provides insufficient force that experienced defenders can resist through grip fighting, and the arms fatigue quickly, causing the grip to deteriorate. The correction is to treat the arms as rigid connectors and drive all rotational force through the hip extension, lat engagement, and torso turning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arms only, no hip bridge",
+        "distractors": {
+          "plausible": [
+            "Rotating the heel too fast",
+            "Clamping elbows too early"
+          ],
+          "trap": [
+            "Yanking hard with both hands"
+          ]
+        }
       },
       {
         "question": "Your cup grip is shallow and you feel the opponent's foot sliding — how do you adjust without losing position?",
         "answer": "Do not release and re-grip, as this creates an escape window. Instead, use your secondary hand to push the ball of the opponent's foot toward you, which feeds the heel deeper into your primary hand. Simultaneously squeeze your elbows tighter together to prevent any further slippage. If the foot continues sliding despite adjustment, release the heel attempt entirely, re-establish positional control, and re-expose the heel properly before attempting the grip again.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push foot in, squeeze elbows",
+        "distractors": {
+          "plausible": [
+            "Release and quickly re-grip",
+            "Switch straight to an ankle lock"
+          ],
+          "trap": [
+            "Force rotation despite slipping"
+          ]
+        }
       },
       {
         "question": "Why is the heel hook from Honey Hole considered more dangerous than heel hooks from other leg entanglements?",
         "answer": "The inside leg triangle of Honey Hole prevents the opponent from rotating their knee in alignment with the heel hook force, which is the primary defense against rotational leg locks. In outside ashi or standard ashi positions, the opponent can rotate their knee to match the direction of force, reducing ligament stress. The Honey Hole triangle locks the knee in place while the heel is rotated, creating maximum shear force across the ligaments with no available escape mechanism once the grip is established.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Triangle blocks knee rotation",
+        "distractors": {
+          "plausible": [
+            "It exposes the heel deeper",
+            "The grip is simply tighter"
+          ],
+          "trap": [
+            "It finishes faster, not harder"
+          ]
+        }
       },
       {
         "question": "What should you do immediately when your training partner taps to the heel hook?",
         "answer": "Stop all rotational pressure instantly — do not complete any additional rotation after the tap. Release the heel grip completely before unwrapping the leg entanglement, as maintaining the grip while moving legs can inadvertently apply additional torque. Allow your partner to extract their leg at their own pace. Ask about knee and ankle status before continuing. Report any discomfort to the instructor even if it seems minor, because knee ligament damage can present with delayed symptoms.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, release grip, let them exit",
+        "distractors": {
+          "plausible": [
+            "Slowly ease off the pressure",
+            "Unwrap legs before the grip"
+          ],
+          "trap": [
+            "Hold position until fully still"
+          ]
+        }
       },
       {
         "question": "In a competition setting, how do you adjust your finishing approach when the referee is watching for submission signals?",
         "answer": "In competition, secure the full control sequence before attacking the heel to demonstrate positional dominance and avoid premature stalling calls. Apply the finish decisively but progressively — competition application is faster than training but still controlled, taking 2-3 seconds of escalating pressure. Maintain the position after the tap signal until the referee intervenes. If the opponent does not tap, continue progressive pressure and look for the referee to stop the match. Never release because you assume the opponent should have tapped.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control first, finish progressively",
+        "distractors": {
+          "plausible": [
+            "Attack the heel first for points",
+            "Ease off once they stiffen up"
+          ],
+          "trap": [
+            "Release once you assume they'd tap"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by hiding their heel deep against their own body — what submission chain should you pursue?",
         "answer": "Transition to the kneebar by extending their trapped leg and driving downward pressure on the knee joint. The boot-hiding defense actually straightens the leg and exposes the knee for kneebar finish. If they bend the knee to defend the kneebar, the heel re-emerges for the heel hook. This creates a binary dilemma: straighten the leg to hide the heel and expose the knee, or bend the knee to protect it and expose the heel. Alternate between threats based on their defensive choice.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Kneebar, then back to heel hook",
+        "distractors": {
+          "plausible": [
+            "Switch to a toe hold instead",
+            "Abandon leg, pass to mount"
+          ],
+          "trap": [
+            "Force the heel through anyway"
+          ]
+        }
       }
     ],
     "clips": [
@@ -466,27 +566,77 @@
       {
         "question": "How do you recognize that the heel hook from Honey Hole is being set up?",
         "answer": "The key recognition cues are: feeling the inside leg triangle threading around your thigh with the opponent's ankle hooking behind your leg, their hips driving tight against your trapped leg in perpendicular alignment, and their hands beginning to reach toward your foot or heel. Loss of hip rotation ability is the definitive signal — when you try to rotate your hips and feel mechanical resistance from the triangle, the Honey Hole is fully established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Can't rotate hips - triangle's set",
+        "distractors": {
+          "plausible": [
+            "Feel pressure on your knee",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Wait until heel pain starts"
+          ]
+        }
       },
       {
         "question": "When should you tap to the heel hook from Honey Hole rather than continuing to defend?",
         "answer": "Tap immediately when you feel any rotational pressure on your heel after the opponent has established the cup grip. The knee provides zero pain warning before structural failure — by the time you feel pain, the ligament is already damaged. If the opponent has a secured cup grip with elbows clamped and begins any hip extension or rotation, the finish is inevitable. Tapping at this stage preserves your knee; resisting risks 6-12 months of surgical recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "At first rotation on cup grip",
+        "distractors": {
+          "plausible": [
+            "When pain actually starts",
+            "Once elbows are clamped only"
+          ],
+          "trap": [
+            "Try to power out first"
+          ]
+        }
       },
       {
         "question": "What is the highest-percentage defensive response when you first feel the Honey Hole triangle forming?",
         "answer": "Explosive hip rotation toward the opponent's legs to enter 50-50 guard is the highest-percentage escape. This must be executed within 1-2 seconds of feeling the triangle form, before the opponent secures your heel. The rotation neutralizes their inside position advantage by creating symmetrical entanglement. Commit fully with maximum force — partial rotation fails and worsens your position. This escape becomes dramatically less effective once the opponent has upper body control or heel access.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate hips into 50-50 fast",
+        "distractors": {
+          "plausible": [
+            "Pull the knee straight back",
+            "Wait and see their next move"
+          ],
+          "trap": [
+            "Sit up to grip their sleeve"
+          ]
+        }
       },
       {
         "question": "How should you position your free leg while trapped in the Honey Hole?",
         "answer": "Keep your free leg actively mobile — use it to post on the mat for escape leverage, push against the opponent's hip to create space, or hook their legs to initiate counter-entanglement into 50-50 guard. Never let the opponent control both legs simultaneously, as this eliminates all escape options. If the opponent reaches for your free leg, that divided attention creates a window to explosively escape with your trapped leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep it active, post or hook",
+        "distractors": {
+          "plausible": [
+            "Tuck it tight for safety",
+            "Kick out to create distance"
+          ],
+          "trap": [
+            "Let it go still to save energy"
+          ]
+        }
       },
       {
         "question": "Why is attempting to pull your trapped leg straight back against the triangle ineffective?",
         "answer": "The inside leg triangle creates mechanical imprisonment that makes linear extraction physically impossible regardless of strength. The triangle's geometry converts pulling force into tighter entanglement — the harder you pull straight back, the more the triangle cinches around your thigh. Effective escape requires changing the angle through rotational movement (hip rotation into 50-50) or body position changes (inversion), which disrupt the triangle's geometry rather than fighting against it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle tightens on straight pull",
+        "distractors": {
+          "plausible": [
+            "Not enough strength applied",
+            "Legs simply aren't flexible enough"
+          ],
+          "trap": [
+            "Pull harder and faster instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

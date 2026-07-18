@@ -259,47 +259,157 @@
     "flashcards": [
       {
         "question": "What is the most critical mechanical principle when transitioning from cross body ride to side control?",
-        "answer": "Pressure must precede movement. You must first collapse the opponent's turtle structure through sustained shoulder pressure before attempting to slide into the side control position. Trying to transition while the opponent still has a strong turtle base creates space and scramble opportunities that defeat the purpose of the technique."
+        "answer": "Pressure must precede movement. You must first collapse the opponent's turtle structure through sustained shoulder pressure before attempting to slide into the side control position. Trying to transition while the opponent still has a strong turtle base creates space and scramble opportunities that defeat the purpose of the technique.",
+        "answer_line": "Collapse turtle before sliding",
+        "distractors": {
+          "plausible": [
+            "Slide fast before they recover",
+            "Secure grips before pressure"
+          ],
+          "trap": [
+            "Rush the slide for speed"
+          ]
+        }
       },
       {
         "question": "When should you choose to flatten to side control rather than pursue a back take from cross body ride?",
-        "answer": "Choose the side control transition when the opponent demonstrates strong turtle defense that prevents back exposure—tight elbows, hidden neck, solid posting structure, or effective hook defense. If multiple back take attempts have been defended and the opponent is successfully maintaining their defensive shell, flattening to side control provides reliable positional advancement rather than stalling in a control position."
+        "answer": "Choose the side control transition when the opponent demonstrates strong turtle defense that prevents back exposure—tight elbows, hidden neck, solid posting structure, or effective hook defense. If multiple back take attempts have been defended and the opponent is successfully maintaining their defensive shell, flattening to side control provides reliable positional advancement rather than stalling in a control position.",
+        "answer_line": "When turtle defense blocks back",
+        "distractors": {
+          "plausible": [
+            "Always prefer back take first",
+            "Flatten only when opponent tires"
+          ],
+          "trap": [
+            "Force back take vs tight defense"
+          ]
+        }
       },
       {
         "question": "What grips or control points must you secure before initiating the flatten?",
-        "answer": "Before driving the flatten, you need upper body control that prevents the opponent from standing—a harness/seatbelt grip or a deep overhook—plus a near-side control point on their far hip or far armpit. The far-hip control is the non-negotiable grip: without it the opponent simply rotates their hips and recovers guard the instant you commit weight forward."
+        "answer": "Before driving the flatten, you need upper body control that prevents the opponent from standing—a harness/seatbelt grip or a deep overhook—plus a near-side control point on their far hip or far armpit. The far-hip control is the non-negotiable grip: without it the opponent simply rotates their hips and recovers guard the instant you commit weight forward.",
+        "answer_line": "Upper body control plus far hip",
+        "distractors": {
+          "plausible": [
+            "Seatbelt grip is enough alone",
+            "Near hip control before flatten"
+          ],
+          "trap": [
+            "Skip hip control, drive forward"
+          ]
+        }
       },
       {
         "question": "In which direction should your weight and force travel during the collapse and slide?",
-        "answer": "Force travels downward through your shoulder into the opponent's near-side shoulder blade to buckle their posting arm, angled slightly toward their head by walking your feet up. Once they collapse, your weight travels laterally along their spine as your chest slides from their back to their chest—down first to break the structure, then sideways to settle into side control, never forward past their head where you can be rolled."
+        "answer": "Force travels downward through your shoulder into the opponent's near-side shoulder blade to buckle their posting arm, angled slightly toward their head by walking your feet up. Once they collapse, your weight travels laterally along their spine as your chest slides from their back to their chest—down first to break the structure, then sideways to settle into side control, never forward past their head where you can be rolled.",
+        "answer_line": "Down first, then lateral slide",
+        "distractors": {
+          "plausible": [
+            "Forward past the head, then down",
+            "Lateral first, then downward"
+          ],
+          "trap": [
+            "Drive weight past their head"
+          ]
+        }
       },
       {
         "question": "Your opponent begins executing a granby roll as you initiate the flatten—how do you respond?",
-        "answer": "Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. Keep your chest glued to their back throughout the movement. If they complete the roll, immediately establish top control in the resulting position. Resisting the roll creates separation that often results in a worse outcome than flowing with it."
+        "answer": "Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. Keep your chest glued to their back throughout the movement. If they complete the roll, immediately establish top control in the resulting position. Resisting the roll creates separation that often results in a worse outcome than flowing with it.",
+        "answer_line": "Follow the roll, stay glued",
+        "distractors": {
+          "plausible": [
+            "Brace and stop the rotation",
+            "Release grips and reset"
+          ],
+          "trap": [
+            "Fight the roll to hold position"
+          ]
+        }
       },
       {
         "question": "What role does far hip control play during this transition?",
-        "answer": "Far hip control is the primary structural element preventing guard recovery. Without it, the opponent can freely rotate their hips, insert a knee between your bodies, and recover half guard or full guard. Establishing far hip control with your near-side hand or knee before initiating the flatten ensures the most common counter—guard recovery through hip rotation—is blocked."
+        "answer": "Far hip control is the primary structural element preventing guard recovery. Without it, the opponent can freely rotate their hips, insert a knee between your bodies, and recover half guard or full guard. Establishing far hip control with your near-side hand or knee before initiating the flatten ensures the most common counter—guard recovery through hip rotation—is blocked.",
+        "answer_line": "Blocks hip rotation to guard",
+        "distractors": {
+          "plausible": [
+            "Controls opponent's shoulder",
+            "Prevents opponent from standing"
+          ],
+          "trap": [
+            "Optional if seatbelt is tight"
+          ]
+        }
       },
       {
         "question": "Why is it an error to lift your chest during the transition from back contact to chest contact?",
-        "answer": "Lifting your chest creates a gap between your body and the opponent's body. Even a momentary gap allows the opponent to insert frames, re-establish their turtle posting structure, execute a sit-through to guard recovery, or initiate a scramble. The transition must be executed as a continuous slide where your chest maintains unbroken contact, transferring from their back to their chest without separation."
+        "answer": "Lifting your chest creates a gap between your body and the opponent's body. Even a momentary gap allows the opponent to insert frames, re-establish their turtle posting structure, execute a sit-through to guard recovery, or initiate a scramble. The transition must be executed as a continuous slide where your chest maintains unbroken contact, transferring from their back to their chest without separation.",
+        "answer_line": "Creates gap for frames/scramble",
+        "distractors": {
+          "plausible": [
+            "Slows down the transition",
+            "Loses the crossface grip"
+          ],
+          "trap": [
+            "Lift chest to see hip position"
+          ]
+        }
       },
       {
         "question": "What distinguishes the knee block from other hip control methods during this transition?",
-        "answer": "The near-side knee block creates a physical barrier at the opponent's far hip that passively prevents knee insertion for guard recovery. Unlike hand-based hip control which requires grip strength and can be stripped, the knee block uses skeletal structure to maintain the barrier. This frees your hands to establish crossface and underhook control while the knee handles hip management automatically."
+        "answer": "The near-side knee block creates a physical barrier at the opponent's far hip that passively prevents knee insertion for guard recovery. Unlike hand-based hip control which requires grip strength and can be stripped, the knee block uses skeletal structure to maintain the barrier. This frees your hands to establish crossface and underhook control while the knee handles hip management automatically.",
+        "answer_line": "Passive barrier, frees hands",
+        "distractors": {
+          "plausible": [
+            "Stronger grip than the hands",
+            "Faster to establish than hands"
+          ],
+          "trap": [
+            "Lets you release all grips"
+          ]
+        }
       },
       {
         "question": "If the opponent defends the flatten and rebuilds a tight turtle, what is your highest-percentage chain attack?",
-        "answer": "Re-threaten the back take. When the opponent commits all their defensive resources to preventing the flatten—widening base and driving their weight back into you—they typically expose their back or stop defending the seatbelt. Reload full cross body ride pressure, attack the hooks or the harness, and let the back-take threat force them to flatten again, opening the side-control slide as your secondary option in a two-way dilemma."
+        "answer": "Re-threaten the back take. When the opponent commits all their defensive resources to preventing the flatten—widening base and driving their weight back into you—they typically expose their back or stop defending the seatbelt. Reload full cross body ride pressure, attack the hooks or the harness, and let the back-take threat force them to flatten again, opening the side-control slide as your secondary option in a two-way dilemma.",
+        "answer_line": "Re-threaten the back take",
+        "distractors": {
+          "plausible": [
+            "Add more downward pressure",
+            "Switch to a leg attack"
+          ],
+          "trap": [
+            "Abandon position and reset"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to commit to the slide from back contact to chest contact?",
-        "answer": "Commit to the slide the instant the opponent's posting arm buckles and their hips drop toward the mat—the moment their turtle structure breaks and they can no longer re-post. Sliding before the collapse lets them rebuild base into your moving weight; sliding too late lets them re-turtle. The trigger is tactile: you feel their near shoulder give way and their resistance to your downward pressure suddenly disappear."
+        "answer": "Commit to the slide the instant the opponent's posting arm buckles and their hips drop toward the mat—the moment their turtle structure breaks and they can no longer re-post. Sliding before the collapse lets them rebuild base into your moving weight; sliding too late lets them re-turtle. The trigger is tactile: you feel their near shoulder give way and their resistance to your downward pressure suddenly disappear.",
+        "answer_line": "Posting arm buckles, hips drop",
+        "distractors": {
+          "plausible": [
+            "Right after grips are secured",
+            "Once hips start to drop only"
+          ],
+          "trap": [
+            "Slide immediately on contact"
+          ]
+        }
       },
       {
         "question": "How do you adjust your approach when the opponent repeatedly rebuilds their turtle base during flattening attempts?",
-        "answer": "When the opponent successfully rebuilds turtle after pressure, it indicates either insufficient pressure angle or that they have developed effective re-posting timing. Adjust by changing your pressure angle—walk feet closer to their head to increase the downward component—or by threatening a back take first to force them to commit defensive resources away from base maintenance. Creating a genuine back take threat often opens the flatten as a secondary option."
+        "answer": "When the opponent successfully rebuilds turtle after pressure, it indicates either insufficient pressure angle or that they have developed effective re-posting timing. Adjust by changing your pressure angle—walk feet closer to their head to increase the downward component—or by threatening a back take first to force them to commit defensive resources away from base maintenance. Creating a genuine back take threat often opens the flatten as a secondary option.",
+        "answer_line": "Change angle or threaten back",
+        "distractors": {
+          "plausible": [
+            "Increase speed of the slide",
+            "Switch to standing guard pass"
+          ],
+          "trap": [
+            "Abandon top position entirely"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves sustained pressure on the opponent's spine and shoulders during the flattening phase. Apply pressure progressively rather than explosively to allow training partners to adjust and defend. Be aware of the opponent's neck position during crossface establishment—aggressive crossface application can strain the cervical spine. During the transition, avoid driving weight directly onto the opponent's lower back or kidneys. In training, communicate with partners about pressure levels and release immediately if they signal discomfort.",
@@ -417,19 +527,59 @@
     "flashcards": [
       {
         "question": "How do you distinguish between a back take attempt and a flattening attempt from cross body ride?",
-        "answer": "A back take attempt involves the attacker driving hooks toward your hips and securing seatbelt or collar tie grips oriented toward your back exposure. A flattening attempt involves the attacker driving shoulder pressure downward through your near-side shoulder and walking their hips toward your body rather than staying perpendicular. The key indicator is the direction of their weight—toward your back for back takes, downward through your shoulder for flattening."
+        "answer": "A back take attempt involves the attacker driving hooks toward your hips and securing seatbelt or collar tie grips oriented toward your back exposure. A flattening attempt involves the attacker driving shoulder pressure downward through your near-side shoulder and walking their hips toward your body rather than staying perpendicular. The key indicator is the direction of their weight—toward your back for back takes, downward through your shoulder for flattening.",
+        "answer_line": "Weight direction: back vs down",
+        "distractors": {
+          "plausible": [
+            "Whether hooks are in first",
+            "Which arm secures the grip"
+          ],
+          "trap": [
+            "Opponent's reaction speed"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for a granby roll defense against the flatten?",
-        "answer": "The optimal window is during the initial flattening phase before the attacker has established far hip control. Once they block your far hip with their knee or hand, the granby roll's hip rotation is severely restricted. The moment you feel concentrated downward pressure on your near shoulder but your far hip is still free is the ideal trigger for the granby roll escape."
+        "answer": "The optimal window is during the initial flattening phase before the attacker has established far hip control. Once they block your far hip with their knee or hand, the granby roll's hip rotation is severely restricted. The moment you feel concentrated downward pressure on your near shoulder but your far hip is still free is the ideal trigger for the granby roll escape.",
+        "answer_line": "Before far hip is controlled",
+        "distractors": {
+          "plausible": [
+            "After crossface is secured",
+            "Once flatten is fully complete"
+          ],
+          "trap": [
+            "After far hip is blocked"
+          ]
+        }
       },
       {
         "question": "Why is recovering half guard preferable to remaining in turtle when the flatten is partially successful?",
-        "answer": "Once the flatten has partially succeeded and your turtle structure is compromised, remaining in a degraded turtle position means you have neither the defensive advantages of a strong turtle nor the offensive options of a guard position. Half guard, while not ideal, provides established defensive frames, sweep opportunities, and guard recovery pathways that a collapsed turtle does not. The transition from compromised turtle to half guard preserves your options."
+        "answer": "Once the flatten has partially succeeded and your turtle structure is compromised, remaining in a degraded turtle position means you have neither the defensive advantages of a strong turtle nor the offensive options of a guard position. Half guard, while not ideal, provides established defensive frames, sweep opportunities, and guard recovery pathways that a collapsed turtle does not. The transition from compromised turtle to half guard preserves your options.",
+        "answer_line": "Half guard keeps escape options",
+        "distractors": {
+          "plausible": [
+            "Turtle still has some defense",
+            "Half guard is faster to reach"
+          ],
+          "trap": [
+            "Stay turtled and wait it out"
+          ]
+        }
       },
       {
         "question": "Your turtle base is collapsing under sustained pressure—what is your emergency defensive sequence?",
-        "answer": "Execute this sequence: first, drive hips explosively away from the pressure to create momentary space. Second, immediately insert your near-side knee between your body and the attacker's hip to begin establishing half guard. Third, create a forearm frame against the attacker's shoulder to prevent them from settling crossface. Fourth, complete the guard recovery by securing half guard with leg entanglement. The key is transitioning to guard before you are fully flattened, not after."
+        "answer": "Execute this sequence: first, drive hips explosively away from the pressure to create momentary space. Second, immediately insert your near-side knee between your body and the attacker's hip to begin establishing half guard. Third, create a forearm frame against the attacker's shoulder to prevent them from settling crossface. Fourth, complete the guard recovery by securing half guard with leg entanglement. The key is transitioning to guard before you are fully flattened, not after.",
+        "answer_line": "Hips away, knee in, frame, guard",
+        "distractors": {
+          "plausible": [
+            "Frame first, then move hips",
+            "Wait, then insert knee after"
+          ],
+          "trap": [
+            "Turtle harder and absorb pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -245,39 +245,129 @@
     "flashcards": [
       {
         "question": "What signals tell you it is time to abandon the Vaporizer and execute the roll transition?",
-        "answer": "Key signals include the opponent successfully neutralizing your whip-up pressure through a wide stable base, their whizzer becoming dominant enough to prevent Electric Chair attempts, and their lockdown escape progressing to the point where your figure-four configuration is loosening. When two or more primary attacks have been defended and the opponent is beginning to establish top control rather than just surviving, the roll becomes the optimal choice to maintain offensive flow rather than fighting for a deteriorating position."
+        "answer": "Key signals include the opponent successfully neutralizing your whip-up pressure through a wide stable base, their whizzer becoming dominant enough to prevent Electric Chair attempts, and their lockdown escape progressing to the point where your figure-four configuration is loosening. When two or more primary attacks have been defended and the opponent is beginning to establish top control rather than just surviving, the roll becomes the optimal choice to maintain offensive flow rather than fighting for a deteriorating position.",
+        "answer_line": "Whizzer dominant, base stable",
+        "distractors": {
+          "plausible": [
+            "Opponent barely resists once",
+            "Lockdown still feels tight"
+          ],
+          "trap": [
+            "Roll at the very first defense"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the rolling motion itself?",
-        "answer": "Maintaining at least one upper body connection point—typically the deep underhook or a modified seatbelt grip—throughout the entire rotation. Without this connection, the roll becomes a solo movement that disconnects you from the opponent, leaving you in a defensive turtle with no offensive purchase. The connection point serves as both a pivot for the rolling motion and a means of controlling where the opponent ends up relative to your turtle position, enabling immediate follow-up attacks."
+        "answer": "Maintaining at least one upper body connection point—typically the deep underhook or a modified seatbelt grip—throughout the entire rotation. Without this connection, the roll becomes a solo movement that disconnects you from the opponent, leaving you in a defensive turtle with no offensive purchase. The connection point serves as both a pivot for the rolling motion and a means of controlling where the opponent ends up relative to your turtle position, enabling immediate follow-up attacks.",
+        "answer_line": "Keep underhook connected throughout",
+        "distractors": {
+          "plausible": [
+            "Drive hips first, grip second",
+            "Keep base wide during roll"
+          ],
+          "trap": [
+            "Let go to speed up rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls heavily as you begin the roll—how do you adjust?",
-        "answer": "If you detect the sprawl early in the initiation phase, abort the roll attempt and re-engage with the lockdown while the configuration is still intact. If you are already mid-roll when the sprawl hits, redirect the rolling path slightly to the side rather than fighting directly against the downward pressure. Angling the roll laterally takes their sprawl pressure offline and can actually assist the rotational movement. Never fight directly upward against a committed sprawl from the starting position."
+        "answer": "If you detect the sprawl early in the initiation phase, abort the roll attempt and re-engage with the lockdown while the configuration is still intact. If you are already mid-roll when the sprawl hits, redirect the rolling path slightly to the side rather than fighting directly against the downward pressure. Angling the roll laterally takes their sprawl pressure offline and can actually assist the rotational movement. Never fight directly upward against a committed sprawl from the starting position.",
+        "answer_line": "Angle the roll sideways, not up",
+        "distractors": {
+          "plausible": [
+            "Abort roll, reset the lockdown",
+            "Push harder into the sprawl"
+          ],
+          "trap": [
+            "Drive straight up against sprawl"
+          ]
+        }
       },
       {
         "question": "What grip configuration survives the rolling transition most reliably?",
-        "answer": "A deep underhook threaded all the way to the opponent's far lat or shoulder blade is the most reliable grip through the roll. This grip naturally maintains tension as you rotate because it wraps around the opponent's torso and the rotational forces actually tighten rather than loosen the connection. A seatbelt grip is the second-best option. Avoid relying on collar grips, wrist grips, or overhooks as these connection types tend to break under the rotational forces of the forward roll."
+        "answer": "A deep underhook threaded all the way to the opponent's far lat or shoulder blade is the most reliable grip through the roll. This grip naturally maintains tension as you rotate because it wraps around the opponent's torso and the rotational forces actually tighten rather than loosen the connection. A seatbelt grip is the second-best option. Avoid relying on collar grips, wrist grips, or overhooks as these connection types tend to break under the rotational forces of the forward roll.",
+        "answer_line": "Deep underhook to far lat",
+        "distractors": {
+          "plausible": [
+            "Seatbelt grip around torso",
+            "Overhook on the near arm"
+          ],
+          "trap": [
+            "Collar grip for control"
+          ]
+        }
       },
       {
         "question": "What follow-up attack should you prioritize immediately after completing the roll to turtle?",
-        "answer": "The crab ride entry is the highest-priority follow-up because it directly continues the offensive chain using your maintained underhook connection. Use the surviving underhook and the close proximity from the roll to immediately hook your near leg behind the opponent's knee while threading for back access. If the crab ride is not available because the opponent created too much distance during the transition, prioritize a sit-out or Peterson roll to guard recovery rather than remaining in static turtle where they can attack your exposed back."
+        "answer": "The crab ride entry is the highest-priority follow-up because it directly continues the offensive chain using your maintained underhook connection. Use the surviving underhook and the close proximity from the roll to immediately hook your near leg behind the opponent's knee while threading for back access. If the crab ride is not available because the opponent created too much distance during the transition, prioritize a sit-out or Peterson roll to guard recovery rather than remaining in static turtle where they can attack your exposed back.",
+        "answer_line": "Crab ride entry via underhook",
+        "distractors": {
+          "plausible": [
+            "Sit-out to recover guard",
+            "Peterson roll back to guard"
+          ],
+          "trap": [
+            "Stay static in turtle position"
+          ]
+        }
       },
       {
         "question": "How does this technique fit into the broader lockdown attack system?",
-        "answer": "The Roll from Vaporizer serves as the plan B bridge in the lockdown chain: Lockdown to Vaporizer to primary attacks (Electric Chair or Old School), then secondarily Roll to Turtle to Truck or Crab Ride to Back Control or Twister. When primary attacks are defended, this roll maintains offensive flow by transitioning to the back attack pathway via turtle. Without this transition, a defended Vaporizer becomes a positional dead end that eventually leads to the opponent escaping the lockdown entirely and regaining top control."
+        "answer": "The Roll from Vaporizer serves as the plan B bridge in the lockdown chain: Lockdown to Vaporizer to primary attacks (Electric Chair or Old School), then secondarily Roll to Turtle to Truck or Crab Ride to Back Control or Twister. When primary attacks are defended, this roll maintains offensive flow by transitioning to the back attack pathway via turtle. Without this transition, a defended Vaporizer becomes a positional dead end that eventually leads to the opponent escaping the lockdown entirely and regaining top control.",
+        "answer_line": "Plan B bridge to back attacks",
+        "distractors": {
+          "plausible": [
+            "Primary attack before Vaporizer",
+            "Replaces Electric Chair entirely"
+          ],
+          "trap": [
+            "Dead end if attacks are defended"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the roll?",
-        "answer": "The optimal window is when the opponent shifts their weight forward or laterally in response to your Vaporizer whip-up pressure. Specifically, the moment after they counter your whip-up by driving forward is ideal because their forward momentum assists your rotation rather than opposing it. Avoid rolling when the opponent is sitting back on their heels or has established a wide settled base, as their anchored weight makes generating sufficient rotational momentum significantly harder and increases the probability of the roll stalling mid-transition."
+        "answer": "The optimal window is when the opponent shifts their weight forward or laterally in response to your Vaporizer whip-up pressure. Specifically, the moment after they counter your whip-up by driving forward is ideal because their forward momentum assists your rotation rather than opposing it. Avoid rolling when the opponent is sitting back on their heels or has established a wide settled base, as their anchored weight makes generating sufficient rotational momentum significantly harder and increases the probability of the roll stalling mid-transition.",
+        "answer_line": "As opponent drives forward",
+        "distractors": {
+          "plausible": [
+            "When they sit back on heels",
+            "Right after establishing lockdown"
+          ],
+          "trap": [
+            "When their base is wide and settled"
+          ]
+        }
       },
       {
         "question": "In which direction should you generate force during the roll, and why does pulling straight back fail?",
-        "answer": "Drive your hips forward and spiral underneath the opponent in the direction your underhook is pulling, threading yourself under their center of mass in a tight diagonal rather than a backward or wide looping arc. Pulling straight back opens the exact space the opponent passes into and disconnects your underhook, leaving you flattened. The force must rotate you under them so the wrapping underhook tightens through the turn instead of peeling off, carrying both bodies into the turtle rather than separating them."
+        "answer": "Drive your hips forward and spiral underneath the opponent in the direction your underhook is pulling, threading yourself under their center of mass in a tight diagonal rather than a backward or wide looping arc. Pulling straight back opens the exact space the opponent passes into and disconnects your underhook, leaving you flattened. The force must rotate you under them so the wrapping underhook tightens through the turn instead of peeling off, carrying both bodies into the turtle rather than separating them.",
+        "answer_line": "Spiral hips forward, under them",
+        "distractors": {
+          "plausible": [
+            "Loop wide around their base",
+            "Push straight down, not forward"
+          ],
+          "trap": [
+            "Pull straight back to open space"
+          ]
+        }
       },
       {
         "question": "Which entry condition is most often ignored, causing the roll to stall mid-transition?",
-        "answer": "Attempting the roll while the opponent's weight is settled directly downward on a wide, stable base. Without their weight shifted forward or laterally first, you cannot generate the rotational momentum needed to thread underneath them, and you stall in the exposed intermediate position where neither the lockdown nor the turtle base protects you. Feint an Electric Chair split or a hard whip-up to bait their weight forward, then commit to the roll the instant their base narrows or their weight tips off-center."
+        "answer": "Attempting the roll while the opponent's weight is settled directly downward on a wide, stable base. Without their weight shifted forward or laterally first, you cannot generate the rotational momentum needed to thread underneath them, and you stall in the exposed intermediate position where neither the lockdown nor the turtle base protects you. Feint an Electric Chair split or a hard whip-up to bait their weight forward, then commit to the roll the instant their base narrows or their weight tips off-center.",
+        "answer_line": "Weight still settled, not shifted",
+        "distractors": {
+          "plausible": [
+            "Underhook not deep enough yet",
+            "Lockdown too loose already"
+          ],
+          "trap": [
+            "Forcing the roll through their base"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Roll from Vaporizer involves transitioning through positions where the neck and spine are loaded during the rolling motion. Always tuck the chin firmly to the chest throughout the roll to protect cervical vertebrae from compression. Generate rotation from the hips and core rather than using explosive neck-driven movements. When drilling, start slowly and increase speed only after the rolling mechanics are comfortable and reliable. Be aware of the opponent's weight distribution during the roll—if they drive downward aggressively, the combination of their weight and your rotation can compress the spine. Tap immediately if you feel any neck compression or twisting sensation during the transition. Training partners should avoid spiking or driving forcefully through the roll attempt.",
@@ -388,19 +478,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to roll rather than continue with standard Vaporizer attacks?",
-        "answer": "The earliest and most reliable cue is feeling the lockdown configuration begin to loosen while the underhook simultaneously tightens or deepens. In standard Vaporizer attacks like the Electric Chair or Old School sweep, the lockdown tightens as the attack develops. When the lockdown loosens but the underhook intensifies, this signals a transition away from lockdown-based attacks toward a rolling movement that requires the underhook as its primary connection point rather than the leg entanglement."
+        "answer": "The earliest and most reliable cue is feeling the lockdown configuration begin to loosen while the underhook simultaneously tightens or deepens. In standard Vaporizer attacks like the Electric Chair or Old School sweep, the lockdown tightens as the attack develops. When the lockdown loosens but the underhook intensifies, this signals a transition away from lockdown-based attacks toward a rolling movement that requires the underhook as its primary connection point rather than the leg entanglement.",
+        "answer_line": "Lockdown loosens, underhook deepens",
+        "distractors": {
+          "plausible": [
+            "Lockdown tightening further",
+            "Underhook loosening slightly"
+          ],
+          "trap": [
+            "Opponent's grip going totally still"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the roll and you cannot prevent it—should you resist the motion or follow it?",
-        "answer": "Always follow rather than resist a committed roll. Resisting by pulling backward creates separation that allows the opponent to complete the transition cleanly and establish a strong turtle position with time to set up crab ride or truck entries. Following keeps you connected and in physical contact, enabling you to immediately begin attacking their turtle with seatbelt control and hook insertion. Think of converting their transition into your back-take opportunity rather than trying to maintain a position that is already lost."
+        "answer": "Always follow rather than resist a committed roll. Resisting by pulling backward creates separation that allows the opponent to complete the transition cleanly and establish a strong turtle position with time to set up crab ride or truck entries. Following keeps you connected and in physical contact, enabling you to immediately begin attacking their turtle with seatbelt control and hook insertion. Think of converting their transition into your back-take opportunity rather than trying to maintain a position that is already lost.",
+        "answer_line": "Follow the roll, stay connected",
+        "distractors": {
+          "plausible": [
+            "Resist briefly then follow",
+            "Brace and wait it out"
+          ],
+          "trap": [
+            "Pull back to maintain position"
+          ]
+        }
       },
       {
         "question": "How does defending the Roll from Vaporizer differ from defending standard Vaporizer sweeps like the Old School?",
-        "answer": "Standard Vaporizer sweeps such as the Old School are defended by maintaining wide base and resisting lateral rolling forces. The roll defense is fundamentally different because the movement direction is forward and rotational rather than lateral. Sprawling and driving weight downward is more effective against the roll than widening your base, because the roll requires space underneath your body to thread through. For sweeps you widen your base laterally; for rolls you flatten and compress the space vertically. Recognizing which attack is coming determines your defensive response."
+        "answer": "Standard Vaporizer sweeps such as the Old School are defended by maintaining wide base and resisting lateral rolling forces. The roll defense is fundamentally different because the movement direction is forward and rotational rather than lateral. Sprawling and driving weight downward is more effective against the roll than widening your base, because the roll requires space underneath your body to thread through. For sweeps you widen your base laterally; for rolls you flatten and compress the space vertically. Recognizing which attack is coming determines your defensive response.",
+        "answer_line": "Sprawl down, don't widen base",
+        "distractors": {
+          "plausible": [
+            "Widen base like sweep defense",
+            "Post out to the far side"
+          ],
+          "trap": [
+            "Stand up to create space"
+          ]
+        }
       },
       {
         "question": "What position should you work toward if you successfully prevent the roll attempt?",
-        "answer": "After successfully preventing the roll, immediately advance your lockdown escape sequence. The opponent's lockdown will be partially compromised from the roll attempt because they loosened the figure-four configuration during setup, creating a window to extract your trapped leg. Do not passively return to defending the same Vaporizer configuration. Use the disruption in their leg control to clear the lockdown, establish combat base or whizzer control, and begin your guard passing sequence while their offensive structure is degraded."
+        "answer": "After successfully preventing the roll, immediately advance your lockdown escape sequence. The opponent's lockdown will be partially compromised from the roll attempt because they loosened the figure-four configuration during setup, creating a window to extract your trapped leg. Do not passively return to defending the same Vaporizer configuration. Use the disruption in their leg control to clear the lockdown, establish combat base or whizzer control, and begin your guard passing sequence while their offensive structure is degraded.",
+        "answer_line": "Advance lockdown escape now",
+        "distractors": {
+          "plausible": [
+            "Return to defending Vaporizer",
+            "Wait for their next attack"
+          ],
+          "trap": [
+            "Stay put and reset position"
+          ]
+        }
       }
     ],
     "training_progressions": [

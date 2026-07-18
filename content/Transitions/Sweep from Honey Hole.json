@@ -251,11 +251,31 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from Honey Hole?",
-        "answer": "The optimal timing window opens when the opponent reaches for your heel with one or both hands, lifts their hips to adjust the triangle configuration, or shifts their weight laterally during a grip transition. These moments temporarily compromise their base and remove their ability to resist sweep force. This window typically lasts under one second, requiring preloaded mechanics and instant recognition to exploit successfully."
+        "answer": "The optimal timing window opens when the opponent reaches for your heel with one or both hands, lifts their hips to adjust the triangle configuration, or shifts their weight laterally during a grip transition. These moments temporarily compromise their base and remove their ability to resist sweep force. This window typically lasts under one second, requiring preloaded mechanics and instant recognition to exploit successfully.",
+        "answer_line": "Heel reach, hip lift, weight shift",
+        "distractors": {
+          "plausible": [
+            "Right when triangle locks in",
+            "Whenever opponent postures up"
+          ],
+          "trap": [
+            "Wait for opponent to fully relax"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt this sweep?",
-        "answer": "Four conditions must be verified: your heel must be free from opponent's heel hook grip, your free leg must retain mobility for posting and pendulum generation, you must have sufficient upper body freedom to establish a far-side control grip, and your trapped knee must not be under any active rotational pressure. If any of these conditions is absent, the sweep attempt carries unacceptable injury risk or has near-zero success probability."
+        "answer": "Four conditions must be verified: your heel must be free from opponent's heel hook grip, your free leg must retain mobility for posting and pendulum generation, you must have sufficient upper body freedom to establish a far-side control grip, and your trapped knee must not be under any active rotational pressure. If any of these conditions is absent, the sweep attempt carries unacceptable injury risk or has near-zero success probability.",
+        "answer_line": "Free heel, mobile leg, safe knee",
+        "distractors": {
+          "plausible": [
+            "Just need the heel hook secured",
+            "Grip freedom is the only key"
+          ],
+          "trap": [
+            "Attempt whenever hips feel loose"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that makes the bridge-pull-pendulum work as a unified sweep?",
@@ -263,23 +283,73 @@
       },
       {
         "question": "Why do half-committed sweep attempts fail and what is the consequence?",
-        "answer": "Half-committed attempts fail because the opponent's triangle and hip pressure create a stability threshold that requires maximum explosive force to overcome. Partial force merely shifts the opponent slightly without breaking their balance, wasting critical energy reserves. Worse, the failed attempt telegraphs your intention, allowing the opponent to tighten their control and preemptively shut down subsequent attempts. Each failed attempt reduces the probability of the next attempt succeeding."
+        "answer": "Half-committed attempts fail because the opponent's triangle and hip pressure create a stability threshold that requires maximum explosive force to overcome. Partial force merely shifts the opponent slightly without breaking their balance, wasting critical energy reserves. Worse, the failed attempt telegraphs your intention, allowing the opponent to tighten their control and preemptively shut down subsequent attempts. Each failed attempt reduces the probability of the next attempt succeeding.",
+        "answer_line": "Commit fully or don't attempt",
+        "distractors": {
+          "plausible": [
+            "Use partial force to test grip",
+            "Small pushes wear down base"
+          ],
+          "trap": [
+            "Try repeatedly to fatigue them"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize on the opponent's upper body and why?",
-        "answer": "Prioritize a far-side grip—controlling the opponent's far arm at the wrist or elbow, or gripping their collar, belt, or shorts near their far hip. Far-side grips provide superior mechanical advantage for the sweep direction because they prevent the opponent from posting their far hand to base against the sweep. Near-side grips provide less leverage and leave the opponent's far arm free to stabilize, making the sweep significantly harder to complete."
+        "answer": "Prioritize a far-side grip—controlling the opponent's far arm at the wrist or elbow, or gripping their collar, belt, or shorts near their far hip. Far-side grips provide superior mechanical advantage for the sweep direction because they prevent the opponent from posting their far hand to base against the sweep. Near-side grips provide less leverage and leave the opponent's far arm free to stabilize, making the sweep significantly harder to complete.",
+        "answer_line": "Control their far-side grip",
+        "distractors": {
+          "plausible": [
+            "Grip the near-side collar tight",
+            "Control the near wrist instead"
+          ],
+          "trap": [
+            "Release grips to bridge harder"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force during the sweep execution?",
-        "answer": "The primary force direction is upward and diagonally toward the opponent's weak side—the side where their base is least stable. The bridge provides the vertical component lifting the opponent off their base, while the pull and pendulum provide the horizontal component that tips them over. The exact angle depends on the opponent's weight distribution, but generally targets the space between their far hip and far shoulder where they have the least ability to post or resist."
+        "answer": "The primary force direction is upward and diagonally toward the opponent's weak side—the side where their base is least stable. The bridge provides the vertical component lifting the opponent off their base, while the pull and pendulum provide the horizontal component that tips them over. The exact angle depends on the opponent's weight distribution, but generally targets the space between their far hip and far shoulder where they have the least ability to post or resist.",
+        "answer_line": "Up and toward their weak side",
+        "distractors": {
+          "plausible": [
+            "Straight up, then adjust angle",
+            "Push toward their strong side"
+          ],
+          "trap": [
+            "Pull straight down and in"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat to stop your sweep—how do you adjust?",
-        "answer": "If your far-side grip failed to control their posting arm, you have two options. First, immediately redirect your upper body grip to their posted arm, pulling it off the mat to remove the base before re-attempting the sweep at a slightly different angle. Second, if their post is too strong to strip, abort the sweep attempt entirely and chain into a counter-entanglement to 50-50 guard or a different escape route, since their weight commitment to the post may create different openings."
+        "answer": "If your far-side grip failed to control their posting arm, you have two options. First, immediately redirect your upper body grip to their posted arm, pulling it off the mat to remove the base before re-attempting the sweep at a slightly different angle. Second, if their post is too strong to strip, abort the sweep attempt entirely and chain into a counter-entanglement to 50-50 guard or a different escape route, since their weight commitment to the post may create different openings.",
+        "answer_line": "Strip the post, then re-sweep",
+        "distractors": {
+          "plausible": [
+            "Push through the same angle again",
+            "Switch grips to near-side arm"
+          ],
+          "trap": [
+            "Force the sweep through the post"
+          ]
+        }
       },
       {
         "question": "If your initial sweep attempt is stuffed but you remain in Honey Hole bottom, what should your next action be?",
-        "answer": "Immediately chain into an alternative escape rather than resting or reattempting the same sweep. The failed sweep may have created micro-adjustments in the opponent's position that open other escape paths—check if counter-entanglement to 50-50 is available, attempt inversion if space exists underneath, or revert to grip fighting and heel defense. Do not attempt the identical sweep twice consecutively, as the opponent is now specifically defending against it and your energy reserves are diminished."
+        "answer": "Immediately chain into an alternative escape rather than resting or reattempting the same sweep. The failed sweep may have created micro-adjustments in the opponent's position that open other escape paths—check if counter-entanglement to 50-50 is available, attempt inversion if space exists underneath, or revert to grip fighting and heel defense. Do not attempt the identical sweep twice consecutively, as the opponent is now specifically defending against it and your energy reserves are diminished.",
+        "answer_line": "Chain to a different escape",
+        "distractors": {
+          "plausible": [
+            "Rest briefly before retrying",
+            "Push harder on same sweep"
+          ],
+          "trap": [
+            "Repeat identical sweep twice"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Honey Hole involves significant knee injury risk on the trapped leg throughout the entire sweep motion. During execution, maintain strict alignment between your knee and toes on the trapped leg—any independent knee rotation while the leg is entangled in the opponent's triangle can cause catastrophic ligament damage including ACL and MCL tears. If you feel any sharp pain, clicking, or unusual pressure in your knee during the sweep attempt, abandon the technique immediately and tap if necessary. Never initiate the sweep while the opponent has an active heel hook grip—the sweep motion under those conditions amplifies rotational forces on the knee exponentially. In training, start with cooperative drilling at zero resistance before progressing to live application. Communicate clearly with training partners about intensity levels.",
@@ -393,23 +463,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a sweep from Honey Hole bottom?",
-        "answer": "The earliest cue is the opponent reaching across to establish a far-side grip on your arm, collar, belt, or shorts. This grip is the essential setup component because it removes your ability to post for base and provides the pull point that amplifies sweep momentum. Before this grip is established, bridge force alone is rarely sufficient to complete a sweep against a well-positioned top player. Denying this grip is the most efficient way to prevent the sweep entirely."
+        "answer": "The earliest cue is the opponent reaching across to establish a far-side grip on your arm, collar, belt, or shorts. This grip is the essential setup component because it removes your ability to post for base and provides the pull point that amplifies sweep momentum. Before this grip is established, bridge force alone is rarely sufficient to complete a sweep against a well-positioned top player. Denying this grip is the most efficient way to prevent the sweep entirely.",
+        "answer_line": "They grip far-side collar/arm",
+        "distractors": {
+          "plausible": [
+            "They posture up to strike",
+            "They shift weight forward first"
+          ],
+          "trap": [
+            "Ignore grips, watch hips only"
+          ]
+        }
       },
       {
         "question": "Why should you avoid committing both hands to the heel hook grip when you sense sweep potential?",
-        "answer": "Both hands on the heel means zero ability to post against sweep momentum. When the opponent bridges and pulls, your only resistance comes from hip pressure and leg triangle tightness—which may be insufficient if they time the sweep well. Keeping at least one hand free to post provides an emergency base option that can stop even a well-timed sweep. The heel hook can be finished with one hand controlling heel and one hand ready to post, sacrificing some grip power for positional security."
+        "answer": "Both hands on the heel means zero ability to post against sweep momentum. When the opponent bridges and pulls, your only resistance comes from hip pressure and leg triangle tightness—which may be insufficient if they time the sweep well. Keeping at least one hand free to post provides an emergency base option that can stop even a well-timed sweep. The heel hook can be finished with one hand controlling heel and one hand ready to post, sacrificing some grip power for positional security.",
+        "answer_line": "Keep one hand free to post",
+        "distractors": {
+          "plausible": [
+            "Use both hands for max torque",
+            "Switch hands mid-finish safely"
+          ],
+          "trap": [
+            "Commit both hands for the tap"
+          ]
+        }
       },
       {
         "question": "How can you use the opponent's sweep attempt to improve your own attacking position?",
-        "answer": "A failed sweep attempt depletes the opponent's energy reserves and temporarily disrupts their defensive structure as they recover from the explosive effort. During their recovery phase, their heel defense is weakest because their hands were committed to far-side grips rather than protecting the heel. Use this 1-2 second window after their sweep fails to aggressively advance your heel hook grip. Their failed sweep becomes your submission opportunity because their offensive and defensive priorities conflicted."
+        "answer": "A failed sweep attempt depletes the opponent's energy reserves and temporarily disrupts their defensive structure as they recover from the explosive effort. During their recovery phase, their heel defense is weakest because their hands were committed to far-side grips rather than protecting the heel. Use this 1-2 second window after their sweep fails to aggressively advance your heel hook grip. Their failed sweep becomes your submission opportunity because their offensive and defensive priorities conflicted.",
+        "answer_line": "Attack heel during their recovery",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset fully",
+            "Retreat to reset your own grips"
+          ],
+          "trap": [
+            "Release heel to reset position"
+          ]
+        }
       },
       {
         "question": "When should you accelerate your heel hook finish versus maintaining positional control against a sweep?",
-        "answer": "Accelerate the finish only when you already have a secured heel hook grip with proper hand configuration and the opponent initiates a sweep. Their sweep motion actually adds rotational force that can amplify your finishing mechanics. However, if your heel grip is not yet fully established, rushing the finish during a sweep is extremely risky—incomplete grips under dynamic movement often slip, and you lose both the submission and potentially your positional control simultaneously."
+        "answer": "Accelerate the finish only when you already have a secured heel hook grip with proper hand configuration and the opponent initiates a sweep. Their sweep motion actually adds rotational force that can amplify your finishing mechanics. However, if your heel grip is not yet fully established, rushing the finish during a sweep is extremely risky—incomplete grips under dynamic movement often slip, and you lose both the submission and potentially your positional control simultaneously.",
+        "answer_line": "Finish only if heel grip secured",
+        "distractors": {
+          "plausible": [
+            "Always rush finish during sweep",
+            "Wait for perfect stillness first"
+          ],
+          "trap": [
+            "Rush finish with a loose grip"
+          ]
+        }
       },
       {
         "question": "What role does controlling the opponent's free leg play in sweep prevention?",
-        "answer": "The opponent's free leg is their primary sweep engine—it provides the posting base for bridging force and the pendulum arc for rotational momentum. Without free leg mobility, sweep attempts are mechanically impossible regardless of how strong their upper body grips or bridge are. Controlling the free leg by hooking it with your far leg or gripping behind the knee eliminates the sweep threat entirely, though it may temporarily compromise your own triangle tightness or heel hook positioning."
+        "answer": "The opponent's free leg is their primary sweep engine—it provides the posting base for bridging force and the pendulum arc for rotational momentum. Without free leg mobility, sweep attempts are mechanically impossible regardless of how strong their upper body grips or bridge are. Controlling the free leg by hooking it with your far leg or gripping behind the knee eliminates the sweep threat entirely, though it may temporarily compromise your own triangle tightness or heel hook positioning.",
+        "answer_line": "Control their free leg fully",
+        "distractors": {
+          "plausible": [
+            "Control their trapped leg instead",
+            "Focus only on their arms"
+          ],
+          "trap": [
+            "Release free leg to stay loose"
+          ]
+        }
       }
     ],
     "training_progressions": [

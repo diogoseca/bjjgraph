@@ -289,52 +289,152 @@
       {
         "question": "What anatomical structures does the Cross Collar Choke from Mount primarily target to cause submission?",
         "answer": "The Cross Collar Choke targets both carotid arteries on the lateral sides of the neck. The forearm bones from each gripping arm compress these arteries bilaterally, restricting blood flow to the brain. This produces unconsciousness within 4-8 seconds when properly applied, unlike trachea-based chokes which restrict airflow and take much longer to become effective.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "The trachea and airway",
+            "Both jugular veins only"
+          ],
+          "trap": [
+            "Cervical spine hyperextension"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your first collar grip with both hands — what immediate attacking opportunity does this create?",
         "answer": "When the opponent uses both hands to strip your collar grip, both of their arms are occupied above their torso and away from their body. This creates an immediate Americana or Kimura opportunity on either arm since they cannot defend the shoulder lock while gripping your wrist. Alternatively, their elevated elbows create space to advance to high mount where collar access improves dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Armbar or Kimura on the arm",
+        "distractors": {
+          "plausible": [
+            "Reinsert the same collar grip",
+            "Switch to a cross choke instead"
+          ],
+          "trap": [
+            "Release mount to chase the arm"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between effective carotid compression and dangerous trachea crushing during application?",
         "answer": "Carotid compression targets the sides of the neck where the arteries are superficial, producing a sensation of pressure and lightheadedness without pain or difficulty breathing. Trachea crushing targets the front of the throat, causing coughing, gagging, and sharp pain. The wrist blade should be positioned laterally at mid-neck height. If your partner reports throat pain or coughing, your hand position is too centered and needs to shift to the side of the neck.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist blade on side of neck",
+        "distractors": {
+          "plausible": [
+            "Deeper grip fixes throat pain",
+            "More squeeze pressure overall"
+          ],
+          "trap": [
+            "Center forearm on the windpipe"
+          ]
+        }
       },
       {
         "question": "Why must the first collar grip be deep behind the neck before attempting the second grip?",
         "answer": "A shallow first grip positions the forearm across the trachea rather than the carotid artery, producing pain without effective blood restriction. Deep insertion places the wrist blade directly against the artery, ensuring that when the X-formation is completed with the second grip, bilateral compression occurs immediately. Additionally, a shallow first grip is easier for the opponent to strip, wasting the setup work and compromising your mount stability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep grip = wrist on artery",
+        "distractors": {
+          "plausible": [
+            "Deep grip is just harder to strip",
+            "Deep grip protects your posture"
+          ],
+          "trap": [
+            "Shallow grip lets you finish faster"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin and clasps hands behind their head to deny collar access — what adjustment allows you to continue attacking?",
         "answer": "Use forearm cross-face pressure to turn their head and expose collar on one side, or transition to an Ezekiel Choke using the gi sleeve as the choking surface since this attack does not require collar access. You can also dig the first grip in by wedging your fingers between their clasped hands and the collar, using their own chin tuck to anchor the grip deeper as you pry the collar open with your wrist.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-face to turn head, or Ezekiel",
+        "distractors": {
+          "plausible": [
+            "Pry both hands off at once",
+            "Wait for them to move first"
+          ],
+          "trap": [
+            "Yank the head straight back"
+          ]
+        }
       },
       {
         "question": "What is the correct finishing mechanic once both grips are established in the X-formation?",
         "answer": "Pull both elbows down toward the mat and apart from each other while simultaneously driving your chest weight forward over the opponent's face. This creates a scissoring action where each forearm compresses one carotid artery. The force comes from body weight driving through the forearms, not from arm squeezing strength. Your forehead should drop toward the mat beside their head to maximize the weight transfer into the choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbows down/apart, chest drives in",
+        "distractors": {
+          "plausible": [
+            "Squeeze forearms hard together",
+            "Pull opponent's head upward"
+          ],
+          "trap": [
+            "Lift hips to add leverage"
+          ]
+        }
       },
       {
         "question": "How does the Cross Collar Choke from Mount create a submission dilemma with the armbar?",
         "answer": "When the opponent defends collar grips by bringing their hands to their neck, their elbows flare outward and away from their torso, creating space for armbar entries. When they tuck elbows tight to prevent arm isolation, the collar remains exposed and accessible for choke grip insertion. This creates an unsolvable binary where defending one attack exposes the other, forcing the bottom player into progressively worse defensive positions until one submission breaks through.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defend one, expose the other",
+        "distractors": {
+          "plausible": [
+            "Choke always beats the armbar",
+            "Only works if arms are extended"
+          ],
+          "trap": [
+            "Chase whichever looks open first"
+          ]
+        }
       },
       {
         "question": "What are the key safety protocols when your training partner stops moving during a Cross Collar Choke application?",
         "answer": "Immediately release all grips and disengage the position. A partner who stops moving may have lost consciousness from carotid compression. Place them on their side in recovery position, monitor breathing, and alert the instructor immediately. Do not shake them or attempt to wake them forcefully. Blood chokes can cause unconsciousness within seconds, so any sudden loss of resistance must be treated as a potential loss of consciousness requiring immediate medical assessment.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, recovery position, alert",
+        "distractors": {
+          "plausible": [
+            "Loosen grip and wait a moment",
+            "Shake them gently to check"
+          ],
+          "trap": [
+            "Keep grip locked, call instructor"
+          ]
+        }
       },
       {
         "question": "Why is maintaining heavy hips critical during the grip insertion phase of this choke?",
         "answer": "Each grip insertion requires reaching with one hand, temporarily reducing your base and creating a window for the opponent to bridge or hip escape. Heavy hips counteract this instability by pinning the opponent's torso with gravitational weight, making their escape attempts less effective even when your arms are occupied with collar work. Lifting your hips to reach further for the grip is the most common cause of losing mount during cross collar choke setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Weight pins hips while reaching",
+        "distractors": {
+          "plausible": [
+            "Heavy hips speed up the grip",
+            "Only matters after both grips set"
+          ],
+          "trap": [
+            "Lift hips to reach collar deeper"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the choke feels tight but the opponent is not tapping after several seconds?",
         "answer": "If pressure feels tight but no tap comes, the grip is likely compressing the trachea rather than the carotid arteries. Without releasing the position, rotate your wrists slightly to reposition the forearm bones laterally toward the sides of the neck. Ensure the X-formation is at mid-neck height rather than against the chin or throat. In training, if repositioning does not produce a tap within a few additional seconds, release and reset rather than cranking harder on an incorrectly positioned choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate wrists to sides of neck",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder without adjusting",
+            "Pull the collar tighter overall"
+          ],
+          "trap": [
+            "Crank chin downward for pressure"
+          ]
+        }
       }
     ],
     "clips": [
@@ -449,22 +549,62 @@
       {
         "question": "What is the most critical window of opportunity for defending the Cross Collar Choke from Mount?",
         "answer": "The most critical window is when the opponent inserts the first collar grip, before the second hand is established. At this stage, two-on-one grip stripping is highly effective because only one hand needs to be removed and the opponent's base is weakened from reaching. Once both grips form the X-formation, defense becomes exponentially harder as bilateral compression begins immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip the first grip early",
+        "distractors": {
+          "plausible": [
+            "Wait until X-formation locks",
+            "Defend after pressure is felt"
+          ],
+          "trap": [
+            "Extend arms to create distance"
+          ]
+        }
       },
       {
         "question": "When should you tap to a Cross Collar Choke from Mount during training?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot strip either grip. Blood chokes can cause unconsciousness in 4-8 seconds, leaving almost no margin for last-second escapes once the choke is fully locked. In training, tapping early preserves your safety and allows you to reset and practice the earlier defensive windows where prevention is most effective.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at bilateral neck pressure",
+        "distractors": {
+          "plausible": [
+            "Wait for visible dizziness",
+            "Tap only if grip fully locks"
+          ],
+          "trap": [
+            "Try to fight through the fade"
+          ]
+        }
       },
       {
         "question": "Why is extending your arms to push the opponent away a dangerous defensive response to the Cross Collar Choke?",
         "answer": "Extended arms create immediate armbar and Americana opportunities from mount. The opponent can abandon the choke attempt and transition to a joint lock on the extended limb, which may be even harder to defend than the original choke. This compounds the danger by giving the attacker a second high-percentage submission option. Proper defense uses two-on-one grip control with elbows kept tight to the body.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extended arms invite armbar",
+        "distractors": {
+          "plausible": [
+            "It also loosens your base",
+            "It only fails against experts"
+          ],
+          "trap": [
+            "It's the fastest way to create space"
+          ]
+        }
       },
       {
         "question": "How do you use bridge timing to escape the Cross Collar Choke setup from Mount?",
         "answer": "Time your bridge to coincide with the opponent reaching for the second collar grip, when their base is temporarily weakened by the forward weight shift required to thread the hand. The reaching motion lifts their center of gravity and removes one posting hand, making your bridge significantly more effective. Combine the bridge with trapping their remaining posting arm on the same side to eliminate their base entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge as second hand reaches",
+        "distractors": {
+          "plausible": [
+            "Bridge right after first grip lands",
+            "Bridge continuously throughout"
+          ],
+          "trap": [
+            "Bridge only once choke is locked"
+          ]
+        }
       },
       {
         "question": "What are the visual and tactile recognition cues that a Cross Collar Choke is being set up from Mount?",

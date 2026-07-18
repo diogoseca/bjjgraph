@@ -373,35 +373,115 @@
   "flashcards": [
     {
       "question": "What is the core strategic principle of IBJJF competition?",
-      "answer": "Position before submission - secure points through positional advancement (passes, sweeps, mount, back) before committing to submissions, because the points-based scoring rewards positional dominance and a failed submission can sacrifice a hard-earned scoring position."
+      "answer": "Position before submission - secure points through positional advancement (passes, sweeps, mount, back) before committing to submissions, because the points-based scoring rewards positional dominance and a failed submission can sacrifice a hard-earned scoring position.",
+      "answer_line": "Position before submission",
+      "distractors": {
+        "plausible": [
+          "Submit whenever opportunity appears",
+          "Chase submissions immediately"
+        ],
+        "trap": [
+          "Abandon position to finish"
+        ]
+      }
     },
     {
       "question": "What are the IBJJF point values for each scoring position?",
-      "answer": "Takedowns, sweeps, and knee-on-belly score 2 points; guard passing scores 3 points; mount and back control each score 4 points. Understanding this hierarchy lets you chain positions together for cumulative leads."
+      "answer": "Takedowns, sweeps, and knee-on-belly score 2 points; guard passing scores 3 points; mount and back control each score 4 points. Understanding this hierarchy lets you chain positions together for cumulative leads.",
+      "answer_line": "Mount/back 4, pass 3, takedown 2",
+      "distractors": {
+        "plausible": [
+          "Guard pass scores highest of all",
+          "Takedowns worth more than mount"
+        ],
+        "trap": [
+          "Submission attempts score points"
+        ]
+      }
     },
     {
       "question": "Why is the 3-second stabilization rule tactically important?",
-      "answer": "IBJJF only awards points after a position is controlled for three seconds, so athletes must hold each scoring position long enough to satisfy referee criteria before transitioning. Many competitors lose earned points by advancing too quickly out of a dominant position."
+      "answer": "IBJJF only awards points after a position is controlled for three seconds, so athletes must hold each scoring position long enough to satisfy referee criteria before transitioning. Many competitors lose earned points by advancing too quickly out of a dominant position.",
+      "answer_line": "Hold position 3 seconds to score",
+      "distractors": {
+        "plausible": [
+          "Any brief control scores points",
+          "Move fast before opponent escapes"
+        ],
+        "trap": [
+          "Rush to next position immediately"
+        ]
+      }
     },
     {
       "question": "When are advantages most valuable in an IBJJF match?",
-      "answer": "Advantages decide matches that are tied on points, making them critical tiebreakers. They are best generated through submission threats and near-completions that force defensive reactions without risking your own position, especially when protecting a lead."
+      "answer": "Advantages decide matches that are tied on points, making them critical tiebreakers. They are best generated through submission threats and near-completions that force defensive reactions without risking your own position, especially when protecting a lead.",
+      "answer_line": "Threats create tiebreaker advantages",
+      "distractors": {
+        "plausible": [
+          "Advantages outweigh actual points",
+          "Only takedowns earn advantages"
+        ],
+        "trap": [
+          "Risk position to force a finish"
+        ]
+      }
     },
     {
       "question": "How should tactics change when you are ahead on points late in a match?",
-      "answer": "When ahead, prioritize position retention and strategic activity - maintain grips, micro-adjust, and threaten enough to avoid stalling penalties while declining high-risk submissions that could be reversed and concede a sweep or guard pass."
+      "answer": "When ahead, prioritize position retention and strategic activity - maintain grips, micro-adjust, and threaten enough to avoid stalling penalties while declining high-risk submissions that could be reversed and concede a sweep or guard pass.",
+      "answer_line": "Retain position, stay active",
+      "distractors": {
+        "plausible": [
+          "Hunt for a fast submission finish",
+          "Chase high-risk submissions"
+        ],
+        "trap": [
+          "Go static, stop all activity"
+        ]
+      }
     },
     {
       "question": "How should you adjust when behind on points with limited time?",
-      "answer": "Calculate the exact deficit and required scoring: behind 2 needs a sweep or takedown, behind 3 needs a guard pass, behind 6+ needs multiple positions. Then increase attack rate and commit to high-percentage chains that advance position without unnecessary risk."
+      "answer": "Calculate the exact deficit and required scoring: behind 2 needs a sweep or takedown, behind 3 needs a guard pass, behind 6+ needs multiple positions. Then increase attack rate and commit to high-percentage chains that advance position without unnecessary risk.",
+      "answer_line": "Calculate deficit, attack chains",
+      "distractors": {
+        "plausible": [
+          "Go for broke on any submission",
+          "Play defense, run out the clock"
+        ],
+        "trap": [
+          "Abandon position, spam attacks"
+        ]
+      }
     },
     {
       "question": "What is the most common scoring error competitors make despite holding dominant positions?",
-      "answer": "Failing to satisfy the 3-second stabilization criteria - holding mount or back without clear chest-to-chest contact or hooks-and-chest-to-back control, so the referee never awards the points despite the obvious positional dominance."
+      "answer": "Failing to satisfy the 3-second stabilization criteria - holding mount or back without clear chest-to-chest contact or hooks-and-chest-to-back control, so the referee never awards the points despite the obvious positional dominance.",
+      "answer_line": "Missing 3-second stabilization",
+      "distractors": {
+        "plausible": [
+          "Not attempting enough submissions",
+          "Losing position too early"
+        ],
+        "trap": [
+          "Releasing control to attack"
+        ]
+      }
     },
     {
       "question": "How do you avoid stalling penalties while defending a lead?",
-      "answer": "Maintain visible offensive intent through constant grip fighting, position adjustments, and controlled submission threats. Stay just active enough to satisfy the referee without taking positional risks, and avoid remaining static in neutral positions like 50-50."
+      "answer": "Maintain visible offensive intent through constant grip fighting, position adjustments, and controlled submission threats. Stay just active enough to satisfy the referee without taking positional risks, and avoid remaining static in neutral positions like 50-50.",
+      "answer_line": "Grip fight, stay subtly active",
+      "distractors": {
+        "plausible": [
+          "Sit still in dominant position",
+          "Constantly attempt submissions"
+        ],
+        "trap": [
+          "Sit static in 50-50 guard"
+        ]
+      }
     }
   ]
 }

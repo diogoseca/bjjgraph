@@ -245,35 +245,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for threading the overhook during a closed guard exchange?",
-        "answer": "The optimal window occurs immediately after breaking the opponent's posture when their arm commits forward to post or establish a grip. This is typically a 1-2 second window where their arm is extended and weight-bearing, making it structurally difficult to retract quickly. Threading the overhook while they are already committed forward ensures you capture the arm deep before they can pull back to their hips."
+        "answer": "The optimal window occurs immediately after breaking the opponent's posture when their arm commits forward to post or establish a grip. This is typically a 1-2 second window where their arm is extended and weight-bearing, making it structurally difficult to retract quickly. Threading the overhook while they are already committed forward ensures you capture the arm deep before they can pull back to their hips.",
+        "answer_line": "The instant arm posts forward",
+        "distractors": {
+          "plausible": [
+            "Right when they sit back down",
+            "Before their posture breaks"
+          ],
+          "trap": [
+            "Only once their arm is tucked"
+          ]
+        }
       },
       {
         "question": "What grip depth is required for the overhook to be effective, and how do you verify it is deep enough?",
-        "answer": "Your hand must reach behind the opponent's shoulder blade to grip their lat muscle or the far side of their back. The overhook should sit in the crook of your elbow, not on your forearm. To verify depth, test by pulling your elbow toward your hip - if you can rotate their shoulder forward and down, the grip is deep enough. If they can straighten their arm and slide it free, the grip is too shallow and must be re-established before attempting attacks."
+        "answer": "Your hand must reach behind the opponent's shoulder blade to grip their lat muscle or the far side of their back. The overhook should sit in the crook of your elbow, not on your forearm. To verify depth, test by pulling your elbow toward your hip - if you can rotate their shoulder forward and down, the grip is deep enough. If they can straighten their arm and slide it free, the grip is too shallow and must be re-established before attempting attacks.",
+        "answer_line": "Grips lat, rotates their shoulder",
+        "distractors": {
+          "plausible": [
+            "Overhook sits on your forearm",
+            "Any grip past the elbow works"
+          ],
+          "trap": [
+            "Attack now, fix grip later"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbows pinned tight to their sides, denying you access to thread the overhook. How do you create the opening?",
-        "answer": "Use a strong collar pull with both hands to snap their posture down aggressively. As they fall forward, at least one arm must extend to prevent face-planting into your chest. Alternatively, attack the opposite arm with a wrist drag or kimura grip to force a reaction on the overhook side. You can also push their elbow outward with your palm from inside the guard, or threaten a hip bump sweep that forces them to post a hand, exposing the arm for the overhook."
+        "answer": "Use a strong collar pull with both hands to snap their posture down aggressively. As they fall forward, at least one arm must extend to prevent face-planting into your chest. Alternatively, attack the opposite arm with a wrist drag or kimura grip to force a reaction on the overhook side. You can also push their elbow outward with your palm from inside the guard, or threaten a hip bump sweep that forces them to post a hand, exposing the arm for the overhook.",
+        "answer_line": "Snap posture with collar pull",
+        "distractors": {
+          "plausible": [
+            "Wait for them to loosen up",
+            "Pry both elbows open by force"
+          ],
+          "trap": [
+            "Release guard to reset grips"
+          ]
+        }
       },
       {
         "question": "Why must you establish secondary control on the opponent's free arm, and what happens if you skip this step?",
-        "answer": "Without secondary control, the opponent's free arm can post on the mat to defend sweeps, frame against your chest to create distance and recover posture, or establish a crossface that flattens your angle and neutralizes the overhook's leverage advantage. The free arm is essentially their remaining defensive tool - controlling it with collar, sleeve, or wrist grip completes the control system and makes your sweeps and submissions significantly higher percentage."
+        "answer": "Without secondary control, the opponent's free arm can post on the mat to defend sweeps, frame against your chest to create distance and recover posture, or establish a crossface that flattens your angle and neutralizes the overhook's leverage advantage. The free arm is essentially their remaining defensive tool - controlling it with collar, sleeve, or wrist grip completes the control system and makes your sweeps and submissions significantly higher percentage.",
+        "answer_line": "Else free arm frames or posts",
+        "distractors": {
+          "plausible": [
+            "Only matters for submissions",
+            "Their free arm can't do much"
+          ],
+          "trap": [
+            "Skip it, rush the sweep now"
+          ]
+        }
       },
       {
         "question": "What direction should your hips move after establishing the overhook, and why is this angle critical?",
-        "answer": "Hip escape toward the overhook side to create a 30-45 degree angle. This angle is critical because it places the opponent's trapped shoulder further from their center of gravity, amplifying the rotational leverage of every sweep attempt. From a flat, square position the overhook provides only pulling control. With the angle, it creates rotational force that can roll them over the trapped shoulder. The angle also improves triangle and omoplata entries by pre-positioning your hips for leg attacks."
+        "answer": "Hip escape toward the overhook side to create a 30-45 degree angle. This angle is critical because it places the opponent's trapped shoulder further from their center of gravity, amplifying the rotational leverage of every sweep attempt. From a flat, square position the overhook provides only pulling control. With the angle, it creates rotational force that can roll them over the trapped shoulder. The angle also improves triangle and omoplata entries by pre-positioning your hips for leg attacks.",
+        "answer_line": "Angle 30-45° toward the overhook",
+        "distractors": {
+          "plausible": [
+            "Square up, stay flat to opponent",
+            "Angle away from the overhook"
+          ],
+          "trap": [
+            "Full 90° angle for max torque"
+          ]
+        }
       },
       {
         "question": "Your overhook is established but the opponent begins driving forward to stack you. How do you use their pressure offensively?",
-        "answer": "Their forward drive is energy you redirect rather than resist. Pivot your hips further toward the overhook side and shoot your outside leg over their shoulder for a triangle, or swing it across their back for an omoplata. Their stacking momentum actually assists your hip rotation into these submissions. Alternatively, if you maintain the overhook and frame their opposite shoulder, their stacking pressure loads your hips for an overhook sweep by creating the weight commitment you need to roll them."
+        "answer": "Their forward drive is energy you redirect rather than resist. Pivot your hips further toward the overhook side and shoot your outside leg over their shoulder for a triangle, or swing it across their back for an omoplata. Their stacking momentum actually assists your hip rotation into these submissions. Alternatively, if you maintain the overhook and frame their opposite shoulder, their stacking pressure loads your hips for an overhook sweep by creating the weight commitment you need to roll them.",
+        "answer_line": "Redirect into triangle or omoplata",
+        "distractors": {
+          "plausible": [
+            "Brace and post to stop the drive",
+            "Retract overhook, reset guard"
+          ],
+          "trap": [
+            "Push back to match their pressure"
+          ]
+        }
       },
       {
         "question": "The opponent successfully strips your overhook by spiraling their arm free. What is your immediate recovery plan?",
-        "answer": "Do not chase the lost overhook from a flat position. Instead, immediately secure alternative grips - collar and sleeve, wrist control, or head control. If they stripped the overhook by posturing up, use their elevated posture to attack with a hip bump sweep. If they stripped it by standing, transition to feet-on-hips open guard and establish De La Riva or collar-sleeve guard. The key principle is converting to your next-best offensive position rather than attempting to re-establish the same grip from a now-disadvantaged position."
+        "answer": "Do not chase the lost overhook from a flat position. Instead, immediately secure alternative grips - collar and sleeve, wrist control, or head control. If they stripped the overhook by posturing up, use their elevated posture to attack with a hip bump sweep. If they stripped it by standing, transition to feet-on-hips open guard and establish De La Riva or collar-sleeve guard. The key principle is converting to your next-best offensive position rather than attempting to re-establish the same grip from a now-disadvantaged position.",
+        "answer_line": "Grab new grips, don't chase it",
+        "distractors": {
+          "plausible": [
+            "Re-thread the same overhook fast",
+            "Stay flat, wait for next chance"
+          ],
+          "trap": [
+            "Chase the arm from flat position"
+          ]
+        }
       },
       {
         "question": "How does establishing the overhook guard create a chain of dilemmas for the top player?",
-        "answer": "Once the overhook is established with secondary control, every defensive response opens a different attack. If they pull their arm back to escape the overhook, the space created opens triangle and omoplata entries. If they post their free hand to stabilize their base, they become vulnerable to the overhook sweep. If they drive forward to stack, their momentum feeds your hip rotation for submissions. If they stay passive, you methodically improve angle and attack. This interlocking threat matrix means there is no single correct defense that solves all problems simultaneously."
+        "answer": "Once the overhook is established with secondary control, every defensive response opens a different attack. If they pull their arm back to escape the overhook, the space created opens triangle and omoplata entries. If they post their free hand to stabilize their base, they become vulnerable to the overhook sweep. If they drive forward to stack, their momentum feeds your hip rotation for submissions. If they stay passive, you methodically improve angle and attack. This interlocking threat matrix means there is no single correct defense that solves all problems simultaneously.",
+        "answer_line": "Every defense opens new attack",
+        "distractors": {
+          "plausible": [
+            "Only posture breaks matter",
+            "Only one defense solves it all"
+          ],
+          "trap": [
+            "Wait passively, they'll mess up"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves capturing and controlling the opponent's arm through an overhook grip. While generally low-risk compared to joint locks, be aware that aggressive overhook control combined with hip rotation can create shoulder pressure on the trapped arm. Release overhook pressure immediately if your partner indicates discomfort or taps. During drilling, establish the overhook smoothly without jerking the arm into position. Avoid excessive rotational force on the shoulder when combining overhook control with sweep attempts at full speed.",
@@ -380,23 +460,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is setting up an overhook from closed guard?",
-        "answer": "The earliest cue is aggressive posture breaking combined with their hand releasing a standard grip and reaching over the top of your arm rather than under or to the side. You will feel their forearm crossing over your tricep and their hand reaching toward your back. Additionally, if they hip escape to one side immediately after contacting your arm, they are creating the angle needed for effective overhook control. Early recognition within the first half-second of the threading motion allows trivial extraction."
+        "answer": "The earliest cue is aggressive posture breaking combined with their hand releasing a standard grip and reaching over the top of your arm rather than under or to the side. You will feel their forearm crossing over your tricep and their hand reaching toward your back. Additionally, if they hip escape to one side immediately after contacting your arm, they are creating the angle needed for effective overhook control. Early recognition within the first half-second of the threading motion allows trivial extraction.",
+        "answer_line": "Arm reaches over your tricep",
+        "distractors": {
+          "plausible": [
+            "Any grip change on your sleeve",
+            "Hip escape before arm contact"
+          ],
+          "trap": [
+            "Wait for the grip to feel deep"
+          ]
+        }
       },
       {
         "question": "Why does pulling your arm straight backward fail to strip a consolidated overhook?",
-        "answer": "The overhook grip is designed to catch and hold against backward pulling force. When you pull straight back, your arm drives deeper into the crook of their elbow joint, which functions like a hook that tightens under tension. The opponent's bicep and forearm create a V-shape that narrows as you pull backward, increasing friction and mechanical advantage. The correct extraction uses a corkscrew motion - rotating your shoulder forward while driving your elbow toward your hip - which exploits the open side of the V where the grip has minimal holding strength."
+        "answer": "The overhook grip is designed to catch and hold against backward pulling force. When you pull straight back, your arm drives deeper into the crook of their elbow joint, which functions like a hook that tightens under tension. The opponent's bicep and forearm create a V-shape that narrows as you pull backward, increasing friction and mechanical advantage. The correct extraction uses a corkscrew motion - rotating your shoulder forward while driving your elbow toward your hip - which exploits the open side of the V where the grip has minimal holding strength.",
+        "answer_line": "Backward pull tightens the V-hook",
+        "distractors": {
+          "plausible": [
+            "Straight pull is fine if fast",
+            "Backward pull is always safest"
+          ],
+          "trap": [
+            "Yank straight back with power"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a deep overhook and you cannot immediately strip it. What is your best strategy to neutralize the position?",
-        "answer": "If extraction is not immediately possible, focus on neutralizing the angle and preventing secondary control. Use your free hand to fight their opposite-side grip, preventing them from completing the control system. Drive your trapped-side shoulder into their chest to flatten them and eliminate the hip angle they need for sweeps. Widen your base to prevent off-balancing, and work the corkscrew extraction incrementally rather than in one explosive attempt. Alternatively, stand up in base where the overhook loses mechanical advantage due to the angle change."
+        "answer": "If extraction is not immediately possible, focus on neutralizing the angle and preventing secondary control. Use your free hand to fight their opposite-side grip, preventing them from completing the control system. Drive your trapped-side shoulder into their chest to flatten them and eliminate the hip angle they need for sweeps. Widen your base to prevent off-balancing, and work the corkscrew extraction incrementally rather than in one explosive attempt. Alternatively, stand up in base where the overhook loses mechanical advantage due to the angle change.",
+        "answer_line": "Flatten angle, fight the far grip",
+        "distractors": {
+          "plausible": [
+            "Explosive one-time extraction",
+            "Narrow base to resist sweep"
+          ],
+          "trap": [
+            "Keep pulling straight back"
+          ]
+        }
       },
       {
         "question": "How should you adjust your arm positioning preemptively to make the overhook entry as difficult as possible?",
-        "answer": "Keep your elbows pinned tight to your ribcage at all times in closed guard. Place your hands on the opponent's hips, biceps, or lapels - positions that keep your arms close to your body with elbows pointing down. Never reach deep inside the guard with an extended arm, as this creates the exact position the opponent needs for overhook entry. When you feel posture being broken, immediately tuck your elbows tighter rather than posting your arms forward. The less your arms extend away from your torso, the harder it is for the opponent to thread an overhook."
+        "answer": "Keep your elbows pinned tight to your ribcage at all times in closed guard. Place your hands on the opponent's hips, biceps, or lapels - positions that keep your arms close to your body with elbows pointing down. Never reach deep inside the guard with an extended arm, as this creates the exact position the opponent needs for overhook entry. When you feel posture being broken, immediately tuck your elbows tighter rather than posting your arms forward. The less your arms extend away from your torso, the harder it is for the opponent to thread an overhook.",
+        "answer_line": "Elbows pinned tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Post hands forward for base",
+            "Reach deep inside for grips"
+          ],
+          "trap": [
+            "Extend arms to break their grip"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes the overhook and immediately threatens an overhook sweep. What is your counter?",
-        "answer": "Base your free hand wide on the mat on the side opposite the overhook to create a posting point that absorbs the sweep's rotational force. Simultaneously drive your hips back and away from the overhook side to reduce the leverage of their pulling motion. Do not lean into the sweep direction as this adds to their momentum. If the sweep is strongly initiated, consider voluntarily posting and transitioning to a scramble or wrestling position rather than fighting the sweep from a compromised angle where you may be rolled directly into mount."
+        "answer": "Base your free hand wide on the mat on the side opposite the overhook to create a posting point that absorbs the sweep's rotational force. Simultaneously drive your hips back and away from the overhook side to reduce the leverage of their pulling motion. Do not lean into the sweep direction as this adds to their momentum. If the sweep is strongly initiated, consider voluntarily posting and transitioning to a scramble or wrestling position rather than fighting the sweep from a compromised angle where you may be rolled directly into mount.",
+        "answer_line": "Post wide, hips away from overhook",
+        "distractors": {
+          "plausible": [
+            "Lean into the sweep direction",
+            "Pull hips toward the overhook"
+          ],
+          "trap": [
+            "Fight the sweep from bad angle"
+          ]
+        }
       }
     ],
     "training_progressions": [

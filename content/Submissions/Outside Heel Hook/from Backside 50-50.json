@@ -330,42 +330,122 @@
       {
         "question": "What anatomical structures does the Outside Heel Hook primarily attack and why is this significant for safety?",
         "answer": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner structures, and can also damage the anterior cruciate ligament (ACL) and meniscus through rotational shearing forces. This is critically significant for safety because these knee ligaments provide minimal proprioceptive feedback before structural failure—unlike chokes where you feel pressure building, heel hooks can cause serious ligament tears before the defender feels significant pain. This is why controlled application and early tapping are non-negotiable.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "LCL tears before pain signals",
+        "distractors": {
+          "plausible": [
+            "Mainly targets ACL, not LCL",
+            "Pain builds gradually like chokes"
+          ],
+          "trap": [
+            "Wait for real pain, then tap"
+          ]
+        }
       },
       {
         "question": "What are the reliable indicators that the submission is approaching the breaking point for the defender's knee?",
         "answer": "Reliable breaking point indicators include feeling the heel rotation suddenly become easier as ligamentous resistance decreases, hearing or feeling a subtle pop or shift in the knee joint, and the defender's body suddenly stiffening or jerking. However, the critical safety point is that these indicators may appear simultaneously with or after structural damage has already occurred. This is why the attacker must apply rotation progressively and the defender must tap at the first sensation of rotational pressure on their knee, not wait for pain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotation suddenly eases up",
+        "distractors": {
+          "plausible": [
+            "Wait for an audible pop",
+            "Tap only once pain spikes"
+          ],
+          "trap": [
+            "Push through the sudden give"
+          ]
+        }
       },
       {
         "question": "Why is chest-to-back pressure essential before attempting the heel hook grip from backside 50-50?",
         "answer": "Chest-to-back pressure immobilizes the opponent's hips, which is the primary mechanism for heel hook defense. Without hip mobility, the defender cannot rotate their knee inward to hide the heel, cannot bridge to create extraction space, and cannot turn to face the attacker to convert the position. Establishing heavy pressure first means your hands are freed for attacking because your body structure is doing the controlling work, rather than using your hands for both control and attack simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pins hips, frees hands to attack",
+        "distractors": {
+          "plausible": [
+            "Frees legs for extra squeeze",
+            "Blocks their view of the grip"
+          ],
+          "trap": [
+            "Skip pressure, grab heel fast"
+          ]
+        }
       },
       {
         "question": "At what point does the Outside Heel Hook become effectively inescapable for the defender?",
         "answer": "The submission becomes nearly inescapable once the attacker has achieved three conditions simultaneously: a deep two-handed heel cup grip with the heel seated in the palm, the controlling elbow threaded inside the thigh creating the rotational fulcrum, and active lateral rotation has begun. Once rotation is applied with proper elbow positioning and reinforced grip, the defender's only remaining option is to tap. Attempting to escape during active rotation risks catastrophic knee injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Deep grip, elbow in, rotating",
+        "distractors": {
+          "plausible": [
+            "Just securing the heel cup",
+            "Elbow outside thigh, rotating"
+          ],
+          "trap": [
+            "Try to spin out mid-rotation"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that reduces the success rate of the Outside Heel Hook?",
         "answer": "The most common finishing error is applying rotation with the elbow positioned outside the opponent's thigh rather than inside. This means the rotational force dissipates into open space instead of loading directly onto the knee ligaments through the fulcrum created by the inner-thigh elbow position. The attacker feels like they are working hard but generating minimal actual breaking pressure. Threading the elbow inside the thigh before rotating is the single most important mechanical detail for finishing effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow outside thigh, not inside",
+        "distractors": {
+          "plausible": [
+            "Not squeezing the knees together",
+            "Rotating too slowly overall"
+          ],
+          "trap": [
+            "Yank hard for a fast finish"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent begins pulling their heel away during the finishing sequence?",
         "answer": "If the opponent starts pulling their heel from your grip during the finish, first tighten your figure-four or Gable grip reinforcement rather than chasing with your primary hand. Then increase your leg squeeze to re-pin their leg in the entanglement. If their heel extraction continues, immediately redirect to an alternative attack: transition your grip above the knee for a kneebar threat, or use their straightening leg to attack a toe hold. Chasing a slipping heel grip with increasing force risks losing position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten figure-four, re-pin leg",
+        "distractors": {
+          "plausible": [
+            "Chase the heel with main hand",
+            "Switch grip to the other hand"
+          ],
+          "trap": [
+            "Rip harder before it slips free"
+          ]
+        }
       },
       {
         "question": "Why is explosive application of the Outside Heel Hook particularly dangerous compared to other joint locks like armbars?",
         "answer": "Unlike armbars where the elbow joint provides progressive pain signals through increasing extension before structural failure, knee ligaments targeted by heel hooks offer almost no graduated pain response. The ligaments can tear before the defender experiences significant discomfort. Additionally, rotational forces on the knee can damage multiple structures simultaneously (LCL, ACL, meniscus, posterolateral corner), creating compound injuries far more severe than a single-structure failure. Explosive application eliminates the defender's already-narrow window to recognize danger and tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "No graduated warning like armbars",
+        "distractors": {
+          "plausible": [
+            "Elbow joint gives warning first",
+            "Only damages one structure"
+          ],
+          "trap": [
+            "Explosive finish is safer, faster"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes finish rate when the opponent has strong heel hook defense from backside 50-50?",
         "answer": "Against strong heel hook defense, use the dilemma-based approach inherent to backside 50-50. Alternate between threatening the heel hook and threatening back control advancement. When the opponent focuses on hiding their heel with strong internal knee rotation and grip fighting, walk your hips up their body toward back control. When they redirect defensive focus to prevent back control by framing against your hips, their hands leave heel defense and the heel becomes exposed. The key is patient oscillation between threats rather than committing fully to either one.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Oscillate heel and back threats",
+        "distractors": {
+          "plausible": [
+            "Commit fully to the heel hook",
+            "Rush the finish before stalling"
+          ],
+          "trap": [
+            "Abandon heel, chase back only"
+          ]
+        }
       }
     ],
     "clips": [
@@ -488,27 +568,77 @@
       {
         "question": "What is the first defensive action when you recognize an Outside Heel Hook attempt from backside 50-50?",
         "answer": "The absolute first priority is hiding your heel through aggressive internal knee rotation—turn your knee inward and pull your toes toward your shin. This must happen before any grip fighting, framing, or escape attempt. The heel must become inaccessible to the attacker's grip before you address anything else. Every fraction of a second the heel remains exposed increases the probability of the attacker establishing a finishing grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate knee in, hide the heel",
+        "distractors": {
+          "plausible": [
+            "Frame against their chest first",
+            "Grip fight their hands first"
+          ],
+          "trap": [
+            "Turn away to protect the knee"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker during a heel hook attempt the most dangerous defensive error?",
         "answer": "Turning away from the attacker adds your own body's rotational momentum to the attacker's heel hook rotation. This compounds the rotational force on your knee ligaments, potentially doubling or tripling the torque applied. Because knee ligaments fail without adequate pain warning, this amplified force can cause instant structural damage. Always rotate toward the attacker to reduce the rotational differential, or remain stationary while working grip defense.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Adds your rotation to theirs",
+        "distractors": {
+          "plausible": [
+            "Only risks losing position",
+            "Makes framing impossible"
+          ],
+          "trap": [
+            "Turn away to escape rotation"
+          ]
+        }
       },
       {
         "question": "At what point should you tap to an Outside Heel Hook in training?",
         "answer": "Tap immediately upon feeling any rotational pressure on your knee joint during training. Do not wait for pain, as heel hooks can cause ligament tears before pain signals reach your brain. The moment you feel your knee being twisted against its natural range of motion, or the moment you recognize that the attacker has a secured reinforced grip with their elbow inside your thigh and rotation has begun, you should tap. Protecting your knees for decades of training is more valuable than any single training exchange.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first rotational pressure",
+        "distractors": {
+          "plausible": [
+            "Tap when you feel sharp pain",
+            "Tap once grip is fully set"
+          ],
+          "trap": [
+            "Wait it out, try to posture"
+          ]
+        }
       },
       {
         "question": "How does the backside 50-50 position make heel hook defense more difficult compared to standard 50-50?",
         "answer": "Backside 50-50 creates three specific defensive disadvantages. First, the attacker's chest-to-back pressure pins your hips, removing the hip rotation that is the primary heel hook defense mechanism in standard 50-50. Second, your back is to the attacker, eliminating visual feedback on their grip progression so you cannot see what they are doing with their hands. Third, your framing options are limited because you cannot easily push against their chest from the backside position. In standard 50-50, the face-to-face orientation provides visual information, framing access, and more effective hip mobility.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips pinned, no visual, no frame",
+        "distractors": {
+          "plausible": [
+            "Just harder to see the grip",
+            "Only removes hip mobility"
+          ],
+          "trap": [
+            "Turn away for a better angle"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to attempt a counter heel hook on the attacker's leg as a defensive strategy?",
         "answer": "Counter-attacking the attacker's heel is appropriate only when they have committed both hands heavily to your heel and their own legs become exposed within your entanglement. This typically happens when they are so focused on finishing your heel that they neglect their own leg defense. However, this is a high-risk strategy—if you reach for their heel while yours is exposed, you may get finished first. Only attempt the counter when your own heel is hidden and the attacker's heel is clearly accessible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Only once your own heel is hid",
+        "distractors": {
+          "plausible": [
+            "Anytime their legs are close",
+            "As soon as their hands are on you"
+          ],
+          "trap": [
+            "Reach for their heel first"
+          ]
+        }
       }
     ],
     "training_progressions": [

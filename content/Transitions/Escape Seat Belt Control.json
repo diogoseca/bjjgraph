@@ -278,31 +278,101 @@
       },
       {
         "question": "Your opponent feels your grip fighting and immediately tightens their seat belt while driving chest pressure harder - how do you adjust?",
-        "answer": "Add hip movement to complement the grip fighting rather than relying on hand strength alone. Execute small hip escapes while maintaining the two-on-one grip to weaken the seat belt from multiple angles simultaneously. The combination of grip pulling and hip angle creation is far more effective than either in isolation. If the opponent tightens dramatically, wait for their next weight shift or submission attempt, which will temporarily weaken their grip structure and create a higher-percentage escape window."
+        "answer": "Add hip movement to complement the grip fighting rather than relying on hand strength alone. Execute small hip escapes while maintaining the two-on-one grip to weaken the seat belt from multiple angles simultaneously. The combination of grip pulling and hip angle creation is far more effective than either in isolation. If the opponent tightens dramatically, wait for their next weight shift or submission attempt, which will temporarily weaken their grip structure and create a higher-percentage escape window.",
+        "answer_line": "Add hip escapes to grip fighting",
+        "distractors": {
+          "plausible": [
+            "Rely on hand strength alone",
+            "Freeze and wait for them to tire"
+          ],
+          "trap": [
+            "Stop grip fighting entirely"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement required before attempting to turn face-down?",
-        "answer": "A hip escape or shrimp that creates angular separation between your back and the opponent's chest. Without this hip angle, your shoulders remain flat against the mat and the opponent's chest pressure pins them in place, making rotation mechanically impossible against any resistance. The hip escape slides your hips away from the opponent while your shoulders stay relatively stationary, creating the angular leverage needed to power the face-down turn against the remaining hooks and grip pressure."
+        "answer": "A hip escape or shrimp that creates angular separation between your back and the opponent's chest. Without this hip angle, your shoulders remain flat against the mat and the opponent's chest pressure pins them in place, making rotation mechanically impossible against any resistance. The hip escape slides your hips away from the opponent while your shoulders stay relatively stationary, creating the angular leverage needed to power the face-down turn against the remaining hooks and grip pressure.",
+        "answer_line": "Hip escape before turning face-down",
+        "distractors": {
+          "plausible": [
+            "Turn face-down without hip escape",
+            "Push off their chest to create space"
+          ],
+          "trap": [
+            "Turn toward the opponent instead"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate this escape sequence?",
-        "answer": "The highest-percentage windows occur when the back controller commits to a submission attempt, particularly the rear naked choke. When they release the seat belt to slide the choking arm toward the neck, the grip structure is temporarily compromised. Similarly, when they adjust hooks or shift weight to set up attacks, their control is momentarily weakened. Initiating the escape during these transitional moments can increase success rates by 20-30% compared to attempting against a fully settled, non-attacking opponent."
+        "answer": "The highest-percentage windows occur when the back controller commits to a submission attempt, particularly the rear naked choke. When they release the seat belt to slide the choking arm toward the neck, the grip structure is temporarily compromised. Similarly, when they adjust hooks or shift weight to set up attacks, their control is momentarily weakened. Initiating the escape during these transitional moments can increase success rates by 20-30% compared to attempting against a fully settled, non-attacking opponent.",
+        "answer_line": "Escape when they attack the choke",
+        "distractors": {
+          "plausible": [
+            "Escape when they're fully settled",
+            "Escape right after they secure hooks"
+          ],
+          "trap": [
+            "Escape when control is tightest"
+          ]
+        }
       },
       {
         "question": "Your grip break succeeds but you cannot clear the bottom hook - what alternative path should you take?",
-        "answer": "With the seat belt broken but the bottom hook still engaged, shift to a lateral escape by sliding your hips down toward the hook side and working to face the opponent from a side-lying position. Alternatively, execute a back door escape by sliding your shoulder blades down past the opponent's hips while their upper body control is compromised. The broken seat belt provides a limited window before the opponent re-establishes grips, so committing to an alternative rather than continuing to fight the hook is essential."
+        "answer": "With the seat belt broken but the bottom hook still engaged, shift to a lateral escape by sliding your hips down toward the hook side and working to face the opponent from a side-lying position. Alternatively, execute a back door escape by sliding your shoulder blades down past the opponent's hips while their upper body control is compromised. The broken seat belt provides a limited window before the opponent re-establishes grips, so committing to an alternative rather than continuing to fight the hook is essential.",
+        "answer_line": "Lateral slide or back door escape",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the same hook",
+            "Reset position and regrip fully"
+          ],
+          "trap": [
+            "Turn to face opponent directly"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between this escape and the back door escape in terms of when each is optimal?",
-        "answer": "The seat belt escape is optimal when the opponent's grip is the primary control mechanism and their hooks are manageable or partially cleared. It works best against opponents who rely heavily on the harness structure. The back door escape is optimal when the opponent's hooks are deep but their grip is loose, allowing lateral sliding movement. Choose the seat belt escape when you can effectively grip fight but cannot move your hips freely, and the back door escape when your hips have mobility but the opponent's grip is too strong for direct breaking."
+        "answer": "The seat belt escape is optimal when the opponent's grip is the primary control mechanism and their hooks are manageable or partially cleared. It works best against opponents who rely heavily on the harness structure. The back door escape is optimal when the opponent's hooks are deep but their grip is loose, allowing lateral sliding movement. Choose the seat belt escape when you can effectively grip fight but cannot move your hips freely, and the back door escape when your hips have mobility but the opponent's grip is too strong for direct breaking.",
+        "answer_line": "Use when grip fights but hips stuck",
+        "distractors": {
+          "plausible": [
+            "Use when hooks deep, grip loose",
+            "Only works against gi opponents"
+          ],
+          "trap": [
+            "Switch escapes mid-technique"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your turn and transitions to mount - what went wrong in the escape execution?",
-        "answer": "The most common cause is turning toward the opponent rather than face-down toward turtle. Turning toward them with hooks still partially engaged gives the top player a natural path to mount by following your rotation. The correction is ensuring the turn goes face-down with chest toward the mat. A secondary cause is failing to clear hooks before turning, as engaged hooks guide the opponent's legs into mount position as you rotate. Always clear at least the bottom hook before initiating the face-down turn."
+        "answer": "The most common cause is turning toward the opponent rather than face-down toward turtle. Turning toward them with hooks still partially engaged gives the top player a natural path to mount by following your rotation. The correction is ensuring the turn goes face-down with chest toward the mat. A secondary cause is failing to clear hooks before turning, as engaged hooks guide the opponent's legs into mount position as you rotate. Always clear at least the bottom hook before initiating the face-down turn.",
+        "answer_line": "Turned toward opponent, not away",
+        "distractors": {
+          "plausible": [
+            "Failed to clear the bottom hook",
+            "Turned too early in sequence"
+          ],
+          "trap": [
+            "Never turn during the escape"
+          ]
+        }
       },
       {
         "question": "What grip configurations work best for the two-on-one control on the over-shoulder arm?",
-        "answer": "The most effective configuration uses your near-side hand gripping the opponent's wrist with a C-grip while your far-side hand reinforces by gripping their forearm near the elbow. This dual-point control provides maximum leverage for pulling the arm across your body. In gi, gripping the sleeve at the wrist and elbow provides even stronger control. Avoid interlocking your fingers around their arm, as this limits your pulling direction and makes it harder to transition to other grips if the initial break fails."
+        "answer": "The most effective configuration uses your near-side hand gripping the opponent's wrist with a C-grip while your far-side hand reinforces by gripping their forearm near the elbow. This dual-point control provides maximum leverage for pulling the arm across your body. In gi, gripping the sleeve at the wrist and elbow provides even stronger control. Avoid interlocking your fingers around their arm, as this limits your pulling direction and makes it harder to transition to other grips if the initial break fails.",
+        "answer_line": "C-grip wrist, reinforce at elbow",
+        "distractors": {
+          "plausible": [
+            "Interlock fingers around the arm",
+            "Grip only at the wrist alone"
+          ],
+          "trap": [
+            "Grip fingers instead of wrist"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice the grip-breaking sequence with progressive resistance to avoid cervical spine strain from aggressive head positioning. Communicate clearly with training partners about choking pressure levels during escape drilling, as the transition between neck defense and grip fighting creates moments of vulnerability. Avoid explosive neck movements during the turning phase. Tap immediately if a choke locks in during escape practice rather than continuing to fight through a secured submission.",
@@ -412,19 +482,59 @@
     "flashcards": [
       {
         "question": "What is your immediate response when you feel the bottom player establish a two-on-one grip on your over-shoulder arm?",
-        "answer": "Immediately tighten your under-arm grip and pull it deeper across the opponent's body while increasing chest pressure. Simultaneously, use the threatened over-arm to attempt a choke by driving your forearm toward their neck. This forces the bottom player to choose between continuing the grip break or defending the neck. If they maintain the grip break, switch to an alternative grip configuration such as wrist-on-wrist or transfer to grabbing their far shoulder."
+        "answer": "Immediately tighten your under-arm grip and pull it deeper across the opponent's body while increasing chest pressure. Simultaneously, use the threatened over-arm to attempt a choke by driving your forearm toward their neck. This forces the bottom player to choose between continuing the grip break or defending the neck. If they maintain the grip break, switch to an alternative grip configuration such as wrist-on-wrist or transfer to grabbing their far shoulder.",
+        "answer_line": "Tighten under-arm, threaten choke",
+        "distractors": {
+          "plausible": [
+            "Pull over-arm free immediately",
+            "Defend hooks before the grip"
+          ],
+          "trap": [
+            "Release under-arm to regrip"
+          ]
+        }
       },
       {
         "question": "How should you respond when the bottom player begins shrimping to create hip angle?",
-        "answer": "Follow their hip movement immediately by sliding your hips to match theirs, maintaining zero space between your chest and their back. Drive your hooks deeper to prevent further hip displacement. If the angle becomes significant, consider proactively transitioning to body triangle to eliminate hip escape entirely, or begin setting up a submission to punish the hand positioning required for hip escapes. Never allow cumulative angle creation across multiple shrimps."
+        "answer": "Follow their hip movement immediately by sliding your hips to match theirs, maintaining zero space between your chest and their back. Drive your hooks deeper to prevent further hip displacement. If the angle becomes significant, consider proactively transitioning to body triangle to eliminate hip escape entirely, or begin setting up a submission to punish the hand positioning required for hip escapes. Never allow cumulative angle creation across multiple shrimps.",
+        "answer_line": "Follow hips, drive hooks deeper",
+        "distractors": {
+          "plausible": [
+            "Loosen grips to conserve energy",
+            "Wait for the shrimp to stop"
+          ],
+          "trap": [
+            "Let angle build, then re-settle"
+          ]
+        }
       },
       {
         "question": "When should you proactively transition to mount rather than fighting to maintain back control?",
-        "answer": "Transition to mount when the bottom player has successfully broken your over-shoulder grip and begun turning face-down. At this point, fighting to maintain back control has diminishing returns as the grip structure is compromised. By following their rotation and posting your knee over their hip, you convert a partial escape into a mount transition that maintains your dominant position. The key indicator is when you feel the turning momentum becoming impossible to stop with grip and hook pressure alone."
+        "answer": "Transition to mount when the bottom player has successfully broken your over-shoulder grip and begun turning face-down. At this point, fighting to maintain back control has diminishing returns as the grip structure is compromised. By following their rotation and posting your knee over their hip, you convert a partial escape into a mount transition that maintains your dominant position. The key indicator is when you feel the turning momentum becoming impossible to stop with grip and hook pressure alone.",
+        "answer_line": "Follow the turn, post knee to mount",
+        "distractors": {
+          "plausible": [
+            "Transition to mount immediately",
+            "Hold back control at all costs"
+          ],
+          "trap": [
+            "Release control and reset fully"
+          ]
+        }
       },
       {
         "question": "What dilemma should you create for the bottom player to reduce their escape success rate?",
-        "answer": "Force the bottom player to choose between defending the neck and fighting grips. When they remove hands from neck defense to grip fight, immediately threaten the rear naked choke. When they prioritize neck defense, settle your weight and reinforce all control points. This creates an impossible choice where addressing either problem exposes them to the other. Advanced practitioners layer this with hook threats and positional shifts to create three or four simultaneous problems the bottom player cannot all solve."
+        "answer": "Force the bottom player to choose between defending the neck and fighting grips. When they remove hands from neck defense to grip fight, immediately threaten the rear naked choke. When they prioritize neck defense, settle your weight and reinforce all control points. This creates an impossible choice where addressing either problem exposes them to the other. Advanced practitioners layer this with hook threats and positional shifts to create three or four simultaneous problems the bottom player cannot all solve.",
+        "answer_line": "Force neck defense vs grip fight",
+        "distractors": {
+          "plausible": [
+            "Attack the neck at all times",
+            "Focus only on breaking the grip"
+          ],
+          "trap": [
+            "Let them choose freely, wait"
+          ]
+        }
       }
     ],
     "training_progressions": [

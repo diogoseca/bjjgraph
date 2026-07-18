@@ -295,11 +295,31 @@
     "flashcards": [
       {
         "question": "What is the most critical timing element for successful stack defense?",
-        "answer": "The most critical timing element is recognizing the stack pass initiation immediately, as soon as you feel forward driving pressure toward your shoulders, and establishing defensive frames before the opponent achieves full stacking position. Once the stack is fully consolidated with your spine compressed, defense becomes exponentially more difficult and risky. Early recognition allows you to implement frames, hip escapes, and angle creation while you still have mobility, rather than trying to create space from a fully compromised position."
+        "answer": "The most critical timing element is recognizing the stack pass initiation immediately, as soon as you feel forward driving pressure toward your shoulders, and establishing defensive frames before the opponent achieves full stacking position. Once the stack is fully consolidated with your spine compressed, defense becomes exponentially more difficult and risky. Early recognition allows you to implement frames, hip escapes, and angle creation while you still have mobility, rather than trying to create space from a fully compromised position.",
+        "answer_line": "Frame the instant pressure starts",
+        "distractors": {
+          "plausible": [
+            "React once fully stacked",
+            "Prioritize hip escape distance"
+          ],
+          "trap": [
+            "Wait and absorb the pressure"
+          ]
+        }
       },
       {
         "question": "Why is hip escape angle more important than hip escape distance in stack defense?",
-        "answer": "Hip escape angle is more important than distance because moving perpendicular (45-90 degrees) to the opponent's forward pressure creates a mechanical disadvantage for them that linear backward movement cannot achieve. When you escape straight back, the opponent can simply follow your movement maintaining their stacking pressure. However, when you create a lateral angle, they must change their entire body orientation to follow, which breaks their pressure structure and gives you time to recover guard position. A small angled escape is more effective than a large linear one."
+        "answer": "Hip escape angle is more important than distance because moving perpendicular (45-90 degrees) to the opponent's forward pressure creates a mechanical disadvantage for them that linear backward movement cannot achieve. When you escape straight back, the opponent can simply follow your movement maintaining their stacking pressure. However, when you create a lateral angle, they must change their entire body orientation to follow, which breaks their pressure structure and gives you time to recover guard position. A small angled escape is more effective than a large linear one.",
+        "answer_line": "Angle 45-90°, not straight back",
+        "distractors": {
+          "plausible": [
+            "Escape straight back fast",
+            "Maximize escape distance"
+          ],
+          "trap": [
+            "Push straight into pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent secures double underhooks and begins stacking you hard. Your hips are already elevated. What is your immediate sequence of actions?",
@@ -307,31 +327,101 @@
       },
       {
         "question": "What are the three primary frame positions against a stack pass and when would you use each?",
-        "answer": "The three primary frame positions are: (1) Hands on opponent's hips, used when the stack is just initiating to create maximum distance and prevent them from getting close to your upper body; (2) Hands cupped over opponent's shoulders, used when they have closed distance but have not yet driven you fully into the stack, providing strong structural frames that are hard to collapse; (3) Hands posted on their biceps, used when they are driving very hard and you need to redirect their pressure to the side rather than absorb it directly. The choice depends on how far the stack has progressed and where their weight is distributed."
+        "answer": "The three primary frame positions are: (1) Hands on opponent's hips, used when the stack is just initiating to create maximum distance and prevent them from getting close to your upper body; (2) Hands cupped over opponent's shoulders, used when they have closed distance but have not yet driven you fully into the stack, providing strong structural frames that are hard to collapse; (3) Hands posted on their biceps, used when they are driving very hard and you need to redirect their pressure to the side rather than absorb it directly. The choice depends on how far the stack has progressed and where their weight is distributed.",
+        "answer_line": "Hips, shoulders, or biceps by stage",
+        "distractors": {
+          "plausible": [
+            "Always frame the hips",
+            "Always frame the shoulders"
+          ],
+          "trap": [
+            "Push straight into their chest"
+          ]
+        }
       },
       {
         "question": "How should you coordinate upper body frames with lower body hip escape mechanics?",
-        "answer": "Effective coordination requires establishing frames first to create initial space, then executing hip escape movements while actively maintaining those frames to keep the space open. The frames push the opponent's upper body away, creating a gap between torsos, while simultaneously your hips shrimp to the side, moving your lower body into that newly created space. Think of it as a push-pull mechanic: frames push their torso away while hip escape pulls your body laterally into the space. If you lose frame pressure during the hip escape, the opponent's weight crashes back down and negates your movement."
+        "answer": "Effective coordination requires establishing frames first to create initial space, then executing hip escape movements while actively maintaining those frames to keep the space open. The frames push the opponent's upper body away, creating a gap between torsos, while simultaneously your hips shrimp to the side, moving your lower body into that newly created space. Think of it as a push-pull mechanic: frames push their torso away while hip escape pulls your body laterally into the space. If you lose frame pressure during the hip escape, the opponent's weight crashes back down and negates your movement.",
+        "answer_line": "Frame pushes, hips pull into space",
+        "distractors": {
+          "plausible": [
+            "Hip escape first, frame second",
+            "Frames alone create the space"
+          ],
+          "trap": [
+            "Relax frames during the escape"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs both your ankles during a stack pass attempt, preventing hip escape. What alternative escape do you use?",
-        "answer": "When both ankles are controlled, transition to a granby roll (shoulder roll) by tucking your chin, rolling over one shoulder, and inverting to create a completely different plane of movement. The rotational momentum breaks their grip structure because hands cannot maintain strong grips on an object rotating away from them. Even if they maintain partial grips, the radical angle change eliminates all their passing momentum and forces a complete reset. After the inversion, immediately re-face your opponent and establish guard from the new angle."
+        "answer": "When both ankles are controlled, transition to a granby roll (shoulder roll) by tucking your chin, rolling over one shoulder, and inverting to create a completely different plane of movement. The rotational momentum breaks their grip structure because hands cannot maintain strong grips on an object rotating away from them. Even if they maintain partial grips, the radical angle change eliminates all their passing momentum and forces a complete reset. After the inversion, immediately re-face your opponent and establish guard from the new angle.",
+        "answer_line": "Granby roll to invert and reset",
+        "distractors": {
+          "plausible": [
+            "Kick harder to free ankles",
+            "Push off with straight hip escape"
+          ],
+          "trap": [
+            "Try to stand up straight"
+          ]
+        }
       },
       {
         "question": "Why is it essential to transition immediately to offense after successfully defending a stack pass?",
-        "answer": "Transitioning immediately to offense is essential because remaining passive after a successful defense allows the opponent to simply re-initiate the same passing sequence or switch to an alternative pass, keeping you in a perpetual defensive cycle that drains energy. By attacking immediately with sweeps or submissions, you punish their failed pass attempt, force them to defend, and create the psychological pressure that makes them more hesitant on subsequent attempts. The moment after a defended pass is when the opponent is most vulnerable, as they are often off-balance and have not yet reset their defensive posture."
+        "answer": "Transitioning immediately to offense is essential because remaining passive after a successful defense allows the opponent to simply re-initiate the same passing sequence or switch to an alternative pass, keeping you in a perpetual defensive cycle that drains energy. By attacking immediately with sweeps or submissions, you punish their failed pass attempt, force them to defend, and create the psychological pressure that makes them more hesitant on subsequent attempts. The moment after a defended pass is when the opponent is most vulnerable, as they are often off-balance and have not yet reset their defensive posture.",
+        "answer_line": "Attack immediately after defending",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and rest",
+            "Re-establish full guard first"
+          ],
+          "trap": [
+            "Stay defensive, wait for next pass"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a stack pass but then switches to a leg drag as you hip escape to the right. How do you adjust your defense?",
-        "answer": "As soon as you feel the directional change from stacking pressure to lateral leg drag control, immediately establish a reverse De La Riva hook with your right foot on their far hip to prevent them from consolidating the drag. Simultaneously, use your left hand to frame on their near-side knee or hip to create distance. If they have already secured the drag, turn into them by posting your left hand and coming up to your knees to face them, preventing the back exposure that makes leg drags dangerous. The key is recognizing the transition point between stack and drag, which occurs when their pressure shifts from forward to lateral."
+        "answer": "As soon as you feel the directional change from stacking pressure to lateral leg drag control, immediately establish a reverse De La Riva hook with your right foot on their far hip to prevent them from consolidating the drag. Simultaneously, use your left hand to frame on their near-side knee or hip to create distance. If they have already secured the drag, turn into them by posting your left hand and coming up to your knees to face them, preventing the back exposure that makes leg drags dangerous. The key is recognizing the transition point between stack and drag, which occurs when their pressure shifts from forward to lateral.",
+        "answer_line": "Hook reverse DLR, frame the knee",
+        "distractors": {
+          "plausible": [
+            "Keep hip escaping the same way",
+            "Grab their far ankle instantly"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       },
       {
         "question": "What is the optimal knee shield insertion point during stack defense recovery?",
-        "answer": "The optimal insertion point for the knee shield is across the opponent's hip line, with your shin angled diagonally from their far hip to their near shoulder. Insert the knee as your hip escape creates the first meaningful gap between your bodies, using the momentum of your shrimp to drive the knee into position. The knee shield should be placed before attempting to fully re-establish guard, as it creates a structural barrier that prevents the opponent from re-collapsing the distance even if your frames momentarily weaken. A knee shield placed too high (across chest) gets easily smashed, while one too low (across thighs) does not prevent upper body pressure."
+        "answer": "The optimal insertion point for the knee shield is across the opponent's hip line, with your shin angled diagonally from their far hip to their near shoulder. Insert the knee as your hip escape creates the first meaningful gap between your bodies, using the momentum of your shrimp to drive the knee into position. The knee shield should be placed before attempting to fully re-establish guard, as it creates a structural barrier that prevents the opponent from re-collapsing the distance even if your frames momentarily weaken. A knee shield placed too high (across chest) gets easily smashed, while one too low (across thighs) does not prevent upper body pressure.",
+        "answer_line": "Shin across hip line, far to near",
+        "distractors": {
+          "plausible": [
+            "Knee shield across the chest",
+            "Knee shield across the thighs"
+          ],
+          "trap": [
+            "Skip shield, rebuild guard first"
+          ]
+        }
       },
       {
         "question": "How does stack defense differ between gi and no-gi, and what adjustments are necessary?",
-        "answer": "In gi, the opponent can use collar and pant grips to maintain the stack, making grip breaking an additional prerequisite before hip escape. However, you can use their lapel or sleeve for lasso guard recovery, creating mechanical barriers. In no-gi, the opponent cannot grip fabric, making their stack less stable but harder to control with frames because skin is slippery. Focus more on overhook and underhook control rather than collar frames. Hip escapes become more effective in no-gi because without gi grips the opponent has fewer anchoring options, but you must be faster because they can also transition between passes more fluidly without grip entanglements."
+        "answer": "In gi, the opponent can use collar and pant grips to maintain the stack, making grip breaking an additional prerequisite before hip escape. However, you can use their lapel or sleeve for lasso guard recovery, creating mechanical barriers. In no-gi, the opponent cannot grip fabric, making their stack less stable but harder to control with frames because skin is slippery. Focus more on overhook and underhook control rather than collar frames. Hip escapes become more effective in no-gi because without gi grips the opponent has fewer anchoring options, but you must be faster because they can also transition between passes more fluidly without grip entanglements.",
+        "answer_line": "Break grips in gi, move faster no-gi",
+        "distractors": {
+          "plausible": [
+            "Grips don't matter either way",
+            "No-gi frames are easier to hold"
+          ],
+          "trap": [
+            "Push into gi grips harder"
+          ]
+        }
       }
     ],
     "safety_considerations": "Stack defense requires careful attention to spinal safety, particularly protecting the cervical spine from excessive compression. Never allow your neck to bear the full weight of the opponent's stack. If you feel intense pressure on your neck vertebrae, immediately tap or use explosive bridging to create emergency space. When drilling stack defense, partners must apply progressive resistance rather than full power, as the stacked position can cause serious neck injury if weight is applied suddenly or without control. Practitioners with pre-existing neck, upper back, or shoulder injuries should consult with medical professionals before training this defensive sequence and should consider using the granby roll variation which reduces spinal compression. Always communicate clearly with training partners about pressure levels, and establish a verbal signal such as 'ease up' to indicate when pressure is approaching unsafe levels before a formal tap becomes necessary.",
@@ -449,19 +539,59 @@
     "flashcards": [
       {
         "question": "Your opponent establishes strong frames on your hips during your stack pass. What are your options to overcome these frames?",
-        "answer": "You have several options: swim one arm inside their frame and collapse it by driving your elbow past their wrist, then chest-pressure through the gap; use a two-on-one grip to strip one of their framing hands and pin it to the mat or their body; or redirect your angle by stepping to one side to make their straight-ahead frames structurally ineffective. The swim-through is highest percentage when their frames are on your hips, while redirection works better when frames are on your shoulders. Avoid simply pushing harder into established frames as this wastes energy."
+        "answer": "You have several options: swim one arm inside their frame and collapse it by driving your elbow past their wrist, then chest-pressure through the gap; use a two-on-one grip to strip one of their framing hands and pin it to the mat or their body; or redirect your angle by stepping to one side to make their straight-ahead frames structurally ineffective. The swim-through is highest percentage when their frames are on your hips, while redirection works better when frames are on your shoulders. Avoid simply pushing harder into established frames as this wastes energy.",
+        "answer_line": "Swim through, strip grip, or angle",
+        "distractors": {
+          "plausible": [
+            "Pull their frames toward you",
+            "Wait for frames to tire out"
+          ],
+          "trap": [
+            "Push harder into their frames"
+          ]
+        }
       },
       {
         "question": "Your opponent hip escapes to the right during your stack pass, creating a 45-degree angle. How do you convert this into a successful pass?",
-        "answer": "Their rightward hip escape opens a passing lane to your left. Immediately redirect from the stack to a knee cut pass by sliding your left knee across their right thigh, using the angle they created as your passing path rather than fighting against it. Control their right hip with your left hand and their far collar or shoulder with your right hand to prevent them from following your movement. Alternatively, if their legs are accessible, transition to a leg drag by pinning both legs to your right side and passing to their left, using their own hip escape angle against them."
+        "answer": "Their rightward hip escape opens a passing lane to your left. Immediately redirect from the stack to a knee cut pass by sliding your left knee across their right thigh, using the angle they created as your passing path rather than fighting against it. Control their right hip with your left hand and their far collar or shoulder with your right hand to prevent them from following your movement. Alternatively, if their legs are accessible, transition to a leg drag by pinning both legs to your right side and passing to their left, using their own hip escape angle against them.",
+        "answer_line": "Knee cut through the open lane",
+        "distractors": {
+          "plausible": [
+            "Chase back to original angle",
+            "Force a straight stack again"
+          ],
+          "trap": [
+            "Follow their hip escape directly"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to secure ankle or pant grips during a stack pass to prevent the opponent's stack defense?",
-        "answer": "The optimal moment is after you have initially driven forward and broken their guard open but before they have established frames on your body. In this transitional window, their hands are typically still adjusting from guard grips to defensive frames, giving you a brief opportunity to control their ankles or pants without being framed away. If you wait until after frames are established, reaching for ankles means releasing pressure and allowing their defense to consolidate. Securing leg control early eliminates the hip escape foundation of their entire defensive sequence."
+        "answer": "The optimal moment is after you have initially driven forward and broken their guard open but before they have established frames on your body. In this transitional window, their hands are typically still adjusting from guard grips to defensive frames, giving you a brief opportunity to control their ankles or pants without being framed away. If you wait until after frames are established, reaching for ankles means releasing pressure and allowing their defense to consolidate. Securing leg control early eliminates the hip escape foundation of their entire defensive sequence.",
+        "answer_line": "Grab legs before frames are set",
+        "distractors": {
+          "plausible": [
+            "Grab legs after frames are set",
+            "Grab legs before opening guard"
+          ],
+          "trap": [
+            "Release pressure to reach ankles"
+          ]
+        }
       },
       {
         "question": "How do you recognize whether an opponent will attempt a granby roll versus a standard hip escape during stack defense?",
-        "answer": "A granby roll is signaled by the opponent tucking their chin to one side, posting one hand behind their own shoulder on the mat, and beginning to shift weight onto their upper back and shoulder rather than their hips. Their eyes will look toward the direction of the intended roll. In contrast, a standard hip escape shows the opponent pushing off with their feet, turning their hips laterally, and maintaining frames with both hands against your body. Recognizing the granby setup allows you to counter by driving your weight forward and down through their chest, pinning their shoulders to the mat and preventing the inversion."
+        "answer": "A granby roll is signaled by the opponent tucking their chin to one side, posting one hand behind their own shoulder on the mat, and beginning to shift weight onto their upper back and shoulder rather than their hips. Their eyes will look toward the direction of the intended roll. In contrast, a standard hip escape shows the opponent pushing off with their feet, turning their hips laterally, and maintaining frames with both hands against your body. Recognizing the granby setup allows you to counter by driving your weight forward and down through their chest, pinning their shoulders to the mat and preventing the inversion.",
+        "answer_line": "Chin tuck and shoulder post = granby",
+        "distractors": {
+          "plausible": [
+            "Feet push, hips turn = granby",
+            "Both hands framing = granby"
+          ],
+          "trap": [
+            "Ignore it, keep driving forward"
+          ]
+        }
       }
     ],
     "training_progressions": [

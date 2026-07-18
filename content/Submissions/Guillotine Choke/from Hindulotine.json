@@ -301,52 +301,152 @@
       {
         "question": "What anatomical structures does the Hindulotine guillotine primarily attack, and how does the rotational angle change the pressure vector compared to a standard guillotine?",
         "answer": "The Hindulotine targets both carotid arteries through bilateral compression via a diagonal pressure vector created by the perpendicular hip angle. Unlike a standard guillotine that pulls linearly toward the attacker's chest, the rotational torque compresses the carotid arteries from a lateral-diagonal angle, which is harder to defend because chin tucking does not effectively block the rotational force. Secondary pressure on the windpipe occurs but the primary mechanism is blood choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid, rotational angle",
+        "distractors": {
+          "plausible": [
+            "Straight pull, not rotational",
+            "Windpipe crush is primary"
+          ],
+          "trap": [
+            "Chin tuck stops the choke"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the choke is approaching the breaking point and a tap is imminent?",
         "answer": "The opponent's grip fighting becomes weaker or less coordinated, their body starts to relax or go limp, their breathing becomes labored or produces gurgling sounds, and their defensive movements slow significantly. Color changes in the face, particularly reddening or purpling, indicate blood flow restriction. Any of these signs means you should be prepared for an immediate tap and ready to release instantly, as unconsciousness can follow within seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Grip weakens, body goes limp",
+        "distractors": {
+          "plausible": [
+            "Increased frantic struggling",
+            "Faster, deeper breathing"
+          ],
+          "trap": [
+            "No signs until they tap"
+          ]
+        }
       },
       {
         "question": "What control requirements must be established before committing to the Hindulotine finish?",
         "answer": "Four elements must be in place: the forearm blade positioned high under the chin with hands locked, hips angled at 45-90 degrees perpendicular to the opponent's spine, leg control preventing the opponent from circling or posturing through closed guard or hooks, and elbows squeezed tight eliminating space around the neck. Attempting to finish without all four elements reduces success rate dramatically and wastes energy on a low-percentage attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip, angle, legs, elbows locked",
+        "distractors": {
+          "plausible": [
+            "Just lock the grip and squeeze",
+            "Hip angle alone is enough"
+          ],
+          "trap": [
+            "Rush the finish, adjust after"
+          ]
+        }
       },
       {
         "question": "At what point during the finishing sequence does the choke become inescapable for the defender?",
         "answer": "The point of no escape occurs when the perpendicular hip angle is fully established, the grip is locked high under the chin with no space for the opponent to work their chin down, and leg control pins their hips so they cannot circle or change the torque angle. Once all three elements converge, the opponent has approximately 3-5 seconds before blood choke effects begin. Before this convergence, escape is still possible through posture recovery or angle disruption.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle+grip+legs all locked",
+        "distractors": {
+          "plausible": [
+            "Once grip alone is locked",
+            "As soon as angle starts"
+          ],
+          "trap": [
+            "Never inescapable, always defend"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin hard against the choking arm while you have the Hindulotine angle established. What grip adjustment increases finishing pressure without releasing control?",
         "answer": "Walk your choking arm incrementally higher on their neck by making small adjustments while maintaining constant pressure. Simultaneously deepen the hip angle to increase rotational torque, which works around the chin tuck from a lateral vector rather than fighting through it directly. Pull your choking elbow toward your opposite hip to change the angle of forearm pressure. The rotational component of the Hindulotine is specifically designed to defeat chin tuck defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen angle, walk grip higher",
+        "distractors": {
+          "plausible": [
+            "Yank the arm straight back",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Force straight down through chin"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous finishing error from the Hindulotine position, and how do you avoid it?",
         "answer": "The most dangerous error is applying explosive rotational force to the neck rather than progressive incremental pressure. The rotational component of the Hindulotine generates significantly more force than a standard guillotine, and explosive application can cause cervical spine injury, tracheal damage, or vertebral artery dissection before the opponent has time to tap. Always apply the finish over 3-8 seconds with controlled progressive pressure, never with sudden jerking or snapping movements.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Explosive snap, not progressive",
+        "distractors": {
+          "plausible": [
+            "Squeezing too many minutes",
+            "Using too much hip angle"
+          ],
+          "trap": [
+            "Snap it fast for quick tap"
+          ]
+        }
       },
       {
         "question": "How should you release the guillotine choke from Hindulotine after receiving a tap signal?",
         "answer": "Immediately open your grip and release all choking pressure upon any tap signal. Remove your forearm from the opponent's neck completely and disengage your hip angle and leg control. Help your partner to a seated position and monitor their breathing and consciousness for at least 30 seconds. Because the Hindulotine applies bilateral carotid pressure, unconsciousness can be delayed even after a tap. If your partner shows confusion, disorientation, or does not recover within 20 seconds, seek medical assistance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release fully, monitor 30 seconds",
+        "distractors": {
+          "plausible": [
+            "Ease pressure but keep the grip",
+            "Release and walk away immediately"
+          ],
+          "trap": [
+            "Hold briefly to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up during your Hindulotine finish attempt. What adjustment prevents the escape?",
         "answer": "Use your legs to pull their hips back toward you while simultaneously snapping your grip downward to break their posture. From bottom, tighten closed guard and curl your hips upward. From top, sprawl your weight forward while pulling the head down. If they achieve partial posture, increase the rotational hip angle to maintain pressure at a shallower neck angle. If they reach full posture, transition to front headlock control and reset rather than chasing a losing grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull hips in, break their posture",
+        "distractors": {
+          "plausible": [
+            "Chase the grip as they posture",
+            "Increase pressure, hold tight"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "In a competition scenario, what finishing strategy maximizes the probability of getting the tap from Hindulotine?",
         "answer": "Establish the position systematically rather than rushing: secure the high grip, set the hip angle, then lock the leg control before beginning finishing pressure. Apply steady incremental pressure while making continuous micro-adjustments to prevent the opponent from settling into a defensive position. Use the dilemma principle by threatening sweeps from bottom or position advancement from top so the opponent must divide their attention between submission defense and positional defense. If the choke stalls after 8-10 seconds, transition to darce or back take rather than burning energy on a plateaued attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Set position first, then pressure",
+        "distractors": {
+          "plausible": [
+            "Rush pressure to save time",
+            "Hold static pressure and wait"
+          ],
+          "trap": [
+            "Grind the same grip forever"
+          ]
+        }
       },
       {
         "question": "What defensive response should you watch for that indicates your opponent is about to go unconscious rather than tap?",
         "answer": "Watch for sudden relaxation of their defensive grip fighting, body going limp or heavy, slowing or cessation of breathing, gurgling or snoring sounds, and involuntary twitching. Some opponents will not tap due to stubbornness or oxygen-deprived confusion. If you feel their resistance suddenly vanish or their body go limp, release immediately regardless of whether a tap was given. Monitor their recovery closely afterward and be prepared to place them in recovery position if needed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sudden limp, breathing stops",
+        "distractors": {
+          "plausible": [
+            "They stop talking or yelling",
+            "They squeeze eyes shut tightly"
+          ],
+          "trap": [
+            "Keep squeezing until they tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -468,22 +568,62 @@
       {
         "question": "How do you recognize that a Hindulotine guillotine is being set up rather than a standard guillotine?",
         "answer": "The key differentiator is the attacker's hip angle. In a standard guillotine, the attacker's body stays relatively square or pulls straight back. In the Hindulotine, you will feel the attacker's hips rotating to create a perpendicular angle to your spine, generating a twisting pressure on your neck rather than straight downward pull. The rotational component creates simultaneous pressure on both carotid arteries from a diagonal angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips rotate to perpendicular",
+        "distractors": {
+          "plausible": [
+            "Arm position feels different",
+            "Faster pace of the choke"
+          ],
+          "trap": [
+            "Same as standard, just tighter"
+          ]
+        }
       },
       {
         "question": "When is the safest moment to tap to the Hindulotine guillotine to prevent injury?",
         "answer": "Tap as soon as you feel bilateral carotid pressure building and recognize that your defensive options have been exhausted. Specifically, if the attacker has established the perpendicular hip angle, their grip is locked high under your chin, and their leg control prevents you from changing the angle, you should tap immediately. The Hindulotine applies blood choke pressure rapidly, and unconsciousness can occur within 4-8 seconds of full application. Waiting too long risks going unconscious involuntarily.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once angle+grip+legs lock",
+        "distractors": {
+          "plausible": [
+            "Wait until vision blurs",
+            "Tap only if grip feels loose"
+          ],
+          "trap": [
+            "Hold out, try to escape first"
+          ]
+        }
       },
       {
         "question": "What is the most effective defensive priority order when caught in a Hindulotine guillotine attempt?",
         "answer": "First, disrupt the attacker's hip angle by driving forward or circling toward the choking arm side to eliminate the rotational torque. Second, recover your posture by straightening your spine and lifting your head. Third, address the grip by stripping the lock with both hands once the angle is neutralized. This order is critical because grip fighting while the Hindulotine angle is intact wastes energy without reducing choking pressure, while neutralizing the angle immediately reduces the threat level.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Kill the angle first",
+        "distractors": {
+          "plausible": [
+            "Strip the grip first",
+            "Recover posture before angle"
+          ],
+          "trap": [
+            "Grip fight while angle is intact"
+          ]
+        }
       },
       {
         "question": "Why is pulling away from the Hindulotine choke a dangerous defensive mistake?",
         "answer": "Pulling away extends your neck and increases the distance between your chin and your chest, which gives the attacker's forearm more space to seat deeper under your chin. It also increases the lever arm for the rotational torque, effectively helping the attacker tighten the choke. The correct response is to drive into the attacker to compress the choking space and flatten their hip angle, which is counterintuitive but mechanically sound.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extends neck, seats choke deeper",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, nothing else",
+            "Signals panic to the attacker"
+          ],
+          "trap": [
+            "Pull back hard to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [

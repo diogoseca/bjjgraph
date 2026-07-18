@@ -223,43 +223,143 @@
     "flashcards": [
       {
         "question": "Why is thumb-inside collar grip essential for the Clock Choke?",
-        "answer": "The thumb-inside grip positions the gi material correctly against the opponent's neck to compress the carotid arteries. With thumb outside, the grip tends to slide or create an air choke rather than a blood choke. The thumb-inside placement also provides a more secure grip that resists being stripped during the rotation, which is critical since the choke depends on maintaining collar tension throughout the walking arc."
+        "answer": "The thumb-inside grip positions the gi material correctly against the opponent's neck to compress the carotid arteries. With thumb outside, the grip tends to slide or create an air choke rather than a blood choke. The thumb-inside placement also provides a more secure grip that resists being stripped during the rotation, which is critical since the choke depends on maintaining collar tension throughout the walking arc.",
+        "answer_line": "Thumb inside seals blood choke",
+        "distractors": {
+          "plausible": [
+            "Thumb outside is just as strong",
+            "Grip depth matters, not thumb"
+          ],
+          "trap": [
+            "Thumb outside, palm up grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling toward you as you initiate the rotation—how do you respond?",
-        "answer": "Maintain your hip control grip and follow their roll rather than fighting it. As they roll, transition to side control or mount while keeping the collar grip, potentially finishing with a cross collar choke from the new position. The roll actually opens opportunities if you stay connected and do not release your grips. Fighting their roll momentum wastes energy and often results in losing the collar grip entirely."
+        "answer": "Maintain your hip control grip and follow their roll rather than fighting it. As they roll, transition to side control or mount while keeping the collar grip, potentially finishing with a cross collar choke from the new position. The roll actually opens opportunities if you stay connected and do not release your grips. Fighting their roll momentum wastes energy and often results in losing the collar grip entirely.",
+        "answer_line": "Follow roll, maintain grips",
+        "distractors": {
+          "plausible": [
+            "Stop the roll immediately",
+            "Follow but release collar grip"
+          ],
+          "trap": [
+            "Release all grips and reset"
+          ]
+        }
       },
       {
         "question": "What role does the non-choking arm play throughout the Clock Choke?",
-        "answer": "The non-choking arm controls the opponent's far hip, serving as an anchor that prevents rolling escapes and provides a reference point for your rotational movement. Without this hip control, the opponent can easily roll toward you to relieve choking pressure and potentially recover guard. The hip grip also prevents them from sitting back into you, which would collapse your rotational angle."
+        "answer": "The non-choking arm controls the opponent's far hip, serving as an anchor that prevents rolling escapes and provides a reference point for your rotational movement. Without this hip control, the opponent can easily roll toward you to relieve choking pressure and potentially recover guard. The hip grip also prevents them from sitting back into you, which would collapse your rotational angle.",
+        "answer_line": "Controls far hip as anchor",
+        "distractors": {
+          "plausible": [
+            "Controls near shoulder instead",
+            "Grips belt for extra control"
+          ],
+          "trap": [
+            "Posts on mat for base"
+          ]
+        }
       },
       {
         "question": "At what angle relative to the opponent's spine should you be when applying maximum finishing pressure?",
-        "answer": "You should be approximately perpendicular (90 degrees) to their spine when applying maximum pressure. This angle creates optimal leverage for the rotational pressure component of the choke. Being too parallel reduces the effectiveness of your sprawl, while going past 90 degrees can release tension on the collar grip and allow them to turn into you."
+        "answer": "You should be approximately perpendicular (90 degrees) to their spine when applying maximum pressure. This angle creates optimal leverage for the rotational pressure component of the choke. Being too parallel reduces the effectiveness of your sprawl, while going past 90 degrees can release tension on the collar grip and allow them to turn into you.",
+        "answer_line": "Perpendicular, 90 degrees",
+        "distractors": {
+          "plausible": [
+            "Parallel to their spine",
+            "45 degrees off their spine"
+          ],
+          "trap": [
+            "Past 90, behind their back"
+          ]
+        }
       },
       {
         "question": "Your opponent turtles very tight with their chin tucked—how do you create the opening for Clock Choke?",
-        "answer": "Use your hip control arm to threaten back takes or far-side attacks, forcing them to address those threats and potentially lift their head or create collar access. You can also work to flatten them by sprawling pressure onto their upper back, which typically opens the neck as they try to post. If they remain completely tucked, consider transitioning to crucifix or back control entries that bypass the chin defense entirely."
+        "answer": "Use your hip control arm to threaten back takes or far-side attacks, forcing them to address those threats and potentially lift their head or create collar access. You can also work to flatten them by sprawling pressure onto their upper back, which typically opens the neck as they try to post. If they remain completely tucked, consider transitioning to crucifix or back control entries that bypass the chin defense entirely.",
+        "answer_line": "Threaten hips to open collar",
+        "distractors": {
+          "plausible": [
+            "Pry chin up with free hand",
+            "Wait for them to move first"
+          ],
+          "trap": [
+            "Yank on head to expose neck"
+          ]
+        }
       },
       {
         "question": "Why is the sprawling motion critical to finishing the Clock Choke?",
-        "answer": "The sprawl converts your body weight into downward pressure on the choke, eliminating the need for arm strength to finish. This makes the technique more efficient and sustainable against strong opponents. The sprawl also lowers your center of gravity, making it harder for the opponent to explode out or create space for escape, and it pins their upper body to the mat."
+        "answer": "The sprawl converts your body weight into downward pressure on the choke, eliminating the need for arm strength to finish. This makes the technique more efficient and sustainable against strong opponents. The sprawl also lowers your center of gravity, making it harder for the opponent to explode out or create space for escape, and it pins their upper body to the mat.",
+        "answer_line": "Body weight pressure, not arms",
+        "distractors": {
+          "plausible": [
+            "Sprawl to create more space",
+            "Sprawl to set up back take"
+          ],
+          "trap": [
+            "Stand up for better angle"
+          ]
+        }
       },
       {
         "question": "How do you chain the Clock Choke with back control if the initial attempt fails?",
-        "answer": "If the opponent defends by sitting back, this movement brings their back toward you—follow them and establish seat belt control for back take. If they roll, maintain the collar grip as you follow into side control, then threaten the cross collar to force them to turn away, giving you back access. The Clock Choke threat itself creates the dilemma that opens back control opportunities by forcing movement."
+        "answer": "If the opponent defends by sitting back, this movement brings their back toward you—follow them and establish seat belt control for back take. If they roll, maintain the collar grip as you follow into side control, then threaten the cross collar to force them to turn away, giving you back access. The Clock Choke threat itself creates the dilemma that opens back control opportunities by forcing movement.",
+        "answer_line": "Follow their reaction to back",
+        "distractors": {
+          "plausible": [
+            "Reset to turtle top and restart",
+            "Switch to armbar attack instead"
+          ],
+          "trap": [
+            "Release grip, chase legs"
+          ]
+        }
       },
       {
         "question": "Your collar grip is being stripped during the rotation—should you fight for the grip or transition?",
-        "answer": "It depends on grip depth. If your grip is still reasonably deep, accelerate your sprawl and rotation to finish before they complete the strip. If the grip is compromised significantly, immediately transition to back control since your hip control and chest pressure are likely still intact. Fighting for a failing grip wastes time and energy when back control is readily available from your current chest-to-back connection."
+        "answer": "It depends on grip depth. If your grip is still reasonably deep, accelerate your sprawl and rotation to finish before they complete the strip. If the grip is compromised significantly, immediately transition to back control since your hip control and chest pressure are likely still intact. Fighting for a failing grip wastes time and energy when back control is readily available from your current chest-to-back connection.",
+        "answer_line": "Deep grip: finish, else back take",
+        "distractors": {
+          "plausible": [
+            "Always fight to regrip collar",
+            "Always abandon for back control"
+          ],
+          "trap": [
+            "Let go and reset to neutral"
+          ]
+        }
       },
       {
         "question": "What distinguishes the Clock Choke from a standard cross collar choke in terms of force direction?",
-        "answer": "The Clock Choke uses rotational body movement and downward sprawling pressure rather than bilateral pulling with both hands toward each other. It employs only one collar grip combined with hip control, generating force through body weight and gravity at a perpendicular angle. The cross collar choke uses two opposite collar grips pulling inward symmetrically. This mechanical difference makes the Clock Choke uniquely suited for turtle attacks where one arm must control the hip."
+        "answer": "The Clock Choke uses rotational body movement and downward sprawling pressure rather than bilateral pulling with both hands toward each other. It employs only one collar grip combined with hip control, generating force through body weight and gravity at a perpendicular angle. The cross collar choke uses two opposite collar grips pulling inward symmetrically. This mechanical difference makes the Clock Choke uniquely suited for turtle attacks where one arm must control the hip.",
+        "answer_line": "Rotation + weight, not pulling",
+        "distractors": {
+          "plausible": [
+            "Both grips pull inward equally",
+            "Uses two collar grips like cross"
+          ],
+          "trap": [
+            "Yank collar straight back"
+          ]
+        }
       },
       {
         "question": "What are the optimal timing windows for initiating the Clock Choke from turtle top?",
-        "answer": "The best timing windows are immediately after establishing turtle top before the opponent can organize their defense, when the opponent is recovering from a failed escape attempt and temporarily immobile, and when the opponent exposes their collar by shifting their weight or adjusting hand position. The worst time to attempt is when the opponent is actively moving or has just tightened their defensive shell, as they will have maximum awareness and defensive structure."
+        "answer": "The best timing windows are immediately after establishing turtle top before the opponent can organize their defense, when the opponent is recovering from a failed escape attempt and temporarily immobile, and when the opponent exposes their collar by shifting their weight or adjusting hand position. The worst time to attempt is when the opponent is actively moving or has just tightened their defensive shell, as they will have maximum awareness and defensive structure.",
+        "answer_line": "Right after top, weight shifts",
+        "distractors": {
+          "plausible": [
+            "Wait until opponent tires out",
+            "Anytime during active scramble"
+          ],
+          "trap": [
+            "Attack when shell is tightened"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Clock Choke is a blood choke that can render an opponent unconscious within seconds once fully applied. Always release immediately upon tap or when unconsciousness is detected. Apply pressure gradually during drilling to allow your partner time to tap before the choke becomes fully tight. Never crank or jerk the rotation, as this can cause cervical spine injury in addition to the choking mechanism. Partners should tap early when practicing, as the choke tightens rapidly during the sprawl phase. Practitioners with neck injuries should avoid this technique until fully healed. When drilling, communicate clearly about pressure levels and respect tap signals immediately.",
@@ -382,23 +482,73 @@
     "flashcards": [
       {
         "question": "What is the most critical defensive window for preventing the Clock Choke?",
-        "answer": "The most critical window is during initial collar grip establishment, before the attacker's thumb sinks deep inside the collar. At this stage, a two-on-one grip strip can completely nullify the attack. Once the grip is deep and the attacker begins walking perpendicular, escape probability drops significantly because the choking mechanism is already in place and only needs body weight to finish."
+        "answer": "The most critical window is during initial collar grip establishment, before the attacker's thumb sinks deep inside the collar. At this stage, a two-on-one grip strip can completely nullify the attack. Once the grip is deep and the attacker begins walking perpendicular, escape probability drops significantly because the choking mechanism is already in place and only needs body weight to finish.",
+        "answer_line": "Strip grip before it sinks deep",
+        "distractors": {
+          "plausible": [
+            "Defend once they start walking",
+            "Wait until sprawl to escape"
+          ],
+          "trap": [
+            "Ignore grip, defend the roll"
+          ]
+        }
       },
       {
         "question": "You feel the attacker's thumb entering your collar—what is your immediate response?",
-        "answer": "Immediately commit both hands to stripping the grip using a two-on-one configuration—grab their wrist and sleeve and peel their thumb out of the collar before it deepens. Simultaneously tuck your chin harder to your chest and clamp your shoulder to your ear on the threatened side to deny further neck access. Speed is essential because every second of delay allows the grip to set deeper and become exponentially harder to strip."
+        "answer": "Immediately commit both hands to stripping the grip using a two-on-one configuration—grab their wrist and sleeve and peel their thumb out of the collar before it deepens. Simultaneously tuck your chin harder to your chest and clamp your shoulder to your ear on the threatened side to deny further neck access. Speed is essential because every second of delay allows the grip to set deeper and become exponentially harder to strip.",
+        "answer_line": "Two-on-one strip, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Sit back and create space first",
+            "Post on far arm, turn away"
+          ],
+          "trap": [
+            "Wait and see how deep it gets"
+          ]
+        }
       },
       {
         "question": "Why must you roll toward the choking side rather than away from it when escaping?",
-        "answer": "Rolling toward the choking side creates slack in the collar grip by moving your neck in the direction that loosens the gi material wrapped around it. Rolling away from the choking side pulls the collar tighter across your neck, effectively helping the attacker finish the choke. This is counterintuitive but mechanically essential—always turn into the attacker's body to relieve rotational pressure on the collar."
+        "answer": "Rolling toward the choking side creates slack in the collar grip by moving your neck in the direction that loosens the gi material wrapped around it. Rolling away from the choking side pulls the collar tighter across your neck, effectively helping the attacker finish the choke. This is counterintuitive but mechanically essential—always turn into the attacker's body to relieve rotational pressure on the collar.",
+        "answer_line": "Roll toward choke, creates slack",
+        "distractors": {
+          "plausible": [
+            "Sit back rather than roll",
+            "Turn face down to hide neck"
+          ],
+          "trap": [
+            "Roll away from choking side"
+          ]
+        }
       },
       {
         "question": "The attacker has a deep collar grip and has started walking perpendicular—what are your remaining defensive options?",
-        "answer": "With a deep grip and perpendicular walk underway, your primary options are: sit back explosively to collapse their rotational angle before they sprawl, or commit to a roll toward the choking side to relieve pressure and recover guard. Grip stripping becomes much harder at this stage. If the attacker has already sprawled their hips to the mat, your escape probability is very low and you should prioritize tapping safely rather than fighting a fully locked blood choke."
+        "answer": "With a deep grip and perpendicular walk underway, your primary options are: sit back explosively to collapse their rotational angle before they sprawl, or commit to a roll toward the choking side to relieve pressure and recover guard. Grip stripping becomes much harder at this stage. If the attacker has already sprawled their hips to the mat, your escape probability is very low and you should prioritize tapping safely rather than fighting a fully locked blood choke.",
+        "answer_line": "Sit back or roll toward choke",
+        "distractors": {
+          "plausible": [
+            "Strip the grip immediately",
+            "Bridge and shrimp away"
+          ],
+          "trap": [
+            "Roll away from the choke"
+          ]
+        }
       },
       {
         "question": "How does monitoring the attacker's hip-control hand inform your defensive decisions?",
-        "answer": "The hip-control hand is the anchor that prevents your rolling escape. If the attacker loses or loosens their hip grip during the rotation, a roll toward the choking side becomes high-percentage because nothing is preventing you from turning. If the hip grip is strong, rolling is risky because they will follow your rotation and potentially end up in mount. Monitoring this grip tells you whether rolling or sitting back is the better defensive choice at any given moment."
+        "answer": "The hip-control hand is the anchor that prevents your rolling escape. If the attacker loses or loosens their hip grip during the rotation, a roll toward the choking side becomes high-percentage because nothing is preventing you from turning. If the hip grip is strong, rolling is risky because they will follow your rotation and potentially end up in mount. Monitoring this grip tells you whether rolling or sitting back is the better defensive choice at any given moment.",
+        "answer_line": "Loose hip hand = safe to roll",
+        "distractors": {
+          "plausible": [
+            "Hip hand controls the far leg",
+            "Ignore hip hand, watch collar"
+          ],
+          "trap": [
+            "Always roll regardless of hip"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -104,35 +104,115 @@
     "flashcards": [
       {
         "question": "What is the optimal weight distribution for maintaining High Mount Top?",
-        "answer": "Weight should be distributed forward with your chest positioned over the opponent's chest, driving pressure through your hips onto their upper sternum and chest area. Avoid sitting upright as this shifts your center of gravity backward, allowing bridge escapes. The forward lean should feel like you're trying to pin their shoulders to the mat with your torso weight while your knees act as wedges near the armpits."
+        "answer": "Weight should be distributed forward with your chest positioned over the opponent's chest, driving pressure through your hips onto their upper sternum and chest area. Avoid sitting upright as this shifts your center of gravity backward, allowing bridge escapes. The forward lean should feel like you're trying to pin their shoulders to the mat with your torso weight while your knees act as wedges near the armpits.",
+        "answer_line": "Chest forward, pressure on chest",
+        "distractors": {
+          "plausible": [
+            "Weight centered over their hips",
+            "Stay low, hug their torso tight"
+          ],
+          "trap": [
+            "Sit upright for a stable base"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to bridge explosively - what adjustment do you make?",
-        "answer": "When they bridge, immediately post your hands wide toward their head to create a tripod base, spread your knees slightly for stability, and drive your hips down into their chest. If the bridge is strong enough to create space, flow with their movement by transitioning to S-Mount (if they push on your hips) or Technical Mount (if they turn to the side). Never fight the bridge rigidly - use their movement to advance position."
+        "answer": "When they bridge, immediately post your hands wide toward their head to create a tripod base, spread your knees slightly for stability, and drive your hips down into their chest. If the bridge is strong enough to create space, flow with their movement by transitioning to S-Mount (if they push on your hips) or Technical Mount (if they turn to the side). Never fight the bridge rigidly - use their movement to advance position.",
+        "answer_line": "Post hands wide, drive hips down",
+        "distractors": {
+          "plausible": [
+            "Sit back and reset your base",
+            "Grip tighter, lean straight down"
+          ],
+          "trap": [
+            "Stay rigid and fight the bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining High Mount position?",
-        "answer": "Primary grip options include cross-face control (hand behind their head pulling them into your chest), collar grips (if in gi, deep grip on the same-side collar), wrist control (pinning one arm to the mat or their body), or head-and-arm control (controlling the head while isolating an arm). The specific grip depends on your submission setup, but maintaining at least one form of upper body control is critical for preventing frame creation."
+        "answer": "Primary grip options include cross-face control (hand behind their head pulling them into your chest), collar grips (if in gi, deep grip on the same-side collar), wrist control (pinning one arm to the mat or their body), or head-and-arm control (controlling the head while isolating an arm). The specific grip depends on your submission setup, but maintaining at least one form of upper body control is critical for preventing frame creation.",
+        "answer_line": "Control head or trap an arm",
+        "distractors": {
+          "plausible": [
+            "Control both legs, ignore arms",
+            "Underhook both of their arms"
+          ],
+          "trap": [
+            "Post both hands flat on the mat"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary elbow escape from High Mount?",
-        "answer": "The elbow escape requires the bottom player to create space at their hip to insert their knee. Prevent this by keeping your knees tight to their armpits (eliminating hip space), maintaining forward pressure (making it difficult for them to turn), and controlling their near-side arm (preventing the frame needed to create turning leverage). When you feel them begin to hip escape, immediately drive your hip into the space they're creating and consider transitioning to Technical Mount on that side."
+        "answer": "The elbow escape requires the bottom player to create space at their hip to insert their knee. Prevent this by keeping your knees tight to their armpits (eliminating hip space), maintaining forward pressure (making it difficult for them to turn), and controlling their near-side arm (preventing the frame needed to create turning leverage). When you feel them begin to hip escape, immediately drive your hip into the space they're creating and consider transitioning to Technical Mount on that side.",
+        "answer_line": "Knees tight to their armpits",
+        "distractors": {
+          "plausible": [
+            "Sit back to see their hips move",
+            "Control far-side arm, not near"
+          ],
+          "trap": [
+            "Widen knees for a stable base"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish before attempting submissions from High Mount?",
-        "answer": "Before attacking, establish control of at least one arm to prevent defensive frames. Ideal grip progression: first, control their ability to frame on your chest or hips (wrist pin or underhook their arm); second, isolate the target arm for your submission; third, secure your finishing grip only after the arm is properly isolated. Rushing to submission grips before controlling the defensive arm is the most common cause of failed mount submissions."
+        "answer": "Before attacking, establish control of at least one arm to prevent defensive frames. Ideal grip progression: first, control their ability to frame on your chest or hips (wrist pin or underhook their arm); second, isolate the target arm for your submission; third, secure your finishing grip only after the arm is properly isolated. Rushing to submission grips before controlling the defensive arm is the most common cause of failed mount submissions.",
+        "answer_line": "Control arm before submission grip",
+        "distractors": {
+          "plausible": [
+            "Grab finishing grip immediately",
+            "Isolate arm before controlling it"
+          ],
+          "trap": [
+            "Rush straight to the finish grip"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure effectively in High Mount without exhausting yourself?",
-        "answer": "Effective pressure comes from structure, not muscular effort. Position your weight forward so gravity does the work - your torso should compress their upper chest while your knees wedge against their armpits. Stay relaxed in your core and legs, only tensing when countering specific escape attempts. The pressure should feel heavy and constant to them but sustainable for you. If you're getting tired maintaining mount, you're likely sitting too upright and using muscle instead of body positioning."
+        "answer": "Effective pressure comes from structure, not muscular effort. Position your weight forward so gravity does the work - your torso should compress their upper chest while your knees wedge against their armpits. Stay relaxed in your core and legs, only tensing when countering specific escape attempts. The pressure should feel heavy and constant to them but sustainable for you. If you're getting tired maintaining mount, you're likely sitting too upright and using muscle instead of body positioning.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze hard with your legs",
+            "Sit upright to conserve energy"
+          ],
+          "trap": [
+            "Tense your whole body constantly"
+          ]
+        }
       },
       {
         "question": "Your opponent creates frames on your hips and starts pushing - how do you capitalize on this?",
-        "answer": "Frames on your hips are submission opportunities. Their arms are now extended and exposed. Options include: swim your hand under their elbow to break the frame and immediately attack armbar, step over to S-Mount making their frames useless while threatening the armbar, or secure a two-on-one grip on one of their framing arms and isolate it for americana or armbar. The key is recognizing that their frames, while creating momentary space, also commit their arms in predictable positions."
+        "answer": "Frames on your hips are submission opportunities. Their arms are now extended and exposed. Options include: swim your hand under their elbow to break the frame and immediately attack armbar, step over to S-Mount making their frames useless while threatening the armbar, or secure a two-on-one grip on one of their framing arms and isolate it for americana or armbar. The key is recognizing that their frames, while creating momentary space, also commit their arms in predictable positions.",
+        "answer_line": "Attack the framing arm",
+        "distractors": {
+          "plausible": [
+            "Wait for them to release the frame",
+            "Sit back and reset your position"
+          ],
+          "trap": [
+            "Push into the frame and stall"
+          ]
+        }
       },
       {
         "question": "How do you recover position after your opponent partially escapes to half guard?",
-        "answer": "If they manage to insert a knee and recover half guard, immediately establish crossface control and drive your shoulder into their jaw to flatten them. Underhook their far arm to prevent them from getting to their side. Work to free your trapped leg by applying a knee slice or backstep while maintaining heavy upper body pressure. The key is not to rush - maintain top pressure and systematically work to re-pass rather than frantically trying to re-establish mount, which often creates more scramble opportunities for them."
+        "answer": "If they manage to insert a knee and recover half guard, immediately establish crossface control and drive your shoulder into their jaw to flatten them. Underhook their far arm to prevent them from getting to their side. Work to free your trapped leg by applying a knee slice or backstep while maintaining heavy upper body pressure. The key is not to rush - maintain top pressure and systematically work to re-pass rather than frantically trying to re-establish mount, which often creates more scramble opportunities for them.",
+        "answer_line": "Crossface, flatten, free your leg",
+        "distractors": {
+          "plausible": [
+            "Rush straight back to full mount",
+            "Sit up and reset your base first"
+          ],
+          "trap": [
+            "Abandon crossface, chase the leg"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -488,35 +568,115 @@
     "flashcards": [
       {
         "question": "What is the optimal defensive arm position when trapped in High Mount Bottom?",
-        "answer": "Keep elbows tight to your ribs with hands positioned near your chin and neck, creating a protective shell. Arms should never be fully extended as this creates immediate armbar opportunities. Maintain bent arms with elbows connected to your torso - this protects against arm isolation while keeping hands available to defend chokes. When forced to frame, use short, bent-arm frames rather than extended pushing."
+        "answer": "Keep elbows tight to your ribs with hands positioned near your chin and neck, creating a protective shell. Arms should never be fully extended as this creates immediate armbar opportunities. Maintain bent arms with elbows connected to your torso - this protects against arm isolation while keeping hands available to defend chokes. When forced to frame, use short, bent-arm frames rather than extended pushing.",
+        "answer_line": "Elbows tight, hands near chin",
+        "distractors": {
+          "plausible": [
+            "Push hard with straight arms",
+            "Keep hands low near your hips"
+          ],
+          "trap": [
+            "Fully extend arms to frame them off"
+          ]
+        }
       },
       {
         "question": "Your opponent reaches for a collar grip to set up a choke - what adjustment do you make?",
-        "answer": "The moment they reach for the collar, their weight shifts forward onto their posting hand. This is your escape window. Trap their posting arm by pulling it across your chest, trap their foot on the same side with your heel, and execute an explosive bridge toward that side. If the bridge isn't available, use their forward weight shift to create frames and begin shrimping to recover guard. Their offensive action creates the opening for your defensive action."
+        "answer": "The moment they reach for the collar, their weight shifts forward onto their posting hand. This is your escape window. Trap their posting arm by pulling it across your chest, trap their foot on the same side with your heel, and execute an explosive bridge toward that side. If the bridge isn't available, use their forward weight shift to create frames and begin shrimping to recover guard. Their offensive action creates the opening for your defensive action.",
+        "answer_line": "Trap their posting arm, bridge",
+        "distractors": {
+          "plausible": [
+            "Push their arm away and shrimp",
+            "Wait for the choke, then defend"
+          ],
+          "trap": [
+            "Grab their choking hand and pull"
+          ]
+        }
       },
       {
         "question": "What is the timing window for attempting an elbow escape from High Mount Bottom?",
-        "answer": "The elbow escape window opens when the opponent's knee slides away from your armpit - typically when they transition, reach for grips, or adjust their position. You cannot elbow escape when their knee is wedged tight against your armpit. Wait for them to create the gap, then immediately turn to your side and insert your knee before they can reestablish the wedge. The window is brief (1-2 seconds), so you must be prepared to move instantly."
+        "answer": "The elbow escape window opens when the opponent's knee slides away from your armpit - typically when they transition, reach for grips, or adjust their position. You cannot elbow escape when their knee is wedged tight against your armpit. Wait for them to create the gap, then immediately turn to your side and insert your knee before they can reestablish the wedge. The window is brief (1-2 seconds), so you must be prepared to move instantly.",
+        "answer_line": "When their knee leaves your armpit",
+        "distractors": {
+          "plausible": [
+            "Anytime you feel their weight shift",
+            "Right after they secure a grip"
+          ],
+          "trap": [
+            "While their knee is wedged in tight"
+          ]
+        }
       },
       {
         "question": "How do you defend the armbar setup from High Mount Bottom?",
-        "answer": "When you feel them isolating your arm, immediately grip your own clothing (gi) or clasp your hands together to create a connection point. Turn your body toward the trapped arm to prevent them from rotating to finish. Pull your elbow tight to your hip, making it difficult to extend. If they commit to the armbar rotation, follow them with your body and use their transition as an opportunity to escape mount, even if you end up defending armbar from a better position."
+        "answer": "When you feel them isolating your arm, immediately grip your own clothing (gi) or clasp your hands together to create a connection point. Turn your body toward the trapped arm to prevent them from rotating to finish. Pull your elbow tight to your hip, making it difficult to extend. If they commit to the armbar rotation, follow them with your body and use their transition as an opportunity to escape mount, even if you end up defending armbar from a better position.",
+        "answer_line": "Clasp hands, turn into the arm",
+        "distractors": {
+          "plausible": [
+            "Pull elbow away from your body",
+            "Turn away from the trapped arm"
+          ],
+          "trap": [
+            "Yank your arm straight out fast"
+          ]
+        }
       },
       {
         "question": "What should you prioritize defending: your neck or your arms?",
-        "answer": "Neck defense takes priority because chokes can finish faster and with less setup than armbars. However, completely abandoning arm defense creates easy armbar opportunities. The balance is maintaining elbows tight to your ribs (protecting arms) while keeping hands near your chin and neck (protecting chokes). When forced to choose, defend the immediate threat - if they have collar grips, focus on the neck; if they're isolating an arm, defend the arm. Recognize that defending one often exposes the other, which is why High Mount is so dangerous."
+        "answer": "Neck defense takes priority because chokes can finish faster and with less setup than armbars. However, completely abandoning arm defense creates easy armbar opportunities. The balance is maintaining elbows tight to your ribs (protecting arms) while keeping hands near your chin and neck (protecting chokes). When forced to choose, defend the immediate threat - if they have collar grips, focus on the neck; if they're isolating an arm, defend the arm. Recognize that defending one often exposes the other, which is why High Mount is so dangerous.",
+        "answer_line": "Defend neck, but guard your arms",
+        "distractors": {
+          "plausible": [
+            "Always defend arms over the neck",
+            "Ignore the neck, focus only arms"
+          ],
+          "trap": [
+            "Extend arms to block choke first"
+          ]
+        }
       },
       {
         "question": "How do you create escape opportunities when the opponent maintains static pressure without attacking?",
-        "answer": "When the opponent holds position without attacking, you must create opportunities rather than wait for them. Use micro-movements to test their base - small hip bumps and shoulder adjustments that force reactions. Threaten to turn to one side, which often causes them to shift weight, then escape to the opposite direction. You can also bait attacks by slightly extending an arm or exposing your neck, then capitalize on their weight shift as they commit to the submission attempt. The key is forcing them to move so you can time your escape."
+        "answer": "When the opponent holds position without attacking, you must create opportunities rather than wait for them. Use micro-movements to test their base - small hip bumps and shoulder adjustments that force reactions. Threaten to turn to one side, which often causes them to shift weight, then escape to the opposite direction. You can also bait attacks by slightly extending an arm or exposing your neck, then capitalize on their weight shift as they commit to the submission attempt. The key is forcing them to move so you can time your escape.",
+        "answer_line": "Bait movement, then escape",
+        "distractors": {
+          "plausible": [
+            "Wait motionless for them to attack",
+            "Push hard against their base"
+          ],
+          "trap": [
+            "Extend an arm and hold it there"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to S-Mount while you attempt an escape - what is your immediate response?",
-        "answer": "S-Mount is worse than High Mount because it isolates one arm for armbar while maintaining control. Immediately defend the trapped arm by gripping your own lapel, clasping hands, or grabbing your opposite shoulder. Turn your body toward the trapped arm to prevent extension. If possible, use your free arm to push on their knee and create enough space to extract your trapped arm. Don't panic - focus on arm defense first, then work to collapse their S-Mount back to regular mount where you have more escape options."
+        "answer": "S-Mount is worse than High Mount because it isolates one arm for armbar while maintaining control. Immediately defend the trapped arm by gripping your own lapel, clasping hands, or grabbing your opposite shoulder. Turn your body toward the trapped arm to prevent extension. If possible, use your free arm to push on their knee and create enough space to extract your trapped arm. Don't panic - focus on arm defense first, then work to collapse their S-Mount back to regular mount where you have more escape options.",
+        "answer_line": "Defend trapped arm, turn into it",
+        "distractors": {
+          "plausible": [
+            "Focus on escaping the position",
+            "Push away with your trapped arm"
+          ],
+          "trap": [
+            "Extend the trapped arm to free it"
+          ]
+        }
       },
       {
         "question": "How should you breathe and manage energy when trapped in High Mount Bottom for extended periods?",
-        "answer": "Controlled breathing is essential for survival and escape timing. Breathe steadily through your nose when possible, taking shallow breaths if chest compression is severe. Avoid holding your breath during escape attempts as this accelerates fatigue. Stay mentally calm and physically relaxed between escape attempts - tension wastes energy. Conserve your explosive power for precisely timed escapes rather than constant struggling. Accept that you may be trapped for 30-60 seconds and pace yourself accordingly, waiting for high-percentage escape windows."
+        "answer": "Controlled breathing is essential for survival and escape timing. Breathe steadily through your nose when possible, taking shallow breaths if chest compression is severe. Avoid holding your breath during escape attempts as this accelerates fatigue. Stay mentally calm and physically relaxed between escape attempts - tension wastes energy. Conserve your explosive power for precisely timed escapes rather than constant struggling. Accept that you may be trapped for 30-60 seconds and pace yourself accordingly, waiting for high-percentage escape windows.",
+        "answer_line": "Breathe steady, conserve energy",
+        "distractors": {
+          "plausible": [
+            "Hold your breath during escapes",
+            "Tense up to brace for pressure"
+          ],
+          "trap": [
+            "Explode nonstop until you're free"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -792,35 +952,115 @@
   "flashcards_position": [
     {
       "question": "What positional configuration defines High Mount and distinguishes it from standard mount?",
-      "answer": "In High Mount, the top player's knees have walked up from the hips to sit high near the bottom player's armpits or shoulders, placing the top player's weight and hips over the upper chest and sternum rather than the belt line. Standard mount centers control on the hips, whereas High Mount shifts the entire base upward so the top player is effectively riding the ribcage. This upward migration is the single defining trait, trading a lower center of gravity and broad base for compression of the upper torso and proximity to the neck and arms. The configuration exists on a continuum, and the higher the knees climb, the more the position's characteristic dynamics intensify."
+      "answer": "In High Mount, the top player's knees have walked up from the hips to sit high near the bottom player's armpits or shoulders, placing the top player's weight and hips over the upper chest and sternum rather than the belt line. Standard mount centers control on the hips, whereas High Mount shifts the entire base upward so the top player is effectively riding the ribcage. This upward migration is the single defining trait, trading a lower center of gravity and broad base for compression of the upper torso and proximity to the neck and arms. The configuration exists on a continuum, and the higher the knees climb, the more the position's characteristic dynamics intensify.",
+      "answer_line": "Knees high near the armpits",
+      "distractors": {
+        "plausible": [
+          "Knees planted at the hip line",
+          "Weight based low over the hips"
+        ],
+        "trap": [
+          "Both knees off the ground, floating"
+        ]
+      }
     },
     {
       "question": "Why does the elevated knee and hip position of High Mount neutralize the bridge for the bottom player?",
-      "answer": "The bridge, or upa, works by the bottom player planting the feet and extending the hips to throw the top player's weight forward over their own head. When the top player's weight sits on the upper chest and sternum instead of the hips, the bottom player's hip extension no longer has a load positioned above it to displace. Bridging force travels up the torso and dissipates because the top player's mass is already past the fulcrum, near the shoulders. This is the biomechanical reason High Mount converts the bridge from the bottom player's primary escape into a largely wasted expenditure of energy."
+      "answer": "The bridge, or upa, works by the bottom player planting the feet and extending the hips to throw the top player's weight forward over their own head. When the top player's weight sits on the upper chest and sternum instead of the hips, the bottom player's hip extension no longer has a load positioned above it to displace. Bridging force travels up the torso and dissipates because the top player's mass is already past the fulcrum, near the shoulders. This is the biomechanical reason High Mount converts the bridge from the bottom player's primary escape into a largely wasted expenditure of energy.",
+      "answer_line": "Weight sits past the bridge fulcrum",
+      "distractors": {
+        "plausible": [
+          "Weight adds extra load to the bridge",
+          "Knees block the bridge directly"
+        ],
+        "trap": [
+          "Wide base absorbs the bridge force"
+        ]
+      }
     },
     {
       "question": "How do the knees function as control points in High Mount for both players?",
-      "answer": "The top player's knees act as wedges pinned tight against the bottom player's armpits and upper ribs, occupying the exact space the bottom player needs to insert an elbow or frame and begin an elbow escape. As long as those knees stay glued to the armpits, there is no room to shrimp or turn to the side. For the bottom player, the knee-to-armpit seal is the reference point they must break: escapes only become mechanically viable in the brief window when a knee drifts away from the armpit during a transition or attack. The tightness of this knee seal is therefore the position's central contested variable."
+      "answer": "The top player's knees act as wedges pinned tight against the bottom player's armpits and upper ribs, occupying the exact space the bottom player needs to insert an elbow or frame and begin an elbow escape. As long as those knees stay glued to the armpits, there is no room to shrimp or turn to the side. For the bottom player, the knee-to-armpit seal is the reference point they must break: escapes only become mechanically viable in the brief window when a knee drifts away from the armpit during a transition or attack. The tightness of this knee seal is therefore the position's central contested variable.",
+      "answer_line": "Knees wedge into the armpits",
+      "distractors": {
+        "plausible": [
+          "Knees pin down at the hip bones",
+          "Knees squeeze the opponent's legs"
+        ],
+        "trap": [
+          "Knees rest loosely on the mat"
+        ]
+      }
     },
     {
       "question": "What role does forward weight distribution play in the mechanics of High Mount?",
-      "answer": "High Mount depends on the top player carrying weight forward with the chest over the bottom player's chest, driving downward through the sternum rather than sitting upright. This forward lean pins the shoulders to the mat and compresses the ribcage, restricting the bottom player's breathing and eliminating the postural space needed to turn. Sitting upright would shift the top player's center of gravity backward toward the hips, restoring bridge leverage and inviting a sweep. The forward-heavy structure is thus what makes the elevated position stable despite its relatively narrow base."
+      "answer": "High Mount depends on the top player carrying weight forward with the chest over the bottom player's chest, driving downward through the sternum rather than sitting upright. This forward lean pins the shoulders to the mat and compresses the ribcage, restricting the bottom player's breathing and eliminating the postural space needed to turn. Sitting upright would shift the top player's center of gravity backward toward the hips, restoring bridge leverage and inviting a sweep. The forward-heavy structure is thus what makes the elevated position stable despite its relatively narrow base.",
+      "answer_line": "Chest weight forward on sternum",
+      "distractors": {
+        "plausible": [
+          "Weight even, balanced side to side",
+          "Weight back toward the hips"
+        ],
+        "trap": [
+          "Sit upright to control the hips"
+        ]
+      }
     },
     {
       "question": "How does the arm and neck exposure in High Mount create the shared risk-reward dynamic of the position?",
-      "answer": "Because the top player's hips sit at chest height, the bottom player's arms and neck are drawn into immediate reach, which is exactly why High Mount carries the highest finishing rate of any mount variation. For the bottom player, any arm that extends to frame or push becomes an immediate armbar or shoulder-lock target, and any exposed collar or neck invites a choke. This creates a defensive paradox where framing to create space also surrenders the limb being framed with. The proximity that makes the top player so dangerous is the same proximity that punishes the bottom player's natural defensive reflexes."
+      "answer": "Because the top player's hips sit at chest height, the bottom player's arms and neck are drawn into immediate reach, which is exactly why High Mount carries the highest finishing rate of any mount variation. For the bottom player, any arm that extends to frame or push becomes an immediate armbar or shoulder-lock target, and any exposed collar or neck invites a choke. This creates a defensive paradox where framing to create space also surrenders the limb being framed with. The proximity that makes the top player so dangerous is the same proximity that punishes the bottom player's natural defensive reflexes.",
+      "answer_line": "Framing arms become submissions",
+      "distractors": {
+        "plausible": [
+          "Arms are safest close to the head",
+          "Neck is safe, only arms at risk"
+        ],
+        "trap": [
+          "Extend arms fully to frame safely"
+        ]
+      }
     },
     {
       "question": "Why is High Mount considered a less stable base than standard mount despite being more dominant?",
-      "answer": "Walking the knees high raises the top player's center of gravity and narrows the effective base, since weight is concentrated over a smaller area of the upper torso rather than spread across the hips. This trade sacrifices the broad, low stability of standard mount in exchange for submission proximity and bridge neutralization. The instability is only masked by constant forward pressure and tight knee wedging; the moment either lapses, the elevated position is more prone to being bumped off balance than a low mount. High Mount is therefore best understood as a calculated exchange of raw stability for finishing leverage."
+      "answer": "Walking the knees high raises the top player's center of gravity and narrows the effective base, since weight is concentrated over a smaller area of the upper torso rather than spread across the hips. This trade sacrifices the broad, low stability of standard mount in exchange for submission proximity and bridge neutralization. The instability is only masked by constant forward pressure and tight knee wedging; the moment either lapses, the elevated position is more prone to being bumped off balance than a low mount. High Mount is therefore best understood as a calculated exchange of raw stability for finishing leverage.",
+      "answer_line": "Higher CoG, narrower base",
+      "distractors": {
+        "plausible": [
+          "Wider base than standard mount",
+          "Lower center of gravity overall"
+        ],
+        "trap": [
+          "It's more stable, so relax pressure"
+        ]
+      }
     },
     {
       "question": "How is weight-shift timing the pivotal shared dynamic that governs exchanges in High Mount?",
-      "answer": "Every submission attempt from the top requires briefly redistributing weight to reach for a collar, isolate an arm, or step a leg over, and each of those shifts momentarily loosens the knee seal or the forward chest pressure. These transient windows are the only realistic openings the bottom player has to bridge, shrimp, or extract a limb. The position is thus a timing battle where the top player tries to attack without surrendering control and the bottom player waits to convert the attacker's weight commitment into space. Understanding that offense and defense both hinge on these micro-moments of weight redistribution is the key to reading the position."
+      "answer": "Every submission attempt from the top requires briefly redistributing weight to reach for a collar, isolate an arm, or step a leg over, and each of those shifts momentarily loosens the knee seal or the forward chest pressure. These transient windows are the only realistic openings the bottom player has to bridge, shrimp, or extract a limb. The position is thus a timing battle where the top player tries to attack without surrendering control and the bottom player waits to convert the attacker's weight commitment into space. Understanding that offense and defense both hinge on these micro-moments of weight redistribution is the key to reading the position.",
+      "answer_line": "Attacks momentarily loosen control",
+      "distractors": {
+        "plausible": [
+          "Weight shifts never affect control",
+          "Only bottom player shifts weight"
+        ],
+        "trap": [
+          "Rush every attack at full speed"
+        ]
+      }
     },
     {
       "question": "Why is High Mount described as a checkpoint that borders S-Mount and Technical Mount rather than a fixed endpoint?",
-      "answer": "High Mount sits at the top of the mount hierarchy and shares direct borders with S-Mount and Technical Mount, so the position is defined as much by what it flows into as by its own configuration. When the bottom player pushes on the hips or frames for distance, the geometry opens a path to S-Mount, where one arm becomes isolated. When the bottom player turns to their side chasing an elbow escape, that same turn feeds Technical Mount, which follows the exposed back. These are not separate destinations but the reflexive positional answers to specific escape attempts, which is why High Mount is understood as the final checkpoint before a finish or a further advancement."
+      "answer": "High Mount sits at the top of the mount hierarchy and shares direct borders with S-Mount and Technical Mount, so the position is defined as much by what it flows into as by its own configuration. When the bottom player pushes on the hips or frames for distance, the geometry opens a path to S-Mount, where one arm becomes isolated. When the bottom player turns to their side chasing an elbow escape, that same turn feeds Technical Mount, which follows the exposed back. These are not separate destinations but the reflexive positional answers to specific escape attempts, which is why High Mount is understood as the final checkpoint before a finish or a further advancement.",
+      "answer_line": "Escapes feed S-Mount or Tech Mount",
+      "distractors": {
+        "plausible": [
+          "High Mount only leads to submission",
+          "Position never changes once set"
+        ],
+        "trap": [
+          "Force the turn to create Tech Mount"
+        ]
+      }
     }
   ],
   "clips": [

@@ -228,51 +228,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Arm Triangle Setup from North-South?",
-        "answer": "The primary goal is to isolate the opponent's near-side arm across their own neck and thread your choking arm underneath to create the head-and-arm compression configuration. This setup transitions from the pinning control of North-South to an active submission threat by walking the hips to side control where the arm triangle finish is mechanically strongest."
+        "answer": "The primary goal is to isolate the opponent's near-side arm across their own neck and thread your choking arm underneath to create the head-and-arm compression configuration. This setup transitions from the pinning control of North-South to an active submission threat by walking the hips to side control where the arm triangle finish is mechanically strongest.",
+        "answer_line": "Isolate arm & walk to side control",
+        "distractors": {
+          "plausible": [
+            "Flatten opponent for pin",
+            "Control far arm first"
+          ],
+          "trap": [
+            "Stay in North-South and squeeze"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be established before beginning the hip walk to side control?",
-        "answer": "You must secure a palm-to-palm grip, Gable grip, or bicep-clasp figure-four with your arms locked around the opponent's neck and trapped arm. The choking arm must be threaded deep enough that your hand clears their far shoulder. This locked configuration prevents the opponent from extracting their arm during the positional transition and maintains the compression geometry needed for the finish."
+        "answer": "You must secure a palm-to-palm grip, Gable grip, or bicep-clasp figure-four with your arms locked around the opponent's neck and trapped arm. The choking arm must be threaded deep enough that your hand clears their far shoulder. This locked configuration prevents the opponent from extracting their arm during the positional transition and maintains the compression geometry needed for the finish.",
+        "answer_line": "Lock grip, hand past far shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip hands near own chest",
+            "Underhook only, no lock"
+          ],
+          "trap": [
+            "Release grip to switch hands"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their near-side elbow tight against their body—how do you create the opening for the arm triangle?",
-        "answer": "Use your knee or hip to bump their elbow outward, creating separation between the arm and their torso. Alternatively, threaten a kimura attack on the same arm, which forces them to straighten or extend it defensively. Once the arm moves away from their body, immediately secure the underhook and drive it across their centerline before they can retract it."
+        "answer": "Use your knee or hip to bump their elbow outward, creating separation between the arm and their torso. Alternatively, threaten a kimura attack on the same arm, which forces them to straighten or extend it defensively. Once the arm moves away from their body, immediately secure the underhook and drive it across their centerline before they can retract it.",
+        "answer_line": "Bump elbow out or threaten kimura",
+        "distractors": {
+          "plausible": [
+            "Pry elbow with your hand",
+            "Wait for them to extend"
+          ],
+          "trap": [
+            "Abandon arm, go for back"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the transition from North-South to the arm triangle finishing position?",
-        "answer": "The hip walk must be performed in small, incremental steps while maintaining constant chest contact with the opponent. Walking the hips too quickly or jumping to side control creates a gap between your torso and theirs, allowing guard recovery or arm extraction. Each step should transfer weight progressively to the choking-side shoulder while keeping the hips low and sprawled."
+        "answer": "The hip walk must be performed in small, incremental steps while maintaining constant chest contact with the opponent. Walking the hips too quickly or jumping to side control creates a gap between your torso and theirs, allowing guard recovery or arm extraction. Each step should transfer weight progressively to the choking-side shoulder while keeping the hips low and sprawled.",
+        "answer_line": "Small steps, keep chest contact",
+        "distractors": {
+          "plausible": [
+            "Walk hips fast to beat recovery",
+            "Step wide to create angle"
+          ],
+          "trap": [
+            "Jump straight to side control"
+          ]
+        }
       },
       {
         "question": "Why does the arm triangle finish require a side control angle rather than the perpendicular North-South angle?",
-        "answer": "The side control angle positions your shoulder directly into the opponent's jaw and neck, creating the downward compression needed for the choke. In North-South, the angle of pressure is across the chest rather than into the neck, which pins but does not create bilateral carotid compression. The side angle also allows you to drop your ear to the mat and use your body weight as the primary squeezing force through the shoulder."
+        "answer": "The side control angle positions your shoulder directly into the opponent's jaw and neck, creating the downward compression needed for the choke. In North-South, the angle of pressure is across the chest rather than into the neck, which pins but does not create bilateral carotid compression. The side angle also allows you to drop your ear to the mat and use your body weight as the primary squeezing force through the shoulder.",
+        "answer_line": "Shoulder drives into jaw for choke",
+        "distractors": {
+          "plausible": [
+            "Better base to prevent escapes",
+            "Easier to control both arms"
+          ],
+          "trap": [
+            "Stay North-South, use arm strength"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges and turns away as you begin walking your hips—how do you adjust?",
-        "answer": "Continue walking your hips in the same direction, following their turn rather than fighting it. Their turning motion often tightens the arm triangle because they rotate their trapped arm deeper into the choke configuration. Maintain your head-and-arm grip throughout and allow their movement to assist your transition to side control. Their turn effectively does part of the work for you."
+        "answer": "Continue walking your hips in the same direction, following their turn rather than fighting it. Their turning motion often tightens the arm triangle because they rotate their trapped arm deeper into the choke configuration. Maintain your head-and-arm grip throughout and allow their movement to assist your transition to side control. Their turn effectively does part of the work for you.",
+        "answer_line": "Follow their turn, keep walking",
+        "distractors": {
+          "plausible": [
+            "Stop and reset your base",
+            "Switch direction to counter turn"
+          ],
+          "trap": [
+            "Release grip and re-underhook"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that your arm thread is deep enough before committing to the grip lock?",
-        "answer": "Your hand should clearly pass the opponent's far shoulder, and you should feel your bicep making contact with one side of their neck. If your hand is still over the center of their chest or has not cleared the shoulder line, the thread is too shallow and the opponent will be able to extract their arm during the transition. Additionally, you should feel the opponent's trapped arm pressed firmly against the opposite side of their neck."
+        "answer": "Your hand should clearly pass the opponent's far shoulder, and you should feel your bicep making contact with one side of their neck. If your hand is still over the center of their chest or has not cleared the shoulder line, the thread is too shallow and the opponent will be able to extract their arm during the transition. Additionally, you should feel the opponent's trapped arm pressed firmly against the opposite side of their neck.",
+        "answer_line": "Hand past shoulder, bicep on neck",
+        "distractors": {
+          "plausible": [
+            "Hand reaches their sternum",
+            "Forearm touches their chin"
+          ],
+          "trap": [
+            "Grip locks even if hand is shallow"
+          ]
+        }
       },
       {
         "question": "How does the Arm Triangle Setup integrate with other North-South attacks to create a submission chain?",
-        "answer": "The arm triangle setup creates a forcing function when combined with the kimura and North-South choke. If the opponent defends the kimura by straightening their arm, it opens the arm triangle. If they tuck their arm to prevent the arm triangle, the North-South choke becomes available as the neck is exposed. Defending the North-South choke by turning creates the arm isolation needed for the arm triangle. Each defense opens a different attack, creating a dilemma-based submission chain."
+        "answer": "The arm triangle setup creates a forcing function when combined with the kimura and North-South choke. If the opponent defends the kimura by straightening their arm, it opens the arm triangle. If they tuck their arm to prevent the arm triangle, the North-South choke becomes available as the neck is exposed. Defending the North-South choke by turning creates the arm isolation needed for the arm triangle. Each defense opens a different attack, creating a dilemma-based submission chain.",
+        "answer_line": "Each defense opens a new attack",
+        "distractors": {
+          "plausible": [
+            "Always finish kimura first",
+            "Pick one attack and commit"
+          ],
+          "trap": [
+            "Reset to neutral between attacks"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply with your shoulder during the finishing squeeze?",
-        "answer": "Drive your choking-side shoulder forward and downward into the opponent's jaw and neck, angling toward the mat on the far side of their head. The force direction should be diagonal—not straight down—to maximize the compression between your bicep on one carotid and their own shoulder on the other. Simultaneously squeeze your elbows together to tighten the circumference of the choke."
+        "answer": "Drive your choking-side shoulder forward and downward into the opponent's jaw and neck, angling toward the mat on the far side of their head. The force direction should be diagonal—not straight down—to maximize the compression between your bicep on one carotid and their own shoulder on the other. Simultaneously squeeze your elbows together to tighten the circumference of the choke.",
+        "answer_line": "Angle shoulder down, squeeze elbows",
+        "distractors": {
+          "plausible": [
+            "Push straight down on chest",
+            "Pull head toward your hip"
+          ],
+          "trap": [
+            "Relax grip, use weight alone"
+          ]
+        }
       },
       {
         "question": "Your opponent gets a half guard hook as you walk your hips to side control—what do you do?",
-        "answer": "Maintain the arm triangle grip and sprawl your hips heavy to prevent them from developing the half guard further. Use your free leg to pummel past their hook by circling it outward and then driving the knee past their hooking leg. Do not abandon the arm triangle configuration—the grip remains viable even through the half guard recovery attempt. If you cannot free the leg, you can still finish the arm triangle from modified half guard top by increasing shoulder pressure."
+        "answer": "Maintain the arm triangle grip and sprawl your hips heavy to prevent them from developing the half guard further. Use your free leg to pummel past their hook by circling it outward and then driving the knee past their hooking leg. Do not abandon the arm triangle configuration—the grip remains viable even through the half guard recovery attempt. If you cannot free the leg, you can still finish the arm triangle from modified half guard top by increasing shoulder pressure.",
+        "answer_line": "Sprawl heavy, keep grip, clear hook",
+        "distractors": {
+          "plausible": [
+            "Stand and reset base first",
+            "Switch to guillotine instead"
+          ],
+          "trap": [
+            "Release grip, pass the guard"
+          ]
+        }
       },
       {
         "question": "What specific chest pressure angle is required during the arm thread to avoid creating exploitable space?",
-        "answer": "Your chest must remain angled slightly toward the arm-threading side rather than centered directly over the opponent's sternum. This diagonal pressure pins their near-side shoulder to the mat while your weight shifts naturally in the direction of the thread. If you center your weight or angle away from the threading side, you create a gap on the near side that the opponent exploits with a bridge or frame. The pressure vector should follow the path of the arm thread itself."
+        "answer": "Your chest must remain angled slightly toward the arm-threading side rather than centered directly over the opponent's sternum. This diagonal pressure pins their near-side shoulder to the mat while your weight shifts naturally in the direction of the thread. If you center your weight or angle away from the threading side, you create a gap on the near side that the opponent exploits with a bridge or frame. The pressure vector should follow the path of the arm thread itself.",
+        "answer_line": "Angle chest toward threading side",
+        "distractors": {
+          "plausible": [
+            "Center weight on their sternum",
+            "Angle away to protect your face"
+          ],
+          "trap": [
+            "Post hands wide for base"
+          ]
+        }
       },
       {
         "question": "The arm triangle setup stalls because the opponent defends every entry from North-South—what chain attack sequence do you use?",
-        "answer": "Threaten the North-South choke first by controlling the far arm and sliding your near arm toward their neck. When they defend the choke by turning their head and bringing their arms up, switch immediately to the kimura on the exposed near-side arm. As they defend the kimura by straightening and retracting the arm toward their body, use that arm retraction momentum to drive the arm across their neck and enter the arm triangle setup. The key is never pausing between threats—each failed attack should flow directly into the next without resettling into static North-South control."
+        "answer": "Threaten the North-South choke first by controlling the far arm and sliding your near arm toward their neck. When they defend the choke by turning their head and bringing their arms up, switch immediately to the kimura on the exposed near-side arm. As they defend the kimura by straightening and retracting the arm toward their body, use that arm retraction momentum to drive the arm across their neck and enter the arm triangle setup. The key is never pausing between threats—each failed attack should flow directly into the next without resettling into static North-South control.",
+        "answer_line": "Chain: NS choke, kimura, triangle",
+        "distractors": {
+          "plausible": [
+            "Attack kimura first every time",
+            "Pause between attacks to reset"
+          ],
+          "trap": [
+            "Abandon chain, force the choke"
+          ]
+        }
       }
     ],
     "safety_considerations": "The arm triangle involves bilateral compression of the carotid arteries, which can cause loss of consciousness rapidly if applied with full force. During training, always apply the squeeze gradually and release immediately upon receiving a tap. Training partners should tap early when they feel the blood restriction rather than waiting for visual symptoms. Avoid cranking the neck during the setup—the submission should come from shoulder-to-neck compression, not neck twisting. Practitioners with neck injuries or cervical spine issues should inform their training partners before drilling this technique. When drilling the setup without the finish, still respect the arm position to prevent shoulder strain from the trapped arm being forced into an uncomfortable angle.",
@@ -394,23 +514,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an arm triangle setup is being initiated from North-South?",
-        "answer": "The earliest cue is the attacker underhooking your near-side arm at the elbow or bicep and beginning to drive it across your centerline toward your own neck. You will feel their arm snaking under yours combined with increased shoulder pressure designed to flatten you and pin the arm in position. This precedes the arm thread under the neck by several seconds, providing the widest defensive window."
+        "answer": "The earliest cue is the attacker underhooking your near-side arm at the elbow or bicep and beginning to drive it across your centerline toward your own neck. You will feel their arm snaking under yours combined with increased shoulder pressure designed to flatten you and pin the arm in position. This precedes the arm thread under the neck by several seconds, providing the widest defensive window.",
+        "answer_line": "Underhook on arm, shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Hand threading under your neck",
+            "Hips walking to side control"
+          ],
+          "trap": [
+            "No cue until choke is locked"
+          ]
+        }
       },
       {
         "question": "Why is it critical to avoid turning away from the attacker when you feel the arm triangle developing?",
-        "answer": "Turning away from the attacker rotates your trapped arm deeper into your own neck, increasing the compression on your carotid artery. It also assists the attacker's hip walk by moving in the same direction they need to transition to side control. The instinct to turn away feels like escape but mechanically accelerates the choke. Instead, bridge and turn toward the attacker to create space on the near side and disrupt the arm-across-neck configuration."
+        "answer": "Turning away from the attacker rotates your trapped arm deeper into your own neck, increasing the compression on your carotid artery. It also assists the attacker's hip walk by moving in the same direction they need to transition to side control. The instinct to turn away feels like escape but mechanically accelerates the choke. Instead, bridge and turn toward the attacker to create space on the near side and disrupt the arm-across-neck configuration.",
+        "answer_line": "Turn toward attacker, not away",
+        "distractors": {
+          "plausible": [
+            "Push their head away",
+            "Flatten out and cover up"
+          ],
+          "trap": [
+            "Turn away to escape"
+          ]
+        }
       },
       {
         "question": "Your arm is already across your neck and the attacker is locking the grip—what is your highest-percentage defensive option?",
-        "answer": "At this late stage, your best option is inserting your near-side knee between your bodies during the hip walk phase to recover half guard. The half guard hook prevents the attacker from achieving the side control angle needed for maximum compression and creates enough positional disruption to work toward arm extraction. Fighting the grip directly at this stage has a very low success rate because the attacker has mechanical advantage through their locked hands and chest pressure."
+        "answer": "At this late stage, your best option is inserting your near-side knee between your bodies during the hip walk phase to recover half guard. The half guard hook prevents the attacker from achieving the side control angle needed for maximum compression and creates enough positional disruption to work toward arm extraction. Fighting the grip directly at this stage has a very low success rate because the attacker has mechanical advantage through their locked hands and chest pressure.",
+        "answer_line": "Insert knee, recover half guard",
+        "distractors": {
+          "plausible": [
+            "Fight the grip with both hands",
+            "Bridge explosively to escape"
+          ],
+          "trap": [
+            "Turn face down to hide neck"
+          ]
+        }
       },
       {
         "question": "How do you prevent the arm isolation that starts the entire arm triangle sequence?",
-        "answer": "Keep your near-side elbow pinched tight against your ribs as your default defensive posture in North-South. When you feel the attacker attempt to underhook your arm, swim your hand to inside position by circling it inward and pressing your forearm against their chest. The arm must never cross your own centerline—as long as your elbow stays connected to your ribs and your forearm stays between your bodies, the attacker cannot drive the arm across your neck to create the choke configuration."
+        "answer": "Keep your near-side elbow pinched tight against your ribs as your default defensive posture in North-South. When you feel the attacker attempt to underhook your arm, swim your hand to inside position by circling it inward and pressing your forearm against their chest. The arm must never cross your own centerline—as long as your elbow stays connected to your ribs and your forearm stays between your bodies, the attacker cannot drive the arm across your neck to create the choke configuration.",
+        "answer_line": "Pin elbow to ribs, frame forearm",
+        "distractors": {
+          "plausible": [
+            "Push their head away instead",
+            "Grab their far wrist for control"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       },
       {
         "question": "During which phase of the arm triangle setup is the attacker's base most vulnerable to a defensive bridge?",
-        "answer": "The attacker's base is most vulnerable during the hip walk phase when they are transitioning from perpendicular North-South alignment toward a lateral side control angle. During this movement their weight distribution shifts progressively to one side, their knees are in motion rather than planted, and they cannot post effectively because both hands are committed to the grip. A well-timed bridge during mid-walk catches them between positions where they have neither North-South stability nor side control stability."
+        "answer": "The attacker's base is most vulnerable during the hip walk phase when they are transitioning from perpendicular North-South alignment toward a lateral side control angle. During this movement their weight distribution shifts progressively to one side, their knees are in motion rather than planted, and they cannot post effectively because both hands are committed to the grip. A well-timed bridge during mid-walk catches them between positions where they have neither North-South stability nor side control stability.",
+        "answer_line": "Mid hip-walk, weight shifting",
+        "distractors": {
+          "plausible": [
+            "Right after grip is locked",
+            "Start of North-South control"
+          ],
+          "trap": [
+            "Wait until side control is set"
+          ]
+        }
       }
     ],
     "training_progressions": [

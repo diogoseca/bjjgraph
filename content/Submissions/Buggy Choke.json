@@ -307,47 +307,137 @@
       {
         "question": "What anatomical structure does the Buggy Choke attack, and what kind of choke is it?",
         "answer": "The Buggy Choke is a blood choke that compresses both carotid arteries on the sides of the neck, cutting off blood flow to the brain; it does not rely on crushing the windpipe, which is why it can finish in three to five seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blood choke on both carotids",
+        "distractors": {
+          "plausible": [
+            "Air choke on the windpipe",
+            "Blood choke on one carotid"
+          ],
+          "trap": [
+            "Joint lock on the neck"
+          ]
+        }
       },
       {
         "question": "What must you control before reaching for your shin to close the loop?",
         "answer": "You must trap and pin the opponent's near crossface arm and their head across your centerline first; the trapped arm is one wall of the choke, and reaching for your leg first leaves the choke with no second wall.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin crossface arm and head first",
+        "distractors": {
+          "plausible": [
+            "Secure the shin grip first",
+            "Control the far arm first"
+          ],
+          "trap": [
+            "Release head to grab shin"
+          ]
+        }
       },
       {
         "question": "Your opponent's head is trapped and you have just drawn your knee toward your own head with hand on shin — why is this the point of no escape?",
         "answer": "Once the knee is drawn to your head and the hand-to-shin loop is sealed, the opponent's head and their own shoulder are locked inside a closed frame with no slack to spin out, so the carotid compression only tightens as you bridge.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Closed frame seals, no slack to spin",
+        "distractors": {
+          "plausible": [
+            "Loop is loose but tap is near",
+            "Pressure fades without bridging"
+          ],
+          "trap": [
+            "They can still bridge free"
+          ]
+        }
       },
       {
         "question": "You can reach your shin but the loop still feels loose — what grip adjustment finishes the choke?",
         "answer": "Pull your gripping hand deeper down your shin toward the instep and draw your knee closer to your head, shortening the loop so there is no slack; the tighter closed frame removes the space the opponent needs to relieve pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull hand to instep, knee closer",
+        "distractors": {
+          "plausible": [
+            "Push knee away, grip shin lightly",
+            "Slide hand up toward the knee"
+          ],
+          "trap": [
+            "Let go and re-grip the collar"
+          ]
+        }
       },
       {
         "question": "Why does choking with only your arm usually fail?",
         "answer": "Arm-only pressure compresses just one side of the neck and lacks the structure to seal both carotids, so the opponent can simply wait it out; the same-side knee drawn toward your head provides the second wall that makes it a true blood choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Only compresses one carotid side",
+        "distractors": {
+          "plausible": [
+            "Arm tires before opponent taps",
+            "Grip slips without gi fabric"
+          ],
+          "trap": [
+            "Squeeze harder with the elbow"
+          ]
+        }
       },
       {
         "question": "Your opponent stops fighting and goes quiet a few seconds into the choke — what is happening and what do you do?",
         "answer": "Quietness or going limp can signal the blood choke is working and unconsciousness is near; if there is no tap, maintain control but be ready to release the instant they tap or go fully limp, and never hold past unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Choke working, stay ready to release",
+        "distractors": {
+          "plausible": [
+            "They're bluffing, squeeze harder",
+            "Resting, ease off pressure fully"
+          ],
+          "trap": [
+            "Hold on past unconsciousness"
+          ]
+        }
       },
       {
         "question": "How fast should you apply the Buggy Choke in training, and why?",
         "answer": "Apply it slowly and progressively over at least three to five seconds so your partner feels the compression building and has time to tap; explosive application risks injury and gives no warning window, which is unsafe for a blood choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slowly, 3-5 seconds for tap window",
+        "distractors": {
+          "plausible": [
+            "Fast, so they can't posture out",
+            "Medium speed, matching their pace"
+          ],
+          "trap": [
+            "Explosively, to lock it instantly"
+          ]
+        }
       },
       {
         "question": "What passing behavior should you bait an opponent into to set up the Buggy Choke in competition?",
         "answer": "Invite the opponent to commit to a flattening smash pass with their head dropped and crossface arm extended; that forward weight and low head are exactly the inputs the choke needs, turning their pass attempt into your finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bait a flattening smash pass",
+        "distractors": {
+          "plausible": [
+            "Bait a knee-slice pass attempt",
+            "Bait a leg drag pass attempt"
+          ],
+          "trap": [
+            "Bait them to stand and stack"
+          ]
+        }
       },
       {
         "question": "Your opponent extracts the trapped arm and starts to posture before you finish — what is your best follow-up?",
         "answer": "Re-pin the wrist if you can; if the arm is gone, transition to lockdown to break their posture and threaten the Electric Chair, or release to an underhook sweep, keeping constant offensive pressure rather than holding a dead choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-pin or go lockdown/Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Hold on and wait for a re-grip",
+            "Switch immediately to a kimura"
+          ],
+          "trap": [
+            "Release everything and reset guard"
+          ]
+        }
       },
       {
         "question": "Why must the crossface arm stay pinned throughout the finish?",
@@ -472,22 +562,62 @@
       {
         "question": "What posture habit prevents most Buggy Chokes while passing half guard?",
         "answer": "Keep your head and posture up rather than dropping your head to the mat, and keep the crossface elbow tight instead of reaching across; the choke needs your head low and your arm extended, so denying both inputs prevents the entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep head up, elbow tight",
+        "distractors": {
+          "plausible": [
+            "Keep head low, drive forward hard",
+            "Keep elbow wide for base"
+          ],
+          "trap": [
+            "Drop head to flatten their hips"
+          ]
+        }
       },
       {
         "question": "You feel the loop forming but it has not sealed yet — what is your escape?",
         "answer": "Immediately extract your trapped arm by straightening it and re-pummeling, then posture up and away before the hand-to-shin loop closes; once the knee is drawn to their head the escape window shrinks, so act on the first sign of the trap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extract arm, posture up and away",
+        "distractors": {
+          "plausible": [
+            "Push their knee back and pause",
+            "Sit back and stall the position"
+          ],
+          "trap": [
+            "Drive forward into the pressure"
+          ]
+        }
       },
       {
         "question": "Why is squaring up and driving harder into the pressure a mistake when caught in a forming Buggy Choke?",
         "answer": "Driving forward feeds your head and shoulder deeper into the closing loop and tightens the carotid compression; instead you must extract the trapped arm and posture out, because the choke uses your own forward pressure against you.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Feeds head deeper, tightens choke",
+        "distractors": {
+          "plausible": [
+            "Wastes energy without progress",
+            "Slows your pass unnecessarily"
+          ],
+          "trap": [
+            "Opens a sweep for your opponent"
+          ]
+        }
       },
       {
         "question": "If you recognize the Buggy Choke early, how can you turn the defense into a finished pass?",
         "answer": "Clear and extract the trapped crossface arm, re-establish your head position, then drive across to complete the pass to side control; beating the choke early lets you convert the bottom player's committed position into your pass.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clear arm, reset head, drive across",
+        "distractors": {
+          "plausible": [
+            "Grab both legs and stack them",
+            "Circle away then re-engage guard"
+          ],
+          "trap": [
+            "Dive for a leg lock instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

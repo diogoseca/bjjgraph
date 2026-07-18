@@ -248,11 +248,31 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals you should transition to cross body ride rather than fight to maintain standard back control?",
-        "answer": "The trigger is when your lower body control through hooks is being successfully compromised but your upper body harness or seatbelt grip remains intact. Specifically, when the opponent strips one or both hooks and begins curling into turtle, this creates the lateral angle opportunity. Fighting to re-insert hooks against an opponent who is actively defending them wastes energy and risks losing the position entirely, while the cross body ride converts their defensive success into your lateral advancement."
+        "answer": "The trigger is when your lower body control through hooks is being successfully compromised but your upper body harness or seatbelt grip remains intact. Specifically, when the opponent strips one or both hooks and begins curling into turtle, this creates the lateral angle opportunity. Fighting to re-insert hooks against an opponent who is actively defending them wastes energy and risks losing the position entirely, while the cross body ride converts their defensive success into your lateral advancement.",
+        "answer_line": "Hooks stripped, harness still intact",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips start turning",
+            "You feel fatigue setting in"
+          ],
+          "trap": [
+            "Re-insert hooks harder immediately"
+          ]
+        }
       },
       {
         "question": "Why must the chest remain in contact with the opponent's back throughout the entire transition?",
-        "answer": "The chest-to-back connection is the single non-negotiable element that preserves control during the transition. It serves as the pivot point around which your hips rotate, maintains weight pressure that prevents the opponent from standing or turning, and ensures there is no separation gap that the opponent could exploit for an escape. If the chest lifts even momentarily, the opponent gains the space needed to sit out, roll, or recover guard. The transition is fundamentally a hip rotation around a fixed chest contact point."
+        "answer": "The chest-to-back connection is the single non-negotiable element that preserves control during the transition. It serves as the pivot point around which your hips rotate, maintains weight pressure that prevents the opponent from standing or turning, and ensures there is no separation gap that the opponent could exploit for an escape. If the chest lifts even momentarily, the opponent gains the space needed to sit out, roll, or recover guard. The transition is fundamentally a hip rotation around a fixed chest contact point.",
+        "answer_line": "Chest stays glued as the pivot point",
+        "distractors": {
+          "plausible": [
+            "Chest presses only at the finish",
+            "Weight shifts to the far knee"
+          ],
+          "trap": [
+            "Lift chest to see the turtle"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your near-side hook and begins turning their hips away from you. Which direction do you rotate and why?",
@@ -272,7 +292,17 @@
       },
       {
         "question": "What grip adjustments might be necessary after completing the transition from harness control to cross body ride control?",
-        "answer": "The harness or seatbelt grip that works in standard back control may need adjustment in cross body ride. From the perpendicular angle, you may transition the near-side arm from a seatbelt underhook to a deeper underhook controlling the far arm, or switch to a collar tie controlling the opponent's head. The far-side overhook may shift to a cross-face or whizzer position. The specific adjustment depends on your planned follow-up attack, but the principle is that grip configuration should match the control angle rather than trying to maintain back control grips from a cross body position."
+        "answer": "The harness or seatbelt grip that works in standard back control may need adjustment in cross body ride. From the perpendicular angle, you may transition the near-side arm from a seatbelt underhook to a deeper underhook controlling the far arm, or switch to a collar tie controlling the opponent's head. The far-side overhook may shift to a cross-face or whizzer position. The specific adjustment depends on your planned follow-up attack, but the principle is that grip configuration should match the control angle rather than trying to maintain back control grips from a cross body position.",
+        "answer_line": "Match grip to the new attack angle",
+        "distractors": {
+          "plausible": [
+            "Keep the seatbelt grip unchanged",
+            "Switch both arms to overhooks"
+          ],
+          "trap": [
+            "Release grips to reset the harness"
+          ]
+        }
       },
       {
         "question": "When should you choose to fight for hook re-insertion instead of transitioning to cross body ride?",

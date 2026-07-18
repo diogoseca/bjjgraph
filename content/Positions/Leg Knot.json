@@ -310,35 +310,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins pumping their knee to create space for leg extraction - what adjustment maintains control?",
-        "answer": "Apply increased knee pressure on opponent's trapped thigh while tightening leg crossing configuration. Simultaneously adjust hip angle to close any gaps created by the pumping motion, and consider transitioning to a tighter entanglement like Saddle if space is being created."
+        "answer": "Apply increased knee pressure on opponent's trapped thigh while tightening leg crossing configuration. Simultaneously adjust hip angle to close any gaps created by the pumping motion, and consider transitioning to a tighter entanglement like Saddle if space is being created.",
+        "answer_line": "Increase knee pressure, tighten",
+        "distractors": {
+          "plausible": [
+            "Just squeeze legs harder",
+            "Chase a quick submission"
+          ],
+          "trap": [
+            "Release grips to reposition"
+          ]
+        }
       },
       {
         "question": "What are the essential control points for maintaining Leg Knot Top position?",
-        "answer": "The essential control points are: systematic leg crossing through opponent's legs creating multiple entanglement points, knee pressure on opponent's trapped thigh, upper body posture preventing opponent from sitting up, hip positioning at optimal distance for attacks, and awareness of opponent's free leg to prevent defensive frames."
+        "answer": "The essential control points are: systematic leg crossing through opponent's legs creating multiple entanglement points, knee pressure on opponent's trapped thigh, upper body posture preventing opponent from sitting up, hip positioning at optimal distance for attacks, and awareness of opponent's free leg to prevent defensive frames.",
+        "answer_line": "Knee pressure, posture, hip control",
+        "distractors": {
+          "plausible": [
+            "Squeeze legs as hard as possible",
+            "Focus only on the submission"
+          ],
+          "trap": [
+            "Ignore opponent's free leg"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape of sitting up and establishing frames?",
-        "answer": "Maintain forward upper body posture with hands actively blocking or controlling opponent's torso. Keep hips at proper distance so opponent cannot generate leverage to sit up. If they begin sitting up, drive forward with chest pressure while maintaining leg entanglement, or immediately transition to a submission attempt that capitalizes on their compromised posture."
+        "answer": "Maintain forward upper body posture with hands actively blocking or controlling opponent's torso. Keep hips at proper distance so opponent cannot generate leverage to sit up. If they begin sitting up, drive forward with chest pressure while maintaining leg entanglement, or immediately transition to a submission attempt that capitalizes on their compromised posture.",
+        "answer_line": "Forward pressure, block torso",
+        "distractors": {
+          "plausible": [
+            "Pull opponent's arms down",
+            "Wait for them to tire out"
+          ],
+          "trap": [
+            "Post hands back, give up posture"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain from Leg Knot Top?",
-        "answer": "Primary grip priority is controlling the trapped leg's foot and ankle to set up heel hook or toe hold finishes. Secondary priority is controlling opponent's far hip or belt to prevent hip rotation escapes. Tertiary priority is managing opponent's free leg to prevent defensive kicks. In no-gi, focus on controlling the heel, ankle, and using forearm pressure on the thigh."
+        "answer": "Primary grip priority is controlling the trapped leg's foot and ankle to set up heel hook or toe hold finishes. Secondary priority is controlling opponent's far hip or belt to prevent hip rotation escapes. Tertiary priority is managing opponent's free leg to prevent defensive kicks. In no-gi, focus on controlling the heel, ankle, and using forearm pressure on the thigh.",
+        "answer_line": "Foot/ankle grip first",
+        "distractors": {
+          "plausible": [
+            "Grip the far hip first",
+            "Control the free leg first"
+          ],
+          "trap": [
+            "Let go of foot to grab collar"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure from Leg Knot Top to break down opponent's defense?",
-        "answer": "Apply pressure through multiple vectors: knee pressure on trapped thigh restricts hip mobility, forward weight distribution prevents sitting up, systematic tightening of leg crossing eliminates slack. Create dilemmas by threatening multiple submissions simultaneously - if they defend the heel hook by flexing knee, attack the kneebar; if they extend to escape kneebar, expose the heel."
+        "answer": "Apply pressure through multiple vectors: knee pressure on trapped thigh restricts hip mobility, forward weight distribution prevents sitting up, systematic tightening of leg crossing eliminates slack. Create dilemmas by threatening multiple submissions simultaneously - if they defend the heel hook by flexing knee, attack the kneebar; if they extend to escape kneebar, expose the heel.",
+        "answer_line": "Threaten heel hook and kneebar",
+        "distractors": {
+          "plausible": [
+            "Focus all pressure on one sub",
+            "Squeeze harder, ignore angles"
+          ],
+          "trap": [
+            "Abandon control to force a sub"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to establish a frame with their free leg against your hip - how do you recover control?",
-        "answer": "Circle your hips away from the framing leg while maintaining leg entanglement, removing the leverage point. Use your own hands to clear the frame by pushing the leg down or swimming under it. If the frame is strong, consider transitioning to a different angle or advancing to Saddle position where their frame becomes less effective. Never simply drive into a solid frame as this wastes energy."
+        "answer": "Circle your hips away from the framing leg while maintaining leg entanglement, removing the leverage point. Use your own hands to clear the frame by pushing the leg down or swimming under it. If the frame is strong, consider transitioning to a different angle or advancing to Saddle position where their frame becomes less effective. Never simply drive into a solid frame as this wastes energy.",
+        "answer_line": "Circle hips away, clear frame",
+        "distractors": {
+          "plausible": [
+            "Drive forward through the frame",
+            "Grab the framing leg and pull"
+          ],
+          "trap": [
+            "Push straight into their frame"
+          ]
+        }
       },
       {
         "question": "What is the proper energy management strategy when controlling Leg Knot Top?",
-        "answer": "Energy management focuses on using positioning rather than strength. Maintain entanglement through proper leg crossing rather than squeezing. Let body weight do the work of controlling distance rather than arm strength. Work submissions methodically with proper mechanics rather than forcing. Rest in controlling position while opponent expends energy escaping. Attack when opponent creates openings through their own movement."
+        "answer": "Energy management focuses on using positioning rather than strength. Maintain entanglement through proper leg crossing rather than squeezing. Let body weight do the work of controlling distance rather than arm strength. Work submissions methodically with proper mechanics rather than forcing. Rest in controlling position while opponent expends energy escaping. Attack when opponent creates openings through their own movement.",
+        "answer_line": "Use position, not strength",
+        "distractors": {
+          "plausible": [
+            "Squeeze constantly to tire them",
+            "Rush every submission attempt"
+          ],
+          "trap": [
+            "Muscle through with arm strength"
+          ]
+        }
       },
       {
         "question": "After a failed heel hook attempt, what is the proper recovery sequence to maintain position?",
-        "answer": "Immediately reset leg crossing configuration before opponent can extract. Return hands to controlling opponent's hip and free leg. Re-establish proper distance and upper body posture. Assess what defensive adjustment opponent made and prepare alternative attack (toe hold if they're hiding heel, kneebar if they're flexing knee). The key is never completely abandoning position during attack attempts."
+        "answer": "Immediately reset leg crossing configuration before opponent can extract. Return hands to controlling opponent's hip and free leg. Re-establish proper distance and upper body posture. Assess what defensive adjustment opponent made and prepare alternative attack (toe hold if they're hiding heel, kneebar if they're flexing knee). The key is never completely abandoning position during attack attempts.",
+        "answer_line": "Reset crossing, reassess attack",
+        "distractors": {
+          "plausible": [
+            "Immediately retry same attack",
+            "Abandon position, reset neutral"
+          ],
+          "trap": [
+            "Let go completely to restart"
+          ]
+        }
       }
     ],
     "clips": [
@@ -648,35 +728,115 @@
     "flashcards": [
       {
         "question": "Your opponent secures your heel and begins rotating for a heel hook - what is your immediate defensive response?",
-        "answer": "Immediately turn into the opponent (toward the attacking side) to hide the heel. Point your toes toward opponent's hip to protect heel exposure. Simultaneously use your free leg to push against their hip to create distance. If rotation has begun, initiate an emergency Granby roll to extract the leg before breaking mechanics are established. The key is speed - address the heel hook threat before attempting any positional escape."
+        "answer": "Immediately turn into the opponent (toward the attacking side) to hide the heel. Point your toes toward opponent's hip to protect heel exposure. Simultaneously use your free leg to push against their hip to create distance. If rotation has begun, initiate an emergency Granby roll to extract the leg before breaking mechanics are established. The key is speed - address the heel hook threat before attempting any positional escape.",
+        "answer_line": "Turn in, hide heel, push away",
+        "distractors": {
+          "plausible": [
+            "Point toes away from their hip",
+            "Try to muscle the leg free"
+          ],
+          "trap": [
+            "Extend the leg straight to escape"
+          ]
+        }
       },
       {
         "question": "What are the essential defensive frames for surviving Leg Knot Bottom?",
-        "answer": "Essential frames include: free leg pushing against opponent's hip to control distance and prevent advancement, hands controlling opponent's attacking grips on your foot/ankle, upper body positioned on side (not flat) to maintain hip mobility, and elbows tight protecting against opponent's upper body advancement. The free leg is the most important framing tool as it can both create distance and begin offensive counter-attacks."
+        "answer": "Essential frames include: free leg pushing against opponent's hip to control distance and prevent advancement, hands controlling opponent's attacking grips on your foot/ankle, upper body positioned on side (not flat) to maintain hip mobility, and elbows tight protecting against opponent's upper body advancement. The free leg is the most important framing tool as it can both create distance and begin offensive counter-attacks.",
+        "answer_line": "Free leg frame on their hip",
+        "distractors": {
+          "plausible": [
+            "Flatten out to conserve energy",
+            "Grab their far leg first"
+          ],
+          "trap": [
+            "Lie flat, arms out wide"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary attack of crossing your knee line to achieve Saddle?",
-        "answer": "Maintain inside knee line by keeping your trapped leg's knee pointing inward at all times. Use your free leg to actively block opponent's attempts to triangulate or cross their leg over yours. If they begin crossing, immediately pump your knee upward while turning your hip toward them to prevent the cross. Consider preemptively counter-entangling to 50-50 rather than letting them achieve Saddle position."
+        "answer": "Maintain inside knee line by keeping your trapped leg's knee pointing inward at all times. Use your free leg to actively block opponent's attempts to triangulate or cross their leg over yours. If they begin crossing, immediately pump your knee upward while turning your hip toward them to prevent the cross. Consider preemptively counter-entangling to 50-50 rather than letting them achieve Saddle position.",
+        "answer_line": "Keep knee inward, block crossing",
+        "distractors": {
+          "plausible": [
+            "Pull the knee straight back",
+            "Kick free leg to create space"
+          ],
+          "trap": [
+            "Let leg extend straight out"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain from Leg Knot Bottom for defense?",
-        "answer": "Primary grip priority is controlling your own foot/ankle to prevent opponent from securing heel grip - use both hands if necessary. Secondary priority is controlling opponent's controlling hand to strip grips. Tertiary priority is gripping opponent's far hip or belt to assist with hip mobility and escape movements. Never prioritize offensive grips over protective grips when under active leg lock threat."
+        "answer": "Primary grip priority is controlling your own foot/ankle to prevent opponent from securing heel grip - use both hands if necessary. Secondary priority is controlling opponent's controlling hand to strip grips. Tertiary priority is gripping opponent's far hip or belt to assist with hip mobility and escape movements. Never prioritize offensive grips over protective grips when under active leg lock threat.",
+        "answer_line": "Protect your own foot/ankle",
+        "distractors": {
+          "plausible": [
+            "Grip their far hip first",
+            "Attack their free leg first"
+          ],
+          "trap": [
+            "Chase offense, ignore heel grip"
+          ]
+        }
       },
       {
         "question": "How should you manage pressure when your opponent applies forward driving pressure from Leg Knot Top?",
-        "answer": "Do not resist the drive head-on as this wastes energy. Instead, redirect the energy by turning your hips and using the momentum to initiate an escape. If they stack heavily, the space created behind their hips becomes your escape route - hip escape out the back door while their weight is committed forward. Use your free leg frame to prevent them from flattening you while you work the escape angle."
+        "answer": "Do not resist the drive head-on as this wastes energy. Instead, redirect the energy by turning your hips and using the momentum to initiate an escape. If they stack heavily, the space created behind their hips becomes your escape route - hip escape out the back door while their weight is committed forward. Use your free leg frame to prevent them from flattening you while you work the escape angle.",
+        "answer_line": "Redirect, hip escape the space",
+        "distractors": {
+          "plausible": [
+            "Push back against the drive",
+            "Stay flat and wait it out"
+          ],
+          "trap": [
+            "Brace head-on against the drive"
+          ]
+        }
       },
       {
         "question": "Your opponent's grip breaks momentarily during a transition attempt - how do you capitalize?",
-        "answer": "Immediately extract the trapped leg using a limp leg motion (relaxing the leg to slide out) combined with hip escape. Don't wait to see if they'll re-establish - act instantly. As the leg clears, transition directly to a safer position like Half Guard or Single Leg X rather than neutral, as neutral positions allow them to re-attack. Speed and commitment are essential during these brief windows."
+        "answer": "Immediately extract the trapped leg using a limp leg motion (relaxing the leg to slide out) combined with hip escape. Don't wait to see if they'll re-establish - act instantly. As the leg clears, transition directly to a safer position like Half Guard or Single Leg X rather than neutral, as neutral positions allow them to re-attack. Speed and commitment are essential during these brief windows.",
+        "answer_line": "Limp leg out, hip escape fast",
+        "distractors": {
+          "plausible": [
+            "Wait to see if grip returns",
+            "Extract slowly to stay safe"
+          ],
+          "trap": [
+            "Pause in neutral position"
+          ]
+        }
       },
       {
         "question": "What is the proper energy management strategy when defending Leg Knot Bottom?",
-        "answer": "Avoid explosive thrashing which tightens entanglements and depletes energy rapidly. Use technique over strength - proper hip positioning and angles are more effective than muscling out. Stay relaxed until the moment of escape, then commit fully. Let opponent work for submissions while you defend efficiently. When you see an escape window, explode through it completely rather than making half-efforts that can be countered."
+        "answer": "Avoid explosive thrashing which tightens entanglements and depletes energy rapidly. Use technique over strength - proper hip positioning and angles are more effective than muscling out. Stay relaxed until the moment of escape, then commit fully. Let opponent work for submissions while you defend efficiently. When you see an escape window, explode through it completely rather than making half-efforts that can be countered.",
+        "answer_line": "Stay relaxed, explode at window",
+        "distractors": {
+          "plausible": [
+            "Thrash constantly to escape",
+            "Make repeated half-effort attempts"
+          ],
+          "trap": [
+            "Explode continuously, burn energy"
+          ]
+        }
       },
       {
         "question": "After a failed escape attempt that returns you to Leg Knot Bottom, what is the recovery sequence?",
-        "answer": "Immediately reassess heel protection and knee line - opponent may have improved position during your escape attempt. Re-establish defensive frames with free leg. Return hands to protective grips on your foot/ankle. Identify what defensive element failed and address it before next attempt. Consider a different escape route since opponent may be anticipating repeated attempts at the same escape. Reset breathing and stay calm."
+        "answer": "Immediately reassess heel protection and knee line - opponent may have improved position during your escape attempt. Re-establish defensive frames with free leg. Return hands to protective grips on your foot/ankle. Identify what defensive element failed and address it before next attempt. Consider a different escape route since opponent may be anticipating repeated attempts at the same escape. Reset breathing and stay calm.",
+        "answer_line": "Reassess heel, reset frames",
+        "distractors": {
+          "plausible": [
+            "Immediately repeat same escape",
+            "Rush a new attack blindly"
+          ],
+          "trap": [
+            "Abandon frames, thrash wildly"
+          ]
+        }
       }
     ],
     "clips": [
@@ -712,23 +872,73 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the Leg Knot position and distinguishes it from a cleanly assigned leg entanglement?",
-      "answer": "In Leg Knot both grapplers' legs are woven through one another so that each player simultaneously controls and is controlled by the other's lower body, rather than one player holding a clean ashi-garami on a passive leg. This mutual weaving means neither has secured a dominant inside position, so heel-hook, kneebar, and reversal threats exist in both directions at once. The knot-like interlacing creates multiple friction and pressure points that restrict everyone's hip rotation and knee extraction. It is precisely this shared, unresolved control that makes the position transitional rather than a stable finishing platform."
+      "answer": "In Leg Knot both grapplers' legs are woven through one another so that each player simultaneously controls and is controlled by the other's lower body, rather than one player holding a clean ashi-garami on a passive leg. This mutual weaving means neither has secured a dominant inside position, so heel-hook, kneebar, and reversal threats exist in both directions at once. The knot-like interlacing creates multiple friction and pressure points that restrict everyone's hip rotation and knee extraction. It is precisely this shared, unresolved control that makes the position transitional rather than a stable finishing platform.",
+      "answer_line": "Mutual weave, no dominant side",
+      "distractors": {
+        "plausible": [
+          "One player holds clean ashi",
+          "Stable finishing platform"
+        ],
+        "trap": [
+          "Treat it like a locked submission"
+        ]
+      }
     },
     {
       "question": "Why is hip distance considered the master control variable for both players in Leg Knot rather than raw leg-squeezing pressure?",
-      "answer": "The submissions and reversals available from Leg Knot all depend on the angle between the two players' centerlines, and that angle is governed by how close or far the hips sit relative to each other. When hips are pulled tight and correctly angled, the entangling player can load the knee line and expose the heel; when hips drift apart, slack appears and the trapped leg can be extracted. Squeezing the legs harder without correcting hip distance simply burns energy and can even open extraction space. Both players therefore fight primarily over hip positioning, using leg pressure only to preserve the distance they have already won."
+      "answer": "The submissions and reversals available from Leg Knot all depend on the angle between the two players' centerlines, and that angle is governed by how close or far the hips sit relative to each other. When hips are pulled tight and correctly angled, the entangling player can load the knee line and expose the heel; when hips drift apart, slack appears and the trapped leg can be extracted. Squeezing the legs harder without correcting hip distance simply burns energy and can even open extraction space. Both players therefore fight primarily over hip positioning, using leg pressure only to preserve the distance they have already won.",
+      "answer_line": "Hip distance sets the angle",
+      "distractors": {
+        "plausible": [
+          "Squeezing legs harder wins control",
+          "Foot position matters most"
+        ],
+        "trap": [
+          "Ignore hips, just crank pressure"
+        ]
+      }
     },
     {
       "question": "What role does the knee line play in determining who is winning the Leg Knot exchange?",
-      "answer": "The knee line is the imaginary boundary at the knee that separates a defensible entanglement from a compromised one, and controlling which side of it the entangled leg sits on decides heel exposure. Whichever player keeps their own knee pointed inward and their opponent's knee crossed past the line gains access to inside heel-hook and Saddle mechanics. Because both players are entangled at once, the knee-line battle runs in both directions simultaneously, so a momentary lapse can flip the advantage. This is why maintaining inside knee position is a shared priority regardless of whether you are the nominal top or bottom player."
+      "answer": "The knee line is the imaginary boundary at the knee that separates a defensible entanglement from a compromised one, and controlling which side of it the entangled leg sits on decides heel exposure. Whichever player keeps their own knee pointed inward and their opponent's knee crossed past the line gains access to inside heel-hook and Saddle mechanics. Because both players are entangled at once, the knee-line battle runs in both directions simultaneously, so a momentary lapse can flip the advantage. This is why maintaining inside knee position is a shared priority regardless of whether you are the nominal top or bottom player.",
+      "answer_line": "Controls heel exposure risk",
+      "distractors": {
+        "plausible": [
+          "Only matters for the top player",
+          "Decides who gets back control"
+        ],
+        "trap": [
+          "Let your knee cross the line"
+        ]
+      }
     },
     {
       "question": "How does heel and foot orientation govern the submission danger present for both grapplers in Leg Knot?",
-      "answer": "A heel becomes vulnerable to a heel hook only when it is exposed and rotatable relative to the entangling player's control, so foot orientation is a continuous defensive dial for whoever's leg is trapped. Pointing the toes toward the opponent's hip and keeping the heel hidden against your own body denies the rotational leverage the finish requires. Because the legs are mutually woven, each player must simultaneously hunt for the opponent's exposed heel while concealing their own. This two-way heel management is a defining shared dynamic of the configuration and a constant tension neither side can ignore."
+      "answer": "A heel becomes vulnerable to a heel hook only when it is exposed and rotatable relative to the entangling player's control, so foot orientation is a continuous defensive dial for whoever's leg is trapped. Pointing the toes toward the opponent's hip and keeping the heel hidden against your own body denies the rotational leverage the finish requires. Because the legs are mutually woven, each player must simultaneously hunt for the opponent's exposed heel while concealing their own. This two-way heel management is a defining shared dynamic of the configuration and a constant tension neither side can ignore.",
+      "answer_line": "Hide heel, point toes at hip",
+      "distractors": {
+        "plausible": [
+          "Point toes away for leverage",
+          "Only the top player must hide heel"
+        ],
+        "trap": [
+          "Expose heel to rotate free"
+        ]
+      }
     },
     {
       "question": "What makes Leg Knot inherently transitional rather than a position either player can comfortably stall in?",
-      "answer": "Neither grappler holds a locked, dominant inside entanglement, so the control is unstable and constantly shifting as hips, knees, and feet adjust against each other. Any slack introduced by fatigue or hesitation immediately hands the other player an extraction or reversal window, meaning the configuration decays if it is not actively worked. The mutual threat of heel hooks and kneebars pressures both players to resolve the knot quickly rather than settle in. Consequently the position rewards decisiveness: consolidate toward a dominant entanglement like Saddle or extract to safety, because holding a true stalemate is mechanically impossible."
+      "answer": "Neither grappler holds a locked, dominant inside entanglement, so the control is unstable and constantly shifting as hips, knees, and feet adjust against each other. Any slack introduced by fatigue or hesitation immediately hands the other player an extraction or reversal window, meaning the configuration decays if it is not actively worked. The mutual threat of heel hooks and kneebars pressures both players to resolve the knot quickly rather than settle in. Consequently the position rewards decisiveness: consolidate toward a dominant entanglement like Saddle or extract to safety, because holding a true stalemate is mechanically impossible.",
+      "answer_line": "Unstable — decays if not worked",
+      "distractors": {
+        "plausible": [
+          "Can be held indefinitely",
+          "Favors whoever stalls longest"
+        ],
+        "trap": [
+          "Sit still and wait it out"
+        ]
+      }
     },
     {
       "question": "How does Leg Knot differ from the Saddle and from 50-50 in terms of control symmetry?",
@@ -736,11 +946,31 @@
     },
     {
       "question": "Why does the free leg function as a decisive tool for whichever grappler can deploy it from Leg Knot?",
-      "answer": "Because so much of both players' lower bodies is committed to the weave, the leg that remains free becomes the primary lever for framing, pushing, and changing angles. The player who can use their free leg to post on the opponent's hip can create the distance needed either to extract the trapped leg or to prevent the opponent from consolidating a dominant angle. Conversely, controlling or nullifying the opponent's free leg removes their main engine for escape and reversal. This makes the free leg a contested shared asset whose deployment often tips a Leg Knot exchange one way or the other."
+      "answer": "Because so much of both players' lower bodies is committed to the weave, the leg that remains free becomes the primary lever for framing, pushing, and changing angles. The player who can use their free leg to post on the opponent's hip can create the distance needed either to extract the trapped leg or to prevent the opponent from consolidating a dominant angle. Conversely, controlling or nullifying the opponent's free leg removes their main engine for escape and reversal. This makes the free leg a contested shared asset whose deployment often tips a Leg Knot exchange one way or the other.",
+      "answer_line": "Free leg is the key lever",
+      "distractors": {
+        "plausible": [
+          "Free leg is mostly irrelevant",
+          "Only useful for kicking distance"
+        ],
+        "trap": [
+          "Ignore the free leg entirely"
+        ]
+      }
     },
     {
       "question": "What underlying reason forces both Leg Knot players to move systematically rather than thrash explosively?",
-      "answer": "The knot is held together by interlocking friction and angle, and explosive thrashing tends to tighten those interlocks or feed the opponent momentum they can redirect into a submission. Sudden extension of a trapped leg, in particular, can walk the knee across the line and hand the opponent the exact heel exposure they need. Systematic, sequenced movement lets a player address the highest-priority threat first and open the entanglement in the correct order rather than worsening it. Because this logic applies symmetrically to both grapplers, controlled progression is a shared mechanical requirement of the position rather than merely a stylistic preference."
+      "answer": "The knot is held together by interlocking friction and angle, and explosive thrashing tends to tighten those interlocks or feed the opponent momentum they can redirect into a submission. Sudden extension of a trapped leg, in particular, can walk the knee across the line and hand the opponent the exact heel exposure they need. Systematic, sequenced movement lets a player address the highest-priority threat first and open the entanglement in the correct order rather than worsening it. Because this logic applies symmetrically to both grapplers, controlled progression is a shared mechanical requirement of the position rather than merely a stylistic preference.",
+      "answer_line": "Thrashing tightens the entanglement",
+      "distractors": {
+        "plausible": [
+          "Only the top player must be careful",
+          "Speed always beats technique here"
+        ],
+        "trap": [
+          "Explode movements to escape faster"
+        ]
+      }
     }
   ],
   "clips": [

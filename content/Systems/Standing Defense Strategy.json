@@ -367,39 +367,129 @@
   "flashcards": [
     {
       "question": "What are the three core pillars of the Standing Defense Strategy?",
-      "answer": "Distance management, base maintenance, and reactive positioning. Together they let you defend at optimal range, resist takedowns mechanically, and respond to the opponent's movement before a shot fully develops."
+      "answer": "Distance management, base maintenance, and reactive positioning. Together they let you defend at optimal range, resist takedowns mechanically, and respond to the opponent's movement before a shot fully develops.",
+      "answer_line": "Distance, base, reactive position",
+      "distractors": {
+        "plausible": [
+          "Strength, base, aggression",
+          "Speed, grips, pressure"
+        ],
+        "trap": [
+          "Attack, attack, attack"
+        ]
+      }
     },
     {
       "question": "What is the correct sprawl reaction when an opponent shoots for a double leg?",
-      "answer": "Recognize the level change, then explosively drive your hips back and down while keeping your chest up, projecting your weight onto the opponent's shoulders, and secure a crossface or whizzer to stop them from coming up."
+      "answer": "Recognize the level change, then explosively drive your hips back and down while keeping your chest up, projecting your weight onto the opponent's shoulders, and secure a crossface or whizzer to stop them from coming up.",
+      "answer_line": "Sprawl hips back, chest up",
+      "distractors": {
+        "plausible": [
+          "Sit down, pull head in",
+          "Step back and circle away"
+        ],
+        "trap": [
+          "Turtle up, give the back"
+        ]
+      }
     },
     {
       "question": "Why is proactive grip fighting preferred over reactive grip breaking?",
-      "answer": "Waiting until the opponent settles a grip lets them launch their takedown setup first. Constant hand fighting denies the dominant sleeve, collar, or body-lock grips they need, keeping you a step ahead of their attacks."
+      "answer": "Waiting until the opponent settles a grip lets them launch their takedown setup first. Constant hand fighting denies the dominant sleeve, collar, or body-lock grips they need, keeping you a step ahead of their attacks.",
+      "answer_line": "Fight grips first, not after",
+      "distractors": {
+        "plausible": [
+          "Break grips after they land",
+          "Match grips, mirror theirs"
+        ],
+        "trap": [
+          "Let them grip, then explode"
+        ]
+      }
     },
     {
       "question": "What are the three engagement distances a practitioner must recognize?",
-      "answer": "Out of range (safe, no contact), engagement range (hand fighting where grips are contested), and the danger zone (close enough that the opponent can shoot). Knowing which you are in dictates whether to circle, fight grips, or sprawl."
+      "answer": "Out of range (safe, no contact), engagement range (hand fighting where grips are contested), and the danger zone (close enough that the opponent can shoot). Knowing which you are in dictates whether to circle, fight grips, or sprawl.",
+      "answer_line": "Out of range, engage, danger zone",
+      "distractors": {
+        "plausible": [
+          "Long, medium, close striking range",
+          "Standing, clinch, ground range"
+        ],
+        "trap": [
+          "Ignore distance, close in fast"
+        ]
+      }
     },
     {
       "question": "How does widening your base improve takedown resistance?",
-      "answer": "A wider stance with bent knees lowers your center of gravity, making it mechanically harder for the opponent to off-balance you or drive through your hips — the structural basis of single- and double-leg defense."
+      "answer": "A wider stance with bent knees lowers your center of gravity, making it mechanically harder for the opponent to off-balance you or drive through your hips — the structural basis of single- and double-leg defense.",
+      "answer_line": "Lower center of gravity",
+      "distractors": {
+        "plausible": [
+          "Narrow stance, quick feet",
+          "Lean back, straighten legs"
+        ],
+        "trap": [
+          "Stand tall, square hips"
+        ]
+      }
     },
     {
       "question": "When is pulling guard tactically superior to continuing standing defense?",
-      "answer": "When the opponent's wrestling outclasses your standing defense, your guard is stronger than your takedown game, or the rule set and score favor it. Pull guard as a deliberate plan, not a panic reaction to pressure."
+      "answer": "When the opponent's wrestling outclasses your standing defense, your guard is stronger than your takedown game, or the rule set and score favor it. Pull guard as a deliberate plan, not a panic reaction to pressure.",
+      "answer_line": "When wrestling outclasses you",
+      "distractors": {
+        "plausible": [
+          "Whenever you feel tired",
+          "Anytime opponent shoots"
+        ],
+        "trap": [
+          "Never, always sprawl"
+        ]
+      }
     },
     {
       "question": "What is a common base error that makes takedowns easier, and how do you fix it?",
-      "answer": "Standing too upright with a high center of gravity. Fix it by drilling a stance with bent knees and a slight forward lean from the hips, and use video to catch the moments you rise during exchanges."
+      "answer": "Standing too upright with a high center of gravity. Fix it by drilling a stance with bent knees and a slight forward lean from the hips, and use video to catch the moments you rise during exchanges.",
+      "answer_line": "Upright stance; bend knees",
+      "distractors": {
+        "plausible": [
+          "Feet too wide, narrow them",
+          "Hands too low, raise guard"
+        ],
+        "trap": [
+          "Lean back to avoid shots"
+        ]
+      }
     },
     {
       "question": "What counter-offensive options open up after a successful sprawl?",
-      "answer": "From the sprawl you can transition to front headlock control, attack a guillotine or arm-in choke, snap the opponent down, or take the back, since their failed shot leaves them exposed and bent over."
+      "answer": "From the sprawl you can transition to front headlock control, attack a guillotine or arm-in choke, snap the opponent down, or take the back, since their failed shot leaves them exposed and bent over.",
+      "answer_line": "Front headlock, guillotine, back",
+      "distractors": {
+        "plausible": [
+          "Reset to neutral standing",
+          "Push away and circle out"
+        ],
+        "trap": [
+          "Let them stand back up"
+        ]
+      }
     },
     {
       "question": "How should you use footwork to control engagement distance?",
-      "answer": "Circle away from the opponent's strong side using small shuffle steps without crossing your feet, use angles to create escape paths, and stay aware of mat boundaries so you are not driven into a vulnerable position."
+      "answer": "Circle away from the opponent's strong side using small shuffle steps without crossing your feet, use angles to create escape paths, and stay aware of mat boundaries so you are not driven into a vulnerable position.",
+      "answer_line": "Circle away, small shuffle steps",
+      "distractors": {
+        "plausible": [
+          "Cross-step to close distance",
+          "Backpedal straight in retreat"
+        ],
+        "trap": [
+          "Plant feet, stand and trade"
+        ]
+      }
     }
   ]
 }

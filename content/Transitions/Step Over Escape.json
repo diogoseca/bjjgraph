@@ -244,7 +244,17 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Step Over Escape from Darce Control?",
-        "answer": "The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the Darce grip by rotating perpendicular to the line of choking force."
+        "answer": "The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the Darce grip by rotating perpendicular to the line of choking force.",
+        "answer_line": "Change angle, relieve compression",
+        "distractors": {
+          "plausible": [
+            "Muscle the arm out first",
+            "Bridge straight up and out"
+          ],
+          "trap": [
+            "Pull head down to loosen grip"
+          ]
+        }
       },
       {
         "question": "Which leg do you step over with, and why is using the wrong leg a critical error?",
@@ -252,7 +262,17 @@
       },
       {
         "question": "Your opponent sprawls their hips back when you attempt the step over, preventing your leg from clearing. How do you adjust?",
-        "answer": "If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three Darce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll."
+        "answer": "If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three Darce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll.",
+        "answer_line": "Abort, flow into Back Door Escape",
+        "distractors": {
+          "plausible": [
+            "Push harder through the sprawl",
+            "Reset and re-bridge same way"
+          ],
+          "trap": [
+            "Force the leg over anyway"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing window for initiating the Step Over Escape?",
@@ -260,11 +280,31 @@
       },
       {
         "question": "What role does the hip bridge play in the Step Over Escape?",
-        "answer": "The hip bridge serves two critical functions. First, it creates the elevation needed for the far leg to arc over the opponent's head, without the bridge the leg lacks sufficient height to clear. Second, the bridge generates the initial momentum for the full body rotation that follows, connecting the leg swing to the hip turn that ultimately breaks the choke angle. The bridge must be explosive and coordinated with the leg swing as a single integrated motion."
+        "answer": "The hip bridge serves two critical functions. First, it creates the elevation needed for the far leg to arc over the opponent's head, without the bridge the leg lacks sufficient height to clear. Second, the bridge generates the initial momentum for the full body rotation that follows, connecting the leg swing to the hip turn that ultimately breaks the choke angle. The bridge must be explosive and coordinated with the leg swing as a single integrated motion.",
+        "answer_line": "Elevates leg, powers the rotation",
+        "distractors": {
+          "plausible": [
+            "Only creates space to breathe",
+            "Just a distraction motion"
+          ],
+          "trap": [
+            "Bridge sideways away from head"
+          ]
+        }
       },
       {
         "question": "What grip and frame must you establish with your free hand before initiating the step over?",
-        "answer": "Your free hand must frame firmly on the opponent's far hip or ribcage before initiating the step over. This frame serves as both a barrier and a pivot point: it prevents the opponent from following your rotation and chasing the choke angle, and it gives you a fixed point to push against during the rotation. Without this frame, the opponent can simply rotate with you and maintain the choke throughout the escape attempt."
+        "answer": "Your free hand must frame firmly on the opponent's far hip or ribcage before initiating the step over. This frame serves as both a barrier and a pivot point: it prevents the opponent from following your rotation and chasing the choke angle, and it gives you a fixed point to push against during the rotation. Without this frame, the opponent can simply rotate with you and maintain the choke throughout the escape attempt.",
+        "answer_line": "Frame far hip or ribcage first",
+        "distractors": {
+          "plausible": [
+            "Grip their choking wrist first",
+            "Frame on their near shoulder"
+          ],
+          "trap": [
+            "Push off the mat instead"
+          ]
+        }
       },
       {
         "question": "Your opponent begins tightening the Darce and walking their hips to the other side as you initiate the step over. What adjustment do you make?",
@@ -272,11 +312,31 @@
       },
       {
         "question": "Why must you keep your chin tucked throughout the entire step over sequence?",
-        "answer": "The chin tuck is the primary defense preventing the choke from reaching full depth during the escape. The step over requires several seconds of coordinated movement during which the Darce grip is still active. If you lift your chin to look where your leg is going or out of habit, you expose the front of your neck and allow the choking arm to slide deeper against the carotid arteries. This can result in unconsciousness during what should be an escape. Trust the movement pattern and feel the position rather than watching it."
+        "answer": "The chin tuck is the primary defense preventing the choke from reaching full depth during the escape. The step over requires several seconds of coordinated movement during which the Darce grip is still active. If you lift your chin to look where your leg is going or out of habit, you expose the front of your neck and allow the choking arm to slide deeper against the carotid arteries. This can result in unconsciousness during what should be an escape. Trust the movement pattern and feel the position rather than watching it.",
+        "answer_line": "Tucked chin blocks choke depth",
+        "distractors": {
+          "plausible": [
+            "Watch your foot placement",
+            "Tuck only at the very start"
+          ],
+          "trap": [
+            "Lift chin to see the leg clear"
+          ]
+        }
       },
       {
         "question": "After successfully stepping over and breaking the choke, what should your immediate next action be?",
-        "answer": "Immediately establish open guard by placing both feet on the opponent's hips and framing with hands on their shoulders or biceps. Do not pause in a neutral scramble position or celebrate the escape. The opponent will immediately attempt to advance to side control, mount, or re-establish a front headlock. The technique is not complete until you have established a defensible guard position with proper frames and distance control."
+        "answer": "Immediately establish open guard by placing both feet on the opponent's hips and framing with hands on their shoulders or biceps. Do not pause in a neutral scramble position or celebrate the escape. The opponent will immediately attempt to advance to side control, mount, or re-establish a front headlock. The technique is not complete until you have established a defensible guard position with proper frames and distance control.",
+        "answer_line": "Establish open guard immediately",
+        "distractors": {
+          "plausible": [
+            "Pause and reset breathing first",
+            "Stand up to create distance"
+          ],
+          "trap": [
+            "Celebrate the escape briefly"
+          ]
+        }
       },
       {
         "question": "How does the Step Over Escape complement the Back Door Escape and Counter Roll in a chained escape sequence?",
@@ -401,15 +461,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating a Step Over Escape rather than a Back Door Escape?",
-        "answer": "The key differentiator is body rotation direction. A step over begins with the bottom player turning into you and bridging upward, directing force toward your head. A Back Door Escape begins with movement away from you, retreating behind your body. The preparatory hip frame on your far hip and the upward bridge are the earliest cues that a step over is coming, as the Back Door Escape does not require hip elevation or a frame on your hip."
+        "answer": "The key differentiator is body rotation direction. A step over begins with the bottom player turning into you and bridging upward, directing force toward your head. A Back Door Escape begins with movement away from you, retreating behind your body. The preparatory hip frame on your far hip and the upward bridge are the earliest cues that a step over is coming, as the Back Door Escape does not require hip elevation or a frame on your hip.",
+        "answer_line": "Turning in and bridging upward",
+        "distractors": {
+          "plausible": [
+            "Any hip movement at all",
+            "Grabbing your far wrist"
+          ],
+          "trap": [
+            "Retreating movement away from you"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully swings their far leg over your head but has not yet completed the rotation or extracted their trapped arm. What is your highest-percentage response?",
-        "answer": "Immediately chase the rotation by walking your hips in the same direction as their step over, keeping your chest connected to their back and your elbows pinched tight on the Darce grip. The step over only works if the angle change relieves choking pressure, but if you follow the rotation you maintain the perpendicular finishing angle. You must move quickly because once they plant the stepping leg as a wedge and begin the full hip rotation, the window to chase closes within two to three seconds."
+        "answer": "Immediately chase the rotation by walking your hips in the same direction as their step over, keeping your chest connected to their back and your elbows pinched tight on the Darce grip. The step over only works if the angle change relieves choking pressure, but if you follow the rotation you maintain the perpendicular finishing angle. You must move quickly because once they plant the stepping leg as a wedge and begin the full hip rotation, the window to chase closes within two to three seconds.",
+        "answer_line": "Chase rotation, keep chest connected",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Push their leg back over"
+          ],
+          "trap": [
+            "Sit back and hold current angle"
+          ]
+        }
       },
       {
         "question": "How should you position your head and shoulders to make the Step Over Escape maximally difficult for the bottom player?",
-        "answer": "Drive your shoulder into the side of their head rather than their shoulder, keeping your own head elevated relative to their hips. This positioning forces the stepping leg to travel a much longer arc to clear over your head, requiring more bridge height and more precise timing from the escaping player. Additionally, the shoulder-into-head pressure flattens them more effectively, reducing the hip mobility they need for the preparatory bridge. Your weight should project forward and downward through the shoulder rather than sitting back on your hips."
+        "answer": "Drive your shoulder into the side of their head rather than their shoulder, keeping your own head elevated relative to their hips. This positioning forces the stepping leg to travel a much longer arc to clear over your head, requiring more bridge height and more precise timing from the escaping player. Additionally, the shoulder-into-head pressure flattens them more effectively, reducing the hip mobility they need for the preparatory bridge. Your weight should project forward and downward through the shoulder rather than sitting back on your hips.",
+        "answer_line": "Drive shoulder into their head",
+        "distractors": {
+          "plausible": [
+            "Sit back on your hips more",
+            "Drive shoulder into their chest"
+          ],
+          "trap": [
+            "Lower your head beside theirs"
+          ]
+        }
       },
       {
         "question": "When is it correct to release the Darce grip and transition to a new position rather than continuing to fight the step over?",
@@ -417,7 +507,17 @@
       },
       {
         "question": "Your opponent posts their free hand on your far hip as a frame while you have Darce control. Why is this an urgent threat and how do you address it?",
-        "answer": "The hip frame is the foundational setup for the step over escape because it serves as both a barrier preventing you from following the rotation and a pivot point the escaping player pushes against during the leg swing. Without this frame, the step over cannot generate the separation needed to change the choke angle. Address it immediately by peeling their hand off your hip with your free hand, collapsing the frame by driving your hip into their posting arm, or shifting your hip position so they cannot establish a solid contact point. Never allow the hip frame to persist while you focus on tightening the choke."
+        "answer": "The hip frame is the foundational setup for the step over escape because it serves as both a barrier preventing you from following the rotation and a pivot point the escaping player pushes against during the leg swing. Without this frame, the step over cannot generate the separation needed to change the choke angle. Address it immediately by peeling their hand off your hip with your free hand, collapsing the frame by driving your hip into their posting arm, or shifting your hip position so they cannot establish a solid contact point. Never allow the hip frame to persist while you focus on tightening the choke.",
+        "answer_line": "Peel the hand, collapse the frame",
+        "distractors": {
+          "plausible": [
+            "Ignore it, tighten the choke",
+            "Grab their frame hand and hold"
+          ],
+          "trap": [
+            "Let frame stay, focus on finish"
+          ]
+        }
       }
     ],
     "training_progressions": [

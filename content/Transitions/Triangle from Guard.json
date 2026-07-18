@@ -420,7 +420,17 @@
       },
       {
         "question": "What are the three defensive timelines you must manage simultaneously when the triangle entry begins from Mission Control?",
-        "answer": "The three defensive timelines are: first, prevent the leg from crossing the face entirely by driving forward with stacking pressure and turning the head; second, if the leg crosses, prevent the figure-four lock by maintaining shoulder width and head position that creates structural resistance against the closing legs; third, if the lock establishes, prevent the angle cut by controlling the bottom player's hips and squaring your alignment to their centerline. Each timeline has progressively worse odds of escape, making the first timeline the highest priority defensive action."
+        "answer": "The three defensive timelines are: first, prevent the leg from crossing the face entirely by driving forward with stacking pressure and turning the head; second, if the leg crosses, prevent the figure-four lock by maintaining shoulder width and head position that creates structural resistance against the closing legs; third, if the lock establishes, prevent the angle cut by controlling the bottom player's hips and squaring your alignment to their centerline. Each timeline has progressively worse odds of escape, making the first timeline the highest priority defensive action.",
+        "answer_line": "Stop leg, stop lock, stop the angle",
+        "distractors": {
+          "plausible": [
+            "Stop lock, stop angle, stop choke",
+            "Stop leg, stop choke, stop sweep"
+          ],
+          "trap": [
+            "Only worry about the angle cut"
+          ]
+        }
       },
       {
         "question": "The bottom player has locked the triangle but has not yet cut the angle. What is your highest-priority defensive action and why?",

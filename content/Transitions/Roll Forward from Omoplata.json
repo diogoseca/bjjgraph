@@ -252,43 +252,143 @@
     "flashcards": [
       {
         "question": "Your opponent posts their free hand wide on the mat while you have omoplata control - is this the right time to attempt the roll forward?",
-        "answer": "Yes, a wide post is an excellent trigger for the roll forward. When the opponent posts their free hand wide, their base is committed to one direction and they cannot easily retract it to counter the roll. Ensure your belt grip is secure before initiating. The wide post means their defensive hand is occupied with maintaining base rather than available to block your hip drive. Drive your hips forward explosively while pulling on the belt grip to initiate the roll before they can adjust their posting hand."
+        "answer": "Yes, a wide post is an excellent trigger for the roll forward. When the opponent posts their free hand wide, their base is committed to one direction and they cannot easily retract it to counter the roll. Ensure your belt grip is secure before initiating. The wide post means their defensive hand is occupied with maintaining base rather than available to block your hip drive. Drive your hips forward explosively while pulling on the belt grip to initiate the roll before they can adjust their posting hand.",
+        "answer_line": "Yes, drive hips now",
+        "distractors": {
+          "plausible": [
+            "Yes, but strip grip first",
+            "No, wait for full extension"
+          ],
+          "trap": [
+            "No, retreat to guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip for controlling the direction of the forward roll?",
-        "answer": "The belt or hip grip is the most critical control point. This grip serves as your steering mechanism, determining whether you land in tight side control or end up in a loose scramble. Without this grip, the roll becomes uncontrolled momentum that the opponent can redirect or separate from. Secure the grip deep on the belt at hip level or grab the far pants leg near the hip, and pull it toward you throughout the entire rolling motion to keep the opponent's body connected to yours during the transition."
+        "answer": "The belt or hip grip is the most critical control point. This grip serves as your steering mechanism, determining whether you land in tight side control or end up in a loose scramble. Without this grip, the roll becomes uncontrolled momentum that the opponent can redirect or separate from. Secure the grip deep on the belt at hip level or grab the far pants leg near the hip, and pull it toward you throughout the entire rolling motion to keep the opponent's body connected to yours during the transition.",
+        "answer_line": "Belt/hip grip for steering",
+        "distractors": {
+          "plausible": [
+            "Collar grip for control",
+            "Sleeve grip on trapped arm"
+          ],
+          "trap": [
+            "No grip needed, just roll"
+          ]
+        }
       },
       {
         "question": "What hip movement initiates the forward roll from omoplata control?",
-        "answer": "The roll is initiated by driving your hips explosively forward and upward toward the opponent's trapped shoulder. The power comes from your hip flexors and core, not from pulling with your arms or upper body. Think of it as thrusting your hips over the opponent's shoulder using the trapped arm as a pivot point. Your free leg pushes off the mat to generate additional forward momentum. The hip drive should be one explosive committed motion rather than a gradual push that gives the opponent time to react."
+        "answer": "The roll is initiated by driving your hips explosively forward and upward toward the opponent's trapped shoulder. The power comes from your hip flexors and core, not from pulling with your arms or upper body. Think of it as thrusting your hips over the opponent's shoulder using the trapped arm as a pivot point. Your free leg pushes off the mat to generate additional forward momentum. The hip drive should be one explosive committed motion rather than a gradual push that gives the opponent time to react.",
+        "answer_line": "Explosive hip drive forward",
+        "distractors": {
+          "plausible": [
+            "Pull with arms and shoulders",
+            "Gradual steady push"
+          ],
+          "trap": [
+            "Yank the trapped arm hard"
+          ]
+        }
       },
       {
         "question": "What happens if you lose the omoplata grip during the roll - how do you salvage the position?",
-        "answer": "If the omoplata leg slips off during the roll, immediately focus on completing the positional advancement rather than trying to re-establish the shoulder lock mid-transition. Continue the rolling momentum and establish chest pressure on the opponent. Even without the omoplata, completing the roll puts you in top position. Transition immediately to establishing standard side control grips: crossface and hip control. The positional advancement from bottom to top is still valuable even without maintaining the submission threat on the shoulder."
+        "answer": "If the omoplata leg slips off during the roll, immediately focus on completing the positional advancement rather than trying to re-establish the shoulder lock mid-transition. Continue the rolling momentum and establish chest pressure on the opponent. Even without the omoplata, completing the roll puts you in top position. Transition immediately to establishing standard side control grips: crossface and hip control. The positional advancement from bottom to top is still valuable even without maintaining the submission threat on the shoulder.",
+        "answer_line": "Finish roll, take side control",
+        "distractors": {
+          "plausible": [
+            "Stop, re-secure the leg lock",
+            "Abort and reset guard"
+          ],
+          "trap": [
+            "Chase the arm, ignore position"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from recovering guard as you complete the roll and land on top?",
-        "answer": "Immediate consolidation is the key. As you land from the roll, your weight must instantly settle on the opponent's chest in a perpendicular orientation. Release the omoplata leg configuration quickly and establish crossface pressure before the opponent can insert a knee or create a frame. The belt grip you maintained throughout the roll prevents them from creating separation distance. Block their near hip with your hand to prevent knee insertion and settle your hips low against their body. Speed of transition from roll landing to established side control determines whether the sweep results in a dominant position."
+        "answer": "Immediate consolidation is the key. As you land from the roll, your weight must instantly settle on the opponent's chest in a perpendicular orientation. Release the omoplata leg configuration quickly and establish crossface pressure before the opponent can insert a knee or create a frame. The belt grip you maintained throughout the roll prevents them from creating separation distance. Block their near hip with your hand to prevent knee insertion and settle your hips low against their body. Speed of transition from roll landing to established side control determines whether the sweep results in a dominant position.",
+        "answer_line": "Instant crossface, block hip",
+        "distractors": {
+          "plausible": [
+            "Sit back and stabilize first",
+            "Secure both legs before pressure"
+          ],
+          "trap": [
+            "Release belt grip to adjust"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by tucking their elbow tight and refusing to extend their arm - how does this affect the roll forward?",
-        "answer": "When the opponent tucks their elbow, the omoplata submission becomes less effective, but the roll forward actually becomes more viable. Their tucked elbow means they are not posting with that arm, which reduces their base significantly. Additionally, the defensive arm position typically shifts their weight forward as they curl inward, playing directly into the forward roll mechanics. Use their tucked-arm defensive posture as the trigger to execute the roll, as their compromised base makes the sweep higher percentage even though the shoulder lock finish itself is well defended."
+        "answer": "When the opponent tucks their elbow, the omoplata submission becomes less effective, but the roll forward actually becomes more viable. Their tucked elbow means they are not posting with that arm, which reduces their base significantly. Additionally, the defensive arm position typically shifts their weight forward as they curl inward, playing directly into the forward roll mechanics. Use their tucked-arm defensive posture as the trigger to execute the roll, as their compromised base makes the sweep higher percentage even though the shoulder lock finish itself is well defended.",
+        "answer_line": "Compromised base, roll higher %",
+        "distractors": {
+          "plausible": [
+            "Submission still best option",
+            "Wait for arm to extend again"
+          ],
+          "trap": [
+            "Abandon attack, arm is safe"
+          ]
+        }
       },
       {
         "question": "When should you choose the roll forward over the standard omoplata finish or the back take?",
-        "answer": "Choose the roll forward when the opponent has strong posture defense that prevents the submission finish but their base is compromised forward or sideways. If they successfully prevent shoulder rotation by posting and framing, the roll converts their defensive structure into the mechanism for the sweep. Choose the submission finish when you have deep shoulder rotation and the opponent cannot posture. Choose the back take when the opponent turns away or attempts to create distance laterally. The three options form a complete dilemma system where each defensive reaction to one attack opens the other two."
+        "answer": "Choose the roll forward when the opponent has strong posture defense that prevents the submission finish but their base is compromised forward or sideways. If they successfully prevent shoulder rotation by posting and framing, the roll converts their defensive structure into the mechanism for the sweep. Choose the submission finish when you have deep shoulder rotation and the opponent cannot posture. Choose the back take when the opponent turns away or attempts to create distance laterally. The three options form a complete dilemma system where each defensive reaction to one attack opens the other two.",
+        "answer_line": "Base compromised, posture strong",
+        "distractors": {
+          "plausible": [
+            "Always finish the submission",
+            "Always take the back instead"
+          ],
+          "trap": [
+            "Release control, reset position"
+          ]
+        }
       },
       {
         "question": "What is the biggest difference between executing the roll when you initiate it versus following the opponent's forward roll escape attempt?",
-        "answer": "When you initiate the roll, you must generate all momentum through your hip drive and belt grip pull. This requires more explosive effort but gives you complete control over timing and direction of the roll. When following the opponent's escape roll, you use their momentum, which requires less energy but demands faster reaction time and the ability to maintain control during their initiated movement. The key technical difference is that when following their roll, you must keep your shin pressure across their back even tighter because their rolling motion naturally creates separation space. In both cases, the belt grip remains essential for steering into proper side control position upon landing."
+        "answer": "When you initiate the roll, you must generate all momentum through your hip drive and belt grip pull. This requires more explosive effort but gives you complete control over timing and direction of the roll. When following the opponent's escape roll, you use their momentum, which requires less energy but demands faster reaction time and the ability to maintain control during their initiated movement. The key technical difference is that when following their roll, you must keep your shin pressure across their back even tighter because their rolling motion naturally creates separation space. In both cases, the belt grip remains essential for steering into proper side control position upon landing.",
+        "answer_line": "Following needs tighter shin",
+        "distractors": {
+          "plausible": [
+            "Following needs stronger grip",
+            "Initiating needs less power"
+          ],
+          "trap": [
+            "Following, release shin pressure"
+          ]
+        }
       },
       {
         "question": "How does the roll forward execution differ in no-gi compared to gi?",
-        "answer": "The primary difference is grip selection. In gi, the belt grip at the hip provides the strongest steering control and is the preferred option. In no-gi, you must substitute with a seatbelt grip around the waist, a grip on the far hip bone, or an overhook around the waist. The no-gi grips are inherently less secure, so you must compensate by maintaining tighter hip-to-shoulder proximity throughout the roll and executing with more explosive commitment since you cannot rely on the grip to keep the opponent connected during a slower transition. The shin pressure across the back becomes even more critical in no-gi because the steering grip alone cannot prevent separation."
+        "answer": "The primary difference is grip selection. In gi, the belt grip at the hip provides the strongest steering control and is the preferred option. In no-gi, you must substitute with a seatbelt grip around the waist, a grip on the far hip bone, or an overhook around the waist. The no-gi grips are inherently less secure, so you must compensate by maintaining tighter hip-to-shoulder proximity throughout the roll and executing with more explosive commitment since you cannot rely on the grip to keep the opponent connected during a slower transition. The shin pressure across the back becomes even more critical in no-gi because the steering grip alone cannot prevent separation.",
+        "answer_line": "No-gi: seatbelt or hip grip",
+        "distractors": {
+          "plausible": [
+            "No-gi: rely on sleeve grip",
+            "No-gi: same belt grip works"
+          ],
+          "trap": [
+            "No-gi: skip the grip entirely"
+          ]
+        }
       },
       {
         "question": "Your opponent posts with both hands on the mat in front of them while you have omoplata control - what opportunity does this create?",
-        "answer": "A double post is one of the best triggers for the roll forward. Both hands on the mat means the opponent has committed their entire upper body structure to base, leaving zero hands available for grip fighting or blocking your hip drive. Their forward weight distribution from the double post plays directly into the roll mechanics. Secure your belt grip immediately if not already established, then drive your hips forward explosively. The opponent cannot strip your grip, block your momentum, or adjust their base without lifting a hand and compromising their stability. The double post also means their weight is already shifted forward, reducing the force you need to generate to complete the roll."
+        "answer": "A double post is one of the best triggers for the roll forward. Both hands on the mat means the opponent has committed their entire upper body structure to base, leaving zero hands available for grip fighting or blocking your hip drive. Their forward weight distribution from the double post plays directly into the roll mechanics. Secure your belt grip immediately if not already established, then drive your hips forward explosively. The opponent cannot strip your grip, block your momentum, or adjust their base without lifting a hand and compromising their stability. The double post also means their weight is already shifted forward, reducing the force you need to generate to complete the roll.",
+        "answer_line": "Best trigger, hands committed",
+        "distractors": {
+          "plausible": [
+            "Wait, hands could grip fight",
+            "Neutral, no real advantage"
+          ],
+          "trap": [
+            "Retreat, they're setting a base"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Roll Forward from Omoplata involves continued shoulder joint pressure during a dynamic rolling motion. The trapped shoulder remains under rotational stress throughout the transition, and the combination of momentum and joint manipulation can hyperextend the shoulder before the defender can signal a tap. During training, execute the roll at controlled speed and release shoulder pressure immediately if your partner taps or signals discomfort at any point during the movement. Avoid explosive full-speed rolls with unfamiliar training partners. Communicate intensity expectations before drilling and build speed gradually as both partners become comfortable with the technique.",
@@ -398,19 +498,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt the roll forward rather than the omoplata finish?",
-        "answer": "The earliest cue is the opponent shifting their grip from controlling your wrist or sleeve toward your belt or hip. The omoplata finish requires wrist control and lateral hip rotation, while the roll forward requires a belt grip for steering and forward hip drive. Additionally, you will feel the opponent's hips driving forward toward your shoulder rather than rotating away from you. The hip direction tells you their intent: forward drive means sweep, lateral rotation means submission finish."
+        "answer": "The earliest cue is the opponent shifting their grip from controlling your wrist or sleeve toward your belt or hip. The omoplata finish requires wrist control and lateral hip rotation, while the roll forward requires a belt grip for steering and forward hip drive. Additionally, you will feel the opponent's hips driving forward toward your shoulder rather than rotating away from you. The hip direction tells you their intent: forward drive means sweep, lateral rotation means submission finish.",
+        "answer_line": "Grip shifts to belt, hips forward",
+        "distractors": {
+          "plausible": [
+            "Opponent tightens wrist grip",
+            "Hips rotate laterally away"
+          ],
+          "trap": [
+            "They release all grips first"
+          ]
+        }
       },
       {
         "question": "You feel your opponent securing a belt grip - should you prioritize stripping the grip or reinforcing your base?",
-        "answer": "Prioritize stripping the grip if it is not yet fully secured, as preventing the steering grip eliminates the roll technique entirely. However, if the grip is already deep and secure, switching to base reinforcement with a wide post and hip sprawl is the safer option. A half-committed grip strip that fails leaves you with neither grip defense nor base, which is the worst possible scenario. Make a quick decision: strip early or base wide, but never get caught in between the two responses."
+        "answer": "Prioritize stripping the grip if it is not yet fully secured, as preventing the steering grip eliminates the roll technique entirely. However, if the grip is already deep and secure, switching to base reinforcement with a wide post and hip sprawl is the safer option. A half-committed grip strip that fails leaves you with neither grip defense nor base, which is the worst possible scenario. Make a quick decision: strip early or base wide, but never get caught in between the two responses.",
+        "answer_line": "Strip early or base wide, not both",
+        "distractors": {
+          "plausible": [
+            "Always strip, grip fight hard",
+            "Always base wide immediately"
+          ],
+          "trap": [
+            "Half-commit strip then base"
+          ]
+        }
       },
       {
         "question": "How does defending the roll forward affect your vulnerability to the standard omoplata finish?",
-        "answer": "There is a direct trade-off between the two defenses that creates the dilemma system. Sprawling your hips back and posting wide to resist the roll can increase the rotational angle on your trapped shoulder, making the omoplata finish more effective. Conversely, tucking your elbow and driving forward to defend the submission gives the opponent the forward momentum they need for the roll. The key is maintaining a neutral position that addresses both threats: hip positioning should be lateral rather than purely forward or backward, and your free arm must serve dual purpose as both posting base and grip-fighting tool."
+        "answer": "There is a direct trade-off between the two defenses that creates the dilemma system. Sprawling your hips back and posting wide to resist the roll can increase the rotational angle on your trapped shoulder, making the omoplata finish more effective. Conversely, tucking your elbow and driving forward to defend the submission gives the opponent the forward momentum they need for the roll. The key is maintaining a neutral position that addresses both threats: hip positioning should be lateral rather than purely forward or backward, and your free arm must serve dual purpose as both posting base and grip-fighting tool.",
+        "answer_line": "Stay neutral, lateral hips",
+        "distractors": {
+          "plausible": [
+            "Sprawl wide to stop the roll",
+            "Tuck elbow, drive forward"
+          ],
+          "trap": [
+            "Post hard, ignore submission"
+          ]
+        }
       },
       {
         "question": "Your opponent has initiated the roll and your base is failing - what is your best damage control option?",
-        "answer": "If the roll is succeeding and you cannot stop it, immediately shift your focus from preventing the sweep to recovering guard as quickly as possible after landing. As you go over, tuck your elbows tight and prepare to insert a knee between your bodies the moment you land. Keep your far elbow close to your body to prevent the crossface and begin hip escaping immediately upon landing. Accepting the sweep but recovering half guard right away is far better than fighting a lost cause and ending up in a fully controlled side control position where the opponent has settled their weight."
+        "answer": "If the roll is succeeding and you cannot stop it, immediately shift your focus from preventing the sweep to recovering guard as quickly as possible after landing. As you go over, tuck your elbows tight and prepare to insert a knee between your bodies the moment you land. Keep your far elbow close to your body to prevent the crossface and begin hip escaping immediately upon landing. Accepting the sweep but recovering half guard right away is far better than fighting a lost cause and ending up in a fully controlled side control position where the opponent has settled their weight.",
+        "answer_line": "Accept sweep, recover half guard",
+        "distractors": {
+          "plausible": [
+            "Fight the sweep to the end",
+            "Post hard, prevent landing"
+          ],
+          "trap": [
+            "Turtle to escape entirely"
+          ]
+        }
       }
     ],
     "training_progressions": [

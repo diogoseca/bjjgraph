@@ -306,52 +306,152 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke from Harness primarily target?",
         "answer": "The RNC targets both carotid arteries simultaneously using bilateral compression. The blade of the wrist (radius bone) compresses one carotid artery while the bicep of the choking arm compresses the other. This restricts blood flow to the brain, causing unconsciousness within 6-10 seconds of a properly applied choke. The trachea should not be compressed - the crook of the elbow is centered under the chin to create a pocket that protects the windpipe.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids via wrist + bicep",
+        "distractors": {
+          "plausible": [
+            "Windpipe compression cuts air",
+            "Only one carotid artery"
+          ],
+          "trap": [
+            "Center forearm on trachea"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong two-on-one grip on your choking arm wrist preventing any advancement - what grip-breaking strategy do you employ?",
         "answer": "Use your free hand to peel their top grip starting with the pinky finger and peeling outward. Alternatively, swim your underhook hand over their defending forearm to strip their grip from above. A third option is the push-pull method where you push their defending elbow away with your free hand while simultaneously pulling the choking arm forward. If grip fighting stalls, threaten an armbar on their extended defending arm to create a choke-versus-armbar dilemma that forces them to release.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel pinky, or swim underhook",
+        "distractors": {
+          "plausible": [
+            "Yank the arm straight back",
+            "Pull with choking arm only"
+          ],
+          "trap": [
+            "Release grip, re-shoot for arm"
+          ]
+        }
       },
       {
         "question": "What is the correct forearm placement to ensure a blood choke rather than an air choke?",
         "answer": "The blade of the wrist (the bony edge of the radius) should contact one carotid artery while the bicep contacts the other. The crook of the elbow must be centered directly under the chin, creating a V-shaped pocket around the trachea that avoids windpipe compression. If you feel your forearm bone pressing against the front of the throat, you are on the trachea and must adjust laterally. The forearm should angle slightly so the radius targets the side of the neck, not the front.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist blade + crook under chin",
+        "distractors": {
+          "plausible": [
+            "Forearm flat against throat",
+            "Bicep centered on trachea"
+          ],
+          "trap": [
+            "Press bone into windpipe"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly to their chest and you cannot slide the forearm under - how do you clear this barrier?",
         "answer": "Three primary methods exist. First, use your free hand to cup the forehead and gently tilt the head backward to create space under the chin. Second, walk the choking forearm across the face from ear to chin, using the jawline as a ramp to slide underneath. Third, apply the choke over the chin - the jawbone acts as a painful lever that pressures the opponent into lifting their chin voluntarily. Avoid cranking the neck sideways, which risks cervical spine injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tilt head back, or ramp via jaw",
+        "distractors": {
+          "plausible": [
+            "Pry chin down harder",
+            "Push chin sideways to open"
+          ],
+          "trap": [
+            "Crank neck sideways to open"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before initiating the choke transition from harness?",
         "answer": "Five elements must be confirmed: tight seatbelt grip with hands clasped high on the chest near the collarbone, at least one hook inserted with instep controlling the inner thigh, chest pressed firmly against the opponent's back with forward pressure through the core, head positioned safely to the choking arm side behind the opponent's ear, and assessment of the opponent's hand positioning to determine whether they are defending the neck or fighting hooks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seatbelt, hook, chest, head safe",
+        "distractors": {
+          "plausible": [
+            "Just hooks in, arms free",
+            "Chest pressure only"
+          ],
+          "trap": [
+            "Release seatbelt to free hand"
+          ]
+        }
       },
       {
         "question": "You have the choking arm under the chin but cannot lock the figure-four because the opponent is blocking your support hand - what finishing alternative exists?",
         "answer": "Apply the short choke variation by using your free hand to push the back of the opponent's head forward into the choking forearm rather than locking a figure-four. Alternatively, use a palm-to-palm grip with the choking arm under the chin and both hands clasped together, squeezing by pulling toward your chest while expanding. Both alternatives sacrifice mechanical efficiency but can produce a tap when the standard figure-four is unavailable due to active hand defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Short choke: push head into arm",
+        "distractors": {
+          "plausible": [
+            "Force the figure-four lock",
+            "Grab own shoulder instead"
+          ],
+          "trap": [
+            "Let go and re-grip slower"
+          ]
+        }
       },
       {
         "question": "What is the proper application speed for the Rear Naked Choke in training and what are the risks of applying it too quickly?",
         "answer": "Apply the squeeze slowly and progressively over 3-5 seconds minimum in training. Never snap or jerk the choke tight. Rapid application risks carotid artery injury, trachea damage if alignment is imperfect, and cervical spine strain from sudden force. The partner must have full awareness of building pressure to respond with a timely tap. In training, treat every choke as if the partner might not feel it immediately and always prioritize their safety over the finish.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Squeeze slow, 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Slow build over 10 seconds",
+            "Moderate speed, no rush needed"
+          ],
+          "trap": [
+            "Snap it tight instantly"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when your partner taps to the Rear Naked Choke?",
         "answer": "Release the choking arm instantly upon any tap signal, including verbal taps, physical hand or foot taps, and any distress sounds. Remove hooks and disengage body contact. Guide the partner to a side-lying position and monitor their consciousness and breathing for at least 30 seconds. If the partner lost consciousness, keep them lying down with legs slightly elevated until they are fully alert and oriented. Never allow an unconscious partner to stand immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, side-lying",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, then release",
+            "Release grip, let them sit up"
+          ],
+          "trap": [
+            "Hold a beat to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning their body toward your choking arm side while you have the arm partially advanced - how do you adjust?",
         "answer": "Follow the turn by adjusting your hook position and maintaining chest-to-back contact. Use the underhook arm to block their hip rotation by pulling their far hip toward you. Drive your top hook deeper to prevent further rotation. If they commit fully to the turn, capitalize by advancing the choking arm during the movement since their defensive hands may shift to assist the turn. Alternatively, transition to mounted triangle or crucifix if the turn exposes their arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow turn, block hip, deepen hook",
+        "distractors": {
+          "plausible": [
+            "Pull choking arm back to reset",
+            "Switch chest to their far side"
+          ],
+          "trap": [
+            "Release hooks, let them turn"
+          ]
+        }
       },
       {
         "question": "What distinguishes the point of no escape in the RNC finishing sequence?",
         "answer": "The point of no escape occurs when the figure-four lock is fully secured with the choking forearm under the chin, the free hand grabbing the bicep, and the lock hand behind the head. Once all three connection points are established and the elbows begin closing together, the bilateral carotid compression makes escape virtually impossible through hand fighting alone. Before this point, the opponent can still strip grips or create space. After the lock, only a dramatic positional escape like a forward roll has any chance of success.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, elbows closing",
+        "distractors": {
+          "plausible": [
+            "Choking arm just under chin",
+            "Seatbelt grip fully secured"
+          ],
+          "trap": [
+            "They stop struggling entirely"
+          ]
+        }
       }
     ],
     "clips": [
@@ -474,27 +574,77 @@
       {
         "question": "How do you recognize that the Rear Naked Choke from Harness is being initiated?",
         "answer": "Key recognition cues include the opponent's over-the-shoulder arm beginning to slide from the chest toward the jawline, the opponent releasing their harness grip lock to free the choking hand, increased chest pressure and head positioning changes, and the opponent's free hand starting to strip your defensive grips on the choking wrist. Early recognition before the arm passes the collarbone is critical for successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm slides toward jaw, grip shifts",
+        "distractors": {
+          "plausible": [
+            "Hooks tighten around legs",
+            "Increased knee pressure on hip"
+          ],
+          "trap": [
+            "Wait until arm passes collar"
+          ]
+        }
       },
       {
         "question": "What is the correct priority sequence when defending the Rear Naked Choke from Harness?",
         "answer": "The priority sequence is: first, establish two-on-one grip control on the choking arm to prevent it from reaching the neck. Second, protect the neck with chin tuck and shoulder elevation as a secondary barrier. Third, prevent or remove hooks to restore lower body mobility. Fourth, create angles through hip escape and turn toward the underhook side to disrupt the attacker's alignment. Fifth, complete the escape to guard or turtle. Never skip steps or address a lower priority before securing the higher ones.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grips, neck, hooks, angle, escape",
+        "distractors": {
+          "plausible": [
+            "Neck defense before grip fighting",
+            "Escape hooks before grip control"
+          ],
+          "trap": [
+            "Turn away from underhook side"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Rear Naked Choke and what is the safest way to signal submission?",
         "answer": "Tap immediately once the figure-four lock is secured and the squeeze begins producing bilateral carotid pressure. Do not wait for vision changes or lightheadedness. Signal with a clear physical tap on the opponent's arm or body using multiple rapid taps, or verbally say 'tap' loudly. If your hands are trapped, use foot taps on the mat. A properly locked RNC produces unconsciousness within 6-10 seconds, so the window for tapping is narrow once the choke is fully applied.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap the moment squeeze locks in",
+        "distractors": {
+          "plausible": [
+            "Tap once vision starts fading",
+            "Wait for lightheaded feeling"
+          ],
+          "trap": [
+            "Try to fight through it first"
+          ]
+        }
       },
       {
         "question": "What escape options remain if the choking arm is already partially under your chin?",
         "answer": "Immediately grab the choking wrist with both hands and pull it below your chin while simultaneously tucking your chin hard to trap the forearm against your jawline. Turn your chin toward the inside of the choking elbow to create space and reduce compression. If the arm continues advancing, fight the lock hand by preventing it from connecting to the bicep. As a last resort, attempt an explosive turn toward the underhook side to create enough rotational force to dislodge the choking arm before the figure-four locks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull wrist down, tuck chin hard",
+        "distractors": {
+          "plausible": [
+            "Push elbow away from neck",
+            "Turn chin away from elbow"
+          ],
+          "trap": [
+            "Roll away from underhook side"
+          ]
+        }
       },
       {
         "question": "How does proper body positioning reduce the effectiveness of the attacker's choke attempt?",
         "answer": "Maintaining a slightly rounded posture with shoulders curled forward reduces the space available for the choking arm to slide under the chin. Turning slightly toward the underhook side disrupts the attacker's bilateral alignment and makes the seatbelt less structurally effective. Keeping hips low and heavy on the mat reduces the attacker's leverage from their hooks. Elevating the shoulder on the choking side creates a physical shelf that blocks forearm entry. These positioning details compound to make the choke significantly harder to execute.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Curl shoulders, turn underhook",
+        "distractors": {
+          "plausible": [
+            "Arch back, chest out",
+            "Keep hips high and mobile"
+          ],
+          "trap": [
+            "Turn toward choking arm side"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -257,11 +257,31 @@
       },
       {
         "question": "How does the shoulder function as a fulcrum in the Peruvian Necktie choking mechanism?",
-        "answer": "The opponent's own shoulder blade is wedged against the side of their neck, pressing into the carotid artery. When you pull their head tight to your chest with the choking arm, their shoulder acts as a hard surface that the soft tissue of their neck is compressed against. This creates the blood choke by restricting blood flow to the brain. The unique geometry of this setup means opponent's body structure contributes to their own submission."
+        "answer": "The opponent's own shoulder blade is wedged against the side of their neck, pressing into the carotid artery. When you pull their head tight to your chest with the choking arm, their shoulder acts as a hard surface that the soft tissue of their neck is compressed against. This creates the blood choke by restricting blood flow to the brain. The unique geometry of this setup means opponent's body structure contributes to their own submission.",
+        "answer_line": "Own shoulder presses carotid artery",
+        "distractors": {
+          "plausible": [
+            "Shoulder blocks their breathing path",
+            "Shoulder pins the choking arm"
+          ],
+          "trap": [
+            "Shoulder is just for balance"
+          ]
+        }
       },
       {
         "question": "What should you do if opponent begins to roll through your legs during the setup?",
-        "answer": "Use their rolling momentum to your advantage by transitioning to back control or mounted triangle position. Maintain your grips and allow the roll to complete while you adjust your leg positioning to establish hooks or mount. The key is not fighting against their roll but rather flowing with it to a better position. If you resist the roll, you'll likely lose the position entirely, but flowing with it maintains your offensive advantage."
+        "answer": "Use their rolling momentum to your advantage by transitioning to back control or mounted triangle position. Maintain your grips and allow the roll to complete while you adjust your leg positioning to establish hooks or mount. The key is not fighting against their roll but rather flowing with it to a better position. If you resist the roll, you'll likely lose the position entirely, but flowing with it maintains your offensive advantage.",
+        "answer_line": "Flow with roll to back or mount",
+        "distractors": {
+          "plausible": [
+            "Post out and reset the overhook",
+            "Sit back to guard immediately"
+          ],
+          "trap": [
+            "Fight the roll to keep grips"
+          ]
+        }
       },
       {
         "question": "Why is the Peruvian Necktie considered more effective in no-gi than gi competition?",
@@ -269,11 +289,31 @@
       },
       {
         "question": "What is the primary difference between the Peruvian Necktie and the Japanese Necktie?",
-        "answer": "The primary difference is the threading angle of the choking arm. In the Peruvian Necktie, the arm threads underneath the opponent's armpit (using an overhook), while in the Japanese Necktie, the arm threads over the opponent's shoulder from the opposite side. Both create a necktie-style choke using the shoulder as a fulcrum, but the entry mechanics and optimal timing windows differ. The Peruvian variation is generally considered easier to enter from traditional front headlock positions."
+        "answer": "The primary difference is the threading angle of the choking arm. In the Peruvian Necktie, the arm threads underneath the opponent's armpit (using an overhook), while in the Japanese Necktie, the arm threads over the opponent's shoulder from the opposite side. Both create a necktie-style choke using the shoulder as a fulcrum, but the entry mechanics and optimal timing windows differ. The Peruvian variation is generally considered easier to enter from traditional front headlock positions.",
+        "answer_line": "Peruvian threads under the armpit",
+        "distractors": {
+          "plausible": [
+            "Peruvian needs no leg triangle",
+            "Japanese uses no shoulder fulcrum"
+          ],
+          "trap": [
+            "Peruvian threads over the shoulder"
+          ]
+        }
       },
       {
         "question": "What hip movement is most critical when applying finishing pressure in the Peruvian Necktie?",
-        "answer": "Arching your hips upward and forward while maintaining the leg triangle lock creates the finishing pressure. This hip extension drives your chest into opponent's head while simultaneously pushing their shoulder more firmly against their neck via the choking arm. The combination of hip drive, leg squeeze, and pulling their head toward your chest creates multi-directional pressure that makes the choke extremely difficult to defend once locked in."
+        "answer": "Arching your hips upward and forward while maintaining the leg triangle lock creates the finishing pressure. This hip extension drives your chest into opponent's head while simultaneously pushing their shoulder more firmly against their neck via the choking arm. The combination of hip drive, leg squeeze, and pulling their head toward your chest creates multi-directional pressure that makes the choke extremely difficult to defend once locked in.",
+        "answer_line": "Arch hips up and forward",
+        "distractors": {
+          "plausible": [
+            "Rotate hips laterally away",
+            "Drop hips flat to the mat"
+          ],
+          "trap": [
+            "Pull hips back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls backward as you drop to your hip - how do you adjust?",
@@ -285,7 +325,17 @@
       },
       {
         "question": "What is the correct leg triangle configuration once you've threaded underneath opponent?",
-        "answer": "Your outside leg (the one that threads through first) hooks over your inside leg's ankle or shin, creating a figure-four or triangle lock around opponent's torso at approximately hip level. Squeeze your knees together and flex the hooking ankle to tighten the configuration. This leg triangle prevents opponent from rolling through, backing out, or turning laterally. The tightness of this lock determines whether you can control the position long enough to apply finishing pressure."
+        "answer": "Your outside leg (the one that threads through first) hooks over your inside leg's ankle or shin, creating a figure-four or triangle lock around opponent's torso at approximately hip level. Squeeze your knees together and flex the hooking ankle to tighten the configuration. This leg triangle prevents opponent from rolling through, backing out, or turning laterally. The tightness of this lock determines whether you can control the position long enough to apply finishing pressure.",
+        "answer_line": "Hook ankle over shin, squeeze knees",
+        "distractors": {
+          "plausible": [
+            "Cross ankles behind their back",
+            "Stack both knees on their spine"
+          ],
+          "trap": [
+            "Lock feet without hooking ankle"
+          ]
+        }
       },
       {
         "question": "If your opponent successfully clears the overhook, what chain attacks remain available?",
@@ -293,7 +343,17 @@
       },
       {
         "question": "How does the direction of choking force differ from a standard guillotine?",
-        "answer": "In a standard guillotine, force is applied by pulling the head downward while driving hips into opponent's throat, creating compression between forearm and chest. In the Peruvian Necktie, force comes from pulling the head toward your chest while the opponent's own shoulder creates the compression point against their neck. The choking pressure is lateral (from the side) rather than anterior (from the front), and your hip extension drives their body forward into their own shoulder rather than into your body."
+        "answer": "In a standard guillotine, force is applied by pulling the head downward while driving hips into opponent's throat, creating compression between forearm and chest. In the Peruvian Necktie, force comes from pulling the head toward your chest while the opponent's own shoulder creates the compression point against their neck. The choking pressure is lateral (from the side) rather than anterior (from the front), and your hip extension drives their body forward into their own shoulder rather than into your body.",
+        "answer_line": "Lateral force via their own shoulder",
+        "distractors": {
+          "plausible": [
+            "Same downward force, different arm",
+            "Force comes from hip pressure only"
+          ],
+          "trap": [
+            "Force pushes forward into your chest"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if applied with full force. Practice this technique with controlled pressure and clear communication with training partners. Always tap immediately when caught in this position as the choking mechanism tightens quickly due to the shoulder fulcrum. When applying the technique, release pressure immediately upon feeling a tap or verbal submission. During drilling phases, focus on position achievement rather than finishing the choke. Be especially cautious during the inversion phase as rapid movements can strain neck muscles or cause dizziness. Partners with neck injuries should avoid this technique entirely. The leg threading motion can also create torque on the knee if executed incorrectly, so maintain proper leg alignment throughout. Always practice under qualified supervision, particularly during initial learning phases.",
@@ -419,7 +479,17 @@
       },
       {
         "question": "You feel your near arm being trapped under your opponent's armpit - what is your immediate response?",
-        "answer": "Immediately pull your arm down and across your body to strip it free from the overhook before it can be fully secured. Use your free hand to push against opponent's hip or shoulder to create separation while you extract the arm. Simultaneously begin circling away from the choking side to create an angle that makes the overhook harder to maintain. Speed is critical because once the overhook is fully locked and opponent drops to their hip, arm extraction becomes exponentially harder. If the arm comes free, immediately return to active turtle defense with elbows tight."
+        "answer": "Immediately pull your arm down and across your body to strip it free from the overhook before it can be fully secured. Use your free hand to push against opponent's hip or shoulder to create separation while you extract the arm. Simultaneously begin circling away from the choking side to create an angle that makes the overhook harder to maintain. Speed is critical because once the overhook is fully locked and opponent drops to their hip, arm extraction becomes exponentially harder. If the arm comes free, immediately return to active turtle defense with elbows tight.",
+        "answer_line": "Strip arm free, circle away fast",
+        "distractors": {
+          "plausible": [
+            "Push their head down hard",
+            "Post both hands and wait"
+          ],
+          "trap": [
+            "Pull the arm in tighter to block"
+          ]
+        }
       },
       {
         "question": "Why is lateral movement more effective than pulling straight backward when defending the Peruvian Necktie?",
@@ -427,7 +497,17 @@
       },
       {
         "question": "Your opponent has dropped to their hip and is beginning to thread their leg - what options remain?",
-        "answer": "Your primary option is to sit through toward the attacker's side, using their compromised base during the inversion to create a scramble. Their weight is shifting underneath you, which temporarily reduces their control. Turn your hips and drive through to recover half guard or closed guard. A secondary option is to sprawl your hips backward explosively to prevent the leg from completing the thread. If the leg is already partially through, you can attempt to roll with their momentum to end up in a top scramble position. At this phase, acting immediately is critical because once the triangle locks, your defensive options narrow to a last-resort grip defense."
+        "answer": "Your primary option is to sit through toward the attacker's side, using their compromised base during the inversion to create a scramble. Their weight is shifting underneath you, which temporarily reduces their control. Turn your hips and drive through to recover half guard or closed guard. A secondary option is to sprawl your hips backward explosively to prevent the leg from completing the thread. If the leg is already partially through, you can attempt to roll with their momentum to end up in a top scramble position. At this phase, acting immediately is critical because once the triangle locks, your defensive options narrow to a last-resort grip defense.",
+        "answer_line": "Sit through toward their side fast",
+        "distractors": {
+          "plausible": [
+            "Wait for the triangle then defend",
+            "Turn away to protect your neck"
+          ],
+          "trap": [
+            "Pull back to flatten your hips"
+          ]
+        }
       },
       {
         "question": "What follow-up attacks should you expect if you successfully extract your arm from the overhook?",

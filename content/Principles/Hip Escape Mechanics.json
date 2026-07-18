@@ -438,39 +438,129 @@
     },
     {
       "question": "Why must you bridge before rotating your hips during an escape?",
-      "answer": "Bridging momentarily unweights the hips so rotation can generate meaningful distance; rotating under full pressure produces little movement, wastes energy, and lets the opponent simply follow you to maintain control."
+      "answer": "Bridging momentarily unweights the hips so rotation can generate meaningful distance; rotating under full pressure produces little movement, wastes energy, and lets the opponent simply follow you to maintain control.",
+      "answer_line": "Unweights hips for rotation",
+      "distractors": {
+        "plausible": [
+          "Bridging alone creates the escape",
+          "Rotating first saves more energy"
+        ],
+        "trap": [
+          "Skip bridge, rotate under pressure"
+        ]
+      }
     },
     {
       "question": "Should your hips escape toward the opponent's head or toward their legs?",
-      "answer": "Toward the opponent's legs, or perpendicular to their centerline. This creates angles that force them to rotate their whole body to chase you, rather than just shifting pressure to recover control."
+      "answer": "Toward the opponent's legs, or perpendicular to their centerline. This creates angles that force them to rotate their whole body to chase you, rather than just shifting pressure to recover control.",
+      "answer_line": "Toward the legs, perpendicular",
+      "distractors": {
+        "plausible": [
+          "Toward the head for angle",
+          "Straight back, away from opponent"
+        ],
+        "trap": [
+          "Toward opponent's head directly"
+        ]
+      }
     },
     {
       "question": "Why are multiple small hip escapes usually more effective than one large escape?",
-      "answer": "Small incremental escapes are hard to anticipate or counter and accumulate distance progressively while conserving energy, whereas one big movement is easily read and stuffed by a resistant opponent."
+      "answer": "Small incremental escapes are hard to anticipate or counter and accumulate distance progressively while conserving energy, whereas one big movement is easily read and stuffed by a resistant opponent.",
+      "answer_line": "Hard to read, save energy",
+      "distractors": {
+        "plausible": [
+          "One big escape is more reliable",
+          "Small escapes build stronger frames"
+        ],
+        "trap": [
+          "One explosive escape beats them"
+        ]
+      }
     },
     {
       "question": "What role do frames play within hip escape mechanics?",
-      "answer": "Frames are rigid skeletal structures (forearms, shins, knees) that preserve the space created by bridging and rotation; if they collapse, the opponent's pressure recovers unopposed and all progress is lost."
+      "answer": "Frames are rigid skeletal structures (forearms, shins, knees) that preserve the space created by bridging and rotation; if they collapse, the opponent's pressure recovers unopposed and all progress is lost.",
+      "answer_line": "Preserve space bridging creates",
+      "distractors": {
+        "plausible": [
+          "Frames generate the initial space",
+          "Frames replace need to bridge"
+        ],
+        "trap": [
+          "Let frames collapse, rebridge"
+        ]
+      }
     },
     {
       "question": "When is the best moment to initiate a hip escape against a heavy opponent?",
-      "answer": "During the opponent's weight transitions, when they shift position, adjust grips, or move between control points, because their base is momentarily compromised and far less strength is required to move."
+      "answer": "During the opponent's weight transitions, when they shift position, adjust grips, or move between control points, because their base is momentarily compromised and far less strength is required to move.",
+      "answer_line": "During opponent's weight shifts",
+      "distractors": {
+        "plausible": [
+          "When they settle heaviest pressure",
+          "Right after they secure grips"
+        ],
+        "trap": [
+          "Wait until fully mounted and set"
+        ]
+      }
     },
     {
       "question": "What common error causes hard-won space to disappear immediately?",
-      "answer": "Letting the frames collapse during the hip movement, or creating space but failing to recover guard decisively, which allows the opponent to re-pressure before the legs are reinserted."
+      "answer": "Letting the frames collapse during the hip movement, or creating space but failing to recover guard decisively, which allows the opponent to re-pressure before the legs are reinserted.",
+      "answer_line": "Frames collapse mid-motion",
+      "distractors": {
+        "plausible": [
+          "Escaping too many small steps",
+          "Bridging with too much force"
+        ],
+        "trap": [
+          "Recovering guard too quickly"
+        ]
+      }
     },
     {
       "question": "How does hip escape mechanics link defense to offense?",
-      "answer": "The angles and space produced by a successful hip escape often set up sweeps and reversals, so the same mechanics that recover guard can chain directly into offensive kuzushi and attacks."
+      "answer": "The angles and space produced by a successful hip escape often set up sweeps and reversals, so the same mechanics that recover guard can chain directly into offensive kuzushi and attacks.",
+      "answer_line": "Space creates sweeps, offense",
+      "distractors": {
+        "plausible": [
+          "Escapes are purely defensive tools",
+          "Frames alone create offense"
+        ],
+        "trap": [
+          "Abandon position to attack legs"
+        ]
+      }
     },
     {
       "question": "What should you do the instant you have created enough space?",
-      "answer": "Transition immediately from escaping to guard construction by inserting a knee shield or hooks and establishing grips, rather than continuing to shrimp, so the space converts into a stable recovered position."
+      "answer": "Transition immediately from escaping to guard construction by inserting a knee shield or hooks and establishing grips, rather than continuing to shrimp, so the space converts into a stable recovered position.",
+      "answer_line": "Insert knee shield, build guard",
+      "distractors": {
+        "plausible": [
+          "Keep shrimping for more space",
+          "Immediately attack a submission"
+        ],
+        "trap": [
+          "Release frames to grab collar"
+        ]
+      }
     },
     {
       "question": "What distinguishes hip escape mechanics from a single position-specific escape technique?",
-      "answer": "It is a transferable bridge-frame-rotate-recover movement system underlying many escapes, not one technique; the same mechanics apply from mount, side control, knee-on-belly, north-south, and more."
+      "answer": "It is a transferable bridge-frame-rotate-recover movement system underlying many escapes, not one technique; the same mechanics apply from mount, side control, knee-on-belly, north-south, and more.",
+      "answer_line": "Transferable system, many escapes",
+      "distractors": {
+        "plausible": [
+          "Works only from side control",
+          "A single named escape technique"
+        ],
+        "trap": [
+          "Only applies to guard recovery"
+        ]
+      }
     }
   ],
   "clips": [

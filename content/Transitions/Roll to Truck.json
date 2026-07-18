@@ -245,43 +245,143 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that initiates the Roll to Truck transition?",
-        "answer": "The trigger is recognizing the opponent's commitment to granby roll escape or defensive rotation away from buggy choke pressure. This is felt through their hip movement away from you combined with shoulder dipping toward the mat. The roll should only be initiated after this commitment is clear, never forced on a static opponent."
+        "answer": "The trigger is recognizing the opponent's commitment to granby roll escape or defensive rotation away from buggy choke pressure. This is felt through their hip movement away from you combined with shoulder dipping toward the mat. The roll should only be initiated after this commitment is clear, never forced on a static opponent.",
+        "answer_line": "Hips rotate, shoulder dips away",
+        "distractors": {
+          "plausible": [
+            "Opponent squares back to base",
+            "Any movement while in turtle"
+          ],
+          "trap": [
+            "Roll on a stationary opponent"
+          ]
+        }
       },
       {
         "question": "What is the most critical control point to establish immediately upon completing the roll?",
-        "answer": "Boot control (foot placed firmly against opponent's hip) is the most critical point to establish immediately. The boot creates the torque that defines the truck position and prevents all standard escape movements. Without boot pressure, the opponent can easily roll through or straighten out to escape the entanglement."
+        "answer": "Boot control (foot placed firmly against opponent's hip) is the most critical point to establish immediately. The boot creates the torque that defines the truck position and prevents all standard escape movements. Without boot pressure, the opponent can easily roll through or straighten out to escape the entanglement.",
+        "answer_line": "Establish boot on their hip",
+        "distractors": {
+          "plausible": [
+            "Secure leg entanglement first",
+            "Grab a tight collar grip"
+          ],
+          "trap": [
+            "Release grips to reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far arm during the roll to prevent being flattened—how do you respond?",
-        "answer": "The posted arm creates an opportunity for crucifix entry by trapping the extended arm with your legs while maintaining upper body control. Alternatively, if the posting creates an angle toward you, transition to darce choke setup. The key is recognizing the posted arm as an opportunity rather than an obstacle to the roll."
+        "answer": "The posted arm creates an opportunity for crucifix entry by trapping the extended arm with your legs while maintaining upper body control. Alternatively, if the posting creates an angle toward you, transition to darce choke setup. The key is recognizing the posted arm as an opportunity rather than an obstacle to the roll.",
+        "answer_line": "Trap posted arm for crucifix",
+        "distractors": {
+          "plausible": [
+            "Force through the roll anyway",
+            "Switch immediately to darce"
+          ],
+          "trap": [
+            "Release grip to free their arm"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the entire rolling motion and why?",
-        "answer": "In gi, maintain your collar grip established during buggy choke. In no-gi, maintain the underhook or neck control. This grip must not be released during the roll as it prevents opponent separation and ensures upper body control upon reaching truck position. Using hands for balance instead of maintaining grip is a common error that allows escape."
+        "answer": "In gi, maintain your collar grip established during buggy choke. In no-gi, maintain the underhook or neck control. This grip must not be released during the roll as it prevents opponent separation and ensures upper body control upon reaching truck position. Using hands for balance instead of maintaining grip is a common error that allows escape.",
+        "answer_line": "Keep collar/underhook grip locked",
+        "distractors": {
+          "plausible": [
+            "Use hands to balance instead",
+            "Switch grips mid-roll for control"
+          ],
+          "trap": [
+            "Release grip to speed up roll"
+          ]
+        }
       },
       {
         "question": "How does the Roll to Truck differ from forcing a truck entry on a static opponent?",
-        "answer": "Roll to Truck is a reactive transition that utilizes the opponent's own escape momentum rather than forcing entry against a static defender. Attempting to roll a non-moving opponent typically fails because there is no momentum to harness. The technique requires patience to create buggy choke pressure that forces reaction, then capitalizes on that predictable defensive movement."
+        "answer": "Roll to Truck is a reactive transition that utilizes the opponent's own escape momentum rather than forcing entry against a static defender. Attempting to roll a non-moving opponent typically fails because there is no momentum to harness. The technique requires patience to create buggy choke pressure that forces reaction, then capitalizes on that predictable defensive movement.",
+        "answer_line": "Reacts to opponent's own momentum",
+        "distractors": {
+          "plausible": [
+            "Works equally well when static",
+            "Requires faster reaction time only"
+          ],
+          "trap": [
+            "Force truck on a static opponent"
+          ]
+        }
       },
       {
         "question": "Your opponent accelerates their granby roll and escapes before you establish truck—what went wrong?",
-        "answer": "This typically indicates insufficient hip-to-hip connection before initiating the roll, or releasing upper body control during the transition. Prevention requires driving your hip tight against theirs as the pivot point before rolling, and never releasing your collar or underhook grip regardless of how the roll develops. Following their momentum faster and maintaining chest-to-back contact throughout also helps."
+        "answer": "This typically indicates insufficient hip-to-hip connection before initiating the roll, or releasing upper body control during the transition. Prevention requires driving your hip tight against theirs as the pivot point before rolling, and never releasing your collar or underhook grip regardless of how the roll develops. Following their momentum faster and maintaining chest-to-back contact throughout also helps.",
+        "answer_line": "Lost hip connection or grip",
+        "distractors": {
+          "plausible": [
+            "Opponent was simply too strong",
+            "Rolled too slowly to keep pace"
+          ],
+          "trap": [
+            "Let go of grips to chase faster"
+          ]
+        }
       },
       {
         "question": "What are the primary submissions available after successfully completing Roll to Truck?",
-        "answer": "The primary submissions are the twister (spinal lock attacking cervical spine rotation), calf slicer (attacking trapped leg's knee joint through compression), and banana split (groin stretch through leg separation). In gi, bow and arrow choke is also available. The position also offers constant transition opportunity to traditional back control with hooks for rear naked choke."
+        "answer": "The primary submissions are the twister (spinal lock attacking cervical spine rotation), calf slicer (attacking trapped leg's knee joint through compression), and banana split (groin stretch through leg separation). In gi, bow and arrow choke is also available. The position also offers constant transition opportunity to traditional back control with hooks for rear naked choke.",
+        "answer_line": "Twister, calf slicer, banana split",
+        "distractors": {
+          "plausible": [
+            "Armbar and kimura from truck",
+            "Rear naked choke immediately"
+          ],
+          "trap": [
+            "Attempt a guillotine choke"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Roll to Truck attempt and return to buggy choke or other attacks?",
-        "answer": "Abandon the attempt when opponent stops their rotation midway and returns to turtle defense, when they successfully clear hip connection before the roll begins, or when you feel loss of upper body control that cannot be recovered during the roll. Forcing a failed roll risks losing position entirely. Return to buggy choke pressure or reset to turtle top attacks."
+        "answer": "Abandon the attempt when opponent stops their rotation midway and returns to turtle defense, when they successfully clear hip connection before the roll begins, or when you feel loss of upper body control that cannot be recovered during the roll. Forcing a failed roll risks losing position entirely. Return to buggy choke pressure or reset to turtle top attacks.",
+        "answer_line": "Loss of hip connection or control",
+        "distractors": {
+          "plausible": [
+            "Only after multiple failed tries",
+            "When opponent slows down briefly"
+          ],
+          "trap": [
+            "Force the roll to finish anyway"
+          ]
+        }
       },
       {
         "question": "Your opponent clears your hip connection just as you begin rolling—what is the correct response?",
-        "answer": "Immediately abort the roll and re-establish buggy choke pressure from turtle top. Without hip connection, the roll will result in separation and loss of position. Use your chest weight to drive back into their turtle, re-establish grips, and apply choking pressure to force another defensive reaction. Do not continue a roll without the hip pivot point."
+        "answer": "Immediately abort the roll and re-establish buggy choke pressure from turtle top. Without hip connection, the roll will result in separation and loss of position. Use your chest weight to drive back into their turtle, re-establish grips, and apply choking pressure to force another defensive reaction. Do not continue a roll without the hip pivot point.",
+        "answer_line": "Abort roll, reset buggy choke",
+        "distractors": {
+          "plausible": [
+            "Continue roll without hips",
+            "Switch grips and keep rolling"
+          ],
+          "trap": [
+            "Force the roll through anyway"
+          ]
+        }
       },
       {
         "question": "How do you establish proper leg entanglement during the rolling motion?",
-        "answer": "During the latter half of the roll, thread your near leg between opponent's legs to establish a figure-four or lockdown configuration on their bottom leg. Your top leg positions for boot control on their hip. The entanglement must be achieved during the roll's momentum—attempting to establish it after stopping is much more difficult as the opponent can straighten their legs defensively."
+        "answer": "During the latter half of the roll, thread your near leg between opponent's legs to establish a figure-four or lockdown configuration on their bottom leg. Your top leg positions for boot control on their hip. The entanglement must be achieved during the roll's momentum—attempting to establish it after stopping is much more difficult as the opponent can straighten their legs defensively.",
+        "answer_line": "Thread leg during roll's momentum",
+        "distractors": {
+          "plausible": [
+            "Set entanglement after stopping",
+            "Grab leg with hands, not legs"
+          ],
+          "trap": [
+            "Release leg control to adjust grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Roll to Truck transition carries moderate risk primarily related to the rotational dynamics involved. Ensure adequate warm-up of neck and spine before drilling. The receiving partner should be familiar with truck position escapes and tap protocols before drilling at speed. When arriving in truck position, apply submissions (especially twister and calf slicer) with control and incremental pressure, as both can cause serious injury with little warning. Partners should establish clear tap protocols before training. Avoid forcing the roll against rigid resistance as this can strain lower back. When drilling with less experienced partners, pause in truck position before attacking to ensure they understand the defensive position they are in.",
@@ -394,23 +494,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you find yourself in truck after a failed granby escape?",
-        "answer": "Clear boot control immediately. The boot (attacker's foot pressed against your hip) is the foundation of all truck attacks. Without boot pressure, the attacker cannot generate torque for twister, maintain leg entanglement, or prevent you from squaring up. Use both hands to fight the boot off your hip before addressing leg entanglement or upper body grips."
+        "answer": "Clear boot control immediately. The boot (attacker's foot pressed against your hip) is the foundation of all truck attacks. Without boot pressure, the attacker cannot generate torque for twister, maintain leg entanglement, or prevent you from squaring up. Use both hands to fight the boot off your hip before addressing leg entanglement or upper body grips.",
+        "answer_line": "Clear the boot off your hip",
+        "distractors": {
+          "plausible": [
+            "Fight the leg entanglement first",
+            "Try to square up immediately"
+          ],
+          "trap": [
+            "Grab their far arm first"
+          ]
+        }
       },
       {
         "question": "How can you prevent the Roll to Truck before it begins while still escaping the buggy choke?",
-        "answer": "Create hip separation before committing to your granby escape. Use frames against the attacker's hip to push them away, then execute the granby explosively once their hip pivot point is removed. Alternatively, choose a sit-through escape rather than granby, as the sit-through does not create the rolling momentum the attacker needs for the truck transition."
+        "answer": "Create hip separation before committing to your granby escape. Use frames against the attacker's hip to push them away, then execute the granby explosively once their hip pivot point is removed. Alternatively, choose a sit-through escape rather than granby, as the sit-through does not create the rolling momentum the attacker needs for the truck transition.",
+        "answer_line": "Frame hips away before granby",
+        "distractors": {
+          "plausible": [
+            "Granby explosively without frames",
+            "Speed up your granby rotation"
+          ],
+          "trap": [
+            "Roll immediately without framing"
+          ]
+        }
       },
       {
         "question": "You feel the attacker following your granby roll with their chest glued to your back—what should you do?",
-        "answer": "You have two options: stop the rotation immediately by posting both hands and driving your hips back to return to turtle, or accelerate explosively through the roll to outpace them and create separation. The worst option is continuing at the same pace, which allows the attacker to establish leg entanglement at their leisure. Choose based on whether you feel their grips are loose (accelerate) or tight (stop and reset)."
+        "answer": "You have two options: stop the rotation immediately by posting both hands and driving your hips back to return to turtle, or accelerate explosively through the roll to outpace them and create separation. The worst option is continuing at the same pace, which allows the attacker to establish leg entanglement at their leisure. Choose based on whether you feel their grips are loose (accelerate) or tight (stop and reset).",
+        "answer_line": "Stop and post, or accelerate hard",
+        "distractors": {
+          "plausible": [
+            "Keep rolling at the same pace",
+            "Always choose to stop and reset"
+          ],
+          "trap": [
+            "Continue at steady, controlled pace"
+          ]
+        }
       },
       {
         "question": "Why is the granby roll particularly vulnerable to the Roll to Truck conversion?",
-        "answer": "The granby roll requires committing rotational momentum in a predictable direction, which the attacker can read and follow. The rolling motion also naturally places your legs in a configuration that facilitates leg entanglement. Combined with the hip-to-hip connection the attacker establishes from buggy choke, the granby essentially delivers you into the truck position. This is why varying escape methods and clearing hip connection first are critical defensive strategies."
+        "answer": "The granby roll requires committing rotational momentum in a predictable direction, which the attacker can read and follow. The rolling motion also naturally places your legs in a configuration that facilitates leg entanglement. Combined with the hip-to-hip connection the attacker establishes from buggy choke, the granby essentially delivers you into the truck position. This is why varying escape methods and clearing hip connection first are critical defensive strategies.",
+        "answer_line": "Predictable rotation attacker reads",
+        "distractors": {
+          "plausible": [
+            "Granby is inherently a weak escape",
+            "Only fails with weak core strength"
+          ],
+          "trap": [
+            "Granby is always the safest option"
+          ]
+        }
       },
       {
         "question": "Your trapped leg is being threaded into a figure-four during the roll—what immediate action do you take?",
-        "answer": "Straighten your trapped leg explosively and circle your ankle outward to prevent the figure-four from locking. Simultaneously use your free leg to push off the attacker's hip or thigh to create space. If the figure-four begins to set, shift priority to preventing the boot on your hip since the leg entanglement alone without boot pressure is escapable through hip rotation and systematic leg extraction."
+        "answer": "Straighten your trapped leg explosively and circle your ankle outward to prevent the figure-four from locking. Simultaneously use your free leg to push off the attacker's hip or thigh to create space. If the figure-four begins to set, shift priority to preventing the boot on your hip since the leg entanglement alone without boot pressure is escapable through hip rotation and systematic leg extraction.",
+        "answer_line": "Straighten leg, circle ankle out",
+        "distractors": {
+          "plausible": [
+            "Pull knee tight to your chest",
+            "Wait until roll fully stops"
+          ],
+          "trap": [
+            "Let leg go limp to conserve energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

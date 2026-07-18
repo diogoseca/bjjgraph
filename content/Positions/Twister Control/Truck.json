@@ -996,7 +996,17 @@
     },
     {
       "question": "What is the core defensive dilemma inherent to the truck configuration?",
-      "answer": "The truck forces the defending player to choose between protecting the upper body and protecting the lower body, because both cannot be fully defended at once. Hiding the arms and shielding the neck to stop the twister or bow-and-arrow choke exposes the trapped leg to the calf slicer or banana split, while defending the leg frees the controlling player to attack the spine and back. This fork exists because the entangled leg and the exposed back are held on separate mechanical planes that a single defensive posture cannot cover. The dilemma is structural, not a matter of individual technique, which is why it persists regardless of skill matchup."
+      "answer": "The truck forces the defending player to choose between protecting the upper body and protecting the lower body, because both cannot be fully defended at once. Hiding the arms and shielding the neck to stop the twister or bow-and-arrow choke exposes the trapped leg to the calf slicer or banana split, while defending the leg frees the controlling player to attack the spine and back. This fork exists because the entangled leg and the exposed back are held on separate mechanical planes that a single defensive posture cannot cover. The dilemma is structural, not a matter of individual technique, which is why it persists regardless of skill matchup.",
+      "answer_line": "Protect legs or back, not both",
+      "distractors": {
+        "plausible": [
+          "Neck defense always comes first",
+          "Leg escape always comes first"
+        ],
+        "trap": [
+          "Full commitment stops both attacks"
+        ]
+      }
     },
     {
       "question": "How does the truck differ mechanically from standard back control?",

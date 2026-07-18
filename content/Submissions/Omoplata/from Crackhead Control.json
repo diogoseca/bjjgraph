@@ -278,52 +278,152 @@
       {
         "question": "What anatomical structures does the omoplata from Crackhead Control primarily attack?",
         "answer": "The omoplata attacks the shoulder joint through forced external rotation, primarily targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral capsule, and the AC joint. The lever created by your legs against the trapped arm generates rotational force that exceeds the shoulder's natural range of motion, creating a submission through joint hyperextension and capsular stress.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension",
+            "Wrist and forearm torque"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up as you begin threading your leg across their shoulder - what adjustment prevents escape?",
         "answer": "Immediately abandon the omoplata entry and switch to a triangle choke by closing your legs around their neck and arm, or return to Mission Control by resetting the shin across the back of their neck. Forcing the omoplata against a posturing opponent burns energy and creates scramble situations that favor the top player. The partially threaded leg provides a platform for alternative attacks rather than requiring a full position reset.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to triangle or reset",
+        "distractors": {
+          "plausible": [
+            "Fight to re-secure shin control",
+            "Pull head down to break posture"
+          ],
+          "trap": [
+            "Force the omoplata anyway"
+          ]
+        }
       },
       {
         "question": "What control must be established before attempting the finishing pressure, and why is it the most critical step?",
         "answer": "Two-handed control on the opponent's far hip or belt line must be established before sitting up to finish. This eliminates the forward roll escape, which is the highest-percentage defense against all omoplata variations. Without hip control, even a mechanically perfect finishing angle will fail because the opponent can simply somersault forward to relieve shoulder pressure. Securing the hip before finishing is more important than speed or angle precision.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two hands control far hip",
+        "distractors": {
+          "plausible": [
+            "Control the near wrist tightly",
+            "Flatten opponent's shoulders first"
+          ],
+          "trap": [
+            "Sit up and lean back immediately"
+          ]
+        }
       },
       {
         "question": "At what point during the omoplata sequence is the opponent past the point of safe escape without risking injury?",
         "answer": "The point of no safe escape occurs when the attacker has achieved the perpendicular angle with hip control established and begins sitting up with forward pressure. At this stage, the shoulder is already under significant rotational stress and explosive escape attempts risk acute injury to the rotator cuff or labrum. The shoulder's available range of motion is fully consumed, and any sudden force from either direction can cause immediate damage requiring surgical intervention.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Perpendicular angle, hip secured",
+        "distractors": {
+          "plausible": [
+            "As soon as the leg is threaded",
+            "When the overhook grip is broken"
+          ],
+          "trap": [
+            "Only once they've already tapped"
+          ]
+        }
       },
       {
         "question": "What are the three most common finishing errors and what underlying cause do they share?",
         "answer": "The three most common errors are leaning backward instead of driving the chest forward toward the mat, failing to control the far hip which allows the forward roll escape, and creating space between your thigh and the opponent's shoulder which permits arm extraction. All three share a common root cause of insufficient body positioning discipline during the finishing sequence, typically caused by rushing to finish rather than methodically establishing each control point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rushing, poor position discipline",
+        "distractors": {
+          "plausible": [
+            "Gripping too tightly, fatigue",
+            "Bad angle, wrong leg position"
+          ],
+          "trap": [
+            "Opponent's superior strength"
+          ]
+        }
       },
       {
         "question": "How should your grip placement change during the transition from Crackhead Control through to the omoplata finish?",
         "answer": "Begin with the overhook grip on the opponent's near arm during Crackhead Control. Maintain this grip throughout the leg thread until your leg is fully across their shoulder. Then release the overhook and transition both hands to the opponent's far hip to prevent the roll escape. As you sit up to finish, one hand remains controlling the hip while the other walks forward on the mat for additional forward driving pressure. Never release the overhook before the leg thread is complete.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Overhook, then release to hip",
+        "distractors": {
+          "plausible": [
+            "Overhook held throughout finish",
+            "Switch to gable grip early"
+          ],
+          "trap": [
+            "Release overhook before thread"
+          ]
+        }
       },
       {
         "question": "What are the immediate safety protocols when the opponent signals a tap during the omoplata finish?",
         "answer": "Upon receiving any tap signal, immediately stop all forward pressure and cease shoulder rotation. Release the leg pinch on the shoulder by opening your legs and allowing the arm to move freely. Do not maintain the position while checking on your partner. The shoulder joint can sustain acute damage from even momentary additional pressure after the tap, particularly rotator cuff tears and labrum injuries that may require surgical repair and months of rehabilitation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop pressure, release leg pinch",
+        "distractors": {
+          "plausible": [
+            "Hold position, check verbally",
+            "Slowly ease off over a few seconds"
+          ],
+          "trap": [
+            "Maintain position, ask if okay"
+          ]
+        }
       },
       {
         "question": "How does the Crackhead Control entry change competition finishing strategy compared to a standard closed guard omoplata?",
         "answer": "The Crackhead Control entry provides pre-broken posture and arm isolation that standard entries lack, allowing more aggressive commitment to the finish once the leg thread completes. In competition, this means faster transitions from setup to finish with fewer defensive windows for the opponent. The reduced setup time forces opponents to face the finishing sequence before their defensive reactions fully engage, yielding higher tap rates compared to entries requiring simultaneous posture breaking and arm isolation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Faster finish, fewer windows",
+        "distractors": {
+          "plausible": [
+            "Higher submission rate overall",
+            "More reliable at lower belts only"
+          ],
+          "trap": [
+            "Slower but safer commitment path"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your ankle to block the leg thread - how do you respond?",
         "answer": "Use your free hand to strip their grip on your ankle while maintaining the overhook on their arm. If the grip cannot be broken immediately, redirect to a triangle choke by using the blocked leg to close around their neck from the current angle. Alternatively, pummel the foot free by circling it behind their elbow and threading from the opposite direction. Never force the leg thread against a secured grip as this wastes energy and telegraphs the attack pattern.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip the grip, keep overhook",
+        "distractors": {
+          "plausible": [
+            "Yank the leg free forcefully",
+            "Switch base and reset guard"
+          ],
+          "trap": [
+            "Force the leg thread anyway"
+          ]
+        }
       },
       {
         "question": "What breathing pattern maximizes finishing pressure while maintaining training safety?",
         "answer": "Exhale steadily as you apply forward pressure during the finish, using each breath cycle to incrementally increase the rotational force on the shoulder. Avoid holding your breath, which creates muscular tension and reduces your ability to feel the opponent's resistance for controlled application. Rhythmic breathing prevents applying the submission too explosively, which is critical for training safety and gives the opponent adequate time to recognize and signal a tap before injury occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Steady exhale, rhythmic breathing",
+        "distractors": {
+          "plausible": [
+            "Hold breath during peak pressure",
+            "Quick sharp exhales in bursts"
+          ],
+          "trap": [
+            "Hold breath and drive explosively"
+          ]
+        }
       }
     ],
     "clips": [
@@ -429,22 +529,62 @@
       {
         "question": "How do you recognize the omoplata from Crackhead Control is being set up?",
         "answer": "The primary recognition cue is the opponent releasing their shin from behind your neck while maintaining or tightening the overhook grip on your arm. This signals the transition from Crackhead Control retention to omoplata attack. You will also feel the attacking leg beginning to swing over your shoulder and increased downward pressure isolating your arm between the opponent's legs as they reposition for the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin releases, overhook tightens",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your far collar",
+            "They flatten their hips to the mat"
+          ],
+          "trap": [
+            "They post their hand on the mat"
+          ]
+        }
       },
       {
         "question": "What is the safest way to signal a tap to the omoplata from Crackhead Control?",
         "answer": "Tap immediately and clearly using your free hand on the opponent's body or the mat, giving multiple rapid taps to ensure the signal is recognized. Simultaneously vocalize a verbal tap for redundancy. Tap as soon as you feel shoulder pressure that exceeds your ability to escape through technique. Do not wait for pain - the transition from controlled pressure to structural injury is rapid with shoulder locks, and rotator cuff damage can require months of rehabilitation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand fast, plus verbal tap",
+        "distractors": {
+          "plausible": [
+            "Tap once firmly and wait",
+            "Verbally say stop only"
+          ],
+          "trap": [
+            "Wait until pain is unbearable"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the omoplata from Crackhead Control and when should each be used?",
         "answer": "The three primary defenses in priority order are posturing up early before the leg thread completes, executing a forward roll before hip control is established, and stacking forward to collapse the finishing angle. Each defense has a specific timing window and attempting them outside that window either fails or worsens your position. Recognition speed and reaction timing matter more than strength for all three options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture early, roll, then stack",
+        "distractors": {
+          "plausible": [
+            "Stack first, then posture up",
+            "Roll immediately, ignore timing"
+          ],
+          "trap": [
+            "Wait and try to out-strength it"
+          ]
+        }
       },
       {
         "question": "When does the forward roll escape become too dangerous to attempt?",
         "answer": "The forward roll becomes extremely risky once the opponent has established two-handed control on your far hip and has achieved the perpendicular angle with their torso. At this point, they can follow your roll while maintaining arm control, potentially ending in mount with the arm still trapped. Attempting a late roll also puts the shoulder under dynamic loading during the rotation, significantly increasing acute injury risk compared to a controlled tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Once hip control, angle achieved",
+        "distractors": {
+          "plausible": [
+            "As soon as leg thread begins",
+            "When overhook grip is broken"
+          ],
+          "trap": [
+            "Anytime before the tap happens"
+          ]
+        }
       }
     ],
     "training_progressions": [

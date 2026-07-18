@@ -213,51 +213,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Hook Leg and Take Back?",
-        "answer": "The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery."
+        "answer": "The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery.",
+        "answer_line": "Punish sit-up with back take",
+        "distractors": {
+          "plausible": [
+            "Stay in buggy choke position",
+            "Force opponent to turtle up"
+          ],
+          "trap": [
+            "Let go and reset to guard"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing for inserting the first hook?",
-        "answer": "The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion."
+        "answer": "The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion.",
+        "answer_line": "As near hip rises to sit",
+        "distractors": {
+          "plausible": [
+            "Right when they start moving",
+            "After they turn to face you"
+          ],
+          "trap": [
+            "Insert before any movement"
+          ]
+        }
       },
       {
         "question": "Why must harness grip be maintained throughout the entire transition?",
-        "answer": "The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments."
+        "answer": "The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments.",
+        "answer_line": "Anchors hooks, keeps upper control",
+        "distractors": {
+          "plausible": [
+            "Prevents opponent posting hands",
+            "Sets up rear naked choke"
+          ],
+          "trap": [
+            "Release it to free your hands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting but immediately reclines backward to pin you - how do you adjust?",
-        "answer": "Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle."
+        "answer": "Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle.",
+        "answer_line": "Swim head opposite, ride to crucifix",
+        "distractors": {
+          "plausible": [
+            "Push straight back to stop them",
+            "Release harness, reset position"
+          ],
+          "trap": [
+            "Fight backward pressure head-on"
+          ]
+        }
       },
       {
         "question": "What determines whether to complete with second hook or transition to body triangle?",
-        "answer": "If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security."
+        "answer": "If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security.",
+        "answer_line": "Second hook blocked, go triangle",
+        "distractors": {
+          "plausible": [
+            "Always fight for second hook",
+            "Switch to seatbelt control only"
+          ],
+          "trap": [
+            "Release first hook to reset"
+          ]
+        }
       },
       {
         "question": "How does chest position affect transition success rate?",
-        "answer": "Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase."
+        "answer": "Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase.",
+        "answer_line": "Chest glued, forward drive",
+        "distractors": {
+          "plausible": [
+            "Chest light for mobility",
+            "Chest square, weight centered"
+          ],
+          "trap": [
+            "Lean back to load hips"
+          ]
+        }
       },
       {
         "question": "Why is recognizing the hip elevation trigger critical for this technique?",
-        "answer": "Hip elevation during the sitting motion creates the only high-percentage window for hook insertion. Before elevation, the hip blocks entry; after completion, opponent has established guard position. Recognizing this trigger through proprioception allows precisely timed insertion that catches optimal entry without revealing intention prematurely."
+        "answer": "Hip elevation during the sitting motion creates the only high-percentage window for hook insertion. Before elevation, the hip blocks entry; after completion, opponent has established guard position. Recognizing this trigger through proprioception allows precisely timed insertion that catches optimal entry without revealing intention prematurely.",
+        "answer_line": "Only window before hip blocks entry",
+        "distractors": {
+          "plausible": [
+            "Signals opponent is tapping",
+            "Means grip is fully stripped"
+          ],
+          "trap": [
+            "Wait until they sit fully"
+          ]
+        }
       },
       {
         "question": "What common defensive tell indicates opponent is about to sit to guard?",
-        "answer": "Weight shift toward their posting arm or base, intentional head movement looking toward guard recovery direction, relaxation of the neck defense focus, and hip positioning that prepares for rotation all indicate sitting intention. Reading these tells allows pre-positioning for the transition before opponent commits to the escape."
+        "answer": "Weight shift toward their posting arm or base, intentional head movement looking toward guard recovery direction, relaxation of the neck defense focus, and hip positioning that prepares for rotation all indicate sitting intention. Reading these tells allows pre-positioning for the transition before opponent commits to the escape.",
+        "answer_line": "Weight shift to posting arm",
+        "distractors": {
+          "plausible": [
+            "Explosive hip escape attempt",
+            "Tight grip on your ankle"
+          ],
+          "trap": [
+            "Increased neck defense pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your choking grip during the sit-up but you still have the seatbelt - what is your best option?",
-        "answer": "Abandon the choke attempt and commit fully to the back take. With the seatbelt intact you still have sufficient upper body control to follow their movement and insert hooks. The choking grip is not required for the back take; the seatbelt alone anchors the transition. Prioritize hook insertion over re-establishing the choke during the dynamic sitting phase."
+        "answer": "Abandon the choke attempt and commit fully to the back take. With the seatbelt intact you still have sufficient upper body control to follow their movement and insert hooks. The choking grip is not required for the back take; the seatbelt alone anchors the transition. Prioritize hook insertion over re-establishing the choke during the dynamic sitting phase.",
+        "answer_line": "Abandon choke, commit to hooks",
+        "distractors": {
+          "plausible": [
+            "Re-fight the choking grip",
+            "Pause to reset position"
+          ],
+          "trap": [
+            "Release seatbelt and reset"
+          ]
+        }
       },
       {
         "question": "What is the direction of force you should apply with your chest during the transition?",
-        "answer": "The force must follow the opponent's movement direction, driving forward and slightly downward as they sit. You are not pushing them back into turtle but rather flowing with their sitting momentum while maintaining zero space between your chest and their back. The forward drive prevents gap creation and keeps your weight loaded onto their spine throughout."
+        "answer": "The force must follow the opponent's movement direction, driving forward and slightly downward as they sit. You are not pushing them back into turtle but rather flowing with their sitting momentum while maintaining zero space between your chest and their back. The forward drive prevents gap creation and keeps your weight loaded onto their spine throughout.",
+        "answer_line": "Forward and down, following them",
+        "distractors": {
+          "plausible": [
+            "Straight down, driving to mat",
+            "Backward to prevent recovery"
+          ],
+          "trap": [
+            "Push them back into turtle"
+          ]
+        }
       },
       {
         "question": "If your first hook is in but opponent grabs your foot with both hands to strip it, what chain attack opens up?",
-        "answer": "When opponent dedicates both hands to stripping your hook, their neck becomes completely undefended. Immediately re-engage the choking grip since their hand fighting on your foot means zero neck protection. Alternatively, use the distraction to switch to a gift wrap on whichever arm is reaching lowest, trapping it and completing the back take with arm control instead of hooks."
+        "answer": "When opponent dedicates both hands to stripping your hook, their neck becomes completely undefended. Immediately re-engage the choking grip since their hand fighting on your foot means zero neck protection. Alternatively, use the distraction to switch to a gift wrap on whichever arm is reaching lowest, trapping it and completing the back take with arm control instead of hooks.",
+        "answer_line": "Neck undefended - re-attack choke",
+        "distractors": {
+          "plausible": [
+            "Strip harness while they strip hook",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Release hook to free your leg"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you can attempt this transition?",
-        "answer": "You must have established buggy choke control with a secure harness grip and chest-to-back connection. The opponent must be initiating a sit-up or guard recovery motion that creates hip elevation. Your hips must be close enough to the opponent's hips that hook insertion distance is minimal. Without these conditions, attempting the transition results in positional loss."
+        "answer": "You must have established buggy choke control with a secure harness grip and chest-to-back connection. The opponent must be initiating a sit-up or guard recovery motion that creates hip elevation. Your hips must be close enough to the opponent's hips that hook insertion distance is minimal. Without these conditions, attempting the transition results in positional loss.",
+        "answer_line": "Buggy choke, harness, hips close",
+        "distractors": {
+          "plausible": [
+            "Opponent flat on stomach",
+            "Full mount already established"
+          ],
+          "trap": [
+            "Opponent standing to escape"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back.",
@@ -379,23 +499,73 @@
     "flashcards": [
       {
         "question": "Why is sitting directly backward the worst escape direction when defending Hook Leg and Take Back?",
-        "answer": "Sitting directly backward creates maximum hip exposure on both sides simultaneously, presenting the attacker with a clean and unobstructed entry for the near-side hook. The straight-back motion also makes it easiest for the attacker to follow with chest connection because there is no lateral displacement to chase. Sitting at a 45-degree angle forces the attacker to adjust and reduces the available hook insertion surface."
+        "answer": "Sitting directly backward creates maximum hip exposure on both sides simultaneously, presenting the attacker with a clean and unobstructed entry for the near-side hook. The straight-back motion also makes it easiest for the attacker to follow with chest connection because there is no lateral displacement to chase. Sitting at a 45-degree angle forces the attacker to adjust and reduces the available hook insertion surface.",
+        "answer_line": "Exposes both hips, easy chase",
+        "distractors": {
+          "plausible": [
+            "Makes choke tighter on neck",
+            "Puts weight on attacker's legs"
+          ],
+          "trap": [
+            "Creates a scramble opportunity"
+          ]
+        }
       },
       {
         "question": "What is the first thing you should do if the attacker successfully inserts their near-side hook during your escape?",
-        "answer": "Immediately clamp your thighs together to trap the hooking foot and prevent it from seating deep inside your thigh. Then rotate your body toward the hook side to prevent the second hook from entering. Addressing the first hook before the second arrives is critical because single-hook back control is far more escapable than double hooks, and the rotation toward the trapped leg creates half guard geometry."
+        "answer": "Immediately clamp your thighs together to trap the hooking foot and prevent it from seating deep inside your thigh. Then rotate your body toward the hook side to prevent the second hook from entering. Addressing the first hook before the second arrives is critical because single-hook back control is far more escapable than double hooks, and the rotation toward the trapped leg creates half guard geometry.",
+        "answer_line": "Clamp thighs, trap the hook",
+        "distractors": {
+          "plausible": [
+            "Strip harness grip immediately",
+            "Sit up to face attacker"
+          ],
+          "trap": [
+            "Kick leg free and stand up"
+          ]
+        }
       },
       {
         "question": "Why is stripping the harness grip during the sit-up more effective than stripping it after hooks are established?",
-        "answer": "During the sit-up, the attacker's grip structure is in transition and their body is adjusting to follow your movement, making the harness grip less consolidated and more vulnerable to stripping. After hooks are established, the attacker has a stable base with lower body anchoring that reinforces their harness grip through structural connection. Stripping the harness during transition eliminates the upper body control that makes hook insertion effective."
+        "answer": "During the sit-up, the attacker's grip structure is in transition and their body is adjusting to follow your movement, making the harness grip less consolidated and more vulnerable to stripping. After hooks are established, the attacker has a stable base with lower body anchoring that reinforces their harness grip through structural connection. Stripping the harness during transition eliminates the upper body control that makes hook insertion effective.",
+        "answer_line": "Grip weaker during mid-transition",
+        "distractors": {
+          "plausible": [
+            "Easier once hooks are set",
+            "Harness weakest at start only"
+          ],
+          "trap": [
+            "Wait for both hooks then strip"
+          ]
+        }
       },
       {
         "question": "Your opponent has one hook in and is reaching for the second - what defensive option gives you the best positional outcome?",
-        "answer": "Trap the inserted hook by clamping your thighs and immediately rotate toward the hook side while stripping the harness grip with your hands. This creates a half guard position where the attacker's inserted leg becomes trapped between your legs and you are now facing them. Half guard bottom is dramatically better than back control bottom, and the rotation prevents the second hook from ever arriving."
+        "answer": "Trap the inserted hook by clamping your thighs and immediately rotate toward the hook side while stripping the harness grip with your hands. This creates a half guard position where the attacker's inserted leg becomes trapped between your legs and you are now facing them. Half guard bottom is dramatically better than back control bottom, and the rotation prevents the second hook from ever arriving.",
+        "answer_line": "Trap hook, rotate to half guard",
+        "distractors": {
+          "plausible": [
+            "Strip harness, sit up straight",
+            "Grab second leg to block it"
+          ],
+          "trap": [
+            "Turn away from trapped hook"
+          ]
+        }
       },
       {
         "question": "How does controlling the tempo of your sit-up escape help defend against the back take?",
-        "answer": "A controlled, deliberate sit-up keeps hip elevation minimal and reduces the window of time where the hip space is open for hook insertion. Explosive sit-ups create large, fast hip elevation that actually opens more space and generates momentum the attacker can ride to follow your movement. Controlled tempo combined with lateral angle minimizes the insertion opportunity and forces the attacker into a reactive chase rather than a timed entry."
+        "answer": "A controlled, deliberate sit-up keeps hip elevation minimal and reduces the window of time where the hip space is open for hook insertion. Explosive sit-ups create large, fast hip elevation that actually opens more space and generates momentum the attacker can ride to follow your movement. Controlled tempo combined with lateral angle minimizes the insertion opportunity and forces the attacker into a reactive chase rather than a timed entry.",
+        "answer_line": "Controlled tempo, minimal hip rise",
+        "distractors": {
+          "plausible": [
+            "Explosive speed beats timing",
+            "Slow pause after each movement"
+          ],
+          "trap": [
+            "Fast sit-up to outrun the hook"
+          ]
+        }
       }
     ],
     "training_progressions": [

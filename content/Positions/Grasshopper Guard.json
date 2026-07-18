@@ -93,35 +93,115 @@
     "flashcards": [
       {
         "question": "Your opponent inverts deeply and begins threading their legs around yours - what is your immediate response?",
-        "answer": "Execute a back step immediately by stepping your endangered leg backward and away from their entanglement attempt while keeping your weight low. The back step creates separation and removes your leg from the danger zone before they can establish control. Avoid pulling straight backward, which often completes their entanglement for them."
+        "answer": "Execute a back step immediately by stepping your endangered leg backward and away from their entanglement attempt while keeping your weight low. The back step creates separation and removes your leg from the danger zone before they can establish control. Avoid pulling straight backward, which often completes their entanglement for them.",
+        "answer_line": "Back step, clear the leg",
+        "distractors": {
+          "plausible": [
+            "Freeze base and wait",
+            "Push their hips down"
+          ],
+          "trap": [
+            "Pull leg straight back"
+          ]
+        }
       },
       {
         "question": "What base width should you maintain when facing grasshopper guard, and why?",
-        "answer": "Maintain a medium-width base that is wide enough to resist elevation sweeps but narrow enough to allow quick directional changes and passing attempts. Too wide a base makes you slow to react and vulnerable to leg threading between your stance. Too narrow makes you easily swept when they elevate their hips. Adjust dynamically based on their leg configuration."
+        "answer": "Maintain a medium-width base that is wide enough to resist elevation sweeps but narrow enough to allow quick directional changes and passing attempts. Too wide a base makes you slow to react and vulnerable to leg threading between your stance. Too narrow makes you easily swept when they elevate their hips. Adjust dynamically based on their leg configuration.",
+        "answer_line": "Medium base, stay adjustable",
+        "distractors": {
+          "plausible": [
+            "Very wide stance always",
+            "Narrow base, quick feet"
+          ],
+          "trap": [
+            "Feet together, squared up"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the bottom player's inversion is weakening and becoming vulnerable to a stack pass?",
-        "answer": "Watch for their hips dropping toward the mat, decreased leg activity, slower adjustments to your circling, and visible core fatigue indicated by their midsection relaxing. When their hips sag below chest height or they struggle to maintain shoulder base contact, this creates the optimal window to drive forward with a stack pass."
+        "answer": "Watch for their hips dropping toward the mat, decreased leg activity, slower adjustments to your circling, and visible core fatigue indicated by their midsection relaxing. When their hips sag below chest height or they struggle to maintain shoulder base contact, this creates the optimal window to drive forward with a stack pass.",
+        "answer_line": "Hips sag, legs slow",
+        "distractors": {
+          "plausible": [
+            "Their grips loosen up",
+            "They stop circling with you"
+          ],
+          "trap": [
+            "Attack the instant they invert"
+          ]
+        }
       },
       {
         "question": "What are the essential grips or controls for maintaining top position against grasshopper guard?",
-        "answer": "Rather than specific grips, focus on controlling distance and leg positioning. Your hands should be ready to strip or redirect their hooks, post on their hips to prevent elevation, or frame against their legs to create passing angles. Avoid reaching down toward their legs which compromises posture - instead maintain upright position and use your hips and base for control."
+        "answer": "Rather than specific grips, focus on controlling distance and leg positioning. Your hands should be ready to strip or redirect their hooks, post on their hips to prevent elevation, or frame against their legs to create passing angles. Avoid reaching down toward their legs which compromises posture - instead maintain upright position and use your hips and base for control.",
+        "answer_line": "Control distance, not grips",
+        "distractors": {
+          "plausible": [
+            "Grip both ankles tight",
+            "Collar tie for control"
+          ],
+          "trap": [
+            "Reach down, break posture"
+          ]
+        }
       },
       {
         "question": "The bottom player establishes a hook behind your knee - how do you recover before they complete the entanglement?",
-        "answer": "Immediately shift your weight away from the hooked leg and begin the back step motion. As you step back, use your free hand to address the hook by pushing their leg away or pinning it against their body. Move slowly and deliberately rather than explosively jerking, which can complete the entanglement or cause injury. Reset to neutral distance once the hook is cleared."
+        "answer": "Immediately shift your weight away from the hooked leg and begin the back step motion. As you step back, use your free hand to address the hook by pushing their leg away or pinning it against their body. Move slowly and deliberately rather than explosively jerking, which can complete the entanglement or cause injury. Reset to neutral distance once the hook is cleared.",
+        "answer_line": "Shift weight, clear hook slow",
+        "distractors": {
+          "plausible": [
+            "Yank leg free fast",
+            "Grab their foot and twist"
+          ],
+          "trap": [
+            "Jerk leg explosively free"
+          ]
+        }
       },
       {
         "question": "Why is constant forward pressure ineffective against grasshopper guard?",
-        "answer": "Constant forward pressure feeds directly into the bottom player's sweeping mechanics by providing the momentum and weight commitment they need for elevation sweeps and X-guard transitions. Their inverted posture is specifically designed to redirect forward pressure upward. Instead, use selective pressure during transition windows when their hips drop or inversion weakens."
+        "answer": "Constant forward pressure feeds directly into the bottom player's sweeping mechanics by providing the momentum and weight commitment they need for elevation sweeps and X-guard transitions. Their inverted posture is specifically designed to redirect forward pressure upward. Instead, use selective pressure during transition windows when their hips drop or inversion weakens.",
+        "answer_line": "Powers their elevation sweep",
+        "distractors": {
+          "plausible": [
+            "Just burns your own energy",
+            "Lets them grip your collar"
+          ],
+          "trap": [
+            "It has no real drawback"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure when facing a skilled grasshopper guard player?",
-        "answer": "Recognize that the bottom player's position is far more exhausting than yours. Maintain a patient, energy-efficient standing or combat base while making small circling movements that force them to constantly adjust. Avoid explosive reactions or prolonged grappling exchanges in their preferred range. Let time work against their position sustainability while you wait for passing opportunities."
+        "answer": "Recognize that the bottom player's position is far more exhausting than yours. Maintain a patient, energy-efficient standing or combat base while making small circling movements that force them to constantly adjust. Avoid explosive reactions or prolonged grappling exchanges in their preferred range. Let time work against their position sustainability while you wait for passing opportunities.",
+        "answer_line": "Patient base, small circles",
+        "distractors": {
+          "plausible": [
+            "Match their pace exactly",
+            "Grip fight to wear them down"
+          ],
+          "trap": [
+            "Explode into forceful passes"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling for a kneebar - what adjustment should you make?",
-        "answer": "Sprawl immediately by extending your hips backward and driving your weight toward the mat. This removes the rotational leverage they need to complete the roll and finish the submission. Simultaneously begin stepping your endangered leg away from their body. Once the roll is disrupted, either complete the pass to side control or reset to standing with distance established."
+        "answer": "Sprawl immediately by extending your hips backward and driving your weight toward the mat. This removes the rotational leverage they need to complete the roll and finish the submission. Simultaneously begin stepping your endangered leg away from their body. Once the roll is disrupted, either complete the pass to side control or reset to standing with distance established.",
+        "answer_line": "Sprawl, then step leg free",
+        "distractors": {
+          "plausible": [
+            "Pull knee to your chest",
+            "Post hands and wait"
+          ],
+          "trap": [
+            "Follow their roll down"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -428,35 +508,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins back stepping to escape your leg control - what adjustment do you make?",
-        "answer": "Follow their movement by re-inverting and rolling toward the direction they're stepping. As they back step, their trailing leg becomes vulnerable - shoot your legs to follow and reestablish contact on this leg. The key is anticipating the back step and initiating your roll slightly before they complete their motion, maintaining leg connection throughout the transition."
+        "answer": "Follow their movement by re-inverting and rolling toward the direction they're stepping. As they back step, their trailing leg becomes vulnerable - shoot your legs to follow and reestablish contact on this leg. The key is anticipating the back step and initiating your roll slightly before they complete their motion, maintaining leg connection throughout the transition.",
+        "answer_line": "Re-invert, chase trailing leg",
+        "distractors": {
+          "plausible": [
+            "Release legs and reset",
+            "Stand and circle to face"
+          ],
+          "trap": [
+            "Hold onto the near leg"
+          ]
+        }
       },
       {
         "question": "What are the essential body mechanics for maintaining hip elevation in grasshopper guard?",
-        "answer": "Engage your core continuously with emphasis on lower abdominals and hip flexors. Distribute your weight across both shoulder blades for a stable platform. Think of driving your hips toward the ceiling rather than just lifting them. Your legs should remain active and dynamic rather than static, as the movement helps maintain elevation through momentum."
+        "answer": "Engage your core continuously with emphasis on lower abdominals and hip flexors. Distribute your weight across both shoulder blades for a stable platform. Think of driving your hips toward the ceiling rather than just lifting them. Your legs should remain active and dynamic rather than static, as the movement helps maintain elevation through momentum.",
+        "answer_line": "Core tight, hips to ceiling",
+        "distractors": {
+          "plausible": [
+            "Balance on one shoulder",
+            "Keep legs still and rigid"
+          ],
+          "trap": [
+            "Rest weight on your neck"
+          ]
+        }
       },
       {
         "question": "How do you recover when your hips start dropping due to fatigue?",
-        "answer": "Transition immediately rather than fighting to maintain the failing position. Convert to a more sustainable guard like closed guard via Granby roll, or come up to seated guard or standing guard. Attempting to force grasshopper when core is fatigued leads to being flattened and passed. Use the last of your hip elevation to initiate a sweep or submission attempt before transitioning."
+        "answer": "Transition immediately rather than fighting to maintain the failing position. Convert to a more sustainable guard like closed guard via Granby roll, or come up to seated guard or standing guard. Attempting to force grasshopper when core is fatigued leads to being flattened and passed. Use the last of your hip elevation to initiate a sweep or submission attempt before transitioning.",
+        "answer_line": "Transition out before flattened",
+        "distractors": {
+          "plausible": [
+            "Push through the fatigue",
+            "Hold position, rest legs"
+          ],
+          "trap": [
+            "Keep grinding in grasshopper"
+          ]
+        }
       },
       {
         "question": "What leg configuration should you prioritize when first inverting into grasshopper?",
-        "answer": "Establish at least one hook behind the opponent's knee or control on their ankle before completing your inversion. This ensures you maintain connection and prevents them from simply walking away. The primary leg creates the anchor while the secondary leg is free to thread for entanglements or provide additional sweep leverage."
+        "answer": "Establish at least one hook behind the opponent's knee or control on their ankle before completing your inversion. This ensures you maintain connection and prevents them from simply walking away. The primary leg creates the anchor while the secondary leg is free to thread for entanglements or provide additional sweep leverage.",
+        "answer_line": "Anchor one hook before inverting",
+        "distractors": {
+          "plausible": [
+            "Thread both legs at once",
+            "Invert first, hook after"
+          ],
+          "trap": [
+            "Invert with no leg contact"
+          ]
+        }
       },
       {
         "question": "Your opponent is standing tall with a wide base - how do you attack from this position?",
-        "answer": "Their tall posture with wide base is defensive and hard to sweep directly. Options include using a technical standup from inversion to reach standing position, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you."
+        "answer": "Their tall posture with wide base is defensive and hard to sweep directly. Options include using a technical standup from inversion to reach standing position, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you.",
+        "answer_line": "Wait, or chain to ankle lock",
+        "distractors": {
+          "plausible": [
+            "Force an elevation sweep",
+            "Grip fight for a takedown"
+          ],
+          "trap": [
+            "Chase a sweep into the base"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to avoid position collapse from exhaustion?",
-        "answer": "Use grasshopper in 10-15 second bursts maximum. Enter with a specific attack path in mind and commit fully to that path. If the attack fails or is defended, immediately transition to a sustainable position like seated guard or De La Riva rather than trying to reset in grasshopper. Think of grasshopper as a transitional hunting position, not a place to hold and wait."
+        "answer": "Use grasshopper in 10-15 second bursts maximum. Enter with a specific attack path in mind and commit fully to that path. If the attack fails or is defended, immediately transition to a sustainable position like seated guard or De La Riva rather than trying to reset in grasshopper. Think of grasshopper as a transitional hunting position, not a place to hold and wait.",
+        "answer_line": "10-15s bursts, then transition",
+        "distractors": {
+          "plausible": [
+            "Hold position and reset often",
+            "Attack continuously nonstop"
+          ],
+          "trap": [
+            "Stay inverted until finished"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward with a stack pass - what counter do you employ?",
-        "answer": "Execute a Granby roll to guard recovery by rolling your shoulders and allowing their forward pressure to carry them over you. As you roll, your legs naturally retract and can reset to closed guard or other defensive guard. Alternatively, if you detect the stack early, convert their forward momentum into an X-guard elevation sweep by shooting your legs into their hips."
+        "answer": "Execute a Granby roll to guard recovery by rolling your shoulders and allowing their forward pressure to carry them over you. As you roll, your legs naturally retract and can reset to closed guard or other defensive guard. Alternatively, if you detect the stack early, convert their forward momentum into an X-guard elevation sweep by shooting your legs into their hips.",
+        "answer_line": "Granby roll or X-guard sweep",
+        "distractors": {
+          "plausible": [
+            "Push their head down",
+            "Turtle up to defend"
+          ],
+          "trap": [
+            "Fight the stack head-on"
+          ]
+        }
       },
       {
         "question": "What visual cues should you track while in the inverted grasshopper position?",
-        "answer": "Keep your chin tucked but eyes up, tracking opponent's hips and upper body simultaneously. Watch for hip shifts indicating they're about to step or circle, weight transfers suggesting sweep opportunities, and their foot positioning relative to your leg hooks. Your peripheral vision should also monitor your own leg positioning to ensure you maintain contact."
+        "answer": "Keep your chin tucked but eyes up, tracking opponent's hips and upper body simultaneously. Watch for hip shifts indicating they're about to step or circle, weight transfers suggesting sweep opportunities, and their foot positioning relative to your leg hooks. Your peripheral vision should also monitor your own leg positioning to ensure you maintain contact.",
+        "answer_line": "Watch their hips and weight",
+        "distractors": {
+          "plausible": [
+            "Watch their hands only",
+            "Focus on your own legs only"
+          ],
+          "trap": [
+            "Close eyes, feel for movement"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -747,35 +907,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Grasshopper Guard and distinguishes it from a conventional open guard?",
-      "answer": "Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and upper back rather than seated on their hips, elevating the hips and legs toward a typically standing passer. This inversion flips the usual guard geometry: the shoulders become the anchor while the hips float free to thread legs around the opponent's base. Unlike upright seated guards that rely on hip contact and grips for connection, grasshopper trades upper-body connection entirely for leg access and dynamic entanglement angles. The defining trade-off is stability sacrificed for immediate access to the passer's legs."
+      "answer": "Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and upper back rather than seated on their hips, elevating the hips and legs toward a typically standing passer. This inversion flips the usual guard geometry: the shoulders become the anchor while the hips float free to thread legs around the opponent's base. Unlike upright seated guards that rely on hip contact and grips for connection, grasshopper trades upper-body connection entirely for leg access and dynamic entanglement angles. The defining trade-off is stability sacrificed for immediate access to the passer's legs.",
+      "answer_line": "Inverted, shoulders base, hips free",
+      "distractors": {
+        "plausible": [
+          "Seated guard, hips high",
+          "Standing guard, legs active"
+        ],
+        "trap": [
+          "Sit on hips like closed guard"
+        ]
+      }
     },
     {
       "question": "Why is Grasshopper Guard treated as a transitional hunting position rather than a place to settle and rest?",
-      "answer": "Holding the inverted posture demands continuous core engagement and hip-flexor tension to keep the hips elevated above torso level, which is metabolically unsustainable for more than roughly 10 to 20 seconds. Because the platform decays as the bottom player fatigues, every moment in the position must progress toward a leg entanglement, a sweep, or a transition to a sustainable guard. For both players this shapes the tempo: the bottom player races to convert before the position collapses, while the top player deliberately stalls to let time drain the inversion. The energy asymmetry is the central dynamic that governs who wins the exchange."
+      "answer": "Holding the inverted posture demands continuous core engagement and hip-flexor tension to keep the hips elevated above torso level, which is metabolically unsustainable for more than roughly 10 to 20 seconds. Because the platform decays as the bottom player fatigues, every moment in the position must progress toward a leg entanglement, a sweep, or a transition to a sustainable guard. For both players this shapes the tempo: the bottom player races to convert before the position collapses, while the top player deliberately stalls to let time drain the inversion. The energy asymmetry is the central dynamic that governs who wins the exchange.",
+      "answer_line": "Core drains fast, must convert",
+      "distractors": {
+        "plausible": [
+          "Grip fighting wears you down",
+          "Legs tire before your core"
+        ],
+        "trap": [
+          "Hold it to save energy"
+        ]
+      }
     },
     {
       "question": "How does hip elevation function as the shared source of leverage in Grasshopper Guard?",
-      "answer": "The elevation of the hips above the opponent's center of gravity is what converts the inverted shoulder base into an offensive platform for both sweeping and leg attacks. When the hips sit at chest height or higher relative to the passer, the bottom player can drive the opponent's base upward for elevation sweeps or wedge legs into the hip line to break the passer's balance. If the hips sag toward the mat, that leverage vanishes and the passer can flatten and step over the legs. Consequently both players fixate on the vertical relationship of the hips: the bottom player fights to sustain elevation, the top player works to collapse it."
+      "answer": "The elevation of the hips above the opponent's center of gravity is what converts the inverted shoulder base into an offensive platform for both sweeping and leg attacks. When the hips sit at chest height or higher relative to the passer, the bottom player can drive the opponent's base upward for elevation sweeps or wedge legs into the hip line to break the passer's balance. If the hips sag toward the mat, that leverage vanishes and the passer can flatten and step over the legs. Consequently both players fixate on the vertical relationship of the hips: the bottom player fights to sustain elevation, the top player works to collapse it.",
+      "answer_line": "Hips high = leverage; sag = lost",
+      "distractors": {
+        "plausible": [
+          "Grip strength drives leverage",
+          "Leg speed alone creates leverage"
+        ],
+        "trap": [
+          "Let hips sag to conserve power"
+        ]
+      }
     },
     {
       "question": "What role does the shoulder base play in stabilizing the inverted grasshopper posture?",
-      "answer": "The shoulders and upper back act as the primary support structure, distributing the bottom player's weight across both shoulder blades so the hips and legs are freed to move dynamically above. Even weight distribution across both blades gives a surprisingly stable platform that resists being tipped, whereas rolling onto a single shoulder creates instability that kills power generation and angle changes. This shoulder anchor replaces the hip-and-seat base of traditional guards, which is exactly why the position can survive against a standing passer despite appearing precarious. Micro-adjustments come from rolling the upper back rather than repositioning the hips."
+      "answer": "The shoulders and upper back act as the primary support structure, distributing the bottom player's weight across both shoulder blades so the hips and legs are freed to move dynamically above. Even weight distribution across both blades gives a surprisingly stable platform that resists being tipped, whereas rolling onto a single shoulder creates instability that kills power generation and angle changes. This shoulder anchor replaces the hip-and-seat base of traditional guards, which is exactly why the position can survive against a standing passer despite appearing precarious. Micro-adjustments come from rolling the upper back rather than repositioning the hips.",
+      "answer_line": "Even weight on both blades",
+      "distractors": {
+        "plausible": [
+          "Balance mainly on the neck",
+          "Push off one strong shoulder"
+        ],
+        "trap": [
+          "Roll onto a single shoulder"
+        ]
+      }
     },
     {
       "question": "Why does maintaining continuous leg contact matter for both players engaged in Grasshopper Guard?",
-      "answer": "At least one leg must stay actively hooking behind the knee, controlling the ankle, or threading between the opponent's legs, because that contact is simultaneously the bottom player's control mechanism and attacking pathway. If the leg connection is lost, the passer can freely disengage, circle to an advantageous angle, or begin a clean pass without obstruction. The contested leg contact is what allows the bottom player to follow a retreating passer with rolls and re-inversions, and what forces the top player to constantly manage which of their legs is exposed. The entire exchange orbits around whether this leg tie stays intact or gets cleared."
+      "answer": "At least one leg must stay actively hooking behind the knee, controlling the ankle, or threading between the opponent's legs, because that contact is simultaneously the bottom player's control mechanism and attacking pathway. If the leg connection is lost, the passer can freely disengage, circle to an advantageous angle, or begin a clean pass without obstruction. The contested leg contact is what allows the bottom player to follow a retreating passer with rolls and re-inversions, and what forces the top player to constantly manage which of their legs is exposed. The entire exchange orbits around whether this leg tie stays intact or gets cleared.",
+      "answer_line": "Leg contact = control and attack",
+      "distractors": {
+        "plausible": [
+          "Grips matter more than legs",
+          "Hip position alone holds them"
+        ],
+        "trap": [
+          "Release the leg to reset"
+        ]
+      }
     },
     {
       "question": "How do the transition windows during re-inversion shape the exchange in Grasshopper Guard?",
-      "answer": "As the bottom player switches between leg configurations or re-inverts to follow a moving passer, there is a brief interval where the legs are in transit between hooks and neither controlling nor attacking. These windows are the pivotal moments of the position: the top player exploits them to step over, back step, or drive forward to pass, while the bottom player tries to minimize their duration by anchoring one leg before releasing the other. Timing an inversion to coincide with the opponent's own forward or backward movement multiplies its effect, because the passer's committed momentum cannot be redirected mid-step. Both players are essentially fighting over who controls the tempo of these transitions."
+      "answer": "As the bottom player switches between leg configurations or re-inverts to follow a moving passer, there is a brief interval where the legs are in transit between hooks and neither controlling nor attacking. These windows are the pivotal moments of the position: the top player exploits them to step over, back step, or drive forward to pass, while the bottom player tries to minimize their duration by anchoring one leg before releasing the other. Timing an inversion to coincide with the opponent's own forward or backward movement multiplies its effect, because the passer's committed momentum cannot be redirected mid-step. Both players are essentially fighting over who controls the tempo of these transitions.",
+      "answer_line": "Anchor one leg before releasing",
+      "distractors": {
+        "plausible": [
+          "Release both legs together",
+          "Move only when they're still"
+        ],
+        "trap": [
+          "Switch hooks simultaneously"
+        ]
+      }
     },
     {
       "question": "What makes Grasshopper Guard particularly viable in no-gi compared to gi grappling?",
-      "answer": "The absence of collar and sleeve grips removes the upper-body handles that would normally let a passer control an inverting guard player or that a seated player would rely on for connection. Without gi friction to slow rolls and inversions, the bottom player can spin, chase, and re-thread legs far more freely, making the leg-centric grasshopper game far more sustainable. This is why the position rose in modern no-gi competition, where leg entanglements and heel-hook access dominate and grip fighting is minimal. In the gi, added friction and grip control make the same inverted spinning slower and easier to shut down."
+      "answer": "The absence of collar and sleeve grips removes the upper-body handles that would normally let a passer control an inverting guard player or that a seated player would rely on for connection. Without gi friction to slow rolls and inversions, the bottom player can spin, chase, and re-thread legs far more freely, making the leg-centric grasshopper game far more sustainable. This is why the position rose in modern no-gi competition, where leg entanglements and heel-hook access dominate and grip fighting is minimal. In the gi, added friction and grip control make the same inverted spinning slower and easier to shut down.",
+      "answer_line": "No grips to slow the spin",
+      "distractors": {
+        "plausible": [
+          "Sweat makes legs slip free",
+          "Faster refs in no-gi rules"
+        ],
+        "trap": [
+          "Grip fighting drives success"
+        ]
+      }
     },
     {
       "question": "How does Grasshopper Guard relate to the leg-entanglement positions it commonly feeds into?",
-      "answer": "Grasshopper functions as an entry hub within a broader leg-lock system rather than as an isolated position, with the inversion serving to shoot the legs under and around the passer's base to reach ashi garami variants. As the bottom player secures a single leg it naturally progresses toward Single Leg X or inside ashi, and when both players commit legs it can settle into 50-50; coming up from the elevation feeds X-Guard. The position's value lies in this connectivity, since the inverted angle grants leg access that upright guards cannot reach on their own. Understanding grasshopper therefore means understanding it as the transitional doorway between guard retention and a committed leg entanglement."
+      "answer": "Grasshopper functions as an entry hub within a broader leg-lock system rather than as an isolated position, with the inversion serving to shoot the legs under and around the passer's base to reach ashi garami variants. As the bottom player secures a single leg it naturally progresses toward Single Leg X or inside ashi, and when both players commit legs it can settle into 50-50; coming up from the elevation feeds X-Guard. The position's value lies in this connectivity, since the inverted angle grants leg access that upright guards cannot reach on their own. Understanding grasshopper therefore means understanding it as the transitional doorway between guard retention and a committed leg entanglement.",
+      "answer_line": "Entry hub into leg entanglements",
+      "distractors": {
+        "plausible": [
+          "A standalone finishing hold",
+          "Only leads to closed guard"
+        ],
+        "trap": [
+          "Best held until submission"
+        ]
+      }
     }
   ],
   "clips": [

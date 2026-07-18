@@ -315,62 +315,182 @@
       {
         "question": "What anatomical structures does the loop choke from turtle attack, and how does the rolling mechanism create compression on these structures?",
         "answer": "The loop choke attacks the carotid arteries and jugular veins on both sides of the neck. The rolling mechanism creates bilateral compression by converting the attacker's body rotation into collar tension. As the attacker rolls, the collar forms a tightening loop around the neck, with the deep grip pulling one side of the collar across the carotid while the head control drives the opponent's neck into the opposite side of the collar. This rotational tightening creates compression on both carotid arteries simultaneously, restricting blood flow to the brain and causing rapid unconsciousness within 8-12 seconds of full bilateral compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Air choke on the trachea",
+            "One-side carotid pressure only"
+          ],
+          "trap": [
+            "Neck cranked, spine compressed"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the collar grip is deep enough to produce a blood choke rather than an air choke before you commit to the rolling finish?",
         "answer": "A properly deep grip has four fingers inserted past the trachea with knuckles reaching toward the back of the neck and the thumb pressing against the side of the neck. You should be able to feel the fabric of the collar wrapped around the lateral aspect of the neck, not just resting against the front of the throat. When you apply a light test pull, your partner should feel pressure on the sides of their neck rather than across the windpipe. If the grip feels like it is primarily compressing the front of the throat, it is too shallow and must be deepened before rolling. Additionally, the collar should feel snug around the side of the neck with minimal slack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fingers past trachea, snug sides",
+        "distractors": {
+          "plausible": [
+            "Fingertips touch collar edge",
+            "Grip feels tight on the throat"
+          ],
+          "trap": [
+            "Pressure only on the windpipe"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a sit-out as you commit to the rolling motion - what adjustment prevents losing both the choke and your position?",
         "answer": "If you feel the sit-out beginning as you initiate the roll, immediately abort the rolling motion and redirect your weight back onto the opponent's upper back using your chest pressure. Maintain the deep collar grip at all costs, as it becomes a powerful control tool even if the choke attempt fails. Use the collar grip to snap their head back down toward the mat while sprawling your hips to drive weight through their shoulders. If they partially complete the sit-out, follow their hips with your body and use the collar grip to drag them back into turtle or transition to a front headlock position where the collar grip still threatens a modified loop choke finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abort roll, keep grip, sprawl back",
+        "distractors": {
+          "plausible": [
+            "Finish the roll despite sit-out",
+            "Release grip, re-attack later"
+          ],
+          "trap": [
+            "Let go and chase a far ankle"
+          ]
+        }
       },
       {
         "question": "At what point during the loop choke sequence does the technique become inescapable for the defender, and what defines this threshold?",
         "answer": "The point of no escape occurs once the rolling motion is fully committed and the collar loop has cinched tight around both sides of the neck with the attacker's body rotation complete. Specifically, when the attacker has completed the roll and ended up on their back with the collar grip tight, the opponent's head trapped in the loop, and the head control hand driving the opponent's face into the constricting collar, escape becomes functionally impossible. Before this point, the defender can still abort the choke by stripping grips, sitting out, or standing up. After the roll completes with proper grip depth, the only realistic option for the defender is to tap immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After roll completes, grip cinched",
+        "distractors": {
+          "plausible": [
+            "Once four fingers are inserted",
+            "When head control first lands"
+          ],
+          "trap": [
+            "Only when opponent stops moving"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that cause the loop choke from turtle to fail even when the grip appears correctly positioned?",
         "answer": "The most common finishing errors are: allowing slack in the collar during the rolling motion, which lets the opponent's neck slip partially free of the loop; releasing head control during the roll, allowing the opponent to withdraw their head from the tightening collar; executing a half-committed roll that stalls without completing the full rotation, resulting in no finishing pressure; and pulling the collar grip toward the ceiling after the roll rather than toward the hip, which opens the loop instead of tightening it. Each of these errors breaks the mechanical chain that converts body rotation into collar tension and results in a choke that feels tight to the attacker but has insufficient bilateral carotid compression to force the tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Losing collar tension mid-roll",
+        "distractors": {
+          "plausible": [
+            "Rolling too fast, no control",
+            "Grip too shallow to start"
+          ],
+          "trap": [
+            "Pull grip toward ceiling"
+          ]
+        }
       },
       {
         "question": "Your collar grip begins to slip during the rolling motion - what grip adjustments can save the choke attempt?",
         "answer": "If the grip begins to slip mid-roll, immediately clamp your elbow tight to your ribs to prevent further slippage and drive your fist deeper into the collar by rotating your wrist inward. Do not try to re-grip mid-roll, as releasing and re-gripping will lose all collar tension. Instead, compensate by pulling the collar grip harder toward your hip while using your head-control hand to drive the opponent's neck more aggressively into the remaining collar tension. If the grip has slipped to the point where only your fingertips remain in the collar, abandon the choke attempt cleanly and use the remaining body contact to transition to back control or side control rather than forcing a failed choke from a compromised position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clamp elbow, drive grip deeper",
+        "distractors": {
+          "plausible": [
+            "Re-grip quickly mid-roll",
+            "Loosen grip to reposition"
+          ],
+          "trap": [
+            "Force choke on fingertip grip"
+          ]
+        }
       },
       {
         "question": "What minimum time period must you take when applying finishing pressure on the loop choke from turtle in training, and why is this especially important for rolling chokes?",
         "answer": "The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is especially critical for rolling chokes because the rolling motion itself creates sudden collar tension that can rapidly compress the carotid arteries before the partner fully recognizes the choke is locked. Unlike static chokes where pressure builds gradually, the rolling finish can create near-complete compression at the moment the roll completes. In training, you should pause briefly after completing the roll to check for a tap before adding finishing pressure. Verbal taps must be listened for carefully since hand taps may be harder to feel during the rolling transition. Competition-speed rolling is never appropriate in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 seconds, progressive pressure",
+        "distractors": {
+          "plausible": [
+            "Apply pressure instantly",
+            "Hold light pressure 10+ sec"
+          ],
+          "trap": [
+            "Competition-speed roll finish"
+          ]
+        }
       },
       {
         "question": "How should you modify your approach when the turtled opponent has an extremely tight defensive shell with elbows glued to knees and chin buried?",
         "answer": "Against a tight defensive turtle, the direct loop choke entry will be blocked by the chin tuck and elbow barrier. Instead of forcing the collar grip, use chain attacks to break down their defensive structure first. Threaten a clock choke setup from the side to force them to defend laterally, then use the opening to thread the cross-collar grip. Alternatively, snap their head down forcefully to create momentary collar slack, or attack with an anaconda setup that forces them to extend their arms, creating collar access. The loop choke works best as the second or third attack in a sequence, not as the opening move against a well-defended turtle. Patience and systematic defense degradation produce higher completion rates than repeated forced collar grip attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain attacks to open the collar",
+        "distractors": {
+          "plausible": [
+            "Force the collar grip harder",
+            "Attack clock choke only"
+          ],
+          "trap": [
+            "Repeat the same grip attempt"
+          ]
+        }
       },
       {
         "question": "What immediate actions must you take when your training partner taps during the rolling sequence of the loop choke?",
         "answer": "Upon feeling or hearing any tap signal during the rolling sequence, immediately release the collar grip completely and remove all head control pressure. Because the rolling position can trap the opponent in an awkward configuration, actively unwind your body from the entanglement and create clear space between you and your partner. Check their alertness and awareness, paying special attention to signs of disorientation since the rolling motion combined with carotid compression can cause brief confusion. Allow a minimum of 60 seconds recovery time before resuming. Never hesitate or question whether a tap during the roll was intentional - the physical awkwardness of the position means taps may feel unusual but must always be honored instantly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, check partner",
+        "distractors": {
+          "plausible": [
+            "Ease pressure, finish position",
+            "Confirm tap before releasing"
+          ],
+          "trap": [
+            "Assume the tap was accidental"
+          ]
+        }
       },
       {
         "question": "What should you do if the loop choke does not produce a tap within 5-6 seconds of applying finishing pressure after completing the roll?",
         "answer": "If the choke has not produced a tap within 5-6 seconds of proper pressure application after the roll, the setup is almost certainly incorrect and you should release the pressure and reassess rather than continuing to force it. The most likely problems are a shallow grip creating an air choke rather than a blood choke, collar slack that allows the opponent's neck to breathe within the loop, or improper finishing vectors where you are pulling the grip in the wrong direction. Release the choke, maintain whatever positional control you have, and either regrip with better depth or transition to an alternative attack. Forcing a poorly positioned choke demonstrates poor technical understanding and creates unnecessary injury risk.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, reassess grip depth",
+        "distractors": {
+          "plausible": [
+            "Keep pressure, wait longer",
+            "Switch to a harder squeeze"
+          ],
+          "trap": [
+            "Force the choke to finish it"
+          ]
+        }
       },
       {
         "question": "In competition, what strategies maximize your completion rate with the loop choke from turtle?",
         "answer": "Competition finishing strategies include establishing the collar grip incrementally while the opponent is focused on defending the back take rather than collar attacks, since the back take is the more commonly recognized turtle threat. Use snap-downs and tempo changes to create momentary collar slack for grip insertion. Time the rolling finish when the opponent is recovering from a failed escape attempt and their defensive shell has loosened. Chain the loop choke with clock choke and anaconda threats so the opponent cannot predict which attack is coming. Commit fully and explosively to the roll once both grips are secured rather than telegraphing the motion. If the first roll attempt fails, use the scramble to secure back control or side control rather than reattempting the choke from a compromised angle. In overtime or advantage situations, even a partially locked loop choke creates excellent pressure for forcing positional concessions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain threats, commit fully to roll",
+        "distractors": {
+          "plausible": [
+            "Telegraph the roll early",
+            "Attack collar before back take"
+          ],
+          "trap": [
+            "Reattempt from a bad angle"
+          ]
+        }
       },
       {
         "question": "How does attacking from the side versus the front of a turtled opponent change the rolling mechanics of the loop choke?",
         "answer": "From the front, the rolling motion goes directly over the opponent's head and shoulders, with the attacker rolling forward and ending on their back with the opponent's head trapped in the collar loop. This creates maximum rotational collar tension but requires committing your entire body over the opponent, which is higher risk if the grip is not perfect. From the side, the rolling motion is more lateral, with the attacker sprawling their hips away while pulling the opponent's head into the collar loop. The side approach allows a sprawl-based finish without a full roll, which maintains more positional control if the choke fails. The side attack also allows easier transitions to clock choke or back take if the loop choke defense is successful. Choose the front roll for maximum finishing power when grips are deep and secure, and the side approach when you want a safer attack with better fallback options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Front rolls over, side sprawls",
+        "distractors": {
+          "plausible": [
+            "Side gives more finishing power",
+            "Front is safer, less committal"
+          ],
+          "trap": [
+            "Roll away from opponent's head"
+          ]
+        }
       }
     ],
     "clips": [
@@ -490,27 +610,77 @@
       {
         "question": "What is the single most effective moment to defend the loop choke from turtle, and why does defense become exponentially harder after this window closes?",
         "answer": "The most effective defensive moment is during the initial collar grip insertion, before the attacker threads four fingers deep into the far collar. At this stage, a deep chin tuck combined with active hand defense on the collar opening can completely prevent the choke from developing. Once the deep grip is established, every subsequent defensive action requires sacrificing turtle base integrity to fight the grip or disrupt the roll, creating compound problems. After the rolling motion begins with a deep grip, the rotational mechanics create self-tightening pressure that makes the choke nearly inescapable. Early prevention costs minimal energy and risk compared to late-stage escape attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defend grip before it's deep",
+        "distractors": {
+          "plausible": [
+            "Fight the grip after it's set",
+            "Escape once the roll begins"
+          ],
+          "trap": [
+            "Granby roll to unwind"
+          ]
+        }
       },
       {
         "question": "When should you tap to the loop choke from turtle rather than continue attempting to escape?",
         "answer": "You should tap immediately when you feel bilateral compression on both carotid arteries after the attacker has completed the rolling motion with a deep grip and the collar loop is fully cinched around your neck. Once the roll completes with proper mechanics, unconsciousness can occur within 8-12 seconds of full compression, and no effective escape exists from this configuration. The rolling motion creates sudden, powerful collar tension that can compress the carotids rapidly. In training, always err on the side of tapping early rather than trying to ride out a locked choke, as the rolling mechanics can cause faster onset of unconsciousness than static chokes due to the sudden rotational tightening.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once roll locks, grip cinched",
+        "distractors": {
+          "plausible": [
+            "Wait for full unconsciousness",
+            "Tap only if air is cut off"
+          ],
+          "trap": [
+            "Try to ride out the choke"
+          ]
+        }
       },
       {
         "question": "Why is a granby roll particularly dangerous as an escape when the attacker already has a deep collar grip from turtle top?",
         "answer": "The granby roll is dangerous because its rotational motion mimics the exact rolling mechanics that the attacker needs to finish the loop choke. When the defender granby rolls, they rotate their own neck into the tightening collar loop, effectively doing the attacker's work by providing the rotation that cinches the choke. The attacker can simply maintain their collar grip and let the defender's escape attempt become the finishing mechanism. This is one of the most dangerous defensive errors in turtle because the defender accelerates their own submission. Instead, escapes should move linearly away from the choking hand through sit-outs, stand-ups, or driving forward into the attacker.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Granby feeds the choke rotation",
+        "distractors": {
+          "plausible": [
+            "Granby just loses positioning",
+            "Granby only risks getting stacked"
+          ],
+          "trap": [
+            "Sit-out is equally dangerous"
+          ]
+        }
       },
       {
         "question": "How does the attacker's weight shift during the loop choke setup create escape opportunities for the turtled defender?",
         "answer": "The attacker must shift their weight in predictable ways during the setup: they lean to one side when threading the collar grip, reducing pressure on the opposite side of the turtle. When they reposition from behind to the front or side for the rolling angle, their hip pressure decreases momentarily. Most critically, when they commit their weight forward and downward to initiate the rolling motion, their ability to follow lateral movement is severely compromised. The optimal escape window is the split-second when the attacker commits to the roll, because their weight is locked into a forward trajectory and they cannot redirect to follow a sit-out in the opposite direction. Reading these weight shifts through tactile awareness is essential for timing escapes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Escape when attacker commits roll",
+        "distractors": {
+          "plausible": [
+            "Escape during initial grip fight",
+            "Escape right after head control"
+          ],
+          "trap": [
+            "Wait until the roll fully finishes"
+          ]
+        }
       },
       {
         "question": "What defensive body position best prevents the loop choke from being established while maintaining enough base to defend other turtle attacks?",
         "answer": "The optimal defensive position combines a deeply tucked chin pressed firmly against the chest, the near-side hand actively protecting the collar opening at the neck, the opposite hand maintaining base on the mat, elbows tight to the ribs, and hips slightly angled rather than perfectly square. This configuration blocks collar grip insertion with the chin tuck, provides active hand defense against grip attempts, maintains a three-point base adequate for preventing flattening, and creates slight instability in the attacker's positioning through the hip angle. The key trade-off is accepting a weaker base from having one hand off the mat, which is necessary because a perfect four-point base with no collar defense allows the attacker to establish grips unopposed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tucked, hand blocks collar",
+        "distractors": {
+          "plausible": [
+            "Both hands flat, chin up",
+            "Square hips, elbows wide"
+          ],
+          "trap": [
+            "Hands defend legs, not collar"
+          ]
+        }
       }
     ],
     "training_progressions": [

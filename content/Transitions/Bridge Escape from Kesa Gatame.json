@@ -261,35 +261,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the bridge escape from Kesa Gatame?",
-        "answer": "The optimal window opens when the top player shifts weight to attempt a submission (such as reaching for an Americana), adjusts their position by lifting their hips, or momentarily reduces chest pressure to reposition their head control. These moments create brief reductions in downward pressure that allow your bridge to generate maximum displacement. Attempting the bridge against a fully settled, heavily based opponent dramatically reduces success probability."
+        "answer": "The optimal window opens when the top player shifts weight to attempt a submission (such as reaching for an Americana), adjusts their position by lifting their hips, or momentarily reduces chest pressure to reposition their head control. These moments create brief reductions in downward pressure that allow your bridge to generate maximum displacement. Attempting the bridge against a fully settled, heavily based opponent dramatically reduces success probability.",
+        "answer_line": "When their pressure eases",
+        "distractors": {
+          "plausible": [
+            "As soon as they settle in",
+            "Right after they crossface"
+          ],
+          "trap": [
+            "The instant kesa is locked in"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's far arm the most critical preparatory step?",
-        "answer": "The opponent's far arm is their primary posting tool for absorbing bridge force. Without this arm available to post, a well-directed bridge displaces their entire weight because they have no structural support on the weak side. With the posting arm free, even a powerful bridge is easily absorbed—the opponent simply extends their arm to the mat and maintains their base throughout your bridge attempt, making the escape nearly impossible regardless of your bridge power."
+        "answer": "The opponent's far arm is their primary posting tool for absorbing bridge force. Without this arm available to post, a well-directed bridge displaces their entire weight because they have no structural support on the weak side. With the posting arm free, even a powerful bridge is easily absorbed—the opponent simply extends their arm to the mat and maintains their base throughout your bridge attempt, making the escape nearly impossible regardless of your bridge power.",
+        "answer_line": "Removes their bridge-absorbing post",
+        "distractors": {
+          "plausible": [
+            "Frees your hips to shrimp",
+            "Stops them stacking your legs"
+          ],
+          "trap": [
+            "Lets you attack their near arm"
+          ]
+        }
       },
       {
         "question": "What direction should you bridge and why does it matter?",
-        "answer": "Bridge at a 45-degree angle toward your trapped arm side—this is the direction where the opponent's base is weakest due to their perpendicular alignment in Kesa Gatame. The opponent has their weight distributed along a line from their posted leg to their head control side. Bridging toward the trapped arm side attacks perpendicular to their base line, where they have the least structural resistance. Bridging straight up or toward their posted leg attacks into their strongest base."
+        "answer": "Bridge at a 45-degree angle toward your trapped arm side—this is the direction where the opponent's base is weakest due to their perpendicular alignment in Kesa Gatame. The opponent has their weight distributed along a line from their posted leg to their head control side. Bridging toward the trapped arm side attacks perpendicular to their base line, where they have the least structural resistance. Bridging straight up or toward their posted leg attacks into their strongest base.",
+        "answer_line": "45° toward your trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Straight up into their chest",
+            "Toward their posted-leg side"
+          ],
+          "trap": [
+            "Away from your trapped arm"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base after feeling your feet plant—how do you adjust your escape strategy?",
-        "answer": "When the opponent widens their base preemptively, the bridge escape becomes significantly less effective because their spread legs can absorb lateral force. Immediately chain to a ghost escape or back take attempt instead, as their widened base opens their back for turning escapes. You can also feint the bridge to draw the base-widening response, then immediately chain to the ghost escape while their attention is directed at defending the bridge direction."
+        "answer": "When the opponent widens their base preemptively, the bridge escape becomes significantly less effective because their spread legs can absorb lateral force. Immediately chain to a ghost escape or back take attempt instead, as their widened base opens their back for turning escapes. You can also feint the bridge to draw the base-widening response, then immediately chain to the ghost escape while their attention is directed at defending the bridge direction.",
+        "answer_line": "Switch to ghost escape/back take",
+        "distractors": {
+          "plausible": [
+            "Bridge harder into their base",
+            "Wait for them to relax again"
+          ],
+          "trap": [
+            "Force the bridge through anyway"
+          ]
+        }
       },
       {
         "question": "What must happen immediately after the bridge creates space?",
-        "answer": "You must insert your near-side knee across the opponent's hip line within the fraction of a second that space exists at the bridge apex. The space window is extremely brief—the opponent's weight begins returning as soon as your bridge peaks. The knee insertion and bridge should feel like one continuous movement rather than two distinct actions. Any pause between the bridge peak and knee insertion allows the opponent to resettle and close the space."
+        "answer": "You must insert your near-side knee across the opponent's hip line within the fraction of a second that space exists at the bridge apex. The space window is extremely brief—the opponent's weight begins returning as soon as your bridge peaks. The knee insertion and bridge should feel like one continuous movement rather than two distinct actions. Any pause between the bridge peak and knee insertion allows the opponent to resettle and close the space.",
+        "answer_line": "Insert near knee across their hips",
+        "distractors": {
+          "plausible": [
+            "Post your far hand and reset",
+            "Turn away into a ghost escape"
+          ],
+          "trap": [
+            "Pause to catch your breath"
+          ]
+        }
       },
       {
         "question": "How does the bridge escape complement the ghost escape from Kesa Gatame?",
-        "answer": "The bridge escape attacks the opponent's base by driving into them (turning toward the opponent), while the ghost escape attacks their exposed back by turning away. This creates a two-directional escape dilemma: if the opponent sits back heavily to defend ghost escapes, they become lighter on your chest and more vulnerable to bridges. If they drive forward with heavy pressure to prevent bridges, they expose their back further for ghost escapes. Training both escapes together forces the opponent to defend two opposing threats simultaneously."
+        "answer": "The bridge escape attacks the opponent's base by driving into them (turning toward the opponent), while the ghost escape attacks their exposed back by turning away. This creates a two-directional escape dilemma: if the opponent sits back heavily to defend ghost escapes, they become lighter on your chest and more vulnerable to bridges. If they drive forward with heavy pressure to prevent bridges, they expose their back further for ghost escapes. Training both escapes together forces the opponent to defend two opposing threats simultaneously.",
+        "answer_line": "Creates a two-way escape dilemma",
+        "distractors": {
+          "plausible": [
+            "Both attack the same angle",
+            "Ghost escape sets up the grip"
+          ],
+          "trap": [
+            "Only ever use one, not both"
+          ]
+        }
       },
       {
         "question": "Your bridge attempt fails and the opponent drives you flat again—what is your immediate follow-up?",
-        "answer": "Do not attempt a second immediate bridge as you will be exhausted and the opponent will be prepared. Instead, immediately chain to an alternative escape—attempt a ghost escape by turning away from the opponent, or use frames to create space for a hip escape toward guard recovery. The failed bridge may have created slight positional changes that make other escapes more viable. Return to your frame, recover your breathing briefly, and attack from a different angle rather than repeating the same failed attempt."
+        "answer": "Do not attempt a second immediate bridge as you will be exhausted and the opponent will be prepared. Instead, immediately chain to an alternative escape—attempt a ghost escape by turning away from the opponent, or use frames to create space for a hip escape toward guard recovery. The failed bridge may have created slight positional changes that make other escapes more viable. Return to your frame, recover your breathing briefly, and attack from a different angle rather than repeating the same failed attempt.",
+        "answer_line": "Chain to a different escape",
+        "distractors": {
+          "plausible": [
+            "Immediately re-bridge harder",
+            "Rest flat until fully recovered"
+          ],
+          "trap": [
+            "Repeat the same bridge again"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize on the opponent's far arm and why?",
-        "answer": "In gi, grip the sleeve at the wrist for maximum control over the posting arm with minimal effort—the sleeve grip provides a secure mechanical advantage that is difficult to strip. In no-gi, a two-on-one grip on the wrist gives the best control, though a single wrist grab works if the bridge is timed well. Avoid gripping above the elbow as this still allows the forearm and hand to post effectively. The further down toward the hand you control, the more completely you eliminate their posting ability."
+        "answer": "In gi, grip the sleeve at the wrist for maximum control over the posting arm with minimal effort—the sleeve grip provides a secure mechanical advantage that is difficult to strip. In no-gi, a two-on-one grip on the wrist gives the best control, though a single wrist grab works if the bridge is timed well. Avoid gripping above the elbow as this still allows the forearm and hand to post effectively. The further down toward the hand you control, the more completely you eliminate their posting ability.",
+        "answer_line": "Sleeve/wrist grip, not above elbow",
+        "distractors": {
+          "plausible": [
+            "Grip above the elbow instead",
+            "Grab their far shoulder"
+          ],
+          "trap": [
+            "Let the far arm stay free"
+          ]
+        }
       }
     ],
     "safety_considerations": "Bridge escapes involve significant spinal loading and neck pressure during the explosive hip extension phase. Always warm up the neck, spine, and hips thoroughly before drilling. When training, the top player should allow escape completion at lower resistance levels rather than applying maximum counterforce to bridge attempts, as forced bridges against immovable resistance can strain the lower back and cervical spine. Both partners should communicate about pressure levels throughout drilling. The bottom player should never force a bridge that produces sharp pain in the neck or lower back—abandon the attempt and reset rather than risking injury.",
@@ -398,19 +478,59 @@
     "flashcards": [
       {
         "question": "What are the earliest signs that the bottom player is setting up a bridge escape?",
-        "answer": "The earliest signs are the bottom player planting both feet flat on the mat close to their hips (loading the bridge), their free hand reaching across your body to target your far wrist or sleeve, and a visible tightening of their core muscles. Often the grip fight for your far arm is the first indicator—if the bottom player is actively seeking your far arm rather than trying to create frames, they are likely preparing a bridge escape rather than a shrimping escape."
+        "answer": "The earliest signs are the bottom player planting both feet flat on the mat close to their hips (loading the bridge), their free hand reaching across your body to target your far wrist or sleeve, and a visible tightening of their core muscles. Often the grip fight for your far arm is the first indicator—if the bottom player is actively seeking your far arm rather than trying to create frames, they are likely preparing a bridge escape rather than a shrimping escape.",
+        "answer_line": "Feet planted, hunting your wrist",
+        "distractors": {
+          "plausible": [
+            "Hands framing on your hips",
+            "Legs shrimping away from you"
+          ],
+          "trap": [
+            "Relaxed grip, breathing heavy"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base when you feel an explosive bridge beginning?",
-        "answer": "Immediately widen your far leg posting and drive your hips low, sinking your weight into the opponent's chest through gravity rather than muscular effort. Your far hand should post on the mat if it is not already controlled by the opponent. Drive your shoulder pressure into the opponent's face to limit their rotational ability. The key is lowering your center of gravity and widening your support base before the bridge reaches its peak force."
+        "answer": "Immediately widen your far leg posting and drive your hips low, sinking your weight into the opponent's chest through gravity rather than muscular effort. Your far hand should post on the mat if it is not already controlled by the opponent. Drive your shoulder pressure into the opponent's face to limit their rotational ability. The key is lowering your center of gravity and widening your support base before the bridge reaches its peak force.",
+        "answer_line": "Widen base, drop hips, post hand",
+        "distractors": {
+          "plausible": [
+            "Grip tighter, sit up higher",
+            "Drive your knee across now"
+          ],
+          "trap": [
+            "Stand up to reset your base"
+          ]
+        }
       },
       {
         "question": "The bottom player bridges successfully and starts turning toward you—how do you capitalize on their movement?",
-        "answer": "Use their rotation as an opportunity to advance to mount. As they bridge and turn their hips toward you, their movement creates a natural pathway for you to step your far leg over their body. Swing your leg over while maintaining head control, settling into mount as their rotation brings their hips underneath you. This converts their escape attempt into a positional advancement, and their own bridge momentum assists the transition rather than hindering it."
+        "answer": "Use their rotation as an opportunity to advance to mount. As they bridge and turn their hips toward you, their movement creates a natural pathway for you to step your far leg over their body. Swing your leg over while maintaining head control, settling into mount as their rotation brings their hips underneath you. This converts their escape attempt into a positional advancement, and their own bridge momentum assists the transition rather than hindering it.",
+        "answer_line": "Step over into mount",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to kesa gatame",
+            "Chase the far arm for kimura"
+          ],
+          "trap": [
+            "Release head control, disengage"
+          ]
+        }
       },
       {
         "question": "What is the most common mistake top players make when a bridge escape is attempted from Kesa Gatame?",
-        "answer": "The most common mistake is maintaining a high center of gravity with a narrow base. Many practitioners sit upright in Kesa Gatame with their legs close together, which provides minimal resistance to an explosive directional bridge. By the time they react to the bridge, their weight has already been displaced past the point of recovery. Proactive base maintenance—keeping hips low and the far leg posted wide before any escape attempt—is the fundamental defense that prevents the bridge from generating sufficient displacement."
+        "answer": "The most common mistake is maintaining a high center of gravity with a narrow base. Many practitioners sit upright in Kesa Gatame with their legs close together, which provides minimal resistance to an explosive directional bridge. By the time they react to the bridge, their weight has already been displaced past the point of recovery. Proactive base maintenance—keeping hips low and the far leg posted wide before any escape attempt—is the fundamental defense that prevents the bridge from generating sufficient displacement.",
+        "answer_line": "Upright posture, narrow base",
+        "distractors": {
+          "plausible": [
+            "Overcommitting to arm control",
+            "Chasing submissions too early"
+          ],
+          "trap": [
+            "Basing too wide, too low"
+          ]
+        }
       }
     ],
     "training_progressions": [

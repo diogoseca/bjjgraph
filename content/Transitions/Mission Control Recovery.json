@@ -214,43 +214,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Mission Control Recovery?",
-        "answer": "The primary goal is to return to Mission Control position when a gogoplata attempt fails, preserving positional advantage and attack options rather than conceding the entire guard position. This transforms a failed submission into continued offensive pressure."
+        "answer": "The primary goal is to return to Mission Control position when a gogoplata attempt fails, preserving positional advantage and attack options rather than conceding the entire guard position. This transforms a failed submission into continued offensive pressure.",
+        "answer_line": "Return to Mission Control position",
+        "distractors": {
+          "plausible": [
+            "Reset to closed guard",
+            "Finish the gogoplata anyway"
+          ],
+          "trap": [
+            "Release guard and stand up"
+          ]
+        }
       },
       {
         "question": "What grip must be secured before withdrawing the shin from the opponent's throat?",
-        "answer": "The overhook on the opponent's far arm must be secured tightly before any leg movement. This overhook prevents them from posturing up when you remove the shin and provides control throughout the transition. Without it, the recovery will fail."
+        "answer": "The overhook on the opponent's far arm must be secured tightly before any leg movement. This overhook prevents them from posturing up when you remove the shin and provides control throughout the transition. Without it, the recovery will fail.",
+        "answer_line": "Overhook the far arm",
+        "distractors": {
+          "plausible": [
+            "Underhook the near arm",
+            "Grip their far wrist"
+          ],
+          "trap": [
+            "Let go and post hands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hand-fighting your foot behind their head - how do you decide between continuing gogoplata and initiating recovery?",
-        "answer": "Evaluate shin angle and hip elevation. If your shin is still perpendicular to their throat and your hips are elevated, continue the gogoplata attempt by pulling your foot deeper. If shin angle has become parallel or hips have dropped significantly, initiate recovery immediately before they fully escape."
+        "answer": "Evaluate shin angle and hip elevation. If your shin is still perpendicular to their throat and your hips are elevated, continue the gogoplata attempt by pulling your foot deeper. If shin angle has become parallel or hips have dropped significantly, initiate recovery immediately before they fully escape.",
+        "answer_line": "Check shin angle, hip height",
+        "distractors": {
+          "plausible": [
+            "Check grip tightness only",
+            "Check opponent's breathing"
+          ],
+          "trap": [
+            "Always finish once started"
+          ]
+        }
       },
       {
         "question": "What is the critical hip positioning requirement during the transition from gogoplata to Mission Control?",
-        "answer": "Hips must remain elevated throughout the transition, never dropping flat to the mat. This maintains the angle needed for Mission Control to be effective and prevents the opponent from driving forward during the recovery. Core engagement keeps the pelvis tilted toward the ceiling."
+        "answer": "Hips must remain elevated throughout the transition, never dropping flat to the mat. This maintains the angle needed for Mission Control to be effective and prevents the opponent from driving forward during the recovery. Core engagement keeps the pelvis tilted toward the ceiling.",
+        "answer_line": "Keep hips elevated",
+        "distractors": {
+          "plausible": [
+            "Keep hips squared flat",
+            "Keep knees pinched together"
+          ],
+          "trap": [
+            "Drop hips to base out"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively as you withdraw your shin - what immediate adjustment should you make?",
-        "answer": "Use the overhook to redirect their forward momentum laterally rather than absorbing it directly. As they drive forward, angle your hips and use the overhook to guide them past you, transitioning to omoplata setup. Their aggression provides the rotation needed for the omoplata angle."
+        "answer": "Use the overhook to redirect their forward momentum laterally rather than absorbing it directly. As they drive forward, angle your hips and use the overhook to guide them past you, transitioning to omoplata setup. Their aggression provides the rotation needed for the omoplata angle.",
+        "answer_line": "Redirect into omoplata via overhook",
+        "distractors": {
+          "plausible": [
+            "Absorb the pressure and wait",
+            "Pull guard closed tighter"
+          ],
+          "trap": [
+            "Push back head-on"
+          ]
+        }
       },
       {
         "question": "How does Mission Control Recovery change the strategic value of gogoplata attempts?",
-        "answer": "It transforms gogoplata from a high-risk single-attempt technique into part of a cyclical attack system. Practitioners can attack gogoplata knowing that failure leads to Mission Control rather than guard loss, allowing repeated attempts and creating cumulative defensive fatigue in the opponent."
+        "answer": "It transforms gogoplata from a high-risk single-attempt technique into part of a cyclical attack system. Practitioners can attack gogoplata knowing that failure leads to Mission Control rather than guard loss, allowing repeated attempts and creating cumulative defensive fatigue in the opponent.",
+        "answer_line": "Enables repeated gogoplata attempts",
+        "distractors": {
+          "plausible": [
+            "Makes gogoplata safer to abandon",
+            "Speeds up the submission"
+          ],
+          "trap": [
+            "Forces a one-shot commitment"
+          ]
+        }
       },
       {
         "question": "What distinguishes proper shin withdrawal from the common error of jerking the leg back?",
-        "answer": "Proper withdrawal is smooth and controlled, maintaining hip connection with the opponent throughout. The shin slides back while the leg stays bent with foot near the shoulder. Jerking creates momentary space that opponents exploit for frames and posture. The movement should take about one second with no sudden acceleration."
+        "answer": "Proper withdrawal is smooth and controlled, maintaining hip connection with the opponent throughout. The shin slides back while the leg stays bent with foot near the shoulder. Jerking creates momentary space that opponents exploit for frames and posture. The movement should take about one second with no sudden acceleration.",
+        "answer_line": "Smooth slide, stay connected",
+        "distractors": {
+          "plausible": [
+            "Fast snap to beat the escape",
+            "Withdraw then repost hips"
+          ],
+          "trap": [
+            "Yank the leg free quickly"
+          ]
+        }
       },
       {
         "question": "After placing your foot behind the opponent's shoulder blade, what must happen immediately to consolidate Mission Control?",
-        "answer": "You must grab your own shin with your free hand to lock the position. Simultaneously pull your knee toward your chest while using the overhook arm to push the opponent's head down. This creates the stable Mission Control configuration that enables subsequent attack chains."
+        "answer": "You must grab your own shin with your free hand to lock the position. Simultaneously pull your knee toward your chest while using the overhook arm to push the opponent's head down. This creates the stable Mission Control configuration that enables subsequent attack chains.",
+        "answer_line": "Grab own shin, lock it in",
+        "distractors": {
+          "plausible": [
+            "Grab opponent's collar first",
+            "Switch overhook to underhook"
+          ],
+          "trap": [
+            "Release overhook to grip shin"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating Mission Control Recovery?",
-        "answer": "The optimal window is when the gogoplata is clearly failing but before the opponent has fully extracted their head or achieved posture. Specifically, when the shin angle has shifted from perpendicular to diagonal but the foot is still partially behind the head. Waiting until full escape means recovery is no longer possible."
+        "answer": "The optimal window is when the gogoplata is clearly failing but before the opponent has fully extracted their head or achieved posture. Specifically, when the shin angle has shifted from perpendicular to diagonal but the foot is still partially behind the head. Waiting until full escape means recovery is no longer possible.",
+        "answer_line": "Shin diagonal, foot still in",
+        "distractors": {
+          "plausible": [
+            "Only after full head extraction",
+            "As soon as grip loosens slightly"
+          ],
+          "trap": [
+            "Wait until they fully posture up"
+          ]
+        }
       },
       {
         "question": "Your overhook feels loose during the shin withdrawal phase - what should you do before continuing the recovery?",
-        "answer": "Stop the leg withdrawal immediately and re-tighten the overhook by threading your arm deeper over their tricep and cinching your grip. The overhook is the primary control mechanism during recovery. Continuing with a loose overhook means the opponent will posture the moment the shin clears their throat, resulting in complete guard loss."
+        "answer": "Stop the leg withdrawal immediately and re-tighten the overhook by threading your arm deeper over their tricep and cinching your grip. The overhook is the primary control mechanism during recovery. Continuing with a loose overhook means the opponent will posture the moment the shin clears their throat, resulting in complete guard loss.",
+        "answer_line": "Stop leg, retighten overhook",
+        "distractors": {
+          "plausible": [
+            "Speed up the leg withdrawal",
+            "Switch to a collar grip"
+          ],
+          "trap": [
+            "Continue withdrawing regardless"
+          ]
+        }
       }
     ],
     "safety_considerations": "Mission Control Recovery is generally safe as a transitional technique since it does not involve joint locks or chokes directly. The primary safety concern is hip and hamstring flexibility - practitioners without adequate flexibility attempting rubber guard positions risk hip flexor or hamstring strains. Always warm up thoroughly before drilling. During recovery attempts, avoid jerking leg movements that could strain the groin. If you feel joint discomfort in the hip during the transition, release the position entirely rather than forcing the recovery. Partners should avoid explosive passing attempts during early drilling phases to allow proper technique development. In live training, tap immediately if you feel your hip being forced past its comfortable range during the recovery movement.",
@@ -366,23 +466,73 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for defending against Mission Control Recovery?",
-        "answer": "The window opens the moment the bottom player's shin begins sliding off your throat and closes when they grab their own shin to lock Mission Control. This window lasts approximately one to two seconds. Any defensive action taken after the shin grab consolidates Mission Control will face dramatically higher resistance because the position's structural integrity is restored."
+        "answer": "The window opens the moment the bottom player's shin begins sliding off your throat and closes when they grab their own shin to lock Mission Control. This window lasts approximately one to two seconds. Any defensive action taken after the shin grab consolidates Mission Control will face dramatically higher resistance because the position's structural integrity is restored.",
+        "answer_line": "Shin off throat to shin grab",
+        "distractors": {
+          "plausible": [
+            "Only while foot is on throat",
+            "After Mission Control is locked"
+          ],
+          "trap": [
+            "Wait for the submission attempt"
+          ]
+        }
       },
       {
         "question": "Why is attacking the overhook more effective than fighting the recovering leg during the transition?",
-        "answer": "The overhook is the bottom player's primary control mechanism during the entire recovery. Without it, they cannot maintain broken posture, control head position, or prevent you from creating distance. Removing the overhook collapses the entire rubber guard structure, while fighting only the leg leaves the fundamental control intact and allows repeated re-attempts at leg placement."
+        "answer": "The overhook is the bottom player's primary control mechanism during the entire recovery. Without it, they cannot maintain broken posture, control head position, or prevent you from creating distance. Removing the overhook collapses the entire rubber guard structure, while fighting only the leg leaves the fundamental control intact and allows repeated re-attempts at leg placement.",
+        "answer_line": "Overhook is the real control",
+        "distractors": {
+          "plausible": [
+            "Leg is easier to strip",
+            "Both matter equally"
+          ],
+          "trap": [
+            "Focus on peeling the foot"
+          ]
+        }
       },
       {
         "question": "Your opponent's shin slides off your throat and they begin reaching for their own shin to lock Mission Control - what is your highest-percentage response?",
-        "answer": "Immediately drive your hips back while turning your trapped shoulder inward to strip the overhook in one motion. The bottom player's attention is divided between securing the leg and maintaining the overhook, creating a brief moment where the overhook is weakest. Combining posture recovery with overhook stripping exploits both vulnerabilities simultaneously during the transition."
+        "answer": "Immediately drive your hips back while turning your trapped shoulder inward to strip the overhook in one motion. The bottom player's attention is divided between securing the leg and maintaining the overhook, creating a brief moment where the overhook is weakest. Combining posture recovery with overhook stripping exploits both vulnerabilities simultaneously during the transition.",
+        "answer_line": "Hips back, strip the overhook",
+        "distractors": {
+          "plausible": [
+            "Posture up, ignore the arm",
+            "Grab their ankle instead"
+          ],
+          "trap": [
+            "Push forward into them"
+          ]
+        }
       },
       {
         "question": "What distinguishes an effective forward pressure defense from one that gets redirected into omoplata?",
-        "answer": "Effective forward pressure is preceded by controlling or pinning the overhook arm against the bottom player's body, removing their ability to redirect your momentum. Ineffective forward pressure ignores the overhook, allowing the bottom player to angle their hips and use your own driving force to rotate you into omoplata. The overhook arm must be addressed before committing weight forward."
+        "answer": "Effective forward pressure is preceded by controlling or pinning the overhook arm against the bottom player's body, removing their ability to redirect your momentum. Ineffective forward pressure ignores the overhook, allowing the bottom player to angle their hips and use your own driving force to rotate you into omoplata. The overhook arm must be addressed before committing weight forward.",
+        "answer_line": "Pin overhook arm first",
+        "distractors": {
+          "plausible": [
+            "Drive weight through hips",
+            "Flatten their shoulders down"
+          ],
+          "trap": [
+            "Charge forward immediately"
+          ]
+        }
       },
       {
         "question": "How does successfully defending Mission Control Recovery affect the overall rubber guard exchange?",
-        "answer": "Preventing the recovery breaks the rubber guard attack cycle entirely. The bottom player loses their specialized positional advantage and must rebuild from closed guard or half guard, which are neutral positions without the submission-chain structure of rubber guard. This forces them to re-enter the rubber guard system from scratch, expending significant energy while you reset to a more favorable defensive position."
+        "answer": "Preventing the recovery breaks the rubber guard attack cycle entirely. The bottom player loses their specialized positional advantage and must rebuild from closed guard or half guard, which are neutral positions without the submission-chain structure of rubber guard. This forces them to re-enter the rubber guard system from scratch, expending significant energy while you reset to a more favorable defensive position.",
+        "answer_line": "Breaks the rubber guard cycle",
+        "distractors": {
+          "plausible": [
+            "Ends the match immediately",
+            "Forces a scramble to back"
+          ],
+          "trap": [
+            "Ease off, let them recover"
+          ]
+        }
       }
     ],
     "training_progressions": [

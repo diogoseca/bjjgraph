@@ -296,52 +296,152 @@
       {
         "question": "What anatomical structure does the belly down armbar from turtle primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextension of the ulnohumeral joint against its natural range of motion. The collateral ligaments (MCL and LCL) and the joint capsule bear the submission force. Secondary stress falls on the shoulder girdle as the prone position adds a compressive rotational component through body weight pressing down on the isolated arm while it is extended.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint rotation",
+            "Wrist hyperextension"
+          ],
+          "trap": [
+            "Bicep tendon rupture"
+          ]
+        }
       },
       {
         "question": "How does the arm isolation challenge from turtle differ from attacking the belly down armbar from armbar control?",
         "answer": "From armbar control, the arm is already isolated between your legs with hips positioned at the shoulder — you simply need to transition from supine to prone. From turtle, the opponent's arms are typically protected in an elbows-to-knees shell, meaning you must first create arm exposure through pressure, grip fighting, or exploiting defensive reactions like posting. This additional isolation step makes the turtle entry lower percentage but also less expected, as the opponent may not recognize the armbar threat until the step-over is already in progress.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm hidden, must expose it first",
+        "distractors": {
+          "plausible": [
+            "Hips already at the shoulder",
+            "Same isolation as armbar control"
+          ],
+          "trap": [
+            "Assume arm already isolated"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a tight elbows-to-knees turtle and refuses to post — what technique creates the arm isolation needed for the belly down armbar?",
         "answer": "Use the elbow peel technique: maintain heavy chest pressure on their upper back with one hand while using your other hand to grip their elbow and physically pry it away from their knee. Drive your peeling hand upward and outward to create separation, then immediately secure two-on-one wrist control on the exposed arm before they can re-tuck. The chest pressure prevents them from rotating or standing during the peel, creating the necessary window for arm isolation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel elbow, secure two-on-one grip",
+        "distractors": {
+          "plausible": [
+            "Yank the wrist to free the arm",
+            "Wait for them to post"
+          ],
+          "trap": [
+            "Release chest pressure to peel"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the belly-down position is properly established before attempting the finish?",
         "answer": "Your hip crease should be in direct contact with the back of the opponent's elbow or upper arm with zero gap — no daylight visible between your body and their arm. Your knees should be pinched tightly together around the trapped arm creating a secure vice. The opponent's wrist should be pulled tight to your chest centerline with their thumb oriented upward. Your chest should be flat toward the mat with body weight settled through the arm. If any of these elements are missing, adjust before committing to the extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip crease tight, no gap at elbow",
+        "distractors": {
+          "plausible": [
+            "Knees wide, arm pinned by hips",
+            "Chest lifted, weight on hips"
+          ],
+          "trap": [
+            "Wrist held loose, thumb down"
+          ]
+        }
       },
       {
         "question": "During the step-over transition, your opponent initiates a granby roll — what is the correct response?",
         "answer": "If you have secure wrist control, follow the roll while maintaining your grip and adjust your step-over to match their new angle. Their rotation often actually facilitates completing the belly-down position from the new orientation. If the granby begins before your wrist control is secure, immediately abort the step-over attempt, drive your chest weight back down onto their shoulders to halt the roll, and return to standard turtle top control. Never chase a granby with a loose grip — you will lose both the arm and the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "If grip secure, follow the roll",
+        "distractors": {
+          "plausible": [
+            "Always abort and reset to top",
+            "Power through with strength"
+          ],
+          "trap": [
+            "Chase the roll with loose grip"
+          ]
+        }
       },
       {
         "question": "What is the proper application speed for the belly down armbar finish in training, and why does this position require extra caution?",
         "answer": "Apply the finish over a minimum of 3-5 seconds from establishment of the prone position to full extension. The belly-down position requires extra caution because your entire body weight drops through the opponent's arm with gravity assistance, generating significantly more force than a standard supine armbar with less perceived effort from the attacker. This force amplification means the breaking point can arrive faster than expected. Always apply progressively and give your partner time to recognize the submission and tap before the joint reaches its end range.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, 3-5 seconds minimum",
+        "distractors": {
+          "plausible": [
+            "Apply fast before they defend",
+            "Speed doesn't matter here"
+          ],
+          "trap": [
+            "Snap it quickly for the tap"
+          ]
+        }
       },
       {
         "question": "How should you immediately release the belly down armbar after your training partner taps?",
         "answer": "Stop arching immediately and release all extension pressure on the arm. Release your wrist grip while keeping light positional awareness. Lift your hips off the opponent's arm to remove body weight pressure from the trapped limb. Allow them to naturally retract their arm without any resistance. Verbally check with your partner before resuming any training activity. Do not maintain the prone position on their arm even after releasing the grip, as residual body weight alone can cause discomfort or injury to the elbow joint.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, release grip, lift hips off",
+        "distractors": {
+          "plausible": [
+            "Release grip but keep hips down",
+            "Hold position until they move"
+          ],
+          "trap": [
+            "Keep weight on for a few seconds"
+          ]
+        }
       },
       {
         "question": "When should you choose the belly down armbar from turtle over a back take attempt?",
         "answer": "The belly-down armbar is the superior choice when the opponent's arm is clearly exposed and isolated but their hip defense prevents effective hook insertion for the back take. If the opponent is defending the back take by keeping hips mobile and denying hooks while their arm is posted or extended, the armbar exploits an opening they created through their back defense. Conversely, if the opponent's arms are tucked tight but their hips are stationary and vulnerable to hooks, the back take is higher percentage. Read the specific defensive posture rather than defaulting to one attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm exposed, hips still defended",
+        "distractors": {
+          "plausible": [
+            "Always prefer the back take",
+            "Whenever opponent turtles up"
+          ],
+          "trap": [
+            "Arms tucked, hips vulnerable"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together during the belly-down finish — what grip-breaking adjustments should you make?",
         "answer": "First, walk your hips closer to their elbow to shorten the lever arm, which dramatically increases breaking pressure on the clasped grip. Second, try inserting a foot between their arms to mechanically pry the grip apart using leg strength rather than arm strength. Third, rotate their wrist slightly to attack the grip at its weakest rotational angle. You can also threaten a wristlock on the free hand to force them to release voluntarily. Never attempt to simply overpower the grip by pulling harder with your arms — your legs and body positioning are far stronger grip-breaking tools.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips in, insert foot to pry",
+        "distractors": {
+          "plausible": [
+            "Rotate wrist first, ignore hips",
+            "Threaten wristlock immediately"
+          ],
+          "trap": [
+            "Overpower grip by pulling arms"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the step-over transition fails, and how do you prevent it?",
         "answer": "The most common failure is attempting the step-over without first establishing a secure two-on-one wrist grip. When the attacker lifts their weight to step over, the momentary pressure relief allows the opponent to retract their arm if the grip is insufficient. Prevention requires confirming the grip is deep with thumbs wrapped before initiating any weight transfer. Test the grip by pulling slightly — if the arm moves with your pull, proceed. If the arm slips or you feel the opponent beginning to retract, reset to chest pressure and re-establish the grip rather than forcing a compromised step-over.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No secure grip before stepping",
+        "distractors": {
+          "plausible": [
+            "Stepping over too slowly",
+            "Wrong foot position on step"
+          ],
+          "trap": [
+            "Force the step despite slipping"
+          ]
+        }
       }
     ],
     "clips": [
@@ -456,27 +556,77 @@
       {
         "question": "What is the single most important defensive principle for preventing the belly down armbar from turtle?",
         "answer": "Maintaining the elbows-to-knees defensive shell at all times. The belly down armbar requires arm isolation as its first step, and this isolation cannot happen if your elbows remain glued to your inner knees. Every turtle defensive movement — guard recovery, stand-up, scramble — should be executed while minimizing the time any arm spends away from this protective structure. The attacker is specifically watching for arm exposure, so denying it eliminates the attack before it begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbows glued to knees",
+        "distractors": {
+          "plausible": [
+            "Control their far-side grip",
+            "Sprawl hips away immediately"
+          ],
+          "trap": [
+            "Post the arm to stand up"
+          ]
+        }
       },
       {
         "question": "How should you tap to the belly down armbar from turtle, and why is early tapping especially important for this submission?",
         "answer": "Tap verbally by clearly saying 'tap' and simultaneously tap physically with your free hand on the attacker's body or the mat. Tap early — as soon as you feel the arm straightening against your resistance and the pressure is clearly overwhelming your defense. Early tapping is especially critical for the belly-down armbar because the prone position generates force through body weight and gravity simultaneously, meaning the breaking point arrives much faster than with standard armbar positions. The attacker may not fully perceive how much force they are generating, making partner communication essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, arm straightens fast",
+        "distractors": {
+          "plausible": [
+            "Wait until it fully locks out",
+            "Tap only if it truly hurts"
+          ],
+          "trap": [
+            "Fight through to escape first"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt arm retraction during the belly down armbar attack from turtle?",
         "answer": "The optimal window is during the step-over transition when the attacker lifts their far leg to cross your body. At this moment, their weight shifts laterally and their grip mechanics are momentarily compromised by the body repositioning. This window lasts approximately one to two seconds. Before this window, the attacker's turtle top control makes retraction difficult. After this window, the belly-down position is established and arm retraction against body weight becomes nearly impossible. React immediately when you feel the weight shift, do not wait to confirm the step-over is happening.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During the step-over weight shift",
+        "distractors": {
+          "plausible": [
+            "Right when turtle top is set",
+            "After belly-down is secured"
+          ],
+          "trap": [
+            "Wait to confirm step-over fully"
+          ]
+        }
       },
       {
         "question": "Your opponent has established wrist control from turtle top and you feel them begin the step-over — what should your free hand be doing?",
         "answer": "Your free hand has two primary options depending on timing. First priority: reach across and block the attacker's stepping leg by grabbing their thigh or knee to physically prevent them from completing the step-over transition. This is the highest-percentage option because it stops the attack in its most vulnerable phase. Second priority: if the leg is already past the blocking point, immediately use your free hand to grip your own trapped wrist and reinforce the bent-arm defensive position, preventing the attacker from straightening your arm after they establish belly-down. Never leave the free hand idle on the mat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block their stepping leg first",
+        "distractors": {
+          "plausible": [
+            "Push on their chest to escape",
+            "Grip the mat for base"
+          ],
+          "trap": [
+            "Leave it idle to save energy"
+          ]
+        }
       },
       {
         "question": "Why is stacking defense ineffective against the belly down armbar, and what should you do instead once the prone position is established?",
         "answer": "Stacking works against the standard supine armbar because it disrupts the attacker's hip bridge and finishing angle when they are face-up. In the belly-down position, the attacker's weight already drives downward with gravity, so driving forward into them actually increases compression on your trapped arm rather than relieving it. Instead, turn toward your trapped arm and bridge laterally or roll into the attacker to disrupt their prone alignment. The effective defensive movement is rotational, aimed at breaking the angle between their hips and your elbow, not linear forward pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn and bridge toward the arm",
+        "distractors": {
+          "plausible": [
+            "Push straight up onto knees",
+            "Roll away from trapped arm"
+          ],
+          "trap": [
+            "Stack forward like standard armbar"
+          ]
+        }
       }
     ],
     "training_progressions": [

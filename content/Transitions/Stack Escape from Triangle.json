@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "What is the first defensive action you should take when caught in a triangle before attempting the stack escape?",
-        "answer": "Tuck your chin immediately toward the trapped arm shoulder to create space between your neck and the opponent's thigh. This reduces arterial compression, buys time for the escape sequence, and prevents the choke from reaching critical blood flow restriction before you can establish grips and initiate the stack."
+        "answer": "Tuck your chin immediately toward the trapped arm shoulder to create space between your neck and the opponent's thigh. This reduces arterial compression, buys time for the escape sequence, and prevents the choke from reaching critical blood flow restriction before you can establish grips and initiate the stack.",
+        "answer_line": "Tuck chin toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm free first",
+            "Grip hips and stand right away"
+          ],
+          "trap": [
+            "Fight the squeeze with your neck"
+          ]
+        }
       },
       {
         "question": "Why is driving your hips forward and upward the critical mechanical movement in the stack escape rather than pulling backward?",
-        "answer": "Forward hip drive forces the opponent's body weight onto their shoulders and upper back, collapsing the triangle structure by changing the angle of their legs relative to your neck. This reduces squeezing power because their legs can no longer extend effectively, and it removes the perpendicular angle they need for optimal arterial compression. Pulling backward maintains the angle and allows them to extend."
+        "answer": "Forward hip drive forces the opponent's body weight onto their shoulders and upper back, collapsing the triangle structure by changing the angle of their legs relative to your neck. This reduces squeezing power because their legs can no longer extend effectively, and it removes the perpendicular angle they need for optimal arterial compression. Pulling backward maintains the angle and allows them to extend.",
+        "answer_line": "Collapses the triangle's angle",
+        "distractors": {
+          "plausible": [
+            "Creates space to slip legs out",
+            "Relieves pressure on the neck"
+          ],
+          "trap": [
+            "Pull hips back to escape choke"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips to transition to an omoplata as you initiate the stack—how do you respond?",
-        "answer": "Immediately pin their far shoulder to the mat with your free hand to prevent the rotation needed for the omoplata entry. Keep your trapped elbow tight to your body to deny the lever they need for the shoulder lock. If the rotation has already begun, circle away from the omoplata direction while maintaining forward stack pressure to deny completion of the pivot."
+        "answer": "Immediately pin their far shoulder to the mat with your free hand to prevent the rotation needed for the omoplata entry. Keep your trapped elbow tight to your body to deny the lever they need for the shoulder lock. If the rotation has already begun, circle away from the omoplata direction while maintaining forward stack pressure to deny completion of the pivot.",
+        "answer_line": "Pin far shoulder, keep elbow tight",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm out to escape",
+            "Speed up the stack even faster"
+          ],
+          "trap": [
+            "Release hip grips to sit up"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you establish before standing up to initiate the stack?",
-        "answer": "Grip both of the opponent's hips or pants at hip level with both hands. The trapped hand grabs the same-side pant leg or hip, while the free hand controls the opposite hip. These bilateral grips allow you to control the opponent's hip angle and prevent them from scooting away or adjusting their perpendicular finishing position as you drive forward into the stack."
+        "answer": "Grip both of the opponent's hips or pants at hip level with both hands. The trapped hand grabs the same-side pant leg or hip, while the free hand controls the opposite hip. These bilateral grips allow you to control the opponent's hip angle and prevent them from scooting away or adjusting their perpendicular finishing position as you drive forward into the stack.",
+        "answer_line": "Grip both hips/pants bilaterally",
+        "distractors": {
+          "plausible": [
+            "Trapped hand grips far hip",
+            "Grip mat to push yourself up"
+          ],
+          "trap": [
+            "Grab their collar for control"
+          ]
+        }
       },
       {
         "question": "Why should you avoid attempting to extract your trapped arm before establishing the stack position?",
-        "answer": "Pulling the trapped arm creates additional space inside the triangle that allows the opponent to tighten the lock further. The arm extraction attempt also uses the arm as a lever against your own neck, amplifying choking pressure temporarily. Instead, establish the stack first to loosen the overall structure—the arm will come free more easily as the triangle geometry collapses under stacking pressure."
+        "answer": "Pulling the trapped arm creates additional space inside the triangle that allows the opponent to tighten the lock further. The arm extraction attempt also uses the arm as a lever against your own neck, amplifying choking pressure temporarily. Instead, establish the stack first to loosen the overall structure—the arm will come free more easily as the triangle geometry collapses under stacking pressure.",
+        "answer_line": "Pulling arm tightens the choke",
+        "distractors": {
+          "plausible": [
+            "Arm extraction is faster",
+            "Freeing arm improves your grip"
+          ],
+          "trap": [
+            "Yank the arm hard to escape"
+          ]
+        }
       },
       {
         "question": "What determines whether you end up in half guard top or side control after a successful stack escape?",
-        "answer": "The speed and completeness of your leg clearance determines your final position. If you fully clear both legs and drive your knee across before the opponent recovers any leg entanglement, you achieve side control. If the opponent manages to recapture one leg during the clearance phase, you land in half guard top, which is still a successful escape requiring systematic passing to advance further."
+        "answer": "The speed and completeness of your leg clearance determines your final position. If you fully clear both legs and drive your knee across before the opponent recovers any leg entanglement, you achieve side control. If the opponent manages to recapture one leg during the clearance phase, you land in half guard top, which is still a successful escape requiring systematic passing to advance further.",
+        "answer_line": "Speed of full leg clearance",
+        "distractors": {
+          "plausible": [
+            "Which direction you stack them",
+            "How tight your initial grips were"
+          ],
+          "trap": [
+            "Releasing hip control too early"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls your head down with both hands as you attempt to posture for the stack—what is your immediate adjustment?",
-        "answer": "Drive your chin into their sternum and use your posted leg to generate upward force through your entire body with your core fully engaged. Keep your spine straight rather than fighting the pull with just neck muscles. Walk your posted foot closer to their hip to create a stronger mechanical angle for posture recovery, using your leg strength rather than upper body alone to overcome their head control."
+        "answer": "Drive your chin into their sternum and use your posted leg to generate upward force through your entire body with your core fully engaged. Keep your spine straight rather than fighting the pull with just neck muscles. Walk your posted foot closer to their hip to create a stronger mechanical angle for posture recovery, using your leg strength rather than upper body alone to overcome their head control.",
+        "answer_line": "Drive chin to sternum, push with leg",
+        "distractors": {
+          "plausible": [
+            "Yank head up with neck muscles",
+            "Let go and reset your grips"
+          ],
+          "trap": [
+            "Pull your head back to escape"
+          ]
+        }
       },
       {
         "question": "What is the most important action immediately after clearing the triangle lock?",
-        "answer": "Immediately establish positional control by driving into crossface or underhook on the pass side. Do not pause after clearing the triangle—the opponent is momentarily disorganized from being stacked and this window is critical for consolidating half guard top or side control before they recover their defensive framing and guard retention reflexes."
+        "answer": "Immediately establish positional control by driving into crossface or underhook on the pass side. Do not pause after clearing the triangle—the opponent is momentarily disorganized from being stacked and this window is critical for consolidating half guard top or side control before they recover their defensive framing and guard retention reflexes.",
+        "answer_line": "Immediately crossface or underhook",
+        "distractors": {
+          "plausible": [
+            "Pause to catch your breath",
+            "Check your grips before moving"
+          ],
+          "trap": [
+            "Back away to create distance"
+          ]
+        }
       }
     ],
     "safety_considerations": "Stack escapes involve driving significant weight onto an opponent's neck and spine. Always control stacking pressure gradually and never slam or drop weight explosively onto a stacked opponent. Monitor your own neck throughout for signs of blood flow restriction including lightheadedness, tunnel vision, or tingling—tap immediately if you experience these symptoms before the escape is established. Communicate with training partners about neck discomfort during drilling. Partners being stacked should tap if they experience pain in the cervical spine, and the stacking player must release pressure immediately upon any tap signal.",
@@ -392,23 +472,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a stack escape from your triangle?",
-        "answer": "The primary early cue is the opponent posting a foot on the mat near your hip and beginning to shift their weight from knees to feet. This weight redistribution is the earliest indication of a stack attempt and provides the maximum window for preemptive angle adjustment through hip escaping before they generate full stacking pressure with bilateral hip grips."
+        "answer": "The primary early cue is the opponent posting a foot on the mat near your hip and beginning to shift their weight from knees to feet. This weight redistribution is the earliest indication of a stack attempt and provides the maximum window for preemptive angle adjustment through hip escaping before they generate full stacking pressure with bilateral hip grips.",
+        "answer_line": "Opponent posts foot near hip",
+        "distractors": {
+          "plausible": [
+            "Opponent grips both your hips",
+            "Opponent starts standing fully"
+          ],
+          "trap": [
+            "Opponent squeezes triangle tighter"
+          ]
+        }
       },
       {
         "question": "When should you abandon the triangle and transition to omoplata instead of continuing to fight the stack?",
-        "answer": "Transition to omoplata when you can no longer maintain the perpendicular angle needed for effective arterial compression despite hip adjustments. If your back is being driven flat and your legs are losing their squeeze angle with the opponent's hips clearly above your shoulders, the stack has progressed beyond triangle recovery. The omoplata transition must be initiated before the opponent begins clearing your legs from around their neck."
+        "answer": "Transition to omoplata when you can no longer maintain the perpendicular angle needed for effective arterial compression despite hip adjustments. If your back is being driven flat and your legs are losing their squeeze angle with the opponent's hips clearly above your shoulders, the stack has progressed beyond triangle recovery. The omoplata transition must be initiated before the opponent begins clearing your legs from around their neck.",
+        "answer_line": "Lose the perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Opponent reaches full posture",
+            "You feel your energy fading"
+          ],
+          "trap": [
+            "Wait until legs are cleared"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the perpendicular angle more important than squeezing harder when being stacked?",
-        "answer": "The triangle choke works through carotid artery compression at a specific geometric angle between your legs and the opponent's neck, not through raw squeezing force. Squeezing harder with legs in a compromised angle burns muscular endurance without generating effective choking pressure on the arteries. Maintaining the 30-45 degree perpendicular angle ensures that whatever leg pressure you apply is directed into the correct anatomical targets for arterial compression."
+        "answer": "The triangle choke works through carotid artery compression at a specific geometric angle between your legs and the opponent's neck, not through raw squeezing force. Squeezing harder with legs in a compromised angle burns muscular endurance without generating effective choking pressure on the arteries. Maintaining the 30-45 degree perpendicular angle ensures that whatever leg pressure you apply is directed into the correct anatomical targets for arterial compression.",
+        "answer_line": "Angle drives arterial compression",
+        "distractors": {
+          "plausible": [
+            "Harder squeeze finishes faster",
+            "Angle only matters for control"
+          ],
+          "trap": [
+            "Squeeze max, ignore the angle"
+          ]
+        }
       },
       {
         "question": "Your opponent has established grips on both your hips and is beginning to stand—what is your priority defensive action?",
-        "answer": "Your priority is maintaining head control by pulling their head down with both hands or gripping behind their neck. If you break their posture before they fully stand, the stack loses its driving foundation. Simultaneously begin hip escaping to the choking leg side to re-establish your angle. If the posture break fails and they achieve full standing posture, immediately prepare for the omoplata transition rather than continuing to fight from a deteriorating triangle."
+        "answer": "Your priority is maintaining head control by pulling their head down with both hands or gripping behind their neck. If you break their posture before they fully stand, the stack loses its driving foundation. Simultaneously begin hip escaping to the choking leg side to re-establish your angle. If the posture break fails and they achieve full standing posture, immediately prepare for the omoplata transition rather than continuing to fight from a deteriorating triangle.",
+        "answer_line": "Break posture, pull head down",
+        "distractors": {
+          "plausible": [
+            "Grip hips to stop the stand",
+            "Extend hips to hold the choke"
+          ],
+          "trap": [
+            "Let them stand, then re-attack"
+          ]
+        }
       },
       {
         "question": "How does hip extension help defend against a stack escape from your triangle?",
-        "answer": "Hip extension drives your pelvis upward and away from the mat, maintaining the vertical component of the choking pressure that the stack is designed to neutralize. By extending your hips, you prevent your body from being folded in half onto your own shoulders and keep your legs in a position where they can maintain effective squeeze on the opponent's carotid arteries even as their body drives forward into the stack."
+        "answer": "Hip extension drives your pelvis upward and away from the mat, maintaining the vertical component of the choking pressure that the stack is designed to neutralize. By extending your hips, you prevent your body from being folded in half onto your own shoulders and keep your legs in a position where they can maintain effective squeeze on the opponent's carotid arteries even as their body drives forward into the stack.",
+        "answer_line": "Keeps pelvis up, holds angle",
+        "distractors": {
+          "plausible": [
+            "Relieves strain on lower back",
+            "Creates space to swivel hips"
+          ],
+          "trap": [
+            "Relax hips to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

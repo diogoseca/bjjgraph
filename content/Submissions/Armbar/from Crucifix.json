@@ -313,32 +313,92 @@
       {
         "question": "What is the primary reason the armbar from crucifix has such a high success rate compared to armbars from other positions?",
         "answer": "The crucifix position provides superior control by trapping one of the opponent's arms completely with your legs, preventing them from using it for defense. This means the opponent cannot establish defensive grips, cannot use both arms to defend the attacking arm, and has severely limited mobility. The combination of leg control, chest pressure, and arm isolation creates a position where the opponent has minimal defensive options, making the armbar extremely difficult to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Traps one arm, kills defense",
+        "distractors": {
+          "plausible": [
+            "Superior back control leverage",
+            "Chest pressure limits breathing"
+          ],
+          "trap": [
+            "Both arms free, faster attack"
+          ]
+        }
       },
       {
         "question": "Describe the proper hand positioning and grip when isolating the opponent's arm for the crucifix armbar. Why is this positioning critical?",
         "answer": "Both hands should control the opponent's wrist and forearm area, with one hand gripping the wrist and the other gripping the forearm or triceps region. The thumb of the opponent's hand should be pointing toward the ceiling (thumbs-up position). This positioning is critical because it ensures the submission attacks the elbow joint properly. If the thumb rotates downward, the attack becomes a shoulder lock instead of an armbar, which changes the submission mechanics and can be more dangerous. Proper hand positioning also prevents the opponent from making a defensive fist or establishing grips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumb up, wrist and forearm grip",
+        "distractors": {
+          "plausible": [
+            "Thumb down for tighter control",
+            "Grip only the wrist tightly"
+          ],
+          "trap": [
+            "Let them make a fist first"
+          ]
+        }
       },
       {
         "question": "What are the minimum safety protocols that must be followed when training the armbar from crucifix, and why are these protocols non-negotiable?",
         "answer": "The minimum safety protocols include: (1) Apply pressure slowly over 3-5 seconds minimum to allow reaction time for tap, (2) Never spike or jerk the submission with explosive force, (3) Ensure your partner has at least one hand free to tap at all times, (4) Immediately release all pressure upon feeling any tap or hearing verbal submission, (5) Check with your partner after the tap before continuing training. These protocols are non-negotiable because the elbow joint is vulnerable to severe injuries including hyperextension, dislocation, and ligament rupture. The armbar can cause permanent damage in a fraction of a second if applied explosively. In training, we must prioritize our partner's safety over ego or winning.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on tap",
+        "distractors": {
+          "plausible": [
+            "Fast pressure ensures quick tap",
+            "Check in only after session ends"
+          ],
+          "trap": [
+            "Jerk hard for quick submission"
+          ]
+        }
       },
       {
         "question": "How should your hips be positioned relative to the opponent's shoulder during the crucifix armbar, and what role does this positioning play in the submission mechanics?",
         "answer": "Your hips should be positioned tight to the opponent's shoulder on the side of the arm you are attacking. This hip placement creates the fulcrum point for the armbar lever. When you extend your hips upward while pulling the wrist down, the opponent's humerus bone presses against your hip/pelvis, which acts as the pivot point that causes the elbow to hyperextend. If your hips are too far from the shoulder, you lose leverage and the submission becomes much weaker. The closer your hip is to their shoulder joint, the shorter and more powerful the lever becomes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips tight to their shoulder",
+        "distractors": {
+          "plausible": [
+            "Hips square to their hips",
+            "Hips angled away for space"
+          ],
+          "trap": [
+            "Hips far back for leverage"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that your partner is in danger of injury during the armbar from crucifix, and what immediate actions should you take if you observe these indicators?",
         "answer": "Key danger indicators include: (1) The opponent's arm is straight and you're continuing to apply pressure, (2) You hear or feel popping or cracking sounds from the elbow joint, (3) The opponent is making distress vocalizations even without formally tapping, (4) The opponent's arm suddenly loses resistance (which may indicate injury rather than giving up), (5) The opponent is unable to tap due to both arms being controlled. Immediate actions: STOP all pressure immediately, release the submission, check verbally with your partner about their condition, allow them time to assess if they're injured, and do not resume training until you've confirmed they're uninjured and willing to continue. When in doubt, always err on the side of caution and release pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop immediately, check partner",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, keep watching",
+            "Ask if they want to continue"
+          ],
+          "trap": [
+            "Keep pressure until clear tap"
+          ]
+        }
       },
       {
         "question": "Explain why maintaining crucifix control throughout the entire armbar sequence is essential for both the submission's effectiveness and safety?",
         "answer": "Maintaining crucifix control is essential for effectiveness because it prevents the opponent from retracting their arm, turning into you, or establishing defensive grips. The trapped arm eliminates half of their defensive tools, while chest pressure and leg control prevent rotation and bridging. For safety, maintaining control ensures the submission is applied in a controlled manner. If you release crucifix control prematurely, the opponent may suddenly pull their arm back while you're applying pressure, which can cause explosive force on the elbow joint. Controlled position throughout the sequence means controlled pressure application, which gives your partner time to tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Control prevents explosive injury",
+        "distractors": {
+          "plausible": [
+            "Control just speeds submission",
+            "Control only matters for points"
+          ],
+          "trap": [
+            "Release grip once arm is straight"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their thumb downward into the hitchhiker position during your armbar attempt - what adjustment prevents escape and what anatomical concern does this create?",
@@ -348,27 +408,77 @@
       {
         "question": "During competition, you have the crucifix armbar locked but your opponent refuses to tap despite their arm being fully extended - how do you approach this finishing scenario safely?",
         "answer": "In competition, apply progressive pressure steadily while watching for signs of injury or referee intervention. The finish should still be controlled - approximately 1-2 seconds of progressive pressure rather than the 3-5 seconds used in training. Watch for the referee stepping in to stop the match. If you feel or hear a pop, IMMEDIATELY release even in competition, as continuing risks catastrophic permanent injury. The submission should be tight enough that if properly applied, the tap or referee stoppage should occur quickly. Never spike or jerk even in competition - the goal is to win by submission, not to injure your opponent. Your reputation as a safe training partner extends to competition behavior.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Steady pressure, release on pop",
+        "distractors": {
+          "plausible": [
+            "Same as training, 3-5 seconds",
+            "Wait for ref before releasing"
+          ],
+          "trap": [
+            "Snap it fast to force the tap"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape in the crucifix armbar, and how do you recognize when you have reached it?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) the opponent's elbow is completely isolated past your hip line with their thumb pointing upward, (2) your knees are squeezed together preventing any arm extraction or rotation, and (3) your hips are tight against their shoulder creating the fulcrum with no gap. At this point, any hip extension will create hyperextension pressure on the elbow. You recognize this point when you can feel their tricep bone resting directly against your hip, their wrist is secured below your sternum, and their attempting to pull free creates no movement in the arm position. Once reached, finish slowly and give them time to tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow past hip, knees squeezed",
+        "distractors": {
+          "plausible": [
+            "Wrist controlled, legs relaxed",
+            "Shoulder pinned, knees apart"
+          ],
+          "trap": [
+            "Arm straight, hips pulled back"
+          ]
+        }
       },
       {
         "question": "How does the grip adjustment differ when attacking the near-side arm versus the far-side arm from crucifix, and what are the finishing mechanic differences?",
         "answer": "For the far-side arm (traditional), both hands control wrist and forearm while your legs maintain the crucifix on their near arm - finish by extending hips away from them. For the near-side arm variation, you must partially release leg control on that arm while maintaining crucifix with your body position. One hand controls the near wrist while the other maintains position. The finishing mechanics differ because you extend your hips in the opposite direction (toward their head) and may need to adjust your angle to create proper leverage. The near-side attack is less powerful but catches defenders who focus entirely on protecting the far arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Near-side: hips extend toward head",
+        "distractors": {
+          "plausible": [
+            "Near-side: same as far-side finish",
+            "Far-side: release all leg control"
+          ],
+          "trap": [
+            "Near-side: extend hips away first"
+          ]
+        }
       },
       {
         "question": "Your opponent's arm suddenly goes limp during your armbar attempt before they verbally tap - what does this indicate and what is the correct response?",
         "answer": "A sudden loss of resistance without a tap can indicate several dangerous scenarios: (1) unconscious submission due to pain overwhelming their nervous system, (2) actual structural damage has occurred (ligament tear, dislocation), (3) your opponent has mentally given up but is physically unable to tap, or (4) they are attempting to create false confidence before an escape attempt. The correct response is IMMEDIATE release of all pressure. Do not assume it is an escape attempt - treat it as a potential injury until confirmed otherwise. Verbally check with your partner, observe their facial expression and body language, and do not resume training until you have confirmed they are uninjured and consenting to continue. When in doubt, release.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release immediately, check injury",
+        "distractors": {
+          "plausible": [
+            "Keep pressure, they're bluffing",
+            "Assume escape attempt, reset"
+          ],
+          "trap": [
+            "Finish fast before they recover"
+          ]
+        }
       },
       {
         "question": "What specific knee squeeze technique secures the finish and prevents late-stage escape attempts in the crucifix armbar?",
         "answer": "The knee squeeze involves driving both knees inward toward each other while keeping your heels pulled toward your buttocks. This creates a clamp effect across the opponent's upper arm and shoulder. The top knee presses down on their face or shoulder preventing them from sitting up, while the bottom knee drives up into their armpit area maintaining the trapped arm. The squeeze should tighten progressively as you begin hip extension - think of your knees as a vice that closes as the finish approaches. This prevents last-second rotation, arm extraction, or hitchhiker escape attempts. The squeeze also anchors your lower body so your hip extension creates direct pressure on the elbow rather than pushing yourself away from the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees squeeze in, heels to butt",
+        "distractors": {
+          "plausible": [
+            "Knees spread wide for base",
+            "Squeeze only at the very end"
+          ],
+          "trap": [
+            "Relax knees, drive with hips only"
+          ]
+        }
       }
     ],
     "clips": [
@@ -488,27 +598,77 @@
       {
         "question": "What is the most critical early defensive action when you recognize the armbar from crucifix is being set up?",
         "answer": "The most critical early action is establishing a defensive grip immediately - grab your own opposite wrist, lapel, or belt with the hand being attacked, and pull your elbow tight to your centerline. This prevents the arm extension that makes the armbar possible. This grip must be established before your opponent fully isolates the arm, as breaking an established defensive grip requires significant effort and buys substantial time for further escape attempts. The defensive grip is your first line of defense and everything else builds on top of it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grab own wrist, elbow tucked",
+        "distractors": {
+          "plausible": [
+            "Push opponent's hip away first",
+            "Sit up to create space"
+          ],
+          "trap": [
+            "Extend arm to keep distance"
+          ]
+        }
       },
       {
         "question": "Why is the hitchhiker escape considered a last-resort defense, and what injury risk does it create?",
         "answer": "The hitchhiker escape (rotating the thumb downward while turning toward the attacked arm) is last-resort because it transfers stress from the elbow joint to the shoulder joint. While this relieves the immediate hyperextension threat to the elbow, the shoulder joint has less structural tolerance for rotational force. If your opponent continues applying pressure during the hitchhiker rotation, you risk shoulder subluxation, rotator cuff damage, or labral tears. The hitchhiker should only be used when the elbow is in immediate danger of hyperextension and all other defenses have failed. You must be prepared to tap immediately if shoulder pressure becomes dangerous.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shifts strain to fragile shoulder",
+        "distractors": {
+          "plausible": [
+            "Removes all joint risk",
+            "Only works with a strong grip"
+          ],
+          "trap": [
+            "Safer than tapping early"
+          ]
+        }
       },
       {
         "question": "When during the armbar sequence does the best escape window occur, and how do you exploit it?",
         "answer": "The best escape window occurs when your opponent transitions from crucifix control to armbar positioning - specifically when they thread their top leg across your face or shoulder. During this leg repositioning, their control over the trapped arm momentarily loosens because the leg must lift and reposition. This is when you execute an explosive hip escape toward the trapped arm side, using the brief gap in leg control to extract the trapped arm. Timing is critical - you must act during the transition, not before (when control is tight) or after (when the armbar is secured). Recognizing this window through tactile cues, like feeling the leg lift off your shoulder, is essential for successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During top leg repositioning",
+        "distractors": {
+          "plausible": [
+            "Right when crucifix locks in",
+            "After armbar is fully secured"
+          ],
+          "trap": [
+            "Wait until arm fully extends"
+          ]
+        }
       },
       {
         "question": "Your arm is being extended and you cannot maintain your defensive grip - what is the correct sequence of emergency defensive actions?",
         "answer": "When the defensive grip fails and the arm begins extending: (1) Immediately initiate the hitchhiker rotation by turning your thumb toward the mat and rotating your body toward the attacked arm to relieve elbow pressure, (2) Simultaneously attempt an explosive bridge toward the side of the trapped arm to disrupt your opponent's hip positioning, (3) If the elbow pressure does not relieve within one second of these combined actions, TAP IMMEDIATELY - do not wait for pain or popping sounds. Your elbow can sustain permanent damage in less than a second once past the extension threshold. Ego has no place in this decision - a tap preserves your training longevity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hitchhiker, bridge, tap fast",
+        "distractors": {
+          "plausible": [
+            "Bridge hard, ignore hitchhiker",
+            "Wait for pain before tapping"
+          ],
+          "trap": [
+            "Fight the extension with strength"
+          ]
+        }
       },
       {
         "question": "Why should you address freeing the trapped arm before attempting to escape the armbar itself?",
         "answer": "The trapped arm is the structural foundation of the entire crucifix position. As long as one arm remains trapped by your opponent's legs, they maintain the positional dominance that makes the armbar possible. If you only defend the armbar without freeing the trapped arm, your opponent can simply re-attack the armbar from the same crucifix control, creating an infinite loop of attack and defense that you will eventually lose due to energy depletion. Freeing the trapped arm dismantles the crucifix entirely, converting the position to standard back control where both arms are available for defense and multiple proven escape sequences become available.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Free the arm, dismantle crucifix",
+        "distractors": {
+          "plausible": [
+            "Defend armbar, ignore trapped arm",
+            "Escape hips before freeing arm"
+          ],
+          "trap": [
+            "Focus only on tapping out"
+          ]
+        }
       }
     ],
     "training_progressions": [

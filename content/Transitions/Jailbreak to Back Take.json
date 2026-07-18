@@ -221,47 +221,157 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Jailbreak to Back Take?",
-        "answer": "The primary goal is to convert a defensive half guard escape into an offensive back control position. By continuing the jailbreak rolling momentum when the opponent follows, you use their chase against them to establish the most dominant position in BJJ rather than settling for the neutral turtle position."
+        "answer": "The primary goal is to convert a defensive half guard escape into an offensive back control position. By continuing the jailbreak rolling momentum when the opponent follows, you use their chase against them to establish the most dominant position in BJJ rather than settling for the neutral turtle position.",
+        "answer_line": "Convert escape into back take",
+        "distractors": {
+          "plausible": [
+            "Escape to turtle position",
+            "Reverse to top position"
+          ],
+          "trap": [
+            "Stall until opponent gives up"
+          ]
+        }
       },
       {
         "question": "What is the most critical control point that must be maintained throughout this technique?",
-        "answer": "The underhook on the same side as your trapped leg is the essential control point. This grip serves as your connection to the opponent throughout the rolling sequence, prevents them from disengaging during your escape, and provides the leverage needed to pull yourself behind them for the back take. Without the underhook, the technique fails completely."
+        "answer": "The underhook on the same side as your trapped leg is the essential control point. This grip serves as your connection to the opponent throughout the rolling sequence, prevents them from disengaging during your escape, and provides the leverage needed to pull yourself behind them for the back take. Without the underhook, the technique fails completely.",
+        "answer_line": "Underhook on trapped-leg side",
+        "distractors": {
+          "plausible": [
+            "Overhook on trapped-leg side",
+            "Underhook on the far side"
+          ],
+          "trap": [
+            "Grab belt instead of underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent starts driving forward to flatten you before you can initiate the roll - how do you adjust?",
-        "answer": "When the opponent drives forward to flatten you, focus on maintaining your underhook and creating small frames to prevent complete flattening. Wait for their weight to shift forward, which indicates they're committing to pressure - this is actually the optimal moment to execute the jailbreak. Alternatively, if flattening continues, consider switching to a deep half guard entry using the same underhook as your entry point."
+        "answer": "When the opponent drives forward to flatten you, focus on maintaining your underhook and creating small frames to prevent complete flattening. Wait for their weight to shift forward, which indicates they're committing to pressure - this is actually the optimal moment to execute the jailbreak. Alternatively, if flattening continues, consider switching to a deep half guard entry using the same underhook as your entry point.",
+        "answer_line": "Frame, then roll on their push",
+        "distractors": {
+          "plausible": [
+            "Bridge and shrimp immediately",
+            "Push away to create space"
+          ],
+          "trap": [
+            "Release underhook to frame"
+          ]
+        }
       },
       {
         "question": "How do you determine at the mid-point of the roll whether to continue to back take or settle for turtle?",
-        "answer": "At approximately 180 degrees through the roll, feel for opponent's momentum and connection. If they're actively following with their weight moving in your direction, continue accelerating through to back take. If they disengage, stop pursuing, or base out wide, settle for turtle position. The key indicator is whether you feel their pressure continuing to follow you or releasing."
+        "answer": "At approximately 180 degrees through the roll, feel for opponent's momentum and connection. If they're actively following with their weight moving in your direction, continue accelerating through to back take. If they disengage, stop pursuing, or base out wide, settle for turtle position. The key indicator is whether you feel their pressure continuing to follow you or releasing.",
+        "answer_line": "Feel if they're still chasing",
+        "distractors": {
+          "plausible": [
+            "Always finish to back take",
+            "Always settle for turtle"
+          ],
+          "trap": [
+            "Stop mid-roll to reset"
+          ]
+        }
       },
       {
         "question": "What makes this technique a true dilemma for the top player in half guard?",
-        "answer": "The jailbreak to back take creates a dilemma because the top player must choose between two bad options. If they disengage when you initiate jailbreak, you escape to turtle and they lose their dominant position. If they follow the roll to prevent turtle escape, they expose their back. Either choice results in positional loss for the top player, making this a forcing function in the half guard battle."
+        "answer": "The jailbreak to back take creates a dilemma because the top player must choose between two bad options. If they disengage when you initiate jailbreak, you escape to turtle and they lose their dominant position. If they follow the roll to prevent turtle escape, they expose their back. Either choice results in positional loss for the top player, making this a forcing function in the half guard battle.",
+        "answer_line": "Chase back or lose top position",
+        "distractors": {
+          "plausible": [
+            "They can just stay flat",
+            "They can scramble to repass"
+          ],
+          "trap": [
+            "Crossface harder to flatten"
+          ]
+        }
       },
       {
         "question": "What should your immediate action be upon completing the roll to the opponent's back?",
-        "answer": "Immediately insert both hooks inside the opponent's thighs with toes pointing outward to establish standard back control. This must happen within 1-2 seconds of achieving back position. Until hooks are established, the opponent can still turn to face you and escape. Transition your underhook grip to harness or seatbelt control only after hooks are secure."
+        "answer": "Immediately insert both hooks inside the opponent's thighs with toes pointing outward to establish standard back control. This must happen within 1-2 seconds of achieving back position. Until hooks are established, the opponent can still turn to face you and escape. Transition your underhook grip to harness or seatbelt control only after hooks are secure.",
+        "answer_line": "Insert both hooks immediately",
+        "distractors": {
+          "plausible": [
+            "Secure seatbelt grip first",
+            "Control both wrists first"
+          ],
+          "trap": [
+            "Pause to adjust hip position"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your underhook mid-roll - what is your recovery protocol?",
-        "answer": "Immediately abort the back take attempt when the underhook is lost. Without this connection, you cannot control the opponent's movement and they will likely follow to mount or side control. Transition to emergency turtle defense or attempt to re-establish half guard frames. Never try to complete the technique once the underhook is compromised."
+        "answer": "Immediately abort the back take attempt when the underhook is lost. Without this connection, you cannot control the opponent's movement and they will likely follow to mount or side control. Transition to emergency turtle defense or attempt to re-establish half guard frames. Never try to complete the technique once the underhook is compromised.",
+        "answer_line": "Abort and defend to turtle",
+        "distractors": {
+          "plausible": [
+            "Fight to regrip underhook",
+            "Continue roll without grip"
+          ],
+          "trap": [
+            "Push through to finish roll"
+          ]
+        }
       },
       {
         "question": "How does the chair sit variation differ from the standard rolling back take?",
-        "answer": "The chair sit variation uses the underhook to sit through underneath the opponent rather than completing a full roll. As the opponent follows your initial jailbreak movement, you use their momentum to pull yourself underneath and behind them from a seated position. This variation is useful when flexibility limits rolling options or when the opponent's following momentum is very strong, making controlled deceleration into the seat position more effective than trying to match their speed through the roll."
+        "answer": "The chair sit variation uses the underhook to sit through underneath the opponent rather than completing a full roll. As the opponent follows your initial jailbreak movement, you use their momentum to pull yourself underneath and behind them from a seated position. This variation is useful when flexibility limits rolling options or when the opponent's following momentum is very strong, making controlled deceleration into the seat position more effective than trying to match their speed through the roll.",
+        "answer_line": "Sit through, not full roll",
+        "distractors": {
+          "plausible": [
+            "Stand up instead of rolling",
+            "Roll twice as fast instead"
+          ],
+          "trap": [
+            "Let go of underhook to sit"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the jailbreak to back take sequence?",
-        "answer": "The optimal timing window is when the top player commits their weight forward onto your upper body, narrowing their base and making them vulnerable to being rolled. This moment typically occurs when they drive crossface pressure or attempt to flatten you with shoulder pressure. Their forward weight commitment means their center of gravity is advanced past their base, which is the biomechanical condition that makes the rolling escape mechanically viable. Initiating before this commitment lacks sufficient momentum, and waiting too long allows them to consolidate control."
+        "answer": "The optimal timing window is when the top player commits their weight forward onto your upper body, narrowing their base and making them vulnerable to being rolled. This moment typically occurs when they drive crossface pressure or attempt to flatten you with shoulder pressure. Their forward weight commitment means their center of gravity is advanced past their base, which is the biomechanical condition that makes the rolling escape mechanically viable. Initiating before this commitment lacks sufficient momentum, and waiting too long allows them to consolidate control.",
+        "answer_line": "When they commit weight forward",
+        "distractors": {
+          "plausible": [
+            "When they sit back on hips",
+            "Right after the guard pass"
+          ],
+          "trap": [
+            "Wait until fully mounted"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your roll but immediately sprawls their hips back as you reach their side - what is your adjustment?",
-        "answer": "When the opponent sprawls during the transition, their hips pull away from your chest, making full back control difficult. Rather than chasing their hips, transition to crab ride by inserting one hook while controlling their far arm or lapel. The crab ride gives you an intermediate control position from which you can work to re-establish full back control once their hips settle. Alternatively, use the underhook to drag them into a front headlock position where you can reset the attack sequence."
+        "answer": "When the opponent sprawls during the transition, their hips pull away from your chest, making full back control difficult. Rather than chasing their hips, transition to crab ride by inserting one hook while controlling their far arm or lapel. The crab ride gives you an intermediate control position from which you can work to re-establish full back control once their hips settle. Alternatively, use the underhook to drag them into a front headlock position where you can reset the attack sequence.",
+        "answer_line": "Transition to crab ride",
+        "distractors": {
+          "plausible": [
+            "Chase their hips harder",
+            "Switch to front headlock only"
+          ],
+          "trap": [
+            "Let go and reset to guard"
+          ]
+        }
       },
       {
         "question": "What direction of force should the underhook arm generate during the acceleration phase?",
-        "answer": "During the acceleration phase, the underhook arm should generate a pulling force that draws your body toward the opponent's back, not pushing force that drives the opponent away. Think of it as pulling yourself around a fixed point rather than moving the opponent. The force vector is curvilinear, following the arc of your rotation, with your elbow staying tight to your hip as the fulcrum. This pulling mechanic redirects the opponent's forward chase energy and converts it into your rotational momentum behind them."
+        "answer": "During the acceleration phase, the underhook arm should generate a pulling force that draws your body toward the opponent's back, not pushing force that drives the opponent away. Think of it as pulling yourself around a fixed point rather than moving the opponent. The force vector is curvilinear, following the arc of your rotation, with your elbow staying tight to your hip as the fulcrum. This pulling mechanic redirects the opponent's forward chase energy and converts it into your rotational momentum behind them.",
+        "answer_line": "Pull yourself to their back",
+        "distractors": {
+          "plausible": [
+            "Push the opponent's body away",
+            "Push straight down on shoulder"
+          ],
+          "trap": [
+            "Yank the underhook arm upward"
+          ]
+        }
       }
     ],
     "safety_considerations": "The jailbreak to back take involves significant spinal flexion and rotational movement that requires adequate flexibility and proper warm-up before training. Always tuck your chin to protect your neck throughout the rolling sequence. Begin training at low speed with a cooperative partner before adding resistance. Practitioners with neck or shoulder injuries should consult with their instructor and potentially modify or avoid this technique. The inversion component places strain on the cervical spine, making proper head positioning critical. Stop immediately if you feel any neck discomfort during practice.",
@@ -378,23 +488,73 @@
     "flashcards": [
       {
         "question": "What is the single most important preventive action you can take against the jailbreak to back take?",
-        "answer": "Strip or neutralize the underhook before the bottom player can initiate the rolling motion. The underhook is the mechanical foundation of the entire jailbreak system - without it, the bottom player cannot maintain connection through the roll and cannot redirect your momentum. Contest the underhook aggressively through whizzer pressure, crossface driving, and pummeling. Winning this grip battle eliminates the technique at its source rather than forcing you into reactive defense."
+        "answer": "Strip or neutralize the underhook before the bottom player can initiate the rolling motion. The underhook is the mechanical foundation of the entire jailbreak system - without it, the bottom player cannot maintain connection through the roll and cannot redirect your momentum. Contest the underhook aggressively through whizzer pressure, crossface driving, and pummeling. Winning this grip battle eliminates the technique at its source rather than forcing you into reactive defense.",
+        "answer_line": "Strip the underhook early",
+        "distractors": {
+          "plausible": [
+            "Flatten with more crossface",
+            "Add more downward hip pressure"
+          ],
+          "trap": [
+            "Drive forward to flatten them"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player beginning to invert with their underhook secured - what is your immediate decision framework?",
-        "answer": "You must make a binary decision within the first quarter-turn of the roll. Option one: disengage by pulling your hips back and basing wide, conceding turtle position but maintaining top control. Option two: commit fully to following with maximum hip sprawl and chest pressure to ride through the roll. The critical error is half-committing, which provides the bottom player with your forward momentum while giving you no control over the rotation. Speed of decision matters more than which option you choose."
+        "answer": "You must make a binary decision within the first quarter-turn of the roll. Option one: disengage by pulling your hips back and basing wide, conceding turtle position but maintaining top control. Option two: commit fully to following with maximum hip sprawl and chest pressure to ride through the roll. The critical error is half-committing, which provides the bottom player with your forward momentum while giving you no control over the rotation. Speed of decision matters more than which option you choose.",
+        "answer_line": "Commit fully or disengage fast",
+        "distractors": {
+          "plausible": [
+            "Half-commit and follow slowly",
+            "Wait and see what happens"
+          ],
+          "trap": [
+            "Drive forward pressure harder"
+          ]
+        }
       },
       {
         "question": "Why is driving forward pressure actually dangerous when you sense a jailbreak attempt?",
-        "answer": "Forward pressure is the biomechanical fuel for the jailbreak roll. The technique converts your forward weight commitment into the bottom player's rotational momentum. When you drive forward against a prepared jailbreak, you advance your center of gravity past your base, creating the exact instability the bottom player exploits. Instead, pull hips back and widen your base to remove the forward energy source. A wide, hip-back posture denies the rolling mechanic its primary power source while maintaining your top position."
+        "answer": "Forward pressure is the biomechanical fuel for the jailbreak roll. The technique converts your forward weight commitment into the bottom player's rotational momentum. When you drive forward against a prepared jailbreak, you advance your center of gravity past your base, creating the exact instability the bottom player exploits. Instead, pull hips back and widen your base to remove the forward energy source. A wide, hip-back posture denies the rolling mechanic its primary power source while maintaining your top position.",
+        "answer_line": "It fuels the jailbreak roll",
+        "distractors": {
+          "plausible": [
+            "It only risks a guard pass",
+            "It slows their rotation"
+          ],
+          "trap": [
+            "Add more crossface pressure"
+          ]
+        }
       },
       {
         "question": "The bottom player reaches turtle after a successful jailbreak but you prevented the back take - what are your attacking priorities?",
-        "answer": "From turtle top, your immediate priority is establishing a controlling grip such as a seatbelt or front headlock before the bottom player can stand or sit through to guard. Attack with front headlock series including guillotine, darce, and anaconda entries. Look for opportunities to re-take the back through hook insertion or crab ride entries. Prevent the bottom player from sitting to guard by maintaining heavy chest pressure on their upper back. Do not allow a reset to standing where the positional advantage dissipates entirely."
+        "answer": "From turtle top, your immediate priority is establishing a controlling grip such as a seatbelt or front headlock before the bottom player can stand or sit through to guard. Attack with front headlock series including guillotine, darce, and anaconda entries. Look for opportunities to re-take the back through hook insertion or crab ride entries. Prevent the bottom player from sitting to guard by maintaining heavy chest pressure on their upper back. Do not allow a reset to standing where the positional advantage dissipates entirely.",
+        "answer_line": "Seatbelt grip, then attack neck",
+        "distractors": {
+          "plausible": [
+            "Let them stand and reset",
+            "Wait for them to sit up"
+          ],
+          "trap": [
+            "Ease pressure to reposition"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a standard jailbreak escape attempt and the back take continuation during the roll?",
-        "answer": "The standard jailbreak targets turtle and typically decelerates once the bottom player clears past the halfway rotation point. The back take continuation shows continued acceleration past 180 degrees with the underhook arm actively pulling toward your back rather than simply creating separation. You can also feel the difference in their hip trajectory - turtle-bound escapes move laterally away from you, while back take attempts curve behind you. Reading this distinction early allows you to choose disengagement for turtle-bound escapes while preparing stronger following defense against back take attempts."
+        "answer": "The standard jailbreak targets turtle and typically decelerates once the bottom player clears past the halfway rotation point. The back take continuation shows continued acceleration past 180 degrees with the underhook arm actively pulling toward your back rather than simply creating separation. You can also feel the difference in their hip trajectory - turtle-bound escapes move laterally away from you, while back take attempts curve behind you. Reading this distinction early allows you to choose disengagement for turtle-bound escapes while preparing stronger following defense against back take attempts.",
+        "answer_line": "Keeps accelerating past halfway",
+        "distractors": {
+          "plausible": [
+            "Any movement past the midpoint",
+            "Hips moving laterally away"
+          ],
+          "trap": [
+            "Chase their turtle-bound hips"
+          ]
+        }
       }
     ],
     "training_progressions": [

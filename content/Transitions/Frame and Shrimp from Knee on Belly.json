@@ -247,39 +247,129 @@
     "flashcards": [
       {
         "question": "What is the most critical frame placement for initiating the Frame and Shrimp escape from Knee on Belly?",
-        "answer": "The near-side forearm frames against the opponent's knee while the far hand controls their hip or belt line. This dual frame creates structural resistance against the downward knee pressure without extending the arms into vulnerable submission positions. The frames must be established before any movement begins — they are the foundation upon which the entire escape sequence is built. Without proper frames, the opponent's pressure overwhelms any escape attempt."
+        "answer": "The near-side forearm frames against the opponent's knee while the far hand controls their hip or belt line. This dual frame creates structural resistance against the downward knee pressure without extending the arms into vulnerable submission positions. The frames must be established before any movement begins — they are the foundation upon which the entire escape sequence is built. Without proper frames, the opponent's pressure overwhelms any escape attempt.",
+        "answer_line": "Forearm on knee, hand on hip/belt",
+        "distractors": {
+          "plausible": [
+            "Both hands framing the knee",
+            "Frame the shoulder, not the knee"
+          ],
+          "trap": [
+            "Extend arms to push knee away"
+          ]
+        }
       },
       {
         "question": "Why must you turn to your side before attempting the hip escape in this technique?",
-        "answer": "Turning to your side reduces the surface area exposed to knee pressure and activates the hip musculature in the correct plane for lateral shrimping. When flat on your back, your hips cannot generate the lateral displacement needed to escape — the movement is biomechanically blocked. The rotation creates the angular relationship between your hips and the mat that enables effective shrimping and also shifts the pressure contact point, providing some breathing relief."
+        "answer": "Turning to your side reduces the surface area exposed to knee pressure and activates the hip musculature in the correct plane for lateral shrimping. When flat on your back, your hips cannot generate the lateral displacement needed to escape — the movement is biomechanically blocked. The rotation creates the angular relationship between your hips and the mat that enables effective shrimping and also shifts the pressure contact point, providing some breathing relief.",
+        "answer_line": "Turn side, enable hip shrimp",
+        "distractors": {
+          "plausible": [
+            "Turn to relieve rib pressure",
+            "Turn to escape crossface"
+          ],
+          "trap": [
+            "Stay flat, bridge upward"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your first shrimp by hopping their knee to your new position — how do you adjust?",
-        "answer": "Immediately continue shrimping in the same direction and insert your knee shield on the new side rather than resetting flat. Chain multiple shrimp attempts together without pausing, as each displacement degrades the opponent's ability to follow cleanly. Their repeated knee repositioning compromises their base stability, and the cumulative space gains from chained shrimps eventually exceed their ability to track your movement."
+        "answer": "Immediately continue shrimping in the same direction and insert your knee shield on the new side rather than resetting flat. Chain multiple shrimp attempts together without pausing, as each displacement degrades the opponent's ability to follow cleanly. Their repeated knee repositioning compromises their base stability, and the cumulative space gains from chained shrimps eventually exceed their ability to track your movement.",
+        "answer_line": "Chain shrimps, insert knee shield",
+        "distractors": {
+          "plausible": [
+            "Reset flat and start over",
+            "Switch shrimp direction"
+          ],
+          "trap": [
+            "Stop and try to stand up"
+          ]
+        }
       },
       {
         "question": "What is the correct direction for the hip escape in this technique and why does direction matter?",
-        "answer": "The hip escape moves laterally away from the opponent's knee — toward your own feet and the side opposite the knee contact point. Direction is critical because shrimping into the knee drives your body further under the opponent's weight, increasing pressure rather than relieving it. Moving away creates maximum displacement between your torso and the pressure point, while your frames push the knee in the opposite direction to amplify the separation."
+        "answer": "The hip escape moves laterally away from the opponent's knee — toward your own feet and the side opposite the knee contact point. Direction is critical because shrimping into the knee drives your body further under the opponent's weight, increasing pressure rather than relieving it. Moving away creates maximum displacement between your torso and the pressure point, while your frames push the knee in the opposite direction to amplify the separation.",
+        "answer_line": "Escape away from the knee",
+        "distractors": {
+          "plausible": [
+            "Escape toward the knee",
+            "Escape straight up the mat"
+          ],
+          "trap": [
+            "Push into the knee to create space"
+          ]
+        }
       },
       {
         "question": "What happens if you extend your arms to push the opponent's knee away instead of using structural frames?",
-        "answer": "Extended arms become immediately vulnerable to armbars and Americanas — the opponent can capture an outstretched limb and transition to a submission without abandoning their controlling position. Additionally, vertical pushing force is easily absorbed by the opponent's committed bodyweight, making it energetically wasteful. Proper frames keep elbows tight and convert defensive arm structure into a platform for lateral escape movement rather than futile vertical resistance."
+        "answer": "Extended arms become immediately vulnerable to armbars and Americanas — the opponent can capture an outstretched limb and transition to a submission without abandoning their controlling position. Additionally, vertical pushing force is easily absorbed by the opponent's committed bodyweight, making it energetically wasteful. Proper frames keep elbows tight and convert defensive arm structure into a platform for lateral escape movement rather than futile vertical resistance.",
+        "answer_line": "Extended arm invites armbar",
+        "distractors": {
+          "plausible": [
+            "Only wastes energy, no risk",
+            "Opponent's base collapses"
+          ],
+          "trap": [
+            "Push knee away, clear space"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize immediately after recovering half guard from this escape?",
-        "answer": "The underhook on the trapped leg side is the highest-priority grip after recovering half guard. This underhook provides the primary offensive pathway to sweeps, back takes, and positional improvements from half guard bottom. Without establishing the underhook, the opponent can immediately re-establish crossface control, flatten you back out, and resume their passing sequence — potentially returning you to the same pressure-based disadvantage you just escaped."
+        "answer": "The underhook on the trapped leg side is the highest-priority grip after recovering half guard. This underhook provides the primary offensive pathway to sweeps, back takes, and positional improvements from half guard bottom. Without establishing the underhook, the opponent can immediately re-establish crossface control, flatten you back out, and resume their passing sequence — potentially returning you to the same pressure-based disadvantage you just escaped.",
+        "answer_line": "Underhook on trapped-leg side",
+        "distractors": {
+          "plausible": [
+            "Overhook on far side",
+            "Grip the far collar first"
+          ],
+          "trap": [
+            "Push away and try to stand"
+          ]
+        }
       },
       {
         "question": "Your opponent begins reaching for a cross collar grip as you initiate your frames — how do you proceed?",
-        "answer": "The submission attempt compromises the opponent's base stability and creates an opening for accelerated escape. Defend the collar grip with your far hand controlling their choking wrist while maintaining your near-side frame on their knee. Use their weight redistribution toward the submission to enhance your bridge — they have less base stability when committing a hand to attacking. Time your shrimp during their grip adjustment and prioritize completing the escape."
+        "answer": "The submission attempt compromises the opponent's base stability and creates an opening for accelerated escape. Defend the collar grip with your far hand controlling their choking wrist while maintaining your near-side frame on their knee. Use their weight redistribution toward the submission to enhance your bridge — they have less base stability when committing a hand to attacking. Time your shrimp during their grip adjustment and prioritize completing the escape.",
+        "answer_line": "Defend grip, keep frame, shrimp",
+        "distractors": {
+          "plausible": [
+            "Abandon frame to strip grip",
+            "Stall until grip is released"
+          ],
+          "trap": [
+            "Let go of knee frame to defend"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the Frame and Shrimp escape?",
-        "answer": "The best timing is immediately after the opponent establishes KOB before they settle their full weight and secure controlling grips on your collar and belt. Every second of delay allows them to consolidate pressure, establish the grip framework for their attack sequence, and begin threatening submissions. Secondary timing windows occur when the opponent adjusts their knee position, reaches for grips, or begins a submission setup — each of these actions temporarily compromises their base stability."
+        "answer": "The best timing is immediately after the opponent establishes KOB before they settle their full weight and secure controlling grips on your collar and belt. Every second of delay allows them to consolidate pressure, establish the grip framework for their attack sequence, and begin threatening submissions. Secondary timing windows occur when the opponent adjusts their knee position, reaches for grips, or begins a submission setup — each of these actions temporarily compromises their base stability.",
+        "answer_line": "Immediately, before they settle",
+        "distractors": {
+          "plausible": [
+            "After they secure all grips",
+            "Wait for their first attack"
+          ],
+          "trap": [
+            "Wait until fully flattened out"
+          ]
+        }
       },
       {
         "question": "Why is it important to insert your knee immediately after creating space rather than waiting?",
-        "answer": "The space created by the shrimp is temporary — the opponent is actively working to follow your movement and re-establish knee contact. Without a physical barrier, the opponent simply hops their knee to your new position and resets the entire exchange. The inserted knee creates an obstacle that prevents direct re-establishment and begins the structural transition to half guard. Delayed insertion wastes the space gained and often leads to the opponent advancing to mount through the gap you created."
+        "answer": "The space created by the shrimp is temporary — the opponent is actively working to follow your movement and re-establish knee contact. Without a physical barrier, the opponent simply hops their knee to your new position and resets the entire exchange. The inserted knee creates an obstacle that prevents direct re-establishment and begins the structural transition to half guard. Delayed insertion wastes the space gained and often leads to the opponent advancing to mount through the gap you created.",
+        "answer_line": "Blocks knee before it resets",
+        "distractors": {
+          "plausible": [
+            "Space stays open on its own",
+            "Better to shrimp again first"
+          ],
+          "trap": [
+            "Wait, then insert knee later"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape technique involves no direct joint manipulation or choking mechanics, making it low-risk from a submission safety perspective. The primary concern is managing the significant compressive pressure on the diaphragm and solar plexus during the escape sequence. Practitioners with rib injuries, respiratory conditions, or recent abdominal surgery should communicate clearly with training partners about pressure levels. During drilling, the top player should modulate pressure progressively and watch for signs of respiratory distress. Tap immediately if you cannot breathe — there is no technical benefit to training through oxygen deprivation.",
@@ -380,19 +470,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to attempt the Frame and Shrimp escape?",
-        "answer": "The earliest cues are the bottom player placing their forearm against your knee while their other hand reaches for your hip or belt — this dual frame structure is the prerequisite for the escape. Additionally, watch for them rotating to their side and planting both feet flat on the mat. These movements signal the bridge-and-shrimp sequence is imminent. Responding before the shrimp begins is significantly more effective than reacting after displacement has already occurred."
+        "answer": "The earliest cues are the bottom player placing their forearm against your knee while their other hand reaches for your hip or belt — this dual frame structure is the prerequisite for the escape. Additionally, watch for them rotating to their side and planting both feet flat on the mat. These movements signal the bridge-and-shrimp sequence is imminent. Responding before the shrimp begins is significantly more effective than reacting after displacement has already occurred.",
+        "answer_line": "Dual frame: forearm + hip hand",
+        "distractors": {
+          "plausible": [
+            "Only watch for the bridge",
+            "Watch for collar grip fighting"
+          ],
+          "trap": [
+            "Ignore until hips move"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially escaped with their hips displaced but has not yet inserted their knee — what is your best response?",
-        "answer": "This is the critical decision window for transitioning to mount. The space the bottom player created with their shrimp is the same space you can use to step your free leg across and establish mount. Act immediately by swinging your posted foot over their body and settling your hips before they can close the distance with their knee insertion. If mount is not available due to angle or timing, hop your knee to their new torso position to re-establish KOB."
+        "answer": "This is the critical decision window for transitioning to mount. The space the bottom player created with their shrimp is the same space you can use to step your free leg across and establish mount. Act immediately by swinging your posted foot over their body and settling your hips before they can close the distance with their knee insertion. If mount is not available due to angle or timing, hop your knee to their new torso position to re-establish KOB.",
+        "answer_line": "Step over, take mount now",
+        "distractors": {
+          "plausible": [
+            "Hop knee to new position",
+            "Wait for full stability"
+          ],
+          "trap": [
+            "Increase pressure, hold ground"
+          ]
+        }
       },
       {
         "question": "Why is following the hip escape more effective than increasing downward pressure on the same spot?",
-        "answer": "The hip escape creates lateral displacement that moves the bottom player's torso out from under your knee contact point. Increasing downward pressure on the position they have already vacated applies force to empty space while they continue escaping. Following the movement by repositioning your knee keeps constant pressure on their torso, maintaining the control relationship. Your knee should track their solar plexus as a moving target rather than anchoring to a fixed position on the mat."
+        "answer": "The hip escape creates lateral displacement that moves the bottom player's torso out from under your knee contact point. Increasing downward pressure on the position they have already vacated applies force to empty space while they continue escaping. Following the movement by repositioning your knee keeps constant pressure on their torso, maintaining the control relationship. Your knee should track their solar plexus as a moving target rather than anchoring to a fixed position on the mat.",
+        "answer_line": "Track their torso, don't anchor",
+        "distractors": {
+          "plausible": [
+            "More pressure controls better",
+            "Reset to original position"
+          ],
+          "trap": [
+            "Push down on empty space"
+          ]
+        }
       },
       {
         "question": "How do you balance between maintaining KOB and attacking your opponent's framing arms?",
-        "answer": "Attack the framing arm only from a stable, fully settled KOB position where your base is secure and the opponent's escape has not yet begun. If the escape is already in motion with active hip displacement, prioritize position over submission — maintaining KOB or advancing to mount provides sustained advantage, while a failed submission attempt from a compromised base often loses the position entirely. Use arm attacks primarily as deterrents that discourage framing rather than as primary objectives during active escape defense."
+        "answer": "Attack the framing arm only from a stable, fully settled KOB position where your base is secure and the opponent's escape has not yet begun. If the escape is already in motion with active hip displacement, prioritize position over submission — maintaining KOB or advancing to mount provides sustained advantage, while a failed submission attempt from a compromised base often loses the position entirely. Use arm attacks primarily as deterrents that discourage framing rather than as primary objectives during active escape defense.",
+        "answer_line": "Attack arm only from stable KOB",
+        "distractors": {
+          "plausible": [
+            "Always attack arm immediately",
+            "Never attack the framing arm"
+          ],
+          "trap": [
+            "Chase submission mid-escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

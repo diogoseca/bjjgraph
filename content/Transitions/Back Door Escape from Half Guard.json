@@ -255,35 +255,115 @@
     "flashcards": [
       {
         "question": "What body position indicates the back door escape is the optimal choice over conventional half guard techniques?",
-        "answer": "The back door escape becomes optimal when you are flattened in half guard with opponent's crossface controlling your head and their underhook preventing you from coming up to your side. If you cannot win the underhook battle after two or three attempts and opponent's weight is driving you flat, continuing to fight toward the opponent wastes energy and invites further deterioration. The key indicator is that your ability to hip escape toward the opponent has been neutralized by their crossface and forward pressure."
+        "answer": "The back door escape becomes optimal when you are flattened in half guard with opponent's crossface controlling your head and their underhook preventing you from coming up to your side. If you cannot win the underhook battle after two or three attempts and opponent's weight is driving you flat, continuing to fight toward the opponent wastes energy and invites further deterioration. The key indicator is that your ability to hip escape toward the opponent has been neutralized by their crossface and forward pressure.",
+        "answer_line": "Flattened, crossface, underhook lost",
+        "distractors": {
+          "plausible": [
+            "Underhook battle still winnable",
+            "Opponent hasn't crossfaced yet"
+          ],
+          "trap": [
+            "Keep fighting for the underhook"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for initiating the back door escape?",
-        "answer": "The optimal timing window occurs when the top player shifts their weight, typically when they adjust their crossface, reach for a new grip, attempt to extract their trapped leg, or transition their hips for a passing attempt. During these weight shifts, their pressure momentarily decreases, creating the space needed to initiate the hip escape that starts the turning motion. Attempting the escape against fully committed static pressure requires significantly more energy and has substantially lower success rate."
+        "answer": "The optimal timing window occurs when the top player shifts their weight, typically when they adjust their crossface, reach for a new grip, attempt to extract their trapped leg, or transition their hips for a passing attempt. During these weight shifts, their pressure momentarily decreases, creating the space needed to initiate the hip escape that starts the turning motion. Attempting the escape against fully committed static pressure requires significantly more energy and has substantially lower success rate.",
+        "answer_line": "During opponent's weight shift",
+        "distractors": {
+          "plausible": [
+            "When pressure is fully committed",
+            "As soon as half guard forms"
+          ],
+          "trap": [
+            "Wait for opponent to pass fully"
+          ]
+        }
       },
       {
         "question": "What happens if you release the half guard leg trap before creating turning space?",
-        "answer": "Releasing the leg trap prematurely removes your only positional anchor without having the alternative structure in place. The opponent's trapped leg was the mechanism preventing them from passing to side control or mount. Without it, and without having started the turn, you lose both half guard retention and the escape opportunity simultaneously. The leg release must be integrated into the turning motion itself, not performed as a separate preparatory step."
+        "answer": "Releasing the leg trap prematurely removes your only positional anchor without having the alternative structure in place. The opponent's trapped leg was the mechanism preventing them from passing to side control or mount. Without it, and without having started the turn, you lose both half guard retention and the escape opportunity simultaneously. The leg release must be integrated into the turning motion itself, not performed as a separate preparatory step.",
+        "answer_line": "Lose guard and escape opportunity",
+        "distractors": {
+          "plausible": [
+            "Opponent instantly passes guard",
+            "You gain space to turn faster"
+          ],
+          "trap": [
+            "Nothing, timing doesn't matter"
+          ]
+        }
       },
       {
         "question": "Your opponent reacts to the back door escape by driving forward aggressively - how do you adjust?",
-        "answer": "If the opponent drives forward as you initiate the back door escape, their forward momentum actually assists the escape by reducing the pressure on your far hip. Use their forward drive to accelerate your turn, ensuring your elbows stay tight to prevent their arms from threading under your body. Their forward commitment makes it harder for them to follow laterally, so completing the turn quickly should create a clean turtle position. If they significantly overcommit, you may chain directly into a sit-through from turtle."
+        "answer": "If the opponent drives forward as you initiate the back door escape, their forward momentum actually assists the escape by reducing the pressure on your far hip. Use their forward drive to accelerate your turn, ensuring your elbows stay tight to prevent their arms from threading under your body. Their forward commitment makes it harder for them to follow laterally, so completing the turn quickly should create a clean turtle position. If they significantly overcommit, you may chain directly into a sit-through from turtle.",
+        "answer_line": "Use their drive, keep elbows tight",
+        "distractors": {
+          "plausible": [
+            "Stop the turn and reset base",
+            "Match their forward pressure"
+          ],
+          "trap": [
+            "Abandon the turn, re-guard"
+          ]
+        }
       },
       {
         "question": "What grip and arm position must you maintain during the entire turning phase?",
-        "answer": "During the turn, elbows must remain pinched tight against your ribs with forearms pulled close to your body. Your near-side arm frames briefly against the opponent's hip to create initial space, then tucks in as the turn progresses. The far-side arm stays tight to your body and only posts on the mat at the very end when establishing turtle base. Any gap between your elbows and body creates an opening for the opponent to thread their arm for back control, front headlock, or darce choke."
+        "answer": "During the turn, elbows must remain pinched tight against your ribs with forearms pulled close to your body. Your near-side arm frames briefly against the opponent's hip to create initial space, then tucks in as the turn progresses. The far-side arm stays tight to your body and only posts on the mat at the very end when establishing turtle base. Any gap between your elbows and body creates an opening for the opponent to thread their arm for back control, front headlock, or darce choke.",
+        "answer_line": "Elbows pinned tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Post both hands out wide",
+            "Frame with both arms extended"
+          ],
+          "trap": [
+            "Reach back to check position"
+          ]
+        }
       },
       {
         "question": "How should you handle the transition if the opponent has already started establishing grips on your back?",
-        "answer": "If the opponent gets grips during the transition, prioritize completing the turtle base first before addressing the grips. A solid four-point turtle structure gives you the foundation to fight grips effectively, whereas fighting grips without a base leaves you vulnerable to being flattened or rolled. Once in turtle, immediately begin hand fighting the most threatening grip first, typically the choking hand in any seatbelt configuration, while maintaining tight elbows-to-knees defensive structure throughout."
+        "answer": "If the opponent gets grips during the transition, prioritize completing the turtle base first before addressing the grips. A solid four-point turtle structure gives you the foundation to fight grips effectively, whereas fighting grips without a base leaves you vulnerable to being flattened or rolled. Once in turtle, immediately begin hand fighting the most threatening grip first, typically the choking hand in any seatbelt configuration, while maintaining tight elbows-to-knees defensive structure throughout.",
+        "answer_line": "Finish turtle base first",
+        "distractors": {
+          "plausible": [
+            "Fight grips before basing",
+            "Grab their choking hand first"
+          ],
+          "trap": [
+            "Sit up and face opponent"
+          ]
+        }
       },
       {
         "question": "Why is the back door escape more effective when combined with previous underhook attempts rather than used as a first option?",
-        "answer": "Attempting conventional underhook techniques before the back door escape serves two important purposes. First, it establishes a directional threat toward the opponent that they must actively defend, loading their defensive reactions in that direction. When you suddenly reverse direction with the back door escape, they are momentarily caught with their weight and attention committed to defending the underhook side. Second, failed underhook attempts often result in small hip escapes that create the initial space needed for the back door turning motion."
+        "answer": "Attempting conventional underhook techniques before the back door escape serves two important purposes. First, it establishes a directional threat toward the opponent that they must actively defend, loading their defensive reactions in that direction. When you suddenly reverse direction with the back door escape, they are momentarily caught with their weight and attention committed to defending the underhook side. Second, failed underhook attempts often result in small hip escapes that create the initial space needed for the back door turning motion.",
+        "answer_line": "Loads their defense the wrong way",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out physically",
+            "Builds up to a bigger attack"
+          ],
+          "trap": [
+            "Telegraphs the real escape plan"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous moment during the back door escape execution?",
-        "answer": "The most dangerous moment occurs when you are approximately halfway through the turn, past the point where you can recover half guard but before establishing a defensible turtle structure. At this halfway point, your back is fully exposed, your base is transitional, and the opponent has maximum access to seatbelt, hooks, and front headlock attacks. This is why the turning motion must be explosive and continuous rather than gradual. Pausing at any point during the turn dramatically increases the probability of back take."
+        "answer": "The most dangerous moment occurs when you are approximately halfway through the turn, past the point where you can recover half guard but before establishing a defensible turtle structure. At this halfway point, your back is fully exposed, your base is transitional, and the opponent has maximum access to seatbelt, hooks, and front headlock attacks. This is why the turning motion must be explosive and continuous rather than gradual. Pausing at any point during the turn dramatically increases the probability of back take.",
+        "answer_line": "Halfway through, back exposed",
+        "distractors": {
+          "plausible": [
+            "Right at the very start",
+            "After turtle is established"
+          ],
+          "trap": [
+            "Pausing mid-turn to reassess"
+          ]
+        }
       }
     ],
     "safety_considerations": "The back door escape is generally low-risk for joint injuries since it does not involve submission mechanics or extreme joint manipulation. The primary safety concern is cervical spine protection during the turning motion. Maintain chin tucked firmly to chest throughout to prevent awkward neck positioning if opponent applies crossface pressure during the turn. Avoid explosive attempts if you have existing neck or shoulder injuries that could be aggravated by rapid rotation under load. In training, partners should allow the escape at reduced speed until the escaper has developed sufficient technique and speed to protect their back during the full-speed transition.",
@@ -394,19 +474,59 @@
     "flashcards": [
       {
         "question": "What are the earliest visual and tactile cues that indicate a back door escape attempt is about to begin?",
-        "answer": "The earliest cues include the opponent ceasing their underhook fight and redirecting hip escape movement away from you rather than toward you, a noticeable relaxation in their framing pressure against your chest as they prepare to redirect energy, and small adjustments to their leg position preparing to release the half guard trap. The tactile cue of hip pressure shifting direction away from your body is the most reliable early indicator and should trigger immediate defensive response."
+        "answer": "The earliest cues include the opponent ceasing their underhook fight and redirecting hip escape movement away from you rather than toward you, a noticeable relaxation in their framing pressure against your chest as they prepare to redirect energy, and small adjustments to their leg position preparing to release the half guard trap. The tactile cue of hip pressure shifting direction away from your body is the most reliable early indicator and should trigger immediate defensive response.",
+        "answer_line": "Hip pressure shifts away",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure increases",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Underhook grip gets tighter"
+          ]
+        }
       },
       {
         "question": "When should you choose to follow the escape for a back take versus stuff the escape entirely?",
-        "answer": "Stuff the escape when you recognize the intent before the turning motion begins, when the legs are still entangled and the opponent has only started the initial hip escape. Heavy crossface pressure and hip control can prevent the escape entirely at this stage. Follow for the back take once the opponent's shoulders have begun rotating and they have released or are releasing the leg entanglement. At that point, fighting the turn wastes energy and creates scrambles, while following with your chest gives you direct access to the exposed back."
+        "answer": "Stuff the escape when you recognize the intent before the turning motion begins, when the legs are still entangled and the opponent has only started the initial hip escape. Heavy crossface pressure and hip control can prevent the escape entirely at this stage. Follow for the back take once the opponent's shoulders have begun rotating and they have released or are releasing the leg entanglement. At that point, fighting the turn wastes energy and creates scrambles, while following with your chest gives you direct access to the exposed back.",
+        "answer_line": "Stuff early, follow once turning",
+        "distractors": {
+          "plausible": [
+            "Always stuff before it starts",
+            "Follow immediately every time"
+          ],
+          "trap": [
+            "Fight the turn once it's begun"
+          ]
+        }
       },
       {
         "question": "Your opponent completes the back door escape to turtle before you can establish back control - what are your immediate priorities?",
-        "answer": "Immediately establish chest pressure on their upper back while working for seatbelt grip. Do not reach around wildly. Methodically establish the over-under harness by threading your choking arm over their shoulder while your other arm goes under their armpit. Keep your hips connected to their hips to prevent sit-throughs and technical standups. Time is critical because their first action will be to initiate a turtle escape, so establishing at least one hook and seatbelt within three seconds is essential for converting to full back control."
+        "answer": "Immediately establish chest pressure on their upper back while working for seatbelt grip. Do not reach around wildly. Methodically establish the over-under harness by threading your choking arm over their shoulder while your other arm goes under their armpit. Keep your hips connected to their hips to prevent sit-throughs and technical standups. Time is critical because their first action will be to initiate a turtle escape, so establishing at least one hook and seatbelt within three seconds is essential for converting to full back control.",
+        "answer_line": "Chest pressure, then seatbelt",
+        "distractors": {
+          "plausible": [
+            "Reach around for hooks first",
+            "Grab both wrists immediately"
+          ],
+          "trap": [
+            "Dive for a leg to flatten them"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution as the half guard top player affect the opponent's ability to execute the back door escape?",
-        "answer": "Forward-distributed weight through your chest and crossface makes the initial hip escape nearly impossible, effectively preventing the escape before it develops. Weight distributed too far back on your heels or hips creates the space between your chest and their body that the escape requires for the turning motion. However, extremely forward weight commitment can be exploited by the opponent using your momentum to accelerate their turn. The optimal distribution is heavy forward pressure with lateral mobility, keeping approximately seventy percent of weight through your upper body connection."
+        "answer": "Forward-distributed weight through your chest and crossface makes the initial hip escape nearly impossible, effectively preventing the escape before it develops. Weight distributed too far back on your heels or hips creates the space between your chest and their body that the escape requires for the turning motion. However, extremely forward weight commitment can be exploited by the opponent using your momentum to accelerate their turn. The optimal distribution is heavy forward pressure with lateral mobility, keeping approximately seventy percent of weight through your upper body connection.",
+        "answer_line": "Heavy forward, stay mobile",
+        "distractors": {
+          "plausible": [
+            "Weight back on heels and hips",
+            "Full weight straight down"
+          ],
+          "trap": [
+            "Extreme forward commitment"
+          ]
+        }
       }
     ],
     "training_progressions": [

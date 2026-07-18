@@ -287,12 +287,32 @@
       {
         "question": "What anatomical structure does the Kesa Gatame Arm Crush primarily attack, and what creates the hyperextension force?",
         "answer": "The arm crush primarily attacks the elbow joint, specifically hyperextending it against its natural range of motion. The force is created by using the attacker's hip bone as a rigid fulcrum point placed behind the elbow while pulling the wrist toward the chest and driving the hips forward. This creates opposing forces on either side of the elbow joint, generating compression and hyperextension that stresses the ligaments, joint capsule, and surrounding soft tissue.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hip bone fulcrum hyperextends elbow",
+        "distractors": {
+          "plausible": [
+            "Shoulder rotation via figure-four",
+            "Wrist lock via forearm pressure"
+          ],
+          "trap": [
+            "Squeeze biceps to tear muscle"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent's elbow is properly positioned against your hip for maximum crushing pressure?",
         "answer": "You should feel bone-on-bone contact between the back of the opponent's elbow (the olecranon process) and your hip bone (iliac crest). The arm should be completely straight with zero bend remaining, and the wrist should be pulled tight against your chest with no slack in the arm. When you begin driving your hips forward, you should feel immediate resistance from the elbow joint rather than the arm sliding or bending. If the arm compresses into soft tissue, the fulcrum is misplaced and needs adjustment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bone-on-bone, arm straight, no slack",
+        "distractors": {
+          "plausible": [
+            "Elbow pressed into soft belly tissue",
+            "Slight bend absorbing pressure"
+          ],
+          "trap": [
+            "Arm bent and slack, then drive hips"
+          ]
+        }
       },
       {
         "question": "What control must be established before transitioning from kesa gatame hold to the arm crush finish?",
@@ -307,7 +327,17 @@
       {
         "question": "Your opponent begins rotating their wrist to slip the elbow off your hip during the crush - what grip adjustment prevents this escape?",
         "answer": "Immediately pronate their hand so the palm faces the ceiling by rotating your grip on their wrist, which locks the elbow in the most vulnerable hyperextension plane and prevents them from turning the joint to relieve pressure. Simultaneously squeeze your elbows tighter together to clamp the arm against your torso, eliminating the rotational freedom they need. If they continue fighting the grip, add a figure-four control around their forearm for maximum wrist immobilization before reapplying the hip drive.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pronate palm up, clamp elbows tight",
+        "distractors": {
+          "plausible": [
+            "Supinate palm down, release grip",
+            "Switch to single wrist grip"
+          ],
+          "trap": [
+            "Let go and reset head control"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that allows opponents to survive the arm crush despite apparently correct positioning?",
@@ -322,7 +352,17 @@
       {
         "question": "In competition, how do you set up the arm crush when your opponent is actively defending the americana from kesa gatame?",
         "answer": "When the opponent defends the americana by straightening their arm and keeping it rigid to prevent the figure-four, this defensive response directly enables the arm crush. Their straight arm is exactly what you need—immediately transition from the americana grip to two-on-one wrist control, walk their now-extended elbow to your hip fulcrum, and apply the crush. The submission chain creates a dilemma: bending the arm to defend the crush exposes the americana, while straightening to defend the americana exposes the crush. Alternate between both threats to overwhelm their defensive decision-making.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straight-arm defense feeds the crush",
+        "distractors": {
+          "plausible": [
+            "Abandon crush, force figure-four",
+            "Wait for arm to bend then attack"
+          ],
+          "trap": [
+            "Release wrist to reset the americana"
+          ]
+        }
       }
     ],
     "clips": [
@@ -436,12 +476,32 @@
       {
         "question": "Why is maintaining a bent arm position the single most important defensive priority against the arm crush?",
         "answer": "The arm crush requires a fully straightened arm to function because the hyperextension force only applies when the elbow cannot bend to absorb pressure. A bent arm distributes the force through the natural range of motion of the joint, making the compression ineffective. Once the arm straightens with the elbow against the hip fulcrum, the defender loses all mechanical ability to retract or bend the arm against the attacker's body weight and two-on-one grip control. Prevention through bent-arm positioning is far easier than escaping a locked crush.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bent arm absorbs, straight arm locks",
+        "distractors": {
+          "plausible": [
+            "Bent arm frees the far-side grip",
+            "Bent arm helps regain head position"
+          ],
+          "trap": [
+            "Straighten arm to push attacker off"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully extended your arm and positioned your elbow against their hip - what should you do?",
         "answer": "At this point the submission is nearly complete and escape is extremely unlikely. Attempt to rotate your forearm to slide the elbow off the bone fulcrum—this is your last mechanical option. If the rotation fails and you feel pressure building on the elbow joint, tap immediately. Do not attempt explosive escape movements against a locked arm crush as this can cause self-inflicted ligament damage or elbow dislocation. Accepting the tap and learning to defend earlier in the sequence is far better than risking a serious training injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Try rotating forearm, then tap",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to reverse",
+            "Yank arm back with a jerk"
+          ],
+          "trap": [
+            "Push through the pain to escape"
+          ]
+        }
       },
       {
         "question": "How does defending the arm crush differ from defending the americana from the same position?",
@@ -451,7 +511,17 @@
       {
         "question": "What is the primary escape window during the arm crush setup and why does it exist?",
         "answer": "The primary escape window occurs when the attacker releases head control to secure two-on-one wrist grip on the trapped arm. During this 1-2 second transition, the opponent's head and upper body are temporarily uncontrolled, and their weight distribution shifts as they redirect their arms. This creates the opportunity for an explosive bridge because the attacker cannot simultaneously control your head, maintain hip pressure, and secure wrist control. The window exists because the arm crush requires both hands on the wrist, forcing the attacker to sacrifice head control during the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge when head control releases",
+        "distractors": {
+          "plausible": [
+            "Escape once elbow touches hip",
+            "Escape after wrist lock secured"
+          ],
+          "trap": [
+            "Wait until arm is fully straight"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -394,35 +394,115 @@
   "flashcards": [
     {
       "question": "What core mechanical principle makes the X-Guard System effective against larger, stronger opponents?",
-      "answer": "It relies on deep leg-hook positioning and weight elevation rather than upper-body grips, using the legs to lift and off-balance the opponent so leverage—not strength—generates the sweep, which neutralizes size and power advantages."
+      "answer": "It relies on deep leg-hook positioning and weight elevation rather than upper-body grips, using the legs to lift and off-balance the opponent so leverage—not strength—generates the sweep, which neutralizes size and power advantages.",
+      "answer_line": "Leg hooks elevate, not grips",
+      "distractors": {
+        "plausible": [
+          "Grip fighting wears them down",
+          "Speed and scrambles overwhelm"
+        ],
+        "trap": [
+          "Squeeze with upper-body strength"
+        ]
+      }
     },
     {
       "question": "What are the primary entry pathways into X-Guard in Marcelo Garcia's system?",
-      "answer": "Entries flow from butterfly guard by converting butterfly hooks, from seated guard using foot-on-hip and ankle-pick mechanics, and from standing scenarios off failed takedowns or guard pulls, giving multiple high-percentage routes into the position."
+      "answer": "Entries flow from butterfly guard by converting butterfly hooks, from seated guard using foot-on-hip and ankle-pick mechanics, and from standing scenarios off failed takedowns or guard pulls, giving multiple high-percentage routes into the position.",
+      "answer_line": "Butterfly, seated, or standing",
+      "distractors": {
+        "plausible": [
+          "Only from closed guard pulls",
+          "Only after opponent shoots"
+        ],
+        "trap": [
+          "Pull guard, then stand it up"
+        ]
+      }
     },
     {
       "question": "When should a practitioner favor a back take over a sweep from X-Guard?",
-      "answer": "When the opponent defends the sweep by lowering their hips or shifting weight forward to widen their base, a back-exposure window opens; the same leg hooks that controlled the sweep are then used to insert hooks and take the back."
+      "answer": "When the opponent defends the sweep by lowering their hips or shifting weight forward to widen their base, a back-exposure window opens; the same leg hooks that controlled the sweep are then used to insert hooks and take the back.",
+      "answer_line": "When they widen base forward",
+      "distractors": {
+        "plausible": [
+          "When they sit back on heels",
+          "When they post both hands down"
+        ],
+        "trap": [
+          "Release hooks and go for armbar"
+        ]
+      }
     },
     {
       "question": "Why is chaining attacks essential rather than committing to a single sweep?",
-      "answer": "Single committed attacks become predictable and easy to defend; chaining sweeps, back takes, and submissions creates dilemmas where every defensive reaction the opponent makes opens a new attacking window and sustains offensive pressure."
+      "answer": "Single committed attacks become predictable and easy to defend; chaining sweeps, back takes, and submissions creates dilemmas where every defensive reaction the opponent makes opens a new attacking window and sustains offensive pressure.",
+      "answer_line": "Single attacks become predictable",
+      "distractors": {
+        "plausible": [
+          "Chaining wastes valuable energy",
+          "One strong attack is enough"
+        ],
+        "trap": [
+          "Commit fully to one sweep"
+        ]
+      }
     },
     {
       "question": "What is a common mistake beginners make when learning the X-Guard System?",
-      "answer": "Attempting sweeps before establishing proper elevation and hook depth, and relying on upper-body grips or muscle tension instead of leg mechanics, which lets opponents flatten the structure or strip the hooks cleanly."
+      "answer": "Attempting sweeps before establishing proper elevation and hook depth, and relying on upper-body grips or muscle tension instead of leg mechanics, which lets opponents flatten the structure or strip the hooks cleanly.",
+      "answer_line": "Sweeping before hooks are deep",
+      "distractors": {
+        "plausible": [
+          "Relying on grips, not legs",
+          "Chasing submissions too early"
+        ],
+        "trap": [
+          "Squeezing harder to control"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent strips a leg out of the X-Guard hooks?",
-      "answer": "Prioritize hook depth and angle over squeezing pressure, use frames and grips to stop base widening, and rely on re-hooking sequences plus transitions to butterfly, seated, or deep half guard when extraction becomes inevitable."
+      "answer": "Prioritize hook depth and angle over squeezing pressure, use frames and grips to stop base widening, and rely on re-hooking sequences plus transitions to butterfly, seated, or deep half guard when extraction becomes inevitable.",
+      "answer_line": "Prioritize hook depth over squeeze",
+      "distractors": {
+        "plausible": [
+          "Squeeze harder to hold the hook",
+          "Chase the leg to re-secure it"
+        ],
+        "trap": [
+          "Let go and stand up immediately"
+        ]
+      }
     },
     {
       "question": "What role do submissions play within the primarily sweep-based X-Guard System?",
-      "answer": "Submissions such as guillotines, arm-drag-to-armbar sequences, and triangle transitions complement the sweeping game, emerging when the opponent posts hands or lowers their head, and they keep the attack pattern from becoming one-dimensional."
+      "answer": "Submissions such as guillotines, arm-drag-to-armbar sequences, and triangle transitions complement the sweeping game, emerging when the opponent posts hands or lowers their head, and they keep the attack pattern from becoming one-dimensional.",
+      "answer_line": "Complement sweeps, don't replace",
+      "distractors": {
+        "plausible": [
+          "Submissions are the main goal",
+          "Only attempted after failed sweep"
+        ],
+        "trap": [
+          "Abandon hooks to chase a choke"
+        ]
+      }
     },
     {
       "question": "What conditioning challenge does sustained X-Guard play create and how is it managed?",
-      "answer": "Holding the elevated position fatigues the core and hip flexors, especially against heavier opponents; it is managed by pulsing elevation instead of constant pressure, targeted strength work, and technical stand-up variations that reduce sustained leg strain."
+      "answer": "Holding the elevated position fatigues the core and hip flexors, especially against heavier opponents; it is managed by pulsing elevation instead of constant pressure, targeted strength work, and technical stand-up variations that reduce sustained leg strain.",
+      "answer_line": "Pulse elevation, don't hold it",
+      "distractors": {
+        "plausible": [
+          "Hold constant elevation pressure",
+          "Rely on strength training only"
+        ],
+        "trap": [
+          "Let hips sag to rest legs"
+        ]
+      }
     }
   ]
 }

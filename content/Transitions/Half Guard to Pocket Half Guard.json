@@ -261,27 +261,87 @@
     "flashcards": [
       {
         "question": "What is the minimum underhook depth required for a successful Transition to Pocket Half Guard, and why does a shallow underhook fail?",
-        "answer": "The underhook must reach completely across the opponent's back to grip the far lat, far armpit, or belt line. A shallow underhook that only grips the near shoulder or tricep fails because it provides insufficient control over the opponent's rotation, allowing them to easily strip the grip by turning away or framing against the shoulder. The deep grip creates a mechanical connection that controls their entire upper body, making it physically difficult for them to escape the flattening pressure."
+        "answer": "The underhook must reach completely across the opponent's back to grip the far lat, far armpit, or belt line. A shallow underhook that only grips the near shoulder or tricep fails because it provides insufficient control over the opponent's rotation, allowing them to easily strip the grip by turning away or framing against the shoulder. The deep grip creates a mechanical connection that controls their entire upper body, making it physically difficult for them to escape the flattening pressure.",
+        "answer_line": "Grip far lat, armpit, or belt",
+        "distractors": {
+          "plausible": [
+            "Underhook the near shoulder",
+            "Grip the tricep, not lat"
+          ],
+          "trap": [
+            "Overhook the far arm instead"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin threading the underhook. How do you adjust your entry?",
-        "answer": "When the opponent posts their far hand, they are actually creating the opening you need. Their posted arm lifts their far shoulder off the mat, widening the underhook lane. Drive your arm through this expanded space aggressively while simultaneously increasing your chest pressure to prevent them from pulling the arm back. Their posting arm cannot simultaneously frame against you and maintain the post, so capitalize on this commitment by threading deep before they can retract."
+        "answer": "When the opponent posts their far hand, they are actually creating the opening you need. Their posted arm lifts their far shoulder off the mat, widening the underhook lane. Drive your arm through this expanded space aggressively while simultaneously increasing your chest pressure to prevent them from pulling the arm back. Their posting arm cannot simultaneously frame against you and maintain the post, so capitalize on this commitment by threading deep before they can retract.",
+        "answer_line": "Thread underhook through gap",
+        "distractors": {
+          "plausible": [
+            "Wait for them to retract arm",
+            "Grab the posted hand first"
+          ],
+          "trap": [
+            "Back off and reset position"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the flattening phase of this transition?",
-        "answer": "The critical hip movement is driving your hips forward and downward into the opponent's body at a slight diagonal angle toward the underhook side. This hip drive eliminates the pocket space the bottom player's leg was using as a frame against your hip. Your hips should drop heavy into their midsection, not remain elevated above them. The diagonal angle of the drive pins their outside knee toward the mat, collapsing their last remaining defensive structure."
+        "answer": "The critical hip movement is driving your hips forward and downward into the opponent's body at a slight diagonal angle toward the underhook side. This hip drive eliminates the pocket space the bottom player's leg was using as a frame against your hip. Your hips should drop heavy into their midsection, not remain elevated above them. The diagonal angle of the drive pins their outside knee toward the mat, collapsing their last remaining defensive structure.",
+        "answer_line": "Drive hips diagonal, heavy down",
+        "distractors": {
+          "plausible": [
+            "Keep hips elevated, drive straight",
+            "Drive hips straight forward"
+          ],
+          "trap": [
+            "Pull hips back to create space"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you attempt the underhook entry, and what happens if you skip these prerequisites?",
-        "answer": "Two conditions must exist: forward chest pressure that pins the bottom player in place, and clearance of the underhook lane by controlling or redirecting their far arm. Skipping the chest pressure allows them to hip escape or insert a knee shield during your entry attempt. Skipping the arm clearance means your underhook attempt gets blocked by their elbow, frame, or overhook. Both failures telegraph your intention and give the opponent time to establish stronger defensive positions."
+        "answer": "Two conditions must exist: forward chest pressure that pins the bottom player in place, and clearance of the underhook lane by controlling or redirecting their far arm. Skipping the chest pressure allows them to hip escape or insert a knee shield during your entry attempt. Skipping the arm clearance means your underhook attempt gets blocked by their elbow, frame, or overhook. Both failures telegraph your intention and give the opponent time to establish stronger defensive positions.",
+        "answer_line": "Chest pressure + clear arm lane",
+        "distractors": {
+          "plausible": [
+            "Chest pressure only, skip arm",
+            "Clear arm lane, skip pressure"
+          ],
+          "trap": [
+            "Rush underhook before either"
+          ]
+        }
       },
       {
         "question": "What grip do you use with your non-underhook hand during the transition, and why is this grip important?",
-        "answer": "The non-underhook hand should control the opponent's near arm by pinning their wrist to their body, gripping their elbow, or establishing a crossface with the forearm across their jaw. This grip is critical because it eliminates the bottom player's primary framing tool. Without their near arm free, they cannot push your head away, frame against your shoulder, or create the distance needed for guard recovery. The near arm control completes the control system that makes Pocket Half Guard dominant."
+        "answer": "The non-underhook hand should control the opponent's near arm by pinning their wrist to their body, gripping their elbow, or establishing a crossface with the forearm across their jaw. This grip is critical because it eliminates the bottom player's primary framing tool. Without their near arm free, they cannot push your head away, frame against your shoulder, or create the distance needed for guard recovery. The near arm control completes the control system that makes Pocket Half Guard dominant.",
+        "answer_line": "Pin near wrist or crossface",
+        "distractors": {
+          "plausible": [
+            "Grip their far sleeve instead",
+            "Push on their near shoulder"
+          ],
+          "trap": [
+            "Let near arm free, focus underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a hip escape toward the underhook side during your transition attempt. What is the correct response?",
-        "answer": "This is a deep half guard entry attempt. Immediately sprawl your hips back while maintaining your underhook grip to prevent them from scooting underneath you. Drive your trapped knee toward the mat to block their hip movement. If they have already created significant angle, release the underhook temporarily and address their deep half entry by re-centering your hips over their body. Only resume the Pocket Half Guard transition after you have re-established a neutral Half Guard Top position."
+        "answer": "This is a deep half guard entry attempt. Immediately sprawl your hips back while maintaining your underhook grip to prevent them from scooting underneath you. Drive your trapped knee toward the mat to block their hip movement. If they have already created significant angle, release the underhook temporarily and address their deep half entry by re-centering your hips over their body. Only resume the Pocket Half Guard transition after you have re-established a neutral Half Guard Top position.",
+        "answer_line": "Sprawl hips, block deep half",
+        "distractors": {
+          "plausible": [
+            "Chase with the underhook grip",
+            "Release underhook immediately"
+          ],
+          "trap": [
+            "Follow them into deep half"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the underhook pull and the crossface drive, and why is this opposition essential?",
@@ -289,7 +349,17 @@
       },
       {
         "question": "Your opponent successfully inserts a knee shield just as you begin establishing the underhook. Should you continue the transition or change strategy?",
-        "answer": "Change strategy immediately. A fully established knee shield creates too much distance for the chest-to-chest pressure required by Pocket Half Guard. Attempting to force the transition through a knee shield wastes energy and exposes you to sweeps. Instead, address the knee shield first using smash pass mechanics to collapse it or a long step pass to circumvent it. Only re-attempt the Pocket Half Guard transition after the knee shield has been completely cleared and you have re-established forward pressure contact."
+        "answer": "Change strategy immediately. A fully established knee shield creates too much distance for the chest-to-chest pressure required by Pocket Half Guard. Attempting to force the transition through a knee shield wastes energy and exposes you to sweeps. Instead, address the knee shield first using smash pass mechanics to collapse it or a long step pass to circumvent it. Only re-attempt the Pocket Half Guard transition after the knee shield has been completely cleared and you have re-established forward pressure contact.",
+        "answer_line": "Clear knee shield first",
+        "distractors": {
+          "plausible": [
+            "Force through the knee shield",
+            "Switch to double underhooks"
+          ],
+          "trap": [
+            "Power through with more pressure"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to Pocket Half Guard involves significant forward pressure through the chest and crossface mechanics that require awareness of partner safety during training. Crossface pressure should be applied with the forearm across the jaw, never directly against the throat or trachea. Underhook control should use pulling force on the torso, never apply torquing pressure to the shoulder joint. During flattening sequences, be aware that driving excessive weight through the chest onto a partner whose ribs are compressed can cause discomfort or injury. Communicate with training partners about pressure levels and maintain control throughout the transition rather than dropping weight suddenly.",
@@ -379,19 +449,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is attempting the Transition to Pocket Half Guard?",
-        "answer": "The earliest cue is feeling the top player's arm begin to swim under your far armpit combined with an increase in forward chest pressure. These two simultaneous actions indicate they are threading the underhook while using pressure to prevent you from creating distance. Responding at this stage requires significantly less energy than escaping once the position is established. Secondary cues include their head driving to the crossface side and their free leg posting wider."
+        "answer": "The earliest cue is feeling the top player's arm begin to swim under your far armpit combined with an increase in forward chest pressure. These two simultaneous actions indicate they are threading the underhook while using pressure to prevent you from creating distance. Responding at this stage requires significantly less energy than escaping once the position is established. Secondary cues include their head driving to the crossface side and their free leg posting wider.",
+        "answer_line": "Arm swims under far armpit",
+        "distractors": {
+          "plausible": [
+            "Head moves to crossface side",
+            "Free leg posts out wide"
+          ],
+          "trap": [
+            "Wait until underhook is deep"
+          ]
+        }
       },
       {
         "question": "Why is the knee shield insertion considered the most reliable defensive option against this transition?",
-        "answer": "The knee shield creates a structural barrier that physically prevents the chest-to-chest contact required for the Pocket Half Guard transition to succeed. Unlike grip fighting which can be overcome through pressure, the knee shield uses skeletal structure to maintain distance. It works even against significantly stronger opponents because it leverages the shin bone against the chest. However, it must be inserted before the top player closes the distance, making timing critical."
+        "answer": "The knee shield creates a structural barrier that physically prevents the chest-to-chest contact required for the Pocket Half Guard transition to succeed. Unlike grip fighting which can be overcome through pressure, the knee shield uses skeletal structure to maintain distance. It works even against significantly stronger opponents because it leverages the shin bone against the chest. However, it must be inserted before the top player closes the distance, making timing critical.",
+        "answer_line": "Bone barrier blocks chest contact",
+        "distractors": {
+          "plausible": [
+            "Grip fighting stops the pressure",
+            "Strength stops the underhook"
+          ],
+          "trap": [
+            "Muscle through, then insert shield"
+          ]
+        }
       },
       {
         "question": "Your underhook has been established by the top player but they have not yet completed the crossface. What should you do?",
-        "answer": "This is a critical window where the transition is only partially complete. Without the crossface, you can still turn into the underhook side and create angle. Use this window to either establish your own underhook on the opposite side to create a double underhook scramble, hip escape underneath for deep half guard entry while their head is still on the wrong side, or drive into them to create the Dogfight position where you have equal standing. The key is acting immediately before they complete the crossface."
+        "answer": "This is a critical window where the transition is only partially complete. Without the crossface, you can still turn into the underhook side and create angle. Use this window to either establish your own underhook on the opposite side to create a double underhook scramble, hip escape underneath for deep half guard entry while their head is still on the wrong side, or drive into them to create the Dogfight position where you have equal standing. The key is acting immediately before they complete the crossface.",
+        "answer_line": "Turn in, create angle now",
+        "distractors": {
+          "plausible": [
+            "Wait for crossface to finish",
+            "Push away to create distance"
+          ],
+          "trap": [
+            "Stay flat and defend crossface"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when defending against repeated Pocket Half Guard transition attempts?",
-        "answer": "Prioritize skeletal alignment and frame positioning over muscular resistance. Your knee shield should be maintained through bone-on-body contact, not sustained muscular pushing. Keep your underhook attempts focused and efficient rather than constantly wrestling for position. If the top player abandons one attempt and resets, use that window to improve your position through hip escape or guard transition rather than simply resting in place. Defensive efficiency means spending energy only on high-value actions."
+        "answer": "Prioritize skeletal alignment and frame positioning over muscular resistance. Your knee shield should be maintained through bone-on-body contact, not sustained muscular pushing. Keep your underhook attempts focused and efficient rather than constantly wrestling for position. If the top player abandons one attempt and resets, use that window to improve your position through hip escape or guard transition rather than simply resting in place. Defensive efficiency means spending energy only on high-value actions.",
+        "answer_line": "Use frames, not muscle",
+        "distractors": {
+          "plausible": [
+            "Muscle through every attempt",
+            "Rest fully when they reset"
+          ],
+          "trap": [
+            "Match their strength each time"
+          ]
+        }
       }
     ],
     "training_progressions": [

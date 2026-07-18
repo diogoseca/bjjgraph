@@ -248,7 +248,17 @@
     "flashcards": [
       {
         "question": "Your opponent has been under Shoulder of Justice pressure for thirty seconds and suddenly stops resisting and flattens out — what does this signal about your timing for the mount transition?",
-        "answer": "The opponent flattening out and stopping active resistance signals defensive fatigue and is the optimal window for initiating the mount transition. Their hips are stationary, their frames have collapsed, and their near arm is likely pinned under your chest weight. This is the highest-percentage moment to execute the step-over because they lack the energy and positioning to insert frames or time defensive escapes. Begin walking your base into position immediately while maintaining pressure."
+        "answer": "The opponent flattening out and stopping active resistance signals defensive fatigue and is the optimal window for initiating the mount transition. Their hips are stationary, their frames have collapsed, and their near arm is likely pinned under your chest weight. This is the highest-percentage moment to execute the step-over because they lack the energy and positioning to insert frames or time defensive escapes. Begin walking your base into position immediately while maintaining pressure.",
+        "answer_line": "Flattening out signals go-now window",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully relax",
+            "Switch sides before stepping over"
+          ],
+          "trap": [
+            "Rise hips to free your legs"
+          ]
+        }
       },
       {
         "question": "What are the critical prerequisites that must be confirmed before initiating the step-over to mount?",
@@ -260,7 +270,17 @@
       },
       {
         "question": "You begin stepping over and your opponent immediately inserts their near-side knee between your bodies — what went wrong in your setup?",
-        "answer": "The near-side arm was not sufficiently controlled before initiating the step-over. When the near arm is free, the opponent can use it to create enough space to pump their knee upward and insert a knee shield or half guard entanglement. The correction is to always verify near-arm control before beginning the transition. If the knee does get inserted, switch to a knee slice pass to complete the transition rather than trying to force the mount step-over over the knee obstruction."
+        "answer": "The near-side arm was not sufficiently controlled before initiating the step-over. When the near arm is free, the opponent can use it to create enough space to pump their knee upward and insert a knee shield or half guard entanglement. The correction is to always verify near-arm control before beginning the transition. If the knee does get inserted, switch to a knee slice pass to complete the transition rather than trying to force the mount step-over over the knee obstruction.",
+        "answer_line": "Near arm wasn't controlled first",
+        "distractors": {
+          "plausible": [
+            "Base foot was too far from hip",
+            "Shoulder angle drifted too flat"
+          ],
+          "trap": [
+            "Force the step-over past the knee"
+          ]
+        }
       },
       {
         "question": "Why must the opponent's near-side arm be controlled before initiating the mount transition?",
@@ -268,11 +288,31 @@
       },
       {
         "question": "In which direction should you drive your weight during the step-over to maintain continuous pressure on the opponent?",
-        "answer": "Drive your weight forward and slightly downward through the shoulder contact point into the opponent's jaw and upper chest. This forward vector maintains the pressure relationship throughout the transition and prevents the opponent from creating space. The forward drive also naturally lightens your legs for the step-over motion. Driving weight laterally or upward creates gaps in the pressure chain that allow defensive reactions. Think of your shoulder as a piston driving forward through the transition."
+        "answer": "Drive your weight forward and slightly downward through the shoulder contact point into the opponent's jaw and upper chest. This forward vector maintains the pressure relationship throughout the transition and prevents the opponent from creating space. The forward drive also naturally lightens your legs for the step-over motion. Driving weight laterally or upward creates gaps in the pressure chain that allow defensive reactions. Think of your shoulder as a piston driving forward through the transition.",
+        "answer_line": "Forward-down through jaw and chest",
+        "distractors": {
+          "plausible": [
+            "Straight down into their hips",
+            "Laterally toward the far shoulder"
+          ],
+          "trap": [
+            "Drive weight upward off their chest"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively as you begin the step-over — how do you respond to maintain position and complete the transition?",
-        "answer": "Post your far hand on the mat on the side you are stepping toward and drive your hips low to ride the bridge rather than resisting it. Use the forward momentum from the bridge to accelerate your step-over completion rather than fighting against the directional force. As the bridge exhausts and the opponent returns to the mat, you should already have your knee on the far side and can immediately settle into mount. The key is converting their explosive energy into your positional advantage rather than matching force against force."
+        "answer": "Post your far hand on the mat on the side you are stepping toward and drive your hips low to ride the bridge rather than resisting it. Use the forward momentum from the bridge to accelerate your step-over completion rather than fighting against the directional force. As the bridge exhausts and the opponent returns to the mat, you should already have your knee on the far side and can immediately settle into mount. The key is converting their explosive energy into your positional advantage rather than matching force against force.",
+        "answer_line": "Post, hips low, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Match force and stop the bridge cold",
+            "Retreat base until bridge settles"
+          ],
+          "trap": [
+            "Rise hips to avoid getting bucked"
+          ]
+        }
       },
       {
         "question": "Your mount transition attempt fails because the opponent recovers half guard during the step-over — what is your immediate follow-up strategy?",

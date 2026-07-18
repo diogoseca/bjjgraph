@@ -417,43 +417,143 @@
   "flashcards": [
     {
       "question": "What are Connection Principles in BJJ?",
-      "answer": "They are the framework for how grips, frames, hooks, and contact points are established, maintained, broken, and chained together to control an opponent while preserving your own mobility and tactical options."
+      "answer": "They are the framework for how grips, frames, hooks, and contact points are established, maintained, broken, and chained together to control an opponent while preserving your own mobility and tactical options.",
+      "answer_line": "System for grips, frames & hooks",
+      "distractors": {
+        "plausible": [
+          "Just a list of grip techniques",
+          "Rules for submission setups only"
+        ],
+        "trap": [
+          "Always grip as hard as possible"
+        ]
+      }
     },
     {
       "question": "Why is every connection considered reciprocal?",
-      "answer": "Because when you grip an opponent you simultaneously give them a reference point and potential connection to exploit, so each grip must yield a net advantage rather than merely feeling like control."
+      "answer": "Because when you grip an opponent you simultaneously give them a reference point and potential connection to exploit, so each grip must yield a net advantage rather than merely feeling like control.",
+      "answer_line": "Every grip gives them a handle too",
+      "distractors": {
+        "plausible": [
+          "Grips only help the grip-taker",
+          "More grips always mean more control"
+        ],
+        "trap": [
+          "Grab whatever you can, always"
+        ]
+      }
     },
     {
       "question": "Why should you break an opponent's connections before establishing your own?",
-      "answer": "Their existing grips and frames let them defend or counter your attempts, so reaching a connection-neutral state first prevents them from using established connections to neutralize the ones you are trying to build."
+      "answer": "Their existing grips and frames let them defend or counter your attempts, so reaching a connection-neutral state first prevents them from using established connections to neutralize the ones you are trying to build.",
+      "answer_line": "Neutralize their grips first",
+      "distractors": {
+        "plausible": [
+          "Rush the attack, ignore their grips",
+          "Grip fight only after passing"
+        ],
+        "trap": [
+          "Build over their existing grips"
+        ]
+      }
     },
     {
       "question": "What is the functional difference between a grip and a frame?",
-      "answer": "Grips pull an opponent into your control sphere while frames push them out to preserve space; both are connections serving opposite purposes, and skilled grapplers fluidly switch between them as needed."
+      "answer": "Grips pull an opponent into your control sphere while frames push them out to preserve space; both are connections serving opposite purposes, and skilled grapplers fluidly switch between them as needed.",
+      "answer_line": "Grips pull in, frames push out",
+      "distractors": {
+        "plausible": [
+          "Frames pull, grips create space",
+          "Grips and frames are the same thing"
+        ],
+        "trap": [
+          "Always use frames, never grip"
+        ]
+      }
     },
     {
       "question": "How does connection hierarchy guide grip selection?",
-      "answer": "Connections closer to the opponent's center of mass and decision-making centers (head, hips, shoulders) generally provide superior control compared with peripheral grips on the wrists or ankles."
+      "answer": "Connections closer to the opponent's center of mass and decision-making centers (head, hips, shoulders) generally provide superior control compared with peripheral grips on the wrists or ankles.",
+      "answer_line": "Center grips beat peripheral grips",
+      "distractors": {
+        "plausible": [
+          "Wrist and ankle grips control most",
+          "All grip locations are equal"
+        ],
+        "trap": [
+          "Only grip the far ankle first"
+        ]
+      }
     },
     {
       "question": "What is the cost of maintaining all connections at maximum strength?",
-      "answer": "Over-gripping rapidly depletes grip strength and overall energy, reduces mobility, and makes you predictable; intensity should vary, reserving maximum strength only for critical moments."
+      "answer": "Over-gripping rapidly depletes grip strength and overall energy, reduces mobility, and makes you predictable; intensity should vary, reserving maximum strength only for critical moments.",
+      "answer_line": "Vary grip intensity, don't max out",
+      "distractors": {
+        "plausible": [
+          "Grip lightly the whole match",
+          "Save strength only at the very end"
+        ],
+        "trap": [
+          "Squeeze max strength on every grip"
+        ]
+      }
     },
     {
       "question": "How do you prevent an opponent from stripping your connections one at a time?",
-      "answer": "Build connection systems where multiple grips, frames, or hooks mutually support each other, forcing the opponent to deal with several points simultaneously rather than isolating and removing each one."
+      "answer": "Build connection systems where multiple grips, frames, or hooks mutually support each other, forcing the opponent to deal with several points simultaneously rather than isolating and removing each one.",
+      "answer_line": "Chain grips to support each other",
+      "distractors": {
+        "plausible": [
+          "Use one strong dominant grip only",
+          "Switch grips constantly to confuse"
+        ],
+        "trap": [
+          "Isolate one grip and hold it tight"
+        ]
+      }
     },
     {
       "question": "What does maintaining connection continuity through transitions mean?",
-      "answer": "It means always keeping at least one effective connection while shifting the others, so the opponent never gets a connection-free moment to escape or counter as positions change."
+      "answer": "It means always keeping at least one effective connection while shifting the others, so the opponent never gets a connection-free moment to escape or counter as positions change.",
+      "answer_line": "Always keep one connection live",
+      "distractors": {
+        "plausible": [
+          "Release all grips before moving",
+          "Switch every grip at the same time"
+        ],
+        "trap": [
+          "Let go of everything to transition"
+        ]
+      }
     },
     {
       "question": "How can a connection be used as a post or wedge rather than for pulling?",
-      "answer": "By inserting a hand, knee, or other body part as an immovable obstacle that creates leverage and blocks movement, such as posting to avoid being flattened or wedging a knee to keep guard distance."
+      "answer": "By inserting a hand, knee, or other body part as an immovable obstacle that creates leverage and blocks movement, such as posting to avoid being flattened or wedging a knee to keep guard distance.",
+      "answer_line": "Post or wedge to block movement",
+      "distractors": {
+        "plausible": [
+          "Pull hard instead of posting",
+          "Only use hands, never knees"
+        ],
+        "trap": [
+          "Relax the limb to avoid tension"
+        ]
+      }
     },
     {
       "question": "What is a sign that a connection is compromising your own structure?",
-      "answer": "If a grip or frame pulls you off balance or out of alignment with your skeletal base, it has become a liability and you should release or reposition it rather than fight to keep it."
+      "answer": "If a grip or frame pulls you off balance or out of alignment with your skeletal base, it has become a liability and you should release or reposition it rather than fight to keep it.",
+      "answer_line": "Release grips that break your base",
+      "distractors": {
+        "plausible": [
+          "Hold on even if it hurts your base",
+          "Switch hands instead of releasing"
+        ],
+        "trap": [
+          "Fight to keep every grip always"
+        ]
+      }
     }
   ],
   "clips": [

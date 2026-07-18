@@ -273,43 +273,143 @@
     "flashcards": [
       {
         "question": "What is the most critical component of the Fireman's Carry that determines whether the lift will be successful?",
-        "answer": "The depth of the penetration step is the most critical component. Your lead foot must step deep between the opponent's legs, positioning your hips directly underneath theirs and lower than their center of gravity. Without proper penetration, you cannot generate sufficient lifting leverage, and the technique will fail regardless of how strong you are. The penetration step must place your shoulder in contact with their midsection and your hip below theirs."
+        "answer": "The depth of the penetration step is the most critical component. Your lead foot must step deep between the opponent's legs, positioning your hips directly underneath theirs and lower than their center of gravity. Without proper penetration, you cannot generate sufficient lifting leverage, and the technique will fail regardless of how strong you are. The penetration step must place your shoulder in contact with their midsection and your hip below theirs.",
+        "answer_line": "Deep penetration step",
+        "distractors": {
+          "plausible": [
+            "Strong grip on the arm",
+            "Fast explosive lift"
+          ],
+          "trap": [
+            "Muscle through with back strength"
+          ]
+        }
       },
       {
         "question": "Why is it important to lift with your legs rather than your back when executing the Fireman's Carry?",
-        "answer": "Lifting with your legs rather than your back is essential for both safety and effectiveness. Using leg drive by straightening your knees and hips generates much more power than trying to lift with back muscles, making the technique work against larger opponents. More importantly, lifting with your back puts enormous stress on the spine and can cause serious injury, particularly when lifting and rotating simultaneously. Proper technique requires keeping the back straight and rigid while the legs provide all the lifting force."
+        "answer": "Lifting with your legs rather than your back is essential for both safety and effectiveness. Using leg drive by straightening your knees and hips generates much more power than trying to lift with back muscles, making the technique work against larger opponents. More importantly, lifting with your back puts enormous stress on the spine and can cause serious injury, particularly when lifting and rotating simultaneously. Proper technique requires keeping the back straight and rigid while the legs provide all the lifting force.",
+        "answer_line": "Legs lift, back stays rigid",
+        "distractors": {
+          "plausible": [
+            "Twist while lifting for power",
+            "Explode with hips and back together"
+          ],
+          "trap": [
+            "Round and pull with your back"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent sprawls hard as you attempt the initial level change?",
-        "answer": "If the opponent sprawls successfully before you can establish the carry position, you should immediately abandon the Fireman's Carry and transition to alternative techniques rather than fighting through the sprawl. Effective options include: switching to a single leg or double leg finish, transitioning to front headlock control, executing a duck under to their back, or pulling guard. The key is recognizing the sprawl quickly and adapting smoothly to a technique that works better against the lowered defensive posture."
+        "answer": "If the opponent sprawls successfully before you can establish the carry position, you should immediately abandon the Fireman's Carry and transition to alternative techniques rather than fighting through the sprawl. Effective options include: switching to a single leg or double leg finish, transitioning to front headlock control, executing a duck under to their back, or pulling guard. The key is recognizing the sprawl quickly and adapting smoothly to a technique that works better against the lowered defensive posture.",
+        "answer_line": "Abandon, switch to single leg",
+        "distractors": {
+          "plausible": [
+            "Fight through the sprawl",
+            "Reset and re-attempt carry"
+          ],
+          "trap": [
+            "Force the lift anyway"
+          ]
+        }
       },
       {
         "question": "What is the purpose of the rotational component during the descent phase of the Fireman's Carry?",
-        "answer": "The rotational component serves multiple purposes: First, it uses angular momentum to help swing the opponent completely off your shoulders and onto their back rather than just dropping them to their side. Second, the rotation helps you maintain control throughout the descent and positions you to land in a dominant top position (side control or mount) rather than in a scramble. Third, the rotation makes it much harder for the opponent to post or catch themselves during the fall, ensuring they land flat on their back with you in control."
+        "answer": "The rotational component serves multiple purposes: First, it uses angular momentum to help swing the opponent completely off your shoulders and onto their back rather than just dropping them to their side. Second, the rotation helps you maintain control throughout the descent and positions you to land in a dominant top position (side control or mount) rather than in a scramble. Third, the rotation makes it much harder for the opponent to post or catch themselves during the fall, ensuring they land flat on their back with you in control.",
+        "answer_line": "Swing them flat onto back",
+        "distractors": {
+          "plausible": [
+            "Speed up the fall only",
+            "Set up a guard pull landing"
+          ],
+          "trap": [
+            "Drop them straight down"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's arm throughout the entire technique so important?",
-        "answer": "Controlling the opponent's arm from setup through landing serves several critical functions: During the setup and lift phases, it prevents them from establishing defensive frames or grips that could stop your penetration and lifting motion. It also helps break their posture and pull their weight onto your shoulders. During the descent and landing phases, arm control prevents them from posting to catch their fall or to create space. Without continuous arm control, the opponent can use their free arm to defend at multiple points during the technique, significantly reducing your success rate and potentially allowing them to counter or escape."
+        "answer": "Controlling the opponent's arm from setup through landing serves several critical functions: During the setup and lift phases, it prevents them from establishing defensive frames or grips that could stop your penetration and lifting motion. It also helps break their posture and pull their weight onto your shoulders. During the descent and landing phases, arm control prevents them from posting to catch their fall or to create space. Without continuous arm control, the opponent can use their free arm to defend at multiple points during the technique, significantly reducing your success rate and potentially allowing them to counter or escape.",
+        "answer_line": "Denies frames and posting",
+        "distractors": {
+          "plausible": [
+            "Sets up the finishing lock",
+            "Controls their hips instead"
+          ],
+          "trap": [
+            "Release it once lift starts"
+          ]
+        }
       },
       {
         "question": "What are the key differences between executing a Fireman's Carry against an upright opponent versus one who has lowered their level?",
-        "answer": "Against an upright opponent, the Fireman's Carry is highly effective because the height differential allows for deep penetration and efficient leverage for the lift. However, against an opponent who has lowered their level and dropped their hips, the technique becomes much less effective and should generally be abandoned in favor of other options. When the opponent lowers their level, you cannot achieve the necessary depth of penetration, the height differential disappears making the lift mechanically inefficient, and they have a stronger base that resists the lifting motion. The Fireman's Carry specifically exploits an upright posture and high center of gravity, so technique selection should adapt to the opponent's positioning."
+        "answer": "Against an upright opponent, the Fireman's Carry is highly effective because the height differential allows for deep penetration and efficient leverage for the lift. However, against an opponent who has lowered their level and dropped their hips, the technique becomes much less effective and should generally be abandoned in favor of other options. When the opponent lowers their level, you cannot achieve the necessary depth of penetration, the height differential disappears making the lift mechanically inefficient, and they have a stronger base that resists the lifting motion. The Fireman's Carry specifically exploits an upright posture and high center of gravity, so technique selection should adapt to the opponent's positioning.",
+        "answer_line": "Works upright, fails if low",
+        "distractors": {
+          "plausible": [
+            "Works better against low hips",
+            "Equally effective either way"
+          ],
+          "trap": [
+            "Force penetration through hips"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong whizzer as you attempt the lift - what adjustment do you make?",
-        "answer": "When the opponent establishes a whizzer (overhook) on your lifting arm, you have two primary options. First, you can continue with the Fireman's Carry by adjusting your leg grip lower toward the knee and driving harder with your hips forward to complete the lift despite the whizzer resistance. Second, you can use the whizzer as an opportunity to transition to a duck under or back take, since the whizzer commitment leaves their opposite side vulnerable. The key is recognizing the whizzer early and making a decisive choice rather than fighting through heavy resistance inefficiently."
+        "answer": "When the opponent establishes a whizzer (overhook) on your lifting arm, you have two primary options. First, you can continue with the Fireman's Carry by adjusting your leg grip lower toward the knee and driving harder with your hips forward to complete the lift despite the whizzer resistance. Second, you can use the whizzer as an opportunity to transition to a duck under or back take, since the whizzer commitment leaves their opposite side vulnerable. The key is recognizing the whizzer early and making a decisive choice rather than fighting through heavy resistance inefficiently.",
+        "answer_line": "Grip lower, drive, or duck under",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the whizzer arm",
+            "Switch instantly to guard pull"
+          ],
+          "trap": [
+            "Fight whizzer with brute strength"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction of force during the lifting phase of the Fireman's Carry?",
-        "answer": "The direction of force during the lift should be primarily vertical and slightly forward, driving upward through your legs while your shoulders rise together to maintain the opponent's weight balanced across your upper back. The force comes from straightening your knees and hips explosively while pulling down on the controlled arm and behind the opponent's knee. The vertical component lifts them off the ground, while the slight forward angle keeps their weight committed over your base rather than falling backward. Avoid pulling backward or sideways, which compromises your base and reduces lifting efficiency."
+        "answer": "The direction of force during the lift should be primarily vertical and slightly forward, driving upward through your legs while your shoulders rise together to maintain the opponent's weight balanced across your upper back. The force comes from straightening your knees and hips explosively while pulling down on the controlled arm and behind the opponent's knee. The vertical component lifts them off the ground, while the slight forward angle keeps their weight committed over your base rather than falling backward. Avoid pulling backward or sideways, which compromises your base and reduces lifting efficiency.",
+        "answer_line": "Vertical, slightly forward",
+        "distractors": {
+          "plausible": [
+            "Straight backward pull",
+            "Sideways sweeping motion"
+          ],
+          "trap": [
+            "Pull them backward off base"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you can successfully attempt a Fireman's Carry?",
-        "answer": "Several conditions must exist for a successful Fireman's Carry attempt: the opponent must have relatively upright posture with their center of gravity high rather than lowered defensively; you must have secure control of one of their arms (wrist or triceps); there must be a clear pathway between their legs for your penetration step; your own base must be stable with feet positioned for explosive movement; and the opponent's weight should be centered or slightly forward rather than back on their heels. If any of these conditions are missing, alternative techniques should be selected instead."
+        "answer": "Several conditions must exist for a successful Fireman's Carry attempt: the opponent must have relatively upright posture with their center of gravity high rather than lowered defensively; you must have secure control of one of their arms (wrist or triceps); there must be a clear pathway between their legs for your penetration step; your own base must be stable with feet positioned for explosive movement; and the opponent's weight should be centered or slightly forward rather than back on their heels. If any of these conditions are missing, alternative techniques should be selected instead.",
+        "answer_line": "Upright posture, arm control, lane",
+        "distractors": {
+          "plausible": [
+            "Any posture with strong grips",
+            "Opponent's weight on heels"
+          ],
+          "trap": [
+            "Attempt with no arm control"
+          ]
+        }
       },
       {
         "question": "If the Fireman's Carry is blocked but you maintain arm control, what chain attacks become available?",
-        "answer": "When the Fireman's Carry is blocked but you maintain arm control, several chain attacks become available depending on the opponent's defensive reaction. If they sprawl and lower their hips, you can transition to a single leg attack on the near leg or switch to an ankle pick. If they whizzer hard, the duck under to back take becomes available. If they drive forward to resist, a snap down to front headlock creates guillotine and choke opportunities. If they post with their free hand, the kimura grip on the controlled arm becomes an option. The key is maintaining the arm control as your anchor point while reading their defensive reaction to select the appropriate follow-up."
+        "answer": "When the Fireman's Carry is blocked but you maintain arm control, several chain attacks become available depending on the opponent's defensive reaction. If they sprawl and lower their hips, you can transition to a single leg attack on the near leg or switch to an ankle pick. If they whizzer hard, the duck under to back take becomes available. If they drive forward to resist, a snap down to front headlock creates guillotine and choke opportunities. If they post with their free hand, the kimura grip on the controlled arm becomes an option. The key is maintaining the arm control as your anchor point while reading their defensive reaction to select the appropriate follow-up.",
+        "answer_line": "Read reaction, chain off it",
+        "distractors": {
+          "plausible": [
+            "Always switch to double leg",
+            "Repeat the same carry attempt"
+          ],
+          "trap": [
+            "Let go and reset neutral"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to initiate the Fireman's Carry during clinch exchanges?",
@@ -317,7 +417,17 @@
       },
       {
         "question": "You attempt the Fireman's Carry but your opponent posts their free hand during the descent - how do you complete the takedown?",
-        "answer": "When the opponent posts their free hand during the descent phase, you must address the post while maintaining your existing controls. Circle your body away from the posted hand so their arm has to support increasing bodyweight at a worsening angle. Simultaneously drive your shoulder hard into their midsection to collapse the post. If the post is too strong to overcome, transition your grip from their leg to the posted arm and attack a kimura grip, which converts the defensive post into a submission vulnerability. Never release your original arm control during this adjustment - it remains your primary anchor throughout the recovery."
+        "answer": "When the opponent posts their free hand during the descent phase, you must address the post while maintaining your existing controls. Circle your body away from the posted hand so their arm has to support increasing bodyweight at a worsening angle. Simultaneously drive your shoulder hard into their midsection to collapse the post. If the post is too strong to overcome, transition your grip from their leg to the posted arm and attack a kimura grip, which converts the defensive post into a submission vulnerability. Never release your original arm control during this adjustment - it remains your primary anchor throughout the recovery.",
+        "answer_line": "Circle away, collapse the post",
+        "distractors": {
+          "plausible": [
+            "Release grip to grab the post",
+            "Pull straight through the post"
+          ],
+          "trap": [
+            "Drop original arm control"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Fireman's Carry, controlled execution is paramount to prevent injury to both yourself and your training partner. The most critical safety concern is the descent phase - you must guide your partner to the mat in a controlled manner rather than slamming or dropping them, particularly being mindful of their head and neck positioning. Never release control during the throw; maintain grips throughout the descent to control the landing. For your own safety, always maintain a straight back during the lifting phase and generate power from your legs, not your back, to prevent spinal injury. Start practice with cooperative drilling where your partner is lifted and gently placed down, gradually progressing to more dynamic execution only after mastering the mechanics. Ensure you're practicing on appropriate matting that provides cushioning for takedowns. Communication with your partner is essential - agree on the level of resistance and speed beforehand, and use verbal or tap signals if anything feels unsafe during execution. Be particularly cautious about your partner's shoulder and arm positioning during the carry phase to avoid joint stress. When learning, practice the level change and penetration components separately before adding the lift, and only add rotation and dynamic landing after mastering controlled static versions.",
@@ -431,23 +541,73 @@
     "flashcards": [
       {
         "question": "What is the earliest point at which you can effectively defend the Fireman's Carry?",
-        "answer": "The earliest and most effective defensive point is during the initial level change, before the attacker establishes the penetration step. When you feel the sudden downward drop and arm pull, an immediate hip sprawl or base-widening response stops the technique before it develops any momentum. Defending at this stage requires minimal effort compared to defending mid-lift, because the attacker has not yet established mechanical advantage. The key is recognition speed - training to identify the level change and arm pull pattern so your sprawl becomes reflexive rather than deliberate."
+        "answer": "The earliest and most effective defensive point is during the initial level change, before the attacker establishes the penetration step. When you feel the sudden downward drop and arm pull, an immediate hip sprawl or base-widening response stops the technique before it develops any momentum. Defending at this stage requires minimal effort compared to defending mid-lift, because the attacker has not yet established mechanical advantage. The key is recognition speed - training to identify the level change and arm pull pattern so your sprawl becomes reflexive rather than deliberate.",
+        "answer_line": "Sprawl at the level change",
+        "distractors": {
+          "plausible": [
+            "Whizzer once they're loaded",
+            "Wait until mid-lift to react"
+          ],
+          "trap": [
+            "Sprawl after being loaded up"
+          ]
+        }
       },
       {
         "question": "Why does a late sprawl actually help the attacker complete the Fireman's Carry?",
-        "answer": "When you sprawl after the attacker has already loaded you across their shoulders in the carry position, your sprawling motion drives your weight downward onto their back, which the attacker can redirect into rotational momentum to complete the throw. Essentially, you are adding force in the direction they want to take you. At this stage, the correct defense shifts from sprawling to base widening, whizzer control, or attacking their posture from above. The defensive window for an effective sprawl closes once your weight has been committed across the attacker's shoulders."
+        "answer": "When you sprawl after the attacker has already loaded you across their shoulders in the carry position, your sprawling motion drives your weight downward onto their back, which the attacker can redirect into rotational momentum to complete the throw. Essentially, you are adding force in the direction they want to take you. At this stage, the correct defense shifts from sprawling to base widening, whizzer control, or attacking their posture from above. The defensive window for an effective sprawl closes once your weight has been committed across the attacker's shoulders.",
+        "answer_line": "Adds weight into their throw",
+        "distractors": {
+          "plausible": [
+            "It stops the throw completely",
+            "It has no effect either way"
+          ],
+          "trap": [
+            "Sprawl hard once loaded up"
+          ]
+        }
       },
       {
         "question": "Your opponent in the clinch suddenly drops level and pulls your right arm across their body - what is your immediate response?",
-        "answer": "Your immediate response should be a simultaneous two-part action: First, explosively strip or circle your right arm out of their grip by rotating your arm outward and pulling back before they can secure full control. Second, drop your hips and widen your base by bending your knees and stepping your feet apart to eliminate the height differential they need. If the arm strip fails and they maintain control, immediately establish a whizzer with your left arm over their right shoulder while driving your hips backward and down. The critical principle is addressing both the arm control and the level change simultaneously rather than dealing with one at a time."
+        "answer": "Your immediate response should be a simultaneous two-part action: First, explosively strip or circle your right arm out of their grip by rotating your arm outward and pulling back before they can secure full control. Second, drop your hips and widen your base by bending your knees and stepping your feet apart to eliminate the height differential they need. If the arm strip fails and they maintain control, immediately establish a whizzer with your left arm over their right shoulder while driving your hips backward and down. The critical principle is addressing both the arm control and the level change simultaneously rather than dealing with one at a time.",
+        "answer_line": "Strip arm, drop hips together",
+        "distractors": {
+          "plausible": [
+            "Widen base, ignore the arm",
+            "Strip arm, then react to level"
+          ],
+          "trap": [
+            "Pull back and stand taller"
+          ]
+        }
       },
       {
         "question": "How should your clinch posture differ when facing an opponent known for Fireman's Carry attacks?",
-        "answer": "Against a known Fireman's Carry threat, adopt a lower, more defensive clinch posture with your knees significantly more bent, hips sitting lower, and weight distributed slightly backward over your base rather than pressing forward. Keep your elbows tighter to your body to deny the wrist and triceps access the attacker needs. Maintain active hand fighting to prevent them from establishing the arm control that initiates the sequence. Your collar tie should be higher on their neck to control their posture and make it harder for them to drop level. This defensive posture sacrifices some offensive clinch options but dramatically reduces your vulnerability to the carry."
+        "answer": "Against a known Fireman's Carry threat, adopt a lower, more defensive clinch posture with your knees significantly more bent, hips sitting lower, and weight distributed slightly backward over your base rather than pressing forward. Keep your elbows tighter to your body to deny the wrist and triceps access the attacker needs. Maintain active hand fighting to prevent them from establishing the arm control that initiates the sequence. Your collar tie should be higher on their neck to control their posture and make it harder for them to drop level. This defensive posture sacrifices some offensive clinch options but dramatically reduces your vulnerability to the carry.",
+        "answer_line": "Lower stance, tight elbows",
+        "distractors": {
+          "plausible": [
+            "Press forward, elbows wide",
+            "Stand tall to control tie"
+          ],
+          "trap": [
+            "Lean weight onto lead leg"
+          ]
+        }
       },
       {
         "question": "What defensive option becomes available if the attacker commits deeply to the penetration step and exposes their back?",
-        "answer": "When the attacker commits deeply to the penetration step and their head drops below your hip level, a hip switch to take their back becomes available. As they drive forward and down, circle your hips toward the side their head is pointing, stepping around behind them. This movement exploits their deep forward commitment, which makes it difficult for them to recover their hips and square back up to you. The counter requires timing your hip switch to coincide with their deepest penetration moment, and you must immediately establish a seatbelt grip or body lock from behind to secure the position before they can stand and reset."
+        "answer": "When the attacker commits deeply to the penetration step and their head drops below your hip level, a hip switch to take their back becomes available. As they drive forward and down, circle your hips toward the side their head is pointing, stepping around behind them. This movement exploits their deep forward commitment, which makes it difficult for them to recover their hips and square back up to you. The counter requires timing your hip switch to coincide with their deepest penetration moment, and you must immediately establish a seatbelt grip or body lock from behind to secure the position before they can stand and reset.",
+        "answer_line": "Hip switch, take the back",
+        "distractors": {
+          "plausible": [
+            "Sprawl hard and pull away",
+            "Pull guard to reset"
+          ],
+          "trap": [
+            "Stand up and disengage"
+          ]
+        }
       }
     ],
     "training_progressions": [

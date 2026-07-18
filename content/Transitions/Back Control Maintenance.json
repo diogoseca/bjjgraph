@@ -345,7 +345,17 @@
       },
       {
         "question": "What distinguishes high-percentage back control maintenance from common beginner patterns?",
-        "answer": "High-percentage maintenance treats position as the primary weapon rather than rushing submissions. Elite practitioners spend the first 10-15 seconds on pure positional consolidation, use threat cycling to create defensive reactions they can exploit, and understand that sustained control creates cumulative pressure that eventually breaks any defense. Beginners rush attacks and lose the position."
+        "answer": "High-percentage maintenance treats position as the primary weapon rather than rushing submissions. Elite practitioners spend the first 10-15 seconds on pure positional consolidation, use threat cycling to create defensive reactions they can exploit, and understand that sustained control creates cumulative pressure that eventually breaks any defense. Beginners rush attacks and lose the position.",
+        "answer_line": "Consolidate position first",
+        "distractors": {
+          "plausible": [
+            "Attack early and often",
+            "Overpower with pure strength"
+          ],
+          "trap": [
+            "Rush finish and lose hooks"
+          ]
+        }
       }
     ],
     "safety_considerations": "Back control maintenance presents moderate injury risk primarily related to neck strain and rib compression. When training, partners should communicate clearly about choking pressure levels and tap early when submissions are applied. Practitioners with prior neck injuries should be cautious of collar grip pressure, and those with rib issues should communicate limits on body triangle tightness. Avoid explosive spinal twisting movements when escaping as this can cause cervical strain. Training partners should release control immediately upon tap and avoid cranking submissions during drilling phases. The sustained nature of back control can cause fatigue-related injuries if practitioners attempt explosive escapes when exhausted—communicate when approaching fatigue limits.",
@@ -509,7 +519,17 @@
       },
       {
         "question": "How should you manage energy when defending against an attacker who prioritizes positional control over immediate submissions?",
-        "answer": "Against a maintenance-focused attacker, energy conservation is paramount because their strategy explicitly relies on draining your energy through sustained pressure. Use structural defense—chin position, elbow placement against their arms, hip angle—rather than muscular resistance to maintain your defensive posture. Avoid explosive escape attempts against fully consolidated control. Instead, maintain calm breathing, accept the position temporarily, and invest energy only in calculated escape attempts timed to the attacker's grip transitions or adjustment moments. The attacker's patience is their weapon; your patience in waiting for genuine openings is the counter."
+        "answer": "Against a maintenance-focused attacker, energy conservation is paramount because their strategy explicitly relies on draining your energy through sustained pressure. Use structural defense—chin position, elbow placement against their arms, hip angle—rather than muscular resistance to maintain your defensive posture. Avoid explosive escape attempts against fully consolidated control. Instead, maintain calm breathing, accept the position temporarily, and invest energy only in calculated escape attempts timed to the attacker's grip transitions or adjustment moments. The attacker's patience is their weapon; your patience in waiting for genuine openings is the counter.",
+        "answer_line": "Conserve energy, wait for openings",
+        "distractors": {
+          "plausible": [
+            "Muscle out with strength",
+            "Escape immediately, full speed"
+          ],
+          "trap": [
+            "Explode out early, burn energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -374,7 +374,17 @@
       },
       {
         "question": "How should you apply pressure without enabling the opponent's technical standup or guard recovery?",
-        "answer": "Balance forward pressure with upper body control - never drive forward without simultaneously controlling their shoulders or head with collar ties or cross-face pressure. Keep your weight distributed through your chest and shoulders onto their upper body rather than just leaning over their legs. This prevents them from using your forward momentum to stand up while maintaining enough pressure to limit their movement options."
+        "answer": "Balance forward pressure with upper body control - never drive forward without simultaneously controlling their shoulders or head with collar ties or cross-face pressure. Keep your weight distributed through your chest and shoulders onto their upper body rather than just leaning over their legs. This prevents them from using your forward momentum to stand up while maintaining enough pressure to limit their movement options.",
+        "answer_line": "Control shoulders, then pressure",
+        "distractors": {
+          "plausible": [
+            "Just lean over their legs",
+            "Push forward, adjust after"
+          ],
+          "trap": [
+            "Drive forward, no upper control"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly releases their bottom hook and begins transitioning - what should you anticipate and how do you respond?",
@@ -392,7 +402,17 @@
       },
       {
         "question": "How do you manage energy expenditure while maintaining position against an active SLX player?",
-        "answer": "Avoid wasting energy by forcing extraction of your trapped leg - this rarely works and exhausts you quickly. Instead, use minimal energy by maintaining proper posture and base, making incremental positional improvements rather than explosive escape attempts. Let your body weight and structure do the work through proper alignment rather than muscular effort. Stay calm and work systematically through the hook clearing sequence."
+        "answer": "Avoid wasting energy by forcing extraction of your trapped leg - this rarely works and exhausts you quickly. Instead, use minimal energy by maintaining proper posture and base, making incremental positional improvements rather than explosive escape attempts. Let your body weight and structure do the work through proper alignment rather than muscular effort. Stay calm and work systematically through the hook clearing sequence.",
+        "answer_line": "Patient, incremental improvements",
+        "distractors": {
+          "plausible": [
+            "Muscle through with strength",
+            "Rush explosive escape attempts"
+          ],
+          "trap": [
+            "Force leg extraction immediately"
+          ]
+        }
       },
       {
         "question": "After your opponent partially disrupts your base but you manage to recover - what immediate steps do you take to prevent another attempt?",
@@ -932,11 +952,31 @@
     },
     {
       "question": "What are the two control points on the trapped leg, and what job does each perform?",
-      "answer": "The two control points are the ankle/lower calf, gripped by the inside leg wrap, and the knee/hip line, managed by the outside hook. The ankle wrap prevents the leg from rotating or extracting, keeping the limb locked in the entanglement. The outside hook drives into the hip or inner thigh to elevate the leg and off-balance the standing player's base. Controlling both the ankle and the knee simultaneously limits the trapped leg's mobility from both ends, which is what makes the position hold under resistance."
+      "answer": "The two control points are the ankle/lower calf, gripped by the inside leg wrap, and the knee/hip line, managed by the outside hook. The ankle wrap prevents the leg from rotating or extracting, keeping the limb locked in the entanglement. The outside hook drives into the hip or inner thigh to elevate the leg and off-balance the standing player's base. Controlling both the ankle and the knee simultaneously limits the trapped leg's mobility from both ends, which is what makes the position hold under resistance.",
+      "answer_line": "Ankle wrap + hip-driving hook",
+      "distractors": {
+        "plausible": [
+          "Ankle hook, knee wrap reversed",
+          "Both hooks grip the ankle only"
+        ],
+        "trap": [
+          "Let go of hook to chase foot"
+        ]
+      }
     },
     {
       "question": "How does Single Leg X-Guard differ mechanically from its parent X-Guard?",
-      "answer": "X-Guard wraps and elevates BOTH of the standing player's legs, splitting their base wide and removing nearly all posting ability, so it is a pure sweeping platform. SLX isolates only ONE leg, leaving a free leg to post and base with. This trade-off costs some sweeping leverage but gains a tighter, single-limb entanglement that feeds directly into leg-lock control positions like ashi garami and the saddle. In short, X-Guard maximizes off-balancing, while SLX balances sweeping with a direct leg-attack pathway."
+      "answer": "X-Guard wraps and elevates BOTH of the standing player's legs, splitting their base wide and removing nearly all posting ability, so it is a pure sweeping platform. SLX isolates only ONE leg, leaving a free leg to post and base with. This trade-off costs some sweeping leverage but gains a tighter, single-limb entanglement that feeds directly into leg-lock control positions like ashi garami and the saddle. In short, X-Guard maximizes off-balancing, while SLX balances sweeping with a direct leg-attack pathway.",
+      "answer_line": "SLX isolates one leg, not both",
+      "distractors": {
+        "plausible": [
+          "SLX wraps both legs like X-Guard",
+          "SLX is sweep-only, no leg attacks"
+        ],
+        "trap": [
+          "Ignore their free posting leg"
+        ]
+      }
     },
     {
       "question": "Why is elevation of the trapped leg the central mechanic that keeps the position alive and threatening?",

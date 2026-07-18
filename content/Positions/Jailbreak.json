@@ -356,23 +356,73 @@
     "flashcards": [
       {
         "question": "What is the primary weight distribution principle for maintaining control in Jailbreak Top?",
-        "answer": "Weight should be distributed forward through the chest and shoulders with hips driving toward the bottom player's center line. The pressure must be applied to the upper body rather than sitting back on the hips, as this prevents the bottom player from creating frames, sitting up, or recovering guard. Maintaining low forward pressure makes your weight feel heavier while keeping you mobile enough to react to leg movements."
+        "answer": "Weight should be distributed forward through the chest and shoulders with hips driving toward the bottom player's center line. The pressure must be applied to the upper body rather than sitting back on the hips, as this prevents the bottom player from creating frames, sitting up, or recovering guard. Maintaining low forward pressure makes your weight feel heavier while keeping you mobile enough to react to leg movements.",
+        "answer_line": "Forward chest pressure, not hips",
+        "distractors": {
+          "plausible": [
+            "Even weight split, hips squared",
+            "Heavy hips, light on chest"
+          ],
+          "trap": [
+            "Sit back on hips for base"
+          ]
+        }
       },
       {
         "question": "Your opponent starts extending their legs to push you away - what adjustment do you make?",
-        "answer": "When the opponent extends legs to create distance, immediately drive your chest pressure forward and down rather than fighting the leg extension directly. Establish or reinforce your crossface or head control to pin their upper body, then choose between a leg weave pass if legs are static, or continue forward pressure to collapse the space. Never stand upright or back away, as this gives them the distance they want."
+        "answer": "When the opponent extends legs to create distance, immediately drive your chest pressure forward and down rather than fighting the leg extension directly. Establish or reinforce your crossface or head control to pin their upper body, then choose between a leg weave pass if legs are static, or continue forward pressure to collapse the space. Never stand upright or back away, as this gives them the distance they want.",
+        "answer_line": "Drive forward, secure crossface",
+        "distractors": {
+          "plausible": [
+            "Fight the leg extension directly",
+            "Grab and pull their legs in"
+          ],
+          "trap": [
+            "Stand up to create space"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and control points for maintaining Jailbreak Top position?",
-        "answer": "The essential controls are crossface or collar tie on the head and neck to control spine alignment, an underhook or overhook on the far side to prevent turning, and chest-to-chest connection to apply constant pressure. These upper body controls must be established before attempting to navigate past the extended legs, as they prevent the bottom player from using frames or hip movement to escape."
+        "answer": "The essential controls are crossface or collar tie on the head and neck to control spine alignment, an underhook or overhook on the far side to prevent turning, and chest-to-chest connection to apply constant pressure. These upper body controls must be established before attempting to navigate past the extended legs, as they prevent the bottom player from using frames or hip movement to escape.",
+        "answer_line": "Crossface + far-side underhook",
+        "distractors": {
+          "plausible": [
+            "Overhook only, ignore head control",
+            "Near-side underhook and grip"
+          ],
+          "trap": [
+            "Grab both wrists, no chest contact"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape (guard recovery) from Jailbreak Top?",
-        "answer": "Guard recovery is prevented by maintaining constant forward pressure that pins the bottom player's shoulders to the mat while controlling their ability to create angles. Specifically, the crossface turns their head away and prevents them from turning toward you, the underhook blocks their far shoulder from rising, and your hip positioning blocks their hip movement. If they attempt to retract legs to close guard, immediately drive forward and begin a knee slice or smash pass before they can establish frames."
+        "answer": "Guard recovery is prevented by maintaining constant forward pressure that pins the bottom player's shoulders to the mat while controlling their ability to create angles. Specifically, the crossface turns their head away and prevents them from turning toward you, the underhook blocks their far shoulder from rising, and your hip positioning blocks their hip movement. If they attempt to retract legs to close guard, immediately drive forward and begin a knee slice or smash pass before they can establish frames.",
+        "answer_line": "Crossface + underhook, pin shoulders",
+        "distractors": {
+          "plausible": [
+            "Control hips only, skip crossface",
+            "React only after guard is closed"
+          ],
+          "trap": [
+            "Give ground, then chase the pass"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to establish an underhook and starts coming up to dogfight - how do you counter?",
-        "answer": "When the opponent secures an underhook and begins rising, you have two primary options. First, immediately establish a whizzer (overhook) to control their underhooking arm and drive your weight back down to reflatten them. Second, if they're already significantly elevated, switch to circling toward their back by following their momentum and looking for back exposure. Never try to force them flat with pure strength once they have underhook leverage established."
+        "answer": "When the opponent secures an underhook and begins rising, you have two primary options. First, immediately establish a whizzer (overhook) to control their underhooking arm and drive your weight back down to reflatten them. Second, if they're already significantly elevated, switch to circling toward their back by following their momentum and looking for back exposure. Never try to force them flat with pure strength once they have underhook leverage established.",
+        "answer_line": "Whizzer their arm, reflatten",
+        "distractors": {
+          "plausible": [
+            "Grab a double underhook instead",
+            "Sprawl your hips back to flatten"
+          ],
+          "trap": [
+            "Force them flat with strength"
+          ]
+        }
       },
       {
         "question": "What determines whether you should use a leg weave versus a smash pass from Jailbreak Top?",
@@ -380,11 +430,31 @@
       },
       {
         "question": "How do you manage energy expenditure when the bottom player is actively defending with leg frames?",
-        "answer": "Energy management requires applying pressure efficiently rather than muscling through defenses. Maintain chest-to-chest connection and let your body weight do the work rather than using arm strength. When facing active leg defense, focus on controlling their upper body first while using patient hip positioning rather than explosive movements. Chain passing attempts together so their defense of one option opens another, rather than repeatedly attacking the same angle and burning energy."
+        "answer": "Energy management requires applying pressure efficiently rather than muscling through defenses. Maintain chest-to-chest connection and let your body weight do the work rather than using arm strength. When facing active leg defense, focus on controlling their upper body first while using patient hip positioning rather than explosive movements. Chain passing attempts together so their defense of one option opens another, rather than repeatedly attacking the same angle and burning energy.",
+        "answer_line": "Let body weight do the work",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts to break frames",
+            "Attack the same angle repeatedly"
+          ],
+          "trap": [
+            "Muscle through with arm strength"
+          ]
+        }
       },
       {
         "question": "Your pass attempt fails and the opponent recovers half guard - how do you recover back to Jailbreak Top?",
-        "answer": "When the opponent recovers half guard after a failed pass, immediately reestablish crossface control and begin driving shoulder pressure back into their face to flatten their posture. Secure an underhook on the far side before they can establish theirs. From here, work to force their legs back into extension by driving forward pressure while controlling their upper body. The key is not allowing them to establish knee shield or lockdown before you can reinitiate the passing sequence."
+        "answer": "When the opponent recovers half guard after a failed pass, immediately reestablish crossface control and begin driving shoulder pressure back into their face to flatten their posture. Secure an underhook on the far side before they can establish theirs. From here, work to force their legs back into extension by driving forward pressure while controlling their upper body. The key is not allowing them to establish knee shield or lockdown before you can reinitiate the passing sequence.",
+        "answer_line": "Crossface, flatten, secure underhook",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset guard",
+            "Grab both legs and pull straight"
+          ],
+          "trap": [
+            "Let them settle into lockdown"
+          ]
+        }
       }
     ],
     "clips": [
@@ -680,35 +750,115 @@
     "flashcards": [
       {
         "question": "What is the single most important control point that must be maintained throughout the Jailbreak escape?",
-        "answer": "The underhook on the same side as your trapped leg is the essential control point. This underhook serves as the connection that prevents the top player from separating from you during the roll, enables you to control the direction of the escape, and provides the leverage needed to complete the inversion. Without maintaining this underhook, the top player can easily disengage, follow to mount, or re-establish dominant top position during your escape attempt."
+        "answer": "The underhook on the same side as your trapped leg is the essential control point. This underhook serves as the connection that prevents the top player from separating from you during the roll, enables you to control the direction of the escape, and provides the leverage needed to complete the inversion. Without maintaining this underhook, the top player can easily disengage, follow to mount, or re-establish dominant top position during your escape attempt.",
+        "answer_line": "Same-side underhook",
+        "distractors": {
+          "plausible": [
+            "Crossface on their head",
+            "Far-side overhook grip"
+          ],
+          "trap": [
+            "Release grips to create space"
+          ]
+        }
       },
       {
         "question": "The top player drives their chest forward to flatten you - what adjustment do you make?",
-        "answer": "When the top player commits weight forward to flatten you, this is actually the optimal moment to execute the jailbreak. Use their forward momentum against them by immediately initiating the explosive roll. Their forward weight commitment means their base is compromised and vulnerable to being rolled through. The key is recognizing this moment and reacting explosively rather than trying to frame against the pressure. Tighten your underhook, tuck your chin, and roll through the pressure."
+        "answer": "When the top player commits weight forward to flatten you, this is actually the optimal moment to execute the jailbreak. Use their forward momentum against them by immediately initiating the explosive roll. Their forward weight commitment means their base is compromised and vulnerable to being rolled through. The key is recognizing this moment and reacting explosively rather than trying to frame against the pressure. Tighten your underhook, tuck your chin, and roll through the pressure.",
+        "answer_line": "Roll explosively into their pressure",
+        "distractors": {
+          "plausible": [
+            "Frame against the incoming pressure",
+            "Wait for more weight commitment"
+          ],
+          "trap": [
+            "Try to stand and create space"
+          ]
+        }
       },
       {
         "question": "What are the essential body mechanics for executing the Jailbreak roll safely and effectively?",
-        "answer": "Essential mechanics include: chin tucked to chest to protect neck and enable smooth rolling, shoulders actively inverting toward the mat while maintaining underhook connection, free leg posting against mat to generate propulsion, hips turned toward trapped leg side to create angular momentum, and elbow of underhook arm tight to your hip to maintain structural connection. The movement should be explosive and committed - partial execution results in getting stuck in worse position."
+        "answer": "Essential mechanics include: chin tucked to chest to protect neck and enable smooth rolling, shoulders actively inverting toward the mat while maintaining underhook connection, free leg posting against mat to generate propulsion, hips turned toward trapped leg side to create angular momentum, and elbow of underhook arm tight to your hip to maintain structural connection. The movement should be explosive and committed - partial execution results in getting stuck in worse position.",
+        "answer_line": "Tuck chin, invert shoulders, roll",
+        "distractors": {
+          "plausible": [
+            "Roll slowly to control the pace",
+            "Post the underhook-side leg"
+          ],
+          "trap": [
+            "Keep chin up, expose your neck"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary counter (top player following to mount) when executing Jailbreak?",
-        "answer": "The primary defense against the follow-to-mount counter is maintaining underhook connection and reading the opponent's reaction. If they follow your roll, continue the momentum rather than stopping at turtle - chain directly into a back take by using your underhook to pull yourself behind them while they chase. If you feel them loading weight to follow, accelerate your roll and keep moving. The worst outcome is stopping mid-roll which allows them to establish mount."
+        "answer": "The primary defense against the follow-to-mount counter is maintaining underhook connection and reading the opponent's reaction. If they follow your roll, continue the momentum rather than stopping at turtle - chain directly into a back take by using your underhook to pull yourself behind them while they chase. If you feel them loading weight to follow, accelerate your roll and keep moving. The worst outcome is stopping mid-roll which allows them to establish mount.",
+        "answer_line": "Keep rolling into a back take",
+        "distractors": {
+          "plausible": [
+            "Stop and reset your base",
+            "Release underhook, spin away"
+          ],
+          "trap": [
+            "Pause mid-roll to check position"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt the Jailbreak versus switching to Deep Half entry?",
-        "answer": "The decision depends on the top player's weight distribution and base width. Jailbreak is optimal when they commit weight forward onto your upper body with a narrow base, making them vulnerable to being rolled. Deep half entry is better when they base wide with hips back to prevent the roll, as this creates space to dive underneath them. Read their pressure - forward commitment means jailbreak, wide defensive base means deep half. Both options use the underhook as the entry point."
+        "answer": "The decision depends on the top player's weight distribution and base width. Jailbreak is optimal when they commit weight forward onto your upper body with a narrow base, making them vulnerable to being rolled. Deep half entry is better when they base wide with hips back to prevent the roll, as this creates space to dive underneath them. Read their pressure - forward commitment means jailbreak, wide defensive base means deep half. Both options use the underhook as the entry point.",
+        "answer_line": "Narrow base = jailbreak entry",
+        "distractors": {
+          "plausible": [
+            "Always default to jailbreak",
+            "Wide base means jailbreak"
+          ],
+          "trap": [
+            "Force the roll regardless of base"
+          ]
+        }
       },
       {
         "question": "Your underhook gets stripped mid-escape attempt - what is your recovery protocol?",
-        "answer": "When the underhook is lost mid-escape, immediately abort the jailbreak attempt and switch to emergency defense. You have two options: establish frames against their shoulder and hip while shrimping to recover half guard, or continue to turtle and play defensive turtle escapes. Never try to complete the jailbreak without the underhook as this guarantees they follow to mount or side control. The underhook is your lifeline - without it, the escape mechanics don't work."
+        "answer": "When the underhook is lost mid-escape, immediately abort the jailbreak attempt and switch to emergency defense. You have two options: establish frames against their shoulder and hip while shrimping to recover half guard, or continue to turtle and play defensive turtle escapes. Never try to complete the jailbreak without the underhook as this guarantees they follow to mount or side control. The underhook is your lifeline - without it, the escape mechanics don't work.",
+        "answer_line": "Abort, frame and shrimp to half",
+        "distractors": {
+          "plausible": [
+            "Fight to regrab the underhook",
+            "Stand up to reset the position"
+          ],
+          "trap": [
+            "Complete the roll without underhook"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when the top player is preventing your escape attempts?",
-        "answer": "Energy management in Jailbreak Bottom requires strategic patience combined with explosive execution. Don't continuously fight for the escape against a well-based opponent. Instead, maintain your underhook defensively while waiting for them to commit weight forward for their pass. When they don't commit, consider switching to lockdown to recover energy, or threatening other attacks to force reactions. Save your explosive energy for moments when their weight is forward and the escape mechanics will work."
+        "answer": "Energy management in Jailbreak Bottom requires strategic patience combined with explosive execution. Don't continuously fight for the escape against a well-based opponent. Instead, maintain your underhook defensively while waiting for them to commit weight forward for their pass. When they don't commit, consider switching to lockdown to recover energy, or threatening other attacks to force reactions. Save your explosive energy for moments when their weight is forward and the escape mechanics will work.",
+        "answer_line": "Wait, defend, strike when forward",
+        "distractors": {
+          "plausible": [
+            "Continuously fight for the escape",
+            "Attack regardless of their base"
+          ],
+          "trap": [
+            "Burn energy attacking on repeat"
+          ]
+        }
       },
       {
         "question": "Your jailbreak fails and you end up in turtle with the opponent on top - how do you continue the escape sequence?",
-        "answer": "If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical stand-up if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together."
+        "answer": "If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical stand-up if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together.",
+        "answer_line": "Protect neck, stay active in turtle",
+        "distractors": {
+          "plausible": [
+            "Stall and wait for a mistake",
+            "Sit still to conserve energy"
+          ],
+          "trap": [
+            "Expose your neck to reach guard"
+          ]
+        }
       }
     ],
     "clips": [
@@ -735,35 +885,115 @@
   "flashcards_position": [
     {
       "question": "What is the defining structural configuration that distinguishes the Jailbreak from ordinary bottom half guard?",
-      "answer": "The Jailbreak is defined by the bottom player's legs extending away from the torso to create distance while a same-side underhook links the two players together, rather than the compact knee-shield-and-frame structure of standard half guard. Because the top player is driving forward weight against a defender whose traditional frames have been compromised, the extended legs act as the last passing barrier instead of an entangling hook. This combination of extended-leg distance plus a live underhook is what makes the position simultaneously a passing lane for the top player and an escape launch point for the bottom player. Neither element alone creates the Jailbreak; it is the tension between the leg extension and the underhook connection that gives the position its identity."
+      "answer": "The Jailbreak is defined by the bottom player's legs extending away from the torso to create distance while a same-side underhook links the two players together, rather than the compact knee-shield-and-frame structure of standard half guard. Because the top player is driving forward weight against a defender whose traditional frames have been compromised, the extended legs act as the last passing barrier instead of an entangling hook. This combination of extended-leg distance plus a live underhook is what makes the position simultaneously a passing lane for the top player and an escape launch point for the bottom player. Neither element alone creates the Jailbreak; it is the tension between the leg extension and the underhook connection that gives the position its identity.",
+      "answer_line": "Extended legs plus live underhook",
+      "distractors": {
+        "plausible": [
+          "Knee shield with tight frames",
+          "Extended legs alone, no underhook"
+        ],
+        "trap": [
+          "Locked lockdown around the leg"
+        ]
+      }
     },
     {
       "question": "Why is the same-side underhook considered the mechanical fulcrum of the Jailbreak for both players?",
-      "answer": "The underhook is the single connection point that couples the two bodies together, so whoever controls it dictates whether the position resolves as an escape or a completed pass. For the bottom player it prevents the top player from separating during the inversion and steers the direction of the roll, while for the top player neutralizing or over-hooking it is the prerequisite to flattening the opponent and passing. Because the underhook governs the shared axis of rotation, the entire exchange centers on who owns that arm. This is why every variation from both perspectives is framed around either maintaining or defeating the underhook."
+      "answer": "The underhook is the single connection point that couples the two bodies together, so whoever controls it dictates whether the position resolves as an escape or a completed pass. For the bottom player it prevents the top player from separating during the inversion and steers the direction of the roll, while for the top player neutralizing or over-hooking it is the prerequisite to flattening the opponent and passing. Because the underhook governs the shared axis of rotation, the entire exchange centers on who owns that arm. This is why every variation from both perspectives is framed around either maintaining or defeating the underhook.",
+      "answer_line": "Controls the shared rotation axis",
+      "distractors": {
+        "plausible": [
+          "It's just a grip, not essential",
+          "Crossface controls the axis instead"
+        ],
+        "trap": [
+          "Release it to create rolling space"
+        ]
+      }
     },
     {
       "question": "How does forward weight commitment from the top player make the Jailbreak roll mechanically viable?",
-      "answer": "When the top player drives chest and shoulder pressure forward to flatten the opponent, their center of gravity advances past their base and their posts narrow. This converts static downward pressure into rotational energy that the bottom player can borrow, because a forward-committed, narrow base is exactly what allows a body to be rolled through rather than resisted against. The same weight commitment that threatens the pass is therefore the vulnerability the inversion exploits, which is why the position rewards reading pressure rather than raw strength. A top player who keeps weight back with a wide base removes the momentum the roll depends on, shifting the exchange toward a different resolution."
+      "answer": "When the top player drives chest and shoulder pressure forward to flatten the opponent, their center of gravity advances past their base and their posts narrow. This converts static downward pressure into rotational energy that the bottom player can borrow, because a forward-committed, narrow base is exactly what allows a body to be rolled through rather than resisted against. The same weight commitment that threatens the pass is therefore the vulnerability the inversion exploits, which is why the position rewards reading pressure rather than raw strength. A top player who keeps weight back with a wide base removes the momentum the roll depends on, shifting the exchange toward a different resolution.",
+      "answer_line": "Narrow base converts to rotation",
+      "distractors": {
+        "plausible": [
+          "Wide base creates the rotation",
+          "Their strength alone enables it"
+        ],
+        "trap": [
+          "Stay flat and absorb the pressure"
+        ]
+      }
     },
     {
       "question": "Why does the Jailbreak resolve through an inverting roll rather than through linear framing like standard half guard?",
-      "answer": "The extended-leg-and-underhook structure removes the compact frames that ordinarily let a bottom player shrimp and re-guard along a straight line, so the position instead resolves by rotating the bottom body under the top player's forward pressure. The inverting player must tuck the chin and round the shoulders to turn the upper back into a smooth rolling track and protect the cervical spine, since spinal flexion is what lets the body rotate over cleanly rather than jamming. This rotational, granby-style mechanic is precisely why the Jailbreak is categorized apart from framing-based half guard exchanges. The whole position is organized around a curved rolling path instead of linear hip escapes."
+      "answer": "The extended-leg-and-underhook structure removes the compact frames that ordinarily let a bottom player shrimp and re-guard along a straight line, so the position instead resolves by rotating the bottom body under the top player's forward pressure. The inverting player must tuck the chin and round the shoulders to turn the upper back into a smooth rolling track and protect the cervical spine, since spinal flexion is what lets the body rotate over cleanly rather than jamming. This rotational, granby-style mechanic is precisely why the Jailbreak is categorized apart from framing-based half guard exchanges. The whole position is organized around a curved rolling path instead of linear hip escapes.",
+      "answer_line": "Rotate under pressure, not frame",
+      "distractors": {
+        "plausible": [
+          "Shrimp in a straight line instead",
+          "Push straight out with the legs"
+        ],
+        "trap": [
+          "Arch the spine to power through"
+        ]
+      }
     },
     {
       "question": "Why is the Jailbreak classified as a transitional junction rather than a position to be held or stalled in?",
-      "answer": "The Jailbreak exists only during the brief window when the legs are extended and the underhook is contested, and any pause allows the balance to tip decisively toward one player. Weight and connection are dynamically unstable here, so hesitation lets the top player collapse the space and flatten, or lets the bottom player retract and re-guard. Because the configuration cannot be maintained without one side gaining, both players must act with committed, decisive movement the instant it appears. This is why the position is understood as a moment to be exploited immediately rather than a controlling posture to settle into."
+      "answer": "The Jailbreak exists only during the brief window when the legs are extended and the underhook is contested, and any pause allows the balance to tip decisively toward one player. Weight and connection are dynamically unstable here, so hesitation lets the top player collapse the space and flatten, or lets the bottom player retract and re-guard. Because the configuration cannot be maintained without one side gaining, both players must act with committed, decisive movement the instant it appears. This is why the position is understood as a moment to be exploited immediately rather than a controlling posture to settle into.",
+      "answer_line": "Hesitation lets one side win",
+      "distractors": {
+        "plausible": [
+          "Hold it to control the pace",
+          "Stall to recover your breath"
+        ],
+        "trap": [
+          "Settle in and wait for openings"
+        ]
+      }
     },
     {
       "question": "How do the extended legs function as the pivotal barrier that both players are contesting in the Jailbreak?",
-      "answer": "The bottom player's extended legs form the final line separating the top player from a completed pass, simultaneously blocking hip access and generating propulsion for the inversion. Their configuration dictates the resolution: static, extended legs invite the top player to thread through or smash past, while actively repositioning legs create angles that force the top player to circle or backstep instead. The legs are therefore not a passive obstacle but the variable that determines which passing lane opens and which escape pathway is available. Reading the leg configuration is the shared decision input that drives both players' next action from this position."
+      "answer": "The bottom player's extended legs form the final line separating the top player from a completed pass, simultaneously blocking hip access and generating propulsion for the inversion. Their configuration dictates the resolution: static, extended legs invite the top player to thread through or smash past, while actively repositioning legs create angles that force the top player to circle or backstep instead. The legs are therefore not a passive obstacle but the variable that determines which passing lane opens and which escape pathway is available. Reading the leg configuration is the shared decision input that drives both players' next action from this position.",
+      "answer_line": "Legs block pass, fuel the roll",
+      "distractors": {
+        "plausible": [
+          "Legs are just passive obstacles",
+          "Only the top player reads the legs"
+        ],
+        "trap": [
+          "Ignore leg position, focus on grips"
+        ]
+      }
     },
     {
       "question": "What makes the Jailbreak distinct from adjacent half guard positions such as the lockdown, deep half guard, and dogfight?",
-      "answer": "Unlike the lockdown, which uses a leg entanglement to immobilize and stall the exchange, the Jailbreak deliberately extends the legs and accepts instability in exchange for explosive escape or passing potential. It differs from deep half guard, where the bottom player has already dived under the opponent's hips to control the base, because in the Jailbreak the players are still contesting the pass at the outer leg line. It also differs from the dogfight, a knees-up scramble built around a rising underhook battle, whereas the Jailbreak resolves through a horizontal inverting roll off forward pressure. The common thread is half guard lineage, but the Jailbreak is uniquely defined by trading stability for rotational momentum."
+      "answer": "Unlike the lockdown, which uses a leg entanglement to immobilize and stall the exchange, the Jailbreak deliberately extends the legs and accepts instability in exchange for explosive escape or passing potential. It differs from deep half guard, where the bottom player has already dived under the opponent's hips to control the base, because in the Jailbreak the players are still contesting the pass at the outer leg line. It also differs from the dogfight, a knees-up scramble built around a rising underhook battle, whereas the Jailbreak resolves through a horizontal inverting roll off forward pressure. The common thread is half guard lineage, but the Jailbreak is uniquely defined by trading stability for rotational momentum.",
+      "answer_line": "Trades stability for momentum",
+      "distractors": {
+        "plausible": [
+          "Immobilizes the leg like lockdown",
+          "Already dove under like deep half"
+        ],
+        "trap": [
+          "Rise to knees like the dogfight"
+        ]
+      }
     },
     {
       "question": "Why does timing the opponent's weight and base configuration matter more than strength in the Jailbreak?",
-      "answer": "The Jailbreak resolves through borrowed momentum and angle rather than force, so the correct action depends entirely on where the opponent's weight is committed at a given instant. Forward-committed weight over a narrow base makes the inverting roll viable, while a wide, hips-back base closes that door and favors a different pathway such as diving to deep half or the top player patiently collapsing space. Acting against the pressure rather than with it wastes energy and gets the mover stuck mid-transition. Both players therefore win from this position by reading the opponent's base and committing at the exact moment the mechanics align, not by muscling through a poorly timed attempt."
+      "answer": "The Jailbreak resolves through borrowed momentum and angle rather than force, so the correct action depends entirely on where the opponent's weight is committed at a given instant. Forward-committed weight over a narrow base makes the inverting roll viable, while a wide, hips-back base closes that door and favors a different pathway such as diving to deep half or the top player patiently collapsing space. Acting against the pressure rather than with it wastes energy and gets the mover stuck mid-transition. Both players therefore win from this position by reading the opponent's base and committing at the exact moment the mechanics align, not by muscling through a poorly timed attempt.",
+      "answer_line": "Read their base, don't force it",
+      "distractors": {
+        "plausible": [
+          "Overpower them regardless of base",
+          "Act on a fixed timer, not reads"
+        ],
+        "trap": [
+          "Force the roll against a wide base"
+        ]
+      }
     }
   ],
   "clips": [

@@ -245,43 +245,143 @@
     "flashcards": [
       {
         "question": "What is the most critical safety consideration when entering deep half guard from open guard?",
-        "answer": "The most critical safety consideration is ensuring your head passes to the outside of your opponent's near leg, never between their legs. Diving with your head between the legs creates extreme vulnerability to guillotine chokes and front headlock positions that can result in immediate submission. Your head must always be positioned outside the leg with chin tucked to maintain defensive integrity throughout the transition."
+        "answer": "The most critical safety consideration is ensuring your head passes to the outside of your opponent's near leg, never between their legs. Diving with your head between the legs creates extreme vulnerability to guillotine chokes and front headlock positions that can result in immediate submission. Your head must always be positioned outside the leg with chin tucked to maintain defensive integrity throughout the transition.",
+        "answer_line": "Head passes outside near leg",
+        "distractors": {
+          "plausible": [
+            "Head outside far leg",
+            "Chin up, head outside leg"
+          ],
+          "trap": [
+            "Head between opponent's legs"
+          ]
+        }
       },
       {
         "question": "Why is the hip escape step essential before diving underneath your opponent?",
-        "answer": "The hip escape creates the necessary 45-degree angle to safely and efficiently dive underneath your opponent's base. Without this angle, the entry becomes linear and predictable, making it easy for the opponent to stuff with a sprawl or crossface. The angular approach also protects your back from exposure during the transition, as your shoulders rotate toward the mat rather than remaining flat and vulnerable."
+        "answer": "The hip escape creates the necessary 45-degree angle to safely and efficiently dive underneath your opponent's base. Without this angle, the entry becomes linear and predictable, making it easy for the opponent to stuff with a sprawl or crossface. The angular approach also protects your back from exposure during the transition, as your shoulders rotate toward the mat rather than remaining flat and vulnerable.",
+        "answer_line": "Hip escape creates 45° angle",
+        "distractors": {
+          "plausible": [
+            "Square hips then dive straight",
+            "90° angle before diving"
+          ],
+          "trap": [
+            "Dive without hip escape first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping their near leg backward as you initiate the dive — how do you adjust?",
-        "answer": "Follow their retreating leg with your dive, using your established grips to prevent full disengagement. If they create too much distance for the deep half entry, redirect immediately to single leg X-guard by hooking their retreating leg with both feet, or sit up to pursue a single leg takedown. The key is having a secondary plan rather than chasing a dead entry angle — their retreat has created different opportunities."
+        "answer": "Follow their retreating leg with your dive, using your established grips to prevent full disengagement. If they create too much distance for the deep half entry, redirect immediately to single leg X-guard by hooking their retreating leg with both feet, or sit up to pursue a single leg takedown. The key is having a secondary plan rather than chasing a dead entry angle — their retreat has created different opportunities.",
+        "answer_line": "Follow leg, switch to X-guard",
+        "distractors": {
+          "plausible": [
+            "Abandon entry, return to guard",
+            "Sit up for single leg only"
+          ],
+          "trap": [
+            "Force dive at original angle"
+          ]
+        }
       },
       {
         "question": "What should you do immediately upon completing the deep half structure?",
-        "answer": "Begin your sweeping sequence without any pause. The transition and sweep must be treated as one continuous motion because pausing gives your opponent time to establish crossface control, widen their base, and neutralize your leverage advantage. Flow directly into old school sweep, waiter sweep, or rolling back take depending on their weight distribution and defensive posture upon your arrival."
+        "answer": "Begin your sweeping sequence without any pause. The transition and sweep must be treated as one continuous motion because pausing gives your opponent time to establish crossface control, widen their base, and neutralize your leverage advantage. Flow directly into old school sweep, waiter sweep, or rolling back take depending on their weight distribution and defensive posture upon your arrival.",
+        "answer_line": "Sweep immediately, no pause",
+        "distractors": {
+          "plausible": [
+            "Secure grips, then sweep",
+            "Wait for opponent to react"
+          ],
+          "trap": [
+            "Pause to reset structure"
+          ]
+        }
       },
       {
         "question": "How should your body be aligned relative to your opponent in proper deep half guard?",
-        "answer": "Your body should be perpendicular to your opponent's, forming a T-shape when viewed from above. This perpendicular alignment maximizes leverage for sweeps by allowing you to use your entire body structure against a portion of their base. If your body stays parallel, you lose the mechanical advantage that makes deep half effective and all sweeps become exponentially harder to execute."
+        "answer": "Your body should be perpendicular to your opponent's, forming a T-shape when viewed from above. This perpendicular alignment maximizes leverage for sweeps by allowing you to use your entire body structure against a portion of their base. If your body stays parallel, you lose the mechanical advantage that makes deep half effective and all sweeps become exponentially harder to execute.",
+        "answer_line": "Perpendicular T-shape to opponent",
+        "distractors": {
+          "plausible": [
+            "45-degree angled body",
+            "Facing opponent head-on"
+          ],
+          "trap": [
+            "Parallel body alignment"
+          ]
+        }
       },
       {
         "question": "What are the three most important connection points during the entry, and in what order?",
-        "answer": "First, grips on opponent's pants or belt before initiating the dive — these provide pulling power to thread your body underneath. Second, near arm wrap around the back of opponent's far leg immediately upon clearing their knee — this secures structural integrity. Third, bottom leg underhook across opponent's far hip to complete the deep half structure and establish sweeping mechanics. Each builds on the previous one and skipping any step compromises the position."
+        "answer": "First, grips on opponent's pants or belt before initiating the dive — these provide pulling power to thread your body underneath. Second, near arm wrap around the back of opponent's far leg immediately upon clearing their knee — this secures structural integrity. Third, bottom leg underhook across opponent's far hip to complete the deep half structure and establish sweeping mechanics. Each builds on the previous one and skipping any step compromises the position.",
+        "answer_line": "Grips, arm wrap, leg underhook",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then grips",
+            "Arm wrap before grips"
+          ],
+          "trap": [
+            "Skip grips, dive underneath"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls and establishes crossface pressure before you complete the entry — what is the correct response?",
-        "answer": "If the crossface establishes before you reach deep half, abort the entry rather than fighting from a compromised position. Frame against their hip with your near arm, shrimp away to create space, and transition to turtle recovery or reverse De La Riva guard. Continuing a compromised deep half entry under crossface pressure leads to being flattened and passed. Knowing when to abort is as important as knowing when to commit."
+        "answer": "If the crossface establishes before you reach deep half, abort the entry rather than fighting from a compromised position. Frame against their hip with your near arm, shrimp away to create space, and transition to turtle recovery or reverse De La Riva guard. Continuing a compromised deep half entry under crossface pressure leads to being flattened and passed. Knowing when to abort is as important as knowing when to commit.",
+        "answer_line": "Abort, frame, and shrimp out",
+        "distractors": {
+          "plausible": [
+            "Fight to finish the entry",
+            "Grip fight instead of escaping"
+          ],
+          "trap": [
+            "Drive forward into the crossface"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize when initiating this transition from open guard?",
-        "answer": "Prioritize a pant grip at the opponent's near-side knee or ankle with your near hand, combined with a belt or far-hip grip with your far hand. The pant grip controls the leg you will dive underneath, preventing them from stepping away, while the belt grip provides the pulling power to thread your body through. Without at least one of these grips established before committing to the dive, the entry lacks the control needed for consistent success."
+        "answer": "Prioritize a pant grip at the opponent's near-side knee or ankle with your near hand, combined with a belt or far-hip grip with your far hand. The pant grip controls the leg you will dive underneath, preventing them from stepping away, while the belt grip provides the pulling power to thread your body through. Without at least one of these grips established before committing to the dive, the entry lacks the control needed for consistent success.",
+        "answer_line": "Pant grip near knee + belt grip",
+        "distractors": {
+          "plausible": [
+            "Collar grip and sleeve control",
+            "Far ankle grip only"
+          ],
+          "trap": [
+            "No grips, dive on speed alone"
+          ]
+        }
       },
       {
         "question": "Against what type of passer is this entry most effective, and when should you choose an alternative?",
-        "answer": "This entry is most effective against pressure passers who commit their weight forward, because their forward momentum facilitates your dive underneath their base. Against opponents who maintain distance with upright posture and use toreando or long-step passing, the deep half entry is significantly harder because they can simply step back. In those cases, prioritize De La Riva, butterfly, or single leg X transitions that work better against distance-based passing styles."
+        "answer": "This entry is most effective against pressure passers who commit their weight forward, because their forward momentum facilitates your dive underneath their base. Against opponents who maintain distance with upright posture and use toreando or long-step passing, the deep half entry is significantly harder because they can simply step back. In those cases, prioritize De La Riva, butterfly, or single leg X transitions that work better against distance-based passing styles.",
+        "answer_line": "Best vs pressure passers",
+        "distractors": {
+          "plausible": [
+            "Best vs upright toreando passers",
+            "Works equally against any pass"
+          ],
+          "trap": [
+            "Force deep half vs long-step pass"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application once you establish the deep underhook on the far leg?",
-        "answer": "Pull the far leg tightly toward your chest with the underhook while your shoulder wedges against the inside of their thigh, creating a fulcrum point. The force direction is toward your own body and slightly upward — you are loading their weight onto your frame. Simultaneously, your hips push upward to elevate their base. This opposing force system — pulling the leg in while pushing hips up — creates the off-balancing mechanics that power all deep half sweeps."
+        "answer": "Pull the far leg tightly toward your chest with the underhook while your shoulder wedges against the inside of their thigh, creating a fulcrum point. The force direction is toward your own body and slightly upward — you are loading their weight onto your frame. Simultaneously, your hips push upward to elevate their base. This opposing force system — pulling the leg in while pushing hips up — creates the off-balancing mechanics that power all deep half sweeps.",
+        "answer_line": "Pull leg in, push hips up",
+        "distractors": {
+          "plausible": [
+            "Push leg away, pull hips down",
+            "Pull leg up, push hips forward"
+          ],
+          "trap": [
+            "Push leg down, drive weight flat"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the open guard to deep half transition, practitioners must prioritize proper head positioning throughout the entry sequence. Never allow your head to dive between your opponent's legs, as this creates immediate vulnerability to guillotine chokes and can result in serious neck injuries under aggressive application. Always maintain a tucked chin position to protect against crossface pressure and potential neck cranks. During drilling, partners should use controlled movements and avoid explosive counter-pressure until proper technique is established. Beginners should practice this entry exclusively with cooperative partners who understand the safety requirements and will not apply sudden pressure that could compress the neck. Practitioners with existing neck injuries or cervical restrictions should consult with medical professionals before training this technique. The transition should be trained progressively, starting with zero resistance and gradually increasing intensity only after demonstrating consistent proper form.",
@@ -400,23 +500,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the open guard to deep half entry?",
-        "answer": "The earliest cue is the combination of a strong hip escape creating a 45-degree angle with their hips and simultaneous gripping of your pants at the knee or ankle. This setup precedes the dive by one to two seconds and is your best intervention window. If you wait until their head begins dropping below your hip line, the entry is already significantly progressed and harder to prevent."
+        "answer": "The earliest cue is the combination of a strong hip escape creating a 45-degree angle with their hips and simultaneous gripping of your pants at the knee or ankle. This setup precedes the dive by one to two seconds and is your best intervention window. If you wait until their head begins dropping below your hip line, the entry is already significantly progressed and harder to prevent.",
+        "answer_line": "45° hip escape + pants grip",
+        "distractors": {
+          "plausible": [
+            "Head dropping below hip line",
+            "Opponent shifting weight back"
+          ],
+          "trap": [
+            "Wait until underhook is set"
+          ]
+        }
       },
       {
         "question": "Why is driving your weight forward the wrong response when you feel your opponent diving underneath?",
-        "answer": "Forward pressure loads your weight directly onto the frame your opponent is building underneath you, which is exactly what powers their sweep mechanics from deep half. Their deep underhook and shoulder wedge are designed to redirect your downward force into lateral sweeping leverage. By driving forward, you are essentially providing the energy they need to complete high-percentage sweeps like the old school and waiter variations."
+        "answer": "Forward pressure loads your weight directly onto the frame your opponent is building underneath you, which is exactly what powers their sweep mechanics from deep half. Their deep underhook and shoulder wedge are designed to redirect your downward force into lateral sweeping leverage. By driving forward, you are essentially providing the energy they need to complete high-percentage sweeps like the old school and waiter variations.",
+        "answer_line": "Feeds their sweep leverage",
+        "distractors": {
+          "plausible": [
+            "Slows their entry down",
+            "Has no real effect either way"
+          ],
+          "trap": [
+            "Drive forward to flatten them"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially completed the entry but has not yet secured the deep underhook — what is the optimal response?",
-        "answer": "This is the critical window to prevent deep half from being established. Immediately drive crossface pressure into their face and jaw to flatten their upper body against the mat. Simultaneously drop your near knee toward the mat to block further threading and widen your base with your free leg. Focus on preventing the deep underhook from being secured — without it, the position has no offensive foundation and you can begin passing from half guard top."
+        "answer": "This is the critical window to prevent deep half from being established. Immediately drive crossface pressure into their face and jaw to flatten their upper body against the mat. Simultaneously drop your near knee toward the mat to block further threading and widen your base with your free leg. Focus on preventing the deep underhook from being secured — without it, the position has no offensive foundation and you can begin passing from half guard top.",
+        "answer_line": "Crossface, drop knee, widen base",
+        "distractors": {
+          "plausible": [
+            "Sprawl back and disengage",
+            "Grip fight for hand control"
+          ],
+          "trap": [
+            "Wait for the underhook to land"
+          ]
+        }
       },
       {
         "question": "How should you extract your trapped leg after your opponent fully establishes deep half guard?",
-        "answer": "Use a slow, circular extraction motion rather than explosive pulling. First establish strong crossface pressure and widen your base with your free leg. Then work your trapped knee upward, backward, and then out in a circular path while maintaining constant crossface and hip pressure. Explosive straight-back pulling creates the momentum shifts that facilitate their sweeps. The methodical circular extraction denies them the dynamic energy they need."
+        "answer": "Use a slow, circular extraction motion rather than explosive pulling. First establish strong crossface pressure and widen your base with your free leg. Then work your trapped knee upward, backward, and then out in a circular path while maintaining constant crossface and hip pressure. Explosive straight-back pulling creates the momentum shifts that facilitate their sweeps. The methodical circular extraction denies them the dynamic energy they need.",
+        "answer_line": "Slow circular knee extraction",
+        "distractors": {
+          "plausible": [
+            "Extract leg before crossface",
+            "Straight pull, then circle out"
+          ],
+          "trap": [
+            "Explosive straight-back pull"
+          ]
+        }
       },
       {
         "question": "What defensive grip is the highest priority once your opponent reaches deep half guard?",
-        "answer": "Crossface control is the absolute highest priority. Whether using your forearm across their jaw or your shoulder driving into their face, crossface limits their ability to look up, adjust angles, and generate the rotation needed for sweeps. Without crossface, all other defensive measures become significantly less effective because the bottom player can freely position and time their attacks. Establish crossface before attempting any leg extraction."
+        "answer": "Crossface control is the absolute highest priority. Whether using your forearm across their jaw or your shoulder driving into their face, crossface limits their ability to look up, adjust angles, and generate the rotation needed for sweeps. Without crossface, all other defensive measures become significantly less effective because the bottom player can freely position and time their attacks. Establish crossface before attempting any leg extraction.",
+        "answer_line": "Crossface control first",
+        "distractors": {
+          "plausible": [
+            "Underhook their far leg first",
+            "Frame on near hip first"
+          ],
+          "trap": [
+            "Extract leg before crossfacing"
+          ]
+        }
       }
     ],
     "training_progressions": [

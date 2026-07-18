@@ -244,15 +244,45 @@
     "flashcards": [
       {
         "question": "What is the critical sequencing principle for grip changes during this transition?",
-        "answer": "New control points must be established before old ones are released, creating overlapping control throughout the transition. Specifically, the crossface must be in place before the head wrap disengages, and hip control must replace the arm trap before it is fully released. This eliminates any gap in pressure that the bottom player could exploit for escape."
+        "answer": "New control points must be established before old ones are released, creating overlapping control throughout the transition. Specifically, the crossface must be in place before the head wrap disengages, and hip control must replace the arm trap before it is fully released. This eliminates any gap in pressure that the bottom player could exploit for escape.",
+        "answer_line": "New grip in before old grip out",
+        "distractors": {
+          "plausible": [
+            "Release old grip, then re-grip",
+            "Switch all grips simultaneously"
+          ],
+          "trap": [
+            "Drop grips to move faster"
+          ]
+        }
       },
       {
         "question": "Your bottom opponent begins bridging just as you initiate the crossface switch - how do you respond?",
-        "answer": "Immediately abandon the transition attempt and re-consolidate scarf hold. Drive your hips heavy into their ribs, widen your base by extending your back leg, and ride out the bridge while maintaining your existing head wrap and arm trap. Only re-attempt the transition once the bridge subsides and the bottom player settles. Trying to complete the transition during an active bridge compounds instability and frequently results in losing position entirely."
+        "answer": "Immediately abandon the transition attempt and re-consolidate scarf hold. Drive your hips heavy into their ribs, widen your base by extending your back leg, and ride out the bridge while maintaining your existing head wrap and arm trap. Only re-attempt the transition once the bridge subsides and the bottom player settles. Trying to complete the transition during an active bridge compounds instability and frequently results in losing position entirely.",
+        "answer_line": "Ride bridge, drive hips heavy",
+        "distractors": {
+          "plausible": [
+            "Power through the grip switch",
+            "Post hands and wait passively"
+          ],
+          "trap": [
+            "Lift hips to block the bridge"
+          ]
+        }
       },
       {
         "question": "Why is it important to keep hips low during the rotation rather than lifting to create turning clearance?",
-        "answer": "Lifting the hips creates space between your body and the opponent's torso that they immediately exploit by inserting a knee for half guard recovery or initiating hip escape sequences. The rotation should pivot around the chest connection point with hips sliding along the mat surface, maintaining constant pressure that denies the bottom player any space to work with during the transition."
+        "answer": "Lifting the hips creates space between your body and the opponent's torso that they immediately exploit by inserting a knee for half guard recovery or initiating hip escape sequences. The rotation should pivot around the chest connection point with hips sliding along the mat surface, maintaining constant pressure that denies the bottom player any space to work with during the transition.",
+        "answer_line": "Keep hips low, pivot off chest",
+        "distractors": {
+          "plausible": [
+            "Lift hips slightly for clearance",
+            "Post on toes to rotate faster"
+          ],
+          "trap": [
+            "Raise hips to speed the switch"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating this transition?",
@@ -260,15 +290,45 @@
       },
       {
         "question": "What must your near hand do immediately after releasing the arm trap?",
-        "answer": "The near hand must immediately secure the opponent's far hip to block knee insertion. This is the single most critical action in the entire transition because the arm trap release creates a brief window where the bottom player's hips are uncontrolled. Without immediate hip control, the bottom player inserts their knee between your bodies and recovers half guard, completely negating the transition. The hip block should be in place before the arm trap is fully disengaged."
+        "answer": "The near hand must immediately secure the opponent's far hip to block knee insertion. This is the single most critical action in the entire transition because the arm trap release creates a brief window where the bottom player's hips are uncontrolled. Without immediate hip control, the bottom player inserts their knee between your bodies and recovers half guard, completely negating the transition. The hip block should be in place before the arm trap is fully disengaged.",
+        "answer_line": "Block far hip immediately",
+        "distractors": {
+          "plausible": [
+            "Secure crossface grip first",
+            "Post on the mat for base"
+          ],
+          "trap": [
+            "Reach for a submission first"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your far arm to prevent crossface establishment - what variant do you switch to?",
-        "answer": "Switch to the underhook-first variant by diving your near arm under their far shoulder while maintaining head pressure through body positioning rather than arm control. This bypasses the grip fight on your far arm entirely and establishes side control using the underhook as primary upper body control. Complete the hip rotation while your near arm secures the underhook, then work to establish crossface after side control alignment is achieved."
+        "answer": "Switch to the underhook-first variant by diving your near arm under their far shoulder while maintaining head pressure through body positioning rather than arm control. This bypasses the grip fight on your far arm entirely and establishes side control using the underhook as primary upper body control. Complete the hip rotation while your near arm secures the underhook, then work to establish crossface after side control alignment is achieved.",
+        "answer_line": "Switch to underhook-first variant",
+        "distractors": {
+          "plausible": [
+            "Fight harder for the crossface grip",
+            "Release and restart from scarf"
+          ],
+          "trap": [
+            "Let go of head control entirely"
+          ]
+        }
       },
       {
         "question": "How does this transition fit into a broader offensive strategy from scarf hold?",
-        "answer": "This transition serves as a tactical reset when scarf hold offense stalls or when the bottom player neutralizes primary submission threats. By flowing to side control, the top player accesses a broader submission network including americana, kimura, arm triangle, and north-south choke, plus advancement pathways to mount and knee on belly. The transition also functions as bait, as the bottom player's defensive reactions to the grip changes can expose submission opportunities in both scarf hold and the transitional phase."
+        "answer": "This transition serves as a tactical reset when scarf hold offense stalls or when the bottom player neutralizes primary submission threats. By flowing to side control, the top player accesses a broader submission network including americana, kimura, arm triangle, and north-south choke, plus advancement pathways to mount and knee on belly. The transition also functions as bait, as the bottom player's defensive reactions to the grip changes can expose submission opportunities in both scarf hold and the transitional phase.",
+        "answer_line": "Reset to access side control attacks",
+        "distractors": {
+          "plausible": [
+            "Only used to stall for a break",
+            "Purely a defensive repositioning"
+          ],
+          "trap": [
+            "Abandon offense, go back to guard"
+          ]
+        }
       },
       {
         "question": "What is the difference between the crossface-first and quick-switch variants, and when do you choose each?",
@@ -374,15 +434,45 @@
       },
       {
         "question": "Why is the transition window more valuable for escape than either the established scarf hold or established side control?",
-        "answer": "During the transition, the top player temporarily lacks the full mechanical advantage of either position. Their grips are in flux, their hip pressure is shifting, and their base is compromised by the rotation. In established scarf hold or side control, all control points work together as an integrated system. During transition, these control points are being disassembled and reassembled, creating gaps that do not exist in either settled position. This makes defensive actions significantly more likely to succeed."
+        "answer": "During the transition, the top player temporarily lacks the full mechanical advantage of either position. Their grips are in flux, their hip pressure is shifting, and their base is compromised by the rotation. In established scarf hold or side control, all control points work together as an integrated system. During transition, these control points are being disassembled and reassembled, creating gaps that do not exist in either settled position. This makes defensive actions significantly more likely to succeed.",
+        "answer_line": "Grips are in flux, gaps open",
+        "distractors": {
+          "plausible": [
+            "Top's base is always weaker there",
+            "Bottom has full guard access already"
+          ],
+          "trap": [
+            "Wait for full side control to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the transition but you fail to recover guard - what should your immediate priority be?",
-        "answer": "Immediately switch to side control defensive mechanics: establish forearm frames against the crossface and hip, protect your neck from choke threats, and begin working systematic side control escape sequences. Do not continue attempting scarf hold escapes or try to force the top player back into scarf hold. Accept the positional change and adapt your defensive strategy to the new position's specific requirements and available escape pathways."
+        "answer": "Immediately switch to side control defensive mechanics: establish forearm frames against the crossface and hip, protect your neck from choke threats, and begin working systematic side control escape sequences. Do not continue attempting scarf hold escapes or try to force the top player back into scarf hold. Accept the positional change and adapt your defensive strategy to the new position's specific requirements and available escape pathways.",
+        "answer_line": "Switch to side control defense",
+        "distractors": {
+          "plausible": [
+            "Keep attempting scarf hold escape",
+            "Try to force back to scarf hold"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       },
       {
         "question": "How do you chain defensive actions during the brief transition window for maximum escape probability?",
-        "answer": "Start with the highest-percentage action first: bridge explosively as the head control loosens. If the bridge is absorbed, immediately flow to knee insertion during the hip rotation phase. If the knee is blocked, immediately frame against the shoulder and hip escape to create enough space for guard recovery. Each action should flow into the next without resetting, taking no more than 2-3 seconds total. The key is pre-planning this sequence so reactions are automatic rather than deliberative."
+        "answer": "Start with the highest-percentage action first: bridge explosively as the head control loosens. If the bridge is absorbed, immediately flow to knee insertion during the hip rotation phase. If the knee is blocked, immediately frame against the shoulder and hip escape to create enough space for guard recovery. Each action should flow into the next without resetting, taking no more than 2-3 seconds total. The key is pre-planning this sequence so reactions are automatic rather than deliberative.",
+        "answer_line": "Bridge, then knee, then frame",
+        "distractors": {
+          "plausible": [
+            "Frame first, then bridge hard",
+            "Wait, then bridge once settled"
+          ],
+          "trap": [
+            "Turtle up to reset the exchange"
+          ]
+        }
       }
     ],
     "training_progressions": [

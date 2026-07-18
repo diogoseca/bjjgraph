@@ -258,11 +258,31 @@
       },
       {
         "question": "Your opponent posts their far hand on the mat when you begin to elevate with the butterfly hook - how do you adjust?",
-        "answer": "The hand post commits their weight to one side and removes one arm from their defensive structure. Immediately redirect your attack to exploit the weakened opposite side by switching to an old school sweep or arm drag to back take. Their posted arm cannot defend the new attack angle, and their committed weight distribution makes them vulnerable to directional changes. This is a fundamental action-reaction chain from half butterfly."
+        "answer": "The hand post commits their weight to one side and removes one arm from their defensive structure. Immediately redirect your attack to exploit the weakened opposite side by switching to an old school sweep or arm drag to back take. Their posted arm cannot defend the new attack angle, and their committed weight distribution makes them vulnerable to directional changes. This is a fundamental action-reaction chain from half butterfly.",
+        "answer_line": "Arm drag or old school to weak side",
+        "distractors": {
+          "plausible": [
+            "Keep pressing the same-side sweep",
+            "Wait for them to re-base first"
+          ],
+          "trap": [
+            "Release underhook to grab the post"
+          ]
+        }
       },
       {
         "question": "What hip angle should you establish before attempting the sweep and why is this angle critical?",
-        "answer": "Approximately 45 degrees relative to the opponent's centerline, angling toward the butterfly hook side. This angle creates a diagonal sweep trajectory that directs the opponent over the trapped half guard leg, where they have no ability to post or recover base. A straight-on angle allows the opponent to base to either side, while the diagonal forces them toward their one compromised direction."
+        "answer": "Approximately 45 degrees relative to the opponent's centerline, angling toward the butterfly hook side. This angle creates a diagonal sweep trajectory that directs the opponent over the trapped half guard leg, where they have no ability to post or recover base. A straight-on angle allows the opponent to base to either side, while the diagonal forces them toward their one compromised direction.",
+        "answer_line": "45 degrees toward the hook side",
+        "distractors": {
+          "plausible": [
+            "90 degrees square to opponent",
+            "45 degrees away from the hook"
+          ],
+          "trap": [
+            "Stay flat with no angle at all"
+          ]
+        }
       },
       {
         "question": "Why must you load the opponent's weight onto the butterfly hook before initiating the sweep drive?",
@@ -274,19 +294,59 @@
       },
       {
         "question": "What grip configuration provides the strongest platform for this sweep?",
-        "answer": "A deep underhook on the butterfly hook side with your arm threaded under the opponent's armpit and your hand controlling their lat muscle or belt line. This grip provides maximum pulling leverage along the diagonal sweep trajectory. In gi, supplement with a far-side collar grip for added rotational control. In no-gi, an overhook or collar tie on the same side provides alternative pulling leverage when the underhook is contested."
+        "answer": "A deep underhook on the butterfly hook side with your arm threaded under the opponent's armpit and your hand controlling their lat muscle or belt line. This grip provides maximum pulling leverage along the diagonal sweep trajectory. In gi, supplement with a far-side collar grip for added rotational control. In no-gi, an overhook or collar tie on the same side provides alternative pulling leverage when the underhook is contested.",
+        "answer_line": "Deep underhook to lat or belt line",
+        "distractors": {
+          "plausible": [
+            "Overhook on the hook-side arm",
+            "Cross collar grip as main control"
+          ],
+          "trap": [
+            "Grab both sleeves for control"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their trapped leg during the sweep setup phase?",
-        "answer": "Maintain constant half guard squeeze with both legs wrapped around the trapped leg, tightening the squeeze during the sweep itself rather than loosening. If the opponent begins extracting, immediately tighten your guard and use your butterfly hook to disrupt their posture, preventing them from generating the hip space needed for extraction. The half guard squeeze must remain active throughout the entire sequence."
+        "answer": "Maintain constant half guard squeeze with both legs wrapped around the trapped leg, tightening the squeeze during the sweep itself rather than loosening. If the opponent begins extracting, immediately tighten your guard and use your butterfly hook to disrupt their posture, preventing them from generating the hip space needed for extraction. The half guard squeeze must remain active throughout the entire sequence.",
+        "answer_line": "Squeeze tighter, never loosen",
+        "distractors": {
+          "plausible": [
+            "Loosen briefly to reposition legs",
+            "Switch legs to re-trap the knee"
+          ],
+          "trap": [
+            "Release guard to chase the sweep"
+          ]
+        }
       },
       {
         "question": "What body position indicates the optimal moment to initiate this sweep?",
-        "answer": "The optimal moment is when the opponent's weight shifts forward, either because they are initiating a pass, establishing crossface pressure, or reaching for grips. Their forward commitment loads weight onto your butterfly hook, creating ideal elevation conditions. Additionally, the moment after they commit to stripping your underhook with a whizzer is excellent timing because their defensive effort temporarily compromises their base positioning."
+        "answer": "The optimal moment is when the opponent's weight shifts forward, either because they are initiating a pass, establishing crossface pressure, or reaching for grips. Their forward commitment loads weight onto your butterfly hook, creating ideal elevation conditions. Additionally, the moment after they commit to stripping your underhook with a whizzer is excellent timing because their defensive effort temporarily compromises their base positioning.",
+        "answer_line": "When their weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "When they sit back to base",
+            "Right after they pass your guard"
+          ],
+          "trap": [
+            "Wait until they stand up"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked but your opponent is partially off-balance with one hand posted, what chain attack should you pursue?",
-        "answer": "Transition to the knee tap finish variation by releasing the butterfly hook mid-elevation and using that foot to tap the opponent's far knee inward, collapsing their remaining base point. If the knee tap is unavailable, use the partial off-balance to enter X-guard by extending both legs under the opponent, or attack a kimura on the posted arm since their weight is committed to that hand and they cannot easily retract it."
+        "answer": "Transition to the knee tap finish variation by releasing the butterfly hook mid-elevation and using that foot to tap the opponent's far knee inward, collapsing their remaining base point. If the knee tap is unavailable, use the partial off-balance to enter X-guard by extending both legs under the opponent, or attack a kimura on the posted arm since their weight is committed to that hand and they cannot easily retract it.",
+        "answer_line": "Knee tap, X-guard, or kimura",
+        "distractors": {
+          "plausible": [
+            "Reset and restart the same sweep",
+            "Switch to full guard and stall"
+          ],
+          "trap": [
+            "Release the hook to scramble up"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Half Butterfly Sweep is a low-risk technique with minimal joint stress when executed with proper mechanics. Primary safety concerns involve controlling the sweep direction so training partners do not land awkwardly on outstretched arms or twist their knees during the fall. During drilling, allow complete sweep execution rather than resisting at extreme angles that could torque the trapped knee. The underhook should not be used to crank the opponent's shoulder aggressively. Partners should communicate immediately if they feel unusual pressure on their trapped knee or ankle during the sweep rotation. Tap immediately if caught in any compromising position during scrambles following a defended attempt.",
@@ -404,19 +464,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up the Half Butterfly Sweep?",
-        "answer": "The earliest cue is their hip angle adjustment to approximately 45 degrees relative to your centerline combined with aggressive underhook fighting on the butterfly hook side. This angling establishes the diagonal sweep trajectory before any elevation begins. Recognizing this positioning early allows you to sprawl hips back or whizzer the underhook before the opponent can load your weight onto the hook."
+        "answer": "The earliest cue is their hip angle adjustment to approximately 45 degrees relative to your centerline combined with aggressive underhook fighting on the butterfly hook side. This angling establishes the diagonal sweep trajectory before any elevation begins. Recognizing this positioning early allows you to sprawl hips back or whizzer the underhook before the opponent can load your weight onto the hook.",
+        "answer_line": "45 degree angle plus underhook fight",
+        "distractors": {
+          "plausible": [
+            "Opponent grabbing your collar",
+            "Opponent flattening your hips"
+          ],
+          "trap": [
+            "Stay square and wait for elevation"
+          ]
+        }
       },
       {
         "question": "Why does posting your hand on the mat create new vulnerability even though it stops the immediate sweep?",
-        "answer": "While the hand post creates an emergency base that blocks the sweep in one direction, it commits your weight to that side and removes one arm from your defensive structure. This creates openings for the opponent to switch to an old school sweep targeting the weakened opposite side, or attack an arm drag to back take on the posted arm. The hand post is an emergency measure that demands immediate follow-up repositioning."
+        "answer": "While the hand post creates an emergency base that blocks the sweep in one direction, it commits your weight to that side and removes one arm from your defensive structure. This creates openings for the opponent to switch to an old school sweep targeting the weakened opposite side, or attack an arm drag to back take on the posted arm. The hand post is an emergency measure that demands immediate follow-up repositioning.",
+        "answer_line": "Commits weight, opens the far side",
+        "distractors": {
+          "plausible": [
+            "It fully neutralizes the sweep",
+            "It only weakens their grip"
+          ],
+          "trap": [
+            "Keep the arm posted and static"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates the sweep with a coordinated hook drive and underhook pull - what is your immediate response?",
-        "answer": "Sprawl your hips back hard while posting your far hand wide for emergency base. Simultaneously drive your shoulder into their chest to collapse their seated posture and break their structural alignment. Do not resist the elevation force by staying rigid, as this plays into the sweep mechanics. If the sweep is already past the tipping point, flow with the motion and immediately work guard recovery rather than fighting a lost position."
+        "answer": "Sprawl your hips back hard while posting your far hand wide for emergency base. Simultaneously drive your shoulder into their chest to collapse their seated posture and break their structural alignment. Do not resist the elevation force by staying rigid, as this plays into the sweep mechanics. If the sweep is already past the tipping point, flow with the motion and immediately work guard recovery rather than fighting a lost position.",
+        "answer_line": "Sprawl, post far hand, drive in",
+        "distractors": {
+          "plausible": [
+            "Stay rigid and resist the lift",
+            "Pull guard tighter and wait"
+          ],
+          "trap": [
+            "Grab their far leg for balance"
+          ]
+        }
       },
       {
         "question": "How should you manage weight distribution when your opponent has an active butterfly hook loaded and ready?",
-        "answer": "Keep your hips low and heavy with weight distributed diagonally away from the butterfly hook side. Your near hip should press into the opponent's body while your far leg provides a wide base post. Avoid committing your center of gravity forward over the butterfly hook, as this is precisely the loading condition the opponent needs. Think of your weight distribution as a tripod resisting force from the sweep direction."
+        "answer": "Keep your hips low and heavy with weight distributed diagonally away from the butterfly hook side. Your near hip should press into the opponent's body while your far leg provides a wide base post. Avoid committing your center of gravity forward over the butterfly hook, as this is precisely the loading condition the opponent needs. Think of your weight distribution as a tripod resisting force from the sweep direction.",
+        "answer_line": "Weight low, away from the hook",
+        "distractors": {
+          "plausible": [
+            "Weight forward to control posture",
+            "Weight evenly balanced at center"
+          ],
+          "trap": [
+            "Lean weight onto the hook side"
+          ]
+        }
       }
     ],
     "training_progressions": [

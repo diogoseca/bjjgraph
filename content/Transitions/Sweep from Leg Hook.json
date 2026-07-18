@@ -261,35 +261,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from Leg Hook?",
-        "answer": "The optimal window opens when the opponent commits their weight forward past their base centerline, typically while driving pressure to advance their pass or when reaching for grips. You can also create the window by pulling them forward with the underhook. The key indicator is feeling their weight settle heavily onto your chest and the hooked leg, meaning their base is already compromised before you initiate the roll."
+        "answer": "The optimal window opens when the opponent commits their weight forward past their base centerline, typically while driving pressure to advance their pass or when reaching for grips. You can also create the window by pulling them forward with the underhook. The key indicator is feeling their weight settle heavily onto your chest and the hooked leg, meaning their base is already compromised before you initiate the roll.",
+        "answer_line": "Weight commits past centerline",
+        "distractors": {
+          "plausible": [
+            "As soon as hook is secured",
+            "When they reach for grips"
+          ],
+          "trap": [
+            "Wait until they stand to pass"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can attempt this sweep?",
-        "answer": "Four conditions must be met: an active leg hook with dynamic tension on the opponent's near leg, an underhook or equivalent upper body control connecting you to their torso, a side-angled hip position that preserves rotational range of motion, and the opponent's weight shifted away from their optimal base. Missing any single requirement dramatically reduces success probability and increases counter risk."
+        "answer": "Four conditions must be met: an active leg hook with dynamic tension on the opponent's near leg, an underhook or equivalent upper body control connecting you to their torso, a side-angled hip position that preserves rotational range of motion, and the opponent's weight shifted away from their optimal base. Missing any single requirement dramatically reduces success probability and increases counter risk.",
+        "answer_line": "Hook, underhook, angle, weight shift",
+        "distractors": {
+          "plausible": [
+            "Underhook and leg hook only",
+            "Just a strong leg hook grip"
+          ],
+          "trap": [
+            "Flat hips facing the opponent"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the sweep execution?",
-        "answer": "The hip bridge combined with rotational elevation through the hooked leg is the primary power source. Your hips must drive upward and laterally simultaneously, creating a diagonal force vector that lifts the opponent off their base while rolling them over the fulcrum of the hook. Without this coordinated hip action, the upper body alone cannot generate sufficient force to complete the sweep against a competent opponent."
+        "answer": "The hip bridge combined with rotational elevation through the hooked leg is the primary power source. Your hips must drive upward and laterally simultaneously, creating a diagonal force vector that lifts the opponent off their base while rolling them over the fulcrum of the hook. Without this coordinated hip action, the upper body alone cannot generate sufficient force to complete the sweep against a competent opponent.",
+        "answer_line": "Bridge and rotate through hook",
+        "distractors": {
+          "plausible": [
+            "Pull hard with the underhook",
+            "Explosive hip escape only"
+          ],
+          "trap": [
+            "Push straight up with the arms"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you initiate the sweep - how do you adjust?",
-        "answer": "The posting hand must be neutralized before re-attempting the sweep. Use your free hand to control their wrist and pin it to the mat or push their elbow past the centerline. Alternatively, switch your attack to an arm drag on the posting arm, which simultaneously removes their base and creates back take opportunities. Never force the sweep against a solid post, as it wastes energy and teaches the opponent your timing."
+        "answer": "The posting hand must be neutralized before re-attempting the sweep. Use your free hand to control their wrist and pin it to the mat or push their elbow past the centerline. Alternatively, switch your attack to an arm drag on the posting arm, which simultaneously removes their base and creates back take opportunities. Never force the sweep against a solid post, as it wastes energy and teaches the opponent your timing.",
+        "answer_line": "Control the post or arm drag",
+        "distractors": {
+          "plausible": [
+            "Push through the sweep anyway",
+            "Switch to a different guard"
+          ],
+          "trap": [
+            "Yank the sweep even faster"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest sweeping mechanics?",
-        "answer": "A deep underhook with your hand reaching the opponent's far shoulder blade combined with an active leg hook creates the strongest unified control. The underhook drives upward into the armpit while the hook elevates from below, creating converging force vectors. In no-gi, a two-on-one arm drag grip can substitute for the underhook when it is denied. The key is that upper and lower body grips must work as one connected system, not independent controls."
+        "answer": "A deep underhook with your hand reaching the opponent's far shoulder blade combined with an active leg hook creates the strongest unified control. The underhook drives upward into the armpit while the hook elevates from below, creating converging force vectors. In no-gi, a two-on-one arm drag grip can substitute for the underhook when it is denied. The key is that upper and lower body grips must work as one connected system, not independent controls.",
+        "answer_line": "Deep underhook plus active hook",
+        "distractors": {
+          "plausible": [
+            "Overhook and leg hook combo",
+            "Two grips on the same side"
+          ],
+          "trap": [
+            "Grab their far hand grip only"
+          ]
+        }
       },
       {
         "question": "In which direction should the sweeping force be applied relative to the opponent's base?",
-        "answer": "The sweep force must travel perpendicular to the opponent's base alignment for maximum effectiveness. If they have a wide lateral base, sweep forward or backward. If their base is narrow front-to-back, sweep laterally. Reading their weight distribution determines the weakest base direction. Sweeping into their strongest base direction requires enormous force and almost always fails against skilled opponents."
+        "answer": "The sweep force must travel perpendicular to the opponent's base alignment for maximum effectiveness. If they have a wide lateral base, sweep forward or backward. If their base is narrow front-to-back, sweep laterally. Reading their weight distribution determines the weakest base direction. Sweeping into their strongest base direction requires enormous force and almost always fails against skilled opponents.",
+        "answer_line": "Perpendicular to their base",
+        "distractors": {
+          "plausible": [
+            "Always sweep straight forward",
+            "Sweep toward their strong side"
+          ],
+          "trap": [
+            "Force into their strongest base"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back and drives a crossface when they feel your sweep setup - what is your best response?",
-        "answer": "Their sprawl and crossface actually aid a transition to deep half guard because their weight is driving forward and their hips are lowering. Duck underneath their pressure by pulling your head through to the far hip side while maintaining the leg hook. Convert their aggressive defensive response into an entry to deep half guard, where you have a different set of high-percentage sweeps available from an even more advantageous position."
+        "answer": "Their sprawl and crossface actually aid a transition to deep half guard because their weight is driving forward and their hips are lowering. Duck underneath their pressure by pulling your head through to the far hip side while maintaining the leg hook. Convert their aggressive defensive response into an entry to deep half guard, where you have a different set of high-percentage sweeps available from an even more advantageous position.",
+        "answer_line": "Duck under to deep half guard",
+        "distractors": {
+          "plausible": [
+            "Fight the crossface directly",
+            "Release the hook and reset"
+          ],
+          "trap": [
+            "Stand up to break the sprawl"
+          ]
+        }
       },
       {
         "question": "If your initial sweep attempt is stuffed, what chain attacks are available?",
-        "answer": "The primary chains are: arm drag to back take if the opponent posts a hand, deep half entry if they sprawl forward, single leg X-guard transition if they stand to disengage, and dogfight position if the sweep stalls halfway. Each chain capitalizes on the specific defensive response the opponent used to stop the initial sweep, meaning their defense to one threat opens them to the next threat in the chain."
+        "answer": "The primary chains are: arm drag to back take if the opponent posts a hand, deep half entry if they sprawl forward, single leg X-guard transition if they stand to disengage, and dogfight position if the sweep stalls halfway. Each chain capitalizes on the specific defensive response the opponent used to stop the initial sweep, meaning their defense to one threat opens them to the next threat in the chain.",
+        "answer_line": "Arm drag, deep half, or X-guard",
+        "distractors": {
+          "plausible": [
+            "Repeat the same sweep harder",
+            "Switch to a full guard reset"
+          ],
+          "trap": [
+            "Give up top and stand up"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Leg Hook is generally low-risk but practitioners should be mindful of knee stress on the hooking leg during aggressive sweeping motions, particularly when the hook gets caught at an awkward angle during the roll. Ensure the leg hook maintains natural knee alignment throughout the sweep by keeping your heel engaged rather than locking your ankle rigidly. Communicate with training partners about knee sensitivity before drilling. During initial practice, use cooperative repetitions at slow speed to develop proper movement patterns before adding resistance or speed. The follow-through phase carries risk of landing heavily on the opponent, so control your descent into mount rather than dropping full weight suddenly.",
@@ -407,23 +487,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Sweep from Leg Hook is being set up?",
-        "answer": "The earliest cue is the bottom player aggressively turning onto their side and threading an underhook under your armpit. This side-angle combined with underhook insertion signals sweep intent before the weight-loading phase begins. Addressing the underhook at this stage prevents the sweep from reaching the commitment phase where it becomes much harder to defend."
+        "answer": "The earliest cue is the bottom player aggressively turning onto their side and threading an underhook under your armpit. This side-angle combined with underhook insertion signals sweep intent before the weight-loading phase begins. Addressing the underhook at this stage prevents the sweep from reaching the commitment phase where it becomes much harder to defend.",
+        "answer_line": "Side turn plus underhook thread",
+        "distractors": {
+          "plausible": [
+            "Opponent gripping your collar",
+            "Weight settling onto your chest"
+          ],
+          "trap": [
+            "Opponent posting on far hand"
+          ]
+        }
       },
       {
         "question": "Why is denying the underhook more effective than fighting the leg hook for sweep defense?",
-        "answer": "The sweep requires coordinated upper and lower body control to generate sufficient force for the reversal. The leg hook alone can elevate but cannot direct the sweep without upper body connection. By denying the underhook, you break the unified control system, reducing the sweep to a single-lever action that is easily blocked by maintaining base. Fighting only the leg hook leaves the more dangerous upper body connection intact."
+        "answer": "The sweep requires coordinated upper and lower body control to generate sufficient force for the reversal. The leg hook alone can elevate but cannot direct the sweep without upper body connection. By denying the underhook, you break the unified control system, reducing the sweep to a single-lever action that is easily blocked by maintaining base. Fighting only the leg hook leaves the more dangerous upper body connection intact.",
+        "answer_line": "Denying underhook breaks the link",
+        "distractors": {
+          "plausible": [
+            "Fighting the hook stops it too",
+            "Both are equally important"
+          ],
+          "trap": [
+            "Focus only on the leg hook"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates the sweep and you feel your weight shifting - what is your emergency response?",
-        "answer": "Post your far hand wide on the mat immediately to establish a tripod base that blocks the roll direction. Simultaneously drive your hips low and forward to re-center your weight. Once the immediate sweep threat is neutralized, retract the posting hand quickly to prevent arm drag attacks, swim your near arm inside to deny the underhook, and work to re-establish your passing position with centered base."
+        "answer": "Post your far hand wide on the mat immediately to establish a tripod base that blocks the roll direction. Simultaneously drive your hips low and forward to re-center your weight. Once the immediate sweep threat is neutralized, retract the posting hand quickly to prevent arm drag attacks, swim your near arm inside to deny the underhook, and work to re-establish your passing position with centered base.",
+        "answer_line": "Post wide, lower hips, re-center",
+        "distractors": {
+          "plausible": [
+            "Grab their leg hook and pull",
+            "Sit back and pull guard"
+          ],
+          "trap": [
+            "Leave the posted hand out long"
+          ]
+        }
       },
       {
         "question": "How can you convert a failed sweep attempt into a passing opportunity?",
-        "answer": "When the bottom player commits to the sweep, they create side angle and space that exposes passing lanes. As the sweep fails, immediately drive crossface pressure and use the bottom player's compromised angle to advance a knee slice, leg drag, or pressure pass. Their sweep setup often opens the exact space you need to clear your leg and complete the pass to side control."
+        "answer": "When the bottom player commits to the sweep, they create side angle and space that exposes passing lanes. As the sweep fails, immediately drive crossface pressure and use the bottom player's compromised angle to advance a knee slice, leg drag, or pressure pass. Their sweep setup often opens the exact space you need to clear your leg and complete the pass to side control.",
+        "answer_line": "Crossface and knee slice pass",
+        "distractors": {
+          "plausible": [
+            "Retreat and reset base first",
+            "Stack them for a submission"
+          ],
+          "trap": [
+            "Chase the leg hook to smash pass"
+          ]
+        }
       },
       {
         "question": "What base adjustment prevents the sweep from being loaded in the first place?",
-        "answer": "Maintain a wide, centered base with weight distributed evenly and hips low. Position your knees wide enough that lateral displacement requires significant force, and keep your center of gravity directly over the bottom player's torso rather than shifted to either side. Actively re-center each time you feel the bottom player attempting to shift your weight, denying them the loaded position they need before initiating the roll."
+        "answer": "Maintain a wide, centered base with weight distributed evenly and hips low. Position your knees wide enough that lateral displacement requires significant force, and keep your center of gravity directly over the bottom player's torso rather than shifted to either side. Actively re-center each time you feel the bottom player attempting to shift your weight, denying them the loaded position they need before initiating the roll.",
+        "answer_line": "Wide base, low hips, re-center",
+        "distractors": {
+          "plausible": [
+            "Post hands wide immediately",
+            "Keep weight forward always"
+          ],
+          "trap": [
+            "Narrow stance for mobility"
+          ]
+        }
       }
     ],
     "training_progressions": [

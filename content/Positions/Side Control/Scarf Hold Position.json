@@ -73,35 +73,115 @@
     "flashcards": [
       {
         "question": "What is the primary weight distribution point for maintaining effective scarf hold control?",
-        "answer": "Weight should be distributed primarily through your hips pressing directly into the opponent's ribcage, not through extended arms or a posted base. Sitting low with hips heavy on the mat beside their torso creates crushing pressure that restricts breathing and limits their movement options. Keeping weight through the pelvis rather than the legs or arms maintains constant control while conserving energy."
+        "answer": "Weight should be distributed primarily through your hips pressing directly into the opponent's ribcage, not through extended arms or a posted base. Sitting low with hips heavy on the mat beside their torso creates crushing pressure that restricts breathing and limits their movement options. Keeping weight through the pelvis rather than the legs or arms maintains constant control while conserving energy.",
+        "answer_line": "Hips heavy into their ribcage",
+        "distractors": {
+          "plausible": [
+            "Weight through your extended arms",
+            "Balance evenly on both knees"
+          ],
+          "trap": [
+            "Post up high, base on toes"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively - what adjustment do you make to maintain position?",
-        "answer": "When opponent bridges, widen your base by extending your back leg further behind you and driving your hip pressure deeper into their ribs. Simultaneously tighten your head control to prevent them from turning their face toward you. Ride the bridge by staying connected rather than posting away, and as they return to the mat, immediately re-consolidate your perpendicular angle and arm trap before they can chain into another escape attempt."
+        "answer": "When opponent bridges, widen your base by extending your back leg further behind you and driving your hip pressure deeper into their ribs. Simultaneously tighten your head control to prevent them from turning their face toward you. Ride the bridge by staying connected rather than posting away, and as they return to the mat, immediately re-consolidate your perpendicular angle and arm trap before they can chain into another escape attempt.",
+        "answer_line": "Widen base, drive hips deeper",
+        "distractors": {
+          "plausible": [
+            "Post away to block the bridge",
+            "Loosen grips and ride it out"
+          ],
+          "trap": [
+            "Release head control, sit up"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining scarf hold position?",
-        "answer": "The primary grips involve threading your near arm underneath opponent's near arm and securing above their elbow or on the tricep to prevent extraction. Your far arm wraps around their head with your hand gripping their far collar, your own belt, or clasping behind their neck. These combined grips create the control triangle of angle, arm, and head that defines effective scarf hold retention."
+        "answer": "The primary grips involve threading your near arm underneath opponent's near arm and securing above their elbow or on the tricep to prevent extraction. Your far arm wraps around their head with your hand gripping their far collar, your own belt, or clasping behind their neck. These combined grips create the control triangle of angle, arm, and head that defines effective scarf hold retention.",
+        "answer_line": "Trap near arm, wrap the head",
+        "distractors": {
+          "plausible": [
+            "Underhook far arm, grip belt",
+            "Cross-face grip, control wrist"
+          ],
+          "trap": [
+            "Grab both wrists, sit back"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary bridge-and-roll escape attempt?",
-        "answer": "The bridge-and-roll relies on opponent trapping your far arm and rolling you over your shoulder. Prevent this by keeping your far arm (the one around their head) tight and mobile, never letting them pin it to their chest. If they grab your arm, immediately circle it free or use your head control to turn their face away, breaking their alignment for the roll. Additionally, extend your legs wide for base and keep hips low to make elevating you nearly impossible."
+        "answer": "The bridge-and-roll relies on opponent trapping your far arm and rolling you over your shoulder. Prevent this by keeping your far arm (the one around their head) tight and mobile, never letting them pin it to their chest. If they grab your arm, immediately circle it free or use your head control to turn their face away, breaking their alignment for the roll. Additionally, extend your legs wide for base and keep hips low to make elevating you nearly impossible.",
+        "answer_line": "Keep far arm free, base wide",
+        "distractors": {
+          "plausible": [
+            "Post base arm to block roll",
+            "Sit back and hook their leg"
+          ],
+          "trap": [
+            "Let them pin your far arm"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish immediately upon transitioning to scarf hold?",
-        "answer": "First priority is head control - wrap your far arm around their head before they can establish defensive frames. Second priority is near arm control by threading underneath and securing above elbow. Third is hip positioning, sitting low and tight against their ribcage. Never settle your weight until both head and arm control are secured, as a loose transition allows immediate escape opportunities."
+        "answer": "First priority is head control - wrap your far arm around their head before they can establish defensive frames. Second priority is near arm control by threading underneath and securing above elbow. Third is hip positioning, sitting low and tight against their ribcage. Never settle your weight until both head and arm control are secured, as a loose transition allows immediate escape opportunities.",
+        "answer_line": "Head control first, then arm",
+        "distractors": {
+          "plausible": [
+            "Hips first, then head control",
+            "Arm trap first, then hips"
+          ],
+          "trap": [
+            "Settle weight before any grips"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their face toward you and starts establishing frames - how do you respond?",
-        "answer": "This is a critical moment requiring immediate response. Drive your crossface deeper using your far arm to turn their head away, eliminating their visual reference and frame effectiveness. Simultaneously tighten your arm control to prevent them from creating space. If they get a frame on your shoulder, drive your weight through your hips into their ribs while working to swim your arm inside their frame. Never allow them to complete the turn as this leads to guard recovery or reversal."
+        "answer": "This is a critical moment requiring immediate response. Drive your crossface deeper using your far arm to turn their head away, eliminating their visual reference and frame effectiveness. Simultaneously tighten your arm control to prevent them from creating space. If they get a frame on your shoulder, drive your weight through your hips into their ribs while working to swim your arm inside their frame. Never allow them to complete the turn as this leads to guard recovery or reversal.",
+        "answer_line": "Crossface deeper, turn head away",
+        "distractors": {
+          "plausible": [
+            "Push down on their frame arm",
+            "Grab both their arms tight"
+          ],
+          "trap": [
+            "Let them complete the face turn"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining scarf hold for extended periods?",
-        "answer": "Scarf hold should be low-energy when positioned correctly. Rest your weight through skeletal structure rather than muscular tension by keeping hips low and heavy. Use body positioning rather than grip strength where possible. When opponent is not actively escaping, relax your muscles while maintaining structural connection. The perpendicular angle naturally pins them when weight is properly distributed, requiring minimal effort compared to fighting their escape attempts reactively."
+        "answer": "Scarf hold should be low-energy when positioned correctly. Rest your weight through skeletal structure rather than muscular tension by keeping hips low and heavy. Use body positioning rather than grip strength where possible. When opponent is not actively escaping, relax your muscles while maintaining structural connection. The perpendicular angle naturally pins them when weight is properly distributed, requiring minimal effort compared to fighting their escape attempts reactively.",
+        "answer_line": "Rest weight on skeleton, hips low",
+        "distractors": {
+          "plausible": [
+            "Grip tightly at all times",
+            "Stay tense and ready always"
+          ],
+          "trap": [
+            "Muscle through with arm strength"
+          ]
+        }
       },
       {
         "question": "Your opponent extracts their trapped arm partially - how do you recover control?",
-        "answer": "Immediately transition to attacking the exposed arm with americana or kimura threat, which forces them to defend the submission rather than complete the extraction. If they continue extracting, switch your arm control by diving your near arm to their far shoulder (modified scarf hold variation) or transition to mount as their arm extraction creates the space for leg step-over. Never chase a fully extracted arm - use the extraction as a transition trigger instead."
+        "answer": "Immediately transition to attacking the exposed arm with americana or kimura threat, which forces them to defend the submission rather than complete the extraction. If they continue extracting, switch your arm control by diving your near arm to their far shoulder (modified scarf hold variation) or transition to mount as their arm extraction creates the space for leg step-over. Never chase a fully extracted arm - use the extraction as a transition trigger instead.",
+        "answer_line": "Attack the arm, don't chase it",
+        "distractors": {
+          "plausible": [
+            "Re-grip and reset the trap",
+            "Switch immediately to mount"
+          ],
+          "trap": [
+            "Chase and re-trap the loose arm"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -394,35 +474,115 @@
     "flashcards": [
       {
         "question": "Why are standard side control shrimping escapes ineffective from scarf hold bottom?",
-        "answer": "The perpendicular angle of scarf hold makes lateral hip movement ineffective because your hips are moving parallel to the opponent's body rather than away from their pressure. In standard side control, shrimping creates distance perpendicular to opponent's chest. In scarf hold, the opponent sits T-shaped across you, so lateral movement just slides along their body without creating escape space. Bridge-and-turn mechanics are required instead because they exploit the perpendicular angle by rotating toward or away from the opponent."
+        "answer": "The perpendicular angle of scarf hold makes lateral hip movement ineffective because your hips are moving parallel to the opponent's body rather than away from their pressure. In standard side control, shrimping creates distance perpendicular to opponent's chest. In scarf hold, the opponent sits T-shaped across you, so lateral movement just slides along their body without creating escape space. Bridge-and-turn mechanics are required instead because they exploit the perpendicular angle by rotating toward or away from the opponent.",
+        "answer_line": "Angle is parallel, shrimp fails",
+        "distractors": {
+          "plausible": [
+            "Shrimp harder to create space",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Shrimp toward their legs repeatedly"
+          ]
+        }
       },
       {
         "question": "Your opponent has heavy hip pressure on your ribs making breathing difficult - what is your immediate priority?",
-        "answer": "First priority is establishing a frame with your free arm against their head and shoulder to create minimal breathing space and prevent complete smothering. Turn your body slightly toward them to angle your ribs and reduce direct compression. Focus on controlled diaphragmatic breathing using your belly rather than chest expansion. Do not waste energy on explosive escapes while oxygen-deprived. Once you can breathe adequately, begin systematically working escape progressions."
+        "answer": "First priority is establishing a frame with your free arm against their head and shoulder to create minimal breathing space and prevent complete smothering. Turn your body slightly toward them to angle your ribs and reduce direct compression. Focus on controlled diaphragmatic breathing using your belly rather than chest expansion. Do not waste energy on explosive escapes while oxygen-deprived. Once you can breathe adequately, begin systematically working escape progressions.",
+        "answer_line": "Frame, angle ribs, breathe calm",
+        "distractors": {
+          "plausible": [
+            "Push hard against their chest",
+            "Hold your breath and bridge"
+          ],
+          "trap": [
+            "Explosive escape while gasping"
+          ]
+        }
       },
       {
         "question": "What are the key frames you must establish before attempting any escape from scarf hold?",
-        "answer": "Primary frame is your far arm (free arm) positioned against opponent's head/neck and shoulder to prevent complete smothering and maintain breathing space. Secondary frame involves protecting your neck by tucking chin and using near-side hand if possible to prevent deep crossface. Third frame is using your bottom leg to hook opponent's near leg, preventing mount transition and creating a barrier. These frames must be established before attempting escapes to prevent submission attacks during your escape attempts."
+        "answer": "Primary frame is your far arm (free arm) positioned against opponent's head/neck and shoulder to prevent complete smothering and maintain breathing space. Secondary frame involves protecting your neck by tucking chin and using near-side hand if possible to prevent deep crossface. Third frame is using your bottom leg to hook opponent's near leg, preventing mount transition and creating a barrier. These frames must be established before attempting escapes to prevent submission attacks during your escape attempts.",
+        "answer_line": "Frame head/shoulder, hook leg",
+        "distractors": {
+          "plausible": [
+            "Push on their hips to create space",
+            "Grab their far arm first"
+          ],
+          "trap": [
+            "Attempt escape with no frames"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts their weight forward to transition to mount - what escape opportunity does this create?",
-        "answer": "Forward weight shift creates space between their hips and your lower body, enabling backdoor escapes. Execute ghost escape by turning into them and coming to your knees as their forward momentum carries past you. Alternatively, use granby roll mechanics to invert toward their legs and recover guard. The key is timing - as their weight commits forward, their base near your hips weakens significantly. Move immediately when you feel the weight shift rather than waiting for them to complete the transition."
+        "answer": "Forward weight shift creates space between their hips and your lower body, enabling backdoor escapes. Execute ghost escape by turning into them and coming to your knees as their forward momentum carries past you. Alternatively, use granby roll mechanics to invert toward their legs and recover guard. The key is timing - as their weight commits forward, their base near your hips weakens significantly. Move immediately when you feel the weight shift rather than waiting for them to complete the transition.",
+        "answer_line": "Ghost escape as weight shifts",
+        "distractors": {
+          "plausible": [
+            "Bridge hard straight upward",
+            "Wait for mount then escape"
+          ],
+          "trap": [
+            "Push their hips away sharply"
+          ]
+        }
       },
       {
         "question": "How do you set up and execute the bridge-and-roll escape specific to scarf hold?",
-        "answer": "First, grab opponent's far arm or gi material with your free hand and pull it across your body to remove their posting ability. Hook their near leg with your bottom leg to prevent them from basing out. Bump your hips toward them slightly to load their weight, then explosively bridge at 45-degree angle toward their trapped arm side while rolling them over their shoulder. The perpendicular angle means you're rolling them sideways rather than head-over-heels. Maintain the arm trap throughout the roll to prevent them from posting."
+        "answer": "First, grab opponent's far arm or gi material with your free hand and pull it across your body to remove their posting ability. Hook their near leg with your bottom leg to prevent them from basing out. Bump your hips toward them slightly to load their weight, then explosively bridge at 45-degree angle toward their trapped arm side while rolling them over their shoulder. The perpendicular angle means you're rolling them sideways rather than head-over-heels. Maintain the arm trap throughout the roll to prevent them from posting.",
+        "answer_line": "Trap arm, hook leg, bridge 45°",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up and over",
+            "Push off their chest and roll"
+          ],
+          "trap": [
+            "Release the arm before bridging"
+          ]
+        }
       },
       {
         "question": "What timing windows should you recognize for escape attempts from scarf hold bottom?",
-        "answer": "Primary windows occur when opponent releases head control to attack submissions - this momentarily frees your head mobility for escape mechanics. Second window is when they shift weight to transition positions, creating space on one side. Third window is when they reach for grips or adjust arm control, weakening their structural connection. Fourth window follows their unsuccessful submission attempt when they must reset. Recognize these windows through feeling weight shifts and grip changes rather than visual cues."
+        "answer": "Primary windows occur when opponent releases head control to attack submissions - this momentarily frees your head mobility for escape mechanics. Second window is when they shift weight to transition positions, creating space on one side. Third window is when they reach for grips or adjust arm control, weakening their structural connection. Fourth window follows their unsuccessful submission attempt when they must reset. Recognize these windows through feeling weight shifts and grip changes rather than visual cues.",
+        "answer_line": "Feel weight shifts and grip changes",
+        "distractors": {
+          "plausible": [
+            "Wait for them to sit up fully",
+            "Watch their eyes for cues"
+          ],
+          "trap": [
+            "Attack only when they're settled"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attacking americana on your trapped arm - how do you defend while setting up escape?",
-        "answer": "Immediately straighten your trapped arm and turn your thumb toward the ceiling to prevent the figure-four grip completion. Grip your own thigh or belt with the threatened hand to anchor it. The americana attack requires them to release some head control, creating an escape window. As they commit to the submission, use their compromised position to execute hip escape toward your free side or bridge-and-roll while their arms are occupied with the attack rather than base."
+        "answer": "Immediately straighten your trapped arm and turn your thumb toward the ceiling to prevent the figure-four grip completion. Grip your own thigh or belt with the threatened hand to anchor it. The americana attack requires them to release some head control, creating an escape window. As they commit to the submission, use their compromised position to execute hip escape toward your free side or bridge-and-roll while their arms are occupied with the attack rather than base.",
+        "answer_line": "Thumb up, grip thigh, then escape",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight to your chest",
+            "Tap early to reset position"
+          ],
+          "trap": [
+            "Let them finish the figure-four"
+          ]
+        }
       },
       {
         "question": "How do you manage energy conservation while escaping from scarf hold over extended periods?",
-        "answer": "Prioritize breathing and frame maintenance over escape attempts when heavily controlled. Work escapes in bursts using tactical timing windows rather than constant struggling. Chain escape attempts efficiently - if bridge fails, immediately flow to ghost escape or guard recovery rather than resetting and burning energy. Accept turtle position as valid intermediate escape rather than fighting for guard from disadvantaged angles. Rest between attempts while maintaining minimal defensive frames."
+        "answer": "Prioritize breathing and frame maintenance over escape attempts when heavily controlled. Work escapes in bursts using tactical timing windows rather than constant struggling. Chain escape attempts efficiently - if bridge fails, immediately flow to ghost escape or guard recovery rather than resetting and burning energy. Accept turtle position as valid intermediate escape rather than fighting for guard from disadvantaged angles. Rest between attempts while maintaining minimal defensive frames.",
+        "answer_line": "Breathe, burst, chain escapes",
+        "distractors": {
+          "plausible": [
+            "Fight constantly for full guard",
+            "Explode nonstop until free"
+          ],
+          "trap": [
+            "Ignore breathing, force one escape"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -734,27 +894,87 @@
     },
     {
       "question": "Which three control points must simultaneously be present for the position to function as a genuine scarf hold?",
-      "answer": "The defining control triangle is angle, arm, and head, and all three must operate together. The perpendicular angle supplies the crushing hip pressure into the ribs, the near arm is threaded under and secured above the elbow to eliminate the opponent's strongest defensive frame, and the far arm encircles the head or neck to prevent rotation and bridging alignment. Removing any single element degrades the position: losing the angle surrenders the pinning weight, losing the arm trap restores framing, and losing head control frees rotation. This interdependence is what makes scarf hold a coherent configuration rather than a loose collection of grips."
+      "answer": "The defining control triangle is angle, arm, and head, and all three must operate together. The perpendicular angle supplies the crushing hip pressure into the ribs, the near arm is threaded under and secured above the elbow to eliminate the opponent's strongest defensive frame, and the far arm encircles the head or neck to prevent rotation and bridging alignment. Removing any single element degrades the position: losing the angle surrenders the pinning weight, losing the arm trap restores framing, and losing head control frees rotation. This interdependence is what makes scarf hold a coherent configuration rather than a loose collection of grips.",
+      "answer_line": "Angle, arm trap, and head control",
+      "distractors": {
+        "plausible": [
+          "Hip pressure and two underhooks",
+          "Crossface and both leg hooks"
+        ],
+        "trap": [
+          "Grip strength alone, no angle"
+        ]
+      }
     },
     {
       "question": "Through what anatomical path does the pinning pressure travel in scarf hold, and why does it restrict breathing?",
-      "answer": "Effective pressure originates in the top player's low, heavy hips resting near the mat beside the opponent's ribcage and transmits downward through the pelvis and torso directly into the opponent's chest and upper ribs. Because the weight is delivered skeletally rather than through posted arms or a raised base, it compresses the ribcage and limits chest expansion, making full inhalation difficult for the bottom player. This ribcage compression produces both the physical restriction of breathing and the psychological pressure of feeling smothered. The pressure is a shared reality of the position, felt by the bottom player as suffocation and relied upon by the top player as the low-energy engine of control."
+      "answer": "Effective pressure originates in the top player's low, heavy hips resting near the mat beside the opponent's ribcage and transmits downward through the pelvis and torso directly into the opponent's chest and upper ribs. Because the weight is delivered skeletally rather than through posted arms or a raised base, it compresses the ribcage and limits chest expansion, making full inhalation difficult for the bottom player. This ribcage compression produces both the physical restriction of breathing and the psychological pressure of feeling smothered. The pressure is a shared reality of the position, felt by the bottom player as suffocation and relied upon by the top player as the low-energy engine of control.",
+      "answer_line": "Hips through pelvis into ribs",
+      "distractors": {
+        "plausible": [
+          "Shoulder pressure onto the chest",
+          "Forearm pressure into the throat"
+        ],
+        "trap": [
+          "Weight through posted knees"
+        ]
+      }
     },
     {
       "question": "Why does lateral shrimping fail to generate escape space in scarf hold when it works against standard side control?",
-      "answer": "Shrimping works against orthodox side control because the hips move directly away from an opponent whose chest sits perpendicular to the body, creating perpendicular distance. In scarf hold the top player sits in a T along the opponent's head-and-shoulder line, so lateral hip movement slides the bottom player along the length of the top player's body rather than away from their pressure. No meaningful gap opens because the direction of retreat runs parallel to the controlling frame instead of against it. This is why the position's escape logic is built on rotational bridge-and-turn mechanics, which attack the perpendicular angle, rather than on lateral hip escapes."
+      "answer": "Shrimping works against orthodox side control because the hips move directly away from an opponent whose chest sits perpendicular to the body, creating perpendicular distance. In scarf hold the top player sits in a T along the opponent's head-and-shoulder line, so lateral hip movement slides the bottom player along the length of the top player's body rather than away from their pressure. No meaningful gap opens because the direction of retreat runs parallel to the controlling frame instead of against it. This is why the position's escape logic is built on rotational bridge-and-turn mechanics, which attack the perpendicular angle, rather than on lateral hip escapes.",
+      "answer_line": "Escape runs parallel, not away",
+      "distractors": {
+        "plausible": [
+          "Legs are too tangled to move",
+          "Opponent's hips block the space"
+        ],
+        "trap": [
+          "Shrimp toward the trapped arm"
+        ]
+      }
     },
     {
       "question": "How does the perpendicular angle make scarf hold function as a two-sided platform rather than a purely static pin?",
-      "answer": "The same T-shaped geometry that generates crushing pressure also creates predictable weak lines in the top player's base, so the position is inherently dynamic for both players. When the top player shifts weight forward or backward to attack or adjust, the perpendicular angle opens space on one side that the bottom player can exploit, while a wide post or a backward weight commitment exposes reversal opportunities. Consequently the top player continuously cycles between submissions and positional transitions rather than holding still, and the bottom player waits for the weight shifts these movements produce. The position is best understood as a transitional control platform whose stability is constantly negotiated through weight and base."
+      "answer": "The same T-shaped geometry that generates crushing pressure also creates predictable weak lines in the top player's base, so the position is inherently dynamic for both players. When the top player shifts weight forward or backward to attack or adjust, the perpendicular angle opens space on one side that the bottom player can exploit, while a wide post or a backward weight commitment exposes reversal opportunities. Consequently the top player continuously cycles between submissions and positional transitions rather than holding still, and the bottom player waits for the weight shifts these movements produce. The position is best understood as a transitional control platform whose stability is constantly negotiated through weight and base.",
+      "answer_line": "Weight shifts open lines both ways",
+      "distractors": {
+        "plausible": [
+          "Position is static once secured",
+          "Only bottom player creates change"
+        ],
+        "trap": [
+          "Hold rigid, never shift weight"
+        ]
+      }
     },
     {
       "question": "What base weaknesses are inherent to the scarf hold configuration regardless of which player is exploiting them?",
-      "answer": "Because the top player sits perpendicular with hips low and legs extended for base, their structure is strong against downward pressure but comparatively narrow across the rolling axis. Committing weight backward onto the hip or posting the far arm wide to base leaves the top player vulnerable to being rolled over the trapped-arm side, since the perpendicular orientation means a reversal travels sideways rather than head-over-heels. A base that is too tall, too narrow, or overcommitted in any direction converts the pin's pressure into leverage the bottom player can use. These vulnerabilities are structural features of the T-configuration, which is why maintaining a low, dynamically adjusted base is central to holding the position."
+      "answer": "Because the top player sits perpendicular with hips low and legs extended for base, their structure is strong against downward pressure but comparatively narrow across the rolling axis. Committing weight backward onto the hip or posting the far arm wide to base leaves the top player vulnerable to being rolled over the trapped-arm side, since the perpendicular orientation means a reversal travels sideways rather than head-over-heels. A base that is too tall, too narrow, or overcommitted in any direction converts the pin's pressure into leverage the bottom player can use. These vulnerabilities are structural features of the T-configuration, which is why maintaining a low, dynamically adjusted base is central to holding the position.",
+      "answer_line": "Narrow base, vulnerable to rolls",
+      "distractors": {
+        "plausible": [
+          "Weak only to bridge-up escapes",
+          "Strong in every direction equally"
+        ],
+        "trap": [
+          "Post wide and commit backward"
+        ]
+      }
     },
     {
       "question": "How does scarf hold relate to its named variations such as reverse kesa-gatame and kuzure kesa-gatame?",
-      "answer": "Scarf hold sits at the center of a family of judo-derived perpendicular pins that share the T-shaped angle but differ in arm control and facing direction. Kuzure kesa-gatame, or modified scarf hold, replaces the trapped-arm configuration with an underhook of the near arm, altering which control point anchors the upper body while preserving the perpendicular hip pressure. Reverse kesa-gatame flips the facing direction so the top player orients toward the opponent's hips rather than head, reversing the angle while retaining the perpendicular relationship. All variations remain governed by the same core principle that the ninety-degree orientation negates parallel escapes, which is why they are treated as a coherent group distinct from orthodox side control."
+      "answer": "Scarf hold sits at the center of a family of judo-derived perpendicular pins that share the T-shaped angle but differ in arm control and facing direction. Kuzure kesa-gatame, or modified scarf hold, replaces the trapped-arm configuration with an underhook of the near arm, altering which control point anchors the upper body while preserving the perpendicular hip pressure. Reverse kesa-gatame flips the facing direction so the top player orients toward the opponent's hips rather than head, reversing the angle while retaining the perpendicular relationship. All variations remain governed by the same core principle that the ninety-degree orientation negates parallel escapes, which is why they are treated as a coherent group distinct from orthodox side control.",
+      "answer_line": "Kesa-gatame family, angle varies",
+      "distractors": {
+        "plausible": [
+          "Totally unrelated grip systems",
+          "Only differs in leg position"
+        ],
+        "trap": [
+          "Interchangeable in every detail"
+        ]
+      }
     }
   ],
   "clips": [

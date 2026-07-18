@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Piranha to Worm Guard transition?",
-        "answer": "The optimal window opens when the opponent is reacting to a Piranha-specific attack threat—such as recovering their base after a sweep attempt—rather than actively grip-fighting or initiating a pass. During their defensive recovery, their hands are occupied with balance rather than lapel control, and their lead leg is typically posted in a predictable position. Initiating during an active pass attempt is dangerous because your grip transition creates vulnerability. The secondary window is when they pause to reassess, creating a brief moment of static positioning where the DLR hook can be set without resistance."
+        "answer": "The optimal window opens when the opponent is reacting to a Piranha-specific attack threat—such as recovering their base after a sweep attempt—rather than actively grip-fighting or initiating a pass. During their defensive recovery, their hands are occupied with balance rather than lapel control, and their lead leg is typically posted in a predictable position. Initiating during an active pass attempt is dangerous because your grip transition creates vulnerability. The secondary window is when they pause to reassess, creating a brief moment of static positioning where the DLR hook can be set without resistance.",
+        "answer_line": "Base-recovery, hands busy",
+        "distractors": {
+          "plausible": [
+            "Active grip-fighting phase",
+            "Right as they start passing"
+          ],
+          "trap": [
+            "Mid guard-pass attempt"
+          ]
+        }
       },
       {
         "question": "What entry requirements must be met before you can safely begin re-routing the lapel?",
-        "answer": "You need four prerequisites: an established Piranha Guard with adequate lapel tension, a DLR hook set on the opponent's lead leg as an anchor, sufficient extracted lapel material to complete the full worm wrap path, and the opponent's lead leg within your hip range. Missing any single requirement makes the transition high-risk. The DLR hook is particularly critical because without it, the opponent can simply step backward during your grip transition and you lose both the Piranha and the potential Worm Guard."
+        "answer": "You need four prerequisites: an established Piranha Guard with adequate lapel tension, a DLR hook set on the opponent's lead leg as an anchor, sufficient extracted lapel material to complete the full worm wrap path, and the opponent's lead leg within your hip range. Missing any single requirement makes the transition high-risk. The DLR hook is particularly critical because without it, the opponent can simply step backward during your grip transition and you lose both the Piranha and the potential Worm Guard.",
+        "answer_line": "Grip, DLR hook, slack, range",
+        "distractors": {
+          "plausible": [
+            "Piranha grip and hook alone",
+            "Hook on either leg works"
+          ],
+          "trap": [
+            "Skip the hook, feed lapel"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the worm wrap will hold under pressure?",
-        "answer": "The depth of the lapel feed under the opponent's thigh is the single most important mechanical factor. A shallow feed that barely passes under the leg creates a loose wrap that the opponent can extract by simply straightening their leg. The lapel must travel the complete path from outside to deep inside under the thigh, emerging with enough material to wrap tightly around your shin. The wrap should compress against the opponent's thigh when you apply tension, creating a mechanical lock that binds their leg to your lower body."
+        "answer": "The depth of the lapel feed under the opponent's thigh is the single most important mechanical factor. A shallow feed that barely passes under the leg creates a loose wrap that the opponent can extract by simply straightening their leg. The lapel must travel the complete path from outside to deep inside under the thigh, emerging with enough material to wrap tightly around your shin. The wrap should compress against the opponent's thigh when you apply tension, creating a mechanical lock that binds their leg to your lower body.",
+        "answer_line": "Deep feed under the thigh",
+        "distractors": {
+          "plausible": [
+            "Speed of the wrap motion",
+            "Number of wraps around shin"
+          ],
+          "trap": [
+            "Shallow feed, quick wrap"
+          ]
+        }
       },
       {
         "question": "Why does the transition commonly fail when attempting it from flat hips, and what adjustment prevents this?",
-        "answer": "Flat hips create two compounding problems: first, the distance from your shin to the opponent's lead thigh is maximized, making the lapel path longer and harder to complete in one motion. Second, the DLR hook angle is weak from flat hips, providing poor leg control and no guide rail for the lapel. The correction is to angle your hips sharply toward the opponent's lead leg before starting the transition, which shortens the lapel path, strengthens the DLR hook angle, and positions your shin as a natural catch point for the re-routed material."
+        "answer": "Flat hips create two compounding problems: first, the distance from your shin to the opponent's lead thigh is maximized, making the lapel path longer and harder to complete in one motion. Second, the DLR hook angle is weak from flat hips, providing poor leg control and no guide rail for the lapel. The correction is to angle your hips sharply toward the opponent's lead leg before starting the transition, which shortens the lapel path, strengthens the DLR hook angle, and positions your shin as a natural catch point for the re-routed material.",
+        "answer_line": "Angle hips toward lead leg",
+        "distractors": {
+          "plausible": [
+            "Square hips, reach further",
+            "Angle hips away from leg"
+          ],
+          "trap": [
+            "Stay flat, pull harder"
+          ]
+        }
       },
       {
         "question": "What grip configuration must you maintain during the re-routing phase to prevent total lapel loss?",
-        "answer": "During re-routing, your inside hand must maintain a firm grip on the lapel where it exits your Piranha threading, preserving partial tension while your outside hand manages the re-routing. The inside hand serves as the security anchor—if the re-routing fails, this grip allows you to immediately reconsolidate Piranha Guard. Never release both hands simultaneously. The outside hand works the tail end of the lapel, feeding it under the opponent's thigh. Only after the worm wrap is established around your shin do you transfer the inside hand to its new worm guard grip position."
+        "answer": "During re-routing, your inside hand must maintain a firm grip on the lapel where it exits your Piranha threading, preserving partial tension while your outside hand manages the re-routing. The inside hand serves as the security anchor—if the re-routing fails, this grip allows you to immediately reconsolidate Piranha Guard. Never release both hands simultaneously. The outside hand works the tail end of the lapel, feeding it under the opponent's thigh. Only after the worm wrap is established around your shin do you transfer the inside hand to its new worm guard grip position.",
+        "answer_line": "Inside hand anchors lapel",
+        "distractors": {
+          "plausible": [
+            "Outside hand holds tension",
+            "Swap grips before the wrap"
+          ],
+          "trap": [
+            "Release both hands to switch"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force during the lapel feed, and how does this differ from Piranha Guard's pulling direction?",
-        "answer": "In Piranha Guard, the pulling force is primarily downward through your legs toward your hips, breaking the opponent's posture forward. During the worm guard transition, the force direction shifts to lateral and rotational—you pull the lapel around the opponent's thigh in a circular path, wrapping it from outside to inside. Once the worm wrap is established, the pulling direction becomes perpendicular to the opponent's leg, creating the off-balancing leverage that makes worm guard sweeps effective. This directional shift is why the transition can feel awkward initially."
+        "answer": "In Piranha Guard, the pulling force is primarily downward through your legs toward your hips, breaking the opponent's posture forward. During the worm guard transition, the force direction shifts to lateral and rotational—you pull the lapel around the opponent's thigh in a circular path, wrapping it from outside to inside. Once the worm wrap is established, the pulling direction becomes perpendicular to the opponent's leg, creating the off-balancing leverage that makes worm guard sweeps effective. This directional shift is why the transition can feel awkward initially.",
+        "answer_line": "Lateral, rotational, not down",
+        "distractors": {
+          "plausible": [
+            "Straight down like Piranha",
+            "Purely upward lift force"
+          ],
+          "trap": [
+            "Pull straight back, hard"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes the transition attempt and begins pulling their lead leg backward to prevent the worm wrap—how do you respond?",
-        "answer": "Follow their retreat immediately by scooting your hips forward and tightening your DLR hook to prevent full disengagement. If they create moderate distance, use the DLR hook to pull their leg back within range while maintaining lapel control with your inside hand. If they create significant distance that breaks your DLR hook, abandon the worm guard transition and either reconsolidate Piranha Guard or use the forward momentum of your hip scoot to enter a collar drag or berimbolo sequence. Never chase the worm wrap with extended arms—keep everything tight to your body."
+        "answer": "Follow their retreat immediately by scooting your hips forward and tightening your DLR hook to prevent full disengagement. If they create moderate distance, use the DLR hook to pull their leg back within range while maintaining lapel control with your inside hand. If they create significant distance that breaks your DLR hook, abandon the worm guard transition and either reconsolidate Piranha Guard or use the forward momentum of your hip scoot to enter a collar drag or berimbolo sequence. Never chase the worm wrap with extended arms—keep everything tight to your body.",
+        "answer_line": "Scoot in, tighten DLR hook",
+        "distractors": {
+          "plausible": [
+            "Release hook, grab elsewhere",
+            "Wait for them to settle"
+          ],
+          "trap": [
+            "Chase with extended arms"
+          ]
+        }
       },
       {
         "question": "If your initial worm guard attempt is blocked but you maintain lapel control, what chain attacks are available?",
-        "answer": "With maintained lapel control but a blocked worm entry, you have several options depending on the opponent's defensive reaction. If they pulled their lead leg back, you can re-enter Piranha Guard and immediately threaten a pendulum sweep using their retreating momentum. If they drove forward to prevent the wrap, redirect their pressure into a collar drag or flower sweep. If they circled their leg outward, switch to targeting the opposite leg for the worm wrap or enter a lasso guard configuration using the same lapel material. The key principle is never stalling with a half-completed transition—immediately redirect into a viable attack."
+        "answer": "With maintained lapel control but a blocked worm entry, you have several options depending on the opponent's defensive reaction. If they pulled their lead leg back, you can re-enter Piranha Guard and immediately threaten a pendulum sweep using their retreating momentum. If they drove forward to prevent the wrap, redirect their pressure into a collar drag or flower sweep. If they circled their leg outward, switch to targeting the opposite leg for the worm wrap or enter a lasso guard configuration using the same lapel material. The key principle is never stalling with a half-completed transition—immediately redirect into a viable attack.",
+        "answer_line": "Redirect, never stall",
+        "distractors": {
+          "plausible": [
+            "Reset and wait for opening",
+            "Force the original wrap again"
+          ],
+          "trap": [
+            "Hold position, look for gap"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Piranha to Worm Guard transition is generally low-risk since it involves guard configuration changes rather than joint manipulation or choking mechanics. However, practitioners should be aware that the DLR hook position can create stress on the medial collateral ligament of the hooking knee if the opponent applies lateral torque during the transition. Avoid forcing the DLR hook if the opponent is actively twisting their leg. The lapel wrap around the shin can cause friction burns during rapid transitions—wearing a rash guard under the gi top helps prevent skin irritation. If the opponent attempts a violent extraction of their leg from a partially-completed worm wrap, release the wrap rather than maintaining it at the cost of hyperextending your ankle or twisting your knee. Training partners should communicate discomfort in the knee or ankle during drilling.",
@@ -406,23 +486,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating a Piranha to Worm Guard transition rather than maintaining standard Piranha Guard attacks?",
-        "answer": "The earliest cue is the bottom player's hip angle changing from square (facing you directly for Piranha attacks) to angled toward your lead leg, typically accompanied by their outside foot seeking a DLR hook behind your knee or calf. Standard Piranha attacks like pendulum sweeps use symmetrical hip positioning, so the asymmetric hip shift toward one of your legs specifically signals the worm guard evolution. This hip angle change typically precedes the grip transfer by one to two seconds, giving you a reaction window."
+        "answer": "The earliest cue is the bottom player's hip angle changing from square (facing you directly for Piranha attacks) to angled toward your lead leg, typically accompanied by their outside foot seeking a DLR hook behind your knee or calf. Standard Piranha attacks like pendulum sweeps use symmetrical hip positioning, so the asymmetric hip shift toward one of your legs specifically signals the worm guard evolution. This hip angle change typically precedes the grip transfer by one to two seconds, giving you a reaction window.",
+        "answer_line": "Hips angle toward your leg",
+        "distractors": {
+          "plausible": [
+            "Grip transfer on the lapel",
+            "Symmetrical hip positioning"
+          ],
+          "trap": [
+            "Sudden burst of forward pressure"
+          ]
+        }
       },
       {
         "question": "Why is the re-routing phase the critical defensive window, and what happens if you miss it?",
-        "answer": "The re-routing phase is critical because the attacker must temporarily reduce their lapel tension from bilateral to single-hand control while redirecting the material from through their legs to around yours. This creates the weakest moment in their grip chain. If you miss this window and the worm wrap completes, the attacker's control becomes significantly stronger than their original Piranha Guard because the worm wrap creates a mechanical lock against your leg that is far harder to strip than the through-the-legs threading. Your defensive options drop from proactive disruption to reactive guard passing against an established position."
+        "answer": "The re-routing phase is critical because the attacker must temporarily reduce their lapel tension from bilateral to single-hand control while redirecting the material from through their legs to around yours. This creates the weakest moment in their grip chain. If you miss this window and the worm wrap completes, the attacker's control becomes significantly stronger than their original Piranha Guard because the worm wrap creates a mechanical lock against your leg that is far harder to strip than the through-the-legs threading. Your defensive options drop from proactive disruption to reactive guard passing against an established position.",
+        "answer_line": "Tension drops to one hand",
+        "distractors": {
+          "plausible": [
+            "Grip is already fully set",
+            "Wrap loosens on its own"
+          ],
+          "trap": [
+            "Wait, strip it later"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the transition and you feel the DLR hook setting on your left leg—what specific leg adjustment denies the worm wrap?",
-        "answer": "Step your left foot backward and to the right, circling it outward away from their DLR hook while keeping your weight on your right leg for balance. This motion simultaneously breaks the DLR hook angle and moves your thigh out of the lapel feed path. As you circle, push their hooking foot off your leg with your left hand if possible. The key is outward circular motion rather than straight backward stepping, because circling changes the angle continuously rather than just creating linear distance."
+        "answer": "Step your left foot backward and to the right, circling it outward away from their DLR hook while keeping your weight on your right leg for balance. This motion simultaneously breaks the DLR hook angle and moves your thigh out of the lapel feed path. As you circle, push their hooking foot off your leg with your left hand if possible. The key is outward circular motion rather than straight backward stepping, because circling changes the angle continuously rather than just creating linear distance.",
+        "answer_line": "Circle foot back and out",
+        "distractors": {
+          "plausible": [
+            "Step straight backward",
+            "Pull knee straight up"
+          ],
+          "trap": [
+            "Push forward into the hook"
+          ]
+        }
       },
       {
         "question": "How do you apply forward pressure during the transition without feeding into a Piranha Guard sweep?",
-        "answer": "Apply pressure at a diagonal angle rather than directly forward, driving your weight toward the side opposite their angling hips. This creates pressure that collapses their guard structure while moving your center of gravity away from their primary sweeping direction. Keep your base wide and your hips low during the pressure drive. If you feel them redirecting your pressure into sweep momentum, immediately post your far hand and widen your base rather than continuing forward. The diagonal angle is critical because direct forward pressure into Piranha Guard is exactly what powers their pendulum sweep."
+        "answer": "Apply pressure at a diagonal angle rather than directly forward, driving your weight toward the side opposite their angling hips. This creates pressure that collapses their guard structure while moving your center of gravity away from their primary sweeping direction. Keep your base wide and your hips low during the pressure drive. If you feel them redirecting your pressure into sweep momentum, immediately post your far hand and widen your base rather than continuing forward. The diagonal angle is critical because direct forward pressure into Piranha Guard is exactly what powers their pendulum sweep.",
+        "answer_line": "Diagonal pressure, wide base",
+        "distractors": {
+          "plausible": [
+            "Direct forward pressure",
+            "Narrow base, drive through"
+          ],
+          "trap": [
+            "Drive straight forward, hard"
+          ]
+        }
       },
       {
         "question": "When is it better to allow the transition to Piranha Guard/Bottom rather than aggressively fighting for the Open Guard/Bottom outcome?",
-        "answer": "Allow the transition to fail back to Piranha Guard when your aggressive grip stripping would compromise your base or when you are not confident in your timing. A mistimed grip strip can actually strengthen their Piranha position by pulling your collar tighter into their control, and an overly aggressive forward drive can power their sweep. If you are uncertain about the timing, simply deny the DLR hook by stepping back, which forces a failed transition without risking a counter-sweep. Save the aggressive lapel strip for moments when you clearly feel the single-hand control transfer."
+        "answer": "Allow the transition to fail back to Piranha Guard when your aggressive grip stripping would compromise your base or when you are not confident in your timing. A mistimed grip strip can actually strengthen their Piranha position by pulling your collar tighter into their control, and an overly aggressive forward drive can power their sweep. If you are uncertain about the timing, simply deny the DLR hook by stepping back, which forces a failed transition without risking a counter-sweep. Save the aggressive lapel strip for moments when you clearly feel the single-hand control transfer.",
+        "answer_line": "When timing/strip is unsure",
+        "distractors": {
+          "plausible": [
+            "Whenever you feel dominant",
+            "Always fight for open guard"
+          ],
+          "trap": [
+            "Force the strip regardless"
+          ]
+        }
       }
     ],
     "training_progressions": [

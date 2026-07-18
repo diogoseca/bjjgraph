@@ -260,51 +260,171 @@
     "flashcards": [
       {
         "question": "Why is creating a 45-degree angle critical before executing the ankle pick?",
-        "answer": "The 45-degree angle positions your head outside the opponent's body line rather than directly in front of them, which accomplishes three critical objectives: it makes sprawl defense much more difficult as their hips cannot effectively pressure your head; it provides you with superior leverage for the pull-and-drive mechanics; and it prevents the opponent from easily securing a guillotine choke during your level change. Without this angle, you end up directly in front of the opponent where they can easily sprawl and control your head."
+        "answer": "The 45-degree angle positions your head outside the opponent's body line rather than directly in front of them, which accomplishes three critical objectives: it makes sprawl defense much more difficult as their hips cannot effectively pressure your head; it provides you with superior leverage for the pull-and-drive mechanics; and it prevents the opponent from easily securing a guillotine choke during your level change. Without this angle, you end up directly in front of the opponent where they can easily sprawl and control your head.",
+        "answer_line": "Head outside their body line",
+        "distractors": {
+          "plausible": [
+            "Sets up better hip pressure",
+            "Squares up to speed up entry"
+          ],
+          "trap": [
+            "Charge straight in for speed"
+          ]
+        }
       },
       {
         "question": "What is the proper hand position for gripping the ankle, and why is this grip superior to other options?",
-        "answer": "The proper grip is a heel cup where your hand wraps around the back of the heel with fingers curling around the Achilles tendon area and thumb pointing toward the toes. This grip is superior because it provides maximum control over the foot's movement and the opponent cannot simply pull their foot backward or rotate it free. Gripping the top of the foot or the toes allows easy extraction, while the heel cup locks the entire foot structure and prevents any escape direction."
+        "answer": "The proper grip is a heel cup where your hand wraps around the back of the heel with fingers curling around the Achilles tendon area and thumb pointing toward the toes. This grip is superior because it provides maximum control over the foot's movement and the opponent cannot simply pull their foot backward or rotate it free. Gripping the top of the foot or the toes allows easy extraction, while the heel cup locks the entire foot structure and prevents any escape direction.",
+        "answer_line": "Heel cup grip",
+        "distractors": {
+          "plausible": [
+            "Grip the top of the foot",
+            "Grab the toes and pull"
+          ],
+          "trap": [
+            "Grip the shin for leverage"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent begins to sprawl backward as you initiate your level change?",
-        "answer": "If you detect the sprawl starting, you must immediately transition rather than forcing the ankle pick. Maintain your collar tie control and convert to either an arm drag using their backward momentum to pull them past you, a snap down accelerating their forward fall, or pull guard using your forward momentum. The key is recognizing the sprawl early because once their hips are fully back, the ankle pick is lost and forcing it will put you in bottom turtle position."
+        "answer": "If you detect the sprawl starting, you must immediately transition rather than forcing the ankle pick. Maintain your collar tie control and convert to either an arm drag using their backward momentum to pull them past you, a snap down accelerating their forward fall, or pull guard using your forward momentum. The key is recognizing the sprawl early because once their hips are fully back, the ankle pick is lost and forcing it will put you in bottom turtle position.",
+        "answer_line": "Switch to arm drag or snap down",
+        "distractors": {
+          "plausible": [
+            "Force the ankle grip anyway",
+            "Sprawl back to match them"
+          ],
+          "trap": [
+            "Drive forward into bottom turtle"
+          ]
+        }
       },
       {
         "question": "Why must the ankle pull and upper body drive occur simultaneously rather than sequentially?",
-        "answer": "The simultaneous opposing forces create a rotational collapse of the opponent's base that is nearly impossible to defend. Pulling the ankle forward loads their weight onto that leg while the backward drive on their upper body shifts their center of gravity behind their base. These forces together create a moment arm that breaks their structure. If done sequentially, the opponent can compensate by hopping on one leg or posting their hands because their body can adapt to single-direction force but cannot defend against properly timed opposing rotational forces."
+        "answer": "The simultaneous opposing forces create a rotational collapse of the opponent's base that is nearly impossible to defend. Pulling the ankle forward loads their weight onto that leg while the backward drive on their upper body shifts their center of gravity behind their base. These forces together create a moment arm that breaks their structure. If done sequentially, the opponent can compensate by hopping on one leg or posting their hands because their body can adapt to single-direction force but cannot defend against properly timed opposing rotational forces.",
+        "answer_line": "Pull and drive must be simultaneous",
+        "distractors": {
+          "plausible": [
+            "Pull ankle first, then drive",
+            "Drive upper body, then pull"
+          ],
+          "trap": [
+            "Sequence lets you conserve energy"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that your opponent's weight is properly loaded on their lead leg for an ankle pick opportunity?",
-        "answer": "The optimal timing occurs when their lead knee is slightly bent indicating weight bearing, their heel is firmly planted on the mat rather than raised, their upper body posture shows slight forward lean from your collar tie pressure, and they are not actively moving their feet. Additionally, if you can feel tension in their collar tie resistance rather than them backing away, this indicates forward weight distribution. The moment right after they complete a forward step is often ideal timing."
+        "answer": "The optimal timing occurs when their lead knee is slightly bent indicating weight bearing, their heel is firmly planted on the mat rather than raised, their upper body posture shows slight forward lean from your collar tie pressure, and they are not actively moving their feet. Additionally, if you can feel tension in their collar tie resistance rather than them backing away, this indicates forward weight distribution. The moment right after they complete a forward step is often ideal timing.",
+        "answer_line": "Knee bent, heel down, leaning in",
+        "distractors": {
+          "plausible": [
+            "Opponent stepping side to side",
+            "Opponent posting hands forward"
+          ],
+          "trap": [
+            "Opponent backing away quickly"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the collar tie throughout the level change considered essential for ankle pick success?",
-        "answer": "The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level maintaining the distance needed for ankle access, it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective."
+        "answer": "The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level maintaining the distance needed for ankle access, it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective.",
+        "answer_line": "Prevents retreat, powers the drive",
+        "distractors": {
+          "plausible": [
+            "Only needed to start the change",
+            "Mainly to control their posture"
+          ],
+          "trap": [
+            "Release grip to change levels faster"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your head as you begin your level change. How do you adjust your attack?",
-        "answer": "When an opponent posts their hand on your head, they create a defensive frame but also extend their arm and compromise their posture. Use this as an opportunity to immediately transition to an arm drag or two-on-one control on their posting arm. Their extended arm creates vulnerability so you should secure wrist control and pull their arm across their body to off-balance them. This often creates a better angle for a follow-up ankle pick or exposes their back for a back take. The key is recognizing the post immediately and attacking the exposed arm rather than fighting through it."
+        "answer": "When an opponent posts their hand on your head, they create a defensive frame but also extend their arm and compromise their posture. Use this as an opportunity to immediately transition to an arm drag or two-on-one control on their posting arm. Their extended arm creates vulnerability so you should secure wrist control and pull their arm across their body to off-balance them. This often creates a better angle for a follow-up ankle pick or exposes their back for a back take. The key is recognizing the post immediately and attacking the exposed arm rather than fighting through it.",
+        "answer_line": "Arm drag the posting arm",
+        "distractors": {
+          "plausible": [
+            "Push through the post",
+            "Switch straight to a double leg"
+          ],
+          "trap": [
+            "Drive head through their post"
+          ]
+        }
       },
       {
         "question": "What grip requirements must be established before you can safely attempt the ankle pick level change?",
-        "answer": "Before attempting the level change, you must have a secure collar tie with your lead hand maintaining constant pressure on the back of opponent's neck, wrist or sleeve control with your other hand to prevent them from achieving their own head control, and your collar tie elbow must be tight and connected to prevent them from breaking your grip. Without these grip prerequisites, you risk shooting into a guillotine choke, having your head controlled during the level change, or having the opponent simply step away before you can reach their ankle."
+        "answer": "Before attempting the level change, you must have a secure collar tie with your lead hand maintaining constant pressure on the back of opponent's neck, wrist or sleeve control with your other hand to prevent them from achieving their own head control, and your collar tie elbow must be tight and connected to prevent them from breaking your grip. Without these grip prerequisites, you risk shooting into a guillotine choke, having your head controlled during the level change, or having the opponent simply step away before you can reach their ankle.",
+        "answer_line": "Collar tie plus wrist control",
+        "distractors": {
+          "plausible": [
+            "Underhook plus collar tie",
+            "Double collar tie both hands"
+          ],
+          "trap": [
+            "Release grips, shoot in blind"
+          ]
+        }
       },
       {
         "question": "When the ankle pick is blocked, what are the highest-percentage chain attacks to pursue?",
-        "answer": "When the ankle pick is blocked, the three highest-percentage chain attacks depend on opponent's defensive reaction. If they sprawl backward, immediately transition to a snap down since their weight shifts forward during sprawl recovery. If they lift their ankle and hop, follow aggressively with a double leg entry since their base is compromised on one leg. If they circle away, use your collar tie to pull them into an arm drag toward their retreating side. The common thread is maintaining forward pressure and immediately capitalizing on their defensive movement rather than resetting to neutral."
+        "answer": "When the ankle pick is blocked, the three highest-percentage chain attacks depend on opponent's defensive reaction. If they sprawl backward, immediately transition to a snap down since their weight shifts forward during sprawl recovery. If they lift their ankle and hop, follow aggressively with a double leg entry since their base is compromised on one leg. If they circle away, use your collar tie to pull them into an arm drag toward their retreating side. The common thread is maintaining forward pressure and immediately capitalizing on their defensive movement rather than resetting to neutral.",
+        "answer_line": "Snap down, double leg, or arm drag",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and re-angle",
+            "Repeat the same ankle pick"
+          ],
+          "trap": [
+            "Shoot a blind double regardless"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the ankle pick during a standing exchange?",
-        "answer": "The optimal timing window occurs during three specific moments: immediately after opponent completes a forward step and their lead foot plants with weight committed before they can react, when they are pushing forward into your collar tie pressure so their momentum assists your attack, or when they are focused on defending a different threat like a snap down attempt where cognitive load prevents anticipating the ankle pick. The worst timing is when opponent is actively moving laterally, when they are backing away, or when they have achieved dominant head position over you."
+        "answer": "The optimal timing window occurs during three specific moments: immediately after opponent completes a forward step and their lead foot plants with weight committed before they can react, when they are pushing forward into your collar tie pressure so their momentum assists your attack, or when they are focused on defending a different threat like a snap down attempt where cognitive load prevents anticipating the ankle pick. The worst timing is when opponent is actively moving laterally, when they are backing away, or when they have achieved dominant head position over you.",
+        "answer_line": "Lead foot plants, weight committed",
+        "distractors": {
+          "plausible": [
+            "While they circle laterally",
+            "As soon as you close distance"
+          ],
+          "trap": [
+            "When they control your head"
+          ]
+        }
       },
       {
         "question": "What specific direction of force should your head apply during the finish of the ankle pick?",
-        "answer": "Your head should apply pressure in a diagonal direction driving forward and slightly upward into the outside of opponent's hip or thigh. This head pressure serves as a third control point that works in concert with the ankle pull and collar tie drive. The angle of head pressure is critical because too much upward pressure lifts you up and reduces drive power, while purely forward pressure does not create the rotational moment. The diagonal pressure vector multiplies the effectiveness of your opposing forces and prevents opponent from stepping over your head to recover balance."
+        "answer": "Your head should apply pressure in a diagonal direction driving forward and slightly upward into the outside of opponent's hip or thigh. This head pressure serves as a third control point that works in concert with the ankle pull and collar tie drive. The angle of head pressure is critical because too much upward pressure lifts you up and reduces drive power, while purely forward pressure does not create the rotational moment. The diagonal pressure vector multiplies the effectiveness of your opposing forces and prevents opponent from stepping over your head to recover balance.",
+        "answer_line": "Diagonal, forward and upward",
+        "distractors": {
+          "plausible": [
+            "Straight forward pressure only",
+            "Pure upward lifting pressure"
+          ],
+          "trap": [
+            "Push straight down into the mat"
+          ]
+        }
       },
       {
         "question": "How does the entry angle for the outside ankle pick variation differ from the standard inside ankle pick?",
-        "answer": "The outside ankle pick attacks from the opposite angle. Instead of circling to create angle toward opponent's lead leg centerline, you circle to the outside of their lead leg. Your head pressure goes to the far outside of their hip rather than the near side, and you pull their ankle across their body toward your opposite hip. This variation requires longer reach and more aggressive circling to establish position. The outside entry is particularly effective when opponent defends the inside angle by turning their hips away, as it attacks the opening they create in their stance."
+        "answer": "The outside ankle pick attacks from the opposite angle. Instead of circling to create angle toward opponent's lead leg centerline, you circle to the outside of their lead leg. Your head pressure goes to the far outside of their hip rather than the near side, and you pull their ankle across their body toward your opposite hip. This variation requires longer reach and more aggressive circling to establish position. The outside entry is particularly effective when opponent defends the inside angle by turning their hips away, as it attacks the opening they create in their stance.",
+        "answer_line": "Circle outside, head far side",
+        "distractors": {
+          "plausible": [
+            "Same entry as inside variant",
+            "Pull ankle to your near hip"
+          ],
+          "trap": [
+            "Circle inside their lead leg"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Ankle Pick, both training partners must be aware of specific safety concerns. The person executing the technique should ensure controlled descent during level changes to avoid knee injuries, as dropping too quickly or with poor form can damage your own knees. Always practice on appropriate mat surfaces since the finish involves driving the opponent backward to the mat. The person being taken down should learn proper breakfall technique and avoid posting their arms rigidly to catch their fall, as this can cause wrist, elbow, or shoulder injuries. When drilling at higher resistance levels, both partners should communicate about pace and intensity. The ankle grip should be firm but not torqued; avoid twisting the ankle joint as this can cause ligament damage. When defending, avoid trying to hop excessively on one leg as this can lead to ankle rolls or knee injuries if you lose balance. Start all training at low speed and gradually increase intensity only when proper mechanics are established. Competition-level drilling should only occur after both partners have developed proper technique and understand how to safely receive takedowns.",
@@ -427,19 +547,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an ankle pick attempt is developing, and what should your immediate response be?",
-        "answer": "The earliest cue is when your opponent establishes a firm collar tie and begins circling laterally to create a 45-degree angle while pulling your head down and forward. Your immediate response should be to fight the collar tie with a two-on-one grip break or establish your own dominant collar tie. Simultaneously, lighten your lead foot and begin circling in the opposite direction to deny the angle. Addressing the collar tie at this stage prevents the entire attack chain from developing and is far more energy-efficient than reacting to the level change later."
+        "answer": "The earliest cue is when your opponent establishes a firm collar tie and begins circling laterally to create a 45-degree angle while pulling your head down and forward. Your immediate response should be to fight the collar tie with a two-on-one grip break or establish your own dominant collar tie. Simultaneously, lighten your lead foot and begin circling in the opposite direction to deny the angle. Addressing the collar tie at this stage prevents the entire attack chain from developing and is far more energy-efficient than reacting to the level change later.",
+        "answer_line": "Break collar tie, circle away",
+        "distractors": {
+          "plausible": [
+            "Wait for level change to react",
+            "Sprawl early to be safe"
+          ],
+          "trap": [
+            "Grip fight passively and wait"
+          ]
+        }
       },
       {
         "question": "Why is pulling guard a better defensive option than sprawling once the attacker has secured a heel cup grip on your ankle?",
-        "answer": "Once the heel cup is locked, sprawling actually assists the attacker because it drives your hips backward, adding to the rotational force they are creating with their ankle pull and upper body drive. The sprawl works against you mechanically at this stage. Pulling guard converts their takedown momentum into your guard game, allowing you to establish closed guard or another guard position where you have offensive options. The guard pull gives you control over the descent and prevents the worst-case scenario of being driven flat to the mat into bottom side control without guard recovery."
+        "answer": "Once the heel cup is locked, sprawling actually assists the attacker because it drives your hips backward, adding to the rotational force they are creating with their ankle pull and upper body drive. The sprawl works against you mechanically at this stage. Pulling guard converts their takedown momentum into your guard game, allowing you to establish closed guard or another guard position where you have offensive options. The guard pull gives you control over the descent and prevents the worst-case scenario of being driven flat to the mat into bottom side control without guard recovery.",
+        "answer_line": "Sprawl now helps their pull",
+        "distractors": {
+          "plausible": [
+            "Sprawl still stops the takedown",
+            "Guard pull loses top position"
+          ],
+          "trap": [
+            "Sprawl hard to reverse the grip"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution need to change when you recognize your opponent has established the 45-degree angle for an ankle pick?",
-        "answer": "When you recognize the angle has been established, immediately shift more weight to your rear foot and lighten your lead foot so it can be retracted quickly. Your lead foot should maintain mat contact but carry minimal weight, almost like a probe rather than a load-bearing post. This dynamic distribution means that even if the attacker reaches your ankle, there is minimal weight commitment that they can exploit for rotational collapse. Combine this weight shift with lateral circling away from their angle to further disrupt their attack timing."
+        "answer": "When you recognize the angle has been established, immediately shift more weight to your rear foot and lighten your lead foot so it can be retracted quickly. Your lead foot should maintain mat contact but carry minimal weight, almost like a probe rather than a load-bearing post. This dynamic distribution means that even if the attacker reaches your ankle, there is minimal weight commitment that they can exploit for rotational collapse. Combine this weight shift with lateral circling away from their angle to further disrupt their attack timing.",
+        "answer_line": "Weight back, lead foot light",
+        "distractors": {
+          "plausible": [
+            "Weight forward to counter-drive",
+            "Post hard on your lead foot"
+          ],
+          "trap": [
+            "Load weight onto your lead leg"
+          ]
+        }
       },
       {
         "question": "Your opponent drops for the ankle pick and their head ends up inside your body line between your hips. What counter opportunity does this create?",
-        "answer": "When the attacker's head ends up inside your body line, this is a critical positional error on their part that opens a guillotine counter. Immediately secure an arm-in guillotine or chin strap grip around their neck with your near arm, then close your guard or pull guard to lock the submission. Their level change has brought their neck directly into your attacking range and their forward momentum makes it difficult for them to retract. This is the highest-risk scenario for the attacker and the reason proper ankle pick technique demands that the head stay on the outside of the defender's body."
+        "answer": "When the attacker's head ends up inside your body line, this is a critical positional error on their part that opens a guillotine counter. Immediately secure an arm-in guillotine or chin strap grip around their neck with your near arm, then close your guard or pull guard to lock the submission. Their level change has brought their neck directly into your attacking range and their forward momentum makes it difficult for them to retract. This is the highest-risk scenario for the attacker and the reason proper ankle pick technique demands that the head stay on the outside of the defender's body.",
+        "answer_line": "Guillotine counter opportunity",
+        "distractors": {
+          "plausible": [
+            "Sprawl to stop the takedown",
+            "Underhook and turn to back"
+          ],
+          "trap": [
+            "Pull away to reset distance"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between defending an ankle pick in the setup phase versus the execution phase?",

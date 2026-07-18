@@ -293,52 +293,152 @@
       {
         "question": "What anatomical structures does the Kimura from Armbar Control primarily attack?",
         "answer": "The Kimura from Armbar Control targets the shoulder joint through forced internal rotation, driving the bent forearm and wrist toward the opponent's lower back, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the glenoid labrum, and the surrounding ligaments. The rotational force is concentrated on the glenohumeral joint where the humerus meets the scapula.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder via internal rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow via hyperextension",
+            "Wrist via flexion pressure"
+          ],
+          "trap": [
+            "Bicep via compression force"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together to block the kimura rotation - what is your immediate adjustment?",
         "answer": "Wedge your top hand between their clasped hands and lever them apart using a peeling motion. If the grip is too strong, maintain your figure-four and use your legs to apply sustained downward pressure on their head while keeping rotational tension on the shoulder. Their grip will fatigue before your positional control does. You can also switch back to armbar if they straighten their arm to re-clasp.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wedge hand, peel grip apart",
+        "distractors": {
+          "plausible": [
+            "Abandon kimura, switch guard",
+            "Pull harder against clasp"
+          ],
+          "trap": [
+            "Release legs to gain angle"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between finishing an armbar and finishing a kimura from the same armbar control position?",
         "answer": "The armbar uses linear extension force through hip elevation against a straightened elbow joint, with the fulcrum at the elbow. The kimura uses rotational force through internal rotation of a bent arm, driving the wrist toward the lower back, with the fulcrum at the shoulder. The armbar requires arm straightness while the kimura requires arm bend. Both use hip-to-shoulder proximity but the force vector changes from vertical extension to rotation of the shoulder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotation vs linear extension",
+        "distractors": {
+          "plausible": [
+            "Kimura needs straight arm",
+            "Both use elbow as fulcrum"
+          ],
+          "trap": [
+            "Kimura pulls, armbar rotates"
+          ]
+        }
       },
       {
         "question": "How should you time the grip transition from armbar to kimura to avoid losing positional control?",
         "answer": "Initiate the grip transition only after confirming three conditions: your legs are squeezing tightly across the opponent's head and torso, your hips are firmly anchored against their shoulder, and the opponent has clearly committed to bending their arm past 90 degrees. Thread the figure-four grip in one smooth motion rather than tentatively adjusting. The transition should take no more than two seconds from decision to completed grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Legs, hips, bend, then grip",
+        "distractors": {
+          "plausible": [
+            "Grip first, then secure legs",
+            "Transition as soon as possible"
+          ],
+          "trap": [
+            "Loosen legs to free grip hand"
+          ]
+        }
       },
       {
         "question": "What role do your legs play during the kimura finish from armbar control?",
         "answer": "Your legs serve three critical functions during the kimura finish. First, the leg across the opponent's face prevents them from sitting up or creating posture. Second, both legs squeezed together create a clamp that restricts the opponent's torso rotation, preventing them from rolling to escape. Third, the legs anchor your body position so that your hip-to-shoulder connection remains stable while your arms apply the rotational finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block posture, clamp, anchor hips",
+        "distractors": {
+          "plausible": [
+            "Only prevent opponent sit-up",
+            "Free legs to control opposite side"
+          ],
+          "trap": [
+            "Release legs to add grip strength"
+          ]
+        }
       },
       {
         "question": "What are the key safety protocols when applying the Kimura from Armbar Control in training?",
         "answer": "Apply rotational pressure slowly and progressively over three to five seconds minimum, never jerking or spiking the shoulder. Ensure your partner has at least one hand free to tap or can verbalize a tap. Stop all rotation immediately upon any tap signal. Return the arm to neutral position gently after release. Never test the limits of your partner's shoulder flexibility or pain tolerance. Be especially careful with partners who have previous shoulder injuries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, stop on any tap",
+        "distractors": {
+          "plausible": [
+            "Apply fast to prevent escape",
+            "Push to edge of flexibility"
+          ],
+          "trap": [
+            "Ignore verbal tap, wait for slap"
+          ]
+        }
       },
       {
         "question": "How should you release the Kimura from Armbar Control after your partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is detected. Reverse the rotation slowly, guiding the forearm back toward the starting position rather than simply letting go. Release the figure-four grip completely once the arm is in a neutral position. Allow your partner to move their own shoulder through its range of motion to self-assess before continuing. Never release suddenly as the arm springing back can cause additional joint stress.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, reverse slowly, release",
+        "distractors": {
+          "plausible": [
+            "Release grip instantly",
+            "Hold position, ask if okay"
+          ],
+          "trap": [
+            "Let arm spring back freely"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their arm while you already have the figure-four grip secured - what adjustment do you make?",
         "answer": "If the arm straightens while you hold the figure-four, you have two immediate options. First, if the arm is nearly straight, release the figure-four and immediately transition back to the standard armbar finish by pulling the wrist to your chest and elevating hips. Second, if the arm is partially bent, maintain the figure-four and use it to re-bend the arm by pulling their wrist toward their shoulder, then continue the kimura rotation once bend is re-established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to armbar if straight",
+        "distractors": {
+          "plausible": [
+            "Force rotation regardless",
+            "Release grip and reset position"
+          ],
+          "trap": [
+            "Abandon control, stand up"
+          ]
+        }
       },
       {
         "question": "What indicates you have reached the point of no escape when finishing the Kimura from Armbar Control?",
         "answer": "The point of no escape is reached when three conditions align simultaneously: the opponent's elbow is pinned firmly against your chest creating an immovable fulcrum, your hips are anchored tight against their shoulder preventing any forward escape, and the internal rotation has moved their forearm past the plane of their own torso. Once the forearm passes behind the line of their back, the rotational leverage becomes mechanically impossible to resist through strength alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow pinned, forearm past torso",
+        "distractors": {
+          "plausible": [
+            "Opponent stops struggling",
+            "Figure-four grip is locked"
+          ],
+          "trap": [
+            "Opponent taps verbally"
+          ]
+        }
       },
       {
         "question": "How does the Kimura from Armbar Control differ strategically from a Kimura applied from side control or mount?",
         "answer": "From armbar control, the kimura benefits from pre-existing arm isolation and leg control over the upper body that other positions must establish separately. The legs prevent sitting up without needing cross-face or underhook control. The hip-to-shoulder proximity is already established. However, the trade-off is that the attacker's base is less stable than in side control or mount, making the position more vulnerable to rolling counters and bridge escapes. The grip transition window is also narrow since the opponent may straighten their arm at any point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Less stable base, arm pre-isolated",
+        "distractors": {
+          "plausible": [
+            "Identical stability to side control",
+            "Requires underhook like side control"
+          ],
+          "trap": [
+            "Base is more stable than mount"
+          ]
+        }
       }
     ],
     "clips": [
@@ -439,27 +539,77 @@
       {
         "question": "What are the earliest recognition cues that your opponent is switching from armbar to kimura?",
         "answer": "The earliest cue is feeling one of the attacker's hands release wrist control and begin threading under your bent forearm from the outside. You may also notice a shift in pressure direction from a linear pull along your arm's length to a circular or rotational force around your forearm. The grip configuration change from open wrist control to an encircling figure-four pattern is the definitive confirmation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand threads under your forearm",
+        "distractors": {
+          "plausible": [
+            "Increased pressure on your wrist",
+            "Opponent leans back for leverage"
+          ],
+          "trap": [
+            "Opponent releases all grips"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Kimura from Armbar Control to prevent injury?",
         "answer": "Tap as soon as you feel the internal rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "At limit of comfortable rotation",
+        "distractors": {
+          "plausible": [
+            "When pain becomes noticeable",
+            "Once you can no longer resist"
+          ],
+          "trap": [
+            "Wait to see if you can escape"
+          ]
+        }
       },
       {
         "question": "What defensive positioning prevents the kimura rotation from being effective?",
         "answer": "The most effective defensive positioning combines three elements: keeping your elbow pinned tight against your own ribs to deny the fulcrum, pointing your hand toward the ceiling to strengthen the rotator cuff's resistance to internal rotation, and turning your body toward the trapped arm side so your torso rotation counteracts the attacker's rotational force. This three-layer defense addresses the submission's mechanics at each point of the lever system.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow to ribs, hand to ceiling",
+        "distractors": {
+          "plausible": [
+            "Elbow away from body, hand down",
+            "Turn away from trapped arm"
+          ],
+          "trap": [
+            "Straighten arm to resist rotation"
+          ]
+        }
       },
       {
         "question": "How can you exploit the armbar-kimura dilemma to create defensive opportunities?",
         "answer": "The dilemma works in both directions. By quickly alternating between straightening your arm (kimura defense but armbar vulnerability) and bending it (armbar defense but kimura vulnerability), you force the attacker to constantly transition between attacks. Each transition creates a brief window where their grip is changing and control is reduced. Time your escape attempt to coincide with these transition moments when the attacker is between grips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Alternate arm bend to force resets",
+        "distractors": {
+          "plausible": [
+            "Fully straighten arm and hold",
+            "Keep arm rigid, wait for exhaustion"
+          ],
+          "trap": [
+            "Relax arm fully to reduce pressure"
+          ]
+        }
       },
       {
         "question": "What is the correct bridging direction when defending the Kimura from Armbar Control?",
         "answer": "Bridge toward the kimura side, meaning toward the direction your forearm is being rotated. This directly opposes the attacker's rotational force and disrupts their hip-to-shoulder anchor. Bridging in the opposite direction is a critical error that assists the attacker's rotation. Combine the bridge with pulling your elbow tight to your ribs and turning your body into the direction of the bridge for maximum defensive effect.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge toward the kimura side",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up, no turn",
+            "Bridge toward your free arm"
+          ],
+          "trap": [
+            "Bridge away from kimura side"
+          ]
+        }
       }
     ],
     "training_progressions": [

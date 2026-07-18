@@ -302,47 +302,137 @@
       {
         "question": "What anatomical structures does the North-South Choke from Kesa Gatame primarily attack?",
         "answer": "The choke targets both carotid arteries simultaneously. The shoulder drives into one carotid while the encircling arm compresses the opposite carotid. When both arteries are occluded, blood flow to the brain is cut off, causing unconsciousness within seconds. The trachea may also experience secondary compression, but the primary mechanism is bilateral carotid compression making this a blood choke rather than an air choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Trachea crush is primary",
+            "Only one carotid artery"
+          ],
+          "trap": [
+            "It's a pure air choke"
+          ]
+        }
       },
       {
         "question": "Why must the choking arm be threaded to maximum depth before initiating the rotation from Kesa Gatame?",
         "answer": "If the arm is not deep enough before rotation begins, the rotational movement causes the arm to slide out from under the opponent's neck as your body pivots. You arrive in North-South without sufficient arm depth to compress the far-side carotid, and the choke will not finish regardless of how much sprawl pressure you apply. Re-threading from North-South is much harder than getting depth from Kesa Gatame where head control is already established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm slides out mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Rotation adds speed only",
+            "Depth matters after arriving"
+          ],
+          "trap": [
+            "Re-thread easily in North-South"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the Americana by pinching their elbow tight to their ribs - how does this create an opening for the North-South Choke?",
         "answer": "When the opponent tucks their elbow to defend the Americana, they pull their arm away from blocking your choking arm's path under their neck. Their defensive posture also tends to flatten them onto their back with minimal framing, which is the ideal position for threading the choking arm deeper. The tight-elbow defense that stops the Americana is exactly the posture that enables the choke, creating a true dilemma where defending one attack opens the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow tuck clears choke path",
+        "distractors": {
+          "plausible": [
+            "Flattens them, unrelated to arm",
+            "Blocks Americana, blocks choke too"
+          ],
+          "trap": [
+            "Tight elbow blocks the choke arm"
+          ]
+        }
       },
       {
         "question": "What is the correct way to generate finishing pressure - arm squeezing or sprawling?",
         "answer": "Finishing pressure must come primarily from sprawling your hips toward the mat and walking them forward, driving your shoulder weight into the opponent's neck. The arms maintain grip position but do not generate the primary compression force. Arm squeezing alone fatigues within 10-15 seconds and produces inconsistent pressure, while sprawl-based pressure uses your entire bodyweight and can be sustained for minutes. The shoulders squeeze together as a consequence of the sprawl, not from active arm contraction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sprawl hips drive shoulder weight",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms for the finish",
+            "Pull head down with the arm"
+          ],
+          "trap": [
+            "Crank the arm explosively"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the North-South Choke in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum, never explosively. Always ensure your partner has at least one hand free to tap. Watch for any distress signals including body going limp, convulsions, or loss of resistance, as the choke can render someone unconscious very quickly once both carotids are compressed. Release immediately upon any tap signal and roll completely off the opponent's head and neck. Never continue applying pressure after a tap to demonstrate the position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, watch for limpness",
+        "distractors": {
+          "plausible": [
+            "Apply fast before they escape",
+            "Only watch verbal tap signal"
+          ],
+          "trap": [
+            "Finish quick before they recover"
+          ]
+        }
       },
       {
         "question": "How should you release the North-South Choke immediately after your partner taps?",
         "answer": "Immediately release all arm pressure and remove your shoulder from their neck. Roll your body completely off their head and neck area rather than simply loosening the grip while remaining on top. Allow your partner to recover in a side-lying position with their airway completely clear. Monitor them for normal breathing and signs of full consciousness. Never manipulate their neck after release - let them move naturally. If they appear unconscious, place them in recovery position and alert the instructor immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release fully, roll off neck",
+        "distractors": {
+          "plausible": [
+            "Loosen grip, stay on top",
+            "Hold position to confirm tap"
+          ],
+          "trap": [
+            "Keep shoulder pressure briefly"
+          ]
+        }
       },
       {
         "question": "The choke feels close but your opponent is surviving your sprawl pressure - what micro-adjustment should you try?",
         "answer": "Walk your hips slightly toward the choking-arm side to change the compression angle on the carotid arteries. This small lateral shift often closes the gap between almost-finishing and a clean tap. You can also try pulling your choking elbow tighter toward your own hip to increase the arm's compression while maintaining sprawl weight. Another adjustment is driving your shoulder forward and slightly downward, aiming to press the bony point of your shoulder directly into the carotid groove on the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips toward choking arm",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms harder instead",
+            "Pull opponent's head backward"
+          ],
+          "trap": [
+            "Crank neck sideways hard"
+          ]
+        }
       },
       {
         "question": "How do you know the choke has passed the point of no escape, and what should you do once it has?",
         "answer": "Once both carotid arteries are fully compressed - your shoulder buried into one side of the neck and your forearm locked across the other - the opponent has roughly three to five seconds before unconsciousness. The reliable indicators are their defensive frames going slack, their bridging slowing or stopping, and a short surge of panicked movement followed by stillness. At that point the finish is locked and they must tap. Maintain steady progressive pressure rather than cranking harder, and release instantly the moment they tap or go limp.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Frames go slack, then stillness",
+        "distractors": {
+          "plausible": [
+            "Loud verbal tap only sign",
+            "Bridging speeds up before tap"
+          ],
+          "trap": [
+            "Crank harder once it's locked"
+          ]
+        }
       },
       {
         "question": "In competition, when should you commit to the North-South Choke versus staying in Kesa Gatame to keep scoring?",
         "answer": "Commit to the choke only when your arm is threaded past the centerline of the throat and the opponent is flat with their near arm controlled, because from there the rotation is high-percentage and ends the match outright. If your arm is shallow, the opponent is actively turning into you, or you are already ahead late on points, stay in Kesa Gatame and keep accumulating pressure and arm-attack threats instead of gambling the rotation, which can open a guard recovery or scramble. Treat the choke as a match-ender you take only when the entry is genuinely there.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit only with deep arm, flat opp",
+        "distractors": {
+          "plausible": [
+            "Always finish once ahead on points",
+            "Rotate anytime arm touches neck"
+          ],
+          "trap": [
+            "Force rotation from a shallow arm"
+          ]
+        }
       }
     ],
     "clips": [
@@ -456,27 +546,77 @@
       {
         "question": "How do you recognize that the North-South Choke from Kesa Gatame is being set up?",
         "answer": "The primary cues are the attacker incrementally walking their arm deeper under your neck with small adjustments, increased control or pinning of your near arm, and the attacker's body beginning to pivot toward your head. You may also feel increasing forearm pressure across the front of your throat as the choking arm threads past the centerline. If the attacker threatens an Americana then quickly abandons it to adjust their head-controlling arm, this is a strong signal the choke is being set up.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm walking deeper under neck",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive arm shove",
+            "Only forearm pressure signals it"
+          ],
+          "trap": [
+            "Americana threat means no risk"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the North-South Choke?",
         "answer": "Tap rapidly and clearly with whichever hand is free, either on the attacker's body or audibly on the mat. If both hands are trapped, use rapid foot taps on the mat or give a clear verbal submission. Do not wait to see if you can survive the choke, because this particular choke can cause unconsciousness within 3-5 seconds once both carotids are compressed. Tap early when you feel the pressure building rather than waiting until you feel lightheaded, as the margin between controlled pressure and unconsciousness is very small.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap fast, hand, foot, or verbal",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only when lightheaded"
+          ],
+          "trap": [
+            "Try to power out instead"
+          ]
+        }
       },
       {
         "question": "Why is defending during the rotation more effective than defending after the attacker reaches North-South?",
         "answer": "During the rotation, the attacker is between positions with compromised base and divided attention between maintaining arm depth and completing the pivot. Their weight is shifting and they cannot simultaneously apply maximum choking pressure while moving. Once they arrive in North-South and sprawl their hips, they have full bodyweight driving the choke with stable base, and all their attention is on finishing. The transition phase is where the attacker is weakest and your frames and guard recovery attempts have the highest success rate.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attacker weak mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Defend easier once sprawled in",
+            "Base is stable during rotation"
+          ],
+          "trap": [
+            "Wait until choke fully locks"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the North-South Choke from Kesa Gatame?",
         "answer": "The three primary defenses are: first, framing against the attacker's shoulder during early rotation to physically block the pivot and force them back to Kesa Gatame; second, turning your hips toward the attacker during mid-rotation to recover closed guard before the choke locks; and third, grip fighting the choking arm from underneath during the threading phase to prevent sufficient depth. The appropriate defense depends on which phase the attack is in, with earlier intervention yielding higher success rates.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame, hip turn, or grip fight",
+        "distractors": {
+          "plausible": [
+            "Push their hips off you",
+            "Wait for them to overcommit"
+          ],
+          "trap": [
+            "Turn head away from attacker"
+          ]
+        }
       },
       {
         "question": "What common mistake makes the choke tighter when attempting to defend?",
         "answer": "Turning your head away from the attacker is the most counterproductive defensive reaction. When you turn your head away, you expose the far-side carotid artery and create more space under your neck for the choking arm to sink deeper. This instinctive response actually accelerates the choke rather than defending it. Instead, keep your chin tucked firmly toward your chest and turned slightly toward the attacker to compress the available space under your neck and make arm threading more difficult.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turning head away exposes neck",
+        "distractors": {
+          "plausible": [
+            "Bridging hard escapes best",
+            "Pushing chest away helps"
+          ],
+          "trap": [
+            "Chin tuck loosens the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

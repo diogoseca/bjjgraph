@@ -221,60 +221,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Reverse Heel Hook Counter?",
-        "answer": "The primary goal is to capitalize on opponent's heel hook commitment by entering your own leg entanglement on their attacking leg. This either creates a submission opportunity on them or forces them to abandon their attack to defend, allowing your escape."
+        "answer": "The primary goal is to capitalize on opponent's heel hook commitment by entering your own leg entanglement on their attacking leg. This either creates a submission opportunity on them or forces them to abandon their attack to defend, allowing your escape.",
+        "answer_line": "Entangle their attacking leg",
+        "distractors": {
+          "plausible": [
+            "Kick free and stand up",
+            "Immediately go for a finish"
+          ],
+          "trap": [
+            "Relax foot to buy time"
+          ]
+        }
       },
       {
         "question": "What foot position must you maintain throughout the entire counter sequence?",
-        "answer": "Maintain dorsiflexion (foot flexed with toes pulled toward shin) on your trapped foot throughout the entire sequence. This protects your heel from exposure even while you're executing offensive movements. Relaxing this position to focus on the counter is a critical error."
+        "answer": "Maintain dorsiflexion (foot flexed with toes pulled toward shin) on your trapped foot throughout the entire sequence. This protects your heel from exposure even while you're executing offensive movements. Relaxing this position to focus on the counter is a critical error.",
+        "answer_line": "Dorsiflex, foot flexed to shin",
+        "distractors": {
+          "plausible": [
+            "Relax foot during the counter",
+            "Point toes only near the finish"
+          ],
+          "trap": [
+            "Plantarflex, point toes down"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the counter?",
-        "answer": "The optimal window is when your opponent adjusts their grips or repositions to establish their finishing heel hook grip. During this adjustment phase, their own legs momentarily become exposed and they're focused on offense rather than defending their own legs."
+        "answer": "The optimal window is when your opponent adjusts their grips or repositions to establish their finishing heel hook grip. During this adjustment phase, their own legs momentarily become exposed and they're focused on offense rather than defending their own legs.",
+        "answer_line": "During their grip adjustment",
+        "distractors": {
+          "plausible": [
+            "Right when grip is secured",
+            "As soon as legs entangle"
+          ],
+          "trap": [
+            "Wait for them to finish"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep heel hook grip already established. Should you attempt the counter?",
         "answer": "No — against a deep, secure heel hook grip the counter will likely fail and can create the space they need to finish. When facing an established grip, focus on systematic escape mechanics rather than counter-attack.",
         "distractors": {
           "plausible": [
-            "Yes, but only if you counter immediately — speed of entry beats grip depth in leg lock exchanges.",
-            "No — stay completely still and wait for them to adjust their grip before doing anything."
+            "Yes, catch them off guard",
+            "No, but stall for time"
           ],
           "trap": [
-            "Yes — explode into the counter and roll hard, since aggressive motion prevents them from settling the finish."
+            "Yes, race to out-finish them"
+          ]
+        },
+        "answer_line": "No, escape systematically"
+      },
+      {
+        "question": "What grips do you need to establish for the inside heel hook finish after successful counter entry?",
+        "answer": "Cup their heel with your far hand (the hand away from their hip), wrapping around the outside of their foot. Your near hand controls above their knee to prevent extraction and provides the rotational base. Apply inside rotational pressure by turning their heel toward their buttocks.",
+        "answer_line": "Far hand cups heel, near knee",
+        "distractors": {
+          "plausible": [
+            "Both hands grip the heel",
+            "Switch hands: near heel, far knee"
+          ],
+          "trap": [
+            "Let go of knee to grip ankle"
           ]
         }
       },
       {
-        "question": "What grips do you need to establish for the inside heel hook finish after successful counter entry?",
-        "answer": "Cup their heel with your far hand (the hand away from their hip), wrapping around the outside of their foot. Your near hand controls above their knee to prevent extraction and provides the rotational base. Apply inside rotational pressure by turning their heel toward their buttocks."
-      },
-      {
         "question": "Your counter entry is successful but opponent accelerates their finish during the exchange. What determines who wins?",
-        "answer": "Leg lock exchanges favor whoever established position first, has superior finishing mechanics, and maintains better defensive posture on their own leg. If you entered after they already had deep control, they likely finish first. The counter is most effective when initiated during their adjustment phase before deep grip establishment."
+        "answer": "Leg lock exchanges favor whoever established position first, has superior finishing mechanics, and maintains better defensive posture on their own leg. If you entered after they already had deep control, they likely finish first. The counter is most effective when initiated during their adjustment phase before deep grip establishment.",
+        "answer_line": "Earlier grip, better mechanics",
+        "distractors": {
+          "plausible": [
+            "Whoever moves fastest wins",
+            "Raw strength decides it"
+          ],
+          "trap": [
+            "Push through to finish anyway"
+          ]
+        }
       },
       {
         "question": "How do you adapt the counter if opponent withdraws their leg when sensing your entry?",
-        "answer": "Use their withdrawal momentum to facilitate your escape rather than chasing the counter. As they retract their attacking leg, the pressure on your trapped leg decreases, creating space for single leg x-guard entry or complete leg extraction. Convert defensive success to positional recovery."
+        "answer": "Use their withdrawal momentum to facilitate your escape rather than chasing the counter. As they retract their attacking leg, the pressure on your trapped leg decreases, creating space for single leg x-guard entry or complete leg extraction. Convert defensive success to positional recovery.",
+        "answer_line": "Ride the momentum to escape",
+        "distractors": {
+          "plausible": [
+            "Chase the leg, keep attacking",
+            "Reset grips and re-attack"
+          ],
+          "trap": [
+            "Grab and pull the leg back in"
+          ]
+        }
       },
       {
         "question": "What body position indicates your opponent is about to transition to saddle rather than finish the heel hook?",
-        "answer": "Watch for their inside leg driving deeper against your thigh and their outside leg preparing to step through rather than tightening. This indicates saddle transition rather than immediate heel hook finish. When you see this, abandon counter attempts and prioritize turtle rotation or granby escape."
+        "answer": "Watch for their inside leg driving deeper against your thigh and their outside leg preparing to step through rather than tightening. This indicates saddle transition rather than immediate heel hook finish. When you see this, abandon counter attempts and prioritize turtle rotation or granby escape.",
+        "answer_line": "Abandon counter, turtle out",
+        "distractors": {
+          "plausible": [
+            "Tighten grip, finish faster",
+            "Continue the counter as planned"
+          ],
+          "trap": [
+            "Push into their hip to stop it"
+          ]
+        }
       },
       {
         "question": "Why is inside ashi-garami the preferred counter position rather than outside ashi-garami?",
-        "answer": "Inside ashi-garami is accessible from your inverted position without requiring you to completely reverse your hip orientation. The geometry of ushiro ashi-garami bottom naturally positions you for inside entry on their attacking leg. Outside ashi would require passing their leg to the other side, exposing your heel during transition."
+        "answer": "Inside ashi-garami is accessible from your inverted position without requiring you to completely reverse your hip orientation. The geometry of ushiro ashi-garami bottom naturally positions you for inside entry on their attacking leg. Outside ashi would require passing their leg to the other side, exposing your heel during transition.",
+        "answer_line": "No hip reversal needed",
+        "distractors": {
+          "plausible": [
+            "Stronger finishing mechanics",
+            "Safer angle on the knee"
+          ],
+          "trap": [
+            "Pass to outside for control"
+          ]
+        }
       },
       {
         "question": "How does the reverse heel hook counter create psychological pressure on opponents?",
-        "answer": "When opponents know you have this counter in your arsenal, they become hesitant to fully commit to heel hook finishes from ushiro. This hesitation either allows you more time for standard escapes or causes them to abandon advantageous positions prematurely. The threat of the counter is often as valuable as the technique itself."
+        "answer": "When opponents know you have this counter in your arsenal, they become hesitant to fully commit to heel hook finishes from ushiro. This hesitation either allows you more time for standard escapes or causes them to abandon advantageous positions prematurely. The threat of the counter is often as valuable as the technique itself.",
+        "answer_line": "Makes them hesitate to commit",
+        "distractors": {
+          "plausible": [
+            "Makes them finish faster",
+            "Only works on beginners"
+          ],
+          "trap": [
+            "Bait a deeper grip, then counter"
+          ]
+        }
       },
       {
         "question": "Your opponent's free leg hooks your hip during your counter rotation - how do you adjust?",
-        "answer": "Their free leg hooking your hip indicates they are attempting to re-establish control or enter a counter-entanglement of their own. Use your near-side hand to strip their hook by pushing their ankle off your hip while continuing the rotation. If you cannot strip the hook, abort the counter and use the space created by their reaching leg to extract your trapped leg instead."
+        "answer": "Their free leg hooking your hip indicates they are attempting to re-establish control or enter a counter-entanglement of their own. Use your near-side hand to strip their hook by pushing their ankle off your hip while continuing the rotation. If you cannot strip the hook, abort the counter and use the space created by their reaching leg to extract your trapped leg instead.",
+        "answer_line": "Strip hook, else abort attack",
+        "distractors": {
+          "plausible": [
+            "Ignore it, keep rotating",
+            "Grab their hook to trap it"
+          ],
+          "trap": [
+            "Speed up your finish instead"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when applying the inside heel hook finish from the counter position?",
-        "answer": "The rotational force drives their heel inward toward their own buttock, attacking the lateral collateral ligament and meniscus. Your body rotates away from their knee line while the heel remains pinned against your chest. The force is generated through hip extension and torso rotation, not arm strength—pull heel tight to sternum and bridge your hips away to create the finishing torque."
+        "answer": "The rotational force drives their heel inward toward their own buttock, attacking the lateral collateral ligament and meniscus. Your body rotates away from their knee line while the heel remains pinned against your chest. The force is generated through hip extension and torso rotation, not arm strength—pull heel tight to sternum and bridge your hips away to create the finishing torque.",
+        "answer_line": "Rotate heel to buttock, bridge",
+        "distractors": {
+          "plausible": [
+            "Pull straight up with arms",
+            "Twist their knee outward"
+          ],
+          "trap": [
+            "Rely on wrist strength alone"
+          ]
+        }
       }
     ],
     "safety_considerations": "The reverse heel hook counter involves significant joint stress on both practitioners' knees. Both heel hooks in play target the knee's rotational stability, and injuries can occur rapidly without warning pain. Always tap early during training when feeling rotational pressure—knees do not provide adequate warning signals before ligament damage. Train this technique with controlled partners who understand heel hook mechanics. Avoid explosive finishing movements. When drilling, apply heel hook pressure slowly and incrementally. This counter should not be attempted in training against partners who lack leg lock experience, as their unpredictable reactions may cause injury to either participant. In competition, understand that leg lock exchanges carry inherent injury risk and only engage if you're prepared for potential consequences.",
@@ -392,41 +503,73 @@
     "flashcards": [
       {
         "question": "You are attacking from ushiro ashi-garami and feel your opponent's hips rotating toward your leg. What does this indicate?",
-        "answer": "This rotation toward your attacking leg rather than away indicates the opponent is initiating a reverse heel hook counter rather than a standard escape. Standard escapes involve rotating away to clear legs, while counter-attacks require rotating toward your leg to establish entanglement. You should immediately assess your grip depth and decide whether to accelerate your finish or withdraw your leg."
+        "answer": "This rotation toward your attacking leg rather than away indicates the opponent is initiating a reverse heel hook counter rather than a standard escape. Standard escapes involve rotating away to clear legs, while counter-attacks require rotating toward your leg to establish entanglement. You should immediately assess your grip depth and decide whether to accelerate your finish or withdraw your leg.",
+        "answer_line": "They're countering, not escaping",
+        "distractors": {
+          "plausible": [
+            "They're clearing to escape",
+            "They're resetting position"
+          ],
+          "trap": [
+            "Ignore it, keep attacking blind"
+          ]
+        }
       },
       {
         "question": "Your heel hook grip is shallow and your opponent has begun threading their leg between yours. Should you race to finish?",
         "answer": "No — with a shallow grip, withdraw your attacking leg and reset before their counter-entanglement completes. Racing to finish is a losing strategy because their counter will establish before your finish materializes. Reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again.",
         "distractors": {
           "plausible": [
-            "No — keep your shallow grip locked and stall the entanglement until they give up on threading their leg.",
-            "Yes, but switch to a toe hold first since it finishes faster than completing the heel hook grip."
+            "Yes, speed up your finish",
+            "No, just tighten current grip"
           ],
           "trap": [
-            "Yes — race to finish, since your grip came first and finishing speed beats their developing counter-entanglement."
+            "Yes, finish before they lock in"
           ]
-        }
+        },
+        "answer_line": "No, withdraw and reset grip"
       },
       {
         "question": "What specific leg positioning prevents the counter-entry angle during your heel hook attempts?",
-        "answer": "Maintaining strong inside leg pressure across the opponent's hip throughout your attack denies the angle needed for counter-entry. Your inside leg acts as a barrier that prevents their hip rotation toward your leg. Additionally, keep your free leg tucked behind their thigh rather than extended, removing the hook point they need to initiate counter-entanglement."
+        "answer": "Maintaining strong inside leg pressure across the opponent's hip throughout your attack denies the angle needed for counter-entry. Your inside leg acts as a barrier that prevents their hip rotation toward your leg. Additionally, keep your free leg tucked behind their thigh rather than extended, removing the hook point they need to initiate counter-entanglement.",
+        "answer_line": "Inside leg pressure, tuck free leg",
+        "distractors": {
+          "plausible": [
+            "Extend free leg for base",
+            "Cross your ankles for control"
+          ],
+          "trap": [
+            "Extend legs wide for leverage"
+          ]
+        }
       },
       {
         "question": "How do you determine whether you have enough grip advantage to win a leg lock exchange if the counter is established?",
         "answer": "Evaluate grip depth, positional timing, and finishing proximity — if you had deep grip before their counter began, you typically win. Grip depth asks whether your heel hook grip is past the point of no return or still establishing; positional timing asks whether you had your grip before they entered counter position; finishing proximity asks how many adjustments remain before your submission is complete. If both grips are establishing simultaneously, the exchange is a coin flip.",
         "distractors": {
           "plausible": [
-            "Compare grip depth alone — whoever holds the deeper grip wins the exchange regardless of who entered first.",
-            "Count remaining adjustments only — if you need fewer moves to finish than they do, you win the exchange."
+            "Only who is bigger or stronger",
+            "Whoever grabbed first wins"
           ],
           "trap": [
-            "Ignore their counter entirely and crank the finish as hard as possible — commitment always beats an established counter."
+            "Judge only by finish speed"
           ]
-        }
+        },
+        "answer_line": "Grip depth, timing, proximity"
       },
       {
         "question": "Your opponent successfully establishes inside ashi-garami on your leg during the counter. What is the most dangerous mistake at this point?",
-        "answer": "The most dangerous mistake is freezing or becoming indecisive. Once the counter is established, you must immediately commit to a plan: either finish your heel hook if your grip is deeper, engage in the exchange if grips are equal, or release your attack and address your own defense if their position is superior. Hesitation allows them to solidify their position while your grip remains static, progressively worsening your odds in the exchange."
+        "answer": "The most dangerous mistake is freezing or becoming indecisive. Once the counter is established, you must immediately commit to a plan: either finish your heel hook if your grip is deeper, engage in the exchange if grips are equal, or release your attack and address your own defense if their position is superior. Hesitation allows them to solidify their position while your grip remains static, progressively worsening your odds in the exchange.",
+        "answer_line": "Freezing, failing to commit",
+        "distractors": {
+          "plausible": [
+            "Releasing your grip at once",
+            "Switching to a new attack"
+          ],
+          "trap": [
+            "Try to out-muscle the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

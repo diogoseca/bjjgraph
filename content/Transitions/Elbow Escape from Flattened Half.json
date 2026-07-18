@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the elbow wedge effective against heavy top pressure?",
-        "answer": "The elbow wedge uses skeletal alignment rather than muscular effort to resist the opponent's body weight. The point of the elbow creates a structural frame where bone supports bone, meaning the frame can be maintained indefinitely without significant energy expenditure. Pushing with arm muscles against body weight causes rapid fatigue, while the skeletal wedge leverages your body's structure against gravity and forward pressure."
+        "answer": "The elbow wedge uses skeletal alignment rather than muscular effort to resist the opponent's body weight. The point of the elbow creates a structural frame where bone supports bone, meaning the frame can be maintained indefinitely without significant energy expenditure. Pushing with arm muscles against body weight causes rapid fatigue, while the skeletal wedge leverages your body's structure against gravity and forward pressure.",
+        "answer_line": "Bone frame, not muscle",
+        "distractors": {
+          "plausible": [
+            "Push harder with your arm",
+            "Brace with shoulder strength"
+          ],
+          "trap": [
+            "Relax frame to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent senses your hip escape and immediately drives forward to close the space - how do you respond?",
-        "answer": "Use their forward drive against them by timing your next hip escape to coincide with their weight commitment. As they drive forward, their weight shifts onto you in a predictable vector. Execute your hip escape perpendicular to their drive direction, using their momentum to amplify the space creation. The key is anticipating their reaction and having the next movement ready rather than pausing after each gain."
+        "answer": "Use their forward drive against them by timing your next hip escape to coincide with their weight commitment. As they drive forward, their weight shifts onto you in a predictable vector. Execute your hip escape perpendicular to their drive direction, using their momentum to amplify the space creation. The key is anticipating their reaction and having the next movement ready rather than pausing after each gain.",
+        "answer_line": "Time escape to their drive",
+        "distractors": {
+          "plausible": [
+            "Freeze until pressure eases",
+            "Push straight back against them"
+          ],
+          "trap": [
+            "Try to stand up right away"
+          ]
+        }
       },
       {
         "question": "Why must you hip escape toward the trapped leg side rather than the free leg side during this escape?",
-        "answer": "Escaping toward the trapped leg side keeps your chest facing the opponent, maintaining defensive orientation and preventing back exposure. Moving toward the free leg side requires turning away from the opponent, which skilled top players recognize as a back take opportunity. They follow your rotation and secure hooks before you can complete the guard recovery, converting your escape into a worse positional outcome."
+        "answer": "Escaping toward the trapped leg side keeps your chest facing the opponent, maintaining defensive orientation and preventing back exposure. Moving toward the free leg side requires turning away from the opponent, which skilled top players recognize as a back take opportunity. They follow your rotation and secure hooks before you can complete the guard recovery, converting your escape into a worse positional outcome.",
+        "answer_line": "Escape toward trapped leg side",
+        "distractors": {
+          "plausible": [
+            "Escape toward the free leg side",
+            "Turn away, recover guard after"
+          ],
+          "trap": [
+            "Spin away to escape faster"
+          ]
+        }
       },
       {
         "question": "What conditions signal the optimal moment to initiate the elbow escape from flattened half guard?",
-        "answer": "The optimal initiation window occurs when the top player shifts weight during passing transitions, grip adjustments, or positional changes. Specifically, when they lighten chest pressure to begin a knee slice, adjust their crossface hand position, or shift hips for passing angle creation. These moments produce brief reductions in forward pressure that make the initial elbow wedge insertion significantly easier to establish."
+        "answer": "The optimal initiation window occurs when the top player shifts weight during passing transitions, grip adjustments, or positional changes. Specifically, when they lighten chest pressure to begin a knee slice, adjust their crossface hand position, or shift hips for passing angle creation. These moments produce brief reductions in forward pressure that make the initial elbow wedge insertion significantly easier to establish.",
+        "answer_line": "When they shift weight or grips",
+        "distractors": {
+          "plausible": [
+            "Only once fully flattened out",
+            "Wait until they stop moving"
+          ],
+          "trap": [
+            "Wedge during max chest pressure"
+          ]
+        }
       },
       {
         "question": "You successfully recover to half guard but your opponent immediately begins pressure passing again - what should your first action be?",
-        "answer": "Immediately establish your knee shield or primary frame before the opponent can re-flatten you. The most common error is resting after the escape, which allows the opponent to re-initiate their pressure passing sequence. Your first action upon recovering half guard should be inserting the knee shield, securing the underhook, and threatening an immediate sweep or back take to force them into a defensive reaction rather than continued passing."
+        "answer": "Immediately establish your knee shield or primary frame before the opponent can re-flatten you. The most common error is resting after the escape, which allows the opponent to re-initiate their pressure passing sequence. Your first action upon recovering half guard should be inserting the knee shield, securing the underhook, and threatening an immediate sweep or back take to force them into a defensive reaction rather than continued passing.",
+        "answer_line": "Insert knee shield immediately",
+        "distractors": {
+          "plausible": [
+            "Rest a moment before moving",
+            "Wait to see their next pass"
+          ],
+          "trap": [
+            "Let them settle before acting"
+          ]
+        }
       },
       {
         "question": "What is the correct breathing technique during the elbow escape when chest compression restricts your diaphragm?",
-        "answer": "Use tactical breathing by taking small controlled breaths timed with your hip escape movements. During each hip escape, the brief reduction in chest pressure as you create space provides a window for a small breath. Avoid attempting full deep breaths which are impossible under compression and trigger panic responses. Focus on maintaining steady oxygen flow through frequent small breaths rather than infrequent large ones."
+        "answer": "Use tactical breathing by taking small controlled breaths timed with your hip escape movements. During each hip escape, the brief reduction in chest pressure as you create space provides a window for a small breath. Avoid attempting full deep breaths which are impossible under compression and trigger panic responses. Focus on maintaining steady oxygen flow through frequent small breaths rather than infrequent large ones.",
+        "answer_line": "Small breaths timed to escapes",
+        "distractors": {
+          "plausible": [
+            "Take one big breath and hold",
+            "Breathe only once you're done"
+          ],
+          "trap": [
+            "Force a deep breath under them"
+          ]
+        }
       },
       {
         "question": "Your opponent switches from crossface to a whizzer on your underhook arm during your escape attempt - how do you capitalize?",
-        "answer": "The switch from crossface to whizzer momentarily removes head control, creating a window for a larger hip escape. Use this instant to execute an aggressive hip escape and drive your knee up into a shield position before they re-establish head control with the new grip configuration. The whizzer alone cannot generate the same flattening pressure as crossface plus chest weight, so this grip change improves your escape prospects if you act immediately."
+        "answer": "The switch from crossface to whizzer momentarily removes head control, creating a window for a larger hip escape. Use this instant to execute an aggressive hip escape and drive your knee up into a shield position before they re-establish head control with the new grip configuration. The whizzer alone cannot generate the same flattening pressure as crossface plus chest weight, so this grip change improves your escape prospects if you act immediately.",
+        "answer_line": "Big escape, knee shield fast",
+        "distractors": {
+          "plausible": [
+            "Attack the whizzer arm for a lock",
+            "Wait for crossface to return"
+          ],
+          "trap": [
+            "Hold still to save energy"
+          ]
+        }
       },
       {
         "question": "How many hip escapes does the elbow escape typically require to recover functional half guard, and why does this matter for training?",
-        "answer": "The complete escape typically requires four to eight individual hip escapes, each creating two to three inches of space that compounds with the previous gain. This matters for training because practitioners must develop the mental discipline to commit to this methodical process rather than expecting a single explosive movement to solve the position. Training drills should emphasize full repetition counts rather than practicing individual hip escapes in isolation."
+        "answer": "The complete escape typically requires four to eight individual hip escapes, each creating two to three inches of space that compounds with the previous gain. This matters for training because practitioners must develop the mental discipline to commit to this methodical process rather than expecting a single explosive movement to solve the position. Training drills should emphasize full repetition counts rather than practicing individual hip escapes in isolation.",
+        "answer_line": "Four to eight hip escapes",
+        "distractors": {
+          "plausible": [
+            "One or two hip escapes",
+            "Ten or more hip escapes"
+          ],
+          "trap": [
+            "One explosive escape solves it"
+          ]
+        }
       }
     ],
     "safety_considerations": "The elbow escape from flattened half guard is a low-risk positional recovery technique. However, practitioners should be aware that sustained chest compression can restrict breathing and elevate heart rate significantly. Partners drilling top pressure should communicate and immediately reduce pressure if the bottom player signals distress. Avoid using the elbow as a striking point against the opponent's body during wedge insertion, as this can cause rib injuries. During training, the top player should apply progressive resistance rather than full competition pressure when the bottom player is learning the technique to prevent unnecessary injury from panic responses under pressure.",
@@ -400,19 +480,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating an elbow escape from flattened half guard?",
-        "answer": "The earliest cue is feeling the opponent's bottom elbow begin to turn toward the mat and press into the space between your hip and their body. This subtle movement precedes the visible hip escape and represents the initial structural wedge insertion. Recognizing this tactile cue through your chest and hip contact allows you to counter before the escape gains momentum by immediately driving your hips forward to collapse the developing frame."
+        "answer": "The earliest cue is feeling the opponent's bottom elbow begin to turn toward the mat and press into the space between your hip and their body. This subtle movement precedes the visible hip escape and represents the initial structural wedge insertion. Recognizing this tactile cue through your chest and hip contact allows you to counter before the escape gains momentum by immediately driving your hips forward to collapse the developing frame.",
+        "answer_line": "Feel their elbow wedging in",
+        "distractors": {
+          "plausible": [
+            "See their hips lift first",
+            "Hear their breathing change"
+          ],
+          "trap": [
+            "Wait for the visible hip escape"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully creates a small space with their elbow wedge and begins a hip escape - what is your highest-percentage response?",
-        "answer": "Immediately initiate your knee slice pass by driving your trapped knee across their thigh line in the direction of their hip escape. Their lateral movement creates the exact angle you need for the knee slice, and their commitment to the escape means their attention and defensive structure are oriented toward space creation rather than pass defense. This converts their escape attempt into your passing opportunity, which is more effective than simply trying to re-flatten them."
+        "answer": "Immediately initiate your knee slice pass by driving your trapped knee across their thigh line in the direction of their hip escape. Their lateral movement creates the exact angle you need for the knee slice, and their commitment to the escape means their attention and defensive structure are oriented toward space creation rather than pass defense. This converts their escape attempt into your passing opportunity, which is more effective than simply trying to re-flatten them.",
+        "answer_line": "Knee slice into their angle",
+        "distractors": {
+          "plausible": [
+            "Re-flatten with more pressure",
+            "Chase the escaping hip"
+          ],
+          "trap": [
+            "Let go and reset position"
+          ]
+        }
       },
       {
         "question": "Why is maintaining dynamic pressure more effective than maximum static pressure when defending against the elbow escape?",
-        "answer": "Maximum static pressure allows the opponent to map the pressure distribution and systematically work around it through incremental adjustments. Dynamic pressure that flows and follows their movements prevents them from establishing a predictable escape pattern. When you follow their hip escapes with your own positional adjustments, you deny them the space consolidation that the technique requires, while also preserving your own energy more efficiently."
+        "answer": "Maximum static pressure allows the opponent to map the pressure distribution and systematically work around it through incremental adjustments. Dynamic pressure that flows and follows their movements prevents them from establishing a predictable escape pattern. When you follow their hip escapes with your own positional adjustments, you deny them the space consolidation that the technique requires, while also preserving your own energy more efficiently.",
+        "answer_line": "Flow pressure, follow movement",
+        "distractors": {
+          "plausible": [
+            "Apply maximum static pressure",
+            "Increase pressure gradually"
+          ],
+          "trap": [
+            "Stay rigid in one position"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from winning the underhook battle during their escape attempt?",
-        "answer": "Drive your near-side shoulder forward and down into their chest while maintaining crossface control with your far arm. If they begin threading their arm for the underhook, immediately apply a whizzer by overhooking their arm and driving your weight through the whizzer to flatten their shoulder back to the mat. The whizzer combined with crossface creates a double control point that makes the underhook functionally useless even if they achieve the grip."
+        "answer": "Drive your near-side shoulder forward and down into their chest while maintaining crossface control with your far arm. If they begin threading their arm for the underhook, immediately apply a whizzer by overhooking their arm and driving your weight through the whizzer to flatten their shoulder back to the mat. The whizzer combined with crossface creates a double control point that makes the underhook functionally useless even if they achieve the grip.",
+        "answer_line": "Whizzer plus crossface control",
+        "distractors": {
+          "plausible": [
+            "Grip fight for the underhook",
+            "Push their head down hard"
+          ],
+          "trap": [
+            "Let them get it, adjust later"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -298,107 +298,317 @@
       {
         "question": "What is the primary target of the Buggy Choke and why is proper angle so critical?",
         "answer": "The primary target is the carotid arteries on the sides of the neck, not the windpipe. Proper angle is critical because you need to create compression from the side to effectively cut off blood flow to the brain. If your angle is wrong and you compress the windpipe instead, you create a painful but less effective submission that's also more dangerous to your partner's throat structure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Carotids, not the windpipe",
+        "distractors": {
+          "plausible": [
+            "Windpipe compression for pain",
+            "Angle is a minor detail"
+          ],
+          "trap": [
+            "Crank straight into the throat"
+          ]
+        }
       },
       {
         "question": "What are the minimum safety requirements before attempting this choke in training?",
         "answer": "You must ensure your partner has at least one hand free to tap, apply pressure progressively over 3-5 seconds minimum (never explosive), watch for all tap signals including verbal and physical taps, and immediately release all pressure when partner taps. Additionally, you should only practice this technique with partners who understand proper defensive protocols and tapping etiquette.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Free hand, slow build, watch taps",
+        "distractors": {
+          "plausible": [
+            "Apply pressure explosively",
+            "Verbal taps only, ignore physical"
+          ],
+          "trap": [
+            "Trap both hands, then squeeze"
+          ]
+        }
       },
       {
         "question": "Why is trapping the opponent's arm such an essential component of the Buggy Choke?",
         "answer": "Trapping the opponent's arm serves multiple purposes: it prevents them from using that hand to defend their neck, it contributes to the choking pressure by creating an obstacle their neck is compressed against, and it limits their mobility and ability to posture up or escape. Without the arm trap, opponents can easily hand fight and prevent the choke from being secured.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks defense and adds pressure",
+        "distractors": {
+          "plausible": [
+            "Only for grip control",
+            "Only slows their escape"
+          ],
+          "trap": [
+            "Free their hand to speed finish"
+          ]
+        }
       },
       {
         "question": "What should you do if your opponent successfully defends the Buggy Choke by freeing their trapped arm?",
         "answer": "Maintain your positional control and immediately transition to alternative attacks rather than losing the position entirely. Common transitions include the electric chair sweep/submission, old school sweep, deep half guard, or taking the back if they overcommit to escaping. The key is to stay offensive and use their defensive movement to set up the next attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stay on top, chain new attack",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral half guard",
+            "Force the same choke again"
+          ],
+          "trap": [
+            "Chase the choke, lose position"
+          ]
+        }
       },
       {
         "question": "How do you properly finish the Buggy Choke in terms of body mechanics and pressure application?",
         "answer": "The finish comes from full body engagement, not just arm strength. Drive your shoulder into the side of their neck while pulling with your arms, engage your core and lat muscles, extend your hips slightly for leverage, and maintain your angled position with your head on the opposite side. The pressure should be progressive and continuous, creating compression from multiple angles simultaneously. Squeeze as if trying to touch your shoulder to your opposite hip while keeping everything tight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder drive plus hip extension",
+        "distractors": {
+          "plausible": [
+            "Arm strength alone",
+            "Explosive single yank"
+          ],
+          "trap": [
+            "Loosen grip to reposition arms"
+          ]
+        }
       },
       {
         "question": "What is the immediate protocol if your partner loses consciousness during the Buggy Choke?",
         "answer": "Immediately release all pressure and remove yourself from their neck area completely. Check their breathing and consciousness level. Place them in recovery position if they're unconscious. Alert your instructor or coach immediately for medical assessment. Never attempt to shake them awake or move them excessively. Most importantly, this situation indicates the choke was held too long past the point they should have tapped, which represents a critical safety failure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, alert coach",
+        "distractors": {
+          "plausible": [
+            "Shake them awake first",
+            "Hold position, wait it out"
+          ],
+          "trap": [
+            "Keep squeezing until they move"
+          ]
+        }
       },
       {
         "question": "Why is the Buggy Choke particularly effective from bottom half guard compared to other submission options?",
         "answer": "The Buggy Choke is effective from bottom half guard because it uses the opponent's forward pressure against them—when they try to flatten you or consolidate position, they unknowingly move into the optimal angle for the choke. It allows a smaller, defensive player to finish a larger opponent using mechanics rather than strength. Additionally, the setup is deceptive; opponents often don't recognize the threat until it's deeply locked, unlike more obvious submissions like armbars where the threat is apparent earlier.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Uses their own forward pressure",
+        "distractors": {
+          "plausible": [
+            "Relies on pure arm strength",
+            "Only works on smaller opponents"
+          ],
+          "trap": [
+            "Best when you let them flatten you"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up during your Buggy Choke attempt - what adjustment prevents escape?",
         "answer": "When opponent begins posturing, immediately extend your legs to break their posture down while turning harder into them to maintain your angle. Use your half guard hook to prevent them from standing or backing away. If they create significant space, you may need to follow them up, transitioning the choke attempt into a sweep or back take rather than abandoning the position entirely. The key is using your legs as anchors while your upper body maintains the choking configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extend legs, turn in harder",
+        "distractors": {
+          "plausible": [
+            "Let them stand and reset",
+            "Pull with arms only"
+          ],
+          "trap": [
+            "Release the hook to chase them"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the finish if opponent begins defending with their free hand?",
         "answer": "If opponent's free hand begins fighting your grip, tighten your choking arm's connection to your body or leg anchor, making it harder to pry loose. You can also use your own free hand to control their defending wrist, pinning it to your body or trapping it between you. The critical adjustment is ensuring your primary choking mechanism—the shoulder and arm pressure—remains intact even if you need to sacrifice some grip configuration. Never release your core choking structure to hand fight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten core grip, pin wrist",
+        "distractors": {
+          "plausible": [
+            "Switch grips completely",
+            "Ignore hand, keep squeezing"
+          ],
+          "trap": [
+            "Let go to hand-fight back"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the choke is properly positioned on the carotid arteries versus the windpipe?",
         "answer": "Proper carotid compression causes the opponent's face to flush red, their eyes may bulge slightly, and they typically tap quickly (within seconds) as blood flow is restricted. Windpipe compression causes choking, coughing, and panic but opponents can often endure it longer while suffering. You should feel your shoulder bone pressing into the soft tissue on the side of their neck, not the front cartilage of the throat. The angle of your body should be perpendicular enough that pressure naturally goes to the side.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face flushes, fast tap",
+        "distractors": {
+          "plausible": [
+            "Loud coughing, slow tap",
+            "Eyes water, no reaction"
+          ],
+          "trap": [
+            "Throat pressure, keep cranking"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategies maximize success rate while maintaining safety awareness?",
         "answer": "In competition, commit fully to the position before attempting the finish—ensure the arm trap is secure and your angle is correct before applying significant pressure. Once committed, apply steady progressive pressure rather than explosive cranking. Watch for opponent's defense patterns and be prepared to transition if they successfully address one element of your control. Even in competition, maintain awareness that opponents may pass out rather than tap, so be prepared to release immediately if they go limp. Winning by submission is not worth causing serious injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lock trap/angle, steady pressure",
+        "distractors": {
+          "plausible": [
+            "Rush the finish immediately",
+            "Crank hard once committed"
+          ],
+          "trap": [
+            "Ignore taps, finish for the win"
+          ]
+        }
       },
       {
         "question": "What physical sensations indicate you have reached the point of no escape for your opponent?",
         "answer": "The point of no escape occurs when your shoulder is fully wedged into the side of their neck, their trapped arm cannot be extracted, and your legs prevent any posture change or roll. You will feel their body become increasingly tense as they recognize the threat, followed by either immediate tap or brief defensive struggle. Their head will be trapped in a fixed position unable to turn away from pressure. At this point, even small increases in pressure will cause the tap—there is no need for explosive finishing force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder wedged, no posture left",
+        "distractors": {
+          "plausible": [
+            "Opponent breathing easy",
+            "Legs still free to move"
+          ],
+          "trap": [
+            "Crank harder just in case"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the Buggy Choke finish primarily target?",
         "answer": "The Buggy Choke finish targets both carotid arteries on the sides of the neck. The sealed loop between your choking arm and same-side leg presses the opponent's own trapped shoulder into one carotid while the strap compresses the other, cutting cerebral blood flow. It is a blood choke, not an airway choke, which is why it can finish in three to five seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids via arm-leg loop",
+        "distractors": {
+          "plausible": [
+            "Windpipe via strap pressure",
+            "Just one carotid artery"
+          ],
+          "trap": [
+            "Airway crush for a fast tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to stiffen and their movement slows noticeably during the finish - what does this indicate?",
         "answer": "Decreased activity and stiffening are indicators of approaching loss of consciousness from carotid compression. This is a critical safety moment requiring heightened awareness of tap signals. The opponent may be unable to tap. If you notice these signs without a tap, consider releasing slightly to check responsiveness before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Signals approaching unconsciousness",
+        "distractors": {
+          "plausible": [
+            "Just getting comfortable",
+            "Normal fatigue setting in"
+          ],
+          "trap": [
+            "Squeeze harder, no need to check"
+          ]
+        }
       },
       {
         "question": "Why is the leg essential to this finish rather than just the choking arm?",
         "answer": "Arm-only pressure compresses just one side of the neck and the opponent can wait it out or posture up. Drawing the same-side knee toward your head forms the second wall of the loop, and connecting hand to shin seals a closed frame that compresses both carotids. The leg converts a weak arm squeeze into a true bilateral blood choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seals loop for bilateral choke",
+        "distractors": {
+          "plausible": [
+            "Only adds extra pain",
+            "Purely for balance control"
+          ],
+          "trap": [
+            "Skip the leg, use arm only"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to straighten and extract the trapped crossface arm during the finish - what adjustment do you make?",
         "answer": "Re-pin the wrist immediately before they can posture, because the trapped arm is one wall of the choke. If the arm is already gone, transition to lockdown to break their posture and threaten the Electric Chair, keeping constant offensive pressure rather than holding a choke that has lost its second wall.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-pin the wrist immediately",
+        "distractors": {
+          "plausible": [
+            "Let it go, hold half guard",
+            "Chase the choke regardless"
+          ],
+          "trap": [
+            "Keep squeezing with one wall gone"
+          ]
+        }
       },
       {
         "question": "What is the optimal moment to transition from control to active finishing pressure?",
         "answer": "The optimal window opens once the crossface arm and head are trapped across your centerline, your knee is drawn to your head, and your hand has reached your shin to seal the loop with no slack. Premature squeezing before the loop closes lets the opponent extract the arm and posture out, while excessive patience lets them stack and walk toward your head to relieve pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Loop sealed, hand at shin",
+        "distractors": {
+          "plausible": [
+            "As soon as arm is trapped",
+            "Once opponent stops moving"
+          ],
+          "trap": [
+            "Squeeze before the loop closes"
+          ]
+        }
       },
       {
         "question": "How should you release the Buggy Choke finish safely after receiving a tap signal?",
         "answer": "Open the hand-to-shin connection and drop your knee immediately upon any tap signal, removing all loop pressure from the neck and releasing the trapped head. Do not gradually reduce pressure or finish the squeeze. Maintain positional awareness after release to ensure your partner is responsive and oriented. If they appear disoriented or unresponsive, place them in recovery position and alert the instructor immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Open loop, drop knee instantly",
+        "distractors": {
+          "plausible": [
+            "Ease pressure gradually",
+            "Finish the squeeze first"
+          ],
+          "trap": [
+            "Hold briefly to confirm tap"
+          ]
+        }
       },
       {
         "question": "Why should you stay underneath instead of trying to come on top during this finish?",
         "answer": "The Buggy Choke uses the opponent's forward passing pressure as its compression engine. Staying underneath keeps the sealed loop intact and lets their committed weight feed their head deeper into the choke. Trying to come on top breaks the loop and surrenders the very pressure that finishes the submission from the bottom.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keeps loop using their pressure",
+        "distractors": {
+          "plausible": [
+            "Top position is always better",
+            "Only prevents them passing"
+          ],
+          "trap": [
+            "Come on top to finish faster"
+          ]
+        }
       },
       {
         "question": "The loop is closed but still feels loose - what adjustment finishes the choke?",
         "answer": "Pull your gripping hand deeper down your shin toward the instep and draw your knee closer to your head, shortening the closed frame so there is no slack. The tighter loop removes the space the opponent needs to spin their head out or relieve carotid pressure, and bridging into them then ratchets the compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shorten grip, knee to head",
+        "distractors": {
+          "plausible": [
+            "Add more body weight only",
+            "Switch to a different grip"
+          ],
+          "trap": [
+            "Loosen grip to reset angle"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing adjustments maximize the percentage of successful taps?",
         "answer": "Competition finishing requires sealing the hand-to-shin loop quickly before the opponent extracts the trapped arm, then immediately drawing the knee to your head and bridging. Keep the trapped arm pinned throughout and use their forward pass as the compression engine. Avoid testing the loop with partial pressure, which alerts opponents and triggers an arm extraction before you are ready.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seal loop fast, knee then bridge",
+        "distractors": {
+          "plausible": [
+            "Test pressure gradually first",
+            "Release trap to reset grip"
+          ],
+          "trap": [
+            "Test partial pressure to gauge"
+          ]
+        }
       }
     ],
     "clips": [
@@ -522,52 +732,152 @@
       {
         "question": "What is the earliest recognition cue that a Buggy Choke is being set up from bottom half guard?",
         "answer": "The earliest cue is the opponent threading their inside arm around or behind your head while simultaneously turning their body sharply into you from bottom half guard. This arm threading is the precursor to the arm trap that makes the choke possible. If you also notice them shifting from standard half guard retention to active posture control with their legs, the setup is already in progress and requires immediate defensive action.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm threading behind your head",
+        "distractors": {
+          "plausible": [
+            "Opponent grabbing your collar",
+            "Sudden hip escape attempt"
+          ],
+          "trap": [
+            "Ignore it, it's just half guard"
+          ]
+        }
       },
       {
         "question": "Why is extracting the trapped arm the highest-priority defensive action against the Buggy Choke?",
         "answer": "The Buggy Choke requires three elements to function: the arm trap, the body angle, and the shoulder compression. Removing the trapped arm eliminates the primary mechanism that creates the choke—without your arm positioned across your own neck, the opponent cannot generate sufficient compression on your carotid arteries regardless of their angle or grip. Arm extraction is faster and more reliable than trying to change the body angle or break the grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Removes the choke's key wall",
+        "distractors": {
+          "plausible": [
+            "Buys time to rest instead",
+            "Improves your guard retention"
+          ],
+          "trap": [
+            "Push forward into their pressure"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel the Buggy Choke tightening and you cannot extract your arm?",
         "answer": "If arm extraction fails and the choke is tightening, you must tap immediately rather than waiting to lose consciousness. Blood chokes can cause unconsciousness within seconds once fully locked. If you still have mobility, attempt one explosive posture change or guard pass completion, but if the choke is deeply locked with full compression, tapping is the correct response. In training, there is no benefit to enduring a fully locked blood choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, don't wait",
+        "distractors": {
+          "plausible": [
+            "Wait it out, it'll loosen",
+            "Try one big explosive escape"
+          ],
+          "trap": [
+            "Hold on and endure the pressure"
+          ]
+        }
       },
       {
         "question": "How does completing the guard pass defend against the Buggy Choke?",
         "answer": "The Buggy Choke depends on the half guard structure to maintain the attacker's leg control and body angle. By completing the pass to side control, you remove the leg entanglement that anchors the attacker's position and change the angle of engagement so their shoulder can no longer compress your neck effectively. The pass must be committed and fast because driving forward temporarily increases pressure before the angle change takes effect.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Removes leg anchor, changes angle",
+        "distractors": {
+          "plausible": [
+            "Only slows the choke down",
+            "Makes little tactical difference"
+          ],
+          "trap": [
+            "Stall in half guard instead"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to pull straight backward when caught in a Buggy Choke?",
         "answer": "Pulling straight backward against a Buggy Choke is dangerous because it loads your body weight into the compression angle, actually tightening the choke rather than relieving it. Your trapped arm extends further across your neck as you pull away, and the attacker's shoulder drives deeper into your carotid. Additionally, backward movement may cause your half guard leg to extend, giving the attacker more leverage with their leg control. The correct movement is either vertical posture extension or forward pass completion.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Loads weight, tightens the choke",
+        "distractors": {
+          "plausible": [
+            "Slightly reduces pressure",
+            "Neutral, doesn't matter much"
+          ],
+          "trap": [
+            "Pull back hard to escape"
+          ]
+        }
       },
       {
         "question": "How do you recognize that the bottom player is transitioning from control to an active Buggy Choke finish?",
         "answer": "The transition is signaled by the bottom player chambering their knee up toward their own head, your crossface arm suddenly feeling pinned and unable to straighten, their hand reaching toward their own shin to close a loop around your head, and compression building on the sides of your neck. These combined changes mean they are sealing the choke rather than just holding half guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knee chambers, hand nears shin",
+        "distractors": {
+          "plausible": [
+            "Just repositioning half guard",
+            "Preparing a sweep attempt"
+          ],
+          "trap": [
+            "Nothing to worry about yet"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Buggy Choke finish?",
         "answer": "Tap clearly and emphatically using multiple signals simultaneously: verbal tap by saying 'tap' loudly, physical hand tap on the bottom player or the mat, and foot tap on the mat. Use whichever signals are available given your arm positioning. Tap early rather than late, as blood chokes can cause rapid loss of consciousness once the loop is sealed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap loud: voice, hand, and foot",
+        "distractors": {
+          "plausible": [
+            "Verbal tap only, stay still",
+            "Wait until pressure builds more"
+          ],
+          "trap": [
+            "Tough it out a bit longer"
+          ]
+        }
       },
       {
         "question": "Why is extracting the trapped crossface arm the priority defense?",
         "answer": "The trapped crossface arm is one wall of the choke and presses your own shoulder into one carotid. Extracting it by straightening the arm and re-pummeling collapses that wall and prevents the bottom player from sealing the loop around it. Without the arm trapped, the choke has no second wall and you can posture up and reset.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collapses one wall of the choke",
+        "distractors": {
+          "plausible": [
+            "Frees grip to escape faster",
+            "Repositions for a sweep"
+          ],
+          "trap": [
+            "Drive forward to create space"
+          ]
+        }
       },
       {
         "question": "Why is driving harder into the pressure a mistake when caught in a forming Buggy Choke?",
         "answer": "Driving forward feeds your head and shoulder deeper into the closing loop and tightens the carotid compression, because the choke uses your own forward passing pressure against you. Instead you must extract the trapped arm and posture out backward, denying the choke the compression engine it depends on.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extract arm, posture backward",
+        "distractors": {
+          "plausible": [
+            "Push through, break the grip",
+            "Wait for pressure to fade"
+          ],
+          "trap": [
+            "Drive forward to escape faster"
+          ]
+        }
       },
       {
         "question": "What defensive options remain once the hand-to-shin loop is fully sealed?",
         "answer": "Once the loop is sealed with the knee drawn to their head, options are severely limited. Attempt a last-resort posture out if any head mobility remains, or recognize when escape is no longer possible and tap immediately. Late-stage defense success rates drop sharply, making early recognition of the knee-to-head cue and prompt arm extraction essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Posture out or tap now",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fatigue",
+            "Try one big explosive roll"
+          ],
+          "trap": [
+            "Keep fighting the grip calmly"
+          ]
+        }
       }
     ],
     "training_progressions": [

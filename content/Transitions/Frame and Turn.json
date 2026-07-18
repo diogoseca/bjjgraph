@@ -221,51 +221,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Frame and Turn?",
-        "answer": "The primary goal is to reduce spinal rotation and recover a defensible position such as Turtle or Half Guard. By systematically creating frames and turning into the opponent, you realign your spine from the compromised twisted position, eliminating the biomechanical advantages that make Twister Control so dangerous."
+        "answer": "The primary goal is to reduce spinal rotation and recover a defensible position such as Turtle or Half Guard. By systematically creating frames and turning into the opponent, you realign your spine from the compromised twisted position, eliminating the biomechanical advantages that make Twister Control so dangerous.",
+        "answer_line": "Realign spine to safe position",
+        "distractors": {
+          "plausible": [
+            "Escape straight to full guard",
+            "Reverse opponent immediately"
+          ],
+          "trap": [
+            "Stay twisted and power out"
+          ]
+        }
       },
       {
         "question": "Why do you turn toward the opponent rather than away during this escape?",
-        "answer": "Turning toward the opponent reduces spinal rotation by bringing your shoulders and hips back into alignment. Turning away would actually increase the rotational torque on your spine, making the position worse and potentially accelerating injury or submission. The counter-intuitive inward turn is fundamental to the escape's effectiveness."
+        "answer": "Turning toward the opponent reduces spinal rotation by bringing your shoulders and hips back into alignment. Turning away would actually increase the rotational torque on your spine, making the position worse and potentially accelerating injury or submission. The counter-intuitive inward turn is fundamental to the escape's effectiveness.",
+        "answer_line": "Turning in reduces spinal rotation",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Stay still, rely on frames only"
+          ],
+          "trap": [
+            "Turn away from opponent"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent locks in a submission grip while you attempt Frame and Turn?",
-        "answer": "Immediately abort the turn and return to defensive frames. If the submission is fully locked, tap without hesitation - spinal and neck safety outweigh positional considerations. Wait for the opponent to adjust their position before reattempting the escape, as continuing the turn with a locked submission grip risks serious injury."
+        "answer": "Immediately abort the turn and return to defensive frames. If the submission is fully locked, tap without hesitation - spinal and neck safety outweigh positional considerations. Wait for the opponent to adjust their position before reattempting the escape, as continuing the turn with a locked submission grip risks serious injury.",
+        "answer_line": "Abort turn, tap if locked",
+        "distractors": {
+          "plausible": [
+            "Keep turning to escape grip",
+            "Power through to complete turn"
+          ],
+          "trap": [
+            "Fight the lock instead of tapping"
+          ]
+        }
       },
       {
         "question": "What are the key grips and frames needed for Frame and Turn?",
-        "answer": "The inside arm creates a forearm frame against the opponent's neck or shoulder to prevent flattening. The free hand protects the neck by cupping your own shoulder or blocking guillotine access. These frames create structural barriers that stop the opponent from deepening control while you work the escape mechanics."
+        "answer": "The inside arm creates a forearm frame against the opponent's neck or shoulder to prevent flattening. The free hand protects the neck by cupping your own shoulder or blocking guillotine access. These frames create structural barriers that stop the opponent from deepening control while you work the escape mechanics.",
+        "answer_line": "Frame neck, hand blocks guillotine",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm first",
+            "Grip opponent's far leg"
+          ],
+          "trap": [
+            "Push off with both hands on mat"
+          ]
+        }
       },
       {
         "question": "When is the optimal time to initiate the turning movement?",
-        "answer": "The optimal time to turn is when the opponent's leg control loosens slightly, often when they adjust their grip or transition between attacks. You should have already established frames and begun working leg extraction before committing to the turn. Never turn while leg control is at maximum - wait for a window created by opponent adjustment."
+        "answer": "The optimal time to turn is when the opponent's leg control loosens slightly, often when they adjust their grip or transition between attacks. You should have already established frames and begun working leg extraction before committing to the turn. Never turn while leg control is at maximum - wait for a window created by opponent adjustment.",
+        "answer_line": "Turn when leg control loosens",
+        "distractors": {
+          "plausible": [
+            "Turn as soon as frames are set",
+            "Turn immediately at first contact"
+          ],
+          "trap": [
+            "Turn while leg control is tightest"
+          ]
+        }
       },
       {
         "question": "How do you address the trapped leg during Frame and Turn?",
-        "answer": "Push against the opponent's controlling leg with your free leg to create incremental space rather than attempting explosive extraction. Angle your knee outward to reduce the effectiveness of their leg hook. Work in small movements while maintaining frames, and only commit to the turn when you feel the leg control weaken."
+        "answer": "Push against the opponent's controlling leg with your free leg to create incremental space rather than attempting explosive extraction. Angle your knee outward to reduce the effectiveness of their leg hook. Work in small movements while maintaining frames, and only commit to the turn when you feel the leg control weaken.",
+        "answer_line": "Push leg, angle knee outward",
+        "distractors": {
+          "plausible": [
+            "Yank leg free explosively",
+            "Kick leg straight to escape"
+          ],
+          "trap": [
+            "Force leg extraction under max grip"
+          ]
+        }
       },
       {
         "question": "What recovery positions can you achieve from successful Frame and Turn?",
-        "answer": "The two primary recovery positions are Turtle (by completing the turn and establishing base with knees under you) or Half Guard (by continuing the turn to face opponent and inserting knee shield). Turtle is more common and easier to achieve, while Half Guard requires more complete rotation but offers better guard retention options."
+        "answer": "The two primary recovery positions are Turtle (by completing the turn and establishing base with knees under you) or Half Guard (by continuing the turn to face opponent and inserting knee shield). Turtle is more common and easier to achieve, while Half Guard requires more complete rotation but offers better guard retention options.",
+        "answer_line": "Turtle or Half Guard",
+        "distractors": {
+          "plausible": [
+            "Full guard or mount",
+            "Side control or back mount"
+          ],
+          "trap": [
+            "Twister Control reversed"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hunting for the Twister finish while you have partial frames established - how do you adjust?",
-        "answer": "Prioritize neck protection immediately by reinforcing your chin tuck and bringing your free hand to defend the neck crank. Abandon any leg extraction work temporarily and focus entirely on preventing the submission from being locked in. Only resume the escape sequence once you have neutralized the immediate submission threat, as the Twister finish carries significant injury risk."
+        "answer": "Prioritize neck protection immediately by reinforcing your chin tuck and bringing your free hand to defend the neck crank. Abandon any leg extraction work temporarily and focus entirely on preventing the submission from being locked in. Only resume the escape sequence once you have neutralized the immediate submission threat, as the Twister finish carries significant injury risk.",
+        "answer_line": "Protect neck first, pause legwork",
+        "distractors": {
+          "plausible": [
+            "Continue leg extraction anyway",
+            "Rush the turn to escape"
+          ],
+          "trap": [
+            "Ignore neck, power the turn"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when driving through the turn?",
-        "answer": "The force should be directed into the mat with your bottom hip while your top hip rotates over and toward the opponent. This creates a rolling motion that reduces spinal rotation rather than fighting against it. Your frame provides the push-off point while the hips generate the rotational force needed to complete the turn to Turtle or Half Guard."
+        "answer": "The force should be directed into the mat with your bottom hip while your top hip rotates over and toward the opponent. This creates a rolling motion that reduces spinal rotation rather than fighting against it. Your frame provides the push-off point while the hips generate the rotational force needed to complete the turn to Turtle or Half Guard.",
+        "answer_line": "Drive bottom hip down, top hip over",
+        "distractors": {
+          "plausible": [
+            "Push both hips forward equally",
+            "Drive with shoulders, not hips"
+          ],
+          "trap": [
+            "Force top hip down into mat"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your turn and secures a seatbelt grip on your back - what chain technique should you use?",
-        "answer": "Transition immediately to standard back escape sequences such as the Back Door Escape. The key recognition is that back control without spinal rotation is a significant positional improvement from Twister Control. Fight their choking hand first, work to get your back to the mat by turning into the underhook side, and look to extract hooks systematically."
+        "answer": "Transition immediately to standard back escape sequences such as the Back Door Escape. The key recognition is that back control without spinal rotation is a significant positional improvement from Twister Control. Fight their choking hand first, work to get your back to the mat by turning into the underhook side, and look to extract hooks systematically.",
+        "answer_line": "Back Door Escape sequence",
+        "distractors": {
+          "plausible": [
+            "Restart Frame and Turn from scratch",
+            "Bridge and roll to escape"
+          ],
+          "trap": [
+            "Stay still and accept back control"
+          ]
+        }
       },
       {
         "question": "Why is breathing control emphasized during this escape?",
-        "answer": "The Twister Control position compresses your chest and the spinal rotation restricts normal breathing mechanics. Panic breathing burns energy rapidly and makes systematic escape impossible. Controlled breathing maintains composure, preserves energy for the escape sequence, and prevents the mental panic that leads to poor technical decisions."
+        "answer": "The Twister Control position compresses your chest and the spinal rotation restricts normal breathing mechanics. Panic breathing burns energy rapidly and makes systematic escape impossible. Controlled breathing maintains composure, preserves energy for the escape sequence, and prevents the mental panic that leads to poor technical decisions.",
+        "answer_line": "Preserves energy, prevents panic",
+        "distractors": {
+          "plausible": [
+            "Hold breath to brace for escape",
+            "Breathe fast to move quicker"
+          ],
+          "trap": [
+            "Gasp to signal opponent to ease up"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful Frame and Turn from a failed attempt that worsens position?",
-        "answer": "Success requires proper sequencing: frames first, neck protection concurrent, leg work before turn, then committed turn to completion. Failed attempts typically involve explosive movement before establishing frames, turning away instead of into opponent, stopping halfway through the turn, or neglecting neck protection. The technique must be methodical rather than reactive."
+        "answer": "Success requires proper sequencing: frames first, neck protection concurrent, leg work before turn, then committed turn to completion. Failed attempts typically involve explosive movement before establishing frames, turning away instead of into opponent, stopping halfway through the turn, or neglecting neck protection. The technique must be methodical rather than reactive.",
+        "answer_line": "Frames, neck, legs, then full turn",
+        "distractors": {
+          "plausible": [
+            "Turn first, then set frames",
+            "Skip neck protection, turn fast"
+          ],
+          "trap": [
+            "Explode into turn immediately"
+          ]
+        }
       }
     ],
     "safety_considerations": "Frame and Turn involves escaping from a position with significant spinal rotation, making safety paramount throughout execution. Never attempt explosive escape movements while your spine is fully rotated, as this can cause serious cervical or thoracic injury. Tap immediately if opponent locks in a Twister submission grip - the potential for neck injury outweighs any positional considerations. During training, communicate clearly with partners about the intensity of rotational pressure. Practice initially with cooperative partners who release upon request. Be especially cautious about neck cranks and guillotine attempts during the turning phase. If you experience any sharp pain, numbness, or tingling during the escape, stop immediately and tap. The discomfort of Twister Control is expected, but pain indicating potential injury requires immediate termination of the technique.",
@@ -373,23 +493,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating Frame and Turn?",
-        "answer": "The earliest cue is when the bottom player establishes a forearm frame against your neck or shoulder rather than purely defending the neck. This structural posting indicates they are shifting from survival mode to systematic escape, and it signals that they will next begin working their trapped leg. Intervening at this stage by increasing pressure is far more effective than waiting for the turn."
+        "answer": "The earliest cue is when the bottom player establishes a forearm frame against your neck or shoulder rather than purely defending the neck. This structural posting indicates they are shifting from survival mode to systematic escape, and it signals that they will next begin working their trapped leg. Intervening at this stage by increasing pressure is far more effective than waiting for the turn.",
+        "answer_line": "Forearm frame posted on shoulder",
+        "distractors": {
+          "plausible": [
+            "Bottom player starts breathing hard",
+            "Bottom player pushes on hips"
+          ],
+          "trap": [
+            "Wait for the full turn to react"
+          ]
+        }
       },
       {
         "question": "Why is leg control the highest defensive priority against Frame and Turn?",
-        "answer": "Leg control preserves the spinal rotation that defines Twister Control. The trapped leg serves as the anchor that keeps the bottom player's hips rotated away from their shoulders. Once the leg is freed, the rotational constraint disappears and the bottom player can turn freely into Turtle or Half Guard. No amount of upper body pressure compensates for lost leg control."
+        "answer": "Leg control preserves the spinal rotation that defines Twister Control. The trapped leg serves as the anchor that keeps the bottom player's hips rotated away from their shoulders. Once the leg is freed, the rotational constraint disappears and the bottom player can turn freely into Turtle or Half Guard. No amount of upper body pressure compensates for lost leg control.",
+        "answer_line": "It anchors the spinal rotation",
+        "distractors": {
+          "plausible": [
+            "Upper body pressure matters most",
+            "Neck control matters most"
+          ],
+          "trap": [
+            "Release leg to reset grips"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun turning their hips toward you and you cannot stop the rotation - what is the best response?",
-        "answer": "Follow the turn and transition to back control by maintaining chest-to-back connection throughout their rotation. As they arrive in Turtle position, immediately work to insert hooks and establish seatbelt control. This is an acceptable positional trade because back control remains an offensive dominant position, and attempting to fight the committed turn often results in losing all control entirely."
+        "answer": "Follow the turn and transition to back control by maintaining chest-to-back connection throughout their rotation. As they arrive in Turtle position, immediately work to insert hooks and establish seatbelt control. This is an acceptable positional trade because back control remains an offensive dominant position, and attempting to fight the committed turn often results in losing all control entirely.",
+        "answer_line": "Follow turn, take back control",
+        "distractors": {
+          "plausible": [
+            "Fight the turn to keep Twister",
+            "Release all grips and reset"
+          ],
+          "trap": [
+            "Force legs straight to stop turn"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pressure when the bottom player's breathing becomes controlled and deliberate?",
-        "answer": "Controlled breathing signals that the bottom player has shifted from panic to systematic escape execution, which means they are more dangerous. Increase your offensive pressure by hunting submissions more aggressively to force them back into reactive defense. Alternate between Twister finish threats, guillotine setups, and calf slicer entries to prevent them from settling into a calm, methodical escape rhythm."
+        "answer": "Controlled breathing signals that the bottom player has shifted from panic to systematic escape execution, which means they are more dangerous. Increase your offensive pressure by hunting submissions more aggressively to force them back into reactive defense. Alternate between Twister finish threats, guillotine setups, and calf slicer entries to prevent them from settling into a calm, methodical escape rhythm.",
+        "answer_line": "Increase pressure, hunt subs harder",
+        "distractors": {
+          "plausible": [
+            "Ease off, let them recover fully",
+            "Switch to pure positional control"
+          ],
+          "trap": [
+            "Release leg control to reset pace"
+          ]
+        }
       },
       {
         "question": "What is the risk-reward calculation of attempting a guillotine as the opponent turns into you?",
-        "answer": "The guillotine attempt during the turn is moderate risk, high reward. If successful, you either finish the submission or force the opponent to abort the turn and return to defensive posture. If it fails, the opponent likely completes the turn to Turtle since you may lose leg control while adjusting for the choke. The decision depends on the depth of your guillotine grip - only commit if you achieve a clean chin strap or high elbow position during the turn."
+        "answer": "The guillotine attempt during the turn is moderate risk, high reward. If successful, you either finish the submission or force the opponent to abort the turn and return to defensive posture. If it fails, the opponent likely completes the turn to Turtle since you may lose leg control while adjusting for the choke. The decision depends on the depth of your guillotine grip - only commit if you achieve a clean chin strap or high elbow position during the turn.",
+        "answer_line": "Only commit with a clean deep grip",
+        "distractors": {
+          "plausible": [
+            "Always attempt the guillotine",
+            "Never attempt, too risky"
+          ],
+          "trap": [
+            "Grab loosely to slow the turn"
+          ]
+        }
       }
     ],
     "training_progressions": [

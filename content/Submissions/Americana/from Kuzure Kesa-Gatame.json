@@ -304,52 +304,152 @@
       {
         "question": "What anatomical structures does the Americana from Kuzure Kesa-Gatame specifically attack?",
         "answer": "The Americana attacks the glenohumeral joint through forced external rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the associated ligaments. The paint motion creates maximum torque on these structures by using the forearm as a lever against the pinned shoulder, with the elbow serving as the fulcrum point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder via external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist joint compression"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their trapped arm during your figure-four threading attempt - what immediate adjustment do you make?",
         "answer": "Abandon the americana and immediately transition to the armbar. Their straightened arm is the exact setup for an armbar finish. Maintain your wrist grip, pivot your hips over their extended arm, and apply downward pressure on the elbow joint. The arm extension that defeats the americana creates a higher-percentage armbar opportunity. This americana-to-armbar chain is the fundamental attacking dilemma from this position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to armbar",
+        "distractors": {
+          "plausible": [
+            "Force the arm back to bent",
+            "Re-grip and restart americana"
+          ],
+          "trap": [
+            "Release grip, reset position"
+          ]
+        }
       },
       {
         "question": "Why is maintaining hip pressure into the opponent's ribs critical throughout the finishing sequence?",
         "answer": "Hip pressure serves three simultaneous functions: it pins the opponent's shoulder to the mat creating the fixed point the americana requires for leverage, it restricts their breathing and explosive energy for bridging escapes, and it prevents them from turning into you to relieve rotational shoulder pressure. Releasing hip pressure to chase the grip eliminates all three of these advantages and typically results in losing both the submission and the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pins shoulder, limits bridging",
+        "distractors": {
+          "plausible": [
+            "Only for controlling breathing",
+            "Mainly to block their grips"
+          ],
+          "trap": [
+            "Chase grip, sacrifice hips"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Americana from Kuzure Kesa-Gatame in training?",
         "answer": "Apply the paint progressively over three to five seconds minimum, never jerk or spike the rotation. Use no more than 10-20% pressure in drilling. Monitor for all tap signals including verbal taps, hand or foot taps on any surface, and distress vocalizations. Release immediately upon any signal by stopping all rotational pressure first, then carefully returning the arm to neutral. Never repeatedly attack the same shoulder in a single session, and never train this technique with partners who have existing shoulder injuries without medical clearance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, low pressure, watch taps",
+        "distractors": {
+          "plausible": [
+            "Full pressure builds tolerance",
+            "Quick taps, then repeat drilling"
+          ],
+          "trap": [
+            "Spike rotation to test tap speed"
+          ]
+        }
       },
       {
         "question": "How should you release the Americana from Kuzure Kesa-Gatame immediately after your partner taps?",
         "answer": "First stop all rotational pressure on the shoulder - this is the highest priority since continued rotation causes injury. Then release the figure-four grip entirely. Carefully lower the arm back to a neutral position beside the body without dropping it suddenly, as the shoulder may be sensitized. Release elbow and wrist control to allow free movement. Verbally check with your partner to confirm they are not injured before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotation first, then release",
+        "distractors": {
+          "plausible": [
+            "Release grip before pressure",
+            "Lower arm quickly to reset"
+          ],
+          "trap": [
+            "Keep grip, ease pressure slowly"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt with the trapped hand to prevent you from painting the arm - how do you break this defensive grip?",
         "answer": "Rather than fighting the grip directly with arm strength, use your hip pressure and figure-four leverage to walk their elbow progressively away from their body. As the distance between their hand and belt increases, the grip becomes mechanically unsustainable and breaks under positional pressure. Alternatively, switch your attack angle to the kimura by reversing your grip direction, which exploits their fixed grip commitment by attacking the shoulder from the opposite rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk elbow away from body",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped hand hard",
+            "Pry fingers off the belt"
+          ],
+          "trap": [
+            "Yank wrist to snap grip fast"
+          ]
+        }
       },
       {
         "question": "What makes the Americana from Kuzure Kesa-Gatame mechanically different from the Americana applied from mount?",
         "answer": "From Kuzure Kesa-Gatame, the arm is already isolated and trapped before the americana sequence begins, eliminating the arm-separation phase that is the most common failure point from mount. The seated base provides lateral stability and constant hip pressure that pins the shoulder to the mat more effectively than mount's vertical pressure. However, the finishing angle requires painting toward the hip rather than toward the mat, and the opponent's bridge direction threatens a different escape vector. The seated position also means your base is inherently less mobile, requiring wider leg posting for stability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm pre-isolated, paint toward hip",
+        "distractors": {
+          "plausible": [
+            "Same angle, just seated base",
+            "Requires less hip pressure"
+          ],
+          "trap": [
+            "Paint straight down to mat"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana sequence does the submission become inescapable for the defender?",
         "answer": "The point of no escape occurs when the figure-four grip is fully locked with the grip positioned close to the elbow joint AND the wrist is pinned firmly to the mat AND hip pressure maintains the shoulder pinned flat. Once all three conditions are met simultaneously, the defender cannot generate enough force to break any single control point. Before this convergence, defenders can still recover by straightening the arm, breaking wrist contact with the mat, or bridging to shift the shoulder off the mat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, wrist pinned, hips down",
+        "distractors": {
+          "plausible": [
+            "Once figure-four grip is locked",
+            "When wrist touches the mat"
+          ],
+          "trap": [
+            "As soon as paint motion starts"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if your figure-four keeps slipping during the paint phase?",
         "answer": "First verify your grip is positioned close enough to the opponent's elbow joint, as gripping too far down the forearm creates excessive lever length that pulls the grip apart. Ensure you are gripping your own wrist bone, not your fingers or hand. In no-gi, dry your hands on your shorts or the mat between attempts. Squeeze your elbows together to tighten the overall figure-four structure rather than gripping harder with your hands. If slipping persists, the arm may be too sweaty - adjust to a gable grip or palm-to-palm variation that does not rely on wrist-on-wrist friction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip near elbow, squeeze elbows in",
+        "distractors": {
+          "plausible": [
+            "Grip harder with fingers",
+            "Grip further down forearm"
+          ],
+          "trap": [
+            "Chase grip, release hips"
+          ]
+        }
       },
       {
         "question": "How do you set up the Americana when your opponent keeps their trapped elbow pinched tightly to their ribs?",
         "answer": "Use your hip pressure angle to create a wedge between their elbow and ribs. Shift your hip slightly higher on their torso so the pressure drives their upper arm away from their body while their elbow remains fixed, creating separation. Alternatively, use a push-pull sequence: drive their wrist toward their head momentarily to create a reaction, then redirect toward the americana angle as they resist. The key is never fighting the elbow position statically but using directional pressure changes to create the opening.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shift hip angle to wedge elbow",
+        "distractors": {
+          "plausible": [
+            "Pry elbow off ribs with hands",
+            "Pull wrist straight up hard"
+          ],
+          "trap": [
+            "Muscle the arm straight out"
+          ]
+        }
       }
     ],
     "clips": [
@@ -462,22 +562,62 @@
       {
         "question": "How do you recognize that the Americana from Kuzure Kesa-Gatame is being set up?",
         "answer": "Watch for the attacker's near-side hand reaching across to grip your trapped wrist, increased chest pressure on your forearm as they begin pinning it to the mat, and their far-side arm threading underneath your elbow. The earliest and most reliable cue is the wrist grip - once they secure it, the submission sequence has begun. A hip angle shift to approximately 45 degrees through your shoulder signals the finishing phase is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel wrist grip, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Feel knee sliding across hips",
+            "Feel collar grip tightening"
+          ],
+          "trap": [
+            "Ignore until pain begins"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Americana from Kuzure Kesa-Gatame?",
         "answer": "Tap early - before you feel sharp pain, when you recognize the position is locked and escape is no longer viable. Use your free hand to tap the attacker's body or the mat at least twice with clear, firm strikes. If your free hand is obstructed, tap the mat with either foot or verbally say 'tap' loudly. Do not try to be tough and fight through shoulder pain, as the rotator cuff can tear suddenly without warning once the paint reaches critical angle. Tap during training when you feel the lock tighten, not when you feel pain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, hand or mat, twice",
+        "distractors": {
+          "plausible": [
+            "Tap once pain becomes sharp",
+            "Say tap only, no hand tap"
+          ],
+          "trap": [
+            "Fight through, tap at max pain"
+          ]
+        }
       },
       {
         "question": "What defensive arm position best prevents the Americana while maintaining escape potential?",
         "answer": "Keep the trapped arm bent at approximately 90 degrees with your elbow pinched tightly to your ribs and your hand positioned toward your opposite shoulder. This bend prevents the armbar threat that comes from full extension while the elbow-to-rib contact creates a physical barrier against the figure-four threading. Maintain slight internal rotation at the shoulder to deny the americana finishing angle. This position is sustainable and keeps all three defensive options available: grip defense, arm straightening disruption, and arm recovery during transitions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow to ribs, hand to shoulder",
+        "distractors": {
+          "plausible": [
+            "Arm fully extended, elbow out",
+            "Hand pushing attacker's hip"
+          ],
+          "trap": [
+            "Straighten arm to create space"
+          ]
+        }
       },
       {
         "question": "When should you prioritize defending the submission over attempting positional escapes?",
         "answer": "Prioritize submission defense when the figure-four grip is already established and the paint has begun - at this point, attempting a bridge or hip escape without addressing the locked submission will result in getting finished during the escape attempt. However, once you have stalled the submission with a defensive grip, immediately begin combining positional escape work with your grip defense. Pure submission defense without escape attempts is a losing strategy because it only delays the finish while depleting your energy reserves.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defend grip first, then escape",
+        "distractors": {
+          "plausible": [
+            "Always escape before defending",
+            "Ignore grip, bridge immediately"
+          ],
+          "trap": [
+            "Pure defense, no escape attempt"
+          ]
+        }
       }
     ],
     "training_progressions": [

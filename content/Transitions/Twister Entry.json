@@ -330,13 +330,14 @@
         "answer": "Maintain the seatbelt grip throughout hook threading and the figure-four, releasing it only after the figure-four is fully locked and the hips are immobilized. The seatbelt (one arm over the shoulder, one arm under the armpit, hands clasped on the chest) anchors your upper body to the opponent's back, preventing them from turning in or creating separation during the vulnerable transition phase. Only release or adjust it after you have verified that the opponent's hips are immobilized by the completed figure-four. Releasing the seatbelt prematurely is the single most common cause of failed Twister entries.",
         "distractors": {
           "plausible": [
-            "Maintain a two-on-one grip on the near wrist during threading, then switch to the seatbelt once the figure-four is locked.",
-            "Maintain the seatbelt only until your hook is threaded, since the legs take over control once the hook is in place."
+            "Release once hooks are in",
+            "Switch to double underhooks"
           ],
           "trap": [
-            "Release the seatbelt as you thread the hook so both hands are free to post on the mat and drive your hips deeper."
+            "Let go to free hands faster"
           ]
-        }
+        },
+        "answer_line": "Hold seatbelt till figure-4 locks"
       },
       {
         "question": "How does the direction of force differ between the hook threading phase and the figure-four completion phase?",
@@ -357,13 +358,14 @@
         "answer": "After a failed Twister entry, chain immediately to the back take, crucifix, crab ride, or direct choke threats still available from cross body ride. Specifically: back take by walking your hooks toward standard seatbelt back control with double under-hooks, crucifix entry by isolating the near-side arm when they post to defend, crab ride transition by establishing hooks on their hips for an alternative back attack angle, or chokes such as the bow and arrow or clock choke if collar grips are available. The key is not stalling after a failed attempt — immediately switch to the next highest-percentage attack based on the opponent's current defensive posture.",
         "distractors": {
           "plausible": [
-            "After a failed entry, reset to a strong cross body ride and wait until the opponent fully relaxes before attacking again.",
-            "After a failed entry, the primary follow-up is pulling half guard so you keep a leg entanglement on the near leg."
+            "Reset to closed guard",
+            "Retry twister from scratch"
           ],
           "trap": [
-            "After a failed entry, release your grips and disengage back to standing so you cannot be caught under a reversal."
+            "Release ride to reset position"
           ]
-        }
+        },
+        "answer_line": "Back take, crucifix, crab ride"
       },
       {
         "question": "When is the optimal timing window to initiate the Twister entry during a cross body ride exchange?",

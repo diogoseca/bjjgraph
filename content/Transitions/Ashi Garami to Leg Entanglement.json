@@ -255,35 +255,115 @@
     "flashcards": [
       {
         "question": "Why is it critical to time the counter-entanglement during the opponent's advancement attempt rather than during static control?",
-        "answer": "During advancement attempts, the opponent shifts their free leg and adjusts their hooking configuration, creating momentary gaps in their leg management. Their focus is on improving their own position rather than monitoring their far leg's vulnerability. This transitional moment provides the widest threading window for your free leg. During static control, the opponent's legs are optimally configured for both controlling your leg and protecting their own, making counter-entanglement significantly harder to achieve."
+        "answer": "During advancement attempts, the opponent shifts their free leg and adjusts their hooking configuration, creating momentary gaps in their leg management. Their focus is on improving their own position rather than monitoring their far leg's vulnerability. This transitional moment provides the widest threading window for your free leg. During static control, the opponent's legs are optimally configured for both controlling your leg and protecting their own, making counter-entanglement significantly harder to achieve.",
+        "answer_line": "Thread during their re-pummel gaps",
+        "distractors": {
+          "plausible": [
+            "Wait until they lock in control",
+            "Counter as soon as contact starts"
+          ],
+          "trap": [
+            "Attack once heel hook is set"
+          ]
+        }
       },
       {
         "question": "What is the role of the grip on the opponent's entangling foot during the counter-entanglement entry?",
-        "answer": "The grip on the opponent's entangling foot serves two critical functions simultaneously. First, it freezes their entanglement at its current level by preventing them from re-pummeling or advancing their hooks deeper while you thread your counter-entry. Second, it anchors their lower body in place so your free leg has a stable target to thread against rather than chasing a moving hip. Releasing this grip to use both hands for base is one of the most common errors because it allows the opponent to advance freely during your entry."
+        "answer": "The grip on the opponent's entangling foot serves two critical functions simultaneously. First, it freezes their entanglement at its current level by preventing them from re-pummeling or advancing their hooks deeper while you thread your counter-entry. Second, it anchors their lower body in place so your free leg has a stable target to thread against rather than chasing a moving hip. Releasing this grip to use both hands for base is one of the most common errors because it allows the opponent to advance freely during your entry.",
+        "answer_line": "Freeze foot and anchor entry",
+        "distractors": {
+          "plausible": [
+            "Freeze foot, free your hands",
+            "Anchor hip, ignore the foot"
+          ],
+          "trap": [
+            "Release grip for double base"
+          ]
+        }
       },
       {
         "question": "When should you abandon the counter-entanglement attempt and switch to a different defensive option?",
-        "answer": "Abandon the counter-entanglement if the opponent advances past Inside Ashi to Cross Ashi or Saddle before you can thread your free leg, as entering a bilateral exchange from that disadvantage is losing strategy. Also abort if your threading attempt is blocked and the opponent begins accelerating their heel hook attack, since the half-committed position leaves you more vulnerable than your starting defensive posture. Switch to emergency heel protection and Ashi Garami Escape mechanics in either scenario."
+        "answer": "Abandon the counter-entanglement if the opponent advances past Inside Ashi to Cross Ashi or Saddle before you can thread your free leg, as entering a bilateral exchange from that disadvantage is losing strategy. Also abort if your threading attempt is blocked and the opponent begins accelerating their heel hook attack, since the half-committed position leaves you more vulnerable than your starting defensive posture. Switch to emergency heel protection and Ashi Garami Escape mechanics in either scenario.",
+        "answer_line": "Opponent hits Cross Ashi or Saddle",
+        "distractors": {
+          "plausible": [
+            "Opponent advances past Outside Ashi",
+            "Threading takes over 3 seconds"
+          ],
+          "trap": [
+            "Push through the heel hook attack"
+          ]
+        }
       },
       {
         "question": "Why does maintaining elevated base throughout the threading sequence matter for the resulting bilateral exchange?",
-        "answer": "The top player's gravitational advantage is the primary differentiator in the resulting bilateral entanglement. Maintaining elevated posture on a knee or in squat position means you can drive weight downward onto the opponent's midsection, flattening their upper body and limiting their angle creation. If you go flat during the threading, the exchange becomes symmetrical and you lose the one advantage that made entering the exchange strategically sound. Your ability to drive weight down while the opponent must generate force upward determines who controls inside space."
+        "answer": "The top player's gravitational advantage is the primary differentiator in the resulting bilateral entanglement. Maintaining elevated posture on a knee or in squat position means you can drive weight downward onto the opponent's midsection, flattening their upper body and limiting their angle creation. If you go flat during the threading, the exchange becomes symmetrical and you lose the one advantage that made entering the exchange strategically sound. Your ability to drive weight down while the opponent must generate force upward determines who controls inside space.",
+        "answer_line": "Elevated base drives weight down",
+        "distractors": {
+          "plausible": [
+            "Flat base equalizes leverage",
+            "Base only matters after arrival"
+          ],
+          "trap": [
+            "Go flat to match their hips"
+          ]
+        }
       },
       {
         "question": "How does inside space control after establishing counter-entanglement determine who wins the bilateral exchange?",
-        "answer": "Inside space control, meaning your knee is positioned between your hip and the opponent's hip on the entangled side, determines positional hierarchy in any leg entanglement. The practitioner with inside space can advance to dominant variants like Saddle or Cross Ashi, while the practitioner without inside space is limited to neutral or inferior positions. Immediately fighting for this space upon arrival is critical because the first few seconds after establishing bilateral entanglement are when both practitioners' hooking configurations are still settling and malleable."
+        "answer": "Inside space control, meaning your knee is positioned between your hip and the opponent's hip on the entangled side, determines positional hierarchy in any leg entanglement. The practitioner with inside space can advance to dominant variants like Saddle or Cross Ashi, while the practitioner without inside space is limited to neutral or inferior positions. Immediately fighting for this space upon arrival is critical because the first few seconds after establishing bilateral entanglement are when both practitioners' hooking configurations are still settling and malleable.",
+        "answer_line": "Fight for inside space immediately",
+        "distractors": {
+          "plausible": [
+            "Secure outside position first",
+            "Wait for hooks to settle first"
+          ],
+          "trap": [
+            "Abandon space, grip their toes"
+          ]
+        }
       },
       {
         "question": "Your opponent is holding Outside Ashi on your right leg and begins pumping their inside hook deeper to advance to Inside Ashi. How do you exploit this window?",
-        "answer": "As they pump their inside hook deeper, their far leg (outside leg) must temporarily disengage or loosen to allow the re-pummel. This creates a threading window for your free left leg to step over their far hip and establish your own hook behind their knee. Simultaneously, grip their right foot with your left hand to freeze their advancement mid-transition. The key is acting during their pummel motion, not after they have completed it, because once Inside Ashi is fully established their leg configuration closes the threading gap."
+        "answer": "As they pump their inside hook deeper, their far leg (outside leg) must temporarily disengage or loosen to allow the re-pummel. This creates a threading window for your free left leg to step over their far hip and establish your own hook behind their knee. Simultaneously, grip their right foot with your left hand to freeze their advancement mid-transition. The key is acting during their pummel motion, not after they have completed it, because once Inside Ashi is fully established their leg configuration closes the threading gap.",
+        "answer_line": "Step over hip, grip their foot",
+        "distractors": {
+          "plausible": [
+            "Wait for Inside Ashi to lock",
+            "Free leg circles the outside hook"
+          ],
+          "trap": [
+            "Release grip to post both hands"
+          ]
+        }
       },
       {
         "question": "What distinguishes this transition from Counter Ashi Entry, and when would you choose one over the other?",
-        "answer": "Counter Ashi Entry establishes a specific Ashi Garami variant on the opponent's leg, targeting a defined position like Outside Ashi-Garami. Transition to Leg Entanglement enters a broader bilateral exchange that may result in various entanglement configurations including 50-50, asymmetric exchanges, or transitional positions. Choose Counter Ashi Entry when you have a clear line to a specific dominant variant. Choose Transition to Leg Entanglement when the situation is more scramble-oriented, when you need to neutralize the opponent's advantage quickly without a specific target variant, or when their positioning makes targeted counter-entry difficult."
+        "answer": "Counter Ashi Entry establishes a specific Ashi Garami variant on the opponent's leg, targeting a defined position like Outside Ashi-Garami. Transition to Leg Entanglement enters a broader bilateral exchange that may result in various entanglement configurations including 50-50, asymmetric exchanges, or transitional positions. Choose Counter Ashi Entry when you have a clear line to a specific dominant variant. Choose Transition to Leg Entanglement when the situation is more scramble-oriented, when you need to neutralize the opponent's advantage quickly without a specific target variant, or when their positioning makes targeted counter-entry difficult.",
+        "answer_line": "Targets scramble, not one variant",
+        "distractors": {
+          "plausible": [
+            "Only used against Saddle attempts",
+            "Requires a clear entry line first"
+          ],
+          "trap": [
+            "Always prefer it over Counter Ashi"
+          ]
+        }
       },
       {
         "question": "If your counter-entanglement results in a 50-50 position, what is your immediate offensive priority?",
-        "answer": "Your immediate priority in 50-50 is winning the inside space battle by driving your knee toward the centerline and establishing inside hook dominance. From 50-50 with inside space, you can advance to Inside Ashi on the opponent's leg, then to Cross Ashi or Saddle. Without inside space, you are stuck in a neutral exchange. Use your base advantage from having been the top player to drive weight into the inside space fight while the opponent adjusts to the new bilateral configuration. The first 5 seconds after arriving in 50-50 typically determine who gains hierarchy advantage."
+        "answer": "Your immediate priority in 50-50 is winning the inside space battle by driving your knee toward the centerline and establishing inside hook dominance. From 50-50 with inside space, you can advance to Inside Ashi on the opponent's leg, then to Cross Ashi or Saddle. Without inside space, you are stuck in a neutral exchange. Use your base advantage from having been the top player to drive weight into the inside space fight while the opponent adjusts to the new bilateral configuration. The first 5 seconds after arriving in 50-50 typically determine who gains hierarchy advantage.",
+        "answer_line": "Drive knee, win inside space",
+        "distractors": {
+          "plausible": [
+            "Attack the heel immediately",
+            "Flatten out to conserve energy"
+          ],
+          "trap": [
+            "Release base to attack far heel"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves entering bilateral leg entanglement where both practitioners have access to dangerous lower body submissions including heel hooks and kneebars. Always maintain awareness of your own heel exposure throughout the threading sequence and resulting exchange. Tap immediately if your heel becomes trapped in a finishing configuration rather than fighting through it, as knee ligament injuries from heel hooks develop rapidly and with minimal warning. During training, perform the threading sequence at controlled speed and communicate with your partner about resistance levels. Never force counter-entanglement entries against fully resisting training partners until the mechanical pattern is thoroughly drilled at lower intensities.",
@@ -401,15 +481,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that distinguishes a counter-entanglement attempt from a standard leg extraction escape?",
-        "answer": "The direction of the opponent's hip movement is the earliest distinguishing cue. During standard leg extraction, the opponent drives their hips backward to create distance and pull their trapped leg free. During counter-entanglement, the opponent drives their hips forward toward you to close distance and bring their free leg within threading range. This directional difference is detectable before the actual leg threading begins, providing a critical early warning window."
+        "answer": "The direction of the opponent's hip movement is the earliest distinguishing cue. During standard leg extraction, the opponent drives their hips backward to create distance and pull their trapped leg free. During counter-entanglement, the opponent drives their hips forward toward you to close distance and bring their free leg within threading range. This directional difference is detectable before the actual leg threading begins, providing a critical early warning window.",
+        "answer_line": "Hips drive forward, not back",
+        "distractors": {
+          "plausible": [
+            "Opponent tightens their hook",
+            "Opponent grips your near foot"
+          ],
+          "trap": [
+            "Wait until the leg fully threads"
+          ]
+        }
       },
       {
         "question": "Why does advancing to Inside Ashi or deeper positions make counter-entanglement significantly harder for the opponent?",
-        "answer": "Inside Ashi and deeper positions like Cross Ashi and Saddle require your legs to be configured with superior inside space control, which means your knees are pinched inward and your hooks are threaded deeply behind the opponent's knee. This configuration physically narrows the gap between your legs and body that the opponent needs to thread their free leg through. Additionally, deeper positions expose the opponent's heel more directly, making the time investment of attempting a counter-thread increasingly dangerous as they risk submission during the attempt."
+        "answer": "Inside Ashi and deeper positions like Cross Ashi and Saddle require your legs to be configured with superior inside space control, which means your knees are pinched inward and your hooks are threaded deeply behind the opponent's knee. This configuration physically narrows the gap between your legs and body that the opponent needs to thread their free leg through. Additionally, deeper positions expose the opponent's heel more directly, making the time investment of attempting a counter-thread increasingly dangerous as they risk submission during the attempt.",
+        "answer_line": "Tighter space, exposed heel risk",
+        "distractors": {
+          "plausible": [
+            "Deeper position frees their hips",
+            "Only heel exposure matters"
+          ],
+          "trap": [
+            "Wait for Saddle before countering"
+          ]
+        }
       },
       {
         "question": "If the counter-entanglement succeeds and you arrive in 50-50, what determines whether you or the opponent holds advantage in the resulting exchange?",
-        "answer": "Inside space control determines the advantage in the resulting 50-50 exchange. The practitioner whose knee is positioned between both hips on the entangled side can advance to Inside Ashi and then Saddle, while the other is stuck in neutral or must fight uphill for position. As the original Ashi Garami holder, you should have a head start on inside space because your hooks were already threaded from the inside. Maintain this advantage by keeping your inside knee driving toward the centerline throughout the transition rather than abandoning it to address the counter-thread."
+        "answer": "Inside space control determines the advantage in the resulting 50-50 exchange. The practitioner whose knee is positioned between both hips on the entangled side can advance to Inside Ashi and then Saddle, while the other is stuck in neutral or must fight uphill for position. As the original Ashi Garami holder, you should have a head start on inside space because your hooks were already threaded from the inside. Maintain this advantage by keeping your inside knee driving toward the centerline throughout the transition rather than abandoning it to address the counter-thread.",
+        "answer_line": "Keep driving knee to centerline",
+        "distractors": {
+          "plausible": [
+            "Rely on head start, relax knee",
+            "Switch focus to outside control"
+          ],
+          "trap": [
+            "Abandon knee for the counter-thread"
+          ]
+        }
       }
     ],
     "training_progressions": [

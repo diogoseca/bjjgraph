@@ -332,62 +332,182 @@
       {
         "question": "What anatomical structures does the kneebar from Saddle primarily attack, and what is the mechanism of injury?",
         "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning the opponent's knee above your hip crease as a fulcrum, then extending your hips upward while pulling the ankle downward, creating opposing forces that push the knee beyond its natural extension range. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus forces respectively, and the menisci, which can tear under compressive or rotational loading if the ankle is not properly controlled during application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "PCL via knee hyperextension",
+        "distractors": {
+          "plausible": [
+            "ACL is the primary target",
+            "Attacks ankle, not knee"
+          ],
+          "trap": [
+            "Twist ankle to add pressure"
+          ]
+        }
       },
       {
         "question": "Why must you apply kneebar finishing pressure progressively over 5-7 seconds in training rather than explosively?",
         "answer": "The knee joint has minimal tolerance for hyperextension, and the transition from safe pressure to catastrophic ligament damage occurs extremely rapidly compared to other submissions. Explosive application can cause immediate PCL tears, MCL ruptures, and meniscus damage before the training partner has time to recognize the danger and tap. Unlike chokes where consciousness provides a gradual warning, knee hyperextension offers almost no warning zone between controlled pressure and structural failure. The Saddle's superior control makes this especially dangerous because the opponent cannot easily relieve pressure through positional movement. Progressive application over 5-7 seconds gives your partner adequate time to feel the increasing danger and tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee has no warning zone",
+        "distractors": {
+          "plausible": [
+            "Builds fatigue before tap",
+            "Matches choke pacing"
+          ],
+          "trap": [
+            "Snap it fast to finish clean"
+          ]
+        }
       },
       {
         "question": "How does the submission dilemma between heel hook and kneebar work from the Saddle position?",
         "answer": "When you attack the heel hook from Saddle, the opponent's primary defense is to hide their heel by rotating their knee inward and curling their foot. This defensive rotation positions the knee joint directly above your hip crease, creating the exact geometry needed for a kneebar attack. Conversely, when you attack the kneebar, the opponent must straighten their leg and extend their knee to prevent hyperextension, which re-exposes the heel for heel hook attack. This creates a closed loop where defending one submission directly opens vulnerability to the other, making the combined system far more effective than either attack in isolation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defending one opens the other",
+        "distractors": {
+          "plausible": [
+            "Kneebar is the stronger threat",
+            "Heel hide always beats kneebar"
+          ],
+          "trap": [
+            "Abandon heel hook, chase knee"
+          ]
+        }
       },
       {
         "question": "Your opponent starts sitting up aggressively to strip your ankle grip during the kneebar attempt - what immediate adjustment secures the position?",
         "answer": "Drive your free leg forcefully against their chest or shoulder to push them back down, re-establishing the distance frame that prevents them from reaching your hands. Simultaneously tighten your Saddle leg configuration to prevent any leg extraction during their movement. If they continue to generate significant sitting-up force despite your frame, transition your attack back toward the heel hook, which requires them to defend in the opposite direction by hiding their heel rather than closing distance. This forces them to choose between sitting up into heel hook vulnerability or staying down in kneebar vulnerability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive leg into chest, reframe",
+        "distractors": {
+          "plausible": [
+            "Release grip, re-latch ankle",
+            "Pull opponent flat by hips"
+          ],
+          "trap": [
+            "Let them sit, chase submission"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between using hip extension versus back arching for kneebar finishing pressure?",
         "answer": "Hip extension engages the glutes and posterior chain to drive the hips upward toward the ceiling, creating efficient and controlled hyperextension pressure against the opponent's knee fulcrum. Back arching instead uses the spinal erectors and creates an arc that generates minimal actual pressure on the knee joint while placing dangerous compressive load on the attacker's own lumbar spine. The hip extension motion is sustainable, powerful, and controllable, allowing precise pressure modulation. Back arching is weak, potentially injurious to the attacker, and creates jerky uncontrolled pressure that makes safe training impossible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension, not back arch",
+        "distractors": {
+          "plausible": [
+            "Arch back for extra torque",
+            "Combine both for max power"
+          ],
+          "trap": [
+            "Arch spine explosively"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the opponent's ankle begins to rotate during kneebar finishing pressure?",
         "answer": "Immediately stop all hip extension pressure, as continued hyperextension with rotation creates compound loading that attacks the ACL in addition to the PCL, dramatically increasing injury severity. Reinforce your prayer grip by bringing both elbows tight to your body and pulling the ankle deeper into your armpit area for greater rotational stability. Re-orient their toes to point directly away from you and use your forearms to create a rigid cage around the ankle that prevents further rotation. Only resume progressive pressure once the ankle is fully stabilized in the correct orientation. If you cannot prevent rotation, release the submission entirely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop pressure, re-square ankle",
+        "distractors": {
+          "plausible": [
+            "Push through the rotation",
+            "Switch to a heel hook grip"
+          ],
+          "trap": [
+            "Crank harder to stop rotation"
+          ]
+        }
       },
       {
         "question": "At what point during the kneebar from Saddle is the submission mechanically inescapable?",
         "answer": "The point of no escape occurs when three conditions are simultaneously achieved: the opponent's knee is positioned directly above your hip crease with your hips in contact as the fulcrum, your prayer grip has eliminated all space between their ankle and your chest with toes oriented correctly, and your Saddle leg configuration is locked tight preventing any leg extraction. Once these three elements are established and you begin hip extension, the mechanical advantage is overwhelming. Prior to achieving all three conditions, the opponent retains escape options including sitting up, bending the knee, grip fighting, or extracting the leg through a loose leg configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fulcrum, tight grip, legs locked",
+        "distractors": {
+          "plausible": [
+            "Ankle grip alone is enough",
+            "Saddle control alone secures it"
+          ],
+          "trap": [
+            "Extend hips before legs lock"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the Saddle leg configuration during grip transition the most technically demanding moment of this submission?",
         "answer": "The grip transition from heel hook to kneebar requires releasing your hands from one configuration and re-establishing them in another, creating a brief window where only your legs are controlling the opponent's trapped leg. If your Saddle legs loosen during this transition, the opponent can extract their leg through the gap before your new grips are established. This is the highest-risk moment because you are voluntarily abandoning an established attack to pursue a new one, and any error in leg maintenance gives the opponent their best escape opportunity. The solution is to actively squeeze your Saddle legs tighter during the grip change, treating the transition as a leg-tightening moment rather than a relaxation point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Legs must stay tight mid-switch",
+        "distractors": {
+          "plausible": [
+            "Speed through the grip change",
+            "Loosen legs to free your hands"
+          ],
+          "trap": [
+            "Release legs to grab ankle fast"
+          ]
+        }
       },
       {
         "question": "How should you recognize when kneebar position quality from the Saddle is insufficient for a safe finish in competition?",
         "answer": "Position quality is insufficient when any of these conditions exist: the opponent's knee is not centered above your hip crease creating a weak fulcrum, space exists between their ankle and your chest allowing potential slip or rotation, your Saddle leg configuration has loosened and the opponent's thigh is not fully compressed, the opponent has established a strong defensive grip on their own knee that you cannot break, or the opponent has stepped their free leg over your head creating a defensive hook. Forcing the finish from a compromised position risks both escape and dangerous uncontrolled pressure. Return to standard Saddle control and re-attack with heel hooks or wait for a cleaner kneebar opening.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Off-center fulcrum or loose legs",
+        "distractors": {
+          "plausible": [
+            "Any opponent resistance at all",
+            "Slight grip discomfort only"
+          ],
+          "trap": [
+            "Force finish, fix grips after"
+          ]
+        }
       },
       {
         "question": "What are the primary tap signals you must recognize immediately when applying a kneebar from Saddle?",
         "answer": "You must immediately recognize verbal taps, which are preferred for leg locks due to the rapid onset of injury. Also watch for multiple rapid hand taps on your body or the mat, multiple foot taps, any vocalization of pain or distress, and frantic or panicked movement. Leg locks like the kneebar can cause injury extremely quickly, and the Saddle's structural control means the opponent has limited ability to physically escape even when in pain. Any indication of submission must result in immediate cessation of all hip extension pressure. Unlike chokes where delayed tap has gradual consequences, delayed kneebar recognition can mean the difference between a safe tap and career-ending ligament damage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Verbal tap, rapid taps, panic",
+        "distractors": {
+          "plausible": [
+            "Only a verbal tap counts",
+            "Wait for total stillness"
+          ],
+          "trap": [
+            "Continue until full extension"
+          ]
+        }
       },
       {
         "question": "In competition, how do you adjust kneebar finishing strategy from the Saddle when the opponent is defending with maximum intensity?",
         "answer": "Against maximum defensive intensity, avoid the common error of trying to force the finish through raw power. Instead, use the submission dilemma cycle: threaten the heel hook to force their defensive rotation, then catch the kneebar angle created by their defense. If they resist the kneebar through muscular leg flexion, hold position patiently and work incremental grip improvements rather than burning energy. Maintain Saddle control as your base, use the kneebar threat to create defensive reactions, and finish when the opening presents itself during their transition between defensive postures. The finish often comes during the opponent's grip-switch between heel defense and knee defense, not during static resistance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cycle heel threat into kneebar",
+        "distractors": {
+          "plausible": [
+            "Power through with more hip",
+            "Abandon Saddle, chase ankle"
+          ],
+          "trap": [
+            "Force it with a hard yank"
+          ]
+        }
       },
       {
         "question": "What is the correct fulcrum placement for the kneebar from Saddle, and why does incorrect placement fail?",
         "answer": "The correct fulcrum placement positions the opponent's kneecap directly above your hip crease, where the iliac crest meets the femoral head area. This creates the shortest possible lever arm between the fulcrum and the ankle grip, maximizing mechanical advantage. If the fulcrum is too low on your thighs, the lever arm lengthens and your hip extension generates insufficient pressure, allowing the opponent to resist through quadriceps flexion alone. If the fulcrum is too high on your abdomen, the soft tissue absorbs pressure rather than transmitting it rigidly, and the angle of force shifts away from pure hyperextension. The hip crease provides the ideal combination of structural rigidity and geometric alignment for the hyperextension lever.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Kneecap above your hip crease",
+        "distractors": {
+          "plausible": [
+            "Fulcrum low on your thighs",
+            "Fulcrum high on your abdomen"
+          ],
+          "trap": [
+            "Push knee past your belt line"
+          ]
+        }
       }
     ],
     "clips": [
@@ -506,27 +626,77 @@
       {
         "question": "Why is it critical to tap immediately when kneebar finishing pressure begins from the Saddle rather than attempting a late escape?",
         "answer": "The Saddle provides structural control that prevents the defender from easily relieving hyperextension pressure through positional movement, unlike kneebars from less controlled positions. The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. The Saddle's perpendicular alignment and leg entanglement mean the attacker can generate significant finishing force with minimal effort. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk, potentially causing multi-ligament damage requiring multiple surgeries and over 12 months of rehabilitation. The cost of tapping is restarting the roll; the cost of a late escape is potentially career-ending.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Injury outpaces any escape",
+        "distractors": {
+          "plausible": [
+            "You can still shrimp free",
+            "Rotate out before it locks"
+          ],
+          "trap": [
+            "Explode out under pressure"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar from the Saddle?",
         "answer": "The earliest cue is feeling the opponent release their heel hook grip configuration and move both hands toward your ankle and lower shin area. This grip transition is the defining moment that distinguishes a kneebar attempt from a heel hook attempt. You may also feel them adjusting your leg position by scooting their hips or pulling your lower leg to center your knee above their hip crease. Acting in this grip transition window provides the highest probability of successful defense because the opponent's hand control is momentarily weakened while they switch between grip configurations, and their Saddle legs alone are holding you in position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hands shift off heel to shin",
+        "distractors": {
+          "plausible": [
+            "Hips scoot back an inch",
+            "Legs squeeze tighter first"
+          ],
+          "trap": [
+            "Wait until hips extend"
+          ]
+        }
       },
       {
         "question": "Why should you drive your body toward the opponent rather than pulling your leg away when defending the kneebar from Saddle?",
         "answer": "The kneebar's mechanical leverage requires distance between the attacker's hip crease fulcrum and your ankle. Pulling away increases this distance, strengthening the lever arm and actually making the hyperextension worse by driving your ankle deeper into their grip. Moving toward the opponent collapses the distance between the fulcrum and your body, reducing the lever arm to near zero and neutralizing the hyperextension mechanics. Additionally, closing distance allows you to reach their hands for grip fighting and positions your body where your knee can bend more easily, both of which contribute to defending the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Closing distance kills leverage",
+        "distractors": {
+          "plausible": [
+            "Pulling back adds slack",
+            "Distance protects the knee"
+          ],
+          "trap": [
+            "Yank your leg back hard"
+          ]
+        }
       },
       {
         "question": "How do you manage the submission dilemma between heel hook and kneebar defense when trapped in the Saddle?",
         "answer": "The key is maintaining a moderate defensive posture that addresses both threats simultaneously rather than fully committing to defending one. Keep a moderate knee bend that prevents full hyperextension for the kneebar while keeping the heel partially hidden from heel hook access. Use grip fighting to address whichever attack the opponent is currently loading. When they transition grips between attacks, use that transition window for escape attempts rather than trying to perfect defense against the currently loaded submission. Accept that you cannot fully prevent both attacks simultaneously, and focus on survival and incremental escape progress rather than complete defensive shutdown.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Moderate bend, hide heel some",
+        "distractors": {
+          "plausible": [
+            "Fully hide the heel only",
+            "Fully straighten the knee"
+          ],
+          "trap": [
+            "Freeze and grip fight only"
+          ]
+        }
       },
       {
         "question": "Why is attempting an explosive rotational escape the most dangerous defensive error when a kneebar finish is being applied from Saddle?",
         "answer": "Explosive rotation while the knee is under hyperextension pressure adds torque in a plane the knee joint is not designed to withstand. The knee primarily moves in flexion and extension, and adding rotational force under hyperextension load simultaneously attacks the anterior cruciate ligament in addition to the posterior cruciate ligament already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear and often requires multiple reconstructive surgeries, 12 or more months of rehabilitation, and may result in permanent joint instability. The Saddle's structural control makes this error especially dangerous because the entanglement amplifies rotational forces rather than allowing them to dissipate.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotation adds ACL to PCL risk",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, nothing else",
+            "Only risks minor knee strain"
+          ],
+          "trap": [
+            "Spin out to break the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

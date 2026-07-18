@@ -260,43 +260,143 @@
     "flashcards": [
       {
         "question": "What is the single most critical control point to establish before beginning the rotation from Twister Side Control toward the truck?",
-        "answer": "Boot pressure against the opponent's hip is the most critical control point to establish first. The boot creates the torque foundation that restricts the opponent's ability to square up, turn, or roll during your rotation. Without boot pressure, the figure-four and rotation lack the mechanical leverage needed to control the transition, and the opponent retains the hip mobility necessary to defend or escape."
+        "answer": "Boot pressure against the opponent's hip is the most critical control point to establish first. The boot creates the torque foundation that restricts the opponent's ability to square up, turn, or roll during your rotation. Without boot pressure, the figure-four and rotation lack the mechanical leverage needed to control the transition, and the opponent retains the hip mobility necessary to defend or escape.",
+        "answer_line": "Boot pressure into the hip",
+        "distractors": {
+          "plausible": [
+            "Underhook before boot enters",
+            "Figure-four locked in first"
+          ],
+          "trap": [
+            "Release twister grip early"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped leg as you attempt to thread the figure-four - how do you respond?",
-        "answer": "Immediately threaten a calf slicer or knee compression attack on the straightened leg, which forces the opponent to re-bend to relieve the pressure. As they bend the leg defensively, capitalize on that bending motion to complete the figure-four threading before they can straighten again. This converts their defensive reaction into an offensive opportunity rather than fighting against the straight leg directly."
+        "answer": "Immediately threaten a calf slicer or knee compression attack on the straightened leg, which forces the opponent to re-bend to relieve the pressure. As they bend the leg defensively, capitalize on that bending motion to complete the figure-four threading before they can straighten again. This converts their defensive reaction into an offensive opportunity rather than fighting against the straight leg directly.",
+        "answer_line": "Threaten calf slicer, re-bend",
+        "distractors": {
+          "plausible": [
+            "Muscle the knee back down",
+            "Abandon the figure-four try"
+          ],
+          "trap": [
+            "Muscle through the straight leg"
+          ]
+        }
       },
       {
         "question": "What determines the optimal timing to initiate this transition from Twister Side Control?",
-        "answer": "The optimal window opens when the opponent's defensive attention is divided between managing your shoulder pressure and protecting against spinal attacks from TSC. Specifically, when they commit their hands to defending the twister grip or protecting their neck, their legs become momentarily undefended. This divided attention creates the gap needed to insert the boot and begin deepening the leg entanglement without immediate resistance."
+        "answer": "The optimal window opens when the opponent's defensive attention is divided between managing your shoulder pressure and protecting against spinal attacks from TSC. Specifically, when they commit their hands to defending the twister grip or protecting their neck, their legs become momentarily undefended. This divided attention creates the gap needed to insert the boot and begin deepening the leg entanglement without immediate resistance.",
+        "answer_line": "Hands committed to twister grip",
+        "distractors": {
+          "plausible": [
+            "Immediately after securing TSC",
+            "When opponent hands are free"
+          ],
+          "trap": [
+            "Force it while they frame hard"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain chest contact throughout the rotation rather than lifting your weight?",
-        "answer": "Lifting your weight during rotation creates a gap between your body and the opponent's torso that they can exploit by inserting frames, turning to face you, or initiating a granby roll escape. Maintaining continuous chest contact ensures there is never a moment without upper body control. Your chest should slide from their shoulder to their upper back as a continuous pressure point, replacing shoulder pressure with back control seamlessly."
+        "answer": "Lifting your weight during rotation creates a gap between your body and the opponent's torso that they can exploit by inserting frames, turning to face you, or initiating a granby roll escape. Maintaining continuous chest contact ensures there is never a moment without upper body control. Your chest should slide from their shoulder to their upper back as a continuous pressure point, replacing shoulder pressure with back control seamlessly.",
+        "answer_line": "Chest stays glued, never lifts",
+        "distractors": {
+          "plausible": [
+            "Post on the far hip instead",
+            "Lift slightly to check space"
+          ],
+          "trap": [
+            "Rise up to rotate faster"
+          ]
+        }
       },
       {
         "question": "What are the three control checkpoints you must confirm before considering the truck position fully consolidated?",
-        "answer": "First, boot pressure must be active against the opponent's hip, creating lateral torque that prevents them from squaring up. Second, the figure-four entanglement must be locked tight enough that the opponent cannot straighten their trapped leg. Third, upper body control must be established through seatbelt grip, underhook, or chest-to-back connection preventing them from turning or rolling. All three must be simultaneously present."
+        "answer": "First, boot pressure must be active against the opponent's hip, creating lateral torque that prevents them from squaring up. Second, the figure-four entanglement must be locked tight enough that the opponent cannot straighten their trapped leg. Third, upper body control must be established through seatbelt grip, underhook, or chest-to-back connection preventing them from turning or rolling. All three must be simultaneously present.",
+        "answer_line": "Boot, figure-four, upper body",
+        "distractors": {
+          "plausible": [
+            "Figure-four and boot only",
+            "Seatbelt grip and boot only"
+          ],
+          "trap": [
+            "Just boot pressure alone"
+          ]
+        }
       },
       {
         "question": "Your transition attempt meets strong resistance and the opponent successfully frames against your rotation - what should you do?",
-        "answer": "Abort the truck attempt and smoothly return to consolidated Twister Side Control rather than forcing through resistance. Re-engage TSC threats like the twister grip or darce choke, which will force the opponent to redirect their defensive frames away from blocking your rotation. Once their attention shifts to defending the new threat, a second truck entry attempt will face less resistance. Never force a transition against effective defense."
+        "answer": "Abort the truck attempt and smoothly return to consolidated Twister Side Control rather than forcing through resistance. Re-engage TSC threats like the twister grip or darce choke, which will force the opponent to redirect their defensive frames away from blocking your rotation. Once their attention shifts to defending the new threat, a second truck entry attempt will face less resistance. Never force a transition against effective defense.",
+        "answer_line": "Abort, return to TSC, re-threat",
+        "distractors": {
+          "plausible": [
+            "Push harder through the frame",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Force the rotation through it"
+          ]
+        }
       },
       {
         "question": "How does the figure-four leg configuration differ mechanically from the standard leg hook used in Twister Side Control?",
-        "answer": "The TSC leg hook wraps around the opponent's near leg and controls hip rotation through a single point of contact, but the opponent can potentially straighten or extract the leg with sufficient effort. The figure-four entanglement locks both of your legs around their trapped leg in an interlocking configuration that prevents straightening through structural mechanics rather than muscular pressure. The figure-four distributes control across multiple contact points and is self-reinforcing under pressure."
+        "answer": "The TSC leg hook wraps around the opponent's near leg and controls hip rotation through a single point of contact, but the opponent can potentially straighten or extract the leg with sufficient effort. The figure-four entanglement locks both of your legs around their trapped leg in an interlocking configuration that prevents straightening through structural mechanics rather than muscular pressure. The figure-four distributes control across multiple contact points and is self-reinforcing under pressure.",
+        "answer_line": "Locks via structure, not grip",
+        "distractors": {
+          "plausible": [
+            "Same mechanism, tighter angle",
+            "Traps the far leg only"
+          ],
+          "trap": [
+            "Just squeeze harder than a hook"
+          ]
+        }
       },
       {
         "question": "When should you choose this transition over the Twister SC to Back Take as your advancement pathway?",
-        "answer": "Choose the truck transition when the opponent's legs are accessible and their leg defense is compromised, and you want to maintain the leg entanglement submission threat matrix including calf slicers and banana splits. Choose the back take when the opponent exposes their back through turning away or when their upper body defense is weaker than their leg defense. The truck offers more submission diversity while the back take offers more positional stability."
+        "answer": "Choose the truck transition when the opponent's legs are accessible and their leg defense is compromised, and you want to maintain the leg entanglement submission threat matrix including calf slicers and banana splits. Choose the back take when the opponent exposes their back through turning away or when their upper body defense is weaker than their leg defense. The truck offers more submission diversity while the back take offers more positional stability.",
+        "answer_line": "Legs open, want sub threats",
+        "distractors": {
+          "plausible": [
+            "Whenever TSC feels stable",
+            "Always prefer truck over back"
+          ],
+          "trap": [
+            "Chase truck vs strong leg defense"
+          ]
+        }
       },
       {
         "question": "You have established boot pressure but the opponent is actively hip escaping to prevent your rotation - what grip adjustment enables you to continue?",
-        "answer": "Secure a strong crossface or collar tie with your top arm to pin their upper body while your boot maintains hip torque. The crossface prevents their hip escape from generating meaningful distance because their upper body remains anchored. With their hip escape neutralized by the upper body anchor, use the boot torque to begin walking your hips behind them incrementally rather than attempting a single large rotation. The combination of upper body pin and lower body torque overcomes the hip escape defense."
+        "answer": "Secure a strong crossface or collar tie with your top arm to pin their upper body while your boot maintains hip torque. The crossface prevents their hip escape from generating meaningful distance because their upper body remains anchored. With their hip escape neutralized by the upper body anchor, use the boot torque to begin walking your hips behind them incrementally rather than attempting a single large rotation. The combination of upper body pin and lower body torque overcomes the hip escape defense.",
+        "answer_line": "Crossface to pin, then boot torque",
+        "distractors": {
+          "plausible": [
+            "Switch to underhook and wait",
+            "Increase boot pressure only"
+          ],
+          "trap": [
+            "Chase hips with one big rotation"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application through the boot during the rotation phase?",
-        "answer": "The boot should drive laterally into the opponent's hip bone, pushing their hips away from you and creating a corkscrew torque through their spine. The force vector is perpendicular to the opponent's spine, not pushing them forward or backward. This lateral pressure prevents them from squaring their hips to face you and simultaneously assists your rotation by creating a fulcrum point that your body pivots around. Pushing forward instead of laterally reduces torque and allows the opponent to absorb the pressure by flattening."
+        "answer": "The boot should drive laterally into the opponent's hip bone, pushing their hips away from you and creating a corkscrew torque through their spine. The force vector is perpendicular to the opponent's spine, not pushing them forward or backward. This lateral pressure prevents them from squaring their hips to face you and simultaneously assists your rotation by creating a fulcrum point that your body pivots around. Pushing forward instead of laterally reduces torque and allows the opponent to absorb the pressure by flattening.",
+        "answer_line": "Lateral, perpendicular to spine",
+        "distractors": {
+          "plausible": [
+            "Push forward into their spine",
+            "Push backward to flatten them"
+          ],
+          "trap": [
+            "Push straight down into the hip"
+          ]
+        }
       }
     ],
     "safety_considerations": "While this transition is primarily positional rather than directly threatening injury, several safety concerns require attention during training. The rotational forces generated during the transition can stress the opponent's knee and hip joints through the trapped leg, particularly if the figure-four is tightened aggressively. Partners should communicate immediately if they feel joint pressure during the entanglement deepening. The transition into truck also creates proximity to dangerous submissions including the twister (spinal lock) and calf slicer, so practitioners should exercise control and avoid flowing directly into full submission pressure during drilling. Always allow the partner time to recognize and defend the new position before attacking.",
@@ -409,23 +509,73 @@
     "flashcards": [
       {
         "question": "What is the single highest-priority defensive action when you feel the attacker inserting their foot against your hip?",
-        "answer": "Immediately use your free hand to push the attacker's foot away from your hip while simultaneously hip escaping to create distance. Boot pressure is the foundational control mechanism of the truck - without it, the figure-four lacks torque and the perpendicular alignment lacks its fulcrum. Clearing the boot before it generates torque is far easier than removing it once the attacker has weight behind it. Accept temporary reduction in upper body defense to address this priority."
+        "answer": "Immediately use your free hand to push the attacker's foot away from your hip while simultaneously hip escaping to create distance. Boot pressure is the foundational control mechanism of the truck - without it, the figure-four lacks torque and the perpendicular alignment lacks its fulcrum. Clearing the boot before it generates torque is far easier than removing it once the attacker has weight behind it. Accept temporary reduction in upper body defense to address this priority.",
+        "answer_line": "Push the foot away, hip escape",
+        "distractors": {
+          "plausible": [
+            "Frame on the far shoulder first",
+            "Grab underhook before defending"
+          ],
+          "trap": [
+            "Wait and defend upper body first"
+          ]
+        }
       },
       {
         "question": "Why is the rotation phase the optimal window for defensive action rather than before or after?",
-        "answer": "During the rotation phase, the attacker is transitioning between two stable control structures (TSC and truck) and their control is necessarily less secure than in either consolidated position. Their weight is shifting, their grips are changing, and their base is temporarily compromised. Before the rotation, the attacker has full TSC control; after it, they have full truck control. The transitional instability creates defensive opportunities that do not exist in either stable position."
+        "answer": "During the rotation phase, the attacker is transitioning between two stable control structures (TSC and truck) and their control is necessarily less secure than in either consolidated position. Their weight is shifting, their grips are changing, and their base is temporarily compromised. Before the rotation, the attacker has full TSC control; after it, they have full truck control. The transitional instability creates defensive opportunities that do not exist in either stable position.",
+        "answer_line": "Control is weakest mid-transition",
+        "distractors": {
+          "plausible": [
+            "Right when TSC is secured",
+            "Once truck is fully locked in"
+          ],
+          "trap": [
+            "Wait passively for boot to set"
+          ]
+        }
       },
       {
         "question": "Your attacker has begun threading their far leg for the figure-four but has not locked it yet - what is your best response?",
-        "answer": "Forcefully straighten your trapped leg to prevent the interlocking configuration from completing, creating a gap between your leg and the attacker's threading leg. Immediately extract your leg through this gap before the attacker can re-attempt the figure-four. Do not hold the straight-leg position statically as this exposes you to calf slicer attacks. The straightening must be a dynamic disruption followed by immediate extraction."
+        "answer": "Forcefully straighten your trapped leg to prevent the interlocking configuration from completing, creating a gap between your leg and the attacker's threading leg. Immediately extract your leg through this gap before the attacker can re-attempt the figure-four. Do not hold the straight-leg position statically as this exposes you to calf slicer attacks. The straightening must be a dynamic disruption followed by immediate extraction.",
+        "answer_line": "Straighten leg, then extract",
+        "distractors": {
+          "plausible": [
+            "Hold leg straight and wait",
+            "Push away with your free hand"
+          ],
+          "trap": [
+            "Bend the leg to escape"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to attempt a granby roll versus staying in place and clearing the boot?",
-        "answer": "Choose the granby roll when the attacker has committed to rotation and their weight is moving behind you, as the roll uses their forward momentum against them and creates maximum distance. Choose boot clearing when the transition is in its early phase with only the boot inserted but no significant rotation yet, as clearing the boot at this stage denies the entire transition with minimal positional risk. The granby becomes necessary when the transition is too far advanced for simple boot clearing to reverse."
+        "answer": "Choose the granby roll when the attacker has committed to rotation and their weight is moving behind you, as the roll uses their forward momentum against them and creates maximum distance. Choose boot clearing when the transition is in its early phase with only the boot inserted but no significant rotation yet, as clearing the boot at this stage denies the entire transition with minimal positional risk. The granby becomes necessary when the transition is too far advanced for simple boot clearing to reverse.",
+        "answer_line": "Granby if rotating, else clear boot",
+        "distractors": {
+          "plausible": [
+            "Always granby roll immediately",
+            "Always clear the boot first"
+          ],
+          "trap": [
+            "Wait passively to see what happens"
+          ]
+        }
       },
       {
         "question": "What specific body positioning minimizes your vulnerability during the attacker's transition attempt?",
-        "answer": "Keep your hips elevated rather than flat, maintain your free leg posted for base, tuck your chin to protect the neck, and keep your trapped leg actively resisting by preventing knee bend that facilitates figure-four threading. Position your defensive hand near your hip to address boot insertion while your other hand maintains frames against the attacker's upper body. This positioning addresses both the leg entanglement and upper body control threats simultaneously."
+        "answer": "Keep your hips elevated rather than flat, maintain your free leg posted for base, tuck your chin to protect the neck, and keep your trapped leg actively resisting by preventing knee bend that facilitates figure-four threading. Position your defensive hand near your hip to address boot insertion while your other hand maintains frames against the attacker's upper body. This positioning addresses both the leg entanglement and upper body control threats simultaneously.",
+        "answer_line": "Hips up, chin tucked, knee resist",
+        "distractors": {
+          "plausible": [
+            "Flatten hips to reduce mobility",
+            "Post far hand, ignore boot side"
+          ],
+          "trap": [
+            "Relax trapped leg to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -231,47 +231,157 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Mounted Crucifix to S Mount transition?",
-        "answer": "The primary goal is to reconfigure your leg positioning to access different submission angles (particularly armbar and triangle) while maintaining the arm isolation control established in mounted crucifix. This transition changes your attack vectors without sacrificing dominant position or allowing opponent to recover defensive capabilities."
+        "answer": "The primary goal is to reconfigure your leg positioning to access different submission angles (particularly armbar and triangle) while maintaining the arm isolation control established in mounted crucifix. This transition changes your attack vectors without sacrificing dominant position or allowing opponent to recover defensive capabilities.",
+        "answer_line": "Open new submission angles",
+        "distractors": {
+          "plausible": [
+            "Escape to full mount",
+            "Switch sides for better base"
+          ],
+          "trap": [
+            "Release arm to reset position"
+          ]
+        }
       },
       {
         "question": "Which leg should you extract first during the transition?",
-        "answer": "Extract the leg on the opposite side from the arm you want to keep trapped. Your controlling leg maintains crucifix pressure on the trapped arm while your extracting leg threads across opponent's neck to establish S Mount. Never release the arm-controlling leg until S Mount is fully established."
+        "answer": "Extract the leg on the opposite side from the arm you want to keep trapped. Your controlling leg maintains crucifix pressure on the trapped arm while your extracting leg threads across opponent's neck to establish S Mount. Never release the arm-controlling leg until S Mount is fully established.",
+        "answer_line": "Free leg opposite trapped arm",
+        "distractors": {
+          "plausible": [
+            "Extract the leg nearest the arm",
+            "Free both legs together"
+          ],
+          "trap": [
+            "Release controlling leg first"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges as you begin extracting your leg - how should you respond?",
-        "answer": "Post immediately with your hands to ride the bridge rather than fighting against it. Keep your controlling leg tight on their arm throughout. As their bridge peaks and they return to the mat, continue the transition or return to consolidate crucifix if the bridge significantly disrupted your position. Never abandon arm control during the bridge."
+        "answer": "Post immediately with your hands to ride the bridge rather than fighting against it. Keep your controlling leg tight on their arm throughout. As their bridge peaks and they return to the mat, continue the transition or return to consolidate crucifix if the bridge significantly disrupted your position. Never abandon arm control during the bridge.",
+        "answer_line": "Post hands, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Sprawl weight down to stop it",
+            "Switch to crucifix armbar now"
+          ],
+          "trap": [
+            "Release arm to regain balance"
+          ]
+        }
       },
       {
         "question": "What weight distribution should you maintain throughout this transition?",
-        "answer": "Keep weight forward toward opponent's head and chest throughout the entire transition. Sitting back or upright creates space for bridging escapes. Your chest should maintain contact with opponent's upper body while your hips rotate to extract and rethread your leg. Forward pressure prevents escape and maintains control."
+        "answer": "Keep weight forward toward opponent's head and chest throughout the entire transition. Sitting back or upright creates space for bridging escapes. Your chest should maintain contact with opponent's upper body while your hips rotate to extract and rethread your leg. Forward pressure prevents escape and maintains control.",
+        "answer_line": "Weight forward on chest",
+        "distractors": {
+          "plausible": [
+            "Weight back for base",
+            "Weight balanced, upright posture"
+          ],
+          "trap": [
+            "Sit back to control legs"
+          ]
+        }
       },
       {
         "question": "When should you abandon the S Mount transition and return to mounted crucifix?",
-        "answer": "Abandon if opponent successfully extracts their trapped arm or creates significant space through bridging or hip escape. Also abort if your balance becomes compromised mid-transition to the point where completing S Mount would risk position loss. A secure crucifix is superior to a failed S Mount attempt that results in guard recovery."
+        "answer": "Abandon if opponent successfully extracts their trapped arm or creates significant space through bridging or hip escape. Also abort if your balance becomes compromised mid-transition to the point where completing S Mount would risk position loss. A secure crucifix is superior to a failed S Mount attempt that results in guard recovery.",
+        "answer_line": "Arm frees or balance breaks",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent moves",
+            "Only if choke fails"
+          ],
+          "trap": [
+            "Never abandon, force it through"
+          ]
+        }
       },
       {
         "question": "How does the leg threading differ between standard S Mount entry and this crucifix-based transition?",
-        "answer": "In the crucifix-based transition, one leg must maintain arm control throughout while the other threads across. In standard S Mount from mount, both legs are free to reposition simultaneously. This constraint requires more precise timing and hip mobility since you cannot use your controlling leg for balance during the threading phase."
+        "answer": "In the crucifix-based transition, one leg must maintain arm control throughout while the other threads across. In standard S Mount from mount, both legs are free to reposition simultaneously. This constraint requires more precise timing and hip mobility since you cannot use your controlling leg for balance during the threading phase.",
+        "answer_line": "One leg controls, one threads",
+        "distractors": {
+          "plausible": [
+            "Both legs move together",
+            "Threading leg goes first always"
+          ],
+          "trap": [
+            "Release control leg for speed"
+          ]
+        }
       },
       {
         "question": "What grip should you establish before transitioning if you want maximum security?",
-        "answer": "Establish a gift wrap grip by threading your hand under opponent's neck and grabbing their trapped wrist. This grip maintains arm control independent of your leg positioning, making the transition significantly safer. With the gift wrap secured, you can reconfigure your legs knowing the arm cannot escape even if crucifix pressure momentarily releases."
+        "answer": "Establish a gift wrap grip by threading your hand under opponent's neck and grabbing their trapped wrist. This grip maintains arm control independent of your leg positioning, making the transition significantly safer. With the gift wrap secured, you can reconfigure your legs knowing the arm cannot escape even if crucifix pressure momentarily releases.",
+        "answer_line": "Gift wrap grip on wrist",
+        "distractors": {
+          "plausible": [
+            "Collar grip on far side",
+            "Underhook the near arm"
+          ],
+          "trap": [
+            "Grip own gi to base"
+          ]
+        }
       },
       {
         "question": "What are the primary submission opportunities available after completing this transition to S Mount?",
-        "answer": "The S Mount opens high-percentage armbar attacks on the trapped arm from a different angle than crucifix armbars. Triangle choke entries become available by threading the leg across their neck. Mounted triangle attacks and arm triangle setups are also accessible. The arm isolation from crucifix combined with S Mount leg positioning creates compound submission threats."
+        "answer": "The S Mount opens high-percentage armbar attacks on the trapped arm from a different angle than crucifix armbars. Triangle choke entries become available by threading the leg across their neck. Mounted triangle attacks and arm triangle setups are also accessible. The arm isolation from crucifix combined with S Mount leg positioning creates compound submission threats.",
+        "answer_line": "Armbar and triangle attacks",
+        "distractors": {
+          "plausible": [
+            "Kimura and Americana only",
+            "Guillotine from S Mount"
+          ],
+          "trap": [
+            "Rear naked choke setup"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their trapped arm free as you initiate hip rotation - what is the critical mechanical detail that prevents extraction?",
-        "answer": "The controlling leg must maintain inward knee pressure against their upper arm or bicep throughout the hip rotation. Think of your shin and calf as a vise on their arm. As you rotate, actively drive your controlling knee down and inward rather than allowing it to lift. If their arm slides past your knee line, abort the transition immediately and relock the crucifix rather than continuing with compromised arm control."
+        "answer": "The controlling leg must maintain inward knee pressure against their upper arm or bicep throughout the hip rotation. Think of your shin and calf as a vise on their arm. As you rotate, actively drive your controlling knee down and inward rather than allowing it to lift. If their arm slides past your knee line, abort the transition immediately and relock the crucifix rather than continuing with compromised arm control.",
+        "answer_line": "Knee vise inward on their arm",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist tighter",
+            "Speed through the rotation"
+          ],
+          "trap": [
+            "Lift knee to rotate faster"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you should attempt this transition rather than attacking directly from crucifix?",
-        "answer": "The transition is warranted when the opponent has successfully defended crucifix choke attempts by tucking their chin tightly, but their trapped arm remains fully isolated. If their arm is also partially escaping, stay in crucifix and re-secure first. The transition requires a stable crucifix with settled opponent - attempting during active escape sequences dramatically increases failure rate. You should also have forward weight established, not be in a recovery position from a recent bridge defense."
+        "answer": "The transition is warranted when the opponent has successfully defended crucifix choke attempts by tucking their chin tightly, but their trapped arm remains fully isolated. If their arm is also partially escaping, stay in crucifix and re-secure first. The transition requires a stable crucifix with settled opponent - attempting during active escape sequences dramatically increases failure rate. You should also have forward weight established, not be in a recovery position from a recent bridge defense.",
+        "answer_line": "Stable crucifix, arm isolated",
+        "distractors": {
+          "plausible": [
+            "Anytime chin is tucked",
+            "As soon as arm shows weakness"
+          ],
+          "trap": [
+            "Mid escape, arm slipping free"
+          ]
+        }
       },
       {
         "question": "You complete the transition but your opponent immediately starts hip escaping toward your back - how do you chain your next attack?",
-        "answer": "Their hip escape toward your back actually feeds the armbar finish. Follow their movement by leaning back slightly while maintaining wrist control, allowing their escape momentum to extend their trapped arm. Pinch your knees tight, scoop their arm across your hip line, and fall back to complete the armbar. Their escape direction is the same direction needed for arm extension. If they reverse direction, settle heavy in S Mount and consolidate before attacking again."
+        "answer": "Their hip escape toward your back actually feeds the armbar finish. Follow their movement by leaning back slightly while maintaining wrist control, allowing their escape momentum to extend their trapped arm. Pinch your knees tight, scoop their arm across your hip line, and fall back to complete the armbar. Their escape direction is the same direction needed for arm extension. If they reverse direction, settle heavy in S Mount and consolidate before attacking again.",
+        "answer_line": "Follow escape, extend, fall back",
+        "distractors": {
+          "plausible": [
+            "Chase their hips to back mount",
+            "Release grip, reset S Mount"
+          ],
+          "trap": [
+            "Force triangle instead"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves dynamic leg repositioning while maintaining mount control, which carries relatively low injury risk compared to submission techniques. However, practitioners should be aware of potential knee strain during the leg threading motion, particularly if forcing the movement against resistance. Partners should communicate if leg pressure on the neck becomes uncomfortable. Avoid explosive transitions until the movement pattern is well-established to prevent losing balance and falling onto training partners. When drilling, allow controlled escapes rather than forcing the transition against maximum resistance to prevent positional scrambles that could result in collision injuries.",
@@ -393,23 +503,73 @@
     "flashcards": [
       {
         "question": "Why is the transition phase between crucifix and S Mount your best escape opportunity?",
-        "answer": "During the transition, the top player must extract one leg from the crucifix configuration, temporarily leaving only a single leg controlling your trapped arm. This single-leg control is mechanically weaker than the full two-leg crucifix. Additionally, the top player's balance is compromised as they rotate their hips and rethread their leg. This combination of reduced arm control and compromised balance creates the widest escape window before S Mount locks in with potentially stronger submission threats."
+        "answer": "During the transition, the top player must extract one leg from the crucifix configuration, temporarily leaving only a single leg controlling your trapped arm. This single-leg control is mechanically weaker than the full two-leg crucifix. Additionally, the top player's balance is compromised as they rotate their hips and rethread their leg. This combination of reduced arm control and compromised balance creates the widest escape window before S Mount locks in with potentially stronger submission threats.",
+        "answer_line": "Only one leg controls arm",
+        "distractors": {
+          "plausible": [
+            "Opponent loses all base",
+            "Grip fully releases briefly"
+          ],
+          "trap": [
+            "Top player is strongest here"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips while in mounted crucifix - what is your immediate defensive response?",
-        "answer": "The instant you detect hip rotation, bridge explosively toward the side of the extracting leg. This direction attacks their weakest balance point during the transition. Simultaneously pull your trapped arm toward your centerline, exploiting the reduced pressure from the departing leg. If the bridge disrupts their balance enough to prevent the transition, immediately attempt arm extraction. If the bridge fails, transition to collar grip defense on the trapped arm before S Mount consolidates."
+        "answer": "The instant you detect hip rotation, bridge explosively toward the side of the extracting leg. This direction attacks their weakest balance point during the transition. Simultaneously pull your trapped arm toward your centerline, exploiting the reduced pressure from the departing leg. If the bridge disrupts their balance enough to prevent the transition, immediately attempt arm extraction. If the bridge fails, transition to collar grip defense on the trapped arm before S Mount consolidates.",
+        "answer_line": "Bridge toward extracting leg",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up hard",
+            "Shrimp away from the leg"
+          ],
+          "trap": [
+            "Pull arm straight to escape"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous mistake you can make when defending this transition?",
-        "answer": "The most dangerous mistake is straightening your trapped arm during extraction attempts. If you pull the arm straight while the opponent completes the S Mount transition, you have essentially set up the armbar for them - the arm is already extended across their hip line in the exact position needed for the finish. Keep the elbow bent at all times during extraction attempts, using rotational force from your shoulders and hips rather than linear arm extension to free the limb."
+        "answer": "The most dangerous mistake is straightening your trapped arm during extraction attempts. If you pull the arm straight while the opponent completes the S Mount transition, you have essentially set up the armbar for them - the arm is already extended across their hip line in the exact position needed for the finish. Keep the elbow bent at all times during extraction attempts, using rotational force from your shoulders and hips rather than linear arm extension to free the limb.",
+        "answer_line": "Straightening the trapped arm",
+        "distractors": {
+          "plausible": [
+            "Panicking and thrashing arm",
+            "Tucking elbow too tight"
+          ],
+          "trap": [
+            "Ripping arm free by force"
+          ]
+        }
       },
       {
         "question": "If you fail to prevent S Mount establishment, what is your immediate defensive priority?",
-        "answer": "Immediately grip your own collar or lapel with the trapped hand to lock the arm in a bent position. This is non-negotiable - a bent arm with collar grip from S Mount bottom is defensible, while an exposed straight arm is not. Simultaneously use your free hand to control the opponent's near leg to prevent full armbar setup. From this defensive posture, work hip escapes to create space rather than trying to rip the arm free, which only extends it into submission range."
+        "answer": "Immediately grip your own collar or lapel with the trapped hand to lock the arm in a bent position. This is non-negotiable - a bent arm with collar grip from S Mount bottom is defensible, while an exposed straight arm is not. Simultaneously use your free hand to control the opponent's near leg to prevent full armbar setup. From this defensive posture, work hip escapes to create space rather than trying to rip the arm free, which only extends it into submission range.",
+        "answer_line": "Grip own collar, bend arm",
+        "distractors": {
+          "plausible": [
+            "Push opponent's hip away",
+            "Underhook their far leg"
+          ],
+          "trap": [
+            "Rip arm straight to free it"
+          ]
+        }
       },
       {
         "question": "How should you position your hips when attempting the hip escape defense during the transition?",
-        "answer": "Shrimp your hips away from the opponent toward the side where their leg is threading across your neck. This direction creates maximum space for knee insertion because the opponent's weight is shifting the opposite direction during their transition. The shrimp must be tight and controlled - a large dramatic hip escape may create too much space and actually help the opponent complete their perpendicular alignment. Insert your knee across their thigh line immediately after the shrimp to establish half guard before they can adjust."
+        "answer": "Shrimp your hips away from the opponent toward the side where their leg is threading across your neck. This direction creates maximum space for knee insertion because the opponent's weight is shifting the opposite direction during their transition. The shrimp must be tight and controlled - a large dramatic hip escape may create too much space and actually help the opponent complete their perpendicular alignment. Insert your knee across their thigh line immediately after the shrimp to establish half guard before they can adjust.",
+        "answer_line": "Shrimp toward threading leg",
+        "distractors": {
+          "plausible": [
+            "Shrimp away from opponent fully",
+            "Bridge up before shrimping"
+          ],
+          "trap": [
+            "Push opponent's head down"
+          ]
+        }
       }
     ],
     "training_progressions": [

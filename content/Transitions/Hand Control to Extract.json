@@ -233,51 +233,171 @@
     "flashcards": [
       {
         "question": "What is the primary defensive target when escaping gogoplata using hand control?",
-        "answer": "The opponent's hands that are pulling their own foot behind your head. The gogoplata is a closed-loop system where the attacker uses their hands to maintain foot position. By stripping their grip on their own foot, you break the structural foundation that locks the submission in place."
+        "answer": "The opponent's hands that are pulling their own foot behind your head. The gogoplata is a closed-loop system where the attacker uses their hands to maintain foot position. By stripping their grip on their own foot, you break the structural foundation that locks the submission in place.",
+        "answer_line": "Their hands gripping own foot",
+        "distractors": {
+          "plausible": [
+            "Push on their shin directly",
+            "Grab their choking-leg knee"
+          ],
+          "trap": [
+            "Push their head deeper down"
+          ]
+        }
       },
       {
         "question": "What position do you start Hand Control to Extract from?",
-        "answer": "This technique starts from Gogoplata Control/Top, meaning you are the defender caught in the gogoplata with your opponent on bottom controlling you with their shin across your throat."
+        "answer": "This technique starts from Gogoplata Control/Top, meaning you are the defender caught in the gogoplata with your opponent on bottom controlling you with their shin across your throat.",
+        "answer_line": "Gogoplata Control, Top",
+        "distractors": {
+          "plausible": [
+            "Gogoplata Control, Bottom",
+            "Rubber Guard, Top"
+          ],
+          "trap": [
+            "Triangle Control, Bottom"
+          ]
+        }
       },
       {
         "question": "Your opponent has both hands pulling their foot deep - which hand should you target first and why?",
-        "answer": "Target the hand that is closer to their ankle/foot, as this is the anchor point for the closed loop. The hand on the ankle has more direct control over foot positioning. Stripping this grip compromises the entire configuration more than fighting the supporting hand."
+        "answer": "Target the hand that is closer to their ankle/foot, as this is the anchor point for the closed loop. The hand on the ankle has more direct control over foot positioning. Stripping this grip compromises the entire configuration more than fighting the supporting hand.",
+        "answer_line": "Hand nearer their own foot",
+        "distractors": {
+          "plausible": [
+            "Hand nearer their own knee",
+            "Their far-side hand first"
+          ],
+          "trap": [
+            "Both hands simultaneously"
+          ]
+        }
       },
       {
         "question": "Why must you extract your head laterally rather than pulling straight backward?",
-        "answer": "Pulling straight backward actually tightens any remaining shin contact because the shin remains perpendicular to your trachea. Lateral extraction changes the angle, allowing the shin to slide off your throat as you create a perpendicular relationship between your head movement and the shin position."
+        "answer": "Pulling straight backward actually tightens any remaining shin contact because the shin remains perpendicular to your trachea. Lateral extraction changes the angle, allowing the shin to slide off your throat as you create a perpendicular relationship between your head movement and the shin position.",
+        "answer_line": "Move head sideways, not back",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Push down then twist out"
+          ],
+          "trap": [
+            "Yank head straight backward"
+          ]
+        }
       },
       {
         "question": "The opponent releases their foot grip to overhook your arm - how should you respond?",
-        "answer": "Immediately extract your head before they can re-establish the gogoplata. The overhook without foot control is significantly less dangerous than the locked gogoplata. They have traded their primary threat for a secondary control - use this window to escape entirely."
+        "answer": "Immediately extract your head before they can re-establish the gogoplata. The overhook without foot control is significantly less dangerous than the locked gogoplata. They have traded their primary threat for a secondary control - use this window to escape entirely.",
+        "answer_line": "Extract head immediately",
+        "distractors": {
+          "plausible": [
+            "Re-grip their wrist first",
+            "Wait for full posture up"
+          ],
+          "trap": [
+            "Attempt to pass guard now"
+          ]
+        }
       },
       {
         "question": "How do you assess whether hand control escape is viable versus needing emergency escape?",
-        "answer": "Evaluate your breathing. If breathing is severely restricted with the choke fully locked, emergency escape is required - you do not have time for methodical grip fighting. Hand control escape requires enough breathing space to work for 10-15 seconds without losing consciousness."
+        "answer": "Evaluate your breathing. If breathing is severely restricted with the choke fully locked, emergency escape is required - you do not have time for methodical grip fighting. Hand control escape requires enough breathing space to work for 10-15 seconds without losing consciousness.",
+        "answer_line": "Check your breathing first",
+        "distractors": {
+          "plausible": [
+            "Check grip strength first",
+            "Check opponent's posture"
+          ],
+          "trap": [
+            "Always try hand control first"
+          ]
+        }
       },
       {
         "question": "After stripping the grip, why must you pin the opponent's hand before extracting?",
-        "answer": "If you release control immediately after stripping their grip, the opponent will re-grip their foot and reset the submission. Pinning the hand with chest pressure or hand control prevents re-establishment and ensures your extraction effort is not wasted."
+        "answer": "If you release control immediately after stripping their grip, the opponent will re-grip their foot and reset the submission. Pinning the hand with chest pressure or hand control prevents re-establishment and ensures your extraction effort is not wasted.",
+        "answer_line": "Pin hand before extracting",
+        "distractors": {
+          "plausible": [
+            "Extract head immediately",
+            "Switch to new grip fast"
+          ],
+          "trap": [
+            "Release grip, extract fast"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides optimal leverage to strip opponent's control of their foot?",
-        "answer": "Two-on-one control with one hand on their wrist and the other on their forearm or elbow. This gives you mechanical advantage over their grip strength and allows you to peel their fingers while controlling the entire arm to prevent re-gripping."
+        "answer": "Two-on-one control with one hand on their wrist and the other on their forearm or elbow. This gives you mechanical advantage over their grip strength and allows you to peel their fingers while controlling the entire arm to prevent re-gripping.",
+        "answer_line": "Two-on-one: wrist and elbow",
+        "distractors": {
+          "plausible": [
+            "One hand per opponent wrist",
+            "Both hands on same wrist"
+          ],
+          "trap": [
+            "Grab their choking shin instead"
+          ]
+        }
       },
       {
         "question": "Your opponent elevates their hips aggressively during your hand fight - what does this indicate?",
-        "answer": "This indicates they are tightening the submission and you may not have time for hand fighting. Hip elevation increases shin compression on your throat. Reassess whether to continue hand control escape or switch to emergency protocols based on your breathing status."
+        "answer": "This indicates they are tightening the submission and you may not have time for hand fighting. Hip elevation increases shin compression on your throat. Reassess whether to continue hand control escape or switch to emergency protocols based on your breathing status.",
+        "answer_line": "They're tightening the choke",
+        "distractors": {
+          "plausible": [
+            "They are about to tap out",
+            "They are losing base control"
+          ],
+          "trap": [
+            "Ignore it, keep hand fighting"
+          ]
+        }
       },
       {
         "question": "What position should you consolidate to after successfully extracting from gogoplata?",
-        "answer": "Closed guard or half guard depending on your hip position after extraction. Immediately control opponent's hips to prevent them from re-establishing rubber guard or transitioning to triangle. Recover posture to prevent being pulled back into submission danger."
+        "answer": "Closed guard or half guard depending on your hip position after extraction. Immediately control opponent's hips to prevent them from re-establishing rubber guard or transitioning to triangle. Recover posture to prevent being pulled back into submission danger.",
+        "answer_line": "Closed or half guard, control hips",
+        "distractors": {
+          "plausible": [
+            "Full mount, control shoulders",
+            "Standing base, control legs"
+          ],
+          "trap": [
+            "Stay put, chase the submission"
+          ]
+        }
       },
       {
         "question": "You strip one grip but your opponent immediately re-grips with their other hand - how do you chain your grip fighting?",
-        "answer": "Maintain control of the stripped hand by pinning it with your chest or trapping it against their body. Then use your freed hand to address the second grip using the same peel-and-pin method. The key is never releasing the first hand to fight the second - sequential pinning prevents the re-grip cycle."
+        "answer": "Maintain control of the stripped hand by pinning it with your chest or trapping it against their body. Then use your freed hand to address the second grip using the same peel-and-pin method. The key is never releasing the first hand to fight the second - sequential pinning prevents the re-grip cycle.",
+        "answer_line": "Pin first hand, then fight second",
+        "distractors": {
+          "plausible": [
+            "Release both, regrip quickly",
+            "Fight second hand with same hand"
+          ],
+          "trap": [
+            "Let go of first to grab second"
+          ]
+        }
       },
       {
         "question": "What base adjustment prevents you from being swept while committing both hands to grip fighting?",
-        "answer": "Widen your knees and drop your hips back before committing both hands. If you must use both hands simultaneously, shift your weight onto your knees and toes with hips low and wide. Work in short bursts - strip the grip, immediately post one hand for base, then pin with chest pressure rather than sustained two-hand fighting."
+        "answer": "Widen your knees and drop your hips back before committing both hands. If you must use both hands simultaneously, shift your weight onto your knees and toes with hips low and wide. Work in short bursts - strip the grip, immediately post one hand for base, then pin with chest pressure rather than sustained two-hand fighting.",
+        "answer_line": "Widen knees, hips low and back",
+        "distractors": {
+          "plausible": [
+            "Narrow base, hips forward",
+            "Post both hands, hips high"
+          ],
+          "trap": [
+            "Commit both hands, hips high"
+          ]
+        }
       }
     ],
     "safety_considerations": "Hand Control to Extract is generally a safe defensive technique, but practitioners must recognize its limitations. Never attempt this methodical escape when the gogoplata is fully locked and breathing is severely compromised - in such cases, tap or use emergency escapes immediately. The hand fighting phase requires you to accept some choke pressure while working, which is only safe when the submission is not fully applied. During training, partners should communicate clearly about tightness levels. If the defender says the choke is too tight for hand fighting, the attacker should loosen to allow technical practice. Never sacrifice consciousness trying to work a technical escape - the tap exists for safety. Practitioners with neck injuries should avoid extended time in gogoplata positions during training.",
@@ -394,23 +514,73 @@
     "flashcards": [
       {
         "question": "What grip architecture on your own foot is most resistant to two-on-one stripping attempts?",
-        "answer": "Interlocked fingers around your own shin rather than cupping the foot or ankle. The interlocked grip distributes force across all fingers simultaneously, meaning the opponent cannot strip individual fingers. This grip also positions your hands closer to your body where you have more strength."
+        "answer": "Interlocked fingers around your own shin rather than cupping the foot or ankle. The interlocked grip distributes force across all fingers simultaneously, meaning the opponent cannot strip individual fingers. This grip also positions your hands closer to your body where you have more strength.",
+        "answer_line": "Interlock fingers around shin",
+        "distractors": {
+          "plausible": [
+            "Cup the foot with one hand",
+            "Grip the ankle with both hands"
+          ],
+          "trap": [
+            "Grab their sleeve for grip"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a two-on-one on your primary gripping hand and is peeling your fingers - what is your best immediate response?",
-        "answer": "Elevate your hips explosively to tighten the submission while simultaneously using your free hand to push their head deeper into the choke. If the grip is about to be fully broken, transition to triangle by swinging your choking leg over their far shoulder before they can posture. Do not fight the two-on-one with grip strength alone."
+        "answer": "Elevate your hips explosively to tighten the submission while simultaneously using your free hand to push their head deeper into the choke. If the grip is about to be fully broken, transition to triangle by swinging your choking leg over their far shoulder before they can posture. Do not fight the two-on-one with grip strength alone.",
+        "answer_line": "Elevate hips, push head deeper",
+        "distractors": {
+          "plausible": [
+            "Release grip, regrip differently",
+            "Posture up and create space"
+          ],
+          "trap": [
+            "Let go of foot, sit back"
+          ]
+        }
       },
       {
         "question": "When should you abandon the gogoplata and transition to triangle rather than fighting to maintain your grip?",
-        "answer": "Transition when your primary grip hand has been stripped and the opponent has begun lateral head movement. At this point, re-gripping requires pulling your foot back through defended space, which is low percentage. The triangle is immediately available because their posture is broken and their arms are committed to the hand fight, making the leg-over-shoulder entry high percentage."
+        "answer": "Transition when your primary grip hand has been stripped and the opponent has begun lateral head movement. At this point, re-gripping requires pulling your foot back through defended space, which is low percentage. The triangle is immediately available because their posture is broken and their arms are committed to the hand fight, making the leg-over-shoulder entry high percentage.",
+        "answer_line": "Grip stripped and head turns",
+        "distractors": {
+          "plausible": [
+            "As soon as they hand fight",
+            "Only if you're losing energy"
+          ],
+          "trap": [
+            "Never let go, keep fighting"
+          ]
+        }
       },
       {
         "question": "How does your hip elevation affect the opponent's ability to execute hand control extraction?",
-        "answer": "Elevated hips create perpendicular shin angle against the throat, maximizing compression. This limits the time available for hand fighting because the opponent must breathe against active pressure. When hips drop, the shin angle becomes parallel and compression decreases, giving the opponent unlimited time for methodical grip stripping. Maintaining elevation is your primary retention tool."
+        "answer": "Elevated hips create perpendicular shin angle against the throat, maximizing compression. This limits the time available for hand fighting because the opponent must breathe against active pressure. When hips drop, the shin angle becomes parallel and compression decreases, giving the opponent unlimited time for methodical grip stripping. Maintaining elevation is your primary retention tool.",
+        "answer_line": "Perpendicular shin, max pressure",
+        "distractors": {
+          "plausible": [
+            "Parallel shin, max pressure",
+            "Hip elevation lowers pressure"
+          ],
+          "trap": [
+            "Drop hips to retain control"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their chin toward your shin during the escape - what does this signal and how should you respond?",
-        "answer": "Chin rotation toward the shin creates breathing space by moving the trachea slightly off the direct compression line. This signals a calm, technically aware opponent preparing for methodical escape rather than panicking. Respond by pulling your foot deeper and using your free hand to turn their chin back away from the shin, restoring the direct compression angle before they can establish hand fighting position."
+        "answer": "Chin rotation toward the shin creates breathing space by moving the trachea slightly off the direct compression line. This signals a calm, technically aware opponent preparing for methodical escape rather than panicking. Respond by pulling your foot deeper and using your free hand to turn their chin back away from the shin, restoring the direct compression angle before they can establish hand fighting position.",
+        "answer_line": "Pull foot deeper, turn chin back",
+        "distractors": {
+          "plausible": [
+            "Loosen grip to let them breathe",
+            "Switch shin to other side"
+          ],
+          "trap": [
+            "Ignore it and posture up"
+          ]
+        }
       }
     ],
     "training_progressions": [

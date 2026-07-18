@@ -249,31 +249,101 @@
     "flashcards": [
       {
         "question": "What is the optimal hip angle relative to the opponent's spine before initiating the gator roll?",
-        "answer": "Your hips should be positioned at approximately 45 degrees relative to the opponent's spine on the choking arm side. This angle aligns your center of gravity with the intended rolling trajectory, ensuring that the forward roll carries both you and the opponent through the full rotation efficiently. Walking your hips too far past this angle makes the roll awkward and disconnected, while insufficient angle results in a lateral roll that stalls mid-rotation."
+        "answer": "Your hips should be positioned at approximately 45 degrees relative to the opponent's spine on the choking arm side. This angle aligns your center of gravity with the intended rolling trajectory, ensuring that the forward roll carries both you and the opponent through the full rotation efficiently. Walking your hips too far past this angle makes the roll awkward and disconnected, while insufficient angle results in a lateral roll that stalls mid-rotation.",
+        "answer_line": "45° on choking-arm side",
+        "distractors": {
+          "plausible": [
+            "90° for a full rotation",
+            "Flat, square to their spine"
+          ],
+          "trap": [
+            "Past 90°, opposite side"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely commit to the gator roll?",
-        "answer": "Three conditions must be confirmed before initiating the roll: the anaconda grip must be locked tight with no slack in the loop, the opponent's posture must be broken with their head pulled down preventing them from lifting and creating space, and the opponent's far hand must be unable to post effectively on the mat. If any of these conditions are not met, the roll has a high probability of failure. The grip tightness is especially critical because any looseness during rotation allows the opponent to extract their head or arm mid-roll."
+        "answer": "Three conditions must be confirmed before initiating the roll: the anaconda grip must be locked tight with no slack in the loop, the opponent's posture must be broken with their head pulled down preventing them from lifting and creating space, and the opponent's far hand must be unable to post effectively on the mat. If any of these conditions are not met, the roll has a high probability of failure. The grip tightness is especially critical because any looseness during rotation allows the opponent to extract their head or arm mid-roll.",
+        "answer_line": "Tight grip, no post, head down",
+        "distractors": {
+          "plausible": [
+            "Grip tight, opponent tired",
+            "Posture broken is enough"
+          ],
+          "trap": [
+            "Roll anytime grip is on"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the rolling phase of this transition?",
-        "answer": "The most critical detail is maintaining maximum grip tightness by squeezing your elbows together throughout the entire rotation. The centrifugal force of the roll naturally wants to pull the grip apart, so you must actively counteract this by driving your elbows toward each other during the entire rotation. Your balance and directional control come from hip positioning and leg mechanics, not from releasing your grip to post hands on the mat. Any grip loosening during the roll compromises both the positional transition and the submission threat."
+        "answer": "The most critical detail is maintaining maximum grip tightness by squeezing your elbows together throughout the entire rotation. The centrifugal force of the roll naturally wants to pull the grip apart, so you must actively counteract this by driving your elbows toward each other during the entire rotation. Your balance and directional control come from hip positioning and leg mechanics, not from releasing your grip to post hands on the mat. Any grip loosening during the roll compromises both the positional transition and the submission threat.",
+        "answer_line": "Squeeze elbows together",
+        "distractors": {
+          "plausible": [
+            "Drive with hip and leg power",
+            "Roll as fast as possible"
+          ],
+          "trap": [
+            "Post hands on mat for balance"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand firmly on the mat as you begin the step-over — how do you adjust?",
-        "answer": "Abort the roll immediately and address the posting hand before re-attempting. Reach under with your free hand to strip their wrist by pulling it toward you and across their body, eliminating their base. Alternatively, drive additional shoulder pressure laterally to collapse their posting arm. If the post is too strong to break, switch to the walk-around variant where you circle your hips around their head into side control without the rolling commitment. Never force the roll against an established post — it has a high failure rate and risks position loss."
+        "answer": "Abort the roll immediately and address the posting hand before re-attempting. Reach under with your free hand to strip their wrist by pulling it toward you and across their body, eliminating their base. Alternatively, drive additional shoulder pressure laterally to collapse their posting arm. If the post is too strong to break, switch to the walk-around variant where you circle your hips around their head into side control without the rolling commitment. Never force the roll against an established post — it has a high failure rate and risks position loss.",
+        "answer_line": "Abort, strip the post",
+        "distractors": {
+          "plausible": [
+            "Switch grips, keep rolling",
+            "Wait for them to repost"
+          ],
+          "trap": [
+            "Force through the post"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best integrity during the rolling motion?",
-        "answer": "The gable grip (palm-to-palm with fingers pointing in opposite directions) provides the strongest structural integrity during the roll because it distributes rotational force across both hands and wrists equally. The S-grip (fingers interlocked) is an acceptable alternative but provides slightly less resistance to the centrifugal forces of the roll. Avoid the figure-four grip for this specific transition because the rotational forces can cause the grip to pop open at the wrist connection point. Whichever grip you use, keep your forearms pressed together throughout to reinforce the lock."
+        "answer": "The gable grip (palm-to-palm with fingers pointing in opposite directions) provides the strongest structural integrity during the roll because it distributes rotational force across both hands and wrists equally. The S-grip (fingers interlocked) is an acceptable alternative but provides slightly less resistance to the centrifugal forces of the roll. Avoid the figure-four grip for this specific transition because the rotational forces can cause the grip to pop open at the wrist connection point. Whichever grip you use, keep your forearms pressed together throughout to reinforce the lock.",
+        "answer_line": "Gable grip, forearms pressed",
+        "distractors": {
+          "plausible": [
+            "S-grip, fingers interlocked",
+            "Palm-up grip for extra reach"
+          ],
+          "trap": [
+            "Figure-four lock grip"
+          ]
+        }
       },
       {
         "question": "How do you decide whether to maintain the anaconda grip or release to standard side control upon landing?",
-        "answer": "Assess grip tightness immediately upon landing. If the anaconda loop remains tight with your forearm pressing against the opponent's carotid and their trapped arm still creating counter-pressure, maintain the grip and threaten the choke from side control — this creates a dual threat of submission and positional dominance. If the grip has loosened during the roll or the opponent has partially extracted their head, release the anaconda grip smoothly and transition to standard side control controls with crossface and underhook. Attempting to re-tighten a compromised grip wastes time and delays consolidation."
+        "answer": "Assess grip tightness immediately upon landing. If the anaconda loop remains tight with your forearm pressing against the opponent's carotid and their trapped arm still creating counter-pressure, maintain the grip and threaten the choke from side control — this creates a dual threat of submission and positional dominance. If the grip has loosened during the roll or the opponent has partially extracted their head, release the anaconda grip smoothly and transition to standard side control controls with crossface and underhook. Attempting to re-tighten a compromised grip wastes time and delays consolidation.",
+        "answer_line": "Keep grip if still tight",
+        "distractors": {
+          "plausible": [
+            "Always keep grip locked",
+            "Release immediately every time"
+          ],
+          "trap": [
+            "Re-tighten a loosened grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to scramble during the roll and you feel them gaining top position — what is your immediate response?",
-        "answer": "If you sense the opponent gaining top position during the rotation, immediately release the anaconda grip and use both hands to establish defensive frames against their chest and shoulders. Pull your elbows tight to your body and work to insert a knee between your bodies for half guard recovery. The priority shifts from offense to defense the moment you lose positional advantage during the roll. Do not continue holding the anaconda grip while being swept, as it compromises your ability to frame and recover. Accept the position loss and reset to half guard rather than fighting a losing battle mid-roll."
+        "answer": "If you sense the opponent gaining top position during the rotation, immediately release the anaconda grip and use both hands to establish defensive frames against their chest and shoulders. Pull your elbows tight to your body and work to insert a knee between your bodies for half guard recovery. The priority shifts from offense to defense the moment you lose positional advantage during the roll. Do not continue holding the anaconda grip while being swept, as it compromises your ability to frame and recover. Accept the position loss and reset to half guard rather than fighting a losing battle mid-roll.",
+        "answer_line": "Release grip, frame, recover",
+        "distractors": {
+          "plausible": [
+            "Bridge hard, skip the frames",
+            "Chase a tighter grip instead"
+          ],
+          "trap": [
+            "Hold grip through the sweep"
+          ]
+        }
       }
     ],
     "safety_considerations": "The gator roll involves significant rotational force on the neck, spine, and shoulder of the bottom player. Always practice at controlled speed before adding explosive intensity. Partners should establish clear verbal and tactile tap signals before drilling, as the rolling motion can temporarily disorient the bottom player. Avoid explosive rolls with training partners who are significantly lighter, as the momentum differential can cause uncontrolled landings and neck compression. Release the anaconda grip immediately if your partner signals distress at any point during the transition. Be particularly careful when maintaining the anaconda grip through the roll, as the tightening effect of the rotation can produce choking pressure that escalates faster than expected.",
@@ -390,23 +460,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is setting up the gator roll?",
-        "answer": "The earliest cue is the attacker walking their hips laterally to one side while maintaining chest pressure on your trapped shoulder. This hip adjustment is the first step of the gator roll setup because it creates the angle necessary for the forward roll trajectory. The moment you feel their hips shifting to one side, you should immediately strengthen your far-hand post and prepare to base out against the incoming roll. Addressing this setup early is far more effective than trying to counter the roll once the step-over has begun."
+        "answer": "The earliest cue is the attacker walking their hips laterally to one side while maintaining chest pressure on your trapped shoulder. This hip adjustment is the first step of the gator roll setup because it creates the angle necessary for the forward roll trajectory. The moment you feel their hips shifting to one side, you should immediately strengthen your far-hand post and prepare to base out against the incoming roll. Addressing this setup early is far more effective than trying to counter the roll once the step-over has begun.",
+        "answer_line": "Hips walking to one side",
+        "distractors": {
+          "plausible": [
+            "Chest pressure increasing",
+            "Grip tightening around neck"
+          ],
+          "trap": [
+            "Step-over of the far leg"
+          ]
+        }
       },
       {
         "question": "What is the most effective single defensive action against the gator roll?",
-        "answer": "Maintaining a strong far-hand post on the mat is the single most effective defensive action because it creates a structural brace that prevents the attacker from achieving the base-break necessary to complete the roll. The posted hand acts as a strut that props up your body and resists the rotational force. Without collapsing your post, the attacker cannot generate enough rolling momentum to carry you underneath them. Prioritize this post above all other defensive actions including grip fighting or hip escaping."
+        "answer": "Maintaining a strong far-hand post on the mat is the single most effective defensive action because it creates a structural brace that prevents the attacker from achieving the base-break necessary to complete the roll. The posted hand acts as a strut that props up your body and resists the rotational force. Without collapsing your post, the attacker cannot generate enough rolling momentum to carry you underneath them. Prioritize this post above all other defensive actions including grip fighting or hip escaping.",
+        "answer_line": "Strong far-hand post",
+        "distractors": {
+          "plausible": [
+            "Grip fight the choking arm",
+            "Hip escape early"
+          ],
+          "trap": [
+            "Collapse the post arm"
+          ]
+        }
       },
       {
         "question": "The attacker has committed to the roll and it cannot be stopped — what is your best strategy?",
-        "answer": "When the roll is fully committed and unstoppable, shift your strategy from prevention to counter-scrambling. Go with the rolling momentum rather than fighting it, and use the brief moment of positional chaos during the landing to fight for top position. Attack the attacker's grip during the rotation when centrifugal forces are naturally pulling it apart, and drive your hips and knees into them as you land to establish top half guard. The attacker is most vulnerable during the landing phase because they are focused on completing the roll rather than defending against a scramble."
+        "answer": "When the roll is fully committed and unstoppable, shift your strategy from prevention to counter-scrambling. Go with the rolling momentum rather than fighting it, and use the brief moment of positional chaos during the landing to fight for top position. Attack the attacker's grip during the rotation when centrifugal forces are naturally pulling it apart, and drive your hips and knees into them as you land to establish top half guard. The attacker is most vulnerable during the landing phase because they are focused on completing the roll rather than defending against a scramble.",
+        "answer_line": "Flow with it, counter-scramble",
+        "distractors": {
+          "plausible": [
+            "Brace and try to stop it",
+            "Protect neck, wait it out"
+          ],
+          "trap": [
+            "Go limp, give up the scramble"
+          ]
+        }
       },
       {
         "question": "How should you time your defensive response relative to the attacker's step-over?",
-        "answer": "Your defensive response should be timed before the step-over, not during or after it. Once the attacker lifts their far leg to step over your back, the roll is nearly committed and becomes exponentially harder to stop. The optimal defensive window is during the hip-walking phase when the attacker is adjusting their angle. Strengthen your post and base during this phase to make the step-over unsuccessful. If you miss this window and the step-over begins, immediately transition to the counter-scramble strategy rather than trying to stop the committed roll."
+        "answer": "Your defensive response should be timed before the step-over, not during or after it. Once the attacker lifts their far leg to step over your back, the roll is nearly committed and becomes exponentially harder to stop. The optimal defensive window is during the hip-walking phase when the attacker is adjusting their angle. Strengthen your post and base during this phase to make the step-over unsuccessful. If you miss this window and the step-over begins, immediately transition to the counter-scramble strategy rather than trying to stop the committed roll.",
+        "answer_line": "Before the step-over begins",
+        "distractors": {
+          "plausible": [
+            "During the step-over itself",
+            "After landing, counter there"
+          ],
+          "trap": [
+            "Wait until fully committed"
+          ]
+        }
       },
       {
         "question": "After successfully preventing the gator roll, what should be your immediate next action?",
-        "answer": "After blocking the roll, immediately shift focus to escaping the anaconda grip while the attacker is recovering from the failed attempt. Their failed roll often loosens the grip slightly and shifts their weight to a less optimal position. Use your free hand to attack their choking arm's wrist or elbow, pulling it away from your neck to create space. Simultaneously work your hips away from the attacker to reduce their chest pressure. The post-failed-roll moment is the best window for grip escape because the attacker must re-establish their setup, giving you several seconds of reduced pressure to work with."
+        "answer": "After blocking the roll, immediately shift focus to escaping the anaconda grip while the attacker is recovering from the failed attempt. Their failed roll often loosens the grip slightly and shifts their weight to a less optimal position. Use your free hand to attack their choking arm's wrist or elbow, pulling it away from your neck to create space. Simultaneously work your hips away from the attacker to reduce their chest pressure. The post-failed-roll moment is the best window for grip escape because the attacker must re-establish their setup, giving you several seconds of reduced pressure to work with.",
+        "answer_line": "Attack their grip immediately",
+        "distractors": {
+          "plausible": [
+            "Reset guard, catch your breath",
+            "Wait for them to re-set up"
+          ],
+          "trap": [
+            "Stay still, conserve energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

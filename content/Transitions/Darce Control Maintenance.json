@@ -247,35 +247,115 @@
     "flashcards": [
       {
         "question": "What is the most critical factor in maintaining darce control and why does it matter more than grip strength?",
-        "answer": "Grip depth is the most critical factor. The choking arm must be threaded deep with the elbow past the opponent's spine and the hand reaching toward their far hip. Depth matters more than grip strength because a deep grip creates mechanical advantage where body weight compression alone can maintain the choke threat, while a shallow grip requires constant muscular squeezing that fatigues rapidly and allows arm extraction."
+        "answer": "Grip depth is the most critical factor. The choking arm must be threaded deep with the elbow past the opponent's spine and the hand reaching toward their far hip. Depth matters more than grip strength because a deep grip creates mechanical advantage where body weight compression alone can maintain the choke threat, while a shallow grip requires constant muscular squeezing that fatigues rapidly and allows arm extraction.",
+        "answer_line": "Depth beats grip strength",
+        "distractors": {
+          "plausible": [
+            "Squeeze as hard as possible",
+            "Lock grip fast, not deep"
+          ],
+          "trap": [
+            "Release grip to reset deeper"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their trapped arm free during darce maintenance - how do you immediately respond?",
-        "answer": "Drive your elbow deeper past their spine while simultaneously increasing shoulder pressure into the side of their head to limit their movement capacity. Pinch your elbows tighter together to close the gap they are exploiting. If they get the arm partially free, quickly switch to a tighter grip configuration such as gable grip. The key is addressing the extraction attempt with deeper penetration rather than simply squeezing harder on the existing grip."
+        "answer": "Drive your elbow deeper past their spine while simultaneously increasing shoulder pressure into the side of their head to limit their movement capacity. Pinch your elbows tighter together to close the gap they are exploiting. If they get the arm partially free, quickly switch to a tighter grip configuration such as gable grip. The key is addressing the extraction attempt with deeper penetration rather than simply squeezing harder on the existing grip.",
+        "answer_line": "Drive deeper, add shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Just squeeze grip harder",
+            "Switch grip immediately"
+          ],
+          "trap": [
+            "Let the arm slip to reset"
+          ]
+        }
       },
       {
         "question": "Why should your hips be positioned perpendicular to your opponent's spine rather than directly behind them?",
-        "answer": "Perpendicular hip positioning creates the optimal choking angle by allowing your body weight to compress laterally across the opponent's neck rather than straight down. It also neutralizes their ability to bridge straight back into you and improves your base stability against rolling escapes in either direction. Direct positioning behind the opponent gives them a clear bridging path and reduces the choking mechanics of the arm-in configuration."
+        "answer": "Perpendicular hip positioning creates the optimal choking angle by allowing your body weight to compress laterally across the opponent's neck rather than straight down. It also neutralizes their ability to bridge straight back into you and improves your base stability against rolling escapes in either direction. Direct positioning behind the opponent gives them a clear bridging path and reduces the choking mechanics of the arm-in configuration.",
+        "answer_line": "Hips perpendicular to spine",
+        "distractors": {
+          "plausible": [
+            "Hips parallel behind them",
+            "Hips square, facing head"
+          ],
+          "trap": [
+            "Hips directly behind them"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy during an extended darce maintenance phase lasting more than 30 seconds?",
-        "answer": "Use structural weight placement rather than muscular tension for the baseline hold. Breathe steadily through your nose and keep arms relatively relaxed in the grip shape while your shoulder and chest provide compression through body weight. Apply active squeezing only in short bursts when deepening the grip or countering escape attempts. Between bursts, return to structural pressure. This cycling approach allows sustained maintenance without the rapid fatigue that comes from constant muscular squeezing."
+        "answer": "Use structural weight placement rather than muscular tension for the baseline hold. Breathe steadily through your nose and keep arms relatively relaxed in the grip shape while your shoulder and chest provide compression through body weight. Apply active squeezing only in short bursts when deepening the grip or countering escape attempts. Between bursts, return to structural pressure. This cycling approach allows sustained maintenance without the rapid fatigue that comes from constant muscular squeezing.",
+        "answer_line": "Structural weight, burst squeeze",
+        "distractors": {
+          "plausible": [
+            "Constant maximal squeeze",
+            "Hold breath, squeeze steady"
+          ],
+          "trap": [
+            "Squeeze nonstop at full power"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use when your opponent persistently hand-fights your figure-four lock?",
-        "answer": "Switch between grip configurations to make their targets move. Transition from figure-four to gable grip (palm-to-palm) which is harder to pry apart, or to S-grip which can be adjusted quickly. Simultaneously increase shoulder pressure to limit their free hand's reach toward your grip. If grip fighting continues, consider transitioning the free hand to a chin-strap control behind their head, which both secures the choke and removes the visible grip target they are attacking."
+        "answer": "Switch between grip configurations to make their targets move. Transition from figure-four to gable grip (palm-to-palm) which is harder to pry apart, or to S-grip which can be adjusted quickly. Simultaneously increase shoulder pressure to limit their free hand's reach toward your grip. If grip fighting continues, consider transitioning the free hand to a chin-strap control behind their head, which both secures the choke and removes the visible grip target they are attacking.",
+        "answer_line": "Switch grips, add chin-strap",
+        "distractors": {
+          "plausible": [
+            "Squeeze figure-four harder",
+            "Hold one grip, don't switch"
+          ],
+          "trap": [
+            "Release grip to re-fight hands"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls toward the choking arm side - should you resist the roll or follow it, and what transition opportunity does this create?",
-        "answer": "Follow the roll rather than resisting it. Walking your hips in the direction of their roll while maintaining chest-to-back contact preserves your control and often tightens the choke as the angle changes. The roll creates a direct back take opportunity if you step your far leg over their body as they turn, and it can also set up a mount transition. Resisting the roll creates a strength battle that wastes energy and risks the opponent generating enough momentum to escape entirely."
+        "answer": "Follow the roll rather than resisting it. Walking your hips in the direction of their roll while maintaining chest-to-back contact preserves your control and often tightens the choke as the angle changes. The roll creates a direct back take opportunity if you step your far leg over their body as they turn, and it can also set up a mount transition. Resisting the roll creates a strength battle that wastes energy and risks the opponent generating enough momentum to escape entirely.",
+        "answer_line": "Follow roll, take the back",
+        "distractors": {
+          "plausible": [
+            "Resist roll, hold position",
+            "Follow roll, go to mount"
+          ],
+          "trap": [
+            "Fight the roll with strength"
+          ]
+        }
       },
       {
         "question": "What are the three most important contact points you must maintain during darce control and what happens if you lose each one?",
-        "answer": "The three critical contact points are: chest-to-back connection which provides compression force and prevents posturing (losing this allows the opponent to create frames and begin extracting their arm); shoulder-to-head pressure which controls their posture and tightens the choke angle (losing this allows them to turn their head and relieve carotid pressure); and elbow-past-spine depth which secures the mechanical advantage of the grip (losing this makes the entire choke structure ineffective and enables arm extraction)."
+        "answer": "The three critical contact points are: chest-to-back connection which provides compression force and prevents posturing (losing this allows the opponent to create frames and begin extracting their arm); shoulder-to-head pressure which controls their posture and tightens the choke angle (losing this allows them to turn their head and relieve carotid pressure); and elbow-past-spine depth which secures the mechanical advantage of the grip (losing this makes the entire choke structure ineffective and enables arm extraction).",
+        "answer_line": "Chest, shoulder, elbow depth",
+        "distractors": {
+          "plausible": [
+            "Chest, hips, and grip hands",
+            "Shoulder, hip, and knee line"
+          ],
+          "trap": [
+            "Only grip strength matters"
+          ]
+        }
       },
       {
         "question": "When should you abandon darce maintenance and transition to an alternative position instead of continuing to hold?",
-        "answer": "Abandon darce maintenance when the opponent has successfully extracted their trapped arm past the point of recovery, when your grip has degraded to a shallow position that cannot be re-deepened against their defense, or when you have held the position for an extended period without progress toward a finish and your energy is depleting faster than your opponent's. In these situations, transition to front headlock to maintain head control, advance to mount if the opponent is flattened, or take the back if they are turning away."
+        "answer": "Abandon darce maintenance when the opponent has successfully extracted their trapped arm past the point of recovery, when your grip has degraded to a shallow position that cannot be re-deepened against their defense, or when you have held the position for an extended period without progress toward a finish and your energy is depleting faster than your opponent's. In these situations, transition to front headlock to maintain head control, advance to mount if the opponent is flattened, or take the back if they are turning away.",
+        "answer_line": "Transition when grip degrades",
+        "distractors": {
+          "plausible": [
+            "Hold on no matter what",
+            "Abandon at first resistance"
+          ],
+          "trap": [
+            "Release everything and reset"
+          ]
+        }
       }
     ],
     "safety_considerations": "While darce maintenance is a control transition rather than a direct submission, the position creates constant pressure on the opponent's carotid arteries that can cause unconsciousness if sustained. Always monitor your training partner's responsiveness during maintenance drilling. If your partner goes limp, stops moving, or taps, release the grip immediately. During extended maintenance practice, allow rest periods between repetitions to prevent cumulative neck strain. Communicate with your partner about pressure intensity and adjust accordingly. Never maintain a fully locked darce grip on an unconscious partner.",
@@ -393,19 +473,59 @@
     "flashcards": [
       {
         "question": "Why should you move toward the darce choke rather than pulling away from it when defending?",
-        "answer": "Moving toward the choke by turning your body into the opponent reduces the angle needed for carotid compression, effectively loosening the choke. It also creates space on the opposite side of your neck where you can work to extract the trapped arm. Pulling away stretches your neck into the compression and gives the opponent additional space to drive their grip deeper, paradoxically making the choke tighter and more dangerous."
+        "answer": "Moving toward the choke by turning your body into the opponent reduces the angle needed for carotid compression, effectively loosening the choke. It also creates space on the opposite side of your neck where you can work to extract the trapped arm. Pulling away stretches your neck into the compression and gives the opponent additional space to drive their grip deeper, paradoxically making the choke tighter and more dangerous.",
+        "answer_line": "Turn into the choke",
+        "distractors": {
+          "plausible": [
+            "Pull away from the choke",
+            "Stay still, don't move"
+          ],
+          "trap": [
+            "Yank your head back hard"
+          ]
+        }
       },
       {
         "question": "What is the single most important defensive action to prioritize when caught in darce control maintenance?",
-        "answer": "Extracting the trapped arm is the highest priority because the arm-in configuration is the fundamental mechanism that makes the darce choke effective. Without the arm trapped between your body and the choking arm, the choke cannot generate sufficient compression on the carotid arteries. Every other defensive action is secondary to arm extraction. Use your free hand to grip the trapped wrist and pull it toward your centerline while turning into the opponent."
+        "answer": "Extracting the trapped arm is the highest priority because the arm-in configuration is the fundamental mechanism that makes the darce choke effective. Without the arm trapped between your body and the choking arm, the choke cannot generate sufficient compression on the carotid arteries. Every other defensive action is secondary to arm extraction. Use your free hand to grip the trapped wrist and pull it toward your centerline while turning into the opponent.",
+        "answer_line": "Extract the trapped arm",
+        "distractors": {
+          "plausible": [
+            "Defend the choking hand",
+            "Control opponent's hips"
+          ],
+          "trap": [
+            "Push against their chest"
+          ]
+        }
       },
       {
         "question": "How do you recognize that your opponent has shifted from attempting an immediate darce finish to a maintenance strategy?",
-        "answer": "The shift to maintenance is characterized by the opponent settling their body weight structurally rather than squeezing explosively, walking their hips to optimize their angle and base, and making small positional adjustments rather than committing to a single finishing direction. Their pressure becomes steady and rhythmic rather than the intense burst of an immediate choke attempt. Recognizing this shift is important because it means you have slightly more time to organize your defense but also that the opponent is building toward a stronger finishing position."
+        "answer": "The shift to maintenance is characterized by the opponent settling their body weight structurally rather than squeezing explosively, walking their hips to optimize their angle and base, and making small positional adjustments rather than committing to a single finishing direction. Their pressure becomes steady and rhythmic rather than the intense burst of an immediate choke attempt. Recognizing this shift is important because it means you have slightly more time to organize your defense but also that the opponent is building toward a stronger finishing position.",
+        "answer_line": "Steady weight, hips adjusting",
+        "distractors": {
+          "plausible": [
+            "One sudden explosive squeeze",
+            "Rapid position switching"
+          ],
+          "trap": [
+            "Assume immediate finish coming"
+          ]
+        }
       },
       {
         "question": "Your opponent is maintaining darce control and you cannot extract your trapped arm - what alternative escape should you attempt?",
-        "answer": "If arm extraction fails, execute a granby roll or sit-through to change your body angle relative to the choke. Wait for the opponent to shift their weight forward during a grip adjustment, then drive your hips under their body and rotate to recover half guard or closed guard. The key is timing the roll to when their base is least stable. If rolling is also blocked, frame against their hip with your free hand and walk your hips away to change the engagement angle enough to neutralize the choke pressure."
+        "answer": "If arm extraction fails, execute a granby roll or sit-through to change your body angle relative to the choke. Wait for the opponent to shift their weight forward during a grip adjustment, then drive your hips under their body and rotate to recover half guard or closed guard. The key is timing the roll to when their base is least stable. If rolling is also blocked, frame against their hip with your free hand and walk your hips away to change the engagement angle enough to neutralize the choke pressure.",
+        "answer_line": "Granby roll to change angle",
+        "distractors": {
+          "plausible": [
+            "Bridge and push straight up",
+            "Wait passively for opening"
+          ],
+          "trap": [
+            "Muscle the arm out by force"
+          ]
+        }
       }
     ],
     "training_progressions": [

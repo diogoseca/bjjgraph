@@ -300,52 +300,152 @@
       {
         "question": "What anatomical structures does the Peruvian Necktie attack and how does the leg contribute to the choking mechanism?",
         "answer": "The Peruvian Necktie primarily attacks both carotid arteries for a bilateral blood choke. The choking forearm compresses the near-side carotid, while the opponent's own trapped arm and shoulder compress the far-side carotid. The leg thrown over the back of the head acts as a force multiplier — it drives the opponent's head downward into the forearm and prevents them from posturing to relieve pressure. Without the leg, the choke relies solely on arm strength; with the leg, your entire body structure contributes to the compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg drives head into forearm",
+        "distractors": {
+          "plausible": [
+            "Choke only crushes trachea",
+            "Leg just blocks their base"
+          ],
+          "trap": [
+            "Rely on arm strength alone"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their posture low and chin tucked while you have front headlock — how does this defensive posture actually set up the Peruvian Necktie?",
         "answer": "A low posture with chin tucked is the standard defense against guillotines from front headlock, but it is precisely the posture that makes the Peruvian Necktie available. The low head position means the opponent cannot posture away when you throw the leg over, and their bent-forward body angle creates the neck exposure needed for the forearm to cross under the chin. By defending the guillotine with this posture, they unknowingly present the ideal body position for the necktie setup. This is why the Peruvian Necktie is such an effective chain from guillotine threats.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks posture-up, exposes neck",
+        "distractors": {
+          "plausible": [
+            "Signals a guillotine defense",
+            "Means they'll try to roll out"
+          ],
+          "trap": [
+            "It stops the necktie attempt"
+          ]
+        }
       },
       {
         "question": "Why must you sit through at a 45-degree angle rather than straight back when finishing the Peruvian Necktie?",
         "answer": "Sitting at a 45-degree angle away from the trapped arm side creates opposing force vectors that maximize carotid compression. Your grip pulls the opponent's head toward your hip in one direction while the leg pushes their neck in the opposite direction. Sitting straight back allows the opponent to follow your movement and relieves the stretch across their neck. The 45-degree angle also positions your forearm optimally across the carotid rather than against the trachea, producing a cleaner blood choke with less discomfort but faster unconsciousness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "45° angle stretches the neck",
+        "distractors": {
+          "plausible": [
+            "Sit straight back for power",
+            "Angle avoids the trachea only"
+          ],
+          "trap": [
+            "Sit straight back, then pull"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the Peruvian Necktie in training?",
         "answer": "The Peruvian Necktie is a blood choke that can produce unconsciousness within seconds of a clean lock, so the primary safety concern is application speed and awareness of your partner's state. Always apply pressure progressively over 3-5 seconds, never jerk or spike the submission. Watch for partner going limp, irregular breathing, or any distress signals beyond normal discomfort. Release immediately on any tap signal — verbal, hand, or foot. The leg-over-head component also creates cervical spine stress, so never apply twisting or cranking motions. After release, allow your partner to straighten their neck naturally and confirm they are conscious and oriented before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, watch for taps",
+        "distractors": {
+          "plausible": [
+            "Speed matters more than care",
+            "Only worry about arm safety"
+          ],
+          "trap": [
+            "Crank fast for a quick tap"
+          ]
+        }
       },
       {
         "question": "How should you release the Peruvian Necktie after your partner taps?",
         "answer": "First, immediately release the gable grip and remove forearm pressure from the neck. Second, slowly unwrap the leg from the back of their head — do not snap it off quickly as this can jar the cervical spine. Third, allow your partner to lift their head and straighten their neck at their own pace without forcing any movement. Fourth, check that your partner is fully conscious and responsive before proceeding. If your partner went limp or lost consciousness at any point, place them in recovery position, ensure their airway is clear, and call for medical assistance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, unwrap leg slowly",
+        "distractors": {
+          "plausible": [
+            "Unwrap leg first, then grip",
+            "Release everything at once"
+          ],
+          "trap": [
+            "Snap the leg off quickly"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your gable grip with both hands during the setup — what adjustment prevents escape and what opportunity does their grip fight create?",
         "answer": "If the opponent commits both hands to fighting your gable grip, they have removed both posting hands from the mat, eliminating their base entirely. First, try switching from gable grip to S-grip or re-locking from a different angle. If the grip fight is intense, recognize that their compromised base creates other opportunities — you can flatten them to the mat and transition to side control, take the back since they cannot frame against your movement, or switch to an anaconda or darce setup where the arm position they created by reaching for your hands actually assists the arm-in choke entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch grip, exploit lost base",
+        "distractors": {
+          "plausible": [
+            "Reapply the same grip harder",
+            "Wait for them to tire out"
+          ],
+          "trap": [
+            "Chase the grip, ignore back"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender once the Peruvian Necktie sequence progresses?",
         "answer": "The point of no escape occurs once the leg lands across the back of the neck and the attacker begins the sit-through. Before the leg is over the head, the defender can posture up, sprawl back, or strip the grip with reasonable success. Once the leg is over the head and the attacker sits to the hip, the defender's posture is completely broken by the downward force of the leg, and the gable grip prevents head extraction. At this point, the only remaining option is to tap. Attempting to roll through after the leg is locked typically tightens the choke rather than relieving it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg over neck, sit-through starts",
+        "distractors": {
+          "plausible": [
+            "Once gable grip first locks",
+            "When posture first breaks"
+          ],
+          "trap": [
+            "Roll through to escape late"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a correctly applied blood choke and an incorrectly positioned trachea crush when finishing the Peruvian Necktie?",
         "answer": "A correctly applied blood choke produces a sensation of pressure on the sides of the neck with relatively little pain — the opponent may feel lightheaded or see vision narrowing before feeling significant discomfort. The forearm should cross at an angle that contacts the lateral carotid arteries. An incorrectly positioned trachea crush produces immediate sharp pain and difficulty breathing, with the opponent coughing or gagging. If your partner reports central throat pressure rather than side-of-neck pressure, adjust your forearm angle to move the pressure laterally. The sit-through angle is usually the issue — a steeper 45-degree angle positions the forearm across the carotids rather than the windpipe.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lateral neck pressure, not center",
+        "distractors": {
+          "plausible": [
+            "Any throat pain means correct",
+            "Gagging confirms clean choke"
+          ],
+          "trap": [
+            "Push forearm onto windpipe"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending the Peruvian Necktie by tucking their chin and staying tight — what grip adjustments increase finishing pressure without changing position?",
         "answer": "With the choke locked and the opponent chin-tucking, three micro-adjustments can increase pressure without repositioning. First, walk your hips one to two inches further from the opponent to increase the stretch across their neck. Second, extend the leg over their head more aggressively, increasing the downward force that drives their head into your forearm. Third, rotate your forearm slightly so the radius bone edge contacts the carotid rather than the flat of the forearm — this concentrates the compression force into a smaller surface area. Competition finishing often comes down to these small adjustments rather than gross positional changes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips out, extend the leg",
+        "distractors": {
+          "plausible": [
+            "Grip harder with both hands",
+            "Reposition entirely from scratch"
+          ],
+          "trap": [
+            "Crank the neck for more force"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive responses you should expect when setting up the Peruvian Necktie from front headlock?",
         "answer": "The three most common defensive responses are: first, explosive posturing up before the leg lands, which is the highest-percentage escape and must be prevented by maintaining heavy chest pressure and snapping the head down before throwing the leg; second, sprawling the hips back to create distance and prevent the grip lock, which you counter by following their hip movement or chaining to a darce; third, forward rolling through the choke attempt to recover guard, which you counter by sprawling your hips back and letting the leg over the head act as a hook that jams the roll. Recognizing which defense the opponent favors allows you to preemptively address it during your setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up, sprawl, or roll out",
+        "distractors": {
+          "plausible": [
+            "Tap early to avoid the choke",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Stand up to escape headlock"
+          ]
+        }
       }
     ],
     "clips": [
@@ -460,32 +560,92 @@
       {
         "question": "How do you distinguish the Peruvian Necktie setup from a standard guillotine or darce attempt from front headlock?",
         "answer": "The key distinguishing signal is the gable grip lock with both hands meeting under your chest or around your trapped arm, combined with the attacker's weight shifting to one side to prepare the leg throw. A guillotine setup involves the attacker pulling upward on your chin with a single arm grip. A darce involves threading an arm through the neck-arm gap from the opposite side. The Peruvian Necktie uniquely features the gable grip plus the far arm trap, followed by the distinctive leg-over-head movement that no other front headlock submission uses.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip plus leg-over-head",
+        "distractors": {
+          "plausible": [
+            "Single-arm pull under chin",
+            "Arm threaded from far side"
+          ],
+          "trap": [
+            "Any front headlock grip works"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Peruvian Necktie and when should you tap?",
         "answer": "Tap immediately once the leg is over your head, the grip is locked, and the sit-through begins. Do not wait to see if you can survive — this choke produces unconsciousness within seconds of a clean lock and you may not have time to tap once it fully sets. Use a clear hand tap on the attacker's body or the mat, combined with a verbal tap if possible. Because your far arm may be trapped, ensure your near hand is free to tap. If both hands are trapped, tap with your feet on the mat and verbalize loudly. Never attempt to tough out a locked Peruvian Necktie in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap fast once leg locks in",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can survive",
+            "Tap only when it truly hurts"
+          ],
+          "trap": [
+            "Try to power through it"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked the gable grip but has not yet thrown the leg — what is your highest-percentage defensive response?",
         "answer": "Your highest-percentage response is an explosive posture up combined with driving forward into the attacker. The gable grip is strongest when the attacker can create distance by sitting away, so closing distance by driving into them reduces the grip's effectiveness. As you posture, use one hand to fight the grip at the wrist or elbow while the other hand posts on the mat for base. If you can break the gable grip during this posture attempt, you return to standard front headlock bottom where you have more established escape options. Speed is critical — this window closes once the leg starts moving over your head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up, drive forward",
+        "distractors": {
+          "plausible": [
+            "Pull back to create space",
+            "Wait for the leg to land"
+          ],
+          "trap": [
+            "Sit back to break the grip"
+          ]
+        }
       },
       {
         "question": "Why does the forward roll escape work against the Peruvian Necktie and what makes it risky?",
         "answer": "The forward roll works because the attacker commits their weight to the sit-through in one direction, and rolling forward exploits the gap in their pressure. If timed during the sit-through transition when the attacker's base is shifting, the roll can carry you through the choke and into an inverted position where you recover guard. The risk is significant: if the attacker anticipates the roll and sprawls their hips back or if the roll is too slow, the choke tightens during the rotation as your own forward momentum drives your neck deeper into the compression. The roll should only be attempted as a last resort when posturing and grip fighting have already failed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Exploits gap during sit-through",
+        "distractors": {
+          "plausible": [
+            "Always safest way to escape",
+            "Works best right after grip locks"
+          ],
+          "trap": [
+            "Roll anytime to escape"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel yourself becoming lightheaded during a Peruvian Necktie attempt in training?",
         "answer": "Tap immediately by any means available — hand tap, foot tap, or verbal signal. Lightheadedness indicates carotid compression is restricting blood flow to the brain, and unconsciousness can follow within seconds. Do not attempt to fight through lightheadedness hoping to escape, as you may lose consciousness before you can tap. After tapping, communicate to your partner that you felt lightheaded so they can adjust their training intensity. Take a brief rest before resuming training and monitor for any persistent symptoms like headache or dizziness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any method",
+        "distractors": {
+          "plausible": [
+            "Push through a few more seconds",
+            "Signal only if it gets worse"
+          ],
+          "trap": [
+            "Try to escape before tapping"
+          ]
+        }
       },
       {
         "question": "How does freeing your trapped far arm change the dynamics of defending the Peruvian Necktie?",
         "answer": "Freeing the trapped far arm eliminates one side of the bilateral carotid compression, which is critical for the choke to produce unconsciousness. With the arm free, blood can flow through the far-side carotid artery even if the near side remains compressed by the forearm. This buys significant survival time and converts a finishing choke into uncomfortable pressure that you can endure while working other escape mechanics. To free the arm, drive your elbow toward your own hip to extract it from the pinch between your neck and the attacker's torso, or rotate your shoulder to create the space needed to pull the arm through.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frees far carotid, buys time",
+        "distractors": {
+          "plausible": [
+            "Fully escapes the choke",
+            "Stops all neck pressure"
+          ],
+          "trap": [
+            "Pull elbow toward their hip"
+          ]
+        }
       }
     ],
     "training_progressions": [

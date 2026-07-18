@@ -324,35 +324,115 @@
   "flashcards": [
     {
       "question": "What fundamentally distinguishes gi strategy from no-gi grappling?",
-      "answer": "The gi adds collar, sleeve, lapel, and pant grips as fixed control points that slow the pace, enable friction-based control, and unlock chokes and entanglements that are impossible in no-gi."
+      "answer": "The gi adds collar, sleeve, lapel, and pant grips as fixed control points that slow the pace, enable friction-based control, and unlock chokes and entanglements that are impossible in no-gi.",
+      "answer_line": "Grips, friction, gi chokes",
+      "distractors": {
+        "plausible": [
+          "Gi just slows down scrambles",
+          "More stalling calls, that's all"
+        ],
+        "trap": [
+          "No real difference, ignore gi"
+        ]
+      }
     },
     {
       "question": "Why is grip fighting considered the first battle in every gi exchange?",
-      "answer": "Whoever establishes dominant grips first dictates distance, posture, and tempo; controlling grips precedes and enables every sweep, pass, and submission, so losing the grip battle usually means losing the position."
+      "answer": "Whoever establishes dominant grips first dictates distance, posture, and tempo; controlling grips precedes and enables every sweep, pass, and submission, so losing the grip battle usually means losing the position.",
+      "answer_line": "Grips dictate distance, tempo",
+      "distractors": {
+        "plausible": [
+          "Grips matter late, not early",
+          "Only matters for chokes"
+        ],
+        "trap": [
+          "Skip grips, rush the takedown"
+        ]
+      }
     },
     {
       "question": "Which submission category is unique to the gi and considered high-percentage?",
-      "answer": "Collar chokes such as the cross collar, bow and arrow, baseball bat, loop, and clock choke use the lapel as a built-in rope to attack the neck from guard, mount, back, and turtle."
+      "answer": "Collar chokes such as the cross collar, bow and arrow, baseball bat, loop, and clock choke use the lapel as a built-in rope to attack the neck from guard, mount, back, and turtle.",
+      "answer_line": "Collar chokes via the lapel",
+      "distractors": {
+        "plausible": [
+          "Armbars, since gi slows escapes",
+          "Leg locks, unique to gi rules"
+        ],
+        "trap": [
+          "Neck cranks without the collar"
+        ]
+      }
     },
     {
       "question": "What are lapel-based guards and what advantage do they provide?",
-      "answer": "Guards like lasso, worm, and squid guard wrap the opponent's own lapel around their limbs, creating entanglements that break posture, off-balance, and neutralize passing without relying on grip strength."
+      "answer": "Guards like lasso, worm, and squid guard wrap the opponent's own lapel around their limbs, creating entanglements that break posture, off-balance, and neutralize passing without relying on grip strength.",
+      "answer_line": "Opponent's lapel traps their limbs",
+      "distractors": {
+        "plausible": [
+          "Just extra grip strength boost",
+          "Only works from closed guard"
+        ],
+        "trap": [
+          "Wrap own lapel around self"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent strips your grips faster than you can establish them?",
-      "answer": "Grip fight proactively rather than reactively: anticipate breaks, immediately re-grip with alternates, and use two-on-one grip fighting to overwhelm single-handed grip breaks."
+      "answer": "Grip fight proactively rather than reactively: anticipate breaks, immediately re-grip with alternates, and use two-on-one grip fighting to overwhelm single-handed grip breaks.",
+      "answer_line": "Grip fight proactively, re-grip",
+      "distractors": {
+        "plausible": [
+          "Wait for them to over-extend",
+          "Match one-on-one grip trades"
+        ],
+        "trap": [
+          "Abandon grips, go grip-less"
+        ]
+      }
     },
     {
       "question": "Why do strong opponents sometimes overpower gi grips, and how do you counter it?",
-      "answer": "Relying on grip strength alone loses to raw power; instead use grip angles and leverage, combine multiple grips to distribute the load, and break grips before they fully establish."
+      "answer": "Relying on grip strength alone loses to raw power; instead use grip angles and leverage, combine multiple grips to distribute the load, and break grips before they fully establish.",
+      "answer_line": "Use angles, leverage, break first",
+      "distractors": {
+        "plausible": [
+          "Grip harder, match their strength",
+          "Use one strong grip only"
+        ],
+        "trap": [
+          "Lock in grip, wait it out"
+        ]
+      }
     },
     {
       "question": "What is a common mistake practitioners make when gripping the gi?",
-      "answer": "Gripping without strategic purpose; random or meaningless grips waste energy and grip endurance without controlling distance, posture, or setting up an attack."
+      "answer": "Gripping without strategic purpose; random or meaningless grips waste energy and grip endurance without controlling distance, posture, or setting up an attack.",
+      "answer_line": "Gripping without a purpose",
+      "distractors": {
+        "plausible": [
+          "Gripping too few points",
+          "Switching grips too often"
+        ],
+        "trap": [
+          "Grip everything within reach"
+        ]
+      }
     },
     {
       "question": "How does gi strategy change the role of pace compared to no-gi?",
-      "answer": "Gi friction and grips slow the game, rewarding patience, grip discipline, and methodical positional advancement over the explosive scrambles and athleticism that dominate no-gi grappling."
+      "answer": "Gi friction and grips slow the game, rewarding patience, grip discipline, and methodical positional advancement over the explosive scrambles and athleticism that dominate no-gi grappling.",
+      "answer_line": "Rewards patience over scrambles",
+      "distractors": {
+        "plausible": [
+          "Speeds up matches via friction",
+          "Removes need for positional control"
+        ],
+        "trap": [
+          "Rush transitions like no-gi"
+        ]
+      }
     }
   ]
 }

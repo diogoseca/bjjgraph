@@ -265,35 +265,115 @@
     "flashcards": [
       {
         "question": "Why is circular knee motion more effective than linear pulling when breaking the lockdown figure-four?",
-        "answer": "The lockdown figure-four is structurally designed to resist linear backward force - pulling straight back actually tightens the ankle cross and strengthens the bottom player's grip. Circular inward motion exploits a biomechanical weakness: the figure-four triangle is vulnerable to rotational disruption at the ankle crossing point. By circling the knee inward toward the opponent's centerline, the trapped leg passes through the weakest axis of the lockdown triangle, requiring significantly less force to break free."
+        "answer": "The lockdown figure-four is structurally designed to resist linear backward force - pulling straight back actually tightens the ankle cross and strengthens the bottom player's grip. Circular inward motion exploits a biomechanical weakness: the figure-four triangle is vulnerable to rotational disruption at the ankle crossing point. By circling the knee inward toward the opponent's centerline, the trapped leg passes through the weakest axis of the lockdown triangle, requiring significantly less force to break free.",
+        "answer_line": "Circle the knee inward",
+        "distractors": {
+          "plausible": [
+            "Circle the knee outward",
+            "Rotate at the hip, not knee"
+          ],
+          "trap": [
+            "Pull knee straight back"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the Z-Lock transition, and how do you create one if the opponent maintains constant lockdown pressure?",
-        "answer": "The optimal window occurs when lockdown tension momentarily decreases - after a failed sweep attempt, during grip adjustment, or when the opponent shifts from offense to defense. To create a window artificially, threaten an upper body submission or pass that forces them to address a problem above their waist, which reflexively loosens their leg grip. Heavy crossface pressure that makes breathing difficult also causes the opponent to prioritize escaping the pressure over maintaining maximum lockdown tension."
+        "answer": "The optimal window occurs when lockdown tension momentarily decreases - after a failed sweep attempt, during grip adjustment, or when the opponent shifts from offense to defense. To create a window artificially, threaten an upper body submission or pass that forces them to address a problem above their waist, which reflexively loosens their leg grip. Heavy crossface pressure that makes breathing difficult also causes the opponent to prioritize escaping the pressure over maintaining maximum lockdown tension.",
+        "answer_line": "Time it when lockdown loosens",
+        "distractors": {
+          "plausible": [
+            "Wait for a big scramble",
+            "Force it with more strength"
+          ],
+          "trap": [
+            "Attack at peak lockdown tension"
+          ]
+        }
       },
       {
         "question": "Your opponent has extremely tight lockdown and you cannot break the figure-four despite good upper body pressure - what alternative approaches exist?",
-        "answer": "If the lockdown cannot be broken directly, several alternatives exist: (1) continue heavy crossface pressure until the opponent fatigues and loosens grip, (2) attempt a back step pass that works with the lockdown rather than against it, (3) use the underhook-assisted variant by turning the opponent slightly away to change the angle of the figure-four, or (4) feint the Z-Lock transition repeatedly to tire their legs before committing to the actual attempt. Patience is essential - forcing through a tight lockdown leads to sweeps."
+        "answer": "If the lockdown cannot be broken directly, several alternatives exist: (1) continue heavy crossface pressure until the opponent fatigues and loosens grip, (2) attempt a back step pass that works with the lockdown rather than against it, (3) use the underhook-assisted variant by turning the opponent slightly away to change the angle of the figure-four, or (4) feint the Z-Lock transition repeatedly to tire their legs before committing to the actual attempt. Patience is essential - forcing through a tight lockdown leads to sweeps.",
+        "answer_line": "Fatigue them with crossface",
+        "distractors": {
+          "plausible": [
+            "Back-step pass instead",
+            "Feint the transition repeatedly"
+          ],
+          "trap": [
+            "Force through the lockdown"
+          ]
+        }
       },
       {
         "question": "Where exactly should the knee be positioned when establishing the Z-Lock, and what happens if it is placed too high or too low?",
-        "answer": "The knee must be positioned directly across the opponent's hip crease, with the shin creating a diagonal line across the lower abdomen. Too high (on the ribs) creates discomfort but fails to control hip movement, allowing shrimping escapes and lockdown re-establishment below the knee. Too low (on the thigh) does not create sufficient lateral pressure and the opponent can elevate the knee with a butterfly hook motion. The hip crease is the precise location where the Z-Lock blocks all hip-based escape patterns."
+        "answer": "The knee must be positioned directly across the opponent's hip crease, with the shin creating a diagonal line across the lower abdomen. Too high (on the ribs) creates discomfort but fails to control hip movement, allowing shrimping escapes and lockdown re-establishment below the knee. Too low (on the thigh) does not create sufficient lateral pressure and the opponent can elevate the knee with a butterfly hook motion. The hip crease is the precise location where the Z-Lock blocks all hip-based escape patterns.",
+        "answer_line": "Knee on the hip crease",
+        "distractors": {
+          "plausible": [
+            "Knee up on the ribs",
+            "Knee down on the thigh"
+          ],
+          "trap": [
+            "Knee behind their far leg"
+          ]
+        }
       },
       {
         "question": "During the knee transition, your opponent secures an underhook and begins coming up to dogfight - what should your immediate response be?",
-        "answer": "Abandon the Z-Lock attempt immediately and address the underhook threat. Drive a hard crossface to force them back down, or establish a whizzer on the underhook arm to prevent them from completing the rise to dogfight. If they achieve full dogfight, you may need to concede to the scramble and fight for your own underhook. The critical lesson is that the Z-Lock transition must never compromise upper body control - if the opponent gets underneath you during the transition, reset to heavy pressure and try again."
+        "answer": "Abandon the Z-Lock attempt immediately and address the underhook threat. Drive a hard crossface to force them back down, or establish a whizzer on the underhook arm to prevent them from completing the rise to dogfight. If they achieve full dogfight, you may need to concede to the scramble and fight for your own underhook. The critical lesson is that the Z-Lock transition must never compromise upper body control - if the opponent gets underneath you during the transition, reset to heavy pressure and try again.",
+        "answer_line": "Crossface, kill the underhook",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to flatten them",
+            "Push their head down hard"
+          ],
+          "trap": [
+            "Finish the Z-Lock transition"
+          ]
+        }
       },
       {
         "question": "What is the role of the free (non-trapped) leg throughout the entire Z-Lock transition sequence?",
-        "answer": "The free leg serves as the primary base and balance point during the entire transition. It must be posted wide with the knee pointed outward, creating a stable tripod with your upper body contact points. During the knee circle and Z-Lock establishment, all weight shifts are supported by this posted leg. Without proper posting, the weight transfer required to circle the trapped knee creates a sweep vulnerability that skilled lockdown players will exploit immediately. The free leg never comes close to the body during the transition."
+        "answer": "The free leg serves as the primary base and balance point during the entire transition. It must be posted wide with the knee pointed outward, creating a stable tripod with your upper body contact points. During the knee circle and Z-Lock establishment, all weight shifts are supported by this posted leg. Without proper posting, the weight transfer required to circle the trapped knee creates a sweep vulnerability that skilled lockdown players will exploit immediately. The free leg never comes close to the body during the transition.",
+        "answer_line": "Post the free leg wide",
+        "distractors": {
+          "plausible": [
+            "Tuck the free leg in tight",
+            "Use free leg to pin them"
+          ],
+          "trap": [
+            "Lift the free leg for space"
+          ]
+        }
       },
       {
         "question": "How does this transition differ strategically from a standard lockdown leg extraction, and when would you choose one over the other?",
-        "answer": "Standard leg extraction aims to completely free the trapped leg and return to a neutral half guard top or combat base. The Z-Lock transition instead converts the position into a more dominant control by keeping the leg in half guard but establishing the Z-shape across the hip. Choose the Z-Lock transition when facing a skilled lockdown player who can re-establish lockdown after standard extraction, as the Z-Lock prevents re-engagement entirely. Choose standard extraction when you want immediate guard passing mobility or when the opponent's lockdown is weak enough that a simple pull-free suffices."
+        "answer": "Standard leg extraction aims to completely free the trapped leg and return to a neutral half guard top or combat base. The Z-Lock transition instead converts the position into a more dominant control by keeping the leg in half guard but establishing the Z-shape across the hip. Choose the Z-Lock transition when facing a skilled lockdown player who can re-establish lockdown after standard extraction, as the Z-Lock prevents re-engagement entirely. Choose standard extraction when you want immediate guard passing mobility or when the opponent's lockdown is weak enough that a simple pull-free suffices.",
+        "answer_line": "Use vs skilled lockdown players",
+        "distractors": {
+          "plausible": [
+            "Use for faster pass mobility",
+            "Use against any lockdown"
+          ],
+          "trap": [
+            "Extract fully, reset to guard"
+          ]
+        }
       },
       {
         "question": "What grip should your hands prioritize during the transition, and why does losing inside arm control during the knee movement create problems?",
-        "answer": "During the transition, one hand controls the opponent's inside arm (wrist or bicep) to prevent underhook recovery, while the other hand either drives crossface or posts for additional base. Losing inside arm control during the knee movement is dangerous because the opponent needs only a split second to thread an underhook during the weight shift. With an established underhook, they can initiate whip-up sweeps or come to dogfight position, which is especially effective during the transition when your base is temporarily compromised by the leg reconfiguration."
+        "answer": "During the transition, one hand controls the opponent's inside arm (wrist or bicep) to prevent underhook recovery, while the other hand either drives crossface or posts for additional base. Losing inside arm control during the knee movement is dangerous because the opponent needs only a split second to thread an underhook during the weight shift. With an established underhook, they can initiate whip-up sweeps or come to dogfight position, which is especially effective during the transition when your base is temporarily compromised by the leg reconfiguration.",
+        "answer_line": "Control their inside arm",
+        "distractors": {
+          "plausible": [
+            "Grip both wrists tightly",
+            "Control the far-side arm"
+          ],
+          "trap": [
+            "Let go to free both hands"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves significant pressure application through the knee and shin across the opponent's hip and lower abdomen. Practitioners should be careful not to drive the knee into the bladder area or apply excessive lateral force to the opponent's hip joint. During drilling, communicate about pressure levels and avoid explosive knee drives that could impact the opponent's midsection. The lockdown break itself can stress the knee and ankle joints if performed too aggressively - use smooth circular motion rather than violent jerking. Always ensure the training partner can tap if the Z-Lock pressure becomes uncomfortable across their hip or lower body.",
@@ -411,19 +491,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the top player is attempting Z-Lock transition rather than standard leg extraction?",
-        "answer": "The earliest cue is an unusual increase in crossface and shoulder pressure combined with the trapped knee beginning an inward circular rotation rather than a straight backward pull. Standard leg extraction involves pulling backward against the lockdown, while the Z-Lock transition uses rotational force. Additionally, the top player will post their free leg wider than normal and pin your inside arm more aggressively - these setup actions distinguish Z-Lock attempts from general pressure passing."
+        "answer": "The earliest cue is an unusual increase in crossface and shoulder pressure combined with the trapped knee beginning an inward circular rotation rather than a straight backward pull. Standard leg extraction involves pulling backward against the lockdown, while the Z-Lock transition uses rotational force. Additionally, the top player will post their free leg wider than normal and pin your inside arm more aggressively - these setup actions distinguish Z-Lock attempts from general pressure passing.",
+        "answer_line": "Crossface spikes, knee circles in",
+        "distractors": {
+          "plausible": [
+            "Knee pulls straight back hard",
+            "Free leg tucks in tighter"
+          ],
+          "trap": [
+            "Ignore it as normal passing"
+          ]
+        }
       },
       {
         "question": "Why is the upper body grip battle more important than leg tension for preventing the Z-Lock transition?",
-        "answer": "The Z-Lock transition requires the top player to first suppress lockdown attacks through heavy crossface and shoulder pressure. Without upper body dominance, they cannot safely shift weight to attempt the knee circle. By winning the underhook battle and preventing crossface control, you force the top player to address upper body threats before they can work their legs, effectively denying them the prerequisite conditions for the Z-Lock entry. Leg tension alone cannot prevent the transition if the opponent has complete upper body control."
+        "answer": "The Z-Lock transition requires the top player to first suppress lockdown attacks through heavy crossface and shoulder pressure. Without upper body dominance, they cannot safely shift weight to attempt the knee circle. By winning the underhook battle and preventing crossface control, you force the top player to address upper body threats before they can work their legs, effectively denying them the prerequisite conditions for the Z-Lock entry. Leg tension alone cannot prevent the transition if the opponent has complete upper body control.",
+        "answer_line": "Win the underhook battle",
+        "distractors": {
+          "plausible": [
+            "Squeeze the lockdown tighter",
+            "Post the free leg wider"
+          ],
+          "trap": [
+            "Focus only on leg strength"
+          ]
+        }
       },
       {
         "question": "Your lockdown has been broken and the opponent's knee is crossing your hip - what is your best last-resort defensive option?",
-        "answer": "Once the lockdown is broken and the knee is crossing, hip escape aggressively away from the direction of the crossing knee while threading your inside arm for an underhook. The shrimping motion can prevent the knee from reaching full Z-Lock position, and the underhook gives you leverage to come up to dogfight or at minimum create enough space to recover knee shield. If the Z-Lock consolidates fully, transition your mindset from lockdown defense to half guard bottom escape sequences - attempting to re-establish lockdown against a consolidated Z-Lock wastes energy."
+        "answer": "Once the lockdown is broken and the knee is crossing, hip escape aggressively away from the direction of the crossing knee while threading your inside arm for an underhook. The shrimping motion can prevent the knee from reaching full Z-Lock position, and the underhook gives you leverage to come up to dogfight or at minimum create enough space to recover knee shield. If the Z-Lock consolidates fully, transition your mindset from lockdown defense to half guard bottom escape sequences - attempting to re-establish lockdown against a consolidated Z-Lock wastes energy.",
+        "answer_line": "Hip escape, thread underhook",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll them over",
+            "Push their knee back down"
+          ],
+          "trap": [
+            "Try to re-lock the ankle"
+          ]
+        }
       },
       {
         "question": "How should you adjust your lockdown tension pattern to make the Z-Lock transition as difficult as possible?",
-        "answer": "Vary your lockdown tension dynamically rather than maintaining static pressure. Alternate between strong extensions that off-balance the opponent and tight squeezes that prevent knee rotation. The variation in tension makes it impossible for the opponent to time their knee circle because the resistance pattern keeps changing. Additionally, periodically pulse strong squeeze-and-extend combinations that snap their leg back into deep lockdown, resetting any progress they made toward the knee circle."
+        "answer": "Vary your lockdown tension dynamically rather than maintaining static pressure. Alternate between strong extensions that off-balance the opponent and tight squeezes that prevent knee rotation. The variation in tension makes it impossible for the opponent to time their knee circle because the resistance pattern keeps changing. Additionally, periodically pulse strong squeeze-and-extend combinations that snap their leg back into deep lockdown, resetting any progress they made toward the knee circle.",
+        "answer_line": "Vary tension unpredictably",
+        "distractors": {
+          "plausible": [
+            "Hold one constant max squeeze",
+            "Release tension to bait them"
+          ],
+          "trap": [
+            "Extend the leg fully straight"
+          ]
+        }
       }
     ],
     "training_progressions": [

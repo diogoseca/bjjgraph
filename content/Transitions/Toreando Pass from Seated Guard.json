@@ -254,43 +254,143 @@
     "flashcards": [
       {
         "question": "What grip placement options exist for the toreando pass and when should you choose each?",
-        "answer": "Three primary grip options exist: knee grips provide strong push-down control for pinning legs to the mat but offer less directional precision; ankle grips provide maximum directional control and work well in no-gi but require more grip strength to maintain; mid-shin or pants grips offer a balance of control and direction. Choose knee grips against opponents with active feet who constantly push your hips, ankle grips against passive opponents with extended legs, and mid-shin grips when you need both control and the ability to quickly redirect direction."
+        "answer": "Three primary grip options exist: knee grips provide strong push-down control for pinning legs to the mat but offer less directional precision; ankle grips provide maximum directional control and work well in no-gi but require more grip strength to maintain; mid-shin or pants grips offer a balance of control and direction. Choose knee grips against opponents with active feet who constantly push your hips, ankle grips against passive opponents with extended legs, and mid-shin grips when you need both control and the ability to quickly redirect direction.",
+        "answer_line": "Match grip to opponent's legs",
+        "distractors": {
+          "plausible": [
+            "Ankle grips always best",
+            "Knee grips work in all cases"
+          ],
+          "trap": [
+            "Grab both pant cuffs and pull"
+          ]
+        }
       },
       {
         "question": "Why must both legs be controlled before initiating the toreando pass?",
-        "answer": "Controlling only one leg leaves the other free to frame on your hip, insert a butterfly hook, or reach for a De La Riva hook on your lead leg. Any of these defensive actions block your lateral movement path and can lead to guard recovery or leg entanglements. The toreando specifically requires redirecting both legs simultaneously to one side—if one leg remains free, it stays between you and side control, making consolidation impossible regardless of how fast you move laterally."
+        "answer": "Controlling only one leg leaves the other free to frame on your hip, insert a butterfly hook, or reach for a De La Riva hook on your lead leg. Any of these defensive actions block your lateral movement path and can lead to guard recovery or leg entanglements. The toreando specifically requires redirecting both legs simultaneously to one side—if one leg remains free, it stays between you and side control, making consolidation impossible regardless of how fast you move laterally.",
+        "answer_line": "Free leg blocks lateral pass",
+        "distractors": {
+          "plausible": [
+            "One leg control is enough",
+            "Control legs one at a time"
+          ],
+          "trap": [
+            "Chase the free leg with your hands"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully retracts their legs as you attempt to redirect them—how do you adjust?",
-        "answer": "When the opponent pulls their legs back toward their chest, they create a momentary gap between their knees and your hips. Immediately capitalize by switching to a knee slice pass through this gap, driving your lead knee between their legs before they can reset their frames. Alternatively, re-establish grips and use push-pull rhythm to extend their legs again before reattempting the toreando. The worst response is to chase their retracting legs while leaning forward, which exposes you to butterfly sweeps."
+        "answer": "When the opponent pulls their legs back toward their chest, they create a momentary gap between their knees and your hips. Immediately capitalize by switching to a knee slice pass through this gap, driving your lead knee between their legs before they can reset their frames. Alternatively, re-establish grips and use push-pull rhythm to extend their legs again before reattempting the toreando. The worst response is to chase their retracting legs while leaning forward, which exposes you to butterfly sweeps.",
+        "answer_line": "Knee slice through the gap",
+        "distractors": {
+          "plausible": [
+            "Re-grip and re-extend legs",
+            "Push through their retracted legs"
+          ],
+          "trap": [
+            "Chase legs leaning forward"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for transitioning grips from legs to upper body during the toreando?",
-        "answer": "The grip transition must happen during the final lateral step as your chest approaches the opponent's torso—not before and not after. Releasing legs too early (before your body is past their hip line) allows recovery. Holding legs too long (after you've cleared them) delays chest-to-chest contact and allows the opponent to sit up or turn. The ideal timing is releasing the far-side leg grip to establish crossface while maintaining the near-side leg pin until your chest makes contact with their upper body."
+        "answer": "The grip transition must happen during the final lateral step as your chest approaches the opponent's torso—not before and not after. Releasing legs too early (before your body is past their hip line) allows recovery. Holding legs too long (after you've cleared them) delays chest-to-chest contact and allows the opponent to sit up or turn. The ideal timing is releasing the far-side leg grip to establish crossface while maintaining the near-side leg pin until your chest makes contact with their upper body.",
+        "answer_line": "Transition as chest reaches them",
+        "distractors": {
+          "plausible": [
+            "Release legs early to save time",
+            "Hold both legs until fully passed"
+          ],
+          "trap": [
+            "Drop all grips before stepping"
+          ]
+        }
       },
       {
         "question": "How does the direction of leg redirection affect pass success, and how do you choose which side to pass to?",
-        "answer": "The direction should be determined by the opponent's weight distribution and your own grip strength. Push legs toward the side where the opponent's weight is already shifting—this requires less force and catches them off-balance. If the opponent's weight is neutral, choose your strong side for more powerful leg redirection. Additionally, consider which side gives you a better crossface angle. Avoid always passing to the same side, as opponents will anticipate the direction and preposition their defensive frames."
+        "answer": "The direction should be determined by the opponent's weight distribution and your own grip strength. Push legs toward the side where the opponent's weight is already shifting—this requires less force and catches them off-balance. If the opponent's weight is neutral, choose your strong side for more powerful leg redirection. Additionally, consider which side gives you a better crossface angle. Avoid always passing to the same side, as opponents will anticipate the direction and preposition their defensive frames.",
+        "answer_line": "Push toward opponent's weight shift",
+        "distractors": {
+          "plausible": [
+            "Always pass to your strong side",
+            "Always pass the same direction"
+          ],
+          "trap": [
+            "Pass away from their weight shift"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain during the lateral movement phase of the toreando?",
-        "answer": "Maintain a forward-leaning athletic stance with your chest angled toward the opponent's torso, hips slightly behind your shoulders, and head positioned above the opponent's chest line. Your feet should move in quick lateral steps—not crossing over, which compromises balance. The chest should arrive at the opponent's body almost simultaneously with the completion of lateral movement. Standing upright or leaning away creates space that allows guard recovery. Think of your body as a door swinging shut on the opponent—the chest is the door and the feet are the hinges."
+        "answer": "Maintain a forward-leaning athletic stance with your chest angled toward the opponent's torso, hips slightly behind your shoulders, and head positioned above the opponent's chest line. Your feet should move in quick lateral steps—not crossing over, which compromises balance. The chest should arrive at the opponent's body almost simultaneously with the completion of lateral movement. Standing upright or leaning away creates space that allows guard recovery. Think of your body as a door swinging shut on the opponent—the chest is the door and the feet are the hinges.",
+        "answer_line": "Chest leads, forward athletic stance",
+        "distractors": {
+          "plausible": [
+            "Cross feet for faster steps",
+            "Keep head behind opponent's hips"
+          ],
+          "trap": [
+            "Stand upright and lean back"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs both your sleeves during your toreando attempt—what is the correct response?",
-        "answer": "Sleeve grips neutralize the toreando by preventing your lateral movement and giving the opponent the ability to pull you off-balance or close guard. You must break these grips before attempting the pass. Circle both wrists outward simultaneously to strip the grips using the weakest point at the thumb side, or pin one of their grips against their own leg and strip the other. Never attempt to force the toreando with your sleeves controlled—the opponent will use your forward momentum against you and likely close guard or enter a sweep."
+        "answer": "Sleeve grips neutralize the toreando by preventing your lateral movement and giving the opponent the ability to pull you off-balance or close guard. You must break these grips before attempting the pass. Circle both wrists outward simultaneously to strip the grips using the weakest point at the thumb side, or pin one of their grips against their own leg and strip the other. Never attempt to force the toreando with your sleeves controlled—the opponent will use your forward momentum against you and likely close guard or enter a sweep.",
+        "answer_line": "Circle wrists to strip grips",
+        "distractors": {
+          "plausible": [
+            "Power through with forward drive",
+            "Pull sleeves free with strength"
+          ],
+          "trap": [
+            "Force the pass with sleeves gripped"
+          ]
+        }
       },
       {
         "question": "How do you chain the toreando with other passes when the initial attempt is defended?",
-        "answer": "The toreando creates predictable defensive reactions that open other passes. When the opponent pulls their legs back to defend, switch to a knee slice through the gap they created. When they hip escape to follow your lateral movement, immediately change direction with a reverse toreando to the opposite side. When they sit up aggressively, snap their head down for a front headlock or shoot a bodylock pass. The key is recognizing which defense they chose within the first half-second and already transitioning to the appropriate follow-up rather than forcing the original pass direction."
+        "answer": "The toreando creates predictable defensive reactions that open other passes. When the opponent pulls their legs back to defend, switch to a knee slice through the gap they created. When they hip escape to follow your lateral movement, immediately change direction with a reverse toreando to the opposite side. When they sit up aggressively, snap their head down for a front headlock or shoot a bodylock pass. The key is recognizing which defense they chose within the first half-second and already transitioning to the appropriate follow-up rather than forcing the original pass direction.",
+        "answer_line": "Read defense, switch pass fast",
+        "distractors": {
+          "plausible": [
+            "Force original toreando direction",
+            "Wait for them to fully defend"
+          ],
+          "trap": [
+            "Keep pulling legs same direction"
+          ]
+        }
       },
       {
         "question": "What makes the toreando particularly effective against seated guard compared to other open guards?",
-        "answer": "Seated guard exposes the legs more than other open guards because the opponent's posted hands behind them limit their ability to grip fight and their legs are extended forward without hooks or entanglements. In butterfly guard, the opponent has hooks that resist lateral redirection. In closed guard, their legs are locked around your waist. In De La Riva, they have a hooking leg controlling your lead leg. The seated guard player's primary defense is foot-on-hip framing and hip mobility, both of which the double-leg-grip toreando directly neutralizes. Additionally, the seated player's posted hands limit their ability to chase you laterally."
+        "answer": "Seated guard exposes the legs more than other open guards because the opponent's posted hands behind them limit their ability to grip fight and their legs are extended forward without hooks or entanglements. In butterfly guard, the opponent has hooks that resist lateral redirection. In closed guard, their legs are locked around your waist. In De La Riva, they have a hooking leg controlling your lead leg. The seated guard player's primary defense is foot-on-hip framing and hip mobility, both of which the double-leg-grip toreando directly neutralizes. Additionally, the seated player's posted hands limit their ability to chase you laterally.",
+        "answer_line": "Seated guard lacks leg hooks",
+        "distractors": {
+          "plausible": [
+            "Seated guard has strong grips",
+            "Seated guard hides the legs"
+          ],
+          "trap": [
+            "Seated guard controls your posture"
+          ]
+        }
       },
       {
         "question": "What are the three most critical mechanical details that separate a successful toreando from a failed one?",
-        "answer": "First, the legs must be redirected past the opponent's hip line before initiating lateral movement—insufficient redirection leaves the legs between you and side control. Second, the lateral step must be explosive and complete in one or two quick steps, not a gradual walk around—speed prevents the opponent from hip escaping to follow you. Third, the grip transition from legs to upper body must be seamless and sequential, maintaining at least one point of leg control until chest contact is established. Missing any one of these three details typically results in the opponent recovering guard."
+        "answer": "First, the legs must be redirected past the opponent's hip line before initiating lateral movement—insufficient redirection leaves the legs between you and side control. Second, the lateral step must be explosive and complete in one or two quick steps, not a gradual walk around—speed prevents the opponent from hip escaping to follow you. Third, the grip transition from legs to upper body must be seamless and sequential, maintaining at least one point of leg control until chest contact is established. Missing any one of these three details typically results in the opponent recovering guard.",
+        "answer_line": "Clear their hip line first",
+        "distractors": {
+          "plausible": [
+            "Speed matters more than clearance",
+            "Grip transition timing only"
+          ],
+          "trap": [
+            "Walk around gradually, no rush"
+          ]
+        }
       }
     ],
     "safety_considerations": "The toreando pass is generally low-risk for both practitioners, but caution should be exercised when redirecting the opponent's legs forcefully to avoid hyperextending their knees or twisting their ankles. Control the legs smoothly rather than jerking them. When driving into side control, avoid landing with excessive force on the opponent's ribs or midsection. In training, allow your partner time to tap or verbally signal if leg redirection causes discomfort in the knee or ankle joints.",
@@ -408,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the most effective moment to defend the toreando pass, and why?",
-        "answer": "The most effective defense happens before the passer establishes double leg control, during the grip fighting phase. Once both legs are controlled, defensive options diminish significantly because the passer can redirect your legs at their chosen timing. During grip fighting, you can establish sleeve or collar grips that prevent the passer from reaching your legs, or use foot-on-hip frames to maintain distance. This proactive defense is far more energy-efficient than reactive defense after legs are controlled."
+        "answer": "The most effective defense happens before the passer establishes double leg control, during the grip fighting phase. Once both legs are controlled, defensive options diminish significantly because the passer can redirect your legs at their chosen timing. During grip fighting, you can establish sleeve or collar grips that prevent the passer from reaching your legs, or use foot-on-hip frames to maintain distance. This proactive defense is far more energy-efficient than reactive defense after legs are controlled.",
+        "answer_line": "Defend during grip fighting",
+        "distractors": {
+          "plausible": [
+            "Defend after legs are controlled",
+            "Defend during lateral step"
+          ],
+          "trap": [
+            "Wait until side control lands"
+          ]
+        }
       },
       {
         "question": "Your opponent has redirected both your legs to your left side—what is the correct immediate response?",
-        "answer": "Immediately hip escape to your left (the same direction your legs were pushed) while sitting up on your right elbow or hand. This matches the direction of the pass, keeping your hips facing the passer rather than giving them your back. As you hip escape, pull your knees to your chest to shorten the lever the passer is controlling. If the passer commits to passing to your right side, your leftward hip escape puts you in position to reinsert your legs between you and the passer. Never hip escape in the opposite direction as this turns your back."
+        "answer": "Immediately hip escape to your left (the same direction your legs were pushed) while sitting up on your right elbow or hand. This matches the direction of the pass, keeping your hips facing the passer rather than giving them your back. As you hip escape, pull your knees to your chest to shorten the lever the passer is controlling. If the passer commits to passing to your right side, your leftward hip escape puts you in position to reinsert your legs between you and the passer. Never hip escape in the opposite direction as this turns your back.",
+        "answer_line": "Hip escape same direction, sit up",
+        "distractors": {
+          "plausible": [
+            "Hip escape opposite direction",
+            "Turtle up to protect your back"
+          ],
+          "trap": [
+            "Turn away and give up your back"
+          ]
+        }
       },
       {
         "question": "How do you exploit the passer's grip transition from legs to upper body control?",
-        "answer": "The grip transition is the toreando's most vulnerable moment because the passer must release leg control to establish crossface and hip control. During this brief window of typically less than one second, insert a knee shield, butterfly hook, or even close your guard if possible. The key is recognizing the transition is happening by feeling the reduction in leg pressure—the moment you feel your legs becoming free, immediately fill the space between your hips and the passer's body with a defensive structure rather than waiting for them to establish side control."
+        "answer": "The grip transition is the toreando's most vulnerable moment because the passer must release leg control to establish crossface and hip control. During this brief window of typically less than one second, insert a knee shield, butterfly hook, or even close your guard if possible. The key is recognizing the transition is happening by feeling the reduction in leg pressure—the moment you feel your legs becoming free, immediately fill the space between your hips and the passer's body with a defensive structure rather than waiting for them to establish side control.",
+        "answer_line": "Insert knee shield during transition",
+        "distractors": {
+          "plausible": [
+            "Wait for side control to react",
+            "Push away with straight arms"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "Why is sitting up and closing guard an effective counter to the toreando, and when should you not attempt it?",
-        "answer": "Sitting up and closing guard works because the toreando requires the passer to grip your legs, which means their hands are occupied and cannot prevent you from wrapping your legs around their waist. The counter is most effective when the passer is close enough to reach your legs but has not yet redirected them. Do not attempt it when the passer has already redirected your legs to one side and is mid-lateral-step, as your legs are pinned and you cannot close guard. Also avoid it if the passer has strong collar grips that prevent you from sitting up."
+        "answer": "Sitting up and closing guard works because the toreando requires the passer to grip your legs, which means their hands are occupied and cannot prevent you from wrapping your legs around their waist. The counter is most effective when the passer is close enough to reach your legs but has not yet redirected them. Do not attempt it when the passer has already redirected your legs to one side and is mid-lateral-step, as your legs are pinned and you cannot close guard. Also avoid it if the passer has strong collar grips that prevent you from sitting up.",
+        "answer_line": "Close guard before legs redirected",
+        "distractors": {
+          "plausible": [
+            "Sit up after legs are pinned",
+            "Close guard against strong grips"
+          ],
+          "trap": [
+            "Sit up once mid-lateral-step"
+          ]
+        }
       },
       {
         "question": "What is the defensive hierarchy when facing a toreando pass from seated guard?",
-        "answer": "The defensive hierarchy proceeds from most proactive to most reactive: First, win the grip fight to prevent double leg control entirely by establishing your own grips on sleeves or collar. Second, if legs are gripped, use foot-on-hip frames and active leg cycling to prevent redirection. Third, if legs are redirected, hip escape to follow the pass direction and recover facing the passer. Fourth, if partially passed, insert knee shield or butterfly hook during the grip transition window. Fifth, if side control is nearly established, immediately begin standard side control escape sequences before the passer consolidates."
+        "answer": "The defensive hierarchy proceeds from most proactive to most reactive: First, win the grip fight to prevent double leg control entirely by establishing your own grips on sleeves or collar. Second, if legs are gripped, use foot-on-hip frames and active leg cycling to prevent redirection. Third, if legs are redirected, hip escape to follow the pass direction and recover facing the passer. Fourth, if partially passed, insert knee shield or butterfly hook during the grip transition window. Fifth, if side control is nearly established, immediately begin standard side control escape sequences before the passer consolidates.",
+        "answer_line": "Win grip fight first",
+        "distractors": {
+          "plausible": [
+            "Start with knee shield insert",
+            "Begin with side control escape"
+          ],
+          "trap": [
+            "Skip straight to guard recovery"
+          ]
+        }
       }
     ],
     "training_progressions": [

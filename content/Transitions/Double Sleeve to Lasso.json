@@ -264,35 +264,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the shin thread against a kneeling opponent?",
-        "answer": "The best timing window occurs when the opponent commits one arm to a grip-breaking attempt, shifts their weight laterally to begin a passing sequence, or reaches forward to establish their own grips. During these moments, their target arm extends away from their body, creating the space needed for the shin to thread through. Attempting the thread while the opponent is settled with arms retracted tight to their body significantly reduces success probability because there is no gap for insertion."
+        "answer": "The best timing window occurs when the opponent commits one arm to a grip-breaking attempt, shifts their weight laterally to begin a passing sequence, or reaches forward to establish their own grips. During these moments, their target arm extends away from their body, creating the space needed for the shin to thread through. Attempting the thread while the opponent is settled with arms retracted tight to their body significantly reduces success probability because there is no gap for insertion.",
+        "answer_line": "When opponent's arm reaches out",
+        "distractors": {
+          "plausible": [
+            "As soon as grips are broken",
+            "When opponent starts to stand"
+          ],
+          "trap": [
+            "While opponent's arms are tight"
+          ]
+        }
       },
       {
         "question": "Why is hip elevation critical during the threading motion and what happens if your hips stay flat?",
-        "answer": "Hip elevation creates the vertical clearance needed for your shin to pass over and through the opponent's arm. When your hips remain flat on the mat, the threading angle becomes nearly impossible because your leg cannot achieve sufficient height to cross the tricep. Elevated hips also enable the rotational movement that drives the shin through in one smooth motion, whereas flat hips force a slow incremental push that the opponent can easily counter by simply retracting their arm."
+        "answer": "Hip elevation creates the vertical clearance needed for your shin to pass over and through the opponent's arm. When your hips remain flat on the mat, the threading angle becomes nearly impossible because your leg cannot achieve sufficient height to cross the tricep. Elevated hips also enable the rotational movement that drives the shin through in one smooth motion, whereas flat hips force a slow incremental push that the opponent can easily counter by simply retracting their arm.",
+        "answer_line": "Lifts shin over the tricep",
+        "distractors": {
+          "plausible": [
+            "Improves overall guard retention",
+            "Increases pulling power on sleeves"
+          ],
+          "trap": [
+            "Keeps hips flat for stability"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls their arm back forcefully as you begin threading - what immediate adjustment do you make?",
-        "answer": "Immediately redirect your threading attempt to the opposite arm, which is now relatively extended from the pulling motion on the other side. If the opposite arm is also retracted, convert the foot that was beginning to thread into a foot-on-bicep spider guard hook on the same arm instead. Never chase a retracted arm by trying to pull it back toward you, as this wastes energy and creates openings for the opponent to advance their passing grips while you are overcommitted."
+        "answer": "Immediately redirect your threading attempt to the opposite arm, which is now relatively extended from the pulling motion on the other side. If the opposite arm is also retracted, convert the foot that was beginning to thread into a foot-on-bicep spider guard hook on the same arm instead. Never chase a retracted arm by trying to pull it back toward you, as this wastes energy and creates openings for the opponent to advance their passing grips while you are overcommitted.",
+        "answer_line": "Thread the now-extended arm",
+        "distractors": {
+          "plausible": [
+            "Push through the same arm",
+            "Reset to closed guard"
+          ],
+          "trap": [
+            "Chase and pull the arm back"
+          ]
+        }
       },
       {
         "question": "What grip depth and configuration provides maximum control once the lasso is established?",
-        "answer": "Grip the sleeve cuff deeply with a pistol grip where your knuckles press against the inside of the cuff opening. Maintain pulling tension toward your hip rather than extending the arm outward. The sleeve grip should create a tight connection so that any extension of your lasso leg translates directly into shoulder pressure on the opponent. A shallow grip near the mid-forearm provides insufficient leverage and is easily stripped during the opponent's escape attempts."
+        "answer": "Grip the sleeve cuff deeply with a pistol grip where your knuckles press against the inside of the cuff opening. Maintain pulling tension toward your hip rather than extending the arm outward. The sleeve grip should create a tight connection so that any extension of your lasso leg translates directly into shoulder pressure on the opponent. A shallow grip near the mid-forearm provides insufficient leverage and is easily stripped during the opponent's escape attempts.",
+        "answer_line": "Deep pistol grip, pull to hip",
+        "distractors": {
+          "plausible": [
+            "Deep grip, push arm outward",
+            "Mid-forearm grip, pull tight"
+          ],
+          "trap": [
+            "Shallow grip near the wrist"
+          ]
+        }
       },
       {
         "question": "How does the non-lasso foot positioning affect your offensive options from the completed transition?",
-        "answer": "The non-lasso foot placement determines your entire attack system from lasso guard. Foot on the opposite hip creates maximum distance control and supports sickle sweep entries through off-balancing. Foot on the opposite bicep creates a spider-lasso hybrid that enables triangle attacks when the opponent's posture breaks forward. Hooking behind the opponent's knee removes their base on that side and facilitates pendulum-style sweeps. Switching between these positions based on the opponent's reactions is essential for maintaining offensive pressure."
+        "answer": "The non-lasso foot placement determines your entire attack system from lasso guard. Foot on the opposite hip creates maximum distance control and supports sickle sweep entries through off-balancing. Foot on the opposite bicep creates a spider-lasso hybrid that enables triangle attacks when the opponent's posture breaks forward. Hooking behind the opponent's knee removes their base on that side and facilitates pendulum-style sweeps. Switching between these positions based on the opponent's reactions is essential for maintaining offensive pressure.",
+        "answer_line": "Sets your entire attack system",
+        "distractors": {
+          "plausible": [
+            "Only changes your base width",
+            "Affects grip strength only"
+          ],
+          "trap": [
+            "Position doesn't affect options"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when extending the lasso leg after threading?",
-        "answer": "The lasso leg should extend diagonally away from the opponent's body, pushing their trapped arm outward and upward while the sleeve grip pulls inward and downward toward your hip. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. Pushing straight up or straight away from you reduces the leverage significantly. The diagonal extension maximizes the rotational torque on their shoulder, which is what makes lasso guard so restrictive for the trapped arm."
+        "answer": "The lasso leg should extend diagonally away from the opponent's body, pushing their trapped arm outward and upward while the sleeve grip pulls inward and downward toward your hip. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. Pushing straight up or straight away from you reduces the leverage significantly. The diagonal extension maximizes the rotational torque on their shoulder, which is what makes lasso guard so restrictive for the trapped arm.",
+        "answer_line": "Push diagonal, pull sleeve to hip",
+        "distractors": {
+          "plausible": [
+            "Push leg straight up",
+            "Push leg straight out"
+          ],
+          "trap": [
+            "Push and pull same direction"
+          ]
+        }
       },
       {
         "question": "What entry requirements must be satisfied before you commit to threading the shin?",
-        "answer": "Both sleeve cuffs must be secured with deep pistol grips under constant pulling tension, at least one foot must be framing on the opponent's hip or bicep to manage distance and provide base, your hips must be elevated and mobile rather than flat on the mat, and the target arm must be extended enough to expose the gap between their elbow and torso. Committing without these prerequisites - especially against a retracted, well-postured arm - burns energy and surrenders the initiative to the opponent."
+        "answer": "Both sleeve cuffs must be secured with deep pistol grips under constant pulling tension, at least one foot must be framing on the opponent's hip or bicep to manage distance and provide base, your hips must be elevated and mobile rather than flat on the mat, and the target arm must be extended enough to expose the gap between their elbow and torso. Committing without these prerequisites - especially against a retracted, well-postured arm - burns energy and surrenders the initiative to the opponent.",
+        "answer_line": "Grips, frame foot, hips up, arm gap",
+        "distractors": {
+          "plausible": [
+            "Just deep sleeve grips",
+            "Only need hips elevated"
+          ],
+          "trap": [
+            "Thread even with arm retracted"
+          ]
+        }
       },
       {
         "question": "The opponent strips the lasso side and frees their arm before you establish control - what do you chain into?",
-        "answer": "Flow immediately to an adjacent guard rather than chasing the lost lasso. If their freed arm retracts, switch your threading foot into a foot-on-bicep spider guard hook on that same arm. If they stand or step back, drop the foot to a De La Riva hook on their lead leg. If they drive forward to capitalize on the lost grip, recover double sleeve guard with both grips and feet on hips, then re-time the thread on whichever arm extends next. Cycling through the double-sleeve, spider, lasso, and De La Riva options keeps you attacking without committing to a position the opponent has already solved."
+        "answer": "Flow immediately to an adjacent guard rather than chasing the lost lasso. If their freed arm retracts, switch your threading foot into a foot-on-bicep spider guard hook on that same arm. If they stand or step back, drop the foot to a De La Riva hook on their lead leg. If they drive forward to capitalize on the lost grip, recover double sleeve guard with both grips and feet on hips, then re-time the thread on whichever arm extends next. Cycling through the double-sleeve, spider, lasso, and De La Riva options keeps you attacking without committing to a position the opponent has already solved.",
+        "answer_line": "Flow to spider, DLR, or reset",
+        "distractors": {
+          "plausible": [
+            "Immediately stand to reset",
+            "Switch directly to X-guard"
+          ],
+          "trap": [
+            "Chase the arm to relasso it"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Double Sleeve to Lasso transition is generally low-risk since it involves guard repositioning rather than joint manipulation or choking. However, maintain awareness of your partner's shoulder flexibility when extending the lasso leg, as the fulcrum created against the shoulder joint can cause discomfort or strain if applied explosively. Thread the leg smoothly rather than jamming it through. During drilling, communicate with your partner if the lasso extension creates excessive shoulder pressure. Avoid cranking the sleeve grip while extending the leg aggressively, as this combination can hyperextend the opponent's elbow when the arm is fully trapped.",
@@ -409,19 +489,59 @@
     "flashcards": [
       {
         "question": "What early warning signs indicate the bottom player is about to attempt a lasso thread?",
-        "answer": "The key recognition cues include one foot lifting off your hip while sleeve tension increases on that side, hip elevation and rotation toward one side creating the threading angle, increased pulling on one sleeve compared to the other, and the bottom player's gaze or shoulders shifting toward the arm they intend to thread. These signals typically occur in sequence within one to two seconds before the actual threading attempt, giving you a narrow but actionable window to prevent the entry through arm retraction or posture adjustment."
+        "answer": "The key recognition cues include one foot lifting off your hip while sleeve tension increases on that side, hip elevation and rotation toward one side creating the threading angle, increased pulling on one sleeve compared to the other, and the bottom player's gaze or shoulders shifting toward the arm they intend to thread. These signals typically occur in sequence within one to two seconds before the actual threading attempt, giving you a narrow but actionable window to prevent the entry through arm retraction or posture adjustment.",
+        "answer_line": "Foot lifts, hip rotates one side",
+        "distractors": {
+          "plausible": [
+            "Opponent squeezes closed guard",
+            "Sudden burst of arm strength"
+          ],
+          "trap": [
+            "No warning, thread is instant"
+          ]
+        }
       },
       {
         "question": "Why is driving forward more effective than retreating when defending the threading attempt?",
-        "answer": "Retreating backward extends the distance between you and the bottom player, which paradoxically creates more space for their shin to travel through during the threading motion. Driving forward compresses the space the bottom player needs for hip rotation and leg insertion, making it geometrically more difficult to complete the thread. Additionally, the bottom player has just lifted one foot off your hip to begin threading, temporarily weakening their distance management and making them more vulnerable to forward pressure that collapses their entire guard structure."
+        "answer": "Retreating backward extends the distance between you and the bottom player, which paradoxically creates more space for their shin to travel through during the threading motion. Driving forward compresses the space the bottom player needs for hip rotation and leg insertion, making it geometrically more difficult to complete the thread. Additionally, the bottom player has just lifted one foot off your hip to begin threading, temporarily weakening their distance management and making them more vulnerable to forward pressure that collapses their entire guard structure.",
+        "answer_line": "Forward pressure closes the space",
+        "distractors": {
+          "plausible": [
+            "Sidestep to break their grips",
+            "Stand up immediately"
+          ],
+          "trap": [
+            "Retreat to create space"
+          ]
+        }
       },
       {
         "question": "The bottom player's shin is halfway through the threading motion and you cannot prevent it - what should you do?",
-        "answer": "Immediately rotate your arm inward while pulling your elbow sharply toward your hip to reduce the remaining space the shin can travel through. Simultaneously step toward the threading side to flatten the angle and minimize thread depth. If the thread is too advanced to prevent, focus on keeping your elbow bent and tight to ensure a shallow lasso rather than allowing the shin to cross fully to a deep position. A shallow lasso provides significantly less control and is much easier to clear through subsequent grip breaks and posture adjustments."
+        "answer": "Immediately rotate your arm inward while pulling your elbow sharply toward your hip to reduce the remaining space the shin can travel through. Simultaneously step toward the threading side to flatten the angle and minimize thread depth. If the thread is too advanced to prevent, focus on keeping your elbow bent and tight to ensure a shallow lasso rather than allowing the shin to cross fully to a deep position. A shallow lasso provides significantly less control and is much easier to clear through subsequent grip breaks and posture adjustments.",
+        "answer_line": "Rotate arm in, pull elbow to hip",
+        "distractors": {
+          "plausible": [
+            "Grab their shin and rip it out",
+            "Push their leg away with hand"
+          ],
+          "trap": [
+            "Retreat to pull arm free"
+          ]
+        }
       },
       {
         "question": "How does the bottom player's threading attempt create a passing opportunity for the top player?",
-        "answer": "During the threading attempt, the bottom player must lift one foot off your hip and commit their leg to the threading motion, temporarily reducing their defensive frames from two legs to one. This creates a window where you face reduced resistance to forward movement and can drive into a passing sequence before the lasso establishes. The transition also occupies both of the bottom player's arms with sleeve gripping duties, limiting their ability to create secondary frames or establish alternative controls, making them vulnerable to aggressive forward pressure timed to coincide with the foot lifting."
+        "answer": "During the threading attempt, the bottom player must lift one foot off your hip and commit their leg to the threading motion, temporarily reducing their defensive frames from two legs to one. This creates a window where you face reduced resistance to forward movement and can drive into a passing sequence before the lasso establishes. The transition also occupies both of the bottom player's arms with sleeve gripping duties, limiting their ability to create secondary frames or establish alternative controls, making them vulnerable to aggressive forward pressure timed to coincide with the foot lifting.",
+        "answer_line": "Bottom loses a hip frame briefly",
+        "distractors": {
+          "plausible": [
+            "Bottom player's grips get stronger",
+            "Bottom gains extra base control"
+          ],
+          "trap": [
+            "Wait for the lasso to fully lock"
+          ]
+        }
       }
     ],
     "training_progressions": [

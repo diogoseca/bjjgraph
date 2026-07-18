@@ -221,43 +221,143 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage that makes the Grasshopper Sweep work?",
-        "answer": "The primary advantage is vertical hip elevation creating upward force against the opponent's center of mass. By driving hips toward the ceiling while pulling ankles and extending legs, you create a lever system where your elevated hips become the fulcrum point that lifts the opponent off their base and tips them backward."
+        "answer": "The primary advantage is vertical hip elevation creating upward force against the opponent's center of mass. By driving hips toward the ceiling while pulling ankles and extending legs, you create a lever system where your elevated hips become the fulcrum point that lifts the opponent off their base and tips them backward.",
+        "answer_line": "Vertical hip drive lifts base",
+        "distractors": {
+          "plausible": [
+            "Lateral off-balancing motion",
+            "Arm strength pulls legs in"
+          ],
+          "trap": [
+            "Yanking ankles, no hip lift"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to attempt the Grasshopper Sweep?",
-        "answer": "The optimal timing is when the opponent commits their weight forward, either by pressuring into the guard or attempting to establish grips on your legs. Their forward weight commitment provides the momentum needed for successful elevation and makes it nearly impossible for them to base out backward in time."
+        "answer": "The optimal timing is when the opponent commits their weight forward, either by pressuring into the guard or attempting to establish grips on your legs. Their forward weight commitment provides the momentum needed for successful elevation and makes it nearly impossible for them to base out backward in time.",
+        "answer_line": "Opponent commits weight forward",
+        "distractors": {
+          "plausible": [
+            "Any moment guard is engaged",
+            "Right after grips are broken"
+          ],
+          "trap": [
+            "When opponent bases out wide"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best control during the sweep?",
-        "answer": "Grips on the opponent's ankles, heels, or pants near the ankle area provide the best control. These grips serve a dual purpose: preventing the opponent from stepping back to recover base, and providing additional pulling leverage during the hip elevation phase that supplements your leg hook control."
+        "answer": "Grips on the opponent's ankles, heels, or pants near the ankle area provide the best control. These grips serve a dual purpose: preventing the opponent from stepping back to recover base, and providing additional pulling leverage during the hip elevation phase that supplements your leg hook control.",
+        "answer_line": "Grips on ankles, heels, pants",
+        "distractors": {
+          "plausible": [
+            "Grips on opponent's collar",
+            "Grips on the belt or hips"
+          ],
+          "trap": [
+            "Grip opponent's wrists tight"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and sits their hips back when you establish Grasshopper Guard - how do you adjust?",
-        "answer": "When an opponent adopts this wide, hips-back defensive posture, the Grasshopper Sweep becomes very low percentage because they have removed their weight from your elevation zone. Transition to leg entanglement attacks like Inside Ashi entry where their wide base creates a vulnerability, or move to Single Leg X Guard for alternative sweeps."
+        "answer": "When an opponent adopts this wide, hips-back defensive posture, the Grasshopper Sweep becomes very low percentage because they have removed their weight from your elevation zone. Transition to leg entanglement attacks like Inside Ashi entry where their wide base creates a vulnerability, or move to Single Leg X Guard for alternative sweeps.",
+        "answer_line": "Attack Inside Ashi entry",
+        "distractors": {
+          "plausible": [
+            "Wait for them to lean forward",
+            "Switch to De La Riva Guard"
+          ],
+          "trap": [
+            "Force hip elevation anyway"
+          ]
+        }
       },
       {
         "question": "What is the most critical body positioning detail for maintaining a stable platform during the sweep?",
-        "answer": "Weight must be distributed evenly across both shoulder blades throughout the entire sweep. Rolling onto one shoulder destroys the stable platform needed for symmetric hip drive and typically causes the sweep to fail laterally rather than generating the vertical force required to elevate the opponent."
+        "answer": "Weight must be distributed evenly across both shoulder blades throughout the entire sweep. Rolling onto one shoulder destroys the stable platform needed for symmetric hip drive and typically causes the sweep to fail laterally rather than generating the vertical force required to elevate the opponent.",
+        "answer_line": "Weight even on both shoulders",
+        "distractors": {
+          "plausible": [
+            "Weight centered on the neck",
+            "Weight balanced on lower back"
+          ],
+          "trap": [
+            "Roll onto one shoulder blade"
+          ]
+        }
       },
       {
         "question": "Your leg hooks start slipping during the hip drive phase - what should you do?",
-        "answer": "Immediately abort the sweep attempt and reset your leg position rather than forcing completion with compromised hooks. Attempting to finish with slipping hooks typically fails and leaves you in a vulnerable inverted position with no control. Re-curl your feet deeply around the back of their thighs with active dorsiflexion before reattempting."
+        "answer": "Immediately abort the sweep attempt and reset your leg position rather than forcing completion with compromised hooks. Attempting to finish with slipping hooks typically fails and leaves you in a vulnerable inverted position with no control. Re-curl your feet deeply around the back of their thighs with active dorsiflexion before reattempting.",
+        "answer_line": "Abort, reset hook position",
+        "distractors": {
+          "plausible": [
+            "Push through with arm strength",
+            "Switch grips to compensate"
+          ],
+          "trap": [
+            "Force the sweep through anyway"
+          ]
+        }
       },
       {
         "question": "What direction of force should the hip drive generate, and why is this different from most BJJ sweeps?",
-        "answer": "The hip drive should generate force directly upward toward the ceiling, which differs from most BJJ sweeps that work on lateral off-balancing. This vertical force vector lifts the opponent off their base entirely rather than tipping them sideways, which is why the technique requires significant core strength but produces a dramatic position change directly to mount."
+        "answer": "The hip drive should generate force directly upward toward the ceiling, which differs from most BJJ sweeps that work on lateral off-balancing. This vertical force vector lifts the opponent off their base entirely rather than tipping them sideways, which is why the technique requires significant core strength but produces a dramatic position change directly to mount.",
+        "answer_line": "Straight up, not lateral tip",
+        "distractors": {
+          "plausible": [
+            "Lateral off-balance like usual",
+            "Diagonal force toward their head"
+          ],
+          "trap": [
+            "Pull them down onto your hips"
+          ]
+        }
       },
       {
         "question": "The sweep is partially blocked but you still have leg contact - what are your follow-up options?",
-        "answer": "With maintained leg contact after a blocked sweep, immediately transition to leg attacks such as kneebar entries or ankle lock attempts from the existing entanglement. Alternatively, recover to Single Leg X or X-Guard for alternative sweep attempts, or use the opponent's defensive weight shift to re-invert and reset Grasshopper Guard."
+        "answer": "With maintained leg contact after a blocked sweep, immediately transition to leg attacks such as kneebar entries or ankle lock attempts from the existing entanglement. Alternatively, recover to Single Leg X or X-Guard for alternative sweep attempts, or use the opponent's defensive weight shift to re-invert and reset Grasshopper Guard.",
+        "answer_line": "Attack kneebar or ankle lock",
+        "distractors": {
+          "plausible": [
+            "Release legs, reset guard",
+            "Retry same sweep immediately"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls forward heavily as you begin the inversion - how do you use this against them?",
-        "answer": "A forward sprawl actually feeds energy into the sweep if your hooks and grips are already established. Their forward momentum combines with your upward hip drive to accelerate the elevation. Time your explosive hip extension to coincide with their forward weight shift for maximum effect, effectively redirecting their sprawl pressure into the sweep trajectory."
+        "answer": "A forward sprawl actually feeds energy into the sweep if your hooks and grips are already established. Their forward momentum combines with your upward hip drive to accelerate the elevation. Time your explosive hip extension to coincide with their forward weight shift for maximum effect, effectively redirecting their sprawl pressure into the sweep trajectory.",
+        "answer_line": "Time hip drive with their sprawl",
+        "distractors": {
+          "plausible": [
+            "Retreat and reset the position",
+            "Wait for them to stop sprawling"
+          ],
+          "trap": [
+            "Release hooks to avoid stack"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you should commit to the Grasshopper Sweep?",
-        "answer": "Four conditions must be met: established inverted posture with elevated hips on stable shoulder base, at least one deep leg hook behind the opponent's knee, grips controlling their ankles to prevent retreat, and the opponent's weight positioned forward or centrally rather than defensively back. Missing any condition significantly reduces success probability and you should transition to alternatives."
+        "answer": "Four conditions must be met: established inverted posture with elevated hips on stable shoulder base, at least one deep leg hook behind the opponent's knee, grips controlling their ankles to prevent retreat, and the opponent's weight positioned forward or centrally rather than defensively back. Missing any condition significantly reduces success probability and you should transition to alternatives.",
+        "answer_line": "Hooks, grips, elevated hips, weight",
+        "distractors": {
+          "plausible": [
+            "Any two of the four conditions",
+            "Grips alone are enough to go"
+          ],
+          "trap": [
+            "Commit once hips are elevated"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Grasshopper Sweep involves inverted positioning which places stress on the cervical spine and neck. Never attempt this technique with a stiff neck or existing cervical issues. During practice, partners should fall in a controlled manner rather than posting arms awkwardly which can cause wrist injuries. The rapid transition from inverted to mount creates momentum that must be controlled to avoid landing too heavily on training partners. Build inverted guard comfort gradually before attempting full speed sweeps. If you feel your neck taking weight during the technique, release and reset rather than forcing through the position. Warm up your neck, shoulders, and core thoroughly before drilling this technique.",
@@ -362,23 +462,73 @@
     "flashcards": [
       {
         "question": "What three elements must the bottom player establish before the Grasshopper Sweep becomes high percentage?",
-        "answer": "The bottom player needs deep leg hooks behind both knees, grips on your ankles for pulling leverage, and sufficient hip elevation on a stable shoulder base. Denying any one of these three elements dramatically reduces the sweep's success probability, so your defense should focus on disrupting whichever element is most accessible."
+        "answer": "The bottom player needs deep leg hooks behind both knees, grips on your ankles for pulling leverage, and sufficient hip elevation on a stable shoulder base. Denying any one of these three elements dramatically reduces the sweep's success probability, so your defense should focus on disrupting whichever element is most accessible.",
+        "answer_line": "Deep hooks + ankle grips + hips up",
+        "distractors": {
+          "plausible": [
+            "Ankle grips matter most",
+            "Hip elevation matters most"
+          ],
+          "trap": [
+            "Drive forward into their guard"
+          ]
+        }
       },
       {
         "question": "Why is driving forward a risky defensive choice when the sweep is already loaded?",
-        "answer": "When hooks and grips are established with elevated hips, your forward momentum feeds directly into the sweep mechanics. The bottom player's technique is designed to redirect forward force upward through their hip fulcrum, so aggressive forward driving actually accelerates the elevation and makes the sweep nearly unstoppable. Forward pressure is only safe during the early setup phase."
+        "answer": "When hooks and grips are established with elevated hips, your forward momentum feeds directly into the sweep mechanics. The bottom player's technique is designed to redirect forward force upward through their hip fulcrum, so aggressive forward driving actually accelerates the elevation and makes the sweep nearly unstoppable. Forward pressure is only safe during the early setup phase.",
+        "answer_line": "Feeds momentum into the sweep",
+        "distractors": {
+          "plausible": [
+            "Only matters late in sweep",
+            "Backward retreat is riskier"
+          ],
+          "trap": [
+            "Push forward to break posture"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that a Grasshopper Sweep is being set up?",
-        "answer": "The earliest cue is feeling the bottom player's feet begin to curl and hook behind your knees with active dorsiflexion pressure, combined with their hips starting to rise. This tactile feedback through your legs occurs before the visual cues of full hip elevation, giving you a brief window to back step or widen base before the sweep loads fully."
+        "answer": "The earliest cue is feeling the bottom player's feet begin to curl and hook behind your knees with active dorsiflexion pressure, combined with their hips starting to rise. This tactile feedback through your legs occurs before the visual cues of full hip elevation, giving you a brief window to back step or widen base before the sweep loads fully.",
+        "answer_line": "Feet curl, hook behind knees",
+        "distractors": {
+          "plausible": [
+            "Hips fully elevated already",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Wait for full inversion to react"
+          ]
+        }
       },
       {
         "question": "Your back step is too slow and the bottom player follows with re-inversion - what should you do?",
-        "answer": "If the bottom player follows your back step, continue circling laterally rather than stopping or reversing direction. Their re-inversion consumes energy and each directional change forces them to reset their hook and grip placement. Use this circling motion to create enough separation to either disengage completely or initiate a passing sequence against their now-fatigued guard."
+        "answer": "If the bottom player follows your back step, continue circling laterally rather than stopping or reversing direction. Their re-inversion consumes energy and each directional change forces them to reset their hook and grip placement. Use this circling motion to create enough separation to either disengage completely or initiate a passing sequence against their now-fatigued guard.",
+        "answer_line": "Keep circling, don't reverse",
+        "distractors": {
+          "plausible": [
+            "Stop and reset your base",
+            "Speed up straight backward"
+          ],
+          "trap": [
+            "Reverse direction suddenly"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base management specifically when facing Grasshopper Guard compared to other open guards?",
-        "answer": "Against Grasshopper Guard, your base should be wider and lower than typical open guard passing posture, with hips sitting back rather than positioned over the bottom player. This directly counters the vertical elevation vector of the sweep. Standard passing posture with weight forward and hips engaged creates exactly the conditions the sweep needs to succeed."
+        "answer": "Against Grasshopper Guard, your base should be wider and lower than typical open guard passing posture, with hips sitting back rather than positioned over the bottom player. This directly counters the vertical elevation vector of the sweep. Standard passing posture with weight forward and hips engaged creates exactly the conditions the sweep needs to succeed.",
+        "answer_line": "Wider, lower, hips sitting back",
+        "distractors": {
+          "plausible": [
+            "Standard passing posture works",
+            "Narrow base, hips forward"
+          ],
+          "trap": [
+            "Drive hips forward and engage"
+          ]
+        }
       }
     ],
     "training_progressions": [

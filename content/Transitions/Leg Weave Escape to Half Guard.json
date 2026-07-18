@@ -257,35 +257,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the hip escape during the leg weave escape sequence?",
-        "answer": "The optimal timing window occurs when the top player shifts their weight to advance their passing position, either driving forward for a smash pass or laterally for a knee slice. During these weight transfers, their ability to maintain the weave depth is momentarily reduced. The bridge creates an additional micro-window by disrupting their settled weight distribution. Initiating the hip escape during this combined window of weight shift plus bridge disruption gives the highest probability of creating sufficient space for knee insertion."
+        "answer": "The optimal timing window occurs when the top player shifts their weight to advance their passing position, either driving forward for a smash pass or laterally for a knee slice. During these weight transfers, their ability to maintain the weave depth is momentarily reduced. The bridge creates an additional micro-window by disrupting their settled weight distribution. Initiating the hip escape during this combined window of weight shift plus bridge disruption gives the highest probability of creating sufficient space for knee insertion.",
+        "answer_line": "Weight shift plus bridge disruption",
+        "distractors": {
+          "plausible": [
+            "Right when they settle fully",
+            "As soon as contact is made"
+          ],
+          "trap": [
+            "Once crossface is fully locked"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the leg weave escape to half guard?",
-        "answer": "You need at least one remaining leg connection — typically your far-side hook on the passer's thigh or hip — so the pass is not already complete, plus enough arm mobility to wedge a forearm frame against their neck or shoulder. Without a retained hook the passer simply steps over to side control, and without frame access any hip escape is immediately followed and the space reclaimed. Retained connection and frame access are the two non-negotiable prerequisites for the escape to function."
+        "answer": "You need at least one remaining leg connection — typically your far-side hook on the passer's thigh or hip — so the pass is not already complete, plus enough arm mobility to wedge a forearm frame against their neck or shoulder. Without a retained hook the passer simply steps over to side control, and without frame access any hip escape is immediately followed and the space reclaimed. Retained connection and frame access are the two non-negotiable prerequisites for the escape to function.",
+        "answer_line": "Retained hook plus frame access",
+        "distractors": {
+          "plausible": [
+            "Frame access alone is enough",
+            "Any leg contact plus strength"
+          ],
+          "trap": [
+            "Once passer completes the pass"
+          ]
+        }
       },
       {
         "question": "Why must frames be established before attempting the hip escape rather than simultaneously?",
-        "answer": "Frames must be established first because without structural support, any space created by the hip escape is immediately reclaimed by the passer following with their chest pressure. The frame serves as a doorstop that prevents the space from closing as you move your hips. Attempting both simultaneously splits your coordination and typically results in neither being effective, producing weak frames that collapse and incomplete hip escapes that fail to create meaningful angle."
+        "answer": "Frames must be established first because without structural support, any space created by the hip escape is immediately reclaimed by the passer following with their chest pressure. The frame serves as a doorstop that prevents the space from closing as you move your hips. Attempting both simultaneously splits your coordination and typically results in neither being effective, producing weak frames that collapse and incomplete hip escapes that fail to create meaningful angle.",
+        "answer_line": "Frame first, then hip escape",
+        "distractors": {
+          "plausible": [
+            "Hip escape first opens space",
+            "Do both at the exact same time"
+          ],
+          "trap": [
+            "Skip frames, escape hips fast"
+          ]
+        }
       },
       {
         "question": "Your knee shield insertion is consistently being collapsed by the passer - what mechanical adjustment should you make?",
-        "answer": "Drive the shin deeper across the passer's torso so it angles toward their far shoulder rather than sitting vertically in front of their chest. Angle your knee outward slightly to create a wider wedge effect. The shin bone should be the contact surface rather than just the knee point. Additionally, ensure your hip escape has created sufficient angle before attempting insertion, since a knee shield inserted from a flat position lacks the structural support that comes from being on your side."
+        "answer": "Drive the shin deeper across the passer's torso so it angles toward their far shoulder rather than sitting vertically in front of their chest. Angle your knee outward slightly to create a wider wedge effect. The shin bone should be the contact surface rather than just the knee point. Additionally, ensure your hip escape has created sufficient angle before attempting insertion, since a knee shield inserted from a flat position lacks the structural support that comes from being on your side.",
+        "answer_line": "Angle shin deep to far shoulder",
+        "distractors": {
+          "plausible": [
+            "Push knee point straight ahead",
+            "Widen base without shin angle"
+          ],
+          "trap": [
+            "Insert knee shield while flat"
+          ]
+        }
       },
       {
         "question": "How should you adjust the escape when the passer has an extremely strong crossface that prevents your hip escape?",
-        "answer": "When the crossface is too strong for a lateral hip escape, redirect your escape pathway downward toward deep half guard rather than fighting the crossface directly. Use your near-side arm to underhook their trapped leg and dive your head underneath their base. The deep half entry uses their forward crossface pressure against them by converting it into momentum for your descent underneath. This transforms a defensive problem into an offensive entry."
+        "answer": "When the crossface is too strong for a lateral hip escape, redirect your escape pathway downward toward deep half guard rather than fighting the crossface directly. Use your near-side arm to underhook their trapped leg and dive your head underneath their base. The deep half entry uses their forward crossface pressure against them by converting it into momentum for your descent underneath. This transforms a defensive problem into an offensive entry.",
+        "answer_line": "Redirect and dive to deep half",
+        "distractors": {
+          "plausible": [
+            "Fight crossface with neck frame",
+            "Push harder against the crossface"
+          ],
+          "trap": [
+            "Turn away to escape crossface"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize immediately after successfully recovering half guard from the leg weave?",
-        "answer": "The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape."
+        "answer": "The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape.",
+        "answer_line": "Near-side underhook",
+        "distractors": {
+          "plausible": [
+            "Far-side collar grip",
+            "Overhook on trapped arm"
+          ],
+          "trap": [
+            "Let go and reset frames only"
+          ]
+        }
       },
       {
         "question": "The passer begins backstepping when you create angle during your hip escape - how do you prevent back exposure?",
-        "answer": "Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control."
+        "answer": "Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control.",
+        "answer_line": "Stay flat, elbow-knee connected",
+        "distractors": {
+          "plausible": [
+            "Turn hips fully away to escape",
+            "Chase the angle no matter what"
+          ],
+          "trap": [
+            "Keep turning until back is free"
+          ]
+        }
       },
       {
         "question": "How do you chain the escape when your first attempt fails but you have created partial space?",
-        "answer": "Use the partial space to transition to an alternative escape pathway rather than resetting completely. If you created angle but could not insert the knee shield, use the momentum to drive into deep half guard underneath the passer. If you created space but lost your frames, immediately re-establish the primary forearm frame before the passer can reclaim the space. The key is maintaining whatever positional gains you achieved and building on them rather than starting the entire sequence from scratch."
+        "answer": "Use the partial space to transition to an alternative escape pathway rather than resetting completely. If you created angle but could not insert the knee shield, use the momentum to drive into deep half guard underneath the passer. If you created space but lost your frames, immediately re-establish the primary forearm frame before the passer can reclaim the space. The key is maintaining whatever positional gains you achieved and building on them rather than starting the entire sequence from scratch.",
+        "answer_line": "Build on partial space gained",
+        "distractors": {
+          "plausible": [
+            "Reset the entire sequence",
+            "Chase deep half regardless"
+          ],
+          "trap": [
+            "Force the knee shield through"
+          ]
+        }
       }
     ],
     "safety_considerations": "The leg weave escape is a low-risk defensive technique with minimal injury potential when practiced correctly. Primary safety concern is neck strain from excessive crossface pressure during drilling. Partners should communicate about pressure intensity and build resistance gradually across training phases. Avoid explosive bridging into a partner who is not braced, as this can cause knee or ankle injuries to the top player. During live training, tap if caught in a fully consolidated pass rather than fighting desperately from a compromised position, as forced scrambles from bad positions can lead to shoulder or neck injuries.",
@@ -403,23 +483,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that tells you the bottom player is about to attempt the escape?",
-        "answer": "The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point."
+        "answer": "The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point.",
+        "answer_line": "Forearm wedging on neck/shoulder",
+        "distractors": {
+          "plausible": [
+            "Hips beginning to shift away",
+            "Knee shield starting to insert"
+          ],
+          "trap": [
+            "Wait for the bridge to start"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the bottom player bridging underneath you?",
-        "answer": "Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge."
+        "answer": "Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge.",
+        "answer_line": "Lower hips, absorb, stay connected",
+        "distractors": {
+          "plausible": [
+            "Stiffen up and resist the bridge",
+            "Post up high to avoid the bridge"
+          ],
+          "trap": [
+            "Pop hips up to break contact"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully inserts a partial knee shield - what is your best immediate response?",
-        "answer": "Rather than fighting directly against the inserted knee, which is structurally strong, transition your passing approach to exploit the new configuration. Angle your pressure diagonally over the knee shield and drive toward a knee slice pass through the shield. Alternatively, backstep around the shield entirely. The worst response is trying to crush the shield straight down with chest pressure, as the shin bone provides excellent structural support against vertical force."
+        "answer": "Rather than fighting directly against the inserted knee, which is structurally strong, transition your passing approach to exploit the new configuration. Angle your pressure diagonally over the knee shield and drive toward a knee slice pass through the shield. Alternatively, backstep around the shield entirely. The worst response is trying to crush the shield straight down with chest pressure, as the shin bone provides excellent structural support against vertical force.",
+        "answer_line": "Angle over shield, knee slice",
+        "distractors": {
+          "plausible": [
+            "Backstep away immediately only",
+            "Push crossface harder into shield"
+          ],
+          "trap": [
+            "Crush the shield straight down"
+          ]
+        }
       },
       {
         "question": "When is it better to abandon the leg weave and transition to a different pass rather than fighting to maintain position?",
-        "answer": "Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative."
+        "answer": "Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative.",
+        "answer_line": "Shield set, underhook contested",
+        "distractors": {
+          "plausible": [
+            "The instant they get any angle",
+            "Only when fully swept over"
+          ],
+          "trap": [
+            "Never switch, fight to keep it"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from converting their escape into a deep half guard entry?",
-        "answer": "Keep your hips back and weight distributed away from your lead leg when you feel the bottom player attempting to dive underneath you. The deep half entry requires them to get their head under your center of gravity and control your lead leg. Sprawling your hips back while maintaining upper body connection removes the space they need to complete the deep half entry. If they get partially underneath, immediately backstep your weaved leg free and circle toward their head to re-establish a dominant passing angle."
+        "answer": "Keep your hips back and weight distributed away from your lead leg when you feel the bottom player attempting to dive underneath you. The deep half entry requires them to get their head under your center of gravity and control your lead leg. Sprawling your hips back while maintaining upper body connection removes the space they need to complete the deep half entry. If they get partially underneath, immediately backstep your weaved leg free and circle toward their head to re-establish a dominant passing angle.",
+        "answer_line": "Sprawl hips back, stay connected",
+        "distractors": {
+          "plausible": [
+            "Drive weight onto the lead leg",
+            "Pull away completely and disengage"
+          ],
+          "trap": [
+            "Let them get fully underneath"
+          ]
+        }
       }
     ],
     "training_progressions": [

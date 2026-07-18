@@ -286,62 +286,182 @@
       {
         "question": "What is the primary source of pressure in the Arm Crush submission?",
         "answer": "The primary source of pressure is your chest weight driving down and forward into the opponent's shoulder, creating crushing compression between your body weight and their torso. This is combined with a figure-four grip that controls the arm position and allows you to add rotational torque. The submission is more about body positioning and weight distribution than arm strength.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest weight crushes shoulder",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip alone",
+            "Wrist control drives pressure"
+          ],
+          "trap": [
+            "Lift hips and pull with arms"
+          ]
+        }
       },
       {
         "question": "Why is the Arm Crush particularly dangerous and what makes it high-risk for injury?",
         "answer": "The Arm Crush is high-risk because it combines two injury mechanisms simultaneously: crushing compression of the shoulder joint and rotational torque on the rotator cuff. This dual-force application can cause rotator cuff tears, labrum damage, or shoulder dislocation very quickly. The submission also develops pressure rapidly once properly positioned, giving the opponent little time to tap before injury occurs. Additionally, if the defender's head is controlled with a cross-face, they may be unable to verbally tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Crush + torque, injures fast",
+        "distractors": {
+          "plausible": [
+            "Only rotational torque matters",
+            "Slow build gives time to tap"
+          ],
+          "trap": [
+            "Ignore muffled taps, keep cranking"
+          ]
+        }
       },
       {
         "question": "What is the correct hip position for maximizing pressure in the Arm Crush?",
         "answer": "Your hips should be positioned low and tight to the opponent's near hip initially to prevent escape. As you apply the submission, walk your hips slightly toward the opponent's head (not upward) to create approximately a 45-degree angle between your torso and theirs. This angle maximizes the crushing pressure while keeping your weight consolidated on their shoulder. Raising your hips vertically reduces pressure and allows escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips toward head, 45°",
+        "distractors": {
+          "plausible": [
+            "Raise hips high for leverage",
+            "Keep hips square, don't move"
+          ],
+          "trap": [
+            "Post hips up and away"
+          ]
+        }
       },
       {
         "question": "If you hear popping or grinding sounds from the opponent's shoulder during application, what should you do immediately?",
         "answer": "Release all pressure immediately - both the crushing compression and any rotational torque. These sounds indicate that structural damage is occurring to the shoulder joint, likely involving the rotator cuff, labrum, or joint capsule. Continuing pressure after these sounds can cause severe, potentially career-ending injuries. Stop training, check on your partner verbally, and allow them to assess their shoulder mobility before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release all pressure immediately",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, keep grip",
+            "Reposition then reassess"
+          ],
+          "trap": [
+            "Add torque to confirm the tap"
+          ]
+        }
       },
       {
         "question": "How does the opponent's defensive posture enable the Arm Crush submission?",
         "answer": "When opponents defend side control by keeping their elbows tight to their ribs (a generally sound defensive principle), they create the exact arm configuration needed for the Arm Crush. The tight elbow position traps their arm between your body and theirs, allowing you to wedge your arm underneath and establish the crushing grip. Paradoxically, the tighter they defend with their elbow, the deeper you can set the submission and the more effective the crushing pressure becomes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tight elbows trap the arm deeper",
+        "distractors": {
+          "plausible": [
+            "Loose elbows create the setup",
+            "Tight elbows always prevent it"
+          ],
+          "trap": [
+            "Elbows tight = fully safe"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the Arm Crush attack and why is this combination particularly effective?",
         "answer": "The Arm Crush primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral joint capsule, and the labrum. The effectiveness comes from attacking these structures through two vectors simultaneously - vertical compression crushing the joint surfaces together and rotational torque stressing the rotator cuff tendons. This multi-directional stress overwhelms the joint's structural integrity faster than single-vector attacks like a standard Americana.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotator cuff + labrum, dual vector",
+        "distractors": {
+          "plausible": [
+            "Only the labrum is targeted",
+            "Biceps tendon, single vector"
+          ],
+          "trap": [
+            "Elbow joint, like an armbar"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape in the Arm Crush and how do you recognize when you've reached it?",
         "answer": "The point of no escape occurs when your figure-four grip is locked, your chest is driving into their shoulder with full weight commitment, and their elbow is trapped tight against their ribcage. You'll feel their arm become completely immobile - unable to extract toward their body or push away. At this stage, even small rotational adjustments generate enormous finishing pressure. The opponent typically recognizes this moment simultaneously and will tap immediately or risk injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, arm immobile",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "You feel fatigue in your grip"
+          ],
+          "trap": [
+            "Any grip contact means it's set"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to bridge during the Arm Crush - what adjustment prevents escape?",
         "answer": "Anticipate the bridge by widening your base and keeping your hips low. As they bridge, maintain your figure-four grip and ride the movement rather than fighting it - let their bridge carry you slightly. As they return to the mat, immediately increase pressure. The bridge actually often improves your position because it slightly straightens their arm and creates more space for your wedge. Never release your grip or lift your chest during their bridge attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge with strength",
+            "Release grip, reset position"
+          ],
+          "trap": [
+            "Lift chest to avoid the bridge"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip if the opponent begins to straighten their trapped arm during the Arm Crush?",
         "answer": "If they straighten their arm, transition your figure-four grip from controlling their elbow to controlling their wrist - this converts the Arm Crush into an Americana. Slide your far hand from under their elbow to their wrist while your near hand maintains the figure-four connection. Once controlling the wrist, rotate their forearm toward their head while keeping chest pressure. Their straightening actually makes the Americana higher percentage than if they'd kept the elbow bent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Slide grip to wrist, Americana",
+        "distractors": {
+          "plausible": [
+            "Force elbow back to bent",
+            "Release and restart the setup"
+          ],
+          "trap": [
+            "Keep pulling on straight elbow"
+          ]
+        }
       },
       {
         "question": "What specific training protocol should be followed when first learning the Arm Crush with a partner?",
         "answer": "Begin with zero resistance drilling where the partner remains completely compliant. Apply pressure at only 20-30% intensity and build over 5-6 seconds minimum. Partner should tap at the first sensation of shoulder discomfort, not pain - this establishes early communication habits. Practice the release protocol multiple times before ever adding resistance. Both partners must understand that this submission should never be applied quickly regardless of experience level. Verbal communication throughout every repetition is mandatory.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Zero resistance, tap at discomfort",
+        "distractors": {
+          "plausible": [
+            "Light resistance builds toughness",
+            "Tap only at real pain"
+          ],
+          "trap": [
+            "Go fast to learn true timing"
+          ]
+        }
       },
       {
         "question": "In competition, when should you abandon the Arm Crush attempt and transition to another attack?",
         "answer": "Abandon the Arm Crush when: the opponent successfully turns toward you and begins escaping side control, their arm extracts from the trapped position against your body, you cannot maintain chest pressure due to their frames or movement, or you feel the grip becoming ineffective despite proper positioning. Transition options include taking the back if they turn, moving to north-south for different attacks, or switching to Americana/Kimura if their arm positioning changes. Never force a poorly positioned Arm Crush - the injury risk is too high and the finish percentage drops dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abandon if arm frees, transition",
+        "distractors": {
+          "plausible": [
+            "Muscle through weak positioning",
+            "Hold position, wait it out"
+          ],
+          "trap": [
+            "Force pressure despite bad grip"
+          ]
+        }
       },
       {
         "question": "What breaking point indicators tell you the Arm Crush is about to produce a tap?",
         "answer": "Several indicators signal imminent submission: the opponent's trapped arm goes completely rigid as they involuntarily brace against the pressure, their breathing becomes audible and strained due to chest compression, their free hand begins frantically searching for your grip or their own arm rather than attempting positional escapes, and their body stiffens into a defensive arch. You will also feel the shoulder joint reaching its structural limit through your grip - a subtle grinding sensation transmitted through the figure-four as the rotator cuff tendons approach their maximum tolerance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm rigid, grinding sensation",
+        "distractors": {
+          "plausible": [
+            "Opponent taps the mat loudly",
+            "They try to improve position"
+          ],
+          "trap": [
+            "They relax, so ease off"
+          ]
+        }
       }
     ],
     "clips": [
@@ -456,27 +576,77 @@
       {
         "question": "What is the earliest recognition cue that an Arm Crush is being set up from side control?",
         "answer": "The earliest cue is feeling the attacker's far arm sliding underneath your near elbow while they maintain heavy chest pressure. This wedging motion is distinct from normal side control grips because the attacker is threading their forearm between your upper arm and your ribcage rather than controlling your wrist or shoulder. As soon as you feel this wedge, you must react by extracting your elbow before the figure-four grip locks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm wedging under your elbow",
+        "distractors": {
+          "plausible": [
+            "Feeling their hand on your wrist",
+            "Chest pressure increasing alone"
+          ],
+          "trap": [
+            "Wait to see the full grip lock"
+          ]
+        }
       },
       {
         "question": "Why is tapping immediately the correct response when the Arm Crush is fully locked and pressure is building?",
         "answer": "The Arm Crush combines two injury mechanisms simultaneously - crushing compression and rotational torque on the shoulder. Unlike single-vector submissions where you might have seconds to work an escape, the dual-force application of the Arm Crush can cause rotator cuff tears, labrum damage, or shoulder dislocation within 1-2 seconds of maximum pressure. The shoulder joint has very limited structural tolerance for combined compression and rotation, and the damage threshold arrives much faster than with standard Americanas or Kimuras. Protecting your long-term shoulder health takes absolute priority over any competitive outcome.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Damage happens in 1-2 seconds",
+        "distractors": {
+          "plausible": [
+            "You still have time to escape",
+            "Same risk as an Americana"
+          ],
+          "trap": [
+            "Try to power out before tapping"
+          ]
+        }
       },
       {
         "question": "Why should you turn toward the attacker rather than away when defending the Arm Crush?",
         "answer": "Turning toward the attacker closes the angle between your shoulder and their chest, which directly reduces the crushing pressure vector. The Arm Crush relies on your shoulder being compressed between the attacker's chest weight and your own ribcage at approximately a 45-degree angle. By turning into them, you flatten this angle and reduce the mechanical advantage of the submission. Turning away actually increases the rotational torque component because it stretches your shoulder further from its neutral position while the grip holds it in place.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, closes crushing angle",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Stay flat and square to them"
+          ],
+          "trap": [
+            "Turn away, arm stretches free"
+          ]
+        }
       },
       {
         "question": "What defensive frames should you establish to prevent the Arm Crush setup?",
         "answer": "The primary defensive frame is your near forearm positioned vertically against the attacker's chest or hip, creating a structural brace that maintains space between your elbow and your ribcage. This prevents the attacker from wedging their arm underneath. Your far hand should control the attacker's far shoulder or bicep to limit their ability to adjust their angle. Keep your elbows active and mobile rather than pinned tight to your ribs - the Arm Crush specifically targets opponents who lock their elbows defensively against their body.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm brace, elbows mobile",
+        "distractors": {
+          "plausible": [
+            "Push their head away instead",
+            "Control far wrist, not shoulder"
+          ],
+          "trap": [
+            "Pin elbows tight to your ribs"
+          ]
+        }
       },
       {
         "question": "Your training partner applies the Arm Crush too quickly and you feel a sharp pain in your shoulder before you can tap - what should happen next?",
         "answer": "Both partners should stop immediately. The injured person should remain still and avoid moving the shoulder through its range of motion until the initial pain subsides. Do not attempt to test the shoulder by rotating it forcefully. Apply ice if available. If pain persists, there is any clicking or grinding sensation, or range of motion is limited, seek medical evaluation before returning to training. The training partner should be reminded that the Arm Crush must always be applied with slow, progressive pressure in training regardless of circumstance. Report the incident to your instructor.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, ice, seek medical eval",
+        "distractors": {
+          "plausible": [
+            "Stretch it out to test range",
+            "Keep training, monitor it"
+          ],
+          "trap": [
+            "Rotate the shoulder to check it"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -238,43 +238,143 @@
     "flashcards": [
       {
         "question": "What is the most critical connection point to maintain throughout the entire matrix back take transition?",
-        "answer": "The near-side arm threaded under the opponent's armpit and anchored against their ribs is the most critical connection point. This arm acts as the anchor that prevents the opponent from turning into you while your body slides around them during the hip slide phase. Without maintaining this connection, the opponent can easily rotate toward you and eliminate the back take opportunity entirely, potentially recovering guard or achieving top position."
+        "answer": "The near-side arm threaded under the opponent's armpit and anchored against their ribs is the most critical connection point. This arm acts as the anchor that prevents the opponent from turning into you while your body slides around them during the hip slide phase. Without maintaining this connection, the opponent can easily rotate toward you and eliminate the back take opportunity entirely, potentially recovering guard or achieving top position.",
+        "answer_line": "Threaded near-arm on ribs",
+        "distractors": {
+          "plausible": [
+            "Far-hand hip grip control",
+            "Chest pressure on upper back"
+          ],
+          "trap": [
+            "Release arm to grab collar"
+          ]
+        }
       },
       {
         "question": "Why must you establish the bottom hook before attempting to secure the top hook?",
-        "answer": "The bottom hook is the primary control point that prevents the opponent from turning into you or recovering guard as you emerge on their far side. Attempting to establish both hooks simultaneously creates instability and gives the opponent the opportunity to sit back onto their heels or rotate away. By securing the bottom hook first, you create a stable control point from which to safely bring the top hook over without risking the entire position."
+        "answer": "The bottom hook is the primary control point that prevents the opponent from turning into you or recovering guard as you emerge on their far side. Attempting to establish both hooks simultaneously creates instability and gives the opponent the opportunity to sit back onto their heels or rotate away. By securing the bottom hook first, you create a stable control point from which to safely bring the top hook over without risking the entire position.",
+        "answer_line": "Bottom hook stabilizes first",
+        "distractors": {
+          "plausible": [
+            "Top hook secures control first",
+            "Seatbelt grip before any hook"
+          ],
+          "trap": [
+            "Insert both hooks at once"
+          ]
+        }
       },
       {
         "question": "Your opponent sits back heavily onto their heels as you attempt to thread your leg through the elbow-knee gap. How should you respond?",
-        "answer": "You should immediately abandon the matrix entry and switch to a traditional seat belt back take or truck entry rather than forcing the slide. Use your near-side arm control to pull the opponent forward and off their base, which will either create the space needed to re-attempt the matrix entry from a better angle or set up an alternative back take method. Forcing the technique when the opponent has closed the entry gap will result in loss of position."
+        "answer": "You should immediately abandon the matrix entry and switch to a traditional seat belt back take or truck entry rather than forcing the slide. Use your near-side arm control to pull the opponent forward and off their base, which will either create the space needed to re-attempt the matrix entry from a better angle or set up an alternative back take method. Forcing the technique when the opponent has closed the entry gap will result in loss of position.",
+        "answer_line": "Switch to seatbelt, pull forward",
+        "distractors": {
+          "plausible": [
+            "Switch straight to truck entry",
+            "Re-thread from the same angle"
+          ],
+          "trap": [
+            "Force the leg through the gap"
+          ]
+        }
       },
       {
         "question": "What makes the matrix back take particularly effective against experienced turtle defenders compared to traditional back take entries?",
-        "answer": "The matrix back take bypasses traditional defensive frames through dynamic angular movement rather than attempting to fight through them with static pressure. Experienced turtle defenders excel at maintaining tight elbow-to-knee structure and defending against direct seat belt entries, but the matrix slide creates an entirely different angle of attack that circumvents their usual defensive structures. The fluid, continuous movement through the elbow-knee gap makes it very difficult for defenders to counter once the sequence has begun."
+        "answer": "The matrix back take bypasses traditional defensive frames through dynamic angular movement rather than attempting to fight through them with static pressure. Experienced turtle defenders excel at maintaining tight elbow-to-knee structure and defending against direct seat belt entries, but the matrix slide creates an entirely different angle of attack that circumvents their usual defensive structures. The fluid, continuous movement through the elbow-knee gap makes it very difficult for defenders to counter once the sequence has begun.",
+        "answer_line": "Angular slide bypasses frames",
+        "distractors": {
+          "plausible": [
+            "Overpowers with static pressure",
+            "Faster hand-fighting for grips"
+          ],
+          "trap": [
+            "Fighting through tight elbows"
+          ]
+        }
       },
       {
         "question": "What is the proper weight distribution during the matrix hip slide phase and why does it matter?",
-        "answer": "During the hip slide, your weight should transfer smoothly from chest pressure on the opponent's upper back to a controlled connection that maintains their structure without pinning your own hips. Your chest should remain heavy enough to prevent them from posturing up, while your hips stay light and mobile enough to slide smoothly underneath their center of gravity. Too much weight makes you slow and stuck mid-slide; too little weight allows the opponent to turn or escape. The threading arm and far-hand hip grip maintain your connection during this critical phase."
+        "answer": "During the hip slide, your weight should transfer smoothly from chest pressure on the opponent's upper back to a controlled connection that maintains their structure without pinning your own hips. Your chest should remain heavy enough to prevent them from posturing up, while your hips stay light and mobile enough to slide smoothly underneath their center of gravity. Too much weight makes you slow and stuck mid-slide; too little weight allows the opponent to turn or escape. The threading arm and far-hand hip grip maintain your connection during this critical phase.",
+        "answer_line": "Heavy chest, light mobile hips",
+        "distractors": {
+          "plausible": [
+            "Heavy hips, light chest instead",
+            "Even weight through whole body"
+          ],
+          "trap": [
+            "Drop full weight, pin the hips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning aggressively toward you during the hip slide. What is your immediate response?",
-        "answer": "Maintain your arm and leg connections and allow the turn to happen while staying connected. Their turning motion can transition you naturally into front headlock or darce control position, where you can either finish a submission or re-establish turtle top for another entry attempt. The key is that your threading arm stays anchored against their ribs, which means their turn pulls you with them rather than separating you. Never release your connections to try to fight the turn with static resistance."
+        "answer": "Maintain your arm and leg connections and allow the turn to happen while staying connected. Their turning motion can transition you naturally into front headlock or darce control position, where you can either finish a submission or re-establish turtle top for another entry attempt. The key is that your threading arm stays anchored against their ribs, which means their turn pulls you with them rather than separating you. Never release your connections to try to fight the turn with static resistance.",
+        "answer_line": "Stay connected, ride the turn",
+        "distractors": {
+          "plausible": [
+            "Resist the turn with base",
+            "Release grips and reset position"
+          ],
+          "trap": [
+            "Fight turn with static resistance"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt the matrix entry rather than a traditional seat belt back take?",
-        "answer": "The matrix entry is optimal when the opponent has a tight defensive turtle with elbows close to knees, good base width, and is actively hand-fighting against direct seat belt attempts. Space must exist between the near-side elbow and knee for arm and leg insertion. You need stable turtle top control with chest pressure and a far-hip grip already established. If the opponent's turtle is loose or their elbow is separated from their knee, a traditional back take is higher percentage and should be attempted first."
+        "answer": "The matrix entry is optimal when the opponent has a tight defensive turtle with elbows close to knees, good base width, and is actively hand-fighting against direct seat belt attempts. Space must exist between the near-side elbow and knee for arm and leg insertion. You need stable turtle top control with chest pressure and a far-hip grip already established. If the opponent's turtle is loose or their elbow is separated from their knee, a traditional back take is higher percentage and should be attempted first.",
+        "answer_line": "Tight turtle, gap at elbow-knee",
+        "distractors": {
+          "plausible": [
+            "Loose turtle, wide elbow gap",
+            "Opponent already flattened out"
+          ],
+          "trap": [
+            "Elbow separated from the knee"
+          ]
+        }
       },
       {
         "question": "How does the far-hand hip grip contribute to the success of the matrix back take?",
-        "answer": "The far-hand hip grip serves three critical functions: it prevents the opponent from rotating their hips away as you thread your arm and leg through, it guides your own circular movement path as you slide around their body, and it provides proprioceptive feedback about the opponent's weight shifts and defensive reactions throughout the transition. Without this grip, the opponent has free hip rotation which makes the slide underneath nearly impossible to complete, and you lose the directional control needed to emerge on the correct side."
+        "answer": "The far-hand hip grip serves three critical functions: it prevents the opponent from rotating their hips away as you thread your arm and leg through, it guides your own circular movement path as you slide around their body, and it provides proprioceptive feedback about the opponent's weight shifts and defensive reactions throughout the transition. Without this grip, the opponent has free hip rotation which makes the slide underneath nearly impossible to complete, and you lose the directional control needed to emerge on the correct side.",
+        "answer_line": "Prevents hip rotation, guides slide",
+        "distractors": {
+          "plausible": [
+            "Controls opponent's far shoulder",
+            "Locks opponent's near-side leg"
+          ],
+          "trap": [
+            "Release grip to switch sides"
+          ]
+        }
       },
       {
         "question": "You have successfully established the bottom hook but the opponent is actively fighting your top hook insertion. What should you prioritize?",
-        "answer": "Prioritize consolidating your bottom hook and establishing seatbelt control rather than forcing the top hook. With a deep bottom hook and strong upper body control through the seatbelt, you already have functional back control. The opponent's defensive energy spent fighting the top hook often opens their neck for choke entries or exposes their arms for armbar transitions. You can work the top hook in patiently once upper body control is secure, or transition to body triangle if the top hook remains contested."
+        "answer": "Prioritize consolidating your bottom hook and establishing seatbelt control rather than forcing the top hook. With a deep bottom hook and strong upper body control through the seatbelt, you already have functional back control. The opponent's defensive energy spent fighting the top hook often opens their neck for choke entries or exposes their arms for armbar transitions. You can work the top hook in patiently once upper body control is secure, or transition to body triangle if the top hook remains contested.",
+        "answer_line": "Consolidate seatbelt over top hook",
+        "distractors": {
+          "plausible": [
+            "Abandon bottom hook, reset entry",
+            "Switch straight to body triangle"
+          ],
+          "trap": [
+            "Force the top hook insertion"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you have ready if the matrix entry is blocked at the leg insertion phase?",
-        "answer": "If the leg insertion is blocked, you have several high-percentage chains available. First, switch to the opposite side for a traditional seat belt back take since the opponent has committed their defense to one side. Second, attack the crucifix if their defensive arm trapping has isolated their near arm. Third, drop to a truck entry by threading your leg differently and rotating toward their hips rather than sliding underneath. Fourth, re-establish heavy turtle top pressure and probe for front headlock submissions like the darce or anaconda if they lift their head during the exchange."
+        "answer": "If the leg insertion is blocked, you have several high-percentage chains available. First, switch to the opposite side for a traditional seat belt back take since the opponent has committed their defense to one side. Second, attack the crucifix if their defensive arm trapping has isolated their near arm. Third, drop to a truck entry by threading your leg differently and rotating toward their hips rather than sliding underneath. Fourth, re-establish heavy turtle top pressure and probe for front headlock submissions like the darce or anaconda if they lift their head during the exchange.",
+        "answer_line": "Switch sides or attack crucifix",
+        "distractors": {
+          "plausible": [
+            "Retry same-side entry harder",
+            "Stand up and reset distance"
+          ],
+          "trap": [
+            "Force the leg insertion again"
+          ]
+        }
       }
     ],
     "safety_considerations": "The matrix back take is generally safe when practiced with proper control and awareness. The primary safety concern is during the hip slide phase, where both practitioners are in transitional positions and coordination matters. Always ensure your partner is comfortable with the movement before adding speed or resistance. When drilling, communicate clearly if you feel off-balance or unstable during the transition. Avoid slamming or dropping your weight suddenly during the slide, as this can cause neck or shoulder injuries to the person in turtle. For the person in turtle, be aware that the matrix entry can feel disorienting initially, so tap early if pressure on your neck becomes uncomfortable. When back control is established, both practitioners should be mindful of proper hook placement to avoid knee or ankle injuries. Progress slowly through the resistance levels in training progressions to allow both practitioners to develop the necessary body awareness and control.",
@@ -397,23 +497,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a matrix back take is being attempted rather than a standard back take?",
-        "answer": "The earliest cue is the attacker circling toward your far side while threading an arm deep under your near-side armpit, rather than working to establish a direct seatbelt grip from behind. A standard back take involves the attacker staying centered behind you and working hooks in from a direct angle, while the matrix involves angular movement where the attacker shifts perpendicular to your torso. Feeling the arm thread deeply with the attacker's shoulder pressing into your ribs is the definitive signal."
+        "answer": "The earliest cue is the attacker circling toward your far side while threading an arm deep under your near-side armpit, rather than working to establish a direct seatbelt grip from behind. A standard back take involves the attacker staying centered behind you and working hooks in from a direct angle, while the matrix involves angular movement where the attacker shifts perpendicular to your torso. Feeling the arm thread deeply with the attacker's shoulder pressing into your ribs is the definitive signal.",
+        "answer_line": "Arm threads deep, circles far side",
+        "distractors": {
+          "plausible": [
+            "Direct seatbelt grip from behind",
+            "Hooks inserted from centered spot"
+          ],
+          "trap": [
+            "Ignore it, it's a normal grip"
+          ]
+        }
       },
       {
         "question": "Why is sitting back onto your heels one of the most effective defenses against the matrix entry?",
-        "answer": "Sitting back onto your heels eliminates the space between your elbow and knee that the attacker needs to thread their leg through, which is the critical entry point for the matrix. Without the ability to step their leg through this gap, the attacker cannot position their body to begin the hip slide underneath you. It also lowers your center of gravity, making it much harder for the attacker to slide their hips underneath. This single adjustment shuts down the primary mechanical requirement of the technique."
+        "answer": "Sitting back onto your heels eliminates the space between your elbow and knee that the attacker needs to thread their leg through, which is the critical entry point for the matrix. Without the ability to step their leg through this gap, the attacker cannot position their body to begin the hip slide underneath you. It also lowers your center of gravity, making it much harder for the attacker to slide their hips underneath. This single adjustment shuts down the primary mechanical requirement of the technique.",
+        "answer_line": "Closes elbow-knee gap, lowers hips",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Frees arms for grip fighting"
+          ],
+          "trap": [
+            "Post hands wide, raise hips"
+          ]
+        }
       },
       {
         "question": "The attacker has already threaded their arm and stepped their leg through, but has not begun the hip slide yet. What is your best defensive option?",
-        "answer": "Your best option is an aggressive turn into the attacker before the hip slide begins. Rotate your torso forcefully toward the attacker's body, which eliminates the back-take angle and forces a front-facing exchange. The attacker's threaded arm and stepped leg become liabilities in a face-to-face position rather than assets for a back take. You must commit to this turn fully and quickly, as any hesitation gives the attacker time to initiate the slide."
+        "answer": "Your best option is an aggressive turn into the attacker before the hip slide begins. Rotate your torso forcefully toward the attacker's body, which eliminates the back-take angle and forces a front-facing exchange. The attacker's threaded arm and stepped leg become liabilities in a face-to-face position rather than assets for a back take. You must commit to this turn fully and quickly, as any hesitation gives the attacker time to initiate the slide.",
+        "answer_line": "Turn hard into attacker now",
+        "distractors": {
+          "plausible": [
+            "Wait and post on far hand",
+            "Sit back onto your heels"
+          ],
+          "trap": [
+            "Try to strip the threaded arm"
+          ]
+        }
       },
       {
         "question": "How does defending the matrix back take differ from defending a traditional seat belt back take from turtle?",
-        "answer": "Traditional back take defense focuses on grip fighting to prevent the seatbelt from being established and hook prevention through hip positioning. Matrix defense focuses on denying physical space for arm and leg insertion and reacting to angular movement patterns. Against a traditional back take you fight grips; against the matrix you close gaps in your structure and respond with whole-body movement like sitting back, turning in, or granby rolling. The timing window is also different, as the matrix has a clear point of no return during the hip slide that does not exist in standard entries."
+        "answer": "Traditional back take defense focuses on grip fighting to prevent the seatbelt from being established and hook prevention through hip positioning. Matrix defense focuses on denying physical space for arm and leg insertion and reacting to angular movement patterns. Against a traditional back take you fight grips; against the matrix you close gaps in your structure and respond with whole-body movement like sitting back, turning in, or granby rolling. The timing window is also different, as the matrix has a clear point of no return during the hip slide that does not exist in standard entries.",
+        "answer_line": "Deny space, not just grips",
+        "distractors": {
+          "plausible": [
+            "Fight grips harder than usual",
+            "Focus only on hook prevention"
+          ],
+          "trap": [
+            "Match their angle, follow slide"
+          ]
+        }
       },
       {
         "question": "Your granby roll defense against the matrix entry was followed by the attacker, and they now have partial truck position. What should you do?",
-        "answer": "Immediately address the leg entanglement by working to extract your trapped leg before the attacker can fully consolidate truck position. Use your free leg to push against their hip and create separation while using your arms to fight for upper body freedom. If full truck is established, shift to truck-specific escapes: keep your hips mobile, prevent them from securing the lock, and work toward rolling to a position where you can disentangle your legs. The priority shifts from matrix defense to leg entanglement defense."
+        "answer": "Immediately address the leg entanglement by working to extract your trapped leg before the attacker can fully consolidate truck position. Use your free leg to push against their hip and create separation while using your arms to fight for upper body freedom. If full truck is established, shift to truck-specific escapes: keep your hips mobile, prevent them from securing the lock, and work toward rolling to a position where you can disentangle your legs. The priority shifts from matrix defense to leg entanglement defense.",
+        "answer_line": "Extract trapped leg immediately",
+        "distractors": {
+          "plausible": [
+            "Focus on upper body escape first",
+            "Attempt another granby roll"
+          ],
+          "trap": [
+            "Stay still, conserve energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

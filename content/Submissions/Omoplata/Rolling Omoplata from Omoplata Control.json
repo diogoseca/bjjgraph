@@ -341,62 +341,182 @@
       {
         "question": "What is the minimum application time for the Rolling Omoplata in training, and why is this critical?",
         "answer": "The minimum application time is 4-6 seconds with gradual pressure increase. This is critical because the shoulder joint is extremely vulnerable to sudden rotational forces, and the dynamic nature of the rolling entry can generate unexpected momentum. The trapped partner may have limited ability to tap with the captured arm, so slower application gives them time to recognize the danger and tap with their free hand or verbally. Rushing the technique significantly increases the risk of rotator cuff tears or shoulder dislocation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "4-6 sec, gradual pressure",
+        "distractors": {
+          "plausible": [
+            "2-3 seconds is enough",
+            "Speed matters more than time"
+          ],
+          "trap": [
+            "Apply full force instantly"
+          ]
+        }
       },
       {
         "question": "What are the key differences between a rolling omoplata and a traditional static omoplata in terms of setup and execution?",
         "answer": "The rolling omoplata is initiated from dynamic scrambles, transitions, or failed sweeps rather than established guard positions. It involves a rolling motion (similar to a granby roll) to capture the opponent's arm during movement, whereas the traditional omoplata is set up from static positions like closed guard or spider guard with deliberate leg positioning. The rolling version requires better timing and spatial awareness because both grapplers are in motion. The rolling omoplata often captures posting arms during scrambles, while the traditional version usually attacks arms that are already controlled in guard. The dynamic momentum of the rolling version makes it harder to defend once initiated, but also requires more technical precision to execute correctly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Entered from scrambles, not guard",
+        "distractors": {
+          "plausible": [
+            "Same technique, just faster",
+            "Both need static leg setup"
+          ],
+          "trap": [
+            "Any posted arm works equally"
+          ]
+        }
       },
       {
         "question": "If your opponent begins rolling forward through your rolling omoplata attempt, what should you do and why?",
         "answer": "Immediately post your outside hand on the mat and redistribute your weight to block their forward momentum while maintaining hip pressure on their shoulder. If they successfully complete the roll, follow through and transition to back control, as you'll be in position to take their back. The key is not to resist their momentum entirely but to control it and ensure you maintain a dominant position. Never try to force the omoplata if they're successfully rolling through, as this can create awkward angles and injury risk. Following their momentum to back control creates a seamless offensive transition and maintains your attacking position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow the roll, take the back",
+        "distractors": {
+          "plausible": [
+            "Fight the roll and hold on",
+            "Release grip immediately"
+          ],
+          "trap": [
+            "Force the submission anyway"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's head with your leg critical in the Rolling Omoplata, and what happens if you neglect this detail?",
         "answer": "The leg across the head prevents the opponent from turning into the submission (internal rotation of the shoulder), which is one of the primary escapes from omoplata positions. Without head control, the opponent can rotate their body toward you, reducing the shoulder lock pressure and potentially escaping to a neutral or top position. The head control also prevents them from posturing up and creating the space needed to extract their arm. Additionally, this leg breaking their posture downward increases the effectiveness of the shoulder pressure by maintaining the proper angle. Neglecting head control typically results in an easy escape or even a reversal.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks opponent turning in",
+        "distractors": {
+          "plausible": [
+            "Controls their hips instead",
+            "Stops them posturing only"
+          ],
+          "trap": [
+            "Let head free, control wrist"
+          ]
+        }
       },
       {
         "question": "What should you immediately do if your training partner taps during the rolling motion before you've completed the position?",
         "answer": "Immediately stop all rolling motion and release leg pressure on their shoulder and head. Do not complete the roll or attempt to 'finish' the position. Extend your hips backward to create space and allow them to safely extract their arm. The tap during the rolling motion indicates they feel vulnerable to injury from the momentum or angle, and continuing could cause serious shoulder damage. After releasing, check on your partner's shoulder mobility and comfort level before continuing training. This situation emphasizes the importance of controlled, telegraphed rolling motion in training rather than explosive or surprise entries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rolling, release pressure",
+        "distractors": {
+          "plausible": [
+            "Finish the roll, then release",
+            "Slow down but keep rolling"
+          ],
+          "trap": [
+            "Complete position, then check"
+          ]
+        }
       },
       {
         "question": "What type of flexibility and mobility is required for the Rolling Omoplata, and what are the risks of attempting it without adequate preparation?",
         "answer": "The technique requires excellent hip mobility for the inverted rolling motion, similar to granby rolls or other inversion techniques. You need sufficient lower back flexibility to control your body position throughout the roll, and shoulder mobility to maintain arm control while your own body rotates. Hamstring flexibility helps with leg positioning around the opponent's head and shoulder. Attempting this technique without adequate mobility can result in incomplete rolls that leave you in vulnerable positions, inability to generate the proper angle for the submission, or even injury to your own lower back, hips, or neck from forced positioning. The rolling motion under load requires body awareness that comes from progressive flexibility development, not forced attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip, back, shoulder mobility",
+        "distractors": {
+          "plausible": [
+            "Only shoulder flexibility matters",
+            "Strength beats flexibility here"
+          ],
+          "trap": [
+            "Force it, mobility comes later"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment during a scramble or transition to attempt the Rolling Omoplata?",
         "answer": "The optimal moment is when your opponent posts their arm for base while being slightly off-balance with their weight forward or lateral. This commonly occurs during defended sweep attempts, guard recovery situations, or when they're actively trying to pass and need to post to maintain balance. The key indicator is seeing an isolated, extended arm that you can control while your opponent's base is compromised. Timing is critical - too early and they can retract the arm; too late and they've established a strong base. The technique capitalizes on transitional moments when the opponent is more focused on positional objectives than protecting their arms, making them vulnerable to the dynamic submission entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm posted, balance compromised",
+        "distractors": {
+          "plausible": [
+            "Any time arm is extended",
+            "When opponent is stationary"
+          ],
+          "trap": [
+            "Attack a well-based post arm"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the Rolling Omoplata attack, and what is the breaking mechanism?",
         "answer": "The Rolling Omoplata primarily attacks the shoulder joint through external rotation of the humerus while the shoulder is internally rotated and abducted. The primary targets are the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the shoulder capsule. The breaking mechanism works by pinning the opponent's torso with your leg across their head while driving your hips forward into their shoulder, creating rotational torque that hyperextends the shoulder joint. The arm acts as a lever, and your hip pressure multiplies the force applied to the shoulder structures. This is why gradual pressure is essential - the ligaments and tendons can be damaged rapidly once the breaking point is approached.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder joint, rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Crank fast, ligaments snap"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the finishing sequence if the opponent's arm begins to slip?",
         "answer": "If the arm begins slipping during the finish, immediately transition from wrist control to controlling the elbow or upper arm with your hands while simultaneously clamping your knees together to trap the arm between your legs. You can also hook their wrist with your foot or ankle if their arm is sliding toward your hips. Another option is to quickly switch to a two-on-one grip on their wrist, using both hands to maintain extension. The key is recognizing the slip early and making the adjustment before losing the arm entirely. If you cannot secure the arm, transition immediately to triangle control or back take rather than forcing a failing submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clamp knees, control elbow",
+        "distractors": {
+          "plausible": [
+            "Grip harder on the wrist",
+            "Switch to a leg lock instead"
+          ],
+          "trap": [
+            "Force the arm back into place"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the opponent has reached the point of no escape in the Rolling Omoplata?",
         "answer": "The point of no escape is reached when your hips are directly pressuring their shoulder joint with their arm fully extended, your leg across their head prevents them from turning or posturing, and their shoulder is elevated above the level of their spine due to your hip pressure. Additional indicators include their free hand reaching to tap rather than defend, their body going flat to relieve pressure (which actually makes escape harder), and visible tension in their shoulder and arm muscles as they resist the rotation. At this point, even stopping the pressure briefly will not allow escape - the position is locked. This is why you must apply pressure gradually, because once these indicators appear, injury can occur within 1-2 seconds of continued pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hips pressuring, head trapped",
+        "distractors": {
+          "plausible": [
+            "Opponent just goes flat",
+            "Arm bent but hips are in"
+          ],
+          "trap": [
+            "Ease off since it's already locked"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that cause the Rolling Omoplata to fail at the last moment?",
         "answer": "The most common finishing errors are: allowing the opponent's elbow to bend by not maintaining full arm extension, positioning your hips parallel to their spine instead of perpendicular, letting your leg slide off their head which allows them to turn in, sitting too far back from the shoulder which reduces pressure, and rushing the finish which telegraphs the submission and allows them to grab their belt or pants. Another critical error is failing to control their far hip - if they can bridge and rotate their body, they can often escape even from a locked position. Finally, many practitioners finish with pulling rather than hip driving, which is less effective and easier to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow bends, hips not perpendicular",
+        "distractors": {
+          "plausible": [
+            "Sitting too close, not far back",
+            "Rushing but keeping angle right"
+          ],
+          "trap": [
+            "Pull the arm, skip hip drive"
+          ]
+        }
       },
       {
         "question": "In competition, what strategy maximizes your finishing percentage with the Rolling Omoplata?",
         "answer": "In competition, maximize finishing percentage by threatening the sweep even more than the submission initially - this forces opponents to post their arms more aggressively, creating better submission opportunities. Chain the rolling omoplata with other attacks like triangle and armbar so opponents cannot focus solely on defending one threat. Time your roll for when the opponent is already moving or reacting to another stimulus, as static entries are much lower percentage. Once you achieve the position, prioritize controlling their far hip by grabbing their belt or pants before driving for the finish - this eliminates their primary escape. Finally, be willing to convert to the omoplata sweep for points if the submission is being defended well, then reattack from the resulting top position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten sweep, control far hip",
+        "distractors": {
+          "plausible": [
+            "Attack only the submission",
+            "Wait for opponent to attack first"
+          ],
+          "trap": [
+            "Rush the finish for the tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -510,27 +630,77 @@
       {
         "question": "What is the earliest recognition cue that a rolling omoplata is being attempted, and what should your immediate response be?",
         "answer": "The earliest cue is feeling your posting or extended arm being controlled while your opponent begins loading onto their shoulders in an inverted rolling motion during a scramble or transition. Your immediate response should be to retract your arm forcefully toward your body, pulling your elbow tight to your ribs while simultaneously posturing up to deny the rolling momentum. This must happen within the first 1-2 seconds of recognition, because once the roll is completed and legs are positioned around your shoulder, defensive options become significantly more limited and energy-intensive.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract arm, posture up fast",
+        "distractors": {
+          "plausible": [
+            "Wait to confirm the roll first",
+            "Pull away and disengage fully"
+          ],
+          "trap": [
+            "Push into their shoulders"
+          ]
+        }
       },
       {
         "question": "Why is the forward roll escape considered high-risk despite being effective, and what precautions should you take?",
         "answer": "The forward roll escape is high-risk because it can transition the attacker directly to back control if they follow your momentum and maintain upper body connection. Additionally, rolling forward while your shoulder is under torque can cause injury if the angle is wrong or the attacker maintains hip pressure during your roll. To mitigate these risks, time the roll for when the attacker is extending their hips (not when they're adjusting position), roll diagonally toward your free shoulder to create an angle that makes back-take harder, and post your free hand to control the speed. Most importantly, tuck your chin and protect your neck during the roll to prevent the attacker from catching a rear choke during the transition.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Can give up the back if wrong",
+        "distractors": {
+          "plausible": [
+            "Only risks shoulder strain",
+            "Safe anytime you feel pressure"
+          ],
+          "trap": [
+            "Roll straight back, expose neck"
+          ]
+        }
       },
       {
         "question": "At what stage of the rolling omoplata attack does tapping become the safest option rather than continuing to defend?",
         "answer": "Tapping becomes the safest option once the attacker has achieved all three finishing criteria: their hips are perpendicular to your spine with direct pressure on your shoulder joint, your arm is fully extended and you cannot retract it or grip your clothing, and their leg across your head prevents you from turning or posturing. At this point, continued resistance primarily risks shoulder injury rather than creating viable escape opportunities. The shoulder joint can fail catastrophically with minimal additional pressure once these conditions are met. In training, tapping at this stage preserves your training longevity - no technique is worth a torn rotator cuff or dislocated shoulder. In competition, the same calculation applies unless the match stakes justify the injury risk.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hips, arm, head all locked",
+        "distractors": {
+          "plausible": [
+            "Any shoulder discomfort felt",
+            "Only when arm goes numb"
+          ],
+          "trap": [
+            "Keep fighting, it's still open"
+          ]
+        }
       },
       {
         "question": "How does defending the rolling omoplata differ from defending a traditional static omoplata?",
         "answer": "The primary difference is timing and available defensive windows. Against a traditional omoplata from guard, you have more time to recognize the setup (leg swinging over your shoulder from a controlled position) and can address it through posture and arm retraction with a longer reaction window. Against the rolling version, the attack develops within 2-3 seconds during a scramble, giving you a much shorter recognition window. Your defensive posture also differs - against the traditional omoplata you defend from a kneeling or combat base position, while against the rolling version you may be in any scramble orientation. The roll-through escape is more effective against the rolling version because the attacker's position is less consolidated, but the arm retraction defense is harder because your arm is often already extended during the scramble that creates the opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shorter window, roll-through easier",
+        "distractors": {
+          "plausible": [
+            "Same recognition window applies",
+            "Arm retraction is easier here"
+          ],
+          "trap": [
+            "Ignore it, react like static"
+          ]
+        }
       },
       {
         "question": "What body positioning should you maintain during scrambles to minimize your vulnerability to rolling omoplata attacks?",
         "answer": "During scrambles, maintain bent elbows with arms close to your body rather than posting with extended arms whenever possible. When you must post for base, use your fist or forearm rather than an open palm with a straight arm, as this makes wrist capture significantly harder. Keep your hips heavy and your weight centered rather than distributed through your hands, which reduces the number of moments where your arms are vulnerable. Maintain awareness of your opponent's hip orientation - if their hips begin rotating toward your shoulder while you're posting, immediately retract that arm. Finally, avoid turning your back during scrambles as this creates the exact arm exposure that loads the rolling omoplata entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bent elbows, fist posts, heavy hips",
+        "distractors": {
+          "plausible": [
+            "Post with open palm for base",
+            "Keep arms fully extended"
+          ],
+          "trap": [
+            "Turn your back to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [

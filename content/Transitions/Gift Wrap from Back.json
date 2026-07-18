@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Gift Wrap entry from back control?",
-        "answer": "The optimal timing window occurs when the opponent commits one arm to a specific defensive task, such as defending the rear naked choke with their choking-side hand or reaching down to fight your hooks. This commitment extends the arm away from their body and prevents immediate retraction when you capture the wrist. Creating this commitment through choke feints or grip switches is often more reliable than waiting passively for the opening to appear."
+        "answer": "The optimal timing window occurs when the opponent commits one arm to a specific defensive task, such as defending the rear naked choke with their choking-side hand or reaching down to fight your hooks. This commitment extends the arm away from their body and prevents immediate retraction when you capture the wrist. Creating this commitment through choke feints or grip switches is often more reliable than waiting passively for the opening to appear.",
+        "answer_line": "Arm extended defending choke",
+        "distractors": {
+          "plausible": [
+            "As soon as hooks are secured",
+            "When opponent turtles up"
+          ],
+          "trap": [
+            "Release seatbelt first"
+          ]
+        }
       },
       {
         "question": "What entry requirements must be established before attempting the Gift Wrap from Back?",
-        "answer": "You need established back control with at least one deep hook or body triangle for hip control, seatbelt or harness grip for upper body control, chest-to-back connection for stability, and clear access to one of the opponent's wrists or forearms. Attempting the gift wrap without these prerequisites creates excessive risk of losing the back position during the grip transition."
+        "answer": "You need established back control with at least one deep hook or body triangle for hip control, seatbelt or harness grip for upper body control, chest-to-back connection for stability, and clear access to one of the opponent's wrists or forearms. Attempting the gift wrap without these prerequisites creates excessive risk of losing the back position during the grip transition.",
+        "answer_line": "Hooks, seatbelt, chest connection",
+        "distractors": {
+          "plausible": [
+            "Just seatbelt grip is enough",
+            "Hooks alone, no seatbelt needed"
+          ],
+          "trap": [
+            "Release seatbelt to grab wrist"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the arm threading phase?",
-        "answer": "The threading arm must pass completely under the opponent's armpit and reach the far side of their body before pulling the arm across the chest. Incomplete threading—where the arm only partially passes under the armpit—creates a weak control point that the opponent can defeat through shoulder rotation. The full threading path creates a mechanical lock where the trapped arm is held against both your arm and the opponent's own torso."
+        "answer": "The threading arm must pass completely under the opponent's armpit and reach the far side of their body before pulling the arm across the chest. Incomplete threading—where the arm only partially passes under the armpit—creates a weak control point that the opponent can defeat through shoulder rotation. The full threading path creates a mechanical lock where the trapped arm is held against both your arm and the opponent's own torso.",
+        "answer_line": "Thread arm fully under armpit",
+        "distractors": {
+          "plausible": [
+            "Partial thread is sufficient",
+            "Thread arm over the shoulder"
+          ],
+          "trap": [
+            "Pull arm before threading through"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point when attempting the Gift Wrap from Back?",
-        "answer": "The most common failure point is losing back control fundamentals during the grip transition. When practitioners focus entirely on the arm capture and threading, they unconsciously relax their hooks, separate their chest from the opponent's back, or shift their hips out of alignment. This creates enough space for the opponent to begin escaping before the gift wrap is established. Maintaining back control structure during the transition is more important than speed of execution."
+        "answer": "The most common failure point is losing back control fundamentals during the grip transition. When practitioners focus entirely on the arm capture and threading, they unconsciously relax their hooks, separate their chest from the opponent's back, or shift their hips out of alignment. This creates enough space for the opponent to begin escaping before the gift wrap is established. Maintaining back control structure during the transition is more important than speed of execution.",
+        "answer_line": "Losing hooks during transition",
+        "distractors": {
+          "plausible": [
+            "Weak wrist grip strength",
+            "Slow threading motion"
+          ],
+          "trap": [
+            "Release seatbelt to speed up"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most reliable wrist capture for initiating the Gift Wrap?",
-        "answer": "A C-grip on the opponent's wrist or lower forearm provides the most reliable capture because it wraps around the narrowest part of the arm and resists rotational grip breaks. In no-gi, a pistol grip on the wrist is equally effective. The grip should be secured before any seatbelt release occurs, ensuring you maintain control of the target arm throughout the transition. Gripping too high on the forearm reduces leverage and makes the capture easier to strip."
+        "answer": "A C-grip on the opponent's wrist or lower forearm provides the most reliable capture because it wraps around the narrowest part of the arm and resists rotational grip breaks. In no-gi, a pistol grip on the wrist is equally effective. The grip should be secured before any seatbelt release occurs, ensuring you maintain control of the target arm throughout the transition. Gripping too high on the forearm reduces leverage and makes the capture easier to strip.",
+        "answer_line": "C-grip on wrist or forearm",
+        "distractors": {
+          "plausible": [
+            "Full grip high on forearm",
+            "Pistol grip only in gi"
+          ],
+          "trap": [
+            "Release seatbelt before gripping"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force when pulling the opponent's arm into the Gift Wrap configuration?",
-        "answer": "The primary force direction is diagonal—pulling the opponent's arm from their trapped-arm shoulder across their sternum toward the opposite shoulder. This diagonal path creates the longest control line across the opponent's chest and maximizes the mechanical advantage of the wrap. Pulling straight across horizontally or downward toward the waist creates a shorter, weaker control line that the opponent can defeat through shoulder rotation or arm extraction."
+        "answer": "The primary force direction is diagonal—pulling the opponent's arm from their trapped-arm shoulder across their sternum toward the opposite shoulder. This diagonal path creates the longest control line across the opponent's chest and maximizes the mechanical advantage of the wrap. Pulling straight across horizontally or downward toward the waist creates a shorter, weaker control line that the opponent can defeat through shoulder rotation or arm extraction.",
+        "answer_line": "Diagonal across the sternum",
+        "distractors": {
+          "plausible": [
+            "Straight across the chest",
+            "Downward toward the waist"
+          ],
+          "trap": [
+            "Push arm away from body"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the Gift Wrap by grabbing their own wrist to anchor the arm—how do you respond?",
-        "answer": "Attack the anchoring grip with two-on-one grip breaking, peeling their fingers from their own wrist or gi. Alternatively, switch to attacking the neck with the free hand, which forces them to release the anchor grip to defend the choke. The moment they release the anchor to fight the choke, immediately re-capture the now-freed wrist and complete the threading. This creates a dilemma between defending the gift wrap and defending the choke."
+        "answer": "Attack the anchoring grip with two-on-one grip breaking, peeling their fingers from their own wrist or gi. Alternatively, switch to attacking the neck with the free hand, which forces them to release the anchor grip to defend the choke. The moment they release the anchor to fight the choke, immediately re-capture the now-freed wrist and complete the threading. This creates a dilemma between defending the gift wrap and defending the choke.",
+        "answer_line": "Attack neck to force release",
+        "distractors": {
+          "plausible": [
+            "Pull harder against the anchor",
+            "Switch to armbar attempt"
+          ],
+          "trap": [
+            "Release the free hand entirely"
+          ]
+        }
       },
       {
         "question": "If the Gift Wrap attempt is blocked, what chain attacks should you transition to from back control?",
-        "answer": "If the gift wrap is denied, immediately re-secure the seatbelt and attack the rear naked choke, as the opponent's defensive effort against the gift wrap may have disrupted their neck protection. If the neck is still defended, attempt the gift wrap on the opposite arm, which may be less defended after the opponent focused on protecting the first arm. You can also transition to a crucifix entry if both arms become briefly exposed during the defensive scramble, or use the distraction to tighten your body triangle for improved positional control."
+        "answer": "If the gift wrap is denied, immediately re-secure the seatbelt and attack the rear naked choke, as the opponent's defensive effort against the gift wrap may have disrupted their neck protection. If the neck is still defended, attempt the gift wrap on the opposite arm, which may be less defended after the opponent focused on protecting the first arm. You can also transition to a crucifix entry if both arms become briefly exposed during the defensive scramble, or use the distraction to tighten your body triangle for improved positional control.",
+        "answer_line": "Re-secure seatbelt, attack RNC",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to armbar",
+            "Try gift wrap on other arm"
+          ],
+          "trap": [
+            "Release hooks to reposition"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Gift Wrap from Back involves pulling the opponent's arm across their body, which places stress on the shoulder joint, particularly the rotator cuff and anterior deltoid. Apply the arm threading and pulling motion progressively rather than jerking the arm into position. In training, communicate with partners about shoulder flexibility limitations before drilling. If a training partner indicates shoulder discomfort at any point, release the arm trap immediately and adjust the angle or tightness of the wrap. Avoid cranking the arm past the midline of the chest, as this can create a pain-compliance submission rather than a positional control. Monitor for signs of excessive shoulder rotation that could indicate impending injury.",
@@ -405,23 +485,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Gift Wrap from Back is being attempted?",
-        "answer": "The earliest cue is feeling the attacker's grip change on your wrist or forearm—specifically, one hand leaving the seatbelt clasp and gripping your wrist individually. This grip change precedes the actual threading motion and provides the maximum defensive reaction window. Training tactile sensitivity to distinguish between a wrist grip for the gift wrap versus a grip adjustment for the rear naked choke is essential for early recognition."
+        "answer": "The earliest cue is feeling the attacker's grip change on your wrist or forearm—specifically, one hand leaving the seatbelt clasp and gripping your wrist individually. This grip change precedes the actual threading motion and provides the maximum defensive reaction window. Training tactile sensitivity to distinguish between a wrist grip for the gift wrap versus a grip adjustment for the rear naked choke is essential for early recognition.",
+        "answer_line": "Feel wrist grip change",
+        "distractors": {
+          "plausible": [
+            "Feel hooks tighten",
+            "See threading arm move"
+          ],
+          "trap": [
+            "Ignore hand changes, watch hips"
+          ]
+        }
       },
       {
         "question": "Why is the attacker's seatbelt release during the threading transition the best moment to attempt escape?",
-        "answer": "When the attacker releases the seatbelt to free the threading arm, their upper body control is at its weakest point during the entire back control sequence. They have transitioned from a connected two-arm control to a single-arm wrist grip plus a free arm that is mid-motion. This momentary gap in upper body control reduces the force they can apply to prevent your hip escape or bridge, creating the widest escape window before the gift wrap re-establishes superior control."
+        "answer": "When the attacker releases the seatbelt to free the threading arm, their upper body control is at its weakest point during the entire back control sequence. They have transitioned from a connected two-arm control to a single-arm wrist grip plus a free arm that is mid-motion. This momentary gap in upper body control reduces the force they can apply to prevent your hip escape or bridge, creating the widest escape window before the gift wrap re-establishes superior control.",
+        "answer_line": "Upper body control weakest",
+        "distractors": {
+          "plausible": [
+            "Hooks are loosest then",
+            "Opponent's balance is off"
+          ],
+          "trap": [
+            "Wait for choke attempt instead"
+          ]
+        }
       },
       {
         "question": "Your opponent begins threading their arm under your armpit—what is the correct immediate defensive response?",
-        "answer": "Immediately clamp your elbow tight to your ribs and rotate your shoulder inward to close the space under your armpit. This blocks the threading path and prevents the arm from passing through. Simultaneously, begin a hip escape away from the threading side to create distance and reduce the attacker's chest-to-back pressure. If the arm is already partially through, rotate your entire torso toward the attacker to shorten the threading path and prevent the arm from crossing your midline."
+        "answer": "Immediately clamp your elbow tight to your ribs and rotate your shoulder inward to close the space under your armpit. This blocks the threading path and prevents the arm from passing through. Simultaneously, begin a hip escape away from the threading side to create distance and reduce the attacker's chest-to-back pressure. If the arm is already partially through, rotate your entire torso toward the attacker to shorten the threading path and prevent the arm from crossing your midline.",
+        "answer_line": "Clamp elbow tight, hip escape",
+        "distractors": {
+          "plausible": [
+            "Pull arm back immediately",
+            "Push opponent's head away"
+          ],
+          "trap": [
+            "Extend arm to block the thread"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure while defending the Gift Wrap from Back?",
-        "answer": "Conserve energy by maintaining defensive posture through structural positioning—elbows tight to ribs, chin tucked, hips angled—rather than through constant muscular tension. Reserve explosive energy for properly timed escape attempts during the attacker's grip transitions. Avoid sustained pushing or pulling against the arm trap, which exhausts you without producing meaningful defensive progress. Time your explosive bursts to coincide with the attacker's movement or grip changes when their control is temporarily disrupted."
+        "answer": "Conserve energy by maintaining defensive posture through structural positioning—elbows tight to ribs, chin tucked, hips angled—rather than through constant muscular tension. Reserve explosive energy for properly timed escape attempts during the attacker's grip transitions. Avoid sustained pushing or pulling against the arm trap, which exhausts you without producing meaningful defensive progress. Time your explosive bursts to coincide with the attacker's movement or grip changes when their control is temporarily disrupted.",
+        "answer_line": "Structural posture, not tension",
+        "distractors": {
+          "plausible": [
+            "Constant muscular resistance",
+            "Explosive effort throughout"
+          ],
+          "trap": [
+            "Push and pull against the trap"
+          ]
+        }
       },
       {
         "question": "What is the relationship between gift wrap defense and rear naked choke defense from back control?",
-        "answer": "These defenses exist in direct tension with each other. Defending the choke requires keeping hands near the neck, which exposes the arms for gift wrap capture. Defending the gift wrap may require moving a hand away from the neck, which creates a choke opportunity. Skilled attackers exploit this dilemma by feinting one attack to create openings for the other. The defender must develop the ability to address both threats simultaneously through positional defense—elbow tight, chin tucked, hips active—rather than dedicating hands to only one threat at a time."
+        "answer": "These defenses exist in direct tension with each other. Defending the choke requires keeping hands near the neck, which exposes the arms for gift wrap capture. Defending the gift wrap may require moving a hand away from the neck, which creates a choke opportunity. Skilled attackers exploit this dilemma by feinting one attack to create openings for the other. The defender must develop the ability to address both threats simultaneously through positional defense—elbow tight, chin tucked, hips active—rather than dedicating hands to only one threat at a time.",
+        "answer_line": "Choke and wrap defense conflict",
+        "distractors": {
+          "plausible": [
+            "Choke defense covers both threats",
+            "Wrap defense is always priority"
+          ],
+          "trap": [
+            "Dedicate both hands to neck"
+          ]
+        }
       }
     ],
     "training_progressions": [

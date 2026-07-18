@@ -250,35 +250,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Toreando from Headquarters?",
-        "answer": "The optimal timing is when the bottom player extends their free leg or pushes on your hips to create distance. This leg extension provides the grip opportunity and indicates their hips are relatively flat, both essential preconditions. Attempting the toreando when the opponent has retracted legs with knees tight to chest eliminates the grip opportunity and makes the pass significantly harder to execute."
+        "answer": "The optimal timing is when the bottom player extends their free leg or pushes on your hips to create distance. This leg extension provides the grip opportunity and indicates their hips are relatively flat, both essential preconditions. Attempting the toreando when the opponent has retracted legs with knees tight to chest eliminates the grip opportunity and makes the pass significantly harder to execute.",
+        "answer_line": "Free leg extends or pushes",
+        "distractors": {
+          "plausible": [
+            "Right after securing headquarters",
+            "When opponent settles into HQ"
+          ],
+          "trap": [
+            "When legs are retracted to chest"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in Headquarters before you can attempt the Toreando?",
-        "answer": "You need stable headquarters with one leg controlled, the opponent's free leg extended or pushing creating grip access, their upper body grips on your collar and sleeves cleared so they cannot anchor you during lateral movement, your weight centered over your hips with upright posture for explosive lateral stepping, and sufficient mat space in the intended passing direction for the lateral movement."
+        "answer": "You need stable headquarters with one leg controlled, the opponent's free leg extended or pushing creating grip access, their upper body grips on your collar and sleeves cleared so they cannot anchor you during lateral movement, your weight centered over your hips with upright posture for explosive lateral stepping, and sufficient mat space in the intended passing direction for the lateral movement.",
+        "answer_line": "Stable HQ, sleeve grips cleared",
+        "distractors": {
+          "plausible": [
+            "One leg control is enough",
+            "Opponent's hips already flat"
+          ],
+          "trap": [
+            "Attempt with collar grip still on"
+          ]
+        }
       },
       {
         "question": "What is the single most critical mechanical detail that determines whether the Toreando succeeds or fails?",
-        "answer": "The coordination between the lateral leg push and the lateral step must happen simultaneously as a single movement, not sequentially. If you push the legs first and then step, the timing gap allows the opponent to recover leg position and re-establish guard. The push-and-step must be trained as one coordinated action where both happen at exactly the same instant, eliminating any window for defensive recovery."
+        "answer": "The coordination between the lateral leg push and the lateral step must happen simultaneously as a single movement, not sequentially. If you push the legs first and then step, the timing gap allows the opponent to recover leg position and re-establish guard. The push-and-step must be trained as one coordinated action where both happen at exactly the same instant, eliminating any window for defensive recovery.",
+        "answer_line": "Push and step simultaneously",
+        "distractors": {
+          "plausible": [
+            "Push legs, then step after",
+            "Step first, then push legs"
+          ],
+          "trap": [
+            "Step before securing leg grips"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their foot on your hip on the passing side as you initiate the Toreando - how do you adjust?",
-        "answer": "Grip the blocking foot at the ankle and push it past your hip line while continuing the lateral step, converting the foot post into a leg drag opportunity. Alternatively, switch to the over-under toreando variation where you lift the blocking leg rather than fighting the hip frame directly. If neither option works, abort the toreando and return to headquarters rather than forcing the pass against a strong frame that compromises your base and timing."
+        "answer": "Grip the blocking foot at the ankle and push it past your hip line while continuing the lateral step, converting the foot post into a leg drag opportunity. Alternatively, switch to the over-under toreando variation where you lift the blocking leg rather than fighting the hip frame directly. If neither option works, abort the toreando and return to headquarters rather than forcing the pass against a strong frame that compromises your base and timing.",
+        "answer_line": "Grip ankle, drag foot past hip",
+        "distractors": {
+          "plausible": [
+            "Switch to knee cut instead",
+            "Push hips forward to clear"
+          ],
+          "trap": [
+            "Force through the strong frame"
+          ]
+        }
       },
       {
         "question": "Where should you grip the opponent's legs for the Toreando and why is grip placement critical?",
-        "answer": "Grip at or below the knee line on both legs, either at the knee crease, the shin, or the pants at knee level. This placement maximizes the mechanical lever arm for lateral redirection because it is the farthest point from the opponent's hip joint that still provides reliable control. Gripping higher on the thigh reduces leverage dramatically, requiring more force and giving the opponent greater ability to retract their legs and recover guard structure."
+        "answer": "Grip at or below the knee line on both legs, either at the knee crease, the shin, or the pants at knee level. This placement maximizes the mechanical lever arm for lateral redirection because it is the farthest point from the opponent's hip joint that still provides reliable control. Gripping higher on the thigh reduces leverage dramatically, requiring more force and giving the opponent greater ability to retract their legs and recover guard structure.",
+        "answer_line": "Grip at the knee line",
+        "distractors": {
+          "plausible": [
+            "Grip at the ankle only",
+            "Grip the pants at the hip"
+          ],
+          "trap": [
+            "Grip high on the thigh"
+          ]
+        }
       },
       {
         "question": "In which direction should you push the opponent's legs relative to your lateral step during the Toreando?",
-        "answer": "Push the legs to one side while stepping laterally in the opposite direction. The forces are oppositional, creating maximum separation between the opponent's legs and your hips. Push the legs across the opponent's body toward the mat on the far side while your lead foot steps in the opposite direction. This oppositional movement is what creates the passing lane and prevents the opponent from following your hip movement with their legs."
+        "answer": "Push the legs to one side while stepping laterally in the opposite direction. The forces are oppositional, creating maximum separation between the opponent's legs and your hips. Push the legs across the opponent's body toward the mat on the far side while your lead foot steps in the opposite direction. This oppositional movement is what creates the passing lane and prevents the opponent from following your hip movement with their legs.",
+        "answer_line": "Push legs, step opposite way",
+        "distractors": {
+          "plausible": [
+            "Push and step same direction",
+            "Push legs straight down only"
+          ],
+          "trap": [
+            "Pull legs toward your own hips"
+          ]
+        }
       },
       {
         "question": "Your opponent retracts both legs quickly to their chest as you transition from headquarters grips to bilateral leg grips - what do you do?",
-        "answer": "Do not chase the retracted legs with the toreando. Instead, return to headquarters and re-establish leg control with knee-line pressure. Retracted legs with knees tight to chest eliminate the grip opportunity the toreando requires. From re-established headquarters, apply pressure to draw the legs out again, or transition to a body lock or stack pass that works against retracted legs rather than extended ones. Chasing retracted legs leads to poor grip positioning and failed pass attempts."
+        "answer": "Do not chase the retracted legs with the toreando. Instead, return to headquarters and re-establish leg control with knee-line pressure. Retracted legs with knees tight to chest eliminate the grip opportunity the toreando requires. From re-established headquarters, apply pressure to draw the legs out again, or transition to a body lock or stack pass that works against retracted legs rather than extended ones. Chasing retracted legs leads to poor grip positioning and failed pass attempts.",
+        "answer_line": "Return to HQ, don't chase legs",
+        "distractors": {
+          "plausible": [
+            "Chase legs, force the grip",
+            "Switch immediately to leg drag"
+          ],
+          "trap": [
+            "Chase retracted legs to knees"
+          ]
+        }
       },
       {
         "question": "If the Toreando attempt is partially blocked and you cannot clear to side control, what chain attacks are available?",
-        "answer": "If the opponent partially defends but you have grip on the legs, switch to a leg drag by pulling one leg across your body instead of pushing both laterally. If they recover one leg but you have cleared past the other, convert to a knee cut through the gap. If the opponent catches your leg during the lateral movement, immediately establish crossface and underhook for a half guard top passing position and work a knee slice. If the opponent hip escapes away, pursue with a body lock pass. The key principle is maintaining contact and converting the failed speed pass into a pressure pass rather than disengaging."
+        "answer": "If the opponent partially defends but you have grip on the legs, switch to a leg drag by pulling one leg across your body instead of pushing both laterally. If they recover one leg but you have cleared past the other, convert to a knee cut through the gap. If the opponent catches your leg during the lateral movement, immediately establish crossface and underhook for a half guard top passing position and work a knee slice. If the opponent hip escapes away, pursue with a body lock pass. The key principle is maintaining contact and converting the failed speed pass into a pressure pass rather than disengaging.",
+        "answer_line": "Chain to leg drag or knee cut",
+        "distractors": {
+          "plausible": [
+            "Disengage and reset to HQ",
+            "Repeat the same toreando push"
+          ],
+          "trap": [
+            "Release contact, retreat to neutral"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Toreando from Headquarters is a relatively low-risk technique for both practitioners. Primary safety concerns involve the passer's lateral movement potentially causing knee strain if the foot catches on the mat during the explosive step. Both practitioners should ensure adequate mat space exists in the passing direction. Avoid cranking the opponent's legs with excessive rotational force during the lateral redirect, as this can strain their knee ligaments. Control the speed of the leg push in training to prevent hyperextension of the opponent's hip joints.",
@@ -396,19 +476,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is setting up a Toreando rather than a knee cut from Headquarters?",
-        "answer": "The key differentiator is the grip transition from single-leg headquarters control to bilateral grips on both legs at the knee line. The passer's weight shifts upward and backward to create upright posture for lateral movement rather than driving forward for a knee cut. You will feel downward pressure on both legs simultaneously as the passer attempts to flatten your hips, and their head lifts away from your centerline rather than driving across it. A knee cut setup drives the passer's shoulder forward into crossface position, while a toreando setup pulls the passer's upper body away."
+        "answer": "The key differentiator is the grip transition from single-leg headquarters control to bilateral grips on both legs at the knee line. The passer's weight shifts upward and backward to create upright posture for lateral movement rather than driving forward for a knee cut. You will feel downward pressure on both legs simultaneously as the passer attempts to flatten your hips, and their head lifts away from your centerline rather than driving across it. A knee cut setup drives the passer's shoulder forward into crossface position, while a toreando setup pulls the passer's upper body away.",
+        "answer_line": "Bilateral grips, upright weight",
+        "distractors": {
+          "plausible": [
+            "Shoulder driving into crossface",
+            "Forward pressure on your hips"
+          ],
+          "trap": [
+            "Watch hip movement, ignore grips"
+          ]
+        }
       },
       {
         "question": "Your opponent has already gripped both your legs at the knee line and begins pushing them laterally - what is your immediate defensive response?",
-        "answer": "Hip escape toward the passing direction, not away from it, while inserting your near knee between your bodies to intercept the passer's lateral path. Your hips must follow the passer's movement to close the gap and catch their trailing leg for half guard. Simultaneously, fight to break or weaken at least one grip by cupping the passer's wrist and peeling their hand off your knee. If you can break the near-side grip, retract that leg immediately and establish a knee shield to arrest the passing motion."
+        "answer": "Hip escape toward the passing direction, not away from it, while inserting your near knee between your bodies to intercept the passer's lateral path. Your hips must follow the passer's movement to close the gap and catch their trailing leg for half guard. Simultaneously, fight to break or weaken at least one grip by cupping the passer's wrist and peeling their hand off your knee. If you can break the near-side grip, retract that leg immediately and establish a knee shield to arrest the passing motion.",
+        "answer_line": "Hip escape toward the pass",
+        "distractors": {
+          "plausible": [
+            "Pull both legs straight back",
+            "Push opponent's hips away"
+          ],
+          "trap": [
+            "Hip escape away from the pressure"
+          ]
+        }
       },
       {
         "question": "Why does pushing the passer away with feet on hips sometimes backfire against the Toreando?",
-        "answer": "Feet on hips with straight legs is exactly the position the toreando exploits because it gives the passer bilateral grip access at the extended knees or ankles and creates maximum lever arm for lateral redirection. The distance created by the push helps the speed pass rather than hindering it. This is the fundamental defensive paradox of the toreando from headquarters: the distance-creation strategies that defend against pressure passes actually enable speed passes. The correct response to a recognized toreando setup is leg retraction with knees to chest rather than leg extension with feet on hips."
+        "answer": "Feet on hips with straight legs is exactly the position the toreando exploits because it gives the passer bilateral grip access at the extended knees or ankles and creates maximum lever arm for lateral redirection. The distance created by the push helps the speed pass rather than hindering it. This is the fundamental defensive paradox of the toreando from headquarters: the distance-creation strategies that defend against pressure passes actually enable speed passes. The correct response to a recognized toreando setup is leg retraction with knees to chest rather than leg extension with feet on hips.",
+        "answer_line": "It gives bilateral grip access",
+        "distractors": {
+          "plausible": [
+            "Works only vs pressure passers",
+            "It slows the passer's momentum"
+          ],
+          "trap": [
+            "Push harder to create more space"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defense if the Toreando succeeds and the passer has cleared your legs but has not yet established crossface?",
-        "answer": "Immediately frame with your near forearm across the passer's neck and shoulder to prevent the crossface from being established, while simultaneously hip escaping to create enough space to insert your near knee for guard recovery. This narrow window between leg clearance and crossface establishment is your last realistic opportunity to prevent full side control consolidation. If you focus only on your legs at this point, the crossface will pin you flat and make all subsequent recovery attempts dramatically harder. Upper body frame defense takes absolute priority over leg recovery in this critical moment."
+        "answer": "Immediately frame with your near forearm across the passer's neck and shoulder to prevent the crossface from being established, while simultaneously hip escaping to create enough space to insert your near knee for guard recovery. This narrow window between leg clearance and crossface establishment is your last realistic opportunity to prevent full side control consolidation. If you focus only on your legs at this point, the crossface will pin you flat and make all subsequent recovery attempts dramatically harder. Upper body frame defense takes absolute priority over leg recovery in this critical moment.",
+        "answer_line": "Frame arm across neck first",
+        "distractors": {
+          "plausible": [
+            "Hip escape immediately only",
+            "Push passer's hips for space"
+          ],
+          "trap": [
+            "Focus on retracting your legs"
+          ]
+        }
       }
     ],
     "training_progressions": [

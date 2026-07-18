@@ -252,35 +252,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins pumping their hips away as you attempt to extract your weaved leg - how do you maintain passing pressure?",
-        "answer": "Increase crossface shoulder pressure immediately and drive your weight forward into their upper body to counteract the hip escape direction. Your chest should chase their movement, not your legs. If their hips create distance, close it with forward pressure through your shoulder rather than pulling your leg back. The crossface anchor must track their upper body so the distance gained by their hips is negated by your forward drive."
+        "answer": "Increase crossface shoulder pressure immediately and drive your weight forward into their upper body to counteract the hip escape direction. Your chest should chase their movement, not your legs. If their hips create distance, close it with forward pressure through your shoulder rather than pulling your leg back. The crossface anchor must track their upper body so the distance gained by their hips is negated by your forward drive.",
+        "answer_line": "Chase with crossface, not legs",
+        "distractors": {
+          "plausible": [
+            "Pull leg back to close distance",
+            "Follow hips with your hips"
+          ],
+          "trap": [
+            "Release crossface to reset"
+          ]
+        }
       },
       {
         "question": "What is the critical weight transfer sequence during leg extraction in the Complete Leg Weave Pass?",
-        "answer": "Weight must shift from distributed across your entire body to concentrated through your chest and shoulder onto the opponent's upper torso before any leg movement begins. This creates the upper body anchor that holds the opponent in place. During extraction, the weight transfers laterally as you rotate the leg free, then drops perpendicular as you establish side control. The sequence is: settle upper body weight, rotate leg free under lighter hips, then drop hips perpendicular for consolidation."
+        "answer": "Weight must shift from distributed across your entire body to concentrated through your chest and shoulder onto the opponent's upper torso before any leg movement begins. This creates the upper body anchor that holds the opponent in place. During extraction, the weight transfers laterally as you rotate the leg free, then drops perpendicular as you establish side control. The sequence is: settle upper body weight, rotate leg free under lighter hips, then drop hips perpendicular for consolidation.",
+        "answer_line": "Settle chest, rotate leg, drop hips",
+        "distractors": {
+          "plausible": [
+            "Rotate leg before settling chest",
+            "Drop hips before leg is free"
+          ],
+          "trap": [
+            "Distribute weight evenly throughout"
+          ]
+        }
       },
       {
         "question": "The bottom player inserts a knee shield just as you begin clearing your hook - what adjustment do you make?",
-        "answer": "Stop the extraction and address the knee shield immediately. Collapse the knee shield by driving your hip weight into it and angling your shoulder pressure toward their head to flatten their upper body. If the shield is only partially established, you can often smash through it by committing your hip forward through the shield. If fully established, consider switching to a knee slice finish that uses the shield as a wedge point rather than fighting it directly."
+        "answer": "Stop the extraction and address the knee shield immediately. Collapse the knee shield by driving your hip weight into it and angling your shoulder pressure toward their head to flatten their upper body. If the shield is only partially established, you can often smash through it by committing your hip forward through the shield. If fully established, consider switching to a knee slice finish that uses the shield as a wedge point rather than fighting it directly.",
+        "answer_line": "Collapse shield, angle to head",
+        "distractors": {
+          "plausible": [
+            "Pry the shield out with hands",
+            "Retreat to reset guard passing"
+          ],
+          "trap": [
+            "Ignore shield, continue extracting"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the entire leg weave pass completion to prevent guard recovery?",
-        "answer": "The crossface shoulder pressure must be maintained uninterrupted from the initial leg weave position through the final side control consolidation. This is the primary anchor that prevents the bottom player from turning, sitting up, or following your leg movement during extraction. Secondary to this is the far hip control hand, which prevents knee insertion during the transition phase. Losing either grip creates a defensive window that skilled guard players will exploit immediately."
+        "answer": "The crossface shoulder pressure must be maintained uninterrupted from the initial leg weave position through the final side control consolidation. This is the primary anchor that prevents the bottom player from turning, sitting up, or following your leg movement during extraction. Secondary to this is the far hip control hand, which prevents knee insertion during the transition phase. Losing either grip creates a defensive window that skilled guard players will exploit immediately.",
+        "answer_line": "Crossface shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Far hip control hand only",
+            "Underhook on far arm"
+          ],
+          "trap": [
+            "Release crossface to grip hip"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs a deep underhook as you transition from leg weave to side control - how do you counter?",
-        "answer": "Immediately establish a whizzer over their underhooking arm and drive your weight forward to flatten them back to the mat. If you cannot establish the whizzer, switch your crossface to a heavy shoulder of justice pressure that makes their underhook uncomfortable and difficult to maintain. The worst response is to try pulling their arm out, which creates space. Instead, accept the underhook temporarily and use your superior top position weight to make it ineffective by flattening their body before they can use it to create a scramble."
+        "answer": "Immediately establish a whizzer over their underhooking arm and drive your weight forward to flatten them back to the mat. If you cannot establish the whizzer, switch your crossface to a heavy shoulder of justice pressure that makes their underhook uncomfortable and difficult to maintain. The worst response is to try pulling their arm out, which creates space. Instead, accept the underhook temporarily and use your superior top position weight to make it ineffective by flattening their body before they can use it to create a scramble.",
+        "answer_line": "Whizzer, flatten with weight",
+        "distractors": {
+          "plausible": [
+            "Whizzer only, skip forward drive",
+            "Heavy crossface, skip whizzer"
+          ],
+          "trap": [
+            "Pull their arm out to escape"
+          ]
+        }
       },
       {
         "question": "What determines the optimal direction to extract the weaved leg during pass completion?",
-        "answer": "The extraction direction is determined by the opponent's hook positioning and their defensive frame orientation. If their hook is loose and low on your leg, a direct windshield wiper extraction outward works best. If the hook is tight and high, a knee slice angle that cuts the shin across their thigh is more effective. If they are framing heavily against forward pressure, a backstep extraction reverses direction entirely. Read where their defensive investment is concentrated and extract in the direction they are least prepared to defend."
+        "answer": "The extraction direction is determined by the opponent's hook positioning and their defensive frame orientation. If their hook is loose and low on your leg, a direct windshield wiper extraction outward works best. If the hook is tight and high, a knee slice angle that cuts the shin across their thigh is more effective. If they are framing heavily against forward pressure, a backstep extraction reverses direction entirely. Read where their defensive investment is concentrated and extract in the direction they are least prepared to defend.",
+        "answer_line": "Read hook tightness and frame",
+        "distractors": {
+          "plausible": [
+            "Always windshield wiper out",
+            "Always knee slice regardless"
+          ],
+          "trap": [
+            "Extract toward their strong frame"
+          ]
+        }
       },
       {
         "question": "The bottom player bridges explosively during your leg extraction - what is the correct response?",
-        "answer": "Lower your center of gravity immediately by dropping your hips and widening your base with your posting leg. Absorb the bridge rather than fighting it—let their energy dissipate against your settled weight. Critically, do not abandon the extraction to re-settle. Instead, pause the extraction, absorb the bridge, and resume the moment their hips return to the mat. The window immediately after a failed bridge is the optimal extraction timing because the defender has spent energy and needs a recovery moment before generating another explosive movement."
+        "answer": "Lower your center of gravity immediately by dropping your hips and widening your base with your posting leg. Absorb the bridge rather than fighting it—let their energy dissipate against your settled weight. Critically, do not abandon the extraction to re-settle. Instead, pause the extraction, absorb the bridge, and resume the moment their hips return to the mat. The window immediately after a failed bridge is the optimal extraction timing because the defender has spent energy and needs a recovery moment before generating another explosive movement.",
+        "answer_line": "Lower base, absorb, resume after",
+        "distractors": {
+          "plausible": [
+            "Abandon extraction, re-settle fully",
+            "Match bridge with equal force"
+          ],
+          "trap": [
+            "Fight the bridge with upper force"
+          ]
+        }
       },
       {
         "question": "How should you adjust your passing approach when the defender consistently recovers half guard during your extraction attempts?",
-        "answer": "Consistent half guard recovery indicates either insufficient upper body pressure during extraction or predictable extraction timing. First, spend more time consolidating upper body control before attempting extraction—the opponent should feel maximum discomfort and have minimal frame effectiveness. Second, vary your extraction timing and method between windshield wiper, knee slice, and backstep finishes so the defender cannot anticipate your movement pattern. Third, consider whether you need to break their frames more thoroughly before beginning extraction rather than trying to extract through active frames."
+        "answer": "Consistent half guard recovery indicates either insufficient upper body pressure during extraction or predictable extraction timing. First, spend more time consolidating upper body control before attempting extraction—the opponent should feel maximum discomfort and have minimal frame effectiveness. Second, vary your extraction timing and method between windshield wiper, knee slice, and backstep finishes so the defender cannot anticipate your movement pattern. Third, consider whether you need to break their frames more thoroughly before beginning extraction rather than trying to extract through active frames.",
+        "answer_line": "More control before extracting",
+        "distractors": {
+          "plausible": [
+            "Extract faster to beat recovery",
+            "Always use windshield wiper only"
+          ],
+          "trap": [
+            "Skip upper body control, rush leg"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Complete Leg Weave Pass involves significant pressure on the bottom player's hips and lower back through the threading mechanics. Avoid explosive cranking of the weaved leg through the guard, as this can strain the bottom player's knee or hip joints. When drilling, communicate pressure levels and allow your partner to tap to excessive pressure on their legs. Release immediately if your partner signals discomfort in their knee, hip, or lower back. During live sparring, be mindful that the combination of heavy crossface pressure and leg extraction force can compress the cervical spine if the opponent's head is trapped at an angle.",
@@ -398,23 +478,73 @@
     "flashcards": [
       {
         "question": "You feel the passer's chest weight increasing while their hip pressure decreases - what does this signal and how should you respond?",
-        "answer": "This weight transfer signals the passer is building their upper body anchor and preparing to extract their weaved leg. This is your best counter-attack window because their hips are momentarily lighter. Respond immediately by either diving for deep half guard entry underneath their elevated hips, or explosively hip escaping to re-insert your knee shield. Waiting even two seconds allows them to complete the weight transfer and begin extraction, after which your success rate drops significantly."
+        "answer": "This weight transfer signals the passer is building their upper body anchor and preparing to extract their weaved leg. This is your best counter-attack window because their hips are momentarily lighter. Respond immediately by either diving for deep half guard entry underneath their elevated hips, or explosively hip escaping to re-insert your knee shield. Waiting even two seconds allows them to complete the weight transfer and begin extraction, after which your success rate drops significantly.",
+        "answer_line": "Attack now: deep half or shrimp",
+        "distractors": {
+          "plausible": [
+            "Wait for full extraction first",
+            "Bridge explosively immediately"
+          ],
+          "trap": [
+            "Stay still to conserve energy"
+          ]
+        }
       },
       {
         "question": "What is the most important frame to maintain during the leg weave pass completion and why?",
-        "answer": "The forearm frame against the passer's crossface shoulder is the most critical because it prevents them from establishing the upper body anchor that enables extraction. Without this frame, the passer's shoulder drives into your jaw, turns your head away, and pins your upper body to the mat. This single frame disrupts their entire extraction setup because they cannot stabilize their upper body while your frame creates a wedge preventing shoulder settlement. Losing this frame essentially concedes the pass."
+        "answer": "The forearm frame against the passer's crossface shoulder is the most critical because it prevents them from establishing the upper body anchor that enables extraction. Without this frame, the passer's shoulder drives into your jaw, turns your head away, and pins your upper body to the mat. This single frame disrupts their entire extraction setup because they cannot stabilize their upper body while your frame creates a wedge preventing shoulder settlement. Losing this frame essentially concedes the pass.",
+        "answer_line": "Forearm frame vs crossface",
+        "distractors": {
+          "plausible": [
+            "Frame on far hip",
+            "Frame against near knee"
+          ],
+          "trap": [
+            "Turn your head into the pressure"
+          ]
+        }
       },
       {
         "question": "The passer has cleared one hook but hasn't established side control yet - what is your best defensive option in this narrow window?",
-        "answer": "This is the final defensive window and requires immediate action. Your best option is to turn toward the passer and fight for an underhook before they establish perpendicular alignment. As they transition from extraction to consolidation, there is a brief moment where their crossface is adjusting and their hips are not yet settled. Use this window to come up on your inside elbow, secure the underhook, and fight to your knees for a dogfight scramble. If you remain flat on your back during this window, side control is inevitable."
+        "answer": "This is the final defensive window and requires immediate action. Your best option is to turn toward the passer and fight for an underhook before they establish perpendicular alignment. As they transition from extraction to consolidation, there is a brief moment where their crossface is adjusting and their hips are not yet settled. Use this window to come up on your inside elbow, secure the underhook, and fight to your knees for a dogfight scramble. If you remain flat on your back during this window, side control is inevitable.",
+        "answer_line": "Turn in, fight underhook, knees",
+        "distractors": {
+          "plausible": [
+            "Stay flat and frame with arms",
+            "Push away and stiff-arm hips"
+          ],
+          "trap": [
+            "Remain flat, brace with frames"
+          ]
+        }
       },
       {
         "question": "How do you decide between attempting knee shield recovery versus diving for deep half guard?",
-        "answer": "The decision depends on the passer's weight distribution and your body position. If the passer's weight is concentrated forward and their hips are elevated, deep half guard entry is available because you can shoot underneath their base. If the passer's weight is more balanced and their hips are low, deep half entry is blocked but there may be space to hip escape and insert your knee for a shield. Generally, deep half is the higher-risk, higher-reward option while knee shield recovery is the conservative choice. Choose deep half when you feel clear space under their hips, and choose knee shield when your hip mobility allows lateral escape."
+        "answer": "The decision depends on the passer's weight distribution and your body position. If the passer's weight is concentrated forward and their hips are elevated, deep half guard entry is available because you can shoot underneath their base. If the passer's weight is more balanced and their hips are low, deep half entry is blocked but there may be space to hip escape and insert your knee for a shield. Generally, deep half is the higher-risk, higher-reward option while knee shield recovery is the conservative choice. Choose deep half when you feel clear space under their hips, and choose knee shield when your hip mobility allows lateral escape.",
+        "answer_line": "Deep half if hips elevated",
+        "distractors": {
+          "plausible": [
+            "Always choose deep half",
+            "Knee shield only if weight forward"
+          ],
+          "trap": [
+            "Deep half against low stable base"
+          ]
+        }
       },
       {
         "question": "Your bridge is repeatedly absorbed by the passer without disrupting their extraction - how do you adjust your defensive strategy?",
-        "answer": "If bridges are being absorbed, the passer has likely established a wide, stable base and low center of gravity. Bridging against this base wastes energy. Switch to frame-based defense: establish forearm frames against their shoulder and hip, then use hip escapes in the direction away from their crossface pressure. Alternatively, if their base is wide laterally, attack the underhook side since their wide posting leg creates space on that side. The key insight is recognizing when explosive defense is being absorbed and transitioning to technical frame-based defense that exploits specific gaps in their base."
+        "answer": "If bridges are being absorbed, the passer has likely established a wide, stable base and low center of gravity. Bridging against this base wastes energy. Switch to frame-based defense: establish forearm frames against their shoulder and hip, then use hip escapes in the direction away from their crossface pressure. Alternatively, if their base is wide laterally, attack the underhook side since their wide posting leg creates space on that side. The key insight is recognizing when explosive defense is being absorbed and transitioning to technical frame-based defense that exploits specific gaps in their base.",
+        "answer_line": "Switch to frame-based defense",
+        "distractors": {
+          "plausible": [
+            "Bridge harder to break base",
+            "Wait passively for opponent error"
+          ],
+          "trap": [
+            "Keep bridging explosively"
+          ]
+        }
       }
     ],
     "training_progressions": [

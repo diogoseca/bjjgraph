@@ -246,7 +246,17 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Body Lock to Standing transition?",
-        "answer": "The optimal timing window occurs when your opponent's weight is shifted forward into your chest pressure or when they are committed to defending a specific threat like a mat return. This forward commitment makes it harder for them to follow your backward separation. Additionally, initiating when your opponent has just defended your last attack creates a recovery gap where they are least prepared to counter. Avoid initiating when they are actively loading for their own counter-attack or when their weight is settled in a strong defensive base."
+        "answer": "The optimal timing window occurs when your opponent's weight is shifted forward into your chest pressure or when they are committed to defending a specific threat like a mat return. This forward commitment makes it harder for them to follow your backward separation. Additionally, initiating when your opponent has just defended your last attack creates a recovery gap where they are least prepared to counter. Avoid initiating when they are actively loading for their own counter-attack or when their weight is settled in a strong defensive base.",
+        "answer_line": "Forward pressure or just defended",
+        "distractors": {
+          "plausible": [
+            "Opponent settled in strong base",
+            "Right after you defend an attack"
+          ],
+          "trap": [
+            "While they load their own attack"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt to disengage from body lock to standing?",
@@ -262,7 +272,17 @@
       },
       {
         "question": "What grip configuration provides the best structural frame for the push-off separation phase?",
-        "answer": "Open palms placed directly on the opponent's hip bones with fingers pointing downward or outward provide the most effective push-off frame. The hip bones offer hard skeletal contact points that prevent your hands from sliding off under force. Lock your elbows to create rigid structural beams from your shoulders through your arms to their hips. This configuration transfers force from your legs through your locked arms directly into their center of mass for maximum separation. Avoid pushing on soft tissue areas like the stomach as your hands will compress rather than generating clean separation force."
+        "answer": "Open palms placed directly on the opponent's hip bones with fingers pointing downward or outward provide the most effective push-off frame. The hip bones offer hard skeletal contact points that prevent your hands from sliding off under force. Lock your elbows to create rigid structural beams from your shoulders through your arms to their hips. This configuration transfers force from your legs through your locked arms directly into their center of mass for maximum separation. Avoid pushing on soft tissue areas like the stomach as your hands will compress rather than generating clean separation force.",
+        "answer_line": "Palms on hips, elbows locked",
+        "distractors": {
+          "plausible": [
+            "Grab the belt for a stronger pull",
+            "Push from shoulders, not the hips"
+          ],
+          "trap": [
+            "Push on the stomach for leverage"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a double leg the moment you begin releasing your body lock grip - what went wrong and how do you correct it?",
@@ -392,19 +412,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to release their body lock?",
-        "answer": "The earliest cues are subtle changes in grip tension and chest pressure. You will feel the locked grip behind your back begin to loosen or the fingers start to separate before the hands actually unlock. Simultaneously, the chest pressure against your back decreases slightly as the opponent shifts weight backward in preparation for push-off. The opponent's head may also lift away from your shoulder. These cues provide a half-second to full-second warning before the actual separation begins, which is the critical window for initiating counter-attacks."
+        "answer": "The earliest cues are subtle changes in grip tension and chest pressure. You will feel the locked grip behind your back begin to loosen or the fingers start to separate before the hands actually unlock. Simultaneously, the chest pressure against your back decreases slightly as the opponent shifts weight backward in preparation for push-off. The opponent's head may also lift away from your shoulder. These cues provide a half-second to full-second warning before the actual separation begins, which is the critical window for initiating counter-attacks.",
+        "answer_line": "Grip loosens, chest pressure drops",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive push backward",
+            "Opponent's grip tightens first"
+          ],
+          "trap": [
+            "Opponent digs in for a mat return"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition phase the most vulnerable moment for the person disengaging from body lock?",
-        "answer": "During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window."
+        "answer": "During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window.",
+        "answer_line": "No grip, no frame, no distance yet",
+        "distractors": {
+          "plausible": [
+            "Because hands are already fully open",
+            "Weight shifts forward, not back"
+          ],
+          "trap": [
+            "Because you're pulling them in tight"
+          ]
+        }
       },
       {
         "question": "When should you choose to shoot a takedown versus pull guard versus accept the reset during a body lock disengagement?",
-        "answer": "Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture."
+        "answer": "Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture.",
+        "answer_line": "Shoot on their backward weight shift",
+        "distractors": {
+          "plausible": [
+            "Always pull guard on disengage",
+            "Always accept the reset passively"
+          ],
+          "trap": [
+            "Chase with a blind leg attack"
+          ]
+        }
       },
       {
         "question": "How do you train to develop automatic counter-attack responses to body lock disengagement attempts?",
-        "answer": "Develop automatic responses through progressive drilling at increasing speeds. Begin with your partner slowly demonstrating the disengagement while you practice identifying the grip transition cues and executing your preferred counter at low speed. Progress to medium speed where timing becomes critical for success. Finally, practice at full speed with the partner randomly choosing between completing the disengage, faking the disengage and re-attacking, or switching to a different technique entirely. The randomization forces genuine pattern recognition development and prevents anticipated responses."
+        "answer": "Develop automatic responses through progressive drilling at increasing speeds. Begin with your partner slowly demonstrating the disengagement while you practice identifying the grip transition cues and executing your preferred counter at low speed. Progress to medium speed where timing becomes critical for success. Finally, practice at full speed with the partner randomly choosing between completing the disengage, faking the disengage and re-attacking, or switching to a different technique entirely. The randomization forces genuine pattern recognition development and prevents anticipated responses.",
+        "answer_line": "Drill slow to fast, then randomize",
+        "distractors": {
+          "plausible": [
+            "Drill only at full speed always",
+            "Memorize one fixed response"
+          ],
+          "trap": [
+            "Spar live without isolating the rep"
+          ]
+        }
       }
     ],
     "training_progressions": [

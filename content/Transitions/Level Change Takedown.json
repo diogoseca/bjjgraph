@@ -257,35 +257,115 @@
     "flashcards": [
       {
         "question": "What is the most critical mechanical difference between a proper level change and an incorrect one?",
-        "answer": "A proper level change drops the hips by bending deeply at the knees while maintaining an upright torso and straight back. An incorrect level change bends at the waist, which raises the hips relative to the shoulders, exposes the neck to guillotines, and eliminates forward driving power. The knee bend creates a coiled position where leg drive generates explosive force through the opponent's center of gravity, while waist bending dissipates that force downward into the mat."
+        "answer": "A proper level change drops the hips by bending deeply at the knees while maintaining an upright torso and straight back. An incorrect level change bends at the waist, which raises the hips relative to the shoulders, exposes the neck to guillotines, and eliminates forward driving power. The knee bend creates a coiled position where leg drive generates explosive force through the opponent's center of gravity, while waist bending dissipates that force downward into the mat.",
+        "answer_line": "Bend knees, keep torso upright",
+        "distractors": {
+          "plausible": [
+            "Bend waist for extra reach",
+            "Round the back for speed"
+          ],
+          "trap": [
+            "Bend at waist, hips high"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls and drops their hips back as you shoot - how do you adjust your attack?",
-        "answer": "Immediately redirect from the double leg to a single leg by capturing the nearest leg and circling toward that side. Use your head position to block their hip from fully sprawling back, and drive your shoulder into their thigh to prevent them from resettling their base. If the single leg stalls, transition to an ankle pick on the far leg or return to the double by pulling them forward off their sprawl base. The key is maintaining forward pressure and switching attacks rather than stalling."
+        "answer": "Immediately redirect from the double leg to a single leg by capturing the nearest leg and circling toward that side. Use your head position to block their hip from fully sprawling back, and drive your shoulder into their thigh to prevent them from resettling their base. If the single leg stalls, transition to an ankle pick on the far leg or return to the double by pulling them forward off their sprawl base. The key is maintaining forward pressure and switching attacks rather than stalling.",
+        "answer_line": "Switch to single leg, circle",
+        "distractors": {
+          "plausible": [
+            "Keep driving double, no change",
+            "Pull opponent forward instead"
+          ],
+          "trap": [
+            "Let go and reset distance"
+          ]
+        }
       },
       {
         "question": "Why must setups precede the level change rather than shooting from a static position?",
-        "answer": "Shooting without setup gives an alert opponent roughly 300 milliseconds to recognize the shot and react with a sprawl, making defense far easier than the attack. Setups like collar ties, snap downs, and feints create defensive reactions that momentarily occupy the opponent's attention and disrupt their base positioning. This disruption creates a timing window where the shot arrives before the opponent can mount an effective defensive response, dramatically increasing the takedown's success rate."
+        "answer": "Shooting without setup gives an alert opponent roughly 300 milliseconds to recognize the shot and react with a sprawl, making defense far easier than the attack. Setups like collar ties, snap downs, and feints create defensive reactions that momentarily occupy the opponent's attention and disrupt their base positioning. This disruption creates a timing window where the shot arrives before the opponent can mount an effective defensive response, dramatically increasing the takedown's success rate.",
+        "answer_line": "Setups create reaction window",
+        "distractors": {
+          "plausible": [
+            "Feints alone finish takedown",
+            "Setups just fatigue opponent"
+          ],
+          "trap": [
+            "Shoot without setup, static"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the highest percentage finish after completing the penetration step on a double leg?",
-        "answer": "Locking your hands behind both knees in a gable grip while your chest is pressed against their thighs provides the strongest finishing position. Your head should be on the inside of their hip with your ear pressed against their body. From this position, drive forward and turn the corner by stepping your outside foot behind their near leg, creating a trip that takes them directly to their back and allows immediate transition past their legs to side control."
+        "answer": "Locking your hands behind both knees in a gable grip while your chest is pressed against their thighs provides the strongest finishing position. Your head should be on the inside of their hip with your ear pressed against their body. From this position, drive forward and turn the corner by stepping your outside foot behind their near leg, creating a trip that takes them directly to their back and allows immediate transition past their legs to side control.",
+        "answer_line": "Gable grip behind both knees",
+        "distractors": {
+          "plausible": [
+            "Grip behind the ankles",
+            "Grip around the waist"
+          ],
+          "trap": [
+            "Head outside their hip"
+          ]
+        }
       },
       {
         "question": "During your shot entry, your opponent begins wrapping a guillotine around your neck - what determines whether you continue or abort?",
-        "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard."
+        "answer": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard.",
+        "answer_line": "Head inside hip: drive through",
+        "distractors": {
+          "plausible": [
+            "Always abort if guillotine locks",
+            "Continue no matter head position"
+          ],
+          "trap": [
+            "Stay and fight the choke"
+          ]
+        }
       },
       {
         "question": "What is the optimal distance from your opponent to initiate the penetration step?",
-        "answer": "The optimal shooting distance is approximately arm's length, where your extended hand can touch your opponent's shoulder. This distance allows the penetration step to cover the gap in a single explosive motion while being far enough that the opponent cannot easily react with a crossface or knee block. Closer than this requires a shortened entry that is easier to stuff, while farther requires covering too much distance which telegraphs the attack and allows defensive preparation."
+        "answer": "The optimal shooting distance is approximately arm's length, where your extended hand can touch your opponent's shoulder. This distance allows the penetration step to cover the gap in a single explosive motion while being far enough that the opponent cannot easily react with a crossface or knee block. Closer than this requires a shortened entry that is easier to stuff, while farther requires covering too much distance which telegraphs the attack and allows defensive preparation.",
+        "answer_line": "Arm's length, touch shoulder",
+        "distractors": {
+          "plausible": [
+            "Close distance, chest to chest",
+            "Far distance to hide the shot"
+          ],
+          "trap": [
+            "Shoot from bear hug range"
+          ]
+        }
       },
       {
         "question": "How does the level change takedown integrate with guard pulling strategies in competition?",
-        "answer": "The level change takedown and guard pull create a complementary threat matrix from standing. When an opponent respects the takedown threat by maintaining defensive posture and sprawl readiness, their weight shifts backward, creating ideal conditions for a guard pull that exploits their rearward lean. Conversely, opponents who sit back defensively to prevent guard pulls present forward-leaning posture that is ideal for level change entries. Alternating between these threats prevents the opponent from committing fully to either defensive strategy."
+        "answer": "The level change takedown and guard pull create a complementary threat matrix from standing. When an opponent respects the takedown threat by maintaining defensive posture and sprawl readiness, their weight shifts backward, creating ideal conditions for a guard pull that exploits their rearward lean. Conversely, opponents who sit back defensively to prevent guard pulls present forward-leaning posture that is ideal for level change entries. Alternating between these threats prevents the opponent from committing fully to either defensive strategy.",
+        "answer_line": "Alternate threats, read weight",
+        "distractors": {
+          "plausible": [
+            "Always shoot never guard pull",
+            "Guard pull only, skip shots"
+          ],
+          "trap": [
+            "Commit fully to one threat"
+          ]
+        }
       },
       {
         "question": "Your penetration step lands but your opponent begins pushing your head down toward the mat - what adjustment prevents the defense from working?",
-        "answer": "Circle your head to the opposite hip rather than fighting the downward pressure directly. If they push your head down on the right side, swim your head to the left side of their body while maintaining your grip on their legs. This head switch removes their leverage point and often creates an opening for an inside trip finish. Keep constant forward pressure throughout the head switch to prevent them from creating distance or resettling their defensive base."
+        "answer": "Circle your head to the opposite hip rather than fighting the downward pressure directly. If they push your head down on the right side, swim your head to the left side of their body while maintaining your grip on their legs. This head switch removes their leverage point and often creates an opening for an inside trip finish. Keep constant forward pressure throughout the head switch to prevent them from creating distance or resettling their defensive base.",
+        "answer_line": "Switch head to opposite hip",
+        "distractors": {
+          "plausible": [
+            "Push back against the pressure",
+            "Drop grip and reset stance"
+          ],
+          "trap": [
+            "Force head straight through"
+          ]
+        }
       }
     ],
     "safety_considerations": "Protect your knees during the penetration step by landing on the ball of your lead foot rather than slamming your kneecap directly into the mat. Wear knee pads during heavy takedown drilling sessions. Be aware of neck strain from sprawl defense contact - if your neck is compressed during a failed shot, tap and reset rather than fighting through a dangerous cervical position. When finishing takedowns in training, control your opponent's descent to prevent them from landing on their head or neck. Never slam or lift and drop opponents, which risks serious spinal injuries. During live drilling, ensure adequate mat space to prevent collisions with walls or other training pairs.",
@@ -403,19 +483,59 @@
     "flashcards": [
       {
         "question": "What is the earliest visual cue that indicates your opponent is about to shoot a level change takedown?",
-        "answer": "The earliest cue is the opponent's hips beginning to drop as their knees bend, often accompanied by a slight forward lean and their eyes dropping toward your lower body. This occurs fractions of a second before the penetration step begins and represents the optimal timing window for initiating your sprawl defense. The hip drop changes their silhouette noticeably and should trigger an automatic defensive reaction through trained pattern recognition."
+        "answer": "The earliest cue is the opponent's hips beginning to drop as their knees bend, often accompanied by a slight forward lean and their eyes dropping toward your lower body. This occurs fractions of a second before the penetration step begins and represents the optimal timing window for initiating your sprawl defense. The hip drop changes their silhouette noticeably and should trigger an automatic defensive reaction through trained pattern recognition.",
+        "answer_line": "Hips drop, knees bend early",
+        "distractors": {
+          "plausible": [
+            "Hands reach for the collar",
+            "Opponent steps back first"
+          ],
+          "trap": [
+            "Wait for hands on legs"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a double leg and has both hands secured behind your knees - what is your defensive priority?",
-        "answer": "At this stage, sprawling alone may be insufficient since they already have leg control. Your priority shifts to getting your hips away from their driving force while establishing a whizzer overhook on their near arm and crossfacing with your other hand. Drive your hip into their shoulder to reduce their forward drive, then work to circle your hips away from their head side while fighting to peel their gripping hands off your legs one at a time."
+        "answer": "At this stage, sprawling alone may be insufficient since they already have leg control. Your priority shifts to getting your hips away from their driving force while establishing a whizzer overhook on their near arm and crossfacing with your other hand. Drive your hip into their shoulder to reduce their forward drive, then work to circle your hips away from their head side while fighting to peel their gripping hands off your legs one at a time.",
+        "answer_line": "Whizzer, crossface, hips away",
+        "distractors": {
+          "plausible": [
+            "Sprawl harder, drop weight",
+            "Pull knees back immediately"
+          ],
+          "trap": [
+            "Grab a guillotine instantly"
+          ]
+        }
       },
       {
         "question": "How do you adjust your standing posture to make level change takedowns more difficult for your opponent?",
-        "answer": "Maintain a slightly lower athletic stance with knees bent and weight distributed toward the balls of your feet. Keep your hips back slightly so your center of gravity sits behind your front foot rather than directly over it. Maintain active hand fighting to deny clean gripping and entry angles. Use circular footwork to prevent the attacker from establishing a direct line to your legs. This combination of posture, distance, and movement forces attackers to shoot from poor angles and longer distances."
+        "answer": "Maintain a slightly lower athletic stance with knees bent and weight distributed toward the balls of your feet. Keep your hips back slightly so your center of gravity sits behind your front foot rather than directly over it. Maintain active hand fighting to deny clean gripping and entry angles. Use circular footwork to prevent the attacker from establishing a direct line to your legs. This combination of posture, distance, and movement forces attackers to shoot from poor angles and longer distances.",
+        "answer_line": "Low stance, hips back, hand fight",
+        "distractors": {
+          "plausible": [
+            "Stand tall, wide base only",
+            "Square hips, feet planted"
+          ],
+          "trap": [
+            "Lean forward, weight on toes"
+          ]
+        }
       },
       {
         "question": "After successfully sprawling on your opponent's shot, what offensive option provides the highest positional return?",
-        "answer": "The front headlock position offers the highest offensive return after a successful sprawl. As you drive your weight onto their upper back, circle toward their head to establish a front headlock with one arm around their neck and the other controlling their near arm. From this position, you can attack with snap downs to turtle them, set up guillotines or anaconda chokes, or use the head control to spin behind for a back take. The key is transitioning immediately from defense to offense rather than passively returning to neutral."
+        "answer": "The front headlock position offers the highest offensive return after a successful sprawl. As you drive your weight onto their upper back, circle toward their head to establish a front headlock with one arm around their neck and the other controlling their near arm. From this position, you can attack with snap downs to turtle them, set up guillotines or anaconda chokes, or use the head control to spin behind for a back take. The key is transitioning immediately from defense to offense rather than passively returning to neutral.",
+        "answer_line": "Front headlock, attack neck",
+        "distractors": {
+          "plausible": [
+            "Return to neutral stance",
+            "Push away and reset feet"
+          ],
+          "trap": [
+            "Release and back off entirely"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -250,11 +250,31 @@
       },
       {
         "question": "Why is hip angle toward the overhook side critical for the sweep's success?",
-        "answer": "The hip angle directs the sweeping force toward the opponent's structurally compromised side — the side where their arm is trapped by the overhook and cannot post. Sweeping centrally or toward the free-arm side allows the opponent to post with their free hand and resist the rotation. The overhook creates an asymmetric base weakness that must be targeted directionally for the sweep to overcome the opponent's remaining posting ability."
+        "answer": "The hip angle directs the sweeping force toward the opponent's structurally compromised side — the side where their arm is trapped by the overhook and cannot post. Sweeping centrally or toward the free-arm side allows the opponent to post with their free hand and resist the rotation. The overhook creates an asymmetric base weakness that must be targeted directionally for the sweep to overcome the opponent's remaining posting ability.",
+        "answer_line": "Targets the side with no post",
+        "distractors": {
+          "plausible": [
+            "Centers weight for a bigger sit-up",
+            "Angles toward the free-arm side"
+          ],
+          "trap": [
+            "Square hips for max sit-up power"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical failure when executing this sweep?",
-        "answer": "Releasing the overhook during the sit-up motion to reach for the mat or grab the opponent's leg. This immediately frees the opponent's trapped arm, allowing them to post and prevent the rotation. The overhook must be maintained throughout the entire sweep because the structural posting restriction is what makes the technique work. Base and power come from the planted far foot, not from posting the hand on the mat."
+        "answer": "Releasing the overhook during the sit-up motion to reach for the mat or grab the opponent's leg. This immediately frees the opponent's trapped arm, allowing them to post and prevent the rotation. The overhook must be maintained throughout the entire sweep because the structural posting restriction is what makes the technique work. Base and power come from the planted far foot, not from posting the hand on the mat.",
+        "answer_line": "Releasing overhook to post on mat",
+        "distractors": {
+          "plausible": [
+            "Releasing head control too early",
+            "Sitting up too slowly"
+          ],
+          "trap": [
+            "Grab the far leg for extra torque"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are needed during the transition from sweep completion to mount establishment?",
@@ -262,11 +282,31 @@
       },
       {
         "question": "In which direction should the primary force of the sweep be applied?",
-        "answer": "The force should drive diagonally forward and toward the overhook side at approximately 45 degrees. The sit-up provides upward and forward force while the hip angle directs it toward the side where the opponent's posting ability is eliminated. The overhook and head control add a pulling component that converts linear sit-up force into rotational momentum around the opponent's compromised base point."
+        "answer": "The force should drive diagonally forward and toward the overhook side at approximately 45 degrees. The sit-up provides upward and forward force while the hip angle directs it toward the side where the opponent's posting ability is eliminated. The overhook and head control add a pulling component that converts linear sit-up force into rotational momentum around the opponent's compromised base point.",
+        "answer_line": "Diagonal, ~45° toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Straight upward off the back",
+            "Straight forward, square to opponent"
+          ],
+          "trap": [
+            "Push force away from overhook side"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand wide to stop the sweep rotation — how do you adjust?",
-        "answer": "Recognize that their posting arm is now extended and committed, meaning their only free limb is occupied with base rather than defense. Switch immediately to a triangle entry by releasing head control and shooting your legs up to the triangle position, or attack the posted arm with a kimura since it is isolated and extended. The posted arm creates its own vulnerability that can be exploited through chain attacks."
+        "answer": "Recognize that their posting arm is now extended and committed, meaning their only free limb is occupied with base rather than defense. Switch immediately to a triangle entry by releasing head control and shooting your legs up to the triangle position, or attack the posted arm with a kimura since it is isolated and extended. The posted arm creates its own vulnerability that can be exploited through chain attacks.",
+        "answer_line": "Attack triangle or kimura the post",
+        "distractors": {
+          "plausible": [
+            "Push harder into original sweep",
+            "Release overhook to reset guard"
+          ],
+          "trap": [
+            "Grab their posted hand and pull"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked and you cannot complete the rotation, what chain attacks are available?",
@@ -387,7 +427,17 @@
       },
       {
         "question": "How should you distribute your weight to prevent the sweep without opening submission opportunities?",
-        "answer": "Keep center of gravity low and slightly posterior, sitting on heels with hips back rather than driving forward into the diamond frame. This denies the forward weight distribution the sweep requires while maintaining sufficient base to prevent submission entries. Avoid fully extending backward as this opens space within the diamond frame and may create triangle or omoplata opportunities from the guard player."
+        "answer": "Keep center of gravity low and slightly posterior, sitting on heels with hips back rather than driving forward into the diamond frame. This denies the forward weight distribution the sweep requires while maintaining sufficient base to prevent submission entries. Avoid fully extending backward as this opens space within the diamond frame and may create triangle or omoplata opportunities from the guard player.",
+        "answer_line": "Low, posterior weight, heels down",
+        "distractors": {
+          "plausible": [
+            "Drive weight forward into frame",
+            "Lean fully back for max distance"
+          ],
+          "trap": [
+            "Extend backward to flatten hips"
+          ]
+        }
       },
       {
         "question": "What defensive priority hierarchy should you follow when the sweep is actively being initiated?",

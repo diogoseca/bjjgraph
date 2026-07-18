@@ -242,43 +242,143 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the arm extraction phase of this pass?",
-        "answer": "The optimal moment is after posture has been partially recovered and the opponent's shin grip has been significantly weakened or broken. You should feel your spine approaching a 45-degree angle or greater from the mat, and your base must be wide and stable. Attempting extraction before this point almost always fails because the shin leverage across your back keeps the arm pinned in the overhook. Wait for the moment when you feel the downward pressure from the shin release before committing to the corkscrew extraction."
+        "answer": "The optimal moment is after posture has been partially recovered and the opponent's shin grip has been significantly weakened or broken. You should feel your spine approaching a 45-degree angle or greater from the mat, and your base must be wide and stable. Attempting extraction before this point almost always fails because the shin leverage across your back keeps the arm pinned in the overhook. Wait for the moment when you feel the downward pressure from the shin release before committing to the corkscrew extraction.",
+        "answer_line": "Once shin grip breaks, posture ~45°",
+        "distractors": {
+          "plausible": [
+            "Right after knee-through completes",
+            "As soon as overhook is secured"
+          ],
+          "trap": [
+            "Pull arm before posture recovers"
+          ]
+        }
       },
       {
         "question": "What base configuration must exist before you attempt posture recovery?",
-        "answer": "Your knees must be spread wide apart creating a stable triangular base with your toes curled under for traction. Weight should be distributed evenly across both knees rather than concentrated on the trapped arm side where your base is naturally weaker. Your free hand should be posted or actively grip-fighting while your core is fully engaged. This wide base provides the platform needed to resist hip bumps and sweep attempts that the bottom player will inevitably attempt when they feel you beginning to recover posture."
+        "answer": "Your knees must be spread wide apart creating a stable triangular base with your toes curled under for traction. Weight should be distributed evenly across both knees rather than concentrated on the trapped arm side where your base is naturally weaker. Your free hand should be posted or actively grip-fighting while your core is fully engaged. This wide base provides the platform needed to resist hip bumps and sweep attempts that the bottom player will inevitably attempt when they feel you beginning to recover posture.",
+        "answer_line": "Wide knees, weight even, toes curled",
+        "distractors": {
+          "plausible": [
+            "Weight loaded on trapped-arm side",
+            "Knees narrow for tighter base"
+          ],
+          "trap": [
+            "Free hand postured for stack pass"
+          ]
+        }
       },
       {
         "question": "How should you extract the trapped arm from the overhook?",
-        "answer": "Use a corkscrew motion by circling your elbow downward toward your hip rather than pulling straight backward against the overhook. This rotational extraction attacks the weakest angle of the overhook grip where the opponent has minimal resistance. As you rotate, keep your elbow tight to your body and maintain forward chest pressure to prevent the bottom player from following your arm movement. The corkscrew should feel like you are trying to touch your elbow to your opposite hip pocket while your shoulder drives forward."
+        "answer": "Use a corkscrew motion by circling your elbow downward toward your hip rather than pulling straight backward against the overhook. This rotational extraction attacks the weakest angle of the overhook grip where the opponent has minimal resistance. As you rotate, keep your elbow tight to your body and maintain forward chest pressure to prevent the bottom player from following your arm movement. The corkscrew should feel like you are trying to touch your elbow to your opposite hip pocket while your shoulder drives forward.",
+        "answer_line": "Corkscrew elbow down to your hip",
+        "distractors": {
+          "plausible": [
+            "Pull arm straight back forcefully",
+            "Rotate elbow up and away"
+          ],
+          "trap": [
+            "Yank arm straight back hard"
+          ]
+        }
       },
       {
         "question": "What happens if you attempt arm extraction before recovering adequate posture?",
-        "answer": "The shin across your back provides leverage that keeps the arm pinned in the overhook regardless of how hard you pull. Without sufficient posture recovery, the overhook operates at maximum mechanical advantage because your broken posture loads your arm weight directly into their control. Additionally, premature extraction attempts typically involve pulling backward, which shifts your weight and creates sweep opportunities. The bottom player may capitalize with a hip bump sweep or transition directly to a triangle as your arm partially exits."
+        "answer": "The shin across your back provides leverage that keeps the arm pinned in the overhook regardless of how hard you pull. Without sufficient posture recovery, the overhook operates at maximum mechanical advantage because your broken posture loads your arm weight directly into their control. Additionally, premature extraction attempts typically involve pulling backward, which shifts your weight and creates sweep opportunities. The bottom player may capitalize with a hip bump sweep or transition directly to a triangle as your arm partially exits.",
+        "answer_line": "Shin pins arm; risks sweep/triangle",
+        "distractors": {
+          "plausible": [
+            "Overhook slips off on its own",
+            "Only wastes a bit of energy"
+          ],
+          "trap": [
+            "Nothing, just keep pulling harder"
+          ]
+        }
       },
       {
         "question": "Which grip must you break first to begin the passing sequence?",
-        "answer": "The opponent's grip on their own shin is the primary target because it maintains the shin across your back that prevents posture recovery. Breaking this grip unlocks the entire passing sequence since without the shin control, their overhook becomes significantly less effective and your posture becomes recoverable. Attack the grip near the ankle where your leverage is greatest, using wrist insertion and levering motions rather than trying to pull their fingers open. The overhook itself becomes manageable once the shin is cleared."
+        "answer": "The opponent's grip on their own shin is the primary target because it maintains the shin across your back that prevents posture recovery. Breaking this grip unlocks the entire passing sequence since without the shin control, their overhook becomes significantly less effective and your posture becomes recoverable. Attack the grip near the ankle where your leverage is greatest, using wrist insertion and levering motions rather than trying to pull their fingers open. The overhook itself becomes manageable once the shin is cleared.",
+        "answer_line": "Their shin grip, near the ankle",
+        "distractors": {
+          "plausible": [
+            "The overhook grip on your arm",
+            "Their collar or lapel grip"
+          ],
+          "trap": [
+            "Pry their fingers open first"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your body when completing the knee-through phase?",
-        "answer": "Drive forward and slightly toward the crossface side at a diagonal angle. This direction accomplishes multiple objectives simultaneously: it prevents the bottom player from closing guard because your forward pressure flattens their hip movement, it creates the angle needed for your knee to clear the centerline, and it positions you to immediately establish crossface pressure upon reaching side control. Driving straight down or backward during this phase allows the bottom player time and space to recover guard."
+        "answer": "Drive forward and slightly toward the crossface side at a diagonal angle. This direction accomplishes multiple objectives simultaneously: it prevents the bottom player from closing guard because your forward pressure flattens their hip movement, it creates the angle needed for your knee to clear the centerline, and it positions you to immediately establish crossface pressure upon reaching side control. Driving straight down or backward during this phase allows the bottom player time and space to recover guard.",
+        "answer_line": "Forward, diagonal toward crossface",
+        "distractors": {
+          "plausible": [
+            "Straight down through center",
+            "Backward to create space"
+          ],
+          "trap": [
+            "Drive straight back, then reset"
+          ]
+        }
       },
       {
         "question": "Your opponent re-grips their shin during your posture recovery, pulling your posture back down—how do you respond?",
-        "answer": "Immediately re-engage your grip fighting on their shin-controlling hand rather than trying to muscle through the posture recovery against their re-established grip. Consider switching to the stack pass variation by driving your weight forward to compress their hips, which neutralizes the shin control by eliminating the hip flexibility they need to maintain it. If stacking is not available, return to your wide base and work the grip fight again patiently. Never try to maintain partial posture against a re-established shin grip as this burns energy without progress."
+        "answer": "Immediately re-engage your grip fighting on their shin-controlling hand rather than trying to muscle through the posture recovery against their re-established grip. Consider switching to the stack pass variation by driving your weight forward to compress their hips, which neutralizes the shin control by eliminating the hip flexibility they need to maintain it. If stacking is not available, return to your wide base and work the grip fight again patiently. Never try to maintain partial posture against a re-established shin grip as this burns energy without progress.",
+        "answer_line": "Re-grip fight or switch to stack",
+        "distractors": {
+          "plausible": [
+            "Muscle posture back up harder",
+            "Abandon pass, reset to standing"
+          ],
+          "trap": [
+            "Hold partial posture and grind"
+          ]
+        }
       },
       {
         "question": "If the direct pass attempt fails and you remain in New York, what alternative attacks can you chain?",
-        "answer": "Chain into a stack defense that compresses their hips to eliminate rubber guard effectiveness, then look for guard opening sequences to return to closed guard where you can restart your passing approach. You can also transition to the backstep pass variation if their leg control has loosened, or shift to posture recovery leading to a standard closed guard pass. Each failed attempt should weaken one of their control points, so subsequent attempts become progressively higher percentage. The key is never returning to a completely reset starting position."
+        "answer": "Chain into a stack defense that compresses their hips to eliminate rubber guard effectiveness, then look for guard opening sequences to return to closed guard where you can restart your passing approach. You can also transition to the backstep pass variation if their leg control has loosened, or shift to posture recovery leading to a standard closed guard pass. Each failed attempt should weaken one of their control points, so subsequent attempts become progressively higher percentage. The key is never returning to a completely reset starting position.",
+        "answer_line": "Stack, reopen guard, or backstep",
+        "distractors": {
+          "plausible": [
+            "Reset fully back to start",
+            "Repeat same extraction harder"
+          ],
+          "trap": [
+            "Yank free explosively and stand"
+          ]
+        }
       },
       {
         "question": "Why do explosive escape attempts fail more often than methodical approaches against New York control?",
-        "answer": "Explosive movements are predictable and create momentum that the bottom player can redirect for sweeps or use to advance to submissions. The interconnected nature of rubber guard control means that explosive movement against one control point typically reinforces another—pulling explosively against the overhook drives your posture further into the shin control. Additionally, explosive attempts deplete grip strength and energy significantly faster than methodical work, and the bottom player's structural control means they expend less energy maintaining position than you spend trying to escape explosively."
+        "answer": "Explosive movements are predictable and create momentum that the bottom player can redirect for sweeps or use to advance to submissions. The interconnected nature of rubber guard control means that explosive movement against one control point typically reinforces another—pulling explosively against the overhook drives your posture further into the shin control. Additionally, explosive attempts deplete grip strength and energy significantly faster than methodical work, and the bottom player's structural control means they expend less energy maintaining position than you spend trying to escape explosively.",
+        "answer_line": "Predictable, feeds their control",
+        "distractors": {
+          "plausible": [
+            "They're just too slow to work",
+            "They always break opponent grips"
+          ],
+          "trap": [
+            "Best plan, commit fully, explode"
+          ]
+        }
       },
       {
         "question": "How should you defend against the triangle threat during your arm extraction?",
-        "answer": "Keep your extracted elbow tight to your body pointing downward rather than flaring out as it exits the overhook. The triangle requires your arm to be positioned away from your body with the shoulder exposed. Simultaneously drive your weight forward to flatten the opponent's hips because triangles require hip elevation and angle to close effectively. If you feel the leg beginning to shoot over your shoulder, immediately stack forward and turn toward the choking leg to relieve pressure while your arm is still partially free and can be pulled to safety."
+        "answer": "Keep your extracted elbow tight to your body pointing downward rather than flaring out as it exits the overhook. The triangle requires your arm to be positioned away from your body with the shoulder exposed. Simultaneously drive your weight forward to flatten the opponent's hips because triangles require hip elevation and angle to close effectively. If you feel the leg beginning to shoot over your shoulder, immediately stack forward and turn toward the choking leg to relieve pressure while your arm is still partially free and can be pulled to safety.",
+        "answer_line": "Elbow tight down, flatten their hips",
+        "distractors": {
+          "plausible": [
+            "Flare elbow out for space",
+            "Pull arm straight up and back"
+          ],
+          "trap": [
+            "Let leg fly over, pull arm free"
+          ]
+        }
       }
     ],
     "safety_considerations": "This pass involves significant pressure on the opponent's neck and spine during the stacking variation, so monitor your partner's comfort and respond to verbal or tap signals immediately. The arm extraction phase creates torque on both your own shoulder and the opponent's arm-controlling structures, requiring controlled movement rather than violent jerking. Avoid cranking your neck to escape the shin across your back, as this can cause cervical strain. During training, communicate with your partner about pressure levels and progress methodically rather than explosively to prevent injuries to both practitioners.",
@@ -393,27 +493,87 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is initiating this pass?",
-        "answer": "The earliest cue is the top player significantly widening their base by spreading their knees apart. This base establishment precedes all other phases of the pass and signals their intent to build a stable platform for posture recovery. Recognizing this cue gives you the maximum time to proactively tighten your controls, deepen the overhook, and begin cycling offensive threats before they can progress to the grip fighting phase."
+        "answer": "The earliest cue is the top player significantly widening their base by spreading their knees apart. This base establishment precedes all other phases of the pass and signals their intent to build a stable platform for posture recovery. Recognizing this cue gives you the maximum time to proactively tighten your controls, deepen the overhook, and begin cycling offensive threats before they can progress to the grip fighting phase.",
+        "answer_line": "Top player widens knees for base",
+        "distractors": {
+          "plausible": [
+            "Top player grips your shin",
+            "Top player starts arm extraction"
+          ],
+          "trap": [
+            "Wait until posture fully recovers"
+          ]
+        }
       },
       {
         "question": "What is the most important grip to maintain when defending against this pass?",
-        "answer": "The shin grip is the most important control to maintain because it keeps the shin across the top player's back, which is the primary mechanism preventing posture recovery. Without the shin control, the overhook alone cannot prevent posture recovery since the top player can use their entire posterior chain to straighten their spine. If you feel the grip being attacked, prioritize re-gripping with maximum strength and consider using your opposite hand to temporarily reinforce the grip while transitioning to an offensive response."
+        "answer": "The shin grip is the most important control to maintain because it keeps the shin across the top player's back, which is the primary mechanism preventing posture recovery. Without the shin control, the overhook alone cannot prevent posture recovery since the top player can use their entire posterior chain to straighten their spine. If you feel the grip being attacked, prioritize re-gripping with maximum strength and consider using your opposite hand to temporarily reinforce the grip while transitioning to an offensive response.",
+        "answer_line": "Shin grip across their back",
+        "distractors": {
+          "plausible": [
+            "Overhook on their trapped arm",
+            "Collar grip on their far side"
+          ],
+          "trap": [
+            "Let shin go, hold overhook only"
+          ]
+        }
       },
       {
         "question": "When does the best counter-sweep opportunity present itself during the opponent's pass attempt?",
-        "answer": "The optimal sweep window occurs during the posture recovery phase when the top player's weight shifts backward and upward as they engage their posterior chain to straighten their spine. This backward weight shift temporarily compromises their forward base and creates the momentum needed for a successful hip bump sweep. The window is narrow—typically lasting only 1-2 seconds—so you must recognize the posture recovery attempt immediately and commit to the sweep with full hip drive and body extension."
+        "answer": "The optimal sweep window occurs during the posture recovery phase when the top player's weight shifts backward and upward as they engage their posterior chain to straighten their spine. This backward weight shift temporarily compromises their forward base and creates the momentum needed for a successful hip bump sweep. The window is narrow—typically lasting only 1-2 seconds—so you must recognize the posture recovery attempt immediately and commit to the sweep with full hip drive and body extension.",
+        "answer_line": "During their posture recovery shift",
+        "distractors": {
+          "plausible": [
+            "Right as they widen their base",
+            "During the knee-through drive"
+          ],
+          "trap": [
+            "Wait until posture fully upright"
+          ]
+        }
       },
       {
         "question": "How can you threaten a triangle submission during the opponent's arm extraction attempt?",
-        "answer": "As the top player begins the corkscrew arm extraction, their arm is positioned inside your guard at an angle that creates the triangle configuration. Shoot your leg over their shoulder on the extracting arm side while maintaining hip elevation and angle. The partially extracted arm cannot effectively defend the triangle because it is committed to the extraction motion. Timing is critical—the triangle must be initiated while the arm is mid-extraction, not after it is fully free."
+        "answer": "As the top player begins the corkscrew arm extraction, their arm is positioned inside your guard at an angle that creates the triangle configuration. Shoot your leg over their shoulder on the extracting arm side while maintaining hip elevation and angle. The partially extracted arm cannot effectively defend the triangle because it is committed to the extraction motion. Timing is critical—the triangle must be initiated while the arm is mid-extraction, not after it is fully free.",
+        "answer_line": "Shoot leg over during extraction",
+        "distractors": {
+          "plausible": [
+            "Wait until arm fully frees",
+            "Triangle before extraction starts"
+          ],
+          "trap": [
+            "Release overhook to reset angle"
+          ]
+        }
       },
       {
         "question": "If the opponent partially recovers posture but their arm remains trapped, what is your immediate priority?",
-        "answer": "Your immediate priority is to re-establish the shin across their back to collapse their recovered posture. Re-grip your shin with maximum depth near the ankle and pull aggressively with your hip flexors to drag their shoulders back down. Simultaneously, test whether the partial posture has created an opening for offensive transitions—sometimes partial posture recovery creates better angles for omoplata or Carni entries than fully broken posture does."
+        "answer": "Your immediate priority is to re-establish the shin across their back to collapse their recovered posture. Re-grip your shin with maximum depth near the ankle and pull aggressively with your hip flexors to drag their shoulders back down. Simultaneously, test whether the partial posture has created an opening for offensive transitions—sometimes partial posture recovery creates better angles for omoplata or Carni entries than fully broken posture does.",
+        "answer_line": "Re-establish shin across their back",
+        "distractors": {
+          "plausible": [
+            "Push for full arm extraction now",
+            "Switch straight to omoplata"
+          ],
+          "trap": [
+            "Release shin grip, reset position"
+          ]
+        }
       },
       {
         "question": "What defensive adjustment should you make when you recognize the stack pass variation?",
-        "answer": "When the top player drives forward to stack rather than recovering posture upward, create a frame with your free hand against their hip or belt line to prevent them from walking their knees forward to compress your hips. Simultaneously, use your hips to scoot away from their driving pressure, maintaining the space needed for your rubber guard to function. If the stacking pressure becomes too great, transition to a triangle or armbar attempt that uses their forward momentum against them rather than trying to maintain New York against overwhelming forward pressure."
+        "answer": "When the top player drives forward to stack rather than recovering posture upward, create a frame with your free hand against their hip or belt line to prevent them from walking their knees forward to compress your hips. Simultaneously, use your hips to scoot away from their driving pressure, maintaining the space needed for your rubber guard to function. If the stacking pressure becomes too great, transition to a triangle or armbar attempt that uses their forward momentum against them rather than trying to maintain New York against overwhelming forward pressure.",
+        "answer_line": "Frame hip/belt, scoot hips away",
+        "distractors": {
+          "plausible": [
+            "Pull guard tighter, hold ground",
+            "Push their head down hard"
+          ],
+          "trap": [
+            "Let them stack, then explode out"
+          ]
+        }
       }
     ],
     "training_progressions": [

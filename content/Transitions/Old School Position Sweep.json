@@ -262,39 +262,129 @@
     "flashcards": [
       {
         "question": "Your opponent drives heavy crossface pressure and begins flattening you onto your back - what adjustment maintains your sweeping position?",
-        "answer": "Immediately pump the lockdown by extending your legs forcefully to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat despite these adjustments, transition to deep half guard entry rather than fighting a losing battle for the side angle. The angle is the foundation of the sweep - once flat, your rotational leverage disappears entirely."
+        "answer": "Immediately pump the lockdown by extending your legs forcefully to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat despite these adjustments, transition to deep half guard entry rather than fighting a losing battle for the side angle. The angle is the foundation of the sweep - once flat, your rotational leverage disappears entirely.",
+        "answer_line": "Pump lockdown, tighten underhook",
+        "distractors": {
+          "plausible": [
+            "Switch to deep half immediately",
+            "Push opponent's chest away"
+          ],
+          "trap": [
+            "Release lockdown to reset base"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the Old School Position Sweep?",
-        "answer": "The hip drive forward and upward underneath the opponent's center of mass during the sweep initiation is the most critical movement. Your hips must drive in a circular arc, not linearly, lifting the opponent's weight off the mat while your underhook and head control guide the rotational direction. Without this hip drive, the sweep relies solely on arm pulling, which lacks sufficient force against a resisting opponent."
+        "answer": "The hip drive forward and upward underneath the opponent's center of mass during the sweep initiation is the most critical movement. Your hips must drive in a circular arc, not linearly, lifting the opponent's weight off the mat while your underhook and head control guide the rotational direction. Without this hip drive, the sweep relies solely on arm pulling, which lacks sufficient force against a resisting opponent.",
+        "answer_line": "Circular hip drive under center",
+        "distractors": {
+          "plausible": [
+            "Straight hip thrust forward",
+            "Hip escape away from opponent"
+          ],
+          "trap": [
+            "Pull with arms, hips stay still"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully posts their far hand on the mat to prevent the sweep rotation - how do you adjust?",
-        "answer": "Switch to the back take variation rather than fighting through the post. Maintain your underhook and lockdown while using the momentum to come up on the underhook side. Circle behind the opponent while the lockdown prevents them from turning to face you. The posted hand commits their weight to one direction, making the back take angle available. Alternatively, increase head control pressure to collapse the posting arm before it fully extends."
+        "answer": "Switch to the back take variation rather than fighting through the post. Maintain your underhook and lockdown while using the momentum to come up on the underhook side. Circle behind the opponent while the lockdown prevents them from turning to face you. The posted hand commits their weight to one direction, making the back take angle available. Alternatively, increase head control pressure to collapse the posting arm before it fully extends.",
+        "answer_line": "Switch to back take angle",
+        "distractors": {
+          "plausible": [
+            "Push harder into the post",
+            "Abandon lockdown, retry sweep"
+          ],
+          "trap": [
+            "Release underhook to reset"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before you can attempt this sweep?",
-        "answer": "Five conditions must be met: the lockdown figure-four must be fully established with active extension on the trapped leg, a deep underhook must be secured under the opponent's far armpit with the elbow tight to your ribs, head control must be wrapping around their head pulling posture down, you must be positioned on your side toward the underhook rather than flat on your back, and the opponent's posture must be broken down with their weight shifted forward."
+        "answer": "Five conditions must be met: the lockdown figure-four must be fully established with active extension on the trapped leg, a deep underhook must be secured under the opponent's far armpit with the elbow tight to your ribs, head control must be wrapping around their head pulling posture down, you must be positioned on your side toward the underhook rather than flat on your back, and the opponent's posture must be broken down with their weight shifted forward.",
+        "answer_line": "Lockdown, underhook, head, angle",
+        "distractors": {
+          "plausible": [
+            "Underhook and head control only",
+            "Lockdown and broken posture only"
+          ],
+          "trap": [
+            "Flat back with underhook only"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest sweeping leverage for the underhook arm?",
-        "answer": "The underhook arm should thread deep under the opponent's far armpit with the elbow pinched tight against your own ribs, not floating outward. The hand grips high on the opponent's back near the shoulder blade or over the top of their shoulder. This deep penetration with a high grip creates the longest possible lever arm for rotational force. A shallow underhook with the hand gripping at the opponent's waist provides significantly less sweeping power."
+        "answer": "The underhook arm should thread deep under the opponent's far armpit with the elbow pinched tight against your own ribs, not floating outward. The hand grips high on the opponent's back near the shoulder blade or over the top of their shoulder. This deep penetration with a high grip creates the longest possible lever arm for rotational force. A shallow underhook with the hand gripping at the opponent's waist provides significantly less sweeping power.",
+        "answer_line": "Deep underhook, high grip on back",
+        "distractors": {
+          "plausible": [
+            "Shallow underhook at the waist",
+            "Underhook with elbow floating out"
+          ],
+          "trap": [
+            "Grip their belt, not shoulder"
+          ]
+        }
       },
       {
         "question": "How do you determine the optimal timing window to initiate the sweep against a resisting opponent?",
-        "answer": "The optimal timing window occurs during the opponent's forward weight shift, which typically happens when they attempt to clear the lockdown, drive crossface pressure, or adjust their base. Pump the lockdown aggressively to force this weight shift rather than waiting passively. Feel for the moment their weight commits forward over your shoulder and initiate the sweep at that instant. Attempting the sweep against a set, stable base with weight distributed evenly has extremely low success probability."
+        "answer": "The optimal timing window occurs during the opponent's forward weight shift, which typically happens when they attempt to clear the lockdown, drive crossface pressure, or adjust their base. Pump the lockdown aggressively to force this weight shift rather than waiting passively. Feel for the moment their weight commits forward over your shoulder and initiate the sweep at that instant. Attempting the sweep against a set, stable base with weight distributed evenly has extremely low success probability.",
+        "answer_line": "When weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Wait for a stable, set base",
+            "Right after securing lockdown"
+          ],
+          "trap": [
+            "Attempt sweep against set base"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped leg from the lockdown while maintaining top pressure - what is your response?",
-        "answer": "Immediately increase lockdown extension by driving your knees away while pulling with your hooked foot on their ankle. If the extraction progresses past the point of lockdown recovery, do not continue the sweep attempt without this control. Instead, transition to butterfly half guard by inserting a butterfly hook with your bottom leg, or recover to knee shield half guard using the freed leg to establish a frame. Attempting the sweep without lockdown control results in an easily defended and energy-wasting effort."
+        "answer": "Immediately increase lockdown extension by driving your knees away while pulling with your hooked foot on their ankle. If the extraction progresses past the point of lockdown recovery, do not continue the sweep attempt without this control. Instead, transition to butterfly half guard by inserting a butterfly hook with your bottom leg, or recover to knee shield half guard using the freed leg to establish a frame. Attempting the sweep without lockdown control results in an easily defended and energy-wasting effort.",
+        "answer_line": "Re-extend lockdown or switch guard",
+        "distractors": {
+          "plausible": [
+            "Force the sweep anyway",
+            "Grip their ankle and hold on"
+          ],
+          "trap": [
+            "Keep attacking without lockdown"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply during the sweep and why is the circular path superior to linear pushing?",
-        "answer": "The force should follow a circular arc from your side position upward and over your body toward mount, not a straight push perpendicular to the opponent. The circular path is superior because it uses rotational momentum around your shoulder as a fulcrum, requiring less total force than a linear push against the opponent's full base. A linear push allows the opponent to brace and resist with structural alignment, while the circular rotation bypasses their base entirely by carrying them over the top of you."
+        "answer": "The force should follow a circular arc from your side position upward and over your body toward mount, not a straight push perpendicular to the opponent. The circular path is superior because it uses rotational momentum around your shoulder as a fulcrum, requiring less total force than a linear push against the opponent's full base. A linear push allows the opponent to brace and resist with structural alignment, while the circular rotation bypasses their base entirely by carrying them over the top of you.",
+        "answer_line": "Circular arc over shoulder fulcrum",
+        "distractors": {
+          "plausible": [
+            "Straight push against their base",
+            "Pull directly backward"
+          ],
+          "trap": [
+            "Push linearly into their base"
+          ]
+        }
       },
       {
         "question": "If your opponent successfully blocks the sweep and begins passing to side control, what is your defensive priority chain?",
-        "answer": "First priority is recovering guard before they establish side control. Release the failed sweep grips and immediately establish frames on their shoulder and hip. Hip escape to create space and insert a knee shield or butterfly hook. If they advance past your frames, switch to underhook on the near side and fight for half guard rather than conceding full side control. The lockdown may still be partially engaged, which you can use to retain half guard even during the pass attempt."
+        "answer": "First priority is recovering guard before they establish side control. Release the failed sweep grips and immediately establish frames on their shoulder and hip. Hip escape to create space and insert a knee shield or butterfly hook. If they advance past your frames, switch to underhook on the near side and fight for half guard rather than conceding full side control. The lockdown may still be partially engaged, which you can use to retain half guard even during the pass attempt.",
+        "answer_line": "Frame, hip escape, recover guard",
+        "distractors": {
+          "plausible": [
+            "Hold lockdown, ignore the pass",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Turn away and give up back"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Old School Position Sweep is relatively low-risk for joint injuries compared to submissions, but practitioners should be mindful of knee strain from aggressive lockdown extension, particularly on the opponent's trapped knee and ankle. Avoid cranking the lockdown with maximum force during drilling, as this can hyperextend the opponent's knee joint. During the sweep rotation, control the descent to prevent the opponent from landing awkwardly on their neck or shoulder. Train progressively from slow cooperative repetitions before adding speed and resistance. Partners should communicate immediately if they feel joint pressure from the lockdown extension.",
@@ -418,19 +508,59 @@
     "flashcards": [
       {
         "question": "What are the three control points you must neutralize to prevent the Old School Position Sweep?",
-        "answer": "The three control points are the lockdown figure-four on your trapped leg, the deep underhook under your far armpit, and the head control wrapping around your head pulling posture down. All three must be active for the sweep to work, so disrupting any single point significantly reduces sweep effectiveness. Priority should be the underhook, as it provides the primary rotational leverage."
+        "answer": "The three control points are the lockdown figure-four on your trapped leg, the deep underhook under your far armpit, and the head control wrapping around your head pulling posture down. All three must be active for the sweep to work, so disrupting any single point significantly reduces sweep effectiveness. Priority should be the underhook, as it provides the primary rotational leverage.",
+        "answer_line": "Lockdown, underhook, head control",
+        "distractors": {
+          "plausible": [
+            "Head control and posture only",
+            "Underhook and hip position"
+          ],
+          "trap": [
+            "Focus only on the trapped leg"
+          ]
+        }
       },
       {
         "question": "You feel the opponent beginning aggressive lockdown pumps - what does this signal and how should you respond?",
-        "answer": "Aggressive lockdown pumping signals imminent sweep initiation, as the opponent is breaking your base before committing to the rotation. Immediately respond by posting your free leg wider at 45 degrees, driving your whizzer deeper, and increasing crossface pressure. You can also pre-empt by sprawling your hips slightly back while maintaining chest pressure, which removes the leverage the lockdown pump is trying to create."
+        "answer": "Aggressive lockdown pumping signals imminent sweep initiation, as the opponent is breaking your base before committing to the rotation. Immediately respond by posting your free leg wider at 45 degrees, driving your whizzer deeper, and increasing crossface pressure. You can also pre-empt by sprawling your hips slightly back while maintaining chest pressure, which removes the leverage the lockdown pump is trying to create.",
+        "answer_line": "Post wide, deepen whizzer",
+        "distractors": {
+          "plausible": [
+            "Ignore it, hold current base",
+            "Pull your trapped leg free fast"
+          ],
+          "trap": [
+            "Relax base to save energy"
+          ]
+        }
       },
       {
         "question": "How do you exploit the opponent's commitment to the sweep for a counter-attack to side control?",
-        "answer": "When the opponent fully commits to the sweep by driving their hips forward and pulling with underhook and head control, their defensive guard structure is abandoned. If you successfully defend the sweep through whizzer and base, the opponent is often stuck in an overextended position with limited guard retention ability. Drive your whizzer deep, circle toward their back or push their underhook to the mat, and immediately advance to side control while they lack the frames to prevent the pass."
+        "answer": "When the opponent fully commits to the sweep by driving their hips forward and pulling with underhook and head control, their defensive guard structure is abandoned. If you successfully defend the sweep through whizzer and base, the opponent is often stuck in an overextended position with limited guard retention ability. Drive your whizzer deep, circle toward their back or push their underhook to the mat, and immediately advance to side control while they lack the frames to prevent the pass.",
+        "answer_line": "Base out, drive whizzer to pass",
+        "distractors": {
+          "plausible": [
+            "Wait passively for them to stop",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Sit back and give up position"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous timing window for you as the defender during this sweep?",
-        "answer": "The most dangerous moment is during the lockdown pump when your trapped leg is being forcefully extended backward while the opponent simultaneously pulls your weight forward with their underhook and head control. At this instant, your base is compromised on both the trapped side and the forward direction simultaneously. Recognizing this timing and pre-adjusting your base before the pump reaches full extension is critical to maintaining defensive position."
+        "answer": "The most dangerous moment is during the lockdown pump when your trapped leg is being forcefully extended backward while the opponent simultaneously pulls your weight forward with their underhook and head control. At this instant, your base is compromised on both the trapped side and the forward direction simultaneously. Recognizing this timing and pre-adjusting your base before the pump reaches full extension is critical to maintaining defensive position.",
+        "answer_line": "During the lockdown pump moment",
+        "distractors": {
+          "plausible": [
+            "Right after underhook is set",
+            "When head control first grips"
+          ],
+          "trap": [
+            "Wait until fully flattened out"
+          ]
+        }
       }
     ],
     "training_progressions": [

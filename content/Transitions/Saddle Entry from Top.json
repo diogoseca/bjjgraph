@@ -376,13 +376,14 @@
         "answer": "Your near hand grips their ankle to prevent retraction while your far hand controls the knee or thigh to manage the leg's angle. The ankle grip ensures the foot stays in place during the step-over and controls the foot's direction, while the knee grip prevents them from bending the leg or pulling their knee to their chest, which would collapse the entry space. Both grips working together create a fixed reference point around which you build the entanglement.",
         "distractors": {
           "plausible": [
-            "Your near hand controls the knee while your far hand grips the ankle, keeping your strongest control closest to their hips.",
-            "Your near hand grips their ankle while your far hand posts on the mat for base, since balance matters more than a second grip."
+            "Just grip the ankle tightly",
+            "Control knee, ignore the foot"
           ],
           "trap": [
-            "Put both hands on the ankle for maximum pulling power, because the knee will follow wherever the foot is dragged."
+            "Grip their far leg instead"
           ]
-        }
+        },
+        "answer_line": "Ankle grip + knee/thigh control"
       },
       {
         "question": "How do you chain saddle entry attempts with guard passing to make your attacks unpredictable?",

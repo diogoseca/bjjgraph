@@ -282,27 +282,87 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for initiating the pass against inverted lasso guard?",
-        "answer": "The most critical window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle with proper hip elevation. Once the inversion is complete and they have maintained lasso tension with the free leg posted, defensive options narrow significantly. Responding within one to two seconds of recognizing the inversion initiation allows for immediate base establishment, free leg control, or preventive pressure that disrupts the technique before it generates offensive potential."
+        "answer": "The most critical window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle with proper hip elevation. Once the inversion is complete and they have maintained lasso tension with the free leg posted, defensive options narrow significantly. Responding within one to two seconds of recognizing the inversion initiation allows for immediate base establishment, free leg control, or preventive pressure that disrupts the technique before it generates offensive potential.",
+        "answer_line": "During inversion, before angle set",
+        "distractors": {
+          "plausible": [
+            "After the lasso hook fully locks",
+            "Once they posture with free leg"
+          ],
+          "trap": [
+            "Wait for the sweep attempt itself"
+          ]
+        }
       },
       {
         "question": "Why does driving straight forward pressure into the inverted opponent's hips fail as a passing strategy?",
-        "answer": "Forward pressure into elevated hips adds momentum to the opponent's overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point, and your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. The harder you drive forward, the more energy you provide for the sweep. Instead, pressure should be angled toward the shoulders and upper chest while keeping your hips back, which flattens the inversion without feeding the rotational mechanics."
+        "answer": "Forward pressure into elevated hips adds momentum to the opponent's overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point, and your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. The harder you drive forward, the more energy you provide for the sweep. Instead, pressure should be angled toward the shoulders and upper chest while keeping your hips back, which flattens the inversion without feeding the rotational mechanics.",
+        "answer_line": "Feeds their rotational sweep energy",
+        "distractors": {
+          "plausible": [
+            "Only fails with a weak base",
+            "Works if you time their exhale"
+          ],
+          "trap": [
+            "Drive forward harder to flatten"
+          ]
+        }
       },
       {
         "question": "Your opponent begins berimbolo rotation by threading their free leg behind your back. What immediate counter should you employ?",
-        "answer": "Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Control their far hip with your free hand while cartwheeling over their rotating body, using their berimbolo momentum to establish a passing position on the far side. Fighting against the rotation allows the back take to complete because you are resisting established angular momentum. Matching the rotation neutralizes their geometric advantage while converting their energy into your passing trajectory."
+        "answer": "Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Control their far hip with your free hand while cartwheeling over their rotating body, using their berimbolo momentum to establish a passing position on the far side. Fighting against the rotation allows the back take to complete because you are resisting established angular momentum. Matching the rotation neutralizes their geometric advantage while converting their energy into your passing trajectory.",
+        "answer_line": "Cartwheel with rotation, take hip",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to kill the rotation",
+            "Post hand and spin opposite way"
+          ],
+          "trap": [
+            "Fight the rotation, rip leg free"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for systematically extracting the lassoed arm from the inverted guard?",
-        "answer": "The sequence is: first control the free leg to prevent it from creating angles, then address the sleeve grip on the lassoed arm by peeling fingers or performing wrist circles to reduce grip purchase, next create slack in the lasso hook through controlled circular arm movement, and finally withdraw the arm steadily toward your hip while pushing the hooking foot away with your free hand. Each step must be completed before proceeding to the next. Skipping to arm extraction without first weakening the sleeve grip and controlling the free leg results in the lasso tightening under force."
+        "answer": "The sequence is: first control the free leg to prevent it from creating angles, then address the sleeve grip on the lassoed arm by peeling fingers or performing wrist circles to reduce grip purchase, next create slack in the lasso hook through controlled circular arm movement, and finally withdraw the arm steadily toward your hip while pushing the hooking foot away with your free hand. Each step must be completed before proceeding to the next. Skipping to arm extraction without first weakening the sleeve grip and controlling the free leg results in the lasso tightening under force.",
+        "answer_line": "Leg, then grip, then slack, then arm",
+        "distractors": {
+          "plausible": [
+            "Break sleeve grip, then free the leg",
+            "Extract arm first, tidy up after"
+          ],
+          "trap": [
+            "Yank the arm straight out fast"
+          ]
+        }
       },
       {
         "question": "How should you address the free non-lasso leg before attempting any pass, and why is it the highest priority?",
-        "answer": "Secure the free leg by gripping behind the knee or pinning it to the mat with your hip. This leg is the opponent's primary offensive tool: it serves as the steering mechanism for overhead sweeps by directing where your body falls, and it threads behind your back to initiate berimbolo sequences for back takes. Without free leg control, every passing technique becomes a gamble because the opponent retains their two most dangerous attacks. Controlling the free leg first reduces the position from a multi-threat dilemma to a single-connection problem that can be systematically dismantled."
+        "answer": "Secure the free leg by gripping behind the knee or pinning it to the mat with your hip. This leg is the opponent's primary offensive tool: it serves as the steering mechanism for overhead sweeps by directing where your body falls, and it threads behind your back to initiate berimbolo sequences for back takes. Without free leg control, every passing technique becomes a gamble because the opponent retains their two most dangerous attacks. Controlling the free leg first reduces the position from a multi-threat dilemma to a single-connection problem that can be systematically dismantled.",
+        "answer_line": "Pin free leg, it kills both threats",
+        "distractors": {
+          "plausible": [
+            "Control the lasso hook first",
+            "Break the sleeve grip first"
+          ],
+          "trap": [
+            "Ignore it, attack the far grip"
+          ]
+        }
       },
       {
         "question": "What grip must you break first to create slack in the lasso structure, and why does the sequence matter?",
-        "answer": "The sleeve grip must be weakened first because it completes the lever system that gives the lasso its mechanical advantage. The lasso hook alone without sleeve control cannot generate effective sweep force, as the bottom player needs both the pushing force from the hook and the pulling force from the grip to create the rotational couple. Breaking the sleeve grip first reduces the overall structural tension in the system, making the subsequent arm extraction dramatically easier. Attempting to extract the arm while the sleeve grip remains tight causes the lasso to tighten under force."
+        "answer": "The sleeve grip must be weakened first because it completes the lever system that gives the lasso its mechanical advantage. The lasso hook alone without sleeve control cannot generate effective sweep force, as the bottom player needs both the pushing force from the hook and the pulling force from the grip to create the rotational couple. Breaking the sleeve grip first reduces the overall structural tension in the system, making the subsequent arm extraction dramatically easier. Attempting to extract the arm while the sleeve grip remains tight causes the lasso to tighten under force.",
+        "answer_line": "Break sleeve grip before extracting",
+        "distractors": {
+          "plausible": [
+            "Break the lasso hook grip first",
+            "Extract the arm, fix grip after"
+          ],
+          "trap": [
+            "Yank the arm free under tension"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from inverted lasso to standard lasso guard mid-exchange. How do you capitalize on this moment?",
@@ -310,7 +370,17 @@
       },
       {
         "question": "Why is maintaining connection preferable to creating distance when facing inverted lasso guard?",
-        "answer": "Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to freely thread their legs, generate new angles, and reinvert with superior positioning. Space also permits them to reset their grips without pressure and choose their optimal attack without time constraints. Staying connected with strategic pressure on the opponent's shoulders limits their rotational options, prevents re-engagement with better angles, and forces them to defend your passing pressure while in an energetically demanding inverted position. Connection converts offense into defense for the guard player."
+        "answer": "Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to freely thread their legs, generate new angles, and reinvert with superior positioning. Space also permits them to reset their grips without pressure and choose their optimal attack without time constraints. Staying connected with strategic pressure on the opponent's shoulders limits their rotational options, prevents re-engagement with better angles, and forces them to defend your passing pressure while in an energetically demanding inverted position. Connection converts offense into defense for the guard player.",
+        "answer_line": "Stay connected, pressure shoulders",
+        "distractors": {
+          "plausible": [
+            "Create space to see the attack",
+            "Step back to reset your grips"
+          ],
+          "trap": [
+            "Backstep to dodge the sweep"
+          ]
+        }
       }
     ],
     "safety_considerations": "When applying stack passes against inverted opponents, exercise particular caution regarding cervical spine compression on the bottom player. The inverted position places the guard player's neck in a vulnerable posture, and aggressive stacking can create dangerous spinal pressure. Apply stacking force gradually and progressively rather than explosively dropping weight. During arm extraction, control the speed of your withdrawal to prevent hyperextension of the opponent's shoulder or elbow. If the bottom player signals any discomfort with neck positioning during drilling, immediately release pressure and allow them to reposition safely. During cartwheel counter-passes, ensure sufficient mat space to prevent either practitioner from colliding with walls or other training pairs.",
@@ -432,19 +502,59 @@
       },
       {
         "question": "How should you respond when the top player successfully controls your free non-lasso leg?",
-        "answer": "Immediately work to recover the free leg by kicking through, circling the foot to break the grip, or using your free hand to peel their grip off your knee. If direct recovery fails, consider transitioning to a triangle threat by bringing the controlled leg toward their neck, or switching to an omoplata angle that uses the lasso hook without requiring the free leg. Never accept a controlled free leg passively, as this eliminates your two primary offensive weapons and converts the position from a threatening guard to a holding pattern that the passer will dismantle systematically."
+        "answer": "Immediately work to recover the free leg by kicking through, circling the foot to break the grip, or using your free hand to peel their grip off your knee. If direct recovery fails, consider transitioning to a triangle threat by bringing the controlled leg toward their neck, or switching to an omoplata angle that uses the lasso hook without requiring the free leg. Never accept a controlled free leg passively, as this eliminates your two primary offensive weapons and converts the position from a threatening guard to a holding pattern that the passer will dismantle systematically.",
+        "answer_line": "Recover leg or shift to triangle",
+        "distractors": {
+          "plausible": [
+            "Wait for them to make a mistake",
+            "Grip fight the sleeve instead"
+          ],
+          "trap": [
+            "Accept it, work from lasso alone"
+          ]
+        }
       },
       {
         "question": "What determines the optimal moment to transition from inverted lasso guard to berimbolo entry?",
-        "answer": "The optimal berimbolo moment is when the opponent shifts weight backward to defend the overhead sweep or commits both hands to grip fighting rather than maintaining active base control. Their retreated weight posture reduces their ability to follow your rotation, and their hands being occupied with grips means they cannot post or counter-cartwheel. Watch for their hips moving behind their feet and their head rising to upright posture as the definitive cue that berimbolo is available. Initiating berimbolo against forward-weighted opponents is significantly harder and invites the cartwheel counter-pass."
+        "answer": "The optimal berimbolo moment is when the opponent shifts weight backward to defend the overhead sweep or commits both hands to grip fighting rather than maintaining active base control. Their retreated weight posture reduces their ability to follow your rotation, and their hands being occupied with grips means they cannot post or counter-cartwheel. Watch for their hips moving behind their feet and their head rising to upright posture as the definitive cue that berimbolo is available. Initiating berimbolo against forward-weighted opponents is significantly harder and invites the cartwheel counter-pass.",
+        "answer_line": "Weight back, hands busy gripping",
+        "distractors": {
+          "plausible": [
+            "When they drive forward pressure",
+            "When they secure your free leg"
+          ],
+          "trap": [
+            "Go anytime, trust the athleticism"
+          ]
+        }
       },
       {
         "question": "When should you abandon the inverted position and return to upright lasso guard?",
-        "answer": "Return to upright guard when any of three conditions occur: your lasso tension has degraded to the point where the hook is loose and arm extraction is imminent, you have been inverted for more than three seconds without successfully initiating a technique, or the opponent has flattened your hips with stack pressure that eliminates your rotational mobility. Recognizing these failure states early allows a controlled transition back to upright lasso guard where energy expenditure is lower and you can re-establish optimal grip tension. Waiting too long results in forced transition under pressure with compromised grips."
+        "answer": "Return to upright guard when any of three conditions occur: your lasso tension has degraded to the point where the hook is loose and arm extraction is imminent, you have been inverted for more than three seconds without successfully initiating a technique, or the opponent has flattened your hips with stack pressure that eliminates your rotational mobility. Recognizing these failure states early allows a controlled transition back to upright lasso guard where energy expenditure is lower and you can re-establish optimal grip tension. Waiting too long results in forced transition under pressure with compromised grips.",
+        "answer_line": "Loose lasso, 3+ sec, or hips flat",
+        "distractors": {
+          "plausible": [
+            "Only after getting swept once",
+            "Whenever they touch your back"
+          ],
+          "trap": [
+            "Never, stay inverted till it works"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your berimbolo rotation with a cartwheel counter-pass. What is your best response?",
-        "answer": "When the opponent counter-cartwheels, recognize that they are matching your rotational direction and will arrive on the far side. Your best response is to disengage the lasso hook and immediately invert again to face the new angle, establishing a De La Riva hook or new lasso on the arriving leg before they consolidate a passing position. Alternatively, if you can detect the cartwheel early enough, stall your berimbolo rotation and reverse direction to catch them mid-cartwheel with an off-balance sweep. The worst response is continuing the berimbolo rotation into their counter, which delivers you directly into their passing path."
+        "answer": "When the opponent counter-cartwheels, recognize that they are matching your rotational direction and will arrive on the far side. Your best response is to disengage the lasso hook and immediately invert again to face the new angle, establishing a De La Riva hook or new lasso on the arriving leg before they consolidate a passing position. Alternatively, if you can detect the cartwheel early enough, stall your berimbolo rotation and reverse direction to catch them mid-cartwheel with an off-balance sweep. The worst response is continuing the berimbolo rotation into their counter, which delivers you directly into their passing path.",
+        "answer_line": "Reinvert, reset hook on new angle",
+        "distractors": {
+          "plausible": [
+            "Continue rotating the same way",
+            "Stall and re-grip the same sleeve"
+          ],
+          "trap": [
+            "Push through into their pass"
+          ]
+        }
       }
     ],
     "training_progressions": [

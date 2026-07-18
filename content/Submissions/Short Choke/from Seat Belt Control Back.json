@@ -286,12 +286,32 @@
       {
         "question": "What anatomical structures does the Short Choke from Seat Belt Control Back primarily target?",
         "answer": "The Short Choke primarily targets both carotid arteries on the lateral sides of the neck. The lapel material fed across the throat creates bilateral compression against these arteries, restricting blood flow to the brain. When properly applied, this produces unconsciousness within 6-10 seconds. If misapplied, it may compress the trachea instead, which causes discomfort and coughing but is less efficient as a submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Jugular veins only",
+            "Just one carotid artery"
+          ],
+          "trap": [
+            "The windpipe/trachea"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the choke is correctly positioned on the carotid arteries rather than creating a windpipe crush?",
         "answer": "A correctly positioned blood choke produces a distinct change in the opponent's complexion (reddening of the face) and causes them to feel lightheaded or experience tunnel vision without significant breathing difficulty. If the opponent is coughing, gagging, or making raspy breathing sounds, the pressure is on the trachea rather than the carotids. Adjust by pulling the lapel slightly lower and ensuring the forearm pressure is directed laterally against the sides of the neck, not centrally against the throat.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Reddening, lightheaded, no gagging",
+        "distractors": {
+          "plausible": [
+            "Coughing means it's working",
+            "Gasping for air is normal"
+          ],
+          "trap": [
+            "Push forearm into throat center"
+          ]
+        }
       },
       {
         "question": "What positional control elements must be established before committing to the collar grip transition?",
@@ -301,27 +321,77 @@
       {
         "question": "At what point during the Short Choke sequence does the opponent reach the point of no escape?",
         "answer": "The point of no escape occurs once the lapel has been fed completely across the throat and the secondary grip locks the cross-collar configuration with both hands close to the neck. At this stage, the opponent can no longer strip the grip without releasing their neck defense, and the choking pressure becomes self-reinforcing as any movement tightens the collar. Before this point, during the initial collar grip and lapel feed, the opponent still has realistic defensive options to strip or block the choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lapel fed, cross-collar locked",
+        "distractors": {
+          "plausible": [
+            "As soon as you grip the collar",
+            "When both hooks are in place"
+          ],
+          "trap": [
+            "Once back control is established"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the Short Choke by jamming their fingers inside the collar between the lapel and their neck - how do you finish?",
         "answer": "Apply progressive finishing pressure through chest expansion and elbow retraction rather than trying to out-muscle their defensive fingers. Their fingers actually transmit pressure to the neck as the collar tightens, making their defense counterproductive once sufficient force is applied. Drive your hips forward while expanding your chest to generate compressive force that overwhelms the finger defense. If their fingers create enough space to delay the finish, consider switching to an armbar attack on the arm they extended to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Expand chest, retract elbows",
+        "distractors": {
+          "plausible": [
+            "Pry their fingers out first",
+            "Pull harder with both hands"
+          ],
+          "trap": [
+            "Release grip and reset the choke"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the collar material is thick or starched and resists being fed across the throat?",
         "answer": "With thick or stiff collar material, grip deeper into the collar by inserting four fingers past the second knuckle to gain more purchase on the fabric. Use a pulling motion toward your hip rather than across the throat to break the collar's resistance, then redirect it across once it loosens. You can also grab the lapel lower on the chest where there is more material to manipulate, then walk your grip up toward the neck once the fabric is freed. In competition, slightly dampened collar material from sweat actually helps the feed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip deep, pull toward hip first",
+        "distractors": {
+          "plausible": [
+            "Yank straight across the throat",
+            "Switch to a bare-hand choke"
+          ],
+          "trap": [
+            "Grip shallow with fingertips only"
+          ]
+        }
       },
       {
         "question": "What are the key safety protocols when applying the Short Choke during training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum in training. Monitor your partner for signs of unconsciousness including body going limp, arms dropping, or cessation of defensive movement. Release immediately upon any tap signal including verbal tap, hand tap on your body or mat, or foot tap. After release, remove all weight from the opponent's torso and check their consciousness. If unconsciousness occurs, elevate their legs, ensure airway is clear, and do not apply the choke again that session.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Only verbal taps count",
+            "Reapply to confirm they're out"
+          ],
+          "trap": [
+            "Hold a moment longer after tap"
+          ]
+        }
       },
       {
         "question": "How does the Short Choke integrate with the RNC as a two-threat attack system from back control?",
         "answer": "The RNC and Short Choke create a complementary dilemma system. When the opponent defends the RNC by tucking their chin and committing both hands to throat defense, their collar becomes exposed for the Short Choke entry. When they adjust to defend the collar by pulling the lapel away from their neck, they must release their chin-tuck defense, re-exposing the pathway for the RNC. Cycling between these two threats systematically breaks down any static defensive posture because defending one attack requires exposing the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defending one exposes the other",
+        "distractors": {
+          "plausible": [
+            "Always attack the RNC first",
+            "Chin tuck stops both threats"
+          ],
+          "trap": [
+            "Abandon back control to switch"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is stalling by keeping their chin buried and hands locked on your wrist - how do you create the opening for the Short Choke?",
@@ -331,7 +401,17 @@
       {
         "question": "How should you release the Short Choke safely after your training partner taps?",
         "answer": "Immediately open both hands and release all collar grip pressure the instant you feel or hear the tap. Remove the lapel from across their throat and pull your arms away from the neck area. Shift your weight off their back by releasing hooks and moving to their side. Check that your partner is responsive and breathing normally before continuing. Never maintain any residual collar tension after the tap, as even slight lingering pressure on compromised carotid arteries can cause delayed loss of consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Open hands, release lapel instantly",
+        "distractors": {
+          "plausible": [
+            "Ease off pressure gradually",
+            "Keep hooks in while releasing"
+          ],
+          "trap": [
+            "Hold light tension a moment longer"
+          ]
+        }
       }
     ],
     "clips": [
@@ -452,27 +532,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from an RNC attempt to a Short Choke setup?",
         "answer": "The key recognition cue is feeling the attacker's over-arm release from the seat belt connection and move toward your collar or lapel rather than sliding under your chin. An RNC attempt involves the forearm driving toward the throat from behind, while the Short Choke setup involves the hand reaching across to grip the far-side collar material. You may also feel a slight shift in body weight and a loosening of the seat belt grip structure as the attacker transitions between the two threats.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm shifts from chin toward collar",
+        "distractors": {
+          "plausible": [
+            "Forearm digs deeper under chin",
+            "Hooks suddenly tighten"
+          ],
+          "trap": [
+            "Assume it's still just the RNC"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a Short Choke from back control?",
         "answer": "Tap immediately and clearly using any available method: verbal tap by saying 'tap' loudly, physical hand tap on the attacker's arm, leg, or the mat with multiple rapid taps, or foot stomping on the mat. Because you are in back control, the attacker may not see a subtle hand tap, so verbal taps and vigorous physical taps are most reliable. Tap early when you first feel the arterial compression rather than waiting for lightheadedness, as blood chokes can produce unconsciousness within seconds of the tightening point.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Verbal tap, rapid taps, tap early",
+        "distractors": {
+          "plausible": [
+            "Wait until lightheaded to tap",
+            "Tap once softly on the mat"
+          ],
+          "trap": [
+            "Try to power out instead"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the Short Choke attempt?",
         "answer": "Early stage when attacker reaches for collar: two-on-one grip strip on the reaching hand, or explosive hip escape through the opened seat belt. Middle stage when lapel is being fed across: pull your own collar tight to deny material, or turn toward the choking side to reduce leverage angle. Late stage when choke is locked with secondary grip: emergency frame against the forearms and bridge toward the open side to create any possible space. The earlier you intervene, the higher your success probability, with late-stage defense having less than 15% effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip the grip early, frame late",
+        "distractors": {
+          "plausible": [
+            "Wait and defend only late-stage",
+            "Turn away from the choke side"
+          ],
+          "trap": [
+            "Try a full escape once it's locked"
+          ]
+        }
       },
       {
         "question": "Why is chin tucking ineffective against the Short Choke compared to the RNC?",
         "answer": "Chin tucking defends the RNC by blocking the forearm from sliding under the chin to access the throat. The Short Choke does not require forearm access under the chin. It uses the gi collar wrapped around the outside of the neck to create bilateral carotid compression. The collar sits against the neck regardless of chin position because it is applied from the collar material already surrounding the neck. Chin tucking may actually worsen the Short Choke by pressing the chin downward onto the collar, adding pressure to the choking mechanism.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collar wraps the neck, bypasses chin",
+        "distractors": {
+          "plausible": [
+            "Chin tuck blocks the collar too",
+            "It only slows the choke slightly"
+          ],
+          "trap": [
+            "Tuck the chin harder to defend"
+          ]
+        }
       },
       {
         "question": "When should you attempt to escape back control versus focusing purely on collar grip defense?",
         "answer": "Attempt the escape during the grip transition window when the attacker breaks their seat belt to reach for the collar. This 1-2 second window represents a significant reduction in back control structure. If you miss this window and the collar grip is established, shift to pure grip defense first to prevent the choke from being completed, then work your escape once the choking threat is neutralized. Never attempt an escape while the choke is actively tightening, as the movement may accelerate unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Escape during grip transition window",
+        "distractors": {
+          "plausible": [
+            "Always try to escape immediately",
+            "Escape while the choke tightens"
+          ],
+          "trap": [
+            "Fight the choking hand off directly"
+          ]
+        }
       }
     ],
     "training_progressions": [

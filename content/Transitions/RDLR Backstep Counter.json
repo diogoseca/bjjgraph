@@ -262,35 +262,115 @@
     "flashcards": [
       {
         "question": "Why must the ankle grip be addressed before initiating the backstep?",
-        "answer": "The ankle grip serves as the steering mechanism for the RDLR hook, controlling the direction and intensity of its rotational force. If you backstep without neutralizing this grip, the bottom player can redirect your stepping leg into their sweep trajectory, pull you off balance during the single-leg phase of the step, or feed your momentum into a kiss of the dragon entry. Breaking the grip first removes their ability to control your leg's path during the critical transition moment."
+        "answer": "The ankle grip serves as the steering mechanism for the RDLR hook, controlling the direction and intensity of its rotational force. If you backstep without neutralizing this grip, the bottom player can redirect your stepping leg into their sweep trajectory, pull you off balance during the single-leg phase of the step, or feed your momentum into a kiss of the dragon entry. Breaking the grip first removes their ability to control your leg's path during the critical transition moment.",
+        "answer_line": "Strip the ankle grip first",
+        "distractors": {
+          "plausible": [
+            "Grip the collar first",
+            "Backstep, then strip grip"
+          ],
+          "trap": [
+            "Skip the grip, step through"
+          ]
+        }
       },
       {
         "question": "Your opponent re-hooks your leg during the backstep—what adjustment is needed?",
-        "answer": "Increase the arc of your backstep by stepping further behind and wider, creating more distance between your leg and their hooking range. Simultaneously use your free hand to push their hooking leg downward at the knee, preventing the instep from catching your calf. If they consistently re-hook, the issue is typically an insufficiently wide backstep arc or failure to actively control their hooking leg with your hands during the transition. Address both the step depth and add active hand control on their knee."
+        "answer": "Increase the arc of your backstep by stepping further behind and wider, creating more distance between your leg and their hooking range. Simultaneously use your free hand to push their hooking leg downward at the knee, preventing the instep from catching your calf. If they consistently re-hook, the issue is typically an insufficiently wide backstep arc or failure to actively control their hooking leg with your hands during the transition. Address both the step depth and add active hand control on their knee.",
+        "answer_line": "Widen arc, push knee down",
+        "distractors": {
+          "plausible": [
+            "Speed up the same step",
+            "Switch grip to overhook"
+          ],
+          "trap": [
+            "Force through, ignore hook"
+          ]
+        }
       },
       {
         "question": "What is the critical weight transfer sequence during the backstep?",
-        "answer": "Weight must shift from dual-leg base to the posting leg before the backstep begins, creating a stable single-leg platform. During the step, your center of gravity stays over the posting foot—never drifting forward or backward. As the stepping leg lands and clears the hook, weight redistributes into Headquarters triangular base with pressure driving through both legs and the shin across the bottom player's thigh. The key error is allowing weight to drift forward during the step, which feeds directly into sweeps."
+        "answer": "Weight must shift from dual-leg base to the posting leg before the backstep begins, creating a stable single-leg platform. During the step, your center of gravity stays over the posting foot—never drifting forward or backward. As the stepping leg lands and clears the hook, weight redistributes into Headquarters triangular base with pressure driving through both legs and the shin across the bottom player's thigh. The key error is allowing weight to drift forward during the step, which feeds directly into sweeps.",
+        "answer_line": "Load post leg, stay centered",
+        "distractors": {
+          "plausible": [
+            "Load the stepping leg first",
+            "Split weight evenly, step"
+          ],
+          "trap": [
+            "Let weight drift forward"
+          ]
+        }
       },
       {
         "question": "How does the backstep differ when the RDLR hook is deep around the thigh versus shallow on the calf?",
-        "answer": "A deep thigh hook requires a wider, more exaggerated backstep arc because the hook has greater mechanical purchase and is harder to clear with a small step. You may need to step almost 180 degrees behind the bottom player's leg. A shallow calf hook can be cleared with a tighter, quicker backstep since the hook has less purchase, but the bottom player can re-hook more easily—so speed and immediate Headquarters establishment become more important than step width for shallow hooks."
+        "answer": "A deep thigh hook requires a wider, more exaggerated backstep arc because the hook has greater mechanical purchase and is harder to clear with a small step. You may need to step almost 180 degrees behind the bottom player's leg. A shallow calf hook can be cleared with a tighter, quicker backstep since the hook has less purchase, but the bottom player can re-hook more easily—so speed and immediate Headquarters establishment become more important than step width for shallow hooks.",
+        "answer_line": "Wide step deep, quick step shallow",
+        "distractors": {
+          "plausible": [
+            "Deep hook needs quicker step",
+            "Shallow hook needs wider arc"
+          ],
+          "trap": [
+            "Same step width for both"
+          ]
+        }
       },
       {
         "question": "The bottom player begins rotating their shoulders toward the mat as you backstep—what does this indicate and how do you respond?",
-        "answer": "Shoulder rotation toward the mat indicates a berimbolo or crab ride entry attempt. The bottom player is using your backstep momentum to facilitate their inversion underneath you. Immediately drive your chest forward and down toward their hips to eliminate the space they need for the inversion. Use your cross-face grip to turn their head away from the rotation direction. If they are already partially inverted, switch to a body lock around their torso to pin them flat and eliminate rotational capacity entirely."
+        "answer": "Shoulder rotation toward the mat indicates a berimbolo or crab ride entry attempt. The bottom player is using your backstep momentum to facilitate their inversion underneath you. Immediately drive your chest forward and down toward their hips to eliminate the space they need for the inversion. Use your cross-face grip to turn their head away from the rotation direction. If they are already partially inverted, switch to a body lock around their torso to pin them flat and eliminate rotational capacity entirely.",
+        "answer_line": "Drive chest down, cross-face",
+        "distractors": {
+          "plausible": [
+            "Pull them up to their feet",
+            "Post hands, wait it out"
+          ],
+          "trap": [
+            "Let them finish the roll"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best upper body control during the backstep?",
-        "answer": "A cross-face with your lead hand is the most effective single grip because it controls the bottom player's head direction and prevents the shoulder rotation needed for inversions. The cross-face should drive their chin away from you, limiting their ability to turn into berimbolo or kiss of the dragon entries. In gi, a collar grip on the same side adds additional rotational control. Your other hand should be free to manage the ankle grip strip and then control the freed leg during Headquarters establishment."
+        "answer": "A cross-face with your lead hand is the most effective single grip because it controls the bottom player's head direction and prevents the shoulder rotation needed for inversions. The cross-face should drive their chin away from you, limiting their ability to turn into berimbolo or kiss of the dragon entries. In gi, a collar grip on the same side adds additional rotational control. Your other hand should be free to manage the ankle grip strip and then control the freed leg during Headquarters establishment.",
+        "answer_line": "Cross-face driving chin away",
+        "distractors": {
+          "plausible": [
+            "Double collar tie both hands",
+            "Underhook the far arm"
+          ],
+          "trap": [
+            "Both hands on the legs"
+          ]
+        }
       },
       {
         "question": "After completing the backstep and reaching Headquarters, what determines your next passing direction?",
-        "answer": "Read the bottom player's immediate defensive response: if they turn toward the trapped leg and attempt to recover half guard, drive through with a knee cut. If they extend their legs to create distance with foot-on-hip frames, redirect to leg drag or toreando. If they attempt deep half entry by diving under your base, backstep further or transition to body lock. If they are flat and passive, apply systematic Headquarters pressure through any preferred passing lane. Remain in Headquarters long enough to read their reaction before committing to a direction."
+        "answer": "Read the bottom player's immediate defensive response: if they turn toward the trapped leg and attempt to recover half guard, drive through with a knee cut. If they extend their legs to create distance with foot-on-hip frames, redirect to leg drag or toreando. If they attempt deep half entry by diving under your base, backstep further or transition to body lock. If they are flat and passive, apply systematic Headquarters pressure through any preferred passing lane. Remain in Headquarters long enough to read their reaction before committing to a direction.",
+        "answer_line": "Read their reaction, then choose",
+        "distractors": {
+          "plausible": [
+            "Always knee cut from there",
+            "Always toreando from there"
+          ],
+          "trap": [
+            "Rush direction without reading"
+          ]
+        }
       },
       {
         "question": "Your opponent posts a foot on your hip and inserts a Single Leg X hook as the backstep opens space—how do you keep passing?",
-        "answer": "Do not race to settle into Headquarters against a forming entanglement. First strip the foot on your hip by gripping the ankle and driving it to the mat, killing the dual-contact needed for Single Leg X. As you clear the foot, step your posting leg back to lengthen the distance and break the hook's purchase, then re-pin their near knee with your shin before resettling. The direction of force is down-and-back on the hook leg while your cross-face keeps their torso flat so they cannot follow with an elevation sweep."
+        "answer": "Do not race to settle into Headquarters against a forming entanglement. First strip the foot on your hip by gripping the ankle and driving it to the mat, killing the dual-contact needed for Single Leg X. As you clear the foot, step your posting leg back to lengthen the distance and break the hook's purchase, then re-pin their near knee with your shin before resettling. The direction of force is down-and-back on the hook leg while your cross-face keeps their torso flat so they cannot follow with an elevation sweep.",
+        "answer_line": "Strip the hip foot, lengthen out",
+        "distractors": {
+          "plausible": [
+            "Rush straight into Headquarters",
+            "Pull the hook leg upward"
+          ],
+          "trap": [
+            "Ignore the hook, settle in"
+          ]
+        }
       }
     ],
     "safety_considerations": "The RDLR Backstep Counter carries moderate knee stress risk for both players. The top player should avoid explosive twisting motions during the backstep that could strain the knee of the hooked leg under rotational load. The bottom player's knee is vulnerable if the backstep compresses their RDLR hook against the mat at an awkward angle. Both practitioners should communicate if they feel knee pressure during drilling, and the top player should step around hook resistance rather than driving through it with force.",
@@ -399,23 +479,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the top player is about to backstep?",
-        "answer": "The earliest cue is a weight shift to the non-hooked posting leg combined with tightening of upper body control. Before the backstep begins, the top player must unload weight from the hooked leg, which you can feel as decreased pressure through your hook. Simultaneously, they typically increase their cross-face or collar grip pressure to anchor their upper body before the step. These two simultaneous changes—lighter hook pressure and tighter upper body grip—signal an imminent backstep and give you the maximum response time."
+        "answer": "The earliest cue is a weight shift to the non-hooked posting leg combined with tightening of upper body control. Before the backstep begins, the top player must unload weight from the hooked leg, which you can feel as decreased pressure through your hook. Simultaneously, they typically increase their cross-face or collar grip pressure to anchor their upper body before the step. These two simultaneous changes—lighter hook pressure and tighter upper body grip—signal an imminent backstep and give you the maximum response time.",
+        "answer_line": "Lighter hook, tighter grip",
+        "distractors": {
+          "plausible": [
+            "Heavier pressure through hook",
+            "Loosening of the cross-face"
+          ],
+          "trap": [
+            "Wait for the step to land"
+          ]
+        }
       },
       {
         "question": "Why is the ankle grip your most important defensive tool against the backstep?",
-        "answer": "The ankle grip serves as a steering mechanism that controls the direction of the RDLR hook's rotational force. During a backstep, the ankle grip allows you to redirect the stepping leg's trajectory, pulling it back toward your hook rather than allowing it to arc freely away. Without the grip, you have no control over the stepping leg's path and can only passively hope your hook maintains contact. The grip also creates the pulling vector needed for sweep entries if you choose to capitalize on the backstep's single-leg balance moment."
+        "answer": "The ankle grip serves as a steering mechanism that controls the direction of the RDLR hook's rotational force. During a backstep, the ankle grip allows you to redirect the stepping leg's trajectory, pulling it back toward your hook rather than allowing it to arc freely away. Without the grip, you have no control over the stepping leg's path and can only passively hope your hook maintains contact. The grip also creates the pulling vector needed for sweep entries if you choose to capitalize on the backstep's single-leg balance moment.",
+        "answer_line": "It steers the stepping leg",
+        "distractors": {
+          "plausible": [
+            "It controls their collar",
+            "It powers the hip escape"
+          ],
+          "trap": [
+            "Let go to move hands freely"
+          ]
+        }
       },
       {
         "question": "The backstep has partially cleared your hook but Headquarters is not yet established—what is your best response?",
-        "answer": "This is the critical transitional window where you must commit to one of two strategies: either aggressively re-hook by following with hip rotation and ankle grip pulling to re-establish RDLR, or transition to an alternative guard by inserting feet on hips for X-Guard or Single Leg X before the top player can consolidate. The worst option is hesitating between the two—partial commitment to either strategy results in neither succeeding. Assess the top player's upper body control and remaining balance to determine which option has higher probability of success."
+        "answer": "This is the critical transitional window where you must commit to one of two strategies: either aggressively re-hook by following with hip rotation and ankle grip pulling to re-establish RDLR, or transition to an alternative guard by inserting feet on hips for X-Guard or Single Leg X before the top player can consolidate. The worst option is hesitating between the two—partial commitment to either strategy results in neither succeeding. Assess the top player's upper body control and remaining balance to determine which option has higher probability of success.",
+        "answer_line": "Commit fully: re-hook or shift",
+        "distractors": {
+          "plausible": [
+            "Wait to read their setup",
+            "Grip fight, delay deciding"
+          ],
+          "trap": [
+            "Half-commit to both options"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window for attempting a berimbolo counter during the backstep?",
-        "answer": "The optimal window is the moment the top player's weight is most committed to their posting leg and their hooked leg is mid-step, creating maximum single-leg instability. This typically occurs as the stepping leg lifts and begins its backward arc but before it has landed in the new position. Your inversion must begin during this airborne phase to exploit the balance compromise. If you wait until the step lands and weight redistributes, the window closes and the inversion becomes far more difficult against a stable two-legged base."
+        "answer": "The optimal window is the moment the top player's weight is most committed to their posting leg and their hooked leg is mid-step, creating maximum single-leg instability. This typically occurs as the stepping leg lifts and begins its backward arc but before it has landed in the new position. Your inversion must begin during this airborne phase to exploit the balance compromise. If you wait until the step lands and weight redistributes, the window closes and the inversion becomes far more difficult against a stable two-legged base.",
+        "answer_line": "Mid-step, before leg lands",
+        "distractors": {
+          "plausible": [
+            "Right after the step lands",
+            "Before they shift any weight"
+          ],
+          "trap": [
+            "Wait until Headquarters forms"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive strategy if the top player combines the backstep with a body lock?",
-        "answer": "The body lock eliminates your inversion option by pinning your torso and removing rotational freedom. When you recognize the body lock grip forming, abandon berimbolo-based defenses entirely and focus on preventing the backstep from clearing your hook through aggressive ankle grip fighting and hip rotation. If the hook is cleared despite your resistance, frame against their arms to create space for hip escape rather than attempting to invert. Your best option becomes transitioning to half guard retention by inserting a knee shield as they settle into Headquarters."
+        "answer": "The body lock eliminates your inversion option by pinning your torso and removing rotational freedom. When you recognize the body lock grip forming, abandon berimbolo-based defenses entirely and focus on preventing the backstep from clearing your hook through aggressive ankle grip fighting and hip rotation. If the hook is cleared despite your resistance, frame against their arms to create space for hip escape rather than attempting to invert. Your best option becomes transitioning to half guard retention by inserting a knee shield as they settle into Headquarters.",
+        "answer_line": "Drop invert, frame and escape",
+        "distractors": {
+          "plausible": [
+            "Invert harder to break the lock",
+            "Fight grips, ignore hook clear"
+          ],
+          "trap": [
+            "Try to invert through the lock"
+          ]
+        }
       }
     ],
     "training_progressions": [

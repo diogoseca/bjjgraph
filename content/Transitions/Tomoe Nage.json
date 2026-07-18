@@ -275,43 +275,143 @@
     "flashcards": [
       {
         "question": "Why is it critical to drop straight backward rather than sitting down gradually when executing Tomoe Nage?",
-        "answer": "Dropping straight backward generates the momentum and proper angle needed to lift the opponent's entire body weight over yours. Sitting down gradually reduces the lifting force, provides the opponent time to sprawl defensively, and creates an improper angle that leaves you on your back without guard control. The sudden drop also helps break the opponent's balance forward, which is essential for the throw's success. The physics of the technique require your center of mass to drop below the opponent's rapidly to create the lever action needed for elevation."
+        "answer": "Dropping straight backward generates the momentum and proper angle needed to lift the opponent's entire body weight over yours. Sitting down gradually reduces the lifting force, provides the opponent time to sprawl defensively, and creates an improper angle that leaves you on your back without guard control. The sudden drop also helps break the opponent's balance forward, which is essential for the throw's success. The physics of the technique require your center of mass to drop below the opponent's rapidly to create the lever action needed for elevation.",
+        "answer_line": "Straight drop breaks their balance",
+        "distractors": {
+          "plausible": [
+            "Sit down gradually for control",
+            "Lean back slowly to time it"
+          ],
+          "trap": [
+            "Sit down like a guard pull"
+          ]
+        }
       },
       {
         "question": "What is the optimal foot placement point during Tomoe Nage, and why does placing it on the thigh fail?",
-        "answer": "The optimal placement is on the opponent's hip bone or lower abdomen, avoiding the groin area. This placement creates the strongest lever arm for lifting their body weight while maintaining control over their center of mass. Placing the foot too low on the thigh provides insufficient leverage because the fulcrum sits below their center of gravity, meaning your leg extension pushes their legs rather than elevating their entire body. The hip placement also allows you to direct the opponent's flight path more accurately, whereas thigh placement lets them easily withdraw their hips backward to sprawl."
+        "answer": "The optimal placement is on the opponent's hip bone or lower abdomen, avoiding the groin area. This placement creates the strongest lever arm for lifting their body weight while maintaining control over their center of mass. Placing the foot too low on the thigh provides insufficient leverage because the fulcrum sits below their center of gravity, meaning your leg extension pushes their legs rather than elevating their entire body. The hip placement also allows you to direct the opponent's flight path more accurately, whereas thigh placement lets them easily withdraw their hips backward to sprawl.",
+        "answer_line": "Foot on hip bone, not thigh",
+        "distractors": {
+          "plausible": [
+            "Foot on stomach for leverage",
+            "Foot on chest to lift higher"
+          ],
+          "trap": [
+            "Foot on thigh for safety"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully sprawls backward as you initiate the drop - what is your immediate recovery sequence?",
-        "answer": "Immediately transition to seated guard variations rather than remaining flat on your back. Options include pulling to butterfly guard using your existing grips to maintain connection, establishing shin-to-shin guard, or entering De La Riva guard depending on the opponent's leg positioning. Maintain at least one grip, preferably the collar, to prevent them from disengaging completely. The key is recognizing the failed attempt early and not committing further to a throw that cannot succeed. Never stay flat on your back without grip control or active leg frames against a standing opponent."
+        "answer": "Immediately transition to seated guard variations rather than remaining flat on your back. Options include pulling to butterfly guard using your existing grips to maintain connection, establishing shin-to-shin guard, or entering De La Riva guard depending on the opponent's leg positioning. Maintain at least one grip, preferably the collar, to prevent them from disengaging completely. The key is recognizing the failed attempt early and not committing further to a throw that cannot succeed. Never stay flat on your back without grip control or active leg frames against a standing opponent.",
+        "answer_line": "Pull to butterfly, keep collar grip",
+        "distractors": {
+          "plausible": [
+            "Retry the throw immediately",
+            "Post hands and stand back up"
+          ],
+          "trap": [
+            "Stay flat, wait for opponent"
+          ]
+        }
       },
       {
         "question": "What role do the grips play throughout each phase of Tomoe Nage, from setup through landing?",
-        "answer": "During setup, the grips break the opponent's posture and create forward momentum through pull sequences. During the drop, they maintain connection and control the opponent's upper body trajectory, preventing them from escaping sideways or disengaging. During the throw, the pulling force on the grips works in coordination with the leg extension to complete the circular motion. After the throw, the grips ensure you can establish closed guard with broken posture or follow through to mount. The collar grip is the critical anchor throughout and should never release during any phase of the technique."
+        "answer": "During setup, the grips break the opponent's posture and create forward momentum through pull sequences. During the drop, they maintain connection and control the opponent's upper body trajectory, preventing them from escaping sideways or disengaging. During the throw, the pulling force on the grips works in coordination with the leg extension to complete the circular motion. After the throw, the grips ensure you can establish closed guard with broken posture or follow through to mount. The collar grip is the critical anchor throughout and should never release during any phase of the technique.",
+        "answer_line": "Collar grip never releases",
+        "distractors": {
+          "plausible": [
+            "Grips only matter at setup",
+            "Release grips to catch the fall"
+          ],
+          "trap": [
+            "Let go of collar mid-throw"
+          ]
+        }
       },
       {
         "question": "In what competitive scenarios is Tomoe Nage strategically advantageous compared to a standard seated guard pull?",
-        "answer": "Tomoe Nage is advantageous when you want to score takedown points while establishing guard in rulesets like IBJJF where successful throws score but guard pulls do not. It works well against opponents who pressure forward aggressively, as their momentum enhances the throw. Against opponents with strong sprawl defense who neutralize conventional takedowns, the sacrifice timing is harder to defend. In formats where guard pulling is penalized, Tomoe Nage scores positively while still achieving a guard position. It also provides the option to follow through to mount, which a seated guard pull cannot offer."
+        "answer": "Tomoe Nage is advantageous when you want to score takedown points while establishing guard in rulesets like IBJJF where successful throws score but guard pulls do not. It works well against opponents who pressure forward aggressively, as their momentum enhances the throw. Against opponents with strong sprawl defense who neutralize conventional takedowns, the sacrifice timing is harder to defend. In formats where guard pulling is penalized, Tomoe Nage scores positively while still achieving a guard position. It also provides the option to follow through to mount, which a seated guard pull cannot offer.",
+        "answer_line": "Scores points where pulls don't",
+        "distractors": {
+          "plausible": [
+            "Only useful against weak opponents",
+            "Best when opponent is stationary"
+          ],
+          "trap": [
+            "Use it to stall for time"
+          ]
+        }
       },
       {
         "question": "What is the precise timing window for extending your leg during the throw, and what happens if you extend too early or too late?",
-        "answer": "The extension should occur the instant your back contacts the mat and the opponent's weight is committed forward over your centerline, loading onto your foot. Extending too early, before their weight shifts forward, allows them to step back or sprawl because your foot pushes into empty space without resistance to redirect. Extending too late means you absorb their falling weight without redirecting it, resulting in them landing heavily on top of you in a smash position rather than being elevated over your body. The correct timing feels like catching their forward momentum at peak commitment and redirecting it upward through the arc."
+        "answer": "The extension should occur the instant your back contacts the mat and the opponent's weight is committed forward over your centerline, loading onto your foot. Extending too early, before their weight shifts forward, allows them to step back or sprawl because your foot pushes into empty space without resistance to redirect. Extending too late means you absorb their falling weight without redirecting it, resulting in them landing heavily on top of you in a smash position rather than being elevated over your body. The correct timing feels like catching their forward momentum at peak commitment and redirecting it upward through the arc.",
+        "answer_line": "Extend when weight loads your foot",
+        "distractors": {
+          "plausible": [
+            "Extend right as you sit down",
+            "Extend after they land on you"
+          ],
+          "trap": [
+            "Extend early to catch them off guard"
+          ]
+        }
       },
       {
         "question": "Your opponent posts both hands on your hips as you begin dropping for Tomoe Nage - how do you adapt mid-technique?",
-        "answer": "Their hand posting creates a frame that blocks your foot placement and prevents the throw, but it commits both arms forward and removes their ability to grip fight or defend sweeps. Transition immediately to butterfly guard by bringing both feet inside their thighs as hooks, using your existing collar grip to pull them forward over your butterfly hooks for a sweep. Alternatively, underhook one posted arm and use the collar grip to execute an arm drag, transitioning to back control or single leg X-guard. Their posted position is vulnerable because both arms are occupied and their base is narrowed forward."
+        "answer": "Their hand posting creates a frame that blocks your foot placement and prevents the throw, but it commits both arms forward and removes their ability to grip fight or defend sweeps. Transition immediately to butterfly guard by bringing both feet inside their thighs as hooks, using your existing collar grip to pull them forward over your butterfly hooks for a sweep. Alternatively, underhook one posted arm and use the collar grip to execute an arm drag, transitioning to back control or single leg X-guard. Their posted position is vulnerable because both arms are occupied and their base is narrowed forward.",
+        "answer_line": "Switch to butterfly hook sweep",
+        "distractors": {
+          "plausible": [
+            "Force the throw through the frame",
+            "Grab both wrists and pull"
+          ],
+          "trap": [
+            "Push into their frame harder"
+          ]
+        }
       },
       {
         "question": "How do you set up Tomoe Nage when your opponent is defensive and refusing to commit their weight forward?",
-        "answer": "Against a defensive, back-weighted opponent, you must create forward commitment artificially through action-reaction sequences. Push them backward with your collar grip to elicit a forward reaction, then immediately pull them forward as they resist the push. Alternatively, use a snap-down feint to draw their head and shoulders forward, creating the brief moment of forward weight commitment needed. You can also step to an angle and pull them toward your new position, creating lateral momentum that serves the same purpose. The key principle is that you cannot force Tomoe Nage against a static, back-weighted opponent and must manufacture their forward movement."
+        "answer": "Against a defensive, back-weighted opponent, you must create forward commitment artificially through action-reaction sequences. Push them backward with your collar grip to elicit a forward reaction, then immediately pull them forward as they resist the push. Alternatively, use a snap-down feint to draw their head and shoulders forward, creating the brief moment of forward weight commitment needed. You can also step to an angle and pull them toward your new position, creating lateral momentum that serves the same purpose. The key principle is that you cannot force Tomoe Nage against a static, back-weighted opponent and must manufacture their forward movement.",
+        "answer_line": "Push-pull or snap to draw them in",
+        "distractors": {
+          "plausible": [
+            "Wait for them to attack first",
+            "Pull harder on a static grip"
+          ],
+          "trap": [
+            "Sit down anyway to force it"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application during the leg extension phase of Tomoe Nage?",
-        "answer": "The force must be directed upward and slightly toward your own head, not straight upward like a bench press. This creates the circular arc that gives the throw its name, sending the opponent in a semicircle over your body rather than being launched vertically. A purely vertical push stalls the opponent above you without completing the throw. The arms simultaneously pull the collar downward and toward your hip while the sleeve grip pulls laterally, creating a rotational force. The combined vector of leg extension upward-and-over with grip pulling downward-and-around produces the complete circular motion that deposits the opponent in your guard or beyond into mount."
+        "answer": "The force must be directed upward and slightly toward your own head, not straight upward like a bench press. This creates the circular arc that gives the throw its name, sending the opponent in a semicircle over your body rather than being launched vertically. A purely vertical push stalls the opponent above you without completing the throw. The arms simultaneously pull the collar downward and toward your hip while the sleeve grip pulls laterally, creating a rotational force. The combined vector of leg extension upward-and-over with grip pulling downward-and-around produces the complete circular motion that deposits the opponent in your guard or beyond into mount.",
+        "answer_line": "Up and over toward your head",
+        "distractors": {
+          "plausible": [
+            "Straight up like a bench press",
+            "Push outward away from you"
+          ],
+          "trap": [
+            "Push down into the mat"
+          ]
+        }
       },
       {
         "question": "If your Tomoe Nage attempt is blocked but you maintain grips and end up on your back with your opponent standing, what are your highest-percentage chain attacks?",
-        "answer": "From this position with grips maintained and opponent standing, immediately transition your feet to their hips to establish open guard with collar-sleeve control. From here you can attempt a second Tomoe Nage if they pressure forward again, transition to De La Riva guard by threading your outside foot to their far hip and hooking their lead leg, or enter single leg X-guard by placing one foot on their hip and the other behind their knee. If they attempt to pass, use your sleeve grip to prevent them from controlling your legs and hip escape to re-establish guard frames. The critical mistake is attempting to re-close guard from flat on your back. Instead, use feet and grips to control distance and enter your preferred open guard system."
+        "answer": "From this position with grips maintained and opponent standing, immediately transition your feet to their hips to establish open guard with collar-sleeve control. From here you can attempt a second Tomoe Nage if they pressure forward again, transition to De La Riva guard by threading your outside foot to their far hip and hooking their lead leg, or enter single leg X-guard by placing one foot on their hip and the other behind their knee. If they attempt to pass, use your sleeve grip to prevent them from controlling your legs and hip escape to re-establish guard frames. The critical mistake is attempting to re-close guard from flat on your back. Instead, use feet and grips to control distance and enter your preferred open guard system.",
+        "answer_line": "Feet to hips, open guard control",
+        "distractors": {
+          "plausible": [
+            "Re-close guard from your back",
+            "Stand back up immediately"
+          ],
+          "trap": [
+            "Let go of grips to reset"
+          ]
+        }
       }
     ],
     "safety_considerations": "Tomoe Nage requires significant attention to safety due to its dynamic sacrifice nature and the risk of both practitioners landing awkwardly. Always practice on appropriate matting with sufficient space and clear boundary awareness. Develop proper breakfall mechanics before attempting the full technique with a partner. When throwing a partner, ensure you control their trajectory to prevent them from landing on their head or neck. Start all training at slow speed with cooperative partners to establish proper body mechanics and spatial awareness. Be particularly cautious about foot placement on the opponent's body, avoiding the groin and ensuring your foot is secure before committing to the throw. In competition, be aware of boundary lines to prevent throwing opponents off the mat. Never practice this technique with significant size mismatches until both practitioners are experienced with the mechanics. Partners being thrown should practice their own falling technique separately before receiving full-speed throws.",
@@ -435,23 +535,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up Tomoe Nage, and how does this differ from a standard guard pull?",
-        "answer": "The earliest cue is the combination of a deep collar grip with strong forward pulling tension plus the opponent stepping their lead foot close to your centerline. This differs from a guard pull where the opponent typically shifts their weight backward and sits down without the forward pulling or foot placement setup. In Tomoe Nage, you feel a distinct forward load through the grips because they need your momentum to power the throw. A guard puller releases tension as they sit, while a Tomoe Nage attacker increases tension. Recognizing this difference gives you the critical one-second window to react."
+        "answer": "The earliest cue is the combination of a deep collar grip with strong forward pulling tension plus the opponent stepping their lead foot close to your centerline. This differs from a guard pull where the opponent typically shifts their weight backward and sits down without the forward pulling or foot placement setup. In Tomoe Nage, you feel a distinct forward load through the grips because they need your momentum to power the throw. A guard puller releases tension as they sit, while a Tomoe Nage attacker increases tension. Recognizing this difference gives you the critical one-second window to react.",
+        "answer_line": "Deep collar grip plus forward load",
+        "distractors": {
+          "plausible": [
+            "Opponent sits down slowly",
+            "Opponent steps back to pull"
+          ],
+          "trap": [
+            "Ignore it, treat as guard pull"
+          ]
+        }
       },
       {
         "question": "Why is sprawling hips backward more effective than posting your hands forward when defending Tomoe Nage?",
-        "answer": "Sprawling hips backward removes your center of mass from over the attacker's foot, denying the fulcrum they need to complete the throw. Your weight moves away from their lever rather than adding to it. Posting hands forward, by contrast, keeps your center of mass in the same position while committing your arms, which are your primary grip-fighting tools. Forward hand posts also create a rigid structure that the attacker can pull through their grips. Hip withdrawal addresses the root cause of the throw's mechanics while hand posting only adds temporary resistance that a well-timed extension can overcome."
+        "answer": "Sprawling hips backward removes your center of mass from over the attacker's foot, denying the fulcrum they need to complete the throw. Your weight moves away from their lever rather than adding to it. Posting hands forward, by contrast, keeps your center of mass in the same position while committing your arms, which are your primary grip-fighting tools. Forward hand posts also create a rigid structure that the attacker can pull through their grips. Hip withdrawal addresses the root cause of the throw's mechanics while hand posting only adds temporary resistance that a well-timed extension can overcome.",
+        "answer_line": "Sprawl removes the fulcrum weight",
+        "distractors": {
+          "plausible": [
+            "Post hands to block the foot",
+            "Pull back on their collar grip"
+          ],
+          "trap": [
+            "Post both hands and lean in"
+          ]
+        }
       },
       {
         "question": "Your opponent has already dropped and placed their foot on your hip but has not yet extended their leg - what defensive option offers the best outcome?",
-        "answer": "In this narrow window, drive forward and down with your chest while widening your base and pinning their hips to the mat with your body weight. Their foot is placed but their leg is still bent, meaning they lack the extension force to complete the throw. Your forward pressure flattens them and prevents the extension. Simultaneously, fight to clear their foot off your hip by shifting your hips laterally. If successful, you end up in top position inside their guard. This is the last effective counter before the throw loads fully. You must commit to this option immediately without hesitation, as the extension window is very brief."
+        "answer": "In this narrow window, drive forward and down with your chest while widening your base and pinning their hips to the mat with your body weight. Their foot is placed but their leg is still bent, meaning they lack the extension force to complete the throw. Your forward pressure flattens them and prevents the extension. Simultaneously, fight to clear their foot off your hip by shifting your hips laterally. If successful, you end up in top position inside their guard. This is the last effective counter before the throw loads fully. You must commit to this option immediately without hesitation, as the extension window is very brief.",
+        "answer_line": "Drive chest forward, pin hips down",
+        "distractors": {
+          "plausible": [
+            "Sprawl hips back immediately",
+            "Post hands on their chest"
+          ],
+          "trap": [
+            "Wait for the extension to see it"
+          ]
+        }
       },
       {
         "question": "How should your weight distribution change when you sense your opponent is hunting for Tomoe Nage during a standing grip exchange?",
-        "answer": "Shift your weight distribution from the standard 50/50 balanced stance to approximately 60% on your rear foot and 40% on your front foot, sitting your hips slightly behind your shoulders. Lower your center of gravity by bending your knees more deeply. This back-weighted stance denies the forward momentum Tomoe Nage requires while maintaining enough mobility to initiate your own attacks. Keep your hips behind your feet at all times. If they pull you, let your arms absorb the tension with bent elbows rather than letting the pull transfer to your hips. This postural adjustment makes the throw significantly less effective while still allowing you to engage offensively."
+        "answer": "Shift your weight distribution from the standard 50/50 balanced stance to approximately 60% on your rear foot and 40% on your front foot, sitting your hips slightly behind your shoulders. Lower your center of gravity by bending your knees more deeply. This back-weighted stance denies the forward momentum Tomoe Nage requires while maintaining enough mobility to initiate your own attacks. Keep your hips behind your feet at all times. If they pull you, let your arms absorb the tension with bent elbows rather than letting the pull transfer to your hips. This postural adjustment makes the throw significantly less effective while still allowing you to engage offensively.",
+        "answer_line": "Shift weight back, lower stance",
+        "distractors": {
+          "plausible": [
+            "Keep even 50/50 balanced stance",
+            "Lean forward to counter-attack"
+          ],
+          "trap": [
+            "Lean forward into their grips"
+          ]
+        }
       },
       {
         "question": "After successfully defending a Tomoe Nage attempt, your opponent is now on their back with feet on your hips - what is the highest-priority action?",
-        "answer": "Immediately control their legs by gripping their pants at the knees or shins, preventing them from establishing active open guard grips or hooks. Do not rush forward into their guard frames. Strip any remaining grips they have on your collar or sleeves using your newly dominant position. Establish your preferred passing grips while they are still recovering from the failed throw. The attacker is momentarily disoriented from the failed sacrifice, and this transition window is your best opportunity to initiate a guard pass before they can establish a structured guard system. Pin one knee to the mat and begin your passing sequence immediately."
+        "answer": "Immediately control their legs by gripping their pants at the knees or shins, preventing them from establishing active open guard grips or hooks. Do not rush forward into their guard frames. Strip any remaining grips they have on your collar or sleeves using your newly dominant position. Establish your preferred passing grips while they are still recovering from the failed throw. The attacker is momentarily disoriented from the failed sacrifice, and this transition window is your best opportunity to initiate a guard pass before they can establish a structured guard system. Pin one knee to the mat and begin your passing sequence immediately.",
+        "answer_line": "Control legs before passing",
+        "distractors": {
+          "plausible": [
+            "Rush forward into their guard",
+            "Strip grips before controlling legs"
+          ],
+          "trap": [
+            "Dive for a submission first"
+          ]
+        }
       }
     ],
     "training_progressions": [

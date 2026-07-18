@@ -389,43 +389,143 @@
   "flashcards": [
     {
       "question": "What is the difference between micro-timing and macro-rhythm in BJJ?",
-      "answer": "Micro-timing is split-second reaction to weight shifts, grip changes, and breathing within a single exchange, while macro-rhythm is the overall pace and flow you set across an entire roll or match."
+      "answer": "Micro-timing is split-second reaction to weight shifts, grip changes, and breathing within a single exchange, while macro-rhythm is the overall pace and flow you set across an entire roll or match.",
+      "answer_line": "Micro=split-second, macro=pace",
+      "distractors": {
+        "plausible": [
+          "Both are about grip fighting",
+          "Micro is strategy, not reflex"
+        ],
+        "trap": [
+          "Macro matters more than micro"
+        ]
+      }
     },
     {
       "question": "How long does a typical high-percentage timing window last during a positional transition?",
-      "answer": "Most windows last roughly 0.5 to 2 seconds, opening as an opponent transitions between stable positions or commits to a directional movement, then closing as they re-establish base."
+      "answer": "Most windows last roughly 0.5 to 2 seconds, opening as an opponent transitions between stable positions or commits to a directional movement, then closing as they re-establish base.",
+      "answer_line": "About 0.5 to 2 seconds",
+      "distractors": {
+        "plausible": [
+          "Under a quarter second",
+          "5 to 10 seconds typical"
+        ],
+        "trap": [
+          "Force it, windows don't matter"
+        ]
+      }
     },
     {
       "question": "Why is tactile feedback often faster than visual observation for recognizing timing windows?",
-      "answer": "Tactile sensation through points of contact registers weight shifts and momentum changes before visual processing completes, which matters most in scrambles and positions with limited sight lines."
+      "answer": "Tactile sensation through points of contact registers weight shifts and momentum changes before visual processing completes, which matters most in scrambles and positions with limited sight lines.",
+      "answer_line": "Touch registers faster than sight",
+      "distractors": {
+        "plausible": [
+          "Vision is more reliable overall",
+          "Sound tips off their intent"
+        ],
+        "trap": [
+          "Always watch opponent's eyes"
+        ]
+      }
     },
     {
       "question": "How should explosive movements like sweeps be coordinated with an opponent's breathing?",
-      "answer": "Time explosive efforts to the opponent's exhalation, when core tension and stability are lowest; attacking during inhalation meets maximal bracing and lowers sweep and finishing success rates."
+      "answer": "Time explosive efforts to the opponent's exhalation, when core tension and stability are lowest; attacking during inhalation meets maximal bracing and lowers sweep and finishing success rates.",
+      "answer_line": "Attack on their exhale",
+      "distractors": {
+        "plausible": [
+          "Attack right after exhale ends",
+          "Sync your own breathing to theirs"
+        ],
+        "trap": [
+          "Time attacks to their inhale"
+        ]
+      }
     },
     {
       "question": "What is compound timing and why does it raise success rates?",
-      "answer": "Compound timing chains a follow-up technique into the 1-3 second window created by an opponent's defensive reaction to your first attack, exploiting their committed defense before they recover mobility."
+      "answer": "Compound timing chains a follow-up technique into the 1-3 second window created by an opponent's defensive reaction to your first attack, exploiting their committed defense before they recover mobility.",
+      "answer_line": "Chain follow-up in 1-3s window",
+      "distractors": {
+        "plausible": [
+          "Chain attacks nonstop, no pause",
+          "Wait for full recovery, then chain"
+        ],
+        "trap": [
+          "Repeat the same failed attack"
+        ]
+      }
     },
     {
       "question": "What is the most common timing error, and how do you correct it?",
-      "answer": "Forcing techniques against braced, stable positions instead of waiting for or creating a window; correct it with positional sparring focused on recognizing openings rather than counting repetitions."
+      "answer": "Forcing techniques against braced, stable positions instead of waiting for or creating a window; correct it with positional sparring focused on recognizing openings rather than counting repetitions.",
+      "answer_line": "Forcing techniques vs braced base",
+      "distractors": {
+        "plausible": [
+          "Not drilling enough repetitions",
+          "Attacking too slowly overall"
+        ],
+        "trap": [
+          "Muscle through their base"
+        ]
+      }
     },
     {
       "question": "Why is maintaining a single constant tempo a liability against skilled opponents?",
-      "answer": "A predictable tempo lets opponents adapt their defenses and anticipate attacks before they develop; deliberately varying pace disrupts their anticipation and manufactures openings to exploit."
+      "answer": "A predictable tempo lets opponents adapt their defenses and anticipate attacks before they develop; deliberately varying pace disrupts their anticipation and manufactures openings to exploit.",
+      "answer_line": "Predictable tempo lets them adapt",
+      "distractors": {
+        "plausible": [
+          "Constant tempo tires them out",
+          "Fast tempo always wins exchanges"
+        ],
+        "trap": [
+          "Keep one tempo for control"
+        ]
+      }
     },
     {
       "question": "How can you create a timing window rather than merely waiting for one?",
-      "answer": "Establish a predictable rhythm with feints and pressure variations to lull the opponent into automatic responses, then break the pattern at a critical moment to generate the opening you want."
+      "answer": "Establish a predictable rhythm with feints and pressure variations to lull the opponent into automatic responses, then break the pattern at a critical moment to generate the opening you want.",
+      "answer_line": "Build rhythm, then break pattern",
+      "distractors": {
+        "plausible": [
+          "Wait passively for an opening",
+          "Attack randomly to confuse them"
+        ],
+        "trap": [
+          "Repeat one feint till it lands"
+        ]
+      }
     },
     {
       "question": "What distinguishes an opponent's initial movement from full commitment, and why does it matter?",
-      "answer": "Initial movement is exploratory and reversible while full commitment redirects their weight and attention; attacking too early lets them counter freely, so wait for commitment before executing."
+      "answer": "Initial movement is exploratory and reversible while full commitment redirects their weight and attention; attacking too early lets them counter freely, so wait for commitment before executing.",
+      "answer_line": "Wait for full weight commitment",
+      "distractors": {
+        "plausible": [
+          "Attack on their first movement",
+          "Wait until they fully stop"
+        ],
+        "trap": [
+          "Attack their exploratory feints"
+        ]
+      }
     },
     {
       "question": "How does proper timing relate to energy conservation in BJJ?",
-      "answer": "Timing aligns technique with the opponent's existing momentum so you redirect force rather than generate it, dramatically lowering strength requirements and sustaining performance over long rolls or matches."
+      "answer": "Timing aligns technique with the opponent's existing momentum so you redirect force rather than generate it, dramatically lowering strength requirements and sustaining performance over long rolls or matches.",
+      "answer_line": "Redirect momentum, not muscle",
+      "distractors": {
+        "plausible": [
+          "Use timing to move faster",
+          "Time attacks to save breath"
+        ],
+        "trap": [
+          "Overpower using raw strength"
+        ]
+      }
     }
   ],
   "clips": [

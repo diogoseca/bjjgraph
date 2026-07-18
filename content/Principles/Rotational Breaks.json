@@ -366,39 +366,129 @@
   "flashcards": [
     {
       "question": "What distinguishes a rotational break from a hyperextension submission?",
-      "answer": "A rotational break twists a joint along its rotational axis past its anatomical limit, loading the ligaments that resist rotation, whereas a hyperextension submission like the armbar drives the joint linearly in a single plane."
+      "answer": "A rotational break twists a joint along its rotational axis past its anatomical limit, loading the ligaments that resist rotation, whereas a hyperextension submission like the armbar drives the joint linearly in a single plane.",
+      "answer_line": "Twists axis, not linear drive",
+      "distractors": {
+        "plausible": [
+          "Same force, different speed",
+          "Bends joint past its limit only"
+        ],
+        "trap": [
+          "Just a slower armbar"
+        ]
+      }
     },
     {
       "question": "Why are rotational breaks like heel hooks considered more dangerous than hyperextension attacks?",
-      "answer": "Rotational attacks produce less proprioceptive warning than hyperextension, so ligament damage can occur before the defender registers significant pain and taps, which is why controlled, gradual application is essential."
+      "answer": "Rotational attacks produce less proprioceptive warning than hyperextension, so ligament damage can occur before the defender registers significant pain and taps, which is why controlled, gradual application is essential.",
+      "answer_line": "Less pain warning before damage",
+      "distractors": {
+        "plausible": [
+          "Rotational grips are stronger",
+          "They target smaller joints"
+        ],
+        "trap": [
+          "Apply fast for best effect"
+        ]
+      }
     },
     {
       "question": "How does the direction of rotation differ between the Kimura and the Americana?",
-      "answer": "The Kimura rotates the shoulder internally (hand turned toward the back), while the Americana rotates it externally (hand turned away from the body); they attack opposite rotational limits of the same shoulder joint."
+      "answer": "The Kimura rotates the shoulder internally (hand turned toward the back), while the Americana rotates it externally (hand turned away from the body); they attack opposite rotational limits of the same shoulder joint.",
+      "answer_line": "Kimura in, Americana out",
+      "distractors": {
+        "plausible": [
+          "Both rotate the same direction",
+          "Kimura is elbow, Americana shoulder"
+        ],
+        "trap": [
+          "Americana rotates internally"
+        ]
+      }
     },
     {
       "question": "What is the most common reason rotational submissions fail against a resisting opponent?",
-      "answer": "The opponent rotates their entire body in the direction of the force, relieving pressure on the joint; the attacker must block torso or hip rotation so the rotation isolates to the joint itself rather than being absorbed."
+      "answer": "The opponent rotates their entire body in the direction of the force, relieving pressure on the joint; the attacker must block torso or hip rotation so the rotation isolates to the joint itself rather than being absorbed.",
+      "answer_line": "Body rotates away, relieving force",
+      "distractors": {
+        "plausible": [
+          "Grip breaks under pressure",
+          "Wrong angle of attack"
+        ],
+        "trap": [
+          "Opponent's joint is too flexible"
+        ]
+      }
     },
     {
       "question": "Why must you control both sides of the target joint before applying rotation?",
-      "answer": "Controlling the limb segments above and below the joint creates a closed system, so rotational force transfers directly to the ligaments instead of being absorbed by body movement or allowing the opponent to extract the limb."
+      "answer": "Controlling the limb segments above and below the joint creates a closed system, so rotational force transfers directly to the ligaments instead of being absorbed by body movement or allowing the opponent to extract the limb.",
+      "answer_line": "Control above and below joint",
+      "distractors": {
+        "plausible": [
+          "Control only the limb's end",
+          "Control the far shoulder"
+        ],
+        "trap": [
+          "Grip the wrist tightly alone"
+        ]
+      }
     },
     {
       "question": "What role does the ankle play as a secondary joint in a heel hook?",
-      "answer": "The ankle is the secondary joint; dorsiflexing and locking the foot prevents it from absorbing the twist, ensuring the rotational force transfers through to the knee where the ligament damage actually occurs."
+      "answer": "The ankle is the secondary joint; dorsiflexing and locking the foot prevents it from absorbing the twist, ensuring the rotational force transfers through to the knee where the ligament damage actually occurs.",
+      "answer_line": "Lock foot so knee takes torque",
+      "distractors": {
+        "plausible": [
+          "Ankle is the real target",
+          "Point the toes to add torque"
+        ],
+        "trap": [
+          "Let the foot rotate freely"
+        ]
+      }
     },
     {
       "question": "Why should grip strength alone never be relied on to finish a rotational submission?",
-      "answer": "Grip-only finishes fatigue quickly and generate insufficient torque against real resistance; rotation should be driven by hip movement, body turning, and weight shift so the whole body produces the finishing force."
+      "answer": "Grip-only finishes fatigue quickly and generate insufficient torque against real resistance; rotation should be driven by hip movement, body turning, and weight shift so the whole body produces the finishing force.",
+      "answer_line": "Drive with hips, not just grip",
+      "distractors": {
+        "plausible": [
+          "Squeeze harder for more torque",
+          "Isolate the wrist grip only"
+        ],
+        "trap": [
+          "Crank fast before they escape"
+        ]
+      }
     },
     {
       "question": "Which position offers the tightest hip control for finishing a heel hook, and why?",
-      "answer": "The Honey Hole (Inside Sankaku or Saddle) traps the thigh with both legs to prevent the hip rotation that would relieve knee torsion, making it the premier platform for finishing rotational attacks on the knee."
+      "answer": "The Honey Hole (Inside Sankaku or Saddle) traps the thigh with both legs to prevent the hip rotation that would relieve knee torsion, making it the premier platform for finishing rotational attacks on the knee.",
+      "answer_line": "Saddle traps thigh, blocks hip",
+      "distractors": {
+        "plausible": [
+          "Outside Ashi controls best",
+          "50-50 gives tightest control"
+        ],
+        "trap": [
+          "Cross Ashi frees the hip"
+        ]
+      }
     },
     {
       "question": "What is slack elimination and why does it matter for rotational breaks?",
-      "answer": "Slack elimination is removing all looseness between your grips and the target joint before applying force; remaining slack lets force dissipate and gives the opponent space to change angles or extract the limb."
+      "answer": "Slack elimination is removing all looseness between your grips and the target joint before applying force; remaining slack lets force dissipate and gives the opponent space to change angles or extract the limb.",
+      "answer_line": "Remove all slack before force",
+      "distractors": {
+        "plausible": [
+          "Apply force, then tighten grips",
+          "Slack helps absorb resistance"
+        ],
+        "trap": [
+          "Leave slack for safety margin"
+        ]
+      }
     }
   ],
   "clips": [

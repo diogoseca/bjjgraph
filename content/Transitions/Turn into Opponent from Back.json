@@ -249,35 +249,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the turn into your opponent from back control?",
-        "answer": "The best timing is when your opponent loosens their seatbelt grip to attempt a choke entry or switches between grip configurations. During the transition between one grip and another, their control is momentarily weakened, creating a window where your rotation faces less resistance. Additionally, when they shift weight to attack your neck, their hook control often loosens as they commit their upper body to the choke attempt, opening the window for hip movement and hook clearing."
+        "answer": "The best timing is when your opponent loosens their seatbelt grip to attempt a choke entry or switches between grip configurations. During the transition between one grip and another, their control is momentarily weakened, creating a window where your rotation faces less resistance. Additionally, when they shift weight to attack your neck, their hook control often loosens as they commit their upper body to the choke attempt, opening the window for hip movement and hook clearing.",
+        "answer_line": "When their grip loosens or shifts",
+        "distractors": {
+          "plausible": [
+            "Right after hooks are inserted",
+            "Whenever you feel uncomfortable"
+          ],
+          "trap": [
+            "While their hooks are fully set"
+          ]
+        }
       },
       {
         "question": "What conditions must be established before attempting to turn into your opponent?",
-        "answer": "You must have your neck defense secured with chin tucked and at least one hand controlling the opponent's choking arm in a two-on-one configuration. The bottom hook should be cleared or neutralized, and you should have created a hip angle by scooting toward the underhook side. Attempting to turn without these prerequisites exposes your neck during rotation and dramatically increases submission risk, making the escape attempt more dangerous than remaining in back control."
+        "answer": "You must have your neck defense secured with chin tucked and at least one hand controlling the opponent's choking arm in a two-on-one configuration. The bottom hook should be cleared or neutralized, and you should have created a hip angle by scooting toward the underhook side. Attempting to turn without these prerequisites exposes your neck during rotation and dramatically increases submission risk, making the escape attempt more dangerous than remaining in back control.",
+        "answer_line": "Chin tucked, two-on-one, hip angle",
+        "distractors": {
+          "plausible": [
+            "Two-on-one grip is enough alone",
+            "Just secure the choking arm"
+          ],
+          "trap": [
+            "Turn as soon as you feel space"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that enables successful rotation during this escape?",
-        "answer": "The hip escape toward the underhook side is the foundational movement. You must scoot your hips toward the side where your opponent's arm passes under your armpit, creating an angle that allows your shoulders and torso to rotate toward them. Without this initial hip angle, your rotation is blocked by their chest-to-back connection and hook leverage, making the turn mechanically impossible against a connected opponent who maintains proper positioning."
+        "answer": "The hip escape toward the underhook side is the foundational movement. You must scoot your hips toward the side where your opponent's arm passes under your armpit, creating an angle that allows your shoulders and torso to rotate toward them. Without this initial hip angle, your rotation is blocked by their chest-to-back connection and hook leverage, making the turn mechanically impossible against a connected opponent who maintains proper positioning.",
+        "answer_line": "Scoot hips to underhook side",
+        "distractors": {
+          "plausible": [
+            "Scoot hips away from the arm",
+            "Bridge straight up first"
+          ],
+          "trap": [
+            "Push hips into their hooks"
+          ]
+        }
       },
       {
         "question": "What is the most common reason this escape fails at the moment of rotation?",
-        "answer": "Failing to clear the bottom hook before rotating is the primary failure point. When the bottom hook remains engaged inside your thigh during the turn attempt, it acts as an anchor that prevents your hips from completing the rotation and allows your opponent to follow your movement while maintaining back control. The hook must be stripped or bypassed through hip elevation before committing to the rotational turn to avoid this common mechanical failure."
+        "answer": "Failing to clear the bottom hook before rotating is the primary failure point. When the bottom hook remains engaged inside your thigh during the turn attempt, it acts as an anchor that prevents your hips from completing the rotation and allows your opponent to follow your movement while maintaining back control. The hook must be stripped or bypassed through hip elevation before committing to the rotational turn to avoid this common mechanical failure.",
+        "answer_line": "Not clearing the bottom hook",
+        "distractors": {
+          "plausible": [
+            "Releasing the choking arm grip",
+            "Turning too slowly"
+          ],
+          "trap": [
+            "Forcing rotation through the hook"
+          ]
+        }
       },
       {
         "question": "What grip configuration must you maintain throughout the turning sequence?",
-        "answer": "Maintain two-on-one control on the opponent's choking arm throughout the entire rotation. Your top hand grips their wrist while your bottom hand controls their forearm or elbow. This grip prevents them from sinking a choke during the vulnerable rotation phase and provides a lever to assist your turn. Releasing this grip prematurely to post or frame is the most common error leading to submission during the escape attempt."
+        "answer": "Maintain two-on-one control on the opponent's choking arm throughout the entire rotation. Your top hand grips their wrist while your bottom hand controls their forearm or elbow. This grip prevents them from sinking a choke during the vulnerable rotation phase and provides a lever to assist your turn. Releasing this grip prematurely to post or frame is the most common error leading to submission during the escape attempt.",
+        "answer_line": "Keep two-on-one on choking arm",
+        "distractors": {
+          "plausible": [
+            "Grip their sleeve instead of wrist",
+            "Switch hands mid-rotation"
+          ],
+          "trap": [
+            "Release the grip to post or frame"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your rotation and why?",
-        "answer": "Rotate toward the underhook side, turning your body to face the arm that passes under your armpit. This direction is mechanically advantageous because it works against the weaker axis of their seatbelt control and brings you toward their arm that has less leverage to resist your rotation. Turning toward the overhook side drives into their stronger controlling arm and often exposes your neck directly to the choking hand, significantly increasing submission risk."
+        "answer": "Rotate toward the underhook side, turning your body to face the arm that passes under your armpit. This direction is mechanically advantageous because it works against the weaker axis of their seatbelt control and brings you toward their arm that has less leverage to resist your rotation. Turning toward the overhook side drives into their stronger controlling arm and often exposes your neck directly to the choking hand, significantly increasing submission risk.",
+        "answer_line": "Toward the underhook side",
+        "distractors": {
+          "plausible": [
+            "Toward your strongest arm",
+            "Away from both hooks"
+          ],
+          "trap": [
+            "Toward the overhook side"
+          ]
+        }
       },
       {
         "question": "Your opponent feels you beginning to rotate and tightens both hooks while driving their chest forward - how do you adjust?",
-        "answer": "Pause the rotation attempt and return to the hand fighting phase. Use your hips to create pressure against their top hook by bridging slightly, then work to strip the re-tightened hook with your foot or knee while maintaining your two-on-one grip. Do not force the rotation against tightened hooks as this wastes energy and may expose your neck. Wait for the next window when they loosen control to attack, then resume the sequence with fresh hip escape and hook clearing."
+        "answer": "Pause the rotation attempt and return to the hand fighting phase. Use your hips to create pressure against their top hook by bridging slightly, then work to strip the re-tightened hook with your foot or knee while maintaining your two-on-one grip. Do not force the rotation against tightened hooks as this wastes energy and may expose your neck. Wait for the next window when they loosen control to attack, then resume the sequence with fresh hip escape and hook clearing.",
+        "answer_line": "Pause, hand fight, strip hook",
+        "distractors": {
+          "plausible": [
+            "Switch grip to overhook side",
+            "Abandon two-on-one and frame"
+          ],
+          "trap": [
+            "Force the rotation faster"
+          ]
+        }
       },
       {
         "question": "If your initial turn attempt is stopped and you are pushed back to full back control, what follow-up escape should you chain?",
-        "answer": "Immediately transition to a back door escape by sliding your hips down and away rather than turning. Your opponent will likely tighten their hooks and chest pressure anticipating another turn attempt, which paradoxically creates space below their control for the back door exit. Alternatively, transition to a shoulder walk escape on the opposite side from your initial turn attempt, using the direction change to exploit their defensive positioning and create unpredictability in your escape system."
+        "answer": "Immediately transition to a back door escape by sliding your hips down and away rather than turning. Your opponent will likely tighten their hooks and chest pressure anticipating another turn attempt, which paradoxically creates space below their control for the back door exit. Alternatively, transition to a shoulder walk escape on the opposite side from your initial turn attempt, using the direction change to exploit their defensive positioning and create unpredictability in your escape system.",
+        "answer_line": "Slide hips down for back door",
+        "distractors": {
+          "plausible": [
+            "Immediately retry same turn",
+            "Bridge and roll to escape"
+          ],
+          "trap": [
+            "Fight to re-turn same direction"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves rotational movement of the neck and spine under load from your opponent's body weight and control pressure. Never jerk your head or neck explosively during the turn; maintain controlled movement throughout the rotation. If you feel your opponent has a deep choking grip during the rotation, pause and return to hand fighting rather than forcing the turn with a partially locked choke. During training, communicate with your partner about resistance levels and tap immediately if any neck compression occurs during the rotation phase. Avoid this technique if you have existing cervical spine injuries without medical clearance.",
@@ -386,11 +466,31 @@
     "flashcards": [
       {
         "question": "How do you recognize that your opponent is about to attempt a turn into you from back control?",
-        "answer": "Key recognition cues include the opponent scooting their hips toward your underhook side, beginning to strip your seatbelt grip with a two-on-one hand configuration, attempting to clear your bottom hook with their foot or knee, and initiating shoulder rotation toward you. The hip scoot is typically the earliest indicator and provides the most reaction time for defensive adjustment before the escape gains momentum."
+        "answer": "Key recognition cues include the opponent scooting their hips toward your underhook side, beginning to strip your seatbelt grip with a two-on-one hand configuration, attempting to clear your bottom hook with their foot or knee, and initiating shoulder rotation toward you. The hip scoot is typically the earliest indicator and provides the most reaction time for defensive adjustment before the escape gains momentum.",
+        "answer_line": "Hips scooting to underhook side",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in hook pressure",
+            "Rapid breathing changes"
+          ],
+          "trap": [
+            "They stop moving completely"
+          ]
+        }
       },
       {
         "question": "What is the most effective response when you feel your opponent beginning to rotate toward you?",
-        "answer": "Immediately tighten your bottom hook by driving it deeper and clamping your knee against their hip. Simultaneously drive your chest forward into their back to eliminate the space needed for rotation. Re-establish your seatbelt grip if it has been partially stripped, prioritizing the choking arm control over the shoulder. The combination of tightened hooks and forward chest pressure makes the rotation mechanically impossible without first re-creating space."
+        "answer": "Immediately tighten your bottom hook by driving it deeper and clamping your knee against their hip. Simultaneously drive your chest forward into their back to eliminate the space needed for rotation. Re-establish your seatbelt grip if it has been partially stripped, prioritizing the choking arm control over the shoulder. The combination of tightened hooks and forward chest pressure makes the rotation mechanically impossible without first re-creating space.",
+        "answer_line": "Tighten hook, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Release hooks to reposition",
+            "Grab a fresh choke attempt"
+          ],
+          "trap": [
+            "Loosen grip to let them turn"
+          ]
+        }
       },
       {
         "question": "When the turn becomes inevitable and you cannot maintain back control, what is the optimal positional transition?",
@@ -398,11 +498,31 @@
       },
       {
         "question": "How does your defensive approach change when you have body triangle locked versus standard hooks?",
-        "answer": "With body triangle, the rotation escape is significantly harder for your opponent because the locked legs prevent the initial hip scoot and hook clearing that enables the turn. Focus on maintaining your body triangle lock and attacking the neck rather than worrying about hook defense. If they do begin to rotate despite the body triangle, the locked legs follow their rotation automatically, often maintaining back control through the turn attempt without requiring manual hook adjustment."
+        "answer": "With body triangle, the rotation escape is significantly harder for your opponent because the locked legs prevent the initial hip scoot and hook clearing that enables the turn. Focus on maintaining your body triangle lock and attacking the neck rather than worrying about hook defense. If they do begin to rotate despite the body triangle, the locked legs follow their rotation automatically, often maintaining back control through the turn attempt without requiring manual hook adjustment.",
+        "answer_line": "Locked legs block the hip scoot",
+        "distractors": {
+          "plausible": [
+            "Switch to standard hooks quickly",
+            "Focus only on hook defense"
+          ],
+          "trap": [
+            "Loosen the triangle to reset hooks"
+          ]
+        }
       },
       {
         "question": "What grip adjustments prevent the two-on-one strip that initiates this escape?",
-        "answer": "Keep your choking arm's elbow tight against their body rather than reaching loosely around their neck, which gives them a lever to grip. Establish a deep collar grip or chin strap rather than a loose neck wrap that is easily controlled with two hands. Use your free hand to cross-grip their wrist or forearm, preventing them from establishing the second hand on your choking arm. Active hand fighting that disrupts their grip establishment is more effective than static grip holding."
+        "answer": "Keep your choking arm's elbow tight against their body rather than reaching loosely around their neck, which gives them a lever to grip. Establish a deep collar grip or chin strap rather than a loose neck wrap that is easily controlled with two hands. Use your free hand to cross-grip their wrist or forearm, preventing them from establishing the second hand on your choking arm. Active hand fighting that disrupts their grip establishment is more effective than static grip holding.",
+        "answer_line": "Keep elbow tight, deep collar grip",
+        "distractors": {
+          "plausible": [
+            "Hold grip static, don't fight hands",
+            "Reach loosely around the neck"
+          ],
+          "trap": [
+            "Wrap loosely around their neck"
+          ]
+        }
       }
     ],
     "training_progressions": [

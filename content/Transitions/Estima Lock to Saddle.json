@@ -224,7 +224,17 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Estima Lock to Saddle transition?",
-        "answer": "The primary goal is to convert a single-attack footlock position (Estima Lock) into the superior Saddle (Inside Sankaku) configuration that offers multiple high-percentage finishing options including inside heel hooks, outside heel hooks, kneebars, and calf slicers. This positional upgrade is executed when the opponent successfully defends the original Estima Lock attack."
+        "answer": "The primary goal is to convert a single-attack footlock position (Estima Lock) into the superior Saddle (Inside Sankaku) configuration that offers multiple high-percentage finishing options including inside heel hooks, outside heel hooks, kneebars, and calf slicers. This positional upgrade is executed when the opponent successfully defends the original Estima Lock attack.",
+        "answer_line": "Upgrade to multi-attack Saddle",
+        "distractors": {
+          "plausible": [
+            "Finish the footlock faster",
+            "Reset to neutral ashi position"
+          ],
+          "trap": [
+            "Release the leg entanglement"
+          ]
+        }
       },
       {
         "question": "Your opponent begins counter-rotating their ankle during your Estima Lock attempt—what specific signals tell you to initiate the backstep?",
@@ -236,7 +246,17 @@
       },
       {
         "question": "Your opponent posts their free foot during your backstep—how do you adjust?",
-        "answer": "Accelerate the backstep rotation and use your near-side hand to block their posting leg before it can establish a stable base. If they successfully post before you can block, immediately recognize that the Saddle entry is compromised and transition to leg drag passing or outside ashi-garami instead of forcing a failing position. The key is rapid decision-making rather than stubbornly pursuing the original plan."
+        "answer": "Accelerate the backstep rotation and use your near-side hand to block their posting leg before it can establish a stable base. If they successfully post before you can block, immediately recognize that the Saddle entry is compromised and transition to leg drag passing or outside ashi-garami instead of forcing a failing position. The key is rapid decision-making rather than stubbornly pursuing the original plan.",
+        "answer_line": "Block post, else pass instead",
+        "distractors": {
+          "plausible": [
+            "Force the triangle anyway",
+            "Slow down and reassess grips"
+          ],
+          "trap": [
+            "Release the leg to chase the post"
+          ]
+        }
       },
       {
         "question": "Why must you thread your inside leg past the opponent's far hip before locking the triangle?",
@@ -244,11 +264,31 @@
       },
       {
         "question": "What grip configuration should you establish once the Saddle position is secured?",
-        "answer": "Secure the opponent's heel with both hands—typically using a cup grip (palms facing up, fingers interlocked around the heel) for inside heel hook attacks, or a cross grip configuration for outside heel hook setups. Simultaneously, use your triangle squeeze and body positioning to control their knee line, preventing the rotation escape that defeats heel hook mechanics."
+        "answer": "Secure the opponent's heel with both hands—typically using a cup grip (palms facing up, fingers interlocked around the heel) for inside heel hook attacks, or a cross grip configuration for outside heel hook setups. Simultaneously, use your triangle squeeze and body positioning to control their knee line, preventing the rotation escape that defeats heel hook mechanics.",
+        "answer_line": "Cup or cross grip heel, control knee",
+        "distractors": {
+          "plausible": [
+            "Grab the toes, ignore knee line",
+            "Grip the shin, release triangle"
+          ],
+          "trap": [
+            "Let go of heel to grip belt"
+          ]
+        }
       },
       {
         "question": "Your opponent sits up aggressively and frames on your hips as you initiate the backstep—should you abort or continue?",
-        "answer": "Continue the backstep while swimming past their frames with your free hand. The sitting position actually assists your Saddle establishment by bringing their thigh closer to your locking legs. Their sit-up reduces the distance your hips need to travel and their frames become less effective once you complete the rotation behind their knee line. This is one of the lower-threat counters to address."
+        "answer": "Continue the backstep while swimming past their frames with your free hand. The sitting position actually assists your Saddle establishment by bringing their thigh closer to your locking legs. Their sit-up reduces the distance your hips need to travel and their frames become less effective once you complete the rotation behind their knee line. This is one of the lower-threat counters to address.",
+        "answer_line": "Continue, swim past frames",
+        "distractors": {
+          "plausible": [
+            "Abort and reset to neutral",
+            "Stop and re-grip the footlock"
+          ],
+          "trap": [
+            "Release legs to fight frames"
+          ]
+        }
       },
       {
         "question": "What finishing options become available from Saddle that were not possible from Estima Lock?",
@@ -256,7 +296,17 @@
       },
       {
         "question": "When should you abort the Saddle transition entirely and pursue alternative positions?",
-        "answer": "Abort when the opponent successfully posts their free foot with a stable base before you can block it, when they create significant space through explosive bridging that defeats your hip pressure, or when they stand up during the transition window. In these cases, pursuing leg drag passing, outside ashi-garami, or standing passes preserves offensive momentum rather than forcing a structurally compromised position."
+        "answer": "Abort when the opponent successfully posts their free foot with a stable base before you can block it, when they create significant space through explosive bridging that defeats your hip pressure, or when they stand up during the transition window. In these cases, pursuing leg drag passing, outside ashi-garami, or standing passes preserves offensive momentum rather than forcing a structurally compromised position.",
+        "answer_line": "Opponent posts, bridges, or stands",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your sleeve",
+            "Opponent breathes heavily"
+          ],
+          "trap": [
+            "Keep forcing rotation regardless"
+          ]
+        }
       },
       {
         "question": "How does the Rolling Backstep variant differ from standard execution and when is it appropriate?",
@@ -377,7 +427,17 @@
     "flashcards": [
       {
         "question": "What is the primary recognition cue that the Estima Lock to Saddle transition is beginning?",
-        "answer": "The primary cue is the attacker releasing or loosening their figure-four footlock grip and shifting to controlling your calf or knee line. This grip change indicates they are abandoning the footlock and preparing the backstep rotation. Simultaneously, you will feel their hip pressure shift from driving into your trapped leg to rotating away from it. Recognizing this grip change gives you the narrow defensive window to act before the backstep completes."
+        "answer": "The primary cue is the attacker releasing or loosening their figure-four footlock grip and shifting to controlling your calf or knee line. This grip change indicates they are abandoning the footlock and preparing the backstep rotation. Simultaneously, you will feel their hip pressure shift from driving into your trapped leg to rotating away from it. Recognizing this grip change gives you the narrow defensive window to act before the backstep completes.",
+        "answer_line": "Grip shifts from foot to calf/knee",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar tighter",
+            "Opponent taps the mat"
+          ],
+          "trap": [
+            "Opponent releases the leg entirely"
+          ]
+        }
       },
       {
         "question": "Why is preventing the Saddle a higher priority than defending the Estima Lock?",
@@ -385,7 +445,17 @@
       },
       {
         "question": "Your attacker shifts their grip from your foot to your calf—what is your immediate defensive action?",
-        "answer": "Immediately post your free leg on the mat or against the attacker's hip to block their rotation pathway, and begin counter-rotating your hips toward them. The grip shift from foot to calf is the clearest indicator the backstep is imminent, and you have approximately one to two seconds before the rotation begins. Your free leg post physically blocks the path their hips need to travel, while hip counter-rotation prevents them from achieving the perpendicular alignment required for Saddle."
+        "answer": "Immediately post your free leg on the mat or against the attacker's hip to block their rotation pathway, and begin counter-rotating your hips toward them. The grip shift from foot to calf is the clearest indicator the backstep is imminent, and you have approximately one to two seconds before the rotation begins. Your free leg post physically blocks the path their hips need to travel, while hip counter-rotation prevents them from achieving the perpendicular alignment required for Saddle.",
+        "answer_line": "Post free leg, counter-rotate hips",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist to stop grip change",
+            "Push their head away"
+          ],
+          "trap": [
+            "Straighten trapped leg and relax"
+          ]
+        }
       },
       {
         "question": "The attacker has completed the backstep and their inside leg is between yours but the triangle is not yet locked—what can you still do?",

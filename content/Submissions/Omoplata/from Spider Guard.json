@@ -312,52 +312,152 @@
       {
         "question": "What anatomical structure does the Omoplata from Spider Guard primarily attack?",
         "answer": "The omoplata primarily attacks the glenohumeral (shoulder) joint through internal rotation of the humerus against the fixed shoulder girdle. The trapped arm is extended behind the opponent's back while the attacker's hips create rotational force on the shoulder, stressing the joint capsule, rotator cuff muscles, and surrounding ligaments. Secondary stress is placed on the acromioclavicular joint and the biceps tendon.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder via internal rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow through hyperextension",
+            "Wrist via rotation lock"
+          ],
+          "trap": [
+            "Neck through spinal compression"
+          ]
+        }
       },
       {
         "question": "What indicates you are approaching the breaking point of the shoulder during the omoplata finish?",
         "answer": "As you approach the breaking point, the opponent's trapped arm will begin to rotate involuntarily, their shoulder will visibly elevate off the mat, and they will typically exhibit signs of increasing discomfort such as rapid breathing, vocalization, or frantic escape attempts. The opponent's wrist may also begin to rotate externally as the shoulder reaches its rotational limit. At this point, apply pressure extremely slowly as the joint can fail suddenly without further warning.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm rotates, shoulder elevates",
+        "distractors": {
+          "plausible": [
+            "Opponent goes completely limp",
+            "Loud verbal tap only"
+          ],
+          "trap": [
+            "Sudden relax means crank harder"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the sleeve grip throughout the entry the most critical mechanical requirement?",
         "answer": "The sleeve grip is your mechanical anchor that prevents the opponent from retracting their arm during the leg swing transition. Without it, the opponent can simply pull their arm back and posture up, completely negating the omoplata entry. The grip also provides directional control to guide the arm into the proper position for the shoulder lock. Losing this grip at any point during the entry converts a high-percentage attack into a scramble that favors the top player.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevents arm retraction on entry",
+        "distractors": {
+          "plausible": [
+            "Controls opponent's posture only",
+            "Sets up a collar choke backup"
+          ],
+          "trap": [
+            "Release grip to switch to overhook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling forward during the omoplata - what adjustment prevents this escape?",
         "answer": "Immediately grab the opponent's far hip, belt, or pants with your reaching hand to block the rolling direction. Lean your torso forward over their back to drive their chest flat against the mat, removing the space they need to initiate the roll. If the roll has already begun, follow them by maintaining leg control and hip pressure, rotating with their movement to re-establish the omoplata from the new angle or transition to a mounted position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grab far hip, flatten their chest",
+        "distractors": {
+          "plausible": [
+            "Release legs, chase the roll",
+            "Grab near hip to block roll"
+          ],
+          "trap": [
+            "Let go and re-guard instead"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the opponent clasps their hands together to defend the finish?",
         "answer": "First, wedge your free hand between their clasped hands and apply a prying grip break by pushing one wrist while pulling the other. If this fails, attack the top hand with a wrist lock by bending it toward the pinky side while maintaining omoplata hip pressure. Alternatively, maintain the omoplata pressure while transitioning to sweep them forward by shifting your weight and using the trapped arm as a lever, which often breaks the grip as they need their hands to post during the sweep.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pry wrists or wristlock, or sweep",
+        "distractors": {
+          "plausible": [
+            "Strip grip with single-hand pull",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Release trapped arm, regrip collar"
+          ]
+        }
       },
       {
         "question": "What are the critical control requirements that must be established before applying finishing pressure?",
         "answer": "Three control elements must be established: First, your legs must be tightly squeezing around the trapped upper arm with knees compressed together. Second, your hips must be positioned close to the opponent's trapped shoulder for maximum rotational leverage. Third, you must have control over the opponent's far hip to prevent the forward roll escape. Without all three elements, the finish either lacks sufficient force to achieve the tap or allows an escape route.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tight legs, close hips, hip control",
+        "distractors": {
+          "plausible": [
+            "Just squeeze the legs really tight",
+            "Sit up fast, worry hips later"
+          ],
+          "trap": [
+            "Release far hip, use both hands"
+          ]
+        }
       },
       {
         "question": "At what point during the omoplata sequence does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs when the attacker has fully sat up, the opponent's torso is flattened chest-down on the mat, the attacker's legs are squeezed tightly around the trapped arm, and the far hip is controlled. At this configuration, the opponent cannot roll forward (hip controlled), cannot posture up (flattened and compressed), and cannot extract their arm (legs squeezing). Any hip extension from the attacker at this point directly translates to shoulder joint pressure with no viable escape mechanism.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit-up, flat torso, legs, hip held",
+        "distractors": {
+          "plausible": [
+            "Legs swung over, arm isolated",
+            "Sleeve grip broken free"
+          ],
+          "trap": [
+            "Opponent posts hand, prepare crank"
+          ]
+        }
       },
       {
         "question": "Why must you apply the omoplata finish slowly and progressively rather than with a quick jerk?",
         "answer": "The shoulder joint is particularly vulnerable to sudden rotational force because the pain response lags behind the actual structural damage. An opponent may not feel the full extent of the pressure until ligaments or the joint capsule have already been compromised. Slow, progressive application allows the opponent time to recognize the threat and tap before injury occurs. Quick, jerky application risks causing shoulder dislocation or rotator cuff tears before either party can react.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pain lags behind joint damage",
+        "distractors": {
+          "plausible": [
+            "Faster taps mean less overall risk",
+            "Quick jerk saves your energy"
+          ],
+          "trap": [
+            "Quick crank ensures a fast tap"
+          ]
+        }
       },
       {
         "question": "How does the omoplata entry differ when initiated from spider guard versus from closed guard?",
         "answer": "From spider guard, the arm is already isolated and extended through the sleeve grip and foot-on-bicep configuration, making the leg swing more direct because the opponent's arm is already controlled at distance. From closed guard, you must first break posture, isolate one arm through overhook or wrist control, and then create the angle to swing the leg over. Spider guard provides a more fluid entry because the arm isolation and angle creation are built into the guard's fundamental structure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Spider guard: arm already isolated",
+        "distractors": {
+          "plausible": [
+            "Closed guard is faster to enter",
+            "Both require identical setup"
+          ],
+          "trap": [
+            "Closed guard needs no arm isolation"
+          ]
+        }
       },
       {
         "question": "What competition finishing strategies optimize the omoplata success rate against high-level opponents?",
         "answer": "Against high-level opponents, chain the omoplata with other attacks rather than relying on it as a standalone finish. Use the triangle threat to force the opponent to defend with both arms, then isolate one arm for the omoplata. When they defend the omoplata by clasping hands, transition to a sweep to score points, which often forces them to release the clasp. Control the wrist of the trapped arm to prevent grip-based defenses, and always maintain far hip control to remove the most common high-level counter, the forward roll.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain with triangle, control wrist",
+        "distractors": {
+          "plausible": [
+            "Rely on omoplata as lone finish",
+            "Skip hip control, sweep instead"
+          ],
+          "trap": [
+            "Release wrist control, arm-drag away"
+          ]
+        }
       }
     ],
     "clips": [
@@ -481,22 +581,62 @@
       {
         "question": "What is the earliest recognition cue that an omoplata from spider guard is being set up?",
         "answer": "The earliest cue is feeling asymmetric sleeve pressure - one arm being pulled significantly harder than the other while the foot on that side's bicep pushes away. This creates the angle and arm isolation needed for the omoplata entry. The moment you feel one arm being pulled more forcefully toward the opponent's hip while the other is being pushed, they are setting up the entry angle for the leg swing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Asymmetric sleeve pull, foot pushes",
+        "distractors": {
+          "plausible": [
+            "Both sleeves pulled equally hard",
+            "Opponent grips your far collar"
+          ],
+          "trap": [
+            "Wait until both sleeves gripped"
+          ]
+        }
       },
       {
         "question": "Why must the forward roll escape be initiated immediately rather than after assessing the position?",
         "answer": "The forward roll escape has a narrow window of effectiveness that closes within 1-2 seconds of the attacker's leg clearing your shoulder. Once the attacker sits up and grabs your far hip, the roll is physically blocked and you lose your highest-percentage escape. Every moment spent assessing the situation is time the attacker uses to establish the controls that make the roll impossible. Commit to the roll the instant you feel the leg pass over your shoulder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Window closes fast, act instantly",
+        "distractors": {
+          "plausible": [
+            "You have several seconds to react",
+            "Assess position before rolling"
+          ],
+          "trap": [
+            "Wait for hip control to grab first"
+          ]
+        }
       },
       {
         "question": "When should you tap to the omoplata rather than continuing to fight the submission?",
         "answer": "Tap immediately if you feel sharp pain in the shoulder, if you feel a grinding or popping sensation in the joint, if your torso is completely flattened and the attacker has full hip control with no remaining escape options, or if the attacker begins applying finishing pressure and you cannot initiate any escape within 2-3 seconds. The shoulder joint can sustain permanent damage before you fully register the severity of the pressure. When in doubt, tap early - the position can be restarted in training but a damaged shoulder cannot.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sharp pain or grinding, escape gone",
+        "distractors": {
+          "plausible": [
+            "Only when told to by your coach",
+            "Wait for an audible pop first"
+          ],
+          "trap": [
+            "Fight through mild discomfort"
+          ]
+        }
       },
       {
         "question": "How can you prevent the omoplata entry while maintaining your spider guard passing position?",
         "answer": "Maintain strong bilateral posture by resisting any asymmetric pull equally with both arms. Keep your elbows connected to your torso rather than allowing them to be extended away from your body. When you feel one sleeve being pulled harder, immediately step forward on that side to reduce the angle available for the leg swing. Strip the sleeve grip proactively when you sense the opponent loading their hips for rotation. Address the spider guard grips systematically before attempting to pass.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Resist pull evenly, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Push through, ignore the sleeves",
+            "Pull away hard when grabbed"
+          ],
+          "trap": [
+            "Extend arms to break the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -201,10 +201,14 @@ def main():
     ap.add_argument("--file", action="append", default=[])
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--count-only", action="store_true")
+    ap.add_argument("--shard", type=int, default=0, help="0-based shard index for parallel runs")
+    ap.add_argument("--num-shards", type=int, default=1, help="total shards; each worker takes files[shard::num]")
     args = ap.parse_args()
 
     STATE_DIR.mkdir(parents=True, exist_ok=True)
-    state_path = STATE_DIR / "state.json"
+    # per-shard state file so parallel workers never race on one path
+    state_path = STATE_DIR / ("state.json" if args.num_shards <= 1
+                              else f"state-{args.shard}of{args.num_shards}.json")
     state = json.loads(state_path.read_text()) if state_path.exists() else {"done": []}
     done = set(state["done"])
 
@@ -213,9 +217,14 @@ def main():
     else:
         pool = curriculum_files() if args.curriculum_only else set(
             glob.glob(str(ROOT / "content/**/*.json"), recursive=True))
+        # shard the STABLE sorted pool BEFORE filtering by done/needs_authoring — slicing the
+        # filtered list would shift indices on resume and re-partition the corpus (gaps/overlap).
+        candidates = sorted(pool)
+        if args.num_shards > 1:
+            candidates = candidates[args.shard :: args.num_shards]
         # only files that actually have a card needing authoring
         files = []
-        for f in sorted(pool):
+        for f in candidates:
             if f in done:
                 continue
             try:
@@ -227,7 +236,8 @@ def main():
                 files.append(f)
     if args.max_files:
         files = files[: args.max_files]
-    print(f"author_mc: {len(files)} files to author (done so far: {len(done)}) "
+    shard_tag = f"[shard {args.shard}/{args.num_shards}] " if args.num_shards > 1 else ""
+    print(f"author_mc: {shard_tag}{len(files)} files to author (done so far: {len(done)}) "
           f"{'[curriculum-only] ' if args.curriculum_only else ''}budget={MC_LINE_BUDGET}")
 
     if args.count_only:

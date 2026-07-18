@@ -261,35 +261,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for threading the lockdown when your opponent is in deep half top?",
-        "answer": "The best timing is immediately after the opponent attempts to shift their weight forward to establish crossface pressure or begins adjusting their base. During these weight transfers, their near leg becomes momentarily lighter and less mobile, making it easier to thread the lockdown without them retracting the leg. Attempting the lockdown when they are static and balanced gives them the best chance of detecting and preventing the configuration."
+        "answer": "The best timing is immediately after the opponent attempts to shift their weight forward to establish crossface pressure or begins adjusting their base. During these weight transfers, their near leg becomes momentarily lighter and less mobile, making it easier to thread the lockdown without them retracting the leg. Attempting the lockdown when they are static and balanced gives them the best chance of detecting and preventing the configuration.",
+        "answer_line": "As they shift weight or base",
+        "distractors": {
+          "plausible": [
+            "Right after securing underhook",
+            "Once they settle into crossface"
+          ],
+          "trap": [
+            "Only when they're still and set"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can begin the Electric Chair transition from deep half?",
-        "answer": "Four conditions must be met: your deep underhook must be secure with the far leg pulled tight to your chest, your head must be positioned below the opponent's hip line to prevent effective crossface, the opponent's near leg must be accessible between your legs without obstruction, and your hips must be mobile enough to extend once the lockdown is established. Missing any of these conditions means you should address the deficiency before attempting the entry."
+        "answer": "Four conditions must be met: your deep underhook must be secure with the far leg pulled tight to your chest, your head must be positioned below the opponent's hip line to prevent effective crossface, the opponent's near leg must be accessible between your legs without obstruction, and your hips must be mobile enough to extend once the lockdown is established. Missing any of these conditions means you should address the deficiency before attempting the entry.",
+        "answer_line": "Deep underhook + low head + open leg",
+        "distractors": {
+          "plausible": [
+            "Underhook alone is enough",
+            "Head above their hip line"
+          ],
+          "trap": [
+            "Thread lockdown before underhook set"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the Electric Chair entry?",
-        "answer": "The perpendicular hip extension away from the opponent is the most critical movement. After the lockdown is secured, your hips must drive away from the opponent while the underhook pulls their upper body and far leg in the opposite direction. This creates the splitting force that defines the Electric Chair. Without this perpendicular extension, the position lacks both sweep leverage and submission threat, making it easily defended."
+        "answer": "The perpendicular hip extension away from the opponent is the most critical movement. After the lockdown is secured, your hips must drive away from the opponent while the underhook pulls their upper body and far leg in the opposite direction. This creates the splitting force that defines the Electric Chair. Without this perpendicular extension, the position lacks both sweep leverage and submission threat, making it easily defended.",
+        "answer_line": "Extend hips perpendicular away",
+        "distractors": {
+          "plausible": [
+            "Pull hips straight back",
+            "Rotate hips toward opponent"
+          ],
+          "trap": [
+            "Keep hips flat and square"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points that cause the Electric Chair entry to collapse?",
-        "answer": "The three most common failure points are: losing the deep underhook during lockdown threading because attention shifts entirely to the legs, failing to complete the lockdown triangle before the opponent retracts their near leg, and not achieving the perpendicular angle because the bottom player stays flat rather than rotating. Each failure point corresponds to a sequential step in the technique, so drilling the transition in strict step-by-step order addresses all three."
+        "answer": "The three most common failure points are: losing the deep underhook during lockdown threading because attention shifts entirely to the legs, failing to complete the lockdown triangle before the opponent retracts their near leg, and not achieving the perpendicular angle because the bottom player stays flat rather than rotating. Each failure point corresponds to a sequential step in the technique, so drilling the transition in strict step-by-step order addresses all three.",
+        "answer_line": "Drill each step in order",
+        "distractors": {
+          "plausible": [
+            "Focus only on the lockdown",
+            "Rush all steps at once"
+          ],
+          "trap": [
+            "Prioritize speed over the underhook"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration is required for the fully established Electric Chair position?",
-        "answer": "Three simultaneous controls are needed: the deep underhook wrapping around the opponent's far thigh and reaching toward their far hip or lat, the lockdown figure-four on their near leg with your shin across their shin and feet triangled, and your free hand controlling their far ankle pulling it toward your near hip. All three must work in coordination - the underhook prevents escape upward, the lockdown prevents near leg extraction, and the ankle grip maximizes the splitting angle."
+        "answer": "Three simultaneous controls are needed: the deep underhook wrapping around the opponent's far thigh and reaching toward their far hip or lat, the lockdown figure-four on their near leg with your shin across their shin and feet triangled, and your free hand controlling their far ankle pulling it toward your near hip. All three must work in coordination - the underhook prevents escape upward, the lockdown prevents near leg extraction, and the ankle grip maximizes the splitting angle.",
+        "answer_line": "Underhook, lockdown, ankle control",
+        "distractors": {
+          "plausible": [
+            "Lockdown and underhook only",
+            "Two hands both on the ankle"
+          ],
+          "trap": [
+            "Release underhook for grip"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force you should apply during the Electric Chair entry?",
-        "answer": "The primary direction is a splitting vector where two opposing forces act simultaneously. The lockdown drives the opponent's near leg downward and away from their body while the underhook and ankle control pull the far leg toward your chest. Additionally, your hips extend perpendicular to the opponent creating lateral separation. This three-dimensional force application is what makes the Electric Chair so difficult to defend compared to simpler one-directional sweeps."
+        "answer": "The primary direction is a splitting vector where two opposing forces act simultaneously. The lockdown drives the opponent's near leg downward and away from their body while the underhook and ankle control pull the far leg toward your chest. Additionally, your hips extend perpendicular to the opponent creating lateral separation. This three-dimensional force application is what makes the Electric Chair so difficult to defend compared to simpler one-directional sweeps.",
+        "answer_line": "Split legs, extend perpendicular",
+        "distractors": {
+          "plausible": [
+            "Pull straight backward only",
+            "Push straight down on legs"
+          ],
+          "trap": [
+            "Drive straight forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat and straightens their arm to resist the sweep - how do you adjust your attack?",
-        "answer": "Their posting arm removes one hand from defending the split, so immediately increase the submission pressure by extending the lockdown harder and pulling the ankle more aggressively. Their posting hand is also vulnerable to a kimura attack - release the ankle momentarily to secure a two-on-one on the posting arm, then use the kimura threat to break their post and complete the sweep. The opponent cannot simultaneously post to prevent the sweep and defend the submission."
+        "answer": "Their posting arm removes one hand from defending the split, so immediately increase the submission pressure by extending the lockdown harder and pulling the ankle more aggressively. Their posting hand is also vulnerable to a kimura attack - release the ankle momentarily to secure a two-on-one on the posting arm, then use the kimura threat to break their post and complete the sweep. The opponent cannot simultaneously post to prevent the sweep and defend the submission.",
+        "answer_line": "Two-on-one, threaten kimura",
+        "distractors": {
+          "plausible": [
+            "Just extend lockdown harder",
+            "Keep pulling the ankle grip"
+          ],
+          "trap": [
+            "Release lockdown completely"
+          ]
+        }
       },
       {
         "question": "The opponent successfully defends the Electric Chair by driving crossface - what chain attacks are available?",
-        "answer": "If the crossface prevents the Electric Chair angle, release the lockdown and use the existing deep underhook to execute the Waiter Sweep, which is actually enhanced by their forward crossface pressure. Alternatively, abandon the lockdown threading and transition to the Old School sweep by rolling backward with the underhook. If neither sweep is available, the deep half position itself remains viable for back takes when the opponent overcommits to the crossface direction."
+        "answer": "If the crossface prevents the Electric Chair angle, release the lockdown and use the existing deep underhook to execute the Waiter Sweep, which is actually enhanced by their forward crossface pressure. Alternatively, abandon the lockdown threading and transition to the Old School sweep by rolling backward with the underhook. If neither sweep is available, the deep half position itself remains viable for back takes when the opponent overcommits to the crossface direction.",
+        "answer_line": "Switch to the Waiter Sweep",
+        "distractors": {
+          "plausible": [
+            "Fight to regain the angle",
+            "Abandon underhook, retry later"
+          ],
+          "trap": [
+            "Force the Electric Chair anyway"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Electric Chair Entry involves significant stress on the opponent's knee joint and hip flexors through the lockdown extension and splitting pressure. Apply the lockdown extension gradually during training, never cranking the split explosively. Communicate with your training partner about pressure levels and respect tap signals immediately. Athletes with pre-existing knee or groin injuries should approach this technique cautiously. During drilling, establish agreed-upon resistance levels before beginning repetitions and increase gradually. The lockdown itself can create uncomfortable torque on the trapped knee, so release immediately if your partner indicates any sharp joint pain rather than continuing to adjust the position.",
@@ -403,19 +483,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the Electric Chair entry from deep half?",
-        "answer": "The earliest cue is feeling the opponent's outside leg moving over your near shin in a threading motion. In standard deep half, their legs stay below and behind your trapped leg. The moment a leg crosses over the top of your shin, it signals lockdown threading. This happens before the figure-four is completed, giving you a critical window to retract your leg and prevent the lockdown from being established."
+        "answer": "The earliest cue is feeling the opponent's outside leg moving over your near shin in a threading motion. In standard deep half, their legs stay below and behind your trapped leg. The moment a leg crosses over the top of your shin, it signals lockdown threading. This happens before the figure-four is completed, giving you a critical window to retract your leg and prevent the lockdown from being established.",
+        "answer_line": "Leg crosses over your shin",
+        "distractors": {
+          "plausible": [
+            "They secure a deep underhook",
+            "They shift weight forward"
+          ],
+          "trap": [
+            "Wait for the full lockdown"
+          ]
+        }
       },
       {
         "question": "Why is forward crossface pressure the primary defensive tool against the Electric Chair entry?",
-        "answer": "Forward crossface pressure serves three defensive functions simultaneously: it flattens the opponent and prevents them from creating the perpendicular hip angle needed for the Electric Chair, it restricts their underhook depth and prevents them from reaching your far ankle, and it loads your weight onto their upper body which prevents the hip extension that powers the splitting mechanism. No other single defensive action addresses all three elements of the Electric Chair threat."
+        "answer": "Forward crossface pressure serves three defensive functions simultaneously: it flattens the opponent and prevents them from creating the perpendicular hip angle needed for the Electric Chair, it restricts their underhook depth and prevents them from reaching your far ankle, and it loads your weight onto their upper body which prevents the hip extension that powers the splitting mechanism. No other single defensive action addresses all three elements of the Electric Chair threat.",
+        "answer_line": "Flattens, blocks hook, loads weight",
+        "distractors": {
+          "plausible": [
+            "Just prevents the underhook",
+            "Only stops the hip angle"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully established the Electric Chair position with lockdown, underhook, and ankle control - what is your best escape strategy?",
-        "answer": "With the full Electric Chair established, prioritize breaking the weakest link in the chain. Address the ankle grip first by stripping their hand off your far ankle using your free hand. Without ankle control, the splitting pressure is significantly reduced. Next, apply the limp leg concept to your trapped leg and begin driving forward to flatten them. Finally, work to break the lockdown triangle methodically. If the submission pressure becomes dangerous before you can escape, tap rather than risk knee or groin injury."
+        "answer": "With the full Electric Chair established, prioritize breaking the weakest link in the chain. Address the ankle grip first by stripping their hand off your far ankle using your free hand. Without ankle control, the splitting pressure is significantly reduced. Next, apply the limp leg concept to your trapped leg and begin driving forward to flatten them. Finally, work to break the lockdown triangle methodically. If the submission pressure becomes dangerous before you can escape, tap rather than risk knee or groin injury.",
+        "answer_line": "Strip ankle grip first",
+        "distractors": {
+          "plausible": [
+            "Break the lockdown first",
+            "Flatten them before anything"
+          ],
+          "trap": [
+            "Yank your trapped leg free"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from transitioning to a Truck position if you successfully defend the Electric Chair?",
-        "answer": "When defending the Electric Chair, be aware that the opponent may abandon the split and instead use the lockdown control to roll you into the Truck position by inserting a hook between your legs. To prevent this, keep your trapped leg knee tight to the mat and avoid letting the opponent roll underneath you. If they begin the roll, immediately sprawl your hips and use your free leg to post wide, preventing the rotation that leads to Truck entry."
+        "answer": "When defending the Electric Chair, be aware that the opponent may abandon the split and instead use the lockdown control to roll you into the Truck position by inserting a hook between your legs. To prevent this, keep your trapped leg knee tight to the mat and avoid letting the opponent roll underneath you. If they begin the roll, immediately sprawl your hips and use your free leg to post wide, preventing the rotation that leads to Truck entry.",
+        "answer_line": "Keep knee tight, sprawl if rolled",
+        "distractors": {
+          "plausible": [
+            "Post narrow to block the roll",
+            "Pull knee up off the mat"
+          ],
+          "trap": [
+            "Let them roll, then reverse"
+          ]
+        }
       }
     ],
     "training_progressions": [

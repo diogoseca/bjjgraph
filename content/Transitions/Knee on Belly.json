@@ -360,7 +360,17 @@
       },
       {
         "question": "What grip combination provides the best control for initiating the Knee on Belly transition?",
-        "answer": "The far lapel grip with the nearside hand provides head control and prevents the opponent from sitting up or turning toward you. The far hand either posts on the mat for base during the transition or controls the near hip to prevent bridging. This combination maintains at least one control point throughout the transition while providing options for both stabilization and follow-up attacks."
+        "answer": "The far lapel grip with the nearside hand provides head control and prevents the opponent from sitting up or turning toward you. The far hand either posts on the mat for base during the transition or controls the near hip to prevent bridging. This combination maintains at least one control point throughout the transition while providing options for both stabilization and follow-up attacks.",
+        "answer_line": "Far lapel grip, nearside hand",
+        "distractors": {
+          "plausible": [
+            "Near lapel grip, far hand posts",
+            "Collar and sleeve grip"
+          ],
+          "trap": [
+            "Both hands grip the far hip"
+          ]
+        }
       },
       {
         "question": "Your opponent stays completely still under your Knee on Belly - how do you escalate the position?",

@@ -230,43 +230,143 @@
     "flashcards": [
       {
         "question": "What is the primary biomechanical difference between the Sweep to Mount and the Butterfly Sweep with Guillotine from Hindulotine?",
-        "answer": "The Sweep to Mount uses a hip bump bridge mechanic where feet are planted on the mat and explosive bridging creates the off-balance, while the Butterfly Sweep with Guillotine uses butterfly hooks inside the opponent's thighs to elevate and redirect their forward momentum. The hip bump variant works when hooks are unavailable and relies on directional bridging force rather than opponent's forward pressure."
+        "answer": "The Sweep to Mount uses a hip bump bridge mechanic where feet are planted on the mat and explosive bridging creates the off-balance, while the Butterfly Sweep with Guillotine uses butterfly hooks inside the opponent's thighs to elevate and redirect their forward momentum. The hip bump variant works when hooks are unavailable and relies on directional bridging force rather than opponent's forward pressure.",
+        "answer_line": "Hip bump bridge, feet planted",
+        "distractors": {
+          "plausible": [
+            "Butterfly hooks elevate opponent",
+            "Same mechanic, different name"
+          ],
+          "trap": [
+            "Pull them over with the choke"
+          ]
+        }
       },
       {
         "question": "Why must you establish a 30-45 degree hip angle before initiating the sweep?",
-        "answer": "The hip angle converts your bridge from a purely vertical lift into a directional off-balance. A flat bridge only lifts the opponent momentarily before they settle back to base. The angled bridge creates a lateral force component that pushes opponent past their balance point toward your choking arm side, where their base is structurally weakest due to the guillotine pull."
+        "answer": "The hip angle converts your bridge from a purely vertical lift into a directional off-balance. A flat bridge only lifts the opponent momentarily before they settle back to base. The angled bridge creates a lateral force component that pushes opponent past their balance point toward your choking arm side, where their base is structurally weakest due to the guillotine pull.",
+        "answer_line": "Angle bridge toward choke side",
+        "distractors": {
+          "plausible": [
+            "Any angle works if bridge hard",
+            "Angle away from choking arm"
+          ],
+          "trap": [
+            "Bridge straight up, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand wide to block your sweep attempt - how do you capitalize?",
-        "answer": "Their wide post shifts their weight and compromises their guillotine defense. Abandon the sweep immediately and tighten the guillotine for a direct finish, as their extended arm cannot defend both the choke and the base simultaneously. Alternatively, their arm extension creates the angle needed for a Hindulotine to Darce Choke transition."
+        "answer": "Their wide post shifts their weight and compromises their guillotine defense. Abandon the sweep immediately and tighten the guillotine for a direct finish, as their extended arm cannot defend both the choke and the base simultaneously. Alternatively, their arm extension creates the angle needed for a Hindulotine to Darce Choke transition.",
+        "answer_line": "Abandon sweep, finish choke",
+        "distractors": {
+          "plausible": [
+            "Push through the sweep harder",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Release grip to grab the post"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating this sweep?",
-        "answer": "The sweep should be initiated when opponent's weight shifts laterally or they narrow their base while adjusting their choke defense. The ideal moment is during a defensive transition - such as when they move their hand to fight your grip or shift their hips to relieve pressure. Initiating during static moments when their base is wide and settled meets maximum resistance."
+        "answer": "The sweep should be initiated when opponent's weight shifts laterally or they narrow their base while adjusting their choke defense. The ideal moment is during a defensive transition - such as when they move their hand to fight your grip or shift their hips to relieve pressure. Initiating during static moments when their base is wide and settled meets maximum resistance.",
+        "answer_line": "Sweep during their weight shift",
+        "distractors": {
+          "plausible": [
+            "Sweep when base is wide, set",
+            "Wait for opponent to attack"
+          ],
+          "trap": [
+            "Sweep immediately on entry"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be maintained throughout the entire sweep-to-mount transition?",
-        "answer": "Maintain a locked gable grip or chin strap with the blade of your forearm positioned high under the opponent's chin, applying constant pressure to the carotid arteries. The grip serves dual purposes: submission threat and directional control. Never loosen the grip during the sweep, as the neck connection is both your steering mechanism and your insurance that you arrive in mount with an active submission."
+        "answer": "Maintain a locked gable grip or chin strap with the blade of your forearm positioned high under the opponent's chin, applying constant pressure to the carotid arteries. The grip serves dual purposes: submission threat and directional control. Never loosen the grip during the sweep, as the neck connection is both your steering mechanism and your insurance that you arrive in mount with an active submission.",
+        "answer_line": "Locked chin strap, never loosen",
+        "distractors": {
+          "plausible": [
+            "Loosen grip during the bridge",
+            "Switch grips mid-transition"
+          ],
+          "trap": [
+            "Release grip to post for base"
+          ]
+        }
       },
       {
         "question": "Where should the primary force for the sweep originate, and what is the consequence of generating force from the wrong source?",
-        "answer": "Primary sweep force must originate from the hip bridge and core rotation through planted feet. If you generate force primarily through arm pulling on the guillotine grip, your grip fatigues within seconds, the sweep lacks sufficient power to off-balance a resisting opponent, and you risk losing the guillotine entirely as your forearms burn out. Arms direct the force vector while hips provide the power."
+        "answer": "Primary sweep force must originate from the hip bridge and core rotation through planted feet. If you generate force primarily through arm pulling on the guillotine grip, your grip fatigues within seconds, the sweep lacks sufficient power to off-balance a resisting opponent, and you risk losing the guillotine entirely as your forearms burn out. Arms direct the force vector while hips provide the power.",
+        "answer_line": "Hips bridge and core rotation",
+        "distractors": {
+          "plausible": [
+            "Equal power from arms and hips",
+            "Legs drive, arms stay passive"
+          ],
+          "trap": [
+            "Pull sweep with guillotine arm"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight low and flattens their body against you - how do you respond?",
-        "answer": "Their low, flat position actually compresses them into your guillotine grip, increasing choking pressure. First attempt to finish the guillotine directly since their position assists your submission. If the choke stalls, insert butterfly hooks underneath their flattened body and transition to the Butterfly Sweep with Guillotine variant, which is specifically designed for forward-pressure opponents."
+        "answer": "Their low, flat position actually compresses them into your guillotine grip, increasing choking pressure. First attempt to finish the guillotine directly since their position assists your submission. If the choke stalls, insert butterfly hooks underneath their flattened body and transition to the Butterfly Sweep with Guillotine variant, which is specifically designed for forward-pressure opponents.",
+        "answer_line": "Finish choke, it's compressed",
+        "distractors": {
+          "plausible": [
+            "Abandon choke, force the sweep",
+            "Wait for them to move first"
+          ],
+          "trap": [
+            "Loosen grip to reset position"
+          ]
+        }
       },
       {
         "question": "After landing in mount, what should your immediate assessment determine?",
-        "answer": "Assess whether the guillotine grip maintained sufficient tightness to finish the mounted guillotine. If the grip is still locked high under the chin with good pressure, drive hips toward your choking arm side and finish. If the grip loosened during transition, release the guillotine cleanly and immediately establish standard mount control with heavy hips and wide base, transitioning to conventional mount attacks."
+        "answer": "Assess whether the guillotine grip maintained sufficient tightness to finish the mounted guillotine. If the grip is still locked high under the chin with good pressure, drive hips toward your choking arm side and finish. If the grip loosened during transition, release the guillotine cleanly and immediately establish standard mount control with heavy hips and wide base, transitioning to conventional mount attacks.",
+        "answer_line": "Check if guillotine still tight",
+        "distractors": {
+          "plausible": [
+            "Always finish the guillotine",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Chase a loose choke, ignore mount"
+          ]
+        }
       },
       {
         "question": "Your opponent circles toward your sweep side to neutralize the angle - what adjustment preserves your attack?",
-        "answer": "Follow their circular movement by re-angling your hips to maintain the off-balance threat from the updated position. If they circle past your original sweep direction, you have two options: switch the sweep direction by re-planting and re-angling to the opposite side, or capitalize on their rotational momentum to take their back as their turning motion naturally exposes it."
+        "answer": "Follow their circular movement by re-angling your hips to maintain the off-balance threat from the updated position. If they circle past your original sweep direction, you have two options: switch the sweep direction by re-planting and re-angling to the opposite side, or capitalize on their rotational momentum to take their back as their turning motion naturally exposes it.",
+        "answer_line": "Re-angle hips, follow rotation",
+        "distractors": {
+          "plausible": [
+            "Hold original angle, push harder",
+            "Release choke to block circle"
+          ],
+          "trap": [
+            "Stop bridging, wait it out"
+          ]
+        }
       },
       {
         "question": "How does the Sweep to Mount integrate with the broader Hindulotine attack system to create dilemmas?",
-        "answer": "The sweep forces opponents to widen their base for stability, which weakens their guillotine defense. Defending the choke requires keeping weight forward and base narrow, which opens the sweep. This creates a binary dilemma where every defensive adjustment for one threat exposes the other. Combined with the Butterfly Sweep with Guillotine, back take options, and darce transitions, the sweep ensures opponents cannot find a safe defensive posture."
+        "answer": "The sweep forces opponents to widen their base for stability, which weakens their guillotine defense. Defending the choke requires keeping weight forward and base narrow, which opens the sweep. This creates a binary dilemma where every defensive adjustment for one threat exposes the other. Combined with the Butterfly Sweep with Guillotine, back take options, and darce transitions, the sweep ensures opponents cannot find a safe defensive posture.",
+        "answer_line": "Widen base weakens choke defense",
+        "distractors": {
+          "plausible": [
+            "Sweep and choke defend the same",
+            "Only threatens sweep, not choke"
+          ],
+          "trap": [
+            "Pick one attack, ignore the other"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique involves significant rotational force on the cervical spine during the sweep transition while maintaining guillotine pressure. Practice with controlled speed initially, ensuring your partner can tap at any point during the movement. The guillotine component requires immediate release upon tap, which can be challenging mid-sweep - develop the habit of releasing the grip instantly regardless of sweep progress. Avoid explosive or jerking neck movements during the bridge. Partners should tap early when caught in the sweep sequence rather than defending through uncomfortable cervical positions. Practitioners with prior neck injuries should use reduced grip pressure during training and avoid full-speed repetitions until comfortable with the mechanics. Always warm up the neck thoroughly before drilling this technique.",
@@ -390,23 +490,73 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for defending against the Sweep to Mount?",
-        "answer": "The best defensive window is during the attacker's loading phase, when they shift their hips laterally and plant their feet for the bridge, but before the explosive bridge fires. Recognizing hip shifts and foot plants gives you time to widen your base or sprawl before the sweep generates full momentum. Once the bridge fires with proper angle and power, defensive recovery becomes extremely difficult."
+        "answer": "The best defensive window is during the attacker's loading phase, when they shift their hips laterally and plant their feet for the bridge, but before the explosive bridge fires. Recognizing hip shifts and foot plants gives you time to widen your base or sprawl before the sweep generates full momentum. Once the bridge fires with proper angle and power, defensive recovery becomes extremely difficult.",
+        "answer_line": "Defend during their loading phase",
+        "distractors": {
+          "plausible": [
+            "Defend once the bridge fires",
+            "Wait until mount is achieved"
+          ],
+          "trap": [
+            "Relax base, absorb the bridge"
+          ]
+        }
       },
       {
         "question": "Why does posting your far-side hand wide to block the sweep create a defensive dilemma?",
-        "answer": "The wide post effectively blocks the sweep by creating a structural base that resists the directional bridge. However, extending that arm pulls it away from defending the guillotine grip, leaving less hand-fighting capacity to address the choke. The attacker can exploit this by abandoning the sweep and tightening the guillotine, or by using the space your extended arm creates to transition to a Darce choke."
+        "answer": "The wide post effectively blocks the sweep by creating a structural base that resists the directional bridge. However, extending that arm pulls it away from defending the guillotine grip, leaving less hand-fighting capacity to address the choke. The attacker can exploit this by abandoning the sweep and tightening the guillotine, or by using the space your extended arm creates to transition to a Darce choke.",
+        "answer_line": "Blocks sweep, exposes neck grip",
+        "distractors": {
+          "plausible": [
+            "Blocks both threats equally",
+            "Only works if the post is tight"
+          ],
+          "trap": [
+            "Release the far hand entirely"
+          ]
+        }
       },
       {
         "question": "Your training partner fires the sweep bridge and you feel yourself tipping - what is your last-resort recovery option?",
-        "answer": "If you are past the balance point and the sweep is completing, immediately tuck your chin and bring both hands to your neck to defend the mounted guillotine that will follow. Do not waste energy trying to stop a sweep that has already succeeded. Your priority shifts to surviving the choke in mount rather than preventing the positional change, since the guillotine is the immediate finishing threat."
+        "answer": "If you are past the balance point and the sweep is completing, immediately tuck your chin and bring both hands to your neck to defend the mounted guillotine that will follow. Do not waste energy trying to stop a sweep that has already succeeded. Your priority shifts to surviving the choke in mount rather than preventing the positional change, since the guillotine is the immediate finishing threat.",
+        "answer_line": "Tuck chin, hands to neck",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the sweep momentum",
+            "Post hard to reverse the sweep"
+          ],
+          "trap": [
+            "Let go, stand back up quick"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between the attacker setting up the Sweep to Mount versus the Butterfly Sweep with Guillotine?",
-        "answer": "The key difference is foot positioning. For the Sweep to Mount, the attacker plants both feet flat on the mat near their hips in a bridging configuration. For the Butterfly Sweep with Guillotine, the attacker hooks their feet inside your thighs as butterfly hooks. Recognizing flat-planted feet versus hooking feet tells you which sweep variant is coming and determines whether you need to resist a bridge or avoid being elevated."
+        "answer": "The key difference is foot positioning. For the Sweep to Mount, the attacker plants both feet flat on the mat near their hips in a bridging configuration. For the Butterfly Sweep with Guillotine, the attacker hooks their feet inside your thighs as butterfly hooks. Recognizing flat-planted feet versus hooking feet tells you which sweep variant is coming and determines whether you need to resist a bridge or avoid being elevated.",
+        "answer_line": "Feet flat on mat vs hooking in",
+        "distractors": {
+          "plausible": [
+            "Grip type reveals which sweep",
+            "Hip angle shows which variant"
+          ],
+          "trap": [
+            "Ignore the feet, watch the hands"
+          ]
+        }
       },
       {
         "question": "What makes flattening your body against the attacker a high-risk defensive choice despite eliminating the bridge space?",
-        "answer": "Flattening your body removes the bridging space needed for the sweep, but it simultaneously compresses your neck deeper into the guillotine grip. This increases choking pressure because your own body weight drives you into the forearm blade under your chin. The strategy only works if your chin tuck and grip fighting are strong enough to survive the increased choke pressure while the sweep threat is neutralized."
+        "answer": "Flattening your body removes the bridging space needed for the sweep, but it simultaneously compresses your neck deeper into the guillotine grip. This increases choking pressure because your own body weight drives you into the forearm blade under your chin. The strategy only works if your chin tuck and grip fighting are strong enough to survive the increased choke pressure while the sweep threat is neutralized.",
+        "answer_line": "Kills bridge space, tightens choke",
+        "distractors": {
+          "plausible": [
+            "Always safe once bridge is gone",
+            "Only helps if opponent tires"
+          ],
+          "trap": [
+            "Flatten out and relax the neck"
+          ]
+        }
       }
     ],
     "training_progressions": [

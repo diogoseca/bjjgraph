@@ -231,43 +231,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the sit through from turtle?",
-        "answer": "The optimal timing is when your opponent commits their weight forward, typically when attempting a front headlock, driving into you for a flatten attempt, or circling aggressively for back control. This forward commitment prevents them from easily following your lateral movement and creates the space needed for your leg to thread through. Initiating when their weight is neutral or back allows them to follow your rotation and establish back control."
+        "answer": "The optimal timing is when your opponent commits their weight forward, typically when attempting a front headlock, driving into you for a flatten attempt, or circling aggressively for back control. This forward commitment prevents them from easily following your lateral movement and creates the space needed for your leg to thread through. Initiating when their weight is neutral or back allows them to follow your rotation and establish back control.",
+        "answer_line": "Opponent commits weight forward",
+        "distractors": {
+          "plausible": [
+            "Right as they settle on top",
+            "As soon as you feel any pressure"
+          ],
+          "trap": [
+            "When their weight shifts backward"
+          ]
+        }
       },
       {
         "question": "What grip or frame is essential before threading your leg through?",
-        "answer": "The far-side framing arm against opponent's shoulder, hip, or controlling arm is essential. This frame creates separation and prevents the opponent from following your movement directly. Without this frame, opponent maintains chest-to-back contact throughout your rotation and can easily take back control or establish front headlock. The frame must be established before or simultaneously with the leg thread."
+        "answer": "The far-side framing arm against opponent's shoulder, hip, or controlling arm is essential. This frame creates separation and prevents the opponent from following your movement directly. Without this frame, opponent maintains chest-to-back contact throughout your rotation and can easily take back control or establish front headlock. The frame must be established before or simultaneously with the leg thread.",
+        "answer_line": "Far-side frame on shoulder/hip",
+        "distractors": {
+          "plausible": [
+            "Underhook their near-side arm",
+            "Post on your far knee first"
+          ],
+          "trap": [
+            "Thread the leg before framing"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains heavy chest pressure on your upper back without committing forward - how do you create the opening?",
-        "answer": "Use feints and movement to draw them forward. Push back into them slightly then suddenly release, or threaten a granby roll to make them commit weight forward to prevent it. You can also shift your weight toward one side, inviting them to follow, then execute the sit through to the opposite side when they commit. The goal is to convert their neutral pressure into directional commitment you can exploit."
+        "answer": "Use feints and movement to draw them forward. Push back into them slightly then suddenly release, or threaten a granby roll to make them commit weight forward to prevent it. You can also shift your weight toward one side, inviting them to follow, then execute the sit through to the opposite side when they commit. The goal is to convert their neutral pressure into directional commitment you can exploit.",
+        "answer_line": "Feint to draw forward commitment",
+        "distractors": {
+          "plausible": [
+            "Push straight up to stand",
+            "Wait passively for them to move"
+          ],
+          "trap": [
+            "Muscle through with pure force"
+          ]
+        }
       },
       {
         "question": "How do you defend against the guillotine threat during the sit through rotation?",
-        "answer": "Keep your chin tucked tightly to your chest throughout the entire movement. Your shoulder on the posting-arm side naturally protects one side of your neck, while the tucked chin protects the front and opposite side. If opponent does secure a guillotine grip, continue the rotation to get your body past their choking arm rather than stopping mid-movement, as stopping gives them time to lock the submission."
+        "answer": "Keep your chin tucked tightly to your chest throughout the entire movement. Your shoulder on the posting-arm side naturally protects one side of your neck, while the tucked chin protects the front and opposite side. If opponent does secure a guillotine grip, continue the rotation to get your body past their choking arm rather than stopping mid-movement, as stopping gives them time to lock the submission.",
+        "answer_line": "Tuck chin, keep rotating through",
+        "distractors": {
+          "plausible": [
+            "Stop and posture to defend neck",
+            "Pull head back to create space"
+          ],
+          "trap": [
+            "Freeze mid-rotation to reassess"
+          ]
+        }
       },
       {
         "question": "Your sit through is being consistently countered by opponent following and taking your back - what adjustment should you make?",
-        "answer": "The counter indicates your framing arm is insufficient or your timing is off. First, ensure you establish a strong frame before initiating. Second, verify you're only attempting when opponent's weight commits forward. Third, consider chaining techniques: if they successfully follow, immediately transition to a second sit through in the opposite direction or chain into a granby roll using their forward momentum against them. The combination of better framing and chained escapes makes following much harder."
+        "answer": "The counter indicates your framing arm is insufficient or your timing is off. First, ensure you establish a strong frame before initiating. Second, verify you're only attempting when opponent's weight commits forward. Third, consider chaining techniques: if they successfully follow, immediately transition to a second sit through in the opposite direction or chain into a granby roll using their forward momentum against them. The combination of better framing and chained escapes makes following much harder.",
+        "answer_line": "Better frame, then chain escapes",
+        "distractors": {
+          "plausible": [
+            "Sit through faster next time",
+            "Switch to a pure strength escape"
+          ],
+          "trap": [
+            "Repeat same sit through harder"
+          ]
+        }
       },
       {
         "question": "What determines whether you should establish closed guard versus half guard after completing the sit through?",
-        "answer": "The decision depends on where your threading leg ends up relative to opponent's body. If your leg clears completely past their hips and you can get your second leg around them, close your guard. If opponent's leg gets caught between yours during the rotation, immediately lock half guard rather than fighting for the full close. Also consider your preferred game: if you are stronger from half guard, intentionally target that position by controlling their leg during the rotation."
+        "answer": "The decision depends on where your threading leg ends up relative to opponent's body. If your leg clears completely past their hips and you can get your second leg around them, close your guard. If opponent's leg gets caught between yours during the rotation, immediately lock half guard rather than fighting for the full close. Also consider your preferred game: if you are stronger from half guard, intentionally target that position by controlling their leg during the rotation.",
+        "answer_line": "Where the threading leg lands",
+        "distractors": {
+          "plausible": [
+            "Always choose closed guard first",
+            "Pick based on your fatigue level"
+          ],
+          "trap": [
+            "Force closed guard, leg is caught"
+          ]
+        }
       },
       {
         "question": "Your opponent secures a far-side underhook while you are in turtle - can you still execute the sit through?",
-        "answer": "The far-side underhook significantly compromises the sit through because it prevents the framing arm from creating separation. You must first clear the underhook by pummeling for inside position with your far arm, or abandon the sit through in favor of techniques that work with the underhook in place, such as the granby roll which uses opponent's forward pressure against them. Forcing the sit through against an established underhook almost always results in back control being taken."
+        "answer": "The far-side underhook significantly compromises the sit through because it prevents the framing arm from creating separation. You must first clear the underhook by pummeling for inside position with your far arm, or abandon the sit through in favor of techniques that work with the underhook in place, such as the granby roll which uses opponent's forward pressure against them. Forcing the sit through against an established underhook almost always results in back control being taken.",
+        "answer_line": "Clear underhook first, or granby",
+        "distractors": {
+          "plausible": [
+            "Force the sit through anyway",
+            "Switch straight to closed guard"
+          ],
+          "trap": [
+            "Sit through hard vs the underhook"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that makes the sit through effective?",
-        "answer": "The critical movement is a lateral hip rotation where your hips pivot on the posting arm while the near-side leg threads through the gap. This is not a forward or backward movement but a lateral rotation that changes the orientation of your body from facing the mat to facing your opponent. The rotation must be continuous and accelerating - any pause mid-rotation allows the opponent to adjust and follow. Think of your posting arm as a fixed axis and your hips spinning around it like a compass needle."
+        "answer": "The critical movement is a lateral hip rotation where your hips pivot on the posting arm while the near-side leg threads through the gap. This is not a forward or backward movement but a lateral rotation that changes the orientation of your body from facing the mat to facing your opponent. The rotation must be continuous and accelerating - any pause mid-rotation allows the opponent to adjust and follow. Think of your posting arm as a fixed axis and your hips spinning around it like a compass needle.",
+        "answer_line": "Lateral hip spin on posting arm",
+        "distractors": {
+          "plausible": [
+            "Forward hip thrust into opponent",
+            "Backward roll onto shoulders"
+          ],
+          "trap": [
+            "Pause mid-rotation to reset base"
+          ]
+        }
       },
       {
         "question": "What follow-up attacks should you immediately threaten after establishing guard from the sit through?",
-        "answer": "From closed guard, immediately threaten collar grip setups or wrist control to prevent opponent from posturing. The hip bump sweep is excellent because opponent is often still moving forward from chasing your sit through. From half guard, underhook and threaten the sweep or dogfight immediately before opponent can establish crossface and flatten you. The key is attacking within two to three seconds of guard establishment while opponent is still adjusting to the new position."
+        "answer": "From closed guard, immediately threaten collar grip setups or wrist control to prevent opponent from posturing. The hip bump sweep is excellent because opponent is often still moving forward from chasing your sit through. From half guard, underhook and threaten the sweep or dogfight immediately before opponent can establish crossface and flatten you. The key is attacking within two to three seconds of guard establishment while opponent is still adjusting to the new position.",
+        "answer_line": "Attack fast before they resettle",
+        "distractors": {
+          "plausible": [
+            "Rest and reset your base first",
+            "Wait for a stalemate reset"
+          ],
+          "trap": [
+            "Release grips to catch your breath"
+          ]
+        }
       },
       {
         "question": "If your posting arm collapses mid-sit-through, what is the correct recovery?",
-        "answer": "If the posting arm gives way during the movement, immediately abort the sit through and re-turtle by pulling your knees back underneath you and rounding your back. Do not try to force through with compromised structure, as this exposes your neck and back without the structural support needed to complete the movement safely. Once re-turtled, re-establish your four-point base, reset your defensive frames, and either re-attempt when conditions improve or chain into an alternative escape like the granby roll."
+        "answer": "If the posting arm gives way during the movement, immediately abort the sit through and re-turtle by pulling your knees back underneath you and rounding your back. Do not try to force through with compromised structure, as this exposes your neck and back without the structural support needed to complete the movement safely. Once re-turtled, re-establish your four-point base, reset your defensive frames, and either re-attempt when conditions improve or chain into an alternative escape like the granby roll.",
+        "answer_line": "Abort, re-turtle, reset frames",
+        "distractors": {
+          "plausible": [
+            "Push through with the other arm",
+            "Roll forward into a granby"
+          ],
+          "trap": [
+            "Force the rotation to completion"
+          ]
+        }
       }
     ],
     "safety_considerations": "The sit through is a relatively low-risk escape technique when performed correctly. Primary injury concerns involve the shoulder of the posting arm if it collapses under load - ensure adequate shoulder strength and stability before drilling at speed. The rotation can strain lower back muscles if performed with excessive twisting force; keep the movement smooth and controlled. Watch for guillotine attempts during the rotation, as a locked guillotine during movement can cause neck injury. Train the chin-tucked position consistently. Beginners should master the movement pattern at slow speed before adding resistance or attempting in live rolling. If you feel your posting arm giving way during practice, abort the technique and re-turtle rather than forcing through with compromised structure.",
@@ -391,23 +491,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a sit through from turtle?",
-        "answer": "The earliest cue is the bottom player shifting weight onto one arm and planting it firmly forward of their shoulder as a posting point. This weight shift is necessary before they can lift the near knee to thread the leg through. Simultaneously, watch for their far arm breaking the tight defensive shell and beginning to push against your shoulder or hip to create a frame. These setup actions precede the actual sit through by one to two seconds, giving you time to respond."
+        "answer": "The earliest cue is the bottom player shifting weight onto one arm and planting it firmly forward of their shoulder as a posting point. This weight shift is necessary before they can lift the near knee to thread the leg through. Simultaneously, watch for their far arm breaking the tight defensive shell and beginning to push against your shoulder or hip to create a frame. These setup actions precede the actual sit through by one to two seconds, giving you time to respond.",
+        "answer_line": "Weight shifts onto a forward post",
+        "distractors": {
+          "plausible": [
+            "They suddenly speed up breathing",
+            "Their hips lift off the mat"
+          ],
+          "trap": [
+            "They already have a hook in"
+          ]
+        }
       },
       {
         "question": "Why is the far-side underhook the most effective preventive grip against the sit through?",
-        "answer": "The far-side underhook directly neutralizes the framing arm that creates separation for the sit through. Without the frame, the bottom player cannot prevent you from following their rotation, making the escape mechanically impossible. The underhook also gives you superior control for your own offensive transitions including back takes and flatten sequences. It addresses the root cause of the escape rather than just reacting to symptoms."
+        "answer": "The far-side underhook directly neutralizes the framing arm that creates separation for the sit through. Without the frame, the bottom player cannot prevent you from following their rotation, making the escape mechanically impossible. The underhook also gives you superior control for your own offensive transitions including back takes and flatten sequences. It addresses the root cause of the escape rather than just reacting to symptoms.",
+        "answer_line": "Removes their framing arm entirely",
+        "distractors": {
+          "plausible": [
+            "Makes it easier to flatten them",
+            "Tires out their shoulders"
+          ],
+          "trap": [
+            "Only react after they frame up"
+          ]
+        }
       },
       {
         "question": "Your opponent has already begun threading their leg mid-sit-through - what is the highest percentage response?",
-        "answer": "Follow their rotation by maintaining chest-to-back contact and circling with them rather than trying to stuff the leg back. As they rotate, you have a window to insert your near-side hook before they can fully face you and establish guard. Keep your hips glued to theirs throughout the movement and use the seatbelt grip to maintain upper body control. If executed correctly, their sit through actually assists your back take as their rotation creates hook entry opportunities."
+        "answer": "Follow their rotation by maintaining chest-to-back contact and circling with them rather than trying to stuff the leg back. As they rotate, you have a window to insert your near-side hook before they can fully face you and establish guard. Keep your hips glued to theirs throughout the movement and use the seatbelt grip to maintain upper body control. If executed correctly, their sit through actually assists your back take as their rotation creates hook entry opportunities.",
+        "answer_line": "Follow rotation, insert hook",
+        "distractors": {
+          "plausible": [
+            "Stuff the leg back down",
+            "Sprawl back to stop rotation"
+          ],
+          "trap": [
+            "Release contact to reset position"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution to deny the sit through without overcommitting forward?",
-        "answer": "Direct your pressure downward at approximately 45 degrees through your chest into their upper back, rather than driving horizontally forward. Keep your hips relatively heavy and positioned over their hips rather than stacking onto their shoulders. Maintain a mobile base by keeping your knees slightly wider than shoulder width. This distribution prevents the lateral movement needed for the sit through while keeping you balanced enough to follow any direction change without being redirected by their escape attempt."
+        "answer": "Direct your pressure downward at approximately 45 degrees through your chest into their upper back, rather than driving horizontally forward. Keep your hips relatively heavy and positioned over their hips rather than stacking onto their shoulders. Maintain a mobile base by keeping your knees slightly wider than shoulder width. This distribution prevents the lateral movement needed for the sit through while keeping you balanced enough to follow any direction change without being redirected by their escape attempt.",
+        "answer_line": "45° pressure down, hips heavy",
+        "distractors": {
+          "plausible": [
+            "Drive straight forward with force",
+            "Stack weight onto their shoulders"
+          ],
+          "trap": [
+            "Lean your full weight onto hands"
+          ]
+        }
       },
       {
         "question": "Your opponent feints a sit through to one side then executes it to the opposite side - how do you defend the misdirection?",
-        "answer": "The key is responding to the feint with body positioning rather than committing to a specific counter. When you feel the initial lateral shift, maintain center position and follow with your hips rather than lunging to block. Keep your chest centered on their spine and let your hips stay heavy and neutral. When the real sit through comes to the opposite side, you are still in position to follow. If you overcommit to the feint side by driving laterally, you create the exact space they need on the opposite side for the real escape."
+        "answer": "The key is responding to the feint with body positioning rather than committing to a specific counter. When you feel the initial lateral shift, maintain center position and follow with your hips rather than lunging to block. Keep your chest centered on their spine and let your hips stay heavy and neutral. When the real sit through comes to the opposite side, you are still in position to follow. If you overcommit to the feint side by driving laterally, you create the exact space they need on the opposite side for the real escape.",
+        "answer_line": "Stay centered, follow with hips",
+        "distractors": {
+          "plausible": [
+            "Block the first direction hard",
+            "Mirror their exact movement fast"
+          ],
+          "trap": [
+            "Commit fully to the fake side"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -68,35 +68,115 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for countering the inverted lasso guard?",
-        "answer": "The most critical timing window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle. Once the inversion is complete and they have proper hip elevation with maintained lasso tension, defensive options narrow significantly. Responding within 1-2 seconds of recognizing the inversion initiation allows for cartwheel counters, immediate arm extraction, or preventive pressure that disrupts the technique."
+        "answer": "The most critical timing window is during the inversion transition itself, before the bottom player completes the roll onto their shoulders and establishes their attacking angle. Once the inversion is complete and they have proper hip elevation with maintained lasso tension, defensive options narrow significantly. Responding within 1-2 seconds of recognizing the inversion initiation allows for cartwheel counters, immediate arm extraction, or preventive pressure that disrupts the technique.",
+        "answer_line": "During the inversion transition",
+        "distractors": {
+          "plausible": [
+            "Once hips are fully elevated",
+            "After lasso tension is set"
+          ],
+          "trap": [
+            "Wait until the sweep begins"
+          ]
+        }
       },
       {
         "question": "Why does driving forward pressure directly into an inverted opponent's hips actually help their sweep?",
-        "answer": "Forward pressure into an inverted opponent's hips adds momentum to their overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point - your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. Instead, pressure should be angled toward their shoulders and chest while keeping your hips back and base wide to prevent becoming a lever arm for their technique."
+        "answer": "Forward pressure into an inverted opponent's hips adds momentum to their overhead sweep mechanics. The inverted position creates a fulcrum where the lasso hook acts as a pivot point - your forward force gets redirected into rotational energy that lifts your base off the mat and drives you over their body. Instead, pressure should be angled toward their shoulders and chest while keeping your hips back and base wide to prevent becoming a lever arm for their technique.",
+        "answer_line": "It powers their overhead sweep",
+        "distractors": {
+          "plausible": [
+            "It only tires them out",
+            "It flattens their base"
+          ],
+          "trap": [
+            "Drive forward into their hips"
+          ]
+        }
       },
       {
         "question": "What are the three primary strategic approaches for defending inverted lasso guard from top?",
-        "answer": "The three primary strategies are: arm extraction (systematically removing the lassoed limb by addressing the ankle grip first, creating slack, then withdrawing the arm), pressure passing (establishing heavy shoulder and chest control to prevent hip mobility and make the inverted position uncomfortable), and counter-inversions (following the bottom player's rotational movement with cartwheels or back steps that match their angle and neutralize their geometric advantage). Each has specific timing requirements and risk profiles."
+        "answer": "The three primary strategies are: arm extraction (systematically removing the lassoed limb by addressing the ankle grip first, creating slack, then withdrawing the arm), pressure passing (establishing heavy shoulder and chest control to prevent hip mobility and make the inverted position uncomfortable), and counter-inversions (following the bottom player's rotational movement with cartwheels or back steps that match their angle and neutralize their geometric advantage). Each has specific timing requirements and risk profiles.",
+        "answer_line": "Extraction, pressure, counter-invert",
+        "distractors": {
+          "plausible": [
+            "Just pressure pass and wait",
+            "Only fight the lasso grip"
+          ],
+          "trap": [
+            "Step back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent inverts into lasso guard and begins hip rotation for a berimbolo. What immediate adjustment should you make?",
-        "answer": "When the opponent begins berimbolo rotation by threading their leg behind your back, you should immediately initiate a cartwheel pass by following their rotational direction while maintaining connection. Your free hand controls their far hip while you cartwheel over their rotating body, using their momentum to establish back control or side control on the other side. Fighting against their rotation allows them to complete the back take, but matching it with a counter-rotation neutralizes their advantage."
+        "answer": "When the opponent begins berimbolo rotation by threading their leg behind your back, you should immediately initiate a cartwheel pass by following their rotational direction while maintaining connection. Your free hand controls their far hip while you cartwheel over their rotating body, using their momentum to establish back control or side control on the other side. Fighting against their rotation allows them to complete the back take, but matching it with a counter-rotation neutralizes their advantage.",
+        "answer_line": "Cartwheel with their rotation",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation directly",
+            "Step back to reset base"
+          ],
+          "trap": [
+            "Sprawl hips down heavily"
+          ]
+        }
       },
       {
         "question": "How should you approach extracting your lassoed arm, and why is explosive pulling ineffective?",
-        "answer": "Arm extraction requires a systematic approach: first control their free leg to prevent them from using it for angles, then address the ankle grip on your lassoed arm to create slack in the lasso, finally withdraw the arm in a controlled pulling motion once slack exists. Explosive pulling fails because the lasso structure creates mechanical advantage that increases with sudden force - their leg wrapped around your arm acts like a finger trap that tightens with jerky movement. Controlled, sequential extraction defeats the mechanical structure rather than fighting against it."
+        "answer": "Arm extraction requires a systematic approach: first control their free leg to prevent them from using it for angles, then address the ankle grip on your lassoed arm to create slack in the lasso, finally withdraw the arm in a controlled pulling motion once slack exists. Explosive pulling fails because the lasso structure creates mechanical advantage that increases with sudden force - their leg wrapped around your arm acts like a finger trap that tightens with jerky movement. Controlled, sequential extraction defeats the mechanical structure rather than fighting against it.",
+        "answer_line": "Control leg, clear grip, then pull",
+        "distractors": {
+          "plausible": [
+            "Yank the arm free fast",
+            "Pull first, control leg after"
+          ],
+          "trap": [
+            "Explosively rip the arm out"
+          ]
+        }
       },
       {
         "question": "What common error allows the bottom player to successfully initiate berimbolo or sweeps unopposed?",
-        "answer": "The most common enabling error is ignoring the free leg that isn't involved in the lasso. When you fail to control this leg, the bottom player can post it on your hip to control distance, thread it behind your back to initiate berimbolo, or use it to create the angles necessary for overhead sweeps. The free leg is their steering mechanism and attacking tool - controlling it with your hand or pinning it with your hip prevents them from converting the inverted position into offensive techniques."
+        "answer": "The most common enabling error is ignoring the free leg that isn't involved in the lasso. When you fail to control this leg, the bottom player can post it on your hip to control distance, thread it behind your back to initiate berimbolo, or use it to create the angles necessary for overhead sweeps. The free leg is their steering mechanism and attacking tool - controlling it with your hand or pinning it with your hip prevents them from converting the inverted position into offensive techniques.",
+        "answer_line": "Ignoring the free leg",
+        "distractors": {
+          "plausible": [
+            "Overcommitting to the lasso arm",
+            "Chasing their hip movement"
+          ],
+          "trap": [
+            "Release grips to re-angle"
+          ]
+        }
       },
       {
         "question": "Why should you stay connected to an inverted lasso guard player rather than creating distance?",
-        "answer": "Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to thread their legs more easily and rotate behind your back. Space also permits them to reset with better angles or chain the inversion with other guard positions. Staying connected with strategic pressure points while controlling their hips prevents rotation without giving them room to maneuver. Connection limits their options to defending your pressure rather than freely attacking."
+        "answer": "Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to thread their legs more easily and rotate behind your back. Space also permits them to reset with better angles or chain the inversion with other guard positions. Staying connected with strategic pressure points while controlling their hips prevents rotation without giving them room to maneuver. Connection limits their options to defending your pressure rather than freely attacking.",
+        "answer_line": "Stay connected, control hips",
+        "distractors": {
+          "plausible": [
+            "Create distance to reset",
+            "Circle away for a fresh angle"
+          ],
+          "trap": [
+            "Step back to break the lasso"
+          ]
+        }
       },
       {
         "question": "How can you make the inverted position itself uncomfortable enough to force the bottom player to abandon it?",
-        "answer": "Apply strategic pressure on their inverted shoulders and upper back (not their hips), forcing them to support your weight while maintaining their inverted posture. Control their hips with your free hand to prevent the rotation necessary for techniques. Threaten submissions or passes that force them to use their grips defensively rather than offensively. The goal is making the energy cost of maintaining the inversion exceed the potential benefit, converting their offensive position into an exhausting defensive struggle that they must abandon."
+        "answer": "Apply strategic pressure on their inverted shoulders and upper back (not their hips), forcing them to support your weight while maintaining their inverted posture. Control their hips with your free hand to prevent the rotation necessary for techniques. Threaten submissions or passes that force them to use their grips defensively rather than offensively. The goal is making the energy cost of maintaining the inversion exceed the potential benefit, converting their offensive position into an exhausting defensive struggle that they must abandon.",
+        "answer_line": "Pressure shoulders, control hips",
+        "distractors": {
+          "plausible": [
+            "Pressure their hips hard",
+            "Flatten their upper back only"
+          ],
+          "trap": [
+            "Drive weight onto their neck"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -408,35 +488,115 @@
     "flashcards": [
       {
         "question": "What is the fundamental mechanical advantage that inversion creates compared to standard lasso guard?",
-        "answer": "Inversion creates a fulcrum effect where the lasso hook becomes dramatically more powerful because the entire body weight now pulls downward on the opponent's arm rather than relying solely on leg strength. The inverted position changes the vector of force completely - where standard lasso generates horizontal pulling, inverted lasso generates rotational momentum that compounds with the hook's leverage. This geometric advantage makes sweeps highly probable even against larger opponents because you're using body mass and angular momentum rather than isolated limb strength."
+        "answer": "Inversion creates a fulcrum effect where the lasso hook becomes dramatically more powerful because the entire body weight now pulls downward on the opponent's arm rather than relying solely on leg strength. The inverted position changes the vector of force completely - where standard lasso generates horizontal pulling, inverted lasso generates rotational momentum that compounds with the hook's leverage. This geometric advantage makes sweeps highly probable even against larger opponents because you're using body mass and angular momentum rather than isolated limb strength.",
+        "answer_line": "Fulcrum turns weight into rotation",
+        "distractors": {
+          "plausible": [
+            "Just more leg strength",
+            "Pure grip strength increase"
+          ],
+          "trap": [
+            "Relying on arm strength alone"
+          ]
+        }
       },
       {
         "question": "Why must weight be distributed across the shoulders and upper back rather than the neck during inversion?",
-        "answer": "Placing weight on the neck creates dangerous cervical spine pressure that risks serious injury and completely eliminates the hip mobility necessary for sweep mechanics and berimbolo entries. The shoulders and upper back provide a broad, stable base that can support inverted positioning safely while allowing rapid hip rotation and movement. Rolling weight onto the shoulder blades with chin tucked to chest distributes force across a wider surface area and maintains the structural integrity needed for offensive techniques."
+        "answer": "Placing weight on the neck creates dangerous cervical spine pressure that risks serious injury and completely eliminates the hip mobility necessary for sweep mechanics and berimbolo entries. The shoulders and upper back provide a broad, stable base that can support inverted positioning safely while allowing rapid hip rotation and movement. Rolling weight onto the shoulder blades with chin tucked to chest distributes force across a wider surface area and maintains the structural integrity needed for offensive techniques.",
+        "answer_line": "Neck pressure blocks hip rotation",
+        "distractors": {
+          "plausible": [
+            "It's just about safety, not motion",
+            "Neck load only risks injury"
+          ],
+          "trap": [
+            "Load weight onto the neck"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their lassoed arm by pulling backward. What immediate counter should you execute?",
-        "answer": "When the opponent pulls their arm back to extract from the lasso, immediately transition to an omoplata sweep by rotating your hips and bringing the lassoed leg over their shoulder while maintaining sleeve control. Their arm retraction motion actually assists your shoulder lock entry - they're pulling their arm deeper into the omoplata position. Alternatively, if the arm extraction creates enough slack, use that moment to transition to a triangle setup by bringing your free leg over their neck before they complete the extraction."
+        "answer": "When the opponent pulls their arm back to extract from the lasso, immediately transition to an omoplata sweep by rotating your hips and bringing the lassoed leg over their shoulder while maintaining sleeve control. Their arm retraction motion actually assists your shoulder lock entry - they're pulling their arm deeper into the omoplata position. Alternatively, if the arm extraction creates enough slack, use that moment to transition to a triangle setup by bringing your free leg over their neck before they complete the extraction.",
+        "answer_line": "Rotate into omoplata sweep",
+        "distractors": {
+          "plausible": [
+            "Chase the arm to re-lasso",
+            "Release sleeve, reset guard"
+          ],
+          "trap": [
+            "Pull the arm back yourself"
+          ]
+        }
       },
       {
         "question": "What determines the optimal timing for initiating the inversion from upright lasso guard?",
-        "answer": "The optimal timing occurs when the opponent's weight is not heavily committed forward onto your chest and they are in upright posture with at least one arm extended toward you. The inversion requires space and momentum to roll backwards onto the shoulders - if the opponent is already driving forward with heavy chest pressure, the roll becomes blocked and you end up pinned. Watch for moments when they attempt to establish base, adjust their grips, or create distance - these are windows where their pressure is reduced and the inversion can be initiated smoothly."
+        "answer": "The optimal timing occurs when the opponent's weight is not heavily committed forward onto your chest and they are in upright posture with at least one arm extended toward you. The inversion requires space and momentum to roll backwards onto the shoulders - if the opponent is already driving forward with heavy chest pressure, the roll becomes blocked and you end up pinned. Watch for moments when they attempt to establish base, adjust their grips, or create distance - these are windows where their pressure is reduced and the inversion can be initiated smoothly.",
+        "answer_line": "When their pressure is reduced",
+        "distractors": {
+          "plausible": [
+            "When they drive forward hard",
+            "Immediately after guard is set"
+          ],
+          "trap": [
+            "While they're driving forward"
+          ]
+        }
       },
       {
         "question": "Why is the inverted lasso described as a transitional position rather than a holding position?",
-        "answer": "The inverted position drains energy rapidly because you're supporting weight on your shoulders while maintaining elevated hips and constant lasso tension. Extended time inverted allows opponents to establish counter-grips, apply pressure to your inverted structure, and adapt to your limited positional options. The position's power comes from the angles it creates for immediate technique execution - berimbolo, sweep, or back take. Maximum inverted time should be 2-3 seconds before completing a technique or returning to upright guard where energy expenditure is lower and offensive options are broader."
+        "answer": "The inverted position drains energy rapidly because you're supporting weight on your shoulders while maintaining elevated hips and constant lasso tension. Extended time inverted allows opponents to establish counter-grips, apply pressure to your inverted structure, and adapt to your limited positional options. The position's power comes from the angles it creates for immediate technique execution - berimbolo, sweep, or back take. Maximum inverted time should be 2-3 seconds before completing a technique or returning to upright guard where energy expenditure is lower and offensive options are broader.",
+        "answer_line": "It's brief, must convert fast",
+        "distractors": {
+          "plausible": [
+            "Hold it to wear them down",
+            "Stay inverted to reset grips"
+          ],
+          "trap": [
+            "Camp inverted and wait it out"
+          ]
+        }
       },
       {
         "question": "What role does the free leg (non-lasso leg) play in the inverted lasso guard system?",
-        "answer": "The free leg is your primary offensive tool and distance control mechanism. It posts on the opponent's hip to control their base and prevent them from stepping around to pass. For berimbolo entries, the free leg threads behind the opponent's back to initiate the rotation that leads to back control. For overhead sweeps, the free leg assists in elevating and directing the opponent's momentum. Failing to keep the free leg active eliminates berimbolo entries, reduces sweep angles and effectiveness, and allows the opponent to step around your guard unopposed."
+        "answer": "The free leg is your primary offensive tool and distance control mechanism. It posts on the opponent's hip to control their base and prevent them from stepping around to pass. For berimbolo entries, the free leg threads behind the opponent's back to initiate the rotation that leads to back control. For overhead sweeps, the free leg assists in elevating and directing the opponent's momentum. Failing to keep the free leg active eliminates berimbolo entries, reduces sweep angles and effectiveness, and allows the opponent to step around your guard unopposed.",
+        "answer_line": "Free leg steers angle and offense",
+        "distractors": {
+          "plausible": [
+            "Just balances your posture",
+            "Only blocks their far arm"
+          ],
+          "trap": [
+            "Keep it passive, tucked in"
+          ]
+        }
       },
       {
         "question": "How should you connect your sleeve grip to your body movement rather than using isolated arm strength?",
-        "answer": "The sleeve grip should function as a fixed connection point that transmits force from your entire body rotation rather than generating force through isolated arm pulling. When you rotate your hips for a berimbolo or sweep, the sleeve grip maintains the connection while your body's angular momentum generates the off-balancing force. Think of the grip as a steering wheel that directs energy rather than a pulling mechanism. This integration means your grips don't fail under pressure because they're not bearing the load directly - your hip movement and body weight create the force while grips maintain the connection."
+        "answer": "The sleeve grip should function as a fixed connection point that transmits force from your entire body rotation rather than generating force through isolated arm pulling. When you rotate your hips for a berimbolo or sweep, the sleeve grip maintains the connection while your body's angular momentum generates the off-balancing force. Think of the grip as a steering wheel that directs energy rather than a pulling mechanism. This integration means your grips don't fail under pressure because they're not bearing the load directly - your hip movement and body weight create the force while grips maintain the connection.",
+        "answer_line": "Grip transmits hip rotation force",
+        "distractors": {
+          "plausible": [
+            "Pull hard with the arm",
+            "Grip alone creates the sweep"
+          ],
+          "trap": [
+            "Yank isolated with arm strength"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent successfully pins your inverted hips to the mat with their weight?",
-        "answer": "When your hips become pinned and immobile, you must immediately recognize that the inverted position has failed and return to upright guard before the opponent consolidates for a pass. Do not continue fighting from a pinned inversion - this drains energy and creates easy passing opportunities. Adjust your angle to create space or use your grips to pull yourself back to seated guard while maintaining the lasso hook if possible. If the lasso is compromised, transition to another guard system rather than accepting a pinned position. The key is recognizing when the inversion's offensive potential is neutralized and adapting before position deteriorates further."
+        "answer": "When your hips become pinned and immobile, you must immediately recognize that the inverted position has failed and return to upright guard before the opponent consolidates for a pass. Do not continue fighting from a pinned inversion - this drains energy and creates easy passing opportunities. Adjust your angle to create space or use your grips to pull yourself back to seated guard while maintaining the lasso hook if possible. If the lasso is compromised, transition to another guard system rather than accepting a pinned position. The key is recognizing when the inversion's offensive potential is neutralized and adapting before position deteriorates further.",
+        "answer_line": "Abandon inversion, reset upright",
+        "distractors": {
+          "plausible": [
+            "Keep fighting from pinned spot",
+            "Wait for an opening to sweep"
+          ],
+          "trap": [
+            "Force the sweep through anyway"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -739,35 +899,115 @@
   "flashcards_position": [
     {
       "question": "What structural elements define the inverted lasso guard configuration and distinguish it from standard lasso guard?",
-      "answer": "The defining structure is a lasso hook—one leg threaded through the opponent's arm with the shin pressing the tricep and the foot hooked across the back—combined with the bottom player rotating backward onto their shoulders and upper back so their hips elevate above their head. Standard lasso keeps the bottom player seated or supine with the hook generating horizontal pulling force, whereas the inversion re-orients the hook into a vertical fulcrum. The same-side sleeve grip on the lassoed arm completes the connection in both variations. The presence of the inverted shoulder-stand posture layered onto an intact lasso lock is what makes the configuration specifically inverted lasso rather than its upright parent."
+      "answer": "The defining structure is a lasso hook—one leg threaded through the opponent's arm with the shin pressing the tricep and the foot hooked across the back—combined with the bottom player rotating backward onto their shoulders and upper back so their hips elevate above their head. Standard lasso keeps the bottom player seated or supine with the hook generating horizontal pulling force, whereas the inversion re-orients the hook into a vertical fulcrum. The same-side sleeve grip on the lassoed arm completes the connection in both variations. The presence of the inverted shoulder-stand posture layered onto an intact lasso lock is what makes the configuration specifically inverted lasso rather than its upright parent.",
+      "answer_line": "Lasso hook + inverted shoulder-stand",
+      "distractors": {
+        "plausible": [
+          "Just the seated lasso grip",
+          "Only the shin-tricep hook"
+        ],
+        "trap": [
+          "A standard De La Riva hook"
+        ]
+      }
     },
     {
       "question": "Why does the lasso hook function as a fulcrum in the inverted position rather than a simple pulling anchor?",
-      "answer": "When the bottom player inverts, their leg-through-arm connection becomes a fixed pivot point around which the whole body can rotate, so the lasso stops being a limb that merely pulls and becomes the axis of a lever. Body mass and angular momentum load onto the opponent's trapped arm from above rather than horizontal leg strength working against their base. This vector change means force is redirected into rotation and off-balancing rather than a straight tug the opponent can post against. The fulcrum effect is why sweeps generated from the inversion compound leverage and remain effective even against a heavier opponent."
+      "answer": "When the bottom player inverts, their leg-through-arm connection becomes a fixed pivot point around which the whole body can rotate, so the lasso stops being a limb that merely pulls and becomes the axis of a lever. Body mass and angular momentum load onto the opponent's trapped arm from above rather than horizontal leg strength working against their base. This vector change means force is redirected into rotation and off-balancing rather than a straight tug the opponent can post against. The fulcrum effect is why sweeps generated from the inversion compound leverage and remain effective even against a heavier opponent.",
+      "answer_line": "Hook becomes a rotational pivot",
+      "distractors": {
+        "plausible": [
+          "Leg strength alone creates it",
+          "Just an anchor for pulling"
+        ],
+        "trap": [
+          "Treat it like a simple anchor"
+        ]
+      }
     },
     {
       "question": "Why must the inverted player's weight rest on the shoulders and upper back rather than the neck?",
-      "answer": "Loading the neck concentrates force on the cervical spine, which is both an injury risk and mechanically counterproductive because it locks the hips in place. The shoulders and upper back form a broad, stable tripod that supports the inverted posture while leaving the hips free to rotate, which is the movement every sweep and back-take depends on. Rolling weight onto the shoulder blades with the chin tucked distributes load across a wide surface and preserves the spatial freedom the position needs. This weight-bearing arrangement is a shared constraint of the configuration regardless of who is attacking or defending it."
+      "answer": "Loading the neck concentrates force on the cervical spine, which is both an injury risk and mechanically counterproductive because it locks the hips in place. The shoulders and upper back form a broad, stable tripod that supports the inverted posture while leaving the hips free to rotate, which is the movement every sweep and back-take depends on. Rolling weight onto the shoulder blades with the chin tucked distributes load across a wide surface and preserves the spatial freedom the position needs. This weight-bearing arrangement is a shared constraint of the configuration regardless of who is attacking or defending it.",
+      "answer_line": "Broad base frees hip rotation",
+      "distractors": {
+        "plausible": [
+          "Neck bears weight fine too",
+          "Shoulders just feel safer"
+        ],
+        "trap": [
+          "Rest weight on the neck"
+        ]
+      }
     },
     {
       "question": "How does maintaining or losing lasso hook tension determine whether the position persists at all?",
-      "answer": "The lasso lock is the single connection holding the inverted geometry together, so continuous tension is what keeps the configuration intact for both players. If the bottom player keeps the shin loaded against the tricep and the sleeve grip taut, the opponent cannot retract the arm and the fulcrum stays live. The instant slack appears—whether from a poorly executed roll or a successful extraction—the arm frees, the lever collapses, and the position ceases to be inverted lasso guard, typically resolving toward a pass. Because the whole structure hinges on this one connection, tension management defines the position's existence rather than any single attack or escape."
+      "answer": "The lasso lock is the single connection holding the inverted geometry together, so continuous tension is what keeps the configuration intact for both players. If the bottom player keeps the shin loaded against the tricep and the sleeve grip taut, the opponent cannot retract the arm and the fulcrum stays live. The instant slack appears—whether from a poorly executed roll or a successful extraction—the arm frees, the lever collapses, and the position ceases to be inverted lasso guard, typically resolving toward a pass. Because the whole structure hinges on this one connection, tension management defines the position's existence rather than any single attack or escape.",
+      "answer_line": "Tension loss collapses the fulcrum",
+      "distractors": {
+        "plausible": [
+          "Only the sleeve grip matters",
+          "Hip angle alone holds it"
+        ],
+        "trap": [
+          "Loosen the shin to relax"
+        ]
+      }
     },
     {
       "question": "What makes the free (non-lasso) leg a central control element of the inverted lasso configuration?",
-      "answer": "The free leg is the position's steering mechanism because it governs distance and angle between the two players. Posted on the opponent's hip it controls their base and prevents them from circling to pass; threaded behind their back it becomes the initiator of rotation toward the back. Its placement dictates whether the geometry favors an overhead dump, a back-take rotation, or a stalemate, which is why control of this leg is contested by both sides. Whoever influences the free leg's position shapes what the inverted lasso can produce, making it a shared strategic pivot rather than a role-specific tool."
+      "answer": "The free leg is the position's steering mechanism because it governs distance and angle between the two players. Posted on the opponent's hip it controls their base and prevents them from circling to pass; threaded behind their back it becomes the initiator of rotation toward the back. Its placement dictates whether the geometry favors an overhead dump, a back-take rotation, or a stalemate, which is why control of this leg is contested by both sides. Whoever influences the free leg's position shapes what the inverted lasso can produce, making it a shared strategic pivot rather than a role-specific tool.",
+      "answer_line": "It steers distance and angle",
+      "distractors": {
+        "plausible": [
+          "Only useful for balance",
+          "Matters just for guard retention"
+        ],
+        "trap": [
+          "Keep it tucked and passive"
+        ]
+      }
     },
     {
       "question": "Why is inverted lasso guard treated as a transitional state rather than a stable holding position?",
-      "answer": "The inverted posture demands the bottom player continuously support body weight on the shoulders while holding hips elevated and lasso tension live, which drains energy far faster than a seated guard. The longer the inversion persists, the more time the top player has to establish counter-grips, apply pressure, or square their base against the rotation. The configuration's value is the momentary angle it opens for a sweep, back-take, or submission entry, not sustained control, so it is meant to resolve within a few seconds. Both players understand the position as a brief window that must convert into a technique or collapse back toward more stable configurations."
+      "answer": "The inverted posture demands the bottom player continuously support body weight on the shoulders while holding hips elevated and lasso tension live, which drains energy far faster than a seated guard. The longer the inversion persists, the more time the top player has to establish counter-grips, apply pressure, or square their base against the rotation. The configuration's value is the momentary angle it opens for a sweep, back-take, or submission entry, not sustained control, so it is meant to resolve within a few seconds. Both players understand the position as a brief window that must convert into a technique or collapse back toward more stable configurations.",
+      "answer_line": "Drains energy, must resolve fast",
+      "distractors": {
+        "plausible": [
+          "Fine to hold indefinitely",
+          "Rest there to recover grips"
+        ],
+        "trap": [
+          "Camp there to conserve energy"
+        ]
+      }
     },
     {
       "question": "How does the inverted lasso obscure the attacking intention and create simultaneous dilemmas for the top player?",
-      "answer": "The same inverted setup can launch a berimbolo back-take, an overhead sweep, or a kiss-of-the-dragon depending on the top player's reaction, so the configuration itself does not telegraph which attack is coming. This forces the defender into guesses where committing to stop one line often opens another—stepping back invites the berimbolo, while driving forward feeds the overhead sweep. The rotational threat and the arm-trapping lasso operate at the same time, so defending the sweep can expose the back and defending the back can concede the sweep. This branching ambiguity is a structural property of the position that pressures both players' decision-making."
+      "answer": "The same inverted setup can launch a berimbolo back-take, an overhead sweep, or a kiss-of-the-dragon depending on the top player's reaction, so the configuration itself does not telegraph which attack is coming. This forces the defender into guesses where committing to stop one line often opens another—stepping back invites the berimbolo, while driving forward feeds the overhead sweep. The rotational threat and the arm-trapping lasso operate at the same time, so defending the sweep can expose the back and defending the back can concede the sweep. This branching ambiguity is a structural property of the position that pressures both players' decision-making.",
+      "answer_line": "One setup threatens many attacks",
+      "distractors": {
+        "plausible": [
+          "Only threatens the sweep",
+          "Only sets up the back take"
+        ],
+        "trap": [
+          "Commit fully to one defense"
+        ]
+      }
     },
     {
       "question": "How does inverted lasso guard connect to adjacent guard systems within a broader positional flow?",
-      "answer": "It sits inside a family of open guards that share hip orientation and grip logic, so it flows naturally to and from spider guard, standard lasso guard, de la riva, and reverse de la riva rather than existing in isolation. Sweeps generated from it frequently terminate in x-guard or single-leg-x, and the rotational lines feed toward back control. Modern players reach it mid-sequence when an opponent starts passing an upright open guard and cycle back out of it just as readily, using the inversion as one node in a continuous chain. This connectivity is why the position is understood as part of an integrated system, alternately an entry, an exit, and a transient attacking angle."
+      "answer": "It sits inside a family of open guards that share hip orientation and grip logic, so it flows naturally to and from spider guard, standard lasso guard, de la riva, and reverse de la riva rather than existing in isolation. Sweeps generated from it frequently terminate in x-guard or single-leg-x, and the rotational lines feed toward back control. Modern players reach it mid-sequence when an opponent starts passing an upright open guard and cycle back out of it just as readily, using the inversion as one node in a continuous chain. This connectivity is why the position is understood as part of an integrated system, alternately an entry, an exit, and a transient attacking angle.",
+      "answer_line": "Node in a connected guard chain",
+      "distractors": {
+        "plausible": [
+          "An isolated standalone guard",
+          "Only leads into back control"
+        ],
+        "trap": [
+          "Treat it as a dead-end guard"
+        ]
+      }
     }
   ],
   "clips": [

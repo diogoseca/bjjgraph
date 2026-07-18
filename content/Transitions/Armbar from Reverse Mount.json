@@ -255,43 +255,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the armbar from reverse mount?",
-        "answer": "The best moment to initiate is when the opponent extends an arm to push against your hips, posts a hand on the mat for a bridge attempt, or reaches behind your back to establish frames or grips. These natural defensive reactions create the arm extension necessary for isolation and entry. Attacking during these moments produces significantly higher success rates than trying to force an arm out of a tucked defensive position."
+        "answer": "The best moment to initiate is when the opponent extends an arm to push against your hips, posts a hand on the mat for a bridge attempt, or reaches behind your back to establish frames or grips. These natural defensive reactions create the arm extension necessary for isolation and entry. Attacking during these moments produces significantly higher success rates than trying to force an arm out of a tucked defensive position.",
+        "answer_line": "When arm extends to push or frame",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to fully relax",
+            "As soon as reverse mount is set"
+          ],
+          "trap": [
+            "Force the arm out by prying"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the armbar from reverse mount?",
-        "answer": "You need established reverse mount with heavy hips on the opponent's chest, at least one opponent arm accessible and extended beyond their body centerline, sufficient base to initiate the pivot without being bucked off, and a clear path for your leg to swing over the opponent's body. The opponent should not have both arms tightly clamped to their sides, as forcing arm extraction wastes energy and telegraphs the attack."
+        "answer": "You need established reverse mount with heavy hips on the opponent's chest, at least one opponent arm accessible and extended beyond their body centerline, sufficient base to initiate the pivot without being bucked off, and a clear path for your leg to swing over the opponent's body. The opponent should not have both arms tightly clamped to their sides, as forcing arm extraction wastes energy and telegraphs the attack.",
+        "answer_line": "Heavy hips, arm extended, good base",
+        "distractors": {
+          "plausible": [
+            "Both arms clamped tight to sides",
+            "Any mount position, arm nearby"
+          ],
+          "trap": [
+            "Pry a clamped arm out first"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the transition from reverse mount to armbar control?",
-        "answer": "Maintaining continuous hip pressure on the opponent's torso throughout the entire pivot is the single most important mechanical detail. Many practitioners lift their hips during the leg swing, creating space that allows the opponent to bridge, hip escape, or turn. The hips must stay heavy and connected, using a sliding or turntable-style pivoting motion rather than lifting and re-placing. This continuous contact eliminates the escape window."
+        "answer": "Maintaining continuous hip pressure on the opponent's torso throughout the entire pivot is the single most important mechanical detail. Many practitioners lift their hips during the leg swing, creating space that allows the opponent to bridge, hip escape, or turn. The hips must stay heavy and connected, using a sliding or turntable-style pivoting motion rather than lifting and re-placing. This continuous contact eliminates the escape window.",
+        "answer_line": "Keep hips glued down through pivot",
+        "distractors": {
+          "plausible": [
+            "Secure wrist grip before pivoting",
+            "Swing the leg as fast as possible"
+          ],
+          "trap": [
+            "Lift hips to swing leg over"
+          ]
+        }
       },
       {
         "question": "What are the most common reasons the armbar from reverse mount fails?",
-        "answer": "The primary failure points are: lifting hips during the transition creating escape space, failing to secure wrist control before committing to the pivot, swinging the leg too slowly allowing the opponent to block or turn, poor knee pinch that allows arm extraction after the pivot, attacking an arm that is too tightly clamped to the opponent's body, and telegraphing the attack with premature weight shift before establishing the grip."
+        "answer": "The primary failure points are: lifting hips during the transition creating escape space, failing to secure wrist control before committing to the pivot, swinging the leg too slowly allowing the opponent to block or turn, poor knee pinch that allows arm extraction after the pivot, attacking an arm that is too tightly clamped to the opponent's body, and telegraphing the attack with premature weight shift before establishing the grip.",
+        "answer_line": "Lifting hips during the pivot",
+        "distractors": {
+          "plausible": [
+            "Not securing full mount first",
+            "Turning too fast into position"
+          ],
+          "trap": [
+            "Yanking a clamped-tight arm"
+          ]
+        }
       },
       {
         "question": "What grip configuration is required on the opponent's arm for a successful armbar from reverse mount?",
-        "answer": "A two-point grip system is essential for reliable control. One hand grips the wrist maintaining distal control to prevent retraction, while the other hand controls at the elbow or proximal forearm to guide arm positioning and prevent bending. The wrist grip is typically established first with the same-side hand reaching behind, then reinforced by the second hand. Single-point grips at the wrist alone allow the opponent to bend and retract the arm during the pivot."
+        "answer": "A two-point grip system is essential for reliable control. One hand grips the wrist maintaining distal control to prevent retraction, while the other hand controls at the elbow or proximal forearm to guide arm positioning and prevent bending. The wrist grip is typically established first with the same-side hand reaching behind, then reinforced by the second hand. Single-point grips at the wrist alone allow the opponent to bend and retract the arm during the pivot.",
+        "answer_line": "Wrist grip plus elbow control",
+        "distractors": {
+          "plausible": [
+            "Elbow grip only, ignore wrist",
+            "Grab bicep with both hands"
+          ],
+          "trap": [
+            "Single wrist grip, no backup"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied during the armbar transition from reverse mount?",
-        "answer": "The primary force direction is perpendicular to the opponent's body axis. As you pivot from facing their feet to a perpendicular position, your body weight creates the rotational force needed to establish the armbar angle. Your hips drive toward the opponent's shoulder while your upper body falls away from them, creating the hyperextension lever. The arm pull should direct the wrist toward your chest while your hips rise against the posterior elbow joint as the fulcrum point."
+        "answer": "The primary force direction is perpendicular to the opponent's body axis. As you pivot from facing their feet to a perpendicular position, your body weight creates the rotational force needed to establish the armbar angle. Your hips drive toward the opponent's shoulder while your upper body falls away from them, creating the hyperextension lever. The arm pull should direct the wrist toward your chest while your hips rise against the posterior elbow joint as the fulcrum point.",
+        "answer_line": "Pivot perpendicular, hips drive in",
+        "distractors": {
+          "plausible": [
+            "Pull straight back off opponent",
+            "Push forward into their chest"
+          ],
+          "trap": [
+            "Yank arm straight up overhead"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together as you attempt to isolate the arm - how do you break their grip?",
-        "answer": "Use your legs and hips to create a mechanical advantage for the grip break rather than relying on hand strength alone. Bring both feet to the mat on the clasped-hand side, elevate your hips to create pressure across the forearm line, and use a prying motion with both hands on the wrist while hip pressure acts as a wedge separating the grip. Alternatively, adjust to a modified armbar angle where your hip bone presses directly across the forearm, mechanically levering the hands apart."
+        "answer": "Use your legs and hips to create a mechanical advantage for the grip break rather than relying on hand strength alone. Bring both feet to the mat on the clasped-hand side, elevate your hips to create pressure across the forearm line, and use a prying motion with both hands on the wrist while hip pressure acts as a wedge separating the grip. Alternatively, adjust to a modified armbar angle where your hip bone presses directly across the forearm, mechanically levering the hands apart.",
+        "answer_line": "Hip pressure wedges hands apart",
+        "distractors": {
+          "plausible": [
+            "Pull the wrist with both hands",
+            "Strike the elbow to loosen grip"
+          ],
+          "trap": [
+            "Yank arms hard with your hands"
+          ]
+        }
       },
       {
         "question": "If the armbar attempt from reverse mount is blocked, what are your best chain attack options?",
-        "answer": "From a blocked armbar attempt, the primary chains are: convert to a triangle by adjusting leg position to trap the opponent's head and opposite arm together, redirect into an omoplata by rotating the leg angle over the shoulder, or abandon the submission and transition to standard mount or back control by using the positional advantage gained during the failed attempt. The armbar-triangle-omoplata chain from the armbar control position is one of the highest-percentage offensive cycles available."
+        "answer": "From a blocked armbar attempt, the primary chains are: convert to a triangle by adjusting leg position to trap the opponent's head and opposite arm together, redirect into an omoplata by rotating the leg angle over the shoulder, or abandon the submission and transition to standard mount or back control by using the positional advantage gained during the failed attempt. The armbar-triangle-omoplata chain from the armbar control position is one of the highest-percentage offensive cycles available.",
+        "answer_line": "Chain to triangle or omoplata",
+        "distractors": {
+          "plausible": [
+            "Release grip, stand up and reset",
+            "Switch straight to a leglock"
+          ],
+          "trap": [
+            "Keep forcing the same armbar angle"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from stacking you during the armbar transition from reverse mount?",
-        "answer": "Control the opponent's posture by driving your heels firmly into their upper back and chest, keeping your hips close to their shoulder to minimize the lever arm they can use to stack. If they initiate a stacking attempt, angle your body slightly off-center rather than allowing them to drive straight over you. Frame against their hip or knee with the hand not controlling the wrist to redirect their forward pressure laterally. Maintaining tight hip-to-shoulder proximity denies them the distance needed for effective stacking."
+        "answer": "Control the opponent's posture by driving your heels firmly into their upper back and chest, keeping your hips close to their shoulder to minimize the lever arm they can use to stack. If they initiate a stacking attempt, angle your body slightly off-center rather than allowing them to drive straight over you. Frame against their hip or knee with the hand not controlling the wrist to redirect their forward pressure laterally. Maintaining tight hip-to-shoulder proximity denies them the distance needed for effective stacking.",
+        "answer_line": "Heels drive in, hips stay close",
+        "distractors": {
+          "plausible": [
+            "Push opponent's head down hard",
+            "Lean back to add pivot power"
+          ],
+          "trap": [
+            "Let them drive straight over you"
+          ]
+        }
       },
       {
         "question": "What distinguishes the reverse mount armbar setup from a standard mount armbar setup?",
-        "answer": "The reverse mount armbar begins with the attacker facing the opponent's legs rather than their head, fundamentally changing the arm access pattern. You attack arms positioned behind you near your hips rather than in front of you. The pivot mechanics differ in that you spin toward the arm from a backward-facing position rather than falling back from a forward-facing position. The reverse mount armbar often catches opponents off-guard because their defensive instincts are calibrated for forward-facing threats, making initial arm isolation easier but the transition movement more technically demanding."
+        "answer": "The reverse mount armbar begins with the attacker facing the opponent's legs rather than their head, fundamentally changing the arm access pattern. You attack arms positioned behind you near your hips rather than in front of you. The pivot mechanics differ in that you spin toward the arm from a backward-facing position rather than falling back from a forward-facing position. The reverse mount armbar often catches opponents off-guard because their defensive instincts are calibrated for forward-facing threats, making initial arm isolation easier but the transition movement more technically demanding.",
+        "answer_line": "Facing legs, arms behind you",
+        "distractors": {
+          "plausible": [
+            "Same falling-back mechanics",
+            "Attacker faces opponent's head"
+          ],
+          "trap": [
+            "Fall straight back like standard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The armbar hyperextends the elbow joint and can cause serious ligament and tendon damage if applied forcefully or without control. During training, apply pressure gradually and smoothly, giving your partner adequate time to recognize the submission and tap. Release immediately upon feeling any tap signal whether on your body, the mat, or verbal. Be especially careful during the pivot transition from reverse mount, as sudden weight shifts can apply unexpected torque on the elbow before either partner is prepared. Always communicate with your training partner about pre-existing elbow or shoulder injuries before drilling. In competition, controlled application allows the referee time to intervene if necessary.",
@@ -400,23 +500,73 @@
     "flashcards": [
       {
         "question": "What is the first defensive action you should take when you feel the attacker grip your wrist from reverse mount?",
-        "answer": "Immediately clasp your hands together or grab your own wrist with your free hand, creating an interlocked defense that prevents arm extension. This must happen within the first half-second of feeling the grip, before the attacker can begin their pivot. The clasped hands buy critical time even if they cannot prevent the armbar entirely, creating opportunities for follow-up escape movements like bridging or turning."
+        "answer": "Immediately clasp your hands together or grab your own wrist with your free hand, creating an interlocked defense that prevents arm extension. This must happen within the first half-second of feeling the grip, before the attacker can begin their pivot. The clasped hands buy critical time even if they cannot prevent the armbar entirely, creating opportunities for follow-up escape movements like bridging or turning.",
+        "answer_line": "Clasp hands together immediately",
+        "distractors": {
+          "plausible": [
+            "Try to pull the arm free first",
+            "Wait and see their next move"
+          ],
+          "trap": [
+            "Push against their hips hard"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker critical when defending the armbar from reverse mount?",
-        "answer": "The armbar requires a perpendicular angle between the attacker's body and your arm for effective hyperextension. Turning toward the attacker collapses this angle, preventing them from establishing the proper lever arm for the submission. Additionally, turning creates a scramble dynamic where you can potentially reguard to closed guard or create sufficient space to establish defensive frames. Staying flat preserves the exact body alignment the attacker needs."
+        "answer": "The armbar requires a perpendicular angle between the attacker's body and your arm for effective hyperextension. Turning toward the attacker collapses this angle, preventing them from establishing the proper lever arm for the submission. Additionally, turning creates a scramble dynamic where you can potentially reguard to closed guard or create sufficient space to establish defensive frames. Staying flat preserves the exact body alignment the attacker needs.",
+        "answer_line": "Collapses the perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Relieves pressure on your chest"
+          ],
+          "trap": [
+            "Stay flat and bridge upward"
+          ]
+        }
       },
       {
         "question": "What are the key tactile cues that indicate an armbar attempt from reverse mount rather than a mount conversion or back take?",
-        "answer": "The primary distinguishing cues are: a grip on your wrist or forearm with pulling pressure toward the attacker's hip, a lateral weight shift to one side of your chest rather than rotational movement toward your head, and the sensation of one leg lifting off your ribs while the other maintains pressure. Mount conversions involve rotational weight movement toward your head, while back takes involve the attacker sliding off laterally. The armbar specifically involves wrist control plus perpendicular pivot, which creates a distinctly different pressure pattern."
+        "answer": "The primary distinguishing cues are: a grip on your wrist or forearm with pulling pressure toward the attacker's hip, a lateral weight shift to one side of your chest rather than rotational movement toward your head, and the sensation of one leg lifting off your ribs while the other maintains pressure. Mount conversions involve rotational weight movement toward your head, while back takes involve the attacker sliding off laterally. The armbar specifically involves wrist control plus perpendicular pivot, which creates a distinctly different pressure pattern.",
+        "answer_line": "Wrist pull plus leg lifts off ribs",
+        "distractors": {
+          "plausible": [
+            "Rotational weight toward your head",
+            "Attacker sliding off to the side"
+          ],
+          "trap": [
+            "No grip change, just heavier hips"
+          ]
+        }
       },
       {
         "question": "When is the best moment to attempt a bridge escape during an armbar from reverse mount?",
-        "answer": "The optimal bridging moment is when the attacker lifts their far leg to swing it over your body. At this instant, they have only one knee on the mat for base, their hips are mid-rotation, and their attention is divided between maintaining the arm grip and completing the leg swing. An explosive bridge timed to this moment has the highest probability of disrupting the armbar and creating a scramble opportunity for reguarding."
+        "answer": "The optimal bridging moment is when the attacker lifts their far leg to swing it over your body. At this instant, they have only one knee on the mat for base, their hips are mid-rotation, and their attention is divided between maintaining the arm grip and completing the leg swing. An explosive bridge timed to this moment has the highest probability of disrupting the armbar and creating a scramble opportunity for reguarding.",
+        "answer_line": "When their leg lifts to swing over",
+        "distractors": {
+          "plausible": [
+            "Right after wrist grip is felt",
+            "Once fully pivoted and set"
+          ],
+          "trap": [
+            "After they finish the pivot"
+          ]
+        }
       },
       {
         "question": "Why should you avoid extending your arms to push against the attacker when defending from reverse mount bottom?",
-        "answer": "Extended arms are precisely what the attacker is targeting for the armbar. Pushing against their body places your arms in the exact position needed for isolation, making their job significantly easier. The pushing force you generate is insufficient to move the attacker off your torso but provides them with perfectly positioned limbs to attack. Instead, keep elbows clamped tight to your ribs and use hip and core movements for defense, saving arm movements for direct grip defense and clasping."
+        "answer": "Extended arms are precisely what the attacker is targeting for the armbar. Pushing against their body places your arms in the exact position needed for isolation, making their job significantly easier. The pushing force you generate is insufficient to move the attacker off your torso but provides them with perfectly positioned limbs to attack. Instead, keep elbows clamped tight to your ribs and use hip and core movements for defense, saving arm movements for direct grip defense and clasping.",
+        "answer_line": "Keep elbows tight, use hips instead",
+        "distractors": {
+          "plausible": [
+            "Push their hips off with force",
+            "Extend arms to create distance"
+          ],
+          "trap": [
+            "Push hard against their chest"
+          ]
+        }
       }
     ],
     "training_progressions": [

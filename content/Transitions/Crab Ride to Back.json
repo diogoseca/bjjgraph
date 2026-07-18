@@ -248,19 +248,59 @@
     "flashcards": [
       {
         "question": "What is the proper sequence for establishing control during the Crab Ride to Back transition?",
-        "answer": "The proper sequence is: establish Crab Ride position with first hook and near arm control, begin seat belt grip by securing the top arm over the far shoulder, release near arm control and immediately insert bottom arm under near armpit to complete seat belt, insert second hook while maintaining seat belt control, execute the transition to back mount through rolling or sliding, and finally consolidate the back control position. This sequence ensures continuous control throughout the transition without creating escape opportunities."
+        "answer": "The proper sequence is: establish Crab Ride position with first hook and near arm control, begin seat belt grip by securing the top arm over the far shoulder, release near arm control and immediately insert bottom arm under near armpit to complete seat belt, insert second hook while maintaining seat belt control, execute the transition to back mount through rolling or sliding, and finally consolidate the back control position. This sequence ensures continuous control throughout the transition without creating escape opportunities.",
+        "answer_line": "Near arm control before seat belt",
+        "distractors": {
+          "plausible": [
+            "Insert both hooks before seat belt",
+            "Complete seat belt before hooks"
+          ],
+          "trap": [
+            "Release near arm before hook set"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's near arm crucial in the early stages of this transition?",
-        "answer": "Controlling the near arm prevents the opponent from posting and creating a strong defensive frame, which would block seat belt completion and potentially allow escape to guard or standing position. The near arm control maintains the opponent's compromised posture and limited base while you establish the seat belt grip. Once the seat belt is partially established, you can release the near arm to complete the bottom portion of the grip without giving the opponent time to establish defensive frames."
+        "answer": "Controlling the near arm prevents the opponent from posting and creating a strong defensive frame, which would block seat belt completion and potentially allow escape to guard or standing position. The near arm control maintains the opponent's compromised posture and limited base while you establish the seat belt grip. Once the seat belt is partially established, you can release the near arm to complete the bottom portion of the grip without giving the opponent time to establish defensive frames.",
+        "answer_line": "Stops opponent from posting frame",
+        "distractors": {
+          "plausible": [
+            "Sets up immediate kimura attack",
+            "Frees your hands for the choke"
+          ],
+          "trap": [
+            "Let them post to bait a scramble"
+          ]
+        }
       },
       {
         "question": "Your opponent sits to their hip and begins turning into you during the transition - how do you adjust?",
-        "answer": "If the opponent turns into you, maintain strong near arm control and use your hook to prevent the hip movement initially. If they successfully begin the turn, follow their motion and transition to alternative positions like crucifix or truck rather than forcing the back take and potentially losing position entirely. Their turning motion often exposes the far arm for crucifix entry or creates leg entanglement opportunities for truck position. This demonstrates the principle of following opponent movement rather than rigid technique application."
+        "answer": "If the opponent turns into you, maintain strong near arm control and use your hook to prevent the hip movement initially. If they successfully begin the turn, follow their motion and transition to alternative positions like crucifix or truck rather than forcing the back take and potentially losing position entirely. Their turning motion often exposes the far arm for crucifix entry or creates leg entanglement opportunities for truck position. This demonstrates the principle of following opponent movement rather than rigid technique application.",
+        "answer_line": "Follow turn to crucifix or truck",
+        "distractors": {
+          "plausible": [
+            "Force the back take regardless",
+            "Release hook to reset position"
+          ],
+          "trap": [
+            "Chase points by forcing the roll"
+          ]
+        }
       },
       {
         "question": "How does proper hook depth affect the success rate of the Crab Ride to Back transition?",
-        "answer": "Deep hooks positioned at the hip crease with feet controlling the hip flexors are essential for maintaining control throughout the transition, especially during the roll or slide to back mount. Shallow hooks can be cleared by the opponent during the transition, resulting in loss of position or reversal. Deep hooks survive the dynamic movement and provide the stability necessary for consolidating back control. The depth must be established before committing to the final transition phase."
+        "answer": "Deep hooks positioned at the hip crease with feet controlling the hip flexors are essential for maintaining control throughout the transition, especially during the roll or slide to back mount. Shallow hooks can be cleared by the opponent during the transition, resulting in loss of position or reversal. Deep hooks survive the dynamic movement and provide the stability necessary for consolidating back control. The depth must be established before committing to the final transition phase.",
+        "answer_line": "Deep hooks at the hip crease",
+        "distractors": {
+          "plausible": [
+            "Hooks anywhere on the thigh",
+            "Shallow hooks for fast insertion"
+          ],
+          "trap": [
+            "Shallow hooks, commit to roll early"
+          ]
+        }
       },
       {
         "question": "What are the key differences between the roll-to-back and slide-to-back variations of this technique?",
@@ -268,23 +308,73 @@
       },
       {
         "question": "Your opponent traps your bottom hook with their leg during the transition - what is the correct response?",
-        "answer": "Accept the single hook position temporarily rather than fighting to free it immediately, as that struggle creates space for escape. Maintain tight seat belt control as your priority and use your free leg to post and adjust your angle. The trapped hook actually serves as an anchor point, and you can use it as a pivot to work for better positioning. If the entanglement deepens, consider transitioning to truck control where the leg configuration becomes advantageous for twister or calf slicer attacks while preserving the path to back control."
+        "answer": "Accept the single hook position temporarily rather than fighting to free it immediately, as that struggle creates space for escape. Maintain tight seat belt control as your priority and use your free leg to post and adjust your angle. The trapped hook actually serves as an anchor point, and you can use it as a pivot to work for better positioning. If the entanglement deepens, consider transitioning to truck control where the leg configuration becomes advantageous for twister or calf slicer attacks while preserving the path to back control.",
+        "answer_line": "Keep seat belt, don't fight hook",
+        "distractors": {
+          "plausible": [
+            "Rip the hook free immediately",
+            "Abandon seat belt to free leg"
+          ],
+          "trap": [
+            "Fight to free the hook at once"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure seat belt control during this transition?",
-        "answer": "The gable grip or S-grip with one arm over the far shoulder and one arm under the near armpit provides the strongest seat belt for this transition. The over-arm should be the choking arm side so it is already positioned for rear naked choke entry once back control is consolidated. Lock the hands at the opponent's sternum level with elbows tight to your own body to prevent the opponent from stripping individual grips. Avoid clasping fingers as this grip fails under load more easily than palm-to-palm configurations."
+        "answer": "The gable grip or S-grip with one arm over the far shoulder and one arm under the near armpit provides the strongest seat belt for this transition. The over-arm should be the choking arm side so it is already positioned for rear naked choke entry once back control is consolidated. Lock the hands at the opponent's sternum level with elbows tight to your own body to prevent the opponent from stripping individual grips. Avoid clasping fingers as this grip fails under load more easily than palm-to-palm configurations.",
+        "answer_line": "Gable grip, choke-arm over top",
+        "distractors": {
+          "plausible": [
+            "Finger clasp for a tighter lock",
+            "Grip at opponent's collarbone"
+          ],
+          "trap": [
+            "Clasp fingers loosely for speed"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to commit to the final roll or slide to back mount?",
-        "answer": "The optimal window occurs when three conditions are met simultaneously: both hooks are deep at the hip crease, the seat belt is locked with hands clasped, and the opponent makes a defensive movement such as trying to flatten out, shift weight forward, or reach for your grips. Their defensive motion creates momentary instability that you can exploit by rolling or sliding in the direction of their movement. Committing when the opponent is perfectly still and braced requires significantly more force and has a higher failure rate than timing the transition with their movement."
+        "answer": "The optimal window occurs when three conditions are met simultaneously: both hooks are deep at the hip crease, the seat belt is locked with hands clasped, and the opponent makes a defensive movement such as trying to flatten out, shift weight forward, or reach for your grips. Their defensive motion creates momentary instability that you can exploit by rolling or sliding in the direction of their movement. Committing when the opponent is perfectly still and braced requires significantly more force and has a higher failure rate than timing the transition with their movement.",
+        "answer_line": "When opponent moves defensively",
+        "distractors": {
+          "plausible": [
+            "When opponent is braced still",
+            "As soon as one hook is in"
+          ],
+          "trap": [
+            "Force it while they're stable"
+          ]
+        }
       },
       {
         "question": "How do you chain submission threats to create openings for the back take when the opponent defends effectively?",
-        "answer": "From the Crab Ride, threaten a kimura on the near arm or a darce choke when the opponent drops their head. These threats force specific defensive reactions: defending the kimura typically requires the opponent to pull their arm tight which compromises their posting ability, while defending the darce forces them to lift their head and extend which creates space for hook insertion. The submission does not need to be completed - the defensive reaction itself opens the pathway for the back take. This attacking chain creates the positional dilemma that makes the Crab Ride system so effective."
+        "answer": "From the Crab Ride, threaten a kimura on the near arm or a darce choke when the opponent drops their head. These threats force specific defensive reactions: defending the kimura typically requires the opponent to pull their arm tight which compromises their posting ability, while defending the darce forces them to lift their head and extend which creates space for hook insertion. The submission does not need to be completed - the defensive reaction itself opens the pathway for the back take. This attacking chain creates the positional dilemma that makes the Crab Ride system so effective.",
+        "answer_line": "Threaten kimura or darce to open",
+        "distractors": {
+          "plausible": [
+            "Finish the kimura before back take",
+            "Ignore subs, focus only on hooks"
+          ],
+          "trap": [
+            "Commit fully to finishing kimura"
+          ]
+        }
       },
       {
         "question": "What physical attribute is most important for executing this transition effectively, and why?",
-        "answer": "Hip mobility and the ability to change hip angle fluidly are more important than raw strength or flexibility for this transition. The entire sequence requires continuous hip adjustments: angling to insert the first hook, shifting to establish the seat belt, repositioning to insert the second hook, and finally rotating through the roll or slide to back mount. Practitioners with stiff hips tend to create space during these adjustments, giving the opponent escape windows. Training hip circles, switch base drills, and granby rolls specifically improves the hip fluidity needed for smooth execution."
+        "answer": "Hip mobility and the ability to change hip angle fluidly are more important than raw strength or flexibility for this transition. The entire sequence requires continuous hip adjustments: angling to insert the first hook, shifting to establish the seat belt, repositioning to insert the second hook, and finally rotating through the roll or slide to back mount. Practitioners with stiff hips tend to create space during these adjustments, giving the opponent escape windows. Training hip circles, switch base drills, and granby rolls specifically improves the hip fluidity needed for smooth execution.",
+        "answer_line": "Hip mobility and angle changes",
+        "distractors": {
+          "plausible": [
+            "Grip strength for the seat belt",
+            "Overall flexibility in the legs"
+          ],
+          "trap": [
+            "Raw strength to force the roll"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Crab Ride to Back transition is generally safe when practiced with proper control and awareness. Primary safety concerns include preventing excessive cranking of the neck during seat belt establishment, avoiding sudden or jerky movements during the roll to back that could strain the opponent's spine, and being mindful of knee torque on both your hooks and opponent's defensive leg positions. Partners should communicate clearly during drilling, especially when practicing the dynamic roll variation. Start with slow, controlled repetitions before adding speed and resistance. Be particularly careful with the seat belt grip not to apply choking pressure during the transition phase unless specifically working submission chains. Both practitioners should understand the difference between positional control and submission application to prevent accidental injury during training.",
@@ -408,23 +498,73 @@
     "flashcards": [
       {
         "question": "What is the most critical moment to attempt an escape from the Crab Ride to Back transition?",
-        "answer": "The most critical escape window occurs when the attacker releases near arm control to establish the seat belt grip. During this brief transition, the attacker has reduced control over your posting ability and their weight shifts to accommodate the grip change. A well-timed sit-through, Granby roll, or explosive stand-up during this moment has the highest success rate because you exploit the gap between control configurations rather than fighting against fully established control points."
+        "answer": "The most critical escape window occurs when the attacker releases near arm control to establish the seat belt grip. During this brief transition, the attacker has reduced control over your posting ability and their weight shifts to accommodate the grip change. A well-timed sit-through, Granby roll, or explosive stand-up during this moment has the highest success rate because you exploit the gap between control configurations rather than fighting against fully established control points.",
+        "answer_line": "When they release near arm grip",
+        "distractors": {
+          "plausible": [
+            "Right after both hooks are in",
+            "During the final roll to back"
+          ],
+          "trap": [
+            "Wait until seat belt is locked"
+          ]
+        }
       },
       {
         "question": "Why is it a mistake to focus all defensive effort on stripping hooks while ignoring the seat belt?",
-        "answer": "The seat belt provides the upper body dominance that allows the attacker to reinsert hooks at will. Even if you temporarily strip a hook, a completed seat belt means the attacker maintains chest-to-back connection and arm control sufficient to simply thread the hook back in. Effective defense must address both control layers simultaneously: use your elbows tight to deny the underhook for the seat belt while using active hip movement and leg defense to manage hook depth. Stripping hooks without addressing the seat belt is like bailing water without plugging the hole."
+        "answer": "The seat belt provides the upper body dominance that allows the attacker to reinsert hooks at will. Even if you temporarily strip a hook, a completed seat belt means the attacker maintains chest-to-back connection and arm control sufficient to simply thread the hook back in. Effective defense must address both control layers simultaneously: use your elbows tight to deny the underhook for the seat belt while using active hip movement and leg defense to manage hook depth. Stripping hooks without addressing the seat belt is like bailing water without plugging the hole.",
+        "answer_line": "Seat belt lets them reinsert hooks",
+        "distractors": {
+          "plausible": [
+            "Hooks matter more than seat belt",
+            "Stripping one hook ends the threat"
+          ],
+          "trap": [
+            "Ignore seat belt, strip hooks only"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when defending the Crab Ride to Back over an extended sequence?",
-        "answer": "Defend actively but conserve explosive energy for specific escape windows rather than maintaining constant maximum effort. Between escape attempts, focus on maintaining strong turtle base, keeping elbows tight, and chin tucked with controlled breathing. When you identify a grip transition or weight shift by the attacker, commit fully to a single explosive technique with clear directional purpose. If the escape attempt fails, immediately return to active defense and recovery rather than chaining multiple weak attempts that drain energy without creating meaningful escape opportunities."
+        "answer": "Defend actively but conserve explosive energy for specific escape windows rather than maintaining constant maximum effort. Between escape attempts, focus on maintaining strong turtle base, keeping elbows tight, and chin tucked with controlled breathing. When you identify a grip transition or weight shift by the attacker, commit fully to a single explosive technique with clear directional purpose. If the escape attempt fails, immediately return to active defense and recovery rather than chaining multiple weak attempts that drain energy without creating meaningful escape opportunities.",
+        "answer_line": "Save bursts for real windows",
+        "distractors": {
+          "plausible": [
+            "Explode constantly to wear them down",
+            "Chain multiple weak escape attempts"
+          ],
+          "trap": [
+            "Go all-out on every attempt"
+          ]
+        }
       },
       {
         "question": "Your opponent has one hook and is reaching over your far shoulder for the seat belt - what is your defensive priority?",
-        "answer": "Your immediate priority is preventing the seat belt completion by using your far hand to fight their reaching arm while simultaneously initiating a sit-through toward the hook side. The reaching motion creates a momentary weight shift forward and upward that compromises their hook anchor. By dropping your near hip to the mat and turning into them during this reach, you exploit the window where their control is divided between maintaining the hook and establishing the new grip. This is the highest-percentage defensive timing in the entire transition sequence."
+        "answer": "Your immediate priority is preventing the seat belt completion by using your far hand to fight their reaching arm while simultaneously initiating a sit-through toward the hook side. The reaching motion creates a momentary weight shift forward and upward that compromises their hook anchor. By dropping your near hip to the mat and turning into them during this reach, you exploit the window where their control is divided between maintaining the hook and establishing the new grip. This is the highest-percentage defensive timing in the entire transition sequence.",
+        "answer_line": "Sit-through toward the hook side",
+        "distractors": {
+          "plausible": [
+            "Sit-through away from the hook",
+            "Turn away to protect the neck"
+          ],
+          "trap": [
+            "Post hands to brace, stay still"
+          ]
+        }
       },
       {
         "question": "What defensive body position should you maintain throughout the Crab Ride sequence even before escape attempts?",
-        "answer": "Maintain a tight turtle with knees wide enough for base but not so wide that you lose hip mobility. Keep your elbows pinched to your sides to deny underhook access, chin tucked to your chest to preemptively protect the neck, and shoulders slightly shrugged to reduce the space available for the over-shoulder grip. Your weight should be actively distributed through all four posting points rather than passively sitting. This defensive posture does not escape the position but significantly slows the attacker's progression through the control sequence, buying you time to identify escape windows."
+        "answer": "Maintain a tight turtle with knees wide enough for base but not so wide that you lose hip mobility. Keep your elbows pinched to your sides to deny underhook access, chin tucked to your chest to preemptively protect the neck, and shoulders slightly shrugged to reduce the space available for the over-shoulder grip. Your weight should be actively distributed through all four posting points rather than passively sitting. This defensive posture does not escape the position but significantly slows the attacker's progression through the control sequence, buying you time to identify escape windows.",
+        "answer_line": "Tight turtle, elbows in, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Wide base with arms extended out",
+            "Flat posture to lower center mass"
+          ],
+          "trap": [
+            "Relax base to conserve energy early"
+          ]
+        }
       }
     ],
     "training_progressions": [

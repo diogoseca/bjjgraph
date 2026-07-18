@@ -259,35 +259,115 @@
     "flashcards": [
       {
         "question": "Your overhook grip is starting to weaken as the top player systematically strips your control - when is the optimal moment to initiate the transition to half guard?",
-        "answer": "The optimal moment is when you still have sufficient overhook control to manage the top player's posture but recognize that the grip will fail within the next 3-5 seconds. Initiating the transition while you still have the overhook as a controlling frame gives you the best chance of threading your leg safely. Waiting until the overhook completely fails leaves you in an uncontrolled scramble where the top player can easily pass to side control. The overhook serves as your managing frame during the transition, so it must still be functional when you begin."
+        "answer": "The optimal moment is when you still have sufficient overhook control to manage the top player's posture but recognize that the grip will fail within the next 3-5 seconds. Initiating the transition while you still have the overhook as a controlling frame gives you the best chance of threading your leg safely. Waiting until the overhook completely fails leaves you in an uncontrolled scramble where the top player can easily pass to side control. The overhook serves as your managing frame during the transition, so it must still be functional when you begin.",
+        "answer_line": "Before overhook grip fully fails",
+        "distractors": {
+          "plausible": [
+            "Wait for grip to weaken more",
+            "As soon as you grab overhook"
+          ],
+          "trap": [
+            "Wait until grip fully fails"
+          ]
+        }
       },
       {
         "question": "What hip position must be established before attempting to thread your inside leg into the half guard entanglement?",
-        "answer": "You must create a diagonal hip angle by executing a hip escape away from the top player's pressure direction. Your hips should be angled at approximately 30-45 degrees from flat rather than lying directly on your back. This angle creates the space between your bodies needed to thread the inside leg through, and positions your inside knee to enter the gap between the top player's legs. Without this hip angle, there is insufficient space for leg insertion and the top player's weight pins you flat, making the thread mechanically impossible."
+        "answer": "You must create a diagonal hip angle by executing a hip escape away from the top player's pressure direction. Your hips should be angled at approximately 30-45 degrees from flat rather than lying directly on your back. This angle creates the space between your bodies needed to thread the inside leg through, and positions your inside knee to enter the gap between the top player's legs. Without this hip angle, there is insufficient space for leg insertion and the top player's weight pins you flat, making the thread mechanically impossible.",
+        "answer_line": "Hip escape at diagonal angle",
+        "distractors": {
+          "plausible": [
+            "Keep hips flat and square",
+            "Bridge up before threading leg"
+          ],
+          "trap": [
+            "Stay flat, absorb the pressure"
+          ]
+        }
       },
       {
         "question": "Which leg initiates the half guard hook and what is the correct insertion path?",
-        "answer": "The inside leg, meaning the leg closest to the overhook side, initiates the half guard hook. The correct path threads between the top player's legs on a low scooping motion along the mat surface with your knee entering first. The foot follows the knee on a path that hooks behind the top player's far knee or lower thigh. Threading from a low angle rather than trying to lift over follows the line of least resistance under top pressure and is harder to block. The scooping motion maintains your hip connection to the mat throughout."
+        "answer": "The inside leg, meaning the leg closest to the overhook side, initiates the half guard hook. The correct path threads between the top player's legs on a low scooping motion along the mat surface with your knee entering first. The foot follows the knee on a path that hooks behind the top player's far knee or lower thigh. Threading from a low angle rather than trying to lift over follows the line of least resistance under top pressure and is harder to block. The scooping motion maintains your hip connection to the mat throughout.",
+        "answer_line": "Inside leg, knee first low scoop",
+        "distractors": {
+          "plausible": [
+            "Outside leg threads first",
+            "Inside leg, foot leads the path"
+          ],
+          "trap": [
+            "Lift leg over the top"
+          ]
+        }
       },
       {
         "question": "You've begun threading your leg but the top player drives heavy chest-to-chest pressure forward - how do you complete the transition?",
-        "answer": "Use their forward momentum to your advantage rather than fighting against it. Maintain the overhook grip firmly while accelerating your hip escape in the opposite direction of their drive. Their forward pressure actually assists the half guard entry by bringing their trapped leg deeper between yours. Simultaneously post your outside foot on their hip to create a frame that prevents complete smashing. Complete the leg thread and close the half guard lock before releasing the hip frame. Their forward commitment makes extraction harder once your hooks are set."
+        "answer": "Use their forward momentum to your advantage rather than fighting against it. Maintain the overhook grip firmly while accelerating your hip escape in the opposite direction of their drive. Their forward pressure actually assists the half guard entry by bringing their trapped leg deeper between yours. Simultaneously post your outside foot on their hip to create a frame that prevents complete smashing. Complete the leg thread and close the half guard lock before releasing the hip frame. Their forward commitment makes extraction harder once your hooks are set.",
+        "answer_line": "Use their pressure, keep overhook",
+        "distractors": {
+          "plausible": [
+            "Fight the pressure straight back",
+            "Release overhook, post both hands"
+          ],
+          "trap": [
+            "Let go and try to escape flat"
+          ]
+        }
       },
       {
         "question": "What grip transition must occur as you move from overhook control to established half guard position?",
-        "answer": "The primary grip transition moves from the overhook armpit seal to either an underhook on the trapped leg side for sweeping offense, a knee shield frame with your outside shin for distance management, or collar and wrist control for submission threats. The overhook grip must be maintained throughout the entire leg threading phase and released only after the half guard hooks are fully secured. The free arm transitions from its secondary control point to establishing the complementary grip for your chosen half guard variation. There must be no gap between releasing the overhook and establishing new half guard controls."
+        "answer": "The primary grip transition moves from the overhook armpit seal to either an underhook on the trapped leg side for sweeping offense, a knee shield frame with your outside shin for distance management, or collar and wrist control for submission threats. The overhook grip must be maintained throughout the entire leg threading phase and released only after the half guard hooks are fully secured. The free arm transitions from its secondary control point to establishing the complementary grip for your chosen half guard variation. There must be no gap between releasing the overhook and establishing new half guard controls.",
+        "answer_line": "Keep overhook till hooks lock",
+        "distractors": {
+          "plausible": [
+            "Switch to underhook mid-thread",
+            "Grab collar before leg is in"
+          ],
+          "trap": [
+            "Release overhook immediately"
+          ]
+        }
       },
       {
         "question": "In which direction should your primary hip movement travel during the leg threading phase to maximize space creation?",
-        "answer": "Your hips should move diagonally away from the overhook side and slightly downward toward the mat. This diagonal hip escape creates maximum space on the insertion side while maintaining connection through the overhook on the opposite side. The movement should not be purely lateral, which would break the overhook prematurely, nor purely backward, which fails to create insertion space. The diagonal angle generates a pocket between your hip and the top player's leg where your inside knee can enter cleanly without requiring excessive force."
+        "answer": "Your hips should move diagonally away from the overhook side and slightly downward toward the mat. This diagonal hip escape creates maximum space on the insertion side while maintaining connection through the overhook on the opposite side. The movement should not be purely lateral, which would break the overhook prematurely, nor purely backward, which fails to create insertion space. The diagonal angle generates a pocket between your hip and the top player's leg where your inside knee can enter cleanly without requiring excessive force.",
+        "answer_line": "Diagonal, away and downward",
+        "distractors": {
+          "plausible": [
+            "Straight backward escape",
+            "Pure lateral hip escape"
+          ],
+          "trap": [
+            "Bridge straight up and over"
+          ]
+        }
       },
       {
         "question": "The top player posts their free leg wide when they sense your transition attempt - how do you adjust your entry?",
-        "answer": "When the top player widens their base, it actually creates a different entry opportunity with a larger gap between their legs. Instead of threading centrally, angle your hip escape more aggressively and target the wider gap now available on the posted leg side. Alternatively, use the overhook to pull them back toward you, collapsing their wide base before reattempting the leg thread. If neither works, post your inside foot on their inner thigh as a butterfly hook intermediate step to disrupt their widened base, then convert the butterfly hook into a half guard entanglement."
+        "answer": "When the top player widens their base, it actually creates a different entry opportunity with a larger gap between their legs. Instead of threading centrally, angle your hip escape more aggressively and target the wider gap now available on the posted leg side. Alternatively, use the overhook to pull them back toward you, collapsing their wide base before reattempting the leg thread. If neither works, post your inside foot on their inner thigh as a butterfly hook intermediate step to disrupt their widened base, then convert the butterfly hook into a half guard entanglement.",
+        "answer_line": "Target the wider gap now open",
+        "distractors": {
+          "plausible": [
+            "Abandon transition, reset guard",
+            "Push their leg back to close it"
+          ],
+          "trap": [
+            "Force the original central path"
+          ]
+        }
       },
       {
         "question": "After successfully establishing half guard from overhook, what are your immediate offensive priorities to prevent the top player from beginning their passing sequence?",
-        "answer": "Immediately threaten the underhook sweep by driving into the top player and establishing a strong underhook on the trapped leg side. This forces them to dedicate resources to defending the sweep rather than initiating their pass. If they defend the sweep by driving you flat, transition to knee shield half guard to reestablish distance. If they posture back against your underhook threat, pursue the back take by following their hip with your inside hook. The key is never allowing a settling period where the top player can begin systematic passing work."
+        "answer": "Immediately threaten the underhook sweep by driving into the top player and establishing a strong underhook on the trapped leg side. This forces them to dedicate resources to defending the sweep rather than initiating their pass. If they defend the sweep by driving you flat, transition to knee shield half guard to reestablish distance. If they posture back against your underhook threat, pursue the back take by following their hip with your inside hook. The key is never allowing a settling period where the top player can begin systematic passing work.",
+        "answer_line": "Threaten underhook sweep first",
+        "distractors": {
+          "plausible": [
+            "Pause to consolidate position",
+            "Go straight for the back take"
+          ],
+          "trap": [
+            "Sit passively, wait for pass"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves significant hip rotation and leg threading movements that can strain the knee if performed against heavy resistance. Practitioners should avoid forcing the leg insertion when the top player has heavy pressure directly on the knee line, as this creates lateral knee stress. During training, both partners should communicate when excessive pressure is applied to the transitioning leg. The hip escape must create sufficient space before the leg moves - forcing the thread into an inadequate gap risks hyperextension or twisting at the knee joint. Train the mechanics at slow speed before adding resistance.",
@@ -395,23 +475,73 @@
     "flashcards": [
       {
         "question": "You feel the bottom player beginning to hip escape and their inside knee moving toward your legs - what is the most effective immediate response?",
-        "answer": "Drive your hips forward immediately and increase chest-to-chest pressure to eliminate the space the bottom player needs for leg insertion. Simultaneously sprawl your threatened leg backward to prevent their knee from entering between your legs. Use your crossface arm to turn their face away from the insertion side, which limits their hip mobility and prevents the diagonal angle. Speed is critical because the transition window is only 2-3 seconds, and addressing it in the first second prevents the movement entirely."
+        "answer": "Drive your hips forward immediately and increase chest-to-chest pressure to eliminate the space the bottom player needs for leg insertion. Simultaneously sprawl your threatened leg backward to prevent their knee from entering between your legs. Use your crossface arm to turn their face away from the insertion side, which limits their hip mobility and prevents the diagonal angle. Speed is critical because the transition window is only 2-3 seconds, and addressing it in the first second prevents the movement entirely.",
+        "answer_line": "Drive hips forward, sprawl leg",
+        "distractors": {
+          "plausible": [
+            "Pull hips back to create space",
+            "Grab overhook wrist to strip it"
+          ],
+          "trap": [
+            "Back away to reset your base"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for preventing the overhook to half guard transition, and why does early recognition matter?",
-        "answer": "The critical window is during the initial hip escape movement, before the bottom player's inside knee enters between your legs. Once the knee penetrates past your thigh line, preventing full half guard establishment becomes significantly more difficult and requires extraction rather than prevention. This window typically lasts 2-3 seconds from the moment you detect the hip escape initiation. Responding within the first second by driving pressure forward and controlling the hip line prevents the transition entirely, while responding after the second second means fighting against partially established hooks."
+        "answer": "The critical window is during the initial hip escape movement, before the bottom player's inside knee enters between your legs. Once the knee penetrates past your thigh line, preventing full half guard establishment becomes significantly more difficult and requires extraction rather than prevention. This window typically lasts 2-3 seconds from the moment you detect the hip escape initiation. Responding within the first second by driving pressure forward and controlling the hip line prevents the transition entirely, while responding after the second second means fighting against partially established hooks.",
+        "answer_line": "Before their knee enters gap",
+        "distractors": {
+          "plausible": [
+            "Once hooks are fully set",
+            "Anytime during the exchange"
+          ],
+          "trap": [
+            "After knee passes your thigh"
+          ]
+        }
       },
       {
         "question": "The bottom player has threaded one leg between yours but hasn't secured deep hooks - how do you prevent full half guard consolidation?",
-        "answer": "Immediately drive your caught knee to the mat, pinning their hooking leg underneath your weight and preventing them from establishing the full clamp. Use your hands to push their outside knee away from your body, creating distance that loosens their leg lock. Begin your pass by shifting your hips perpendicular to their body and driving forward through the incomplete entanglement. The key is that an incomplete hook means they lack the control to resist a determined passing attempt. Do not settle into their half guard; use this transition moment to advance through to side control."
+        "answer": "Immediately drive your caught knee to the mat, pinning their hooking leg underneath your weight and preventing them from establishing the full clamp. Use your hands to push their outside knee away from your body, creating distance that loosens their leg lock. Begin your pass by shifting your hips perpendicular to their body and driving forward through the incomplete entanglement. The key is that an incomplete hook means they lack the control to resist a determined passing attempt. Do not settle into their half guard; use this transition moment to advance through to side control.",
+        "answer_line": "Pin knee down, push leg, pass",
+        "distractors": {
+          "plausible": [
+            "Wait for hooks to fully lock",
+            "Retreat and reset your base"
+          ],
+          "trap": [
+            "Settle into their half guard"
+          ]
+        }
       },
       {
         "question": "What base configuration gives you the best ability to prevent and counter the overhook to half guard transition?",
-        "answer": "A compact base with your near foot posted flat on the mat and hips kept low and heavy over the bottom player's hip line eliminates the space they need for the hip escape. Your chest should maintain forward pressure into their overhook shoulder, compressing their ability to create the diagonal angle needed for leg insertion. Avoid widening your base, as wider stances create larger gaps between your legs that make the threading path easier. This compact configuration allows you to sprawl backward immediately if they attempt the leg thread while maintaining consistent passing pressure."
+        "answer": "A compact base with your near foot posted flat on the mat and hips kept low and heavy over the bottom player's hip line eliminates the space they need for the hip escape. Your chest should maintain forward pressure into their overhook shoulder, compressing their ability to create the diagonal angle needed for leg insertion. Avoid widening your base, as wider stances create larger gaps between your legs that make the threading path easier. This compact configuration allows you to sprawl backward immediately if they attempt the leg thread while maintaining consistent passing pressure.",
+        "answer_line": "Compact base, low heavy hips",
+        "distractors": {
+          "plausible": [
+            "Wide base for stability",
+            "Base on hands, hips high"
+          ],
+          "trap": [
+            "Sit back to avoid the grip"
+          ]
+        }
       },
       {
         "question": "You successfully prevent the half guard hook but the bottom player still maintains their overhook control - what should your next action be?",
-        "answer": "With the transition denied but overhook still active, immediately work to advance your position through a passing sequence. The bottom player is now in a weakened state because their transition failed, their overhook may be loosening from the exertion, and they must reassess their options. Use this 1-2 second window of defensive confusion to initiate a knee slice pass over their hip or a pressure pass driving your weight through their frame. The failed transition creates a brief moment where their guard structure is compromised and their mental attention is divided between maintaining the overhook and planning their next move."
+        "answer": "With the transition denied but overhook still active, immediately work to advance your position through a passing sequence. The bottom player is now in a weakened state because their transition failed, their overhook may be loosening from the exertion, and they must reassess their options. Use this 1-2 second window of defensive confusion to initiate a knee slice pass over their hip or a pressure pass driving your weight through their frame. The failed transition creates a brief moment where their guard structure is compromised and their mental attention is divided between maintaining the overhook and planning their next move.",
+        "answer_line": "Pass immediately in confusion",
+        "distractors": {
+          "plausible": [
+            "Wait for overhook to fully break",
+            "Reset to neutral base first"
+          ],
+          "trap": [
+            "Disengage and stand up"
+          ]
+        }
       }
     ],
     "training_progressions": [

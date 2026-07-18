@@ -264,35 +264,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the De La Riva hook from feet on hips guard?",
-        "answer": "The ideal entry window opens when the opponent advances one leg forward, creating a clear lead-trail leg distinction. This typically occurs when they attempt to control your ankle, initiate a pass, or shift their weight to establish a passing grip. The moment one hip is advanced beyond the other, the lead leg becomes vulnerable to the DLR hook because the opponent cannot easily retract it without compromising their balance and base."
+        "answer": "The ideal entry window opens when the opponent advances one leg forward, creating a clear lead-trail leg distinction. This typically occurs when they attempt to control your ankle, initiate a pass, or shift their weight to establish a passing grip. The moment one hip is advanced beyond the other, the lead leg becomes vulnerable to the DLR hook because the opponent cannot easily retract it without compromising their balance and base.",
+        "answer_line": "When one leg steps forward",
+        "distractors": {
+          "plausible": [
+            "As soon as they break your grips",
+            "When they sit back to pass"
+          ],
+          "trap": [
+            "Force it against a squared stance"
+          ]
+        }
       },
       {
         "question": "Why must you maintain one foot on the opponent's far hip during the transition?",
-        "answer": "The remaining foot on the far hip serves as your primary distance control mechanism during the most vulnerable phase of the transition. When you remove the hooking-side foot, you temporarily lose half of your pushing frame. Without the remaining foot anchoring the opponent at distance, they can drive forward into your guard and achieve chest-to-chest pressure before you establish the DLR hook, effectively passing your guard during the transition attempt."
+        "answer": "The remaining foot on the far hip serves as your primary distance control mechanism during the most vulnerable phase of the transition. When you remove the hooking-side foot, you temporarily lose half of your pushing frame. Without the remaining foot anchoring the opponent at distance, they can drive forward into your guard and achieve chest-to-chest pressure before you establish the DLR hook, effectively passing your guard during the transition attempt.",
+        "answer_line": "Controls distance to stop pass",
+        "distractors": {
+          "plausible": [
+            "Frees hand for grip fighting",
+            "Balances weight during transition"
+          ],
+          "trap": [
+            "Remove both feet for speed"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize securing before removing your foot to thread the DLR hook?",
-        "answer": "The cross sleeve grip on the opposite side from the leg you intend to hook is the highest-priority grip because it creates a diagonal control line that prevents the opponent from circling away and provides the foundation for the DLR offensive structure. A collar grip is an acceptable alternative offering posture control. The critical point is having an upper body connection that anchors the opponent in place during the transition."
+        "answer": "The cross sleeve grip on the opposite side from the leg you intend to hook is the highest-priority grip because it creates a diagonal control line that prevents the opponent from circling away and provides the foundation for the DLR offensive structure. A collar grip is an acceptable alternative offering posture control. The critical point is having an upper body connection that anchors the opponent in place during the transition.",
+        "answer_line": "Cross sleeve grip, opposite side",
+        "distractors": {
+          "plausible": [
+            "Same-side sleeve grip",
+            "Collar grip first"
+          ],
+          "trap": [
+            "Let go of grips to move faster"
+          ]
+        }
       },
       {
         "question": "Your opponent has a squared stance with no clear lead leg - how do you create the conditions for the DLR entry?",
-        "answer": "Use asymmetric foot pressure to provoke a lead-leg presentation. Push harder with one foot on their hip while reducing pressure with the other, creating a rotational force that encourages them to step one foot forward to maintain balance. Alternatively, pull their sleeve or collar to one side while pushing the opposite hip, creating the angular displacement that forces one leg ahead of the other. Never attempt the DLR entry against a perfectly squared stance."
+        "answer": "Use asymmetric foot pressure to provoke a lead-leg presentation. Push harder with one foot on their hip while reducing pressure with the other, creating a rotational force that encourages them to step one foot forward to maintain balance. Alternatively, pull their sleeve or collar to one side while pushing the opposite hip, creating the angular displacement that forces one leg ahead of the other. Never attempt the DLR entry against a perfectly squared stance.",
+        "answer_line": "Asymmetric push to bait a step",
+        "distractors": {
+          "plausible": [
+            "Pull both sleeves evenly",
+            "Push both hips equally harder"
+          ],
+          "trap": [
+            "Force the hook on squared stance"
+          ]
+        }
       },
       {
         "question": "The opponent grabs your hooking ankle mid-transition and prevents the hook from fully threading - what is your immediate response?",
-        "answer": "Circle your foot sharply outward to strip their ankle grip using the rotational leverage of your hip movement. If the grip holds, abandon the DLR attempt and immediately replace your foot on their hip to restore the feet-on-hips structure. From there, either re-attempt after establishing a stronger upper body grip that limits their hand availability, or transition to spider guard or lasso guard where your already-engaged upper body grips can support an alternative guard system."
+        "answer": "Circle your foot sharply outward to strip their ankle grip using the rotational leverage of your hip movement. If the grip holds, abandon the DLR attempt and immediately replace your foot on their hip to restore the feet-on-hips structure. From there, either re-attempt after establishing a stronger upper body grip that limits their hand availability, or transition to spider guard or lasso guard where your already-engaged upper body grips can support an alternative guard system.",
+        "answer_line": "Circle foot out to strip grip",
+        "distractors": {
+          "plausible": [
+            "Yank leg straight back hard",
+            "Switch to a kimura grip"
+          ],
+          "trap": [
+            "Keep forcing the hook through"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that distinguishes a successful DLR hook from one that is easily cleared?",
-        "answer": "The depth and angle of the hook determine its retention power. A properly set DLR hook has the instep or shin pressed firmly against the back of the opponent's knee, with your own knee pointing outward and your hips angled away from the hooked leg. Combined with the ankle grip, this creates a two-point control system with strong structural integrity. A shallow hook where only the foot curls behind the calf lacks the mechanical advantage to resist extraction and provides minimal off-balancing leverage."
+        "answer": "The depth and angle of the hook determine its retention power. A properly set DLR hook has the instep or shin pressed firmly against the back of the opponent's knee, with your own knee pointing outward and your hips angled away from the hooked leg. Combined with the ankle grip, this creates a two-point control system with strong structural integrity. A shallow hook where only the foot curls behind the calf lacks the mechanical advantage to resist extraction and provides minimal off-balancing leverage.",
+        "answer_line": "Deep instep behind the knee",
+        "distractors": {
+          "plausible": [
+            "Foot curled around the calf",
+            "Toes pointed into the hip"
+          ],
+          "trap": [
+            "Hook shallow to stay mobile"
+          ]
+        }
       },
       {
         "question": "After establishing DLR from feet on hips, what should be your immediate chain attack if the opponent begins to strip your ankle grip?",
-        "answer": "When the opponent commits a hand to stripping your ankle grip, they temporarily reduce their posting ability and upper body defense. Use this moment to either enter a sweep such as the waiter sweep or basic DLR sweep while they are grip fighting, transition to X-Guard by threading your bottom leg between theirs while they focus on your hook, or establish a lasso or spider guard variation on the arm they are using to strip your grip, converting their defensive action into your offensive setup."
+        "answer": "When the opponent commits a hand to stripping your ankle grip, they temporarily reduce their posting ability and upper body defense. Use this moment to either enter a sweep such as the waiter sweep or basic DLR sweep while they are grip fighting, transition to X-Guard by threading your bottom leg between theirs while they focus on your hook, or establish a lasso or spider guard variation on the arm they are using to strip your grip, converting their defensive action into your offensive setup.",
+        "answer_line": "Sweep, X-guard, or lasso entry",
+        "distractors": {
+          "plausible": [
+            "Re-secure the ankle grip only",
+            "Reset to feet on hips"
+          ],
+          "trap": [
+            "Wait for a better opening"
+          ]
+        }
       },
       {
         "question": "In which direction must your hooking foot travel to thread the DLR hook, and why does that path matter?",
-        "answer": "The hooking foot travels in a circular outside-to-inside arc, sweeping around the outside of the opponent's lead leg and curling behind their knee from the outside. This circular path matters because a direct linear stab is easily read and the opponent simply retracts the leg, whereas the arc disguises the entry and lets your instep settle deep behind the knee joint where it generates real off-balancing tension rather than a shallow surface hook."
+        "answer": "The hooking foot travels in a circular outside-to-inside arc, sweeping around the outside of the opponent's lead leg and curling behind their knee from the outside. This circular path matters because a direct linear stab is easily read and the opponent simply retracts the leg, whereas the arc disguises the entry and lets your instep settle deep behind the knee joint where it generates real off-balancing tension rather than a shallow surface hook.",
+        "answer_line": "Outside-in circular arc",
+        "distractors": {
+          "plausible": [
+            "Straight line behind the knee",
+            "Inside-out sweeping path"
+          ],
+          "trap": [
+            "Stab foot straight through gap"
+          ]
+        }
       }
     ],
     "safety_considerations": "The primary injury risk during this transition involves the hooking knee, which can experience valgus stress if the opponent drives forward aggressively while the hook is partially threaded. Practitioners should ensure the hooking leg maintains a slight bend and never locks out straight against resistance. If the opponent applies sudden lateral pressure to the hooked knee, release the hook immediately rather than fighting to maintain it. During training, communicate with partners about knee sensitivity and avoid explosive passing movements during cooperative drilling phases. The ankle of the hooking foot can also be vulnerable to being trapped or twisted during failed entries, so maintain awareness of foot position throughout.",
@@ -401,19 +481,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a De La Riva transition from feet on hips?",
-        "answer": "The earliest cue is a change in foot pressure distribution where one foot pushes harder on your hip while the other begins to lighten. This asymmetric pressure indicates the bottom player is preparing to remove the lighter foot for the hook. Additionally, aggressive cross-sleeve or collar grip fighting signals they are establishing the upper body anchor needed for a safe transition. Reacting at this preparatory stage gives you maximum time to counter before the hook attempt begins."
+        "answer": "The earliest cue is a change in foot pressure distribution where one foot pushes harder on your hip while the other begins to lighten. This asymmetric pressure indicates the bottom player is preparing to remove the lighter foot for the hook. Additionally, aggressive cross-sleeve or collar grip fighting signals they are establishing the upper body anchor needed for a safe transition. Reacting at this preparatory stage gives you maximum time to counter before the hook attempt begins.",
+        "answer_line": "One foot lightens on your hip",
+        "distractors": {
+          "plausible": [
+            "Aggressive sleeve/collar grips",
+            "Opponent stops pushing entirely"
+          ],
+          "trap": [
+            "Wait until hook is fully set"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a squared stance the most effective passive defense against the DLR entry?",
-        "answer": "A squared stance with even weight distribution denies the bottom player a clear lead leg to target. The DLR hook requires threading behind a specific knee, which is difficult when both legs are equidistant and neither is committed forward. A squared stance also preserves your ability to retreat either leg quickly, whereas an advanced lead leg has limited retraction options. The bottom player must first provoke you into presenting a lead leg before they can realistically attempt the hook."
+        "answer": "A squared stance with even weight distribution denies the bottom player a clear lead leg to target. The DLR hook requires threading behind a specific knee, which is difficult when both legs are equidistant and neither is committed forward. A squared stance also preserves your ability to retreat either leg quickly, whereas an advanced lead leg has limited retraction options. The bottom player must first provoke you into presenting a lead leg before they can realistically attempt the hook.",
+        "answer_line": "No lead leg for hook to target",
+        "distractors": {
+          "plausible": [
+            "Keeps hips lower for base",
+            "Lets you pass faster"
+          ],
+          "trap": [
+            "Step one foot forward to pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully threads a partial DLR hook but has not yet secured the ankle grip - what is the highest-percentage counter?",
-        "answer": "Immediately backstep your hooked leg backward while driving your same-side knee toward the mat to flatten the hook angle. Without the ankle grip, the hook has minimal retention power and your backstep momentum will extract your leg cleanly. Simultaneously use your free hand to push their hooking knee away from your leg. Once extracted, immediately initiate a pass while their guard is in transition rather than allowing them to re-establish feet on hips and attempt the entry again."
+        "answer": "Immediately backstep your hooked leg backward while driving your same-side knee toward the mat to flatten the hook angle. Without the ankle grip, the hook has minimal retention power and your backstep momentum will extract your leg cleanly. Simultaneously use your free hand to push their hooking knee away from your leg. Once extracted, immediately initiate a pass while their guard is in transition rather than allowing them to re-establish feet on hips and attempt the entry again.",
+        "answer_line": "Backstep leg, flatten the hook",
+        "distractors": {
+          "plausible": [
+            "Wait for ankle grip then defend",
+            "Sit back to guard pull"
+          ],
+          "trap": [
+            "Pull leg straight up and out"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from using asymmetric foot pressure to provoke you into presenting a lead leg?",
-        "answer": "Maintain awareness of your stance and resist the impulse to step forward when pushed asymmetrically. Instead, absorb the rotational pressure by engaging your core and keeping both feet planted with equal weight. If you feel yourself being turned, step with both feet simultaneously to re-square your stance rather than advancing one leg. You can also counter the asymmetric pressure by controlling both of the bottom player's ankles, neutralizing their ability to create differential pushing forces entirely."
+        "answer": "Maintain awareness of your stance and resist the impulse to step forward when pushed asymmetrically. Instead, absorb the rotational pressure by engaging your core and keeping both feet planted with equal weight. If you feel yourself being turned, step with both feet simultaneously to re-square your stance rather than advancing one leg. You can also counter the asymmetric pressure by controlling both of the bottom player's ankles, neutralizing their ability to create differential pushing forces entirely.",
+        "answer_line": "Stay squared, step both feet",
+        "distractors": {
+          "plausible": [
+            "Push back harder with one foot",
+            "Grip fight to distract them"
+          ],
+          "trap": [
+            "Step forward to regain balance"
+          ]
+        }
       }
     ],
     "training_progressions": [

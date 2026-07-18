@@ -287,47 +287,137 @@
       {
         "question": "What anatomical structures does the arm triangle from turtle attack, and how does the opponent's own body contribute to the choke?",
         "answer": "The arm triangle attacks both carotid arteries simultaneously. Your choking forearm compresses one carotid while the opponent's own trapped shoulder compresses the opposite carotid. The opponent's arm acts as a wedge between your arm and their neck, transmitting your squeezing pressure into the far-side artery. This bilateral compression cuts blood flow to the brain, causing unconsciousness in 6-8 seconds once fully locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compresses both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Only crushes the windpipe",
+            "Squeezes one carotid only"
+          ],
+          "trap": [
+            "Trapped arm blocks the pressure"
+          ]
+        }
       },
       {
         "question": "Why is it necessary to transition the opponent off their turtle base before applying the finishing squeeze?",
         "answer": "The four-point turtle base distributes the opponent's weight across their hands and knees, creating structural resistance that prevents full carotid occlusion. The base allows the opponent to resist the squeeze by posting and maintaining skeletal alignment. Transitioning them to their side or back eliminates this structural support, allowing your shoulder pressure and body weight to drive directly into the choke configuration and close both arteries effectively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Break base to close the choke",
+        "distractors": {
+          "plausible": [
+            "Just squeeze harder from turtle",
+            "Wait for opponent to fatigue"
+          ],
+          "trap": [
+            "Release grip and reset base"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin hard when you begin threading the choking arm - what adjustments prevent the stall?",
         "answer": "Apply cross-face pressure with your free hand to create an angle that lifts their chin. Drive your forearm across the jaw line rather than trying to go under a tightly tucked chin. If the chin remains tucked, use your chest weight to flatten them slightly, which opens space under the chin as their posture changes. You can also switch to a darce or anaconda grip where chin tuck is less effective, then return to the arm triangle once they adjust their defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-face to lift the chin",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the trapped arm",
+            "Wait for chin to relax"
+          ],
+          "trap": [
+            "Force arm under the chin"
+          ]
+        }
       },
       {
         "question": "What is the correct finishing pressure mechanism, and why should you avoid squeezing primarily with your arms?",
         "answer": "The correct finishing pressure comes from walking your hips toward the opponent's head while driving your shoulder forward and down through the trapped arm. This uses your skeletal structure and body weight to generate compression rather than muscular effort from your biceps and forearms. Arm squeezing alone causes rapid fatigue and rarely generates enough compression to finish against a resistant opponent. Structural pressure is sustainable and produces significantly more force through leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips in, drive shoulder",
+        "distractors": {
+          "plausible": [
+            "Pull elbows tight to chest",
+            "Lean back for more leverage"
+          ],
+          "trap": [
+            "Squeeze with arms and biceps"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the arm triangle from turtle in training?",
         "answer": "Blood chokes can cause unconsciousness in 6-8 seconds once both carotids are fully compressed, so pressure must be applied progressively over 3-5 seconds minimum. Always ensure your training partner has at least one hand free to tap. Release immediately upon any tap signal, verbal indication, or if the opponent goes limp. Never hold the choke after a tap. Monitor for facial color changes indicating excessive pressure. If a partner loses consciousness, place them in recovery position on their side with legs elevated and monitor breathing until they regain consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Squeeze slowly, ensure tap access",
+        "distractors": {
+          "plausible": [
+            "Tap only when it hurts badly",
+            "Release only on verbal tap"
+          ],
+          "trap": [
+            "Hold choke until fully limp"
+          ]
+        }
       },
       {
         "question": "How should you release the arm triangle after your partner taps, and what is the recovery protocol if they lose consciousness?",
         "answer": "Upon any tap signal, immediately release the squeeze by opening your elbows and removing shoulder pressure. Disengage from their head and shoulders completely, giving them space to breathe and recover for 30-60 seconds. If the partner loses consciousness, immediately release the choke, place them on their side in the recovery position, elevate their legs slightly, and monitor breathing continuously. They should regain consciousness within 10-20 seconds. If they do not regain consciousness within 20 seconds, seek medical attention immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, place in recovery position",
+        "distractors": {
+          "plausible": [
+            "Slowly ease off the pressure",
+            "Wait for them to say okay"
+          ],
+          "trap": [
+            "Keep light pressure to be safe"
+          ]
+        }
       },
       {
         "question": "Your opponent starts rolling through as you lock the arm triangle grip - should you follow or release?",
         "answer": "Follow the roll while maintaining the figure-four grip. As the opponent rolls, use their momentum to transition with them, often ending in a superior finishing position on the far side. Keep your chest-to-chest connection throughout the roll and your elbows tight to prevent the grip from loosening. The arm triangle remains effective after a roll because the arm-and-shoulder compression does not change with body orientation. Releasing allows the opponent to recover guard for free, wasting your positional advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow the roll, keep grip",
+        "distractors": {
+          "plausible": [
+            "Release grip to reset",
+            "Base out to stop the roll"
+          ],
+          "trap": [
+            "Release and let them escape"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the arm triangle is not producing a tap after settling into the finishing position?",
         "answer": "First, check the depth of your choking arm—your wrist should be past the far-side carotid. If shallow, release the figure-four, re-thread deeper, and relock. Second, confirm the opponent's arm is compressed against their neck by driving your chest into it. Third, walk your hips closer to their head in small steps to tighten the angle. Fourth, lower your head toward the mat on the choking side to increase shoulder pressure. If still ineffective, the forearm may be on the trachea rather than the arteries—re-angle to target the lateral neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rethread deeper, walk hips in",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with same grip",
+            "Switch straight to a new choke"
+          ],
+          "trap": [
+            "Push forearm onto the trachea"
+          ]
+        }
       },
       {
         "question": "How does the arm triangle from turtle fit into a broader turtle attack system?",
         "answer": "The arm triangle serves as a secondary attack that punishes opponents who defend the back take by tucking elbows tight and lowering their head. When they defend the back take, they often position their arm perfectly for the arm triangle entry. It chains with anaconda chokes when the opponent posts their arm forward, darce chokes when they try to turn into you, and guillotines when they lift their head. The three-way threat of arm triangle, anaconda, and darce from turtle top creates a dilemma where defending one attack opens another.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chains with anaconda and darce",
+        "distractors": {
+          "plausible": [
+            "Only works from back mount",
+            "Replaces the back take entirely"
+          ],
+          "trap": [
+            "Abandon turtle attacks if defended"
+          ]
+        }
       }
     ],
     "clips": [
@@ -451,27 +541,77 @@
       {
         "question": "What are the earliest recognition cues that an arm triangle is being set up from turtle, and why is early recognition critical?",
         "answer": "The earliest cues are the attacker's near-side arm beginning to slide under your chin while their chest pressure increases on your upper back, combined with a shift in control from your hips to your head and shoulder area. Early recognition is critical because the arm triangle setup has distinct phases with decreasing defensive effectiveness—once the figure-four grip locks, escape probability drops dramatically. Defending during the arm-threading phase is far easier than after the grip is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm creeps under chin early",
+        "distractors": {
+          "plausible": [
+            "Wait until grip fully locks",
+            "Watch for hip pressure only"
+          ],
+          "trap": [
+            "Ignore early arm slide-in"
+          ]
+        }
       },
       {
         "question": "When should you tap to an arm triangle, and what are the proper signals to use?",
         "answer": "Tap as soon as you feel bilateral pressure on both sides of your neck combined with lightheadedness or vision changes, which indicate carotid compression. Do not wait for pain, as blood chokes can cause unconsciousness without significant pain. Use clear tap signals: multiple rapid hand taps on the opponent or mat, verbal tap statement, or foot taps. If you cannot tap with hands due to the arm being trapped, use verbal tap or foot taps immediately. Never try to tough out a locked arm triangle.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first bilateral pressure",
+        "distractors": {
+          "plausible": [
+            "Tap only when it hurts badly",
+            "Tap only after verbal warning"
+          ],
+          "trap": [
+            "Wait until vision goes black"
+          ]
+        }
       },
       {
         "question": "Why does maintaining your turtle base structure help defend against the arm triangle finish?",
         "answer": "The four-point turtle base distributes your body weight across hands and knees, creating skeletal resistance that counteracts the attacker's squeezing pressure. This structural support prevents full compression of both carotid arteries because your frame absorbs some of the force. When you flatten out, this structural support disappears and your body weight actually assists the compression. The turtle base buys you time to execute escape sequences that would not be available once the base is collapsed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Base weight resists compression",
+        "distractors": {
+          "plausible": [
+            "Hands free is what matters most",
+            "Speed of escape matters more"
+          ],
+          "trap": [
+            "Flatten out to buy more time"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each phase of the arm triangle setup from turtle?",
         "answer": "During the arm-threading phase, chin tuck and hand fighting are most effective—prevent the arm from getting under your chin. During the grip-locking phase, arm extraction by swimming the trapped arm forward is the primary defense. During the transition phase when the attacker moves to flatten you, explosive sit-throughs or standups exploit their shifting weight. After the choke is fully locked in side control, only bridging toward the trapped arm and walking hips away remain, with low success rates.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Match defense to the choke phase",
+        "distractors": {
+          "plausible": [
+            "Always sit through immediately",
+            "Bridge hard right from the start"
+          ],
+          "trap": [
+            "Wait passively for a mistake"
+          ]
+        }
       },
       {
         "question": "How should you extract your trapped arm, and why does direction matter?",
         "answer": "Extract the trapped arm by swimming it forward and away from your body in a circular motion, driving the elbow forward first. Direction matters critically because pulling the arm backward actually tightens the choke—your shoulder drives deeper into your own carotid artery when you retract. The forward swimming motion opens the angle between your shoulder and neck, reducing the compression that makes the choke effective. Think of reaching forward to escape rather than pulling backward.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swim arm forward, not back",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight down",
+            "Push against their chest"
+          ],
+          "trap": [
+            "Yank the trapped arm backward"
+          ]
+        }
       }
     ],
     "training_progressions": [

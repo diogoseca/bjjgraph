@@ -98,35 +98,115 @@
     "flashcards": [
       {
         "question": "What is the primary weight distribution principle for maintaining Crab Ride Top control?",
-        "answer": "Weight should be distributed through your chest pressing into the opponent's shoulder blade and ribs, with your hooking leg serving as an anchor under their hip. The majority of pressure comes from your upper body driving into their back rather than sitting heavily on your base leg. This creates the flattening pressure that limits their mobility while keeping you mobile enough to follow their movements and adjust position."
+        "answer": "Weight should be distributed through your chest pressing into the opponent's shoulder blade and ribs, with your hooking leg serving as an anchor under their hip. The majority of pressure comes from your upper body driving into their back rather than sitting heavily on your base leg. This creates the flattening pressure that limits their mobility while keeping you mobile enough to follow their movements and adjust position.",
+        "answer_line": "Chest drives into shoulder blade",
+        "distractors": {
+          "plausible": [
+            "Sit heavy on your base leg",
+            "Weight mainly on hook leg"
+          ],
+          "trap": [
+            "Lean back off their back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning their shoulders toward you while in Crab Ride - how do you adjust?",
-        "answer": "Increase chest pressure immediately while driving your hooking leg deeper to prevent the turn. Control their far arm by securing an overhook or wrist grip to eliminate their posting ability. If they continue turning, follow their rotation and transition to back control as their turn creates the opening for your second hook. Never resist the turn by pulling backward - instead, use their momentum to advance position."
+        "answer": "Increase chest pressure immediately while driving your hooking leg deeper to prevent the turn. Control their far arm by securing an overhook or wrist grip to eliminate their posting ability. If they continue turning, follow their rotation and transition to back control as their turn creates the opening for your second hook. Never resist the turn by pulling backward - instead, use their momentum to advance position.",
+        "answer_line": "Follow turn into back take",
+        "distractors": {
+          "plausible": [
+            "Overhook far arm, hold position",
+            "Increase pressure, stay put"
+          ],
+          "trap": [
+            "Pull back to stop the turn"
+          ]
+        }
       },
       {
         "question": "What are the essential grip priorities from Crab Ride Top?",
-        "answer": "Primary grip should control the opponent's far side - either their far arm, far shoulder, or far collar in gi. This prevents them from turning toward you and sets up back attacks. Secondary control comes from the underhook or overhook on the near side to manage their posture. The hooking leg provides the third control point. Never rely solely on near-side grips as this allows opponents to turn into you and escape."
+        "answer": "Primary grip should control the opponent's far side - either their far arm, far shoulder, or far collar in gi. This prevents them from turning toward you and sets up back attacks. Secondary control comes from the underhook or overhook on the near side to manage their posture. The hooking leg provides the third control point. Never rely solely on near-side grips as this allows opponents to turn into you and escape.",
+        "answer_line": "Control the far arm first",
+        "distractors": {
+          "plausible": [
+            "Overhook the near side first",
+            "Grip their belt or pants"
+          ],
+          "trap": [
+            "Rely on near-side grip only"
+          ]
+        }
       },
       {
         "question": "How do you prevent an opponent from sitting through to guard from Crab Ride?",
-        "answer": "The hooking leg must stay actively engaged under their hip, preventing forward hip movement that initiates the sit-through. Keep your hook foot positioned inside their legs rather than floating outside. Maintain forward chest pressure to keep their weight over their hands rather than allowing them to shift backward. If you feel them loading for a sit-through, drive your weight forward and lower your hips to increase the anchor effect of your hook."
+        "answer": "The hooking leg must stay actively engaged under their hip, preventing forward hip movement that initiates the sit-through. Keep your hook foot positioned inside their legs rather than floating outside. Maintain forward chest pressure to keep their weight over their hands rather than allowing them to shift backward. If you feel them loading for a sit-through, drive your weight forward and lower your hips to increase the anchor effect of your hook.",
+        "answer_line": "Hook deep, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Sit back to block their hips",
+            "Keep hook wide and shallow"
+          ],
+          "trap": [
+            "Let hook float outside legs"
+          ]
+        }
       },
       {
         "question": "What is the relationship between pressure application and submission opportunities from Crab Ride Top?",
-        "answer": "Constant pressure creates the defensive reactions that open submission pathways. When you drive chest pressure into their back, opponents typically respond by dropping their head (opening darce/anaconda), extending their far arm (opening crucifix), or trying to turn (opening back take). The key is maintaining enough pressure to force a reaction while staying mobile enough to capitalize on it. Static pressure without attacking intent allows opponents to build defensive frames."
+        "answer": "Constant pressure creates the defensive reactions that open submission pathways. When you drive chest pressure into their back, opponents typically respond by dropping their head (opening darce/anaconda), extending their far arm (opening crucifix), or trying to turn (opening back take). The key is maintaining enough pressure to force a reaction while staying mobile enough to capitalize on it. Static pressure without attacking intent allows opponents to build defensive frames.",
+        "answer_line": "Pressure baits their reactions",
+        "distractors": {
+          "plausible": [
+            "Attack darce the moment you're on",
+            "Focus only on back take setup"
+          ],
+          "trap": [
+            "Hold static pressure and wait"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand and begins driving forward - what adjustments maintain control?",
-        "answer": "Follow their forward drive by walking your base leg forward while maintaining hook depth. Simultaneously work to break their far hand post by driving your chest weight through their shoulder blade angle toward their posting arm. If you can collapse the post, immediately threaten darce or anaconda. If they maintain the post strongly, use their extended arm to set up crucifix by trapping it under your knee as you adjust position."
+        "answer": "Follow their forward drive by walking your base leg forward while maintaining hook depth. Simultaneously work to break their far hand post by driving your chest weight through their shoulder blade angle toward their posting arm. If you can collapse the post, immediately threaten darce or anaconda. If they maintain the post strongly, use their extended arm to set up crucifix by trapping it under your knee as you adjust position.",
+        "answer_line": "Follow drive, break their post",
+        "distractors": {
+          "plausible": [
+            "Pull them back to stop drive",
+            "Ignore the post, hold hook"
+          ],
+          "trap": [
+            "Release chest pressure to reset"
+          ]
+        }
       },
       {
         "question": "How should you manage your base leg position for optimal Crab Ride Top control?",
-        "answer": "The base leg should maintain a wide posting position with your knee and foot angled to allow quick adjustments in any direction. Keep it mobile rather than planted heavily - your primary weight goes through your chest and hooking leg, not your base. The base leg functions as a rudder for following opponent movement and as a launching point for transitions. Position it far enough from opponent that they cannot trap or attack it, but close enough to maintain balance."
+        "answer": "The base leg should maintain a wide posting position with your knee and foot angled to allow quick adjustments in any direction. Keep it mobile rather than planted heavily - your primary weight goes through your chest and hooking leg, not your base. The base leg functions as a rudder for following opponent movement and as a launching point for transitions. Position it far enough from opponent that they cannot trap or attack it, but close enough to maintain balance.",
+        "answer_line": "Base leg mobile, not planted",
+        "distractors": {
+          "plausible": [
+            "Plant base leg heavy for power",
+            "Keep base tucked in tight"
+          ],
+          "trap": [
+            "Cross base leg over their hip"
+          ]
+        }
       },
       {
         "question": "What are the warning signs that your Crab Ride Top control is failing?",
-        "answer": "Key warning signs include: opponent successfully elevating their hips off the mat (losing flattening pressure), your hook becoming shallow or sliding out of the hip crease, opponent's far arm becoming free and framing effectively, your chest lifting off their back creating space, and opponent successfully turning their shoulders past 45 degrees toward you. When you feel any of these developing, immediately adjust by deepening the hook, increasing pressure, or transitioning to a more secure position before the escape completes."
+        "answer": "Key warning signs include: opponent successfully elevating their hips off the mat (losing flattening pressure), your hook becoming shallow or sliding out of the hip crease, opponent's far arm becoming free and framing effectively, your chest lifting off their back creating space, and opponent successfully turning their shoulders past 45 degrees toward you. When you feel any of these developing, immediately adjust by deepening the hook, increasing pressure, or transitioning to a more secure position before the escape completes.",
+        "answer_line": "Hips rise or hook goes shallow",
+        "distractors": {
+          "plausible": [
+            "Base leg feels tired",
+            "Opponent stops moving"
+          ],
+          "trap": [
+            "Wait and see before adjusting"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -452,35 +532,115 @@
     "flashcards": [
       {
         "question": "What is the most critical defensive priority immediately upon recognizing you're in Crab Ride Bottom?",
-        "answer": "The first priority is preventing the second hook from being inserted while protecting your neck. If opponent only has one hook, you still have significant escape potential. Once both hooks are established, escape difficulty increases dramatically. Keep the leg on your exposed side active and ready to block hook attempts, while tucking your chin to prevent rear naked choke setups. Do not sacrifice neck safety to strip the first hook."
+        "answer": "The first priority is preventing the second hook from being inserted while protecting your neck. If opponent only has one hook, you still have significant escape potential. Once both hooks are established, escape difficulty increases dramatically. Keep the leg on your exposed side active and ready to block hook attempts, while tucking your chin to prevent rear naked choke setups. Do not sacrifice neck safety to strip the first hook.",
+        "answer_line": "Block second hook, protect neck",
+        "distractors": {
+          "plausible": [
+            "Strip the first hook immediately",
+            "Focus on escaping to guard"
+          ],
+          "trap": [
+            "Expose neck to strip the hook"
+          ]
+        }
       },
       {
         "question": "Your opponent has one hook and is reaching for the second - how do you defend?",
-        "answer": "Use your far leg actively to kick and block their incoming leg from establishing the second hook. Simultaneously, begin explosive hip movement away from the hooked side to create separation. If you can prevent the second hook for 2-3 seconds while moving, you create an escape window. Your hands should be controlling their grip on your upper body rather than reaching for their legs - let your legs defend hooks while hands manage upper body control."
+        "answer": "Use your far leg actively to kick and block their incoming leg from establishing the second hook. Simultaneously, begin explosive hip movement away from the hooked side to create separation. If you can prevent the second hook for 2-3 seconds while moving, you create an escape window. Your hands should be controlling their grip on your upper body rather than reaching for their legs - let your legs defend hooks while hands manage upper body control.",
+        "answer_line": "Block leg, hip away explosively",
+        "distractors": {
+          "plausible": [
+            "Reach hands down to block leg",
+            "Wait passively for opening"
+          ],
+          "trap": [
+            "Both hands leave mat to defend"
+          ]
+        }
       },
       {
         "question": "How do you maintain base and prevent being flattened while in Crab Ride Bottom?",
-        "answer": "Keep weight distributed through all four points with particular emphasis on the arm opposite the hooked side. That arm is your primary post preventing the flattening. Keep your knees wide enough for stability but not so wide that you lose mobility. If you feel chest pressure increasing, drive that posting arm into the mat harder while simultaneously shifting your hips slightly toward the hooked side to counterbalance their weight. Never let both your hands leave the mat simultaneously."
+        "answer": "Keep weight distributed through all four points with particular emphasis on the arm opposite the hooked side. That arm is your primary post preventing the flattening. Keep your knees wide enough for stability but not so wide that you lose mobility. If you feel chest pressure increasing, drive that posting arm into the mat harder while simultaneously shifting your hips slightly toward the hooked side to counterbalance their weight. Never let both your hands leave the mat simultaneously.",
+        "answer_line": "Post hard with far-side arm",
+        "distractors": {
+          "plausible": [
+            "Keep both knees very wide",
+            "Shift hips away from the hook"
+          ],
+          "trap": [
+            "Lift both hands off the mat"
+          ]
+        }
       },
       {
         "question": "When is the optimal time to attempt a Granby Roll escape from Crab Ride Bottom?",
-        "answer": "The best timing is when opponent shifts their weight forward to establish grips or attempt the second hook. Their forward weight commitment creates the momentum you need to roll while reducing their ability to follow. Feel for when their chest lifts slightly off your back or when they reach with their hands. Attempting the Granby when they're heavy and settled is much harder. Also watch for when they reposition their base leg - this transitional moment creates escape opportunity."
+        "answer": "The best timing is when opponent shifts their weight forward to establish grips or attempt the second hook. Their forward weight commitment creates the momentum you need to roll while reducing their ability to follow. Feel for when their chest lifts slightly off your back or when they reach with their hands. Attempting the Granby when they're heavy and settled is much harder. Also watch for when they reposition their base leg - this transitional moment creates escape opportunity.",
+        "answer_line": "Roll when they reach forward",
+        "distractors": {
+          "plausible": [
+            "Roll immediately when hooked",
+            "Wait until you're flattened"
+          ],
+          "trap": [
+            "Roll when they're heavy, settled"
+          ]
+        }
       },
       {
         "question": "How do you properly strip an established hook while in Crab Ride Bottom?",
-        "answer": "First, ensure your neck is protected and opponent's upper body control is being managed with frames. Then, use your same-side hand to cup their ankle or heel from the inside, pushing it toward the mat and away from your hip. Combine this with explosive hip movement away from the hook. The key is not to over-commit to the strip - if it doesn't come free immediately, return to protecting your neck and base, then attempt again when they adjust."
+        "answer": "First, ensure your neck is protected and opponent's upper body control is being managed with frames. Then, use your same-side hand to cup their ankle or heel from the inside, pushing it toward the mat and away from your hip. Combine this with explosive hip movement away from the hook. The key is not to over-commit to the strip - if it doesn't come free immediately, return to protecting your neck and base, then attempt again when they adjust.",
+        "answer_line": "Cup heel, push down and away",
+        "distractors": {
+          "plausible": [
+            "Grab their knee and pull",
+            "Strip hook before framing neck"
+          ],
+          "trap": [
+            "Fully commit, ignore neck safety"
+          ]
+        }
       },
       {
         "question": "What counter-attack opportunities exist from Crab Ride Bottom?",
-        "answer": "When opponent over-commits to the back take and their weight shifts forward, you can attempt a rolling back take reversal by collapsing your base in a controlled direction and inverting. If they lean too heavily to one side for the second hook, their far leg becomes vulnerable to single leg attacks when you explode out. From wrestlers' perspective, the sit-out when timed with their grip change can lead directly to a reversal. These counters require recognition of specific weight commits."
+        "answer": "When opponent over-commits to the back take and their weight shifts forward, you can attempt a rolling back take reversal by collapsing your base in a controlled direction and inverting. If they lean too heavily to one side for the second hook, their far leg becomes vulnerable to single leg attacks when you explode out. From wrestlers' perspective, the sit-out when timed with their grip change can lead directly to a reversal. These counters require recognition of specific weight commits.",
+        "answer_line": "Counter when they overcommit",
+        "distractors": {
+          "plausible": [
+            "Attack anytime you feel space",
+            "Wait for them to relax fully"
+          ],
+          "trap": [
+            "Explode out with no setup cue"
+          ]
+        }
       },
       {
         "question": "Your opponent flattens you to your stomach - what's the recovery protocol?",
-        "answer": "Once flattened, immediately turn to your side toward the hooked leg rather than trying to return to turtle. Frame strongly with both arms to create space between your upper body and the mat. Work to get your bottom knee underneath you while preventing them from establishing a body triangle. If you can get to your side with hip facing them, you've created defensive options. The worst response is trying to muscle back up to turtle while they have full weight on you - turn first, frame, then rebuild position incrementally."
+        "answer": "Once flattened, immediately turn to your side toward the hooked leg rather than trying to return to turtle. Frame strongly with both arms to create space between your upper body and the mat. Work to get your bottom knee underneath you while preventing them from establishing a body triangle. If you can get to your side with hip facing them, you've created defensive options. The worst response is trying to muscle back up to turtle while they have full weight on you - turn first, frame, then rebuild position incrementally.",
+        "answer_line": "Turn toward the hooked leg",
+        "distractors": {
+          "plausible": [
+            "Frame first, ignore leg position",
+            "Turn away from the hooked leg"
+          ],
+          "trap": [
+            "Muscle straight back to turtle"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while defending Crab Ride Bottom?",
-        "answer": "Every explosive escape attempt costs significant energy, so you must be strategic. Don't attempt continuous movement - instead, defend actively while waiting for specific triggers (grip changes, weight shifts, hook attempts). When you commit to an escape, make it fully explosive rather than tentative. If the escape fails, return immediately to strong defensive posture rather than chaining multiple weak attempts. It's better to make three fully committed attempts with recovery between than ten half-efforts."
+        "answer": "Every explosive escape attempt costs significant energy, so you must be strategic. Don't attempt continuous movement - instead, defend actively while waiting for specific triggers (grip changes, weight shifts, hook attempts). When you commit to an escape, make it fully explosive rather than tentative. If the escape fails, return immediately to strong defensive posture rather than chaining multiple weak attempts. It's better to make three fully committed attempts with recovery between than ten half-efforts.",
+        "answer_line": "Wait for a trigger, then commit",
+        "distractors": {
+          "plausible": [
+            "Try small escapes constantly",
+            "Attempt only once, then stop"
+          ],
+          "trap": [
+            "Chain escapes non-stop no rest"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -729,35 +889,115 @@
   "flashcards_position": [
     {
       "question": "What is the defining structural configuration that makes a position Crab Ride rather than a generic turtle attack?",
-      "answer": "Crab Ride is defined by the riding player sitting perpendicular to the turtled player's spine with a single asymmetric hook threaded under the near hip, foot positioned inside the legs. This one-sided hooking leg is the signature control point, distinguishing it from balanced back rides that use two hooks or from a flat top pin. The perpendicular body angle combined with the lone inside hook creates the crab-like lateral orientation the position is named for. Both players organize their game around this asymmetry: one hip is anchored while the opposite side remains a contested lane."
+      "answer": "Crab Ride is defined by the riding player sitting perpendicular to the turtled player's spine with a single asymmetric hook threaded under the near hip, foot positioned inside the legs. This one-sided hooking leg is the signature control point, distinguishing it from balanced back rides that use two hooks or from a flat top pin. The perpendicular body angle combined with the lone inside hook creates the crab-like lateral orientation the position is named for. Both players organize their game around this asymmetry: one hip is anchored while the opposite side remains a contested lane.",
+      "answer_line": "One hook, perpendicular angle",
+      "distractors": {
+        "plausible": [
+          "Two hooks locked in place",
+          "Flat chest-to-chest top pin"
+        ],
+        "trap": [
+          "Hook floats outside their legs"
+        ]
+      }
     },
     {
       "question": "Why does the perpendicular body angle between the two players sit at the mechanical core of Crab Ride?",
-      "answer": "Positioning the torso at a right angle to the opponent's spine maximizes control leverage while minimizing the turtled player's ability to use hip movement to escape. Perpendicular alignment lets weight cross the spine laterally rather than stacking front-to-back, which is harder to bridge against. For the turtled player, that same angle is what pins their escape vectors, forcing them to break the perpendicular relationship before any recovery becomes viable. When the angle collapses toward parallel, the position degrades toward standard turtle or back control for one side."
+      "answer": "Positioning the torso at a right angle to the opponent's spine maximizes control leverage while minimizing the turtled player's ability to use hip movement to escape. Perpendicular alignment lets weight cross the spine laterally rather than stacking front-to-back, which is harder to bridge against. For the turtled player, that same angle is what pins their escape vectors, forcing them to break the perpendicular relationship before any recovery becomes viable. When the angle collapses toward parallel, the position degrades toward standard turtle or back control for one side.",
+      "answer_line": "Right angle blocks hip escape",
+      "distractors": {
+        "plausible": [
+          "Angle stacks front-to-back",
+          "Angle matters only for comfort"
+        ],
+        "trap": [
+          "Square up parallel to their spine"
+        ]
+      }
     },
     {
       "question": "How does the single asymmetric hook create the position's characteristic escape-or-lose tempo?",
-      "answer": "Because only one hook is inserted, the position is inherently unstable and transitional rather than a resting control. The riding player is racing to convert the lone hook into a second hook, a back take, or a submission before the turtled player clears it, while the turtled player has a genuine but time-limited window to strip it. This asymmetry means neither side can settle, producing the urgent high-tempo dynamic the position is known for. Unlike a fully locked back control with two hooks, Crab Ride rewards immediate decisive action from both players."
+      "answer": "Because only one hook is inserted, the position is inherently unstable and transitional rather than a resting control. The riding player is racing to convert the lone hook into a second hook, a back take, or a submission before the turtled player clears it, while the turtled player has a genuine but time-limited window to strip it. This asymmetry means neither side can settle, producing the urgent high-tempo dynamic the position is known for. Unlike a fully locked back control with two hooks, Crab Ride rewards immediate decisive action from both players.",
+      "answer_line": "Unstable, race to convert fast",
+      "distractors": {
+        "plausible": [
+          "A stable position to rest in",
+          "Only the top player is rushed"
+        ],
+        "trap": [
+          "Settle in, no rush to finish"
+        ]
+      }
     },
     {
       "question": "Along which axis does Crab Ride's stability contest, given the single hook anchors only the near hip?",
-      "answer": "With the near hip pinned by the lone hook, the position's stability hinges on the opponent's far side, the far arm, shoulder, or collar, which is the free lane both players fight over. Whoever controls that far side brackets the torso across the spine rather than clinging to one edge, so the configuration holds; whenever the far shoulder is free to rotate inward, the perpendicular relationship starts to break. This is why far-side connection, not the hook alone, is what actually stabilizes the ride. The near-hip anchor and the contested far-side lane are the two structural poles the whole position balances between."
+      "answer": "With the near hip pinned by the lone hook, the position's stability hinges on the opponent's far side, the far arm, shoulder, or collar, which is the free lane both players fight over. Whoever controls that far side brackets the torso across the spine rather than clinging to one edge, so the configuration holds; whenever the far shoulder is free to rotate inward, the perpendicular relationship starts to break. This is why far-side connection, not the hook alone, is what actually stabilizes the ride. The near-hip anchor and the contested far-side lane are the two structural poles the whole position balances between.",
+      "answer_line": "Far-side control is the key",
+      "distractors": {
+        "plausible": [
+          "Near hip alone stabilizes it",
+          "Base leg position stabilizes it"
+        ],
+        "trap": [
+          "Ignore the far side, hold hook"
+        ]
+      }
     },
     {
       "question": "How is weight distributed across the two players in a stable Crab Ride?",
-      "answer": "The dominant pressure runs through the riding player's chest driving into the turtled player's shoulder blade and ribs, flattening their posture, while the hooking leg anchors the near hip and the free base leg stays mobile rather than heavily planted. The turtled player counters by posting hard through the arm opposite the hooked side to resist being flattened to the mat. This creates a shared tension: forward chest pressure versus a diagonal post. When either the chest connection lifts or the post collapses, the equilibrium breaks and the position resolves toward advancement or escape."
+      "answer": "The dominant pressure runs through the riding player's chest driving into the turtled player's shoulder blade and ribs, flattening their posture, while the hooking leg anchors the near hip and the free base leg stays mobile rather than heavily planted. The turtled player counters by posting hard through the arm opposite the hooked side to resist being flattened to the mat. This creates a shared tension: forward chest pressure versus a diagonal post. When either the chest connection lifts or the post collapses, the equilibrium breaks and the position resolves toward advancement or escape.",
+      "answer_line": "Chest presses, they post to resist",
+      "distractors": {
+        "plausible": [
+          "Base leg carries most weight",
+          "Bottom player posts near arm"
+        ],
+        "trap": [
+          "Bottom player pulls hands in"
+        ]
+      }
     },
     {
       "question": "How does Crab Ride differ from adjacent turtle-attack positions like Cross Body Ride and the Truck?",
-      "answer": "All three are perpendicular turtle rides, but Crab Ride is distinguished by its single near-hip inside hook used as a springboard to the back, whereas Cross Body Ride distributes control across the body without that same lone-hook back-take emphasis. The Truck traps a near leg to attack the lower body and twister, shifting the target from the neck and back toward the legs and spine. Crab Ride sits upstream of these as a gateway, flowing into back control, crucifix, or Truck depending on how the turtled player defends. The shared thread is perpendicular pressure on a turtled opponent, but the specific limb captured and the primary target set them apart."
+      "answer": "All three are perpendicular turtle rides, but Crab Ride is distinguished by its single near-hip inside hook used as a springboard to the back, whereas Cross Body Ride distributes control across the body without that same lone-hook back-take emphasis. The Truck traps a near leg to attack the lower body and twister, shifting the target from the neck and back toward the legs and spine. Crab Ride sits upstream of these as a gateway, flowing into back control, crucifix, or Truck depending on how the turtled player defends. The shared thread is perpendicular pressure on a turtled opponent, but the specific limb captured and the primary target set them apart.",
+      "answer_line": "Single hook aims at back take",
+      "distractors": {
+        "plausible": [
+          "Traps a leg for the twister",
+          "Distributes control, no hook"
+        ],
+        "trap": [
+          "All three target the same limb"
+        ]
+      }
     },
     {
       "question": "Which specific breakdowns mark the transition of Crab Ride out of its stable configuration?",
-      "answer": "The position destabilizes when the turtled player elevates their hips off the mat to kill the flattening pressure, when the inside hook slides shallow out of the hip crease, when the far arm frees itself to frame, or when the shoulders rotate past roughly 45 degrees toward the riding player. Any one of these signals that the perpendicular-plus-hook equilibrium is failing. For the riding player these are cues to deepen the hook or advance immediately; for the turtled player they are the openings to commit an escape. Once two of these breakdowns compound, the position has effectively resolved into either back exposure or guard recovery."
+      "answer": "The position destabilizes when the turtled player elevates their hips off the mat to kill the flattening pressure, when the inside hook slides shallow out of the hip crease, when the far arm frees itself to frame, or when the shoulders rotate past roughly 45 degrees toward the riding player. Any one of these signals that the perpendicular-plus-hook equilibrium is failing. For the riding player these are cues to deepen the hook or advance immediately; for the turtled player they are the openings to commit an escape. Once two of these breakdowns compound, the position has effectively resolved into either back exposure or guard recovery.",
+      "answer_line": "Hips rise, hook slips, arm frees",
+      "distractors": {
+        "plausible": [
+          "Base leg gets tired first",
+          "Only shoulder angle matters"
+        ],
+        "trap": [
+          "Ignore signs, hold position"
+        ]
+      }
     },
     {
       "question": "Why is Crab Ride best understood as a branching fork rather than a position to be held?",
-      "answer": "Its structural value comes from being a hub that simultaneously threatens back control, crucifix, and front-headlock chokes, so the turtled player faces a defensive dilemma among competing threats rather than one predictable attack. Because the lone hook and constantly adjusting perpendicular angle make it unsustainable to sit in statically, whoever rides it must cash the threat out before the turtle rebuilds and neutralizes the asymmetry. Defending one branch tends to open another, which is the leverage the position provides. Both players therefore treat it as a moment of decision where the exchange rapidly moves on to a more defined position."
+      "answer": "Its structural value comes from being a hub that simultaneously threatens back control, crucifix, and front-headlock chokes, so the turtled player faces a defensive dilemma among competing threats rather than one predictable attack. Because the lone hook and constantly adjusting perpendicular angle make it unsustainable to sit in statically, whoever rides it must cash the threat out before the turtle rebuilds and neutralizes the asymmetry. Defending one branch tends to open another, which is the leverage the position provides. Both players therefore treat it as a moment of decision where the exchange rapidly moves on to a more defined position.",
+      "answer_line": "A fork threatening multiple attacks",
+      "distractors": {
+        "plausible": [
+          "A stable resting position",
+          "Only threatens the back take"
+        ],
+        "trap": [
+          "Sit in it, wait to build guard"
+        ]
+      }
     }
   ],
   "clips": [

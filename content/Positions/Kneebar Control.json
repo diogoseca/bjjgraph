@@ -341,35 +341,115 @@
     "flashcards": [
       {
         "question": "What is the primary mechanism for maintaining top kneebar control against an opponent who tries to create distance?",
-        "answer": "The primary mechanism is maintaining constant hip connection to the opponent's knee joint while using your body weight to drive pressure downward. Keep your hips tight against their knee, use your arms to pull the leg close to your torso, and distribute weight to prevent them from creating space. If they push, follow their movement while maintaining the grip connection."
+        "answer": "The primary mechanism is maintaining constant hip connection to the opponent's knee joint while using your body weight to drive pressure downward. Keep your hips tight against their knee, use your arms to pull the leg close to your torso, and distribute weight to prevent them from creating space. If they push, follow their movement while maintaining the grip connection.",
+        "answer_line": "Hip pressure, pull leg tight",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with just arms",
+            "Chase their hips backward"
+          ],
+          "trap": [
+            "Let go to reset grip"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base when an opponent starts bridging explosively during a top kneebar attempt?",
-        "answer": "When opponent bridges, immediately widen your base by posting with your free hand and spreading your knees apart for stability. Do not fight the bridge directly - instead, ride it out while maintaining grip on the leg. Absorb the movement by lowering your center of gravity and keeping weight distributed forward. Once the bridge subsides, immediately re-consolidate position before continuing the finish."
+        "answer": "When opponent bridges, immediately widen your base by posting with your free hand and spreading your knees apart for stability. Do not fight the bridge directly - instead, ride it out while maintaining grip on the leg. Absorb the movement by lowering your center of gravity and keeping weight distributed forward. Once the bridge subsides, immediately re-consolidate position before continuing the finish.",
+        "answer_line": "Widen base, ride out bridge",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge head-on",
+            "Sit upright to control weight"
+          ],
+          "trap": [
+            "Release leg to stop the bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining top kneebar control position?",
-        "answer": "The essential grips involve a figure-four or gable grip configuration around the opponent's lower leg, with arms wrapped near the ankle and lower calf. One arm typically cups under the Achilles area while the other reinforces from above. The grip should be tight enough to prevent leg extraction but positioned to allow quick adjustment for finishing. Hands should be interlocked with elbows squeezed together."
+        "answer": "The essential grips involve a figure-four or gable grip configuration around the opponent's lower leg, with arms wrapped near the ankle and lower calf. One arm typically cups under the Achilles area while the other reinforces from above. The grip should be tight enough to prevent leg extraction but positioned to allow quick adjustment for finishing. Hands should be interlocked with elbows squeezed together.",
+        "answer_line": "Figure-four grip near ankle",
+        "distractors": {
+          "plausible": [
+            "Grip above the knee joint",
+            "Wrap around the thigh"
+          ],
+          "trap": [
+            "Grab the foot with one hand only"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending by keeping their knee bent and using frames - what adjustment should you make?",
-        "answer": "When opponent defends with bent knee and frames, first address the frames by using shoulder pressure or switching to a crossface to eliminate them. Then work to break their posture by pulling the leg tight while driving your hips forward. If the finish remains defended after 5-10 seconds, abandon the kneebar and transition to positional advancement such as knee cut pass or mount rather than wasting energy on a defended submission."
+        "answer": "When opponent defends with bent knee and frames, first address the frames by using shoulder pressure or switching to a crossface to eliminate them. Then work to break their posture by pulling the leg tight while driving your hips forward. If the finish remains defended after 5-10 seconds, abandon the kneebar and transition to positional advancement such as knee cut pass or mount rather than wasting energy on a defended submission.",
+        "answer_line": "Clear frames, then straighten knee",
+        "distractors": {
+          "plausible": [
+            "Force the knee straight first",
+            "Increase grip pressure only"
+          ],
+          "trap": [
+            "Keep grinding past 10 seconds"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure effectively from top kneebar control without losing positional hierarchy?",
-        "answer": "Apply pressure through a combination of hip drive against the knee, chest weight on the opponent's body, and continuous pulling with the arms. Keep your center of gravity low and forward rather than sitting upright. The key is distributing weight across multiple contact points so no single point bears all the pressure. Never fully commit to the finish at the expense of base - maintain ability to recover dominant top position if the submission fails."
+        "answer": "Apply pressure through a combination of hip drive against the knee, chest weight on the opponent's body, and continuous pulling with the arms. Keep your center of gravity low and forward rather than sitting upright. The key is distributing weight across multiple contact points so no single point bears all the pressure. Never fully commit to the finish at the expense of base - maintain ability to recover dominant top position if the submission fails.",
+        "answer_line": "Hip drive, low base, stay ready",
+        "distractors": {
+          "plausible": [
+            "Sit upright for better leverage",
+            "Commit fully to the finish"
+          ],
+          "trap": [
+            "Abandon base to finish faster"
+          ]
+        }
       },
       {
         "question": "When transitioning from guard passing to top kneebar, what movement should you anticipate from your opponent?",
-        "answer": "Anticipate three primary reactions: first, hip escape attempts to recover guard; second, turning away to turtle position; third, explosive bridges to create space. Read their hip movement early - if hips turn toward you, prepare for guard recovery; if away, follow to turtle attacks. During transition, maintain continuous pressure and secure the leg before committing fully. Keep weight forward to minimize their ability to generate explosive movement."
+        "answer": "Anticipate three primary reactions: first, hip escape attempts to recover guard; second, turning away to turtle position; third, explosive bridges to create space. Read their hip movement early - if hips turn toward you, prepare for guard recovery; if away, follow to turtle attacks. During transition, maintain continuous pressure and secure the leg before committing fully. Keep weight forward to minimize their ability to generate explosive movement.",
+        "answer_line": "Read hips: escape, turtle, bridge",
+        "distractors": {
+          "plausible": [
+            "Expect only a straight bridge",
+            "Wait for the tap before securing leg"
+          ],
+          "trap": [
+            "Release pressure to check position"
+          ]
+        }
       },
       {
         "question": "What is the most efficient energy management strategy when hunting for kneebars from top position?",
-        "answer": "Efficient energy management means using positional pressure rather than muscular effort to maintain control. Rely on body weight and skeletal alignment rather than gripping strength. Set time limits for finish attempts - if no significant progress in 15-20 seconds, transition to positional advancement. Rest by consolidating dominant position before attacking again. Never continuously chase a defended submission as this depletes energy while opponent conserves theirs."
+        "answer": "Efficient energy management means using positional pressure rather than muscular effort to maintain control. Rely on body weight and skeletal alignment rather than gripping strength. Set time limits for finish attempts - if no significant progress in 15-20 seconds, transition to positional advancement. Rest by consolidating dominant position before attacking again. Never continuously chase a defended submission as this depletes energy while opponent conserves theirs.",
+        "answer_line": "Use weight, set finish time limits",
+        "distractors": {
+          "plausible": [
+            "Grip harder to force the tap",
+            "Chase the defended leg longer"
+          ],
+          "trap": [
+            "Keep attacking past 20 seconds"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and starts inserting a knee shield - how do you recover the kneebar control?",
-        "answer": "When opponent inserts knee shield, immediately shift priority from kneebar finish to preventing full guard recovery. Use your free arm to pin their shield leg while maintaining grip on the original target leg. Either: 1) switch to passing the knee shield using knee cut mechanics while maintaining leg grip for potential re-entry, or 2) abandon the kneebar entirely and prioritize securing side control. Do not force the kneebar against an established shield as this creates a stalemate favoring the defender."
+        "answer": "When opponent inserts knee shield, immediately shift priority from kneebar finish to preventing full guard recovery. Use your free arm to pin their shield leg while maintaining grip on the original target leg. Either: 1) switch to passing the knee shield using knee cut mechanics while maintaining leg grip for potential re-entry, or 2) abandon the kneebar entirely and prioritize securing side control. Do not force the kneebar against an established shield as this creates a stalemate favoring the defender.",
+        "answer_line": "Pin shield leg, pass or abandon",
+        "distractors": {
+          "plausible": [
+            "Force kneebar through the shield",
+            "Switch grips to the shield leg"
+          ],
+          "trap": [
+            "Keep pulling against the shield"
+          ]
+        }
       }
     ],
     "clips": [
@@ -722,35 +802,115 @@
     "flashcards": [
       {
         "question": "What is the primary mechanism for maintaining bottom kneebar control when opponent attempts to pull their leg free?",
-        "answer": "The primary mechanism combines three elements: maintaining a tight leg entanglement with your inside or outside leg hooked behind their knee, keeping constant pulling pressure with your arms around their lower leg, and staying hip-connected to their knee joint. When they pull, follow with your hips rather than just your arms - use your entire body to stay connected. The leg hook prevents extraction while arms control the angle."
+        "answer": "The primary mechanism combines three elements: maintaining a tight leg entanglement with your inside or outside leg hooked behind their knee, keeping constant pulling pressure with your arms around their lower leg, and staying hip-connected to their knee joint. When they pull, follow with your hips rather than just your arms - use your entire body to stay connected. The leg hook prevents extraction while arms control the angle.",
+        "answer_line": "Hook leg, follow with hips",
+        "distractors": {
+          "plausible": [
+            "Pull only with your arms",
+            "Grip tighter and stay still"
+          ],
+          "trap": [
+            "Release hook to reposition"
+          ]
+        }
       },
       {
         "question": "How should you adjust when your opponent starts rotating their hips to defend the kneebar?",
-        "answer": "When opponent rotates their hips, read the direction of rotation. If they rotate away from you, follow their hips and transition to saddle or inside ashi position which is exposed by their movement. If they rotate toward you, maintain the entanglement while adjusting your angle to follow. Never fight their rotation directly - instead, use it to flow to positions that become available. Their rotation often exposes heel hook opportunities."
+        "answer": "When opponent rotates their hips, read the direction of rotation. If they rotate away from you, follow their hips and transition to saddle or inside ashi position which is exposed by their movement. If they rotate toward you, maintain the entanglement while adjusting your angle to follow. Never fight their rotation directly - instead, use it to flow to positions that become available. Their rotation often exposes heel hook opportunities.",
+        "answer_line": "Follow rotation into saddle",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation directly",
+            "Release entanglement to reset"
+          ],
+          "trap": [
+            "Force the kneebar through rotation"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining bottom kneebar control?",
-        "answer": "The essential grips involve wrapping both arms around the opponent's lower leg in a figure-four or gable grip configuration. Cup the heel and Achilles with your near hand while your far hand reinforces from the opposite side. Keep elbows tight together and pull the leg across your chest toward your armpit on the same side as your entangling leg. Hands should be positioned near the ankle for maximum control and finishing leverage."
+        "answer": "The essential grips involve wrapping both arms around the opponent's lower leg in a figure-four or gable grip configuration. Cup the heel and Achilles with your near hand while your far hand reinforces from the opposite side. Keep elbows tight together and pull the leg across your chest toward your armpit on the same side as your entangling leg. Hands should be positioned near the ankle for maximum control and finishing leverage.",
+        "answer_line": "Cup heel, pull to armpit",
+        "distractors": {
+          "plausible": [
+            "Grip above the calf only",
+            "Wrap the whole leg loosely"
+          ],
+          "trap": [
+            "Grab ankle with one hand free"
+          ]
+        }
       },
       {
         "question": "Your opponent is attempting to step over your entangled leg - what immediate action should you take?",
-        "answer": "When opponent attempts to step over, this creates a critical decision point. Either: 1) immediately transition to single leg X-guard by elevating their stepping leg and inserting your free leg as a hook, turning their escape attempt into a sweep opportunity; or 2) follow their stepping motion to enter saddle position by threading your legs to the backside. Never allow a free step-over without reaction - their movement should trigger your transition."
+        "answer": "When opponent attempts to step over, this creates a critical decision point. Either: 1) immediately transition to single leg X-guard by elevating their stepping leg and inserting your free leg as a hook, turning their escape attempt into a sweep opportunity; or 2) follow their stepping motion to enter saddle position by threading your legs to the backside. Never allow a free step-over without reaction - their movement should trigger your transition.",
+        "answer_line": "Elevate leg into single leg X",
+        "distractors": {
+          "plausible": [
+            "Let them pass over freely",
+            "Pull leg straight back only"
+          ],
+          "trap": [
+            "Release leg to avoid the pass"
+          ]
+        }
       },
       {
         "question": "How do you apply finishing pressure effectively from bottom kneebar control?",
-        "answer": "Effective finishing pressure comes from hip drive and back arch rather than arm strength. Pull the leg tight to your chest with arms, then bridge your hips forward while arching your back to create hyperextension against their knee. Your hips should be positioned slightly below their knee joint to create optimal leverage. The finish is a full-body movement - arms hold, hips and back drive. Pinch your knees together during the finish for additional control."
+        "answer": "Effective finishing pressure comes from hip drive and back arch rather than arm strength. Pull the leg tight to your chest with arms, then bridge your hips forward while arching your back to create hyperextension against their knee. Your hips should be positioned slightly below their knee joint to create optimal leverage. The finish is a full-body movement - arms hold, hips and back drive. Pinch your knees together during the finish for additional control.",
+        "answer_line": "Arch back, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Pull harder with arms only",
+            "Sit up straight to finish"
+          ],
+          "trap": [
+            "Let hips drift above the knee"
+          ]
+        }
       },
       {
         "question": "What movement patterns should you anticipate from an opponent defending bottom kneebar control?",
-        "answer": "Anticipate four primary defensive patterns: leg extraction (pulling the leg out forcefully), hip rotation (turning toward or away from pressure), stepping over the entanglement, and driving forward to smash pass. Each defense opens specific transitions - extraction exposes ankle for straight ankle lock, rotation exposes saddle entry, step-over creates sweep opportunity, and forward pressure can be redirected into submissions. Read their weight shift and hip movement to predict which defense they'll attempt."
+        "answer": "Anticipate four primary defensive patterns: leg extraction (pulling the leg out forcefully), hip rotation (turning toward or away from pressure), stepping over the entanglement, and driving forward to smash pass. Each defense opens specific transitions - extraction exposes ankle for straight ankle lock, rotation exposes saddle entry, step-over creates sweep opportunity, and forward pressure can be redirected into submissions. Read their weight shift and hip movement to predict which defense they'll attempt.",
+        "answer_line": "Watch extraction, rotate, step-over",
+        "distractors": {
+          "plausible": [
+            "Expect only leg extraction",
+            "Assume they'll always rotate away"
+          ],
+          "trap": [
+            "Ignore their weight shifts"
+          ]
+        }
       },
       {
         "question": "What is the most efficient energy management approach when attacking from bottom kneebar control?",
-        "answer": "Efficient energy management means setting clear finish windows (10-15 seconds of committed attack) and immediately transitioning when defense is established. Use leg entanglement for control rather than gripping strength. Alternate between submission threat and positional consolidation to recover grip endurance. If opponent is completely defending the knee, flow to ankle or heel attacks rather than forcing. Accept that bottom leg attacks require more energy than top position - transition to sweeps if becoming fatigued."
+        "answer": "Efficient energy management means setting clear finish windows (10-15 seconds of committed attack) and immediately transitioning when defense is established. Use leg entanglement for control rather than gripping strength. Alternate between submission threat and positional consolidation to recover grip endurance. If opponent is completely defending the knee, flow to ankle or heel attacks rather than forcing. Accept that bottom leg attacks require more energy than top position - transition to sweeps if becoming fatigued.",
+        "answer_line": "Set finish windows, then rest",
+        "distractors": {
+          "plausible": [
+            "Grip as hard as possible always",
+            "Chase the knee non-stop"
+          ],
+          "trap": [
+            "Never let go of the entanglement"
+          ]
+        }
       },
       {
         "question": "Your opponent has extracted their leg halfway and is creating significant distance - how do you recover the position?",
-        "answer": "When opponent creates distance mid-extraction, you have a narrow window to act. Options: 1) chase with your hips while maintaining whatever grip remains, potentially transitioning to 50-50 as they disengage; 2) use their backward momentum to technical stand up and follow into standing leg attack position; 3) accept the escape and immediately re-guard to establish open guard before they can consolidate passing position. Do not continue pulling against a fully committed extraction - redirect energy to the next position."
+        "answer": "When opponent creates distance mid-extraction, you have a narrow window to act. Options: 1) chase with your hips while maintaining whatever grip remains, potentially transitioning to 50-50 as they disengage; 2) use their backward momentum to technical stand up and follow into standing leg attack position; 3) accept the escape and immediately re-guard to establish open guard before they can consolidate passing position. Do not continue pulling against a fully committed extraction - redirect energy to the next position.",
+        "answer_line": "Chase hips or transition to 50-50",
+        "distractors": {
+          "plausible": [
+            "Keep pulling against extraction",
+            "Stand up without re-guarding"
+          ],
+          "trap": [
+            "Chase the leg with arms only"
+          ]
+        }
       }
     ],
     "clips": [
@@ -786,35 +946,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the kneebar control position regardless of who is on top?",
-      "answer": "Kneebar control exists whenever one leg is isolated across the controller's torso with the knee joint aligned against a fulcrum, most commonly the controller's hip or thigh. The arms wrap the lower leg near the calf and ankle in a figure-four or gable grip to prevent extraction, while the hips press against the back of the knee to threaten hyperextension. This alignment of joint, fulcrum, and lever exists on a spectrum from loose control to full extension. It is the geometry of the knee stacked against a hard pivot point, not the top-or-bottom orientation, that makes the position what it is."
+      "answer": "Kneebar control exists whenever one leg is isolated across the controller's torso with the knee joint aligned against a fulcrum, most commonly the controller's hip or thigh. The arms wrap the lower leg near the calf and ankle in a figure-four or gable grip to prevent extraction, while the hips press against the back of the knee to threaten hyperextension. This alignment of joint, fulcrum, and lever exists on a spectrum from loose control to full extension. It is the geometry of the knee stacked against a hard pivot point, not the top-or-bottom orientation, that makes the position what it is.",
+      "answer_line": "Knee joint loaded against fulcrum",
+      "distractors": {
+        "plausible": [
+          "Whoever is on top controls it",
+          "Any leg entanglement counts"
+        ],
+        "trap": [
+          "Grip strength defines the position"
+        ]
+      }
     },
     {
       "question": "Why is hip-to-knee connection considered the primary control point of the position for both players?",
-      "answer": "The kneebar generates its finishing force by hyperextending the knee over a fixed fulcrum, and that fulcrum is the controller's hip pressed tight against the joint line. Any gap between hip and knee lets the defender bend the knee, rotate, or slide the leg out, collapsing both the control and the submission threat. This is why the shared maxim holds that distance equals escape: the entire position lives or dies on maintaining that connection. Both players fight over this single point, one to preserve it and one to open even a few centimeters of space."
+      "answer": "The kneebar generates its finishing force by hyperextending the knee over a fixed fulcrum, and that fulcrum is the controller's hip pressed tight against the joint line. Any gap between hip and knee lets the defender bend the knee, rotate, or slide the leg out, collapsing both the control and the submission threat. This is why the shared maxim holds that distance equals escape: the entire position lives or dies on maintaining that connection. Both players fight over this single point, one to preserve it and one to open even a few centimeters of space.",
+      "answer_line": "Hip-knee gap lets leg escape",
+      "distractors": {
+        "plausible": [
+          "Arm strength is the real anchor",
+          "Foot control matters most"
+        ],
+        "trap": [
+          "Sitting back increases control"
+        ]
+      }
     },
     {
       "question": "How does the kneebar attack the knee differently from a heel hook operating from a similar leg entanglement?",
-      "answer": "The kneebar applies a straight-line lever that hyperextends the knee against its natural range of motion, driving the joint past full extension. A heel hook instead applies rotational force, twisting the foot to transmit torque through the ankle and into the knee's ligaments. Because the kneebar is linear rather than rotational, it is mechanically simpler to understand but demands more precise control to stop the defender from bending or spinning the knee away. This distinction in force vector is why the same leg entanglement can host several different attacks depending on how the leg is loaded."
+      "answer": "The kneebar applies a straight-line lever that hyperextends the knee against its natural range of motion, driving the joint past full extension. A heel hook instead applies rotational force, twisting the foot to transmit torque through the ankle and into the knee's ligaments. Because the kneebar is linear rather than rotational, it is mechanically simpler to understand but demands more precise control to stop the defender from bending or spinning the knee away. This distinction in force vector is why the same leg entanglement can host several different attacks depending on how the leg is loaded.",
+      "answer_line": "Kneebar is linear, heel hook rotates",
+      "distractors": {
+        "plausible": [
+          "Both apply the same rotation",
+          "Heel hook is the safer version"
+        ],
+        "trap": [
+          "Kneebar twists the ankle joint"
+        ]
+      }
     },
     {
       "question": "What role does the leg entanglement play in stabilizing the position for whichever player holds the control?",
-      "answer": "The controlling legs, whether configured as inside ashi, outside ashi, 50-50, or a top-position staple, exist to pin the opponent's hips and deny rotation. Since hip rotation is the main way a defender clears the knee from the line of attack, the entanglement functions as the anchor that keeps the joint exposed. The upper-body grips isolate the leg while the lower-body entanglement controls the hips, and both are needed simultaneously. Without the leg hooks, arm control alone cannot stop the opponent from turning to safety."
+      "answer": "The controlling legs, whether configured as inside ashi, outside ashi, 50-50, or a top-position staple, exist to pin the opponent's hips and deny rotation. Since hip rotation is the main way a defender clears the knee from the line of attack, the entanglement functions as the anchor that keeps the joint exposed. The upper-body grips isolate the leg while the lower-body entanglement controls the hips, and both are needed simultaneously. Without the leg hooks, arm control alone cannot stop the opponent from turning to safety.",
+      "answer_line": "Entanglement pins hips, denies turn",
+      "distractors": {
+        "plausible": [
+          "Arm grips alone control the hips",
+          "Entanglement only slows escapes"
+        ],
+        "trap": [
+          "Loosen legs to save energy"
+        ]
+      }
     },
     {
       "question": "In what sense does kneebar control function as a hub rather than a single technique?",
-      "answer": "The position sits at a crossroads within a leg-attack system, connecting to heel hooks, toe holds, straight ankle locks, and adjacent entanglements like the saddle and single-leg X. When the knee is defended by bending or rotating, the same control structure often exposes a different joint or a positional advance, so the controller flows to whichever attack the defense opens. This interconnected character means both players treat the position as a decision tree, not a dead end. The finish is only one of several outputs the control can produce."
+      "answer": "The position sits at a crossroads within a leg-attack system, connecting to heel hooks, toe holds, straight ankle locks, and adjacent entanglements like the saddle and single-leg X. When the knee is defended by bending or rotating, the same control structure often exposes a different joint or a positional advance, so the controller flows to whichever attack the defense opens. This interconnected character means both players treat the position as a decision tree, not a dead end. The finish is only one of several outputs the control can produce.",
+      "answer_line": "Hub linking heel hooks, ankle locks",
+      "distractors": {
+        "plausible": [
+          "A dead-end if the knee is safe",
+          "Only leads to guard passing"
+        ],
+        "trap": [
+          "Ignore other attacks, force knee"
+        ]
+      }
     },
     {
       "question": "Why does the position carry an asymmetric risk profile depending on top versus bottom orientation?",
-      "answer": "Top-position kneebars let the controller retain dominant position even if the finish fails, keeping the risk low to medium because a missed attack usually reverts to a passing or control situation. Bottom-position variants such as ashi-garami kneebars create mutual vulnerability, since the same entanglement that threatens the opponent's knee often exposes the bottom player to counter leg attacks or scrambles. The underlying joint mechanics are identical, but the positional stakes of a failed attempt differ sharply. This is why the same control is a safe hunt from top and a committed gamble from bottom."
+      "answer": "Top-position kneebars let the controller retain dominant position even if the finish fails, keeping the risk low to medium because a missed attack usually reverts to a passing or control situation. Bottom-position variants such as ashi-garami kneebars create mutual vulnerability, since the same entanglement that threatens the opponent's knee often exposes the bottom player to counter leg attacks or scrambles. The underlying joint mechanics are identical, but the positional stakes of a failed attempt differ sharply. This is why the same control is a safe hunt from top and a committed gamble from bottom.",
+      "answer_line": "Top is safer, bottom is riskier",
+      "distractors": {
+        "plausible": [
+          "Bottom control is always safest",
+          "Risk is identical top and bottom"
+        ],
+        "trap": [
+          "Commit fully from bottom always"
+        ]
+      }
     },
     {
       "question": "How does breaking the opponent's defensive knee posture relate to the finishing mechanics of the position?",
-      "answer": "A bent knee cannot be hyperextended, so the controller must first straighten the leg before the lever can load the joint. The defender's core survival tactic is therefore keeping the knee bent and the hips rotated, denying the straight line the kneebar requires. Premature extension against a bent, defended knee wastes energy and invites counters, which is why the shared principle is to break posture and straighten the leg before committing. The battle over the knee's angle precedes any battle over the finish itself."
+      "answer": "A bent knee cannot be hyperextended, so the controller must first straighten the leg before the lever can load the joint. The defender's core survival tactic is therefore keeping the knee bent and the hips rotated, denying the straight line the kneebar requires. Premature extension against a bent, defended knee wastes energy and invites counters, which is why the shared principle is to break posture and straighten the leg before committing. The battle over the knee's angle precedes any battle over the finish itself.",
+      "answer_line": "Straighten knee before finishing",
+      "distractors": {
+        "plausible": [
+          "Finish works on a bent knee too",
+          "Grip harder to force extension"
+        ],
+        "trap": [
+          "Extend against a bent, defended knee"
+        ]
+      }
     },
     {
       "question": "What distinguishes kneebar control from a neutral leg entanglement like a contested 50-50 with no attack loaded?",
-      "answer": "A neutral entanglement establishes leg-versus-leg connection and hip control but does not yet align one knee against a fulcrum with the lever loaded. Kneebar control is the specific moment that entanglement is weaponized: the leg is pulled across the torso, the hip drives into the joint line, and hyperextension becomes an active threat. The same 50-50 can sit in stalemate or convert into kneebar control depending on whether that knee-to-fulcrum alignment is achieved. The defining difference is the presence of a loaded lever on the knee, not merely tangled legs."
+      "answer": "A neutral entanglement establishes leg-versus-leg connection and hip control but does not yet align one knee against a fulcrum with the lever loaded. Kneebar control is the specific moment that entanglement is weaponized: the leg is pulled across the torso, the hip drives into the joint line, and hyperextension becomes an active threat. The same 50-50 can sit in stalemate or convert into kneebar control depending on whether that knee-to-fulcrum alignment is achieved. The defining difference is the presence of a loaded lever on the knee, not merely tangled legs.",
+      "answer_line": "Loaded lever on knee, not just legs",
+      "distractors": {
+        "plausible": [
+          "Any 50-50 counts as an attack",
+          "Hip control alone defines it"
+        ],
+        "trap": [
+          "Stalemate positions are attacks too"
+        ]
+      }
     }
   ],
   "clips": [

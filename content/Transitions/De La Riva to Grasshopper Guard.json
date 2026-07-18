@@ -228,7 +228,17 @@
     "flashcards": [
       {
         "question": "What is the single most important thing to maintain throughout the inversion from De La Riva to Grasshopper?",
-        "answer": "The De La Riva hook. It is the anchor that keeps you tethered to the opponent's leg as you roll, ensuring you surface from the inversion still connected to their base rather than spinning out into open space where the pass completes. Releasing the hook is the most common reason this transition fails."
+        "answer": "The De La Riva hook. It is the anchor that keeps you tethered to the opponent's leg as you roll, ensuring you surface from the inversion still connected to their base rather than spinning out into open space where the pass completes. Releasing the hook is the most common reason this transition fails.",
+        "answer_line": "Keep the De La Riva hook",
+        "distractors": {
+          "plausible": [
+            "Keep your head tucked",
+            "Keep chest connection tight"
+          ],
+          "trap": [
+            "Let go to spin faster"
+          ]
+        }
       },
       {
         "question": "When is the correct moment to commit to the inversion rather than staying upright in De La Riva?",
@@ -236,19 +246,59 @@
       },
       {
         "question": "How do you protect your back while rolling under the opponent during this inversion?",
-        "answer": "Keep a knee or shin across the centerline during the roll and stop the rotation as soon as your hips are elevated and your legs can engage the opponent's base. Never over-rotate past the point of leg connection, because turning your back to the opponent gives them a back-take entry as they ride your momentum."
+        "answer": "Keep a knee or shin across the centerline during the roll and stop the rotation as soon as your hips are elevated and your legs can engage the opponent's base. Never over-rotate past the point of leg connection, because turning your back to the opponent gives them a back-take entry as they ride your momentum.",
+        "answer_line": "Stop rotation once hips elevate",
+        "distractors": {
+          "plausible": [
+            "Fully roll to face away",
+            "Keep chin tucked the whole roll"
+          ],
+          "trap": [
+            "Turn your back to finish the roll"
+          ]
+        }
       },
       {
         "question": "Why must you elevate your hips the instant you surface from the roll?",
-        "answer": "Surfacing flat on your back leaves you in a passable, leverage-less position rather than a true Grasshopper platform. Firing your core to drive the hips to chest height creates the elevated, shoulder-based structure that gives you sweeping leverage and the angles to thread your legs for kneebars, ankle locks, and inside ashi entanglements."
+        "answer": "Surfacing flat on your back leaves you in a passable, leverage-less position rather than a true Grasshopper platform. Firing your core to drive the hips to chest height creates the elevated, shoulder-based structure that gives you sweeping leverage and the angles to thread your legs for kneebars, ankle locks, and inside ashi entanglements.",
+        "answer_line": "Drive hips to chest height",
+        "distractors": {
+          "plausible": [
+            "Post on hands and pause",
+            "Sit up onto your elbows"
+          ],
+          "trap": [
+            "Stay flat to stabilize base"
+          ]
+        }
       },
       {
         "question": "Your opponent strips the De La Riva hook just as you begin to drop your head - what do you do?",
-        "answer": "Abort the inversion rather than rolling into empty space. Without the hook you have no anchor and will surface disconnected, completing the pass for them or exposing your back. Recover upright De La Riva, re-establish the hook or switch to a Reverse De La Riva entry, then look to invert again once the leg connection is restored."
+        "answer": "Abort the inversion rather than rolling into empty space. Without the hook you have no anchor and will surface disconnected, completing the pass for them or exposing your back. Recover upright De La Riva, re-establish the hook or switch to a Reverse De La Riva entry, then look to invert again once the leg connection is restored.",
+        "answer_line": "Abort, recover upright DLR",
+        "distractors": {
+          "plausible": [
+            "Finish the roll anyway",
+            "Switch legs mid-roll"
+          ],
+          "trap": [
+            "Roll through into empty space"
+          ]
+        }
       },
       {
         "question": "What should you already have planned before you commit to the inversion?",
-        "answer": "A specific leg-attack target - inside or outside ashi-garami, a kneebar, an ankle lock, or an elevation sweep. Grasshopper is energy-expensive and unsustainable, so you must arrive with a plan and convert the platform into a concrete attack within a few seconds, rather than inverting aimlessly and stalling while the opponent settles the pass."
+        "answer": "A specific leg-attack target - inside or outside ashi-garami, a kneebar, an ankle lock, or an elevation sweep. Grasshopper is energy-expensive and unsustainable, so you must arrive with a plan and convert the platform into a concrete attack within a few seconds, rather than inverting aimlessly and stalling while the opponent settles the pass.",
+        "answer_line": "Have a leg-attack target set",
+        "distractors": {
+          "plausible": [
+            "Plan to stall and reset",
+            "Plan to scramble to top"
+          ],
+          "trap": [
+            "Invert first, decide after"
+          ]
+        }
       }
     ],
     "safety_considerations": "The primary safety concern is the inversion itself: load the neck gradually and roll over the point of the shoulder rather than crunching directly on the cervical spine, and only attempt the granby roll once you have built the neck and thoracic flexibility for it. Beginners should drill the roll slowly and solo before adding a resisting partner. Because this transition feeds directly into kneebars, ankle locks, and heel hooks, apply all leg attacks with slow, controlled pressure and respect early taps, as rotational knee and ankle submissions injure with little warning. Communicate clearly during live drilling and never force the inversion into heavy opponent pressure that could compress the neck or back.",
@@ -352,33 +402,45 @@
     "flashcards": [
       {
         "question": "Why is stripping the De La Riva hook the highest-priority defense against this inversion?",
-        "answer": "The De La Riva hook is the bottom player's anchor to your base. As long as it is live, your back-step or circle simply tethers your retreating leg and powers their roll, landing them in Grasshopper still connected to you. Clearing the hook before you disengage removes the anchor, so the inversion stalls and they are forced back to upright De La Riva."
+        "answer": "The De La Riva hook is the bottom player's anchor to your base. As long as it is live, your back-step or circle simply tethers your retreating leg and powers their roll, landing them in Grasshopper still connected to you. Clearing the hook before you disengage removes the anchor, so the inversion stalls and they are forced back to upright De La Riva.",
+        "answer_line": "Strip the DLR hook first",
+        "distractors": {
+          "plausible": [
+            "Back-step immediately",
+            "Circle away from the hook"
+          ],
+          "trap": [
+            "Retreat without clearing hook"
+          ]
+        }
       },
       {
         "question": "What opportunity does the bottom player's committed inversion create for you?",
         "answer": "Their committed granby-roll turns their spine toward you, letting you ride the rotation into a back take. As they invert under your base their back is momentarily exposed, so rather than fighting the leg entanglement they are building, ride their rotation and chase an inside hook with chest connection, converting their committed inversion into back control.",
         "distractors": {
           "plausible": [
-            "The inversion mainly exposes their legs, so the best reaction is to sit back and counter with your own leg attack.",
-            "Their roll briefly opens the neck, so the priority is diving on a front headlock before the rotation finishes."
+            "Fight the leg entanglement",
+            "Stack them to flatten"
           ],
           "trap": [
-            "Pin their rolling legs by driving your weight straight down onto them, smashing the inversion flat before it completes."
+            "Chase the leg lock instead"
           ]
-        }
+        },
+        "answer_line": "Ride rotation to back take"
       },
       {
         "question": "How can driving forward to flatten the inversion backfire, and how do you do it safely?",
         "answer": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Grasshopper platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs.",
         "distractors": {
           "plausible": [
-            "Stacking makes the forward drive safe at any moment, so you can still flatten them after the platform forms.",
-            "Drive forward with your knees pinched to their hips first, and worry about clearing your free leg once they are flat."
+            "Drive forward anytime you can",
+            "Stack hard the moment they invert"
           ],
           "trap": [
-            "Meet the inversion by dropping all your weight straight down into their legs, since heavy pressure always kills elevation."
+            "Drive forward once platform's set"
           ]
-        }
+        },
+        "answer_line": "Only early, before platform forms"
       }
     ],
     "training_progressions": [

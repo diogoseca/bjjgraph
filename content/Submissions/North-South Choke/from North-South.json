@@ -300,52 +300,152 @@
       {
         "question": "What anatomical structures does the North-South Choke target and how does the bilateral compression work?",
         "answer": "The North-South Choke targets both carotid arteries simultaneously. Your shoulder drives into the near-side carotid artery while your threading arm's bicep and forearm compress the far-side carotid. This bilateral compression restricts blood flow to the brain, causing unconsciousness within seconds once fully locked. The choke should not primarily target the trachea, which would indicate improper arm depth and alignment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Near-side carotid only",
+            "Airway/windpipe restriction"
+          ],
+          "trap": [
+            "Trachea crush, not carotids"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly against their chest as you begin threading your arm - what adjustment do you make?",
         "answer": "Use a crossface with your forearm across their jaw to turn their head and create the angle needed to thread the arm underneath. Apply the crossface by driving your forearm from their chin toward the mat, forcing their head to turn. Once the head turns, immediately slide your arm under the exposed neck. Alternatively, you can use the crossface pressure itself to set up a short choke variation with shallower arm placement that works around the chin tuck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface to turn the head",
+        "distractors": {
+          "plausible": [
+            "Pry the chin up directly",
+            "Wait for the chin to relax"
+          ],
+          "trap": [
+            "Release pressure and reset"
+          ]
+        }
       },
       {
         "question": "What control must be established before initiating the North-South Choke setup?",
         "answer": "Before initiating the choke, you must have heavy chest-to-chest pressure with your weight distributed forward over the opponent's upper chest and shoulders. At least one of the opponent's arms must be controlled through an underhook or direct grip to prevent framing. The opponent's back should be flat on the mat with minimal hip mobility, and your base should be wide and stable enough to prevent bridging escapes. Rushing the choke without this control foundation leads to failed attempts and lost position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pressure, arm control first",
+        "distractors": {
+          "plausible": [
+            "Just heavy chest pressure",
+            "Control both arms first"
+          ],
+          "trap": [
+            "Rush the arm thread immediately"
+          ]
+        }
       },
       {
         "question": "At what point during the North-South Choke does the opponent pass the point of no escape?",
         "answer": "The opponent passes the point of no escape once the choking arm is threaded deep under the neck with the grip secured, and the hip drop begins. Before the grip locks, the defender can still fight the arm out or create frames. Once the grip is set and hips begin dropping, the bilateral compression increases too rapidly for most defensive actions to overcome. At this stage, the defender's only reliable option is to tap immediately rather than attempt an escape that risks unconsciousness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, hip drop begins",
+        "distractors": {
+          "plausible": [
+            "Arm threaded under neck",
+            "Shoulder drives into neck"
+          ],
+          "trap": [
+            "Only after you feel pain"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error with the North-South Choke and how does it affect the submission?",
         "answer": "The most common finishing error is squeezing with arm strength instead of using hip drop and body rotation. This produces a weaker choke that experienced opponents can endure for extended periods, fatigues your arms rapidly, and often degrades into a tracheal crush rather than a clean blood choke. The correction is to drop your hips toward the mat on the far side and rotate your torso away from the opponent, generating choking pressure through structural leverage rather than muscular effort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip drop and torso rotation",
+        "distractors": {
+          "plausible": [
+            "Add more chest weight",
+            "Increase choking speed"
+          ],
+          "trap": [
+            "Squeeze harder with arms"
+          ]
+        }
       },
       {
         "question": "Your opponent starts framing against your chest mid-setup - what grip adjustment prevents the escape?",
         "answer": "When frames appear during your setup, you have two immediate options. First, angle your shoulder past their forearm frames by driving forward at a diagonal rather than straight down, collapsing the structural integrity of their frames. Second, attack the framing arm with a kimura grip, which forces them to withdraw the frame and simultaneously exposes the neck for the choke entry. Never fight against established frames with direct pressure, as this wastes energy and gives the defender time to build their escape sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle past frame or kimura grip",
+        "distractors": {
+          "plausible": [
+            "Back off and reset position",
+            "Grab a fresh double grip"
+          ],
+          "trap": [
+            "Push straight through frames"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the North-South Choke in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum to give your training partner time to recognize the choke and tap. Always ensure your partner has at least one hand free to tap. Monitor for signs of unconsciousness including going limp, body convulsions, or cessation of resistance. Release immediately upon any tap signal. Never apply competition-speed squeeze in training. Be especially careful with the choke depth to target the carotids rather than the trachea, which causes pain and potential windpipe injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on tap",
+        "distractors": {
+          "plausible": [
+            "Verbal tap signal only",
+            "Free hand not required"
+          ],
+          "trap": [
+            "Apply at full competition speed"
+          ]
+        }
       },
       {
         "question": "How should you release the North-South Choke after your training partner taps?",
         "answer": "Immediately release all arm pressure and shoulder compression upon the tap. Roll completely off your partner's head and neck area rather than simply loosening the grip while remaining in position. Allow your partner to recover in a side-lying position with their airway clear. Monitor them for normal breathing and consciousness for at least 30 seconds. Never move their neck manually after release; let them reposition themselves naturally. If they lost consciousness, place them in recovery position and alert the instructor immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release fully, roll off head",
+        "distractors": {
+          "plausible": [
+            "Loosen grip, stay in position",
+            "Let them recover standing up"
+          ],
+          "trap": [
+            "Reposition their neck for them"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending the choke by turning slightly to their side - how do you adjust to finish?",
         "answer": "When the opponent turns to their side, follow their rotation by walking your base to maintain your chest alignment over their upper body. Use your free hand to control their far hip or shoulder to prevent further turning. Increase the hip drop on the far side to eliminate slack created by their rotation. If they turn enough to threaten guard recovery, you must decide quickly whether to commit to the choke with maximum hip drop or abandon and consolidate side control. The window for finishing narrows as they turn, so be decisive.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow rotation, drop hips more",
+        "distractors": {
+          "plausible": [
+            "Abandon for side control",
+            "Add more downward chest weight"
+          ],
+          "trap": [
+            "Hold grip still and wait it out"
+          ]
+        }
       },
       {
         "question": "How does the kimura attack chain create openings for the North-South Choke?",
         "answer": "When you attack the kimura from North-South, your opponent's natural defense is to clamp their elbows tight to their body and grip their own wrist or belt to prevent arm isolation. This elbow-clamped defensive posture pulls their arms away from their neck, removing the frames that would normally block your choking arm from threading underneath. When you recognize the kimura defense, immediately abandon the kimura grip and thread your arm under their exposed neck. The transition must be fast enough that the opponent cannot switch from arm defense to neck defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow clamp defense opens neck",
+        "distractors": {
+          "plausible": [
+            "Kimura finishes the submission",
+            "Wrist grip stops the choke"
+          ],
+          "trap": [
+            "Keep fighting for the kimura"
+          ]
+        }
       }
     ],
     "clips": [
@@ -460,27 +560,77 @@
       {
         "question": "How do you recognize that a North-South Choke is being set up before the arm threads under your neck?",
         "answer": "The primary recognition cue is feeling your opponent slide their body to one side from standard North-South, shifting from centered chest pressure to an angled position. You will feel their arm release control on one side as they free their choking hand. Their shoulder begins driving specifically into one side of your neck rather than general chest pressure. Recognizing these cues early is critical because defensive options decrease dramatically once the arm passes under the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel the slide to one side",
+        "distractors": {
+          "plausible": [
+            "General increase in chest pressure",
+            "Both arms release control"
+          ],
+          "trap": [
+            "Wait until arm threads under neck"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a fully locked North-South Choke?",
         "answer": "Tap rapidly and repeatedly with whichever hand has the clearest access to your opponent's body - multiple rapid taps on their back, side, or leg. If your hands are trapped, tap your feet rapidly on the mat. Verbal submission is always valid. Tap as soon as you feel the bilateral compression lock in rather than fighting through it, because this is a blood choke that causes unconsciousness within seconds. There is no shame in tapping early to a locked choke - it protects your brain from oxygen deprivation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap rapidly, hands or feet",
+        "distractors": {
+          "plausible": [
+            "One firm tap, then wait",
+            "Say stop, keep resisting"
+          ],
+          "trap": [
+            "Fight through to escape it"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the North-South Choke setup?",
         "answer": "Before the opponent slides to the choking side: maintain frames and work standard North-South escapes. During the slide: frame against their chest and hip escape to disrupt alignment, or chin tuck and shoulder shrug to block the arm path. During arm threading: fight the arm with both hands before the grip locks while hip escaping away. After grip locks: tap immediately, as the hip drop will complete the choke within seconds and late escapes carry high risk of unconsciousness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame early, tap once locked",
+        "distractors": {
+          "plausible": [
+            "Wait for grip before defending",
+            "Ignore the early side slide"
+          ],
+          "trap": [
+            "Keep fighting after grip locks"
+          ]
+        }
       },
       {
         "question": "Why is early recognition more important than escape technique when defending the North-South Choke?",
         "answer": "The North-South Choke has a defined point of no return once the grip is secured and hips begin dropping, after which escape probability drops below ten percent. Unlike joint locks where you may have time to work an escape under pressure, blood chokes compress both carotid arteries simultaneously and cause unconsciousness within seconds of full compression. Early recognition allows you to frame and create space during the setup phase when the opponent's control is weakest, rather than fighting a locked submission with vanishing time before unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "No escape once grip locks",
+        "distractors": {
+          "plausible": [
+            "Same as escaping joint locks",
+            "Late escapes still work fine"
+          ],
+          "trap": [
+            "Rely on technique once locked"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded their arm under your neck but has not yet secured the grip - what is your immediate response?",
         "answer": "This is your last viable defense window. Immediately use both hands to fight the threading arm, specifically grabbing their wrist to prevent them from closing any grip. Simultaneously hip escape away from the choking side to create an angle that reduces their shoulder pressure on your near-side carotid. If you can strip the arm out, immediately reestablish frames against their chest. If you cannot strip the arm, continue hip escaping while fighting the grip to buy time for guard recovery. Do not waste time on any other defensive action - grip prevention is the sole priority.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fight the grip, hip escape away",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll immediately",
+            "Push their head away"
+          ],
+          "trap": [
+            "Try to sit up and stand"
+          ]
+        }
       }
     ],
     "training_progressions": [

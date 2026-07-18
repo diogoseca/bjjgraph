@@ -277,7 +277,17 @@
       },
       {
         "question": "What is the optimal timing window for initiating the Bolo relative to your opponent's weight distribution?",
-        "answer": "The optimal window occurs when the opponent's weight is committed forward over the De La Riva-hooked leg. This forward loading means the rotational force of the Bolo amplifies their existing displacement rather than fighting against it. The best practitioners provoke this forward commitment through active hook pulling and grip tension that forces the opponent to lean forward to maintain balance, then immediately capitalize on that weight shift to begin the inversion. Initiating against a rearward-weighted opponent forces you to overcome their entire base structure."
+        "answer": "The optimal window occurs when the opponent's weight is committed forward over the De La Riva-hooked leg. This forward loading means the rotational force of the Bolo amplifies their existing displacement rather than fighting against it. The best practitioners provoke this forward commitment through active hook pulling and grip tension that forces the opponent to lean forward to maintain balance, then immediately capitalize on that weight shift to begin the inversion. Initiating against a rearward-weighted opponent forces you to overcome their entire base structure.",
+        "answer_line": "When their weight loads forward",
+        "distractors": {
+          "plausible": [
+            "When weight shifts backward",
+            "As soon as hook is in"
+          ],
+          "trap": [
+            "Wait for them to posture up tall"
+          ]
+        }
       },
       {
         "question": "Your opponent steps over your inverting body with their free leg during the Bolo - what are your options?",

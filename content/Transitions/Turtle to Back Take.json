@@ -247,43 +247,143 @@
     "flashcards": [
       {
         "question": "Why must the bottom hook be inserted before the top hook when taking the back from turtle?",
-        "answer": "The bottom hook serves as your anchor point and base. It prevents opponent from rolling you over and provides the stability needed to safely work for the top hook. Inserting the top hook first compromises your base and makes you vulnerable to being swept or reversed. The bottom hook also blocks opponent's ability to sit back to guard, which is their most common escape from this position."
+        "answer": "The bottom hook serves as your anchor point and base. It prevents opponent from rolling you over and provides the stability needed to safely work for the top hook. Inserting the top hook first compromises your base and makes you vulnerable to being swept or reversed. The bottom hook also blocks opponent's ability to sit back to guard, which is their most common escape from this position.",
+        "answer_line": "Bottom hook first, it's your base",
+        "distractors": {
+          "plausible": [
+            "Top hook first for tighter control",
+            "Insert both hooks simultaneously"
+          ],
+          "trap": [
+            "Skip bottom hook, rush the top"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the back take from turtle?",
-        "answer": "The optimal window is immediately after the opponent turtles, before they can establish a tight defensive structure with elbows to knees and begin active escape attempts. The first two to three seconds after they assume turtle offer the highest success rates because their grips are not yet set, their weight distribution is still adjusting, and they have not yet committed to an escape direction. Delayed attacks against a fully set turtle defense require significantly more technique and energy."
+        "answer": "The optimal window is immediately after the opponent turtles, before they can establish a tight defensive structure with elbows to knees and begin active escape attempts. The first two to three seconds after they assume turtle offer the highest success rates because their grips are not yet set, their weight distribution is still adjusting, and they have not yet committed to an escape direction. Delayed attacks against a fully set turtle defense require significantly more technique and energy.",
+        "answer_line": "First 2-3 seconds, before set-up",
+        "distractors": {
+          "plausible": [
+            "Once elbows lock to knees",
+            "After they choose escape side"
+          ],
+          "trap": [
+            "Wait for opponent to settle"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be established before attempting hook insertion and why?",
-        "answer": "The seatbelt grip must be established first, with the choking-side arm under the near armpit across the chest and the other arm over the far shoulder with hands clasped. This grip is required because it prevents the opponent from rotating to face you, controls their upper body posture making it difficult to stand or roll, creates immediate submission threats that divide their defensive attention, and provides the leverage needed to lift their torso when inserting hooks."
+        "answer": "The seatbelt grip must be established first, with the choking-side arm under the near armpit across the chest and the other arm over the far shoulder with hands clasped. This grip is required because it prevents the opponent from rotating to face you, controls their upper body posture making it difficult to stand or roll, creates immediate submission threats that divide their defensive attention, and provides the leverage needed to lift their torso when inserting hooks.",
+        "answer_line": "Seatbelt grip first",
+        "distractors": {
+          "plausible": [
+            "Single underhook is enough",
+            "Collar tie before seatbelt"
+          ],
+          "trap": [
+            "Skip grips, insert hooks first"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you attempt the second hook - how do you adjust?",
-        "answer": "A posted far hand means they have sacrificed one defensive frame to stabilize their base. Immediately threaten the crucifix by trapping their near arm with your leg while your seatbelt controls their upper body. The posted hand cannot defend both the crucifix and the hook insertion simultaneously. As they pull the near arm back to defend the crucifix, the space opens for your top hook. Alternatively, use the seatbelt to pull their upper body toward the posted hand side, collapsing their base and creating the angle for hook entry."
+        "answer": "A posted far hand means they have sacrificed one defensive frame to stabilize their base. Immediately threaten the crucifix by trapping their near arm with your leg while your seatbelt controls their upper body. The posted hand cannot defend both the crucifix and the hook insertion simultaneously. As they pull the near arm back to defend the crucifix, the space opens for your top hook. Alternatively, use the seatbelt to pull their upper body toward the posted hand side, collapsing their base and creating the angle for hook entry.",
+        "answer_line": "Attack crucifix, trap near arm",
+        "distractors": {
+          "plausible": [
+            "Force the stand-up escape",
+            "Switch to a leg lace attack"
+          ],
+          "trap": [
+            "Release seatbelt to grab wrist"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail for maintaining control when the opponent attempts to stand up from turtle?",
-        "answer": "The critical detail is maintaining your seatbelt grip while shifting your weight to hang below their center of gravity rather than staying on top. As they rise, transition from chest pressure on their back to hanging your bodyweight from the seatbelt below their shoulders. Your hooks or leg positioning should drag on their hips to prevent full extension. This hanging weight position makes it mechanically difficult for them to complete the standup and allows you to drag them back to the mat while maintaining all control points."
+        "answer": "The critical detail is maintaining your seatbelt grip while shifting your weight to hang below their center of gravity rather than staying on top. As they rise, transition from chest pressure on their back to hanging your bodyweight from the seatbelt below their shoulders. Your hooks or leg positioning should drag on their hips to prevent full extension. This hanging weight position makes it mechanically difficult for them to complete the standup and allows you to drag them back to the mat while maintaining all control points.",
+        "answer_line": "Hang weight below their hips",
+        "distractors": {
+          "plausible": [
+            "Stay on top with chest pressure",
+            "Climb higher onto their back"
+          ],
+          "trap": [
+            "Let go and reset from turtle"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent begins a granby roll while you have seatbelt but no hooks?",
-        "answer": "Follow the roll while maintaining seatbelt grip and chest-to-back connection throughout the rotation. Do not fight the roll or try to stop it, as this often results in losing the grip. Instead, rotate with them, keeping your chest glued to their back. As they complete the granby and land, you often end up in an even better position to insert hooks because their defensive turtle structure has been disrupted by the rolling motion. The key is commitment to following rather than resisting their movement."
+        "answer": "Follow the roll while maintaining seatbelt grip and chest-to-back connection throughout the rotation. Do not fight the roll or try to stop it, as this often results in losing the grip. Instead, rotate with them, keeping your chest glued to their back. As they complete the granby and land, you often end up in an even better position to insert hooks because their defensive turtle structure has been disrupted by the rolling motion. The key is commitment to following rather than resisting their movement.",
+        "answer_line": "Follow the roll, keep seatbelt",
+        "distractors": {
+          "plausible": [
+            "Stop the roll, reset position",
+            "Release grip, re-shoot hooks"
+          ],
+          "trap": [
+            "Fight the rotation directly"
+          ]
+        }
       },
       {
         "question": "What determines whether you should use the direct hook insertion method versus the chair sit variation?",
-        "answer": "The direct hook insertion is preferred when you have strong chest-to-back pressure and the opponent's turtle structure is beginning to break down, allowing you to work hooks in from the top position. The chair sit is preferable when the opponent maintains an exceptionally tight turtle with elbows locked to knees that resists top pressure, when you are fatiguing from sustained top pressure, or in no-gi where the lack of cloth grips makes top control less stable. The chair sit bypasses the elbow defense entirely by changing the angle of hook entry."
+        "answer": "The direct hook insertion is preferred when you have strong chest-to-back pressure and the opponent's turtle structure is beginning to break down, allowing you to work hooks in from the top position. The chair sit is preferable when the opponent maintains an exceptionally tight turtle with elbows locked to knees that resists top pressure, when you are fatiguing from sustained top pressure, or in no-gi where the lack of cloth grips makes top control less stable. The chair sit bypasses the elbow defense entirely by changing the angle of hook entry.",
+        "answer_line": "Chair sit vs tight turtle/no-gi",
+        "distractors": {
+          "plausible": [
+            "Direct method only in gi",
+            "Chair sit when hooks are set"
+          ],
+          "trap": [
+            "Always force direct hooks first"
+          ]
+        }
       },
       {
         "question": "Your opponent defends your first hook attempt by extending their leg straight - what is the correct response?",
-        "answer": "An extended leg is actually easier to hook than a tucked leg. Thread your hook inside their thigh and use your heel to pull their extended leg back toward their body, bending their knee and trapping the hook deep. If they continue to straighten aggressively, this creates a kneebar opportunity from the crab ride position, which forces a dilemma: they must bend the knee to defend the leg attack, which simultaneously allows your hook to set. The extended leg defense is tactically inferior and should be exploited immediately."
+        "answer": "An extended leg is actually easier to hook than a tucked leg. Thread your hook inside their thigh and use your heel to pull their extended leg back toward their body, bending their knee and trapping the hook deep. If they continue to straighten aggressively, this creates a kneebar opportunity from the crab ride position, which forces a dilemma: they must bend the knee to defend the leg attack, which simultaneously allows your hook to set. The extended leg defense is tactically inferior and should be exploited immediately.",
+        "answer_line": "Hook inside, heel pulls leg in",
+        "distractors": {
+          "plausible": [
+            "Abandon that side, switch hooks",
+            "Wait for them to bend it back"
+          ],
+          "trap": [
+            "Force the hook over the thigh"
+          ]
+        }
       },
       {
         "question": "What chain of attacks should you use when your initial direct back take is successfully defended?",
-        "answer": "The primary chain flows from direct back take to crab ride when hooks are defended, then from crab ride to crucifix when the opponent posts defensively, then back to standard back take when the crucifix threat forces them to pull their arms tight. Each position in the chain creates a different threat that forces the opponent to adjust their defense, and each adjustment opens the path to the next attack in the chain. The cycle can be repeated until the defender makes an error. This systematic chain approach is far more effective than repeatedly attempting the same blocked technique."
+        "answer": "The primary chain flows from direct back take to crab ride when hooks are defended, then from crab ride to crucifix when the opponent posts defensively, then back to standard back take when the crucifix threat forces them to pull their arms tight. Each position in the chain creates a different threat that forces the opponent to adjust their defense, and each adjustment opens the path to the next attack in the chain. The cycle can be repeated until the defender makes an error. This systematic chain approach is far more effective than repeatedly attempting the same blocked technique.",
+        "answer_line": "Back take to crab ride to crucifix",
+        "distractors": {
+          "plausible": [
+            "Repeat the same hook attempt",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Abandon back, pass to side control"
+          ]
+        }
       },
       {
         "question": "How does the direction of force from your seatbelt grip change between the initial control phase and the hook insertion phase?",
-        "answer": "During the initial control phase, the seatbelt grip pulls the opponent's upper body toward you and slightly upward, preventing them from driving forward or flattening away from you. The force direction is primarily rearward and upward. During hook insertion, the force direction shifts to lifting their torso away from the mat, creating vertical space between their elbows and hips where your hooks need to thread through. This upward lifting force is what separates their defensive frames from their body and makes hook insertion mechanically possible against a tight turtle."
+        "answer": "During the initial control phase, the seatbelt grip pulls the opponent's upper body toward you and slightly upward, preventing them from driving forward or flattening away from you. The force direction is primarily rearward and upward. During hook insertion, the force direction shifts to lifting their torso away from the mat, creating vertical space between their elbows and hips where your hooks need to thread through. This upward lifting force is what separates their defensive frames from their body and makes hook insertion mechanically possible against a tight turtle.",
+        "answer_line": "Pull back, then lift up for hooks",
+        "distractors": {
+          "plausible": [
+            "Push forward through both phases",
+            "Lift up first, then pull back"
+          ],
+          "trap": [
+            "Drive straight down on their spine"
+          ]
+        }
       }
     ],
     "safety_considerations": "The turtle to back take is a relatively safe transition with minimal injury risk when practiced correctly. Primary safety concerns involve protecting both practitioners' knees during drilling, as repeated hook insertion pressure can cause discomfort on the inner thigh and knee ligaments. The bottom practitioner should avoid posting hands too far from their body, which can result in hyperextended elbows if the top person drives forward aggressively. When practicing at full resistance, both partners should be aware of potential neck strain from aggressive seatbelt grip fighting and sudden rotational movements. The top person should never drive full body weight onto opponent's neck or head region. Clear communication about tap signals is critical when transitioning to submissions from back control, especially during choke defense training.",
@@ -407,23 +507,73 @@
     "flashcards": [
       {
         "question": "What is the correct priority sequence for defending the back take from turtle?",
-        "answer": "The priority sequence is: first, prevent seatbelt grip establishment by keeping elbows tight and fighting any arm that threads under your armpit; second, deny hook insertion by maintaining tight hip-to-elbow connection and actively kicking back against hook attempts; third, execute an explosive escape toward guard recovery or standing before the attacker can build additional control layers. This sequence addresses threats in order of severity, as the seatbelt enables everything else the attacker wants to do."
+        "answer": "The priority sequence is: first, prevent seatbelt grip establishment by keeping elbows tight and fighting any arm that threads under your armpit; second, deny hook insertion by maintaining tight hip-to-elbow connection and actively kicking back against hook attempts; third, execute an explosive escape toward guard recovery or standing before the attacker can build additional control layers. This sequence addresses threats in order of severity, as the seatbelt enables everything else the attacker wants to do.",
+        "answer_line": "Deny seatbelt, then deny hooks",
+        "distractors": {
+          "plausible": [
+            "Block hooks before the seatbelt",
+            "Escape first, worry grips later"
+          ],
+          "trap": [
+            "Turn to face and give up back"
+          ]
+        }
       },
       {
         "question": "Your opponent has established chest pressure but no grips yet - what is the optimal moment to escape?",
-        "answer": "This is the highest-percentage escape window because the attacker has only one control layer established. You should explode immediately into either a sit-through, standup, or granby roll before they can secure seatbelt grip. Once the seatbelt is locked, your escape probability drops by approximately half. The transition from chest pressure to seatbelt grip takes only one to two seconds, so this window is extremely brief and must be exploited with immediate decisive action rather than waiting to see what the attacker does next."
+        "answer": "This is the highest-percentage escape window because the attacker has only one control layer established. You should explode immediately into either a sit-through, standup, or granby roll before they can secure seatbelt grip. Once the seatbelt is locked, your escape probability drops by approximately half. The transition from chest pressure to seatbelt grip takes only one to two seconds, so this window is extremely brief and must be exploited with immediate decisive action rather than waiting to see what the attacker does next.",
+        "answer_line": "Explode before seatbelt locks",
+        "distractors": {
+          "plausible": [
+            "Wait to see their next move",
+            "Escape only after hooks land"
+          ],
+          "trap": [
+            "Stall and conserve energy"
+          ]
+        }
       },
       {
         "question": "How should you determine whether to attempt a sit-through versus a standup escape from turtle?",
-        "answer": "The decision depends on the attacker's weight distribution and control depth. Choose sit-through when the attacker's weight is forward on your shoulders and they have seatbelt or partial control, because their forward commitment makes it difficult to follow lateral rotation. Choose standup when the attacker's weight is light or high with minimal grip control, because you can drive through the standup before they can establish hooks. If the attacker has deep hooks and seatbelt already established, neither is ideal and you should focus on hand fighting the seatbelt first before committing to an escape direction."
+        "answer": "The decision depends on the attacker's weight distribution and control depth. Choose sit-through when the attacker's weight is forward on your shoulders and they have seatbelt or partial control, because their forward commitment makes it difficult to follow lateral rotation. Choose standup when the attacker's weight is light or high with minimal grip control, because you can drive through the standup before they can establish hooks. If the attacker has deep hooks and seatbelt already established, neither is ideal and you should focus on hand fighting the seatbelt first before committing to an escape direction.",
+        "answer_line": "Weight forward = sit-through",
+        "distractors": {
+          "plausible": [
+            "Always default to standing up",
+            "Choose based on your own fatigue"
+          ],
+          "trap": [
+            "Stand up against deep seatbelt"
+          ]
+        }
       },
       {
         "question": "Why is it critical to escape toward the attacker's choking arm side rather than away from it?",
-        "answer": "Escaping toward the choking arm side accomplishes two things simultaneously: it neutralizes the most dangerous submission threat by moving your neck away from the choking arm's reach, and it forces the attacker's underhook arm to bear the load of maintaining control at an awkward angle. Moving away from the choking arm exposes your neck further and allows the attacker to deepen their seatbelt as you rotate into the choke. The directional choice is the difference between escaping into a neutral guard position and escaping into a worse submission predicament."
+        "answer": "Escaping toward the choking arm side accomplishes two things simultaneously: it neutralizes the most dangerous submission threat by moving your neck away from the choking arm's reach, and it forces the attacker's underhook arm to bear the load of maintaining control at an awkward angle. Moving away from the choking arm exposes your neck further and allows the attacker to deepen their seatbelt as you rotate into the choke. The directional choice is the difference between escaping into a neutral guard position and escaping into a worse submission predicament.",
+        "answer_line": "Escape toward the choking arm",
+        "distractors": {
+          "plausible": [
+            "Escape away from the choke arm",
+            "Escape toward the underhook side"
+          ],
+          "trap": [
+            "Turn into the seatbelt to face them"
+          ]
+        }
       },
       {
         "question": "Your opponent has one hook inserted and is working for the second - what is your best defensive action?",
-        "answer": "With one hook already set, your window for easy escape has narrowed significantly. Focus on preventing the second hook by pressing your elbow tight against your hip on the threatened side, trapping the attacker's leg between your elbow and hip. Simultaneously, begin working to clear the established hook by extending your trapped leg and using your same-side hand to push their heel out. If you can clear the first hook before the second is set, immediately explode into a sit-through toward the cleared side. The critical principle is that one hook is recoverable but two hooks plus seatbelt is extremely difficult to escape."
+        "answer": "With one hook already set, your window for easy escape has narrowed significantly. Focus on preventing the second hook by pressing your elbow tight against your hip on the threatened side, trapping the attacker's leg between your elbow and hip. Simultaneously, begin working to clear the established hook by extending your trapped leg and using your same-side hand to push their heel out. If you can clear the first hook before the second is set, immediately explode into a sit-through toward the cleared side. The critical principle is that one hook is recoverable but two hooks plus seatbelt is extremely difficult to escape.",
+        "answer_line": "Trap leg, clear hook, sit-through",
+        "distractors": {
+          "plausible": [
+            "Fight the seatbelt grip instead",
+            "Wait for the second hook to land"
+          ],
+          "trap": [
+            "Turn to face, expose your back"
+          ]
+        }
       }
     ],
     "training_progressions": [

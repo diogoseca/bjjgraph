@@ -255,43 +255,143 @@
     "flashcards": [
       {
         "question": "What is the most critical safety check before initiating the counter-entanglement from Outside Ashi-Garami Top?",
-        "answer": "You must verify that your heel is protected and not exposed to immediate heel hook or ankle lock finishing threat. If your heel is accessible to the opponent, any counter-entanglement attempt diverts your attention from the most immediate danger—a submission that can cause serious knee ligament injury. Always protect the heel first by rotating your hip internally and tucking your foot before considering any offensive transition."
+        "answer": "You must verify that your heel is protected and not exposed to immediate heel hook or ankle lock finishing threat. If your heel is accessible to the opponent, any counter-entanglement attempt diverts your attention from the most immediate danger—a submission that can cause serious knee ligament injury. Always protect the heel first by rotating your hip internally and tucking your foot before considering any offensive transition.",
+        "answer_line": "Confirm heel is protected first",
+        "distractors": {
+          "plausible": [
+            "Check opponent's grip tightness",
+            "Assess your hip rotation angle"
+          ],
+          "trap": [
+            "Ignore heel, thread leg fast"
+          ]
+        }
       },
       {
         "question": "What specific hip angle change is required to create the threading lane for your free leg?",
-        "answer": "Your hips must rotate from their current defensive angle (facing away from opponent or neutral) toward the opponent's legs to create a threading lane for your free leg. This rotation should be subtle and incremental initially to avoid telegraphing your intentions. The target angle is approximately 45-90 degrees relative to the opponent's body, which aligns your free leg with a direct path across their hip crease for inside ashi establishment."
+        "answer": "Your hips must rotate from their current defensive angle (facing away from opponent or neutral) toward the opponent's legs to create a threading lane for your free leg. This rotation should be subtle and incremental initially to avoid telegraphing your intentions. The target angle is approximately 45-90 degrees relative to the opponent's body, which aligns your free leg with a direct path across their hip crease for inside ashi establishment.",
+        "answer_line": "Rotate hips 45-90° toward legs",
+        "distractors": {
+          "plausible": [
+            "Square hips fully to opponent",
+            "Rotate away to create space"
+          ],
+          "trap": [
+            "Explode with one big hip turn"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their leg triangle the moment you begin threading your free leg—how do you adjust your approach?",
-        "answer": "Switch to the gradual pummeling approach, using small incremental advances of your leg rather than one explosive movement. Alternatively, threaten a counter heel hook on their controlling leg to force them to loosen their triangle defensively—this creates a dilemma where defending the heel hook opens the threading lane. If neither approach works, return to pure escape options and wait for a better counter-entanglement window to present itself."
+        "answer": "Switch to the gradual pummeling approach, using small incremental advances of your leg rather than one explosive movement. Alternatively, threaten a counter heel hook on their controlling leg to force them to loosen their triangle defensively—this creates a dilemma where defending the heel hook opens the threading lane. If neither approach works, return to pure escape options and wait for a better counter-entanglement window to present itself.",
+        "answer_line": "Pummel gradually or threaten hook",
+        "distractors": {
+          "plausible": [
+            "Force the leg through harder",
+            "Abandon and stand up immediately"
+          ],
+          "trap": [
+            "Yank leg free, exposing your heel"
+          ]
+        }
       },
       {
         "question": "Why is threading your leg across the hip crease critical rather than positioning higher on the ribs or waist?",
-        "answer": "The hip crease is the biomechanical control point for rotational control in inside ashi-garami. Placing your leg across the hip prevents the opponent from rotating their hips to escape and creates the mechanical leverage needed for both position retention and submission finishing. Threading above the hip on ribs or waist provides no rotational control and is easily cleared by the opponent's hands because it lacks the structural lock that hip-level placement provides."
+        "answer": "The hip crease is the biomechanical control point for rotational control in inside ashi-garami. Placing your leg across the hip prevents the opponent from rotating their hips to escape and creates the mechanical leverage needed for both position retention and submission finishing. Threading above the hip on ribs or waist provides no rotational control and is easily cleared by the opponent's hands because it lacks the structural lock that hip-level placement provides.",
+        "answer_line": "Hip crease locks rotation control",
+        "distractors": {
+          "plausible": [
+            "Higher position is easier to reach",
+            "Ribs give better submission angle"
+          ],
+          "trap": [
+            "Waist control stops all escapes"
+          ]
+        }
       },
       {
         "question": "What grip should you establish immediately after your legs complete the inside ashi configuration?",
-        "answer": "Immediately secure a C-grip on the opponent's heel with four fingers wrapped around the heel bone and thumb positioned on the Achilles tendon. This heel control transforms your positional entanglement into an active submission threat. Without heel control, the opponent can rotate their knee line away from danger and begin systematic escape without being under immediate submission pressure, negating the advantage you gained."
+        "answer": "Immediately secure a C-grip on the opponent's heel with four fingers wrapped around the heel bone and thumb positioned on the Achilles tendon. This heel control transforms your positional entanglement into an active submission threat. Without heel control, the opponent can rotate their knee line away from danger and begin systematic escape without being under immediate submission pressure, negating the advantage you gained.",
+        "answer_line": "C-grip heel, thumb on Achilles",
+        "distractors": {
+          "plausible": [
+            "Grip the pant leg for control",
+            "Grip knee to stop rotation"
+          ],
+          "trap": [
+            "Grip both hands on their far foot"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attacking your exposed heel during your counter-entanglement attempt—what is the correct immediate response?",
-        "answer": "Immediately abort the counter-entanglement and return to heel protection as the absolute priority. Tuck your heel inward by rotating your hip internally, establish defensive frames on the opponent's hips, and re-secure your defensive posture. Only after your heel is confirmed safe should you reassess whether a counter-entanglement window still exists. Never continue an offensive transition while under immediate submission threat to your own leg."
+        "answer": "Immediately abort the counter-entanglement and return to heel protection as the absolute priority. Tuck your heel inward by rotating your hip internally, establish defensive frames on the opponent's hips, and re-secure your defensive posture. Only after your heel is confirmed safe should you reassess whether a counter-entanglement window still exists. Never continue an offensive transition while under immediate submission threat to your own leg.",
+        "answer_line": "Abort, tuck heel, frame hips",
+        "distractors": {
+          "plausible": [
+            "Push through and finish faster",
+            "Switch to a different leg lock"
+          ],
+          "trap": [
+            "Keep threading, ignore the heel"
+          ]
+        }
       },
       {
         "question": "How does the counter-entanglement fundamentally differ from a standard escape from Outside Ashi-Garami?",
-        "answer": "A standard escape aims to extract your trapped leg and return to a neutral position like standing or open guard, ending the leg entanglement entirely. The counter-entanglement instead keeps you in the leg lock game but reverses the dynamic—you establish your own ashi garami on the opponent's leg, transforming from defender to attacker. This approach carries higher risk but higher reward, as success gives you an immediate offensive position rather than a neutral reset."
+        "answer": "A standard escape aims to extract your trapped leg and return to a neutral position like standing or open guard, ending the leg entanglement entirely. The counter-entanglement instead keeps you in the leg lock game but reverses the dynamic—you establish your own ashi garami on the opponent's leg, transforming from defender to attacker. This approach carries higher risk but higher reward, as success gives you an immediate offensive position rather than a neutral reset.",
+        "answer_line": "Reverses into your own ashi garami",
+        "distractors": {
+          "plausible": [
+            "Escapes to neutral standing",
+            "Passes guard to top control"
+          ],
+          "trap": [
+            "Just resets to open guard safely"
+          ]
+        }
       },
       {
         "question": "What are the three primary timing windows for initiating this counter-entanglement during a live exchange?",
-        "answer": "The three primary windows are: when the opponent adjusts their grip on your heel or ankle, momentarily loosening their leg triangle; when they transition between submission attempts, creating a brief phase between releasing one attack and establishing another; and when they attempt to advance to a more dominant entanglement like saddle, as their leg reconfiguration creates threading opportunities. Each window lasts roughly one to two seconds, requiring pre-loaded recognition and immediate committed execution."
+        "answer": "The three primary windows are: when the opponent adjusts their grip on your heel or ankle, momentarily loosening their leg triangle; when they transition between submission attempts, creating a brief phase between releasing one attack and establishing another; and when they attempt to advance to a more dominant entanglement like saddle, as their leg reconfiguration creates threading opportunities. Each window lasts roughly one to two seconds, requiring pre-loaded recognition and immediate committed execution.",
+        "answer_line": "Grip change, switch, or saddle push",
+        "distractors": {
+          "plausible": [
+            "Only when they lose all grips",
+            "Right after the match starts"
+          ],
+          "trap": [
+            "Wait until fully finished"
+          ]
+        }
       },
       {
         "question": "Why is full commitment critical once the counter-entanglement is initiated, and what happens with half-commitment?",
-        "answer": "Half-committed counter-entanglements create the worst possible outcome—you abandon your defensive posture without establishing offensive control, leaving you in a compromised position where you can neither defend effectively nor attack. Your leg is partially threaded but not controlling anything, your heel protection may be compromised by the positional change, and your body angle serves neither defense nor offense. Full commitment ensures you either establish inside ashi or can recognize failure quickly and return completely to defense."
+        "answer": "Half-committed counter-entanglements create the worst possible outcome—you abandon your defensive posture without establishing offensive control, leaving you in a compromised position where you can neither defend effectively nor attack. Your leg is partially threaded but not controlling anything, your heel protection may be compromised by the positional change, and your body angle serves neither defense nor offense. Full commitment ensures you either establish inside ashi or can recognize failure quickly and return completely to defense.",
+        "answer_line": "Half-commit leaves you defenseless",
+        "distractors": {
+          "plausible": [
+            "Half-commit just wastes some time",
+            "Full commitment risks the position"
+          ],
+          "trap": [
+            "Commit halfway to stay safe"
+          ]
+        }
       },
       {
         "question": "After successfully establishing Inside Ashi-Garami through counter-entanglement, what are your immediate consolidation priorities?",
-        "answer": "First, squeeze your legs together to tighten the inside ashi configuration and eliminate any space. Second, adjust your body angle to perpendicular alignment with the opponent's trapped leg for maximum mechanical advantage. Third, secure heel control with a C-grip if not already established during the transition. Fourth, elevate your hips off the mat to create submission leverage. Only after all four elements are secured should you consider initiating a submission attempt—rushing to finish before full consolidation risks losing the hard-won position."
+        "answer": "First, squeeze your legs together to tighten the inside ashi configuration and eliminate any space. Second, adjust your body angle to perpendicular alignment with the opponent's trapped leg for maximum mechanical advantage. Third, secure heel control with a C-grip if not already established during the transition. Fourth, elevate your hips off the mat to create submission leverage. Only after all four elements are secured should you consider initiating a submission attempt—rushing to finish before full consolidation risks losing the hard-won position.",
+        "answer_line": "Squeeze, angle, grip, elevate hips",
+        "distractors": {
+          "plausible": [
+            "Finish submission immediately",
+            "Flatten opponent before gripping"
+          ],
+          "trap": [
+            "Rush finish before consolidating"
+          ]
+        }
       }
     ],
     "safety_considerations": "Counter-entanglement transitions involve simultaneous offensive and defensive leg lock mechanics, creating elevated injury risk for both practitioners. Always maintain heel protection as the top priority throughout the entire transition—no counter-entanglement is worth a knee injury from an undefended heel hook. When drilling, progress through resistance levels gradually and ensure both partners understand tap protocols for leg locks. Never attempt explosive counter-entanglements at full speed until the mechanical pattern is deeply ingrained through repetitive cooperative drilling. Both practitioners should verbally communicate heel exposure during training to prevent accidental injury.",
@@ -400,19 +500,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is attempting a counter-entanglement from Outside Ashi-Garami Top?",
-        "answer": "The earliest cues are changes in opponent's free leg activity and hip angle. When they stop trying to extract their trapped leg and instead begin rotating their hips toward your legs while their free leg moves laterally toward your hip, they are initiating a counter-entanglement. Their hands may shift from defensive frames to reaching for your legs. A sudden decrease in escape urgency combined with active hip rotation toward your body is the clearest early warning indicator."
+        "answer": "The earliest cues are changes in opponent's free leg activity and hip angle. When they stop trying to extract their trapped leg and instead begin rotating their hips toward your legs while their free leg moves laterally toward your hip, they are initiating a counter-entanglement. Their hands may shift from defensive frames to reaching for your legs. A sudden decrease in escape urgency combined with active hip rotation toward your body is the clearest early warning indicator.",
+        "answer_line": "Hips rotate in, free leg reaches",
+        "distractors": {
+          "plausible": [
+            "They grip harder on your ankle",
+            "They stop moving entirely"
+          ],
+          "trap": [
+            "They extract their leg faster"
+          ]
+        }
       },
       {
         "question": "Why is maintaining constant submission pressure the most effective preemptive defense against counter-entanglement attempts?",
-        "answer": "Constant submission pressure forces the opponent to dedicate their attention and physical resources to protecting their heel and defending the immediate submission threat. A practitioner who is actively defending a heel hook cannot simultaneously execute the hip rotation, leg threading, and grip establishment required for counter-entanglement. The combined mental and physical demands of submission defense override the ability to initiate complex offensive transitions against you."
+        "answer": "Constant submission pressure forces the opponent to dedicate their attention and physical resources to protecting their heel and defending the immediate submission threat. A practitioner who is actively defending a heel hook cannot simultaneously execute the hip rotation, leg threading, and grip establishment required for counter-entanglement. The combined mental and physical demands of submission defense override the ability to initiate complex offensive transitions against you.",
+        "answer_line": "Forces them to defend, not attack",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out physically",
+            "Speeds up your own finish"
+          ],
+          "trap": [
+            "Lets you relax grip pressure"
+          ]
+        }
       },
       {
         "question": "When should you choose to disengage your ashi garami rather than continue fighting the counter-entanglement?",
-        "answer": "Disengage when the opponent has successfully threaded their leg across your hip and is actively establishing heel control on your leg. At this point, fighting to maintain your original ashi garami while their inside ashi is being consolidated creates a race you are likely to lose. Early disengagement to half guard or standing preserves your positional options and prevents you from being trapped in the opponent's offensive leg entanglement. The critical decision point is when their free leg crosses your hip line with apparent control."
+        "answer": "Disengage when the opponent has successfully threaded their leg across your hip and is actively establishing heel control on your leg. At this point, fighting to maintain your original ashi garami while their inside ashi is being consolidated creates a race you are likely to lose. Early disengagement to half guard or standing preserves your positional options and prevents you from being trapped in the opponent's offensive leg entanglement. The critical decision point is when their free leg crosses your hip line with apparent control.",
+        "answer_line": "When their leg crosses your hip",
+        "distractors": {
+          "plausible": [
+            "As soon as they start moving",
+            "When your grip feels tired"
+          ],
+          "trap": [
+            "Never disengage, fight to the end"
+          ]
+        }
       },
       {
         "question": "How does the tightness of your leg triangle directly relate to your vulnerability to counter-entanglement?",
-        "answer": "Your leg triangle tightness is inversely proportional to your vulnerability. A tight triangle with no gaps between your legs and the opponent's trapped leg eliminates the threading lanes necessary for counter-entanglement. The opponent's free leg literally cannot cross your hip if your legs are clamped firmly around their limb with no space. Every gap in your triangle represents a potential threading path. Maintaining constant squeeze pressure—especially during grip transitions and submission attempts when your focus shifts—is the single most important defensive measure."
+        "answer": "Your leg triangle tightness is inversely proportional to your vulnerability. A tight triangle with no gaps between your legs and the opponent's trapped leg eliminates the threading lanes necessary for counter-entanglement. The opponent's free leg literally cannot cross your hip if your legs are clamped firmly around their limb with no space. Every gap in your triangle represents a potential threading path. Maintaining constant squeeze pressure—especially during grip transitions and submission attempts when your focus shifts—is the single most important defensive measure.",
+        "answer_line": "Tight triangle blocks threading",
+        "distractors": {
+          "plausible": [
+            "Loose triangle conserves energy",
+            "Tightness only matters for finishes"
+          ],
+          "trap": [
+            "Loosen triangle to bait a mistake"
+          ]
+        }
       }
     ],
     "training_progressions": [

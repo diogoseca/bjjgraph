@@ -247,11 +247,31 @@
     "flashcards": [
       {
         "question": "Your opponent drives heavy shoulder pressure as you begin to create frames for the turn-in - how do you establish frames despite this resistance?",
-        "answer": "Use compact forearm wedge frames with bent elbows connected directly to your own hip and ribcage rather than extending arms against the pressure. These structural frames redirect force through skeletal alignment rather than fighting muscular pressure directly. The shortened frame length makes them significantly harder to collapse. Once the compact frame is established, use small hip movements to incrementally widen the space rather than trying to push the opponent away."
+        "answer": "Use compact forearm wedge frames with bent elbows connected directly to your own hip and ribcage rather than extending arms against the pressure. These structural frames redirect force through skeletal alignment rather than fighting muscular pressure directly. The shortened frame length makes them significantly harder to collapse. Once the compact frame is established, use small hip movements to incrementally widen the space rather than trying to push the opponent away.",
+        "answer_line": "Compact forearm frames to hip",
+        "distractors": {
+          "plausible": [
+            "Full-arm extension push off",
+            "Wide frames before hips shift"
+          ],
+          "trap": [
+            "Pull opponent's far arm inward"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before attempting the turn-in escape from twister side control?",
-        "answer": "Four conditions must be present: at least one arm must be free to create frames, sufficient hip mobility must remain to initiate inward rotation despite the leg entanglement, the opponent must not have fully locked the twister finish with maximum spinal torque, and you must have enough energy reserves for the sustained multi-step sequence. If the twister is fully locked, you should tap rather than force the escape and risk spinal injury."
+        "answer": "Four conditions must be present: at least one arm must be free to create frames, sufficient hip mobility must remain to initiate inward rotation despite the leg entanglement, the opponent must not have fully locked the twister finish with maximum spinal torque, and you must have enough energy reserves for the sustained multi-step sequence. If the twister is fully locked, you should tap rather than force the escape and risk spinal injury.",
+        "answer_line": "Free arm, mobility, not locked",
+        "distractors": {
+          "plausible": [
+            "Just needs one free arm",
+            "Any hip movement enough"
+          ],
+          "trap": [
+            "Force it if twister locked"
+          ]
+        }
       },
       {
         "question": "Why must hip rotation lead shoulder movement during the turn-in rather than the reverse?",
@@ -259,23 +279,73 @@
       },
       {
         "question": "You have successfully turned to face your opponent but your near leg is still entangled - what is your immediate priority?",
-        "answer": "Maintain your underhook and frames to hold the facing position while working on incremental leg extraction using small circular hip movements and knee extension. Do not attempt a single explosive leg pull, as this often results in the opponent re-hooking deeper. Use the improved hip angle from the turn to create small spaces in the entanglement, systematically working the hook loose while preserving your upper body position. The leg will come free through persistence, not force."
+        "answer": "Maintain your underhook and frames to hold the facing position while working on incremental leg extraction using small circular hip movements and knee extension. Do not attempt a single explosive leg pull, as this often results in the opponent re-hooking deeper. Use the improved hip angle from the turn to create small spaces in the entanglement, systematically working the hook loose while preserving your upper body position. The leg will come free through persistence, not force.",
+        "answer_line": "Hold frames, extract leg gradually",
+        "distractors": {
+          "plausible": [
+            "Free the leg before facing them",
+            "Abandon underhook to free leg"
+          ],
+          "trap": [
+            "Explosively rip leg out at once"
+          ]
+        }
       },
       {
         "question": "What is the critical frame placement that prevents the opponent from re-flattening you during the rotation?",
-        "answer": "The primary frame goes against the opponent's near shoulder, blocking their ability to drive their chest into yours and collapse you back flat. The secondary frame controls the hip or ribcage to manage distance. Both frames must use bent elbows connected to your own body for structural integrity. The shoulder frame is the more critical of the two because re-flattening begins with the opponent driving shoulder pressure, so blocking this vector preserves your facing position."
+        "answer": "The primary frame goes against the opponent's near shoulder, blocking their ability to drive their chest into yours and collapse you back flat. The secondary frame controls the hip or ribcage to manage distance. Both frames must use bent elbows connected to your own body for structural integrity. The shoulder frame is the more critical of the two because re-flattening begins with the opponent driving shoulder pressure, so blocking this vector preserves your facing position.",
+        "answer_line": "Near-shoulder frame blocks flatten",
+        "distractors": {
+          "plausible": [
+            "Hip frame matters most",
+            "Both frames equally weighted"
+          ],
+          "trap": [
+            "Push their head, not shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping over to mount as you create space during the turn-in - how do you counter this advancement?",
-        "answer": "Immediately abandon completing the turn-in and prioritize inserting your knee across the opponent's midsection as a barrier. The knee shield is the critical tool for preventing mount advancement. If you can get your shin across their body before their leg clears, you block the mount transition and establish a knee shield half guard position. If they are already committed to the step-over, use your frames to push their hips back and create space for the knee insertion."
+        "answer": "Immediately abandon completing the turn-in and prioritize inserting your knee across the opponent's midsection as a barrier. The knee shield is the critical tool for preventing mount advancement. If you can get your shin across their body before their leg clears, you block the mount transition and establish a knee shield half guard position. If they are already committed to the step-over, use your frames to push their hips back and create space for the knee insertion.",
+        "answer_line": "Insert knee shield immediately",
+        "distractors": {
+          "plausible": [
+            "Finish turn-in before reacting",
+            "Push hips back, skip knee"
+          ],
+          "trap": [
+            "Try to re-flatten opponent"
+          ]
+        }
       },
       {
         "question": "What grip or underhook should you establish during the turning motion and why is it essential?",
-        "answer": "The near-side underhook is the primary grip priority during the turn. As your body rotates inward, swim your near arm underneath the opponent's arm to establish an underhook that serves three critical functions: it anchors your new facing position preventing re-flattening, it creates a structural control point that limits the opponent's ability to drive forward, and it establishes the foundation for offensive half guard play once the escape is completed. Without the underhook, the opponent can easily collapse you back flat."
+        "answer": "The near-side underhook is the primary grip priority during the turn. As your body rotates inward, swim your near arm underneath the opponent's arm to establish an underhook that serves three critical functions: it anchors your new facing position preventing re-flattening, it creates a structural control point that limits the opponent's ability to drive forward, and it establishes the foundation for offensive half guard play once the escape is completed. Without the underhook, the opponent can easily collapse you back flat.",
+        "answer_line": "Near-side underhook anchors you",
+        "distractors": {
+          "plausible": [
+            "Far-side underhook instead",
+            "Overhook beats underhook here"
+          ],
+          "trap": [
+            "Grip their belt for control"
+          ]
+        }
       },
       {
         "question": "Your first turn-in attempt is blocked and you are pushed back flat - what is your recovery sequence?",
-        "answer": "First, protect your spine by re-establishing hand positioning that blocks rotational torque. Second, assess why the attempt failed and whether the opponent has tightened their control. Third, rebuild your frames using the compact forearm wedge position. Fourth, consider whether the turn-in remains viable or whether switching to an alternative escape direction such as the rolling escape or frame escape would exploit the opponent's current positioning. Alternate between escape directions to prevent the opponent from anticipating your next attempt."
+        "answer": "First, protect your spine by re-establishing hand positioning that blocks rotational torque. Second, assess why the attempt failed and whether the opponent has tightened their control. Third, rebuild your frames using the compact forearm wedge position. Fourth, consider whether the turn-in remains viable or whether switching to an alternative escape direction such as the rolling escape or frame escape would exploit the opponent's current positioning. Alternate between escape directions to prevent the opponent from anticipating your next attempt.",
+        "answer_line": "Protect spine, rebuild frames",
+        "distractors": {
+          "plausible": [
+            "Immediately retry same attempt",
+            "Explode harder next attempt"
+          ],
+          "trap": [
+            "Relax grips to save energy"
+          ]
+        }
       }
     ],
     "safety_considerations": "The turn-in escape involves significant pressure on the neck, shoulders, and spine throughout the rotation. Never force the rotation if you feel sharp or shooting pain in the cervical spine, as the twister position inherently stresses spinal structures. If the opponent has achieved a deep twister grip with full spinal torque, tap immediately rather than attempting the escape and risking disc injury. During training, communicate clearly with your partner about resistance levels and use incremental resistance progression. Practice the turn-in movement slowly before adding resistance to develop proper hip-leading mechanics and avoid neck strain from shoulder-first rotation.",
@@ -384,19 +454,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing a turn-in escape attempt?",
-        "answer": "The earliest cue is frame creation at the shoulder or hip. Before the bottom player can rotate their hips inward, they must establish structural barriers to prevent you from collapsing them back flat during the turn. When you feel forearm pressure against your shoulder or see the bottom player positioning their arms for frames rather than defending submissions, they are likely setting up a turn-in. Addressing frames immediately prevents the entire escape sequence from developing."
+        "answer": "The earliest cue is frame creation at the shoulder or hip. Before the bottom player can rotate their hips inward, they must establish structural barriers to prevent you from collapsing them back flat during the turn. When you feel forearm pressure against your shoulder or see the bottom player positioning their arms for frames rather than defending submissions, they are likely setting up a turn-in. Addressing frames immediately prevents the entire escape sequence from developing.",
+        "answer_line": "Frame creation at shoulder/hip",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip movement",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Wait until they fully turn in"
+          ]
+        }
       },
       {
         "question": "When should you abandon defending twister side control and transition to mount instead?",
-        "answer": "Transition to mount when the bottom player has successfully completed the hip rotation and is now facing you, particularly if they have established an underhook. At this point, fighting to re-flatten them and re-establish twister mechanics wastes energy against established structural positioning. Instead, capitalize on the space they created during the rotation by stepping over before they can insert a knee shield. The mount is a superior position to twister side control, so this represents a positional upgrade."
+        "answer": "Transition to mount when the bottom player has successfully completed the hip rotation and is now facing you, particularly if they have established an underhook. At this point, fighting to re-flatten them and re-establish twister mechanics wastes energy against established structural positioning. Instead, capitalize on the space they created during the rotation by stepping over before they can insert a knee shield. The mount is a superior position to twister side control, so this represents a positional upgrade.",
+        "answer_line": "After they turn, get underhook",
+        "distractors": {
+          "plausible": [
+            "As soon as any frame appears",
+            "Only if they fully escape"
+          ],
+          "trap": [
+            "Keep forcing twister anyway"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from establishing the near-side underhook during their rotation?",
-        "answer": "Control the near arm actively by maintaining a cross-body grip on the wrist or bicep, or by driving your own underhook deep to occupy the space the bottom player needs for their underhook insertion. When you feel the near arm beginning to swim underneath, immediately drive your shoulder forward and down to close the gap. The underhook is the anchor for the bottom player's facing position, so preventing it significantly reduces the turn-in's effectiveness."
+        "answer": "Control the near arm actively by maintaining a cross-body grip on the wrist or bicep, or by driving your own underhook deep to occupy the space the bottom player needs for their underhook insertion. When you feel the near arm beginning to swim underneath, immediately drive your shoulder forward and down to close the gap. The underhook is the anchor for the bottom player's facing position, so preventing it significantly reduces the turn-in's effectiveness.",
+        "answer_line": "Control wrist, drive underhook",
+        "distractors": {
+          "plausible": [
+            "Grab their head to block them",
+            "Squeeze legs tighter only"
+          ],
+          "trap": [
+            "Let them get it, then react"
+          ]
+        }
       },
       {
         "question": "Your leg hook is being systematically loosened despite your efforts to maintain it - what is your response priority?",
-        "answer": "If the leg hook is being loosened and you cannot re-establish it through active squeezing, immediately shift your tactical focus from maintaining twister side control to advancing to mount. The moment the leg comes free is actually your best window for the step-over, because the bottom player is focused on leg extraction rather than knee shield insertion. Drive your weight forward and step over during this transitional moment to convert the escape attempt into mount advancement."
+        "answer": "If the leg hook is being loosened and you cannot re-establish it through active squeezing, immediately shift your tactical focus from maintaining twister side control to advancing to mount. The moment the leg comes free is actually your best window for the step-over, because the bottom player is focused on leg extraction rather than knee shield insertion. Drive your weight forward and step over during this transitional moment to convert the escape attempt into mount advancement.",
+        "answer_line": "Shift focus, step over to mount",
+        "distractors": {
+          "plausible": [
+            "Fight harder to re-hook leg",
+            "Retreat and reset position"
+          ],
+          "trap": [
+            "Release all control to reset"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -274,35 +274,115 @@
     "flashcards": [
       {
         "question": "What is the trigger that tells you to initiate the body lock transition rather than fighting to re-insert hooks?",
-        "answer": "The trigger is when your opponent clears at least one hook and begins shifting their weight to their feet or knees to stand. Specifically, when you feel their hips rising and their weight moving forward off your lap, and re-inserting the hook would require releasing your harness grip or fighting against their standing posture. At this point, hook re-insertion becomes low percentage and the body lock conversion preserves your positional advantage through a different control system."
+        "answer": "The trigger is when your opponent clears at least one hook and begins shifting their weight to their feet or knees to stand. Specifically, when you feel their hips rising and their weight moving forward off your lap, and re-inserting the hook would require releasing your harness grip or fighting against their standing posture. At this point, hook re-insertion becomes low percentage and the body lock conversion preserves your positional advantage through a different control system.",
+        "answer_line": "Hook clears, weight shifts to feet",
+        "distractors": {
+          "plausible": [
+            "Wait for both hooks to clear",
+            "Any hip wiggle from opponent"
+          ],
+          "trap": [
+            "Fight to reinsert the hook"
+          ]
+        }
       },
       {
         "question": "Why must the grip slide continuously rather than releasing and re-gripping at the waist?",
-        "answer": "Releasing the grip creates a momentary control gap where the opponent can insert frames, turn to face you, or create distance for escape. The continuous slide maintains unbroken control throughout the transition because your locked hands never open. Even if the grip loosens slightly during the slide, it provides more control than zero grip during a re-grip attempt. The forearm friction against their torso during the slide also provides additional control that a release-and-re-grip cannot replicate."
+        "answer": "Releasing the grip creates a momentary control gap where the opponent can insert frames, turn to face you, or create distance for escape. The continuous slide maintains unbroken control throughout the transition because your locked hands never open. Even if the grip loosens slightly during the slide, it provides more control than zero grip during a re-grip attempt. The forearm friction against their torso during the slide also provides additional control that a release-and-re-grip cannot replicate.",
+        "answer_line": "Never let go, avoid control gap",
+        "distractors": {
+          "plausible": [
+            "Release then quickly re-grip",
+            "Loosen grip to slide faster"
+          ],
+          "trap": [
+            "Let go and grab waist directly"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing but you notice their hands reaching for your wrists to fight the grip - how do you adjust?",
-        "answer": "Increase your chest pressure to pin their elbows against their ribcage, which limits their ability to reach back for your wrists. Accelerate the grip slide to reach waist level before they can get effective hand control on your wrists. If they do establish wrist control, use a sharp hip bump forward to momentarily break their grip on your wrists, then immediately complete the slide. Your chest pressure is the key tool because it restricts their arm movement range."
+        "answer": "Increase your chest pressure to pin their elbows against their ribcage, which limits their ability to reach back for your wrists. Accelerate the grip slide to reach waist level before they can get effective hand control on your wrists. If they do establish wrist control, use a sharp hip bump forward to momentarily break their grip on your wrists, then immediately complete the slide. Your chest pressure is the key tool because it restricts their arm movement range.",
+        "answer_line": "Chest pressure, accelerate slide",
+        "distractors": {
+          "plausible": [
+            "Grab their wrists first",
+            "Slow down to reset the grip"
+          ],
+          "trap": [
+            "Release grip to reset position"
+          ]
+        }
       },
       {
         "question": "What is the most critical body connection point during the grip transition phase?",
-        "answer": "The chest-to-back connection is the most critical point during the transition. While your grip is in transit from chest to waist, your locked hands temporarily provide less positional control. During this window, your chest pressing against their back is the primary mechanism preventing separation, turns, and escape. You should actually increase chest pressure during the grip slide to compensate for the reduced grip control. If chest connection breaks during the slide, the transition fails regardless of grip position."
+        "answer": "The chest-to-back connection is the most critical point during the transition. While your grip is in transit from chest to waist, your locked hands temporarily provide less positional control. During this window, your chest pressing against their back is the primary mechanism preventing separation, turns, and escape. You should actually increase chest pressure during the grip slide to compensate for the reduced grip control. If chest connection breaks during the slide, the transition fails regardless of grip position.",
+        "answer_line": "Chest-to-back connection",
+        "distractors": {
+          "plausible": [
+            "Grip strength alone",
+            "Hip-to-hip contact"
+          ],
+          "trap": [
+            "Legs and hook control"
+          ]
+        }
       },
       {
         "question": "Where exactly should the body lock grip settle on the opponent's torso and why?",
-        "answer": "The grip should lock at or just below the navel line around the opponent's waist. This position directly controls their center of mass, which is located approximately two inches below the navel. Locking too high around the chest reduces your mechanical advantage for mat returns and throws because you are pulling above their center of gravity. Locking too low on the hips allows them to use hip rotation to escape. The waist lock at navel level gives maximum control for both lifting and driving techniques."
+        "answer": "The grip should lock at or just below the navel line around the opponent's waist. This position directly controls their center of mass, which is located approximately two inches below the navel. Locking too high around the chest reduces your mechanical advantage for mat returns and throws because you are pulling above their center of gravity. Locking too low on the hips allows them to use hip rotation to escape. The waist lock at navel level gives maximum control for both lifting and driving techniques.",
+        "answer_line": "Waist lock at navel line",
+        "distractors": {
+          "plausible": [
+            "High lock at the chest",
+            "Mid-back, above the hips"
+          ],
+          "trap": [
+            "Low lock on the hips"
+          ]
+        }
       },
       {
         "question": "Why must you post your feet before beginning the grip slide and what happens if you skip this step?",
-        "answer": "Posting your feet creates the base needed to follow your opponent's upward movement as they stand. Without foot base, you cannot generate the upward drive needed to match their elevation change, resulting in your body being dragged forward and downward while they stand above you. This creates separation between your chest and their back, and your grip slides off their body entirely because gravity pulls you in the opposite direction of their movement. Feet must be planted and ready to drive before the grip begins moving."
+        "answer": "Posting your feet creates the base needed to follow your opponent's upward movement as they stand. Without foot base, you cannot generate the upward drive needed to match their elevation change, resulting in your body being dragged forward and downward while they stand above you. This creates separation between your chest and their back, and your grip slides off their body entirely because gravity pulls you in the opposite direction of their movement. Feet must be planted and ready to drive before the grip begins moving.",
+        "answer_line": "Post feet first, drive upward",
+        "distractors": {
+          "plausible": [
+            "Slide grip before posting feet",
+            "Keep knees on mat for base"
+          ],
+          "trap": [
+            "Let opponent pull you up"
+          ]
+        }
       },
       {
         "question": "Your opponent stops mid-stand and drops back to seated position when they feel you following - what is your response?",
-        "answer": "This is actually a favorable outcome because the opponent has abandoned their escape attempt. Immediately re-insert your hooks since their defensive posture is now compromised from the failed standing attempt. Tighten your harness grip back to the upper chest position and re-establish standard back control. Their failed escape attempt often creates momentary disorientation and loosened defensive hand fighting, opening a window for submission attacks like the rear naked choke that were not available before."
+        "answer": "This is actually a favorable outcome because the opponent has abandoned their escape attempt. Immediately re-insert your hooks since their defensive posture is now compromised from the failed standing attempt. Tighten your harness grip back to the upper chest position and re-establish standard back control. Their failed escape attempt often creates momentary disorientation and loosened defensive hand fighting, opening a window for submission attacks like the rear naked choke that were not available before.",
+        "answer_line": "Re-insert hooks, retighten harness",
+        "distractors": {
+          "plausible": [
+            "Continue the body lock transition",
+            "Wait cautiously for next move"
+          ],
+          "trap": [
+            "Release control, reset neutral"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use for the body lock at the waist and when might you change it?",
-        "answer": "The gable grip (palm-to-palm) is the default configuration for the body lock at the waist because it provides maximum compression force and is the most difficult for the opponent to break. You might switch to a rear naked choke grip (one hand gripping the opposite bicep) if you plan to immediately transition back to ground back control, as this grip pre-positions your arms for the harness when you return to the mat. Use butterfly grip (clasped hands, thumbs on top) when you need the flexibility to adjust between multiple attack options quickly."
+        "answer": "The gable grip (palm-to-palm) is the default configuration for the body lock at the waist because it provides maximum compression force and is the most difficult for the opponent to break. You might switch to a rear naked choke grip (one hand gripping the opposite bicep) if you plan to immediately transition back to ground back control, as this grip pre-positions your arms for the harness when you return to the mat. Use butterfly grip (clasped hands, thumbs on top) when you need the flexibility to adjust between multiple attack options quickly.",
+        "answer_line": "Gable grip, palm-to-palm",
+        "distractors": {
+          "plausible": [
+            "Butterfly grip by default",
+            "RNC grip for max compression"
+          ],
+          "trap": [
+            "One-handed grip for reach"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves standing grappling with locked grip control, which creates risk of falls and impact injuries for both practitioners. Ensure training mats are adequate for standing techniques. When practicing mat returns from the body lock, the person being returned to the mat should understand breakfalling mechanics. Never suplex or slam during training without explicit agreement. Release the body lock immediately if either practitioner loses balance in a dangerous direction. Be aware of surrounding training partners when practicing standing transitions. Controlled repetitions at reduced speed should precede any full-speed drilling.",
@@ -421,23 +501,73 @@
     "flashcards": [
       {
         "question": "When during the Transition to Body Lock is the opponent's control at its weakest and what should you do?",
-        "answer": "The opponent's control is weakest while their grip is sliding from chest level to waist level, because the grip is not optimally positioned for either choking or body lock control during transit. During this window, you should execute explosive forward hip movement to break the chest-to-back connection, or grab their wrists to intercept the grip before it locks at the waist. This window lasts only one to two seconds, making recognition and immediate action essential."
+        "answer": "The opponent's control is weakest while their grip is sliding from chest level to waist level, because the grip is not optimally positioned for either choking or body lock control during transit. During this window, you should execute explosive forward hip movement to break the chest-to-back connection, or grab their wrists to intercept the grip before it locks at the waist. This window lasts only one to two seconds, making recognition and immediate action essential.",
+        "answer_line": "During the slide - hip explode",
+        "distractors": {
+          "plausible": [
+            "Right after the lock settles",
+            "Before the slide even begins"
+          ],
+          "trap": [
+            "Wait for the lock to fully cinch"
+          ]
+        }
       },
       {
         "question": "What are the earliest recognition cues that your opponent is transitioning to a body lock rather than re-inserting hooks?",
-        "answer": "The earliest cues are: their feet planting on the mat behind you with toes curled under instead of attempting to thread hooks inside your thighs, their chest pressure increasing as they load weight for the standing transition, and their forearms beginning to slide downward along your ribcage. The absence of hook re-insertion attempts despite available space is the clearest signal that they have committed to the body lock path rather than maintaining ground back control."
+        "answer": "The earliest cues are: their feet planting on the mat behind you with toes curled under instead of attempting to thread hooks inside your thighs, their chest pressure increasing as they load weight for the standing transition, and their forearms beginning to slide downward along your ribcage. The absence of hook re-insertion attempts despite available space is the clearest signal that they have committed to the body lock path rather than maintaining ground back control.",
+        "answer_line": "Feet plant, forearms slide down",
+        "distractors": {
+          "plausible": [
+            "Opponent attempts hook insertion",
+            "Sudden burst of hip movement"
+          ],
+          "trap": [
+            "Wait for a hook re-entry attempt"
+          ]
+        }
       },
       {
         "question": "Why is sitting to guard sometimes the correct defensive choice when standing escape fails?",
-        "answer": "A controlled sit to guard allows you to choose your landing position and immediately close guard around the opponent, establishing defensive frames on your own terms. This is significantly better than being thrown or mat-returned by the opponent, where they control the landing angle, maintain grip momentum, and arrive in a dominant position with you already flattened. The controlled guard pull concedes position but preserves your structural integrity and defensive options. Make this choice within two to three seconds of the body lock being fully established if standing grip breaks are failing."
+        "answer": "A controlled sit to guard allows you to choose your landing position and immediately close guard around the opponent, establishing defensive frames on your own terms. This is significantly better than being thrown or mat-returned by the opponent, where they control the landing angle, maintain grip momentum, and arrive in a dominant position with you already flattened. The controlled guard pull concedes position but preserves your structural integrity and defensive options. Make this choice within two to three seconds of the body lock being fully established if standing grip breaks are failing.",
+        "answer_line": "Choose your landing, pull guard",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the standing grip",
+            "Turtle up to protect your back"
+          ],
+          "trap": [
+            "Let them throw you to the mat"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent's hip pressure from breaking your posture once the body lock is established at your waist?",
-        "answer": "Immediately drop into a wide athletic stance with knees bent deeply and feet wider than shoulder width. Lower your center of gravity by bending at the knees rather than the waist to maintain upright spine alignment. Drive your hips backward into the opponent to counteract their forward pressure. Get at least one hand inside the lock to create a wedge that prevents them from tightening further. This base maintenance buys you time to execute grip breaks, but must be established within the first second of the body lock settling."
+        "answer": "Immediately drop into a wide athletic stance with knees bent deeply and feet wider than shoulder width. Lower your center of gravity by bending at the knees rather than the waist to maintain upright spine alignment. Drive your hips backward into the opponent to counteract their forward pressure. Get at least one hand inside the lock to create a wedge that prevents them from tightening further. This base maintenance buys you time to execute grip breaks, but must be established within the first second of the body lock settling.",
+        "answer_line": "Wide stance, hips back, hand in",
+        "distractors": {
+          "plausible": [
+            "Stand tall to keep your balance",
+            "Push your hips forward into them"
+          ],
+          "trap": [
+            "Straighten legs and lean back"
+          ]
+        }
       },
       {
         "question": "What is the mechanical principle behind attacking the grip during the slide rather than after it locks at the waist?",
-        "answer": "During the slide, the opponent's forearms are moving along your torso with reduced friction and their hands are maintaining a lock that is under dynamic stress from the movement. This makes their grip structurally weaker than when it is stationary and cinched at the waist. Once the grip locks at the waist, the opponent can squeeze their elbows together, engage their core, and add hip pressure to reinforce the grip. Breaking a moving grip requires significantly less force than breaking a stationary, reinforced one, making the transition window the highest-percentage moment for defensive grip fighting."
+        "answer": "During the slide, the opponent's forearms are moving along your torso with reduced friction and their hands are maintaining a lock that is under dynamic stress from the movement. This makes their grip structurally weaker than when it is stationary and cinched at the waist. Once the grip locks at the waist, the opponent can squeeze their elbows together, engage their core, and add hip pressure to reinforce the grip. Breaking a moving grip requires significantly less force than breaking a stationary, reinforced one, making the transition window the highest-percentage moment for defensive grip fighting.",
+        "answer_line": "Moving grip is weaker than locked",
+        "distractors": {
+          "plausible": [
+            "Locked grip is easier to break",
+            "Attack only after they settle"
+          ],
+          "trap": [
+            "Wait for the lock, then attack"
+          ]
+        }
       }
     ],
     "training_progressions": [

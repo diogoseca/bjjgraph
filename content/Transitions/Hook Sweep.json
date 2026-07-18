@@ -232,43 +232,143 @@
     "flashcards": [
       {
         "question": "Why is creating a 45-degree angle essential before executing the hook sweep?",
-        "answer": "Creating a 45-degree angle removes one of the opponent's base points on the sweeping side, making them vulnerable to off-balancing in that direction. The angle allows your lifting hook maximum mechanical advantage by pushing perpendicular to their remaining base rather than directly into their strongest resistance line. It also positions your body to follow through naturally into top position as the sweep completes. Without this angle, the opponent can simply post to the sweeping side or resist the upward force through their symmetrical base, making the sweep ineffective regardless of the force applied."
+        "answer": "Creating a 45-degree angle removes one of the opponent's base points on the sweeping side, making them vulnerable to off-balancing in that direction. The angle allows your lifting hook maximum mechanical advantage by pushing perpendicular to their remaining base rather than directly into their strongest resistance line. It also positions your body to follow through naturally into top position as the sweep completes. Without this angle, the opponent can simply post to the sweeping side or resist the upward force through their symmetrical base, making the sweep ineffective regardless of the force applied.",
+        "answer_line": "Removes base on sweep side",
+        "distractors": {
+          "plausible": [
+            "Just adds more lifting power",
+            "Squares hips for stability"
+          ],
+          "trap": [
+            "Face them square before lifting"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the hook sweep lift?",
-        "answer": "The optimal timing window occurs when the opponent's weight shifts forward, either because they are driving pressure into you, reaching for grips, or reacting to your pull. The pull from your grips must precede the lift slightly, loading their weight over their forward knee and compromising their base before the hook engages. Lifting too early, before the off-balance is established, allows the opponent to resist with their full base. The best practitioners feel the opponent's weight commit forward and use that momentum to amplify the sweep rather than fighting against their base."
+        "answer": "The optimal timing window occurs when the opponent's weight shifts forward, either because they are driving pressure into you, reaching for grips, or reacting to your pull. The pull from your grips must precede the lift slightly, loading their weight over their forward knee and compromising their base before the hook engages. Lifting too early, before the off-balance is established, allows the opponent to resist with their full base. The best practitioners feel the opponent's weight commit forward and use that momentum to amplify the sweep rather than fighting against their base.",
+        "answer_line": "Lift as weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Lift as soon as hook is set",
+            "Pull and lift at same instant"
+          ],
+          "trap": [
+            "Lift once they sit back"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their right hand to the mat as you attempt a hook sweep to your left. What are your best options?",
-        "answer": "When the opponent posts to stop the sweep, three high-percentage responses are available. First, switch to sweeping the opposite direction because their posted hand has removed base from the right side. Second, attack the posted arm with a kimura grip since it is extended and weight-bearing, making it vulnerable to shoulder lock isolation. Third, use the committed post as an arm drag entry point to take the back, since the opponent cannot retract the arm without being swept. The key principle is recognizing the post as an opportunity rather than a complete defensive success."
+        "answer": "When the opponent posts to stop the sweep, three high-percentage responses are available. First, switch to sweeping the opposite direction because their posted hand has removed base from the right side. Second, attack the posted arm with a kimura grip since it is extended and weight-bearing, making it vulnerable to shoulder lock isolation. Third, use the committed post as an arm drag entry point to take the back, since the opponent cannot retract the arm without being swept. The key principle is recognizing the post as an opportunity rather than a complete defensive success.",
+        "answer_line": "Exploit the post as opening",
+        "distractors": {
+          "plausible": [
+            "Power through original sweep",
+            "Bail out and re-grip"
+          ],
+          "trap": [
+            "Try to strip the post hand"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control for executing the hook sweep in the gi?",
-        "answer": "The strongest gi configuration combines a cross-collar grip on the sweeping side with a sleeve or tricep grip on the opposite side. The collar grip provides a powerful pull across the opponent's centerline that breaks their posture and loads weight onto the sweeping-side hook. The sleeve grip prevents them from posting the far hand. An alternative high-percentage configuration uses an overhook on the sweeping side combined with wrist control, which provides shoulder-level control and creates a tighter connection for the sweep. The overhook variant is particularly effective when the opponent has strong grip-fighting defense against collar grips."
+        "answer": "The strongest gi configuration combines a cross-collar grip on the sweeping side with a sleeve or tricep grip on the opposite side. The collar grip provides a powerful pull across the opponent's centerline that breaks their posture and loads weight onto the sweeping-side hook. The sleeve grip prevents them from posting the far hand. An alternative high-percentage configuration uses an overhook on the sweeping side combined with wrist control, which provides shoulder-level control and creates a tighter connection for the sweep. The overhook variant is particularly effective when the opponent has strong grip-fighting defense against collar grips.",
+        "answer_line": "Cross collar plus sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Double sleeve both arms",
+            "Underhook plus collar grip"
+          ],
+          "trap": [
+            "Grab both pant cuffs only"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force that the sweeping hook should generate?",
-        "answer": "The sweeping hook should generate force upward and diagonally across your body, not straight up toward the ceiling. The diagonal trajectory aligns with the 45-degree angle created during setup and displaces the opponent's weight in the direction where their base has been compromised. A purely vertical lift would require significantly more force and would push into the opponent's strongest resistance. The diagonal force vector, combined with the downward and lateral pull from the grips, creates a rotational torque that topples the opponent over the axis of their remaining base point."
+        "answer": "The sweeping hook should generate force upward and diagonally across your body, not straight up toward the ceiling. The diagonal trajectory aligns with the 45-degree angle created during setup and displaces the opponent's weight in the direction where their base has been compromised. A purely vertical lift would require significantly more force and would push into the opponent's strongest resistance. The diagonal force vector, combined with the downward and lateral pull from the grips, creates a rotational torque that topples the opponent over the axis of their remaining base point.",
+        "answer_line": "Diagonal, not straight up",
+        "distractors": {
+          "plausible": [
+            "Straight up for max power",
+            "Pull straight back only"
+          ],
+          "trap": [
+            "Push straight into their base"
+          ]
+        }
       },
       {
         "question": "Why does deep hook placement near the hip crease produce more sweeping power than a shallow hook near the knee?",
-        "answer": "Deep hook placement near the hip crease positions your lifting force close to the opponent's center of gravity, allowing you to control and displace their mass efficiently. A shallow hook near the knee creates a much longer moment arm between the force application point and the opponent's center of mass, meaning you must generate significantly more force to achieve the same rotational effect. Additionally, deep hooks are mechanically more secure because the thigh narrows toward the knee, making shallow hooks prone to slipping off during explosive movements. Deep placement also traps the opponent's hip mobility, preventing them from sprawling backward to neutralize the sweep."
+        "answer": "Deep hook placement near the hip crease positions your lifting force close to the opponent's center of gravity, allowing you to control and displace their mass efficiently. A shallow hook near the knee creates a much longer moment arm between the force application point and the opponent's center of mass, meaning you must generate significantly more force to achieve the same rotational effect. Additionally, deep hooks are mechanically more secure because the thigh narrows toward the knee, making shallow hooks prone to slipping off during explosive movements. Deep placement also traps the opponent's hip mobility, preventing them from sprawling backward to neutralize the sweep.",
+        "answer_line": "Deep hook closer to their hips",
+        "distractors": {
+          "plausible": [
+            "Shallow hook, more knee snap",
+            "Hook wherever it fits fast"
+          ],
+          "trap": [
+            "Hook loosely at the ankle"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back as you set up the hook sweep, taking their weight away from your hooks. How do you adapt?",
-        "answer": "When the opponent sprawls back, their hip retreat actually creates an ideal entry for transitioning to X-guard or single leg X-guard by following their retreating legs. Maintain your grip connection and use their backward momentum to scoot underneath, threading your sweeping hook to the far side of their leg into X-guard position. Alternatively, if their sprawl is less dramatic, you can enter deep half guard by ducking under their near arm and threading underneath their body. The key is not fighting the sprawl but flowing with it into positions that capitalize on their extended base and rearward weight distribution."
+        "answer": "When the opponent sprawls back, their hip retreat actually creates an ideal entry for transitioning to X-guard or single leg X-guard by following their retreating legs. Maintain your grip connection and use their backward momentum to scoot underneath, threading your sweeping hook to the far side of their leg into X-guard position. Alternatively, if their sprawl is less dramatic, you can enter deep half guard by ducking under their near arm and threading underneath their body. The key is not fighting the sprawl but flowing with it into positions that capitalize on their extended base and rearward weight distribution.",
+        "answer_line": "Follow into X-guard",
+        "distractors": {
+          "plausible": [
+            "Force the original hook harder",
+            "Chase their hips with grips"
+          ],
+          "trap": [
+            "Release grips and reset"
+          ]
+        }
       },
       {
         "question": "How does the hook sweep create offensive dilemmas when combined with other butterfly guard attacks?",
-        "answer": "The hook sweep creates a branching attack tree where each defensive response opens different offensive opportunities. When the opponent posts a hand to stop the sweep, the posted arm becomes vulnerable to kimura attacks and arm drags to the back. When they sprawl backward, this facilitates transitions to deep half guard, X-guard, or single leg X-guard. When they lower their head to base forward, guillotine choke entries open up. When they widen their base, elevator sweeps from the opposite side become available. This systematic approach forces the opponent to choose which threat to defend, and each choice exposes them to a different attack, creating genuine dilemmas rather than isolated technique attempts."
+        "answer": "The hook sweep creates a branching attack tree where each defensive response opens different offensive opportunities. When the opponent posts a hand to stop the sweep, the posted arm becomes vulnerable to kimura attacks and arm drags to the back. When they sprawl backward, this facilitates transitions to deep half guard, X-guard, or single leg X-guard. When they lower their head to base forward, guillotine choke entries open up. When they widen their base, elevator sweeps from the opposite side become available. This systematic approach forces the opponent to choose which threat to defend, and each choice exposes them to a different attack, creating genuine dilemmas rather than isolated technique attempts.",
+        "answer_line": "Each defense opens new attack",
+        "distractors": {
+          "plausible": [
+            "Only kimura counters exist",
+            "Just repeat the same sweep"
+          ],
+          "trap": [
+            "Abandon attack if they defend"
+          ]
+        }
       },
       {
         "question": "What are the critical entry requirements that must exist before you commit to executing the hook sweep?",
-        "answer": "Four conditions must be present before committing to the sweep. First, the sweeping-side hook must be inserted deep under the opponent's thigh with the foot flexed and actively gripping. Second, upper body grips must be established that allow you to pull the opponent forward and laterally. Third, your hips must be angled approximately 45 degrees to the sweeping side, loading your weight onto the opposite hip. Fourth, the opponent's weight must be distributed forward or centrally rather than sitting back beyond effective hook range. Attempting the sweep without all four conditions results in failed attempts that waste energy and may expose you to guard passes."
+        "answer": "Four conditions must be present before committing to the sweep. First, the sweeping-side hook must be inserted deep under the opponent's thigh with the foot flexed and actively gripping. Second, upper body grips must be established that allow you to pull the opponent forward and laterally. Third, your hips must be angled approximately 45 degrees to the sweeping side, loading your weight onto the opposite hip. Fourth, the opponent's weight must be distributed forward or centrally rather than sitting back beyond effective hook range. Attempting the sweep without all four conditions results in failed attempts that waste energy and may expose you to guard passes.",
+        "answer_line": "All four setup pieces in place",
+        "distractors": {
+          "plausible": [
+            "Deep hook alone is enough",
+            "Grips alone, skip the angle"
+          ],
+          "trap": [
+            "Force it once hook is in"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point that causes the hook sweep to stall at the apex without completing to top position?",
-        "answer": "The most common failure point is losing chest-to-chest connection at the apex of the sweep, creating a gap that allows the opponent to insert defensive frames, post, or re-establish base as they come back down. This typically happens because the sweeper releases grip tension after the initial lift succeeds, treating the lift and the follow-through as two separate actions rather than one continuous motion. The correction is to maintain aggressive grip pulling throughout the entire sweep arc, keeping the opponent's upper body controlled and close to yours, so that your forward momentum carries you directly into side control without any pause at the apex."
+        "answer": "The most common failure point is losing chest-to-chest connection at the apex of the sweep, creating a gap that allows the opponent to insert defensive frames, post, or re-establish base as they come back down. This typically happens because the sweeper releases grip tension after the initial lift succeeds, treating the lift and the follow-through as two separate actions rather than one continuous motion. The correction is to maintain aggressive grip pulling throughout the entire sweep arc, keeping the opponent's upper body controlled and close to yours, so that your forward momentum carries you directly into side control without any pause at the apex.",
+        "answer_line": "Losing chest connection at top",
+        "distractors": {
+          "plausible": [
+            "Lifting too slowly overall",
+            "Wrong hook depth at start"
+          ],
+          "trap": [
+            "Release grips once they lift"
+          ]
+        }
       }
     ],
     "safety_considerations": "The hook sweep is generally one of the safer techniques in BJJ when practiced correctly, but several important safety considerations must be observed. First, ensure controlled execution during drilling, avoiding explosive force until both partners are comfortable with the mechanics. The partner being swept should be prepared to breakfall safely, keeping their chin tucked and using proper rolling mechanics to avoid head or neck impact. Second, maintain awareness of training space boundaries, as the sweep creates lateral movement that can carry both practitioners several feet from the starting position. Third, the sweeping practitioner must control their follow-through to avoid landing heavily on their partner or driving excessive chest pressure onto a partner who has landed awkwardly. Fourth, when drilling with significant size mismatches, the larger practitioner should moderate their force to prevent injury. Partners should communicate clearly about resistance levels during drilling progression, ensuring both parties are ready for increased intensity before advancing to live resistance. Proper warm-up of hips and legs is essential, as the hook sweep requires significant hip flexibility and leg strength.",
@@ -392,19 +492,59 @@
     "flashcards": [
       {
         "question": "What are the three mechanical elements of the hook sweep that you must disrupt as a defender?",
-        "answer": "The three elements are the 45-degree angle that removes your base on the sweeping side, the deep hook under your thigh that generates lifting force, and the upper body grips that pull you forward and laterally to break your balance. Neutralizing any one of these three elements prevents the attacker from coordinating the sweep effectively. The most efficient defense targets whichever element is weakest in the current moment, whether that means re-squaring your hips to deny the angle, keeping hooks shallow through hip positioning, or stripping grips to prevent the pull."
+        "answer": "The three elements are the 45-degree angle that removes your base on the sweeping side, the deep hook under your thigh that generates lifting force, and the upper body grips that pull you forward and laterally to break your balance. Neutralizing any one of these three elements prevents the attacker from coordinating the sweep effectively. The most efficient defense targets whichever element is weakest in the current moment, whether that means re-squaring your hips to deny the angle, keeping hooks shallow through hip positioning, or stripping grips to prevent the pull.",
+        "answer_line": "Angle, hook depth, and grips",
+        "distractors": {
+          "plausible": [
+            "Only fight the hook itself",
+            "Just posture up and wait"
+          ],
+          "trap": [
+            "Post your hand immediately"
+          ]
+        }
       },
       {
         "question": "Why is it more effective to address butterfly hooks through hip positioning rather than trying to remove them with your hands?",
-        "answer": "Addressing hooks through hip positioning preserves your posture and keeps your hands available for posting and grip fighting, whereas reaching down to grab feet breaks your posture, removes your defensive posting ability, and rarely succeeds against properly flexed hooks that grip the inner thigh securely. By pushing your knees together you compress the space available for hooks, and by sprawling your hips back you move beyond the effective range of the hooks entirely. Both approaches solve the hook problem without compromising your defensive structure or creating submission vulnerabilities."
+        "answer": "Addressing hooks through hip positioning preserves your posture and keeps your hands available for posting and grip fighting, whereas reaching down to grab feet breaks your posture, removes your defensive posting ability, and rarely succeeds against properly flexed hooks that grip the inner thigh securely. By pushing your knees together you compress the space available for hooks, and by sprawling your hips back you move beyond the effective range of the hooks entirely. Both approaches solve the hook problem without compromising your defensive structure or creating submission vulnerabilities.",
+        "answer_line": "Squeeze knees, sprawl hips",
+        "distractors": {
+          "plausible": [
+            "Grab and peel off the foot",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Reach down and rip the hook"
+          ]
+        }
       },
       {
         "question": "At what point during the hook sweep sequence does defensive intervention become significantly less effective?",
-        "answer": "Defensive intervention becomes dramatically less effective once the attacker has achieved all three setup elements simultaneously: the 45-degree angle, deep hook placement, and strong upper body grips with forward pull. Once the coordinated lift-and-pull begins from this fully loaded position, the defender's realistic options narrow to posting, which itself carries submission risk. The critical window for effective defense is during the setup phase when the attacker is establishing angle, deepening hooks, and fighting for grips. Intervening during any of these setup actions is far more energy-efficient and has a much higher success rate than attempting to resist a fully committed sweep."
+        "answer": "Defensive intervention becomes dramatically less effective once the attacker has achieved all three setup elements simultaneously: the 45-degree angle, deep hook placement, and strong upper body grips with forward pull. Once the coordinated lift-and-pull begins from this fully loaded position, the defender's realistic options narrow to posting, which itself carries submission risk. The critical window for effective defense is during the setup phase when the attacker is establishing angle, deepening hooks, and fighting for grips. Intervening during any of these setup actions is far more energy-efficient and has a much higher success rate than attempting to resist a fully committed sweep.",
+        "answer_line": "Defend early, during setup",
+        "distractors": {
+          "plausible": [
+            "Defend once lift begins",
+            "Wait until apex to react"
+          ],
+          "trap": [
+            "Post hand after lift starts"
+          ]
+        }
       },
       {
         "question": "How can you turn a successful hook sweep defense into a guard passing opportunity?",
-        "answer": "When the attacker commits to the hook sweep, they create structural vulnerabilities in their guard. Their lateral hip shift to create the sweeping angle opens a passing lane on the opposite side where their guard retention is weakest. After posting to stop the sweep, you can immediately redirect your passing pressure to the side the opponent angled away from, exploiting their compromised guard structure. Additionally, if you sprawl to neutralize hooks, the distance created can be used to initiate standing passes or toreando passes before the opponent can re-establish their butterfly guard structure. The key is transitioning from defense to offense without a pause."
+        "answer": "When the attacker commits to the hook sweep, they create structural vulnerabilities in their guard. Their lateral hip shift to create the sweeping angle opens a passing lane on the opposite side where their guard retention is weakest. After posting to stop the sweep, you can immediately redirect your passing pressure to the side the opponent angled away from, exploiting their compromised guard structure. Additionally, if you sprawl to neutralize hooks, the distance created can be used to initiate standing passes or toreando passes before the opponent can re-establish their butterfly guard structure. The key is transitioning from defense to offense without a pause.",
+        "answer_line": "Pass toward their angled-away side",
+        "distractors": {
+          "plausible": [
+            "Pass toward the hook side",
+            "Wait for them to reset guard"
+          ],
+          "trap": [
+            "Dive for a leg lock instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

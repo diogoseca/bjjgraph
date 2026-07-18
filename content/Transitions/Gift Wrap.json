@@ -249,7 +249,17 @@
       },
       {
         "question": "What is the optimal height to maintain the trapped arm across the opponent's body?",
-        "answer": "The trapped arm should be pulled high across the opponent's chest toward their opposite shoulder. This high positioning prevents arm recovery through shoulder rotation and maintains maximum control effectiveness. If the arm drifts too low toward the hip or waist, the opponent gains mechanical advantage to extract the arm through rotational movements."
+        "answer": "The trapped arm should be pulled high across the opponent's chest toward their opposite shoulder. This high positioning prevents arm recovery through shoulder rotation and maintains maximum control effectiveness. If the arm drifts too low toward the hip or waist, the opponent gains mechanical advantage to extract the arm through rotational movements.",
+        "answer_line": "Chest-high, toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "High, toward the near shoulder",
+            "Mid-chest height is sufficient"
+          ],
+          "trap": [
+            "Let it rest near the waist"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps both arms tight to their body from mount bottom—how do you create the Gift Wrap entry?",

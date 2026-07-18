@@ -268,39 +268,129 @@
     "flashcards": [
       {
         "question": "Your opponent has tight hip-to-shoulder pressure and you cannot create any frame space - what adjustment creates the initial opening?",
-        "answer": "Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise."
+        "answer": "Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise.",
+        "answer_line": "Short bridge, insert hand mid-lift",
+        "distractors": {
+          "plausible": [
+            "Full bridge escape attempt",
+            "Push their chest before framing"
+          ],
+          "trap": [
+            "Wait for opponent to relax"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement direction when executing the Frame and Shrimp from S Mount?",
-        "answer": "Shrimp your hips away from the trapped arm side, directing movement toward the opponent's legs and torso. This direction creates maximum distance between your shoulder and their hip pressure while moving your body toward the side where you can insert a knee. Shrimping toward the trapped arm moves you deeper into the submission setup and must be avoided at all costs."
+        "answer": "Shrimp your hips away from the trapped arm side, directing movement toward the opponent's legs and torso. This direction creates maximum distance between your shoulder and their hip pressure while moving your body toward the side where you can insert a knee. Shrimping toward the trapped arm moves you deeper into the submission setup and must be avoided at all costs.",
+        "answer_line": "Shrimp away from trapped arm",
+        "distractors": {
+          "plausible": [
+            "Shrimp toward your own head",
+            "Bridge straight up instead"
+          ],
+          "trap": [
+            "Shrimp toward the trapped arm"
+          ]
+        }
       },
       {
         "question": "During the escape, your opponent momentarily releases your wrist to readjust their grip - how do you capitalize on this window?",
-        "answer": "Immediately pull your trapped arm back tight to your body and re-grip your collar with maximum commitment. Simultaneously execute the frame and shrimp with full explosiveness since the opponent has temporarily lost their primary arm control. This is your highest-percentage escape window, giving you one to two seconds of reduced resistance before they re-establish control."
+        "answer": "Immediately pull your trapped arm back tight to your body and re-grip your collar with maximum commitment. Simultaneously execute the frame and shrimp with full explosiveness since the opponent has temporarily lost their primary arm control. This is your highest-percentage escape window, giving you one to two seconds of reduced resistance before they re-establish control.",
+        "answer_line": "Re-grip collar, explode now",
+        "distractors": {
+          "plausible": [
+            "Wait for a wider gap first",
+            "Try to stand up right away"
+          ],
+          "trap": [
+            "Yank arm straight out"
+          ]
+        }
       },
       {
         "question": "What grip should your trapped hand maintain throughout the escape sequence and why?",
-        "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or tighter. This collar grip uses the gi fabric as a structural anchor, requiring the opponent to overcome both your grip strength and the material's resistance to extend the arm into armbar position. The bent-arm configuration is exponentially harder to attack than any straight-arm position."
+        "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or tighter. This collar grip uses the gi fabric as a structural anchor, requiring the opponent to overcome both your grip strength and the material's resistance to extend the arm into armbar position. The bent-arm configuration is exponentially harder to attack than any straight-arm position.",
+        "answer_line": "Grip own collar, elbow bent",
+        "distractors": {
+          "plausible": [
+            "Grip their sleeve instead",
+            "Push away with straight arm"
+          ],
+          "trap": [
+            "Let arm extend and post"
+          ]
+        }
       },
       {
         "question": "Your frame creates space but the opponent immediately follows your hip movement and closes the distance - what chain technique solves this problem?",
-        "answer": "Execute a second and third immediate shrimp in the same direction without resetting your frame position. Rapid chained shrimps create cumulative distance faster than the opponent can follow from their perpendicular position, because their narrow S Mount base makes lateral tracking mechanically difficult. After two to three rapid shrimps, sufficient space should open for knee insertion."
+        "answer": "Execute a second and third immediate shrimp in the same direction without resetting your frame position. Rapid chained shrimps create cumulative distance faster than the opponent can follow from their perpendicular position, because their narrow S Mount base makes lateral tracking mechanically difficult. After two to three rapid shrimps, sufficient space should open for knee insertion.",
+        "answer_line": "Chain rapid shrimps, same way",
+        "distractors": {
+          "plausible": [
+            "Reset frame, shrimp once more",
+            "Switch shrimp direction"
+          ],
+          "trap": [
+            "Stop and re-grip collar"
+          ]
+        }
       },
       {
         "question": "Where exactly should your free hand frame against the opponent, and why is this specific placement critical?",
-        "answer": "Frame directly on the opponent's near hip bone at the iliac crest, not their thigh, chest, or upper body. The hip bone is the structural center of their base and the origin point of their weight transfer. Framing here mechanically prevents them from shifting their hips to follow your shrimp. Framing on their upper body allows independent hip adjustment, defeating the purpose entirely."
+        "answer": "Frame directly on the opponent's near hip bone at the iliac crest, not their thigh, chest, or upper body. The hip bone is the structural center of their base and the origin point of their weight transfer. Framing here mechanically prevents them from shifting their hips to follow your shrimp. Framing on their upper body allows independent hip adjustment, defeating the purpose entirely.",
+        "answer_line": "Frame on the near hip bone",
+        "distractors": {
+          "plausible": [
+            "Frame on their chest",
+            "Frame on their near thigh"
+          ],
+          "trap": [
+            "Push against their far shoulder"
+          ]
+        }
       },
       {
         "question": "What four conditions must exist before you should attempt the Frame and Shrimp escape?",
-        "answer": "First, your trapped arm must be secured with collar grip and bent elbow providing armbar defense. Second, your free hand must be positioned to reach the opponent's hip for frame establishment. Third, your feet must be posted flat on the mat for shrimping power generation through leg drive. Fourth, you must identify a timing window where the opponent is adjusting position or initiating an attack. Attempting without all four conditions significantly reduces escape probability."
+        "answer": "First, your trapped arm must be secured with collar grip and bent elbow providing armbar defense. Second, your free hand must be positioned to reach the opponent's hip for frame establishment. Third, your feet must be posted flat on the mat for shrimping power generation through leg drive. Fourth, you must identify a timing window where the opponent is adjusting position or initiating an attack. Attempting without all four conditions significantly reduces escape probability.",
+        "answer_line": "Grip, frame, posted feet, timing",
+        "distractors": {
+          "plausible": [
+            "Just wait for opponent to tire",
+            "Any moment opponent breathes"
+          ],
+          "trap": [
+            "Explode without checking grip"
+          ]
+        }
       },
       {
         "question": "If your knee insertion is blocked and you cannot establish half guard after multiple shrimps, what is your immediate backup plan?",
-        "answer": "If repeated shrimps and knee insertion attempts fail, transition to a bridge-based escape while the opponent adjusts to counter your shrimping direction. The opponent's focus on preventing lateral escape often compromises their defense against vertical bridges. Alternatively, if significant lateral distance exists but knee insertion remains blocked, continue shrimping to rotate toward turtle position, removing the armbar threat entirely."
+        "answer": "If repeated shrimps and knee insertion attempts fail, transition to a bridge-based escape while the opponent adjusts to counter your shrimping direction. The opponent's focus on preventing lateral escape often compromises their defense against vertical bridges. Alternatively, if significant lateral distance exists but knee insertion remains blocked, continue shrimping to rotate toward turtle position, removing the armbar threat entirely.",
+        "answer_line": "Bridge escape or roll to turtle",
+        "distractors": {
+          "plausible": [
+            "Force the knee in harder",
+            "Sit up and reach for grip"
+          ],
+          "trap": [
+            "Turn belly-down, ignore hooks"
+          ]
+        }
       },
       {
         "question": "How does the Frame and Shrimp exploit the specific structural weakness of S Mount compared to standard mount?",
-        "answer": "S Mount's perpendicular body angle creates a narrower base for the top person compared to standard mount's chest-to-chest square positioning. This narrow base makes it mechanically difficult for the top person to track lateral hip movement without compromising their own stability. The Frame and Shrimp exploits this by creating lateral distance through shrimping, which is more effective against the narrow perpendicular base than vertical bridges."
+        "answer": "S Mount's perpendicular body angle creates a narrower base for the top person compared to standard mount's chest-to-chest square positioning. This narrow base makes it mechanically difficult for the top person to track lateral hip movement without compromising their own stability. The Frame and Shrimp exploits this by creating lateral distance through shrimping, which is more effective against the narrow perpendicular base than vertical bridges.",
+        "answer_line": "Narrow base can't track sideways",
+        "distractors": {
+          "plausible": [
+            "Their base is weak to bridging",
+            "Same weakness as full mount"
+          ],
+          "trap": [
+            "Bridge straight up repeatedly"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Frame and Shrimp from S Mount requires constant attention to arm protection throughout the escape. Never release the collar grip on your trapped arm to attempt escape movement, as an exposed extended arm in S Mount leads directly to armbar with potential for serious elbow hyperextension injury. If the opponent secures full arm extension with their hips locked tight against your shoulder, tap immediately rather than attempting to power out of the completed submission. During training, communicate with partners about resistance levels and tap early when practicing escape timing to avoid cumulative joint stress. Be particularly cautious with newer training partners who may apply sudden jerking pressure during armbar attempts.",
@@ -418,19 +508,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a Frame and Shrimp escape?",
-        "answer": "The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins."
+        "answer": "The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins.",
+        "answer_line": "Free hand reaching for your hip",
+        "distractors": {
+          "plausible": [
+            "They grip your collar tighter",
+            "They start pushing on your chest"
+          ],
+          "trap": [
+            "Wait until they start shrimping"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel your opponent begin to shrimp laterally?",
-        "answer": "Shift your weight forward and down through your hip into their shoulder while simultaneously scooting your hips in the same lateral direction they are escaping. Your weight should drive through the point where your hip contacts their shoulder, acting like a tracking point. Avoid sitting up or lifting your hips, as this creates the space they need to establish the frame and accelerate their escape."
+        "answer": "Shift your weight forward and down through your hip into their shoulder while simultaneously scooting your hips in the same lateral direction they are escaping. Your weight should drive through the point where your hip contacts their shoulder, acting like a tracking point. Avoid sitting up or lifting your hips, as this creates the space they need to establish the frame and accelerate their escape.",
+        "answer_line": "Drive weight down, track hips",
+        "distractors": {
+          "plausible": [
+            "Sit up to see the shrimp",
+            "Post hands and lean back"
+          ],
+          "trap": [
+            "Lift hips to reset base"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to abandon S Mount and transition to another position during an escape attempt?",
-        "answer": "Transition to standard mount if the opponent creates enough space that your perpendicular angle is significantly compromised but you still maintain top position. It is better to secure mount and re-attempt S Mount later than to fight from a deteriorating S Mount where hip-to-shoulder connection is lost. Never stay in a compromised S Mount because the opponent may complete their escape to half guard while you struggle to maintain an untenable position."
+        "answer": "Transition to standard mount if the opponent creates enough space that your perpendicular angle is significantly compromised but you still maintain top position. It is better to secure mount and re-attempt S Mount later than to fight from a deteriorating S Mount where hip-to-shoulder connection is lost. Never stay in a compromised S Mount because the opponent may complete their escape to half guard while you struggle to maintain an untenable position.",
+        "answer_line": "Shift to mount if angle lost",
+        "distractors": {
+          "plausible": [
+            "Retreat all the way to guard",
+            "Switch to back control instead"
+          ],
+          "trap": [
+            "Stay locked in compromised S Mount"
+          ]
+        }
       },
       {
         "question": "What specific opening does the Frame and Shrimp escape create for your armbar attack?",
-        "answer": "When the bottom person moves their free hand to frame against your hip, they reduce their arm defense by splitting their attention and physical resources between escape mechanics and arm protection. If their collar grip loosens even slightly during this commitment, you have a brief window to attack the armbar while their defensive structure is compromised. The key is recognizing whether their collar grip genuinely weakened or if they are baiting you into an armbar attempt to create escape distance."
+        "answer": "When the bottom person moves their free hand to frame against your hip, they reduce their arm defense by splitting their attention and physical resources between escape mechanics and arm protection. If their collar grip loosens even slightly during this commitment, you have a brief window to attack the armbar while their defensive structure is compromised. The key is recognizing whether their collar grip genuinely weakened or if they are baiting you into an armbar attempt to create escape distance.",
+        "answer_line": "Loose collar grip opens armbar",
+        "distractors": {
+          "plausible": [
+            "Attack the moment they frame",
+            "Ignore grip, attack anyway"
+          ],
+          "trap": [
+            "Chase the obvious bait armbar"
+          ]
+        }
       }
     ],
     "training_progressions": [

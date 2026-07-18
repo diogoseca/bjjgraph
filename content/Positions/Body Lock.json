@@ -340,35 +340,115 @@
     "flashcards": [
       {
         "question": "What is the most critical body connection point for maintaining body lock control?",
-        "answer": "The chest-to-back connection is the most critical control point. Your chest must be pressed firmly against your opponent's back or upper torso, eliminating all space between bodies. This connection transfers your weight directly into their center of gravity and prevents them from creating frames, turning to face you, or establishing distance for escape. The locked hands become secondary insurance once proper chest connection is established."
+        "answer": "The chest-to-back connection is the most critical control point. Your chest must be pressed firmly against your opponent's back or upper torso, eliminating all space between bodies. This connection transfers your weight directly into their center of gravity and prevents them from creating frames, turning to face you, or establishing distance for escape. The locked hands become secondary insurance once proper chest connection is established.",
+        "answer_line": "Chest-to-back connection",
+        "distractors": {
+          "plausible": [
+            "Locked hand grip strength",
+            "Hip-to-hip pressure"
+          ],
+          "trap": [
+            "Lean back to create room"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posting their hands on your hips to create separation - what adjustment do you make?",
-        "answer": "Immediately increase forward hip pressure while maintaining your locked grip and chest connection. Drive your hips forward with progressive pressure to collapse their arm posts. If they successfully create distance, transition to a single leg or double leg entry before they can fully disengage. The key is not allowing them time to establish strong frames by attacking their structure before their posts become load-bearing."
+        "answer": "Immediately increase forward hip pressure while maintaining your locked grip and chest connection. Drive your hips forward with progressive pressure to collapse their arm posts. If they successfully create distance, transition to a single leg or double leg entry before they can fully disengage. The key is not allowing them time to establish strong frames by attacking their structure before their posts become load-bearing.",
+        "answer_line": "Drive forward, collapse posts",
+        "distractors": {
+          "plausible": [
+            "Squeeze grip tighter only",
+            "Pull chest in with arms"
+          ],
+          "trap": [
+            "Step back to reset"
+          ]
+        }
       },
       {
         "question": "Why must attacks be executed within 1-2 seconds of establishing the body lock?",
-        "answer": "The body lock is an inherently transitional position that cannot be sustained indefinitely. Hesitation allows opponents to establish defensive measures including hand fighting to break your grip, lowering their base to resist throws, or positioning to sit to guard. The position's value lies in the immediate offensive pressure it creates - the dilemma of multiple threats that cannot all be defended. Delaying transforms a dominant control into a stalemate where the opponent has time to neutralize your advantages."
+        "answer": "The body lock is an inherently transitional position that cannot be sustained indefinitely. Hesitation allows opponents to establish defensive measures including hand fighting to break your grip, lowering their base to resist throws, or positioning to sit to guard. The position's value lies in the immediate offensive pressure it creates - the dilemma of multiple threats that cannot all be defended. Delaying transforms a dominant control into a stalemate where the opponent has time to neutralize your advantages.",
+        "answer_line": "Position decays without attack",
+        "distractors": {
+          "plausible": [
+            "Grip strength fades over time",
+            "Referee will break clinch"
+          ],
+          "trap": [
+            "Wait for better opening"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for the body lock and when should each be used?",
-        "answer": "The three primary grip configurations are: gable grip (palm-to-palm with fingers interlocked) which provides the strongest connection for mat returns and throws; rear naked choke grip (one hand gripping the opposite bicep with that arm securing the wrist) which allows quick transition to back control attacks; and butterfly grip (hands clasped with thumbs on top) which offers a balance of strength and transition ability. Use gable grip for immediate powerful finishes, RNC grip when anticipating back control, and butterfly grip when you need flexibility to adjust."
+        "answer": "The three primary grip configurations are: gable grip (palm-to-palm with fingers interlocked) which provides the strongest connection for mat returns and throws; rear naked choke grip (one hand gripping the opposite bicep with that arm securing the wrist) which allows quick transition to back control attacks; and butterfly grip (hands clasped with thumbs on top) which offers a balance of strength and transition ability. Use gable grip for immediate powerful finishes, RNC grip when anticipating back control, and butterfly grip when you need flexibility to adjust.",
+        "answer_line": "Gable grip for max power",
+        "distractors": {
+          "plausible": [
+            "Butterfly grip for finishes",
+            "RNC grip for mat returns"
+          ],
+          "trap": [
+            "Cross grip on both wrists"
+          ]
+        }
       },
       {
         "question": "How should your head be positioned during body lock control and why?",
-        "answer": "Position your head tight to the underhook side with your temple or ear pressed against your opponent's shoulder area. This positioning serves multiple purposes: it prevents them from establishing head control or whizzer on that side, creates proper angle for executing throws, adds to the overall tightness of your body connection, and protects against them turning into you. Improper head position - too far back or forward - reduces control, makes you vulnerable to counters, and decreases throwing power."
+        "answer": "Position your head tight to the underhook side with your temple or ear pressed against your opponent's shoulder area. This positioning serves multiple purposes: it prevents them from establishing head control or whizzer on that side, creates proper angle for executing throws, adds to the overall tightness of your body connection, and protects against them turning into you. Improper head position - too far back or forward - reduces control, makes you vulnerable to counters, and decreases throwing power.",
+        "answer_line": "Head tight to underhook side",
+        "distractors": {
+          "plausible": [
+            "Head on top of their head",
+            "Head buried low on back"
+          ],
+          "trap": [
+            "Head turned away, looking out"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting down to pull guard while you have body lock established - what is your response?",
-        "answer": "Follow their descent immediately while maintaining your locked grip and chest connection. As they sit, you have two high-percentage options: follow them into closed guard top position with your body lock intact to immediately begin passing, or use their downward movement to transition to back control by driving through them as they sit and inserting hooks. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames. Keep driving forward pressure throughout their guard pull attempt."
+        "answer": "Follow their descent immediately while maintaining your locked grip and chest connection. As they sit, you have two high-percentage options: follow them into closed guard top position with your body lock intact to immediately begin passing, or use their downward movement to transition to back control by driving through them as they sit and inserting hooks. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames. Keep driving forward pressure throughout their guard pull attempt.",
+        "answer_line": "Follow down, keep grip locked",
+        "distractors": {
+          "plausible": [
+            "Release grip, sprawl back",
+            "Stand tall, wait them out"
+          ],
+          "trap": [
+            "Release grip as they sit"
+          ]
+        }
       },
       {
         "question": "What stance fundamentals must be maintained throughout body lock control?",
-        "answer": "Maintain an athletic stance with knees bent, weight distributed through the balls of your feet, and center of gravity low. This stance provides a stable base resistant to counter throws while enabling explosive movement for your own throws, mat returns, and transitions. Standing too upright with straight legs compromises your base, reduces hip driving power, and limits your ability to react to opponent's defensive movements. Your stance should allow instant level changes in any direction."
+        "answer": "Maintain an athletic stance with knees bent, weight distributed through the balls of your feet, and center of gravity low. This stance provides a stable base resistant to counter throws while enabling explosive movement for your own throws, mat returns, and transitions. Standing too upright with straight legs compromises your base, reduces hip driving power, and limits your ability to react to opponent's defensive movements. Your stance should allow instant level changes in any direction.",
+        "answer_line": "Low athletic stance, bent knees",
+        "distractors": {
+          "plausible": [
+            "Upright stance, locked knees",
+            "Wide stance, weight on heels"
+          ],
+          "trap": [
+            "Stand tall for reach advantage"
+          ]
+        }
       },
       {
         "question": "When should you break your grip during the body lock sequence?",
-        "answer": "Only break your locked grip after you have fully secured an alternative dominant position with its own control mechanisms established. Breaking the grip prematurely is a critical error that allows opponents to escape or counter-attack. The grip should be maintained throughout the entire attacking sequence - through the mat return, through the landing, and until back control hooks and seatbelt are fully secured, or until side control crossface and hip control are established. The locked hands are your primary control until replaced by position-specific controls."
+        "answer": "Only break your locked grip after you have fully secured an alternative dominant position with its own control mechanisms established. Breaking the grip prematurely is a critical error that allows opponents to escape or counter-attack. The grip should be maintained throughout the entire attacking sequence - through the mat return, through the landing, and until back control hooks and seatbelt are fully secured, or until side control crossface and hip control are established. The locked hands are your primary control until replaced by position-specific controls.",
+        "answer_line": "Only after new control secured",
+        "distractors": {
+          "plausible": [
+            "Break once back on mat",
+            "Break to switch to gable grip"
+          ],
+          "trap": [
+            "Release early to grab hooks"
+          ]
+        }
       }
     ],
     "clips": [
@@ -669,35 +749,115 @@
     "flashcards": [
       {
         "question": "What is the most effective timing for preventing the body lock from being established?",
-        "answer": "The most effective defense occurs before the grip is locked - hand fight aggressively the moment you feel your opponent attempting to connect their hands around your torso. Prevention requires significantly less energy than escape. Position one or both hands inside their arms to create a wedge that blocks their hands from meeting. Once the grip is fully locked, breaking it becomes exponentially more difficult because you must overcome the combined strength of both their arms working as a unified structure."
+        "answer": "The most effective defense occurs before the grip is locked - hand fight aggressively the moment you feel your opponent attempting to connect their hands around your torso. Prevention requires significantly less energy than escape. Position one or both hands inside their arms to create a wedge that blocks their hands from meeting. Once the grip is fully locked, breaking it becomes exponentially more difficult because you must overcome the combined strength of both their arms working as a unified structure.",
+        "answer_line": "Hand fight before grip locks",
+        "distractors": {
+          "plausible": [
+            "Wait, then break the lock",
+            "Sprawl hips back immediately"
+          ],
+          "trap": [
+            "Let hands lock, then escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked their grip and is driving forward hip pressure - how do you respond?",
-        "answer": "With forward pressure already established, prioritize base maintenance first: bend your knees deeply, widen your stance, and lower your center of gravity to resist being driven backward. If you can maintain base for 2-3 seconds while hand fighting, continue working for grip separation. If their pressure is overwhelming and you cannot maintain upright posture, sit to guard proactively with a controlled guard pull. Control your descent and immediately close your guard around their torso rather than waiting to be thrown into a worse position."
+        "answer": "With forward pressure already established, prioritize base maintenance first: bend your knees deeply, widen your stance, and lower your center of gravity to resist being driven backward. If you can maintain base for 2-3 seconds while hand fighting, continue working for grip separation. If their pressure is overwhelming and you cannot maintain upright posture, sit to guard proactively with a controlled guard pull. Control your descent and immediately close your guard around their torso rather than waiting to be thrown into a worse position.",
+        "answer_line": "Widen base, lower center first",
+        "distractors": {
+          "plausible": [
+            "Turn to face them immediately",
+            "Push their chest away hard"
+          ],
+          "trap": [
+            "Stand tall, brace with arms"
+          ]
+        }
       },
       {
         "question": "Why is turning to face your opponent a critical error when they have a locked body lock?",
-        "answer": "Turning into the lock exposes your back immediately and actually assists your opponent's back take. When you turn, you rotate your hips toward them while they maintain their grip, which means their hands end up perfectly positioned across your centerline for optimal back control. Instead, create distance first by posting hands on their hips and driving them away, or create angles by explosive lateral movement. Only attempt to turn and face after you have successfully broken or significantly loosened their grip connection."
+        "answer": "Turning into the lock exposes your back immediately and actually assists your opponent's back take. When you turn, you rotate your hips toward them while they maintain their grip, which means their hands end up perfectly positioned across your centerline for optimal back control. Instead, create distance first by posting hands on their hips and driving them away, or create angles by explosive lateral movement. Only attempt to turn and face after you have successfully broken or significantly loosened their grip connection.",
+        "answer_line": "Turning exposes back to takes",
+        "distractors": {
+          "plausible": [
+            "Turning breaks their grip fast",
+            "Turning lets you attack legs"
+          ],
+          "trap": [
+            "Turn in and shoot a takedown"
+          ]
+        }
       },
       {
         "question": "What base fundamentals help you resist throws and lifts from body lock bottom?",
-        "answer": "Maintain a wide stance with feet approximately shoulder-width apart or wider, with knees bent at least 30-45 degrees to lower your center of gravity. Keep your weight distributed through the balls of your feet to enable quick adjustments. Drive your hips toward the ground rather than allowing them to be lifted. If you feel a lift attempt, immediately hook one of their legs with your foot to prevent them from completing the throw. An upright stance with locked knees makes you easy to unbalance and lift."
+        "answer": "Maintain a wide stance with feet approximately shoulder-width apart or wider, with knees bent at least 30-45 degrees to lower your center of gravity. Keep your weight distributed through the balls of your feet to enable quick adjustments. Drive your hips toward the ground rather than allowing them to be lifted. If you feel a lift attempt, immediately hook one of their legs with your foot to prevent them from completing the throw. An upright stance with locked knees makes you easy to unbalance and lift.",
+        "answer_line": "Wide stance, knees bent, hips down",
+        "distractors": {
+          "plausible": [
+            "Narrow stance, weight forward",
+            "Straight legs, hips back"
+          ],
+          "trap": [
+            "Stand tall to avoid the lift"
+          ]
+        }
       },
       {
         "question": "How do you break a gable grip body lock using proper mechanics rather than arm strength alone?",
-        "answer": "Target the thumb-side of their grip which is biomechanically the weakest point. Use both hands together against their single gripping arm, creating a two-on-one advantage. Combine this with explosive hip movement - drive your hips away while simultaneously attacking the grip. The hip movement adds momentum and whole-body power to the break. Rotate your torso while peeling their grip to add rotational force. Never try to simply pull their locked hands apart with arm strength alone, as their grip structure will always be stronger than your pulling strength."
+        "answer": "Target the thumb-side of their grip which is biomechanically the weakest point. Use both hands together against their single gripping arm, creating a two-on-one advantage. Combine this with explosive hip movement - drive your hips away while simultaneously attacking the grip. The hip movement adds momentum and whole-body power to the break. Rotate your torso while peeling their grip to add rotational force. Never try to simply pull their locked hands apart with arm strength alone, as their grip structure will always be stronger than your pulling strength.",
+        "answer_line": "Attack thumb side with hip drive",
+        "distractors": {
+          "plausible": [
+            "Pull straight back with both arms",
+            "Twist wrists against fingers"
+          ],
+          "trap": [
+            "Yank hands apart with strength"
+          ]
+        }
       },
       {
         "question": "When is sitting to guard the correct defensive choice versus continuing to fight for standing position?",
-        "answer": "Sit to guard when: your standing escapes have failed for 2-3 seconds, your posture is breaking backward under their pressure, you feel them beginning to lift for a throw, or when their grip is too strong to break before they execute an attack. The key is recognizing the point of no return and making a proactive choice. A controlled guard pull where you close your guard around their torso is far better than being thrown or mat-returned into a dominant position. However, if you can maintain strong base and their grip shows signs of weakening, continue fighting standing as guard recovery from body lock often leads to immediate passing pressure."
+        "answer": "Sit to guard when: your standing escapes have failed for 2-3 seconds, your posture is breaking backward under their pressure, you feel them beginning to lift for a throw, or when their grip is too strong to break before they execute an attack. The key is recognizing the point of no return and making a proactive choice. A controlled guard pull where you close your guard around their torso is far better than being thrown or mat-returned into a dominant position. However, if you can maintain strong base and their grip shows signs of weakening, continue fighting standing as guard recovery from body lock often leads to immediate passing pressure.",
+        "answer_line": "When base fails 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Only after grip fully breaks",
+            "Anytime pressure feels strong"
+          ],
+          "trap": [
+            "Never, always fight standing"
+          ]
+        }
       },
       {
         "question": "What hand fighting strategy should you use once opponent's grip is established?",
-        "answer": "Work to get at least one hand inside their lock to wedge between their arms and your body. This hand serves as a frame to create separation and prevents them from tightening their grip further. Use your other hand to attack the weakest point of their grip - typically where their fingers or thumb connect. Fight their grip continuously rather than making one attempt and stopping. Chain multiple grip break attempts together, attacking from different angles. Combine hand fighting with hip movement to add force to each breaking attempt rather than relying on arm strength in isolation."
+        "answer": "Work to get at least one hand inside their lock to wedge between their arms and your body. This hand serves as a frame to create separation and prevents them from tightening their grip further. Use your other hand to attack the weakest point of their grip - typically where their fingers or thumb connect. Fight their grip continuously rather than making one attempt and stopping. Chain multiple grip break attempts together, attacking from different angles. Combine hand fighting with hip movement to add force to each breaking attempt rather than relying on arm strength in isolation.",
+        "answer_line": "Wedge one hand in as a frame",
+        "distractors": {
+          "plausible": [
+            "Grab both their wrists first",
+            "Push their hips away only"
+          ],
+          "trap": [
+            "Pull their arms in tighter"
+          ]
+        }
       },
       {
         "question": "What is the correct response if you feel yourself being lifted for a suplex or throw?",
-        "answer": "Immediately hook one of their legs with your foot to prevent them from completing the lift - this removes their ability to generate lifting power from the ground. Simultaneously drive your hips toward the mat and make your body as heavy as possible. If the lift continues, tuck your chin to protect your neck and roll with the throw rather than fighting it, using the momentum to transition into guard as you land. The worst outcome is being lifted and thrown while rigid, potentially landing in a dominated position. The controlled fall into guard preserves your ability to continue defending."
+        "answer": "Immediately hook one of their legs with your foot to prevent them from completing the lift - this removes their ability to generate lifting power from the ground. Simultaneously drive your hips toward the mat and make your body as heavy as possible. If the lift continues, tuck your chin to protect your neck and roll with the throw rather than fighting it, using the momentum to transition into guard as you land. The worst outcome is being lifted and thrown while rigid, potentially landing in a dominated position. The controlled fall into guard preserves your ability to continue defending.",
+        "answer_line": "Hook their leg with your foot",
+        "distractors": {
+          "plausible": [
+            "Arch back to stop the lift",
+            "Grab their neck for control"
+          ],
+          "trap": [
+            "Go rigid and fight the throw"
+          ]
+        }
       }
     ],
     "clips": [
@@ -733,35 +893,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the body lock and distinguishes it from a generic clinch?",
-      "answer": "The body lock is defined by both arms encircling the opponent's torso with the hands clasped together, forming a closed loop around their center of mass rather than gripping cloth, wrists, or a single limb. This locked ring converts two independent arms into a single unified structure, so the controlling player defends one connection point instead of two separate grips that could each be peeled off. Unlike an open clinch where every hand fights for its own attachment, the clasped hands make the connection far harder to strip, though not impossible. The result is a unified chest-to-torso attachment that fuses both players into one kinetic unit."
+      "answer": "The body lock is defined by both arms encircling the opponent's torso with the hands clasped together, forming a closed loop around their center of mass rather than gripping cloth, wrists, or a single limb. This locked ring converts two independent arms into a single unified structure, so the controlling player defends one connection point instead of two separate grips that could each be peeled off. Unlike an open clinch where every hand fights for its own attachment, the clasped hands make the connection far harder to strip, though not impossible. The result is a unified chest-to-torso attachment that fuses both players into one kinetic unit.",
+      "answer_line": "Hands clasped around torso",
+      "distractors": {
+        "plausible": [
+          "Both arms underhooking only",
+          "One hand gripping the wrist"
+        ],
+        "trap": [
+          "Gripping cloth at the collar"
+        ]
+      }
     },
     {
       "question": "Why is the chest-to-torso connection the primary control mechanism rather than the locked hands themselves?",
-      "answer": "Once the hands are clasped, the loop is a boundary condition, but the actual force transfer happens through the chest pressed flat against the opponent's back or torso. This connection eliminates the air gap that a defender needs to insert frames, turn, or create distance, and it lets the controlling player load their body weight directly onto the opponent's spine and hips. The clasped hands become redundant insurance that simply prevents the ring from opening, while the compression does the controlling work. This is why an experienced player can maintain the position even with a relatively weak grip, and why the defender's escape must attack the chest connection, not just the hands."
+      "answer": "Once the hands are clasped, the loop is a boundary condition, but the actual force transfer happens through the chest pressed flat against the opponent's back or torso. This connection eliminates the air gap that a defender needs to insert frames, turn, or create distance, and it lets the controlling player load their body weight directly onto the opponent's spine and hips. The clasped hands become redundant insurance that simply prevents the ring from opening, while the compression does the controlling work. This is why an experienced player can maintain the position even with a relatively weak grip, and why the defender's escape must attack the chest connection, not just the hands.",
+      "answer_line": "Chest compression transfers force",
+      "distractors": {
+        "plausible": [
+          "Locked hands alone control fully",
+          "Grip strength decides control"
+        ],
+        "trap": [
+          "Lean back, let hands carry load"
+        ]
+      }
     },
     {
       "question": "How does forward hip drive govern the balance of the position for both players?",
-      "answer": "Whoever wins the hip battle controls the position, because driving the hips forward and slightly upward into the opponent's hips breaks their posture backward and shifts their weight onto their heels. A defender loaded onto their heels cannot generate their own takedown, cannot post effectively, and is one step from being tripped or lifted. Conversely, if the trapped player keeps their hips underneath them and their spine stacked over their base, they retain the leverage to resist, sit, or turn. The hips, not the arms, are the true fulcrum of the exchange, which is why base and posture are contested continuously by both sides."
+      "answer": "Whoever wins the hip battle controls the position, because driving the hips forward and slightly upward into the opponent's hips breaks their posture backward and shifts their weight onto their heels. A defender loaded onto their heels cannot generate their own takedown, cannot post effectively, and is one step from being tripped or lifted. Conversely, if the trapped player keeps their hips underneath them and their spine stacked over their base, they retain the leverage to resist, sit, or turn. The hips, not the arms, are the true fulcrum of the exchange, which is why base and posture are contested continuously by both sides.",
+      "answer_line": "Wins hips, wins the position",
+      "distractors": {
+        "plausible": [
+          "Wins grip strength contest",
+          "Wins the head position battle"
+        ],
+        "trap": [
+          "Pull with arms, ignore hips"
+        ]
+      }
     },
     {
       "question": "What role does head position play in the mechanics of the body lock for whoever wins it?",
-      "answer": "The head acts as a third contact point that reinforces the chest connection and shuts down the opponent's ability to establish head control or a whizzer on that side. Placing the head tight to the underhook side, temple or ear against the opponent's shoulder, wedges the two bodies closer and creates the angle needed to steer throws and mat returns. A head left loose or positioned too far back opens space for the opponent to frame across the jaw, turn in, or generate a counter. Because head position is a shared battleground, both players are constantly fighting to win the inside head placement that tips control their way."
+      "answer": "The head acts as a third contact point that reinforces the chest connection and shuts down the opponent's ability to establish head control or a whizzer on that side. Placing the head tight to the underhook side, temple or ear against the opponent's shoulder, wedges the two bodies closer and creates the angle needed to steer throws and mat returns. A head left loose or positioned too far back opens space for the opponent to frame across the jaw, turn in, or generate a counter. Because head position is a shared battleground, both players are constantly fighting to win the inside head placement that tips control their way.",
+      "answer_line": "Third point locking chest tight",
+      "distractors": {
+        "plausible": [
+          "Purely a comfort preference",
+          "Only matters for the choke"
+        ],
+        "trap": [
+          "Keep head loose, look away"
+        ]
+      }
     },
     {
       "question": "Why is the body lock considered an inherently transitional position rather than a holding position?",
-      "answer": "The body lock produces no points and no submission on its own, and its lasting positional value comes only once it is spent to reach the back, a throw, or a takedown; standing still, it decays into a stalemate. While the lock is fresh, the defender must simultaneously fear mat returns to the back, throws, and takedowns, and cannot defend all three at once. But every second of hesitation lets them settle their base, begin hand fighting, lower their level, or prepare to sit to guard, which collapses the multi-threat dilemma. The position is a launch point that must be spent quickly, which is why both players treat it as a race against the clock."
+      "answer": "The body lock produces no points and no submission on its own, and its lasting positional value comes only once it is spent to reach the back, a throw, or a takedown; standing still, it decays into a stalemate. While the lock is fresh, the defender must simultaneously fear mat returns to the back, throws, and takedowns, and cannot defend all three at once. But every second of hesitation lets them settle their base, begin hand fighting, lower their level, or prepare to sit to guard, which collapses the multi-threat dilemma. The position is a launch point that must be spent quickly, which is why both players treat it as a race against the clock.",
+      "answer_line": "No points until it's spent",
+      "distractors": {
+        "plausible": [
+          "It scores points if held long",
+          "Strongest grip wins outright"
+        ],
+        "trap": [
+          "Hold it and wait it out"
+        ]
+      }
     },
     {
       "question": "How does the body lock differ mechanically from a double-underhook clinch or an over-under tie?",
-      "answer": "In double unders or an over-under the arms terminate as independent hooks under or over the opponent's arms and are not joined, so control depends on continuous inside position and the hands can be peeled one at a time. The body lock instead clasps the hands into a closed ring around the torso, trading the elevator-and-lift leverage of underhooks for a single harder-to-strip connection that pins the opponent's center of mass. This makes the body lock harder to break but tends to sit slightly lower on the torso and is less suited to lifting under the armpits. The two configurations are adjacent and often flow into each other, but joined hands versus free hooks is the defining mechanical distinction."
+      "answer": "In double unders or an over-under the arms terminate as independent hooks under or over the opponent's arms and are not joined, so control depends on continuous inside position and the hands can be peeled one at a time. The body lock instead clasps the hands into a closed ring around the torso, trading the elevator-and-lift leverage of underhooks for a single harder-to-strip connection that pins the opponent's center of mass. This makes the body lock harder to break but tends to sit slightly lower on the torso and is less suited to lifting under the armpits. The two configurations are adjacent and often flow into each other, but joined hands versus free hooks is the defining mechanical distinction.",
+      "answer_line": "Hands joined vs free hooks",
+      "distractors": {
+        "plausible": [
+          "Sits higher on the torso",
+          "Only used from the front"
+        ],
+        "trap": [
+          "Same grip, different name only"
+        ]
+      }
     },
     {
       "question": "What determines whether the body lock is contested from behind versus from the front or side, and how does that change the shared dynamics?",
-      "answer": "The relative facing of the two players sets the strategic frame: a rear body lock places the controlling chest against the opponent's back and threatens mat returns to back control, while a front or side body lock places chest against chest or flank and biases toward throws and takedowns. In both cases the defining mechanics are identical, the closed arm ring, chest compression, and forward hip drive, but the available exits differ because the target of the pressure changes. From behind the trapped player's priority is preventing the back take and turning to face; from the front their priority is keeping their hips back and avoiding being tripped or thrown. The configuration is the same position seen from a different angle, which is why control of the angle itself is contested throughout."
+      "answer": "The relative facing of the two players sets the strategic frame: a rear body lock places the controlling chest against the opponent's back and threatens mat returns to back control, while a front or side body lock places chest against chest or flank and biases toward throws and takedowns. In both cases the defining mechanics are identical, the closed arm ring, chest compression, and forward hip drive, but the available exits differ because the target of the pressure changes. From behind the trapped player's priority is preventing the back take and turning to face; from the front their priority is keeping their hips back and avoiding being tripped or thrown. The configuration is the same position seen from a different angle, which is why control of the angle itself is contested throughout.",
+      "answer_line": "Facing sets throw vs back-take",
+      "distractors": {
+        "plausible": [
+          "Front lock is always weaker",
+          "Rear lock has no hip drive"
+        ],
+        "trap": [
+          "Angle doesn't change the exits"
+        ]
+      }
     },
     {
       "question": "Why is a low, wide, knee-bent base decisive for both players in the body lock?",
-      "answer": "Because the position is a closed kinetic chain, whichever player owns the lower center of gravity can transfer force through the connection more efficiently and resist being unbalanced. A low, wide stance with bent knees and weight over the balls of the feet gives the controlling player the platform to drive hips and explode into throws, and gives the trapped player the stability to absorb pressure and deny lifts. A player caught tall with straight legs and a high center of gravity is easy to break backward, trip, or hoist regardless of which role they occupy. Base is therefore not a role-specific detail but a shared prerequisite, and the athlete who loses their base usually loses the exchange."
+      "answer": "Because the position is a closed kinetic chain, whichever player owns the lower center of gravity can transfer force through the connection more efficiently and resist being unbalanced. A low, wide stance with bent knees and weight over the balls of the feet gives the controlling player the platform to drive hips and explode into throws, and gives the trapped player the stability to absorb pressure and deny lifts. A player caught tall with straight legs and a high center of gravity is easy to break backward, trip, or hoist regardless of which role they occupy. Base is therefore not a role-specific detail but a shared prerequisite, and the athlete who loses their base usually loses the exchange.",
+      "answer_line": "Lower base wins the exchange",
+      "distractors": {
+        "plausible": [
+          "Only the attacker needs base",
+          "Arm strength decides base fight"
+        ],
+        "trap": [
+          "Stand tall to see openings"
+        ]
+      }
     }
   ],
   "clips": [

@@ -356,43 +356,143 @@
   "flashcards": [
     {
       "question": "What distinguishes torque from simple pushing or pulling?",
-      "answer": "Torque applies force around a rotational axis or pivot point rather than along a straight line. This gives it a mechanical advantage: small rotational inputs at the handle end of a lever produce large rotational outputs at the resistance end."
+      "answer": "Torque applies force around a rotational axis or pivot point rather than along a straight line. This gives it a mechanical advantage: small rotational inputs at the handle end of a lever produce large rotational outputs at the resistance end.",
+      "answer_line": "Force rotating around a pivot",
+      "distractors": {
+        "plausible": [
+          "Straight-line push or pull",
+          "Applying more raw strength"
+        ],
+        "trap": [
+          "Muscling through with arms"
+        ]
+      }
     },
     {
       "question": "Why does the figure-four Kimura grip function as a ratchet?",
-      "answer": "Its geometry captures each small rotational increment without allowing regression, so you can tighten the shoulder rotation one click at a time without losing ground, even against a resisting opponent who cannot reverse the captured rotation."
+      "answer": "Its geometry captures each small rotational increment without allowing regression, so you can tighten the shoulder rotation one click at a time without losing ground, even against a resisting opponent who cannot reverse the captured rotation.",
+      "answer_line": "Captures each turn, no slip-back",
+      "distractors": {
+        "plausible": [
+          "A simple tight lock grip",
+          "Pure grip strength holds it"
+        ],
+        "trap": [
+          "One fast explosive crank"
+        ]
+      }
     },
     {
       "question": "Where should you generate torque from for sustainable, high-output force?",
-      "answer": "From the hips and core, not the hands and arms. The hips produce far more rotational force and sustain it longer; the grips act as transmission cables connecting the hip engine to the target, not as force generators themselves."
+      "answer": "From the hips and core, not the hands and arms. The hips produce far more rotational force and sustain it longer; the grips act as transmission cables connecting the hip engine to the target, not as force generators themselves.",
+      "answer_line": "Hips and core, not hands",
+      "distractors": {
+        "plausible": [
+          "Strong hand and wrist grip",
+          "Shoulders and upper back"
+        ],
+        "trap": [
+          "Arms and grip strength alone"
+        ]
+      }
     },
     {
       "question": "What does anchoring mean in torque application and why does it matter?",
-      "answer": "Anchoring fixes the non-rotating side of the system, such as pinning the shoulder for a Kimura or controlling the hip line for a heel hook, so rotation transfers to the target joint instead of dissipating as the opponent turns their whole body."
+      "answer": "Anchoring fixes the non-rotating side of the system, such as pinning the shoulder for a Kimura or controlling the hip line for a heel hook, so rotation transfers to the target joint instead of dissipating as the opponent turns their whole body.",
+      "answer_line": "Fix one side so force transfers",
+      "distractors": {
+        "plausible": [
+          "Just grip tighter overall",
+          "Speed up the rotation"
+        ],
+        "trap": [
+          "Let them turn freely with you"
+        ]
+      }
     },
     {
       "question": "How does the allen-key principle apply to the heel hook?",
-      "answer": "Small hand rotations at the heel translate through the shin lever arm into large rotational forces at the knee. The leg entanglement anchors the thigh while the hands generate torque at the foot, multiplying a tiny input into a devastating output."
+      "answer": "Small hand rotations at the heel translate through the shin lever arm into large rotational forces at the knee. The leg entanglement anchors the thigh while the hands generate torque at the foot, multiplying a tiny input into a devastating output.",
+      "answer_line": "Small foot turns, big knee torque",
+      "distractors": {
+        "plausible": [
+          "Yanking the leg straight back",
+          "Twisting hard at the hip"
+        ],
+        "trap": [
+          "Cranking the foot explosively"
+        ]
+      }
     },
     {
       "question": "Why should submission finishing use slow, controlled torque rather than explosive rotation?",
-      "answer": "Rotational submissions like heel hooks and Kimuras can tear ligaments before pain registers. Controlled, progressive rotation gives the partner a clear window to tap and prevents injury; explosive speed is reserved for grip breaks and sweep entries."
+      "answer": "Rotational submissions like heel hooks and Kimuras can tear ligaments before pain registers. Controlled, progressive rotation gives the partner a clear window to tap and prevents injury; explosive speed is reserved for grip breaks and sweep entries.",
+      "answer_line": "Slow torque, time to tap",
+      "distractors": {
+        "plausible": [
+          "Fast finish shows dominance",
+          "Explosive speed ends fights"
+        ],
+        "trap": [
+          "Snap fast, they'll tap in time"
+        ]
+      }
     },
     {
       "question": "What is the common consequence of generating torque from the arms instead of the hips?",
-      "answer": "Low torque output that is easily resisted plus rapid grip fatigue. Techniques feel like they require impossible grip strength because the arms cannot match the sustained rotational force the hips and core produce."
+      "answer": "Low torque output that is easily resisted plus rapid grip fatigue. Techniques feel like they require impossible grip strength because the arms cannot match the sustained rotational force the hips and core produce.",
+      "answer_line": "Weak force, fast grip fatigue",
+      "distractors": {
+        "plausible": [
+          "Feels the same, just slower",
+          "Needs more explosive speed"
+        ],
+        "trap": [
+          "Squeeze grip harder to compensate"
+        ]
+      }
     },
     {
       "question": "What is a compound force vector and why is it harder to resist?",
-      "answer": "It combines rotational torque with linear push or pull, like a sweep mixing a hip turn with a leg extension, or a collar choke mixing a twist with a pull. It overwhelms defenses designed to resist a single direction of force."
+      "answer": "It combines rotational torque with linear push or pull, like a sweep mixing a hip turn with a leg extension, or a collar choke mixing a twist with a pull. It overwhelms defenses designed to resist a single direction of force.",
+      "answer_line": "Rotation plus push/pull combined",
+      "distractors": {
+        "plausible": [
+          "Just extra raw strength added",
+          "Two grips pulling same direction"
+        ],
+        "trap": [
+          "One strong direction repeated"
+        ]
+      }
     },
     {
       "question": "How do you identify the axis of rotation for a technique?",
-      "answer": "Find the pivot point around which force should be applied: the target joint for submissions, the opponent's balance point for sweeps, the grip centerpoint for grip breaks. Then position your body to apply force perpendicular to that axis."
+      "answer": "Find the pivot point around which force should be applied: the target joint for submissions, the opponent's balance point for sweeps, the grip centerpoint for grip breaks. Then position your body to apply force perpendicular to that axis.",
+      "answer_line": "Find the pivot, push perpendicular",
+      "distractors": {
+        "plausible": [
+          "Push straight at the target",
+          "Aim at their center of mass"
+        ],
+        "trap": [
+          "Push parallel to their frame"
+        ]
+      }
     },
     {
       "question": "Why is threatening multiple rotational directions from one position effective?",
-      "answer": "If you can switch between directions, such as Kimura and Americana, the opponent cannot fully commit to resisting a single angle. Each individual rotational threat becomes harder to defend because the defense for one opens the other."
+      "answer": "If you can switch between directions, such as Kimura and Americana, the opponent cannot fully commit to resisting a single angle. Each individual rotational threat becomes harder to defend because the defense for one opens the other.",
+      "answer_line": "Splits their defense two ways",
+      "distractors": {
+        "plausible": [
+          "One strong attack overwhelms",
+          "Faster attacks beat awareness"
+        ],
+        "trap": [
+          "Commit fully to one submission"
+        ]
+      }
     }
   ],
   "clips": [

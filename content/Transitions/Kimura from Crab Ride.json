@@ -246,31 +246,101 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Kimura from Crab Ride?",
-        "answer": "The optimal window opens when the opponent extends their far arm to post on the mat, reaches across to strip your hook, or frames against your chest pressure. Any arm extension that creates separation between the elbow and the ribcage is exploitable. The worst time to attack is when the opponent has both elbows tucked tight to their body in a compact turtle shell. Patient attackers wait for the natural arm exposure rather than trying to force it."
+        "answer": "The optimal window opens when the opponent extends their far arm to post on the mat, reaches across to strip your hook, or frames against your chest pressure. Any arm extension that creates separation between the elbow and the ribcage is exploitable. The worst time to attack is when the opponent has both elbows tucked tight to their body in a compact turtle shell. Patient attackers wait for the natural arm exposure rather than trying to force it.",
+        "answer_line": "When far arm posts or frames",
+        "distractors": {
+          "plausible": [
+            "Force the arm out immediately",
+            "Wait for opponent to posture up"
+          ],
+          "trap": [
+            "When elbows are tucked tight"
+          ]
+        }
       },
       {
         "question": "Why is the far arm targeted rather than the near arm from the Crab Ride position?",
-        "answer": "The near arm is shielded by your body position and chest pressure, making isolation extremely difficult without abandoning the ride. The far arm is naturally exposed because the opponent needs it for base maintenance, defensive framing, and hook-stripping attempts. Your perpendicular crab ride angle creates a direct attack lane to the far arm, and the peeling motion aligns with your existing chest pressure direction for maximum mechanical efficiency."
+        "answer": "The near arm is shielded by your body position and chest pressure, making isolation extremely difficult without abandoning the ride. The far arm is naturally exposed because the opponent needs it for base maintenance, defensive framing, and hook-stripping attempts. Your perpendicular crab ride angle creates a direct attack lane to the far arm, and the peeling motion aligns with your existing chest pressure direction for maximum mechanical efficiency.",
+        "answer_line": "Near arm shielded, far arm exposed",
+        "distractors": {
+          "plausible": [
+            "Far arm is simply weaker",
+            "Near arm gives a better angle"
+          ],
+          "trap": [
+            "Attack the near arm instead"
+          ]
+        }
       },
       {
         "question": "What grip must be established first when entering the Kimura from Crab Ride and why?",
-        "answer": "The wrist grip must be established first, using a C-grip that wraps around the opponent's wrist from the outside. Securing the wrist prevents immediate arm retraction and provides the anchor point needed to thread the figure-four safely. Without solid wrist control, the opponent can simply pull their arm back when they feel you threading the figure-four, and the failed attempt telegraphs your intention for subsequent tries."
+        "answer": "The wrist grip must be established first, using a C-grip that wraps around the opponent's wrist from the outside. Securing the wrist prevents immediate arm retraction and provides the anchor point needed to thread the figure-four safely. Without solid wrist control, the opponent can simply pull their arm back when they feel you threading the figure-four, and the failed attempt telegraphs your intention for subsequent tries.",
+        "answer_line": "Wrist grip with C-grip first",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip first",
+            "Elbow control first"
+          ],
+          "trap": [
+            "Go straight for the choke"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps both hands together after you grab their wrist - how do you respond?",
-        "answer": "First, attempt to break the grip by wedging your forearm between their hands and applying lever pressure to separate them. If direct breaking fails, use your body weight to drive forward, pushing their clasped hands toward the mat where the grip angle weakens. A third option is to abandon the kimura temporarily and use their clasped hands as an opportunity to advance to back control, since the clasped grip immobilizes both their arms and eliminates their ability to post or frame against your hooks."
+        "answer": "First, attempt to break the grip by wedging your forearm between their hands and applying lever pressure to separate them. If direct breaking fails, use your body weight to drive forward, pushing their clasped hands toward the mat where the grip angle weakens. A third option is to abandon the kimura temporarily and use their clasped hands as an opportunity to advance to back control, since the clasped grip immobilizes both their arms and eliminates their ability to post or frame against your hooks.",
+        "answer_line": "Wedge forearm, break the clasp",
+        "distractors": {
+          "plausible": [
+            "Yank the wrist straight out",
+            "Push down on their elbows"
+          ],
+          "trap": [
+            "Drop the ride to fight the grip"
+          ]
+        }
       },
       {
         "question": "Why should you transition to Kimura Trap rather than finishing directly from the Crab Ride angle?",
-        "answer": "The perpendicular crab ride angle provides poor finishing mechanics because the rotational force vector is misaligned with the shoulder joint's vulnerable axis. The crab ride position lacks the hip control needed to pin the opponent while applying rotation. Transitioning to Kimura Trap gives you a more advantageous angle where your hips control their upper body and the rotational force aligns with the shoulder's weak plane. Forcing a finish from crab ride wastes energy and gives the opponent extended time to build grip defenses."
+        "answer": "The perpendicular crab ride angle provides poor finishing mechanics because the rotational force vector is misaligned with the shoulder joint's vulnerable axis. The crab ride position lacks the hip control needed to pin the opponent while applying rotation. Transitioning to Kimura Trap gives you a more advantageous angle where your hips control their upper body and the rotational force aligns with the shoulder's weak plane. Forcing a finish from crab ride wastes energy and gives the opponent extended time to build grip defenses.",
+        "answer_line": "Better hip control, aligned angle",
+        "distractors": {
+          "plausible": [
+            "Crab ride angle finishes faster",
+            "Kimura Trap needs less strength"
+          ],
+          "trap": [
+            "Finish immediately from crab ride"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail when threading the figure-four grip under the opponent's arm?",
-        "answer": "The threading hand must pass under the opponent's arm from inside to outside, and the elbow of the threading arm must clamp firmly against their forearm as you connect grip-to-grip. This elbow clamp is the critical detail that prevents the opponent from straightening their arm and slipping the grip. Without it, even a connected figure-four allows escape through arm extension. The completed grip should form a rigid triangular frame controlling wrist, forearm, and elbow angle simultaneously."
+        "answer": "The threading hand must pass under the opponent's arm from inside to outside, and the elbow of the threading arm must clamp firmly against their forearm as you connect grip-to-grip. This elbow clamp is the critical detail that prevents the opponent from straightening their arm and slipping the grip. Without it, even a connected figure-four allows escape through arm extension. The completed grip should form a rigid triangular frame controlling wrist, forearm, and elbow angle simultaneously.",
+        "answer_line": "Clamp elbow against their forearm",
+        "distractors": {
+          "plausible": [
+            "Thread outside-to-inside quickly",
+            "Grip tight on the wrist only"
+          ],
+          "trap": [
+            "Let their arm fully straighten"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling forward as you establish the kimura grip - how do you maintain control?",
-        "answer": "Follow the roll by maintaining the figure-four grip while adjusting your body position to stay connected throughout the motion. As they roll, your crab ride transitions naturally into a side-body or top position, which actually improves your finishing angle. Keep your elbows tight and let the rolling momentum carry you into Kimura Trap or north-south kimura position. The critical error would be trying to resist the roll by pulling backward, which breaks the grip under the momentum."
+        "answer": "Follow the roll by maintaining the figure-four grip while adjusting your body position to stay connected throughout the motion. As they roll, your crab ride transitions naturally into a side-body or top position, which actually improves your finishing angle. Keep your elbows tight and let the rolling momentum carry you into Kimura Trap or north-south kimura position. The critical error would be trying to resist the roll by pulling backward, which breaks the grip under the momentum.",
+        "answer_line": "Follow the roll, keep grip tight",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Stall the roll with hook pressure"
+          ],
+          "trap": [
+            "Pull backward to stop the roll"
+          ]
+        }
       },
       {
         "question": "How does the Kimura from Crab Ride create positional dilemmas for the turtle defender?",
@@ -278,7 +348,17 @@
       },
       {
         "question": "What is the correct direction of peeling force when isolating the arm from Crab Ride?",
-        "answer": "The peeling force should follow your perpendicular chest pressure line, pulling the arm laterally away from the opponent's ribcage and toward the mat on your side. This direction aligns with your existing body mechanics so you generate force through body weight and positioning rather than arm strength alone. Pulling the arm upward or backward relative to the opponent's spine is mechanically inferior because it fights against the natural strength of their lat and shoulder retraction muscles. The lateral peel exploits the weakest axis of their arm retention."
+        "answer": "The peeling force should follow your perpendicular chest pressure line, pulling the arm laterally away from the opponent's ribcage and toward the mat on your side. This direction aligns with your existing body mechanics so you generate force through body weight and positioning rather than arm strength alone. Pulling the arm upward or backward relative to the opponent's spine is mechanically inferior because it fights against the natural strength of their lat and shoulder retraction muscles. The lateral peel exploits the weakest axis of their arm retention.",
+        "answer_line": "Lateral pull, along chest pressure",
+        "distractors": {
+          "plausible": [
+            "Pull arm upward toward their head",
+            "Pull arm back toward their spine"
+          ],
+          "trap": [
+            "Yank arm straight up with force"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a sit-through escape while you are midway through securing the kimura grip - what do you do?",
@@ -400,15 +480,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Kimura from Crab Ride is being attempted?",
-        "answer": "The earliest cue is the attacker releasing their far-side upper body grip and reaching across your back toward your far arm. This grip change typically accompanies a noticeable increase in chest pressure as they pin your shoulder with bodyweight before hunting the arm. Feeling this grip release and weight shift should immediately trigger arm retraction to compact turtle posture before the wrist grip can be established."
+        "answer": "The earliest cue is the attacker releasing their far-side upper body grip and reaching across your back toward your far arm. This grip change typically accompanies a noticeable increase in chest pressure as they pin your shoulder with bodyweight before hunting the arm. Feeling this grip release and weight shift should immediately trigger arm retraction to compact turtle posture before the wrist grip can be established.",
+        "answer_line": "Grip release, reach for far arm",
+        "distractors": {
+          "plausible": [
+            "Sudden hook pressure increase alone",
+            "Attacker shifts to opposite hip"
+          ],
+          "trap": [
+            "Wait until wrist grip is secured"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker more effective than rolling away when defending the kimura?",
-        "answer": "Turning toward the attacker disrupts their perpendicular angle, which is the mechanical foundation for kimura leverage from crab ride. The toward-rotation collapses the space needed for figure-four threading and opens pathways to half guard and closed guard recovery. Rolling away, by contrast, often helps the attacker follow with the grip intact and can expose your back further, potentially converting a kimura attempt into a completed back take."
+        "answer": "Turning toward the attacker disrupts their perpendicular angle, which is the mechanical foundation for kimura leverage from crab ride. The toward-rotation collapses the space needed for figure-four threading and opens pathways to half guard and closed guard recovery. Rolling away, by contrast, often helps the attacker follow with the grip intact and can expose your back further, potentially converting a kimura attempt into a completed back take.",
+        "answer_line": "Collapses their angle, opens guard",
+        "distractors": {
+          "plausible": [
+            "Rolling away regains full guard",
+            "Turning in relieves chest pressure"
+          ],
+          "trap": [
+            "Roll away to create distance"
+          ]
+        }
       },
       {
         "question": "Your arm is already partially isolated with a wrist grip but the figure-four is not yet complete - what is your best defensive response?",
-        "answer": "Immediately clasp your hands together with interlocking fingers or grip your own wrist to create a physical barrier preventing the figure-four from being threaded. Simultaneously begin turning your shoulders toward the attacker and driving your hips forward to create separation. The clasped-hands defense is a temporary measure buying 3-5 seconds maximum; use that time to execute a committed sit-through or scramble before the attacker systematically breaks the grip connection."
+        "answer": "Immediately clasp your hands together with interlocking fingers or grip your own wrist to create a physical barrier preventing the figure-four from being threaded. Simultaneously begin turning your shoulders toward the attacker and driving your hips forward to create separation. The clasped-hands defense is a temporary measure buying 3-5 seconds maximum; use that time to execute a committed sit-through or scramble before the attacker systematically breaks the grip connection.",
+        "answer_line": "Clasp hands, turn in, then scramble",
+        "distractors": {
+          "plausible": [
+            "Pull arm straight back and hold",
+            "Post the free arm on the mat"
+          ],
+          "trap": [
+            "Extend the arm to test the grip"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when defending repeated kimura attempts from Crab Ride?",
@@ -416,11 +526,31 @@
       },
       {
         "question": "How do you prevent the initial arm exposure that enables the Kimura from Crab Ride?",
-        "answer": "Maintain a tight turtle shell with both elbows clamped firmly against your ribcage and hands positioned close to your chin or chest rather than posted on the mat. Avoid reaching across your body to strip the crab ride hook, as this is the most common movement that exposes the far arm. When you need to post for base, use short, controlled arm extensions and retract immediately rather than leaving the arm extended. The compact posture eliminates the primary entry opportunity the attacker needs to initiate the kimura sequence."
+        "answer": "Maintain a tight turtle shell with both elbows clamped firmly against your ribcage and hands positioned close to your chin or chest rather than posted on the mat. Avoid reaching across your body to strip the crab ride hook, as this is the most common movement that exposes the far arm. When you need to post for base, use short, controlled arm extensions and retract immediately rather than leaving the arm extended. The compact posture eliminates the primary entry opportunity the attacker needs to initiate the kimura sequence.",
+        "answer_line": "Clamp elbows tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Post arms wide for base",
+            "Keep hands loose near hips"
+          ],
+          "trap": [
+            "Reach across to strip the hook"
+          ]
+        }
       },
       {
         "question": "The attacker has fully locked the figure-four grip and is beginning to transition to Kimura Trap - what are your remaining options?",
-        "answer": "At this late stage, your best option is to turn aggressively toward the attacker while driving your trapped elbow toward your own hip, attempting to straighten the arm and break the figure-four structure during the transitional movement. If the grip holds through the turn, focus on preventing the attacker from consolidating Kimura Trap by keeping your hips mobile and fighting to recover half guard during their positional adjustment. As a last resort, grip your own lapel or shorts with the trapped hand to create an anchor point that resists the rotational finish while you work to improve position."
+        "answer": "At this late stage, your best option is to turn aggressively toward the attacker while driving your trapped elbow toward your own hip, attempting to straighten the arm and break the figure-four structure during the transitional movement. If the grip holds through the turn, focus on preventing the attacker from consolidating Kimura Trap by keeping your hips mobile and fighting to recover half guard during their positional adjustment. As a last resort, grip your own lapel or shorts with the trapped hand to create an anchor point that resists the rotational finish while you work to improve position.",
+        "answer_line": "Turn in, drive elbow to your hip",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm free hard",
+            "Stay flat, wait for opening"
+          ],
+          "trap": [
+            "Relax the arm to reduce pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [

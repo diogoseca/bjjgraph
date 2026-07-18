@@ -265,52 +265,152 @@
       {
         "question": "What anatomical structures does the Short Choke from Harness primarily target?",
         "answer": "The Short Choke targets the carotid arteries on both sides of the neck through bilateral compression. The forearm blade compresses the near-side carotid artery while the gi sleeve connection creates pressure on the far-side carotid. This is a blood choke that restricts blood flow to the brain rather than compressing the airway, which is why it can cause unconsciousness within seconds when properly applied.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Windpipe/airway compression",
+            "Only near-side carotid"
+          ],
+          "trap": [
+            "Spinal/neck crank"
+          ]
+        }
       },
       {
         "question": "Your opponent has their chin tucked tightly with both hands defending the choking arm - what adjustment allows you to complete the choke?",
         "answer": "Use your under-arm to momentarily trap one defensive hand by pulling it toward their hip, creating a brief window. Then thread your forearm above their chin defense, targeting the jaw line to wedge the chin up. The sleeve anchor means you do not need full arm penetration behind the chin like an RNC. The short choke compresses the carotids even with the chin partially tucked because the forearm angle and sleeve leverage are different from a traditional strangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap hand, thread to jaw line",
+        "distractors": {
+          "plausible": [
+            "Force arm behind neck like RNC",
+            "Wait for hands to drop"
+          ],
+          "trap": [
+            "Muscle through both hands"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the choke is properly set and the opponent is close to tapping?",
         "answer": "The opponent's hand fighting becomes weaker or more frantic, their breathing changes to rapid gasping, and their body may begin to stiffen or go slack. The forearm should feel locked against the neck with no gaps between the radius bone and the carotid. When you squeeze, you should feel bilateral pressure through both the forearm and sleeve connection. If the opponent's face changes color or they stop resisting entirely, be prepared for an immediate tap or loss of consciousness and apply pressure slowly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Weak grip fight, gasping breath",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "They start posturing up"
+          ],
+          "trap": [
+            "Squeeze harder and faster"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before committing to the Short Choke from Harness?",
         "answer": "You need an established seatbelt grip with the over-arm on the choking side positioned near the neck, at least one hook inserted for lower body control, maintained chest-to-back pressure with no space between torsos, and the opponent's primary defensive hand either controlled or momentarily redirected. Attempting the choke without these prerequisites significantly reduces the success rate and risks losing the dominant four-point back position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seatbelt, hook, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Both hooks before any grip",
+            "Just a strong overhook"
+          ],
+          "trap": [
+            "Abandon hooks, dive for choke"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape once the Short Choke is locked in?",
         "answer": "Once the forearm is threaded across the neck and the hand is inserted into the opposite sleeve with a secure internal grip, escape options drop dramatically. Stripping the choking arm now requires overcoming both the forearm pressure and the fabric anchor simultaneously, which is extremely difficult with one hand. The choke becomes nearly inescapable once the attacker begins squeezing with both arms and expanding the chest, as bilateral carotid compression causes rapid blood flow restriction to the brain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand locked in far sleeve",
+        "distractors": {
+          "plausible": [
+            "Forearm merely across neck",
+            "Chin control established"
+          ],
+          "trap": [
+            "Let go to switch grips"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip when the opponent keeps stripping your choking forearm before you reach the sleeve?",
         "answer": "Switch to an incremental approach by using your under-arm to create a two-on-one on their primary defensive wrist, pulling it toward their hip. Then advance the choking forearm a few inches at a time rather than threading it across in one motion. If they consistently strip with both hands, feint the choke to draw their hands high, then switch to an armbar setup on the exposed arm. Return to the choke when their defensive hands reposition to address the armbar threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one, inch forearm in",
+        "distractors": {
+          "plausible": [
+            "Thread whole arm in one go",
+            "Switch immediately to RNC"
+          ],
+          "trap": [
+            "Force it through both hands"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the Short Choke in training?",
         "answer": "Apply the choke slowly over 3-5 seconds minimum in training, giving your partner adequate time to recognize the pressure and tap. Blood chokes can cause unconsciousness in as little as 4-6 seconds when fully locked, so never apply sudden explosive pressure. Release immediately upon any tap signal including verbal taps, hand taps, or foot taps on the mat. Monitor your partner for signs of unconsciousness such as going limp, and if they lose consciousness, release immediately, elevate their legs, and monitor their airway until they recover.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on tap",
+        "distractors": {
+          "plausible": [
+            "Full speed builds toughness",
+            "Only release on verbal tap"
+          ],
+          "trap": [
+            "Hold after tap to confirm"
+          ]
+        }
       },
       {
         "question": "How should you release the Short Choke after your partner taps?",
         "answer": "Immediately release the sleeve grip and remove the forearm from the neck in one smooth motion. Remove your chest pressure from their back to allow unrestricted breathing. Do not maintain aggressive hook pressure during the release phase. Check that your partner is conscious and responsive before continuing. If they show any signs of confusion or disorientation, give them time to fully recover. Never re-apply the choke in the same round if there was any indication of loss of consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, check partner",
+        "distractors": {
+          "plausible": [
+            "Ease off gradually over time",
+            "Keep hooks in, drop arm only"
+          ],
+          "trap": [
+            "Reapply choke to be sure"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up and create space between their back and your chest - what adjustment prevents the escape?",
         "answer": "Drive your hips forward and increase downward pressure through your hooks to prevent them from sitting upright. Simultaneously tighten the seatbelt grip and pull them back into your chest. If they have already created significant space, abort the choke attempt and focus on re-establishing tight chest-to-back connection before trying again. Attempting to finish the choke with space between bodies reduces effectiveness dramatically and risks losing the position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips forward, tighten seatbelt",
+        "distractors": {
+          "plausible": [
+            "Pull harder on choking arm",
+            "Lean back to reset angle"
+          ],
+          "trap": [
+            "Chase the finish, ignore space"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic factors affect when to attempt the Short Choke versus other back attacks?",
         "answer": "The Short Choke is most effective when the opponent commits to RNC defense with both hands high and chin tucked, as the sleeve grip bypasses this specific defense. Attempt it when their defensive hands are occupied fighting your choking arm rather than maintaining positional frames. In competition the gi often becomes sweaty, so confirm the sleeve opening is accessible and dry enough for a secure grip. If you are ahead on points, prioritize maintaining back control points rather than risking the position on a speculative choke attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack when hands fight the arm",
+        "distractors": {
+          "plausible": [
+            "Always finish over back points",
+            "Attempt early before hooks in"
+          ],
+          "trap": [
+            "Risk position for speculative tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -428,22 +528,62 @@
       {
         "question": "How do you recognize that the Short Choke from Harness is being set up versus a standard RNC attempt?",
         "answer": "The key difference is the opponent's hand trajectory after the forearm crosses the neck. In an RNC setup, the choking arm threads behind your head toward the opposite shoulder to complete the figure-four lock. In the Short Choke, the choking hand moves toward the opponent's own opposite sleeve opening rather than behind your head. Watch for the opponent adjusting their gi sleeve position or moving their choking hand toward their own forearm. The defensive window closes once the hand enters the sleeve.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand goes to own sleeve, not head",
+        "distractors": {
+          "plausible": [
+            "Arm threads behind your head",
+            "Choking hand grips your collar"
+          ],
+          "trap": [
+            "Ignore hand position entirely"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Short Choke from Harness?",
         "answer": "Tap immediately with your hand on the opponent's body, arm, or leg wherever you can make clear physical contact. If your hands are trapped or unable to reach, use a verbal tap by clearly saying tap or making any audible distress signal. You can also tap with your feet on the mat. Blood chokes can cause unconsciousness in 4-6 seconds when fully locked, so never delay tapping to attempt a desperate last-second escape. Tapping early and resetting is always safer than risking loss of consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand, voice, or foot",
+        "distractors": {
+          "plausible": [
+            "Wait for a clear escape route",
+            "Tap only with free hand"
+          ],
+          "trap": [
+            "Fight one more second first"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Short Choke at different stages of completion?",
         "answer": "Before the forearm crosses the neck: maintain two-on-one grip control on the choking arm and keep chin tucked to physically block threading. After the forearm crosses but before the sleeve grip: strip the forearm with both hands while turning toward the underhook side to escape. After the sleeve grip is established: target the sleeve connection itself with both hands to break the anchor before addressing the forearm. Once fully locked and tightening: tuck chin, make one attempt to peel the sleeve grip, and if pressure increases, tap immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip forearm before sleeve locks",
+        "distractors": {
+          "plausible": [
+            "Wait until fully locked to react",
+            "Turn away after sleeve is set"
+          ],
+          "trap": [
+            "Focus only on tucking chin"
+          ]
+        }
       },
       {
         "question": "Why is the sleeve grip the most critical element to prevent when defending the Short Choke?",
         "answer": "The sleeve grip acts as a structural anchor that transforms the choking arm from a movable limb into a locked mechanism. Without the sleeve grip, the opponent must rely on arm strength alone to maintain forearm pressure, and a strong two-on-one defense can strip the arm away. With the sleeve grip secured, the fabric creates friction and structural reinforcement that makes stripping nearly impossible regardless of hand fighting effort. The choke can then be finished with minimal additional force, making prevention of the sleeve connection the single highest-priority defensive action.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sleeve turns arm into an anchor",
+        "distractors": {
+          "plausible": [
+            "Chin position matters most",
+            "Hook control matters most"
+          ],
+          "trap": [
+            "Ignore sleeve, fight the wrist"
+          ]
+        }
       }
     ],
     "training_progressions": [

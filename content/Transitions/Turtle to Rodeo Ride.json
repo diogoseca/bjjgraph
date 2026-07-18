@@ -268,35 +268,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Transition to Rodeo Ride?",
-        "answer": "The optimal window is after you have established initial turtle top control with at least one dominant grip, but before the opponent begins an active escape sequence. Specifically, the best moment is when the opponent has settled into a defensive turtle posture and is focused on protecting their neck and maintaining their elbow-to-knee shell rather than explosively moving. Attempting the transition during an active escape creates a scramble, while waiting too long allows them to build a plan and begin executing it."
+        "answer": "The optimal window is after you have established initial turtle top control with at least one dominant grip, but before the opponent begins an active escape sequence. Specifically, the best moment is when the opponent has settled into a defensive turtle posture and is focused on protecting their neck and maintaining their elbow-to-knee shell rather than explosively moving. Attempting the transition during an active escape creates a scramble, while waiting too long allows them to build a plan and begin executing it.",
+        "answer_line": "Settled turtle, before escape",
+        "distractors": {
+          "plausible": [
+            "The moment you get any grip",
+            "Once they build an escape plan"
+          ],
+          "trap": [
+            "Mid-scramble, right as they move"
+          ]
+        }
       },
       {
         "question": "Why must near-arm control be established before the hip walk begins?",
-        "answer": "Near-arm control eliminates the opponent's ability to post on the side you are rotating toward. Without it, as you walk your hips perpendicular, the opponent can extend their arm to create a frame that blocks your rotation and creates space for guard recovery. The near arm is also their primary tool for generating the base needed to stand up or sit through. Controlling it first removes their most immediate defensive option and makes the subsequent angle change significantly safer."
+        "answer": "Near-arm control eliminates the opponent's ability to post on the side you are rotating toward. Without it, as you walk your hips perpendicular, the opponent can extend their arm to create a frame that blocks your rotation and creates space for guard recovery. The near arm is also their primary tool for generating the base needed to stand up or sit through. Controlling it first removes their most immediate defensive option and makes the subsequent angle change significantly safer.",
+        "answer_line": "Prevents post that blocks turn",
+        "distractors": {
+          "plausible": [
+            "Sets up an immediate armlock",
+            "Stops them from sitting only"
+          ],
+          "trap": [
+            "Control the far arm instead"
+          ]
+        }
       },
       {
         "question": "Your opponent has an extremely tight turtle with elbows glued to knees—how do you create the opening for near-arm control?",
-        "answer": "Use collar or neck threats to force them to react and open their defensive shell. Establish a deep collar grip and begin applying clock choke pressure—this forces the opponent to address the choke with at least one hand, breaking their elbow-to-knee seal. Alternatively, use heavy chest pressure combined with a crossface to flatten their posture slightly, which naturally opens space between their elbows and knees. The tight turtle protects against arm access but is vulnerable to collar-based attacks that force the arms to move defensively."
+        "answer": "Use collar or neck threats to force them to react and open their defensive shell. Establish a deep collar grip and begin applying clock choke pressure—this forces the opponent to address the choke with at least one hand, breaking their elbow-to-knee seal. Alternatively, use heavy chest pressure combined with a crossface to flatten their posture slightly, which naturally opens space between their elbows and knees. The tight turtle protects against arm access but is vulnerable to collar-based attacks that force the arms to move defensively.",
+        "answer_line": "Threaten collar/clock choke",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow off the knee",
+            "Underhook and lift the hip"
+          ],
+          "trap": [
+            "Yank the near arm out hard"
+          ]
+        }
       },
       {
         "question": "What is the critical hip angle relative to the opponent's spine in the completed Rodeo Ride position?",
-        "answer": "The completed position requires your hips to be approximately 90 degrees (perpendicular) to the opponent's spine, with your hip loaded onto their torso between the shoulder and hip line. Being less than perpendicular (still partially behind them) reduces your control leverage and allows them to roll or sit through more easily. Being past perpendicular (approaching their front) risks them turning into you for guard recovery. The 90-degree angle maximizes your ability to control both their rotation and their lateral movement simultaneously."
+        "answer": "The completed position requires your hips to be approximately 90 degrees (perpendicular) to the opponent's spine, with your hip loaded onto their torso between the shoulder and hip line. Being less than perpendicular (still partially behind them) reduces your control leverage and allows them to roll or sit through more easily. Being past perpendicular (approaching their front) risks them turning into you for guard recovery. The 90-degree angle maximizes your ability to control both their rotation and their lateral movement simultaneously.",
+        "answer_line": "90 degrees, perpendicular hip",
+        "distractors": {
+          "plausible": [
+            "45 degrees, angled behind",
+            "120 degrees, near their front"
+          ],
+          "trap": [
+            "Directly behind, hips square"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between standard turtle top control and Rodeo Ride?",
-        "answer": "Standard turtle top applies force primarily downward through the chest onto the opponent's back, compressing them toward the mat vertically. Rodeo Ride applies force laterally and diagonally—your loaded hip drives into the side of their torso while your chest maintains contact with their back from an angle. This lateral pressure vector is much harder to defend because turtle escapes (granby, sit-back, standup) are designed to counter vertical pressure. The perpendicular force requires the opponent to develop entirely different escape mechanics."
+        "answer": "Standard turtle top applies force primarily downward through the chest onto the opponent's back, compressing them toward the mat vertically. Rodeo Ride applies force laterally and diagonally—your loaded hip drives into the side of their torso while your chest maintains contact with their back from an angle. This lateral pressure vector is much harder to defend because turtle escapes (granby, sit-back, standup) are designed to counter vertical pressure. The perpendicular force requires the opponent to develop entirely different escape mechanics.",
+        "answer_line": "Lateral hip drive, not downward",
+        "distractors": {
+          "plausible": [
+            "Diagonal drive toward the legs",
+            "Heavier downward chest pressure"
+          ],
+          "trap": [
+            "Push straight down harder"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a sit-back escape just as you start walking your hips—should you continue or abort?",
-        "answer": "Abort the angle change and follow their hips down immediately. A mid-transition sit-back catches you in a compromised position where your weight is partially shifted but your control is not yet established. Instead, drive your chest pressure forward and down to stuff the sit-back attempt, re-establish standard turtle top control, and then reattempt the Rodeo Ride transition once they return to a defensive turtle posture. Forcing the entry against an active escape is the most common reason practitioners lose the position entirely."
+        "answer": "Abort the angle change and follow their hips down immediately. A mid-transition sit-back catches you in a compromised position where your weight is partially shifted but your control is not yet established. Instead, drive your chest pressure forward and down to stuff the sit-back attempt, re-establish standard turtle top control, and then reattempt the Rodeo Ride transition once they return to a defensive turtle posture. Forcing the entry against an active escape is the most common reason practitioners lose the position entirely.",
+        "answer_line": "Abort, stuff the sit-back",
+        "distractors": {
+          "plausible": [
+            "Continue walking hips faster",
+            "Switch to a choke immediately"
+          ],
+          "trap": [
+            "Force the angle change anyway"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the highest-percentage entry in gi versus no-gi?",
-        "answer": "In gi, the highest-percentage configuration is near-side wrist control combined with a deep cross-collar grip on the far lapel. The collar grip provides a powerful anchor that controls rotation and immediately threatens clock choke. In no-gi, the optimal configuration is a near-side underhook with wrist control combined with a crossface or far-shoulder control. Without collar grips, body positioning and the underhook become your primary control mechanisms, requiring tighter chest-to-back contact throughout the transition."
+        "answer": "In gi, the highest-percentage configuration is near-side wrist control combined with a deep cross-collar grip on the far lapel. The collar grip provides a powerful anchor that controls rotation and immediately threatens clock choke. In no-gi, the optimal configuration is a near-side underhook with wrist control combined with a crossface or far-shoulder control. Without collar grips, body positioning and the underhook become your primary control mechanisms, requiring tighter chest-to-back contact throughout the transition.",
+        "answer_line": "Gi: collar grip; no-gi: underhook",
+        "distractors": {
+          "plausible": [
+            "Gi: overhook; no-gi: collar tie",
+            "Both rely on the same wrist lock"
+          ],
+          "trap": [
+            "Grab both far-side lapels only"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully posts their near arm and blocks your angle change, what are your chain attack options?",
-        "answer": "A posted near arm opens several opportunities: first, transition to a kimura attack by controlling their posted wrist and rotating the shoulder; second, use two-on-one grip fighting to strip their post and reattempt the entry; third, abandon the Rodeo Ride approach and use the posting arm as leverage for a front headlock spiral entry from the other side; fourth, attack the crucifix position by trapping their extended arm between your legs. The posted arm is a defensive commitment that creates vulnerability—the opponent cannot simultaneously post and protect against arm attacks."
+        "answer": "A posted near arm opens several opportunities: first, transition to a kimura attack by controlling their posted wrist and rotating the shoulder; second, use two-on-one grip fighting to strip their post and reattempt the entry; third, abandon the Rodeo Ride approach and use the posting arm as leverage for a front headlock spiral entry from the other side; fourth, attack the crucifix position by trapping their extended arm between your legs. The posted arm is a defensive commitment that creates vulnerability—the opponent cannot simultaneously post and protect against arm attacks.",
+        "answer_line": "Kimura the posted arm",
+        "distractors": {
+          "plausible": [
+            "Switch straight to back mount",
+            "Abandon and reset to neutral"
+          ],
+          "trap": [
+            "Let go and re-grip near side"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to Rodeo Ride involves loading significant hip pressure onto the opponent's torso and ribs. Avoid dropping your full weight suddenly, particularly in training, as this can cause rib injuries or thoracic spine compression. When drilling, load pressure gradually and communicate with your partner about pressure intensity. The near-arm control should not involve hyper-extending the shoulder—control the wrist or elbow rather than cranking the arm into uncomfortable positions. During the hip walk phase, be aware of your knee placement to avoid accidentally driving your knee into your partner's face or neck. In competition, these considerations still apply but the pace of entry is naturally faster.",
@@ -415,19 +495,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that signals a Rodeo Ride entry attempt?",
-        "answer": "The earliest cue is feeling the opponent's pressure shift from bilateral (even across your back from directly behind) to unilateral (concentrated on one side). This shift happens before they secure any grips and indicates they are beginning the angle change. The second earliest cue is feeling a hand threading between your elbow and knee toward your near arm. Recognizing these early signals gives you the maximum defensive window to prevent the entry."
+        "answer": "The earliest cue is feeling the opponent's pressure shift from bilateral (even across your back from directly behind) to unilateral (concentrated on one side). This shift happens before they secure any grips and indicates they are beginning the angle change. The second earliest cue is feeling a hand threading between your elbow and knee toward your near arm. Recognizing these early signals gives you the maximum defensive window to prevent the entry.",
+        "answer_line": "Pressure shifts to one side",
+        "distractors": {
+          "plausible": [
+            "They grip your far collar",
+            "Feeling a hand thread for wrist"
+          ],
+          "trap": [
+            "Wait for the hip to load fully"
+          ]
+        }
       },
       {
         "question": "Why is the mid-transition moment the best timing for defensive escape attempts?",
-        "answer": "During mid-transition, the opponent has partially committed their weight to the angle change but has not yet established the full control configuration (loaded hip, near-arm control, posted leg). Their weight is shifting between positions, their grips may be in transition, and their base is less stable than either standard turtle top or completed Rodeo Ride. Escaping during this window catches them in their most vulnerable state. Before the transition, they have stable turtle top control; after, they have stable Rodeo Ride control. The middle is where instability lives."
+        "answer": "During mid-transition, the opponent has partially committed their weight to the angle change but has not yet established the full control configuration (loaded hip, near-arm control, posted leg). Their weight is shifting between positions, their grips may be in transition, and their base is less stable than either standard turtle top or completed Rodeo Ride. Escaping during this window catches them in their most vulnerable state. Before the transition, they have stable turtle top control; after, they have stable Rodeo Ride control. The middle is where instability lives.",
+        "answer_line": "Their base is least stable then",
+        "distractors": {
+          "plausible": [
+            "Grips are already fully set",
+            "They're most tired at that point"
+          ],
+          "trap": [
+            "Wait until Rodeo Ride is locked"
+          ]
+        }
       },
       {
         "question": "If Rodeo Ride is fully established, what should your primary defensive focus be?",
-        "answer": "Once Rodeo Ride is fully established, your primary focus must shift from preventing the position to preventing back exposure and hook insertion. The opponent will use Rodeo Ride as a launching pad for back takes, so defend the hooks above all else. Fight grips targeting your hips and legs, maintain your elbow-to-knee shell to prevent arm-based back take setups, and look for moments during the opponent's attack attempts to execute escape sequences. Accept that you are in a bad position and focus on incremental improvement rather than gambling on low-percentage explosive escapes."
+        "answer": "Once Rodeo Ride is fully established, your primary focus must shift from preventing the position to preventing back exposure and hook insertion. The opponent will use Rodeo Ride as a launching pad for back takes, so defend the hooks above all else. Fight grips targeting your hips and legs, maintain your elbow-to-knee shell to prevent arm-based back take setups, and look for moments during the opponent's attack attempts to execute escape sequences. Accept that you are in a bad position and focus on incremental improvement rather than gambling on low-percentage explosive escapes.",
+        "answer_line": "Defend hooks, deny the back",
+        "distractors": {
+          "plausible": [
+            "Explode out immediately",
+            "Fight the hip pressure only"
+          ],
+          "trap": [
+            "Reach back to strip their hip"
+          ]
+        }
       },
       {
         "question": "Why is rolling toward the opponent's posted leg more effective than rolling away from it?",
-        "answer": "The opponent's posted leg is their primary base point—it is what keeps them stable during Rodeo Ride. Rolling toward it forces them to either lift the posted leg to follow you (destroying their own base) or let you roll past it (creating separation and escape opportunity). Rolling away from the posted leg takes you into the direction where the opponent's loaded hip and upper body pressure are strongest, essentially helping them maintain control. The posted leg side is the structural weakness in their position."
+        "answer": "The opponent's posted leg is their primary base point—it is what keeps them stable during Rodeo Ride. Rolling toward it forces them to either lift the posted leg to follow you (destroying their own base) or let you roll past it (creating separation and escape opportunity). Rolling away from the posted leg takes you into the direction where the opponent's loaded hip and upper body pressure are strongest, essentially helping them maintain control. The posted leg side is the structural weakness in their position.",
+        "answer_line": "Attacks their base, the post leg",
+        "distractors": {
+          "plausible": [
+            "Rolling either way works the same",
+            "Roll toward their loaded hip side"
+          ],
+          "trap": [
+            "Roll away from the posted leg"
+          ]
+        }
       }
     ],
     "training_progressions": [

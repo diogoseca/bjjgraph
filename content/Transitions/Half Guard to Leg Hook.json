@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "Why must upper body control be established before attempting the hook insertion?",
-        "answer": "The hook insertion requires a brief weight shift that creates a vulnerability window. Without established crossface or underhook control, the bottom player can exploit this weight shift to sweep, recover full guard, or take the back. Upper body dominance pins the bottom player and limits their ability to react to the leg repositioning. The crossface specifically turns their head away, reducing their awareness of the hook insertion and slowing their defensive response."
+        "answer": "The hook insertion requires a brief weight shift that creates a vulnerability window. Without established crossface or underhook control, the bottom player can exploit this weight shift to sweep, recover full guard, or take the back. Upper body dominance pins the bottom player and limits their ability to react to the leg repositioning. The crossface specifically turns their head away, reducing their awareness of the hook insertion and slowing their defensive response.",
+        "answer_line": "Controls reaction to weight shift",
+        "distractors": {
+          "plausible": [
+            "Makes the hook insertion faster",
+            "Sets up an immediate submission"
+          ],
+          "trap": [
+            "Insert hook before upper control"
+          ]
+        }
       },
       {
         "question": "What hip movement pattern creates the most effective hook insertion?",
-        "answer": "Hip rotation rather than hip elevation produces the most effective hook insertion. The foot should travel in a compact circular path, curling inward underneath the bottom player's knee through rotation of the hip joint. Lifting the hips to create space for the foot is a common error that exposes you to deep half entries and butterfly hook insertions. The rotation keeps your hips low and maintains forward pressure throughout the insertion."
+        "answer": "Hip rotation rather than hip elevation produces the most effective hook insertion. The foot should travel in a compact circular path, curling inward underneath the bottom player's knee through rotation of the hip joint. Lifting the hips to create space for the foot is a common error that exposes you to deep half entries and butterfly hook insertions. The rotation keeps your hips low and maintains forward pressure throughout the insertion.",
+        "answer_line": "Rotate hip, small circular path",
+        "distractors": {
+          "plausible": [
+            "Swing foot in a wide arc",
+            "Drive knee straight across"
+          ],
+          "trap": [
+            "Lift hips for insertion space"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong knee shield as you begin the hook insertion. How do you adjust?",
-        "answer": "Stop the hook insertion attempt and address the knee shield first. Use your far-side hand to push their top knee toward the mat while driving shoulder pressure forward, or switch to a long step approach to collapse the shield from the outside. Attempting to force the hook against an active knee shield will fail and waste positional advantage. Once the shield is cleared, restart the hook insertion sequence from the beginning."
+        "answer": "Stop the hook insertion attempt and address the knee shield first. Use your far-side hand to push their top knee toward the mat while driving shoulder pressure forward, or switch to a long step approach to collapse the shield from the outside. Attempting to force the hook against an active knee shield will fail and waste positional advantage. Once the shield is cleared, restart the hook insertion sequence from the beginning.",
+        "answer_line": "Clear knee shield, then restart",
+        "distractors": {
+          "plausible": [
+            "Power through the shield",
+            "Switch immediately to backstep"
+          ],
+          "trap": [
+            "Force hook past the shield"
+          ]
+        }
       },
       {
         "question": "What are the three points of contact that create stable base during the transition?",
-        "answer": "The three points are: the hooked leg providing lower body control and forward drive, the posted free leg with foot planted on the mat providing lateral stability and sweep resistance, and the upper body pressure through chest and shoulder maintaining top control and pinning the bottom player. Weight must be distributed dynamically across all three points, shifting emphasis based on the bottom player's reactions to maintain control throughout."
+        "answer": "The three points are: the hooked leg providing lower body control and forward drive, the posted free leg with foot planted on the mat providing lateral stability and sweep resistance, and the upper body pressure through chest and shoulder maintaining top control and pinning the bottom player. Weight must be distributed dynamically across all three points, shifting emphasis based on the bottom player's reactions to maintain control throughout.",
+        "answer_line": "Hook leg, posted leg, chest",
+        "distractors": {
+          "plausible": [
+            "Both legs and one arm",
+            "Hook leg, head, and hip"
+          ],
+          "trap": [
+            "Two hands and hooked leg only"
+          ]
+        }
       },
       {
         "question": "How does the bottom player most commonly counter the hook insertion, and what is the optimal prevention?",
-        "answer": "The most common high-percentage counter is ducking underneath during the weight shift to enter deep half guard. The bottom player uses the momentary space created during hook threading to swim their head under your body and establish deep half control. Prevention requires keeping hips low throughout insertion, maintaining heavy forward chest pressure, and using hip rotation rather than elevation for the hook motion. If you feel them beginning to duck, immediately sprawl your hips back and drive your weight down."
+        "answer": "The most common high-percentage counter is ducking underneath during the weight shift to enter deep half guard. The bottom player uses the momentary space created during hook threading to swim their head under your body and establish deep half control. Prevention requires keeping hips low throughout insertion, maintaining heavy forward chest pressure, and using hip rotation rather than elevation for the hook motion. If you feel them beginning to duck, immediately sprawl your hips back and drive your weight down.",
+        "answer_line": "Deep half duck; keep hips low",
+        "distractors": {
+          "plausible": [
+            "Bridge escape; post free leg",
+            "Knee shield; frame the arm"
+          ],
+          "trap": [
+            "Lift hips to block the duck"
+          ]
+        }
       },
       {
         "question": "Why should you treat the Leg Hook position as transitional rather than a destination?",
-        "answer": "The Leg Hook position is mechanically unstable for long-term control because the bottom player retains enough mobility to develop counters over time, including frame establishment, deep half entries, and lockdown re-entanglement. The position's value lies in the temporary control advantage it provides for completing a specific guard pass. Settling into it without a clear passing plan gives the bottom player time to adapt, negating the positional advantage you worked to establish."
+        "answer": "The Leg Hook position is mechanically unstable for long-term control because the bottom player retains enough mobility to develop counters over time, including frame establishment, deep half entries, and lockdown re-entanglement. The position's value lies in the temporary control advantage it provides for completing a specific guard pass. Settling into it without a clear passing plan gives the bottom player time to adapt, negating the positional advantage you worked to establish.",
+        "answer_line": "Bottom player counters over time",
+        "distractors": {
+          "plausible": [
+            "It's illegal to hold too long",
+            "It's a dominant pin position"
+          ],
+          "trap": [
+            "Settle in and control the pace"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges hard during the weight shift phase of the insertion. What is your immediate response?",
-        "answer": "Post the free leg wide immediately and drive your chest weight down onto their sternum or shoulder. The bridge requires space underneath your body to be effective, so eliminating that space by driving weight down absorbs the force. Do not attempt to balance on your knees or hands, as this elevates your center of gravity. If the bridge creates significant displacement, abandon the hook attempt, re-establish half guard top control with crossface, and restart the sequence once stability is restored."
+        "answer": "Post the free leg wide immediately and drive your chest weight down onto their sternum or shoulder. The bridge requires space underneath your body to be effective, so eliminating that space by driving weight down absorbs the force. Do not attempt to balance on your knees or hands, as this elevates your center of gravity. If the bridge creates significant displacement, abandon the hook attempt, re-establish half guard top control with crossface, and restart the sequence once stability is restored.",
+        "answer_line": "Post leg wide, drive chest down",
+        "distractors": {
+          "plausible": [
+            "Balance on hands, ride the bridge",
+            "Sit back onto your heels"
+          ],
+          "trap": [
+            "Rise up onto knees for base"
+          ]
+        }
       },
       {
         "question": "What grip or control should your far-side hand maintain during the hook insertion?",
-        "answer": "The far-side hand should control the bottom player's far hip, gripping the hip bone or belt line to prevent hip escape during the hook insertion. This hip control is critical because it tethers the bottom player in place while your leg repositions. Without this grip, the bottom player can shrimp away from the hook, re-establish distance, and recover their guard structure. Some practitioners alternatively use an underhook with the far arm, but hip control is more reliable for preventing the specific escapes available during hook insertion."
+        "answer": "The far-side hand should control the bottom player's far hip, gripping the hip bone or belt line to prevent hip escape during the hook insertion. This hip control is critical because it tethers the bottom player in place while your leg repositions. Without this grip, the bottom player can shrimp away from the hook, re-establish distance, and recover their guard structure. Some practitioners alternatively use an underhook with the far arm, but hip control is more reliable for preventing the specific escapes available during hook insertion.",
+        "answer_line": "Grip far hip to prevent escape",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm instead",
+            "Grip the far collar or lapel"
+          ],
+          "trap": [
+            "Post the far hand on the mat"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves controlled weight distribution and leg repositioning without significant joint stress or compression risk. The primary safety concern is maintaining awareness of your partner's neck and spine during the crossface application; avoid driving crossface pressure directly into the throat. During training, ensure gradual weight application during the consolidation phase to prevent rib compression injuries. Communicate with your partner about pressure tolerance and avoid explosive movements during the hook insertion that could torque the knee of either practitioner.",
@@ -392,23 +472,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the Transition to Leg Hook?",
-        "answer": "The earliest cue is a change in the quality of pressure on your entangling legs from downward pulling (standard extraction attempt) to a rotational or circular motion as the top player begins threading their foot underneath your knee. This is often preceded by them establishing heavier upper body pressure and moving their far hand to your hip. Recognizing this early shift gives you maximum time to implement defensive responses before the hook clears your knee line."
+        "answer": "The earliest cue is a change in the quality of pressure on your entangling legs from downward pulling (standard extraction attempt) to a rotational or circular motion as the top player begins threading their foot underneath your knee. This is often preceded by them establishing heavier upper body pressure and moving their far hand to your hip. Recognizing this early shift gives you maximum time to implement defensive responses before the hook clears your knee line.",
+        "answer_line": "Pull shifts to circular pressure",
+        "distractors": {
+          "plausible": [
+            "Sudden release of all pressure",
+            "Opponent grips your far collar"
+          ],
+          "trap": [
+            "They pull straight down harder"
+          ]
+        }
       },
       {
         "question": "Why is the deep half entry the most effective counter to the hook insertion?",
-        "answer": "Deep half entry exploits the exact vulnerability the hook insertion creates: the top player must shift their weight and lift their hips slightly to thread the hook, which creates space underneath their body. This space is precisely what deep half guard requires for entry. By timing your duck underneath their body during their weight shift, you convert their offensive action into your counter-offensive position. The deep half position also completely negates the hook because it changes the leg configuration entirely."
+        "answer": "Deep half entry exploits the exact vulnerability the hook insertion creates: the top player must shift their weight and lift their hips slightly to thread the hook, which creates space underneath their body. This space is precisely what deep half guard requires for entry. By timing your duck underneath their body during their weight shift, you convert their offensive action into your counter-offensive position. The deep half position also completely negates the hook because it changes the leg configuration entirely.",
+        "answer_line": "Exploits the weight-shift gap",
+        "distractors": {
+          "plausible": [
+            "Blocks the hook with knee pinch",
+            "Times a bridge during insertion"
+          ],
+          "trap": [
+            "Wait until the hook fully locks"
+          ]
+        }
       },
       {
         "question": "When should you prioritize knee shield recovery versus attempting a sweep?",
-        "answer": "Prioritize knee shield recovery when you detect the transition early and your upper body frames are compromised, as the shield provides immediate structural defense that buys time. Attempt a sweep when the transition is already in progress and the top player's weight is distributed unevenly during the insertion, creating a vulnerability window that a properly timed bridge can exploit. If you cannot determine which option to pursue, default to knee shield recovery as it is lower risk and resets the position."
+        "answer": "Prioritize knee shield recovery when you detect the transition early and your upper body frames are compromised, as the shield provides immediate structural defense that buys time. Attempt a sweep when the transition is already in progress and the top player's weight is distributed unevenly during the insertion, creating a vulnerability window that a properly timed bridge can exploit. If you cannot determine which option to pursue, default to knee shield recovery as it is lower risk and resets the position.",
+        "answer_line": "Early: shield; mid: timed sweep",
+        "distractors": {
+          "plausible": [
+            "Always sweep, never shield",
+            "Wait, then attempt a submission"
+          ],
+          "trap": [
+            "Default to a big bridge sweep"
+          ]
+        }
       },
       {
         "question": "What role does your free leg play in preventing the hook insertion?",
-        "answer": "The free leg serves as a dynamic defensive tool that can push against the top player's hip to create distance preventing the close-range contact needed for hook threading, establish a butterfly hook underneath to disrupt their base during the insertion, or push off the mat to power bridge and sweep attempts. A passive free leg wastes your most mobile defensive resource. Keep it active throughout the defense, adjusting its role based on which defensive strategy you are implementing."
+        "answer": "The free leg serves as a dynamic defensive tool that can push against the top player's hip to create distance preventing the close-range contact needed for hook threading, establish a butterfly hook underneath to disrupt their base during the insertion, or push off the mat to power bridge and sweep attempts. A passive free leg wastes your most mobile defensive resource. Keep it active throughout the defense, adjusting its role based on which defensive strategy you are implementing.",
+        "answer_line": "Push hip, hook, or power bridge",
+        "distractors": {
+          "plausible": [
+            "Keep it flat and passive",
+            "Wrap it around their back"
+          ],
+          "trap": [
+            "Tuck it under your own hip"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially inserted the hook but has not yet consolidated the position. What is your best option?",
-        "answer": "Your best option is an immediate deep half entry, as the partial hook means their weight is already shifted and space exists underneath their body. The partial hook actually helps your deep half entry because it means their leg is already partially committed in a position you can control from deep half. Alternatively, attempt a strong bridge toward the hook side before they consolidate their three-point base. Do not try to close your knees now, as the hook is already past the point where knee pinching is effective."
+        "answer": "Your best option is an immediate deep half entry, as the partial hook means their weight is already shifted and space exists underneath their body. The partial hook actually helps your deep half entry because it means their leg is already partially committed in a position you can control from deep half. Alternatively, attempt a strong bridge toward the hook side before they consolidate their three-point base. Do not try to close your knees now, as the hook is already past the point where knee pinching is effective.",
+        "answer_line": "Deep half entry immediately",
+        "distractors": {
+          "plausible": [
+            "Close your knees to block it",
+            "Wait for full consolidation"
+          ],
+          "trap": [
+            "Pinch knees together now"
+          ]
+        }
       }
     ],
     "training_progressions": [

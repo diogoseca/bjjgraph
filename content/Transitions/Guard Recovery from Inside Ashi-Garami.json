@@ -246,43 +246,143 @@
     "flashcards": [
       {
         "question": "What is the fundamental difference in leg orientation between Inside Ashi-Garami and open guard that makes this recovery challenging?",
-        "answer": "In Inside Ashi-Garami, both legs wrap around a single leg of the opponent with your hips angled toward their lower body. In open guard, your legs create barriers across the opponent's torso with your hips facing their centerline. The recovery requires transitioning from wrapping one leg to spanning across the torso, plus a significant hip rotation from leg-facing to torso-facing orientation. This reorientation under pressure is the core difficulty."
+        "answer": "In Inside Ashi-Garami, both legs wrap around a single leg of the opponent with your hips angled toward their lower body. In open guard, your legs create barriers across the opponent's torso with your hips facing their centerline. The recovery requires transitioning from wrapping one leg to spanning across the torso, plus a significant hip rotation from leg-facing to torso-facing orientation. This reorientation under pressure is the core difficulty.",
+        "answer_line": "One-leg wrap vs torso-spanning legs",
+        "distractors": {
+          "plausible": [
+            "Hips rotate, legs stay the same",
+            "Just different grip fighting"
+          ],
+          "trap": [
+            "No reorientation is needed"
+          ]
+        }
       },
       {
         "question": "Why should you release legs sequentially rather than simultaneously during Inside Ashi-Garami guard recovery?",
-        "answer": "Simultaneous release creates a gap where no legs control the opponent, allowing them to immediately advance to top position without any barrier. Sequential release ensures continuous leg contact—the first leg released immediately becomes a foot-on-hip barrier while the second leg is still in the entanglement, maintaining distance management throughout the transition and preventing the opponent from freely closing the gap."
+        "answer": "Simultaneous release creates a gap where no legs control the opponent, allowing them to immediately advance to top position without any barrier. Sequential release ensures continuous leg contact—the first leg released immediately becomes a foot-on-hip barrier while the second leg is still in the entanglement, maintaining distance management throughout the transition and preventing the opponent from freely closing the gap.",
+        "answer_line": "Release legs one at a time",
+        "distractors": {
+          "plausible": [
+            "Free the outside leg first",
+            "Keep both hooks until clear"
+          ],
+          "trap": [
+            "Release both legs simultaneously"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping over your inside leg to counter-entangle during your guard recovery—what is your immediate response?",
-        "answer": "Abandon the guard recovery and address the counter-entanglement first. If their foot crosses over your inside leg, immediately clear your heel from any hooking danger by pulling your foot to your buttock and rotating your knee inward. Then work to extract your leg from the counter-entanglement before resuming the guard recovery sequence. Continuing the guard recovery while being counter-entangled results in a worse positional outcome than pausing to address the immediate threat."
+        "answer": "Abandon the guard recovery and address the counter-entanglement first. If their foot crosses over your inside leg, immediately clear your heel from any hooking danger by pulling your foot to your buttock and rotating your knee inward. Then work to extract your leg from the counter-entanglement before resuming the guard recovery sequence. Continuing the guard recovery while being counter-entangled results in a worse positional outcome than pausing to address the immediate threat.",
+        "answer_line": "Clear heel danger first",
+        "distractors": {
+          "plausible": [
+            "Push through the guard recovery",
+            "Fight to re-secure your grip"
+          ],
+          "trap": [
+            "Try to stand up right away"
+          ]
+        }
       },
       {
         "question": "What transitional grip should you maintain during the leg disengagement and why is it important?",
-        "answer": "Maintain a grip on the opponent's near ankle or pant leg with one hand throughout the disengagement. This transitional grip prevents the opponent from freely standing up, stepping away, or establishing combat base during the window when your legs are transitioning from entanglement to guard barriers. Without this grip, the opponent controls the distance and timing of the transition, allowing them to choose the most advantageous passing position."
+        "answer": "Maintain a grip on the opponent's near ankle or pant leg with one hand throughout the disengagement. This transitional grip prevents the opponent from freely standing up, stepping away, or establishing combat base during the window when your legs are transitioning from entanglement to guard barriers. Without this grip, the opponent controls the distance and timing of the transition, allowing them to choose the most advantageous passing position.",
+        "answer_line": "Grip their ankle throughout",
+        "distractors": {
+          "plausible": [
+            "Grip their collar instead",
+            "Release grips to move faster"
+          ],
+          "trap": [
+            "Let go to create distance"
+          ]
+        }
       },
       {
         "question": "When should you choose butterfly guard versus De La Riva guard as your recovery target from Inside Ashi-Garami?",
-        "answer": "Choose butterfly guard when the opponent stays at close range on their knees during the disengagement, as your legs are already in proximity for hook insertion under their thighs. Choose De La Riva guard when the opponent stands during extraction, as the standing position creates the foot-on-hip distance and leg angle needed for De La Riva hook placement. The opponent's posture during the transition determines which guard variation is mechanically available."
+        "answer": "Choose butterfly guard when the opponent stays at close range on their knees during the disengagement, as your legs are already in proximity for hook insertion under their thighs. Choose De La Riva guard when the opponent stands during extraction, as the standing position creates the foot-on-hip distance and leg angle needed for De La Riva hook placement. The opponent's posture during the transition determines which guard variation is mechanically available.",
+        "answer_line": "Kneeling=butterfly, standing=DLR",
+        "distractors": {
+          "plausible": [
+            "Always default to De La Riva",
+            "Choose based on your fatigue"
+          ],
+          "trap": [
+            "Butterfly only if they're standing"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to initiate guard recovery rather than continuing to pursue submissions from Inside Ashi-Garami?",
-        "answer": "Initiate guard recovery when two or more of these indicators are present: the opponent has cleared their heel from your grip configuration, they have broken your figure-four or C-grip on their heel, they have begun stepping over your inside leg, or you have exhausted grip strength from extended grip fighting. The ideal timing is to begin recovery during the opponent's extraction movement, using their momentum and directional movement to assist your leg repositioning rather than fighting against their escape direction."
+        "answer": "Initiate guard recovery when two or more of these indicators are present: the opponent has cleared their heel from your grip configuration, they have broken your figure-four or C-grip on their heel, they have begun stepping over your inside leg, or you have exhausted grip strength from extended grip fighting. The ideal timing is to begin recovery during the opponent's extraction movement, using their momentum and directional movement to assist your leg repositioning rather than fighting against their escape direction.",
+        "answer_line": "Move with their extraction momentum",
+        "distractors": {
+          "plausible": [
+            "Wait until grips fully break",
+            "Recover only when fully gassed"
+          ],
+          "trap": [
+            "Fight their extraction direction"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when establishing the foot-on-hip barrier during the hip rotation phase?",
-        "answer": "Push diagonally away from your body through the opponent's hip crease, driving toward their far shoulder rather than straight up or straight forward. This diagonal vector simultaneously creates distance to prevent forward collapse and generates a lever point around which your hips can rotate from the ashi-facing angle to the torso-facing guard orientation. Avoid pushing straight upward, which the opponent can redirect by circling around your foot, or straight forward, which they can absorb by sitting their weight back."
+        "answer": "Push diagonally away from your body through the opponent's hip crease, driving toward their far shoulder rather than straight up or straight forward. This diagonal vector simultaneously creates distance to prevent forward collapse and generates a lever point around which your hips can rotate from the ashi-facing angle to the torso-facing guard orientation. Avoid pushing straight upward, which the opponent can redirect by circling around your foot, or straight forward, which they can absorb by sitting their weight back.",
+        "answer_line": "Push diagonal toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Push straight up off their hip",
+            "Push straight forward, driving"
+          ],
+          "trap": [
+            "Pull them in tight to your chest"
+          ]
+        }
       },
       {
         "question": "Your opponent controls your ankle as you attempt to place your foot on their hip during recovery—what is your immediate adjustment?",
-        "answer": "Circle your foot outward in a small arc to break their grip by leveraging the weakness of their thumb-side closure, then immediately re-place the foot on their hip or redirect to a shin frame across their midsection. If they maintain the ankle grip, use your other leg to create a temporary barrier—knee shield or butterfly hook—while you work to free the controlled foot. Do not try to power through their grip with a straight pull, as this wastes energy and keeps your leg extended where they have maximum leverage."
+        "answer": "Circle your foot outward in a small arc to break their grip by leveraging the weakness of their thumb-side closure, then immediately re-place the foot on their hip or redirect to a shin frame across their midsection. If they maintain the ankle grip, use your other leg to create a temporary barrier—knee shield or butterfly hook—while you work to free the controlled foot. Do not try to power through their grip with a straight pull, as this wastes energy and keeps your leg extended where they have maximum leverage.",
+        "answer_line": "Circle foot to break the grip",
+        "distractors": {
+          "plausible": [
+            "Yank foot straight back hard",
+            "Switch to the other leg fully"
+          ],
+          "trap": [
+            "Power pull against their grip"
+          ]
+        }
       },
       {
         "question": "After recovering to open guard from Inside Ashi-Garami, what immediate offensive threats should you establish to prevent the opponent from settling?",
-        "answer": "Immediately threaten a sweep to force the opponent into defensive mode rather than allowing them to organize passing grips and base. If at close range with butterfly hooks available, load a butterfly sweep to force them to post their hands. If at longer range, establish De La Riva or shin-to-shin connection while threatening a collar drag or arm drag. The transition from recovery to offensive guard must be seamless with no pause—any gap allows the opponent to settle into their preferred passing stance, negating the guard recovery entirely."
+        "answer": "Immediately threaten a sweep to force the opponent into defensive mode rather than allowing them to organize passing grips and base. If at close range with butterfly hooks available, load a butterfly sweep to force them to post their hands. If at longer range, establish De La Riva or shin-to-shin connection while threatening a collar drag or arm drag. The transition from recovery to offensive guard must be seamless with no pause—any gap allows the opponent to settle into their preferred passing stance, negating the guard recovery entirely.",
+        "answer_line": "Immediately threaten a sweep",
+        "distractors": {
+          "plausible": [
+            "Rest before threatening offense",
+            "Focus on closing your guard"
+          ],
+          "trap": [
+            "Pause to reset your grips first"
+          ]
+        }
       },
       {
         "question": "Your opponent applies heavy forward pressure during the hip rotation phase, threatening to flatten you—how do you modify the recovery?",
-        "answer": "Convert the forward pressure into sweep energy by loading a butterfly hook under their thigh as they drive forward, using their own momentum to elevate and off-balance them. If butterfly hook insertion is not possible, use the foot-on-hip barrier to redirect their pressure laterally by angling your push to the side rather than absorbing it head-on. The larger opponent's forward drive actually accelerates your hip rotation if you redirect it properly—their pressure becomes the force that swings your hips around the foot-on-hip pivot point."
+        "answer": "Convert the forward pressure into sweep energy by loading a butterfly hook under their thigh as they drive forward, using their own momentum to elevate and off-balance them. If butterfly hook insertion is not possible, use the foot-on-hip barrier to redirect their pressure laterally by angling your push to the side rather than absorbing it head-on. The larger opponent's forward drive actually accelerates your hip rotation if you redirect it properly—their pressure becomes the force that swings your hips around the foot-on-hip pivot point.",
+        "answer_line": "Convert pressure into a sweep",
+        "distractors": {
+          "plausible": [
+            "Absorb pressure and turtle up",
+            "Push straight back against them"
+          ],
+          "trap": [
+            "Post hands and try to sit up"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard recovery from Inside Ashi-Garami requires careful attention to knee safety during the leg disengagement phase. The inside leg is particularly vulnerable to twisting forces if the opponent applies lateral pressure during extraction while your foot is still hooked. Release entanglement controls smoothly rather than explosively jerking your legs free, which can cause knee ligament strain. Be mindful of heel hook danger to both players during the scramble—communicate clearly with training partners about the transition and avoid cranking leg locks during the disengagement window when positions are changing rapidly.",
@@ -385,15 +485,45 @@
     "flashcards": [
       {
         "question": "What is the highest-percentage advancement option when you recognize the bottom player is disengaging from Inside Ashi-Garami?",
-        "answer": "Counter-entanglement is the highest-percentage option because the bottom player's legs are most vulnerable during the disengagement phase. As they release their inside hooking leg, it becomes exposed for your counter-step, and their attention is divided between disengaging and composing guard. Securing your own ashi garami during this window reverses the positional dynamic from defensive to offensive with minimal effort, as you are capitalizing on the movement the bottom player is already creating."
+        "answer": "Counter-entanglement is the highest-percentage option because the bottom player's legs are most vulnerable during the disengagement phase. As they release their inside hooking leg, it becomes exposed for your counter-step, and their attention is divided between disengaging and composing guard. Securing your own ashi garami during this window reverses the positional dynamic from defensive to offensive with minimal effort, as you are capitalizing on the movement the bottom player is already creating.",
+        "answer_line": "Counter-entangle their leg",
+        "distractors": {
+          "plausible": [
+            "Chase a fresh submission attempt",
+            "Pass to the far side immediately"
+          ],
+          "trap": [
+            "Back away to reset distance"
+          ]
+        }
       },
       {
         "question": "When should you choose to stand rather than counter-entangle during Inside Ashi-Garami guard recovery?",
-        "answer": "Stand when the bottom player's leg disengagement is rapid and their legs are already transitioning toward guard barriers rather than remaining exposed for counter-entanglement. Also choose standing when you are fatigued from defending the leg attack and need to reset to a neutral position, or when your own leg lock defense skills make counter-entanglement risky. Standing creates vertical distance that denies close-range guard and allows you to establish combat base with fresh passing angles."
+        "answer": "Stand when the bottom player's leg disengagement is rapid and their legs are already transitioning toward guard barriers rather than remaining exposed for counter-entanglement. Also choose standing when you are fatigued from defending the leg attack and need to reset to a neutral position, or when your own leg lock defense skills make counter-entanglement risky. Standing creates vertical distance that denies close-range guard and allows you to establish combat base with fresh passing angles.",
+        "answer_line": "Stand when disengagement is fast",
+        "distractors": {
+          "plausible": [
+            "Always stand over entangling",
+            "Counter-entangle when fatigued"
+          ],
+          "trap": [
+            "Dive for a leg lock instead"
+          ]
+        }
       },
       {
         "question": "The bottom player has established one foot on your hip during their recovery—how do you prevent full guard recomposition?",
-        "answer": "Grip their ankle controlling the foot on your hip and redirect it either across your body for a leg drag or downward to remove the barrier. Simultaneously advance with your free hand on their other knee or hip to prevent the second leg from establishing a matching barrier. The single foot-on-hip is their intermediate barrier—address it immediately before the second leg arrives to complete the guard structure, as two legs in guard position is significantly harder to pass than one."
+        "answer": "Grip their ankle controlling the foot on your hip and redirect it either across your body for a leg drag or downward to remove the barrier. Simultaneously advance with your free hand on their other knee or hip to prevent the second leg from establishing a matching barrier. The single foot-on-hip is their intermediate barrier—address it immediately before the second leg arrives to complete the guard structure, as two legs in guard position is significantly harder to pass than one.",
+        "answer_line": "Grip ankle, redirect before 2nd leg",
+        "distractors": {
+          "plausible": [
+            "Wait for both legs to establish",
+            "Grab their far leg instead"
+          ],
+          "trap": [
+            "Back away to avoid the sweep"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -283,47 +283,137 @@
       {
         "question": "Why is the two-on-one wrist grip the most critical control point in this submission?",
         "answer": "The two-on-one wrist grip is the anchor that makes the entire transition possible. Without secure wrist control, the opponent can retract their arm during the leg swing, leaving you in a scramble position with no submission. The double grip prevents forearm rotation which would defeat the extension angle, controls the distance between the arm and their body preventing elbow retraction, and provides the resistance point needed for the hip-driven finish. Losing this grip at any point during the transition should abort the attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Anchors arm, blocks retraction",
+        "distractors": {
+          "plausible": [
+            "Mainly controls their posture",
+            "Secondary to hip pressure"
+          ],
+          "trap": [
+            "Release grip once leg swings over"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together to prevent the arm extension — what are your two primary responses?",
         "answer": "The first response is a grip attack: wedge your forearm under their clasped hands while controlling the wrist, then pry the hands apart using your entire body rather than just finger strength. The second and often more effective response is transitioning to a belly-down armbar by rotating face-down while maintaining the arm. The belly-down position dramatically increases your breaking leverage against clasped hands because your entire body weight rotates into the grip break. Choose belly-down when the standard grip attack fails after two attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pry the grip, or go belly-down",
+        "distractors": {
+          "plausible": [
+            "Pull the elbow to break grip",
+            "Switch straight to a choke"
+          ],
+          "trap": [
+            "Let go and re-shoot a kimura"
+          ]
+        }
       },
       {
         "question": "What is the breaking point indicator that tells you the submission is about to finish?",
         "answer": "The breaking point is indicated by the opponent's elbow clearing your hip line with their arm fully controlled. When their elbow extends past the fulcrum of your hips with their thumb facing the ceiling, progressive hip elevation will create irresistible extension pressure. Tactile indicators include feeling the opponent's arm straighten against your chest pressure, their grip defense weakening, and their body tensing as the joint approaches maximum range. At this point, slow your extension to give adequate tapping time — the joint is seconds from injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow past hip line, thumb up",
+        "distractors": {
+          "plausible": [
+            "Opponent simply stops moving",
+            "You feel their shoulder rotate"
+          ],
+          "trap": [
+            "Jerk hips up fast to finish"
+          ]
+        }
       },
       {
         "question": "Why should you never chase the armbar if the opponent retracts their arm before you secure wrist control?",
         "answer": "Chasing a retracted arm typically results in you leaning forward off your base, losing knee on belly position, and ending up in a scramble where the opponent recovers guard. The armbar from knee on belly relies on the opponent's arm being extended and isolated — without that prerequisite, the technique's mechanical advantage disappears. Instead, return to heavy knee pressure and wait for the next push reaction. The bottom player will push again because the diaphragm pressure is unsustainable, so patience costs nothing while chasing costs position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Return to knee pressure, wait",
+        "distractors": {
+          "plausible": [
+            "Scramble for a takedown instead",
+            "Switch immediately to guillotine"
+          ],
+          "trap": [
+            "Lunge forward to recapture arm"
+          ]
+        }
       },
       {
         "question": "How should you apply the finishing extension to minimize injury risk to your training partner?",
         "answer": "Apply the finish by elevating your hips slowly and progressively while keeping the opponent's wrist pinned to your chest. Never jerk, spike, or suddenly extend the arm. Increase pressure gradually over 2-3 seconds, giving your partner adequate time to recognize the submission is locked and tap before reaching the structural limit of the joint. If your partner is not tapping but you feel the arm is near full extension, pause and verbally confirm before continuing. The elbow joint has very limited tolerance for sudden force and can sustain ligament damage in fractions of a second.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elevate hips slowly, 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Snap hips up hard and fast",
+            "Extend arm the instant it's straight"
+          ],
+          "trap": [
+            "Jerk arm sharply if no tap yet"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to bridge and stack you during the finishing phase — what adjustment prevents the escape?",
         "answer": "When the opponent bridges toward you, use your near leg across their torso to drive heavy pressure downward on their chest, flattening them back to the mat. Simultaneously angle your upper body slightly away from the direction of their bridge to maintain leverage. If they continue stacking, tighten your knee squeeze and consider transitioning to a belly-down finish by rotating face-down, which reverses the dynamic and uses their stacking momentum against them. The key is recognizing the bridge early and responding with leg pressure before they generate full momentum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive near leg down, flatten them",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Sit back harder against the bridge"
+          ],
+          "trap": [
+            "Ride the stack's momentum passively"
+          ]
+        }
       },
       {
         "question": "What grip adjustments ensure the arm stays properly oriented for the finish?",
         "answer": "The opponent's thumb must point toward the ceiling in a supinated position throughout the finish. Control this orientation by gripping their wrist with your thumbs on the same side as their thumb, creating a rotational lock. If the arm begins rotating so the thumb points toward the mat, the extension force shifts off the elbow's vulnerable plane and the submission weakens dramatically. Correct this by rotating their forearm back using your wrist grip while maintaining downward chest pressure on their forearm. The pinky side of their wrist should be in contact with your sternum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumb up, pinky to your sternum",
+        "distractors": {
+          "plausible": [
+            "Rotate their wrist thumb-down",
+            "Grip the forearm, not the wrist"
+          ],
+          "trap": [
+            "Let arm rotate freely, finish anyway"
+          ]
+        }
       },
       {
         "question": "In competition, how does the armbar from knee on belly differ strategically from armbars set up from other positions?",
         "answer": "The armbar from knee on belly is one of the fastest submission entries in competition because it exploits an involuntary defensive reaction rather than requiring elaborate setups. Unlike the armbar from mount which requires progressively working through mount variations, or from guard which requires breaking posture, the KOB armbar can go from position to finish in under 3 seconds. This speed makes it difficult to defend on reaction. Competitively, it pairs with baseball bat choke threats to create an either-or dilemma: defend the choke and expose the arm, or protect the arm and get choked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fast entry off reflex push",
+        "distractors": {
+          "plausible": [
+            "Requires breaking posture first",
+            "Slower than a mount armbar setup"
+          ],
+          "trap": [
+            "Only works after a stalling call"
+          ]
+        }
       },
       {
         "question": "What are the specific control requirements that must be established before you commit to the finishing extension?",
         "answer": "Before extending, verify five control points: two-on-one wrist grip with opponent's thumb up, hips tight against the opponent's shoulder with zero gap, knees squeezed together around the upper arm creating the fulcrum, near leg heavy across opponent's torso preventing them from sitting up, and far leg pressed against the side of their head preventing them from turning toward you. Missing any of these five creates an escape pathway that the opponent will exploit under pressure. Only begin hip elevation once all five checkpoints are confirmed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist, hips, knees, both legs set",
+        "distractors": {
+          "plausible": [
+            "Just wrist grip and hip pressure",
+            "Knee squeeze alone is enough"
+          ],
+          "trap": [
+            "Extend immediately once arm bends"
+          ]
+        }
       }
     ],
     "clips": [
@@ -444,17 +534,47 @@
       {
         "question": "Why is it critical to tap early when caught in a fully locked armbar from knee on belly?",
         "answer": "The elbow joint provides very little tactile warning before structural failure. Unlike chokes where you may feel gradually increasing pressure, the elbow can transition from uncomfortable but manageable to ligament tear in a fraction of a second, especially when the attacker has tight hips and good knee squeeze. The rapid entry speed of this particular armbar means the attacker may have maximum leverage before you realize escape is impossible. Tapping early preserves your training longevity — elbow ligament injuries take 4-12 weeks minimum to heal and may require surgery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Little warning before injury",
+        "distractors": {
+          "plausible": [
+            "Elbow pain builds up gradually",
+            "Wait to see if it fully locks"
+          ],
+          "trap": [
+            "Fight through slight discomfort"
+          ]
+        }
       },
       {
         "question": "Your arm has been captured and the attacker's leg is swinging over your head — what is your immediate response?",
         "answer": "Your immediate priority is to sit up and turn toward the attacker before their leg completes the arc over your head. Use your free hand to post on the mat and drive your body upward and toward the attacker's hip. If you can get your captured elbow past their hip line before they sit back, the armbar cannot be finished. This window is extremely brief — typically less than one second — so the response must be reflexive rather than deliberative. If the leg clears your head and they begin sitting back, transition immediately to clasping your hands.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit up and turn into attacker",
+        "distractors": {
+          "plausible": [
+            "Pull your arm back hard now",
+            "Wait for the leg to fully clear"
+          ],
+          "trap": [
+            "Lie flat and brace for extension"
+          ]
+        }
       },
       {
         "question": "When is bridging toward the attacker a safe escape option versus a dangerous one?",
         "answer": "Bridging toward the attacker is safe when there is visible space between the attacker's hips and your shoulder — this gap means they have not fully secured the lever position and your bridge can collapse their structure. Bridging is dangerous when the attacker's hips are tight against your shoulder with knees squeezed and your arm nearly extended, because the bridge drives your shoulder into their hips and can actually accelerate the extension. The decision point is simple: if you can see or feel space at the hip-to-shoulder junction, bridge immediately. If their hips are sealed against you, clasp and turn instead.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridge only if there's a hip gap",
+        "distractors": {
+          "plausible": [
+            "Always bridge to escape armbars",
+            "Bridge away from the attacker"
+          ],
+          "trap": [
+            "Bridge hard when hips are sealed"
+          ]
+        }
       }
     ],
     "training_progressions": [

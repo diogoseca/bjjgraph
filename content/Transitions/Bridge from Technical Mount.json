@@ -257,71 +257,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for executing the bridge from technical mount?",
-        "answer": "The optimal timing window occurs when the top player shifts weight forward during a submission attempt—particularly the armbar setup. As they commit their hips and upper body forward to initiate the swing-over or adjust grips, their hip pressure on your torso lightens momentarily. This forward commitment creates a window of approximately one to two seconds where bridging effectiveness increases dramatically because you are displacing less settled weight."
+        "answer": "The optimal timing window occurs when the top player shifts weight forward during a submission attempt—particularly the armbar setup. As they commit their hips and upper body forward to initiate the swing-over or adjust grips, their hip pressure on your torso lightens momentarily. This forward commitment creates a window of approximately one to two seconds where bridging effectiveness increases dramatically because you are displacing less settled weight.",
+        "answer_line": "When they shift forward for armbar",
+        "distractors": {
+          "plausible": [
+            "As soon as mount is secured",
+            "Whenever their grip feels tight"
+          ],
+          "trap": [
+            "Against fully settled heavy pressure"
+          ]
+        }
       },
       {
         "question": "Why must you bridge toward the opponent's inside leg rather than their posted leg?",
         "answer": "Bridge toward the inside leg because it lacks mat contact and structural angle, making it the weak side of the opponent's base. The posted leg functions as a stabilizing tripod with the shin perpendicular to your body and foot planted on the mat, creating strong structural resistance to lateral force—bridging into this base wastes energy against the opponent's strongest support structure. The inside leg, hooked underneath your body, provides significantly less lateral resistance because it cannot absorb bridging force.",
         "distractors": {
           "plausible": [
-            "Bridge toward the posted leg because its perpendicular shin gives you a rigid surface to roll the opponent over.",
-            "Bridge straight up over your head so the opponent's weight lifts evenly off both legs at once."
+            "Toward the posted leg instead",
+            "Whichever leg is nearest"
           ],
           "trap": [
-            "Drive repeated maximum-force bridges into the posted leg to collapse their strongest tripod before they can adjust."
+            "Bridge into their strong post"
           ]
-        }
+        },
+        "answer_line": "Toward the inside leg, weak base"
       },
       {
         "question": "Your opponent has heavy settled pressure with no weight shifts occurring—should you attempt the bridge immediately?",
         "answer": "No—maintain defensive frames and wait for the opponent to initiate movement, because bridging against settled weight wastes energy. Any submission attempt, grip change, or position adjustment will create a weight shift, and patience preserves energy for the moment when bridging effectiveness is highest. Bridging fully settled heavy pressure produces minimal displacement at maximum energy cost—forced bridges against settled weight are the most common energy-wasting mistake from this position. Keep protecting your arms while you wait.",
         "distractors": {
           "plausible": [
-            "Yes—bridge immediately, before the opponent can settle their weight any deeper into your chest.",
-            "No—first pummel both arms completely free, then bridge as hard as possible into the settled pressure."
+            "Yes, bridge immediately for space",
+            "Bridge repeatedly to create shifts"
           ],
           "trap": [
-            "Yes—chain rapid repeated bridges to exhaust the opponent until their settled pressure finally breaks."
+            "Bridge hard to force movement"
           ]
-        }
+        },
+        "answer_line": "No, wait for their weight shift"
       },
       {
         "question": "What is the most critical arm position throughout the bridge movement and why?",
-        "answer": "The threatened arm (the one under the stepped leg) must remain bent with the elbow glued tightly to the ribs throughout the entire bridge sequence. Any extension of this arm creates an immediate armbar opportunity that the top player can finish using the bridge momentum against you. Grab your own collar, opposite shoulder, or gable grip your hands together to mechanically prevent the arm from straightening during the explosive bridging motion."
+        "answer": "The threatened arm (the one under the stepped leg) must remain bent with the elbow glued tightly to the ribs throughout the entire bridge sequence. Any extension of this arm creates an immediate armbar opportunity that the top player can finish using the bridge momentum against you. Grab your own collar, opposite shoulder, or gable grip your hands together to mechanically prevent the arm from straightening during the explosive bridging motion.",
+        "answer_line": "Elbow glued tight to the ribs",
+        "distractors": {
+          "plausible": [
+            "Arm extended for base support",
+            "Elbow flared out for leverage"
+          ],
+          "trap": [
+            "Straighten the arm to push off"
+          ]
+        }
       },
       {
         "question": "If your bridge creates space but the opponent blocks your knee insertion for guard recovery, what is your immediate follow-up?",
         "answer": "Immediately attempt a secondary hip escape in the same direction, or turn toward turtle rather than staying flat on your back. Turtle from technical mount is a significant positional improvement, so it serves as a legitimate emergency recovery. Avoid staying on your back with space but no guard—the opponent will quickly close the gap and reestablish mount pressure. The critical rule is to never waste the space created by the bridge; convert it into positional change immediately.",
         "distractors": {
           "plausible": [
-            "Hold the space with stiff-arm frames and rest, waiting for a cleaner second chance to insert the knee.",
-            "Bridge again to the opposite side to catch the opponent overcommitted to blocking your knee."
+            "Stay flat and reset your frames",
+            "Try the same escape again"
           ],
           "trap": [
-            "Turn belly-down and reach back to shove the blocking knee away, clearing the lane for guard recovery."
+            "Relax flat on your back"
+          ]
+        },
+        "answer_line": "Turn to turtle, don't stay flat"
+      },
+      {
+        "question": "Your opponent begins the armbar swing-over just as you bridge—how do you capitalize on their commitment?",
+        "answer": "Their armbar swing-over commitment moves their weight dramatically forward and off your hips, creating the largest displacement window available. Use this momentum to bridge explosively and follow immediately with a hip escape toward the side they are swinging away from. Their commitment to the armbar means they cannot simultaneously maintain mount pressure. If the arm is already caught, redirect the bridge into a stacking defense by following their rotation and coming to your knees.",
+        "answer_line": "Bridge explosively, hip escape away",
+        "distractors": {
+          "plausible": [
+            "Freeze and protect the arm",
+            "Bridge toward their swing"
+          ],
+          "trap": [
+            "Let the arm straighten out"
           ]
         }
       },
       {
-        "question": "Your opponent begins the armbar swing-over just as you bridge—how do you capitalize on their commitment?",
-        "answer": "Their armbar swing-over commitment moves their weight dramatically forward and off your hips, creating the largest displacement window available. Use this momentum to bridge explosively and follow immediately with a hip escape toward the side they are swinging away from. Their commitment to the armbar means they cannot simultaneously maintain mount pressure. If the arm is already caught, redirect the bridge into a stacking defense by following their rotation and coming to your knees."
-      },
-      {
         "question": "What distinguishes a successful bridge from one that results in the opponent taking your back?",
-        "answer": "A successful bridge is immediately followed by hip escape and knee insertion to recover guard, keeping your back oriented toward the mat throughout the escape. A bridge that leads to back exposure involves excessive turning without guard recovery—the bottom player continues rotating past the escape point without inserting a knee shield, presenting their back to the opponent. The key distinction is whether the bridge creates guard recovery or creates turning without positional improvement."
+        "answer": "A successful bridge is immediately followed by hip escape and knee insertion to recover guard, keeping your back oriented toward the mat throughout the escape. A bridge that leads to back exposure involves excessive turning without guard recovery—the bottom player continues rotating past the escape point without inserting a knee shield, presenting their back to the opponent. The key distinction is whether the bridge creates guard recovery or creates turning without positional improvement.",
+        "answer_line": "Follow bridge with guard recovery",
+        "distractors": {
+          "plausible": [
+            "Turning past the escape point",
+            "Bridging as far as possible"
+          ],
+          "trap": [
+            "Keep turning without inserting knee"
+          ]
+        }
       },
       {
         "question": "How does the grip with your threatened hand affect the bridge mechanics?",
         "answer": "Gripping your own collar or opposite shoulder locks the threatened elbow bent and makes the arm move as one unit with your torso. This self-grip serves two critical functions: it mechanically prevents the elbow from extending during the explosive bridge, and it creates a connection point so the arm travels with your body rather than being left behind during displacement. Without it, the arm tends to extend under the forces of the bridge, creating the exact arm exposure the escape is designed to prevent.",
         "distractors": {
           "plausible": [
-            "Grip the opponent's sleeve or wrist with the threatened hand so you control their attacking arm during the bridge.",
-            "Keep the threatened hand planted palm-flat on the mat to add pushing power to the explosive bridge."
+            "Grip only adds extra strength",
+            "Grip helps posted leg push"
           ],
           "trap": [
-            "Extend the threatened arm across your body to post on the far mat, using it to pull yourself through the bridge."
+            "Let the threatened arm hang free"
           ]
-        }
+        },
+        "answer_line": "Self-grip locks elbow, arm stays"
       }
     ],
     "safety_considerations": "The bridge from technical mount involves explosive spinal extension and rotation under load, creating risk for lower back strain if performed without adequate warm-up. Always warm up the lumbar spine, hip flexors, and neck with progressive mobility work before drilling. When training with partners, communicate clearly about resistance levels—unexpected full resistance during bridge drills can cause neck injuries from the combined forces of the bridge and the top player's weight. Avoid forcing the bridge when the opponent has fully secured arm control, as explosive movement with a trapped arm risks shoulder injury. Always tap immediately if caught in a submission during escape attempts rather than risking injury to complete the escape.",
@@ -432,19 +476,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to bridge from technical mount?",
-        "answer": "The earliest cues are foot positioning and muscular tension. Watch for the opponent planting feet flat on the mat with knees bent—this is the loading position for the bridge. Secondary cues include their free hand pushing against your hip or chest to create a frame, a brief held breath or visible tension in their core, and head or shoulder rotation toward their intended bridge direction. Recognizing these cues allows pre-emptive base adjustment before the explosive movement begins."
+        "answer": "The earliest cues are foot positioning and muscular tension. Watch for the opponent planting feet flat on the mat with knees bent—this is the loading position for the bridge. Secondary cues include their free hand pushing against your hip or chest to create a frame, a brief held breath or visible tension in their core, and head or shoulder rotation toward their intended bridge direction. Recognizing these cues allows pre-emptive base adjustment before the explosive movement begins.",
+        "answer_line": "Feet planted flat, knees bent",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip movement",
+            "Deep breathing before movement"
+          ],
+          "trap": [
+            "They relax their base first"
+          ]
+        }
       },
       {
         "question": "When your opponent bridges successfully and begins turning, should you fight to maintain technical mount or transition to another position?",
-        "answer": "Transition to back control. Fighting to maintain technical mount against meaningful displacement wastes energy and often fails. The opponent's turning motion during the bridge directly exposes their back—follow the rotation, release the armbar grip, and establish seat belt control with hooks. Back control is a strictly superior position to technical mount, so the bridge actually creates an advancement opportunity rather than a genuine escape threat when you recognize it correctly."
+        "answer": "Transition to back control. Fighting to maintain technical mount against meaningful displacement wastes energy and often fails. The opponent's turning motion during the bridge directly exposes their back—follow the rotation, release the armbar grip, and establish seat belt control with hooks. Back control is a strictly superior position to technical mount, so the bridge actually creates an advancement opportunity rather than a genuine escape threat when you recognize it correctly.",
+        "answer_line": "Transition to back control",
+        "distractors": {
+          "plausible": [
+            "Fight to keep technical mount",
+            "Reset back to full mount"
+          ],
+          "trap": [
+            "Release grips, go flat on back"
+          ]
+        }
       },
       {
         "question": "How do you maintain arm control during a bridge while also preserving your base?",
-        "answer": "Prioritize wrist grip retention as the single most important grip during the bridge. Use a two-on-one configuration if possible—one hand on the wrist, one above the elbow. Keep your posted leg wide for base while your upper body maintains tight arm control through grip strength rather than body positioning. If you must choose between base and arm control, briefly sacrifice some base to retain the wrist grip, as losing the arm eliminates your primary submission threat."
+        "answer": "Prioritize wrist grip retention as the single most important grip during the bridge. Use a two-on-one configuration if possible—one hand on the wrist, one above the elbow. Keep your posted leg wide for base while your upper body maintains tight arm control through grip strength rather than body positioning. If you must choose between base and arm control, briefly sacrifice some base to retain the wrist grip, as losing the arm eliminates your primary submission threat.",
+        "answer_line": "Prioritize the wrist grip",
+        "distractors": {
+          "plausible": [
+            "Grip the elbow only, skip wrist",
+            "Narrow your base for control"
+          ],
+          "trap": [
+            "Release the arm to free your base"
+          ]
+        }
       },
       {
         "question": "Your opponent executes a powerful bridge that shifts your weight significantly—what is the optimal response sequence?",
-        "answer": "First, assess whether you can maintain arm control. If yes, ride the bridge by flowing with the motion and resettle once the bridge energy dissipates. If the displacement is too great to resettle comfortably, immediately follow their turning motion into back control—release the armbar threat, establish seat belt grip, and insert hooks. Never fight to return to technical mount against momentum when back control is available. The key principle is that bridge displacement should trigger an advancement decision, not a recovery struggle."
+        "answer": "First, assess whether you can maintain arm control. If yes, ride the bridge by flowing with the motion and resettle once the bridge energy dissipates. If the displacement is too great to resettle comfortably, immediately follow their turning motion into back control—release the armbar threat, establish seat belt grip, and insert hooks. Never fight to return to technical mount against momentum when back control is available. The key principle is that bridge displacement should trigger an advancement decision, not a recovery struggle.",
+        "answer_line": "Ride it, or follow to back control",
+        "distractors": {
+          "plausible": [
+            "Fight back to technical mount",
+            "Release grips and reset fully"
+          ],
+          "trap": [
+            "Stay flat and let bridge finish"
+          ]
+        }
       }
     ],
     "training_progressions": [

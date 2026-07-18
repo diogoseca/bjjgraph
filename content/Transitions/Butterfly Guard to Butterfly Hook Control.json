@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for deepening your butterfly hooks during a consolidation attempt?",
-        "answer": "The optimal window occurs when the opponent shifts their weight to establish a new grip, begins a passing movement, or adjusts their base position. During these transitions, the pressure on your hooks momentarily decreases as the opponent redirects their attention and weight. This is when hook deepening requires the least effort and has the highest success rate. Attempting to deepen hooks against static, settled pressure is significantly harder and wastes energy."
+        "answer": "The optimal window occurs when the opponent shifts their weight to establish a new grip, begins a passing movement, or adjusts their base position. During these transitions, the pressure on your hooks momentarily decreases as the opponent redirects their attention and weight. This is when hook deepening requires the least effort and has the highest success rate. Attempting to deepen hooks against static, settled pressure is significantly harder and wastes energy.",
+        "answer_line": "During opponent's transitions",
+        "distractors": {
+          "plausible": [
+            "Right when hooks first insert",
+            "After posture is fully broken"
+          ],
+          "trap": [
+            "Against locked, static pressure"
+          ]
+        }
       },
       {
         "question": "Why must seated posture be recovered before attempting to deepen hooks?",
-        "answer": "Seated posture creates the biomechanical angle needed to drive hooks into the hip crease. When flat on your back, your legs cannot generate upward curling force effectively because the angle of force is wrong—you push the opponent forward rather than elevating them. The upright position also engages your core as a structural bridge between your upper body grips and lower body hooks, allowing unified force generation that is impossible when supine."
+        "answer": "Seated posture creates the biomechanical angle needed to drive hooks into the hip crease. When flat on your back, your legs cannot generate upward curling force effectively because the angle of force is wrong—you push the opponent forward rather than elevating them. The upright position also engages your core as a structural bridge between your upper body grips and lower body hooks, allowing unified force generation that is impossible when supine.",
+        "answer_line": "Upright posture sets hook angle",
+        "distractors": {
+          "plausible": [
+            "Flat back gives stronger hooks",
+            "Grips alone generate the lift"
+          ],
+          "trap": [
+            "Push forward while lying flat"
+          ]
+        }
       },
       {
         "question": "Your opponent drives their right knee to the mat to clear your right hook—how do you respond?",
-        "answer": "Immediately elevate with your left hook while pulling with your upper body grips to shift the opponent's weight onto the remaining hook. This creates either a sweep opportunity on the left side or enough space to re-insert the right hook as the opponent's weight shifts. If the hook cannot be recovered, transition to half butterfly with the remaining left hook and work from the asymmetric position rather than fighting a losing battle for the cleared hook."
+        "answer": "Immediately elevate with your left hook while pulling with your upper body grips to shift the opponent's weight onto the remaining hook. This creates either a sweep opportunity on the left side or enough space to re-insert the right hook as the opponent's weight shifts. If the hook cannot be recovered, transition to half butterfly with the remaining left hook and work from the asymmetric position rather than fighting a losing battle for the cleared hook.",
+        "answer_line": "Elevate other hook, shift weight",
+        "distractors": {
+          "plausible": [
+            "Switch to half guard immediately",
+            "Pull grips only, ignore hooks"
+          ],
+          "trap": [
+            "Force the hook back into place"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest connection between upper and lower body for butterfly hook control?",
-        "answer": "The strongest configuration is a collar grip on one side combined with an underhook on the opposite side. The collar grip provides pulling force that directs the opponent's weight onto the same-side hook for sweeps, while the underhook prevents posting on that side and creates an arm drag threat to the back. In no-gi, a collar tie replaces the collar grip and a wrist control or two-on-one replaces the underhook, maintaining similar directional control."
+        "answer": "The strongest configuration is a collar grip on one side combined with an underhook on the opposite side. The collar grip provides pulling force that directs the opponent's weight onto the same-side hook for sweeps, while the underhook prevents posting on that side and creates an arm drag threat to the back. In no-gi, a collar tie replaces the collar grip and a wrist control or two-on-one replaces the underhook, maintaining similar directional control.",
+        "answer_line": "Collar one side, underhook other",
+        "distractors": {
+          "plausible": [
+            "Underhooks on both sides",
+            "Collar grips on both sides"
+          ],
+          "trap": [
+            "Overhook and cross-collar grip"
+          ]
+        }
       },
       {
         "question": "Why should hooks be placed at the hip crease rather than mid-thigh?",
-        "answer": "The hip crease provides maximum mechanical advantage because the hook acts as a fulcrum closer to the opponent's center of mass. A deeper hook requires less force to create the same elevation effect compared to a mid-thigh hook. Additionally, hooks at the hip crease are harder for the opponent to clear because their knee cannot drive past the hook without significantly changing their base, whereas mid-thigh hooks can be stepped over or squeezed out with knee pressure."
+        "answer": "The hip crease provides maximum mechanical advantage because the hook acts as a fulcrum closer to the opponent's center of mass. A deeper hook requires less force to create the same elevation effect compared to a mid-thigh hook. Additionally, hooks at the hip crease are harder for the opponent to clear because their knee cannot drive past the hook without significantly changing their base, whereas mid-thigh hooks can be stepped over or squeezed out with knee pressure.",
+        "answer_line": "Hip crease = fulcrum, less force",
+        "distractors": {
+          "plausible": [
+            "Mid-thigh gives more leverage",
+            "Both spots equally effective"
+          ],
+          "trap": [
+            "Mid-thigh hooks can't be cleared"
+          ]
+        }
       },
       {
         "question": "How do you maintain connection to the opponent during the most vulnerable phase of consolidation when inserting the second hook?",
-        "answer": "The first hook and your primary grip serve as anchors during second hook insertion. Use a brief elevation on the first hook to shift the opponent's weight and create space under the opposite thigh for the second hook. Your grip prevents the opponent from disengaging during this moment. Never release your existing controls to reach for the second hook—instead, use hip movement and the elevation from the first hook to create the insertion angle while maintaining all current connections."
+        "answer": "The first hook and your primary grip serve as anchors during second hook insertion. Use a brief elevation on the first hook to shift the opponent's weight and create space under the opposite thigh for the second hook. Your grip prevents the opponent from disengaging during this moment. Never release your existing controls to reach for the second hook—instead, use hip movement and the elevation from the first hook to create the insertion angle while maintaining all current connections.",
+        "answer_line": "Anchor with first hook and grip",
+        "distractors": {
+          "plausible": [
+            "Elevate with second hook first",
+            "Insert both hooks at once"
+          ],
+          "trap": [
+            "Release grips to insert hook"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your collar grip while you are mid-consolidation with one hook deep—what is your immediate priority?",
-        "answer": "Immediately re-establish a grip before the opponent capitalizes on the broken connection. Your priority order is: first, maintain your existing hook depth and posture (do not sacrifice these to chase the grip); second, establish any available grip on the opponent's upper body—sleeve, wrist, collar tie, or underhook; third, resume the consolidation sequence. If the opponent uses the grip break to initiate a pass, abandon the consolidation and focus on guard retention from your current position."
+        "answer": "Immediately re-establish a grip before the opponent capitalizes on the broken connection. Your priority order is: first, maintain your existing hook depth and posture (do not sacrifice these to chase the grip); second, establish any available grip on the opponent's upper body—sleeve, wrist, collar tie, or underhook; third, resume the consolidation sequence. If the opponent uses the grip break to initiate a pass, abandon the consolidation and focus on guard retention from your current position.",
+        "answer_line": "Keep hook depth, get any grip",
+        "distractors": {
+          "plausible": [
+            "Chase the same collar grip",
+            "Reinsert hooks before gripping"
+          ],
+          "trap": [
+            "Release hooks to regain grip"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful consolidation from simply having butterfly guard?",
-        "answer": "Successful consolidation is confirmed when three elements are present simultaneously: deep hooks at the hip crease generating active upward pressure, fully upright seated posture with engaged core maintaining structural integrity, and controlling upper body grips that connect to the hook elevation system. A probing sweep attempt that forces the opponent into a defensive reaction validates the consolidation. General butterfly guard may have one or two of these elements but lacks the unified system that makes the position genuinely threatening."
+        "answer": "Successful consolidation is confirmed when three elements are present simultaneously: deep hooks at the hip crease generating active upward pressure, fully upright seated posture with engaged core maintaining structural integrity, and controlling upper body grips that connect to the hook elevation system. A probing sweep attempt that forces the opponent into a defensive reaction validates the consolidation. General butterfly guard may have one or two of these elements but lacks the unified system that makes the position genuinely threatening.",
+        "answer_line": "Hooks, posture, grips unified",
+        "distractors": {
+          "plausible": [
+            "Deep hooks alone are enough",
+            "Any two of the three elements"
+          ],
+          "trap": [
+            "Grip fighting without hooks"
+          ]
+        }
       }
     ],
     "safety_considerations": "Transition to Butterfly Hook Control is a low-risk positional transition with minimal injury potential. The primary safety concern is avoiding hyperextension of the ankle or knee when inserting hooks against a resisting opponent who is driving their knees together. Never force hook insertion against locked resistance—instead wait for a window or redirect to an alternative position. During training, communicate with your partner about hook depth to avoid inadvertent pressure on the knee joint from improperly angled hooks.",
@@ -390,19 +470,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is attempting to consolidate butterfly hook control?",
-        "answer": "The earliest cues are: the bottom player posting a hand behind their hip to initiate a sit-up, increased curling pressure from one or both hooks driving deeper toward your hip creases, and aggressive grip fighting for collar or underhook control. These cues often appear in sequence—posture recovery first, then hook deepening, then grip establishment. Recognizing the first cue (the sit-up attempt) gives you the most time to intervene."
+        "answer": "The earliest cues are: the bottom player posting a hand behind their hip to initiate a sit-up, increased curling pressure from one or both hooks driving deeper toward your hip creases, and aggressive grip fighting for collar or underhook control. These cues often appear in sequence—posture recovery first, then hook deepening, then grip establishment. Recognizing the first cue (the sit-up attempt) gives you the most time to intervene.",
+        "answer_line": "Hand posts behind hip to sit up",
+        "distractors": {
+          "plausible": [
+            "Deep hooks appear first",
+            "Grip fighting starts first"
+          ],
+          "trap": [
+            "Wait for hooks to fully lock"
+          ]
+        }
       },
       {
         "question": "Why is it more effective to prevent consolidation than to deal with established butterfly hook control?",
-        "answer": "Established butterfly hook control creates a loaded offensive system where the bottom player's hooks, posture, and grips work together as a unified sweeping mechanism. Preventing consolidation means the bottom player has disconnected elements—shallow hooks, poor posture, or missing grips—that cannot generate the coordinated force needed for high-percentage sweeps. Disrupting even one element of the consolidation degrades the entire system significantly."
+        "answer": "Established butterfly hook control creates a loaded offensive system where the bottom player's hooks, posture, and grips work together as a unified sweeping mechanism. Preventing consolidation means the bottom player has disconnected elements—shallow hooks, poor posture, or missing grips—that cannot generate the coordinated force needed for high-percentage sweeps. Disrupting even one element of the consolidation degrades the entire system significantly.",
+        "answer_line": "Stops the unified sweep system",
+        "distractors": {
+          "plausible": [
+            "Only disrupts submissions",
+            "Established control easy to pass"
+          ],
+          "trap": [
+            "Let hooks set, fight grips later"
+          ]
+        }
       },
       {
         "question": "Your opponent has recovered seated posture and is deepening their left hook—what is your optimal defensive response?",
-        "answer": "Drive your right knee to the mat through the opponent's left hook insertion path to keep it shallow, while simultaneously fighting their upper body grips with your hands to deny the pulling control they need. If you cannot prevent the hook from deepening, immediately address the opposite hook before the bottom player achieves both deep hooks. Alternatively, stand up entirely to reset the engagement if both hooks are becoming deep—standing removes the fulcrum the hooks create."
+        "answer": "Drive your right knee to the mat through the opponent's left hook insertion path to keep it shallow, while simultaneously fighting their upper body grips with your hands to deny the pulling control they need. If you cannot prevent the hook from deepening, immediately address the opposite hook before the bottom player achieves both deep hooks. Alternatively, stand up entirely to reset the engagement if both hooks are becoming deep—standing removes the fulcrum the hooks create.",
+        "answer_line": "Knee through hook, fight grips",
+        "distractors": {
+          "plausible": [
+            "Stand up before hooks deepen",
+            "Grip fight, ignore the hook"
+          ],
+          "trap": [
+            "Let hook set, defend grips only"
+          ]
+        }
       },
       {
         "question": "How do you exploit the bottom player's focus on consolidation to create passing opportunities?",
-        "answer": "During consolidation, the bottom player's attention is divided between hook insertion, posture recovery, and grip establishment. When they commit focus to one element (for example, reaching for a collar grip), the other elements are momentarily unguarded. Use these windows to clear a hook, apply crossface pressure to flatten them, or initiate a quick passing movement that catches them mid-transition. The consolidation attempt itself creates the defensive vulnerabilities you exploit for passing."
+        "answer": "During consolidation, the bottom player's attention is divided between hook insertion, posture recovery, and grip establishment. When they commit focus to one element (for example, reaching for a collar grip), the other elements are momentarily unguarded. Use these windows to clear a hook, apply crossface pressure to flatten them, or initiate a quick passing movement that catches them mid-transition. The consolidation attempt itself creates the defensive vulnerabilities you exploit for passing.",
+        "answer_line": "Attack the unguarded element",
+        "distractors": {
+          "plausible": [
+            "Wait until consolidation ends",
+            "Match their tempo passively"
+          ],
+          "trap": [
+            "Retreat to reset the exchange"
+          ]
+        }
       }
     ],
     "training_progressions": [

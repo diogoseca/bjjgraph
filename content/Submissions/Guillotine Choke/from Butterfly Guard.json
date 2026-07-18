@@ -326,7 +326,17 @@
       {
         "question": "What grip and positional control must be established before committing to the fall-back finish?",
         "answer": "Before falling back, you must have the choking arm fully threaded under the chin with wrist on the carotid, both hands locked together in a secure grip configuration, elbows pinched tight with no slack, the opponent's head pulled against your chest, and far-side control through an overhook or elbow clamp. Falling back without all of these in place risks losing the grip and ending up in a worse position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lock grip, secure overhook",
+        "distractors": {
+          "plausible": [
+            "Full grip, skip far-side control",
+            "Pull head in before full grip"
+          ],
+          "trap": [
+            "Fall back before grip is set"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up while you have a loose guillotine grip - what adjustment prevents escape?",
@@ -391,12 +401,32 @@
       {
         "question": "How should you immediately release the Guillotine Choke after your training partner taps?",
         "answer": "Immediately release all choking arm pressure by opening your grip and removing your arm from around the opponent's neck. Lower your hooks so they can move freely. If the partner appears dazed or was close to unconsciousness, help them to a seated position and monitor their breathing and consciousness. Do not celebrate or move away before confirming your partner is fully alert and responsive.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip and arm at once",
+        "distractors": {
+          "plausible": [
+            "Loosen grip, keep hooks in",
+            "Ease off slowly, stay locked"
+          ],
+          "trap": [
+            "Hold position and celebrate"
+          ]
+        }
       },
       {
         "question": "What role do the butterfly hooks play in the finishing mechanics of this choke?",
         "answer": "The butterfly hooks create the upward elevation force that stretches the opponent's torso away from their head while the choking grip pulls the head toward you. This opposing-force dynamic tightens the choke geometry around the neck without requiring excessive arm strength. Without active hook elevation, the opponent can compact their body, reduce pressure on the neck, and potentially stack forward to escape. The hooks are the primary differentiator between this variant and other guillotine finishes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hooks elevate, tighten choke",
+        "distractors": {
+          "plausible": [
+            "Hooks control hips, not neck",
+            "Hooks pass guard, not finish"
+          ],
+          "trap": [
+            "Drop hooks, squeeze harder"
+          ]
+        }
       },
       {
         "question": "In competition, how do you finish the Guillotine when an opponent attempts to stack and drive through your guard?",

@@ -240,43 +240,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Inversion Escape from Honey Hole?",
-        "answer": "The primary goal is to extract your trapped leg from the inside leg triangle configuration before your opponent can secure a heel hook grip. The inversion changes the angle of your leg relative to their entanglement, creating a brief window where extraction becomes mechanically possible. Secondary goal is establishing safe guard position immediately upon extraction."
+        "answer": "The primary goal is to extract your trapped leg from the inside leg triangle configuration before your opponent can secure a heel hook grip. The inversion changes the angle of your leg relative to their entanglement, creating a brief window where extraction becomes mechanically possible. Secondary goal is establishing safe guard position immediately upon extraction.",
+        "answer_line": "Extract leg before heel grip",
+        "distractors": {
+          "plausible": [
+            "Escape to open guard immediately",
+            "Change angle to loosen grip"
+          ],
+          "trap": [
+            "Wait for opponent to tire"
+          ]
+        }
       },
       {
         "question": "Why must you initiate the inversion BEFORE your opponent grips your heel?",
-        "answer": "Once the heel is gripped with proper hand configuration, your opponent can apply breaking rotation during your inversion, using your own movement against you. The combination of inversion rotation plus heel hook pressure creates devastating force on the knee joint. The escape window exists only during the brief transition between leg triangle establishment and heel hook grip - typically 1-2 seconds maximum."
+        "answer": "Once the heel is gripped with proper hand configuration, your opponent can apply breaking rotation during your inversion, using your own movement against you. The combination of inversion rotation plus heel hook pressure creates devastating force on the knee joint. The escape window exists only during the brief transition between leg triangle establishment and heel hook grip - typically 1-2 seconds maximum.",
+        "answer_line": "Grip lets them break your knee",
+        "distractors": {
+          "plausible": [
+            "Grip only slows your rotation",
+            "Window lasts about 10 seconds"
+          ],
+          "trap": [
+            "Wait for a bigger space first"
+          ]
+        }
       },
       {
         "question": "What role does your free leg play in executing the Inversion Escape?",
-        "answer": "Your free leg provides the primary explosive force for the entire escape. By posting firmly on the mat with foot outside your hip and driving explosively while rotating, you generate the momentum needed to change your body angle relative to opponent's triangle. Without this posted leg drive, the inversion lacks sufficient force to create the angle change necessary for extraction."
+        "answer": "Your free leg provides the primary explosive force for the entire escape. By posting firmly on the mat with foot outside your hip and driving explosively while rotating, you generate the momentum needed to change your body angle relative to opponent's triangle. Without this posted leg drive, the inversion lacks sufficient force to create the angle change necessary for extraction.",
+        "answer_line": "Posted leg drives the rotation",
+        "distractors": {
+          "plausible": [
+            "Free leg pulls opponent's grip",
+            "Free leg blocks their hips"
+          ],
+          "trap": [
+            "Kick free leg to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent begins following your rotation as you invert - how do you adjust?",
-        "answer": "When opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard. As you rotate, hook their near leg with your previously trapped leg and settle into the symmetrical 50-50 position. This neutralizes their inside position advantage by creating mutual entanglement rather than trying to completely escape their leg control."
+        "answer": "When opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard. As you rotate, hook their near leg with your previously trapped leg and settle into the symmetrical 50-50 position. This neutralizes their inside position advantage by creating mutual entanglement rather than trying to completely escape their leg control.",
+        "answer_line": "Transition into 50-50 guard",
+        "distractors": {
+          "plausible": [
+            "Push harder to open guard",
+            "Release grips to spin faster"
+          ],
+          "trap": [
+            "Let go and sit up to guard"
+          ]
+        }
       },
       {
         "question": "What grip should you maintain throughout the Inversion Escape and why?",
-        "answer": "Maintain pant grips at opponent's knees with both hands throughout the entire inversion. These grips serve multiple purposes: controlling their ability to follow your rotation, preventing them from adjusting their leg triangle as you move, and providing anchor points to help pull yourself through the rotation. Releasing grips allows opponent to freely readjust and re-establish entanglement."
+        "answer": "Maintain pant grips at opponent's knees with both hands throughout the entire inversion. These grips serve multiple purposes: controlling their ability to follow your rotation, preventing them from adjusting their leg triangle as you move, and providing anchor points to help pull yourself through the rotation. Releasing grips allows opponent to freely readjust and re-establish entanglement.",
+        "answer_line": "Pant grips at both knees",
+        "distractors": {
+          "plausible": [
+            "Grip their ankle to control",
+            "Underhook to control posture"
+          ],
+          "trap": [
+            "Release grips to move faster"
+          ]
+        }
       },
       {
         "question": "How do you protect your knee joint during the rotational movement of this escape?",
-        "answer": "Keep your knee pointed in the same direction as your toes throughout the entire inversion. Knee ligaments are most vulnerable when the knee faces a different direction than the foot - the exact configuration heel hooks exploit. By maintaining alignment during rotation, you prevent the twisted position that causes injury. If alignment breaks during the escape attempt, immediately stop rotation and reassess."
+        "answer": "Keep your knee pointed in the same direction as your toes throughout the entire inversion. Knee ligaments are most vulnerable when the knee faces a different direction than the foot - the exact configuration heel hooks exploit. By maintaining alignment during rotation, you prevent the twisted position that causes injury. If alignment breaks during the escape attempt, immediately stop rotation and reassess.",
+        "answer_line": "Keep knee aligned with toes",
+        "distractors": {
+          "plausible": [
+            "Keep knee bent at 90 degrees",
+            "Point toes toward the ceiling"
+          ],
+          "trap": [
+            "Twist knee to speed rotation"
+          ]
+        }
       },
       {
         "question": "What immediate action must you take the moment your leg extracts from the entanglement?",
-        "answer": "The moment your leg extracts, both feet must immediately go to opponent's hips with active pushing to establish open guard frames. This is not separate from the escape - it's the completion of it. Without immediate guard establishment, opponent will either re-enter leg entanglement or advance to passing position while you're recovering from the inversion. The escape isn't complete until you have defensive structure."
+        "answer": "The moment your leg extracts, both feet must immediately go to opponent's hips with active pushing to establish open guard frames. This is not separate from the escape - it's the completion of it. Without immediate guard establishment, opponent will either re-enter leg entanglement or advance to passing position while you're recovering from the inversion. The escape isn't complete until you have defensive structure.",
+        "answer_line": "Feet to hips, push to guard",
+        "distractors": {
+          "plausible": [
+            "Pause to check leg alignment",
+            "Scoot back to create space"
+          ],
+          "trap": [
+            "Stand up immediately to escape"
+          ]
+        }
       },
       {
         "question": "Your first inversion attempt failed but created some space - what do you do next?",
-        "answer": "Do not pause to recover - immediately chain into your second escape attempt while any space exists. If inversion failed, try hip escape. If hip escape fails, try technical standup. Use all available energy in the first 3-5 seconds of being caught. The position only gets worse with time as opponent settles weight and tightens control. Sequential explosive attempts are more effective than single attempts followed by recovery periods."
+        "answer": "Do not pause to recover - immediately chain into your second escape attempt while any space exists. If inversion failed, try hip escape. If hip escape fails, try technical standup. Use all available energy in the first 3-5 seconds of being caught. The position only gets worse with time as opponent settles weight and tightens control. Sequential explosive attempts are more effective than single attempts followed by recovery periods.",
+        "answer_line": "Chain into hip escape at once",
+        "distractors": {
+          "plausible": [
+            "Rest briefly then retry",
+            "Wait for opponent to settle"
+          ],
+          "trap": [
+            "Stop and reset your base"
+          ]
+        }
       },
       {
         "question": "When should you abort the Inversion Escape attempt entirely?",
-        "answer": "Abort immediately if opponent secures heel grip with proper hand configuration (four fingers on top, thumb below) at any point. Also abort if you feel your knee-foot alignment break during rotation. Finally, abort if opponent transitions to kneebar with your leg extended - the inversion requires a curled position which kneebar denies. In all these cases, switch to appropriate alternative defense or prepare to tap."
+        "answer": "Abort immediately if opponent secures heel grip with proper hand configuration (four fingers on top, thumb below) at any point. Also abort if you feel your knee-foot alignment break during rotation. Finally, abort if opponent transitions to kneebar with your leg extended - the inversion requires a curled position which kneebar denies. In all these cases, switch to appropriate alternative defense or prepare to tap.",
+        "answer_line": "Heel gripped or knee misaligns",
+        "distractors": {
+          "plausible": [
+            "Opponent shifts their weight",
+            "Opponent changes grip slightly"
+          ],
+          "trap": [
+            "Push through the pain to finish"
+          ]
+        }
       },
       {
         "question": "How do you create the optimal angle for the inversion by positioning your posted foot?",
-        "answer": "Plant your free foot on the mat outside your hip with toes pointed outward at roughly 45 degrees. Position the foot far enough from your body to create leverage but close enough to generate explosive drive. The knee should bend to approximately 90 degrees. This positioning creates the biomechanical foundation for the rotational force - the further outside and the stronger the initial drive, the more angle change you create during the inversion."
+        "answer": "Plant your free foot on the mat outside your hip with toes pointed outward at roughly 45 degrees. Position the foot far enough from your body to create leverage but close enough to generate explosive drive. The knee should bend to approximately 90 degrees. This positioning creates the biomechanical foundation for the rotational force - the further outside and the stronger the initial drive, the more angle change you create during the inversion.",
+        "answer_line": "Foot out, toes at 45 degrees",
+        "distractors": {
+          "plausible": [
+            "Foot flat under your hip",
+            "Knee bent to 45 degrees"
+          ],
+          "trap": [
+            "Foot far from body, knee straight"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Inversion Escape carries inherent risk due to the rotational forces involved and the dangerous position you're escaping from. NEVER attempt inversion if your opponent has already secured a heel hook grip - the combination of your rotation and their breaking pressure can cause immediate catastrophic knee injury including ACL, MCL, and meniscus tears. Always maintain knee-foot alignment throughout the technique; if alignment breaks, stop immediately. Practice initially with cooperative partners at slow speeds before adding resistance. Tap immediately if you feel any rotational pressure on your knee during a failed escape attempt. This technique requires hip mobility - do not attempt if you have hip or lower back injuries. Warm up thoroughly before drilling inverted movements.",
@@ -393,23 +493,73 @@
     "flashcards": [
       {
         "question": "What is the single most effective way to prevent the Inversion Escape from succeeding?",
-        "answer": "Secure the heel hook grip immediately upon establishing your inside leg triangle - before settling your weight or making any other positional adjustments. The entire Inversion Escape depends on the 1-2 second window between triangle establishment and heel grip. By training your heel grip as part of your Honey Hole entry sequence rather than a separate step, you eliminate the escape window entirely. An opponent cannot safely invert once you have proper heel control."
+        "answer": "Secure the heel hook grip immediately upon establishing your inside leg triangle - before settling your weight or making any other positional adjustments. The entire Inversion Escape depends on the 1-2 second window between triangle establishment and heel grip. By training your heel grip as part of your Honey Hole entry sequence rather than a separate step, you eliminate the escape window entirely. An opponent cannot safely invert once you have proper heel control.",
+        "answer_line": "Grip heel before settling weight",
+        "distractors": {
+          "plausible": [
+            "Settle weight before gripping",
+            "Control their far arm first"
+          ],
+          "trap": [
+            "Let them invert then react"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free foot and begins loading for an explosive inversion - what is your immediate response?",
-        "answer": "You have two immediate options depending on whether you have heel grip. If you have heel grip, tighten it and apply controlled breaking pressure - they cannot safely invert. If you do not have heel grip, drive your hips forward aggressively while simultaneously reaching for either their heel (if accessible) or their free leg (to eliminate their drive source). Do not remain static. Every fraction of a second you hesitate allows their posted leg to generate more rotational force."
+        "answer": "You have two immediate options depending on whether you have heel grip. If you have heel grip, tighten it and apply controlled breaking pressure - they cannot safely invert. If you do not have heel grip, drive your hips forward aggressively while simultaneously reaching for either their heel (if accessible) or their free leg (to eliminate their drive source). Do not remain static. Every fraction of a second you hesitate allows their posted leg to generate more rotational force.",
+        "answer_line": "Tighten grip or attack their leg",
+        "distractors": {
+          "plausible": [
+            "Wait to see their direction",
+            "Adjust your base and relax"
+          ],
+          "trap": [
+            "Release grip to reposition"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between an opponent preparing for inversion versus preparing for hip escape from Honey Hole?",
-        "answer": "Inversion preparation features the free foot posting outside their hip with toes angled outward, grip changes to your pants at the knees, and loading onto one shoulder. Hip escape preparation features the free foot pushing against your hip or body, hands fighting your heel grip directly, and hip movement away from you rather than rotational loading. The direction of their initial force is the key tell - inversion rotates toward the trapped leg while hip escape drives linearly away from your control."
+        "answer": "Inversion preparation features the free foot posting outside their hip with toes angled outward, grip changes to your pants at the knees, and loading onto one shoulder. Hip escape preparation features the free foot pushing against your hip or body, hands fighting your heel grip directly, and hip movement away from you rather than rotational loading. The direction of their initial force is the key tell - inversion rotates toward the trapped leg while hip escape drives linearly away from your control.",
+        "answer_line": "Rotational load vs linear drive",
+        "distractors": {
+          "plausible": [
+            "Any foot posting means inversion",
+            "Faster movement means hip escape"
+          ],
+          "trap": [
+            "Ignore the tell and control hips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting and their trapped leg momentarily straightens during the rotation - what opportunity does this create?",
-        "answer": "The straightened leg during inversion creates an immediate kneebar opportunity. As they rotate, their knee extends past the normal curled defensive position, and you can secure above-knee control with your legs while applying hyperextension pressure with your hips. Their own rotational momentum drives their leg into the extension. This is a high-percentage counter because the opponent cannot simultaneously complete their inversion and defend the kneebar - they must choose one or the other."
+        "answer": "The straightened leg during inversion creates an immediate kneebar opportunity. As they rotate, their knee extends past the normal curled defensive position, and you can secure above-knee control with your legs while applying hyperextension pressure with your hips. Their own rotational momentum drives their leg into the extension. This is a high-percentage counter because the opponent cannot simultaneously complete their inversion and defend the kneebar - they must choose one or the other.",
+        "answer_line": "Attack the extended kneebar",
+        "distractors": {
+          "plausible": [
+            "Switch to a heel hook instead",
+            "Wait for full inversion first"
+          ],
+          "trap": [
+            "Release control to reset position"
+          ]
+        }
       },
       {
         "question": "After successfully preventing an inversion attempt, what adjustments should you make to prevent a second attempt?",
-        "answer": "Immediately tighten your inside leg triangle by pulling your ankle deeper behind their thigh, eliminating any slack created during their escape attempt. Re-settle your hip pressure with increased downward force. Most critically, secure the heel grip if you have not already - the failed first attempt means they will chain into a second escape immediately. Control their free leg with your hand or by hooking their ankle to remove the posting ability that powers future inversion attempts. Do not relax after stopping the first attempt."
+        "answer": "Immediately tighten your inside leg triangle by pulling your ankle deeper behind their thigh, eliminating any slack created during their escape attempt. Re-settle your hip pressure with increased downward force. Most critically, secure the heel grip if you have not already - the failed first attempt means they will chain into a second escape immediately. Control their free leg with your hand or by hooking their ankle to remove the posting ability that powers future inversion attempts. Do not relax after stopping the first attempt.",
+        "answer_line": "Tighten triangle, secure heel grip",
+        "distractors": {
+          "plausible": [
+            "Wait to see if they retry",
+            "Switch to submission attempt"
+          ],
+          "trap": [
+            "Ease up to let them reset"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -289,47 +289,137 @@
       {
         "question": "What anatomical structures does the calf slicer from backside 50-50 primarily attack?",
         "answer": "The calf slicer targets the gastrocnemius and soleus muscles of the calf through compression against the attacker's tibia. Secondary stress is placed on the Achilles tendon as the foot is controlled and the leg is folded. The compression can also affect the popliteal nerves behind the knee. Unlike joint locks that attack ligaments, this submission crushes soft tissue between two hard surfaces, causing intense pain and potential tissue damage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf muscle crushed on tibia",
+        "distractors": {
+          "plausible": [
+            "Achilles tendon stretch",
+            "Knee ligaments like ACL"
+          ],
+          "trap": [
+            "Ankle joint hyperextension"
+          ]
+        }
       },
       {
         "question": "Your opponent hides their heel effectively during a heel hook attempt - how does this create the calf slicer opportunity?",
         "answer": "When the opponent bends their knee deeply to hide their heel, they position their calf directly over your shin in the entanglement. This bent-leg posture is exactly what the calf slicer requires. Thread your shin behind their bent knee, secure their foot to prevent straightening, and apply compression. Their defensive action against the heel hook directly creates the vulnerability to the calf slicer, forming a powerful submission dilemma.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bent knee exposes calf to shin",
+        "distractors": {
+          "plausible": [
+            "Straight leg sets up the slicer",
+            "Grip fighting opens the slicer"
+          ],
+          "trap": [
+            "Push knee in deeper for safety"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender once the calf slicer is being applied?",
         "answer": "The point of no escape occurs when the attacker has their shin threaded behind the knee, the figure-four locked with the outside leg, and foot control secured with both hands. Once all three elements are in place, the defender cannot straighten their leg or extract it from the compression structure. Any hip extension by the attacker from this locked configuration generates compression that is extremely difficult to relieve without the attacker's cooperation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin, figure-four, and foot locked",
+        "distractors": {
+          "plausible": [
+            "Figure-four locked, foot still free",
+            "Shin threaded, before figure-four"
+          ],
+          "trap": [
+            "Any bent-knee contact with shin"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the opponent begins rotating their foot during the calf slicer?",
         "answer": "If the opponent rotates their foot outward, shift your grip to cup the toes from the outside and pull them back toward their shin to prevent rotation and maintain compression alignment. If they rotate inward, switch to an ankle grip that controls the entire foot as a unit. Maintaining foot orientation is critical because rotation changes the compression angle and can create slack that allows the leg to straighten.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Match rotation, cup or grab ankle",
+        "distractors": {
+          "plausible": [
+            "Release grip to reset position",
+            "Pull straight back regardless"
+          ],
+          "trap": [
+            "Let the foot rotate freely"
+          ]
+        }
       },
       {
         "question": "Why is hip extension preferred over arm pulling for finishing the calf slicer?",
         "answer": "Hip extension generates significantly more force than arm pulling because it engages the glutes, hamstrings, and core, which are the body's largest and most powerful muscle groups. Arms fatigue within seconds against a resisting opponent and generate insufficient force to compress the calf against the shin. Hip extension also allows you to maintain chest pressure simultaneously, whereas arm pulling causes you to lean back and lose upper body control of the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips finish; arms fatigue fast",
+        "distractors": {
+          "plausible": [
+            "Arms give more control power",
+            "Combine equal arm and hip force"
+          ],
+          "trap": [
+            "Lean back and pull with arms"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the calf slicer is reaching dangerous levels of compression?",
         "answer": "Watch for the opponent's body stiffening as pain increases, verbal distress signals or gasping, frantic hand movement searching for a tap surface, and their free leg kicking or pushing against you. The trapped calf will visibly deform against your shin bone. If the opponent's foot begins involuntarily pointing as compression deepens, significant force is being applied and tissue damage is imminent. Always give partners time to tap before these late-stage indicators appear.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Body stiffens, gasps, hunts to tap",
+        "distractors": {
+          "plausible": [
+            "Only verbal complaints matter",
+            "Leg kicking means still safe"
+          ],
+          "trap": [
+            "Wait for the tap to be sure"
+          ]
+        }
       },
       {
         "question": "How should you release the calf slicer immediately upon receiving a tap signal?",
         "answer": "Upon receiving any tap signal, immediately stop all hip extension and relax your legs to release the figure-four lock. Release your grip on the opponent's foot and allow them to straighten their leg naturally at their own pace. Do not jerk or quickly unwrap, as controlled release prevents secondary injury from sudden decompression. Check for any numbness, sharp pain, or reduced mobility in your partner's leg before continuing training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop hips, relax, let leg extend",
+        "distractors": {
+          "plausible": [
+            "Quickly unwrap for fast release",
+            "Hold until they stop moving"
+          ],
+          "trap": [
+            "Yank the leg straight fast"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing adjustments maximize calf slicer success rate from backside 50-50?",
         "answer": "In competition, increase chest pressure before committing to the finish to limit defensive movement. Use the heel hook threat to force the bent knee, then transition quickly to the calf slicer before the opponent adjusts their defensive posture. Secure the figure-four rapidly and apply steady progressive pressure rather than explosive force. Opponents often fail to recognize the calf slicer threat until it is locked, so speed of entry matters more than speed of compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fast entry, then steady pressure",
+        "distractors": {
+          "plausible": [
+            "Explosive force finishes fastest",
+            "Wait for opponent to fully relax"
+          ],
+          "trap": [
+            "Release chest pressure early"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive responses to the calf slicer from backside 50-50?",
         "answer": "The three primary defenses are straightening the trapped leg before the figure-four locks to deny the compression angle, rolling toward the attacker to change the compression angle and break the backside orientation, and stripping the foot grip to create slack for leg extraction. The most effective defense is early leg straightening, which must be countered by transitioning to heel hook attacks on the now-exposed straight leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg before figure-four",
+        "distractors": {
+          "plausible": [
+            "Strip grip after lock is set",
+            "Roll away from the attacker"
+          ],
+          "trap": [
+            "Push deeper into knee bend"
+          ]
+        }
       }
     ],
     "clips": [
@@ -444,27 +534,77 @@
       {
         "question": "How do you recognize that a calf slicer is being set up from backside 50-50?",
         "answer": "Key recognition cues include the opponent shifting their shin from beside your leg to behind your bent knee crease, releasing heel hook grips to grab your foot or toes instead, and beginning to lock their outside leg over their attacking shin in a figure-four pattern. You may also feel increased forward chest pressure as they prepare to fold your leg. The transition typically happens when you have been bending your knee to defend heel hooks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin shifts behind bent knee",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your heel tight",
+            "Chest pressure suddenly lightens"
+          ],
+          "trap": [
+            "Foot pointed and toes curled"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the calf slicer from backside 50-50?",
         "answer": "Tap verbally first since your hands may be trapped in the leg entanglement. Simultaneously tap physically with your free hand on the opponent's body or the mat with multiple rapid taps. If both hands are trapped, use your free foot to tap the mat audibly. Do not wait to see if you can escape once meaningful compression is applied, as calf slicers cause tissue damage faster than joint locks with less warning sensation before injury occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap verbally and with free limb",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only once to save energy"
+          ],
+          "trap": [
+            "Try escaping before tapping"
+          ]
+        }
       },
       {
         "question": "What defensive options are available before the figure-four is locked?",
         "answer": "Before the figure-four locks, you can straighten your trapped leg to deny the compression angle, bridge and rotate to face the opponent to break the backside angle, or strip their foot grip and work to extract your leg from the entanglement. The critical defensive window is between the moment the shin threads behind your knee and the figure-four completion. Once the figure-four is locked with foot control secured, options narrow to grip stripping and tapping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten, face in, or strip grip",
+        "distractors": {
+          "plausible": [
+            "Strip grip after lock completes",
+            "Wait for the figure-four to set"
+          ],
+          "trap": [
+            "Kick hard to break the hold"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to keep your knee bent for extended periods when defending in backside 50-50?",
         "answer": "A bent knee positions your calf directly over the opponent's shin, creating the exact configuration needed for a calf slicer. While bending the knee is necessary to hide your heel from heel hooks, staying in this posture invites the calf slicer transition. You must alternate between brief heel-hiding and leg straightening to remain unpredictable and deny the sustained bent-knee position the attacker needs to set up the compression.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bent knee leaves calf exposed",
+        "distractors": {
+          "plausible": [
+            "Bent knee only risks heel hooks",
+            "Straight leg is the danger zone"
+          ],
+          "trap": [
+            "Keep knee bent the whole match"
+          ]
+        }
       },
       {
         "question": "What is the primary escape if the calf slicer is partially locked but not yet fully compressed?",
         "answer": "Strip the opponent's foot grip with both hands as your first priority, since without foot control they cannot prevent you from straightening your leg. Simultaneously bridge your hips to create space and reduce the attacker's compression leverage. If the figure-four is locked but your foot is free, kick your leg straight with controlled force. Work to create any slack in the system and extract your leg before the attacker can readjust their position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip foot grip, bridge, straighten",
+        "distractors": {
+          "plausible": [
+            "Wait for figure-four to fully lock",
+            "Pull knee tighter to base"
+          ],
+          "trap": [
+            "Push into the compression"
+          ]
+        }
       }
     ],
     "training_progressions": [

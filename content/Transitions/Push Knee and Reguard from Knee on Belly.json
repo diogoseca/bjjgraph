@@ -258,15 +258,45 @@
     "flashcards": [
       {
         "question": "What direction should you push the opponent's knee when executing this escape?",
-        "answer": "Push the knee diagonally across your body toward the far-side mat, not straight up. Pushing upward fights gravity and the opponent's weight directly, which is inefficient and exhausting. The diagonal push redirects the knee off your centerline while your hips escape in the opposite direction, creating maximum separation with minimal force expenditure."
+        "answer": "Push the knee diagonally across your body toward the far-side mat, not straight up. Pushing upward fights gravity and the opponent's weight directly, which is inefficient and exhausting. The diagonal push redirects the knee off your centerline while your hips escape in the opposite direction, creating maximum separation with minimal force expenditure.",
+        "answer_line": "Push diagonally, not straight up",
+        "distractors": {
+          "plausible": [
+            "Push straight up off the hips",
+            "Push toward your own centerline"
+          ],
+          "trap": [
+            "Pull the knee into your chest"
+          ]
+        }
       },
       {
         "question": "Why must the hip escape happen simultaneously with the push rather than sequentially?",
-        "answer": "The push only creates a momentary window where the knee is displaced from your torso. Without simultaneous hip escape, the opponent simply re-plants their knee before you have changed position. The combined motion ensures that by the time the opponent recovers their knee position, your hips have already moved far enough to insert a knee shield and begin guard recovery."
+        "answer": "The push only creates a momentary window where the knee is displaced from your torso. Without simultaneous hip escape, the opponent simply re-plants their knee before you have changed position. The combined motion ensures that by the time the opponent recovers their knee position, your hips have already moved far enough to insert a knee shield and begin guard recovery.",
+        "answer_line": "Push and hip escape together",
+        "distractors": {
+          "plausible": [
+            "Push first, then escape hips",
+            "Hip escape first, then push"
+          ],
+          "trap": [
+            "Push twice before escaping hips"
+          ]
+        }
       },
       {
         "question": "Your opponent responds to your push by sliding their knee across toward mount — how do you prevent this?",
-        "answer": "Insert your knee shield immediately as you push. The shin barrier between your bodies prevents the opponent from sliding their knee across to mount. If you feel them shifting toward mount, prioritize the knee shield over completing the guard closure — a knee shield half guard position is far better than ending up in full mount under consolidated control."
+        "answer": "Insert your knee shield immediately as you push. The shin barrier between your bodies prevents the opponent from sliding their knee across to mount. If you feel them shifting toward mount, prioritize the knee shield over completing the guard closure — a knee shield half guard position is far better than ending up in full mount under consolidated control.",
+        "answer_line": "Insert knee shield, not full guard",
+        "distractors": {
+          "plausible": [
+            "Finish closing guard fully first",
+            "Push even harder to stop the slide"
+          ],
+          "trap": [
+            "Let go and turn to turtle"
+          ]
+        }
       },
       {
         "question": "When is this escape most effective versus when should you choose a different KOB escape?",
@@ -274,19 +304,59 @@
       },
       {
         "question": "What grip should your near-side hand use on the opponent's knee?",
-        "answer": "Curl your fingers around the inside of the opponent's kneecap, gripping the soft tissue behind the knee joint. This grip allows you to both push and redirect the knee off your centerline. Avoid grabbing the top of the knee or the pants fabric above the knee, as these grips provide less mechanical advantage for displacing the knee from your torso."
+        "answer": "Curl your fingers around the inside of the opponent's kneecap, gripping the soft tissue behind the knee joint. This grip allows you to both push and redirect the knee off your centerline. Avoid grabbing the top of the knee or the pants fabric above the knee, as these grips provide less mechanical advantage for displacing the knee from your torso.",
+        "answer_line": "Fingers curl inside the kneecap",
+        "distractors": {
+          "plausible": [
+            "Grip the pants above the knee",
+            "Grab the top of the knee"
+          ],
+          "trap": [
+            "Reach for their far ankle instead"
+          ]
+        }
       },
       {
         "question": "Why is it critical to keep your elbows close to your body during the push?",
-        "answer": "Extended arms with locked elbows create an armbar opportunity for the top player, who can simply capture your straight arm and attack. Keeping elbows bent and tight to your ribs uses body structure rather than arm strength to generate pushing force, maintains protection against arm attacks, and allows you to retract quickly if the opponent attempts to isolate your limb."
+        "answer": "Extended arms with locked elbows create an armbar opportunity for the top player, who can simply capture your straight arm and attack. Keeping elbows bent and tight to your ribs uses body structure rather than arm strength to generate pushing force, maintains protection against arm attacks, and allows you to retract quickly if the opponent attempts to isolate your limb.",
+        "answer_line": "Keep elbows tight, not extended",
+        "distractors": {
+          "plausible": [
+            "Extend arms fully for leverage",
+            "Push with straight, locked arms"
+          ],
+          "trap": [
+            "Reach far out to frame the hip"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after closing your guard following a successful escape?",
-        "answer": "Immediately break the opponent's posture by pulling their collar down while driving your heels into their lower back. Establish dominant grips on collar and sleeve. The goal is to transition from defensive escape mode to offensive guard mode as quickly as possible, preventing the opponent from posturing up and potentially re-opening your guard to attempt another pass."
+        "answer": "Immediately break the opponent's posture by pulling their collar down while driving your heels into their lower back. Establish dominant grips on collar and sleeve. The goal is to transition from defensive escape mode to offensive guard mode as quickly as possible, preventing the opponent from posturing up and potentially re-opening your guard to attempt another pass.",
+        "answer_line": "Break posture, pull collar down",
+        "distractors": {
+          "plausible": [
+            "Rest and reset your grips first",
+            "Push their hips away for space"
+          ],
+          "trap": [
+            "Let them posture up to breathe"
+          ]
+        }
       },
       {
         "question": "How does this escape chain with other Knee on Belly escape techniques when the initial push fails?",
-        "answer": "If the push is blocked and the opponent re-plants, immediately transition to a frame-and-shrimp escape using the frames already in place. If that is also blocked, turn to turtle as a last resort. Each attempt creates incremental space improvement even if the full escape fails. The key is maintaining continuous movement rather than repeating the same blocked technique, forcing the top player to solve multiple defensive problems in sequence."
+        "answer": "If the push is blocked and the opponent re-plants, immediately transition to a frame-and-shrimp escape using the frames already in place. If that is also blocked, turn to turtle as a last resort. Each attempt creates incremental space improvement even if the full escape fails. The key is maintaining continuous movement rather than repeating the same blocked technique, forcing the top player to solve multiple defensive problems in sequence.",
+        "answer_line": "Frame-shrimp, then turtle if blocked",
+        "distractors": {
+          "plausible": [
+            "Repeat the same push again",
+            "Turtle immediately, skip the frames"
+          ],
+          "trap": [
+            "Stay still and absorb the pressure"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves explosive hip movement under significant compressive pressure on the torso. Avoid bridging hard directly against the knee as this can cause rib or costal cartilage injuries. If the opponent's knee is positioned on your sternum or directly on your ribs rather than the softer diaphragm area, be cautious about pushing forcefully against a bony contact point. Communicate with training partners about pressure levels during drilling to prevent rib injuries. During initial learning phases, have partners apply reduced pressure to allow proper mechanics development before adding resistance.",
@@ -394,19 +464,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt the push knee reguard escape?",
-        "answer": "The earliest cue is feeling their hands contact your knee, specifically fingers curling around the inside of your kneecap or gripping behind the knee joint. Before the push develops full force, you will also notice them turning their body to face your knee side. Recognizing these early signals gives you time to preemptively transition to mount or increase forward pressure before the escape sequence develops momentum."
+        "answer": "The earliest cue is feeling their hands contact your knee, specifically fingers curling around the inside of your kneecap or gripping behind the knee joint. Before the push develops full force, you will also notice them turning their body to face your knee side. Recognizing these early signals gives you time to preemptively transition to mount or increase forward pressure before the escape sequence develops momentum.",
+        "answer_line": "Feel fingers curl on your kneecap",
+        "distractors": {
+          "plausible": [
+            "See them posture up first",
+            "Feel pressure increase on your chest"
+          ],
+          "trap": [
+            "Wait until the knee is fully off"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to mount often better than fighting to maintain knee on belly when the opponent pushes?",
-        "answer": "Fighting the push directly creates a strength contest where the outcome depends on physical attributes rather than technique. The push creates space between your knee and their torso — space that you can exploit by sliding your knee across to mount rather than trying to re-close the gap. Mount is a more stable dominant position that removes the push-escape option entirely, converting their escape attempt into a positional advancement that scores additional points."
+        "answer": "Fighting the push directly creates a strength contest where the outcome depends on physical attributes rather than technique. The push creates space between your knee and their torso — space that you can exploit by sliding your knee across to mount rather than trying to re-close the gap. Mount is a more stable dominant position that removes the push-escape option entirely, converting their escape attempt into a positional advancement that scores additional points.",
+        "answer_line": "Slide the knee across to mount",
+        "distractors": {
+          "plausible": [
+            "Fight to re-close the gap",
+            "Drop straight back to side control"
+          ],
+          "trap": [
+            "Chase a leg lock in the space"
+          ]
+        }
       },
       {
         "question": "How should you adjust your knee on belly style to make the push escape less effective?",
-        "answer": "Maintain dynamic, mobile knee on belly with light but directional pressure rather than heavy, static weight. A mobile KOB with constant transitions and submission threats forces the opponent to react defensively rather than executing a planned push escape. Heavy committed weight is paradoxically easier to push off because it provides a solid target to push against, while light, redirecting pressure is much harder to displace and predict."
+        "answer": "Maintain dynamic, mobile knee on belly with light but directional pressure rather than heavy, static weight. A mobile KOB with constant transitions and submission threats forces the opponent to react defensively rather than executing a planned push escape. Heavy committed weight is paradoxically easier to push off because it provides a solid target to push against, while light, redirecting pressure is much harder to displace and predict.",
+        "answer_line": "Stay mobile with light pressure",
+        "distractors": {
+          "plausible": [
+            "Sit heavy and static for control",
+            "Drive your weight down constantly"
+          ],
+          "trap": [
+            "Plant your hands and stop moving"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully pushes your knee off their torso — what should your immediate priority be?",
-        "answer": "Immediately transition to mount by sliding your knee across their torso before they can insert a knee shield between your bodies. If mount is not available due to their knee shield, drop to side control to maintain top pressure and consolidate. The worst response is trying to re-establish knee on belly from the same angle, as the opponent has already demonstrated they can escape from that configuration. Either advance to mount or consolidate to side control."
+        "answer": "Immediately transition to mount by sliding your knee across their torso before they can insert a knee shield between your bodies. If mount is not available due to their knee shield, drop to side control to maintain top pressure and consolidate. The worst response is trying to re-establish knee on belly from the same angle, as the opponent has already demonstrated they can escape from that configuration. Either advance to mount or consolidate to side control.",
+        "answer_line": "Slide to mount before knee shield",
+        "distractors": {
+          "plausible": [
+            "Rebuild knee on belly same angle",
+            "Drop straight to side control first"
+          ],
+          "trap": [
+            "Chase a scramble on the legs"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -228,51 +228,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Hip Escape to Turtle from body triangle?",
-        "answer": "The primary goal is to escape the body triangle lock and reach turtle position, which offers significantly more mobility and escape options than remaining trapped. Turtle removes the immediate breathing restriction and neck attack danger, allowing you to continue working toward guard recovery or standing."
+        "answer": "The primary goal is to escape the body triangle lock and reach turtle position, which offers significantly more mobility and escape options than remaining trapped. Turtle removes the immediate breathing restriction and neck attack danger, allowing you to continue working toward guard recovery or standing.",
+        "answer_line": "Reach turtle position",
+        "distractors": {
+          "plausible": [
+            "Escape straight to guard",
+            "Reverse them to top"
+          ],
+          "trap": [
+            "Wait out the squeeze"
+          ]
+        }
       },
       {
         "question": "Why do you turn toward the triangle leg side rather than away from it?",
-        "answer": "Turning toward the triangle leg reduces the squeezing surface area against your ribs and positions you to attack the figure-four lock mechanism. Turning away actually increases squeeze effectiveness and moves you further from being able to clear the lock. The triangle's power comes from perpendicular pressure, so angling toward it diminishes this mechanical advantage."
+        "answer": "Turning toward the triangle leg reduces the squeezing surface area against your ribs and positions you to attack the figure-four lock mechanism. Turning away actually increases squeeze effectiveness and moves you further from being able to clear the lock. The triangle's power comes from perpendicular pressure, so angling toward it diminishes this mechanical advantage.",
+        "answer_line": "Turn toward the trapped leg",
+        "distractors": {
+          "plausible": [
+            "Turn toward, then power through",
+            "Turn toward, sit up immediately"
+          ],
+          "trap": [
+            "Turn away from the leg"
+          ]
+        }
       },
       {
         "question": "What is the structural weakness in the body triangle that you target during this escape?",
-        "answer": "The figure-four lock's weakness is the foot tucked behind the opponent's own knee. Unlike the interlocked legs which have bone-on-bone contact, this foot position relies on muscular tension and positioning. By creating space through hip escape and then pushing the ankle out of its tucked position, you break the entire locking mechanism."
+        "answer": "The figure-four lock's weakness is the foot tucked behind the opponent's own knee. Unlike the interlocked legs which have bone-on-bone contact, this foot position relies on muscular tension and positioning. By creating space through hip escape and then pushing the ankle out of its tucked position, you break the entire locking mechanism.",
+        "answer_line": "Foot tucked behind knee",
+        "distractors": {
+          "plausible": [
+            "Grip pressure on the collar",
+            "Bottom leg crossing point"
+          ],
+          "trap": [
+            "The interlocked bony legs"
+          ]
+        }
       },
       {
         "question": "Your opponent increases their squeeze dramatically when you begin turning - what adjustment should you make?",
-        "answer": "Pause the escape attempt temporarily and focus on breathing management. The increased squeeze is metabolically costly for them and cannot be maintained indefinitely. Wait for them to adjust their grip or need to relax slightly, then resume your escape. Forcing the escape against maximum squeeze wastes your energy under breathing restriction."
+        "answer": "Pause the escape attempt temporarily and focus on breathing management. The increased squeeze is metabolically costly for them and cannot be maintained indefinitely. Wait for them to adjust their grip or need to relax slightly, then resume your escape. Forcing the escape against maximum squeeze wastes your energy under breathing restriction.",
+        "answer_line": "Pause and manage breathing",
+        "distractors": {
+          "plausible": [
+            "Push through it faster",
+            "Switch to neck defense only"
+          ],
+          "trap": [
+            "Match squeeze with a bridge"
+          ]
+        }
       },
       {
         "question": "Why is it critical to insert your elbow or forearm immediately after breaking the lock?",
-        "answer": "The elbow frame prevents the opponent from immediately re-establishing the body triangle. Without this frame, the space you created will be quickly reclaimed as they squeeze their legs back together. The frame must be inserted as a continuous part of the escape movement, not as a separate action after pausing."
+        "answer": "The elbow frame prevents the opponent from immediately re-establishing the body triangle. Without this frame, the space you created will be quickly reclaimed as they squeeze their legs back together. The frame must be inserted as a continuous part of the escape movement, not as a separate action after pausing.",
+        "answer_line": "Blocks lock from resetting",
+        "distractors": {
+          "plausible": [
+            "Frees your hand for a grip",
+            "Creates space to stand up"
+          ],
+          "trap": [
+            "Pause first, then insert it"
+          ]
+        }
       },
       {
         "question": "How should you manage your breathing while trapped in body triangle?",
-        "answer": "Take controlled, shallow breaths using your chest rather than trying to breathe deeply with your diaphragm which is compressed. Avoid holding your breath or breathing erratically as this accelerates panic and oxygen depletion. Accept that full breaths are not possible and work efficiently with reduced oxygen, saving explosive efforts for critical escape moments."
+        "answer": "Take controlled, shallow breaths using your chest rather than trying to breathe deeply with your diaphragm which is compressed. Avoid holding your breath or breathing erratically as this accelerates panic and oxygen depletion. Accept that full breaths are not possible and work efficiently with reduced oxygen, saving explosive efforts for critical escape moments.",
+        "answer_line": "Shallow chest breaths",
+        "distractors": {
+          "plausible": [
+            "Deep diaphragm breaths",
+            "Hold breath, then explode"
+          ],
+          "trap": [
+            "Panic-breathe to get air fast"
+          ]
+        }
       },
       {
         "question": "When your opponent attacks your neck as you work on the triangle, what is the correct response?",
-        "answer": "Immediately prioritize neck defense by tucking chin deeply and bringing hands to protect your throat. The triangle escape becomes secondary - you must survive the choke attempt first. Once the immediate choke threat is defended, resume systematic escape work. Accept that body triangle escapes require iterative alternation between neck defense and lock clearing."
+        "answer": "Immediately prioritize neck defense by tucking chin deeply and bringing hands to protect your throat. The triangle escape becomes secondary - you must survive the choke attempt first. Once the immediate choke threat is defended, resume systematic escape work. Accept that body triangle escapes require iterative alternation between neck defense and lock clearing.",
+        "answer_line": "Defend neck first",
+        "distractors": {
+          "plausible": [
+            "Ignore choke, finish escape",
+            "Split focus between both"
+          ],
+          "trap": [
+            "Keep both hands on the lock"
+          ]
+        }
       },
       {
         "question": "What follow-up options do you have after successfully reaching turtle position?",
-        "answer": "From turtle you can work toward: guard recovery by sitting through to half guard or closed guard, technical standup to reach standing position, granby roll to invert and recover guard, or standard back escape sequences if opponent maintains hooks. Turtle is an intermediate position that requires continued escape work but offers significantly more options than body triangle."
+        "answer": "From turtle you can work toward: guard recovery by sitting through to half guard or closed guard, technical standup to reach standing position, granby roll to invert and recover guard, or standard back escape sequences if opponent maintains hooks. Turtle is an intermediate position that requires continued escape work but offers significantly more options than body triangle.",
+        "answer_line": "Guard recovery or standup",
+        "distractors": {
+          "plausible": [
+            "Immediate takedown attempt",
+            "Roll straight to mount"
+          ],
+          "trap": [
+            "Stay flat and turtle up"
+          ]
+        }
       },
       {
         "question": "Why is turtle considered a successful outcome even though it is not a dominant position?",
-        "answer": "Turtle removes the breathing restriction and concentrated neck attack danger of body triangle. While turtle still has defensive requirements, it offers multiple escape pathways, more mobility, and does not have the physiological stress of rib compression. The escape strategy prioritizes getting out of the most dangerous situation first, then continuing to improve position from turtle."
+        "answer": "Turtle removes the breathing restriction and concentrated neck attack danger of body triangle. While turtle still has defensive requirements, it offers multiple escape pathways, more mobility, and does not have the physiological stress of rib compression. The escape strategy prioritizes getting out of the most dangerous situation first, then continuing to improve position from turtle.",
+        "answer_line": "Removes breathing danger",
+        "distractors": {
+          "plausible": [
+            "It's a dominant position",
+            "Fully neutralizes opponent"
+          ],
+          "trap": [
+            "It ends their back attacks"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to hooks when they feel the body triangle failing - should you continue toward turtle?",
-        "answer": "Yes, accept the transition to hooks as a partial victory. Hooks are significantly easier to clear than body triangle using standard back escape sequences such as elbow escape, shoulder walk, and hand fighting. Continue to turtle and immediately begin working standard back escapes, which have higher success rates than body triangle escapes."
+        "answer": "Yes, accept the transition to hooks as a partial victory. Hooks are significantly easier to clear than body triangle using standard back escape sequences such as elbow escape, shoulder walk, and hand fighting. Continue to turtle and immediately begin working standard back escapes, which have higher success rates than body triangle escapes.",
+        "answer_line": "Yes, hooks are easier to clear",
+        "distractors": {
+          "plausible": [
+            "No, fight to stay in triangle",
+            "Yes, but abandon the escape"
+          ],
+          "trap": [
+            "Try to re-lock the triangle"
+          ]
+        }
       },
       {
         "question": "What grip configuration must you establish before attempting to attack the triangle lock?",
-        "answer": "You need at least one hand dedicated to neck defense at all times, typically controlling the opponent's choking wrist with a two-on-one grip or maintaining chin tuck with hand blocking the collar. The free hand works on the triangle lock only after neck defense is secured. Never commit both hands to the triangle simultaneously as this leaves your neck completely exposed to finishing attacks."
+        "answer": "You need at least one hand dedicated to neck defense at all times, typically controlling the opponent's choking wrist with a two-on-one grip or maintaining chin tuck with hand blocking the collar. The free hand works on the triangle lock only after neck defense is secured. Never commit both hands to the triangle simultaneously as this leaves your neck completely exposed to finishing attacks.",
+        "answer_line": "One hand always on defense",
+        "distractors": {
+          "plausible": [
+            "One hand on their far hip",
+            "One hand gripping their belt"
+          ],
+          "trap": [
+            "Both hands on the lock"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction of force when pushing the opponent's foot out of the figure-four lock?",
-        "answer": "Push the foot perpendicular to the line of their shin, directing force outward away from behind their knee. The foot is wedged in a pocket created by the knee bend, so pushing along the shin accomplishes nothing. The perpendicular push leverages the weakest axis of the lock. Combine this push with your hip escape movement for maximum effect, as the space created by the shrimp reduces the clamping force holding the foot in position."
+        "answer": "Push the foot perpendicular to the line of their shin, directing force outward away from behind their knee. The foot is wedged in a pocket created by the knee bend, so pushing along the shin accomplishes nothing. The perpendicular push leverages the weakest axis of the lock. Combine this push with your hip escape movement for maximum effect, as the space created by the shrimp reduces the clamping force holding the foot in position.",
+        "answer_line": "Push perpendicular to shin",
+        "distractors": {
+          "plausible": [
+            "Push straight along the shin",
+            "Pull the foot toward you"
+          ],
+          "trap": [
+            "Yank the ankle straight up"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice body triangle escapes with clear communication about pressure levels, especially regarding breathing restriction. Partners should use moderate squeeze pressure during drilling rather than competition-level compression to allow technical learning. If the bottom person taps or signals distress, immediately release all pressure. Build up intensity gradually over training sessions as the defender develops comfort with restricted breathing. Avoid drilling this escape when fatigued as judgment and timing suffer under oxygen restriction. The neck attack component requires careful training - partners should not apply full choke pressure during escape drilling. Those with rib injuries or breathing conditions should modify training intensity and communicate limitations before starting.",
@@ -381,23 +501,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating Hip Escape to Turtle?",
-        "answer": "The earliest cue is the opponent beginning to rotate their shoulders toward your triangle leg side. This turning motion precedes the hip escape and lock clearing attempts. Recognizing this rotation early allows you to counter by increasing squeeze pressure and pulling them back to center before they establish an escape angle. By the time they are posting their elbow or reaching for your ankle, the escape is already in its middle phases."
+        "answer": "The earliest cue is the opponent beginning to rotate their shoulders toward your triangle leg side. This turning motion precedes the hip escape and lock clearing attempts. Recognizing this rotation early allows you to counter by increasing squeeze pressure and pulling them back to center before they establish an escape angle. By the time they are posting their elbow or reaching for your ankle, the escape is already in its middle phases.",
+        "answer_line": "Shoulders turn toward leg side",
+        "distractors": {
+          "plausible": [
+            "Hand reaches for your ankle",
+            "Elbow posts on the mat"
+          ],
+          "trap": [
+            "Wait until they post the elbow"
+          ]
+        }
       },
       {
         "question": "Why should you attack the neck when your opponent moves their hands to work on the triangle lock?",
-        "answer": "Attacking the neck creates a defensive dilemma: the opponent cannot simultaneously defend their neck and clear the triangle with the same hands. Every time they redirect a hand from neck defense to triangle work, you have a window to advance your choking grip. This forces them to constantly interrupt their escape to re-defend the neck, preventing them from building the sustained momentum needed to complete the multi-step escape sequence."
+        "answer": "Attacking the neck creates a defensive dilemma: the opponent cannot simultaneously defend their neck and clear the triangle with the same hands. Every time they redirect a hand from neck defense to triangle work, you have a window to advance your choking grip. This forces them to constantly interrupt their escape to re-defend the neck, preventing them from building the sustained momentum needed to complete the multi-step escape sequence.",
+        "answer_line": "Forces them to keep defending",
+        "distractors": {
+          "plausible": [
+            "Finishes the choke immediately",
+            "Speeds up their escape"
+          ],
+          "trap": [
+            "Let go of neck to save grips"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially broken your figure-four lock and inserted their elbow as a frame - what should you do?",
-        "answer": "If re-establishing the body triangle is not immediately possible due to the elbow frame, transition to standard hooks by threading your feet inside their thighs before they can rotate to turtle. Maintain your seatbelt grip throughout this transition. Fighting to re-lock the triangle against a well-placed elbow frame wastes time and energy while the opponent continues progressing toward turtle. Accept the downgrade to hooks rather than losing back control entirely."
+        "answer": "If re-establishing the body triangle is not immediately possible due to the elbow frame, transition to standard hooks by threading your feet inside their thighs before they can rotate to turtle. Maintain your seatbelt grip throughout this transition. Fighting to re-lock the triangle against a well-placed elbow frame wastes time and energy while the opponent continues progressing toward turtle. Accept the downgrade to hooks rather than losing back control entirely.",
+        "answer_line": "Switch to hooks, not re-lock",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow frame out",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Keep fighting to re-lock triangle"
+          ]
+        }
       },
       {
         "question": "How do you prevent your body triangle from becoming shallow over repeated escape attempts?",
-        "answer": "Periodically check your lock depth during moments when the opponent is focused on neck defense rather than triangle clearing. Pull your locking foot deeper behind your knee and squeeze your legs together to re-set the configuration. Use your free hand to physically adjust the foot position if needed. A deep lock requires significantly more force to clear than a shallow one, so proactive maintenance is far more energy-efficient than trying to hold a deteriorating lock."
+        "answer": "Periodically check your lock depth during moments when the opponent is focused on neck defense rather than triangle clearing. Pull your locking foot deeper behind your knee and squeeze your legs together to re-set the configuration. Use your free hand to physically adjust the foot position if needed. A deep lock requires significantly more force to clear than a shallow one, so proactive maintenance is far more energy-efficient than trying to hold a deteriorating lock.",
+        "answer_line": "Periodically reset lock depth",
+        "distractors": {
+          "plausible": [
+            "Only fix it once it slips",
+            "Switch legs to re-lock"
+          ],
+          "trap": [
+            "Ignore depth, just squeeze harder"
+          ]
+        }
       },
       {
         "question": "What is the risk of following your opponent's hip escape too aggressively with your own hip adjustment?",
-        "answer": "Over-committing your hip movement to follow their escape can compromise your own base and stability. If they suddenly reverse direction or execute a granby roll, your forward momentum makes it difficult to adjust and you may lose chest-to-back connection entirely. Follow their movement with controlled adjustments rather than lunging, and maintain enough base on the mat to absorb directional changes without losing your position."
+        "answer": "Over-committing your hip movement to follow their escape can compromise your own base and stability. If they suddenly reverse direction or execute a granby roll, your forward momentum makes it difficult to adjust and you may lose chest-to-back connection entirely. Follow their movement with controlled adjustments rather than lunging, and maintain enough base on the mat to absorb directional changes without losing your position.",
+        "answer_line": "Lose base if they reverse",
+        "distractors": {
+          "plausible": [
+            "Wastes too much energy",
+            "Loses grip on their collar"
+          ],
+          "trap": [
+            "Lunge forward to smother them"
+          ]
+        }
       }
     ],
     "training_progressions": [

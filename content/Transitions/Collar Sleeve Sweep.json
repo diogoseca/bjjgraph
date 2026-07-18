@@ -268,35 +268,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Collar Sleeve Sweep?",
-        "answer": "The optimal timing is when the opponent's weight shifts forward against your collar pull, or during the brief moment they relax after resisting your off-balancing attempts. When they lean into your collar grip, their weight moves toward the sweep direction, amplifying your force. Additionally, transitions between grip fighting exchanges create momentary instability. Avoid attempting the sweep when the opponent has settled into a stable base with even weight distribution."
+        "answer": "The optimal timing is when the opponent's weight shifts forward against your collar pull, or during the brief moment they relax after resisting your off-balancing attempts. When they lean into your collar grip, their weight moves toward the sweep direction, amplifying your force. Additionally, transitions between grip fighting exchanges create momentary instability. Avoid attempting the sweep when the opponent has settled into a stable base with even weight distribution.",
+        "answer_line": "Weight shifts into your pull",
+        "distractors": {
+          "plausible": [
+            "Mid grip-fighting exchange",
+            "Right when they resist hardest"
+          ],
+          "trap": [
+            "Wait for stable, even base"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the Collar Sleeve Sweep?",
-        "answer": "You need a deep cross-collar grip with four fingers inside the collar near the shoulder, a firm sleeve grip at the wrist with full arm extension, a foot posted on the opponent's hip on the sleeve-grip side, sufficient hip angle of at least 30 degrees off-center, and your free leg positioned to hook behind the opponent's far knee. All five elements must be loaded before committing—missing any single component dramatically reduces success probability."
+        "answer": "You need a deep cross-collar grip with four fingers inside the collar near the shoulder, a firm sleeve grip at the wrist with full arm extension, a foot posted on the opponent's hip on the sleeve-grip side, sufficient hip angle of at least 30 degrees off-center, and your free leg positioned to hook behind the opponent's far knee. All five elements must be loaded before committing—missing any single component dramatically reduces success probability.",
+        "answer_line": "All five grip/angle/hook elements",
+        "distractors": {
+          "plausible": [
+            "Deep collar grip is enough",
+            "Sleeve grip plus foot on hip"
+          ],
+          "trap": [
+            "Attack before hip angle is set"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the sweep succeeds or fails?",
-        "answer": "The direction of the collar pull is the single most critical detail. Pulling straight back toward your chest allows the opponent to resist by leaning forward into the pull. Pulling at a 45-degree angle toward your shoulder creates rotational torque that attacks their base diagonally, which is exponentially harder to resist. This angular pull combined with the sleeve extension creates opposing forces that generate a twisting motion the opponent cannot counter with simple base adjustments."
+        "answer": "The direction of the collar pull is the single most critical detail. Pulling straight back toward your chest allows the opponent to resist by leaning forward into the pull. Pulling at a 45-degree angle toward your shoulder creates rotational torque that attacks their base diagonally, which is exponentially harder to resist. This angular pull combined with the sleeve extension creates opposing forces that generate a twisting motion the opponent cannot counter with simple base adjustments.",
+        "answer_line": "45-degree pull toward shoulder",
+        "distractors": {
+          "plausible": [
+            "Pull straight back to chest",
+            "Pull collar toward your hip"
+          ],
+          "trap": [
+            "Push collar away from body"
+          ]
+        }
       },
       {
         "question": "Why does the sweep most commonly fail, and how do you diagnose the problem?",
-        "answer": "The most common failure point is insufficient sleeve extension that allows the opponent to post their hand during the sweep. If your opponent consistently catches themselves mid-sweep, check that you are maintaining full wrist-level sleeve control with their arm extended completely away from their body. The second most common failure is poor hook depth—if the hook slips off their leg, the sweep loses its base-removal component and becomes just an off-balance they can recover from."
+        "answer": "The most common failure point is insufficient sleeve extension that allows the opponent to post their hand during the sweep. If your opponent consistently catches themselves mid-sweep, check that you are maintaining full wrist-level sleeve control with their arm extended completely away from their body. The second most common failure is poor hook depth—if the hook slips off their leg, the sweep loses its base-removal component and becomes just an off-balance they can recover from.",
+        "answer_line": "Check sleeve extension, then hook",
+        "distractors": {
+          "plausible": [
+            "Check collar grip depth first",
+            "Check hip angle first"
+          ],
+          "trap": [
+            "Release sleeve grip to reset"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration is required for maximum sweep effectiveness?",
-        "answer": "The cross-collar grip needs four fingers deep inside the collar near the opponent's shoulder, with the thumb outside for maximum purchase. This placement provides the longest lever arm for rotational pulling. The sleeve grip must control at the wrist or mid-forearm—never higher than the elbow—with the arm fully extended to prevent any posting ability. Both grips must maintain tension throughout the entire sweep arc because releasing either grip mid-sweep allows recovery."
+        "answer": "The cross-collar grip needs four fingers deep inside the collar near the opponent's shoulder, with the thumb outside for maximum purchase. This placement provides the longest lever arm for rotational pulling. The sleeve grip must control at the wrist or mid-forearm—never higher than the elbow—with the arm fully extended to prevent any posting ability. Both grips must maintain tension throughout the entire sweep arc because releasing either grip mid-sweep allows recovery.",
+        "answer_line": "Four fingers deep, wrist sleeve",
+        "distractors": {
+          "plausible": [
+            "Grip sleeve above the elbow",
+            "Thumb inside collar for grip"
+          ],
+          "trap": [
+            "Release sleeve grip mid-sweep"
+          ]
+        }
       },
       {
         "question": "In what direction should force be applied during the sweep execution?",
-        "answer": "The force vectors work in three coordinated directions: the collar pulls diagonally at 45 degrees toward your shoulder creating rotation, the sleeve pushes in the opposite direction amplifying the rotational torque, and the hip-posted foot kicks laterally through the opponent's centerline while the hooking leg pulls in the sweep direction. These three force vectors create a spiral motion that attacks the opponent's base from multiple angles simultaneously, making it extremely difficult to counter with a single adjustment."
+        "answer": "The force vectors work in three coordinated directions: the collar pulls diagonally at 45 degrees toward your shoulder creating rotation, the sleeve pushes in the opposite direction amplifying the rotational torque, and the hip-posted foot kicks laterally through the opponent's centerline while the hooking leg pulls in the sweep direction. These three force vectors create a spiral motion that attacks the opponent's base from multiple angles simultaneously, making it extremely difficult to counter with a single adjustment.",
+        "answer_line": "Collar rotates, hip and hook spiral",
+        "distractors": {
+          "plausible": [
+            "Pull collar and sleeve same way",
+            "Push through with hip only"
+          ],
+          "trap": [
+            "Pull straight back both hands"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat every time you attempt the sweep—how do you adjust your strategy?",
-        "answer": "An opponent who consistently posts is giving you a triangle entry. When they post, their arm crosses the plane between your legs and their neck, creating the arm isolation needed for a triangle. Immediately shoot your hip-posted leg over their posted shoulder and around their neck while pulling their head down with the collar grip. After one or two triangle entries, the opponent will stop posting, which reopens the sweep. This sweep-to-triangle chain is the fundamental dilemma of collar sleeve guard."
+        "answer": "An opponent who consistently posts is giving you a triangle entry. When they post, their arm crosses the plane between your legs and their neck, creating the arm isolation needed for a triangle. Immediately shoot your hip-posted leg over their posted shoulder and around their neck while pulling their head down with the collar grip. After one or two triangle entries, the opponent will stop posting, which reopens the sweep. This sweep-to-triangle chain is the fundamental dilemma of collar sleeve guard.",
+        "answer_line": "Shoot triangle over posted arm",
+        "distractors": {
+          "plausible": [
+            "Abandon sweep, reset grips",
+            "Switch to hip bump sweep"
+          ],
+          "trap": [
+            "Chase the sweep harder"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you develop if the Collar Sleeve Sweep is consistently defended?",
-        "answer": "If the opponent defends by posting, attack the triangle. If they defend by driving forward to flatten you, switch to a hip bump sweep or redirect their momentum overhead with a tomoe nage variation. If they strip your collar grip, transition to spider or lasso guard maintaining the sleeve control. If they backstep to remove your hook, follow with a collar drag to take the back. Every defensive reaction should expose them to a different attack—never attempt the same sweep twice against a prepared defense."
+        "answer": "If the opponent defends by posting, attack the triangle. If they defend by driving forward to flatten you, switch to a hip bump sweep or redirect their momentum overhead with a tomoe nage variation. If they strip your collar grip, transition to spider or lasso guard maintaining the sleeve control. If they backstep to remove your hook, follow with a collar drag to take the back. Every defensive reaction should expose them to a different attack—never attempt the same sweep twice against a prepared defense.",
+        "answer_line": "Chain to a different attack",
+        "distractors": {
+          "plausible": [
+            "Repeat the same sweep again",
+            "Always switch to spider guard"
+          ],
+          "trap": [
+            "Force the sweep through resistance"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Collar Sleeve Sweep is a relatively low-risk technique compared to submissions, but practitioners should be mindful of several safety factors. The opponent being swept should practice proper falling mechanics to avoid injury when landing on the mat. The sweeper should avoid hyperextending the controlled arm by maintaining controlled sleeve tension rather than explosive yanking. Both partners should be aware of surrounding training space to avoid colliding with other pairs during the sweep arc. The hooking leg should apply force behind the knee joint, never directly on the knee itself, to prevent ligament stress.",
@@ -415,19 +495,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Collar Sleeve Sweep is being set up?",
-        "answer": "The earliest cue is the angle of the collar pull changing from straight-back posture control to a 45-degree pull toward the sweeper's shoulder, indicating rotational force loading. Combined with feeling the sleeve grip extend your arm fully, these early grip-based cues appear before the leg components are loaded, giving you the maximum intervention window to disrupt the sweep before it becomes dangerous."
+        "answer": "The earliest cue is the angle of the collar pull changing from straight-back posture control to a 45-degree pull toward the sweeper's shoulder, indicating rotational force loading. Combined with feeling the sleeve grip extend your arm fully, these early grip-based cues appear before the leg components are loaded, giving you the maximum intervention window to disrupt the sweep before it becomes dangerous.",
+        "answer_line": "Collar pull angles to 45 degrees",
+        "distractors": {
+          "plausible": [
+            "Hook lands behind their knee",
+            "Foot posts on their hip"
+          ],
+          "trap": [
+            "Wait until hip angle loads"
+          ]
+        }
       },
       {
         "question": "Which defensive option provides the best risk-to-reward ratio against the Collar Sleeve Sweep?",
-        "answer": "Breaking the collar grip early provides the best risk-to-reward ratio because it removes the primary force generator while keeping you in a relatively safe position. Without the collar grip, the sweeper cannot create the rotational torque needed for success regardless of their leg positioning. The risk of temporarily committing both hands to the grip break is manageable if you maintain base through your legs, and it avoids the triangle vulnerability of posting or back-take risk of backstepping."
+        "answer": "Breaking the collar grip early provides the best risk-to-reward ratio because it removes the primary force generator while keeping you in a relatively safe position. Without the collar grip, the sweeper cannot create the rotational torque needed for success regardless of their leg positioning. The risk of temporarily committing both hands to the grip break is manageable if you maintain base through your legs, and it avoids the triangle vulnerability of posting or back-take risk of backstepping.",
+        "answer_line": "Break the collar grip early",
+        "distractors": {
+          "plausible": [
+            "Widen base and drop hips",
+            "Backstep to strip the hook"
+          ],
+          "trap": [
+            "Post your free hand on mat"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base and weight distribution when you recognize the sweep is loading?",
-        "answer": "Widen your knees and drive your hips backward to lower your center of gravity below the sweeper's force vectors. Distribute weight primarily through the base-side leg opposite the sweep direction while keeping hips heavy and centered. Avoid loading weight onto the sleeve-controlled side where you cannot post effectively. Keep your chest elevated and spine upright rather than allowing the collar pull to fold you forward, as forward lean amplifies the sweep's rotational effectiveness."
+        "answer": "Widen your knees and drive your hips backward to lower your center of gravity below the sweeper's force vectors. Distribute weight primarily through the base-side leg opposite the sweep direction while keeping hips heavy and centered. Avoid loading weight onto the sleeve-controlled side where you cannot post effectively. Keep your chest elevated and spine upright rather than allowing the collar pull to fold you forward, as forward lean amplifies the sweep's rotational effectiveness.",
+        "answer_line": "Widen knees, hips back, stay tall",
+        "distractors": {
+          "plausible": [
+            "Lean forward into the pull",
+            "Load weight onto sleeve side"
+          ],
+          "trap": [
+            "Fold forward to break grip"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully loaded the sweep with all components in place—what is your best last-resort defense?",
-        "answer": "Post your free hand wide in the sweep direction to catch your weight and halt the momentum. Immediately after posting, recover your arm by pulling your elbow tight to your body to prevent the triangle follow-up the sweeper will attempt. Simultaneously drive your hips forward to flatten the sweeper and disrupt their follow-through. This is a last resort because it creates triangle vulnerability, but it is preferable to being swept to bottom position where you concede points and positional advantage."
+        "answer": "Post your free hand wide in the sweep direction to catch your weight and halt the momentum. Immediately after posting, recover your arm by pulling your elbow tight to your body to prevent the triangle follow-up the sweeper will attempt. Simultaneously drive your hips forward to flatten the sweeper and disrupt their follow-through. This is a last resort because it creates triangle vulnerability, but it is preferable to being swept to bottom position where you concede points and positional advantage.",
+        "answer_line": "Post wide, recover arm, drive in",
+        "distractors": {
+          "plausible": [
+            "Post and leave arm extended",
+            "Pull away without posting"
+          ],
+          "trap": [
+            "Sit back and accept the sweep"
+          ]
+        }
       }
     ],
     "training_progressions": [

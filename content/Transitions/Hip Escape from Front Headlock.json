@@ -266,43 +266,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the hip escape from front headlock?",
-        "answer": "The optimal timing window occurs when the opponent shifts their weight to adjust a grip, transitions between attacks, or reaches for a different hold. During these moments, their chest pressure temporarily lightens and their ability to follow your movement is compromised. You can also create your own timing window by using a sharp bridge to momentarily unweight their pressure before immediately shrimping. Attempting the escape against a fully settled opponent with heavy, balanced pressure dramatically reduces success probability."
+        "answer": "The optimal timing window occurs when the opponent shifts their weight to adjust a grip, transitions between attacks, or reaches for a different hold. During these moments, their chest pressure temporarily lightens and their ability to follow your movement is compromised. You can also create your own timing window by using a sharp bridge to momentarily unweight their pressure before immediately shrimping. Attempting the escape against a fully settled opponent with heavy, balanced pressure dramatically reduces success probability.",
+        "answer_line": "Bridge to unweight, then shrimp",
+        "distractors": {
+          "plausible": [
+            "Wait for their submission attempt",
+            "Shrimp continuously without pause"
+          ],
+          "trap": [
+            "Attempt against full heavy pressure"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt the hip escape from front headlock?",
-        "answer": "Four conditions must be met: your chin must be tucked firmly to your chest preventing neck extension, one hand must be controlling the opponent's choking arm at the wrist or elbow, you must have at least one hip on the mat with knees underneath providing a base for bridging and shrimping, and the opponent must not have a fully locked submission grip. If they have a deep guillotine or anaconda locked, you must address the submission grip first before attempting the positional escape."
+        "answer": "Four conditions must be met: your chin must be tucked firmly to your chest preventing neck extension, one hand must be controlling the opponent's choking arm at the wrist or elbow, you must have at least one hip on the mat with knees underneath providing a base for bridging and shrimping, and the opponent must not have a fully locked submission grip. If they have a deep guillotine or anaconda locked, you must address the submission grip first before attempting the positional escape.",
+        "answer_line": "Tuck chin, control arm, base hips",
+        "distractors": {
+          "plausible": [
+            "Any headlock position works",
+            "Arm control only, ignore chin"
+          ],
+          "trap": [
+            "Escape even with grip fully locked"
+          ]
+        }
       },
       {
         "question": "What is the most critical directional detail of the hip escape movement in this technique?",
-        "answer": "The hip escape must move perpendicular to the opponent's chest pressure, sliding your hips laterally rather than pulling away from them. Moving directly backward plays into their pulling force and wastes energy without creating meaningful positional change. The lateral shrimp defeats the forward pressure vector because the opponent must completely readjust their angle to follow, which creates the space needed for knee insertion and guard recovery."
+        "answer": "The hip escape must move perpendicular to the opponent's chest pressure, sliding your hips laterally rather than pulling away from them. Moving directly backward plays into their pulling force and wastes energy without creating meaningful positional change. The lateral shrimp defeats the forward pressure vector because the opponent must completely readjust their angle to follow, which creates the space needed for knee insertion and guard recovery.",
+        "answer_line": "Shrimp laterally, not backward",
+        "distractors": {
+          "plausible": [
+            "Push straight back away from them",
+            "Shrimp forward under their chest"
+          ],
+          "trap": [
+            "Pull straight back against pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls heavy with their hips dropped just as you begin the hip escape - how do you adjust?",
-        "answer": "Do not force the escape against heavy sprawl pressure. Instead, re-establish your defensive frames and wait for the next timing window. Use small bridges and micro-shrimps to gradually improve your angle without fully committing to the escape. If the opponent's sprawl is consistently shutting down your hip escape, switch to a sit-through variation which works better against dropped hips, or attempt a granby roll that uses the opponent's forward pressure as momentum for the roll."
+        "answer": "Do not force the escape against heavy sprawl pressure. Instead, re-establish your defensive frames and wait for the next timing window. Use small bridges and micro-shrimps to gradually improve your angle without fully committing to the escape. If the opponent's sprawl is consistently shutting down your hip escape, switch to a sit-through variation which works better against dropped hips, or attempt a granby roll that uses the opponent's forward pressure as momentum for the roll.",
+        "answer_line": "Reset frames, wait for next window",
+        "distractors": {
+          "plausible": [
+            "Force the escape with more power",
+            "Bridge repeatedly without resetting"
+          ],
+          "trap": [
+            "Force through heavy sprawl pressure"
+          ]
+        }
       },
       {
         "question": "What grip must you maintain throughout the entire hip escape sequence and why?",
-        "answer": "You must maintain control of the opponent's choking arm at the wrist or elbow with your inside hand throughout the entire sequence. This grip prevents them from tightening their head control or transitioning to a deeper submission hold as you create space with the hip escape. Without this grip, every inch of space you create with your hips can be immediately filled by the opponent deepening their arm position around your neck. The grip also provides tactile feedback about the opponent's intentions."
+        "answer": "You must maintain control of the opponent's choking arm at the wrist or elbow with your inside hand throughout the entire sequence. This grip prevents them from tightening their head control or transitioning to a deeper submission hold as you create space with the hip escape. Without this grip, every inch of space you create with your hips can be immediately filled by the opponent deepening their arm position around your neck. The grip also provides tactile feedback about the opponent's intentions.",
+        "answer_line": "Control choking arm the whole time",
+        "distractors": {
+          "plausible": [
+            "Grip their far arm instead",
+            "Release grip once space opens"
+          ],
+          "trap": [
+            "Let go to frame with both hands"
+          ]
+        }
       },
       {
         "question": "In which direction should your hips move relative to the opponent's choking arm?",
-        "answer": "Your hips should escape away from the opponent's choking arm side, moving toward their non-choking arm. Escaping toward the choking arm side tightens the headlock and can feed directly into anaconda or darce choke transitions where your arm becomes trapped. Moving away from the choking arm creates maximum distance from the choke threat and positions your body at the optimal angle for guard recovery. Your frame hand on their hip prevents them from following as your hips slide away from the danger."
+        "answer": "Your hips should escape away from the opponent's choking arm side, moving toward their non-choking arm. Escaping toward the choking arm side tightens the headlock and can feed directly into anaconda or darce choke transitions where your arm becomes trapped. Moving away from the choking arm creates maximum distance from the choke threat and positions your body at the optimal angle for guard recovery. Your frame hand on their hip prevents them from following as your hips slide away from the danger.",
+        "answer_line": "Escape away from choking arm",
+        "distractors": {
+          "plausible": [
+            "Escape straight backward",
+            "Escape toward whichever side opens"
+          ],
+          "trap": [
+            "Escape toward the choking arm side"
+          ]
+        }
       },
       {
         "question": "As you hip escape, your opponent releases the headlock and quickly transitions toward a guillotine grip - what is your immediate response?",
-        "answer": "Accelerate your hip escape and drive your body toward their far hip, making the guillotine angle impossible to complete. The guillotine requires your head to be centered under their chest, so lateral movement defeats the grip. Simultaneously, push their choking wrist away from your chin with your inside hand and use your frame hand to maintain distance. If they manage to lock the guillotine before you clear, switch immediately to dedicated guillotine defense by controlling their grip hand and fighting to get your head to the correct side."
+        "answer": "Accelerate your hip escape and drive your body toward their far hip, making the guillotine angle impossible to complete. The guillotine requires your head to be centered under their chest, so lateral movement defeats the grip. Simultaneously, push their choking wrist away from your chin with your inside hand and use your frame hand to maintain distance. If they manage to lock the guillotine before you clear, switch immediately to dedicated guillotine defense by controlling their grip hand and fighting to get your head to the correct side.",
+        "answer_line": "Drive hips toward their far hip",
+        "distractors": {
+          "plausible": [
+            "Frame with both hands on chest",
+            "Pull your head straight back"
+          ],
+          "trap": [
+            "Stay centered, power through choke"
+          ]
+        }
       },
       {
         "question": "Your first hip escape attempt fails and you remain in front headlock - what chain technique should you attempt next?",
-        "answer": "If the hip escape fails, immediately switch to an alternative escape rather than repeating the same technique against a now-prepared opponent. A sit-through escape works well as a follow-up because it uses a completely different movement vector. If space exists, a granby roll can leverage whatever angle change the failed hip escape created. The key principle is maintaining offensive pressure with escape attempts rather than resetting to static defense, as continuous movement prevents the opponent from settling and optimizing their control."
+        "answer": "If the hip escape fails, immediately switch to an alternative escape rather than repeating the same technique against a now-prepared opponent. A sit-through escape works well as a follow-up because it uses a completely different movement vector. If space exists, a granby roll can leverage whatever angle change the failed hip escape created. The key principle is maintaining offensive pressure with escape attempts rather than resetting to static defense, as continuous movement prevents the opponent from settling and optimizing their control.",
+        "answer_line": "Switch to sit-through or granby",
+        "distractors": {
+          "plausible": [
+            "Repeat the identical hip escape",
+            "Wait and reassess before moving"
+          ],
+          "trap": [
+            "Stop moving and hold static defense"
+          ]
+        }
       },
       {
         "question": "Why must you close your guard immediately after clearing the front headlock rather than settling into open guard?",
-        "answer": "Closed guard provides immediate security and offensive capability, while open guard from this position leaves you vulnerable to the opponent re-engaging the front headlock or advancing to side control. When you first clear the headlock, the opponent is still close and still has forward momentum, meaning they can easily dive back onto your head if your guard is open. Closed guard locks them in place, breaks their posture, and eliminates the possibility of them re-establishing control. The transition from hip escape to closed guard should be drilled as one fluid movement."
+        "answer": "Closed guard provides immediate security and offensive capability, while open guard from this position leaves you vulnerable to the opponent re-engaging the front headlock or advancing to side control. When you first clear the headlock, the opponent is still close and still has forward momentum, meaning they can easily dive back onto your head if your guard is open. Closed guard locks them in place, breaks their posture, and eliminates the possibility of them re-establishing control. The transition from hip escape to closed guard should be drilled as one fluid movement.",
+        "answer_line": "Closed guard denies re-engagement",
+        "distractors": {
+          "plausible": [
+            "Open guard gives more sweep options",
+            "Stay guardless to scramble free"
+          ],
+          "trap": [
+            "Leave guard open to attack legs"
+          ]
+        }
       },
       {
         "question": "How do you modify the hip escape when the opponent has trapped one of your arms against your body with their headlock grip?",
-        "answer": "When one arm is trapped, use your free hand exclusively for the hip frame rather than splitting duties between frame and arm control. Bridge harder to create more initial space since you cannot hand fight the choking arm. Focus the hip escape on creating enough angle to extract the trapped arm during the movement. As your hips slide laterally, the trapped arm often comes free naturally as the angle changes. If the arm remains trapped, prioritize escaping to half guard with a single leg hook rather than attempting full closed guard, as half guard provides enough defensive structure to then work on freeing the arm."
+        "answer": "When one arm is trapped, use your free hand exclusively for the hip frame rather than splitting duties between frame and arm control. Bridge harder to create more initial space since you cannot hand fight the choking arm. Focus the hip escape on creating enough angle to extract the trapped arm during the movement. As your hips slide laterally, the trapped arm often comes free naturally as the angle changes. If the arm remains trapped, prioritize escaping to half guard with a single leg hook rather than attempting full closed guard, as half guard provides enough defensive structure to then work on freeing the arm.",
+        "answer_line": "Bridge harder, free arm via angle",
+        "distractors": {
+          "plausible": [
+            "Hand fight the choking arm harder",
+            "Force full closed guard immediately"
+          ],
+          "trap": [
+            "Yank the trapped arm forcefully"
+          ]
+        }
       }
     ],
     "safety_considerations": "The hip escape from front headlock involves movements around the neck and cervical spine, requiring careful attention to safety during training. Always tap immediately if a choke tightens during the escape attempt rather than forcing through it. When drilling, partners should apply front headlock pressure gradually and communicate about comfort levels with neck compression. Avoid explosive jerking movements of the head or neck during the escape. If you experience any tingling, numbness, or sharp pain in the neck area during practice, stop immediately and consult a medical professional. Train the timing and mechanics at slow speed before adding resistance to prevent neck injuries from poorly timed escape attempts under heavy pressure.",
@@ -421,19 +521,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a hip escape from front headlock bottom?",
-        "answer": "The earliest cue is increased hand fighting activity on your choking arm combined with their outside hand posting firmly on your hip or thigh. This framing action precedes the actual hip escape movement and signals that they are establishing the mechanical prerequisites for the escape. Recognizing this setup phase gives you the maximum reaction time to increase sprawl pressure and shut down the escape before it begins, rather than reacting after they have already generated lateral movement."
+        "answer": "The earliest cue is increased hand fighting activity on your choking arm combined with their outside hand posting firmly on your hip or thigh. This framing action precedes the actual hip escape movement and signals that they are establishing the mechanical prerequisites for the escape. Recognizing this setup phase gives you the maximum reaction time to increase sprawl pressure and shut down the escape before it begins, rather than reacting after they have already generated lateral movement.",
+        "answer_line": "Hand fighting plus hip post",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge up",
+            "Grip fighting on your legs"
+          ],
+          "trap": [
+            "Hips already moved past you"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the opponent beginning to bridge underneath you?",
-        "answer": "Immediately drop your hips lower and drive your chest forward into their upper back, counteracting the upward force of their bridge. Spread your legs wider for a more stable sprawl base and dig your toes into the mat for traction. The goal is to make your weight feel heavier during the exact moment they are trying to create space. Do not lift your hips or shift backward, as this creates the exact space they need for the lateral hip escape that follows the bridge."
+        "answer": "Immediately drop your hips lower and drive your chest forward into their upper back, counteracting the upward force of their bridge. Spread your legs wider for a more stable sprawl base and dig your toes into the mat for traction. The goal is to make your weight feel heavier during the exact moment they are trying to create space. Do not lift your hips or shift backward, as this creates the exact space they need for the lateral hip escape that follows the bridge.",
+        "answer_line": "Drop hips, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Lift hips to absorb the bridge",
+            "Shift weight backward quickly"
+          ],
+          "trap": [
+            "Lift your hips off their chest"
+          ]
+        }
       },
       {
         "question": "When should you abandon front headlock retention and transition to side control during an opponent's hip escape?",
-        "answer": "Transition to side control when the opponent has achieved enough lateral angle that your chest is no longer driving directly into their upper back and your head control has become loose. This typically occurs when their hips have moved more than twelve inches laterally and they begin inserting a knee frame. At this point, maintaining front headlock control becomes a losing battle and the superior strategic choice is capitalizing on their turned hips to advance to side control by stepping over their body while maintaining shoulder pressure to prevent guard closure."
+        "answer": "Transition to side control when the opponent has achieved enough lateral angle that your chest is no longer driving directly into their upper back and your head control has become loose. This typically occurs when their hips have moved more than twelve inches laterally and they begin inserting a knee frame. At this point, maintaining front headlock control becomes a losing battle and the superior strategic choice is capitalizing on their turned hips to advance to side control by stepping over their body while maintaining shoulder pressure to prevent guard closure.",
+        "answer_line": "When hips clear 12 inches",
+        "distractors": {
+          "plausible": [
+            "The instant they start to bridge",
+            "Only after they fully stand up"
+          ],
+          "trap": [
+            "Never let go, fight for headlock"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of attempting to finish a guillotine as the opponent hip escapes?",
-        "answer": "The primary risk is that the lateral hip movement changes the angle such that the guillotine loses its choking pressure, while your commitment to the submission grip prevents you from maintaining positional control. You end up with a loose guillotine that does not threaten a finish while the opponent completes their guard recovery. Worse, if they close their guard while you still have the guillotine grip, they may use it against you by controlling your posture. Only commit to the guillotine if you can lock it tight before the hip escape creates significant angle change."
+        "answer": "The primary risk is that the lateral hip movement changes the angle such that the guillotine loses its choking pressure, while your commitment to the submission grip prevents you from maintaining positional control. You end up with a loose guillotine that does not threaten a finish while the opponent completes their guard recovery. Worse, if they close their guard while you still have the guillotine grip, they may use it against you by controlling your posture. Only commit to the guillotine if you can lock it tight before the hip escape creates significant angle change.",
+        "answer_line": "Angle change loosens the choke",
+        "distractors": {
+          "plausible": [
+            "They tap before angle changes",
+            "Grip slips off their neck"
+          ],
+          "trap": [
+            "Commit fully and finish regardless"
+          ]
+        }
       }
     ],
     "training_progressions": [

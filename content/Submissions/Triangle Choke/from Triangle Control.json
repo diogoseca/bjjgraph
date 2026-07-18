@@ -295,52 +295,152 @@
       {
         "question": "What anatomical structures does the triangle choke from triangle control primarily attack?",
         "answer": "The triangle choke primarily attacks both carotid arteries through bilateral compression. The choking leg's thigh compresses one carotid artery while the shin and the opponent's own trapped arm compress the other. This creates a blood choke that restricts cerebral blood flow, producing unconsciousness in 4-8 seconds of sustained arterial occlusion. The brachial plexus may also experience secondary compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Only the far carotid",
+            "Trachea and carotids together"
+          ],
+          "trap": [
+            "Windpipe only (air choke)"
+          ]
+        }
       },
       {
         "question": "Why is cutting the angle to 30-45 degrees essential before applying the finishing squeeze?",
         "answer": "Without the proper angle, the thigh and shin compress the trachea (windpipe) rather than the carotid arteries, creating a slow air choke instead of a fast blood choke. At 30-45 degrees with the choking leg's knee pointing toward the trapped shoulder, the compression geometry aligns with both carotid arteries simultaneously, creating efficient bilateral occlusion that produces a tap far more quickly and reliably.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knee toward trapped shoulder",
+        "distractors": {
+          "plausible": [
+            "Stay squared to opponent",
+            "Angle toward the free arm side"
+          ],
+          "trap": [
+            "Just squeeze harder, skip angle"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up while you have the triangle locked—what adjustment prevents the escape?",
         "answer": "Immediately increase downward pulling force on the back of their head with both hands while simultaneously elevating your hips to maintain the compression angle. If they achieve partial posture despite this, transition to the armbar by controlling their isolated arm and swinging your leg over their face. The posture recovery actually exposes the arm for the armbar, turning their defense into your next attack opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull head down, hips up",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset the angle",
+            "Push down on their chest"
+          ],
+          "trap": [
+            "Let go and re-guard"
+          ]
+        }
       },
       {
         "question": "What role does the opponent's trapped arm play in the finishing mechanics of the triangle choke?",
         "answer": "The trapped arm functions as an internal wedge that amplifies carotid compression from inside the triangle. When pulled diagonally across the opponent's own neck toward the attacker's opposite hip, the forearm presses against the carotid artery on the side not covered by the choking leg's thigh. This means the opponent's own limb contributes to the choking pressure, making the submission significantly tighter without requiring additional leg force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wedges into far carotid artery",
+        "distractors": {
+          "plausible": [
+            "Just controls their posture",
+            "Prevents them from tapping"
+          ],
+          "trap": [
+            "Push it away from their neck"
+          ]
+        }
       },
       {
         "question": "How does hip elevation change the pressure dynamics of the triangle choke finish?",
         "answer": "Hip elevation transforms the pressure from a horizontal squeeze into a combination of horizontal squeeze plus a downward force vector. By bridging the hips upward using the upper back as a base, the attacker drives the thigh and shin downward into the neck while simultaneously squeezing inward. This creates opposing forces—hips pushing up, hands pulling the head down—that compress the neck from multiple angles, increasing finishing effectiveness by approximately 40% compared to a flat squeeze alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge hips up, drive down",
+        "distractors": {
+          "plausible": [
+            "Only increases leg squeeze",
+            "Widens the choking angle"
+          ],
+          "trap": [
+            "Flatten hips to the mat"
+          ]
+        }
       },
       {
         "question": "What are the signs that a training partner is losing consciousness during a triangle choke, and what must you do?",
         "answer": "Signs include sudden loss of resistance or going limp, changes in skin color (face turning red or purple), gurgling sounds, eyes rolling back, or any unusual cessation of defensive movement. You must release the triangle immediately by uncrossing ankles, removing all leg pressure, and releasing grips. Check consciousness and breathing, place them in recovery position if unconscious, elevate their legs, and alert the instructor immediately. Never assume they are still fighting—treat any ambiguous signal as a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Go limp: release immediately",
+        "distractors": {
+          "plausible": [
+            "Tap for them, keep squeezing",
+            "Ease pressure, keep watching"
+          ],
+          "trap": [
+            "Hold choke to confirm they're out"
+          ]
+        }
       },
       {
         "question": "Your opponent stacks forward and begins lifting your hips off the mat—how do you maintain the finish or transition?",
         "answer": "First, underhook their far leg with your free arm to prevent full stacking pressure. Simultaneously scoot your hips away to maintain the choking angle. If they continue driving forward despite these adjustments, transition to the omoplata by releasing the triangle lock, swinging your hips through under their arm, and controlling their shoulder. The stacking motion actually assists the omoplata transition by placing their weight forward over the fulcrum point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Underhook leg, scoot hips out",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the head",
+            "Push their hips back down"
+          ],
+          "trap": [
+            "Let them stack, hold triangle"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol after your training partner taps to the triangle choke?",
         "answer": "Immediately uncross your ankles and open your legs to release the triangle configuration completely. Lower your legs to the mat and remove all pressure from the opponent's neck. Release all grips on their head, wrist, and sleeve to allow them to recover posture freely. Check their consciousness and breathing. If they appear disoriented or were close to going unconscious, allow them adequate recovery time before resuming training. Never maintain any squeezing pressure after the tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Uncross ankles, release grips",
+        "distractors": {
+          "plausible": [
+            "Hold briefly then release",
+            "Release grips, keep legs locked"
+          ],
+          "trap": [
+            "Keep squeezing a bit more"
+          ]
+        }
       },
       {
         "question": "Why is sustained progressive compression more effective than explosive squeezing for the triangle finish?",
         "answer": "Blood chokes work through sustained arterial occlusion—the carotid arteries must be compressed continuously for 4-8 seconds to produce unconsciousness. Explosive squeezing at maximum force fatigues the leg muscles within 10-15 seconds, after which the squeeze weakens and the opponent can survive the pressure wave. Progressive compression at 70-80% effort can be maintained indefinitely, ensuring continuous arterial occlusion. The opponent cannot outlast a steady squeeze the way they can wait out an explosive burst.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Steady 70-80% squeeze wins",
+        "distractors": {
+          "plausible": [
+            "Max squeeze finishes fastest",
+            "Alternate bursts of pressure"
+          ],
+          "trap": [
+            "Go 100% explosive immediately"
+          ]
+        }
       },
       {
         "question": "In competition, how do you finish the triangle against an opponent who is actively defending with posture and hand fighting?",
         "answer": "Establish a sequence of progressive tightening: first lock the triangle high behind the neck, then cut the angle before they can posture. Control their posture with overhook-style head control rather than relying on pulling, which they can fight. Pull the trapped arm across using two-on-one wrist control. If they fight the arm, use that hand-fighting moment to deepen the angle. If they begin escaping, immediately chain to the armbar or omoplata rather than burning energy on a contested finish. The competition strategy is to make each defensive reaction cost them position in the submission chain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cut angle, chain to armbar",
+        "distractors": {
+          "plausible": [
+            "Muscle the squeeze harder",
+            "Wait out their hand fighting"
+          ],
+          "trap": [
+            "Release triangle to reset"
+          ]
+        }
       }
     ],
     "clips": [
@@ -456,27 +556,77 @@
       {
         "question": "What is your first defensive priority when you recognize you are caught in a triangle choke from triangle control?",
         "answer": "The immediate first priority is posture recovery—driving the spine vertical to create space between your neck and the attacker's compressing legs. Posture recovery relieves the direct choking pressure and creates the vertical space needed for all subsequent escape mechanics. Without recovering posture first, attempting arm extraction or other escapes typically makes the position worse by giving the attacker space to tighten their lock.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Recover posture first",
+        "distractors": {
+          "plausible": [
+            "Pry at the legs first",
+            "Pull your head out first"
+          ],
+          "trap": [
+            "Try to stand up immediately"
+          ]
+        }
       },
       {
         "question": "When should you tap to a triangle choke rather than continuing to defend?",
         "answer": "Tap immediately whenever you feel bilateral neck pressure that you cannot relieve through posture or positioning, when your vision begins to darken or narrow, when you feel lightheaded or disoriented, or when you recognize that the attacker has achieved full angle, arm control, and hip elevation with your posture completely broken. In training, tapping early preserves your safety and allows you to reset and practice the escape from an earlier defensive window. There is no tactical value in losing consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "At first sign you can't clear it",
+        "distractors": {
+          "plausible": [
+            "Wait until vision fully goes",
+            "Fight until you almost pass out"
+          ],
+          "trap": [
+            "Never tap, try to power out"
+          ]
+        }
       },
       {
         "question": "Why is squaring your shoulders to the attacker's hips an important defensive action against the triangle choke?",
         "answer": "The triangle choke is most effective when the attacker achieves a 30-45 degree angle off your centerline, which aligns their thigh and shin with both carotid arteries. By squaring your shoulders to their hips, you eliminate this angle and force the compression onto the front of the throat (trachea) rather than the sides of the neck (carotid arteries). This dramatically reduces the blood choke efficiency and buys significant time for escape mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Kills the angle, saves carotids",
+        "distractors": {
+          "plausible": [
+            "Only helps you breathe easier",
+            "Makes the choke tighter faster"
+          ],
+          "trap": [
+            "Turn away to expose your back"
+          ]
+        }
       },
       {
         "question": "What defensive options become available when the attacker attempts to transition from the triangle to an armbar?",
         "answer": "When the attacker begins swinging their leg over your face for the armbar transition, they must partially open the triangle lock, which creates an escape window. You can pull your head free during the transition, stack your weight forward to prevent the leg from clearing your head, or extract the previously trapped arm as the attacker's grip shifts to control your wrist. The transition moment is often the best escape opportunity because the attacker temporarily sacrifices triangle tightness to change positions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull head free during transition",
+        "distractors": {
+          "plausible": [
+            "Wait for the choke to reset",
+            "Push your legs away instantly"
+          ],
+          "trap": [
+            "Relax and let the leg pass over"
+          ]
+        }
       },
       {
         "question": "How does the stack defense work against the triangle choke and what is the main risk?",
         "answer": "The stack defense involves driving your weight forward over the attacker, lifting their hips onto their shoulders to compress their body and collapse the choking angle. This forward pressure reduces the space available for the attacker to extend their hips and squeeze. The main risk is that committing your weight forward exposes you to the omoplata transition—the attacker can release the triangle, swing their hips through, and attack your shoulder. To mitigate this, control the attacker's far hip with your free hand while stacking.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stack forward; risk: omoplata",
+        "distractors": {
+          "plausible": [
+            "Stack forward, no real risk",
+            "Pull back to escape the angle"
+          ],
+          "trap": [
+            "Stack without hip control"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -204,7 +204,17 @@
     "flashcards": [
       {
         "question": "What is the primary difference between Mount Control and Consolidate Mount?",
-        "answer": "Consolidate Mount is the initial process of securing mount after achieving it - settling weight, inserting grapevines, and eliminating initial frames. Mount Control is the ongoing maintenance against active escape attempts throughout the position. Consolidation happens once; control is continuous. You consolidate first, then control."
+        "answer": "Consolidate Mount is the initial process of securing mount after achieving it - settling weight, inserting grapevines, and eliminating initial frames. Mount Control is the ongoing maintenance against active escape attempts throughout the position. Consolidation happens once; control is continuous. You consolidate first, then control.",
+        "answer_line": "Consolidate once, control continues",
+        "distractors": {
+          "plausible": [
+            "Control first, then consolidate",
+            "Same process, just repeated"
+          ],
+          "trap": [
+            "Skip consolidation, submit fast"
+          ]
+        }
       },
       {
         "question": "Your opponent begins loading weight to their right side for a bridge. What do you do before they explode?",

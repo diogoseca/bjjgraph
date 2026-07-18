@@ -229,11 +229,31 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Posture Recovery to Closed Guard?",
-        "answer": "The primary goal is to transition from a disadvantageous turtle bottom position to closed guard where you have offensive options including sweeps, submissions, and the ability to control distance. This transforms a position of constant back attack threat into one where you dictate the engagement and force your opponent to work from inside your guard."
+        "answer": "The primary goal is to transition from a disadvantageous turtle bottom position to closed guard where you have offensive options including sweeps, submissions, and the ability to control distance. This transforms a position of constant back attack threat into one where you dictate the engagement and force your opponent to work from inside your guard.",
+        "answer_line": "Escape turtle, gain guard control",
+        "distractors": {
+          "plausible": [
+            "Escape turtle, get back mount",
+            "Escape turtle, stand and pass"
+          ],
+          "trap": [
+            "Stay turtle, wait for scramble"
+          ]
+        }
       },
       {
         "question": "Why must frames be established before attempting hip movement in this technique?",
-        "answer": "Frames create the necessary space between you and the opponent for successful hip insertion. Without frames, the opponent can follow your hip movement and maintain control or advance to back control. The frame acts as a mechanical barrier that the opponent must address before they can counter your movement, buying the critical 1-2 seconds needed for the hip escape."
+        "answer": "Frames create the necessary space between you and the opponent for successful hip insertion. Without frames, the opponent can follow your hip movement and maintain control or advance to back control. The frame acts as a mechanical barrier that the opponent must address before they can counter your movement, buying the critical 1-2 seconds needed for the hip escape.",
+        "answer_line": "Frames create space for hip escape",
+        "distractors": {
+          "plausible": [
+            "Frames tire out the opponent",
+            "Frames set up the sweep grip"
+          ],
+          "trap": [
+            "Frames aren't needed, just rotate"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively as you attempt guard recovery - how do you adapt?",
@@ -241,15 +261,45 @@
       },
       {
         "question": "What is the correct direction for the initial hip escape and why does it matter?",
-        "answer": "Hip escape toward your frame side, not away from opponent. Moving toward the frame keeps your back momentarily facing their chest before rotation completes, preventing them from easily taking your back. Moving away from the opponent creates a direct path for back takes because you are giving them the angle they want for hook insertion and seatbelt establishment."
+        "answer": "Hip escape toward your frame side, not away from opponent. Moving toward the frame keeps your back momentarily facing their chest before rotation completes, preventing them from easily taking your back. Moving away from the opponent creates a direct path for back takes because you are giving them the angle they want for hook insertion and seatbelt establishment.",
+        "answer_line": "Escape toward your frame side",
+        "distractors": {
+          "plausible": [
+            "Escape away from opponent's hips",
+            "Escape straight back flat"
+          ],
+          "trap": [
+            "Escape toward their strong side"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting a hook as you rotate your hips - what is the emergency response?",
-        "answer": "Immediately trap their foot with your same-side hand before completing the hip rotation. If the hook enters partially, stop the guard recovery attempt and address hook removal first. Completing the rotation with a hook in place converts your escape attempt into back control for them. Hook defense takes absolute priority over guard closure - one hook is survivable, two hooks mean full back control."
+        "answer": "Immediately trap their foot with your same-side hand before completing the hip rotation. If the hook enters partially, stop the guard recovery attempt and address hook removal first. Completing the rotation with a hook in place converts your escape attempt into back control for them. Hook defense takes absolute priority over guard closure - one hook is survivable, two hooks mean full back control.",
+        "answer_line": "Trap the hook with same-side hand",
+        "distractors": {
+          "plausible": [
+            "Speed up rotation to beat hook",
+            "Switch to a far-side underhook"
+          ],
+          "trap": [
+            "Finish rotation, ignore the hook"
+          ]
+        }
       },
       {
         "question": "What is the timing relationship between hip rotation completion and guard closure?",
-        "answer": "Guard closure must happen immediately as hips reach the mat, within 1-2 seconds maximum. Any delay allows the opponent to establish a passing angle or return to top turtle. The ankles should cross behind the opponent's back as a continuation of the hip rotation movement, not as a separate action. Think of the rotation and guard closure as one integrated motion."
+        "answer": "Guard closure must happen immediately as hips reach the mat, within 1-2 seconds maximum. Any delay allows the opponent to establish a passing angle or return to top turtle. The ankles should cross behind the opponent's back as a continuation of the hip rotation movement, not as a separate action. Think of the rotation and guard closure as one integrated motion.",
+        "answer_line": "Close guard instantly, same motion",
+        "distractors": {
+          "plausible": [
+            "Pause to check grips, then close",
+            "Close guard after posting frame"
+          ],
+          "trap": [
+            "Wait for opponent to settle first"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during repeated guard recovery attempts from turtle?",
@@ -257,15 +307,45 @@
       },
       {
         "question": "When should you abandon the closed guard recovery and pursue half guard or butterfly guard instead?",
-        "answer": "Pursue half guard when the opponent's weight commits heavily to one side making full hip rotation difficult - capture their near leg during your partial rotation. Choose butterfly guard when the opponent creates distance during your recovery or backs away - insert butterfly hooks immediately rather than chasing closed guard. Flexibility limitations or fatigue may also dictate half guard as a more realistic and energy-efficient target."
+        "answer": "Pursue half guard when the opponent's weight commits heavily to one side making full hip rotation difficult - capture their near leg during your partial rotation. Choose butterfly guard when the opponent creates distance during your recovery or backs away - insert butterfly hooks immediately rather than chasing closed guard. Flexibility limitations or fatigue may also dictate half guard as a more realistic and energy-efficient target.",
+        "answer_line": "Weight commits one side or retreats",
+        "distractors": {
+          "plausible": [
+            "Only when totally exhausted",
+            "Only if closed guard is illegal here"
+          ],
+          "trap": [
+            "Never, always force closed guard"
+          ]
+        }
       },
       {
         "question": "What grip must you strip before initiating the hip escape, and what technique do you use?",
-        "answer": "You must strip the opponent's seatbelt grip, collar tie, or overhook on your near side before the hip escape. Use your far hand to peel their grip from wrist toward elbow in one smooth motion while maintaining your frame with the near-side posting hand. This two-handed approach - one maintaining the frame, one stripping the grip - ensures you don't lose space while creating the grip-free window for your escape."
+        "answer": "You must strip the opponent's seatbelt grip, collar tie, or overhook on your near side before the hip escape. Use your far hand to peel their grip from wrist toward elbow in one smooth motion while maintaining your frame with the near-side posting hand. This two-handed approach - one maintaining the frame, one stripping the grip - ensures you don't lose space while creating the grip-free window for your escape.",
+        "answer_line": "Peel seatbelt wrist to elbow",
+        "distractors": {
+          "plausible": [
+            "Snap grip off in one sharp pull",
+            "Strip grip with both hands at once"
+          ],
+          "trap": [
+            "Ignore grip, just muscle the escape"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls heavy with crossface pressure as you attempt the recovery - what adjustment do you make?",
-        "answer": "Use their crossface pressure and weight commitment to one side to fuel a lateral hip escape in the opposite direction. Their heavy sprawl pins them to that angle and makes it difficult for them to follow a quick directional change. The crossface actually creates an escape angle on the far side if you redirect your hip escape away from their pressure rather than fighting directly into it."
+        "answer": "Use their crossface pressure and weight commitment to one side to fuel a lateral hip escape in the opposite direction. Their heavy sprawl pins them to that angle and makes it difficult for them to follow a quick directional change. The crossface actually creates an escape angle on the far side if you redirect your hip escape away from their pressure rather than fighting directly into it.",
+        "answer_line": "Escape hips away from the pressure",
+        "distractors": {
+          "plausible": [
+            "Push directly into the crossface",
+            "Wait out the sprawl, then rotate"
+          ],
+          "trap": [
+            "Escape into the crossface pressure"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique is relatively low-risk when performed correctly, but practitioners should be aware of several safety factors. Neck strain can occur if head position is compromised during the hip rotation phase - always keep chin tucked to chest throughout the movement. Avoid explosive jerking movements that could strain lower back muscles; use controlled hip escapes instead. Partners drilling this technique should communicate clearly about resistance levels to prevent injury during the learning phase. If you feel your opponent securing hooks during the recovery attempt, stop and reset rather than fighting through a bad position that could lead to stacking or spinal compression. Shoulder injuries are possible if frames collapse under heavy pressure - tap or verbally reset rather than allowing joints to be compromised in awkward transitional positions.",
@@ -379,23 +459,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is about to attempt Posture Recovery to Closed Guard?",
-        "answer": "The earliest cue is feeling their near-side hand post against your hip or shoulder to establish a frame. This frame creation is the prerequisite for every guard recovery variation and indicates the bottom player is transitioning from defensive movement to committed escape. Recognizing and responding to the frame within the first half-second is the key defensive advantage."
+        "answer": "The earliest cue is feeling their near-side hand post against your hip or shoulder to establish a frame. This frame creation is the prerequisite for every guard recovery variation and indicates the bottom player is transitioning from defensive movement to committed escape. Recognizing and responding to the frame within the first half-second is the key defensive advantage.",
+        "answer_line": "Near-side hand posts a frame",
+        "distractors": {
+          "plausible": [
+            "Hips begin rotating under you",
+            "Legs start kicking for hooks"
+          ],
+          "trap": [
+            "They tap their own hip lightly"
+          ]
+        }
       },
       {
         "question": "Why should you drive forward into the bottom player's frame rather than backing away from it?",
-        "answer": "Driving forward collapses the frame and denies the space the bottom player needs for hip escape. Backing away creates exactly the separation distance their technique requires - you are essentially doing their work for them. Your top position weight advantage means a committed forward drive should overwhelm a single-arm frame, resetting them to defensive turtle."
+        "answer": "Driving forward collapses the frame and denies the space the bottom player needs for hip escape. Backing away creates exactly the separation distance their technique requires - you are essentially doing their work for them. Your top position weight advantage means a committed forward drive should overwhelm a single-arm frame, resetting them to defensive turtle.",
+        "answer_line": "Forward drive collapses their frame",
+        "distractors": {
+          "plausible": [
+            "Backing away sets up a submission",
+            "Forward drive baits a scramble"
+          ],
+          "trap": [
+            "Back away to reset better position"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to insert a hook during the bottom player's guard recovery attempt?",
-        "answer": "The optimal moment is during the hip escape phase when the bottom player's elbows flare away from their ribs to facilitate the rotation movement. This elbow separation creates the gap between their arm and body that your foot needs to enter. Inserting before they commit means your foot gets trapped; inserting after the rotation completes means they are already closing guard. The mid-rotation window is narrow but decisive."
+        "answer": "The optimal moment is during the hip escape phase when the bottom player's elbows flare away from their ribs to facilitate the rotation movement. This elbow separation creates the gap between their arm and body that your foot needs to enter. Inserting before they commit means your foot gets trapped; inserting after the rotation completes means they are already closing guard. The mid-rotation window is narrow but decisive.",
+        "answer_line": "When elbows flare during rotation",
+        "distractors": {
+          "plausible": [
+            "Before they post their frame hand",
+            "After guard is already closed"
+          ],
+          "trap": [
+            "The instant hips first start moving"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a strong frame and stripped your seatbelt grip - what is your immediate recovery sequence?",
-        "answer": "First, drive your hips forward aggressively to maintain pressure and deny space despite the lost grip. Second, use your freed hand to immediately apply crossface pressure to flatten their posture and destroy the effectiveness of their frame. Third, re-establish your controlling grip on their far-side arm or shoulder while maintaining the crossface and hip pressure. Never chase the stripped grip - redirect to crossface control which addresses the more immediate threat."
+        "answer": "First, drive your hips forward aggressively to maintain pressure and deny space despite the lost grip. Second, use your freed hand to immediately apply crossface pressure to flatten their posture and destroy the effectiveness of their frame. Third, re-establish your controlling grip on their far-side arm or shoulder while maintaining the crossface and hip pressure. Never chase the stripped grip - redirect to crossface control which addresses the more immediate threat.",
+        "answer_line": "Drive hips, crossface, re-grip arm",
+        "distractors": {
+          "plausible": [
+            "Chase and re-grab the lost seatbelt",
+            "Sit back and rebuild base first"
+          ],
+          "trap": [
+            "Abandon position, jump to back"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from using your forward drive to accelerate their guard closure?",
-        "answer": "Keep your weight driving through your hips onto their lower back rather than committing your chest over their shoulder line. When you drive forward with hips, your center of gravity stays behind the point where they need to rotate under you. If you over-commit your upper body forward past their shoulders, they can use that momentum to pull you over and into their guard. The distinction is hip drive versus upper body lean - hip drive maintains control, upper body lean gets exploited."
+        "answer": "Keep your weight driving through your hips onto their lower back rather than committing your chest over their shoulder line. When you drive forward with hips, your center of gravity stays behind the point where they need to rotate under you. If you over-commit your upper body forward past their shoulders, they can use that momentum to pull you over and into their guard. The distinction is hip drive versus upper body lean - hip drive maintains control, upper body lean gets exploited.",
+        "answer_line": "Drive hips low, not chest forward",
+        "distractors": {
+          "plausible": [
+            "Drive chest over their shoulder line",
+            "Push down hard on their head"
+          ],
+          "trap": [
+            "Lean chest fully over their frame"
+          ]
+        }
       }
     ],
     "training_progressions": [

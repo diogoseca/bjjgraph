@@ -270,35 +270,115 @@
     "flashcards": [
       {
         "question": "Your opponent has established a strong collar tie and inside wrist control in the clinch - what grip fighting sequence do you use before attempting the break?",
-        "answer": "Address the collar tie first because it controls your posture and enables snap-downs. Use your free hand to grab their wrist at the collar tie and peel it off using a circular motion toward their centerline while simultaneously tucking your chin to deny re-establishment. Once the collar tie is broken, immediately pummel your freed hand to an inside frame position on their chest. Then strip the wrist control with a sharp circular pull or elbow pump. Only after both controlling grips are neutralized should you commit to the explosive separation. Attempting the break with the collar tie intact invites the snap-down counter."
+        "answer": "Address the collar tie first because it controls your posture and enables snap-downs. Use your free hand to grab their wrist at the collar tie and peel it off using a circular motion toward their centerline while simultaneously tucking your chin to deny re-establishment. Once the collar tie is broken, immediately pummel your freed hand to an inside frame position on their chest. Then strip the wrist control with a sharp circular pull or elbow pump. Only after both controlling grips are neutralized should you commit to the explosive separation. Attempting the break with the collar tie intact invites the snap-down counter.",
+        "answer_line": "Peel collar tie, then wrist",
+        "distractors": {
+          "plausible": [
+            "Strip wrist grip first",
+            "Grab both wrists first"
+          ],
+          "trap": [
+            "Break with collar tie intact"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the clinch break relative to the opponent's weight distribution?",
-        "answer": "The optimal window is when the opponent's weight shifts forward or when they are transitioning between grip configurations. A forward weight shift means they are committed in one direction and cannot immediately follow your backward movement. During grip transitions, they have momentary gaps in their control structure. The worst time to attempt the break is when the opponent has settled into a stable base with dominant grips already established, because they have maximum capacity to resist or counter your separation attempt."
+        "answer": "The optimal window is when the opponent's weight shifts forward or when they are transitioning between grip configurations. A forward weight shift means they are committed in one direction and cannot immediately follow your backward movement. During grip transitions, they have momentary gaps in their control structure. The worst time to attempt the break is when the opponent has settled into a stable base with dominant grips already established, because they have maximum capacity to resist or counter your separation attempt.",
+        "answer_line": "Break on weight shift or transition",
+        "distractors": {
+          "plausible": [
+            "Break the instant clinch forms",
+            "Break after grips settle in"
+          ],
+          "trap": [
+            "Wait for fully stable base"
+          ]
+        }
       },
       {
         "question": "What is the critical role of hip positioning during the initial frame creation for the clinch break?",
-        "answer": "Your hips must sit lower than the opponent's center of gravity with knees bent and weight loaded into your legs. This low hip position serves three functions: it creates a stable base that resists snap-downs and forward pulls, it loads your legs with explosive potential for the backward drive, and it positions your torso at an angle where your forearm frames are structurally strongest against the opponent's forward pressure. If your hips are high or behind you, your frames become weak levers that the opponent can collapse easily."
+        "answer": "Your hips must sit lower than the opponent's center of gravity with knees bent and weight loaded into your legs. This low hip position serves three functions: it creates a stable base that resists snap-downs and forward pulls, it loads your legs with explosive potential for the backward drive, and it positions your torso at an angle where your forearm frames are structurally strongest against the opponent's forward pressure. If your hips are high or behind you, your frames become weak levers that the opponent can collapse easily.",
+        "answer_line": "Hips low, knees bent, loaded",
+        "distractors": {
+          "plausible": [
+            "Hips level, weight centered",
+            "Hips low, weight on toes"
+          ],
+          "trap": [
+            "Hips high, lean back"
+          ]
+        }
       },
       {
         "question": "You execute a push-off but your opponent immediately re-engages the clinch within one step - what adjustment prevents this on the next attempt?",
-        "answer": "The re-engagement indicates insufficient distance creation and lack of angular movement. Adjust by increasing the explosiveness of the combined push-step to create more initial distance, and immediately circle laterally after the first step rather than continuing backward. Also ensure you are fully stripping all grip contacts during the separation, because even a residual sleeve or collar grip gives the opponent a tether to close distance rapidly. Consider switching to the underhook peel variant, which creates angular separation that is inherently harder to follow than a straight push-back."
+        "answer": "The re-engagement indicates insufficient distance creation and lack of angular movement. Adjust by increasing the explosiveness of the combined push-step to create more initial distance, and immediately circle laterally after the first step rather than continuing backward. Also ensure you are fully stripping all grip contacts during the separation, because even a residual sleeve or collar grip gives the opponent a tether to close distance rapidly. Consider switching to the underhook peel variant, which creates angular separation that is inherently harder to follow than a straight push-back.",
+        "answer_line": "Add explosive step, circle out",
+        "distractors": {
+          "plausible": [
+            "Push harder straight backward",
+            "Retain one grip for control"
+          ],
+          "trap": [
+            "Continue straight backpedal"
+          ]
+        }
       },
       {
         "question": "Your opponent anticipates your clinch break and drops their level as you begin to push - how do you adapt your technique?",
-        "answer": "When the opponent drops level during your break, they are likely setting up either a takedown entry or a body lock. Abandon the high frame push-off and instead sprawl your hips back while maintaining a strong cross-face or collar tie on their head to prevent them from completing the level change. If they secure a leg, transition to sprawl defense rather than continuing the break attempt. Once you have defended the shot and established top position or returned to neutral, you can re-attempt the clinch break from a stronger starting position."
+        "answer": "When the opponent drops level during your break, they are likely setting up either a takedown entry or a body lock. Abandon the high frame push-off and instead sprawl your hips back while maintaining a strong cross-face or collar tie on their head to prevent them from completing the level change. If they secure a leg, transition to sprawl defense rather than continuing the break attempt. Once you have defended the shot and established top position or returned to neutral, you can re-attempt the clinch break from a stronger starting position.",
+        "answer_line": "Sprawl and keep head control",
+        "distractors": {
+          "plausible": [
+            "Push through the level change",
+            "Pull guard to avoid the shot"
+          ],
+          "trap": [
+            "Continue the high frame push"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force be applied during the separation phase relative to the opponent's centerline?",
-        "answer": "The primary force should be directed through the opponent's centerline and slightly upward through your frames, pushing their chest and shoulders away while your hips drive backward along the same vector. Pushing off-center creates rotational forces that the opponent can redirect into angular takedown entries. The upward component prevents the opponent from dropping their weight to resist the push. After the initial centerline push creates separation, you immediately redirect your own movement laterally to create an angle, but the push itself should be directed straight into their center of mass for maximum effectiveness."
+        "answer": "The primary force should be directed through the opponent's centerline and slightly upward through your frames, pushing their chest and shoulders away while your hips drive backward along the same vector. Pushing off-center creates rotational forces that the opponent can redirect into angular takedown entries. The upward component prevents the opponent from dropping their weight to resist the push. After the initial centerline push creates separation, you immediately redirect your own movement laterally to create an angle, but the push itself should be directed straight into their center of mass for maximum effectiveness.",
+        "answer_line": "Push center and slightly up",
+        "distractors": {
+          "plausible": [
+            "Push off to the outside angle",
+            "Push straight down and back"
+          ],
+          "trap": [
+            "Push off-center for an angle"
+          ]
+        }
       },
       {
         "question": "Your first break attempt fails and your opponent tightens their grip in response - what follow-up sequence do you use?",
-        "answer": "After a failed first attempt, the opponent expects the same technique again, so switch variants. If you used the frame-and-push break, switch to the swim move exit or underhook peel, which use different mechanics and attack different grip structures. Before the second attempt, re-engage in grip fighting to address the tightened controls rather than forcing another break against stronger resistance. You can also use the failed break attempt as a setup for an offensive transition like an arm drag or guard pull, converting the opponent's tightening response into an opportunity by pulling them into your preferred engagement rather than pushing them away."
+        "answer": "After a failed first attempt, the opponent expects the same technique again, so switch variants. If you used the frame-and-push break, switch to the swim move exit or underhook peel, which use different mechanics and attack different grip structures. Before the second attempt, re-engage in grip fighting to address the tightened controls rather than forcing another break against stronger resistance. You can also use the failed break attempt as a setup for an offensive transition like an arm drag or guard pull, converting the opponent's tightening response into an opportunity by pulling them into your preferred engagement rather than pushing them away.",
+        "answer_line": "Switch variant, re-fight grips",
+        "distractors": {
+          "plausible": [
+            "Repeat the same break harder",
+            "Rest and reset stance first"
+          ],
+          "trap": [
+            "Force the same break again"
+          ]
+        }
       },
       {
         "question": "What are the key differences in executing the clinch break against an opponent with double underhooks versus a collar tie configuration?",
-        "answer": "Against double underhooks, you cannot establish inside frames on the chest because their arms are inside yours. Instead, use overhooks to control their biceps, widen your stance to prevent lifting, and work to re-pummel one underhook before attempting separation. The break from double underhooks often requires the underhook peel variant where you recover one underhook and use it as leverage. Against a collar tie, your inside position is available but you must first strip the collar tie grip to prevent snap-downs during the push-off. The frame-and-push break works well against collar ties once the head control is neutralized, because the opponent's remaining control is usually a single wrist grip that provides limited re-engagement capacity."
+        "answer": "Against double underhooks, you cannot establish inside frames on the chest because their arms are inside yours. Instead, use overhooks to control their biceps, widen your stance to prevent lifting, and work to re-pummel one underhook before attempting separation. The break from double underhooks often requires the underhook peel variant where you recover one underhook and use it as leverage. Against a collar tie, your inside position is available but you must first strip the collar tie grip to prevent snap-downs during the push-off. The frame-and-push break works well against collar ties once the head control is neutralized, because the opponent's remaining control is usually a single wrist grip that provides limited re-engagement capacity.",
+        "answer_line": "Overhook double, strip collar tie",
+        "distractors": {
+          "plausible": [
+            "Frame chest vs underhooks",
+            "Skip grip stripping vs collar tie"
+          ],
+          "trap": [
+            "Try to lift vs double underhooks"
+          ]
+        }
       }
     ],
     "safety_considerations": "The clinch break involves explosive backward movement that can cause collisions with walls, other practitioners, or equipment if spatial awareness is not maintained. During training, ensure adequate space behind you before attempting full-speed breaks. Neck strain is a risk when opponents apply snap-downs during failed break attempts, so develop neck strength progressively and tap early to any uncomfortable head or neck pressure during drilling. Avoid hyperextending elbows when pushing against a resisting opponent by keeping arms slightly bent throughout the frame phase.",
@@ -408,19 +488,59 @@
     "flashcards": [
       {
         "question": "The opponent begins stripping your collar tie with a two-on-one grip break - how do you prevent the clinch break before it starts?",
-        "answer": "Immediately transition to an alternative control point rather than fighting to maintain the collar tie against a two-on-one break. Switch to an underhook on the same side or a body lock before the grip strip is complete, maintaining at least one strong anchor point throughout the transition. The goal is to never have zero connections to the opponent, so transitioning grips proactively is more effective than defending a grip that is being systematically removed."
+        "answer": "Immediately transition to an alternative control point rather than fighting to maintain the collar tie against a two-on-one break. Switch to an underhook on the same side or a body lock before the grip strip is complete, maintaining at least one strong anchor point throughout the transition. The goal is to never have zero connections to the opponent, so transitioning grips proactively is more effective than defending a grip that is being systematically removed.",
+        "answer_line": "Switch grip before it's stripped",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the collar tie",
+            "Release grip, reset distance"
+          ],
+          "trap": [
+            "Let both hands go completely"
+          ]
+        }
       },
       {
         "question": "What is the most effective moment to counter a clinch break attempt with a snap-down?",
-        "answer": "The optimal moment is during the push-off phase when the opponent extends their arms to create distance and shifts their weight backward. At this point, their head is relatively forward compared to their hips, their arms are extended and functioning as levers you can redirect, and their backward momentum amplifies the downward force of your snap. Executing the snap-down before this moment fails because the opponent's weight is centered, and executing it after fails because they have already created too much distance."
+        "answer": "The optimal moment is during the push-off phase when the opponent extends their arms to create distance and shifts their weight backward. At this point, their head is relatively forward compared to their hips, their arms are extended and functioning as levers you can redirect, and their backward momentum amplifies the downward force of your snap. Executing the snap-down before this moment fails because the opponent's weight is centered, and executing it after fails because they have already created too much distance.",
+        "answer_line": "Snap during their push-off",
+        "distractors": {
+          "plausible": [
+            "Snap right as clinch begins",
+            "Snap after they've separated"
+          ],
+          "trap": [
+            "Snap when their weight is centered"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully creates two feet of separation during a break attempt but has not yet circled to create an angle - what immediate action prevents full disengagement?",
-        "answer": "Drive forward immediately with a penetration step toward their centerline, closing the gap before they can circle. Reach for their collar, wrist, or elbow with an extended hand to re-establish a connection point, then use that grip to pull yourself back into clinch range. Speed is critical because the window between initial separation and angle creation is approximately one to two seconds. If they begin circling before you close, cut off their circle direction by stepping laterally toward the side they are moving to rather than chasing behind them."
+        "answer": "Drive forward immediately with a penetration step toward their centerline, closing the gap before they can circle. Reach for their collar, wrist, or elbow with an extended hand to re-establish a connection point, then use that grip to pull yourself back into clinch range. Speed is critical because the window between initial separation and angle creation is approximately one to two seconds. If they begin circling before you close, cut off their circle direction by stepping laterally toward the side they are moving to rather than chasing behind them.",
+        "answer_line": "Penetrate step, re-grip fast",
+        "distractors": {
+          "plausible": [
+            "Wait for them to circle first",
+            "Chase straight behind them"
+          ],
+          "trap": [
+            "Back away to reset distance"
+          ]
+        }
       },
       {
         "question": "How do you adjust your clinch strategy against an opponent who repeatedly attempts clinch breaks throughout the match?",
-        "answer": "Tighten your grip configurations earlier in each clinch engagement and prioritize body lock or double underhook controls that are harder to frame against. Vary your counters between snap-downs, forward pressure, and level changes so the opponent cannot predict your response. Consider using their break tendencies offensively by timing takedown entries to coincide with their backward weight shifts, converting their escape attempts into your offensive entries. An opponent who is focused on breaking the clinch is often vulnerable to takedowns because their attention is on separation rather than takedown defense."
+        "answer": "Tighten your grip configurations earlier in each clinch engagement and prioritize body lock or double underhook controls that are harder to frame against. Vary your counters between snap-downs, forward pressure, and level changes so the opponent cannot predict your response. Consider using their break tendencies offensively by timing takedown entries to coincide with their backward weight shifts, converting their escape attempts into your offensive entries. An opponent who is focused on breaking the clinch is often vulnerable to takedowns because their attention is on separation rather than takedown defense.",
+        "answer_line": "Tighten grips, time takedowns",
+        "distractors": {
+          "plausible": [
+            "Use the same counter each time",
+            "Loosen grips to save energy"
+          ],
+          "trap": [
+            "Let them break clinch freely"
+          ]
+        }
       }
     ],
     "training_progressions": [

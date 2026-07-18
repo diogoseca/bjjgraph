@@ -304,52 +304,152 @@
       {
         "question": "What anatomical structures does the omoplata from double sleeve guard primarily attack?",
         "answer": "The omoplata attacks the shoulder joint through external rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the AC (acromioclavicular) joint. The rotational pressure forces the humerus into external rotation beyond its normal range, creating pressure on the anterior shoulder capsule and the subscapularis tendon. Secondary stress affects the labrum and can aggravate existing labral tears.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder joint external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up as you swing your leg over their shoulder — what adjustment prevents escape?",
         "answer": "Convert immediately to a triangle threat by bringing your opposite leg across their neck while they create the space by posturing. Their upward movement actually helps you get your second leg into position. Alternatively, if your leg has already cleared, use the sleeve grip to pull their arm deeper behind your hip while squeezing your knees together harder to lock the arm in place before they complete the posture-up. The key is not fighting their posture directly but using their movement to transition to a different threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to triangle threat",
+        "distractors": {
+          "plausible": [
+            "Fight their posture directly",
+            "Let go and reset guard"
+          ],
+          "trap": [
+            "Push their head down"
+          ]
+        }
       },
       {
         "question": "What control must you establish before applying finishing pressure on the omoplata?",
         "answer": "You must establish waist control (belt grip or far-hip grip) and flatten your opponent chest-down onto the mat before applying any finishing rotation. Without waist control, the opponent will execute the forward roll escape. Without flattening them, you cannot generate sufficient leverage for the shoulder rotation. The correct sequence is: clamp legs, sit up, grip belt, flatten opponent, then and only then begin advancing your hips forward to apply the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Waist/belt grip, flatten them",
+        "distractors": {
+          "plausible": [
+            "Grip pants, sit up tall",
+            "Control their far arm first"
+          ],
+          "trap": [
+            "Skip control, rotate hips fast"
+          ]
+        }
       },
       {
         "question": "At what point during the omoplata sequence does the submission become very difficult to escape?",
         "answer": "The submission becomes very difficult to escape once the attacker has achieved three conditions simultaneously: the leg clamp is tight with knees pinching the arm against the body, the attacker is fully upright in a seated position with waist control secured, and the opponent has been flattened chest-down with their trapped arm behind their back. Once all three are achieved, the forward roll is blocked, arm extraction is prevented by the clamp, and the only remaining option is to tap or accept the shoulder damage. Before any one of these three is secured, viable escapes exist.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "All three: clamp, sit up, flatten",
+        "distractors": {
+          "plausible": [
+            "Once leg swings over shoulder",
+            "Once belt grip is secured alone"
+          ],
+          "trap": [
+            "As soon as guard is broken"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that causes the omoplata to fail at the final stage?",
         "answer": "The most common finishing error is leaning backward away from the opponent rather than driving the hips forward toward their head. Practitioners instinctively pull back thinking it creates rotation, but this actually reduces pressure on the shoulder and allows the opponent to sit up or roll. The correct finishing mechanic is to advance your hips toward the opponent's head while leaning your torso forward over their back, creating a shearing force that externally rotates the shoulder against the fulcrum of your leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive hips forward, not back",
+        "distractors": {
+          "plausible": [
+            "Pull sleeve grip harder",
+            "Rotate torso side to side"
+          ],
+          "trap": [
+            "Lean back away from opponent"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grips as you transition from the double sleeve setup to the omoplata finish?",
         "answer": "The grip transitions follow a clear sequence: maintain both sleeve grips during the cross-pull and angle creation phase. Keep the target-side sleeve grip throughout the leg swing to prevent arm extraction. Release the far-side sleeve grip once your leg clears the shoulder and clamp is secured — your legs now control the arm. Your hands transition to: one hand posting behind you for the sit-up, then that hand reaches for the belt or far hip. The other hand assists the sit-up and then controls the opponent's near-side hip or pushes their far shoulder to flatten them.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep target sleeve until clamped",
+        "distractors": {
+          "plausible": [
+            "Release both grips immediately",
+            "Grab collar before belt"
+          ],
+          "trap": [
+            "Let go of sleeve too early"
+          ]
+        }
       },
       {
         "question": "What is the proper speed of application and release protocol for the omoplata?",
         "answer": "Application must be slow and progressive, taking a minimum of 4-6 seconds of gradual pressure increase. Never jerk or spike the shoulder rotation. Advance your hips in small increments and pause to feel for the tap. Upon receiving any tap signal — verbal, hand tap, foot tap, or distress sound — immediately stop all forward pressure, release the leg pinch on the shoulder, unwind your hip position to neutral, and allow your partner to slowly extract their arm. Check for injury before resuming training. In competition, release immediately upon referee stoppage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, gradual, release on tap",
+        "distractors": {
+          "plausible": [
+            "Fast controlled snap",
+            "Hold pressure after tap heard"
+          ],
+          "trap": [
+            "Jerk the shoulder for speed"
+          ]
+        }
       },
       {
         "question": "How do you secure competition points while finishing the omoplata from double sleeve guard?",
         "answer": "The omoplata from guard frequently scores sweep points (2 points) even before the finish, because sitting up and driving the opponent flat constitutes a reversal from bottom to a controlling top position. To maximize points: complete the sit-up and establish clear top control before the referee calls the sweep, then maintain control for 3 seconds to secure the points. If the opponent turtles to avoid being flattened, you score the sweep and can continue attacking the omoplata or transition to a back take for 4 additional points. Even if the submission fails, you retain top position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit-up = sweep, hold 3 seconds",
+        "distractors": {
+          "plausible": [
+            "Only points from tap submission",
+            "Points only after back take"
+          ],
+          "trap": [
+            "Rush finish, skip top control"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to roll forward to escape the omoplata — how do you maintain the submission?",
         "answer": "The forward roll escape must be addressed preemptively with the belt or far-hip grip. If they begin rolling despite your grip: follow the roll by somersaulting with them while maintaining your leg clamp and waist control. You will end up in the same omoplata position on the other side. Key details during the roll: keep your knees tight to prevent arm extraction during the tumble, maintain your belt grip throughout, and post your free hand to stabilize as you land. If you lose control during the roll, immediately transition to a back take or re-establish guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow roll, keep clamp+grip",
+        "distractors": {
+          "plausible": [
+            "Release grip, block the roll",
+            "Sit back to stop the momentum"
+          ],
+          "trap": [
+            "Let go of legs to stop roll"
+          ]
+        }
       },
       {
         "question": "Why does the double sleeve grip configuration make the omoplata entry more effective than entries from other guards?",
         "answer": "Double sleeve control provides three specific advantages over other omoplata entries. First, bilateral grip control means you choose which arm to attack based on the opponent's weight distribution rather than reacting to whatever arm is available. Second, the far-side sleeve grip prevents the opponent from posting during your leg swing — the most common omoplata defense at every level. Third, the push-pull dynamic of pulling one sleeve while pushing the opposite bicep with your foot naturally creates the 45-degree angle and arm isolation required for the entry without needing a separate setup step.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grips choose arm & block post",
+        "distractors": {
+          "plausible": [
+            "Just faster than single sleeve",
+            "Works better without hip escape"
+          ],
+          "trap": [
+            "Removes need for the angle"
+          ]
+        }
       }
     ],
     "clips": [
@@ -463,27 +563,77 @@
       {
         "question": "How do you recognize the omoplata is being set up from double sleeve guard?",
         "answer": "The earliest cue is the bottom player hip escaping to create an angle while maintaining sleeve grips. This is followed by one sleeve being pulled across their body toward the opposite hip, and their foot on your other side pushing your shoulder away. The final confirmation is their leg lifting off your body to begin the arcing swing over your shoulder. Recognizing the hip escape is the most important cue because it gives you the largest defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip escape creates the angle",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip release first",
+            "Sudden knee-on-belly pressure"
+          ],
+          "trap": [
+            "Ignore hip escape, watch legs"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the omoplata to prevent shoulder injury?",
         "answer": "Tap early and clearly using verbal and physical signals simultaneously. The moment you feel increasing external rotation pressure on your shoulder that you cannot relieve through escape, tap immediately with your free hand on the opponent's body or the mat while verbally saying 'tap.' Do not wait until pain becomes severe — the shoulder joint transitions from discomfort to structural damage very quickly with rotational force. If your free hand is trapped, tap with your feet or use a loud verbal signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, verbal and physical",
+        "distractors": {
+          "plausible": [
+            "Wait until pain is severe",
+            "Tap only with free hand"
+          ],
+          "trap": [
+            "Try to power through pain"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when caught in the omoplata from double sleeve guard?",
         "answer": "The primary options in order of priority are: forward roll escape (most effective but only before waist control is established), arm extraction through elbow rotation toward the attacker's hip (works during the clamping phase), stacking the attacker flat by driving weight forward (effective when attacker stays flat), and stepping over the attacker's head to relieve shoulder rotation (last resort requiring flexibility). The correct choice depends on which phase of the omoplata the attacker has reached.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll early, before waist control",
+        "distractors": {
+          "plausible": [
+            "Stack them flat immediately",
+            "Step over head as first option"
+          ],
+          "trap": [
+            "Extend arm to break the grip"
+          ]
+        }
       },
       {
         "question": "What grip adjustments can prevent the omoplata setup from double sleeve guard?",
         "answer": "Keep your elbows tight to your body at all times to prevent arm isolation. When you feel one sleeve being pulled across the opponent's body, immediately retract that elbow by rotating it back toward your hip — do not chase the grip with an extended arm. Break at least one sleeve grip as early as possible, prioritizing the grip on the arm being pulled across. If both grips remain, address the angle by re-centering your weight over the bottom player to flatten their hip escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbows tight to the body",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for base",
+            "Grip their collar tightly"
+          ],
+          "trap": [
+            "Extend arm to break their grip"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt the forward roll escape from the omoplata?",
         "answer": "The optimal moment is immediately after the attacker's leg clears your shoulder but before they sit up and establish waist control (belt or hip grip). This window typically lasts 1-2 seconds. Roll over your far shoulder (the shoulder away from the attacker) while tucking your chin. If you wait until the attacker has gripped your belt or far hip, the roll will be followed and you will end up in the same position. If the attacker is already upright with waist control, switch to the stack or step-over defense instead.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Right after leg clears shoulder",
+        "distractors": {
+          "plausible": [
+            "Once belt grip is secured",
+            "As soon as sleeve is grabbed"
+          ],
+          "trap": [
+            "Wait until fully flattened"
+          ]
+        }
       }
     ],
     "training_progressions": [

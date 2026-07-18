@@ -254,62 +254,115 @@
     "flashcards": [
       {
         "question": "What is the primary force generation mechanism for the posture-up, and why is it more effective than using neck muscles?",
-        "answer": "The primary force comes from the posterior chain through hip extension—glutes, hamstrings, and back extensors working together. This muscle group generates substantially more force than the cervical extensors and creates a structural advantage because the hip drive addresses the core control mechanism of the triangle rather than fighting the symptom. The posterior chain can produce hundreds of pounds of extension force versus the limited capacity of isolated neck muscles."
+        "answer": "The primary force comes from the posterior chain through hip extension—glutes, hamstrings, and back extensors working together. This muscle group generates substantially more force than the cervical extensors and creates a structural advantage because the hip drive addresses the core control mechanism of the triangle rather than fighting the symptom. The posterior chain can produce hundreds of pounds of extension force versus the limited capacity of isolated neck muscles.",
+        "answer_line": "Hip extension drives posture up",
+        "distractors": {
+          "plausible": [
+            "Push off mat with hands",
+            "Neck muscles pull head back"
+          ],
+          "trap": [
+            "Yank neck against the choke"
+          ]
+        }
       },
       {
         "question": "Your opponent has a tight triangle locked and begins extending their hips for maximum pressure—should you attempt to posture up immediately?",
         "answer": "No—posturing up against maximum hip extension and an optimal angle is the lowest-percentage timing for the escape. First address the fundamentals: tuck your chin, establish a connected grip behind their hips, and work to square your shoulders to their hips to disrupt the choking angle. The optimal window for posture-up is before they achieve full angle adjustment and hip extension. If they have already achieved optimal position, consider alternative escapes like stacking or the triangle clear.",
         "distractors": {
           "plausible": [
-            "Yes—explode upward immediately, because the posture escape only works before they finish locking the figure-four.",
-            "No—first pry their locked ankles apart with both hands to loosen the triangle before attempting any posture."
+            "Push their hips down instead",
+            "Try to stack right away"
           ],
           "trap": [
-            "Lean back and pull away hard to yank your head free before the lock fully tightens."
+            "Yes, posture up immediately"
+          ]
+        },
+        "answer_line": "No, tuck chin, grip, square angle"
+      },
+      {
+        "question": "What connected grip options are available for the posture-up, and where should the grip be placed?",
+        "answer": "The primary grip options are Gable grip (palm-to-palm), S-grip (fingers interlocked), and butterfly grip (overlapping fingers). The grip should be placed behind the opponent's lower back at hip level—not around their neck or upper back. Hip-level placement provides the best leverage for driving their hips away and gives direct mechanical advantage against their leg configuration. The connected grip is essential because it creates a unified structural frame distributing force across your entire upper body.",
+        "answer_line": "Connected grip at hip level",
+        "distractors": {
+          "plausible": [
+            "Grip around their upper back",
+            "Grip behind their neck"
+          ],
+          "trap": [
+            "Grab their far ankle"
           ]
         }
       },
       {
-        "question": "What connected grip options are available for the posture-up, and where should the grip be placed?",
-        "answer": "The primary grip options are Gable grip (palm-to-palm), S-grip (fingers interlocked), and butterfly grip (overlapping fingers). The grip should be placed behind the opponent's lower back at hip level—not around their neck or upper back. Hip-level placement provides the best leverage for driving their hips away and gives direct mechanical advantage against their leg configuration. The connected grip is essential because it creates a unified structural frame distributing force across your entire upper body."
-      },
-      {
         "question": "During the posture-up, your opponent begins pulling your trapped arm across their body—what is the immediate response?",
-        "answer": "Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up. The arm isolation indicates an armbar transition attempt, which takes priority over continuing posture recovery. Use your free hand to push their hip or leg down while keeping the elbow tight. Only resume the posture-up once you have secured the elbow position and prevented the arm from being pulled across. The armbar threat is immediate and must be addressed before continuing escape."
+        "answer": "Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up. The arm isolation indicates an armbar transition attempt, which takes priority over continuing posture recovery. Use your free hand to push their hip or leg down while keeping the elbow tight. Only resume the posture-up once you have secured the elbow position and prevented the arm from being pulled across. The armbar threat is immediate and must be addressed before continuing escape.",
+        "answer_line": "Glue elbow to ribs, pause up",
+        "distractors": {
+          "plausible": [
+            "Keep driving posture up",
+            "Yank arm free immediately"
+          ],
+          "trap": [
+            "Let them extract the arm"
+          ]
+        }
       },
       {
         "question": "Why is squaring your shoulders to the opponent's hips a critical step during posture recovery?",
         "answer": "Squaring your shoulders to their hips eliminates the 30-45 degree off-angle that gives the triangle its maximum choking pressure. The choke achieves optimal compression geometry against the carotid arteries when the bottom player angles their body off your centerline, so removing that angle reduces the choke's effectiveness even before you achieve full posture height. Addressing the angle is as important as addressing the height—a squared position with moderate posture may be safer than full height with the opponent maintaining optimal angle.",
         "distractors": {
           "plausible": [
-            "Squaring your shoulders matters mainly because it lets you stand up to full height faster once posture returns.",
-            "Squaring up works because it forces the opponent to open their guard, which unlocks the triangle automatically."
+            "Increases posture height",
+            "Loosens their leg lock"
           ],
           "trap": [
-            "Angling your shoulders away from their hips is better, since turning off-line slips your neck out of the choke."
+            "Turn away from their hips"
           ]
-        }
+        },
+        "answer_line": "Removes the choking angle"
       },
       {
         "question": "What body positioning adjustments maintain your base during the posture-up and prevent being swept?",
-        "answer": "Keep your knees wide on the mat for a broad base, with weight centered between your knees rather than shifted to one side. Walk your knees forward incrementally to keep your hips under your shoulders as you drive upward—this prevents your center of gravity from moving behind your base. Avoid explosive upward jerking that shifts weight backward. Use controlled incremental gains that maintain balance throughout. If you feel balance compromising, pause and re-establish base before continuing."
+        "answer": "Keep your knees wide on the mat for a broad base, with weight centered between your knees rather than shifted to one side. Walk your knees forward incrementally to keep your hips under your shoulders as you drive upward—this prevents your center of gravity from moving behind your base. Avoid explosive upward jerking that shifts weight backward. Use controlled incremental gains that maintain balance throughout. If you feel balance compromising, pause and re-establish base before continuing.",
+        "answer_line": "Knees wide, walk in gradually",
+        "distractors": {
+          "plausible": [
+            "Jerk upward explosively",
+            "Narrow stance, drive straight"
+          ],
+          "trap": [
+            "Shift weight onto heels"
+          ]
+        }
       },
       {
         "question": "If the posture-up attempt stalls and you cannot gain further height, what chain options are available?",
         "answer": "If the posture-up stalls, chain into the stack defense or use the partial posture gained to begin a lateral triangle clear. The stack drives forward over the opponent to compress their triangle configuration and relieve pressure through forward stacking, while the triangle clear works laterally to the side. Alternatively, the stall may indicate you have not adequately squared the angle or your grip has slipped—reset the grip and address the angle before reattempting. The posture-up is one option in a complete triangle defense system, not an isolated technique.",
         "distractors": {
           "plausible": [
-            "If the posture stalls, keep driving straight upward with maximum effort until the height eventually comes.",
-            "If the posture stalls, switch immediately to prying the locked ankle open with both hands to break the figure-four."
+            "Keep forcing the same posture",
+            "Reset grip, ignore the angle"
           ],
           "trap": [
-            "If the posture stalls, sit back onto your heels to rest and rebuild strength before the next upward drive."
+            "Release grip and sit back"
           ]
-        }
+        },
+        "answer_line": "Chain to stack or triangle clear"
       },
       {
         "question": "What is the most critical safety consideration when attempting to posture up from a tight triangle?",
-        "answer": "The most critical safety consideration is recognizing when the choke is tight enough to cause unconsciousness and tapping before losing consciousness. A properly locked triangle with optimal angle and hip extension compresses the carotid arteries, and unconsciousness can occur in 4-8 seconds without warning signs. If you feel significant bilateral neck pressure, tunnel vision, lightheadedness, or visual changes, tap immediately. Never fight a fully locked triangle past the point of safety—the posture-up is an early-to-mid-stage escape, not a survival technique against a fully sunk choke."
+        "answer": "The most critical safety consideration is recognizing when the choke is tight enough to cause unconsciousness and tapping before losing consciousness. A properly locked triangle with optimal angle and hip extension compresses the carotid arteries, and unconsciousness can occur in 4-8 seconds without warning signs. If you feel significant bilateral neck pressure, tunnel vision, lightheadedness, or visual changes, tap immediately. Never fight a fully locked triangle past the point of safety—the posture-up is an early-to-mid-stage escape, not a survival technique against a fully sunk choke.",
+        "answer_line": "Tap before losing consciousness",
+        "distractors": {
+          "plausible": [
+            "Wait for visible warning signs",
+            "Fight through neck pressure"
+          ],
+          "trap": [
+            "Push through tunnel vision"
+          ]
+        }
       }
     ],
     "safety_considerations": "The triangle choke compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Always tap early if you feel significant bilateral neck pressure, tunnel vision, or lightheadedness. When drilling, communicate with your partner about pressure levels and establish clear tap signals. Never attempt to fight through a fully locked triangle with maximum pressure—recognize when the choke has progressed past the escape window and accept the tap. Training safety requires honest assessment of position severity and willingness to reset rather than risk injury or loss of consciousness.",
@@ -418,19 +471,59 @@
     "flashcards": [
       {
         "question": "What are the three interconnected defensive mechanisms for preventing the posture-up, and why must they work together?",
-        "answer": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off centerline. They must work together because each individually is insufficient—head control alone is overpowered by posterior chain hip drive, hip extension without proper angle is mechanically weak, and angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts."
+        "answer": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off centerline. They must work together because each individually is insufficient—head control alone is overpowered by posterior chain hip drive, hip extension without proper angle is mechanically weak, and angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts.",
+        "answer_line": "Head control, hip extension, angle",
+        "distractors": {
+          "plausible": [
+            "Grip fighting and posture break",
+            "Leg pressure and head control only"
+          ],
+          "trap": [
+            "Relax angle, focus only on hips"
+          ]
+        }
       },
       {
         "question": "You feel your opponent connecting their hands behind your hips—what is the earliest defensive response to prevent their posture-up?",
-        "answer": "The earliest response is to attack their connected grip before they can generate upward force. Use one hand to grip their outside wrist and pull it toward you, disrupting the Gable grip connection. Simultaneously increase hip extension and pull their head down to increase pressure before they establish their posture recovery frame. Preventing the grip connection is far easier than fighting a fully connected posture-up drive that has already built momentum."
+        "answer": "The earliest response is to attack their connected grip before they can generate upward force. Use one hand to grip their outside wrist and pull it toward you, disrupting the Gable grip connection. Simultaneously increase hip extension and pull their head down to increase pressure before they establish their posture recovery frame. Preventing the grip connection is far easier than fighting a fully connected posture-up drive that has already built momentum.",
+        "answer_line": "Break their grip connection early",
+        "distractors": {
+          "plausible": [
+            "Wait, then fight the full drive",
+            "Push their shoulders down"
+          ],
+          "trap": [
+            "Let them connect, then squeeze legs"
+          ]
+        }
       },
       {
         "question": "Your opponent has gained partial posture despite your defensive efforts—what transitional options prevent the complete escape?",
-        "answer": "With partial posture, transition your offensive focus from triangle finish to secondary attacks that exploit their escape position. The armbar becomes available as their posture creates space but their arm remains inside the triangle. The omoplata transition works if they stack forward with partial posture. If the triangle is clearly compromised, maintain hip control and transition to open guard bottom with active grips rather than fighting a losing position—defensive awareness prevents giving up more than necessary."
+        "answer": "With partial posture, transition your offensive focus from triangle finish to secondary attacks that exploit their escape position. The armbar becomes available as their posture creates space but their arm remains inside the triangle. The omoplata transition works if they stack forward with partial posture. If the triangle is clearly compromised, maintain hip control and transition to open guard bottom with active grips rather than fighting a losing position—defensive awareness prevents giving up more than necessary.",
+        "answer_line": "Shift to armbar or omoplata",
+        "distractors": {
+          "plausible": [
+            "Keep chasing the triangle",
+            "Release hips, reset guard"
+          ],
+          "trap": [
+            "Chase the choke, ignore arm"
+          ]
+        }
       },
       {
         "question": "How does understanding that the opponent's posture-up is hip-driven inform your defensive strategy?",
-        "answer": "Understanding hip-driven mechanics means your defense must address their hip movement rather than just fighting the head position. If they were pulling back with neck muscles alone, simple head control would suffice. Against hip drive, you need to prevent their hips from moving forward and up—use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, and squeeze your knees together to compress their shoulder structure. The defensive focus shifts from head-versus-head to hip-versus-hip engagement."
+        "answer": "Understanding hip-driven mechanics means your defense must address their hip movement rather than just fighting the head position. If they were pulling back with neck muscles alone, simple head control would suffice. Against hip drive, you need to prevent their hips from moving forward and up—use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, and squeeze your knees together to compress their shoulder structure. The defensive focus shifts from head-versus-head to hip-versus-hip engagement.",
+        "answer_line": "Fight hips, not just the head",
+        "distractors": {
+          "plausible": [
+            "Focus only on head control",
+            "Pull head down harder only"
+          ],
+          "trap": [
+            "Release hip pressure, grip harder"
+          ]
+        }
       }
     ],
     "training_progressions": [

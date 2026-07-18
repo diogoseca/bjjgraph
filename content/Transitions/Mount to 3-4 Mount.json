@@ -251,43 +251,143 @@
     "flashcards": [
       {
         "question": "Why must you shift weight to the mounted side before extracting the posting leg?",
-        "answer": "The weight shift ensures the opponent feels increased pressure during the transition rather than a momentary reduction in control. Without loading weight onto the mounted side first, extracting a leg creates a pressure vacuum that gives the opponent a window for hip escape or frame insertion. The weight transfer also pre-loads the mounted knee for the consolidation drive that follows extraction, making the entire sequence feel like one continuous pressure application rather than a disjointed position change."
+        "answer": "The weight shift ensures the opponent feels increased pressure during the transition rather than a momentary reduction in control. Without loading weight onto the mounted side first, extracting a leg creates a pressure vacuum that gives the opponent a window for hip escape or frame insertion. The weight transfer also pre-loads the mounted knee for the consolidation drive that follows extraction, making the entire sequence feel like one continuous pressure application rather than a disjointed position change.",
+        "answer_line": "Shift weight first, no vacuum",
+        "distractors": {
+          "plausible": [
+            "Extract leg, then shift weight",
+            "Post foot fast to save energy"
+          ],
+          "trap": [
+            "Skip the shift, extract instantly"
+          ]
+        }
       },
       {
         "question": "Your opponent has both elbows tight defending collar choke attempts from mount. How does this create an opportunity for the 3-4 Mount transition?",
-        "answer": "When both elbows are tucked tight, the opponent's arms are committed to neck defense and cannot establish frames or grips to exploit your base change. Their tight arm positioning also means they cannot insert knee shields during the extraction window. This defensive posture creates an ideal transition opportunity because the primary counters to the 3-4 Mount entry—framing, gripping your leg, and knee insertion—are all neutralized by their elbow-tight position. Transition to 3-4 Mount, then attack the Americana or armbar that their elbow position exposes."
+        "answer": "When both elbows are tucked tight, the opponent's arms are committed to neck defense and cannot establish frames or grips to exploit your base change. Their tight arm positioning also means they cannot insert knee shields during the extraction window. This defensive posture creates an ideal transition opportunity because the primary counters to the 3-4 Mount entry—framing, gripping your leg, and knee insertion—are all neutralized by their elbow-tight position. Transition to 3-4 Mount, then attack the Americana or armbar that their elbow position exposes.",
+        "answer_line": "Arms committed, no counters",
+        "distractors": {
+          "plausible": [
+            "Choke opening, finish now",
+            "Wait for arms to fatigue"
+          ],
+          "trap": [
+            "Attack the choke harder instead"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between a high-arc and low-arc knee extraction, and why does it matter?",
-        "answer": "A high-arc extraction lifts the knee upward and over the opponent's hip, creating visible space between your body and theirs that telegraphs the movement and allows frame insertion. A low-arc extraction slides the knee outward along the mat surface, maintaining proximity to the opponent's body throughout the movement. The low arc matters because it preserves the seal between your hip and their torso, preventing the gap that experienced opponents exploit for knee shield insertion or hip escape initiation. The difference in outcome is significant—high-arc extraction fails against competent defenders approximately twice as often as low-arc technique."
+        "answer": "A high-arc extraction lifts the knee upward and over the opponent's hip, creating visible space between your body and theirs that telegraphs the movement and allows frame insertion. A low-arc extraction slides the knee outward along the mat surface, maintaining proximity to the opponent's body throughout the movement. The low arc matters because it preserves the seal between your hip and their torso, preventing the gap that experienced opponents exploit for knee shield insertion or hip escape initiation. The difference in outcome is significant—high-arc extraction fails against competent defenders approximately twice as often as low-arc technique.",
+        "answer_line": "Low arc, stay glued to hip",
+        "distractors": {
+          "plausible": [
+            "High arc for more clearance",
+            "Speed matters more than arc"
+          ],
+          "trap": [
+            "Lift knee high and fast"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a strong hip escape toward your right side as you attempt to extract your right leg. What is your immediate response?",
-        "answer": "Immediately abort the extraction and drive both knees back inside to standard mount. Drop your hips and flatten your weight onto their torso to kill the hip escape momentum. Re-establish settled mount pressure, then wait for the opponent to settle before reattempting. Continuing the extraction into an active hip escape compounds their movement with your base change, creating a high probability of losing mount entirely. The correct response is always to prioritize position retention over completing a transition that has been countered."
+        "answer": "Immediately abort the extraction and drive both knees back inside to standard mount. Drop your hips and flatten your weight onto their torso to kill the hip escape momentum. Re-establish settled mount pressure, then wait for the opponent to settle before reattempting. Continuing the extraction into an active hip escape compounds their movement with your base change, creating a high probability of losing mount entirely. The correct response is always to prioritize position retention over completing a transition that has been countered.",
+        "answer_line": "Abort, drive knees back in",
+        "distractors": {
+          "plausible": [
+            "Push through the extraction",
+            "Post foot to block escape"
+          ],
+          "trap": [
+            "Chase the hip escape sideways"
+          ]
+        }
       },
       {
         "question": "Which controlling grip provides the most security during the transition, and why?",
-        "answer": "The crossface (underhook with shoulder pressure into their jaw) provides the most security because it controls head position, prevents turning, restricts hip escape on the crossface side, and does not require hand positioning that interferes with the leg extraction. Collar grips are effective but can be stripped during the transition. Wrist pins work but limit your own posting ability. The crossface establishes a structural control point that maintains pressure independent of your lower body configuration, making it the ideal anchor for the base change."
+        "answer": "The crossface (underhook with shoulder pressure into their jaw) provides the most security because it controls head position, prevents turning, restricts hip escape on the crossface side, and does not require hand positioning that interferes with the leg extraction. Collar grips are effective but can be stripped during the transition. Wrist pins work but limit your own posting ability. The crossface establishes a structural control point that maintains pressure independent of your lower body configuration, making it the ideal anchor for the base change.",
+        "answer_line": "Crossface controls the head",
+        "distractors": {
+          "plausible": [
+            "Collar grip locks position",
+            "Wrist pin frees your base"
+          ],
+          "trap": [
+            "Underhook their far leg"
+          ]
+        }
       },
       {
         "question": "How do you decide which leg to extract for the 3-4 Mount configuration?",
-        "answer": "Extract the leg on the side where the opponent is directing their defensive energy and frames. If they are framing strongly on your left side, extract your right leg and post it, keeping your left knee mounted on their weaker defensive side. This principle ensures your mounted knee faces minimal resistance while the posted leg is on the side where the opponent has already committed their defensive structure. Additionally, consider your intended follow-up attack—if you want to set up an armbar on their right arm, mount with your left knee and post your right leg to create the correct angle."
+        "answer": "Extract the leg on the side where the opponent is directing their defensive energy and frames. If they are framing strongly on your left side, extract your right leg and post it, keeping your left knee mounted on their weaker defensive side. This principle ensures your mounted knee faces minimal resistance while the posted leg is on the side where the opponent has already committed their defensive structure. Additionally, consider your intended follow-up attack—if you want to set up an armbar on their right arm, mount with your left knee and post your right leg to create the correct angle.",
+        "answer_line": "Extract toward their framing side",
+        "distractors": {
+          "plausible": [
+            "Extract away from their frames",
+            "Extract your dominant leg"
+          ],
+          "trap": [
+            "Extract whichever leg is closer"
+          ]
+        }
       },
       {
         "question": "What happens if you attempt the transition when the opponent is actively bridging?",
-        "answer": "Changing your base configuration during an active bridge is extremely dangerous because you are voluntarily reducing your contact points while the opponent is generating maximum upward force. The bridge displaces your center of gravity upward while the leg extraction removes one of your stabilizing contact points simultaneously, creating compounding instability. The likely result is losing mount entirely—either through a successful bridge-and-roll reversal or the opponent creating enough space to recover half guard or full guard. Always wait for the bridge to fail and the opponent to settle before initiating the transition."
+        "answer": "Changing your base configuration during an active bridge is extremely dangerous because you are voluntarily reducing your contact points while the opponent is generating maximum upward force. The bridge displaces your center of gravity upward while the leg extraction removes one of your stabilizing contact points simultaneously, creating compounding instability. The likely result is losing mount entirely—either through a successful bridge-and-roll reversal or the opponent creating enough space to recover half guard or full guard. Always wait for the bridge to fail and the opponent to settle before initiating the transition.",
+        "answer_line": "Wait for bridge to settle",
+        "distractors": {
+          "plausible": [
+            "Extract during the bridge",
+            "Post foot to stop the bridge"
+          ],
+          "trap": [
+            "Change base mid-bridge"
+          ]
+        }
       },
       {
         "question": "After completing the transition to 3-4 Mount, what is the most important consolidation action?",
-        "answer": "Driving the remaining mounted knee deeper into the opponent's ribs or armpit is the most critical consolidation action. This wedging motion eliminates any residual space created during the transition window and establishes the characteristic directional pressure of 3-4 Mount. Without this consolidation drive, the mounted side remains loose enough for the opponent to insert frames or begin shrimp escapes. The knee drive should be combined with forward chest pressure to create a heavy, settled position before considering any subsequent attacks or transitions."
+        "answer": "Driving the remaining mounted knee deeper into the opponent's ribs or armpit is the most critical consolidation action. This wedging motion eliminates any residual space created during the transition window and establishes the characteristic directional pressure of 3-4 Mount. Without this consolidation drive, the mounted side remains loose enough for the opponent to insert frames or begin shrimp escapes. The knee drive should be combined with forward chest pressure to create a heavy, settled position before considering any subsequent attacks or transitions.",
+        "answer_line": "Drive mounted knee in deep",
+        "distractors": {
+          "plausible": [
+            "Grip the far collar tight",
+            "Post foot flat for balance"
+          ],
+          "trap": [
+            "Immediately hunt the submission"
+          ]
+        }
       },
       {
         "question": "Your opponent frames on your right hip with their left hand during the transition. Should you abandon the transition or continue?",
-        "answer": "It depends on frame depth. A shallow frame where the hand contacts your hip without significant extension can be driven through by increasing hip pressure and completing the knee extraction—the posted foot will restore your base before the frame becomes problematic. However, a deep frame where the opponent has their forearm wedged between your hip and their body with elbow-to-knee connection creates structural space that will widen as you extract. In this case, abandon the transition, strip or collapse the frame using crossface pressure and wrist control, re-settle standard mount, then reattempt once the frame is neutralized."
+        "answer": "It depends on frame depth. A shallow frame where the hand contacts your hip without significant extension can be driven through by increasing hip pressure and completing the knee extraction—the posted foot will restore your base before the frame becomes problematic. However, a deep frame where the opponent has their forearm wedged between your hip and their body with elbow-to-knee connection creates structural space that will widen as you extract. In this case, abandon the transition, strip or collapse the frame using crossface pressure and wrist control, re-settle standard mount, then reattempt once the frame is neutralized.",
+        "answer_line": "Depends on frame depth",
+        "distractors": {
+          "plausible": [
+            "Always abandon the transition",
+            "Always power through the frame"
+          ],
+          "trap": [
+            "Ignore the frame and speed up"
+          ]
+        }
       },
       {
         "question": "How does the reaction-based entry variant differ from the grip-first variant in terms of timing and risk?",
-        "answer": "The grip-first variant establishes control before the transition begins, making the extraction safer but potentially alerting the opponent to a positional change through the grip itself. The reaction-based variant uses a submission threat to freeze the opponent's hips and occupy their arms, creating a distraction window for leg extraction. The reaction-based entry carries higher risk because it requires committing to a credible submission feint while simultaneously executing the base change—if the opponent does not react to the feint, you may find yourself mid-extraction without the expected freeze. The grip-first variant is more reliable against all opponents, while the reaction-based variant is more effective specifically against experienced defenders who counter grip establishment."
+        "answer": "The grip-first variant establishes control before the transition begins, making the extraction safer but potentially alerting the opponent to a positional change through the grip itself. The reaction-based variant uses a submission threat to freeze the opponent's hips and occupy their arms, creating a distraction window for leg extraction. The reaction-based entry carries higher risk because it requires committing to a credible submission feint while simultaneously executing the base change—if the opponent does not react to the feint, you may find yourself mid-extraction without the expected freeze. The grip-first variant is more reliable against all opponents, while the reaction-based variant is more effective specifically against experienced defenders who counter grip establishment.",
+        "answer_line": "Feint freezes, grip is safer",
+        "distractors": {
+          "plausible": [
+            "Grip-first is riskier overall",
+            "Reaction entry works on all"
+          ],
+          "trap": [
+            "Skip both grip and feint"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions.",
@@ -396,15 +496,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that tells you the opponent is preparing to transition to 3-4 Mount?",
-        "answer": "The earliest cue is feeling a new grip being established without an immediate submission follow-up—when the opponent secures a collar grip, crossface, or wrist pin from settled mount without attacking, they are likely anchoring for a positional adjustment. The next cue is feeling pressure increase on one side of your torso as they load weight laterally in preparation for leg extraction on the opposite side. Recognizing this grip-then-shift pattern gives you the maximum window for defensive action."
+        "answer": "The earliest cue is feeling a new grip being established without an immediate submission follow-up—when the opponent secures a collar grip, crossface, or wrist pin from settled mount without attacking, they are likely anchoring for a positional adjustment. The next cue is feeling pressure increase on one side of your torso as they load weight laterally in preparation for leg extraction on the opposite side. Recognizing this grip-then-shift pattern gives you the maximum window for defensive action.",
+        "answer_line": "New grip with no submission",
+        "distractors": {
+          "plausible": [
+            "Sudden knee-on-belly pressure",
+            "Fast collar choke attempt"
+          ],
+          "trap": [
+            "Wait for the foot to post"
+          ]
+        }
       },
       {
         "question": "Why is the transition window your best opportunity for defense rather than waiting until 3-4 Mount is settled?",
-        "answer": "During the leg extraction, the opponent temporarily reduces their contact points from four (two knees, two lower legs) to three (one knee, one leg, one posting foot), and their base narrows during the movement. This momentary reduction in control creates gaps in pressure that allow frame insertion and hip escape with significantly less effort than escaping the consolidated position. Once the foot is posted and the mounted knee is driven deep, the asymmetric base is actually more resistant to bridging than standard mount, making late defense much harder."
+        "answer": "During the leg extraction, the opponent temporarily reduces their contact points from four (two knees, two lower legs) to three (one knee, one leg, one posting foot), and their base narrows during the movement. This momentary reduction in control creates gaps in pressure that allow frame insertion and hip escape with significantly less effort than escaping the consolidated position. Once the foot is posted and the mounted knee is driven deep, the asymmetric base is actually more resistant to bridging than standard mount, making late defense much harder.",
+        "answer_line": "Fewer contact points, more gaps",
+        "distractors": {
+          "plausible": [
+            "Settled 3-4 Mount is weaker",
+            "Wait until fully mounted"
+          ],
+          "trap": [
+            "Attack after knee drives deep"
+          ]
+        }
       },
       {
         "question": "Your opponent loads weight to your left side and begins extracting their right leg. Where do you direct your hip escape?",
-        "answer": "Direct your hip escape toward the right side—toward the extracting leg. This is the side where pressure is momentarily reduced as the leg clears your body and before the foot is posted. Your hip escape into the lighter side meets minimal resistance and creates the best angle for knee insertion into half guard. Escaping toward the left (heavy) side would push directly into the opponent's concentrated weight and committed grip, making the escape far more difficult and energy-intensive."
+        "answer": "Direct your hip escape toward the right side—toward the extracting leg. This is the side where pressure is momentarily reduced as the leg clears your body and before the foot is posted. Your hip escape into the lighter side meets minimal resistance and creates the best angle for knee insertion into half guard. Escaping toward the left (heavy) side would push directly into the opponent's concentrated weight and committed grip, making the escape far more difficult and energy-intensive.",
+        "answer_line": "Escape toward the light side",
+        "distractors": {
+          "plausible": [
+            "Escape into the heavy side",
+            "Escape straight up the middle"
+          ],
+          "trap": [
+            "Bridge into their weighted side"
+          ]
+        }
       }
     ],
     "training_progressions": [

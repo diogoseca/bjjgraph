@@ -256,43 +256,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for executing the Sweep from Double Jump?",
-        "answer": "The optimal timing is when the opponent's weight is clearly committed forward over your torso during their passing attempt. Their forward pressure provides the momentum that the sweep redirects—the harder they drive forward, the more effective the hip bridge elevation becomes. Never attempt the sweep when the opponent is posted back on their heels or maintaining a wide defensive base, as the technique requires their forward commitment to generate sufficient displacement."
+        "answer": "The optimal timing is when the opponent's weight is clearly committed forward over your torso during their passing attempt. Their forward pressure provides the momentum that the sweep redirects—the harder they drive forward, the more effective the hip bridge elevation becomes. Never attempt the sweep when the opponent is posted back on their heels or maintaining a wide defensive base, as the technique requires their forward commitment to generate sufficient displacement.",
+        "answer_line": "Opponent's weight driving forward",
+        "distractors": {
+          "plausible": [
+            "When they post on their heels",
+            "Right after inserting both hooks"
+          ],
+          "trap": [
+            "Wait for them to settle their base"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be established before initiating the sweep?",
-        "answer": "Near arm control is the essential prerequisite. This is secured through a wrist grip on the opponent's near hand, a sleeve grip in gi, or a deep underhook on their near arm. This control eliminates the opponent's primary posting defense—without it, they simply plant their hand on the mat during the sweep and create a tripod base that completely nullifies the sweeping force. The arm control determines the sweep direction and must be established before any hip movement begins."
+        "answer": "Near arm control is the essential prerequisite. This is secured through a wrist grip on the opponent's near hand, a sleeve grip in gi, or a deep underhook on their near arm. This control eliminates the opponent's primary posting defense—without it, they simply plant their hand on the mat during the sweep and create a tripod base that completely nullifies the sweeping force. The arm control determines the sweep direction and must be established before any hip movement begins.",
+        "answer_line": "Control opponent's near arm",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar",
+            "Underhook their far arm"
+          ],
+          "trap": [
+            "Release grips to move faster"
+          ]
+        }
       },
       {
         "question": "In which direction should you angle the sweeping force and why?",
-        "answer": "The sweeping force should be directed at approximately 45 degrees toward the opponent's trapped arm side. This angle targets the weakest point of their base—the side where their posting arm has been controlled and they have no structural support to resist lateral displacement. Sweeping directly sideways allows them to post with their free hand, while sweeping toward the controlled side exploits the gap in their defensive structure created by your arm control."
+        "answer": "The sweeping force should be directed at approximately 45 degrees toward the opponent's trapped arm side. This angle targets the weakest point of their base—the side where their posting arm has been controlled and they have no structural support to resist lateral displacement. Sweeping directly sideways allows them to post with their free hand, while sweeping toward the controlled side exploits the gap in their defensive structure created by your arm control.",
+        "answer_line": "45° toward trapped arm side",
+        "distractors": {
+          "plausible": [
+            "Straight sideways sweep",
+            "45° away from trapped arm"
+          ],
+          "trap": [
+            "Sweep toward their free arm"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin the sweep—how do you adjust?",
-        "answer": "When the opponent posts their far hand, switch to the roll-through variation. Use their posted hand as a fixed anchor point and continue the sweeping momentum into a full roll underneath them, coming up on the opposite side in top position or transitioning to back control. Alternatively, redirect the sweep angle to attack the posted arm side by releasing the near arm and quickly switching to control the posted wrist, then sweeping toward the newly weakened side."
+        "answer": "When the opponent posts their far hand, switch to the roll-through variation. Use their posted hand as a fixed anchor point and continue the sweeping momentum into a full roll underneath them, coming up on the opposite side in top position or transitioning to back control. Alternatively, redirect the sweep angle to attack the posted arm side by releasing the near arm and quickly switching to control the posted wrist, then sweeping toward the newly weakened side.",
+        "answer_line": "Roll through using their post",
+        "distractors": {
+          "plausible": [
+            "Force original angle harder",
+            "Stop and reset your guard"
+          ],
+          "trap": [
+            "Let go of arm control entirely"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement sequence that generates the primary sweeping force?",
-        "answer": "The sequence is up-then-over, never just sideways. First execute an explosive vertical hip bridge, extending your hips fully while your legs act as an elevator platform underneath the opponent's hips. This vertical displacement lifts their center of gravity above their base of support. At the apex of the bridge, redirect force laterally at 45 degrees toward the trapped arm side. The initial elevation is what makes the lateral redirect irresistible—without it, the opponent's settled weight absorbs any sideways force."
+        "answer": "The sequence is up-then-over, never just sideways. First execute an explosive vertical hip bridge, extending your hips fully while your legs act as an elevator platform underneath the opponent's hips. This vertical displacement lifts their center of gravity above their base of support. At the apex of the bridge, redirect force laterally at 45 degrees toward the trapped arm side. The initial elevation is what makes the lateral redirect irresistible—without it, the opponent's settled weight absorbs any sideways force.",
+        "answer_line": "Bridge up, then redirect over",
+        "distractors": {
+          "plausible": [
+            "Push laterally with hips first",
+            "Bridge up only, skip redirect"
+          ],
+          "trap": [
+            "Sweep sideways from flat hips"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt this sweep from Double Jump?",
-        "answer": "Five conditions are required: both legs must be fully inserted underneath the opponent's hips with feet past the far hip for adequate leverage; opponent's weight must be committed forward rather than posted back; near arm control must be established to prevent posting; your body must be positioned on its side with perpendicular angle for proper leverage; and your head must be positioned safely outside the opponent's hip line to avoid guillotine attacks during the sweep movement."
+        "answer": "Five conditions are required: both legs must be fully inserted underneath the opponent's hips with feet past the far hip for adequate leverage; opponent's weight must be committed forward rather than posted back; near arm control must be established to prevent posting; your body must be positioned on its side with perpendicular angle for proper leverage; and your head must be positioned safely outside the opponent's hip line to avoid guillotine attacks during the sweep movement.",
+        "answer_line": "Hooks deep, arm control, forward",
+        "distractors": {
+          "plausible": [
+            "Just deep hooks inserted",
+            "Perpendicular angle, no arm control"
+          ],
+          "trap": [
+            "Head inside opponent's hip line"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from sprawling back to defend the sweep?",
-        "answer": "The sprawl defense is neutralized by controlling the near arm, which prevents the opponent from creating the distance needed for an effective sprawl. Additionally, timing the sweep to coincide with the opponent's forward drive means they must reverse their own momentum to sprawl, which takes longer than the sweep execution. If they do manage to sprawl, transition immediately to deep half guard hooks rather than forcing the sweep, using their backward movement to deepen your position underneath their hips."
+        "answer": "The sprawl defense is neutralized by controlling the near arm, which prevents the opponent from creating the distance needed for an effective sprawl. Additionally, timing the sweep to coincide with the opponent's forward drive means they must reverse their own momentum to sprawl, which takes longer than the sweep execution. If they do manage to sprawl, transition immediately to deep half guard hooks rather than forcing the sweep, using their backward movement to deepen your position underneath their hips.",
+        "answer_line": "Control near arm, time the drive",
+        "distractors": {
+          "plausible": [
+            "Grip both legs tightly",
+            "Push down on opponent's hips"
+          ],
+          "trap": [
+            "Release arm to grab both legs"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked but you maintain Double Jump position, what chain attacks are available?",
-        "answer": "Multiple chain attacks branch from a blocked sweep: transition to deep half guard and pursue old school sweep, waiter sweep, or Homer Simpson sweep; if the opponent stands to disengage, convert to X-Guard or single leg X-Guard for standing sweeps; if they sprawl but you maintain near leg control, pursue electric chair entry; attempt the roll-through variation using their defensive post as an anchor. The sweep threat is most valuable when it opens these alternative pathways."
+        "answer": "Multiple chain attacks branch from a blocked sweep: transition to deep half guard and pursue old school sweep, waiter sweep, or Homer Simpson sweep; if the opponent stands to disengage, convert to X-Guard or single leg X-Guard for standing sweeps; if they sprawl but you maintain near leg control, pursue electric chair entry; attempt the roll-through variation using their defensive post as an anchor. The sweep threat is most valuable when it opens these alternative pathways.",
+        "answer_line": "Deep half guard sweep chain",
+        "distractors": {
+          "plausible": [
+            "Abandon position, reset guard",
+            "Repeat same angle again"
+          ],
+          "trap": [
+            "Let go of hooks to stand"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical error that causes this sweep to fail?",
-        "answer": "The most common error is generating only lateral force without the initial upward hip bridge. When practitioners skip the vertical elevation and push sideways, the opponent's settled weight simply absorbs the force without displacement. The vertical bridge is the essential first movement that lifts the opponent's center of gravity above their base of support, creating the unstable moment where the lateral redirect becomes irresistible. Teaching the up-then-over sequence eliminates the majority of failed sweep attempts."
+        "answer": "The most common error is generating only lateral force without the initial upward hip bridge. When practitioners skip the vertical elevation and push sideways, the opponent's settled weight simply absorbs the force without displacement. The vertical bridge is the essential first movement that lifts the opponent's center of gravity above their base of support, creating the unstable moment where the lateral redirect becomes irresistible. Teaching the up-then-over sequence eliminates the majority of failed sweep attempts.",
+        "answer_line": "Skipping the bridge, lateral only",
+        "distractors": {
+          "plausible": [
+            "Wrong arm gripped first",
+            "Hooks not inserted deep enough"
+          ],
+          "trap": [
+            "Push down before bridging up"
+          ]
+        }
       },
       {
         "question": "How does the opponent's weight distribution affect your sweep timing and execution?",
-        "answer": "The opponent's weight distribution determines both whether to attempt the sweep and how to execute it. Heavy forward pressure creates the ideal condition—their committed weight provides momentum that the sweep redirects. Weight centered over your hips allows the standard sweep with full hip bridge. Weight shifted to one side suggests angling the sweep toward the light side. Weight posted back on their heels is a contraindication—do not attempt the sweep and instead use alternative guard recovery methods or bait them forward before attempting."
+        "answer": "The opponent's weight distribution determines both whether to attempt the sweep and how to execute it. Heavy forward pressure creates the ideal condition—their committed weight provides momentum that the sweep redirects. Weight centered over your hips allows the standard sweep with full hip bridge. Weight shifted to one side suggests angling the sweep toward the light side. Weight posted back on their heels is a contraindication—do not attempt the sweep and instead use alternative guard recovery methods or bait them forward before attempting.",
+        "answer_line": "Forward weight is ideal timing",
+        "distractors": {
+          "plausible": [
+            "Centered weight, best angle",
+            "Side weight, skip the sweep"
+          ],
+          "trap": [
+            "Heels weight, attempt anyway"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Double Jump involves explosive hip extension and bilateral leg mechanics that can stress knee and ankle joints if executed with poor alignment. Always warm up hip flexors, hamstrings, and groin thoroughly before drilling this technique. When completing the sweep, control your opponent's descent to prevent them from landing with uncontrolled impact. During training, communicate with your partner about entry intensity and avoid full-force sweeps against significantly lighter training partners. If you feel any sharp pain in your knees during the leg insertion or elevation phase, stop immediately and reassess your hook positioning.",
@@ -399,23 +499,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up the Sweep from Double Jump?",
-        "answer": "The earliest cue is the opponent securing control of your near arm through a wrist grip, sleeve grip, or underhook. This is the sweep's essential prerequisite—without near arm control, the sweep cannot succeed. The moment you feel your near arm being gripped or controlled while in Double Jump top, you must immediately prioritize freeing that arm before the opponent can establish the proper sweep angle and initiate the hip bridge."
+        "answer": "The earliest cue is the opponent securing control of your near arm through a wrist grip, sleeve grip, or underhook. This is the sweep's essential prerequisite—without near arm control, the sweep cannot succeed. The moment you feel your near arm being gripped or controlled while in Double Jump top, you must immediately prioritize freeing that arm before the opponent can establish the proper sweep angle and initiate the hip bridge.",
+        "answer_line": "They grip your near arm",
+        "distractors": {
+          "plausible": [
+            "They shift weight forward",
+            "They insert both hooks"
+          ],
+          "trap": [
+            "They post their far hand"
+          ]
+        }
       },
       {
         "question": "What is your primary defensive response when you feel your hips being elevated by the Double Jump hooks?",
-        "answer": "Immediately post your far hand wide on the mat and sprawl your hips back to flatten your base and reduce the elevation effect. The wide post creates a tripod structure that resists the lateral redirect even if the elevation succeeds partially. Simultaneously, work to free your near arm if it is controlled, as the posting alone may not be sufficient if the sweep angle is properly aligned toward your trapped arm side."
+        "answer": "Immediately post your far hand wide on the mat and sprawl your hips back to flatten your base and reduce the elevation effect. The wide post creates a tripod structure that resists the lateral redirect even if the elevation succeeds partially. Simultaneously, work to free your near arm if it is controlled, as the posting alone may not be sufficient if the sweep angle is properly aligned toward your trapped arm side.",
+        "answer_line": "Post far hand wide, sprawl hips",
+        "distractors": {
+          "plausible": [
+            "Grab their far collar",
+            "Pull your knees to chest"
+          ],
+          "trap": [
+            "Drive forward into their hooks"
+          ]
+        }
       },
       {
         "question": "How do you convert a successful sweep defense into a guard passing opportunity?",
-        "answer": "After neutralizing the sweep through base posting and arm recovery, transition to offensive passing by driving heavy crossface pressure while systematically extracting the opponent's leg hooks from underneath your hips. Use your freed near arm to control their hip and prevent re-insertion of hooks. As hooks release, drive your hips through their guard to complete the pass into side control, converting the defensive moment into two points and dominant position."
+        "answer": "After neutralizing the sweep through base posting and arm recovery, transition to offensive passing by driving heavy crossface pressure while systematically extracting the opponent's leg hooks from underneath your hips. Use your freed near arm to control their hip and prevent re-insertion of hooks. As hooks release, drive your hips through their guard to complete the pass into side control, converting the defensive moment into two points and dominant position.",
+        "answer_line": "Crossface, strip hooks, pass",
+        "distractors": {
+          "plausible": [
+            "Stand up and disengage",
+            "Grab both arms, pull guard"
+          ],
+          "trap": [
+            "Push hips back, reset base"
+          ]
+        }
       },
       {
         "question": "Why should you avoid driving forward pressure when your opponent has established Double Jump hooks?",
-        "answer": "Forward pressure is exactly what the sweep mechanics require to function. The opponent's hip bridge redirects your forward momentum upward and laterally, using your own driving force as the catalyst for the sweep. The harder you push forward with committed weight, the more effective their elevator lift and lateral redirect become. Instead, shift your weight back, widen your base, and work to extract hooks before re-engaging with forward pressure once the sweep threat is neutralized."
+        "answer": "Forward pressure is exactly what the sweep mechanics require to function. The opponent's hip bridge redirects your forward momentum upward and laterally, using your own driving force as the catalyst for the sweep. The harder you push forward with committed weight, the more effective their elevator lift and lateral redirect become. Instead, shift your weight back, widen your base, and work to extract hooks before re-engaging with forward pressure once the sweep threat is neutralized.",
+        "answer_line": "It fuels their sweep mechanics",
+        "distractors": {
+          "plausible": [
+            "It tires you out fast",
+            "It risks a guillotine choke"
+          ],
+          "trap": [
+            "Drive harder to smash through"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous defensive mistake when facing the Sweep from Double Jump?",
-        "answer": "The most dangerous mistake is continuing to drive forward with heavy pressure while your near arm is controlled and the opponent has established proper sweep angle. This creates the perfect conditions for the sweep—forward committed weight, eliminated posting capability, and aligned sweep direction. The combination makes the sweep nearly indefensible regardless of strength or size advantage. Always prioritize freeing the near arm and adjusting weight distribution before anything else."
+        "answer": "The most dangerous mistake is continuing to drive forward with heavy pressure while your near arm is controlled and the opponent has established proper sweep angle. This creates the perfect conditions for the sweep—forward committed weight, eliminated posting capability, and aligned sweep direction. The combination makes the sweep nearly indefensible regardless of strength or size advantage. Always prioritize freeing the near arm and adjusting weight distribution before anything else.",
+        "answer_line": "Driving forward, arm trapped",
+        "distractors": {
+          "plausible": [
+            "Standing up too early",
+            "Gripping their far sleeve"
+          ],
+          "trap": [
+            "Pushing harder to power through"
+          ]
+        }
       }
     ],
     "training_progressions": [

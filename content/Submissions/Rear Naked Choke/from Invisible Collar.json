@@ -301,32 +301,92 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke from Invisible Collar target?",
         "answer": "The RNC targets the carotid arteries on both sides of the neck, compressing them to restrict blood flow to the brain. The choking arm's radius bone presses against one carotid while the bicep of the same arm compresses the other. The figure-four lock behind the head creates a sealed compression chamber that eliminates gaps in the circumferential pressure around the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Carotid arteries, blood choke",
+        "distractors": {
+          "plausible": [
+            "Windpipe compression choke",
+            "Both carotids plus trachea"
+          ],
+          "trap": [
+            "Crank the cervical spine"
+          ]
+        }
       },
       {
         "question": "What indicators confirm your opponent is ready to be caught by the collar-to-RNC transition?",
         "answer": "Both of the opponent's hands are actively gripping your collar arm, their attention is focused downward toward the collar rather than protecting their chin, and there is a slight forward lean as they strain to strip the grip. When you feel maximum resistance on the collar hand with both their hands fully engaged on your wrist and forearm, the neck is maximally exposed for the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both hands gripping the collar arm",
+        "distractors": {
+          "plausible": [
+            "Chin tucked, one hand free",
+            "Opponent leaning back away"
+          ],
+          "trap": [
+            "Opponent's hands both on hooks"
+          ]
+        }
       },
       {
         "question": "What positional control must be established before attempting the collar-to-RNC transition?",
         "answer": "You need secure hook control with at least one deep hook, a functioning seatbelt with your non-collar arm that will maintain back control during the switch, and your chest firmly connected to the opponent's upper back. Your hips should be slightly below theirs to prevent rolling escapes. The collar grip must be deep enough that the opponent perceives it as a genuine finishing threat requiring two-handed defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep hook, seatbelt, chest connected",
+        "distractors": {
+          "plausible": [
+            "Body triangle locked first",
+            "Hips higher than opponent's"
+          ],
+          "trap": [
+            "Release seatbelt to free hand"
+          ]
+        }
       },
       {
         "question": "At what point during the transition does the opponent lose the ability to defend effectively?",
         "answer": "The point of no escape occurs when the choking forearm passes fully under the chin and your hand contacts the opposite bicep to form the figure-four lock. Once this connection is established, even loosely, the opponent cannot remove the arm without first breaking the lock. The critical window is the 1-2 seconds between collar release and bicep connection. If you achieve this before they redirect their hands, the finish is virtually guaranteed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand meets bicep, figure-four forms",
+        "distractors": {
+          "plausible": [
+            "Forearm first touches the neck",
+            "Collar hand fully released"
+          ],
+          "trap": [
+            "Opponent's hand grips your wrist"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to get one hand inside the choke before the figure-four locks—what grip adjustment maintains finishing pressure?",
         "answer": "Do not try to overpower their defending hand. Switch to a short choke by gripping your own wrist instead of the bicep, which narrows the choke circumference and can trap their defending hand against their own neck. Alternatively, use your free hand to peel their fingers from your wrist one at a time. Their hand inside the choke actually increases pressure on one carotid if you can complete the lock around it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip own wrist, short choke",
+        "distractors": {
+          "plausible": [
+            "Pull harder to seal bicep",
+            "Switch hands to re-thread arm"
+          ],
+          "trap": [
+            "Yank their trapped hand out"
+          ]
+        }
       },
       {
         "question": "What are the critical finishing errors that reduce effectiveness and increase injury risk?",
         "answer": "The most dangerous error is placing the forearm directly across the trachea, creating a windpipe crush instead of a blood choke. Other common errors include cranking the neck backward by pulling the head rather than squeezing elbows together, failing to use the locking hand to push the head forward into the choke, and applying explosive jerking force rather than progressive steady compression. Each error reduces submission effectiveness while increasing injury risk substantially.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Forearm on trachea, not carotids",
+        "distractors": {
+          "plausible": [
+            "Squeezing elbows too gently",
+            "Pushing head forward too soon"
+          ],
+          "trap": [
+            "Jerk head back explosively"
+          ]
+        }
       },
       {
         "question": "What safety precautions are essential when training the RNC from Invisible Collar?",
@@ -341,12 +401,32 @@
       {
         "question": "How do you create the collar-to-RNC dilemma effectively against an experienced opponent who knows the switch?",
         "answer": "Against experienced opponents, the collar threat must be genuinely dangerous before the RNC switch becomes viable. Incrementally deepen the collar grip over 15-30 seconds with periodic squeezing to demonstrate real finishing intent. Only attempt the switch when you feel the opponent escalate to two-handed defense. If they only commit one hand, continue deepening. Chain multiple collar-RNC-collar cycles to deteriorate their defensive timing over time rather than relying on a single transition attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen collar until two-hand defense",
+        "distractors": {
+          "plausible": [
+            "Switch immediately every time",
+            "Attempt RNC before any collar"
+          ],
+          "trap": [
+            "Switch the moment one hand grips"
+          ]
+        }
       },
       {
         "question": "During competition, what adjustments maximize submission probability with this technique?",
         "answer": "In competition, time the transition for peak defensive commitment. Use incremental collar pressure to build urgency, then switch explosively rather than gradually. Once the RNC connects, immediately lock the figure-four and begin squeezing rather than adjusting for perfect position. Combine with a body triangle to eliminate hip escape during the finish. The combination of surprise from the switch and immediate finishing pressure catches elite defenders who expect time to address each threat sequentially.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Explosive switch, body triangle",
+        "distractors": {
+          "plausible": [
+            "Slow gradual switch for control",
+            "Wait for perfect hand position"
+          ],
+          "trap": [
+            "Adjust grip before squeezing"
+          ]
+        }
       }
     ],
     "clips": [
@@ -461,22 +541,62 @@
       {
         "question": "What is the safest approach to tapping when caught in the RNC from Invisible Collar?",
         "answer": "Tap immediately when you feel blood choke pressure building and your defense is failing. Use a clear physical tap on the attacker's arm, your own body, or the mat, supplemented by a verbal tap saying the word aloud. If your arms are trapped, tap with your feet on the mat. The blood choke can cause unconsciousness within 5-8 seconds of full compression, so there is no advantage to waiting when the lock is secured.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, physical and verbal",
+        "distractors": {
+          "plausible": [
+            "Wait to confirm it's locked",
+            "Tap only once fully sealed"
+          ],
+          "trap": [
+            "Fight until vision narrows"
+          ]
+        }
       },
       {
         "question": "What is the critical defensive mistake that creates the RNC opening from invisible collar?",
         "answer": "The critical mistake is committing both hands to removing the collar grip simultaneously. This is exactly what the attacker needs because it leaves the chin and neck completely unprotected for the 1-2 seconds required to release the collar and thread the choking arm. Instead, always keep one hand available for chin and neck protection even if it means slower collar defense with the remaining hand.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both hands strip the collar",
+        "distractors": {
+          "plausible": [
+            "Tucking chin too early",
+            "Turning hips away too soon"
+          ],
+          "trap": [
+            "Keep one hand on the neck"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt an escape during the collar-to-RNC transition?",
         "answer": "The optimal escape window is during the 1-2 seconds when the attacker's choking arm is in transit between the collar and the neck. At this moment, their attacking arm has no grip on anything and their control is at its weakest point. If you time a hip escape and turn for this exact moment, you can exploit the gap in their control before the RNC arm threads under your chin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm in transit, no grip yet",
+        "distractors": {
+          "plausible": [
+            "Right after collar locks in",
+            "Once figure-four is set"
+          ],
+          "trap": [
+            "Wait until choke is sinking"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when defending repeated collar-to-RNC cycling from an attacker?",
         "answer": "Maintain a sustainable defensive posture with chin tucked and one hand protecting the neck at all times rather than using explosive bursts for each individual threat. The attacker wants to fatigue your defense through repeated cycling, so efficient defensive positioning is more important than powerful individual responses. Save your explosive energy for a committed escape attempt when you identify a genuine opening during their grip transition moment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sustainable posture, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Explode on every threat",
+            "Match their pace each cycle"
+          ],
+          "trap": [
+            "Relax fully between attempts"
+          ]
+        }
       }
     ],
     "training_progressions": [

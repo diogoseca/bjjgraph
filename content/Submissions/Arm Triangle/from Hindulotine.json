@@ -296,52 +296,152 @@
       {
         "question": "What anatomical structures does the Arm Triangle from Hindulotine attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral compression restricts blood flow to the brain, causing unconsciousness in 6-8 seconds if not released.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe/trachea only",
+            "Jugular veins only"
+          ],
+          "trap": [
+            "Vagus nerve strike point"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent's defense creates the arm triangle opportunity from Hindulotine?",
         "answer": "The trigger is the opponent creating a near-side arm frame across their own neck to relieve guillotine pressure. You will feel their forearm or hand pushing against your choking arm or their own neck. This frame positions their arm exactly where it needs to be for the arm triangle. The moment you feel this defensive frame, begin the transition rather than fighting to maintain the guillotine.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their frame across own neck",
+        "distractors": {
+          "plausible": [
+            "Opponent turning face away",
+            "Opponent posting on the floor"
+          ],
+          "trap": [
+            "Strip their frame immediately"
+          ]
+        }
       },
       {
         "question": "What grip adjustment is required when transitioning from Hindulotine grip to arm triangle configuration?",
         "answer": "Release the guillotine grip only after chest pressure secures the trapped arm against the opponent's neck. Thread your choking arm over the top of their trapped arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip for a tighter configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins arm, then figure-four",
+        "distractors": {
+          "plausible": [
+            "Release grip before repositioning",
+            "Underhook the far arm instead"
+          ],
+          "trap": [
+            "Release grip to reset guillotine"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to frame against your Hindulotine grip with their near arm - what adjustment capitalizes on this reaction?",
         "answer": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame - instead, use it as the foundation for the arm triangle. Their defensive action becomes the setup for your next submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest-pin the frame, then switch",
+        "distractors": {
+          "plausible": [
+            "Strip the frame, re-guillotine",
+            "Switch to a far-side headlock"
+          ],
+          "trap": [
+            "Yank the frame off their neck"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Hindulotine?",
         "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "90° perpendicular, drop the hip",
+        "distractors": {
+          "plausible": [
+            "Stay square, drive forward",
+            "Angle toward their legs"
+          ],
+          "trap": [
+            "Lean back and pull with arms"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
         "answer": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively, they have passed the point of no escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No gap, face color, weak defense",
+        "distractors": {
+          "plausible": [
+            "Loud tapping sounds nearby",
+            "Opponent stops moving entirely"
+          ],
+          "trap": [
+            "They start talking normally"
+          ]
+        }
       },
       {
         "question": "You have the head-and-arm locked but the choke stalls and the opponent is breathing comfortably - what is the most likely finishing error?",
         "answer": "You are almost certainly squeezing with your arms instead of your body, and you have left space between your chest and their trapped shoulder. Stop pulling with the arms, finish walking your hips to a full perpendicular angle, drop your near hip to the mat, and melt your chest flush onto their trapped shoulder so their own deltoid drives into the carotid. The arms only lock the frame - the dropping hip and expanding chest create the kill.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drop hip, flush chest, not arms",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms harder together",
+            "Pull head down with free hand"
+          ],
+          "trap": [
+            "Pull the choking arm tighter"
+          ]
+        }
       },
       {
         "question": "What competition finishing strategy maximizes the Arm Triangle from Hindulotine against a hard-defending opponent when the clock matters?",
         "answer": "Use the dilemma rather than forcing one path: keep the guillotine threat live so any frame they give feeds the arm triangle, then commit to the grip the instant the frame appears. Once locked, immediately walk toward the trapped-arm side and finish from a near-side mount or kesa angle rather than staying square, because that angle pre-empts the bridge-and-roll escape and denies the referee a stalemate to stand up. Bait the frame, switch decisively, and finish off the angle before they can re-guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bait the frame, walk trapped side",
+        "distractors": {
+          "plausible": [
+            "Force the switch immediately",
+            "Stay square and grind it out"
+          ],
+          "trap": [
+            "Abandon guillotine, chase far side"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when transitioning from Hindulotine guillotine to arm triangle pressure?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Progressive pressure, watch tap",
+        "distractors": {
+          "plausible": [
+            "Spike it fast to end quickly",
+            "Trap both hands for control"
+          ],
+          "trap": [
+            "Hold past the tap to finish"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their trapped arm during the transition from Hindulotine to arm triangle?",
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their arm against their own neck so they cannot pull it free. Once the head-and-arm grip is locked, the figure-four configuration mechanically prevents arm extraction. If you feel the arm starting to slide out during transition, immediately return to the Hindulotine guillotine grip rather than chasing a compromised arm triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins arm before switching",
+        "distractors": {
+          "plausible": [
+            "Grip harder on the wrist",
+            "Speed through the transition"
+          ],
+          "trap": [
+            "Chase the arm as it slides out"
+          ]
+        }
       }
     ],
     "clips": [
@@ -464,27 +564,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from Hindulotine to an arm triangle?",
         "answer": "The key recognition cue is feeling the attacker's chest weight drive down onto your framing arm, pinning it against your own neck, followed by the release of their guillotine grip as they begin threading their arm over yours and behind your neck. You may also feel their hips disengage from the Hindulotine leg configuration as they prepare to walk to the finishing angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest weight down, grip releases",
+        "distractors": {
+          "plausible": [
+            "They squeeze the guillotine tighter",
+            "They step back to reset"
+          ],
+          "trap": [
+            "They're losing the position"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Arm Triangle from Hindulotine?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is locked - arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds. Tapping early prevents injury and allows you to continue training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand, foot, or voice, now",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only after vision blurs"
+          ],
+          "trap": [
+            "Try to power out before tapping"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from converting the Hindulotine into an arm triangle?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow down and hand on your own chest, or extend it fully away from your neck. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending the guillotine, use head positioning and hip movement rather than arm frames across your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Never cross forearm over throat",
+        "distractors": {
+          "plausible": [
+            "Post the arm out wide always",
+            "Grip your own collar tight"
+          ],
+          "trap": [
+            "Frame forearm across own neck"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, knees, frame their hips",
+        "distractors": {
+          "plausible": [
+            "Turn away and try to stand up",
+            "Push their head off both hands"
+          ],
+          "trap": [
+            "Turn away toward trapped-arm side"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive errors that allow the arm triangle transition from Hindulotine?",
         "answer": "The most common error is instinctively framing across your own neck when defending the guillotine, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity, and it closes within 2-3 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Framing own neck, turning away",
+        "distractors": {
+          "plausible": [
+            "Bridging too early and often",
+            "Gripping their sleeve instead"
+          ],
+          "trap": [
+            "Turn away once caught to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

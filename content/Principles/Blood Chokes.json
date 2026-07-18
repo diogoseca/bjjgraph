@@ -381,35 +381,115 @@
   "flashcards": [
     {
       "question": "How does a blood choke render an opponent unconscious?",
-      "answer": "It compresses the carotid arteries on one or both sides of the neck, cutting oxygenated blood flow to the brain and producing unconsciousness in roughly 6-10 seconds when fully seated."
+      "answer": "It compresses the carotid arteries on one or both sides of the neck, cutting oxygenated blood flow to the brain and producing unconsciousness in roughly 6-10 seconds when fully seated.",
+      "answer_line": "Cuts carotid blood flow to brain",
+      "distractors": {
+        "plausible": [
+          "Crushes the windpipe shut",
+          "Restricts oxygen to the lungs"
+        ],
+        "trap": [
+          "Squeeze harder until knocked out"
+        ]
+      }
     },
     {
       "question": "Which common BJJ submissions are blood chokes?",
-      "answer": "The rear naked choke, triangle choke, bow and arrow choke, cross collar choke, arm triangle (kata gatame), guillotine, darce, and anaconda all finish primarily by compressing the carotid arteries rather than the airway."
+      "answer": "The rear naked choke, triangle choke, bow and arrow choke, cross collar choke, arm triangle (kata gatame), guillotine, darce, and anaconda all finish primarily by compressing the carotid arteries rather than the airway.",
+      "answer_line": "RNC, triangle, guillotine, darce",
+      "distractors": {
+        "plausible": [
+          "RNC and triangle only",
+          "Cross collar and bow and arrow only"
+        ],
+        "trap": [
+          "Kimura, heel hook, armbar"
+        ]
+      }
     },
     {
       "question": "How can you tell whether your choke is on the carotid arteries or the windpipe?",
-      "answer": "A carotid choke produces little coughing or gagging and finishes quickly; if the opponent is coughing or you feel the hard ridge of the trachea or the chin bone against your forearm, the choke is on the windpipe and must be re-angled onto the side of the neck."
+      "answer": "A carotid choke produces little coughing or gagging and finishes quickly; if the opponent is coughing or you feel the hard ridge of the trachea or the chin bone against your forearm, the choke is on the windpipe and must be re-angled onto the side of the neck.",
+      "answer_line": "No cough, quick finish = carotid",
+      "distractors": {
+        "plausible": [
+          "Fast tap out means windpipe",
+          "Feeling tight means carotids"
+        ],
+        "trap": [
+          "Coughing means the choke is working"
+        ]
+      }
     },
     {
       "question": "Why is immediate release on the tap especially critical with blood chokes?",
-      "answer": "A properly placed blood choke can put a partner to sleep within seconds and they may feel little pain or warning beforehand, so any delay in releasing after the tap risks genuine unconsciousness or injury."
+      "answer": "A properly placed blood choke can put a partner to sleep within seconds and they may feel little pain or warning beforehand, so any delay in releasing after the tap risks genuine unconsciousness or injury.",
+      "answer_line": "Sleep can hit with little warning",
+      "distractors": {
+        "plausible": [
+          "Sharp pain always comes first",
+          "Only risky after several minutes"
+        ],
+        "trap": [
+          "Wait for a clear verbal tap"
+        ]
+      }
     },
     {
       "question": "Why does a blood choke that feels tight to the attacker sometimes still fail to finish?",
-      "answer": "If gaps remain between the choking structures and the neck, blood continues flowing through the carotids despite the squeeze; the choke must seal completely by closing space rather than simply squeezing harder."
+      "answer": "If gaps remain between the choking structures and the neck, blood continues flowing through the carotids despite the squeeze; the choke must seal completely by closing space rather than simply squeezing harder.",
+      "answer_line": "Gaps let blood keep flowing",
+      "distractors": {
+        "plausible": [
+          "Opponent's neck is too strong",
+          "Not squeezing hard enough"
+        ],
+        "trap": [
+          "Squeeze harder to close the gap"
+        ]
+      }
     },
     {
       "question": "Why should you finish a blood choke with body mechanics rather than arm strength?",
-      "answer": "Relying on arm and grip strength causes rapid forearm fatigue without full compression, whereas chest expansion, hip lift, or a knee squeeze generates structural force that seals the choke and can be sustained against an actively resisting opponent."
+      "answer": "Relying on arm and grip strength causes rapid forearm fatigue without full compression, whereas chest expansion, hip lift, or a knee squeeze generates structural force that seals the choke and can be sustained against an actively resisting opponent.",
+      "answer_line": "Arms fatigue, body force sustains",
+      "distractors": {
+        "plausible": [
+          "Arms give a more powerful squeeze",
+          "Grip strength finishes it faster"
+        ],
+        "trap": [
+          "Squeeze grips as hard as possible"
+        ]
+      }
     },
     {
       "question": "What must be controlled before a blood choke can be applied to a resisting opponent?",
-      "answer": "The opponent's posture and head position must be controlled first, since posture is the primary defense against strangles and an upright, chin-tucked posture denies access to the neck."
+      "answer": "The opponent's posture and head position must be controlled first, since posture is the primary defense against strangles and an upright, chin-tucked posture denies access to the neck.",
+      "answer_line": "Opponent's posture and head",
+      "distractors": {
+        "plausible": [
+          "Their hands and grips first",
+          "Their hips and legs first"
+        ],
+        "trap": [
+          "Let them posture up to attack"
+        ]
+      }
     },
     {
       "question": "Should you abandon a blood choke when the opponent starts hand fighting?",
-      "answer": "No — hand fighting usually signals the choke is already threatening blood flow; maintain the choke and win the hand fight with positioning, abandoning only if the opponent fully removes the choking arm or creates significant space."
+      "answer": "No — hand fighting usually signals the choke is already threatening blood flow; maintain the choke and win the hand fight with positioning, abandoning only if the opponent fully removes the choking arm or creates significant space.",
+      "answer_line": "No, maintain and win hand fight",
+      "distractors": {
+        "plausible": [
+          "Switch to a different submission",
+          "Loosen grip to conserve energy"
+        ],
+        "trap": [
+          "Yes, release before it's contested"
+        ]
+      }
     }
   ],
   "clips": [

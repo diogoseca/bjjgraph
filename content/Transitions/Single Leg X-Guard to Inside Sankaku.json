@@ -402,7 +402,17 @@
     "flashcards": [
       {
         "question": "Why is denying the elevation the single most important defensive priority against this entry?",
-        "answer": "The bottom player needs to off-balance you to create the time window in which they can spin underneath your leg and fold the figure-four. If you keep your weight settled, your level low, and your free foot heavily posted, they cannot elevate you and the spin never gets its window. Prevention at the elevation stage is far higher percentage than any escape attempted after the figure-four has locked and your heel is exposed."
+        "answer": "The bottom player needs to off-balance you to create the time window in which they can spin underneath your leg and fold the figure-four. If you keep your weight settled, your level low, and your free foot heavily posted, they cannot elevate you and the spin never gets its window. Prevention at the elevation stage is far higher percentage than any escape attempted after the figure-four has locked and your heel is exposed.",
+        "answer_line": "Keep weight low, post free foot",
+        "distractors": {
+          "plausible": [
+            "Fight the figure-four lock",
+            "Sprawl hips to escape early"
+          ],
+          "trap": [
+            "Post hands, let hips rise"
+          ]
+        }
       },
       {
         "question": "What should you do when you feel the bottom player swinging their outside leg over your thigh?",

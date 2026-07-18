@@ -89,35 +89,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts pushing your hips with their free leg while you have saddle control—what adjustment do you make?",
-        "answer": "Increase hip pressure into their trapped leg while using your top leg to pin or control their free leg. If they create significant space with their push, you may need to momentarily release some control to address the free leg, either by hooking it or by transitioning to a position where their pushing leg cannot generate effective force. The key is preventing them from using that free leg to create rotation angles."
+        "answer": "Increase hip pressure into their trapped leg while using your top leg to pin or control their free leg. If they create significant space with their push, you may need to momentarily release some control to address the free leg, either by hooking it or by transitioning to a position where their pushing leg cannot generate effective force. The key is preventing them from using that free leg to create rotation angles.",
+        "answer_line": "Pin free leg, hold hip pressure",
+        "distractors": {
+          "plausible": [
+            "Release control, chase free leg",
+            "Switch to outside ashi-garami"
+          ],
+          "trap": [
+            "Ignore leg, rush the heel hook"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining saddle position before attempting submissions?",
-        "answer": "The primary structural grips include controlling the opponent's ankle with your outside arm to prevent them from rotating their knee, using your inside arm to frame on their hip or control their pants/belt, and maintaining leg configuration pressure. These positional grips differ from finishing grips—establish control grips first, only transition to heel control when ready to submit."
+        "answer": "The primary structural grips include controlling the opponent's ankle with your outside arm to prevent them from rotating their knee, using your inside arm to frame on their hip or control their pants/belt, and maintaining leg configuration pressure. These positional grips differ from finishing grips—establish control grips first, only transition to heel control when ready to submit.",
+        "answer_line": "Ankle and hip control before heel",
+        "distractors": {
+          "plausible": [
+            "Heel grip first, then ankle",
+            "Belt grip only, skip ankle"
+          ],
+          "trap": [
+            "Grab heel immediately, finish"
+          ]
+        }
       },
       {
         "question": "How do you shut down an opponent's primary escape of turning into you?",
-        "answer": "Maintain heavy hip pressure driving into their trapped leg while using your top leg to block their hip rotation toward you. Your shoulder should stay heavy on their thigh. If they begin rotating, ride with the rotation while adjusting your angle to stay perpendicular. The key is making their turn tighten your control rather than create escape space."
+        "answer": "Maintain heavy hip pressure driving into their trapped leg while using your top leg to block their hip rotation toward you. Your shoulder should stay heavy on their thigh. If they begin rotating, ride with the rotation while adjusting your angle to stay perpendicular. The key is making their turn tighten your control rather than create escape space.",
+        "answer_line": "Block rotation, stay perpendicular",
+        "distractors": {
+          "plausible": [
+            "Let them turn, chase angle after",
+            "Flatten out, follow their turn"
+          ],
+          "trap": [
+            "Release hips, grab for a choke"
+          ]
+        }
       },
       {
         "question": "What is the correct grip sequence when transitioning from positional control to submission finish?",
-        "answer": "First establish structural control with leg configuration and hip pressure. Next, control the ankle with your outside arm to prevent knee rotation. Then clear any frames the opponent has on your hips. Only after these controls are established should you transition to heel grip—use your inside hand to cup the heel while your outside arm maintains ankle control. The figure-four finishing grip comes last."
+        "answer": "First establish structural control with leg configuration and hip pressure. Next, control the ankle with your outside arm to prevent knee rotation. Then clear any frames the opponent has on your hips. Only after these controls are established should you transition to heel grip—use your inside hand to cup the heel while your outside arm maintains ankle control. The figure-four finishing grip comes last.",
+        "answer_line": "Control, ankle, clear frame, heel",
+        "distractors": {
+          "plausible": [
+            "Heel grip first, control after",
+            "Ankle grip, skip frame clearing"
+          ],
+          "trap": [
+            "Jump straight to figure-four"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure with your hips to maximize control effectiveness?",
-        "answer": "Drive your hips into the opponent's trapped thigh at approximately a 45-degree angle toward their hip. This pressure prevents them from rotating either direction and maintains the perpendicular alignment that gives you mechanical advantage. Your hips should feel like a wedge that gets tighter when they move, not looser."
+        "answer": "Drive your hips into the opponent's trapped thigh at approximately a 45-degree angle toward their hip. This pressure prevents them from rotating either direction and maintains the perpendicular alignment that gives you mechanical advantage. Your hips should feel like a wedge that gets tighter when they move, not looser.",
+        "answer_line": "45-degree wedge into trapped thigh",
+        "distractors": {
+          "plausible": [
+            "Straight-on pressure, no angle",
+            "Light pressure to save energy"
+          ],
+          "trap": [
+            "Pressure away from their hip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins framing on your shoulder while hiding their heel—what's your tactical response?",
-        "answer": "Address the threat hierarchy: frames before submissions. Use your free hand to strip or redirect their frame while maintaining hip pressure and leg configuration. Once the frame is cleared, recognize that their heel hiding has exposed their ankle—transition to straight ankle lock or toe hold threat. This forces them to choose between maintaining the frame or protecting the ankle, creating a new dilemma."
+        "answer": "Address the threat hierarchy: frames before submissions. Use your free hand to strip or redirect their frame while maintaining hip pressure and leg configuration. Once the frame is cleared, recognize that their heel hiding has exposed their ankle—transition to straight ankle lock or toe hold threat. This forces them to choose between maintaining the frame or protecting the ankle, creating a new dilemma.",
+        "answer_line": "Clear frame, then attack ankle",
+        "distractors": {
+          "plausible": [
+            "Force heel hook through frame",
+            "Ignore frame, hunt for heel"
+          ],
+          "trap": [
+            "Release grips to fight the frame"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when an opponent is actively resisting but not escaping?",
-        "answer": "Avoid the trap of constantly attacking submissions against strong defense. Instead, maintain positional control with minimal energy by relying on structural mechanics rather than muscular effort. Let your leg configuration and hip pressure do the work. Wait for defensive errors that open attack opportunities rather than forcing submissions against solid defense. The position should feel sustainable for extended periods."
+        "answer": "Avoid the trap of constantly attacking submissions against strong defense. Instead, maintain positional control with minimal energy by relying on structural mechanics rather than muscular effort. Let your leg configuration and hip pressure do the work. Wait for defensive errors that open attack opportunities rather than forcing submissions against solid defense. The position should feel sustainable for extended periods.",
+        "answer_line": "Rely on structure, wait for errors",
+        "distractors": {
+          "plausible": [
+            "Attack submissions constantly",
+            "Muscle through with grip strength"
+          ],
+          "trap": [
+            "Abandon position to force a finish"
+          ]
+        }
       },
       {
         "question": "What recovery protocol do you use if the opponent partially clears your hip pressure?",
-        "answer": "Immediately re-engage hip pressure before attempting to reestablish other controls. If they've created significant space, you may need to temporarily transition to Inside Ashi-Garami and rebuild to saddle. Never try to skip steps in re-establishing control—the hierarchy is perpendicular alignment, then hip pressure, then inside position, then grips. Forcing submissions from a compromised position leads to escapes."
+        "answer": "Immediately re-engage hip pressure before attempting to reestablish other controls. If they've created significant space, you may need to temporarily transition to Inside Ashi-Garami and rebuild to saddle. Never try to skip steps in re-establishing control—the hierarchy is perpendicular alignment, then hip pressure, then inside position, then grips. Forcing submissions from a compromised position leads to escapes.",
+        "answer_line": "Re-engage hip pressure first",
+        "distractors": {
+          "plausible": [
+            "Jump straight to heel grip",
+            "Chase grips before hip pressure"
+          ],
+          "trap": [
+            "Force submission from bad angle"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -449,35 +529,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins extending your heel with rotational pressure—what is your immediate response?",
-        "answer": "If the submission is locked with rotation already applied, tap immediately to prevent knee ligament damage. If you still have some heel protection or the rotation is just beginning, attempt an emergency hip clear by posting with your free leg and explosively moving your body toward the opponent rather than pulling your leg away. This reduces joint stress while creating angles. However, recognize that once heel hook mechanics are engaged, the window for escape is extremely small—prioritize safety over ego."
+        "answer": "If the submission is locked with rotation already applied, tap immediately to prevent knee ligament damage. If you still have some heel protection or the rotation is just beginning, attempt an emergency hip clear by posting with your free leg and explosively moving your body toward the opponent rather than pulling your leg away. This reduces joint stress while creating angles. However, recognize that once heel hook mechanics are engaged, the window for escape is extremely small—prioritize safety over ego.",
+        "answer_line": "Tap now, or hip-clear toward them",
+        "distractors": {
+          "plausible": [
+            "Pull the leg away explosively",
+            "Wait it out, defend the grip"
+          ],
+          "trap": [
+            "Yank leg back to strip the grip"
+          ]
+        }
       },
       {
         "question": "What are the essential defensive grips for preventing heel hook finishes from bottom saddle?",
-        "answer": "Your primary grip defense involves using both hands to control your own foot and ankle, preventing the opponent from rotating your heel. Grab your own shin or ankle to create a barrier. If the opponent has already established heel grip, use two-on-one grip fighting to strip their control at the thumbs. Secondary defense involves framing on their hip with your free leg to prevent them from tightening the position."
+        "answer": "Your primary grip defense involves using both hands to control your own foot and ankle, preventing the opponent from rotating your heel. Grab your own shin or ankle to create a barrier. If the opponent has already established heel grip, use two-on-one grip fighting to strip their control at the thumbs. Secondary defense involves framing on their hip with your free leg to prevent them from tightening the position.",
+        "answer_line": "Guard own ankle, strip their grip",
+        "distractors": {
+          "plausible": [
+            "Pull knee in, ignore hand fight",
+            "Push off mat with both hands"
+          ],
+          "trap": [
+            "Yank foot free, expose the knee"
+          ]
+        }
       },
       {
         "question": "How do you shut down an opponent's ability to finish when they have saddle but haven't yet secured the heel?",
-        "answer": "Hide the heel by rotating your knee inward toward your centerline while keeping your foot flexed. This makes the heel difficult to access but exposes your ankle to straight ankle lock. Use your hands to protect the ankle/foot area while your free leg frames on their hip to prevent them from improving position. The goal is to create a defensive stalemate where they cannot finish, buying time to work escapes."
+        "answer": "Hide the heel by rotating your knee inward toward your centerline while keeping your foot flexed. This makes the heel difficult to access but exposes your ankle to straight ankle lock. Use your hands to protect the ankle/foot area while your free leg frames on their hip to prevent them from improving position. The goal is to create a defensive stalemate where they cannot finish, buying time to work escapes.",
+        "answer_line": "Hide heel, frame hip with free leg",
+        "distractors": {
+          "plausible": [
+            "Point toes out, expose the heel",
+            "Grab their sleeve, ignore heel"
+          ],
+          "trap": [
+            "Extend leg to test their grip"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for escaping saddle without exposing yourself to greater danger?",
-        "answer": "The hierarchy is: 1) Protect heel by hiding it, 2) Address opponent's grips with systematic grip fighting, 3) Clear their hip pressure by framing and creating angles, 4) Only after hip pressure is reduced, begin leg extraction by moving your body toward them, not pulling leg away. Violating this sequence—especially attempting extraction before clearing hip pressure—dramatically increases injury risk."
+        "answer": "The hierarchy is: 1) Protect heel by hiding it, 2) Address opponent's grips with systematic grip fighting, 3) Clear their hip pressure by framing and creating angles, 4) Only after hip pressure is reduced, begin leg extraction by moving your body toward them, not pulling leg away. Violating this sequence—especially attempting extraction before clearing hip pressure—dramatically increases injury risk.",
+        "answer_line": "Heel, grips, hips, then extract",
+        "distractors": {
+          "plausible": [
+            "Extract leg first, then grips",
+            "Clear hips before hiding heel"
+          ],
+          "trap": [
+            "Pull leg away before hips clear"
+          ]
+        }
       },
       {
         "question": "How should you use your free leg defensively while trapped in saddle?",
-        "answer": "Your free leg should frame on the opponent's hip to prevent them from achieving optimal perpendicular positioning. Push against their hip to reduce their ability to apply pressure and rotation. The free leg can also be used to create posts that help you shift your body position. Never use the free leg to push explosively without purpose, as this wastes energy and may help them tighten control."
+        "answer": "Your free leg should frame on the opponent's hip to prevent them from achieving optimal perpendicular positioning. Push against their hip to reduce their ability to apply pressure and rotation. The free leg can also be used to create posts that help you shift your body position. Never use the free leg to push explosively without purpose, as this wastes energy and may help them tighten control.",
+        "answer_line": "Frame free leg on their hip",
+        "distractors": {
+          "plausible": [
+            "Kick explosively for space",
+            "Tuck free leg under your body"
+          ],
+          "trap": [
+            "Push off mat, expose the ankle"
+          ]
+        }
       },
       {
         "question": "Your opponent switches from heel hook attack to straight ankle lock after you hide your heel—what adjustment do you make?",
-        "answer": "When defending ankle lock, pull your toes back and rotate your foot to point your toes away from their armpit. This reduces the lever arm for the ankle lock. However, recognize this re-exposes your heel—you're managing a submission dilemma. Continue working grip breaks and hip clears while managing which attack you're exposed to. The goal is to survive long enough to escape, not to create perfect defense against any single attack."
+        "answer": "When defending ankle lock, pull your toes back and rotate your foot to point your toes away from their armpit. This reduces the lever arm for the ankle lock. However, recognize this re-exposes your heel—you're managing a submission dilemma. Continue working grip breaks and hip clears while managing which attack you're exposed to. The goal is to survive long enough to escape, not to create perfect defense against any single attack.",
+        "answer_line": "Toes back, foot away from armpit",
+        "distractors": {
+          "plausible": [
+            "Point toes in, protect heel only",
+            "Kick free to reset position"
+          ],
+          "trap": [
+            "Extend leg straight, pull hard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when trapped in saddle against a patient opponent?",
-        "answer": "Avoid the trap of continuously fighting explosively against superior control. Make deliberate, technical movements rather than panicked struggles. Focus on incremental improvements: small grip fights, minor angle changes, gradual hip movement. Accept that escape may take time and conserve energy for moments when opportunities arise. Explosive movements should be reserved for when you've created genuine escape openings, not as constant resistance."
+        "answer": "Avoid the trap of continuously fighting explosively against superior control. Make deliberate, technical movements rather than panicked struggles. Focus on incremental improvements: small grip fights, minor angle changes, gradual hip movement. Accept that escape may take time and conserve energy for moments when opportunities arise. Explosive movements should be reserved for when you've created genuine escape openings, not as constant resistance.",
+        "answer_line": "Small technical gains, save energy",
+        "distractors": {
+          "plausible": [
+            "Explode constantly to escape",
+            "Wait passively, do nothing"
+          ],
+          "trap": [
+            "Panic-thrash to create space"
+          ]
+        }
       },
       {
         "question": "What recovery protocol do you use if your escape attempt fails and the opponent re-tightens control?",
-        "answer": "Return to the defensive hierarchy immediately: re-protect the heel, address any grips they've re-established, and frame to prevent further tightening. Do not compound a failed escape with continued movement that could worsen your position. Recognize that you may need to restart the escape sequence from the beginning. Each failed attempt teaches you about this specific opponent's control and reactions—use that information in subsequent attempts."
+        "answer": "Return to the defensive hierarchy immediately: re-protect the heel, address any grips they've re-established, and frame to prevent further tightening. Do not compound a failed escape with continued movement that could worsen your position. Recognize that you may need to restart the escape sequence from the beginning. Each failed attempt teaches you about this specific opponent's control and reactions—use that information in subsequent attempts.",
+        "answer_line": "Reset hierarchy: heel, grips, frame",
+        "distractors": {
+          "plausible": [
+            "Keep pushing the same escape",
+            "Attack their leg immediately"
+          ],
+          "trap": [
+            "Force the extraction again fast"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -745,35 +905,115 @@
   "flashcards_position": [
     {
       "question": "What defines the Saddle configuration relative to the trapped leg?",
-      "answer": "The Saddle is an inside leg entanglement in which one player sits perpendicular to the other with a figure-four of their legs wrapping the opponent's trapped leg. The controlling legs thread inside the opponent's knee line so that one leg sits behind the trapped knee while the other crosses over, isolating the hip, knee, and ankle as a single unit. This perpendicular, inside-the-knee alignment is what distinguishes the Saddle from outside entanglements and is what generates simultaneous mechanical access to rotate the heel and stress the knee. Because both players share this same trapped-leg geometry, the configuration is defined by the entanglement itself rather than by who is currently winning the exchange."
+      "answer": "The Saddle is an inside leg entanglement in which one player sits perpendicular to the other with a figure-four of their legs wrapping the opponent's trapped leg. The controlling legs thread inside the opponent's knee line so that one leg sits behind the trapped knee while the other crosses over, isolating the hip, knee, and ankle as a single unit. This perpendicular, inside-the-knee alignment is what distinguishes the Saddle from outside entanglements and is what generates simultaneous mechanical access to rotate the heel and stress the knee. Because both players share this same trapped-leg geometry, the configuration is defined by the entanglement itself rather than by who is currently winning the exchange.",
+      "answer_line": "Inside figure-four, perpendicular",
+      "distractors": {
+        "plausible": [
+          "Outside leg triangle on the knee",
+          "Symmetric 50-50 entanglement"
+        ],
+        "trap": [
+          "Crossed ankles outside the knee"
+        ]
+      }
     },
     {
       "question": "Why does perpendicular alignment matter so much in the Saddle for both players?",
-      "answer": "Perpendicularity aligns the entangling player's hips and torso across the axis of the trapped leg, which is the geometry required to apply rotational force to the knee and ankle. When the trapped player rotates back toward square with their attacker, they reduce that cross-body angle and blunt the leverage on their own joints. The whole positional battle therefore revolves around this angle: the entangling player fights to stay perpendicular while the trapped player fights to face them and break the cross-body line. Because the mechanical advantage scales with how perpendicular the alignment is, both players read the position through the same lens of angle rather than through independent goals."
+      "answer": "Perpendicularity aligns the entangling player's hips and torso across the axis of the trapped leg, which is the geometry required to apply rotational force to the knee and ankle. When the trapped player rotates back toward square with their attacker, they reduce that cross-body angle and blunt the leverage on their own joints. The whole positional battle therefore revolves around this angle: the entangling player fights to stay perpendicular while the trapped player fights to face them and break the cross-body line. Because the mechanical advantage scales with how perpendicular the alignment is, both players read the position through the same lens of angle rather than through independent goals.",
+      "answer_line": "Aligns torso for leverage on knee",
+      "distractors": {
+        "plausible": [
+          "Keeps both players squared up",
+          "Prevents opponent from gripping"
+        ],
+        "trap": [
+          "Lets attacker chase back control"
+        ]
+      }
     },
     {
       "question": "How does hip pressure into the trapped leg govern the shared dynamics of the Saddle?",
-      "answer": "The entangling player wedges their hips into the trapped thigh, and that pressure is what pins the leg and prevents the trapped player from rotating in either direction. It converts the entanglement from a loose tangle into a rigid structure where the knee and hip are stapled in place. For the trapped player, this same hip pressure is the primary obstacle they must clear before any leg extraction becomes possible, which is why clearing hip pressure precedes extraction in escape hierarchies. The dynamic is symmetric in that both players are managing the same wedge: one deepening it, the other trying to open the space it occupies."
+      "answer": "The entangling player wedges their hips into the trapped thigh, and that pressure is what pins the leg and prevents the trapped player from rotating in either direction. It converts the entanglement from a loose tangle into a rigid structure where the knee and hip are stapled in place. For the trapped player, this same hip pressure is the primary obstacle they must clear before any leg extraction becomes possible, which is why clearing hip pressure precedes extraction in escape hierarchies. The dynamic is symmetric in that both players are managing the same wedge: one deepening it, the other trying to open the space it occupies.",
+      "answer_line": "Hip wedge pins leg, blocks turns",
+      "distractors": {
+        "plausible": [
+          "Hip pressure only aids submission",
+          "Pressure mainly controls the arm"
+        ],
+        "trap": [
+          "Hip pressure frees the free leg"
+        ]
+      }
     },
     {
       "question": "Why is the position of the exposed heel the central control point that both players fixate on?",
-      "answer": "In the Saddle the trapped leg's heel is typically oriented toward the entangling player's chest or armpit, and control of that heel is what enables the inside heel hook, the position's highest-percentage finish. The heel's exposure or concealment defines the immediate danger level: an exposed heel is finishable, while a hidden heel forces the attack elsewhere. This is why the trapped player rotates the knee inward to bury the heel while the entangling player works to expose and cup it. Both players are essentially contesting the same few centimeters of the foot, making the heel the shared fulcrum around which the exchange turns."
+      "answer": "In the Saddle the trapped leg's heel is typically oriented toward the entangling player's chest or armpit, and control of that heel is what enables the inside heel hook, the position's highest-percentage finish. The heel's exposure or concealment defines the immediate danger level: an exposed heel is finishable, while a hidden heel forces the attack elsewhere. This is why the trapped player rotates the knee inward to bury the heel while the entangling player works to expose and cup it. Both players are essentially contesting the same few centimeters of the foot, making the heel the shared fulcrum around which the exchange turns.",
+      "answer_line": "Heel toward chest enables finish",
+      "distractors": {
+        "plausible": [
+          "Ankle position matters, not heel",
+          "Heel exposure only affects grips"
+        ],
+        "trap": [
+          "Hidden heel guarantees the tap"
+        ]
+      }
     },
     {
       "question": "What creates the submission dilemma that characterizes the Saddle?",
-      "answer": "The Saddle isolates the hip, knee, and ankle simultaneously, so defensive actions that protect one joint tend to expose another. Hiding the heel by rotating the knee inward re-orients the foot into a straight ankle lock or toe hold, while pulling the toes back to defend the ankle re-exposes the heel to rotation. This self-reinforcing web of threats is why practitioners describe the position as a check-mate-like dilemma rather than a single attack. Both players understand the same trade-off: every defensive rotation is simultaneously an offensive opening, which is what makes the Saddle mechanically distinct from single-joint leg attacks."
+      "answer": "The Saddle isolates the hip, knee, and ankle simultaneously, so defensive actions that protect one joint tend to expose another. Hiding the heel by rotating the knee inward re-orients the foot into a straight ankle lock or toe hold, while pulling the toes back to defend the ankle re-exposes the heel to rotation. This self-reinforcing web of threats is why practitioners describe the position as a check-mate-like dilemma rather than a single attack. Both players understand the same trade-off: every defensive rotation is simultaneously an offensive opening, which is what makes the Saddle mechanically distinct from single-joint leg attacks.",
+      "answer_line": "Defending one joint exposes other",
+      "distractors": {
+        "plausible": [
+          "Only the heel hook is ever live",
+          "Ankle and heel defended together"
+        ],
+        "trap": [
+          "Full defense stops all attacks"
+        ]
+      }
     },
     {
       "question": "How does the Saddle differ mechanically from Outside Ashi-Garami and 50-50?",
-      "answer": "In the Saddle the entangling player's legs are inside the opponent's knee line and the alignment is perpendicular, giving direct rotational access to the heel; in Outside Ashi-Garami the control sits outside the knee line, which favors straight ankle locks over the inside heel hook. Compared to 50-50, where both players symmetrically entangle one leg each and neither owns clear inside position, the Saddle is asymmetric: one player holds the inside space and the other is trapped. This inside-versus-outside and asymmetric-versus-bilateral distinction is what makes the Saddle more dominant than adjacent entanglements. Losing inside position typically collapses the Saddle back into one of these less-committed configurations."
+      "answer": "In the Saddle the entangling player's legs are inside the opponent's knee line and the alignment is perpendicular, giving direct rotational access to the heel; in Outside Ashi-Garami the control sits outside the knee line, which favors straight ankle locks over the inside heel hook. Compared to 50-50, where both players symmetrically entangle one leg each and neither owns clear inside position, the Saddle is asymmetric: one player holds the inside space and the other is trapped. This inside-versus-outside and asymmetric-versus-bilateral distinction is what makes the Saddle more dominant than adjacent entanglements. Losing inside position typically collapses the Saddle back into one of these less-committed configurations.",
+      "answer_line": "Inside knee line vs outside/50-50",
+      "distractors": {
+        "plausible": [
+          "Outside line favors the heel hook",
+          "50-50 gives clear inside position"
+        ],
+        "trap": [
+          "All leg entanglements are equal"
+        ]
+      }
     },
     {
       "question": "Why does the trapped player's free leg become a shared strategic focus in the Saddle?",
-      "answer": "The trapped player's non-entangled leg is one of the few tools that can act on the entangling player's hips, framing to push away pressure or to prevent them from squaring into full perpendicularity. For that reason the entangling player works to pin or hook that free leg, since an uncontrolled free leg can generate the rotation and space needed to break the cross-body angle. The contest over this free leg is a direct extension of the angle-and-pressure battle that defines the position. Both players read it the same way: it is the trapped player's engine for restoring square alignment and the entangling player's last variable to neutralize."
+      "answer": "The trapped player's non-entangled leg is one of the few tools that can act on the entangling player's hips, framing to push away pressure or to prevent them from squaring into full perpendicularity. For that reason the entangling player works to pin or hook that free leg, since an uncontrolled free leg can generate the rotation and space needed to break the cross-body angle. The contest over this free leg is a direct extension of the angle-and-pressure battle that defines the position. Both players read it the same way: it is the trapped player's engine for restoring square alignment and the entangling player's last variable to neutralize.",
+      "answer_line": "Free leg frames to break the angle",
+      "distractors": {
+        "plausible": [
+          "Free leg only aids balance",
+          "Free leg is irrelevant to control"
+        ],
+        "trap": [
+          "Free leg should attack submissions"
+        ]
+      }
     },
     {
       "question": "Why is the Saddle considered a submission platform rather than a positional-control endpoint?",
-      "answer": "Unlike positions such as mount or back control, where positional dominance is the primary objective and submission is secondary, the Saddle inverts that hierarchy because its control geometry exists to finish leg attacks. The perpendicular alignment, hip pressure, and heel exposure all serve the goal of applying rotational or extension force to the isolated joints. This is why the position carries a shorter time-sustainability profile and higher stakes than a dominant pin: it is inherently less stable than a control-first position and pushes toward resolution. Both players experience it as a race, one toward the finish and one toward extraction, rather than a state that can be comfortably held."
+      "answer": "Unlike positions such as mount or back control, where positional dominance is the primary objective and submission is secondary, the Saddle inverts that hierarchy because its control geometry exists to finish leg attacks. The perpendicular alignment, hip pressure, and heel exposure all serve the goal of applying rotational or extension force to the isolated joints. This is why the position carries a shorter time-sustainability profile and higher stakes than a dominant pin: it is inherently less stable than a control-first position and pushes toward resolution. Both players experience it as a race, one toward the finish and one toward extraction, rather than a state that can be comfortably held.",
+      "answer_line": "Built to finish, not just control",
+      "distractors": {
+        "plausible": [
+          "Positional control is the true goal",
+          "Stability matters more than finish"
+        ],
+        "trap": [
+          "Hold position indefinitely, no rush"
+        ]
+      }
     }
   ],
   "clips": [

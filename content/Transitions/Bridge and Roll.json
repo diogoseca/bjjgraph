@@ -581,7 +581,17 @@
       },
       {
         "question": "Your opponent successfully traps your right arm and hooks your right foot—what are your options before the bridge?",
-        "answer": "You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics."
+        "answer": "You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics.",
+        "answer_line": "Post left hand for tripod base",
+        "distractors": {
+          "plausible": [
+            "Strip right wrist free first",
+            "Drive hips to flatten them"
+          ],
+          "trap": [
+            "Push down with trapped arm"
+          ]
+        }
       },
       {
         "question": "Why does grapevine position work against the bridge and roll but create vulnerability to the elbow escape?",

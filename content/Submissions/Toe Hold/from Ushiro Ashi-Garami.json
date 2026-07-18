@@ -282,42 +282,122 @@
       {
         "question": "What anatomical structures does the toe hold from ushiro ashi-garami primarily attack?",
         "answer": "The toe hold primarily attacks the lateral and medial collateral ligaments of the ankle joint, with secondary stress on the Lisfranc joint complex in the midfoot. The rotational force creates torsion through the ankle that can damage ligaments, the plantar fascia, and in severe cases cause midfoot dislocation. The reversed ushiro angle directs force more laterally than standard toe holds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle collateral ligaments",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments (ACL/MCL)",
+            "Achilles tendon primarily"
+          ],
+          "trap": [
+            "The toes, not the ankle"
+          ]
+        }
       },
       {
         "question": "How does the ushiro ashi-garami configuration change the finishing mechanics compared to a standard toe hold?",
         "answer": "The ushiro configuration reverses the opponent's hip orientation, which changes the optimal rotation direction for the finish. The attacker must angle their rotational force toward the opponent's outside hip rather than following standard toe hold angles. This reversed geometry actually limits the defender's ability to rotate their hips to relieve pressure, making the toe hold mechanically tighter once the grip is properly established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate toward outside hip",
+        "distractors": {
+          "plausible": [
+            "Rotate toward inside hip",
+            "Same angle as standard toe hold"
+          ],
+          "trap": [
+            "Rotation direction irrelevant"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your figure-four grip at the wrist connection during the toe hold attempt - what adjustment prevents the escape?",
         "answer": "Deepen your wrist grip by pulling your gripping hand closer to your own body, shortening the lever arm they need to pry apart. If they continue fighting the grip, immediately transition your upper hand toward the heel to threaten a heel hook instead. The grip strip defense creates heel exposure, so the transition to heel hook capitalizes on their defensive reaction rather than fighting a losing grip battle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen grip, transition to heel",
+        "distractors": {
+          "plausible": [
+            "Muscle through the grip fight",
+            "Switch hands and re-grip"
+          ],
+          "trap": [
+            "Release grip, reset position"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the opponent is approaching their breaking point during the toe hold application?",
         "answer": "Key indicators include the opponent's leg becoming rigid and resisting further rotation, a noticeable change in their breathing pattern such as holding breath or sharp exhales, their free hand abandoning grip fighting to tap, verbal signals of distress, and the ankle reaching the end range of its natural rotation where the ligaments begin to stretch. When you feel the ankle reaching maximum rotation resistance, slow your application further.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Leg stiffens, breath changes",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "Only verbal tap counts"
+          ],
+          "trap": [
+            "Loud yelling means keep going"
+          ]
+        }
       },
       {
         "question": "What are the critical control requirements you must verify before transitioning from entanglement control to the toe hold grip?",
         "answer": "Before releasing any hand to grip the foot, verify that your figure-four leg entanglement is secure with knees squeezed together, your inside leg has deep thigh control preventing opponent escape, the opponent's foot is accessible and not hidden behind your hip, and your outside leg is actively controlling their free leg. Releasing hand control prematurely without these checks allows the opponent to escape the entanglement entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Entanglement secure before gripping",
+        "distractors": {
+          "plausible": [
+            "Grip foot before securing legs",
+            "Only need thigh control"
+          ],
+          "trap": [
+            "Release hand control early"
+          ]
+        }
       },
       {
         "question": "At what point during the toe hold application does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs when the figure-four grip is fully locked with elbows compressed to the ribs and the initial rotation has engaged the ankle ligaments past their slack range. Once the torso rotation has begun loading the lateral ligaments and the hip extension component engages simultaneously, the opponent cannot simply straighten their foot or strip the grip fast enough to prevent the finish. This is typically reached about 3-4 seconds into the controlled application.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, rotation engaged",
+        "distractors": {
+          "plausible": [
+            "As soon as grip touches foot",
+            "Only when opponent taps"
+          ],
+          "trap": [
+            "Never past escape until submission"
+          ]
+        }
       },
       {
         "question": "How should you properly release the toe hold after your training partner taps?",
         "answer": "Immediately stop all rotational pressure first, then release the figure-four wrist grip, followed by releasing the toe cup. Allow the opponent's foot to return to its natural position gradually rather than dropping it abruptly, as a sudden release can cause secondary injury to already-stressed ligaments. Maintain light contact with the ankle until your partner signals they are okay, then check in verbally before continuing the round.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, then release grip slowly",
+        "distractors": {
+          "plausible": [
+            "Release grip, then stop force",
+            "Drop foot immediately"
+          ],
+          "trap": [
+            "Keep rotating until fully released"
+          ]
+        }
       },
       {
         "question": "In competition, how do you adjust your toe hold strategy when your opponent is actively working to counter-entangle your legs?",
         "answer": "When facing counter-entanglement attempts, you must accelerate your grip establishment timeline while maintaining enough leg control to prevent the reversal. Prioritize locking the figure-four grip quickly and beginning rotation before they can establish their own attacking position. If they succeed in reaching your leg before you finish, consider abandoning the toe hold to defend the counter-attack rather than fighting both the finish and the defense simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Speed up grip, keep leg control",
+        "distractors": {
+          "plausible": [
+            "Slow down to stay safe",
+            "Abandon toe hold immediately"
+          ],
+          "trap": [
+            "Ignore counter, muscle finish"
+          ]
+        }
       }
     ],
     "clips": [
@@ -427,27 +507,77 @@
       {
         "question": "How do you recognize that a toe hold from ushiro ashi-garami is being set up before the grip is established?",
         "answer": "The primary recognition cues are the attacker releasing one or both hands from leg or hip control to reach toward your foot, feeling an arm threading underneath your Achilles tendon, and noticing the attacker's torso angling toward your outside hip. The earliest cue is the attacker squeezing their leg entanglement tighter while their hands move toward your foot, indicating they are securing leg control before transitioning to the toe hold grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hands leave hips, reach toward foot",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in pressure",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "No warning signs exist"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the toe hold from ushiro ashi-garami to prevent injury?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Verbally say 'tap' loudly while also physically tapping the attacker's body or the mat with your hand. Tap as soon as you feel the ankle ligaments engaging under rotational pressure rather than waiting for sharp pain, because the ushiro angle can escalate from mild discomfort to ligament damage faster than most practitioners expect. If your hands are trapped, use verbal tap and foot tap with your free leg.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, verbal and physical",
+        "distractors": {
+          "plausible": [
+            "Wait for sharp pain to tap",
+            "Tap only when hands free"
+          ],
+          "trap": [
+            "Try to power out instead"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the toe hold from ushiro ashi-garami at each stage of the attack?",
         "answer": "Before grip establishment: control the attacker's wrists to prevent the figure-four and work systematic leg extraction. During grip establishment: forceful dorsiflexion combined with pulling your foot toward your body to deny rotation angle. After grip is locked: counter-entangle the attacker's free leg to create a positional reversal, or roll toward the rotation direction to relieve pressure while stripping the grip. If rotation has fully engaged the ligaments: tap immediately to prevent injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control wrists, deny grip early",
+        "distractors": {
+          "plausible": [
+            "Wait until locked, then escape",
+            "Pull foot away only"
+          ],
+          "trap": [
+            "Fight rotation once locked"
+          ]
+        }
       },
       {
         "question": "Why is the toe hold from ushiro ashi-garami harder to defend than a standard toe hold?",
         "answer": "The reversed ushiro hip orientation restricts your ability to rotate your hips to relieve rotational pressure, which is the primary defensive mechanism against standard toe holds. The inverted entanglement geometry also limits your leg clearing options and makes the ankle ligaments load from an angle that most practitioners are less experienced defending. Additionally, the attacker's leg entanglement from ushiro restricts the range of defensive hip movement available to you.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Can't rotate hips to relieve",
+        "distractors": {
+          "plausible": [
+            "Ankle is more flexible here",
+            "Grip is weaker in ushiro"
+          ],
+          "trap": [
+            "Easier because of new angle"
+          ]
+        }
       },
       {
         "question": "When should you prioritize tapping rather than continuing to fight the toe hold defense?",
         "answer": "Tap immediately whenever you feel rotational pressure engaging the lateral ankle ligaments beyond mild discomfort, when the figure-four is fully locked with elbows compressed and you cannot strip the grip within 2-3 seconds, when you hear or feel any popping sensation in the ankle or foot regardless of pain level, or when your defensive options are exhausted and continued resistance would only delay the inevitable while increasing injury risk. In training, always err on the side of tapping early.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Any popping, or grip locked 2-3s",
+        "distractors": {
+          "plausible": [
+            "Only after sharp pain hits",
+            "When you can't breathe"
+          ],
+          "trap": [
+            "Keep fighting until forced out"
+          ]
+        }
       }
     ],
     "training_progressions": [

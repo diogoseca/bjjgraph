@@ -278,52 +278,152 @@
       {
         "question": "What anatomical structure does the omoplata from inverted guard primarily attack?",
         "answer": "The omoplata attacks the shoulder joint complex, specifically targeting the rotator cuff muscles and tendons through forced internal rotation and extension beyond the joint's natural range. The primary stress falls on the supraspinatus, infraspinatus, and subscapularis tendons, with secondary pressure on the AC joint and shoulder capsule. The lever created by your legs against the opponent's upper arm forces the humeral head into a compromised position within the glenoid fossa.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension",
+            "Wrist joint compression"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up as you thread your leg over their shoulder - what adjustment prevents escape?",
         "answer": "Pull their wrist sharply to your chest while simultaneously accelerating your leg thread and hip rotation. The posturing motion actually assists your rotation if you use their upward momentum to swing to perpendicular faster. Clamp your legs tight the moment you feel them rising and use their posture break attempt as energy for your own transition. If they posture before your leg is threaded, abort and re-establish inverted guard rather than forcing a compromised entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull wrist in, speed up rotation",
+        "distractors": {
+          "plausible": [
+            "Stop and reset guard",
+            "Push their head down"
+          ],
+          "trap": [
+            "Release grip, let them stand"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the opponent during the omoplata from inverted guard?",
         "answer": "The point of no escape occurs when you have achieved perpendicular positioning with hip control established and your hips scooted tight against the opponent's shoulder. Once the hip control grip prevents their forward roll and your body weight is loaded onto the trapped arm with no space between your hips and their shoulder, the only remaining option is to tap. Before this point, they can still roll forward, posture, or strip grips to escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips flush against shoulder",
+        "distractors": {
+          "plausible": [
+            "Leg thread fully locked",
+            "Opponent's arm fully extended"
+          ],
+          "trap": [
+            "As soon as you start rotating"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the omoplata from inverted guard?",
         "answer": "Apply finishing pressure slowly over 4-6 seconds minimum with progressive loading. Never jerk or spike the shoulder rotation. Always maintain awareness of tap signals including verbal taps, physical taps on your body or the mat, and any distress sounds. If the opponent attempts to roll forward, release immediately as continuing pressure during a roll creates severe shoulder injury risk. In training, never apply competition-level speed or intensity on the finish.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply pressure slow, 4-6 sec",
+        "distractors": {
+          "plausible": [
+            "Watch only verbal taps",
+            "Full speed like competition"
+          ],
+          "trap": [
+            "Finish fast before they roll"
+          ]
+        }
       },
       {
         "question": "How should you release the omoplata from inverted guard after a tap?",
         "answer": "Immediately stop all forward pressure on the trapped arm and cease hip rotation. Release the leg clamp by separating your knees and lifting your top leg off the opponent's shoulder. Unwind your hip position back to neutral. Allow the opponent to extract their arm at their own pace without rushing or pulling it free, as the shoulder may be compromised. Check with your partner about any pain or injury before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop pressure, release slowly",
+        "distractors": {
+          "plausible": [
+            "Release leg clamp first",
+            "Unwind hips before legs"
+          ],
+          "trap": [
+            "Pull their arm free for them"
+          ]
+        }
       },
       {
         "question": "What grip adjustment should you make if the standard finish angle is not producing a tap?",
         "answer": "Walk your hips further toward the opponent's head to increase the rotational angle on the shoulder joint. Additionally, pinch your knees tighter together and use your top thigh to lift the opponent's trapped elbow upward, amplifying the lever effect. You can also shift your lean angle from directly forward to slightly diagonal toward the opponent's head, which changes the torque vector on the shoulder. Ensure hip control remains solid throughout any adjustment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips toward their head",
+        "distractors": {
+          "plausible": [
+            "Loosen knees for reach",
+            "Lean straight forward more"
+          ],
+          "trap": [
+            "Yank the trapped arm hard"
+          ]
+        }
       },
       {
         "question": "What makes the inverted guard entry for the omoplata different from a standard closed guard omoplata entry?",
         "answer": "The inverted entry uses the existing rotational momentum from the inverted position to swing into the perpendicular finishing angle, making the initial entry faster than the standard setup which requires generating rotation from a static closed guard. The leg thread comes from above the opponent's shoulder rather than from the side, creating an unexpected angle that bypasses standard omoplata defenses. However, the inverted entry carries higher risk because you must transition from an unstable inverted base to a stable seated finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Uses rotational momentum, faster",
+        "distractors": {
+          "plausible": [
+            "Same angle, slower control",
+            "Requires stable base first"
+          ],
+          "trap": [
+            "Ignore base, force straight in"
+          ]
+        }
       },
       {
         "question": "How do you chain the omoplata with other attacks from inverted guard when the opponent defends?",
         "answer": "If the opponent defends the omoplata by retracting their arm, the same leg positioning sets up a triangle by switching to control the opposite side of their neck. If they posture aggressively, redirect to a berimbolo entry using the momentum they create. If they drive forward, sweep them using the trapped arm as a lever. The omoplata, triangle, berimbolo, and sweep share initial movements from inverted guard, so each defense opens the next attack in the chain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defense opens triangle or sweep",
+        "distractors": {
+          "plausible": [
+            "Always finish arm regardless",
+            "Switch to armbar attack"
+          ],
+          "trap": [
+            "Let go and reset guard"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that reduces omoplata effectiveness from inverted guard?",
         "answer": "The most common finishing error is leaving space between your hips and the opponent's trapped shoulder. This gap allows the opponent to rotate their shoulder internally, reducing the torque applied by your body weight. It also gives them room to start posturing or shifting their weight to set up a roll escape. The correction is to scoot your hips flush against their shoulder before applying any forward pressure, eliminating all space in the finishing position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Space between hips and shoulder",
+        "distractors": {
+          "plausible": [
+            "Not pinching knees enough",
+            "Leaning too far backward"
+          ],
+          "trap": [
+            "Cranking arm without hip control"
+          ]
+        }
       },
       {
         "question": "During competition, how should you time the omoplata entry from inverted guard for maximum effectiveness?",
         "answer": "Time the entry when the opponent commits their weight forward to address your inverted guard, specifically when they reach to control your hips or attempt a passing grip. Their forward commitment creates the arm exposure needed for the leg thread and their momentum assists your rotation. Avoid attempting the entry when the opponent maintains distance or has their weight back, as they can simply disengage. The best window is during their transition from standing to engaged passing posture.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Entry as they commit weight forward",
+        "distractors": {
+          "plausible": [
+            "Entry when they keep distance",
+            "Entry right after standing up"
+          ],
+          "trap": [
+            "Force entry regardless of position"
+          ]
+        }
       }
     ],
     "clips": [
@@ -426,27 +526,77 @@
       {
         "question": "How do you recognize that an omoplata from inverted guard is being set up?",
         "answer": "The primary recognition cues are the opponent securing wrist or sleeve control on your arm while inverted, followed by their far leg beginning to elevate and swing toward your shoulder. You will feel a pulling force on your wrist directing your arm across their body, and increasing pressure on the back of your neck as their hamstring crosses over your shoulder. Early recognition at the wrist control stage gives you the best defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist control, leg swinging over",
+        "distractors": {
+          "plausible": [
+            "Sudden hip pressure only",
+            "Cross collar grip forming"
+          ],
+          "trap": [
+            "Ignore it, wait for submission"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the omoplata from inverted guard?",
         "answer": "Tap clearly and repeatedly using your free hand on the opponent's body, the mat, or your own body. Verbal taps are equally valid and should be used if your free hand is trapped. Tap early when you feel the shoulder reaching its rotational limit rather than waiting for pain, as the shoulder joint can sustain damage before significant pain registers. If you cannot tap with your hands, tap with your feet or verbalize loudly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, hand mat or verbal",
+        "distractors": {
+          "plausible": [
+            "Wait for pain before tapping",
+            "Tap only with free hand"
+          ],
+          "trap": [
+            "Try to power out instead"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the omoplata from inverted guard?",
         "answer": "Three primary defensive options exist depending on timing. Early stage: retract the threatened arm and posture up before the leg threads over your shoulder. Mid stage: stack and drive forward to flatten the inverted player during their rotation. Late stage: forward roll over the trapped shoulder before the attacker secures hip control. Each defense is only effective within its specific timing window, and attempting the wrong defense for the current stage dramatically reduces success.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract, stack, or roll by stage",
+        "distractors": {
+          "plausible": [
+            "Always try to roll out",
+            "Wait and hope they stop"
+          ],
+          "trap": [
+            "Force roll after hip control"
+          ]
+        }
       },
       {
         "question": "Why is the forward roll escape ineffective once hip control is established?",
         "answer": "The hip control grip on your far hip or belt acts as an anchor that prevents your body from completing the forward rotation. When the attacker controls your hip, your rolling momentum is absorbed by their grip and your body cannot complete the rotation needed to escape. Attempting to force the roll against hip control drives your trapped shoulder deeper into the submission angle, making the position worse instead of better.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip grip anchors, blocks rotation",
+        "distractors": {
+          "plausible": [
+            "Shoulder too tired to rotate",
+            "Legs too tangled to roll"
+          ],
+          "trap": [
+            "Force the roll harder anyway"
+          ]
+        }
       },
       {
         "question": "What body positioning prevents the initial omoplata setup from inverted guard?",
         "answer": "Keep elbows tight to your body and avoid reaching forward when engaging the inverted guard player. Maintain an upright posture with your base wide and weight distributed back rather than leaning forward. When gripping, use short controlled reaches and retract immediately after. If you must engage their legs to pass, use your elbows rather than extended hands, and keep your chin tucked to prevent your head from being used as a control point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbows tight, upright, base back",
+        "distractors": {
+          "plausible": [
+            "Reach deep to control legs",
+            "Lean forward to pass"
+          ],
+          "trap": [
+            "Extend arms to grip aggressively"
+          ]
+        }
       }
     ],
     "training_progressions": [

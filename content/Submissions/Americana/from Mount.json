@@ -427,13 +427,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Flare your elbows wide for extra leverage and drag their wrist further away from their body to shut down the rotation.",
-            "Release the figure-four and switch to a two-on-one grip on their wrist so you can out-muscle the rotation directly."
+            "Switch fully to kimura grip",
+            "Loosen grip to reposition"
           ],
           "trap": [
-            "Sit up tall off their chest so your body weight stacks directly over the wrist, giving you more pinning pressure."
+            "Release wrist and regrip"
           ]
-        }
+        },
+        "answer_line": "Tighten clamp, chest on shoulder"
       },
       {
         "question": "What are the indicators that your opponent is about to tap, and how should this affect your application of pressure?",
@@ -471,13 +472,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The point of no escape arrives the instant their wrist touches the mat, since the arm cannot be freed after that.",
-            "It is reached once your figure-four is fully locked, even if their shoulder blade is still lifting off the mat."
+            "Elbow bent past 90 degrees",
+            "Wrist starts to slip loose"
           ],
           "trap": [
-            "Once you feel the arm stick, release your chest weight and posture up so you can power the final rotation."
+            "They stop struggling briefly"
           ]
-        }
+        },
+        "answer_line": "Shoulder pinned, figure-four locked"
       },
       {
         "question": "In competition, how do you finish the americana quickly while maintaining safety principles, and what's different from training application?",
@@ -621,7 +623,17 @@
       {
         "question": "What is the earliest recognition cue that an americana is being set up from mount, and what should your immediate response be?",
         "answer": "The earliest cue is the opponent capturing your wrist with their same-side hand while shifting their weight forward onto your chest. Your immediate response should be to use your free hand to attack the grip at the thumb side while simultaneously pulling your captured wrist back toward your chest. You have approximately 1-2 seconds before the figure-four grip is established. If you cannot break the grip immediately, begin bridging toward the trapped arm side to disrupt their base and prevent them from completing the isolation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack grip, pull wrist to chest",
+        "distractors": {
+          "plausible": [
+            "Push opponent's chest away",
+            "Grab their wrist with both hands"
+          ],
+          "trap": [
+            "Push them off with both arms"
+          ]
+        }
       },
       {
         "question": "Why should you bridge toward the trapped arm side rather than away from it when defending the americana?",

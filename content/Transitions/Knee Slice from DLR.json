@@ -266,35 +266,115 @@
     "flashcards": [
       {
         "question": "What grip must you strip first before initiating the knee slice from DLR?",
-        "answer": "The ankle or pants grip is the priority strip because it powers the DLR hook's off-balancing leverage. Without this grip, the DLR hook loses its ability to generate sweep threats and the guard structure becomes significantly weaker, creating the necessary window for the knee slice initiation."
+        "answer": "The ankle or pants grip is the priority strip because it powers the DLR hook's off-balancing leverage. Without this grip, the DLR hook loses its ability to generate sweep threats and the guard structure becomes significantly weaker, creating the necessary window for the knee slice initiation.",
+        "answer_line": "Strip ankle/pants grip",
+        "distractors": {
+          "plausible": [
+            "Strip the collar grip",
+            "Strip the far sleeve grip"
+          ],
+          "trap": [
+            "Skip grip fight, dive knee"
+          ]
+        }
       },
       {
         "question": "Your opponent re-establishes their DLR hook every time you strip it - how do you adjust your passing approach?",
-        "answer": "Chain multiple passing threats rather than repeatedly attempting the same grip strip to knee slice sequence. Use the grip fight to set up a toreando or backstep pass, which forces them to choose between defending the alternative pass or maintaining the DLR hook. The passing chain creates dilemmas that a single repeated technique cannot."
+        "answer": "Chain multiple passing threats rather than repeatedly attempting the same grip strip to knee slice sequence. Use the grip fight to set up a toreando or backstep pass, which forces them to choose between defending the alternative pass or maintaining the DLR hook. The passing chain creates dilemmas that a single repeated technique cannot.",
+        "answer_line": "Chain to toreando or backstep",
+        "distractors": {
+          "plausible": [
+            "Keep repeating same strip",
+            "Speed up the same sequence"
+          ],
+          "trap": [
+            "Abandon pass, pull guard"
+          ]
+        }
       },
       {
         "question": "Where should your knee aim to cut across during the knee slice from DLR?",
-        "answer": "Your knee should cut across the thigh line at hip level, with your shin pressing diagonally across their hip crease. Cutting too high across the abdomen allows them to trap your leg in strong half guard frames, while cutting too low gives them space to re-insert hooks and recover their guard structure."
+        "answer": "Your knee should cut across the thigh line at hip level, with your shin pressing diagonally across their hip crease. Cutting too high across the abdomen allows them to trap your leg in strong half guard frames, while cutting too low gives them space to re-insert hooks and recover their guard structure.",
+        "answer_line": "Cut across thigh at hip level",
+        "distractors": {
+          "plausible": [
+            "Cut high across the abdomen",
+            "Cut low near the knee line"
+          ],
+          "trap": [
+            "Drive knee straight to mat"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for transitioning from DLR hook removal to the knee slice drive?",
-        "answer": "The optimal window is immediately after the hook is cleared, within one to two seconds maximum. Any delay allows the guard player to re-establish their hook or transition to a secondary guard. The transition from hook removal to knee slice should be a continuous motion rather than two separate actions with a pause between them."
+        "answer": "The optimal window is immediately after the hook is cleared, within one to two seconds maximum. Any delay allows the guard player to re-establish their hook or transition to a secondary guard. The transition from hook removal to knee slice should be a continuous motion rather than two separate actions with a pause between them.",
+        "answer_line": "Immediate, one continuous motion",
+        "distractors": {
+          "plausible": [
+            "Pause to reset base first",
+            "Wait for opponent to react"
+          ],
+          "trap": [
+            "Delay several seconds to grip"
+          ]
+        }
       },
       {
         "question": "As you begin the knee slice, your opponent starts inverting for a berimbolo - what is your immediate response?",
-        "answer": "Stop forward movement and drive your hips into their hips to prevent the inversion from developing. Use your crossface grip to pin their shoulders to the mat and kill the rotation. If they have already begun rotating underneath you, backstep away from the direction of their rotation and circle to the opposite side to nullify the berimbolo entry angle."
+        "answer": "Stop forward movement and drive your hips into their hips to prevent the inversion from developing. Use your crossface grip to pin their shoulders to the mat and kill the rotation. If they have already begun rotating underneath you, backstep away from the direction of their rotation and circle to the opposite side to nullify the berimbolo entry angle.",
+        "answer_line": "Stop, hip pressure, crossface",
+        "distractors": {
+          "plausible": [
+            "Chase the inversion around",
+            "Push forward to finish pass"
+          ],
+          "trap": [
+            "Release crossface, grab foot"
+          ]
+        }
       },
       {
         "question": "What role does the crossface play during the knee slice from DLR?",
-        "answer": "The crossface serves as the primary upper body control mechanism that prevents the guard player from turning into you, creating frames, or inverting for counter-attacks. By driving your shoulder into their chin or jaw line while pulling their collar toward you, you eliminate their ability to generate any offensive response during the pass completion phase."
+        "answer": "The crossface serves as the primary upper body control mechanism that prevents the guard player from turning into you, creating frames, or inverting for counter-attacks. By driving your shoulder into their chin or jaw line while pulling their collar toward you, you eliminate their ability to generate any offensive response during the pass completion phase.",
+        "answer_line": "Pins head, blocks turn-in",
+        "distractors": {
+          "plausible": [
+            "Controls the far hip only",
+            "Secures the far-side sleeve"
+          ],
+          "trap": [
+            "Release grip to free hands"
+          ]
+        }
       },
       {
         "question": "Your knee slice has stalled because the opponent caught half guard - what options do you have?",
-        "answer": "From half guard top, you can continue the knee slice with added crossface pressure and hip drive to complete through their half guard. Alternatively, switch to an underhook pass, backstep pass, or smash pass from the half guard top position. The half guard top still represents meaningful progress from the DLR starting position and offers multiple high-percentage passing pathways."
+        "answer": "From half guard top, you can continue the knee slice with added crossface pressure and hip drive to complete through their half guard. Alternatively, switch to an underhook pass, backstep pass, or smash pass from the half guard top position. The half guard top still represents meaningful progress from the DLR starting position and offers multiple high-percentage passing pathways.",
+        "answer_line": "Crossface drive or switch pass",
+        "distractors": {
+          "plausible": [
+            "Retreat back to DLR guard",
+            "Sit back and reset standing"
+          ],
+          "trap": [
+            "Abandon top position, disengage"
+          ]
+        }
       },
       {
         "question": "What are the essential entry conditions that must exist before you can attempt the knee slice from DLR?",
-        "answer": "You must have at least partially stripped or weakened the opponent's ankle grip, the DLR hook must be shallow or in the process of being cleared, you need a controlling upper body grip on their collar or lapel, and their far knee shield must not be fully established. Attempting the knee slice without these conditions drops success rates dramatically and exposes you to sweeps."
+        "answer": "You must have at least partially stripped or weakened the opponent's ankle grip, the DLR hook must be shallow or in the process of being cleared, you need a controlling upper body grip on their collar or lapel, and their far knee shield must not be fully established. Attempting the knee slice without these conditions drops success rates dramatically and exposes you to sweeps.",
+        "answer_line": "Weak grip, shallow hook, collar tie",
+        "distractors": {
+          "plausible": [
+            "Just clear the DLR hook",
+            "Grip stripped, no collar tie"
+          ],
+          "trap": [
+            "Attempt regardless of grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Knee Slice from DLR carries moderate risk for both practitioners. The passer should avoid forcing the knee through extreme resistance, as lateral torque on a trapped knee can strain the MCL or meniscus. The bottom player faces minimal injury risk but should tap or verbally indicate if their knee becomes caught at an awkward angle during pass completion. During training, both partners should prioritize controlled technique over explosive power, particularly when the bottom player's legs are entangled around the passer's knee during the cutting phase. Avoid cranking the knee slice through a fully locked half guard.",
@@ -408,23 +488,73 @@
     "flashcards": [
       {
         "question": "What is the earliest visual cue that indicates a knee slice attempt from your DLR guard?",
-        "answer": "The earliest indicator is the passer actively stripping your ankle or pants grip while beginning to push their hooked knee forward. This grip-stripping phase signals they are preparing to clear your DLR hook, which is the necessary precursor to any knee slice attempt. React to the grip strip rather than waiting for the knee movement."
+        "answer": "The earliest indicator is the passer actively stripping your ankle or pants grip while beginning to push their hooked knee forward. This grip-stripping phase signals they are preparing to clear your DLR hook, which is the necessary precursor to any knee slice attempt. React to the grip strip rather than waiting for the knee movement.",
+        "answer_line": "Passer stripping your ankle grip",
+        "distractors": {
+          "plausible": [
+            "Passer's knee already cutting",
+            "Passer establishing crossface"
+          ],
+          "trap": [
+            "Wait until knee fully passes"
+          ]
+        }
       },
       {
         "question": "Your DLR hook has been cleared and the passer is beginning to drive their knee across - what is your best remaining defensive option?",
-        "answer": "Insert a knee shield by bringing your top knee across their body to block the cutting knee from completing its path. If the knee shield cannot be established in time, hip escape away from the pass direction and work to catch half guard with your legs. Fighting to re-establish the DLR hook at this stage is too late and wastes critical defensive time that should be used for damage control."
+        "answer": "Insert a knee shield by bringing your top knee across their body to block the cutting knee from completing its path. If the knee shield cannot be established in time, hip escape away from the pass direction and work to catch half guard with your legs. Fighting to re-establish the DLR hook at this stage is too late and wastes critical defensive time that should be used for damage control.",
+        "answer_line": "Insert knee shield to block",
+        "distractors": {
+          "plausible": [
+            "Re-establish the DLR hook",
+            "Grab a fresh ankle grip"
+          ],
+          "trap": [
+            "Turtle away from pressure"
+          ]
+        }
       },
       {
         "question": "Which grip is most important to maintain when defending against the knee slice from DLR?",
-        "answer": "The ankle or pants grip on the passer's lead leg is the most critical grip to maintain because it powers the DLR hook's structural integrity and off-balancing leverage. Without this grip, the DLR hook becomes easy to clear and the entire guard framework collapses. Fight aggressively to maintain this grip and re-grip immediately if it is broken."
+        "answer": "The ankle or pants grip on the passer's lead leg is the most critical grip to maintain because it powers the DLR hook's structural integrity and off-balancing leverage. Without this grip, the DLR hook becomes easy to clear and the entire guard framework collapses. Fight aggressively to maintain this grip and re-grip immediately if it is broken.",
+        "answer_line": "Ankle/pants grip on lead leg",
+        "distractors": {
+          "plausible": [
+            "Collar grip on their lapel",
+            "Sleeve grip on far arm"
+          ],
+          "trap": [
+            "Release grips, frame with arms"
+          ]
+        }
       },
       {
         "question": "The passer has stripped your ankle grip but has not yet cleared your DLR hook - what should you do?",
-        "answer": "Immediately escalate your offensive pressure by attempting a sweep or inversion entry before the passer can complete the hook removal phase. The ankle grip loss means your guard structure is weakened but still partially functional. Use the remaining hook leverage to threaten a berimbolo, basic DLR sweep, or transition to X-Guard before the passer can establish the knee line."
+        "answer": "Immediately escalate your offensive pressure by attempting a sweep or inversion entry before the passer can complete the hook removal phase. The ankle grip loss means your guard structure is weakened but still partially functional. Use the remaining hook leverage to threaten a berimbolo, basic DLR sweep, or transition to X-Guard before the passer can establish the knee line.",
+        "answer_line": "Attack sweep before hook clears",
+        "distractors": {
+          "plausible": [
+            "Re-grip the ankle immediately",
+            "Wait and reset guard first"
+          ],
+          "trap": [
+            "Retreat hips, give up hook"
+          ]
+        }
       },
       {
         "question": "How does your defensive strategy change if the passer uses a backstep approach to clear your DLR hook instead of a direct strip?",
-        "answer": "Against a backstep, the passer creates space behind your hooking leg rather than pushing through it directly. Follow their movement with your hips by turning toward the backstep direction and immediately work to insert your legs into a butterfly guard or reverse De La Riva configuration. The backstep creates a momentary disconnect you can exploit by establishing a different guard framework rather than chasing the original DLR hook."
+        "answer": "Against a backstep, the passer creates space behind your hooking leg rather than pushing through it directly. Follow their movement with your hips by turning toward the backstep direction and immediately work to insert your legs into a butterfly guard or reverse De La Riva configuration. The backstep creates a momentary disconnect you can exploit by establishing a different guard framework rather than chasing the original DLR hook.",
+        "answer_line": "Follow hips, switch to butterfly",
+        "distractors": {
+          "plausible": [
+            "Chase original DLR hook",
+            "Push straight into their hip"
+          ],
+          "trap": [
+            "Turn away from the backstep"
+          ]
+        }
       }
     ],
     "training_progressions": [

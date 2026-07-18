@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "What is the primary direction of force when executing the butterfly smash?",
-        "answer": "The force should be directed diagonally through one hook rather than straight forward. Diagonal pressure targets a single hook while maintaining base on the opposite side, preventing the opponent from redirecting your weight into sweep momentum. Straight forward pressure loads both hooks equally, making elevation and sweeping significantly easier for the guard player because both hooks share the load and can amplify it."
+        "answer": "The force should be directed diagonally through one hook rather than straight forward. Diagonal pressure targets a single hook while maintaining base on the opposite side, preventing the opponent from redirecting your weight into sweep momentum. Straight forward pressure loads both hooks equally, making elevation and sweeping significantly easier for the guard player because both hooks share the load and can amplify it.",
+        "answer_line": "Diagonal through one hook",
+        "distractors": {
+          "plausible": [
+            "Straight forward through both",
+            "Downward through their hips"
+          ],
+          "trap": [
+            "Equal pressure on both hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent starts pumping their hooks explosively as you begin the smash - how do you adjust?",
-        "answer": "Immediately pause the forward drive and sprawl your hips back while maintaining upper body control through crossface or collar grip. The explosive pumping is designed to catch you mid-weight-transfer when your base is compromised. Wait for the pumping rhythm to subside, re-establish your base with wide knees, then re-initiate the smash with more gradual weight transfer. If they remain highly active, consider standing up briefly to disengage from the hooks entirely before re-engaging."
+        "answer": "Immediately pause the forward drive and sprawl your hips back while maintaining upper body control through crossface or collar grip. The explosive pumping is designed to catch you mid-weight-transfer when your base is compromised. Wait for the pumping rhythm to subside, re-establish your base with wide knees, then re-initiate the smash with more gradual weight transfer. If they remain highly active, consider standing up briefly to disengage from the hooks entirely before re-engaging.",
+        "answer_line": "Sprawl back, keep control",
+        "distractors": {
+          "plausible": [
+            "Push through harder and faster",
+            "Match their pace, keep driving"
+          ],
+          "trap": [
+            "Release grips and back off"
+          ]
+        }
       },
       {
         "question": "What upper body control must you establish before attempting the butterfly smash?",
-        "answer": "You must establish crossface control with your forearm across their jaw turning their head away from the smash direction, or collar grip control combined with sleeve or wrist control on their far arm. This prevents them from framing against your chest, creating sweep angles, or executing arm drags during the weight transfer phase. Without upper body control, the smash becomes a pure strength contest where the bottom player's hooks and leverage provide significant mechanical advantage."
+        "answer": "You must establish crossface control with your forearm across their jaw turning their head away from the smash direction, or collar grip control combined with sleeve or wrist control on their far arm. This prevents them from framing against your chest, creating sweep angles, or executing arm drags during the weight transfer phase. Without upper body control, the smash becomes a pure strength contest where the bottom player's hooks and leverage provide significant mechanical advantage.",
+        "answer_line": "Crossface, turn head away",
+        "distractors": {
+          "plausible": [
+            "Underhook on the far side",
+            "Collar tie only, no sleeve"
+          ],
+          "trap": [
+            "No upper grips, hips only"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from transitioning to deep half guard during your smash attempt?",
-        "answer": "Keep your weight forward through your chest and shoulders rather than sitting back on your knees. If you feel them beginning to get their shoulder underneath your hips, immediately post your hands on the mat and sprawl your hips away while maintaining head pressure. The deep half entry requires them to get underneath your center of gravity, so keeping your hips heavy and forward eliminates the entry angle. Controlling their far hip with your free hand prevents the hip escape motion they need."
+        "answer": "Keep your weight forward through your chest and shoulders rather than sitting back on your knees. If you feel them beginning to get their shoulder underneath your hips, immediately post your hands on the mat and sprawl your hips away while maintaining head pressure. The deep half entry requires them to get underneath your center of gravity, so keeping your hips heavy and forward eliminates the entry angle. Controlling their far hip with your free hand prevents the hip escape motion they need.",
+        "answer_line": "Chest weight forward, sprawl",
+        "distractors": {
+          "plausible": [
+            "Sit back on your knees",
+            "Control near hip, not far hip"
+          ],
+          "trap": [
+            "Sit back on heels and relax"
+          ]
+        }
       },
       {
         "question": "What is the correct response if your smash fails and the opponent recovers their hooks?",
-        "answer": "Reset to your starting position with wide base and re-establish upper body control before attempting another smash. Do not immediately retry without first breaking their newly-recovered grips and regaining crossface or collar control. Consider changing the angle or side of your next smash attempt, as the opponent will anticipate a repeat of the same direction. Alternatively, use the failed smash as a setup for a different passing approach such as standing up or attempting a knee slice on the opposite side."
+        "answer": "Reset to your starting position with wide base and re-establish upper body control before attempting another smash. Do not immediately retry without first breaking their newly-recovered grips and regaining crossface or collar control. Consider changing the angle or side of your next smash attempt, as the opponent will anticipate a repeat of the same direction. Alternatively, use the failed smash as a setup for a different passing approach such as standing up or attempting a knee slice on the opposite side.",
+        "answer_line": "Reset base, regain grips first",
+        "distractors": {
+          "plausible": [
+            "Immediately retry same smash",
+            "Switch straight to a sweep"
+          ],
+          "trap": [
+            "Retry harder, same direction"
+          ]
+        }
       },
       {
         "question": "Why is it critical to pin the collapsed hook with your shin rather than relying on body weight alone?",
-        "answer": "Body weight alone allows the opponent to hip escape or shrimp away, creating enough space to re-insert the hook underneath you. Your shin creates a physical barrier that blocks hook re-insertion regardless of their hip movement direction. The shin pin also frees your upper body to work on controlling their remaining free leg and establishing half guard grips, whereas relying on body weight requires maintaining heavy static pressure that limits your ability to progress toward passing."
+        "answer": "Body weight alone allows the opponent to hip escape or shrimp away, creating enough space to re-insert the hook underneath you. Your shin creates a physical barrier that blocks hook re-insertion regardless of their hip movement direction. The shin pin also frees your upper body to work on controlling their remaining free leg and establishing half guard grips, whereas relying on body weight requires maintaining heavy static pressure that limits your ability to progress toward passing.",
+        "answer_line": "Shin blocks hook re-insertion",
+        "distractors": {
+          "plausible": [
+            "Body weight alone is enough",
+            "Grip their ankle to control leg"
+          ],
+          "trap": [
+            "Rely on weight, hands free"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong collar and sleeve grips as you attempt the smash - what is your grip-fighting priority?",
-        "answer": "Address the collar grip first because it provides the opponent with directional control needed to redirect your smash weight into sweep momentum. Strip the collar grip by swimming your head through or using a two-on-one grip break. The sleeve grip is secondary because without collar control, they cannot effectively direct the sweep force. Once the collar grip is broken, establish your own crossface or collar control before reinitating the smash sequence."
+        "answer": "Address the collar grip first because it provides the opponent with directional control needed to redirect your smash weight into sweep momentum. Strip the collar grip by swimming your head through or using a two-on-one grip break. The sleeve grip is secondary because without collar control, they cannot effectively direct the sweep force. Once the collar grip is broken, establish your own crossface or collar control before reinitating the smash sequence.",
+        "answer_line": "Strip the collar grip first",
+        "distractors": {
+          "plausible": [
+            "Strip the sleeve grip first",
+            "Break both grips at once"
+          ],
+          "trap": [
+            "Ignore grips, drive through"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during repeated smash attempts against an active butterfly guard player?",
-        "answer": "Avoid treating each smash as an all-or-nothing effort that requires maximum exertion. Instead, apply steady moderate pressure that tests the opponent's hook retention without committing your full weight. Between attempts, focus on grip fighting and positional adjustment rather than constant forward pressure. Recognize that the smash often succeeds on the second or third attempt after the opponent's hooks fatigue from repeated defense. Vary your timing and direction between attempts to prevent the opponent from establishing a comfortable defensive rhythm."
+        "answer": "Avoid treating each smash as an all-or-nothing effort that requires maximum exertion. Instead, apply steady moderate pressure that tests the opponent's hook retention without committing your full weight. Between attempts, focus on grip fighting and positional adjustment rather than constant forward pressure. Recognize that the smash often succeeds on the second or third attempt after the opponent's hooks fatigue from repeated defense. Vary your timing and direction between attempts to prevent the opponent from establishing a comfortable defensive rhythm.",
+        "answer_line": "Steady pressure, vary timing",
+        "distractors": {
+          "plausible": [
+            "All-out effort each attempt",
+            "Constant grip fighting only"
+          ],
+          "trap": [
+            "Same direction every time"
+          ]
+        }
       }
     ],
     "safety_considerations": "When executing the butterfly smash, apply pressure gradually and avoid sudden explosive weight drops that could cause knee or hip injury to the bottom player. Be aware that your knee driving through their hook can compress the ankle joint—if you feel resistance indicating their foot is trapped at an awkward angle, adjust your knee position before driving further. During training, communicate with partners about pressure levels and ensure neither practitioner's knees are being stressed by the weight transfer mechanics. Avoid driving the knee directly into the opponent's inner thigh or groin area.",
@@ -399,23 +479,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a butterfly smash is being initiated?",
-        "answer": "The earliest cue is the top player shifting their weight distribution to one side while tightening their crossface or head pressure on that same side. This weight shift precedes the actual knee drive by a critical moment and indicates they are loading the side they intend to smash through. Secondary cues include grip stripping on that side and their knee beginning to advance forward. Recognizing the initial weight shift provides the maximum response window for preventive defense."
+        "answer": "The earliest cue is the top player shifting their weight distribution to one side while tightening their crossface or head pressure on that same side. This weight shift precedes the actual knee drive by a critical moment and indicates they are loading the side they intend to smash through. Secondary cues include grip stripping on that side and their knee beginning to advance forward. Recognizing the initial weight shift provides the maximum response window for preventive defense.",
+        "answer_line": "Weight shifts to one side",
+        "distractors": {
+          "plausible": [
+            "Knee begins driving forward",
+            "Grip stripping begins first"
+          ],
+          "trap": [
+            "Wait for full weight commit"
+          ]
+        }
       },
       {
         "question": "Your opponent's smash is halfway complete with one hook partially collapsed - what is your best recovery option?",
-        "answer": "If their weight is committed forward and you can get your shoulder underneath their hip, transition to deep half guard where you have strong sweeping mechanics and a positional advantage. If you cannot get underneath in time, immediately insert your top knee as a shield between your hip and their driving knee to establish knee shield half guard. The worst option is trying to forcibly re-insert the collapsed hook against committed smash pressure—this rarely succeeds and wastes energy better spent on positional transitions."
+        "answer": "If their weight is committed forward and you can get your shoulder underneath their hip, transition to deep half guard where you have strong sweeping mechanics and a positional advantage. If you cannot get underneath in time, immediately insert your top knee as a shield between your hip and their driving knee to establish knee shield half guard. The worst option is trying to forcibly re-insert the collapsed hook against committed smash pressure—this rarely succeeds and wastes energy better spent on positional transitions.",
+        "answer_line": "Deep half or knee shield",
+        "distractors": {
+          "plausible": [
+            "Stand up to disengage fully",
+            "Push away and reset guard"
+          ],
+          "trap": [
+            "Force the hook back in"
+          ]
+        }
       },
       {
         "question": "How do you use the opponent's smash commitment to create a sweep opportunity?",
-        "answer": "When the opponent commits weight to one side for the smash, their base on the opposite side becomes compromised and unable to resist lateral force. Pump your hook on the opposite side while pulling with your upper body grips to direct their weight off-balance in the direction of their weakened base. The sweep works because their weight transfer has already eliminated their ability to post and recover on that side. Timing is critical—initiate the sweep as they commit weight, not after the smash is complete."
+        "answer": "When the opponent commits weight to one side for the smash, their base on the opposite side becomes compromised and unable to resist lateral force. Pump your hook on the opposite side while pulling with your upper body grips to direct their weight off-balance in the direction of their weakened base. The sweep works because their weight transfer has already eliminated their ability to post and recover on that side. Timing is critical—initiate the sweep as they commit weight, not after the smash is complete.",
+        "answer_line": "Pump hook on opposite side",
+        "distractors": {
+          "plausible": [
+            "Wait until smash completes",
+            "Pull straight back with arms"
+          ],
+          "trap": [
+            "Push into the smash direction"
+          ]
+        }
       },
       {
         "question": "What defensive grips should you prioritize when you recognize a smash attempt beginning?",
-        "answer": "Prioritize collar or lapel grip on the smash side to control their posture and resist the forward drive, combined with sleeve or wrist control on their crossface arm to prevent them establishing the upper body control that enables the smash. In no-gi, a collar tie on the smash side combined with wrist control on the crossface arm serves the same function. These grips must be established early because once the smash is in motion, grip fighting becomes far more difficult due to the pressure compressing your chest."
+        "answer": "Prioritize collar or lapel grip on the smash side to control their posture and resist the forward drive, combined with sleeve or wrist control on their crossface arm to prevent them establishing the upper body control that enables the smash. In no-gi, a collar tie on the smash side combined with wrist control on the crossface arm serves the same function. These grips must be established early because once the smash is in motion, grip fighting becomes far more difficult due to the pressure compressing your chest.",
+        "answer_line": "Collar smash-side plus sleeve",
+        "distractors": {
+          "plausible": [
+            "Underhook far side only",
+            "Grip belt, control hips"
+          ],
+          "trap": [
+            "Wait, grip after it starts"
+          ]
+        }
       },
       {
         "question": "When should you abandon hook recovery and commit to a secondary defensive position?",
-        "answer": "Abandon hook recovery once the opponent's shin has pinned your foot to the mat and their weight is fully committed through that side. At this point, trying to pull your hook free requires fighting against their entire body weight and structural pin—an extremely energy-inefficient proposition. Instead, immediately assess whether deep half entry or knee shield insertion is available. Deep half is preferred when the opponent's weight is forward, while knee shield is preferred when you still have space between your hip and their advancing knee. The key is making this decision quickly rather than spending energy on a recovery that has less than a ten percent success rate."
+        "answer": "Abandon hook recovery once the opponent's shin has pinned your foot to the mat and their weight is fully committed through that side. At this point, trying to pull your hook free requires fighting against their entire body weight and structural pin—an extremely energy-inefficient proposition. Instead, immediately assess whether deep half entry or knee shield insertion is available. Deep half is preferred when the opponent's weight is forward, while knee shield is preferred when you still have space between your hip and their advancing knee. The key is making this decision quickly rather than spending energy on a recovery that has less than a ten percent success rate.",
+        "answer_line": "When shin pins foot to mat",
+        "distractors": {
+          "plausible": [
+            "Keep fighting to free the hook",
+            "Wait for full mount to act"
+          ],
+          "trap": [
+            "Force pull the hook free"
+          ]
+        }
       }
     ],
     "training_progressions": [

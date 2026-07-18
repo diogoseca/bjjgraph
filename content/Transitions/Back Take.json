@@ -206,43 +206,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Back Take from Crackhead Control?",
-        "answer": "The primary goal is to transition from the turtle attack position (crackhead control) to back control, the highest-scoring and highest-submission-percentage position in BJJ. This converts your controlling position into the most dominant attacking platform available, providing immediate access to rear naked choke, armbar, and other high-percentage submissions."
+        "answer": "The primary goal is to transition from the turtle attack position (crackhead control) to back control, the highest-scoring and highest-submission-percentage position in BJJ. This converts your controlling position into the most dominant attacking platform available, providing immediate access to rear naked choke, armbar, and other high-percentage submissions.",
+        "answer_line": "Convert control to back control",
+        "distractors": {
+          "plausible": [
+            "Just improve top pressure",
+            "Wear opponent down first"
+          ],
+          "trap": [
+            "Stall in crackhead control"
+          ]
+        }
       },
       {
         "question": "What grip configuration should be established before initiating the rotation?",
-        "answer": "Establish a seatbelt grip with your choking arm over opponent's shoulder and underhook arm under their armpit, hands clasped together using gable or S-grip. This upper body control must be secured before reducing hip pressure, as it prevents opponent from turning to face you during the rotation and provides the anchor for maintaining chest-to-back connection throughout."
+        "answer": "Establish a seatbelt grip with your choking arm over opponent's shoulder and underhook arm under their armpit, hands clasped together using gable or S-grip. This upper body control must be secured before reducing hip pressure, as it prevents opponent from turning to face you during the rotation and provides the anchor for maintaining chest-to-back connection throughout.",
+        "answer_line": "Seatbelt grip before rotating",
+        "distractors": {
+          "plausible": [
+            "Underhook only, no choke arm",
+            "Grip legs first, then upper body"
+          ],
+          "trap": [
+            "Release seatbelt to speed rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting through as you initiate the back take rotation - how do you adjust?",
-        "answer": "Use your inside hook as an anchor and follow their sit-through movement rather than fighting against it. Their rotation momentum actually facilitates your back take on the opposite side. Maintain seatbelt grip throughout and continue your rotation in the same direction they're moving, using their defensive energy to complete your advancement to back control."
+        "answer": "Use your inside hook as an anchor and follow their sit-through movement rather than fighting against it. Their rotation momentum actually facilitates your back take on the opposite side. Maintain seatbelt grip throughout and continue your rotation in the same direction they're moving, using their defensive energy to complete your advancement to back control.",
+        "answer_line": "Follow their momentum",
+        "distractors": {
+          "plausible": [
+            "Stop and reset grips",
+            "Fight back to original side"
+          ],
+          "trap": [
+            "Release hooks and re-shoot"
+          ]
+        }
       },
       {
         "question": "What is the optimal depth for hook insertion during the back take?",
-        "answer": "Hooks should be inserted deep with feet crossing inside opponent's thighs toward their groin area, not near their hips. Toes point outward to maximize retention. This deep positioning prevents opponent from clearing hooks through knee movement or hand fighting, as the foot is positioned past the hip joint pivot point."
+        "answer": "Hooks should be inserted deep with feet crossing inside opponent's thighs toward their groin area, not near their hips. Toes point outward to maximize retention. This deep positioning prevents opponent from clearing hooks through knee movement or hand fighting, as the foot is positioned past the hip joint pivot point.",
+        "answer_line": "Deep hooks near groin, toes out",
+        "distractors": {
+          "plausible": [
+            "Hooks at the hips",
+            "Toes pointed inward for grip"
+          ],
+          "trap": [
+            "Shallow hooks for quick escape"
+          ]
+        }
       },
       {
         "question": "Why is maintaining chest-to-back connection critical during the rotation phase?",
-        "answer": "Chest-to-back connection prevents opponent from turning to face you during the transition. If you create space by pulling away rather than rotating around them, opponent can turn into you, converting your back take attempt into a scramble or guard recovery. The connection uses your body weight to restrict their rotational mobility while you complete the movement."
+        "answer": "Chest-to-back connection prevents opponent from turning to face you during the transition. If you create space by pulling away rather than rotating around them, opponent can turn into you, converting your back take attempt into a scramble or guard recovery. The connection uses your body weight to restrict their rotational mobility while you complete the movement.",
+        "answer_line": "Blocks opponent turning in",
+        "distractors": {
+          "plausible": [
+            "Keeps hips heavy for control",
+            "Maximizes choke pressure early"
+          ],
+          "trap": [
+            "Pull away to create space"
+          ]
+        }
       },
       {
         "question": "How does the back take fit into the dilemma-based attack system from crackhead control?",
-        "answer": "The back take exploits opponent's divided defensive attention. When threatening truck entries, opponent must defend their legs, opening their back. When threatening crucifix or arm attacks, opponent must protect their arms, facilitating rotation to back control. The back take serves as the primary advancement that opponent's other defenses inadvertently enable."
+        "answer": "The back take exploits opponent's divided defensive attention. When threatening truck entries, opponent must defend their legs, opening their back. When threatening crucifix or arm attacks, opponent must protect their arms, facilitating rotation to back control. The back take serves as the primary advancement that opponent's other defenses inadvertently enable.",
+        "answer_line": "Exploits split defensive focus",
+        "distractors": {
+          "plausible": [
+            "Works only after truck fails",
+            "Independent of other attacks"
+          ],
+          "trap": [
+            "Abandon other threats to force it"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their arm strongly to prevent your rotation - what offensive opportunity does this create?",
-        "answer": "A posted arm creates crucifix entry opportunity. Their extended arm can be trapped and isolated by threading your underhook arm through while maintaining crackhead control. Alternatively, the posted arm exposes the neck for darce or anaconda setups if they're turning into your pressure. Convert their defensive structure into submission opportunity."
+        "answer": "A posted arm creates crucifix entry opportunity. Their extended arm can be trapped and isolated by threading your underhook arm through while maintaining crackhead control. Alternatively, the posted arm exposes the neck for darce or anaconda setups if they're turning into your pressure. Convert their defensive structure into submission opportunity.",
+        "answer_line": "Crucifix entry via posted arm",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to armbar",
+            "Abandon back take for pin"
+          ],
+          "trap": [
+            "Release seatbelt to grab the arm"
+          ]
+        }
       },
       {
         "question": "What distinguishes the rolling back take variant from the standard technique?",
-        "answer": "The rolling back take follows opponent's granby roll or forward roll escape attempt, using their momentum to complete the back take. Rather than fighting against their explosive movement, maintain harness grip and roll with them, emerging with back control on the opposite side. This converts their escape energy into your advancement, requiring less effort than forcing the standard rotation against a resisting opponent."
+        "answer": "The rolling back take follows opponent's granby roll or forward roll escape attempt, using their momentum to complete the back take. Rather than fighting against their explosive movement, maintain harness grip and roll with them, emerging with back control on the opposite side. This converts their escape energy into your advancement, requiring less effort than forcing the standard rotation against a resisting opponent.",
+        "answer_line": "Roll with their escape momentum",
+        "distractors": {
+          "plausible": [
+            "Stop the roll and reset position",
+            "Force standard rotation instead"
+          ],
+          "trap": [
+            "Fight the granby roll directly"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the rotation from crackhead control?",
-        "answer": "The best timing window opens when the opponent commits defensive resources to another threat. When they defend the truck entry by pulling their legs away, their upper body becomes exposed for seatbelt establishment. When they fight your arm control to prevent crucifix, their hip defense weakens. Initiate rotation during these moments of divided attention rather than against a fully prepared defense."
+        "answer": "The best timing window opens when the opponent commits defensive resources to another threat. When they defend the truck entry by pulling their legs away, their upper body becomes exposed for seatbelt establishment. When they fight your arm control to prevent crucifix, their hip defense weakens. Initiate rotation during these moments of divided attention rather than against a fully prepared defense.",
+        "answer_line": "Rotate when they defend elsewhere",
+        "distractors": {
+          "plausible": [
+            "Attack immediately every time",
+            "Wait for full stalemate"
+          ],
+          "trap": [
+            "Force rotation against full defense"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force during the rotation - and why does rotating toward the underhook side matter?",
-        "answer": "Rotate toward your underhook arm side because this is where your body has maximum structural support. The underhook prevents opponent from turning into you on that side, and your choking arm over the opposite shoulder creates a barrier against their rotation in the other direction. Rotating toward the overhook side exposes your back to their turn-in and provides less mechanical advantage for completing the movement."
+        "answer": "Rotate toward your underhook arm side because this is where your body has maximum structural support. The underhook prevents opponent from turning into you on that side, and your choking arm over the opposite shoulder creates a barrier against their rotation in the other direction. Rotating toward the overhook side exposes your back to their turn-in and provides less mechanical advantage for completing the movement.",
+        "answer_line": "Rotate toward the underhook side",
+        "distractors": {
+          "plausible": [
+            "Rotate toward the choke-arm side",
+            "Rotate away from body weight"
+          ],
+          "trap": [
+            "Rotate toward the open side"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Back Take from Crackhead Control is generally safe when practiced with proper technique and communication. Primary risks involve neck strain if the seatbelt grip is applied too aggressively during the rotation phase, particularly if opponent resists by tucking their chin forcefully. Practice the rotation mechanics slowly before adding speed, and ensure partners communicate any discomfort in the neck or shoulder area. Avoid cranking the seatbelt grip during drilling; save full-pressure applications for controlled sparring with experienced partners. When your partner taps, release immediately regardless of position in the transition sequence.",
@@ -359,23 +459,73 @@
     "flashcards": [
       {
         "question": "What is the single most important grip to deny when defending the back take from crackhead control?",
-        "answer": "The seatbelt grip (choking arm over shoulder, underhook under armpit, hands clasped) is the most critical grip to deny. Without the seatbelt, the attacker cannot maintain chest-to-back connection during rotation and cannot control your upper body throughout the back take sequence. Preventing the seatbelt forces the attacker to rely on inferior grip configurations that are easier to strip during the rotation, dramatically reducing their success rate."
+        "answer": "The seatbelt grip (choking arm over shoulder, underhook under armpit, hands clasped) is the most critical grip to deny. Without the seatbelt, the attacker cannot maintain chest-to-back connection during rotation and cannot control your upper body throughout the back take sequence. Preventing the seatbelt forces the attacker to rely on inferior grip configurations that are easier to strip during the rotation, dramatically reducing their success rate.",
+        "answer_line": "Deny the seatbelt grip",
+        "distractors": {
+          "plausible": [
+            "Deny the hook insertion",
+            "Deny the hip pressure"
+          ],
+          "trap": [
+            "Grab only their choking wrist"
+          ]
+        }
       },
       {
         "question": "You feel the attacker's hip pressure suddenly lighten on your lower back - what does this signal and how should you respond?",
-        "answer": "Lightening hip pressure signals the attacker is shifting weight forward to their chest in preparation for rotation. This is your highest-percentage defensive window because their base is temporarily compromised during the weight transfer. Respond with an explosive directional change - either sit through toward them, execute a standup if their grips are loose, or granby roll if their weight is committed forward. The key is recognizing this weight shift as the trigger for your defensive action rather than waiting for the rotation to begin."
+        "answer": "Lightening hip pressure signals the attacker is shifting weight forward to their chest in preparation for rotation. This is your highest-percentage defensive window because their base is temporarily compromised during the weight transfer. Respond with an explosive directional change - either sit through toward them, execute a standup if their grips are loose, or granby roll if their weight is committed forward. The key is recognizing this weight shift as the trigger for your defensive action rather than waiting for the rotation to begin.",
+        "answer_line": "Explode now, weight is shifting",
+        "distractors": {
+          "plausible": [
+            "Wait for hooks before reacting",
+            "Increase frame pressure slowly"
+          ],
+          "trap": [
+            "Relax since pressure is easing"
+          ]
+        }
       },
       {
         "question": "Why should you turn toward the attacker rather than away from them when defending the rotation?",
-        "answer": "Turning toward the attacker converts back exposure into a front-facing position where you have significantly better defensive options including guard recovery, framing, and scramble positioning. Turning away from the attacker gives them additional rotational space, accelerates their movement around your body, and makes hook insertion easier because you are moving in the same direction they want to go. Facing the threat is always preferable to exposing more back."
+        "answer": "Turning toward the attacker converts back exposure into a front-facing position where you have significantly better defensive options including guard recovery, framing, and scramble positioning. Turning away from the attacker gives them additional rotational space, accelerates their movement around your body, and makes hook insertion easier because you are moving in the same direction they want to go. Facing the threat is always preferable to exposing more back.",
+        "answer_line": "Turn toward attacker, not away",
+        "distractors": {
+          "plausible": [
+            "Turn away to create distance",
+            "Stay flat and block hooks"
+          ],
+          "trap": [
+            "Turn away to protect your neck"
+          ]
+        }
       },
       {
         "question": "The attacker has already inserted one hook during the rotation - what is your immediate defensive priority?",
-        "answer": "Your immediate priority is preventing the second hook rather than stripping the first. A single hook is manageable and leaves significant escape options, but two hooks establishes back control with dramatically reduced escape probability. Use your same-side hand to block the path of the second foot while simultaneously turning your hips toward the hook side. If you can prevent the second hook, you maintain viable escape routes through sit-through, granby roll, or hip escape to half guard."
+        "answer": "Your immediate priority is preventing the second hook rather than stripping the first. A single hook is manageable and leaves significant escape options, but two hooks establishes back control with dramatically reduced escape probability. Use your same-side hand to block the path of the second foot while simultaneously turning your hips toward the hook side. If you can prevent the second hook, you maintain viable escape routes through sit-through, granby roll, or hip escape to half guard.",
+        "answer_line": "Block the second hook",
+        "distractors": {
+          "plausible": [
+            "Strip the first hook now",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Ignore hooks, defend the choke"
+          ]
+        }
       },
       {
         "question": "How does energy management factor into defending the back take from crackhead control?",
-        "answer": "Energy management is critical because crackhead control bottom is already a high-energy-expenditure position. Defensive actions should be efficient and targeted rather than panicked and random. Use structural defense (tight elbows, rounded back, tucked chin) as your baseline energy-conservation posture, and save explosive movements for genuine defensive windows when the attacker commits weight for rotation. Continuous maximum-effort thrashing depletes your reserves without effectively preventing the back take, while calculated explosive responses at the right moments provide higher-percentage defense at lower energy cost."
+        "answer": "Energy management is critical because crackhead control bottom is already a high-energy-expenditure position. Defensive actions should be efficient and targeted rather than panicked and random. Use structural defense (tight elbows, rounded back, tucked chin) as your baseline energy-conservation posture, and save explosive movements for genuine defensive windows when the attacker commits weight for rotation. Continuous maximum-effort thrashing depletes your reserves without effectively preventing the back take, while calculated explosive responses at the right moments provide higher-percentage defense at lower energy cost.",
+        "answer_line": "Conserve energy, explode at windows",
+        "distractors": {
+          "plausible": [
+            "Maximize effort at all times",
+            "Stay passive and absorb pressure"
+          ],
+          "trap": [
+            "Thrash continuously to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

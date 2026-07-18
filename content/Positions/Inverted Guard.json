@@ -100,15 +100,45 @@
     "flashcards": [
       {
         "question": "What is the primary danger when engaging an opponent in inverted guard, and how should you position your base to mitigate it?",
-        "answer": "The primary danger is the berimbolo or rolling back take sequence where the inverted player uses your forward momentum to spin underneath and take your back. To mitigate this, maintain a wide base with weight distributed evenly, keep your hips back rather than driving forward, and control the opponent's far hip or pants to prevent them from initiating rotation. Never lean your weight forward without first controlling their hips."
+        "answer": "The primary danger is the berimbolo or rolling back take sequence where the inverted player uses your forward momentum to spin underneath and take your back. To mitigate this, maintain a wide base with weight distributed evenly, keep your hips back rather than driving forward, and control the opponent's far hip or pants to prevent them from initiating rotation. Never lean your weight forward without first controlling their hips.",
+        "answer_line": "Control far hip, keep base wide",
+        "distractors": {
+          "plausible": [
+            "Drive forward into their guard",
+            "Base narrow, chase submissions"
+          ],
+          "trap": [
+            "Lean weight forward without control"
+          ]
+        }
       },
       {
         "question": "When an opponent starts inverting, what is the optimal timing window to apply pressure and shut down their position?",
-        "answer": "The optimal timing window is during the initial inversion phase before they establish full shoulder contact and hip elevation. Once they achieve optimal inversion with elevated hips and rotational capability, passing becomes significantly harder. Attack immediately when you see them begin to turn their hips and shoulders toward the mat, before they can establish grips and foot placement on your body."
+        "answer": "The optimal timing window is during the initial inversion phase before they establish full shoulder contact and hip elevation. Once they achieve optimal inversion with elevated hips and rotational capability, passing becomes significantly harder. Attack immediately when you see them begin to turn their hips and shoulders toward the mat, before they can establish grips and foot placement on your body.",
+        "answer_line": "Attack during initial inversion",
+        "distractors": {
+          "plausible": [
+            "Wait for full hip elevation",
+            "Attack after grips are set"
+          ],
+          "trap": [
+            "Let them settle, then smash pass"
+          ]
+        }
       },
       {
         "question": "Your opponent has established inverted guard with good grips. What specific grips should you prioritize breaking first, and why?",
-        "answer": "Prioritize breaking the grip on your far hip or belt first, as this is the grip that enables berimbolo rotation and controls your center of gravity. Without this grip, the opponent cannot effectively pull themselves underneath you. Secondary priority is the sleeve grip that controls your posting hand, as this prevents you from establishing base when they attempt sweeps or back takes."
+        "answer": "Prioritize breaking the grip on your far hip or belt first, as this is the grip that enables berimbolo rotation and controls your center of gravity. Without this grip, the opponent cannot effectively pull themselves underneath you. Secondary priority is the sleeve grip that controls your posting hand, as this prevents you from establishing base when they attempt sweeps or back takes.",
+        "answer_line": "Break the far hip/belt grip first",
+        "distractors": {
+          "plausible": [
+            "Break the sleeve grip first",
+            "Break both grips simultaneously"
+          ],
+          "trap": [
+            "Ignore grips, drive forward"
+          ]
+        }
       },
       {
         "question": "How do you recognize the difference between a defensive inversion for guard retention versus an offensive inversion setting up a berimbolo?",
@@ -116,19 +146,59 @@
       },
       {
         "question": "When should you choose a stack pass versus a smash pass against inverted guard, and what body positioning cues indicate each?",
-        "answer": "Choose a stack pass when the opponent's hips are elevated with legs extended upward, creating vertical space to drive their knees toward their face. Choose a smash pass when the opponent's hips are more laterally oriented with legs to one side, allowing you to flatten them with shoulder pressure. If they maintain active hip rotation, stack pass is generally more effective; if their hips are relatively static, smash pass applies better."
+        "answer": "Choose a stack pass when the opponent's hips are elevated with legs extended upward, creating vertical space to drive their knees toward their face. Choose a smash pass when the opponent's hips are more laterally oriented with legs to one side, allowing you to flatten them with shoulder pressure. If they maintain active hip rotation, stack pass is generally more effective; if their hips are relatively static, smash pass applies better.",
+        "answer_line": "Stack if hips up, smash if lateral",
+        "distractors": {
+          "plausible": [
+            "Smash pass for elevated hips always",
+            "Stack pass regardless of hip angle"
+          ],
+          "trap": [
+            "Stand back and wait it out"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps using granby rolls to escape your passing pressure. What adjustment should you make to shut down this escape?",
-        "answer": "To shut down granby rolls, control the opponent's rotation by establishing a grip on their far shoulder or collar that prevents them from completing the roll. Additionally, follow their rotation with your pressure rather than maintaining a static angle - as they begin to roll, circle your pressure in the same direction while keeping your weight heavy on their hips. Headquarters position is particularly effective as it controls their bottom leg and limits rolling options."
+        "answer": "To shut down granby rolls, control the opponent's rotation by establishing a grip on their far shoulder or collar that prevents them from completing the roll. Additionally, follow their rotation with your pressure rather than maintaining a static angle - as they begin to roll, circle your pressure in the same direction while keeping your weight heavy on their hips. Headquarters position is particularly effective as it controls their bottom leg and limits rolling options.",
+        "answer_line": "Grip far shoulder, follow rotation",
+        "distractors": {
+          "plausible": [
+            "Maintain a static angle, wait",
+            "Chase the legs, ignore shoulders"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       },
       {
         "question": "What are the warning signs that you're about to be caught in a leg entanglement entry from inverted guard?",
-        "answer": "Warning signs include: the opponent's inside foot hooking behind your knee or on your hip line, their outside leg threading between your legs, aggressive gripping of your pants at the knee or ankle, and hip rotation bringing their legs across your center line. If you feel their foot approaching your hip crease while they control your sleeve or pants, immediately step back and break grips before they can establish X-guard or single leg X entries."
+        "answer": "Warning signs include: the opponent's inside foot hooking behind your knee or on your hip line, their outside leg threading between your legs, aggressive gripping of your pants at the knee or ankle, and hip rotation bringing their legs across your center line. If you feel their foot approaching your hip crease while they control your sleeve or pants, immediately step back and break grips before they can establish X-guard or single leg X entries.",
+        "answer_line": "Foot hooks knee/hip, pant grip tight",
+        "distractors": {
+          "plausible": [
+            "Opponent reaches for your collar",
+            "Opponent postures up to stand"
+          ],
+          "trap": [
+            "Push forward into their legs"
+          ]
+        }
       },
       {
         "question": "How should you adjust your passing strategy when facing an opponent who is extremely flexible and can maintain inverted guard for extended periods?",
-        "answer": "Against highly flexible opponents, avoid extended engagement that allows them to use their mobility advantage. Use rapid grip changes to prevent them from establishing optimal controls, and apply intermittent heavy pressure rather than sustained grinding. Consider using more dynamic passing like leg drags or toreando movements that test their ability to track you, rather than purely pressure-based approaches that play into their strength of maintaining unusual positions."
+        "answer": "Against highly flexible opponents, avoid extended engagement that allows them to use their mobility advantage. Use rapid grip changes to prevent them from establishing optimal controls, and apply intermittent heavy pressure rather than sustained grinding. Consider using more dynamic passing like leg drags or toreando movements that test their ability to track you, rather than purely pressure-based approaches that play into their strength of maintaining unusual positions.",
+        "answer_line": "Rapid grip changes, burst pressure",
+        "distractors": {
+          "plausible": [
+            "Sustained heavy grinding pressure",
+            "Match their pace, stay patient"
+          ],
+          "trap": [
+            "Commit both hands to one grip"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -488,35 +558,115 @@
     "flashcards": [
       {
         "question": "What is the most critical body positioning element for maintaining inverted guard safely and effectively?",
-        "answer": "The most critical element is keeping your weight distributed across your shoulder blades rather than your neck. Your head should be tucked with chin toward chest, and you should actively press your shoulders into the mat while elevating your hips. If you feel pressure on your cervical spine or neck, you've inverted incorrectly and need to immediately adjust by driving through your shoulders and lifting your hips higher to redistribute weight."
+        "answer": "The most critical element is keeping your weight distributed across your shoulder blades rather than your neck. Your head should be tucked with chin toward chest, and you should actively press your shoulders into the mat while elevating your hips. If you feel pressure on your cervical spine or neck, you've inverted incorrectly and need to immediately adjust by driving through your shoulders and lifting your hips higher to redistribute weight.",
+        "answer_line": "Weight on shoulders, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Weight on neck, head up",
+            "Weight even, hips kept low"
+          ],
+          "trap": [
+            "Arch the neck back for leverage"
+          ]
+        }
       },
       {
         "question": "Your opponent starts applying stack pressure to flatten you. What immediate adjustment should you make before they consolidate the position?",
-        "answer": "Immediately execute a granby roll to the side opposite their pressure, using the momentum from their drive to assist your rotation. As you feel them committing weight forward, turn your hips toward one side while pushing off with your posting hand and rolling over your shoulder. This converts their passing pressure into your escape momentum. If the granby isn't available, actively rotate your hips and angle your legs to prevent them from achieving a direct line of pressure through your center."
+        "answer": "Immediately execute a granby roll to the side opposite their pressure, using the momentum from their drive to assist your rotation. As you feel them committing weight forward, turn your hips toward one side while pushing off with your posting hand and rolling over your shoulder. This converts their passing pressure into your escape momentum. If the granby isn't available, actively rotate your hips and angle your legs to prevent them from achieving a direct line of pressure through your center.",
+        "answer_line": "Granby roll opposite the pressure",
+        "distractors": {
+          "plausible": [
+            "Push straight up against pressure",
+            "Wait for the pressure to ease"
+          ],
+          "trap": [
+            "Extend legs straight up"
+          ]
+        }
       },
       {
         "question": "What are the essential grips you need to establish from inverted guard to set up a berimbolo entry?",
-        "answer": "For berimbolo, you need a grip on the opponent's far hip or belt (critical for pulling yourself underneath and controlling their rotation), and a secondary grip on their sleeve or collar to prevent them from posting or basing away. The far hip grip is non-negotiable - without it, you cannot generate the pull necessary to rotate underneath them. The sleeve grip prevents them from posting their hand to stop your rotation."
+        "answer": "For berimbolo, you need a grip on the opponent's far hip or belt (critical for pulling yourself underneath and controlling their rotation), and a secondary grip on their sleeve or collar to prevent them from posting or basing away. The far hip grip is non-negotiable - without it, you cannot generate the pull necessary to rotate underneath them. The sleeve grip prevents them from posting their hand to stop your rotation.",
+        "answer_line": "Far hip grip plus sleeve control",
+        "distractors": {
+          "plausible": [
+            "Collar grip plus ankle control",
+            "Near hip grip plus pant grip"
+          ],
+          "trap": [
+            "Grip nothing, rely on speed"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to attack with a berimbolo versus transitioning to X-guard or single leg X from inverted guard?",
-        "answer": "The decision depends on opponent's weight distribution and posture. If opponent is leaning forward with weight over you and close distance, berimbolo is optimal because their forward momentum aids your rotation underneath. If opponent maintains an upright posture with weight back and creates distance, transition to X-guard or single leg X because you can use their leg as a platform for elevation and sweeps. Also consider your grip situation - strong far hip grip favors berimbolo while strong pants grip at the knee favors leg entanglement entries."
+        "answer": "The decision depends on opponent's weight distribution and posture. If opponent is leaning forward with weight over you and close distance, berimbolo is optimal because their forward momentum aids your rotation underneath. If opponent maintains an upright posture with weight back and creates distance, transition to X-guard or single leg X because you can use their leg as a platform for elevation and sweeps. Also consider your grip situation - strong far hip grip favors berimbolo while strong pants grip at the knee favors leg entanglement entries.",
+        "answer_line": "Forward lean: berimbolo; upright: X",
+        "distractors": {
+          "plausible": [
+            "Always berimbolo when close",
+            "Always X-guard when gripping hip"
+          ],
+          "trap": [
+            "Ignore posture, force the berimbolo"
+          ]
+        }
       },
       {
         "question": "Your opponent is effectively shutting down your inversions by controlling your hips with their hands. How do you create offensive opportunities?",
-        "answer": "When opponent commits both hands to controlling your hips, they sacrifice their base and grip fighting capability. Use this by attacking their grip hands with your feet - place your feet on their wrists or forearms to break the grip control. Alternatively, use the freedom in your upper body to establish collar or sleeve grips, then use those grips to off-balance them as you invert. You can also simply stand up using a technical standup when they're so focused on your hips that they can't address your upper body movement."
+        "answer": "When opponent commits both hands to controlling your hips, they sacrifice their base and grip fighting capability. Use this by attacking their grip hands with your feet - place your feet on their wrists or forearms to break the grip control. Alternatively, use the freedom in your upper body to establish collar or sleeve grips, then use those grips to off-balance them as you invert. You can also simply stand up using a technical standup when they're so focused on your hips that they can't address your upper body movement.",
+        "answer_line": "Attack their grip hands with feet",
+        "distractors": {
+          "plausible": [
+            "Push harder against their grip",
+            "Wait for them to release"
+          ],
+          "trap": [
+            "Abandon upper body, force a spin"
+          ]
+        }
       },
       {
         "question": "What indicators tell you that you're running out of time in inverted guard and need to transition immediately?",
-        "answer": "Key indicators include: your hip elevation declining (hips sinking toward mat), increasing pressure on your neck or shoulders, opponent consolidating grips on both your legs, your rotation becoming sluggish or blocked, and increasing energy expenditure to maintain basic positioning. When you notice these signs, immediately execute your highest percentage transition - whether berimbolo, guard recovery via granby roll, or technical standup. The position becomes dangerous when you've lost the ability to rotate freely."
+        "answer": "Key indicators include: your hip elevation declining (hips sinking toward mat), increasing pressure on your neck or shoulders, opponent consolidating grips on both your legs, your rotation becoming sluggish or blocked, and increasing energy expenditure to maintain basic positioning. When you notice these signs, immediately execute your highest percentage transition - whether berimbolo, guard recovery via granby roll, or technical standup. The position becomes dangerous when you've lost the ability to rotate freely.",
+        "answer_line": "Hips sinking, neck pressure rising",
+        "distractors": {
+          "plausible": [
+            "Opponent breathing heavily",
+            "Your grips start feeling tired"
+          ],
+          "trap": [
+            "Push through, hold the position"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy while playing inverted guard during a long competition match?",
-        "answer": "Inverted guard should be used as a transitional position, not a resting position. Enter inversion with a specific attack in mind and execute it within 3-5 seconds. If the attack fails, immediately transition to a more sustainable guard position like De La Riva or recover to seated guard rather than re-establishing inverted guard repeatedly. Use inversion sparingly as a tactical tool to create specific angles or defend specific passes, not as your primary guard system throughout the match."
+        "answer": "Inverted guard should be used as a transitional position, not a resting position. Enter inversion with a specific attack in mind and execute it within 3-5 seconds. If the attack fails, immediately transition to a more sustainable guard position like De La Riva or recover to seated guard rather than re-establishing inverted guard repeatedly. Use inversion sparingly as a tactical tool to create specific angles or defend specific passes, not as your primary guard system throughout the match.",
+        "answer_line": "Attack fast, exit in 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Hold inversion as a resting guard",
+            "Invert continuously all match"
+          ],
+          "trap": [
+            "Stay inverted until submission"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes your berimbolo attempt and begins counter-rotating in the same direction. What should you do?",
-        "answer": "When opponent counter-rotates with your berimbolo, use their rotation to transition to alternative attacks. You can: follow them into a truck position by controlling their bottom leg as they rotate, switch to a kiss of the dragon variation by releasing your hook and spinning directly to their back, or accept the scramble and immediately establish X-guard or single leg X as you both settle. The key is maintaining grip on their hip throughout so you can redirect to whichever position becomes available based on how they complete their counter-rotation."
+        "answer": "When opponent counter-rotates with your berimbolo, use their rotation to transition to alternative attacks. You can: follow them into a truck position by controlling their bottom leg as they rotate, switch to a kiss of the dragon variation by releasing your hook and spinning directly to their back, or accept the scramble and immediately establish X-guard or single leg X as you both settle. The key is maintaining grip on their hip throughout so you can redirect to whichever position becomes available based on how they complete their counter-rotation.",
+        "answer_line": "Follow into truck position",
+        "distractors": {
+          "plausible": [
+            "Release hip grip, reset",
+            "Force the original rotation harder"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -840,15 +990,45 @@
   "flashcards_position": [
     {
       "question": "What spatial configuration defines Inverted Guard and distinguishes it from other open guards?",
-      "answer": "Inverted Guard is defined by the bottom player rotating onto their shoulders and upper back with hips elevated and legs pointed up toward the top player, effectively turning upside-down beneath the passer. Unlike seated or supine open guards where the practitioner faces the opponent conventionally, here the body axis is rotated so the shoulders bear weight and the hips float overhead. This upside-down orientation is what generates the unconventional angles that make the position distinct, and it is typically entered dynamically as one player spins beneath the other rather than assumed statically."
+      "answer": "Inverted Guard is defined by the bottom player rotating onto their shoulders and upper back with hips elevated and legs pointed up toward the top player, effectively turning upside-down beneath the passer. Unlike seated or supine open guards where the practitioner faces the opponent conventionally, here the body axis is rotated so the shoulders bear weight and the hips float overhead. This upside-down orientation is what generates the unconventional angles that make the position distinct, and it is typically entered dynamically as one player spins beneath the other rather than assumed statically.",
+      "answer_line": "Upside-down, hips elevated overhead",
+      "distractors": {
+        "plausible": [
+          "Seated facing opponent squarely",
+          "Supine flat, legs wrapped tight"
+        ],
+        "trap": [
+          "Standing base with hips kept low"
+        ]
+      }
     },
     {
       "question": "Where must weight be borne in Inverted Guard, and why is this the position's central safety constraint?",
-      "answer": "Weight must rest across the shoulder blades and upper back, never on the neck or cervical spine. Because the bottom player is inverted with hips overhead, any load that drifts onto the neck compresses the cervical vertebrae and risks serious injury. The head is tucked with chin toward chest and the shoulders press actively into the mat to keep the loading line off the neck. This constraint is shared by both players' awareness: the passer's stack pressure exploits it, and the bottom player's structure defends against it."
+      "answer": "Weight must rest across the shoulder blades and upper back, never on the neck or cervical spine. Because the bottom player is inverted with hips overhead, any load that drifts onto the neck compresses the cervical vertebrae and risks serious injury. The head is tucked with chin toward chest and the shoulders press actively into the mat to keep the loading line off the neck. This constraint is shared by both players' awareness: the passer's stack pressure exploits it, and the bottom player's structure defends against it.",
+      "answer_line": "Shoulders bear weight, not neck",
+      "distractors": {
+        "plausible": [
+          "Weight on upper back and hips",
+          "Weight distributed evenly overall"
+        ],
+        "trap": [
+          "Weight on neck for stability"
+        ]
+      }
     },
     {
       "question": "What are the primary control and connection points between the two players in Inverted Guard?",
-      "answer": "The bottom player's legs extend up to the top player's hips or torso, connecting via hooks or foot placement to control distance and prevent a smash pass. Upper-body grips on the sleeves, collar, or pants regulate the top player's ability to establish dominant passing grips or flatten the guard. The top player counters by gripping the pants, legs, or belt to control distance and by seeking pressure angles that drive the elevated hips down. Control in this position is fundamentally a contest over distance and rotation rather than static pins."
+      "answer": "The bottom player's legs extend up to the top player's hips or torso, connecting via hooks or foot placement to control distance and prevent a smash pass. Upper-body grips on the sleeves, collar, or pants regulate the top player's ability to establish dominant passing grips or flatten the guard. The top player counters by gripping the pants, legs, or belt to control distance and by seeking pressure angles that drive the elevated hips down. Control in this position is fundamentally a contest over distance and rotation rather than static pins.",
+      "answer_line": "Legs to hips, grips on sleeves",
+      "distractors": {
+        "plausible": [
+          "Overhooks on both arms",
+          "Feet hooked on opponent's back"
+        ],
+        "trap": [
+          "Release all grips for mobility"
+        ]
+      }
     },
     {
       "question": "Why is Inverted Guard considered transitional rather than a position to hold, for both players?",
@@ -856,15 +1036,45 @@
     },
     {
       "question": "How does rotation function as the defining mechanic of Inverted Guard compared to frame-based guards?",
-      "answer": "Where most guards rely on frames and hooks to hold a passer at a fixed distance, Inverted Guard weaponizes rotation by spinning the body beneath the opponent to relocate the hips and create fresh angles. This turning motion converts the passer's forward pressure into the inverted player's momentum, letting them track a passing attempt dynamically rather than resisting it statically. The trade-off is a brief moment of vulnerability during the spin in exchange for direct access to the back and underneath angles. Rotational movement, not static holding, is what keeps the position alive for the bottom player and what the top player must arrest."
+      "answer": "Where most guards rely on frames and hooks to hold a passer at a fixed distance, Inverted Guard weaponizes rotation by spinning the body beneath the opponent to relocate the hips and create fresh angles. This turning motion converts the passer's forward pressure into the inverted player's momentum, letting them track a passing attempt dynamically rather than resisting it statically. The trade-off is a brief moment of vulnerability during the spin in exchange for direct access to the back and underneath angles. Rotational movement, not static holding, is what keeps the position alive for the bottom player and what the top player must arrest.",
+      "answer_line": "Spins to relocate hips, new angles",
+      "distractors": {
+        "plausible": [
+          "Uses static frames like De La Riva",
+          "Relies on hooks, not rotation"
+        ],
+        "trap": [
+          "Stay still, wait for the opponent"
+        ]
+      }
     },
     {
       "question": "What positions does Inverted Guard sit between, and what makes it a hub for those transitions?",
-      "answer": "It connects entry guards like De La Riva and Reverse De La Riva to more dominant destinations such as back control, X-guard, and single-leg-X leg entanglements. It is a hub because the upside-down angle simultaneously threatens the opponent's back (via spinning under to the rear) and their legs (via threading into entanglements), so a single inverted rotation can branch to multiple attacks. The passer, conversely, must defend several exits at once, which is why the position disrupts traditional passing sequences. Its value comes from these branching pathways rather than from any submission it holds directly."
+      "answer": "It connects entry guards like De La Riva and Reverse De La Riva to more dominant destinations such as back control, X-guard, and single-leg-X leg entanglements. It is a hub because the upside-down angle simultaneously threatens the opponent's back (via spinning under to the rear) and their legs (via threading into entanglements), so a single inverted rotation can branch to multiple attacks. The passer, conversely, must defend several exits at once, which is why the position disrupts traditional passing sequences. Its value comes from these branching pathways rather than from any submission it holds directly.",
+      "answer_line": "Links DLR to back and leg entries",
+      "distractors": {
+        "plausible": [
+          "Only leads to closed guard",
+          "Dead-end position, no branches"
+        ],
+        "trap": [
+          "Always leads straight to submission"
+        ]
+      }
     },
     {
       "question": "How does elevated hip position determine the balance of advantage in Inverted Guard for either player?",
-      "answer": "When the bottom player keeps hips high and mobile, they retain the rotational freedom to track the passer, create sweep angles, and thread transitions, keeping the exchange favorable to the guard. As soon as those hips sink toward the mat, rotation is lost, the shoulders flatten, and the top player gains a direct pressure line to stack or smash. Hip elevation is therefore the shared barometer of who is winning the exchange: it is the resource the bottom player must protect and the thing the top player is actively trying to collapse. Both players read hip height to decide whether to attack or defend."
+      "answer": "When the bottom player keeps hips high and mobile, they retain the rotational freedom to track the passer, create sweep angles, and thread transitions, keeping the exchange favorable to the guard. As soon as those hips sink toward the mat, rotation is lost, the shoulders flatten, and the top player gains a direct pressure line to stack or smash. Hip elevation is therefore the shared barometer of who is winning the exchange: it is the resource the bottom player must protect and the thing the top player is actively trying to collapse. Both players read hip height to decide whether to attack or defend.",
+      "answer_line": "High hips favor bottom player",
+      "distractors": {
+        "plausible": [
+          "Low hips favor bottom player",
+          "Hip height doesn't matter much"
+        ],
+        "trap": [
+          "Sink hips lower to add pressure"
+        ]
+      }
     }
   ],
   "clips": [

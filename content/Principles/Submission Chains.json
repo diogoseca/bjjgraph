@@ -363,43 +363,143 @@
   "flashcards": [
     {
       "question": "What is a submission chain?",
-      "answer": "A submission chain is a sequence of linked submission attempts in which each defensive response to one attack mechanically opens the setup for the next, maintaining continuous offensive pressure instead of hunting isolated finishes."
+      "answer": "A submission chain is a sequence of linked submission attempts in which each defensive response to one attack mechanically opens the setup for the next, maintaining continuous offensive pressure instead of hunting isolated finishes.",
+      "answer_line": "Defense opens next attack",
+      "distractors": {
+        "plausible": [
+          "Attacking multiple limbs at once",
+          "Switching submissions when tired"
+        ],
+        "trap": [
+          "Hunting one finish until it works"
+        ]
+      }
     },
     {
       "question": "Why should a failed submission attempt still be considered valuable in chain thinking?",
-      "answer": "Because a defended submission forces a predictable defensive reaction that opens a new attacking angle or improves your control position, so the 'failure' becomes the entry point to the next link rather than a wasted effort."
+      "answer": "Because a defended submission forces a predictable defensive reaction that opens a new attacking angle or improves your control position, so the 'failure' becomes the entry point to the next link rather than a wasted effort.",
+      "answer_line": "Reaction opens next attack",
+      "distractors": {
+        "plausible": [
+          "It tires the opponent out",
+          "It scores near-finish points"
+        ],
+        "trap": [
+          "Failed attempts should be avoided"
+        ]
+      }
     },
     {
       "question": "When an opponent escapes an armbar by extracting the arm, what attack does that commonly expose?",
-      "answer": "Pulling the arm free to escape an armbar typically exposes the neck and creates the angle for a triangle, since the freed arm and the remaining trapped arm leave the classic triangle configuration available."
+      "answer": "Pulling the arm free to escape an armbar typically exposes the neck and creates the angle for a triangle, since the freed arm and the remaining trapped arm leave the classic triangle configuration available.",
+      "answer_line": "Triangle choke opening",
+      "distractors": {
+        "plausible": [
+          "Guillotine choke opening",
+          "Kimura on the far arm"
+        ],
+        "trap": [
+          "They've fully escaped, reset"
+        ]
+      }
     },
     {
       "question": "What is the single most common error that destroys a submission chain?",
-      "answer": "Abandoning dominant position to chase an individual finish, which lets the opponent escape or reverse during the transition and negates every advantage the chain was built to create."
+      "answer": "Abandoning dominant position to chase an individual finish, which lets the opponent escape or reverse during the transition and negates every advantage the chain was built to create.",
+      "answer_line": "Abandoning position for the finish",
+      "distractors": {
+        "plausible": [
+          "Switching submissions too often",
+          "Finishing too slowly"
+        ],
+        "trap": [
+          "Staying passive, avoiding attacks"
+        ]
+      }
     },
     {
       "question": "Why is timing the transition more important than the strength of any individual submission in the chain?",
-      "answer": "Because the transition window opens only at the peak of the opponent's defensive commitment, when they can least counter; a mistimed transition lets them recover or counter no matter how strong the individual attack is."
+      "answer": "Because the transition window opens only at the peak of the opponent's defensive commitment, when they can least counter; a mistimed transition lets them recover or counter no matter how strong the individual attack is.",
+      "answer_line": "Catch peak defensive commitment",
+      "distractors": {
+        "plausible": [
+          "Stronger grips finish faster",
+          "Speed beats technique always"
+        ],
+        "trap": [
+          "Wait until opponent fully recovers"
+        ]
+      }
     },
     {
       "question": "How does a skilled grappler avoid telegraphing the next submission in a chain?",
-      "answer": "By maintaining consistent pressure and body positioning so each attempt looks fully committed, and reconfiguring grips smoothly so the opponent reacts to the current threat rather than pre-defending the next link."
+      "answer": "By maintaining consistent pressure and body positioning so each attempt looks fully committed, and reconfiguring grips smoothly so the opponent reacts to the current threat rather than pre-defending the next link.",
+      "answer_line": "Keep pressure, hide grip changes",
+      "distractors": {
+        "plausible": [
+          "Attack faster than they react",
+          "Vary attacks unpredictably"
+        ],
+        "trap": [
+          "Release pressure between attacks"
+        ]
+      }
     },
     {
       "question": "Which positions serve as the strongest platforms for submission chains, and why?",
-      "answer": "High-control positions like mount, back control, S-mount, and crucifix, because their control points let you release one submission and attack another with minimal risk of losing position during the transition."
+      "answer": "High-control positions like mount, back control, S-mount, and crucifix, because their control points let you release one submission and attack another with minimal risk of losing position during the transition.",
+      "answer_line": "Mount, back, S-mount, crucifix",
+      "distractors": {
+        "plausible": [
+          "Half guard and side control",
+          "Any dominant top position"
+        ],
+        "trap": [
+          "Open guard, for mobility"
+        ]
+      }
     },
     {
       "question": "How should you decide whether to continue a chain or consolidate position?",
-      "answer": "If the opponent shows panic or exhaustion, push for the immediate finish; if they remain composed and defensively sound, use the current submission threat to improve position before continuing the chain."
+      "answer": "If the opponent shows panic or exhaustion, push for the immediate finish; if they remain composed and defensively sound, use the current submission threat to improve position before continuing the chain.",
+      "answer_line": "Finish if panicked, improve if calm",
+      "distractors": {
+        "plausible": [
+          "Always push for the finish",
+          "Always consolidate position first"
+        ],
+        "trap": [
+          "Release the submission and reset"
+        ]
+      }
     },
     {
       "question": "What does it mean to use the opponent's defensive energy to fuel chain transitions?",
-      "answer": "It means letting the opponent's escape movement carry you into the next attack rather than muscling each transition, conserving your own energy by redirecting their defensive momentum into the setup for the following submission."
+      "answer": "It means letting the opponent's escape movement carry you into the next attack rather than muscling each transition, conserving your own energy by redirecting their defensive momentum into the setup for the following submission.",
+      "answer_line": "Redirect their escape momentum",
+      "distractors": {
+        "plausible": [
+          "Match their strength and speed",
+          "Wait for them to tire out"
+        ],
+        "trap": [
+          "Muscle through each transition"
+        ]
+      }
     },
     {
       "question": "How do submission chains relate to the position-over-submission philosophy?",
-      "answer": "They integrate by treating submission attempts as position-improvement tools; even when a finish fails, the attack forces a reaction that yields a better control point, so pursuing the chain still advances positional dominance."
+      "answer": "They integrate by treating submission attempts as position-improvement tools; even when a finish fails, the attack forces a reaction that yields a better control point, so pursuing the chain still advances positional dominance.",
+      "answer_line": "Attempts double as position gains",
+      "distractors": {
+        "plausible": [
+          "Submissions outrank position always",
+          "Position only matters after taps"
+        ],
+        "trap": [
+          "Ignore position, hunt finishes only"
+        ]
+      }
     }
   ],
   "clips": [

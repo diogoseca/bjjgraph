@@ -255,7 +255,17 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting the reguard to butterfly guard?",
-        "answer": "The best timing is immediately upon recognizing your hooks becoming shallow or your posture breaking—before the opponent can capitalize on the degraded position. Waiting allows the top player to establish passing grips and consolidate control. The moment you feel your hooks losing depth or your back approaching the mat is the trigger to initiate the reguard sequence rather than trying to sweep from a compromised structure that will likely fail."
+        "answer": "The best timing is immediately upon recognizing your hooks becoming shallow or your posture breaking—before the opponent can capitalize on the degraded position. Waiting allows the top player to establish passing grips and consolidate control. The moment you feel your hooks losing depth or your back approaching the mat is the trigger to initiate the reguard sequence rather than trying to sweep from a compromised structure that will likely fail.",
+        "answer_line": "Immediately as hooks go shallow",
+        "distractors": {
+          "plausible": [
+            "After posture is fully broken",
+            "Once your back hits the mat"
+          ],
+          "trap": [
+            "Wait for opponent's next move"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully attempt the reguard?",
@@ -263,31 +273,101 @@
       },
       {
         "question": "What is the most critical hip movement during the reguard sequence?",
-        "answer": "The lateral hip escape is the most critical movement because it simultaneously creates space for hook reinsertion and generates the angle needed to recover seated posture. Without the hip escape, you are trying to rebuild butterfly guard directly underneath your opponent's weight, which is extremely difficult against any competent passer. The shrimp should be explosive and angled away from the opponent's pressure direction, creating a brief window where hooks can be driven deep into the inner thighs."
+        "answer": "The lateral hip escape is the most critical movement because it simultaneously creates space for hook reinsertion and generates the angle needed to recover seated posture. Without the hip escape, you are trying to rebuild butterfly guard directly underneath your opponent's weight, which is extremely difficult against any competent passer. The shrimp should be explosive and angled away from the opponent's pressure direction, creating a brief window where hooks can be driven deep into the inner thighs.",
+        "answer_line": "Explosive lateral hip escape",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up and over",
+            "Small scoot toward the opponent"
+          ],
+          "trap": [
+            "Flatten hips and wait it out"
+          ]
+        }
       },
       {
         "question": "Why do most reguard attempts fail at the intermediate level?",
-        "answer": "The most common failure point is attempting to recover upper body grips before securing deep hooks. Practitioners reach for collar or underhook control while their hooks remain shallow, which telegraphs the reguard and gives the opponent time to drive pressure and flatten them. The correct sequence prioritizes hook depth first, posture second, then grips—building the guard from the foundation up rather than the top down. This sequencing error accounts for the majority of failed butterfly guard recoveries."
+        "answer": "The most common failure point is attempting to recover upper body grips before securing deep hooks. Practitioners reach for collar or underhook control while their hooks remain shallow, which telegraphs the reguard and gives the opponent time to drive pressure and flatten them. The correct sequence prioritizes hook depth first, posture second, then grips—building the guard from the foundation up rather than the top down. This sequencing error accounts for the majority of failed butterfly guard recoveries.",
+        "answer_line": "Chasing grips before hooks are deep",
+        "distractors": {
+          "plausible": [
+            "Fighting posture before hooks set",
+            "Rushing hooks without frames first"
+          ],
+          "trap": [
+            "Reaching for a collar tie first"
+          ]
+        }
       },
       {
         "question": "What grips best support the reguard to butterfly guard transition?",
-        "answer": "During the reguard itself, defensive frames on the opponent's shoulders or biceps are more important than offensive grips. Use forearm frames to create the space needed for hip escape and hook reinsertion. Only after hooks are deep and posture is recovered should you transition to offensive grips—collar grip, underhook, or sleeve control. Trying to establish butterfly sweep grips during the recovery phase compromises the structural rebuild and leaves you vulnerable."
+        "answer": "During the reguard itself, defensive frames on the opponent's shoulders or biceps are more important than offensive grips. Use forearm frames to create the space needed for hip escape and hook reinsertion. Only after hooks are deep and posture is recovered should you transition to offensive grips—collar grip, underhook, or sleeve control. Trying to establish butterfly sweep grips during the recovery phase compromises the structural rebuild and leaves you vulnerable.",
+        "answer_line": "Frames first, sweep grips after",
+        "distractors": {
+          "plausible": [
+            "Collar grip before hooks are set",
+            "Underhook first, frames later"
+          ],
+          "trap": [
+            "Grab both sleeves immediately"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your hooks during reinsertion?",
-        "answer": "Drive hooks upward and inward toward the opponent's hip crease, not just forward toward their knees. The hook should travel along the inner thigh with the instep making firm contact deep in the groin area. Shallow hooks at knee level provide minimal elevation leverage and are easily stripped. Think of scooping your foot deep under the opponent's thigh so the instep reaches the hip crease—this maximizes the lever arm for subsequent sweeps and ensures the hook resists being cleared."
+        "answer": "Drive hooks upward and inward toward the opponent's hip crease, not just forward toward their knees. The hook should travel along the inner thigh with the instep making firm contact deep in the groin area. Shallow hooks at knee level provide minimal elevation leverage and are easily stripped. Think of scooping your foot deep under the opponent's thigh so the instep reaches the hip crease—this maximizes the lever arm for subsequent sweeps and ensures the hook resists being cleared.",
+        "answer_line": "Drive instep deep into hip crease",
+        "distractors": {
+          "plausible": [
+            "Hook shallow at knee level",
+            "Point toes forward at the knee"
+          ],
+          "trap": [
+            "Hook loosely outside the thigh"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure as you attempt to recover your guard—how do you adjust?",
-        "answer": "Frame on the crossface arm with your near forearm, pushing it away from your face while simultaneously hip escaping in the opposite direction. The hip escape is more important than fighting the crossface directly—creating angle negates the pressure entirely. If the crossface is too strong to frame against, use the momentum of their drive to turn into them and establish an underhook on the crossface side, which converts their pressure into your recovery tool and opens an underhook-based reguard path."
+        "answer": "Frame on the crossface arm with your near forearm, pushing it away from your face while simultaneously hip escaping in the opposite direction. The hip escape is more important than fighting the crossface directly—creating angle negates the pressure entirely. If the crossface is too strong to frame against, use the momentum of their drive to turn into them and establish an underhook on the crossface side, which converts their pressure into your recovery tool and opens an underhook-based reguard path.",
+        "answer_line": "Frame the arm, escape the angle",
+        "distractors": {
+          "plausible": [
+            "Push through with pure strength",
+            "Turn face-down to ease pressure"
+          ],
+          "trap": [
+            "Turtle up to hide from pressure"
+          ]
+        }
       },
       {
         "question": "What options do you have if the reguard to butterfly guard is completely shut down?",
-        "answer": "If you cannot reinsert hooks, transition to alternative guard recovery options based on what control you retain. With one hook remaining, transition to half butterfly or half guard. With no hooks but an underhook, enter deep half guard by getting your shoulder under their base. If flattened with no hooks, work closed guard recovery or frame and shrimp to establish any form of guard retention. The key is recognizing early when the butterfly reguard is failing and executing a plan B rather than continuing to fight for a position that is no longer available."
+        "answer": "If you cannot reinsert hooks, transition to alternative guard recovery options based on what control you retain. With one hook remaining, transition to half butterfly or half guard. With no hooks but an underhook, enter deep half guard by getting your shoulder under their base. If flattened with no hooks, work closed guard recovery or frame and shrimp to establish any form of guard retention. The key is recognizing early when the butterfly reguard is failing and executing a plan B rather than continuing to fight for a position that is no longer available.",
+        "answer_line": "Fall back to half or deep half",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for both hooks",
+            "Jump straight to closed guard"
+          ],
+          "trap": [
+            "Turn away and turtle up"
+          ]
+        }
       },
       {
         "question": "How do you maintain your remaining hook connection while reinserting the second hook?",
-        "answer": "Apply active upward pressure with the engaged hook throughout the recovery sequence—this maintains your connection to the opponent and prevents them from advancing past your guard. The engaged hook serves as an anchor point while your frames and hip escape create space on the other side for reinsertion. Never relax the engaged hook to focus on the other side, as this creates a window where the opponent can clear both hooks simultaneously and collapse your guard entirely."
+        "answer": "Apply active upward pressure with the engaged hook throughout the recovery sequence—this maintains your connection to the opponent and prevents them from advancing past your guard. The engaged hook serves as an anchor point while your frames and hip escape create space on the other side for reinsertion. Never relax the engaged hook to focus on the other side, as this creates a window where the opponent can clear both hooks simultaneously and collapse your guard entirely.",
+        "answer_line": "Keep engaged hook driving upward",
+        "distractors": {
+          "plausible": [
+            "Alternate pressure between hooks",
+            "Hold the hook still, save energy"
+          ],
+          "trap": [
+            "Relax hook, focus other side"
+          ]
+        }
       }
     ],
     "safety_considerations": "Reguard drilling involves dynamic hip movement and hook reinsertion that can stress the hip flexors and adductors if performed repeatedly without adequate warm-up. When training with progressive resistance, communicate with your partner about the intensity of knee pressure during hook clearing attempts. Avoid explosive hook reinsertion against a fully locked-out partner, as forcing the instep past a resisting knee can strain the MCL or LCL. Progress resistance gradually and use controlled repetitions to develop timing rather than relying on speed and power that increases injury risk for both training partners.",
@@ -405,23 +485,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is attempting to reguard to butterfly guard?",
-        "answer": "Watch for sudden framing on your shoulders or biceps combined with increased hook pumping activity. You will feel the opponent begin driving their hooks upward with more urgency while simultaneously creating structural frames to generate separation. The combination of increased hook activity and upper body framing signals the reguard attempt, and your window to prevent it is before the hip escape completes—typically a one-to-two second window from first recognition."
+        "answer": "Watch for sudden framing on your shoulders or biceps combined with increased hook pumping activity. You will feel the opponent begin driving their hooks upward with more urgency while simultaneously creating structural frames to generate separation. The combination of increased hook activity and upper body framing signals the reguard attempt, and your window to prevent it is before the hip escape completes—typically a one-to-two second window from first recognition.",
+        "answer_line": "Framing plus urgent hook pumping",
+        "distractors": {
+          "plausible": [
+            "Sudden collar grip attempts",
+            "Slow methodical hip adjustments"
+          ],
+          "trap": [
+            "Ignore it, hooks look shallow"
+          ]
+        }
       },
       {
         "question": "What is the single most effective action to prevent the reguard?",
-        "answer": "Maintain chest-to-hip pressure with your weight driven through your shoulder into their upper body while keeping hooks shallow through knee pinching and forward hip drive. The reguard requires space for the hip escape—if you deny space by staying heavy and connected, the bottom player cannot create the lateral angle needed to reinsert hooks deeply. Your knee should drive toward their hip line, controlling hook depth and preventing the elevation angle they need for recovery."
+        "answer": "Maintain chest-to-hip pressure with your weight driven through your shoulder into their upper body while keeping hooks shallow through knee pinching and forward hip drive. The reguard requires space for the hip escape—if you deny space by staying heavy and connected, the bottom player cannot create the lateral angle needed to reinsert hooks deeply. Your knee should drive toward their hip line, controlling hook depth and preventing the elevation angle they need for recovery.",
+        "answer_line": "Stay heavy, drive knee to hip",
+        "distractors": {
+          "plausible": [
+            "Push down on both their hooks",
+            "Sit back to create an angle"
+          ],
+          "trap": [
+            "Post up high off their chest"
+          ]
+        }
       },
       {
         "question": "How should you capitalize when you successfully prevent the reguard attempt?",
-        "answer": "When the reguard fails and the opponent's hooks become shallow or are cleared, immediately advance to a passing position rather than maintaining the current top position. Drive your knee through the center to split any remaining hooks and transition to headquarters or half guard passing position. The failed reguard leaves the bottom player temporarily disorganized with grips out of position, creating a two-to-three second passing window you must exploit before they initiate another recovery attempt."
+        "answer": "When the reguard fails and the opponent's hooks become shallow or are cleared, immediately advance to a passing position rather than maintaining the current top position. Drive your knee through the center to split any remaining hooks and transition to headquarters or half guard passing position. The failed reguard leaves the bottom player temporarily disorganized with grips out of position, creating a two-to-three second passing window you must exploit before they initiate another recovery attempt.",
+        "answer_line": "Advance to pass immediately",
+        "distractors": {
+          "plausible": [
+            "Reset your posture before advancing",
+            "Consolidate current position first"
+          ],
+          "trap": [
+            "Sit back and reassess grips"
+          ]
+        }
       },
       {
         "question": "Your opponent partially recovers one hook during the reguard attempt—how do you respond?",
-        "answer": "Address the recovered hook immediately by pinching your knee against it and driving it back toward the mat using your same-side hand to control their knee. Push their knee down and to the outside while applying crossface pressure to prevent them from sitting up. Do not allow them to reinsert the second hook—once both hooks are deep, the reguard is essentially complete and you face a fully functional butterfly guard again."
+        "answer": "Address the recovered hook immediately by pinching your knee against it and driving it back toward the mat using your same-side hand to control their knee. Push their knee down and to the outside while applying crossface pressure to prevent them from sitting up. Do not allow them to reinsert the second hook—once both hooks are deep, the reguard is essentially complete and you face a fully functional butterfly guard again.",
+        "answer_line": "Pin their knee down and outside",
+        "distractors": {
+          "plausible": [
+            "Grab their far ankle instead",
+            "Push their knee straight down only"
+          ],
+          "trap": [
+            "Let them sit up to reassess"
+          ]
+        }
       },
       {
         "question": "How do you maintain energy efficiency while preventing repeated reguard attempts?",
-        "answer": "Use body positioning and gravity rather than muscular effort to deny the reguard. Keep your weight distributed through your chest and shoulders onto the opponent rather than holding yourself up with your arms. Use knee positioning and hip pressure to control hook depth rather than actively pushing hooks away with your hands. A properly positioned crossface and knee drive requires minimal energy to maintain but effectively prevents the hip escape and hook reinsertion that the reguard demands."
+        "answer": "Use body positioning and gravity rather than muscular effort to deny the reguard. Keep your weight distributed through your chest and shoulders onto the opponent rather than holding yourself up with your arms. Use knee positioning and hip pressure to control hook depth rather than actively pushing hooks away with your hands. A properly positioned crossface and knee drive requires minimal energy to maintain but effectively prevents the hip escape and hook reinsertion that the reguard demands.",
+        "answer_line": "Use weight and gravity, not muscle",
+        "distractors": {
+          "plausible": [
+            "Push their hooks away with hands",
+            "Hold yourself up on straight arms"
+          ],
+          "trap": [
+            "Grip fight hands to strip hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [

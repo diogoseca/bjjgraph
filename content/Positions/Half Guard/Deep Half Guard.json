@@ -100,35 +100,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins to elevate their hips while maintaining deep underhook - what immediate adjustment do you make?",
-        "answer": "Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift."
+        "answer": "Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift.",
+        "answer_line": "Drop hips, widen base, crossface",
+        "distractors": {
+          "plausible": [
+            "Shift weight back and sprawl",
+            "Muscle underhook away instead"
+          ],
+          "trap": [
+            "Release crossface, post hands"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and contact points for maintaining position from deep half guard top?",
-        "answer": "The essential contact points are: crossface control with your shoulder or forearm driving into opponent's face/jaw to limit their mobility, hip control with your free hand to monitor their elevation attempts, and a wide base with your free leg posted far to the side. Your trapped leg should maintain some downward pressure while you work extraction. The crossface is priority one as it shuts down most sweep mechanics."
+        "answer": "The essential contact points are: crossface control with your shoulder or forearm driving into opponent's face/jaw to limit their mobility, hip control with your free hand to monitor their elevation attempts, and a wide base with your free leg posted far to the side. Your trapped leg should maintain some downward pressure while you work extraction. The crossface is priority one as it shuts down most sweep mechanics.",
+        "answer_line": "Crossface, hip control, wide base",
+        "distractors": {
+          "plausible": [
+            "Downward pressure on trapped leg",
+            "Overhook their far-side arm"
+          ],
+          "trap": [
+            "Push their head up and away"
+          ]
+        }
       },
       {
         "question": "How do you shut down the waiter sweep specifically when you feel your opponent loading it?",
-        "answer": "When you feel the waiter sweep loading (opponent grabbing your belt or pants and beginning to sit up), immediately shift your weight backward and lower your hips toward the mat. Drive your crossface pressure downward to flatten them. Widen your base dramatically with your free leg and consider grabbing their far hip or pants to anchor yourself. The key is removing the elevation space they need while applying counter-pressure to their upper body."
+        "answer": "When you feel the waiter sweep loading (opponent grabbing your belt or pants and beginning to sit up), immediately shift your weight backward and lower your hips toward the mat. Drive your crossface pressure downward to flatten them. Widen your base dramatically with your free leg and consider grabbing their far hip or pants to anchor yourself. The key is removing the elevation space they need while applying counter-pressure to their upper body.",
+        "answer_line": "Shift weight back, widen base",
+        "distractors": {
+          "plausible": [
+            "Shift weight forward, drive down",
+            "Grab their far leg underhook"
+          ],
+          "trap": [
+            "Post forward and stand up"
+          ]
+        }
       },
       {
         "question": "What grip should be your highest priority when defending from deep half guard top?",
-        "answer": "Crossface control should be your highest priority grip. Whether using your forearm across their jaw or shoulder driving into their face, this control limits their ability to look up and generate the rotation needed for sweeps. Without controlling their head and upper body, all other defenses become significantly harder as they can freely adjust angles and time their sweeps."
+        "answer": "Crossface control should be your highest priority grip. Whether using your forearm across their jaw or shoulder driving into their face, this control limits their ability to look up and generate the rotation needed for sweeps. Without controlling their head and upper body, all other defenses become significantly harder as they can freely adjust angles and time their sweeps.",
+        "answer_line": "Crossface control on jaw",
+        "distractors": {
+          "plausible": [
+            "Underhook their far leg",
+            "Control their hips first"
+          ],
+          "trap": [
+            "Chase leg extraction over crossface"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure correctly from deep half guard top without getting swept?",
-        "answer": "Apply pressure through your shoulder and chest into their upper body, not through your hips into their hips. Keep your hips light and mobile, ready to adjust, while your upper body does the controlling work. Maintain roughly 50/50 weight distribution between your legs with slight forward bias. Never drive all your weight forward as this enables the waiter sweep, and never sit back as this enables the old school sweep."
+        "answer": "Apply pressure through your shoulder and chest into their upper body, not through your hips into their hips. Keep your hips light and mobile, ready to adjust, while your upper body does the controlling work. Maintain roughly 50/50 weight distribution between your legs with slight forward bias. Never drive all your weight forward as this enables the waiter sweep, and never sit back as this enables the old school sweep.",
+        "answer_line": "Pressure through chest, hips light",
+        "distractors": {
+          "plausible": [
+            "Drive weight through hips",
+            "Sit back, control with legs"
+          ],
+          "trap": [
+            "Drive all weight forward"
+          ]
+        }
       },
       {
         "question": "Your opponent momentarily releases their underhook grip - what is your immediate response?",
-        "answer": "The moment they release their underhook, immediately begin extracting your trapped leg while maintaining crossface pressure. Use a circular motion with your knee (up, back, then down and out) rather than pulling straight back. This window is brief so move with urgency but not reckless speed. As your leg clears, transition immediately to side control or knee slide position to complete the pass."
+        "answer": "The moment they release their underhook, immediately begin extracting your trapped leg while maintaining crossface pressure. Use a circular motion with your knee (up, back, then down and out) rather than pulling straight back. This window is brief so move with urgency but not reckless speed. As your leg clears, transition immediately to side control or knee slide position to complete the pass.",
+        "answer_line": "Circle knee out, pass to side",
+        "distractors": {
+          "plausible": [
+            "Pull knee straight back",
+            "Reset base, wait for opening"
+          ],
+          "trap": [
+            "Release crossface to grab leg"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when stuck in deep half guard top for extended periods?",
-        "answer": "Avoid explosive movements which drain energy and often facilitate sweeps. Instead, apply steady methodical pressure through your crossface while making small incremental adjustments to your base and positioning. Focus on disrupting their grips and controls through sustained pressure rather than burst movements. Remember that time actually favors the bottom player, so work systematically toward extraction rather than waiting indefinitely."
+        "answer": "Avoid explosive movements which drain energy and often facilitate sweeps. Instead, apply steady methodical pressure through your crossface while making small incremental adjustments to your base and positioning. Focus on disrupting their grips and controls through sustained pressure rather than burst movements. Remember that time actually favors the bottom player, so work systematically toward extraction rather than waiting indefinitely.",
+        "answer_line": "Steady pressure, small adjustments",
+        "distractors": {
+          "plausible": [
+            "Wait passively, time favors you",
+            "Squeeze grips as tight as possible"
+          ],
+          "trap": [
+            "Explode with bursts to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning toward you underneath as if to take your back - how do you recover?",
-        "answer": "If they're turning to take your back, immediately drive your weight into them and establish a strong whizzer (overhook) on their far arm to prevent the roll. Drop your hips and sprawl slightly to remove their leverage. You may need to accept giving up your leg from their grip to prevent the back take - extract and circle away from their rotation while maintaining the whizzer. Consider switching your hips to face them directly."
+        "answer": "If they're turning to take your back, immediately drive your weight into them and establish a strong whizzer (overhook) on their far arm to prevent the roll. Drop your hips and sprawl slightly to remove their leverage. You may need to accept giving up your leg from their grip to prevent the back take - extract and circle away from their rotation while maintaining the whizzer. Consider switching your hips to face them directly.",
+        "answer_line": "Whizzer overhook, sprawl weight",
+        "distractors": {
+          "plausible": [
+            "Underhook their near arm instead",
+            "Base out and wait for pass"
+          ],
+          "trap": [
+            "Let them finish back take, reset"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -416,35 +496,115 @@
     "flashcards": [
       {
         "question": "Your opponent establishes strong crossface pressure and begins flattening you - what adjustment do you make?",
-        "answer": "When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space."
+        "answer": "When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space.",
+        "answer_line": "Keep underhook, frame and shrimp",
+        "distractors": {
+          "plausible": [
+            "Release underhook, frame harder",
+            "Push away with both hands"
+          ],
+          "trap": [
+            "Let go, sit up to escape"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining deep half guard bottom position?",
-        "answer": "The essential grips are: deep underhook around opponent's far thigh with your arm wrapped tightly and pulling the leg toward your chest, and your free hand controlling their near hip or pants to monitor their movement. Your head and shoulder wedged against their inner thigh serves as a critical contact point. The underhook is non-negotiable - if you lose it, you lose the position."
+        "answer": "The essential grips are: deep underhook around opponent's far thigh with your arm wrapped tightly and pulling the leg toward your chest, and your free hand controlling their near hip or pants to monitor their movement. Your head and shoulder wedged against their inner thigh serves as a critical contact point. The underhook is non-negotiable - if you lose it, you lose the position.",
+        "answer_line": "Deep underhook, hip grip, wedge",
+        "distractors": {
+          "plausible": [
+            "Overhook their near leg",
+            "Grab both ankles for control"
+          ],
+          "trap": [
+            "Release underhook to frame"
+          ]
+        }
       },
       {
         "question": "How do you shut down your opponent's attempt to extract their trapped leg?",
-        "answer": "To prevent leg extraction, constantly pull their far leg toward your chest with your underhook, keeping it tight to your body. Use your bottom leg hook around their far leg as secondary control. When they begin extraction attempts, elevate your hips to keep their weight loaded on you and maintain the mechanical advantage. Follow their leg movement with your body rather than letting them create separation."
+        "answer": "To prevent leg extraction, constantly pull their far leg toward your chest with your underhook, keeping it tight to your body. Use your bottom leg hook around their far leg as secondary control. When they begin extraction attempts, elevate your hips to keep their weight loaded on you and maintain the mechanical advantage. Follow their leg movement with your body rather than letting them create separation.",
+        "answer_line": "Pull leg tight, elevate hips",
+        "distractors": {
+          "plausible": [
+            "Release leg, reset underhook",
+            "Push their hips away instead"
+          ],
+          "trap": [
+            "Let leg go, chase to X-guard"
+          ]
+        }
       },
       {
         "question": "What grip priority should you focus on when first entering deep half guard?",
-        "answer": "The deep underhook on opponent's far leg is the absolute priority grip when entering. Your shoulder should be against the inside of their thigh with your arm wrapped around and reaching toward their far hip or behind their knee. Without this underhook secured first, the position has no foundation. Secondary priority is positioning your head below their hip line to prevent shoulder pressure."
+        "answer": "The deep underhook on opponent's far leg is the absolute priority grip when entering. Your shoulder should be against the inside of their thigh with your arm wrapped around and reaching toward their far hip or behind their knee. Without this underhook secured first, the position has no foundation. Secondary priority is positioning your head below their hip line to prevent shoulder pressure.",
+        "answer_line": "Deep underhook on far leg first",
+        "distractors": {
+          "plausible": [
+            "Head position below hip first",
+            "Control near hip with free hand"
+          ],
+          "trap": [
+            "Grab their belt, control base"
+          ]
+        }
       },
       {
         "question": "How do you apply constant pressure on your opponent's base from deep half bottom?",
-        "answer": "Apply pressure through continuous hip elevation and movement. Your hips should never be static - constantly make small elevation adjustments to test their balance. Pull their far leg toward you while pushing against their near hip with your free hand, creating opposing forces that destabilize them. Even small movements make it impossible for them to establish solid base for passing."
+        "answer": "Apply pressure through continuous hip elevation and movement. Your hips should never be static - constantly make small elevation adjustments to test their balance. Pull their far leg toward you while pushing against their near hip with your free hand, creating opposing forces that destabilize them. Even small movements make it impossible for them to establish solid base for passing.",
+        "answer_line": "Elevate hips, pull leg, push hip",
+        "distractors": {
+          "plausible": [
+            "Stay still, wait for opening",
+            "Squeeze legs tight, hold still"
+          ],
+          "trap": [
+            "Release hip push to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping over your bottom leg with their near leg - what is your immediate response?",
-        "answer": "This step-over attempt actually opens up the rolling back take. As they step over, maintain your underhook and begin rolling underneath them in the same direction they're stepping. Use their step-over momentum to roll through and establish back control. Alternatively, if the back take angle isn't there, use your bottom leg to hook their stepping leg and prevent the step-over while resetting to standard deep half."
+        "answer": "This step-over attempt actually opens up the rolling back take. As they step over, maintain your underhook and begin rolling underneath them in the same direction they're stepping. Use their step-over momentum to roll through and establish back control. Alternatively, if the back take angle isn't there, use your bottom leg to hook their stepping leg and prevent the step-over while resetting to standard deep half.",
+        "answer_line": "Roll under to take the back",
+        "distractors": {
+          "plausible": [
+            "Push them off and reset guard",
+            "Release underhook, sit up"
+          ],
+          "trap": [
+            "Let them finish the step-over pass"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when playing deep half guard bottom for extended periods?",
-        "answer": "Deep half bottom is relatively energy efficient because you're using leverage rather than strength. Keep your grips tight but don't over-squeeze - let your body position do the work. Make small frequent adjustments rather than explosive movements. Time your sweep attempts for when opponent shifts their weight, using their movement against them. If fatigued, focus on grip retention and position maintenance until an optimal sweep opportunity presents itself."
+        "answer": "Deep half bottom is relatively energy efficient because you're using leverage rather than strength. Keep your grips tight but don't over-squeeze - let your body position do the work. Make small frequent adjustments rather than explosive movements. Time your sweep attempts for when opponent shifts their weight, using their movement against them. If fatigued, focus on grip retention and position maintenance until an optimal sweep opportunity presents itself.",
+        "answer_line": "Small adjustments, time sweeps",
+        "distractors": {
+          "plausible": [
+            "Squeeze grips as hard as possible",
+            "Explode for sweep immediately"
+          ],
+          "trap": [
+            "Over-squeeze grips, burn out fast"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls their far leg back, breaking your underhook - how do you recover?",
-        "answer": "If they break your underhook, immediately transition rather than trying to re-enter deep half. Follow their retreating leg into X-Guard or Single Leg X-Guard by hooking their leg with your feet. You can also immediately sit up and pursue a single leg takedown as they back away. The key is not to remain flat without control - either chase the leg into another guard or come up to attack."
+        "answer": "If they break your underhook, immediately transition rather than trying to re-enter deep half. Follow their retreating leg into X-Guard or Single Leg X-Guard by hooking their leg with your feet. You can also immediately sit up and pursue a single leg takedown as they back away. The key is not to remain flat without control - either chase the leg into another guard or come up to attack.",
+        "answer_line": "Chase leg into X-guard",
+        "distractors": {
+          "plausible": [
+            "Re-enter deep half again",
+            "Stay flat, wait to reset"
+          ],
+          "trap": [
+            "Stay flat without control"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -711,35 +871,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines deep half guard and distinguishes it from traditional half guard?",
-      "answer": "Deep half guard is defined by the bottom player burrowing their entire upper body beneath the top player's hips, wedging shoulder and head under the near hip while wrapping a deep underhook around the far leg. Unlike traditional half guard, where the trapped leg is pinned between the bottom player's legs and the two athletes fight for distance and framing, deep half sends the bottom player underneath the opponent's center of gravity rather than maintaining separation. This inverts the usual top-bottom dynamic, converting the top player's downward weight into a lever the bottom player can exploit. The far-leg underhook plus the head-and-shoulder wedge is the signature that identifies the position for both players."
+      "answer": "Deep half guard is defined by the bottom player burrowing their entire upper body beneath the top player's hips, wedging shoulder and head under the near hip while wrapping a deep underhook around the far leg. Unlike traditional half guard, where the trapped leg is pinned between the bottom player's legs and the two athletes fight for distance and framing, deep half sends the bottom player underneath the opponent's center of gravity rather than maintaining separation. This inverts the usual top-bottom dynamic, converting the top player's downward weight into a lever the bottom player can exploit. The far-leg underhook plus the head-and-shoulder wedge is the signature that identifies the position for both players.",
+      "answer_line": "Underhook far leg, head wedge",
+      "distractors": {
+        "plausible": [
+          "Trap leg between both legs",
+          "Frame and fight for distance"
+        ],
+        "trap": [
+          "Push away to create separation"
+        ]
+      }
     },
     {
       "question": "Why does deep half guard function as a leverage system that neutralizes size and strength differences?",
-      "answer": "Because the bottom player positions their body directly under the top player's center of gravity, the top player's own weight loads onto a fulcrum the bottom player controls rather than pressing them flat. Elevating the hips even slightly transfers that loaded weight through the shoulder-and-head wedge and the far-leg underhook, tipping the top player's base without requiring the bottom player to overpower them. This is why deep half became a competitive staple for smaller grapplers: the mechanical advantage comes from placement beneath the base, not from muscular contest. Both players must understand that whoever controls the fulcrum controls the exchange, regardless of the size gap."
+      "answer": "Because the bottom player positions their body directly under the top player's center of gravity, the top player's own weight loads onto a fulcrum the bottom player controls rather than pressing them flat. Elevating the hips even slightly transfers that loaded weight through the shoulder-and-head wedge and the far-leg underhook, tipping the top player's base without requiring the bottom player to overpower them. This is why deep half became a competitive staple for smaller grapplers: the mechanical advantage comes from placement beneath the base, not from muscular contest. Both players must understand that whoever controls the fulcrum controls the exchange, regardless of the size gap.",
+      "answer_line": "Body under opponent's fulcrum",
+      "distractors": {
+        "plausible": [
+          "Superior strength and size",
+          "Explosive hip bridging power"
+        ],
+        "trap": [
+          "Try to out-muscle their base"
+        ]
+      }
     },
     {
       "question": "Where are the primary control points and contact points that hold deep half guard together?",
-      "answer": "The defining control point is the deep underhook wrapped around the top player's far leg, pulling that thigh toward the bottom player's chest. The second is the head-and-shoulder wedge driven against the inside of the top player's near thigh or hip, which acts as the fulcrum for sweeps. The bottom player's free hand and legs typically monitor or trap the top player's near leg to block step-over passes. For the top player these same contact points are the targets: strip the underhook or drive the head out from under the hip and the position collapses back toward ordinary half guard."
+      "answer": "The defining control point is the deep underhook wrapped around the top player's far leg, pulling that thigh toward the bottom player's chest. The second is the head-and-shoulder wedge driven against the inside of the top player's near thigh or hip, which acts as the fulcrum for sweeps. The bottom player's free hand and legs typically monitor or trap the top player's near leg to block step-over passes. For the top player these same contact points are the targets: strip the underhook or drive the head out from under the hip and the position collapses back toward ordinary half guard.",
+      "answer_line": "Far-leg underhook, hip wedge",
+      "distractors": {
+        "plausible": [
+          "Crossface and near-arm grip",
+          "Both ankles locked together"
+        ],
+        "trap": [
+          "Push opponent's hips away"
+        ]
+      }
     },
     {
       "question": "How is weight distributed in deep half guard, and why is the top player's balance so precarious?",
-      "answer": "The top player's weight sits above a bottom player who is inverted directly beneath their center of gravity, so the base is inherently narrow and easy to disrupt. Committing weight too far forward loads the waiter sweep, while sitting back loads the old-school sweep, meaning almost any committed weight bias feeds a specific sweep from the family that includes the waiter, old-school, and Homer Simpson variations. The stable answer for the top player is a wide, tripod-like base with the free leg posted far to the side and pressure carried through the upper body rather than the hips. This razor-thin balance window, where correct weight is a narrow band between two sweep traps, is a defining dynamic of the position for both players."
+      "answer": "The top player's weight sits above a bottom player who is inverted directly beneath their center of gravity, so the base is inherently narrow and easy to disrupt. Committing weight too far forward loads the waiter sweep, while sitting back loads the old-school sweep, meaning almost any committed weight bias feeds a specific sweep from the family that includes the waiter, old-school, and Homer Simpson variations. The stable answer for the top player is a wide, tripod-like base with the free leg posted far to the side and pressure carried through the upper body rather than the hips. This razor-thin balance window, where correct weight is a narrow band between two sweep traps, is a defining dynamic of the position for both players.",
+      "answer_line": "Wide base, avoid weight extremes",
+      "distractors": {
+        "plausible": [
+          "Commit weight forward always",
+          "Keep hips completely static"
+        ],
+        "trap": [
+          "Sit back hard, load your heels"
+        ]
+      }
     },
     {
       "question": "What role does the head-and-shoulder wedge under the hip play in the mechanics of deep half guard?",
-      "answer": "The wedge is the fulcrum of the entire lever system: by driving head and shoulder under the top player's near hip, the bottom player creates a pivot point around which the top player's loaded weight can be rotated during a sweep. As long as that wedge stays deep, the sweep mechanics remain high-percentage because the bottom player can tip weight in multiple directions from a single anchored point. The top player's central defensive task is disrupting this wedge, usually with a crossface that flattens the bottom player's upper body and drives the head away from the hip. Neutralize the wedge and the fulcrum disappears, which is why both players fight hardest over the head position."
+      "answer": "The wedge is the fulcrum of the entire lever system: by driving head and shoulder under the top player's near hip, the bottom player creates a pivot point around which the top player's loaded weight can be rotated during a sweep. As long as that wedge stays deep, the sweep mechanics remain high-percentage because the bottom player can tip weight in multiple directions from a single anchored point. The top player's central defensive task is disrupting this wedge, usually with a crossface that flattens the bottom player's upper body and drives the head away from the hip. Neutralize the wedge and the fulcrum disappears, which is why both players fight hardest over the head position.",
+      "answer_line": "Wedge is the sweep's fulcrum",
+      "distractors": {
+        "plausible": [
+          "Underhook is the true fulcrum",
+          "Hip elevation alone sweeps them"
+        ],
+        "trap": [
+          "Drop the wedge, use raw strength"
+        ]
+      }
     },
     {
       "question": "Why does time favor the bottom player once deep half guard is established?",
-      "answer": "Deep half is energy-efficient for the bottom player because their sweeps run on leverage and placement rather than muscular exertion, so they can maintain the underhook and wedge with relatively little cost while probing for openings. The top player, by contrast, must actively manage a compromised base, constantly correct weight distribution, and fight to extract a trapped leg, all of which drain energy over time. Every second the position persists gives the bottom player more chances to feel the top player's weight shifts and time a sweep. This is why the top player is expected to work methodically toward extraction rather than settling in, since patience rewards the person underneath."
+      "answer": "Deep half is energy-efficient for the bottom player because their sweeps run on leverage and placement rather than muscular exertion, so they can maintain the underhook and wedge with relatively little cost while probing for openings. The top player, by contrast, must actively manage a compromised base, constantly correct weight distribution, and fight to extract a trapped leg, all of which drain energy over time. Every second the position persists gives the bottom player more chances to feel the top player's weight shifts and time a sweep. This is why the top player is expected to work methodically toward extraction rather than settling in, since patience rewards the person underneath.",
+      "answer_line": "Sweeps cost less than defending",
+      "distractors": {
+        "plausible": [
+          "Top player conserves more energy",
+          "Both spend energy equally"
+        ],
+        "trap": [
+          "Top should stall and outlast bottom"
+        ]
+      }
     },
     {
       "question": "How does deep half guard relate to adjacent leg-entanglement positions like X-guard and single-leg X-guard?",
-      "answer": "Deep half sits within the same family of underneath, leverage-based guards and frequently flows into X-guard or single-leg X-guard, particularly when the top player pulls their far leg back to defend the underhook. As the far leg retreats, the bottom player can chase it with the feet, hooking it to enter an X-guard configuration and continue attacking the base from below. This makes deep half a hub rather than a dead end: losing the deep underhook does not necessarily mean losing the leverage advantage, only that the entanglement migrates to the legs. Both players should recognize that defending or escaping deep half often just shifts the exchange into a neighboring bottom-attacking guard."
+      "answer": "Deep half sits within the same family of underneath, leverage-based guards and frequently flows into X-guard or single-leg X-guard, particularly when the top player pulls their far leg back to defend the underhook. As the far leg retreats, the bottom player can chase it with the feet, hooking it to enter an X-guard configuration and continue attacking the base from below. This makes deep half a hub rather than a dead end: losing the deep underhook does not necessarily mean losing the leverage advantage, only that the entanglement migrates to the legs. Both players should recognize that defending or escaping deep half often just shifts the exchange into a neighboring bottom-attacking guard.",
+      "answer_line": "Underhook lost, leg leads to X",
+      "distractors": {
+        "plausible": [
+          "Deep half is a dead-end guard",
+          "Return to closed guard instead"
+        ],
+        "trap": [
+          "Abandon guard, stand and reset"
+        ]
+      }
     },
     {
       "question": "What makes deep half guard a deceptive position where the top player appears to be winning?",
-      "answer": "Positionally the top player is on top with no points conceded, which reads as an advantage, but deep half is fundamentally an offensive platform for the player underneath. The bottom player has quietly assembled a lever system, deep underhook plus head-and-shoulder wedge under a loaded base, that turns the top player's apparent dominance into vulnerability to powerful sweeps and back takes. The danger is that the top player relaxes into the false sense of control and stays static, which is exactly the condition the bottom player needs. Recognizing that the on-top athlete is actually the one under mechanical threat is the key insight both players must hold about the position."
+      "answer": "Positionally the top player is on top with no points conceded, which reads as an advantage, but deep half is fundamentally an offensive platform for the player underneath. The bottom player has quietly assembled a lever system, deep underhook plus head-and-shoulder wedge under a loaded base, that turns the top player's apparent dominance into vulnerability to powerful sweeps and back takes. The danger is that the top player relaxes into the false sense of control and stays static, which is exactly the condition the bottom player needs. Recognizing that the on-top athlete is actually the one under mechanical threat is the key insight both players must hold about the position.",
+      "answer_line": "Top looks safe but is under threat",
+      "distractors": {
+        "plausible": [
+          "Top is truly ahead and safe",
+          "Bottom must escape immediately"
+        ],
+        "trap": [
+          "Top should relax and hold position"
+        ]
+      }
     }
   ],
   "clips": [

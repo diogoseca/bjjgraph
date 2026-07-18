@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "Why must you slide arms sequentially rather than releasing both grips simultaneously during the transition?",
-        "answer": "Releasing both arms simultaneously creates a complete control void where the opponent has maximum freedom to escape or counter. By maintaining the choking arm (over-shoulder arm) in seatbelt position while the underhook arm slides down first, you preserve upper body control throughout the transition. The remaining seatbelt arm prevents the opponent from turning, creating distance, or executing reversals during the most vulnerable phase. Only after the lead arm is secured at waist level should the second arm follow to complete the lock."
+        "answer": "Releasing both arms simultaneously creates a complete control void where the opponent has maximum freedom to escape or counter. By maintaining the choking arm (over-shoulder arm) in seatbelt position while the underhook arm slides down first, you preserve upper body control throughout the transition. The remaining seatbelt arm prevents the opponent from turning, creating distance, or executing reversals during the most vulnerable phase. Only after the lead arm is secured at waist level should the second arm follow to complete the lock.",
+        "answer_line": "Slide underhook first, keep seatbelt",
+        "distractors": {
+          "plausible": [
+            "Slide seatbelt arm first",
+            "Slide both arms slowly, not fast"
+          ],
+          "trap": [
+            "Release both grips simultaneously"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the grip conversion from seatbelt to body lock?",
-        "answer": "The optimal window is when the opponent is reactively defending your current seatbelt control rather than proactively creating space. Specifically, immediately after they fail a hand fighting attempt, when they are resetting their defensive posture, or when you have just increased hip pressure and they are focused on maintaining their base. Avoid initiating during moments when the opponent is actively driving away from you, aggressively hand fighting, or loading up for a counter throw, as these scenarios provide them maximum ability to exploit the grip change."
+        "answer": "The optimal window is when the opponent is reactively defending your current seatbelt control rather than proactively creating space. Specifically, immediately after they fail a hand fighting attempt, when they are resetting their defensive posture, or when you have just increased hip pressure and they are focused on maintaining their base. Avoid initiating during moments when the opponent is actively driving away from you, aggressively hand fighting, or loading up for a counter throw, as these scenarios provide them maximum ability to exploit the grip change.",
+        "answer_line": "When opponent resets defensively",
+        "distractors": {
+          "plausible": [
+            "As soon as clinch is secured",
+            "Only after several failed attempts"
+          ],
+          "trap": [
+            "While opponent loads a counter throw"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully two-on-one fights your sliding arm mid-transition - what is the correct response?",
-        "answer": "Immediately abort the body lock attempt and return to your seatbelt configuration with the arm they are fighting. Do not try to force the grip through against a strong two-on-one defense. Re-establish full seatbelt control, increase forward hip pressure to break their posture, and wait for a better window. You can create a new opening by threatening a standing choke from the seatbelt, which will force them to redirect their hand fighting away from your converting arm, then reattempt the transition."
+        "answer": "Immediately abort the body lock attempt and return to your seatbelt configuration with the arm they are fighting. Do not try to force the grip through against a strong two-on-one defense. Re-establish full seatbelt control, increase forward hip pressure to break their posture, and wait for a better window. You can create a new opening by threatening a standing choke from the seatbelt, which will force them to redirect their hand fighting away from your converting arm, then reattempt the transition.",
+        "answer_line": "Abort, reset to seatbelt control",
+        "distractors": {
+          "plausible": [
+            "Force the grip through anyway",
+            "Switch to the other arm instead"
+          ],
+          "trap": [
+            "Release control and back away"
+          ]
+        }
       },
       {
         "question": "Where should the locked hands be positioned on the opponent's body and why?",
-        "answer": "Lock your hands at or below the opponent's navel, ideally at belt line height. This position places your grip at or below the opponent's center of mass, which is essential for generating lifting power and controlling their weight distribution for takedowns. A lock positioned too high on the chest or ribcage does not control the center of gravity effectively, allowing the opponent to drop their hips below your grip and establish a strong defensive base. The waist-level lock also provides better leverage for mat returns and prevents the opponent from simply stepping over a high grip."
+        "answer": "Lock your hands at or below the opponent's navel, ideally at belt line height. This position places your grip at or below the opponent's center of mass, which is essential for generating lifting power and controlling their weight distribution for takedowns. A lock positioned too high on the chest or ribcage does not control the center of gravity effectively, allowing the opponent to drop their hips below your grip and establish a strong defensive base. The waist-level lock also provides better leverage for mat returns and prevents the opponent from simply stepping over a high grip.",
+        "answer_line": "Lock hands at navel or belt line",
+        "distractors": {
+          "plausible": [
+            "Lock hands at the ribcage",
+            "Lock hands just below the armpits"
+          ],
+          "trap": [
+            "Lock hands high on the chest"
+          ]
+        }
       },
       {
         "question": "How do you maintain control if the opponent begins sitting to guard during the grip transition?",
-        "answer": "If your hands are already at waist level or partially around their waist, follow their descent immediately and complete the body lock around their seated position as they go down. Drive your chest forward and stay tight to their back throughout the sit. Once on the ground with the body lock established, transition to a body lock pass to side control by walking your hips around their guard. If the lock is not yet established when they sit, maintain whatever grip you currently have, follow them to the ground, and work to establish a passing position rather than chasing the body lock from a seated configuration."
+        "answer": "If your hands are already at waist level or partially around their waist, follow their descent immediately and complete the body lock around their seated position as they go down. Drive your chest forward and stay tight to their back throughout the sit. Once on the ground with the body lock established, transition to a body lock pass to side control by walking your hips around their guard. If the lock is not yet established when they sit, maintain whatever grip you currently have, follow them to the ground, and work to establish a passing position rather than chasing the body lock from a seated configuration.",
+        "answer_line": "Follow descent, keep chest tight",
+        "distractors": {
+          "plausible": [
+            "Stay standing, don't follow down",
+            "Release grip, reset on the ground"
+          ],
+          "trap": [
+            "Chase the lock from seated range"
+          ]
+        }
       },
       {
         "question": "What is the critical role of hip pressure during the grip conversion?",
-        "answer": "Hip pressure serves a dual purpose during the grip conversion. First, it masks the transition by forcing the opponent to focus on maintaining their base rather than monitoring your grip changes. Increasing hip pressure just before initiating the slide overwhelms their defensive awareness with a more immediate threat. Second, hip pressure physically compresses the space between your bodies, keeping your chest welded to their back even as your arms move. Without forward hip drive, any arm movement tends to create separation, which the opponent can exploit. The hip pressure essentially substitutes for arm control during the brief vulnerability window."
+        "answer": "Hip pressure serves a dual purpose during the grip conversion. First, it masks the transition by forcing the opponent to focus on maintaining their base rather than monitoring your grip changes. Increasing hip pressure just before initiating the slide overwhelms their defensive awareness with a more immediate threat. Second, hip pressure physically compresses the space between your bodies, keeping your chest welded to their back even as your arms move. Without forward hip drive, any arm movement tends to create separation, which the opponent can exploit. The hip pressure essentially substitutes for arm control during the brief vulnerability window.",
+        "answer_line": "Masks transition, keeps chest welded",
+        "distractors": {
+          "plausible": [
+            "Only used to break their posture",
+            "Signals you're about to attack"
+          ],
+          "trap": [
+            "Relax hips to save energy"
+          ]
+        }
       },
       {
         "question": "Which grip configuration is most effective for the body lock and when would you choose each option?",
-        "answer": "The gable grip (palm-to-palm with overlapping fingers) provides the strongest raw connection and is ideal when you plan to execute an immediate high-power mat return or lift that requires maximum grip strength. The S-grip (interlocking fingers in a hook configuration) offers a balance of strength and wrist comfort for sustained control when you need to hold the position briefly while setting up your takedown angle. The butterfly grip (thumbs-up clasp) allows the quickest transition to alternative attacks like back control hooks. Choose based on your intended immediate follow-up attack rather than defaulting to one configuration."
+        "answer": "The gable grip (palm-to-palm with overlapping fingers) provides the strongest raw connection and is ideal when you plan to execute an immediate high-power mat return or lift that requires maximum grip strength. The S-grip (interlocking fingers in a hook configuration) offers a balance of strength and wrist comfort for sustained control when you need to hold the position briefly while setting up your takedown angle. The butterfly grip (thumbs-up clasp) allows the quickest transition to alternative attacks like back control hooks. Choose based on your intended immediate follow-up attack rather than defaulting to one configuration.",
+        "answer_line": "Match grip to your follow-up attack",
+        "distractors": {
+          "plausible": [
+            "Use S-grip for max lifting power",
+            "Use butterfly grip for lifting power"
+          ],
+          "trap": [
+            "Always default to gable grip"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their head away and drops their level during your grip transition - how do you adapt?",
-        "answer": "An opponent dropping level during the transition is actually loading themselves for either a counter throw or an escape attempt. Respond by lowering your own level proportionally, keeping your hips below or level with theirs to prevent being thrown over. If your arms are mid-transition, accelerate the conversion and complete the body lock at the lower level rather than trying to pull them back upright. A low body lock is still highly functional for mat returns. If they are turning, use the remaining seatbelt arm to control their rotation and circle with them to maintain rear position before completing the grip change."
+        "answer": "An opponent dropping level during the transition is actually loading themselves for either a counter throw or an escape attempt. Respond by lowering your own level proportionally, keeping your hips below or level with theirs to prevent being thrown over. If your arms are mid-transition, accelerate the conversion and complete the body lock at the lower level rather than trying to pull them back upright. A low body lock is still highly functional for mat returns. If they are turning, use the remaining seatbelt arm to control their rotation and circle with them to maintain rear position before completing the grip change.",
+        "answer_line": "Lower your level, complete lock low",
+        "distractors": {
+          "plausible": [
+            "Stay at the same level",
+            "Release the seatbelt arm to reset"
+          ],
+          "trap": [
+            "Pull them back upright first"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves standing grip work where the primary safety concern is maintaining balance for both practitioners during the grip change. Avoid explosive jerking motions that could cause whiplash or cervical strain. When training the immediate takedown follow-up, ensure the receiving partner knows how to breakfall properly. Never attempt suplex-style lifts in training without explicit partner consent and appropriate mat surface. Be mindful of finger and wrist injuries from aggressive grip fighting during the transition window. Always release control immediately if your partner signals discomfort or taps.",
@@ -411,23 +491,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to convert from seatbelt to body lock?",
-        "answer": "The earliest cue is the underhook arm beginning to slide downward from your armpit toward your waist. You will feel reduced pressure in the armpit area and increased contact along your ribcage and flank as the arm travels down. This typically occurs simultaneously with increased forward hip pressure from the attacker, which serves to mask the grip change. Reacting to this first sign of arm movement gives you the maximum defensive window before the lock is established."
+        "answer": "The earliest cue is the underhook arm beginning to slide downward from your armpit toward your waist. You will feel reduced pressure in the armpit area and increased contact along your ribcage and flank as the arm travels down. This typically occurs simultaneously with increased forward hip pressure from the attacker, which serves to mask the grip change. Reacting to this first sign of arm movement gives you the maximum defensive window before the lock is established.",
+        "answer_line": "Underhook arm sliding down first",
+        "distractors": {
+          "plausible": [
+            "Increased hip pressure alone",
+            "Sudden change in head position"
+          ],
+          "trap": [
+            "Wait until hands fully lock"
+          ]
+        }
       },
       {
         "question": "Why is sitting to guard sometimes the correct defensive choice against the body lock transition?",
-        "answer": "Sitting to guard is correct when standing defenses have failed and the body lock is about to be or has just been completed. A controlled, proactive guard pull where you choose the timing and position of your descent is significantly better than being thrown or mat-returned into a position the attacker has predetermined. By sitting before the takedown is executed, you maintain some positional initiative and can immediately establish defensive frames and guard structure. The key principle is controlling your own descent rather than allowing the attacker to dictate how you go to the ground."
+        "answer": "Sitting to guard is correct when standing defenses have failed and the body lock is about to be or has just been completed. A controlled, proactive guard pull where you choose the timing and position of your descent is significantly better than being thrown or mat-returned into a position the attacker has predetermined. By sitting before the takedown is executed, you maintain some positional initiative and can immediately establish defensive frames and guard structure. The key principle is controlling your own descent rather than allowing the attacker to dictate how you go to the ground.",
+        "answer_line": "Control your own descent timing",
+        "distractors": {
+          "plausible": [
+            "Only if you're already losing",
+            "Wait for the takedown to land"
+          ],
+          "trap": [
+            "Keep standing and hope to escape"
+          ]
+        }
       },
       {
         "question": "How should you defend if you feel both of the attacker's arms reaching your waist level simultaneously?",
-        "answer": "If both arms are already at waist level, the lock is imminent and your priority shifts from preventing the lock to mitigating its consequences. Get at least one hand inside the developing lock to wedge between their arms and your body, which prevents them from tightening fully. Simultaneously lower your base aggressively by bending your knees and widening your stance. If you cannot prevent the lock, immediately begin grip-breaking from the most accessible point while preparing to sit to guard. Do not freeze or wait to see what they do next, as the attacker will attack within one second of establishing the lock."
+        "answer": "If both arms are already at waist level, the lock is imminent and your priority shifts from preventing the lock to mitigating its consequences. Get at least one hand inside the developing lock to wedge between their arms and your body, which prevents them from tightening fully. Simultaneously lower your base aggressively by bending your knees and widening your stance. If you cannot prevent the lock, immediately begin grip-breaking from the most accessible point while preparing to sit to guard. Do not freeze or wait to see what they do next, as the attacker will attack within one second of establishing the lock.",
+        "answer_line": "Wedge a hand inside, drop base",
+        "distractors": {
+          "plausible": [
+            "Push both hands against their arms",
+            "Immediately sit to guard"
+          ],
+          "trap": [
+            "Freeze and assess the situation"
+          ]
+        }
       },
       {
         "question": "What is the highest-risk moment during the defender's response to the grip conversion?",
-        "answer": "The highest-risk moment is when you commit both hands to fighting the attacker's sliding arm, leaving their remaining seatbelt arm (the over-shoulder choking arm) undefended. A skilled attacker may bait the body lock attempt to draw your defensive hand fighting, then tighten the choking arm for a standing rear naked choke attempt while you are focused on the waist-level threat. To mitigate this, fight the sliding arm primarily with your same-side hand while keeping your opposite-side hand available to address the choking arm or maintain a frame against the attacker's head and shoulder."
+        "answer": "The highest-risk moment is when you commit both hands to fighting the attacker's sliding arm, leaving their remaining seatbelt arm (the over-shoulder choking arm) undefended. A skilled attacker may bait the body lock attempt to draw your defensive hand fighting, then tighten the choking arm for a standing rear naked choke attempt while you are focused on the waist-level threat. To mitigate this, fight the sliding arm primarily with your same-side hand while keeping your opposite-side hand available to address the choking arm or maintain a frame against the attacker's head and shoulder.",
+        "answer_line": "Both hands busy, choke arm free",
+        "distractors": {
+          "plausible": [
+            "Losing balance during the sprawl",
+            "Gripping the sliding arm too early"
+          ],
+          "trap": [
+            "Ignoring the choking arm entirely"
+          ]
+        }
       },
       {
         "question": "Your opponent drives increased hip pressure and you feel their underhook arm sliding - what is your immediate three-step response?",
-        "answer": "Step one: grab the sliding arm with your nearest hand using a two-on-one grip if possible, anchoring it before it reaches your waist. Step two: simultaneously drive your hips away from the attacker with an explosive hip escape to create space between your waist and their reaching arm. Step three: if the first two actions stall the transition, use the created space to begin turning toward the attacker to face them, or if the attacker is adjusting to chase, take the opportunity to pummel your arm inside to create a defensive frame. The three actions should flow together in under two seconds."
+        "answer": "Step one: grab the sliding arm with your nearest hand using a two-on-one grip if possible, anchoring it before it reaches your waist. Step two: simultaneously drive your hips away from the attacker with an explosive hip escape to create space between your waist and their reaching arm. Step three: if the first two actions stall the transition, use the created space to begin turning toward the attacker to face them, or if the attacker is adjusting to chase, take the opportunity to pummel your arm inside to create a defensive frame. The three actions should flow together in under two seconds.",
+        "answer_line": "Grab arm, hip escape, then turn",
+        "distractors": {
+          "plausible": [
+            "Hip escape, then grab the arm",
+            "Grab arm, then sit to guard"
+          ],
+          "trap": [
+            "Push away and stand up straight"
+          ]
+        }
       }
     ],
     "training_progressions": [

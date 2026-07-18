@@ -255,35 +255,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the clamp entry from open guard?",
-        "answer": "The optimal window is the moment the opponent's arm extends inside your guard framework — when they reach for a collar tie, grip your pants, attempt an underhook, or post their hand. This extension creates the space between their arm and torso needed to thread your shin across the bicep. The window lasts approximately 0.5 to 1 second before they retract or commit to a pass. If you miss the window, do not chase — recreate it through feints."
+        "answer": "The optimal window is the moment the opponent's arm extends inside your guard framework — when they reach for a collar tie, grip your pants, attempt an underhook, or post their hand. This extension creates the space between their arm and torso needed to thread your shin across the bicep. The window lasts approximately 0.5 to 1 second before they retract or commit to a pass. If you miss the window, do not chase — recreate it through feints.",
+        "answer_line": "When their arm extends",
+        "distractors": {
+          "plausible": [
+            "Right after they pass your knee",
+            "When they settle into base"
+          ],
+          "trap": [
+            "Chase the arm once it retracts"
+          ]
+        }
       },
       {
         "question": "Why must the shin seat across the bicep rather than the forearm?",
-        "answer": "The bicep is the thickest part of the upper arm, making it physically difficult to slide through a tight leg clamp. Shin-on-bicep also controls the elbow joint angle, preventing the opponent from bending their arm to create extraction leverage. The forearm tapers toward the wrist, allowing the arm to slip free with minimal effort. A bicep-level clamp retains approximately 60% more holding power than a forearm-level clamp and enables all three major submission pathways — armbar, triangle, and omoplata."
+        "answer": "The bicep is the thickest part of the upper arm, making it physically difficult to slide through a tight leg clamp. Shin-on-bicep also controls the elbow joint angle, preventing the opponent from bending their arm to create extraction leverage. The forearm tapers toward the wrist, allowing the arm to slip free with minimal effort. A bicep-level clamp retains approximately 60% more holding power than a forearm-level clamp and enables all three major submission pathways — armbar, triangle, and omoplata.",
+        "answer_line": "Bicep can't slide free",
+        "distractors": {
+          "plausible": [
+            "Wrist grip gives more control",
+            "Tricep locks the elbow joint"
+          ],
+          "trap": [
+            "Forearm slips through easier"
+          ]
+        }
       },
       {
         "question": "What hip angle should you establish during the clamp entry and why?",
-        "answer": "Angle your hips approximately 30-45 degrees toward the target arm side by hip escaping away from the opponent. This angle creates a structural wedge where the shin presses across the bicep at a perpendicular angle rather than parallel, generating self-tightening mechanics as the opponent pulls. Flat hips produce a clamp that relies on muscular squeeze and fails under direct pulling force. The angled position also pre-loads your body for armbar and triangle entries."
+        "answer": "Angle your hips approximately 30-45 degrees toward the target arm side by hip escaping away from the opponent. This angle creates a structural wedge where the shin presses across the bicep at a perpendicular angle rather than parallel, generating self-tightening mechanics as the opponent pulls. Flat hips produce a clamp that relies on muscular squeeze and fails under direct pulling force. The angled position also pre-loads your body for armbar and triangle entries.",
+        "answer_line": "30-45° hips escaped away",
+        "distractors": {
+          "plausible": [
+            "Square hips facing opponent",
+            "90° for max leverage"
+          ],
+          "trap": [
+            "Flat hips, muscle the squeeze"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbows tight and refuses to extend their arms — how do you create the reaching reaction needed for the clamp entry?",
-        "answer": "Use indirect setups that force arm extension. A collar drag feint pulls their upper body forward, prompting a hand post. A hip bump threat forces them to base with their hands. Breaking their existing grips on your legs forces them to re-establish grips, creating extension windows. A sweep threat from butterfly hooks makes them post laterally. Each of these creates a 0.5-1 second window where the arm extends and can be intercepted by the shin threading across the bicep."
+        "answer": "Use indirect setups that force arm extension. A collar drag feint pulls their upper body forward, prompting a hand post. A hip bump threat forces them to base with their hands. Breaking their existing grips on your legs forces them to re-establish grips, creating extension windows. A sweep threat from butterfly hooks makes them post laterally. Each of these creates a 0.5-1 second window where the arm extends and can be intercepted by the shin threading across the bicep.",
+        "answer_line": "Feint collar drag or hip bump",
+        "distractors": {
+          "plausible": [
+            "Pull hard on their sleeve",
+            "Wait for them to attack"
+          ],
+          "trap": [
+            "Force the shin through anyway"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip to maintain during the transition and why?",
-        "answer": "Wrist control on the target arm is the most critical grip. It serves three purposes: it prevents the opponent from retracting their arm during entry, it guides the arm into the optimal path for shin placement on the bicep, and it controls the arm position while the second leg closes the clamp. Without wrist control, the opponent retracts before the shin seats, reducing success rate by roughly half. The wrist grip is only released after the bilateral clamp is fully established."
+        "answer": "Wrist control on the target arm is the most critical grip. It serves three purposes: it prevents the opponent from retracting their arm during entry, it guides the arm into the optimal path for shin placement on the bicep, and it controls the arm position while the second leg closes the clamp. Without wrist control, the opponent retracts before the shin seats, reducing success rate by roughly half. The wrist grip is only released after the bilateral clamp is fully established.",
+        "answer_line": "Wrist control on target arm",
+        "distractors": {
+          "plausible": [
+            "Collar grip for control",
+            "Ankle grip on far leg"
+          ],
+          "trap": [
+            "Release wrist to thread shin"
+          ]
+        }
       },
       {
         "question": "The opponent drives forward aggressively as you begin threading your shin — how do you adjust?",
-        "answer": "The forward drive is actually advantageous if your shin is already contacting the bicep, because their forward momentum helps seat the clamp deeper. Frame on their shoulder with your free hand and redirect their drive laterally rather than absorbing it straight back. If the shin is not yet placed, use the forward momentum for a butterfly hook sweep instead — their committed weight forward makes them vulnerable to elevation. Never try to force the clamp against aggressive forward pressure if you have not yet made shin contact."
+        "answer": "The forward drive is actually advantageous if your shin is already contacting the bicep, because their forward momentum helps seat the clamp deeper. Frame on their shoulder with your free hand and redirect their drive laterally rather than absorbing it straight back. If the shin is not yet placed, use the forward momentum for a butterfly hook sweep instead — their committed weight forward makes them vulnerable to elevation. Never try to force the clamp against aggressive forward pressure if you have not yet made shin contact.",
+        "answer_line": "Frame shoulder, redirect drive",
+        "distractors": {
+          "plausible": [
+            "Absorb the drive straight back",
+            "Pull guard and reset position"
+          ],
+          "trap": [
+            "Force the clamp, no shin yet"
+          ]
+        }
       },
       {
         "question": "What direction of force should your clamping legs generate against the trapped arm?",
-        "answer": "The force should be bilateral compression — both legs squeezing inward toward each other with the bicep sandwiched between them. The primary shin presses across the bicep from the front while the secondary leg presses from behind or below, creating a vise effect. Simultaneously, the hip angle creates a downward wedging force that tightens the clamp as the opponent pulls upward to extract. The combined effect is three-directional pressure that requires the opponent to overcome all vectors simultaneously."
+        "answer": "The force should be bilateral compression — both legs squeezing inward toward each other with the bicep sandwiched between them. The primary shin presses across the bicep from the front while the secondary leg presses from behind or below, creating a vise effect. Simultaneously, the hip angle creates a downward wedging force that tightens the clamp as the opponent pulls upward to extract. The combined effect is three-directional pressure that requires the opponent to overcome all vectors simultaneously.",
+        "answer_line": "Bilateral squeeze, downward wedge",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight upward",
+            "Push the arm away laterally"
+          ],
+          "trap": [
+            "Squeeze hard from one side"
+          ]
+        }
       },
       {
         "question": "If your clamp attempt fails and the opponent begins advancing past your legs, what is your immediate recovery protocol?",
-        "answer": "Immediately retract both legs to re-establish guard frames rather than continuing to pursue the clamp. Place feet on their hips or shins across their thighs to recreate distance. If they have already passed your knee line, hip escape and insert a knee shield to recover to half guard. Never leave your legs extended in a failed clamp position because both legs are committed to the trap attempt rather than defending against the pass, creating a critical vulnerability window."
+        "answer": "Immediately retract both legs to re-establish guard frames rather than continuing to pursue the clamp. Place feet on their hips or shins across their thighs to recreate distance. If they have already passed your knee line, hip escape and insert a knee shield to recover to half guard. Never leave your legs extended in a failed clamp position because both legs are committed to the trap attempt rather than defending against the pass, creating a critical vulnerability window.",
+        "answer_line": "Retract legs, reframe hips",
+        "distractors": {
+          "plausible": [
+            "Grab a fresh underhook fast",
+            "Push off and stand up"
+          ],
+          "trap": [
+            "Keep legs extended, retry clamp"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to Clamp Guard is generally low-risk for both practitioners. The primary safety concern is avoiding excessive shin pressure on the opponent's bicep, which can cause nerve compression or bruising during prolonged drilling. Release the clamp immediately if your partner reports numbness or sharp pain in the trapped arm. During training, establish the clamp with controlled pressure rather than explosive force to avoid hyperextension of the opponent's elbow if their arm is caught at an awkward angle during the entry.",
@@ -394,15 +474,45 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a clamp guard entry is being attempted?",
-        "answer": "The earliest cue is the opponent's hip escape away from one of your arms combined with wrist control on that arm. The hip escape creates the angle needed for shin threading, and the wrist control prevents you from retracting. Secondary cues include the near-side leg lifting to thread across your arm and a deliberate pull on your wrist toward their hip. Recognizing these cues within the first half-second is critical because extraction difficulty increases exponentially once the shin seats on the bicep."
+        "answer": "The earliest cue is the opponent's hip escape away from one of your arms combined with wrist control on that arm. The hip escape creates the angle needed for shin threading, and the wrist control prevents you from retracting. Secondary cues include the near-side leg lifting to thread across your arm and a deliberate pull on your wrist toward their hip. Recognizing these cues within the first half-second is critical because extraction difficulty increases exponentially once the shin seats on the bicep.",
+        "answer_line": "Hip escape plus wrist control",
+        "distractors": {
+          "plausible": [
+            "Opponent pulls to their chest",
+            "Sudden change in collar grip"
+          ],
+          "trap": [
+            "Wait until the shin seats"
+          ]
+        }
       },
       {
         "question": "Why is circular arm extraction more effective than pulling straight back against an established clamp?",
-        "answer": "The clamp uses a wedge mechanic created by the hip angle — the shin presses across the bicep at an angle that tightens under direct pulling force, similar to a Chinese finger trap. Circular extraction changes the force vector to one the clamp is not designed to resist. The outward rotation moves the arm around the edge of the shin rather than against the flat pressing surface, requiring significantly less force to clear. Additionally, circular motion disrupts the guard player's hip angle, further weakening the clamp mechanics."
+        "answer": "The clamp uses a wedge mechanic created by the hip angle — the shin presses across the bicep at an angle that tightens under direct pulling force, similar to a Chinese finger trap. Circular extraction changes the force vector to one the clamp is not designed to resist. The outward rotation moves the arm around the edge of the shin rather than against the flat pressing surface, requiring significantly less force to clear. Additionally, circular motion disrupts the guard player's hip angle, further weakening the clamp mechanics.",
+        "answer_line": "Rotate around the wedge",
+        "distractors": {
+          "plausible": [
+            "Jerk the arm out fast",
+            "Twist the wrist free"
+          ],
+          "trap": [
+            "Pull straight back harder"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to drive forward rather than retract when defending against the clamp entry?",
-        "answer": "Drive forward only when you recognize the hip escape but before the shin has threaded across your bicep. At this stage, the forward drive collapses the space the opponent needs for the clamping angle and can advance your passing position. If the shin is already on the bicep, do not drive forward because the clamp tightens with forward pressure and the guard player can use your momentum for sweeps. The decision point is shin contact: no contact means drive, contact means retract or rotate."
+        "answer": "Drive forward only when you recognize the hip escape but before the shin has threaded across your bicep. At this stage, the forward drive collapses the space the opponent needs for the clamping angle and can advance your passing position. If the shin is already on the bicep, do not drive forward because the clamp tightens with forward pressure and the guard player can use your momentum for sweeps. The decision point is shin contact: no contact means drive, contact means retract or rotate.",
+        "answer_line": "Before shin touches bicep",
+        "distractors": {
+          "plausible": [
+            "After the shin has seated",
+            "As soon as they hip escape"
+          ],
+          "trap": [
+            "Drive forward once shin is on"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -255,35 +255,115 @@
     "flashcards": [
       {
         "question": "Why is progressive pressure application more effective than explosive forward drive against shin-to-shin guard?",
-        "answer": "Progressive pressure prevents the guard player from timing counter-entries that exploit forward momentum. Explosive drives create predictable weight commitment that skilled practitioners convert into Single Leg X entries, butterfly sweeps, or technical stand-ups. Controlled, incremental loading maintains the ability to retract or redirect weight at any point, denying the guard player the momentum they need for effective counters while still generating sufficient force to collapse the shin connection over time."
+        "answer": "Progressive pressure prevents the guard player from timing counter-entries that exploit forward momentum. Explosive drives create predictable weight commitment that skilled practitioners convert into Single Leg X entries, butterfly sweeps, or technical stand-ups. Controlled, incremental loading maintains the ability to retract or redirect weight at any point, denying the guard player the momentum they need for effective counters while still generating sufficient force to collapse the shin connection over time.",
+        "answer_line": "Deny momentum for counters",
+        "distractors": {
+          "plausible": [
+            "Speed matters more than control",
+            "Heavier pressure ends it faster"
+          ],
+          "trap": [
+            "Explode forward to collapse guard"
+          ]
+        }
       },
       {
         "question": "What angle should pressure be applied through the shin connection and why?",
-        "answer": "Pressure should be applied at a 30-45 degree downward angle through the shin connection, not horizontally. The downward vector creates mechanical advantage that collapses the perpendicular shin structure by driving the opponent's shin toward the mat rather than simply pushing them backward. Horizontal pressure allows the guard player to maintain their perpendicular angle while scooting away, whereas downward pressure attacks the structural integrity of the connection itself, breaking the angle that gives the position its leverage."
+        "answer": "Pressure should be applied at a 30-45 degree downward angle through the shin connection, not horizontally. The downward vector creates mechanical advantage that collapses the perpendicular shin structure by driving the opponent's shin toward the mat rather than simply pushing them backward. Horizontal pressure allows the guard player to maintain their perpendicular angle while scooting away, whereas downward pressure attacks the structural integrity of the connection itself, breaking the angle that gives the position its leverage.",
+        "answer_line": "Downward 30-45° through shin",
+        "distractors": {
+          "plausible": [
+            "Straight horizontal push",
+            "Steep vertical drive down"
+          ],
+          "trap": [
+            "Bounce weight for momentum"
+          ]
+        }
       },
       {
         "question": "Your opponent begins elevating their hips during your pressure application—what does this indicate and how should you respond?",
-        "answer": "Hip elevation during pressure indicates the guard player is building entry mechanics for Single Leg X-Guard by using your committed forward weight as the elevation platform. Immediately reduce forward drive, widen your lateral base, and drop your hips to lower your center of gravity. Control their far hip with your hand to prevent the elevation from completing. Only resume pressure once their hips have returned to the mat and you have confirmed they are not set up for a second elevation attempt."
+        "answer": "Hip elevation during pressure indicates the guard player is building entry mechanics for Single Leg X-Guard by using your committed forward weight as the elevation platform. Immediately reduce forward drive, widen your lateral base, and drop your hips to lower your center of gravity. Control their far hip with your hand to prevent the elevation from completing. Only resume pressure once their hips have returned to the mat and you have confirmed they are not set up for a second elevation attempt.",
+        "answer_line": "Widen base, control far hip",
+        "distractors": {
+          "plausible": [
+            "Increase pressure to stop it",
+            "Sit back and reassess"
+          ],
+          "trap": [
+            "Drive forward into the lift"
+          ]
+        }
       },
       {
         "question": "What upper body control should be established before committing weight to the pressure pass?",
-        "answer": "Establish dominant collar grip, sleeve grip, or both to prevent the guard player from achieving distance management grips that enable sweep setups. At minimum, contest any existing grips they hold—stripping or redirecting sleeve and collar controls that would allow them to pull you off-balance during the forward weight commitment phase. Without upper body control, your pressure application is vulnerable to grip-based off-balancing, frame-based redirections, and upper body manipulation that creates space for counter-entries."
+        "answer": "Establish dominant collar grip, sleeve grip, or both to prevent the guard player from achieving distance management grips that enable sweep setups. At minimum, contest any existing grips they hold—stripping or redirecting sleeve and collar controls that would allow them to pull you off-balance during the forward weight commitment phase. Without upper body control, your pressure application is vulnerable to grip-based off-balancing, frame-based redirections, and upper body manipulation that creates space for counter-entries.",
+        "answer_line": "Secure or strip collar/sleeve",
+        "distractors": {
+          "plausible": [
+            "Grip belt for base control",
+            "Control head before hands"
+          ],
+          "trap": [
+            "Commit weight, grips can wait"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a shin connection that can be pressured through versus one that requires movement-based clearing?",
-        "answer": "A pressurable shin connection shows signs of passivity: the guard player's shin angle is less than fully perpendicular, their hip drive is minimal or absent, and their upper body grips are not actively controlling distance. A connection requiring movement-based clearing is characterized by strong perpendicular angle with active upward pressure, mobile hips constantly adjusting angle, and dominant upper body grips enabling immediate sweep threats. Attempting to pressure through an active, well-structured connection risks feeding directly into the guard player's strongest counter-entries."
+        "answer": "A pressurable shin connection shows signs of passivity: the guard player's shin angle is less than fully perpendicular, their hip drive is minimal or absent, and their upper body grips are not actively controlling distance. A connection requiring movement-based clearing is characterized by strong perpendicular angle with active upward pressure, mobile hips constantly adjusting angle, and dominant upper body grips enabling immediate sweep threats. Attempting to pressure through an active, well-structured connection risks feeding directly into the guard player's strongest counter-entries.",
+        "answer_line": "Pressure only passive angles",
+        "distractors": {
+          "plausible": [
+            "Any shin contact works",
+            "Judge only by grip strength"
+          ],
+          "trap": [
+            "Pressure through active hips"
+          ]
+        }
       },
       {
         "question": "What grip does the guard player most need to deny during your pressure application and why?",
-        "answer": "The same-side sleeve grip is the most critical grip to deny. This grip allows the guard player to pull your arm across their body during pressure application, creating off-balancing torque that compromises your base and redirects your weight laterally into sweep positions. It also prevents you from posting if pulled forward and enables them to control your arm during transitions to Single Leg X or butterfly guard. Strip this grip before committing significant forward weight."
+        "answer": "The same-side sleeve grip is the most critical grip to deny. This grip allows the guard player to pull your arm across their body during pressure application, creating off-balancing torque that compromises your base and redirects your weight laterally into sweep positions. It also prevents you from posting if pulled forward and enables them to control your arm during transitions to Single Leg X or butterfly guard. Strip this grip before committing significant forward weight.",
+        "answer_line": "Strip same-side sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Deny the collar grip first",
+            "Control both wrists equally"
+          ],
+          "trap": [
+            "Let them keep sleeve grip"
+          ]
+        }
       },
       {
         "question": "After collapsing the shin connection, what is the optimal immediate follow-up and why is timing critical?",
-        "answer": "Immediately advance your knee across their thigh line and establish half guard top position with crossface control. Timing is critical because the window between shin collapse and guard re-establishment is extremely brief—typically one to two seconds. The guard player will attempt to re-angle their hips and re-establish the perpendicular shin connection or transition to an alternative guard. Any pause for assessment or positional adjustment allows this recovery. Pre-planning the advancement pathway before beginning pressure ensures seamless transition from collapse to consolidation."
+        "answer": "Immediately advance your knee across their thigh line and establish half guard top position with crossface control. Timing is critical because the window between shin collapse and guard re-establishment is extremely brief—typically one to two seconds. The guard player will attempt to re-angle their hips and re-establish the perpendicular shin connection or transition to an alternative guard. Any pause for assessment or positional adjustment allows this recovery. Pre-planning the advancement pathway before beginning pressure ensures seamless transition from collapse to consolidation.",
+        "answer_line": "Knee across, crossface fast",
+        "distractors": {
+          "plausible": [
+            "Pause to check your base",
+            "Circle slowly to far side"
+          ],
+          "trap": [
+            "Reset base before advancing"
+          ]
+        }
       },
       {
         "question": "How should you modify your pressure approach against an opponent who is significantly lighter than you?",
-        "answer": "Against lighter opponents, reduce the overall weight commitment and increase control precision. Lighter guard players are more mobile and quicker to transition, so excessive forward weight creates larger vulnerability windows for counter-entries. Focus on upper body control quality and use moderate pressure combined with immediate advancement rather than heavy progressive loading. The shin connection collapses faster against lighter practitioners, so the emphasis shifts from force generation to reaction speed and transition timing."
+        "answer": "Against lighter opponents, reduce the overall weight commitment and increase control precision. Lighter guard players are more mobile and quicker to transition, so excessive forward weight creates larger vulnerability windows for counter-entries. Focus on upper body control quality and use moderate pressure combined with immediate advancement rather than heavy progressive loading. The shin connection collapses faster against lighter practitioners, so the emphasis shifts from force generation to reaction speed and transition timing.",
+        "answer_line": "Less weight, more precision",
+        "distractors": {
+          "plausible": [
+            "Apply even heavier pressure",
+            "Match pace with speed alone"
+          ],
+          "trap": [
+            "Load full weight, they're light"
+          ]
+        }
       }
     ],
     "safety_considerations": "Apply pressure progressively and avoid slamming body weight through the shin connection, which can cause tibial stress injuries to both players. Be aware of knee strain on the guard player when collapsing the shin angle—if they signal discomfort, release pressure immediately. During training, communicate with your partner about pressure intensity and adjust based on their comfort level. Avoid hyperextending the guard player's ankle by monitoring foot position during the collapse phase.",
@@ -398,23 +478,73 @@
     "flashcards": [
       {
         "question": "What is the primary advantage the defender has when facing a pressure-based approach to shin-to-shin passing?",
-        "answer": "The defender's primary advantage is that committed forward pressure from the top player creates the exact conditions needed for counter-entries. Forward weight commitment provides the elevation platform for Single Leg X-Guard entries and the downward momentum for butterfly sweep conversions. The more pressure the attacker applies, the more powerful the defender's counter-entries become—provided the defender recognizes the timing window and initiates the transition before the shin structure collapses."
+        "answer": "The defender's primary advantage is that committed forward pressure from the top player creates the exact conditions needed for counter-entries. Forward weight commitment provides the elevation platform for Single Leg X-Guard entries and the downward momentum for butterfly sweep conversions. The more pressure the attacker applies, the more powerful the defender's counter-entries become—provided the defender recognizes the timing window and initiates the transition before the shin structure collapses.",
+        "answer_line": "Your pressure fuels their entry",
+        "distractors": {
+          "plausible": [
+            "Defender has no real edge",
+            "Only matters if defender's bigger"
+          ],
+          "trap": [
+            "More pressure is always safer"
+          ]
+        }
       },
       {
         "question": "How do you determine the optimal moment to transition from shin-to-shin defense to a counter-entry?",
-        "answer": "The optimal transition moment is when the attacker's forward pressure is near peak commitment but before your shin angle has degraded past the point of structural utility. Key indicators include: the attacker's weight visibly shifted forward over the contact point, their hips are extended and committed to the drive, and their base has narrowed to generate maximum forward force. At this point, their ability to retract and defend counter-entries is minimized while your ability to use their committed weight for elevation or sweep is maximized."
+        "answer": "The optimal transition moment is when the attacker's forward pressure is near peak commitment but before your shin angle has degraded past the point of structural utility. Key indicators include: the attacker's weight visibly shifted forward over the contact point, their hips are extended and committed to the drive, and their base has narrowed to generate maximum forward force. At this point, their ability to retract and defend counter-entries is minimized while your ability to use their committed weight for elevation or sweep is maximized.",
+        "answer_line": "At attacker's peak commitment",
+        "distractors": {
+          "plausible": [
+            "As soon as contact is made",
+            "Wait for shin to fully collapse"
+          ],
+          "trap": [
+            "Elevate as attacker retreats"
+          ]
+        }
       },
       {
         "question": "Your shin angle is collapsing under heavy pressure and you cannot re-establish the perpendicular connection—what should you do?",
-        "answer": "Immediately abandon the shin-to-shin position and transition to an alternative guard rather than fighting a losing structural battle. Your best options in order of priority: thread to Single Leg X if you can get underneath, insert butterfly hook if their weight is dropping, hip escape to recover knee shield half guard, or retreat to seated guard with feet-on-hips distance management. The critical error is continuing to fight for a collapsed position while the attacker advances through the opening."
+        "answer": "Immediately abandon the shin-to-shin position and transition to an alternative guard rather than fighting a losing structural battle. Your best options in order of priority: thread to Single Leg X if you can get underneath, insert butterfly hook if their weight is dropping, hip escape to recover knee shield half guard, or retreat to seated guard with feet-on-hips distance management. The critical error is continuing to fight for a collapsed position while the attacker advances through the opening.",
+        "answer_line": "Abandon, thread Single Leg X",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for the angle",
+            "Stand up and create distance"
+          ],
+          "trap": [
+            "Muscle the angle back by force"
+          ]
+        }
       },
       {
         "question": "Why is hip elevation timing more important than hip elevation power when countering the pressure pass?",
-        "answer": "Timing determines whether the attacker's weight assists your elevation or works against it. Elevating when the attacker's weight is fully committed forward provides their momentum as a platform—your hips rise easily because their drive creates the upward reaction force. Elevating at the wrong time, either too early when they can retract or too late when the shin is already collapsed, requires significantly more muscular effort to achieve the same result. Precise timing converts the attacker's own force into your counter-entry power."
+        "answer": "Timing determines whether the attacker's weight assists your elevation or works against it. Elevating when the attacker's weight is fully committed forward provides their momentum as a platform—your hips rise easily because their drive creates the upward reaction force. Elevating at the wrong time, either too early when they can retract or too late when the shin is already collapsed, requires significantly more muscular effort to achieve the same result. Precise timing converts the attacker's own force into your counter-entry power.",
+        "answer_line": "Time it to their peak weight",
+        "distractors": {
+          "plausible": [
+            "Power matters more than timing",
+            "Elevate early to surprise them"
+          ],
+          "trap": [
+            "Elevate the instant they retract"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize maintaining throughout the defensive sequence against pressure passing?",
-        "answer": "Prioritize the same-side ankle or pants grip on the leg connected to your shin. This grip prevents the attacker from retracting their leg during counter-entry attempts and provides the anchor point needed for Single Leg X-Guard establishment. Without this grip, successful hip elevation still fails because the attacker can simply withdraw the targeted leg. Secondary priority is a collar or sleeve grip for distance management and off-balancing during the transition."
+        "answer": "Prioritize the same-side ankle or pants grip on the leg connected to your shin. This grip prevents the attacker from retracting their leg during counter-entry attempts and provides the anchor point needed for Single Leg X-Guard establishment. Without this grip, successful hip elevation still fails because the attacker can simply withdraw the targeted leg. Secondary priority is a collar or sleeve grip for distance management and off-balancing during the transition.",
+        "answer_line": "Keep same-side ankle/pants grip",
+        "distractors": {
+          "plausible": [
+            "Collar grip is top priority",
+            "Grip their far sleeve first"
+          ],
+          "trap": [
+            "Release leg, grab collar instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

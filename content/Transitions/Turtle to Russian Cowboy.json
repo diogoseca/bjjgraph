@@ -211,23 +211,73 @@
     "flashcards": [
       {
         "question": "Why must you secure the seatbelt or harness before threading the leg hook in this entry?",
-        "answer": "Because reaching for the leg first creates a gap that lets the opponent stand up or roll out of turtle before you have any meaningful control. The upper-body grip and chest pin remove the stand-up and the forward roll, so once it is locked the opponent has no safe exit while you commit the leg. Sequencing upper body first is the single biggest factor in whether the entry succeeds or hands the opponent an escape."
+        "answer": "Because reaching for the leg first creates a gap that lets the opponent stand up or roll out of turtle before you have any meaningful control. The upper-body grip and chest pin remove the stand-up and the forward roll, so once it is locked the opponent has no safe exit while you commit the leg. Sequencing upper body first is the single biggest factor in whether the entry succeeds or hands the opponent an escape.",
+        "answer_line": "Upper body control first",
+        "distractors": {
+          "plausible": [
+            "Hook first, seatbelt later",
+            "Grip both wrists first"
+          ],
+          "trap": [
+            "Dive for the ankle immediately"
+          ]
+        }
       },
       {
         "question": "How deep should the hook be threaded and why does depth matter?",
-        "answer": "The hook should be threaded deep across the opponent's inner thigh toward the groin, using your whole shin as a lever, not just catching the ankle or lower shin. Depth matters because a deep hook controls the opponent's rotation and creates the stretch that defines the Russian Cowboy, while a shallow hook only holds the ankle and is easily kicked free. After threading deep, you curl your toes to bite the hook so it cannot be extracted."
+        "answer": "The hook should be threaded deep across the opponent's inner thigh toward the groin, using your whole shin as a lever, not just catching the ankle or lower shin. Depth matters because a deep hook controls the opponent's rotation and creates the stretch that defines the Russian Cowboy, while a shallow hook only holds the ankle and is easily kicked free. After threading deep, you curl your toes to bite the hook so it cannot be extracted.",
+        "answer_line": "Deep on inner thigh, curl toes",
+        "distractors": {
+          "plausible": [
+            "Catch just the ankle",
+            "Hook the lower shin only"
+          ],
+          "trap": [
+            "Hook shallow, grip pants instead"
+          ]
+        }
       },
       {
         "question": "Why do you post the free leg instead of chasing a second hook?",
-        "answer": "The Russian Cowboy is an asymmetric single-hook position by design. The free, posted leg serves as your base against rolls and as a steering rudder to rotate the opponent and follow their defense. Chasing a second hook would collapse that base, remove your ability to drive and steer, and let the opponent bridge you over. The single hook plus posted leg is exactly the structure that feeds the truck."
+        "answer": "The Russian Cowboy is an asymmetric single-hook position by design. The free, posted leg serves as your base against rolls and as a steering rudder to rotate the opponent and follow their defense. Chasing a second hook would collapse that base, remove your ability to drive and steer, and let the opponent bridge you over. The single hook plus posted leg is exactly the structure that feeds the truck.",
+        "answer_line": "Free leg bases and steers",
+        "distractors": {
+          "plausible": [
+            "Chase second hook for control",
+            "Tuck free leg for safety"
+          ],
+          "trap": [
+            "Cross free leg over their back"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent kicks the near leg free before your hook goes deep?",
-        "answer": "Re-thread immediately rather than chasing the leg around. Drive your knee back under their thigh while using the seatbelt to drag their upper body back toward you, which reopens the gap for hook insertion. If you cannot recover the deep hook, fall back on consolidating both upper-body grips and staying on turtle top so you can reset the entry from a controlled position rather than scrambling."
+        "answer": "Re-thread immediately rather than chasing the leg around. Drive your knee back under their thigh while using the seatbelt to drag their upper body back toward you, which reopens the gap for hook insertion. If you cannot recover the deep hook, fall back on consolidating both upper-body grips and staying on turtle top so you can reset the entry from a controlled position rather than scrambling.",
+        "answer_line": "Re-thread, drag with seatbelt",
+        "distractors": {
+          "plausible": [
+            "Chase the leg around",
+            "Switch to the far-side hook"
+          ],
+          "trap": [
+            "Release grips and scramble up"
+          ]
+        }
       },
       {
         "question": "How does the opponent's defensive movement help you reach the truck from the Russian Cowboy?",
-        "answer": "Once you have the deep hook and seatbelt, staying glued to the opponent's movement turns their defense into your offense. When they roll away from the hook or shrimp to escape, that rotation creates the space and momentum for you to thread your second leg into the truck. The key is to follow with your chest and keep the hook bitten so their attempt to escape feeds directly into your next position rather than freeing them."
+        "answer": "Once you have the deep hook and seatbelt, staying glued to the opponent's movement turns their defense into your offense. When they roll away from the hook or shrimp to escape, that rotation creates the space and momentum for you to thread your second leg into the truck. The key is to follow with your chest and keep the hook bitten so their attempt to escape feeds directly into your next position rather than freeing them.",
+        "answer_line": "Follow roll into second hook",
+        "distractors": {
+          "plausible": [
+            "Wait still for them to tire",
+            "Release hook, reset position"
+          ],
+          "trap": [
+            "Fight their roll head-on"
+          ]
+        }
       }
     ],
     "safety_considerations": "The deep hook used in this entry loads the opponent's hooked leg and exposes it to calf-slicer and twister pressure as you flow toward the truck, so apply rotational and leg-line pressure progressively and never wrench the entangled leg. The seatbelt threatens chokes - control the choking arm deliberately and respect early taps, as a turtled opponent's neck is vulnerable. When drilling, communicate before adding live resistance so your partner can signal if leg pressure or the choke arrives faster than expected, and release immediately on a tap or verbal cue.",
@@ -323,15 +373,45 @@
     "flashcards": [
       {
         "question": "Why is tucking both hooks not enough to defend this particular entry?",
-        "answer": "Because the Turtle to Russian Cowboy entry attacks your leg line rather than just trying to insert two back hooks. Tucking both your hooks defends a conventional back take but leaves your near-side thigh available for the top player's single deep hook. To defend this entry you must specifically protect the near-side leg by keeping the knee tucked and your elbow connected to the thigh, while also fighting the upper-body grip."
+        "answer": "Because the Turtle to Russian Cowboy entry attacks your leg line rather than just trying to insert two back hooks. Tucking both your hooks defends a conventional back take but leaves your near-side thigh available for the top player's single deep hook. To defend this entry you must specifically protect the near-side leg by keeping the knee tucked and your elbow connected to the thigh, while also fighting the upper-body grip.",
+        "answer_line": "Near-side thigh stays exposed",
+        "distractors": {
+          "plausible": [
+            "Both hooks fully stop it",
+            "Only elbow position matters"
+          ],
+          "trap": [
+            "Untuck hooks to create space"
+          ]
+        }
       },
       {
         "question": "Which direction should you turn to escape, and why?",
-        "answer": "You should turn into the top player's free-leg side - the side without the hook - never toward the hooked side. Rolling toward the hook gives the top player the rotational momentum they need to thread their second leg and complete the truck. Turning into the free-leg side does not assist their truck entry and opens a path to recover half guard by facing the opponent and extracting your trapped leg."
+        "answer": "You should turn into the top player's free-leg side - the side without the hook - never toward the hooked side. Rolling toward the hook gives the top player the rotational momentum they need to thread their second leg and complete the truck. Turning into the free-leg side does not assist their truck entry and opens a path to recover half guard by facing the opponent and extracting your trapped leg.",
+        "answer_line": "Turn to the free-leg side",
+        "distractors": {
+          "plausible": [
+            "Turn toward the hooked side",
+            "Turn away, flatten to belly"
+          ],
+          "trap": [
+            "Roll toward the hook to escape"
+          ]
+        }
       },
       {
         "question": "What is your highest-percentage moment to defend this entry?",
-        "answer": "The highest-percentage moment is early, before the hook is set deep. The instant you feel the seatbelt closing and a foot probing under your near thigh, you should stand up explosively while pulling the near knee away, or re-pommel and tuck back into a tight turtle. A shallow hook and an incomplete upper-body grip are far easier to clear than a consolidated single-hook ride where you are already stretched onto your side."
+        "answer": "The highest-percentage moment is early, before the hook is set deep. The instant you feel the seatbelt closing and a foot probing under your near thigh, you should stand up explosively while pulling the near knee away, or re-pommel and tuck back into a tight turtle. A shallow hook and an incomplete upper-body grip are far easier to clear than a consolidated single-hook ride where you are already stretched onto your side.",
+        "answer_line": "Before the hook sets deep",
+        "distractors": {
+          "plausible": [
+            "After truck is fully locked",
+            "Once stretched onto your side"
+          ],
+          "trap": [
+            "Wait, then bridge explosively"
+          ]
+        }
       }
     ],
     "training_progressions": [

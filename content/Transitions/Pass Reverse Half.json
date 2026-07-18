@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the pass versus pursuing a back take from reverse half guard top?",
-        "answer": "Initiate the pass when the bottom player flattens defensively and faces away from you, as this indicates they are prioritizing back defense over guard recovery. If the bottom player turns their shoulders toward you to face you, abandon the pass and pursue the back take instead. The bottom player's defensive choice dictates your technique selection—never force a pass against a turning opponent or a back take against a flattened one."
+        "answer": "Initiate the pass when the bottom player flattens defensively and faces away from you, as this indicates they are prioritizing back defense over guard recovery. If the bottom player turns their shoulders toward you to face you, abandon the pass and pursue the back take instead. The bottom player's defensive choice dictates your technique selection—never force a pass against a turning opponent or a back take against a flattened one.",
+        "answer_line": "Flattens & faces away = pass",
+        "distractors": {
+          "plausible": [
+            "Facing away = pursue back take",
+            "Choose based on your grip strength"
+          ],
+          "trap": [
+            "Force the pass no matter what"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can begin extracting your trapped leg?",
-        "answer": "Three conditions must be met before extraction: heavy chest pressure directed toward the bottom player's hips must be established, crossface control from the reverse angle must freeze their upper body rotation, and far hip control must prevent shrimping. Without all three controls in place, extraction attempts create space that the bottom player exploits for guard recovery. The upper body controls create the stable platform that makes leg extraction mechanically possible."
+        "answer": "Three conditions must be met before extraction: heavy chest pressure directed toward the bottom player's hips must be established, crossface control from the reverse angle must freeze their upper body rotation, and far hip control must prevent shrimping. Without all three controls in place, extraction attempts create space that the bottom player exploits for guard recovery. The upper body controls create the stable platform that makes leg extraction mechanically possible.",
+        "answer_line": "Chest, crossface, far hip control",
+        "distractors": {
+          "plausible": [
+            "Crossface control alone is enough",
+            "Just heavy chest pressure first"
+          ],
+          "trap": [
+            "Extract leg first, control later"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail in the hip switch extraction technique?",
-        "answer": "The most critical detail is rotating your trapped-leg-side hip toward the mat to change the extraction angle from directly backward to diagonally through the gap. This hip switch creates a path of least resistance for the knee to slide through the clamp rather than fighting directly against it. The rotation must be smooth and controlled—explosive hip switching creates space underneath your body that compromises the entire pass."
+        "answer": "The most critical detail is rotating your trapped-leg-side hip toward the mat to change the extraction angle from directly backward to diagonally through the gap. This hip switch creates a path of least resistance for the knee to slide through the clamp rather than fighting directly against it. The rotation must be smooth and controlled—explosive hip switching creates space underneath your body that compromises the entire pass.",
+        "answer_line": "Rotate hip down for diagonal angle",
+        "distractors": {
+          "plausible": [
+            "Pull knee straight back hard",
+            "Switch hips fast and explosive"
+          ],
+          "trap": [
+            "Lift hips to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent recovers a knee shield during your extraction attempt—how do you adjust?",
-        "answer": "Stop the direct extraction and address the knee shield first. You have two primary options: drive your weight into the knee shield and smash it flat before resuming extraction, or backstep over the knee shield to re-establish a passing angle. Do not continue pulling against a recovered knee shield, as this wastes energy and gives the bottom player time to further consolidate their defensive structure. Reset your upper body controls after addressing the shield."
+        "answer": "Stop the direct extraction and address the knee shield first. You have two primary options: drive your weight into the knee shield and smash it flat before resuming extraction, or backstep over the knee shield to re-establish a passing angle. Do not continue pulling against a recovered knee shield, as this wastes energy and gives the bottom player time to further consolidate their defensive structure. Reset your upper body controls after addressing the shield.",
+        "answer_line": "Smash the shield flat or backstep",
+        "distractors": {
+          "plausible": [
+            "Keep pulling through the shield",
+            "Wait for the shield to fall away"
+          ],
+          "trap": [
+            "Pull harder to force extraction"
+          ]
+        }
       },
       {
         "question": "What grip or control is most essential for preventing the bottom player's guard recovery during the pass?",
-        "answer": "Far hip control with your near hand is the most essential control for preventing guard recovery. The bottom player's primary defensive mechanism is shrimping their hips away to create space for knee insertion and guard recovery. Blocking the far hip eliminates this option entirely. Without far hip control, even perfect chest pressure and crossface cannot prevent a determined shrimp escape, because the bottom player's hip movement generates from below your chest contact point."
+        "answer": "Far hip control with your near hand is the most essential control for preventing guard recovery. The bottom player's primary defensive mechanism is shrimping their hips away to create space for knee insertion and guard recovery. Blocking the far hip eliminates this option entirely. Without far hip control, even perfect chest pressure and crossface cannot prevent a determined shrimp escape, because the bottom player's hip movement generates from below your chest contact point.",
+        "answer_line": "Far hip control blocks the shrimp",
+        "distractors": {
+          "plausible": [
+            "Crossface control is most essential",
+            "Near hip control stops the escape"
+          ],
+          "trap": [
+            "Let them shrimp, then chase pass"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force application throughout this pass?",
-        "answer": "The primary force direction is chest pressure driving toward the bottom player's hips from behind and above. This downward-and-forward pressure vector serves multiple purposes: it prevents the bottom player from rotating to face you, it flattens them to the mat eliminating sweep angles, and it pins their hips in place to prevent shrimping. All other controls—crossface, hip block, and leg extraction—operate within this primary pressure framework."
+        "answer": "The primary force direction is chest pressure driving toward the bottom player's hips from behind and above. This downward-and-forward pressure vector serves multiple purposes: it prevents the bottom player from rotating to face you, it flattens them to the mat eliminating sweep angles, and it pins their hips in place to prevent shrimping. All other controls—crossface, hip block, and leg extraction—operate within this primary pressure framework.",
+        "answer_line": "Chest pressure driving to the hips",
+        "distractors": {
+          "plausible": [
+            "Pressure pushing toward their head",
+            "Pulling pressure toward yourself"
+          ],
+          "trap": [
+            "Lift up to flatten their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent times a bridge during your hip switch and begins to reverse you—what went wrong and how do you respond?",
-        "answer": "The bridge counter succeeds when you lift your hips during the hip switch, shifting your center of gravity high enough to be displaced. Respond immediately by abandoning the hip switch, dropping your weight flat, and re-establishing heavy chest pressure. The correction for future attempts is to keep hips low and heavy throughout the hip switch—the extraction should feel like sliding sideways rather than lifting and rotating. If the bottom player has strong bridge timing, use smaller incremental hip switches rather than one large movement."
+        "answer": "The bridge counter succeeds when you lift your hips during the hip switch, shifting your center of gravity high enough to be displaced. Respond immediately by abandoning the hip switch, dropping your weight flat, and re-establishing heavy chest pressure. The correction for future attempts is to keep hips low and heavy throughout the hip switch—the extraction should feel like sliding sideways rather than lifting and rotating. If the bottom player has strong bridge timing, use smaller incremental hip switches rather than one large movement.",
+        "answer_line": "Drop flat and reset chest pressure",
+        "distractors": {
+          "plausible": [
+            "Fight through with more rotation",
+            "Post out and try to stand"
+          ],
+          "trap": [
+            "Keep rotating hips upward"
+          ]
+        }
       },
       {
         "question": "How does the pass chain with back take threats to create offensive dilemmas from reverse half guard?",
-        "answer": "The pass and back take form a binary dilemma from reverse half guard top. Threatening the pass forces the bottom player to turn toward you to prevent flattening and leg extraction—this turning movement exposes their back for hooks and seat belt control. Threatening the back take forces them to flatten and face away to protect their back—this flattening response is exactly the defensive posture that makes the pass highest percentage. By alternating threats, you force the bottom player into a no-win defensive loop where each defensive choice opens the other attack."
+        "answer": "The pass and back take form a binary dilemma from reverse half guard top. Threatening the pass forces the bottom player to turn toward you to prevent flattening and leg extraction—this turning movement exposes their back for hooks and seat belt control. Threatening the back take forces them to flatten and face away to protect their back—this flattening response is exactly the defensive posture that makes the pass highest percentage. By alternating threats, you force the bottom player into a no-win defensive loop where each defensive choice opens the other attack.",
+        "answer_line": "Threats create a no-win dilemma",
+        "distractors": {
+          "plausible": [
+            "Only threaten the pass repeatedly",
+            "Only threaten the back take alone"
+          ],
+          "trap": [
+            "Commit fully to one attack only"
+          ]
+        }
       }
     ],
     "safety_considerations": "Reverse half guard passing involves significant pressure on the bottom player's spine and hips from the reverse angle. Apply chest pressure gradually and avoid sudden weight drops that could injure the lower back or ribs. Be mindful of knee strain on both players when extracting the trapped leg, particularly if the bottom player maintains a tight leg clamp—forcing extraction against maximum resistance risks knee ligament injury. In training, communicate with your partner about pressure levels and release immediately if they indicate discomfort. Avoid cranking the neck during crossface application and be aware that the reverse angle creates unusual spinal loading that requires controlled technique.",
@@ -406,23 +486,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive structure to maintain when defending against pass reverse half?",
-        "answer": "The leg clamp on the opponent's trapped leg is the most important defensive structure. Without active leg control, the opponent can freely extract their leg and complete the pass immediately regardless of any upper body frames or defensive movements. Every defensive action must preserve leg clamp tension as its first priority—frames, shrimps, and inversions are secondary to maintaining the leg entanglement."
+        "answer": "The leg clamp on the opponent's trapped leg is the most important defensive structure. Without active leg control, the opponent can freely extract their leg and complete the pass immediately regardless of any upper body frames or defensive movements. Every defensive action must preserve leg clamp tension as its first priority—frames, shrimps, and inversions are secondary to maintaining the leg entanglement.",
+        "answer_line": "Maintain the leg clamp above all",
+        "distractors": {
+          "plausible": [
+            "Keep strong upper body frames",
+            "Shrimp away immediately first"
+          ],
+          "trap": [
+            "Release the clamp to create space"
+          ]
+        }
       },
       {
         "question": "How do you recognize the optimal moment to attempt your defensive movement against the pass?",
-        "answer": "The optimal moment is when the opponent initiates their hip switch for leg extraction. During the hip switch, their weight temporarily shifts and their pressure lightens as they rotate. This brief window is when shrimps, bridges, and inversions have the highest success rate. Attempting defense when the opponent has settled weight and is not moving results in failed escapes against stable base. Feel for their hip rotation as the trigger for your response."
+        "answer": "The optimal moment is when the opponent initiates their hip switch for leg extraction. During the hip switch, their weight temporarily shifts and their pressure lightens as they rotate. This brief window is when shrimps, bridges, and inversions have the highest success rate. Attempting defense when the opponent has settled weight and is not moving results in failed escapes against stable base. Feel for their hip rotation as the trigger for your response.",
+        "answer_line": "Move during their hip switch shift",
+        "distractors": {
+          "plausible": [
+            "Move when they settle their weight",
+            "Wait for full mount before moving"
+          ],
+          "trap": [
+            "Explode immediately at match start"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong crossface control from behind and you cannot turn to face them—what alternative defensive pathway should you pursue?",
-        "answer": "When the crossface prevents turning, use the inversion pathway instead. Hip escape slightly to create space under your body, then rotate underneath the opponent using your legs and hip mobility. The inversion bypasses the crossface entirely because you are moving in the opposite direction from what the crossface controls. Alternatively, focus solely on leg clamp maintenance and shrimping to recover knee shield, which does not require turning your upper body."
+        "answer": "When the crossface prevents turning, use the inversion pathway instead. Hip escape slightly to create space under your body, then rotate underneath the opponent using your legs and hip mobility. The inversion bypasses the crossface entirely because you are moving in the opposite direction from what the crossface controls. Alternatively, focus solely on leg clamp maintenance and shrimping to recover knee shield, which does not require turning your upper body.",
+        "answer_line": "Invert underneath instead of turning",
+        "distractors": {
+          "plausible": [
+            "Force a turn through the crossface",
+            "Push their head away with your arm"
+          ],
+          "trap": [
+            "Let go of the leg clamp to turn"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between defending the pass and defending the back take from reverse half guard bottom?",
-        "answer": "Defending the pass requires you to prevent leg extraction by maintaining your clamp and creating frames to block the hip switch. Defending the back take requires you to prevent the opponent from following your rotation and inserting hooks. These are opposing defensive priorities: turning to face prevents the pass but risks the back take, while flattening prevents the back take but enables the pass. You must read the opponent's intent and choose the appropriate defense for each moment."
+        "answer": "Defending the pass requires you to prevent leg extraction by maintaining your clamp and creating frames to block the hip switch. Defending the back take requires you to prevent the opponent from following your rotation and inserting hooks. These are opposing defensive priorities: turning to face prevents the pass but risks the back take, while flattening prevents the back take but enables the pass. You must read the opponent's intent and choose the appropriate defense for each moment.",
+        "answer_line": "Turn stops pass, risks back take",
+        "distractors": {
+          "plausible": [
+            "Same defense works for both threats",
+            "Flatten always defeats both attacks"
+          ],
+          "trap": [
+            "Ignore leg clamp, focus on hooks"
+          ]
+        }
       },
       {
         "question": "Your leg clamp begins slipping during the opponent's extraction—what emergency response should you execute?",
-        "answer": "Immediately abandon any upper body defensive plan and redirect all effort to re-securing the leg clamp. Use both legs to recapture the opponent's leg with maximum clamping pressure. If the leg is too far extracted to recapture, immediately transition to plan B: shrimp explosively and insert your knee for a knee shield before they complete the pass to side control. The knee shield is your backup barrier when the primary leg clamp fails."
+        "answer": "Immediately abandon any upper body defensive plan and redirect all effort to re-securing the leg clamp. Use both legs to recapture the opponent's leg with maximum clamping pressure. If the leg is too far extracted to recapture, immediately transition to plan B: shrimp explosively and insert your knee for a knee shield before they complete the pass to side control. The knee shield is your backup barrier when the primary leg clamp fails.",
+        "answer_line": "Re-clamp or shrimp knee shield",
+        "distractors": {
+          "plausible": [
+            "Focus on upper body frames instead",
+            "Bridge hard to reverse them"
+          ],
+          "trap": [
+            "Let the leg go and turtle up"
+          ]
+        }
       }
     ],
     "training_progressions": [

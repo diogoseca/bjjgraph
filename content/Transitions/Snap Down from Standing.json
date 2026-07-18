@@ -268,35 +268,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the snap down from standing?",
-        "answer": "The optimal window is the moment the opponent's weight shifts onto their toes or their head extends past their base. This typically occurs when they reach forward for a grip, drive forward with a collar tie, or react to a feint by leaning in. At this instant, their center of gravity is forward of their feet, meaning a sharp downward pull encounters minimal structural resistance. Attempting the snap when they are balanced or retreating wastes energy and telegraphs your intention."
+        "answer": "The optimal window is the moment the opponent's weight shifts onto their toes or their head extends past their base. This typically occurs when they reach forward for a grip, drive forward with a collar tie, or react to a feint by leaning in. At this instant, their center of gravity is forward of their feet, meaning a sharp downward pull encounters minimal structural resistance. Attempting the snap when they are balanced or retreating wastes energy and telegraphs your intention.",
+        "answer_line": "Weight forward, head past base",
+        "distractors": {
+          "plausible": [
+            "Right after grip contact",
+            "Whenever your grip is set"
+          ],
+          "trap": [
+            "When they're squared and balanced"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully execute the snap down?",
-        "answer": "Three conditions must be present: first, you need a controlling grip on the back of the opponent's head, neck, or a collar tie position that allows you to generate downward rotational force on their skull. Second, the opponent's weight must be forward or transitioning forward so the snap has momentum to redirect. Third, you need clear space behind you for the retreating step that amplifies the pulling force. Without any one of these three elements, the snap down's success probability drops dramatically."
+        "answer": "Three conditions must be present: first, you need a controlling grip on the back of the opponent's head, neck, or a collar tie position that allows you to generate downward rotational force on their skull. Second, the opponent's weight must be forward or transitioning forward so the snap has momentum to redirect. Third, you need clear space behind you for the retreating step that amplifies the pulling force. Without any one of these three elements, the snap down's success probability drops dramatically.",
+        "answer_line": "Head grip, forward weight, space",
+        "distractors": {
+          "plausible": [
+            "Just a collar tie grip",
+            "Weight forward and space only"
+          ],
+          "trap": [
+            "Muscle it with arm strength"
+          ]
+        }
       },
       {
         "question": "What is the most critical body mechanic that multiplies the snap down's effectiveness?",
-        "answer": "The retreating step taken simultaneously with the downward pull is the single most important force multiplier. By stepping backward as you pull down, you add your entire body mass and backward momentum to the snap force. This transforms the technique from an arm-strength exercise into a full-body movement. The retreating step also creates the spatial angle needed to end up above the opponent as their posture breaks, positioning you perfectly for the front headlock transition rather than colliding with them face to face."
+        "answer": "The retreating step taken simultaneously with the downward pull is the single most important force multiplier. By stepping backward as you pull down, you add your entire body mass and backward momentum to the snap force. This transforms the technique from an arm-strength exercise into a full-body movement. The retreating step also creates the spatial angle needed to end up above the opponent as their posture breaks, positioning you perfectly for the front headlock transition rather than colliding with them face to face.",
+        "answer_line": "Retreating step with the pull",
+        "distractors": {
+          "plausible": [
+            "Squeezing the collar tie hard",
+            "Pulling straight down fast"
+          ],
+          "trap": [
+            "Stepping forward into them"
+          ]
+        }
       },
       {
         "question": "Why do most snap down attempts fail at the intermediate level?",
-        "answer": "The most common failure pattern is attempting the snap with arms only while standing still, without the retreating step or core engagement. Intermediate practitioners understand the concept but execute it as a pulling motion rather than a full-body directional change. The second most common failure is poor timing, specifically attempting the snap when the opponent is balanced or already retreating, which means there is no forward momentum to exploit. Both failures stem from treating the snap down as a strength technique rather than a timing and coordination technique."
+        "answer": "The most common failure pattern is attempting the snap with arms only while standing still, without the retreating step or core engagement. Intermediate practitioners understand the concept but execute it as a pulling motion rather than a full-body directional change. The second most common failure is poor timing, specifically attempting the snap when the opponent is balanced or already retreating, which means there is no forward momentum to exploit. Both failures stem from treating the snap down as a strength technique rather than a timing and coordination technique.",
+        "answer_line": "Arms only, no step or timing",
+        "distractors": {
+          "plausible": [
+            "Wrong hand grip on the head",
+            "Snapping too fast repeatedly"
+          ],
+          "trap": [
+            "Pulling harder with the arms"
+          ]
+        }
       },
       {
         "question": "How should you position your hand when establishing the collar tie for a snap down?",
-        "answer": "Your palm should cup the back crown of the opponent's skull, not grip the back of their neck. The cupping position on the crown creates a lever arm that generates rotational force, pulling the head forward and down along the spine's natural flexion path. Gripping the neck muscle directly provides less mechanical advantage because the force is absorbed by the neck musculature rather than creating rotation. Your fingers wrap around the side of the head naturally without squeezing. The grip should feel like you are steering their head directionally rather than crushing it."
+        "answer": "Your palm should cup the back crown of the opponent's skull, not grip the back of their neck. The cupping position on the crown creates a lever arm that generates rotational force, pulling the head forward and down along the spine's natural flexion path. Gripping the neck muscle directly provides less mechanical advantage because the force is absorbed by the neck musculature rather than creating rotation. Your fingers wrap around the side of the head naturally without squeezing. The grip should feel like you are steering their head directionally rather than crushing it.",
+        "answer_line": "Cup the crown, not the neck",
+        "distractors": {
+          "plausible": [
+            "Grip the neck muscle firmly",
+            "Grab the hair or ear area"
+          ],
+          "trap": [
+            "Squeeze a crushing grip on skull"
+          ]
+        }
       },
       {
         "question": "In what direction should the pulling force be applied during the snap down?",
-        "answer": "The force should be directed at approximately a forty-five degree angle downward toward the mat, not horizontally toward your body or straight down toward their feet. This diagonal angle follows the natural flexion path of the cervical and thoracic spine, making it biomechanically efficient to collapse posture. Pulling horizontally brings the opponent toward you rather than breaking their posture. Pulling straight down is resisted by their vertical skeletal structure. The forty-five degree angle bypasses both of these resistances by attacking the spine's weakest angle."
+        "answer": "The force should be directed at approximately a forty-five degree angle downward toward the mat, not horizontally toward your body or straight down toward their feet. This diagonal angle follows the natural flexion path of the cervical and thoracic spine, making it biomechanically efficient to collapse posture. Pulling horizontally brings the opponent toward you rather than breaking their posture. Pulling straight down is resisted by their vertical skeletal structure. The forty-five degree angle bypasses both of these resistances by attacking the spine's weakest angle.",
+        "answer_line": "45 degrees down toward the mat",
+        "distractors": {
+          "plausible": [
+            "Straight down at their feet",
+            "Horizontal, pull toward you"
+          ],
+          "trap": [
+            "Push their head forward and up"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong base and resists your initial snap attempt by driving their hips forward and posturing up - how do you adjust?",
-        "answer": "Do not attempt the same snap again immediately, as they are now prepared and postured defensively. Instead, use the failed snap as a setup for a secondary attack. Release the downward pressure and push them forward on their shoulder, which provokes a reflexive forward lean to resist the push. This recreated forward momentum sets up a second snap from a different angle. Alternatively, chain directly to an arm drag on the same side or a level change for an ankle pick, as their strong upright posture actually exposes them to lower-line attacks."
+        "answer": "Do not attempt the same snap again immediately, as they are now prepared and postured defensively. Instead, use the failed snap as a setup for a secondary attack. Release the downward pressure and push them forward on their shoulder, which provokes a reflexive forward lean to resist the push. This recreated forward momentum sets up a second snap from a different angle. Alternatively, chain directly to an arm drag on the same side or a level change for an ankle pick, as their strong upright posture actually exposes them to lower-line attacks.",
+        "answer_line": "Push shoulder, reset the lean",
+        "distractors": {
+          "plausible": [
+            "Snap again immediately, harder",
+            "Switch to a double leg instantly"
+          ],
+          "trap": [
+            "Repeat the exact same snap"
+          ]
+        }
       },
       {
         "question": "Your snap down attempt is blocked and the opponent begins posturing aggressively upward - what chain attacks become available?",
-        "answer": "Their aggressive upward posture opens several chain attacks. An arm drag becomes high percentage because their extended posture creates long lever arms you can redirect laterally. A level change to single leg or ankle pick exploits the fact that their weight is moving upward and backward, leaving their lead leg light and vulnerable. If they overcommit to posturing and drive their head backward, a duck under to their back becomes available as they create the space underneath that the technique requires. The principle is that their defensive reaction to the snap always opens something else."
+        "answer": "Their aggressive upward posture opens several chain attacks. An arm drag becomes high percentage because their extended posture creates long lever arms you can redirect laterally. A level change to single leg or ankle pick exploits the fact that their weight is moving upward and backward, leaving their lead leg light and vulnerable. If they overcommit to posturing and drive their head backward, a duck under to their back becomes available as they create the space underneath that the technique requires. The principle is that their defensive reaction to the snap always opens something else.",
+        "answer_line": "Arm drag or level change",
+        "distractors": {
+          "plausible": [
+            "Front headlock immediately",
+            "Reset and re-grip the collar"
+          ],
+          "trap": [
+            "Pull guard and reset the fight"
+          ]
+        }
       }
     ],
     "safety_considerations": "The snap down involves significant forces on the cervical spine and neck musculature. Always practice with controlled intensity, especially when drilling with less experienced partners. Avoid snapping with excessive force that could cause whiplash-type cervical strain. Partners should communicate clearly about any neck discomfort and stop immediately if pain occurs. Build up to full-speed snap downs gradually, starting with slow positional drilling before adding speed and resistance. Never execute a snap down on a partner who is looking upward with a fully extended neck, as this creates dangerous hyperextension potential. During competition preparation drilling, ensure both partners have adequately warmed up their necks before engaging in full-resistance snap down exchanges.",
@@ -413,23 +493,73 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that a snap down is being set up from standing?",
-        "answer": "The earliest indicators are the opponent deliberately establishing a collar tie with focused cupping grip on the back of your head rather than casual contact, their free hand stripping your defensive grips or posting on your shoulder, and their rear foot stepping backward to create pulling distance. The transition from neutral grip fighting to intentional head control with a specific pulling angle is the key recognition pattern. By the time you feel strong downward pressure, the snap is already mid-execution."
+        "answer": "The earliest indicators are the opponent deliberately establishing a collar tie with focused cupping grip on the back of your head rather than casual contact, their free hand stripping your defensive grips or posting on your shoulder, and their rear foot stepping backward to create pulling distance. The transition from neutral grip fighting to intentional head control with a specific pulling angle is the key recognition pattern. By the time you feel strong downward pressure, the snap is already mid-execution.",
+        "answer_line": "Cupping grip, strip, foot back",
+        "distractors": {
+          "plausible": [
+            "Any casual head contact",
+            "Sudden downward pressure felt"
+          ],
+          "trap": [
+            "Wait until pressure hits"
+          ]
+        }
       },
       {
         "question": "What is your immediate physical response when you feel sudden downward pressure on your head from a collar tie?",
-        "answer": "Drive your hips forward and extend your spine upward while simultaneously beginning to circle laterally. Do not pull your head straight back against the force. Your hips moving forward counteracts the forward weight shift the opponent is trying to exploit, while the lateral circle moves you perpendicular to their pulling direction. Simultaneously, your hands should address the grip: one hand fights the collar tie at the wrist while the other maintains your own offensive grip or frames on their shoulder."
+        "answer": "Drive your hips forward and extend your spine upward while simultaneously beginning to circle laterally. Do not pull your head straight back against the force. Your hips moving forward counteracts the forward weight shift the opponent is trying to exploit, while the lateral circle moves you perpendicular to their pulling direction. Simultaneously, your hands should address the grip: one hand fights the collar tie at the wrist while the other maintains your own offensive grip or frames on their shoulder.",
+        "answer_line": "Hips forward, extend, circle",
+        "distractors": {
+          "plausible": [
+            "Pull head straight back",
+            "Drop weight and sit down"
+          ],
+          "trap": [
+            "Freeze and brace against it"
+          ]
+        }
       },
       {
         "question": "Your opponent snaps your head down and is beginning to establish front headlock control - what are your immediate recovery priorities?",
-        "answer": "First priority is protecting your neck by tucking your chin to your chest to prevent guillotine access. Second priority is getting one hand on their choking arm at the wrist or elbow to prevent them from locking up a submission grip. Third priority is movement: either drive forward to stand up if their weight is high, or circle to the side to prevent them from settling their chest on your back. Speed is critical because every second in transition favors the opponent's control consolidation."
+        "answer": "First priority is protecting your neck by tucking your chin to your chest to prevent guillotine access. Second priority is getting one hand on their choking arm at the wrist or elbow to prevent them from locking up a submission grip. Third priority is movement: either drive forward to stand up if their weight is high, or circle to the side to prevent them from settling their chest on your back. Speed is critical because every second in transition favors the opponent's control consolidation.",
+        "answer_line": "Chin tuck, control arm, move",
+        "distractors": {
+          "plausible": [
+            "Grab their far leg first",
+            "Push on their head to escape"
+          ],
+          "trap": [
+            "Pull your head straight out"
+          ]
+        }
       },
       {
         "question": "How do you prevent an opponent from establishing the collar tie grip needed for a snap down?",
-        "answer": "Proactive hand fighting is the primary prevention tool. Keep your hands active in the inside position, controlling the opponent's wrists and biceps before they can reach the back of your head. When they attempt to swim their hand inside for the collar tie, immediately pummel with your elbow to block the path. If they do establish contact, strip the grip immediately with a two-on-one peel before they can set their fingers. Maintaining inside position with active elbows makes collar tie establishment extremely difficult."
+        "answer": "Proactive hand fighting is the primary prevention tool. Keep your hands active in the inside position, controlling the opponent's wrists and biceps before they can reach the back of your head. When they attempt to swim their hand inside for the collar tie, immediately pummel with your elbow to block the path. If they do establish contact, strip the grip immediately with a two-on-one peel before they can set their fingers. Maintaining inside position with active elbows makes collar tie establishment extremely difficult.",
+        "answer_line": "Hand fight, control the inside",
+        "distractors": {
+          "plausible": [
+            "Keep hands low guarding legs",
+            "React only after they grip"
+          ],
+          "trap": [
+            "Let them grip, then power out"
+          ]
+        }
       },
       {
         "question": "Your posture has been broken by the snap and you are bent forward with the opponent's arm around your head - should you try to stand back up or accept the position change?",
-        "answer": "The decision depends on how deep their control is. If their arm is loosely around your head and they have not yet established chest pressure on your back, explosively drive upward by extending your hips and posting your hands on their body to create separation. Standing removes most front headlock submissions. However, if they have deep arm control with chest-to-back connection and far shoulder control, attempting to stand will likely result in a tighter guillotine or choke. In that case, accept the position change and immediately begin proper front headlock bottom defense: chin tucked, hand fighting the choking arm, and working to circle or sit to guard."
+        "answer": "The decision depends on how deep their control is. If their arm is loosely around your head and they have not yet established chest pressure on your back, explosively drive upward by extending your hips and posting your hands on their body to create separation. Standing removes most front headlock submissions. However, if they have deep arm control with chest-to-back connection and far shoulder control, attempting to stand will likely result in a tighter guillotine or choke. In that case, accept the position change and immediately begin proper front headlock bottom defense: chin tucked, hand fighting the choking arm, and working to circle or sit to guard.",
+        "answer_line": "Depends on depth of control",
+        "distractors": {
+          "plausible": [
+            "Always stand up immediately",
+            "Always accept and sit to guard"
+          ],
+          "trap": [
+            "Explode up against deep control"
+          ]
+        }
       }
     ],
     "training_progressions": [

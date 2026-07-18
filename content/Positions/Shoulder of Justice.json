@@ -102,35 +102,115 @@
     "flashcards": [
       {
         "question": "What is the optimal angle for driving shoulder pressure into the opponent's jaw?",
-        "answer": "The optimal angle is approximately 45 degrees toward the opponent's far shoulder, not straight down. This angle creates a pressure vector that travels through their cervical spine, limits head rotation completely, and makes it biomechanically impossible for them to turn their head back toward you. Straight-down pressure allows them to turn away and begin escape sequences."
+        "answer": "The optimal angle is approximately 45 degrees toward the opponent's far shoulder, not straight down. This angle creates a pressure vector that travels through their cervical spine, limits head rotation completely, and makes it biomechanically impossible for them to turn their head back toward you. Straight-down pressure allows them to turn away and begin escape sequences.",
+        "answer_line": "45° toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "45° toward near shoulder",
+            "90° straight down"
+          ],
+          "trap": [
+            "Straight down, full weight"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively - what adjustment do you make to maintain the position?",
-        "answer": "When opponent bridges, you should base out with your far knee posted even wider for stability, drop your hips heavier onto their near hip line, and wait for the bridge to exhaust itself. Do not fight the bridge directly - instead, ride it out while maintaining your shoulder pressure angle. As they return to the mat, immediately re-consolidate your pressure and look for submission opportunities created by their energy expenditure."
+        "answer": "When opponent bridges, you should base out with your far knee posted even wider for stability, drop your hips heavier onto their near hip line, and wait for the bridge to exhaust itself. Do not fight the bridge directly - instead, ride it out while maintaining your shoulder pressure angle. As they return to the mat, immediately re-consolidate your pressure and look for submission opportunities created by their energy expenditure.",
+        "answer_line": "Base wide, ride out bridge",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge head-on",
+            "Lighten hips, brace up"
+          ],
+          "trap": [
+            "Chase kimura mid-bridge"
+          ]
+        }
       },
       {
         "question": "Why must your hips stay connected to the opponent's near hip line throughout the position?",
-        "answer": "Connected hips serve multiple critical functions: they prevent shrimping movements by blocking the primary escape vector, they transfer your body weight efficiently through your center of mass into the shoulder pressure point, and they create unified body pressure rather than isolated upper body pressure. When hips disconnect or rise, opponent can shrimp underneath and begin guard recovery."
+        "answer": "Connected hips serve multiple critical functions: they prevent shrimping movements by blocking the primary escape vector, they transfer your body weight efficiently through your center of mass into the shoulder pressure point, and they create unified body pressure rather than isolated upper body pressure. When hips disconnect or rise, opponent can shrimp underneath and begin guard recovery.",
+        "answer_line": "Blocks shrimp, transfers weight",
+        "distractors": {
+          "plausible": [
+            "Free up hands for submissions",
+            "Improve shoulder angle only"
+          ],
+          "trap": [
+            "Raise hips for a better angle"
+          ]
+        }
       },
       {
         "question": "What are the essential grip priorities when establishing Shoulder of Justice Top?",
-        "answer": "Primary priority is controlling or trapping the opponent's near-side arm to prevent defensive frames. Secondary is maintaining crossface control or head position. Tertiary is controlling the far arm if it becomes active. The near arm is most critical because extending it for relief immediately exposes high-percentage kimura attacks, making it the cornerstone of your submission dilemma system."
+        "answer": "Primary priority is controlling or trapping the opponent's near-side arm to prevent defensive frames. Secondary is maintaining crossface control or head position. Tertiary is controlling the far arm if it becomes active. The near arm is most critical because extending it for relief immediately exposes high-percentage kimura attacks, making it the cornerstone of your submission dilemma system.",
+        "answer_line": "Control near arm first",
+        "distractors": {
+          "plausible": [
+            "Control far arm first",
+            "Crossface before arm control"
+          ],
+          "trap": [
+            "Extend near arm for control"
+          ]
+        }
       },
       {
         "question": "How do you maintain shoulder pressure when opponent repositions their head defensively?",
-        "answer": "Continuously adjust your shoulder blade angle and pressure direction based on their head position. Think of your shoulder as tracking their jaw - wherever they move their head, your shoulder follows and re-establishes the 45-degree angle toward their far shoulder. Use micro-adjustments of chest position and hip angle to maintain constant pressure without major positional changes that could create escape opportunities."
+        "answer": "Continuously adjust your shoulder blade angle and pressure direction based on their head position. Think of your shoulder as tracking their jaw - wherever they move their head, your shoulder follows and re-establishes the 45-degree angle toward their far shoulder. Use micro-adjustments of chest position and hip angle to maintain constant pressure without major positional changes that could create escape opportunities.",
+        "answer_line": "Shoulder tracks their jaw",
+        "distractors": {
+          "plausible": [
+            "Hold shoulder angle fixed",
+            "Chase head with crossface only"
+          ],
+          "trap": [
+            "Release pressure, reset grip"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to shrimp away - what is the appropriate counter transition?",
-        "answer": "When opponent shrimps away, immediately transition to mount by stepping your near leg over their body, or advance to knee-on-belly if they create significant space. Their shrimping movement exposes their far side for these transitions. Alternatively, if they shrimp toward you, transition to north-south by spinning around their head while maintaining pressure. The key is capitalizing on their movement rather than simply trying to maintain the original position."
+        "answer": "When opponent shrimps away, immediately transition to mount by stepping your near leg over their body, or advance to knee-on-belly if they create significant space. Their shrimping movement exposes their far side for these transitions. Alternatively, if they shrimp toward you, transition to north-south by spinning around their head while maintaining pressure. The key is capitalizing on their movement rather than simply trying to maintain the original position.",
+        "answer_line": "Advance to mount or KOB",
+        "distractors": {
+          "plausible": [
+            "Hold position, reapply pressure",
+            "Follow hips to their back"
+          ],
+          "trap": [
+            "Extend arm to stop shrimp"
+          ]
+        }
       },
       {
         "question": "What common error causes rapid fatigue when applying shoulder pressure?",
-        "answer": "Using only shoulder and neck muscles to generate pressure without engaging full body weight and core causes rapid fatigue. The correction is to drive pressure through your center of mass - engage core, hips, and legs to transfer your body weight efficiently through the shoulder point of contact. Proper mechanics allow sustained pressure with minimal energy expenditure, while muscular pressing exhausts you quickly."
+        "answer": "Using only shoulder and neck muscles to generate pressure without engaging full body weight and core causes rapid fatigue. The correction is to drive pressure through your center of mass - engage core, hips, and legs to transfer your body weight efficiently through the shoulder point of contact. Proper mechanics allow sustained pressure with minimal energy expenditure, while muscular pressing exhausts you quickly.",
+        "answer_line": "Pressing with arms, not weight",
+        "distractors": {
+          "plausible": [
+            "Holding breath under pressure",
+            "Gripping cloth too hard"
+          ],
+          "trap": [
+            "Dropping full body weight down"
+          ]
+        }
       },
       {
         "question": "How do you recover if opponent partially escapes and establishes a frame?",
-        "answer": "First, re-establish hip connection by dropping your hips back to their hip line. Then systematically collapse their frame using your body weight rather than arm strength - walk your pressure into their frame until it fails. If the frame is elbow-to-knee connected, you may need to switch to north-south or knee-on-belly to attack from a different angle. Never try to maintain Shoulder of Justice against an established structural frame."
+        "answer": "First, re-establish hip connection by dropping your hips back to their hip line. Then systematically collapse their frame using your body weight rather than arm strength - walk your pressure into their frame until it fails. If the frame is elbow-to-knee connected, you may need to switch to north-south or knee-on-belly to attack from a different angle. Never try to maintain Shoulder of Justice against an established structural frame.",
+        "answer_line": "Re-connect hips, collapse frame",
+        "distractors": {
+          "plausible": [
+            "Yank the frame arm away",
+            "Push through frame with grip"
+          ],
+          "trap": [
+            "Keep pressing, ignore frame"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -466,35 +546,115 @@
     "flashcards": [
       {
         "question": "Why is breathing through your nose critical when trapped in Shoulder of Justice Bottom?",
-        "answer": "Breathing through your nose maintains composure and prevents panic reactions that lead to desperate defensive movements. Jaw pressure naturally makes you want to breathe through your mouth, but this triggers a stress response that accelerates fatigue and causes reactive errors like extending your near arm or bringing your far arm across your face. Nasal breathing activates the parasympathetic nervous system, helping you stay calm and think systematically about escape timing."
+        "answer": "Breathing through your nose maintains composure and prevents panic reactions that lead to desperate defensive movements. Jaw pressure naturally makes you want to breathe through your mouth, but this triggers a stress response that accelerates fatigue and causes reactive errors like extending your near arm or bringing your far arm across your face. Nasal breathing activates the parasympathetic nervous system, helping you stay calm and think systematically about escape timing.",
+        "answer_line": "Calms nerves, avoids panic",
+        "distractors": {
+          "plausible": [
+            "Saves energy for escapes",
+            "Keeps jaw closed under pressure"
+          ],
+          "trap": [
+            "Breathe through mouth, relax jaw"
+          ]
+        }
       },
       {
         "question": "Your opponent increases shoulder pressure - what is the first thing you should NOT do?",
-        "answer": "Do not extend your near arm to push their shoulder away from your face. This is the most common reactive error and immediately exposes your arm to a high-percentage kimura attack. The opponent is specifically applying pressure to provoke this reaction. Instead, keep your near arm tight to your body and create micro-frames with your forearm without any arm extension."
+        "answer": "Do not extend your near arm to push their shoulder away from your face. This is the most common reactive error and immediately exposes your arm to a high-percentage kimura attack. The opponent is specifically applying pressure to provoke this reaction. Instead, keep your near arm tight to your body and create micro-frames with your forearm without any arm extension.",
+        "answer_line": "Extend near arm to push off",
+        "distractors": {
+          "plausible": [
+            "Turn head into the pressure",
+            "Bridge explosively right away"
+          ],
+          "trap": [
+            "Cross far arm over face"
+          ]
+        }
       },
       {
         "question": "What is the proper timing for attempting a shrimp escape from this position?",
-        "answer": "Time your shrimp to coincide with opponent's weight shifts, not during maximum pressure application. Wait for moments when they adjust their shoulder angle, transition toward submissions, or shift their base. Attempting explosive shrimps while they have maximum pressure and stable base wastes energy, achieves no positional improvement, and creates fatigue that worsens your situation. The window opens when their weight moves, even momentarily."
+        "answer": "Time your shrimp to coincide with opponent's weight shifts, not during maximum pressure application. Wait for moments when they adjust their shoulder angle, transition toward submissions, or shift their base. Attempting explosive shrimps while they have maximum pressure and stable base wastes energy, achieves no positional improvement, and creates fatigue that worsens your situation. The window opens when their weight moves, even momentarily.",
+        "answer_line": "Time shrimp to weight shifts",
+        "distractors": {
+          "plausible": [
+            "Shrimp at max pressure moment",
+            "Wait for opponent to tire fully"
+          ],
+          "trap": [
+            "Explode shrimp continuously"
+          ]
+        }
       },
       {
         "question": "Why must your far arm stay tight to your body in this position?",
-        "answer": "Bringing your far arm across your body to shield your face from shoulder pressure creates the perfect arm triangle setup. The opponent can immediately trap your arm across your own neck with their head and shoulder, creating a choking mechanism. Keep your far arm tight to your far-side ribs and never bring it across your body's centerline, even when the pressure is extremely uncomfortable."
+        "answer": "Bringing your far arm across your body to shield your face from shoulder pressure creates the perfect arm triangle setup. The opponent can immediately trap your arm across your own neck with their head and shoulder, creating a choking mechanism. Keep your far arm tight to your far-side ribs and never bring it across your body's centerline, even when the pressure is extremely uncomfortable.",
+        "answer_line": "Avoids arm-triangle setup",
+        "distractors": {
+          "plausible": [
+            "Keeps grip strength longer",
+            "Protects shoulder from cranks"
+          ],
+          "trap": [
+            "Cross arm over face to block"
+          ]
+        }
       },
       {
         "question": "What are the three escape priorities in order from Shoulder of Justice Bottom?",
-        "answer": "First, relieve the shoulder pressure through proper positioning and micro-frames. Second, create space through well-timed shrimping when opponent's weight shifts. Third, recover guard by inserting knee shields or returning to closed guard. Attempting to recover guard without first relieving pressure and creating space results in failed escapes and wasted energy."
+        "answer": "First, relieve the shoulder pressure through proper positioning and micro-frames. Second, create space through well-timed shrimping when opponent's weight shifts. Third, recover guard by inserting knee shields or returning to closed guard. Attempting to recover guard without first relieving pressure and creating space results in failed escapes and wasted energy.",
+        "answer_line": "Relieve, create space, recover",
+        "distractors": {
+          "plausible": [
+            "Recover guard immediately first",
+            "Space first, then relieve pressure"
+          ],
+          "trap": [
+            "Skip relief, shrimp immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts weight toward your head to increase pressure - what escape opportunity does this create?",
-        "answer": "When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical stand-up attempt if you can create the initial angle."
+        "answer": "When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical stand-up attempt if you can create the initial angle.",
+        "answer_line": "Bridge and roll, hips light",
+        "distractors": {
+          "plausible": [
+            "Shrimp toward their legs",
+            "Push off with near arm now"
+          ],
+          "trap": [
+            "Turn face into pressure now"
+          ]
+        }
       },
       {
         "question": "What happens if you turn your face into the pressure to relieve jaw discomfort?",
-        "answer": "Turning into the pressure opens north-south transition pathways and potential back-take opportunities for your opponent. They can follow your turn, spin to north-south control, or take your back as you expose it. Instead, maintain your head turned away from the pressure while working on hip escape and space creation - accept the jaw discomfort as temporary."
+        "answer": "Turning into the pressure opens north-south transition pathways and potential back-take opportunities for your opponent. They can follow your turn, spin to north-south control, or take your back as you expose it. Instead, maintain your head turned away from the pressure while working on hip escape and space creation - accept the jaw discomfort as temporary.",
+        "answer_line": "Opens north-south, back take",
+        "distractors": {
+          "plausible": [
+            "Relieves jaw pain safely",
+            "Creates space to shrimp"
+          ],
+          "trap": [
+            "Nothing changes, stay safe"
+          ]
+        }
       },
       {
         "question": "How do you create effective frames without exposing yourself to submissions?",
-        "answer": "Create micro-frames using your forearms positioned close to your body rather than extending your arms fully. Your near-side elbow should stay tight to your ribs with your forearm creating a small wedge. These subtle frames maintain distance without extending vulnerable limbs that can be attacked. The goal is structural resistance through bone alignment, not muscular pushing that fatigues you and creates openings."
+        "answer": "Create micro-frames using your forearms positioned close to your body rather than extending your arms fully. Your near-side elbow should stay tight to your ribs with your forearm creating a small wedge. These subtle frames maintain distance without extending vulnerable limbs that can be attacked. The goal is structural resistance through bone alignment, not muscular pushing that fatigues you and creates openings.",
+        "answer_line": "Micro-frames, elbow tight",
+        "distractors": {
+          "plausible": [
+            "Full arm extension frames",
+            "Push hard with straight arms"
+          ],
+          "trap": [
+            "Extend arm fully for space"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -746,35 +906,115 @@
   "flashcards_position": [
     {
       "question": "What structural feature distinguishes Shoulder of Justice from standard side control?",
-      "answer": "Standard side control distributes the top player's weight broadly across the chest and torso, whereas Shoulder of Justice concentrates that weight into a single point by driving the shoulder blade into the opponent's jaw and chin line. This turns a wide pin into a narrow pressure vector aimed at the temporomandibular joint and cervical spine. The reduced contact area multiplies the felt pressure at that one point, making it far more uncomfortable than the even distribution of a classic pin. The configuration otherwise retains the perpendicular chest-to-chest orientation and hip connection common to all side control variants."
+      "answer": "Standard side control distributes the top player's weight broadly across the chest and torso, whereas Shoulder of Justice concentrates that weight into a single point by driving the shoulder blade into the opponent's jaw and chin line. This turns a wide pin into a narrow pressure vector aimed at the temporomandibular joint and cervical spine. The reduced contact area multiplies the felt pressure at that one point, making it far more uncomfortable than the even distribution of a classic pin. The configuration otherwise retains the perpendicular chest-to-chest orientation and hip connection common to all side control variants.",
+      "answer_line": "Weight focused into jaw point",
+      "distractors": {
+        "plausible": [
+          "Wider chest-to-chest contact",
+          "Hip-to-hip scarf hold weight"
+        ],
+        "trap": [
+          "Even weight across the torso"
+        ]
+      }
     },
     {
       "question": "Why is the shoulder pressure directed at an angle toward the far shoulder rather than straight down?",
-      "answer": "Angling the pressure vector at roughly 45 degrees toward the opponent's far shoulder routes force through the cervical spine and pins the head in a rotated position, eliminating the head mobility needed to begin most escapes. A straight-down vector lets the bottom player turn their head away and start creating the space that leads to framing and shrimping. The angled drive means whichever way the head is turned, it cannot rotate back toward the pressure source. This single geometric choice is what converts ordinary shoulder weight into the position's defining control."
+      "answer": "Angling the pressure vector at roughly 45 degrees toward the opponent's far shoulder routes force through the cervical spine and pins the head in a rotated position, eliminating the head mobility needed to begin most escapes. A straight-down vector lets the bottom player turn their head away and start creating the space that leads to framing and shrimping. The angled drive means whichever way the head is turned, it cannot rotate back toward the pressure source. This single geometric choice is what converts ordinary shoulder weight into the position's defining control.",
+      "answer_line": "Locks cervical spine rotation",
+      "distractors": {
+        "plausible": [
+          "Only increases jaw pain level",
+          "Improves top player's balance"
+        ],
+        "trap": [
+          "Straight down works just as well"
+        ]
+      }
     },
     {
       "question": "How does connecting the top hips to the opponent's near hip line define this position's control dynamic?",
-      "answer": "The hip connection blocks the bottom player's primary escape vector, which is shrimping the hips away to create the space needed for guard recovery. It also transfers the top player's body weight through their center of mass into the shoulder contact point, producing unified whole-body pressure rather than isolated upper-body pressing. When the hips disconnect or rise, the bottom player can immediately shrimp underneath and begin recovering guard. The low, heavy hip tie is therefore as load-bearing to the position as the shoulder contact itself."
+      "answer": "The hip connection blocks the bottom player's primary escape vector, which is shrimping the hips away to create the space needed for guard recovery. It also transfers the top player's body weight through their center of mass into the shoulder contact point, producing unified whole-body pressure rather than isolated upper-body pressing. When the hips disconnect or rise, the bottom player can immediately shrimp underneath and begin recovering guard. The low, heavy hip tie is therefore as load-bearing to the position as the shoulder contact itself.",
+      "answer_line": "Blocks shrimp, unifies pressure",
+      "distractors": {
+        "plausible": [
+          "Only stabilizes top's balance",
+          "Frees hands for submissions"
+        ],
+        "trap": [
+          "Let hips float for mobility"
+        ]
+      }
     },
     {
       "question": "What role does the near-side arm play in creating this position's central dilemma?",
-      "answer": "The near arm is the fulcrum of the position's submission-or-suffer dilemma shared by both players. Trapped or controlled, it prevents the bottom player from building a defensive frame between the chests, but the moment the bottom player extends it to push the shoulder away for relief, it becomes exposed to a high-percentage kimura or americana. This means the pressure itself provokes the very reaction that opens the attack. The position's identity rests on this coupling: comfort and defense are in direct conflict for the bottom player."
+      "answer": "The near arm is the fulcrum of the position's submission-or-suffer dilemma shared by both players. Trapped or controlled, it prevents the bottom player from building a defensive frame between the chests, but the moment the bottom player extends it to push the shoulder away for relief, it becomes exposed to a high-percentage kimura or americana. This means the pressure itself provokes the very reaction that opens the attack. The position's identity rests on this coupling: comfort and defense are in direct conflict for the bottom player.",
+      "answer_line": "Trapped=safe, freed=kimura",
+      "distractors": {
+        "plausible": [
+          "Only blocks crossface grip",
+          "Controls far-side defense"
+        ],
+        "trap": [
+          "Extend it anytime for comfort"
+        ]
+      }
     },
     {
       "question": "How does the top player's base support the concentrated weight in Shoulder of Justice?",
-      "answer": "Rather than spreading weight evenly through a flat chest, the position funnels weight down a chain running from the top player's legs and hips, through the core, and out through a single shoulder-blade contact point on the jaw. The far knee posts wide for base stability while the near foot stays mobile for pressure adjustment, forming a stable tripod that lets weight drive forward without collapsing. Because force concentrates at one small area, the bottom player experiences disproportionate discomfort relative to the actual weight applied. Sustaining it depends on skeletal alignment and body weight, not muscular pressing, which would fatigue the top player quickly."
+      "answer": "Rather than spreading weight evenly through a flat chest, the position funnels weight down a chain running from the top player's legs and hips, through the core, and out through a single shoulder-blade contact point on the jaw. The far knee posts wide for base stability while the near foot stays mobile for pressure adjustment, forming a stable tripod that lets weight drive forward without collapsing. Because force concentrates at one small area, the bottom player experiences disproportionate discomfort relative to the actual weight applied. Sustaining it depends on skeletal alignment and body weight, not muscular pressing, which would fatigue the top player quickly.",
+      "answer_line": "Weight chains hip to shoulder",
+      "distractors": {
+        "plausible": [
+          "Weight spreads evenly on chest",
+          "Balanced only by leg strength"
+        ],
+        "trap": [
+          "Press hard with arms/shoulders"
+        ]
+      }
     },
     {
       "question": "How does Shoulder of Justice relate to Kesa Gatame and North-South as neighboring positions?",
-      "answer": "All three are pinning configurations built on cross-body control and head or shoulder pressure, and Shoulder of Justice sits between them as transition-ready. Kesa Gatame shares the cross-face and shoulder-pressure concept but wraps the head and arm in a scarf-hold and sits hip-to-hip, offering a different weight line. North-South becomes the target when the bottom player turns into the pressure, letting the top player spin around the head while maintaining contact. The position's angled shoulder vector makes these adjacent pins reachable without ever fully releasing control."
+      "answer": "All three are pinning configurations built on cross-body control and head or shoulder pressure, and Shoulder of Justice sits between them as transition-ready. Kesa Gatame shares the cross-face and shoulder-pressure concept but wraps the head and arm in a scarf-hold and sits hip-to-hip, offering a different weight line. North-South becomes the target when the bottom player turns into the pressure, letting the top player spin around the head while maintaining contact. The position's angled shoulder vector makes these adjacent pins reachable without ever fully releasing control.",
+      "answer_line": "Transition hub between pins",
+      "distractors": {
+        "plausible": [
+          "Unrelated, totally separate pin",
+          "Identical grip to Kesa Gatame"
+        ],
+        "trap": [
+          "Weaker than both, avoid linking"
+        ]
+      }
     },
     {
       "question": "Why is the pressure in Shoulder of Justice described as effective regardless of gi or no-gi ruleset?",
-      "answer": "The position's control derives from pure biomechanics: bone-on-bone pressure at the jaw, weight distribution through connected hips, and the angled cervical vector. Unlike collar chokes or cloth-based pins, none of these mechanisms depend on gripping fabric, so removing the gi changes almost nothing about how the pin functions. The discomfort and the head-immobilizing angle are identical in both frames. This grip-independence is why the position transfers cleanly across rulesets while gi-specific pins do not."
+      "answer": "The position's control derives from pure biomechanics: bone-on-bone pressure at the jaw, weight distribution through connected hips, and the angled cervical vector. Unlike collar chokes or cloth-based pins, none of these mechanisms depend on gripping fabric, so removing the gi changes almost nothing about how the pin functions. The discomfort and the head-immobilizing angle are identical in both frames. This grip-independence is why the position transfers cleanly across rulesets while gi-specific pins do not.",
+      "answer_line": "Pure biomechanics, no cloth grip",
+      "distractors": {
+        "plausible": [
+          "Works better with gi grips",
+          "Needs collar for full effect"
+        ],
+        "trap": [
+          "Only works in no-gi ruleset"
+        ]
+      }
     },
     {
       "question": "What shared dynamic makes this a low-sustainability position for the bottom player and a time-limited one for the top player?",
-      "answer": "For the bottom player, the concentrated jaw pressure creates constant physical misery and a psychological push to make reactive movements, so tolerance and defensive structure erode quickly. For the top player, holding a single-point pressure vector demands continuous micro-adjustment as the head repositions, and pressing with muscle rather than skeletal weight burns energy fast. The result is a mutual clock: the bottom player is racing to relieve pressure before making an error, while the top player is racing to convert reactions into a submission or advancement before fatigue sets in. Neither side is meant to hold the static position indefinitely, which is why it functions as a launching point rather than a resting pin."
+      "answer": "For the bottom player, the concentrated jaw pressure creates constant physical misery and a psychological push to make reactive movements, so tolerance and defensive structure erode quickly. For the top player, holding a single-point pressure vector demands continuous micro-adjustment as the head repositions, and pressing with muscle rather than skeletal weight burns energy fast. The result is a mutual clock: the bottom player is racing to relieve pressure before making an error, while the top player is racing to convert reactions into a submission or advancement before fatigue sets in. Neither side is meant to hold the static position indefinitely, which is why it functions as a launching point rather than a resting pin.",
+      "answer_line": "Mutual clock: pain vs fatigue",
+      "distractors": {
+        "plausible": [
+          "Bottom can hold it indefinitely",
+          "Top can rest weight passively"
+        ],
+        "trap": [
+          "Static pin meant to be held long"
+        ]
+      }
     }
   ],
   "clips": [

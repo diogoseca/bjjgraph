@@ -247,35 +247,115 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage of the sit-out compared to standard shrimping escapes from side control?",
-        "answer": "The sit-out generates rotational force around a posted hand pivot point, creating a completely different escape vector than lateral shrimping. While shrimping moves the hips laterally to create space for guard recovery, the sit-out rotates the entire body 180 degrees to face the opponent directly. This rotational movement is harder for the top player to follow because it requires them to change their entire control orientation, whereas they can easily chase lateral shrimps by following hip movement along the same plane."
+        "answer": "The sit-out generates rotational force around a posted hand pivot point, creating a completely different escape vector than lateral shrimping. While shrimping moves the hips laterally to create space for guard recovery, the sit-out rotates the entire body 180 degrees to face the opponent directly. This rotational movement is harder for the top player to follow because it requires them to change their entire control orientation, whereas they can easily chase lateral shrimps by following hip movement along the same plane.",
+        "answer_line": "Rotational pivot around post",
+        "distractors": {
+          "plausible": [
+            "Lateral hip movement like shrimp",
+            "Faster version of shrimping"
+          ],
+          "trap": [
+            "Push hips away, shrimp opposite"
+          ]
+        }
       },
       {
         "question": "When your opponent maintains a crushing crossface that blocks direct base-building, how should you modify the sit-out entry?",
-        "answer": "Use the peek-out variation by first clearing your head underneath the opponent's near arm. Create an initial frame with your far arm against their hip, bridge explosively to create momentary space, then slide your head under their crossface arm. Once your head is clear of the obstruction, you can build base without the crossface blocking your movement. The bridge timing is critical and must be sharp enough to create the space for head clearance before the opponent can re-settle their weight."
+        "answer": "Use the peek-out variation by first clearing your head underneath the opponent's near arm. Create an initial frame with your far arm against their hip, bridge explosively to create momentary space, then slide your head under their crossface arm. Once your head is clear of the obstruction, you can build base without the crossface blocking your movement. The bridge timing is critical and must be sharp enough to create the space for head clearance before the opponent can re-settle their weight.",
+        "answer_line": "Peek head under crossface arm",
+        "distractors": {
+          "plausible": [
+            "Power through with pure bridge",
+            "Push crossface off with hand"
+          ],
+          "trap": [
+            "Post immediately, ignore crossface"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing window for initiating the sit-out from side control bottom?",
-        "answer": "The optimal timing occurs when the opponent transitions between attacks or adjusts their control position. Specifically when they lift their hips to switch from crossface to north-south, when they reach for a submission grip with the far hand, or when they shift weight toward your head to set up a mount transition. These moments create brief hip-space opportunities and compromise their base, making it significantly harder for them to respond to the explosive sit-out. Attempting the sit-out against a settled and stabilized opponent is the most common timing error."
+        "answer": "The optimal timing occurs when the opponent transitions between attacks or adjusts their control position. Specifically when they lift their hips to switch from crossface to north-south, when they reach for a submission grip with the far hand, or when they shift weight toward your head to set up a mount transition. These moments create brief hip-space opportunities and compromise their base, making it significantly harder for them to respond to the explosive sit-out. Attempting the sit-out against a settled and stabilized opponent is the most common timing error.",
+        "answer_line": "Opponent shifting between attacks",
+        "distractors": {
+          "plausible": [
+            "Right after they settle control",
+            "When they apply crossface pressure"
+          ],
+          "trap": [
+            "Against a settled, stable opponent"
+          ]
+        }
       },
       {
         "question": "Your posted hand collapses during the rotation phase of the sit-out - what went wrong and how do you correct it?",
-        "answer": "The post likely failed because the hand was placed too close to the body, positioned too far underneath the shoulder, or the wrist was not locked firm. The correction is to plant the hand slightly forward and outside shoulder width with a straight locked wrist and fingers pointing away from the opponent. The arm should have a slight bend to absorb force without collapsing. Additionally, driving off the far foot too aggressively without sufficient post structural strength creates the collapse. Build post strength through specific drilling before attempting at full speed."
+        "answer": "The post likely failed because the hand was placed too close to the body, positioned too far underneath the shoulder, or the wrist was not locked firm. The correction is to plant the hand slightly forward and outside shoulder width with a straight locked wrist and fingers pointing away from the opponent. The arm should have a slight bend to absorb force without collapsing. Additionally, driving off the far foot too aggressively without sufficient post structural strength creates the collapse. Build post strength through specific drilling before attempting at full speed.",
+        "answer_line": "Post outside shoulder, wrist locked",
+        "distractors": {
+          "plausible": [
+            "Post hand right under shoulder",
+            "Bend elbow fully to absorb force"
+          ],
+          "trap": [
+            "Post close to body for control"
+          ]
+        }
       },
       {
         "question": "What are the grip and frame requirements before initiating the sit-out motion from side control bottom?",
-        "answer": "You do not need traditional grappling grips to execute the sit-out. Instead you need structural frames. Your near-side forearm should create space against the opponent's hip or ribcage, and your far hand should control their crossface arm or post against their head. The critical requirement is that your frames have created enough separation at the hips to insert a knee and begin building a turtle-like base. Once in the base position, your hands transition from defensive frames to the posting configuration needed for the sit-out pivot."
+        "answer": "You do not need traditional grappling grips to execute the sit-out. Instead you need structural frames. Your near-side forearm should create space against the opponent's hip or ribcage, and your far hand should control their crossface arm or post against their head. The critical requirement is that your frames have created enough separation at the hips to insert a knee and begin building a turtle-like base. Once in the base position, your hands transition from defensive frames to the posting configuration needed for the sit-out pivot.",
+        "answer_line": "Frames at hip, not grips",
+        "distractors": {
+          "plausible": [
+            "Underhook before sitting out",
+            "Collar tie to control head"
+          ],
+          "trap": [
+            "Grip pants for control first"
+          ]
+        }
       },
       {
         "question": "During the sit-out rotation, the opponent circles toward your back and begins establishing hooks - what is your immediate response?",
-        "answer": "Accelerate the rotation to complete the sit-out before hooks can be fully secured. If the near hook is partially inserted, immediately sit your hips to the mat on the opposite side and turn to face them while using your hands to fight the hook out. If both hooks begin entering, abandon the sit-out and address the back control threat by getting your shoulders to the mat and fighting the seatbelt grip. The worst outcome is a half-completed sit-out where you are in unstable turtle with hooks partially established. Commit fully in one direction."
+        "answer": "Accelerate the rotation to complete the sit-out before hooks can be fully secured. If the near hook is partially inserted, immediately sit your hips to the mat on the opposite side and turn to face them while using your hands to fight the hook out. If both hooks begin entering, abandon the sit-out and address the back control threat by getting your shoulders to the mat and fighting the seatbelt grip. The worst outcome is a half-completed sit-out where you are in unstable turtle with hooks partially established. Commit fully in one direction.",
+        "answer_line": "Accelerate, finish the rotation",
+        "distractors": {
+          "plausible": [
+            "Pause to reassess the position",
+            "Slow down and reset frames"
+          ],
+          "trap": [
+            "Half-commit and stall in turtle"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between a standard elbow escape and a sit-out from side control?",
-        "answer": "The elbow escape generates force laterally, pushing the opponent's hips away while shrimping your own hips in the opposite direction to create space for knee insertion and guard recovery. The force vectors are perpendicular to the opponent's body axis. The sit-out generates rotational force around a fixed pivot point, swinging the body in a circular arc to clear the opponent's control entirely. The force direction is circular rather than linear, which is why the sit-out succeeds against opponents who have effectively shut down lateral escape routes by controlling your hip movement."
+        "answer": "The elbow escape generates force laterally, pushing the opponent's hips away while shrimping your own hips in the opposite direction to create space for knee insertion and guard recovery. The force vectors are perpendicular to the opponent's body axis. The sit-out generates rotational force around a fixed pivot point, swinging the body in a circular arc to clear the opponent's control entirely. The force direction is circular rather than linear, which is why the sit-out succeeds against opponents who have effectively shut down lateral escape routes by controlling your hip movement.",
+        "answer_line": "Circular pivot vs lateral push",
+        "distractors": {
+          "plausible": [
+            "Both push hips the same way",
+            "Sit-out pushes opponent's hips"
+          ],
+          "trap": [
+            "Sit-out shrimps hips sideways"
+          ]
+        }
       },
       {
         "question": "What is the optimal follow-up sequence after completing the sit-out and reaching a scramble position?",
-        "answer": "Immediately seek an underhook on the near side while controlling the opponent's head or collar with the far hand. This positions you to wrestle up to a dominant angle. If the opponent is still recovering from your escape, drive into them to secure a front headlock or shoot for a single leg. Avoid sitting back passively after the sit-out because the scramble advantage is momentary and must be capitalized on within two to three seconds before the opponent stabilizes their own base and begins their own offensive scramble sequence."
+        "answer": "Immediately seek an underhook on the near side while controlling the opponent's head or collar with the far hand. This positions you to wrestle up to a dominant angle. If the opponent is still recovering from your escape, drive into them to secure a front headlock or shoot for a single leg. Avoid sitting back passively after the sit-out because the scramble advantage is momentary and must be capitalized on within two to three seconds before the opponent stabilizes their own base and begins their own offensive scramble sequence.",
+        "answer_line": "Underhook fast, wrestle up",
+        "distractors": {
+          "plausible": [
+            "Sit back and reset your base",
+            "Wait for them to attack first"
+          ],
+          "trap": [
+            "Sit back and let position settle"
+          ]
+        }
       }
     ],
     "safety_considerations": "The sit-out involves rapid rotational movement through positions where the neck and back are briefly vulnerable. Practitioners should ensure adequate neck strength and flexibility before drilling at full speed. The turtle-to-rotation phase exposes the cervical spine to potential compression if the opponent drives forward aggressively during the transition. Always warm up the neck thoroughly and begin drilling at low intensity, increasing speed only as the movement pattern becomes smooth and controlled. Tap immediately if the opponent establishes a choke during the rotation phase rather than fighting through it. Avoid forcing the sit-out when the opponent has secured hooks, as the rotational force combined with hook control can create dangerous knee torque.",
@@ -393,15 +473,45 @@
     "flashcards": [
       {
         "question": "What is the most reliable early indicator that your opponent is about to attempt a sit-out from side control bottom?",
-        "answer": "The most reliable indicator is the opponent creating a strong pushing frame specifically against your hip with their near-side forearm while simultaneously attempting to generate space at their own hips. This frame creates the separation they need to insert a knee and build base, which is the required precursor to any sit-out. When you feel this combination of hip-directed frame pressure and the opponent turning to their side, the sit-out is imminent. Secondary indicators include planting a hand firmly on the mat with fingers pointing away from you."
+        "answer": "The most reliable indicator is the opponent creating a strong pushing frame specifically against your hip with their near-side forearm while simultaneously attempting to generate space at their own hips. This frame creates the separation they need to insert a knee and build base, which is the required precursor to any sit-out. When you feel this combination of hip-directed frame pressure and the opponent turning to their side, the sit-out is imminent. Secondary indicators include planting a hand firmly on the mat with fingers pointing away from you.",
+        "answer_line": "Frame on your hip, turning side",
+        "distractors": {
+          "plausible": [
+            "Pushing on your chest hard",
+            "Grabbing for an underhook"
+          ],
+          "trap": [
+            "Reaching for a collar grip"
+          ]
+        }
       },
       {
         "question": "Your opponent has reached turtle during a sit-out attempt - should you try to flatten them back to side control or attack the back?",
-        "answer": "Attack the back immediately. Once the opponent has established a structural base in turtle with arms and knees supporting their weight, attempting to re-flatten them requires significant energy and has low success rate because the turtle structure resists downward pressure effectively. Instead, immediately establish a seatbelt grip with your chest driving into their upper back and begin inserting hooks. The turtle position that precedes the sit-out is exactly where back takes are highest percentage, and the opponent must pass through this vulnerable window to complete their escape."
+        "answer": "Attack the back immediately. Once the opponent has established a structural base in turtle with arms and knees supporting their weight, attempting to re-flatten them requires significant energy and has low success rate because the turtle structure resists downward pressure effectively. Instead, immediately establish a seatbelt grip with your chest driving into their upper back and begin inserting hooks. The turtle position that precedes the sit-out is exactly where back takes are highest percentage, and the opponent must pass through this vulnerable window to complete their escape.",
+        "answer_line": "Attack the back immediately",
+        "distractors": {
+          "plausible": [
+            "Flatten them back to side control",
+            "Wait for them to stand up"
+          ],
+          "trap": [
+            "Try to flatten with heavy pressure"
+          ]
+        }
       },
       {
         "question": "How should you adjust your side control positioning when you recognize your opponent relies on wrestling-based escapes like the sit-out?",
-        "answer": "Preemptively address the sit-out by maintaining lower and heavier hip-to-hip contact than you would against a purely BJJ shrimping escape game. Keep your near-side hand actively controlling their far hip rather than focusing solely on head control, which directly blocks the knee insertion that precedes every sit-out. Position your hips slightly behind theirs rather than directly on top to remove the space needed for base building. Additionally, be prepared to immediately transition to back control if they reach turtle, because wrestling-trained opponents execute the sit-out rotation faster than you can re-flatten them."
+        "answer": "Preemptively address the sit-out by maintaining lower and heavier hip-to-hip contact than you would against a purely BJJ shrimping escape game. Keep your near-side hand actively controlling their far hip rather than focusing solely on head control, which directly blocks the knee insertion that precedes every sit-out. Position your hips slightly behind theirs rather than directly on top to remove the space needed for base building. Additionally, be prepared to immediately transition to back control if they reach turtle, because wrestling-trained opponents execute the sit-out rotation faster than you can re-flatten them.",
+        "answer_line": "Control far hip, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Keep hips directly on top of theirs",
+            "Stack weight forward on chest"
+          ],
+          "trap": [
+            "Focus control on head only"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -320,7 +320,17 @@
       },
       {
         "question": "If your opponent circles away from the triangle as you create your angle, what are three effective responses?",
-        "answer": "First, follow their circular movement by continuing to adjust your angle further in the same direction, using their momentum against them. Second, use their turning motion to transition to a back take as they expose their back. Third, switch to an opposite-side triangle setup or omoplata by redirecting to the side they're giving you. The key is recognizing their defensive movement early and adapting rather than forcing the original attack."
+        "answer": "First, follow their circular movement by continuing to adjust your angle further in the same direction, using their momentum against them. Second, use their turning motion to transition to a back take as they expose their back. Third, switch to an opposite-side triangle setup or omoplata by redirecting to the side they're giving you. The key is recognizing their defensive movement early and adapting rather than forcing the original attack.",
+        "answer_line": "Follow, back take, or switch sides",
+        "distractors": {
+          "plausible": [
+            "Force original triangle harder",
+            "Release guard and reset position"
+          ],
+          "trap": [
+            "Turn your back to chase them"
+          ]
+        }
       },
       {
         "question": "How does the triangle setup position relate to other attacking options from closed guard?",
@@ -338,7 +348,17 @@
       },
       {
         "question": "What is the relationship between hip elevation and triangle tightness during the setup phase?",
-        "answer": "Hip elevation is critical for removing space between your legs and opponent's neck throughout the setup. As you close the triangle configuration, driving hips upward creates immediate pressure and prevents the opponent from pulling their trapped arm or head free. The higher the hips, the tighter the configuration and the less opportunity for escape. This elevation should begin during angle creation and increase throughout the locking sequence, with maximum elevation achieved as you secure the final triangle position."
+        "answer": "Hip elevation is critical for removing space between your legs and opponent's neck throughout the setup. As you close the triangle configuration, driving hips upward creates immediate pressure and prevents the opponent from pulling their trapped arm or head free. The higher the hips, the tighter the configuration and the less opportunity for escape. This elevation should begin during angle creation and increase throughout the locking sequence, with maximum elevation achieved as you secure the final triangle position.",
+        "answer_line": "Higher hips = tighter triangle",
+        "distractors": {
+          "plausible": [
+            "Squeeze knees, not hips",
+            "Elevate hips only at the end"
+          ],
+          "trap": [
+            "Drop hips to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat as you begin isolating their other arm — how do you exploit this?",
@@ -356,7 +376,17 @@
       },
       {
         "question": "What specific grip adjustments are needed when transitioning from gi to no-gi triangle setup?",
-        "answer": "In no-gi, replace collar grip with a cupping grip behind the opponent's neck or head, pulling their forehead toward your sternum. Replace sleeve grip with a wrist grip using a C-clamp or two-on-one control on the arm to be trapped. The overhook becomes more important in no-gi for maintaining arm isolation without fabric to grip. Hip control through underhooking their leg can replace lapel-based posture breaking. The fundamental mechanics remain identical — posture break, arm isolation, angle creation, leg throw — but every grip point shifts from fabric to body control."
+        "answer": "In no-gi, replace collar grip with a cupping grip behind the opponent's neck or head, pulling their forehead toward your sternum. Replace sleeve grip with a wrist grip using a C-clamp or two-on-one control on the arm to be trapped. The overhook becomes more important in no-gi for maintaining arm isolation without fabric to grip. Hip control through underhooking their leg can replace lapel-based posture breaking. The fundamental mechanics remain identical — posture break, arm isolation, angle creation, leg throw — but every grip point shifts from fabric to body control.",
+        "answer_line": "Cup neck, C-clamp wrist, overhook",
+        "distractors": {
+          "plausible": [
+            "Wrist grip only, skip overhook",
+            "Use underhook instead of C-clamp"
+          ],
+          "trap": [
+            "Reach for collar and lapel grips"
+          ]
+        }
       },
       {
         "question": "What direction of force should your legs generate during the initial leg throw over the opponent's shoulder?",
@@ -556,11 +586,31 @@
       },
       {
         "question": "Your opponent has pulled your right arm across their centerline and you feel their hips beginning to shift — what is the correct defensive sequence?",
-        "answer": "Immediately drive your right elbow back toward your own right hip using your lat and shoulder retraction while simultaneously posting your left hand on their left hip to pin it to the mat and prevent the angle-creating hip escape. Posture up by sitting your weight back onto your heels and straightening your spine. If the arm is already too far across to retract easily, circle your entire body toward the right to follow their hip movement and collapse the angle. The priority order is: retract arm, block hip movement, recover posture. Addressing all three simultaneously is ideal but arm retraction and hip control are most time-sensitive."
+        "answer": "Immediately drive your right elbow back toward your own right hip using your lat and shoulder retraction while simultaneously posting your left hand on their left hip to pin it to the mat and prevent the angle-creating hip escape. Posture up by sitting your weight back onto your heels and straightening your spine. If the arm is already too far across to retract easily, circle your entire body toward the right to follow their hip movement and collapse the angle. The priority order is: retract arm, block hip movement, recover posture. Addressing all three simultaneously is ideal but arm retraction and hip control are most time-sensitive.",
+        "answer_line": "Retract arm, block hip, posture up",
+        "distractors": {
+          "plausible": [
+            "Posture up first, arm second",
+            "Block hip only, ignore arm"
+          ],
+          "trap": [
+            "Abandon guard, stand up fast"
+          ]
+        }
       },
       {
         "question": "How does defending the triangle setup interact with defending other closed guard attacks like hip bump sweep and omoplata?",
-        "answer": "The triangle defense creates a connected defensive problem because the reactions that defend one attack can expose another. Posturing hard to prevent the triangle opens you to hip bump sweeps since your weight moves backward. Pulling your arm back aggressively can give the opponent an omoplata angle if they redirect to overhook control. Stacking forward to crush the triangle attempt exposes you to pendulum sweeps. The solution is balanced defensive posture — hands on hips, elbows tight, head up, base wide — that addresses the immediate triangle threat without overcorrecting into positions vulnerable to alternative attacks. Awareness of the interconnected attack tree is essential."
+        "answer": "The triangle defense creates a connected defensive problem because the reactions that defend one attack can expose another. Posturing hard to prevent the triangle opens you to hip bump sweeps since your weight moves backward. Pulling your arm back aggressively can give the opponent an omoplata angle if they redirect to overhook control. Stacking forward to crush the triangle attempt exposes you to pendulum sweeps. The solution is balanced defensive posture — hands on hips, elbows tight, head up, base wide — that addresses the immediate triangle threat without overcorrecting into positions vulnerable to alternative attacks. Awareness of the interconnected attack tree is essential.",
+        "answer_line": "Stay balanced, don't overcorrect",
+        "distractors": {
+          "plausible": [
+            "Posture hard against the triangle",
+            "Yank arm back aggressively"
+          ],
+          "trap": [
+            "Stack forward to smash triangle"
+          ]
+        }
       },
       {
         "question": "What specific body sensations or pressure changes should you monitor to recognize the transition from normal closed guard control to triangle setup initiation?",

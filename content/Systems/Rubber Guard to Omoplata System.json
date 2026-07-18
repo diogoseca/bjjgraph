@@ -372,35 +372,115 @@
   "flashcards": [
     {
       "question": "What is the Rubber Guard to Omoplata System and where does it originate?",
-      "answer": "It is a flexibility-based attacking framework rooted in Eddie Bravo's 10th Planet methodology that uses rubber guard high-control positions to chain omoplata shoulder locks, sweeps, and back takes from closed guard."
+      "answer": "It is a flexibility-based attacking framework rooted in Eddie Bravo's 10th Planet methodology that uses rubber guard high-control positions to chain omoplata shoulder locks, sweeps, and back takes from closed guard.",
+      "answer_line": "Eddie Bravo's 10th Planet system",
+      "distractors": {
+        "plausible": [
+          "Traditional gi guard passing system",
+          "Danaher's leg lock attack system"
+        ],
+        "trap": [
+          "Judo-based throwing system"
+        ]
+      }
     },
     {
       "question": "Which two rubber guard positions form the backbone of the system's progression toward the omoplata?",
-      "answer": "Mission Control, which secures a deep overhook with the high-guard leg pinning the shoulder, and New York, which threads the arm across the back for deeper shoulder isolation and the primary omoplata entry."
+      "answer": "Mission Control, which secures a deep overhook with the high-guard leg pinning the shoulder, and New York, which threads the arm across the back for deeper shoulder isolation and the primary omoplata entry.",
+      "answer_line": "Mission Control and New York",
+      "distractors": {
+        "plausible": [
+          "Zombie and Gogoplata",
+          "Lockdown and Truck"
+        ],
+        "trap": [
+          "Mission Control and Lockdown"
+        ]
+      }
     },
     {
       "question": "How do you select the correct omoplata entry from New York based on the opponent's reaction?",
-      "answer": "If the opponent stays stationary use a direct swing-through; if they pull the trapped arm back threaten the triangle to drive it forward again; if they drive forward with pressure use a meathook entry to facilitate the leg over the shoulder."
+      "answer": "If the opponent stays stationary use a direct swing-through; if they pull the trapped arm back threaten the triangle to drive it forward again; if they drive forward with pressure use a meathook entry to facilitate the leg over the shoulder.",
+      "answer_line": "Base entry on opponent's reaction",
+      "distractors": {
+        "plausible": [
+          "Threaten triangle if they freeze",
+          "Always swing-through regardless"
+        ],
+        "trap": [
+          "Muscle through against resistance"
+        ]
+      }
     },
     {
       "question": "What are the three primary outcomes available once the leg is over the shoulder with wrist control secured?",
-      "answer": "A traditional sit-up rotational omoplata finish against a static opponent, following their forward roll to take the back, and sweeping to top position while keeping shoulder isolation when the submission is defended."
+      "answer": "A traditional sit-up rotational omoplata finish against a static opponent, following their forward roll to take the back, and sweeping to top position while keeping shoulder isolation when the submission is defended.",
+      "answer_line": "Finish, back take, or sweep",
+      "distractors": {
+        "plausible": [
+          "Finish, escape, or reset guard",
+          "Armbar, triangle, or footlock"
+        ],
+        "trap": [
+          "Release grip and stand up"
+        ]
+      }
     },
     {
       "question": "Why is maintaining wrist control critical throughout the omoplata entry and finish?",
-      "answer": "Wrist control prevents the opponent from posting their hand on the mat, which is the primary defense that stalls the leg-over-shoulder rotation and lets them spin out, stack, or roll free of the shoulder lock."
+      "answer": "Wrist control prevents the opponent from posting their hand on the mat, which is the primary defense that stalls the leg-over-shoulder rotation and lets them spin out, stack, or roll free of the shoulder lock.",
+      "answer_line": "Stops them from posting the hand",
+      "distractors": {
+        "plausible": [
+          "Keeps their shoulder pinned down",
+          "Prevents them from tapping early"
+        ],
+        "trap": [
+          "Let go to adjust your own grip"
+        ]
+      }
     },
     {
       "question": "How does the system convert an opponent's forward-roll defense into an advantage?",
-      "answer": "When the opponent rolls forward to relieve omoplata pressure you follow the roll, establish seat-belt control as they rotate, and secure hooks to transition into dominant back control before they complete the escape."
+      "answer": "When the opponent rolls forward to relieve omoplata pressure you follow the roll, establish seat-belt control as they rotate, and secure hooks to transition into dominant back control before they complete the escape.",
+      "answer_line": "Follow roll to back control",
+      "distractors": {
+        "plausible": [
+          "Reset to closed guard position",
+          "Re-attack the same omoplata"
+        ],
+        "trap": [
+          "Release and let them escape"
+        ]
+      }
     },
     {
       "question": "What is the most common foundational mistake practitioners make when learning this system?",
-      "answer": "Attempting the system without sufficient hip flexibility, which causes poor maintenance of high guard and Mission Control and leads to failed transitions; dedicated mobility work and half rubber guard variations help bridge the gap."
+      "answer": "Attempting the system without sufficient hip flexibility, which causes poor maintenance of high guard and Mission Control and leads to failed transitions; dedicated mobility work and half rubber guard variations help bridge the gap.",
+      "answer_line": "Lacking hip flexibility for guard",
+      "distractors": {
+        "plausible": [
+          "Gripping the sleeve too tightly",
+          "Rushing straight to the finish"
+        ],
+        "trap": [
+          "Skipping the high guard entirely"
+        ]
+      }
     },
     {
       "question": "How do integrated triangle and armbar threats make the omoplata harder to defend?",
-      "answer": "The triangle threatens when the opponent pulls the trapped arm back and the armbar threatens when they stack or drive weight forward, creating a fork where defending one attack opens another and preventing single-focus defense."
+      "answer": "The triangle threatens when the opponent pulls the trapped arm back and the armbar threatens when they stack or drive weight forward, creating a fork where defending one attack opens another and preventing single-focus defense.",
+      "answer_line": "Punishes pull-back and push-forward",
+      "distractors": {
+        "plausible": [
+          "Attack whichever arm is closer",
+          "Switch to armbar if they defend"
+        ],
+        "trap": [
+          "Abandon the omoplata for armbar"
+        ]
+      }
     }
   ]
 }

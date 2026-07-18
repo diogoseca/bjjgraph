@@ -261,7 +261,17 @@
     "flashcards": [
       {
         "question": "What is the correct sequence of defensive priorities when escaping twister side control?",
-        "answer": "The correct sequence is: first protect the spine by blocking rotational torque with hand positioning on the near knee or thigh, second establish structural frames at the shoulder and hip to manage pressure, third systematically extract the trapped leg from the entanglement through steady hip extension, and fourth execute the final escape movement to turtle or guard. Skipping any step typically leads to deeper control or submission."
+        "answer": "The correct sequence is: first protect the spine by blocking rotational torque with hand positioning on the near knee or thigh, second establish structural frames at the shoulder and hip to manage pressure, third systematically extract the trapped leg from the entanglement through steady hip extension, and fourth execute the final escape movement to turtle or guard. Skipping any step typically leads to deeper control or submission.",
+        "answer_line": "Spine, frames, extract leg, escape",
+        "distractors": {
+          "plausible": [
+            "Frames first, then spine block",
+            "Extract leg before framing up"
+          ],
+          "trap": [
+            "Turn away to relieve pressure"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the opponent a critical error during this escape?",
@@ -277,7 +287,17 @@
       },
       {
         "question": "How should you extract your trapped leg from the entanglement without wasting energy?",
-        "answer": "Use steady hip extension combined with small circular movements to progressively loosen the hook rather than explosive pulling. Maintain upper body frames throughout the extraction to prevent the opponent from following your hip movement. Work incrementally—each small gain compounds until the hook can no longer maintain control. Time extraction efforts with the opponent's weight shifts when their attention is divided."
+        "answer": "Use steady hip extension combined with small circular movements to progressively loosen the hook rather than explosive pulling. Maintain upper body frames throughout the extraction to prevent the opponent from following your hip movement. Work incrementally—each small gain compounds until the hook can no longer maintain control. Time extraction efforts with the opponent's weight shifts when their attention is divided.",
+        "answer_line": "Steady hip extension, small circles",
+        "distractors": {
+          "plausible": [
+            "One explosive pull frees the hook",
+            "Drop frames to focus on the leg"
+          ],
+          "trap": [
+            "Yank leg hard against the hook"
+          ]
+        }
       },
       {
         "question": "When should you choose the rolling escape variant versus the frame-first approach?",

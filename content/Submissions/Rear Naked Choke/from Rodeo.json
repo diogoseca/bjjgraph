@@ -312,47 +312,147 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke target and why is proper forearm placement critical?",
         "answer": "The RNC targets both carotid arteries on the lateral sides of the neck, which supply oxygenated blood to the brain. Proper forearm placement positions the bicep on one carotid and the forearm on the other, with the crook of the elbow centered on the trachea. This bilateral compression causes rapid cerebral ischemia leading to unconsciousness in 4-10 seconds. Incorrect placement on the windpipe creates an airway choke that is painful but much slower to produce unconsciousness, causes unnecessary tracheal injury, and gives the opponent significantly more time to mount a defense or escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Compress both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Only one carotid needed",
+            "Trachea placement works fine"
+          ],
+          "trap": [
+            "Crush the windpipe for choke"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the choke is properly positioned on the arteries rather than the windpipe?",
         "answer": "When the choke is properly positioned on the carotid arteries, the opponent's face will flush red or purple quickly, they may go limp relatively fast, and the pressure feels like a squeeze around the sides of the neck rather than a crushing force on the front. If the opponent is coughing, gagging, or making choking sounds, the forearm is likely on the trachea rather than the arteries. The correction is to adjust by centering the elbow crook on the trachea so the fleshy forearm and bicep contact the lateral neck where the carotids run.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face flushes red, quick limpness",
+        "distractors": {
+          "plausible": [
+            "Opponent taps quickly always",
+            "Loud gasping means good choke"
+          ],
+          "trap": [
+            "Coughing/gagging means it works"
+          ]
+        }
       },
       {
         "question": "Why must near-arm control be established before initiating the choke entry from Rodeo Ride?",
-        "answer": "The near arm is the opponent's most effective defensive tool from turtle bottom. A free near arm allows the opponent to post on the mat creating frames that generate space, reach back to fight your choking hand with two-on-one grips, and create the structural foundation for standing escapes or rolls. Removing near-arm control before attacking the neck eliminates these defensive options simultaneously, leaving the opponent with far fewer tools to prevent the choke from being established. Statistically, choke completion rates from Rodeo Ride more than double when near-arm control is secured first."
+        "answer": "The near arm is the opponent's most effective defensive tool from turtle bottom. A free near arm allows the opponent to post on the mat creating frames that generate space, reach back to fight your choking hand with two-on-one grips, and create the structural foundation for standing escapes or rolls. Removing near-arm control before attacking the neck eliminates these defensive options simultaneously, leaving the opponent with far fewer tools to prevent the choke from being established. Statistically, choke completion rates from Rodeo Ride more than double when near-arm control is secured first.",
+        "answer_line": "Removes their main defense tool",
+        "distractors": {
+          "plausible": [
+            "Far-arm control matters more",
+            "Only needed for back takes"
+          ],
+          "trap": [
+            "Skip it, go straight for neck"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin aggressively during your choke entry—what adjustment prevents them from defending successfully?",
         "answer": "Use the knuckles or blade of your choking hand to work over the chin line, applying consistent downward pressure on the jaw to create the entry pathway. You can also attack over the nose with your forearm, which is uncomfortable enough that most opponents will reflexively adjust their chin position. If the chin tuck is extremely deep, consider transitioning to a short choke (palm-to-palm grip over the chin) which can still generate sufficient pressure to finish, or switch to an arm attack since their hands are occupied protecting the neck rather than defending against arm isolation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blade hand over chin, jaw pressure",
+        "distractors": {
+          "plausible": [
+            "Pry chin up with both hands",
+            "Push forehead down for space"
+          ],
+          "trap": [
+            "Force arm straight under chin"
+          ]
+        }
       },
       {
         "question": "What is the biomechanical difference between finishing with arm squeeze versus chest expansion, and why does it matter?",
-        "answer": "Arm squeezing relies on the relatively small muscles of the forearms and biceps, which fatigue rapidly under sustained isometric contraction. Chest expansion uses the much larger muscles of the back and chest to drive your torso into the opponent's back while the arms maintain structural grip position. This produces greater sustained force with less energy expenditure. Practically, arm-squeeze finishes tend to burn out within 10-15 seconds if the opponent survives the initial attempt, while chest expansion finishes can be maintained indefinitely because the larger muscle groups resist fatigue far longer."
+        "answer": "Arm squeezing relies on the relatively small muscles of the forearms and biceps, which fatigue rapidly under sustained isometric contraction. Chest expansion uses the much larger muscles of the back and chest to drive your torso into the opponent's back while the arms maintain structural grip position. This produces greater sustained force with less energy expenditure. Practically, arm-squeeze finishes tend to burn out within 10-15 seconds if the opponent survives the initial attempt, while chest expansion finishes can be maintained indefinitely because the larger muscle groups resist fatigue far longer.",
+        "answer_line": "Expand chest, not just arms",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with biceps",
+            "Both methods equally durable"
+          ],
+          "trap": [
+            "Rely on forearm squeeze only"
+          ]
+        }
       },
       {
         "question": "How should you adjust your hip position if the opponent begins to roll laterally during the choke attempt?",
         "answer": "Follow the roll by keeping your chest glued to the opponent's back and adjusting your leg position to stay on top throughout the rotation. Shift your hips in the direction of the roll to maintain the angle of pressure. If the opponent rolls toward your posted leg, use that leg to post and prevent being rolled over. If they roll away from your posted leg, follow and end up in a potentially improved back control position. The critical error is allowing chest separation during the roll, which breaks the choke. Maintain the grip and connection above all else during positional changes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow roll, keep chest glued",
+        "distractors": {
+          "plausible": [
+            "Release grip to reset position",
+            "Stay flat, let them roll under"
+          ],
+          "trap": [
+            "Separate chest to regain balance"
+          ]
+        }
       },
       {
         "question": "What safety protocols must you follow when the choke is locked and your training partner has not yet tapped?",
         "answer": "Monitor your partner continuously for signs of consciousness—look for active hand fighting, body tension, and deliberate movement. If the partner goes limp, becomes unresponsive, or shows any irregular breathing, release immediately regardless of whether they tapped. Apply pressure progressively and steadily rather than in explosive bursts. In training, if you have held the choke for more than 8-10 seconds without a tap and the choke feels properly positioned, check in verbally while maintaining position. Never assume your partner is simply being tough—unconsciousness from blood chokes can occur without warning signs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release if partner goes limp",
+        "distractors": {
+          "plausible": [
+            "Wait for verbal tap always",
+            "Hold until they stop moving"
+          ],
+          "trap": [
+            "Assume they're just tough, hold"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to transition from positional control to choke entry from Rodeo Ride?",
-        "answer": "The optimal entry moment occurs when the opponent's base has been compromised through your pressure cycling and they have committed their defensive resources to preventing a different attack. Specifically, look for when the opponent shifts their weight to defend a back take or calf slicer threat, momentarily leaving the neck less protected. Additionally, the moment after you successfully strip their near-arm control and before they can re-establish defensive posting is a high-percentage window. Rushing the choke from a stable but uncommitted position gives the opponent time to prepare their defense."
+        "answer": "The optimal entry moment occurs when the opponent's base has been compromised through your pressure cycling and they have committed their defensive resources to preventing a different attack. Specifically, look for when the opponent shifts their weight to defend a back take or calf slicer threat, momentarily leaving the neck less protected. Additionally, the moment after you successfully strip their near-arm control and before they can re-establish defensive posting is a high-percentage window. Rushing the choke from a stable but uncommitted position gives the opponent time to prepare their defense.",
+        "answer_line": "When they defend back/calf slicer",
+        "distractors": {
+          "plausible": [
+            "Immediately upon reaching turtle",
+            "Only after full back control"
+          ],
+          "trap": [
+            "Rush the choke right away"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your choking hand with a two-on-one grip—what is your immediate tactical response?",
-        "answer": "Do not engage in a strength battle trying to force the arm back under the chin against two hands. Instead, immediately capitalize on the fact that both of the opponent's hands are occupied fighting your choking arm rather than defending position. Options include: transitioning to a calf slicer or back take since their hands are committed, attacking with the free supporting arm to establish crucifix control by trapping their far arm, or re-establishing seat belt control and cycling to a different choke entry angle. Their two-on-one creates a defensive dilemma where they solve the choke but open other attacks."
+        "answer": "Do not engage in a strength battle trying to force the arm back under the chin against two hands. Instead, immediately capitalize on the fact that both of the opponent's hands are occupied fighting your choking arm rather than defending position. Options include: transitioning to a calf slicer or back take since their hands are committed, attacking with the free supporting arm to establish crucifix control by trapping their far arm, or re-establishing seat belt control and cycling to a different choke entry angle. Their two-on-one creates a defensive dilemma where they solve the choke but open other attacks.",
+        "answer_line": "Attack elsewhere, hands are busy",
+        "distractors": {
+          "plausible": [
+            "Force the choke back under chin",
+            "Release grip and reset fully"
+          ],
+          "trap": [
+            "Fight strength to relock choke"
+          ]
+        }
       },
       {
         "question": "How does finishing the RNC from Rodeo Ride differ strategically from finishing from established back control with hooks?",
-        "answer": "From Rodeo Ride, you lack the hip control that hooks provide, making the position inherently less stable during the finishing sequence. This means you must finish faster and with greater urgency since the opponent has more escape options available. However, Rodeo Ride offers the advantage of surprise—opponents in turtle typically expect back take attempts rather than direct choke attacks, creating a timing advantage. The strategic trade-off is speed versus stability: from Rodeo Ride you attack sooner but with less positional security, while from full back control you have more time but face a fully prepared defensive structure."
+        "answer": "From Rodeo Ride, you lack the hip control that hooks provide, making the position inherently less stable during the finishing sequence. This means you must finish faster and with greater urgency since the opponent has more escape options available. However, Rodeo Ride offers the advantage of surprise—opponents in turtle typically expect back take attempts rather than direct choke attacks, creating a timing advantage. The strategic trade-off is speed versus stability: from Rodeo Ride you attack sooner but with less positional security, while from full back control you have more time but face a fully prepared defensive structure.",
+        "answer_line": "Faster finish, less stability",
+        "distractors": {
+          "plausible": [
+            "Slower but more secure control",
+            "Identical strategy either way"
+          ],
+          "trap": [
+            "Take your time, it's stable"
+          ]
+        }
       }
     ],
     "clips": [
@@ -461,27 +561,77 @@
       {
         "question": "What is the absolute first defensive action when you feel the opponent's arm beginning to thread under your chin from Rodeo Ride?",
         "answer": "Immediately tuck your chin as tightly as possible to your chest and bring both hands to the throat area to create a defensive shell. Your leading hand should grab the opponent's choking wrist while your secondary hand reinforces the grip for a two-on-one strip. The goal is to prevent the forearm from passing below the chin line where it can access the carotid arteries. Every second of delay in this response dramatically increases the probability of the choke being established successfully.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tuck chin, grab wrist two-on-one",
+        "distractors": {
+          "plausible": [
+            "Fight the hooks first",
+            "Turn head away from the arm"
+          ],
+          "trap": [
+            "Ignore it, defend hooks instead"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to prioritize fighting hooks over protecting your neck during an active choke attempt?",
         "answer": "Fighting hooks requires both hands and your attention directed toward your lower body, leaving your neck completely undefended against the choking arm. The RNC can produce unconsciousness in 4-10 seconds once locked, while losing hook control merely worsens your position without immediate terminal consequences. The hook threat is positional (leads to better control for the opponent) while the choke threat is immediate (leads to submission or unconsciousness). Always address the immediate lethal threat before the positional threat.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Choke is immediate, hooks are not",
+        "distractors": {
+          "plausible": [
+            "Hooks lead to faster submission",
+            "Both threats are equally urgent"
+          ],
+          "trap": [
+            "Strip hooks before defending neck"
+          ]
+        }
       },
       {
         "question": "What advantages does the defender have from Rodeo Ride that are not available when defending from full back control?",
         "answer": "From Rodeo Ride, the opponent lacks hooks or body triangle controlling your hips, which means you retain significantly more lower body mobility for standing, rolling, and creating angles. The opponent's base is also less stable since they are relying on dynamic pressure rather than mechanical hooks, making them more vulnerable to explosive directional changes. Additionally, the opponent must divide their attention between maintaining Rodeo Ride control and executing the choke, whereas from full back control the position is secure enough that they can focus entirely on finishing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No hooks means more hip mobility",
+        "distractors": {
+          "plausible": [
+            "Opponent's grip is always weaker",
+            "Rodeo Ride has no real threat"
+          ],
+          "trap": [
+            "Stay still, hooks aren't in yet"
+          ]
+        }
       },
       {
         "question": "How should you respond if the RNC grip is partially locked but not yet fully tightened from Rodeo Ride?",
         "answer": "Immediately engage two-on-one grip control on the choking arm, pulling it away from your neck while turning your head toward the crook of the opponent's elbow to create space and prevent the squeeze from being effective. Simultaneously, work to create an angle change by moving your hips—since the opponent lacks hooks, you have the mobility to shift your body position. If you can prevent the figure-four from being completed, the choke cannot generate maximum pressure, giving you time to strip the grip entirely or transition to an escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip, turn into elbow",
+        "distractors": {
+          "plausible": [
+            "Pull straight back with one hand",
+            "Turn away from the choking arm"
+          ],
+          "trap": [
+            "Wait for figure-four to test it"
+          ]
+        }
       },
       {
         "question": "When is the best timing window to attempt an escape from the RNC threat during Rodeo Ride?",
         "answer": "The best escape windows occur during the opponent's grip transitions—specifically when they release near-arm control to thread the choking arm, when they shift from the choking arm to seeking the figure-four connection with the supporting hand, and when they adjust their hip position to set the finishing angle. Each of these transitions requires the opponent to momentarily reduce one aspect of their control, creating an opening for explosive escape movement. Attempting escapes during stable control phases wastes energy and rarely succeeds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During opponent's grip transitions",
+        "distractors": {
+          "plausible": [
+            "Right when hooks are inserted",
+            "Any moment you feel pressure"
+          ],
+          "trap": [
+            "Escape during stable full control"
+          ]
+        }
       }
     ],
     "training_progressions": [

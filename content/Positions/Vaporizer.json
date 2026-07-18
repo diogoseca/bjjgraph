@@ -94,35 +94,115 @@
     "flashcards": [
       {
         "question": "Your opponent initiates a strong whip-up motion and you feel your weight shifting laterally - what is your immediate defensive response?",
-        "answer": "Immediately widen your base by sprawling your free leg out to the side and lowering your hips toward the mat. Drive heavy shoulder pressure into opponent's chest while keeping your trapped leg as heavy as possible. Avoid the instinct to post your hand close to their hip, as this creates a leverage point for the Old School sweep. Your goal is to become too heavy and wide to roll."
+        "answer": "Immediately widen your base by sprawling your free leg out to the side and lowering your hips toward the mat. Drive heavy shoulder pressure into opponent's chest while keeping your trapped leg as heavy as possible. Avoid the instinct to post your hand close to their hip, as this creates a leverage point for the Old School sweep. Your goal is to become too heavy and wide to roll.",
+        "answer_line": "Sprawl wide, lower hips, heavy",
+        "distractors": {
+          "plausible": [
+            "Posture up and stack chest",
+            "Yank trapped leg free fast"
+          ],
+          "trap": [
+            "Post hand near their hip"
+          ]
+        }
       },
       {
         "question": "What are the essential control points you must break to escape the Vaporizer position from top?",
-        "answer": "You must systematically break two primary control points: the lockdown leg entanglement and the upper body control (underhook or overhook). The lockdown controls your leg mobility and creates the mechanical foundation for all their attacks. The underhook provides the leverage for the whip-up motion and sweep attempts. Address both simultaneously - clearing only the lockdown while they maintain the underhook still leaves you vulnerable."
+        "answer": "You must systematically break two primary control points: the lockdown leg entanglement and the upper body control (underhook or overhook). The lockdown controls your leg mobility and creates the mechanical foundation for all their attacks. The underhook provides the leverage for the whip-up motion and sweep attempts. Address both simultaneously - clearing only the lockdown while they maintain the underhook still leaves you vulnerable.",
+        "answer_line": "Break lockdown and underhook",
+        "distractors": {
+          "plausible": [
+            "Only clear the leg lockdown",
+            "Only strip the underhook"
+          ],
+          "trap": [
+            "Posture up, ignore underhook"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight when defending against the Electric Chair submission threat?",
-        "answer": "Keep your weight back and toward your hips rather than committing forward. If you drive your weight forward aggressively, you play directly into the Electric Chair setup because your hips become elevated and easier to manipulate. Instead, maintain heavy shoulder pressure while keeping your hips mobile and ready to adjust. The Electric Chair requires them to elevate and split your legs - staying heavy with distributed weight prevents this."
+        "answer": "Keep your weight back and toward your hips rather than committing forward. If you drive your weight forward aggressively, you play directly into the Electric Chair setup because your hips become elevated and easier to manipulate. Instead, maintain heavy shoulder pressure while keeping your hips mobile and ready to adjust. The Electric Chair requires them to elevate and split your legs - staying heavy with distributed weight prevents this.",
+        "answer_line": "Weight back, keep hips mobile",
+        "distractors": {
+          "plausible": [
+            "Lock hips still and square",
+            "Sprawl legs wide immediately"
+          ],
+          "trap": [
+            "Drive weight hard forward"
+          ]
+        }
       },
       {
         "question": "Your opponent's lockdown feels tight and you cannot extract your leg - what systematic approach should you use?",
-        "answer": "Use controlled leg circulation movements rather than explosive yanking. Point your trapped knee toward the mat to make your leg narrow and harder to control. Shift your weight side to side while maintaining pressure on their upper body. Create small amounts of space through hip adjustments and gradually work your heel toward your buttocks. Patience is essential - explosive extraction attempts tighten their lockdown reflexively and waste your energy."
+        "answer": "Use controlled leg circulation movements rather than explosive yanking. Point your trapped knee toward the mat to make your leg narrow and harder to control. Shift your weight side to side while maintaining pressure on their upper body. Create small amounts of space through hip adjustments and gradually work your heel toward your buttocks. Patience is essential - explosive extraction attempts tighten their lockdown reflexively and waste your energy.",
+        "answer_line": "Small circles, knee down, patient",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to force space open",
+            "Point knee up, twist free"
+          ],
+          "trap": [
+            "Yank leg explosively to escape"
+          ]
+        }
       },
       {
         "question": "When is the optimal time to transition to a passing sequence after partially clearing the lockdown?",
-        "answer": "Transition when you have addressed BOTH the lockdown loosening AND neutralized their underhook control. If you attempt to pass with only the lockdown cleared but their underhook intact, they can immediately re-establish the lockdown or transition to other attacks like back takes. Wait until you have established a whizzer or crossface control that prevents their upper body manipulation, then flow into your knee slice or pressure passing sequence."
+        "answer": "Transition when you have addressed BOTH the lockdown loosening AND neutralized their underhook control. If you attempt to pass with only the lockdown cleared but their underhook intact, they can immediately re-establish the lockdown or transition to other attacks like back takes. Wait until you have established a whizzer or crossface control that prevents their upper body manipulation, then flow into your knee slice or pressure passing sequence.",
+        "answer_line": "After lockdown AND underhook clear",
+        "distractors": {
+          "plausible": [
+            "Right after lockdown loosens",
+            "As soon as any space opens"
+          ],
+          "trap": [
+            "Pass immediately, ignore underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to attempt the Old School sweep - how do you recognize and counter this?",
-        "answer": "The Old School sweep requires them to post their outside foot and drive off it while using their underhook. When you feel them shift to post their foot and their underhook pressure increases, immediately widen your base in the opposite direction of their intended sweep. Drive your crossface pressure harder to limit their bridging power. Consider transitioning to a passing angle that takes away their leverage - moving toward their head rather than fighting against the sweep direction."
+        "answer": "The Old School sweep requires them to post their outside foot and drive off it while using their underhook. When you feel them shift to post their foot and their underhook pressure increases, immediately widen your base in the opposite direction of their intended sweep. Drive your crossface pressure harder to limit their bridging power. Consider transitioning to a passing angle that takes away their leverage - moving toward their head rather than fighting against the sweep direction.",
+        "answer_line": "Widen base away, crossface hard",
+        "distractors": {
+          "plausible": [
+            "Pass toward their far hip",
+            "Pull posted hand off mat"
+          ],
+          "trap": [
+            "Brace straight back against pull"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when trapped in the Vaporizer position for extended periods?",
-        "answer": "Avoid explosive movements that create space and waste energy while accomplishing nothing. Use steady, constant pressure rather than burst-and-rest patterns. Maintain your defensive positioning through small adjustments rather than dramatic repositioning. Keep controlled breathing to prevent cardiovascular fatigue. The bottom player wants you to explosively resist - this creates the space they need. Patient, grinding defense is more sustainable and eventually creates opportunities as they fatigue from maintaining the whip-up pressure."
+        "answer": "Avoid explosive movements that create space and waste energy while accomplishing nothing. Use steady, constant pressure rather than burst-and-rest patterns. Maintain your defensive positioning through small adjustments rather than dramatic repositioning. Keep controlled breathing to prevent cardiovascular fatigue. The bottom player wants you to explosively resist - this creates the space they need. Patient, grinding defense is more sustainable and eventually creates opportunities as they fatigue from maintaining the whip-up pressure.",
+        "answer_line": "Steady pressure, no explosions",
+        "distractors": {
+          "plausible": [
+            "Burst hard, then rest fully",
+            "Hold breath, brace forcefully"
+          ],
+          "trap": [
+            "Explode hard to create space"
+          ]
+        }
       },
       {
         "question": "Your partial escape attempt opened space and now your opponent is transitioning toward the Truck position - what is your recovery protocol?",
-        "answer": "Immediately abandon the escape attempt and address the Truck entry. Turn your hips toward them rather than away to prevent them from securing the far leg hook needed for Truck control. Establish a whizzer on their underhook arm and drive your shoulder pressure into their head. If they begin to secure the leg triangle, you must either complete the escape immediately or accept the positional setback and defend from Truck rather than getting stuck in transition."
+        "answer": "Immediately abandon the escape attempt and address the Truck entry. Turn your hips toward them rather than away to prevent them from securing the far leg hook needed for Truck control. Establish a whizzer on their underhook arm and drive your shoulder pressure into their head. If they begin to secure the leg triangle, you must either complete the escape immediately or accept the positional setback and defend from Truck rather than getting stuck in transition.",
+        "answer_line": "Turn hips in, get whizzer",
+        "distractors": {
+          "plausible": [
+            "Keep escaping, ignore truck entry",
+            "Push away to create distance"
+          ],
+          "trap": [
+            "Turn your hips away from them"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -431,35 +511,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins to widen their base to resist your whip-up motion - how do you adjust your lockdown pressure to maintain control?",
-        "answer": "When opponent widens their base, increase the extension of their trapped leg by driving your lockdown legs away from your body while pulling them closer with your underhook. This creates opposing forces that compromise their widened base. Additionally, angle your hips slightly toward their trapped leg side to maximize the lateral pressure. A widened base actually exposes them to the Electric Chair - use their defensive posture against them."
+        "answer": "When opponent widens their base, increase the extension of their trapped leg by driving your lockdown legs away from your body while pulling them closer with your underhook. This creates opposing forces that compromise their widened base. Additionally, angle your hips slightly toward their trapped leg side to maximize the lateral pressure. A widened base actually exposes them to the Electric Chair - use their defensive posture against them.",
+        "answer_line": "Extend leg more, angle hips in",
+        "distractors": {
+          "plausible": [
+            "Loosen lockdown, reset position",
+            "Match their base, go static"
+          ],
+          "trap": [
+            "Release lockdown to reposition"
+          ]
+        }
       },
       {
         "question": "What are the essential grips required for maintaining the Vaporizer position and creating effective attacks?",
-        "answer": "The two essential grips are the lockdown leg configuration and the underhook. The lockdown must be tight with your top leg's foot hooked behind your bottom leg, creating a figure-four that traps their leg. The underhook should be deep, reaching their far shoulder blade or lat, providing leverage for the whip-up motion. Without both grips working together, the position loses its effectiveness - the lockdown alone can be weathered, and the underhook alone allows them to extract their leg."
+        "answer": "The two essential grips are the lockdown leg configuration and the underhook. The lockdown must be tight with your top leg's foot hooked behind your bottom leg, creating a figure-four that traps their leg. The underhook should be deep, reaching their far shoulder blade or lat, providing leverage for the whip-up motion. Without both grips working together, the position loses its effectiveness - the lockdown alone can be weathered, and the underhook alone allows them to extract their leg.",
+        "answer_line": "Deep lockdown plus deep underhook",
+        "distractors": {
+          "plausible": [
+            "Lockdown alone is enough",
+            "Overhook plus a collar tie"
+          ],
+          "trap": [
+            "Drop underhook, grip the pants"
+          ]
+        }
       },
       {
         "question": "How do you shut down your opponent's primary escape attempt when they try to establish a whizzer?",
-        "answer": "When they establish a whizzer, immediately drive your underhook deeper and pull yourself tighter to their body, eliminating the space the whizzer needs to be effective. Simultaneously increase your lockdown pressure to prevent them from using the whizzer to create distance. If their whizzer is strong, this actually sets up the Electric Chair perfectly - their whizzer commitment prevents them from defending the leg split. Transition to Electric Chair by releasing the lockdown and controlling their far leg."
+        "answer": "When they establish a whizzer, immediately drive your underhook deeper and pull yourself tighter to their body, eliminating the space the whizzer needs to be effective. Simultaneously increase your lockdown pressure to prevent them from using the whizzer to create distance. If their whizzer is strong, this actually sets up the Electric Chair perfectly - their whizzer commitment prevents them from defending the leg split. Transition to Electric Chair by releasing the lockdown and controlling their far leg.",
+        "answer_line": "Drive underhook deeper, get tight",
+        "distractors": {
+          "plausible": [
+            "Release underhook to reset grip",
+            "Fight whizzer with pure strength"
+          ],
+          "trap": [
+            "Back away to reset the position"
+          ]
+        }
       },
       {
         "question": "What is the proper hip movement sequence for executing an effective whip-up motion?",
-        "answer": "The whip-up motion starts from your core and hips, not your arms. Drive your hips forward and upward toward opponent's chest while simultaneously extending their trapped leg away with your lockdown. Your underhook pulls them toward you as your hips rise. Think of trying to touch your hips to their armpit while extending their leg behind you. The motion should be rhythmic and continuous - multiple smaller whip-ups are more effective than one explosive attempt."
+        "answer": "The whip-up motion starts from your core and hips, not your arms. Drive your hips forward and upward toward opponent's chest while simultaneously extending their trapped leg away with your lockdown. Your underhook pulls them toward you as your hips rise. Think of trying to touch your hips to their armpit while extending their leg behind you. The motion should be rhythmic and continuous - multiple smaller whip-ups are more effective than one explosive attempt.",
+        "answer_line": "Hips drive up, lockdown extends leg",
+        "distractors": {
+          "plausible": [
+            "One big explosive hip thrust",
+            "Pull with arms, hips follow"
+          ],
+          "trap": [
+            "Yank with arms, hips stay still"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to prevent being swept - how do you capitalize on this defensive reaction?",
-        "answer": "When they post their hand, they've created the setup for the Old School sweep. Their posted hand becomes a fixed point you can sweep around. Drive your outside foot to the mat behind you and bridge toward their posted hand while pulling with your underhook. Their post prevents them from basing in that direction, making the sweep high percentage. If they remove the post to defend, immediately return to the whip-up motion - they cannot defend both simultaneously."
+        "answer": "When they post their hand, they've created the setup for the Old School sweep. Their posted hand becomes a fixed point you can sweep around. Drive your outside foot to the mat behind you and bridge toward their posted hand while pulling with your underhook. Their post prevents them from basing in that direction, making the sweep high percentage. If they remove the post to defend, immediately return to the whip-up motion - they cannot defend both simultaneously.",
+        "answer_line": "Bridge toward their posted hand",
+        "distractors": {
+          "plausible": [
+            "Bridge away from their post",
+            "Push off their post directly"
+          ],
+          "trap": [
+            "Pull straight back, no bridge"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure effectively without exhausting yourself when your opponent is defending well?",
-        "answer": "Use structural pressure rather than muscular effort. Let your body weight do the work through proper positioning - chest tight to their side, hips driving forward, lockdown extending their leg using your leg weight. Maintain rhythmic breathing and avoid holding your breath during whip-up attempts. Create pressure through angles and leverage rather than squeezing or pulling harder. Rest between attack attempts by simply maintaining the position with good structure rather than constantly exploding."
+        "answer": "Use structural pressure rather than muscular effort. Let your body weight do the work through proper positioning - chest tight to their side, hips driving forward, lockdown extending their leg using your leg weight. Maintain rhythmic breathing and avoid holding your breath during whip-up attempts. Create pressure through angles and leverage rather than squeezing or pulling harder. Rest between attack attempts by simply maintaining the position with good structure rather than constantly exploding.",
+        "answer_line": "Structural weight, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder, hold breath",
+            "Grind constantly, no rest"
+          ],
+          "trap": [
+            "Muscle through with brute force"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to partially extract their leg from the lockdown - what is your recovery protocol?",
-        "answer": "Immediately re-establish the lockdown before they fully clear by hooking your top foot back behind your bottom leg. If they've created significant space, temporarily transition to a traditional half guard hook and work to re-establish the lockdown from there. Maintain your underhook throughout - losing the underhook while they're clearing the lockdown gives up the position entirely. Use your underhook to pull yourself back into tight proximity where you can re-lock your legs."
+        "answer": "Immediately re-establish the lockdown before they fully clear by hooking your top foot back behind your bottom leg. If they've created significant space, temporarily transition to a traditional half guard hook and work to re-establish the lockdown from there. Maintain your underhook throughout - losing the underhook while they're clearing the lockdown gives up the position entirely. Use your underhook to pull yourself back into tight proximity where you can re-lock your legs.",
+        "answer_line": "Re-hook lockdown, keep underhook",
+        "distractors": {
+          "plausible": [
+            "Chase the leg, drop underhook",
+            "Full guard reset, release grips"
+          ],
+          "trap": [
+            "Let go of underhook to re-lock"
+          ]
+        }
       },
       {
         "question": "When should you transition from the Vaporizer to the Electric Chair versus continuing with sweep attempts?",
-        "answer": "Transition to Electric Chair when opponent commits their weight backward to resist the whip-up or establishes a strong whizzer. Their backward weight commitment makes leg separation easier. Also transition when they flatten out and become difficult to sweep laterally - the Electric Chair works by splitting their legs rather than rolling them. Continue with sweep attempts when they stay light, post their hands, or maintain high posture - these reactions favor the Old School sweep and other lateral attacks."
+        "answer": "Transition to Electric Chair when opponent commits their weight backward to resist the whip-up or establishes a strong whizzer. Their backward weight commitment makes leg separation easier. Also transition when they flatten out and become difficult to sweep laterally - the Electric Chair works by splitting their legs rather than rolling them. Continue with sweep attempts when they stay light, post their hands, or maintain high posture - these reactions favor the Old School sweep and other lateral attacks.",
+        "answer_line": "Chair if heavy/flat, sweep if light",
+        "distractors": {
+          "plausible": [
+            "Sweep whenever they flatten out",
+            "Always attempt Electric Chair"
+          ],
+          "trap": [
+            "Chair attempt with light posture"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -699,35 +859,115 @@
   "flashcards_position": [
     {
       "question": "What structural elements must be present for a configuration to be considered the Vaporizer rather than ordinary lockdown half guard?",
-      "answer": "The Vaporizer requires three interdependent elements working together: a deep lockdown figure-four trapping one of the top player's legs, an upper-body connection through an underhook or overhook, and an active whip-up motion driving the bottom player's hips forward and upward. The lockdown alone is just a stalling half guard; the addition of committed upper-body control plus dynamic hip drive is what converts it into the Vaporizer. Remove any one of these and the position degrades back toward a neutral lockdown exchange. It is fundamentally a dynamic, off-balancing state rather than a static hold."
+      "answer": "The Vaporizer requires three interdependent elements working together: a deep lockdown figure-four trapping one of the top player's legs, an upper-body connection through an underhook or overhook, and an active whip-up motion driving the bottom player's hips forward and upward. The lockdown alone is just a stalling half guard; the addition of committed upper-body control plus dynamic hip drive is what converts it into the Vaporizer. Remove any one of these and the position degrades back toward a neutral lockdown exchange. It is fundamentally a dynamic, off-balancing state rather than a static hold.",
+      "answer_line": "Lockdown, underhook, whip-up motion",
+      "distractors": {
+        "plausible": [
+          "Lockdown and tight base alone",
+          "Underhook plus heavy top pressure"
+        ],
+        "trap": [
+          "Lockdown alone is the Vaporizer"
+        ]
+      }
     },
     {
       "question": "How does the lockdown figure-four generate control over the trapped leg for both players to contend with?",
-      "answer": "The bottom player triangles their legs around the top player's trapped leg, hooking the top foot behind their own bottom leg to form a figure-four. Extending both legs stretches the trapped leg away from the top player's centerline, preventing them from retracting the knee to rebuild base. This leg extension is the mechanical anchor of the whole position, since it robs the top player of the ability to square their hips or drive forward pressure. For the top player, the same figure-four is what pins their leg and forces every escape to first address the lock before anything else becomes possible."
+      "answer": "The bottom player triangles their legs around the top player's trapped leg, hooking the top foot behind their own bottom leg to form a figure-four. Extending both legs stretches the trapped leg away from the top player's centerline, preventing them from retracting the knee to rebuild base. This leg extension is the mechanical anchor of the whole position, since it robs the top player of the ability to square their hips or drive forward pressure. For the top player, the same figure-four is what pins their leg and forces every escape to first address the lock before anything else becomes possible.",
+      "answer_line": "Triangle legs, stretch trapped leg",
+      "distractors": {
+        "plausible": [
+          "Squeeze knees together tightly",
+          "Hook foot in front of shin"
+        ],
+        "trap": [
+          "Release leg to reset lockdown"
+        ]
+      }
     },
     {
       "question": "What is the whip-up motion and why is it the defining dynamic of the Vaporizer?",
-      "answer": "The whip-up is a hip-driven action where the bottom player thrusts their hips forward and upward toward the top player's chest while simultaneously extending the trapped leg with the lockdown. This creates a lever that lifts and rotates the top player's weight forward onto their hands, breaking their posted base. Because the motion is rhythmic and repeatable rather than a single explosion, it continuously destabilizes the top player and forces reactive choices. It is the engine that converts the static lockdown into an off-balancing threat, which is why the position lives or dies on the quality of the hip drive rather than arm strength."
+      "answer": "The whip-up is a hip-driven action where the bottom player thrusts their hips forward and upward toward the top player's chest while simultaneously extending the trapped leg with the lockdown. This creates a lever that lifts and rotates the top player's weight forward onto their hands, breaking their posted base. Because the motion is rhythmic and repeatable rather than a single explosion, it continuously destabilizes the top player and forces reactive choices. It is the engine that converts the static lockdown into an off-balancing threat, which is why the position lives or dies on the quality of the hip drive rather than arm strength.",
+      "answer_line": "Hips thrust up, lever breaks base",
+      "distractors": {
+        "plausible": [
+          "Arms pull, hips stay passive",
+          "One single explosive hip pop"
+        ],
+        "trap": [
+          "Push with arms, ignore hip drive"
+        ]
+      }
     },
     {
       "question": "Why is the upper-body underhook or overhook indispensable to the position rather than optional?",
-      "answer": "The upper-body tie is what prevents the top player from posturing away and clearing the lockdown at leisure. An underhook to the far shoulder or lat lets the bottom player pull the top player's torso down and forward into the whip-up, coupling the leg lever to the upper body so both ends of the opponent are controlled simultaneously. Without it, the top player can post their hands, keep their chest high, and simply weather the leg pressure until they extract. The two control points create opposing forces the top player cannot answer at the same time, which is the source of the position's dilemmas."
+      "answer": "The upper-body tie is what prevents the top player from posturing away and clearing the lockdown at leisure. An underhook to the far shoulder or lat lets the bottom player pull the top player's torso down and forward into the whip-up, coupling the leg lever to the upper body so both ends of the opponent are controlled simultaneously. Without it, the top player can post their hands, keep their chest high, and simply weather the leg pressure until they extract. The two control points create opposing forces the top player cannot answer at the same time, which is the source of the position's dilemmas.",
+      "answer_line": "Underhook prevents posturing away",
+      "distractors": {
+        "plausible": [
+          "Only stops their arm defense",
+          "Adds extra submission finish"
+        ],
+        "trap": [
+          "It's optional if lockdown tight"
+        ]
+      }
     },
     {
       "question": "What weight and balance state is the top player forced into while the Vaporizer is functioning?",
-      "answer": "The top player is held between a stable combat base and being rolled onto their side, with weight driven forward onto their hands and shifted laterally by the whip-up. Their trapped leg is extended and cannot post, so they lose one of the two supports they would normally use to widen and settle. This unstable middle zone is deliberate: it keeps the top player reactive and unable to commit weight in any single direction. The moment they establish a genuinely wide, low, symmetric base, the position's leverage collapses, which is exactly what the top player fights toward and the bottom player fights against."
+      "answer": "The top player is held between a stable combat base and being rolled onto their side, with weight driven forward onto their hands and shifted laterally by the whip-up. Their trapped leg is extended and cannot post, so they lose one of the two supports they would normally use to widen and settle. This unstable middle zone is deliberate: it keeps the top player reactive and unable to commit weight in any single direction. The moment they establish a genuinely wide, low, symmetric base, the position's leverage collapses, which is exactly what the top player fights toward and the bottom player fights against.",
+      "answer_line": "Unstable middle, weight on hands",
+      "distractors": {
+        "plausible": [
+          "Fully rolled flat onto back",
+          "Stable, low, symmetric base"
+        ],
+        "trap": [
+          "Base is unaffected, still solid"
+        ]
+      }
     },
     {
       "question": "How does the Vaporizer create the simultaneous-threat dilemma that makes it dangerous regardless of which side you play?",
-      "answer": "The coupling of lockdown leg control and upper-body tie means each defensive reaction by the top player opens a different attack. If they post a hand to stop the roll, they expose the Old School sweep; if they stay heavy and low, they invite the Electric Chair leg split; if they try to pull the leg and scramble away, they expose a Truck entry. Because these responses are mutually exclusive, no single defensive posture answers all three at once. This branching structure is a shared property of the position both players must understand, not a menu belonging to one role."
+      "answer": "The coupling of lockdown leg control and upper-body tie means each defensive reaction by the top player opens a different attack. If they post a hand to stop the roll, they expose the Old School sweep; if they stay heavy and low, they invite the Electric Chair leg split; if they try to pull the leg and scramble away, they expose a Truck entry. Because these responses are mutually exclusive, no single defensive posture answers all three at once. This branching structure is a shared property of the position both players must understand, not a menu belonging to one role.",
+      "answer_line": "Every defense opens another attack",
+      "distractors": {
+        "plausible": [
+          "Only posture defends everything",
+          "Staying heavy defends it all"
+        ],
+        "trap": [
+          "Pulling leg free stops every threat"
+        ]
+      }
     },
     {
       "question": "In what way does the Vaporizer differ mechanically from a standard bottom half guard or deep half guard?",
-      "answer": "Standard half guard emphasizes distance management, framing, and knee-shield space to prevent the pass, while deep half guard slips underneath to attack the base from below. The Vaporizer instead commits to extreme proximity and a leg-plus-torso lever that actively off-balances rather than merely holding or delaying. Where those guards seek space or an underneath angle, the Vaporizer eliminates space and drives the opponent's weight forward and up. This makes it an offensive control state built to force reactions, rather than a defensive retention posture built to survive and recover."
+      "answer": "Standard half guard emphasizes distance management, framing, and knee-shield space to prevent the pass, while deep half guard slips underneath to attack the base from below. The Vaporizer instead commits to extreme proximity and a leg-plus-torso lever that actively off-balances rather than merely holding or delaying. Where those guards seek space or an underneath angle, the Vaporizer eliminates space and drives the opponent's weight forward and up. This makes it an offensive control state built to force reactions, rather than a defensive retention posture built to survive and recover.",
+      "answer_line": "Proximity lever, not space or frame",
+      "distractors": {
+        "plausible": [
+          "Framing and distance like guard",
+          "Underneath angle like deep half"
+        ],
+        "trap": [
+          "Same as standard framing guard"
+        ]
+      }
     },
     {
       "question": "Why is close, chest-to-body proximity a non-negotiable requirement for maintaining the Vaporizer?",
-      "answer": "Proximity is what keeps the lockdown lever and the upper-body tie loaded; any gap lets the top player straighten their posture, retract the trapped knee, and begin clearing the figure-four. The bottom player must stay tight through the underhook, pulling their chest toward the opponent's side so the whip-up has something to act against. Distance converts the position's opposing forces into slack, and slack is precisely the space the top player needs to rebuild base and pass. For this reason both players treat the battle for that inch of separation as the true contest, since it determines whether the lever remains live."
+      "answer": "Proximity is what keeps the lockdown lever and the upper-body tie loaded; any gap lets the top player straighten their posture, retract the trapped knee, and begin clearing the figure-four. The bottom player must stay tight through the underhook, pulling their chest toward the opponent's side so the whip-up has something to act against. Distance converts the position's opposing forces into slack, and slack is precisely the space the top player needs to rebuild base and pass. For this reason both players treat the battle for that inch of separation as the true contest, since it determines whether the lever remains live.",
+      "answer_line": "Distance creates slack to escape",
+      "distractors": {
+        "plausible": [
+          "Space helps generate hip power",
+          "Distance improves whip-up angle"
+        ],
+        "trap": [
+          "Give space to reset your grips"
+        ]
+      }
     }
   ],
   "clips": [

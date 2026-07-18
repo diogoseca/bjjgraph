@@ -305,52 +305,152 @@
       {
         "question": "What anatomical structure does the Americana from Kesa Gatame primarily attack?",
         "answer": "The Americana attacks the glenohumeral (shoulder) joint through forced lateral rotation combined with extension pressure. The figure-four grip creates a lever system that rotates the humerus externally while the pinned elbow prevents the opponent from relieving the rotational stress. Secondary stress is placed on the rotator cuff complex, particularly the subscapularis muscle and the anterior shoulder capsule ligaments.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder, lateral rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow, hyperextension",
+            "Wrist, flexion pressure"
+          ],
+          "trap": [
+            "Rotator cuff, direct tear only"
+          ]
+        }
       },
       {
         "question": "What is the critical moment during the Americana setup from Kesa Gatame that creates the highest escape risk?",
         "answer": "The highest escape risk occurs when you release head control to thread your arm under the opponent's trapped arm for the figure-four grip. During this transition, the opponent's head is momentarily free, creating a window where they can bridge, turn, or attempt to recover guard. Managing this window requires pinning the wrist firmly first and maintaining heavy chest pressure throughout the grip transition to compensate for the lost head control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Releasing head control for grip",
+        "distractors": {
+          "plausible": [
+            "Initial wrist pin moment",
+            "Final painting motion phase"
+          ],
+          "trap": [
+            "After the figure-four locks"
+          ]
+        }
       },
       {
         "question": "How should you position the opponent's arm before applying the finishing rotation?",
         "answer": "The opponent's elbow should be bent at approximately ninety degrees with their forearm perpendicular to the mat surface. The elbow must be pinned firmly against the mat to serve as the fulcrum for the rotational force. If the arm is too straight, the figure-four loses mechanical advantage and the opponent can resist through arm extension strength. If the arm is bent too acutely with the hand near their own shoulder, there is insufficient range of motion remaining to generate adequate submission pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow bent 90°, forearm vertical",
+        "distractors": {
+          "plausible": [
+            "Arm fully extended straight",
+            "Hand pulled to their shoulder"
+          ],
+          "trap": [
+            "Hand near own shoulder, too bent"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped arm as you attempt to secure the figure-four—what adjustment do you make?",
         "answer": "If the opponent straightens their arm before the figure-four is complete, abandon the Americana attempt and transition to an armbar or straight armlock on the extended arm. The extended arm is more vulnerable to armbar attacks than to the Americana. Alternatively, use your chest weight to drive their extended arm back to a bent position by pressing down on their elbow. Never try to force the figure-four onto a fully straightened arm, as this wastes energy and creates space for escapes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Transition to armbar attack",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to kimura",
+            "Keep pulling wrist to finish"
+          ],
+          "trap": [
+            "Force the figure-four anyway"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application during the Americana finish?",
         "answer": "The finishing force paints the opponent's hand in an arc toward the mat, moving their forearm from vertical to horizontal while keeping the elbow pinned as a stationary fulcrum. The force follows a curved path away from their head and toward their hip, like drawing a quarter-circle on the mat with their fingers. Pulling straight down or away creates stress in the wrong vector and allows the opponent to use their chest muscles to resist the force more effectively than they could resist the rotational path.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Paint hand in arc toward hip",
+        "distractors": {
+          "plausible": [
+            "Pull straight down toward mat",
+            "Pull arm straight toward head"
+          ],
+          "trap": [
+            "Yank hand straight away fast"
+          ]
+        }
       },
       {
         "question": "How do you maintain control if the opponent bridges explosively during the finishing sequence?",
         "answer": "Keep your base leg posted wide and your hips heavy on the opponent's torso. When they bridge, absorb the movement by driving your weight downward rather than trying to resist laterally. Maintain the figure-four grip throughout the bridge and do not release it. The bridge will exhaust their energy while your grip remains intact. If the bridge creates significant positional disruption, temporarily pause the finish, re-establish heavy chest pressure, and resume the paint motion once they settle back down.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Base wide, hips heavy, hold grip",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset position",
+            "Resist bridge laterally"
+          ],
+          "trap": [
+            "Let go and chase with crossface"
+          ]
+        }
       },
       {
         "question": "What grip adjustments improve finishing reliability when training no-gi with sweaty grips?",
         "answer": "In no-gi situations with grip slippage, shift from a wrist-on-wrist figure-four to a palm-to-palm or Gable grip variation where your threading hand grips the back of your controlling hand rather than the wrist. This creates a more secure connection that resists sweat-related slippage. Additionally, squeeze the figure-four tight against your chest to create friction contact, and consider gripping slightly higher on the opponent's forearm rather than the narrower wrist joint for a larger contact surface.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip, squeeze to chest",
+        "distractors": {
+          "plausible": [
+            "Grip lower at the fingers",
+            "Loosen grip to reduce slip"
+          ],
+          "trap": [
+            "Switch to a single wrist grab"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Americana attempt and transition to another attack?",
         "answer": "Abandon the Americana when the opponent successfully straightens their arm fully, recovers their wrist from your grip, or creates enough space through bridging that your chest pressure is compromised. Transition to armbar if the arm is extended, to Kimura if they rotate the arm inward, or return to Kesa Gatame head control to re-establish the position if space is lost. A failing Americana should not be forced beyond five to eight seconds—the energy expenditure is not justified when better opportunities exist through submission chain transitions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm straightens or wrist frees",
+        "distractors": {
+          "plausible": [
+            "After exactly 15 seconds trying",
+            "Only if opponent taps early"
+          ],
+          "trap": [
+            "Never abandon, keep grinding"
+          ]
+        }
       },
       {
         "question": "What are the warning signs that you are applying the Americana too fast and risk injuring your training partner?",
         "answer": "Warning signs include sudden popping or clicking sounds from the shoulder, partner's facial expression showing acute distress before they can articulate a tap, partner's entire body tensing rigidly, or the forearm moving toward the mat faster than the partner can process and respond. Always apply the Americana with slow progressive pressure that gives the opponent time to recognize the submission and tap. Pause briefly when you feel initial resistance at the shoulder's end range—this is the injury threshold where damage occurs if force continues without a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Popping sound or rigid tensing",
+        "distractors": {
+          "plausible": [
+            "Opponent breathing heavily",
+            "Slow steady tap request"
+          ],
+          "trap": [
+            "Fast finish before they resist"
+          ]
+        }
       },
       {
         "question": "How does the Americana from Kesa Gatame differ mechanically from the Americana from standard side control?",
         "answer": "From Kesa Gatame, the arm is already trapped under your armpit, eliminating the initial arm isolation step required from standard side control. The perpendicular body angle creates a different leverage angle for the figure-four where your body weight drives more directly into the finishing motion. However, Kesa Gatame requires releasing head control for the figure-four, while standard side control allows maintaining crossface throughout. The scarf hold version also generates stronger natural chest pressure on the opponent's diaphragm, reducing their explosive defensive capacity during the finishing sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm pre-trapped, loses crossface",
+        "distractors": {
+          "plausible": [
+            "Identical mechanics, no difference",
+            "Weaker chest pressure than side"
+          ],
+          "trap": [
+            "Easier, head stays controlled"
+          ]
+        }
       }
     ],
     "clips": [
@@ -459,27 +559,77 @@
       {
         "question": "What is the earliest recognition cue that an Americana is being set up from Kesa Gatame?",
         "answer": "The earliest cue is feeling the opponent's free hand contact your trapped wrist, pressing it toward the mat. This wrist pin precedes the figure-four grip and signals the beginning of the Americana sequence. The moment you feel wrist pressure, you must begin your defensive response immediately because waiting for the figure-four to form dramatically reduces your defensive options and escape probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feeling wrist pinned toward mat",
+        "distractors": {
+          "plausible": [
+            "Feeling the figure-four lock",
+            "Opponent shifting hip weight"
+          ],
+          "trap": [
+            "Waiting until arm rotates fully"
+          ]
+        }
       },
       {
         "question": "Why is it critical to prevent the figure-four grip from being completed rather than trying to escape after it is locked?",
         "answer": "Once the figure-four grip is fully secured with proper elbow positioning, the two-on-one grip system combined with the attacker's body weight creates forces that are extremely difficult to overcome through strength alone. Before the grip is complete, you only need to address one control point—the wrist pin—and you have full arm mobility plus bridging power available. After completion, you must simultaneously break the figure-four and create a positional escape, which requires far more energy and has a significantly lower success rate.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "One control point, full mobility",
+        "distractors": {
+          "plausible": [
+            "Escaping after is just as easy",
+            "Strength alone beats the lock"
+          ],
+          "trap": [
+            "Wait for lock, then power out"
+          ]
+        }
       },
       {
         "question": "How does the momentary release of head control during the Americana setup create an escape opportunity?",
         "answer": "When the opponent releases head control to thread the figure-four, your head becomes free to turn and your neck is no longer pinned. This creates a two to three second window where you can bridge toward the opponent and turn into them, potentially recovering guard or reaching turtle. Recognize this window through tactile sensation—the pressure on your head releases suddenly as their arm moves. Time your most explosive escape attempt to coincide with this moment of reduced positional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge and turn during 2-3 sec",
+        "distractors": {
+          "plausible": [
+            "Window lasts ten-plus seconds",
+            "Push straight up, don't turn"
+          ],
+          "trap": [
+            "Wait for figure-four to lock"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully secured the figure-four and begins painting your arm toward the mat—what is your last resort defense?",
         "answer": "If the figure-four is fully locked and the painting motion has begun toward end range, tap immediately rather than risking injury to the shoulder. The glenohumeral joint can suffer permanent damage from forced lateral rotation beyond its natural range, including rotator cuff tears and shoulder dislocation that require months of recovery or surgery. In training, no submission is worth a catastrophic shoulder injury—tap early, recognize where your defense failed, and focus on earlier intervention in future attempts.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, don't resist",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to escape",
+            "Muscle the arm back to bent"
+          ],
+          "trap": [
+            "Fight through the pain, hold on"
+          ]
+        }
       },
       {
         "question": "What defensive arm position should you maintain with the trapped arm to minimize both Americana and armbar vulnerability?",
         "answer": "Keep the trapped arm bent at approximately ninety degrees with your elbow tight against your ribs and slight internal rotation at the shoulder. This position prevents the Americana because the arm cannot be painted toward the mat without first being repositioned, and prevents the armbar because the arm is not extended. If you fully extend to prevent the Americana, you expose yourself to armbar. If you collapse the arm completely against your body, you create the bent position the Americana needs. The ninety-degree defensive position splits the difference between both threats.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow tight to ribs, 90° bend",
+        "distractors": {
+          "plausible": [
+            "Fully extend arm to be safe",
+            "Fully collapse arm to body"
+          ],
+          "trap": [
+            "Push arm straight to fight grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

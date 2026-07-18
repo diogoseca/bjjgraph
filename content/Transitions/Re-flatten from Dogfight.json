@@ -260,31 +260,101 @@
     "flashcards": [
       {
         "question": "What are the three simultaneous pressure vectors used in the re-flatten sequence?",
-        "answer": "The three pressure vectors are crossface pressure driving the opponent's head offline, whizzer torque pulling their underhook shoulder toward the mat, and hip drive generating forward and downward force through body weight. All three must work in coordination to overcome the opponent's structural resistance and collapse their kneeling posture systematically."
+        "answer": "The three pressure vectors are crossface pressure driving the opponent's head offline, whizzer torque pulling their underhook shoulder toward the mat, and hip drive generating forward and downward force through body weight. All three must work in coordination to overcome the opponent's structural resistance and collapse their kneeling posture systematically.",
+        "answer_line": "Crossface, whizzer, hip drive",
+        "distractors": {
+          "plausible": [
+            "Whizzer, hip drive, then crossface",
+            "Crossface and hip drive only"
+          ],
+          "trap": [
+            "Rely on hip drive alone"
+          ]
+        }
       },
       {
         "question": "Your opponent has a shallow underhook and their outside posting leg is narrow - when should you initiate the re-flatten?",
-        "answer": "This is the ideal moment to initiate the re-flatten because both structural supports are compromised simultaneously. The shallow underhook means your whizzer will have maximum leverage advantage, and the narrow posting leg means less lateral base to resist your driving pressure. Attack immediately before the opponent can deepen their underhook or widen their base to restore structural integrity."
+        "answer": "This is the ideal moment to initiate the re-flatten because both structural supports are compromised simultaneously. The shallow underhook means your whizzer will have maximum leverage advantage, and the narrow posting leg means less lateral base to resist your driving pressure. Attack immediately before the opponent can deepen their underhook or widen their base to restore structural integrity.",
+        "answer_line": "Attack now, both weak",
+        "distractors": {
+          "plausible": [
+            "Wait for deeper underhook first",
+            "Wait until they widen base"
+          ],
+          "trap": [
+            "Back off, they're stable"
+          ]
+        }
       },
       {
         "question": "What is the most critical body position element that determines whether the re-flatten succeeds or fails?",
-        "answer": "The crossface is the most critical element because it controls the opponent's head position, which dictates their ability to maintain forward pressure and structural integrity through the underhook. Without an effective crossface, the opponent can maintain their head position and forward drive, making the whizzer and hip pressure alone insufficient to collapse their posture."
+        "answer": "The crossface is the most critical element because it controls the opponent's head position, which dictates their ability to maintain forward pressure and structural integrity through the underhook. Without an effective crossface, the opponent can maintain their head position and forward drive, making the whizzer and hip pressure alone insufficient to collapse their posture.",
+        "answer_line": "Crossface controls the head",
+        "distractors": {
+          "plausible": [
+            "Whizzer torque is most critical",
+            "Hip drive is most critical"
+          ],
+          "trap": [
+            "Underhook grip matters most"
+          ]
+        }
       },
       {
         "question": "How should you adjust your re-flatten attempt when the opponent drops their level to enter deep half guard?",
-        "answer": "When the opponent drops for deep half, maintain tight chest-to-chest connection and follow their downward movement rather than continuing to drive forward into empty space. Use your whizzer arm to block them from threading underneath your hips, and sprawl your hips slightly to increase downward pressure on their shoulders. If they complete the deep half entry, transition to deep half passing rather than forcing the re-flatten."
+        "answer": "When the opponent drops for deep half, maintain tight chest-to-chest connection and follow their downward movement rather than continuing to drive forward into empty space. Use your whizzer arm to block them from threading underneath your hips, and sprawl your hips slightly to increase downward pressure on their shoulders. If they complete the deep half entry, transition to deep half passing rather than forcing the re-flatten.",
+        "answer_line": "Follow down, block their entry",
+        "distractors": {
+          "plausible": [
+            "Keep driving forward regardless",
+            "Pull them back up to their knees"
+          ],
+          "trap": [
+            "Release whizzer to reset posture"
+          ]
+        }
       },
       {
         "question": "What grip positioning on the whizzer arm maximizes your torque for the re-flatten?",
-        "answer": "The whizzer should grip at or above the opponent's elbow on their underhook arm, with your arm threaded deeply over their arm and pulled tight against your ribs. This positioning creates the longest possible lever arm for generating rotational torque. A whizzer that only controls the wrist or forearm provides insufficient leverage to redirect the opponent's underhook force and break their structural integrity."
+        "answer": "The whizzer should grip at or above the opponent's elbow on their underhook arm, with your arm threaded deeply over their arm and pulled tight against your ribs. This positioning creates the longest possible lever arm for generating rotational torque. A whizzer that only controls the wrist or forearm provides insufficient leverage to redirect the opponent's underhook force and break their structural integrity.",
+        "answer_line": "Grip above elbow, pulled to ribs",
+        "distractors": {
+          "plausible": [
+            "Grip at the wrist for control",
+            "Grip at the mid-forearm"
+          ],
+          "trap": [
+            "Grip the far tricep instead"
+          ]
+        }
       },
       {
         "question": "Your opponent uses your forward driving pressure to initiate a sweep by redirecting your momentum laterally - what fundamental error caused this?",
-        "answer": "The error was overcommitting weight forward beyond your center of balance without maintaining adequate base through your posted free leg. Effective re-flattening requires controlled incremental pressure where your center of gravity stays over your knees, not projected past them. The correction is to widen your free leg base, apply pressure through hip weight transfer rather than forward lunging, and maintain the ability to retract if the opponent redirects your force."
+        "answer": "The error was overcommitting weight forward beyond your center of balance without maintaining adequate base through your posted free leg. Effective re-flattening requires controlled incremental pressure where your center of gravity stays over your knees, not projected past them. The correction is to widen your free leg base, apply pressure through hip weight transfer rather than forward lunging, and maintain the ability to retract if the opponent redirects your force.",
+        "answer_line": "Overcommitted weight past knees",
+        "distractors": {
+          "plausible": [
+            "Whizzer grip too loose",
+            "Crossface placed too high"
+          ],
+          "trap": [
+            "Lunge forward harder next time"
+          ]
+        }
       },
       {
         "question": "After successfully flattening the opponent, what is your immediate priority before initiating a guard pass?",
-        "answer": "Your immediate priority is consolidating heavy half guard top control by driving your chest onto the opponent's chest, establishing dominant crossface or underhook control, and preventing the opponent from re-inserting a knee shield or coming back up to their knees. Control their bottom knee to prevent frame re-insertion, settle your hips low and wide, and only begin your passing sequence once the opponent is fully stabilized in the flattened position."
+        "answer": "Your immediate priority is consolidating heavy half guard top control by driving your chest onto the opponent's chest, establishing dominant crossface or underhook control, and preventing the opponent from re-inserting a knee shield or coming back up to their knees. Control their bottom knee to prevent frame re-insertion, settle your hips low and wide, and only begin your passing sequence once the opponent is fully stabilized in the flattened position.",
+        "answer_line": "Consolidate heavy half guard top",
+        "distractors": {
+          "plausible": [
+            "Immediately attack the pass",
+            "Switch to full crossface choke"
+          ],
+          "trap": [
+            "Release the bottom knee control"
+          ]
+        }
       }
     ],
     "safety_considerations": "The re-flatten technique involves significant pressure application to the head and neck through the crossface and forward driving mechanics. During training, modulate crossface pressure to avoid cervical strain and communicate with your partner about neck discomfort. Avoid explosive slamming movements when driving the opponent flat, as the transition from kneeling to supine position can cause impact injuries if performed recklessly. Be mindful of your partner's knee health when maintaining the half guard leg trap during the flattening sequence, particularly if they resist by posting their trapped leg at extreme angles.",
@@ -402,19 +472,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the top player is initiating a re-flatten attempt?",
-        "answer": "The earliest cue is the tightening of the whizzer grip combined with the opponent beginning to shift their shoulder toward your jaw for crossface placement. Before the hip drive phase begins, you can feel increased whizzer torque pulling your underhook arm downward and the opponent's chest beginning to lower as they prepare to drive forward. Recognizing these preparatory adjustments gives you the maximum response window to counter."
+        "answer": "The earliest cue is the tightening of the whizzer grip combined with the opponent beginning to shift their shoulder toward your jaw for crossface placement. Before the hip drive phase begins, you can feel increased whizzer torque pulling your underhook arm downward and the opponent's chest beginning to lower as they prepare to drive forward. Recognizing these preparatory adjustments gives you the maximum response window to counter.",
+        "answer_line": "Whizzer tightens, shoulder to jaw",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips drive forward",
+            "Opponent's chest fully flattens"
+          ],
+          "trap": [
+            "Ignore grip changes, watch hips"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a strong crossface and is beginning to drive their hips forward - what is your best defensive option at this stage?",
-        "answer": "At this stage, maintaining upright dogfight posture is becoming difficult, so the best option is to drop your level and enter deep half guard before the flattening pressure completes. Duck under the opponent's driving pressure by threading your body underneath them, using your underhook arm to control their far leg as you transition. This converts a deteriorating defensive position into an offensive deep half guard where you have strong sweeping options available."
+        "answer": "At this stage, maintaining upright dogfight posture is becoming difficult, so the best option is to drop your level and enter deep half guard before the flattening pressure completes. Duck under the opponent's driving pressure by threading your body underneath them, using your underhook arm to control their far leg as you transition. This converts a deteriorating defensive position into an offensive deep half guard where you have strong sweeping options available.",
+        "answer_line": "Drop level, enter deep half",
+        "distractors": {
+          "plausible": [
+            "Fight to keep upright posture",
+            "Push their head away first"
+          ],
+          "trap": [
+            "Post both hands and lean back"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a wide base with the outside posting leg critical for defending the re-flatten?",
-        "answer": "The outside posting leg provides the lateral stability necessary to resist the top player's diagonal driving pressure. A wide base creates a broad triangle of support between your two knees and your posted foot, requiring the opponent to generate significantly more force to tip you past your balance point. Without this wide base, even moderate forward pressure can collapse your structure because your center of gravity has minimal lateral support against angled force vectors."
+        "answer": "The outside posting leg provides the lateral stability necessary to resist the top player's diagonal driving pressure. A wide base creates a broad triangle of support between your two knees and your posted foot, requiring the opponent to generate significantly more force to tip you past your balance point. Without this wide base, even moderate forward pressure can collapse your structure because your center of gravity has minimal lateral support against angled force vectors.",
+        "answer_line": "Provides lateral stability vs drive",
+        "distractors": {
+          "plausible": [
+            "Keeps weight forward for pressure",
+            "Protects against the crossface"
+          ],
+          "trap": [
+            "Narrow stance for quick escape"
+          ]
+        }
       },
       {
         "question": "How can you convert a failed re-flatten attempt into an offensive opportunity?",
-        "answer": "When the top player fails to flatten you, they have typically committed significant weight forward and their whizzer grip may have loosened from the effort. This creates a window to deepen your underhook toward their far hip, circle your posting leg forward, and attack with a sweep or back take entry. The opponent's forward weight commitment and momentary grip relaxation provide the opening you need to transition from defense to offense immediately."
+        "answer": "When the top player fails to flatten you, they have typically committed significant weight forward and their whizzer grip may have loosened from the effort. This creates a window to deepen your underhook toward their far hip, circle your posting leg forward, and attack with a sweep or back take entry. The opponent's forward weight commitment and momentary grip relaxation provide the opening you need to transition from defense to offense immediately.",
+        "answer_line": "Deepen underhook, attack sweep",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral dogfight stance",
+            "Wait for them to try again"
+          ],
+          "trap": [
+            "Release underhook, stand up"
+          ]
+        }
       }
     ],
     "training_progressions": [

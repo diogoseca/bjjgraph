@@ -399,27 +399,87 @@
   "flashcards": [
     {
       "question": "What distinguishes a hook from a grip as an attachment method?",
-      "answer": "A grip relies on actively grabbing and squeezing and fails the moment you relax, while a hook uses the curved geometry of a foot, hand, or arm wrapped around the target to retain connection passively, resisting linear removal with minimal muscular effort."
+      "answer": "A grip relies on actively grabbing and squeezing and fails the moment you relax, while a hook uses the curved geometry of a foot, hand, or arm wrapped around the target to retain connection passively, resisting linear removal with minimal muscular effort.",
+      "answer_line": "Curved geometry holds passively",
+      "distractors": {
+        "plausible": [
+          "Grip relies on curved shape",
+          "Hook fails the moment you relax"
+        ],
+        "trap": [
+          "Grip stronger than any hook"
+        ]
+      }
     },
     {
       "question": "Why can't you remove a well-set hook by pulling it straight out?",
-      "answer": "The curve of the hook catches on the target structure when pulled directly, so linear force fights the geometry itself. Hooks are stripped by changing the angle — pushing the foot sideways, swimming the arm laterally, or rotating the body to disengage the curve."
+      "answer": "The curve of the hook catches on the target structure when pulled directly, so linear force fights the geometry itself. Hooks are stripped by changing the angle — pushing the foot sideways, swimming the arm laterally, or rotating the body to disengage the curve.",
+      "answer_line": "Change the angle, not pull straight",
+      "distractors": {
+        "plausible": [
+          "Twist their body, not yours",
+          "Loosen your grip and wait"
+        ],
+        "trap": [
+          "Pull straight out with force"
+        ]
+      }
     },
     {
       "question": "What is the most consequential hook battle in BJJ, and what is at stake?",
-      "answer": "Back control hook retention versus clearing. Both heels hooked inside the opponent's inner thighs are the primary retention mechanism; losing both hooks generally means losing the position, though a body triangle can serve as an alternative once hooks are cleared."
+      "answer": "Back control hook retention versus clearing. Both heels hooked inside the opponent's inner thighs are the primary retention mechanism; losing both hooks generally means losing the position, though a body triangle can serve as an alternative once hooks are cleared.",
+      "answer_line": "Back-control heel hooks vs clearing",
+      "distractors": {
+        "plausible": [
+          "Losing one hook loses the back",
+          "Mount hook retention battle"
+        ],
+        "trap": [
+          "Abandon hooks for body triangle"
+        ]
+      }
     },
     {
       "question": "How deep should an underhook be threaded for effective control?",
-      "answer": "Deep enough that the elbow passes the opponent's centerline and the arm curves upward behind the shoulder blade. A shallow underhook that stops at the armpit gives weak attachment and is easily countered with a whizzer (overhook)."
+      "answer": "Deep enough that the elbow passes the opponent's centerline and the arm curves upward behind the shoulder blade. A shallow underhook that stops at the armpit gives weak attachment and is easily countered with a whizzer (overhook).",
+      "answer_line": "Elbow past centerline, deep",
+      "distractors": {
+        "plausible": [
+          "Just past their shoulder",
+          "Underhook plus far-side grip"
+        ],
+        "trap": [
+          "Shallow underhook to the armpit"
+        ]
+      }
     },
     {
       "question": "Why are hooks considered energy-efficient compared to grips?",
-      "answer": "Once set, a hook's curved geometry naturally resists linear pulling forces, so it stays in place with minimal active effort. This passive retention lets the hooking player spend attention and energy elsewhere while the hook quietly maintains the connection."
+      "answer": "Once set, a hook's curved geometry naturally resists linear pulling forces, so it stays in place with minimal active effort. This passive retention lets the hooking player spend attention and energy elsewhere while the hook quietly maintains the connection.",
+      "answer_line": "Curve holds without active effort",
+      "distractors": {
+        "plausible": [
+          "Requires constant re-gripping",
+          "Works best with heavy squeezing"
+        ],
+        "trap": [
+          "Squeeze continuously to hold hook"
+        ]
+      }
     },
     {
       "question": "When is the best moment to insert hooks, and why?",
-      "answer": "During transitions — when the opponent stands, turns, or shifts weight — because their limbs are not yet set in defensive positions. Fighting for hook insertion against a settled opponent with pinched knees and tight elbows is far harder than catching the open window."
+      "answer": "During transitions — when the opponent stands, turns, or shifts weight — because their limbs are not yet set in defensive positions. Fighting for hook insertion against a settled opponent with pinched knees and tight elbows is far harder than catching the open window.",
+      "answer_line": "During transitions, limbs open",
+      "distractors": {
+        "plausible": [
+          "Right after they settle in",
+          "When they pinch knees tight"
+        ],
+        "trap": [
+          "Force insertion against tight knees"
+        ]
+      }
     },
     {
       "question": "Which parts of the foot create an effective hook, and why does it matter?",
@@ -427,15 +487,45 @@
     },
     {
       "question": "Why is relying on a single hook risky?",
-      "answer": "A single hook is a single point of failure — when it is stripped, all connection is lost and the position collapses. Working toward dual hooks or a hook-plus-grip combination creates redundant attachment, so stripping one hook still leaves control intact."
+      "answer": "A single hook is a single point of failure — when it is stripped, all connection is lost and the position collapses. Working toward dual hooks or a hook-plus-grip combination creates redundant attachment, so stripping one hook still leaves control intact.",
+      "answer_line": "Single point of failure",
+      "distractors": {
+        "plausible": [
+          "Fine if grip is strong",
+          "Only risky against strong opponents"
+        ],
+        "trap": [
+          "Rely on one hook, free the hands"
+        ]
+      }
     },
     {
       "question": "What is the difference between a rigid hook and a responsive hook?",
-      "answer": "A rigid hook is locked stiff and snaps out of place when the opponent explosively changes direction, unable to reattach. A responsive hook stays firm enough to hold connection but flexible enough to follow movement and re-curve around the target from a new angle."
+      "answer": "A rigid hook is locked stiff and snaps out of place when the opponent explosively changes direction, unable to reattach. A responsive hook stays firm enough to hold connection but flexible enough to follow movement and re-curve around the target from a new angle.",
+      "answer_line": "Responsive flexes, rigid snaps out",
+      "distractors": {
+        "plausible": [
+          "Rigid hook holds through any move",
+          "Responsive hook is looser, weaker"
+        ],
+        "trap": [
+          "Lock the hook rigid for max grip"
+        ]
+      }
     },
     {
       "question": "How do hooks contribute to off-balancing (kuzushi) and sweeps?",
-      "answer": "Hooks supply the attachment points from which off-balancing force is applied: the butterfly hook elevates the thigh, the X-guard hooks lift the entire leg, and the De La Riva hook redirects the opponent's base — each creating the kuzushi needed to sweep."
+      "answer": "Hooks supply the attachment points from which off-balancing force is applied: the butterfly hook elevates the thigh, the X-guard hooks lift the entire leg, and the De La Riva hook redirects the opponent's base — each creating the kuzushi needed to sweep.",
+      "answer_line": "Attachment points to lift/redirect",
+      "distractors": {
+        "plausible": [
+          "Hooks trap legs, not off-balance",
+          "Only grips create sweeps"
+        ],
+        "trap": [
+          "Push straight to force the sweep"
+        ]
+      }
     }
   ],
   "clips": [

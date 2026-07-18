@@ -336,35 +336,115 @@
     "flashcards": [
       {
         "question": "What is the optimal hip-to-shoulder distance when maintaining armbar control?",
-        "answer": "Your hips should be positioned as close to the opponent's shoulder as possible, ideally with zero gap between your hip bone and their shoulder joint. This maximizes leverage by reducing the moment arm the opponent can use to defend, and ensures that any hip elevation translates directly into extension pressure on the elbow joint."
+        "answer": "Your hips should be positioned as close to the opponent's shoulder as possible, ideally with zero gap between your hip bone and their shoulder joint. This maximizes leverage by reducing the moment arm the opponent can use to defend, and ensures that any hip elevation translates directly into extension pressure on the elbow joint.",
+        "answer_line": "Zero gap, hips to shoulder",
+        "distractors": {
+          "plausible": [
+            "Hips near their elbow",
+            "Hips against their ribs"
+          ],
+          "trap": [
+            "Leave space to adjust hips"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to sit up and stack forward - what adjustment do you make?",
-        "answer": "When the opponent begins stacking, immediately transition your leg positioning by bringing your top leg (the one across their face) tighter against their neck and driving your knee toward the mat on the far side. This creates a wedge that prevents further forward movement. If stacking continues, flow to triangle by swinging your leg over their head, as their forward posture actually facilitates this transition."
+        "answer": "When the opponent begins stacking, immediately transition your leg positioning by bringing your top leg (the one across their face) tighter against their neck and driving your knee toward the mat on the far side. This creates a wedge that prevents further forward movement. If stacking continues, flow to triangle by swinging your leg over their head, as their forward posture actually facilitates this transition.",
+        "answer_line": "Tighten leg, knee down, triangle",
+        "distractors": {
+          "plausible": [
+            "Lean back and pull harder",
+            "Release grip to re-angle"
+          ],
+          "trap": [
+            "Let go of legs, hug the arm"
+          ]
+        }
       },
       {
         "question": "Why should the opponent's thumb point upward during the armbar finish?",
-        "answer": "Thumb-up orientation positions the elbow joint with the hyperextension plane aligned directly with your hip elevation. When the thumb points down, the arm can rotate, distributing pressure across the forearm bones rather than concentrating it on the elbow ligaments. The thumb-up position creates the weakest structural configuration for the joint, requiring less force to generate a tap."
+        "answer": "Thumb-up orientation positions the elbow joint with the hyperextension plane aligned directly with your hip elevation. When the thumb points down, the arm can rotate, distributing pressure across the forearm bones rather than concentrating it on the elbow ligaments. The thumb-up position creates the weakest structural configuration for the joint, requiring less force to generate a tap.",
+        "answer_line": "Aligns elbow at weakest angle",
+        "distractors": {
+          "plausible": [
+            "Prevents wrist rotation",
+            "Locks the shoulder joint"
+          ],
+          "trap": [
+            "Point thumb down for grip"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining armbar control position?",
-        "answer": "The primary grip configuration involves both hands controlling the wrist area with your thumbs on the inside (touching the opponent's pulse point). For additional security, a secondary grip has one hand on the wrist and one hand cupping the triceps above the elbow. Both hands should pull the arm toward your chest centerline while maintaining constant tension."
+        "answer": "The primary grip configuration involves both hands controlling the wrist area with your thumbs on the inside (touching the opponent's pulse point). For additional security, a secondary grip has one hand on the wrist and one hand cupping the triceps above the elbow. Both hands should pull the arm toward your chest centerline while maintaining constant tension.",
+        "answer_line": "Both hands on wrist, thumbs in",
+        "distractors": {
+          "plausible": [
+            "One hand wrist, one on shoulder",
+            "Grip only above the elbow"
+          ],
+          "trap": [
+            "Grab the far wrist across body"
+          ]
+        }
       },
       {
         "question": "How do you recover when your opponent extracts a few inches of their arm?",
-        "answer": "Immediately re-grip higher on their arm (toward the elbow), pinch your knees together harder, and scoot your hips closer to their shoulder to recapture the lost distance. Do not chase the wrist - instead, control whatever portion of the arm remains accessible while repositioning your body. If significant space is lost, consider transitioning to triangle or omoplata rather than fighting for a deteriorating armbar."
+        "answer": "Immediately re-grip higher on their arm (toward the elbow), pinch your knees together harder, and scoot your hips closer to their shoulder to recapture the lost distance. Do not chase the wrist - instead, control whatever portion of the arm remains accessible while repositioning your body. If significant space is lost, consider transitioning to triangle or omoplata rather than fighting for a deteriorating armbar.",
+        "answer_line": "Re-grip higher, scoot hips in",
+        "distractors": {
+          "plausible": [
+            "Chase and grab the wrist tighter",
+            "Squeeze knees and wait it out"
+          ],
+          "trap": [
+            "Release grip and start over"
+          ]
+        }
       },
       {
         "question": "What is the proper leg positioning for controlling the opponent's upper body?",
-        "answer": "One leg crosses over the opponent's face/neck with your hamstring pressing against their cheek and your calf hooking behind their head. The other leg positions across their chest with your thigh applying downward pressure. Both legs work together to prevent the opponent from sitting up or turning into the position. Avoid crossing your feet, which compromises hip mobility."
+        "answer": "One leg crosses over the opponent's face/neck with your hamstring pressing against their cheek and your calf hooking behind their head. The other leg positions across their chest with your thigh applying downward pressure. Both legs work together to prevent the opponent from sitting up or turning into the position. Avoid crossing your feet, which compromises hip mobility.",
+        "answer_line": "One leg over face, one on chest",
+        "distractors": {
+          "plausible": [
+            "Both legs crossed over chest",
+            "Feet locked behind their back"
+          ],
+          "trap": [
+            "Cross your feet to lock tighter"
+          ]
+        }
       },
       {
         "question": "How do you distribute your weight to prevent the opponent from bridging out of armbar control?",
-        "answer": "Concentrate your weight through your hips directly against the opponent's shoulder, creating a downward anchor point. Your upper body should stay slightly elevated rather than flat on the mat, allowing you to adjust dynamically to bridging attempts. If the opponent bridges, follow their hip movement by scooting your hips to maintain the shoulder connection rather than trying to resist with static weight. Your legs provide the secondary anchor by squeezing inward against their head and torso."
+        "answer": "Concentrate your weight through your hips directly against the opponent's shoulder, creating a downward anchor point. Your upper body should stay slightly elevated rather than flat on the mat, allowing you to adjust dynamically to bridging attempts. If the opponent bridges, follow their hip movement by scooting your hips to maintain the shoulder connection rather than trying to resist with static weight. Your legs provide the secondary anchor by squeezing inward against their head and torso.",
+        "answer_line": "Weight into shoulder, follow bridge",
+        "distractors": {
+          "plausible": [
+            "Stay flat and heavy on chest",
+            "Push down hard, resist bridge"
+          ],
+          "trap": [
+            "Lie flat, brace against bridge"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to roll toward the trapped arm side - what is your immediate response?",
-        "answer": "When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck."
+        "answer": "When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck.",
+        "answer_line": "Follow roll, keep knees pinched",
+        "distractors": {
+          "plausible": [
+            "Stop the roll, hold position",
+            "Release grip to reset base"
+          ],
+          "trap": [
+            "Let go of legs to chase roll"
+          ]
+        }
       }
     ],
     "clips": [
@@ -670,35 +750,115 @@
     "flashcards": [
       {
         "question": "What is the first defensive action you must take when caught in an armbar?",
-        "answer": "Immediately bend your trapped elbow and rotate your forearm so your thumb points toward the ceiling. This creates the strongest anatomical position for your elbow joint and prevents the opponent from achieving the extension angle needed to finish. Simultaneously, use your free hand to grip your trapped wrist and pull it toward your chest to reinforce the bent position."
+        "answer": "Immediately bend your trapped elbow and rotate your forearm so your thumb points toward the ceiling. This creates the strongest anatomical position for your elbow joint and prevents the opponent from achieving the extension angle needed to finish. Simultaneously, use your free hand to grip your trapped wrist and pull it toward your chest to reinforce the bent position.",
+        "answer_line": "Bend elbow, thumb up, grip wrist",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm straight back",
+            "Turn away from trapped side"
+          ],
+          "trap": [
+            "Straighten arm to power through"
+          ]
+        }
       },
       {
         "question": "Your opponent begins elevating their hips to finish - what immediate response should you execute?",
-        "answer": "As their hips rise, explosively bridge your own hips upward and forward toward their body, creating a stacking effect that compromises their finishing angle. Simultaneously turn your body toward the trapped arm side while maintaining your defensive arm position. This combination disrupts their leverage and creates space to potentially extract your arm or transition to a more defensible position."
+        "answer": "As their hips rise, explosively bridge your own hips upward and forward toward their body, creating a stacking effect that compromises their finishing angle. Simultaneously turn your body toward the trapped arm side while maintaining your defensive arm position. This combination disrupts their leverage and creates space to potentially extract your arm or transition to a more defensible position.",
+        "answer_line": "Bridge up, turn toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Pull the arm back sharply",
+            "Sit up to break their grip"
+          ],
+          "trap": [
+            "Stay flat and push their hips"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's leg across your face essential for armbar defense?",
-        "answer": "The leg across your face is the primary mechanism preventing you from sitting up or turning into the position. By gripping this leg with your free hand and pushing it toward their body, you remove their ability to drop back flat for maximum finishing leverage. This control also creates the space needed to turn your body and begin escape sequences."
+        "answer": "The leg across your face is the primary mechanism preventing you from sitting up or turning into the position. By gripping this leg with your free hand and pushing it toward their body, you remove their ability to drop back flat for maximum finishing leverage. This control also creates the space needed to turn your body and begin escape sequences.",
+        "answer_line": "Blocks sit-up, stops flat drop",
+        "distractors": {
+          "plausible": [
+            "Protects your neck from choke",
+            "Keeps their hips from rising"
+          ],
+          "trap": [
+            "Ignore the leg, focus on grip"
+          ]
+        }
       },
       {
         "question": "What is the hitchhiker escape and when should you attempt it?",
-        "answer": "The hitchhiker escape involves rotating your trapped arm so the thumb points toward your head (like hitchhiking), then sliding your elbow across your body while simultaneously turning to turtle position. Attempt this escape when you have maintained a bent arm and the opponent's legs are not completely locked tight. The rotation makes it mechanically difficult for them to maintain wrist control."
+        "answer": "The hitchhiker escape involves rotating your trapped arm so the thumb points toward your head (like hitchhiking), then sliding your elbow across your body while simultaneously turning to turtle position. Attempt this escape when you have maintained a bent arm and the opponent's legs are not completely locked tight. The rotation makes it mechanically difficult for them to maintain wrist control.",
+        "answer_line": "Thumb to head, slide arm, turtle",
+        "distractors": {
+          "plausible": [
+            "Pull elbow to chest, sit up",
+            "Rotate thumb down, muscle out"
+          ],
+          "trap": [
+            "Yank the arm straight out"
+          ]
+        }
       },
       {
         "question": "How do you prevent energy depletion while defending an armbar?",
-        "answer": "Focus on skeletal alignment rather than muscular effort. Keep your arm bent using bone structure rather than bicep strength by positioning your hand against your chest or shoulder. Use your free hand to assist rather than relying solely on the trapped arm. Make deliberate, technical movements rather than explosive attempts to rip free. Controlled breathing prevents panic-induced energy waste."
+        "answer": "Focus on skeletal alignment rather than muscular effort. Keep your arm bent using bone structure rather than bicep strength by positioning your hand against your chest or shoulder. Use your free hand to assist rather than relying solely on the trapped arm. Make deliberate, technical movements rather than explosive attempts to rip free. Controlled breathing prevents panic-induced energy waste.",
+        "answer_line": "Use bone structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts to break free",
+            "Hold breath and brace hard"
+          ],
+          "trap": [
+            "Rip arm free with raw strength"
+          ]
+        }
       },
       {
         "question": "What escape should you prioritize when the opponent has very tight leg control?",
-        "answer": "When leg control is tight, the stack defense becomes your best option. Drive your hips forward and upward while walking your feet toward their head. This creates immense pressure on their lower back, forcing them to either release leg control or accept a compromised finishing position. As their legs loosen, immediately transition to hip escape or standing pass."
+        "answer": "When leg control is tight, the stack defense becomes your best option. Drive your hips forward and upward while walking your feet toward their head. This creates immense pressure on their lower back, forcing them to either release leg control or accept a compromised finishing position. As their legs loosen, immediately transition to hip escape or standing pass.",
+        "answer_line": "Stack: drive hips, walk feet up",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm back hard",
+            "Wait for their grip to loosen"
+          ],
+          "trap": [
+            "Sit up straight into the armbar"
+          ]
+        }
       },
       {
         "question": "How do you recognize when it is too late to continue defending and you should tap?",
-        "answer": "Tap when your arm reaches full extension against your resistance and you feel pressure on the elbow joint itself. If your arm is straightening despite your defensive efforts and their hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Tap before you feel a pop or sharp pain - the goal is to train another day. There is no shame in tapping to a well-executed submission."
+        "answer": "Tap when your arm reaches full extension against your resistance and you feel pressure on the elbow joint itself. If your arm is straightening despite your defensive efforts and their hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Tap before you feel a pop or sharp pain - the goal is to train another day. There is no shame in tapping to a well-executed submission.",
+        "answer_line": "Tap at elbow pressure, arm straight",
+        "distractors": {
+          "plausible": [
+            "Tap only after you hear a pop",
+            "Wait for sharp pain to tap"
+          ],
+          "trap": [
+            "Keep fighting, try to power out"
+          ]
+        }
       },
       {
         "question": "What body position should you avoid when defending the armbar?",
-        "answer": "Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense."
+        "answer": "Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense.",
+        "answer_line": "Avoid flat back, bridge to shoulder",
+        "distractors": {
+          "plausible": [
+            "Avoid turning toward trapped arm",
+            "Avoid bending the trapped elbow"
+          ],
+          "trap": [
+            "Stay flat, brace with both legs"
+          ]
+        }
       }
     ],
     "clips": [
@@ -734,31 +894,101 @@
   "flashcards_position": [
     {
       "question": "What defines the Armbar Control configuration regardless of which player holds it?",
-      "answer": "Armbar Control is a limb-isolation position in which one player's single arm is trapped and extended across the other player's hips while both of that player's legs clamp the torso and head. The defining feature is that the elbow joint is stacked over a hip fulcrum, aligning the hyperextension plane with the direction of hip elevation. Both grips concentrate on the isolated wrist and forearm, pulling it toward the controlling player's chest centerline. The configuration only exists while the arm remains isolated from its owner's torso; reconnecting the arm to the body dissolves the position."
+      "answer": "Armbar Control is a limb-isolation position in which one player's single arm is trapped and extended across the other player's hips while both of that player's legs clamp the torso and head. The defining feature is that the elbow joint is stacked over a hip fulcrum, aligning the hyperextension plane with the direction of hip elevation. Both grips concentrate on the isolated wrist and forearm, pulling it toward the controlling player's chest centerline. The configuration only exists while the arm remains isolated from its owner's torso; reconnecting the arm to the body dissolves the position.",
+      "answer_line": "Arm isolated over hip fulcrum",
+      "distractors": {
+        "plausible": [
+          "Both arms trapped across hips",
+          "Legs isolate opponent's neck"
+        ],
+        "trap": [
+          "Chest-to-chest pin, no isolation"
+        ]
+      }
     },
     {
       "question": "What are the five interconnected control points that make Armbar Control function as a unit?",
-      "answer": "The system consists of two hands gripping the isolated wrist and forearm, the hips positioned as a fulcrum against the shoulder, one leg across the chest or throat, one leg controlling the head, and pinched knees eliminating space. These points work as a single machine rather than independent grips: the legs prevent the trapped player from posturing up, the hips supply the extension fulcrum, and the hands direct the finishing vector. Compromising any one element degrades the whole, which is why the position is simultaneously powerful and defeatable. This shared mechanical map is what both players read from opposite perspectives."
+      "answer": "The system consists of two hands gripping the isolated wrist and forearm, the hips positioned as a fulcrum against the shoulder, one leg across the chest or throat, one leg controlling the head, and pinched knees eliminating space. These points work as a single machine rather than independent grips: the legs prevent the trapped player from posturing up, the hips supply the extension fulcrum, and the hands direct the finishing vector. Compromising any one element degrades the whole, which is why the position is simultaneously powerful and defeatable. This shared mechanical map is what both players read from opposite perspectives.",
+      "answer_line": "Hands, hips, legs, pinched knees",
+      "distractors": {
+        "plausible": [
+          "Head, hips, wrist, ankle, elbow",
+          "Two hands, one leg, hip lock"
+        ],
+        "trap": [
+          "Feet crossed, arms circling neck"
+        ]
+      }
     },
     {
       "question": "Why is the hip-to-shoulder relationship the single most important geometric feature of this position?",
-      "answer": "The controlling player's hips serve as the fulcrum over which the elbow is levered, so the closer the hip bone sits to the trapped shoulder, the shorter the moment arm the opponent can exploit to defend. Any gap between hip and shoulder gives the trapped player room to bend the arm, rotate, or spin out. When the connection is tight, hip elevation translates almost directly into hyperextension force on the elbow. Both players contest this exact distance: one fights to close it, the other fights to open it."
+      "answer": "The controlling player's hips serve as the fulcrum over which the elbow is levered, so the closer the hip bone sits to the trapped shoulder, the shorter the moment arm the opponent can exploit to defend. Any gap between hip and shoulder gives the trapped player room to bend the arm, rotate, or spin out. When the connection is tight, hip elevation translates almost directly into hyperextension force on the elbow. Both players contest this exact distance: one fights to close it, the other fights to open it.",
+      "answer_line": "Hips are fulcrum, closer is better",
+      "distractors": {
+        "plausible": [
+          "Hips anchor to stop bridging",
+          "Hips balance overall base"
+        ],
+        "trap": [
+          "Gap lets you swing for power"
+        ]
+      }
     },
     {
       "question": "How does arm rotation, specifically thumb orientation, change the mechanics of the isolated elbow?",
-      "answer": "When the trapped thumb points toward the ceiling, the elbow's natural hinge is aligned with the plane of hip elevation, placing the ligaments in their most vulnerable structural position. Rotating the thumb downward turns the arm so pressure distributes across the stronger forearm bones and lets the shoulder rotate to follow the force, dispersing it. This is why thumb orientation is a shared pivot of the position: the same rotation that maximizes finishing efficiency for one player is precisely what the other rotates against to build a defensive structure. The elbow's vulnerability is therefore a function of rotation, not just extension."
+      "answer": "When the trapped thumb points toward the ceiling, the elbow's natural hinge is aligned with the plane of hip elevation, placing the ligaments in their most vulnerable structural position. Rotating the thumb downward turns the arm so pressure distributes across the stronger forearm bones and lets the shoulder rotate to follow the force, dispersing it. This is why thumb orientation is a shared pivot of the position: the same rotation that maximizes finishing efficiency for one player is precisely what the other rotates against to build a defensive structure. The elbow's vulnerability is therefore a function of rotation, not just extension.",
+      "answer_line": "Thumb up isolates elbow ligaments",
+      "distractors": {
+        "plausible": [
+          "Thumb up locks the wrist joint",
+          "Thumb up controls shoulder cap"
+        ],
+        "trap": [
+          "Thumb down concentrates pressure"
+        ]
+      }
     },
     {
       "question": "What role do the legs play in sustaining Armbar Control beyond simply pinning the opponent?",
-      "answer": "The two legs form the containment half of the position: one across the chest or throat and one over the head, together preventing the trapped player from sitting up, turning in, or recovering posture. Without this leg frame the trapped player can follow their arm and reconnect it to their torso, collapsing the isolation. The knees pinching together closes the residual space and keeps the head and shoulder trapped as a single block. Leg control and arm control are thus co-dependent, and losing the legs typically means losing the arm shortly after."
+      "answer": "The two legs form the containment half of the position: one across the chest or throat and one over the head, together preventing the trapped player from sitting up, turning in, or recovering posture. Without this leg frame the trapped player can follow their arm and reconnect it to their torso, collapsing the isolation. The knees pinching together closes the residual space and keeps the head and shoulder trapped as a single block. Leg control and arm control are thus co-dependent, and losing the legs typically means losing the arm shortly after.",
+      "answer_line": "Legs block posture, isolate arm",
+      "distractors": {
+        "plausible": [
+          "Legs generate the finish power",
+          "Legs control opponent's balance"
+        ],
+        "trap": [
+          "Cross ankles to lock legs tighter"
+        ]
+      }
     },
     {
       "question": "Why does the perpendicular angle between the two players matter so much in this position?",
-      "answer": "Maximum elbow leverage occurs when the controlling player's spine is roughly perpendicular to the trapped player's body, because that orientation places the hip fulcrum squarely under the elbow. As the angle drifts toward parallel, the fulcrum slides off the joint, leverage collapses, and the isolated arm can slip free or the shoulder can rotate out of danger. The perpendicular relationship is therefore a shared battleground: the controlling player fights to preserve ninety degrees while the trapped player works to rotate the alignment toward parallel. Small angular changes produce large swings in mechanical advantage for both."
+      "answer": "Maximum elbow leverage occurs when the controlling player's spine is roughly perpendicular to the trapped player's body, because that orientation places the hip fulcrum squarely under the elbow. As the angle drifts toward parallel, the fulcrum slides off the joint, leverage collapses, and the isolated arm can slip free or the shoulder can rotate out of danger. The perpendicular relationship is therefore a shared battleground: the controlling player fights to preserve ninety degrees while the trapped player works to rotate the alignment toward parallel. Small angular changes produce large swings in mechanical advantage for both.",
+      "answer_line": "Ninety degrees aligns hip fulcrum",
+      "distractors": {
+        "plausible": [
+          "Parallel angle maximizes control",
+          "Angle only affects grip strength"
+        ],
+        "trap": [
+          "Rotate flat for more leverage"
+        ]
+      }
     },
     {
       "question": "How does Armbar Control differ mechanically from adjacent positions like Triangle Control or the Kimura Trap?",
-      "answer": "All three isolate a limb, but Armbar Control attacks the elbow through straight-line hyperextension over a hip fulcrum, whereas Triangle Control uses the legs to strangle the neck while trapping one arm inside the noose. The Kimura Trap isolates the same arm but attacks the shoulder through internal rotation rather than extending the elbow. Because these positions share the arm-isolation entry, a defense that bends the trapped arm often converts an armbar threat into an omoplata or kimura, and a stack often flows into a triangle. The distinction that defines Armbar Control specifically is the extended arm plus hip-fulcrum extension vector, not merely the isolated limb."
+      "answer": "All three isolate a limb, but Armbar Control attacks the elbow through straight-line hyperextension over a hip fulcrum, whereas Triangle Control uses the legs to strangle the neck while trapping one arm inside the noose. The Kimura Trap isolates the same arm but attacks the shoulder through internal rotation rather than extending the elbow. Because these positions share the arm-isolation entry, a defense that bends the trapped arm often converts an armbar threat into an omoplata or kimura, and a stack often flows into a triangle. The distinction that defines Armbar Control specifically is the extended arm plus hip-fulcrum extension vector, not merely the isolated limb.",
+      "answer_line": "Straight elbow extension over hip",
+      "distractors": {
+        "plausible": [
+          "Strangles neck with leg noose",
+          "Rotates shoulder internally"
+        ],
+        "trap": [
+          "Identical mechanics, same finish"
+        ]
+      }
     }
   ],
   "clips": [

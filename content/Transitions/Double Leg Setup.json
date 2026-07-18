@@ -250,51 +250,171 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of establishing grip control before attempting a double leg setup?",
-        "answer": "Grip control serves multiple functions: it prevents opponent from creating distance or frames, allows you to manipulate their posture and create reactions, limits their defensive options by controlling their upper body, and provides tactical information about their weight distribution and defensive tendencies. Without grips, opponent can easily move away from your attack line or establish defensive structures before you complete your penetration."
+        "answer": "Grip control serves multiple functions: it prevents opponent from creating distance or frames, allows you to manipulate their posture and create reactions, limits their defensive options by controlling their upper body, and provides tactical information about their weight distribution and defensive tendencies. Without grips, opponent can easily move away from your attack line or establish defensive structures before you complete your penetration.",
+        "answer_line": "Deny frames, create reactions",
+        "distractors": {
+          "plausible": [
+            "Just to tire their arms out",
+            "Only to control distance"
+          ],
+          "trap": [
+            "Skip grips, shoot explosively"
+          ]
+        }
       },
       {
         "question": "Why is it important to step at an angle rather than shooting directly forward on a double leg setup?",
-        "answer": "Stepping at approximately 45 degrees creates several advantages: it opens up a clear penetration lane by moving outside their strongest defensive alignment, makes it geometrically difficult for them to sprawl directly backward over your entry, positions your head and shoulder away from guillotine range, and forces them to adjust their base before they can defend effectively, creating a momentary window of vulnerability during their adjustment."
+        "answer": "Stepping at approximately 45 degrees creates several advantages: it opens up a clear penetration lane by moving outside their strongest defensive alignment, makes it geometrically difficult for them to sprawl directly backward over your entry, positions your head and shoulder away from guillotine range, and forces them to adjust their base before they can defend effectively, creating a momentary window of vulnerability during their adjustment.",
+        "answer_line": "Open lane, avoid guillotine",
+        "distractors": {
+          "plausible": [
+            "Wider stance for more power",
+            "Straight line is faster"
+          ],
+          "trap": [
+            "Step straight into guillotine range"
+          ]
+        }
       },
       {
         "question": "How should you time your level change in relation to your grip fighting and feints?",
-        "answer": "The level change should occur as the final element of the setup sequence, not as the first movement. Establish grips first, create reactions through pushing or pulling, recognize the moment when opponent's posture breaks or weight shifts unfavorably, then execute a rapid level change disguised within the reactive movement. The level change should be quick enough that opponent cannot react before you complete penetration, which requires hiding it until their defensive attention is committed elsewhere."
+        "answer": "The level change should occur as the final element of the setup sequence, not as the first movement. Establish grips first, create reactions through pushing or pulling, recognize the moment when opponent's posture breaks or weight shifts unfavorably, then execute a rapid level change disguised within the reactive movement. The level change should be quick enough that opponent cannot react before you complete penetration, which requires hiding it until their defensive attention is committed elsewhere.",
+        "answer_line": "Hide it, change level last",
+        "distractors": {
+          "plausible": [
+            "Drop level first, then grips",
+            "Change level slow and steady"
+          ],
+          "trap": [
+            "Telegraph level change early"
+          ]
+        }
       },
       {
         "question": "What are the key differences between a successful penetration step and one that leaves you vulnerable to defense?",
-        "answer": "A successful penetration step places your lead foot deep between opponent's legs with knee pointing at their centerline, positions your head tight to their hip rather than floating in front, maintains low hip position while keeping back straight and strong, and creates continuous forward pressure that prevents them from creating space. Failed penetration typically shows insufficient depth (foot too far outside), head position too high or too far from their body, hips elevated rather than driven forward, and loss of forward momentum that allows opponent to establish sprawl or guillotine positions."
+        "answer": "A successful penetration step places your lead foot deep between opponent's legs with knee pointing at their centerline, positions your head tight to their hip rather than floating in front, maintains low hip position while keeping back straight and strong, and creates continuous forward pressure that prevents them from creating space. Failed penetration typically shows insufficient depth (foot too far outside), head position too high or too far from their body, hips elevated rather than driven forward, and loss of forward momentum that allows opponent to establish sprawl or guillotine positions.",
+        "answer_line": "Deep step, head tight to hip",
+        "distractors": {
+          "plausible": [
+            "Foot outside, head in front",
+            "Hips high, back rounded"
+          ],
+          "trap": [
+            "Float head, reach for legs"
+          ]
+        }
       },
       {
         "question": "When should you abandon a double leg setup attempt rather than committing to completion?",
-        "answer": "Abort the attempt when you recognize these warning signs early: opponent successfully sprawls with hips driven back before you secure leg grips, you feel a tight guillotine grip establishing around your neck with no forward progress, your penetration step lands too shallow with no path to deepen position, opponent establishes a strong cross-face or whizzer before you can drive through, or you recognize your timing was wrong and they've already shifted weight to defend. Learning to recognize failed setups early and reset to standing prevents wasted energy and dangerous defensive positions."
+        "answer": "Abort the attempt when you recognize these warning signs early: opponent successfully sprawls with hips driven back before you secure leg grips, you feel a tight guillotine grip establishing around your neck with no forward progress, your penetration step lands too shallow with no path to deepen position, opponent establishes a strong cross-face or whizzer before you can drive through, or you recognize your timing was wrong and they've already shifted weight to defend. Learning to recognize failed setups early and reset to standing prevents wasted energy and dangerous defensive positions.",
+        "answer_line": "Sprawl, guillotine, or stalled shot",
+        "distractors": {
+          "plausible": [
+            "Only after being fully passed",
+            "Only after multiple failed reps"
+          ],
+          "trap": [
+            "Push through tight guillotine"
+          ]
+        }
       },
       {
         "question": "How does the double leg setup integrate with other takedown attacks in a strategic approach?",
-        "answer": "The double leg setup functions as part of a takedown system where each attempt creates information and opportunities for subsequent attacks. Failed double leg attempts often leave opponent in defensive postures that create single leg opportunities, snap down entries, or bodylock positions. The setup movements themselves (level changes, angle creation, grip fighting) serve as both standalone techniques and as feints that draw reactions for alternative attacks. Effective wrestlers chain multiple setup attempts together, using each defensive reaction to inform the next attack choice, creating a systematic pressure that eventually produces scoring opportunities."
+        "answer": "The double leg setup functions as part of a takedown system where each attempt creates information and opportunities for subsequent attacks. Failed double leg attempts often leave opponent in defensive postures that create single leg opportunities, snap down entries, or bodylock positions. The setup movements themselves (level changes, angle creation, grip fighting) serve as both standalone techniques and as feints that draw reactions for alternative attacks. Effective wrestlers chain multiple setup attempts together, using each defensive reaction to inform the next attack choice, creating a systematic pressure that eventually produces scoring opportunities.",
+        "answer_line": "Chain feints into other attacks",
+        "distractors": {
+          "plausible": [
+            "Only use it as a standalone move",
+            "Repeat same setup until it lands"
+          ],
+          "trap": [
+            "Abandon single legs, only double"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your shoulder as you begin your level change - how do you adjust?",
-        "answer": "When opponent posts their hand on your shoulder during level change, you have several options depending on the strength of their frame. If the post is weak, continue driving through it by lowering your level even more and driving your shoulder into their hip as you penetrate. If the post is strong, use it as a pivot point by swimming your arm inside their post to clear the frame, or circle to the opposite angle where their extended arm cannot track you effectively. You can also snap down on the posting arm to break their posture, then immediately reshoot when their hands drop to the mat."
+        "answer": "When opponent posts their hand on your shoulder during level change, you have several options depending on the strength of their frame. If the post is weak, continue driving through it by lowering your level even more and driving your shoulder into their hip as you penetrate. If the post is strong, use it as a pivot point by swimming your arm inside their post to clear the frame, or circle to the opposite angle where their extended arm cannot track you effectively. You can also snap down on the posting arm to break their posture, then immediately reshoot when their hands drop to the mat.",
+        "answer_line": "Swim inside post or circle away",
+        "distractors": {
+          "plausible": [
+            "Push through weak post always",
+            "Stop and reset to standing"
+          ],
+          "trap": [
+            "Pull head down against the post"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the penetration step of a double leg setup?",
-        "answer": "The most critical hip movement is the forward drive combined with maintained low position. Your hips must thrust forward toward opponent's hips while staying below their center of gravity. This forward hip drive creates the power to penetrate through their defensive structure and prevents them from simply pushing your shoulders back. If your hips rise or stay behind your shoulders, you lose penetrating power and become vulnerable to sprawl defense. The hip movement should feel like you're trying to put your hips where their hips currently are, driving through their stance rather than reaching for their legs."
+        "answer": "The most critical hip movement is the forward drive combined with maintained low position. Your hips must thrust forward toward opponent's hips while staying below their center of gravity. This forward hip drive creates the power to penetrate through their defensive structure and prevents them from simply pushing your shoulders back. If your hips rise or stay behind your shoulders, you lose penetrating power and become vulnerable to sprawl defense. The hip movement should feel like you're trying to put your hips where their hips currently are, driving through their stance rather than reaching for their legs.",
+        "answer_line": "Hips forward and low",
+        "distractors": {
+          "plausible": [
+            "Hips back for leverage",
+            "Hips high for speed"
+          ],
+          "trap": [
+            "Rise hips to power drive"
+          ]
+        }
       },
       {
         "question": "What grip configurations work best for setting up a double leg from the gi versus no-gi?",
-        "answer": "In gi, the most effective setup grips include collar and sleeve control (allows push-pull manipulation), cross-collar grip with same-side sleeve (creates angle and controls their strong arm), or double sleeve grips (neutralizes their grip fighting). In no-gi, collar ties (hand behind neck), wrist control, underhooks, and two-on-one arm control are primary setup grips. The key difference is that gi grips allow more precise control and sustained manipulation, while no-gi grips are more transitional and must be timed with immediate action. No-gi setups often rely more on hand fighting sequences rather than static grip positions."
+        "answer": "In gi, the most effective setup grips include collar and sleeve control (allows push-pull manipulation), cross-collar grip with same-side sleeve (creates angle and controls their strong arm), or double sleeve grips (neutralizes their grip fighting). In no-gi, collar ties (hand behind neck), wrist control, underhooks, and two-on-one arm control are primary setup grips. The key difference is that gi grips allow more precise control and sustained manipulation, while no-gi grips are more transitional and must be timed with immediate action. No-gi setups often rely more on hand fighting sequences rather than static grip positions.",
+        "answer_line": "Gi collar/sleeve, no-gi collar ties",
+        "distractors": {
+          "plausible": [
+            "Same grips work in both",
+            "No-gi uses lapel grips too"
+          ],
+          "trap": [
+            "Grab gi pants for control"
+          ]
+        }
       },
       {
         "question": "If your opponent consistently blocks your entry with a strong guillotine threat, what setup adjustments should you make?",
-        "answer": "Against a strong guillotine threat, several adjustments improve your setup success. First, ensure your head stays tight to their near hip rather than in front of their centerline where the guillotine is strongest. Second, use a snap down setup that puts their hands on the mat before you shoot, eliminating the guillotine grip opportunity. Third, shoot at a sharper angle (closer to 90 degrees) so your head ends up on the far side of their body. Fourth, consider using a collar drag or arm drag that turns their body before shooting, changing the angle of their guillotine threat. Finally, chain your double leg with a single leg fake that draws their arms down, then immediately convert when their hands are occupied with the single leg defense."
+        "answer": "Against a strong guillotine threat, several adjustments improve your setup success. First, ensure your head stays tight to their near hip rather than in front of their centerline where the guillotine is strongest. Second, use a snap down setup that puts their hands on the mat before you shoot, eliminating the guillotine grip opportunity. Third, shoot at a sharper angle (closer to 90 degrees) so your head ends up on the far side of their body. Fourth, consider using a collar drag or arm drag that turns their body before shooting, changing the angle of their guillotine threat. Finally, chain your double leg with a single leg fake that draws their arms down, then immediately convert when their hands are occupied with the single leg defense.",
+        "answer_line": "Head tight, snap down, sharp angle",
+        "distractors": {
+          "plausible": [
+            "Shoot straight and drive faster",
+            "Keep head centered, drive through"
+          ],
+          "trap": [
+            "Put head in front, drive center"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must be present before committing to a double leg setup?",
-        "answer": "Before committing to a double leg setup, these conditions should be present: you have at least one controlling grip that limits opponent's ability to frame or create distance; you have identified a clear penetration lane (inside or outside their lead leg); opponent's posture is compromised through your pressure, pulls, or feints; their weight is distributed in a way that makes sprawling difficult (forward, on heels, or mid-weight shift); you have adequate mat space in front of you; and you are in proper shooting range where one penetration step can reach between their legs. Missing any of these conditions significantly reduces success probability and should trigger either continued setup work or switching to an alternative attack."
+        "answer": "Before committing to a double leg setup, these conditions should be present: you have at least one controlling grip that limits opponent's ability to frame or create distance; you have identified a clear penetration lane (inside or outside their lead leg); opponent's posture is compromised through your pressure, pulls, or feints; their weight is distributed in a way that makes sprawling difficult (forward, on heels, or mid-weight shift); you have adequate mat space in front of you; and you are in proper shooting range where one penetration step can reach between their legs. Missing any of these conditions significantly reduces success probability and should trigger either continued setup work or switching to an alternative attack.",
+        "answer_line": "Grip, lane, posture, weight, range",
+        "distractors": {
+          "plausible": [
+            "Just need opponent standing still",
+            "Only need a grip established"
+          ],
+          "trap": [
+            "Shoot without a clear lane"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply through your shoulder and arms once you secure the double leg grip?",
-        "answer": "Once you secure the double leg grip, force should be applied in a diagonal direction combining forward drive and upward lift. Your shoulder drives forward into their hip, preventing them from sitting their hips back to defend. Simultaneously, your arms pull their legs toward your chest while your clasped hands behind their knees create upward lifting pressure. The combined effect creates a rotational force that tips them backward over their heels. Avoid pulling their legs purely sideways (they can hop to maintain balance) or driving purely forward without the lift (they can sprawl hips back). The forward-upward diagonal is most effective for compromising their base."
+        "answer": "Once you secure the double leg grip, force should be applied in a diagonal direction combining forward drive and upward lift. Your shoulder drives forward into their hip, preventing them from sitting their hips back to defend. Simultaneously, your arms pull their legs toward your chest while your clasped hands behind their knees create upward lifting pressure. The combined effect creates a rotational force that tips them backward over their heels. Avoid pulling their legs purely sideways (they can hop to maintain balance) or driving purely forward without the lift (they can sprawl hips back). The forward-upward diagonal is most effective for compromising their base.",
+        "answer_line": "Drive forward and lift diagonally",
+        "distractors": {
+          "plausible": [
+            "Pull legs straight sideways only",
+            "Drive forward with no lift"
+          ],
+          "trap": [
+            "Pull legs straight up vertically"
+          ]
+        }
       }
     ],
     "safety_considerations": "Controlled application of the double leg setup is essential to prevent partner injuries during drilling and sparring. The primary safety concern involves protecting partner from dangerous falls, particularly onto their head, neck, or shoulders. When practicing setup entries, maintain awareness of driving speed and power, gradually building intensity rather than immediately using explosive movements with new partners. Ensure adequate mat space exists for forward movement and potential sprawl reactions to prevent collisions with walls or other training pairs. During the penetration phase, keep your head positioned tight to partner's hip rather than driving upward into their face or jaw. When transitioning from setup to finish, control their descent to the mat rather than allowing uncontrolled falls that could result in neck compression or shoulder injuries. Practice on appropriate matting that provides sufficient cushioning for takedown impacts. In drilling scenarios, agree upon resistance levels beforehand and respect tap signals if partner feels unstable or unsafe during any phase of the technique. Build progressive resistance over weeks and months rather than immediately training at competition intensity, allowing both partners to develop the technical proficiency and body awareness needed for safe execution.",
@@ -418,27 +538,87 @@
     "flashcards": [
       {
         "question": "What is the earliest point in the double leg setup sequence where you can disrupt the attack with the lowest energy expenditure?",
-        "answer": "The earliest and most energy-efficient disruption point is during the grip fighting phase, before the attacker establishes their preferred collar tie and wrist control configuration. By actively stripping grips as they form and denying the two-grip setup, you prevent the entire attack sequence from beginning. This costs far less energy than sprawling against a committed shot because you're addressing the cause rather than the effect. Effective hand fighting at this stage forces the attacker to repeatedly restart their setup, burning their energy while you remain in a neutral ready position."
+        "answer": "The earliest and most energy-efficient disruption point is during the grip fighting phase, before the attacker establishes their preferred collar tie and wrist control configuration. By actively stripping grips as they form and denying the two-grip setup, you prevent the entire attack sequence from beginning. This costs far less energy than sprawling against a committed shot because you're addressing the cause rather than the effect. Effective hand fighting at this stage forces the attacker to repeatedly restart their setup, burning their energy while you remain in a neutral ready position.",
+        "answer_line": "Strip grips before they set",
+        "distractors": {
+          "plausible": [
+            "Sprawl early on their approach",
+            "Circle away from the start"
+          ],
+          "trap": [
+            "Wait and sprawl the shot"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a collar tie and is stepping their lead foot to the outside of your stance - what immediate actions should you take?",
-        "answer": "This footwork indicates the classic pre-shot positioning. Immediately address both threats simultaneously: use your same-side hand to fight the collar tie by gripping their wrist and peeling it away while sidestepping your lead foot to re-square your stance, denying them the outside angle. If you cannot strip the collar tie, circle away from their lead foot direction to prevent them from completing the angle. Simultaneously lower your center of gravity slightly and load your hips for a potential sprawl. The critical mistake would be allowing both the grip and the angle to persist, which gives them all prerequisites for the shot."
+        "answer": "This footwork indicates the classic pre-shot positioning. Immediately address both threats simultaneously: use your same-side hand to fight the collar tie by gripping their wrist and peeling it away while sidestepping your lead foot to re-square your stance, denying them the outside angle. If you cannot strip the collar tie, circle away from their lead foot direction to prevent them from completing the angle. Simultaneously lower your center of gravity slightly and load your hips for a potential sprawl. The critical mistake would be allowing both the grip and the angle to persist, which gives them all prerequisites for the shot.",
+        "answer_line": "Strip tie, square your stance",
+        "distractors": {
+          "plausible": [
+            "Backpedal to create distance",
+            "Grab a counter collar tie"
+          ],
+          "trap": [
+            "Let angle develop, then sprawl"
+          ]
+        }
       },
       {
         "question": "Why is sprawling the primary defense once the shot is launched rather than attempting a guillotine counter?",
-        "answer": "Sprawling is the primary defense because it addresses the fundamental mechanic of the double leg - forward penetration - by removing the target (your hips) from the attack line. A sprawl works regardless of the opponent's head position, grip depth, or shooting angle. The guillotine counter, while effective when available, requires a specific condition: the opponent's head must be poorly positioned in front of your centerline rather than tight to your hip. Attempting a guillotine against a technically sound entry with good head position typically results in the attacker driving through while you fail to secure the choke, ending up on bottom with wasted energy. Sprawl first, assess head position, then decide whether to transition to front headlock chokes or positional control."
+        "answer": "Sprawling is the primary defense because it addresses the fundamental mechanic of the double leg - forward penetration - by removing the target (your hips) from the attack line. A sprawl works regardless of the opponent's head position, grip depth, or shooting angle. The guillotine counter, while effective when available, requires a specific condition: the opponent's head must be poorly positioned in front of your centerline rather than tight to your hip. Attempting a guillotine against a technically sound entry with good head position typically results in the attacker driving through while you fail to secure the choke, ending up on bottom with wasted energy. Sprawl first, assess head position, then decide whether to transition to front headlock chokes or positional control.",
+        "answer_line": "Sprawl works regardless of setup",
+        "distractors": {
+          "plausible": [
+            "Guillotine is always available",
+            "Both are equally reliable"
+          ],
+          "trap": [
+            "Always counter with guillotine"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive stance when facing an opponent who has already demonstrated effective double leg setups earlier in the match?",
-        "answer": "After an opponent has shown effective double leg setups, make these adjustments: lower your overall stance by increasing knee bend to reduce your center of gravity, making sprawling faster and more powerful. Shift weight slightly more forward onto the balls of your feet to pre-load the hip sprawl mechanism. Increase your grip fighting intensity to deny them the setup configurations that worked previously. Use more lateral movement and circling to prevent them from establishing the angles they prefer. Consider pulling guard proactively to control how the match goes to the ground rather than being taken down on their terms. Most importantly, pay attention to which specific setup variant they used successfully and address that pattern directly."
+        "answer": "After an opponent has shown effective double leg setups, make these adjustments: lower your overall stance by increasing knee bend to reduce your center of gravity, making sprawling faster and more powerful. Shift weight slightly more forward onto the balls of your feet to pre-load the hip sprawl mechanism. Increase your grip fighting intensity to deny them the setup configurations that worked previously. Use more lateral movement and circling to prevent them from establishing the angles they prefer. Consider pulling guard proactively to control how the match goes to the ground rather than being taken down on their terms. Most importantly, pay attention to which specific setup variant they used successfully and address that pattern directly.",
+        "answer_line": "Lower stance, deny grips, circle",
+        "distractors": {
+          "plausible": [
+            "Stand taller to see the shot",
+            "Stay static and wait to react"
+          ],
+          "trap": [
+            "Widen stance, plant feet still"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots and you sprawl successfully, stuffing their penetration - what is your immediate next action?",
-        "answer": "Immediately transition from defensive sprawl to offensive front headlock control. As their shot dies underneath your sprawl, wrap your arm around their neck while your other hand controls their far shoulder or tricep to prevent them from circling out. Drive your chest weight down onto their upper back to collapse their posture further. Do not simply hold the sprawl position and wait, as this allows them to reshoot, stand back up, or circle to a better position. The sprawl must convert immediately into an attacking position. From front headlock you can threaten guillotine, snap down, or begin working toward back control depending on their defensive response."
+        "answer": "Immediately transition from defensive sprawl to offensive front headlock control. As their shot dies underneath your sprawl, wrap your arm around their neck while your other hand controls their far shoulder or tricep to prevent them from circling out. Drive your chest weight down onto their upper back to collapse their posture further. Do not simply hold the sprawl position and wait, as this allows them to reshoot, stand back up, or circle to a better position. The sprawl must convert immediately into an attacking position. From front headlock you can threaten guillotine, snap down, or begin working toward back control depending on their defensive response.",
+        "answer_line": "Convert sprawl to front headlock",
+        "distractors": {
+          "plausible": [
+            "Hold sprawl and wait it out",
+            "Stand back up immediately"
+          ],
+          "trap": [
+            "Release and reset to neutral"
+          ]
+        }
       },
       {
         "question": "What role does lateral movement play in double leg defense compared to backward movement?",
-        "answer": "Lateral movement is fundamentally superior to backward movement for double leg defense because it removes you from the attacker's shooting lane without giving them additional forward space to penetrate. When you move backward, the attacker can continue driving forward on their original angle, and your backward momentum actually makes it harder to sprawl because your hips are already moving in the wrong direction. Lateral movement forces the attacker to redirect mid-shot, which is extremely difficult once committed to forward penetration. Additionally, lateral movement creates angles for counter-attacks: as they shoot past where you were, you gain access to their back or side for snap downs and front headlock entries. The only time backward movement is acceptable is a slight backstep combined with a sprawl, never a full retreat."
+        "answer": "Lateral movement is fundamentally superior to backward movement for double leg defense because it removes you from the attacker's shooting lane without giving them additional forward space to penetrate. When you move backward, the attacker can continue driving forward on their original angle, and your backward momentum actually makes it harder to sprawl because your hips are already moving in the wrong direction. Lateral movement forces the attacker to redirect mid-shot, which is extremely difficult once committed to forward penetration. Additionally, lateral movement creates angles for counter-attacks: as they shoot past where you were, you gain access to their back or side for snap downs and front headlock entries. The only time backward movement is acceptable is a slight backstep combined with a sprawl, never a full retreat.",
+        "answer_line": "Lateral beats moving straight back",
+        "distractors": {
+          "plausible": [
+            "Backward retreat is always safest",
+            "Standing still is most stable"
+          ],
+          "trap": [
+            "Retreat straight back fully"
+          ]
+        }
       }
     ],
     "training_progressions": [

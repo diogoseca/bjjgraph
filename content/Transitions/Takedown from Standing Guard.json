@@ -263,43 +263,143 @@
     "flashcards": [
       {
         "question": "What is the single most important body mechanic to initiate an effective level change for the takedown?",
-        "answer": "The most critical mechanic is bending at the knees rather than the waist to drop your hips below the opponent's center of gravity. Knee bend maintains your chest posture upright, which protects against guillotine counters, preserves your ability to generate forward driving force from your legs, and keeps your head in a safe position against front headlock attacks. Waist bending compromises all three of these elements simultaneously."
+        "answer": "The most critical mechanic is bending at the knees rather than the waist to drop your hips below the opponent's center of gravity. Knee bend maintains your chest posture upright, which protects against guillotine counters, preserves your ability to generate forward driving force from your legs, and keeps your head in a safe position against front headlock attacks. Waist bending compromises all three of these elements simultaneously.",
+        "answer_line": "Bend knees, not waist",
+        "distractors": {
+          "plausible": [
+            "Lean forward, chest down",
+            "Push off back foot only"
+          ],
+          "trap": [
+            "Bend at the waist"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong collar and sleeve grips established—how do you create an opening for your penetration step?",
-        "answer": "Use push-pull grip fighting sequences to disrupt their established grip configuration before shooting. Push into their grips to load their weight forward, then immediately change direction with your level change as they resist backward. Alternatively, strip one grip using a circular two-on-one break, then immediately shoot before they can re-establish the grip. The critical principle is creating a momentary reaction—forward weight shift, backward weight shift, or grip disruption—that occupies their attention during your entry."
+        "answer": "Use push-pull grip fighting sequences to disrupt their established grip configuration before shooting. Push into their grips to load their weight forward, then immediately change direction with your level change as they resist backward. Alternatively, strip one grip using a circular two-on-one break, then immediately shoot before they can re-establish the grip. The critical principle is creating a momentary reaction—forward weight shift, backward weight shift, or grip disruption—that occupies their attention during your entry.",
+        "answer_line": "Push-pull to break grip",
+        "distractors": {
+          "plausible": [
+            "Pull straight back hard",
+            "Wait for them to attack"
+          ],
+          "trap": [
+            "Match strength, grip tightly"
+          ]
+        }
       },
       {
         "question": "What head position must you maintain during the penetration step to avoid guillotine counters?",
-        "answer": "Your head must be positioned on the inside of the opponent's body—between their arm and their hip on the side you are attacking. This inside head position blocks their ability to wrap your neck for a guillotine by placing your head against their ribcage where their arm cannot reach around your neck. If your head ends up on the outside of their body, you are directly exposed to guillotine and front headlock entries that become more dangerous the deeper you penetrate."
+        "answer": "Your head must be positioned on the inside of the opponent's body—between their arm and their hip on the side you are attacking. This inside head position blocks their ability to wrap your neck for a guillotine by placing your head against their ribcage where their arm cannot reach around your neck. If your head ends up on the outside of their body, you are directly exposed to guillotine and front headlock entries that become more dangerous the deeper you penetrate.",
+        "answer_line": "Head inside, hip to arm",
+        "distractors": {
+          "plausible": [
+            "Head outside, driving in",
+            "Head buried, chin tucked"
+          ],
+          "trap": [
+            "Head outside their body"
+          ]
+        }
       },
       {
         "question": "Your initial shot is defended with a sprawl and your head is controlled—what is your immediate recovery sequence?",
-        "answer": "Do not remain bent over fighting for the original takedown. Immediately circle your head to the opposite side to break their head control, drive your hips forward and underneath you to recover posture, and transition to either a single leg on the nearest leg or a clinch position where you can reset your grip fighting. If you cannot recover posture, sit to a guard pull rather than remaining in the compromised front headlock position where chokes and go-behinds threaten."
+        "answer": "Do not remain bent over fighting for the original takedown. Immediately circle your head to the opposite side to break their head control, drive your hips forward and underneath you to recover posture, and transition to either a single leg on the nearest leg or a clinch position where you can reset your grip fighting. If you cannot recover posture, sit to a guard pull rather than remaining in the compromised front headlock position where chokes and go-behinds threaten.",
+        "answer_line": "Circle head, recover hips",
+        "distractors": {
+          "plausible": [
+            "Pull straight to guard",
+            "Push forward, drive blind"
+          ],
+          "trap": [
+            "Stay bent, keep fighting"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the highest-percentage entry for a double leg takedown from standing guard?",
-        "answer": "A collar tie with same-side wrist control provides the strongest setup for a double leg entry. The collar tie controls the opponent's posture and head position, preventing them from sprawling effectively, while the wrist control eliminates their ability to post or establish a guillotine grip during your level change. Snapping down on the collar tie before shooting creates a forward weight shift that loads the opponent's weight onto their toes, directly into the path of your penetration step."
+        "answer": "A collar tie with same-side wrist control provides the strongest setup for a double leg entry. The collar tie controls the opponent's posture and head position, preventing them from sprawling effectively, while the wrist control eliminates their ability to post or establish a guillotine grip during your level change. Snapping down on the collar tie before shooting creates a forward weight shift that loads the opponent's weight onto their toes, directly into the path of your penetration step.",
+        "answer_line": "Collar tie, same-side wrist",
+        "distractors": {
+          "plausible": [
+            "Two-on-one sleeve control",
+            "Double collar tie grip"
+          ],
+          "trap": [
+            "Cross grips, opposite wrist"
+          ]
+        }
       },
       {
         "question": "Why is angling your drive at 45 degrees more effective than driving straight back during the takedown finish?",
-        "answer": "A straight backward drive allows the opponent to resist with their strongest structural base—both legs posted behind them in a wide stance absorbing your linear force. Angling at 45 degrees attacks their weak diagonal line where they have minimal structural support and cannot post effectively with either leg. The angular drive also creates rotational force that disrupts their balance more than linear force alone, and it positions you at a superior passing angle upon landing rather than directly between their legs."
+        "answer": "A straight backward drive allows the opponent to resist with their strongest structural base—both legs posted behind them in a wide stance absorbing your linear force. Angling at 45 degrees attacks their weak diagonal line where they have minimal structural support and cannot post effectively with either leg. The angular drive also creates rotational force that disrupts their balance more than linear force alone, and it positions you at a superior passing angle upon landing rather than directly between their legs.",
+        "answer_line": "Attack their weak diagonal",
+        "distractors": {
+          "plausible": [
+            "Angle 90 degrees sideways",
+            "Circle behind, no drive"
+          ],
+          "trap": [
+            "Drive straight back hard"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls guard reactively as you initiate your takedown—how do you adjust to maintain positional advantage?",
-        "answer": "Continue your forward pressure as they sit, immediately transitioning your grip targets from their legs to their knees and ankles to prevent them from establishing hooks or frames. Their seated position actually gives you a passing advantage if you react quickly—control their legs, step around their guard retention attempts, and establish a passing position before their guard structure solidifies. Do not stop your forward momentum or back away, as this gives them time to organize their preferred guard configuration."
+        "answer": "Continue your forward pressure as they sit, immediately transitioning your grip targets from their legs to their knees and ankles to prevent them from establishing hooks or frames. Their seated position actually gives you a passing advantage if you react quickly—control their legs, step around their guard retention attempts, and establish a passing position before their guard structure solidifies. Do not stop your forward momentum or back away, as this gives them time to organize their preferred guard configuration.",
+        "answer_line": "Press forward, control legs",
+        "distractors": {
+          "plausible": [
+            "Back away, reassess grips",
+            "Dive for a submission"
+          ],
+          "trap": [
+            "Stop and reset stance"
+          ]
+        }
       },
       {
         "question": "What are the primary indicators that your opponent's weight is distributed forward, making them vulnerable to a takedown entry?",
-        "answer": "Forward weight distribution is indicated by the opponent's toes gripping the mat with heels slightly elevated, their shoulders positioned forward of their hips, and their grip fighting becoming more aggressive with pushing pressure toward you. You may also feel increased forward tension in their grips as they drive into your frames. This forward weight loading means their hips are less able to sprawl backward quickly, creating a higher-percentage window for penetration step entries."
+        "answer": "Forward weight distribution is indicated by the opponent's toes gripping the mat with heels slightly elevated, their shoulders positioned forward of their hips, and their grip fighting becoming more aggressive with pushing pressure toward you. You may also feel increased forward tension in their grips as they drive into your frames. This forward weight loading means their hips are less able to sprawl backward quickly, creating a higher-percentage window for penetration step entries.",
+        "answer_line": "Toes down, shoulders forward",
+        "distractors": {
+          "plausible": [
+            "Heels flat, wide stance",
+            "Grips relaxed, retreating"
+          ],
+          "trap": [
+            "Heels planted, weight back"
+          ]
+        }
       },
       {
         "question": "How do you chain a failed single leg attempt into an alternative takedown without resetting to standing?",
-        "answer": "If the single leg is defended with a wizzer, immediately switch to a double leg by releasing the captured leg and diving for the far leg while using the wizzer contact to maintain your level change position. If the single leg is stuffed by a sprawl, transition to an ankle pick on the far ankle while maintaining your head position against their hip. The key principle is never resetting to neutral standing after a failed attempt—always transition to the next takedown entry from whatever position the failed attempt leaves you in, maintaining pressure and preventing recovery."
+        "answer": "If the single leg is defended with a wizzer, immediately switch to a double leg by releasing the captured leg and diving for the far leg while using the wizzer contact to maintain your level change position. If the single leg is stuffed by a sprawl, transition to an ankle pick on the far ankle while maintaining your head position against their hip. The key principle is never resetting to neutral standing after a failed attempt—always transition to the next takedown entry from whatever position the failed attempt leaves you in, maintaining pressure and preventing recovery.",
+        "answer_line": "Chain to double or ankle pick",
+        "distractors": {
+          "plausible": [
+            "Re-shoot the same leg",
+            "Switch to a guard pull"
+          ],
+          "trap": [
+            "Reset back to neutral"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between BJJ takedown finishing mechanics and wrestling takedown mechanics regarding the landing position?",
-        "answer": "In wrestling, the takedown is complete when the opponent's back touches the mat regardless of leg position. In BJJ, the opponent will immediately work to establish guard retention during the fall, meaning your landing position determines whether you achieve side control or get caught in half guard or full guard. BJJ finishing mechanics require controlling the opponent's legs and hips throughout the descent, angling your body to pass their guard during the takedown itself, and immediately establishing crossface or underhook control upon landing rather than simply celebrating the takedown completion."
+        "answer": "In wrestling, the takedown is complete when the opponent's back touches the mat regardless of leg position. In BJJ, the opponent will immediately work to establish guard retention during the fall, meaning your landing position determines whether you achieve side control or get caught in half guard or full guard. BJJ finishing mechanics require controlling the opponent's legs and hips throughout the descent, angling your body to pass their guard during the takedown itself, and immediately establishing crossface or underhook control upon landing rather than simply celebrating the takedown completion.",
+        "answer_line": "Control legs, land passing",
+        "distractors": {
+          "plausible": [
+            "Land on back, claim points",
+            "Drive through, stand back up"
+          ],
+          "trap": [
+            "Celebrate once back touches"
+          ]
+        }
       }
     ],
     "safety_considerations": "Takedowns carry inherent impact risk for both practitioners. Always ensure sufficient mat space before initiating takedown attempts, and practice on appropriate padded training surfaces with proper breakfall technique. The level change movement places significant stress on the knees—warm up thoroughly and develop correct penetration step mechanics at low intensity before drilling under resistance. When finishing takedowns, control the descent to prevent slamming, which is illegal in most BJJ competition rulesets and can cause serious injury in training. Both partners should communicate about intensity and impact comfort levels, and the attacking player bears primary responsibility for controlling the speed and force of the landing.",
@@ -417,23 +517,73 @@
     "flashcards": [
       {
         "question": "What are the earliest pre-shot indicators that tell you a takedown attempt is imminent?",
-        "answer": "The earliest indicators include sudden grip changes where the opponent releases established grips to clear a path for their entry, a lowering of their overall stance with increased knee bend, a shift of their weight onto the balls of their feet with heels slightly elevated, and their eyes tracking downward toward your legs instead of maintaining normal engagement level. These indicators typically appear 0.5 to 1 second before the actual penetration step, giving you time to pre-load your defensive response."
+        "answer": "The earliest indicators include sudden grip changes where the opponent releases established grips to clear a path for their entry, a lowering of their overall stance with increased knee bend, a shift of their weight onto the balls of their feet with heels slightly elevated, and their eyes tracking downward toward your legs instead of maintaining normal engagement level. These indicators typically appear 0.5 to 1 second before the actual penetration step, giving you time to pre-load your defensive response.",
+        "answer_line": "Grip release, eyes drop down",
+        "distractors": {
+          "plausible": [
+            "Sudden backward retreat",
+            "Aggressive upper-body tie-up"
+          ],
+          "trap": [
+            "Deep breath, relaxed shoulders"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a deep double leg and you fail to sprawl in time—what is your best defensive option?",
-        "answer": "When the sprawl window has passed and the opponent has deep chest-to-thigh contact, your best option is to immediately establish a guillotine or front headlock grip on their exposed head and neck. Use your hips to create a frame against their driving force while securing the head control, then work to establish a dominant choke position during the transition to ground. If no head control is available, accept the takedown but immediately pull half guard with an underhook rather than allowing them to land in side control with freedom to consolidate."
+        "answer": "When the sprawl window has passed and the opponent has deep chest-to-thigh contact, your best option is to immediately establish a guillotine or front headlock grip on their exposed head and neck. Use your hips to create a frame against their driving force while securing the head control, then work to establish a dominant choke position during the transition to ground. If no head control is available, accept the takedown but immediately pull half guard with an underhook rather than allowing them to land in side control with freedom to consolidate.",
+        "answer_line": "Grab guillotine, frame hips",
+        "distractors": {
+          "plausible": [
+            "Sprawl late anyway",
+            "Push away, create space"
+          ],
+          "trap": [
+            "Accept takedown, no guard"
+          ]
+        }
       },
       {
         "question": "How do you position your hips during a sprawl defense to maximize the effectiveness of your hip pressure?",
-        "answer": "Drive your hips directly toward the mat in a downward trajectory, landing your hip bones on the opponent's shoulders and upper back rather than on the mat beside them. Your legs should extend backward at approximately 45 degrees with toes pointed and pushing against the mat for additional pressure. The critical detail is keeping your chest up and weight driving forward into the opponent rather than lying flat—this creates maximum pressure on their head and shoulders while preventing them from circling or adjusting their penetration angle underneath your sprawl."
+        "answer": "Drive your hips directly toward the mat in a downward trajectory, landing your hip bones on the opponent's shoulders and upper back rather than on the mat beside them. Your legs should extend backward at approximately 45 degrees with toes pointed and pushing against the mat for additional pressure. The critical detail is keeping your chest up and weight driving forward into the opponent rather than lying flat—this creates maximum pressure on their head and shoulders while preventing them from circling or adjusting their penetration angle underneath your sprawl.",
+        "answer_line": "Hips on shoulders, chest up",
+        "distractors": {
+          "plausible": [
+            "Lie flat, full body weight",
+            "Legs straight, hips high"
+          ],
+          "trap": [
+            "Flatten out, lie on them"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to pull guard defensively rather than attempting to sprawl against a takedown?",
-        "answer": "Guard pulling is appropriate when you have established controlling grips before the takedown attempt initiates and you recognize that the opponent's shot timing and depth will likely beat your sprawl. It is also appropriate when the opponent has significant wrestling advantages and repeated sprawl attempts have failed in previous exchanges. The critical requirement is that you have grips established before sitting—a collar and sleeve grip, two-on-one control, or double sleeve grips that allow you to dictate the landing position and immediately establish your guard structure during the transition."
+        "answer": "Guard pulling is appropriate when you have established controlling grips before the takedown attempt initiates and you recognize that the opponent's shot timing and depth will likely beat your sprawl. It is also appropriate when the opponent has significant wrestling advantages and repeated sprawl attempts have failed in previous exchanges. The critical requirement is that you have grips established before sitting—a collar and sleeve grip, two-on-one control, or double sleeve grips that allow you to dictate the landing position and immediately establish your guard structure during the transition.",
+        "answer_line": "Grips set before you sit",
+        "distractors": {
+          "plausible": [
+            "Anytime the shot looks fast",
+            "After they secure double leg"
+          ],
+          "trap": [
+            "Sit guard without grips"
+          ]
+        }
       },
       {
         "question": "Your sprawl successfully stops the initial shot but your opponent maintains a single leg grip—how do you finish the defense?",
-        "answer": "With the initial shot stopped, use your hip pressure and crossface to drive the opponent's head toward the mat on the outside of your body. Simultaneously work to peel their grip off your leg by using your free hand to strip their wrist control or by circling your captured leg in a large arc to break their grip mechanically. If the grip remains, wizzer their arm deeply and use the overhook to rotate them underneath you while hopping your free leg backward to extract the captured leg. Never allow them to recover their level with the leg still controlled."
+        "answer": "With the initial shot stopped, use your hip pressure and crossface to drive the opponent's head toward the mat on the outside of your body. Simultaneously work to peel their grip off your leg by using your free hand to strip their wrist control or by circling your captured leg in a large arc to break their grip mechanically. If the grip remains, wizzer their arm deeply and use the overhook to rotate them underneath you while hopping your free leg backward to extract the captured leg. Never allow them to recover their level with the leg still controlled.",
+        "answer_line": "Crossface, strip the grip",
+        "distractors": {
+          "plausible": [
+            "Kick free, stand straight up",
+            "Pull knee to chest, twist"
+          ],
+          "trap": [
+            "Ease pressure, let them stand"
+          ]
+        }
       }
     ],
     "training_progressions": [

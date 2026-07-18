@@ -401,43 +401,143 @@
   "flashcards": [
     {
       "question": "What is positional sparring and how does it differ from full live rolling?",
-      "answer": "Positional sparring starts both partners from a predetermined position with asymmetric objectives and resets on completion, isolating one scenario for high-volume reps, whereas full rolling begins neutral and flows freely."
+      "answer": "Positional sparring starts both partners from a predetermined position with asymmetric objectives and resets on completion, isolating one scenario for high-volume reps, whereas full rolling begins neutral and flows freely.",
+      "answer_line": "Fixed start, resets, not free flow",
+      "distractors": {
+        "plausible": [
+          "Just live rolling, slower pace",
+          "Same start, no set objective"
+        ],
+        "trap": [
+          "Full speed rolling from standing"
+        ]
+      }
     },
     {
       "question": "Why are asymmetric goals essential to effective positional sparring?",
-      "answer": "Asymmetric goals give each partner a distinct winning condition (e.g., attacker seeks the submission, defender seeks the escape), creating realistic offense-versus-defense tension and clear, trackable completion criteria."
+      "answer": "Asymmetric goals give each partner a distinct winning condition (e.g., attacker seeks the submission, defender seeks the escape), creating realistic offense-versus-defense tension and clear, trackable completion criteria.",
+      "answer_line": "Distinct win conditions per side",
+      "distractors": {
+        "plausible": [
+          "Both aim to submit each other",
+          "Same goal, different positions"
+        ],
+        "trap": [
+          "Winner decided by round score"
+        ]
+      }
     },
     {
       "question": "How should you calibrate intensity during a positional sparring round?",
-      "answer": "Match resistance to the objective: roughly 40-60% for skill acquisition, 70-80% for refinement, and 90-95% for competition simulation, communicating the expected level before the round begins."
+      "answer": "Match resistance to the objective: roughly 40-60% for skill acquisition, 70-80% for refinement, and 90-95% for competition simulation, communicating the expected level before the round begins.",
+      "answer_line": "40-60% new skill, escalate later",
+      "distractors": {
+        "plausible": [
+          "Always spar at 90%+ intensity",
+          "Match partner's belt level only"
+        ],
+        "trap": [
+          "Go full resistance from round one"
+        ]
+      }
     },
     {
       "question": "What is the purpose of an immediate reset protocol?",
-      "answer": "Resetting to the start position within 5-10 seconds after either partner completes their objective preserves repetition density and round intensity, preventing wasted time on slow position re-establishment."
+      "answer": "Resetting to the start position within 5-10 seconds after either partner completes their objective preserves repetition density and round intensity, preventing wasted time on slow position re-establishment.",
+      "answer_line": "Reset in 5-10s after objective",
+      "distractors": {
+        "plausible": [
+          "Reset only at round's end",
+          "Slow reset builds positional IQ"
+        ],
+        "trap": [
+          "Keep rolling past the tap"
+        ]
+      }
     },
     {
       "question": "How many more target repetitions does positional sparring provide versus live rolling?",
-      "answer": "By isolating a single scenario and resetting after each outcome, positional sparring typically yields 5-10x more repetitions of the target position than open live sparring would in the same time."
+      "answer": "By isolating a single scenario and resetting after each outcome, positional sparring typically yields 5-10x more repetitions of the target position than open live sparring would in the same time.",
+      "answer_line": "5-10x more reps than live rolling",
+      "distractors": {
+        "plausible": [
+          "About 2x more reps than rolling",
+          "Same rep count, better quality"
+        ],
+        "trap": [
+          "Fewer reps but higher intensity"
+        ]
+      }
     },
     {
       "question": "What common error undermines positional sparring focus, and how do you correct it?",
-      "answer": "Letting competitive ego override the objective causes partners to abandon techniques that need practice; correct it by framing rounds as skill development and celebrating problem-solving over round wins."
+      "answer": "Letting competitive ego override the objective causes partners to abandon techniques that need practice; correct it by framing rounds as skill development and celebrating problem-solving over round wins.",
+      "answer_line": "Ego over objective; stay focused",
+      "distractors": {
+        "plausible": [
+          "Going too easy on partner",
+          "Switching techniques too often"
+        ],
+        "trap": [
+          "Prioritize winning every round"
+        ]
+      }
     },
     {
       "question": "Why should partners alternate offensive and defensive roles?",
-      "answer": "Alternating roles every 2-4 rounds prevents one-sided development, ensuring each partner builds both attacking and escaping skills from advantageous and disadvantageous positions alike."
+      "answer": "Alternating roles every 2-4 rounds prevents one-sided development, ensuring each partner builds both attacking and escaping skills from advantageous and disadvantageous positions alike.",
+      "answer_line": "Swap roles every 2-4 rounds",
+      "distractors": {
+        "plausible": [
+          "Only switch each session",
+          "Stay attacker until mastered"
+        ],
+        "trap": [
+          "Never play the losing role"
+        ]
+      }
     },
     {
       "question": "How does quantitative tracking improve positional sparring?",
-      "answer": "Recording success rates and time-to-completion creates an objective feedback loop that exposes specific technical gaps and lets you target training parameters toward measurable weaknesses."
+      "answer": "Recording success rates and time-to-completion creates an objective feedback loop that exposes specific technical gaps and lets you target training parameters toward measurable weaknesses.",
+      "answer_line": "Log success rate & time to gaps",
+      "distractors": {
+        "plausible": [
+          "Just count total rounds done",
+          "Track wins vs losses only"
+        ],
+        "trap": [
+          "Skip tracking, trust instinct"
+        ]
+      }
     },
     {
       "question": "What makes a starting position effective for positional sparring?",
-      "answer": "Effective starts replicate real rolling scenarios with realistic grips, body positioning, and spatial relationships, ensuring skills transfer to live sparring rather than rewarding artificial setups."
+      "answer": "Effective starts replicate real rolling scenarios with realistic grips, body positioning, and spatial relationships, ensuring skills transfer to live sparring rather than rewarding artificial setups.",
+      "answer_line": "Realistic grips and spacing",
+      "distractors": {
+        "plausible": [
+          "Any position, drill hardest one",
+          "Advantageous grips for attacker"
+        ],
+        "trap": [
+          "Artificial setup for fast reps"
+        ]
+      }
     },
     {
       "question": "How can progressive constraints accelerate skill development?",
-      "answer": "Systematically adding restrictions (grip limits, banned techniques, time caps) removes familiar options, forcing technical creativity and revealing gaps that full-freedom rounds would let you avoid."
+      "answer": "Systematically adding restrictions (grip limits, banned techniques, time caps) removes familiar options, forcing technical creativity and revealing gaps that full-freedom rounds would let you avoid.",
+      "answer_line": "Restrict grips to force new options",
+      "distractors": {
+        "plausible": [
+          "Only add time caps to rounds",
+          "Remove all rules for freedom"
+        ],
+        "trap": [
+          "Allow every technique, no limits"
+        ]
+      }
     }
   ],
   "clips": [

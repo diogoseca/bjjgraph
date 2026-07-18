@@ -276,52 +276,152 @@
       {
         "question": "What anatomical structures does the Breadcutter Choke primarily attack and how does the forearm position target them?",
         "answer": "The Breadcutter Choke primarily attacks both carotid arteries by positioning the blade (radius bone edge) of the forearm diagonally across the lateral neck. The collar material behind the neck acts as a fulcrum while the forearm drives into the carotid arteries from the front. This bilateral compression restricts blood flow to the brain, producing unconsciousness within seconds when properly applied.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm blade on both carotids",
+        "distractors": {
+          "plausible": [
+            "Blade presses on the trachea",
+            "Grip crushes the jugular veins"
+          ],
+          "trap": [
+            "Force blade against the jaw"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the choke is properly set and approaching the finish?",
         "answer": "The opponent's face begins to change color, typically reddening from venous congestion. Their defensive movements become less coordinated and more panicked. You feel a distinct decrease in resistance through the collar grip as their neck muscles fatigue. The forearm feels firmly seated against yielding tissue rather than bone, indicating proper carotid targeting rather than tracheal compression. The opponent may begin making involuntary sounds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face reddens, resistance drops",
+        "distractors": {
+          "plausible": [
+            "Loud screaming signals the tap",
+            "Opponent goes rigid and stiff"
+          ],
+          "trap": [
+            "Gasping proves air choke works"
+          ]
+        }
       },
       {
         "question": "What control must be established before you begin hunting the far-side collar grip?",
         "answer": "You must have secure Kuzure Kesa-Gatame with consistent hip pressure into the opponent's ribs, the trapped arm controlled at both shoulder and wrist preventing recovery, a low chest position denying frames, and your base leg posted wide for stability. Without these four elements, reaching for the collar creates space that the opponent will exploit to escape before the choke can be established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin hips, control arm, chest low",
+        "distractors": {
+          "plausible": [
+            "Just trap the far arm tightly",
+            "Flatten opponent's hips first"
+          ],
+          "trap": [
+            "Reach for collar immediately"
+          ]
+        }
       },
       {
         "question": "At what point during the setup does the Breadcutter Choke become nearly impossible to defend?",
         "answer": "Once the collar grip is set with four fingers past the neck midline and the forearm blade is rotated into contact with the carotid arteries, the choke is extremely difficult to defend. The opponent cannot strip a deep collar grip with one free hand while their other arm is trapped, and the sprawling finish generates force through body weight that no amount of neck muscular resistance can overcome. The critical defensive window closes when the grip passes the midline.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip passes neck midline",
+        "distractors": {
+          "plausible": [
+            "Once any collar grip is set",
+            "When forearm touches the neck"
+          ],
+          "trap": [
+            "Once sprawl posture is set"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the Breadcutter Choke fails to produce a tap from Kuzure Kesa-Gatame?",
         "answer": "Insufficient collar grip depth is the most common failure. When only two or three fingers pass the neck midline, the forearm cannot reach the carotid arteries and instead presses against the jaw or trachea. This produces pain but not the rapid blood flow restriction needed for the choke. The opponent can endure jaw pressure and work escapes during the extended application time. Always prioritize grip depth over speed of the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collar grip not deep enough",
+        "distractors": {
+          "plausible": [
+            "Sprawling too early",
+            "Losing arm isolation control"
+          ],
+          "trap": [
+            "Rushing the finish for speed"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip and pressure angle if the opponent tucks their chin aggressively?",
         "answer": "A properly deep collar grip renders chin tucking ineffective because the forearm is already past the chin line when the grip is set at four-finger depth. If the chin blocks your forearm, your grip is too shallow and needs to be reset deeper. You can also use your free hand to redirect the chin upward momentarily while driving the choking forearm into position. Never try to force the forearm past the chin with strength alone, as this creates tracheal pressure instead of a clean blood choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Reset grip deeper, redirect chin",
+        "distractors": {
+          "plausible": [
+            "Force forearm through the chin",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Push down hard on the trachea"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when training the Breadcutter Choke?",
         "answer": "Always apply the choke gradually over 3-5 seconds minimum in training, never jerking or spiking the collar grip. Ensure your partner has at least one hand free to tap at all times. Release immediately upon any tap signal including verbal, physical hand tap, foot tap, or body going limp. After release, remove all weight from the neck area and verify your partner is conscious and breathing normally. Never train this on partners with existing neck or vascular conditions.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Full speed builds better reflexes",
+            "Only verbal taps count"
+          ],
+          "trap": [
+            "Hold choke after tap to confirm"
+          ]
+        }
       },
       {
         "question": "How should you release the Breadcutter Choke after your training partner taps?",
         "answer": "Upon any tap signal, immediately open your collar grip and remove the forearm from the neck. Shift your body weight off the opponent's upper body and allow them space to turn to a safe position. Check that they are alert, conscious, and breathing normally. If they appear dazed or do not respond quickly, place them in a recovery position and seek medical attention. Never maintain any neck pressure after a tap, even to maintain the position for a reset.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, check breathing",
+        "distractors": {
+          "plausible": [
+            "Hold briefly to reset position",
+            "Let them tap out physically first"
+          ],
+          "trap": [
+            "Keep weight on neck till they move"
+          ]
+        }
       },
       {
         "question": "How does the Breadcutter Choke integrate with americana and kimura threats from Kuzure Kesa-Gatame to create a submission chain?",
         "answer": "The arm isolation in Kuzure Kesa-Gatame creates a natural dilemma: the opponent must use their free hand to either defend their trapped arm from americana and kimura attacks or protect their collar from the breadcutter. Threatening the americana first forces the free hand to defend the arm, clearing a path to the collar. If they leave the arm to protect the collar, finish the americana. This creates a lose-lose scenario where defending one attack opens the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten arm lock, free the collar",
+        "distractors": {
+          "plausible": [
+            "Attack collar and armlock together",
+            "Finish the armlock every time"
+          ],
+          "trap": [
+            "Release arm control for the collar"
+          ]
+        }
       },
       {
         "question": "How does the finishing strategy differ when applying this choke in competition versus training?",
         "answer": "In competition, you apply the choke with full body commitment and faster sprawl mechanics once the grip is set deep, since the opponent is fighting at maximum resistance and may attempt to endure discomfort. Maintain the choke until the referee intervenes. In training, apply slowly and progressively over several seconds, giving your partner ample opportunity to tap. Never use competition intensity in training. The grip setup should be identical in both contexts, but the finishing pressure ramp differs significantly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Same setup, faster finish in comp",
+        "distractors": {
+          "plausible": [
+            "Apply full force in training too",
+            "Grip is looser in competition"
+          ],
+          "trap": [
+            "Spike the choke fast in training"
+          ]
+        }
       }
     ],
     "clips": [
@@ -432,27 +532,77 @@
       {
         "question": "How do you recognize the Breadcutter Choke is being set up from Kuzure Kesa-Gatame?",
         "answer": "The primary recognition cue is the attacker releasing their near-side hand from controlling your trapped arm or hips. You will feel a reduction in arm isolation pressure followed by fabric movement at your collar as their hand threads across. Their weight shifts forward toward your head. The moment you feel the collar tightening against the back of your neck, the grip is being set and you must act immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Near hand releases, collar tightens",
+        "distractors": {
+          "plausible": [
+            "Grips your far collar first",
+            "Weight shifts toward your legs"
+          ],
+          "trap": [
+            "Ignore it, arm control still there"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Breadcutter Choke to prevent injury?",
         "answer": "Tap as soon as you feel the forearm blade set against your neck and the attacker begin their sprawl. Do not attempt to endure the choke once the grip is deep and the finishing pressure has begun, as unconsciousness from bilateral carotid compression occurs within seconds and without warning. In training, tap early to signal your partner before full pressure is applied. Use verbal, hand, or foot taps, whichever is accessible.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap the moment sprawl begins",
+        "distractors": {
+          "plausible": [
+            "Wait until vision starts blurring",
+            "Tap only when grip passes midline"
+          ],
+          "trap": [
+            "Try to endure and fight through it"
+          ]
+        }
       },
       {
         "question": "What is the most effective time window to defend the Breadcutter Choke from this position?",
         "answer": "The optimal defensive window is the 1-2 seconds during which the attacker releases their near-side hand to reach for the collar. During this transition, their arm control and hip pressure are momentarily reduced, creating opportunity to block the collar grip, bridge against their compromised base, or turn into them to recover guard. Once the grip passes the neck midline, defensive options are extremely limited.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During the collar-grip transition",
+        "distractors": {
+          "plausible": [
+            "Right after grip passes midline",
+            "Once forearm touches your neck"
+          ],
+          "trap": [
+            "Wait for the sprawl to defend"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Breadcutter Choke from Kuzure Kesa-Gatame?",
         "answer": "The three primary defenses are: (1) blocking the collar grip with your free hand before it sets deep, targeting the attacker's wrist or bicep during the feeding phase; (2) bridging explosively toward the attacker's posting leg during the grip transition when their weight is shifting; and (3) turning into the attacker to recover closed guard while their hip control is reduced. All three are most effective during the grip transition window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block grip, bridge, turn to guard",
+        "distractors": {
+          "plausible": [
+            "Strip grip after it's set deep",
+            "Pull head down and turtle up"
+          ],
+          "trap": [
+            "Push away and expose your back"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker sometimes more effective than turning away when defending this choke?",
         "answer": "Turning toward the attacker changes the angle at which the forearm contacts your neck, potentially shifting it from the carotid arteries to a less effective position across the jaw or chin. It also closes the distance between your bodies, reducing the sprawling range the attacker needs to generate finishing pressure. Additionally, turning in creates the opportunity to thread your knee across and recover guard, addressing both the choke and the positional disadvantage simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shifts angle off the carotid",
+        "distractors": {
+          "plausible": [
+            "Makes the choke set in faster",
+            "Gives you a better arm-drag angle"
+          ],
+          "trap": [
+            "Opens your back to the mat"
+          ]
+        }
       }
     ],
     "training_progressions": [

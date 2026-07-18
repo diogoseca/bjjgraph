@@ -329,11 +329,31 @@
   "flashcards": [
     {
       "question": "What three core pillars structure the Mental Game Framework?",
-      "answer": "Pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, decision trees, energy management), and post-competition analysis (honest self-assessment and pattern recognition)."
+      "answer": "Pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, decision trees, energy management), and post-competition analysis (honest self-assessment and pattern recognition).",
+      "answer_line": "Prepare, execute, analyze",
+      "distractors": {
+        "plausible": [
+          "Technique, strategy, conditioning",
+          "Physical, mental, tactical skills"
+        ],
+        "trap": [
+          "Only visualize success scenarios"
+        ]
+      }
     },
     {
       "question": "Why are position-based decision trees central to in-match performance?",
-      "answer": "Pre-planned primary, secondary, and emergency responses for each major position eliminate hesitation and decision fatigue, letting you act on trained pathways instead of analyzing in real time under pressure."
+      "answer": "Pre-planned primary, secondary, and emergency responses for each major position eliminate hesitation and decision fatigue, letting you act on trained pathways instead of analyzing in real time under pressure.",
+      "answer_line": "Pre-planned responses cut hesitation",
+      "distractors": {
+        "plausible": [
+          "Memorize every opponent tendency",
+          "React purely on instinct alone"
+        ],
+        "trap": [
+          "Analyze all options in real time"
+        ]
+      }
     },
     {
       "question": "How does breath control influence decision-making under stress?",
@@ -345,7 +365,17 @@
     },
     {
       "question": "Why should post-competition analysis focus on decision quality rather than outcome?",
-      "answer": "Outcomes are partly uncontrollable, but decision quality, emotional regulation, and energy management are trainable; reviewing process separates controllable factors and yields specific, actionable improvement targets."
+      "answer": "Outcomes are partly uncontrollable, but decision quality, emotional regulation, and energy management are trainable; reviewing process separates controllable factors and yields specific, actionable improvement targets.",
+      "answer_line": "Review process, not just the score",
+      "distractors": {
+        "plausible": [
+          "Only review wins for confidence",
+          "Focus solely on final placement"
+        ],
+        "trap": [
+          "Blame the opponent for losses"
+        ]
+      }
     },
     {
       "question": "What is a common mistake when practicing visualization for competition?",
@@ -353,11 +383,31 @@
     },
     {
       "question": "How do you reset composure immediately after being scored on or making a mistake?",
-      "answer": "Run a rehearsed reset protocol: one controlled breath, a physical reset gesture such as adjusting the gi or retying the belt, then refocus attention on the next action rather than dwelling on the past mistake."
+      "answer": "Run a rehearsed reset protocol: one controlled breath, a physical reset gesture such as adjusting the gi or retying the belt, then refocus attention on the next action rather than dwelling on the past mistake.",
+      "answer_line": "Breath, reset gesture, refocus",
+      "distractors": {
+        "plausible": [
+          "Dwell on the mistake briefly",
+          "Rush the next attack immediately"
+        ],
+        "trap": [
+          "Argue the referee's call"
+        ]
+      }
     },
     {
       "question": "What principle keeps a competitor effective when fatigued or trailing on points?",
-      "answer": "Maintaining an offensive mindset regardless of position or score—trained by drilling attacks while exhausted—so creativity and technical precision persist instead of collapsing into passive survival."
+      "answer": "Maintaining an offensive mindset regardless of position or score—trained by drilling attacks while exhausted—so creativity and technical precision persist instead of collapsing into passive survival.",
+      "answer_line": "Stay offensive even when tired",
+      "distractors": {
+        "plausible": [
+          "Play defense to protect position",
+          "Slow down to conserve energy"
+        ],
+        "trap": [
+          "Stall and run out the clock"
+        ]
+      }
     }
   ]
 }

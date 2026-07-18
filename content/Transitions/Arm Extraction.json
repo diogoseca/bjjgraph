@@ -243,51 +243,171 @@
     "flashcards": [
       {
         "question": "What is the primary control mechanism you must address before attempting arm extraction from side control?",
-        "answer": "The primary control mechanism is the opponent's upper body connection, specifically the underhook or crossface that traps your arm and prevents shoulder rotation. This arm control prevents you from creating the necessary space for escape. By identifying and extracting this trapped arm first, you eliminate the opponent's primary control point and create the foundation for full guard recovery. The trapped arm is typically on the side where opponent's chest makes contact with yours."
+        "answer": "The primary control mechanism is the opponent's upper body connection, specifically the underhook or crossface that traps your arm and prevents shoulder rotation. This arm control prevents you from creating the necessary space for escape. By identifying and extracting this trapped arm first, you eliminate the opponent's primary control point and create the foundation for full guard recovery. The trapped arm is typically on the side where opponent's chest makes contact with yours.",
+        "answer_line": "Extract the trapped arm first",
+        "distractors": {
+          "plausible": [
+            "Attack their far-side hip",
+            "Shrimp hips before arm"
+          ],
+          "trap": [
+            "Push chest to create space"
+          ]
+        }
       },
       {
         "question": "Why is shoulder rotation critical to successful arm extraction, and what common error prevents this rotation?",
-        "answer": "Shoulder rotation creates the necessary space between your shoulder and the mat, allowing your trapped elbow to clear opponent's chest pressure. Without this rotation, your arm has no pathway to extract through. The most common error preventing rotation is maintaining a flat back with both shoulders on the mat. This position allows opponent to settle their full weight and eliminates any space. By turning slightly on your side (even 10-15 degrees) and using frames to maintain this angle, you create the rotational space needed for the extraction to work."
+        "answer": "Shoulder rotation creates the necessary space between your shoulder and the mat, allowing your trapped elbow to clear opponent's chest pressure. Without this rotation, your arm has no pathway to extract through. The most common error preventing rotation is maintaining a flat back with both shoulders on the mat. This position allows opponent to settle their full weight and eliminates any space. By turning slightly on your side (even 10-15 degrees) and using frames to maintain this angle, you create the rotational space needed for the extraction to work.",
+        "answer_line": "Rotate onto your side",
+        "distractors": {
+          "plausible": [
+            "Push opponent's chest away",
+            "Bridge hard to create space"
+          ],
+          "trap": [
+            "Stay flat and brace with legs"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent increases chest pressure and follows your shoulder rotation during the extraction attempt?",
-        "answer": "When opponent follows your shoulder rotation and increases pressure, you should not fight against this heavy forward commitment. Instead, switch to a different escape pathway that exploits their forward momentum—either the bridge and roll escape (which uses their forward pressure against them) or the knee-elbow escape. Alternatively, pause the extraction attempt, re-establish your frames, and wait for opponent to shift their weight or adjust their position before attempting again. Fighting against maximum pressure is inefficient and exposes you to submissions."
+        "answer": "When opponent follows your shoulder rotation and increases pressure, you should not fight against this heavy forward commitment. Instead, switch to a different escape pathway that exploits their forward momentum—either the bridge and roll escape (which uses their forward pressure against them) or the knee-elbow escape. Alternatively, pause the extraction attempt, re-establish your frames, and wait for opponent to shift their weight or adjust their position before attempting again. Fighting against maximum pressure is inefficient and exposes you to submissions.",
+        "answer_line": "Switch to bridge-and-roll escape",
+        "distractors": {
+          "plausible": [
+            "Push harder against pressure",
+            "Force the extraction faster"
+          ],
+          "trap": [
+            "Match their forward pressure"
+          ]
+        }
       },
       {
         "question": "What is the correct movement pattern for the trapped arm during extraction—pushing, pulling, or threading?",
-        "answer": "The trapped arm should move in a threading or circular motion, not pushing or pulling. Pull your elbow tight to your ribs and rotate your forearm to create a wedge, then drive your forearm across your centerline, threading it between your chest and opponent's chest. The elbow moves first, followed by the forearm and hand in a smooth circular path. Once the elbow clears, immediately bring your hand to your opposite shoulder to create a frame. This threading motion is much more technical and energy-efficient than attempting to push opponent away or pull your arm out with force."
+        "answer": "The trapped arm should move in a threading or circular motion, not pushing or pulling. Pull your elbow tight to your ribs and rotate your forearm to create a wedge, then drive your forearm across your centerline, threading it between your chest and opponent's chest. The elbow moves first, followed by the forearm and hand in a smooth circular path. Once the elbow clears, immediately bring your hand to your opposite shoulder to create a frame. This threading motion is much more technical and energy-efficient than attempting to push opponent away or pull your arm out with force.",
+        "answer_line": "Thread elbow in a circular path",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight out",
+            "Push opponent off with arm"
+          ],
+          "trap": [
+            "Yank arm free with force"
+          ]
+        }
       },
       {
         "question": "Why must you maintain frames throughout the entire escape sequence, and when is it safe to release them?",
-        "answer": "Frames are your primary defensive structure preventing opponent from re-establishing or improving their control. They create and maintain the space necessary for your hips to escape and your guard to recover. Releasing frames prematurely allows opponent to immediately collapse the space and re-establish side control, often with better positioning than before. Frames should only be released once your guard is completely established—either fully closed, knee shield secured with grips, or butterfly hooks established with proper controls. Until that moment, frames are non-negotiable defensive requirements."
+        "answer": "Frames are your primary defensive structure preventing opponent from re-establishing or improving their control. They create and maintain the space necessary for your hips to escape and your guard to recover. Releasing frames prematurely allows opponent to immediately collapse the space and re-establish side control, often with better positioning than before. Frames should only be released once your guard is completely established—either fully closed, knee shield secured with grips, or butterfly hooks established with proper controls. Until that moment, frames are non-negotiable defensive requirements.",
+        "answer_line": "Keep frames until guard is set",
+        "distractors": {
+          "plausible": [
+            "Release frames once arm is free",
+            "Drop frames to grab collar"
+          ],
+          "trap": [
+            "Release frames to attack sub"
+          ]
+        }
       },
       {
         "question": "How does the arm extraction technique differ when applied in gi versus no-gi contexts?",
-        "answer": "In gi, you have additional grip options for both frames and final guard establishment (collar and sleeve grips), which can make the technique more secure once executed. However, gi fabric can also be used by opponent to establish stronger crossface control, making the initial extraction more difficult. In no-gi, the extraction mechanics are fundamentally the same, but you should generally target butterfly guard or knee shield recovery rather than closed guard, as closed guard is harder to establish and maintain without gi grips. No-gi arm extraction often requires tighter frames and more precise timing due to increased slipperiness and faster pace."
+        "answer": "In gi, you have additional grip options for both frames and final guard establishment (collar and sleeve grips), which can make the technique more secure once executed. However, gi fabric can also be used by opponent to establish stronger crossface control, making the initial extraction more difficult. In no-gi, the extraction mechanics are fundamentally the same, but you should generally target butterfly guard or knee shield recovery rather than closed guard, as closed guard is harder to establish and maintain without gi grips. No-gi arm extraction often requires tighter frames and more precise timing due to increased slipperiness and faster pace.",
+        "answer_line": "No-gi: favor butterfly/knee shield",
+        "distractors": {
+          "plausible": [
+            "Gi allows easier crossface escape",
+            "No-gi mechanics differ completely"
+          ],
+          "trap": [
+            "No-gi: fight for closed guard"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat while maintaining side control—how does this affect your arm extraction timing?",
-        "answer": "When opponent posts their far hand on the mat, they create an ideal timing window for arm extraction. The posted hand means their weight is partially supported off your body, creating more space for your shoulder rotation and arm movement. Additionally, the posted arm cannot be used to counter your extraction or follow your movement. This is the optimal moment to initiate the extraction sequence—use your frames to create the shoulder rotation space and thread your arm through before opponent returns their hand to control position. Recognizing and exploiting these micro-adjustments is essential for high-percentage escapes."
+        "answer": "When opponent posts their far hand on the mat, they create an ideal timing window for arm extraction. The posted hand means their weight is partially supported off your body, creating more space for your shoulder rotation and arm movement. Additionally, the posted arm cannot be used to counter your extraction or follow your movement. This is the optimal moment to initiate the extraction sequence—use your frames to create the shoulder rotation space and thread your arm through before opponent returns their hand to control position. Recognizing and exploiting these micro-adjustments is essential for high-percentage escapes.",
+        "answer_line": "Posted hand = extraction window",
+        "distractors": {
+          "plausible": [
+            "Wait for full mount attempt",
+            "Posted hand means retreat"
+          ],
+          "trap": [
+            "Attack the posted arm directly"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before you can successfully execute arm extraction from side control?",
-        "answer": "Before attempting arm extraction, several conditions must be present: you must have at least one arm not completely trapped under opponent's weight, you need the ability to create minimal space between bodies even if just breathing room, you must maintain a defensive posture with chin tucked, and you need hip mobility to perform the shrimping motion. Additionally, you should assess opponent's weight distribution to identify whether they're prioritizing chest pressure (favorable for arm extraction) or hip control (may require different escape). Without these prerequisites, the technique will fail regardless of execution quality."
+        "answer": "Before attempting arm extraction, several conditions must be present: you must have at least one arm not completely trapped under opponent's weight, you need the ability to create minimal space between bodies even if just breathing room, you must maintain a defensive posture with chin tucked, and you need hip mobility to perform the shrimping motion. Additionally, you should assess opponent's weight distribution to identify whether they're prioritizing chest pressure (favorable for arm extraction) or hip control (may require different escape). Without these prerequisites, the technique will fail regardless of execution quality.",
+        "answer_line": "One arm free plus hip mobility",
+        "distractors": {
+          "plausible": [
+            "Both arms must be fully free",
+            "Only need chin tucked in"
+          ],
+          "trap": [
+            "Push opponent off immediately"
+          ]
+        }
       },
       {
         "question": "If your arm extraction is blocked and opponent begins stepping over to mount, what is your immediate response?",
-        "answer": "When opponent begins stepping to mount during a blocked arm extraction, you must immediately abandon the extraction and address the mount threat. Use your frames to create a barrier at hip level—specifically, place your elbow and knee together on the side opponent is stepping to, creating a physical block preventing their leg from completing the mount transition. This elbow-knee connection is the fundamental mount prevention structure. If you successfully block the mount transition, opponent must return to side control, giving you another opportunity for escape. Never sacrifice position defense to continue a blocked escape attempt."
+        "answer": "When opponent begins stepping to mount during a blocked arm extraction, you must immediately abandon the extraction and address the mount threat. Use your frames to create a barrier at hip level—specifically, place your elbow and knee together on the side opponent is stepping to, creating a physical block preventing their leg from completing the mount transition. This elbow-knee connection is the fundamental mount prevention structure. If you successfully block the mount transition, opponent must return to side control, giving you another opportunity for escape. Never sacrifice position defense to continue a blocked escape attempt.",
+        "answer_line": "Block mount with elbow-to-knee",
+        "distractors": {
+          "plausible": [
+            "Keep threading the trapped arm",
+            "Bridge to reverse the mount"
+          ],
+          "trap": [
+            "Push their hips away to stop it"
+          ]
+        }
       },
       {
         "question": "What grip should you establish first after successfully extracting your trapped arm?",
-        "answer": "After extracting the trapped arm, immediately establish a cross-body frame by bringing your hand to your opposite shoulder. This creates a strong defensive barrier across your chest that prevents opponent from re-establishing chest-to-chest pressure. This frame is structural rather than pushing—you're creating a physical obstacle, not trying to move opponent. From this position, you can then work to insert your knee while maintaining the frame. Only after the knee is inserted and guard structure is established should you transition your grip to collar, sleeve, or head control appropriate for your chosen guard position."
+        "answer": "After extracting the trapped arm, immediately establish a cross-body frame by bringing your hand to your opposite shoulder. This creates a strong defensive barrier across your chest that prevents opponent from re-establishing chest-to-chest pressure. This frame is structural rather than pushing—you're creating a physical obstacle, not trying to move opponent. From this position, you can then work to insert your knee while maintaining the frame. Only after the knee is inserted and guard structure is established should you transition your grip to collar, sleeve, or head control appropriate for your chosen guard position.",
+        "answer_line": "Hand to opposite shoulder frame",
+        "distractors": {
+          "plausible": [
+            "Grab collar and sleeve first",
+            "Grab head control immediately"
+          ],
+          "trap": [
+            "Push opponent's chest away"
+          ]
+        }
       },
       {
         "question": "How do you determine the optimal direction of force when initiating the arm extraction movement?",
-        "answer": "The direction of force in arm extraction is circular and inward, not linear. Pull your elbow tight toward your own ribs first, then rotate your forearm to create a wedge shape. The force direction is across your centerline, threading between your chest and opponent's chest. The elbow leads the movement, followed by forearm and hand in a smooth arc. This circular path follows the natural anatomy of shoulder rotation and uses the minimal resistance pathway. Attempting to pull directly away from opponent or push them off creates resistance that makes extraction significantly harder and exposes you to counter-pressure."
+        "answer": "The direction of force in arm extraction is circular and inward, not linear. Pull your elbow tight toward your own ribs first, then rotate your forearm to create a wedge shape. The force direction is across your centerline, threading between your chest and opponent's chest. The elbow leads the movement, followed by forearm and hand in a smooth arc. This circular path follows the natural anatomy of shoulder rotation and uses the minimal resistance pathway. Attempting to pull directly away from opponent or push them off creates resistance that makes extraction significantly harder and exposes you to counter-pressure.",
+        "answer_line": "Circular, inward, elbow leads",
+        "distractors": {
+          "plausible": [
+            "Pull arm straight away",
+            "Push opponent off first"
+          ],
+          "trap": [
+            "Yank the arm out linearly"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point in arm extraction and how do you address it?",
-        "answer": "The most common failure point is attempting extraction while flat on your back with both shoulders on the mat. This position eliminates all rotational space and allows opponent to settle maximum weight. The fix is immediate and non-negotiable: turn slightly onto your side before any extraction attempt. Even 10-15 degrees of rotation creates the space pathway for your elbow to clear. Use your frames actively to maintain this angle—opponent will try to flatten you, so this is a constant battle. Developing the habit of never accepting a flat position under side control is the single most important factor in successful arm extraction."
+        "answer": "The most common failure point is attempting extraction while flat on your back with both shoulders on the mat. This position eliminates all rotational space and allows opponent to settle maximum weight. The fix is immediate and non-negotiable: turn slightly onto your side before any extraction attempt. Even 10-15 degrees of rotation creates the space pathway for your elbow to clear. Use your frames actively to maintain this angle—opponent will try to flatten you, so this is a constant battle. Developing the habit of never accepting a flat position under side control is the single most important factor in successful arm extraction.",
+        "answer_line": "Fix: turn on side, don't stay flat",
+        "distractors": {
+          "plausible": [
+            "Fix: push harder on frames",
+            "Fix: bridge violently upward"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       }
     ],
     "safety_considerations": "Arm extraction is a low-risk defensive technique with minimal injury potential when performed correctly. The primary safety concern is avoiding turning away from opponent (turning to turtle), which can result in giving up back control or rear mount position—significantly worse positions than side control. Always turn toward opponent during the escape. When drilling, the top partner should provide appropriate resistance levels matching the training phase—excessive pressure during initial learning phases can create bad habits and potential joint strain. Bottom partner should tap immediately if any submission threats develop during escape attempts. Avoid explosive, jerky movements during arm extraction as these can strain shoulder joints and are also technically inefficient. The technique should feel smooth and controlled, not forced. When learning, ensure adequate mat space around drilling pairs as the guard recovery phase involves leg movements that could accidentally strike nearby practitioners.",
@@ -396,23 +516,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is beginning an arm extraction attempt from bottom side control?",
-        "answer": "The earliest cue is the bottom player beginning to rotate their trapped-side shoulder upward and away from the mat, even by just a few degrees. This subtle shoulder rotation precedes the actual arm extraction by several movements and indicates they are creating the space pathway needed to thread their elbow through. You may also feel a change in their body tension—increased rigidity in their frames combined with small hip adjustments that signal a deliberate escape sequence is beginning. Recognizing this early allows you to apply counter-pressure before meaningful space is created."
+        "answer": "The earliest cue is the bottom player beginning to rotate their trapped-side shoulder upward and away from the mat, even by just a few degrees. This subtle shoulder rotation precedes the actual arm extraction by several movements and indicates they are creating the space pathway needed to thread their elbow through. You may also feel a change in their body tension—increased rigidity in their frames combined with small hip adjustments that signal a deliberate escape sequence is beginning. Recognizing this early allows you to apply counter-pressure before meaningful space is created.",
+        "answer_line": "Trapped-side shoulder rotates up",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge attempt",
+            "Opponent taps their own hip"
+          ],
+          "trap": [
+            "Wait for full guard recovery"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to mount during an arm extraction attempt often more effective than simply trying to maintain side control?",
-        "answer": "When the bottom player creates space for arm extraction, they are simultaneously creating the space you need to transition to mount. Their shrimping motion moves their hips away from you, which opens the pathway for your leg to step over. Attempting to maintain side control against strong frames requires constant energy expenditure and is a holding action at best. Transitioning to mount converts their escape energy into your positional advancement, puts them in a worse position than they started, and scores additional points in competition. The key is timing the step-over to coincide with their hip escape movement."
+        "answer": "When the bottom player creates space for arm extraction, they are simultaneously creating the space you need to transition to mount. Their shrimping motion moves their hips away from you, which opens the pathway for your leg to step over. Attempting to maintain side control against strong frames requires constant energy expenditure and is a holding action at best. Transitioning to mount converts their escape energy into your positional advancement, puts them in a worse position than they started, and scores additional points in competition. The key is timing the step-over to coincide with their hip escape movement.",
+        "answer_line": "Step over to mount, don't hold",
+        "distractors": {
+          "plausible": [
+            "Flatten them out harder",
+            "Chase the arm to re-trap it"
+          ],
+          "trap": [
+            "Abandon position, reset distance"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a strong frame against your shoulder and is beginning to rotate—what is your immediate priority?",
-        "answer": "Your immediate priority is to eliminate the frame before it becomes load-bearing. Drive your crossface shoulder into their neck and face while simultaneously sprawling your hips low and heavy against their hips. This dual pressure from above (crossface) and below (hip pressure) collapses the space their frame is trying to create. If the frame is already too strong to collapse directly, switch your approach: either transition to north-south to change the angle and render their frame ineffective, or step over to mount using the space their frame created. Never engage in a static pushing contest against a well-established frame—change the angle or change the position."
+        "answer": "Your immediate priority is to eliminate the frame before it becomes load-bearing. Drive your crossface shoulder into their neck and face while simultaneously sprawling your hips low and heavy against their hips. This dual pressure from above (crossface) and below (hip pressure) collapses the space their frame is trying to create. If the frame is already too strong to collapse directly, switch your approach: either transition to north-south to change the angle and render their frame ineffective, or step over to mount using the space their frame created. Never engage in a static pushing contest against a well-established frame—change the angle or change the position.",
+        "answer_line": "Collapse frame: crossface + hips",
+        "distractors": {
+          "plausible": [
+            "Push against the frame harder",
+            "Grab the wrist and yank it"
+          ],
+          "trap": [
+            "Push straight into the frame"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from inserting their knee after they have partially extracted their arm?",
-        "answer": "Once partial extraction occurs, your near-side hand must immediately drop to control their far-side hip, blocking the hip escape that precedes knee insertion. Simultaneously drive your hips forward and low, closing the gap between your hips and theirs that the knee needs to pass through. If their knee is already beginning to enter, use your own knee to pin their thigh to the mat and prevent the shield from establishing. The critical principle is denying hip escape—without the shrimping motion, they cannot create the angle needed to insert their knee regardless of arm position."
+        "answer": "Once partial extraction occurs, your near-side hand must immediately drop to control their far-side hip, blocking the hip escape that precedes knee insertion. Simultaneously drive your hips forward and low, closing the gap between your hips and theirs that the knee needs to pass through. If their knee is already beginning to enter, use your own knee to pin their thigh to the mat and prevent the shield from establishing. The critical principle is denying hip escape—without the shrimping motion, they cannot create the angle needed to insert their knee regardless of arm position.",
+        "answer_line": "Control far hip, close the gap",
+        "distractors": {
+          "plausible": [
+            "Grab the extracted arm instead",
+            "Push down on their shoulder"
+          ],
+          "trap": [
+            "Back away to reset base"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to abandon side control maintenance and instead attack submissions during opponent's escape attempt?",
-        "answer": "Attack submissions when your opponent's escape movements expose their arms in vulnerable positions—specifically when their arm is mid-extraction and extended between bodies, or when they push with extended arms creating isolation opportunities. The americana is available when their near-side arm pushes against your neck with the elbow flared. The kimura presents when they reach across their body during the threading motion. The arm triangle becomes available when their far arm crosses their own neck during framing. The key timing indicator is when they commit their arm to a specific escape pathway—this commitment temporarily fixes the arm in a position you can attack before they complete the extraction."
+        "answer": "Attack submissions when your opponent's escape movements expose their arms in vulnerable positions—specifically when their arm is mid-extraction and extended between bodies, or when they push with extended arms creating isolation opportunities. The americana is available when their near-side arm pushes against your neck with the elbow flared. The kimura presents when they reach across their body during the threading motion. The arm triangle becomes available when their far arm crosses their own neck during framing. The key timing indicator is when they commit their arm to a specific escape pathway—this commitment temporarily fixes the arm in a position you can attack before they complete the extraction.",
+        "answer_line": "Attack when arm is exposed mid-move",
+        "distractors": {
+          "plausible": [
+            "Attack only after full mount",
+            "Wait until they stop moving"
+          ],
+          "trap": [
+            "Release control to hunt sub"
+          ]
+        }
       }
     ],
     "training_progressions": [

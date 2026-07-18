@@ -402,43 +402,143 @@
   "flashcards": [
     {
       "question": "What is a competition mindset in BJJ?",
-      "answer": "It is the trained psychological state—arousal regulation, process-focused attention, and constructive adversity response—that lets a competitor reliably access their full technical and physical preparation under live-match stress."
+      "answer": "It is the trained psychological state—arousal regulation, process-focused attention, and constructive adversity response—that lets a competitor reliably access their full technical and physical preparation under live-match stress.",
+      "answer_line": "Trained calm to execute skills",
+      "distractors": {
+        "plausible": [
+          "Innate fearless personality",
+          "Pure aggression and intensity"
+        ],
+        "trap": [
+          "Winning-at-all-costs mentality"
+        ]
+      }
     },
     {
       "question": "Why is process focus more effective than outcome focus during a match?",
-      "answer": "Outcome focus (winning, medals) directs attention to uncontrollable results and inflates anxiety, whereas process focus on technical execution and tactical objectives keeps attention on controllable actions, paradoxically improving performance under pressure."
+      "answer": "Outcome focus (winning, medals) directs attention to uncontrollable results and inflates anxiety, whereas process focus on technical execution and tactical objectives keeps attention on controllable actions, paradoxically improving performance under pressure.",
+      "answer_line": "Keeps focus on controllables",
+      "distractors": {
+        "plausible": [
+          "Outcome focus fuels motivation",
+          "Thinking about winning helps"
+        ],
+        "trap": [
+          "Fixating on the scoreboard"
+        ]
+      }
     },
     {
       "question": "How do you find and reach your optimal pre-competition arousal level?",
-      "answer": "Optimal arousal is individual, so you calibrate it from past performances, then apply energizing techniques when under-aroused (lethargic) or calming methods like controlled breathing when over-aroused (anxious, scattered)."
+      "answer": "Optimal arousal is individual, so you calibrate it from past performances, then apply energizing techniques when under-aroused (lethargic) or calming methods like controlled breathing when over-aroused (anxious, scattered).",
+      "answer_line": "Calibrate from past performances",
+      "distractors": {
+        "plausible": [
+          "Always hype up to max intensity",
+          "Stay totally calm no matter what"
+        ],
+        "trap": [
+          "Skip breathing, just wing it"
+        ]
+      }
     },
     {
       "question": "What should you do when you get scored on or caught in a bad position mid-match?",
-      "answer": "Treat it as a tactical problem rather than a crisis: use controlled breathing to manage arousal, refocus attention on the immediate solution, and reset competitive intensity without panic or resignation."
+      "answer": "Treat it as a tactical problem rather than a crisis: use controlled breathing to manage arousal, refocus attention on the immediate solution, and reset competitive intensity without panic or resignation.",
+      "answer_line": "Breathe, refocus on the fix",
+      "distractors": {
+        "plausible": [
+          "Panic and rush an escape",
+          "Get angry to fuel a comeback"
+        ],
+        "trap": [
+          "Freeze and accept the position"
+        ]
+      }
     },
     {
       "question": "What is the most common misconception about developing mental toughness?",
-      "answer": "Believing it develops automatically from competition exposure alone; in reality the same psychological problems recur without deliberate mental-skills training such as visualization, arousal regulation, and adversity drills."
+      "answer": "Believing it develops automatically from competition exposure alone; in reality the same psychological problems recur without deliberate mental-skills training such as visualization, arousal regulation, and adversity drills.",
+      "answer_line": "Thinking exposure alone builds it",
+      "distractors": {
+        "plausible": [
+          "Believing toughness is genetic",
+          "Assuming only talent matters"
+        ],
+        "trap": [
+          "Skipping mental skills training"
+        ]
+      }
     },
     {
       "question": "Should you try to eliminate pre-competition nerves entirely?",
-      "answer": "No—trying to eliminate nerves creates meta-anxiety about feeling anxious. Reframe nervousness as normal activation and channel that energy into focus and intensity rather than suppressing it completely."
+      "answer": "No—trying to eliminate nerves creates meta-anxiety about feeling anxious. Reframe nervousness as normal activation and channel that energy into focus and intensity rather than suppressing it completely.",
+      "answer_line": "No, reframe nerves as energy",
+      "distractors": {
+        "plausible": [
+          "Yes, suppress nerves fully",
+          "Yes, ignore them completely"
+        ],
+        "trap": [
+          "Numb nerves with distraction"
+        ]
+      }
     },
     {
       "question": "How does a consistent pre-competition routine improve performance?",
-      "answer": "A fixed sequence of warm-up, tactical review, visualization, and self-talk creates predictability that reduces uncertainty-driven anxiety and reliably produces the desired competitive state regardless of venue or opponent."
+      "answer": "A fixed sequence of warm-up, tactical review, visualization, and self-talk creates predictability that reduces uncertainty-driven anxiety and reliably produces the desired competitive state regardless of venue or opponent.",
+      "answer_line": "Predictability lowers anxiety",
+      "distractors": {
+        "plausible": [
+          "Superstition brings good luck",
+          "Copies what pros do exactly"
+        ],
+        "trap": [
+          "Changing it keeps you adaptable"
+        ]
+      }
     },
     {
       "question": "How can you train competition mindset in the gym before ever competing?",
-      "answer": "Through progressive pressure exposure: competition-simulation rounds with scoring and consequences, starting from disadvantaged positions, rolling while fatigued, and facing tougher partners to build adversity response in a safe, controlled context."
+      "answer": "Through progressive pressure exposure: competition-simulation rounds with scoring and consequences, starting from disadvantaged positions, rolling while fatigued, and facing tougher partners to build adversity response in a safe, controlled context.",
+      "answer_line": "Scored rounds under pressure",
+      "distractors": {
+        "plausible": [
+          "Only drill techniques slowly",
+          "Just watch match footage"
+        ],
+        "trap": [
+          "Avoid tough partners till comp"
+        ]
+      }
     },
     {
       "question": "What does intensity modulation mean during a match?",
-      "answer": "Consciously adjusting aggression to the tactical situation—raising risk-taking when behind on points or short on time, maintaining controlled pressure when ahead—rather than letting emotion dictate your pace and risk."
+      "answer": "Consciously adjusting aggression to the tactical situation—raising risk-taking when behind on points or short on time, maintaining controlled pressure when ahead—rather than letting emotion dictate your pace and risk.",
+      "answer_line": "Adjust risk to the scoreboard",
+      "distractors": {
+        "plausible": [
+          "Always go full aggression",
+          "Stay passive the whole match"
+        ],
+        "trap": [
+          "Let emotions set your pace"
+        ]
+      }
     },
     {
       "question": "How should you conduct post-competition analysis?",
-      "answer": "Allow brief emotional processing, then shift to objective review of both technical and psychological performance—arousal, focus, decisions, adversity response—and feed specific lessons back into training without harsh self-criticism."
+      "answer": "Allow brief emotional processing, then shift to objective review of both technical and psychological performance—arousal, focus, decisions, adversity response—and feed specific lessons back into training without harsh self-criticism.",
+      "answer_line": "Process, then analyze objectively",
+      "distractors": {
+        "plausible": [
+          "Harshly critique every mistake",
+          "Skip review, move on quickly"
+        ],
+        "trap": [
+          "Replay only the losses obsessively"
+        ]
+      }
     }
   ],
   "clips": [

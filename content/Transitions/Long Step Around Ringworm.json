@@ -223,51 +223,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Long Step Around Ringworm pass?",
-        "answer": "The primary goal is to completely circumvent the mechanical barriers created by ringworm guard's multiple lapel configurations by taking an exaggerated wide step that exits the controlled passing lanes entirely, rather than fighting through the lapel wraps directly."
+        "answer": "The primary goal is to completely circumvent the mechanical barriers created by ringworm guard's multiple lapel configurations by taking an exaggerated wide step that exits the controlled passing lanes entirely, rather than fighting through the lapel wraps directly.",
+        "answer_line": "Step wide, exit the lapel lanes",
+        "distractors": {
+          "plausible": [
+            "Break the lapel grips directly",
+            "Take a small step to the side"
+          ],
+          "trap": [
+            "Muscle through the fabric grips"
+          ]
+        }
       },
       {
         "question": "Why must you establish far hip control before initiating the long step?",
-        "answer": "Far hip control prevents the opponent from following your movement with their hips. Without this anchor grip, they can simply rotate to maintain their guard angle as you step around, negating your direction change and potentially setting up back takes."
+        "answer": "Far hip control prevents the opponent from following your movement with their hips. Without this anchor grip, they can simply rotate to maintain their guard angle as you step around, negating your direction change and potentially setting up back takes.",
+        "answer_line": "Pin far hip so they can't rotate",
+        "distractors": {
+          "plausible": [
+            "Control near hip for base",
+            "Grip their far shoulder first"
+          ],
+          "trap": [
+            "Release grips before stepping"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting up aggressively as you initiate the long step—how do you adjust?",
-        "answer": "Drive shoulder pressure immediately upon your foot landing, keeping your elbow tight to your body to prevent them from getting under your arm. The key is connecting the step directly to forward pressure with no pause, making their sit-up run into your incoming weight rather than catching you in transition."
+        "answer": "Drive shoulder pressure immediately upon your foot landing, keeping your elbow tight to your body to prevent them from getting under your arm. The key is connecting the step directly to forward pressure with no pause, making their sit-up run into your incoming weight rather than catching you in transition.",
+        "answer_line": "Drive shoulder pressure on landing",
+        "distractors": {
+          "plausible": [
+            "Pause to reassess their sit-up",
+            "Post hand and create space"
+          ],
+          "trap": [
+            "Flare elbow to block the sit-up"
+          ]
+        }
       },
       {
         "question": "What distinguishes a properly executed long step from a standard passing step?",
-        "answer": "A proper long step is significantly wider than normal—your foot should land completely past the plane of the opponent's far hip, not just to their side. The exaggerated arc is what allows you to exit the controlled lanes that ringworm guard creates."
+        "answer": "A proper long step is significantly wider than normal—your foot should land completely past the plane of the opponent's far hip, not just to their side. The exaggerated arc is what allows you to exit the controlled lanes that ringworm guard creates.",
+        "answer_line": "Foot lands past their far hip",
+        "distractors": {
+          "plausible": [
+            "Foot lands beside their hip",
+            "Step length matches shoulder width"
+          ],
+          "trap": [
+            "Take the smallest step possible"
+          ]
+        }
       },
       {
         "question": "When is the Long Step Around Ringworm the wrong technique choice?",
-        "answer": "When the opponent hasn't committed to maintaining their ringworm configuration—if their grips are fresh and they're mobile, they'll easily adjust to your direction change. The technique works best when they've invested energy in maintaining complex lapel wraps, which limits their reactive mobility."
+        "answer": "When the opponent hasn't committed to maintaining their ringworm configuration—if their grips are fresh and they're mobile, they'll easily adjust to your direction change. The technique works best when they've invested energy in maintaining complex lapel wraps, which limits their reactive mobility.",
+        "answer_line": "When grips are fresh and mobile",
+        "distractors": {
+          "plausible": [
+            "When you're exhausted mid-round",
+            "When you have positional dominance"
+          ],
+          "trap": [
+            "When they've invested in wraps"
+          ]
+        }
       },
       {
         "question": "How should your hip height change during the long step execution?",
-        "answer": "Keep your hips low throughout the stepping motion. High hips expose you to elevation sweeps and technical standup attempts. Your center of gravity should stay below their potential elevation attacks while maintaining enough mobility to complete the arc."
+        "answer": "Keep your hips low throughout the stepping motion. High hips expose you to elevation sweeps and technical standup attempts. Your center of gravity should stay below their potential elevation attacks while maintaining enough mobility to complete the arc.",
+        "answer_line": "Keep hips low throughout",
+        "distractors": {
+          "plausible": [
+            "Rise hips to generate power",
+            "Match their hip height"
+          ],
+          "trap": [
+            "Post up high for a takedown"
+          ]
+        }
       },
       {
         "question": "What are the consequences of taking too small of a long step?",
-        "answer": "A step that remains within the controlled passing lanes means the lapel configuration still blocks your pass. You've expended energy on an incomplete direction change while remaining trapped in the same mechanical problem, now potentially with less base and more fatigue."
+        "answer": "A step that remains within the controlled passing lanes means the lapel configuration still blocks your pass. You've expended energy on an incomplete direction change while remaining trapped in the same mechanical problem, now potentially with less base and more fatigue.",
+        "answer_line": "Still trapped in passing lanes",
+        "distractors": {
+          "plausible": [
+            "Slightly slower step timing",
+            "Minor loss of base only"
+          ],
+          "trap": [
+            "Stronger position, more options"
+          ]
+        }
       },
       {
         "question": "Your opponent starts reconfiguring their lapel wraps to match your new angle—what does this indicate about your execution?",
-        "answer": "This indicates your step wasn't explosive and continuous enough. The long step should be faster than their reconfiguration speed—if they have time to adjust, you're either moving too slowly or pausing between the step and forward pressure application. Increase your commitment and eliminate any hesitation."
+        "answer": "This indicates your step wasn't explosive and continuous enough. The long step should be faster than their reconfiguration speed—if they have time to adjust, you're either moving too slowly or pausing between the step and forward pressure application. Increase your commitment and eliminate any hesitation.",
+        "answer_line": "Your step was too slow, hesitant",
+        "distractors": {
+          "plausible": [
+            "Your grip was too loose",
+            "Their guard is simply superior"
+          ],
+          "trap": [
+            "Time to switch to another pass"
+          ]
+        }
       },
       {
         "question": "How does the Long Step to Leg Drag variant differ from the standard finish?",
-        "answer": "Instead of consolidating to side control after the step, you continue momentum into a leg drag position where their leg is trapped between your hip and arm. This variant is preferred when opponent's legs are particularly active and attempting to re-pummel during your passing attempt."
+        "answer": "Instead of consolidating to side control after the step, you continue momentum into a leg drag position where their leg is trapped between your hip and arm. This variant is preferred when opponent's legs are particularly active and attempting to re-pummel during your passing attempt.",
+        "answer_line": "Trap leg in drag vs side control",
+        "distractors": {
+          "plausible": [
+            "Switch directly to back control",
+            "Sit through to knee-on-belly"
+          ],
+          "trap": [
+            "Release the leg to reset position"
+          ]
+        }
       },
       {
         "question": "What grip specifically anchors the opponent's hip during the long step?",
-        "answer": "A cupping grip on the far hip, placed with your lead hand. The grip should feel like you're holding their hip to the mat, preventing rotation rather than pulling. This creates the fixed point around which your entire passing arc revolves."
+        "answer": "A cupping grip on the far hip, placed with your lead hand. The grip should feel like you're holding their hip to the mat, preventing rotation rather than pulling. This creates the fixed point around which your entire passing arc revolves.",
+        "answer_line": "Cupping grip on the far hip",
+        "distractors": {
+          "plausible": [
+            "Pulling grip on the near hip",
+            "Two-hand grip on both hips"
+          ],
+          "trap": [
+            "Grip their belt and yank hard"
+          ]
+        }
       },
       {
         "question": "Your opponent pumps their legs to reinsert hooks as you step past—what is the correct chain attack?",
-        "answer": "If their leg pummel succeeds partially and you land in half guard, immediately transition to a knee slice pass or crossface pass from half guard top. The long step has already broken the ringworm configuration, so now you're passing standard half guard rather than fighting lapel barriers. Use your forward momentum to drive the knee slice through before they can re-establish frames."
+        "answer": "If their leg pummel succeeds partially and you land in half guard, immediately transition to a knee slice pass or crossface pass from half guard top. The long step has already broken the ringworm configuration, so now you're passing standard half guard rather than fighting lapel barriers. Use your forward momentum to drive the knee slice through before they can re-establish frames.",
+        "answer_line": "Knee slice or crossface from half",
+        "distractors": {
+          "plausible": [
+            "Retreat and reset full guard pass",
+            "Fight to remove the reinserted hook"
+          ],
+          "trap": [
+            "Abandon top position, stand up"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the long step against ringworm guard?",
-        "answer": "The optimal window is when the opponent is actively adjusting or reinforcing their lapel grips rather than monitoring your footwork. Watch for moments when both their hands are occupied with fabric manipulation—their hip defense is weakest when their attention and grip strength are committed to maintaining the ringworm configuration rather than tracking your passing angle."
+        "answer": "The optimal window is when the opponent is actively adjusting or reinforcing their lapel grips rather than monitoring your footwork. Watch for moments when both their hands are occupied with fabric manipulation—their hip defense is weakest when their attention and grip strength are committed to maintaining the ringworm configuration rather than tracking your passing angle.",
+        "answer_line": "While their hands adjust lapels",
+        "distractors": {
+          "plausible": [
+            "Right after they secure grips",
+            "When they attempt a sweep"
+          ],
+          "trap": [
+            "When they release grips to rest"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Long Step Around Ringworm is generally low-risk compared to other guard passes, as it involves controlled stepping rather than explosive movements or joint manipulation. However, practitioners should be aware of potential knee stress from the wide stepping arc, particularly if executed on sticky or uneven mats. Ensure adequate warmup of hip flexors and groin muscles before drilling, as the exaggerated step requires significant hip mobility. When applying forward pressure after the step, avoid driving directly into partner's face or throat—aim for chest and shoulder contact. Partners playing ringworm guard should tap immediately if lapel wraps create choking pressure during the passing attempt. During initial learning phases, execute at reduced speed to develop proper mechanics before adding explosive timing.",
@@ -375,23 +495,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a Long Step Around Ringworm?",
-        "answer": "The cupping grip on your far hip is the earliest and most reliable cue. This anchor grip precedes every long step attempt because the passer needs it to prevent your hip chase. When you feel or see this grip establish, begin preparing your defensive response immediately rather than waiting for the step itself."
+        "answer": "The cupping grip on your far hip is the earliest and most reliable cue. This anchor grip precedes every long step attempt because the passer needs it to prevent your hip chase. When you feel or see this grip establish, begin preparing your defensive response immediately rather than waiting for the step itself.",
+        "answer_line": "Cupping grip on your far hip",
+        "distractors": {
+          "plausible": [
+            "Sudden change in their base width",
+            "Shift in their shoulder pressure"
+          ],
+          "trap": [
+            "Their foot leaving the ground"
+          ]
+        }
       },
       {
         "question": "Why is hip chasing the highest-percentage defensive response against the long step?",
-        "answer": "Hip chasing maintains the alignment between your ringworm configuration and the passer's direction of travel. Your lapel barriers only block specific passing lanes—by rotating your hips to follow their movement, you keep those barriers in their path. This makes the passer's energy-expensive wide arc irrelevant because you've moved the obstacle to match their new angle."
+        "answer": "Hip chasing maintains the alignment between your ringworm configuration and the passer's direction of travel. Your lapel barriers only block specific passing lanes—by rotating your hips to follow their movement, you keep those barriers in their path. This makes the passer's energy-expensive wide arc irrelevant because you've moved the obstacle to match their new angle.",
+        "answer_line": "Keeps lapel barriers in their path",
+        "distractors": {
+          "plausible": [
+            "Tightens grips to slow their step",
+            "Creates space to re-guard fully"
+          ],
+          "trap": [
+            "Release grips and turn away"
+          ]
+        }
       },
       {
         "question": "Your opponent has landed their long step foot and is beginning to drive shoulder pressure—what is your best remaining defensive option?",
-        "answer": "At this late stage, abandon the lapel configuration entirely and establish standard defensive frames against their shoulder and hip. Insert your knee as a shield to prevent chest-to-chest contact and begin standard half guard or side control escape sequences. The ringworm game is over once they've completed the arc—clinging to useless lapel wraps delays the transition to effective defensive framing."
+        "answer": "At this late stage, abandon the lapel configuration entirely and establish standard defensive frames against their shoulder and hip. Insert your knee as a shield to prevent chest-to-chest contact and begin standard half guard or side control escape sequences. The ringworm game is over once they've completed the arc—clinging to useless lapel wraps delays the transition to effective defensive framing.",
+        "answer_line": "Abandon wraps, knee shield frame",
+        "distractors": {
+          "plausible": [
+            "Reinforce your lapel grips harder",
+            "Attempt a last-second hip escape"
+          ],
+          "trap": [
+            "Cling to lapel wraps, fight grips"
+          ]
+        }
       },
       {
         "question": "What makes the back take window during the long step so effective but also so narrow?",
-        "answer": "The window is effective because the passer's wide arc rotates their back toward you while their base is compromised on one leg. It's narrow because it only exists while the foot is in the air—once they land and drive shoulder pressure, the back exposure closes and you run into their incoming weight. You must initiate the sit-up during the step itself, reading the hip grip and foot lift as your trigger."
+        "answer": "The window is effective because the passer's wide arc rotates their back toward you while their base is compromised on one leg. It's narrow because it only exists while the foot is in the air—once they land and drive shoulder pressure, the back exposure closes and you run into their incoming weight. You must initiate the sit-up during the step itself, reading the hip grip and foot lift as your trigger.",
+        "answer_line": "Only while their foot is airborne",
+        "distractors": {
+          "plausible": [
+            "Open throughout the entire pass",
+            "Best right after they land"
+          ],
+          "trap": [
+            "Wait until they secure pressure"
+          ]
+        }
       },
       {
         "question": "When should you abandon your ringworm configuration during defense rather than trying to maintain it?",
-        "answer": "Abandon the configuration when the passer has successfully stepped past your far hip and is driving forward pressure. At that point, the lapel wraps no longer control relevant passing lanes and keeping your hands in fabric delays establishing the defensive frames you need for guard recovery. The transition from lapel game to standard defense must be immediate and decisive."
+        "answer": "Abandon the configuration when the passer has successfully stepped past your far hip and is driving forward pressure. At that point, the lapel wraps no longer control relevant passing lanes and keeping your hands in fabric delays establishing the defensive frames you need for guard recovery. The transition from lapel game to standard defense must be immediate and decisive.",
+        "answer_line": "Once they've stepped past your hip",
+        "distractors": {
+          "plausible": [
+            "As soon as they grip your hip",
+            "When you feel fatigued holding it"
+          ],
+          "trap": [
+            "Never let go of the lapel wraps"
+          ]
+        }
       }
     ],
     "training_progressions": [

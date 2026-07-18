@@ -229,43 +229,143 @@
     "flashcards": [
       {
         "question": "Why must you address leg control before attempting to extract your trapped arm from Rubber Guard?",
-        "answer": "Pulling the arm without addressing leg control creates a direct pathway to triangle choke. The leg pressure on your back anchors the configuration and controls your posture. Removing the leg pressure first breaks the mechanical advantage that allows the arm trap to function, making extraction safe and preventing the bottom player from locking a triangle as you withdraw your arm."
+        "answer": "Pulling the arm without addressing leg control creates a direct pathway to triangle choke. The leg pressure on your back anchors the configuration and controls your posture. Removing the leg pressure first breaks the mechanical advantage that allows the arm trap to function, making extraction safe and preventing the bottom player from locking a triangle as you withdraw your arm.",
+        "answer_line": "Clear leg pressure before arm",
+        "distractors": {
+          "plausible": [
+            "Extract arm, then clear legs",
+            "Post hand on hip first"
+          ],
+          "trap": [
+            "Yank arm straight back"
+          ]
+        }
       },
       {
         "question": "What happens if you sit back to create distance without maintaining hip control with your free hand?",
-        "answer": "Creating distance without hip control provides space for the opponent to extend their legs and lock a triangle or rotate into omoplata. The hip frame prevents them from following your movement and keeps them compressed. Without it, the distance you create actually helps them complete their submissions rather than escaping."
+        "answer": "Creating distance without hip control provides space for the opponent to extend their legs and lock a triangle or rotate into omoplata. The hip frame prevents them from following your movement and keeps them compressed. Without it, the distance you create actually helps them complete their submissions rather than escaping.",
+        "answer_line": "Frame the hips while retreating",
+        "distractors": {
+          "plausible": [
+            "Sit back fast for distance",
+            "Push both knees down"
+          ],
+          "trap": [
+            "Create distance, hands free"
+          ]
+        }
       },
       {
         "question": "How should you extract your trapped arm once leg control is addressed - straight back or circular motion?",
-        "answer": "Use circular motion toward your body keeping the elbow tight to your ribs. Pulling straight back is the natural instinct but triggers triangle entries because it creates the arm-and-head configuration triangles require. Circular extraction keeps your arm close to your body and prevents the space needed for leg lockup around your head."
+        "answer": "Use circular motion toward your body keeping the elbow tight to your ribs. Pulling straight back is the natural instinct but triggers triangle entries because it creates the arm-and-head configuration triangles require. Circular extraction keeps your arm close to your body and prevents the space needed for leg lockup around your head.",
+        "answer_line": "Circular pull, elbow tight",
+        "distractors": {
+          "plausible": [
+            "Straight pull, elbow tight",
+            "Circular pull, elbow flared"
+          ],
+          "trap": [
+            "Yank arm straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins locking a triangle as you extract your arm - what is your immediate response?",
-        "answer": "Tuck your chin to prevent the choke from being effective immediately. Then posture aggressively by straightening your spine and pushing on their hips. Work standard triangle defense by pushing on the knee of the locking leg to prevent them from completing the figure-four lock. Speed is critical - address it before the triangle is fully locked."
+        "answer": "Tuck your chin to prevent the choke from being effective immediately. Then posture aggressively by straightening your spine and pushing on their hips. Work standard triangle defense by pushing on the knee of the locking leg to prevent them from completing the figure-four lock. Speed is critical - address it before the triangle is fully locked.",
+        "answer_line": "Tuck chin, posture, push knee",
+        "distractors": {
+          "plausible": [
+            "Posture up, ignore chin",
+            "Pull arm out faster"
+          ],
+          "trap": [
+            "Pull head down to defend"
+          ]
+        }
       },
       {
         "question": "Why is establishing crossface control immediately upon completing the pass critical?",
-        "answer": "Flexible Rubber Guard players can quickly re-engage their guard system if given any space or time. The crossface drives their head away, preventing them from turning into you and re-establishing leg control. Without immediate crossface, your successful pass can be negated within seconds as they re-acquire grips and elevate their legs."
+        "answer": "Flexible Rubber Guard players can quickly re-engage their guard system if given any space or time. The crossface drives their head away, preventing them from turning into you and re-establishing leg control. Without immediate crossface, your successful pass can be negated within seconds as they re-acquire grips and elevate their legs.",
+        "answer_line": "Crossface to deny re-guard",
+        "distractors": {
+          "plausible": [
+            "Settle weight, grip legs",
+            "Secure far-side underhook"
+          ],
+          "trap": [
+            "Pause to catch your breath"
+          ]
+        }
       },
       {
         "question": "What distinguishes the stack pass variation from the standard escape sequence?",
-        "answer": "The stack pass drives forward into compression rather than extracting laterally. You keep your trapped arm tight against your body and use shoulder pressure on their hips to fold them, reducing their hip mobility and breaking the Rubber Guard configuration through compression rather than arm extraction. It works best against less flexible opponents or when they overextend their hips."
+        "answer": "The stack pass drives forward into compression rather than extracting laterally. You keep your trapped arm tight against your body and use shoulder pressure on their hips to fold them, reducing their hip mobility and breaking the Rubber Guard configuration through compression rather than arm extraction. It works best against less flexible opponents or when they overextend their hips.",
+        "answer_line": "Drive forward, fold with shoulder",
+        "distractors": {
+          "plausible": [
+            "Extract arm, then stack",
+            "Pull legs off laterally"
+          ],
+          "trap": [
+            "Sit back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent repeatedly re-establishes Mission Control after you partially recover posture - what adjustment should you make?",
-        "answer": "Maintain constant forward pressure and actively fight their gripping hand with your free hand. If they keep re-establishing control, consider the standing escape variation where you post a foot and drive to standing, using height advantage to break the configuration from above. Speed and continuous pressure prevent re-engagement of their control system."
+        "answer": "Maintain constant forward pressure and actively fight their gripping hand with your free hand. If they keep re-establishing control, consider the standing escape variation where you post a foot and drive to standing, using height advantage to break the configuration from above. Speed and continuous pressure prevent re-engagement of their control system.",
+        "answer_line": "Fight grips, stand to escape",
+        "distractors": {
+          "plausible": [
+            "Wait and reset posture",
+            "Pull harder on trapped arm"
+          ],
+          "trap": [
+            "Sit back and relax pressure"
+          ]
+        }
       },
       {
         "question": "Why is panicking and using explosive movements counterproductive when trapped in Rubber Guard?",
-        "answer": "Explosive movements create the reactions and momentum that Rubber Guard practitioners use to enter submissions. The system is designed to capitalize on aggressive escape attempts. Triangles and omoplatas require specific movements from you to complete - explosive pulling and thrashing often provides exactly those movements. Calm, systematic pressure denies them the reactions they need."
+        "answer": "Explosive movements create the reactions and momentum that Rubber Guard practitioners use to enter submissions. The system is designed to capitalize on aggressive escape attempts. Triangles and omoplatas require specific movements from you to complete - explosive pulling and thrashing often provides exactly those movements. Calm, systematic pressure denies them the reactions they need.",
+        "answer_line": "Calm systematic pressure",
+        "distractors": {
+          "plausible": [
+            "Quick controlled bursts",
+            "Match their pace exactly"
+          ],
+          "trap": [
+            "Explosive pull to escape"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for completing the pass after extracting your arm from Rubber Guard?",
-        "answer": "The pass must be completed immediately after arm extraction, within the two-to-three second window before the opponent can re-establish grips or transition to alternative guards. The moment your arm clears and posture recovers, drive directly into the pass without pausing to reset. Any hesitation allows re-engagement of the Rubber Guard or transition to closed guard, forcing you to restart the escape sequence."
+        "answer": "The pass must be completed immediately after arm extraction, within the two-to-three second window before the opponent can re-establish grips or transition to alternative guards. The moment your arm clears and posture recovers, drive directly into the pass without pausing to reset. Any hesitation allows re-engagement of the Rubber Guard or transition to closed guard, forcing you to restart the escape sequence.",
+        "answer_line": "Pass instantly, no pause",
+        "distractors": {
+          "plausible": [
+            "Reset posture, then pass",
+            "Wait for their reaction"
+          ],
+          "trap": [
+            "Pause to secure grips first"
+          ]
+        }
       },
       {
         "question": "Your opponent has very high flexibility and you cannot break the shin-to-back leg configuration from kneeling - what grip adjustment do you make?",
-        "answer": "Switch from pushing the controlling knee downward to gripping behind the opponent's ankle or heel with your free hand, peeling the foot away from the grip securing the shin. Against highly flexible opponents, the leg configuration is anchored by the hand gripping the foot or shin rather than the leg itself. Breaking the hand grip eliminates the structural lock and allows the leg to slide off your back even against extreme flexibility."
+        "answer": "Switch from pushing the controlling knee downward to gripping behind the opponent's ankle or heel with your free hand, peeling the foot away from the grip securing the shin. Against highly flexible opponents, the leg configuration is anchored by the hand gripping the foot or shin rather than the leg itself. Breaking the hand grip eliminates the structural lock and allows the leg to slide off your back even against extreme flexibility.",
+        "answer_line": "Grip ankle, peel foot off",
+        "distractors": {
+          "plausible": [
+            "Push controlling knee harder",
+            "Grip their far collar"
+          ],
+          "trap": [
+            "Pull straight back on leg"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing this escape, be mindful of shoulder and neck strain on both partners. The trapped arm position in Rubber Guard creates potential for shoulder injury if explosive extraction is attempted. Always extract arms with controlled motion and tap immediately if you feel shoulder torque. The bottom player should release if the top player taps during practice - competitive stubbornness during drilling leads to injuries. Both practitioners should communicate about flexibility limitations and resistance levels. Avoid practicing this technique at full speed until both partners are comfortable with the movements. The stack pass variation puts significant pressure on the bottom player's neck and spine - use incrementally and allow taps for discomfort rather than just submissions.",
@@ -384,23 +484,73 @@
     "flashcards": [
       {
         "question": "What is the highest-percentage moment to transition from Rubber Guard to triangle during the opponent's escape attempt?",
-        "answer": "The highest-percentage moment is when the opponent begins the circular arm extraction motion. At this point, their arm is withdrawing from your chest trap and naturally creating the one-arm-in, one-arm-out configuration that the triangle requires. Shooting your hips up and locking legs around their head and the extracting arm catches them in transition before they can complete the withdrawal and tuck their elbow to their ribs."
+        "answer": "The highest-percentage moment is when the opponent begins the circular arm extraction motion. At this point, their arm is withdrawing from your chest trap and naturally creating the one-arm-in, one-arm-out configuration that the triangle requires. Shooting your hips up and locking legs around their head and the extracting arm catches them in transition before they can complete the withdrawal and tuck their elbow to their ribs.",
+        "answer_line": "Shoot hips as arm extracts",
+        "distractors": {
+          "plausible": [
+            "Wait until arm fully clears",
+            "Lock triangle before pull"
+          ],
+          "trap": [
+            "Chase the arm with hands"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on your far hip and begins the frame establishment phase - how do you counter this specifically?",
-        "answer": "Use the posted hand as an anchor point to pull yourself deeper into the Rubber Guard configuration. Grip their posting wrist with your free hand and pull it across your body while simultaneously elevating your hips to increase leg pressure. Their frame hand is now trapped, removing their primary escape tool. Alternatively, use this as an opportunity to advance to New York position by using their frame as leverage to deepen your arm isolation."
+        "answer": "Use the posted hand as an anchor point to pull yourself deeper into the Rubber Guard configuration. Grip their posting wrist with your free hand and pull it across your body while simultaneously elevating your hips to increase leg pressure. Their frame hand is now trapped, removing their primary escape tool. Alternatively, use this as an opportunity to advance to New York position by using their frame as leverage to deepen your arm isolation.",
+        "answer_line": "Grip wrist, pull it across",
+        "distractors": {
+          "plausible": [
+            "Push their hand away fast",
+            "Ignore hand, hold legs tighter"
+          ],
+          "trap": [
+            "Release legs to swat hand"
+          ]
+        }
       },
       {
         "question": "Why is it important to actively fight grips rather than relying solely on leg strength to maintain Rubber Guard?",
-        "answer": "Leg muscles fatigue rapidly when asked to maintain static pressure against a systematically escaping opponent. The Rubber Guard configuration is structurally maintained by the hand gripping the shin or foot combined with leg positioning - the grip is the keystone. Without active grip retention, the opponent can incrementally reduce leg pressure through frame creation until the configuration collapses. Active grip fighting keeps the structural lock intact while distributing effort between arms and legs."
+        "answer": "Leg muscles fatigue rapidly when asked to maintain static pressure against a systematically escaping opponent. The Rubber Guard configuration is structurally maintained by the hand gripping the shin or foot combined with leg positioning - the grip is the keystone. Without active grip retention, the opponent can incrementally reduce leg pressure through frame creation until the configuration collapses. Active grip fighting keeps the structural lock intact while distributing effort between arms and legs.",
+        "answer_line": "Grip is the keystone, fight it",
+        "distractors": {
+          "plausible": [
+            "Legs alone hold the lock",
+            "Squeeze knees together harder"
+          ],
+          "trap": [
+            "Relax legs, save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully extracts their arm but has not yet recovered full posture - what is your best immediate response?",
-        "answer": "Immediately transition to either triangle entry if their head is still low enough to lock legs around, or re-close your guard by locking ankles behind their back to prevent the pass. If you choose the triangle, shoot your hips up aggressively before they posture. If you choose closed guard, immediately re-break their posture and look to re-enter Rubber Guard. The worst response is doing nothing - the window between arm extraction and posture recovery is narrow and you must act decisively."
+        "answer": "Immediately transition to either triangle entry if their head is still low enough to lock legs around, or re-close your guard by locking ankles behind their back to prevent the pass. If you choose the triangle, shoot your hips up aggressively before they posture. If you choose closed guard, immediately re-break their posture and look to re-enter Rubber Guard. The worst response is doing nothing - the window between arm extraction and posture recovery is narrow and you must act decisively.",
+        "answer_line": "Triangle or re-close guard now",
+        "distractors": {
+          "plausible": [
+            "Wait for full posture recovery",
+            "Reset to open guard"
+          ],
+          "trap": [
+            "Release legs and stand up"
+          ]
+        }
       },
       {
         "question": "How should you use hip rotation to prevent the opponent from angling their shoulders away from your trapped arm side?",
-        "answer": "When the opponent angles their shoulders away to reduce your leg pressure, rotate your hips in the same direction to track their movement and maintain the perpendicular relationship between your shin and their back. Use your shoulder and upper back as the pivot point, keeping your leg configuration locked while adjusting the angle. This tracking movement prevents them from creating the lateral space needed for pressure redirection and keeps your arm isolation mechanically sound regardless of their angle changes."
+        "answer": "When the opponent angles their shoulders away to reduce your leg pressure, rotate your hips in the same direction to track their movement and maintain the perpendicular relationship between your shin and their back. Use your shoulder and upper back as the pivot point, keeping your leg configuration locked while adjusting the angle. This tracking movement prevents them from creating the lateral space needed for pressure redirection and keeps your arm isolation mechanically sound regardless of their angle changes.",
+        "answer_line": "Rotate hips to track shoulders",
+        "distractors": {
+          "plausible": [
+            "Squeeze legs tighter, don't move",
+            "Pivot on hips, not shoulders"
+          ],
+          "trap": [
+            "Release leg to re-angle"
+          ]
+        }
       }
     ],
     "training_progressions": [

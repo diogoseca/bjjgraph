@@ -264,31 +264,101 @@
     "flashcards": [
       {
         "question": "What is the most critical upper body control to establish before beginning the hip slide in the Leg Weave Pass Completion?",
-        "answer": "The crossface is the most critical control to establish before the hip slide. It turns the bottom player's head away from you, preventing them from following your movement with defensive adjustments. Without the crossface, the bottom player can turn into you during the transition, recover frames, and reinsert knee shields. The crossface must be established as a prerequisite, not added after the hips begin moving."
+        "answer": "The crossface is the most critical control to establish before the hip slide. It turns the bottom player's head away from you, preventing them from following your movement with defensive adjustments. Without the crossface, the bottom player can turn into you during the transition, recover frames, and reinsert knee shields. The crossface must be established as a prerequisite, not added after the hips begin moving.",
+        "answer_line": "Establish crossface first",
+        "distractors": {
+          "plausible": [
+            "Secure underhook first",
+            "Control far-side wrist"
+          ],
+          "trap": [
+            "Grab collar and drive"
+          ]
+        }
       },
       {
         "question": "Your opponent starts inserting their knee shield as you begin the hip slide - how do you adjust your completion path?",
-        "answer": "If the knee shield is only partially inserted, increase forward pressure through your chest and drive your shoulder into the knee to collapse it before continuing the completion. If the shield is more established, transition to a knee slice angle that uses the partially inserted knee against them by redirecting your passing momentum to cut through the shield. Do not force a direct completion through an established knee shield as this creates distance and allows full guard recovery."
+        "answer": "If the knee shield is only partially inserted, increase forward pressure through your chest and drive your shoulder into the knee to collapse it before continuing the completion. If the shield is more established, transition to a knee slice angle that uses the partially inserted knee against them by redirecting your passing momentum to cut through the shield. Do not force a direct completion through an established knee shield as this creates distance and allows full guard recovery.",
+        "answer_line": "Collapse shield or knee slice",
+        "distractors": {
+          "plausible": [
+            "Only add more chest pressure",
+            "Switch straight to backstep"
+          ],
+          "trap": [
+            "Force straight through shield"
+          ]
+        }
       },
       {
         "question": "Why is lifting the hips to extract the weaved leg the most common mechanical error in this technique?",
-        "answer": "Lifting the hips creates vertical space between your body and the opponent's body, which is exactly what the bottom player needs to insert frames, recover knee shields, or dive underneath for deep half guard. The extraction should come from forward momentum and angular change, not vertical lift. Your hips should slide forward through the passing lane at the same height, using the directional change to free the leg rather than creating any upward space."
+        "answer": "Lifting the hips creates vertical space between your body and the opponent's body, which is exactly what the bottom player needs to insert frames, recover knee shields, or dive underneath for deep half guard. The extraction should come from forward momentum and angular change, not vertical lift. Your hips should slide forward through the passing lane at the same height, using the directional change to free the leg rather than creating any upward space.",
+        "answer_line": "Creates space for frames/recovery",
+        "distractors": {
+          "plausible": [
+            "Speeds up leg extraction",
+            "Improves passing leverage"
+          ],
+          "trap": [
+            "Lift hips then drive forward"
+          ]
+        }
       },
       {
         "question": "What grip or control must you maintain on the far side throughout the entire completion sequence and why?",
-        "answer": "You must maintain far hip control with your near-side hand throughout the entire completion. This prevents the bottom player from inserting their knee between your bodies, which is their primary defensive mechanism. The moment the far hip becomes unblocked, the bottom player will attempt to insert a knee for half guard or knee shield recovery. Only release this control after your hips have passed the knee insertion point and you are settling into side control alignment."
+        "answer": "You must maintain far hip control with your near-side hand throughout the entire completion. This prevents the bottom player from inserting their knee between your bodies, which is their primary defensive mechanism. The moment the far hip becomes unblocked, the bottom player will attempt to insert a knee for half guard or knee shield recovery. Only release this control after your hips have passed the knee insertion point and you are settling into side control alignment.",
+        "answer_line": "Control far hip with near hand",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm",
+            "Grip the far collar"
+          ],
+          "trap": [
+            "Release grip to switch base"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively during the exact moment you are sliding your hips through - what is the correct response?",
-        "answer": "Drop your center of gravity immediately by lowering your hips and widening your base. Post your free hand on the mat opposite the bridge direction for stability. Ride the bridge by moving with the opponent's momentum rather than fighting against it, which wastes energy. Once the bridge subsides, immediately accelerate the completion sequence before they can chain another defensive movement, as the post-bridge moment is often a window of reduced defensive structure."
+        "answer": "Drop your center of gravity immediately by lowering your hips and widening your base. Post your free hand on the mat opposite the bridge direction for stability. Ride the bridge by moving with the opponent's momentum rather than fighting against it, which wastes energy. Once the bridge subsides, immediately accelerate the completion sequence before they can chain another defensive movement, as the post-bridge moment is often a window of reduced defensive structure.",
+        "answer_line": "Lower base, ride bridge, push",
+        "distractors": {
+          "plausible": [
+            "Brace and hold your position",
+            "Post hand into their chest"
+          ],
+          "trap": [
+            "Muscle through the bridge"
+          ]
+        }
       },
       {
         "question": "How should you handle the transition from leg clearance to side control consolidation to prevent escape opportunities?",
-        "answer": "The leg clearance and side control consolidation must be treated as one continuous motion with no pause between them. The moment your legs clear the opponent's guard structure, your hips should already be dropping into side control position with your shoulder driving into their jaw. Any pause between clearing legs and establishing side control creates a dead zone where the bottom player can frame and begin escape sequences. Practice this as a single flowing movement, not two separate steps."
+        "answer": "The leg clearance and side control consolidation must be treated as one continuous motion with no pause between them. The moment your legs clear the opponent's guard structure, your hips should already be dropping into side control position with your shoulder driving into their jaw. Any pause between clearing legs and establishing side control creates a dead zone where the bottom player can frame and begin escape sequences. Practice this as a single flowing movement, not two separate steps.",
+        "answer_line": "One continuous motion, no pause",
+        "distractors": {
+          "plausible": [
+            "Clear legs, then reset base",
+            "Pause to check your grips"
+          ],
+          "trap": [
+            "Stop to resecure crossface"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that tell you the completion attempt is failing and you should transition to an alternative pass?",
-        "answer": "The primary indicators are: the bottom player has successfully inserted a frame that is creating increasing distance, their knee is entering the space between your bodies, or they have secured a deep underhook and are beginning to sit up. When you feel the momentum of the completion stalling against defensive structure rather than flowing through it, abandon the direct completion within two seconds and transition to a backstep, knee slice, or leg drag rather than grinding against an established defense."
+        "answer": "The primary indicators are: the bottom player has successfully inserted a frame that is creating increasing distance, their knee is entering the space between your bodies, or they have secured a deep underhook and are beginning to sit up. When you feel the momentum of the completion stalling against defensive structure rather than flowing through it, abandon the direct completion within two seconds and transition to a backstep, knee slice, or leg drag rather than grinding against an established defense.",
+        "answer_line": "Frame gap, knee in, or sit-up",
+        "distractors": {
+          "plausible": [
+            "Opponent stalls completely",
+            "They grab your same collar"
+          ],
+          "trap": [
+            "Grind harder against defense"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Leg Weave Pass Completion involves significant pressure on the bottom player's chest, ribs, and neck during the crossface and hip drive phases. Practitioners should apply pressure progressively during drilling rather than sudden explosive weight drops. Be mindful of crossface pressure on the jaw and neck, reducing intensity when drilling with lighter or less experienced partners. During live training, release pressure immediately if a partner taps or signals discomfort, particularly during the consolidation phase where chest compression can restrict breathing.",
@@ -397,19 +467,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Leg Weave Pass Completion has been initiated?",
-        "answer": "The earliest cue is the intensification of crossface pressure combined with the passer's near-side hand moving to control your far hip. These two actions signal that the passer is preparing to commit to the completion sequence. The crossface secures head control for the transition, and the hip block prevents your primary defensive mechanism of knee insertion. Recognizing these preparatory movements gives you the maximum window for defensive response."
+        "answer": "The earliest cue is the intensification of crossface pressure combined with the passer's near-side hand moving to control your far hip. These two actions signal that the passer is preparing to commit to the completion sequence. The crossface secures head control for the transition, and the hip block prevents your primary defensive mechanism of knee insertion. Recognizing these preparatory movements gives you the maximum window for defensive response.",
+        "answer_line": "Crossface tightens, hip block set",
+        "distractors": {
+          "plausible": [
+            "Opponent widens their base",
+            "They post on far knee"
+          ],
+          "trap": [
+            "Wait for hips to fully pass"
+          ]
+        }
       },
       {
         "question": "Why is the deep half entry particularly effective as a counter to this specific pass completion?",
-        "answer": "The deep half entry exploits the passer's committed forward pressure. As the passer drives their weight forward to complete the pass, their base becomes loaded toward your head and shoulders. By threading underneath their base and inverting the weight distribution, you redirect their forward momentum over your body, giving you access to sweeping angles from deep half. The passer cannot easily counter because stopping their forward momentum to address the deep half entry would stall the completion and create space for other defensive options."
+        "answer": "The deep half entry exploits the passer's committed forward pressure. As the passer drives their weight forward to complete the pass, their base becomes loaded toward your head and shoulders. By threading underneath their base and inverting the weight distribution, you redirect their forward momentum over your body, giving you access to sweeping angles from deep half. The passer cannot easily counter because stopping their forward momentum to address the deep half entry would stall the completion and create space for other defensive options.",
+        "answer_line": "Exploits forward-loaded base",
+        "distractors": {
+          "plausible": [
+            "Directly blocks the crossface",
+            "Strips the far hip control"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "Your frames are being stripped and the passer's hips are already halfway through the passing lane - what is your last resort defensive option?",
-        "answer": "When the pass is nearly complete, your best option is to immediately turn into the passer and establish an underhook while driving your hips underneath theirs. Even if this does not fully prevent the pass, it can disrupt the consolidation enough to create a scramble or establish a frame-based defensive position before full side control is achieved. The alternative of accepting flat side control passively is always worse than an imperfect but committed defensive movement at this stage."
+        "answer": "When the pass is nearly complete, your best option is to immediately turn into the passer and establish an underhook while driving your hips underneath theirs. Even if this does not fully prevent the pass, it can disrupt the consolidation enough to create a scramble or establish a frame-based defensive position before full side control is achieved. The alternative of accepting flat side control passively is always worse than an imperfect but committed defensive movement at this stage.",
+        "answer_line": "Turn in, underhook, hips under",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to reverse",
+            "Frame far hip and push away"
+          ],
+          "trap": [
+            "Go flat, accept side control"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when defending repeated Leg Weave Pass Completion attempts?",
-        "answer": "Prioritize frame maintenance over explosive escape attempts, as frames are energy-efficient and buy time. Save explosive movements for moments when the passer's base is genuinely compromised during weight transitions. Between the passer's completion attempts, use micro-adjustments to improve your defensive position rather than resting completely, as the passer will use your passivity to reset their attack. Breathe deliberately throughout and avoid the instinct to hold your breath under pressure, which accelerates fatigue dramatically."
+        "answer": "Prioritize frame maintenance over explosive escape attempts, as frames are energy-efficient and buy time. Save explosive movements for moments when the passer's base is genuinely compromised during weight transitions. Between the passer's completion attempts, use micro-adjustments to improve your defensive position rather than resting completely, as the passer will use your passivity to reset their attack. Breathe deliberately throughout and avoid the instinct to hold your breath under pressure, which accelerates fatigue dramatically.",
+        "answer_line": "Prioritize frames, save bursts",
+        "distractors": {
+          "plausible": [
+            "Explode on every single attempt",
+            "Rest fully between his attacks"
+          ],
+          "trap": [
+            "Hold breath, brace hard"
+          ]
+        }
       }
     ],
     "training_progressions": [

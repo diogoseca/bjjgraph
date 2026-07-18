@@ -250,53 +250,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the inversion from reverse half guard?",
-        "answer": "The optimal timing window opens when the top player commits their weight forward or shifts laterally. This weight commitment temporarily reduces their ability to follow your rotation. Watch for their hips driving toward your head or their weight shifting to one side as they attempt to advance. Initiating during a neutral weight distribution is significantly lower percentage because the opponent can easily circle with your movement."
+        "answer": "The optimal timing window opens when the top player commits their weight forward or shifts laterally. This weight commitment temporarily reduces their ability to follow your rotation. Watch for their hips driving toward your head or their weight shifting to one side as they attempt to advance. Initiating during a neutral weight distribution is significantly lower percentage because the opponent can easily circle with your movement.",
+        "answer_line": "Weight shifts forward or lateral",
+        "distractors": {
+          "plausible": [
+            "The instant guard passes start",
+            "When their hips get light"
+          ],
+          "trap": [
+            "During neutral weight distribution"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains heavy crossface pressure—should you still attempt the inversion?",
         "answer": "No — heavy crossface pressure pins your shoulders to the mat and eliminates the space needed to initiate the shoulder roll. Address the crossface first by framing against their shoulder or bicep to create space. If you cannot clear the crossface, switch to a different escape strategy such as turning to face the opponent through elbow escape mechanics or working toward an underhook recovery. Forcing the inversion against a strong crossface results in a stalled rotation with maximum back exposure.",
         "distractors": {
           "plausible": [
-            "No — you must first win the underhook battle, since the underhook is what creates the space to start the shoulder roll.",
-            "Yes, if you roll toward the crossface side, because their own shoulder pressure helps feed your rotation under them."
+            "Yes, rotate through the pressure",
+            "Only if hips are already light"
           ],
           "trap": [
-            "Yes — explode into the inversion immediately, because rotation speed beats crossface pressure before they can settle their weight."
+            "Force the rotation anyway"
+          ]
+        },
+        "answer_line": "No — clear the crossface first"
+      },
+      {
+        "question": "What is the most critical mechanical detail during the rotation phase of the inversion?",
+        "answer": "Keeping the chin tucked firmly to the chest throughout the entire rotation. An untucked chin creates two problems: it exposes the neck to chokes during the inverted phase, and it changes the rotation axis from a tight shoulder roll to a loose neck roll that is slower and less controlled. The tucked chin creates a smooth rotational path through the upper back and protects the cervical spine from compression forces.",
+        "answer_line": "Tuck chin to chest throughout",
+        "distractors": {
+          "plausible": [
+            "Keep chin tucked only at start",
+            "Turn head away from pressure"
+          ],
+          "trap": [
+            "Let chin lift for visibility"
           ]
         }
       },
       {
-        "question": "What is the most critical mechanical detail during the rotation phase of the inversion?",
-        "answer": "Keeping the chin tucked firmly to the chest throughout the entire rotation. An untucked chin creates two problems: it exposes the neck to chokes during the inverted phase, and it changes the rotation axis from a tight shoulder roll to a loose neck roll that is slower and less controlled. The tucked chin creates a smooth rotational path through the upper back and protects the cervical spine from compression forces."
-      },
-      {
         "question": "You initiate the inversion but feel the opponent starting to circle toward your back—what do you do?",
-        "answer": "Accelerate through the rotation rather than stopping or reversing. A half-completed inversion with a circling opponent is the worst possible outcome. By committing fully and completing the rotation faster than they can circle, you can still reach open guard. Extend your legs immediately upon completing the roll to create distance and prevent hook insertion. Stopping midway leaves you inverted with your back fully exposed."
+        "answer": "Accelerate through the rotation rather than stopping or reversing. A half-completed inversion with a circling opponent is the worst possible outcome. By committing fully and completing the rotation faster than they can circle, you can still reach open guard. Extend your legs immediately upon completing the roll to create distance and prevent hook insertion. Stopping midway leaves you inverted with your back fully exposed.",
+        "answer_line": "Accelerate and complete the roll",
+        "distractors": {
+          "plausible": [
+            "Pause and reassess position",
+            "Reverse back to start position"
+          ],
+          "trap": [
+            "Stop rotation, wall off circling"
+          ]
+        }
       },
       {
         "question": "What frame must you establish before initiating the inversion?",
-        "answer": "A frame on the opponent's hip or thigh with your near-side arm is essential. This frame creates the initial space needed to begin the shoulder rotation and prevents the opponent from driving their chest directly onto your shoulders. Without this frame, the opponent's weight pins you flat and the rotation cannot begin. The frame also provides tactile feedback about the opponent's weight distribution, helping you identify the optimal timing window."
+        "answer": "A frame on the opponent's hip or thigh with your near-side arm is essential. This frame creates the initial space needed to begin the shoulder rotation and prevents the opponent from driving their chest directly onto your shoulders. Without this frame, the opponent's weight pins you flat and the rotation cannot begin. The frame also provides tactile feedback about the opponent's weight distribution, helping you identify the optimal timing window.",
+        "answer_line": "Frame on hip/thigh, near arm",
+        "distractors": {
+          "plausible": [
+            "Underhook on far side first",
+            "Grip their far collar tight"
+          ],
+          "trap": [
+            "No frame, drive hips first"
+          ]
+        }
       },
       {
         "question": "Why must you release the half guard hook during the inversion rather than maintaining it throughout?",
-        "answer": "The half guard hook serves as the initial rotation anchor but becomes a brake once the rotation begins. Maintaining the hook during the roll prevents your lower body from completing the rotation, leaving you stuck in the inverted position with maximum back exposure. The hook can also create dangerous twisting forces on your own knee during the rotation. Release it as you initiate the shoulder roll so your legs can follow your upper body through the complete rotation."
+        "answer": "The half guard hook serves as the initial rotation anchor but becomes a brake once the rotation begins. Maintaining the hook during the roll prevents your lower body from completing the rotation, leaving you stuck in the inverted position with maximum back exposure. The hook can also create dangerous twisting forces on your own knee during the rotation. Release it as you initiate the shoulder roll so your legs can follow your upper body through the complete rotation.",
+        "answer_line": "Release hook as roll begins",
+        "distractors": {
+          "plausible": [
+            "Keep hook locked whole rotation",
+            "Switch hook to opposite leg"
+          ],
+          "trap": [
+            "Hold hook tight through roll"
+          ]
+        }
       },
       {
         "question": "After completing the inversion, your opponent rushes forward before you establish guard—how do you respond?",
-        "answer": "Immediately extend both legs toward the opponent with your feet targeting their hips, even if you cannot establish upper body grips yet. Foot-on-hip frames are the fastest defensive structure to deploy and create enough distance to prevent the opponent from achieving chest-to-chest pressure. From there, use one foot to maintain the distance frame while the other establishes a hook or secondary frame. Only reach for upper body grips once your legs are actively managing the distance."
+        "answer": "Immediately extend both legs toward the opponent with your feet targeting their hips, even if you cannot establish upper body grips yet. Foot-on-hip frames are the fastest defensive structure to deploy and create enough distance to prevent the opponent from achieving chest-to-chest pressure. From there, use one foot to maintain the distance frame while the other establishes a hook or secondary frame. Only reach for upper body grips once your legs are actively managing the distance.",
+        "answer_line": "Extend legs, feet to hips",
+        "distractors": {
+          "plausible": [
+            "Reach for upper body grips first",
+            "Turtle up to block pressure"
+          ],
+          "trap": [
+            "Stay flat, wait for opponent"
+          ]
+        }
       },
       {
         "question": "What conditions make the inversion a higher percentage option than other reverse half guard escapes?",
         "answer": "The inversion becomes higher percentage when the opponent has blocked your ability to turn and face them, closing off the simpler escapes. This means a strong crossface preventing face-the-opponent escapes, or positioning that makes underhook recovery impossible. If the opponent's pressure is forward and lateral rather than straight down, the inversion exploits their committed weight angle. The technique is best suited to practitioners with good hip mobility and inversion experience, because committed rotation speed is difficult for even aware opponents to follow.",
         "distractors": {
           "plausible": [
-            "It becomes higher percentage once you have won the underhook, because the underhook frees your hips to rotate underneath.",
-            "It works best when the opponent's weight is driving straight down on your hips, pinning you flat and loading their base."
+            "Whenever opponent is bigger",
+            "When you're already flattened out"
           ],
           "trap": [
-            "It is the highest percentage default from reverse half guard, so invert slowly and feel for openings as you rotate."
+            "Use it as the default first option"
           ]
-        }
+        },
+        "answer_line": "When simpler escapes are blocked"
       }
     ],
     "safety_considerations": "The inversion places significant load on the cervical spine and neck during the rotational phase. Always tuck the chin firmly to the chest before initiating the roll to distribute forces through the upper back and shoulders rather than the neck. Practitioners with cervical spine issues, herniated discs, or neck injuries should avoid this technique or modify it with medical guidance. During training, partners should avoid driving weight onto an inverting player's head or neck. Progress gradually from solo drills to partner drilling before adding resistance, ensuring proper rotational mechanics are established before loading the movement.",
@@ -405,19 +467,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an inversion attempt is being set up from reverse half guard bottom?",
-        "answer": "The earliest cue is the bottom player establishing a frame on your hip or thigh with their near arm while beginning to shift weight onto their near shoulder. This posting frame creates the space needed to initiate the rotation. Recognizing this action before any hip rotation begins gives you the maximum time to shut down the attempt through crossface pressure, arm control, or increased forward pressure on their shoulders."
+        "answer": "The earliest cue is the bottom player establishing a frame on your hip or thigh with their near arm while beginning to shift weight onto their near shoulder. This posting frame creates the space needed to initiate the rotation. Recognizing this action before any hip rotation begins gives you the maximum time to shut down the attempt through crossface pressure, arm control, or increased forward pressure on their shoulders.",
+        "answer_line": "Near-arm frame plus shoulder shift",
+        "distractors": {
+          "plausible": [
+            "Any hip movement at all",
+            "Bottom player gripping your sleeve"
+          ],
+          "trap": [
+            "Ignore until rotation begins"
+          ]
+        }
       },
       {
         "question": "Your opponent has already initiated the granby roll—what is your highest-percentage counter at this point?",
-        "answer": "Once the rotation is in progress, fighting against it is mechanically disadvantaged. Your best option is to follow the rotation by circling toward their exposed back. As they pass through the inverted position, work to insert hooks and establish seat belt control. The inverted phase is their point of maximum vulnerability. Committing to the back take during this window is significantly higher percentage than trying to stop a rotation that already has momentum."
+        "answer": "Once the rotation is in progress, fighting against it is mechanically disadvantaged. Your best option is to follow the rotation by circling toward their exposed back. As they pass through the inverted position, work to insert hooks and establish seat belt control. The inverted phase is their point of maximum vulnerability. Committing to the back take during this window is significantly higher percentage than trying to stop a rotation that already has momentum.",
+        "answer_line": "Follow rotation, take the back",
+        "distractors": {
+          "plausible": [
+            "Sprawl to stop the momentum",
+            "Chase legs for a leglock"
+          ],
+          "trap": [
+            "Fight the rotation, hold position"
+          ]
+        }
       },
       {
         "question": "What pressure angle most effectively prevents the inversion from reverse half guard top?",
-        "answer": "Drive your chest pressure diagonally toward their far shoulder while keeping your hips low and heavy on their body. This angle pins both shoulders to the mat and eliminates the near-shoulder pivot point needed for the granby roll. Pure forward pressure toward their head is less effective because it can actually be redirected into rotation momentum. The diagonal pressure toward the far shoulder specifically attacks the rotational axis that the inversion requires."
+        "answer": "Drive your chest pressure diagonally toward their far shoulder while keeping your hips low and heavy on their body. This angle pins both shoulders to the mat and eliminates the near-shoulder pivot point needed for the granby roll. Pure forward pressure toward their head is less effective because it can actually be redirected into rotation momentum. The diagonal pressure toward the far shoulder specifically attacks the rotational axis that the inversion requires.",
+        "answer_line": "Chest pressure toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Drive straight forward at head",
+            "Push down toward their hips"
+          ],
+          "trap": [
+            "Pressure toward near shoulder"
+          ]
+        }
       },
       {
         "question": "How should you adjust if the bottom player alternates between inversion attempts and face-the-opponent escape attempts?",
-        "answer": "Maintain balanced pressure that prevents both options by keeping your chest low on their body and controlling the near arm. If you overcommit to preventing the inversion by driving pressure toward the far shoulder, you may open the path for them to turn toward you. If you overcommit to preventing the face turn by driving pressure toward the near shoulder, you open the rotation angle. Stay centered with heavy hips and address each specific escape as the bottom player commits to it rather than anticipating."
+        "answer": "Maintain balanced pressure that prevents both options by keeping your chest low on their body and controlling the near arm. If you overcommit to preventing the inversion by driving pressure toward the far shoulder, you may open the path for them to turn toward you. If you overcommit to preventing the face turn by driving pressure toward the near shoulder, you open the rotation angle. Stay centered with heavy hips and address each specific escape as the bottom player commits to it rather than anticipating.",
+        "answer_line": "Balanced pressure, control near arm",
+        "distractors": {
+          "plausible": [
+            "Commit fully to blocking inversion",
+            "Commit fully to blocking face-turn"
+          ],
+          "trap": [
+            "Anticipate their next move early"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -242,35 +242,115 @@
     "flashcards": [
       {
         "question": "What is the first physical indication that your opponent is committing to an inversion escape from Outside Ashi-Garami?",
-        "answer": "The first indication is a shift in their hip orientation where they begin turning their hips away from you rather than fighting to square up or extract directly. You will feel their trapped leg rotating internally as their far hip drops toward the mat. Their free hand often reaches behind them to post for the inversion, and their upper body begins turning away from your control. Recognizing this commitment early gives you the critical head start needed to initiate your follow sequence before they build momentum."
+        "answer": "The first indication is a shift in their hip orientation where they begin turning their hips away from you rather than fighting to square up or extract directly. You will feel their trapped leg rotating internally as their far hip drops toward the mat. Their free hand often reaches behind them to post for the inversion, and their upper body begins turning away from your control. Recognizing this commitment early gives you the critical head start needed to initiate your follow sequence before they build momentum.",
+        "answer_line": "Hips turn away, leg rotates in",
+        "distractors": {
+          "plausible": [
+            "Frantic scrambling to escape",
+            "Squaring hips to face you"
+          ],
+          "trap": [
+            "Tapping the mat repeatedly"
+          ]
+        }
       },
       {
         "question": "Why is following the rotation more effective than fighting it when your opponent inverts from Outside Ashi-Garami?",
-        "answer": "Fighting the rotation pits your leg squeeze against their entire body's rotational momentum, which is an energy-losing battle that rarely succeeds against committed inversion. Following the rotation allows you to use their energy to fuel your transition, maintaining control with minimal expenditure while arriving in Ushiro Ashi-Garami where you retain offensive submission options. The mechanical advantage shifts dramatically in your favor when you work with the movement rather than against it."
+        "answer": "Fighting the rotation pits your leg squeeze against their entire body's rotational momentum, which is an energy-losing battle that rarely succeeds against committed inversion. Following the rotation allows you to use their energy to fuel your transition, maintaining control with minimal expenditure while arriving in Ushiro Ashi-Garami where you retain offensive submission options. The mechanical advantage shifts dramatically in your favor when you work with the movement rather than against it.",
+        "answer_line": "Uses their momentum, saves energy",
+        "distractors": {
+          "plausible": [
+            "Fighting wins if you're stronger",
+            "Both use equal energy"
+          ],
+          "trap": [
+            "Fight the rotation head-on"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting but your outside leg has slipped above their knee line - what adjustment is needed?",
-        "answer": "If your outside leg has ridden up above their knee, you have lost the critical crossing point needed for effective figure-four control. During the follow, actively pull your outside leg back down to cross over their knee line rather than their upper thigh. Use the rotation itself as an opportunity to reposition by momentarily lightening the outside leg and threading it to the correct crossing position as the angle changes. Failing to correct this results in a loose triangle that cannot maintain effective Ushiro control."
+        "answer": "If your outside leg has ridden up above their knee, you have lost the critical crossing point needed for effective figure-four control. During the follow, actively pull your outside leg back down to cross over their knee line rather than their upper thigh. Use the rotation itself as an opportunity to reposition by momentarily lightening the outside leg and threading it to the correct crossing position as the angle changes. Failing to correct this results in a loose triangle that cannot maintain effective Ushiro control.",
+        "answer_line": "Pull outside leg back to knee line",
+        "distractors": {
+          "plausible": [
+            "Push outside leg higher up",
+            "Switch to overhook grip"
+          ],
+          "trap": [
+            "Release the leg, re-shoot later"
+          ]
+        }
       },
       {
         "question": "What is the most critical leg connection to maintain during the transition and why?",
-        "answer": "The inside leg hook under the opponent's thigh is the most critical connection to maintain throughout the transition. This leg serves as the primary anchor that keeps you connected to your opponent through all phases of the rotation. Even if the outside leg briefly loosens during the angle change, the inside leg hook prevents complete extraction and provides the foundation for re-establishing the full Ushiro Ashi-Garami configuration. Losing the inside leg anchor typically means complete loss of the entanglement."
+        "answer": "The inside leg hook under the opponent's thigh is the most critical connection to maintain throughout the transition. This leg serves as the primary anchor that keeps you connected to your opponent through all phases of the rotation. Even if the outside leg briefly loosens during the angle change, the inside leg hook prevents complete extraction and provides the foundation for re-establishing the full Ushiro Ashi-Garami configuration. Losing the inside leg anchor typically means complete loss of the entanglement.",
+        "answer_line": "Inside leg hook under the thigh",
+        "distractors": {
+          "plausible": [
+            "Outside leg over the knee",
+            "Both legs equally critical"
+          ],
+          "trap": [
+            "Release inside leg to re-angle"
+          ]
+        }
       },
       {
         "question": "Your opponent accelerates their inversion and you feel the figure-four loosening - what immediate action do you take?",
-        "answer": "Immediately squeeze your legs together and pull your inside foot toward your hip to re-tighten the figure-four before continuing the follow. Do not continue the transition with a loose triangle as this guarantees leg extraction. If re-tightening is not possible due to their speed, consider switching to a back take by following their rotation to turtle and establishing hooks rather than forcing a degraded Ushiro Ashi-Garami position with insufficient control."
+        "answer": "Immediately squeeze your legs together and pull your inside foot toward your hip to re-tighten the figure-four before continuing the follow. Do not continue the transition with a loose triangle as this guarantees leg extraction. If re-tightening is not possible due to their speed, consider switching to a back take by following their rotation to turtle and establishing hooks rather than forcing a degraded Ushiro Ashi-Garami position with insufficient control.",
+        "answer_line": "Squeeze legs, pull foot to hip",
+        "distractors": {
+          "plausible": [
+            "Push through to finish fast",
+            "Release and reset from scratch"
+          ],
+          "trap": [
+            "Let it loosen, chase the foot"
+          ]
+        }
       },
       {
         "question": "How should grip positioning change between Outside Ashi-Garami and Ushiro Ashi-Garami?",
-        "answer": "In Outside Ashi-Garami, grips typically involve one hand on the heel or Achilles area and one hand on the knee or thigh to prevent hip rotation and escape. In Ushiro Ashi-Garami, the reversed angle requires adjusting the heel grip to approach from a different direction, often closer to your own hip line. The knee control grip may shift to controlling the opponent's inside leg to prevent saddle transition or further rotation. These grip changes must happen progressively during the transition, never simultaneously."
+        "answer": "In Outside Ashi-Garami, grips typically involve one hand on the heel or Achilles area and one hand on the knee or thigh to prevent hip rotation and escape. In Ushiro Ashi-Garami, the reversed angle requires adjusting the heel grip to approach from a different direction, often closer to your own hip line. The knee control grip may shift to controlling the opponent's inside leg to prevent saddle transition or further rotation. These grip changes must happen progressively during the transition, never simultaneously.",
+        "answer_line": "Shift grips one at a time",
+        "distractors": {
+          "plausible": [
+            "Swap both grips simultaneously",
+            "Keep identical grips throughout"
+          ],
+          "trap": [
+            "Release both grips mid-rotation"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Ushiro transition and pursue a back take instead?",
-        "answer": "Pursue the back take when the opponent's rotation momentum is too strong to convert into stable Ushiro control, when they have progressed past the Ushiro angle toward full turtle position, or when your leg triangle has degraded beyond recovery during the follow. The key indicator is whether your inside leg can still maintain meaningful control on their thigh. If their leg has cleared your inside hook, the back take through following to turtle becomes the higher-percentage option."
+        "answer": "Pursue the back take when the opponent's rotation momentum is too strong to convert into stable Ushiro control, when they have progressed past the Ushiro angle toward full turtle position, or when your leg triangle has degraded beyond recovery during the follow. The key indicator is whether your inside leg can still maintain meaningful control on their thigh. If their leg has cleared your inside hook, the back take through following to turtle becomes the higher-percentage option.",
+        "answer_line": "When inside leg control is lost",
+        "distractors": {
+          "plausible": [
+            "As soon as they start inverting",
+            "Only after they fully stand"
+          ],
+          "trap": [
+            "Force Ushiro despite lost hook"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat during inversion - how does this affect your approach?",
-        "answer": "A posted hand indicates they are creating a stable base for controlled inversion rather than a panicked scramble, giving them more control over rotation speed and direction. Counter by increasing the speed of your hip follow to stay ahead of their controlled rotation, and consider targeting that posted arm with your free hand to remove their stabilization point. Without the posted hand their rotation becomes less controlled, creating more opportunities for you to dictate the final position angle in Ushiro."
+        "answer": "A posted hand indicates they are creating a stable base for controlled inversion rather than a panicked scramble, giving them more control over rotation speed and direction. Counter by increasing the speed of your hip follow to stay ahead of their controlled rotation, and consider targeting that posted arm with your free hand to remove their stabilization point. Without the posted hand their rotation becomes less controlled, creating more opportunities for you to dictate the final position angle in Ushiro.",
+        "answer_line": "Speed up follow, attack the post",
+        "distractors": {
+          "plausible": [
+            "Slow down to match their pace",
+            "Ignore the hand, grip legs only"
+          ],
+          "trap": [
+            "Wait for them to finish posting"
+          ]
+        }
       }
     ],
     "safety_considerations": "Leg entanglement transitions carry significant injury risk to knees and ankles due to changing rotational angles during movement. Both practitioners must communicate clearly during rotation sequences as the shifting angles can create unexpected submission pressure on the knee joint. Apply all movements smoothly and progressively, never explosively. Tap immediately if you feel any rotational pressure on the knee during training. Partners should release all heel grips before resetting positions. Begin drilling at very slow speeds and increase only when both practitioners are comfortable with the mechanics and can identify dangerous angles.",
@@ -371,23 +451,73 @@
     "flashcards": [
       {
         "question": "You begin inverting from Outside Ashi-Garami and feel the attacker's hips following your rotation - what does this indicate and how should you respond?",
-        "answer": "This indicates the attacker is executing the Outside to Ushiro Ashi transition rather than allowing your escape. Their hip follow means they intend to maintain leg entanglement through your inversion. You must immediately decide whether to accelerate your rotation to reach turtle before they consolidate, or reverse your escape strategy and establish frames to prevent their follow. Continuing at the same speed typically results in the attacker establishing Ushiro Ashi-Garami control."
+        "answer": "This indicates the attacker is executing the Outside to Ushiro Ashi transition rather than allowing your escape. Their hip follow means they intend to maintain leg entanglement through your inversion. You must immediately decide whether to accelerate your rotation to reach turtle before they consolidate, or reverse your escape strategy and establish frames to prevent their follow. Continuing at the same speed typically results in the attacker establishing Ushiro Ashi-Garami control.",
+        "answer_line": "Accelerate to turtle or frame off",
+        "distractors": {
+          "plausible": [
+            "Keep same pace, they'll tire",
+            "Stop moving to reassess"
+          ],
+          "trap": [
+            "Slow down to bait a mistake"
+          ]
+        }
       },
       {
         "question": "What foot position must you maintain throughout the entire inversion sequence and why is it critical?",
-        "answer": "Maintain dorsiflexion with your foot flexed and toes pulled toward your shin throughout the entire rotation sequence. This position protects the heel by pulling it tight against your lower leg, making it extremely difficult for the attacker to establish the grip needed for a heel hook finish. The changing angles during rotation can momentarily expose the heel even with good foot position, but relaxing the foot at any point creates finishing windows that skilled attackers exploit immediately."
+        "answer": "Maintain dorsiflexion with your foot flexed and toes pulled toward your shin throughout the entire rotation sequence. This position protects the heel by pulling it tight against your lower leg, making it extremely difficult for the attacker to establish the grip needed for a heel hook finish. The changing angles during rotation can momentarily expose the heel even with good foot position, but relaxing the foot at any point creates finishing windows that skilled attackers exploit immediately.",
+        "answer_line": "Dorsiflexed, toes to shin",
+        "distractors": {
+          "plausible": [
+            "Pointed toes for extra range",
+            "Relaxed foot to save energy"
+          ],
+          "trap": [
+            "Let foot go loose mid-turn"
+          ]
+        }
       },
       {
         "question": "The attacker's inside leg hook feels deep on your thigh during the transition - what should you prioritize?",
-        "answer": "A deep inside leg hook is the attacker's primary anchor and the foundation of their figure-four control. Prioritize using your hands to peel their inside leg off your thigh before it sets in the Ushiro configuration. Target their shin or ankle with both hands and push it away from your thigh while continuing rotation. If you cannot break this hook, accept that Ushiro Ashi-Garami will likely be established and shift your focus to defensive options from that position rather than forcing a low-percentage extraction."
+        "answer": "A deep inside leg hook is the attacker's primary anchor and the foundation of their figure-four control. Prioritize using your hands to peel their inside leg off your thigh before it sets in the Ushiro configuration. Target their shin or ankle with both hands and push it away from your thigh while continuing rotation. If you cannot break this hook, accept that Ushiro Ashi-Garami will likely be established and shift your focus to defensive options from that position rather than forcing a low-percentage extraction.",
+        "answer_line": "Peel hook off with both hands",
+        "distractors": {
+          "plausible": [
+            "Kick leg free with force",
+            "Wait it out, hook loosens itself"
+          ],
+          "trap": [
+            "Push into the hook to pass"
+          ]
+        }
       },
       {
         "question": "When is accepting turtle position the correct defensive choice rather than continuing to fight the leg entanglement?",
-        "answer": "Accept turtle when the attacker has successfully followed your inversion and established a tight Ushiro configuration, when their inside leg hook is too deep to remove through hand fighting, when you have been defending for several seconds without making escape progress, or when your energy reserves are depleting from sustained defensive effort. Turtle provides a positional reset with back defense rather than continued exposure to heel hook danger in a deteriorating leg entanglement."
+        "answer": "Accept turtle when the attacker has successfully followed your inversion and established a tight Ushiro configuration, when their inside leg hook is too deep to remove through hand fighting, when you have been defending for several seconds without making escape progress, or when your energy reserves are depleting from sustained defensive effort. Turtle provides a positional reset with back defense rather than continued exposure to heel hook danger in a deteriorating leg entanglement.",
+        "answer_line": "Ushiro locked in, hook too deep",
+        "distractors": {
+          "plausible": [
+            "Any time legs feel tired",
+            "Immediately at first contact"
+          ],
+          "trap": [
+            "Never turtle, always keep fighting"
+          ]
+        }
       },
       {
         "question": "How can you tell early enough whether the attacker will successfully follow your inversion or lose the entanglement?",
-        "answer": "Key indicators that the attacker will follow include: their hips immediately rotating in your direction as you begin inverting, their inside leg maintaining constant hook pressure on your thigh throughout your movement, their grips adjusting proactively to the new angle rather than holding static, and no loosening in the figure-four configuration as you rotate. Conversely, if you feel the triangle loosening, their hips staying stationary, or their grips not adjusting, they likely cannot follow effectively and your inversion should succeed in clearing the entanglement."
+        "answer": "Key indicators that the attacker will follow include: their hips immediately rotating in your direction as you begin inverting, their inside leg maintaining constant hook pressure on your thigh throughout your movement, their grips adjusting proactively to the new angle rather than holding static, and no loosening in the figure-four configuration as you rotate. Conversely, if you feel the triangle loosening, their hips staying stationary, or their grips not adjusting, they likely cannot follow effectively and your inversion should succeed in clearing the entanglement.",
+        "answer_line": "Hips follow, hook stays tight",
+        "distractors": {
+          "plausible": [
+            "Their breathing gets heavier",
+            "They start talking or coaching"
+          ],
+          "trap": [
+            "They grip harder on your gi"
+          ]
+        }
       }
     ],
     "training_progressions": [

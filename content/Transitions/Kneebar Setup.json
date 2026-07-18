@@ -233,43 +233,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Kneebar Setup from Outside Ashi-Garami?",
-        "answer": "The primary goal is to transition from the outside ashi leg entanglement into a dominant kneebar control position that hyperextends the opponent's knee joint. This setup capitalizes on forward pressure or leg extension to create a submission opportunity when heel hooks are defended."
+        "answer": "The primary goal is to transition from the outside ashi leg entanglement into a dominant kneebar control position that hyperextends the opponent's knee joint. This setup capitalizes on forward pressure or leg extension to create a submission opportunity when heel hooks are defended.",
+        "answer_line": "Set up dominant kneebar control",
+        "distractors": {
+          "plausible": [
+            "Force a heel hook finish",
+            "Stack opponent for pass"
+          ],
+          "trap": [
+            "Release ashi for back take"
+          ]
+        }
       },
       {
         "question": "What triggers indicate the optimal timing to attempt the Kneebar Setup?",
-        "answer": "The two primary triggers are: opponent driving forward to stack or smash your outside ashi position (their leg naturally extends under pressure), and opponent straightening their leg to defend a heel hook attempt (removes knee flexion that would prevent kneebar). Both scenarios create the extended leg necessary for hyperextension."
+        "answer": "The two primary triggers are: opponent driving forward to stack or smash your outside ashi position (their leg naturally extends under pressure), and opponent straightening their leg to defend a heel hook attempt (removes knee flexion that would prevent kneebar). Both scenarios create the extended leg necessary for hyperextension.",
+        "answer_line": "Forward stack or leg straightening",
+        "distractors": {
+          "plausible": [
+            "Opponent taps out early",
+            "Opponent flexes knee tightly"
+          ],
+          "trap": [
+            "Opponent passes your guard"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own knee and pulls it toward their chest while you attempt the kneebar—what adjustment should you make?",
-        "answer": "Increase hip elevation and intensify the ankle pull to overcome their grip strength. If their grip remains too strong, pivot to an inside heel hook by rotating your body and attacking the heel that becomes exposed when they flex their knee. Their defensive grip actually creates heel hook opportunity."
+        "answer": "Increase hip elevation and intensify the ankle pull to overcome their grip strength. If their grip remains too strong, pivot to an inside heel hook by rotating your body and attacking the heel that becomes exposed when they flex their knee. Their defensive grip actually creates heel hook opportunity.",
+        "answer_line": "Raise hips, pull ankle harder",
+        "distractors": {
+          "plausible": [
+            "Pull harder using arm strength",
+            "Reset by switching to other side"
+          ],
+          "trap": [
+            "Let go and reset position"
+          ]
+        }
       },
       {
         "question": "Why is controlling the foot position with toes pointing toward the ceiling critical for the kneebar finish?",
-        "answer": "Toe position determines knee joint alignment. When toes point toward the ceiling, the knee is aligned for clean hyperextension with pressure applied directly against the joint's natural range of motion. If toes rotate outward, the knee rotates with them, dissipating pressure across the joint rather than creating focused hyperextension."
+        "answer": "Toe position determines knee joint alignment. When toes point toward the ceiling, the knee is aligned for clean hyperextension with pressure applied directly against the joint's natural range of motion. If toes rotate outward, the knee rotates with them, dissipating pressure across the joint rather than creating focused hyperextension.",
+        "answer_line": "Aligns knee for clean extension",
+        "distractors": {
+          "plausible": [
+            "Toes point outward for leverage",
+            "Toes point down toward mat"
+          ],
+          "trap": [
+            "Rotate foot to twist ankle"
+          ]
+        }
       },
       {
         "question": "How does hip elevation generate finishing force rather than arm strength?",
-        "answer": "Your hips drive forward and upward into the back of the opponent's knee, creating the hyperextension force through your body's largest muscle groups. Arms only maintain ankle position—they don't pull to create pressure. This is mechanically superior because hip drive is sustainable and powerful, while arm strength fatigues quickly."
+        "answer": "Your hips drive forward and upward into the back of the opponent's knee, creating the hyperextension force through your body's largest muscle groups. Arms only maintain ankle position—they don't pull to create pressure. This is mechanically superior because hip drive is sustainable and powerful, while arm strength fatigues quickly.",
+        "answer_line": "Hips drive up, arms just hold",
+        "distractors": {
+          "plausible": [
+            "Arms pull hardest for finish",
+            "Legs squeeze to create pressure"
+          ],
+          "trap": [
+            "Yank the ankle with both arms"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent bends their knee deeply before you secure the kneebar position?",
-        "answer": "A deeply bent knee cannot be hyperextended. Immediately transition back to heel hook if their heel is exposed, or flow to calf slicer by bringing your leg over their calf and triangling. Never waste energy attempting to straighten a bent knee—use their defense as a trigger for your next attack in the chain."
+        "answer": "A deeply bent knee cannot be hyperextended. Immediately transition back to heel hook if their heel is exposed, or flow to calf slicer by bringing your leg over their calf and triangling. Never waste energy attempting to straighten a bent knee—use their defense as a trigger for your next attack in the chain.",
+        "answer_line": "Flow to heel hook or calf slicer",
+        "distractors": {
+          "plausible": [
+            "Keep forcing the kneebar attempt",
+            "Reset back to neutral position"
+          ],
+          "trap": [
+            "Force the knee straight by hand"
+          ]
+        }
       },
       {
         "question": "Why must you maintain figure-4 leg control throughout the body rotation transition?",
-        "answer": "The figure-4 leg configuration prevents the opponent from extracting their leg during the transition. If you release leg pressure while rotating, opponents immediately pull their leg free and recover position. Your legs should squeeze continuously—the rotation happens within the maintained leg lock, not by releasing and re-engaging."
+        "answer": "The figure-4 leg configuration prevents the opponent from extracting their leg during the transition. If you release leg pressure while rotating, opponents immediately pull their leg free and recover position. Your legs should squeeze continuously—the rotation happens within the maintained leg lock, not by releasing and re-engaging.",
+        "answer_line": "Keep squeezing throughout rotation",
+        "distractors": {
+          "plausible": [
+            "Release then re-grip after turn",
+            "Switch grip before rotating body"
+          ],
+          "trap": [
+            "Let leg slip to reposition faster"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling through your kneebar attempt—should you release or follow?",
-        "answer": "Follow the roll while maintaining ankle and leg control. Rolling often improves your position rather than escaping the submission—you may end up in a mounted or top-position kneebar with superior leverage. Release only if maintaining control would expose you to counter attack or injury."
+        "answer": "Follow the roll while maintaining ankle and leg control. Rolling often improves your position rather than escaping the submission—you may end up in a mounted or top-position kneebar with superior leverage. Release only if maintaining control would expose you to counter attack or injury.",
+        "answer_line": "Follow the roll, keep control",
+        "distractors": {
+          "plausible": [
+            "Release grip to avoid injury",
+            "Stay still and reset base"
+          ],
+          "trap": [
+            "Let go immediately every time"
+          ]
+        }
       },
       {
         "question": "How does the kneebar integrate with heel hook attacks from outside ashi?",
-        "answer": "The kneebar and heel hook form a submission chain where defending one creates opportunity for the other. Opponents defending heel hooks often straighten their leg to hide the heel—this extension sets up the kneebar. Conversely, bending the knee to defend kneebar exposes the heel. Flowing between these attacks makes defense extremely difficult."
+        "answer": "The kneebar and heel hook form a submission chain where defending one creates opportunity for the other. Opponents defending heel hooks often straighten their leg to hide the heel—this extension sets up the kneebar. Conversely, bending the knee to defend kneebar exposes the heel. Flowing between these attacks makes defense extremely difficult.",
+        "answer_line": "Defense of one exposes the other",
+        "distractors": {
+          "plausible": [
+            "Always attack heel hook first",
+            "Kneebar only works after mount"
+          ],
+          "trap": [
+            "Abandon chain, restart guard"
+          ]
+        }
       },
       {
         "question": "What grip transition must occur when switching from heel hook threat to kneebar setup?",
-        "answer": "Your hands must release the heel cup grip used for the heel hook and transition to controlling the ankle and lower leg area. The foot gets secured against your chest or shoulder with both hands wrapping the ankle. This grip change must happen smoothly during the body rotation—any delay allows the opponent to retract their leg before you establish kneebar control."
+        "answer": "Your hands must release the heel cup grip used for the heel hook and transition to controlling the ankle and lower leg area. The foot gets secured against your chest or shoulder with both hands wrapping the ankle. This grip change must happen smoothly during the body rotation—any delay allows the opponent to retract their leg before you establish kneebar control.",
+        "answer_line": "Release heel cup, wrap ankle fast",
+        "distractors": {
+          "plausible": [
+            "Keep heel cup grip throughout",
+            "Switch grip after fully rotating"
+          ],
+          "trap": [
+            "Drop both grips to reset hands"
+          ]
+        }
       }
     ],
     "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause severe ligament damage (ACL, PCL, MCL) if applied too quickly or without proper control. In training, apply pressure gradually and progressively—never explosively. Partners should tap early when they feel the extension begin, not wait for pain. The knee joint provides less warning than shoulder or elbow joints before injury occurs. Avoid this technique if your partner has pre-existing knee injuries. Never attempt to straighten a bent knee by force. When drilling, establish clear communication about pressure levels. In competition, be prepared for opponents who do not tap—release rather than cause permanent injury. This technique should only be trained in environments where leg locks are permitted and partners understand the risks involved.",
@@ -392,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar setup?",
-        "answer": "The earliest cue is the attacker releasing their heel hook grip and beginning to shift both hands toward your ankle and lower leg. This grip transition happens before the body rotation and signals that they are abandoning the rotational attack in favor of an extension attack. Recognizing this grip change gives you the maximum defensive window to intervene."
+        "answer": "The earliest cue is the attacker releasing their heel hook grip and beginning to shift both hands toward your ankle and lower leg. This grip transition happens before the body rotation and signals that they are abandoning the rotational attack in favor of an extension attack. Recognizing this grip change gives you the maximum defensive window to intervene.",
+        "answer_line": "Attacker releases heel cup grip",
+        "distractors": {
+          "plausible": [
+            "Attacker's hips begin to rise",
+            "Attacker rotates body fully"
+          ],
+          "trap": [
+            "Attacker taps own knee lightly"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a bent knee the primary defensive principle against kneebar setup?",
-        "answer": "A bent knee cannot be hyperextended because the joint is already in flexion, which is the opposite direction of the kneebar's finishing mechanic. The kneebar requires the knee to be relatively straight so that hip pressure against the back of the joint creates extension beyond its natural range. Maintaining flexion removes the mechanical possibility of the submission entirely."
+        "answer": "A bent knee cannot be hyperextended because the joint is already in flexion, which is the opposite direction of the kneebar's finishing mechanic. The kneebar requires the knee to be relatively straight so that hip pressure against the back of the joint creates extension beyond its natural range. Maintaining flexion removes the mechanical possibility of the submission entirely.",
+        "answer_line": "Flexion blocks the hyperextension",
+        "distractors": {
+          "plausible": [
+            "Straightening the leg helps escape",
+            "Rotating the foot stops pressure"
+          ],
+          "trap": [
+            "Kick the leg straight to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured your ankle against their chest and is beginning to elevate their hips—what should your immediate defensive priority be?",
-        "answer": "At this late stage, your immediate priority is to rotate your hip and turn your body toward the attacker to relieve extension pressure on the knee. Simultaneously, use your free hand to fight their grip on your ankle and your free leg to push against their hip to create separation. If you cannot break free within seconds, tap rather than risk ligament damage—the knee provides very little warning before injury."
+        "answer": "At this late stage, your immediate priority is to rotate your hip and turn your body toward the attacker to relieve extension pressure on the knee. Simultaneously, use your free hand to fight their grip on your ankle and your free leg to push against their hip to create separation. If you cannot break free within seconds, tap rather than risk ligament damage—the knee provides very little warning before injury.",
+        "answer_line": "Rotate body in, fight the grip",
+        "distractors": {
+          "plausible": [
+            "Push away with both legs hard",
+            "Wait for referee to stop it"
+          ],
+          "trap": [
+            "Refuse to tap, push harder"
+          ]
+        }
       },
       {
         "question": "How does defending the kneebar create vulnerability to heel hook attacks?",
-        "answer": "The primary kneebar defense is bending the knee, which pulls the foot closer to the attacker and rotates the heel into a more accessible position. A skilled attacker reads this bent-knee defense and immediately transitions back to heel hook, catching the now-exposed heel. This creates the fundamental dilemma of the position: you must protect extension and rotation simultaneously."
+        "answer": "The primary kneebar defense is bending the knee, which pulls the foot closer to the attacker and rotates the heel into a more accessible position. A skilled attacker reads this bent-knee defense and immediately transitions back to heel hook, catching the now-exposed heel. This creates the fundamental dilemma of the position: you must protect extension and rotation simultaneously.",
+        "answer_line": "Bent knee exposes the heel",
+        "distractors": {
+          "plausible": [
+            "Straight knee exposes the heel",
+            "Gripping the foot exposes heel"
+          ],
+          "trap": [
+            "Ignore heel, focus knee only"
+          ]
+        }
       },
       {
         "question": "When is stepping over the attacker's body a viable defensive option versus too risky?",
-        "answer": "Stepping over is viable during the attacker's body rotation when their legs are briefly loosening to re-triangle higher on your thigh. The window is narrow—if their legs are already tight in the new triangle position, stepping over risks entangling yourself further or exposing your back. The step-over must be explosive and committed during the transition gap, not attempted against established control."
+        "answer": "Stepping over is viable during the attacker's body rotation when their legs are briefly loosening to re-triangle higher on your thigh. The window is narrow—if their legs are already tight in the new triangle position, stepping over risks entangling yourself further or exposing your back. The step-over must be explosive and committed during the transition gap, not attempted against established control.",
+        "answer_line": "Only during the brief rotation gap",
+        "distractors": {
+          "plausible": [
+            "Anytime legs feel loose enough",
+            "After the triangle is fully set"
+          ],
+          "trap": [
+            "Step over against locked legs"
+          ]
+        }
       }
     ],
     "training_progressions": [

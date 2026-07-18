@@ -268,15 +268,45 @@
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the hook extraction succeeds or fails?",
-        "answer": "The ankle control grip on the hooking foot is the decisive mechanical detail. Without actively controlling and guiding the opponent's hooking foot during the hip escape, the hook will simply travel with your body during the shrimp, maintaining the same relative position and rendering the escape ineffective. The near-side hand must cup the opponent's heel and push it toward your far hip before and during the hip escape, creating a divergent force between your hips moving laterally and their foot being directed in the opposite direction."
+        "answer": "The ankle control grip on the hooking foot is the decisive mechanical detail. Without actively controlling and guiding the opponent's hooking foot during the hip escape, the hook will simply travel with your body during the shrimp, maintaining the same relative position and rendering the escape ineffective. The near-side hand must cup the opponent's heel and push it toward your far hip before and during the hip escape, creating a divergent force between your hips moving laterally and their foot being directed in the opposite direction.",
+        "answer_line": "Cup and steer the hooking ankle",
+        "distractors": {
+          "plausible": [
+            "Strong frame on the far hip",
+            "Explosive shrimp speed alone"
+          ],
+          "trap": [
+            "Ignore the foot, just shrimp hard"
+          ]
+        }
       },
       {
         "question": "You feel the opponent threading their second hook during your hip escape attempt - what is your immediate response?",
-        "answer": "Immediately reverse your hip direction and squeeze your knees together to create a physical barrier against the second hook insertion. Prioritize blocking the truck entry over completing the escape to half guard, because truck position is significantly worse than Russian Cowboy. If you can prevent the second hook, return to your frames and reset the escape attempt. If the truck is fully established, abandon the hip escape protocol entirely and switch to truck-specific defensive techniques such as the truck escape sequence."
+        "answer": "Immediately reverse your hip direction and squeeze your knees together to create a physical barrier against the second hook insertion. Prioritize blocking the truck entry over completing the escape to half guard, because truck position is significantly worse than Russian Cowboy. If you can prevent the second hook, return to your frames and reset the escape attempt. If the truck is fully established, abandon the hip escape protocol entirely and switch to truck-specific defensive techniques such as the truck escape sequence.",
+        "answer_line": "Reverse hips, squeeze knees shut",
+        "distractors": {
+          "plausible": [
+            "Push through to finish escape",
+            "Grab their far ankle instead"
+          ],
+          "trap": [
+            "Keep shrimping toward the hook"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the hooking leg provides the best mechanical advantage for extraction?",
-        "answer": "Cup the heel of the hooking foot with your near-side hand, fingers wrapping around the Achilles tendon area. This grip provides a secure hold that allows you to push the foot toward your far hip while maintaining control even against resistance. Gripping the ankle or shin provides less control because the cylindrical shape allows the foot to rotate and escape your grip. The heel cup creates a mechanical pocket that prevents the foot from slipping free during the explosive hip escape movement."
+        "answer": "Cup the heel of the hooking foot with your near-side hand, fingers wrapping around the Achilles tendon area. This grip provides a secure hold that allows you to push the foot toward your far hip while maintaining control even against resistance. Gripping the ankle or shin provides less control because the cylindrical shape allows the foot to rotate and escape your grip. The heel cup creates a mechanical pocket that prevents the foot from slipping free during the explosive hip escape movement.",
+        "answer_line": "Heel cup near hand around Achilles",
+        "distractors": {
+          "plausible": [
+            "Grip the shin with both hands",
+            "Wrist grip on the ankle bone"
+          ],
+          "trap": [
+            "Grab the toes and yank back"
+          ]
+        }
       },
       {
         "question": "After successfully clearing the hook, what must happen immediately to prevent the opponent from re-establishing control?",
@@ -393,7 +423,17 @@
     "flashcards": [
       {
         "question": "What are the earliest warning signs that the bottom player is preparing a hip escape from Russian Cowboy?",
-        "answer": "The earliest signs are the bottom player establishing a frame against your hip with their near-side forearm, their near-side hand moving from neck defense toward your hooking ankle, and their hips beginning to angle toward your free leg side. The frame establishment is typically the first preparatory action because it creates the space needed for all subsequent escape steps. Recognizing and addressing this initial frame before it becomes load-bearing is the most efficient way to shut down the entire escape sequence."
+        "answer": "The earliest signs are the bottom player establishing a frame against your hip with their near-side forearm, their near-side hand moving from neck defense toward your hooking ankle, and their hips beginning to angle toward your free leg side. The frame establishment is typically the first preparatory action because it creates the space needed for all subsequent escape steps. Recognizing and addressing this initial frame before it becomes load-bearing is the most efficient way to shut down the entire escape sequence.",
+        "answer_line": "Forearm frame forming on your hip",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip movement",
+            "Hand grabbing your far collar"
+          ],
+          "trap": [
+            "Wait until hips fully turn away"
+          ]
+        }
       },
       {
         "question": "Why is following the hip escape with your own hip movement more effective than anchoring in place?",

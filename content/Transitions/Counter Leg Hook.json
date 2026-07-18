@@ -262,35 +262,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Counter Leg Hook?",
-        "answer": "The optimal window occurs when the top player commits their weight forward to advance the pass or shifts laterally to consolidate the hook. During these transitional moments, their base is temporarily compromised and they cannot quickly adjust to your counter-movement. Initiating the counter while the top player is settled and balanced dramatically reduces success probability."
+        "answer": "The optimal window occurs when the top player commits their weight forward to advance the pass or shifts laterally to consolidate the hook. During these transitional moments, their base is temporarily compromised and they cannot quickly adjust to your counter-movement. Initiating the counter while the top player is settled and balanced dramatically reduces success probability.",
+        "answer_line": "When they commit weight or shift",
+        "distractors": {
+          "plausible": [
+            "Immediately as hook is set",
+            "Once they settle and balance"
+          ],
+          "trap": [
+            "Wait until fully flattened"
+          ]
+        }
       },
       {
         "question": "Why must the hook be stripped or loosened before turning to turtle?",
-        "answer": "If you turn to turtle with the hook still engaged, the top player maintains leg control that directly feeds into back control establishment. The engaged hook acts as a built-in first hook for back takes, meaning you arrive in turtle already halfway to conceding back control. Stripping the hook first ensures you reach turtle in a neutral defensive position rather than an already compromised one."
+        "answer": "If you turn to turtle with the hook still engaged, the top player maintains leg control that directly feeds into back control establishment. The engaged hook acts as a built-in first hook for back takes, meaning you arrive in turtle already halfway to conceding back control. Stripping the hook first ensures you reach turtle in a neutral defensive position rather than an already compromised one.",
+        "answer_line": "Hook feeds their back take",
+        "distractors": {
+          "plausible": [
+            "Turtle is safer regardless",
+            "Saves energy for scramble"
+          ],
+          "trap": [
+            "Turn to turtle immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls heavy when you attempt to turn to turtle - how do you adjust?",
-        "answer": "Use the sprawl pressure as an opportunity to redirect to guard recovery instead. Their sprawl creates downward pressure but reduces their lateral mobility. Scoot your hips away from their pressure while they are sprawled heavy and re-insert a knee shield or butterfly hook. The sprawl actually helps create the separation needed for guard re-insertion if you redirect your movement accordingly."
+        "answer": "Use the sprawl pressure as an opportunity to redirect to guard recovery instead. Their sprawl creates downward pressure but reduces their lateral mobility. Scoot your hips away from their pressure while they are sprawled heavy and re-insert a knee shield or butterfly hook. The sprawl actually helps create the separation needed for guard re-insertion if you redirect your movement accordingly.",
+        "answer_line": "Scoot hips, insert knee shield",
+        "distractors": {
+          "plausible": [
+            "Power through to turtle",
+            "Push into their chest"
+          ],
+          "trap": [
+            "Stay still and wait it out"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that makes the hip escape effective during this counter?",
-        "answer": "The hip escape must be directed perpendicular to the top player's pressure line, not directly away from them. Moving perpendicular exploits the fact that their weight is committed in a specific direction, making lateral redirection difficult for them to follow. The bottom foot drives the escape while the frame against their upper body prevents them from collapsing the space you create."
+        "answer": "The hip escape must be directed perpendicular to the top player's pressure line, not directly away from them. Moving perpendicular exploits the fact that their weight is committed in a specific direction, making lateral redirection difficult for them to follow. The bottom foot drives the escape while the frame against their upper body prevents them from collapsing the space you create.",
+        "answer_line": "Escape perpendicular to pressure",
+        "distractors": {
+          "plausible": [
+            "Escape straight away from them",
+            "Escape toward their back"
+          ],
+          "trap": [
+            "Push straight into their chest"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you fight to strip before initiating the counter?",
-        "answer": "Prioritize stripping the crossface grip first, as it controls your head and upper body orientation, making turning movements extremely difficult. Secondary priority is any grip controlling your near hip, which prevents the hip escape needed for the counter. Use two-on-one grip fighting to strip the priority grip, then immediately initiate the counter before they can re-establish control."
+        "answer": "Prioritize stripping the crossface grip first, as it controls your head and upper body orientation, making turning movements extremely difficult. Secondary priority is any grip controlling your near hip, which prevents the hip escape needed for the counter. Use two-on-one grip fighting to strip the priority grip, then immediately initiate the counter before they can re-establish control.",
+        "answer_line": "Strip the crossface first",
+        "distractors": {
+          "plausible": [
+            "Strip the far-side grip first",
+            "Strip the sleeve grip first"
+          ],
+          "trap": [
+            "Ignore grips, just hip escape"
+          ]
+        }
       },
       {
         "question": "How do you decide between turtling and attempting guard recovery during the counter?",
-        "answer": "The decision depends on available space and the top player's upper body proximity after the hip escape. If you create enough space to get your knee between your bodies, attempt guard recovery with a knee shield or butterfly hook. If the top player stays tight to your upper body despite losing the hook, turtle is the safer option because attempting guard insertion while they maintain chest pressure often results in worse position."
+        "answer": "The decision depends on available space and the top player's upper body proximity after the hip escape. If you create enough space to get your knee between your bodies, attempt guard recovery with a knee shield or butterfly hook. If the top player stays tight to your upper body despite losing the hook, turtle is the safer option because attempting guard insertion while they maintain chest pressure often results in worse position.",
+        "answer_line": "Knee fits between = guard",
+        "distractors": {
+          "plausible": [
+            "Always default to turtle",
+            "Always fight for guard"
+          ],
+          "trap": [
+            "Force knee shield when tight"
+          ]
+        }
       },
       {
         "question": "Your counter attempt fails and the opponent re-establishes the hook - what is the chain attack?",
-        "answer": "Immediately chain into a second counter attempt in the opposite direction, using their forward momentum from re-establishing the hook against them. Alternatively, if the hook is deeper than before, abandon the counter and transition to a deep half guard entry by threading underneath their base. The key is never settling back into a static leg hook bottom position after a failed counter."
+        "answer": "Immediately chain into a second counter attempt in the opposite direction, using their forward momentum from re-establishing the hook against them. Alternatively, if the hook is deeper than before, abandon the counter and transition to a deep half guard entry by threading underneath their base. The key is never settling back into a static leg hook bottom position after a failed counter.",
+        "answer_line": "Chain counter opposite direction",
+        "distractors": {
+          "plausible": [
+            "Repeat same counter direction",
+            "Abandon and stall for restart"
+          ],
+          "trap": [
+            "Settle into leg hook bottom"
+          ]
+        }
       },
       {
         "question": "What role do frames play throughout the entire counter sequence?",
-        "answer": "Frames serve as the structural foundation for every phase of the counter. Before the counter, they prevent flattening and create initial space. During hook stripping, they prevent the top player from following your hip movement. During the turn, they create the separation needed to complete the position change. After reaching turtle or guard, they prevent the top player from immediately re-establishing dominant control. Losing frame contact at any point typically results in counter failure."
+        "answer": "Frames serve as the structural foundation for every phase of the counter. Before the counter, they prevent flattening and create initial space. During hook stripping, they prevent the top player from following your hip movement. During the turn, they create the separation needed to complete the position change. After reaching turtle or guard, they prevent the top player from immediately re-establishing dominant control. Losing frame contact at any point typically results in counter failure.",
+        "answer_line": "Frames prevent flattening throughout",
+        "distractors": {
+          "plausible": [
+            "Frames only matter at the start",
+            "Frames only matter after turtle"
+          ],
+          "trap": [
+            "Release frames to move faster"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Counter Leg Hook is generally a low-risk defensive technique with minimal injury potential. The primary safety concern is neck strain when turning to turtle, particularly if the top player maintains a crossface or headlock during the turn. Ensure the neck is protected by tucking the chin before initiating any turning movement. Avoid explosive bridging movements that could strain the lower back, particularly when the hook restricts hip mobility. In training, communicate with partners about the intensity of hook pressure to avoid knee or ankle strain during the stripping phase.",
@@ -401,19 +481,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Counter Leg Hook attempt is developing?",
-        "answer": "The earliest cue is aggressive grip fighting focused on your crossface hand combined with the bottom player's free leg becoming active against your hooking leg or hip. These actions indicate they are creating the prerequisites for the counter: eliminating your upper body control and beginning to address the hook. Recognizing these cues allows you to preemptively increase pressure and hook engagement before the counter develops momentum."
+        "answer": "The earliest cue is aggressive grip fighting focused on your crossface hand combined with the bottom player's free leg becoming active against your hooking leg or hip. These actions indicate they are creating the prerequisites for the counter: eliminating your upper body control and beginning to address the hook. Recognizing these cues allows you to preemptively increase pressure and hook engagement before the counter develops momentum.",
+        "answer_line": "Crossface fight + leg activates",
+        "distractors": {
+          "plausible": [
+            "Hook suddenly gets deeper",
+            "Opponent shifts to side control"
+          ],
+          "trap": [
+            "Wait for hip escape attempt"
+          ]
+        }
       },
       {
         "question": "Why is crossface control more important than hook depth when defending against this counter?",
-        "answer": "Crossface control limits the bottom player's ability to turn, change direction, or establish frames, which are all prerequisites for the counter. A deep hook without crossface allows the bottom player to frame freely and use hip mechanics to strip the hook. Conversely, a strong crossface with moderate hook depth keeps the bottom player flat and unable to generate the movement needed for any counter variation."
+        "answer": "Crossface control limits the bottom player's ability to turn, change direction, or establish frames, which are all prerequisites for the counter. A deep hook without crossface allows the bottom player to frame freely and use hip mechanics to strip the hook. Conversely, a strong crossface with moderate hook depth keeps the bottom player flat and unable to generate the movement needed for any counter variation.",
+        "answer_line": "Crossface stops turn and frames",
+        "distractors": {
+          "plausible": [
+            "Hook depth matters most",
+            "Underhook matters most"
+          ],
+          "trap": [
+            "Loosen crossface, deepen hook"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully reaches turtle - how should you transition your attack?",
-        "answer": "Immediately transition from passing pressure to back control methodology. Establish chest-to-back pressure, secure a seatbelt or harness grip, and begin systematic hook insertion starting with the near-side hook. Do not attempt to return to the leg hook passing position. The turtle position actually offers higher-percentage back take opportunities than trying to re-establish the passing position, so treat the transition as an opportunity."
+        "answer": "Immediately transition from passing pressure to back control methodology. Establish chest-to-back pressure, secure a seatbelt or harness grip, and begin systematic hook insertion starting with the near-side hook. Do not attempt to return to the leg hook passing position. The turtle position actually offers higher-percentage back take opportunities than trying to re-establish the passing position, so treat the transition as an opportunity.",
+        "answer_line": "Switch to back control attack",
+        "distractors": {
+          "plausible": [
+            "Re-establish passing position",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Let them recover full guard"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the bottom player loading their hips for a counter?",
-        "answer": "Immediately drop your weight lower and drive your hips forward into their hip line, preventing the perpendicular hip escape that powers the counter. Increase downward pressure through your chest and shift your center of gravity toward the side the bottom player is attempting to escape toward. This cuts off their escape angle while maintaining your hook engagement. Avoid raising your weight higher, as this creates the space they need."
+        "answer": "Immediately drop your weight lower and drive your hips forward into their hip line, preventing the perpendicular hip escape that powers the counter. Increase downward pressure through your chest and shift your center of gravity toward the side the bottom player is attempting to escape toward. This cuts off their escape angle while maintaining your hook engagement. Avoid raising your weight higher, as this creates the space they need.",
+        "answer_line": "Drop weight, drive into hip line",
+        "distractors": {
+          "plausible": [
+            "Raise up to see space",
+            "Shift weight to opposite side"
+          ],
+          "trap": [
+            "Ease pressure to avoid stalling"
+          ]
+        }
       }
     ],
     "training_progressions": [

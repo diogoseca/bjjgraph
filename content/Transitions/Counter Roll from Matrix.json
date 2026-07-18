@@ -247,35 +247,115 @@
     "flashcards": [
       {
         "question": "What is the primary indicator that you should abandon the Matrix back take and redirect to the counter roll?",
-        "answer": "The primary indicator is when your rotational momentum encounters defensive resistance that exceeds your ability to continue the arc toward the back. This includes the opponent's base widening significantly, weight driving down on your hips, active sprawling that flattens your rotation, or counter-rotation that reverses your momentum. The key is reading this resistance early rather than fighting through it, because forcing a failing Matrix wastes momentum you need for the redirect."
+        "answer": "The primary indicator is when your rotational momentum encounters defensive resistance that exceeds your ability to continue the arc toward the back. This includes the opponent's base widening significantly, weight driving down on your hips, active sprawling that flattens your rotation, or counter-rotation that reverses your momentum. The key is reading this resistance early rather than fighting through it, because forcing a failing Matrix wastes momentum you need for the redirect.",
+        "answer_line": "Rotation stalls against resistance",
+        "distractors": {
+          "plausible": [
+            "Opponent starts to sprawl",
+            "Wait until fully stacked"
+          ],
+          "trap": [
+            "Force through the resistance"
+          ]
+        }
       },
       {
         "question": "Why must the leg trajectory change happen during continuous motion rather than as a separate action after stopping?",
-        "answer": "Pausing the rolling motion to change direction creates a static moment where you are inverted or compromised with no defensive structure. Any pause gives the opponent time to capitalize on your vulnerable position with sprawl pressure, crossface, or pass attempts. The continuous motion of the redirect uses the remaining momentum to power the leg capture, making the entire sequence one fluid action rather than a stop-and-restart that the opponent can easily predict and counter."
+        "answer": "Pausing the rolling motion to change direction creates a static moment where you are inverted or compromised with no defensive structure. Any pause gives the opponent time to capitalize on your vulnerable position with sprawl pressure, crossface, or pass attempts. The continuous motion of the redirect uses the remaining momentum to power the leg capture, making the entire sequence one fluid action rather than a stop-and-restart that the opponent can easily predict and counter.",
+        "answer_line": "Redirect without pausing",
+        "distractors": {
+          "plausible": [
+            "Pause briefly to reorient",
+            "Slow down before changing"
+          ],
+          "trap": [
+            "Stop and plan your leg grab"
+          ]
+        }
       },
       {
         "question": "Which leg should you target for the half guard entanglement during the counter roll and why?",
-        "answer": "Always target the opponent's near leg, the one closest to your rotation path. The near leg requires the least additional movement to capture, keeping the redirect efficient and fast. Targeting the far leg would require extending the roll past your optimal rotation arc, creating a longer and slower movement that gives the opponent more time to react and often results in overshooting the entanglement entirely, leaving you in a worse position than if you had simply accepted turtle."
+        "answer": "Always target the opponent's near leg, the one closest to your rotation path. The near leg requires the least additional movement to capture, keeping the redirect efficient and fast. Targeting the far leg would require extending the roll past your optimal rotation arc, creating a longer and slower movement that gives the opponent more time to react and often results in overshooting the entanglement entirely, leaving you in a worse position than if you had simply accepted turtle.",
+        "answer_line": "Target the near leg",
+        "distractors": {
+          "plausible": [
+            "Target the far leg",
+            "Grab the top leg first"
+          ],
+          "trap": [
+            "Skip the leg, just turtle up"
+          ]
+        }
       },
       {
         "question": "Your counter roll has succeeded and you have captured the opponent's leg in half guard—what must you establish immediately?",
-        "answer": "Immediately establish an active half guard structure by fighting for the underhook on the trapped leg side while framing with your outside arm to prevent crossface and chest-to-chest pressure. You must also get onto your side rather than remaining flat on your back, as being on your side enables hip mobility, angle creation, and access to sweeps and back takes from the half guard position. Passive flat-on-back half guard will be passed quickly."
+        "answer": "Immediately establish an active half guard structure by fighting for the underhook on the trapped leg side while framing with your outside arm to prevent crossface and chest-to-chest pressure. You must also get onto your side rather than remaining flat on your back, as being on your side enables hip mobility, angle creation, and access to sweeps and back takes from the half guard position. Passive flat-on-back half guard will be passed quickly.",
+        "answer_line": "Underhook, frame, get to your side",
+        "distractors": {
+          "plausible": [
+            "Underhook only, no framing",
+            "Frame only, skip the underhook"
+          ],
+          "trap": [
+            "Stay flat on your back"
+          ]
+        }
       },
       {
         "question": "What grips or connection points must you maintain throughout the counter roll, and why are they non-negotiable?",
-        "answer": "You must keep at least one active connection to the opponent throughout the redirect—typically a grip on their near leg or pants, or a developing leg hook. Without this connection you rotate independently and arrive separated from the opponent with no entanglement, having traded a defended Matrix for an open scramble. The grip pulls the opponent's near leg into your forming half guard and ensures they travel with your roll rather than simply watching you spin away into empty space."
+        "answer": "You must keep at least one active connection to the opponent throughout the redirect—typically a grip on their near leg or pants, or a developing leg hook. Without this connection you rotate independently and arrive separated from the opponent with no entanglement, having traded a defended Matrix for an open scramble. The grip pulls the opponent's near leg into your forming half guard and ensures they travel with your roll rather than simply watching you spin away into empty space.",
+        "answer_line": "Maintain grip on their leg",
+        "distractors": {
+          "plausible": [
+            "Grip their far leg instead",
+            "Any grip works, just hold on"
+          ],
+          "trap": [
+            "Let go to rotate faster"
+          ]
+        }
       },
       {
         "question": "How does having a reliable counter roll affect your overall Matrix back take success rate?",
-        "answer": "Having a reliable counter roll increases your Matrix success rate because it allows you to commit more aggressively to Matrix entries. Without a bail-out option, practitioners hesitate mid-rotation, which is the primary cause of Matrix failure since the technique demands full commitment. Knowing you can safely redirect to half guard eliminates the fear of commitment, resulting in faster and more powerful initial rotations that are significantly harder for opponents to defend."
+        "answer": "Having a reliable counter roll increases your Matrix success rate because it allows you to commit more aggressively to Matrix entries. Without a bail-out option, practitioners hesitate mid-rotation, which is the primary cause of Matrix failure since the technique demands full commitment. Knowing you can safely redirect to half guard eliminates the fear of commitment, resulting in faster and more powerful initial rotations that are significantly harder for opponents to defend.",
+        "answer_line": "Removes fear, more commitment",
+        "distractors": {
+          "plausible": [
+            "Lets you hesitate safely",
+            "Only useful for advanced belts"
+          ],
+          "trap": [
+            "So you can relax on entries"
+          ]
+        }
       },
       {
         "question": "What happens if you attempt the counter roll after your rotational momentum has been completely dissipated?",
-        "answer": "Without remaining momentum, the counter roll becomes a static leg grab from a compromised position rather than a dynamic redirect. This gives the opponent time to sprawl, hip switch, or backstep away from your leg capture attempt. If momentum is fully gone, you should abandon the counter roll entirely and instead return to turtle defense, reset your position, and look for a fresh entry opportunity rather than forcing a dead technique that exposes you to passes."
+        "answer": "Without remaining momentum, the counter roll becomes a static leg grab from a compromised position rather than a dynamic redirect. This gives the opponent time to sprawl, hip switch, or backstep away from your leg capture attempt. If momentum is fully gone, you should abandon the counter roll entirely and instead return to turtle defense, reset your position, and look for a fresh entry opportunity rather than forcing a dead technique that exposes you to passes.",
+        "answer_line": "Abandon it, return to turtle",
+        "distractors": {
+          "plausible": [
+            "Try it slower, still committed",
+            "Switch directly to open guard"
+          ],
+          "trap": [
+            "Force a static leg grab"
+          ]
+        }
       },
       {
         "question": "Your opponent anticipates the counter roll and backsteps to clear your legs—what is your immediate response?",
-        "answer": "Follow the backstep with immediate hip escape to re-engage your legs with theirs before the distance becomes too great. If the backstep creates too much separation for direct leg reengagement, transition to butterfly hooks or open guard frames to maintain a guard position rather than being left on your back without any guard structure. The key is never accepting the separation passively—your legs must actively pursue connection even as the opponent tries to disengage from your entanglement attempt."
+        "answer": "Follow the backstep with immediate hip escape to re-engage your legs with theirs before the distance becomes too great. If the backstep creates too much separation for direct leg reengagement, transition to butterfly hooks or open guard frames to maintain a guard position rather than being left on your back without any guard structure. The key is never accepting the separation passively—your legs must actively pursue connection even as the opponent tries to disengage from your entanglement attempt.",
+        "answer_line": "Hip escape, chase re-engagement",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to reset",
+            "Grab a wrist instead of hips"
+          ],
+          "trap": [
+            "Accept being flat with no guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Counter Roll from Matrix involves inverted movement and directional changes during rolling mechanics that carry moderate neck and shoulder risk. Practitioners should develop comfort with inversions through progressive solo drilling before attempting at full speed with partners. During training, communicate rolling direction with partners to prevent collision injuries. Avoid forcing the redirect if neck position is compromised—return to turtle rather than risk cervical compression. Partners should never drive weight down explosively on a practitioner who is mid-inversion, as this can cause spinal compression injuries.",
@@ -383,19 +463,59 @@
     "flashcards": [
       {
         "question": "What distinguishes a counter roll attempt from a completely failed Matrix where the bottom player simply accepts turtle position?",
-        "answer": "A counter roll is identified by the bottom player's legs actively changing trajectory from a back-seeking arc to a downward path targeting your legs, combined with maintained or redirected momentum. A fully failed Matrix shows the bottom player's momentum dying completely with no redirectional movement, and they settle into turtle with flat hips and retracted legs. The counter roll maintains continuous motion and active leg pursuit while the failed Matrix shows a clear stop in all movement."
+        "answer": "A counter roll is identified by the bottom player's legs actively changing trajectory from a back-seeking arc to a downward path targeting your legs, combined with maintained or redirected momentum. A fully failed Matrix shows the bottom player's momentum dying completely with no redirectional movement, and they settle into turtle with flat hips and retracted legs. The counter roll maintains continuous motion and active leg pursuit while the failed Matrix shows a clear stop in all movement.",
+        "answer_line": "Legs redirect while still moving",
+        "distractors": {
+          "plausible": [
+            "Any leg twitch signals it",
+            "Slower motion still qualifies"
+          ],
+          "trap": [
+            "A pause then restart counts"
+          ]
+        }
       },
       {
         "question": "Why is relaxing after defending the initial Matrix rotation a critical error for the top player?",
-        "answer": "Relaxing creates a window where the bottom player can redirect to the counter roll without opposition. Skilled practitioners expect their Matrix to be defended and immediately flow into the counter roll as part of their planned attack sequence, not as an improvised reaction. The top player who relaxes is essentially giving the bottom player a free half guard recovery that completely negates the defensive success of blocking the original Matrix attempt."
+        "answer": "Relaxing creates a window where the bottom player can redirect to the counter roll without opposition. Skilled practitioners expect their Matrix to be defended and immediately flow into the counter roll as part of their planned attack sequence, not as an improvised reaction. The top player who relaxes is essentially giving the bottom player a free half guard recovery that completely negates the defensive success of blocking the original Matrix attempt.",
+        "answer_line": "Gives opponent a free recovery",
+        "distractors": {
+          "plausible": [
+            "Only risky vs advanced players",
+            "Costs a small amount of time"
+          ],
+          "trap": [
+            "Take a breath before passing"
+          ]
+        }
       },
       {
         "question": "Your opponent's legs are beginning to wrap around your thigh mid-counter roll—what is your immediate response?",
-        "answer": "Immediately backstep the targeted leg away from the wrapping attempt while driving crossface pressure with your upper body to prevent the bottom player from following your leg. If the legs have partially engaged, hip switch explosively to extract your leg before the entanglement tightens and locks around your thigh. Time is critical—once both of the opponent's legs close around your thigh with full clamping pressure, extraction becomes significantly more difficult and you are committed to a half guard passing situation."
+        "answer": "Immediately backstep the targeted leg away from the wrapping attempt while driving crossface pressure with your upper body to prevent the bottom player from following your leg. If the legs have partially engaged, hip switch explosively to extract your leg before the entanglement tightens and locks around your thigh. Time is critical—once both of the opponent's legs close around your thigh with full clamping pressure, extraction becomes significantly more difficult and you are committed to a half guard passing situation.",
+        "answer_line": "Backstep leg, crossface pressure",
+        "distractors": {
+          "plausible": [
+            "Wait to see if it fully locks",
+            "Push off with both hands"
+          ],
+          "trap": [
+            "Let it wrap, muscle out later"
+          ]
+        }
       },
       {
         "question": "How should you adjust your positioning when facing an opponent known for counter roll proficiency from the Matrix?",
-        "answer": "Maintain a wider base with legs positioned further from the opponent's reach throughout the entire Matrix defense exchange. Position your near leg slightly further back than standard positioning to increase the distance the opponent's legs must travel during their redirect. Keep constant mobility in your legs rather than planting them statically, and immediately transition to offensive passing after blocking the Matrix to deny the timing window needed for the counter roll setup and execution."
+        "answer": "Maintain a wider base with legs positioned further from the opponent's reach throughout the entire Matrix defense exchange. Position your near leg slightly further back than standard positioning to increase the distance the opponent's legs must travel during their redirect. Keep constant mobility in your legs rather than planting them statically, and immediately transition to offensive passing after blocking the Matrix to deny the timing window needed for the counter roll setup and execution.",
+        "answer_line": "Wide base, mobile legs, pass fast",
+        "distractors": {
+          "plausible": [
+            "Plant legs firmly and hold",
+            "Use a narrow, tight stance"
+          ],
+          "trap": [
+            "Relax once Matrix is blocked"
+          ]
+        }
       }
     ],
     "training_progressions": [

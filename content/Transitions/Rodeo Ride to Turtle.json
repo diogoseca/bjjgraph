@@ -248,7 +248,17 @@
       },
       {
         "question": "What is the single most critical principle during the grip transition phase?",
-        "answer": "Never release all control points simultaneously. Maintain at least one secure anchor grip throughout the entire transition. This hand-over-hand principle ensures that no complete control gap exists for the opponent to exploit. Whether using collar control, wrist control, or a partial seatbelt, one grip must always be actively restraining the opponent's movement before the other grip is released and repositioned."
+        "answer": "Never release all control points simultaneously. Maintain at least one secure anchor grip throughout the entire transition. This hand-over-hand principle ensures that no complete control gap exists for the opponent to exploit. Whether using collar control, wrist control, or a partial seatbelt, one grip must always be actively restraining the opponent's movement before the other grip is released and repositioned.",
+        "answer_line": "Always keep one anchor grip",
+        "distractors": {
+          "plausible": [
+            "Switch both grips at once for speed",
+            "Prioritize the strongest grip only"
+          ],
+          "trap": [
+            "Release all grips to reset cleanly"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly tenses and you feel them coiling to explode as you begin the transition. What should you do?",
@@ -256,7 +266,17 @@
       },
       {
         "question": "What body part serves as the primary continuous control mechanism throughout the entire transition?",
-        "answer": "The chest serves as the primary continuous control mechanism. Chest-to-back contact must be maintained without interruption from start to finish of the transition. The chest provides constant downward pressure that compresses the opponent's turtle structure, prevents standing attempts, and allows tactile feedback about the opponent's movements and intentions. While grips change and hips reposition, the chest remains the one control point that never disconnects."
+        "answer": "The chest serves as the primary continuous control mechanism. Chest-to-back contact must be maintained without interruption from start to finish of the transition. The chest provides constant downward pressure that compresses the opponent's turtle structure, prevents standing attempts, and allows tactile feedback about the opponent's movements and intentions. While grips change and hips reposition, the chest remains the one control point that never disconnects.",
+        "answer_line": "Chest-to-back contact, never breaks",
+        "distractors": {
+          "plausible": [
+            "Hips, driving constant pressure",
+            "Lead hand grip, never released"
+          ],
+          "trap": [
+            "Legs, hooking to hold them down"
+          ]
+        }
       },
       {
         "question": "How does the spiral walk variant differ from the controlled seatbelt reset variant, and when would you choose each?",
@@ -268,11 +288,31 @@
       },
       {
         "question": "What is the optimal direction and application of force during the hip walk repositioning phase?",
-        "answer": "The primary force vector should be oriented forward and downward at approximately a 45-degree angle into the opponent's spine and lower back. This angled pressure serves dual purposes: it prevents the opponent from standing or creating upward movement, and it keeps their base loaded so they cannot sit back or rotate laterally. The direction should not be purely downward, which would allow lateral escape, nor purely forward, which would push them flat and eliminate the turtle structure you need. Maintaining this 45-degree vector throughout the entire arc of repositioning ensures the opponent cannot exploit directional gaps during your movement."
+        "answer": "The primary force vector should be oriented forward and downward at approximately a 45-degree angle into the opponent's spine and lower back. This angled pressure serves dual purposes: it prevents the opponent from standing or creating upward movement, and it keeps their base loaded so they cannot sit back or rotate laterally. The direction should not be purely downward, which would allow lateral escape, nor purely forward, which would push them flat and eliminate the turtle structure you need. Maintaining this 45-degree vector throughout the entire arc of repositioning ensures the opponent cannot exploit directional gaps during your movement.",
+        "answer_line": "45-degree forward-down into spine",
+        "distractors": {
+          "plausible": [
+            "Straight down to flatten them out",
+            "Straight forward to prevent standing"
+          ],
+          "trap": [
+            "Pull upward to lift their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the transition and you remain in a compromised Rodeo Ride position. What attack chains should you pursue?",
-        "answer": "Immediately return to Rodeo Ride offensive options rather than forcing a compromised transition. Re-establish your asymmetric Rodeo Ride grips and threaten crab ride entries, rolling back take attempts, or clock choke setups. You can also reattempt the transition after a different attack forces the opponent to react and creates a new vulnerability window. The key is treating the failed transition as information: the opponent's specific defense reveals their priorities. If they explosively resisted upward, they are vulnerable to attacks that go with their energy. If they turned to face you, crab ride or crucifix entries become higher percentage. Chain attacks based on their specific defensive reaction rather than repeating the same transition."
+        "answer": "Immediately return to Rodeo Ride offensive options rather than forcing a compromised transition. Re-establish your asymmetric Rodeo Ride grips and threaten crab ride entries, rolling back take attempts, or clock choke setups. You can also reattempt the transition after a different attack forces the opponent to react and creates a new vulnerability window. The key is treating the failed transition as information: the opponent's specific defense reveals their priorities. If they explosively resisted upward, they are vulnerable to attacks that go with their energy. If they turned to face you, crab ride or crucifix entries become higher percentage. Chain attacks based on their specific defensive reaction rather than repeating the same transition.",
+        "answer_line": "Return to Rodeo Ride attack chains",
+        "distractors": {
+          "plausible": [
+            "Force the same transition again",
+            "Abandon back attacks for a pass"
+          ],
+          "trap": [
+            "Release grips to reset from scratch"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Rodeo Ride to Turtle transition involves controlled repositioning that generally poses minimal acute injury risk compared to submission techniques. However, practitioners should be mindful of knee or shin pressure on the bottom player's ribs and spine during weight shifts. Avoid dropping full body weight suddenly when completing the repositioning behind the opponent. The primary safety concern during training is accidental elbow strikes to the bottom player's head or face during grip transitions, as hands move rapidly around the opponent's torso. Communicate with training partners during grip changes and maintain controlled movements rather than explosive hand fighting that could cause inadvertent contact with eyes or jaw.",

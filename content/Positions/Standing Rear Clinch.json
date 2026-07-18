@@ -368,27 +368,87 @@
     "flashcards": [
       {
         "question": "Your opponent begins peeling your seatbelt grip by two-on-one fighting your choking arm - what adjustment do you make to maintain control?",
-        "answer": "Switch to a bodylock configuration by sliding the threatened arm down to their waist and clasping hands around their midsection. This removes the arm from the vulnerable position while maintaining chest-to-back connection. Simultaneously drive your hips forward to prevent them from creating space during the grip transition, and look to re-establish the seatbelt once their hand fighting resets."
+        "answer": "Switch to a bodylock configuration by sliding the threatened arm down to their waist and clasping hands around their midsection. This removes the arm from the vulnerable position while maintaining chest-to-back connection. Simultaneously drive your hips forward to prevent them from creating space during the grip transition, and look to re-establish the seatbelt once their hand fighting resets.",
+        "answer_line": "Slide to bodylock, drive hips in",
+        "distractors": {
+          "plausible": [
+            "Muscle the seatbelt arm back in",
+            "Switch grip to collar ties"
+          ],
+          "trap": [
+            "Release the arm and back off"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining Standing Rear Clinch, and what is the hierarchy between them?",
-        "answer": "The three primary grip configurations are seatbelt (one arm over shoulder, one under armpit), bodylock (both arms around waist with hands clasped), and collar ties (gi-specific collar and lapel control). The seatbelt is highest priority as it controls the upper body and creates submission threats. The bodylock is the most secure for takedowns and preventing separation. Collar ties offer distance management in gi. You must flow between all three as the opponent defends each."
+        "answer": "The three primary grip configurations are seatbelt (one arm over shoulder, one under armpit), bodylock (both arms around waist with hands clasped), and collar ties (gi-specific collar and lapel control). The seatbelt is highest priority as it controls the upper body and creates submission threats. The bodylock is the most secure for takedowns and preventing separation. Collar ties offer distance management in gi. You must flow between all three as the opponent defends each.",
+        "answer_line": "Seatbelt top, then bodylock, ties",
+        "distractors": {
+          "plausible": [
+            "Bodylock always comes first",
+            "Collar ties control everything"
+          ],
+          "trap": [
+            "Any grip works equally well"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly drops their weight and sits to guard while you have a bodylock - how do you respond to maintain your advantage?",
-        "answer": "Follow them to the ground immediately by stepping your hips to the side and executing a bodylock pass, driving your shoulder into their back as they descend. Do not release the bodylock grip. Use your chest-to-back pressure to prevent them from establishing guard hooks. If they manage to sit, transition to a bodylock pass to side control by walking your hips around their seated guard before they can recover and establish defensive frames."
+        "answer": "Follow them to the ground immediately by stepping your hips to the side and executing a bodylock pass, driving your shoulder into their back as they descend. Do not release the bodylock grip. Use your chest-to-back pressure to prevent them from establishing guard hooks. If they manage to sit, transition to a bodylock pass to side control by walking your hips around their seated guard before they can recover and establish defensive frames.",
+        "answer_line": "Follow down, bodylock pass",
+        "distractors": {
+          "plausible": [
+            "Release and re-shoot for takedown",
+            "Sit back to reset the position"
+          ],
+          "trap": [
+            "Let go and posture up standing"
+          ]
+        }
       },
       {
         "question": "How should weight be distributed between your feet when maintaining Standing Rear Clinch?",
-        "answer": "Weight should be on the balls of both feet with knees slightly bent, approximately 60% of your weight driving forward into the opponent through chest-to-back pressure and 40% maintaining your own base. Avoid going flat-footed or loading onto your heels, as this kills your ability to follow movement. Your feet should be staggered slightly with one foot forward to create a stable triangular base that allows you to follow the opponent in any direction while maintaining heavy forward pressure."
+        "answer": "Weight should be on the balls of both feet with knees slightly bent, approximately 60% of your weight driving forward into the opponent through chest-to-back pressure and 40% maintaining your own base. Avoid going flat-footed or loading onto your heels, as this kills your ability to follow movement. Your feet should be staggered slightly with one foot forward to create a stable triangular base that allows you to follow the opponent in any direction while maintaining heavy forward pressure.",
+        "answer_line": "Balls of feet, 60% pressure forward",
+        "distractors": {
+          "plausible": [
+            "Heels down for a stable base",
+            "Even weight, flat-footed stance"
+          ],
+          "trap": [
+            "Lean back onto your heels"
+          ]
+        }
       },
       {
         "question": "Why must your hips be offset to one side rather than directly behind the opponent, and which side is preferable?",
-        "answer": "Hips directly behind the opponent allow them to sit straight back onto you, creating a scramble or reversal. Offsetting to one side at roughly 45 degrees prevents this by forcing them to turn into your pressure before they can sit. The preferable side depends on your grip configuration: with a seatbelt, offset toward the underhook side (arm under their armpit) because this creates superior leverage for mat returns and makes it harder for them to peel your choking arm. This angle also loads your weight diagonally across their back."
+        "answer": "Hips directly behind the opponent allow them to sit straight back onto you, creating a scramble or reversal. Offsetting to one side at roughly 45 degrees prevents this by forcing them to turn into your pressure before they can sit. The preferable side depends on your grip configuration: with a seatbelt, offset toward the underhook side (arm under their armpit) because this creates superior leverage for mat returns and makes it harder for them to peel your choking arm. This angle also loads your weight diagonally across their back.",
+        "answer_line": "45° offset toward underhook side",
+        "distractors": {
+          "plausible": [
+            "Offset toward your weaker side",
+            "Offset opposite the underhook"
+          ],
+          "trap": [
+            "Square hips directly behind them"
+          ]
+        }
       },
       {
         "question": "Your opponent begins spinning aggressively toward you to face you and escape to the Clinch position - what is your counter strategy?",
-        "answer": "Circle in the same direction as their spin to maintain your position behind them, using your chest connection as the pivot point. Keep your hips tight and follow their rotation step-for-step. If they generate significant momentum, use that energy to execute a snap down to front headlock as they turn, converting their rotational force into a level change that puts them in a disadvantageous position. The key is never fighting their spin head-on but rather matching or redirecting it."
+        "answer": "Circle in the same direction as their spin to maintain your position behind them, using your chest connection as the pivot point. Keep your hips tight and follow their rotation step-for-step. If they generate significant momentum, use that energy to execute a snap down to front headlock as they turn, converting their rotational force into a level change that puts them in a disadvantageous position. The key is never fighting their spin head-on but rather matching or redirecting it.",
+        "answer_line": "Circle with the spin, or snap down",
+        "distractors": {
+          "plausible": [
+            "Step back to create space",
+            "Match their spin but release grip"
+          ],
+          "trap": [
+            "Fight the spin head-on"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure in Standing Rear Clinch during a long competition match?",
@@ -396,7 +456,17 @@
       },
       {
         "question": "Your opponent partially escapes by creating 6 inches of space between your chest and their back but you still have one arm around their waist - how do you recover full control?",
-        "answer": "Immediately close the gap by driving your hips forward and re-establishing chest-to-back contact before they can turn or create more space. Use the remaining waist grip as an anchor point and step your feet closer while pulling their hips back toward you. Once chest contact is re-established, secure a second grip (seatbelt or second arm around waist) and re-angle your hips to the side. If you cannot close the gap, use the single grip to transition to a different attack like a mat return or bodylock takedown rather than fighting to hold a deteriorating position."
+        "answer": "Immediately close the gap by driving your hips forward and re-establishing chest-to-back contact before they can turn or create more space. Use the remaining waist grip as an anchor point and step your feet closer while pulling their hips back toward you. Once chest contact is re-established, secure a second grip (seatbelt or second arm around waist) and re-angle your hips to the side. If you cannot close the gap, use the single grip to transition to a different attack like a mat return or bodylock takedown rather than fighting to hold a deteriorating position.",
+        "answer_line": "Drive hips in, close the gap fast",
+        "distractors": {
+          "plausible": [
+            "Wait for them to come back to you",
+            "Switch grips before closing distance"
+          ],
+          "trap": [
+            "Let go and re-shoot from distance"
+          ]
+        }
       }
     ],
     "clips": [
@@ -446,35 +516,115 @@
     "flashcards": [
       {
         "question": "What is the very first priority the instant you feel an opponent lock a standing rear clinch behind you?",
-        "answer": "Protect your neck. If a seatbelt arm is crossing your throat, control that choking arm with a two-on-one grip and tuck your chin before attempting any escape. The standing rear naked choke is the fastest finish available here, so it must be neutralized before you fight the body lock, lower your base, or try to switch out."
+        "answer": "Protect your neck. If a seatbelt arm is crossing your throat, control that choking arm with a two-on-one grip and tuck your chin before attempting any escape. The standing rear naked choke is the fastest finish available here, so it must be neutralized before you fight the body lock, lower your base, or try to switch out.",
+        "answer_line": "Protect neck, tuck chin, two-on-one",
+        "distractors": {
+          "plausible": [
+            "Lower base immediately first",
+            "Attempt the switch escape right away"
+          ],
+          "trap": [
+            "Fight the bodylock grip first"
+          ]
+        }
       },
       {
         "question": "Why must you lower your base before trying to break the grip or switch out?",
-        "answer": "Dropping your knees and hips does three things: it makes you far harder to lift for a suplex or mat return, it gives you a pivot point below the opponent's grip line to generate switch leverage, and it counters their forward pressure. Staying tall keeps you one level change away from being dumped into bottom back control."
+        "answer": "Dropping your knees and hips does three things: it makes you far harder to lift for a suplex or mat return, it gives you a pivot point below the opponent's grip line to generate switch leverage, and it counters their forward pressure. Staying tall keeps you one level change away from being dumped into bottom back control.",
+        "answer_line": "Hard to lift, gives switch leverage",
+        "distractors": {
+          "plausible": [
+            "Makes you lighter to sprawl with",
+            "Keeps your chin tucked safely"
+          ],
+          "trap": [
+            "Stand tall to see the escape route"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts their weight to one side to set up a takedown—how do you turn that into your escape?",
-        "answer": "Use their committed weight shift as the trigger for a standing switch. Drop your level, reach your near arm back to anchor behind their hip or thigh, and explosively rotate toward them. Their forward and lateral momentum carries them past your center line as you pivot underneath, converting their attack into a reversal toward a clinch or rear control of your own."
+        "answer": "Use their committed weight shift as the trigger for a standing switch. Drop your level, reach your near arm back to anchor behind their hip or thigh, and explosively rotate toward them. Their forward and lateral momentum carries them past your center line as you pivot underneath, converting their attack into a reversal toward a clinch or rear control of your own.",
+        "answer_line": "Switch off their weight shift",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to block the takedown",
+            "Snap down to front headlock"
+          ],
+          "trap": [
+            "Pull straight forward to escape"
+          ]
+        }
       },
       {
         "question": "What is the mechanical difference between pulling straight forward to escape and stepping laterally?",
-        "answer": "Pulling straight forward preserves the opponent's chest-to-back alignment—they simply walk their hips forward and stay glued to your back. Stepping laterally creates a hip angle that forces them to rotate their entire body to follow, opening a timing gap. Lateral movement attacks the structural weakness of the clinch; linear retreat attacks its strength."
+        "answer": "Pulling straight forward preserves the opponent's chest-to-back alignment—they simply walk their hips forward and stay glued to your back. Stepping laterally creates a hip angle that forces them to rotate their entire body to follow, opening a timing gap. Lateral movement attacks the structural weakness of the clinch; linear retreat attacks its strength.",
+        "answer_line": "Lateral step forces them to rotate",
+        "distractors": {
+          "plausible": [
+            "Straight pull breaks their grip",
+            "Both create the same hip angle"
+          ],
+          "trap": [
+            "Pull straight forward to escape"
+          ]
+        }
       },
       {
         "question": "When turning in to face the opponent, which way should you rotate and why?",
-        "answer": "Always turn toward the underhook side—the side where your arm is already under the opponent's arm. Rotating that direction lets you emerge with an active underhook and structural control in the resulting clinch. Turning toward the overhook side traps your arm, gifting the opponent a gift-wrap or an easy re-take of the back."
+        "answer": "Always turn toward the underhook side—the side where your arm is already under the opponent's arm. Rotating that direction lets you emerge with an active underhook and structural control in the resulting clinch. Turning toward the overhook side traps your arm, gifting the opponent a gift-wrap or an easy re-take of the back.",
+        "answer_line": "Turn toward your underhook side",
+        "distractors": {
+          "plausible": [
+            "Turn toward the overhook side",
+            "Turn away, then reverse direction"
+          ],
+          "trap": [
+            "Yank your underhook arm free first"
+          ]
+        }
       },
       {
         "question": "The opponent is driving forward hard, trying to run you to the mat—what are your two main options?",
-        "answer": "First, sprawl your hips back and down while hooking a leg to defend the mat return and keep both feet anchored. Second, redirect that forward drive into a snap down to front headlock: as their posture breaks over you, drop your level and steer their head down, converting their pressure into a front headlock where you control the exchange."
+        "answer": "First, sprawl your hips back and down while hooking a leg to defend the mat return and keep both feet anchored. Second, redirect that forward drive into a snap down to front headlock: as their posture breaks over you, drop your level and steer their head down, converting their pressure into a front headlock where you control the exchange.",
+        "answer_line": "Sprawl back, or snap to headlock",
+        "distractors": {
+          "plausible": [
+            "Pull them forward off balance",
+            "Drop straight to your back"
+          ],
+          "trap": [
+            "Stand tall and absorb the drive"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when stuck in a standing rear clinch against a strong opponent?",
-        "answer": "Avoid panicked, continuous thrashing, which drains your gas tank and feeds the opponent's back takes. Keep a wide, low base as your baseline survival posture, hand-fight with purpose to deny the grip, and save explosive movement for genuine windows—when the opponent shifts weight or transitions grips. Controlled urgency at the right moment beats constant maximum effort."
+        "answer": "Avoid panicked, continuous thrashing, which drains your gas tank and feeds the opponent's back takes. Keep a wide, low base as your baseline survival posture, hand-fight with purpose to deny the grip, and save explosive movement for genuine windows—when the opponent shifts weight or transitions grips. Controlled urgency at the right moment beats constant maximum effort.",
+        "answer_line": "Low base, save bursts for windows",
+        "distractors": {
+          "plausible": [
+            "Thrash continuously to create chaos",
+            "Match their strength constantly"
+          ],
+          "trap": [
+            "Explode nonstop to break the grip"
+          ]
+        }
       },
       {
         "question": "Your first switch attempt gets stuffed because the opponent re-squares their hips—what do you do next?",
-        "answer": "Change the plane of attack rather than forcing the same switch. Chain to a snap down if their weight comes forward, or to a counter throw if they over-commit to one side. The key principle is to keep rotating between lateral, vertical, and directional escapes so the opponent cannot settle into a pattern-based counter. Never stall halfway through a blocked pivot."
+        "answer": "Change the plane of attack rather than forcing the same switch. Chain to a snap down if their weight comes forward, or to a counter throw if they over-commit to one side. The key principle is to keep rotating between lateral, vertical, and directional escapes so the opponent cannot settle into a pattern-based counter. Never stall halfway through a blocked pivot.",
+        "answer_line": "Chain a new angle, snap or throw",
+        "distractors": {
+          "plausible": [
+            "Force the same switch again",
+            "Wait and reset to neutral base"
+          ],
+          "trap": [
+            "Stall halfway through the pivot"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -738,23 +888,73 @@
   "flashcards_position": [
     {
       "question": "What is the defining configuration that distinguishes Standing Rear Clinch from other standing positions?",
-      "answer": "Standing Rear Clinch is defined by one player attaching chest-to-back behind an upright opponent, with at least one arm wrapped around the upper body or waist via a seatbelt, body lock, or collar-tie grip. The rear player occupies the blind angle where the front player cannot see or square up to them, and both remain on their feet with the engagement not yet on the mat. This chest-to-back attachment while standing is what separates it from a neutral clinch, where the players face each other, and from ground back control, where hooks and body weight replace footwork as the primary pin."
+      "answer": "Standing Rear Clinch is defined by one player attaching chest-to-back behind an upright opponent, with at least one arm wrapped around the upper body or waist via a seatbelt, body lock, or collar-tie grip. The rear player occupies the blind angle where the front player cannot see or square up to them, and both remain on their feet with the engagement not yet on the mat. This chest-to-back attachment while standing is what separates it from a neutral clinch, where the players face each other, and from ground back control, where hooks and body weight replace footwork as the primary pin.",
+      "answer_line": "Chest-to-back, blind angle, standing",
+      "distractors": {
+        "plausible": [
+          "Both facing each other, standing",
+          "Hooks in with weight on the mat"
+        ],
+        "trap": [
+          "Grabbing collar from the front"
+        ]
+      }
     },
     {
       "question": "What are the three grip configurations available in Standing Rear Clinch and what does each prioritize?",
-      "answer": "The three primary grips are the seatbelt (one arm over the shoulder, one under the opposite armpit), the body lock (both arms encircling the waist with clasped hands), and collar ties (gi-specific collar and lapel control). The seatbelt prioritizes upper-body control and creates the most direct choke threat, while the body lock prioritizes takedown security and preventing separation. Collar ties add distance management and posture control in the gi. Because each grip can be attacked, the connecting player must be able to flow between all three as the exchange evolves."
+      "answer": "The three primary grips are the seatbelt (one arm over the shoulder, one under the opposite armpit), the body lock (both arms encircling the waist with clasped hands), and collar ties (gi-specific collar and lapel control). The seatbelt prioritizes upper-body control and creates the most direct choke threat, while the body lock prioritizes takedown security and preventing separation. Collar ties add distance management and posture control in the gi. Because each grip can be attacked, the connecting player must be able to flow between all three as the exchange evolves.",
+      "answer_line": "Seatbelt chokes, bodylock takes down",
+      "distractors": {
+        "plausible": [
+          "Collar ties are the most secure grip",
+          "Bodylock is the primary choke threat"
+        ],
+        "trap": [
+          "Only the seatbelt grip matters"
+        ]
+      }
     },
     {
       "question": "Why must the rear player's hips stay offset to one side rather than squared directly behind the opponent?",
-      "answer": "Hips squared directly behind the opponent give the front player a straight line to sit or fall backward, dropping their weight onto the rear player to force a scramble or reversal. Offsetting the hips to roughly a 45-degree angle removes that straight-back path, forcing the front player to rotate before they can sit and buying the rear player time to follow. The offset also loads the rear player's weight diagonally across the back, which improves leverage for mat returns and takedowns. This hip angle is the structural pillar of the position, and losing it is the fastest way control degrades."
+      "answer": "Hips squared directly behind the opponent give the front player a straight line to sit or fall backward, dropping their weight onto the rear player to force a scramble or reversal. Offsetting the hips to roughly a 45-degree angle removes that straight-back path, forcing the front player to rotate before they can sit and buying the rear player time to follow. The offset also loads the rear player's weight diagonally across the back, which improves leverage for mat returns and takedowns. This hip angle is the structural pillar of the position, and losing it is the fastest way control degrades.",
+      "answer_line": "Offset 45°, blocks the sit-back",
+      "distractors": {
+        "plausible": [
+          "Square hips for max forward drive",
+          "Offset only helps with mat returns"
+        ],
+        "trap": [
+          "Stay squared to control both sides"
+        ]
+      }
     },
     {
       "question": "How does weight distribution and footwork in Standing Rear Clinch differ from ground-based back control?",
-      "answer": "In the standing variant, control comes from footwork and forward chest pressure rather than the hooks and body weight that pin an opponent on the ground. Both players stay on the balls of their feet with knees bent, so the position is dynamic and mobile rather than static, and either player can change directions instantly. The rear player drives roughly sixty percent of their weight forward through the chest connection while keeping the rest for a mobile base to follow movement. This mobility is a double-edged trait: it lets the rear player pursue and the front player attempt to turn or switch, making the position far less stable than ground back control."
+      "answer": "In the standing variant, control comes from footwork and forward chest pressure rather than the hooks and body weight that pin an opponent on the ground. Both players stay on the balls of their feet with knees bent, so the position is dynamic and mobile rather than static, and either player can change directions instantly. The rear player drives roughly sixty percent of their weight forward through the chest connection while keeping the rest for a mobile base to follow movement. This mobility is a double-edged trait: it lets the rear player pursue and the front player attempt to turn or switch, making the position far less stable than ground back control.",
+      "answer_line": "Footwork and pressure, not hooks",
+      "distractors": {
+        "plausible": [
+          "Flat feet for a heavier base",
+          "Identical to ground back control"
+        ],
+        "trap": [
+          "Sink weight flat onto heels"
+        ]
+      }
     },
     {
       "question": "Why is chest-to-back connection the single most important control mechanism in this position?",
-      "answer": "The chest-to-back connection is what denies the front player the space they need to turn in, sit back, or reset to a neutral clinch. As long as the two torsos stay glued, the rear player can follow every step and the front player cannot generate the rotation needed to escape. The moment even a few inches of space open between chest and back, the front player gains room to spin, throw, or level-change out. Both roles therefore organize their game around this connection: the rear player fights to preserve it and the front player fights to break it."
+      "answer": "The chest-to-back connection is what denies the front player the space they need to turn in, sit back, or reset to a neutral clinch. As long as the two torsos stay glued, the rear player can follow every step and the front player cannot generate the rotation needed to escape. The moment even a few inches of space open between chest and back, the front player gains room to spin, throw, or level-change out. Both roles therefore organize their game around this connection: the rear player fights to preserve it and the front player fights to break it.",
+      "answer_line": "Denies space to turn or sit back",
+      "distractors": {
+        "plausible": [
+          "Mainly prevents grip breaks",
+          "Only matters for choke setups"
+        ],
+        "trap": [
+          "Back off a step to reset angle"
+        ]
+      }
     },
     {
       "question": "How does the standing nature of this position create a mutual race against time for both players?",
@@ -762,11 +962,31 @@
     },
     {
       "question": "What role does controlling the front player's posture play in the stability of Standing Rear Clinch?",
-      "answer": "Keeping the front player bent forward at the waist strips them of the strong, upright base they would need to execute throws, hand-fight effectively, or sit back for a reversal. A broken, forward posture also shifts their weight onto the balls of their feet, making them easier to run to the mat or drag down for a back take. The rear player achieves this through downward pressure on the shoulders or by drawing the hips backward. When the front player is allowed to stand tall and rebuild posture, the leverage balance swings back toward them and the escape and reversal options open up."
+      "answer": "Keeping the front player bent forward at the waist strips them of the strong, upright base they would need to execute throws, hand-fight effectively, or sit back for a reversal. A broken, forward posture also shifts their weight onto the balls of their feet, making them easier to run to the mat or drag down for a back take. The rear player achieves this through downward pressure on the shoulders or by drawing the hips backward. When the front player is allowed to stand tall and rebuild posture, the leverage balance swings back toward them and the escape and reversal options open up.",
+      "answer_line": "Break posture, kill their base",
+      "distractors": {
+        "plausible": [
+          "Keep them upright for control",
+          "Posture control only stops chokes"
+        ],
+        "trap": [
+          "Let them stand tall and square up"
+        ]
+      }
     },
     {
       "question": "How does Standing Rear Clinch relate to the adjacent positions it can flow into or from?",
-      "answer": "Standing Rear Clinch sits at the overlap of the takedown phase and the back-attack game, bridging wrestling and jiu-jitsu. It commonly emerges from a sprawl, snap-down, arm drag, or a failed guard-pull that leaves one player behind the other, and it most often resolves into ground back control via a mat return or into a neutral clinch if the front player successfully turns to face. If the rear player's posture breaks the front player downward, the exchange can divert to a front headlock, and if the front player sits to guard, a body-lock pass toward side control becomes available. Understanding these neighboring positions is what lets either player anticipate where the exchange is heading before it arrives."
+      "answer": "Standing Rear Clinch sits at the overlap of the takedown phase and the back-attack game, bridging wrestling and jiu-jitsu. It commonly emerges from a sprawl, snap-down, arm drag, or a failed guard-pull that leaves one player behind the other, and it most often resolves into ground back control via a mat return or into a neutral clinch if the front player successfully turns to face. If the rear player's posture breaks the front player downward, the exchange can divert to a front headlock, and if the front player sits to guard, a body-lock pass toward side control becomes available. Understanding these neighboring positions is what lets either player anticipate where the exchange is heading before it arrives.",
+      "answer_line": "Bridges takedowns and back attacks",
+      "distractors": {
+        "plausible": [
+          "Only leads to ground back control",
+          "Comes only from a failed takedown"
+        ],
+        "trap": [
+          "Always ends in a guard pull"
+        ]
+      }
     }
   ],
   "clips": [

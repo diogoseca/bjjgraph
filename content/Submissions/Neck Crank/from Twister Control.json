@@ -277,92 +277,272 @@
       {
         "question": "What anatomical structure does the neck crank from Twister Control primarily attack?",
         "answer": "The neck crank primarily attacks the cervical spine—the seven vertebrae of the neck region. The rotational force targets the intervertebral discs, facet joints, and surrounding ligaments. The existing body rotation from Twister Control pre-loads the thoracic spine, meaning the cervical vertebrae absorb a disproportionate share of the additional rotational force applied through the head grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Cervical spine",
+        "distractors": {
+          "plausible": [
+            "Thoracic spine mainly",
+            "Trapezius muscle tissue"
+          ],
+          "trap": [
+            "Carotid artery compression"
+          ]
+        }
       },
       {
         "question": "What physical indicators suggest the opponent is approaching their breaking point during the neck crank?",
         "answer": "Key indicators include sudden cessation of defensive movement as the opponent freezes, audible grunting or changes in breathing pattern, the opponent's body beginning to move with the rotation rather than resisting it, and visible tension in the neck muscles transitioning from active resistance to passive acceptance. Any of these signals means you should stop increasing force and allow time for the tap rather than pushing further.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Freezes, breath change, tenses",
+        "distractors": {
+          "plausible": [
+            "Loud verbal protest first",
+            "Increased explosive struggling"
+          ],
+          "trap": [
+            "No signs before injury"
+          ]
+        }
       },
       {
         "question": "What control must be established before attempting the neck crank finish?",
         "answer": "Three control points must be established simultaneously: leg control on the trapped leg preventing the opponent from turning and reducing body rotation, chest-to-back pressure preventing space creation and maintaining the rotational platform, and at least partial arm clearance so the grip path to the head is not completely blocked. Without all three, the neck crank will fail or create a scramble opportunity for the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg, chest pressure, arm clear",
+        "distractors": {
+          "plausible": [
+            "Only chest-to-back pressure",
+            "Only the trapped leg control"
+          ],
+          "trap": [
+            "Release legs, grab head first"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin aggressively to prevent the chin strap grip—what adjustment do you make?",
         "answer": "Switch to the crossface variation by driving the forearm bone across the jaw line above the tucked chin, or transition to the behind-the-head pull by cupping the back of the skull with interlocked fingers. The chin tuck defense specifically blocks the chin strap but creates vulnerability to attacks from different angles. The crossface works over the jaw regardless of chin position, while the behind-the-head pull attacks cervical flexion rather than rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface over the jaw",
+        "distractors": {
+          "plausible": [
+            "Pry the chin down forcibly",
+            "Switch to an armbar attempt"
+          ],
+          "trap": [
+            "Release grip, reset position"
+          ]
+        }
       },
       {
         "question": "At what point does the neck crank become functionally inescapable for the defender?",
         "answer": "The neck crank approaches the point of no return when the grip is fully locked with a deep figure-four or gable grip, the body rotation is maintained through secure leg control, and the attacker has begun applying progressive pressure. Once the grip is locked and chest pressure is maintained, the defender's options reduce to hand-fighting the grip or attempting an explosive scramble. The deeper the grip and the more rotation already applied, the fewer viable escapes remain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, rotation maintained",
+        "distractors": {
+          "plausible": [
+            "Any grip contact made",
+            "First sign of pressure felt"
+          ],
+          "trap": [
+            "Only once opponent taps"
+          ]
+        }
       },
       {
         "question": "What is the most common technical error that causes the neck crank to fail from Twister Control?",
         "answer": "The most common error is releasing or loosening leg control while reaching for the head grip. When the attacker prioritizes getting the head grip over maintaining the body position, the opponent extracts their trapped leg, reduces spinal rotation, and escapes to guard or half guard. The leg control is the foundation that makes the neck crank possible—without it, the cervical spine is no longer under pre-rotational load and the crank loses most of its mechanical advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Releasing leg control for grip",
+        "distractors": {
+          "plausible": [
+            "Reaching for head too soon",
+            "Applying pressure too fast"
+          ],
+          "trap": [
+            "Loosening grip to reset"
+          ]
+        }
       },
       {
         "question": "Why must the neck crank from Twister Control be applied slowly rather than explosively?",
         "answer": "The cervical spine provides minimal proprioceptive warning before catastrophic structural failure. Unlike joint locks on the elbow or knee where pain escalates progressively before damage occurs, cervical injuries can happen suddenly with little advance sensation. Additionally, the pre-existing body rotation from Twister Control means the cervical spine is already under significant load, so even moderate additional force can push past the injury threshold. Slow progressive application gives the defender time to recognize danger and tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Little warning before injury",
+        "distractors": {
+          "plausible": [
+            "Grip needs time to lock",
+            "Opponent needs time to tap"
+          ],
+          "trap": [
+            "Speed increases the pressure"
+          ]
+        }
       },
       {
         "question": "How should you modify your neck crank finishing approach in competition versus training?",
         "answer": "In training, never exceed 50-70% intensity and always apply pressure progressively over several seconds with constant attention to tap signals. In competition, you may apply pressure somewhat faster but should still avoid explosive jerking force on the cervical spine. Competition rulesets vary—some organizations ban neck cranks entirely, others allow them only at advanced belt levels. Always confirm the ruleset permits spinal locks before your division. Even in competition, the risk-reward calculation favors progressive application because a disqualification for excessive force is always possible.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Progressive both, confirm rules",
+        "distractors": {
+          "plausible": [
+            "Full force in competition only",
+            "Explosive jerk to finish fast"
+          ],
+          "trap": [
+            "Ignore ruleset, crank anyway"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the neck crank attack?",
         "answer": "The neck crank attacks the cervical spine—the vertebrae of the neck and surrounding musculature—by forcing rotation and flexion beyond the safe range, rather than compressing arteries or the trachea like a choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Cervical spine, not the throat",
+        "distractors": {
+          "plausible": [
+            "Trachea and airway",
+            "Carotid arteries"
+          ],
+          "trap": [
+            "Brachial plexus nerves"
+          ]
+        }
       },
       {
         "question": "What must be secured before you ever reach for the opponent's head?",
         "answer": "You must first secure the leg trap and constant chest-to-back pressure so the torso is locked and the spine is rotated; reaching for the head before this lets the opponent square up and escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg trap and chest pressure",
+        "distractors": {
+          "plausible": [
+            "Chest pressure only first",
+            "Head control before legs"
+          ],
+          "trap": [
+            "Reach for head immediately"
+          ]
+        }
       },
       {
         "question": "How do you know you have reached the finishing position for the crank?",
         "answer": "The opponent's spine is rotated by your boot pressure, their head is controlled in a rigid chin-strap or forehead frame, and they can no longer realign their spine to neutralize the lever.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Spine rotated, head locked rigid",
+        "distractors": {
+          "plausible": [
+            "Opponent grimacing in pain",
+            "Grip merely touching chin"
+          ],
+          "trap": [
+            "Opponent stops moving legs"
+          ]
+        }
       },
       {
         "question": "Once the chin strap and rotation are locked, when has the opponent's escape window closed?",
         "answer": "The escape window effectively closes once the grip locks and rotation is maximized—before that they can hand-fight or roll, but after it the only safe option is to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Once grip locks, rotation maxed",
+        "distractors": {
+          "plausible": [
+            "As soon as hand touches head",
+            "When first pressure is felt"
+          ],
+          "trap": [
+            "Only after they pass out"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks the chin hard to block the chin strap—what grip adjustment do you make?",
         "answer": "Switch to the forehead-push crank, placing the palm on the forehead or crown and driving the head into flexion, which works regardless of jaw position and bypasses the chin tuck entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forehead-push crank instead",
+        "distractors": {
+          "plausible": [
+            "Force the chin down harder",
+            "Switch to an armbar attack"
+          ],
+          "trap": [
+            "Abandon grip, reset position"
+          ]
+        }
       },
       {
         "question": "Why is pulling the head straight back an ineffective finishing error?",
         "answer": "Pulling straight back only strains the neck muscles without loading the cervical spine; the lock needs combined rotation and flexion off the existing twist to generate true mechanical leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No leverage, just muscle strain",
+        "distractors": {
+          "plausible": [
+            "Too slow to finish fast",
+            "Wrong hand position used"
+          ],
+          "trap": [
+            "Yank harder for more torque"
+          ]
+        }
       },
       {
         "question": "Why must the neck crank always be applied slowly and progressively?",
         "answer": "The cervical spine gives almost no warning before catastrophic failure, so explosive force can cause permanent injury; slow application gives the defender time to recognize danger and tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Little warning before injury",
+        "distractors": {
+          "plausible": [
+            "Grip needs time to set",
+            "Lets opponent posture up"
+          ],
+          "trap": [
+            "Faster force finishes safer"
+          ]
+        }
       },
       {
         "question": "Your opponent postures up and tries to align their spine—what adjustment prevents the escape?",
         "answer": "Re-establish boot pressure on the hip and tighten the figure-four leg trap to restore spinal rotation and break their posture before re-attacking the head, denying the alignment they need.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retighten boot and leg trap",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the head",
+            "Switch to a different attack"
+          ],
+          "trap": [
+            "Release legs, chase the head"
+          ]
+        }
       },
       {
         "question": "What body action incrementally increases compression once the grip is set?",
         "answer": "Elevating the hips or arching into a controlled bridge feeds additional, measured compression into the lock once the grip and angle are established—escalated only as fast as the partner can respond.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Controlled hip bridge/arch",
+        "distractors": {
+          "plausible": [
+            "Yank the head explosively",
+            "Pull with the arms only"
+          ],
+          "trap": [
+            "Explosive full-force bridge"
+          ]
+        }
       },
       {
         "question": "In a ruleset that bans neck cranks, how should you still use the threat?",
         "answer": "Use it as a positional threat rather than a finish—the defender's reaction to the crank opens the legal twister, calf slicer, or back take—and always confirm legality before applying any pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Positional threat, not finish",
+        "distractors": {
+          "plausible": [
+            "Apply lightly for points",
+            "Fake it, then release fast"
+          ],
+          "trap": [
+            "Apply anyway, hide it"
+          ]
+        }
       }
     ],
     "clips": [
@@ -472,52 +652,152 @@
       {
         "question": "How do you recognize that a neck crank is being set up from Twister Control?",
         "answer": "The primary recognition cues are the attacker's free hand reaching toward your chin, jaw, or behind your head rather than maintaining body grips; feeling an arm threading under your chin or across your face; and a shift in the attacker's weight distribution toward your head end. As soon as you feel any of these cues, you should immediately begin hand fighting to deny the grip before it locks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand reaching for chin or head",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in hip pressure",
+            "Opponent switching base only"
+          ],
+          "trap": [
+            "Ignore it, not a real threat"
+          ]
+        }
       },
       {
         "question": "What is the safest response when the neck crank grip is fully locked and pressure is increasing?",
         "answer": "The safest response is to tap immediately using clear physical or verbal signals. The cervical spine provides minimal proprioceptive warning before structural failure, and the pre-existing body rotation from Twister Control means your spine is already under significant load. Waiting for maximum pain before tapping risks crossing the injury threshold before you can signal submission. Tap with clear physical contact on the attacker's body or the mat, or verbally say 'tap' loudly enough to be heard.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, clearly",
+        "distractors": {
+          "plausible": [
+            "Wait to see if it hurts more",
+            "Try to power out first"
+          ],
+          "trap": [
+            "Try to bridge and roll"
+          ]
+        }
       },
       {
         "question": "What defensive actions are most effective in the early stages of the neck crank setup?",
         "answer": "The most effective early defenses are aggressive hand fighting to prevent the attacker from establishing a clean grip on your head, combined with a deep chin tuck to deny chin strap access specifically. These two defenses work together—the chin tuck blocks the primary grip path while hand fighting prevents the attacker from switching to alternative grips like the crossface or behind-the-head pull. Early defense is critical because effectiveness drops dramatically once any grip is locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand-fight grip, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Wait and see, then react",
+            "Push on opponent's hips"
+          ],
+          "trap": [
+            "Bridge explosively right away"
+          ]
+        }
       },
       {
         "question": "Why is explosive bridging dangerous when your spine is already rotated in Twister Control?",
         "answer": "When your spine is pre-rotated by the Twister Control position, explosive bridging adds force in the direction of the existing rotation rather than reducing it. This can dramatically increase the torque on your cervical vertebrae and actually complete the submission for the attacker. The trapped leg prevents your lower body from moving with the bridge, concentrating all the force through the lumbar and cervical spine. Technical adjustments to reduce rotation must precede any explosive movement.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Adds torque to rotated spine",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, tires you out",
+            "Slows your escape timing"
+          ],
+          "trap": [
+            "Speeds up your escape safely"
+          ]
+        }
       },
       {
         "question": "What is the primary escape strategy when the neck crank grip has been partially established but not fully locked?",
         "answer": "When the grip is partial, you have a narrow window to strip or loosen it with aggressive hand fighting while simultaneously working to extract your trapped leg. Use both hands to attack the attacker's grip—pushing the wrist away from your chin or peeling fingers from behind your head. If you can loosen the grip enough to create a gap, immediately turn into the opponent to reduce spinal rotation and begin working toward guard recovery. Speed and decisiveness matter here because the attacker will be working to deepen the grip while you attempt to remove it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip, free trapped leg",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Tap early to be safe"
+          ],
+          "trap": [
+            "Bridge hard to break free"
+          ]
+        }
       },
       {
         "question": "What is your first priority the moment you feel a neck crank developing?",
         "answer": "Protect your neck first by tucking your chin hard to your chest and hand-fighting the cranking arm with a two-on-one grip; neck safety comes before any escape attempt.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tuck chin, hand-fight grip",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately to escape",
+            "Try to stand up right away"
+          ],
+          "trap": [
+            "Pull head away forcefully"
+          ]
+        }
       },
       {
         "question": "Why must you address the trapped leg rather than only fighting the head?",
         "answer": "The trapped leg and boot pressure are what maintain the spinal rotation that powers the crank; freeing the leg lets you realign your spine and strip the lock of its leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg control powers the rotation",
+        "distractors": {
+          "plausible": [
+            "Head fight is more urgent",
+            "Legs are irrelevant here"
+          ],
+          "trap": [
+            "Ignore legs, fight the grip"
+          ]
+        }
       },
       {
         "question": "When is the safest moment to attempt a granby roll escape?",
         "answer": "Before the chin-strap grip fully locks and while the rotation is still partial; once the grip and full rotation are set, rolling can feed torque into your neck instead of relieving it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Before grip fully locks",
+        "distractors": {
+          "plausible": [
+            "Anytime during the crank",
+            "Once rotation maxes out"
+          ],
+          "trap": [
+            "After grip locks completely"
+          ]
+        }
       },
       {
         "question": "Why must you tap early to a neck crank rather than trying to ride it out?",
         "answer": "The cervical spine gives minimal warning before catastrophic failure, so a late tap risks permanent injury; if escape is gone, tap early—verbally if your hands are trapped.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Little warning before damage",
+        "distractors": {
+          "plausible": [
+            "Riding it out builds toughness",
+            "Tapping late shows strength"
+          ],
+          "trap": [
+            "Wait until you feel real pain"
+          ]
+        }
       },
       {
         "question": "The opponent threads an arm under your chin—what is your immediate action?",
         "answer": "Drive your chin to your chest to deny the leverage and clamp a two-on-one on that arm to peel it away before the chin-strap grip can lock around your head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin to chest, two-on-one grip",
+        "distractors": {
+          "plausible": [
+            "Push on opponent's hips",
+            "Try to stand up immediately"
+          ],
+          "trap": [
+            "Pull the arm off, then relax"
+          ]
+        }
       }
     ],
     "training_progressions": [

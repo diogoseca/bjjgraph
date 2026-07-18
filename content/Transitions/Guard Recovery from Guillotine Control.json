@@ -244,43 +244,143 @@
     "flashcards": [
       {
         "question": "What is the critical first action before releasing a failing guillotine grip to ensure safe guard recovery?",
-        "answer": "Position your legs as distance barriers before releasing the guillotine—place feet on the opponent's hips or insert butterfly hooks under their thighs. This ensures continuous distance management throughout the grip transition, preventing the opponent from collapsing into passing pressure during the brief window when your arms are switching from choke to frames."
+        "answer": "Position your legs as distance barriers before releasing the guillotine—place feet on the opponent's hips or insert butterfly hooks under their thighs. This ensures continuous distance management throughout the grip transition, preventing the opponent from collapsing into passing pressure during the brief window when your arms are switching from choke to frames.",
+        "answer_line": "Feet on hips before releasing",
+        "distractors": {
+          "plausible": [
+            "Frame first, adjust legs later",
+            "Release grip then reposition legs"
+          ],
+          "trap": [
+            "Squeeze harder to finish choke"
+          ]
+        }
       },
       {
         "question": "Why is it important to release the guillotine proactively rather than waiting for the opponent to fully extract their head?",
-        "answer": "Proactive release preserves your grip strength for framing and allows you to control the transition timing. When you wait for full extraction, the opponent dictates when and how the position changes, they have already planned their next passing action, and your forearms are exhausted from maintaining a failing choke, making your subsequent frames weak and easily collapsed."
+        "answer": "Proactive release preserves your grip strength for framing and allows you to control the transition timing. When you wait for full extraction, the opponent dictates when and how the position changes, they have already planned their next passing action, and your forearms are exhausted from maintaining a failing choke, making your subsequent frames weak and easily collapsed.",
+        "answer_line": "Preserve strength, control timing",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully posture",
+            "Release only when arms exhausted"
+          ],
+          "trap": [
+            "Hold grip as long as possible"
+          ]
+        }
       },
       {
         "question": "Your opponent postures explosively as you release the guillotine and begins establishing passing grips—what is your recovery priority?",
-        "answer": "Immediately chase with feet on hips to maintain connection and extend your legs to push them away while securing at least one collar or sleeve grip. The feet-on-hips position converts their explosive posture into a long-range open guard engagement where your legs control distance. Without this immediate chase, the opponent creates free space to choose their passing angle and grip setup."
+        "answer": "Immediately chase with feet on hips to maintain connection and extend your legs to push them away while securing at least one collar or sleeve grip. The feet-on-hips position converts their explosive posture into a long-range open guard engagement where your legs control distance. Without this immediate chase, the opponent creates free space to choose their passing angle and grip setup.",
+        "answer_line": "Feet on hips, secure a grip",
+        "distractors": {
+          "plausible": [
+            "Retreat to create space",
+            "Grab both sleeves immediately"
+          ],
+          "trap": [
+            "Let go completely and scramble"
+          ]
+        }
       },
       {
         "question": "What open guard variation should you prioritize after recovering from guillotine control and why?",
-        "answer": "Prioritize whatever guard variation matches the grips and distance available rather than forcing a specific guard. If you retained collar and sleeve control, spider or collar-sleeve guard is natural. If the opponent stays close with forward pressure, butterfly guard with underhook control is more appropriate. Forcing a specific guard wastes the recovery window and creates openings for the passer."
+        "answer": "Prioritize whatever guard variation matches the grips and distance available rather than forcing a specific guard. If you retained collar and sleeve control, spider or collar-sleeve guard is natural. If the opponent stays close with forward pressure, butterfly guard with underhook control is more appropriate. Forcing a specific guard wastes the recovery window and creates openings for the passer.",
+        "answer_line": "Match guard to grips available",
+        "distractors": {
+          "plausible": [
+            "Always go to spider guard",
+            "Force closed guard every time"
+          ],
+          "trap": [
+            "Abandon grips, stand up"
+          ]
+        }
       },
       {
         "question": "How does the hip escape timing differ in guard recovery from guillotine control compared to guard recovery from a standard passing position?",
-        "answer": "In guillotine recovery, the hip escape must coincide with the grip release rather than being a reaction to passing pressure. You are creating the angle proactively during a planned transition, not escaping from an established passing position. This means the hip escape happens simultaneously with the hand transition, requiring more coordination but allowing better timing since you control when the movement sequence begins."
+        "answer": "In guillotine recovery, the hip escape must coincide with the grip release rather than being a reaction to passing pressure. You are creating the angle proactively during a planned transition, not escaping from an established passing position. This means the hip escape happens simultaneously with the hand transition, requiring more coordination but allowing better timing since you control when the movement sequence begins.",
+        "answer_line": "Escape hips as you release grip",
+        "distractors": {
+          "plausible": [
+            "Escape after they start passing",
+            "Escape before releasing grip"
+          ],
+          "trap": [
+            "Wait for their pass to react"
+          ]
+        }
       },
       {
         "question": "What specific grip should your choking hand transition to during the release, and in which direction should the force be applied?",
-        "answer": "The choking hand should transition to a collar grip or cross-face frame on the opponent's far shoulder, applying force diagonally downward and away from your body. This direction prevents the opponent from driving forward through your centerline while maintaining head control that was partially established by the guillotine position. The diagonal force vector creates a structural frame that uses skeletal alignment rather than muscular strength."
+        "answer": "The choking hand should transition to a collar grip or cross-face frame on the opponent's far shoulder, applying force diagonally downward and away from your body. This direction prevents the opponent from driving forward through your centerline while maintaining head control that was partially established by the guillotine position. The diagonal force vector creates a structural frame that uses skeletal alignment rather than muscular strength.",
+        "answer_line": "Collar/cross-face, push down-away",
+        "distractors": {
+          "plausible": [
+            "Underhook, pull up and in",
+            "Wrist grip, push straight down"
+          ],
+          "trap": [
+            "Push straight forward into them"
+          ]
+        }
       },
       {
         "question": "Your opponent drives a knee slice through your centerline during the recovery—how do you adjust the recovery sequence?",
-        "answer": "Abandon the open guard recovery and transition to knee shield half guard by catching the slicing leg with your near-side knee frame while securing an underhook with the arm closest to the opponent. The key adjustment is accepting the half guard fallback immediately rather than fighting for open guard distance that is no longer available. From knee shield half guard you maintain a strong defensive platform with sweep options through the underhook."
+        "answer": "Abandon the open guard recovery and transition to knee shield half guard by catching the slicing leg with your near-side knee frame while securing an underhook with the arm closest to the opponent. The key adjustment is accepting the half guard fallback immediately rather than fighting for open guard distance that is no longer available. From knee shield half guard you maintain a strong defensive platform with sweep options through the underhook.",
+        "answer_line": "Catch knee, fall to knee shield half",
+        "distractors": {
+          "plausible": [
+            "Fight for open guard distance",
+            "Push off and reset to feet"
+          ],
+          "trap": [
+            "Turn away and give up back"
+          ]
+        }
       },
       {
         "question": "How does the shin frame function differently in this guard recovery compared to standard guard retention?",
-        "answer": "In guillotine recovery, the shin frame serves as a temporary structural bridge between the release of head control and the establishment of full open guard grips. Unlike standard guard retention where the shin frame is a reactive barrier against passing, here it is inserted proactively into the space created by the hip escape to buy time for grip establishment. The shin must be angled across the opponent's midsection rather than vertically, preventing them from simply driving over or around it."
+        "answer": "In guillotine recovery, the shin frame serves as a temporary structural bridge between the release of head control and the establishment of full open guard grips. Unlike standard guard retention where the shin frame is a reactive barrier against passing, here it is inserted proactively into the space created by the hip escape to buy time for grip establishment. The shin must be angled across the opponent's midsection rather than vertically, preventing them from simply driving over or around it.",
+        "answer_line": "Angled bridge during grip switch",
+        "distractors": {
+          "plausible": [
+            "Vertical wall like normal retention",
+            "Used only after guard is set"
+          ],
+          "trap": [
+            "Push straight up to stand"
+          ]
+        }
       },
       {
         "question": "What offensive sequences should you immediately threaten within three seconds of successfully recovering open guard?",
-        "answer": "Immediately threaten a sweep or submission that matches your recovered guard type—collar-sleeve guard leads to scissor sweep or triangle setup, butterfly guard to hook sweep or arm drag, De La Riva to off-balance and back take. The immediate offensive threat prevents the opponent from settling into a passing stance and punishes their failed attempt to advance during the transition. Opponents who just escaped a guillotine are often mentally relieved and briefly drop their passing urgency, creating an exploitable window."
+        "answer": "Immediately threaten a sweep or submission that matches your recovered guard type—collar-sleeve guard leads to scissor sweep or triangle setup, butterfly guard to hook sweep or arm drag, De La Riva to off-balance and back take. The immediate offensive threat prevents the opponent from settling into a passing stance and punishes their failed attempt to advance during the transition. Opponents who just escaped a guillotine are often mentally relieved and briefly drop their passing urgency, creating an exploitable window.",
+        "answer_line": "Threaten sweep/sub matching guard",
+        "distractors": {
+          "plausible": [
+            "Wait and reset to neutral",
+            "Stall to recover grip strength"
+          ],
+          "trap": [
+            "Release all grips to reset"
+          ]
+        }
       },
       {
         "question": "What are the grip strength management considerations unique to this recovery that do not apply to other guard recovery scenarios?",
-        "answer": "The guillotine grip fatigues the forearm flexors intensely, and this fatigue directly compromises your ability to establish the collar and sleeve grips needed for open guard. You must account for degraded grip endurance when planning the recovery—this is why proactive release before total grip failure is essential. If your forearms are severely fatigued, prioritize feet-on-hips distance management and shin frames that rely on leg strength rather than grip-dependent guards like spider or lasso that would collapse under compromised grip endurance."
+        "answer": "The guillotine grip fatigues the forearm flexors intensely, and this fatigue directly compromises your ability to establish the collar and sleeve grips needed for open guard. You must account for degraded grip endurance when planning the recovery—this is why proactive release before total grip failure is essential. If your forearms are severely fatigued, prioritize feet-on-hips distance management and shin frames that rely on leg strength rather than grip-dependent guards like spider or lasso that would collapse under compromised grip endurance.",
+        "answer_line": "Favor leg-based frames over grips",
+        "distractors": {
+          "plausible": [
+            "Grip spider guard immediately",
+            "Ignore fatigue, grip harder"
+          ],
+          "trap": [
+            "Switch to lasso guard grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard recovery from guillotine control carries moderate risk primarily from neck strain. The guillotine position itself places stress on the cervical spine, and transitioning out of it while the opponent may still have partial head control requires careful neck management. Avoid explosive head movements to extract from residual guillotine pressure—instead, use posture and framing to gradually relieve neck compression. Communicate with training partners about choke intensity during guillotine-to-guard-recovery drilling to prevent carotid compression injuries during the transition window.",
@@ -388,23 +488,73 @@
     "flashcards": [
       {
         "question": "What is the highest-percentage moment to advance past the bottom player's guard during guillotine recovery?",
-        "answer": "The highest-percentage moment is during the grip transition window—the brief period when the bottom player's arms are switching from guillotine choking grip to defensive frames. During this window, neither their arms nor their legs are optimally positioned for guard retention, creating a gap in their defensive structure that allows forward advancement past their legs into side control."
+        "answer": "The highest-percentage moment is during the grip transition window—the brief period when the bottom player's arms are switching from guillotine choking grip to defensive frames. During this window, neither their arms nor their legs are optimally positioned for guard retention, creating a gap in their defensive structure that allows forward advancement past their legs into side control.",
+        "answer_line": "During the grip transition window",
+        "distractors": {
+          "plausible": [
+            "After guard is fully established",
+            "Before the guillotine is applied"
+          ],
+          "trap": [
+            "Wait until they stand up"
+          ]
+        }
       },
       {
         "question": "Why should you stay low and drive forward rather than standing up when the guillotine is released?",
-        "answer": "Standing up creates vertical distance that the bottom player exploits by placing feet on your hips, establishing the distance platform for open guard engagement. Staying low denies this distance by keeping your hips below their feet, while forward driving pressure prevents frame establishment and forces the bottom player to address your weight before they can recompose guard structure."
+        "answer": "Standing up creates vertical distance that the bottom player exploits by placing feet on your hips, establishing the distance platform for open guard engagement. Staying low denies this distance by keeping your hips below their feet, while forward driving pressure prevents frame establishment and forces the bottom player to address your weight before they can recompose guard structure.",
+        "answer_line": "Denies feet-on-hips distance",
+        "distractors": {
+          "plausible": [
+            "Stand to see the whole position",
+            "Stand to avoid getting swept"
+          ],
+          "trap": [
+            "Stand up and posture out"
+          ]
+        }
       },
       {
         "question": "The bottom player has established feet on your hips after releasing the guillotine—what is your best passing strategy?",
-        "answer": "Grip both pants or ankles and work to stack or redirect their legs to one side for a toreando or leg-drag pass. Do not fight the feet-on-hips position by trying to walk through it, as their leg strength will outmatch your forward drive. Instead, control their legs as passing handles and use angular movement to clear their leg barriers while maintaining forward pressure to prevent them from recovering distance."
+        "answer": "Grip both pants or ankles and work to stack or redirect their legs to one side for a toreando or leg-drag pass. Do not fight the feet-on-hips position by trying to walk through it, as their leg strength will outmatch your forward drive. Instead, control their legs as passing handles and use angular movement to clear their leg barriers while maintaining forward pressure to prevent them from recovering distance.",
+        "answer_line": "Grip legs, stack or leg-drag pass",
+        "distractors": {
+          "plausible": [
+            "Walk forward through the feet",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Push straight through their feet"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from inserting butterfly hooks during the guillotine release transition?",
-        "answer": "Keep your hips heavy and low, driving your weight forward into the bottom player's thighs to deny the space needed for hook insertion. If you feel their heels beginning to hook under your thighs, immediately sprawl your hips back and down to flatten their hooks against the mat. The key is preemptive hip pressure—once butterfly hooks are established with an underhook, the bottom player has a strong sweeping platform that is much harder to neutralize than to prevent."
+        "answer": "Keep your hips heavy and low, driving your weight forward into the bottom player's thighs to deny the space needed for hook insertion. If you feel their heels beginning to hook under your thighs, immediately sprawl your hips back and down to flatten their hooks against the mat. The key is preemptive hip pressure—once butterfly hooks are established with an underhook, the bottom player has a strong sweeping platform that is much harder to neutralize than to prevent.",
+        "answer_line": "Heavy hips, sprawl if hooks come",
+        "distractors": {
+          "plausible": [
+            "Stand tall to avoid hooks",
+            "Grip legs after hooks are in"
+          ],
+          "trap": [
+            "Sit back and create space"
+          ]
+        }
       },
       {
         "question": "How should you manage head extraction while simultaneously advancing position during the transition?",
-        "answer": "Drive your forehead into the bottom player's sternum or shoulder while pushing forward with your hips, using your forward momentum to both create pressure and work your head free from residual neck control. The forward drive naturally extracts the head by changing the angle of your neck relative to their grip. Never pull your head straight back to extract it, as this creates the vertical distance that enables open guard recovery. Your head extraction and positional advancement should be the same movement, not sequential actions."
+        "answer": "Drive your forehead into the bottom player's sternum or shoulder while pushing forward with your hips, using your forward momentum to both create pressure and work your head free from residual neck control. The forward drive naturally extracts the head by changing the angle of your neck relative to their grip. Never pull your head straight back to extract it, as this creates the vertical distance that enables open guard recovery. Your head extraction and positional advancement should be the same movement, not sequential actions.",
+        "answer_line": "Drive forward, extract with pressure",
+        "distractors": {
+          "plausible": [
+            "Pull head straight back first",
+            "Extract head, then advance"
+          ],
+          "trap": [
+            "Yank head back to create room"
+          ]
+        }
       }
     ],
     "training_progressions": [

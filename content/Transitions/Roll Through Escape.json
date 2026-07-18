@@ -209,51 +209,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Roll Through Escape?",
-        "answer": "The primary goal is to realign your spine by rolling with the opponent's established rotation rather than against it, using their rotational pressure as momentum to escape Twister Control and recover to open guard position."
+        "answer": "The primary goal is to realign your spine by rolling with the opponent's established rotation rather than against it, using their rotational pressure as momentum to escape Twister Control and recover to open guard position.",
+        "answer_line": "Roll with twist to open guard",
+        "distractors": {
+          "plausible": [
+            "Roll against twist to escape",
+            "Power through with strength"
+          ],
+          "trap": [
+            "Brace stiff and fight rotation"
+          ]
+        }
       },
       {
         "question": "What position do you start Roll Through Escape from?",
-        "answer": "This technique starts from Twister Control Bottom, where your spine is twisted with the opponent controlling one of your legs while applying rotational pressure to your upper body."
+        "answer": "This technique starts from Twister Control Bottom, where your spine is twisted with the opponent controlling one of your legs while applying rotational pressure to your upper body.",
+        "answer_line": "Twister Control Bottom",
+        "distractors": {
+          "plausible": [
+            "Back Control Bottom",
+            "Truck Position Bottom"
+          ],
+          "trap": [
+            "Twister Control Top"
+          ]
+        }
       },
       {
         "question": "Why must you roll with the twist rather than against it?",
-        "answer": "Rolling against the twist increases spinal torque and accelerates the submission, potentially causing injury. Rolling with the twist converts opponent's rotational pressure into escape momentum, using their own force to break free from the control position."
+        "answer": "Rolling against the twist increases spinal torque and accelerates the submission, potentially causing injury. Rolling with the twist converts opponent's rotational pressure into escape momentum, using their own force to break free from the control position.",
+        "answer_line": "Uses their force, avoids injury",
+        "distractors": {
+          "plausible": [
+            "Against twist escapes faster",
+            "Against twist is more secure"
+          ],
+          "trap": [
+            "Roll against it to break grips"
+          ]
+        }
       },
       {
         "question": "What are the key grips and frames needed for Roll Through Escape?",
-        "answer": "You need forearm frames with elbows tight to your body creating barriers against opponent's upper body. These frames prevent opponent from following through the roll. No specific offensive grips are needed; the emphasis is on defensive framing throughout the rotation."
+        "answer": "You need forearm frames with elbows tight to your body creating barriers against opponent's upper body. These frames prevent opponent from following through the roll. No specific offensive grips are needed; the emphasis is on defensive framing throughout the rotation.",
+        "answer_line": "Forearm frames, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Overhook the far arm first",
+            "Underhook the near leg"
+          ],
+          "trap": [
+            "Grab their collar for control"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window for attempting Roll Through Escape?",
-        "answer": "The optimal window occurs when opponent transitions their grips or adjusts their position, momentarily weakening their structural control. This is typically when they release one control point to secure another, creating the brief slack needed to initiate the roll."
+        "answer": "The optimal window occurs when opponent transitions their grips or adjusts their position, momentarily weakening their structural control. This is typically when they release one control point to secure another, creating the brief slack needed to initiate the roll.",
+        "answer_line": "When opponent adjusts grips",
+        "distractors": {
+          "plausible": [
+            "Right after they secure control",
+            "As soon as the twist begins"
+          ],
+          "trap": [
+            "Once they lock finishing grips"
+          ]
+        }
       },
       {
         "question": "How do you counter Roll Through Escape when you are the top player?",
-        "answer": "Deepen leg control immediately when feeling opponent create slack to prevent roll initiation. Alternatively, follow their roll maintaining connection to re-establish control on the other side. A guillotine transition during their roll is high-percentage if you catch their neck during rotation."
+        "answer": "Deepen leg control immediately when feeling opponent create slack to prevent roll initiation. Alternatively, follow their roll maintaining connection to re-establish control on the other side. A guillotine transition during their roll is high-percentage if you catch their neck during rotation.",
+        "answer_line": "Deepen leg control immediately",
+        "distractors": {
+          "plausible": [
+            "Follow the roll to re-control",
+            "Catch a guillotine mid-roll"
+          ],
+          "trap": [
+            "Release the leg to chase arms"
+          ]
+        }
       },
       {
         "question": "Your opponent begins following your roll to re-establish control - how do you adjust?",
-        "answer": "Accelerate through the roll faster than they can follow, maintaining strong frames throughout. Upon completing rotation, immediately establish feet on hips and hand controls before they can re-engage. Speed and immediate guard establishment are critical when opponent attempts to follow."
+        "answer": "Accelerate through the roll faster than they can follow, maintaining strong frames throughout. Upon completing rotation, immediately establish feet on hips and hand controls before they can re-engage. Speed and immediate guard establishment are critical when opponent attempts to follow.",
+        "answer_line": "Accelerate, then set up guard",
+        "distractors": {
+          "plausible": [
+            "Slow down to reset frames",
+            "Stop the roll to re-frame"
+          ],
+          "trap": [
+            "Drop frames to move faster"
+          ]
+        }
       },
       {
         "question": "What should you do if opponent secures finishing grips on your head before you can initiate the escape?",
-        "answer": "Do not attempt the roll if finishing grips are secured as this will tighten the submission and risk serious neck injury. Instead, prioritize hand fighting to break the finishing grips, or tap if the submission is locked in. Safety takes priority over escape attempts."
+        "answer": "Do not attempt the roll if finishing grips are secured as this will tighten the submission and risk serious neck injury. Instead, prioritize hand fighting to break the finishing grips, or tap if the submission is locked in. Safety takes priority over escape attempts.",
+        "answer_line": "Break grips or tap, don't roll",
+        "distractors": {
+          "plausible": [
+            "Roll faster to escape grips",
+            "Push through the roll anyway"
+          ],
+          "trap": [
+            "Force the roll through the lock"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement required to create initial slack in the trapped leg?",
-        "answer": "Use small lateral hip wiggles and micro-shrimps directed away from the trapped leg to create even minimal looseness in the leg entanglement. These small movements reduce the static friction holding your leg in place. Do not attempt large explosive hip escapes as these telegraph your intent and allow opponent to tighten controls."
+        "answer": "Use small lateral hip wiggles and micro-shrimps directed away from the trapped leg to create even minimal looseness in the leg entanglement. These small movements reduce the static friction holding your leg in place. Do not attempt large explosive hip escapes as these telegraph your intent and allow opponent to tighten controls.",
+        "answer_line": "Small hip wiggles, not big moves",
+        "distractors": {
+          "plausible": [
+            "One explosive hip escape",
+            "Large bridge to create space"
+          ],
+          "trap": [
+            "Big explosive shrimp escape"
+          ]
+        }
       },
       {
         "question": "Your free leg cannot find a solid posting angle because opponent is blocking it - what alternative initiates the roll?",
-        "answer": "Use your upper body frames to generate the initial rotational force instead. Push forcefully off the mat with your near-side elbow and forearm while simultaneously driving your far-side shoulder into the rotation. You can also use a modified shoulder roll entry where your shoulder contacts the mat first and generates momentum through upper body rotation rather than leg posting."
+        "answer": "Use your upper body frames to generate the initial rotational force instead. Push forcefully off the mat with your near-side elbow and forearm while simultaneously driving your far-side shoulder into the rotation. You can also use a modified shoulder roll entry where your shoulder contacts the mat first and generates momentum through upper body rotation rather than leg posting.",
+        "answer_line": "Push off elbow, shoulder first",
+        "distractors": {
+          "plausible": [
+            "Force the leg through anyway",
+            "Wait for opponent to shift"
+          ],
+          "trap": [
+            "Drop frames, push with legs"
+          ]
+        }
       },
       {
         "question": "What is the direction of force application during step 4 of the execution?",
-        "answer": "The force must be directed rotationally in the same direction as the opponent's established twist, not linearly away from them. Drive off the posting leg at approximately a 45-degree angle into the rotation while your frames push laterally against opponent's chest. The combined vectors create a spiraling force path that accelerates you through the opponent's existing rotational constraint."
+        "answer": "The force must be directed rotationally in the same direction as the opponent's established twist, not linearly away from them. Drive off the posting leg at approximately a 45-degree angle into the rotation while your frames push laterally against opponent's chest. The combined vectors create a spiraling force path that accelerates you through the opponent's existing rotational constraint.",
+        "answer_line": "Same direction as their twist",
+        "distractors": {
+          "plausible": [
+            "Straight away from opponent",
+            "Rotate against their twist"
+          ],
+          "trap": [
+            "Push straight away, linear force"
+          ]
+        }
       },
       {
         "question": "The Roll Through Escape fails and you remain in Twister Control - what is the correct chain attack sequence?",
-        "answer": "Immediately return to defensive framing and neck protection rather than reattempting the same escape. Switch to hip escape to guard or bridge and turn to turtle as secondary options. If opponent loosened their leg control during your attempt even slightly, a leg extraction escape may now be available. Chain between these options based on which control points weakened during the failed roll attempt."
+        "answer": "Immediately return to defensive framing and neck protection rather than reattempting the same escape. Switch to hip escape to guard or bridge and turn to turtle as secondary options. If opponent loosened their leg control during your attempt even slightly, a leg extraction escape may now be available. Chain between these options based on which control points weakened during the failed roll attempt.",
+        "answer_line": "Reframe first, then hip escape",
+        "distractors": {
+          "plausible": [
+            "Retry the same roll harder",
+            "Go straight to leg extraction"
+          ],
+          "trap": [
+            "Repeat the same roll attempt"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Roll Through Escape carries significant risk when performed incorrectly. Never attempt this escape if opponent has secured finishing grips on your head or neck, as the rolling motion will accelerate spinal torque and can cause cervical spine injury. Always roll with the established rotation direction rather than against it. Tap immediately if you feel neck strain or the submission tightening during the escape attempt. Practice this technique progressively with cooperative partners before attempting against full resistance. The neck and spine are particularly vulnerable during Twister Control, and forcing an escape when controls are deeply established risks serious injury that could have long-term consequences.",
@@ -364,23 +484,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing a Roll Through Escape?",
-        "answer": "The earliest cue is small hip wiggles and micro-shrimp movements directed away from the trapped leg. These subtle adjustments indicate the bottom player is working to create slack in the leg entanglement, which is the essential first step before they can establish frames and initiate the roll. Detecting this early allows you to deepen controls before the escape progresses."
+        "answer": "The earliest cue is small hip wiggles and micro-shrimp movements directed away from the trapped leg. These subtle adjustments indicate the bottom player is working to create slack in the leg entanglement, which is the essential first step before they can establish frames and initiate the roll. Detecting this early allows you to deepen controls before the escape progresses.",
+        "answer_line": "Small hip wiggles away from leg",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge",
+            "Reaching for your far arm"
+          ],
+          "trap": [
+            "Ignore it until they post a leg"
+          ]
+        }
       },
       {
         "question": "Your opponent has already committed to the roll with full momentum - what is the optimal defensive response?",
-        "answer": "Follow the rotation maintaining chest-to-back connection and upper body control rather than resisting statically. As they complete the roll, immediately transition to back control by inserting hooks and establishing seatbelt grip before they can create distance. Static resistance against committed rotational momentum is ineffective and results in complete loss of position."
+        "answer": "Follow the rotation maintaining chest-to-back connection and upper body control rather than resisting statically. As they complete the roll, immediately transition to back control by inserting hooks and establishing seatbelt grip before they can create distance. Static resistance against committed rotational momentum is ineffective and results in complete loss of position.",
+        "answer_line": "Follow, then insert hooks fast",
+        "distractors": {
+          "plausible": [
+            "Resist statically to stop them",
+            "Push away to reset position"
+          ],
+          "trap": [
+            "Brace and stop the rotation"
+          ]
+        }
       },
       {
         "question": "Why is deepening leg control the single most effective prevention against Roll Through Escape?",
-        "answer": "The Roll Through Escape requires overcoming the trapped leg configuration through rotational momentum. Without any slack in the leg entanglement, the bottom player cannot generate sufficient force to complete the roll regardless of their upper body frames or posting leg. Deep leg control is the root cause prevention that eliminates the escape at its mechanical foundation."
+        "answer": "The Roll Through Escape requires overcoming the trapped leg configuration through rotational momentum. Without any slack in the leg entanglement, the bottom player cannot generate sufficient force to complete the roll regardless of their upper body frames or posting leg. Deep leg control is the root cause prevention that eliminates the escape at its mechanical foundation.",
+        "answer_line": "Removes slack, kills roll's base",
+        "distractors": {
+          "plausible": [
+            "Strong upper body frames alone",
+            "Tighter neck pressure alone"
+          ],
+          "trap": [
+            "Loosen leg to bait a tap"
+          ]
+        }
       },
       {
         "question": "How does the defender transition from following a roll to establishing back control?",
-        "answer": "As you follow the rotation maintaining chest connection, your body naturally arrives behind the opponent in a back exposure configuration. The moment they complete their roll and begin reaching for guard structure, insert your hooks inside their thighs and lock a seatbelt grip over their shoulder and under their armpit. The key is maintaining chest contact throughout the transition so there is no gap for them to establish distance or frames."
+        "answer": "As you follow the rotation maintaining chest connection, your body naturally arrives behind the opponent in a back exposure configuration. The moment they complete their roll and begin reaching for guard structure, insert your hooks inside their thighs and lock a seatbelt grip over their shoulder and under their armpit. The key is maintaining chest contact throughout the transition so there is no gap for them to establish distance or frames.",
+        "answer_line": "Keep chest contact, insert hooks",
+        "distractors": {
+          "plausible": [
+            "Release chest to grab a collar",
+            "Wait until they stand up"
+          ],
+          "trap": [
+            "Let go of connection, chase legs"
+          ]
+        }
       },
       {
         "question": "What vulnerability does the Roll Through Escape create that the defender can exploit for a guillotine?",
-        "answer": "During the midpoint of the roll, the bottom player's chin and neck become temporarily exposed as their defensive frames are occupied generating and maintaining rotational momentum. Their tucked chin position naturally loosens as they focus on completing the rotation. This window allows the defender to catch a guillotine grip around the neck, converting the escape attempt into a submission opportunity from front headlock control."
+        "answer": "During the midpoint of the roll, the bottom player's chin and neck become temporarily exposed as their defensive frames are occupied generating and maintaining rotational momentum. Their tucked chin position naturally loosens as they focus on completing the rotation. This window allows the defender to catch a guillotine grip around the neck, converting the escape attempt into a submission opportunity from front headlock control.",
+        "answer_line": "Neck exposed mid-roll",
+        "distractors": {
+          "plausible": [
+            "Arm exposed while posting",
+            "Back exposed at roll start"
+          ],
+          "trap": [
+            "Chase the legs, ignore the neck"
+          ]
+        }
       }
     ],
     "training_progressions": [

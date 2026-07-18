@@ -250,51 +250,171 @@
     "flashcards": [
       {
         "question": "What is the optimal hip angle needed before threading your leg over opponent's shoulder for omoplata entry?",
-        "answer": "Approximately 45 degrees perpendicular to opponent's torso. Your hips should be angled so that your body forms an 'L' shape with the opponent's body. This angle allows proper leg threading while maintaining arm control and base breaking capability. Without this angle, the leg cannot be effectively positioned over the shoulder."
+        "answer": "Approximately 45 degrees perpendicular to opponent's torso. Your hips should be angled so that your body forms an 'L' shape with the opponent's body. This angle allows proper leg threading while maintaining arm control and base breaking capability. Without this angle, the leg cannot be effectively positioned over the shoulder.",
+        "answer_line": "45° angle, form an L-shape",
+        "distractors": {
+          "plausible": [
+            "Square up hips to 90°",
+            "Keep hips flat, no angle"
+          ],
+          "trap": [
+            "Angle hips away from arm"
+          ]
+        }
       },
       {
         "question": "Why is maintaining continuous arm control critical throughout the omoplata transition?",
-        "answer": "Continuous arm control prevents the opponent from withdrawing their arm before the leg position is secured, which would completely defeat the technique. The arm control also helps break their posture and prevents them from posting to maintain base. Once arm control is lost, the opponent can easily defend, escape, or even counter with guard passes. The grip serves as your anchor point for the entire transition sequence."
+        "answer": "Continuous arm control prevents the opponent from withdrawing their arm before the leg position is secured, which would completely defeat the technique. The arm control also helps break their posture and prevents them from posting to maintain base. Once arm control is lost, the opponent can easily defend, escape, or even counter with guard passes. The grip serves as your anchor point for the entire transition sequence.",
+        "answer_line": "Anchor grip stops arm pull",
+        "distractors": {
+          "plausible": [
+            "Nice to have, not essential",
+            "Only needed after leg over"
+          ],
+          "trap": [
+            "Release grip to switch base"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent begins rolling forward to escape the omoplata shoulder pressure?",
-        "answer": "Follow their forward roll momentum and transition to back control by releasing the omoplata lock and securing seat belt grip as they expose their back. Alternatively, you can use their roll to complete a sweep to mount position by maintaining hip control and riding their momentum. The key is to never fight against their roll direction but rather use it to advance your position. This is why omoplata is considered a high-percentage position even if the submission doesn't finish."
+        "answer": "Follow their forward roll momentum and transition to back control by releasing the omoplata lock and securing seat belt grip as they expose their back. Alternatively, you can use their roll to complete a sweep to mount position by maintaining hip control and riding their momentum. The key is to never fight against their roll direction but rather use it to advance your position. This is why omoplata is considered a high-percentage position even if the submission doesn't finish.",
+        "answer_line": "Follow roll into back control",
+        "distractors": {
+          "plausible": [
+            "Fight the roll, hold lock",
+            "Release and reset guard"
+          ],
+          "trap": [
+            "Pull back against momentum"
+          ]
+        }
       },
       {
         "question": "What is the primary biomechanical purpose of the figure-four leg configuration in omoplata control?",
-        "answer": "The figure-four leg lock traps the opponent's arm between your legs creating a wedge that prevents arm withdrawal, while simultaneously controlling their head and posture with the top leg. The bottom leg acts as a barrier against arm escape while the top leg creates downward pressure on their neck and shoulder. This configuration allows you to control both their arm and their entire upper body posture using just your leg positioning, freeing your hands for grip fighting and position adjustments."
+        "answer": "The figure-four leg lock traps the opponent's arm between your legs creating a wedge that prevents arm withdrawal, while simultaneously controlling their head and posture with the top leg. The bottom leg acts as a barrier against arm escape while the top leg creates downward pressure on their neck and shoulder. This configuration allows you to control both their arm and their entire upper body posture using just your leg positioning, freeing your hands for grip fighting and position adjustments.",
+        "answer_line": "Traps arm, controls head/neck",
+        "distractors": {
+          "plausible": [
+            "Only locks the wrist joint",
+            "Hands do the real controlling"
+          ],
+          "trap": [
+            "Squeeze knees for a choke"
+          ]
+        }
       },
       {
         "question": "Describe the relationship between omoplata and triangle attacks in terms of creating offensive dilemmas?",
-        "answer": "Omoplata and triangle create complementary attacks where defense against one naturally sets up the other. When opponent defends triangle by tucking their arm and hiding it close to their body, they create the perfect arm position for omoplata entry. Conversely, when they defend omoplata by withdrawing their arm, they expose their neck for triangle entry. This dual threat forces opponents into positional dilemmas where any defensive choice leads to another attack, exemplifying high-level guard strategy."
+        "answer": "Omoplata and triangle create complementary attacks where defense against one naturally sets up the other. When opponent defends triangle by tucking their arm and hiding it close to their body, they create the perfect arm position for omoplata entry. Conversely, when they defend omoplata by withdrawing their arm, they expose their neck for triangle entry. This dual threat forces opponents into positional dilemmas where any defensive choice leads to another attack, exemplifying high-level guard strategy.",
+        "answer_line": "Defending one sets up other",
+        "distractors": {
+          "plausible": [
+            "Both attack same exact spot",
+            "Only useful in strict sequence"
+          ],
+          "trap": [
+            "Never combine, pick one path"
+          ]
+        }
       },
       {
         "question": "What are the three primary finishing options available from established omoplata control position?",
-        "answer": "The three primary options are: 1) Finishing the shoulder lock submission by sitting up and creating rotational pressure on the shoulder joint, 2) Transitioning to back control when opponent rolls forward to escape the shoulder pressure, or 3) Completing a sweep to mount or side control by controlling their hips and using their compromised base. Advanced practitioners seamlessly flow between these options based on opponent's defensive reactions, making omoplata position extremely high percentage even without the submission finish."
+        "answer": "The three primary options are: 1) Finishing the shoulder lock submission by sitting up and creating rotational pressure on the shoulder joint, 2) Transitioning to back control when opponent rolls forward to escape the shoulder pressure, or 3) Completing a sweep to mount or side control by controlling their hips and using their compromised base. Advanced practitioners seamlessly flow between these options based on opponent's defensive reactions, making omoplata position extremely high percentage even without the submission finish.",
+        "answer_line": "Submit, back take, or sweep",
+        "distractors": {
+          "plausible": [
+            "Only the shoulder lock finish",
+            "Pass guard, then submit"
+          ],
+          "trap": [
+            "Stand up and stack pass"
+          ]
+        }
       },
       {
         "question": "Why is the omoplata transition particularly effective from spider guard compared to other guard variations?",
-        "answer": "Spider guard provides natural arm extension and isolation with feet on biceps, creating excellent control and preventing arm withdrawal. The feet-on-biceps grips already position the opponent's arms in vulnerable extension, and the guard configuration naturally breaks their posture forward. When swinging leg over shoulder from spider guard, the other foot maintains pressure preventing compensatory movements. The spider guard structure essentially pre-loads many of the positional requirements needed for successful omoplata entry, making it one of the highest percentage entry systems."
+        "answer": "Spider guard provides natural arm extension and isolation with feet on biceps, creating excellent control and preventing arm withdrawal. The feet-on-biceps grips already position the opponent's arms in vulnerable extension, and the guard configuration naturally breaks their posture forward. When swinging leg over shoulder from spider guard, the other foot maintains pressure preventing compensatory movements. The spider guard structure essentially pre-loads many of the positional requirements needed for successful omoplata entry, making it one of the highest percentage entry systems.",
+        "answer_line": "Feet on biceps pre-isolate arm",
+        "distractors": {
+          "plausible": [
+            "Deeper hooks control the hips",
+            "Collar grip breaks posture"
+          ],
+          "trap": [
+            "Release feet to swing leg"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to prevent being swept during your omoplata attempt - how do you adjust?",
-        "answer": "When opponent posts their hand, immediately target that posting arm for a wrist lock or kimura attack, or use the opening to complete the sweep by lifting their far hip with your free leg while pulling their trapped arm. Their posting hand cannot serve both purposes simultaneously. Alternatively, if their post is strong, shift your attack to the back take by following the space they create on the opposite side. The post reveals their weight distribution and defensive commitment, which you exploit by attacking the opposite direction."
+        "answer": "When opponent posts their hand, immediately target that posting arm for a wrist lock or kimura attack, or use the opening to complete the sweep by lifting their far hip with your free leg while pulling their trapped arm. Their posting hand cannot serve both purposes simultaneously. Alternatively, if their post is strong, shift your attack to the back take by following the space they create on the opposite side. The post reveals their weight distribution and defensive commitment, which you exploit by attacking the opposite direction.",
+        "answer_line": "Attack the posting arm/hand",
+        "distractors": {
+          "plausible": [
+            "Wait for them to re-post",
+            "Switch straight to triangle"
+          ],
+          "trap": [
+            "Pull post hand to your hip"
+          ]
+        }
       },
       {
         "question": "What grip control is most critical when initiating the omoplata transition from closed guard?",
-        "answer": "The overhook or sleeve grip on the attacking side arm is most critical because it prevents arm withdrawal during the leg threading phase. Without this grip, opponents simply pull their arm back as you attempt to swing your leg over. The grip should be deep with your arm wrapped over their tricep pulling their elbow toward your hip. Secondary grips on the collar or far sleeve help control posture but are less essential than the primary arm control that anchors the entire transition."
+        "answer": "The overhook or sleeve grip on the attacking side arm is most critical because it prevents arm withdrawal during the leg threading phase. Without this grip, opponents simply pull their arm back as you attempt to swing your leg over. The grip should be deep with your arm wrapped over their tricep pulling their elbow toward your hip. Secondary grips on the collar or far sleeve help control posture but are less essential than the primary arm control that anchors the entire transition.",
+        "answer_line": "Deep overhook on attack arm",
+        "distractors": {
+          "plausible": [
+            "Collar grip controls posture",
+            "Far sleeve grip is primary"
+          ],
+          "trap": [
+            "Underhook their far leg"
+          ]
+        }
       },
       {
         "question": "How do you recognize the optimal timing window for initiating the omoplata transition?",
-        "answer": "The optimal window occurs when opponent's arm is positioned across your centerline with their elbow pointing outward, combined with their posture being broken forward. Look for moments when they reach across your body to grip your collar or lapel, when they attempt to establish hand position on your hip, or when they defend a triangle attempt by hiding their arm. Their weight should be forward rather than sitting back. Initiating when they are posted back with strong posture significantly reduces success rate."
+        "answer": "The optimal window occurs when opponent's arm is positioned across your centerline with their elbow pointing outward, combined with their posture being broken forward. Look for moments when they reach across your body to grip your collar or lapel, when they attempt to establish hand position on your hip, or when they defend a triangle attempt by hiding their arm. Their weight should be forward rather than sitting back. Initiating when they are posted back with strong posture significantly reduces success rate.",
+        "answer_line": "Arm crosses center, posture broke",
+        "distractors": {
+          "plausible": [
+            "Opponent posted back, strong",
+            "Any time arm nears your hip"
+          ],
+          "trap": [
+            "Wait until they sit up tall"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of hip rotation during the omoplata transition and why does it matter?",
-        "answer": "Your hips should rotate toward the opponent's head, not away from them. This rotation direction accomplishes three things: it increases the angle on their shoulder joint creating submission pressure, it helps break their base by pulling them off-center, and it positions your body to follow them if they attempt the forward roll escape. Rotating away from their head reduces shoulder pressure and allows them to recover posture. The rotation should continue until your chest is perpendicular to their spine with your weight pressing down on their upper back."
+        "answer": "Your hips should rotate toward the opponent's head, not away from them. This rotation direction accomplishes three things: it increases the angle on their shoulder joint creating submission pressure, it helps break their base by pulling them off-center, and it positions your body to follow them if they attempt the forward roll escape. Rotating away from their head reduces shoulder pressure and allows them to recover posture. The rotation should continue until your chest is perpendicular to their spine with your weight pressing down on their upper back.",
+        "answer_line": "Rotate hips toward their head",
+        "distractors": {
+          "plausible": [
+            "Rotate away for more torque",
+            "Stay square, skip rotation"
+          ],
+          "trap": [
+            "Rotate hips toward their feet"
+          ]
+        }
       },
       {
         "question": "Your opponent is successfully maintaining strong posture and you cannot break them down for the omoplata - what chain attacks do you transition to?",
-        "answer": "Against strong posture, switch to attacks that exploit their upright position. Hip bump sweep becomes highly effective because their weight is centered and slightly back. Kimura grip can be established on the same arm you were targeting for omoplata, using their posture against them. If they keep their arms tight, overhook sweep or elevator sweep attacks their base from a different angle. The key principle is recognizing when the omoplata setup conditions don't exist and flowing to attacks where their current posture is a vulnerability rather than strength."
+        "answer": "Against strong posture, switch to attacks that exploit their upright position. Hip bump sweep becomes highly effective because their weight is centered and slightly back. Kimura grip can be established on the same arm you were targeting for omoplata, using their posture against them. If they keep their arms tight, overhook sweep or elevator sweep attacks their base from a different angle. The key principle is recognizing when the omoplata setup conditions don't exist and flowing to attacks where their current posture is a vulnerability rather than strength.",
+        "answer_line": "Hip bump sweep or kimura grip",
+        "distractors": {
+          "plausible": [
+            "Force the omoplata regardless",
+            "Wait passively for an opening"
+          ],
+          "trap": [
+            "Pull guard tighter, re-set"
+          ]
+        }
       }
     ],
     "safety_considerations": "The omoplata primarily attacks the shoulder joint through rotational pressure, which can cause serious injury if applied suddenly or without control. When training, apply pressure gradually and communicate clearly with your partner. Tap early when caught in omoplata as shoulder injuries can have long recovery times and may require surgery in severe cases. Practitioners should develop hip mobility gradually to avoid forcing the technique with inadequate flexibility, which leads to poor technique and potential injury to both partners. Never spike or drive the opponent's head into the mat during the transition, as this can cause neck injuries. Focus on controlled rotation and proper positioning rather than explosive force. Beginners should practice the movement patterns extensively before attempting submissions during live training.",
@@ -417,23 +537,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an omoplata is being set up from closed guard, and what is your immediate response?",
-        "answer": "The earliest cue is feeling the opponent establish an overhook or deep sleeve grip on one arm while simultaneously hip escaping to create angle. Your immediate response should be to withdraw the targeted arm by pulling your elbow sharply back to your hip while driving your chest upright to re-establish posture. Addressing this at the grip and angle phase prevents the entire omoplata sequence from developing. If you wait until you feel the leg swinging, you have already missed the optimal defensive window."
+        "answer": "The earliest cue is feeling the opponent establish an overhook or deep sleeve grip on one arm while simultaneously hip escaping to create angle. Your immediate response should be to withdraw the targeted arm by pulling your elbow sharply back to your hip while driving your chest upright to re-establish posture. Addressing this at the grip and angle phase prevents the entire omoplata sequence from developing. If you wait until you feel the leg swinging, you have already missed the optimal defensive window.",
+        "answer_line": "Feel grip+angle, pull elbow back",
+        "distractors": {
+          "plausible": [
+            "Wait until leg swings over",
+            "React only at shoulder pressure"
+          ],
+          "trap": [
+            "Push opponent's head down"
+          ]
+        }
       },
       {
         "question": "Why is driving forward to stack more effective than pulling backward when caught in an omoplata?",
-        "answer": "Pulling backward increases the rotational angle on your shoulder, which is exactly the direction the omoplata applies pressure - you are essentially helping the attacker finish the submission. Driving forward compresses the opponent flat against the mat, which prevents them from sitting up perpendicular to your spine (required for the finish), reduces the shoulder rotation angle, and pins their hips so they cannot adjust. The stack also creates a platform from which you can methodically extract your arm while maintaining heavy top pressure."
+        "answer": "Pulling backward increases the rotational angle on your shoulder, which is exactly the direction the omoplata applies pressure - you are essentially helping the attacker finish the submission. Driving forward compresses the opponent flat against the mat, which prevents them from sitting up perpendicular to your spine (required for the finish), reduces the shoulder rotation angle, and pins their hips so they cannot adjust. The stack also creates a platform from which you can methodically extract your arm while maintaining heavy top pressure.",
+        "answer_line": "Forward flattens, kills angle",
+        "distractors": {
+          "plausible": [
+            "Backward relieves shoulder load",
+            "Pulling back regains posture"
+          ],
+          "trap": [
+            "Pull back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded their leg over your shoulder and is beginning to sit up - is it better to roll forward or attempt to stack at this point?",
-        "answer": "At this stage, the decision depends on how far they have rotated. If they are just beginning to sit up and their chest is not yet perpendicular to your spine, the stack is still viable - drive hard forward, pin their shoulders flat, and work to extract your arm. If they have already achieved the perpendicular chest position with their weight over your back, the stack window has closed and the forward roll becomes the better option. Roll over your trapped shoulder explosively and prepare to turn immediately to prevent them from taking your back."
+        "answer": "At this stage, the decision depends on how far they have rotated. If they are just beginning to sit up and their chest is not yet perpendicular to your spine, the stack is still viable - drive hard forward, pin their shoulders flat, and work to extract your arm. If they have already achieved the perpendicular chest position with their weight over your back, the stack window has closed and the forward roll becomes the better option. Roll over your trapped shoulder explosively and prepare to turn immediately to prevent them from taking your back.",
+        "answer_line": "Stack if early, roll if late",
+        "distractors": {
+          "plausible": [
+            "Always stack, never roll",
+            "Always roll immediately"
+          ],
+          "trap": [
+            "Sit up to match their angle"
+          ]
+        }
       },
       {
         "question": "How do you prevent the attacker from transitioning to back control when you execute the forward roll escape?",
-        "answer": "The key is rolling speed and immediate directional change upon landing. Roll explosively over the trapped shoulder toward the opponent's feet rather than straight forward. As soon as you land, immediately post your far hand on the mat and rotate your hips to face the opponent. Your first priority after the roll is getting your back off the mat and establishing a guard position facing them. If you pause on your belly or roll slowly, the attacker will follow with hooks and seatbelt grip to secure back control. The transition from roll to facing position must be one continuous motion."
+        "answer": "The key is rolling speed and immediate directional change upon landing. Roll explosively over the trapped shoulder toward the opponent's feet rather than straight forward. As soon as you land, immediately post your far hand on the mat and rotate your hips to face the opponent. Your first priority after the roll is getting your back off the mat and establishing a guard position facing them. If you pause on your belly or roll slowly, the attacker will follow with hooks and seatbelt grip to secure back control. The transition from roll to facing position must be one continuous motion.",
+        "answer_line": "Roll fast, face them on landing",
+        "distractors": {
+          "plausible": [
+            "Roll slow, control the pace",
+            "Pause on belly, then turn"
+          ],
+          "trap": [
+            "Roll straight forward and flat"
+          ]
+        }
       },
       {
         "question": "What defensive grip should you use as an emergency measure when fully caught in omoplata, and why is it only a temporary solution?",
-        "answer": "Clasp your hands together in a gable grip or grab your own belt or gi pants to prevent the attacker from extending your arm behind your back. This prevents the finish by denying them the arm extension needed for shoulder rotation. However, it is only temporary because the attacker can shift to sweeping you from this position, use their hands to systematically break your grip, or transition to alternative attacks like wrist locks on your clasped hands. While gripping, you must immediately begin working a real escape - either the stack or forward roll - rather than simply holding and hoping."
+        "answer": "Clasp your hands together in a gable grip or grab your own belt or gi pants to prevent the attacker from extending your arm behind your back. This prevents the finish by denying them the arm extension needed for shoulder rotation. However, it is only temporary because the attacker can shift to sweeping you from this position, use their hands to systematically break your grip, or transition to alternative attacks like wrist locks on your clasped hands. While gripping, you must immediately begin working a real escape - either the stack or forward roll - rather than simply holding and hoping.",
+        "answer_line": "Gable grip; still must escape",
+        "distractors": {
+          "plausible": [
+            "Permanent fix, hold and wait",
+            "Grip stops all their attacks"
+          ],
+          "trap": [
+            "Let go to try grip breaks"
+          ]
+        }
       }
     ],
     "training_progressions": [

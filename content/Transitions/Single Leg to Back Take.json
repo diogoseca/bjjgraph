@@ -275,15 +275,45 @@
     "flashcards": [
       {
         "question": "What specific defensive action by the opponent creates the window for the single leg to back take?",
-        "answer": "The opponent turning their hips away from you and posting their far hand on the mat to defend the single leg takedown. This defensive rotation creates the angle and space behind them necessary for you to climb onto their back. You must recognize this specific pattern and act during the brief window while they are committed to the turn."
+        "answer": "The opponent turning their hips away from you and posting their far hand on the mat to defend the single leg takedown. This defensive rotation creates the angle and space behind them necessary for you to climb onto their back. You must recognize this specific pattern and act during the brief window while they are committed to the turn.",
+        "answer_line": "Hips turn away, post far hand",
+        "distractors": {
+          "plausible": [
+            "Sprawls hips low to the mat",
+            "Grips your collar and pulls in"
+          ],
+          "trap": [
+            "Squares hips to face you"
+          ]
+        }
       },
       {
         "question": "In what order should you establish your controls when transitioning from single leg to back control?",
-        "answer": "First secure chest-to-back connection while inserting your first hook simultaneously with releasing the leg. Then begin establishing seat belt or harness control with your arms. Finally, insert the second hook once your upper body control is solid. Prioritizing chest attachment and one hook gives you far more security than rushing to get both hooks without upper body control."
+        "answer": "First secure chest-to-back connection while inserting your first hook simultaneously with releasing the leg. Then begin establishing seat belt or harness control with your arms. Finally, insert the second hook once your upper body control is solid. Prioritizing chest attachment and one hook gives you far more security than rushing to get both hooks without upper body control.",
+        "answer_line": "Chest, hook one, seatbelt, hook two",
+        "distractors": {
+          "plausible": [
+            "Both hooks first, then seatbelt",
+            "Seatbelt first, then hooks"
+          ],
+          "trap": [
+            "Release leg before any hook in"
+          ]
+        }
       },
       {
         "question": "Your opponent sits back heavily as you begin climbing to their back—what do you do?",
-        "answer": "Immediately frame with your near-side knee against their hip to prevent being crushed underneath. Transition to a modified position such as single leg X-guard or look for sweep opportunities from underneath. The key is recognizing that the back take window has closed and adapting your attack rather than insisting on the original plan. Forcing the back take against a sit-back leads to being flattened."
+        "answer": "Immediately frame with your near-side knee against their hip to prevent being crushed underneath. Transition to a modified position such as single leg X-guard or look for sweep opportunities from underneath. The key is recognizing that the back take window has closed and adapting your attack rather than insisting on the original plan. Forcing the back take against a sit-back leads to being flattened.",
+        "answer_line": "Frame knee, shift to leg X",
+        "distractors": {
+          "plausible": [
+            "Post base, wait it out",
+            "Switch straight to both hooks"
+          ],
+          "trap": [
+            "Force the back take anyway"
+          ]
+        }
       },
       {
         "question": "Why must the leg release and first hook insertion happen as one continuous motion?",
@@ -291,27 +321,87 @@
       },
       {
         "question": "What is the most critical error practitioners make when attempting this technique?",
-        "answer": "Attempting the back take when the opponent is still squared up and facing them rather than waiting for the defensive turn. This fails because the technique relies entirely on the opponent creating the angle through their own movement. Against a squared opponent, climbing to the back is mechanically impossible—they simply sit back, turn into you, or push you away. Patience and reading the defense are the primary skills."
+        "answer": "Attempting the back take when the opponent is still squared up and facing them rather than waiting for the defensive turn. This fails because the technique relies entirely on the opponent creating the angle through their own movement. Against a squared opponent, climbing to the back is mechanically impossible—they simply sit back, turn into you, or push you away. Patience and reading the defense are the primary skills.",
+        "answer_line": "Attacking before opponent turns",
+        "distractors": {
+          "plausible": [
+            "Rushing the hook insertion",
+            "Releasing the leg too late"
+          ],
+          "trap": [
+            "Forcing the climb once squared"
+          ]
+        }
       },
       {
         "question": "Where should your hips be positioned relative to the opponent's hips once you have secured back control?",
-        "answer": "Your hips should be low and close to the opponent's hips, not elevated high on their upper back. This low hip position makes it difficult for them to sit back on you or roll backwards. Your weight should be distributed along their entire spine with your hips slightly behind theirs, creating a stable base that resists their defensive movements in any direction."
+        "answer": "Your hips should be low and close to the opponent's hips, not elevated high on their upper back. This low hip position makes it difficult for them to sit back on you or roll backwards. Your weight should be distributed along their entire spine with your hips slightly behind theirs, creating a stable base that resists their defensive movements in any direction.",
+        "answer_line": "Hips low, close to their hips",
+        "distractors": {
+          "plausible": [
+            "Hips high on upper back",
+            "Hips wide for balance"
+          ],
+          "trap": [
+            "Hips elevated for leverage"
+          ]
+        }
       },
       {
         "question": "Your opponent squares their hips to face you after you committed to releasing the leg—how do you recover?",
-        "answer": "If the opponent successfully squares up, the back take opportunity is gone. You should immediately re-establish contact and look for alternative attacks from the clinch: re-shoot for a double leg, hit an ankle pick on their near foot, transition to a body lock takedown, or pull guard if no wrestling finish is available. The worst response is trying to circle behind a squared opponent, which wastes energy and position."
+        "answer": "If the opponent successfully squares up, the back take opportunity is gone. You should immediately re-establish contact and look for alternative attacks from the clinch: re-shoot for a double leg, hit an ankle pick on their near foot, transition to a body lock takedown, or pull guard if no wrestling finish is available. The worst response is trying to circle behind a squared opponent, which wastes energy and position.",
+        "answer_line": "Re-attack: double leg or bodylock",
+        "distractors": {
+          "plausible": [
+            "Keep circling to their back",
+            "Reset and re-shoot single leg"
+          ],
+          "trap": [
+            "Chase around a squared opponent"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you establish once you reach the opponent's back?",
-        "answer": "A seat belt configuration with your top arm over their shoulder and your bottom arm under their far armpit, hands clasped at their chest in a gable grip or S-grip. Your elbows must squeeze tight against their body to deny hand-fighting space. This over-under configuration prevents the opponent from turning into you or escaping forward and creates the structure needed for rear naked choke attacks."
+        "answer": "A seat belt configuration with your top arm over their shoulder and your bottom arm under their far armpit, hands clasped at their chest in a gable grip or S-grip. Your elbows must squeeze tight against their body to deny hand-fighting space. This over-under configuration prevents the opponent from turning into you or escaping forward and creates the structure needed for rear naked choke attacks.",
+        "answer_line": "Seatbelt over-under, gable grip",
+        "distractors": {
+          "plausible": [
+            "Both hands over the shoulders",
+            "Underhook both armpits"
+          ],
+          "trap": [
+            "Loose grip to save energy"
+          ]
+        }
       },
       {
         "question": "How does the high crotch variation change the mechanics of this back take?",
-        "answer": "From a high crotch position your head is deeper across the opponent's body and your hips are already closer to perpendicular. This means the transition to hooks happens faster since you have less distance to cover when climbing to the back. The trade-off is that the high crotch starting position is harder to maintain than a standard outside single leg, but the back take itself is mechanically easier once the opponent begins their defensive turn."
+        "answer": "From a high crotch position your head is deeper across the opponent's body and your hips are already closer to perpendicular. This means the transition to hooks happens faster since you have less distance to cover when climbing to the back. The trade-off is that the high crotch starting position is harder to maintain than a standard outside single leg, but the back take itself is mechanically easier once the opponent begins their defensive turn.",
+        "answer_line": "Deeper head, faster hook climb",
+        "distractors": {
+          "plausible": [
+            "Easier to maintain overall",
+            "Slower but more controlled"
+          ],
+          "trap": [
+            "Abandon head position for speed"
+          ]
+        }
       },
       {
         "question": "What role does chest-to-back connection play throughout the entire transition sequence?",
-        "answer": "Chest-to-back connection is the single most important control element throughout the transition. It begins as chest-to-hip connection during the single leg, transitions to chest-to-lower-back during the climb, and becomes chest-to-upper-back once hooks are established. Any moment where your chest separates from their body gives the opponent a window to escape, turn, or sit back. Maintaining this connection is more important than any individual grip or hook."
+        "answer": "Chest-to-back connection is the single most important control element throughout the transition. It begins as chest-to-hip connection during the single leg, transitions to chest-to-lower-back during the climb, and becomes chest-to-upper-back once hooks are established. Any moment where your chest separates from their body gives the opponent a window to escape, turn, or sit back. Maintaining this connection is more important than any individual grip or hook.",
+        "answer_line": "Chest-to-back never breaks",
+        "distractors": {
+          "plausible": [
+            "Grip pressure matters most",
+            "Hook insertion is the key"
+          ],
+          "trap": [
+            "Separate chest to reset angle"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Single Leg to Back Take, controlled application is essential to prevent injury during the dynamic positional change. Be aware of your partner's knees and ankles during the transition, as sudden weight shifts can stress these joints. Execute the technique smoothly rather than explosively during training to allow your partner time to post safely and absorb positional changes. Maintain awareness of the training space to ensure adequate room for the position change without colliding with walls or other practitioners. Both partners should communicate clearly, especially when first learning the technique, with the defensive partner tapping if they feel unstable or at risk of falling awkwardly. The climbing motion should be gradual during drilling phases to build coordination before adding speed. Partners should agree on resistance levels appropriate for their skill level. Be especially careful when the defender is on one leg and off-balance, as unexpected weight can cause knee injuries.",
@@ -429,23 +519,73 @@
     "flashcards": [
       {
         "question": "What is the earliest point at which you can shut down the single leg to back take attempt?",
-        "answer": "The earliest and most effective defensive point is before the attacker releases the leg. When you sense their chest shifting from your hip toward your back and their grip loosening on your leg, immediately square your hips back toward them. This removes the angle they need to climb. At this stage, they are stuck in a standard single leg position with no path to your back, and you have successfully forced them to choose a different attack."
+        "answer": "The earliest and most effective defensive point is before the attacker releases the leg. When you sense their chest shifting from your hip toward your back and their grip loosening on your leg, immediately square your hips back toward them. This removes the angle they need to climb. At this stage, they are stuck in a standard single leg position with no path to your back, and you have successfully forced them to choose a different attack.",
+        "answer_line": "Square hips before leg released",
+        "distractors": {
+          "plausible": [
+            "Clear the hook once inserted",
+            "Fight the seatbelt grip"
+          ],
+          "trap": [
+            "Wait until hooks are in"
+          ]
+        }
       },
       {
         "question": "Why is continuing to turn away from the single leg the worst defensive response when the attacker begins climbing?",
-        "answer": "Continuing to turn away accelerates the attacker's transition by giving them the exact angle and momentum they need to reach your back. Each degree of additional rotation puts them closer to full back control. The turn was an appropriate defense against the takedown, but the moment the attack shifts from takedown to back take, you must reverse your rotation and square back up. Recognizing this shift is the critical defensive skill."
+        "answer": "Continuing to turn away accelerates the attacker's transition by giving them the exact angle and momentum they need to reach your back. Each degree of additional rotation puts them closer to full back control. The turn was an appropriate defense against the takedown, but the moment the attack shifts from takedown to back take, you must reverse your rotation and square back up. Recognizing this shift is the critical defensive skill.",
+        "answer_line": "Keep turning fuels the climb",
+        "distractors": {
+          "plausible": [
+            "Sit back hard immediately",
+            "Push away with both arms"
+          ],
+          "trap": [
+            "Keep turning to finish escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has released your leg and inserted one hook—what is your defensive priority sequence?",
-        "answer": "First, address the hook by clearing it with your near hand, stepping over it, or trapping their foot against your inner thigh. Second, prevent the seat belt by keeping your elbows tight and using two-on-one grip control on their arm that is reaching over your shoulder. Third, begin turning to face them by rotating your shoulders toward the hook side. Address these in order—hook removal first, then grip fighting, then rotation—because each step becomes exponentially harder if you skip ahead."
+        "answer": "First, address the hook by clearing it with your near hand, stepping over it, or trapping their foot against your inner thigh. Second, prevent the seat belt by keeping your elbows tight and using two-on-one grip control on their arm that is reaching over your shoulder. Third, begin turning to face them by rotating your shoulders toward the hook side. Address these in order—hook removal first, then grip fighting, then rotation—because each step becomes exponentially harder if you skip ahead.",
+        "answer_line": "Clear hook, fight grip, turn",
+        "distractors": {
+          "plausible": [
+            "Turn first, then clear hook",
+            "Fight grip before hook"
+          ],
+          "trap": [
+            "Ignore hook, sit back hard"
+          ]
+        }
       },
       {
         "question": "How does sitting back function as a defensive tool and what is the risk?",
-        "answer": "Sitting back decisively onto the attacker can crush their climbing attempt by collapsing their base and trapping them under your weight before they establish hooks. It works best when timed during the transition before the attacker has solid chest connection. The risk is that a skilled attacker will anticipate the sit-back and frame with their knee against your hip, potentially transitioning to single leg X-guard or a sweep position underneath you. You must commit fully if you choose this defense—a half-hearted sit-back is the worst outcome."
+        "answer": "Sitting back decisively onto the attacker can crush their climbing attempt by collapsing their base and trapping them under your weight before they establish hooks. It works best when timed during the transition before the attacker has solid chest connection. The risk is that a skilled attacker will anticipate the sit-back and frame with their knee against your hip, potentially transitioning to single leg X-guard or a sweep position underneath you. You must commit fully if you choose this defense—a half-hearted sit-back is the worst outcome.",
+        "answer_line": "Sit back decisively, full commit",
+        "distractors": {
+          "plausible": [
+            "Half sit back to test them",
+            "Stay standing and circle"
+          ],
+          "trap": [
+            "Half-hearted sit back"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain to make the back take as difficult as possible?",
-        "answer": "Keep your elbows tight against your ribs to deny the seat belt configuration, your chin tucked to protect your neck, and your hips squared toward the attacker rather than turned away. Stay on your feet with a low, wide base to maximize your defensive options. Your shoulders should stay directly above your hips rather than leaning forward, which gives the attacker a platform to climb onto. This compact, squared posture eliminates the angle the attacker needs."
+        "answer": "Keep your elbows tight against your ribs to deny the seat belt configuration, your chin tucked to protect your neck, and your hips squared toward the attacker rather than turned away. Stay on your feet with a low, wide base to maximize your defensive options. Your shoulders should stay directly above your hips rather than leaning forward, which gives the attacker a platform to climb onto. This compact, squared posture eliminates the angle the attacker needs.",
+        "answer_line": "Elbows tight, hips squared, low",
+        "distractors": {
+          "plausible": [
+            "Lean forward for base power",
+            "Elbows wide to block hooks"
+          ],
+          "trap": [
+            "Turn hips away to hide the leg"
+          ]
+        }
       }
     ],
     "training_progressions": [

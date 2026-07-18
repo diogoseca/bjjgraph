@@ -256,19 +256,59 @@
     "flashcards": [
       {
         "question": "What is the correct hand and head positioning for the Russian Tie control?",
-        "answer": "The Russian Tie requires a 2-on-1 grip where your lead hand grips opponent's wrist with thumb on top and fingers underneath, while your trailing hand grips their tricep just above the elbow. Your forehead should be pressed firmly against the outside of their bicep on the same side as the controlled arm. This three-point structure (wrist, tricep, head) prevents their rotation and is the mechanical foundation of the entire technique."
+        "answer": "The Russian Tie requires a 2-on-1 grip where your lead hand grips opponent's wrist with thumb on top and fingers underneath, while your trailing hand grips their tricep just above the elbow. Your forehead should be pressed firmly against the outside of their bicep on the same side as the controlled arm. This three-point structure (wrist, tricep, head) prevents their rotation and is the mechanical foundation of the entire technique.",
+        "answer_line": "Wrist, tricep, head on bicep",
+        "distractors": {
+          "plausible": [
+            "Head against opponent's chest",
+            "Trailing hand grips the wrist"
+          ],
+          "trap": [
+            "Both hands grip the same wrist"
+          ]
+        }
       },
       {
         "question": "Why is lateral movement at 45-degree angles more effective than pulling straight backward?",
-        "answer": "Lateral movement creates an angular relationship where the opponent cannot effectively square up to defend because their controlled arm acts as a tether preventing rotation in your direction. Pulling straight back allows them to simply face you and maintain neutral position. The lateral circle exploits the mechanical disadvantage of having one arm controlled while trying to track movement toward the back. Additionally, lateral steps maintain your base while backward pulling tends to compromise your posture."
+        "answer": "Lateral movement creates an angular relationship where the opponent cannot effectively square up to defend because their controlled arm acts as a tether preventing rotation in your direction. Pulling straight back allows them to simply face you and maintain neutral position. The lateral circle exploits the mechanical disadvantage of having one arm controlled while trying to track movement toward the back. Additionally, lateral steps maintain your base while backward pulling tends to compromise your posture.",
+        "answer_line": "Angle prevents them squaring up",
+        "distractors": {
+          "plausible": [
+            "Straight back builds more speed",
+            "Circle wide to tire them out"
+          ],
+          "trap": [
+            "Pull straight back to their heels"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively pulls their controlled arm back while you have the Russian Tie established - how do you respond?",
-        "answer": "Follow their backward pull by stepping forward and converting immediately to a single leg or ankle pick on the near leg. Their backward arm pull creates forward momentum and weight shift onto their heels that you can exploit for lower body attacks. If you still have partial grip, use the momentum to accelerate your circle rather than fighting the pull. The key is reading the pull early and flowing with it into a chain attack rather than fighting to re-establish the original control."
+        "answer": "Follow their backward pull by stepping forward and converting immediately to a single leg or ankle pick on the near leg. Their backward arm pull creates forward momentum and weight shift onto their heels that you can exploit for lower body attacks. If you still have partial grip, use the momentum to accelerate your circle rather than fighting the pull. The key is reading the pull early and flowing with it into a chain attack rather than fighting to re-establish the original control.",
+        "answer_line": "Step in, shoot single leg",
+        "distractors": {
+          "plausible": [
+            "Re-establish original grip",
+            "Circle harder to regain angle"
+          ],
+          "trap": [
+            "Pull back to fight the grip"
+          ]
+        }
       },
       {
         "question": "At what exact point in the sequence should you release the wrist grip, and what happens if you release too early or too late?",
-        "answer": "Release the wrist grip only when your hip has cleared their near hip and you are at a perpendicular angle, ready to shoot your arm under their far armpit for the first seat belt hook. Releasing too early, before achieving the perpendicular angle, allows the opponent to turn and face you since you lose the primary rotational control. Releasing too late delays your seat belt establishment, giving them time to begin defensive rotations or counter-grips that prevent you from consolidating the back position."
+        "answer": "Release the wrist grip only when your hip has cleared their near hip and you are at a perpendicular angle, ready to shoot your arm under their far armpit for the first seat belt hook. Releasing too early, before achieving the perpendicular angle, allows the opponent to turn and face you since you lose the primary rotational control. Releasing too late delays your seat belt establishment, giving them time to begin defensive rotations or counter-grips that prevent you from consolidating the back position.",
+        "answer_line": "Release wrist at perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Release as soon as they turn away",
+            "Release after seat belt is set"
+          ],
+          "trap": [
+            "Never release, keep 2-on-1 forever"
+          ]
+        }
       },
       {
         "question": "What grip fighting conditions must exist before you should commit to establishing the Russian Tie?",
@@ -276,23 +316,73 @@
       },
       {
         "question": "Your opponent turns hard into you during the circling phase and tries to establish a body lock - what is the critical defensive response?",
-        "answer": "Immediately rotate your controlled-side shoulder internally and limp arm out of their grip attempt by dropping your weight and widening your base. Simultaneously insert a whizzer on their underhook side to prevent them from locking hands behind you. If they get the body lock before you can limp out, peel their hands apart using two-on-one grip breaks on the clasped hand. The critical timing window is recognizing the turn-in early and responding before they lock the body lock, because once locked it becomes a high-effectiveness counter."
+        "answer": "Immediately rotate your controlled-side shoulder internally and limp arm out of their grip attempt by dropping your weight and widening your base. Simultaneously insert a whizzer on their underhook side to prevent them from locking hands behind you. If they get the body lock before you can limp out, peel their hands apart using two-on-one grip breaks on the clasped hand. The critical timing window is recognizing the turn-in early and responding before they lock the body lock, because once locked it becomes a high-effectiveness counter.",
+        "answer_line": "Whizzer in, limp arm out",
+        "distractors": {
+          "plausible": [
+            "Pull away and create space",
+            "Sprawl hips back immediately"
+          ],
+          "trap": [
+            "Let them lock hands, then push"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change throughout the six execution steps?",
-        "answer": "In step 1, force is directed inward pulling the arm across their centerline. In step 2, force shifts to a downward-and-across vector bending their arm. In steps 3-4, force becomes primarily lateral and slightly forward as you circle, with continuous head pressure driving into their bicep. In step 5, force transitions to a chest-forward drive as you shoot the seat belt and establish back contact. In step 6, force becomes compressive, squeezing chest-to-back and securing hooks. The transition from lateral circling force to forward compressive force at step 5 is the most technically demanding directional change."
+        "answer": "In step 1, force is directed inward pulling the arm across their centerline. In step 2, force shifts to a downward-and-across vector bending their arm. In steps 3-4, force becomes primarily lateral and slightly forward as you circle, with continuous head pressure driving into their bicep. In step 5, force transitions to a chest-forward drive as you shoot the seat belt and establish back contact. In step 6, force becomes compressive, squeezing chest-to-back and securing hooks. The transition from lateral circling force to forward compressive force at step 5 is the most technically demanding directional change.",
+        "answer_line": "Lateral pull becomes chest drive",
+        "distractors": {
+          "plausible": [
+            "Force stays constant throughout",
+            "Force builds gradually forward only"
+          ],
+          "trap": [
+            "Force reverses to pull backward"
+          ]
+        }
       },
       {
         "question": "If the back take is blocked and the opponent squares back up to you, what are your best chain attack options from the retained Russian Tie?",
-        "answer": "From a retained Russian Tie after a blocked back take attempt, the three highest-percentage chain attacks are: (1) snap down to front headlock by pulling their controlled arm down while driving your head pressure downward, capitalizing on their forward weight shift from resisting the circle; (2) low single leg by dropping your level and converting the wrist grip to a leg grip on their near thigh; (3) re-attempting the circle from the opposite direction by switching head position and circling the other way, which catches opponents who have committed their defense to one rotational direction."
+        "answer": "From a retained Russian Tie after a blocked back take attempt, the three highest-percentage chain attacks are: (1) snap down to front headlock by pulling their controlled arm down while driving your head pressure downward, capitalizing on their forward weight shift from resisting the circle; (2) low single leg by dropping your level and converting the wrist grip to a leg grip on their near thigh; (3) re-attempting the circle from the opposite direction by switching head position and circling the other way, which catches opponents who have committed their defense to one rotational direction.",
+        "answer_line": "Snap down, single leg, re-circle",
+        "distractors": {
+          "plausible": [
+            "Abandon grip and reset neutral",
+            "Switch to guillotine choke"
+          ],
+          "trap": [
+            "Release grip and stand back"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the clearing phase, and why does it determine success or failure?",
-        "answer": "The most critical hip movement is driving your lead hip past their near hip during step 4. This hip clearing action determines success because it establishes the perpendicular angle from which the back take becomes mechanically inevitable. If your hip stays in front of theirs, you remain in a frontal engagement where they can square up. Once your hip passes theirs, their ability to rotate toward you is blocked by your entire body being on the back side of their hip line. Accelerating through this clearing point with continuous small steps prevents them from adjusting their defense."
+        "answer": "The most critical hip movement is driving your lead hip past their near hip during step 4. This hip clearing action determines success because it establishes the perpendicular angle from which the back take becomes mechanically inevitable. If your hip stays in front of theirs, you remain in a frontal engagement where they can square up. Once your hip passes theirs, their ability to rotate toward you is blocked by your entire body being on the back side of their hip line. Accelerating through this clearing point with continuous small steps prevents them from adjusting their defense.",
+        "answer_line": "Drive lead hip past their hip",
+        "distractors": {
+          "plausible": [
+            "Push chest forward into them",
+            "Step wide before hip movement"
+          ],
+          "trap": [
+            "Keep hip in front, drive forward"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls backward and drops their hips while you have the Russian Tie - why does this actually help your back take rather than hinder it?",
-        "answer": "When the opponent sprawls backward and drops their hips, they commit their weight away from you in a direction that prevents rotational movement. Their heavy sprawl makes it biomechanically difficult for them to turn to face you because their hips are behind their shoulders and their weight is committed to the mat. This means your lateral circling meets less rotational resistance. Continue small lateral steps while maintaining head pressure on their bicep, and their inability to turn will allow you to reach the perpendicular angle more easily than against an upright, mobile opponent."
+        "answer": "When the opponent sprawls backward and drops their hips, they commit their weight away from you in a direction that prevents rotational movement. Their heavy sprawl makes it biomechanically difficult for them to turn to face you because their hips are behind their shoulders and their weight is committed to the mat. This means your lateral circling meets less rotational resistance. Continue small lateral steps while maintaining head pressure on their bicep, and their inability to turn will allow you to reach the perpendicular angle more easily than against an upright, mobile opponent.",
+        "answer_line": "Sprawl blocks their own rotation",
+        "distractors": {
+          "plausible": [
+            "Sprawl lets them shoot underneath",
+            "Sprawl resets to neutral position"
+          ],
+          "trap": [
+            "Release grip since sprawl beat you"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Russian Tie to Back Take is generally a safe technique when practiced properly, but practitioners should be aware of several safety considerations. When applying the Russian Tie grip, avoid hyperextending the opponent's wrist or elbow by maintaining control without excessive torque on joints. During drilling with beginners, ensure your partner understands they can tap if they feel unsafe during the rotation to back control. When circling, be aware of mat boundaries and other training pairs to prevent accidental collisions. The most common injury risk occurs when practitioners take overly large steps and lose balance, potentially causing both partners to fall awkwardly on standing surfaces. Always maintain controlled movement rather than explosive rushing. In competition scenarios, be cautious of opponents attempting sacrifice throws or guard pulls while you have Russian Tie control - maintain a low base and be prepared to follow them to the ground safely. For training partners with shoulder or rotator cuff issues, communicate before drilling and apply lighter pressure on the controlled arm.",
@@ -401,23 +491,73 @@
     "flashcards": [
       {
         "question": "What are the three control points of the Russian Tie, and which one should you prioritize disrupting as the defender?",
-        "answer": "The three control points are: (1) wrist grip on your lead hand, (2) tricep grip above your elbow, and (3) head pressure (forehead) on the outside of your bicep. The wrist grip is typically the highest-priority target for disruption because it is the primary control that prevents you from straightening your arm and recovering posture. Breaking the wrist grip with your free hand using a two-on-one peel immediately weakens the other two control points since the attacker loses the ability to pull your arm across your centerline."
+        "answer": "The three control points are: (1) wrist grip on your lead hand, (2) tricep grip above your elbow, and (3) head pressure (forehead) on the outside of your bicep. The wrist grip is typically the highest-priority target for disruption because it is the primary control that prevents you from straightening your arm and recovering posture. Breaking the wrist grip with your free hand using a two-on-one peel immediately weakens the other two control points since the attacker loses the ability to pull your arm across your centerline.",
+        "answer_line": "Break the wrist grip first",
+        "distractors": {
+          "plausible": [
+            "Break head pressure first",
+            "Break tricep grip first"
+          ],
+          "trap": [
+            "Push forward into their chest"
+          ]
+        }
       },
       {
         "question": "Why is pulling your controlled arm straight back one of the worst defensive reactions against the Russian Tie?",
-        "answer": "Pulling straight back feeds directly into the attacker's chain attack system because the backward pull creates forward momentum they can use for single leg and ankle pick entries on your near leg. Additionally, pulling back does not break the 2-on-1 grip effectively since the backward motion actually tightens their tricep grip. The attacker has trained specifically to capitalize on this reaction. Instead, you should attack the grip with your free hand, turn your body toward them, or swim your arm forward and up to clear the control."
+        "answer": "Pulling straight back feeds directly into the attacker's chain attack system because the backward pull creates forward momentum they can use for single leg and ankle pick entries on your near leg. Additionally, pulling back does not break the 2-on-1 grip effectively since the backward motion actually tightens their tricep grip. The attacker has trained specifically to capitalize on this reaction. Instead, you should attack the grip with your free hand, turn your body toward them, or swim your arm forward and up to clear the control.",
+        "answer_line": "Feeds their single leg entry",
+        "distractors": {
+          "plausible": [
+            "Tires them out over time",
+            "Straightens your arm safely"
+          ],
+          "trap": [
+            "Pull back hard to break free"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a Russian Tie and begun circling - their hip is approaching yours. What is your last effective defensive window?",
-        "answer": "Your last effective defensive window is before the attacker's hip clears your near hip. Once their hip passes yours, they achieve the perpendicular angle from which the back take becomes biomechanically inevitable and your rotation toward them is blocked by their body position. Before the hip clearing point, you can still turn aggressively into them with an underhook or body lock, strip the wrist grip to reset, or sit to guard as a last resort. After the hip clears, your only realistic option is to manage the back take by defending the seat belt establishment."
+        "answer": "Your last effective defensive window is before the attacker's hip clears your near hip. Once their hip passes yours, they achieve the perpendicular angle from which the back take becomes biomechanically inevitable and your rotation toward them is blocked by their body position. Before the hip clearing point, you can still turn aggressively into them with an underhook or body lock, strip the wrist grip to reset, or sit to guard as a last resort. After the hip clears, your only realistic option is to manage the back take by defending the seat belt establishment.",
+        "answer_line": "Turn in before hip clears yours",
+        "distractors": {
+          "plausible": [
+            "Wait until seat belt is set",
+            "Sit to guard immediately always"
+          ],
+          "trap": [
+            "Wait for hooks before reacting"
+          ]
+        }
       },
       {
         "question": "When is sitting to guard an appropriate defensive choice against the Russian Tie to Back Take?",
-        "answer": "Sitting to guard is appropriate as a last resort when the attacker has nearly cleared your hip and the standing back take is imminent. It should not be the first defensive reaction because it concedes top position and potentially advantage points. However, conceding a guard pull position is far better than allowing the 4-point back control with hooks and seat belt. The sit must be timed before the attacker clears your hip - if you sit too late, they follow you down and take the back from the ground. Pull into closed guard or De La Riva to create immediate guard retention."
+        "answer": "Sitting to guard is appropriate as a last resort when the attacker has nearly cleared your hip and the standing back take is imminent. It should not be the first defensive reaction because it concedes top position and potentially advantage points. However, conceding a guard pull position is far better than allowing the 4-point back control with hooks and seat belt. The sit must be timed before the attacker clears your hip - if you sit too late, they follow you down and take the back from the ground. Pull into closed guard or De La Riva to create immediate guard retention.",
+        "answer_line": "Last resort as hip nearly clears",
+        "distractors": {
+          "plausible": [
+            "First reaction to any grip",
+            "Best option throughout exchange"
+          ],
+          "trap": [
+            "Sit late after they follow down"
+          ]
+        }
       },
       {
         "question": "How should you train your defensive reaction time against the Russian Tie to ensure early recognition?",
-        "answer": "Train with progressive resistance drills where your partner establishes the Russian Tie at increasing speeds while you practice immediate recognition and response. Start with static grip establishment where you identify the three control points (wrist, tricep, head pressure), then progress to slow-motion circling where you practice the turn-in timing. The key metric is reducing your recognition-to-reaction time to under 2 seconds. Film training sessions to identify whether you are reacting to the grip establishment or waiting until the circling phase before defending, and correct any delayed reactions."
+        "answer": "Train with progressive resistance drills where your partner establishes the Russian Tie at increasing speeds while you practice immediate recognition and response. Start with static grip establishment where you identify the three control points (wrist, tricep, head pressure), then progress to slow-motion circling where you practice the turn-in timing. The key metric is reducing your recognition-to-reaction time to under 2 seconds. Film training sessions to identify whether you are reacting to the grip establishment or waiting until the circling phase before defending, and correct any delayed reactions.",
+        "answer_line": "Drill recognition, cut reaction time",
+        "distractors": {
+          "plausible": [
+            "Only drill at full speed always",
+            "Skip static grip recognition"
+          ],
+          "trap": [
+            "Wait for live rolling to learn"
+          ]
+        }
       }
     ],
     "training_progressions": [

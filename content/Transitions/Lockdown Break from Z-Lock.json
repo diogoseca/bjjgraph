@@ -250,35 +250,115 @@
     "flashcards": [
       {
         "question": "Why should you address the butterfly hook before the lockdown ankle hook when breaking the Z-Lock?",
-        "answer": "The butterfly hook poses the more immediate tactical threat because it enables elevation-based sweeps that capitalize on any weight shift during the extraction process. If you strip the lockdown first while the butterfly hook remains active, the bottom player can use the resulting space and your committed weight to execute a butterfly sweep. Neutralizing the butterfly element first removes the highest-danger counter-attack, making the subsequent lockdown strip significantly safer."
+        "answer": "The butterfly hook poses the more immediate tactical threat because it enables elevation-based sweeps that capitalize on any weight shift during the extraction process. If you strip the lockdown first while the butterfly hook remains active, the bottom player can use the resulting space and your committed weight to execute a butterfly sweep. Neutralizing the butterfly element first removes the highest-danger counter-attack, making the subsequent lockdown strip significantly safer.",
+        "answer_line": "Neutralize butterfly hook first",
+        "distractors": {
+          "plausible": [
+            "Lockdown hook is bigger threat",
+            "Break both hooks at same time"
+          ],
+          "trap": [
+            "Strip lockdown ankle hook first"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between attempting an explosive pull-out versus a progressive straightening when breaking the Z-Lock?",
-        "answer": "An explosive pull generates momentum that the bottom player can redirect into sweep attempts, particularly the old school sweep where they use your upward energy to come on top. Progressive straightening maintains constant pressure and base throughout the extraction, never creating the acceleration that enables dynamic counters. The steady approach also preserves your upper body control connections, whereas explosive movement typically breaks your crossface or shoulder pressure."
+        "answer": "An explosive pull generates momentum that the bottom player can redirect into sweep attempts, particularly the old school sweep where they use your upward energy to come on top. Progressive straightening maintains constant pressure and base throughout the extraction, never creating the acceleration that enables dynamic counters. The steady approach also preserves your upper body control connections, whereas explosive movement typically breaks your crossface or shoulder pressure.",
+        "answer_line": "Progressive steady pressure",
+        "distractors": {
+          "plausible": [
+            "Explosive pull surprises them",
+            "Speed matters more than control"
+          ],
+          "trap": [
+            "Yank leg out explosively"
+          ]
+        }
       },
       {
         "question": "Your opponent re-grips the lockdown immediately after you strip it - what adjustment improves your next attempt?",
-        "answer": "Increase hip pressure before re-attempting to compress the space available for their hooks to function. Pin their far hip with your knee before straightening your leg, and control their hooking foot with your free hand as you extract to prevent the re-grip. You may also need to address their upper body grips first, as their hands may be assisting the re-establishment by pulling your leg back into position through sleeve or ankle grips."
+        "answer": "Increase hip pressure before re-attempting to compress the space available for their hooks to function. Pin their far hip with your knee before straightening your leg, and control their hooking foot with your free hand as you extract to prevent the re-grip. You may also need to address their upper body grips first, as their hands may be assisting the re-establishment by pulling your leg back into position through sleeve or ankle grips.",
+        "answer_line": "Pin hip, control hooking foot",
+        "distractors": {
+          "plausible": [
+            "Strip faster next time",
+            "Add more crossface pressure"
+          ],
+          "trap": [
+            "Let them re-grip, retry later"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight during the lockdown break to prevent being swept?",
-        "answer": "Weight should be driven primarily through your shoulder into the opponent's chest and through your hips into your trapped leg, with your free leg posted wide for base. Avoid posting on your hands, which removes pressure and creates exploitable space. The center of gravity should remain low and forward, so that any sweep attempt by the bottom player meets maximum resistance from your skeletal structure rather than requiring muscular effort to counter."
+        "answer": "Weight should be driven primarily through your shoulder into the opponent's chest and through your hips into your trapped leg, with your free leg posted wide for base. Avoid posting on your hands, which removes pressure and creates exploitable space. The center of gravity should remain low and forward, so that any sweep attempt by the bottom player meets maximum resistance from your skeletal structure rather than requiring muscular effort to counter.",
+        "answer_line": "Shoulder and hips, not hands",
+        "distractors": {
+          "plausible": [
+            "Balance weight evenly",
+            "Base wide on both knees"
+          ],
+          "trap": [
+            "Post weight on your hands"
+          ]
+        }
       },
       {
         "question": "What are the first two actions you should take immediately after successfully extracting your leg from the Z-Lock?",
-        "answer": "First, drive your freed knee tight against the opponent's hip to prevent any space for hook re-insertion, establishing standard half guard top control. Second, increase shoulder pressure to flatten the bottom player and prevent them from creating the angles needed to recover knee shield or re-establish the Z-Lock. These two actions must happen immediately because the bottom player will be actively working to recover a defensive guard configuration during this transitional moment."
+        "answer": "First, drive your freed knee tight against the opponent's hip to prevent any space for hook re-insertion, establishing standard half guard top control. Second, increase shoulder pressure to flatten the bottom player and prevent them from creating the angles needed to recover knee shield or re-establish the Z-Lock. These two actions must happen immediately because the bottom player will be actively working to recover a defensive guard configuration during this transitional moment.",
+        "answer_line": "Knee to hip, then flatten them",
+        "distractors": {
+          "plausible": [
+            "Pass guard immediately",
+            "Secure submission right away"
+          ],
+          "trap": [
+            "Sit back and reset position"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to deep half as you begin the lockdown break - how should you respond?",
-        "answer": "Immediately drive your hips forward and sprawl to prevent them from getting underneath you, which is the fundamental requirement for deep half. Maintain your crossface to block the head movement needed for the underduck entry. If they partially achieve deep half, switch your strategy from lockdown break to deep half passing by driving your underhook deep and threatening to backstep. Do not continue the lockdown break sequence once they have changed the positional structure."
+        "answer": "Immediately drive your hips forward and sprawl to prevent them from getting underneath you, which is the fundamental requirement for deep half. Maintain your crossface to block the head movement needed for the underduck entry. If they partially achieve deep half, switch your strategy from lockdown break to deep half passing by driving your underhook deep and threatening to backstep. Do not continue the lockdown break sequence once they have changed the positional structure.",
+        "answer_line": "Sprawl and block the underduck",
+        "distractors": {
+          "plausible": [
+            "Backstep to pass immediately",
+            "Increase lockdown pressure"
+          ],
+          "trap": [
+            "Continue the lockdown break"
+          ]
+        }
       },
       {
         "question": "Why is maintaining crossface pressure throughout the entire extraction sequence critical to success?",
-        "answer": "The crossface prevents the bottom player from turning their hips toward you, which is essential for both their sweep mechanics and their ability to readjust Z-Lock hooks. Without the crossface, the bottom player can turn to face you, re-establish their underhook, and either re-grip the lockdown or transition to a more advantageous half guard variation. The crossface also adds to the overall pressure that compresses the space needed for the Z-Lock to function effectively."
+        "answer": "The crossface prevents the bottom player from turning their hips toward you, which is essential for both their sweep mechanics and their ability to readjust Z-Lock hooks. Without the crossface, the bottom player can turn to face you, re-establish their underhook, and either re-grip the lockdown or transition to a more advantageous half guard variation. The crossface also adds to the overall pressure that compresses the space needed for the Z-Lock to function effectively.",
+        "answer_line": "Blocks hips turning to you",
+        "distractors": {
+          "plausible": [
+            "Controls their far arm",
+            "Prevents them standing up"
+          ],
+          "trap": [
+            "Release crossface to switch grips"
+          ]
+        }
       },
       {
         "question": "During positional sparring, you notice opponents consistently re-establishing the Z-Lock after your break - what training adjustment addresses this?",
-        "answer": "Focus on the consolidation phase after the break rather than the break itself. Drill the immediate transition from extraction to tight half guard top control with emphasis on closing all space against the opponent's hip. Practice chaining the break directly into a passing attempt so the opponent never has a window to reconfigure. Also examine whether your upper body pressure drops during the final extraction phase, as this commonly allows the re-establishment."
+        "answer": "Focus on the consolidation phase after the break rather than the break itself. Drill the immediate transition from extraction to tight half guard top control with emphasis on closing all space against the opponent's hip. Practice chaining the break directly into a passing attempt so the opponent never has a window to reconfigure. Also examine whether your upper body pressure drops during the final extraction phase, as this commonly allows the re-establishment.",
+        "answer_line": "Drill break into pass, no pause",
+        "distractors": {
+          "plausible": [
+            "Drill the break in isolation",
+            "Increase pace of extraction"
+          ],
+          "trap": [
+            "Reset to neutral after each break"
+          ]
+        }
       }
     ],
     "safety_considerations": "The lockdown break involves controlled leg straightening and hook stripping that places stress on both players' knees and ankles. Apply progressive force when straightening rather than explosive jerking motions that can strain the bottom player's knee ligaments, particularly the MCL. If either player reports sharp knee pain during drilling, stop immediately and assess the angle of force application. Ensure adequate warm-up of hip flexors and hamstrings before practicing this technique, and communicate with your training partner about pressure intensity throughout the drill.",
@@ -379,19 +459,59 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that the top player is beginning a lockdown break attempt?",
-        "answer": "The earliest cue is increased compression pressure through their hips onto your trapped leg, combined with a subtle straightening of their knee. You may also feel them shift their weight distribution as they prepare to address your butterfly hook. This initial weight shift creates your best window for counter-attack because the top player has committed to the break but hasn't yet begun the extraction sequence."
+        "answer": "The earliest cue is increased compression pressure through their hips onto your trapped leg, combined with a subtle straightening of their knee. You may also feel them shift their weight distribution as they prepare to address your butterfly hook. This initial weight shift creates your best window for counter-attack because the top player has committed to the break but hasn't yet begun the extraction sequence.",
+        "answer_line": "Hip compression, knee straightens",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure increases",
+            "They grip your far sleeve"
+          ],
+          "trap": [
+            "Wait for hooks to fully strip"
+          ]
+        }
       },
       {
         "question": "Why is immediate re-gripping more effective than waiting for the hooks to be fully stripped before attempting recovery?",
-        "answer": "Re-gripping while the hooks still have partial contact requires significantly less energy and movement than recovering from scratch after full extraction. When hooks are partially stripped, you only need to tighten the configuration rather than re-establish it against an opponent actively preventing re-entry. Additionally, the moment of partial strip is when the top player is most focused on completing the extraction, making them less attentive to your upper body counter-attacks."
+        "answer": "Re-gripping while the hooks still have partial contact requires significantly less energy and movement than recovering from scratch after full extraction. When hooks are partially stripped, you only need to tighten the configuration rather than re-establish it against an opponent actively preventing re-entry. Additionally, the moment of partial strip is when the top player is most focused on completing the extraction, making them less attentive to your upper body counter-attacks.",
+        "answer_line": "Tighten before full strip",
+        "distractors": {
+          "plausible": [
+            "Re-grip using more strength",
+            "Re-grip only after they pass"
+          ],
+          "trap": [
+            "Wait until hooks fully stripped"
+          ]
+        }
       },
       {
         "question": "How does maintaining your underhook assist in defending the lockdown break?",
-        "answer": "The underhook prevents the top player from driving the crossface pressure angle they need for effective extraction, as your underhook forces them to address upper body control simultaneously with leg extraction. It also provides the lever you need for sweep counters if the top player overcommits to the break. Without the underhook, the top player can establish uncontested shoulder pressure that flattens you and makes both leg retention and sweeping significantly more difficult."
+        "answer": "The underhook prevents the top player from driving the crossface pressure angle they need for effective extraction, as your underhook forces them to address upper body control simultaneously with leg extraction. It also provides the lever you need for sweep counters if the top player overcommits to the break. Without the underhook, the top player can establish uncontested shoulder pressure that flattens you and makes both leg retention and sweeping significantly more difficult.",
+        "answer_line": "Blocks crossface, sets up sweep",
+        "distractors": {
+          "plausible": [
+            "Prevents any hip movement",
+            "Controls their far ankle"
+          ],
+          "trap": [
+            "Release underhook for space"
+          ]
+        }
       },
       {
         "question": "When the top player successfully strips your butterfly hook, what is your immediate priority?",
-        "answer": "Your immediate priority is to re-insert the butterfly hook before the top player can shift focus to the lockdown ankle hook. Without the butterfly hook, you lose your primary sweep threat and the top player can focus entirely on the lockdown strip without fear of being elevated. Hip escape to create the space needed for hook re-insertion, and use your underhook to prevent the top player from pinning your hook leg flat against the mat."
+        "answer": "Your immediate priority is to re-insert the butterfly hook before the top player can shift focus to the lockdown ankle hook. Without the butterfly hook, you lose your primary sweep threat and the top player can focus entirely on the lockdown strip without fear of being elevated. Hip escape to create the space needed for hook re-insertion, and use your underhook to prevent the top player from pinning your hook leg flat against the mat.",
+        "answer_line": "Re-insert butterfly hook fast",
+        "distractors": {
+          "plausible": [
+            "Focus on lockdown hook instead",
+            "Attack an armbar immediately"
+          ],
+          "trap": [
+            "Wait for lockdown to be tested"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -248,43 +248,143 @@
     "flashcards": [
       {
         "question": "Why is maintaining the bottom hook critical throughout the back control to crucifix transition?",
-        "answer": "The bottom hook serves as your primary anchor and prevents opponent from turning into you during the transition. Removing both hooks simultaneously creates space for opponent to escape or reverse position. The bottom hook maintains back exposure and provides base stability while your top-side leg transitions to the shin-pin configuration. Without this hook, you lose the positional foundation that defines back control and risk complete position loss during the vulnerable transition phase."
+        "answer": "The bottom hook serves as your primary anchor and prevents opponent from turning into you during the transition. Removing both hooks simultaneously creates space for opponent to escape or reverse position. The bottom hook maintains back exposure and provides base stability while your top-side leg transitions to the shin-pin configuration. Without this hook, you lose the positional foundation that defines back control and risk complete position loss during the vulnerable transition phase.",
+        "answer_line": "Anchors base, blocks turn-in",
+        "distractors": {
+          "plausible": [
+            "Frees hand for tighter choke",
+            "Controls hips for the pass"
+          ],
+          "trap": [
+            "Pull both hooks for the knee"
+          ]
+        }
       },
       {
         "question": "What defensive reaction from the opponent creates the optimal window for initiating the crucifix transition?",
-        "answer": "When the opponent commits both hands to defending the rear naked choke by grabbing your choking wrist or their own collar, their arms become extended away from their body and vulnerable to control. This defensive posture is exactly what the crucifix transition exploits. The opponent's own defensive frames become the mechanism for their entrapment. Without this arm extension, attempting the transition is premature and likely to fail because there is no space to insert the knee over a tucked arm."
+        "answer": "When the opponent commits both hands to defending the rear naked choke by grabbing your choking wrist or their own collar, their arms become extended away from their body and vulnerable to control. This defensive posture is exactly what the crucifix transition exploits. The opponent's own defensive frames become the mechanism for their entrapment. Without this arm extension, attempting the transition is premature and likely to fail because there is no space to insert the knee over a tucked arm.",
+        "answer_line": "Both hands grab choke defense",
+        "distractors": {
+          "plausible": [
+            "Opponent turns into you",
+            "One hand grips your sleeve"
+          ],
+          "trap": [
+            "Opponent tucks elbows tight"
+          ]
+        }
       },
       {
         "question": "How should your shin be positioned when pinning the opponent's near-side arm?",
-        "answer": "Your shin should cross perpendicular to the opponent's upper arm and shoulder, with the shin bone creating pressure that pins their arm to their own body. Your knee should drive all the way to the mat on the far side of their body, creating a wedge that prevents arm extraction. The shin placement should be high on their arm, close to the shoulder, rather than on their forearm where they have more mechanical advantage to pull free."
+        "answer": "Your shin should cross perpendicular to the opponent's upper arm and shoulder, with the shin bone creating pressure that pins their arm to their own body. Your knee should drive all the way to the mat on the far side of their body, creating a wedge that prevents arm extraction. The shin placement should be high on their arm, close to the shoulder, rather than on their forearm where they have more mechanical advantage to pull free.",
+        "answer_line": "Shin pins upper arm near shoulder",
+        "distractors": {
+          "plausible": [
+            "Shin pressure on their forearm",
+            "Knee hovers, doesn't reach mat"
+          ],
+          "trap": [
+            "Grip their wrist, skip the shin"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbows glued to their ribs and refuses to extend their arms to defend the choke. How do you create the opening?",
-        "answer": "Increase the choke threat intensity by adjusting your choking arm deeper under the chin and closing the rear naked choke grip tighter. Most opponents will eventually commit at least one hand to neck defense when the choke becomes credible. Alternatively, use a gift wrap by pulling their near arm across their own neck, or threaten an armbar by isolating one arm with your hands. Any genuine submission threat forces a defensive reaction that opens the crucifix entry window."
+        "answer": "Increase the choke threat intensity by adjusting your choking arm deeper under the chin and closing the rear naked choke grip tighter. Most opponents will eventually commit at least one hand to neck defense when the choke becomes credible. Alternatively, use a gift wrap by pulling their near arm across their own neck, or threaten an armbar by isolating one arm with your hands. Any genuine submission threat forces a defensive reaction that opens the crucifix entry window.",
+        "answer_line": "Tighten choke to force a hand",
+        "distractors": {
+          "plausible": [
+            "Wait for them to relax grip",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Release grip, reset position"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail in the knee threading phase of the transition?",
-        "answer": "The knee must travel completely over the opponent's arm to the far side of their body, creating a fulcrum point with the shin bone perpendicular across the upper arm near the shoulder. If the knee stops short and does not reach the mat on the far side, the arm trap lacks the mechanical advantage needed to prevent extraction. The shin must be bone-on-arm contact at the upper arm, not the forearm, because the shoulder joint restricts the opponent's ability to pull free when trapped at this angle."
+        "answer": "The knee must travel completely over the opponent's arm to the far side of their body, creating a fulcrum point with the shin bone perpendicular across the upper arm near the shoulder. If the knee stops short and does not reach the mat on the far side, the arm trap lacks the mechanical advantage needed to prevent extraction. The shin must be bone-on-arm contact at the upper arm, not the forearm, because the shoulder joint restricts the opponent's ability to pull free when trapped at this angle.",
+        "answer_line": "Knee to mat, shin bone on upper arm",
+        "distractors": {
+          "plausible": [
+            "Knee stops at forearm level",
+            "Shin rests loosely on the bicep"
+          ],
+          "trap": [
+            "Knee stays high, off the mat"
+          ]
+        }
       },
       {
         "question": "During the transition you feel opponent beginning to roll toward you. What adjustment preserves your attacking position?",
-        "answer": "Immediately drop your weight through the bottom hook and drive your hips into their back to stop the roll momentum. If the roll has already started, maintain chest-to-back connection and follow the roll rather than fighting it, which allows you to end up in mounted crucifix or standard mount. The key is never separating from their back. If you lose connection during the roll, the position degrades to a scramble. Keep the shin locked on the near arm regardless of which direction the roll goes."
+        "answer": "Immediately drop your weight through the bottom hook and drive your hips into their back to stop the roll momentum. If the roll has already started, maintain chest-to-back connection and follow the roll rather than fighting it, which allows you to end up in mounted crucifix or standard mount. The key is never separating from their back. If you lose connection during the roll, the position degrades to a scramble. Keep the shin locked on the near arm regardless of which direction the roll goes.",
+        "answer_line": "Follow the roll, stay chest-to-back",
+        "distractors": {
+          "plausible": [
+            "Fight the roll, hold hooks fixed",
+            "Release shin to re-base quickly"
+          ],
+          "trap": [
+            "Separate and reset from scratch"
+          ]
+        }
       },
       {
         "question": "What grip should you use on the far-side arm when completing the crucifix, and why?",
-        "answer": "Initial control uses a wrist grip on the far arm to pull it across the opponent's body and underneath your armpit. Once secured under the armpit, transition to an overhook or kimura grip for more secure control that also opens submission pathways. The wrist grip alone is insufficient for sustained control because the opponent can rotate their arm and strip it. The armpit trap combined with your body weight creates a second point of arm isolation that mirrors the leg trap on the near side."
+        "answer": "Initial control uses a wrist grip on the far arm to pull it across the opponent's body and underneath your armpit. Once secured under the armpit, transition to an overhook or kimura grip for more secure control that also opens submission pathways. The wrist grip alone is insufficient for sustained control because the opponent can rotate their arm and strip it. The armpit trap combined with your body weight creates a second point of arm isolation that mirrors the leg trap on the near side.",
+        "answer_line": "Wrist grip, then kimura under arm",
+        "distractors": {
+          "plausible": [
+            "Wrist grip only, hold tightly",
+            "Underhook their far-side leg"
+          ],
+          "trap": [
+            "Abandon wrist grip for collar"
+          ]
+        }
       },
       {
         "question": "If your shin trap fails and the opponent frees their near arm during step 4, what is your immediate recovery plan?",
-        "answer": "Immediately reinsert your top hook to re-establish standard back control with both hooks and seatbelt grip. Do not chase the arm or attempt to re-thread the knee while in a compromised position, as this creates scramble opportunities for the opponent. Reset completely, maintain dominant back control, and wait for the next choke defense reaction to create a fresh entry window. Attempting to force the crucifix from a failed position wastes energy and risks losing back control entirely."
+        "answer": "Immediately reinsert your top hook to re-establish standard back control with both hooks and seatbelt grip. Do not chase the arm or attempt to re-thread the knee while in a compromised position, as this creates scramble opportunities for the opponent. Reset completely, maintain dominant back control, and wait for the next choke defense reaction to create a fresh entry window. Attempting to force the crucifix from a failed position wastes energy and risks losing back control entirely.",
+        "answer_line": "Reinsert hook, reset back control",
+        "distractors": {
+          "plausible": [
+            "Chase the arm, rethread knee",
+            "Switch immediately to gift wrap"
+          ],
+          "trap": [
+            "Force the knee back into place"
+          ]
+        }
       },
       {
         "question": "How does the gift wrap variation change the entry sequence for the crucifix transition?",
-        "answer": "The gift wrap pre-traps the near-side arm by pulling it across the opponent's own neck and pinning it with your hand. This eliminates the need to bait the arm extension and simplifies the knee threading phase because the near arm is already isolated and controlled. You thread the knee over the already-trapped arm, then release the gift wrap hand to capture the far arm. This variation is faster and more reliable but requires establishing the gift wrap first, which has its own setup requirements from back control."
+        "answer": "The gift wrap pre-traps the near-side arm by pulling it across the opponent's own neck and pinning it with your hand. This eliminates the need to bait the arm extension and simplifies the knee threading phase because the near arm is already isolated and controlled. You thread the knee over the already-trapped arm, then release the gift wrap hand to capture the far arm. This variation is faster and more reliable but requires establishing the gift wrap first, which has its own setup requirements from back control.",
+        "answer_line": "Pre-traps arm before knee threads",
+        "distractors": {
+          "plausible": [
+            "Skips the knee-threading step",
+            "Traps far arm first, then near"
+          ],
+          "trap": [
+            "Release the gift wrap immediately"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you threaten if the crucifix entry is blocked repeatedly?",
-        "answer": "Cycle between rear naked choke, bow and arrow choke, armbar from back, and gift wrap entries. Each attack forces a different defensive response that may open the crucifix window. If the opponent defends the choke with hands, crucifix becomes available. If they tuck arms to deny crucifix, the choke opens. If they turn their body, gift wrap or armbar from back become viable. The key is creating a systematic attack cycle where defending one threat opens vulnerability to another, rather than stubbornly pursuing a single entry."
+        "answer": "Cycle between rear naked choke, bow and arrow choke, armbar from back, and gift wrap entries. Each attack forces a different defensive response that may open the crucifix window. If the opponent defends the choke with hands, crucifix becomes available. If they tuck arms to deny crucifix, the choke opens. If they turn their body, gift wrap or armbar from back become viable. The key is creating a systematic attack cycle where defending one threat opens vulnerability to another, rather than stubbornly pursuing a single entry.",
+        "answer_line": "Cycle RNC, bow-arrow, armbar, wrap",
+        "distractors": {
+          "plausible": [
+            "Repeat the same crucifix attempt",
+            "Abandon back control, pass guard"
+          ],
+          "trap": [
+            "Stand up and reset the position"
+          ]
+        }
       }
     ],
     "safety_considerations": "The back control to crucifix transition involves significant pressure on the opponent's shoulders, arms, and neck area, requiring controlled execution to prevent injury. When training this transition, communicate clearly with your partner and move through positions deliberately rather than explosively, especially during the shin insertion phase where sudden pressure can stress shoulder joints. The opponent's arms are placed in vulnerable positions during this transition, particularly the far arm which can be at risk for shoulder or elbow hyperextension if cranked aggressively. Always allow your partner to tap before completing armbars or shoulder locks from crucifix, and release pressure immediately upon any tap signal. When being controlled in crucifix yourself, tap early if you feel joint stress rather than attempting to muscle out of the position. Newer practitioners should drill this transition at slow speeds until mechanics are ingrained, as rushing the movement can result in neck compression or shoulder strain for both parties.",
@@ -407,23 +507,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to transition from back control to crucifix?",
-        "answer": "The earliest cue is the removal of the top-side hook. When the attacker extracts one hook while keeping the other inserted, they are creating the asymmetric leg configuration needed to thread the knee over your arm. This hook removal is the most reliable early warning because it must occur before the knee can cross. Feeling this change should trigger immediate elbow clamping and arm retraction to deny the entry window."
+        "answer": "The earliest cue is the removal of the top-side hook. When the attacker extracts one hook while keeping the other inserted, they are creating the asymmetric leg configuration needed to thread the knee over your arm. This hook removal is the most reliable early warning because it must occur before the knee can cross. Feeling this change should trigger immediate elbow clamping and arm retraction to deny the entry window.",
+        "answer_line": "Top hook comes off first",
+        "distractors": {
+          "plausible": [
+            "Bottom hook releases first",
+            "Opponent grabs your wrist"
+          ],
+          "trap": [
+            "Opponent tightens seatbelt grip"
+          ]
+        }
       },
       {
         "question": "Why should you avoid extending both arms to defend the rear naked choke when the attacker might be setting up a crucifix?",
-        "answer": "Extending both arms away from your body creates the exact spacing the attacker needs for crucifix entry. The gap between your elbow and ribcage becomes the insertion point for their knee. Instead, defend the choke primarily with chin position, shoulder raise, and one hand on the choking arm while keeping the near-side elbow clamped tight to your ribcage. This denies the space needed for the knee to cross over the arm while still addressing the choke threat."
+        "answer": "Extending both arms away from your body creates the exact spacing the attacker needs for crucifix entry. The gap between your elbow and ribcage becomes the insertion point for their knee. Instead, defend the choke primarily with chin position, shoulder raise, and one hand on the choking arm while keeping the near-side elbow clamped tight to your ribcage. This denies the space needed for the knee to cross over the arm while still addressing the choke threat.",
+        "answer_line": "Opens gap for knee to enter",
+        "distractors": {
+          "plausible": [
+            "Loses grip on their sleeve",
+            "Slows your own choke defense"
+          ],
+          "trap": [
+            "Extend both arms to block hands"
+          ]
+        }
       },
       {
         "question": "Your opponent has their shin partially across your near arm but has not captured your far arm yet. What is the optimal escape strategy?",
-        "answer": "This is the last high-percentage escape window. Use your free hand to push against the attacker's trapping knee while simultaneously shrimping your hips to change the angle of the shin trap. The combination of pushing the knee and changing your hip angle creates slack in the trap that allows arm extraction. Act quickly because the attacker is about to reach for your far arm. Once both arms are controlled, escape difficulty increases dramatically. If pushing the knee fails, immediately return the free hand to neck defense."
+        "answer": "This is the last high-percentage escape window. Use your free hand to push against the attacker's trapping knee while simultaneously shrimping your hips to change the angle of the shin trap. The combination of pushing the knee and changing your hip angle creates slack in the trap that allows arm extraction. Act quickly because the attacker is about to reach for your far arm. Once both arms are controlled, escape difficulty increases dramatically. If pushing the knee fails, immediately return the free hand to neck defense.",
+        "answer_line": "Push knee, shrimp to change angle",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm straight out",
+            "Wait for the far arm grab"
+          ],
+          "trap": [
+            "Reach for their far-side arm"
+          ]
+        }
       },
       {
         "question": "How does hip movement help free a trapped arm from the crucifix shin trap more effectively than direct arm pulling?",
-        "answer": "Direct pulling works against the mechanical advantage of the shin bone perpendicular to your arm. Hip movement changes the angle of the entire trap by shifting your body relative to the attacker's leg configuration. Shrimping creates slack in the trap that direct pulling cannot achieve because it addresses the root cause of the pin: the angle between your arm and the shin. Small hip adjustments can make the difference between an arm that is mechanically locked and one that can slide free."
+        "answer": "Direct pulling works against the mechanical advantage of the shin bone perpendicular to your arm. Hip movement changes the angle of the entire trap by shifting your body relative to the attacker's leg configuration. Shrimping creates slack in the trap that direct pulling cannot achieve because it addresses the root cause of the pin: the angle between your arm and the shin. Small hip adjustments can make the difference between an arm that is mechanically locked and one that can slide free.",
+        "answer_line": "Shrimp to change the trap angle",
+        "distractors": {
+          "plausible": [
+            "Pull straight against the shin",
+            "Push the trapping knee only"
+          ],
+          "trap": [
+            "Yank the arm free with force"
+          ]
+        }
       },
       {
         "question": "When defending from back control, how do you balance choke defense with crucifix prevention?",
-        "answer": "Use a split defensive strategy: one hand stays on the choking arm for neck defense while the other arm stays tight to the body with the elbow clamped to the ribcage. Chin tuck and shoulder raise handle the primary choke defense load, reducing how much hand fighting you need. This configuration addresses both threats simultaneously. If you feel the hook being removed, immediately prioritize elbow clamping on the near side while maintaining single-hand choke defense. The choke requires the arm under the chin, which takes time to set; the crucifix entry window is much shorter."
+        "answer": "Use a split defensive strategy: one hand stays on the choking arm for neck defense while the other arm stays tight to the body with the elbow clamped to the ribcage. Chin tuck and shoulder raise handle the primary choke defense load, reducing how much hand fighting you need. This configuration addresses both threats simultaneously. If you feel the hook being removed, immediately prioritize elbow clamping on the near side while maintaining single-hand choke defense. The choke requires the arm under the chin, which takes time to set; the crucifix entry window is much shorter.",
+        "answer_line": "One hand chokes, one elbow clamped",
+        "distractors": {
+          "plausible": [
+            "Both hands defend the choke",
+            "Elbow clamped, ignore the choke"
+          ],
+          "trap": [
+            "Extend both arms to fight grips"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -289,41 +289,121 @@
       {
         "question": "What anatomical structures does the toe hold from saddle primarily attack?",
         "answer": "The toe hold from saddle primarily attacks the ankle ligaments, specifically the lateral and medial collateral ligaments, through rotational stress. Secondary targets include the midfoot Lisfranc joint complex, the smaller bones and ligaments of the toes and forefoot, and the plantar fascia. The saddle's knee line control prevents the opponent from dissipating this rotational force through leg movement, concentrating the stress on these vulnerable structures.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ankle collateral ligaments",
+        "distractors": {
+          "plausible": [
+            "Lisfranc midfoot joint",
+            "Achilles tendon"
+          ],
+          "trap": [
+            "Only toes, ankle is safe"
+          ]
+        }
       },
       {
         "question": "What control must be fully established before transitioning from saddle position to toe hold grip?",
         "answer": "Before transitioning to the toe hold, you must have perpendicular body alignment to the opponent, heavy hip pressure on the trapped thigh, secure inside position with your leg entanglement, and all defensive frames on your hips cleared. The grip transition temporarily reduces positional control, so rushing it without these prerequisites allows the opponent to escape. Positional dominance must be established before any finishing grip changes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular hips, frames cleared",
+        "distractors": {
+          "plausible": [
+            "Just secure the underhook",
+            "Foot already trapped tightly"
+          ],
+          "trap": [
+            "Grip first, position later"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the toe hold is reaching the breaking point and a tap is imminent?",
         "answer": "Key indicators include the opponent's foot beginning to rotate past its natural range of motion, visible tension in the ankle joint area, the opponent's body stiffening as they instinctively try to resist the rotation, and increasing defensive urgency in their grip fighting. You may also feel the structural resistance of the joint change from elastic resistance to a harder end-feel. At any of these signs, maintain pressure but do not increase it sharply, giving the opponent time to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Foot rotates past normal range",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving",
+            "Loud pop sound"
+          ],
+          "trap": [
+            "Increase pressure sharply now"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent begins actively rotating their foot to strip the toe hold?",
         "answer": "If the opponent rotates their foot to strip the grip, deepen your hand position toward the heel side of the foot where there is more surface area to grip. Tighten the figure-four by pulling your elbows closer to your body. If the grip partially breaks, make an immediate decision: either reset the grip cleanly while maintaining saddle control, or transition to a heel hook if the rotation has re-exposed the heel. Never chase a deteriorating grip with loose hands.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen grip, tighten figure-four",
+        "distractors": {
+          "plausible": [
+            "Switch to heel hook grip",
+            "Reset the grip from scratch"
+          ],
+          "trap": [
+            "Chase the grip with loose hands"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error when applying the toe hold from saddle and how does it create danger?",
         "answer": "The most common finishing error is applying rotational pressure too quickly or explosively. Unlike chokes where the opponent gradually loses consciousness and can tap throughout, the toe hold attacks small ligaments and bones that can fail suddenly without significant warning pain. Explosive application can cause ankle ligament tears, toe fractures, or Lisfranc joint injuries before the opponent registers the danger and taps. All rotational pressure must build gradually over at least 5-7 seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Applying pressure too explosively",
+        "distractors": {
+          "plausible": [
+            "Not gripping tight enough",
+            "Wrong hand position on foot"
+          ],
+          "trap": [
+            "Crank hard for a fast tap"
+          ]
+        }
       },
       {
         "question": "At what point during the toe hold application does escape become nearly impossible for the defender?",
         "answer": "Escape becomes extremely difficult once the figure-four grip is fully locked with the foot pulled tight against the attacker's chest and rotational pressure has begun. At this point, the defender's options are limited to tapping or attempting an emergency hip clear. The critical window for defensive action is before the figure-four locks—once both hands connect and the foot is secured against the chest, the mechanical advantage overwhelmingly favors the attacker and the ankle is in immediate danger.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, foot to chest",
+        "distractors": {
+          "plausible": [
+            "The moment saddle is entered",
+            "After first hand grip connects"
+          ],
+          "trap": [
+            "Wait for pain before acting"
+          ]
+        }
       },
       {
         "question": "What is the proper protocol for releasing the toe hold after your training partner taps?",
         "answer": "Immediately stop all rotational pressure upon feeling or hearing any tap signal. Release the figure-four grip and remove your hands from the foot. Allow the opponent's foot to return to a neutral position naturally without forcing it. Maintain light contact until your partner confirms they are okay. Do not release abruptly by throwing the foot away, as this can cause secondary strain. Check with your training partner before resuming, and if there is any sign of injury, stop the round entirely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop instantly, release gently",
+        "distractors": {
+          "plausible": [
+            "Check in after a few seconds",
+            "Ease off pressure gradually"
+          ],
+          "trap": [
+            "Throw the foot away fast"
+          ]
+        }
       },
       {
         "question": "How does the toe hold from saddle fit into a competition strategy when heel hooks are legal?",
-        "answer": "In heel-hook-legal rulesets, the toe hold from saddle serves as the secondary threat that makes the primary heel hook more effective. When the opponent commits to hiding their heel, the toe hold punishes that specific defense. The strategic value is not the toe hold itself but the dilemma it creates: opponents who fear both attacks make compromised defensive choices that open one or the other. In competition, cycle between heel hook grip and toe hold grip based on the opponent's reactions until their defense collapses."
+        "answer": "In heel-hook-legal rulesets, the toe hold from saddle serves as the secondary threat that makes the primary heel hook more effective. When the opponent commits to hiding their heel, the toe hold punishes that specific defense. The strategic value is not the toe hold itself but the dilemma it creates: opponents who fear both attacks make compromised defensive choices that open one or the other. In competition, cycle between heel hook grip and toe hold grip based on the opponent's reactions until their defense collapses.",
+        "answer_line": "Secondary threat to heel hook",
+        "distractors": {
+          "plausible": [
+            "Toe hold is the main finish",
+            "Only use after heel hook fails"
+          ],
+          "trap": [
+            "Abandon heel hook entirely"
+          ]
+        }
       }
     ],
     "clips": [
@@ -434,26 +514,76 @@
       {
         "question": "How do you recognize that your opponent is transitioning from heel hook to toe hold from saddle?",
         "answer": "Watch for the grip change: the opponent releases their standard heel hook grip and reaches over the top of your foot instead of cupping under the heel. You will feel wrapping pressure around the ball of your foot and toes rather than cupping pressure on the heel. The opponent may also shift their upper body angle slightly to accommodate the different grip configuration required for the figure-four lock.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip moves over foot, not heel",
+        "distractors": {
+          "plausible": [
+            "Opponent switches to side control",
+            "Feel deeper heel cupping"
+          ],
+          "trap": [
+            "Ignore grip change, guard heel"
+          ]
+        }
       },
       {
         "question": "When is the safest time to tap to a toe hold from saddle?",
         "answer": "Tap as soon as you feel the figure-four grip locked with any rotational pressure beginning on your ankle. The toe hold attacks small ligaments and bones that can fail suddenly without gradual warning pain, unlike chokes where consciousness fades progressively. Once the figure-four is secured and rotation starts, the escape window is extremely small. Tap verbally and physically at the first sign of rotational stress on the ankle rather than waiting to see if you can escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "At first rotational stress felt",
+        "distractors": {
+          "plausible": [
+            "Once pain becomes severe",
+            "After trying one escape"
+          ],
+          "trap": [
+            "Wait to see if you can escape"
+          ]
+        }
       },
       {
         "question": "What defensive actions are available before the toe hold figure-four grip is fully locked?",
         "answer": "Before the figure-four locks, you can strip the initial hand grip using two-on-one fighting, straighten your leg to remove the rotational angle, frame on the opponent's hips to create extraction space, or rotate your foot to make the grip difficult to establish. The window is small since the opponent only needs a few seconds to lock the figure-four, so early recognition and immediate action are critical for successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip, straighten leg",
+        "distractors": {
+          "plausible": [
+            "Wait for rotation to start",
+            "Try to overpower the grip"
+          ],
+          "trap": [
+            "Pull leg away forcefully"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to pull your leg away when the toe hold rotation has already started?",
         "answer": "Pulling the leg away adds your own muscular force to the rotational stress the opponent is already applying to the ankle joint. This amplifies the torque on the ligaments and can cause the ankle to fail catastrophically before either you or your opponent can react. Instead, move your body toward the opponent to reduce the effective lever arm and decrease the rotational stress on the joint.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Adds torque, can snap ankle",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, tires you out",
+            "Signals panic to opponent"
+          ],
+          "trap": [
+            "Best escape option available"
+          ]
+        }
       },
       {
         "question": "What is the submission dilemma the defender faces when the attacker has saddle control?",
-        "answer": "The defender must choose between hiding the heel to prevent heel hooks, which exposes the ball of the foot to toe holds, and protecting the foot, which re-exposes the heel to heel hook attacks. This forced choice between two submission threats is what makes the saddle position so dangerous. The only real solution is to escape the underlying leg entanglement rather than trying to defend individual submissions indefinitely."
+        "answer": "The defender must choose between hiding the heel to prevent heel hooks, which exposes the ball of the foot to toe holds, and protecting the foot, which re-exposes the heel to heel hook attacks. This forced choice between two submission threats is what makes the saddle position so dangerous. The only real solution is to escape the underlying leg entanglement rather than trying to defend individual submissions indefinitely.",
+        "answer_line": "Hide heel exposes the forefoot",
+        "distractors": {
+          "plausible": [
+            "Protecting foot always wins",
+            "Fight both grips equally hard"
+          ],
+          "trap": [
+            "Just defend each submission"
+          ]
+        }
       }
     ],
     "training_progressions": [

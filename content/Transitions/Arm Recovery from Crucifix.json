@@ -257,43 +257,143 @@
     "flashcards": [
       {
         "question": "What is the absolute first priority before attempting any arm extraction from crucifix?",
-        "answer": "Protecting the neck is the non-negotiable first priority. Tuck the chin firmly into the chest, raise the shoulder on the vulnerable side, and use the free hand to defend the collar and neck area. A rear naked choke can render you unconscious in three to five seconds, while the crucifix position itself—though highly disadvantageous—is survivable indefinitely. Only after neck defense is established should you begin working on arm extraction mechanics."
+        "answer": "Protecting the neck is the non-negotiable first priority. Tuck the chin firmly into the chest, raise the shoulder on the vulnerable side, and use the free hand to defend the collar and neck area. A rear naked choke can render you unconscious in three to five seconds, while the crucifix position itself—though highly disadvantageous—is survivable indefinitely. Only after neck defense is established should you begin working on arm extraction mechanics.",
+        "answer_line": "Protect the neck first",
+        "distractors": {
+          "plausible": [
+            "Start hip escaping immediately",
+            "Free the trapped arm fast"
+          ],
+          "trap": [
+            "Push off their trapped-side leg"
+          ]
+        }
       },
       {
         "question": "Why does pulling the trapped arm directly against the leg trap fail to achieve extraction?",
-        "answer": "The leg triangle creates a directional lock where force applied straight outward actually tightens the opponent's squeeze through reflexive compression. The mechanical advantage of the legs wrapping the arm from two sides vastly exceeds the pulling strength of the trapped arm from its compromised position. The solution is angular displacement through hip escape, which changes the geometric relationship and opens an extraction path perpendicular to the lock direction where the trap is weakest."
+        "answer": "The leg triangle creates a directional lock where force applied straight outward actually tightens the opponent's squeeze through reflexive compression. The mechanical advantage of the legs wrapping the arm from two sides vastly exceeds the pulling strength of the trapped arm from its compromised position. The solution is angular displacement through hip escape, which changes the geometric relationship and opens an extraction path perpendicular to the lock direction where the trap is weakest.",
+        "answer_line": "Straight pull tightens the squeeze",
+        "distractors": {
+          "plausible": [
+            "Not enough grip strength used",
+            "Free arm should pull instead"
+          ],
+          "trap": [
+            "Pull harder to break the lock"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their leg squeeze as you begin hip escaping—how do you adjust your approach?",
-        "answer": "Pause the escape momentarily and wait for the squeeze to relax—sustained maximum compression is metabolically expensive for the opponent's legs and they cannot maintain it indefinitely. While waiting, use your free arm as a lever against their top leg to create mechanical slack that works even against the squeeze. When you feel pressure decrease, resume the hip escape with faster tempo. Chaining pauses with bursts of movement exploits the opponent's squeeze-relax cycles."
+        "answer": "Pause the escape momentarily and wait for the squeeze to relax—sustained maximum compression is metabolically expensive for the opponent's legs and they cannot maintain it indefinitely. While waiting, use your free arm as a lever against their top leg to create mechanical slack that works even against the squeeze. When you feel pressure decrease, resume the hip escape with faster tempo. Chaining pauses with bursts of movement exploits the opponent's squeeze-relax cycles.",
+        "answer_line": "Pause, then burst when it relaxes",
+        "distractors": {
+          "plausible": [
+            "Push through with steady pressure",
+            "Switch hip escape direction now"
+          ],
+          "trap": [
+            "Yank the arm out against squeeze"
+          ]
+        }
       },
       {
         "question": "What arm rotation facilitates extraction through the leg trap opening?",
-        "answer": "Rotating the trapped arm palm-up (supination) reduces the cross-section of the arm passing through the trap by aligning the elbow joint with the narrowest gap in the leg configuration. The palm-up position also engages the bicep to assist with the pulling motion while the forearm profile narrows. This rotation should coincide with the hip escape, so the angle change and arm rotation create a combined effect that neither would achieve independently."
+        "answer": "Rotating the trapped arm palm-up (supination) reduces the cross-section of the arm passing through the trap by aligning the elbow joint with the narrowest gap in the leg configuration. The palm-up position also engages the bicep to assist with the pulling motion while the forearm profile narrows. This rotation should coincide with the hip escape, so the angle change and arm rotation create a combined effect that neither would achieve independently.",
+        "answer_line": "Rotate palm-up through the gap",
+        "distractors": {
+          "plausible": [
+            "Rotate palm-down for leverage",
+            "Keep wrist neutral, just pull"
+          ],
+          "trap": [
+            "Make a fist and yank straight out"
+          ]
+        }
       },
       {
         "question": "The opponent begins transitioning to mounted crucifix during your escape attempt—what immediate action do you take?",
-        "answer": "Bridge explosively toward the mounting leg before it settles into position. The transition from crucifix to mounted crucifix requires the opponent to swing their leg over, which momentarily loosens the leg triangle on the trapped arm. Use this brief window to accelerate the arm extraction rather than defending the mount. If the arm cannot be freed during the transition, at minimum turn your body toward the mounting side to prevent full mount consolidation and create scramble opportunities."
+        "answer": "Bridge explosively toward the mounting leg before it settles into position. The transition from crucifix to mounted crucifix requires the opponent to swing their leg over, which momentarily loosens the leg triangle on the trapped arm. Use this brief window to accelerate the arm extraction rather than defending the mount. If the arm cannot be freed during the transition, at minimum turn your body toward the mounting side to prevent full mount consolidation and create scramble opportunities.",
+        "answer_line": "Bridge into the mounting leg",
+        "distractors": {
+          "plausible": [
+            "Brace and wait it out",
+            "Focus purely on neck defense"
+          ],
+          "trap": [
+            "Roll away from the mounting leg"
+          ]
+        }
       },
       {
         "question": "What is the critical action you must take immediately after freeing the trapped arm?",
-        "answer": "The freed arm must go directly into a frame position against the opponent's hip, shoulder, or chest with zero pause between extraction and frame establishment. The opponent will attempt to re-capture the arm within one to two seconds of it clearing the leg trap. The frame creates distance and structural resistance that prevents re-capture while simultaneously beginning the space creation needed for guard recovery. Hesitating to celebrate or rest after extraction is the most common cause of failed recovery sequences."
+        "answer": "The freed arm must go directly into a frame position against the opponent's hip, shoulder, or chest with zero pause between extraction and frame establishment. The opponent will attempt to re-capture the arm within one to two seconds of it clearing the leg trap. The frame creates distance and structural resistance that prevents re-capture while simultaneously beginning the space creation needed for guard recovery. Hesitating to celebrate or rest after extraction is the most common cause of failed recovery sequences.",
+        "answer_line": "Frame instantly, no pause",
+        "distractors": {
+          "plausible": [
+            "Rest a beat before framing up",
+            "Attack the neck immediately"
+          ],
+          "trap": [
+            "Post the arm on the mat to breathe"
+          ]
+        }
       },
       {
         "question": "Your opponent attacks with a rear naked choke while you are partway through the arm recovery—what takes priority?",
-        "answer": "Choke defense takes absolute priority over arm recovery progress. Immediately abandon the frame against the leg and return the free hand to neck defense, establishing two-on-one control against the choking arm if possible. Tuck the chin and raise both shoulders. Only resume arm recovery after the choke threat is fully neutralized—fighting the choke hands, stripping the grip, or repositioning to eliminate the choking angle. Position is recoverable; unconsciousness is not."
+        "answer": "Choke defense takes absolute priority over arm recovery progress. Immediately abandon the frame against the leg and return the free hand to neck defense, establishing two-on-one control against the choking arm if possible. Tuck the chin and raise both shoulders. Only resume arm recovery after the choke threat is fully neutralized—fighting the choke hands, stripping the grip, or repositioning to eliminate the choking angle. Position is recoverable; unconsciousness is not.",
+        "answer_line": "Defend the choke, abandon frame",
+        "distractors": {
+          "plausible": [
+            "Finish the frame, then defend neck",
+            "Speed up the arm extraction"
+          ],
+          "trap": [
+            "Ignore choke, push for the frame"
+          ]
+        }
       },
       {
         "question": "In which direction should you hip escape relative to the trapped arm to create the optimal extraction angle?",
-        "answer": "Hip escape away from the trapped arm—moving your hips diagonally toward the mat on the opposite side of the trapped arm. This creates angular displacement between the arm and the leg trap by changing the line of pull from directly against the squeeze to perpendicular through the weakest gap in the triangle configuration. The hips move in the opposite direction from where the arm needs to exit, creating a geometric lever effect that opens the extraction path."
+        "answer": "Hip escape away from the trapped arm—moving your hips diagonally toward the mat on the opposite side of the trapped arm. This creates angular displacement between the arm and the leg trap by changing the line of pull from directly against the squeeze to perpendicular through the weakest gap in the triangle configuration. The hips move in the opposite direction from where the arm needs to exit, creating a geometric lever effect that opens the extraction path.",
+        "answer_line": "Escape away from trapped arm",
+        "distractors": {
+          "plausible": [
+            "Escape toward the trapped arm",
+            "Square hips flat to the mat"
+          ],
+          "trap": [
+            "Drive hips straight into opponent"
+          ]
+        }
       },
       {
         "question": "Your first hip escape creates some slack in the leg trap but not enough to extract the arm—what adjustment do you make?",
-        "answer": "Chain a second and third hip escape in the same direction, each building on the incremental angle change created by the previous movement. Do not reset your hips back to center between escapes—maintain the angle and extend it further with each subsequent movement. Combine the repeated hip escapes with steady free-arm lever pressure against the opponent's top leg. The cumulative effect of multiple small angle changes often succeeds where a single large movement fails because the opponent cannot readjust fast enough to close each incremental gap."
+        "answer": "Chain a second and third hip escape in the same direction, each building on the incremental angle change created by the previous movement. Do not reset your hips back to center between escapes—maintain the angle and extend it further with each subsequent movement. Combine the repeated hip escapes with steady free-arm lever pressure against the opponent's top leg. The cumulative effect of multiple small angle changes often succeeds where a single large movement fails because the opponent cannot readjust fast enough to close each incremental gap.",
+        "answer_line": "Chain more escapes, same angle",
+        "distractors": {
+          "plausible": [
+            "Reset hips, then escape again",
+            "Switch to the opposite direction"
+          ],
+          "trap": [
+            "Yank the arm through the slack"
+          ]
+        }
       },
       {
         "question": "After two failed extraction attempts, the opponent is anticipating your hip escape direction—what alternative approach do you employ?",
-        "answer": "Switch to the bridge and turn variant. Instead of hip escaping away from the trapped arm, bridge upward and turn your body toward the trapped arm side. This creates a completely different extraction angle that the opponent has not been defending. The bridge lifts their weight momentarily off the trapped shoulder while the turn changes the arm's orientation through the trap. The element of surprise from changing direction often succeeds precisely because the opponent has committed their adjustments to countering the hip escape direction they were expecting."
+        "answer": "Switch to the bridge and turn variant. Instead of hip escaping away from the trapped arm, bridge upward and turn your body toward the trapped arm side. This creates a completely different extraction angle that the opponent has not been defending. The bridge lifts their weight momentarily off the trapped shoulder while the turn changes the arm's orientation through the trap. The element of surprise from changing direction often succeeds precisely because the opponent has committed their adjustments to countering the hip escape direction they were expecting.",
+        "answer_line": "Bridge and turn toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Repeat the same hip escape harder",
+            "Wait for opponent to fatigue"
+          ],
+          "trap": [
+            "Tap out the free arm to reset"
+          ]
+        }
       }
     ],
     "safety_considerations": "Arm recovery from crucifix involves sustained pressure on the trapped arm's shoulder joint and significant neck exposure throughout the escape sequence. Never sacrifice neck defense for arm extraction—chokes can cause unconsciousness in seconds while the positional disadvantage, though severe, is survivable. During training, communicate clearly with your partner about pressure levels on both the trapped arm and neck, and tap immediately if a choke is secured before the arm is freed. Progressive resistance protocols are essential—attempting this escape at full competition intensity without first building mechanical proficiency risks shoulder injury from the trapped arm being wrenched during failed extractions and neck injury from undefended chokes during focused escape attempts.",
@@ -402,23 +502,73 @@
     "flashcards": [
       {
         "question": "What visual and tactile cue most reliably indicates the bottom player is about to attempt arm recovery?",
-        "answer": "The most reliable cue is the free arm shifting from neck defense to pushing or framing against your controlling leg. This is the necessary precursor to arm extraction because the bottom player cannot create mechanical leverage against the leg trap without repositioning their free arm. When you feel their hand leave the neck area and contact your thigh or knee, they are committing to an escape attempt, and you should immediately respond with either a choke threat or increased squeeze pressure."
+        "answer": "The most reliable cue is the free arm shifting from neck defense to pushing or framing against your controlling leg. This is the necessary precursor to arm extraction because the bottom player cannot create mechanical leverage against the leg trap without repositioning their free arm. When you feel their hand leave the neck area and contact your thigh or knee, they are committing to an escape attempt, and you should immediately respond with either a choke threat or increased squeeze pressure.",
+        "answer_line": "Free hand leaves neck to frame",
+        "distractors": {
+          "plausible": [
+            "Sudden hard bridge upward",
+            "Legs start kicking out"
+          ],
+          "trap": [
+            "Hand grips your far wrist"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully freed their arm and is establishing frames—what is your most effective immediate response?",
-        "answer": "Transition immediately to back control rather than fighting to re-establish crucifix from a compromised position. The window to re-trap the arm is extremely small once frames are established, and attempting to chase the arm typically results in losing all positional advantage. By securing hooks and seatbelt control for standard back control, you maintain a dominant position with high submission probability rather than risking a scramble trying to recover a position that has already been broken."
+        "answer": "Transition immediately to back control rather than fighting to re-establish crucifix from a compromised position. The window to re-trap the arm is extremely small once frames are established, and attempting to chase the arm typically results in losing all positional advantage. By securing hooks and seatbelt control for standard back control, you maintain a dominant position with high submission probability rather than risking a scramble trying to recover a position that has already been broken.",
+        "answer_line": "Take back control, don't chase arm",
+        "distractors": {
+          "plausible": [
+            "Re-trap the arm immediately",
+            "Increase leg squeeze pressure"
+          ],
+          "trap": [
+            "Dive for a fresh armbar attempt"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to transition from crucifix to mounted crucifix during an escape attempt?",
-        "answer": "The optimal moment is when the bottom player commits to a deep hip escape and their body is angled away from you. Their committed hip escape creates the angular space you need to swing your leg over into mount, and their body position makes it difficult for them to reverse direction quickly enough to prevent the mount. The hip escape simultaneously opens your transition path while reducing their ability to counter it—their own escape movement becomes the setup for your positional advancement."
+        "answer": "The optimal moment is when the bottom player commits to a deep hip escape and their body is angled away from you. Their committed hip escape creates the angular space you need to swing your leg over into mount, and their body position makes it difficult for them to reverse direction quickly enough to prevent the mount. The hip escape simultaneously opens your transition path while reducing their ability to counter it—their own escape movement becomes the setup for your positional advancement.",
+        "answer_line": "When they commit to deep hip escape",
+        "distractors": {
+          "plausible": [
+            "Right when position is first secured",
+            "As soon as arm starts extracting"
+          ],
+          "trap": [
+            "Only after they stop moving"
+          ]
+        }
       },
       {
         "question": "How should you adjust your body position when the bottom player hip escapes away from the trapped arm?",
-        "answer": "Follow their hip escape by adjusting your own hips in the same direction to maintain perpendicular alignment to their torso. Keep your chest tight against their upper back and shoulders throughout the adjustment, never allowing space to open between your bodies. Simultaneously increase the squeeze on the leg triangle to compensate for any slack created during the movement. The goal is to neutralize their angle change completely so that from their perspective, the escape created zero net positional change."
+        "answer": "Follow their hip escape by adjusting your own hips in the same direction to maintain perpendicular alignment to their torso. Keep your chest tight against their upper back and shoulders throughout the adjustment, never allowing space to open between your bodies. Simultaneously increase the squeeze on the leg triangle to compensate for any slack created during the movement. The goal is to neutralize their angle change completely so that from their perspective, the escape created zero net positional change.",
+        "answer_line": "Follow angle, chest stays tight",
+        "distractors": {
+          "plausible": [
+            "Hold position, let them create angle",
+            "Release squeeze to reposition"
+          ],
+          "trap": [
+            "Sit back to re-square the hips"
+          ]
+        }
       },
       {
         "question": "What makes the arm recovery attempt most dangerous for you as the crucifix top player?",
-        "answer": "The most dangerous aspect is when the bottom player successfully extracts the arm AND immediately establishes frames before you can react. This two-step sequence—extraction followed by instant framing—creates a structural barrier that prevents re-capture and begins the guard recovery process. Your defensive priority must be preventing the extraction entirely, because once frames are established, the positional advantage shifts dramatically. The transition from crucifix control to scramble happens in less than two seconds if the arm clears and frames go up."
+        "answer": "The most dangerous aspect is when the bottom player successfully extracts the arm AND immediately establishes frames before you can react. This two-step sequence—extraction followed by instant framing—creates a structural barrier that prevents re-capture and begins the guard recovery process. Your defensive priority must be preventing the extraction entirely, because once frames are established, the positional advantage shifts dramatically. The transition from crucifix control to scramble happens in less than two seconds if the arm clears and frames go up.",
+        "answer_line": "Extraction plus instant framing",
+        "distractors": {
+          "plausible": [
+            "Any single hip escape attempt",
+            "Opponent breathing heavily"
+          ],
+          "trap": [
+            "Opponent grabbing their own gi"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -208,47 +208,157 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Smash Pass Counter from Ringworm Guard?",
-        "answer": "The primary goal is to nullify the guard player's leverage by collapsing forward with heavy pressure rather than creating distance, extracting the trapped leg from the lapel wrap through systematic grip-breaking, and transitioning to side control while maintaining constant forward pressure throughout."
+        "answer": "The primary goal is to nullify the guard player's leverage by collapsing forward with heavy pressure rather than creating distance, extracting the trapped leg from the lapel wrap through systematic grip-breaking, and transitioning to side control while maintaining constant forward pressure throughout.",
+        "answer_line": "Collapse forward, strip leg, pass",
+        "distractors": {
+          "plausible": [
+            "Break grip first, then collapse",
+            "Pressure first, submit the leg"
+          ],
+          "trap": [
+            "Create distance to reset guard"
+          ]
+        }
       },
       {
         "question": "What position do you start Smash Pass Counter from?",
-        "answer": "This technique starts from Ringworm Guard/Top, specifically when you are the passer caught with your leg trapped in the opponent's lapel wrap configuration. The technique is designed for the scenario where the guard player has established the ring configuration but hasn't yet secured multiple secondary control points."
+        "answer": "This technique starts from Ringworm Guard/Top, specifically when you are the passer caught with your leg trapped in the opponent's lapel wrap configuration. The technique is designed for the scenario where the guard player has established the ring configuration but hasn't yet secured multiple secondary control points.",
+        "answer_line": "Ringworm Guard/Top, leg trapped",
+        "distractors": {
+          "plausible": [
+            "Ringworm Guard/Bottom",
+            "Half Guard/Top, leg trapped"
+          ],
+          "trap": [
+            "Side Control/Top after pass"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Smash Pass Counter?",
-        "answer": "The primary control is crossface pressure with your forearm across the opponent's face and neck rather than traditional grips. Your free hand works to strip the opponent's lapel grip, initially locating where they hold the lapel tail and then breaking that grip finger by finger or through wrist levering. Grip fighting is secondary to body pressure and positioning."
+        "answer": "The primary control is crossface pressure with your forearm across the opponent's face and neck rather than traditional grips. Your free hand works to strip the opponent's lapel grip, initially locating where they hold the lapel tail and then breaking that grip finger by finger or through wrist levering. Grip fighting is secondary to body pressure and positioning.",
+        "answer_line": "Crossface, then strip lapel grip",
+        "distractors": {
+          "plausible": [
+            "Double underhooks, then crossface",
+            "Collar grip, then strip lapel"
+          ],
+          "trap": [
+            "Grip fight the lapel first"
+          ]
+        }
       },
       {
         "question": "How does the opponent most effectively counter Smash Pass Counter?",
-        "answer": "The highest percentage counter is elevating hips and loading for a sweep the moment you begin collapsing forward, using your committed weight against you. Another effective counter is abandoning the lapel grip to attack your collar or underhook while your hands are occupied with the pass, or turning aggressively toward you to initiate back take before crossface is established."
+        "answer": "The highest percentage counter is elevating hips and loading for a sweep the moment you begin collapsing forward, using your committed weight against you. Another effective counter is abandoning the lapel grip to attack your collar or underhook while your hands are occupied with the pass, or turning aggressively toward you to initiate back take before crossface is established.",
+        "answer_line": "Elevate hips, sweep the collapse",
+        "distractors": {
+          "plausible": [
+            "Attack collar underhook instead",
+            "Turn to back take early"
+          ],
+          "trap": [
+            "Hold lapel grip tighter"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Smash Pass Counter?",
-        "answer": "The optimal timing window is after the opponent has established the lapel wrap around your leg but before they secure secondary controls on your sleeves, collar, or hips. If attempted too early, there's no guard to pass. If attempted too late, the opponent has too many control points making smash pressure insufficient to neutralize their offensive options."
+        "answer": "The optimal timing window is after the opponent has established the lapel wrap around your leg but before they secure secondary controls on your sleeves, collar, or hips. If attempted too early, there's no guard to pass. If attempted too late, the opponent has too many control points making smash pressure insufficient to neutralize their offensive options.",
+        "answer_line": "After wrap, before secondary grips",
+        "distractors": {
+          "plausible": [
+            "Before guard is fully established",
+            "After all controls are secured"
+          ],
+          "trap": [
+            "Wait for opponent to attack first"
+          ]
+        }
       },
       {
         "question": "Your opponent loads their hips as you collapse forward - how do you adjust?",
-        "answer": "Immediately widen your base by stepping your free leg out to the side, drop your hips lower toward the mat rather than staying elevated, and drive your shoulder weight into their sternum rather than their hips. This lowers your center of gravity below theirs and removes the elevation they need to complete the sweep. Do not pull away - this gives them the space to execute."
+        "answer": "Immediately widen your base by stepping your free leg out to the side, drop your hips lower toward the mat rather than staying elevated, and drive your shoulder weight into their sternum rather than their hips. This lowers your center of gravity below theirs and removes the elevation they need to complete the sweep. Do not pull away - this gives them the space to execute.",
+        "answer_line": "Widen base, drop hips, drive sternum",
+        "distractors": {
+          "plausible": [
+            "Post hand out, drive their hips",
+            "Raise your hips, drive forward"
+          ],
+          "trap": [
+            "Pull away to reset distance"
+          ]
+        }
       },
       {
         "question": "Why is crossface the first priority when collapsing into Ringworm Guard?",
-        "answer": "The crossface prevents the opponent from turning their head and shoulders toward you, which is the prerequisite for all back-taking sequences from Ringworm Guard. Without crossface, your collapse forward actually assists their back take by bringing you closer. The crossface also creates psychological pressure and discomfort that disrupts their ability to coordinate complex guard attacks."
+        "answer": "The crossface prevents the opponent from turning their head and shoulders toward you, which is the prerequisite for all back-taking sequences from Ringworm Guard. Without crossface, your collapse forward actually assists their back take by bringing you closer. The crossface also creates psychological pressure and discomfort that disrupts their ability to coordinate complex guard attacks.",
+        "answer_line": "Blocks the turn that feeds back take",
+        "distractors": {
+          "plausible": [
+            "Creates space to finish the pass",
+            "Weakens their lapel grip strength"
+          ],
+          "trap": [
+            "Skip crossface, collapse faster"
+          ]
+        }
       },
       {
         "question": "What is the correct motion for extracting your leg from the lapel wrap?",
-        "answer": "Circle the leg backward and upward in an arc rather than pulling straight back. Pulling straight backward re-tensions the wrap against your knee, making extraction harder. The circular motion allows the lapel to slide off naturally once the opponent's grip is broken and tension is released. Think of stepping over an obstacle behind you rather than dragging through resistance."
+        "answer": "Circle the leg backward and upward in an arc rather than pulling straight back. Pulling straight backward re-tensions the wrap against your knee, making extraction harder. The circular motion allows the lapel to slide off naturally once the opponent's grip is broken and tension is released. Think of stepping over an obstacle behind you rather than dragging through resistance.",
+        "answer_line": "Circle the leg back and up",
+        "distractors": {
+          "plausible": [
+            "Push leg straight forward",
+            "Twist leg inward then extract"
+          ],
+          "trap": [
+            "Pull the leg straight back"
+          ]
+        }
       },
       {
         "question": "The opponent re-grips the lapel tail with their other hand mid-extraction - what do you do?",
-        "answer": "Increase forward pressure immediately to limit their ability to manipulate the new grip. Use your free hand to strip the fresh grip before they can re-tension the wrap. If they have secured a strong re-grip, you may need to reset the extraction by re-establishing your crossface anchor and restarting the grip-breaking sequence rather than forcing through with a partially loosened wrap."
+        "answer": "Increase forward pressure immediately to limit their ability to manipulate the new grip. Use your free hand to strip the fresh grip before they can re-tension the wrap. If they have secured a strong re-grip, you may need to reset the extraction by re-establishing your crossface anchor and restarting the grip-breaking sequence rather than forcing through with a partially loosened wrap.",
+        "answer_line": "Increase pressure, strip fresh grip",
+        "distractors": {
+          "plausible": [
+            "Force through the wrap regardless",
+            "Re-strip immediately, no reset"
+          ],
+          "trap": [
+            "Release crossface to free hands"
+          ]
+        }
       },
       {
         "question": "What direction of force should your shoulder drive create during the collapse phase?",
-        "answer": "Your shoulder drive should be directed diagonally downward toward the mat and slightly toward the opponent's far hip, pinning their sternum and driving their shoulders flat. Purely forward pressure allows them to redirect you laterally for sweeps. The downward angle compresses their ribcage, restricts breathing, and makes it mechanically difficult for them to elevate their hips or create the angles needed for back takes and sweeping attacks."
+        "answer": "Your shoulder drive should be directed diagonally downward toward the mat and slightly toward the opponent's far hip, pinning their sternum and driving their shoulders flat. Purely forward pressure allows them to redirect you laterally for sweeps. The downward angle compresses their ribcage, restricts breathing, and makes it mechanically difficult for them to elevate their hips or create the angles needed for back takes and sweeping attacks.",
+        "answer_line": "Down and toward the far hip",
+        "distractors": {
+          "plausible": [
+            "Straight forward into chest",
+            "Down toward the near hip"
+          ],
+          "trap": [
+            "Upward to lift their hips"
+          ]
+        }
       },
       {
         "question": "If the smash pass stalls and you cannot break the grip after sustained effort, what chain attacks are available?",
-        "answer": "If the grip proves unbreakable from collapsed position, transition to the Standing Smash Pass Hybrid by posting up and using standing leverage to break the initial tension before immediately re-collapsing. Alternatively, convert to a knee slice pass if your leg gains partial freedom, or disengage entirely and attempt Backstep Around Worm Guard to attack from a completely different angle that bypasses the lapel configuration."
+        "answer": "If the grip proves unbreakable from collapsed position, transition to the Standing Smash Pass Hybrid by posting up and using standing leverage to break the initial tension before immediately re-collapsing. Alternatively, convert to a knee slice pass if your leg gains partial freedom, or disengage entirely and attempt Backstep Around Worm Guard to attack from a completely different angle that bypasses the lapel configuration.",
+        "answer_line": "Stand hybrid, knee slice, backstep",
+        "distractors": {
+          "plausible": [
+            "Force the same grip break harder",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Keep forcing the stalled grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique involves significant forward pressure and crossface contact, which can create neck strain for training partners if applied explosively. When drilling, collapse with controlled speed and apply crossface pressure gradually rather than slamming your weight forward. Partners should tap immediately if neck becomes compromised during the collapse phase. The grip-breaking portion carries risk of finger injuries - if partner's grip doesn't release with moderate pressure, reset rather than forcing the break. Both practitioners should communicate clearly about pressure levels, especially when training the stacking variant which can compress the spine.",
@@ -355,23 +465,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the passer is about to attempt a Smash Pass Counter?",
-        "answer": "The earliest cue is the passer's shoulder angle dropping and their weight shifting forward onto their toes and front knee rather than maintaining upright posture or backing away. This forward commitment is the prerequisite for the collapse, and recognizing it before the shoulder drive contacts your sternum gives you the maximum defensive window to elevate hips or begin turning."
+        "answer": "The earliest cue is the passer's shoulder angle dropping and their weight shifting forward onto their toes and front knee rather than maintaining upright posture or backing away. This forward commitment is the prerequisite for the collapse, and recognizing it before the shoulder drive contacts your sternum gives you the maximum defensive window to elevate hips or begin turning.",
+        "answer_line": "Shoulders drop, weight forward",
+        "distractors": {
+          "plausible": [
+            "Grip tightens on the lapel",
+            "Hips lift before shoulder drops"
+          ],
+          "trap": [
+            "Wait for crossface contact"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the lapel wrap critical even while being smash passed?",
-        "answer": "The lapel wrap restricts the passer's trapped leg mobility, which limits their base options and creates predictable movement patterns you can exploit. Even under pressure, the wrap forces them to address the grip before completing the pass, buying you time for defensive reactions. Releasing the grip eliminates your primary mechanical advantage and gives the passer unrestricted mobility to finish the pass immediately."
+        "answer": "The lapel wrap restricts the passer's trapped leg mobility, which limits their base options and creates predictable movement patterns you can exploit. Even under pressure, the wrap forces them to address the grip before completing the pass, buying you time for defensive reactions. Releasing the grip eliminates your primary mechanical advantage and gives the passer unrestricted mobility to finish the pass immediately.",
+        "answer_line": "Restricts leg, buys defensive time",
+        "distractors": {
+          "plausible": [
+            "Grip alone can stop the pass",
+            "It weakens their crossface control"
+          ],
+          "trap": [
+            "Release grip, free both hands"
+          ]
+        }
       },
       {
         "question": "The passer has established crossface and is stripping your lapel grip - what is your best remaining option?",
-        "answer": "Your best option is to transition your guard configuration before the lapel grip is fully broken. Begin inserting a knee shield while transitioning your grip hand to the passer's collar or sleeve. Accept that Ringworm Guard is compromised and focus on establishing knee shield half guard or another functional guard position that can resist their forward pressure. Attempting to re-establish Ringworm at this stage is lower percentage than transitioning to a new defensive structure."
+        "answer": "Your best option is to transition your guard configuration before the lapel grip is fully broken. Begin inserting a knee shield while transitioning your grip hand to the passer's collar or sleeve. Accept that Ringworm Guard is compromised and focus on establishing knee shield half guard or another functional guard position that can resist their forward pressure. Attempting to re-establish Ringworm at this stage is lower percentage than transitioning to a new defensive structure.",
+        "answer_line": "Switch to knee shield half guard",
+        "distractors": {
+          "plausible": [
+            "Fight to keep lapel grip alive",
+            "Re-establish Ringworm Guard again"
+          ],
+          "trap": [
+            "Turn away and expose the back"
+          ]
+        }
       },
       {
         "question": "How should you position your hips to maximize sweep potential against the smash pass collapse?",
-        "answer": "Your hips should be elevated and angled approximately 30-45 degrees off-center, loaded on the side opposite the crossface direction. This angle creates mechanical advantage for redirecting the passer's forward momentum laterally into a sweep. Keep your hips high rather than flat on the mat, using butterfly hooks or shin frames against their hips to maintain the elevation needed for the sweep loading position."
+        "answer": "Your hips should be elevated and angled approximately 30-45 degrees off-center, loaded on the side opposite the crossface direction. This angle creates mechanical advantage for redirecting the passer's forward momentum laterally into a sweep. Keep your hips high rather than flat on the mat, using butterfly hooks or shin frames against their hips to maintain the elevation needed for the sweep loading position.",
+        "answer_line": "Elevated, angled off-center, high",
+        "distractors": {
+          "plausible": [
+            "Angled toward the crossface side",
+            "Elevated but square, not angled"
+          ],
+          "trap": [
+            "Drop hips flat, base out"
+          ]
+        }
       },
       {
         "question": "What is the critical timing difference between a successful back take and getting flattened during the turning defense?",
-        "answer": "The critical timing difference is whether you initiate the turn before or after the crossface is established. Turning before crossface gives you a free path to the underhook and back take, while turning after crossface means you are fighting against a structural anchor that pins your head and shoulders. The turn must begin at the instant you recognize the collapse, not after you feel the crossface pressure. Even a half-second delay converts a viable back take into a failed turning attempt."
+        "answer": "The critical timing difference is whether you initiate the turn before or after the crossface is established. Turning before crossface gives you a free path to the underhook and back take, while turning after crossface means you are fighting against a structural anchor that pins your head and shoulders. The turn must begin at the instant you recognize the collapse, not after you feel the crossface pressure. Even a half-second delay converts a viable back take into a failed turning attempt.",
+        "answer_line": "Turn before crossface, not after",
+        "distractors": {
+          "plausible": [
+            "Turn after underhook is secured",
+            "Wait for pressure, then turn"
+          ],
+          "trap": [
+            "Turn into the crossface pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [

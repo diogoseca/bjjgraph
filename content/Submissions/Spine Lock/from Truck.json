@@ -307,62 +307,182 @@
       {
         "question": "What is the PRIMARY safety consideration that makes spine locks more dangerous than most joint locks?",
         "answer": "The spinal column contains the spinal cord and affects multiple vertebrae simultaneously rather than a single joint. Injury to the spine can result in permanent neurological damage, paralysis, or chronic pain conditions that are far more severe than joint injuries. Additionally, spinal injuries often don't provide the same immediate pain feedback as joint locks, meaning opponents may not recognize the danger until damage occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Spinal cord damage, no pain cue",
+        "distractors": {
+          "plausible": [
+            "Affects only single vertebra",
+            "Risk limited to neck only"
+          ],
+          "trap": [
+            "Wait for pain before tapping"
+          ]
+        }
       },
       {
         "question": "What body position must be established before attempting a spine lock, and why is this prerequisite critical?",
         "answer": "The Truck position must be fully secured with the opponent's leg controlled and their body inverted before attempting compression. This is critical because attempting spinal compression without secure control can result in uncontrolled movement during application, significantly increasing injury risk. The Truck provides the necessary leverage, angle, and stability to apply pressure in a controlled manner.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Truck fully secured first",
+        "distractors": {
+          "plausible": [
+            "Just control the head",
+            "Any back control is enough"
+          ],
+          "trap": [
+            "Apply pressure while settling in"
+          ]
+        }
       },
       {
         "question": "Why must spine lock pressure be applied over 5-7 seconds minimum in training, and what can happen if this guideline is violated?",
         "answer": "Gradual application over 5-7 seconds allows the training partner to recognize the submission and tap safely before injury occurs. The spine doesn't provide immediate pain signals like joints, so slow application is essential for safety awareness. Rapid application can cause disc herniation, vertebral compression fractures, or nerve damage before the opponent can respond. This minimum timeframe also allows both practitioners to maintain control and communication.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gradual apply, allow time to tap",
+        "distractors": {
+          "plausible": [
+            "Apply slow only if they resist",
+            "3 seconds is close enough"
+          ],
+          "trap": [
+            "Apply quickly to prevent escape"
+          ]
+        }
       },
       {
         "question": "What specific anatomical area should hip pressure target during spine lock execution?",
         "answer": "Hip pressure should target the lumbar spine and sacrum area (lower back). This is the strongest and most mobile section of the spine, making it the safest target for controlled compression. Positioning too high on the thoracic spine increases risk of rib and upper vertebrae injury, while positioning too low reduces effectiveness and control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lumbar spine and sacrum",
+        "distractors": {
+          "plausible": [
+            "Upper back near shoulder blades",
+            "Mid spine, ribs area"
+          ],
+          "trap": [
+            "Push high onto thoracic spine"
+          ]
+        }
       },
       {
         "question": "If an opponent begins explosive scrambling movement while you have spine lock pressure applied, what is the correct immediate response?",
         "answer": "Immediately reduce all compression pressure to prevent injury during uncontrolled movement. Explosive motion combined with spinal compression can cause severe injury. The practitioner should prioritize safety by releasing pressure, reassessing control, and either re-establishing position properly or transitioning to a different technique. Never maintain submission pressure during chaotic scrambles involving spinal compression.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release pressure immediately",
+        "distractors": {
+          "plausible": [
+            "Hold steady, wait it out",
+            "Increase control, keep pressure"
+          ],
+          "trap": [
+            "Crank harder to end scramble"
+          ]
+        }
       },
       {
         "question": "How does the spine lock exemplify the principle of 'position over submission' in BJJ?",
         "answer": "The spine lock requires complete Truck position dominance before any compression is applied. Attempting to force the finish without proper positional control is both ineffective and dangerous. The technique teaches that dominant position enables safe, controlled submission application, while rushing the finish from poor position leads to either failure or injury. The submission is secondary to establishing and maintaining the controlling position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Secure Truck before compressing",
+        "distractors": {
+          "plausible": [
+            "Submission matters more than control",
+            "Speed to finish beats position"
+          ],
+          "trap": [
+            "Force compression from weak Truck"
+          ]
+        }
       },
       {
         "question": "What training restriction is mandatory regarding belt rank for spine lock practice, and what is the reasoning?",
         "answer": "Spine locks should be restricted to minimum blue belt practitioners with direct supervision. This restriction exists because the technique requires advanced positional awareness, body control, and safety judgment that white belts typically haven't developed. The consequences of error are severe enough that foundational skills and safety culture must be firmly established before practicing spinal compression techniques.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blue belt minimum, supervised",
+        "distractors": {
+          "plausible": [
+            "White belts fine with a coach",
+            "Purple belt minimum required"
+          ],
+          "trap": [
+            "Any belt can drill unsupervised"
+          ]
+        }
       },
       {
         "question": "Your opponent's leg control starts slipping as you apply compression - what adjustment maintains the finish while preserving safety?",
         "answer": "If leg control begins slipping, immediately pause compression pressure and work to re-establish the Truck position. Use your free hand to reinforce leg control while maintaining steady (not increasing) pressure. If the leg cannot be secured, abandon the spine lock entirely and transition to an alternative attack such as the calf slicer or back control. Never chase a spine lock with deteriorating positional control, as uncontrolled pressure with compromised position dramatically increases injury risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pause, reinforce, or abandon",
+        "distractors": {
+          "plausible": [
+            "Reposition, keep pressure steady",
+            "Immediately switch submissions"
+          ],
+          "trap": [
+            "Increase pressure to finish fast"
+          ]
+        }
       },
       {
         "question": "What physical indicators suggest your opponent is approaching their breaking point, and how should you respond in training versus competition?",
         "answer": "Physical indicators include sudden changes in breathing patterns, muscular tension spikes throughout the body, involuntary vocalizations, and cessation of defensive movement. In training, these signals should prompt immediate pressure reduction and verbal check-in with your partner - the goal is recognizing the position, not forcing the tap. In competition, maintain controlled pressure while watching for tap signals, but never apply sudden increases even when feeling close to the finish.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Watch breathing, check in, ease off",
+        "distractors": {
+          "plausible": [
+            "Only trust verbal tap",
+            "Increase slightly to test limit"
+          ],
+          "trap": [
+            "Apply sudden increase to finish"
+          ]
+        }
       },
       {
         "question": "How does rotational control contribute to the spine lock's effectiveness, and what happens if you lose it during application?",
         "answer": "Rotational control prevents the opponent from aligning their spine and alleviating compression pressure. The twisted position compromises their core strength and breathing, accelerating the submission. If rotational control is lost, the opponent can turn into you to reduce spinal curvature, making the technique ineffective. When rotation escapes, you have two options: immediately re-establish rotation through leg and hip control adjustments, or transition to a different attack like the calf slicer that doesn't require the same rotational constraint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevents spine realignment",
+        "distractors": {
+          "plausible": [
+            "Only needed at the start",
+            "Leg control alone maintains it"
+          ],
+          "trap": [
+            "Release rotation to reset grip"
+          ]
+        }
       },
       {
         "question": "What distinguishes the spine lock from the Twister in terms of finishing mechanics and injury risk profile?",
         "answer": "The Twister combines spinal rotation with cervical (neck) cranking, creating torque from the head downward through the spine. The spine lock focuses on lumbar compression through hip pressure without the cervical rotation component. The Twister's injury risk concentrates on the cervical spine and neck structures, while the spine lock primarily threatens the lumbar vertebrae and intervertebral discs. Both require extreme caution, but the spine lock's injury mechanism is more focused on compression force rather than rotational torque, making the finish feel different for both attacker and defender.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Twister cranks neck too",
+        "distractors": {
+          "plausible": [
+            "Twister is safer than spine lock",
+            "Both target the same vertebrae"
+          ],
+          "trap": [
+            "Treat spine lock like a neck crank"
+          ]
+        }
       },
       {
         "question": "In competition, how do you determine when to commit fully to the spine lock finish versus transitioning to an alternative submission?",
         "answer": "Commit to the spine lock when you have secure leg control, proper hip positioning over the lumbar spine, and your opponent is defending passively without creating significant movement. Transition to alternatives when: the opponent is generating explosive escapes that compromise control, their flexibility prevents effective compression, or leg control is deteriorating. The calf slicer and back take are primary alternatives that maintain offensive pressure without the same positional requirements. Recognizing these decision points quickly prevents wasted energy and keeps you in offensive cycles.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit only with secure control",
+        "distractors": {
+          "plausible": [
+            "Commit once hips are set",
+            "Push through any resistance"
+          ],
+          "trap": [
+            "Force it through explosive escapes"
+          ]
+        }
       }
     ],
     "clips": [
@@ -476,27 +596,77 @@
       {
         "question": "Why is bridging into spine lock pressure particularly dangerous compared to bridging against other submissions?",
         "answer": "Bridging into spine lock compression drives the lumbar vertebrae directly into the attacker's hip pressure, multiplying the force on the intervertebral discs and spinal structures. Unlike bridging against an armbar where the movement creates space and angles, bridging into spinal compression increases the hyperextension that the submission depends on. The bridge essentially assists the attacker's finishing mechanics rather than counteracting them, potentially causing acute disc injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridging drives spine into pressure",
+        "distractors": {
+          "plausible": [
+            "Bridge like escaping an armbar",
+            "Bridging creates space to escape"
+          ],
+          "trap": [
+            "Bridge hard to break the grip"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that distinguishes a spine lock attempt from standard Truck control?",
         "answer": "The earliest cue is the attacker adjusting their hip position to sit higher and more centrally over your lumbar spine while adopting an upright chest posture. In standard Truck control, the attacker's weight is distributed more laterally for torque. When they shift to compression alignment, you feel concentrated downward pressure on the lower back rather than lateral rotational force. Recognizing this shift before full weight commitment provides the largest window for effective defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips shift high and central",
+        "distractors": {
+          "plausible": [
+            "Sudden sharp pain in the back",
+            "Attacker grabs your far arm"
+          ],
+          "trap": [
+            "Ignore it, it's just Truck control"
+          ]
+        }
       },
       {
         "question": "Your attacker begins driving their hips into your lower back from Truck - what is your immediate three-step defensive response?",
         "answer": "First, frame both hands against the attacker's hip bones to prevent them from fully settling their weight onto your lumbar spine. Second, execute a lateral hip shift to move your lower back off their compression centerline, forcing them to readjust. Third, immediately begin working leg extraction from the Truck hooks while their focus is split between maintaining compression alignment and leg control. This three-step sequence must happen within 2-3 seconds before compression is fully established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame hips, shift, extract leg",
+        "distractors": {
+          "plausible": [
+            "Grab their wrists to stop them",
+            "Push their chest away first"
+          ],
+          "trap": [
+            "Bridge hard immediately"
+          ]
+        }
       },
       {
         "question": "At what point should you abandon escape attempts and tap to a spine lock?",
         "answer": "Tap when the attacker has established all three elements simultaneously: secure Truck leg control preventing your rotation, proper hip positioning centered over your lumbar spine, and active compression with their body weight driving downward. If your initial defensive frame has been bypassed and lateral shifting cannot displace their hips, continued resistance risks spinal injury. The decision threshold is when you feel deep, sustained lumbar pressure with no ability to redirect the force. Unlike limb submissions where you can feel incremental stages, spinal compression can transition from discomfort to injury rapidly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap when compression is locked in",
+        "distractors": {
+          "plausible": [
+            "Wait for sharp pain to tap",
+            "Tap once your hips can't move"
+          ],
+          "trap": [
+            "Keep fighting through the pressure"
+          ]
+        }
       },
       {
         "question": "How does the forward roll escape work mechanically, and when is it contraindicated?",
         "answer": "The forward roll uses the attacker's forward weight commitment against them by rolling through the compression angle, inverting the relationship and potentially freeing your trapped leg as the Truck structure collapses during the rotation. It works when the attacker is heavy on their hips and leaning forward. It is contraindicated when the attacker has strong lateral control preventing your rotation, when compression is already at high levels where rolling would spike force through your spine, or when your trapped leg is deeply locked making the roll mechanically impossible without first addressing the leg entanglement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll only if attacker leans forward",
+        "distractors": {
+          "plausible": [
+            "Roll works from any spine lock",
+            "Roll once compression begins"
+          ],
+          "trap": [
+            "Roll despite deep leg lock"
+          ]
+        }
       }
     ],
     "training_progressions": [

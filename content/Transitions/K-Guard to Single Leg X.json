@@ -275,35 +275,115 @@
     "flashcards": [
       {
         "question": "What is the primary timing trigger that signals the optimal moment to initiate the K-Guard to SLX transition?",
-        "answer": "The primary trigger is when the opponent shifts their weight backward, stands upright, or begins attempting to extract their trapped leg from K-Guard. This backward or upward weight shift creates the space needed for hook reconfiguration and simultaneously compromises their ability to prevent the transition because their weight is moving away from the control zone. Initiating during forward pressure is incorrect—that timing favors Deep Half entries instead."
+        "answer": "The primary trigger is when the opponent shifts their weight backward, stands upright, or begins attempting to extract their trapped leg from K-Guard. This backward or upward weight shift creates the space needed for hook reconfiguration and simultaneously compromises their ability to prevent the transition because their weight is moving away from the control zone. Initiating during forward pressure is incorrect—that timing favors Deep Half entries instead.",
+        "answer_line": "Opponent backs up or stands",
+        "distractors": {
+          "plausible": [
+            "When they flatten out hips",
+            "As they grip fight collar"
+          ],
+          "trap": [
+            "During their forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to backstep as you begin reconfiguring hooks—how do you adjust mid-transition?",
-        "answer": "Maintain whatever ankle or calf connection you have with your inside leg and follow their backstep by scooting your hips to face the new angle. If you can complete the ankle wrap before they fully clear, continue into SLX on the new angle. If they clear the wrap entirely, immediately establish a De La Riva hook on their stepping leg or transition to seated guard to maintain an offensive guard position rather than conceding open guard."
+        "answer": "Maintain whatever ankle or calf connection you have with your inside leg and follow their backstep by scooting your hips to face the new angle. If you can complete the ankle wrap before they fully clear, continue into SLX on the new angle. If they clear the wrap entirely, immediately establish a De La Riva hook on their stepping leg or transition to seated guard to maintain an offensive guard position rather than conceding open guard.",
+        "answer_line": "Follow hips, keep leg contact",
+        "distractors": {
+          "plausible": [
+            "Release and re-shoot hooks",
+            "Chase with an outside hook"
+          ],
+          "trap": [
+            "Let go and reset to open guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the hook transfer from K-Guard to SLX?",
-        "answer": "The most critical detail is maintaining continuous leg contact throughout the entire hook transfer. The inside leg must begin threading around the opponent's ankle before the inverted hook is fully released, creating an overlapping transition where the opponent's trapped leg is never free. Any gap in contact allows the opponent to extract their leg and disengage, converting a controlled transition into a scramble."
+        "answer": "The most critical detail is maintaining continuous leg contact throughout the entire hook transfer. The inside leg must begin threading around the opponent's ankle before the inverted hook is fully released, creating an overlapping transition where the opponent's trapped leg is never free. Any gap in contact allows the opponent to extract their leg and disengage, converting a controlled transition into a scramble.",
+        "answer_line": "Never break leg contact",
+        "distractors": {
+          "plausible": [
+            "Release hook before threading in",
+            "Switch hooks simultaneously fast"
+          ],
+          "trap": [
+            "Fully release hook first"
+          ]
+        }
       },
       {
         "question": "Why is hip positioning underneath the opponent essential for effective SLX, and how do you achieve it during the transition?",
-        "answer": "Hips positioned underneath the opponent's center of gravity create the elevation and leverage that power all SLX attacks—sweeps, off-balancing, and leg lock entries. Without proper hip positioning, the SLX structure lacks the mechanical advantage needed to manipulate the opponent's weight. Achieve this during the transition by actively scooting forward using upper body frames as push-off points while simultaneously reconfiguring hooks, treating the hip movement and hook transfer as one coordinated action."
+        "answer": "Hips positioned underneath the opponent's center of gravity create the elevation and leverage that power all SLX attacks—sweeps, off-balancing, and leg lock entries. Without proper hip positioning, the SLX structure lacks the mechanical advantage needed to manipulate the opponent's weight. Achieve this during the transition by actively scooting forward using upper body frames as push-off points while simultaneously reconfiguring hooks, treating the hip movement and hook transfer as one coordinated action.",
+        "answer_line": "Scoot hips under their center",
+        "distractors": {
+          "plausible": [
+            "Push hips back for space",
+            "Elevate first, adjust hips after"
+          ],
+          "trap": [
+            "Stay flat, rely on hook alone"
+          ]
+        }
       },
       {
         "question": "What grip do you need to establish immediately after completing the SLX hook configuration, and why?",
-        "answer": "Immediately control the opponent's same-side sleeve or wrist to prevent them from posting their hand during sweep attempts. This grip is the complement to your lower body elevation—without it, the opponent can simply post their hand on the mat to neutralize any sweep. Secondary priority is collar or shoulder control to break their posture forward, which amplifies the effectiveness of your hip elevation and hook pressure."
+        "answer": "Immediately control the opponent's same-side sleeve or wrist to prevent them from posting their hand during sweep attempts. This grip is the complement to your lower body elevation—without it, the opponent can simply post their hand on the mat to neutralize any sweep. Secondary priority is collar or shoulder control to break their posture forward, which amplifies the effectiveness of your hip elevation and hook pressure.",
+        "answer_line": "Control same-side sleeve/wrist",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar first",
+            "Underhook the near arm"
+          ],
+          "trap": [
+            "Let them post, attack legs"
+          ]
+        }
       },
       {
         "question": "The SLX transition is blocked because your opponent squeezes their knees together—what alternative entry do you use?",
-        "answer": "When the opponent squeezes their knees to prevent the direct hook transfer, perform a slight inversion to change the angle of entry, threading your inside leg under and around their ankle from a lower angle that bypasses the knee squeeze. Alternatively, use the opponent's defensive posture against them—their squeezed knees create a stable target for a direct butterfly sweep from K-Guard or an X-Guard entry using both hooks on the same side of their body."
+        "answer": "When the opponent squeezes their knees to prevent the direct hook transfer, perform a slight inversion to change the angle of entry, threading your inside leg under and around their ankle from a lower angle that bypasses the knee squeeze. Alternatively, use the opponent's defensive posture against them—their squeezed knees create a stable target for a direct butterfly sweep from K-Guard or an X-Guard entry using both hooks on the same side of their body.",
+        "answer_line": "Invert to a lower angle",
+        "distractors": {
+          "plausible": [
+            "Force the wrap harder",
+            "Switch to standard half guard"
+          ],
+          "trap": [
+            "Abandon and pull to closed guard"
+          ]
+        }
       },
       {
         "question": "How does the K-Guard to SLX transition create a dilemma for the top player, and what attacking options does it open?",
-        "answer": "The transition creates a dilemma because the opponent's defensive options against K-Guard (backing away, standing up, extracting the leg) all feed directly into SLX entry conditions. If they stay tight and drive forward to prevent SLX, they expose themselves to K-Guard sweeps and Deep Half entries. If they create distance to avoid those threats, they give you the space needed for SLX. From SLX, you gain access to high-percentage sweeps through elevation, direct Ashi Garami entries for leg locks, and X-Guard transitions—significantly more offensive options than K-Guard alone."
+        "answer": "The transition creates a dilemma because the opponent's defensive options against K-Guard (backing away, standing up, extracting the leg) all feed directly into SLX entry conditions. If they stay tight and drive forward to prevent SLX, they expose themselves to K-Guard sweeps and Deep Half entries. If they create distance to avoid those threats, they give you the space needed for SLX. From SLX, you gain access to high-percentage sweeps through elevation, direct Ashi Garami entries for leg locks, and X-Guard transitions—significantly more offensive options than K-Guard alone.",
+        "answer_line": "Both defenses feed a threat",
+        "distractors": {
+          "plausible": [
+            "Only backing away is risky",
+            "Staying tight is always safe"
+          ],
+          "trap": [
+            "Stack passing solves it fully"
+          ]
+        }
       },
       {
         "question": "After successfully establishing SLX, your opponent immediately begins lowering their base—what do you do in the first three seconds?",
-        "answer": "Attack immediately rather than waiting for them to stabilize. Use sleeve or wrist control combined with maximum hip elevation to attempt the primary SLX sweep before their base fully sets. Direct the off-balancing force laterally toward their weakened side rather than straight backward. If the sweep attempt is blocked, immediately transition to a leg lock entry—their lowered base actually brings their leg closer to your hooks, making Ashi Garami entries more accessible. The worst response is passively accepting their base adjustment."
+        "answer": "Attack immediately rather than waiting for them to stabilize. Use sleeve or wrist control combined with maximum hip elevation to attempt the primary SLX sweep before their base fully sets. Direct the off-balancing force laterally toward their weakened side rather than straight backward. If the sweep attempt is blocked, immediately transition to a leg lock entry—their lowered base actually brings their leg closer to your hooks, making Ashi Garami entries more accessible. The worst response is passively accepting their base adjustment.",
+        "answer_line": "Attack now, don't let base set",
+        "distractors": {
+          "plausible": [
+            "Wait for full stabilization",
+            "Reset grips before attacking"
+          ],
+          "trap": [
+            "Pause and let them settle"
+          ]
+        }
       }
     ],
     "safety_considerations": "The K-Guard to Single Leg X transition is generally low-risk as it involves guard-to-guard movement without joint lock pressure. However, practitioners should be mindful of knee torque on the trapped leg during the hook reconfiguration phase—avoid excessive twisting that could strain the opponent's knee ligaments. The bottom player should also be aware of neck compression risk if flattened during the transition. When training, communicate with your partner about comfort during hook transfers and avoid explosive movements until the mechanics are smooth. If either player feels knee discomfort during the hook reconfiguration, stop and reset the position.",
@@ -412,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating the K-Guard to SLX transition?",
-        "answer": "The earliest cue is the inverted inside hook beginning to release from its crossed position over your trapped leg. In standard K-Guard, this hook maintains lateral pulling tension across your leg—when that tension changes or the hook begins unwinding, the bottom player is beginning the hook reconfiguration needed for SLX. Responding at this stage gives you the maximum prevention window before the transition gains momentum."
+        "answer": "The earliest cue is the inverted inside hook beginning to release from its crossed position over your trapped leg. In standard K-Guard, this hook maintains lateral pulling tension across your leg—when that tension changes or the hook begins unwinding, the bottom player is beginning the hook reconfiguration needed for SLX. Responding at this stage gives you the maximum prevention window before the transition gains momentum.",
+        "answer_line": "Inside hook starts unwinding",
+        "distractors": {
+          "plausible": [
+            "Outside hook grip tightens",
+            "They post on far hand"
+          ],
+          "trap": [
+            "Wait until ankle wrap forms"
+          ]
+        }
       },
       {
         "question": "Why is a half-committed backstep more dangerous than either staying put or fully committing to the backstep?",
-        "answer": "A half-committed backstep creates the worst of both worlds: it provides the bottom player with the space they need for hook reconfiguration (which staying forward would deny) but does not clear your leg from their control range (which a full backstep would achieve). The half-step essentially gives them a wider workspace for threading the ankle wrap while keeping your leg within reach. Either commit fully to clear entirely, or drive forward to compress and deny."
+        "answer": "A half-committed backstep creates the worst of both worlds: it provides the bottom player with the space they need for hook reconfiguration (which staying forward would deny) but does not clear your leg from their control range (which a full backstep would achieve). The half-step essentially gives them a wider workspace for threading the ankle wrap while keeping your leg within reach. Either commit fully to clear entirely, or drive forward to compress and deny.",
+        "answer_line": "Gives space, leg stays in range",
+        "distractors": {
+          "plausible": [
+            "It fully denies the transition",
+            "It clears the leg completely"
+          ],
+          "trap": [
+            "Any backstep is always safest"
+          ]
+        }
       },
       {
         "question": "Your forward pressure successfully blocks the SLX transition—what should you do next?",
-        "answer": "With the SLX transition blocked and the bottom player's hooks partially disorganized from the failed attempt, immediately capitalize by advancing your passing position. The bottom player's defensive structure is momentarily compromised during the failed transition—their hooks are not in optimal K-Guard configuration and their attention is split. Begin your passing sequence with a knee slice or smash pass while maintaining the forward pressure that blocked the transition."
+        "answer": "With the SLX transition blocked and the bottom player's hooks partially disorganized from the failed attempt, immediately capitalize by advancing your passing position. The bottom player's defensive structure is momentarily compromised during the failed transition—their hooks are not in optimal K-Guard configuration and their attention is split. Begin your passing sequence with a knee slice or smash pass while maintaining the forward pressure that blocked the transition.",
+        "answer_line": "Advance the pass immediately",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral stance",
+            "Switch to submission hunt"
+          ],
+          "trap": [
+            "Ease pressure to reposition"
+          ]
+        }
       },
       {
         "question": "How do you defend against the SLX transition without opening yourself to K-Guard sweeps?",
-        "answer": "Balance forward pressure with proper base management. Drive forward with your chest and hips rather than leaning over with your upper body, which maintains your center of gravity low and centered. Control the bottom player's far hip with one hand to prevent their hip movement while using shoulder pressure to compress hooks. This prevents SLX space creation without overcommitting your weight forward where it could be redirected into K-Guard sweeps."
+        "answer": "Balance forward pressure with proper base management. Drive forward with your chest and hips rather than leaning over with your upper body, which maintains your center of gravity low and centered. Control the bottom player's far hip with one hand to prevent their hip movement while using shoulder pressure to compress hooks. This prevents SLX space creation without overcommitting your weight forward where it could be redirected into K-Guard sweeps.",
+        "answer_line": "Drive chest/hips, control far hip",
+        "distractors": {
+          "plausible": [
+            "Lean upper body forward hard",
+            "Post hands wide for base"
+          ],
+          "trap": [
+            "Overcommit weight forward"
+          ]
+        }
       },
       {
         "question": "The bottom player has partially established SLX with the ankle wrap but no hip elevation yet—what is your response priority?",
-        "answer": "Your immediate priority is preventing hip elevation. Lower your base by bending your knees deeply and widening your stance. Control the bottom player's outside hook by pushing their knee or foot toward the mat with your free hand. Without hip elevation, the SLX ankle wrap alone lacks the leverage for sweeps or leg attacks. Once you neutralize the elevation threat, systematically address the ankle wrap by pushing the wrapping leg toward the mat while maintaining your lowered base position."
+        "answer": "Your immediate priority is preventing hip elevation. Lower your base by bending your knees deeply and widening your stance. Control the bottom player's outside hook by pushing their knee or foot toward the mat with your free hand. Without hip elevation, the SLX ankle wrap alone lacks the leverage for sweeps or leg attacks. Once you neutralize the elevation threat, systematically address the ankle wrap by pushing the wrapping leg toward the mat while maintaining your lowered base position.",
+        "answer_line": "Block hip elevation first",
+        "distractors": {
+          "plausible": [
+            "Strip the ankle wrap first",
+            "Posture up and create space"
+          ],
+          "trap": [
+            "Let hips rise, defend ankle"
+          ]
+        }
       }
     ],
     "training_progressions": [

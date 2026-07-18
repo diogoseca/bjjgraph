@@ -260,43 +260,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Trap and Roll from S Mount?",
-        "answer": "The best timing is when the opponent adjusts their grip, shifts weight to attack the armbar, or transitions between techniques. Any momentary reduction in hip-to-shoulder pressure creates a window where the bridge has maximum displacement effect. Initiating during a settled, stable S Mount is the lowest-percentage timing and wastes critical energy. Watch for the opponent reaching with their controlling hand or changing their leg position as reliable timing indicators."
+        "answer": "The best timing is when the opponent adjusts their grip, shifts weight to attack the armbar, or transitions between techniques. Any momentary reduction in hip-to-shoulder pressure creates a window where the bridge has maximum displacement effect. Initiating during a settled, stable S Mount is the lowest-percentage timing and wastes critical energy. Watch for the opponent reaching with their controlling hand or changing their leg position as reliable timing indicators.",
+        "answer_line": "Opponent shifts grip or weight",
+        "distractors": {
+          "plausible": [
+            "Right when S Mount is entered",
+            "Only when opponent postures up"
+          ],
+          "trap": [
+            "Once S Mount feels fully settled"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before attempting the Trap and Roll from S Mount?",
-        "answer": "Your trapped arm must be protected with a bent elbow and collar grip still intact. Your free arm needs enough mobility to reach the opponent's controlling wrist. Your feet must be plantable on the mat with knees bent for bridging power. The opponent's far leg must be accessible for hooking. If your arm is already significantly extended or the opponent has secured full armbar control with hips locked, the escape window has passed and you should tap."
+        "answer": "Your trapped arm must be protected with a bent elbow and collar grip still intact. Your free arm needs enough mobility to reach the opponent's controlling wrist. Your feet must be plantable on the mat with knees bent for bridging power. The opponent's far leg must be accessible for hooking. If your arm is already significantly extended or the opponent has secured full armbar control with hips locked, the escape window has passed and you should tap.",
+        "answer_line": "Elbow bent, collar grip intact",
+        "distractors": {
+          "plausible": [
+            "Only feet need to be planted",
+            "Free arm just needs mobility"
+          ],
+          "trap": [
+            "Attempt even with arm extended"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the bridge will displace the opponent?",
-        "answer": "The bridge direction is the single most important mechanical factor. Bridging straight up allows the opponent to simply ride the motion and settle back down with zero displacement. The bridge must be directed at approximately forty-five degrees toward the opponent's posted foot side to create rotational displacement that their perpendicular position cannot absorb. This diagonal force attacks the structural weakness inherent in the S Mount configuration."
+        "answer": "The bridge direction is the single most important mechanical factor. Bridging straight up allows the opponent to simply ride the motion and settle back down with zero displacement. The bridge must be directed at approximately forty-five degrees toward the opponent's posted foot side to create rotational displacement that their perpendicular position cannot absorb. This diagonal force attacks the structural weakness inherent in the S Mount configuration.",
+        "answer_line": "45° toward posted-foot side",
+        "distractors": {
+          "plausible": [
+            "Bridge directly away from head",
+            "Bridge 90 degrees to the side"
+          ],
+          "trap": [
+            "Bridge straight up hard"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point that causes the Trap and Roll to fail from S Mount?",
-        "answer": "Extending the trapped arm during the bridging motion is the most catastrophic failure. The bridge naturally creates forces that can straighten the elbow, and if the collar grip fails, the opponent transitions directly to armbar finish. Every other aspect of the technique is secondary to maintaining the bent arm position throughout the entire escape sequence. The collar grip takes absolute priority over completing the roll."
+        "answer": "Extending the trapped arm during the bridging motion is the most catastrophic failure. The bridge naturally creates forces that can straighten the elbow, and if the collar grip fails, the opponent transitions directly to armbar finish. Every other aspect of the technique is secondary to maintaining the bent arm position throughout the entire escape sequence. The collar grip takes absolute priority over completing the roll.",
+        "answer_line": "Trapped elbow straightens",
+        "distractors": {
+          "plausible": [
+            "Losing the leg hook first",
+            "Bridging without full setup"
+          ],
+          "trap": [
+            "Release collar to bridge harder"
+          ]
+        }
       },
       {
         "question": "What specific grips must you maintain throughout the Trap and Roll execution?",
-        "answer": "The trapped hand must maintain a firm collar or lapel grip throughout the entire technique — this is non-negotiable and prevents armbar. The free hand grips the opponent's controlling wrist or sleeve to prevent posting. Your near-side leg must hook the opponent's far leg to eliminate their base. All three connections must be established before initiating the bridge and maintained through the roll until half guard is secured."
+        "answer": "The trapped hand must maintain a firm collar or lapel grip throughout the entire technique — this is non-negotiable and prevents armbar. The free hand grips the opponent's controlling wrist or sleeve to prevent posting. Your near-side leg must hook the opponent's far leg to eliminate their base. All three connections must be established before initiating the bridge and maintained through the roll until half guard is secured.",
+        "answer_line": "Collar, wrist grip, leg hook",
+        "distractors": {
+          "plausible": [
+            "Collar grip and leg hook only",
+            "Wrist grip and collar only"
+          ],
+          "trap": [
+            "Release collar for double wrist"
+          ]
+        }
       },
       {
         "question": "In which direction should the bridging force be applied relative to the opponent's body position?",
-        "answer": "Bridge at forty-five degrees toward the side where the opponent's posted foot is planted beyond your head. Since the opponent is perpendicular in S Mount, their base is strongest along the line of your body's midline. The diagonal bridge attacks the angle where they have the least structural support, creating maximum rotational force with minimum energy expenditure. Bridging toward their head or directly away from them has almost no displacement effect."
+        "answer": "Bridge at forty-five degrees toward the side where the opponent's posted foot is planted beyond your head. Since the opponent is perpendicular in S Mount, their base is strongest along the line of your body's midline. The diagonal bridge attacks the angle where they have the least structural support, creating maximum rotational force with minimum energy expenditure. Bridging toward their head or directly away from them has almost no displacement effect.",
+        "answer_line": "Diagonal toward posted-foot side",
+        "distractors": {
+          "plausible": [
+            "Toward their head",
+            "Straight away from them"
+          ],
+          "trap": [
+            "Bridge straight up, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand when you initiate the bridge — how do you adjust?",
-        "answer": "Immediately convert from the trap and roll to a hip escape instead. The bridge has created vertical space between your hips and the mat — use this space to shrimp your hips out rather than continuing the roll that will fail against the post. The posted hand means the full roll is defeated, but the space created by the bridge is still usable for a frame-and-shrimp escape toward half guard. Never waste the space your bridge created."
+        "answer": "Immediately convert from the trap and roll to a hip escape instead. The bridge has created vertical space between your hips and the mat — use this space to shrimp your hips out rather than continuing the roll that will fail against the post. The posted hand means the full roll is defeated, but the space created by the bridge is still usable for a frame-and-shrimp escape toward half guard. Never waste the space your bridge created.",
+        "answer_line": "Shrimp hips using bridge space",
+        "distractors": {
+          "plausible": [
+            "Keep rolling through the post",
+            "Abandon the bridge and reset"
+          ],
+          "trap": [
+            "Force the roll through the post"
+          ]
+        }
       },
       {
         "question": "If the Trap and Roll fails and you remain in S Mount, what follow-up techniques should you attempt?",
-        "answer": "After a failed trap and roll, immediately return to defensive posture — re-secure collar grip, control the near leg with your free hand. Follow up with a frame and shrimp escape, using the momentary disruption from the bridge attempt to create framing space against the opponent's hips. If the hip escape also fails, wait for another timing window rather than burning energy on repeated bridges. The first bridge attempt often disrupts the opponent's settled position even when it fails to complete the escape."
+        "answer": "After a failed trap and roll, immediately return to defensive posture — re-secure collar grip, control the near leg with your free hand. Follow up with a frame and shrimp escape, using the momentary disruption from the bridge attempt to create framing space against the opponent's hips. If the hip escape also fails, wait for another timing window rather than burning energy on repeated bridges. The first bridge attempt often disrupts the opponent's settled position even when it fails to complete the escape.",
+        "answer_line": "Re-secure grip, then frame-shrimp",
+        "distractors": {
+          "plausible": [
+            "Attack the far leg right away",
+            "Wait passively, do nothing"
+          ],
+          "trap": [
+            "Bridge again immediately"
+          ]
+        }
       },
       {
         "question": "How does the trapped arm management differ between S Mount trap and roll versus regular mount trap and roll?",
-        "answer": "In regular mount, the trapped arm can participate offensively — directly grabbing the opponent's arm for the trap. In S Mount, the trapped arm must remain purely defensive in a collar grip because it is already under immediate armbar threat from the perpendicular position. Only the free arm does trapping work, and the collar-gripping hand never releases to assist. This defensive arm priority is the fundamental mechanical difference that makes S Mount escape significantly harder than regular mount escape."
+        "answer": "In regular mount, the trapped arm can participate offensively — directly grabbing the opponent's arm for the trap. In S Mount, the trapped arm must remain purely defensive in a collar grip because it is already under immediate armbar threat from the perpendicular position. Only the free arm does trapping work, and the collar-gripping hand never releases to assist. This defensive arm priority is the fundamental mechanical difference that makes S Mount escape significantly harder than regular mount escape.",
+        "answer_line": "Trapped arm stays defensive only",
+        "distractors": {
+          "plausible": [
+            "Trapped arm grabs opponent's arm",
+            "Free arm stays purely defensive"
+          ],
+          "trap": [
+            "Release collar to grab their arm"
+          ]
+        }
       },
       {
         "question": "What body position should you achieve immediately after successfully displacing the opponent?",
-        "answer": "Immediately insert your near knee between your bodies to establish knee shield or half guard entanglement. Turn to your side facing the opponent and fight for an underhook on the trapped leg side. Do not remain flat on your back — the opponent will immediately attempt to re-establish mount or pass your guard. The transition from escape completion to active half guard retention must be seamless and automatic, with no pause between displacing the opponent and securing your guard structure."
+        "answer": "Immediately insert your near knee between your bodies to establish knee shield or half guard entanglement. Turn to your side facing the opponent and fight for an underhook on the trapped leg side. Do not remain flat on your back — the opponent will immediately attempt to re-establish mount or pass your guard. The transition from escape completion to active half guard retention must be seamless and automatic, with no pause between displacing the opponent and securing your guard structure.",
+        "answer_line": "Knee shield, turn, fight underhook",
+        "distractors": {
+          "plausible": [
+            "Turn away and create distance",
+            "Sit up and posture immediately"
+          ],
+          "trap": [
+            "Stay flat on your back briefly"
+          ]
+        }
       }
     ],
     "safety_considerations": "The primary injury risk during this technique is hyperextension of the trapped elbow if the arm extends during the bridging motion. Never attempt the trap and roll if your arm is already significantly extended — tap and reset rather than risk joint damage. In training, communicate with your partner about arm security before drilling at full speed. The explosive bridging motion can strain the lower back, neck, and cervical spine, so ensure proper warm-up before high-repetition drilling. Start all drilling at controlled resistance and gradually increase intensity. If your collar grip begins to fail during live training, abort the escape immediately and defend the arm rather than forcing a compromised attempt.",
@@ -414,23 +514,73 @@
     "flashcards": [
       {
         "question": "What are the earliest warning signs that your opponent is preparing a Trap and Roll from S Mount?",
-        "answer": "Watch for feet planting flat on the mat with bent knees — this is the most reliable indicator of bridge preparation. Also monitor their free hand reaching for your controlling wrist and their near leg attempting to hook your far leg. Increased body tension and deeper breathing often precede explosive movement. Recognizing these cues allows you to preemptively increase hip pressure and prepare your posting hand before the bridge initiates."
+        "answer": "Watch for feet planting flat on the mat with bent knees — this is the most reliable indicator of bridge preparation. Also monitor their free hand reaching for your controlling wrist and their near leg attempting to hook your far leg. Increased body tension and deeper breathing often precede explosive movement. Recognizing these cues allows you to preemptively increase hip pressure and prepare your posting hand before the bridge initiates.",
+        "answer_line": "Feet plant flat, knees bend",
+        "distractors": {
+          "plausible": [
+            "Free hand reaching for wrist",
+            "Deep breathing only"
+          ],
+          "trap": [
+            "Ignore until bridge begins"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you sense a bridge attempt is imminent?",
-        "answer": "Drive your hips forward and down into the opponent's shoulder with maximum pressure while keeping your center of gravity low. Position your free hand ready to post on the mat on the side the opponent is likely to bridge toward. Do not sit upright or lean back, as this reduces your ability to absorb lateral bridging force and makes displacement much easier for the opponent."
+        "answer": "Drive your hips forward and down into the opponent's shoulder with maximum pressure while keeping your center of gravity low. Position your free hand ready to post on the mat on the side the opponent is likely to bridge toward. Do not sit upright or lean back, as this reduces your ability to absorb lateral bridging force and makes displacement much easier for the opponent.",
+        "answer_line": "Drive hips down, stay low",
+        "distractors": {
+          "plausible": [
+            "Post free hand on far side",
+            "Raise hips for more pressure"
+          ],
+          "trap": [
+            "Sit upright and lean back"
+          ]
+        }
       },
       {
         "question": "What is the correct response if the opponent's bridge partially succeeds and your S Mount base begins to compromise?",
-        "answer": "Rather than fighting to maintain S Mount with a compromised base, immediately transition to regular mount by stepping your leg back over the opponent's head and settling your hips centrally on their torso. Losing S Mount to regular mount is far preferable to losing position entirely. Once in mount, re-establish dominant control and look for another opportunity to return to S Mount when their escape energy is depleted."
+        "answer": "Rather than fighting to maintain S Mount with a compromised base, immediately transition to regular mount by stepping your leg back over the opponent's head and settling your hips centrally on their torso. Losing S Mount to regular mount is far preferable to losing position entirely. Once in mount, re-establish dominant control and look for another opportunity to return to S Mount when their escape energy is depleted.",
+        "answer_line": "Step back to regular mount",
+        "distractors": {
+          "plausible": [
+            "Fight to hold S Mount position",
+            "Release control and reset neutral"
+          ],
+          "trap": [
+            "Force S Mount, risk losing all"
+          ]
+        }
       },
       {
         "question": "How do you capitalize on a failed Trap and Roll attempt to advance your own attacking position?",
-        "answer": "After absorbing the bridge, the opponent has typically expended significant energy and may have momentarily loosened their collar grip during the effort. Immediately tighten your arm control and re-establish hip-to-shoulder pressure. Their temporary fatigue creates an optimal window to extend the arm toward armbar finish or advance to full armbar control. Failed escape attempts often provide exactly the opening you needed to complete the submission sequence."
+        "answer": "After absorbing the bridge, the opponent has typically expended significant energy and may have momentarily loosened their collar grip during the effort. Immediately tighten your arm control and re-establish hip-to-shoulder pressure. Their temporary fatigue creates an optimal window to extend the arm toward armbar finish or advance to full armbar control. Failed escape attempts often provide exactly the opening you needed to complete the submission sequence.",
+        "answer_line": "Tighten control, finish armbar",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to recover",
+            "Reset to neutral position"
+          ],
+          "trap": [
+            "Ease pressure to let them rest"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make to prevent the initial arm trap that begins the escape sequence?",
-        "answer": "Maintain continuous wrist control on the isolated arm while keeping your free hand mobile and ready to post rather than committed to a second grip. If you sense the opponent's free hand reaching for your controlling wrist, switch to a deeper grip — elbow control or bicep grip — that is harder to strip. Use your shin or body position to pin the opponent's free arm and eliminate their ability to initiate the trapping sequence entirely."
+        "answer": "Maintain continuous wrist control on the isolated arm while keeping your free hand mobile and ready to post rather than committed to a second grip. If you sense the opponent's free hand reaching for your controlling wrist, switch to a deeper grip — elbow control or bicep grip — that is harder to strip. Use your shin or body position to pin the opponent's free arm and eliminate their ability to initiate the trapping sequence entirely.",
+        "answer_line": "Deeper grip, pin their free arm",
+        "distractors": {
+          "plausible": [
+            "Commit both hands to grips",
+            "Keep wrist control, ignore posts"
+          ],
+          "trap": [
+            "Commit free hand to second grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

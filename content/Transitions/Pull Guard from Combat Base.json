@@ -255,43 +255,143 @@
     "flashcards": [
       {
         "question": "What is the optimal ankle crossing position when closing guard from combat base bottom?",
-        "answer": "Cross ankles at the small of the opponent's lower back, approximately at the level of their sacrum or just above the belt line. This position creates maximum leverage for posture control because your heels can drive into their lower back while your thighs generate lateral pressure on their torso. Crossing too high reduces hip control and creates space for guard opening, while crossing too low provides weak leverage that the opponent can power through with hip extension."
+        "answer": "Cross ankles at the small of the opponent's lower back, approximately at the level of their sacrum or just above the belt line. This position creates maximum leverage for posture control because your heels can drive into their lower back while your thighs generate lateral pressure on their torso. Crossing too high reduces hip control and creates space for guard opening, while crossing too low provides weak leverage that the opponent can power through with hip extension.",
+        "answer_line": "Cross ankles at their sacrum",
+        "distractors": {
+          "plausible": [
+            "Cross ankles at mid-back",
+            "Cross ankles below the belt"
+          ],
+          "trap": [
+            "Hook heels without crossing"
+          ]
+        }
       },
       {
         "question": "Your opponent in combat base posts their hands on your hips to create distance — how do you adjust your guard pull approach?",
-        "answer": "Use your feet to hook inside their elbows and push their arms outward, breaking their posting structure. Alternatively, control one posting wrist with your hand and perform a hip escape to the opposite side, eliminating the post on that side. Once one post is compromised, immediately pull them forward with your established grip and begin wrapping your legs. Remove posts one at a time rather than fighting both simultaneously, as splitting their base sequentially is far more effective than matching their structural strength directly."
+        "answer": "Use your feet to hook inside their elbows and push their arms outward, breaking their posting structure. Alternatively, control one posting wrist with your hand and perform a hip escape to the opposite side, eliminating the post on that side. Once one post is compromised, immediately pull them forward with your established grip and begin wrapping your legs. Remove posts one at a time rather than fighting both simultaneously, as splitting their base sequentially is far more effective than matching their structural strength directly.",
+        "answer_line": "Remove one post, then pull in",
+        "distractors": {
+          "plausible": [
+            "Push both posts off at once",
+            "Grip both wrists, pull hard"
+          ],
+          "trap": [
+            "Push opponent's hips away"
+          ]
+        }
       },
       {
         "question": "What are the primary grip configurations for setting up a guard pull from combat base bottom in the gi?",
-        "answer": "The two highest-percentage configurations are: first, cross-collar grip with same-side sleeve grip — the collar enables powerful posture breaking while the sleeve prevents the opponent from posting to resist; second, same-side collar and pant grip at the knee — the collar controls posture while the pant grip disrupts the opponent's base by manipulating their posted or planted leg. Both configurations use the principle of controlling upper and lower body simultaneously to compromise structural integrity."
+        "answer": "The two highest-percentage configurations are: first, cross-collar grip with same-side sleeve grip — the collar enables powerful posture breaking while the sleeve prevents the opponent from posting to resist; second, same-side collar and pant grip at the knee — the collar controls posture while the pant grip disrupts the opponent's base by manipulating their posted or planted leg. Both configurations use the principle of controlling upper and lower body simultaneously to compromise structural integrity.",
+        "answer_line": "Cross-collar + same-side sleeve",
+        "distractors": {
+          "plausible": [
+            "Sleeve and pant grip, no collar",
+            "Both collars, no leg control"
+          ],
+          "trap": [
+            "Underhook only, no grips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a knee slice pass just as you are attempting to close your guard — what is your immediate response?",
-        "answer": "Abandon the guard closure attempt and address the pass immediately. Frame your inside forearm against their slicing knee to prevent it from completing the pass. Simultaneously hip escape away from the passing direction to create space. Use your bottom leg to establish a knee shield between you and the opponent's torso. From knee shield half guard, you can either re-attempt guard closure or work the half guard game. Never continue a guard pull when an active pass is in progress — defensive priorities take precedence."
+        "answer": "Abandon the guard closure attempt and address the pass immediately. Frame your inside forearm against their slicing knee to prevent it from completing the pass. Simultaneously hip escape away from the passing direction to create space. Use your bottom leg to establish a knee shield between you and the opponent's torso. From knee shield half guard, you can either re-attempt guard closure or work the half guard game. Never continue a guard pull when an active pass is in progress — defensive priorities take precedence.",
+        "answer_line": "Frame knee, hip escape, shield",
+        "distractors": {
+          "plausible": [
+            "Grab collar to stall the pass",
+            "Retreat hips with no frame"
+          ],
+          "trap": [
+            "Keep pulling guard closed"
+          ]
+        }
       },
       {
         "question": "What hip movement generates the most effective distance closure for wrapping your legs around the opponent?",
-        "answer": "The diagonal hip escape toward the side of your primary grip creates the most effective distance closure. Unlike a straight backward hip escape that moves you away from the opponent, the diagonal escape angles your body approximately thirty degrees while bringing your hips underneath and closer to the opponent's waist. This movement simultaneously creates the wrapping angle needed for leg closure and reduces the distance between your hips and their waist. Follow the hip escape by walking your feet up their body from hip to lower rib level."
+        "answer": "The diagonal hip escape toward the side of your primary grip creates the most effective distance closure. Unlike a straight backward hip escape that moves you away from the opponent, the diagonal escape angles your body approximately thirty degrees while bringing your hips underneath and closer to the opponent's waist. This movement simultaneously creates the wrapping angle needed for leg closure and reduces the distance between your hips and their waist. Follow the hip escape by walking your feet up their body from hip to lower rib level.",
+        "answer_line": "Diagonal hip escape to grip side",
+        "distractors": {
+          "plausible": [
+            "Straight backward hip escape",
+            "Hip escape away from grip side"
+          ],
+          "trap": [
+            "Sudden jump to close guard"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your collar grip and immediately drives their hips back to create distance — how do you prevent losing position?",
-        "answer": "Immediately re-establish connection through your feet by placing both feet on their hip bones, creating a frame that prevents them from backing away completely. With foot-on-hip control secured, reach for an alternative grip such as cross sleeve control, lapel wrap around their arm, or underhook if they lean forward. The critical principle is maintaining at least one point of contact at all times during the guard pull process. Your feet serve as the backup connection that allows you to continue working even when upper body grips are stripped."
+        "answer": "Immediately re-establish connection through your feet by placing both feet on their hip bones, creating a frame that prevents them from backing away completely. With foot-on-hip control secured, reach for an alternative grip such as cross sleeve control, lapel wrap around their arm, or underhook if they lean forward. The critical principle is maintaining at least one point of contact at all times during the guard pull process. Your feet serve as the backup connection that allows you to continue working even when upper body grips are stripped.",
+        "answer_line": "Feet on hips, then re-grip",
+        "distractors": {
+          "plausible": [
+            "Chase grip with upper body only",
+            "Release both grips and reset"
+          ],
+          "trap": [
+            "Let go and re-shoot for guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing window for closing guard against a combat base player?",
-        "answer": "The highest-percentage timing window occurs during the opponent's weight shift when they transition between passing options or change their lead leg in combat base. When they lift their planted foot to switch sides or shift forward to initiate a pass, their structural base is momentarily weakened and their weight moves in an exploitable direction. Pull them forward during this transition using your established grips while simultaneously wrapping your legs. Secondary windows include grip transitions when they release one grip to establish another and posture adjustments when they look down or shift their hips."
+        "answer": "The highest-percentage timing window occurs during the opponent's weight shift when they transition between passing options or change their lead leg in combat base. When they lift their planted foot to switch sides or shift forward to initiate a pass, their structural base is momentarily weakened and their weight moves in an exploitable direction. Pull them forward during this transition using your established grips while simultaneously wrapping your legs. Secondary windows include grip transitions when they release one grip to establish another and posture adjustments when they look down or shift their hips.",
+        "answer_line": "Pull during their weight shift",
+        "distractors": {
+          "plausible": [
+            "Pull when they're set, stable",
+            "Wait for them to sit down"
+          ],
+          "trap": [
+            "Attack their strong forward drive"
+          ]
+        }
       },
       {
         "question": "In no-gi, what grip substitutions maintain guard pull effectiveness without collar and sleeve control?",
-        "answer": "Replace collar grip with a two-on-one arm control or a cross-face grip behind the head, pulling the opponent's head down to break posture. Replace sleeve grip with wrist control or an overhook on the near arm. The head-and-arm combination is particularly effective because it controls posture and one arm simultaneously, mimicking the collar-sleeve dynamic. Alternatively, use a butterfly hook with an underhook to control the near arm while your other hand controls behind the neck, creating the same dual-control system needed for effective guard closure."
+        "answer": "Replace collar grip with a two-on-one arm control or a cross-face grip behind the head, pulling the opponent's head down to break posture. Replace sleeve grip with wrist control or an overhook on the near arm. The head-and-arm combination is particularly effective because it controls posture and one arm simultaneously, mimicking the collar-sleeve dynamic. Alternatively, use a butterfly hook with an underhook to control the near arm while your other hand controls behind the neck, creating the same dual-control system needed for effective guard closure.",
+        "answer_line": "Cross-face plus overhook arm",
+        "distractors": {
+          "plausible": [
+            "Underhooks only, no head control",
+            "Collar grip substitute in no-gi"
+          ],
+          "trap": [
+            "Grab both legs, ignore upper body"
+          ]
+        }
       },
       {
         "question": "How do you chain a failed guard pull into an offensive sweep attempt rather than simply returning to combat base bottom?",
-        "answer": "When the guard pull fails because the opponent postures back up, immediately transition to a hip bump sweep by sitting up explosively toward their posted side while maintaining your grip. The momentum from the failed guard pull often creates an advantageous angle for the hip bump. Alternatively, if the opponent drives forward to prevent your guard closure, use their forward pressure for a butterfly hook sweep by inserting a hook and elevating. Treat the failed guard pull as the first action in a combination chain rather than an isolated technique."
+        "answer": "When the guard pull fails because the opponent postures back up, immediately transition to a hip bump sweep by sitting up explosively toward their posted side while maintaining your grip. The momentum from the failed guard pull often creates an advantageous angle for the hip bump. Alternatively, if the opponent drives forward to prevent your guard closure, use their forward pressure for a butterfly hook sweep by inserting a hook and elevating. Treat the failed guard pull as the first action in a combination chain rather than an isolated technique.",
+        "answer_line": "Sit up into hip bump sweep",
+        "distractors": {
+          "plausible": [
+            "Reset fully to combat base",
+            "Pull guard again immediately"
+          ],
+          "trap": [
+            "Release grip and stand up"
+          ]
+        }
       },
       {
         "question": "What role do your feet play before and during the guard closure sequence?",
-        "answer": "Your feet serve three sequential functions: first, they create initial contact and distance control by posting on the opponent's hip bones, establishing the physical connection needed to influence their posture. Second, during posture breaking, your feet push against their hips while your grips pull, creating opposing forces that compromise their structural alignment. Third, during the actual closure, your feet walk progressively up the opponent's body from hips to lower ribs, wrapping your legs in a controlled spiral rather than attempting a sudden jump. Throughout the entire sequence, at least one foot maintains active contact with the opponent's body to prevent them from disengaging completely."
+        "answer": "Your feet serve three sequential functions: first, they create initial contact and distance control by posting on the opponent's hip bones, establishing the physical connection needed to influence their posture. Second, during posture breaking, your feet push against their hips while your grips pull, creating opposing forces that compromise their structural alignment. Third, during the actual closure, your feet walk progressively up the opponent's body from hips to lower ribs, wrapping your legs in a controlled spiral rather than attempting a sudden jump. Throughout the entire sequence, at least one foot maintains active contact with the opponent's body to prevent them from disengaging completely.",
+        "answer_line": "Post hips, then walk up ribs",
+        "distractors": {
+          "plausible": [
+            "Push knees, not hip bones",
+            "Kick opponent's chest first"
+          ],
+          "trap": [
+            "Release foot contact to grip higher"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard pull from combat base carries low injury risk compared to most BJJ transitions, but practitioners should observe several safety considerations. Avoid explosive jerking movements when breaking posture, as sudden neck loading can cause cervical strain in your training partner. When closing guard, ensure ankle crossing is at the lower back rather than directly on the spine to prevent uncomfortable vertebral pressure. If the opponent resists guard closure by driving forward aggressively, do not fight the pass with straight locked-out arms as this risks elbow hyperextension. During drilling, communicate with your partner about pressure levels and release immediately if either person experiences sharp pain in the neck, lower back, or knees. Beginners should practice at slow speeds to develop proper mechanics before adding resistance.",
@@ -409,19 +509,59 @@
     "flashcards": [
       {
         "question": "What is the highest-priority defensive action when you feel your opponent's heels starting to hook behind your lower back?",
-        "answer": "Immediately drive your hips backward while posting one hand on the opponent's hip to create space. The critical window is before the ankles cross — once ankles are locked, breaking the guard requires significantly more effort and a full guard opening sequence. If their heels are just starting to hook, push their near-side knee down with your hand while retreating your hips to prevent the ankle crossing that completes guard closure. Speed of response in this one-to-two-second window determines whether you maintain combat base or get pulled into closed guard."
+        "answer": "Immediately drive your hips backward while posting one hand on the opponent's hip to create space. The critical window is before the ankles cross — once ankles are locked, breaking the guard requires significantly more effort and a full guard opening sequence. If their heels are just starting to hook, push their near-side knee down with your hand while retreating your hips to prevent the ankle crossing that completes guard closure. Speed of response in this one-to-two-second window determines whether you maintain combat base or get pulled into closed guard.",
+        "answer_line": "Drive hips back before ankles cross",
+        "distractors": {
+          "plausible": [
+            "Wait until ankles lock to defend",
+            "Grab ankles and pull apart"
+          ],
+          "trap": [
+            "Stay still, posture up slowly"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution in combat base need to change when defending a guard pull versus preparing to pass?",
-        "answer": "When defending a guard pull, shift your weight slightly more toward your posted knee in approximately a sixty-five to thirty-five ratio and lower your center of gravity by dropping your hips. This anchors you against forward pulling forces. In contrast, passing preparation requires more weight toward the planted foot with a fifty-fifty distribution and higher hip positioning for mobility. The guard pull defense priority is resisting forward collapse, whereas passing requires dynamic lateral movement. Recognize the opponent's intent and adjust your weight distribution accordingly before they commit."
+        "answer": "When defending a guard pull, shift your weight slightly more toward your posted knee in approximately a sixty-five to thirty-five ratio and lower your center of gravity by dropping your hips. This anchors you against forward pulling forces. In contrast, passing preparation requires more weight toward the planted foot with a fifty-fifty distribution and higher hip positioning for mobility. The guard pull defense priority is resisting forward collapse, whereas passing requires dynamic lateral movement. Recognize the opponent's intent and adjust your weight distribution accordingly before they commit.",
+        "answer_line": "65/35 toward post, hips low",
+        "distractors": {
+          "plausible": [
+            "50/50 weight, hips high",
+            "All weight forward, chest down"
+          ],
+          "trap": [
+            "Shift weight to planted foot"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a strong cross-collar grip and is beginning to break your posture — what is your systematic response?",
-        "answer": "First, post your same-side hand on their hip bone to create a structural brace against the pull. Second, use your free hand to execute a two-on-one grip break on their collar-gripping wrist, circling your wrist inside their grip and peeling their fingers. Third, once the grip is broken, immediately re-establish your own controlling grip on their bicep or sleeve to prevent them from re-gripping. Fourth, restore your full combat base posture by driving your chest forward and head up. Never attempt to simply power through a deep collar grip as the leverage heavily favors the bottom player."
+        "answer": "First, post your same-side hand on their hip bone to create a structural brace against the pull. Second, use your free hand to execute a two-on-one grip break on their collar-gripping wrist, circling your wrist inside their grip and peeling their fingers. Third, once the grip is broken, immediately re-establish your own controlling grip on their bicep or sleeve to prevent them from re-gripping. Fourth, restore your full combat base posture by driving your chest forward and head up. Never attempt to simply power through a deep collar grip as the leverage heavily favors the bottom player.",
+        "answer_line": "Post hip, break grip, re-grip",
+        "distractors": {
+          "plausible": [
+            "Power through with neck strength",
+            "Pull head up, ignore the grip"
+          ],
+          "trap": [
+            "Match strength and pull back"
+          ]
+        }
       },
       {
         "question": "When is standing up the best defensive option versus staying in combat base and fighting grips?",
-        "answer": "Standing is the best option when the opponent has established multiple controlling grips such as collar plus sleeve and your combat base posture is significantly compromised, meaning your head is at or below your hip level and you cannot recover posture from the kneeling position. Standing creates maximum distance and breaks the bottom player's leverage chain entirely. However, stay in combat base and fight when you have at least equal grip control and your posture remains intact, as standing unnecessarily resets the position and surrenders the proximity advantage you need for effective passing sequences."
+        "answer": "Standing is the best option when the opponent has established multiple controlling grips such as collar plus sleeve and your combat base posture is significantly compromised, meaning your head is at or below your hip level and you cannot recover posture from the kneeling position. Standing creates maximum distance and breaks the bottom player's leverage chain entirely. However, stay in combat base and fight when you have at least equal grip control and your posture remains intact, as standing unnecessarily resets the position and surrenders the proximity advantage you need for effective passing sequences.",
+        "answer_line": "Stand when posture is broken",
+        "distractors": {
+          "plausible": [
+            "Stand at the first grip",
+            "Stay down, head below hips"
+          ],
+          "trap": [
+            "Stand with posture still intact"
+          ]
+        }
       }
     ],
     "training_progressions": [

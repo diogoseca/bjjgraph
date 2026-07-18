@@ -289,47 +289,137 @@
       {
         "question": "What anatomical structures does the Darce Choke from Twister Side Control primarily attack?",
         "answer": "The Darce primarily compresses both carotid arteries using a figure-four arm configuration. The threading forearm presses against one carotid while the trapped shoulder compresses the other, with chest pressure driving the shoulder into the neck. This bilateral arterial compression causes rapid loss of consciousness when applied correctly, distinguishing it from tracheal chokes that restrict airflow.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe and airway",
+            "Only the far carotid"
+          ],
+          "trap": [
+            "Vagus nerve pressure point"
+          ]
+        }
       },
       {
         "question": "What defensive response from the bottom player creates the primary entry window for this Darce variant?",
         "answer": "The turn-in response, where the bottom player rotates toward the top player to relieve spinal torque and create defensive frames. This rotation displaces the near arm away from the neck, opens the gap between the neck and shoulder needed for arm threading, and brings the chin away from the chest. This natural defensive movement against the Twister threat is precisely what creates the Darce opportunity, forming the core dilemma of the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bottom player turns in",
+        "distractors": {
+          "plausible": [
+            "Bottom player turns away",
+            "Bottom player posts on hands"
+          ],
+          "trap": [
+            "Bottom player flattens out"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly and fights your threading hand with both arms - what adjustment prevents this defense from succeeding?",
         "answer": "Control the blocking wrist with your free hand and peel it away from the neck, or increase shoulder pressure to force the chin upward before re-attempting the thread. If hand fighting persists, use your body weight to drive the near shoulder deeper into the mat, which structurally forces the chin up regardless of muscular resistance. You can also feint the Twister to force them to redirect defensive attention away from the Darce entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel wrist, add shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Muscle through with raw strength",
+            "Pull the head down harder"
+          ],
+          "trap": [
+            "Release pressure to reset"
+          ]
+        }
       },
       {
         "question": "What indicates you have reached the point of no escape when finishing the Darce from Twister Side Control?",
         "answer": "The point of no escape occurs when the figure-four grip is locked with the threading arm deep past the chin, hips have walked perpendicular to create tight choke geometry, and chest pressure is driving the trapped shoulder into the neck. At this stage, the bilateral carotid compression is structurally locked and even strong defensive bridging cannot create enough space to relieve the pressure. The defender's only option is to tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locked figure-four, hips walked in",
+        "distractors": {
+          "plausible": [
+            "Grip is locked, hips still square",
+            "Opponent stops moving entirely"
+          ],
+          "trap": [
+            "Any chin tuck achieved"
+          ]
+        }
       },
       {
         "question": "Why is chest compression more effective than arm squeezing for finishing the Darce?",
         "answer": "Chest compression uses your entire bodyweight to drive the trapped shoulder into the carotid artery on one side, while the forearm compresses the other side. This structural pressure is sustainable, powerful, and does not fatigue quickly. Arm squeezing alone relies on bicep and forearm strength, which fatigues rapidly and generates less total force. The chest-driven finish also maintains your base and positional control, whereas arm squeezing often causes you to lift your weight off the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bodyweight beats bicep fatigue",
+        "distractors": {
+          "plausible": [
+            "Chest choke works faster",
+            "Arm strength finishes cleaner"
+          ],
+          "trap": [
+            "Lift off opponent to squeeze"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the initial figure-four connection feels loose or has slack?",
         "answer": "Walk your hips further toward the opponent's head to increase the perpendicular angle and mechanically tighten the grip. Ensure your threading arm is deep enough that your hand reaches the far-side bicep rather than stopping at the forearm. Pull your elbows tighter together before applying finishing pressure. If slack persists, you may need to re-thread the arm deeper rather than attempting to compensate with squeezing force on an improperly set grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips, thread past the bicep",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder through the slack",
+            "Grip lower on the forearm"
+          ],
+          "trap": [
+            "Lean back to add tension"
+          ]
+        }
       },
       {
         "question": "What competition finishing strategy maximizes the Darce success rate from Twister Side Control?",
         "answer": "In competition, finish from established control rather than diving for the choke and sacrificing position. Bait the turn-in by maintaining heavy shoulder pressure so the opponent volunteers the neck, then thread and lock the figure-four before they realize the danger. Chain it with the Twister threat: every defensive reaction to one attack opens the other, so attack the dilemma rather than a single technique. Keep the leg entanglement intact so a defended Darce simply resets you to a dominant position rather than a scramble.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack the Darce/Twister dilemma",
+        "distractors": {
+          "plausible": [
+            "Dive for the choke immediately",
+            "Ignore the Twister threat"
+          ],
+          "trap": [
+            "Release control to chase choke"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when applying the Darce Choke from Twister Side Control in training?",
         "answer": "Apply finishing pressure progressively over 3-5 seconds minimum to allow adequate tap recognition time. Never jerk or spike the choke. Monitor for all tap signals including verbal, hand tap, foot tap, and loss of resistance indicating unconsciousness. Release immediately upon any tap signal by unclasping hands, removing shoulder pressure first, then slowly extracting the choking arm. If unconsciousness occurs, keep the airway clear and seek medical evaluation. Never apply full pressure during drilling.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply pressure slow, watch all taps",
+        "distractors": {
+          "plausible": [
+            "Full pressure if partner resists",
+            "Verbal tap is the only signal"
+          ],
+          "trap": [
+            "Jerk the choke on for speed"
+          ]
+        }
       },
       {
         "question": "How should you release the Darce Choke after your training partner taps to minimize injury risk?",
         "answer": "Immediately unclasp your hands to break the figure-four grip. Remove shoulder pressure from the neck first to relieve arterial compression as quickly as possible. Then slowly extract the choking arm to avoid jerking the neck. Allow your partner to recover in a seated or supine position and monitor them for at least 30 seconds for signs of dizziness, disorientation, or delayed effects. If they lost consciousness at any point, keep their airway clear and seek medical evaluation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unclasp hands, ease shoulder first",
+        "distractors": {
+          "plausible": [
+            "Extract arm first, then hands",
+            "Release instantly, skip monitoring"
+          ],
+          "trap": [
+            "Yank the arm out fast"
+          ]
+        }
       }
     ],
     "clips": [
@@ -443,27 +533,77 @@
       {
         "question": "What are the earliest recognition cues that a Darce Choke is being set up from Twister Side Control?",
         "answer": "The earliest cues are the attacker walking their hips toward your head while maintaining shoulder pressure, the attacker's near-side hand probing underneath your chin or along your jawline, and increased shoulder pressure driving your near shoulder to the mat. These positioning changes indicate the attacker is creating the channel needed for arm threading. Recognizing these early allows you to initiate chin tuck and elbow clamp defense before the arm begins threading.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips walk up, hand probes chin",
+        "distractors": {
+          "plausible": [
+            "Sudden hip escape attempt",
+            "Grip fighting on the sleeve"
+          ],
+          "trap": [
+            "Wait for the figure-four to lock"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Darce Choke from Twister Side Control?",
         "answer": "Tap immediately upon feeling arterial compression rather than waiting to see if you can escape. Use verbal tap by saying 'tap' or 'stop' clearly, as your hands may be trapped. If a hand is free, tap rapidly on the attacker's body. Foot tap the mat if upper body is immobilized. The Darce compresses carotid arteries and can cause unconsciousness within seconds once fully locked, so there is no safe window to attempt late escapes. Tap early and tap often in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, verbal or physical",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only once fully locked"
+          ],
+          "trap": [
+            "Try to power out first"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker a critical defensive error when the Darce is being set up?",
         "answer": "Turning toward the attacker opens the gap between the neck and near-side shoulder that the Darce arm needs to thread through. This turn-in response, while natural for defending other submissions from Twister Side Control, directly creates the primary entry window for the Darce. The attacker is specifically waiting for this movement. Instead, defend with hand positioning and chin tuck while keeping shoulders square or slightly turned away.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Opens the neck-shoulder gap",
+        "distractors": {
+          "plausible": [
+            "It only exposes the back",
+            "It loses points, not dangerous"
+          ],
+          "trap": [
+            "Turn in to defend the Twister"
+          ]
+        }
       },
       {
         "question": "The attacker has threaded the arm under your chin but has not yet connected the figure-four grip - what defensive options remain?",
         "answer": "At this intermediate stage, pummel your trapped arm by rotating the shoulder and swimming the elbow through to create space between the forearm and your neck. Use your free hand to push against the threading arm's bicep to prevent it from reaching the far side. If neither succeeds, turning away to expose your back is a last resort that denies the choke finish at the cost of positional concession. Act immediately, as the window closes rapidly once the arm is threaded.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pummel elbow, block the bicep",
+        "distractors": {
+          "plausible": [
+            "Wait for the grip before reacting",
+            "Push straight at the elbow"
+          ],
+          "trap": [
+            "Turn in toward the pressure"
+          ]
+        }
       },
       {
         "question": "How should you prioritize defensive concerns when facing both Darce and Twister threats simultaneously from Twister Side Control?",
         "answer": "Address the most immediate threat first. If the attacker is actively threading the choking arm, defend the neck with chin tuck and elbow clamp before worrying about spinal rotation. If the attacker is pursuing the Twister, protect the spine first. The key insight is that defending the Darce (keeping shoulders square) and defending the Twister (preventing spinal rotation) require different body positions, so you must correctly identify which threat is active and respond accordingly rather than trying to defend both simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defend whichever threat is active",
+        "distractors": {
+          "plausible": [
+            "Always defend the Twister first",
+            "Split focus on both equally"
+          ],
+          "trap": [
+            "Turn in to relieve the spine"
+          ]
+        }
       }
     ],
     "training_progressions": [

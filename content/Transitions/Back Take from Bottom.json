@@ -227,51 +227,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Back Take from Bottom Hindulotine?",
-        "answer": "The primary goal is to convert a stalled or defended guillotine attempt into dominant back control by capitalizing on the opponent's defensive turn. Rather than chasing a failing choke, this transition exploits the back exposure created when opponents turn away from guillotine pressure, transforming their escape into a worse positional outcome."
+        "answer": "The primary goal is to convert a stalled or defended guillotine attempt into dominant back control by capitalizing on the opponent's defensive turn. Rather than chasing a failing choke, this transition exploits the back exposure created when opponents turn away from guillotine pressure, transforming their escape into a worse positional outcome.",
+        "answer_line": "Convert stalled choke to back take",
+        "distractors": {
+          "plausible": [
+            "Finish the choke no matter what",
+            "Reset back to neutral guard"
+          ],
+          "trap": [
+            "Chase the back, release everything"
+          ]
+        }
       },
       {
         "question": "What position do you start Back Take from Bottom from?",
-        "answer": "This technique starts from Bottom Hindulotine, a guillotine variation from guard position where you have the guillotine grip secured while controlling opponent with your legs. The angled hip positioning of the Hindulotine creates the rotational pressure that typically triggers the opponent's turn escape attempt."
+        "answer": "This technique starts from Bottom Hindulotine, a guillotine variation from guard position where you have the guillotine grip secured while controlling opponent with your legs. The angled hip positioning of the Hindulotine creates the rotational pressure that typically triggers the opponent's turn escape attempt.",
+        "answer_line": "Bottom Hindulotine guillotine",
+        "distractors": {
+          "plausible": [
+            "Guillotine from mount",
+            "Guillotine from half guard"
+          ],
+          "trap": [
+            "Guillotine from turtle"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Back Take from Bottom?",
-        "answer": "The key grip transition is from guillotine to seatbelt. Initially you have a guillotine grip (arm under chin, hands clasped). During transition, your choking arm becomes the overhook arm across opponent's chest, while your other arm threads under their far armpit. Hands clasp together in seatbelt configuration with overhook hand controlling wrist of underhook arm."
+        "answer": "The key grip transition is from guillotine to seatbelt. Initially you have a guillotine grip (arm under chin, hands clasped). During transition, your choking arm becomes the overhook arm across opponent's chest, while your other arm threads under their far armpit. Hands clasp together in seatbelt configuration with overhook hand controlling wrist of underhook arm.",
+        "answer_line": "Guillotine arm becomes overhook",
+        "distractors": {
+          "plausible": [
+            "Both hands stay clasped choking",
+            "Switch straight to double hooks"
+          ],
+          "trap": [
+            "Release both grips, re-grip fresh"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning away but then stops mid-rotation - how should you respond?",
-        "answer": "If they stop the turn before fully committing, immediately re-establish your guillotine grip and continue the choke attack. The partial turn often worsens their neck position. Alternatively, if their arm position allows, the partial turn may expose a darce choke entry. Never release control to chase a back that isn't fully exposed."
+        "answer": "If they stop the turn before fully committing, immediately re-establish your guillotine grip and continue the choke attack. The partial turn often worsens their neck position. Alternatively, if their arm position allows, the partial turn may expose a darce choke entry. Never release control to chase a back that isn't fully exposed.",
+        "answer_line": "Re-secure guillotine, keep attacking",
+        "distractors": {
+          "plausible": [
+            "Immediately dive for the back",
+            "Wait for full rotation"
+          ],
+          "trap": [
+            "Release grip to chase hooks"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to release your guillotine grip and initiate the back take?",
-        "answer": "Release the guillotine grip at the precise moment when you feel definitive rotation in both the opponent's shoulders and hips, confirming their commitment to the turning escape. Releasing too early allows them to recover and face you. The ideal timing is when they have committed enough that they cannot easily reverse the turn, but before they complete the rotation."
+        "answer": "Release the guillotine grip at the precise moment when you feel definitive rotation in both the opponent's shoulders and hips, confirming their commitment to the turning escape. Releasing too early allows them to recover and face you. The ideal timing is when they have committed enough that they cannot easily reverse the turn, but before they complete the rotation.",
+        "answer_line": "Release on full hip/shoulder turn",
+        "distractors": {
+          "plausible": [
+            "Release as soon as they move",
+            "Release only after hooks are in"
+          ],
+          "trap": [
+            "Release immediately, chase back"
+          ]
+        }
       },
       {
         "question": "What body part must maintain constant contact throughout the entire transition?",
-        "answer": "Your chest must maintain constant contact with opponent's back throughout the entire transition. This chest-to-back connection is the anchor that prevents separation and allows you to follow their rotation. Any gap created between your chest and their back provides opportunity for them to frame, turn back, or create escape distance."
+        "answer": "Your chest must maintain constant contact with opponent's back throughout the entire transition. This chest-to-back connection is the anchor that prevents separation and allows you to follow their rotation. Any gap created between your chest and their back provides opportunity for them to frame, turn back, or create escape distance.",
+        "answer_line": "Chest stays glued to their back",
+        "distractors": {
+          "plausible": [
+            "Hips stay glued to their hips",
+            "Head stays pressed to their head"
+          ],
+          "trap": [
+            "Create space to see the turn"
+          ]
+        }
       },
       {
         "question": "Why is it critical to establish seatbelt control before inserting hooks?",
-        "answer": "Seatbelt provides the upper body anchor that keeps you connected during the chaotic transition phase. Without seatbelt first, you have no control point to prevent opponent from continuing to turn and face you. The seatbelt grip also allows you to pull them into position for hook insertion. Attempting hooks without upper body control leaves you vulnerable to scrambles and reversals."
+        "answer": "Seatbelt provides the upper body anchor that keeps you connected during the chaotic transition phase. Without seatbelt first, you have no control point to prevent opponent from continuing to turn and face you. The seatbelt grip also allows you to pull them into position for hook insertion. Attempting hooks without upper body control leaves you vulnerable to scrambles and reversals.",
+        "answer_line": "Seatbelt anchors before hooks",
+        "distractors": {
+          "plausible": [
+            "Hooks first, seatbelt after",
+            "Underhook alone is enough control"
+          ],
+          "trap": [
+            "Skip seatbelt, dive for hooks"
+          ]
+        }
       },
       {
         "question": "How does keeping your guard closed during transition negatively impact the technique?",
-        "answer": "A closed guard restricts your hip mobility and prevents you from following the opponent's rotation. As they turn, your crossed ankles create a fixed point that cannot match their movement speed. Opening the guard allows your legs to independently track and follow the rotation, enabling you to stay connected and insert hooks as the back becomes exposed."
+        "answer": "A closed guard restricts your hip mobility and prevents you from following the opponent's rotation. As they turn, your crossed ankles create a fixed point that cannot match their movement speed. Opening the guard allows your legs to independently track and follow the rotation, enabling you to stay connected and insert hooks as the back becomes exposed.",
+        "answer_line": "Open guard to track rotation",
+        "distractors": {
+          "plausible": [
+            "Keep guard closed for control",
+            "Cross ankles tighter to follow"
+          ],
+          "trap": [
+            "Squeeze closed guard, chase turn"
+          ]
+        }
       },
       {
         "question": "What submission opportunities become available immediately after securing back control from this transition?",
-        "answer": "Once back control is established, primary options include rear naked choke, bow and arrow choke (in gi), armbar from back, and collar chokes. The transition often catches opponents mentally unprepared for back defense since they were focused on guillotine escape, creating a brief window where submissions may succeed before they establish proper defensive hand fighting."
+        "answer": "Once back control is established, primary options include rear naked choke, bow and arrow choke (in gi), armbar from back, and collar chokes. The transition often catches opponents mentally unprepared for back defense since they were focused on guillotine escape, creating a brief window where submissions may succeed before they establish proper defensive hand fighting.",
+        "answer_line": "RNC, bow-arrow, armbar, collar",
+        "distractors": {
+          "plausible": [
+            "Only rear naked choke works",
+            "Wait, opponent will defend well"
+          ],
+          "trap": [
+            "Let go and reset position"
+          ]
+        }
       },
       {
         "question": "Your opponent creates distance by posting their hands during the transition - what adjustment should you make?",
-        "answer": "Use butterfly hooks to elevate their hips and follow as they create distance, maintaining your grip on their upper body. If they achieve significant separation, consider transitioning to a technical stand-up while maintaining arm control, allowing you to pursue the back take from standing or reset to a different attack. Never chase with extended arms as this creates vulnerability."
+        "answer": "Use butterfly hooks to elevate their hips and follow as they create distance, maintaining your grip on their upper body. If they achieve significant separation, consider transitioning to a technical stand-up while maintaining arm control, allowing you to pursue the back take from standing or reset to a different attack. Never chase with extended arms as this creates vulnerability.",
+        "answer_line": "Butterfly hooks, follow their hips",
+        "distractors": {
+          "plausible": [
+            "Extend arms and chase the back",
+            "Release seatbelt, re-shoot"
+          ],
+          "trap": [
+            "Reach and grab with straight arms"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force you apply through the seatbelt during the transition?",
-        "answer": "The seatbelt force should pull diagonally across the opponent's chest toward your overhook side hip, not straight backward. This diagonal pull keeps them angled into you and prevents them from squaring their shoulders to re-face. The overhook arm drives across their sternum while the underhook arm lifts under their armpit, creating a rotational force that keeps their back oriented toward your chest throughout hook insertion."
+        "answer": "The seatbelt force should pull diagonally across the opponent's chest toward your overhook side hip, not straight backward. This diagonal pull keeps them angled into you and prevents them from squaring their shoulders to re-face. The overhook arm drives across their sternum while the underhook arm lifts under their armpit, creating a rotational force that keeps their back oriented toward your chest throughout hook insertion.",
+        "answer_line": "Pull diagonal across chest",
+        "distractors": {
+          "plausible": [
+            "Pull straight back, flat",
+            "Push down into the mat"
+          ],
+          "trap": [
+            "Pull straight up, stand them"
+          ]
+        }
       },
       {
         "question": "How do you chain this back take with other attacks if the opponent refuses to turn at all?",
-        "answer": "If the opponent does not turn, they remain in the guillotine and you continue finishing the choke. If they drive forward instead, use butterfly hooks to sweep to mount while maintaining the grip. If they create frames, transition to a darce choke by threading your choking arm deeper. The entire Hindulotine system creates a dilemma: refusing to turn means accepting the guillotine, turning exposes the back, and framing opens the darce."
+        "answer": "If the opponent does not turn, they remain in the guillotine and you continue finishing the choke. If they drive forward instead, use butterfly hooks to sweep to mount while maintaining the grip. If they create frames, transition to a darce choke by threading your choking arm deeper. The entire Hindulotine system creates a dilemma: refusing to turn means accepting the guillotine, turning exposes the back, and framing opens the darce.",
+        "answer_line": "No turn: finish the guillotine",
+        "distractors": {
+          "plausible": [
+            "No turn: force hooks anyway",
+            "No turn: switch to armbar"
+          ],
+          "trap": [
+            "Abandon choke, dive for back"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition is generally low-risk when performed with proper technique, but awareness of several safety factors ensures injury-free training. The primary risk involves neck strain if the guillotine is maintained too aggressively during the opponent's turn, potentially causing cervical spine torque. Release the guillotine cleanly when transitioning rather than holding while they rotate. During drilling, partners should turn at controlled speeds to allow proper timing development. Avoid explosive hook insertions that could strike training partner's groin or inner thigh. In competition or hard sparring, be aware that rapid transitions can result in scrambles where joint locks may be applied unexpectedly. Always tap early to any submission caught during chaotic transitions. Practitioners with neck injuries should approach this technique cautiously due to the rotational forces involved during the transition phase.",
@@ -388,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from guillotine to back take?",
-        "answer": "The earliest cue is the sudden decrease in guillotine choking pressure combined with the attacker's arm remaining across your neck and chest rather than releasing completely. You will feel their grip open but their forearm staying in contact, which indicates they are converting the choking arm into the overhook component of a seatbelt rather than disengaging entirely."
+        "answer": "The earliest cue is the sudden decrease in guillotine choking pressure combined with the attacker's arm remaining across your neck and chest rather than releasing completely. You will feel their grip open but their forearm staying in contact, which indicates they are converting the choking arm into the overhook component of a seatbelt rather than disengaging entirely.",
+        "answer_line": "Choke pressure drops, arm stays",
+        "distractors": {
+          "plausible": [
+            "They tap and go limp",
+            "They post both hands flat"
+          ],
+          "trap": [
+            "They fully let go, you're safe"
+          ]
+        }
       },
       {
         "question": "Why is stopping your turn and re-facing the attacker sometimes a better defensive choice than completing the rotation?",
-        "answer": "Stopping the turn and re-facing denies the back exposure entirely, returning you to the Hindulotine where you face a known threat (the guillotine) rather than the unknown of a scramble. Completing the turn risks the attacker following your rotation with seatbelt control already established. Re-facing also resets the positional dynamic to your advantage since you can resume systematic guillotine defense from a position you understand."
+        "answer": "Stopping the turn and re-facing denies the back exposure entirely, returning you to the Hindulotine where you face a known threat (the guillotine) rather than the unknown of a scramble. Completing the turn risks the attacker following your rotation with seatbelt control already established. Re-facing also resets the positional dynamic to your advantage since you can resume systematic guillotine defense from a position you understand.",
+        "answer_line": "Denies back, returns known fight",
+        "distractors": {
+          "plausible": [
+            "Faster path to full escape",
+            "Sets up own guillotine counter"
+          ],
+          "trap": [
+            "Complete rotation to reverse them"
+          ]
+        }
       },
       {
         "question": "Your opponent has released the guillotine and their arm is crossing your chest - what specific defensive action should you take with your hands?",
-        "answer": "Immediately grab the overhook arm with both hands using a two-on-one grip, controlling their wrist and forearm before they can clasp hands with their underhook arm. Pull their overhook arm away from your chest and toward the mat while simultaneously tucking your opposite elbow tight to block the underhook from getting deep. This prevents the seatbelt from locking and gives you time to re-face or create distance."
+        "answer": "Immediately grab the overhook arm with both hands using a two-on-one grip, controlling their wrist and forearm before they can clasp hands with their underhook arm. Pull their overhook arm away from your chest and toward the mat while simultaneously tucking your opposite elbow tight to block the underhook from getting deep. This prevents the seatbelt from locking and gives you time to re-face or create distance.",
+        "answer_line": "Two-on-one grip the overhook arm",
+        "distractors": {
+          "plausible": [
+            "Grab their far leg instead",
+            "Push their head away first"
+          ],
+          "trap": [
+            "Let them clasp hands, then fight"
+          ]
+        }
       },
       {
         "question": "What makes driving forward into the attacker's guard a viable but risky defensive option?",
-        "answer": "Driving forward is viable because it eliminates the rotation that creates back exposure and can stack the attacker, reducing their offensive options. However, it is risky because if the attacker has not fully committed to the back take transition, the forward drive may tighten the still-active guillotine choke. This option works best when you clearly feel the grip release indicating full commitment to the back take, making the forward drive safe from choke threat."
+        "answer": "Driving forward is viable because it eliminates the rotation that creates back exposure and can stack the attacker, reducing their offensive options. However, it is risky because if the attacker has not fully committed to the back take transition, the forward drive may tighten the still-active guillotine choke. This option works best when you clearly feel the grip release indicating full commitment to the back take, making the forward drive safe from choke threat.",
+        "answer_line": "Drive forward once choke releases",
+        "distractors": {
+          "plausible": [
+            "Drive forward immediately, always",
+            "Never drive forward, stay still"
+          ],
+          "trap": [
+            "Drive forward while still choked"
+          ]
+        }
       },
       {
         "question": "How should you address hook insertion attempts if the attacker has already established partial seatbelt control?",
-        "answer": "Keep your knees pinched together and hips low to the mat to create a physical barrier against hook entry. Use your bottom hand to control the attacker's top leg at the knee, preventing it from threading inside your thigh. Simultaneously work to strip the seatbelt with your top hand. If one hook enters, immediately trap it by closing your legs around their foot while continuing to fight the seatbelt. Preventing both hooks from entering simultaneously is the critical defensive threshold."
+        "answer": "Keep your knees pinched together and hips low to the mat to create a physical barrier against hook entry. Use your bottom hand to control the attacker's top leg at the knee, preventing it from threading inside your thigh. Simultaneously work to strip the seatbelt with your top hand. If one hook enters, immediately trap it by closing your legs around their foot while continuing to fight the seatbelt. Preventing both hooks from entering simultaneously is the critical defensive threshold.",
+        "answer_line": "Knees pinched, hips low, strip belt",
+        "distractors": {
+          "plausible": [
+            "Open knees to scramble free",
+            "Ignore first hook, block second"
+          ],
+          "trap": [
+            "Let both hooks in, then escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

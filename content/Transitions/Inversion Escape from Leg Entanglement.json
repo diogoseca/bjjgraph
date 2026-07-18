@@ -264,7 +264,17 @@
       },
       {
         "question": "Your opponent is adjusting their grip from ankle control to heel control - is this a good moment to attempt the inversion?",
-        "answer": "Yes, this is one of the optimal timing windows for the inversion escape. During grip transitions, the opponent's structural control is momentarily weakened because they have released one control point before fully establishing the next. The brief moment between releasing the ankle grip and securing the heel grip creates a gap in their control structure where the rotational force of the inversion can overcome their retention. You must be ready to exploit this window instantly, as it lasts less than a second against experienced leg lockers."
+        "answer": "Yes, this is one of the optimal timing windows for the inversion escape. During grip transitions, the opponent's structural control is momentarily weakened because they have released one control point before fully establishing the next. The brief moment between releasing the ankle grip and securing the heel grip creates a gap in their control structure where the rotational force of the inversion can overcome their retention. You must be ready to exploit this window instantly, as it lasts less than a second against experienced leg lockers.",
+        "answer_line": "Yes, exploit the grip-transition gap",
+        "distractors": {
+          "plausible": [
+            "No, wait for full heel grip",
+            "Yes, but only after they settle"
+          ],
+          "trap": [
+            "No, stall and rebuild your frame"
+          ]
+        }
       },
       {
         "question": "Which shoulder should you roll over when executing the inversion, and why does direction matter?",
@@ -272,11 +282,31 @@
       },
       {
         "question": "What role does the free leg play in setting up the inversion escape?",
-        "answer": "The free leg serves as the primary space-creation tool before the inversion begins. You place the free foot on the opponent's hip and push firmly to create separation between your hips and their control structure. This frame provides the minimum space needed for the rotational movement to begin. Without this initial frame, there is insufficient room to initiate the roll, and the attempt stalls before it develops. The free leg also provides the push-off force that helps launch the inversion when combined with the posting hand."
+        "answer": "The free leg serves as the primary space-creation tool before the inversion begins. You place the free foot on the opponent's hip and push firmly to create separation between your hips and their control structure. This frame provides the minimum space needed for the rotational movement to begin. Without this initial frame, there is insufficient room to initiate the roll, and the attempt stalls before it develops. The free leg also provides the push-off force that helps launch the inversion when combined with the posting hand.",
+        "answer_line": "Push opponent's hip to create space",
+        "distractors": {
+          "plausible": [
+            "Kick free to strip the heel grip",
+            "Hook their far leg for control"
+          ],
+          "trap": [
+            "Pull it in tight against your body"
+          ]
+        }
       },
       {
         "question": "Your inversion attempt is halfway through but the opponent has followed your roll and maintained grip on your ankle - what should you do?",
-        "answer": "If the opponent follows the roll and maintains ankle control, abort the full inversion and convert the momentum into a scramble. Post on both hands, use the rotational energy to kick your legs free, and immediately work to establish any guard position rather than trying to complete the original escape path. The partial inversion has disrupted the opponent's original entanglement structure even if they maintained grip, so the scramble is still preferable to a static entanglement. Do not attempt to re-roll or force the extraction against active resistance."
+        "answer": "If the opponent follows the roll and maintains ankle control, abort the full inversion and convert the momentum into a scramble. Post on both hands, use the rotational energy to kick your legs free, and immediately work to establish any guard position rather than trying to complete the original escape path. The partial inversion has disrupted the opponent's original entanglement structure even if they maintained grip, so the scramble is still preferable to a static entanglement. Do not attempt to re-roll or force the extraction against active resistance.",
+        "answer_line": "Abort, scramble to guard",
+        "distractors": {
+          "plausible": [
+            "Re-roll harder to break grip",
+            "Reverse direction and reset"
+          ],
+          "trap": [
+            "Force the extraction against them"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to stop in inverted guard after clearing the leg entanglement?",
@@ -406,11 +436,31 @@
     "flashcards": [
       {
         "question": "What are the earliest tactile cues that indicate an opponent is setting up an inversion escape from your leg entanglement?",
-        "answer": "The earliest cues are the opponent placing their free foot on your hip to create a pushing frame, and the opponent posting a hand on the mat behind them in preparation for the roll. These setup actions must occur before the inversion can begin, and recognizing them gives you the maximum reaction window. Additional cues include the opponent tucking their chin, shifting weight toward one shoulder, and a sudden increase in activity after a passive period. Feeling the free leg frame is often the most reliable cue because it provides direct tactile feedback."
+        "answer": "The earliest cues are the opponent placing their free foot on your hip to create a pushing frame, and the opponent posting a hand on the mat behind them in preparation for the roll. These setup actions must occur before the inversion can begin, and recognizing them gives you the maximum reaction window. Additional cues include the opponent tucking their chin, shifting weight toward one shoulder, and a sudden increase in activity after a passive period. Feeling the free leg frame is often the most reliable cue because it provides direct tactile feedback.",
+        "answer_line": "Free foot frames your hip",
+        "distractors": {
+          "plausible": [
+            "Opponent tucks chin and stalls",
+            "Opponent grips your far collar"
+          ],
+          "trap": [
+            "Opponent relaxes their leg pressure"
+          ]
+        }
       },
       {
         "question": "Why is following the inversion sometimes better than trying to block it, and how do you decide which response to use?",
-        "answer": "Following the inversion is better when the roll has already developed significant momentum and blocking would require more force than your static position can generate. Trying to block a committed inversion through grip strength alone often results in losing the grip and the entanglement entirely. Following the roll allows you to maintain your leg configuration and grips through the dynamic movement, re-establishing control after the rotation completes. The decision point is whether the inversion is still in setup phase (block it) or has begun rotating with committed momentum (follow it). If you feel your control points being stressed by rotational force, follow rather than fight."
+        "answer": "Following the inversion is better when the roll has already developed significant momentum and blocking would require more force than your static position can generate. Trying to block a committed inversion through grip strength alone often results in losing the grip and the entanglement entirely. Following the roll allows you to maintain your leg configuration and grips through the dynamic movement, re-establishing control after the rotation completes. The decision point is whether the inversion is still in setup phase (block it) or has begun rotating with committed momentum (follow it). If you feel your control points being stressed by rotational force, follow rather than fight.",
+        "answer_line": "Follow once rotation has momentum",
+        "distractors": {
+          "plausible": [
+            "Always block to save position",
+            "Follow only if grips feel weak"
+          ],
+          "trap": [
+            "Fight the grip with pure strength"
+          ]
+        }
       },
       {
         "question": "How should you position your body to make inversion escapes as difficult as possible for your opponent?",
@@ -418,11 +468,31 @@
       },
       {
         "question": "Your opponent's inversion attempt fails halfway through and they are now on their back with legs partially exposed - what should you do?",
-        "answer": "Immediately capitalize on the failed inversion by advancing your position. The opponent's partial roll has likely disrupted their defensive structure and exposed their legs at angles favorable for saddle entry. Backstep into saddle position while the opponent is still recovering from the failed escape attempt. If saddle entry is not available, re-tighten the original entanglement by closing all gaps that developed during the inversion attempt. The worst response is to passively wait for the opponent to recover their defensive posture before re-engaging - the window after a failed escape is your best opportunity to advance."
+        "answer": "Immediately capitalize on the failed inversion by advancing your position. The opponent's partial roll has likely disrupted their defensive structure and exposed their legs at angles favorable for saddle entry. Backstep into saddle position while the opponent is still recovering from the failed escape attempt. If saddle entry is not available, re-tighten the original entanglement by closing all gaps that developed during the inversion attempt. The worst response is to passively wait for the opponent to recover their defensive posture before re-engaging - the window after a failed escape is your best opportunity to advance.",
+        "answer_line": "Backstep to saddle immediately",
+        "distractors": {
+          "plausible": [
+            "Retighten original entanglement only",
+            "Pass to side control instead"
+          ],
+          "trap": [
+            "Wait for them to reset posture"
+          ]
+        }
       },
       {
         "question": "What is the risk of attacking the heel during the opponent's inversion, and when is it worth attempting?",
-        "answer": "Attacking the heel during an active inversion carries the risk of losing all positional control if the grip is missed, as you release structural retention to reach for a dynamic target. It is worth attempting only when you have strong positional control with your legs, the heel is clearly exposed during the rotation, and you can secure the grip without compromising your leg configuration. Against opponents with powerful granby rolls, heel hunting during the inversion is usually lower percentage than following the roll and attacking after re-establishing control. It is highest percentage when the opponent's inversion is slow or hesitant, giving you time to secure the grip before they generate full rotational momentum."
+        "answer": "Attacking the heel during an active inversion carries the risk of losing all positional control if the grip is missed, as you release structural retention to reach for a dynamic target. It is worth attempting only when you have strong positional control with your legs, the heel is clearly exposed during the rotation, and you can secure the grip without compromising your leg configuration. Against opponents with powerful granby rolls, heel hunting during the inversion is usually lower percentage than following the roll and attacking after re-establishing control. It is highest percentage when the opponent's inversion is slow or hesitant, giving you time to secure the grip before they generate full rotational momentum.",
+        "answer_line": "Only grab heel with control intact",
+        "distractors": {
+          "plausible": [
+            "Always chase the heel mid-roll",
+            "Grab heel only after they stand"
+          ],
+          "trap": [
+            "Release legs fully to reach the heel"
+          ]
+        }
       }
     ],
     "training_progressions": [

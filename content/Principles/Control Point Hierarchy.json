@@ -389,43 +389,143 @@
   "flashcards": [
     {
       "question": "What is the Control Point Hierarchy in BJJ?",
-      "answer": "It is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, guiding which controls to prioritize, upgrade, and defend."
+      "answer": "It is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, guiding which controls to prioritize, upgrade, and defend.",
+      "answer_line": "Ranks controls by dominance",
+      "distractors": {
+        "plausible": [
+          "Ranks positions by dominance",
+          "Priority order for submissions"
+        ],
+        "trap": [
+          "Grab any grip, doesn't matter"
+        ]
+      }
     },
     {
       "question": "Why is head control usually the highest-value control point?",
-      "answer": "Controlling the head dictates where the opponent's spine and hips can follow, killing their ability to face you, create angle, or escape, which is why it typically precedes submission attempts across positions."
+      "answer": "Controlling the head dictates where the opponent's spine and hips can follow, killing their ability to face you, create angle, or escape, which is why it typically precedes submission attempts across positions.",
+      "answer_line": "Head controls the whole spine",
+      "distractors": {
+        "plausible": [
+          "Because it's the strongest grip",
+          "It sets up chokes fastest"
+        ],
+        "trap": [
+          "Arm control matters more"
+        ]
+      }
     },
     {
       "question": "What is control density and why does it matter?",
-      "answer": "Control density is concentrating multiple control points on few body parts (head and one arm) rather than dispersing grips; concentrated control creates compound dominance that resists escape far better than scattered contact."
+      "answer": "Control density is concentrating multiple control points on few body parts (head and one arm) rather than dispersing grips; concentrated control creates compound dominance that resists escape far better than scattered contact.",
+      "answer_line": "Concentrate control, don't spread",
+      "distractors": {
+        "plausible": [
+          "Grip strength matters most",
+          "More grips always better"
+        ],
+        "trap": [
+          "Spread grips across the body"
+        ]
+      }
     },
     {
       "question": "How does the hierarchy invert when you are on bottom or defending?",
-      "answer": "Defensively you prioritize preventing the opponent's highest-value controls first, blocking the crossface and denying underhooks, conceding low-value contact rather than spending energy on grips that do not threaten you."
+      "answer": "Defensively you prioritize preventing the opponent's highest-value controls first, blocking the crossface and denying underhooks, conceding low-value contact rather than spending energy on grips that do not threaten you.",
+      "answer_line": "Block their crossface/underhook",
+      "distractors": {
+        "plausible": [
+          "Defend all grips equally",
+          "Focus on escaping the position"
+        ],
+        "trap": [
+          "Let them get head control first"
+        ]
+      }
     },
     {
       "question": "What is the correct sequence for upgrading control in side control?",
-      "answer": "Establish chest-to-chest pressure and hip connection, secure head control via crossface or underhook, then isolate the far arm; each step removes escape routes before opening submissions."
+      "answer": "Establish chest-to-chest pressure and hip connection, secure head control via crossface or underhook, then isolate the far arm; each step removes escape routes before opening submissions.",
+      "answer_line": "Pressure, head, then far arm",
+      "distractors": {
+        "plausible": [
+          "Head control, then pressure",
+          "Isolate arm before head control"
+        ],
+        "trap": [
+          "Go straight for the submission"
+        ]
+      }
     },
     {
       "question": "Why do premature submission attempts fail under this framework?",
-      "answer": "Submissions attempted before sufficient control density let the opponent defend or escape because the foundational controls are inadequate, often forfeiting the dominant position entirely."
+      "answer": "Submissions attempted before sufficient control density let the opponent defend or escape because the foundational controls are inadequate, often forfeiting the dominant position entirely.",
+      "answer_line": "Control density too low yet",
+      "distractors": {
+        "plausible": [
+          "Opponent is just too strong",
+          "Wrong submission was chosen"
+        ],
+        "trap": [
+          "Submissions should be immediate"
+        ]
+      }
     },
     {
       "question": "In half guard, which control point sits at the top of the hierarchy for the bottom player?",
-      "answer": "The underhook is the apex control for bottom half guard because it is the gateway to sweeps and back takes; securing it precedes most offensive options from the position."
+      "answer": "The underhook is the apex control for bottom half guard because it is the gateway to sweeps and back takes; securing it precedes most offensive options from the position.",
+      "answer_line": "Underhook is the apex control",
+      "distractors": {
+        "plausible": [
+          "Overhook drives the offense",
+          "Head control matters most"
+        ],
+        "trap": [
+          "Let go of underhook to frame"
+        ]
+      }
     },
     {
       "question": "What common error involves contested versus established control?",
-      "answer": "Advancing to the next control level while the current control is still contested, rather than consolidating it first, lets the opponent break free or reverse position during the transition."
+      "answer": "Advancing to the next control level while the current control is still contested, rather than consolidating it first, lets the opponent break free or reverse position during the transition.",
+      "answer_line": "Advancing before controls are set",
+      "distractors": {
+        "plausible": [
+          "Holding grips too passively",
+          "Overcommitting to one grip"
+        ],
+        "trap": [
+          "Attacking submissions too slowly"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent strongly defends your primary control objective?",
-      "answer": "Recognize which alternative high-value control points their defensive commitment opens, and use feints to redirect toward the now-available control rather than forcing the contested one."
+      "answer": "Recognize which alternative high-value control points their defensive commitment opens, and use feints to redirect toward the now-available control rather than forcing the contested one.",
+      "answer_line": "Feint, take the opened control",
+      "distractors": {
+        "plausible": [
+          "Force through original control",
+          "Retreat and reset position"
+        ],
+        "trap": [
+          "Muscle the original grip harder"
+        ]
+      }
     },
     {
       "question": "What distinguishes Control Point Hierarchy from Positional Hierarchy?",
-      "answer": "Positional Hierarchy ranks the positions themselves, while Control Point Hierarchy governs dominance within a single position by ranking the grips and contacts available there."
+      "answer": "Positional Hierarchy ranks the positions themselves, while Control Point Hierarchy governs dominance within a single position by ranking the grips and contacts available there.",
+      "answer_line": "Ranks grips, not positions",
+      "distractors": {
+        "plausible": [
+          "Both rank the same things",
+          "Control ranks belt levels"
+        ],
+        "trap": [
+          "They're interchangeable terms"
+        ]
+      }
     }
   ],
   "clips": [

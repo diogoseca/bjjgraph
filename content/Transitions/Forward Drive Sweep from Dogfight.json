@@ -269,7 +269,17 @@
       },
       {
         "question": "What grip control must be established on the opponent's far side before committing to the forward drive?",
-        "answer": "You must control the opponent's far hip, belt line, or far knee with your free hand before committing to the drive. This grip eliminates their primary base recovery option - the far leg post. Without this control, the opponent can simply step their far leg backward or laterally to create an unbreakable tripod base. The grip should be firm enough to prevent posting but positioned to allow you to maintain your own balance during the drive."
+        "answer": "You must control the opponent's far hip, belt line, or far knee with your free hand before committing to the drive. This grip eliminates their primary base recovery option - the far leg post. Without this control, the opponent can simply step their far leg backward or laterally to create an unbreakable tripod base. The grip should be firm enough to prevent posting but positioned to allow you to maintain your own balance during the drive.",
+        "answer_line": "Control far hip, belt, or far knee",
+        "distractors": {
+          "plausible": [
+            "Grip their near ankle first",
+            "Control their whizzer-side wrist"
+          ],
+          "trap": [
+            "Release underhook to reach far leg"
+          ]
+        }
       },
       {
         "question": "Why must the drive angle be diagonal rather than straight forward?",
@@ -416,15 +426,45 @@
       },
       {
         "question": "Your opponent has established a deep underhook and begins loading forward pressure - what is your immediate defensive priority?",
-        "answer": "Your immediate priority is establishing base stability through hip sprawl and far-leg posting before the opponent generates full momentum. Drop your hips back and widen your far leg simultaneously while increasing downward whizzer pressure. The goal is to create a stable tripod base that prevents toppling within the first half-second of their forward drive. Attempting to strip the underhook at this stage is too slow and risks losing the base battle entirely."
+        "answer": "Your immediate priority is establishing base stability through hip sprawl and far-leg posting before the opponent generates full momentum. Drop your hips back and widen your far leg simultaneously while increasing downward whizzer pressure. The goal is to create a stable tripod base that prevents toppling within the first half-second of their forward drive. Attempting to strip the underhook at this stage is too slow and risks losing the base battle entirely.",
+        "answer_line": "Sprawl hips, post far leg wide",
+        "distractors": {
+          "plausible": [
+            "Strip the underhook immediately",
+            "Pull guard to reset the position"
+          ],
+          "trap": [
+            "Match their forward pressure head-on"
+          ]
+        }
       },
       {
         "question": "How does your whizzer positioning change when defending the forward drive versus defending a back take attempt?",
-        "answer": "Against the forward drive, your whizzer should pull downward and slightly backward to counteract the opponent's upward and forward driving force through the underhook. Against a back take, the whizzer must grip tighter and pull the opponent's arm across your body to prevent them from circling behind you. The directional pull is fundamentally different - anti-forward-drive whizzer pulls down to kill elevation, while anti-back-take whizzer pulls inward to prevent hip clearing."
+        "answer": "Against the forward drive, your whizzer should pull downward and slightly backward to counteract the opponent's upward and forward driving force through the underhook. Against a back take, the whizzer must grip tighter and pull the opponent's arm across your body to prevent them from circling behind you. The directional pull is fundamentally different - anti-forward-drive whizzer pulls down to kill elevation, while anti-back-take whizzer pulls inward to prevent hip clearing.",
+        "answer_line": "Pull down vs. pull arm across body",
+        "distractors": {
+          "plausible": [
+            "Same tight grip works for both",
+            "Pull upward to block both attacks"
+          ],
+          "trap": [
+            "Release whizzer to reframe on hips"
+          ]
+        }
       },
       {
         "question": "What counter-attack opportunity opens when you successfully defend the Forward Drive Sweep?",
-        "answer": "After defending the sweep, the opponent is momentarily off-balance from their failed forward commitment. This creates a window to crossface aggressively and drive them back to flattened half guard, attempt to strip the underhook while they recover their base, or begin passing their half guard by pressuring forward through their compromised posture. The key is attacking immediately during their recovery phase rather than allowing them to reset to a neutral dogfight position where they can attempt the sweep again."
+        "answer": "After defending the sweep, the opponent is momentarily off-balance from their failed forward commitment. This creates a window to crossface aggressively and drive them back to flattened half guard, attempt to strip the underhook while they recover their base, or begin passing their half guard by pressuring forward through their compromised posture. The key is attacking immediately during their recovery phase rather than allowing them to reset to a neutral dogfight position where they can attempt the sweep again.",
+        "answer_line": "Crossface and drive them back flat",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset to neutral",
+            "Switch immediately to a submission"
+          ],
+          "trap": [
+            "Release pressure to let them recover"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -292,43 +292,143 @@
     "flashcards": [
       {
         "question": "What is the first physical action you take when trapped in Dead Orchard Control?",
-        "answer": "Establish a forearm wedge with your free arm at the crook of the opponent's choking arm elbow joint. This frame prevents the grip from tightening further and creates a mechanical stop that provides the foundation for all subsequent escape movements. Do not attempt hip escapes, rolls, or arm extraction before this frame is secure. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body to minimize choke effectiveness."
+        "answer": "Establish a forearm wedge with your free arm at the crook of the opponent's choking arm elbow joint. This frame prevents the grip from tightening further and creates a mechanical stop that provides the foundation for all subsequent escape movements. Do not attempt hip escapes, rolls, or arm extraction before this frame is secure. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body to minimize choke effectiveness.",
+        "answer_line": "Forearm wedge at elbow crook",
+        "distractors": {
+          "plausible": [
+            "Hip escape away immediately",
+            "Pull trapped arm free first"
+          ],
+          "trap": [
+            "Stand up and try to break free"
+          ]
+        }
       },
       {
         "question": "Why must you hip escape away from the trapped arm side rather than toward it?",
-        "answer": "The anaconda grip creates circular compression that tightens when your body moves toward the trapped arm side. Hip escaping away changes the angle of compression, progressively reducing the choke's mechanical advantage. Moving toward the trapped arm feeds your neck deeper into the grip and accelerates the blood choke. The correct direction creates space where space is needed - between your neck and the choking arm - rather than compressing what is already compressed."
+        "answer": "The anaconda grip creates circular compression that tightens when your body moves toward the trapped arm side. Hip escaping away changes the angle of compression, progressively reducing the choke's mechanical advantage. Moving toward the trapped arm feeds your neck deeper into the grip and accelerates the blood choke. The correct direction creates space where space is needed - between your neck and the choking arm - rather than compressing what is already compressed.",
+        "answer_line": "Escaping away opens the angle",
+        "distractors": {
+          "plausible": [
+            "Push straight out with arms",
+            "Stay still, wait for opening"
+          ],
+          "trap": [
+            "Escape toward the trapped arm"
+          ]
+        }
       },
       {
         "question": "Your opponent increases shoulder pressure and begins walking hips toward your head - what does this indicate and how do you respond?",
-        "answer": "This indicates the opponent is committing to the anaconda finishing rotation, which is the highest-threat scenario in dead orchard control. Respond by either matching their hip rotation to prevent them from achieving the finishing angle, or execute a forward roll in the direction of their rotation to use their momentum against them. The forward roll can invert the position and create guard recovery opportunity. Staying static during this rotation guarantees the submission finish."
+        "answer": "This indicates the opponent is committing to the anaconda finishing rotation, which is the highest-threat scenario in dead orchard control. Respond by either matching their hip rotation to prevent them from achieving the finishing angle, or execute a forward roll in the direction of their rotation to use their momentum against them. The forward roll can invert the position and create guard recovery opportunity. Staying static during this rotation guarantees the submission finish.",
+        "answer_line": "Match rotation or roll with it",
+        "distractors": {
+          "plausible": [
+            "Push opponent's hips away",
+            "Turtle up and wait it out"
+          ],
+          "trap": [
+            "Stay still and brace hard"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt the hip escape portion of this escape?",
-        "answer": "The optimal moment occurs when the opponent shifts their weight, adjusts their grip, or transitions between attacks. Feel for momentary pressure reductions on your trapped shoulder or slight elevation of their hips. Their movement creates windows where your hip escape faces reduced resistance. Making small defensive movements forces them to react, and their reaction creates the window. Never attempt the hip escape against settled, committed pressure with full weight engagement."
+        "answer": "The optimal moment occurs when the opponent shifts their weight, adjusts their grip, or transitions between attacks. Feel for momentary pressure reductions on your trapped shoulder or slight elevation of their hips. Their movement creates windows where your hip escape faces reduced resistance. Making small defensive movements forces them to react, and their reaction creates the window. Never attempt the hip escape against settled, committed pressure with full weight engagement.",
+        "answer_line": "When they shift weight or grip",
+        "distractors": {
+          "plausible": [
+            "As soon as choke tightens",
+            "After counting to five"
+          ],
+          "trap": [
+            "Against full settled pressure"
+          ]
+        }
       },
       {
         "question": "What determines whether you should extract the trapped arm or insert a knee frame after creating hip angle?",
-        "answer": "Grip depth determines the choice. If the trapped arm has some freedom at the elbow and can be retracted toward your hip with moderate effort, extract it since this breaks the dead orchard mechanics entirely. If the arm is deeply trapped and extraction would require fighting directly against the grip, insert a knee frame between your body and the opponent's chest instead. The knee frame prevents them from re-settling weight and creates a pathway to half guard recovery without needing to fight the grip directly."
+        "answer": "Grip depth determines the choice. If the trapped arm has some freedom at the elbow and can be retracted toward your hip with moderate effort, extract it since this breaks the dead orchard mechanics entirely. If the arm is deeply trapped and extraction would require fighting directly against the grip, insert a knee frame between your body and the opponent's chest instead. The knee frame prevents them from re-settling weight and creates a pathway to half guard recovery without needing to fight the grip directly.",
+        "answer_line": "Grip depth decides which option",
+        "distractors": {
+          "plausible": [
+            "Always extract the arm first",
+            "Always insert knee frame"
+          ],
+          "trap": [
+            "Fight the grip head-on to pull free"
+          ]
+        }
       },
       {
         "question": "How do you maintain effective breathing when your airway is partially restricted in Dead Orchard Control?",
-        "answer": "Focus on slow, controlled nasal breathing rather than mouth breathing. Accept that full breaths are impossible and work with a consistent rhythm of shallow nasal breaths. Exhale during movements such as hip escapes and frame adjustments, and inhale during brief pauses. The body can function on restricted oxygen for longer than most practitioners realize if panic is avoided. Breath-holding or rapid gasping accelerates fatigue and reduces the time available for technical escape execution."
+        "answer": "Focus on slow, controlled nasal breathing rather than mouth breathing. Accept that full breaths are impossible and work with a consistent rhythm of shallow nasal breaths. Exhale during movements such as hip escapes and frame adjustments, and inhale during brief pauses. The body can function on restricted oxygen for longer than most practitioners realize if panic is avoided. Breath-holding or rapid gasping accelerates fatigue and reduces the time available for technical escape execution.",
+        "answer_line": "Slow rhythmic nasal breathing",
+        "distractors": {
+          "plausible": [
+            "Take one big breath then hold",
+            "Breathe only during pauses"
+          ],
+          "trap": [
+            "Rapid gasping to get air fast"
+          ]
+        }
       },
       {
         "question": "Your initial hip escape creates some angle but the opponent follows and re-tightens - what is your response?",
-        "answer": "Maintain your elbow frame and pause the hip escape until the opponent's pressure settles, then resume with smaller incremental shrimp movements timed to their breathing cycles or micro-adjustments. Each small shrimp builds on the previous angle gain, and the opponent cannot perfectly re-settle every time. The escape is cumulative - multiple small gains eventually create sufficient angle for arm extraction or guard recovery. Abandoning the escape because one movement was countered is the most common strategic error."
+        "answer": "Maintain your elbow frame and pause the hip escape until the opponent's pressure settles, then resume with smaller incremental shrimp movements timed to their breathing cycles or micro-adjustments. Each small shrimp builds on the previous angle gain, and the opponent cannot perfectly re-settle every time. The escape is cumulative - multiple small gains eventually create sufficient angle for arm extraction or guard recovery. Abandoning the escape because one movement was countered is the most common strategic error.",
+        "answer_line": "Pause, then small shrimps again",
+        "distractors": {
+          "plausible": [
+            "Reset frame and start over",
+            "Push harder for one big escape"
+          ],
+          "trap": [
+            "Abandon the escape attempt"
+          ]
+        }
       },
       {
         "question": "What are the risks of attempting to stand directly from Dead Orchard Control without completing the escape sequence?",
-        "answer": "Standing drives your neck upward into the opponent's grip, which can accelerate the choke by giving them an angle to hang their weight on your neck. It also exposes you to standing guillotine if they switch grips, and gives them easy back control access if they release one side. The standing escape should only be attempted after the grip has been significantly compromised through frame work and hip escaping, or from a recovered front headlock position where the specific dead orchard mechanics have already been broken."
+        "answer": "Standing drives your neck upward into the opponent's grip, which can accelerate the choke by giving them an angle to hang their weight on your neck. It also exposes you to standing guillotine if they switch grips, and gives them easy back control access if they release one side. The standing escape should only be attempted after the grip has been significantly compromised through frame work and hip escaping, or from a recovered front headlock position where the specific dead orchard mechanics have already been broken.",
+        "answer_line": "Standing feeds neck into grip",
+        "distractors": {
+          "plausible": [
+            "Standing forces a fast release",
+            "Standing tires the opponent out"
+          ],
+          "trap": [
+            "Stand up early to break choke"
+          ]
+        }
       },
       {
         "question": "What specific forearm placement and skeletal alignment maximizes your frame effectiveness at the choking arm elbow?",
-        "answer": "Place the blade of your forearm (the ulna bone) directly across the crook of the opponent's elbow, perpendicular to their choking arm. Your elbow should be tight against your own ribcage, and your wrist should contact their bicep on the far side. This alignment uses bone-on-bone structure rather than muscular force to block the grip from tightening. If you push outward with muscular effort, you fatigue rapidly and create space when your arms tire. The skeletal wedge can be maintained indefinitely with minimal energy expenditure because the structure does the work, not the muscles."
+        "answer": "Place the blade of your forearm (the ulna bone) directly across the crook of the opponent's elbow, perpendicular to their choking arm. Your elbow should be tight against your own ribcage, and your wrist should contact their bicep on the far side. This alignment uses bone-on-bone structure rather than muscular force to block the grip from tightening. If you push outward with muscular effort, you fatigue rapidly and create space when your arms tire. The skeletal wedge can be maintained indefinitely with minimal energy expenditure because the structure does the work, not the muscles.",
+        "answer_line": "Ulna bone braced at elbow crook",
+        "distractors": {
+          "plausible": [
+            "Push out hard with muscle",
+            "Wrist pressing on their throat"
+          ],
+          "trap": [
+            "Push outward with arm strength"
+          ]
+        }
       },
       {
         "question": "Your frame and hip escape have stalled but the opponent has not finished the choke - what chain of alternative escape paths should you attempt?",
-        "answer": "If the primary frame-and-shrimp sequence stalls, transition to the forward roll escape by matching the opponent's hip direction and rolling through to invert the position. If that path is blocked because the opponent has their hips low, switch to the arm extraction variant by pulling your trapped elbow in a circular arc toward your hip while maintaining whatever angle you created. If arm extraction fails, use the space from your existing angle to work a knee insertion between your bodies for knee shield recovery. The key is never remaining static in a stalled position - cycle through escape variants continuously, as each attempt forces the opponent to adjust and creates micro-openings for the next attempt in the chain."
+        "answer": "If the primary frame-and-shrimp sequence stalls, transition to the forward roll escape by matching the opponent's hip direction and rolling through to invert the position. If that path is blocked because the opponent has their hips low, switch to the arm extraction variant by pulling your trapped elbow in a circular arc toward your hip while maintaining whatever angle you created. If arm extraction fails, use the space from your existing angle to work a knee insertion between your bodies for knee shield recovery. The key is never remaining static in a stalled position - cycle through escape variants continuously, as each attempt forces the opponent to adjust and creates micro-openings for the next attempt in the chain.",
+        "answer_line": "Roll, then extract, then knee in",
+        "distractors": {
+          "plausible": [
+            "Repeat the same shrimp harder",
+            "Wait for opponent to tire first"
+          ],
+          "trap": [
+            "Freeze and wait for an opening"
+          ]
+        }
       }
     ],
     "safety_considerations": "Dead Orchard Control involves blood choke mechanics that can cause unconsciousness in seconds when fully locked. During training, maintain clear tap signals with your free hand and tap early when the choke is fully secured rather than fighting through a locked submission. Training partners should release immediately upon any tap signal and monitor for signs of disorientation or loss of consciousness. Practice at controlled resistance levels and increase gradually. Never attempt to power through a fully locked dead orchard choke in training - the escape must be initiated before the choke reaches full compression to be viable.",
@@ -450,23 +550,73 @@
     "flashcards": [
       {
         "question": "What is the most reliable indicator that the bottom player is about to attempt a committed escape?",
-        "answer": "The most reliable indicator is when the bottom player's breathing shifts from panicked or labored to controlled and rhythmic. This signals they have composed themselves and are preparing to execute a technical escape sequence. Additionally, feeling their free hand establish a firm frame at your elbow crook rather than grabbing randomly indicates a structured escape attempt. Respond by pre-emptively increasing pressure and preparing your counter-transition options."
+        "answer": "The most reliable indicator is when the bottom player's breathing shifts from panicked or labored to controlled and rhythmic. This signals they have composed themselves and are preparing to execute a technical escape sequence. Additionally, feeling their free hand establish a firm frame at your elbow crook rather than grabbing randomly indicates a structured escape attempt. Respond by pre-emptively increasing pressure and preparing your counter-transition options.",
+        "answer_line": "Breathing turns calm and steady",
+        "distractors": {
+          "plausible": [
+            "Bottom player stops moving",
+            "Bottom player grabs randomly"
+          ],
+          "trap": [
+            "Ease pressure to let them settle"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully creates hip angle despite your pressure - should you fight to re-establish the original angle or transition?",
-        "answer": "This depends on the degree of angle created and your remaining grip depth. If the angle is minor and your grip is still deep past their far shoulder, walk your hips to re-establish the compression angle while maintaining shoulder pressure. If the angle is significant and you feel the grip becoming shallow, immediately transition to back control or darce switch rather than fighting for a position that has been structurally compromised. The decision point is grip depth - once the grip becomes shallow, the choke percentage drops dramatically."
+        "answer": "This depends on the degree of angle created and your remaining grip depth. If the angle is minor and your grip is still deep past their far shoulder, walk your hips to re-establish the compression angle while maintaining shoulder pressure. If the angle is significant and you feel the grip becoming shallow, immediately transition to back control or darce switch rather than fighting for a position that has been structurally compromised. The decision point is grip depth - once the grip becomes shallow, the choke percentage drops dramatically.",
+        "answer_line": "Grip depth decides re-set vs move",
+        "distractors": {
+          "plausible": [
+            "Always fight for original angle",
+            "Always transition immediately"
+          ],
+          "trap": [
+            "Keep grip shallow, fight anyway"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from establishing a defensive frame at your choking arm elbow?",
-        "answer": "Drive your shoulder aggressively into the bottom player's trapped shoulder, pinning it and their head to the mat. This creates so much pressure at the contact point that their free hand must focus on survival rather than reaching for your elbow. Additionally, keep your choking arm elbow tight against your own body rather than flared, reducing the available space for them to wedge their forearm. If you feel them attempting to frame, immediately increase the shoulder drive to collapse the attempt before it stabilizes."
+        "answer": "Drive your shoulder aggressively into the bottom player's trapped shoulder, pinning it and their head to the mat. This creates so much pressure at the contact point that their free hand must focus on survival rather than reaching for your elbow. Additionally, keep your choking arm elbow tight against your own body rather than flared, reducing the available space for them to wedge their forearm. If you feel them attempting to frame, immediately increase the shoulder drive to collapse the attempt before it stabilizes.",
+        "answer_line": "Drive shoulder into their shoulder",
+        "distractors": {
+          "plausible": [
+            "Flare choking arm elbow out",
+            "Grab their free wrist tightly"
+          ],
+          "trap": [
+            "Ease shoulder pressure to relax"
+          ]
+        }
       },
       {
         "question": "How should you adjust your hip position when the bottom player begins their hip escape movement away from the trapped arm?",
-        "answer": "Walk your hips in the same direction as their hip escape to maintain the compression angle between your chest and their back. Use small stepping adjustments rather than large jumps that create momentary space. Your chest must stay connected to their upper back throughout the adjustment. If they shrimp away from the trapped arm side, step your far hip toward their head while keeping your near hip heavy on their body. This preserves the circular compression angle that makes the choke effective and prevents the angular separation they need to reduce choke pressure."
+        "answer": "Walk your hips in the same direction as their hip escape to maintain the compression angle between your chest and their back. Use small stepping adjustments rather than large jumps that create momentary space. Your chest must stay connected to their upper back throughout the adjustment. If they shrimp away from the trapped arm side, step your far hip toward their head while keeping your near hip heavy on their body. This preserves the circular compression angle that makes the choke effective and prevents the angular separation they need to reduce choke pressure.",
+        "answer_line": "Walk hips to match their escape",
+        "distractors": {
+          "plausible": [
+            "Jump to a new angle quickly",
+            "Push down harder, stay still"
+          ],
+          "trap": [
+            "Let them create space, then chase"
+          ]
+        }
       },
       {
         "question": "You have been maintaining Dead Orchard Control for 30 seconds and feel your grip fatiguing while the bottom player continues working escapes - what is the correct strategic decision?",
-        "answer": "Transition to positional advancement rather than continuing to fight with a weakening grip. A fatigued grip becomes progressively easier for the bottom player to escape, and the energy differential widens with each passing second. Your best options are releasing the dead orchard to take back control by stepping over and inserting hooks, or transitioning to a darce grip which uses different muscle groups. If neither is available, flatten the bottom player and advance to side control or north-south while you still have enough grip strength to control the transition. Fighting to maintain a compromised grip is the worst option because it burns your remaining energy while the bottom player's escape probability increases with each rep."
+        "answer": "Transition to positional advancement rather than continuing to fight with a weakening grip. A fatigued grip becomes progressively easier for the bottom player to escape, and the energy differential widens with each passing second. Your best options are releasing the dead orchard to take back control by stepping over and inserting hooks, or transitioning to a darce grip which uses different muscle groups. If neither is available, flatten the bottom player and advance to side control or north-south while you still have enough grip strength to control the transition. Fighting to maintain a compromised grip is the worst option because it burns your remaining energy while the bottom player's escape probability increases with each rep.",
+        "answer_line": "Advance position, don't fight grip",
+        "distractors": {
+          "plausible": [
+            "Switch to darce grip only",
+            "Squeeze harder to finish fast"
+          ],
+          "trap": [
+            "Keep fighting to hold the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -252,39 +252,129 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Z-Guard sweep?",
-        "answer": "The optimal timing is when the opponent commits forward pressure into your knee shield, loading their weight over their near knee. This forward commitment creates the rotational instability that makes the sweep effective. Attempting the sweep when the opponent sits back with weight behind their hips removes the leverage advantage and makes the sweep mechanically much harder to complete."
+        "answer": "The optimal timing is when the opponent commits forward pressure into your knee shield, loading their weight over their near knee. This forward commitment creates the rotational instability that makes the sweep effective. Attempting the sweep when the opponent sits back with weight behind their hips removes the leverage advantage and makes the sweep mechanically much harder to complete.",
+        "answer_line": "Opponent commits weight forward",
+        "distractors": {
+          "plausible": [
+            "Right after guard is passed",
+            "When opponent postures up tall"
+          ],
+          "trap": [
+            "When opponent sits back on hips"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the sweep?",
-        "answer": "Four conditions must be met: established Z-Guard with knee shield on the opponent's shoulder, deep underhook secured on the trapped leg side, half guard hook controlling the opponent's trapped leg as a fulcrum, and angled hip position allowing lateral drive. Additionally, you should have some control of the opponent's far arm to prevent posting during the sweep."
+        "answer": "Four conditions must be met: established Z-Guard with knee shield on the opponent's shoulder, deep underhook secured on the trapped leg side, half guard hook controlling the opponent's trapped leg as a fulcrum, and angled hip position allowing lateral drive. Additionally, you should have some control of the opponent's far arm to prevent posting during the sweep.",
+        "answer_line": "Shield, underhook, hook, angle set",
+        "distractors": {
+          "plausible": [
+            "Underhook and shield only",
+            "Any grip plus knee shield"
+          ],
+          "trap": [
+            "Just deep underhook alone"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines sweep success or failure?",
-        "answer": "The simultaneous coordination of knee shield extension and underhook pull is the single most critical mechanic. These two forces must work together as a push-pull system creating rotational force. If the knee shield extends without the underhook pull, you merely push the opponent away. If you pull without extending, you lack the displacement to tip them. The synchronized timing of both actions creates the rotational torque needed to sweep."
+        "answer": "The simultaneous coordination of knee shield extension and underhook pull is the single most critical mechanic. These two forces must work together as a push-pull system creating rotational force. If the knee shield extends without the underhook pull, you merely push the opponent away. If you pull without extending, you lack the displacement to tip them. The synchronized timing of both actions creates the rotational torque needed to sweep.",
+        "answer_line": "Shield push + underhook pull sync",
+        "distractors": {
+          "plausible": [
+            "Underhook pull alone tips them",
+            "Fast hip escape before pulling"
+          ],
+          "trap": [
+            "Push shield, skip the underhook"
+          ]
+        }
       },
       {
         "question": "Why does the sweep fail most commonly at the intermediate level?",
-        "answer": "The most common failure at intermediate level is insufficient follow-through after the initial off-balance. Practitioners successfully tip the opponent but then hesitate at the halfway point instead of driving their hips through to complete the mount. The opponent catches themselves and recovers base. The sweep requires full commitment once initiated, with continuous hip drive following the opponent's falling trajectory."
+        "answer": "The most common failure at intermediate level is insufficient follow-through after the initial off-balance. Practitioners successfully tip the opponent but then hesitate at the halfway point instead of driving their hips through to complete the mount. The opponent catches themselves and recovers base. The sweep requires full commitment once initiated, with continuous hip drive following the opponent's falling trajectory.",
+        "answer_line": "Drive hips through, don't stop",
+        "distractors": {
+          "plausible": [
+            "Stop once they're off-balance",
+            "Reset grips before finishing"
+          ],
+          "trap": [
+            "Wait for opponent to fall flat"
+          ]
+        }
       },
       {
         "question": "What grip on the opponent's body is most important for this sweep?",
-        "answer": "The deep underhook on the trapped leg side is the most critical grip. It provides the pulling force that, combined with knee shield extension, creates rotational displacement. The underhook must be deep with the elbow tight to your ribcage and the hand gripping the opponent's far lat or belt. A shallow underhook lacks pulling power and is easily stripped by the opponent."
+        "answer": "The deep underhook on the trapped leg side is the most critical grip. It provides the pulling force that, combined with knee shield extension, creates rotational displacement. The underhook must be deep with the elbow tight to your ribcage and the hand gripping the opponent's far lat or belt. A shallow underhook lacks pulling power and is easily stripped by the opponent.",
+        "answer_line": "Deep underhook, trapped leg side",
+        "distractors": {
+          "plausible": [
+            "Cross collar grip on far side",
+            "Overhook on the far arm"
+          ],
+          "trap": [
+            "Shallow grip near the hip"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied during the sweep?",
-        "answer": "Force should be applied in a diagonal direction combining upward hip drive with lateral displacement toward the trapped leg side. The knee shield pushes the opponent's upper body away from you while the underhook pulls their weight forward and across. The resultant force vector tips them over their trapped leg, which serves as the fulcrum point. Think of rotating the opponent around an axis running through their trapped knee."
+        "answer": "Force should be applied in a diagonal direction combining upward hip drive with lateral displacement toward the trapped leg side. The knee shield pushes the opponent's upper body away from you while the underhook pulls their weight forward and across. The resultant force vector tips them over their trapped leg, which serves as the fulcrum point. Think of rotating the opponent around an axis running through their trapped knee.",
+        "answer_line": "Diagonal, up and across trapped leg",
+        "distractors": {
+          "plausible": [
+            "Straight up, vertical lift only",
+            "Push straight forward, no angle"
+          ],
+          "trap": [
+            "Away from the trapped leg side"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and drops their hips to defend your sweep attempt - how do you adjust?",
-        "answer": "A wide base with dropped hips neutralizes the direct sweep, so you should switch strategy. First option is the hip heist variation where you hip escape to create a sharper angle before re-attempting. Second option is abandoning the sweep entirely and using their lowered hips as an invitation to enter deep half guard by diving underneath them. Third option is threatening the sweep to force them to post, then attacking the posting arm or transitioning to a back take."
+        "answer": "A wide base with dropped hips neutralizes the direct sweep, so you should switch strategy. First option is the hip heist variation where you hip escape to create a sharper angle before re-attempting. Second option is abandoning the sweep entirely and using their lowered hips as an invitation to enter deep half guard by diving underneath them. Third option is threatening the sweep to force them to post, then attacking the posting arm or transitioning to a back take.",
+        "answer_line": "Hip heist for a sharper angle",
+        "distractors": {
+          "plausible": [
+            "Muscle through with more pull",
+            "Switch to a scissor sweep"
+          ],
+          "trap": [
+            "Force the same angle harder"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked but you maintain your Z-Guard position, what attacks should you chain to next?",
-        "answer": "If the sweep fails but Z-Guard is maintained, chain to deep half entry if the opponent drives forward to prevent another sweep attempt, as their forward pressure facilitates the dive underneath. If they back away to reset base, use the created space to transition to X-Guard or single leg X entries. If they circle around the knee shield, follow with a back take attempt. The sweep serves as the first link in a chain where each defense opens the next attack."
+        "answer": "If the sweep fails but Z-Guard is maintained, chain to deep half entry if the opponent drives forward to prevent another sweep attempt, as their forward pressure facilitates the dive underneath. If they back away to reset base, use the created space to transition to X-Guard or single leg X entries. If they circle around the knee shield, follow with a back take attempt. The sweep serves as the first link in a chain where each defense opens the next attack.",
+        "answer_line": "Chain to deep half or X-Guard",
+        "distractors": {
+          "plausible": [
+            "Reset to closed guard fully",
+            "Repeat identical sweep attempt"
+          ],
+          "trap": [
+            "Release the knee shield first"
+          ]
+        }
       },
       {
         "question": "How does the half guard hook contribute to the sweep mechanics?",
-        "answer": "The half guard hook on the opponent's trapped leg creates the fulcrum point around which the entire sweep rotates. Without this anchor, the push-pull forces from the knee shield and underhook would simply move the opponent laterally rather than rotating them. The trapped leg prevents the opponent from stepping out of the sweep direction and forces their body to pivot around this fixed point. Maintaining the hook throughout the sweep is non-negotiable for completion."
+        "answer": "The half guard hook on the opponent's trapped leg creates the fulcrum point around which the entire sweep rotates. Without this anchor, the push-pull forces from the knee shield and underhook would simply move the opponent laterally rather than rotating them. The trapped leg prevents the opponent from stepping out of the sweep direction and forces their body to pivot around this fixed point. Maintaining the hook throughout the sweep is non-negotiable for completion.",
+        "answer_line": "Creates the fulcrum for rotation",
+        "distractors": {
+          "plausible": [
+            "Blocks opponent's near knee",
+            "Controls opponent's far hip"
+          ],
+          "trap": [
+            "Only stops them standing up"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Z-Guard is generally a low-risk technique with minimal injury potential when executed with proper control. The primary safety concern involves the opponent's trapped leg during the sweep rotation, as excessive rotational force on a controlled leg can stress the knee joint. Always release the half guard hook cleanly once mount is established rather than maintaining torque on the trapped leg. During training, allow your partner space to tap if they feel knee discomfort during the sweep motion, and avoid explosive jerking movements that could strain their knee ligaments.",
@@ -402,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is setting up a Z-Guard sweep?",
-        "answer": "The earliest cue is when the bottom player begins fighting aggressively for the underhook on the trapped leg side. Before any sweep can be executed, they need this control point established. If you feel them pummeling or driving their arm under your armpit with increasing urgency, they are building toward a sweep attempt. Defending the underhook early prevents the sweep from developing."
+        "answer": "The earliest cue is when the bottom player begins fighting aggressively for the underhook on the trapped leg side. Before any sweep can be executed, they need this control point established. If you feel them pummeling or driving their arm under your armpit with increasing urgency, they are building toward a sweep attempt. Defending the underhook early prevents the sweep from developing.",
+        "answer_line": "They fight for the underhook",
+        "distractors": {
+          "plausible": [
+            "They grip your far collar",
+            "They flare the knee shield wide"
+          ],
+          "trap": [
+            "They post their far hand"
+          ]
+        }
       },
       {
         "question": "Why is forward pressure dangerous when the bottom player has an established underhook and angle?",
-        "answer": "Forward pressure into the knee shield adds your own momentum to the sweep's rotational force. The bottom player's sweep works by using knee shield extension combined with underhook pull to create rotation. When you drive forward, you are essentially loading energy into the mechanism they will use to sweep you. The more pressure you apply, the less force they need to generate from their own body to complete the sweep."
+        "answer": "Forward pressure into the knee shield adds your own momentum to the sweep's rotational force. The bottom player's sweep works by using knee shield extension combined with underhook pull to create rotation. When you drive forward, you are essentially loading energy into the mechanism they will use to sweep you. The more pressure you apply, the less force they need to generate from their own body to complete the sweep.",
+        "answer_line": "Adds momentum to their sweep",
+        "distractors": {
+          "plausible": [
+            "Makes your base too narrow",
+            "Opens your far side to attack"
+          ],
+          "trap": [
+            "Forward pressure passes guard"
+          ]
+        }
       },
       {
         "question": "What is your best defensive option if the sweep has already been initiated and you feel yourself tipping?",
-        "answer": "Post your hand immediately on the mat in the direction you are falling. This creates a new base point that catches your weight before you complete the rotation. However, this is a last-resort defense because the posting arm can be controlled or attacked. After posting, immediately work to re-center your base over the bottom player's body and strip their underhook to prevent a follow-up attempt."
+        "answer": "Post your hand immediately on the mat in the direction you are falling. This creates a new base point that catches your weight before you complete the rotation. However, this is a last-resort defense because the posting arm can be controlled or attacked. After posting, immediately work to re-center your base over the bottom player's body and strip their underhook to prevent a follow-up attempt.",
+        "answer_line": "Post hand toward the fall",
+        "distractors": {
+          "plausible": [
+            "Sprawl hips back immediately",
+            "Grab their underhook arm"
+          ],
+          "trap": [
+            "Keep pushing forward through it"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to minimize vulnerability to the Z-Guard sweep?",
-        "answer": "Distribute weight evenly across a wide base with both knees spread and hips positioned slightly behind the knee shield contact point rather than directly over it. Avoid concentrating weight on the trapped leg side where the sweep direction threatens. Keep your center of gravity low and centered between your knees rather than forward over the bottom player's frame."
+        "answer": "Distribute weight evenly across a wide base with both knees spread and hips positioned slightly behind the knee shield contact point rather than directly over it. Avoid concentrating weight on the trapped leg side where the sweep direction threatens. Keep your center of gravity low and centered between your knees rather than forward over the bottom player's frame.",
+        "answer_line": "Wide base, hips behind shield",
+        "distractors": {
+          "plausible": [
+            "Heavy weight on trapped leg",
+            "High hips, weight on toes"
+          ],
+          "trap": [
+            "Weight forward over their frame"
+          ]
+        }
       },
       {
         "question": "What counter-attack opportunity exists when the bottom player overcommits to the sweep?",
-        "answer": "When the bottom player extends their knee shield explosively for the sweep, they momentarily create space between their body and yours. If you can maintain base through the sweep attempt, this space can be exploited to collapse the knee shield and drive through for a pass. Additionally, their underhook commitment during the sweep can be converted into a whizzer or used to establish your own crossface control as they extend."
+        "answer": "When the bottom player extends their knee shield explosively for the sweep, they momentarily create space between their body and yours. If you can maintain base through the sweep attempt, this space can be exploited to collapse the knee shield and drive through for a pass. Additionally, their underhook commitment during the sweep can be converted into a whizzer or used to establish your own crossface control as they extend.",
+        "answer_line": "Collapse shield, drive to pass",
+        "distractors": {
+          "plausible": [
+            "Pull guard and reset from bottom",
+            "Stand up and step over the leg"
+          ],
+          "trap": [
+            "Retreat to rebuild your base"
+          ]
+        }
       }
     ],
     "training_progressions": [

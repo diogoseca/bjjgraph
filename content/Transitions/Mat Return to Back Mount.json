@@ -240,51 +240,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Mat Return to Back Mount?",
-        "answer": "The primary goal is to transition from the inherently unstable standing back control position to grounded back control where submissions become more accessible, escapes are harder for the opponent, and you can consolidate your dominant position with body triangles, hooks, and sustained choking pressure."
+        "answer": "The primary goal is to transition from the inherently unstable standing back control position to grounded back control where submissions become more accessible, escapes are harder for the opponent, and you can consolidate your dominant position with body triangles, hooks, and sustained choking pressure.",
+        "answer_line": "Ground control for finishes",
+        "distractors": {
+          "plausible": [
+            "Tire opponent out standing",
+            "Score takedown points only"
+          ],
+          "trap": [
+            "Release grips to reset"
+          ]
+        }
       },
       {
         "question": "What position do you start Mat Return to Back Mount from?",
-        "answer": "This technique starts from Standing Back Control Top, where you have chest-to-back connection with the opponent, harness or seat belt grip established, and both practitioners are standing. The standing position's instability is what motivates the transition to grounded control."
+        "answer": "This technique starts from Standing Back Control Top, where you have chest-to-back connection with the opponent, harness or seat belt grip established, and both practitioners are standing. The standing position's instability is what motivates the transition to grounded control.",
+        "answer_line": "Standing Back Control Top",
+        "distractors": {
+          "plausible": [
+            "Standing Back Control Bottom",
+            "Turtle Top position"
+          ],
+          "trap": [
+            "Closed Guard Top"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Mat Return to Back Mount?",
-        "answer": "The essential grip is the harness or seat belt configuration with one arm over opponent's shoulder (choking arm) and one arm under their armpit (control arm), with hands connected by gripping your own bicep or wrist. This grip must remain locked throughout the entire descent to maintain back exposure."
+        "answer": "The essential grip is the harness or seat belt configuration with one arm over opponent's shoulder (choking arm) and one arm under their armpit (control arm), with hands connected by gripping your own bicep or wrist. This grip must remain locked throughout the entire descent to maintain back exposure.",
+        "answer_line": "Harness: over shoulder, under arm",
+        "distractors": {
+          "plausible": [
+            "Both arms over shoulders",
+            "Seat belt with one overhook"
+          ],
+          "trap": [
+            "Release grip to adjust hooks"
+          ]
+        }
       },
       {
         "question": "How do you determine the optimal direction for the mat return?",
-        "answer": "Feel opponent's weight distribution through your chest connection and identify where their balance is weakest. If they lean forward, take them backward. If their weight favors one side, attack the opposite side. The choking arm side is often preferred as it keeps your attacking arm in optimal position upon landing."
+        "answer": "Feel opponent's weight distribution through your chest connection and identify where their balance is weakest. If they lean forward, take them backward. If their weight favors one side, attack the opposite side. The choking arm side is often preferred as it keeps your attacking arm in optimal position upon landing.",
+        "answer_line": "Attack where their weight is weak",
+        "distractors": {
+          "plausible": [
+            "Always go straight backward",
+            "Attack their strongest side"
+          ],
+          "trap": [
+            "Ignore weight, pull to your side"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their foot wide as you attempt the mat return - how do you adjust?",
-        "answer": "Switch the takedown direction to attack the opposite side where their base is now compromised by the wide post, or lift the posted leg directly using your hook or a hand to remove their anchor point. Their defensive post often creates vulnerability on the opposite side that you can immediately exploit."
+        "answer": "Switch the takedown direction to attack the opposite side where their base is now compromised by the wide post, or lift the posted leg directly using your hook or a hand to remove their anchor point. Their defensive post often creates vulnerability on the opposite side that you can immediately exploit.",
+        "answer_line": "Attack opposite side or lift post",
+        "distractors": {
+          "plausible": [
+            "Push harder into the post",
+            "Switch to armbar instead"
+          ],
+          "trap": [
+            "Release harness grip to retry"
+          ]
+        }
       },
       {
         "question": "What is the most critical action immediately after landing from the mat return?",
-        "answer": "Establishing hooks inside opponent's thighs within one second of contacting the mat. This prevents turtle escapes, hip escapes, and guard recovery attempts before the opponent can organize their defense. The hooks must be prioritized even before adjusting grips or attacking submissions."
+        "answer": "Establishing hooks inside opponent's thighs within one second of contacting the mat. This prevents turtle escapes, hip escapes, and guard recovery attempts before the opponent can organize their defense. The hooks must be prioritized even before adjusting grips or attacking submissions.",
+        "answer_line": "Insert hooks within one second",
+        "distractors": {
+          "plausible": [
+            "Tighten choke grip first",
+            "Adjust harness grip first"
+          ],
+          "trap": [
+            "Sit back to catch your breath"
+          ]
+        }
       },
       {
         "question": "Why should you avoid using only arm strength for the mat return?",
-        "answer": "Relying solely on arm pulling allows opponents with good base to resist the takedown while fatiguing your grip and arms rapidly. The proper technique uses leg mechanics such as kicks, hooks, or trips to break opponent's base first, making the upper body pull just the finishing element rather than the primary force generator."
+        "answer": "Relying solely on arm pulling allows opponents with good base to resist the takedown while fatiguing your grip and arms rapidly. The proper technique uses leg mechanics such as kicks, hooks, or trips to break opponent's base first, making the upper body pull just the finishing element rather than the primary force generator.",
+        "answer_line": "Arms fatigue, base resists pull",
+        "distractors": {
+          "plausible": [
+            "Arms react too slowly",
+            "Grip alone breaks posture"
+          ],
+          "trap": [
+            "Legs are only for the choke"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Mat Return to Back Mount?",
-        "answer": "Optimal timing occurs when opponent's weight shifts creating imbalance, when they focus on grip fighting your harness leaving their base undefended, when their posture breaks forward or backward, or when submission attempts from standing have failed and you need to transition to ground for better finishing leverage."
+        "answer": "Optimal timing occurs when opponent's weight shifts creating imbalance, when they focus on grip fighting your harness leaving their base undefended, when their posture breaks forward or backward, or when submission attempts from standing have failed and you need to transition to ground for better finishing leverage.",
+        "answer_line": "When weight shifts or posture breaks",
+        "distractors": {
+          "plausible": [
+            "Only after submissions fail",
+            "As soon as grip is secured"
+          ],
+          "trap": [
+            "Whenever opponent stands still"
+          ]
+        }
       },
       {
         "question": "How do you counter an opponent who preemptively drops to turtle as you initiate the mat return?",
-        "answer": "Follow them to the mat maintaining your harness connection, insert hooks as they turtle by driving your heels into their hip crease, and transition to grounded back control. Alternatively, attack the turtle directly with clock choke, bow and arrow setup, or crucifix entry depending on their defensive posture."
+        "answer": "Follow them to the mat maintaining your harness connection, insert hooks as they turtle by driving your heels into their hip crease, and transition to grounded back control. Alternatively, attack the turtle directly with clock choke, bow and arrow setup, or crucifix entry depending on their defensive posture.",
+        "answer_line": "Follow, insert hooks, or attack",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset standing",
+            "Wait for them to stand back up"
+          ],
+          "trap": [
+            "Let go and circle to the front"
+          ]
+        }
       },
       {
         "question": "What distinguishes the side trip mat return from the standard backward variant?",
-        "answer": "The side trip variant uses a lateral kick to remove the opponent's near leg while driving them sideways to the mat rather than directly backward. This lands you in side-oriented back control, avoids having their full weight crash onto you, and is effective when the opponent posts strongly against backward takedowns but has weak lateral base."
+        "answer": "The side trip variant uses a lateral kick to remove the opponent's near leg while driving them sideways to the mat rather than directly backward. This lands you in side-oriented back control, avoids having their full weight crash onto you, and is effective when the opponent posts strongly against backward takedowns but has weak lateral base.",
+        "answer_line": "Lateral kick lands side control",
+        "distractors": {
+          "plausible": [
+            "Faster straight backward throw",
+            "Uses a double leg trip"
+          ],
+          "trap": [
+            "Drops straight into full mount"
+          ]
+        }
       },
       {
         "question": "Your opponent begins aggressively hand fighting your harness during standing back control - does this help or hurt your mat return attempt?",
-        "answer": "Their focus on hand fighting actually helps your mat return because their attention and energy shift to grip stripping rather than base maintenance. When both hands are fighting your harness, they cannot post or widen their stance effectively. This creates an ideal timing window to attack their compromised base with the mat return before they can redirect their defensive focus."
+        "answer": "Their focus on hand fighting actually helps your mat return because their attention and energy shift to grip stripping rather than base maintenance. When both hands are fighting your harness, they cannot post or widen their stance effectively. This creates an ideal timing window to attack their compromised base with the mat return before they can redirect their defensive focus.",
+        "answer_line": "Helps - their base is undefended",
+        "distractors": {
+          "plausible": [
+            "Hurts - your grip could break",
+            "Neutral, no real effect"
+          ],
+          "trap": [
+            "Hurts - lets them escape hooks"
+          ]
+        }
       },
       {
         "question": "What is the correct force direction when driving through the mat return takedown?",
-        "answer": "The force should be directed diagonally downward at approximately 45 degrees toward the mat, not straight backward or straight down. Your hips and legs generate the primary driving force while your chest maintains connection and your arms guide direction. Driving purely backward allows posting, while driving purely down lets them widen base. The diagonal vector compromises both defensive options simultaneously."
+        "answer": "The force should be directed diagonally downward at approximately 45 degrees toward the mat, not straight backward or straight down. Your hips and legs generate the primary driving force while your chest maintains connection and your arms guide direction. Driving purely backward allows posting, while driving purely down lets them widen base. The diagonal vector compromises both defensive options simultaneously.",
+        "answer_line": "Diagonally downward at 45 degrees",
+        "distractors": {
+          "plausible": [
+            "Straight backward only",
+            "Straight down only"
+          ],
+          "trap": [
+            "Pull upward to off-balance them"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Mat Return to Back Mount carries moderate injury risk primarily from the impact of taking opponents to the mat. Always practice on appropriate mats with sufficient padding, and drill the technique at reduced speed until both partners are comfortable with the landing mechanics. The person being taken down should learn to breakfall properly and not post their arms rigidly, which can cause shoulder and wrist injuries. The attacking partner must control the descent speed and never drop their full weight suddenly on the defender. Avoid suplex-style variations until both partners have significant experience, and never perform high-amplitude throws in training environments without explicit agreement and proper supervision. In competition, be aware of ruleset restrictions on slams and throws to the head or neck area.",
@@ -407,23 +527,73 @@
     "flashcards": [
       {
         "question": "What is the first thing you should do when you recognize your opponent is initiating a mat return from standing back control?",
-        "answer": "Immediately widen your base and sprawl your hips back while maintaining grip fighting on the harness. The wider stance makes your base significantly harder to break, and the hip sprawl removes the leverage the attacker needs to kick out your legs or trip you. You must address the base-breaking attempt before it gains momentum, as once your stance is compromised the takedown becomes very difficult to stop."
+        "answer": "Immediately widen your base and sprawl your hips back while maintaining grip fighting on the harness. The wider stance makes your base significantly harder to break, and the hip sprawl removes the leverage the attacker needs to kick out your legs or trip you. You must address the base-breaking attempt before it gains momentum, as once your stance is compromised the takedown becomes very difficult to stop.",
+        "answer_line": "Widen base, sprawl hips back",
+        "distractors": {
+          "plausible": [
+            "Just grip fight the harness",
+            "Drop to turtle immediately"
+          ],
+          "trap": [
+            "Lean back hard against them"
+          ]
+        }
       },
       {
         "question": "Why is preemptively dropping to turtle sometimes the best defensive option against the mat return?",
-        "answer": "Dropping to turtle on your own terms allows you to land in a defensively sound position with elbows tight to knees, chin tucked, and back rounded before the opponent can control the descent direction and landing angle. A controlled turtle gives you immediate access to granby rolls, sit-throughs, and guard recovery options, whereas being driven down by the mat return often results in flat back mount with hooks already established."
+        "answer": "Dropping to turtle on your own terms allows you to land in a defensively sound position with elbows tight to knees, chin tucked, and back rounded before the opponent can control the descent direction and landing angle. A controlled turtle gives you immediate access to granby rolls, sit-throughs, and guard recovery options, whereas being driven down by the mat return often results in flat back mount with hooks already established.",
+        "answer_line": "Controlled landing beats forced",
+        "distractors": {
+          "plausible": [
+            "Turtle always stops the choke",
+            "Faster than standing defense"
+          ],
+          "trap": [
+            "Turtle always hides the back"
+          ]
+        }
       },
       {
         "question": "Your opponent has initiated the mat return and you are being driven to the mat - what should your arms do during the descent?",
-        "answer": "Keep your arms tucked tight to your body with elbows close to your ribs and hands protecting your neck. Do not post a straight arm into the mat, which risks shoulder or wrist injury and fails to stop the descent. Instead, use a breakfall technique with flat palm contact on the mat upon landing and immediately transition your hands to fight any hook insertion attempts by the attacker."
+        "answer": "Keep your arms tucked tight to your body with elbows close to your ribs and hands protecting your neck. Do not post a straight arm into the mat, which risks shoulder or wrist injury and fails to stop the descent. Instead, use a breakfall technique with flat palm contact on the mat upon landing and immediately transition your hands to fight any hook insertion attempts by the attacker.",
+        "answer_line": "Tuck arms, protect neck, breakfall",
+        "distractors": {
+          "plausible": [
+            "Grab opponent's legs first",
+            "Push off mat to stand up"
+          ],
+          "trap": [
+            "Post straight arm into mat"
+          ]
+        }
       },
       {
         "question": "How does the defender's base position influence which direction the attacker will attempt the mat return?",
-        "answer": "The attacker reads your weight distribution through their chest connection and attacks the direction where your base is weakest. If your weight is forward, they take you backward. If you lean to one side, they attack the opposite side. Understanding this allows you to deliberately shift your weight to bait the attacker into a direction where you have prepared a counter, or to keep your weight centered so no single direction presents an easy takedown."
+        "answer": "The attacker reads your weight distribution through their chest connection and attacks the direction where your base is weakest. If your weight is forward, they take you backward. If you lean to one side, they attack the opposite side. Understanding this allows you to deliberately shift your weight to bait the attacker into a direction where you have prepared a counter, or to keep your weight centered so no single direction presents an easy takedown.",
+        "answer_line": "Attacker attacks your weak side",
+        "distractors": {
+          "plausible": [
+            "Direction is just random",
+            "Attacker always goes backward"
+          ],
+          "trap": [
+            "Lean forward to bait them back"
+          ]
+        }
       },
       {
         "question": "What is the critical window for preventing hook establishment after landing from a mat return?",
-        "answer": "The first one to two seconds after contacting the mat represent the critical window. During this brief period, the attacker is transitioning from takedown mechanics to ground control mechanics and their hooks are not yet fully set. You must immediately bring your knees together, begin kicking to prevent foot insertion inside your thighs, and begin turning toward turtle or initiating hip escape. Once hooks are established and the attacker settles their weight, you are in full grounded back control and escape difficulty increases dramatically."
+        "answer": "The first one to two seconds after contacting the mat represent the critical window. During this brief period, the attacker is transitioning from takedown mechanics to ground control mechanics and their hooks are not yet fully set. You must immediately bring your knees together, begin kicking to prevent foot insertion inside your thighs, and begin turning toward turtle or initiating hip escape. Once hooks are established and the attacker settles their weight, you are in full grounded back control and escape difficulty increases dramatically.",
+        "answer_line": "First one to two seconds landing",
+        "distractors": {
+          "plausible": [
+            "About five seconds after landing",
+            "Before you even hit the mat"
+          ],
+          "trap": [
+            "Wait until hooks are set to fight"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -245,43 +245,143 @@
     "flashcards": [
       {
         "question": "What defensive reaction from your opponent creates the optimal window for initiating the counter entangle?",
-        "answer": "The optimal window opens when your opponent rotates their knee inward to defend heel hook exposure from standard ashi garami. This knee rotation creates space between their thigh and your hip area, which is exactly the gap your free leg needs to thread through. Additionally, their defensive focus on protecting their heel means their attention is directed away from preventing your leg movement, giving you a brief window where the threading motion goes unopposed."
+        "answer": "The optimal window opens when your opponent rotates their knee inward to defend heel hook exposure from standard ashi garami. This knee rotation creates space between their thigh and your hip area, which is exactly the gap your free leg needs to thread through. Additionally, their defensive focus on protecting their heel means their attention is directed away from preventing your leg movement, giving you a brief window where the threading motion goes unopposed.",
+        "answer_line": "Knee rotates in, hides heel",
+        "distractors": {
+          "plausible": [
+            "Opponent extends leg straight",
+            "Opponent grip-fights your ankle"
+          ],
+          "trap": [
+            "Opponent retreats hip away"
+          ]
+        }
       },
       {
         "question": "Why is maintaining heel grip throughout the threading sequence critical rather than optional?",
-        "answer": "Heel grip serves as your positional anchor during the entire transition. Without it, the opponent can extract their leg the moment you begin rotating your body and threading your free leg—the rotational movement actually creates space for extraction if no grip prevents it. The heel grip also ensures you have immediate submission control upon reaching 50-50, eliminating the grip-fighting phase that would otherwise allow the opponent to establish defensive positioning."
+        "answer": "Heel grip serves as your positional anchor during the entire transition. Without it, the opponent can extract their leg the moment you begin rotating your body and threading your free leg—the rotational movement actually creates space for extraction if no grip prevents it. The heel grip also ensures you have immediate submission control upon reaching 50-50, eliminating the grip-fighting phase that would otherwise allow the opponent to establish defensive positioning.",
+        "answer_line": "Grip prevents leg extraction",
+        "distractors": {
+          "plausible": [
+            "Keeps hips square only",
+            "Speeds up the rotation"
+          ],
+          "trap": [
+            "Release grip, thread free-handed"
+          ]
+        }
       },
       {
         "question": "What is the correct path for the threading leg relative to the opponent's thigh?",
-        "answer": "The threading leg must pass over the top of the opponent's near thigh, never under it. The over-the-top path uses gravity and hip rotation to your advantage, allowing your shin to clear their thigh cleanly and hook on the far side. Threading under traps your leg beneath their body weight, creates no entanglement structure, and exposes you to guard passing. The hip rotation during threading naturally elevates your leg for the over-the-top clearance."
+        "answer": "The threading leg must pass over the top of the opponent's near thigh, never under it. The over-the-top path uses gravity and hip rotation to your advantage, allowing your shin to clear their thigh cleanly and hook on the far side. Threading under traps your leg beneath their body weight, creates no entanglement structure, and exposes you to guard passing. The hip rotation during threading naturally elevates your leg for the over-the-top clearance.",
+        "answer_line": "Over the top, never under",
+        "distractors": {
+          "plausible": [
+            "Straight through the center gap",
+            "Around the outside of the leg"
+          ],
+          "trap": [
+            "Thread underneath their thigh"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their leg explosively as you begin threading—how do you capitalize on this reaction?",
-        "answer": "Abort the counter entangle and immediately attack the straightened leg with a kneebar or straight ankle lock. Leg extension from Inside Ashi-Garami creates ideal mechanics for these submissions because the knee joint is now exposed and your existing leg control provides the fulcrum. Their defensive reaction to your threading attempt has actually opened a higher-percentage submission opportunity than the 50-50 transition would have provided."
+        "answer": "Abort the counter entangle and immediately attack the straightened leg with a kneebar or straight ankle lock. Leg extension from Inside Ashi-Garami creates ideal mechanics for these submissions because the knee joint is now exposed and your existing leg control provides the fulcrum. Their defensive reaction to your threading attempt has actually opened a higher-percentage submission opportunity than the 50-50 transition would have provided.",
+        "answer_line": "Switch to kneebar or ankle lock",
+        "distractors": {
+          "plausible": [
+            "Force the thread through anyway",
+            "Reset back to inside ashi-garami"
+          ],
+          "trap": [
+            "Chase the leg, lose your grip"
+          ]
+        }
       },
       {
         "question": "What distinguishes inside position control in 50-50 from inside position in standard ashi garami?",
-        "answer": "In standard Inside Ashi-Garami, your inside leg crosses the opponent's hip to control distance and prevent extraction. In 50-50, inside position means your leg occupies the inside angle of the entanglement closest to the opponent's centerline, which controls the submission hierarchy. The inside position in 50-50 determines who can attack heel hooks and who must defend. Establishing inside position immediately upon completing the counter entangle transforms a neutral 50-50 into an offensive one."
+        "answer": "In standard Inside Ashi-Garami, your inside leg crosses the opponent's hip to control distance and prevent extraction. In 50-50, inside position means your leg occupies the inside angle of the entanglement closest to the opponent's centerline, which controls the submission hierarchy. The inside position in 50-50 determines who can attack heel hooks and who must defend. Establishing inside position immediately upon completing the counter entangle transforms a neutral 50-50 into an offensive one.",
+        "answer_line": "Inside leg controls hierarchy",
+        "distractors": {
+          "plausible": [
+            "Inside leg controls distance only",
+            "Outside leg blocks extraction"
+          ],
+          "trap": [
+            "Give up inside for outside grip"
+          ]
+        }
       },
       {
         "question": "How quickly should you initiate your first submission attempt after completing the counter entangle?",
-        "answer": "Within two to three seconds of completing the entanglement. The transition creates a brief window of disorientation for the opponent as they process the position change from ashi to 50-50. Their defensive habits and grip patterns are calibrated for ashi garami defense, not 50-50 defense, and it takes several seconds to mentally and physically adjust. Attacking immediately exploits this adjustment window before they establish proper 50-50 defensive positioning."
+        "answer": "Within two to three seconds of completing the entanglement. The transition creates a brief window of disorientation for the opponent as they process the position change from ashi to 50-50. Their defensive habits and grip patterns are calibrated for ashi garami defense, not 50-50 defense, and it takes several seconds to mentally and physically adjust. Attacking immediately exploits this adjustment window before they establish proper 50-50 defensive positioning.",
+        "answer_line": "Attack within 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle first",
+            "Reset grips before attacking"
+          ],
+          "trap": [
+            "Stall to recover your breath"
+          ]
+        }
       },
       {
         "question": "Your heel grip weakens during the thread but you still have partial contact—should you complete the thread or abandon it?",
-        "answer": "If you maintain partial heel contact with at least fingertip control, complete the thread while simultaneously reinforcing the grip by pulling the heel closer to your chest. The completion of the entanglement creates leg-based control that supplements your hand grip. However, if you lose all heel contact entirely, immediately clamp your legs together to structurally trap their leg and re-establish heel grip before continuing—never complete the thread with zero heel control."
+        "answer": "If you maintain partial heel contact with at least fingertip control, complete the thread while simultaneously reinforcing the grip by pulling the heel closer to your chest. The completion of the entanglement creates leg-based control that supplements your hand grip. However, if you lose all heel contact entirely, immediately clamp your legs together to structurally trap their leg and re-establish heel grip before continuing—never complete the thread with zero heel control.",
+        "answer_line": "Complete thread, reinforce grip",
+        "distractors": {
+          "plausible": [
+            "Abandon thread, restart entirely",
+            "Switch hands and keep threading"
+          ],
+          "trap": [
+            "Finish thread with zero grip"
+          ]
+        }
       },
       {
         "question": "What body positioning error most commonly causes the counter entangle attempt to stall midway through?",
-        "answer": "Insufficient hip rotation is the most common cause of stalling. Practitioners often try to thread their leg using only hip flexion without rotating their entire body toward the opponent's trapped leg. Without the rotational component, the threading leg lacks the elevation and clearance needed to pass over the opponent's thigh. The correction is to think of the movement as turning your entire body to face the same direction as your opponent, which naturally provides the rotational momentum for the thread."
+        "answer": "Insufficient hip rotation is the most common cause of stalling. Practitioners often try to thread their leg using only hip flexion without rotating their entire body toward the opponent's trapped leg. Without the rotational component, the threading leg lacks the elevation and clearance needed to pass over the opponent's thigh. The correction is to think of the movement as turning your entire body to face the same direction as your opponent, which naturally provides the rotational momentum for the thread.",
+        "answer_line": "Insufficient hip rotation",
+        "distractors": {
+          "plausible": [
+            "Weak heel grip strength",
+            "Threading leg too slowly"
+          ],
+          "trap": [
+            "Pull with arms, skip the hips"
+          ]
+        }
       },
       {
         "question": "When should you choose the counter entangle to 50-50 over transitioning to Honey Hole or Outside Ashi-Garami?",
-        "answer": "Choose the counter entangle to 50-50 when the opponent's defense specifically involves knee rotation and heel hiding that blocks both the Honey Hole path and the Outside Ashi path. The counter entangle works best when the opponent has established a compact defensive posture preventing advancement deeper into the entanglement hierarchy. If the opponent's defense opens their far hip, Honey Hole is preferable. If they extend their leg, Outside Ashi may be better. The counter entangle is optimal against compact defense that prevents advancement in either direction."
+        "answer": "Choose the counter entangle to 50-50 when the opponent's defense specifically involves knee rotation and heel hiding that blocks both the Honey Hole path and the Outside Ashi path. The counter entangle works best when the opponent has established a compact defensive posture preventing advancement deeper into the entanglement hierarchy. If the opponent's defense opens their far hip, Honey Hole is preferable. If they extend their leg, Outside Ashi may be better. The counter entangle is optimal against compact defense that prevents advancement in either direction.",
+        "answer_line": "Opponent defense is compact",
+        "distractors": {
+          "plausible": [
+            "Opponent's far hip is open",
+            "Opponent extends their leg out"
+          ],
+          "trap": [
+            "Always default to 50-50 first"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you transition to upon reaching 50-50 for maximum offensive threat?",
-        "answer": "Transition from the C-grip used during ashi garami to a figure-four grip around the opponent's heel, with your wrist positioned behind their Achilles tendon. This grip configuration is the finishing grip for heel hooks from 50-50 and allows immediate rotational breaking pressure. Establishing this grip as part of the transition rather than after settling into 50-50 saves critical seconds and often catches the opponent before they can establish defensive hand fighting positions."
+        "answer": "Transition from the C-grip used during ashi garami to a figure-four grip around the opponent's heel, with your wrist positioned behind their Achilles tendon. This grip configuration is the finishing grip for heel hooks from 50-50 and allows immediate rotational breaking pressure. Establishing this grip as part of the transition rather than after settling into 50-50 saves critical seconds and often catches the opponent before they can establish defensive hand fighting positions.",
+        "answer_line": "Figure-four grip on Achilles",
+        "distractors": {
+          "plausible": [
+            "Keep the same C-grip from ashi",
+            "Grip the toes for a footlock"
+          ],
+          "trap": [
+            "Release grip to hand-fight first"
+          ]
+        }
       }
     ],
     "safety_considerations": "The counter entangle to 50-50 involves rotational forces on both practitioners' knee joints during the threading and settling phases. Apply all leg entanglement transitions slowly during training, communicating with your partner throughout the movement. Both practitioners should be prepared to tap immediately if unexpected rotational pressure occurs on the knee during the entanglement change. Never force the threading motion against a fully locked defensive position, as this can create dangerous torque on the opponent's trapped knee. Train this transition only under qualified instruction with partners who understand leg lock safety protocols.",
@@ -399,23 +499,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a counter entangle to 50-50 is being attempted?",
-        "answer": "The earliest cue is the opponent's hip rotation toward your trapped leg combined with their free leg lifting away from the mat. This rotational movement is mechanically necessary for the thread and occurs before the actual leg crossing begins. Standard ashi garami attacks involve hip extension away from you, so hip rotation toward your leg represents a distinctly different movement pattern that signals the counter entangle rather than a submission attempt."
+        "answer": "The earliest cue is the opponent's hip rotation toward your trapped leg combined with their free leg lifting away from the mat. This rotational movement is mechanically necessary for the thread and occurs before the actual leg crossing begins. Standard ashi garami attacks involve hip extension away from you, so hip rotation toward your leg represents a distinctly different movement pattern that signals the counter entangle rather than a submission attempt.",
+        "answer_line": "Hip rotates toward trapped leg",
+        "distractors": {
+          "plausible": [
+            "Hip extends away from you",
+            "Free leg pushes into your hip"
+          ],
+          "trap": [
+            "They tap your leg to signal"
+          ]
+        }
       },
       {
         "question": "Why is leg straightening more effective than hand-based defense against the threading motion?",
-        "answer": "Leg straightening uses your largest muscle groups against the threading attempt and structurally prevents the entanglement triangle from forming. A straight leg cannot be triangled around because there is no knee bend to create the closing angle needed for the 50-50 lock. Hand-based defense relies on smaller muscles against hip-powered movement and removes your hands from the critical task of grip stripping. Additionally, leg straightening works even if you recognize the attempt slightly late."
+        "answer": "Leg straightening uses your largest muscle groups against the threading attempt and structurally prevents the entanglement triangle from forming. A straight leg cannot be triangled around because there is no knee bend to create the closing angle needed for the 50-50 lock. Hand-based defense relies on smaller muscles against hip-powered movement and removes your hands from the critical task of grip stripping. Additionally, leg straightening works even if you recognize the attempt slightly late.",
+        "answer_line": "Straight leg blocks the triangle",
+        "distractors": {
+          "plausible": [
+            "Grip-strip with both hands",
+            "Push their head down instead"
+          ],
+          "trap": [
+            "Bend knee and muscle it out"
+          ]
+        }
       },
       {
         "question": "If the counter entangle succeeds and 50-50 is established, what is your immediate defensive priority?",
-        "answer": "Immediately fight for inside position with your near leg before the opponent settles their grips. Inside position in 50-50 determines the submission hierarchy—whoever has inside position controls who attacks and who defends. Secondary priority is heel protection through knee rotation inward. Do not attempt to immediately escape 50-50 before establishing defensive positioning, as panicked extraction attempts often expose your heel to immediate attack."
+        "answer": "Immediately fight for inside position with your near leg before the opponent settles their grips. Inside position in 50-50 determines the submission hierarchy—whoever has inside position controls who attacks and who defends. Secondary priority is heel protection through knee rotation inward. Do not attempt to immediately escape 50-50 before establishing defensive positioning, as panicked extraction attempts often expose your heel to immediate attack.",
+        "answer_line": "Fight for inside position",
+        "distractors": {
+          "plausible": [
+            "Immediately try to escape",
+            "Grip strip their hands first"
+          ],
+          "trap": [
+            "Extend your leg to create space"
+          ]
+        }
       },
       {
         "question": "How does your defensive response change if you recognize the counter entangle early versus late?",
-        "answer": "Early recognition before the leg clears your thigh allows prevention: press thigh down, straighten leg, squeeze legs together to block the thread entirely. Late recognition after the leg is already clearing your thigh requires damage control: aggressively strip heel grip to prevent a controlled 50-50, hip escape to create extraction distance, or accept the 50-50 and immediately fight for inside position. The earlier you recognize the attempt, the more preventive options you retain."
+        "answer": "Early recognition before the leg clears your thigh allows prevention: press thigh down, straighten leg, squeeze legs together to block the thread entirely. Late recognition after the leg is already clearing your thigh requires damage control: aggressively strip heel grip to prevent a controlled 50-50, hip escape to create extraction distance, or accept the 50-50 and immediately fight for inside position. The earlier you recognize the attempt, the more preventive options you retain.",
+        "answer_line": "Early: prevent; late: strip grip",
+        "distractors": {
+          "plausible": [
+            "Same response regardless of timing",
+            "Late: always accept and escape"
+          ],
+          "trap": [
+            "Late: relax and wait it out"
+          ]
+        }
       },
       {
         "question": "What makes the opponent's heel grip particularly vulnerable during the threading motion?",
-        "answer": "During the threading motion, the opponent must simultaneously rotate their hips, elevate their free leg, and maintain heel control—this divided attention and body repositioning naturally loosens their grip. Additionally, their body rotation changes the angle of their arms relative to your heel, often requiring them to micro-adjust their grip configuration. This adjustment window is when two-on-one grip stripping is most effective. Target this specific moment rather than fighting their grip when they are stationary and fully focused on maintaining control."
+        "answer": "During the threading motion, the opponent must simultaneously rotate their hips, elevate their free leg, and maintain heel control—this divided attention and body repositioning naturally loosens their grip. Additionally, their body rotation changes the angle of their arms relative to your heel, often requiring them to micro-adjust their grip configuration. This adjustment window is when two-on-one grip stripping is most effective. Target this specific moment rather than fighting their grip when they are stationary and fully focused on maintaining control.",
+        "answer_line": "Divided attention loosens grip",
+        "distractors": {
+          "plausible": [
+            "Grip is weakest at the start",
+            "Grip fails from fatigue only"
+          ],
+          "trap": [
+            "Ignore grip, attack the choke"
+          ]
+        }
       }
     ],
     "training_progressions": [

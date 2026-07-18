@@ -92,35 +92,115 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that your opponent is setting up a Matrix back take?",
-        "answer": "The earliest indicators are hip elevation above normal turtle or guard level and shoulder posting where the opponent begins shifting weight to one shoulder. Additionally, watch for grip changes as they establish connection points to your body, and subtle weight shifts that create the leverage needed for rotation. Recognizing these micro-movements provides crucial reaction time before the rotation gains momentum."
+        "answer": "The earliest indicators are hip elevation above normal turtle or guard level and shoulder posting where the opponent begins shifting weight to one shoulder. Additionally, watch for grip changes as they establish connection points to your body, and subtle weight shifts that create the leverage needed for rotation. Recognizing these micro-movements provides crucial reaction time before the rotation gains momentum.",
+        "answer_line": "Hips rise, shoulder posts",
+        "distractors": {
+          "plausible": [
+            "Only watch for grip changes",
+            "Wait for visible rotation"
+          ],
+          "trap": [
+            "Ignore subtle weight shifts"
+          ]
+        }
       },
       {
         "question": "Your opponent elevates their hips and posts their shoulder—what immediate adjustment do you make?",
-        "answer": "Immediately widen your base by spreading your knees and hands beyond shoulder width to create lateral stability against the rotational force. Simultaneously shift your weight distribution away from their intended rotation direction. If they're posting their right shoulder, shift weight toward their left side to deny them the leverage point they need. This must happen instantly as any delay allows their rotation to gain momentum."
+        "answer": "Immediately widen your base by spreading your knees and hands beyond shoulder width to create lateral stability against the rotational force. Simultaneously shift your weight distribution away from their intended rotation direction. If they're posting their right shoulder, shift weight toward their left side to deny them the leverage point they need. This must happen instantly as any delay allows their rotation to gain momentum.",
+        "answer_line": "Widen base, shift away from post",
+        "distractors": {
+          "plausible": [
+            "Widen base, shift toward post",
+            "Narrow base to stay compact"
+          ],
+          "trap": [
+            "Stay static and absorb it"
+          ]
+        }
       },
       {
         "question": "Why does static pressure fail against Matrix attempts while dynamic adjustment succeeds?",
-        "answer": "Static pressure creates a fixed point that the bottom player can use as a fulcrum for their rotation—your immobile weight becomes leverage against you. The rotational momentum of the Matrix is specifically designed to overcome stationary resistance. Dynamic adjustment means constantly redistributing weight in response to their movement, denying them any stable leverage point. Moving with and against their rotation neutralizes the momentum before it builds."
+        "answer": "Static pressure creates a fixed point that the bottom player can use as a fulcrum for their rotation—your immobile weight becomes leverage against you. The rotational momentum of the Matrix is specifically designed to overcome stationary resistance. Dynamic adjustment means constantly redistributing weight in response to their movement, denying them any stable leverage point. Moving with and against their rotation neutralizes the momentum before it builds.",
+        "answer_line": "Static weight becomes the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Heavier pressure always wins",
+            "Static pressure is unbeatable"
+          ],
+          "trap": [
+            "Freeze and out-muscle the roll"
+          ]
+        }
       },
       {
         "question": "How does maintaining offensive pressure prevent Matrix entries better than focused defense?",
-        "answer": "When you're actively threatening passes, submissions, or position advancement, the bottom player must dedicate attention and energy to defending your attacks rather than setting up the complex timing and positioning the Matrix requires. The Matrix needs specific conditions—static opponent, established grips, proper hip position—and offensive pressure denies all of these. A passive top player creates the ideal Matrix entry opportunity."
+        "answer": "When you're actively threatening passes, submissions, or position advancement, the bottom player must dedicate attention and energy to defending your attacks rather than setting up the complex timing and positioning the Matrix requires. The Matrix needs specific conditions—static opponent, established grips, proper hip position—and offensive pressure denies all of these. A passive top player creates the ideal Matrix entry opportunity.",
+        "answer_line": "Offense denies Matrix setup time",
+        "distractors": {
+          "plausible": [
+            "Defense alone stops the Matrix",
+            "Focus only on grip stripping"
+          ],
+          "trap": [
+            "Stay passive, conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating but you've successfully blocked the initial movement—what's your immediate next action?",
-        "answer": "Immediately transition to offense rather than simply maintaining the defensive position. A blocked Matrix attempt leaves the opponent momentarily vulnerable with their weight committed and structure compromised. Attack with crossface pressure to pass, transition to darce or guillotine if their arm is extended, or take their back if they've over-rotated. The defensive win must convert to offensive advantage before they reset."
+        "answer": "Immediately transition to offense rather than simply maintaining the defensive position. A blocked Matrix attempt leaves the opponent momentarily vulnerable with their weight committed and structure compromised. Attack with crossface pressure to pass, transition to darce or guillotine if their arm is extended, or take their back if they've over-rotated. The defensive win must convert to offensive advantage before they reset.",
+        "answer_line": "Attack immediately, don't sit",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral turtle",
+            "Hold the block and wait"
+          ],
+          "trap": [
+            "Let them reset and re-attempt"
+          ]
+        }
       },
       {
         "question": "What grip fighting priorities should you maintain to disrupt Matrix mechanics?",
-        "answer": "Break any grips the opponent establishes on your belt, pants legs, or ankles immediately—these connection points allow them to pull their rotation around you. Prevent them from establishing underhooks or seatbelt-style grips on your torso. Strip grips before they can load weight onto them. Without strong connection points, their rotation becomes an isolated movement that doesn't affect your position, making the technique ineffective."
+        "answer": "Break any grips the opponent establishes on your belt, pants legs, or ankles immediately—these connection points allow them to pull their rotation around you. Prevent them from establishing underhooks or seatbelt-style grips on your torso. Strip grips before they can load weight onto them. Without strong connection points, their rotation becomes an isolated movement that doesn't affect your position, making the technique ineffective.",
+        "answer_line": "Strip belt, pants, ankle grips",
+        "distractors": {
+          "plausible": [
+            "Only block underhooks",
+            "Focus on posture, ignore grips"
+          ],
+          "trap": [
+            "Let grips load, then react"
+          ]
+        }
       },
       {
         "question": "How do you balance Matrix defense with maintaining passing efficiency?",
-        "answer": "Wide base and constant weight adjustment can slow your passing progression, but this trade-off is necessary against Matrix-skilled opponents. Focus on incremental advancement—establish secure position, then progress step-by-step rather than explosive passing that creates the instability Matrix relies on. Chain your attacks so each passing attempt also functions as Matrix defense through constant pressure and movement."
+        "answer": "Wide base and constant weight adjustment can slow your passing progression, but this trade-off is necessary against Matrix-skilled opponents. Focus on incremental advancement—establish secure position, then progress step-by-step rather than explosive passing that creates the instability Matrix relies on. Chain your attacks so each passing attempt also functions as Matrix defense through constant pressure and movement.",
+        "answer_line": "Incremental passing, not explosive",
+        "distractors": {
+          "plausible": [
+            "Always pass explosively",
+            "Abandon passing, defend only"
+          ],
+          "trap": [
+            "Rush the pass to end the risk"
+          ]
+        }
       },
       {
         "question": "Your opponent has established strong grips and begun hip elevation—is it too late to defend?",
-        "answer": "It's not too late but your response must be immediate and aggressive. Strip at least one grip while sprawling your hips back to flatten their hip elevation. If you can't strip grips, match their rotation by circling in the same direction they're rolling—this denies them the relative motion they need. Alternatively, immediately attack the exposed arm or neck that their rotation setup creates. Never accept the position passively."
+        "answer": "It's not too late but your response must be immediate and aggressive. Strip at least one grip while sprawling your hips back to flatten their hip elevation. If you can't strip grips, match their rotation by circling in the same direction they're rolling—this denies them the relative motion they need. Alternatively, immediately attack the exposed arm or neck that their rotation setup creates. Never accept the position passively.",
+        "answer_line": "Strip grip, sprawl hips flat",
+        "distractors": {
+          "plausible": [
+            "Accept position, wait it out",
+            "Pull guard to reset"
+          ],
+          "trap": [
+            "Stay still and hope they stall"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -441,35 +521,115 @@
     "flashcards": [
       {
         "question": "What are the essential grip connection points you must establish before initiating the Matrix rotation?",
-        "answer": "You need at least one strong connection point to the opponent's torso or hips—typically a belt grip, pants grip at the hip, or leg hook around their thigh. Without this connection, your rotation happens independently of their position, meaning you arrive behind them without actual control. The grip pulls them into your rotation and ensures they move with you rather than simply watching you roll past."
+        "answer": "You need at least one strong connection point to the opponent's torso or hips—typically a belt grip, pants grip at the hip, or leg hook around their thigh. Without this connection, your rotation happens independently of their position, meaning you arrive behind them without actual control. The grip pulls them into your rotation and ensures they move with you rather than simply watching you roll past.",
+        "answer_line": "Belt, pants, or leg-hook grip",
+        "distractors": {
+          "plausible": [
+            "Any grip on their body works",
+            "Overhook grip is sufficient"
+          ],
+          "trap": [
+            "Roll without any connection"
+          ]
+        }
       },
       {
         "question": "Your hips are elevated but your opponent starts shifting their base—do you continue or abort?",
-        "answer": "Abort immediately and return to your defensive structure. The Matrix requires a static or weight-transitioning opponent—their active base adjustment means they've recognized the threat and are countering. Continuing against a moving, aware opponent almost always results in a stuffed rotation where you end up in a worse position. Reset, re-establish your grips, and wait for another timing window when they settle."
+        "answer": "Abort immediately and return to your defensive structure. The Matrix requires a static or weight-transitioning opponent—their active base adjustment means they've recognized the threat and are countering. Continuing against a moving, aware opponent almost always results in a stuffed rotation where you end up in a worse position. Reset, re-establish your grips, and wait for another timing window when they settle.",
+        "answer_line": "Abort and reset structure",
+        "distractors": {
+          "plausible": [
+            "Push through the rotation",
+            "Slow down but keep rolling"
+          ],
+          "trap": [
+            "Commit harder to finish it"
+          ]
+        }
       },
       {
         "question": "At what point during the rotation must you begin inserting your first hook?",
-        "answer": "Begin threading the first hook as soon as your hips pass the opponent's centerline during the rotation—while you're still inverted. Waiting until the rotation completes gives the opponent time to turn into you, sprawl away, or establish their own hooks. The hook insertion should be part of the continuous motion, not a separate action. Your leg is already traveling in that direction; guide it into position during transit."
+        "answer": "Begin threading the first hook as soon as your hips pass the opponent's centerline during the rotation—while you're still inverted. Waiting until the rotation completes gives the opponent time to turn into you, sprawl away, or establish their own hooks. The hook insertion should be part of the continuous motion, not a separate action. Your leg is already traveling in that direction; guide it into position during transit.",
+        "answer_line": "As hips cross their centerline",
+        "distractors": {
+          "plausible": [
+            "After the rotation completes",
+            "Once your back hits the mat"
+          ],
+          "trap": [
+            "Wait until fully behind them"
+          ]
+        }
       },
       {
         "question": "Why must shoulder contact with the mat be maintained during the initial rotation phase?",
-        "answer": "The shoulder on the mat serves as your pivot point—the fulcrum around which your entire body rotates. Without this contact, you're rotating through open space with no mechanical advantage, creating a slow, floating movement that opponents easily stuff. The shoulder anchors your rotation to a fixed point, allowing your hips and legs to generate momentum around it. Only lift the shoulder after your hips have passed their apex."
+        "answer": "The shoulder on the mat serves as your pivot point—the fulcrum around which your entire body rotates. Without this contact, you're rotating through open space with no mechanical advantage, creating a slow, floating movement that opponents easily stuff. The shoulder anchors your rotation to a fixed point, allowing your hips and legs to generate momentum around it. Only lift the shoulder after your hips have passed their apex.",
+        "answer_line": "Shoulder anchors the pivot",
+        "distractors": {
+          "plausible": [
+            "Shoulder protects the neck",
+            "Shoulder distributes weight"
+          ],
+          "trap": [
+            "Lift shoulder early for speed"
+          ]
+        }
       },
       {
         "question": "You're mid-rotation and feel your opponent beginning to follow and flatten you—what's your response?",
-        "answer": "Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a guard recovery using the rolling momentum to pull into closed guard. Never stop in the vulnerable inverted position."
+        "answer": "Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a guard recovery using the rolling momentum to pull into closed guard. Never stop in the vulnerable inverted position.",
+        "answer_line": "Accelerate, commit harder",
+        "distractors": {
+          "plausible": [
+            "Slow down and reassess",
+            "Hold position, brace hard"
+          ],
+          "trap": [
+            "Pause mid-roll to stabilize"
+          ]
+        }
       },
       {
         "question": "How do you recognize the optimal timing window for Matrix entry against a turtle opponent?",
-        "answer": "Watch for moments of stillness or weight commitment. When they settle their weight, stop adjusting their base, or commit to a grip or movement that loads them onto one side, that's your window. Also effective: the moment after they complete their own movement (reaching for a grip, adjusting position) when they're momentarily static before starting their next action. Their weight transfer creates the stability you need to rotate against."
+        "answer": "Watch for moments of stillness or weight commitment. When they settle their weight, stop adjusting their base, or commit to a grip or movement that loads them onto one side, that's your window. Also effective: the moment after they complete their own movement (reaching for a grip, adjusting position) when they're momentarily static before starting their next action. Their weight transfer creates the stability you need to rotate against.",
+        "answer_line": "Catch their moment of stillness",
+        "distractors": {
+          "plausible": [
+            "Attack during active scrambling",
+            "Wait for them to stand up"
+          ],
+          "trap": [
+            "Rush in mid-movement"
+          ]
+        }
       },
       {
         "question": "What backup transitions should you have ready if the Matrix rotation is blocked mid-movement?",
-        "answer": "Primary backup is the granby roll to guard recovery—continue the rolling momentum but redirect into closed guard establishment rather than back control. Secondary option is converting to an arm drag if their blocking arm is extended and vulnerable. Third option is completing a seated guard recovery if you can disengage cleanly. Never remain stuck mid-rotation; always have a continuous path to a safe position."
+        "answer": "Primary backup is the granby roll to guard recovery—continue the rolling momentum but redirect into closed guard establishment rather than back control. Secondary option is converting to an arm drag if their blocking arm is extended and vulnerable. Third option is completing a seated guard recovery if you can disengage cleanly. Never remain stuck mid-rotation; always have a continuous path to a safe position.",
+        "answer_line": "Granby roll to guard recovery",
+        "distractors": {
+          "plausible": [
+            "Force the original rotation",
+            "Stay inverted and reset"
+          ],
+          "trap": [
+            "Freeze and turtle back up"
+          ]
+        }
       },
       {
         "question": "How do you generate sufficient hip elevation for effective rotational momentum?",
-        "answer": "Drive explosively upward using leg extension and core engagement simultaneously. Your posted foot pushes into the mat while your core contracts to lift your hips above shoulder level. Think of it as a hip thrust combined with a shoulder bridge but directed into rotation. The hips must clearly exceed shoulder height—insufficient elevation creates weak momentum that opponents defend simply by maintaining their base."
+        "answer": "Drive explosively upward using leg extension and core engagement simultaneously. Your posted foot pushes into the mat while your core contracts to lift your hips above shoulder level. Think of it as a hip thrust combined with a shoulder bridge but directed into rotation. The hips must clearly exceed shoulder height—insufficient elevation creates weak momentum that opponents defend simply by maintaining their base.",
+        "answer_line": "Explosive leg drive + core",
+        "distractors": {
+          "plausible": [
+            "Slow steady hip lift",
+            "Arm strength pulls hips up"
+          ],
+          "trap": [
+            "Elevate hips only slightly"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -735,35 +895,115 @@
   "flashcards_position": [
     {
       "question": "What configuration defines the Matrix position and distinguishes it from a static back take?",
-      "answer": "The Matrix is a transient, inverted-rolling configuration in which one player commits to an under-or-around rotation while the other holds a top base over a turtled or scrambling opponent. Unlike static back takes that advance through incremental grip fighting and posture, the Matrix is defined by rotational momentum in motion: the rolling player's shoulder is posted to the mat as a pivot while their hips travel above shoulder level. The position exists only during the seconds of rotation, then either resolves into back control or collapses back to turtle or guard. This momentum-dependence, not any fixed grip, is what makes it the Matrix."
+      "answer": "The Matrix is a transient, inverted-rolling configuration in which one player commits to an under-or-around rotation while the other holds a top base over a turtled or scrambling opponent. Unlike static back takes that advance through incremental grip fighting and posture, the Matrix is defined by rotational momentum in motion: the rolling player's shoulder is posted to the mat as a pivot while their hips travel above shoulder level. The position exists only during the seconds of rotation, then either resolves into back control or collapses back to turtle or guard. This momentum-dependence, not any fixed grip, is what makes it the Matrix.",
+      "answer_line": "Momentum-driven rolling rotation",
+      "distractors": {
+        "plausible": [
+          "Fixed grip sequence like back take",
+          "Static top pressure hold"
+        ],
+        "trap": [
+          "Any turtle top position"
+        ]
+      }
     },
     {
       "question": "Why is the posted shoulder on the mat the mechanical center of the entire Matrix exchange?",
-      "answer": "The shoulder pressed into the mat is the fulcrum around which the whole rotation pivots, and it governs both players' outcomes. For the rolling player it anchors the body to a fixed point so the hips and legs can circle with mechanical advantage rather than floating through open space. For the top player it is the target, since collapsing or flattening that shoulder removes the pivot and stalls the roll. Whoever controls the relationship to that shoulder controls whether the rotation completes, which is why the position lives or dies on that single contact point."
+      "answer": "The shoulder pressed into the mat is the fulcrum around which the whole rotation pivots, and it governs both players' outcomes. For the rolling player it anchors the body to a fixed point so the hips and legs can circle with mechanical advantage rather than floating through open space. For the top player it is the target, since collapsing or flattening that shoulder removes the pivot and stalls the roll. Whoever controls the relationship to that shoulder controls whether the rotation completes, which is why the position lives or dies on that single contact point.",
+      "answer_line": "Shoulder pin is the pivot fulcrum",
+      "distractors": {
+        "plausible": [
+          "Hip grip is the pivot point",
+          "Head position controls it"
+        ],
+        "trap": [
+          "Ignore shoulder, chase hips"
+        ]
+      }
     },
     {
       "question": "How does hip elevation above shoulder level function as the engine of the Matrix?",
-      "answer": "The rolling player must drive their hips clearly above shoulder height to load the momentum that carries the body around or under the opponent. Insufficient elevation produces weak force that a stable, heavy base defeats by simply staying put. The elevation is generated by simultaneous leg extension off a posted foot and core contraction, effectively a bridging thrust redirected into rotation rather than straight up. For the top player, watching the hips rise past normal turtle height is the primary early warning that the engine is being loaded."
+      "answer": "The rolling player must drive their hips clearly above shoulder height to load the momentum that carries the body around or under the opponent. Insufficient elevation produces weak force that a stable, heavy base defeats by simply staying put. The elevation is generated by simultaneous leg extension off a posted foot and core contraction, effectively a bridging thrust redirected into rotation rather than straight up. For the top player, watching the hips rise past normal turtle height is the primary early warning that the engine is being loaded.",
+      "answer_line": "Hips above shoulders = power",
+      "distractors": {
+        "plausible": [
+          "Any hip lift generates enough",
+          "Speed matters more than height"
+        ],
+        "trap": [
+          "Keep hips low, stay hidden"
+        ]
+      }
     },
     {
       "question": "Why is the Matrix so dependent on the opponent being static or in mid-weight-transition?",
-      "answer": "Rotational momentum needs something stable to rotate against, and a static base or a body committed to a weight shift gives the rolling player a fixed reference to circle around. An actively mobile opponent continuously changes that reference, so the rotation finds nothing to pivot against and gets stuffed. This is why the ideal entry windows are moments of stillness or the instant after the opponent completes their own movement, such as reaching for a grip or settling weight, when they are briefly frozen. The whole timing battle of the position turns on catching or denying that stillness."
+      "answer": "Rotational momentum needs something stable to rotate against, and a static base or a body committed to a weight shift gives the rolling player a fixed reference to circle around. An actively mobile opponent continuously changes that reference, so the rotation finds nothing to pivot against and gets stuffed. This is why the ideal entry windows are moments of stillness or the instant after the opponent completes their own movement, such as reaching for a grip or settling weight, when they are briefly frozen. The whole timing battle of the position turns on catching or denying that stillness.",
+      "answer_line": "Needs a stable point to rotate on",
+      "distractors": {
+        "plausible": [
+          "Works best on moving opponents",
+          "Timing doesn't matter much"
+        ],
+        "trap": [
+          "Attack mid-scramble for surprise"
+        ]
+      }
     },
     {
       "question": "What role does the connection between the two players play throughout the Matrix rotation?",
-      "answer": "A persistent connection such as a belt or hip grip, a leg hook, or torso contact is what couples the two bodies so they rotate as one system rather than independently. Without it the rolling player circles through space and arrives behind an opponent who never moved, gaining position but no control. The connection pulls the opponent into the rotation and ensures their base is disrupted by the same momentum. For the top player, stripping that single connection point is the cleanest way to decouple from the roll and let it spin harmlessly past."
+      "answer": "A persistent connection such as a belt or hip grip, a leg hook, or torso contact is what couples the two bodies so they rotate as one system rather than independently. Without it the rolling player circles through space and arrives behind an opponent who never moved, gaining position but no control. The connection pulls the opponent into the rotation and ensures their base is disrupted by the same momentum. For the top player, stripping that single connection point is the cleanest way to decouple from the roll and let it spin harmlessly past.",
+      "answer_line": "Grip links bodies as one system",
+      "distractors": {
+        "plausible": [
+          "Proximity alone is enough",
+          "Weight alone creates the link"
+        ],
+        "trap": [
+          "Roll without securing a grip"
+        ]
+      }
     },
     {
       "question": "Why is the mid-rotation moment the highest-stakes instant for both players in the Matrix?",
-      "answer": "Mid-rotation, the rolling player is inverted with their back exposed and no defensive structure, while the top player has a narrow window to flatten the roll before hooks land. For the attacker, hesitation here is catastrophic: they must either commit explosively to completion or bail immediately into a guard recovery. For the defender, this is the moment to sprawl the hips back and match the direction of the roll to deny the relative motion. The position offers no safe pause, so it is a race resolved in a fraction of a second, which is why full commitment beats partial effort on both sides."
+      "answer": "Mid-rotation, the rolling player is inverted with their back exposed and no defensive structure, while the top player has a narrow window to flatten the roll before hooks land. For the attacker, hesitation here is catastrophic: they must either commit explosively to completion or bail immediately into a guard recovery. For the defender, this is the moment to sprawl the hips back and match the direction of the roll to deny the relative motion. The position offers no safe pause, so it is a race resolved in a fraction of a second, which is why full commitment beats partial effort on both sides.",
+      "answer_line": "No safe pause, commit or bail",
+      "distractors": {
+        "plausible": [
+          "Slow down to assess options",
+          "Hold position and brace"
+        ],
+        "trap": [
+          "Freeze mid-roll to reset grips"
+        ]
+      }
     },
     {
       "question": "How does the Matrix differ mechanically from adjacent rotational movements like the berimbolo or granby roll?",
-      "answer": "All three share inversion and rotational spatial awareness, but the Matrix specifically targets a turtled or scrambling opponent from above-or-beside to arrive at back control, using the opponent's own base as the pivot. The berimbolo typically inverts out of an open guard to spin under a standing or top player, while the granby roll is primarily a defensive shoulder roll used to recover guard or escape rather than to take the back. The Matrix's defining feature is that it converts a neutral-or-defensive turtle configuration into back access through committed rotation, whereas the granby redirects the same rolling mechanic toward escape. That is also why the granby appears in the Matrix as the fallback when the rotation is stuffed."
+      "answer": "All three share inversion and rotational spatial awareness, but the Matrix specifically targets a turtled or scrambling opponent from above-or-beside to arrive at back control, using the opponent's own base as the pivot. The berimbolo typically inverts out of an open guard to spin under a standing or top player, while the granby roll is primarily a defensive shoulder roll used to recover guard or escape rather than to take the back. The Matrix's defining feature is that it converts a neutral-or-defensive turtle configuration into back access through committed rotation, whereas the granby redirects the same rolling mechanic toward escape. That is also why the granby appears in the Matrix as the fallback when the rotation is stuffed.",
+      "answer_line": "Matrix takes back from turtle",
+      "distractors": {
+        "plausible": [
+          "Same as berimbolo entry",
+          "Granby is offensive too"
+        ],
+        "trap": [
+          "All three are interchangeable"
+        ]
+      }
     },
     {
       "question": "Why does the Matrix create a dilemma for the top player regardless of whether they defend the initial rotation?",
-      "answer": "The rotation forces the top player into base and weight adjustments that inherently trade off against their other objectives. Widening the base and distributing weight laterally to resist the roll slows passing progression and can leave a limb or the neck momentarily exposed. Committing weight forward to flatten the roll instead invites secondary options like granby recoveries or guard pulls. Because the position couples the defender's stability to the attacker's momentum, any single-purpose response opens a counter, which is why the Matrix functions as a system-level threat rather than an isolated move."
+      "answer": "The rotation forces the top player into base and weight adjustments that inherently trade off against their other objectives. Widening the base and distributing weight laterally to resist the roll slows passing progression and can leave a limb or the neck momentarily exposed. Committing weight forward to flatten the roll instead invites secondary options like granby recoveries or guard pulls. Because the position couples the defender's stability to the attacker's momentum, any single-purpose response opens a counter, which is why the Matrix functions as a system-level threat rather than an isolated move.",
+      "answer_line": "Any single response opens a counter",
+      "distractors": {
+        "plausible": [
+          "Only base width matters",
+          "Flattening the roll is always safe"
+        ],
+        "trap": [
+          "Commit fully to one response"
+        ]
+      }
     }
   ],
   "clips": [

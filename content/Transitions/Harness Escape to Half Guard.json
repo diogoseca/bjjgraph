@@ -269,43 +269,143 @@
     "flashcards": [
       {
         "question": "Your opponent has a tight harness grip but their bottom hook is loose—what is the optimal timing to initiate the escape?",
-        "answer": "The loose bottom hook is the critical window. Immediately establish your two-on-one grip on the choking arm while using your same-side foot to push their loose hook completely off your thigh. Begin your diagonal hip escape the instant the hook clears. Do not wait for a perfect moment—the loose hook IS the moment. Every second you delay allows them to re-establish the hook or tighten their overall position."
+        "answer": "The loose bottom hook is the critical window. Immediately establish your two-on-one grip on the choking arm while using your same-side foot to push their loose hook completely off your thigh. Begin your diagonal hip escape the instant the hook clears. Do not wait for a perfect moment—the loose hook IS the moment. Every second you delay allows them to re-establish the hook or tighten their overall position.",
+        "answer_line": "Attack the moment hook goes loose",
+        "distractors": {
+          "plausible": [
+            "Wait for hook to fully release",
+            "Wait for a bigger opening"
+          ],
+          "trap": [
+            "Wait for both hooks to loosen"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the choking arm provides the strongest control during the escape?",
-        "answer": "Grab the opponent's wrist with your hand that is on the same side as their choking arm, and control near their elbow or tricep with your other hand. The wrist grip prevents the arm from sliding across your neck, while the elbow control prevents them from generating the leverage needed to pry your grip open. Keep both elbows tight to your body to make the grip harder to break. A gable grip on the wrist is stronger than finger-to-finger but takes longer to establish."
+        "answer": "Grab the opponent's wrist with your hand that is on the same side as their choking arm, and control near their elbow or tricep with your other hand. The wrist grip prevents the arm from sliding across your neck, while the elbow control prevents them from generating the leverage needed to pry your grip open. Keep both elbows tight to your body to make the grip harder to break. A gable grip on the wrist is stronger than finger-to-finger but takes longer to establish.",
+        "answer_line": "Wrist same-side, other hand elbow",
+        "distractors": {
+          "plausible": [
+            "Grip both wrists together",
+            "Control shoulder, not elbow"
+          ],
+          "trap": [
+            "Push their hand away first"
+          ]
+        }
       },
       {
         "question": "Why must you hip escape diagonally toward the underhook side rather than directly away from the opponent?",
-        "answer": "The diagonal hip escape toward the underhook side disrupts the opponent's chest-to-back alignment in two planes simultaneously—lateral and rotational. A direct escape away from the opponent only creates linear space that they can close by following your hips forward. The diagonal angle toward the underhook side specifically weakens the harness grip mechanics because it loads the underhook arm while creating slack in the over-arm, making the catch easier and the turn more effective."
+        "answer": "The diagonal hip escape toward the underhook side disrupts the opponent's chest-to-back alignment in two planes simultaneously—lateral and rotational. A direct escape away from the opponent only creates linear space that they can close by following your hips forward. The diagonal angle toward the underhook side specifically weakens the harness grip mechanics because it loads the underhook arm while creating slack in the over-arm, making the catch easier and the turn more effective.",
+        "answer_line": "Diagonal toward the underhook side",
+        "distractors": {
+          "plausible": [
+            "Straight back away from opponent",
+            "Diagonal away from underhook side"
+          ],
+          "trap": [
+            "Push straight into their chest"
+          ]
+        }
       },
       {
         "question": "Your opponent begins following your hip escape and you feel their weight shifting toward mount—how do you adjust?",
-        "answer": "Immediately stop your rotational turn and re-establish defensive frames. Plant your near-side elbow and knee together to create a physical barrier against the mount transition. Hip escape in the opposite direction to recover distance. If they have already partially achieved mount, frame against their hip with your near-side hand and use the space to re-insert your knee between your bodies. Only resume the half guard escape attempt once you have denied the mount and re-established your defensive structure."
+        "answer": "Immediately stop your rotational turn and re-establish defensive frames. Plant your near-side elbow and knee together to create a physical barrier against the mount transition. Hip escape in the opposite direction to recover distance. If they have already partially achieved mount, frame against their hip with your near-side hand and use the space to re-insert your knee between your bodies. Only resume the half guard escape attempt once you have denied the mount and re-established your defensive structure.",
+        "answer_line": "Frame elbow-knee, re-hip escape",
+        "distractors": {
+          "plausible": [
+            "Push through original escape",
+            "Speed up rotation to beat mount"
+          ],
+          "trap": [
+            "Give underhook to stall the pass"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the leg catch phase of the escape?",
-        "answer": "As you turn to face the opponent, your bottom hip must drive into the mat while your top hip rotates over to create the angle for the leg catch. The bottom hip serves as a pivot point while the top hip provides the rotational force. Your inside leg threads between the opponent's legs by driving your knee toward their midline, and then both legs pinch together to trap their leg at the thigh or knee level. The hip rotation must be quick and committed—hesitation here is where most failed escapes occur."
+        "answer": "As you turn to face the opponent, your bottom hip must drive into the mat while your top hip rotates over to create the angle for the leg catch. The bottom hip serves as a pivot point while the top hip provides the rotational force. Your inside leg threads between the opponent's legs by driving your knee toward their midline, and then both legs pinch together to trap their leg at the thigh or knee level. The hip rotation must be quick and committed—hesitation here is where most failed escapes occur.",
+        "answer_line": "Bottom hip down, top hip rotates",
+        "distractors": {
+          "plausible": [
+            "Both hips drive straight up",
+            "Top hip stays flat, bottom rotates"
+          ],
+          "trap": [
+            "Push both knees straight out"
+          ]
+        }
       },
       {
         "question": "After catching half guard, your opponent immediately drives forward with heavy crossface pressure—what is your priority?",
-        "answer": "Insert your knee shield immediately before addressing the crossface. The knee shield creates structural distance that prevents them from flattening you regardless of their crossface pressure. Place your shin diagonally across their torso from hip to shoulder. Once the knee shield is established, use your free hand to frame against their crossface arm while fighting for the underhook with your inside arm. The knee shield buys you time and space that makes all subsequent defensive and offensive actions possible."
+        "answer": "Insert your knee shield immediately before addressing the crossface. The knee shield creates structural distance that prevents them from flattening you regardless of their crossface pressure. Place your shin diagonally across their torso from hip to shoulder. Once the knee shield is established, use your free hand to frame against their crossface arm while fighting for the underhook with your inside arm. The knee shield buys you time and space that makes all subsequent defensive and offensive actions possible.",
+        "answer_line": "Insert knee shield first",
+        "distractors": {
+          "plausible": [
+            "Frame the crossface first",
+            "Fight for underhook before shield"
+          ],
+          "trap": [
+            "Turn flat to relieve pressure"
+          ]
+        }
       },
       {
         "question": "Your first hip escape attempt is stuffed and the opponent re-tightens their grip—what is your chained response?",
-        "answer": "Do not abandon the escape sequence. Maintain your two-on-one grip and execute a second smaller hip escape in the same diagonal direction. Multiple incremental hip escapes are more effective than one explosive attempt because each small movement accumulates positional advantage that the opponent cannot fully recover. If three attempts fail, consider transitioning to a different escape pathway such as the elbow escape to guard or hip escape toward turtle, using the positional changes you have already created."
+        "answer": "Do not abandon the escape sequence. Maintain your two-on-one grip and execute a second smaller hip escape in the same diagonal direction. Multiple incremental hip escapes are more effective than one explosive attempt because each small movement accumulates positional advantage that the opponent cannot fully recover. If three attempts fail, consider transitioning to a different escape pathway such as the elbow escape to guard or hip escape toward turtle, using the positional changes you have already created.",
+        "answer_line": "Keep grip, chain small hip escapes",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset from scratch",
+            "One big explosive escape again"
+          ],
+          "trap": [
+            "Let go and turtle immediately"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to catch standard half guard or immediately insert a knee shield during the escape?",
-        "answer": "If the opponent is already driving forward with pressure as you complete the turn, insert the knee shield immediately—you need the distance management more than the offensive position. If the opponent is slow to react or momentarily disorganized after losing back control, catch standard half guard and fight directly for the underhook, which gives you immediate sweep threats. Read their energy: aggressive forward pressure means knee shield first, hesitation or re-gripping means underhook first."
+        "answer": "If the opponent is already driving forward with pressure as you complete the turn, insert the knee shield immediately—you need the distance management more than the offensive position. If the opponent is slow to react or momentarily disorganized after losing back control, catch standard half guard and fight directly for the underhook, which gives you immediate sweep threats. Read their energy: aggressive forward pressure means knee shield first, hesitation or re-gripping means underhook first.",
+        "answer_line": "Read pressure: forward means shield",
+        "distractors": {
+          "plausible": [
+            "Always catch standard half guard",
+            "Always insert knee shield first"
+          ],
+          "trap": [
+            "Ignore pressure, fight underhook"
+          ]
+        }
       },
       {
         "question": "What role does the opponent's underhook arm play in your escape mechanics?",
-        "answer": "The opponent's underhook arm (the arm under your armpit) is the arm you turn toward during the escape. Turning toward this arm weakens the harness structure because it compresses the underhook while creating slack in the over-arm connection. As you complete the turn, the underhook arm becomes trapped on the same side as the leg you are catching in half guard. This means the opponent's formerly dominant grip structure now works against them—their underhook becomes the pathway for your underhook battle in half guard."
+        "answer": "The opponent's underhook arm (the arm under your armpit) is the arm you turn toward during the escape. Turning toward this arm weakens the harness structure because it compresses the underhook while creating slack in the over-arm connection. As you complete the turn, the underhook arm becomes trapped on the same side as the leg you are catching in half guard. This means the opponent's formerly dominant grip structure now works against them—their underhook becomes the pathway for your underhook battle in half guard.",
+        "answer_line": "Turn toward their underhook arm",
+        "distractors": {
+          "plausible": [
+            "Turn away from underhook arm",
+            "Attack their far overhook arm"
+          ],
+          "trap": [
+            "Turn into their choking arm"
+          ]
+        }
       },
       {
         "question": "If the escape to half guard fails completely and you remain in harness bottom, what alternative escape should you chain to next?",
-        "answer": "Chain to the elbow escape toward turtle or the hip escape to guard. The positional adjustments you made during the failed half guard attempt—two-on-one grip, partial hook clearing, hip angle creation—have already improved your position even though the escape did not complete. Use the angle you created to attempt a different escape vector. If your hips moved but the leg catch failed, continue the turn toward turtle. If the hip escape was stuffed entirely, try the opposite direction or work to clear the second hook for a different escape pathway."
+        "answer": "Chain to the elbow escape toward turtle or the hip escape to guard. The positional adjustments you made during the failed half guard attempt—two-on-one grip, partial hook clearing, hip angle creation—have already improved your position even though the escape did not complete. Use the angle you created to attempt a different escape vector. If your hips moved but the leg catch failed, continue the turn toward turtle. If the hip escape was stuffed entirely, try the opposite direction or work to clear the second hook for a different escape pathway.",
+        "answer_line": "Chain to elbow escape or guard",
+        "distractors": {
+          "plausible": [
+            "Repeat same escape until it works",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Give back both hooks and stall"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves significant rotational movement of the spine and neck while under the opponent's weight and control. Always maintain chin protection throughout the escape to prevent the choking arm from compressing the trachea during the turn. Practice the turning mechanics at slow speed before adding resistance. Partners maintaining back control should release immediately if the escaping player signals discomfort in the neck or shoulder area. Avoid explosive jerking movements that could strain the cervical spine—use smooth, controlled hip escapes instead. In training, the back controller should gradually increase resistance rather than applying maximum pressure from the start.",
@@ -423,19 +523,59 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that indicates your opponent is about to attempt this specific escape?",
-        "answer": "The earliest cue is the opponent establishing a two-on-one grip on your choking arm—both of their hands gripping your wrist and elbow area simultaneously. This is the mandatory first step of the escape because they cannot safely move their hips without neutralizing the choke threat first. When you feel both hands commit to your choking arm, immediately increase forward pressure and begin re-positioning your hooks to deny the hip escape that will follow within seconds."
+        "answer": "The earliest cue is the opponent establishing a two-on-one grip on your choking arm—both of their hands gripping your wrist and elbow area simultaneously. This is the mandatory first step of the escape because they cannot safely move their hips without neutralizing the choke threat first. When you feel both hands commit to your choking arm, immediately increase forward pressure and begin re-positioning your hooks to deny the hip escape that will follow within seconds.",
+        "answer_line": "Both hands grip your choking arm",
+        "distractors": {
+          "plausible": [
+            "Opponent shifts their hips first",
+            "Opponent's legs start moving"
+          ],
+          "trap": [
+            "Wait until hooks are cleared"
+          ]
+        }
       },
       {
         "question": "Your opponent has cleared your bottom hook and created a 30-degree angle—should you fight to recover back control or transition to mount?",
-        "answer": "At 30 degrees with one hook cleared, you are at the critical decision point. If your harness grip remains tight and your top hook is still engaged, fight to recover: drive your chest forward, re-insert the bottom hook, and collapse their angle with hip pressure. However, if your grip has been significantly weakened by their two-on-one control and the angle is increasing, begin preparing the mount transition. The deciding factor is grip integrity—strong grip means recover, compromised grip means transition to mount before you lose everything."
+        "answer": "At 30 degrees with one hook cleared, you are at the critical decision point. If your harness grip remains tight and your top hook is still engaged, fight to recover: drive your chest forward, re-insert the bottom hook, and collapse their angle with hip pressure. However, if your grip has been significantly weakened by their two-on-one control and the angle is increasing, begin preparing the mount transition. The deciding factor is grip integrity—strong grip means recover, compromised grip means transition to mount before you lose everything.",
+        "answer_line": "Strong grip recover, weak transition",
+        "distractors": {
+          "plausible": [
+            "Always fight to recover control",
+            "Transition to mount regardless"
+          ],
+          "trap": [
+            "Release grip to reset position"
+          ]
+        }
       },
       {
         "question": "How should you adjust your hook management when you feel the opponent beginning to push your bottom hook?",
-        "answer": "When you feel pressure on your bottom hook, do not simply resist with leg strength—this becomes an energy war you may lose. Instead, actively re-position the hook by pulling your heel tighter toward your body and driving your instep deeper into their thigh. Simultaneously, increase your top hook engagement and drive forward chest pressure to make it harder for them to create the space needed to clear the hook. If the hook is cleared despite your efforts, immediately follow with your hips to prevent them from creating the diagonal angle."
+        "answer": "When you feel pressure on your bottom hook, do not simply resist with leg strength—this becomes an energy war you may lose. Instead, actively re-position the hook by pulling your heel tighter toward your body and driving your instep deeper into their thigh. Simultaneously, increase your top hook engagement and drive forward chest pressure to make it harder for them to create the space needed to clear the hook. If the hook is cleared despite your efforts, immediately follow with your hips to prevent them from creating the diagonal angle.",
+        "answer_line": "Re-set heel deep, don't just resist",
+        "distractors": {
+          "plausible": [
+            "Muscle through with leg strength",
+            "Ignore it, focus on top hook only"
+          ],
+          "trap": [
+            "Release hook to reset the leg"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for transitioning from back control to mount during this escape?",
-        "answer": "The optimal window is when the opponent is mid-turn—they have committed to the rotational movement and their hands are occupied controlling your choking arm rather than creating frames. At this point, remove your hooks, drive your hips forward over their body, and step over into mount. If you transition too early, they have not committed and can simply pull you back. If you transition too late, they have already caught your leg in half guard. The mid-turn moment, when they are between back exposure and facing you, offers the best mount transition timing."
+        "answer": "The optimal window is when the opponent is mid-turn—they have committed to the rotational movement and their hands are occupied controlling your choking arm rather than creating frames. At this point, remove your hooks, drive your hips forward over their body, and step over into mount. If you transition too early, they have not committed and can simply pull you back. If you transition too late, they have already caught your leg in half guard. The mid-turn moment, when they are between back exposure and facing you, offers the best mount transition timing.",
+        "answer_line": "Mid-turn, when hands are occupied",
+        "distractors": {
+          "plausible": [
+            "As soon as they start turning",
+            "After they fully face you"
+          ],
+          "trap": [
+            "Wait until they catch half guard"
+          ]
+        }
       }
     ],
     "training_progressions": [

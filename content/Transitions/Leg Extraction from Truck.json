@@ -259,43 +259,143 @@
     "flashcards": [
       {
         "question": "What is the critical mechanical difference between a successful and unsuccessful leg extraction attempt?",
-        "answer": "Successful extraction uses circular and rotational movement—ankle corkscrew, outward knee drive, and hip rotation—to spiral the leg through gaps in the opponent's figure-four configuration. Unsuccessful attempts pull the leg straight backward, fighting directly against the strongest axis of the opponent's control where their hooks have maximum mechanical advantage. The spiral changes resistance angles progressively while the linear pull maintains constant maximum resistance."
+        "answer": "Successful extraction uses circular and rotational movement—ankle corkscrew, outward knee drive, and hip rotation—to spiral the leg through gaps in the opponent's figure-four configuration. Unsuccessful attempts pull the leg straight backward, fighting directly against the strongest axis of the opponent's control where their hooks have maximum mechanical advantage. The spiral changes resistance angles progressively while the linear pull maintains constant maximum resistance.",
+        "answer_line": "Corkscrew leg through the gap",
+        "distractors": {
+          "plausible": [
+            "Pull leg straight backward",
+            "Drive knee straight outward only"
+          ],
+          "trap": [
+            "Force through with max strength"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their hooks every time you begin rotating your ankle—how do you adjust?",
-        "answer": "Use the ankle rotation as a feint to draw their attention to maintaining leg control, then chain immediately into a granby roll or hip escape while their focus is directed at the entanglement. Alternatively, pause the extraction, return to fighting boot pressure to create more space, and attempt from a different angle once the opponent relaxes their grip. Forcing through tightened hooks is ineffective and wastes energy."
+        "answer": "Use the ankle rotation as a feint to draw their attention to maintaining leg control, then chain immediately into a granby roll or hip escape while their focus is directed at the entanglement. Alternatively, pause the extraction, return to fighting boot pressure to create more space, and attempt from a different angle once the opponent relaxes their grip. Forcing through tightened hooks is ineffective and wastes energy.",
+        "answer_line": "Feint ankle, then granby roll",
+        "distractors": {
+          "plausible": [
+            "Keep rotating till they tire",
+            "Switch to knee drive instead"
+          ],
+          "trap": [
+            "Force ankle rotation harder"
+          ]
+        }
       },
       {
         "question": "Why must boot pressure be addressed before attempting leg extraction?",
-        "answer": "The boot pressed against the hip generates torque that prevents hip rotation—the fundamental movement required for circular extraction mechanics. With the boot fully engaged, the bottom player cannot rotate the hip of the trapped leg inward toward the mat, eliminating the angular separation needed to spiral the leg free. Even partial reduction of boot pressure restores enough hip mobility for the extraction movements to function against the figure-four configuration."
+        "answer": "The boot pressed against the hip generates torque that prevents hip rotation—the fundamental movement required for circular extraction mechanics. With the boot fully engaged, the bottom player cannot rotate the hip of the trapped leg inward toward the mat, eliminating the angular separation needed to spiral the leg free. Even partial reduction of boot pressure restores enough hip mobility for the extraction movements to function against the figure-four configuration.",
+        "answer_line": "Boot pressure blocks hip rotation",
+        "distractors": {
+          "plausible": [
+            "Boot pressure blocks knee drive",
+            "Boot pressure blocks ankle turn"
+          ],
+          "trap": [
+            "Ignore boot, extract regardless"
+          ]
+        }
       },
       {
         "question": "What determines whether to attempt leg extraction versus a granby roll from truck bottom?",
-        "answer": "Choose leg extraction when boot pressure has been partially cleared but the leg remains firmly trapped, and when the opponent's upper body control is relatively loose. Choose the granby roll when the opponent's weight is committed forward or they are transitioning between attacks, creating rotational momentum opportunity. The granby requires space and momentum; leg extraction requires time and ankle mobility. Often the best approach chains both techniques together."
+        "answer": "Choose leg extraction when boot pressure has been partially cleared but the leg remains firmly trapped, and when the opponent's upper body control is relatively loose. Choose the granby roll when the opponent's weight is committed forward or they are transitioning between attacks, creating rotational momentum opportunity. The granby requires space and momentum; leg extraction requires time and ankle mobility. Often the best approach chains both techniques together.",
+        "answer_line": "Extract if boot clear, leg pinned",
+        "distractors": {
+          "plausible": [
+            "Granby if boot clear, leg pinned",
+            "Extract when weight is forward"
+          ],
+          "trap": [
+            "Extract with tight boot pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent attacks a calf slicer during your leg extraction attempt—what is your immediate response?",
-        "answer": "Immediately bend your knee sharply to reduce compression on the joint and prevent injury. Then assess whether the calf slicer attack has changed the geometry of the figure-four in your favor—the opponent extending your leg for the slicer often loosens the hook configuration around the ankle. If so, accelerate extraction through the new angle. If compression is significant and increasing, tap immediately to preserve training longevity rather than fighting through a locked submission."
+        "answer": "Immediately bend your knee sharply to reduce compression on the joint and prevent injury. Then assess whether the calf slicer attack has changed the geometry of the figure-four in your favor—the opponent extending your leg for the slicer often loosens the hook configuration around the ankle. If so, accelerate extraction through the new angle. If compression is significant and increasing, tap immediately to preserve training longevity rather than fighting through a locked submission.",
+        "answer_line": "Bend knee, then assess angle",
+        "distractors": {
+          "plausible": [
+            "Push through extraction faster",
+            "Straighten leg to create space"
+          ],
+          "trap": [
+            "Refuse to tap, fight it out"
+          ]
+        }
       },
       {
         "question": "What is the most critical action immediately after the trapped leg clears the entanglement?",
-        "answer": "Turtle up immediately without any pause. Bring both knees under your hips, hands under shoulders, tuck chin, and round your back in one fluid motion. Any delay between extraction and establishing turtle allows the opponent to either re-entangle the freed leg, insert back control hooks during the transition gap, or establish a front headlock. The extraction-to-turtle transition should be practiced as a single continuous movement."
+        "answer": "Turtle up immediately without any pause. Bring both knees under your hips, hands under shoulders, tuck chin, and round your back in one fluid motion. Any delay between extraction and establishing turtle allows the opponent to either re-entangle the freed leg, insert back control hooks during the transition gap, or establish a front headlock. The extraction-to-turtle transition should be practiced as a single continuous movement.",
+        "answer_line": "Turtle up immediately",
+        "distractors": {
+          "plausible": [
+            "Scramble to stand up",
+            "Pause to recover breath"
+          ],
+          "trap": [
+            "Reach back for a leg lock"
+          ]
+        }
       },
       {
         "question": "How does keeping the trapped leg constantly moving improve extraction probability?",
-        "answer": "Constant movement prevents the opponent from configuring their hooks around a fixed position and progressively tightening control. A static leg gives the top player a stable reference point to squeeze against, while varied circular patterns create micro-gaps in the entanglement as the opponent's hooks repeatedly lose and attempt to re-establish optimal positioning. These micro-gaps accumulate over time, gradually loosening the control until extraction becomes possible."
+        "answer": "Constant movement prevents the opponent from configuring their hooks around a fixed position and progressively tightening control. A static leg gives the top player a stable reference point to squeeze against, while varied circular patterns create micro-gaps in the entanglement as the opponent's hooks repeatedly lose and attempt to re-establish optimal positioning. These micro-gaps accumulate over time, gradually loosening the control until extraction becomes possible.",
+        "answer_line": "Movement creates micro-gaps",
+        "distractors": {
+          "plausible": [
+            "Movement tires the opponent",
+            "Movement hides the real attempt"
+          ],
+          "trap": [
+            "Stay still to save energy"
+          ]
+        }
       },
       {
         "question": "Your extraction attempt partially loosens the entanglement but fails to fully free the leg—what should you do next?",
-        "answer": "Do not reset to the starting position. The partial loosening has created improved angles for subsequent escape attempts. Immediately chain into a granby roll using the space created by the partial extraction, or execute a hip escape to compound the distance gained. Each failed but partially successful escape attempt improves the conditions for the next technique in the chain. Returning to static defense after partial progress wastes the positional gains achieved."
+        "answer": "Do not reset to the starting position. The partial loosening has created improved angles for subsequent escape attempts. Immediately chain into a granby roll using the space created by the partial extraction, or execute a hip escape to compound the distance gained. Each failed but partially successful escape attempt improves the conditions for the next technique in the chain. Returning to static defense after partial progress wastes the positional gains achieved.",
+        "answer_line": "Chain into granby or hip escape",
+        "distractors": {
+          "plausible": [
+            "Repeat same extraction attempt",
+            "Rest briefly before continuing"
+          ],
+          "trap": [
+            "Reset to starting position"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you maintain with your hands during the extraction process?",
-        "answer": "Keep at least one hand near your neck at all times defending against twister grips and choke attempts. The free hand alternates between fighting the boot off your hip and assisting with leg extraction by pushing against the opponent's controlling leg. Never commit both hands to leg work simultaneously, as this leaves the neck completely undefended against the twister, which can cause catastrophic spinal injury with minimal setup time once the grip is secured."
+        "answer": "Keep at least one hand near your neck at all times defending against twister grips and choke attempts. The free hand alternates between fighting the boot off your hip and assisting with leg extraction by pushing against the opponent's controlling leg. Never commit both hands to leg work simultaneously, as this leaves the neck completely undefended against the twister, which can cause catastrophic spinal injury with minimal setup time once the grip is secured.",
+        "answer_line": "One hand always guards neck",
+        "distractors": {
+          "plausible": [
+            "Both hands work the boot off",
+            "Both hands assist leg extraction"
+          ],
+          "trap": [
+            "Commit both hands to leg work"
+          ]
+        }
       },
       {
         "question": "How do you identify whether the opponent's entanglement controls primarily at the ankle or the knee?",
-        "answer": "Use proprioceptive feedback by testing small movements in different directions. If ankle rotation meets immediate resistance but the knee can shift slightly outward, the entanglement controls the ankle and lower calf, favoring the ankle rotation extraction variant. If the ankle has some freedom but the knee is locked in position by the figure-four, the control targets the knee, favoring the hip rotation variant. This assessment determines which extraction variant has the highest probability of success and should be performed before committing energy to extraction attempts."
+        "answer": "Use proprioceptive feedback by testing small movements in different directions. If ankle rotation meets immediate resistance but the knee can shift slightly outward, the entanglement controls the ankle and lower calf, favoring the ankle rotation extraction variant. If the ankle has some freedom but the knee is locked in position by the figure-four, the control targets the knee, favoring the hip rotation variant. This assessment determines which extraction variant has the highest probability of success and should be performed before committing energy to extraction attempts.",
+        "answer_line": "Test small moves, feel resistance",
+        "distractors": {
+          "plausible": [
+            "Judge by opponent's hand position",
+            "Guess based on figure-four side"
+          ],
+          "trap": [
+            "Force max rotation to test grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work.",
@@ -403,19 +503,59 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that the bottom player is attempting a leg extraction from truck?",
-        "answer": "The earliest cue is feeling the trapped ankle begin rotating or circling within your figure-four hooks. This rotation precedes the more obvious knee drive and hip rotation phases of the extraction. Recognizing this subtle movement and immediately squeezing your hooks tighter prevents the bottom player from finding the path of least resistance through your entanglement and shuts down the extraction before it develops momentum."
+        "answer": "The earliest cue is feeling the trapped ankle begin rotating or circling within your figure-four hooks. This rotation precedes the more obvious knee drive and hip rotation phases of the extraction. Recognizing this subtle movement and immediately squeezing your hooks tighter prevents the bottom player from finding the path of least resistance through your entanglement and shuts down the extraction before it develops momentum.",
+        "answer_line": "Ankle begins rotating first",
+        "distractors": {
+          "plausible": [
+            "Knee drives outward first",
+            "Hip rotation begins first"
+          ],
+          "trap": [
+            "Wait for hip rotation to react"
+          ]
+        }
       },
       {
         "question": "When should you abandon the truck entanglement and transition to back control during an extraction attempt?",
-        "answer": "Transition to back control when your hook tightening is no longer effectively stopping the ankle rotation, the knee has driven outward creating visible angular separation, and the hip rotation has begun. At this point, the three-dimensional spiral is too advanced to counter through tightening alone. Proactively release the entanglement and insert hooks before the leg fully clears, timing the transition to the moment just before complete extraction when the bottom player's focus is on the final pull rather than defending hook insertion."
+        "answer": "Transition to back control when your hook tightening is no longer effectively stopping the ankle rotation, the knee has driven outward creating visible angular separation, and the hip rotation has begun. At this point, the three-dimensional spiral is too advanced to counter through tightening alone. Proactively release the entanglement and insert hooks before the leg fully clears, timing the transition to the moment just before complete extraction when the bottom player's focus is on the final pull rather than defending hook insertion.",
+        "answer_line": "When spiral is too advanced to stop",
+        "distractors": {
+          "plausible": [
+            "As soon as ankle starts moving",
+            "Only after leg fully clears"
+          ],
+          "trap": [
+            "Squeeze harder and hold position"
+          ]
+        }
       },
       {
         "question": "How do you use the calf slicer threat to counter extraction attempts without losing positional control?",
-        "answer": "Apply calf slicer pressure as a disruptive threat rather than a full commitment. When you feel the knee driving outward during extraction, apply compression on the calf to force the bottom player to bend their knee sharply and abandon the outward drive. This resets their extraction progress without requiring you to shift your weight significantly or release upper body control. Only escalate to a full calf slicer commitment when the submission is clearly available."
+        "answer": "Apply calf slicer pressure as a disruptive threat rather than a full commitment. When you feel the knee driving outward during extraction, apply compression on the calf to force the bottom player to bend their knee sharply and abandon the outward drive. This resets their extraction progress without requiring you to shift your weight significantly or release upper body control. Only escalate to a full calf slicer commitment when the submission is clearly available.",
+        "answer_line": "Apply threat, don't fully commit",
+        "distractors": {
+          "plausible": [
+            "Commit fully to finish it",
+            "Release control to reposition"
+          ],
+          "trap": [
+            "Shift full weight into slicer"
+          ]
+        }
       },
       {
         "question": "Why is maintaining boot pressure critical specifically for preventing leg extraction?",
-        "answer": "Boot pressure restricts the bottom player's hip rotation, which is the third and most critical component of the extraction spiral. Without hip rotation, the ankle rotation and knee drive alone cannot generate sufficient angular separation to free the leg from a properly configured figure-four entanglement. The boot effectively eliminates one dimension of the three-dimensional spiral, reducing the extraction to a two-dimensional movement that the figure-four can resist."
+        "answer": "Boot pressure restricts the bottom player's hip rotation, which is the third and most critical component of the extraction spiral. Without hip rotation, the ankle rotation and knee drive alone cannot generate sufficient angular separation to free the leg from a properly configured figure-four entanglement. The boot effectively eliminates one dimension of the three-dimensional spiral, reducing the extraction to a two-dimensional movement that the figure-four can resist.",
+        "answer_line": "Blocks hip rotation, kills spiral",
+        "distractors": {
+          "plausible": [
+            "Blocks knee from driving out",
+            "Blocks ankle from rotating"
+          ],
+          "trap": [
+            "Release boot to control tighter"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -239,31 +239,101 @@
     "flashcards": [
       {
         "question": "What are the three primary indicators that a bottom player is initiating a jailbreak escape?",
-        "answer": "The three key indicators are: underhook establishment on the same side as the trapped leg with elbow tight to their hip, hip turn toward the trapped leg side as they begin rotating toward inversion, and chin tuck toward their chest as they prepare to roll. Recognizing these cues early is critical because the escape becomes exponentially harder to stop once rotational momentum develops. Reacting at the first indicator rather than waiting for all three gives you the maximum time window for response."
+        "answer": "The three key indicators are: underhook establishment on the same side as the trapped leg with elbow tight to their hip, hip turn toward the trapped leg side as they begin rotating toward inversion, and chin tuck toward their chest as they prepare to roll. Recognizing these cues early is critical because the escape becomes exponentially harder to stop once rotational momentum develops. Reacting at the first indicator rather than waiting for all three gives you the maximum time window for response.",
+        "answer_line": "Underhook, hip turn, chin tuck",
+        "distractors": {
+          "plausible": [
+            "Underhook, bridge, look away",
+            "Overhook, hip turn, chin tuck"
+          ],
+          "trap": [
+            "Wait for the roll to start"
+          ]
+        }
       },
       {
         "question": "Why is neutralizing the underhook essential for preventing the jailbreak escape?",
-        "answer": "The underhook serves as the mechanical fulcrum that enables the entire jailbreak escape. It creates a structural connection between the bottom player and the top player that prevents separation during the inversion roll. Without this connection, the bottom player simply rolls away without carrying the top player, losing the leverage needed to complete the escape. Neutralizing the underhook through whizzer control or arm threading removes the escape's primary mechanical advantage and leaves the bottom player unable to generate effective rotational force."
+        "answer": "The underhook serves as the mechanical fulcrum that enables the entire jailbreak escape. It creates a structural connection between the bottom player and the top player that prevents separation during the inversion roll. Without this connection, the bottom player simply rolls away without carrying the top player, losing the leverage needed to complete the escape. Neutralizing the underhook through whizzer control or arm threading removes the escape's primary mechanical advantage and leaves the bottom player unable to generate effective rotational force.",
+        "answer_line": "Underhook is the escape's fulcrum",
+        "distractors": {
+          "plausible": [
+            "It relieves crossface pressure",
+            "It creates space to sit up"
+          ],
+          "trap": [
+            "Let them keep it, it's harmless"
+          ]
+        }
       },
       {
         "question": "Your crossface is established but the bottom player still manages to begin inverting—what adjustment do you make?",
-        "answer": "If the bottom player begins inverting despite your crossface, the underhook is likely still providing enough structural support to power the escape. Immediately establish a whizzer over their underhooking arm while maintaining crossface. If the inversion is already significantly advanced past the 45-degree threshold, switch strategy from prevention to following the momentum—drive forward over the top of their roll to establish front headlock or turtle top control rather than fighting a roll that has already developed substantial momentum."
+        "answer": "If the bottom player begins inverting despite your crossface, the underhook is likely still providing enough structural support to power the escape. Immediately establish a whizzer over their underhooking arm while maintaining crossface. If the inversion is already significantly advanced past the 45-degree threshold, switch strategy from prevention to following the momentum—drive forward over the top of their roll to establish front headlock or turtle top control rather than fighting a roll that has already developed substantial momentum.",
+        "answer_line": "Add whizzer, keep crossface",
+        "distractors": {
+          "plausible": [
+            "Drop crossface, block the hip",
+            "Sprawl hard to flatten them"
+          ],
+          "trap": [
+            "Chase the roll and fight it"
+          ]
+        }
       },
       {
         "question": "What is the critical timing threshold between a recoverable and an unrecoverable jailbreak attempt?",
-        "answer": "The transition from recoverable to unrecoverable occurs when the bottom player's shoulders pass approximately 45 degrees of rotation from the mat. Before this point, forward pressure and crossface can collapse the motion back to flat. After this point, the rotational momentum becomes self-sustaining and attempting to fight it directly wastes energy and often results in being rolled through. The top player must train to recognize this threshold and switch from prevention to following strategies when the escape passes the recovery point."
+        "answer": "The transition from recoverable to unrecoverable occurs when the bottom player's shoulders pass approximately 45 degrees of rotation from the mat. Before this point, forward pressure and crossface can collapse the motion back to flat. After this point, the rotational momentum becomes self-sustaining and attempting to fight it directly wastes energy and often results in being rolled through. The top player must train to recognize this threshold and switch from prevention to following strategies when the escape passes the recovery point.",
+        "answer_line": "Shoulders past 45 degrees",
+        "distractors": {
+          "plausible": [
+            "Hips past 45 degrees",
+            "Once their head clears the mat"
+          ],
+          "trap": [
+            "Once they finish the full roll"
+          ]
+        }
       },
       {
         "question": "How does the hip walk-around differ from a standard guard pass when reestablishing side control?",
-        "answer": "Unlike a standard guard pass where the top player navigates past active leg defenses, the hip walk-around during jailbreak recovery focuses on moving from a parallel position to perpendicular alignment while maintaining constant chest pressure on a mostly flat opponent. The key difference is that the bottom player's primary defense at this stage is re-initiating the escape or inserting a knee, not active leg framing. Therefore the walk-around prioritizes maintaining downward pressure and controlling the far hip rather than defeating leg frames."
+        "answer": "Unlike a standard guard pass where the top player navigates past active leg defenses, the hip walk-around during jailbreak recovery focuses on moving from a parallel position to perpendicular alignment while maintaining constant chest pressure on a mostly flat opponent. The key difference is that the bottom player's primary defense at this stage is re-initiating the escape or inserting a knee, not active leg framing. Therefore the walk-around prioritizes maintaining downward pressure and controlling the far hip rather than defeating leg frames.",
+        "answer_line": "Chest pressure, not leg frames",
+        "distractors": {
+          "plausible": [
+            "Clear the near knee first",
+            "Match a standard pass grip"
+          ],
+          "trap": [
+            "Release pressure to switch base"
+          ]
+        }
       },
       {
         "question": "What should you do if the bottom player abandons the jailbreak and transitions to deep half guard entry?",
-        "answer": "When the bottom player switches from jailbreak to deep half entry, immediately recognize the shift by their movement underneath your body rather than away from it. Sprawl your hips back to prevent them from reaching full deep half position, as deep half becomes significantly more dangerous once they secure your far leg. Establish a whizzer on their underhooking arm and drive crossface pressure to flatten their approach. If they achieve full deep half despite your defense, switch to standard deep half passing techniques."
+        "answer": "When the bottom player switches from jailbreak to deep half entry, immediately recognize the shift by their movement underneath your body rather than away from it. Sprawl your hips back to prevent them from reaching full deep half position, as deep half becomes significantly more dangerous once they secure your far leg. Establish a whizzer on their underhooking arm and drive crossface pressure to flatten their approach. If they achieve full deep half despite your defense, switch to standard deep half passing techniques.",
+        "answer_line": "Sprawl hips, whizzer, crossface",
+        "distractors": {
+          "plausible": [
+            "Post out and circle away",
+            "Drop weight onto both hips"
+          ],
+          "trap": [
+            "Let them lock the leg then pass"
+          ]
+        }
       },
       {
         "question": "How do you manage the transition from preventing the jailbreak to settling into side control without creating exploitable gaps?",
-        "answer": "The key is sequential control—never release one point of control before establishing the next. Maintain crossface throughout the entire sequence. Only begin walking hips after confirming the escape is stalled. Only release whizzer or arm control after hips have reached perpendicular alignment. Only shift hand to far hip after weight is properly distributed. Each step builds on the previous one without creating windows for the bottom player to re-initiate escape. Rushing any step creates the exact space the bottom player needs."
+        "answer": "The key is sequential control—never release one point of control before establishing the next. Maintain crossface throughout the entire sequence. Only begin walking hips after confirming the escape is stalled. Only release whizzer or arm control after hips have reached perpendicular alignment. Only shift hand to far hip after weight is properly distributed. Each step builds on the previous one without creating windows for the bottom player to re-initiate escape. Rushing any step creates the exact space the bottom player needs.",
+        "answer_line": "Never release control early",
+        "distractors": {
+          "plausible": [
+            "Walk hips before they flatten",
+            "Release whizzer once stalled"
+          ],
+          "trap": [
+            "Rush to standard side control"
+          ]
+        }
       }
     ],
     "safety_considerations": "While this transition does not involve direct submission threat, neck safety is paramount for the bottom player during inversion attempts. The top player should avoid excessive downward pressure on the neck during crossface application, particularly when the bottom player is mid-inversion with their spine flexed. Always allow space for the bottom player to tap or verbally submit if they experience neck discomfort. In training, communicate with partners about pressure intensity and stop immediately if the bottom player shows signs of neck strain or cervical distress.",
@@ -371,19 +441,59 @@
     "flashcards": [
       {
         "question": "What is your primary response when you feel the top player driving crossface to shut down your jailbreak?",
-        "answer": "When crossface pressure intensifies, you have a split-second decision point. If the crossface is still developing and you have momentum, accelerate the escape with explosive hip generation to complete the roll before the pin is fully established. If the crossface has already pinned your head to the mat, abandon the jailbreak and immediately transition to a contingency option—either diving underneath for deep half guard or recovering half guard frames with knee shield insertion. Continuing to force a blocked escape wastes energy and accomplishes nothing."
+        "answer": "When crossface pressure intensifies, you have a split-second decision point. If the crossface is still developing and you have momentum, accelerate the escape with explosive hip generation to complete the roll before the pin is fully established. If the crossface has already pinned your head to the mat, abandon the jailbreak and immediately transition to a contingency option—either diving underneath for deep half guard or recovering half guard frames with knee shield insertion. Continuing to force a blocked escape wastes energy and accomplishes nothing.",
+        "answer_line": "Accelerate or bail to deep half",
+        "distractors": {
+          "plausible": [
+            "Push through the crossface arm",
+            "Wait it out, conserve energy"
+          ],
+          "trap": [
+            "Keep forcing the same roll"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to continue the jailbreak or switch to deep half guard entry?",
-        "answer": "The decision depends on the top player's weight distribution and your access to their legs. If the top player drives their weight forward and down but their far leg remains accessible, transitioning to deep half is optimal because their forward commitment actually assists your movement underneath them. If the top player sprawls their hips back while maintaining crossface, deep half entry is blocked and half guard frame recovery becomes the better option. The key indicator is whether you can access their far leg—if yes, deep half; if no, recover half guard."
+        "answer": "The decision depends on the top player's weight distribution and your access to their legs. If the top player drives their weight forward and down but their far leg remains accessible, transitioning to deep half is optimal because their forward commitment actually assists your movement underneath them. If the top player sprawls their hips back while maintaining crossface, deep half entry is blocked and half guard frame recovery becomes the better option. The key indicator is whether you can access their far leg—if yes, deep half; if no, recover half guard.",
+        "answer_line": "Far leg open? Take deep half",
+        "distractors": {
+          "plausible": [
+            "Top pressure heavy? Deep half",
+            "Crossface tight? Deep half"
+          ],
+          "trap": [
+            "Always finish the jailbreak"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play in maintaining your defensive options during the jailbreak counter?",
-        "answer": "The free leg serves dual purposes: propulsion for escape attempts and frame creation against the top player's hip repositioning. During an active jailbreak roll, the free leg pushes off the mat to generate rotational momentum. When the roll is stalled, the free leg transitions to framing against the top player's hips to block their walk-around to perpendicular alignment. The free leg should never be passive—it should constantly be either pushing for escape or blocking the pass completion."
+        "answer": "The free leg serves dual purposes: propulsion for escape attempts and frame creation against the top player's hip repositioning. During an active jailbreak roll, the free leg pushes off the mat to generate rotational momentum. When the roll is stalled, the free leg transitions to framing against the top player's hips to block their walk-around to perpendicular alignment. The free leg should never be passive—it should constantly be either pushing for escape or blocking the pass completion.",
+        "answer_line": "Propel escape or frame hips",
+        "distractors": {
+          "plausible": [
+            "Hook their far leg always",
+            "Post on the mat for base"
+          ],
+          "trap": [
+            "Keep it passive, tuck it in"
+          ]
+        }
       },
       {
         "question": "When should you completely abandon the jailbreak attempt and accept half guard recovery as your best outcome?",
-        "answer": "Abandon the jailbreak when three conditions are met simultaneously: the top player has established strong crossface pinning your head flat, your underhook has been significantly compromised by their whizzer or arm control, and you have expended significant energy on failed escape attempts. At this point, continuing to force the jailbreak guarantees failure and depletes resources needed for half guard defense. Immediately transition to recovering knee shield and traditional half guard frames to establish a defensible position."
+        "answer": "Abandon the jailbreak when three conditions are met simultaneously: the top player has established strong crossface pinning your head flat, your underhook has been significantly compromised by their whizzer or arm control, and you have expended significant energy on failed escape attempts. At this point, continuing to force the jailbreak guarantees failure and depletes resources needed for half guard defense. Immediately transition to recovering knee shield and traditional half guard frames to establish a defensible position.",
+        "answer_line": "Pinned, underhook lost, gassed",
+        "distractors": {
+          "plausible": [
+            "Any time crossface is tight",
+            "As soon as hips flatten out"
+          ],
+          "trap": [
+            "Only after being fully mounted"
+          ]
+        }
       }
     ],
     "training_progressions": [

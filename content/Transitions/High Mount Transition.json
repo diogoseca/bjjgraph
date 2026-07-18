@@ -225,43 +225,143 @@
     "flashcards": [
       {
         "question": "What defensive movement from your opponent creates the optimal opportunity for high mount transition?",
-        "answer": "Forward defensive movement such as rolling forward, driving into you, or attempting to posture through the gogoplata creates the optimal opportunity. This forward momentum assists the transition by providing upward energy that you redirect into mount establishment. Lateral escapes do not provide the same momentum advantage."
+        "answer": "Forward defensive movement such as rolling forward, driving into you, or attempting to posture through the gogoplata creates the optimal opportunity. This forward momentum assists the transition by providing upward energy that you redirect into mount establishment. Lateral escapes do not provide the same momentum advantage.",
+        "answer_line": "Forward drive or posture attempt",
+        "distractors": {
+          "plausible": [
+            "Backward retreat to escape",
+            "Lateral hip escape"
+          ],
+          "trap": [
+            "Stand up to escape the shin"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain upper body control throughout the transition?",
-        "answer": "Upper body control prevents the opponent from creating distance during the transition phase when the gogoplata grip is released. Without collar or head control, the opponent can frame, hip escape, or recover guard before you establish mount. The continuous connection ensures they cannot escape during the brief vulnerability window."
+        "answer": "Upper body control prevents the opponent from creating distance during the transition phase when the gogoplata grip is released. Without collar or head control, the opponent can frame, hip escape, or recover guard before you establish mount. The continuous connection ensures they cannot escape during the brief vulnerability window.",
+        "answer_line": "Stops escape during release gap",
+        "distractors": {
+          "plausible": [
+            "Scores extra transition points",
+            "Protects head from strikes"
+          ],
+          "trap": [
+            "Free hands to swing leg over"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip as you attempt to swing your leg over - what adjustment do you make?",
-        "answer": "Swim your knee inside their posting arm before they can fully establish the frame, using your hip escape momentum to beat their hand. Alternatively, transition to knee on belly as an intermediate position, using that platform to clear the frame before advancing to mount. Do not fight the frame directly with strength."
+        "answer": "Swim your knee inside their posting arm before they can fully establish the frame, using your hip escape momentum to beat their hand. Alternatively, transition to knee on belly as an intermediate position, using that platform to clear the frame before advancing to mount. Do not fight the frame directly with strength.",
+        "answer_line": "Swim your knee inside the frame",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist and pull it off",
+            "Switch base, re-shoot later"
+          ],
+          "trap": [
+            "Power through the post by force"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between landing in high mount versus low mount after this transition?",
-        "answer": "High mount with knees in armpits severely limits opponent's bridge power and hip escape options, making retention much easier. Low mount allows full bridge range of motion and stronger shrimping. The momentum from transition should carry you directly into high mount position rather than settling in low mount."
+        "answer": "High mount with knees in armpits severely limits opponent's bridge power and hip escape options, making retention much easier. Low mount allows full bridge range of motion and stronger shrimping. The momentum from transition should carry you directly into high mount position rather than settling in low mount.",
+        "answer_line": "High mount kills bridge and escape",
+        "distractors": {
+          "plausible": [
+            "Low mount is easier to balance",
+            "Both limit escape equally"
+          ],
+          "trap": [
+            "Settle into low mount, it's safer"
+          ]
+        }
       },
       {
         "question": "Why should you wait for opponent's committed defensive movement before releasing the gogoplata?",
-        "answer": "Releasing early allows opponent to simply return to neutral guard without providing the forward momentum needed for mount transition. Their committed defensive movement provides both the directional energy to assist your transition and ensures they cannot immediately recover position. Patience creates the dilemma."
+        "answer": "Releasing early allows opponent to simply return to neutral guard without providing the forward momentum needed for mount transition. Their committed defensive movement provides both the directional energy to assist your transition and ensures they cannot immediately recover position. Patience creates the dilemma.",
+        "answer_line": "Patience creates the dilemma",
+        "distractors": {
+          "plausible": [
+            "Early release saves your energy",
+            "Release at their first flinch"
+          ],
+          "trap": [
+            "Release the instant they tense"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully traps your leg in half guard during the transition - what is your response?",
-        "answer": "Accept half guard top as a temporary position rather than fighting to free the leg immediately. Maintain heavy upper body pressure to prevent guard recovery and work standard half guard passing sequences. The half guard top is still significant positional advancement from bottom gogoplata control."
+        "answer": "Accept half guard top as a temporary position rather than fighting to free the leg immediately. Maintain heavy upper body pressure to prevent guard recovery and work standard half guard passing sequences. The half guard top is still significant positional advancement from bottom gogoplata control.",
+        "answer_line": "Accept half guard top, pressure",
+        "distractors": {
+          "plausible": [
+            "Yank the leg free immediately",
+            "Abandon position, reset neutral"
+          ],
+          "trap": [
+            "Fight the trap, drop your weight"
+          ]
+        }
       },
       {
         "question": "How does this transition create a genuine dilemma for the opponent defending gogoplata?",
-        "answer": "The opponent must choose between accepting gogoplata submission pressure or giving up mount position. Defending the choke through forward movement or posture creates the mounting opportunity. This transforms defense of one threat into exposure to another, embodying systematic position-attack integration."
+        "answer": "The opponent must choose between accepting gogoplata submission pressure or giving up mount position. Defending the choke through forward movement or posture creates the mounting opportunity. This transforms defense of one threat into exposure to another, embodying systematic position-attack integration.",
+        "answer_line": "Defend the choke, expose to mount",
+        "distractors": {
+          "plausible": [
+            "They must choose to tap or stall",
+            "It forces a scoreless stalemate"
+          ],
+          "trap": [
+            "They can safely wait it out"
+          ]
+        }
       },
       {
         "question": "When should you convert this transition to a back take instead of mount?",
-        "answer": "Convert to back take when opponent escapes laterally or turns to turtle rather than moving forward. The same gogoplata release timing applies but you follow their rotational direction with seatbelt grip instead of mounting. Lateral escape angle does not support mount mechanics but creates ideal back take geometry."
+        "answer": "Convert to back take when opponent escapes laterally or turns to turtle rather than moving forward. The same gogoplata release timing applies but you follow their rotational direction with seatbelt grip instead of mounting. Lateral escape angle does not support mount mechanics but creates ideal back take geometry.",
+        "answer_line": "They escape lateral or turtle up",
+        "distractors": {
+          "plausible": [
+            "Any forward escape attempt",
+            "When they posture straight up"
+          ],
+          "trap": [
+            "Chase mount no matter the angle"
+          ]
+        }
       },
       {
         "question": "What specific upper body grip should you establish before releasing the foot from behind opponent's head?",
-        "answer": "Secure a deep collar grip or crossface control with the arm opposite your attacking leg before releasing the foot. This grip must be established while the gogoplata is still threatening, as releasing foot control without pre-established upper body connection creates a gap where the opponent can posture free and disengage entirely."
+        "answer": "Secure a deep collar grip or crossface control with the arm opposite your attacking leg before releasing the foot. This grip must be established while the gogoplata is still threatening, as releasing foot control without pre-established upper body connection creates a gap where the opponent can posture free and disengage entirely.",
+        "answer_line": "Deep collar or crossface first",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm first",
+            "Grip their belt for control"
+          ],
+          "trap": [
+            "Release the foot, then grip up"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by driving their chin into your shin and stalling rather than moving forward or laterally - what do you do?",
-        "answer": "Maintain gogoplata pressure and work to tighten the submission rather than forcing the mount transition. The chin-tuck stall indicates they are not providing momentum in any direction. Increase hip elevation and pull your foot deeper behind their head to intensify the choke. Their stall will eventually break into a forward escape attempt or a tap."
+        "answer": "Maintain gogoplata pressure and work to tighten the submission rather than forcing the mount transition. The chin-tuck stall indicates they are not providing momentum in any direction. Increase hip elevation and pull your foot deeper behind their head to intensify the choke. Their stall will eventually break into a forward escape attempt or a tap.",
+        "answer_line": "Tighten choke, don't force pass",
+        "distractors": {
+          "plausible": [
+            "Release and reset to guard",
+            "Wait passively, change nothing"
+          ],
+          "trap": [
+            "Force the mount transition now"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves rapid position changes that require body awareness and controlled execution. During training, ensure partners communicate clearly about gogoplata pressure levels before releasing to mount. The transition should be practiced at slow speeds initially to develop the movement pattern without risk of knee impacts to partner's ribs during the leg swing. Partners should tap immediately if any joint stress occurs during the position change. Avoid explosive movements until the technique is well-established, as uncontrolled momentum can cause accidental strikes or falls. Practice on mats with adequate padding and ensure sufficient space for the transition movement arc.",
@@ -360,23 +460,73 @@
     "flashcards": [
       {
         "question": "What is the most important recognition cue that the attacker is transitioning from gogoplata to mount?",
-        "answer": "The most reliable cue is the release of the foot from behind your head combined with decreasing shin pressure on the throat. When both of these occur simultaneously, the attacker has committed to the positional transition. Their hand releasing their own ankle is the earliest visual indicator, followed by the hip escape movement."
+        "answer": "The most reliable cue is the release of the foot from behind your head combined with decreasing shin pressure on the throat. When both of these occur simultaneously, the attacker has committed to the positional transition. Their hand releasing their own ankle is the earliest visual indicator, followed by the hip escape movement.",
+        "answer_line": "Foot releases, shin pressure drops",
+        "distractors": {
+          "plausible": [
+            "They grab your collar first",
+            "Their hips shift laterally"
+          ],
+          "trap": [
+            "They tighten shin, no release"
+          ]
+        }
       },
       {
         "question": "Why is driving forward into the gogoplata counterproductive when the attacker knows this transition?",
-        "answer": "Forward pressure is the exact defensive reaction the attacker exploits for the mount transition. Your forward momentum provides the upward energy they redirect into establishing mount. Instead of escaping the gogoplata, you are feeding the attacker's transition by providing directional force they can ride to the top position."
+        "answer": "Forward pressure is the exact defensive reaction the attacker exploits for the mount transition. Your forward momentum provides the upward energy they redirect into establishing mount. Instead of escaping the gogoplata, you are feeding the attacker's transition by providing directional force they can ride to the top position.",
+        "answer_line": "It feeds momentum for their mount",
+        "distractors": {
+          "plausible": [
+            "It tires the attacker out faster",
+            "It loosens their leg control"
+          ],
+          "trap": [
+            "Drive forward to break their grip"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the gogoplata and you successfully frame on their hips - what should your next action be?",
-        "answer": "Immediately posture up and create maximum distance while the attacker is still on bottom without established grips. Drive your weight back through your hips, straighten your spine, and work to disengage from the guard entirely. Do not stay in close range where they can re-establish rubber guard or transition to triangle. Create enough space to begin a guard pass or reset to a neutral standing position."
+        "answer": "Immediately posture up and create maximum distance while the attacker is still on bottom without established grips. Drive your weight back through your hips, straighten your spine, and work to disengage from the guard entirely. Do not stay in close range where they can re-establish rubber guard or transition to triangle. Create enough space to begin a guard pass or reset to a neutral standing position.",
+        "answer_line": "Posture up, create max distance",
+        "distractors": {
+          "plausible": [
+            "Immediately pass to side control",
+            "Sit back and stack their hips"
+          ],
+          "trap": [
+            "Stay close, re-engage grips"
+          ]
+        }
       },
       {
         "question": "When is trapping the leg for half guard recovery a better option than framing to prevent mount entirely?",
-        "answer": "Trap the leg when the attacker has already cleared the hip escape and their leg is actively swinging over your body, making hip frames insufficient to stop the mount. At this stage, framing is too late to prevent mount but the leg is crossing your centerline where it can be caught. Half guard recovery becomes the realistic best-case outcome when the initial defensive window has passed."
+        "answer": "Trap the leg when the attacker has already cleared the hip escape and their leg is actively swinging over your body, making hip frames insufficient to stop the mount. At this stage, framing is too late to prevent mount but the leg is crossing your centerline where it can be caught. Half guard recovery becomes the realistic best-case outcome when the initial defensive window has passed.",
+        "answer_line": "Leg is already swinging over you",
+        "distractors": {
+          "plausible": [
+            "As soon as gogoplata releases",
+            "Before they clear your hip"
+          ],
+          "trap": [
+            "Frame the hips, it's too late"
+          ]
+        }
       },
       {
         "question": "How does understanding the attacker's grip sequence help you time your defense?",
-        "answer": "The attacker must transition grips from controlling their own foot (gogoplata maintenance) to controlling your head or collar (mount establishment). This grip transition creates a brief period where neither control system is fully engaged. Recognizing when they release the foot grip and before they secure the crossface or collar is the optimal defensive window with the highest success rate for prevention."
+        "answer": "The attacker must transition grips from controlling their own foot (gogoplata maintenance) to controlling your head or collar (mount establishment). This grip transition creates a brief period where neither control system is fully engaged. Recognizing when they release the foot grip and before they secure the crossface or collar is the optimal defensive window with the highest success rate for prevention.",
+        "answer_line": "Gap between foot and collar grip",
+        "distractors": {
+          "plausible": [
+            "Any moment the grips feel loose",
+            "When they first touch your collar"
+          ],
+          "trap": [
+            "Wait until crossface is locked"
+          ]
+        }
       }
     ],
     "training_progressions": [

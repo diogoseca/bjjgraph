@@ -272,35 +272,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Roll to Guard from Truck?",
-        "answer": "The optimal timing window is when the opponent shifts their weight forward to set up an upper body attack such as the twister or bow and arrow choke. This forward commitment temporarily reduces their ability to sprawl back and follow your roll. Reading the weight shift through pressure sensitivity on your back and hips is the key timing cue."
+        "answer": "The optimal timing window is when the opponent shifts their weight forward to set up an upper body attack such as the twister or bow and arrow choke. This forward commitment temporarily reduces their ability to sprawl back and follow your roll. Reading the weight shift through pressure sensitivity on your back and hips is the key timing cue.",
+        "answer_line": "Weight shifts forward for attack",
+        "distractors": {
+          "plausible": [
+            "Right after truck is secured",
+            "When opponent starts breathing hard"
+          ],
+          "trap": [
+            "When opponent sprawls back hard"
+          ]
+        }
       },
       {
         "question": "Why must boot pressure be addressed before initiating the forward roll?",
-        "answer": "Boot pressure on the hip locks the figure-four leg entanglement in place by maintaining the perpendicular torque angle. Without reducing this pressure, the trapped leg cannot extract during the rolling motion because the entanglement angle stays locked. Even partial boot pressure reduction creates enough slack for the figure-four to loosen during the rotation."
+        "answer": "Boot pressure on the hip locks the figure-four leg entanglement in place by maintaining the perpendicular torque angle. Without reducing this pressure, the trapped leg cannot extract during the rolling motion because the entanglement angle stays locked. Even partial boot pressure reduction creates enough slack for the figure-four to loosen during the rotation.",
+        "answer_line": "It locks the figure-four angle",
+        "distractors": {
+          "plausible": [
+            "It controls your posting arm",
+            "It prevents hip escape only"
+          ],
+          "trap": [
+            "Boot pressure doesn't matter"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that enables leg extraction during the roll?",
-        "answer": "The forward rolling motion changes the angle of the figure-four entanglement from perpendicular to diagonal, which naturally loosens the configuration. The midpoint of the roll represents maximum angle change and therefore maximum slack in the entanglement. Timing the knee bend and ankle rotation to this midpoint allows extraction with minimal force."
+        "answer": "The forward rolling motion changes the angle of the figure-four entanglement from perpendicular to diagonal, which naturally loosens the configuration. The midpoint of the roll represents maximum angle change and therefore maximum slack in the entanglement. Timing the knee bend and ankle rotation to this midpoint allows extraction with minimal force.",
+        "answer_line": "Roll changes angle to diagonal",
+        "distractors": {
+          "plausible": [
+            "Faster roll speed alone",
+            "Pulling knee straight up"
+          ],
+          "trap": [
+            "Yank the leg at roll start"
+          ]
+        }
       },
       {
         "question": "Your opponent grips your far arm tightly as you attempt to post for the roll - how do you adjust?",
-        "answer": "If the far arm is controlled, you cannot safely post for the roll. Fight the grip first using an elbow pumping motion to strip their wrist control. If the grip is too strong to break, abandon the roll attempt and switch to a hip escape or leg extraction escape that does not require a posting hand. Forcing the roll without the posting arm risks neck injury."
+        "answer": "If the far arm is controlled, you cannot safely post for the roll. Fight the grip first using an elbow pumping motion to strip their wrist control. If the grip is too strong to break, abandon the roll attempt and switch to a hip escape or leg extraction escape that does not require a posting hand. Forcing the roll without the posting arm risks neck injury.",
+        "answer_line": "Strip grip, or switch escapes",
+        "distractors": {
+          "plausible": [
+            "Post with the trapped-side hand",
+            "Power through grip anyway"
+          ],
+          "trap": [
+            "Force the roll without posting"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize immediately after completing the roll?",
-        "answer": "Prioritize framing on the opponent's biceps with both hands to prevent them from immediately passing your legs. This frame creates space and buys time to lock your guard. Once the frame is established, transition to controlling grips: collar and sleeve in gi, or behind the head and wrist in no-gi. The bicep frame prevents the most common post-roll failure of getting passed before guard locks."
+        "answer": "Prioritize framing on the opponent's biceps with both hands to prevent them from immediately passing your legs. This frame creates space and buys time to lock your guard. Once the frame is established, transition to controlling grips: collar and sleeve in gi, or behind the head and wrist in no-gi. The bicep frame prevents the most common post-roll failure of getting passed before guard locks.",
+        "answer_line": "Frame both hands on biceps",
+        "distractors": {
+          "plausible": [
+            "Grab collar and sleeve first",
+            "Control both wrists immediately"
+          ],
+          "trap": [
+            "Pull guard closed right away"
+          ]
+        }
       },
       {
         "question": "Why should the roll go diagonally over the shoulder rather than straight over the head?",
-        "answer": "Rolling diagonally over the near shoulder protects the cervical spine by avoiding vertical compression of the neck vertebrae. The diagonal path also creates a wider rotational arc that changes the leg entanglement angle more effectively, providing better leg extraction. Additionally, the diagonal roll angles your recovery away from the opponent's follow path, making it harder for them to maintain back attachment."
+        "answer": "Rolling diagonally over the near shoulder protects the cervical spine by avoiding vertical compression of the neck vertebrae. The diagonal path also creates a wider rotational arc that changes the leg entanglement angle more effectively, providing better leg extraction. Additionally, the diagonal roll angles your recovery away from the opponent's follow path, making it harder for them to maintain back attachment.",
+        "answer_line": "Protects neck, wider leg arc",
+        "distractors": {
+          "plausible": [
+            "Faster than straight roll",
+            "Keeps shoulder off mat"
+          ],
+          "trap": [
+            "Roll straight over the head"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your roll and starts inserting hooks for back control - what is your response?",
-        "answer": "If the opponent follows and begins inserting hooks, abandon guard recovery and immediately transition to back defense. Tuck your elbows, protect your neck with both hands, and fight the bottom hook first since it provides the foundation for their back control. Use your hips to shrimp away from their chest while hand fighting their choking arm. The roll has still improved your position from truck to back defense."
+        "answer": "If the opponent follows and begins inserting hooks, abandon guard recovery and immediately transition to back defense. Tuck your elbows, protect your neck with both hands, and fight the bottom hook first since it provides the foundation for their back control. Use your hips to shrimp away from their chest while hand fighting their choking arm. The roll has still improved your position from truck to back defense.",
+        "answer_line": "Defend back: fight bottom hook",
+        "distractors": {
+          "plausible": [
+            "Keep chasing guard recovery",
+            "Fight the top hook first"
+          ],
+          "trap": [
+            "Turn to face and push away"
+          ]
+        }
       },
       {
         "question": "What conditions indicate you should choose a different escape instead of the Roll to Guard?",
-        "answer": "Choose a different escape when the opponent's weight is centered or back rather than committed forward, when both of your arms are controlled eliminating the posting hand, when there is insufficient space in front to complete the rolling arc, or when boot pressure is too strong to reduce. In these cases, granby roll, hip escape, or leg extraction offer better success probability because they do not require the same setup conditions."
+        "answer": "Choose a different escape when the opponent's weight is centered or back rather than committed forward, when both of your arms are controlled eliminating the posting hand, when there is insufficient space in front to complete the rolling arc, or when boot pressure is too strong to reduce. In these cases, granby roll, hip escape, or leg extraction offer better success probability because they do not require the same setup conditions.",
+        "answer_line": "Weight centered, both arms held",
+        "distractors": {
+          "plausible": [
+            "Opponent applying more pressure",
+            "Anytime truck feels tight"
+          ],
+          "trap": [
+            "Roll anyway under boot pressure"
+          ]
+        }
       }
     ],
     "safety_considerations": "The forward rolling motion involves cervical spine loading that requires proper technique to execute safely. Always roll diagonally over the shoulder rather than straight over the head to avoid neck compression injuries. Never force the roll if your neck feels jammed or your head is pinned to the mat. If the trapped leg does not extract during the roll, do not repeatedly crank or twist the knee joint - reset and attempt a different escape. Practice solo rolling drills extensively before attempting the technique with resistance. Tap immediately if a submission locks in during a failed escape attempt.",
@@ -418,19 +498,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing a Roll to Guard escape?",
-        "answer": "The earliest cue is aggressive boot fighting with the near hand. When the bottom player shifts from defending the neck and upper body to actively pushing your boot off their hip, they are prioritizing escape over submission defense. This boot fighting precedes the hand posting and chin tuck that immediately precede the roll, giving you the maximum response window."
+        "answer": "The earliest cue is aggressive boot fighting with the near hand. When the bottom player shifts from defending the neck and upper body to actively pushing your boot off their hip, they are prioritizing escape over submission defense. This boot fighting precedes the hand posting and chin tuck that immediately precede the roll, giving you the maximum response window.",
+        "answer_line": "Aggressive boot fighting starts",
+        "distractors": {
+          "plausible": [
+            "Chin tuck and hand posting",
+            "Sudden hip escape attempt"
+          ],
+          "trap": [
+            "Ignore hands, watch legs only"
+          ]
+        }
       },
       {
         "question": "Why does committing your weight forward during twister setups create vulnerability to the Roll to Guard?",
-        "answer": "Forward weight commitment is the primary timing window the bottom player reads to initiate the roll. When your weight shifts forward, you cannot sprawl back to prevent rotation, and your momentum actually assists their forward rolling motion. The bottom player uses your attacking pressure as the catalyst for their escape, converting your offensive energy into their escape momentum."
+        "answer": "Forward weight commitment is the primary timing window the bottom player reads to initiate the roll. When your weight shifts forward, you cannot sprawl back to prevent rotation, and your momentum actually assists their forward rolling motion. The bottom player uses your attacking pressure as the catalyst for their escape, converting your offensive energy into their escape momentum.",
+        "answer_line": "Can't sprawl back, adds momentum",
+        "distractors": {
+          "plausible": [
+            "Twister grip alone is weak",
+            "Opponent gains extra strength"
+          ],
+          "trap": [
+            "Forward weight secures position"
+          ]
+        }
       },
       {
         "question": "When is it better to follow the roll into back control rather than trying to prevent it?",
-        "answer": "Follow the roll when the bottom player has already generated significant forward momentum and your attempts to sprawl or block have failed. At this point, fighting the roll wastes energy and risks losing all control. Staying connected and flowing into back control converts the escape attempt into a position that still favors you, maintaining offensive pressure throughout the transition."
+        "answer": "Follow the roll when the bottom player has already generated significant forward momentum and your attempts to sprawl or block have failed. At this point, fighting the roll wastes energy and risks losing all control. Staying connected and flowing into back control converts the escape attempt into a position that still favors you, maintaining offensive pressure throughout the transition.",
+        "answer_line": "After momentum is unstoppable",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent starts roll",
+            "Only if you have back mount"
+          ],
+          "trap": [
+            "Fight the roll to the end"
+          ]
+        }
       },
       {
         "question": "How does controlling the bottom player's far arm prevent the Roll to Guard escape?",
-        "answer": "The far arm is the posting hand that guides the roll direction and provides the base point for the forward rotation. Without this posting hand, the bottom player cannot perform a controlled diagonal roll over their shoulder. They are limited to uncontrolled tumbling that risks neck injury, which most practitioners will not attempt. Controlling this arm effectively eliminates the Roll to Guard as an option."
+        "answer": "The far arm is the posting hand that guides the roll direction and provides the base point for the forward rotation. Without this posting hand, the bottom player cannot perform a controlled diagonal roll over their shoulder. They are limited to uncontrolled tumbling that risks neck injury, which most practitioners will not attempt. Controlling this arm effectively eliminates the Roll to Guard as an option.",
+        "answer_line": "It's the posting/guiding hand",
+        "distractors": {
+          "plausible": [
+            "It powers the leg extraction",
+            "It controls boot pressure"
+          ],
+          "trap": [
+            "Let them post to bait a sub"
+          ]
+        }
       }
     ],
     "training_progressions": [

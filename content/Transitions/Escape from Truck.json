@@ -246,47 +246,157 @@
     "flashcards": [
       {
         "question": "Your opponent increases boot pressure and begins setting up the twister grip on your far arm - what is your immediate response?",
-        "answer": "Immediately prioritize neck defense by tucking your chin tight and using both hands to fight the twister grip on your far arm. Do not attempt explosive escape movements that would expose your cervical spine. Systematically fight the grip while maintaining chin tuck, then work to clear the boot pressure once the twister threat is neutralized, since the boot generates the torque enabling the twister finish."
+        "answer": "Immediately prioritize neck defense by tucking your chin tight and using both hands to fight the twister grip on your far arm. Do not attempt explosive escape movements that would expose your cervical spine. Systematically fight the grip while maintaining chin tuck, then work to clear the boot pressure once the twister threat is neutralized, since the boot generates the torque enabling the twister finish.",
+        "answer_line": "Tuck chin, hand-fight the grip",
+        "distractors": {
+          "plausible": [
+            "Clear the boot pressure first",
+            "Explode into escape roll now"
+          ],
+          "trap": [
+            "Power through, ignore the grip"
+          ]
+        }
       },
       {
         "question": "What is the most critical control element to neutralize first when escaping from truck position?",
-        "answer": "The boot pressure on your hip is the most critical control element to neutralize after securing neck defense. The boot creates the torque that generates spinal rotation for the twister and maintains the perpendicular body alignment. Without boot pressure, the truck top player loses their primary control engine and all submissions become significantly harder to execute, making leg extraction and escape roll possible."
+        "answer": "The boot pressure on your hip is the most critical control element to neutralize after securing neck defense. The boot creates the torque that generates spinal rotation for the twister and maintains the perpendicular body alignment. Without boot pressure, the truck top player loses their primary control engine and all submissions become significantly harder to execute, making leg extraction and escape roll possible.",
+        "answer_line": "Boot pressure on your hip",
+        "distractors": {
+          "plausible": [
+            "Figure-four leg entanglement",
+            "Their seatbelt/back grip"
+          ],
+          "trap": [
+            "Try to stand up immediately"
+          ]
+        }
       },
       {
         "question": "You successfully clear the boot but your leg remains trapped in the figure-four entanglement - how do you proceed?",
-        "answer": "With the boot cleared, shift focus to leg extraction by circling your trapped ankle inward and rotating your hip to create angular separation within the figure-four entanglement. Use small incremental shrimping movements rather than one explosive pull. If direct extraction fails within a few attempts, initiate the granby roll which uses rotational momentum to break through remaining leg control."
+        "answer": "With the boot cleared, shift focus to leg extraction by circling your trapped ankle inward and rotating your hip to create angular separation within the figure-four entanglement. Use small incremental shrimping movements rather than one explosive pull. If direct extraction fails within a few attempts, initiate the granby roll which uses rotational momentum to break through remaining leg control.",
+        "answer_line": "Circle ankle, shrimp, then granby",
+        "distractors": {
+          "plausible": [
+            "One explosive leg pull",
+            "Granby roll immediately"
+          ],
+          "trap": [
+            "Force straight knee extension"
+          ]
+        }
       },
       {
         "question": "What determines the optimal timing window for initiating the granby roll escape from truck?",
-        "answer": "The optimal timing window occurs when the truck top player shifts weight to set up a submission such as the twister or calf slicer, transitions between attacks, or when you have successfully reduced one of their control points such as clearing the boot or stripping a grip. Attempting escape during fully consolidated control has much lower success rates and wastes energy that accelerates submission vulnerability."
+        "answer": "The optimal timing window occurs when the truck top player shifts weight to set up a submission such as the twister or calf slicer, transitions between attacks, or when you have successfully reduced one of their control points such as clearing the boot or stripping a grip. Attempting escape during fully consolidated control has much lower success rates and wastes energy that accelerates submission vulnerability.",
+        "answer_line": "When they shift for a submission",
+        "distractors": {
+          "plausible": [
+            "As soon as boot clears",
+            "Right after truck is established"
+          ],
+          "trap": [
+            "Wait for fully consolidated control"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from twister setup to calf slicer attack during your escape attempt - how do you adjust?",
-        "answer": "When the opponent switches from twister to calf slicer, your trapped leg is being extended and compressed at the knee. Immediately bend your knee sharply to reduce joint pressure and buy time. Then use the opponent's changed weight distribution and commitment to the leg attack to initiate your forward roll escape. The transition between attacks creates a brief window where their positional control is less stable than during either settled attack."
+        "answer": "When the opponent switches from twister to calf slicer, your trapped leg is being extended and compressed at the knee. Immediately bend your knee sharply to reduce joint pressure and buy time. Then use the opponent's changed weight distribution and commitment to the leg attack to initiate your forward roll escape. The transition between attacks creates a brief window where their positional control is less stable than during either settled attack.",
+        "answer_line": "Bend knee sharp, then roll free",
+        "distractors": {
+          "plausible": [
+            "Straighten leg to resist slicer",
+            "Tuck chin, defend the twister"
+          ],
+          "trap": [
+            "Kick leg free explosively"
+          ]
+        }
       },
       {
         "question": "What hip movement is essential for creating the space needed to extract the trapped leg from truck entanglement?",
-        "answer": "Hip rotation away from the opponent combined with shrimping movement is essential for creating extraction space. By rotating your hips and driving them away from the truck top player, you create angular separation between your trapped leg and their entangling legs, making it possible to circle your ankle free. This movement must be coordinated with boot clearing since the boot prevents effective hip rotation."
+        "answer": "Hip rotation away from the opponent combined with shrimping movement is essential for creating extraction space. By rotating your hips and driving them away from the truck top player, you create angular separation between your trapped leg and their entangling legs, making it possible to circle your ankle free. This movement must be coordinated with boot clearing since the boot prevents effective hip rotation.",
+        "answer_line": "Rotate hips away while shrimping",
+        "distractors": {
+          "plausible": [
+            "Shrimp only, no hip rotation",
+            "Rotate hips toward opponent"
+          ],
+          "trap": [
+            "Bridge straight up hard"
+          ]
+        }
       },
       {
         "question": "You begin the granby roll but the opponent follows your rotation maintaining back exposure - what should you do?",
-        "answer": "If the opponent follows your granby roll rotation, use their forward momentum against them by continuing the roll without stopping and transitioning to a sit-out or scramble sequence. You can switch to a sit-out motion mid-roll, turning into the opponent to achieve a reversal. The key is never stopping mid-roll, as incomplete rolls leave you in worse positions with your back fully exposed and no defensive frames established."
+        "answer": "If the opponent follows your granby roll rotation, use their forward momentum against them by continuing the roll without stopping and transitioning to a sit-out or scramble sequence. You can switch to a sit-out motion mid-roll, turning into the opponent to achieve a reversal. The key is never stopping mid-roll, as incomplete rolls leave you in worse positions with your back fully exposed and no defensive frames established.",
+        "answer_line": "Keep rolling into a sit-out",
+        "distractors": {
+          "plausible": [
+            "Stop and reset base",
+            "Reverse direction mid-roll"
+          ],
+          "trap": [
+            "Freeze and turtle up"
+          ]
+        }
       },
       {
         "question": "Why must neck protection be maintained throughout the entire escape sequence rather than only at the beginning?",
-        "answer": "The twister targets the cervical spine and can cause serious injury with very little warning before damage occurs. Even during active escape sequences, momentary exposure of the neck can allow the truck top player to reestablish the twister grip and lock the rotation before you can defend. Maintaining chin tuck and hand fighting near the neck throughout ensures that escape movements do not inadvertently create submission openings for the opponent."
+        "answer": "The twister targets the cervical spine and can cause serious injury with very little warning before damage occurs. Even during active escape sequences, momentary exposure of the neck can allow the truck top player to reestablish the twister grip and lock the rotation before you can defend. Maintaining chin tuck and hand fighting near the neck throughout ensures that escape movements do not inadvertently create submission openings for the opponent.",
+        "answer_line": "Momentary exposure = twister risk",
+        "distractors": {
+          "plausible": [
+            "Only matters at the start",
+            "Neck defense slows escape speed"
+          ],
+          "trap": [
+            "Drop chin tuck to move faster"
+          ]
+        }
       },
       {
         "question": "What are the entry conditions required before you can realistically attempt the granby roll escape?",
-        "answer": "Before attempting the granby roll, you must have secured neck defense to prevent twister during the roll, cleared or significantly reduced boot pressure on your hip so you can generate the rotational movement, and ideally loosened the leg entanglement enough that rotational momentum can break through the remaining control. Additionally, you need sufficient mat space behind your head to complete the roll and enough energy to commit fully to the rotation without stopping halfway."
+        "answer": "Before attempting the granby roll, you must have secured neck defense to prevent twister during the roll, cleared or significantly reduced boot pressure on your hip so you can generate the rotational movement, and ideally loosened the leg entanglement enough that rotational momentum can break through the remaining control. Additionally, you need sufficient mat space behind your head to complete the roll and enough energy to commit fully to the rotation without stopping halfway.",
+        "answer_line": "Neck safe, boot cleared, space",
+        "distractors": {
+          "plausible": [
+            "Just enough space to roll",
+            "Full boot clear only"
+          ],
+          "trap": [
+            "Attempt anytime with energy"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the granby roll escape and the hip escape to half guard variant?",
-        "answer": "The granby roll generates rotational force backward over your shoulder, using circular momentum to break through leg entanglement and create distance. The hip escape variant generates linear force laterally away from the opponent through shrimping, creating angular separation to extract the trapped leg incrementally. The granby is explosive and decisive but requires more space and commitment, while the hip escape is incremental and conservative but works in tighter spaces where rolling is not feasible."
+        "answer": "The granby roll generates rotational force backward over your shoulder, using circular momentum to break through leg entanglement and create distance. The hip escape variant generates linear force laterally away from the opponent through shrimping, creating angular separation to extract the trapped leg incrementally. The granby is explosive and decisive but requires more space and commitment, while the hip escape is incremental and conservative but works in tighter spaces where rolling is not feasible.",
+        "answer_line": "Granby rotates, hip escape shrimps",
+        "distractors": {
+          "plausible": [
+            "Both use lateral shrimping",
+            "Granby is linear, hip spins"
+          ],
+          "trap": [
+            "Granby needs no rotation, just push"
+          ]
+        }
       },
       {
         "question": "Your opponent has loose upper body control but maintains strong boot pressure and tight leg entanglement - which escape variant should you prioritize?",
-        "answer": "With loose upper body control but strong lower body entanglement, prioritize the hip escape to half guard variant. The loose upper body means you can use both hands to address the boot and leg entanglement without risking immediate twister or choke. Shrimping movements will create incremental space for leg extraction since the opponent cannot follow your hip movement effectively without upper body connection. Rolling escapes are riskier here because the tight leg entanglement may prevent the roll from breaking through cleanly."
+        "answer": "With loose upper body control but strong lower body entanglement, prioritize the hip escape to half guard variant. The loose upper body means you can use both hands to address the boot and leg entanglement without risking immediate twister or choke. Shrimping movements will create incremental space for leg extraction since the opponent cannot follow your hip movement effectively without upper body connection. Rolling escapes are riskier here because the tight leg entanglement may prevent the roll from breaking through cleanly.",
+        "answer_line": "Hip escape to half guard",
+        "distractors": {
+          "plausible": [
+            "Granby roll for speed",
+            "Attack the boot only, no shrimp"
+          ],
+          "trap": [
+            "Roll now while legs are tight"
+          ]
+        }
       }
     ],
     "safety_considerations": "The truck position threatens the twister (spinal lock) and calf slicer (knee compression), both of which can cause serious injury with minimal warning. Tap immediately when you feel rotational pressure on your cervical spine or compression on your knee joint. During training, communicate clearly with your partner about pressure levels and never attempt explosive escapes that could injure either practitioner. The twister in particular can damage cervical vertebrae and spinal ligaments before pain signals fully register. Prioritize training longevity over ego-driven resistance to tapping.",
@@ -394,23 +504,73 @@
     "flashcards": [
       {
         "question": "What visual cue indicates the bottom player is about to attempt a granby roll escape from truck?",
-        "answer": "The bottom player will post their free hand on the mat near their shoulder, tuck their head tight to their chest, and begin loading weight onto their upper back and shoulder in preparation for the roll. They may also rotate their hips upward to generate rotational momentum. Recognizing these preparatory movements allows you to increase boot pressure, flatten them with chest weight, or transition to back control before the roll initiates."
+        "answer": "The bottom player will post their free hand on the mat near their shoulder, tuck their head tight to their chest, and begin loading weight onto their upper back and shoulder in preparation for the roll. They may also rotate their hips upward to generate rotational momentum. Recognizing these preparatory movements allows you to increase boot pressure, flatten them with chest weight, or transition to back control before the roll initiates.",
+        "answer_line": "Posts hand, tucks head, loads back",
+        "distractors": {
+          "plausible": [
+            "Reaches for your far collar",
+            "Pushes both hands into your hips"
+          ],
+          "trap": [
+            "Relaxes and stops moving"
+          ]
+        }
       },
       {
         "question": "How should you adjust your control when you feel the bottom player beginning to fight your boot on their hip?",
-        "answer": "Increase boot pressure by driving your foot deeper into their hip and adding forward chest pressure to flatten them and restrict their hand fighting range. If they continue fighting the boot despite increased pressure, consider immediately transitioning to a submission attack like the calf slicer or twister to punish the hand fighting, or begin transitioning to back control to capitalize on their defensive focus."
+        "answer": "Increase boot pressure by driving your foot deeper into their hip and adding forward chest pressure to flatten them and restrict their hand fighting range. If they continue fighting the boot despite increased pressure, consider immediately transitioning to a submission attack like the calf slicer or twister to punish the hand fighting, or begin transitioning to back control to capitalize on their defensive focus.",
+        "answer_line": "Drive boot deeper, add chest weight",
+        "distractors": {
+          "plausible": [
+            "Release boot, chase the arm",
+            "Sit back and reassess grips"
+          ],
+          "trap": [
+            "Ease pressure to conserve energy"
+          ]
+        }
       },
       {
         "question": "What is the primary risk when the bottom player successfully clears your boot from their hip?",
-        "answer": "Without boot pressure, your ability to generate torque and maintain the perpendicular control angle is severely compromised. The bottom player can now rotate their hips freely, extract their trapped leg much more easily, and initiate escape rolls that you cannot resist through leg entanglement alone. You should immediately either re-establish boot pressure, transition to back control by inserting hooks, or commit to a submission before they complete the escape."
+        "answer": "Without boot pressure, your ability to generate torque and maintain the perpendicular control angle is severely compromised. The bottom player can now rotate their hips freely, extract their trapped leg much more easily, and initiate escape rolls that you cannot resist through leg entanglement alone. You should immediately either re-establish boot pressure, transition to back control by inserting hooks, or commit to a submission before they complete the escape.",
+        "answer_line": "Lose torque, they escape the roll",
+        "distractors": {
+          "plausible": [
+            "Minor loss, truck still safe",
+            "Only affects submission attempts"
+          ],
+          "trap": [
+            "Chase the arm for twister anyway"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped leg from the entanglement - what should you prioritize?",
-        "answer": "Prioritize maintaining the leg entanglement by squeezing your controlling leg tighter and adjusting your hook position to close the space they created. If extraction seems inevitable, immediately transition to a calf slicer attack using their partially extended leg as leverage, or abandon leg control entirely and transition to back control by establishing hooks and seatbelt grip before they achieve full guard recovery."
+        "answer": "Prioritize maintaining the leg entanglement by squeezing your controlling leg tighter and adjusting your hook position to close the space they created. If extraction seems inevitable, immediately transition to a calf slicer attack using their partially extended leg as leverage, or abandon leg control entirely and transition to back control by establishing hooks and seatbelt grip before they achieve full guard recovery.",
+        "answer_line": "Squeeze tighter or take the back",
+        "distractors": {
+          "plausible": [
+            "Let leg go, chase submission arm",
+            "Reset entanglement from scratch"
+          ],
+          "trap": [
+            "Release everything, stand up"
+          ]
+        }
       },
       {
         "question": "When should you abandon truck maintenance and transition to back control instead?",
-        "answer": "Transition to back control when you cannot maintain boot pressure despite adjustments, your leg entanglement is loosening and leg extraction appears imminent, or the bottom player has successfully cleared one major control point and is progressing through their escape sequence. Back control preserves your dominant position and scoring potential rather than risking a complete loss of control from a deteriorating truck position."
+        "answer": "Transition to back control when you cannot maintain boot pressure despite adjustments, your leg entanglement is loosening and leg extraction appears imminent, or the bottom player has successfully cleared one major control point and is progressing through their escape sequence. Back control preserves your dominant position and scoring potential rather than risking a complete loss of control from a deteriorating truck position.",
+        "answer_line": "Boot lost, leg control slipping",
+        "distractors": {
+          "plausible": [
+            "Only when fully swept",
+            "Wait for a tap before switching"
+          ],
+          "trap": [
+            "Never abandon, hold truck"
+          ]
+        }
       }
     ],
     "training_progressions": [

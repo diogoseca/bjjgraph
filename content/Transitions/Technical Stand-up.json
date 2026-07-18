@@ -235,51 +235,171 @@
     "flashcards": [
       {
         "question": "What are the three points of contact that form the tripod base during the technical stand-up?",
-        "answer": "The three points are: (1) the posting hand placed behind the hip, (2) the lead leg foot planted flat on the mat with knee up, and (3) the trail leg foot. These three points create a stable triangular base that supports your weight during hip elevation and allows for the controlled leg swing to complete the stand-up. The triangular geometry distributes force evenly and prevents collapse from any single direction of pressure."
+        "answer": "The three points are: (1) the posting hand placed behind the hip, (2) the lead leg foot planted flat on the mat with knee up, and (3) the trail leg foot. These three points create a stable triangular base that supports your weight during hip elevation and allows for the controlled leg swing to complete the stand-up. The triangular geometry distributes force evenly and prevents collapse from any single direction of pressure.",
+        "answer_line": "Posting hand, lead foot, trail foot",
+        "distractors": {
+          "plausible": [
+            "Both hands, lead foot only",
+            "Posting hand, both feet flat"
+          ],
+          "trap": [
+            "Both knees and posting hand"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain visual contact with your opponent throughout the technical stand-up?",
-        "answer": "Visual contact is critical because it allows you to track opponent movement and time their attacks, prevents them from closing distance unnoticed, enables you to see and react to grip attempts or pressure changes, and maintains situational awareness during a vulnerable transition. Looking away creates opportunities for opponent to time their attack perfectly when you're mid-transition and unable to defend effectively. Your head position also governs your body alignment — looking down collapses your posture."
+        "answer": "Visual contact is critical because it allows you to track opponent movement and time their attacks, prevents them from closing distance unnoticed, enables you to see and react to grip attempts or pressure changes, and maintains situational awareness during a vulnerable transition. Looking away creates opportunities for opponent to time their attack perfectly when you're mid-transition and unable to defend effectively. Your head position also governs your body alignment — looking down collapses your posture.",
+        "answer_line": "Track opponent, time attacks",
+        "distractors": {
+          "plausible": [
+            "Watch your own hands only",
+            "Focus on grip fighting only"
+          ],
+          "trap": [
+            "Look down to protect chin"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the technical stand-up from seated guard?",
-        "answer": "The optimal timing window occurs when the opponent is either resetting their grips, transitioning their weight between feet, or momentarily out of effective attacking range. Specifically, initiate when opponent steps back to reset their passing approach, when they look away or shift attention to grip fighting, or immediately after you've successfully broken their controlling grips. Attempting the stand-up while opponent has strong forward pressure or established grips dramatically reduces success rate. The window typically lasts 1-2 seconds."
+        "answer": "The optimal timing window occurs when the opponent is either resetting their grips, transitioning their weight between feet, or momentarily out of effective attacking range. Specifically, initiate when opponent steps back to reset their passing approach, when they look away or shift attention to grip fighting, or immediately after you've successfully broken their controlling grips. Attempting the stand-up while opponent has strong forward pressure or established grips dramatically reduces success rate. The window typically lasts 1-2 seconds.",
+        "answer_line": "Opponent resets grips or weight",
+        "distractors": {
+          "plausible": [
+            "Anytime after breaking guard",
+            "Only when fully out of range"
+          ],
+          "trap": [
+            "During their forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your lead knee as you begin the hip elevation phase — how do you adjust?",
-        "answer": "If opponent posts on your lead knee, they are attempting to pin it and collapse your barrier. Immediately redirect the lead leg by angling your foot outward and pushing their hand off with a circular knee motion. Alternatively, switch to extending the lead leg fully into their hip to create a longer barrier they cannot easily control. If the knee control is strong, abandon the current attempt and switch sides — post with the opposite hand and use the other leg as the new lead barrier. The worst response is to try to power through their post, which collapses your structure."
+        "answer": "If opponent posts on your lead knee, they are attempting to pin it and collapse your barrier. Immediately redirect the lead leg by angling your foot outward and pushing their hand off with a circular knee motion. Alternatively, switch to extending the lead leg fully into their hip to create a longer barrier they cannot easily control. If the knee control is strong, abandon the current attempt and switch sides — post with the opposite hand and use the other leg as the new lead barrier. The worst response is to try to power through their post, which collapses your structure.",
+        "answer_line": "Angle foot out, clear the hand",
+        "distractors": {
+          "plausible": [
+            "Switch sides immediately",
+            "Pull knee back to guard"
+          ],
+          "trap": [
+            "Power through their post"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement detail that determines whether the trail leg swing succeeds or fails?",
-        "answer": "The critical detail is achieving full hip extension before initiating the leg swing. The hips must rise high enough that there is a clear gap between your glutes and the mat — typically 12-18 inches of clearance. This height creates the space needed for the trail leg to swing through without catching on the mat or being blocked by opponent. If hips are only partially elevated, the leg swing arc is too shallow and the foot drags or gets trapped. The hip drive should be vertical, not forward, pushing toward the ceiling while maintaining the tripod base."
+        "answer": "The critical detail is achieving full hip extension before initiating the leg swing. The hips must rise high enough that there is a clear gap between your glutes and the mat — typically 12-18 inches of clearance. This height creates the space needed for the trail leg to swing through without catching on the mat or being blocked by opponent. If hips are only partially elevated, the leg swing arc is too shallow and the foot drags or gets trapped. The hip drive should be vertical, not forward, pushing toward the ceiling while maintaining the tripod base.",
+        "answer_line": "Full hip rise, clear the mat",
+        "distractors": {
+          "plausible": [
+            "Swing leg before hips rise",
+            "Speed matters more than height"
+          ],
+          "trap": [
+            "Partial hip rise is enough"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent grabs your posting arm during the technical stand-up?",
-        "answer": "If the posting arm is compromised, immediately abandon that posting position and pull the arm free while rotating toward the opponent to establish guard position. You can post with the other hand while circling away, transition to Turtle position for defensive posture, or convert to a guard position like Closed Guard or Butterfly Guard depending on opponent's position. Never try to complete the stand-up with a collapsed or controlled posting arm as this will result in being driven to your back with no base to recover."
+        "answer": "If the posting arm is compromised, immediately abandon that posting position and pull the arm free while rotating toward the opponent to establish guard position. You can post with the other hand while circling away, transition to Turtle position for defensive posture, or convert to a guard position like Closed Guard or Butterfly Guard depending on opponent's position. Never try to complete the stand-up with a collapsed or controlled posting arm as this will result in being driven to your back with no base to recover.",
+        "answer_line": "Free arm, rotate to guard",
+        "distractors": {
+          "plausible": [
+            "Push arm free, stay standing",
+            "Post with same arm anyway"
+          ],
+          "trap": [
+            "Force the stand-up regardless"
+          ]
+        }
       },
       {
         "question": "What grip configurations must exist before you can safely attempt a technical stand-up, and which grips should you break first?",
-        "answer": "Before attempting the technical stand-up, you must be free of any controlling grips on your collar, sleeves, or legs that would allow opponent to pull you off-balance during the transition. Priority grip breaks in order: (1) collar grips that control your posture and head position, (2) sleeve grips on the arm you intend to post with, (3) pants grips on your lead leg. You can initiate the stand-up with opponent holding a far-side sleeve grip since your posting arm is free, but never with a same-side sleeve grip on your posting arm or a deep collar grip."
+        "answer": "Before attempting the technical stand-up, you must be free of any controlling grips on your collar, sleeves, or legs that would allow opponent to pull you off-balance during the transition. Priority grip breaks in order: (1) collar grips that control your posture and head position, (2) sleeve grips on the arm you intend to post with, (3) pants grips on your lead leg. You can initiate the stand-up with opponent holding a far-side sleeve grip since your posting arm is free, but never with a same-side sleeve grip on your posting arm or a deep collar grip.",
+        "answer_line": "Break collar, sleeve, then pants",
+        "distractors": {
+          "plausible": [
+            "Break pants grip first",
+            "Break sleeve before collar"
+          ],
+          "trap": [
+            "Attempt with posting arm held"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application during the hip elevation phase, and why do many practitioners get this wrong?",
-        "answer": "The correct force direction is vertically upward — driving hips toward the ceiling, not forward toward the opponent. Many practitioners instinctively push forward because they are trying to create distance from opponent, but forward force compromises the tripod base by shifting weight off the posting hand. Vertical hip drive maintains equal pressure on all three base points (posting hand, lead foot, trail foot) and creates maximum clearance for the trail leg swing. Forward hip drive also moves your center of mass over your lead leg, making you vulnerable to being pushed sideways."
+        "answer": "The correct force direction is vertically upward — driving hips toward the ceiling, not forward toward the opponent. Many practitioners instinctively push forward because they are trying to create distance from opponent, but forward force compromises the tripod base by shifting weight off the posting hand. Vertical hip drive maintains equal pressure on all three base points (posting hand, lead foot, trail foot) and creates maximum clearance for the trail leg swing. Forward hip drive also moves your center of mass over your lead leg, making you vulnerable to being pushed sideways.",
+        "answer_line": "Vertical hip drive, not forward",
+        "distractors": {
+          "plausible": [
+            "Equal drive up and forward",
+            "Push through posting hand only"
+          ],
+          "trap": [
+            "Push hips forward for distance"
+          ]
+        }
       },
       {
         "question": "Your opponent defends your technical stand-up by immediately shooting a double leg as you reach the sprinter stance — what is the optimal counter?",
-        "answer": "At the sprinter stance phase, your hands are transitioning from mat to defensive position, making you momentarily vulnerable. The optimal counter depends on timing: if you detect the shot early (during weight transfer), immediately drop back to seated guard and use your still-low position to stuff the shot with frames on their shoulders. If the shot arrives as you're standing, sprawl hard with your hips back while driving crossface pressure with your lead hand. From the sprinter stance specifically, you can also use a knee-tap counter by pulling your lead knee back while snapping their head down, since they are driving into a relatively narrow base."
+        "answer": "At the sprinter stance phase, your hands are transitioning from mat to defensive position, making you momentarily vulnerable. The optimal counter depends on timing: if you detect the shot early (during weight transfer), immediately drop back to seated guard and use your still-low position to stuff the shot with frames on their shoulders. If the shot arrives as you're standing, sprawl hard with your hips back while driving crossface pressure with your lead hand. From the sprinter stance specifically, you can also use a knee-tap counter by pulling your lead knee back while snapping their head down, since they are driving into a relatively narrow base.",
+        "answer_line": "Sprawl hips back, crossface",
+        "distractors": {
+          "plausible": [
+            "Retreat to guard immediately",
+            "Grab a front headlock"
+          ],
+          "trap": [
+            "Turn and try to run"
+          ]
+        }
       },
       {
         "question": "In what scenarios would you abandon the technical stand-up mid-execution and transition to a guard position instead?",
-        "answer": "You should abandon the technical stand-up and transition to guard when: (1) opponent successfully grabs your posting arm and compromises your base, (2) opponent times their forward pressure to catch you during hip elevation before the leg swing, (3) opponent secures strong control of your lead leg before you can complete the movement, (4) you recognize that completing the stand-up will put you in a worse position than re-establishing guard, or (5) opponent's position and grips make guard recovery the higher percentage option. The key is developing the awareness to recognize when persistence with the technique is lower percentage than adapting to a guard position."
+        "answer": "You should abandon the technical stand-up and transition to guard when: (1) opponent successfully grabs your posting arm and compromises your base, (2) opponent times their forward pressure to catch you during hip elevation before the leg swing, (3) opponent secures strong control of your lead leg before you can complete the movement, (4) you recognize that completing the stand-up will put you in a worse position than re-establishing guard, or (5) opponent's position and grips make guard recovery the higher percentage option. The key is developing the awareness to recognize when persistence with the technique is lower percentage than adapting to a guard position.",
+        "answer_line": "Base or leg control compromised",
+        "distractors": {
+          "plausible": [
+            "Whenever opponent moves at all",
+            "Only after multiple attempts"
+          ],
+          "trap": [
+            "Never abandon, push through"
+          ]
+        }
       },
       {
         "question": "How can the technical stand-up be chained with a single leg attack if the opponent follows your stand-up with forward pressure?",
-        "answer": "As you complete the stand-up and opponent follows with forward pressure, their lead leg is typically advanced and weight-committed. From your defensive stance, immediately level change and attack their lead leg with a single leg entry — your trail hand (former posting hand) is already low and can hook behind their knee while your lead hand controls their head or collar. The opponent's forward momentum works against them because their weight is committed over the lead leg. This chain is particularly effective because opponent expects you to retreat after standing, not attack. The key timing cue is when their lead foot plants as they step forward to re-engage."
+        "answer": "As you complete the stand-up and opponent follows with forward pressure, their lead leg is typically advanced and weight-committed. From your defensive stance, immediately level change and attack their lead leg with a single leg entry — your trail hand (former posting hand) is already low and can hook behind their knee while your lead hand controls their head or collar. The opponent's forward momentum works against them because their weight is committed over the lead leg. This chain is particularly effective because opponent expects you to retreat after standing, not attack. The key timing cue is when their lead foot plants as they step forward to re-engage.",
+        "answer_line": "Level change, attack lead leg",
+        "distractors": {
+          "plausible": [
+            "Push away to create space",
+            "Grab a collar tie instead"
+          ],
+          "trap": [
+            "Backpedal away from pressure"
+          ]
+        }
       },
       {
         "question": "How does the technical stand-up integrate with Single Leg X-Guard or other leg entanglement positions?",
-        "answer": "The technical stand-up can be executed while maintaining control of opponent's leg in Single Leg X-Guard by using the controlled leg as a reference point while performing the standard mechanics. The grounded leg creates your lead leg barrier position while you post with your hand and elevate hips. As you swing your trail leg through to stand, you maintain leg control which can transition into a Single Leg Takedown attempt or force the opponent to disengage their passing attempt. This integration requires coordinating leg control pressure while executing the stand-up mechanics and creates offensive opportunities rather than just defensive escape."
+        "answer": "The technical stand-up can be executed while maintaining control of opponent's leg in Single Leg X-Guard by using the controlled leg as a reference point while performing the standard mechanics. The grounded leg creates your lead leg barrier position while you post with your hand and elevate hips. As you swing your trail leg through to stand, you maintain leg control which can transition into a Single Leg Takedown attempt or force the opponent to disengage their passing attempt. This integration requires coordinating leg control pressure while executing the stand-up mechanics and creates offensive opportunities rather than just defensive escape.",
+        "answer_line": "Keep leg control while posting",
+        "distractors": {
+          "plausible": [
+            "Release leg, then post",
+            "Post first, control leg after"
+          ],
+          "trap": [
+            "Let go of leg to stand faster"
+          ]
+        }
       }
     ],
     "safety_considerations": "The technical stand-up is a relatively safe movement with low injury risk when executed properly. Primary safety concerns include posting hand placement to avoid wrist injury — ensure the wrist is not bent at extreme angles and the hand is placed on firm, flat surface rather than uneven mats. Avoid posting with fingers pointed toward your body as this can hyperextend the wrist under load. For practitioners with shoulder issues, the posting position may cause discomfort; modify by using the forearm to post instead of the flat hand. During hip elevation, be aware of your surroundings to avoid kicking training partners or equipment with the swinging leg. When training with resistance, do not persist with the technique if your base is compromised as this can result in awkward falls. In self-defense contexts, be aware that the posting hand is temporarily weight-bearing and cannot defend strikes, so timing and distance management are critical. Practitioners with knee injuries should be cautious with the lead leg position and ensure the knee is not placed at uncomfortable angles during the barrier phase.",
@@ -402,23 +522,73 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for disrupting a technical stand-up, and what happens if you miss it?",
-        "answer": "The critical window is during the hip elevation phase — the 1-2 seconds between when the opponent's hips begin to leave the mat and when their trail leg completes its swing through. During this window, the opponent is committed to the movement but has only two stable base points (posting hand and lead foot), making them structurally vulnerable to forward pressure or base collapse. If you miss this window and the trail leg plants, the opponent now has a strong sprinter stance with full weight on both feet, making them extremely difficult to drive backward and giving them access to defensive sprawls, snap-downs, and counter-attacks."
+        "answer": "The critical window is during the hip elevation phase — the 1-2 seconds between when the opponent's hips begin to leave the mat and when their trail leg completes its swing through. During this window, the opponent is committed to the movement but has only two stable base points (posting hand and lead foot), making them structurally vulnerable to forward pressure or base collapse. If you miss this window and the trail leg plants, the opponent now has a strong sprinter stance with full weight on both feet, making them extremely difficult to drive backward and giving them access to defensive sprawls, snap-downs, and counter-attacks.",
+        "answer_line": "During hip elevation, base weak",
+        "distractors": {
+          "plausible": [
+            "After trail leg plants",
+            "Before hands touch the mat"
+          ],
+          "trap": [
+            "Wait for full stand to attack"
+          ]
+        }
       },
       {
         "question": "Why is controlling the posting arm considered the highest-priority defensive action against the technical stand-up?",
-        "answer": "The posting arm is the structural keystone of the tripod base — without it, the opponent cannot elevate their hips high enough for the trail leg to swing through, and the entire movement collapses. The posting arm supports approximately 30-40% of body weight during hip elevation, so removing it eliminates the mechanical foundation of the technique. Unlike the lead leg barrier, which primarily blocks your advance, the posting arm is load-bearing and cannot be easily replaced mid-movement. Controlling it early forces the opponent to abort entirely, while controlling the lead leg only partially disrupts the sequence."
+        "answer": "The posting arm is the structural keystone of the tripod base — without it, the opponent cannot elevate their hips high enough for the trail leg to swing through, and the entire movement collapses. The posting arm supports approximately 30-40% of body weight during hip elevation, so removing it eliminates the mechanical foundation of the technique. Unlike the lead leg barrier, which primarily blocks your advance, the posting arm is load-bearing and cannot be easily replaced mid-movement. Controlling it early forces the opponent to abort entirely, while controlling the lead leg only partially disrupts the sequence.",
+        "answer_line": "It's load-bearing, can't replace",
+        "distractors": {
+          "plausible": [
+            "It blocks their advance",
+            "It's the easiest grip to get"
+          ],
+          "trap": [
+            "Focus on lead leg only"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully stands up from seated guard — what should your immediate tactical response be?",
-        "answer": "If the stand-up completes successfully, immediately close distance and re-engage with grips rather than allowing neutral standing at distance. Establish a collar tie or underhook to prevent them from simply disengaging. If you had strong grips before the stand-up, use them to immediately snap down to front headlock or shoot for a takedown while opponent is still finding their balance in the new stance. The worst response is to stand at distance passively — this rewards the stand-up and resets completely. Alternatively, if you are a guard player yourself, consider pulling guard to transition to your own bottom game rather than engaging in a standing battle."
+        "answer": "If the stand-up completes successfully, immediately close distance and re-engage with grips rather than allowing neutral standing at distance. Establish a collar tie or underhook to prevent them from simply disengaging. If you had strong grips before the stand-up, use them to immediately snap down to front headlock or shoot for a takedown while opponent is still finding their balance in the new stance. The worst response is to stand at distance passively — this rewards the stand-up and resets completely. Alternatively, if you are a guard player yourself, consider pulling guard to transition to your own bottom game rather than engaging in a standing battle.",
+        "answer_line": "Close distance, re-engage grips",
+        "distractors": {
+          "plausible": [
+            "Wait for them to attack first",
+            "Pull guard immediately always"
+          ],
+          "trap": [
+            "Stand back at distance"
+          ]
+        }
       },
       {
         "question": "How do you differentiate between a genuine technical stand-up attempt and a feint designed to create a sweep opening?",
-        "answer": "A genuine stand-up shows full commitment: posting hand firmly planted with locked elbow, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended."
+        "answer": "A genuine stand-up shows full commitment: posting hand firmly planted with locked elbow, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended.",
+        "answer_line": "Feel real weight transfer",
+        "distractors": {
+          "plausible": [
+            "Watch their eyes only",
+            "Any hand post means real"
+          ],
+          "trap": [
+            "Rush forward on any post"
+          ]
+        }
       },
       {
         "question": "What grip combination is most effective for preventing technical stand-up initiation from seated guard top position?",
-        "answer": "A cross-collar grip combined with same-side sleeve or wrist control on the arm the opponent intends to post with is the most effective prevention grip. The collar grip breaks their posture and prevents them from sitting fully upright, which is required to establish the posting hand behind their hip. The sleeve grip on the posting arm directly prevents them from placing the hand on the mat. This combination forces them to spend time fighting grips before they can even begin the stand-up sequence, giving you time to advance your passing position. The collar grip is particularly important because even without the sleeve grip, it alone prevents the upright posture needed for effective posting."
+        "answer": "A cross-collar grip combined with same-side sleeve or wrist control on the arm the opponent intends to post with is the most effective prevention grip. The collar grip breaks their posture and prevents them from sitting fully upright, which is required to establish the posting hand behind their hip. The sleeve grip on the posting arm directly prevents them from placing the hand on the mat. This combination forces them to spend time fighting grips before they can even begin the stand-up sequence, giving you time to advance your passing position. The collar grip is particularly important because even without the sleeve grip, it alone prevents the upright posture needed for effective posting.",
+        "answer_line": "Cross-collar plus post-arm sleeve",
+        "distractors": {
+          "plausible": [
+            "Pants grip on lead leg",
+            "Both sleeve grips only"
+          ],
+          "trap": [
+            "Grab far-side sleeve only"
+          ]
+        }
       }
     ],
     "training_progressions": [

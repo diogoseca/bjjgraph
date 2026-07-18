@@ -216,27 +216,87 @@
     "flashcards": [
       {
         "question": "What is the single control that must stay constant throughout the New York Control entry from Rubber Guard?",
-        "answer": "The deep overhook on the trapped-arm side must stay locked throughout the entire entry. It is the anchor that keeps the opponent's arm trapped and posture broken while the controlling leg walks upward. If the overhook loosens to free a hand, the opponent extracts the arm and postures up, collapsing the rubber guard before the leg ever reaches the shoulder."
+        "answer": "The deep overhook on the trapped-arm side must stay locked throughout the entire entry. It is the anchor that keeps the opponent's arm trapped and posture broken while the controlling leg walks upward. If the overhook loosens to free a hand, the opponent extracts the arm and postures up, collapsing the rubber guard before the leg ever reaches the shoulder.",
+        "answer_line": "Keep the deep overhook locked",
+        "distractors": {
+          "plausible": [
+            "Keep the controlling leg heavy",
+            "Keep hips square to opponent"
+          ],
+          "trap": [
+            "Free a hand to help the leg climb"
+          ]
+        }
       },
       {
         "question": "When is the correct moment to walk the controlling leg up onto the opponent's shoulder?",
-        "answer": "Only when the opponent's posture is already broken and their head sits below their hip line. In that window, raising the leg off the back meets no posture resistance. If you walk the leg up while the opponent is posturing, you remove the posture-breaking pressure and hand them the space they need to clear the trapped arm and begin passing."
+        "answer": "Only when the opponent's posture is already broken and their head sits below their hip line. In that window, raising the leg off the back meets no posture resistance. If you walk the leg up while the opponent is posturing, you remove the posture-breaking pressure and hand them the space they need to clear the trapped arm and begin passing.",
+        "answer_line": "Only once posture is broken",
+        "distractors": {
+          "plausible": [
+            "As soon as leg clears the back",
+            "When opponent reaches for a grip"
+          ],
+          "trap": [
+            "Walk leg up immediately to rush"
+          ]
+        }
       },
       {
         "question": "Why do you rotate your hips toward the overhook side as the shin clears the shoulder?",
-        "answer": "The hip rotation creates the characteristic New York angle that makes the shin-over-shoulder position sustainable. Staying square to the opponent lets the shin slide back off the shoulder and the position decays into ordinary closed guard. The angled hips lock the shin in place and align your body for the gogoplata and triangle finishes that define New York Control."
+        "answer": "The hip rotation creates the characteristic New York angle that makes the shin-over-shoulder position sustainable. Staying square to the opponent lets the shin slide back off the shoulder and the position decays into ordinary closed guard. The angled hips lock the shin in place and align your body for the gogoplata and triangle finishes that define New York Control.",
+        "answer_line": "Rotate hips to overhook side",
+        "distractors": {
+          "plausible": [
+            "Rotate hips away from overhook",
+            "Square hips for more power"
+          ],
+          "trap": [
+            "Stay flat and square throughout"
+          ]
+        }
       },
       {
         "question": "Your opponent explodes their posture upward just as your leg leaves their back - what do you do?",
-        "answer": "Abandon the upgrade and re-clamp the shin across their back to retain standard Rubber Guard. Chasing the failed climb against a posturing opponent only feeds them the space to clear the trapped arm and pass. Retaining Rubber Guard keeps your arm trap and broken posture intact, and you can re-attempt the entry once you have re-broken their posture."
+        "answer": "Abandon the upgrade and re-clamp the shin across their back to retain standard Rubber Guard. Chasing the failed climb against a posturing opponent only feeds them the space to clear the trapped arm and pass. Retaining Rubber Guard keeps your arm trap and broken posture intact, and you can re-attempt the entry once you have re-broken their posture.",
+        "answer_line": "Re-clamp shin, retain Rubber Guard",
+        "distractors": {
+          "plausible": [
+            "Push through and finish the climb",
+            "Switch to closed guard immediately"
+          ],
+          "trap": [
+            "Release overhook to chase posture"
+          ]
+        }
       },
       {
         "question": "How should the controlling leg travel from across the back to the shoulder, and why?",
-        "answer": "The shin should slide upward in constant contact with the opponent's body rather than swinging wide through open space. Any gap created by a swinging leg invites an underhook and the start of a pass as the opponent slips inside. Sliding in contact keeps the opponent's frame compressed and denies them the room to begin clearing the guard during the climb."
+        "answer": "The shin should slide upward in constant contact with the opponent's body rather than swinging wide through open space. Any gap created by a swinging leg invites an underhook and the start of a pass as the opponent slips inside. Sliding in contact keeps the opponent's frame compressed and denies them the room to begin clearing the guard during the climb.",
+        "answer_line": "Slide shin in constant contact",
+        "distractors": {
+          "plausible": [
+            "Swing leg wide for more speed",
+            "Lift leg high off the back"
+          ],
+          "trap": [
+            "Swing through open space quickly"
+          ]
+        }
       },
       {
         "question": "Why should you chain immediately into a submission the instant the entry completes?",
-        "answer": "New York Control places you in immediate finishing range for gogoplata, triangle, and omoplata. Pausing after the entry gives the opponent a free beat to tuck the chin, hide the neck, and reorganize their defense. Flowing directly from the completed entry into a gogoplata or triangle threat denies them that beat and frequently produces a finish before they can defend the new configuration."
+        "answer": "New York Control places you in immediate finishing range for gogoplata, triangle, and omoplata. Pausing after the entry gives the opponent a free beat to tuck the chin, hide the neck, and reorganize their defense. Flowing directly from the completed entry into a gogoplata or triangle threat denies them that beat and frequently produces a finish before they can defend the new configuration.",
+        "answer_line": "Chain straight into a submission",
+        "distractors": {
+          "plausible": [
+            "Reset grips before attacking",
+            "Secure position, then rest"
+          ],
+          "trap": [
+            "Pause to let them settle first"
+          ]
+        }
       }
     ],
     "safety_considerations": "This entry demands significant hip, hamstring, and external-rotation flexibility to raise the shin over the shoulder line; attempting it cold or beyond your current range risks hip and hamstring strain, so warm up the hips thoroughly and build range gradually. Because the controlling leg passes near the opponent's neck and the entry flows directly into gogoplata and triangle threats, drill it with a cooperative partner first and apply finishing pressure slowly. The trapped opponent should tap early to neck and shoulder pressure rather than enduring a stack, and the attacker must release immediately on the tap. Communicate clearly during live drilling, as the leg-walk can cause the top player to post or stack awkwardly.",
@@ -338,15 +398,45 @@
     "flashcards": [
       {
         "question": "What is the highest-value defensive window during the New York Control entry from Rubber Guard?",
-        "answer": "The instant the controlling leg lightens off your back to begin climbing toward your shoulder, while the bottom player frees a hand to assist the leg-walk. In that moment their hand is committed to the leg and is not fighting your posture, so an explosive posture recovery has a high success rate. Acting on this first cue prevents the shin from ever reaching the shoulder and forces the bottom player back to standard Rubber Guard."
+        "answer": "The instant the controlling leg lightens off your back to begin climbing toward your shoulder, while the bottom player frees a hand to assist the leg-walk. In that moment their hand is committed to the leg and is not fighting your posture, so an explosive posture recovery has a high success rate. Acting on this first cue prevents the shin from ever reaching the shoulder and forces the bottom player back to standard Rubber Guard.",
+        "answer_line": "As leg lightens off your back",
+        "distractors": {
+          "plausible": [
+            "After shin lands on shoulder",
+            "When arm gets fully trapped"
+          ],
+          "trap": [
+            "Wait until gogoplata is locked"
+          ]
+        }
       },
       {
         "question": "Should you drive forward or pull back when you feel the controlling leg start to climb?",
-        "answer": "Drive forward and down into the bottom player. Pulling your head and chest back creates exactly the room the controlling leg needs to climb onto your shoulder, which assists the entry rather than defending it. Forward, downward pressure compresses the space the leg must travel, disrupts the climb, and keeps you heavy on the bottom player while you work your posture recovery or arm extraction."
+        "answer": "Drive forward and down into the bottom player. Pulling your head and chest back creates exactly the room the controlling leg needs to climb onto your shoulder, which assists the entry rather than defending it. Forward, downward pressure compresses the space the leg must travel, disrupts the climb, and keeps you heavy on the bottom player while you work your posture recovery or arm extraction.",
+        "answer_line": "Drive forward and down hard",
+        "distractors": {
+          "plausible": [
+            "Pull head back for space",
+            "Sit back to reset posture"
+          ],
+          "trap": [
+            "Pull away to escape the trap"
+          ]
+        }
       },
       {
         "question": "What should you do with your trapped-side elbow throughout this entry, and why?",
-        "answer": "Keep the trapped-side elbow pinned tight to your ribs throughout. A loose, drifting elbow lets the leg-walk and deepening overhook isolate the arm further and sets up both the triangle and the gogoplata angle. Gluing the elbow to your ribs denies the bottom player the deeper arm commitment they need and preserves your ability to circle the elbow toward your hip for an arm extraction while their assist hand is busy with the leg."
+        "answer": "Keep the trapped-side elbow pinned tight to your ribs throughout. A loose, drifting elbow lets the leg-walk and deepening overhook isolate the arm further and sets up both the triangle and the gogoplata angle. Gluing the elbow to your ribs denies the bottom player the deeper arm commitment they need and preserves your ability to circle the elbow toward your hip for an arm extraction while their assist hand is busy with the leg.",
+        "answer_line": "Pin trapped elbow to ribs",
+        "distractors": {
+          "plausible": [
+            "Push elbow out for leverage",
+            "Post elbow on the mat"
+          ],
+          "trap": [
+            "Let elbow drift for better angle"
+          ]
+        }
       }
     ],
     "training_progressions": [

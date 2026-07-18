@@ -365,19 +365,59 @@
     },
     {
       "question": "Why is deep wedge insertion critical before applying compression?",
-      "answer": "A shallow wedge contacts only the surface of the muscle and produces discomfort that tough opponents can endure; seating the bone deep into the muscle belly first concentrates force on deep tissue and is what turns mere pressure into a tap-producing crush."
+      "answer": "A shallow wedge contacts only the surface of the muscle and produces discomfort that tough opponents can endure; seating the bone deep into the muscle belly first concentrates force on deep tissue and is what turns mere pressure into a tap-producing crush.",
+      "answer_line": "Concentrates force on deep tissue",
+      "distractors": {
+        "plausible": [
+          "Increases surface area contact",
+          "Makes the grip more secure"
+        ],
+        "trap": [
+          "Surface pressure is enough to tap"
+        ]
+      }
     },
     {
       "question": "How should the folding force for a high-percentage compression lock be generated?",
-      "answer": "Through whole-body mechanics — hip bridging, leg extension, or body weight — with the grips merely maintaining the wedge position. Relying on arm strength alone fails against resistance and exhausts the attacker before the submission lands."
+      "answer": "Through whole-body mechanics — hip bridging, leg extension, or body weight — with the grips merely maintaining the wedge position. Relying on arm strength alone fails against resistance and exhausts the attacker before the submission lands.",
+      "answer_line": "Hips and body weight, not arms",
+      "distractors": {
+        "plausible": [
+          "Strong grip strength on the limb",
+          "Fast explosive arm pull"
+        ],
+        "trap": [
+          "Pure arm strength cranking"
+        ]
+      }
     },
     {
       "question": "What common defense relieves a calf slicer or bicep slicer, and how do you prevent it?",
-      "answer": "Straightening the limb removes the fold that creates compression, so the attacker must control the distal end — the foot for calf slicers, the hand for bicep slicers — to keep the limb folded before and throughout the compression."
+      "answer": "Straightening the limb removes the fold that creates compression, so the attacker must control the distal end — the foot for calf slicers, the hand for bicep slicers — to keep the limb folded before and throughout the compression.",
+      "answer_line": "Control the foot or hand end",
+      "distractors": {
+        "plausible": [
+          "Control the knee or elbow",
+          "Grip the opponent's collar"
+        ],
+        "trap": [
+          "Let them straighten, then re-fold"
+        ]
+      }
     },
     {
       "question": "How do compression locks and joint locks function as an integrated attack system?",
-      "answer": "They share control positions and trade off based on the defense: extending the leg to escape a calf slicer opens the kneebar, and straightening the arm to escape a bicep slicer opens the armbar, so each defense feeds the complementary attack."
+      "answer": "They share control positions and trade off based on the defense: extending the leg to escape a calf slicer opens the kneebar, and straightening the arm to escape a bicep slicer opens the armbar, so each defense feeds the complementary attack.",
+      "answer_line": "Straightening opens the joint lock",
+      "distractors": {
+        "plausible": [
+          "Straightening escapes both attacks",
+          "Folding escapes compression fully"
+        ],
+        "trap": [
+          "Abandon position if they straighten"
+        ]
+      }
     },
     {
       "question": "Why must ruleset legality be checked before attempting a compression lock?",
@@ -385,7 +425,17 @@
     },
     {
       "question": "Where do calf slicer opportunities most naturally arise during leg-lock exchanges?",
-      "answer": "From leg entanglements like Ashi Garami and from failed kneebar attempts, where the attacker's shin already sits behind the opponent's knee, so repositioning to fold the lower leg around that shin converts the control into a calf slicer."
+      "answer": "From leg entanglements like Ashi Garami and from failed kneebar attempts, where the attacker's shin already sits behind the opponent's knee, so repositioning to fold the lower leg around that shin converts the control into a calf slicer.",
+      "answer_line": "Ashi Garami and failed kneebars",
+      "distractors": {
+        "plausible": [
+          "Failed armbar attempts only",
+          "Standing leg-lock entries only"
+        ],
+        "trap": [
+          "Any time you control the foot"
+        ]
+      }
     }
   ],
   "clips": [

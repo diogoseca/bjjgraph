@@ -238,51 +238,171 @@
     "flashcards": [
       {
         "question": "What is the primary difference between Morote Seoi Nage and Ippon Seoi Nage?",
-        "answer": "Morote Seoi Nage maintains grips on both of the opponent's sleeves or wrists throughout the throw, while Ippon Seoi Nage uses only one arm with the throwing arm going under the opponent's armpit. This bilateral grip control in Morote Seoi Nage provides superior control during the throw and makes it more difficult for opponents to post out or counter."
+        "answer": "Morote Seoi Nage maintains grips on both of the opponent's sleeves or wrists throughout the throw, while Ippon Seoi Nage uses only one arm with the throwing arm going under the opponent's armpit. This bilateral grip control in Morote Seoi Nage provides superior control during the throw and makes it more difficult for opponents to post out or counter.",
+        "answer_line": "Both sleeves gripped throughout",
+        "distractors": {
+          "plausible": [
+            "One arm goes under armpit",
+            "Grip only the far sleeve"
+          ],
+          "trap": [
+            "Release grip mid-throw for speed"
+          ]
+        }
       },
       {
         "question": "Why is kuzushi (off-balancing) critical before attempting Morote Seoi Nage?",
-        "answer": "Proper kuzushi breaks the opponent's balanced stance and shifts their weight forward, making them lighter and easier to load onto your back. Without effective kuzushi, the opponent maintains a strong base and can defend the technique by sprawling, countering, or simply preventing you from completing the rotation and load. The forward pull also creates a reactive moment where the opponent is vulnerable to the rotational entry."
+        "answer": "Proper kuzushi breaks the opponent's balanced stance and shifts their weight forward, making them lighter and easier to load onto your back. Without effective kuzushi, the opponent maintains a strong base and can defend the technique by sprawling, countering, or simply preventing you from completing the rotation and load. The forward pull also creates a reactive moment where the opponent is vulnerable to the rotational entry.",
+        "answer_line": "Off-balance before loading",
+        "distractors": {
+          "plausible": [
+            "Kuzushi comes after entry",
+            "Pull opponent's legs first"
+          ],
+          "trap": [
+            "Skip kuzushi, muscle the lift"
+          ]
+        }
       },
       {
         "question": "What should you do if your opponent posts their hand during the throw to prevent the completion?",
-        "answer": "Maintain strong downward pulling pressure on both sleeves throughout the throw to prevent posting. If the opponent manages to post despite this, follow them to the turtle position and immediately transition to attacking back control or establishing a front headlock position. Never release your grips until you have secured dominant position."
+        "answer": "Maintain strong downward pulling pressure on both sleeves throughout the throw to prevent posting. If the opponent manages to post despite this, follow them to the turtle position and immediately transition to attacking back control or establishing a front headlock position. Never release your grips until you have secured dominant position.",
+        "answer_line": "Follow to turtle, take back",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset stance",
+            "Force the rotation harder"
+          ],
+          "trap": [
+            "Let go and shoot a double leg"
+          ]
+        }
       },
       {
         "question": "How can you chain Morote Seoi Nage with other takedowns for higher success rates?",
-        "answer": "Morote Seoi Nage works excellently in combination with forward-pressure takedowns and grip fighting sequences. Common chains include: arm drag to Morote Seoi Nage when opponent resists the drag, failed Morote Seoi Nage to single leg or ankle pick when opponent sprawls, and alternating between Morote Seoi Nage and other judo throws like Tai Otoshi or Harai Goshi to create uncertainty in the opponent's defensive reactions."
+        "answer": "Morote Seoi Nage works excellently in combination with forward-pressure takedowns and grip fighting sequences. Common chains include: arm drag to Morote Seoi Nage when opponent resists the drag, failed Morote Seoi Nage to single leg or ankle pick when opponent sprawls, and alternating between Morote Seoi Nage and other judo throws like Tai Otoshi or Harai Goshi to create uncertainty in the opponent's defensive reactions.",
+        "answer_line": "Arm drag, single leg, Tai Otoshi",
+        "distractors": {
+          "plausible": [
+            "Chain only with leg locks",
+            "Repeat same throw until it lands"
+          ],
+          "trap": [
+            "Abandon grips after failed throw"
+          ]
+        }
       },
       {
         "question": "What adjustments must be made when executing Morote Seoi Nage in no-gi contexts?",
-        "answer": "In no-gi situations, you must replace sleeve grips with overhooks, wrist controls, or bicep grips, which are less secure than gi sleeve grips. This requires tighter body contact during entry, faster execution to prevent the opponent from breaking grips, and often requires setting up the technique with collar ties or front headlock positions first. The fundamental mechanics of hip rotation and loading remain the same, but grip maintenance becomes significantly more challenging."
+        "answer": "In no-gi situations, you must replace sleeve grips with overhooks, wrist controls, or bicep grips, which are less secure than gi sleeve grips. This requires tighter body contact during entry, faster execution to prevent the opponent from breaking grips, and often requires setting up the technique with collar ties or front headlock positions first. The fundamental mechanics of hip rotation and loading remain the same, but grip maintenance becomes significantly more challenging.",
+        "answer_line": "Overhooks/wrist grips, faster entry",
+        "distractors": {
+          "plausible": [
+            "Same sleeve grips work fine",
+            "Slower entry for better control"
+          ],
+          "trap": [
+            "Release grips to collar tie"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for entering Morote Seoi Nage?",
-        "answer": "The optimal timing occurs immediately after breaking the opponent's balance forward when they are either resisting by pulling back (creating reactive momentum) or pushing forward into your pull. The entry should be executed as a continuous explosive motion during this brief moment of compromised balance. Hesitation or telegraphing the entry allows the opponent to recover their base and defend effectively."
+        "answer": "The optimal timing occurs immediately after breaking the opponent's balance forward when they are either resisting by pulling back (creating reactive momentum) or pushing forward into your pull. The entry should be executed as a continuous explosive motion during this brief moment of compromised balance. Hesitation or telegraphing the entry allows the opponent to recover their base and defend effectively.",
+        "answer_line": "Enter during compromised balance",
+        "distractors": {
+          "plausible": [
+            "Enter after full recovery",
+            "Telegraph entry to set up"
+          ],
+          "trap": [
+            "Wait for opponent to attack first"
+          ]
+        }
       },
       {
         "question": "Where should your hips be positioned relative to your opponent during the loading phase?",
-        "answer": "Your hips must drop below your opponent's center of gravity during the loading phase. This creates the mechanical leverage necessary for the throw. If your hips remain at or above their hip level, you will be attempting to lift dead weight rather than using leverage. The deeper you can get your hips under them while maintaining back-to-chest contact, the more explosive and effortless the throw becomes."
+        "answer": "Your hips must drop below your opponent's center of gravity during the loading phase. This creates the mechanical leverage necessary for the throw. If your hips remain at or above their hip level, you will be attempting to lift dead weight rather than using leverage. The deeper you can get your hips under them while maintaining back-to-chest contact, the more explosive and effortless the throw becomes.",
+        "answer_line": "Hips drop below their center",
+        "distractors": {
+          "plausible": [
+            "Hips level with their hips",
+            "Hips stay high, lift with back"
+          ],
+          "trap": [
+            "Hips above theirs, lift with arms"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when executing the throwing motion?",
-        "answer": "The force application combines two simultaneous directions: an upward and forward thrust from the legs and hips that lifts and rotates the opponent, combined with a strong downward pull on both sleeves that accelerates their rotation over your shoulder. These opposing forces create a wheel-and-axle effect where your body acts as the fulcrum, multiplying the force applied to the opponent's body and generating maximum rotational momentum."
+        "answer": "The force application combines two simultaneous directions: an upward and forward thrust from the legs and hips that lifts and rotates the opponent, combined with a strong downward pull on both sleeves that accelerates their rotation over your shoulder. These opposing forces create a wheel-and-axle effect where your body acts as the fulcrum, multiplying the force applied to the opponent's body and generating maximum rotational momentum.",
+        "answer_line": "Up-forward legs, down pull sleeves",
+        "distractors": {
+          "plausible": [
+            "Pull up, push down on shoulders",
+            "Straight forward push only"
+          ],
+          "trap": [
+            "Yank sleeves without hip drive"
+          ]
+        }
       },
       {
         "question": "Your opponent stiffens their arms and creates rigid resistance when you attempt to break their balance forward. How do you adjust?",
-        "answer": "Use their rigid resistance against them by either pushing briefly to elicit a pushing counter-reaction, then pulling as they resist forward, or by executing a push-pull sequence that breaks their balance in the direction they are already resisting. Alternatively, maintain constant circular grip motion to prevent them from establishing a static defensive structure. The rigidity that helps them defend actually makes them more vulnerable once their balance is compromised, as they cannot adjust their posture quickly."
+        "answer": "Use their rigid resistance against them by either pushing briefly to elicit a pushing counter-reaction, then pulling as they resist forward, or by executing a push-pull sequence that breaks their balance in the direction they are already resisting. Alternatively, maintain constant circular grip motion to prevent them from establishing a static defensive structure. The rigidity that helps them defend actually makes them more vulnerable once their balance is compromised, as they cannot adjust their posture quickly.",
+        "answer_line": "Push-pull to break rigid posture",
+        "distractors": {
+          "plausible": [
+            "Pull harder in same direction",
+            "Wait for them to relax"
+          ],
+          "trap": [
+            "Abandon grips and clinch instead"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure control for Morote Seoi Nage in the gi?",
-        "answer": "The strongest grip configuration involves gripping both sleeves at the wrist or just above the wrist, with your thumbs inside the sleeve material and fingers wrapped around the outside. This provides maximum rotational control and makes it extremely difficult for opponents to break the grip. Gripping too high on the forearm reduces control, while gripping the fabric itself rather than wrapping around the wrist joint allows easier escape."
+        "answer": "The strongest grip configuration involves gripping both sleeves at the wrist or just above the wrist, with your thumbs inside the sleeve material and fingers wrapped around the outside. This provides maximum rotational control and makes it extremely difficult for opponents to break the grip. Gripping too high on the forearm reduces control, while gripping the fabric itself rather than wrapping around the wrist joint allows easier escape.",
+        "answer_line": "Thumb-in wrist grip, both sleeves",
+        "distractors": {
+          "plausible": [
+            "Grip high on the forearm",
+            "Grip fabric loosely, not wrist"
+          ],
+          "trap": [
+            "Single overhook, no sleeve grip"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls defensively as you begin your entry rotation. What is the best immediate response?",
-        "answer": "If they sprawl early in your entry, you have several options depending on their sprawl depth. A shallow sprawl allows you to continue the rotation with increased downward pulling pressure. A deeper sprawl should trigger an immediate transition to single leg attack on their forward leg, or a snap down to front headlock position using the grip control you already have. The key is recognizing the sprawl early and switching attacks before losing grip position or becoming stuck in a disadvantaged position."
+        "answer": "If they sprawl early in your entry, you have several options depending on their sprawl depth. A shallow sprawl allows you to continue the rotation with increased downward pulling pressure. A deeper sprawl should trigger an immediate transition to single leg attack on their forward leg, or a snap down to front headlock position using the grip control you already have. The key is recognizing the sprawl early and switching attacks before losing grip position or becoming stuck in a disadvantaged position.",
+        "answer_line": "Deep sprawl: snap to single leg",
+        "distractors": {
+          "plausible": [
+            "Always finish through sprawl",
+            "Release grips and reset"
+          ],
+          "trap": [
+            "Force the throw through sprawl"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before committing to Morote Seoi Nage?",
-        "answer": "Before committing, you need: secure bilateral sleeve or wrist grips that can withstand pulling force, the opponent's weight shifted forward or reactive forward movement created through grip fighting, appropriate distance (close enough for back-to-chest contact but not already clinched), and clear mat space for safe execution. Additionally, your own posture should be upright with knees slightly bent for explosive movement, and you need mental commitment to execute the technique fully without hesitation once initiated."
+        "answer": "Before committing, you need: secure bilateral sleeve or wrist grips that can withstand pulling force, the opponent's weight shifted forward or reactive forward movement created through grip fighting, appropriate distance (close enough for back-to-chest contact but not already clinched), and clear mat space for safe execution. Additionally, your own posture should be upright with knees slightly bent for explosive movement, and you need mental commitment to execute the technique fully without hesitation once initiated.",
+        "answer_line": "Grips, forward weight, good range",
+        "distractors": {
+          "plausible": [
+            "Any grip works if you're strong",
+            "Attempt from clinch range"
+          ],
+          "trap": [
+            "Commit before securing grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower.",
@@ -398,23 +518,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Morote Seoi Nage is being attempted?",
-        "answer": "The earliest cue is when the opponent tightens grips on both of your sleeves simultaneously and executes a sharp bilateral forward pull to break your posture. This kuzushi action precedes the stepping entry and is the moment where defensive intervention is most effective. If you feel both sleeves being pulled forward with purpose, you should immediately sit your hips back, begin grip stripping, and prepare to sprawl against the entry rotation."
+        "answer": "The earliest cue is when the opponent tightens grips on both of your sleeves simultaneously and executes a sharp bilateral forward pull to break your posture. This kuzushi action precedes the stepping entry and is the moment where defensive intervention is most effective. If you feel both sleeves being pulled forward with purpose, you should immediately sit your hips back, begin grip stripping, and prepare to sprawl against the entry rotation.",
+        "answer_line": "Both sleeves pulled sharply forward",
+        "distractors": {
+          "plausible": [
+            "Opponent steps in first",
+            "Single sleeve grip tightens"
+          ],
+          "trap": [
+            "Ignore grips, watch the feet"
+          ]
+        }
       },
       {
         "question": "Why is sprawl timing critical against Morote Seoi Nage, and when exactly should you initiate the sprawl?",
-        "answer": "The sprawl must be initiated the moment the opponent steps their lead foot across your stance and begins rotating their hips. This is the transition between kuzushi and entry, and it represents the last moment where a sprawl can prevent the opponent from loading you onto their back. Sprawling too early alerts the opponent to switch attacks, while sprawling too late means they have already achieved back-to-chest contact and your hip drop will actually accelerate the throw rather than prevent it."
+        "answer": "The sprawl must be initiated the moment the opponent steps their lead foot across your stance and begins rotating their hips. This is the transition between kuzushi and entry, and it represents the last moment where a sprawl can prevent the opponent from loading you onto their back. Sprawling too early alerts the opponent to switch attacks, while sprawling too late means they have already achieved back-to-chest contact and your hip drop will actually accelerate the throw rather than prevent it.",
+        "answer_line": "Sprawl as lead foot steps in",
+        "distractors": {
+          "plausible": [
+            "Sprawl right after kuzushi",
+            "Sprawl after back contact made"
+          ],
+          "trap": [
+            "Sprawl only when lifted off feet"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured both sleeve grips and is pulling you forward aggressively. What is your defensive priority?",
-        "answer": "Your immediate priority is to strip at least one sleeve grip using a two-on-one grip break before the opponent can step in for the rotation. Without bilateral control, the throw loses most of its effectiveness and control. Simultaneously, sit your hips back to resist the forward pull and prevent your weight from shifting onto your toes. If you cannot break the grip in time and the entry begins, immediately transition to a sprawl defense rather than continuing to fight the grips while being thrown."
+        "answer": "Your immediate priority is to strip at least one sleeve grip using a two-on-one grip break before the opponent can step in for the rotation. Without bilateral control, the throw loses most of its effectiveness and control. Simultaneously, sit your hips back to resist the forward pull and prevent your weight from shifting onto your toes. If you cannot break the grip in time and the entry begins, immediately transition to a sprawl defense rather than continuing to fight the grips while being thrown.",
+        "answer_line": "Break one grip, sit hips back",
+        "distractors": {
+          "plausible": [
+            "Pull back equally hard",
+            "Step forward into the pull"
+          ],
+          "trap": [
+            "Keep fighting grips while thrown"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive stance when you suspect your opponent favors forward throws like Morote Seoi Nage?",
-        "answer": "Against a known forward-throw specialist, adopt a slightly more upright stance with your hips further back than normal and your weight distributed more toward your heels. Keep your elbows tighter to your body to make sleeve grips harder to secure. Maintain slightly wider foot spacing to lower your center of gravity and increase sprawl stability. Use more circular grip fighting rather than straight push-pull patterns to deny the opponent the bilateral control they need to initiate the technique."
+        "answer": "Against a known forward-throw specialist, adopt a slightly more upright stance with your hips further back than normal and your weight distributed more toward your heels. Keep your elbows tighter to your body to make sleeve grips harder to secure. Maintain slightly wider foot spacing to lower your center of gravity and increase sprawl stability. Use more circular grip fighting rather than straight push-pull patterns to deny the opponent the bilateral control they need to initiate the technique.",
+        "answer_line": "Upright stance, weight on heels",
+        "distractors": {
+          "plausible": [
+            "Lean forward, wide grips",
+            "Narrow stance, weight forward"
+          ],
+          "trap": [
+            "Grip fight with straight pulls"
+          ]
+        }
       },
       {
         "question": "The throw has been partially completed and you are being lifted off your feet. What is the best defensive option at this late stage?",
-        "answer": "At this late stage, preventing the throw entirely is unlikely. Your priority shifts to controlling the landing. Counter-rotate your body toward the opponent and pull them with you using whatever grip you have, aiming to land in closed guard rather than flat on your back in side control. Tuck your chin to protect your head during impact, and immediately begin framing and hip escape movements upon landing to prevent the opponent from settling into a dominant position. Accepting the takedown points but denying side control is far better than landing flat and being pinned."
+        "answer": "At this late stage, preventing the throw entirely is unlikely. Your priority shifts to controlling the landing. Counter-rotate your body toward the opponent and pull them with you using whatever grip you have, aiming to land in closed guard rather than flat on your back in side control. Tuck your chin to protect your head during impact, and immediately begin framing and hip escape movements upon landing to prevent the opponent from settling into a dominant position. Accepting the takedown points but denying side control is far better than landing flat and being pinned.",
+        "answer_line": "Counter-rotate, land in guard",
+        "distractors": {
+          "plausible": [
+            "Fight to stay on your feet",
+            "Relax and land flat safely"
+          ],
+          "trap": [
+            "Post the arm to stop rotation"
+          ]
+        }
       }
     ],
     "training_progressions": [

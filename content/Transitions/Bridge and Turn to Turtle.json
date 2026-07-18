@@ -238,47 +238,157 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Bridge and Turn to Turtle?",
-        "answer": "The primary goal is to escape the suffocating North-South control position by converting to a defensive turtle position. While turtle is not an advantageous position, it offers significantly more escape options and breathing room than remaining pinned under North-South pressure. The technique prioritizes creating space and protecting your back during the transition."
+        "answer": "The primary goal is to escape the suffocating North-South control position by converting to a defensive turtle position. While turtle is not an advantageous position, it offers significantly more escape options and breathing room than remaining pinned under North-South pressure. The technique prioritizes creating space and protecting your back during the transition.",
+        "answer_line": "Convert to turtle for space",
+        "distractors": {
+          "plausible": [
+            "Bridge straight to sweep them",
+            "Fight to escape to guard"
+          ],
+          "trap": [
+            "Stay flat, absorb pressure"
+          ]
+        }
       },
       {
         "question": "Why must you bridge at a 45-degree angle rather than straight up?",
-        "answer": "Bridging straight up allows the opponent to easily ride your bridge without losing balance—they simply move with you and re-settle when you come down. The 45-degree angle toward their far knee creates rotational off-balancing force that displaces their weight distribution and creates the space necessary to initiate the turn. The angle transforms a simple lift into a disruption of their base."
+        "answer": "Bridging straight up allows the opponent to easily ride your bridge without losing balance—they simply move with you and re-settle when you come down. The 45-degree angle toward their far knee creates rotational off-balancing force that displaces their weight distribution and creates the space necessary to initiate the turn. The angle transforms a simple lift into a disruption of their base.",
+        "answer_line": "Angle toward far knee, off-balance",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up for height",
+            "Angle toward their near knee"
+          ],
+          "trap": [
+            "Bridge away from opponent"
+          ]
+        }
       },
       {
         "question": "Your opponent begins reaching for a kimura grip on your near arm—how does this affect your escape timing?",
-        "answer": "This creates an excellent timing window for the escape. As they reach for the grip, their weight shifts off your chest momentarily and their attention focuses on securing the arm rather than maintaining pressure. Execute the bridge immediately as they begin reaching, before they can complete the grip. Their commitment to the submission attempt leaves them vulnerable to being displaced by your bridge."
+        "answer": "This creates an excellent timing window for the escape. As they reach for the grip, their weight shifts off your chest momentarily and their attention focuses on securing the arm rather than maintaining pressure. Execute the bridge immediately as they begin reaching, before they can complete the grip. Their commitment to the submission attempt leaves them vulnerable to being displaced by your bridge.",
+        "answer_line": "Bridge as they reach for grip",
+        "distractors": {
+          "plausible": [
+            "Wait until grip fully secured",
+            "Bridge before they move at all"
+          ],
+          "trap": [
+            "Try to strip the grip first"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the opponent critical rather than turning away?",
-        "answer": "Turning away from the opponent exposes your back completely, allowing them to easily insert hooks and establish back control—a position worse than North-South. Turning toward them keeps your back protected by proximity; even if they follow your turn, they end up on your side rather than directly behind you. This allows you to establish a defensive turtle that can be defended and escaped."
+        "answer": "Turning away from the opponent exposes your back completely, allowing them to easily insert hooks and establish back control—a position worse than North-South. Turning toward them keeps your back protected by proximity; even if they follow your turn, they end up on your side rather than directly behind you. This allows you to establish a defensive turtle that can be defended and escaped.",
+        "answer_line": "Turn toward them, protect back",
+        "distractors": {
+          "plausible": [
+            "Turn away for more space",
+            "Turn toward, then flatten out"
+          ],
+          "trap": [
+            "Turn away to face the mat"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent successfully follows your turn and is establishing back control?",
-        "answer": "Do not settle in turtle and allow them to secure hooks. Continue the motion by either: turning further into them to face them and recover guard, immediately sitting through to establish seated guard, or standing up before they can secure their position. The worst outcome is stopping in a static turtle while they methodically establish back control with hooks."
+        "answer": "Do not settle in turtle and allow them to secure hooks. Continue the motion by either: turning further into them to face them and recover guard, immediately sitting through to establish seated guard, or standing up before they can secure their position. The worst outcome is stopping in a static turtle while they methodically establish back control with hooks.",
+        "answer_line": "Keep moving, don't stop in turtle",
+        "distractors": {
+          "plausible": [
+            "Settle turtle, build frames",
+            "Turn to face and stall"
+          ],
+          "trap": [
+            "Hold still, let hooks in"
+          ]
+        }
       },
       {
         "question": "How do you generate power for the bridge without using your arms?",
-        "answer": "All power comes from hip extension through your legs. Plant your feet flat with heels close to your glutes, then drive through your heels while extending your hips toward the ceiling. Your arms stay tight to your body to protect from isolation—they only assist the subsequent turn, not the bridge itself. Trying to push the opponent off with straight arms wastes energy and makes your arms vulnerable to submission."
+        "answer": "All power comes from hip extension through your legs. Plant your feet flat with heels close to your glutes, then drive through your heels while extending your hips toward the ceiling. Your arms stay tight to your body to protect from isolation—they only assist the subsequent turn, not the bridge itself. Trying to push the opponent off with straight arms wastes energy and makes your arms vulnerable to submission.",
+        "answer_line": "Drive through heels, hip extension",
+        "distractors": {
+          "plausible": [
+            "Push off with straight arms",
+            "Push through toes, arch back"
+          ],
+          "trap": [
+            "Pull opponent with your arms"
+          ]
+        }
       },
       {
         "question": "The opponent drops their weight and widens their base as you begin to bridge—what is the correct response?",
-        "answer": "Abort the escape attempt immediately. Continuing to bridge against their settled, widened base accomplishes nothing except wasting your energy and potentially exposing your arms to submission. Return to your defensive frames, control your breathing, and wait for a better timing window. Patience is essential—forcing against consolidated weight is a losing strategy."
+        "answer": "Abort the escape attempt immediately. Continuing to bridge against their settled, widened base accomplishes nothing except wasting your energy and potentially exposing your arms to submission. Return to your defensive frames, control your breathing, and wait for a better timing window. Patience is essential—forcing against consolidated weight is a losing strategy.",
+        "answer_line": "Abort, reset to frames",
+        "distractors": {
+          "plausible": [
+            "Bridge harder to break base",
+            "Switch to hip escape instead"
+          ],
+          "trap": [
+            "Force the bridge through it"
+          ]
+        }
       },
       {
         "question": "What are the key indicators you should look for to identify the optimal timing window?",
-        "answer": "Key indicators include: the opponent reaching for submission grips (particularly kimura or armbar setups), beginning to transition toward mount or side control, adjusting their knee position or base, lifting their chest slightly to look at your arms, or shifting their hips to set up a choke. Any redistribution of their weight creates a moment of reduced pressure that your bridge can exploit effectively."
+        "answer": "Key indicators include: the opponent reaching for submission grips (particularly kimura or armbar setups), beginning to transition toward mount or side control, adjusting their knee position or base, lifting their chest slightly to look at your arms, or shifting their hips to set up a choke. Any redistribution of their weight creates a moment of reduced pressure that your bridge can exploit effectively.",
+        "answer_line": "Any weight shift or grip reach",
+        "distractors": {
+          "plausible": [
+            "Only when mount is secured",
+            "Only during submission finish"
+          ],
+          "trap": [
+            "Wait for them to relax fully"
+          ]
+        }
       },
       {
         "question": "What is your immediate priority upon completing the turn to turtle?",
-        "answer": "Immediately establish a defensive turtle shell: drop your hips low to the mat, tuck your chin tightly to protect your neck from chokes, position your hands to guard your collar, and create a compact shape with elbows inside your knees. Speed is critical—the opponent will be attempting to establish back control with hooks or set up front headlock attacks. A solid defensive shell buys time to plan your next escape."
+        "answer": "Immediately establish a defensive turtle shell: drop your hips low to the mat, tuck your chin tightly to protect your neck from chokes, position your hands to guard your collar, and create a compact shape with elbows inside your knees. Speed is critical—the opponent will be attempting to establish back control with hooks or set up front headlock attacks. A solid defensive shell buys time to plan your next escape.",
+        "answer_line": "Build tight defensive shell",
+        "distractors": {
+          "plausible": [
+            "Stand up immediately always",
+            "Reach back to grip their leg"
+          ],
+          "trap": [
+            "Flatten out, protect face only"
+          ]
+        }
       },
       {
         "question": "How does this escape chain with other techniques if the initial attempt is blocked?",
-        "answer": "If the bridge-and-turn is blocked, you have several chain options: attempt a hip escape to half guard when they shift weight to re-settle, try the Granby roll variation using any space created, wait for their next submission attempt to create another timing window, or if they transition to mount, accept that position and begin mount escapes. The key is recognizing that a blocked escape often creates new opportunities as the opponent must reorganize their position."
+        "answer": "If the bridge-and-turn is blocked, you have several chain options: attempt a hip escape to half guard when they shift weight to re-settle, try the Granby roll variation using any space created, wait for their next submission attempt to create another timing window, or if they transition to mount, accept that position and begin mount escapes. The key is recognizing that a blocked escape often creates new opportunities as the opponent must reorganize their position.",
+        "answer_line": "Hip escape, Granby, or wait",
+        "distractors": {
+          "plausible": [
+            "Force the same bridge again",
+            "Give up back, reset position"
+          ],
+          "trap": [
+            "Turn away and expose back"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you maintain during the bridge phase?",
-        "answer": "Keep your elbows tight against your ribcage with forearms positioned to create defensive frames against the opponent's chest or shoulders. Do not grip their gi or body—your hands should remain free to assist the turn once the bridge creates space. Gripping the opponent during the bridge phase anchors you to them, reducing the effectiveness of the displacement. Your arms function as protective barriers during the bridge, then become rotational drivers during the turn."
+        "answer": "Keep your elbows tight against your ribcage with forearms positioned to create defensive frames against the opponent's chest or shoulders. Do not grip their gi or body—your hands should remain free to assist the turn once the bridge creates space. Gripping the opponent during the bridge phase anchors you to them, reducing the effectiveness of the displacement. Your arms function as protective barriers during the bridge, then become rotational drivers during the turn.",
+        "answer_line": "Elbows tight, hands free, no grips",
+        "distractors": {
+          "plausible": [
+            "Grip their gi to anchor turn",
+            "Underhook their far arm early"
+          ],
+          "trap": [
+            "Grab their head for control"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Bridge and Turn to Turtle is generally safe when executed with proper technique, but several precautions should be observed. Neck strain can occur if you attempt to turn while the opponent maintains heavy shoulder pressure on your head—wait for proper timing to avoid forcing against this resistance. During training, communicate with your partner if the chest pressure becomes excessive and you cannot breathe adequately. The explosive nature of the bridge can cause lower back strain if your core is not engaged; maintain abdominal tension throughout the movement. When completing the turn, protect your face and ears from being caught under your partner's weight by keeping your chin tucked. Avoid this escape if you have existing shoulder injuries, as the turning motion places stress on the shoulder joint.",
@@ -401,23 +511,73 @@
     "flashcards": [
       {
         "question": "What is the most reliable way to prevent the bridge-and-turn escape from North-South?",
-        "answer": "The most reliable prevention combines three elements: maintaining heavy forward chest pressure distributed across the opponent's upper body to restrict their breathing and bridge power, controlling at least one arm to eliminate the rotational assist needed for the turn, and keeping a wide base with low hips that can absorb the angled bridge force without being displaced. Denying any one of the three prerequisites (planted feet, free arm, weight shift) significantly reduces escape success."
+        "answer": "The most reliable prevention combines three elements: maintaining heavy forward chest pressure distributed across the opponent's upper body to restrict their breathing and bridge power, controlling at least one arm to eliminate the rotational assist needed for the turn, and keeping a wide base with low hips that can absorb the angled bridge force without being displaced. Denying any one of the three prerequisites (planted feet, free arm, weight shift) significantly reduces escape success.",
+        "answer_line": "Pressure, arm control, wide base",
+        "distractors": {
+          "plausible": [
+            "Only control legs, ignore arms",
+            "Sit back, hips high and light"
+          ],
+          "trap": [
+            "Chase a submission mid-transition"
+          ]
+        }
       },
       {
         "question": "You feel your opponent plant their feet and begin tensing their hips—what should you do?",
-        "answer": "Immediately widen your base by sprawling your legs outward and lower your hips while driving your chest pressure forward and downward. This creates maximum stability against the incoming bridge. Simultaneously, tighten your arm control to prevent the rotational turn. If you were setting up a submission, abandon it and prioritize base stability. The goal is to make the bridge fail before it generates momentum, forcing them to waste energy on a futile attempt."
+        "answer": "Immediately widen your base by sprawling your legs outward and lower your hips while driving your chest pressure forward and downward. This creates maximum stability against the incoming bridge. Simultaneously, tighten your arm control to prevent the rotational turn. If you were setting up a submission, abandon it and prioritize base stability. The goal is to make the bridge fail before it generates momentum, forcing them to waste energy on a futile attempt.",
+        "answer_line": "Widen base, drop hips, press chest",
+        "distractors": {
+          "plausible": [
+            "Stand up to reset posture",
+            "Hold submission, ignore base"
+          ],
+          "trap": [
+            "Relax pressure, wait it out"
+          ]
+        }
       },
       {
         "question": "The opponent's bridge succeeds and they are mid-turn—should you try to re-establish North-South or follow to back control?",
-        "answer": "Follow to back control immediately. Once the turn is committed and succeeding, fighting to re-establish North-South is low-percentage and wastes the window to secure a superior position. As they rotate to all fours, secure seatbelt grip and insert your near-side hook before they can tighten their turtle shell. Back control with hooks is worth 4 points and offers higher submission probability than North-South, making the opponent's escape attempt backfire."
+        "answer": "Follow to back control immediately. Once the turn is committed and succeeding, fighting to re-establish North-South is low-percentage and wastes the window to secure a superior position. As they rotate to all fours, secure seatbelt grip and insert your near-side hook before they can tighten their turtle shell. Back control with hooks is worth 4 points and offers higher submission probability than North-South, making the opponent's escape attempt backfire.",
+        "answer_line": "Follow to back control",
+        "distractors": {
+          "plausible": [
+            "Fight back to North-South",
+            "Let them stand up fully"
+          ],
+          "trap": [
+            "Chase a leg lock instead"
+          ]
+        }
       },
       {
         "question": "How do your own submission attempts from North-South create vulnerability to the bridge-and-turn?",
-        "answer": "Every submission attempt requires weight redistribution and arm movement that creates the timing window the opponent needs. Reaching for a kimura shifts your weight to one side, lifting your chest to set up a North-South choke reduces the pinning pressure, and adjusting your arms for any attack temporarily frees the opponent's arms. The key is recognizing that you must either commit fully to the submission with speed or re-consolidate your base between attempts rather than leaving yourself in a compromised transitional weight distribution."
+        "answer": "Every submission attempt requires weight redistribution and arm movement that creates the timing window the opponent needs. Reaching for a kimura shifts your weight to one side, lifting your chest to set up a North-South choke reduces the pinning pressure, and adjusting your arms for any attack temporarily frees the opponent's arms. The key is recognizing that you must either commit fully to the submission with speed or re-consolidate your base between attempts rather than leaving yourself in a compromised transitional weight distribution.",
+        "answer_line": "Attacks shift weight, open window",
+        "distractors": {
+          "plausible": [
+            "Submissions never risk your base",
+            "Only arm attacks create risk"
+          ],
+          "trap": [
+            "Commit slow and controlled"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful follow-to-back-control from a failed one when the opponent turns to turtle?",
-        "answer": "The critical factor is speed of upper body control establishment. Successful follows involve immediately securing seatbelt grip as the opponent rotates, maintaining chest-to-back contact throughout the transition, and inserting the near-side hook before the opponent can tuck their elbows to knees in a defensive shell. Failed follows typically involve a gap in chest contact during the transition, allowing the opponent to establish a tight turtle that resists hook insertion. The seatbelt must be established during the rotation, not after the opponent reaches all fours."
+        "answer": "The critical factor is speed of upper body control establishment. Successful follows involve immediately securing seatbelt grip as the opponent rotates, maintaining chest-to-back contact throughout the transition, and inserting the near-side hook before the opponent can tuck their elbows to knees in a defensive shell. Failed follows typically involve a gap in chest contact during the transition, allowing the opponent to establish a tight turtle that resists hook insertion. The seatbelt must be established during the rotation, not after the opponent reaches all fours.",
+        "answer_line": "Seatbelt secured during rotation",
+        "distractors": {
+          "plausible": [
+            "Seatbelt grip after they settle",
+            "Hook inserted before seatbelt"
+          ],
+          "trap": [
+            "Wait for them to reach all fours"
+          ]
+        }
       }
     ],
     "training_progressions": [

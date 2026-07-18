@@ -284,52 +284,152 @@
       {
         "question": "What anatomical structures does the Kimura from Reverse Kesa-Gatame primarily attack?",
         "answer": "The Kimura targets the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. Internal rotation past the anatomical limit creates shearing force on the rotator cuff tendons and compressive force on the labrum. Secondary stress affects the bicep tendon at the shoulder attachment point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder rotator cuff joint",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist tendons and ligaments"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "What sensation tells you the shoulder is reaching its breaking point, and what must you do at that moment?",
         "answer": "As you rotate the forearm toward the mat you will feel the opponent's elbow and shoulder hit a hard stop where the joint stops yielding and the arm refuses to rotate any further—this is the anatomical limit of internal rotation, and tissue damage begins immediately past it. At that instant apply no additional force: hold steady pressure, watch and feel for the tap, and release the moment it comes. Crossing that limit explosively is what causes rotator cuff tears and dislocations.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hard stop, hold and wait for tap",
+        "distractors": {
+          "plausible": [
+            "Feel resistance, push through it",
+            "Arm goes limp, finish quickly"
+          ],
+          "trap": [
+            "Crank harder to force the tap"
+          ]
+        }
       },
       {
         "question": "Why is maintaining chest pressure critical during the figure-four grip transition?",
         "answer": "Chest pressure restricts the opponent's breathing and explosive movement capacity while preventing them from creating space to extract their trapped arm. Any lightening during the grip transition gives the opponent a window to insert defensive frames, straighten their arm, or bridge to create separation. The chest pressure is what makes the submission environment high-percentage rather than a scramble.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevents escape during grip switch",
+        "distractors": {
+          "plausible": [
+            "Sets up the finishing rotation",
+            "Tires out the opponent fast"
+          ],
+          "trap": [
+            "Lighten up to grip faster"
+          ]
+        }
       },
       {
         "question": "What creates the fulcrum point in this Kimura variation and why is it essential?",
         "answer": "The elbow pinned against your near-side hip creates the fulcrum point. Without this connection, rotational force moves the entire arm through space rather than isolating the shoulder joint. The fixed elbow means all rotational pressure from the figure-four grip translates directly into internal rotation of the shoulder, producing the submission mechanism. Without the fulcrum, you lack the mechanical advantage to finish against resistance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow pinned to your hip",
+        "distractors": {
+          "plausible": [
+            "Wrist locked to your chest",
+            "Knee driven into their ribs"
+          ],
+          "trap": [
+            "Let the elbow float free"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their arm to prevent the figure-four—what adjustment do you make?",
         "answer": "A straightened arm opens the Americana attack in the opposite rotational direction. Press their wrist toward the mat while maintaining elbow control, converting directly to an Americana. This creates a two-directional dilemma where the opponent must choose between defending the Kimura by straightening or the Americana by bending. Cycling between both attacks keeps them perpetually defensive and unable to address the positional pin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to Americana attack",
+        "distractors": {
+          "plausible": [
+            "Force the figure-four anyway",
+            "Abandon attack, pass guard"
+          ],
+          "trap": [
+            "Release the arm, reset position"
+          ]
+        }
       },
       {
         "question": "What is the proper speed for applying rotational pressure in training?",
         "answer": "Apply rotation over 3-5 seconds minimum using slow progressive pressure that gives your training partner time to recognize the danger and tap. Never jerk or spike the rotation. The shoulder joint's anatomical limit approaches gradually, and sudden force can cause rotator cuff tears or shoulder dislocation before the partner can respond. Shoulder injuries from sudden Kimura application can require surgery and months of recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, 3-5 seconds minimum",
+        "distractors": {
+          "plausible": [
+            "Fast, before they escape",
+            "Match their resistance speed"
+          ],
+          "trap": [
+            "Sharp, sudden jerk to finish"
+          ]
+        }
       },
       {
         "question": "How does body rotation generate more finishing power than arm strength alone?",
         "answer": "Hip and core rotation engages the largest muscle groups in the body rather than relying on forearm and bicep strength which fatigue quickly. Rotating the entire torso generates torque through the kinetic chain from legs through hips and core into the figure-four grip, producing significantly more force with less effort. Body rotation also maintains the chest pressure that prevents escape, whereas arm-only rotation tends to lift your body off the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips and core drive torque",
+        "distractors": {
+          "plausible": [
+            "Bicep curl the grip tighter",
+            "Pull hard with trapped-arm hand"
+          ],
+          "trap": [
+            "Lift off opponent, rotate arms"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the opponent is about to bridge and roll to escape the Kimura attempt?",
         "answer": "Watch for the opponent planting both feet flat on the mat, loading their hips by pressing down through their heels, and shifting weight toward the Kimura side. They may also push your hip with their free hand to create a pivot point. Counter by widening your base immediately, driving your hips lower against their ribs, and maintaining the armpit clamp. Ride any bridge by staying connected rather than tensing against it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feet planted, hips loading",
+        "distractors": {
+          "plausible": [
+            "Free hand grips your collar",
+            "Opponent turns head away"
+          ],
+          "trap": [
+            "Rotate faster to beat the bridge"
+          ]
+        }
       },
       {
         "question": "In a competition scramble, how do you decide between forcing the Kimura finish and using it to advance position?",
         "answer": "If the figure-four and elbow-hip fulcrum are locked and the opponent cannot rotate out, commit to the finish with steady hip-driven pressure. If they defend by gripping their belt or straightening the arm and the clock is not against you, use the Kimura grip as a steering wheel: walk to north-south or take the back, keeping the threat alive while you upgrade position rather than burning energy on a stalled finish. The locked grip means a defensive reaction in any direction feeds your next attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Finish if locked, else advance",
+        "distractors": {
+          "plausible": [
+            "Always force the submission",
+            "Abandon grip if they defend"
+          ],
+          "trap": [
+            "Release grip, reset to neutral"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol after your partner taps to this submission?",
         "answer": "Immediately stop all rotational pressure the moment any tap signal is detected—verbal, hand tap, or foot tap. Reverse the rotation by externally rotating the arm back toward neutral position. Release the figure-four grip completely and allow your partner to move their arm freely. Never release suddenly or let the arm spring back, as this can cause additional injury. Allow your partner to assess their shoulder mobility before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, reverse, then release",
+        "distractors": {
+          "plausible": [
+            "Hold position, confirm tap again",
+            "Release grip instantly, let go"
+          ],
+          "trap": [
+            "Keep pressure, finish the tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -438,27 +538,77 @@
       {
         "question": "How do you recognize that a Kimura attack is being initiated from Reverse Kesa-Gatame?",
         "answer": "The primary recognition cue is the attacker transitioning their near hand from the armpit clamp to a deliberate wrist grip on your far hand. You will feel their far arm threading under your tricep from the outside. The chest pressure may shift slightly as they adjust position for the grip change. Recognizing these cues at the wrist control stage gives you the most defensive options before the figure-four is locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand shifts to wrist grip",
+        "distractors": {
+          "plausible": [
+            "Sudden spike in chest pressure",
+            "Opponent grabs your near collar"
+          ],
+          "trap": [
+            "Ignore it, wait for figure-four"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in this Kimura?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Tap physically with your free hand on the attacker's body, the mat, or your own body using multiple rapid taps. Verbalize 'tap' loudly at the same time. If your free hand is trapped, tap with your feet or verbalize clearly. The shoulder joint can be damaged rapidly once rotation begins past the anatomical limit, so never wait to see if you can escape once significant rotational pressure is applied.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, multiple signals",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap once, stay calm and still"
+          ],
+          "trap": [
+            "Try to power out instead"
+          ]
+        }
       },
       {
         "question": "What defensive options exist once the figure-four grip is fully locked?",
         "answer": "Once the figure-four is locked, immediately grab your own thigh or shorts to anchor the arm and prevent rotation. Alternatively, attempt to straighten your arm forcefully to break the grip configuration. Your best option is an explosive bridge toward the Kimura side combined with a hip escape to disrupt the attacker's base. If rotation has already begun and you feel significant pressure on your shoulder, tap immediately rather than risking injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Anchor thigh, bridge to escape",
+        "distractors": {
+          "plausible": [
+            "Pull elbow away from your hip",
+            "Wait for pressure, then defend"
+          ],
+          "trap": [
+            "Relax the arm completely"
+          ]
+        }
       },
       {
         "question": "Why is timing your bridge to the attacker's grip transition the most effective defensive window?",
         "answer": "During the grip transition from armpit clamp to figure-four, the attacker temporarily releases primary arm control and adjusts their upper body positioning. This creates a brief window where chest pressure lightens and their base narrows as they focus on threading the grip. Bridging during this transition exploits both the reduced pressure and compromised stability simultaneously, creating the best opportunity to recover guard or completely disrupt the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip switch = lightest pressure",
+        "distractors": {
+          "plausible": [
+            "Bridge only after lock is set",
+            "Wait until rotation begins"
+          ],
+          "trap": [
+            "Stay still, absorb the pressure"
+          ]
+        }
       },
       {
         "question": "What are the consequences of waiting too long to defend the Kimura from this position?",
         "answer": "Once the figure-four is locked and the elbow is pinned to the attacker's hip, escape options decrease dramatically. The attacker has both positional control through chest pressure and mechanical advantage through the grip configuration. Rotation can begin rapidly, and the shoulder reaches its anatomical limit faster than most practitioners expect. Delayed defense commonly results in either tapping from a deep submission or sustaining serious shoulder injury from attempting escape when the joint is already compromised.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Escape options collapse fast",
+        "distractors": {
+          "plausible": [
+            "Opponent tires, you get free",
+            "Position stays the same"
+          ],
+          "trap": [
+            "Push harder once it's locked"
+          ]
+        }
       }
     ],
     "training_progressions": [

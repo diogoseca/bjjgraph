@@ -255,35 +255,115 @@
     "flashcards": [
       {
         "question": "What is the optimal hip angle relative to the opponent's spine for generating maximum rotational torque during the Hindulotine finish?",
-        "answer": "Position your hips at approximately 45-90 degrees perpendicular to the opponent's spine. This perpendicular angle transforms your body into a rotational lever, allowing core rotation to generate torque through the grip. The exact angle depends on your body proportions and the opponent's neck size, but the key principle is creating an angle where hip rotation directly translates into choking pressure rather than pulling the opponent toward you."
+        "answer": "Position your hips at approximately 45-90 degrees perpendicular to the opponent's spine. This perpendicular angle transforms your body into a rotational lever, allowing core rotation to generate torque through the grip. The exact angle depends on your body proportions and the opponent's neck size, but the key principle is creating an angle where hip rotation directly translates into choking pressure rather than pulling the opponent toward you.",
+        "answer_line": "Hips 45-90° perpendicular",
+        "distractors": {
+          "plausible": [
+            "Straight-on, pull back linearly",
+            "Low and square, minimal rotation"
+          ],
+          "trap": [
+            "Align spine parallel to theirs"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly during your finishing attempt - how do you adjust to complete the choke?",
-        "answer": "Walk your choking arm higher on the neck through incremental adjustments while maintaining constant baseline pressure. Simultaneously increase your hip angle to generate more rotational torque. The rotation works around the chin tuck by compressing from the sides rather than pulling straight into the chin. If the chin tuck persists, apply pressure through the jaw itself, which creates enough discomfort to force a tap or create an opening for the forearm to slide deeper."
+        "answer": "Walk your choking arm higher on the neck through incremental adjustments while maintaining constant baseline pressure. Simultaneously increase your hip angle to generate more rotational torque. The rotation works around the chin tuck by compressing from the sides rather than pulling straight into the chin. If the chin tuck persists, apply pressure through the jaw itself, which creates enough discomfort to force a tap or create an opening for the forearm to slide deeper.",
+        "answer_line": "Walk grip higher, raise angle",
+        "distractors": {
+          "plausible": [
+            "Just pull harder into chin",
+            "Switch to opposite-arm grip"
+          ],
+          "trap": [
+            "Release grip and reset"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest finishing pressure for the Hindulotine?",
-        "answer": "The gable grip with palms pressed together provides the strongest structural connection for the finish. Position the blade of your choking wrist directly under the opponent's chin, targeting the groove between chin and adam's apple. Your non-choking hand reinforces the grip while elbows stay tight to your body. The chin strap grip where the choking hand grabs the opposite bicep is an alternative that sacrifices some power for additional control over grip height adjustment during the finishing sequence."
+        "answer": "The gable grip with palms pressed together provides the strongest structural connection for the finish. Position the blade of your choking wrist directly under the opponent's chin, targeting the groove between chin and adam's apple. Your non-choking hand reinforces the grip while elbows stay tight to your body. The chin strap grip where the choking hand grabs the opposite bicep is an alternative that sacrifices some power for additional control over grip height adjustment during the finishing sequence.",
+        "answer_line": "Gable grip, blade under chin",
+        "distractors": {
+          "plausible": [
+            "Chin-strap grip on bicep",
+            "Interlaced fingers grip"
+          ],
+          "trap": [
+            "Elbows flared out wide"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to roll through your base during the finishing sequence - what is your immediate response?",
-        "answer": "Drive your hip into their shoulder on the rolling side and sprawl your weight backward to remove their rolling leverage. Your wide tripod base should already have one leg posted on their rolling side to prevent this. If the roll succeeds despite your defense, follow while maintaining the grip and transition to a guard-based guillotine finish. Prevention through wide base positioning is always more reliable than reacting to a roll already in progress."
+        "answer": "Drive your hip into their shoulder on the rolling side and sprawl your weight backward to remove their rolling leverage. Your wide tripod base should already have one leg posted on their rolling side to prevent this. If the roll succeeds despite your defense, follow while maintaining the grip and transition to a guard-based guillotine finish. Prevention through wide base positioning is always more reliable than reacting to a roll already in progress.",
+        "answer_line": "Hip into shoulder, sprawl back",
+        "distractors": {
+          "plausible": [
+            "Follow the roll right away",
+            "Widen base, no hip pressure"
+          ],
+          "trap": [
+            "Release grip to stop roll"
+          ]
+        }
       },
       {
         "question": "What is the most critical body part for generating finishing pressure in the Hindulotine, and why?",
-        "answer": "The hips are the most critical body part because they serve as the rotational fulcrum that generates torque through the grip. While the arms maintain the choking connection, the actual finishing power comes from hip rotation and weight transfer through those hips. Practitioners who rely on arm strength fatigue rapidly and apply less effective pressure compared to those who drive the finish through hip mechanics and core rotation, which engages the largest muscle groups in the body."
+        "answer": "The hips are the most critical body part because they serve as the rotational fulcrum that generates torque through the grip. While the arms maintain the choking connection, the actual finishing power comes from hip rotation and weight transfer through those hips. Practitioners who rely on arm strength fatigue rapidly and apply less effective pressure compared to those who drive the finish through hip mechanics and core rotation, which engages the largest muscle groups in the body.",
+        "answer_line": "Hips - the rotational fulcrum",
+        "distractors": {
+          "plausible": [
+            "Arms - the choking connection",
+            "Shoulders drive the pressure"
+          ],
+          "trap": [
+            "Grip strength, squeeze harder"
+          ]
+        }
       },
       {
         "question": "How do you recognize the optimal moment to transition from Hindulotine control to active finishing?",
-        "answer": "The optimal finishing window opens when the opponent's defensive structures begin to fatigue, indicated by weakening grip-fighting attempts, reduced bridging power, or slight relaxation in their chin tuck. Additionally, look for moments when you achieve a particularly strong hip angle or when your weight shift creates a visible compression response in the opponent's body. Starting the finish prematurely against fresh defenses wastes grip energy, while waiting too long allows the opponent to engineer an escape."
+        "answer": "The optimal finishing window opens when the opponent's defensive structures begin to fatigue, indicated by weakening grip-fighting attempts, reduced bridging power, or slight relaxation in their chin tuck. Additionally, look for moments when you achieve a particularly strong hip angle or when your weight shift creates a visible compression response in the opponent's body. Starting the finish prematurely against fresh defenses wastes grip energy, while waiting too long allows the opponent to engineer an escape.",
+        "answer_line": "Opponent's defense fatigues",
+        "distractors": {
+          "plausible": [
+            "Right after securing grip",
+            "After their first bridge"
+          ],
+          "trap": [
+            "Wait until they stop moving"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to create a frame during your finishing attempt - how do you capitalize?",
-        "answer": "A posted hand means that arm is committed to framing rather than defending the neck. Use your non-choking arm to swim past their frame or collapse it by driving your shoulder into their posted arm. Once the frame is removed, their defensive structure weakens significantly. Alternatively, the posted arm creates an opening for transitioning to a Darce if the Hindulotine finish stalls, as their arm is already partially positioned across their neck line."
+        "answer": "A posted hand means that arm is committed to framing rather than defending the neck. Use your non-choking arm to swim past their frame or collapse it by driving your shoulder into their posted arm. Once the frame is removed, their defensive structure weakens significantly. Alternatively, the posted arm creates an opening for transitioning to a Darce if the Hindulotine finish stalls, as their arm is already partially positioned across their neck line.",
+        "answer_line": "Collapse frame, drive shoulder",
+        "distractors": {
+          "plausible": [
+            "Wait for them to pull it back",
+            "Grab the posted wrist"
+          ],
+          "trap": [
+            "Push off it, create space"
+          ]
+        }
       },
       {
         "question": "What are the key differences in finishing mechanics between the Hindulotine and a standard high-elbow guillotine?",
-        "answer": "The standard high-elbow guillotine generates pressure through linear pulling with the elbow rising toward the ceiling, compressing the trachea and carotids in a straight line. The Hindulotine generates pressure through rotational torque where hip angle creates a perpendicular force vector on the neck. This means the Hindulotine is more effective against opponents who can resist straight pulling pressure, uses less grip strength for sustained attempts, and offers better control from top position where gravity assists the rotation."
+        "answer": "The standard high-elbow guillotine generates pressure through linear pulling with the elbow rising toward the ceiling, compressing the trachea and carotids in a straight line. The Hindulotine generates pressure through rotational torque where hip angle creates a perpendicular force vector on the neck. This means the Hindulotine is more effective against opponents who can resist straight pulling pressure, uses less grip strength for sustained attempts, and offers better control from top position where gravity assists the rotation.",
+        "answer_line": "Torque vs. linear pull",
+        "distractors": {
+          "plausible": [
+            "Same mechanic, different grip",
+            "Both use straight-line pull"
+          ],
+          "trap": [
+            "Elbow-up ceiling pull"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Hindulotine finish applies both blood choke pressure on the carotid arteries and cranking force on the cervical spine due to its rotational mechanics. Always release immediately when your training partner taps or their body goes limp, as unconsciousness can occur rapidly with bilateral carotid compression. Never apply rotational pressure explosively in training, as the combined choke and cervical crank can cause injury before the partner has time to signal a tap. Monitor for signs of unconsciousness including cessation of defensive movement, body going limp, and unusual sounds. Beginners should drill the finishing sequence at significantly reduced intensity until the rotational mechanics are understood. Communicate with your partner about pressure levels throughout the drill.",
@@ -401,23 +481,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the opponent is transitioning from Hindulotine control to an active finishing attempt?",
-        "answer": "The earliest cue is a shift in the opponent's weight distribution from maintaining positional control to driving downward and forward through the choking arm. You will feel increased pressure on your neck, often accompanied by their hip angle changing as they rotate perpendicular to your spine. Their legs may also widen for base stability, signaling commitment to the finish rather than continued positional maintenance."
+        "answer": "The earliest cue is a shift in the opponent's weight distribution from maintaining positional control to driving downward and forward through the choking arm. You will feel increased pressure on your neck, often accompanied by their hip angle changing as they rotate perpendicular to your spine. Their legs may also widen for base stability, signaling commitment to the finish rather than continued positional maintenance.",
+        "answer_line": "Weight shifts down/forward",
+        "distractors": {
+          "plausible": [
+            "Grip suddenly tightens",
+            "They grunt or vocalize"
+          ],
+          "trap": [
+            "Legs narrow, base shrinks"
+          ]
+        }
       },
       {
         "question": "Why is bridging directly into the opponent's pressure ineffective as a primary escape from the Hindulotine finish?",
-        "answer": "Bridging directly into the opponent's pressure is ineffective because their weight is already positioned to drive downward through the choke, and the rotational mechanics mean your forward energy increases their torque. Your bridge lifts your hips but does not address the rotational pressure on your neck. Instead, bridge at an angle toward the choking arm side to change your spine alignment, using the bridge as a setup for directional escape rather than a direct counter to the choking force."
+        "answer": "Bridging directly into the opponent's pressure is ineffective because their weight is already positioned to drive downward through the choke, and the rotational mechanics mean your forward energy increases their torque. Your bridge lifts your hips but does not address the rotational pressure on your neck. Instead, bridge at an angle toward the choking arm side to change your spine alignment, using the bridge as a setup for directional escape rather than a direct counter to the choking force.",
+        "answer_line": "It increases their torque",
+        "distractors": {
+          "plausible": [
+            "Doesn't lift hips enough",
+            "Just wastes their energy"
+          ],
+          "trap": [
+            "Bridge away from choke arm"
+          ]
+        }
       },
       {
         "question": "Your opponent has the Hindulotine locked and begins rotating their hips to finish - what is your highest-priority defensive action?",
-        "answer": "Your highest priority is to get your hands inside the choking grip to create a wedge between their forearm and your neck. Even a partial hand insertion reduces choking pressure significantly and buys critical time. Simultaneously, begin turning your body toward their choking arm side to align your spine with their rotation, which reduces the rotational torque. These two actions together can reduce finish pressure substantially and create opportunities for grip-breaking escapes."
+        "answer": "Your highest priority is to get your hands inside the choking grip to create a wedge between their forearm and your neck. Even a partial hand insertion reduces choking pressure significantly and buys critical time. Simultaneously, begin turning your body toward their choking arm side to align your spine with their rotation, which reduces the rotational torque. These two actions together can reduce finish pressure substantially and create opportunities for grip-breaking escapes.",
+        "answer_line": "Wedge hands in, turn into arm",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to escape",
+            "Strip grip at far wrist"
+          ],
+          "trap": [
+            "Turn away from choking arm"
+          ]
+        }
       },
       {
         "question": "What body position minimizes the effectiveness of the Hindulotine finish when you cannot immediately escape?",
-        "answer": "Turn to face the same direction as the attacker's choking arm, aligning your spine as parallel to their body as possible. This eliminates the perpendicular angle that generates rotational torque. Tuck your chin firmly and establish hand contact with the choking grip as a wedge. Keep your body connected to theirs rather than creating space, as space allows them to readjust their angle. This survival position requires transitioning to active escape before you fatigue."
+        "answer": "Turn to face the same direction as the attacker's choking arm, aligning your spine as parallel to their body as possible. This eliminates the perpendicular angle that generates rotational torque. Tuck your chin firmly and establish hand contact with the choking grip as a wedge. Keep your body connected to theirs rather than creating space, as space allows them to readjust their angle. This survival position requires transitioning to active escape before you fatigue.",
+        "answer_line": "Turn parallel to choking arm",
+        "distractors": {
+          "plausible": [
+            "Create space to breathe",
+            "Turn perpendicular to them"
+          ],
+          "trap": [
+            "Push away, extend distance"
+          ]
+        }
       },
       {
         "question": "How do you create the conditions to escape from Hindulotine finish to Half Guard top position?",
-        "answer": "The escape to Half Guard requires first breaking or significantly weakening the choking grip through persistent hand fighting to create a wedge. Then time a hip escape to slide underneath the attacker while hooking their near leg between yours. The key timing element is executing the hip movement during the opponent's grip readjustment, when their focus shifts from squeezing to repositioning. Once you secure Half Guard with the grip broken, immediately establish frames to prevent reapplication of the choke."
+        "answer": "The escape to Half Guard requires first breaking or significantly weakening the choking grip through persistent hand fighting to create a wedge. Then time a hip escape to slide underneath the attacker while hooking their near leg between yours. The key timing element is executing the hip movement during the opponent's grip readjustment, when their focus shifts from squeezing to repositioning. Once you secure Half Guard with the grip broken, immediately establish frames to prevent reapplication of the choke.",
+        "answer_line": "Break grip, hip-escape, hook leg",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll them over",
+            "Push off and stand up"
+          ],
+          "trap": [
+            "Pull guard to reset"
+          ]
+        }
       }
     ],
     "training_progressions": [

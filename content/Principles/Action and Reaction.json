@@ -394,39 +394,129 @@
   "flashcards": [
     {
       "question": "What is the core mechanism behind the Action and Reaction principle?",
-      "answer": "You apply a credible threat that forces the opponent to commit to a specific defense, then immediately attack the vulnerability that defensive commitment opens up somewhere else."
+      "answer": "You apply a credible threat that forces the opponent to commit to a specific defense, then immediately attack the vulnerability that defensive commitment opens up somewhere else.",
+      "answer_line": "Threaten, then attack the opening",
+      "distractors": {
+        "plausible": [
+          "Attack the same spot they defend",
+          "Wait for opponent to attack first"
+        ],
+        "trap": [
+          "Force it through their resistance"
+        ]
+      }
     },
     {
       "question": "Why is reaction-based attacking more effective than forcing a technique through full resistance?",
-      "answer": "Forcing fights the opponent's strongest defensive structure head-on, while reaction-based attacking waits for their defense to commit and exploits the weakness that commitment necessarily creates, costing far less energy."
+      "answer": "Forcing fights the opponent's strongest defensive structure head-on, while reaction-based attacking waits for their defense to commit and exploits the weakness that commitment necessarily creates, costing far less energy.",
+      "answer_line": "Costs less energy, exploits gaps",
+      "distractors": {
+        "plausible": [
+          "Forcing works if you're stronger",
+          "Both approaches cost equal energy"
+        ],
+        "trap": [
+          "Always force through best defense"
+        ]
+      }
     },
     {
       "question": "How do you distinguish a reactive defensive movement from a proactive offensive one?",
-      "answer": "Read context and timing: a reaction follows your threat and aims to neutralize it, while a proactive movement initiates independently. Acting on a proactive movement as if it were a reaction leads to mistimed, failed attacks."
+      "answer": "Read context and timing: a reaction follows your threat and aims to neutralize it, while a proactive movement initiates independently. Acting on a proactive movement as if it were a reaction leads to mistimed, failed attacks.",
+      "answer_line": "Reaction follows your threat",
+      "distractors": {
+        "plausible": [
+          "Judge by speed of movement",
+          "Judge by which limb moves first"
+        ],
+        "trap": [
+          "Treat all movement as reactive"
+        ]
+      }
     },
     {
       "question": "What goes wrong when your initial action is not threatening enough?",
-      "answer": "The opponent can defend passively without committing, so no exploitable reaction is generated. Increase the threat's credibility or stack multiple simultaneous threats to force an active defensive choice."
+      "answer": "The opponent can defend passively without committing, so no exploitable reaction is generated. Increase the threat's credibility or stack multiple simultaneous threats to force an active defensive choice.",
+      "answer_line": "Weak threat draws no reaction",
+      "distractors": {
+        "plausible": [
+          "Opponent reacts but slowly",
+          "They over-commit defending it"
+        ],
+        "trap": [
+          "Repeat the same weak action"
+        ]
+      }
     },
     {
       "question": "In closed guard, what reaction does a strong collar grip and posture break provoke, and how is it exploited?",
-      "answer": "It provokes the opponent to post their hands or lean back to recover posture, opening hip bump sweeps, kimura traps, and other attacks that exploit the committed defensive arm."
+      "answer": "It provokes the opponent to post their hands or lean back to recover posture, opening hip bump sweeps, kimura traps, and other attacks that exploit the committed defensive arm.",
+      "answer_line": "Posts hands, opens sweep/kimura",
+      "distractors": {
+        "plausible": [
+          "Grips your wrist to defend",
+          "Turtles to protect posture"
+        ],
+        "trap": [
+          "Stands straight up to escape"
+        ]
+      }
     },
     {
       "question": "Why is timing as important as the action itself in this principle?",
-      "answer": "The vulnerability created by a defensive commitment is temporary; if you hesitate, the opponent recovers their structure before you can exploit it, so the counter must fire while the reaction still persists."
+      "answer": "The vulnerability created by a defensive commitment is temporary; if you hesitate, the opponent recovers their structure before you can exploit it, so the counter must fire while the reaction still persists.",
+      "answer_line": "Window closes fast, strike now",
+      "distractors": {
+        "plausible": [
+          "Timing matters less than power",
+          "React only after they recover"
+        ],
+        "trap": [
+          "Delay attack until you're set"
+        ]
+      }
     },
     {
       "question": "What is the danger of over-committing to your initial action?",
-      "answer": "Over-committing can cost you balance or position when the reaction-based follow-up isn't available, so calibrate threat intensity to provoke the reaction while keeping the ability to recover and continue attacking."
+      "answer": "Over-committing can cost you balance or position when the reaction-based follow-up isn't available, so calibrate threat intensity to provoke the reaction while keeping the ability to recover and continue attacking.",
+      "answer_line": "Lose balance if follow-up fails",
+      "distractors": {
+        "plausible": [
+          "Opponent copies your commitment",
+          "Wastes time, not position"
+        ],
+        "trap": [
+          "Always commit fully to threats"
+        ]
+      }
     },
     {
       "question": "How does chaining actions strengthen reaction-based attacking against experienced opponents?",
-      "answer": "Each defended threat provokes a fresh reaction, so linking actions keeps the opponent reacting and progressively weakens their structure, maintaining offensive initiative regardless of whether any single technique finishes."
+      "answer": "Each defended threat provokes a fresh reaction, so linking actions keeps the opponent reacting and progressively weakens their structure, maintaining offensive initiative regardless of whether any single technique finishes.",
+      "answer_line": "Keeps them reacting, wears defense",
+      "distractors": {
+        "plausible": [
+          "Repeats one move until it lands",
+          "Forces a single finishing blow"
+        ],
+        "trap": [
+          "Waits for one perfect opening"
+        ]
+      }
     },
     {
       "question": "At the expert level, how is Action and Reaction applied beyond single isolated threats?",
-      "answer": "Experts sequence threats to manipulate defensive priorities, condition habitual reactions through repeated patterns, and then exploit the predictable response or its deviation, turning the opponent's own defensive habits into a trap."
+      "answer": "Experts sequence threats to manipulate defensive priorities, condition habitual reactions through repeated patterns, and then exploit the predictable response or its deviation, turning the opponent's own defensive habits into a trap.",
+      "answer_line": "Condition reactions, then exploit",
+      "distractors": {
+        "plausible": [
+          "Copy elite highlight sequences",
+          "Attack random targets rapidly"
+        ],
+        "trap": [
+          "Use one threat, repeat forever"
+        ]
+      }
     }
   ],
   "clips": [

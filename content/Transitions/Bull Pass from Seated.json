@@ -275,43 +275,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Bull Pass against a seated guard player?",
-        "answer": "The optimal timing window is when the opponent's feet are momentarily passive or disengaged, typically when they are adjusting grips, transitioning between positions, or when their hands are occupied with upper body grip fighting rather than managing distance with their legs. Also effective immediately after breaking their grips when they need a moment to reestablish defensive structure."
+        "answer": "The optimal timing window is when the opponent's feet are momentarily passive or disengaged, typically when they are adjusting grips, transitioning between positions, or when their hands are occupied with upper body grip fighting rather than managing distance with their legs. Also effective immediately after breaking their grips when they need a moment to reestablish defensive structure.",
+        "answer_line": "Feet passive or hands occupied",
+        "distractors": {
+          "plausible": [
+            "Right after closing distance",
+            "As soon as grips are secured"
+          ],
+          "trap": [
+            "While their feet push your hips"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best control for executing the Bull Pass?",
-        "answer": "Pronated grips with palms facing down on both knees or just below on the shins provide maximum pushing power and directional control. The grip should be firm enough to redirect the legs decisively but not death-gripped to the point where you cannot release quickly for the transition to upper body control. Some practitioners prefer cupping behind the knees for better leverage on the redirection."
+        "answer": "Pronated grips with palms facing down on both knees or just below on the shins provide maximum pushing power and directional control. The grip should be firm enough to redirect the legs decisively but not death-gripped to the point where you cannot release quickly for the transition to upper body control. Some practitioners prefer cupping behind the knees for better leverage on the redirection.",
+        "answer_line": "Palms-down grips on knees/shins",
+        "distractors": {
+          "plausible": [
+            "Supinated grip under the knees",
+            "Grab the ankles for control"
+          ],
+          "trap": [
+            "Grip their sleeves, not legs"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to resist the forward drive - how do you adjust?",
-        "answer": "If the opponent posts a hand to brace against your drive, they have removed that hand from their base behind them. Immediately redirect the drive toward the side where they posted because their base is now compromised on that side. The posted hand creates a fulcrum point you can exploit by driving their legs toward it, causing them to collapse in the direction of their weakened support structure."
+        "answer": "If the opponent posts a hand to brace against your drive, they have removed that hand from their base behind them. Immediately redirect the drive toward the side where they posted because their base is now compromised on that side. The posted hand creates a fulcrum point you can exploit by driving their legs toward it, causing them to collapse in the direction of their weakened support structure.",
+        "answer_line": "Redirect toward the posted hand",
+        "distractors": {
+          "plausible": [
+            "Redirect away from the post",
+            "Pause and reset your grips"
+          ],
+          "trap": [
+            "Drive straight into the post"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that separates a successful Bull Pass from a failed attempt?",
-        "answer": "The most critical detail is the simultaneous coordination of the leg push and hip advancement. The legs must be pushed to the side at the exact same moment your hips drive forward into the space being created. If the leg push happens first without hip drive, the opponent has time to reframe. If the hips drive first without leg control, you run directly into their defensive frames."
+        "answer": "The most critical detail is the simultaneous coordination of the leg push and hip advancement. The legs must be pushed to the side at the exact same moment your hips drive forward into the space being created. If the leg push happens first without hip drive, the opponent has time to reframe. If the hips drive first without leg control, you run directly into their defensive frames.",
+        "answer_line": "Leg push and hip drive together",
+        "distractors": {
+          "plausible": [
+            "Push legs first, then hips",
+            "Drive hips first, then legs"
+          ],
+          "trap": [
+            "Push hard, worry about hips later"
+          ]
+        }
       },
       {
         "question": "What direction should you push the opponent's legs during the Bull Pass, and why?",
-        "answer": "Push the legs toward the direction the opponent is already slightly leaning or toward the side where they have less base support. This exploits their existing structural weakness rather than fighting against their strongest defensive alignment. If they are neutral, push toward their underhook side as it is typically harder for them to reframe effectively from that angle against lateral pressure."
+        "answer": "Push the legs toward the direction the opponent is already slightly leaning or toward the side where they have less base support. This exploits their existing structural weakness rather than fighting against their strongest defensive alignment. If they are neutral, push toward their underhook side as it is typically harder for them to reframe effectively from that angle against lateral pressure.",
+        "answer_line": "Push toward their weak base side",
+        "distractors": {
+          "plausible": [
+            "Push toward their strong side",
+            "Push straight down the middle"
+          ],
+          "trap": [
+            "Push into their strongest frame"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before attempting the Bull Pass from Seated Guard?",
-        "answer": "You need secure grips on both legs at or below the knees, a stable athletic stance with hips loaded for explosive forward drive, the opponent's feet not actively pushing on your hips, no significant opponent grips controlling your posture or sleeves, and sufficient distance to generate forward momentum. Missing any of these conditions significantly reduces success probability and increases counter risk."
+        "answer": "You need secure grips on both legs at or below the knees, a stable athletic stance with hips loaded for explosive forward drive, the opponent's feet not actively pushing on your hips, no significant opponent grips controlling your posture or sleeves, and sufficient distance to generate forward momentum. Missing any of these conditions significantly reduces success probability and increases counter risk.",
+        "answer_line": "Secure grips, base, feet clear",
+        "distractors": {
+          "plausible": [
+            "Loose grips are fine to start",
+            "Distance to hips doesn't matter"
+          ],
+          "trap": [
+            "Drive in with feet on your hips"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks the Bull Pass by inserting a butterfly hook as you close distance - what is your response?",
-        "answer": "Immediately abort the straight bull pass drive and transition to a smash pass or knee slice. The butterfly hook converts the situation from seated guard to butterfly guard, which requires entirely different passing mechanics. Driving forward against an established butterfly hook feeds directly into their elevation sweep. Instead, control the hook-side leg and use smash pass pressure to flatten the hook before continuing the pass."
+        "answer": "Immediately abort the straight bull pass drive and transition to a smash pass or knee slice. The butterfly hook converts the situation from seated guard to butterfly guard, which requires entirely different passing mechanics. Driving forward against an established butterfly hook feeds directly into their elevation sweep. Instead, control the hook-side leg and use smash pass pressure to flatten the hook before continuing the pass.",
+        "answer_line": "Abort and smash pass the hook",
+        "distractors": {
+          "plausible": [
+            "Switch straight to toreando",
+            "Fight to strip the hook first"
+          ],
+          "trap": [
+            "Keep driving forward as planned"
+          ]
+        }
       },
       {
         "question": "How does the Bull Pass chain with other passing techniques when the initial attempt is defended?",
-        "answer": "When the bull pass is stuffed by frames, the opponent's extended legs are perfectly positioned for a toreando pass using lateral redirection. If they pull legs back to defend toreando, the gap created opens for a knee slice entry. If they sit up to counter the knee slice, their seated position reopens the bull pass. This creates a three-way passing cycle: bull pass feeds toreando feeds knee slice and back to bull pass."
+        "answer": "When the bull pass is stuffed by frames, the opponent's extended legs are perfectly positioned for a toreando pass using lateral redirection. If they pull legs back to defend toreando, the gap created opens for a knee slice entry. If they sit up to counter the knee slice, their seated position reopens the bull pass. This creates a three-way passing cycle: bull pass feeds toreando feeds knee slice and back to bull pass.",
+        "answer_line": "Feeds toreando, then knee slice",
+        "distractors": {
+          "plausible": [
+            "Repeat the same bull pass entry",
+            "Jump straight to a back take"
+          ],
+          "trap": [
+            "Abandon the pass for a submission"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of overcommitting to the Bull Pass, and how do you mitigate it?",
-        "answer": "The primary risk is the opponent using your forward momentum for a sweep, particularly by hooking your lead leg and elevating. Mitigate this by maintaining a low center of gravity throughout the drive, keeping your base wide with the free leg posted, and being ready to abandon the attempt if you feel yourself being elevated. If caught in elevation, immediately post hands wide and retract the hooked leg rather than continuing forward."
+        "answer": "The primary risk is the opponent using your forward momentum for a sweep, particularly by hooking your lead leg and elevating. Mitigate this by maintaining a low center of gravity throughout the drive, keeping your base wide with the free leg posted, and being ready to abandon the attempt if you feel yourself being elevated. If caught in elevation, immediately post hands wide and retract the hooked leg rather than continuing forward.",
+        "answer_line": "Elevation sweep on your lead leg",
+        "distractors": {
+          "plausible": [
+            "Getting stacked under pressure",
+            "Losing your grips mid-drive"
+          ],
+          "trap": [
+            "Keep driving if you feel elevated"
+          ]
+        }
       },
       {
         "question": "When should you choose the Bull Pass over the Toreando Pass from Seated Guard?",
-        "answer": "Choose the bull pass when the opponent's feet are close together or inactive since toreando requires separated legs to redirect laterally. Choose it when the opponent has a strong lateral scooting game that defeats toreando attempts. Also choose it when the opponent is focused on upper body grip fighting and neglecting their leg defense. The toreando is generally higher percentage, so the bull pass works best as a change of pace or against specific passive defensive postures."
+        "answer": "Choose the bull pass when the opponent's feet are close together or inactive since toreando requires separated legs to redirect laterally. Choose it when the opponent has a strong lateral scooting game that defeats toreando attempts. Also choose it when the opponent is focused on upper body grip fighting and neglecting their leg defense. The toreando is generally higher percentage, so the bull pass works best as a change of pace or against specific passive defensive postures.",
+        "answer_line": "Feet close together or passive",
+        "distractors": {
+          "plausible": [
+            "Whenever grips feel stronger",
+            "As your default, go-to pass"
+          ],
+          "trap": [
+            "When their feet are spread wide"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Bull Pass involves explosive forward driving that can strain the lower back and knees if performed with poor mechanics. Always warm up hips and lower back before drilling this technique. The forward drive should come from hip extension rather than spinal flexion. When drilling with partners, communicate about drive intensity to prevent accidental knee impacts or facial collisions. The opponent's legs can be stressed at the knee joint if pushed at an extreme lateral angle, so direct leg pushes laterally with controlled force rather than hyperextending. Practice at controlled speed before adding full explosiveness.",
@@ -429,23 +529,73 @@
     "flashcards": [
       {
         "question": "What is the earliest visual cue that your opponent is setting up a Bull Pass rather than a Toreando?",
-        "answer": "The key distinction is the opponent's posture and hand positioning. For the bull pass, the opponent drops their hips lower and reaches for your knees with palms down in a driving grip, whereas the toreando features a more upright posture with hands gripping your pants or ankles for lateral redirection. The bull pass setup shows a loaded coiled stance with weight shifted slightly backward in preparation for forward explosion."
+        "answer": "The key distinction is the opponent's posture and hand positioning. For the bull pass, the opponent drops their hips lower and reaches for your knees with palms down in a driving grip, whereas the toreando features a more upright posture with hands gripping your pants or ankles for lateral redirection. The bull pass setup shows a loaded coiled stance with weight shifted slightly backward in preparation for forward explosion.",
+        "answer_line": "Low hips, palms-down knee grips",
+        "distractors": {
+          "plausible": [
+            "Upright stance, gripping ankles",
+            "Hands gripping the pant cuffs"
+          ],
+          "trap": [
+            "Weight shifted forward, arms wide"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured grips on both your knees and is about to drive forward - what is your highest-percentage defensive response?",
-        "answer": "Immediately pull one knee free using a sharp hip rotation while simultaneously scooting your hips backward to create distance. If you cannot free a leg in time, turn to your side toward the direction your legs are being pushed and work to insert a knee shield between you and the advancing opponent. The worst response is to remain flat and try to push back with both legs, as this loses the direct strength exchange."
+        "answer": "Immediately pull one knee free using a sharp hip rotation while simultaneously scooting your hips backward to create distance. If you cannot free a leg in time, turn to your side toward the direction your legs are being pushed and work to insert a knee shield between you and the advancing opponent. The worst response is to remain flat and try to push back with both legs, as this loses the direct strength exchange.",
+        "answer_line": "Free a knee, scoot hips back",
+        "distractors": {
+          "plausible": [
+            "Grab a collar tie to stall",
+            "Sit up and posture through it"
+          ],
+          "trap": [
+            "Push back with both legs flat"
+          ]
+        }
       },
       {
         "question": "How does defending the Bull Pass differ from defending the Toreando Pass?",
-        "answer": "The toreando is defended primarily with hip scooting and leg pummeling to prevent lateral leg redirection, keeping feet engaged and following the opponent's lateral movement. The bull pass requires more forward resistance through frames on hips and the ability to redirect explosive forward energy into sweeps. Against the toreando, match their lateral movement. Against the bull pass, create preemptive distance or redirect their forward momentum."
+        "answer": "The toreando is defended primarily with hip scooting and leg pummeling to prevent lateral leg redirection, keeping feet engaged and following the opponent's lateral movement. The bull pass requires more forward resistance through frames on hips and the ability to redirect explosive forward energy into sweeps. Against the toreando, match their lateral movement. Against the bull pass, create preemptive distance or redirect their forward momentum.",
+        "answer_line": "Frame forward vs. scoot laterally",
+        "distractors": {
+          "plausible": [
+            "Scoot laterally against both",
+            "Pummel legs free either way"
+          ],
+          "trap": [
+            "Stay passive and match their pace"
+          ]
+        }
       },
       {
         "question": "What training drill best develops the reflexes needed to defend the Bull Pass?",
-        "answer": "Positional sparring starting from seated guard where the top player specifically attempts bull pass and toreando combinations at progressive resistance levels. The bottom player practices maintaining active feet, reading the grip placement that distinguishes the two passes, and deploying the correct defensive response for each. Start at 50% speed and progressively increase intensity to build pattern recognition before speed."
+        "answer": "Positional sparring starting from seated guard where the top player specifically attempts bull pass and toreando combinations at progressive resistance levels. The bottom player practices maintaining active feet, reading the grip placement that distinguishes the two passes, and deploying the correct defensive response for each. Start at 50% speed and progressively increase intensity to build pattern recognition before speed.",
+        "answer_line": "Seated-guard positional sparring",
+        "distractors": {
+          "plausible": [
+            "Drill the bull pass in isolation",
+            "Full-speed sparring from day one"
+          ],
+          "trap": [
+            "Practice staying flat and passive"
+          ]
+        }
       },
       {
         "question": "When your opponent's Bull Pass partially succeeds and you retain only half guard, what is your immediate priority?",
-        "answer": "Immediately turn to your side facing the opponent and fight for the underhook on the trapped leg side. The opponent's bull pass momentum often carries them slightly past optimal half guard top positioning, creating a window for the underhook before they consolidate. Establish knee shield if possible to manage distance. Do not remain flat on your back because the transition from bull pass to half guard gives you a brief adjustment window."
+        "answer": "Immediately turn to your side facing the opponent and fight for the underhook on the trapped leg side. The opponent's bull pass momentum often carries them slightly past optimal half guard top positioning, creating a window for the underhook before they consolidate. Establish knee shield if possible to manage distance. Do not remain flat on your back because the transition from bull pass to half guard gives you a brief adjustment window.",
+        "answer_line": "Turn in, fight for the underhook",
+        "distractors": {
+          "plausible": [
+            "Push them off with both hands",
+            "Wait, then reassess your guard"
+          ],
+          "trap": [
+            "Stay flat on your back and wait"
+          ]
+        }
       }
     ],
     "training_progressions": [

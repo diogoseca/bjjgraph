@@ -254,7 +254,17 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the butterfly hook sweep?",
-        "answer": "The optimal window opens when your opponent shifts weight forward over your hooks, typically as they reach for grips or attempt to establish an underhook. At this moment their center of gravity sits forward of their base, and hook elevation combined with grip pull creates maximum off-balancing force with minimal effort. Initiating before they load forward means you fight against backward-seated weight, dramatically reducing success probability."
+        "answer": "The optimal window opens when your opponent shifts weight forward over your hooks, typically as they reach for grips or attempt to establish an underhook. At this moment their center of gravity sits forward of their base, and hook elevation combined with grip pull creates maximum off-balancing force with minimal effort. Initiating before they load forward means you fight against backward-seated weight, dramatically reducing success probability.",
+        "answer_line": "Weight shifts forward onto hooks",
+        "distractors": {
+          "plausible": [
+            "Right when the hook first lands",
+            "As soon as grips are secured"
+          ],
+          "trap": [
+            "Wait until they sit up tall"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully execute the sweep?",
@@ -262,35 +272,115 @@
       },
       {
         "question": "What is the most critical hip movement during sweep execution and why?",
-        "answer": "The lateral hip scoot creating the sweeping angle is the most critical movement. Without angular displacement, your hook can only lift vertically, which the opponent resists by widening their base. The hip scoot creates approximately 30-45 degrees of offset, converting the vertical hook lift into a diagonal sweeping vector that tips the opponent laterally over their near-side base point rather than straight up where they can post with both hands."
+        "answer": "The lateral hip scoot creating the sweeping angle is the most critical movement. Without angular displacement, your hook can only lift vertically, which the opponent resists by widening their base. The hip scoot creates approximately 30-45 degrees of offset, converting the vertical hook lift into a diagonal sweeping vector that tips the opponent laterally over their near-side base point rather than straight up where they can post with both hands.",
+        "answer_line": "Hip scoot creates the sweep angle",
+        "distractors": {
+          "plausible": [
+            "Drive straight up with the hook",
+            "Pull the grips harder for lift"
+          ],
+          "trap": [
+            "Keep hips square for more power"
+          ]
+        }
       },
       {
         "question": "What are the two most common reasons the butterfly hook sweep fails at advanced levels?",
-        "answer": "First, attempting the sweep without sufficient angle—sweeping straight ahead rather than off-center allows the opponent to post both hands and resist the lift. Second, desynchronizing the grip pull from the hook elevation, where the upper body pull happens before or after the leg lift rather than simultaneously. Both errors allow the opponent to isolate and address each force independently rather than facing an overwhelming combined force."
+        "answer": "First, attempting the sweep without sufficient angle—sweeping straight ahead rather than off-center allows the opponent to post both hands and resist the lift. Second, desynchronizing the grip pull from the hook elevation, where the upper body pull happens before or after the leg lift rather than simultaneously. Both errors allow the opponent to isolate and address each force independently rather than facing an overwhelming combined force.",
+        "answer_line": "No angle, grip-hook desync",
+        "distractors": {
+          "plausible": [
+            "Hip scoot too slow to load",
+            "Hook not deep enough in thigh"
+          ],
+          "trap": [
+            "Pull grip before lifting hook"
+          ]
+        }
       },
       {
         "question": "What grips provide the strongest mechanical advantage for the sweep in gi versus no-gi?",
-        "answer": "In gi, a deep collar grip on the sweep-side combined with far sleeve control creates the strongest configuration. The collar grip pulls weight onto the hook while sleeve control prevents posting. In no-gi, an overhook on the sweep-side arm with far wrist control serves the same function. The overhook is slightly superior to the underhook for sweeping because it traps the opponent's posting arm against your body, removing their primary defensive tool."
+        "answer": "In gi, a deep collar grip on the sweep-side combined with far sleeve control creates the strongest configuration. The collar grip pulls weight onto the hook while sleeve control prevents posting. In no-gi, an overhook on the sweep-side arm with far wrist control serves the same function. The overhook is slightly superior to the underhook for sweeping because it traps the opponent's posting arm against your body, removing their primary defensive tool.",
+        "answer_line": "Collar/sleeve gi, overhook no-gi",
+        "distractors": {
+          "plausible": [
+            "Underhook plus far wrist control",
+            "Two sleeves, skip the collar"
+          ],
+          "trap": [
+            "Grab both ankles for control"
+          ]
+        }
       },
       {
         "question": "In what direction should the primary sweeping force be applied relative to your body?",
-        "answer": "The force should be directed at approximately 45 degrees across your body toward the sweep side, not straight up or straight sideways. The hook drives upward and across while your grips pull diagonally downward in the sweep direction. This creates rotational force around the opponent's near-side base point. Pure vertical force allows posting, and pure lateral force lacks elevation. The diagonal vector combines both to create displacement the opponent cannot resist through base alone."
+        "answer": "The force should be directed at approximately 45 degrees across your body toward the sweep side, not straight up or straight sideways. The hook drives upward and across while your grips pull diagonally downward in the sweep direction. This creates rotational force around the opponent's near-side base point. Pure vertical force allows posting, and pure lateral force lacks elevation. The diagonal vector combines both to create displacement the opponent cannot resist through base alone.",
+        "answer_line": "45 degrees diagonal across body",
+        "distractors": {
+          "plausible": [
+            "Straight up through the hook",
+            "Straight sideways along the mat"
+          ],
+          "trap": [
+            "Push straight down into the mat"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand wide to stop the sweep—how do you adjust mid-technique?",
-        "answer": "When they post far, their weight shifts away from the sweep direction but their near side is now unprotected. Immediately redirect the sweep by switching hook elevation to the opposite side, sweeping them over their posted arm. Alternatively, release the far grip and attack the near arm with a kimura grip or arm drag, since posting has created structural isolation on that side. The post is not a successful defense—it is a reaction that opens different attacking options you should exploit."
+        "answer": "When they post far, their weight shifts away from the sweep direction but their near side is now unprotected. Immediately redirect the sweep by switching hook elevation to the opposite side, sweeping them over their posted arm. Alternatively, release the far grip and attack the near arm with a kimura grip or arm drag, since posting has created structural isolation on that side. The post is not a successful defense—it is a reaction that opens different attacking options you should exploit.",
+        "answer_line": "Switch sides or attack near arm",
+        "distractors": {
+          "plausible": [
+            "Push harder into their post",
+            "Abandon sweep, reset guard"
+          ],
+          "trap": [
+            "Release near grip, chase the post"
+          ]
+        }
       },
       {
         "question": "The sweep is blocked and your opponent begins driving forward to pass—what chain attacks are available?",
-        "answer": "From a blocked sweep you retain hook position and can immediately threaten a guillotine if their head drops during the pass attempt, transition to X-Guard or Single Leg X if they stand to create pressure, or execute an arm drag to back take if they commit weight forward. You can also reattempt the sweep in the opposite direction since their defensive reaction often shifts their weight to become vulnerable on the other side."
+        "answer": "From a blocked sweep you retain hook position and can immediately threaten a guillotine if their head drops during the pass attempt, transition to X-Guard or Single Leg X if they stand to create pressure, or execute an arm drag to back take if they commit weight forward. You can also reattempt the sweep in the opposite direction since their defensive reaction often shifts their weight to become vulnerable on the other side.",
+        "answer_line": "Guillotine, X-guard, or back take",
+        "distractors": {
+          "plausible": [
+            "Reset back to closed guard",
+            "Switch to De La Riva guard"
+          ],
+          "trap": [
+            "Let go of hooks and stand up"
+          ]
+        }
       },
       {
         "question": "How does the kickstand leg contribute to sweep mechanics and what happens if you neglect it?",
-        "answer": "The non-hooking leg plants on the mat and drives your hips underneath and across the opponent, amplifying the rotational force generated by the hook elevation. Without the kickstand drive, you must generate all sweeping force from the hooking leg and upper body grips alone, which reduces power by roughly thirty to forty percent. The kickstand also creates a push point that prevents backward sliding during elevation, ensuring your force transfers into the opponent rather than moving you away."
+        "answer": "The non-hooking leg plants on the mat and drives your hips underneath and across the opponent, amplifying the rotational force generated by the hook elevation. Without the kickstand drive, you must generate all sweeping force from the hooking leg and upper body grips alone, which reduces power by roughly thirty to forty percent. The kickstand also creates a push point that prevents backward sliding during elevation, ensuring your force transfers into the opponent rather than moving you away.",
+        "answer_line": "Drives hips, adds rotational force",
+        "distractors": {
+          "plausible": [
+            "Only stabilizes your balance",
+            "Only matters in no-gi rounds"
+          ],
+          "trap": [
+            "Kick out opponent's base leg"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips backward as you initiate the elevation—what immediate adjustment prevents sweep failure?",
-        "answer": "When they sprawl back they remove weight from your hooks, making the sweep ineffective in that direction. Immediately pull them back into range using your grips while scooting your hips forward to close the distance. If they continue retreating, release one hook and transition to a single hook configuration with deep sleeve or collar control, setting up either a collar drag or a transition to X-Guard by following their hips. Never chase a sprawling opponent with both hooks—maintain at least one connection while repositioning."
+        "answer": "When they sprawl back they remove weight from your hooks, making the sweep ineffective in that direction. Immediately pull them back into range using your grips while scooting your hips forward to close the distance. If they continue retreating, release one hook and transition to a single hook configuration with deep sleeve or collar control, setting up either a collar drag or a transition to X-Guard by following their hips. Never chase a sprawling opponent with both hooks—maintain at least one connection while repositioning.",
+        "answer_line": "Pull them back, keep one hook",
+        "distractors": {
+          "plausible": [
+            "Chase in with both hooks",
+            "Release both hooks, reset guard"
+          ],
+          "trap": [
+            "Extend both legs to follow"
+          ]
+        }
       }
     ],
     "safety_considerations": "The butterfly hook sweep is generally low-risk but requires controlled execution to prevent training injuries. Maintain grip contact throughout the sweep to guide your partner's descent and prevent them from landing on their head or shoulder. Avoid explosive jerking motions that could strain your partner's neck during off-balancing. Be mindful of knee pressure on your own hooking leg—ensure proper hook placement on the inner thigh crease rather than directly on the knee joint to prevent MCL strain during elevation.",
@@ -413,23 +503,73 @@
     "flashcards": [
       {
         "question": "What visual cue gives the earliest warning that a butterfly hook sweep is being initiated?",
-        "answer": "The most reliable early warning is the lateral hip scoot—when the bottom player moves their hips to one side while maintaining hook contact. This angular displacement always precedes the sweep because it creates the off-center fulcrum needed for the technique. Before the scoot, the hook can only lift vertically, which is easy to resist. Recognizing this movement gives you approximately one second to counter before the elevation begins."
+        "answer": "The most reliable early warning is the lateral hip scoot—when the bottom player moves their hips to one side while maintaining hook contact. This angular displacement always precedes the sweep because it creates the off-center fulcrum needed for the technique. Before the scoot, the hook can only lift vertically, which is easy to resist. Recognizing this movement gives you approximately one second to counter before the elevation begins.",
+        "answer_line": "Bottom player's lateral hip scoot",
+        "distractors": {
+          "plausible": [
+            "Sudden grip change on the collar",
+            "Deep hook penetration alone"
+          ],
+          "trap": [
+            "Opponent sitting up tall"
+          ]
+        }
       },
       {
         "question": "What base adjustment neutralizes the sweep threat before it develops?",
-        "answer": "Lower your center of gravity by sinking hips back behind your knees and widening your base beyond shoulder width. This distributes weight behind the hooks rather than over them, removing the forward-loaded weight the sweep requires. Simultaneously drive your chest forward and down slightly to apply shoulder pressure, preventing the bottom player from sitting up into strong posture. The combination of low hips and forward shoulder pressure creates a configuration the sweep cannot overcome."
+        "answer": "Lower your center of gravity by sinking hips back behind your knees and widening your base beyond shoulder width. This distributes weight behind the hooks rather than over them, removing the forward-loaded weight the sweep requires. Simultaneously drive your chest forward and down slightly to apply shoulder pressure, preventing the bottom player from sitting up into strong posture. The combination of low hips and forward shoulder pressure creates a configuration the sweep cannot overcome.",
+        "answer_line": "Lower hips back, widen the base",
+        "distractors": {
+          "plausible": [
+            "Lean forward for more pressure",
+            "Narrow stance, drive knees in"
+          ],
+          "trap": [
+            "Post both hands wide, lean forward"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes an overhook and begins scooting their hips—what immediate defensive action do you take?",
-        "answer": "Strip or pummel free from the overhook immediately because it traps your posting arm and removes your primary sweep defense. Circle your trapped arm downward and inward toward your hip while driving your shoulder forward into their chest. If you cannot free the arm, shift your base toward the overhook side so your weight sits behind their intended sweep direction, forcing them to sweep into your base rather than away from it."
+        "answer": "Strip or pummel free from the overhook immediately because it traps your posting arm and removes your primary sweep defense. Circle your trapped arm downward and inward toward your hip while driving your shoulder forward into their chest. If you cannot free the arm, shift your base toward the overhook side so your weight sits behind their intended sweep direction, forcing them to sweep into your base rather than away from it.",
+        "answer_line": "Strip overhook, shift into it",
+        "distractors": {
+          "plausible": [
+            "Push through with trapped arm",
+            "Sit back to create space"
+          ],
+          "trap": [
+            "Leave arm, post the far hand"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to prevent being swept while maintaining passing options?",
-        "answer": "Keep roughly sixty percent of your weight on your base behind the hooks and forty percent applied through forward upper body pressure. Your hips should sit behind your knees rather than over them. Weight applied through the upper body should go through your chest and shoulder into their torso, not through your hands which can be redirected by their grips. This distribution makes you heavy to sweep while maintaining enough forward engagement to set up passes."
+        "answer": "Keep roughly sixty percent of your weight on your base behind the hooks and forty percent applied through forward upper body pressure. Your hips should sit behind your knees rather than over them. Weight applied through the upper body should go through your chest and shoulder into their torso, not through your hands which can be redirected by their grips. This distribution makes you heavy to sweep while maintaining enough forward engagement to set up passes.",
+        "answer_line": "60% base, 40% chest pressure",
+        "distractors": {
+          "plausible": [
+            "Equal weight through both hands",
+            "Mostly forward, hips over knees"
+          ],
+          "trap": [
+            "All weight through the hands"
+          ]
+        }
       },
       {
         "question": "What is the critical error that makes you most vulnerable to being swept from butterfly guard top?",
-        "answer": "Leaning forward with your center of gravity past your knees and directly over the opponent's hooks. When your weight sits above their hooks, even a small elevation combined with a directional pull creates an overwhelming sweeping force because you have already compromised your base. Fatigue often causes this error unconsciously as practitioners settle forward to rest. The fix is constant awareness of hip position relative to knees and periodic resetting of posture."
+        "answer": "Leaning forward with your center of gravity past your knees and directly over the opponent's hooks. When your weight sits above their hooks, even a small elevation combined with a directional pull creates an overwhelming sweeping force because you have already compromised your base. Fatigue often causes this error unconsciously as practitioners settle forward to rest. The fix is constant awareness of hip position relative to knees and periodic resetting of posture.",
+        "answer_line": "Weight past knees, over hooks",
+        "distractors": {
+          "plausible": [
+            "Gripping too tight on the collar",
+            "Standing up too soon to pass"
+          ],
+          "trap": [
+            "Sitting hips back too far"
+          ]
+        }
       }
     ],
     "training_progressions": [

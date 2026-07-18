@@ -231,31 +231,101 @@
     "flashcards": [
       {
         "question": "Why must the De La Riva hook stay engaged throughout the inversion?",
-        "answer": "The hook is both the steering wheel and the anchor for the transition. It guides the direction of your rotation by pulling the opponent's hip toward you, and it tethers you to their leg so they cannot simply step away as you spin. If you release the hook mid-inversion, the opponent steps free and circles to a passing angle, leaving you inverted with no connection and an exposed back."
+        "answer": "The hook is both the steering wheel and the anchor for the transition. It guides the direction of your rotation by pulling the opponent's hip toward you, and it tethers you to their leg so they cannot simply step away as you spin. If you release the hook mid-inversion, the opponent steps free and circles to a passing angle, leaving you inverted with no connection and an exposed back.",
+        "answer_line": "Steers spin and tethers leg",
+        "distractors": {
+          "plausible": [
+            "Anchors weight, not direction",
+            "Only matters at the start"
+          ],
+          "trap": [
+            "Release hook once inverted"
+          ]
+        }
       },
       {
         "question": "What is the single most important safety detail when inverting from De La Riva?",
-        "answer": "Loading the weight onto the shoulder blades and upper back with the chin tucked to the chest, never onto the crown of the head or the neck. Inverting onto the neck risks cervical spine compression and also stalls the rotation because the weight is on the wrong structure. If you feel pressure on your neck, you must stop and reset rather than forcing the spin."
+        "answer": "Loading the weight onto the shoulder blades and upper back with the chin tucked to the chest, never onto the crown of the head or the neck. Inverting onto the neck risks cervical spine compression and also stalls the rotation because the weight is on the wrong structure. If you feel pressure on your neck, you must stop and reset rather than forcing the spin.",
+        "answer_line": "Weight on shoulders, not neck",
+        "distractors": {
+          "plausible": [
+            "Weight evenly on head and back",
+            "Tuck chin, weight on crown"
+          ],
+          "trap": [
+            "Spin faster to clear the neck"
+          ]
+        }
       },
       {
         "question": "Why should you off-balance the opponent forward before initiating the spin?",
-        "answer": "Off-balancing forward shifts the opponent's weight onto the leg you control and breaks their base in the direction of your rotation. This means their own momentum carries them along your spin, making the inversion smooth and low-effort. If you invert under a fully based opponent, they simply stack you, turning your inversion into their easy pass."
+        "answer": "Off-balancing forward shifts the opponent's weight onto the leg you control and breaks their base in the direction of your rotation. This means their own momentum carries them along your spin, making the inversion smooth and low-effort. If you invert under a fully based opponent, they simply stack you, turning your inversion into their easy pass.",
+        "answer_line": "Break their base forward first",
+        "distractors": {
+          "plausible": [
+            "Off-balance them side to side",
+            "Pull them down, then circle"
+          ],
+          "trap": [
+            "Invert under their full base"
+          ]
+        }
       },
       {
         "question": "What should you do immediately upon arriving in inverted guard, and why?",
-        "answer": "Immediately chain into a follow-up — berimbolo, rolling back take, or a Single Leg X exit — rather than holding the inverted position. Inverted guard is transitional; a static inversion is the easiest version for the opponent to stack and smash. Treat the arrival as the first beat of a sequence and commit to the highest-percentage path the opponent's reaction gives you within a few seconds."
+        "answer": "Immediately chain into a follow-up — berimbolo, rolling back take, or a Single Leg X exit — rather than holding the inverted position. Inverted guard is transitional; a static inversion is the easiest version for the opponent to stack and smash. Treat the arrival as the first beat of a sequence and commit to the highest-percentage path the opponent's reaction gives you within a few seconds.",
+        "answer_line": "Chain instantly to a finish",
+        "distractors": {
+          "plausible": [
+            "Stabilize position, then attack",
+            "Reset grips before continuing"
+          ],
+          "trap": [
+            "Hold and control the position"
+          ]
+        }
       },
       {
         "question": "Your opponent steps the hooked leg back and circles away as you begin to invert. What is the correct response?",
-        "answer": "Follow the retreating leg by extending your hook and switching to a Reverse De La Riva hook, or, if the angle is lost, abandon the inversion early and recover open guard rather than chasing onto your neck. Re-pummel the hook and re-establish your grip before reattempting. Never keep spinning onto a loaded neck just because the opponent has moved."
+        "answer": "Follow the retreating leg by extending your hook and switching to a Reverse De La Riva hook, or, if the angle is lost, abandon the inversion early and recover open guard rather than chasing onto your neck. Re-pummel the hook and re-establish your grip before reattempting. Never keep spinning onto a loaded neck just because the opponent has moved.",
+        "answer_line": "Chase hook or bail out early",
+        "distractors": {
+          "plausible": [
+            "Power through the spin anyway",
+            "Switch grips, keep spinning"
+          ],
+          "trap": [
+            "Keep spinning onto loaded neck"
+          ]
+        }
       },
       {
         "question": "What role does the upper-body grip play in the De La Riva inversion?",
-        "answer": "The upper-body grip — far collar, same-side sleeve, or pant cuff — is the pulling anchor that draws you underneath the opponent. The inversion is powered by pulling on this grip, not by muscling up off the mat or relying on flexibility alone. Without an upper-body anchor the rotation either stalls or exposes your back, so the grip must be secured before you commit to the spin."
+        "answer": "The upper-body grip — far collar, same-side sleeve, or pant cuff — is the pulling anchor that draws you underneath the opponent. The inversion is powered by pulling on this grip, not by muscling up off the mat or relying on flexibility alone. Without an upper-body anchor the rotation either stalls or exposes your back, so the grip must be secured before you commit to the spin.",
+        "answer_line": "Pulls you underneath opponent",
+        "distractors": {
+          "plausible": [
+            "Stabilizes posture while inverting",
+            "Controls opponent's hips only"
+          ],
+          "trap": [
+            "Muscle up without a grip"
+          ]
+        }
       },
       {
         "question": "How does an opponent's forward stacking pressure actually help your inversion?",
-        "answer": "Their forward pressure adds rotational energy in the same direction you want to spin. Instead of resisting the stack statically, you continue the rotation into a granby roll to recover guard or redirect into a berimbolo, since committed forward weight is exactly what the back take exploits. The key is to never resist the stack with your neck loaded — convert their pressure into your spin."
+        "answer": "Their forward pressure adds rotational energy in the same direction you want to spin. Instead of resisting the stack statically, you continue the rotation into a granby roll to recover guard or redirect into a berimbolo, since committed forward weight is exactly what the back take exploits. The key is to never resist the stack with your neck loaded — convert their pressure into your spin.",
+        "answer_line": "Adds energy to your spin",
+        "distractors": {
+          "plausible": [
+            "Signals to abandon inversion",
+            "Forces a faster grip switch"
+          ],
+          "trap": [
+            "Resist the stack, load the neck"
+          ]
+        }
       }
     ],
     "safety_considerations": "Inverting carries genuine cervical spine risk and must never be drilled cold. Always warm up the neck and spine, tuck the chin, and load weight onto the shoulder blades and upper back rather than the head or neck. Beginners should master solo inversion and granby mechanics on the ground before attempting the entry under a partner's weight, and should bail out of any inversion the instant they feel pressure on the neck. Partners drilling the stack counter must apply forward pressure gradually and stop immediately if the bottom player's neck becomes loaded. Practitioners with prior neck injuries or limited spinal mobility should substitute lower-risk guard-retention entries.",
@@ -361,15 +431,45 @@
     "flashcards": [
       {
         "question": "What two dependencies should the defender attack to shut down the De La Riva inversion?",
-        "answer": "The De La Riva hook and the controlling upper-body grip. The inversion depends on the bottom player keeping the hook engaged to steer and tether the spin, and on an upper-body grip — collar, sleeve, or pant cuff — to pull themselves underneath you. Stripping the grip removes the pulling power and freeing the hook removes the connection, so attacking either one stalls the transition; attacking both denies it entirely."
+        "answer": "The De La Riva hook and the controlling upper-body grip. The inversion depends on the bottom player keeping the hook engaged to steer and tether the spin, and on an upper-body grip — collar, sleeve, or pant cuff — to pull themselves underneath you. Stripping the grip removes the pulling power and freeing the hook removes the connection, so attacking either one stalls the transition; attacking both denies it entirely.",
+        "answer_line": "Hook and upper-body grip",
+        "distractors": {
+          "plausible": [
+            "Hook and hip positioning",
+            "Grip and posture alignment"
+          ],
+          "trap": [
+            "Try to out-muscle the spin"
+          ]
+        }
       },
       {
         "question": "Which direction should you step when freeing the leg to defend the inversion, and why?",
-        "answer": "Circle away from the direction the bottom player is spinning. The whole point of the inversion is to set up a back-take angle, so if you step out in the same direction as their rotation you walk straight into the berimbolo and give up your back. Taking your hip and base in the opposite direction makes their spin chase empty space and preserves your passing position."
+        "answer": "Circle away from the direction the bottom player is spinning. The whole point of the inversion is to set up a back-take angle, so if you step out in the same direction as their rotation you walk straight into the berimbolo and give up your back. Taking your hip and base in the opposite direction makes their spin chase empty space and preserves your passing position.",
+        "answer_line": "Circle away from their spin",
+        "distractors": {
+          "plausible": [
+            "Step straight backward",
+            "Sit down and turtle up"
+          ],
+          "trap": [
+            "Step in their spin direction"
+          ]
+        }
       },
       {
         "question": "When stacking the inverted player, why must you control their legs before committing your weight?",
-        "answer": "Because uncontrolled forward weight is exactly the rotation energy the berimbolo feeds on. If you lean in before pinning the legs, the bottom player redirects your momentum into their spin and takes your back. By controlling the legs first and then driving a deliberate stack, you flatten them onto their shoulders and pass to side control without handing them the back take."
+        "answer": "Because uncontrolled forward weight is exactly the rotation energy the berimbolo feeds on. If you lean in before pinning the legs, the bottom player redirects your momentum into their spin and takes your back. By controlling the legs first and then driving a deliberate stack, you flatten them onto their shoulders and pass to side control without handing them the back take.",
+        "answer_line": "Control legs before stacking",
+        "distractors": {
+          "plausible": [
+            "Drive weight in immediately",
+            "Control arms before stacking"
+          ],
+          "trap": [
+            "Lean in before controlling legs"
+          ]
+        }
       }
     ],
     "training_progressions": [

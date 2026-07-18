@@ -293,7 +293,17 @@
       {
         "question": "What is the critical vulnerability window during the Gift Wrap to Kimura transition?",
         "answer": "The critical vulnerability occurs when the threading arm releases from under the opponent's armpit to establish the figure-four grip. During this moment, if redundant wrist control has not been established with the free hand, the opponent can recover their trapped arm. The transition should overlap grips so there is never a moment where the wrist is uncontrolled.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Overlap grips, never release wrist",
+        "distractors": {
+          "plausible": [
+            "Free arm first, then grip wrist",
+            "Establish figure-four then wrist"
+          ],
+          "trap": [
+            "Release armpit hold to reset grip"
+          ]
+        }
       },
       {
         "question": "Why must you shift your hips to the Kimura side before applying the finish?",

@@ -234,51 +234,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Counter heel hook?",
-        "answer": "The primary goal is to transform a defensive situation into an offensive submission opportunity by attacking opponent's exposed heel while they commit to their own heel hook attack. Rather than simply escaping, you race the opponent to a submission finish, targeting Inside Ashi-Garami or Honey Hole as your control position."
+        "answer": "The primary goal is to transform a defensive situation into an offensive submission opportunity by attacking opponent's exposed heel while they commit to their own heel hook attack. Rather than simply escaping, you race the opponent to a submission finish, targeting Inside Ashi-Garami or Honey Hole as your control position.",
+        "answer_line": "Counter-attack their exposed heel",
+        "distractors": {
+          "plausible": [
+            "Escape to standing immediately",
+            "Defend only, no counter"
+          ],
+          "trap": [
+            "Grab heel before defending own"
+          ]
+        }
       },
       {
         "question": "What must you do before attempting to attack opponent's heel?",
-        "answer": "You must first establish defensive knee rotation to protect your own heel from opponent's attack. This defensive position must be maintained throughout your counter-attack. Attacking without first defending leads to getting submitted before your counter can take effect. The knee rotation removes tension from their heel hook grip and buys the time window you need."
+        "answer": "You must first establish defensive knee rotation to protect your own heel from opponent's attack. This defensive position must be maintained throughout your counter-attack. Attacking without first defending leads to getting submitted before your counter can take effect. The knee rotation removes tension from their heel hook grip and buys the time window you need.",
+        "answer_line": "Rotate knee to defend first",
+        "distractors": {
+          "plausible": [
+            "Grip their heel immediately",
+            "Posture up before defending"
+          ],
+          "trap": [
+            "Attack heel, defend later"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the counter heel hook?",
-        "answer": "The optimal window is when opponent commits forward pressure or rotation to maximize their heel hook breaking angle. This aggressive posture exposes their own heel while simultaneously telegraphing their attack. Specific signals include leaning forward over your hips, rotating their torso toward your trapped leg, or transitioning to belly-down. Wait for this commitment rather than preemptively attacking."
+        "answer": "The optimal window is when opponent commits forward pressure or rotation to maximize their heel hook breaking angle. This aggressive posture exposes their own heel while simultaneously telegraphing their attack. Specific signals include leaning forward over your hips, rotating their torso toward your trapped leg, or transitioning to belly-down. Wait for this commitment rather than preemptively attacking.",
+        "answer_line": "When they commit forward pressure",
+        "distractors": {
+          "plausible": [
+            "As soon as contact is made",
+            "Right after they grip your heel"
+          ],
+          "trap": [
+            "Before they commit, preemptively"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for Counter heel hook?",
-        "answer": "The primary grip cups opponent's heel with palm on back of heel and fingers wrapping the Achilles area. The secondary grip creates a figure-four or gable grip configuration by bringing the inside arm under opponent's leg and clasping hands together. Both grips must be fully secured before applying any breaking pressure - premature torque causes grip slippage."
+        "answer": "The primary grip cups opponent's heel with palm on back of heel and fingers wrapping the Achilles area. The secondary grip creates a figure-four or gable grip configuration by bringing the inside arm under opponent's leg and clasping hands together. Both grips must be fully secured before applying any breaking pressure - premature torque causes grip slippage.",
+        "answer_line": "Cup heel plus figure-four grip",
+        "distractors": {
+          "plausible": [
+            "Single hand grip, then torque",
+            "Grip Achilles, skip figure-four"
+          ],
+          "trap": [
+            "Torque immediately on contact"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand and begins extracting their heel - how do you adjust?",
-        "answer": "Immediately transition to kneebar attack on their now-straightened leg, targeting the knee joint as they extend to escape. Their leg straightening to extract the heel is precisely the mechanical requirement for a kneebar. Alternatively, use the space they create to disengage and escape to standing position. Do not stubbornly chase an inaccessible heel."
+        "answer": "Immediately transition to kneebar attack on their now-straightened leg, targeting the knee joint as they extend to escape. Their leg straightening to extract the heel is precisely the mechanical requirement for a kneebar. Alternatively, use the space they create to disengage and escape to standing position. Do not stubbornly chase an inaccessible heel.",
+        "answer_line": "Switch to kneebar on straight leg",
+        "distractors": {
+          "plausible": [
+            "Chase and re-grip the heel",
+            "Reset grips and restart attack"
+          ],
+          "trap": [
+            "Force heel hook through resistance"
+          ]
+        }
       },
       {
         "question": "How do you create the proper breaking angle for the heel hook finish?",
-        "answer": "Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. Drive your wrist blade into the Achilles while pulling the heel toward your hip. The rotation should come from your entire body turning as a unit, not just arm strength. Hip involvement generates the mechanical advantage needed against a resisting opponent."
+        "answer": "Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. Drive your wrist blade into the Achilles while pulling the heel toward your hip. The rotation should come from your entire body turning as a unit, not just arm strength. Hip involvement generates the mechanical advantage needed against a resisting opponent.",
+        "answer_line": "Rotate hips, toes up, heel to hip",
+        "distractors": {
+          "plausible": [
+            "Pull heel straight back with arms",
+            "Twist wrist only, no hip turn"
+          ],
+          "trap": [
+            "Yank heel toward your chest"
+          ]
+        }
       },
       {
         "question": "What signals indicate opponent is about to overcommit and create the counter opportunity?",
-        "answer": "Signals include opponent leaning forward over your hips to maximize pressure, rotating their torso aggressively toward your trapped leg, pulling your heel toward their chest with both hands, or transitioning to belly-down position. These aggressive actions redirect their attention to finishing and expose their own heel while they focus on their offense."
+        "answer": "Signals include opponent leaning forward over your hips to maximize pressure, rotating their torso aggressively toward your trapped leg, pulling your heel toward their chest with both hands, or transitioning to belly-down position. These aggressive actions redirect their attention to finishing and expose their own heel while they focus on their offense.",
+        "answer_line": "Leaning forward, rotating in",
+        "distractors": {
+          "plausible": [
+            "Sitting back and controlling pace",
+            "Stripping your grips first"
+          ],
+          "trap": [
+            "Staying flat and passive"
+          ]
+        }
       },
       {
         "question": "How do you decide between pursuing the counter versus escaping to standing?",
-        "answer": "Pursue the counter when opponent's heel is accessible, you can establish grips within 3-5 seconds, and your own heel remains protected through knee rotation. Escape to standing when opponent successfully hides their heel, you cannot establish offensive grips, or your heel defense is compromised and tap is imminent. The decision must be made in the first 2-3 seconds."
+        "answer": "Pursue the counter when opponent's heel is accessible, you can establish grips within 3-5 seconds, and your own heel remains protected through knee rotation. Escape to standing when opponent successfully hides their heel, you cannot establish offensive grips, or your heel defense is compromised and tap is imminent. The decision must be made in the first 2-3 seconds.",
+        "answer_line": "Pursue if grips come fast, safe",
+        "distractors": {
+          "plausible": [
+            "Always pursue once contact made",
+            "Escape whenever opponent resists"
+          ],
+          "trap": [
+            "Keep attacking despite exposed heel"
+          ]
+        }
       },
       {
         "question": "What chain attacks are available if the counter heel hook is defended?",
-        "answer": "If opponent extracts their heel by straightening their leg, transition to kneebar on their extended leg. If opponent releases your leg to defend their own heel, pursue with adjusted grips or advance to Inside Ashi-Garami for better control. If all leg attacks fail, use created space to escape to standing or transition to Single Leg X-Guard for sweep opportunities."
+        "answer": "If opponent extracts their heel by straightening their leg, transition to kneebar on their extended leg. If opponent releases your leg to defend their own heel, pursue with adjusted grips or advance to Inside Ashi-Garami for better control. If all leg attacks fail, use created space to escape to standing or transition to Single Leg X-Guard for sweep opportunities.",
+        "answer_line": "Kneebar, re-grip, or Single Leg X",
+        "distractors": {
+          "plausible": [
+            "Repeat same heel hook attempt",
+            "Abandon legs, go for back"
+          ],
+          "trap": [
+            "Force original grip harder"
+          ]
+        }
       },
       {
         "question": "Why is tap recognition especially critical during counter heel hook exchanges?",
-        "answer": "Both practitioners are simultaneously attacking knee ligaments in a race situation, creating heightened injury risk. Adrenaline may delay pain recognition, and the racing dynamic can cause delayed tapping. You must immediately release upon any tap signal and be willing to tap yourself early if opponent gains dominant position on your heel. Establish verbal and physical tap protocols before drilling."
+        "answer": "Both practitioners are simultaneously attacking knee ligaments in a race situation, creating heightened injury risk. Adrenaline may delay pain recognition, and the racing dynamic can cause delayed tapping. You must immediately release upon any tap signal and be willing to tap yourself early if opponent gains dominant position on your heel. Establish verbal and physical tap protocols before drilling.",
+        "answer_line": "Both knees at risk simultaneously",
+        "distractors": {
+          "plausible": [
+            "Only your knee is at risk",
+            "Pain always shows immediately"
+          ],
+          "trap": [
+            "Wait for verbal tap only"
+          ]
+        }
       },
       {
         "question": "Your opponent rotates their knee inward to hide their heel during your counter attempt - what is your immediate response?",
-        "answer": "Their knee rotation closes the heel hook angle but opens other opportunities. Immediately assess whether transitioning to a toe hold is viable since their foot position changes favorably for that grip. Alternatively, use the space their defensive rotation creates to advance to Inside Ashi-Garami where your leg positioning provides better control for re-exposing the heel from a dominant angle."
+        "answer": "Their knee rotation closes the heel hook angle but opens other opportunities. Immediately assess whether transitioning to a toe hold is viable since their foot position changes favorably for that grip. Alternatively, use the space their defensive rotation creates to advance to Inside Ashi-Garami where your leg positioning provides better control for re-exposing the heel from a dominant angle.",
+        "answer_line": "Switch to toe hold or Ashi-Garami",
+        "distractors": {
+          "plausible": [
+            "Force original heel grip harder",
+            "Release and restart from scratch"
+          ],
+          "trap": [
+            "Twist harder on hidden heel"
+          ]
+        }
       },
       {
         "question": "What determines the direction of rotational force you apply during the counter heel hook finish?",
-        "answer": "The direction depends on whether you are attacking with inside or outside rotation. For standard outside heel hook, rotate opponent's toes laterally away from their body while pulling heel toward your hip. For inside heel hook variation, rotate toes medially toward the floor. The correct direction is determined by which side of opponent's leg your wrist blade contacts the Achilles and the orientation of their trapped foot."
+        "answer": "The direction depends on whether you are attacking with inside or outside rotation. For standard outside heel hook, rotate opponent's toes laterally away from their body while pulling heel toward your hip. For inside heel hook variation, rotate toes medially toward the floor. The correct direction is determined by which side of opponent's leg your wrist blade contacts the Achilles and the orientation of their trapped foot.",
+        "answer_line": "Depends on inside/outside attack",
+        "distractors": {
+          "plausible": [
+            "Always rotate toes outward",
+            "Always rotate toes inward"
+          ],
+          "trap": [
+            "Direction doesn't matter, just pull"
+          ]
+        }
       }
     ],
     "safety_considerations": "Counter heel hook exchanges carry significant knee ligament injury risk for both practitioners. The racing dynamic between two simultaneous heel hooks can lead to delayed tap recognition as both people focus on finishing rather than defending. Always practice with controlled pressure and immediate release upon tap. Beginners should drill grip mechanics without applying breaking pressure. Never apply rotational force to your own knee while attempting the counter. If opponent has dominant grips on your heel, tap early rather than risking ACL or MCL damage. Training partners should establish clear tap protocols before drilling. This technique should only be practiced by intermediate or advanced practitioners with established leg lock defense fundamentals.",
@@ -396,23 +516,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating a counter heel hook?",
-        "answer": "The earliest cue is feeling opponent's hand contact the back of your heel or Achilles while they simultaneously reduce their own heel defense. This indicates they are shifting from pure defense to counter-offense. The transition in their grip fighting from stripping your grips to reaching for your heel is the critical moment. Recognizing this within the first second provides maximum defensive options."
+        "answer": "The earliest cue is feeling opponent's hand contact the back of your heel or Achilles while they simultaneously reduce their own heel defense. This indicates they are shifting from pure defense to counter-offense. The transition in their grip fighting from stripping your grips to reaching for your heel is the critical moment. Recognizing this within the first second provides maximum defensive options.",
+        "answer_line": "Hand contacts your heel/Achilles",
+        "distractors": {
+          "plausible": [
+            "They stop moving entirely",
+            "They ask to reset position"
+          ],
+          "trap": [
+            "Wait for full figure-four grip"
+          ]
+        }
       },
       {
         "question": "When is it acceptable to race the counter heel hook rather than defending?",
-        "answer": "Only when you have a clearly dominant grip position - your figure-four is fully locked with breaking angle established, while opponent has only initial contact on your heel without their secondary grip. Even then, this is a high-risk decision appropriate only in competition with stakes that justify the bilateral injury risk. In training, always default to defending the counter rather than racing."
+        "answer": "Only when you have a clearly dominant grip position - your figure-four is fully locked with breaking angle established, while opponent has only initial contact on your heel without their secondary grip. Even then, this is a high-risk decision appropriate only in competition with stakes that justify the bilateral injury risk. In training, always default to defending the counter rather than racing.",
+        "answer_line": "Only with locked dominant grip",
+        "distractors": {
+          "plausible": [
+            "Whenever you feel confident",
+            "Anytime in live training rolls"
+          ],
+          "trap": [
+            "Race whenever contact is made"
+          ]
+        }
       },
       {
         "question": "How does knee rotation defend against the counter heel hook mechanically?",
-        "answer": "Rotating your knee inward toward your centerline aligns your knee joint with the direction of any applied rotational force, removing the torque angle that causes ligament damage. It also retracts your heel closer to your body, making it harder for opponent to maintain their cupping grip. The combination of reduced grip surface area and eliminated breaking angle makes the heel hook mechanically ineffective even if opponent maintains some grip contact."
+        "answer": "Rotating your knee inward toward your centerline aligns your knee joint with the direction of any applied rotational force, removing the torque angle that causes ligament damage. It also retracts your heel closer to your body, making it harder for opponent to maintain their cupping grip. The combination of reduced grip surface area and eliminated breaking angle makes the heel hook mechanically ineffective even if opponent maintains some grip contact.",
+        "answer_line": "Removes torque, retracts heel",
+        "distractors": {
+          "plausible": [
+            "Straightens leg to escape grip",
+            "Points toes up for leverage"
+          ],
+          "trap": [
+            "Rotate knee outward, away"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a figure-four grip on your heel and begins rotating - what is your immediate action?",
-        "answer": "Tap immediately. Once a figure-four grip is locked with rotational pressure initiated, the window for safe defense has closed. Knee ligament damage occurs in under 2 seconds from this position. No grip strip or positional escape can reliably prevent injury faster than the submission finishes. Protecting your training longevity is always more valuable than avoiding a tap in practice."
+        "answer": "Tap immediately. Once a figure-four grip is locked with rotational pressure initiated, the window for safe defense has closed. Knee ligament damage occurs in under 2 seconds from this position. No grip strip or positional escape can reliably prevent injury faster than the submission finishes. Protecting your training longevity is always more valuable than avoiding a tap in practice.",
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Try a fast grip strip",
+            "Roll toward the pressure"
+          ],
+          "trap": [
+            "Wait and try to power out"
+          ]
+        }
       },
       {
         "question": "What preventive measures should you take during your own heel hook attack to minimize counter vulnerability?",
-        "answer": "Maintain your attacking knee rotated inward even while finishing your own heel hook, keeping your heel tucked close to your body or behind your opposite knee. Use your inside leg to frame against opponent's hip, which both controls distance and blocks their reach toward your heel. Attack with controlled posture rather than overcommitting forward, which exposes your heel. These preventive habits make the counter far more difficult to initiate."
+        "answer": "Maintain your attacking knee rotated inward even while finishing your own heel hook, keeping your heel tucked close to your body or behind your opposite knee. Use your inside leg to frame against opponent's hip, which both controls distance and blocks their reach toward your heel. Attack with controlled posture rather than overcommitting forward, which exposes your heel. These preventive habits make the counter far more difficult to initiate.",
+        "answer_line": "Keep knee in, heel tucked close",
+        "distractors": {
+          "plausible": [
+            "Drive forward hard to finish fast",
+            "Extend fully for maximum torque"
+          ],
+          "trap": [
+            "Overcommit posture to finish quick"
+          ]
+        }
       }
     ],
     "training_progressions": [

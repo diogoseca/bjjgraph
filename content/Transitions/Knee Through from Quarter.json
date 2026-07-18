@@ -264,11 +264,31 @@
       },
       {
         "question": "What conditions must exist in the quarter guard position before the knee through becomes a viable option?",
-        "answer": "Four conditions must exist: your passing knee must be past the opponent's hip line by at least four inches establishing the mechanical angle for the drive, your crossface or upper body control must be sufficient to prevent the opponent from turning or creating frames, the opponent's remaining leg control must be visibly degraded to partial contact rather than full defensive engagement, and your free leg must be posted with stable base to resist sweep attempts during the transition moment. Attempting the knee through without all four conditions significantly reduces success probability."
+        "answer": "Four conditions must exist: your passing knee must be past the opponent's hip line by at least four inches establishing the mechanical angle for the drive, your crossface or upper body control must be sufficient to prevent the opponent from turning or creating frames, the opponent's remaining leg control must be visibly degraded to partial contact rather than full defensive engagement, and your free leg must be posted with stable base to resist sweep attempts during the transition moment. Attempting the knee through without all four conditions significantly reduces success probability.",
+        "answer_line": "Angle, control, degraded leg, base",
+        "distractors": {
+          "plausible": [
+            "Just get the knee past the hip",
+            "Strong crossface is enough alone"
+          ],
+          "trap": [
+            "Drive knee before posting base leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that distinguishes a successful knee drive from a failed one?",
-        "answer": "The most critical mechanical detail is maintaining a flat horizontal trajectory during the knee drive rather than lifting the knee in an arc over the opponent's leg. The flat trajectory keeps your hips heavy against the opponent throughout the transition, eliminates the space gap that allows defensive recovery, and completes the pass in the shortest possible time window. Every inch of vertical lift during the drive creates proportional space for the opponent to re-engage defensive hooks or insert frames."
+        "answer": "The most critical mechanical detail is maintaining a flat horizontal trajectory during the knee drive rather than lifting the knee in an arc over the opponent's leg. The flat trajectory keeps your hips heavy against the opponent throughout the transition, eliminates the space gap that allows defensive recovery, and completes the pass in the shortest possible time window. Every inch of vertical lift during the drive creates proportional space for the opponent to re-engage defensive hooks or insert frames.",
+        "answer_line": "Flat trajectory, not lifting over",
+        "distractors": {
+          "plausible": [
+            "Drive knee high and fast",
+            "Speed matters more than path"
+          ],
+          "trap": [
+            "Arc knee up over their leg"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand against your hip and begins hip escaping during your knee drive—how do you adjust?",
@@ -280,11 +300,31 @@
       },
       {
         "question": "What is the correct direction of force application during the knee drive and why does it matter?",
-        "answer": "The force should be directed forward and slightly downward at approximately ten to fifteen degrees below horizontal, driving through the opponent's thigh line rather than over it. This downward angle maintains your hip pressure against the opponent's body throughout the drive, prevents the gap that allows defensive re-engagement, and uses gravity to assist the drive rather than working against it. Upward force application lifts your body off the opponent, creating the exact space they need for defensive recovery. Think of sliding your knee across a table surface rather than stepping over a barrier."
+        "answer": "The force should be directed forward and slightly downward at approximately ten to fifteen degrees below horizontal, driving through the opponent's thigh line rather than over it. This downward angle maintains your hip pressure against the opponent's body throughout the drive, prevents the gap that allows defensive re-engagement, and uses gravity to assist the drive rather than working against it. Upward force application lifts your body off the opponent, creating the exact space they need for defensive recovery. Think of sliding your knee across a table surface rather than stepping over a barrier.",
+        "answer_line": "Forward and slightly downward angle",
+        "distractors": {
+          "plausible": [
+            "Straight forward, flat horizontal",
+            "Upward lift clears the leg faster"
+          ],
+          "trap": [
+            "Drive upward over the thigh"
+          ]
+        }
       },
       {
         "question": "Your knee drive stalls mid-way because the opponent catches your ankle with a last-second hook—what do you do?",
-        "answer": "When caught mid-drive by an ankle hook, do not retreat backward as this returns you to a weaker quarter guard. Instead, increase your crossface pressure to pin them flat while using your free hand to strip the hook from your ankle by pushing their foot off. If the hook is too deep to strip, use a circling motion with your trapped foot to break the hook while maintaining forward pressure. If neither option works within three seconds, accept the position and return to degrading their defensive structure before attempting the drive again."
+        "answer": "When caught mid-drive by an ankle hook, do not retreat backward as this returns you to a weaker quarter guard. Instead, increase your crossface pressure to pin them flat while using your free hand to strip the hook from your ankle by pushing their foot off. If the hook is too deep to strip, use a circling motion with your trapped foot to break the hook while maintaining forward pressure. If neither option works within three seconds, accept the position and return to degrading their defensive structure before attempting the drive again.",
+        "answer_line": "Pin flat, strip or circle the hook",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset quarter guard",
+            "Yank the leg free immediately"
+          ],
+          "trap": [
+            "Back off to loosen the hook"
+          ]
+        }
       },
       {
         "question": "How do you chain the knee through with attacks if the bottom player begins defending before you fully consolidate mount?",
@@ -404,7 +444,17 @@
       },
       {
         "question": "How do you use the opponent's forward commitment during the knee drive to create counter-offensive opportunities?",
-        "answer": "When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability."
+        "answer": "When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability.",
+        "answer_line": "Sweep the narrowed base mid-drive",
+        "distractors": {
+          "plausible": [
+            "Wait until mount is secured to sweep",
+            "Bridge straight up for an upa"
+          ],
+          "trap": [
+            "Push into their forward pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent has started the knee drive and your knee shield has been cleared—what are your remaining defensive options in priority order?",

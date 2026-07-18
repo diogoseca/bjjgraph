@@ -305,47 +305,137 @@
       {
         "question": "What anatomical structures does the Baratoplata from Crackhead Control primarily attack?",
         "answer": "The baratoplata primarily attacks the shoulder joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the glenohumeral ligaments. The figure-four configuration creates rotational torque that stresses the shoulder capsule and can cause tears to the labrum or rotator cuff tendons when applied with force. The compound nature of the leg-assisted leverage makes it particularly dangerous because the force generation exceeds what arm-only shoulder locks produce.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder via internal rotation",
+        "distractors": {
+          "plausible": [
+            "Shoulder via external rotation",
+            "Elbow joint hyperextension"
+          ],
+          "trap": [
+            "Neck via choke compression"
+          ]
+        }
       },
       {
         "question": "What distinguishes the Crackhead Control entry for the baratoplata from setups in other positions?",
         "answer": "Crackhead Control provides pre-existing posture control and arm isolation that other setups lack. The shin across the back of the neck keeps the opponent compressed, and the overhook naturally positions the target arm for the figure-four threading. This eliminates two of the three major setup steps required from other positions - posture breaking and arm isolation - making the entry significantly more efficient with a smaller defensive window for the opponent to exploit.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture + arm isolation prebuilt",
+        "distractors": {
+          "plausible": [
+            "Only removes posture breaking",
+            "Just improves grip strength"
+          ],
+          "trap": [
+            "Release shin control early"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender during this submission?",
         "answer": "The point of no escape occurs when the figure-four connection between the attacking arm and controlling leg is fully closed with no slack, and the attacker begins hip extension with proper hip angle. Once the closed loop is complete around the trapped arm with the attacker's hips angled away, the defender cannot extract their arm without the attacker releasing the connection. Defensive efforts must address the submission before the figure-four closes, as post-connection defenses rely on disrupting the hip angle rather than escaping the arm trap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four closed, hips angled",
+        "distractors": {
+          "plausible": [
+            "Figure-four closed, no hip yet",
+            "Overhook grip fully secured"
+          ],
+          "trap": [
+            "Can still escape after closed loop"
+          ]
+        }
       },
       {
         "question": "How should you adjust finishing pressure against an opponent with unusually flexible shoulders?",
         "answer": "Against flexible opponents, extend the hip drive further while simultaneously pulling the figure-four connection closer to your own centerline, increasing the total rotational arc. You may also need to steepen the hip angle beyond the standard 30 degrees to access a more vulnerable rotation plane. The key indicator is feeling the shoulder reach its end range of motion. Continue applying slow, steady pressure past the initial flexibility range rather than abandoning the submission. Flexible opponents still have a structural limit, it simply requires more rotation to reach.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extend hip drive, steepen angle",
+        "distractors": {
+          "plausible": [
+            "Switch to arm strength only",
+            "Abandon submission, reset position"
+          ],
+          "trap": [
+            "Apply pressure explosively instead"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when training the Baratoplata from Crackhead Control?",
         "answer": "Apply finishing pressure over a minimum of 5-7 seconds, never explosively. The shoulder joint can sustain structural damage including rotator cuff tears and labrum damage before the opponent feels sufficient pain to tap. Release immediately upon any tap signal including verbal, hand tap, or foot tap on any surface. During drilling, stop at the first sign of shoulder resistance rather than pushing through. Partners with prior shoulder injuries should avoid this technique entirely, and beginners should practice only the entry and figure-four mechanics without applying any finishing pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply pressure slowly, 5-7 sec",
+        "distractors": {
+          "plausible": [
+            "Release only on verbal tap",
+            "Push through minor resistance"
+          ],
+          "trap": [
+            "Beginners drill finishes slowly"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that allow the opponent to escape the baratoplata?",
         "answer": "The three most common finishing errors are: first, failing to angle the hips away from the trapped arm before applying pressure, which reduces rotational leverage by approximately 40 percent; second, leaving slack in the figure-four connection between forearm and shin, which gives the opponent space to rotate their elbow and relieve pressure; and third, attempting to finish with arm strength alone rather than using hip extension as the primary force generator, which causes rapid fatigue and insufficient torque. Each error independently can convert a locked submission into an escape opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No hip angle, loose figure-four",
+        "distractors": {
+          "plausible": [
+            "Angle hips toward the arm",
+            "Keep some slack for comfort"
+          ],
+          "trap": [
+            "Finish using arm strength alone"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the finish if the opponent begins active defense?",
         "answer": "If the opponent attempts to straighten their trapped arm, tighten the figure-four by pulling your shin closer to your forearm and increase shin pressure across the neck to maintain compression. If they try to posture up, reinforce the crackhead control leg position before continuing the finish. If they attempt to roll toward the trapped arm side, follow their rotation while maintaining the figure-four connection and use the momentum to accelerate the submission. Each defensive response has a corresponding adjustment that maintains or increases submission pressure rather than requiring a restart.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten figure-four, follow roll",
+        "distractors": {
+          "plausible": [
+            "Loosen grip to reposition",
+            "Switch to arm strength finish"
+          ],
+          "trap": [
+            "Release grip and restart"
+          ]
+        }
       },
       {
         "question": "How does the baratoplata from Crackhead Control integrate into a competition submission strategy?",
         "answer": "The baratoplata functions as a secondary threat within the crackhead control attack chain, complementing the primary gogoplata threat. In competition, establish the gogoplata angle first to force chin-tucking and arm-defensive reactions that expose the arm for baratoplata threading. This creates a genuine dilemma where defending one submission opens the other. The surprise factor is significant at all competitive levels because most practitioners drill gogoplata defenses extensively but have limited baratoplata defense experience, making it an effective weapon for catching prepared opponents.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Combo threat off gogoplata setup",
+        "distractors": {
+          "plausible": [
+            "Primary submission, use first",
+            "Works best in isolation"
+          ],
+          "trap": [
+            "Telegraph both threats early"
+          ]
+        }
       },
       {
         "question": "How should you release the Baratoplata from Crackhead Control after your training partner taps?",
         "answer": "Upon any tap signal, immediately stop all hip extension and forward pressure on the shoulder. Release the figure-four grip by letting go of your shin, then unwrap the controlling leg from behind the opponent's neck. Lower your hips to remove all rotational force from the shoulder before allowing your partner to extract their arm at their own pace. Check that they have full shoulder mobility and no pain before resuming training. Never maintain any pressure while releasing, as the shoulder is at its most vulnerable at end range of motion.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, unwrap leg slowly",
+        "distractors": {
+          "plausible": [
+            "Hold position, ask if ok",
+            "Release leg before grip"
+          ],
+          "trap": [
+            "Keep pressure while releasing"
+          ]
+        }
       }
     ],
     "clips": [
@@ -464,27 +554,77 @@
       {
         "question": "How do you recognize that a Baratoplata from Crackhead Control is being set up rather than another attack?",
         "answer": "The primary recognition cue is feeling the attacker release their overhook grip while maintaining shin pressure across your neck. In standard crackhead control, the overhook is maintained for sweeps and gogoplata setups, so releasing it while keeping leg pressure signals a baratoplata attempt. You will then feel an arm threading underneath your trapped arm between your forearm and the attacker's shin. The key distinction from gogoplata setup is that gogoplata involves the shin angling toward your throat, while baratoplata involves the overhook hand moving underneath your arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Overhook releases, arm threads in",
+        "distractors": {
+          "plausible": [
+            "Shin angles toward your throat",
+            "Overhook tightens, shin relaxes"
+          ],
+          "trap": [
+            "Ignore released overhook grip"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Baratoplata from Crackhead Control?",
         "answer": "Tap immediately when you feel rotational pressure beginning in your shoulder, before the pain becomes significant. Use your free hand to tap rapidly on the opponent's body or the mat where they can see or feel it. If your free hand is restricted, say the word tap loudly and clearly. You can also tap with your feet on the mat. The critical principle is to tap early rather than late - the shoulder joint can sustain permanent structural damage including rotator cuff tears and dislocation in the 1-2 seconds between initial pressure and joint failure under the compound leg-assisted leverage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, before pain peaks",
+        "distractors": {
+          "plausible": [
+            "Tap only with free hand",
+            "Tap once pressure feels heavy"
+          ],
+          "trap": [
+            "Wait until pain is significant"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the baratoplata setup?",
         "answer": "Before the arm thread begins: posture aggressively to break crackhead control entirely, exploiting the momentary weakness from the overhook release. During the arm thread: immediately straighten your trapped arm fully and pull the elbow toward your hip to prevent the figure-four from closing. After figure-four connection but before hip extension: attempt explosive bridge toward the trapped arm side while driving your elbow to your hip to create space in the loop. Once hip extension begins with proper angle: tap immediately, as effective defensive options are exhausted at this point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten arm before closing loop",
+        "distractors": {
+          "plausible": [
+            "Bridge away after hips extend",
+            "Posture break after thread starts"
+          ],
+          "trap": [
+            "Struggle once hips extend"
+          ]
+        }
       },
       {
         "question": "What is the single most important defensive action to prevent the baratoplata from finishing?",
         "answer": "Preventing the figure-four from closing is the decisive defensive moment. When you feel the attacker threading their arm underneath yours, immediately extend your trapped arm straight and drive your elbow toward your own hip. This changes the geometry from a bent-arm position that allows the figure-four to close into a straight-arm configuration that prevents the loop from completing around your elbow. If you can maintain the straight arm for 3-5 seconds, the attacker will typically abandon the baratoplata and return to other crackhead control attacks, giving you a reset without position loss.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten arm, elbow to hip",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively right away",
+            "Grab your own wrist tightly"
+          ],
+          "trap": [
+            "Try to muscle arm free late"
+          ]
+        }
       },
       {
         "question": "How can you exploit the opponent's baratoplata attempt to improve your own position?",
         "answer": "When the attacker releases their overhook to initiate the baratoplata threading, this momentarily weakens their overall crackhead control by removing one of the two primary control mechanisms. Use this 1-2 second window to explosively posture up, driving your head and shoulders backward while simultaneously pulling your trapped arm free. If successful, you break through crackhead control to closed guard or even beyond. The key is recognizing the grip release as a defensive opportunity rather than purely a threat - the brief period with neither overhook control nor completed figure-four is your best escape window from the entire crackhead control position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up during overhook release",
+        "distractors": {
+          "plausible": [
+            "Attack the exposed far leg",
+            "Frame elbows to create space"
+          ],
+          "trap": [
+            "Wait until figure-four locks"
+          ]
+        }
       }
     ],
     "training_progressions": [

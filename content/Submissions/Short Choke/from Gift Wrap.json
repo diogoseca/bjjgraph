@@ -293,52 +293,152 @@
       {
         "question": "Why is the Gift Wrap arm trap the critical differentiator for this choke compared to standard back control short choke entries?",
         "answer": "The Gift Wrap arm trap removes one of the defender's arms from neck defense entirely, reducing their grip fighting capability by half. In standard back control, the defender has two hands to block forearm insertion, strip grips, and protect the neck. With the Gift Wrap, only one hand is available for all defensive tasks simultaneously, making the forearm threading significantly easier and the finishing percentage substantially higher.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Removes a defending hand",
+        "distractors": {
+          "plausible": [
+            "Adds extra back points scored",
+            "Stops all hip escapes instantly"
+          ],
+          "trap": [
+            "Frees you to abandon hooks"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does this choke target and what is the mechanism of action?",
         "answer": "The Short Choke targets bilateral carotid artery compression. The radius bone of the forearm compresses one carotid artery while the shoulder driving into the back of the head forces the opposite side of the neck against the forearm or bicep area. This bilateral blood flow restriction to the brain produces cerebral hypoxia, causing unconsciousness within eight to twelve seconds of a fully locked choke. It is not an airway choke targeting the trachea.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Tracheal airway restriction",
+            "Single-side carotid choke only"
+          ],
+          "trap": [
+            "Cervical spine compression"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin hard and you cannot thread the forearm under the jaw - what adjustment do you make?",
         "answer": "Use the crown of your head or your forehead to wedge against the back of their skull, creating a prying angle that lifts their chin enough to slide the forearm underneath. Alternatively, apply cross-face pressure with the non-choking hand to force their chin to elevate. A third option is to attack the free arm with a kimura or armbar threat, forcing them to move their hand from chin protection to arm defense, which then opens the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wedge head, lift chin",
+        "distractors": {
+          "plausible": [
+            "Yank forearm harder underneath",
+            "Switch straight to RNC"
+          ],
+          "trap": [
+            "Let go of gift wrap to adjust"
+          ]
+        }
       },
       {
         "question": "What are the immediate indicators that the choke is correctly positioned on the carotid arteries rather than the trachea?",
         "answer": "When correctly positioned on the carotid arteries, the defender will feel pressure on the sides of the neck without significant breathing obstruction. The defender's face may flush or redden quickly, and they may feel lightheaded or experience visual changes. If the defender is coughing, gagging, or experiencing breathing difficulty, the forearm is likely across the trachea and should be adjusted laterally to target the carotid line instead.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Flushed face, no gag reflex",
+        "distractors": {
+          "plausible": [
+            "Coughing means it's working",
+            "Loud gasping confirms depth"
+          ],
+          "trap": [
+            "Move forearm onto windpipe"
+          ]
+        }
       },
       {
         "question": "What is the role of shoulder pressure in completing the finish, and why is arm squeeze alone insufficient?",
         "answer": "The shoulder drives into the occipital bone at the back of the opponent's head, pushing the head forward and down into the choking forearm. This creates a vise effect between the forearm on the anterior neck and the shoulder on the posterior head. Arm squeeze alone typically only compresses one carotid effectively. The shoulder pressure completes the bilateral compression by forcing the neck into the forearm with body weight rather than relying on isometric arm contraction, which fatigues quickly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drives head into forearm",
+        "distractors": {
+          "plausible": [
+            "Adds extra choking arm squeeze",
+            "Pins opponent's hips down"
+          ],
+          "trap": [
+            "Skip arm squeeze entirely"
+          ]
+        }
       },
       {
         "question": "Your partner is not responding to verbal commands after you release the choke - what is the correct emergency protocol?",
         "answer": "If your partner is unconscious, immediately place them in the recovery position on their side. Elevate their legs to promote blood flow to the brain. Monitor their airway to ensure they are breathing. Most people regain consciousness within five to fifteen seconds once the choke is released. If they are not conscious within fifteen seconds, have someone call emergency medical services. Do not shake them or pour water on their face. Stay calm and continue monitoring until they regain full consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Recovery position, elevate legs",
+        "distractors": {
+          "plausible": [
+            "Sit them up and shake gently",
+            "Wait quietly, do nothing else"
+          ],
+          "trap": [
+            "Splash water on their face"
+          ]
+        }
       },
       {
         "question": "How do you prevent the Gift Wrap arm trap from loosening during the choke entry sequence?",
         "answer": "Periodically re-check the height of the trapped arm, ensuring it stays pulled high across the opponent's chest near the opposite shoulder. If the arm drifts toward the waist, the defender gains rotational shoulder mobility to extract it. Use your hip and torso connection to pin the trapped arm in place through structural pressure rather than grip strength alone. Before initiating each choke attempt, confirm the arm trap is secure rather than rushing the entry with a loose wrap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep trapped arm pulled high",
+        "distractors": {
+          "plausible": [
+            "Grip harder instead of pinning",
+            "Check hooks, not the arm trap"
+          ],
+          "trap": [
+            "Let arm drift toward the waist"
+          ]
+        }
       },
       {
         "question": "In competition, what tactical sequence maximizes finishing probability with this choke from Gift Wrap?",
         "answer": "First establish and consolidate the Gift Wrap to score back control points, removing urgency. Then alternate between rear naked choke threats and short choke entries, forcing the defender to choose which to defend with their single free hand. When they commit to blocking one choke path, immediately switch to the other. The short choke often finishes when the defender over-invests in RNC defense by bringing their free hand high, exposing the lower neck angle for forearm insertion. Patient attackers who chain threats rather than forcing a single entry have significantly higher finishing rates.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain RNC and short choke threats",
+        "distractors": {
+          "plausible": [
+            "Rush the choke before consolidating",
+            "Force one single choke path"
+          ],
+          "trap": [
+            "Abandon back control to isolate arm"
+          ]
+        }
       },
       {
         "question": "What common grip error leads to a stalemate where the choke feels tight but does not produce a tap?",
         "answer": "The most common grip error is placing the forearm straight across the throat horizontally rather than at a slight diagonal angle across the carotid line. A horizontal forearm often compresses the trachea centrally without adequately blocking both carotid arteries, producing discomfort and airway restriction without the rapid blood choke effect. The correction is to angle the wrist blade toward one carotid while using shoulder pressure to drive the opposite side of the neck into the bicep area, ensuring bilateral arterial compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Horizontal forearm, not angled",
+        "distractors": {
+          "plausible": [
+            "Grip too loose on the wrist",
+            "Wrong arm trapped in gift wrap"
+          ],
+          "trap": [
+            "Squeeze harder without angling"
+          ]
+        }
       },
       {
         "question": "When should you abandon the short choke attempt and transition to an alternative attack?",
         "answer": "Abandon the short choke if the defender successfully inserts their free hand as a wedge between your forearm and their neck and you cannot swim past it after two to three attempts. Also transition away if your hooks have slipped and you are losing back control, as re-establishing hooks is more important than forcing a choke from a deteriorating position. The Gift Wrap position itself offers armbar, RNC, and positional advancement options, so staying committed to a failing short choke wastes the positional advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand wedges in or hooks slip",
+        "distractors": {
+          "plausible": [
+            "Choke feels tight but no tap",
+            "Opponent's face turns red"
+          ],
+          "trap": [
+            "Force it once you start choking"
+          ]
+        }
       }
     ],
     "clips": [
@@ -452,22 +552,62 @@
       {
         "question": "How do you recognize the Short Choke from Gift Wrap is being set up before the forearm reaches your neck?",
         "answer": "Key recognition cues include the attacker repositioning their free arm near your neck while maintaining the Gift Wrap with the other arm, the attacker's head moving toward the back of your skull to create a wedging angle, and changes in their chest pressure as they drive weight higher on your back. When you feel these adjustments, immediately tuck your chin and bring your free hand to your neck to block the forearm insertion path.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Free arm nears neck, head shifts",
+        "distractors": {
+          "plausible": [
+            "Increased hook pressure only",
+            "Sudden burst of back pressure"
+          ],
+          "trap": [
+            "Wait until forearm is under chin"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Short Choke rather than continue defending?",
         "answer": "Tap immediately when the forearm is fully seated beneath your chin with the attacker's shoulder driving into the back of your head. At this stage, the bilateral carotid compression is locked and unconsciousness can occur within eight to twelve seconds. Continued defense after this point risks going unconscious before you can tap. There is no shame in tapping to a properly locked blood choke - the defensive window has passed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Forearm seated, shoulder driving",
+        "distractors": {
+          "plausible": [
+            "Once you feel any neck pressure",
+            "After ten seconds of struggle"
+          ],
+          "trap": [
+            "Keep defending once it's locked"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when you only have one free hand to defend the choke?",
         "answer": "The primary defense is using the free hand to grip-fight the choking arm's wrist or forearm while tucking the chin tightly. Combine this with hip escape movement to create defensive angles. When the attacker adjusts grip, use the window to shrimp and turn toward them. If the forearm is partially threaded, use a two-on-one strip by grabbing the forearm with your free hand and using body rotation to peel it away from the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight wrist, tuck, shrimp",
+        "distractors": {
+          "plausible": [
+            "Push opponent's hips away",
+            "Focus only on freeing trapped arm"
+          ],
+          "trap": [
+            "Free trapped arm, ignore neck"
+          ]
+        }
       },
       {
         "question": "Why is preventing the forearm insertion more important than trying to recover the trapped arm during an active choke attempt?",
         "answer": "Recovering the trapped arm takes multiple seconds of sustained effort with hip rotation and shoulder movement. During this time, your neck is completely undefended because your free hand is occupied with arm recovery mechanics. The attacker can thread and seat the forearm in under two seconds against an undefended neck. Defending the immediate choke threat takes priority because the time to submission is much shorter than the time to arm recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Neck defense beats arm recovery",
+        "distractors": {
+          "plausible": [
+            "Both take equal time to fix",
+            "Trapped arm recovery is faster"
+          ],
+          "trap": [
+            "Spend your hand freeing the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -311,35 +311,115 @@
     "flashcards": [
       {
         "question": "What is the correct figure-four grip configuration for maintaining Estima Lock control?",
-        "answer": "The figure-four grip secures the heel as a fixed point while the forearm blade positions across the top of the foot. Both hands work together with one hand controlling the heel direction and the other reinforcing the forearm placement. This creates a unified structure where rotational pressure can be applied without releasing any control points."
+        "answer": "The figure-four grip secures the heel as a fixed point while the forearm blade positions across the top of the foot. Both hands work together with one hand controlling the heel direction and the other reinforcing the forearm placement. This creates a unified structure where rotational pressure can be applied without releasing any control points.",
+        "answer_line": "Heel fixed, forearm blade lever",
+        "distractors": {
+          "plausible": [
+            "Grip both hands on toes",
+            "Squeeze foot, no rotation"
+          ],
+          "trap": [
+            "Let go of heel for toes"
+          ]
+        }
       },
       {
         "question": "Your opponent starts sitting up and posting their free leg on the mat—what adjustment should you make?",
-        "answer": "When the opponent sits up and posts, you should use your legs or body position to control their free leg mobility, consider transitioning to a different leg entanglement like the saddle through a backstep, or increase hip pressure against their calf to prevent further posture improvement. The sitting up motion indicates they are building frames, so you must either finish quickly or transition before they establish strong defensive positioning."
+        "answer": "When the opponent sits up and posts, you should use your legs or body position to control their free leg mobility, consider transitioning to a different leg entanglement like the saddle through a backstep, or increase hip pressure against their calf to prevent further posture improvement. The sitting up motion indicates they are building frames, so you must either finish quickly or transition before they establish strong defensive positioning.",
+        "answer_line": "Control free leg, finish fast",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle",
+            "Release grip, reposition"
+          ],
+          "trap": [
+            "Let go, chase the back"
+          ]
+        }
       },
       {
         "question": "Your opponent starts pulling their knee toward their chest to create slack in the lock—how do you adjust your hip positioning?",
-        "answer": "Drive your hips forward immediately to close the gap they are creating. Your hip pressure against their calf is the fulcrum that prevents leg retraction—any slack means your hips have drifted too far from their leg. Re-establish contact by scooting your body weight toward their trapped leg and pinning their calf between your hip and the mat. Simultaneously check that your forearm lever is still properly positioned across the top of their foot."
+        "answer": "Drive your hips forward immediately to close the gap they are creating. Your hip pressure against their calf is the fulcrum that prevents leg retraction—any slack means your hips have drifted too far from their leg. Re-establish contact by scooting your body weight toward their trapped leg and pinning their calf between your hip and the mat. Simultaneously check that your forearm lever is still properly positioned across the top of their foot.",
+        "answer_line": "Drive hips forward, pin calf",
+        "distractors": {
+          "plausible": [
+            "Pull the foot harder",
+            "Squeeze the grip tighter"
+          ],
+          "trap": [
+            "Let go and reset angle"
+          ]
+        }
       },
       {
         "question": "What is the primary rotational direction for applying Estima Lock pressure and why?",
-        "answer": "Rotational pressure is applied toward the opponent's body while controlling the heel as a fixed point. The forearm acts as a fulcrum across the top of the foot, and the rotation creates torque on the ankle joint and stress on the Achilles tendon. Pure pulling without rotation creates minimal pressure and allows easy defensive foot positioning."
+        "answer": "Rotational pressure is applied toward the opponent's body while controlling the heel as a fixed point. The forearm acts as a fulcrum across the top of the foot, and the rotation creates torque on the ankle joint and stress on the Achilles tendon. Pure pulling without rotation creates minimal pressure and allows easy defensive foot positioning.",
+        "answer_line": "Rotate toward their body",
+        "distractors": {
+          "plausible": [
+            "Pull the foot straight back",
+            "Twist away from their body"
+          ],
+          "trap": [
+            "Yank straight up fast"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their foot away from the lock angle—how do you capitalize on this defensive movement?",
-        "answer": "When the opponent turns their foot away from the Estima Lock angle, their toes become exposed for a toe hold attack. This is a natural transition opportunity where you maintain control while adjusting your grip configuration to attack the now-available toe hold angle. The defensive movement that defeats one attack often opens another."
+        "answer": "When the opponent turns their foot away from the Estima Lock angle, their toes become exposed for a toe hold attack. This is a natural transition opportunity where you maintain control while adjusting your grip configuration to attack the now-available toe hold angle. The defensive movement that defeats one attack often opens another.",
+        "answer_line": "Transition to toe hold",
+        "distractors": {
+          "plausible": [
+            "Force foot back to angle",
+            "Slowly re-angle the foot"
+          ],
+          "trap": [
+            "Abandon the position"
+          ]
+        }
       },
       {
         "question": "How do you distribute your weight to maintain Estima Lock control without excessive muscular effort?",
-        "answer": "Weight distribution relies on structural positioning rather than muscular effort. Keep your body weight working through the grip by letting gravity assist control rather than squeezing with arms. Use hip pressure against their calf as the primary anchoring mechanism, and maintain a stable base that requires minimal postural adjustment. If you are burning forearm energy to hold the grip, your hip placement needs correction."
+        "answer": "Weight distribution relies on structural positioning rather than muscular effort. Keep your body weight working through the grip by letting gravity assist control rather than squeezing with arms. Use hip pressure against their calf as the primary anchoring mechanism, and maintain a stable base that requires minimal postural adjustment. If you are burning forearm energy to hold the grip, your hip placement needs correction.",
+        "answer_line": "Hip pressure, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Squeeze hard with forearms",
+            "Balance weight on your knees"
+          ],
+          "trap": [
+            "Lean back off their leg"
+          ]
+        }
       },
       {
         "question": "Your rotational pressure stalls and you feel the opponent's ankle stabilizing despite maintained grip—what signals tell you to transition to an alternative attack?",
-        "answer": "Key signals include: the opponent successfully counter-rotating to neutralize your rotational angle, their free leg establishing strong defensive frames you cannot break, their hips creating space despite your pressure, or their upper body achieving seated posture with active frames on your hips. When rotational pressure stops generating increasing resistance through the ankle, the lock's effectiveness has been neutralized. Transition immediately to toe hold, ashi garami, or saddle to maintain offensive momentum."
+        "answer": "Key signals include: the opponent successfully counter-rotating to neutralize your rotational angle, their free leg establishing strong defensive frames you cannot break, their hips creating space despite your pressure, or their upper body achieving seated posture with active frames on your hips. When rotational pressure stops generating increasing resistance through the ankle, the lock's effectiveness has been neutralized. Transition immediately to toe hold, ashi garami, or saddle to maintain offensive momentum.",
+        "answer_line": "Ankle stabilizes, switch attack",
+        "distractors": {
+          "plausible": [
+            "Wait for the finish anyway",
+            "Reset grip and restart"
+          ],
+          "trap": [
+            "Release foot, attack arm"
+          ]
+        }
       },
       {
         "question": "Your opponent partially extracts their foot but remains within grip range—how do you recover control?",
-        "answer": "When partial extraction occurs but they remain in range, immediately re-address the foot control by clearing any defensive frames with your legs, re-establishing the figure-four grip before they can complete extraction, and adjusting hip pressure to prevent further foot retraction. The key is recognizing the partial escape early and addressing it before full extraction occurs."
+        "answer": "When partial extraction occurs but they remain in range, immediately re-address the foot control by clearing any defensive frames with your legs, re-establishing the figure-four grip before they can complete extraction, and adjusting hip pressure to prevent further foot retraction. The key is recognizing the partial escape early and addressing it before full extraction occurs.",
+        "answer_line": "Re-clear frames, re-grip fast",
+        "distractors": {
+          "plausible": [
+            "Let them finish extracting",
+            "Pull the leg back by hand"
+          ],
+          "trap": [
+            "Switch positions right away"
+          ]
+        }
       }
     ],
     "clips": [
@@ -630,35 +710,115 @@
     "flashcards": [
       {
         "question": "What is the first defensive action you should take when caught in an Estima Lock?",
-        "answer": "Immediately address the inverted foot position by counter-rotating the ankle to reduce strain on the joint and ligaments. This buys time and reduces immediate submission pressure. Simultaneously begin establishing frames on the opponent's hips or torso while keeping your free leg active and mobile for defensive leverage."
+        "answer": "Immediately address the inverted foot position by counter-rotating the ankle to reduce strain on the joint and ligaments. This buys time and reduces immediate submission pressure. Simultaneously begin establishing frames on the opponent's hips or torso while keeping your free leg active and mobile for defensive leverage.",
+        "answer_line": "Counter-rotate the ankle",
+        "distractors": {
+          "plausible": [
+            "Pull knee to chest first",
+            "Push their head away"
+          ],
+          "trap": [
+            "Yank foot out explosively"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their grip and begins applying rotational pressure—what physical signals indicate you should tap?",
-        "answer": "Tap signals include: sharp pain in the ankle joint or Achilles tendon area, sensation of the ankle being twisted beyond normal range, inability to reduce pressure through counter-rotation, loss of hip mobility preventing escape attempts, and recognition that the mechanical completion of the lock has occurred. When any of these signals appear, immediate tap preserves joint health and training longevity."
+        "answer": "Tap signals include: sharp pain in the ankle joint or Achilles tendon area, sensation of the ankle being twisted beyond normal range, inability to reduce pressure through counter-rotation, loss of hip mobility preventing escape attempts, and recognition that the mechanical completion of the lock has occurred. When any of these signals appear, immediate tap preserves joint health and training longevity.",
+        "answer_line": "Sharp ankle or Achilles pain",
+        "distractors": {
+          "plausible": [
+            "Mild pressure, no real pain",
+            "Slight stretch, stay calm"
+          ],
+          "trap": [
+            "Wait to see if it worsens"
+          ]
+        }
       },
       {
         "question": "Your trapped knee straightens during an escape attempt and you immediately feel increased pressure on your ankle—what happened and how do you correct this?",
-        "answer": "A straight knee creates a direct line of force transmission that dramatically amplifies the Estima Lock's mechanical advantage on your ankle joint. The increased pressure occurs because all of the opponent's rotational force now transfers directly through the ankle without any absorption from the bent knee. Immediately re-bend your knee to reduce this linear force transmission. Use circular hip movements rather than linear pushing to restore your escape angles while protecting the joint."
+        "answer": "A straight knee creates a direct line of force transmission that dramatically amplifies the Estima Lock's mechanical advantage on your ankle joint. The increased pressure occurs because all of the opponent's rotational force now transfers directly through the ankle without any absorption from the bent knee. Immediately re-bend your knee to reduce this linear force transmission. Use circular hip movements rather than linear pushing to restore your escape angles while protecting the joint.",
+        "answer_line": "Re-bend the knee immediately",
+        "distractors": {
+          "plausible": [
+            "Push away with the free leg",
+            "Rotate hips explosively"
+          ],
+          "trap": [
+            "Straighten leg further"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their grip and you realize your free leg is flat on the mat doing nothing—what immediate adjustment do you make?",
-        "answer": "Activate the free leg immediately by positioning your foot on the opponent's hip, inner thigh, or behind their knee. This leg is your primary escape lever and leaving it passive surrenders critical defensive capability. Push their hips to create distance, hook their leg to generate structural instability, or establish a butterfly hook for potential elevation. The opponent's ability to maintain control depends heavily on restricting your hip mobility, and an active free leg is the most effective tool for generating the space and angles needed for extraction."
+        "answer": "Activate the free leg immediately by positioning your foot on the opponent's hip, inner thigh, or behind their knee. This leg is your primary escape lever and leaving it passive surrenders critical defensive capability. Push their hips to create distance, hook their leg to generate structural instability, or establish a butterfly hook for potential elevation. The opponent's ability to maintain control depends heavily on restricting your hip mobility, and an active free leg is the most effective tool for generating the space and angles needed for extraction.",
+        "answer_line": "Hook it on hip or knee",
+        "distractors": {
+          "plausible": [
+            "Kick out to create distance",
+            "Push with both hands only"
+          ],
+          "trap": [
+            "Leave it flat, use hands"
+          ]
+        }
       },
       {
         "question": "Your opponent's grip momentarily loosens as they adjust their position—what is the correct response?",
-        "answer": "Immediately capitalize on grip loosening by initiating leg extraction before they can re-establish tight control. Simultaneously create frames on their hips to generate additional space and use your free leg to push or hook. The moment of grip adjustment is your best escape window—act decisively rather than waiting for a better opportunity that may not come."
+        "answer": "Immediately capitalize on grip loosening by initiating leg extraction before they can re-establish tight control. Simultaneously create frames on their hips to generate additional space and use your free leg to push or hook. The moment of grip adjustment is your best escape window—act decisively rather than waiting for a better opportunity that may not come.",
+        "answer_line": "Extract the leg immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for a better opening",
+            "Grab their hands first"
+          ],
+          "trap": [
+            "Relax and reset position"
+          ]
+        }
       },
       {
         "question": "Why is it a mistake to grab the opponent's hands directly when trying to escape?",
-        "answer": "Grabbing hands without addressing body position wastes energy on grip fighting while the opponent maintains superior positional control. They can simply re-grip while maintaining the same structural advantage because you have not changed the fundamental positional dynamic. The correct approach prioritizes creating frames on their hips or torso to generate space first, then systematically addressing grips while maintaining your defensive structure."
+        "answer": "Grabbing hands without addressing body position wastes energy on grip fighting while the opponent maintains superior positional control. They can simply re-grip while maintaining the same structural advantage because you have not changed the fundamental positional dynamic. The correct approach prioritizes creating frames on their hips or torso to generate space first, then systematically addressing grips while maintaining your defensive structure.",
+        "answer_line": "Wastes energy, ignores hips",
+        "distractors": {
+          "plausible": [
+            "They can't regrip anyway",
+            "Hands are the real control"
+          ],
+          "trap": [
+            "Grip fight, ignore hips"
+          ]
+        }
       },
       {
         "question": "What happens if you attempt an explosive roll or spin without first establishing proper frames?",
-        "answer": "Explosive movements without proper setup increase torque on the trapped ankle dangerously and can cause self-inflicted injury. The opponent typically follows the movement while maintaining the lock, resulting in worse position with the same or greater submission pressure. Controlled technical movements with frames established first allow incremental position improvements rather than explosive gambling that often backfires."
+        "answer": "Explosive movements without proper setup increase torque on the trapped ankle dangerously and can cause self-inflicted injury. The opponent typically follows the movement while maintaining the lock, resulting in worse position with the same or greater submission pressure. Controlled technical movements with frames established first allow incremental position improvements rather than explosive gambling that often backfires.",
+        "answer_line": "Increases torque, risks injury",
+        "distractors": {
+          "plausible": [
+            "Always escapes the lock",
+            "Surprises opponent safely"
+          ],
+          "trap": [
+            "Fastest, safest escape"
+          ]
+        }
       },
       {
         "question": "Your shoulders flatten to the mat during the defense and you lose your angle toward the trapped side—how do you recover your mobility?",
-        "answer": "Post immediately with your far hand (the hand on the side away from the trapped leg) and drive your elbow into the mat to create a posting base. Turn your shoulders back toward the trapped leg side by bridging slightly and using the posted hand as a pivot point. Simultaneously activate your free leg to push the opponent's hips and create space that allows your upper body to recover its angle. Being flattened eliminates the hip mobility required for extraction, so recovering this angle is an urgent priority before continuing any escape attempt."
+        "answer": "Post immediately with your far hand (the hand on the side away from the trapped leg) and drive your elbow into the mat to create a posting base. Turn your shoulders back toward the trapped leg side by bridging slightly and using the posted hand as a pivot point. Simultaneously activate your free leg to push the opponent's hips and create space that allows your upper body to recover its angle. Being flattened eliminates the hip mobility required for extraction, so recovering this angle is an urgent priority before continuing any escape attempt.",
+        "answer_line": "Post far hand, turn shoulders",
+        "distractors": {
+          "plausible": [
+            "Push hard with trapped leg",
+            "Sit up straight quickly"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       }
     ],
     "clips": [
@@ -694,35 +854,115 @@
   "flashcards_position": [
     {
       "question": "What structural feature fundamentally distinguishes Estima Lock Control from a traditional straight ankle lock?",
-      "answer": "The defining feature is the inverted foot orientation, where the trapped foot is twisted so the heel sits higher than the toes and rotational torque replaces the straight-line plantar extension of a conventional ankle lock. Instead of hyperextending the ankle along its natural axis, the configuration loads the joint through rotation, stressing the ankle complex and Achilles tendon at an unnatural angle. This changes both the finishing mechanics and the escape angles, because counter-rotating the ankle rather than simply pulling the foot straight out becomes the relevant defensive lever. It is this rotational vector, not compression along the foot's length, that makes the position what it is."
+      "answer": "The defining feature is the inverted foot orientation, where the trapped foot is twisted so the heel sits higher than the toes and rotational torque replaces the straight-line plantar extension of a conventional ankle lock. Instead of hyperextending the ankle along its natural axis, the configuration loads the joint through rotation, stressing the ankle complex and Achilles tendon at an unnatural angle. This changes both the finishing mechanics and the escape angles, because counter-rotating the ankle rather than simply pulling the foot straight out becomes the relevant defensive lever. It is this rotational vector, not compression along the foot's length, that makes the position what it is.",
+      "answer_line": "Inverted foot, rotational torque",
+      "distractors": {
+        "plausible": [
+          "Deeper heel hook angle",
+          "Higher grip on the shin"
+        ],
+        "trap": [
+          "Straight-line plantar force"
+        ]
+      }
     },
     {
       "question": "Where is the mechanical fulcrum located in the Estima Lock configuration, and why does it matter to both players?",
-      "answer": "The fulcrum is formed by the controlling player's hip and forearm bearing against the trapped leg's lower shin and the top of the foot, with the heel held as the fixed point around which rotation occurs. Torque generated at the foot pivots against this braced structure, so the ankle joint is the pressure point while the shin and heel are the anchors. For the controlling player, keeping the fulcrum tight against the calf is what converts small movements into joint pressure; for the trapped player, breaking the connection between hip and calf collapses the fulcrum and neutralizes the torque. Both are therefore fighting over the same contact points, just from opposite intentions."
+      "answer": "The fulcrum is formed by the controlling player's hip and forearm bearing against the trapped leg's lower shin and the top of the foot, with the heel held as the fixed point around which rotation occurs. Torque generated at the foot pivots against this braced structure, so the ankle joint is the pressure point while the shin and heel are the anchors. For the controlling player, keeping the fulcrum tight against the calf is what converts small movements into joint pressure; for the trapped player, breaking the connection between hip and calf collapses the fulcrum and neutralizes the torque. Both are therefore fighting over the same contact points, just from opposite intentions.",
+      "answer_line": "Hip/forearm brace on calf",
+      "distractors": {
+        "plausible": [
+          "Knee pressing on the thigh",
+          "Shoulder pinning the hip"
+        ],
+        "trap": [
+          "Grip strength alone holds it"
+        ]
+      }
     },
     {
       "question": "How does the figure-four grip around the foot establish the control that defines this position?",
-      "answer": "The figure-four grip clamps the heel as a fixed reference point while the forearm blade lies across the top of the foot, creating a closed loop that the foot cannot simply slide out of. This lets rotational pressure be applied without releasing any single point of contact, because the two arms reinforce each other rather than each holding independently. It is the structural closure of this grip, combined with heel isolation, that turns loose foot contact into a genuine control position. Without the heel fixed and the forearm lever seated, the arrangement is just a grip on a foot rather than an entanglement."
+      "answer": "The figure-four grip clamps the heel as a fixed reference point while the forearm blade lies across the top of the foot, creating a closed loop that the foot cannot simply slide out of. This lets rotational pressure be applied without releasing any single point of contact, because the two arms reinforce each other rather than each holding independently. It is the structural closure of this grip, combined with heel isolation, that turns loose foot contact into a genuine control position. Without the heel fixed and the forearm lever seated, the arrangement is just a grip on a foot rather than an entanglement.",
+      "answer_line": "Closed loop: heel plus forearm",
+      "distractors": {
+        "plausible": [
+          "Two hands pulling in tandem",
+          "Forearm alone across foot"
+        ],
+        "trap": [
+          "Loose foot contact, no lock"
+        ]
+      }
     },
     {
       "question": "Why is the trapped leg kept extended and isolated as a shared invariant of the position?",
-      "answer": "Extension straightens the line of force so rotational torque transmits directly into the ankle instead of being absorbed by a bent knee, which is why the trapped leg being extended defines the position rather than being incidental. Isolation, meaning the leg is separated from the trapped player's other limbs and their hips, prevents them from using knee retraction or the free leg to reintroduce slack. When the leg stays long and isolated, the mechanical advantage sits entirely with the controlling player; when the knee bends or the leg reconnects to the body, that advantage bleeds away. This single geometric condition governs whether the position is live or stalling for both sides."
+      "answer": "Extension straightens the line of force so rotational torque transmits directly into the ankle instead of being absorbed by a bent knee, which is why the trapped leg being extended defines the position rather than being incidental. Isolation, meaning the leg is separated from the trapped player's other limbs and their hips, prevents them from using knee retraction or the free leg to reintroduce slack. When the leg stays long and isolated, the mechanical advantage sits entirely with the controlling player; when the knee bends or the leg reconnects to the body, that advantage bleeds away. This single geometric condition governs whether the position is live or stalling for both sides.",
+      "answer_line": "Extension transmits full torque",
+      "distractors": {
+        "plausible": [
+          "Bent knee increases torque",
+          "Isolation frees the free leg"
+        ],
+        "trap": [
+          "Bent knee is safer to hold"
+        ]
+      }
     },
     {
       "question": "What role does the free leg play in the shared dynamics of Estima Lock Control?",
-      "answer": "The free leg is the position's primary lever of contention because it can push on the controlling player's hips, hook their legs, or frame to create the space that changes the entanglement's geometry. Its activity or passivity largely determines whether the trapped player can reduce the fulcrum's effectiveness and open an extraction path. For the controlling player, restricting that free leg is a priority precisely because an active free leg can dismantle the hip-to-calf connection the lock depends on. The status of the free leg is thus a shared dynamic that both players read to gauge how stable the position is."
+      "answer": "The free leg is the position's primary lever of contention because it can push on the controlling player's hips, hook their legs, or frame to create the space that changes the entanglement's geometry. Its activity or passivity largely determines whether the trapped player can reduce the fulcrum's effectiveness and open an extraction path. For the controlling player, restricting that free leg is a priority precisely because an active free leg can dismantle the hip-to-calf connection the lock depends on. The status of the free leg is thus a shared dynamic that both players read to gauge how stable the position is.",
+      "answer_line": "Lever to disrupt hip control",
+      "distractors": {
+        "plausible": [
+          "Backup grip point only",
+          "Passive, has no real function"
+        ],
+        "trap": [
+          "Best left still and relaxed"
+        ]
+      }
     },
     {
       "question": "Why does control in this position depend on structural weight placement rather than grip strength alone?",
-      "answer": "The controlling player anchors the foot largely through hip pressure seated against the calf, letting body weight and skeletal alignment hold the trapped leg in place rather than relying on the forearms to squeeze. This matters because grip-dependent control fatigues quickly and can be broken, whereas weight bearing down through a stable base is far harder to shift and frees the hands to apply rotation. The same principle tells the trapped player where to work: disrupting the base and hip contact is more productive than fighting the hands, since it undermines the weight structure that actually holds the position. Control here is a matter of positioning and pressure vectors, not arm tension."
+      "answer": "The controlling player anchors the foot largely through hip pressure seated against the calf, letting body weight and skeletal alignment hold the trapped leg in place rather than relying on the forearms to squeeze. This matters because grip-dependent control fatigues quickly and can be broken, whereas weight bearing down through a stable base is far harder to shift and frees the hands to apply rotation. The same principle tells the trapped player where to work: disrupting the base and hip contact is more productive than fighting the hands, since it undermines the weight structure that actually holds the position. Control here is a matter of positioning and pressure vectors, not arm tension.",
+      "answer_line": "Weight and base outlast grip",
+      "distractors": {
+        "plausible": [
+          "Grip strength wins long term",
+          "Speed matters more than base"
+        ],
+        "trap": [
+          "Squeeze forearms continuously"
+        ]
+      }
     },
     {
       "question": "How does the shared control structure of Estima Lock Control let it convert into adjacent leg attacks like the toe hold or ashi garami?",
-      "answer": "The position isolates and controls a single leg through heel fixation and foot control, and those same contact points are shared by neighboring entanglements, so it is best understood as one node in a chain of leg attacks rather than an isolated lock. When the foot turns, the exposed toes open a toe hold; when the leg configuration shifts, the entanglement flows into ashi garami or the saddle. Because the grips overlap so heavily, movement by either player tends to convert the position into an adjacent entanglement rather than ending the exchange. The distinguishing line that keeps it an Estima Lock is the rotational, inverted-foot ankle attack, not the surrounding leg configuration."
+      "answer": "The position isolates and controls a single leg through heel fixation and foot control, and those same contact points are shared by neighboring entanglements, so it is best understood as one node in a chain of leg attacks rather than an isolated lock. When the foot turns, the exposed toes open a toe hold; when the leg configuration shifts, the entanglement flows into ashi garami or the saddle. Because the grips overlap so heavily, movement by either player tends to convert the position into an adjacent entanglement rather than ending the exchange. The distinguishing line that keeps it an Estima Lock is the rotational, inverted-foot ankle attack, not the surrounding leg configuration.",
+      "answer_line": "Shared grips flow to toe hold",
+      "distractors": {
+        "plausible": [
+          "Only works from ashi garami",
+          "Requires a completely new grip"
+        ],
+        "trap": [
+          "Release everything, restart"
+        ]
+      }
     },
     {
       "question": "Why is the trapped ankle's remaining rotational range the shared danger signal that governs urgency for both players?",
-      "answer": "Because the submission works by twisting the ankle past its natural rotational range, the amount of safe rotation left is the single measure of how close the position is to finishing. As the heel is fixed and the foot torqued, the joint approaches its mechanical limit, and once that range is exhausted the ligaments and Achilles are directly threatened. The controlling player reads this range to know when the lock is consolidated enough that pressure will produce a tap, while the trapped player reads the same range to know when counter-rotation can still buy time versus when tapping is the only safe option. This shared awareness of joint range, rather than raw pain, is what dictates the pace of the exchange for both sides."
+      "answer": "Because the submission works by twisting the ankle past its natural rotational range, the amount of safe rotation left is the single measure of how close the position is to finishing. As the heel is fixed and the foot torqued, the joint approaches its mechanical limit, and once that range is exhausted the ligaments and Achilles are directly threatened. The controlling player reads this range to know when the lock is consolidated enough that pressure will produce a tap, while the trapped player reads the same range to know when counter-rotation can still buy time versus when tapping is the only safe option. This shared awareness of joint range, rather than raw pain, is what dictates the pace of the exchange for both sides.",
+      "answer_line": "Range left signals tap timing",
+      "distractors": {
+        "plausible": [
+          "Pain level is the real gauge",
+          "Time elapsed determines danger"
+        ],
+        "trap": [
+          "Ignore range, fight through it"
+        ]
+      }
     }
   ],
   "clips": [

@@ -235,35 +235,115 @@
     "flashcards": [
       {
         "question": "Why is establishing upper body control before attacking the knee crucial to successful knee tap execution?",
-        "answer": "Upper body control prevents opponent from simply stepping back or sprawling when you attack the leg. By controlling the head or collar, you can pull their weight forward onto the leg you're attacking while preventing defensive posture recovery. Without this control, you're only attacking half their structure and they can easily base out with their hands or move their leg away from danger."
+        "answer": "Upper body control prevents opponent from simply stepping back or sprawling when you attack the leg. By controlling the head or collar, you can pull their weight forward onto the leg you're attacking while preventing defensive posture recovery. Without this control, you're only attacking half their structure and they can easily base out with their hands or move their leg away from danger.",
+        "answer_line": "Pin head, load weight forward",
+        "distractors": {
+          "plausible": [
+            "Grip the knee tighter first",
+            "Control legs before the tie"
+          ],
+          "trap": [
+            "Let go of collar, shoot in"
+          ]
+        }
       },
       {
         "question": "What is the optimal angle to create before initiating the knee tap and why does this angle matter?",
-        "answer": "Approximately 45 degrees outside their lead leg is optimal because it positions you to attack the knee from the side rather than head-on. This angle allows you to bypass their center line defense, makes it mechanically difficult for them to sprawl effectively, and gives you access to the back of the knee for maximum leverage. Attacking straight-on allows simple backward step defense."
+        "answer": "Approximately 45 degrees outside their lead leg is optimal because it positions you to attack the knee from the side rather than head-on. This angle allows you to bypass their center line defense, makes it mechanically difficult for them to sprawl effectively, and gives you access to the back of the knee for maximum leverage. Attacking straight-on allows simple backward step defense.",
+        "answer_line": "45° outside their lead leg",
+        "distractors": {
+          "plausible": [
+            "Straight-on attacks the knee",
+            "90° fully to their side"
+          ],
+          "trap": [
+            "Step inside their stance"
+          ]
+        }
       },
       {
         "question": "How should you coordinate upper and lower body movements during knee tap execution to maximize effectiveness?",
-        "answer": "Create a see-saw effect by simultaneously pulling the head or upper body downward and backward while sweeping the knee forward and upward. This coordinated attack removes both their upper and lower posting options at the same moment, making defense nearly impossible. The timing must be synchronized - if you pull the knee without controlling the upper body, they simply post their hands. If you only control the head, they can step back with the attacked leg."
+        "answer": "Create a see-saw effect by simultaneously pulling the head or upper body downward and backward while sweeping the knee forward and upward. This coordinated attack removes both their upper and lower posting options at the same moment, making defense nearly impossible. The timing must be synchronized - if you pull the knee without controlling the upper body, they simply post their hands. If you only control the head, they can step back with the attacked leg.",
+        "answer_line": "See-saw: pull head, sweep knee",
+        "distractors": {
+          "plausible": [
+            "Pull knee first, then the head",
+            "Push head down, pull knee back"
+          ],
+          "trap": [
+            "Yank the knee, ignore the head"
+          ]
+        }
       },
       {
         "question": "What head position should you maintain during knee tap entry to avoid guillotine vulnerability while maintaining effectiveness?",
-        "answer": "Keep your head tight to opponent's ribs on the outside with your eyes looking forward or slightly upward. Your head should never drop below their hip line or come directly in front of their centerline. This outside positioning makes it geometrically difficult for them to secure front headlock control while maintaining your visibility and ability to drive through the takedown. The head acts as a control point against their ribs rather than diving low where it becomes vulnerable."
+        "answer": "Keep your head tight to opponent's ribs on the outside with your eyes looking forward or slightly upward. Your head should never drop below their hip line or come directly in front of their centerline. This outside positioning makes it geometrically difficult for them to secure front headlock control while maintaining your visibility and ability to drive through the takedown. The head acts as a control point against their ribs rather than diving low where it becomes vulnerable.",
+        "answer_line": "Head tight on ribs, outside",
+        "distractors": {
+          "plausible": [
+            "Head low and centered on hips",
+            "Head buried, eyes down"
+          ],
+          "trap": [
+            "Dive head to their centerline"
+          ]
+        }
       },
       {
         "question": "When transitioning from completed knee tap to side control, what are the critical control points to establish immediately?",
-        "answer": "Immediately establish cross-face with your collar tie arm driving across their face to control head position, while your knee tap hand transitions to controlling their near hip to prevent hip escape. Your chest should be heavy across their torso with your weight distributed to prevent guard recovery. These controls must be established during the landing phase, not after settling, because this is when opponent is most likely to scramble back to guard or turtle. Position consolidation begins the moment they impact the mat."
+        "answer": "Immediately establish cross-face with your collar tie arm driving across their face to control head position, while your knee tap hand transitions to controlling their near hip to prevent hip escape. Your chest should be heavy across their torso with your weight distributed to prevent guard recovery. These controls must be established during the landing phase, not after settling, because this is when opponent is most likely to scramble back to guard or turtle. Position consolidation begins the moment they impact the mat.",
+        "answer_line": "Cross-face plus hip control now",
+        "distractors": {
+          "plausible": [
+            "Settle first, then control hip",
+            "Control head, ignore the hip"
+          ],
+          "trap": [
+            "Sit back and let them settle"
+          ]
+        }
       },
       {
         "question": "How does the knee tap differ mechanically from the ankle pick, and when would you choose one over the other?",
-        "answer": "The knee tap attacks higher on the leg where you have more leverage over the knee joint, requires less deep penetration, and allows you to maintain more upright posture reducing guillotine risk. The ankle pick attacks the lowest point requiring deeper penetration but works better when opponent has wide stance or when you have secured wrist control. Choose knee tap when you have collar tie control and opponent's weight is forward; choose ankle pick when you have wrist control or opponent is more upright with wider base."
+        "answer": "The knee tap attacks higher on the leg where you have more leverage over the knee joint, requires less deep penetration, and allows you to maintain more upright posture reducing guillotine risk. The ankle pick attacks the lowest point requiring deeper penetration but works better when opponent has wide stance or when you have secured wrist control. Choose knee tap when you have collar tie control and opponent's weight is forward; choose ankle pick when you have wrist control or opponent is more upright with wider base.",
+        "answer_line": "Knee tap: high leg, less depth",
+        "distractors": {
+          "plausible": [
+            "Ankle pick for forward weight",
+            "Knee tap needs wrist control"
+          ],
+          "trap": [
+            "Ankle pick without any grips"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls aggressively when you shoot for the knee tap - how do you adjust mid-technique?",
-        "answer": "If they sprawl early before you secure the knee, abandon the knee tap and shoot deeper for a single leg by wrapping your arms around their thigh and driving your shoulder into their hip. If you already have the knee grip when they sprawl, maintain the grip and circle toward their back while using their sprawl momentum against them, or switch to attacking the far leg for a double leg finish. The key is recognizing the sprawl early and having automatic chain attacks ready rather than forcing a failed technique."
+        "answer": "If they sprawl early before you secure the knee, abandon the knee tap and shoot deeper for a single leg by wrapping your arms around their thigh and driving your shoulder into their hip. If you already have the knee grip when they sprawl, maintain the grip and circle toward their back while using their sprawl momentum against them, or switch to attacking the far leg for a double leg finish. The key is recognizing the sprawl early and having automatic chain attacks ready rather than forcing a failed technique.",
+        "answer_line": "Chain to single leg or back",
+        "distractors": {
+          "plausible": [
+            "Force the same knee tap harder",
+            "Stand up and reset stance"
+          ],
+          "trap": [
+            "Let go and pull guard"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration behind the knee provides maximum mechanical advantage for the sweep?",
-        "answer": "Cup the back of the knee joint with your palm facing upward so your fingers wrap around the hamstring tendons on the back of the thigh while your thumb secures the lateral side of the knee. This grip configuration allows you to pull the knee forward and slightly upward in a scooping motion. Gripping too high near the hip or too low near the calf significantly reduces leverage. The knee joint is the fulcrum point - attacking there creates maximum rotational force with minimum effort."
+        "answer": "Cup the back of the knee joint with your palm facing upward so your fingers wrap around the hamstring tendons on the back of the thigh while your thumb secures the lateral side of the knee. This grip configuration allows you to pull the knee forward and slightly upward in a scooping motion. Gripping too high near the hip or too low near the calf significantly reduces leverage. The knee joint is the fulcrum point - attacking there creates maximum rotational force with minimum effort.",
+        "answer_line": "Cup behind knee, palm up",
+        "distractors": {
+          "plausible": [
+            "Grip high near the hip",
+            "Grip low near the calf"
+          ],
+          "trap": [
+            "Grab the ankle and yank"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the knee tap attack during standing engagement?",
@@ -271,15 +351,45 @@
       },
       {
         "question": "What direction of force should be applied to the knee versus the upper body for successful completion?",
-        "answer": "The knee should be pulled forward, upward, and slightly toward you in a scooping arc motion - not straight back or down. Simultaneously, the upper body should be driven downward and backward over the void created by removing their leg support. These forces create opposing vectors that generate a rotational collapse around the hip axis. If both forces go the same direction, opponent can simply step to catch balance. The opposing see-saw motion removes all recovery options and creates the unstoppable collapse characteristic of high-level knee taps."
+        "answer": "The knee should be pulled forward, upward, and slightly toward you in a scooping arc motion - not straight back or down. Simultaneously, the upper body should be driven downward and backward over the void created by removing their leg support. These forces create opposing vectors that generate a rotational collapse around the hip axis. If both forces go the same direction, opponent can simply step to catch balance. The opposing see-saw motion removes all recovery options and creates the unstoppable collapse characteristic of high-level knee taps.",
+        "answer_line": "Knee up-forward, torso down-back",
+        "distractors": {
+          "plausible": [
+            "Pull knee straight back hard",
+            "Push both knee and head down"
+          ],
+          "trap": [
+            "Drive knee and torso same way"
+          ]
+        }
       },
       {
         "question": "If your initial knee tap is blocked but you maintain collar tie control, what are your best chain attack options?",
-        "answer": "From maintained collar tie with a blocked knee tap, immediately transition to snap down to front headlock if they're pushing back into you, or switch to the far knee for an outside knee tap if they stepped the near leg back. You can also use the blocked knee as a feint and immediately shoot a double leg while they're focused on protecting the single leg. Another option is to release the knee, circle to a new angle using the collar tie, and re-attack the same knee from a different vector. The key is having automatic responses so your attack becomes a continuous flow rather than isolated single attempts."
+        "answer": "From maintained collar tie with a blocked knee tap, immediately transition to snap down to front headlock if they're pushing back into you, or switch to the far knee for an outside knee tap if they stepped the near leg back. You can also use the blocked knee as a feint and immediately shoot a double leg while they're focused on protecting the single leg. Another option is to release the knee, circle to a new angle using the collar tie, and re-attack the same knee from a different vector. The key is having automatic responses so your attack becomes a continuous flow rather than isolated single attempts.",
+        "answer_line": "Snap down or switch to far knee",
+        "distractors": {
+          "plausible": [
+            "Force the blocked knee again",
+            "Release tie and re-shoot cold"
+          ],
+          "trap": [
+            "Drop head low to guillotine range"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can execute a high-percentage knee tap?",
-        "answer": "Four conditions must be present: collar tie or head control established to manipulate opponent's upper body, angle created by stepping outside their lead leg giving access to the knee, opponent's weight committed forward onto the targeted leg making it difficult to retract, and close enough distance that you can reach the knee without overextending and compromising your own base. Attempting the knee tap without these prerequisites results in easily defended attacks and potential exposure to guillotine counters. The setup phase is where the technique is won or lost."
+        "answer": "Four conditions must be present: collar tie or head control established to manipulate opponent's upper body, angle created by stepping outside their lead leg giving access to the knee, opponent's weight committed forward onto the targeted leg making it difficult to retract, and close enough distance that you can reach the knee without overextending and compromising your own base. Attempting the knee tap without these prerequisites results in easily defended attacks and potential exposure to guillotine counters. The setup phase is where the technique is won or lost.",
+        "answer_line": "Tie, angle, forward weight, range",
+        "distractors": {
+          "plausible": [
+            "Angle and distance are enough",
+            "Weight commitment alone is enough"
+          ],
+          "trap": [
+            "Shoot deep without the angle"
+          ]
+        }
       }
     ],
     "safety_considerations": "The knee tap is relatively safe compared to other takedowns as it doesn't involve high amplitude throws or dangerous falling angles. Primary safety concern is avoiding guillotine exposure by keeping head position high and outside throughout entry. When drilling, the person being taken down should practice breakfalling by turning toward the attacking side and slapping the mat. Avoid jerking the knee violently during practice - use controlled pulling motion to protect your partner's knee joint. In live training, be aware of cage or wall proximity to prevent partner from impacting hard surfaces during the fall. For those with knee injuries, communicate clearly with partners before drilling this technique as the knee manipulation can aggravate existing conditions. Always release knee grip immediately upon completion in training to avoid unnecessary joint stress.",
@@ -401,27 +511,87 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a knee tap is being set up, and what should your immediate response be?",
-        "answer": "The earliest cue is your opponent stepping to the outside of your lead leg while maintaining collar tie control, creating a lateral angle. Your immediate response should be to circle your hips to re-square your stance, denying them the angle they need. Simultaneously, fight the collar tie by posting on their bicep or stripping the grip. If you neutralize the angle and the collar tie, the knee tap becomes mechanically impossible to execute with any success. Waiting until you see their hand drop toward your knee means you're already one step behind."
+        "answer": "The earliest cue is your opponent stepping to the outside of your lead leg while maintaining collar tie control, creating a lateral angle. Your immediate response should be to circle your hips to re-square your stance, denying them the angle they need. Simultaneously, fight the collar tie by posting on their bicep or stripping the grip. If you neutralize the angle and the collar tie, the knee tap becomes mechanically impossible to execute with any success. Waiting until you see their hand drop toward your knee means you're already one step behind.",
+        "answer_line": "Re-square hips, strip the tie",
+        "distractors": {
+          "plausible": [
+            "Wait till hand touches knee",
+            "Step straight backward first"
+          ],
+          "trap": [
+            "Chase a guillotine right away"
+          ]
+        }
       },
       {
         "question": "Why is sprawling more effective than stepping backward when defending a committed knee tap?",
-        "answer": "Stepping backward keeps your center of gravity at the same height, meaning the attacker can simply follow your step while maintaining the knee grip and still complete the see-saw motion. Sprawling drops your hips down and back, which fundamentally changes the angle of engagement - your knee drops below their grip point, removing the upward scooping leverage they need. Additionally, the sprawl drives your chest weight forward onto their upper back, potentially collapsing their attacking posture. Backward stepping only delays the attack; sprawling kills the mechanical advantage that makes the technique work."
+        "answer": "Stepping backward keeps your center of gravity at the same height, meaning the attacker can simply follow your step while maintaining the knee grip and still complete the see-saw motion. Sprawling drops your hips down and back, which fundamentally changes the angle of engagement - your knee drops below their grip point, removing the upward scooping leverage they need. Additionally, the sprawl drives your chest weight forward onto their upper back, potentially collapsing their attacking posture. Backward stepping only delays the attack; sprawling kills the mechanical advantage that makes the technique work.",
+        "answer_line": "Sprawl drops hips, kills angle",
+        "distractors": {
+          "plausible": [
+            "Step back to create distance",
+            "Circle away without sprawling"
+          ],
+          "trap": [
+            "Stand tall and post hands"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured the collar tie and created angle - you feel their hand touch your knee. What is your defensive priority sequence?",
-        "answer": "First, explosively sprawl your hips back and down to deny the scooping leverage on your knee. Second, simultaneously post your free hand on their far shoulder or drive a crossface to prevent them from following your hip movement. Third, circle your hips away from their angle to re-square your stance. If the sprawl successfully breaks their knee grip, immediately fight to strip the collar tie and return to neutral. If they maintain the knee grip despite your sprawl, transition to securing a front headlock by wrapping their head as their posture is compromised from the failed takedown attempt."
+        "answer": "First, explosively sprawl your hips back and down to deny the scooping leverage on your knee. Second, simultaneously post your free hand on their far shoulder or drive a crossface to prevent them from following your hip movement. Third, circle your hips away from their angle to re-square your stance. If the sprawl successfully breaks their knee grip, immediately fight to strip the collar tie and return to neutral. If they maintain the knee grip despite your sprawl, transition to securing a front headlock by wrapping their head as their posture is compromised from the failed takedown attempt.",
+        "answer_line": "Sprawl, crossface, circle hips",
+        "distractors": {
+          "plausible": [
+            "Circle away, then sprawl late",
+            "Post hands, skip the sprawl"
+          ],
+          "trap": [
+            "Reach for a guillotine first"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to counter the knee tap with a guillotine versus when should you focus purely on defensive sprawling?",
-        "answer": "Counter with a guillotine only when the attacker's head drops below your chest line and comes inside your centerline during their penetration step - this head misposition is the prerequisite for any front headlock based counter. If their head stays tight to your ribs on the outside with proper posture, a guillotine counter will fail and you'll sacrifice your base chasing a submission that isn't there. In that case, focus on sprawling defense and grip fighting. The decision point is head position: head inside and low means counter opportunity, head outside and tight means pure defense."
+        "answer": "Counter with a guillotine only when the attacker's head drops below your chest line and comes inside your centerline during their penetration step - this head misposition is the prerequisite for any front headlock based counter. If their head stays tight to your ribs on the outside with proper posture, a guillotine counter will fail and you'll sacrifice your base chasing a submission that isn't there. In that case, focus on sprawling defense and grip fighting. The decision point is head position: head inside and low means counter opportunity, head outside and tight means pure defense.",
+        "answer_line": "Only if head is low and inside",
+        "distractors": {
+          "plausible": [
+            "Counter anytime they shoot in",
+            "Counter once hips are sprawled"
+          ],
+          "trap": [
+            "Chase guillotine, head outside"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution in standing stance directly affect your vulnerability to the knee tap?",
-        "answer": "If your weight is committed forward onto your lead leg, the knee tap becomes much higher percentage because the targeted leg is load-bearing and cannot be quickly retracted. The attacker only needs to sweep a leg that's already supporting your mass. Conversely, keeping weight centered or slightly posterior means the lead leg is lighter, can be pulled away more quickly, and the attacker's sweep encounters less resistance. Additionally, forward weight commitment means the collar tie pull is more effective since you're already leaning in the direction they want to take you. A slight posterior bias forces the attacker to work harder to create the weight transfer they need before attacking."
+        "answer": "If your weight is committed forward onto your lead leg, the knee tap becomes much higher percentage because the targeted leg is load-bearing and cannot be quickly retracted. The attacker only needs to sweep a leg that's already supporting your mass. Conversely, keeping weight centered or slightly posterior means the lead leg is lighter, can be pulled away more quickly, and the attacker's sweep encounters less resistance. Additionally, forward weight commitment means the collar tie pull is more effective since you're already leaning in the direction they want to take you. A slight posterior bias forces the attacker to work harder to create the weight transfer they need before attacking.",
+        "answer_line": "Forward weight = easy target",
+        "distractors": {
+          "plausible": [
+            "Centered weight is most exposed",
+            "Posterior weight loads the leg"
+          ],
+          "trap": [
+            "Lean forward into collar tie"
+          ]
+        }
       },
       {
         "question": "Your training partner consistently catches you with knee taps during standup - what systematic adjustments should you make to your standing game?",
-        "answer": "First, audit your stance - you're likely standing too square or with too much weight forward, giving easy knee access. Adopt a more staggered stance with lead leg lighter. Second, prioritize collar tie denial in your grip fighting sequence - without the collar tie they cannot execute the coordinated pull needed for the knee tap. Third, develop awareness of their angle changes and drill circling to re-square immediately when they step outside. Fourth, practice your sprawl timing by having partners initiate knee taps at various speeds during positional rounds. Fifth, consider adding offensive pressure when you recognize the setup - a snap down or level change of your own disrupts their timing and turns defense into offense."
+        "answer": "First, audit your stance - you're likely standing too square or with too much weight forward, giving easy knee access. Adopt a more staggered stance with lead leg lighter. Second, prioritize collar tie denial in your grip fighting sequence - without the collar tie they cannot execute the coordinated pull needed for the knee tap. Third, develop awareness of their angle changes and drill circling to re-square immediately when they step outside. Fourth, practice your sprawl timing by having partners initiate knee taps at various speeds during positional rounds. Fifth, consider adding offensive pressure when you recognize the setup - a snap down or level change of your own disrupts their timing and turns defense into offense.",
+        "answer_line": "Deny tie, re-square, drill sprawl",
+        "distractors": {
+          "plausible": [
+            "Just widen your stance more",
+            "Only work on sprawl speed"
+          ],
+          "trap": [
+            "Keep weight forward, grip fight"
+          ]
+        }
       }
     ],
     "training_progressions": [

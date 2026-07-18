@@ -256,51 +256,171 @@
     "flashcards": [
       {
         "question": "What is the primary defensive reaction that creates the opportunity for the omoplata sweep?",
-        "answer": "The opponent's reaction to genuine omoplata submission pressure creates the sweep opportunity. When you establish the omoplata position and apply real shoulder lock pressure, the opponent must drive their weight forward, attempt to roll toward their trapped shoulder, or try to posture up. This defensive movement compromises their base and creates momentum you redirect into the sweep. Without genuine submission pressure, the opponent has no reason to react, and the sweep becomes a predictable strength-based movement that experienced grapplers defend easily."
+        "answer": "The opponent's reaction to genuine omoplata submission pressure creates the sweep opportunity. When you establish the omoplata position and apply real shoulder lock pressure, the opponent must drive their weight forward, attempt to roll toward their trapped shoulder, or try to posture up. This defensive movement compromises their base and creates momentum you redirect into the sweep. Without genuine submission pressure, the opponent has no reason to react, and the sweep becomes a predictable strength-based movement that experienced grapplers defend easily.",
+        "answer_line": "Real pressure forces a reaction",
+        "distractors": {
+          "plausible": [
+            "Opponent postures up first",
+            "They try to stand and pass"
+          ],
+          "trap": [
+            "Fake the sub, muscle the sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand firmly on the mat as you attempt the sweep. How do you adjust?",
-        "answer": "When the opponent posts their free hand, immediately attack that posted arm rather than trying to power through the post. Control their posting wrist with your free hand and threaten a kimura by sliding your arm under their elbow. This creates a new submission dilemma that forces them to abandon the post to defend their arm. Alternatively, trap their wrist against the mat and change the sweep angle to go diagonally over the posted arm. The key principle is that a solid post cannot be overcome with force but can always be attacked or circumvented with technique."
+        "answer": "When the opponent posts their free hand, immediately attack that posted arm rather than trying to power through the post. Control their posting wrist with your free hand and threaten a kimura by sliding your arm under their elbow. This creates a new submission dilemma that forces them to abandon the post to defend their arm. Alternatively, trap their wrist against the mat and change the sweep angle to go diagonally over the posted arm. The key principle is that a solid post cannot be overcome with force but can always be attacked or circumvented with technique.",
+        "answer_line": "Attack the post with a kimura",
+        "distractors": {
+          "plausible": [
+            "Power through the posted arm",
+            "Switch to armbar over the post"
+          ],
+          "trap": [
+            "Push harder into the post"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement in the omoplata sweep execution?",
-        "answer": "The initial hip pivot to achieve a perpendicular angle relative to your opponent is the most critical hip movement. Without this pivot to approximately 90 degrees, the sweep becomes a linear push against the opponent's weight rather than an angular rotation using leverage. The perpendicular angle transforms the mechanics from a direct lift (requiring significant strength) into a rotational lever system where your body angle multiplies force. This pivot must happen before the leg swings over the shoulder and before the sweep is initiated. Attempting the sweep from a parallel or shallow angle dramatically reduces success percentage."
+        "answer": "The initial hip pivot to achieve a perpendicular angle relative to your opponent is the most critical hip movement. Without this pivot to approximately 90 degrees, the sweep becomes a linear push against the opponent's weight rather than an angular rotation using leverage. The perpendicular angle transforms the mechanics from a direct lift (requiring significant strength) into a rotational lever system where your body angle multiplies force. This pivot must happen before the leg swings over the shoulder and before the sweep is initiated. Attempting the sweep from a parallel or shallow angle dramatically reduces success percentage.",
+        "answer_line": "Pivot to perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Swing leg over shoulder first",
+            "Square up before sweeping"
+          ],
+          "trap": [
+            "Push straight through their base"
+          ]
+        }
       },
       {
         "question": "Why is maintaining sleeve or wrist control throughout the entire sweep non-negotiable?",
-        "answer": "Arm control eliminates the opponent's primary defense against the sweep: posting. If the opponent can extend their trapped arm and post on the mat, they create a tripod base that absorbs the sweep force and prevents rotation. Additionally, maintaining arm control preserves the omoplata submission threat throughout the sweep, meaning the opponent must simultaneously defend the shoulder lock and the sweep. Finally, arm isolation that survives the sweep gives you an immediate submission threat from mount, converting positional advantage directly into finishing opportunity without needing to re-establish control."
+        "answer": "Arm control eliminates the opponent's primary defense against the sweep: posting. If the opponent can extend their trapped arm and post on the mat, they create a tripod base that absorbs the sweep force and prevents rotation. Additionally, maintaining arm control preserves the omoplata submission threat throughout the sweep, meaning the opponent must simultaneously defend the shoulder lock and the sweep. Finally, arm isolation that survives the sweep gives you an immediate submission threat from mount, converting positional advantage directly into finishing opportunity without needing to re-establish control.",
+        "answer_line": "Denies their post, keeps sub live",
+        "distractors": {
+          "plausible": [
+            "Frees your hands for the sweep",
+            "Keeps their hips flat only"
+          ],
+          "trap": [
+            "Let go once the leg is over"
+          ]
+        }
       },
       {
         "question": "Your opponent begins backing away as you establish the omoplata position. What grip and leg adjustments prevent their escape?",
-        "answer": "Immediately deepen your right leg hook around their hip to anchor them and prevent backward movement. Pull their trapped sleeve toward your hip to shorten the distance and load their weight forward. If you have a collar grip with your free hand, pull it aggressively to break their posture and prevent the retreat. If they manage partial distance, follow their hips with yours by scooting forward rather than reaching with your arms. The right leg hook is the primary retention tool here because it creates a closed circuit around their hip that they cannot simply back out of."
+        "answer": "Immediately deepen your right leg hook around their hip to anchor them and prevent backward movement. Pull their trapped sleeve toward your hip to shorten the distance and load their weight forward. If you have a collar grip with your free hand, pull it aggressively to break their posture and prevent the retreat. If they manage partial distance, follow their hips with yours by scooting forward rather than reaching with your arms. The right leg hook is the primary retention tool here because it creates a closed circuit around their hip that they cannot simply back out of.",
+        "answer_line": "Deepen the right leg hook",
+        "distractors": {
+          "plausible": [
+            "Grab both their ankles",
+            "Reach further with your arms"
+          ],
+          "trap": [
+            "Release the sleeve to re-grip"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the sweep relative to the opponent's defensive reaction?",
-        "answer": "The optimal moment is when the opponent's weight has shifted forward past their base but before they have completed their defensive movement and re-established stability. This window typically opens 0.5-1 second after they begin reacting to the omoplata pressure. If you sweep too early, before they commit their weight, they can simply sit back. If you sweep too late, after they have completed their forward roll or re-established base, you miss the momentum. The sweep should coincide with the apex of their forward weight shift, when their center of gravity is most displaced from their base of support."
+        "answer": "The optimal moment is when the opponent's weight has shifted forward past their base but before they have completed their defensive movement and re-established stability. This window typically opens 0.5-1 second after they begin reacting to the omoplata pressure. If you sweep too early, before they commit their weight, they can simply sit back. If you sweep too late, after they have completed their forward roll or re-established base, you miss the momentum. The sweep should coincide with the apex of their forward weight shift, when their center of gravity is most displaced from their base of support.",
+        "answer_line": "At the apex of their weight shift",
+        "distractors": {
+          "plausible": [
+            "The instant you lock the sub",
+            "After they fully stand back up"
+          ],
+          "trap": [
+            "Before they react at all"
+          ]
+        }
       },
       {
         "question": "How does the right leg function as a fulcrum during the sweep, and what happens if it is poorly positioned?",
-        "answer": "The right leg hooked around the opponent's hip serves as the fulcrum point of a lever system where your left leg across their back is the effort arm and their body weight is the load. During the sweep, you rotate them over this fulcrum point, meaning the hook must be deep enough to provide a stable pivot. If the right leg is too shallow or loses contact, there is no fulcrum and the sweep becomes a pushing motion that requires far more force. Poorly positioned right leg also allows the opponent to back away or shift their hips laterally to avoid the sweep. The hook should be deep around the hip crease, not just resting against the thigh."
+        "answer": "The right leg hooked around the opponent's hip serves as the fulcrum point of a lever system where your left leg across their back is the effort arm and their body weight is the load. During the sweep, you rotate them over this fulcrum point, meaning the hook must be deep enough to provide a stable pivot. If the right leg is too shallow or loses contact, there is no fulcrum and the sweep becomes a pushing motion that requires far more force. Poorly positioned right leg also allows the opponent to back away or shift their hips laterally to avoid the sweep. The hook should be deep around the hip crease, not just resting against the thigh.",
+        "answer_line": "Deep hook creates the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Left leg is the true fulcrum",
+            "Shallow hook still pivots fine"
+          ],
+          "trap": [
+            "Rest the leg on their thigh"
+          ]
+        }
       },
       {
         "question": "If the omoplata sweep is blocked and you cannot complete the sweep, what are your highest-percentage chain attacks?",
-        "answer": "The three highest-percentage chains from a defended omoplata sweep are: First, abandon the sweep and finish the omoplata submission itself by sitting up and driving your hips forward to apply shoulder pressure. Second, if the opponent rolls forward to defend, follow the roll and take their back by maintaining your leg hooks and establishing seat belt control as they expose their back during the roll. Third, if they posture up and pull their arm free, immediately transition to triangle by shooting your hips high and cutting the angle with the leg that was across their back. Each chain attack exploits a specific defensive pattern, so the key is reading which defense they chose."
+        "answer": "The three highest-percentage chains from a defended omoplata sweep are: First, abandon the sweep and finish the omoplata submission itself by sitting up and driving your hips forward to apply shoulder pressure. Second, if the opponent rolls forward to defend, follow the roll and take their back by maintaining your leg hooks and establishing seat belt control as they expose their back during the roll. Third, if they posture up and pull their arm free, immediately transition to triangle by shooting your hips high and cutting the angle with the leg that was across their back. Each chain attack exploits a specific defensive pattern, so the key is reading which defense they chose.",
+        "answer_line": "Finish sub, back take, or triangle",
+        "distractors": {
+          "plausible": [
+            "Reset guard and restart sweep",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Release the leg hooks to escape"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you can realistically attempt the omoplata sweep from closed guard?",
-        "answer": "Four conditions must be present: First, you must have broken the opponent's posture sufficiently that they cannot simply sit back and strip your grips. Second, you need strong sleeve or wrist control on the arm you will attack, established before opening your guard. Third, you must have enough hip mobility and space to pivot perpendicular and swing your leg over their shoulder. Fourth, the opponent's base must be compromised enough that they are reactive rather than proactively passing. Attempting the sweep without posture break results in the opponent easily defending. Attempting without arm control allows posting. Attempting without hip angle eliminates leverage."
+        "answer": "Four conditions must be present: First, you must have broken the opponent's posture sufficiently that they cannot simply sit back and strip your grips. Second, you need strong sleeve or wrist control on the arm you will attack, established before opening your guard. Third, you must have enough hip mobility and space to pivot perpendicular and swing your leg over their shoulder. Fourth, the opponent's base must be compromised enough that they are reactive rather than proactively passing. Attempting the sweep without posture break results in the opponent easily defending. Attempting without arm control allows posting. Attempting without hip angle eliminates leverage.",
+        "answer_line": "Break posture plus arm control",
+        "distractors": {
+          "plausible": [
+            "Just open guard and pivot",
+            "Any grip and enough space"
+          ],
+          "trap": [
+            "Rush the sweep without grips"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the omoplata sweep and a standard hip bump sweep from closed guard?",
-        "answer": "The hip bump sweep applies force directly forward and upward from a square position, pushing the opponent backward over their base using your chest and hip drive against their centerline. The omoplata sweep applies rotational force from a perpendicular angle, rolling the opponent over their trapped shoulder using a lever-and-fulcrum system created by your legs. The hip bump is a linear push requiring timing with the opponent's posture being elevated, while the omoplata sweep is a rotational roll requiring timing with the opponent's defensive reaction to shoulder pressure. These different force vectors make them excellent complementary attacks because defending one creates vulnerability to the other."
+        "answer": "The hip bump sweep applies force directly forward and upward from a square position, pushing the opponent backward over their base using your chest and hip drive against their centerline. The omoplata sweep applies rotational force from a perpendicular angle, rolling the opponent over their trapped shoulder using a lever-and-fulcrum system created by your legs. The hip bump is a linear push requiring timing with the opponent's posture being elevated, while the omoplata sweep is a rotational roll requiring timing with the opponent's defensive reaction to shoulder pressure. These different force vectors make them excellent complementary attacks because defending one creates vulnerability to the other.",
+        "answer_line": "Rotational lever, not linear push",
+        "distractors": {
+          "plausible": [
+            "Both use the same forward push",
+            "Omoplata pushes, hip bump rotates"
+          ],
+          "trap": [
+            "Muscle them straight backward"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the sweep by basing wide and refusing to commit weight forward. How do you exploit their static defense?",
-        "answer": "When the opponent refuses to move forward, they are conceding the omoplata submission to avoid the sweep. Capitalize by sitting up fully, securing their trapped arm against your torso, and walking your hips toward their head to flatten their shoulder angle. Apply progressive downward pressure on the shoulder while controlling their far hip to prevent the forward roll escape. Their wide base, while effective against the sweep, actually makes the submission easier because their weight is distributed laterally rather than stacked over the trapped shoulder. If they begin to adjust their base to defend the submission, that adjustment creates the weight shift you need for the sweep."
+        "answer": "When the opponent refuses to move forward, they are conceding the omoplata submission to avoid the sweep. Capitalize by sitting up fully, securing their trapped arm against your torso, and walking your hips toward their head to flatten their shoulder angle. Apply progressive downward pressure on the shoulder while controlling their far hip to prevent the forward roll escape. Their wide base, while effective against the sweep, actually makes the submission easier because their weight is distributed laterally rather than stacked over the trapped shoulder. If they begin to adjust their base to defend the submission, that adjustment creates the weight shift you need for the sweep.",
+        "answer_line": "Sit up and finish the submission",
+        "distractors": {
+          "plausible": [
+            "Wait for them to move first",
+            "Widen your own base to match"
+          ],
+          "trap": [
+            "Force the sweep through anyway"
+          ]
+        }
       },
       {
         "question": "During the leg swing over the opponent's shoulder, what is the most common mistake that allows the arm to slip free?",
-        "answer": "The most common mistake is releasing sleeve tension during the hip pivot to focus on the leg swing. Practitioners often loosen their grip momentarily as they concentrate on swinging the leg over, creating a window where the opponent can retract their elbow and extract the arm. The correction is to maintain constant pulling tension on the sleeve grip throughout the entire pivot and leg swing, treating the grip as a fixed anchor point. Your pulling hand should actually increase tension during the swing to counteract the natural tendency to loosen it. The leg swing and grip maintenance must be trained as a simultaneous action, not sequential steps."
+        "answer": "The most common mistake is releasing sleeve tension during the hip pivot to focus on the leg swing. Practitioners often loosen their grip momentarily as they concentrate on swinging the leg over, creating a window where the opponent can retract their elbow and extract the arm. The correction is to maintain constant pulling tension on the sleeve grip throughout the entire pivot and leg swing, treating the grip as a fixed anchor point. Your pulling hand should actually increase tension during the swing to counteract the natural tendency to loosen it. The leg swing and grip maintenance must be trained as a simultaneous action, not sequential steps.",
+        "answer_line": "Losing sleeve tension mid-pivot",
+        "distractors": {
+          "plausible": [
+            "Swinging the leg too slowly",
+            "Opening guard too early"
+          ],
+          "trap": [
+            "Release the grip to swing faster"
+          ]
+        }
       }
     ],
     "safety_considerations": "The omoplata sweep involves significant rotational force on the opponent's shoulder and should be practiced with controlled execution. During drilling, execute the sweep at moderate speed until both partners understand the mechanics. Sudden explosive sweeps can cause the person being swept to land awkwardly on their shoulder or neck. The person being swept should practice proper breakfall technique and communicate if the rotation feels unsafe. For the person executing the sweep, maintain the omoplata position without applying excessive pressure during drilling, as the shoulder is vulnerable throughout the movement. Avoid cranking or jerking the trapped arm at any point. When practicing with resistance, both partners should establish clear tap signals, and the person being swept should tap if shoulder pressure becomes uncomfortable. Never apply the sweep at competition speed during initial learning phases.",
@@ -418,19 +538,59 @@
     "flashcards": [
       {
         "question": "Why is driving your weight forward the worst possible response when you feel omoplata shoulder pressure?",
-        "answer": "The omoplata sweep is a reaction-based technique that specifically exploits forward weight commitment. When you drive forward, your center of gravity moves past your base of support, which is exactly the momentum the attacker needs to complete the sweep. Your forward drive combines with their hip rotation and leg leverage to create irresistible rotational force. Instead, you should sit your hips back, widen your base, and work to extract your arm or manage the leg across your back. Denying the forward reaction forces the attacker to choose between a static omoplata submission attempt (which you can address systematically) and an under-powered sweep that you can resist."
+        "answer": "The omoplata sweep is a reaction-based technique that specifically exploits forward weight commitment. When you drive forward, your center of gravity moves past your base of support, which is exactly the momentum the attacker needs to complete the sweep. Your forward drive combines with their hip rotation and leg leverage to create irresistible rotational force. Instead, you should sit your hips back, widen your base, and work to extract your arm or manage the leg across your back. Denying the forward reaction forces the attacker to choose between a static omoplata submission attempt (which you can address systematically) and an under-powered sweep that you can resist.",
+        "answer_line": "It feeds the sweep's momentum",
+        "distractors": {
+          "plausible": [
+            "It only risks the submission",
+            "It just tires you out faster"
+          ],
+          "trap": [
+            "Drive forward to power out"
+          ]
+        }
       },
       {
         "question": "What is the highest-percentage defensive window for preventing the omoplata sweep?",
-        "answer": "The highest-percentage window is during the initial grip fight before your arm is pulled across the attacker's centerline and before they open their guard to pivot. At this stage, a strong two-on-one grip break combined with posture recovery completely neutralizes the attack before it develops. Once the arm crosses centerline and the attacker begins their hip pivot, the defense becomes significantly harder. The second window is after the leg swings over but before the attacker sits up and applies shoulder pressure. During this brief window, you can still extract your arm by pulling your elbow tight and circling it out. After the attacker sits up with full pressure, your options narrow to rolling forward or stalling with wide base."
+        "answer": "The highest-percentage window is during the initial grip fight before your arm is pulled across the attacker's centerline and before they open their guard to pivot. At this stage, a strong two-on-one grip break combined with posture recovery completely neutralizes the attack before it develops. Once the arm crosses centerline and the attacker begins their hip pivot, the defense becomes significantly harder. The second window is after the leg swings over but before the attacker sits up and applies shoulder pressure. During this brief window, you can still extract your arm by pulling your elbow tight and circling it out. After the attacker sits up with full pressure, your options narrow to rolling forward or stalling with wide base.",
+        "answer_line": "Grip fight before arm crosses body",
+        "distractors": {
+          "plausible": [
+            "After the leg swings over",
+            "Once shoulder pressure is on"
+          ],
+          "trap": [
+            "Wait until fully locked to react"
+          ]
+        }
       },
       {
         "question": "Your arm is trapped and the opponent has the omoplata fully locked. What is your safest escape option?",
-        "answer": "The safest escape from a fully consolidated omoplata is the forward roll over your trapped shoulder. Tuck your chin firmly to protect your neck, keep your free arm posted for controlled rotation, and roll forward in the direction the attacker is applying pressure. This relieves the shoulder lock by removing the angle that creates the submission. As you roll, maintain awareness of your back exposure because experienced attackers will attempt to follow your roll and take back control. The roll should end with you facing the opponent in their guard, where you can immediately begin working to pass. Time the roll when the attacker commits to sitting up, as this makes it harder for them to follow the roll to your back."
+        "answer": "The safest escape from a fully consolidated omoplata is the forward roll over your trapped shoulder. Tuck your chin firmly to protect your neck, keep your free arm posted for controlled rotation, and roll forward in the direction the attacker is applying pressure. This relieves the shoulder lock by removing the angle that creates the submission. As you roll, maintain awareness of your back exposure because experienced attackers will attempt to follow your roll and take back control. The roll should end with you facing the opponent in their guard, where you can immediately begin working to pass. Time the roll when the attacker commits to sitting up, as this makes it harder for them to follow the roll to your back.",
+        "answer_line": "Roll forward over trapped shoulder",
+        "distractors": {
+          "plausible": [
+            "Pull the arm out by force",
+            "Stack them and pass through"
+          ],
+          "trap": [
+            "Turn away and try to stand"
+          ]
+        }
       },
       {
         "question": "How do you prevent the attacker from transitioning to your back if you successfully roll out of the omoplata?",
-        "answer": "As you roll, keep your elbows tight and your chin tucked, and aim to complete the roll facing the opponent rather than turning away. The moment you feel the roll completing, immediately square your shoulders to the attacker and establish grips on their legs or hips to prevent them from climbing onto your back. Experienced attackers will try to maintain their leg hooks and seat belt grip during your roll to convert directly to back control. By completing the roll quickly and immediately establishing a defensive posture facing them, you deny the back take angle. Post your inside arm on the mat to prevent them from rotating behind you."
+        "answer": "As you roll, keep your elbows tight and your chin tucked, and aim to complete the roll facing the opponent rather than turning away. The moment you feel the roll completing, immediately square your shoulders to the attacker and establish grips on their legs or hips to prevent them from climbing onto your back. Experienced attackers will try to maintain their leg hooks and seat belt grip during your roll to convert directly to back control. By completing the roll quickly and immediately establishing a defensive posture facing them, you deny the back take angle. Post your inside arm on the mat to prevent them from rotating behind you.",
+        "answer_line": "Finish roll facing them, grip legs",
+        "distractors": {
+          "plausible": [
+            "Turn away then sprawl back",
+            "Stand up immediately after roll"
+          ],
+          "trap": [
+            "Let them keep the seatbelt grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -232,43 +232,143 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage that makes the Reverse X-Guard Sweep effective?",
-        "answer": "The primary mechanical advantage comes from the inverted hook configuration where both hooks control the same side of the opponent's body. The primary hook behind the knee creates a fulcrum point while the secondary hook on the hip provides directional control. Combined with hip elevation from the mat and the lever created by your shoulders staying grounded, this generates powerful upward and rotational force that destabilizes the opponent's base in multiple planes simultaneously."
+        "answer": "The primary mechanical advantage comes from the inverted hook configuration where both hooks control the same side of the opponent's body. The primary hook behind the knee creates a fulcrum point while the secondary hook on the hip provides directional control. Combined with hip elevation from the mat and the lever created by your shoulders staying grounded, this generates powerful upward and rotational force that destabilizes the opponent's base in multiple planes simultaneously.",
+        "answer_line": "Hook fulcrum + hip elevation lever",
+        "distractors": {
+          "plausible": [
+            "Leg strength alone drives it",
+            "Grip pull alone drives it"
+          ],
+          "trap": [
+            "Lift shoulders off the mat"
+          ]
+        }
       },
       {
         "question": "Where must your primary hook be positioned for maximum sweep effectiveness?",
-        "answer": "Your primary hook must be positioned behind the opponent's near knee with your heel curled tightly around their leg. This placement creates the fulcrum point for the sweep - too low on the calf and they can simply step out, too high on the thigh and you lose the leverage needed to elevate their base. The knee joint represents the optimal control point for both elevation and preventing escape."
+        "answer": "Your primary hook must be positioned behind the opponent's near knee with your heel curled tightly around their leg. This placement creates the fulcrum point for the sweep - too low on the calf and they can simply step out, too high on the thigh and you lose the leverage needed to elevate their base. The knee joint represents the optimal control point for both elevation and preventing escape.",
+        "answer_line": "Heel curled behind the near knee",
+        "distractors": {
+          "plausible": [
+            "Hook wrapped around the calf",
+            "Hook set high on the thigh"
+          ],
+          "trap": [
+            "Hook draped over the far knee"
+          ]
+        }
       },
       {
         "question": "Your opponent begins widening their base to resist the sweep - how do you adapt?",
-        "answer": "When the opponent widens their base, the direct sweep becomes less effective because they have better lateral stability. Immediately transition to Single Leg X-Guard by repositioning your bottom hook, or use their widened stance as an opportunity to attack the far leg with an Ashi Garami entry. Their defensive base adjustment often exposes one leg for entanglement attacks. Never continue forcing a sweep against a well-established wide base."
+        "answer": "When the opponent widens their base, the direct sweep becomes less effective because they have better lateral stability. Immediately transition to Single Leg X-Guard by repositioning your bottom hook, or use their widened stance as an opportunity to attack the far leg with an Ashi Garami entry. Their defensive base adjustment often exposes one leg for entanglement attacks. Never continue forcing a sweep against a well-established wide base.",
+        "answer_line": "Switch to Single X or attack Ashi",
+        "distractors": {
+          "plausible": [
+            "Switch to a collar choke setup",
+            "Retract hooks and stand up"
+          ],
+          "trap": [
+            "Force the sweep harder"
+          ]
+        }
       },
       {
         "question": "What grip should you maintain throughout the sweep and why is it critical?",
-        "answer": "Maintain the near sleeve or wrist grip throughout the entire sweep sequence. This grip serves multiple critical functions: it breaks the opponent's posture during setup, prevents them from posting their hand when swept, provides pulling force that coordinates with your leg elevation, and allows you to pull yourself up and over the falling opponent to immediately secure Mount. Releasing this grip typically results in the opponent recovering guard or posting to prevent the sweep."
+        "answer": "Maintain the near sleeve or wrist grip throughout the entire sweep sequence. This grip serves multiple critical functions: it breaks the opponent's posture during setup, prevents them from posting their hand when swept, provides pulling force that coordinates with your leg elevation, and allows you to pull yourself up and over the falling opponent to immediately secure Mount. Releasing this grip typically results in the opponent recovering guard or posting to prevent the sweep.",
+        "answer_line": "Keep the near sleeve/wrist grip",
+        "distractors": {
+          "plausible": [
+            "Collar grip on far side",
+            "Underhook on near arm"
+          ],
+          "trap": [
+            "Release grip to post on the mat"
+          ]
+        }
       },
       {
         "question": "How does the timing of your hip elevation relate to sweep success?",
-        "answer": "Hip elevation should be initiated when the opponent's weight shifts forward or they attempt to adjust their base. This timing catches them in transition when their weight is loaded over your hooks but they are not braced for the elevation. Attempting the sweep when they are statically based with weight distributed evenly gives them time to counter. Reading their weight distribution and timing your elevation to coincide with their movement is the difference between a high-percentage and low-percentage sweep attempt."
+        "answer": "Hip elevation should be initiated when the opponent's weight shifts forward or they attempt to adjust their base. This timing catches them in transition when their weight is loaded over your hooks but they are not braced for the elevation. Attempting the sweep when they are statically based with weight distributed evenly gives them time to counter. Reading their weight distribution and timing your elevation to coincide with their movement is the difference between a high-percentage and low-percentage sweep attempt.",
+        "answer_line": "Time elevation to their weight shift",
+        "distractors": {
+          "plausible": [
+            "Elevate the instant hooks are in",
+            "Elevate after they fully re-base"
+          ],
+          "trap": [
+            "Wait until they're static and based"
+          ]
+        }
       },
       {
         "question": "The opponent backsteps to avoid your sweep - what is your immediate response?",
-        "answer": "Follow their backstep with an inversion while maintaining hook connection. Their backstep actually exposes their back as they circle around your legs. By inverting with their movement rather than trying to re-establish the original sweep angle, you can convert the failed sweep into a back take. The key is maintaining at least one hook connection during their backstep so you can follow their movement and spin underneath them as they circle."
+        "answer": "Follow their backstep with an inversion while maintaining hook connection. Their backstep actually exposes their back as they circle around your legs. By inverting with their movement rather than trying to re-establish the original sweep angle, you can convert the failed sweep into a back take. The key is maintaining at least one hook connection during their backstep so you can follow their movement and spin underneath them as they circle.",
+        "answer_line": "Invert with backstep, take the back",
+        "distractors": {
+          "plausible": [
+            "Re-establish original sweep angle",
+            "Release hooks and re-guard"
+          ],
+          "trap": [
+            "Chase them upright standing"
+          ]
+        }
       },
       {
         "question": "What combination of forces creates the unstoppable off-balancing effect?",
-        "answer": "The sweep requires coordinating three force vectors simultaneously: upward elevation through your hooks (primary force), rotational pull from your grip toward your chest (secondary force), and hip rotation toward your sweep direction (directional control). Using only leg power without grip pull, or elevating without rotation, produces significantly weaker sweeps that well-based opponents can resist. The combination creates a spiral force that breaks their base in multiple planes simultaneously."
+        "answer": "The sweep requires coordinating three force vectors simultaneously: upward elevation through your hooks (primary force), rotational pull from your grip toward your chest (secondary force), and hip rotation toward your sweep direction (directional control). Using only leg power without grip pull, or elevating without rotation, produces significantly weaker sweeps that well-based opponents can resist. The combination creates a spiral force that breaks their base in multiple planes simultaneously.",
+        "answer_line": "Elevation + grip pull + hip rotation",
+        "distractors": {
+          "plausible": [
+            "Leg power alone, no grip pull",
+            "Elevation alone, no rotation"
+          ],
+          "trap": [
+            "Rotate away from the sweep direction"
+          ]
+        }
       },
       {
         "question": "When the sweep succeeds, what is the critical timing for following to Mount?",
-        "answer": "Begin your follow-through the moment the opponent starts falling - do not wait until they are flat on their back. The sweep and position consolidation must be one continuous motion. As they begin to tip, immediately retract your hooks and drive forward, using your maintained grip to pull yourself up and over. Waiting even a second after they fall allows them to establish defensive frames or begin guard recovery. Your knees should land beside their torso before their back fully contacts the mat."
+        "answer": "Begin your follow-through the moment the opponent starts falling - do not wait until they are flat on their back. The sweep and position consolidation must be one continuous motion. As they begin to tip, immediately retract your hooks and drive forward, using your maintained grip to pull yourself up and over. Waiting even a second after they fall allows them to establish defensive frames or begin guard recovery. Your knees should land beside their torso before their back fully contacts the mat.",
+        "answer_line": "Follow through as they start falling",
+        "distractors": {
+          "plausible": [
+            "Wait until they're flat on back",
+            "Release hooks before they land"
+          ],
+          "trap": [
+            "Pause to reset grips first"
+          ]
+        }
       },
       {
         "question": "How do you transition to Ashi Garami if the sweep is being strongly defended?",
-        "answer": "When the opponent strongly defends the sweep with a wide base or forward pressure, use their defensive commitment as an entry to leg attacks. Withdraw your secondary hip hook and reposition it to the inside of their far leg while maintaining primary hook control. Thread your bottom leg between their legs to establish inside position. This transitions you from sweep-focused Reverse X to attacking Ashi Garami without giving up your controlling position. Their defensive base actually assists this transition by keeping their legs in range."
+        "answer": "When the opponent strongly defends the sweep with a wide base or forward pressure, use their defensive commitment as an entry to leg attacks. Withdraw your secondary hip hook and reposition it to the inside of their far leg while maintaining primary hook control. Thread your bottom leg between their legs to establish inside position. This transitions you from sweep-focused Reverse X to attacking Ashi Garami without giving up your controlling position. Their defensive base actually assists this transition by keeping their legs in range.",
+        "answer_line": "Reposition hip hook inside far leg",
+        "distractors": {
+          "plausible": [
+            "Abandon position, stand to pass",
+            "Switch primary hook to far knee"
+          ],
+          "trap": [
+            "Release primary hook to reset"
+          ]
+        }
       },
       {
         "question": "What are the minimum conditions that must exist before you attempt this sweep?",
-        "answer": "Before attempting the sweep, you need four conditions satisfied: primary hook must be securely behind the opponent's near knee with heel curled, secondary hook must be actively pressing into their hip creating scissoring pressure, a strong near-side sleeve or wrist grip must be established pulling their posture down, and your hips must be elevated with shoulders on the mat creating the lever mechanics. Attempting the sweep without any one of these conditions significantly reduces success probability and may expose you to passing."
+        "answer": "Before attempting the sweep, you need four conditions satisfied: primary hook must be securely behind the opponent's near knee with heel curled, secondary hook must be actively pressing into their hip creating scissoring pressure, a strong near-side sleeve or wrist grip must be established pulling their posture down, and your hips must be elevated with shoulders on the mat creating the lever mechanics. Attempting the sweep without any one of these conditions significantly reduces success probability and may expose you to passing.",
+        "answer_line": "Both hooks set, grip, hips elevated",
+        "distractors": {
+          "plausible": [
+            "Just the primary hook secured",
+            "Just the sleeve grip secured"
+          ],
+          "trap": [
+            "Elevate hips before hooks are in"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Reverse X-Guard Sweep is generally a low-risk technique from an injury standpoint, but practitioners should be aware of several safety factors. The person being swept should practice proper falling technique, tucking the chin and distributing impact across the shoulder and back rather than posting with straight arms. Arm posting during falls can lead to wrist, elbow, or shoulder injuries. The sweeping practitioner should avoid hyperextending their knees when elevating, particularly if they have a history of knee issues. During training, sweep with control rather than maximum explosive force, allowing your partner to fall safely. When drilling at full speed, ensure adequate mat space and clear any obstacles. Practitioners with lower back issues should approach the hip elevation mechanics gradually, as the inverted position places load on the lumbar spine. Begin with drilling at low intensity and progress resistance incrementally as both partners become comfortable with the movement patterns.",
@@ -391,23 +491,73 @@
     "flashcards": [
       {
         "question": "What is the earliest defensive window against the Reverse X-Guard Sweep?",
-        "answer": "The earliest defensive window is during guard entry when the bottom player is establishing their second hook on your hip. Preventing the secondary hook from settling eliminates the scissoring structure needed for the sweep. At this stage, a simple hip push or knee repositioning can deny the position entirely. This is far more energy-efficient than defending a fully loaded sweep, which is why recognizing Reverse X-Guard entries early is critical for defense."
+        "answer": "The earliest defensive window is during guard entry when the bottom player is establishing their second hook on your hip. Preventing the secondary hook from settling eliminates the scissoring structure needed for the sweep. At this stage, a simple hip push or knee repositioning can deny the position entirely. This is far more energy-efficient than defending a fully loaded sweep, which is why recognizing Reverse X-Guard entries early is critical for defense.",
+        "answer_line": "Deny the second hook early",
+        "distractors": {
+          "plausible": [
+            "Wait until both hooks are loaded",
+            "Strip sleeve grip immediately"
+          ],
+          "trap": [
+            "Post knee inside their hip line"
+          ]
+        }
       },
       {
         "question": "Why is pulling backward the worst possible reaction when you feel the sweep loading?",
-        "answer": "Pulling backward creates the exact biomechanical conditions the sweep requires to succeed. Backward movement loads your weight onto the bottom player's hook structure, extends their lever arm, and elevates your center of gravity above their fulcrum point. This is the opposite of what you want - instead, drive your hips forward toward their chest to flatten their structure and collapse the elevation angle. Forward pressure neutralizes the sweep by removing the space needed for hook extension."
+        "answer": "Pulling backward creates the exact biomechanical conditions the sweep requires to succeed. Backward movement loads your weight onto the bottom player's hook structure, extends their lever arm, and elevates your center of gravity above their fulcrum point. This is the opposite of what you want - instead, drive your hips forward toward their chest to flatten their structure and collapse the elevation angle. Forward pressure neutralizes the sweep by removing the space needed for hook extension.",
+        "answer_line": "Drive hips forward to flatten them",
+        "distractors": {
+          "plausible": [
+            "Sit back onto your heels",
+            "Post hands wide and freeze"
+          ],
+          "trap": [
+            "Pull backward to escape hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent has full hooks loaded and is beginning to elevate - what is your best defensive option?",
-        "answer": "At this late stage, the most reliable defense is to widen your base explosively while simultaneously stripping their near-side sleeve grip. The wide base prevents the rotational component from tipping you, while removing the grip eliminates the coordinated pull that directs the sweep. If both hooks are deeply set and you cannot strip grips in time, backstep your controlled leg to disengage from the entanglement entirely, accepting the positional reset rather than being swept to bottom Mount."
+        "answer": "At this late stage, the most reliable defense is to widen your base explosively while simultaneously stripping their near-side sleeve grip. The wide base prevents the rotational component from tipping you, while removing the grip eliminates the coordinated pull that directs the sweep. If both hooks are deeply set and you cannot strip grips in time, backstep your controlled leg to disengage from the entanglement entirely, accepting the positional reset rather than being swept to bottom Mount.",
+        "answer_line": "Widen base and strip their grip",
+        "distractors": {
+          "plausible": [
+            "Lean back to add counterweight",
+            "Push straight down on their hips"
+          ],
+          "trap": [
+            "Stand up straight through it"
+          ]
+        }
       },
       {
         "question": "How do you recognize that the Reverse X-Guard Sweep is about to be executed?",
-        "answer": "Key recognition cues include: the bottom player's hips sharply elevating as both hooks create upward pressure, their near-side grip tightening and pulling your arm toward their chest, their upper body angling further away from your trapped leg to load the rotational lever, and the sensation of your weight shifting over their leg structure. The most reliable early indicator is the grip tightening combined with hip elevation - this signals the sweep is being initiated and you have seconds to react before full commitment."
+        "answer": "Key recognition cues include: the bottom player's hips sharply elevating as both hooks create upward pressure, their near-side grip tightening and pulling your arm toward their chest, their upper body angling further away from your trapped leg to load the rotational lever, and the sensation of your weight shifting over their leg structure. The most reliable early indicator is the grip tightening combined with hip elevation - this signals the sweep is being initiated and you have seconds to react before full commitment.",
+        "answer_line": "Hip rise + tight grip pulling",
+        "distractors": {
+          "plausible": [
+            "Just increased leg pressure",
+            "Sudden change in breathing"
+          ],
+          "trap": [
+            "Slow, relaxed hip movement"
+          ]
+        }
       },
       {
         "question": "After successfully defending the sweep, what should your immediate priority be?",
-        "answer": "Your immediate priority after defending the sweep is to transition to a passing position before the bottom player can reset their attack. Strip remaining grips, begin removing hooks systematically starting with the secondary hip hook, and establish upper body control through crossface or collar grips. Do not simply return to standing neutrally above the guard - the bottom player will immediately rebuild their sweep setup. Use the defensive momentum to advance your position while their offensive structure is disrupted."
+        "answer": "Your immediate priority after defending the sweep is to transition to a passing position before the bottom player can reset their attack. Strip remaining grips, begin removing hooks systematically starting with the secondary hip hook, and establish upper body control through crossface or collar grips. Do not simply return to standing neutrally above the guard - the bottom player will immediately rebuild their sweep setup. Use the defensive momentum to advance your position while their offensive structure is disrupted.",
+        "answer_line": "Pass before they reset the attack",
+        "distractors": {
+          "plausible": [
+            "Return to neutral standing",
+            "Wait for them to re-attack first"
+          ],
+          "trap": [
+            "Disengage and reset to guard"
+          ]
+        }
       }
     ],
     "training_progressions": [

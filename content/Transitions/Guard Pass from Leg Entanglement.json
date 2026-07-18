@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "What is the single most important prerequisite before attempting leg extraction from an entanglement?",
-        "answer": "Establishing upper body control through a collar tie, wrist grip, or underhook is the most critical prerequisite. Without an upper body anchor, your extraction attempt has no fixed point to drive from, and the bottom player can freely re-angle their hips, re-pummel hooks, and threaten sweeps throughout your pass attempt. The upper body connection also provides an early warning system for sweep attempts and limits the opponent's offensive options during the extraction."
+        "answer": "Establishing upper body control through a collar tie, wrist grip, or underhook is the most critical prerequisite. Without an upper body anchor, your extraction attempt has no fixed point to drive from, and the bottom player can freely re-angle their hips, re-pummel hooks, and threaten sweeps throughout your pass attempt. The upper body connection also provides an early warning system for sweep attempts and limits the opponent's offensive options during the extraction.",
+        "answer_line": "Establish upper body grip first",
+        "distractors": {
+          "plausible": [
+            "Strip near hook first",
+            "Flatten hips before gripping"
+          ],
+          "trap": [
+            "Chase the heel hook first"
+          ]
+        }
       },
       {
         "question": "Your opponent has inside ashi garami with feet crossed behind your knee—which hook do you strip first and why?",
-        "answer": "Strip the bottom foot in the ankle cross first because it is the load-bearing control that keeps your heel exposed to submission finishing. The crossed feet configuration means the bottom foot creates the structural foundation of the figure-four lock. Peeling the bottom foot free collapses the entire crossed ankle structure simultaneously and denies heel hook access. Stripping the top foot first actually makes the bottom foot's control tighter and more dangerous, as the structure can readjust around a single anchor point."
+        "answer": "Strip the bottom foot in the ankle cross first because it is the load-bearing control that keeps your heel exposed to submission finishing. The crossed feet configuration means the bottom foot creates the structural foundation of the figure-four lock. Peeling the bottom foot free collapses the entire crossed ankle structure simultaneously and denies heel hook access. Stripping the top foot first actually makes the bottom foot's control tighter and more dangerous, as the structure can readjust around a single anchor point.",
+        "answer_line": "Strip the bottom foot first",
+        "distractors": {
+          "plausible": [
+            "Strip the top foot first",
+            "Strip both hooks together"
+          ],
+          "trap": [
+            "Yank on the crossed ankles"
+          ]
+        }
       },
       {
         "question": "During extraction your heel accidentally crosses your opponent's centerline—what is the immediate danger and correct response?",
-        "answer": "When your heel crosses the opponent's centerline, you have exposed yourself to an inside heel hook attack, which can be finished in fractions of a second. The immediate response is to stop all pass attempts and tuck your heel by pulling your knee to your chest while simultaneously rotating your foot away from their grip hand. Do not continue the pass—address the heel exposure completely before proceeding, even if it means allowing hooks to be re-established. A momentary position reset is vastly preferable to a blown knee ligament."
+        "answer": "When your heel crosses the opponent's centerline, you have exposed yourself to an inside heel hook attack, which can be finished in fractions of a second. The immediate response is to stop all pass attempts and tuck your heel by pulling your knee to your chest while simultaneously rotating your foot away from their grip hand. Do not continue the pass—address the heel exposure completely before proceeding, even if it means allowing hooks to be re-established. A momentary position reset is vastly preferable to a blown knee ligament.",
+        "answer_line": "Stop, tuck heel, rotate away",
+        "distractors": {
+          "plausible": [
+            "Rip your leg free fast",
+            "Fight for a counter grip"
+          ],
+          "trap": [
+            "Push through the pass anyway"
+          ]
+        }
       },
       {
         "question": "What timing cue indicates the optimal moment to accelerate through the final drive-through phase of the pass?",
-        "answer": "The optimal moment is immediately after clearing the last significant hook, when the bottom player's hips are momentarily disconnected from your legs. You will feel a distinct lightness in your trapped leg as the final hook releases its tension. In this window the bottom player must re-pummel or transition to a new configuration, creating a brief gap in their control structure lasting one to two seconds. Hesitating allows re-engagement, so you must drive through explosively the moment you feel that release of tension."
+        "answer": "The optimal moment is immediately after clearing the last significant hook, when the bottom player's hips are momentarily disconnected from your legs. You will feel a distinct lightness in your trapped leg as the final hook releases its tension. In this window the bottom player must re-pummel or transition to a new configuration, creating a brief gap in their control structure lasting one to two seconds. Hesitating allows re-engagement, so you must drive through explosively the moment you feel that release of tension.",
+        "answer_line": "Drive when trapped leg feels light",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to reset",
+            "Drive once grips feel secure"
+          ],
+          "trap": [
+            "Pause to confirm base first"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from outside ashi to 50-50 during your extraction attempt—should you continue passing or reset your approach?",
-        "answer": "If the opponent reaches true 50-50 during your extraction, you should typically reset your approach rather than forcing the pass through bilateral entanglement. The 50-50 position gives them equal leg attack potential and your extraction attempt from 50-50 carries higher counter-sweep risk due to the bilateral control structure. Address the 50-50 position specifically by fighting for inside position or establishing a 50-50 specific passing sequence. However, if your upper body grips remain strong and their 50-50 is loose, an aggressive drive-through can succeed because your upper body advantage compensates for the leg control parity."
+        "answer": "If the opponent reaches true 50-50 during your extraction, you should typically reset your approach rather than forcing the pass through bilateral entanglement. The 50-50 position gives them equal leg attack potential and your extraction attempt from 50-50 carries higher counter-sweep risk due to the bilateral control structure. Address the 50-50 position specifically by fighting for inside position or establishing a 50-50 specific passing sequence. However, if your upper body grips remain strong and their 50-50 is loose, an aggressive drive-through can succeed because your upper body advantage compensates for the leg control parity.",
+        "answer_line": "Reset approach, don't force pass",
+        "distractors": {
+          "plausible": [
+            "Continue extraction as normal",
+            "Force the same extraction line"
+          ],
+          "trap": [
+            "Abandon upper body grips"
+          ]
+        }
       },
       {
         "question": "How do you use your free leg as a steering mechanism during the extraction?",
-        "answer": "Your free leg serves as both a base anchor and a directional tool throughout extraction. Post your free-side knee or foot on the mat wide enough to provide lateral stability against sweep attempts. As you strip hooks, drive your free-side knee into the opponent's hip or inner thigh to create mechanical separation between your entangled leg and their control structure. During the final pass phase, transition your free leg from a wedge position into a platform for hip drive, sliding it across their body to establish the side control base. The free leg's positioning determines your stability at every phase of the extraction."
+        "answer": "Your free leg serves as both a base anchor and a directional tool throughout extraction. Post your free-side knee or foot on the mat wide enough to provide lateral stability against sweep attempts. As you strip hooks, drive your free-side knee into the opponent's hip or inner thigh to create mechanical separation between your entangled leg and their control structure. During the final pass phase, transition your free leg from a wedge position into a platform for hip drive, sliding it across their body to establish the side control base. The free leg's positioning determines your stability at every phase of the extraction.",
+        "answer_line": "Post free knee, drive into hip",
+        "distractors": {
+          "plausible": [
+            "Keep free leg tucked in tight",
+            "Use free leg only for balance"
+          ],
+          "trap": [
+            "Cross free leg over too soon"
+          ]
+        }
       },
       {
         "question": "What distinguishes a backstep extraction from a knee-cut extraction, and when should you choose each approach?",
-        "answer": "The backstep extraction swings the trapped leg back and over the opponent's guard in an arc, clearing hooks by going around rather than through. Use this when the opponent has strong frontal hooks that resist direct stripping but their far-side control is weak. The knee-cut extraction drives your knee directly across their thigh line with forward pressure, sliding through their guard structure. Use this when you have strong crossface control and the opponent is relatively flat, as sustained downward pressure prevents them from re-angling. The backstep is higher risk but faster and bypasses frontal defense; the knee-cut is more methodical but requires sustained pressure to be effective."
+        "answer": "The backstep extraction swings the trapped leg back and over the opponent's guard in an arc, clearing hooks by going around rather than through. Use this when the opponent has strong frontal hooks that resist direct stripping but their far-side control is weak. The knee-cut extraction drives your knee directly across their thigh line with forward pressure, sliding through their guard structure. Use this when you have strong crossface control and the opponent is relatively flat, as sustained downward pressure prevents them from re-angling. The backstep is higher risk but faster and bypasses frontal defense; the knee-cut is more methodical but requires sustained pressure to be effective.",
+        "answer_line": "Backstep=around, knee-cut=through",
+        "distractors": {
+          "plausible": [
+            "Backstep needs strong crossface",
+            "Knee-cut is the faster option"
+          ],
+          "trap": [
+            "Knee-cut with no crossface control"
+          ]
+        }
       },
       {
         "question": "Your opponent re-pummels their inside hook three consecutive times after you strip it—how should you change your strategy?",
-        "answer": "Persistent re-pummeling indicates that individual hook stripping is insufficient against this opponent's leg activity. Shift to the smash pass extraction variant: instead of stripping hooks one at a time, drive heavy downward hip pressure into their entire leg structure to mechanically collapse their hooks under your weight. Alternatively, occupy the space their hook needs with your wedging knee immediately after stripping, denying the re-entry path entirely. The principle is that against active re-pummelers, you must remove the space for hooks rather than removing the hooks from the space."
+        "answer": "Persistent re-pummeling indicates that individual hook stripping is insufficient against this opponent's leg activity. Shift to the smash pass extraction variant: instead of stripping hooks one at a time, drive heavy downward hip pressure into their entire leg structure to mechanically collapse their hooks under your weight. Alternatively, occupy the space their hook needs with your wedging knee immediately after stripping, denying the re-entry path entirely. The principle is that against active re-pummelers, you must remove the space for hooks rather than removing the hooks from the space.",
+        "answer_line": "Smash pressure or occupy space",
+        "distractors": {
+          "plausible": [
+            "Strip the hook again faster",
+            "Switch to a new hook target"
+          ],
+          "trap": [
+            "Back off and regrip patiently"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard passing from leg entanglements requires careful attention to knee and ankle safety for both practitioners. During extraction, never violently rip your leg free when your foot is caught near the opponent's hip, as this can torque your own knee against their entanglement structure. If the opponent maintains heel control during your extraction, stop and address the grip rather than forcing through, since heel hook finishes can occur in fractions of a second during transitional moments. The most dangerous phase is when your heel crosses the opponent's centerline during extraction—always prioritize tucking your heel over completing the pass. Communicate with training partners when drilling at speed, and tap immediately if you feel rotational pressure on your knee during extraction attempts. When practicing the drive-through phase, control your momentum to avoid landing with full bodyweight on a partner whose legs may still be partially entangled.",
@@ -398,19 +478,59 @@
     "flashcards": [
       {
         "question": "What is the most critical recognition cue that your opponent is about to attempt a guard pass rather than continuing leg attacks?",
-        "answer": "The most reliable cue is when your opponent begins reaching for upper body grips—collar tie, wrist control, underhook, or lapel grip—rather than fighting for heel control or adjusting their leg positioning within the entanglement. When an opponent shifts their attention upward to establish an anchor on your upper body, they are setting up the prerequisite for extraction. This grip-seeking behavior typically precedes the actual hook-stripping by several seconds, providing a window to preemptively deepen your hooks, threaten a submission, or transition to a more dominant entanglement."
+        "answer": "The most reliable cue is when your opponent begins reaching for upper body grips—collar tie, wrist control, underhook, or lapel grip—rather than fighting for heel control or adjusting their leg positioning within the entanglement. When an opponent shifts their attention upward to establish an anchor on your upper body, they are setting up the prerequisite for extraction. This grip-seeking behavior typically precedes the actual hook-stripping by several seconds, providing a window to preemptively deepen your hooks, threaten a submission, or transition to a more dominant entanglement.",
+        "answer_line": "They reach for upper body grips",
+        "distractors": {
+          "plausible": [
+            "They tighten their leg hooks",
+            "They flatten their hips out"
+          ],
+          "trap": [
+            "They release the entanglement"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your primary inside hook during their pass attempt—what is your first response within the critical window?",
-        "answer": "Your first response is immediate re-pummeling of the stripped hook by circling your foot back inside their leg and re-establishing the hook behind their knee or across their thigh. This must happen within the first one to two seconds of losing the hook, as any delay allows the passer to occupy the space with their wedging knee or advance to the next extraction phase. Simultaneously pull their trapped foot toward your chest using your grip to prevent them from creating additional separation. If re-pummeling the same hook fails, immediately transition to an alternative entanglement variant rather than fighting for the same position from a deteriorating angle."
+        "answer": "Your first response is immediate re-pummeling of the stripped hook by circling your foot back inside their leg and re-establishing the hook behind their knee or across their thigh. This must happen within the first one to two seconds of losing the hook, as any delay allows the passer to occupy the space with their wedging knee or advance to the next extraction phase. Simultaneously pull their trapped foot toward your chest using your grip to prevent them from creating additional separation. If re-pummeling the same hook fails, immediately transition to an alternative entanglement variant rather than fighting for the same position from a deteriorating angle.",
+        "answer_line": "Re-pummel the hook immediately",
+        "distractors": {
+          "plausible": [
+            "Switch stance and regroup",
+            "Pull away to reset distance"
+          ],
+          "trap": [
+            "Let them advance, then react"
+          ]
+        }
       },
       {
         "question": "When during the opponent's pass attempt is the highest-percentage moment to execute a counter sweep?",
-        "answer": "The optimal sweep timing is during the drive-through phase when the opponent commits their weight forward to pass your leg line. At this moment their base is compromised because their weight is transitioning from the entanglement to a passing position, their posted free leg bears most of their weight in an extended stance, and their upper body is committed forward rather than centered over their base. A well-timed leg hook or hip bump during this weight transition redirects their forward momentum into a lateral or overhead roll, landing you in top position. Attempting the sweep too early while they have stable base in the entanglement wastes energy and telegraphs your defensive intention."
+        "answer": "The optimal sweep timing is during the drive-through phase when the opponent commits their weight forward to pass your leg line. At this moment their base is compromised because their weight is transitioning from the entanglement to a passing position, their posted free leg bears most of their weight in an extended stance, and their upper body is committed forward rather than centered over their base. A well-timed leg hook or hip bump during this weight transition redirects their forward momentum into a lateral or overhead roll, landing you in top position. Attempting the sweep too early while they have stable base in the entanglement wastes energy and telegraphs your defensive intention.",
+        "answer_line": "Sweep during their drive-through",
+        "distractors": {
+          "plausible": [
+            "Sweep the moment hooks are set",
+            "Sweep when they re-pummel hooks"
+          ],
+          "trap": [
+            "Sweep early to beat their base"
+          ]
+        }
       },
       {
         "question": "How should you modify your defensive strategy when your opponent uses the smash pass extraction variant with heavy downward pressure?",
-        "answer": "Against the smash pass variant, your hooks cannot withstand sustained heavy pressure through raw strength alone. Modify your strategy by using active hip movement to create angles that redirect the pressure rather than absorbing it directly. Shrimp your hips laterally to prevent being pinned flat, which changes the pressure vector from directly down into a diagonal that your hooks can manage. Simultaneously work to insert a knee shield or butterfly hook that creates a structural frame between your body and theirs, converting the exchange from a pressure battle into a framing battle where leverage advantages shift to the bottom player."
+        "answer": "Against the smash pass variant, your hooks cannot withstand sustained heavy pressure through raw strength alone. Modify your strategy by using active hip movement to create angles that redirect the pressure rather than absorbing it directly. Shrimp your hips laterally to prevent being pinned flat, which changes the pressure vector from directly down into a diagonal that your hooks can manage. Simultaneously work to insert a knee shield or butterfly hook that creates a structural frame between your body and theirs, converting the exchange from a pressure battle into a framing battle where leverage advantages shift to the bottom player.",
+        "answer_line": "Shrimp hips, frame with knee shield",
+        "distractors": {
+          "plausible": [
+            "Absorb pressure and stay flat",
+            "Push against pressure with arms"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       }
     ],
     "training_progressions": [

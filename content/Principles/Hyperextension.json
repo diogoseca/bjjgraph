@@ -389,43 +389,143 @@
   "flashcards": [
     {
       "question": "What is hyperextension as a submission principle in BJJ?",
-      "answer": "Hyperextension applies linear force to straighten a hinge joint—elbow, knee, or ankle—past its natural range of motion, stressing the ligaments, tendons, and joint capsule until the opponent taps or the structure fails."
+      "answer": "Hyperextension applies linear force to straighten a hinge joint—elbow, knee, or ankle—past its natural range of motion, stressing the ligaments, tendons, and joint capsule until the opponent taps or the structure fails.",
+      "answer_line": "Force joint past its range",
+      "distractors": {
+        "plausible": [
+          "Compress joint under weight",
+          "Rotate joint against its axis"
+        ],
+        "trap": [
+          "Yank explosively to force tap"
+        ]
+      }
     },
     {
       "question": "Why should hip drive, not arm strength, generate the finishing force in an armbar or kneebar?",
-      "answer": "The hips produce far more force than the arms and give finer control over the rate of application; arm pulling fatigues the grip and biceps quickly and is much easier for a defender to resist than a well-positioned hip drive."
+      "answer": "The hips produce far more force than the arms and give finer control over the rate of application; arm pulling fatigues the grip and biceps quickly and is much easier for a defender to resist than a well-positioned hip drive.",
+      "answer_line": "Hip drive finishes, not arms",
+      "distractors": {
+        "plausible": [
+          "Pull hard with both arms",
+          "Squeeze knees for the finish"
+        ],
+        "trap": [
+          "Rip up fast with biceps"
+        ]
+      }
     },
     {
       "question": "What role does the knee pinch play in a hyperextension submission?",
-      "answer": "The knee or thigh pinch traps the limb and prevents the opponent from rotating or withdrawing it, keeping the joint aligned with the extension force—without it the opponent can spin the arm or leg out and escape."
+      "answer": "The knee or thigh pinch traps the limb and prevents the opponent from rotating or withdrawing it, keeping the joint aligned with the extension force—without it the opponent can spin the arm or leg out and escape.",
+      "answer_line": "Pinch traps limb, stops escape",
+      "distractors": {
+        "plausible": [
+          "Pinch adds pain, not control",
+          "Pinch only works on legs"
+        ],
+        "trap": [
+          "Release pinch mid-submission"
+        ]
+      }
     },
     {
       "question": "Why must hyperextension submissions be applied progressively rather than explosively in training?",
-      "answer": "Once a joint reaches its range-of-motion limit, only a few degrees separate a tight submission from torn ligaments, so slow, steady pressure gives the defender time to tap before structural damage occurs."
+      "answer": "Once a joint reaches its range-of-motion limit, only a few degrees separate a tight submission from torn ligaments, so slow, steady pressure gives the defender time to tap before structural damage occurs.",
+      "answer_line": "Slow pressure lets them tap",
+      "distractors": {
+        "plausible": [
+          "Fast pressure ends fights quicker",
+          "Apply once fully locked in"
+        ],
+        "trap": [
+          "Snap it fast before they escape"
+        ]
+      }
     },
     {
       "question": "Which three joints does the hyperextension principle most commonly target, and which submissions attack them?",
-      "answer": "The elbow via the armbar, the knee via the kneebar, and the ankle via the straight ankle lock; all three share the same mechanic of driving a hinge joint past its anatomical limit."
+      "answer": "The elbow via the armbar, the knee via the kneebar, and the ankle via the straight ankle lock; all three share the same mechanic of driving a hinge joint past its anatomical limit.",
+      "answer_line": "Elbow, knee, ankle joints",
+      "distractors": {
+        "plausible": [
+          "Shoulder, hip, spine joints",
+          "Wrist, elbow, shoulder joints"
+        ],
+        "trap": [
+          "Neck, back, and hip joints"
+        ]
+      }
     },
     {
       "question": "How can a well-defended armbar be turned into another attack?",
-      "answer": "Armbar defense often exposes the neck for a triangle or the shoulder for an omoplata, so a defended hyperextension becomes a chain entry rather than a dead end—use the defense as your opening."
+      "answer": "Armbar defense often exposes the neck for a triangle or the shoulder for an omoplata, so a defended hyperextension becomes a chain entry rather than a dead end—use the defense as your opening.",
+      "answer_line": "Chain to triangle or omoplata",
+      "distractors": {
+        "plausible": [
+          "Reset and re-attempt armbar",
+          "Switch straight to back control"
+        ],
+        "trap": [
+          "Release arm and stand up"
+        ]
+      }
     },
     {
       "question": "What does correct alignment look like when finishing a standard armbar?",
-      "answer": "The opponent's thumb points toward the ceiling, the elbow faces your hips, and the arm stays centered on your body, so hip extension drives directly against the joint's natural bend."
+      "answer": "The opponent's thumb points toward the ceiling, the elbow faces your hips, and the arm stays centered on your body, so hip extension drives directly against the joint's natural bend.",
+      "answer_line": "Thumb up, elbow to your hips",
+      "distractors": {
+        "plausible": [
+          "Thumb down, arm across chest",
+          "Elbow pointed away from body"
+        ],
+        "trap": [
+          "Let arm drift off center"
+        ]
+      }
     },
     {
       "question": "What is the consequence of leaving space between your body and the opponent's limb?",
-      "answer": "Space lengthens the lever arm and lets the defender bend the joint to create slack and escape before the force reaches the joint's limit; keep the limb pinned tight to your torso to eliminate gaps."
+      "answer": "Space lengthens the lever arm and lets the defender bend the joint to create slack and escape before the force reaches the joint's limit; keep the limb pinned tight to your torso to eliminate gaps.",
+      "answer_line": "Space lets them bend and escape",
+      "distractors": {
+        "plausible": [
+          "Space gives you more leverage",
+          "Space only slows the finish"
+        ],
+        "trap": [
+          "Loosen grip to create space"
+        ]
+      }
     },
     {
       "question": "How should a defender respond when caught in a hyperextension submission?",
-      "answer": "Tap early and without hesitation, because ligament damage is cumulative and joints do not strengthen through injury; early recognition and prevention always beat last-second escape attempts."
+      "answer": "Tap early and without hesitation, because ligament damage is cumulative and joints do not strengthen through injury; early recognition and prevention always beat last-second escape attempts.",
+      "answer_line": "Tap early, don't wait it out",
+      "distractors": {
+        "plausible": [
+          "Wait for real pain to tap",
+          "Try to power out first"
+        ],
+        "trap": [
+          "Fight through to escape"
+        ]
+      }
     },
     {
       "question": "Why is hyperextension considered a fundamental rather than an advanced principle?",
-      "answer": "It relies on simple hinge-joint lever physics that beginners can grasp within their first months, making armbars, kneebars, and ankle locks available from nearly every position in BJJ."
+      "answer": "It relies on simple hinge-joint lever physics that beginners can grasp within their first months, making armbars, kneebars, and ankle locks available from nearly every position in BJJ.",
+      "answer_line": "Simple lever physics, easy to learn",
+      "distractors": {
+        "plausible": [
+          "Requires advanced timing skill",
+          "Only works with a gi grip"
+        ],
+        "trap": [
+          "Too dangerous for beginners"
+        ]
+      }
     }
   ],
   "clips": [

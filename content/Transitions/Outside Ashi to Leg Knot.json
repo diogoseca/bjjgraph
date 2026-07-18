@@ -218,23 +218,73 @@
     "flashcards": [
       {
         "question": "What is the single most important thing to maintain throughout the weave from outside ashi to the Leg Knot?",
-        "answer": "The knee pinch on the trapped leg. The over-step and thread-under must happen without ever loosening the clamp on the opponent's leg. If the pinch releases to make room for the step, the opponent slides the leg free during the transition and the entanglement is lost back to a scramble. The free-leg movement is driven by the hips, not by surrendering existing control."
+        "answer": "The knee pinch on the trapped leg. The over-step and thread-under must happen without ever loosening the clamp on the opponent's leg. If the pinch releases to make room for the step, the opponent slides the leg free during the transition and the entanglement is lost back to a scramble. The free-leg movement is driven by the hips, not by surrendering existing control.",
+        "answer_line": "Never release the knee pinch",
+        "distractors": {
+          "plausible": [
+            "Speed through the weave fast",
+            "Control their far-side hip"
+          ],
+          "trap": [
+            "Loosen pinch to step over"
+          ]
+        }
       },
       {
         "question": "Why should you wait for a passive beat before weaving rather than entering whenever you want?",
-        "answer": "The weave laces your legs across a moving structure. If the opponent's free leg is actively kicking when you step over, the kick spins you off the entanglement or pushes you into a scramble, and they reach single leg X or recover guard. A passive beat - when they are reaching for a grip, resetting their base, or pausing between escapes - lets the legs lock around a relatively fixed point, dramatically raising the success rate."
+        "answer": "The weave laces your legs across a moving structure. If the opponent's free leg is actively kicking when you step over, the kick spins you off the entanglement or pushes you into a scramble, and they reach single leg X or recover guard. A passive beat - when they are reaching for a grip, resetting their base, or pausing between escapes - lets the legs lock around a relatively fixed point, dramatically raising the success rate.",
+        "answer_line": "Wait for a passive beat",
+        "distractors": {
+          "plausible": [
+            "Enter the instant you can",
+            "Wait for them to overcommit"
+          ],
+          "trap": [
+            "Weave during their kick"
+          ]
+        }
       },
       {
         "question": "How does threading the foot underneath differ from stepping over the top, and why does it matter?",
-        "answer": "Stepping over the top leaves the two legs stacked loosely with slack, so the opponent simply slides out and no knot forms. Threading the stepped foot back underneath the trapped leg crosses the two leg structures so they lace and lock together. The thread-under, combined with hip rotation toward the entanglement, is the actual moment the Leg Knot is created and the opponent loses the ability to pull free."
+        "answer": "Stepping over the top leaves the two legs stacked loosely with slack, so the opponent simply slides out and no knot forms. Threading the stepped foot back underneath the trapped leg crosses the two leg structures so they lace and lock together. The thread-under, combined with hip rotation toward the entanglement, is the actual moment the Leg Knot is created and the opponent loses the ability to pull free.",
+        "answer_line": "Thread foot under, not over",
+        "distractors": {
+          "plausible": [
+            "Step over then pin the hip",
+            "Cross ankles then rotate"
+          ],
+          "trap": [
+            "Step over and leave slack"
+          ]
+        }
       },
       {
         "question": "Your opponent kicks through and starts spinning toward single leg X as you begin the weave - what do you do?",
-        "answer": "Abandon the half-formed weave and prioritize keeping the original leg trapped. Re-pinch hard to stay in outside ashi, and either follow their rotation to re-enter the over-step on the new angle or simply hold outside ashi and wait for the next passive beat. Forcing the knot against an active spin trades a dominant entry for a 50/50 scramble, so retreating to your existing control is the correct read."
+        "answer": "Abandon the half-formed weave and prioritize keeping the original leg trapped. Re-pinch hard to stay in outside ashi, and either follow their rotation to re-enter the over-step on the new angle or simply hold outside ashi and wait for the next passive beat. Forcing the knot against an active spin trades a dominant entry for a 50/50 scramble, so retreating to your existing control is the correct read.",
+        "answer_line": "Abandon weave, re-pin ashi",
+        "distractors": {
+          "plausible": [
+            "Force the thread-under anyway",
+            "Chase their spin immediately"
+          ],
+          "trap": [
+            "Release leg, chase the hip"
+          ]
+        }
       },
       {
         "question": "Once the Leg Knot is set, why should you consolidate before attacking the heel?",
-        "answer": "The knot itself is the controlling win - it laces the opponent's legs so they cannot extract. If you chase the heel hook before confirming the knee line and removing slack, your attention shifts to the finish and the opponent extracts the leg from the still-loose entanglement. Consolidate first: square the hips, squeeze out the slack, confirm control, then establish the heel line and threaten the finish or cross to the saddle."
+        "answer": "The knot itself is the controlling win - it laces the opponent's legs so they cannot extract. If you chase the heel hook before confirming the knee line and removing slack, your attention shifts to the finish and the opponent extracts the leg from the still-loose entanglement. Consolidate first: square the hips, squeeze out the slack, confirm control, then establish the heel line and threaten the finish or cross to the saddle.",
+        "answer_line": "Consolidate knot before heel",
+        "distractors": {
+          "plausible": [
+            "Attack heel line immediately",
+            "Switch straight to saddle"
+          ],
+          "trap": [
+            "Chase the heel, ignore slack"
+          ]
+        }
       }
     ],
     "safety_considerations": "This entry leads directly into heel hook and saddle territory, which carry serious knee and ankle injury risk. Heel hooks attack the knee through rotation and give very little warning before ligament damage, so during the entry never crank the heel - establish the knot as control only and apply rotational pressure slowly and with full partner communication. Drill the weave at low intensity until the mechanics are reflexive, and tap early to any rotational pressure on the knee. Both partners should treat leg-entanglement training as injury-sensitive and reset rather than scramble explosively out of the knot.",
@@ -341,39 +391,42 @@
         "answer": "The decisive moment is the over-step, when the opponent lifts their free leg over your far leg but has not yet threaded it back underneath. In that window the knot is still loose and the slack is still there, so reacting lets you extract the leg or spin to single leg X. Once the threads cross, the slack is gone, the heel line is established, and escape becomes far harder.",
         "distractors": {
           "plausible": [
-            "React just after the foot threads back underneath, while the knot is newly formed and still adjustable.",
-            "The key window is when the opponent first sits into outside ashi, before their free leg starts to move."
+            "After the thread-under locks",
+            "The instant ashi is formed"
           ],
           "trap": [
-            "Extend and straighten your trapped leg to yank it clear the moment you feel the weave beginning."
+            "Wait until knot fully sets"
           ]
-        }
+        },
+        "answer_line": "During the over-step itself"
       },
       {
         "question": "Why is spinning into the opponent toward single leg X the strongest counter to this entry?",
         "answer": "Spinning into the opponent as they step over hides your heel and reverses their developing knot into your own offensive single leg X. You turn into the danger rather than exposing the heel, so instead of merely surviving you escape the attack and gain an attacking entanglement with sweep and leg-lock options. That dual payoff is why it is preferred over a passive extraction.",
         "distractors": {
           "plausible": [
-            "Spinning away from the opponent creates distance faster, letting you pull the leg free before the knot closes.",
-            "It works mainly because the spin generates enough momentum to break their grips before the lace finishes."
+            "Pull the leg straight out",
+            "Post and back away"
           ],
           "trap": [
-            "Turning your back and scrambling out belly-down is strongest because it puts your legs furthest from their hands."
+            "Kick through, stay passive"
           ]
-        }
+        },
+        "answer_line": "Spin in to single leg X"
       },
       {
         "question": "What is the worst mistake a defender can make against the weave to the Leg Knot, and what should they do instead?",
         "answer": "The worst mistake is going passive and letting the opponent settle, remove slack, and lace the legs together unopposed. Passivity consolidates the knot with inside heel control and collapses your escape options. Instead, stay active from outside ashi: keep the trapped leg kicking or limp-legging to deny slack, frame the over-step with your free leg, and react at the over-step so you can extract early or spin to single leg X before the knot sets.",
         "distractors": {
           "plausible": [
-            "The worst mistake is reacting too early, since moving before the knot forms hands the opponent free adjustments.",
-            "The biggest error is losing the grip fight, so win their hands first and address the legs afterward."
+            "Fighting the thread-under hard",
+            "Pulling leg out too early"
           ],
           "trap": [
-            "Cross your feet and squeeze your legs together so the opponent cannot separate them to finish the lace."
+            "Stay still, save energy"
           ]
-        }
+        },
+        "answer_line": "Going passive, letting it set"
       }
     ],
     "training_progressions": [

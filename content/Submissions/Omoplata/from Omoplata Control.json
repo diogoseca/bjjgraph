@@ -272,52 +272,152 @@
       {
         "question": "What anatomical structures does the omoplata primarily attack and what creates the tapping pressure?",
         "answer": "The omoplata primarily attacks the shoulder joint through forced external rotation. The rotational pressure targets the rotator cuff muscles and tendons, the shoulder capsule, the AC joint, and in extreme cases the labrum. The tapping pressure comes from the combination of the attacker's leg acting as a lever across the upper back while the hips serve as the fulcrum, progressively rotating the shoulder beyond its natural range of motion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg lever, hips fulcrum on shoulder",
+        "distractors": {
+          "plausible": [
+            "Elbow joint via arm extension",
+            "Wrist rotation and grip pressure"
+          ],
+          "trap": [
+            "Spine and neck via choke pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent begins tucking their chin and loading weight forward for a roll escape - what immediate adjustment prevents this?",
         "answer": "Immediately tighten your grip on their belt or far hip to anchor their hips to the mat and block the forward momentum needed for the roll. Simultaneously increase your shin pressure across their upper back to flatten them. If the roll has already initiated, do not fight it but instead follow through and transition to back control by maintaining your leg position and inserting hooks as they complete the rotation. The belt grip controls whether the roll happens at all.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Anchor hips w/ belt grip, add shin",
+        "distractors": {
+          "plausible": [
+            "Just increase shin pressure",
+            "Grab their trapped wrist instead"
+          ],
+          "trap": [
+            "Release grip, reshoot omoplata"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the shoulder joint has reached its breaking point and a tap is imminent?",
         "answer": "Indicators include the opponent suddenly tensing their entire body and stopping all escape attempts, audible distress sounds or sharp inhalation, the trapped arm going limp or the hand opening from a fist, the opponent's free hand moving toward you or the mat to tap rather than continuing defensive posting, and visible elevation of the shoulder blade away from the ribcage indicating the joint is at maximum rotation. Any of these signals should prompt you to hold current pressure without increasing it.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sudden tensing, hand taps out",
+        "distractors": {
+          "plausible": [
+            "Waiting for a verbal tap only",
+            "Continued active resistance"
+          ],
+          "trap": [
+            "Increase pressure to force tap"
+          ]
+        }
       },
       {
         "question": "What is the correct hip angle relative to the opponent's spine for maximum finishing pressure?",
         "answer": "Your hips should be positioned perpendicular to the opponent's spine, with your hip bone nearly touching their trapped shoulder blade. This angle creates the optimal fulcrum point for shoulder rotation. If your hips drift too far toward their head or feet, the rotational leverage decreases significantly. As you apply the finish by sitting up and leaning away, maintain this perpendicular relationship while driving your hips forward to create the final rotation that generates the tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips perpendicular to their spine",
+        "distractors": {
+          "plausible": [
+            "Hips angled toward their head",
+            "Hips parallel to their spine"
+          ],
+          "trap": [
+            "Drift hips toward their legs"
+          ]
+        }
       },
       {
         "question": "How should you release the omoplata immediately after your training partner taps?",
         "answer": "Immediately stop all forward pressure and shoulder rotation upon feeling or hearing the tap. Release the downward pressure of your shin across their back by lifting your knee. Unwind your hip position to neutral, moving away from their trapped shoulder. Allow your partner to slowly extract their arm at their own pace without pulling it free for them, as forced extraction can cause additional injury. Check that your partner has full range of motion and no pain before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop pressure, ease off slowly",
+        "distractors": {
+          "plausible": [
+            "Release grip, keep shin pressure",
+            "Have them stand up right away"
+          ],
+          "trap": [
+            "Yank the arm free quickly"
+          ]
+        }
       },
       {
         "question": "Your opponent partially postures up and you feel your shin sliding off their back - what grip adjustment prevents losing the position?",
         "answer": "Immediately pull with your belt or hip grip to bring them back down while simultaneously driving your knee back toward the mat to reseat the shin across their upper back. If the shin has slipped too far, use your free hand to grab their wrist on the trapped arm side to prevent arm extraction while you reposition. If they achieve significant posture, abandon the finish and transition to the omoplata sweep by driving forward into their elevated center of gravity, which is actually easier to sweep when they are upright.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull belt, drive knee back down",
+        "distractors": {
+          "plausible": [
+            "Grab their same-side ankle",
+            "Push down on their head"
+          ],
+          "trap": [
+            "Release grip to reshoot"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that leads to training partner injuries with the omoplata?",
         "answer": "The most dangerous error is applying finishing pressure too quickly or with a sudden jerking motion. The shoulder joint is highly susceptible to rotational force injuries, and the omoplata generates enormous mechanical advantage through the lever system of the legs. A sudden application of force can tear the rotator cuff or damage the labrum before the opponent has time to recognize the submission and tap. Finishing pressure must always be applied progressively over a minimum of 4-6 seconds, giving the opponent adequate time to tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Jerking pressure on too fast",
+        "distractors": {
+          "plausible": [
+            "Not securing belt grip first",
+            "Wrong hip angle before finish"
+          ],
+          "trap": [
+            "Ignoring early tap signals"
+          ]
+        }
       },
       {
         "question": "Your opponent extracts their trapped arm halfway out of the omoplata - what is the highest percentage follow-up attack?",
         "answer": "The highest percentage follow-up when the arm is partially extracted is the triangle choke. Their head is already positioned between your legs from the omoplata configuration, and as they pull the arm free, they create the asymmetric arm position needed for the triangle. Throw your leg that was across their back over the back of their neck and lock the triangle figure-four. The transition is fast because you are already in the correct body position and only need to reconfigure your legs rather than create an entirely new attacking angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle choke over the neck",
+        "distractors": {
+          "plausible": [
+            "Re-secure the omoplata grip",
+            "Switch to armbar attack"
+          ],
+          "trap": [
+            "Let go and stand to reset"
+          ]
+        }
       },
       {
         "question": "In competition with 30 seconds remaining, how do you accelerate the omoplata finish while maintaining safety?",
         "answer": "Accelerate the finish by perfecting your control rather than increasing force speed. Immediately secure the deepest possible belt grip and flatten the opponent with maximum shin pressure. Sit up explosively to a tall perpendicular position and lean away to load the shoulder quickly. Drive hips forward with steady progressive pressure. The acceleration comes from eliminating the setup time between control and finish, not from applying force faster. You can compress a 15-second finishing sequence into 6-8 seconds by being more decisive in your positioning while still maintaining safe progressive pressure on the joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten control fast, not force",
+        "distractors": {
+          "plausible": [
+            "Skip setup, muscle it through",
+            "Wait for a slower safe pace"
+          ],
+          "trap": [
+            "Yank pressure on quickly"
+          ]
+        }
       },
       {
         "question": "What distinguishes the omoplata finish from omoplata control versus finishing during the initial entry?",
         "answer": "From established control, the opponent's defensive window has narrowed considerably. The forward roll, posturing, and arm extraction are their only remaining options, whereas during entry they could have defended the leg threading, blocked the hip switch, or maintained posture before control was established. The control position means you already have the belt grip, perpendicular hip angle, and shin across the back established. The finish is purely about progressive pressure application and counter defense rather than simultaneously securing control and attacking. This is why the finish rate from established control is significantly higher than from entry positions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control = pure finish, not setup",
+        "distractors": {
+          "plausible": [
+            "Entry has narrower escape window",
+            "Both are identical in difficulty"
+          ],
+          "trap": [
+            "Entry is easier, control harder"
+          ]
+        }
       }
     ],
     "clips": [
@@ -433,22 +533,62 @@
       {
         "question": "What are the earliest recognition cues that the omoplata finish is being initiated from control position?",
         "answer": "The earliest cues are the attacker securing a grip on your belt or far hip, and beginning to adjust their hip angle to perpendicular. You will feel increased pressure from their shin across your upper back as they drive their knee down, and their body will begin rising as they sit up tall. Recognizing these setup movements gives you the best chance to initiate escape before the finishing pressure becomes overwhelming.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Belt grip taken, hips squaring up",
+        "distractors": {
+          "plausible": [
+            "Sudden hard yank on the arm",
+            "Opponent leans back relaxed"
+          ],
+          "trap": [
+            "Wait until pressure is painful"
+          ]
+        }
       },
       {
         "question": "When should you tap to the omoplata to prevent injury, and what signals indicate you are approaching the danger threshold?",
         "answer": "Tap when you feel sharp pain in the shoulder joint, when you sense the shoulder reaching the end of its natural range of external rotation, or when the pressure transitions from uncomfortable to painful. Warning signals include a stretching sensation deep in the shoulder capsule, inability to resist the rotation with muscular effort, and the feeling that the shoulder is about to pop or shift. Tap early and tap clearly. Shoulder injuries from omoplatas are among the most serious in BJJ and often require surgical intervention.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sharp pain or end-range rotation",
+        "distractors": {
+          "plausible": [
+            "Only when you can't breathe",
+            "Tap only if partner insists"
+          ],
+          "trap": [
+            "Wait until you hear a pop"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for the forward roll escape against the omoplata finish?",
         "answer": "The optimal window is after the attacker has committed to the finishing sequence by sitting up but before they have secured a deep belt or hip grip. Once the belt grip is locked in, the roll becomes extremely difficult because they can anchor your hips to the mat. If you feel them reaching for your belt, that is your trigger to initiate the roll immediately. A well-timed roll when the attacker is sitting up can use their own elevated position against them.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After sit-up, before belt grip lock",
+        "distractors": {
+          "plausible": [
+            "Right when they first sit up",
+            "After the belt grip is locked"
+          ],
+          "trap": [
+            "Wait until pressure is painful"
+          ]
+        }
       },
       {
         "question": "What defensive options remain when both the forward roll and posturing escapes have failed?",
         "answer": "When the primary escapes have failed, your remaining options are arm extraction through elbow rotation and lateral hip movement to reduce the finishing angle. Focus on turning your elbow inward while pushing against their controlling leg with your free hand. If extraction fails, move your hips laterally away from the attacker to reduce the shoulder rotation angle and buy time. If all escape options are exhausted and you feel increasing shoulder pressure, tap immediately rather than risk injury by attempting to endure the submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate elbow, shift hips laterally",
+        "distractors": {
+          "plausible": [
+            "Push against the mat and freeze",
+            "Post free hand and wait it out"
+          ],
+          "trap": [
+            "Keep fighting instead of tapping"
+          ]
+        }
       }
     ],
     "training_progressions": [

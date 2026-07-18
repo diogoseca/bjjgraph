@@ -268,11 +268,31 @@
     "flashcards": [
       {
         "question": "What is the optimal size of each individual shoulder drive during the shoulder walk escape?",
-        "answer": "Each individual shoulder drive should displace your body approximately one to two inches relative to the opponent's hook line. This small increment is critical because it falls below the opponent's reaction threshold, making it difficult for them to track and follow your movement with their hips. Larger drives telegraph the escape and allow the opponent to counter-adjust, while smaller drives lack sufficient cumulative effect. The escape typically requires fifteen to twenty of these micro-drives to achieve enough displacement for hook clearance."
+        "answer": "Each individual shoulder drive should displace your body approximately one to two inches relative to the opponent's hook line. This small increment is critical because it falls below the opponent's reaction threshold, making it difficult for them to track and follow your movement with their hips. Larger drives telegraph the escape and allow the opponent to counter-adjust, while smaller drives lack sufficient cumulative effect. The escape typically requires fifteen to twenty of these micro-drives to achieve enough displacement for hook clearance.",
+        "answer_line": "1-2 inches, below reaction threshold",
+        "distractors": {
+          "plausible": [
+            "3-4 inches for faster progress",
+            "One drive is enough alone"
+          ],
+          "trap": [
+            "One large explosive drive"
+          ]
+        }
       },
       {
         "question": "Why must neck defense be maintained continuously throughout the shoulder walk rather than being addressed separately?",
-        "answer": "The shoulder walk requires sustained multi-repetition movement that exposes your neck to attack during the entire sequence. If you release neck defense to focus on the escape, the opponent has ample time to sink a rear naked choke or other neck attack during the fifteen to twenty shoulder drives needed. The technique is fundamentally a dual-task coordination exercise where your top hand maintains two-on-one choking arm control while your shoulders and bottom hand execute the escape movement independently."
+        "answer": "The shoulder walk requires sustained multi-repetition movement that exposes your neck to attack during the entire sequence. If you release neck defense to focus on the escape, the opponent has ample time to sink a rear naked choke or other neck attack during the fifteen to twenty shoulder drives needed. The technique is fundamentally a dual-task coordination exercise where your top hand maintains two-on-one choking arm control while your shoulders and bottom hand execute the escape movement independently.",
+        "answer_line": "Choke risk never pauses mid-walk",
+        "distractors": {
+          "plausible": [
+            "Check grip only between reps",
+            "Release grip once walk starts"
+          ],
+          "trap": [
+            "Drop grip to speed up the walk"
+          ]
+        }
       },
       {
         "question": "Your opponent starts following your shoulder walk by scooting their hips down with you. How do you adjust your movement pattern?",
@@ -280,11 +300,31 @@
       },
       {
         "question": "What grip must your bottom hand maintain during the shoulder walk and why is it essential?",
-        "answer": "Your bottom hand must actively control or strip the opponent's seatbelt underhook grip throughout the shoulder walk sequence. Without bottom hand control on the seatbelt, the opponent's underhook follows your body downward as you walk your shoulders, maintaining their upper body connection and ability to drag you back up. Pinning their wrist to your hip or systematically peeling their grip creates the necessary separation between your upper body and theirs, complementing the lower body separation created by the shoulder walk itself."
+        "answer": "Your bottom hand must actively control or strip the opponent's seatbelt underhook grip throughout the shoulder walk sequence. Without bottom hand control on the seatbelt, the opponent's underhook follows your body downward as you walk your shoulders, maintaining their upper body connection and ability to drag you back up. Pinning their wrist to your hip or systematically peeling their grip creates the necessary separation between your upper body and theirs, complementing the lower body separation created by the shoulder walk itself.",
+        "answer_line": "Strip/pin the seatbelt underhook",
+        "distractors": {
+          "plausible": [
+            "Grip their far leg instead",
+            "Push off mat with bottom hand"
+          ],
+          "trap": [
+            "Ignore underhook, focus on legs"
+          ]
+        }
       },
       {
         "question": "How do you determine the precise moment to transition from shoulder walking to direct hook removal?",
-        "answer": "The transition point is identified through proprioceptive awareness of the opponent's hook depth. When you feel their heels positioned near the outside of your thighs rather than deep inside near the groin, their hooks have become shallow enough for direct removal. At this point, continued shoulder walking yields diminishing returns and risks giving the opponent time to counter-adjust. The hook clearing phase should be executed as a committed hip escape with simultaneous hand removal of the bottom hook first."
+        "answer": "The transition point is identified through proprioceptive awareness of the opponent's hook depth. When you feel their heels positioned near the outside of your thighs rather than deep inside near the groin, their hooks have become shallow enough for direct removal. At this point, continued shoulder walking yields diminishing returns and risks giving the opponent time to counter-adjust. The hook clearing phase should be executed as a committed hip escape with simultaneous hand removal of the bottom hook first.",
+        "answer_line": "Heels shift to outside of thighs",
+        "distractors": {
+          "plausible": [
+            "After exactly ten drives",
+            "When your hips clear the mat"
+          ],
+          "trap": [
+            "Rip hooks off while still deep"
+          ]
+        }
       },
       {
         "question": "What is the primary mechanical difference between shoulder walk escape and hip escape from back control?",
@@ -296,15 +336,45 @@
       },
       {
         "question": "Why is it a critical error to push off your legs during the shoulder walk, and where should the driving force originate?",
-        "answer": "Leg pushing creates visible extension that alerts the opponent to the escape direction and provides a leverage point they can use to follow your movement. The driving force must originate entirely from your shoulder blades pressing into the mat, using your upper back and shoulder muscles to generate the scooting motion. Legs should remain relatively passive during the walking phase, with their involvement reserved exclusively for the final hook clearing hip escape when hooks are already shallow enough for removal."
+        "answer": "Leg pushing creates visible extension that alerts the opponent to the escape direction and provides a leverage point they can use to follow your movement. The driving force must originate entirely from your shoulder blades pressing into the mat, using your upper back and shoulder muscles to generate the scooting motion. Legs should remain relatively passive during the walking phase, with their involvement reserved exclusively for the final hook clearing hip escape when hooks are already shallow enough for removal.",
+        "answer_line": "Drive from shoulder blades, not legs",
+        "distractors": {
+          "plausible": [
+            "Push evenly with legs and shoulders",
+            "Use legs only for final rep"
+          ],
+          "trap": [
+            "Push hard off legs for more power"
+          ]
+        }
       },
       {
         "question": "Your shoulder walk stalls after partial progress and the opponent has re-settled their hooks. What is your next tactical option?",
-        "answer": "Chain to a complementary escape rather than restarting the shoulder walk from a reset position. The partial shoulder walk progress has likely loosened the opponent's upper body control even if hooks were re-centered. Transition to hip escape from back control using whatever space was created, or switch to hand fight to turtle from back if the seatbelt grip was weakened during the shoulder walk. The goal is to make each escape attempt build on the positional gains of the previous one rather than starting from zero."
+        "answer": "Chain to a complementary escape rather than restarting the shoulder walk from a reset position. The partial shoulder walk progress has likely loosened the opponent's upper body control even if hooks were re-centered. Transition to hip escape from back control using whatever space was created, or switch to hand fight to turtle from back if the seatbelt grip was weakened during the shoulder walk. The goal is to make each escape attempt build on the positional gains of the previous one rather than starting from zero.",
+        "answer_line": "Chain to hip escape or turtle",
+        "distractors": {
+          "plausible": [
+            "Restart the shoulder walk from zero",
+            "Repeat the same diagonal pattern"
+          ],
+          "trap": [
+            "Fully reset to starting position"
+          ]
+        }
       },
       {
         "question": "What conditions make shoulder walk escape a poor choice compared to alternative back escapes?",
-        "answer": "Shoulder walk is ineffective when the opponent has locked a body triangle instead of hooks, as the body triangle moves as a unit with your body and cannot be made shallow through downward displacement. It is also a poor choice when the opponent has established deep choking grips that require immediate defensive attention rather than the sustained multi-step escape process. Finally, if limited mat space exists behind you, the shoulder walk may move you off the mat before achieving sufficient displacement, making explosive single-movement escapes more appropriate."
+        "answer": "Shoulder walk is ineffective when the opponent has locked a body triangle instead of hooks, as the body triangle moves as a unit with your body and cannot be made shallow through downward displacement. It is also a poor choice when the opponent has established deep choking grips that require immediate defensive attention rather than the sustained multi-step escape process. Finally, if limited mat space exists behind you, the shoulder walk may move you off the mat before achieving sufficient displacement, making explosive single-movement escapes more appropriate.",
+        "answer_line": "Body triangle, deep choke, no space",
+        "distractors": {
+          "plausible": [
+            "Opponent's seatbelt grip is weak",
+            "You're near center of the mat"
+          ],
+          "trap": [
+            "Use it whenever hooks are in"
+          ]
+        }
       }
     ],
     "safety_considerations": "The shoulder walk escape carries moderate safety risk primarily from maintaining back control position for an extended period during the grinding escape process. The sustained time in back control increases cumulative submission exposure, making neck defense absolutely critical throughout. Never sacrifice chin tuck or hand fighting position for additional shoulder walk movement. If you feel a choke tightening during the escape, immediately abandon the shoulder walk and address the submission threat. Partners drilling this technique should communicate clearly about neck pressure and maintain controlled resistance to prevent accidental choke application during the multi-repetition escape sequence. Shoulder strain can occur from repetitive driving movements, so practitioners should warm up their shoulders and upper back before extended shoulder walk drilling sessions.",
@@ -416,15 +486,45 @@
       },
       {
         "question": "Why is following with your hips a more effective counter to shoulder walk than squeezing harder with your arms?",
-        "answer": "Hip following addresses the root mechanical problem by maintaining hook depth through positional matching, which is a structural solution that does not fatigue. Arm squeezing is a muscular solution that exhausts grip strength over the fifteen to twenty repetitions the shoulder walk requires. The opponent's shoulder drives use large back muscles that sustain effort longer than your forearm grips, so a grip-based defense inevitably loses the endurance battle while hip following can be maintained indefinitely."
+        "answer": "Hip following addresses the root mechanical problem by maintaining hook depth through positional matching, which is a structural solution that does not fatigue. Arm squeezing is a muscular solution that exhausts grip strength over the fifteen to twenty repetitions the shoulder walk requires. The opponent's shoulder drives use large back muscles that sustain effort longer than your forearm grips, so a grip-based defense inevitably loses the endurance battle while hip following can be maintained indefinitely.",
+        "answer_line": "Hips match position, never fatigues",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with both arms",
+            "Alternate grip and hip pressure"
+          ],
+          "trap": [
+            "Grip fight instead of moving hips"
+          ]
+        }
       },
       {
         "question": "When should you make the decision to transition from hooks to body triangle during a shoulder walk escape attempt?",
-        "answer": "Make the body triangle decision early when you first feel hooks becoming difficult to maintain despite your counter-adjustments, not as a last resort when hooks are nearly cleared. The body triangle transition is mechanically easier and more secure from moderately shallow hooks because you still have enough leg control to complete the threading movement. Waiting until hooks are almost cleared creates a high-risk transition window where the opponent may clear hooks entirely before the body triangle locks."
+        "answer": "Make the body triangle decision early when you first feel hooks becoming difficult to maintain despite your counter-adjustments, not as a last resort when hooks are nearly cleared. The body triangle transition is mechanically easier and more secure from moderately shallow hooks because you still have enough leg control to complete the threading movement. Waiting until hooks are almost cleared creates a high-risk transition window where the opponent may clear hooks entirely before the body triangle locks.",
+        "answer_line": "Early, at first sign hooks loosen",
+        "distractors": {
+          "plausible": [
+            "Only when hooks are almost cleared",
+            "Immediately at match start"
+          ],
+          "trap": [
+            "Wait for hooks to fully clear first"
+          ]
+        }
       },
       {
         "question": "Your opponent has been shoulder walking for several repetitions and you notice their seatbelt control hand is divided between grip stripping and movement. How do you exploit this?",
-        "answer": "This divided attention creates a momentary reduction in neck protection quality since the opponent is multitasking between escape movement and grip fighting. Initiate a committed neck attack during this window, targeting the choking arm insertion when their defensive hand is occupied with the seatbelt strip. This forces them to abandon either the seatbelt control or the shoulder walk to re-prioritize neck defense, effectively resetting their escape progress while you maintain positional dominance."
+        "answer": "This divided attention creates a momentary reduction in neck protection quality since the opponent is multitasking between escape movement and grip fighting. Initiate a committed neck attack during this window, targeting the choking arm insertion when their defensive hand is occupied with the seatbelt strip. This forces them to abandon either the seatbelt control or the shoulder walk to re-prioritize neck defense, effectively resetting their escape progress while you maintain positional dominance.",
+        "answer_line": "Attack the neck while hand is split",
+        "distractors": {
+          "plausible": [
+            "Attack the far leg instead",
+            "Wait for full seatbelt release"
+          ],
+          "trap": [
+            "Push harder on your own escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

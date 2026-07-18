@@ -253,11 +253,31 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the leg drag from headquarters?",
-        "answer": "The optimal window opens when the opponent extends or straightens their controlled leg, typically through foot-on-hip pushing, arm framing to create distance, or attempting to recover full guard by straightening the knee. The extended leg provides a longer lever arm for the drag and reduces the opponent's ability to retract. Forcing a reaction from headquarters through pressure or feinted knee cuts creates these extension reactions reliably."
+        "answer": "The optimal window opens when the opponent extends or straightens their controlled leg, typically through foot-on-hip pushing, arm framing to create distance, or attempting to recover full guard by straightening the knee. The extended leg provides a longer lever arm for the drag and reduces the opponent's ability to retract. Forcing a reaction from headquarters through pressure or feinted knee cuts creates these extension reactions reliably.",
+        "answer_line": "When their controlled leg extends",
+        "distractors": {
+          "plausible": [
+            "Right after securing headquarters",
+            "When they turtle away from you"
+          ],
+          "trap": [
+            "Only after they retract the leg"
+          ]
+        }
       },
       {
         "question": "What grip is most critical for executing the drag motion and where should it be placed?",
-        "answer": "The ankle or heel grip is the most critical grip, placed around the opponent's ankle joint using a C-grip that wraps the heel or Achilles area. This grip provides maximum leverage for redirecting the leg across the centerline. In the gi, a pants grip at the ankle cuff works equivalently. The grip must be secured before initiating the hip drive, as attempting to drag with a knee-level grip provides insufficient mechanical advantage to complete the motion against resistance."
+        "answer": "The ankle or heel grip is the most critical grip, placed around the opponent's ankle joint using a C-grip that wraps the heel or Achilles area. This grip provides maximum leverage for redirecting the leg across the centerline. In the gi, a pants grip at the ankle cuff works equivalently. The grip must be secured before initiating the hip drive, as attempting to drag with a knee-level grip provides insufficient mechanical advantage to complete the motion against resistance.",
+        "answer_line": "C-grip on ankle/heel",
+        "distractors": {
+          "plausible": [
+            "Firm grip at the knee",
+            "Underhook on the far hip"
+          ],
+          "trap": [
+            "Grab the collar and pull across"
+          ]
+        }
       },
       {
         "question": "Your opponent pushes your knee with their foot-on-hip while you are in headquarters - how do you convert this into a leg drag?",
@@ -265,11 +285,31 @@
       },
       {
         "question": "What is the most common mechanical error that causes the leg drag to fail from headquarters?",
-        "answer": "The most common error is pulling with the arms alone without driving the hips laterally. Arm-only pulling generates insufficient force to overcome the opponent's hip resistance and leg retraction strength. The correct mechanic uses the grip hand as a guide while the hips provide the primary driving force by moving laterally across the opponent's body. Practitioners who fix this single error see immediate improvement in leg drag completion rates because full-body mechanics generate several times more force than isolated arm pulls."
+        "answer": "The most common error is pulling with the arms alone without driving the hips laterally. Arm-only pulling generates insufficient force to overcome the opponent's hip resistance and leg retraction strength. The correct mechanic uses the grip hand as a guide while the hips provide the primary driving force by moving laterally across the opponent's body. Practitioners who fix this single error see immediate improvement in leg drag completion rates because full-body mechanics generate several times more force than isolated arm pulls.",
+        "answer_line": "Pulling with arms, not driving hips",
+        "distractors": {
+          "plausible": [
+            "Moving too fast into the drag",
+            "Not securing the crossface first"
+          ],
+          "trap": [
+            "Gripping the ankle too early"
+          ]
+        }
       },
       {
         "question": "How should your hips move during the drag motion to generate maximum lateral force?",
-        "answer": "Your hips should drive laterally in the same direction as the drag, moving as a coordinated unit with your grip hand. The posting foot turns outward to load the lateral drive, and the motion resembles a lateral hip thrust rather than a pulling action. Your center of gravity shifts sideways while maintaining a low base. The hip bone should end up directly over the pinned leg, using gravity and skeletal structure to maintain the pin rather than muscular tension."
+        "answer": "Your hips should drive laterally in the same direction as the drag, moving as a coordinated unit with your grip hand. The posting foot turns outward to load the lateral drive, and the motion resembles a lateral hip thrust rather than a pulling action. Your center of gravity shifts sideways while maintaining a low base. The hip bone should end up directly over the pinned leg, using gravity and skeletal structure to maintain the pin rather than muscular tension.",
+        "answer_line": "Hips thrust laterally with the grip",
+        "distractors": {
+          "plausible": [
+            "Hips stay square, arms do the work",
+            "Hips rotate backward for torque"
+          ],
+          "trap": [
+            "Sit back to load a pulling angle"
+          ]
+        }
       },
       {
         "question": "Your opponent begins recovering half guard by hooking your trailing leg during your leg drag attempt - what adjustment do you make?",
@@ -395,7 +435,17 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from headquarters control to a leg drag attempt?",
-        "answer": "The earliest cue is the passer's grip hand shifting from your knee area down toward your ankle or heel. This grip transition is necessary before the drag can be initiated and represents a brief window where their control is loosest. Secondary cues include their posting foot angling outward and their hips beginning to turn sideways, indicating they are loading for the lateral drive. Recognizing the grip transition provides the maximum defensive window before the drag motion generates momentum."
+        "answer": "The earliest cue is the passer's grip hand shifting from your knee area down toward your ankle or heel. This grip transition is necessary before the drag can be initiated and represents a brief window where their control is loosest. Secondary cues include their posting foot angling outward and their hips beginning to turn sideways, indicating they are loading for the lateral drive. Recognizing the grip transition provides the maximum defensive window before the drag motion generates momentum.",
+        "answer_line": "Grip sliding from knee to ankle",
+        "distractors": {
+          "plausible": [
+            "Their hips squaring back up",
+            "Their far arm reaching for a collar"
+          ],
+          "trap": [
+            "Their chest already crossfacing you"
+          ]
+        }
       },
       {
         "question": "Your opponent has gripped your ankle and begun the lateral drag motion - what is your most effective immediate counter?",
@@ -407,7 +457,17 @@
       },
       {
         "question": "How should you position your hips to prevent the leg drag from being completed successfully?",
-        "answer": "Keep your hips angled slightly toward the passer rather than flat on the mat, with your controlled-side hip elevated and your free-side hip grounded. This angled position creates resistance against the lateral drag direction because the passer must first flatten your hips before the leg can travel across your centerline. Combine this hip angle with active hip escape movement away from the drag direction to create space that prevents the passer from pinning the leg. A flat hip position offers minimal resistance to the lateral drag force."
+        "answer": "Keep your hips angled slightly toward the passer rather than flat on the mat, with your controlled-side hip elevated and your free-side hip grounded. This angled position creates resistance against the lateral drag direction because the passer must first flatten your hips before the leg can travel across your centerline. Combine this hip angle with active hip escape movement away from the drag direction to create space that prevents the passer from pinning the leg. A flat hip position offers minimal resistance to the lateral drag force.",
+        "answer_line": "Angle hips toward passer, not flat",
+        "distractors": {
+          "plausible": [
+            "Flatten hips to reduce surface area",
+            "Turn hips fully away from passer"
+          ],
+          "trap": [
+            "Post both feet flat and stay square"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully dragged your leg but has not yet established upper body control - what is your immediate priority?",

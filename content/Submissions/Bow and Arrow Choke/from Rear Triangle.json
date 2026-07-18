@@ -277,52 +277,152 @@
       {
         "question": "What anatomical structures does the Bow and Arrow Choke from Rear Triangle primarily attack?",
         "answer": "The choke primarily compresses the carotid arteries on both sides of the neck. The cross-collar grip with the forearm blade presses against one carotid while the triangle leg applies pressure to the opposite carotid. This bilateral compression restricts blood flow to the brain, producing unconsciousness in 4-8 seconds under full compression. The target is arterial blood flow, not the airway.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe and airway",
+            "Trachea and vagus nerve"
+          ],
+          "trap": [
+            "Cervical spine pressure"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the choke is properly applied and approaching the breaking point?",
         "answer": "The opponent's defensive movements become less coordinated and their grip strength diminishes noticeably. You may feel their body relax incrementally as blood flow restriction takes effect. Their grip-fighting hands slow down or drop away from your collar grip. Skin color changes, particularly reddening of the face and ears, indicate carotid compression is effective. Any loss of resistance requires immediate release and consciousness check.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Grip fades, face reddens",
+        "distractors": {
+          "plausible": [
+            "Faster grip-fighting motions",
+            "Opponent grips tighter"
+          ],
+          "trap": [
+            "Keep squeezing past stillness"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before attempting the collar grip feed?",
         "answer": "The rear triangle must be fully locked with ankle behind the knee, knees actively squeezing, and the trapped arm pinned securely inside the triangle structure. Chest-to-back connection must be maintained and the opponent's posture should be broken forward. The triangle legs must be bearing the full positional control load before you release your hands to begin the collar feed, since any looseness allows arm extraction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle locked, posture broken",
+        "distractors": {
+          "plausible": [
+            "Both hands still gripping collar",
+            "Only ankle behind the knee"
+          ],
+          "trap": [
+            "Release triangle to feed grip"
+          ]
+        }
       },
       {
         "question": "At what stage does the Bow and Arrow Choke become extremely difficult for the defender to escape?",
         "answer": "Once the attacker has established both the deep cross-collar grip behind the neck and the pants grip at the knee, escape becomes extremely difficult. The defender's primary window closes when the collar grip passes the jawline to the neck. After this point, the defender cannot effectively strip the grip with their free hand because the attacker's triangle legs restrict mobility, and the impending extension creates time pressure that limits defensive options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep collar plus pants grip set",
+        "distractors": {
+          "plausible": [
+            "Once triangle first locks",
+            "As soon as jaw is grazed"
+          ],
+          "trap": [
+            "Wait until extension starts"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error and how does it reduce choke effectiveness?",
         "answer": "The most common error is feeding a shallow collar grip that catches the jawline rather than sitting deep on the carotid artery. This produces a jaw crank that causes pain but does not effectively restrict blood flow to the brain. Experienced competitors can endure jaw pressure and continue defending. The correction is to thread the fingers deep past the jaw and ensure the wrist blade contacts the lateral neck before committing to the extension finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shallow grip catches jaw only",
+        "distractors": {
+          "plausible": [
+            "Pants grip set too loose",
+            "Triangle squeezed too early"
+          ],
+          "trap": [
+            "Crank jaw harder for the tap"
+          ]
+        }
       },
       {
         "question": "Your initial collar grip is catching the jaw instead of the neck - how do you adjust without losing position?",
         "answer": "Do not force the extension with a jaw grip. Instead, momentarily loosen the collar grip slightly while using your free hand to cross-face the opponent and turn their chin away from your choking hand. This exposes the neck and allows you to walk your fingers deeper into the collar past the mandible. Once you feel the wrist blade contact the lateral neck, re-secure the pants grip and proceed with the extension. Patience during the grip adjustment prevents jaw injuries.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-face, turn chin, rethread",
+        "distractors": {
+          "plausible": [
+            "Force the extension anyway",
+            "Switch to armbar instantly"
+          ],
+          "trap": [
+            "Yank grip hard to seat it"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying this choke in training?",
         "answer": "Apply progressive pressure over 3-5 seconds minimum to allow adequate tap recognition time. Never jerk or spike the extension. Monitor training partner's responsiveness continuously since blood chokes can produce unconsciousness in seconds. Release immediately upon any tap signal including verbal, physical hand tap, foot tap, or loss of resistance. After release, check consciousness and allow recovery time. Beginners should drill grip placement without finishing pressure until they develop proper feel and control.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Progressive pressure, release on tap",
+        "distractors": {
+          "plausible": [
+            "Full power builds toughness",
+            "Only verbal taps count"
+          ],
+          "trap": [
+            "Spike the extension for fast tap"
+          ]
+        }
       },
       {
         "question": "In competition, how does the scoring context affect your approach to finishing the Bow and Arrow from Rear Triangle?",
         "answer": "In competition, the rear triangle position already scores 4 points for back control. With points secured, you can methodically work the bow and arrow setup without rushing. Take time to establish the deepest possible collar grip before committing to the extension. If the opponent defends the collar grip effectively, you maintain a dominant scoring position and can cycle to alternative submissions. Never sacrifice the position in a desperate attempt to finish the choke when the points advantage is already secured.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Points secured, work methodically",
+        "distractors": {
+          "plausible": [
+            "Rush finish before reset",
+            "Abandon position to force it"
+          ],
+          "trap": [
+            "Sacrifice back control for choke"
+          ]
+        }
       },
       {
         "question": "Your opponent begins two-on-one grip fighting your collar hand before you establish depth - what is your response?",
         "answer": "Use your free hand to strip their top grip on your wrist while maintaining constant triangle compression. If they successfully block the collar feed, do not force it. Instead, switch your attack to the rear naked choke by pulling your choking hand back and threading it under their chin, or transition to attacking the trapped arm with an armbar. The rear triangle provides access to multiple submissions, so cycling between threats is more effective than forcing a defended bow and arrow.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip hand, cycle other attacks",
+        "distractors": {
+          "plausible": [
+            "Force the collar through anyway",
+            "Release triangle to reset"
+          ],
+          "trap": [
+            "Muscle grip past their block"
+          ]
+        }
       },
       {
         "question": "During the extension finish, your opponent rolls toward the collar grip side to relieve pressure - how do you adjust?",
         "answer": "Follow the roll by maintaining collar tension and adjusting your body angle to stay behind them. Use the pants grip to resist their rotation and redirect the extension vector. If they complete a partial roll, you may end in a top finishing position with the collar grip intact, which can actually improve your leverage. If they fully invert, be prepared to transition to a modified finishing angle or release and re-establish the rear triangle before they can recover guard position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow roll, stay angled behind",
+        "distractors": {
+          "plausible": [
+            "Release both grips immediately",
+            "Fight the roll head-on"
+          ],
+          "trap": [
+            "Let go of the pants grip"
+          ]
+        }
       }
     ],
     "clips": [
@@ -438,27 +538,77 @@
       {
         "question": "How do you recognize when the Bow and Arrow Choke from Rear Triangle is being set up?",
         "answer": "The primary cue is feeling the attacker's fingers threading into your collar behind your neck while they maintain the rear triangle lock. You may also notice the attacker releasing their previous grips with both hands simultaneously, indicating confidence in the triangle control. The attacker's hand reaching across your neck toward the far lapel is the most reliable indicator that the bow and arrow setup is beginning rather than other rear triangle submissions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand threading toward far lapel",
+        "distractors": {
+          "plausible": [
+            "Both hands release their grips",
+            "Ankle locks behind the knee"
+          ],
+          "trap": [
+            "Ignore hand near your neck"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Bow and Arrow Choke from Rear Triangle and what signals should you use?",
         "answer": "Tap immediately when you feel the collar grip is deep on your neck and the extension begins with both grips established. Use any available tap signal: verbal tap, physical hand tap on the attacker's body or the mat, or foot tap on the mat. If you feel lightheadedness, vision changes, or tingling, tap immediately regardless of your defensive position. In training, always err on the side of tapping early since this blood choke can produce unconsciousness in seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early once collar seats deep",
+        "distractors": {
+          "plausible": [
+            "Wait until vision changes",
+            "Tap only if asked verbally"
+          ],
+          "trap": [
+            "Try to escape past deep grip"
+          ]
+        }
       },
       {
         "question": "What is the highest-priority defensive action when you feel the collar grip being established behind your neck?",
         "answer": "Immediately use your free hand to grip-fight the attacker's collar hand with a two-on-one strip before they can establish depth past your jawline. Simultaneously tuck your chin to your chest and turn your face away from the choking arm. Speed is critical because once the grip passes the jaw and seats on the carotid, stripping becomes exponentially harder. Every second of delay reduces your defensive options significantly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one strip, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Wait to see how deep it gets",
+            "Push away with both hands"
+          ],
+          "trap": [
+            "Turn face into choking arm"
+          ]
+        }
       },
       {
         "question": "What escape sequence gives you the best chance of reaching closed guard from a partially applied Bow and Arrow?",
         "answer": "Roll toward the collar grip side while controlling the attacker's collar wrist with your free hand to prevent them from maintaining tension. Use the rolling momentum to invert under the attacker and work your legs around their waist to establish closed guard. This must be timed during the extension phase when the attacker is committing their weight backward, making it harder for them to follow your rotation forward.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll toward grip, invert to guard",
+        "distractors": {
+          "plausible": [
+            "Roll away from collar side",
+            "Stand up and pull guard"
+          ],
+          "trap": [
+            "Turn back further into choke"
+          ]
+        }
       },
       {
         "question": "Your opponent has the collar grip but has not yet grabbed your pants - what defensive opportunity does this window provide?",
         "answer": "This is your critical defensive window because without the pants grip the attacker cannot generate the opposing force needed for the full bow and arrow extension. Focus all effort on stripping the collar grip with your free hand using a two-on-one wrist grip. Simultaneously create rotation by turning your body toward the collar grip side to reduce the angle available for extension. If you can strip the grip now, the attacker must restart the entire setup sequence from the collar feed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip collar before pants grip",
+        "distractors": {
+          "plausible": [
+            "Wait for the extension to start",
+            "Attack the pants grip instead"
+          ],
+          "trap": [
+            "Stay still, conserve energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

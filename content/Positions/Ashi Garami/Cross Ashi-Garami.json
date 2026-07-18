@@ -103,35 +103,115 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of crossing your outside leg over the opponent's trapped leg in Cross Ashi-Garami?",
-        "answer": "The crossed leg creates a wedge effect that prevents the opponent from sitting up or rotating their hips effectively. This configuration generates superior mechanical advantage for heel hook applications by controlling both hip rotation and lower leg movement simultaneously, while also limiting the opponent's escape options by trapping the leg between two points of control."
+        "answer": "The crossed leg creates a wedge effect that prevents the opponent from sitting up or rotating their hips effectively. This configuration generates superior mechanical advantage for heel hook applications by controlling both hip rotation and lower leg movement simultaneously, while also limiting the opponent's escape options by trapping the leg between two points of control.",
+        "answer_line": "Blocks hip rotation for heel hook",
+        "distractors": {
+          "plausible": [
+            "Traps the leg, nothing else",
+            "Sets up a guard pass"
+          ],
+          "trap": [
+            "Frees hips for back take"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting up aggressively to create frames - what adjustment should you make to maintain the position?",
-        "answer": "Drive your inside hook deeper behind their hip while pulling their heel tighter to your chest, creating increased tension that pulls them back down. Simultaneously, consider attacking with the heel hook to punish their attempt to sit up, as their upward movement often exposes the heel more clearly. The threat of immediate submission forces them to abandon the sit-up attempt."
+        "answer": "Drive your inside hook deeper behind their hip while pulling their heel tighter to your chest, creating increased tension that pulls them back down. Simultaneously, consider attacking with the heel hook to punish their attempt to sit up, as their upward movement often exposes the heel more clearly. The threat of immediate submission forces them to abandon the sit-up attempt.",
+        "answer_line": "Deepen hook, tighten heel",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset angle",
+            "Switch to outside ashi"
+          ],
+          "trap": [
+            "Let them sit, follow up later"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining Cross Ashi-Garami control?",
-        "answer": "The primary grip is a cup grip on the heel with both hands, palm across the Achilles tendon and fingers pointing toward the toes. This controls heel rotation completely. The elbows should stay tight to the body for maximum leverage. Secondary control comes from your legs - inside hook behind their hip and outside leg crossing at shin level create a pinching effect that traps the leg."
+        "answer": "The primary grip is a cup grip on the heel with both hands, palm across the Achilles tendon and fingers pointing toward the toes. This controls heel rotation completely. The elbows should stay tight to the body for maximum leverage. Secondary control comes from your legs - inside hook behind their hip and outside leg crossing at shin level create a pinching effect that traps the leg.",
+        "answer_line": "Cup grip heel, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Grab ankle, elbows flared",
+            "Grip toes, arms extended"
+          ],
+          "trap": [
+            "Let go of heel, control knee only"
+          ]
+        }
       },
       {
         "question": "How should you position your hips relative to your opponent's body for optimal control?",
-        "answer": "Your hips should be perpendicular (90 degrees) to your opponent's hip line, creating an L-shape between your bodies. This angle maximizes your control over their hip rotation and provides optimal leverage for both maintaining the position and finishing submissions. Being square to them allows forward pressure and easier escape."
+        "answer": "Your hips should be perpendicular (90 degrees) to your opponent's hip line, creating an L-shape between your bodies. This angle maximizes your control over their hip rotation and provides optimal leverage for both maintaining the position and finishing submissions. Being square to them allows forward pressure and easier escape.",
+        "answer_line": "Hips perpendicular, L-shape",
+        "distractors": {
+          "plausible": [
+            "Hips squared to opponent",
+            "Hips parallel, same angle"
+          ],
+          "trap": [
+            "Face opponent for pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to kick their outside leg free by straightening it forcefully - how do you counter this?",
-        "answer": "Use their straightening motion as an opportunity to transition to Saddle by crossing your feet and securing deeper control. Their extension actually helps you enter a more dominant position. Alternatively, if your heel grip is strong, their straightening creates optimal finishing mechanics for the heel hook since full leg extension increases rotational force on the knee."
+        "answer": "Use their straightening motion as an opportunity to transition to Saddle by crossing your feet and securing deeper control. Their extension actually helps you enter a more dominant position. Alternatively, if your heel grip is strong, their straightening creates optimal finishing mechanics for the heel hook since full leg extension increases rotational force on the knee.",
+        "answer_line": "Finish heel hook or enter saddle",
+        "distractors": {
+          "plausible": [
+            "Release grip to avoid injury",
+            "Chase leg, abandon control"
+          ],
+          "trap": [
+            "Let leg go, reset guard"
+          ]
+        }
       },
       {
         "question": "What is the correct weight distribution and body positioning for maintaining Cross Ashi-Garami?",
-        "answer": "Maintain an elevated upper body position by sitting up rather than lying flat - this provides better control and offensive options. Your weight should be centered over your hips with slight forward pressure toward the opponent. Keep your core engaged to prevent being pulled off-balance when the opponent attempts to create space or frame."
+        "answer": "Maintain an elevated upper body position by sitting up rather than lying flat - this provides better control and offensive options. Your weight should be centered over your hips with slight forward pressure toward the opponent. Keep your core engaged to prevent being pulled off-balance when the opponent attempts to create space or frame.",
+        "answer_line": "Sit up, forward pressure",
+        "distractors": {
+          "plausible": [
+            "Lie flat, relax fully",
+            "Lean back, weight on heels"
+          ],
+          "trap": [
+            "Drop flat to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their knee toward you to hide their heel - what is your response?",
-        "answer": "Their inward rotation exposes the opportunity to transition to Inside Ashi-Garami by adjusting your leg position to the inside. Follow their rotation by scooting your hips and maintaining constant pressure. You can also use the rotation to enter the Saddle position, which provides even greater control and submission options from their turned position."
+        "answer": "Their inward rotation exposes the opportunity to transition to Inside Ashi-Garami by adjusting your leg position to the inside. Follow their rotation by scooting your hips and maintaining constant pressure. You can also use the rotation to enter the Saddle position, which provides even greater control and submission options from their turned position.",
+        "answer_line": "Follow rotation into saddle",
+        "distractors": {
+          "plausible": [
+            "Fight rotation, hold cross",
+            "Release leg, reset position"
+          ],
+          "trap": [
+            "Let go and reshoot takedown"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining Cross Ashi-Garami over extended periods?",
-        "answer": "Focus on structural control rather than muscular tension. Let your leg positioning and body angle do the work rather than gripping excessively hard. Maintain just enough tension to prevent escape while staying relaxed enough to flow between submission attempts. Attack in waves rather than constant pressure, using submission threats to keep opponent defensive without burning energy."
+        "answer": "Focus on structural control rather than muscular tension. Let your leg positioning and body angle do the work rather than gripping excessively hard. Maintain just enough tension to prevent escape while staying relaxed enough to flow between submission attempts. Attack in waves rather than constant pressure, using submission threats to keep opponent defensive without burning energy.",
+        "answer_line": "Use structure, attack in waves",
+        "distractors": {
+          "plausible": [
+            "Grip as hard as possible",
+            "Hold static max pressure"
+          ],
+          "trap": [
+            "Release grip to rest fully"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -451,35 +531,115 @@
     "flashcards": [
       {
         "question": "What is the most critical defensive leg configuration when caught in Cross Ashi-Garami Bottom?",
-        "answer": "Keep your trapped leg's knee flexed with your heel pulled toward your hip rather than allowing full leg extension. This bent knee position reduces the opponent's leverage for heel hook finishes by limiting the rotational force they can generate. Additionally, point your toes away from the opponent and maintain foot flexion to make it harder for them to expose and grip your heel."
+        "answer": "Keep your trapped leg's knee flexed with your heel pulled toward your hip rather than allowing full leg extension. This bent knee position reduces the opponent's leverage for heel hook finishes by limiting the rotational force they can generate. Additionally, point your toes away from the opponent and maintain foot flexion to make it harder for them to expose and grip your heel.",
+        "answer_line": "Flex knee, heel to hip",
+        "distractors": {
+          "plausible": [
+            "Straighten leg to push away",
+            "Point toes toward opponent"
+          ],
+          "trap": [
+            "Fully extend leg to kick free"
+          ]
+        }
       },
       {
         "question": "Your opponent has established cross ashi control but hasn't secured their heel grip yet - what is your immediate priority?",
-        "answer": "Immediately engage in aggressive hand fighting to prevent them from locking their grip on your heel. Use both hands to control their wrists and break any developing grips by pulling their hands apart at the thumbs. Simultaneously, sit up to create frames and establish upper body posture, as these defensive structures buy time and create escape opportunities before the submission threat becomes critical."
+        "answer": "Immediately engage in aggressive hand fighting to prevent them from locking their grip on your heel. Use both hands to control their wrists and break any developing grips by pulling their hands apart at the thumbs. Simultaneously, sit up to create frames and establish upper body posture, as these defensive structures buy time and create escape opportunities before the submission threat becomes critical.",
+        "answer_line": "Hand fight grip, sit up",
+        "distractors": {
+          "plausible": [
+            "Kick leg free immediately",
+            "Grab their collar first"
+          ],
+          "trap": [
+            "Lie back and wait it out"
+          ]
+        }
       },
       {
         "question": "What are the essential frames and body positioning for defending from Cross Ashi-Garami Bottom?",
-        "answer": "Sit up or post on your elbows rather than lying flat on your back - this creates active defensive frames and improves your ability to manage distance. Use your free leg to push on opponent's hips, shoulders, or head to prevent them from settling into optimal finishing position. Your hands should actively control opponent's grips or push on their body. This elevated posture limits their submission leverage and creates escape opportunities."
+        "answer": "Sit up or post on your elbows rather than lying flat on your back - this creates active defensive frames and improves your ability to manage distance. Use your free leg to push on opponent's hips, shoulders, or head to prevent them from settling into optimal finishing position. Your hands should actively control opponent's grips or push on their body. This elevated posture limits their submission leverage and creates escape opportunities.",
+        "answer_line": "Post elbows, push with free leg",
+        "distractors": {
+          "plausible": [
+            "Lie flat, cover face",
+            "Pull opponent close in"
+          ],
+          "trap": [
+            "Relax flat to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent begins applying rotational pressure on your heel with a secure grip - what should you do?",
-        "answer": "If the heel hook is locked in with figure-four configuration and rotation has begun, you must tap immediately to prevent serious knee injury. Heel hooks damage the knee ligaments (MCL, LCL, ACL) and can cause permanent injury within seconds of rotation. There is no shame in tapping early - recognizing tap-worthy positions is a fundamental safety skill in leg lock grappling. Never try to muscle out of a secured heel hook."
+        "answer": "If the heel hook is locked in with figure-four configuration and rotation has begun, you must tap immediately to prevent serious knee injury. Heel hooks damage the knee ligaments (MCL, LCL, ACL) and can cause permanent injury within seconds of rotation. There is no shame in tapping early - recognizing tap-worthy positions is a fundamental safety skill in leg lock grappling. Never try to muscle out of a secured heel hook.",
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Muscle out with strength",
+            "Wait to see if it hurts"
+          ],
+          "trap": [
+            "Try to spin out fast"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to attempt your escape from Cross Ashi-Garami Bottom?",
-        "answer": "The best escape windows occur when your opponent loosens their leg control to adjust grips, reposition their body, or transition to another position like Saddle. Watch for moments when their inside hook loses depth or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement entries. Attempting escape against tight control wastes energy and risks injury."
+        "answer": "The best escape windows occur when your opponent loosens their leg control to adjust grips, reposition their body, or transition to another position like Saddle. Watch for moments when their inside hook loses depth or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement entries. Attempting escape against tight control wastes energy and risks injury.",
+        "answer_line": "Escape when control loosens",
+        "distractors": {
+          "plausible": [
+            "Escape right at entry",
+            "Wait until fully locked"
+          ],
+          "trap": [
+            "Force escape against tight grip"
+          ]
+        }
       },
       {
         "question": "Your opponent's inside leg becomes exposed as they adjust their position - what counter-attack opportunity does this create?",
-        "answer": "When their inside leg becomes available, you can enter your own Inside Ashi-Garami by threading your legs around their exposed leg. This counter-entanglement entry changes the dynamic from purely defensive to exchanging leg attacks. If successful, you may achieve a dominant position or at minimum create a neutral leg entanglement exchange where both players have submission threats."
+        "answer": "When their inside leg becomes available, you can enter your own Inside Ashi-Garami by threading your legs around their exposed leg. This counter-entanglement entry changes the dynamic from purely defensive to exchanging leg attacks. If successful, you may achieve a dominant position or at minimum create a neutral leg entanglement exchange where both players have submission threats.",
+        "answer_line": "Enter inside ashi garami",
+        "distractors": {
+          "plausible": [
+            "Kick both legs free",
+            "Turn away to face down"
+          ],
+          "trap": [
+            "Extend trapped leg fully"
+          ]
+        }
       },
       {
         "question": "What is the danger of attempting to spin or roll out of Cross Ashi-Garami without proper timing?",
-        "answer": "Rotational escape attempts without proper timing feed directly into the heel hook finish by creating rotation that the opponent can follow and amplify. Your spinning motion actually helps them apply the finishing mechanics of the submission. Only attempt rotational escapes when the opponent's leg control is clearly compromised and the escape path is open. Premature rotation dramatically increases injury risk."
+        "answer": "Rotational escape attempts without proper timing feed directly into the heel hook finish by creating rotation that the opponent can follow and amplify. Your spinning motion actually helps them apply the finishing mechanics of the submission. Only attempt rotational escapes when the opponent's leg control is clearly compromised and the escape path is open. Premature rotation dramatically increases injury risk.",
+        "answer_line": "Spinning feeds the heel hook",
+        "distractors": {
+          "plausible": [
+            "Spin fast to break grip",
+            "Roll early to reset"
+          ],
+          "trap": [
+            "Rotate hard against control"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy expenditure while defending Cross Ashi-Garami Bottom?",
-        "answer": "Stay calm and move systematically rather than making explosive, panicked movements. Conserve energy by focusing on efficient hand fighting and frame maintenance rather than constant struggling. Attack escape opportunities decisively when they appear, but avoid wasting energy against tight control. Panicked movements can lead to self-inflicted injury and accelerate fatigue without improving your position."
+        "answer": "Stay calm and move systematically rather than making explosive, panicked movements. Conserve energy by focusing on efficient hand fighting and frame maintenance rather than constant struggling. Attack escape opportunities decisively when they appear, but avoid wasting energy against tight control. Panicked movements can lead to self-inflicted injury and accelerate fatigue without improving your position.",
+        "answer_line": "Stay calm, move systematically",
+        "distractors": {
+          "plausible": [
+            "Explode constantly to escape",
+            "Struggle nonstop for space"
+          ],
+          "trap": [
+            "Panic and yank leg free"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -757,35 +917,115 @@
   "flashcards_position": [
     {
       "question": "What structural feature defines Cross Ashi-Garami and distinguishes it from standard parallel Ashi-Garami?",
-      "answer": "In Cross Ashi-Garami the controlling player's legs cross over one another around the opponent's trapped leg, rather than running parallel to it as in standard Ashi. This crossing forms a figure-four-like wedge that pinches the isolated leg between two independent points of contact, one inside hook behind the hip and one outside leg crossing at shin level. The wedge converts the leg configuration into a rigid frame that resists being kicked apart, which is why the position generates more rotational control than parallel Ashi. The trade-off is that the crossed structure orients the trapped foot for heel exposure, raising the stakes for both players."
+      "answer": "In Cross Ashi-Garami the controlling player's legs cross over one another around the opponent's trapped leg, rather than running parallel to it as in standard Ashi. This crossing forms a figure-four-like wedge that pinches the isolated leg between two independent points of contact, one inside hook behind the hip and one outside leg crossing at shin level. The wedge converts the leg configuration into a rigid frame that resists being kicked apart, which is why the position generates more rotational control than parallel Ashi. The trade-off is that the crossed structure orients the trapped foot for heel exposure, raising the stakes for both players.",
+      "answer_line": "Crossed legs form a wedge",
+      "distractors": {
+        "plausible": [
+          "Legs run parallel, no cross",
+          "Both legs hook underneath"
+        ],
+        "trap": [
+          "Legs uncross for base"
+        ]
+      }
     },
     {
       "question": "Why does the crossed-leg wedge produce superior rotational control compared to a parallel leg configuration?",
-      "answer": "The crossed legs bracket the trapped limb from two converging angles, so any attempt to rotate the leg meets resistance from both the inside hook and the outside cross simultaneously. This bracketing pins the knee and ankle line, preventing the trapped leg from spinning freely and forcing rotational force to concentrate on the joint rather than dissipating through hip movement. Because the controlling structure is skeletal rather than muscular, it holds the rotational relationship even under fatigue. That concentrated, inescapable rotation is exactly what makes the configuration a premier platform for heel hook mechanics."
+      "answer": "The crossed legs bracket the trapped limb from two converging angles, so any attempt to rotate the leg meets resistance from both the inside hook and the outside cross simultaneously. This bracketing pins the knee and ankle line, preventing the trapped leg from spinning freely and forcing rotational force to concentrate on the joint rather than dissipating through hip movement. Because the controlling structure is skeletal rather than muscular, it holds the rotational relationship even under fatigue. That concentrated, inescapable rotation is exactly what makes the configuration a premier platform for heel hook mechanics.",
+      "answer_line": "Brackets leg from two angles",
+      "distractors": {
+        "plausible": [
+          "Relies on grip strength alone",
+          "Controls hip only, not leg"
+        ],
+        "trap": [
+          "Loosen cross to save energy"
+        ]
+      }
     },
     {
       "question": "How does perpendicular hip alignment between the two players govern the mechanics of this position?",
-      "answer": "The controlling player's hips sit roughly ninety degrees to the trapped player's hip line, forming an L-shape between the two bodies. This perpendicular relationship is what locks hip rotation for one player while denying the other the squared alignment needed to sit up, turn in, or drive forward. Whoever wins and holds the perpendicular angle dictates the exchange, so both players are constantly fighting to establish or break this alignment. When the angle collapses toward square, control degrades and the trapped leg gains the freedom to extract."
+      "answer": "The controlling player's hips sit roughly ninety degrees to the trapped player's hip line, forming an L-shape between the two bodies. This perpendicular relationship is what locks hip rotation for one player while denying the other the squared alignment needed to sit up, turn in, or drive forward. Whoever wins and holds the perpendicular angle dictates the exchange, so both players are constantly fighting to establish or break this alignment. When the angle collapses toward square, control degrades and the trapped leg gains the freedom to extract.",
+      "answer_line": "L-shape locks their rotation",
+      "distractors": {
+        "plausible": [
+          "Square hips for more power",
+          "Angle away to create space"
+        ],
+        "trap": [
+          "Turn hips parallel to theirs"
+        ]
+      }
     },
     {
       "question": "What role does the isolated, extended trapped leg play in the shared dynamics of Cross Ashi-Garami?",
-      "answer": "The trapped leg is captured and held between the crossed legs with the foot controlled, and its degree of extension is the central variable of the position. A fully extended, straight knee lengthens the lever and aligns the heel for rotational attack, favoring the controlling player. A flexed knee with the heel drawn toward the hip shortens that lever and hides the heel, favoring the trapped player. The entire positional battle therefore orbits around whether the trapped knee is kept straight or bent, making leg-extension management the shared mechanical fulcrum."
+      "answer": "The trapped leg is captured and held between the crossed legs with the foot controlled, and its degree of extension is the central variable of the position. A fully extended, straight knee lengthens the lever and aligns the heel for rotational attack, favoring the controlling player. A flexed knee with the heel drawn toward the hip shortens that lever and hides the heel, favoring the trapped player. The entire positional battle therefore orbits around whether the trapped knee is kept straight or bent, making leg-extension management the shared mechanical fulcrum.",
+      "answer_line": "Extension is the key battle",
+      "distractors": {
+        "plausible": [
+          "Leg angle doesn't matter much",
+          "Only grip strength decides it"
+        ],
+        "trap": [
+          "Always keep leg fully straight"
+        ]
+      }
     },
     {
       "question": "Why is heel exposure the defining risk that both players organize their game around in this position?",
-      "answer": "The crossed configuration naturally rotates the trapped foot so the heel becomes accessible, which is the anatomical prerequisite for a heel hook that torques the knee ligaments. Because the knee cannot tap or absorb rotation the way it signals other joints, injury can occur with little warning once the heel is captured and turned. This makes heel exposure the single highest-consequence element of the position, dictating that one player fights to expose and grip the heel while the other fights to conceal it by rotating the foot inward and flexing the knee. The severity of the outcome is why safety awareness and early recognition are shared imperatives regardless of role."
+      "answer": "The crossed configuration naturally rotates the trapped foot so the heel becomes accessible, which is the anatomical prerequisite for a heel hook that torques the knee ligaments. Because the knee cannot tap or absorb rotation the way it signals other joints, injury can occur with little warning once the heel is captured and turned. This makes heel exposure the single highest-consequence element of the position, dictating that one player fights to expose and grip the heel while the other fights to conceal it by rotating the foot inward and flexing the knee. The severity of the outcome is why safety awareness and early recognition are shared imperatives regardless of role.",
+      "answer_line": "Rotation exposes the heel",
+      "distractors": {
+        "plausible": [
+          "Only wrist grips matter here",
+          "Knee always warns before harm"
+        ],
+        "trap": [
+          "Ignore heel, focus on hips"
+        ]
+      }
     },
     {
       "question": "How does connection and compactness between the two bodies determine who controls Cross Ashi-Garami?",
-      "answer": "The position depends on the two bodies staying tightly connected with minimal space in the entanglement. When the gap is small, the crossed legs maintain constant tension on the trapped leg and the perpendicular angle holds, preserving control. When space opens, the trapped leg gains room to retract the knee, the foot can rotate to hide the heel, and framing becomes possible to break the angle. Distance management is thus a two-way lever: closing space favors the controller while creating space favors extraction, and both players contest it continuously."
+      "answer": "The position depends on the two bodies staying tightly connected with minimal space in the entanglement. When the gap is small, the crossed legs maintain constant tension on the trapped leg and the perpendicular angle holds, preserving control. When space opens, the trapped leg gains room to retract the knee, the foot can rotate to hide the heel, and framing becomes possible to break the angle. Distance management is thus a two-way lever: closing space favors the controller while creating space favors extraction, and both players contest it continuously.",
+      "answer_line": "Tight space favors control",
+      "distractors": {
+        "plausible": [
+          "Distance never matters here",
+          "Space always favors attacker"
+        ],
+        "trap": [
+          "Push away to create room"
+        ]
+      }
     },
     {
       "question": "What makes Cross Ashi-Garami function as a transitional hub connecting other leg entanglements?",
-      "answer": "Because the crossed structure sits between several entanglement geometries, small changes in the trapped player's rotation or the crossing height open direct pathways to adjacent positions. Turning the trapped leg inward flows toward Inside Ashi-Garami, deepening the cross and stepping the feet leads to the Saddle, and symmetric re-engagement of the legs produces 50-50. This connectivity means the position is rarely static: it is a decision point where the reaction of one player to a rotational or extension change reroutes the exchange into a neighboring entanglement. Understanding those adjacencies is essential because the position is defined as much by where it leads as by its own structure."
+      "answer": "Because the crossed structure sits between several entanglement geometries, small changes in the trapped player's rotation or the crossing height open direct pathways to adjacent positions. Turning the trapped leg inward flows toward Inside Ashi-Garami, deepening the cross and stepping the feet leads to the Saddle, and symmetric re-engagement of the legs produces 50-50. This connectivity means the position is rarely static: it is a decision point where the reaction of one player to a rotational or extension change reroutes the exchange into a neighboring entanglement. Understanding those adjacencies is essential because the position is defined as much by where it leads as by its own structure.",
+      "answer_line": "Small shifts unlock new positions",
+      "distractors": {
+        "plausible": [
+          "Position stays fixed, no links",
+          "Only leads to guard passes"
+        ],
+        "trap": [
+          "Force a submission immediately"
+        ]
+      }
     },
     {
       "question": "How does the height at which the outside leg crosses the trapped limb change the position's characteristics?",
-      "answer": "Where the outside leg crosses along the trapped limb tunes both how securely the foot is trapped and which joint the wedge threatens. A cross kept tight to the lower leg locks the foot and heel firmly against the structure, keeping the entanglement compact and hard to clear. A cross that rides up toward the thigh loosens control of the foot and makes the cross easier to strip, trading foot security for a different leverage line on the leg. Both players read the crossing height as a signal, since it reveals how tightly the leg is captured and where the coming attack is aimed."
+      "answer": "Where the outside leg crosses along the trapped limb tunes both how securely the foot is trapped and which joint the wedge threatens. A cross kept tight to the lower leg locks the foot and heel firmly against the structure, keeping the entanglement compact and hard to clear. A cross that rides up toward the thigh loosens control of the foot and makes the cross easier to strip, trading foot security for a different leverage line on the leg. Both players read the crossing height as a signal, since it reveals how tightly the leg is captured and where the coming attack is aimed.",
+      "answer_line": "Cross height tunes foot control",
+      "distractors": {
+        "plausible": [
+          "Height never changes control",
+          "Higher cross always finishes faster"
+        ],
+        "trap": [
+          "Cross above the knee always"
+        ]
+      }
     }
   ],
   "clips": [

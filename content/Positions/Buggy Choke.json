@@ -101,35 +101,115 @@
     "flashcards": [
       {
         "question": "What is the core mechanism of the Buggy Choke?",
-        "answer": "The buggy choke strangles the opponent with their own arm. You trap the opponent's near arm tight across their neck, swing your same-side leg over their shoulder to clamp that arm, connect your legs to lock the figure, and turn into them so their own bicep and shoulder compress their carotid. The finish comes from the hip turn and extension, not arm strength."
+        "answer": "The buggy choke strangles the opponent with their own arm. You trap the opponent's near arm tight across their neck, swing your same-side leg over their shoulder to clamp that arm, connect your legs to lock the figure, and turn into them so their own bicep and shoulder compress their carotid. The finish comes from the hip turn and extension, not arm strength.",
+        "answer_line": "Trap arm, leg over, turn hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze neck with your forearm",
+            "Pull their head into your chest"
+          ],
+          "trap": [
+            "Muscle the choke with your arms"
+          ]
+        }
       },
       {
         "question": "Your opponent's near arm crosses your neck while you control the trap - what adjustment do you make?",
-        "answer": "Trap that arm tight against their neck immediately, then swing your same-side leg up and over their shoulder to clamp it in place. Connect your legs to seal the figure, then turn your hips toward them and extend. Acting before they retract the arm is the difference between a finish and a lost opportunity."
+        "answer": "Trap that arm tight against their neck immediately, then swing your same-side leg up and over their shoulder to clamp it in place. Connect your legs to seal the figure, then turn your hips toward them and extend. Acting before they retract the arm is the difference between a finish and a lost opportunity.",
+        "answer_line": "Trap arm, swing leg over now",
+        "distractors": {
+          "plausible": [
+            "Wait for the legs to connect",
+            "Grab collar to reinforce choke"
+          ],
+          "trap": [
+            "Let them retract before acting"
+          ]
+        }
       },
       {
         "question": "Why must you connect your legs quickly during the Buggy Choke?",
-        "answer": "Connecting the legs in a figure-four or shin grip seals the trapped arm against the opponent's neck and prevents extraction. Until the legs connect, the opponent can rip the arm free and escape. The lock is what converts the trap into a finishing structure, so closing that window fast is essential."
+        "answer": "Connecting the legs in a figure-four or shin grip seals the trapped arm against the opponent's neck and prevents extraction. Until the legs connect, the opponent can rip the arm free and escape. The lock is what converts the trap into a finishing structure, so closing that window fast is essential.",
+        "answer_line": "Seals arm before they rip free",
+        "distractors": {
+          "plausible": [
+            "Adds extra squeezing power",
+            "Stabilizes base for the pin"
+          ],
+          "trap": [
+            "Frees a hand to strike"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning away while you have the buggy choke trap established - what is your option?",
-        "answer": "Use their rotation to follow to back control. As they turn to relieve the choking pressure, hook the near leg and ride the turn, converting the choke attempt into a back take. Maintaining the arm trap as you follow keeps the threat alive even as the position changes."
+        "answer": "Use their rotation to follow to back control. As they turn to relieve the choking pressure, hook the near leg and ride the turn, converting the choke attempt into a back take. Maintaining the arm trap as you follow keeps the threat alive even as the position changes.",
+        "answer_line": "Follow rotation to back control",
+        "distractors": {
+          "plausible": [
+            "Release arm and reset guard",
+            "Force the choke against rotation"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       },
       {
         "question": "What body movement finishes the buggy choke once the figure is locked?",
-        "answer": "Turn your hips and torso toward the opponent and extend your hips, arching progressively. This drives the opponent's bicep and shoulder into their own carotid for the strangle. Avoid yanking with your arms; the finish comes from the hip turn and extension against the locked figure, not from upper-body strength."
+        "answer": "Turn your hips and torso toward the opponent and extend your hips, arching progressively. This drives the opponent's bicep and shoulder into their own carotid for the strangle. Avoid yanking with your arms; the finish comes from the hip turn and extension against the locked figure, not from upper-body strength.",
+        "answer_line": "Turn hips and torso, extend",
+        "distractors": {
+          "plausible": [
+            "Yank the trapped arm inward",
+            "Squeeze knees together harder"
+          ],
+          "trap": [
+            "Pull down with both arms"
+          ]
+        }
       },
       {
         "question": "Your opponent extends their far arm to base and prevent the finish - what opportunity does this create?",
-        "answer": "The extended arm creates a direct pathway to the crucifix position. Trap the extended arm with your legs while maintaining upper-body control. The crucifix offers superior control and multiple submission options compared to forcing the choke against an actively defending opponent."
+        "answer": "The extended arm creates a direct pathway to the crucifix position. Trap the extended arm with your legs while maintaining upper-body control. The crucifix offers superior control and multiple submission options compared to forcing the choke against an actively defending opponent.",
+        "answer_line": "Trap it, transition to crucifix",
+        "distractors": {
+          "plausible": [
+            "Ignore it, finish the choke",
+            "Attack armbar on that arm"
+          ],
+          "trap": [
+            "Release control to reset"
+          ]
+        }
       },
       {
         "question": "How do you prevent energy depletion when attacking the Buggy Choke?",
-        "answer": "Use body mechanics rather than arm strength. Let the leg clamp and hip turn drive the choke while you stay structured and calm. Apply progressive pressure rather than explosive squeezing. The arms only complete the trap; the strangle comes from leg connection and hip extension, allowing sustained attacks without exhaustion."
+        "answer": "Use body mechanics rather than arm strength. Let the leg clamp and hip turn drive the choke while you stay structured and calm. Apply progressive pressure rather than explosive squeezing. The arms only complete the trap; the strangle comes from leg connection and hip extension, allowing sustained attacks without exhaustion.",
+        "answer_line": "Use hip turn, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Squeeze explosively in bursts",
+            "Grip tighter with both hands"
+          ],
+          "trap": [
+            "Muscle the arm across the neck"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for locking the figure after trapping the arm?",
-        "answer": "The leg must come over the shoulder and the legs must connect within one to two seconds of trapping the arm. This window is the opponent's primary escape opportunity. Delaying lets them retract the arm, posture out, or scramble before the figure is sealed. Eliminate this window by drilling fast leg connection."
+        "answer": "The leg must come over the shoulder and the legs must connect within one to two seconds of trapping the arm. This window is the opponent's primary escape opportunity. Delaying lets them retract the arm, posture out, or scramble before the figure is sealed. Eliminate this window by drilling fast leg connection.",
+        "answer_line": "Connect legs within 1-2 seconds",
+        "distractors": {
+          "plausible": [
+            "Secure grips before the leg",
+            "Posture up before locking legs"
+          ],
+          "trap": [
+            "Wait for opponent to tire first"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -496,35 +576,115 @@
     "flashcards": [
       {
         "question": "What is the critical defensive window for preventing the Buggy Choke?",
-        "answer": "The critical window exists before the attacker's leg clamps your shoulder and their legs connect. Once the figure is locked with your arm sealed against your neck, escape percentages drop dramatically. You must recognize your near arm being framed across their neck and extract it, posture up, or escape within one to two seconds."
+        "answer": "The critical window exists before the attacker's leg clamps your shoulder and their legs connect. Once the figure is locked with your arm sealed against your neck, escape percentages drop dramatically. You must recognize your near arm being framed across their neck and extract it, posture up, or escape within one to two seconds.",
+        "answer_line": "Before leg clamps, legs connect",
+        "distractors": {
+          "plausible": [
+            "After the figure fully locks",
+            "Once hips begin to rotate"
+          ],
+          "trap": [
+            "Wait and try to power out"
+          ]
+        }
       },
       {
         "question": "Your opponent begins trapping your near arm across their neck - what is your immediate defensive priority?",
-        "answer": "Rip the trapped near arm straight back toward your hip to extract it before they can swing a leg over your shoulder. Simultaneously drive your head and shoulders up to maintain posture and create distance. Arm extraction during this early window is the highest-percentage defense before the figure locks."
+        "answer": "Rip the trapped near arm straight back toward your hip to extract it before they can swing a leg over your shoulder. Simultaneously drive your head and shoulders up to maintain posture and create distance. Arm extraction during this early window is the highest-percentage defense before the figure locks.",
+        "answer_line": "Rip arm back, posture up",
+        "distractors": {
+          "plausible": [
+            "Push forward into the pin",
+            "Grab their wrist and pull"
+          ],
+          "trap": [
+            "Drive deeper to flatten them"
+          ]
+        }
       },
       {
         "question": "Why is muscling deeper into your pin a mistake when defending the Buggy Choke?",
-        "answer": "The buggy choke uses your own near arm, driven by your forward pressure, to compress your carotid through your own bicep and shoulder. The harder you press in, the tighter the strangle becomes. Instead of adding pressure, extract the arm and create posture and distance."
+        "answer": "The buggy choke uses your own near arm, driven by your forward pressure, to compress your carotid through your own bicep and shoulder. The harder you press in, the tighter the strangle becomes. Instead of adding pressure, extract the arm and create posture and distance.",
+        "answer_line": "Pressure feeds your own choke",
+        "distractors": {
+          "plausible": [
+            "Wastes energy without effect",
+            "Telegraphs the escape attempt"
+          ],
+          "trap": [
+            "It has no effect either way"
+          ]
+        }
       },
       {
         "question": "What should you prioritize once the attacker's leg is over your shoulder and legs are connecting?",
-        "answer": "Prioritize clearing the leg off your shoulder and freeing the trapped arm over maintaining position. Circle your body toward their legs to relieve the choking angle. If you cannot clear it quickly, concede position and pull your head out to recover safe distance before the strangle finishes."
+        "answer": "Prioritize clearing the leg off your shoulder and freeing the trapped arm over maintaining position. Circle your body toward their legs to relieve the choking angle. If you cannot clear it quickly, concede position and pull your head out to recover safe distance before the strangle finishes.",
+        "answer_line": "Clear the leg, free the arm",
+        "distractors": {
+          "plausible": [
+            "Hold position, fight the grip",
+            "Bridge explosively to escape"
+          ],
+          "trap": [
+            "Push into them for a reversal"
+          ]
+        }
       },
       {
         "question": "When should you accept giving up position to escape the Buggy Choke?",
-        "answer": "Accept giving up position the moment arm extraction stops working and the figure is locking. A controlled retreat to space is far better than being strangled while clinging to a spot that has been converted into a submission against you. Survival outranks position here."
+        "answer": "Accept giving up position the moment arm extraction stops working and the figure is locking. A controlled retreat to space is far better than being strangled while clinging to a spot that has been converted into a submission against you. Survival outranks position here.",
+        "answer_line": "The moment extraction fails",
+        "distractors": {
+          "plausible": [
+            "Only after the choke is tight",
+            "Never, fight for position"
+          ],
+          "trap": [
+            "After trying to power through"
+          ]
+        }
       },
       {
         "question": "Your opponent has trapped your arm but not yet brought a leg over - what escape options remain?",
-        "answer": "This is your highest-percentage window. Rip the trapped arm back toward your hip to extract it, drive your head up and away, and shift your hips or angle so their leg cannot reach your shoulder. Acting before the leg clamps preserves both your position and your neck."
+        "answer": "This is your highest-percentage window. Rip the trapped arm back toward your hip to extract it, drive your head up and away, and shift your hips or angle so their leg cannot reach your shoulder. Acting before the leg clamps preserves both your position and your neck.",
+        "answer_line": "Rip arm free, block the leg",
+        "distractors": {
+          "plausible": [
+            "Wait for the leg to clamp",
+            "Push into their chest"
+          ],
+          "trap": [
+            "Grip fight for the far arm"
+          ]
+        }
       },
       {
         "question": "How does head posture help you defend the Buggy Choke?",
-        "answer": "Posturing your head up and away keeps your weight off the entanglement and prevents the attacker from pulling you into the locked figure. A lowered, driving head feeds your shoulder and arm into the choke. High, retracted posture preserves the room needed to extract your arm and clear the leg."
+        "answer": "Posturing your head up and away keeps your weight off the entanglement and prevents the attacker from pulling you into the locked figure. A lowered, driving head feeds your shoulder and arm into the choke. High, retracted posture preserves the room needed to extract your arm and clear the leg.",
+        "answer_line": "Head up and away, not driving",
+        "distractors": {
+          "plausible": [
+            "Head down to protect chin",
+            "Head turned toward their hip"
+          ],
+          "trap": [
+            "Drive head forward for pressure"
+          ]
+        }
       },
       {
         "question": "What is the energy management strategy for defending against a Buggy Choke?",
-        "answer": "Spend energy early and decisively on arm extraction in the first one to two seconds, because late defense against a locked figure is exhausting and low-percentage. Once the strangle is locked, conserve effort by clearing the leg and conceding position rather than grinding pressure that only tightens the choke."
+        "answer": "Spend energy early and decisively on arm extraction in the first one to two seconds, because late defense against a locked figure is exhausting and low-percentage. Once the strangle is locked, conserve effort by clearing the leg and conceding position rather than grinding pressure that only tightens the choke.",
+        "answer_line": "Spend energy early on extraction",
+        "distractors": {
+          "plausible": [
+            "Save energy, wait it out",
+            "Grind pressure throughout"
+          ],
+          "trap": [
+            "Muscle out once figure locks"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -774,35 +934,115 @@
   "flashcards_position": [
     {
       "question": "What configuration defines the Buggy Choke position?",
-      "answer": "The Buggy Choke is defined by one player's near arm being trapped tight across their own neck while the opposite player clamps a same-side leg over that shoulder to seal the limb in place. Once the legs connect in a figure-four or shin grip, the trapped bicep and shoulder are pinned against the compressed player's own carotid. It is fundamentally a self-strangle: the choking pressure comes from the defender's own arm rather than a limb or lapel of the attacker. This makes the near arm across the neck the single load-bearing element that constitutes the position."
+      "answer": "The Buggy Choke is defined by one player's near arm being trapped tight across their own neck while the opposite player clamps a same-side leg over that shoulder to seal the limb in place. Once the legs connect in a figure-four or shin grip, the trapped bicep and shoulder are pinned against the compressed player's own carotid. It is fundamentally a self-strangle: the choking pressure comes from the defender's own arm rather than a limb or lapel of the attacker. This makes the near arm across the neck the single load-bearing element that constitutes the position.",
+      "answer_line": "Near arm trapped across own neck",
+      "distractors": {
+        "plausible": [
+          "Far arm trapped behind back",
+          "Collar wrapped around the neck"
+        ],
+        "trap": [
+          "Legs triangled around the neck"
+        ]
+      }
     },
     {
       "question": "Where does the choking pressure in the Buggy Choke actually come from?",
-      "answer": "Pressure is generated by driving the trapped player's own bicep and shoulder into their carotid arteries, not by any grip or forearm of the opposite player. The clamping leg over the shoulder and the connected figure hold the arm sealed, and a hip-and-torso rotation compresses that arm inward against the neck. Because the mechanism is a blood choke against the carotids, tightening it is a matter of angle and hip extension rather than arm strength. This is why the position feels counterintuitive to both players: the compressed athlete supplies the choking limb themselves."
+      "answer": "Pressure is generated by driving the trapped player's own bicep and shoulder into their carotid arteries, not by any grip or forearm of the opposite player. The clamping leg over the shoulder and the connected figure hold the arm sealed, and a hip-and-torso rotation compresses that arm inward against the neck. Because the mechanism is a blood choke against the carotids, tightening it is a matter of angle and hip extension rather than arm strength. This is why the position feels counterintuitive to both players: the compressed athlete supplies the choking limb themselves.",
+      "answer_line": "Own bicep and shoulder, own neck",
+      "distractors": {
+        "plausible": [
+          "Opponent's forearm pressure",
+          "Grip strength of the attacker"
+        ],
+        "trap": [
+          "A forearm choke across the throat"
+        ]
+      }
     },
     {
       "question": "Why is the timing window between trapping the arm and connecting the legs so decisive for both players?",
-      "answer": "Until the legs connect over the shoulder, the trapped arm can still be ripped free and the whole structure collapses back toward neutral. Once the figure locks, the arm is sealed against the neck and extraction percentages drop sharply for the compressed player. This one-to-two-second window is simultaneously the last escape opportunity and the moment the position becomes a genuine finishing structure. The entire character of the position hinges on whether the figure closes before the arm retracts."
+      "answer": "Until the legs connect over the shoulder, the trapped arm can still be ripped free and the whole structure collapses back toward neutral. Once the figure locks, the arm is sealed against the neck and extraction percentages drop sharply for the compressed player. This one-to-two-second window is simultaneously the last escape opportunity and the moment the position becomes a genuine finishing structure. The entire character of the position hinges on whether the figure closes before the arm retracts.",
+      "answer_line": "Legs lock before arm retracts",
+      "distractors": {
+        "plausible": [
+          "Posture returns before contact",
+          "Grips set before hip turn"
+        ],
+        "trap": [
+          "Waiting builds more pressure"
+        ]
+      }
     },
     {
       "question": "How does forward pressure from the compressed player affect the Buggy Choke dynamic?",
-      "answer": "Forward or downward pressure from the compressed player feeds the strangle rather than relieving it, because pressing in drives their own bicep and shoulder harder into their carotid. This inverts the usual grappling instinct that a heavy top pin equals safety. The position paradoxically punishes the player who tries to muscle deeper and rewards posture up and away from the entanglement. This shared dynamic is what makes the Buggy Choke so effective from a pin the trapped player believed was winning."
+      "answer": "Forward or downward pressure from the compressed player feeds the strangle rather than relieving it, because pressing in drives their own bicep and shoulder harder into their carotid. This inverts the usual grappling instinct that a heavy top pin equals safety. The position paradoxically punishes the player who tries to muscle deeper and rewards posture up and away from the entanglement. This shared dynamic is what makes the Buggy Choke so effective from a pin the trapped player believed was winning.",
+      "answer_line": "Feeds the choke, don't press in",
+      "distractors": {
+        "plausible": [
+          "Has no real effect on choke",
+          "Relieves pressure temporarily"
+        ],
+        "trap": [
+          "Drives deeper to escape safely"
+        ]
+      }
     },
     {
       "question": "What role does hip and torso rotation play in the locked Buggy Choke figure?",
-      "answer": "Once the figure is sealed, the strangle is applied by rotating the hips and torso toward the compressed player and extending, which compresses the trapped arm progressively against the neck. This turning motion, not any pulling of the arms, is what tightens the choke against the locked structure. The rotational angle also governs how much the compressed player's escape lanes are cut off. Both players therefore contest the same axis: one drives the turn to finish, the other fights to prevent the angle from developing."
+      "answer": "Once the figure is sealed, the strangle is applied by rotating the hips and torso toward the compressed player and extending, which compresses the trapped arm progressively against the neck. This turning motion, not any pulling of the arms, is what tightens the choke against the locked structure. The rotational angle also governs how much the compressed player's escape lanes are cut off. Both players therefore contest the same axis: one drives the turn to finish, the other fights to prevent the angle from developing.",
+      "answer_line": "Rotation compresses arm on neck",
+      "distractors": {
+        "plausible": [
+          "Rotation resets the figure",
+          "Rotation opens escape lanes"
+        ],
+        "trap": [
+          "Rotation is only for balance"
+        ]
+      }
     },
     {
       "question": "How does the Buggy Choke differ mechanically from front-headlock chokes like the anaconda or darce?",
-      "answer": "In anaconda and darce control the attacking player threads their own arm under the near arm and around the neck, so the choke is built from the attacker's limbs encircling the defender. The Buggy Choke instead weaponizes the compressed player's own near arm as the choking surface, with a leg over the shoulder rather than an arm-in loop sealing the structure. The Buggy Choke also emerges from a bottom or scramble configuration where the trapped player is often pinning, rather than from a top front-headlock. This makes it a distinct arm-trap self-strangle rather than a limb-encircling front-headlock choke."
+      "answer": "In anaconda and darce control the attacking player threads their own arm under the near arm and around the neck, so the choke is built from the attacker's limbs encircling the defender. The Buggy Choke instead weaponizes the compressed player's own near arm as the choking surface, with a leg over the shoulder rather than an arm-in loop sealing the structure. The Buggy Choke also emerges from a bottom or scramble configuration where the trapped player is often pinning, rather than from a top front-headlock. This makes it a distinct arm-trap self-strangle rather than a limb-encircling front-headlock choke.",
+      "answer_line": "Own arm chokes, not attacker's",
+      "distractors": {
+        "plausible": [
+          "Same arm-encircling front-headlock",
+          "Only differs by starting grip"
+        ],
+        "trap": [
+          "Requires threading arm under neck"
+        ]
+      }
     },
     {
       "question": "Why is the Buggy Choke best understood as an attack hub rather than a single-path submission?",
-      "answer": "When the strangle is defended, the same arm-trap and leg clamp control structure branches into scrambles, back exposure, crucifix, truck, and front-headlock configurations rather than collapsing to neutral. Every defensive reaction by the compressed player opens a different pathway for the opposite player, so the position creates a branching decision tree instead of a binary finish. This is why the exchange retains threat even as the choke itself fails. Both players are therefore navigating a web of transitions, not just one finishing line."
+      "answer": "When the strangle is defended, the same arm-trap and leg clamp control structure branches into scrambles, back exposure, crucifix, truck, and front-headlock configurations rather than collapsing to neutral. Every defensive reaction by the compressed player opens a different pathway for the opposite player, so the position creates a branching decision tree instead of a binary finish. This is why the exchange retains threat even as the choke itself fails. Both players are therefore navigating a web of transitions, not just one finishing line.",
+      "answer_line": "Defense branches to new attacks",
+      "distractors": {
+        "plausible": [
+          "Failure always resets to neutral",
+          "Only leads back to the pin"
+        ],
+        "trap": [
+          "Defended choke ends the exchange"
+        ]
+      }
     },
     {
       "question": "What posture and positional cues distinguish a live Buggy Choke threat from a routine pin exchange?",
-      "answer": "The defining cue is the near arm being strung or framed across the compressed player's own neck while the opposite player begins bringing a leg toward that shoulder. A routine pin lacks this arm-across-neck configuration and the leg-over-shoulder clamp that seals it. The threat becomes active the instant those two elements combine, since together they establish the self-strangle mechanism unique to this position. Recognizing that specific arm-and-leg geometry, rather than overall pressure, is what tells both players the exchange has become a Buggy Choke."
+      "answer": "The defining cue is the near arm being strung or framed across the compressed player's own neck while the opposite player begins bringing a leg toward that shoulder. A routine pin lacks this arm-across-neck configuration and the leg-over-shoulder clamp that seals it. The threat becomes active the instant those two elements combine, since together they establish the self-strangle mechanism unique to this position. Recognizing that specific arm-and-leg geometry, rather than overall pressure, is what tells both players the exchange has become a Buggy Choke.",
+      "answer_line": "Arm across neck plus leg coming",
+      "distractors": {
+        "plausible": [
+          "Any tight top pressure pin",
+          "Opponent gripping the collar"
+        ],
+        "trap": [
+          "Legs already triangled around neck"
+        ]
+      }
     }
   ],
   "clips": [

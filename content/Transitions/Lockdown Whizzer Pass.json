@@ -242,35 +242,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to establish the whizzer against a lockdown bottom player?",
-        "answer": "The optimal timing is immediately after the bottom player commits to the underhook and before they use it to initiate a whip-up or Old School sweep. The window opens when their arm is reaching deep but they haven't yet generated upward force. Establishing the whizzer during this commitment phase catches their arm in the overhook before they can retract or convert the underhook into a sweep."
+        "answer": "The optimal timing is immediately after the bottom player commits to the underhook and before they use it to initiate a whip-up or Old School sweep. The window opens when their arm is reaching deep but they haven't yet generated upward force. Establishing the whizzer during this commitment phase catches their arm in the overhook before they can retract or convert the underhook into a sweep.",
+        "answer_line": "Right as underhook commits",
+        "distractors": {
+          "plausible": [
+            "After underhook fully secures",
+            "Before they attempt underhook"
+          ],
+          "trap": [
+            "Once the whip-up sweep starts"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the leg extraction phase of the whizzer pass?",
-        "answer": "The bottom player must be fully flattened with both shoulders on the mat. Their underhook must be neutralized by tight whizzer pressure with no ability to generate upward force. Your shoulder pressure must be heavy enough to prevent them from hip escaping or creating angles. Your free leg must be posted wide for stable base. Only when all these conditions are met should you initiate the circular extraction."
+        "answer": "The bottom player must be fully flattened with both shoulders on the mat. Their underhook must be neutralized by tight whizzer pressure with no ability to generate upward force. Your shoulder pressure must be heavy enough to prevent them from hip escaping or creating angles. Your free leg must be posted wide for stable base. Only when all these conditions are met should you initiate the circular extraction.",
+        "answer_line": "Flat, underhook killed, base wide",
+        "distractors": {
+          "plausible": [
+            "Underhook killed, still angled",
+            "Shoulders down, hook still live"
+          ],
+          "trap": [
+            "Right after whizzer grip lands"
+          ]
+        }
       },
       {
         "question": "Why must the trapped leg extraction use circular motion rather than a straight backward pull?",
-        "answer": "The lockdown figure-four triangle is biomechanically strongest against linear backward force because both of the bottom player's legs resist in the same direction. Circular outward motion attacks the triangle at its weakest angle where the ankle cross has minimal holding power. The arc also creates a shearing force that separates the lockdown configuration rather than fighting it directly, requiring significantly less effort to free the knee."
+        "answer": "The lockdown figure-four triangle is biomechanically strongest against linear backward force because both of the bottom player's legs resist in the same direction. Circular outward motion attacks the triangle at its weakest angle where the ankle cross has minimal holding power. The arc also creates a shearing force that separates the lockdown configuration rather than fighting it directly, requiring significantly less effort to free the knee.",
+        "answer_line": "Arc out, don't pull straight back",
+        "distractors": {
+          "plausible": [
+            "Twist knee inward first",
+            "Pull knee straight up"
+          ],
+          "trap": [
+            "Yank the knee straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a whip-up sweep as you start extracting your trapped leg. How do you respond?",
-        "answer": "Immediately abandon the extraction attempt and drive your weight forward through the whizzer and shoulder pressure to re-flatten them. The whip-up requires the bottom player to come up to their side, so forward pressure directly counters this motion. Re-cinch the whizzer tight, drive your shoulder across their face, and wait for them to settle back flat before re-attempting extraction. Never fight the whip-up from an upright position."
+        "answer": "Immediately abandon the extraction attempt and drive your weight forward through the whizzer and shoulder pressure to re-flatten them. The whip-up requires the bottom player to come up to their side, so forward pressure directly counters this motion. Re-cinch the whizzer tight, drive your shoulder across their face, and wait for them to settle back flat before re-attempting extraction. Never fight the whip-up from an upright position.",
+        "answer_line": "Drop extraction, drive forward flat",
+        "distractors": {
+          "plausible": [
+            "Keep extracting, add hip pressure",
+            "Post base and wait it out"
+          ],
+          "trap": [
+            "Sit up to block the whip-up"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration creates the tightest whizzer control for this pass?",
-        "answer": "Wrap your arm over and around the bottom player's bicep with your elbow pinching tight against their arm. Grip your own hip or upper thigh with the whizzer hand to eliminate all slack in the overhook. Your forearm should be pressing against the back of their arm with the elbow driving downward. This closed-circuit grip prevents them from withdrawing the underhook while maximizing the rotational force that flattens their shoulder to the mat."
+        "answer": "Wrap your arm over and around the bottom player's bicep with your elbow pinching tight against their arm. Grip your own hip or upper thigh with the whizzer hand to eliminate all slack in the overhook. Your forearm should be pressing against the back of their arm with the elbow driving downward. This closed-circuit grip prevents them from withdrawing the underhook while maximizing the rotational force that flattens their shoulder to the mat.",
+        "answer_line": "Wrap bicep, grip own hip tight",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist, pull tight",
+            "Overhook only, no self-grip"
+          ],
+          "trap": [
+            "Underhook their arm instead"
+          ]
+        }
       },
       {
         "question": "What direction of force should your shoulder pressure apply during the flattening phase?",
-        "answer": "The shoulder pressure should drive diagonally downward and across the bottom player's body, angled from their far shoulder toward the mat on their near side. This creates a torque that works with the whizzer rotation to pin their back flat. Your head drives past their ear on the crossface side, adding weight on that vector. The combined force should feel like you are trying to press their far shoulder through the mat."
+        "answer": "The shoulder pressure should drive diagonally downward and across the bottom player's body, angled from their far shoulder toward the mat on their near side. This creates a torque that works with the whizzer rotation to pin their back flat. Your head drives past their ear on the crossface side, adding weight on that vector. The combined force should feel like you are trying to press their far shoulder through the mat.",
+        "answer_line": "Diagonal, across toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight down on the chest",
+            "Toward their near hip"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "The bottom player releases their lockdown and dives for deep half guard during your whizzer pressure. What do you do?",
-        "answer": "Immediately sprawl your hips back and away to prevent them from getting underneath you. Use the whizzer to control their upper body and prevent them from completing the deep half entry. If your hips are sprawled and heavy, they cannot get deep enough underneath to establish the position. If they do manage the entry, release the whizzer and transition to deep half guard passing strategy using hip pressure and crossface to prevent their sweeps."
+        "answer": "Immediately sprawl your hips back and away to prevent them from getting underneath you. Use the whizzer to control their upper body and prevent them from completing the deep half entry. If your hips are sprawled and heavy, they cannot get deep enough underneath to establish the position. If they do manage the entry, release the whizzer and transition to deep half guard passing strategy using hip pressure and crossface to prevent their sweeps.",
+        "answer_line": "Sprawl hips back, deny entry",
+        "distractors": {
+          "plausible": [
+            "Drop weight forward heavy",
+            "Chase the leg underneath"
+          ],
+          "trap": [
+            "Let them in, then crossface"
+          ]
+        }
       },
       {
         "question": "If the whizzer pass stalls and the bottom player begins recovering their lockdown tension, what chain attacks are available?",
-        "answer": "If the whizzer pass stalls, you can transition to a crossface-based flattening pass by releasing the whizzer and immediately establishing a crossface with that arm. Alternatively, if the bottom player turns aggressively into you to fight the whizzer, their exposed neck creates a Darce choke opportunity. You can also abandon the whizzer entirely and switch to a backstep pass or combat base recovery to reset the passing sequence from a neutral half guard top position."
+        "answer": "If the whizzer pass stalls, you can transition to a crossface-based flattening pass by releasing the whizzer and immediately establishing a crossface with that arm. Alternatively, if the bottom player turns aggressively into you to fight the whizzer, their exposed neck creates a Darce choke opportunity. You can also abandon the whizzer entirely and switch to a backstep pass or combat base recovery to reset the passing sequence from a neutral half guard top position.",
+        "answer_line": "Crossface pass or Darce setup",
+        "distractors": {
+          "plausible": [
+            "Switch straight to back take",
+            "Reset to knee-on-belly"
+          ],
+          "trap": [
+            "Force the extraction harder"
+          ]
+        }
       }
     ],
     "safety_considerations": "The whizzer overhook applies significant rotational pressure on the bottom player's shoulder joint. Apply pressure gradually during training and be attentive to tap signals or verbal indication of discomfort. During leg extraction, avoid sudden jerking motions that could strain either player's knee ligaments, particularly the bottom player's ankles which are crossed in the lockdown triangle. Communicate with training partners about shoulder discomfort from sustained whizzer pressure, and release immediately if they indicate any pain. When drilling at higher intensities, ensure both players have warmed up their shoulders adequately.",
@@ -359,23 +439,73 @@
     "flashcards": [
       {
         "question": "What is the first thing you should do when you feel the top player establishing a whizzer over your underhook?",
-        "answer": "Immediately deepen your underhook by reaching past their far lat muscle or gripping their far hip. A deeper underhook shortens the whizzer's mechanical lever arm and makes it significantly harder for them to generate the rotational pressure needed to flatten you. Simultaneously, extend your lockdown and drive your shoulder into them to maintain your side angle before the flattening pressure can build."
+        "answer": "Immediately deepen your underhook by reaching past their far lat muscle or gripping their far hip. A deeper underhook shortens the whizzer's mechanical lever arm and makes it significantly harder for them to generate the rotational pressure needed to flatten you. Simultaneously, extend your lockdown and drive your shoulder into them to maintain your side angle before the flattening pressure can build.",
+        "answer_line": "Deepen underhook past their lat",
+        "distractors": {
+          "plausible": [
+            "Pull underhook arm out fast",
+            "Frame on their hip and push"
+          ],
+          "trap": [
+            "Release underhook, re-grip later"
+          ]
+        }
       },
       {
         "question": "Why is maintaining your side angle the most critical defensive priority against the whizzer pass?",
-        "answer": "All lockdown attacks including whip-up sweeps, Old School, and Electric Chair entries require the bottom player to be on their side with hip mobility. The whizzer pass works specifically by flattening you onto your back, which eliminates every offensive option from lockdown simultaneously. If you maintain your side angle, the top player cannot extract their leg because an active, angled lockdown generates too much resistance for extraction regardless of upper body control."
+        "answer": "All lockdown attacks including whip-up sweeps, Old School, and Electric Chair entries require the bottom player to be on their side with hip mobility. The whizzer pass works specifically by flattening you onto your back, which eliminates every offensive option from lockdown simultaneously. If you maintain your side angle, the top player cannot extract their leg because an active, angled lockdown generates too much resistance for extraction regardless of upper body control.",
+        "answer_line": "Stay angled, flat kills offense",
+        "distractors": {
+          "plausible": [
+            "Keep grips tight, angle later",
+            "Focus on trapping their arm"
+          ],
+          "trap": [
+            "Let them flatten, then escape"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a whip-up sweep against a whizzer pass?",
-        "answer": "The optimal moment is when the top player begins the leg extraction phase and shifts their weight away from center. During extraction, they must redirect force from flattening you to freeing their knee, creating a brief window where their base is compromised and their whizzer arm is occupied controlling your underhook rather than posting. This weight shift makes them vulnerable to the upward drive of the whip-up if timed precisely."
+        "answer": "The optimal moment is when the top player begins the leg extraction phase and shifts their weight away from center. During extraction, they must redirect force from flattening you to freeing their knee, creating a brief window where their base is compromised and their whizzer arm is occupied controlling your underhook rather than posting. This weight shift makes them vulnerable to the upward drive of the whip-up if timed precisely.",
+        "answer_line": "During their leg extraction",
+        "distractors": {
+          "plausible": [
+            "Right when whizzer grip lands",
+            "As soon as you feel flattened"
+          ],
+          "trap": [
+            "While fully flat on your back"
+          ]
+        }
       },
       {
         "question": "Your lockdown is losing effectiveness against sustained whizzer pressure and you are being progressively flattened. What should you do?",
-        "answer": "Transition early to an alternative position rather than holding a compromised lockdown. The best option is releasing the lockdown and diving underneath the top player for deep half guard entry, which completely escapes the whizzer pressure. Alternatively, release the lockdown and recover a knee shield to re-establish distance and defensive frames from standard half guard. The key is making this decision before you are fully flat, while you still have the hip mobility to execute the transition."
+        "answer": "Transition early to an alternative position rather than holding a compromised lockdown. The best option is releasing the lockdown and diving underneath the top player for deep half guard entry, which completely escapes the whizzer pressure. Alternatively, release the lockdown and recover a knee shield to re-establish distance and defensive frames from standard half guard. The key is making this decision before you are fully flat, while you still have the hip mobility to execute the transition.",
+        "answer_line": "Bail early to deep half/shield",
+        "distractors": {
+          "plausible": [
+            "Hold lockdown, fight through it",
+            "Wait until fully flat to react"
+          ],
+          "trap": [
+            "Grip fight for the underhook"
+          ]
+        }
       },
       {
         "question": "How can you use the top player's whizzer commitment against them offensively?",
-        "answer": "The whizzer occupies one of the top player's arms and requires them to drive weight forward, which compromises their base in the opposite direction. By extending the lockdown aggressively while the whizzer arm is committed, you can create off-balancing force toward their trapped-leg side where they have no arm to post. Their whizzer commitment also means they cannot crossface or establish standard passing grips, leaving them one-dimensional in their control and vulnerable to transitions and sweeps that attack angles they cannot defend."
+        "answer": "The whizzer occupies one of the top player's arms and requires them to drive weight forward, which compromises their base in the opposite direction. By extending the lockdown aggressively while the whizzer arm is committed, you can create off-balancing force toward their trapped-leg side where they have no arm to post. Their whizzer commitment also means they cannot crossface or establish standard passing grips, leaving them one-dimensional in their control and vulnerable to transitions and sweeps that attack angles they cannot defend.",
+        "answer_line": "Attack toward their no-post side",
+        "distractors": {
+          "plausible": [
+            "Push off their whizzer arm",
+            "Frame both hands on their hip"
+          ],
+          "trap": [
+            "Try to re-underhook that arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

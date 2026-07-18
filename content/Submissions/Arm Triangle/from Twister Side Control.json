@@ -295,52 +295,152 @@
       {
         "question": "What anatomical structures does the Arm Triangle from Twister Side Control attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral compression restricts blood flow to the brain, causing unconsciousness in 6-8 seconds if not released.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Only the far-side carotid",
+            "Trachea/windpipe compression"
+          ],
+          "trap": [
+            "Vagus nerve strike point"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the opponent's defense creates the arm triangle opportunity from Twister Side Control?",
         "answer": "The trigger is the opponent creating a near-side arm frame across their own neck to relieve shoulder pressure and lateral torque. You will feel their forearm or hand pushing against your choking arm or their own neck. This frame positions their arm exactly where it needs to be for the arm triangle. The moment you feel this defensive frame, begin the transition rather than fighting to maintain the current control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Near-arm frames across own neck",
+        "distractors": {
+          "plausible": [
+            "They push your choking arm away",
+            "They turtle to hide neck"
+          ],
+          "trap": [
+            "They turn face-down to hide"
+          ]
+        }
       },
       {
         "question": "What grip adjustment is required when transitioning from the controlling grip to arm triangle configuration?",
         "answer": "Release the controlling grip only after chest pressure secures the trapped arm against the opponent's neck. Thread your choking arm over the top of their trapped arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip for a tighter configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins arm before regrip",
+        "distractors": {
+          "plausible": [
+            "Release grip, then chest pin",
+            "Underhook first, then thread"
+          ],
+          "trap": [
+            "Let go immediately, thread arm"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to frame against your shoulder pressure with their near arm - what adjustment capitalizes on this reaction?",
         "answer": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame - instead, use it as the foundation for the arm triangle. Their defensive action becomes the setup for your next submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest-pin the frame, then thread",
+        "distractors": {
+          "plausible": [
+            "Strip the frame, regrip fast",
+            "Switch to a different submission"
+          ],
+          "trap": [
+            "Pull the frame off their neck"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Twister Side Control?",
         "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular, chest over face",
+        "distractors": {
+          "plausible": [
+            "Parallel, hips squared up",
+            "Stack them, chest on hips"
+          ],
+          "trap": [
+            "Sit back to full mount"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
         "answer": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively, they have passed the point of no escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No gap, weakening resistance",
+        "distractors": {
+          "plausible": [
+            "They still frame with free hand",
+            "Loud verbal tap is heard"
+          ],
+          "trap": [
+            "They stop moving—finish harder"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when finishing the arm triangle from Twister Side Control?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Spike it fast for a quick tap",
+            "Trap both hands, then squeeze"
+          ],
+          "trap": [
+            "Hold a few seconds after tap"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their trapped arm during the transition to the arm triangle?",
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their arm against their own neck so they cannot pull it free. Once the head-and-arm grip is locked, the figure-four configuration mechanically prevents arm extraction. If you feel the arm starting to slide out during transition, immediately return to your controlling position in Twister Side Control rather than chasing a compromised arm triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins arm through the switch",
+        "distractors": {
+          "plausible": [
+            "Squeeze biceps to trap the arm",
+            "Grab the wrist and yank in"
+          ],
+          "trap": [
+            "Chase the arm as it slides out"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully bridges and begins to roll you during the arm triangle attempt - how do you respond?",
         "answer": "Post your far-side hand immediately and widen your base to absorb the bridge. If the roll succeeds and you end up on bottom, do not release the head-and-arm grip. The arm triangle can be finished from bottom guard position by squeezing your elbows together and using a closed guard to control their posture. The key is maintaining the grip integrity throughout the roll rather than panicking and releasing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post, widen base, keep the grip",
+        "distractors": {
+          "plausible": [
+            "Release grip, re-base standing",
+            "Follow the roll, regrip on top"
+          ],
+          "trap": [
+            "Let go and scramble to top"
+          ]
+        }
       },
       {
         "question": "Why is chest compression more effective than arm squeezing for finishing the arm triangle from this position?",
         "answer": "Chest compression uses your entire body weight and the structural advantage of your torso expanding against the opponent's trapped shoulder and neck. Arm squeezing relies on bicep and forearm endurance, which fatigues rapidly under the sustained effort needed to finish a choke. Body mechanics generate far more compressive force while requiring less energy, and the pressure is distributed across a larger surface area, making the choke tighter and more difficult to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bodyweight beats arm strength",
+        "distractors": {
+          "plausible": [
+            "Bigger biceps finish faster",
+            "Grip strength matters most"
+          ],
+          "trap": [
+            "Squeeze harder with the arms"
+          ]
+        }
       }
     ],
     "clips": [
@@ -463,27 +563,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from Twister Side Control to an arm triangle?",
         "answer": "The key recognition cue is feeling the attacker's chest weight drive down onto your framing arm, pinning it against your own neck, followed by the release of their controlling grip as they begin threading their arm over yours and behind your neck. You may also feel their hips disengage from the Twister Side Control leg entanglement as they prepare to walk to the finishing angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pins arm, grip releases",
+        "distractors": {
+          "plausible": [
+            "They shift weight to your hips",
+            "They grab a fresh underhook"
+          ],
+          "trap": [
+            "They just adjust base slightly"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Arm Triangle from Twister Side Control?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is locked - arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds. Tapping early prevents injury and allows you to continue training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, hands, feet, or voice",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Go limp and hope they release"
+          ],
+          "trap": [
+            "Try to power out before tapping"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from converting Twister Side Control pressure into an arm triangle?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow down and hand on your own chest, or extend it fully away from your neck. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending the shoulder pressure, use head positioning and hip movement rather than arm frames across your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Never frame arm across own throat",
+        "distractors": {
+          "plausible": [
+            "Post the frame arm on their hip",
+            "Push their face with free hand"
+          ],
+          "trap": [
+            "Cross forearm over own neck"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, get to knees, frame hips",
+        "distractors": {
+          "plausible": [
+            "Turtle up and cover your neck",
+            "Bridge away from trapped arm"
+          ],
+          "trap": [
+            "Turn away to hide your neck"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive errors that allow the arm triangle transition from Twister Side Control?",
         "answer": "The most common error is instinctively framing across your own neck when defending the shoulder pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity, and it closes within 2-3 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Framing own neck, turning away",
+        "distractors": {
+          "plausible": [
+            "Bridging too early on entry",
+            "Overcommitting to a deep grip"
+          ],
+          "trap": [
+            "Stalling to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

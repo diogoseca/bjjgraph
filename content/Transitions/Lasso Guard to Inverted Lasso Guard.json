@@ -243,35 +243,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the transition to inverted lasso guard?",
-        "answer": "The optimal window occurs when the opponent commits forward pressure toward your guard or is in a neutral weight position while engaging with grips. Their forward momentum assists the backwards roll and ensures sufficient connection for maintaining the lasso through the inversion. Attempting the transition when the opponent has disengaged and created distance will fail because there is insufficient connection to keep the lasso tight during the roll. Watch for moments when they drive into you, attempt grip breaks, or try to establish passing grips - these actions create the forward weight commitment that makes the inversion most effective."
+        "answer": "The optimal window occurs when the opponent commits forward pressure toward your guard or is in a neutral weight position while engaging with grips. Their forward momentum assists the backwards roll and ensures sufficient connection for maintaining the lasso through the inversion. Attempting the transition when the opponent has disengaged and created distance will fail because there is insufficient connection to keep the lasso tight during the roll. Watch for moments when they drive into you, attempt grip breaks, or try to establish passing grips - these actions create the forward weight commitment that makes the inversion most effective.",
+        "answer_line": "Opponent driving forward pressure",
+        "distractors": {
+          "plausible": [
+            "Any time you have a sleeve grip",
+            "When they posture up and stand"
+          ],
+          "trap": [
+            "When they retreat and create space"
+          ]
+        }
       },
       {
         "question": "Why must the inversion roll travel diagonally across the shoulder blade rather than straight backwards?",
-        "answer": "A diagonal roll toward the lasso side maintains constant tension on the lasso hook throughout the movement because your body stays close to the connection point on the opponent's arm. Rolling straight backwards pulls your body away from the trapped arm, creating momentary slack that allows the opponent to retract their arm and escape the lasso entirely. The diagonal path also produces a better final angle for berimbolo entries and overhead sweeps because your hips end up oriented toward the opponent's centerline rather than pointing away from them."
+        "answer": "A diagonal roll toward the lasso side maintains constant tension on the lasso hook throughout the movement because your body stays close to the connection point on the opponent's arm. Rolling straight backwards pulls your body away from the trapped arm, creating momentary slack that allows the opponent to retract their arm and escape the lasso entirely. The diagonal path also produces a better final angle for berimbolo entries and overhead sweeps because your hips end up oriented toward the opponent's centerline rather than pointing away from them.",
+        "answer_line": "Diagonal toward the lasso side",
+        "distractors": {
+          "plausible": [
+            "Diagonal away from lasso side",
+            "Roll flat and square to opponent"
+          ],
+          "trap": [
+            "Straight back for maximum speed"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat as you begin inverting. How should you adjust?",
-        "answer": "A posted hand indicates the opponent is trying to establish base against your inversion. This is actually an offensive opportunity - their posted arm is now weight-bearing and temporarily unable to defend. Continue the inversion and use your free leg to hook behind their posted-arm side, initiating a berimbolo entry. The posted hand roots them to that spot, making the rotational back take more effective. Alternatively, if their post is directly on your body, redirect your inversion angle slightly to move away from the post and complete the transition on the other side of their arm."
+        "answer": "A posted hand indicates the opponent is trying to establish base against your inversion. This is actually an offensive opportunity - their posted arm is now weight-bearing and temporarily unable to defend. Continue the inversion and use your free leg to hook behind their posted-arm side, initiating a berimbolo entry. The posted hand roots them to that spot, making the rotational back take more effective. Alternatively, if their post is directly on your body, redirect your inversion angle slightly to move away from the post and complete the transition on the other side of their arm.",
+        "answer_line": "Attack their posted arm side",
+        "distractors": {
+          "plausible": [
+            "Pause and reset your grips",
+            "Switch to the far side entry"
+          ],
+          "trap": [
+            "Abort the inversion immediately"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be maintained throughout the inversion, and what happens if the sleeve grip breaks mid-roll?",
-        "answer": "You must maintain a palm-up sleeve grip on the same side as the lasso hook, pulling continuously toward your chest to keep the system under tension. If the sleeve grip breaks mid-roll, the entire inversion loses its offensive potential because you cannot control the opponent's arm trajectory or prevent them from retracting the lassoed limb. In this scenario, do not continue fighting for the inversion. Immediately recover to open guard by using your legs to create distance and re-establish grips from a stable position. Continuing inverted without sleeve control leaves you exposed with no guard retention."
+        "answer": "You must maintain a palm-up sleeve grip on the same side as the lasso hook, pulling continuously toward your chest to keep the system under tension. If the sleeve grip breaks mid-roll, the entire inversion loses its offensive potential because you cannot control the opponent's arm trajectory or prevent them from retracting the lassoed limb. In this scenario, do not continue fighting for the inversion. Immediately recover to open guard by using your legs to create distance and re-establish grips from a stable position. Continuing inverted without sleeve control leaves you exposed with no guard retention.",
+        "answer_line": "Palm-up sleeve grip, pull tight",
+        "distractors": {
+          "plausible": [
+            "Palm-down grip on far sleeve",
+            "Grip the collar, not sleeve"
+          ],
+          "trap": [
+            "Push through inversion without grip"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the lasso hook tightens or loosens during the inversion?",
-        "answer": "The shin must maintain continuous pressing contact against the opponent's tricep throughout the roll, with the foot hooked behind their shoulder or lat. During a properly executed inversion, the lasso should actually tighten because your body weight now assists the downward pulling force on the hook. The critical mechanical detail is keeping the lasso leg extended and the shin actively pressing outward against the arm during the roll. If you allow the leg to bend or retract toward your body during the transition, the hook loosens and the opponent can extract their arm. Think of the lasso leg as a rigid lever that the inversion amplifies."
+        "answer": "The shin must maintain continuous pressing contact against the opponent's tricep throughout the roll, with the foot hooked behind their shoulder or lat. During a properly executed inversion, the lasso should actually tighten because your body weight now assists the downward pulling force on the hook. The critical mechanical detail is keeping the lasso leg extended and the shin actively pressing outward against the arm during the roll. If you allow the leg to bend or retract toward your body during the transition, the hook loosens and the opponent can extract their arm. Think of the lasso leg as a rigid lever that the inversion amplifies.",
+        "answer_line": "Shin presses tricep, leg extended",
+        "distractors": {
+          "plausible": [
+            "Foot hooked, knee bent for speed",
+            "Shin pressure optional if hooked"
+          ],
+          "trap": [
+            "Let leg bend and retract inward"
+          ]
+        }
       },
       {
         "question": "What are the primary differences between the rolling inversion entry and the hip switch inversion entry?",
-        "answer": "The rolling inversion is a full backwards roll using momentum to carry you onto the shoulders in one fluid motion. It requires more space behind you but produces the strongest initial angle for immediate berimbolo entries. The hip switch inversion is a two-step process where you first rotate your hips to the opposite side before inverting, creating an angular change that precedes the full roll. The hip switch is slower but maintains tighter lasso control throughout and works when the opponent is applying heavy forward pressure that would block a full rolling entry. The hip switch also disguises the inversion because the initial movement looks like a standard sweep setup."
+        "answer": "The rolling inversion is a full backwards roll using momentum to carry you onto the shoulders in one fluid motion. It requires more space behind you but produces the strongest initial angle for immediate berimbolo entries. The hip switch inversion is a two-step process where you first rotate your hips to the opposite side before inverting, creating an angular change that precedes the full roll. The hip switch is slower but maintains tighter lasso control throughout and works when the opponent is applying heavy forward pressure that would block a full rolling entry. The hip switch also disguises the inversion because the initial movement looks like a standard sweep setup.",
+        "answer_line": "Rolling = fast; hip switch = tight",
+        "distractors": {
+          "plausible": [
+            "Rolling is slower but tighter",
+            "Hip switch needs more space"
+          ],
+          "trap": [
+            "Both are identical in mechanics"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping over your lasso leg as you initiate the inversion. What is your best response?",
-        "answer": "The step-over during inversion is one of the highest-effectiveness counters because it directly addresses the lasso hook. Recognize it immediately and abandon the inversion path. Instead, use the fact that the opponent is mid-step and has committed weight to one leg. Hook their far hip with your free leg and follow their stepping rotation to take the back, converting their counter into a back take opportunity. If the step-over is too far advanced for a back take, immediately transition to an omoplata attempt on the stepping leg, which is now extended and vulnerable due to the stepping motion."
+        "answer": "The step-over during inversion is one of the highest-effectiveness counters because it directly addresses the lasso hook. Recognize it immediately and abandon the inversion path. Instead, use the fact that the opponent is mid-step and has committed weight to one leg. Hook their far hip with your free leg and follow their stepping rotation to take the back, converting their counter into a back take opportunity. If the step-over is too far advanced for a back take, immediately transition to an omoplata attempt on the stepping leg, which is now extended and vulnerable due to the stepping motion.",
+        "answer_line": "Hook far hip, take the back",
+        "distractors": {
+          "plausible": [
+            "Re-hook the lasso immediately",
+            "Retract leg and reset guard"
+          ],
+          "trap": [
+            "Continue original inversion path"
+          ]
+        }
       },
       {
         "question": "How long should you remain in the inverted position after completing the transition, and why?",
-        "answer": "Maximum 2-3 seconds. The inverted position is transitional, not a holding position. Staying inverted longer than necessary drains energy rapidly because you are supporting your weight on the shoulders while maintaining elevated hips and constant lasso tension. Extended inversion also gives the opponent time to establish counter-grips, apply shoulder pressure, and adapt to your limited positional options. The goal is to use the inverted angle to immediately initiate a technique - berimbolo, overhead sweep, or kiss of the dragon - and then either complete it or return to upright lasso guard where energy expenditure is lower."
+        "answer": "Maximum 2-3 seconds. The inverted position is transitional, not a holding position. Staying inverted longer than necessary drains energy rapidly because you are supporting your weight on the shoulders while maintaining elevated hips and constant lasso tension. Extended inversion also gives the opponent time to establish counter-grips, apply shoulder pressure, and adapt to your limited positional options. The goal is to use the inverted angle to immediately initiate a technique - berimbolo, overhead sweep, or kiss of the dragon - and then either complete it or return to upright lasso guard where energy expenditure is lower.",
+        "answer_line": "2-3 seconds max, then act",
+        "distractors": {
+          "plausible": [
+            "5-10 seconds to set up sweep",
+            "As long as grips hold"
+          ],
+          "trap": [
+            "Hold position until fully secure"
+          ]
+        }
       }
     ],
     "safety_considerations": "The primary safety concern is cervical spine protection during the backwards roll. Always tuck the chin firmly to the chest before initiating the inversion and ensure weight lands across the shoulder blades, never on the neck. If you feel neck compression at any point, immediately abandon the technique and return to upright guard. Practitioners with existing neck injuries or limited cervical mobility should consult with their instructor before training this transition. Additionally, the lasso hook creates significant torque on the opponent's shoulder joint during the inversion - apply the movement smoothly rather than explosively to avoid injuring your training partner's shoulder. During drilling, communicate with your partner about the intensity of the lasso pressure.",
@@ -388,23 +468,73 @@
     "flashcards": [
       {
         "question": "What are the earliest visual and tactile cues that indicate the bottom player is about to transition to inverted lasso guard?",
-        "answer": "The earliest cues are: the bottom player angles their hips approximately 45 degrees toward the lasso side (creating their rolling path), you feel an upward and backward pull on your trapped arm as their hips begin to elevate, their non-lasso leg disengages from your hip and repositions to assist the roll, and their head and shoulders begin dropping backward. The hip angling is typically the very first indicator and occurs 1-2 seconds before the roll itself, providing the critical window for defensive response."
+        "answer": "The earliest cues are: the bottom player angles their hips approximately 45 degrees toward the lasso side (creating their rolling path), you feel an upward and backward pull on your trapped arm as their hips begin to elevate, their non-lasso leg disengages from your hip and repositions to assist the roll, and their head and shoulders begin dropping backward. The hip angling is typically the very first indicator and occurs 1-2 seconds before the roll itself, providing the critical window for defensive response.",
+        "answer_line": "Hips angle 45° toward lasso side",
+        "distractors": {
+          "plausible": [
+            "Head drops back is first cue",
+            "Free leg repositions first"
+          ],
+          "trap": [
+            "Wait for the full roll to react"
+          ]
+        }
       },
       {
         "question": "Why is maintaining connection more effective than creating distance when defending the inversion attempt?",
-        "answer": "Creating distance allows the bottom player to complete the inversion with superior angles and then freely deploy their free leg for berimbolo entries without obstruction. Space also enables them to generate more rotational momentum because there is no resistance during the rolling phase. Staying connected with strategic pressure points limits their hip mobility and prevents the rotation that makes inverted lasso dangerous. Your proximity means their movement is restricted, and any technique they attempt must overcome your structural resistance rather than rotating freely through open space."
+        "answer": "Creating distance allows the bottom player to complete the inversion with superior angles and then freely deploy their free leg for berimbolo entries without obstruction. Space also enables them to generate more rotational momentum because there is no resistance during the rolling phase. Staying connected with strategic pressure points limits their hip mobility and prevents the rotation that makes inverted lasso dangerous. Your proximity means their movement is restricted, and any technique they attempt must overcome your structural resistance rather than rotating freely through open space.",
+        "answer_line": "Stay connected, limit hip rotation",
+        "distractors": {
+          "plausible": [
+            "Create distance to see setup",
+            "Grip fight from neutral stance"
+          ],
+          "trap": [
+            "Back away to avoid the inversion"
+          ]
+        }
       },
       {
         "question": "The bottom player has completed the inversion and is now on their shoulders with hips elevated. What is the most dangerous mistake you can make at this point?",
-        "answer": "The most dangerous mistake is driving forward pressure directly into their elevated hips. When the bottom player is inverted with hips elevated, their position functions as a fulcrum - any forward pressure you apply gets redirected into rotational momentum that drives an overhead sweep. Your weight and forward drive become the energy source for their technique. Instead, angle pressure toward their shoulders and chest while keeping your hips back and base wide. This puts weight on their less mobile points without creating the lever arm they need for the sweep."
+        "answer": "The most dangerous mistake is driving forward pressure directly into their elevated hips. When the bottom player is inverted with hips elevated, their position functions as a fulcrum - any forward pressure you apply gets redirected into rotational momentum that drives an overhead sweep. Your weight and forward drive become the energy source for their technique. Instead, angle pressure toward their shoulders and chest while keeping your hips back and base wide. This puts weight on their less mobile points without creating the lever arm they need for the sweep.",
+        "answer_line": "Angle pressure to shoulders/chest",
+        "distractors": {
+          "plausible": [
+            "Keep hips forward, base narrow",
+            "Push down on their elevated hips"
+          ],
+          "trap": [
+            "Drive forward into their hips"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt arm extraction versus applying pressure to prevent the inversion?",
-        "answer": "Timing determines the choice. If you detect the inversion in its earliest phase (hip angling, before the roll begins), forward hip pressure is the most reliable counter because it prevents the inversion entirely. If the roll has already begun but is not yet complete, the transition moment stresses the sleeve grip and creates an extraction opportunity - the rotational forces make the grip harder to maintain. If the inversion is fully complete, neither option is optimal and you should focus on counter-rotation or cartwheel passing instead. The key is matching your defensive response to the phase of the inversion you are facing."
+        "answer": "Timing determines the choice. If you detect the inversion in its earliest phase (hip angling, before the roll begins), forward hip pressure is the most reliable counter because it prevents the inversion entirely. If the roll has already begun but is not yet complete, the transition moment stresses the sleeve grip and creates an extraction opportunity - the rotational forces make the grip harder to maintain. If the inversion is fully complete, neither option is optimal and you should focus on counter-rotation or cartwheel passing instead. The key is matching your defensive response to the phase of the inversion you are facing.",
+        "answer_line": "Match response to inversion phase",
+        "distractors": {
+          "plausible": [
+            "Always apply forward hip pressure",
+            "Always attempt arm extraction"
+          ],
+          "trap": [
+            "Wait until fully inverted to react"
+          ]
+        }
       },
       {
         "question": "How does the step-over defense work, and what risk does it carry?",
-        "answer": "The step-over defense involves lifting your lassoed-side leg over the bottom player's lasso leg during the early inversion phase to extract your arm from the hook entirely. It eliminates the lasso position completely, returning to neutral open guard. However, the step-over temporarily removes one leg from your base, reducing stability during a moment when the bottom player is actively attempting to off-balance you. Additionally, if the bottom player recognizes the step-over early, they can redirect their attack to take your back as you rotate, or transition to an omoplata on your stepping leg which is extended and vulnerable during the movement."
+        "answer": "The step-over defense involves lifting your lassoed-side leg over the bottom player's lasso leg during the early inversion phase to extract your arm from the hook entirely. It eliminates the lasso position completely, returning to neutral open guard. However, the step-over temporarily removes one leg from your base, reducing stability during a moment when the bottom player is actively attempting to off-balance you. Additionally, if the bottom player recognizes the step-over early, they can redirect their attack to take your back as you rotate, or transition to an omoplata on your stepping leg which is extended and vulnerable during the movement.",
+        "answer_line": "Step lassoed leg over to extract",
+        "distractors": {
+          "plausible": [
+            "Step over late in the roll",
+            "Step over both legs for base"
+          ],
+          "trap": [
+            "Step over slowly, telegraph it"
+          ]
+        }
       }
     ],
     "training_progressions": [

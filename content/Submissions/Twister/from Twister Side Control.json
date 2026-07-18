@@ -277,42 +277,122 @@
       {
         "question": "What anatomical structures does the Twister primarily attack and why are they vulnerable to rotational force?",
         "answer": "The Twister primarily attacks the cervical and thoracic spine through rotational torque, along with secondary stress on the shoulder girdle. These structures are vulnerable because the spine has limited rotational range of motion, especially when the lower body is anchored in one direction and the upper body is forced to rotate in the opposite direction. The intervertebral discs and spinal ligaments are not designed to withstand the opposing forces the twister creates between the fixed hips and rotating torso.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Spine's limited rotational range",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint hyperextension",
+            "Elbow and wrist hyperextension"
+          ],
+          "trap": [
+            "Knee ligament overextension"
+          ]
+        }
       },
       {
         "question": "Why must the near shoulder be driven completely to the mat before threading the arm under the head?",
         "answer": "The shoulder must be pinned flat because it eliminates the opponent's ability to rotate their torso defensively. If the shoulder retains any elevation, the opponent can turn into the attacker to block the arm thread or turn away to escape the position entirely. The pinned shoulder also pre-loads the spinal rotation that the finish requires, meaning less additional force is needed once the grip is secured. Skipping this step is the most common reason the arm thread fails.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Removes opponent's rotation defense",
+        "distractors": {
+          "plausible": [
+            "Tightens the choke mechanism",
+            "Frees the head for control"
+          ],
+          "trap": [
+            "Lets you switch to armbar"
+          ]
+        }
       },
       {
         "question": "What indicates that the Twister has reached the point of no return for the defender?",
         "answer": "The point of no return occurs when the attacker has secured the clasping grip behind the crown of the head with the opponent's far arm trapped, while maintaining full leg entanglement anchoring the hips. At this stage, the opponent cannot block the rotation because their defensive arm is trapped in the grip, their hips are fixed by the leg hooks, and the shoulder is already flattened. Any rotational pressure from this position directly loads the spine with no available defensive counter.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, arm trapped, hips fixed",
+        "distractors": {
+          "plausible": [
+            "Shoulder flattened, grip not set",
+            "Leg entanglement deep, no grip yet"
+          ],
+          "trap": [
+            "Opponent already tapping"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging as you attempt to thread the arm—what is the correct response to maintain position?",
         "answer": "Immediately post the outside leg wide to expand your base and absorb the bridging force. Do not chase the arm thread during the bridge—instead, ride the movement by keeping your hips heavy on the leg entanglement and your shoulder driving into their near shoulder. As the opponent settles back to the mat after the failed bridge, use that settling moment to re-establish shoulder pressure and reattempt the arm thread when they are flat and energy-depleted from the bridge effort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post wide, ride bridge, don't chase",
+        "distractors": {
+          "plausible": [
+            "Force the thread through bridge",
+            "Switch to darce mid-bridge"
+          ],
+          "trap": [
+            "Release grip to reset entry"
+          ]
+        }
       },
       {
         "question": "How should you release the Twister immediately after your partner taps?",
         "answer": "Upon any tap signal, immediately release the head and neck control by unclasping your grip and removing the arm from under their head. Then release all upper body grips to allow the opponent to turn face-up and decompress their spine. Finally, slowly unwind the leg entanglement without pulling or twisting. Let the opponent move naturally into a comfortable position. Always check with your partner verbally after release to confirm they are uninjured. Never maintain any aspect of the position after a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, then legs, check in",
+        "distractors": {
+          "plausible": [
+            "Unwind legs before hands",
+            "Hold position until they nod"
+          ],
+          "trap": [
+            "Twist legs out quickly"
+          ]
+        }
       },
       {
         "question": "What grip adjustments optimize the finishing rotation when the opponent resists through neck strength?",
         "answer": "If the opponent resists through neck strength alone, reposition the clasping grip lower behind the crown of the head rather than on top of it, which lengthens the lever arm and multiplies rotational force. Simultaneously, shift your hips slightly further from their head to increase the distance between the anchor point and the rotation point. These two adjustments dramatically increase mechanical advantage without requiring additional muscular force, overcoming neck strength resistance through superior leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip lower, hips further from head",
+        "distractors": {
+          "plausible": [
+            "Grip higher for more torque",
+            "Squeeze harder with both arms"
+          ],
+          "trap": [
+            "Release and reset the grip"
+          ]
+        }
       },
       {
         "question": "What are the key differences between finishing the Twister from Twister Side Control versus from the Truck?",
         "answer": "From twister side control, the attacker has a perpendicular angle that provides superior shoulder-driving leverage and a more stable base through the posted outside leg. The arm threading pathway is slightly different—approaching from the lateral side rather than from behind. The truck entry provides more direct spinal alignment for the rotation but less base stability. Twister side control requires more deliberate shoulder flattening before the arm thread, while the truck often allows faster grip acquisition but with higher reversal risk due to the attacker's positioning behind the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "More leverage vs faster grip access",
+        "distractors": {
+          "plausible": [
+            "Truck has more base stability",
+            "Both use identical arm pathway"
+          ],
+          "trap": [
+            "Twister SC allows faster finish"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic factors determine whether to commit to the Twister finish versus transitioning to an alternative submission?",
         "answer": "Commit to the twister when: the arm thread is unobstructed, the shoulder is fully pinned, and the leg entanglement is deep and secure. Transition away when: the arm thread is blocked twice consecutively, the leg entanglement is becoming shallow, or the opponent is successfully creating upper body frames. Time remaining matters—the twister setup is time-intensive, so with limited time, faster alternatives like the darce choke on a turn-in or back take on a turn-away may be higher percentage. Energy expenditure should also factor in, as forcing a defended twister depletes resources needed for alternatives.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit only if thread is open",
+        "distractors": {
+          "plausible": [
+            "Commit whenever hooks feel deep",
+            "Always finish once grip starts"
+          ],
+          "trap": [
+            "Force it if time is running out"
+          ]
+        }
       }
     ],
     "clips": [
@@ -422,27 +502,77 @@
       {
         "question": "How do you recognize that the Twister from Twister Side Control is being set up before the grip is secured?",
         "answer": "Key recognition cues include the opponent reaching their far arm toward and under your head, increasing rotational torque felt in the spine as shoulder pressure drives you flat while hips remain elevated, and the opponent hunting for your far wrist to complete the clasping grip. The earliest cue is the shoulder being driven to the mat with lateral pressure while the leg entanglement restricts your lower body—this is the precursor positioning that precedes the arm thread.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder flattening, hips restricted",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar first",
+            "Sudden knee pressure on ribs"
+          ],
+          "trap": [
+            "Opponent releases leg entanglement"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Twister and when should you tap?",
         "answer": "Tap verbally as the primary signal since your hands may be trapped or restricted by the submission mechanics. Supplement with physical taps on the opponent's body or the mat with whichever hand is accessible. Tap immediately when you feel rotational pressure on the spine that you cannot structurally resist—do not wait to see if you can escape. The twister attacks the cervical and thoracic spine where injuries can be permanent, so the threshold for tapping should be much lower than for joint locks on the limbs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap verbally, don't wait to escape",
+        "distractors": {
+          "plausible": [
+            "Tap only when hands are free",
+            "Wait to see if you can escape"
+          ],
+          "trap": [
+            "Try to power through the rotation"
+          ]
+        }
       },
       {
         "question": "Why is the arm thread the critical defensive window and what happens if you fail to block it?",
         "answer": "The arm thread is the critical window because once the attacker's arm passes under your head and connects to your far wrist in a clasping grip, you lose the ability to block the spinal rotation. Your defensive arm is now trapped within the grip mechanism itself, your shoulder is already pinned, and the only remaining action is the rotational force application. Before the grip connects, you can use both hands to block the arm, tuck your chin, and frame against the forearm. After the grip connects, defensive options shrink to bridging and hoping the attacker's base fails.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip connects, defense options end",
+        "distractors": {
+          "plausible": [
+            "Only your chin tuck is lost",
+            "Only your bridge escape is lost"
+          ],
+          "trap": [
+            "You can still strip the grip easily"
+          ]
+        }
       },
       {
         "question": "What defensive options are available if the attacker has already secured the clasping grip behind your head?",
         "answer": "Options are severely limited at this stage. The primary defense is an explosive bridge timed with the attacker's initial rotation to disrupt their base before full torque is applied. You can attempt to strip the grip by prying at the clasped hands with your free hand if one is available. If you feel spinal pressure beginning, tap immediately—do not attempt to power through the rotation. At this point, successful defense probability is very low, which is why blocking the arm thread earlier is so critical.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridge early, tap if pressure builds",
+        "distractors": {
+          "plausible": [
+            "Strip grip with free hand only",
+            "Power through with neck strength"
+          ],
+          "trap": [
+            "Wait for opponent to tire out"
+          ]
+        }
       },
       {
         "question": "How should you sequence the escape if you successfully block the arm thread?",
         "answer": "After blocking the arm thread, maintain chin tuck and hand frames while immediately working to establish structural elbow frames against the opponent's shoulder pressure. With the immediate submission threat neutralized, shift focus to extracting the legs from entanglement using hip extension and small circular movements. Only after achieving partial leg extraction and maintaining upper body frames should you attempt the full escape: turn toward the opponent's legs, hip escape to create distance, and recover to half guard or closed guard. Rushing this sequence risks re-exposing the neck for another thread attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame first, then extract legs",
+        "distractors": {
+          "plausible": [
+            "Extract legs before framing up",
+            "Bridge immediately for distance"
+          ],
+          "trap": [
+            "Rush straight to full escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

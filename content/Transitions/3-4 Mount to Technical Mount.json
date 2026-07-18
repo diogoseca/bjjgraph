@@ -253,43 +253,143 @@
     "flashcards": [
       {
         "question": "When is the optimal timing window for initiating the 3-4 Mount to Technical Mount transition?",
-        "answer": "The optimal window opens when the bottom player commits to turning their shoulders away from the mounted side or extends an arm defensively against your chest or hip. These reactions create the arm exposure needed for isolation and the body alignment that facilitates leg repositioning. Never initiate when the opponent is settled with elbows tight and shoulders flat—wait for or force a reaction first."
+        "answer": "The optimal window opens when the bottom player commits to turning their shoulders away from the mounted side or extends an arm defensively against your chest or hip. These reactions create the arm exposure needed for isolation and the body alignment that facilitates leg repositioning. Never initiate when the opponent is settled with elbows tight and shoulders flat—wait for or force a reaction first.",
+        "answer_line": "Wait for shoulder turn or arm reach",
+        "distractors": {
+          "plausible": [
+            "Move as soon as mount is set",
+            "Wait until opponent goes still"
+          ],
+          "trap": [
+            "Attack when elbows are tight"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges toward your posted leg during the transition attempt—how do you adjust?",
-        "answer": "Ride the bridge by keeping your inside hook tight and driving your posted leg into the mat for stability. If their bridge creates momentum toward the arm-controlled side, use that energy to accelerate into the armbar by swinging your leg over immediately. If the bridge disrupts your base significantly, flow with it to side control or knee on belly rather than fighting back to mount against their momentum."
+        "answer": "Ride the bridge by keeping your inside hook tight and driving your posted leg into the mat for stability. If their bridge creates momentum toward the arm-controlled side, use that energy to accelerate into the armbar by swinging your leg over immediately. If the bridge disrupts your base significantly, flow with it to side control or knee on belly rather than fighting back to mount against their momentum.",
+        "answer_line": "Ride the bridge, adapt to momentum",
+        "distractors": {
+          "plausible": [
+            "Stop and reset to flat mount",
+            "Power through with base alone"
+          ],
+          "trap": [
+            "Fight back to mount against it"
+          ]
+        }
       },
       {
         "question": "What grip must you secure before repositioning your legs, and why is this non-negotiable?",
-        "answer": "You must secure a two-on-one grip on the near-side arm—one hand on the wrist controlling rotation and one hand above the elbow preventing retraction. This is non-negotiable because Technical Mount without arm isolation has no submission threat. Repositioning your legs while the opponent's arms are free creates an unstable position where they can frame, bridge, and escape during the transition window when your base is compromised."
+        "answer": "You must secure a two-on-one grip on the near-side arm—one hand on the wrist controlling rotation and one hand above the elbow preventing retraction. This is non-negotiable because Technical Mount without arm isolation has no submission threat. Repositioning your legs while the opponent's arms are free creates an unstable position where they can frame, bridge, and escape during the transition window when your base is compromised.",
+        "answer_line": "Two-on-one grip before legs move",
+        "distractors": {
+          "plausible": [
+            "Grip wrist only, then move legs",
+            "Secure legs first, then grip arm"
+          ],
+          "trap": [
+            "Skip the grip if legs move fast"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the leg repositioning phase?",
-        "answer": "Both legs must move simultaneously as a coordinated unit—the posted knee slides up toward the head while the inside leg tucks underneath the opponent's body in the same motion. Moving them sequentially creates a gap where neither leg provides proper function, opening escape windows. The simultaneity also masks the transition from the bottom player, who feels continuous pressure rather than the telltale weight shift of sequential leg movement."
+        "answer": "Both legs must move simultaneously as a coordinated unit—the posted knee slides up toward the head while the inside leg tucks underneath the opponent's body in the same motion. Moving them sequentially creates a gap where neither leg provides proper function, opening escape windows. The simultaneity also masks the transition from the bottom player, who feels continuous pressure rather than the telltale weight shift of sequential leg movement.",
+        "answer_line": "Move both legs simultaneously",
+        "distractors": {
+          "plausible": [
+            "Slide posted knee up first",
+            "Tuck inside leg, then knee up"
+          ],
+          "trap": [
+            "Move legs one at a time slowly"
+          ]
+        }
       },
       {
         "question": "Your opponent clamps their elbows tight and refuses to extend any arm—what do you do to create the entry?",
-        "answer": "Apply sustained crossface pressure to force them to turn away from the discomfort, which naturally extends the far arm. Alternatively, threaten an Americana or Ezekiel choke to force a defensive arm reaction that creates the extension you need. You can also simply maintain heavy 3-4 Mount pressure and threaten the S-Mount transition on the other side—the bottom player cannot defend both directions simultaneously, and eventually one arm will extend to address a threat."
+        "answer": "Apply sustained crossface pressure to force them to turn away from the discomfort, which naturally extends the far arm. Alternatively, threaten an Americana or Ezekiel choke to force a defensive arm reaction that creates the extension you need. You can also simply maintain heavy 3-4 Mount pressure and threaten the S-Mount transition on the other side—the bottom player cannot defend both directions simultaneously, and eventually one arm will extend to address a threat.",
+        "answer_line": "Crossface or threaten a submission",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow open with hands",
+            "Wait passively for arm to open"
+          ],
+          "trap": [
+            "Force the arm straight by hand"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change between maintaining 3-4 Mount and entering Technical Mount?",
-        "answer": "In 3-4 Mount, force is directed downward through the hips and chest into the opponent's torso, creating compression pressure. During the Technical Mount entry, force redirects forward and laterally toward the controlled arm side—your weight shifts from center-mass compression to angular pressure pinning the opponent's shoulder to the mat. This directional change is what creates the armbar angle but also what makes the transition vulnerable to well-timed bridges."
+        "answer": "In 3-4 Mount, force is directed downward through the hips and chest into the opponent's torso, creating compression pressure. During the Technical Mount entry, force redirects forward and laterally toward the controlled arm side—your weight shifts from center-mass compression to angular pressure pinning the opponent's shoulder to the mat. This directional change is what creates the armbar angle but also what makes the transition vulnerable to well-timed bridges.",
+        "answer_line": "Shift from downward to lateral",
+        "distractors": {
+          "plausible": [
+            "Keep pressure straight down",
+            "Shift weight toward their head"
+          ],
+          "trap": [
+            "Lean back off their chest"
+          ]
+        }
       },
       {
         "question": "The transition is blocked because your opponent frames against your hip with their free arm—what chain attack opens up?",
-        "answer": "Their framing arm is now extended and exposed. Swim your hand underneath their forearm to establish a gift wrap control, trapping their arm across their own body. This gift wrap gives you superior control for completing the Technical Mount transition with both arms now controlled, or you can redirect to attack the newly exposed framing arm with an Americana. Their defensive frame becomes your offensive opportunity—this is the cascading dilemma principle in action."
+        "answer": "Their framing arm is now extended and exposed. Swim your hand underneath their forearm to establish a gift wrap control, trapping their arm across their own body. This gift wrap gives you superior control for completing the Technical Mount transition with both arms now controlled, or you can redirect to attack the newly exposed framing arm with an Americana. Their defensive frame becomes your offensive opportunity—this is the cascading dilemma principle in action.",
+        "answer_line": "Swim under to gift wrap the arm",
+        "distractors": {
+          "plausible": [
+            "Grab the wrist and pull it out",
+            "Push the arm back down flat"
+          ],
+          "trap": [
+            "Ignore the frame and keep going"
+          ]
+        }
       },
       {
         "question": "What specific wrist grip configuration provides maximum control during the arm isolation phase?",
-        "answer": "In the gi, grip the sleeve at the wrist with four fingers inside the cuff, thumb outside, creating a rotational lock that prevents the opponent from spinning their arm free. In no-gi, use a deep C-grip wrapping around the wrist with your thumb on top and fingers curling underneath the wrist bone. The wrist grip hand should be your hand closest to the opponent's feet, while your head-side hand controls the elbow or tricep. This configuration prevents both rotation and retraction simultaneously."
+        "answer": "In the gi, grip the sleeve at the wrist with four fingers inside the cuff, thumb outside, creating a rotational lock that prevents the opponent from spinning their arm free. In no-gi, use a deep C-grip wrapping around the wrist with your thumb on top and fingers curling underneath the wrist bone. The wrist grip hand should be your hand closest to the opponent's feet, while your head-side hand controls the elbow or tricep. This configuration prevents both rotation and retraction simultaneously.",
+        "answer_line": "Deep wrist grip, hand near feet",
+        "distractors": {
+          "plausible": [
+            "Grip forearm with both hands",
+            "Wrist grip nearest their head"
+          ],
+          "trap": [
+            "Loose grip near the elbow only"
+          ]
+        }
       },
       {
         "question": "You successfully reach Technical Mount but your inside hook is shallow and the opponent begins sliding their hips away—how do you recover?",
-        "answer": "Immediately drive your inside hook deeper by scooping your foot underneath their lower back or hip, pulling their body back toward you with the hook. Simultaneously increase forward pressure with your chest onto their shoulder to pin them in place while you adjust. If the hook cannot be recovered, abandon Technical Mount and drop your weight back into consolidated mount or knee on belly before they complete the escape. A shallow hook that allows hip movement will progressively worsen—fix it immediately or transition out."
+        "answer": "Immediately drive your inside hook deeper by scooping your foot underneath their lower back or hip, pulling their body back toward you with the hook. Simultaneously increase forward pressure with your chest onto their shoulder to pin them in place while you adjust. If the hook cannot be recovered, abandon Technical Mount and drop your weight back into consolidated mount or knee on belly before they complete the escape. A shallow hook that allows hip movement will progressively worsen—fix it immediately or transition out.",
+        "answer_line": "Deepen the hook, add chest pressure",
+        "distractors": {
+          "plausible": [
+            "Hold position and wait it out",
+            "Switch grips before fixing hook"
+          ],
+          "trap": [
+            "Chase the hips across the mat"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to pursue the armbar or the back take once Technical Mount is established?",
-        "answer": "Read the opponent's shoulder orientation. If they remain flat or turn toward you with their shoulder on the mat, the armbar is available—their arm is extended and their body is aligned for the swing-over finish. If they turn away from you, exposing their back and pulling their arm toward their body, abandon the armbar immediately and transition to back control by following their rotation with seat belt grip and hook insertion. The opponent's defensive choice determines your attack—never force one option when the other is clearly presented."
+        "answer": "Read the opponent's shoulder orientation. If they remain flat or turn toward you with their shoulder on the mat, the armbar is available—their arm is extended and their body is aligned for the swing-over finish. If they turn away from you, exposing their back and pulling their arm toward their body, abandon the armbar immediately and transition to back control by following their rotation with seat belt grip and hook insertion. The opponent's defensive choice determines your attack—never force one option when the other is clearly presented.",
+        "answer_line": "Shoulder direction picks attack",
+        "distractors": {
+          "plausible": [
+            "Always finish the armbar first",
+            "Take the back whenever open"
+          ],
+          "trap": [
+            "Force armbar if they turn away"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and shoulder during leg repositioning. Apply weight shifts gradually during drilling to avoid rib compression injuries. When training the arm isolation component, release immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive knee slides toward the head during initial learning phases, as accidental contact with the face or jaw can occur. Partners should communicate clearly about pressure tolerance, and the top player should check in during early repetitions before applying full transition speed.",
@@ -397,11 +497,31 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is transitioning from 3-4 Mount to Technical Mount?",
-        "answer": "The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal."
+        "answer": "The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal.",
+        "answer_line": "Two-on-one grip on your arm",
+        "distractors": {
+          "plausible": [
+            "Sudden weight shift onto chest",
+            "Knee sliding up the mat"
+          ],
+          "trap": [
+            "No warning signs exist at all"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sliding their knee toward your head—what is your immediate response?",
-        "answer": "Immediately bridge toward the mounted side where their inside knee was positioned, then shrimp your hips away toward the advancing knee side to begin half guard recovery. The leg repositioning phase is when their base is most compromised, making this the optimal moment for a disruptive bridge. Simultaneously, clamp your near-side elbow tight to deny any further arm isolation. Speed is critical—you have approximately two seconds before the Technical Mount is established."
+        "answer": "Immediately bridge toward the mounted side where their inside knee was positioned, then shrimp your hips away toward the advancing knee side to begin half guard recovery. The leg repositioning phase is when their base is most compromised, making this the optimal moment for a disruptive bridge. Simultaneously, clamp your near-side elbow tight to deny any further arm isolation. Speed is critical—you have approximately two seconds before the Technical Mount is established.",
+        "answer_line": "Bridge then shrimp to half guard",
+        "distractors": {
+          "plausible": [
+            "Shrimp away immediately, no bridge",
+            "Wait, then bridge after they settle"
+          ],
+          "trap": [
+            "Relax and let the knee slide in"
+          ]
+        }
       },
       {
         "question": "When should you prioritize recovering half guard versus blocking the transition in place?",
@@ -409,19 +529,59 @@
       },
       {
         "question": "What body position error makes you most vulnerable to this transition?",
-        "answer": "Lying flat on your back with arms extended or framing against the attacker's chest with straight elbows. This position provides the attacker with easy arm isolation targets and eliminates your ability to create defensive angles through hip movement. The flat position also makes your shoulders easily pinnable, which is exactly the condition the attacker needs to shift weight forward and begin the Technical Mount entry sequence. Staying on your side with elbows tight is the corrective position."
+        "answer": "Lying flat on your back with arms extended or framing against the attacker's chest with straight elbows. This position provides the attacker with easy arm isolation targets and eliminates your ability to create defensive angles through hip movement. The flat position also makes your shoulders easily pinnable, which is exactly the condition the attacker needs to shift weight forward and begin the Technical Mount entry sequence. Staying on your side with elbows tight is the corrective position.",
+        "answer_line": "Lying flat with arms extended",
+        "distractors": {
+          "plausible": [
+            "Framing hard with bent elbows",
+            "Sitting up to post hands"
+          ],
+          "trap": [
+            "Extend both arms to push off"
+          ]
+        }
       },
       {
         "question": "How does turning away from the attacker create vulnerability to Technical Mount entry?",
-        "answer": "Turning away rotates your shoulder off the mat and extends your near-side arm away from your body, creating exactly the arm exposure the attacker needs for isolation. The turning motion also aligns your body at the angle that makes the attacker's leg repositioning natural and easy—their posted knee slides into position along the path your rotation creates. Many experienced attackers deliberately apply crossface pressure to provoke this turning reaction because it hands them the transition on a plate."
+        "answer": "Turning away rotates your shoulder off the mat and extends your near-side arm away from your body, creating exactly the arm exposure the attacker needs for isolation. The turning motion also aligns your body at the angle that makes the attacker's leg repositioning natural and easy—their posted knee slides into position along the path your rotation creates. Many experienced attackers deliberately apply crossface pressure to provoke this turning reaction because it hands them the transition on a plate.",
+        "answer_line": "Turning exposes shoulder and arm",
+        "distractors": {
+          "plausible": [
+            "Turning protects the near arm",
+            "Turning blocks the knee slide"
+          ],
+          "trap": [
+            "Turn away to escape crossface"
+          ]
+        }
       },
       {
         "question": "The attacker has already secured arm control and begun sliding their knee—what is your last-resort defensive option?",
-        "answer": "Once arm control is established and the knee is moving, your best option is an explosive bridge timed to the exact moment their posted leg lifts off the mat during repositioning. Bridge toward the mounted side and immediately shrimp your hips away to insert a knee shield for half guard recovery. If the bridge fails to dislodge them, immediately grip your own wrist with your free hand to create a gable grip on the controlled arm, preventing full extension and buying time to work escapes from the now-established Technical Mount."
+        "answer": "Once arm control is established and the knee is moving, your best option is an explosive bridge timed to the exact moment their posted leg lifts off the mat during repositioning. Bridge toward the mounted side and immediately shrimp your hips away to insert a knee shield for half guard recovery. If the bridge fails to dislodge them, immediately grip your own wrist with your free hand to create a gable grip on the controlled arm, preventing full extension and buying time to work escapes from the now-established Technical Mount.",
+        "answer_line": "Timed bridge, then gable grip",
+        "distractors": {
+          "plausible": [
+            "Pull your arm straight back",
+            "Stay still and conserve energy"
+          ],
+          "trap": [
+            "Push off their hips to stand"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive strategy if the attacker uses the turn-chase variant with heavy crossface pressure?",
-        "answer": "When the attacker drives crossface to force you to turn, resist the urge to turn away. Instead, frame against their crossface shoulder with your near-side forearm and use the opposite hand to control their wrist or sleeve on the crossface side. Bridge into the crossface pressure rather than away from it, which disrupts their ability to generate the turning force. If you are forced to turn despite resistance, turn into the attacker to establish an underhook rather than away, which denies the arm exposure they need and creates a path to recover half guard with offensive underhook control."
+        "answer": "When the attacker drives crossface to force you to turn, resist the urge to turn away. Instead, frame against their crossface shoulder with your near-side forearm and use the opposite hand to control their wrist or sleeve on the crossface side. Bridge into the crossface pressure rather than away from it, which disrupts their ability to generate the turning force. If you are forced to turn despite resistance, turn into the attacker to establish an underhook rather than away, which denies the arm exposure they need and creates a path to recover half guard with offensive underhook control.",
+        "answer_line": "Frame in, bridge into pressure",
+        "distractors": {
+          "plausible": [
+            "Turn away to relieve pressure",
+            "Bridge away from the crossface"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       }
     ],
     "training_progressions": [

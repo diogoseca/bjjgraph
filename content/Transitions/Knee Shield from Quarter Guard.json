@@ -254,31 +254,101 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for inserting the knee shield from quarter guard?",
-        "answer": "The optimal window is within the first three to five seconds of entering quarter guard, before the top player can settle their weight and eliminate the space needed for knee insertion. The best specific moment is immediately after establishing frames and completing the hip escape, when the lateral distance is at its maximum. Delaying beyond five seconds typically results in the top player consolidating pressure that makes recovery exponentially harder with each passing second."
+        "answer": "The optimal window is within the first three to five seconds of entering quarter guard, before the top player can settle their weight and eliminate the space needed for knee insertion. The best specific moment is immediately after establishing frames and completing the hip escape, when the lateral distance is at its maximum. Delaying beyond five seconds typically results in the top player consolidating pressure that makes recovery exponentially harder with each passing second.",
+        "answer_line": "First 3-5 seconds after entry",
+        "distractors": {
+          "plausible": [
+            "Within the first 10 seconds",
+            "Insert immediately, skip frames"
+          ],
+          "trap": [
+            "After they establish crossface"
+          ]
+        }
       },
       {
         "question": "Which leg should you use for the knee shield when recovering from quarter guard and why?",
-        "answer": "Always use the near-side leg—the leg closest to the opponent's body. This leg has the shortest travel path to cross the opponent's centerline, requiring only a single knee drive from the hip escape angle. The far leg would need to travel twice the distance, taking longer and exposing your hips during the extended insertion. The near-side leg can be inserted in under one second with proper hip angle, while the far leg would take two to three seconds and telegraph the intention."
+        "answer": "Always use the near-side leg—the leg closest to the opponent's body. This leg has the shortest travel path to cross the opponent's centerline, requiring only a single knee drive from the hip escape angle. The far leg would need to travel twice the distance, taking longer and exposing your hips during the extended insertion. The near-side leg can be inserted in under one second with proper hip angle, while the far leg would take two to three seconds and telegraph the intention.",
+        "answer_line": "Near-side leg, shortest path",
+        "distractors": {
+          "plausible": [
+            "Far-side leg for more reach",
+            "Either leg, doesn't matter"
+          ],
+          "trap": [
+            "Far-side leg to hide intent"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that creates space for knee insertion?",
-        "answer": "The critical movement is a committed hip escape (shrimp) that moves your hips six to eight inches laterally away from the opponent's centerline while simultaneously turning you onto your side at a thirty to forty-five degree angle. This creates a diagonal corridor between your hip and the opponent's torso through which your knee can travel. The hip escape must be explosive and decisive—a partial or tentative shrimp creates insufficient space and wastes the brief window created by your frames."
+        "answer": "The critical movement is a committed hip escape (shrimp) that moves your hips six to eight inches laterally away from the opponent's centerline while simultaneously turning you onto your side at a thirty to forty-five degree angle. This creates a diagonal corridor between your hip and the opponent's torso through which your knee can travel. The hip escape must be explosive and decisive—a partial or tentative shrimp creates insufficient space and wastes the brief window created by your frames.",
+        "answer_line": "Explosive hip escape, turn side",
+        "distractors": {
+          "plausible": [
+            "Small hip shift, stay flat",
+            "Turn hips square to opponent"
+          ],
+          "trap": [
+            "Bridge up instead of shrimping"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure as you attempt the knee shield insertion—how do you adjust your approach?",
-        "answer": "When facing heavy crossface, do not fight it head-on. Turn your head away from the crossface to reduce its effectiveness while driving your forearm frame into their chest to create separation. If the crossface is already deeply locked, abandon the knee shield attempt and instead enter deep half guard by scooping underneath their weight—their forward commitment to the crossface actually facilitates the deep half entry. The key decision point is whether your frames can create space despite the crossface: if yes, proceed with knee shield; if no, redirect to deep half."
+        "answer": "When facing heavy crossface, do not fight it head-on. Turn your head away from the crossface to reduce its effectiveness while driving your forearm frame into their chest to create separation. If the crossface is already deeply locked, abandon the knee shield attempt and instead enter deep half guard by scooping underneath their weight—their forward commitment to the crossface actually facilitates the deep half entry. The key decision point is whether your frames can create space despite the crossface: if yes, proceed with knee shield; if no, redirect to deep half.",
+        "answer_line": "Turn head away, frame forearm",
+        "distractors": {
+          "plausible": [
+            "Push forehead into crossface",
+            "Grip fight the crossfacing arm"
+          ],
+          "trap": [
+            "Force the knee shield through"
+          ]
+        }
       },
       {
         "question": "What grip should you establish immediately after successfully inserting the knee shield?",
-        "answer": "In gi, the primary grip is a cross-collar grip with the hand on the shield side combined with a sleeve grip on the opposite side, creating a push-pull dynamic that reinforces the shield structure. In no-gi, establish an underhook on the non-shield side or a collar tie to anchor the upper body connection. The grip must be established within one second of knee insertion—without it, the shield is a temporary barrier that the opponent can pressure through or collapse within three to four seconds."
+        "answer": "In gi, the primary grip is a cross-collar grip with the hand on the shield side combined with a sleeve grip on the opposite side, creating a push-pull dynamic that reinforces the shield structure. In no-gi, establish an underhook on the non-shield side or a collar tie to anchor the upper body connection. The grip must be established within one second of knee insertion—without it, the shield is a temporary barrier that the opponent can pressure through or collapse within three to four seconds.",
+        "answer_line": "Cross-collar + opposite sleeve",
+        "distractors": {
+          "plausible": [
+            "Both hands on the collar",
+            "Underhook on both sides"
+          ],
+          "trap": [
+            "Skip grip, rely on knee alone"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to attempt knee shield recovery versus transitioning to deep half guard from quarter guard?",
-        "answer": "The decision depends on the opponent's weight distribution and your available space. If opponent's weight is distributed evenly or slightly back and your frames can create lateral space, attempt the knee shield—you have the room for your knee to travel across. If opponent has committed heavy forward pressure with deep crossface and chest-to-chest connection, redirect to deep half guard by scooping underneath their weight center instead. The dividing line is whether your forearm frames can push their chest away from yours by at least four inches—if yes, knee shield; if no, deep half."
+        "answer": "The decision depends on the opponent's weight distribution and your available space. If opponent's weight is distributed evenly or slightly back and your frames can create lateral space, attempt the knee shield—you have the room for your knee to travel across. If opponent has committed heavy forward pressure with deep crossface and chest-to-chest connection, redirect to deep half guard by scooping underneath their weight center instead. The dividing line is whether your forearm frames can push their chest away from yours by at least four inches—if yes, knee shield; if no, deep half.",
+        "answer_line": "Frames push chest 4+ inches",
+        "distractors": {
+          "plausible": [
+            "Opponent's belt level",
+            "Your own hip flexibility"
+          ],
+          "trap": [
+            "Always force the knee shield"
+          ]
+        }
       },
       {
         "question": "Your opponent pins your near-side knee with their hand as you begin the insertion—what is your immediate response?",
-        "answer": "Use your free hand to strip their grip on your knee while simultaneously executing another hip escape to change the insertion angle. Their hand commitment to your knee means they have released either crossface or hip control, creating a different opening. If you cannot strip the grip quickly, redirect to an alternative recovery: use the free far-side leg to establish a butterfly hook instead of the knee shield, or transition the underhook into a back take attempt since their hand is occupied and not defending their back."
+        "answer": "Use your free hand to strip their grip on your knee while simultaneously executing another hip escape to change the insertion angle. Their hand commitment to your knee means they have released either crossface or hip control, creating a different opening. If you cannot strip the grip quickly, redirect to an alternative recovery: use the free far-side leg to establish a butterfly hook instead of the knee shield, or transition the underhook into a back take attempt since their hand is occupied and not defending their back.",
+        "answer_line": "Strip grip, re-angle hip escape",
+        "distractors": {
+          "plausible": [
+            "Push knee through with force",
+            "Switch to far-side knee shield"
+          ],
+          "trap": [
+            "Freeze and wait for an opening"
+          ]
+        }
       },
       {
         "question": "What are the three sequential steps that must occur before the knee can be successfully inserted?",
@@ -400,19 +470,59 @@
     "flashcards": [
       {
         "question": "What is the earliest cue that your opponent is attempting knee shield recovery from quarter guard?",
-        "answer": "The earliest cues are forearm frames appearing against your chest or shoulder and the beginning of hip rotation away from you. These precede the actual knee insertion by one to two seconds. By the time you see the knee lifting, the recovery sequence is already in progress. Experienced bottom players disguise the recovery by establishing frames gradually, so feel for pressure changes against your torso rather than watching for visual cues."
+        "answer": "The earliest cues are forearm frames appearing against your chest or shoulder and the beginning of hip rotation away from you. These precede the actual knee insertion by one to two seconds. By the time you see the knee lifting, the recovery sequence is already in progress. Experienced bottom players disguise the recovery by establishing frames gradually, so feel for pressure changes against your torso rather than watching for visual cues.",
+        "answer_line": "Frames appear, hips start turning",
+        "distractors": {
+          "plausible": [
+            "Knee lifting off the mat",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Wait until shield is set"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pressure when you feel the bottom player beginning to hip escape?",
-        "answer": "Immediately increase crossface pressure by driving your shoulder harder against their face and follow their hip movement with your own hips, closing the gap they are creating. Do not let their hip escape create lateral distance—track their movement with your chest and hips as a connected unit. If you lose the race to close the gap, accelerate your pass completion by driving your knee across their centerline to beat their knee shield to the same space."
+        "answer": "Immediately increase crossface pressure by driving your shoulder harder against their face and follow their hip movement with your own hips, closing the gap they are creating. Do not let their hip escape create lateral distance—track their movement with your chest and hips as a connected unit. If you lose the race to close the gap, accelerate your pass completion by driving your knee across their centerline to beat their knee shield to the same space.",
+        "answer_line": "Increase crossface, track hips",
+        "distractors": {
+          "plausible": [
+            "Back off to reassess",
+            "Switch base to opposite side"
+          ],
+          "trap": [
+            "Ease off, let them create space"
+          ]
+        }
       },
       {
         "question": "What is the risk of trying to force past an established knee shield versus preventing its insertion?",
-        "answer": "Forcing through an established knee shield requires three to five times more energy than preventing insertion, and success rate drops from approximately eighty percent prevention to thirty percent forced removal. An established shield with grips creates a structural frame that redirects your forward pressure upward rather than through the bottom player. Additionally, attempting to smash through an established shield often exposes you to sweeps as the bottom player uses your forward commitment against you. Prevention during the first two seconds is always superior to removal after establishment."
+        "answer": "Forcing through an established knee shield requires three to five times more energy than preventing insertion, and success rate drops from approximately eighty percent prevention to thirty percent forced removal. An established shield with grips creates a structural frame that redirects your forward pressure upward rather than through the bottom player. Additionally, attempting to smash through an established shield often exposes you to sweeps as the bottom player uses your forward commitment against you. Prevention during the first two seconds is always superior to removal after establishment.",
+        "answer_line": "3-5x more energy, less success",
+        "distractors": {
+          "plausible": [
+            "Takes longer, same success odds",
+            "Only risk is losing position"
+          ],
+          "trap": [
+            "No real risk, just push through"
+          ]
+        }
       },
       {
         "question": "When should you abandon trying to prevent knee shield recovery and instead accept the new position?",
-        "answer": "Once the knee has crossed your centerline and the bottom player has secured upper body grips (collar, sleeve, or underhook), the knee shield is functionally established. At this point, continuing to fight the shield wastes energy and creates vulnerability. Accept that you are now in Knee Shield Half Guard top and immediately transition to the appropriate passing strategy for that position—typically smash pass, long step pass, or knee slice depending on their specific shield configuration. Acceptance and strategic adaptation is faster than futile resistance."
+        "answer": "Once the knee has crossed your centerline and the bottom player has secured upper body grips (collar, sleeve, or underhook), the knee shield is functionally established. At this point, continuing to fight the shield wastes energy and creates vulnerability. Accept that you are now in Knee Shield Half Guard top and immediately transition to the appropriate passing strategy for that position—typically smash pass, long step pass, or knee slice depending on their specific shield configuration. Acceptance and strategic adaptation is faster than futile resistance.",
+        "answer_line": "Knee crosses line, grips secured",
+        "distractors": {
+          "plausible": [
+            "As soon as knee starts lifting",
+            "When they secure any grip"
+          ],
+          "trap": [
+            "Never accept, keep fighting it"
+          ]
+        }
       }
     ],
     "training_progressions": [

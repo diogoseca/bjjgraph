@@ -247,60 +247,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Turtle to Truck Entry and how does it differ from a traditional back take?",
-        "answer": "The primary goal is to thread a leg hook through the opponent's legs and establish the initial leg triangle that defines Truck position. Unlike a traditional back take which targets seatbelt control and hook insertion on the opponent's hips, the Truck entry targets leg entanglement that controls the opponent's lower body. This creates a fundamentally different attacking framework: the Truck opens access to the Twister submission system, calf slicers, and banana splits rather than the rear naked choke and collar attacks of standard back control."
+        "answer": "The primary goal is to thread a leg hook through the opponent's legs and establish the initial leg triangle that defines Truck position. Unlike a traditional back take which targets seatbelt control and hook insertion on the opponent's hips, the Truck entry targets leg entanglement that controls the opponent's lower body. This creates a fundamentally different attacking framework: the Truck opens access to the Twister submission system, calf slicers, and banana splits rather than the rear naked choke and collar attacks of standard back control.",
+        "answer_line": "Leg entanglement, not seatbelt",
+        "distractors": {
+          "plausible": [
+            "Seatbelt control and hooks",
+            "Control hips, chase the RNC"
+          ],
+          "trap": [
+            "Flatten them, hunt for neck"
+          ]
+        }
       },
       {
         "question": "Which leg should you thread first during the entry and why is using the wrong leg a critical mechanical error?",
-        "answer": "You must thread the near-side leg (the leg closest to the opponent's hips) first. The near leg has the correct insertion angle because your hip is already adjacent to their body, allowing a smooth scooping motion. Threading the far leg first creates an awkward body angle that compromises your base, reduces leverage for the subsequent triangle lock, and positions your weight incorrectly relative to the opponent. The near leg also benefits from your chest pressure anchoring the entry, whereas the far leg would require lifting away from the opponent to thread."
+        "answer": "You must thread the near-side leg (the leg closest to the opponent's hips) first. The near leg has the correct insertion angle because your hip is already adjacent to their body, allowing a smooth scooping motion. Threading the far leg first creates an awkward body angle that compromises your base, reduces leverage for the subsequent triangle lock, and positions your weight incorrectly relative to the opponent. The near leg also benefits from your chest pressure anchoring the entry, whereas the far leg would require lifting away from the opponent to thread.",
+        "answer_line": "Thread the near leg first",
+        "distractors": {
+          "plausible": [
+            "Thread the far leg first",
+            "Thread whichever leg's open"
+          ],
+          "trap": [
+            "Kick both legs in at once"
+          ]
+        }
       },
       {
         "question": "Your opponent's weight is sitting back on their heels in turtle - should you attempt the Truck entry?",
         "answer": "No — the Truck entry needs their weight forward on their hands, so a heels-back turtle means the leg entry window is closed. When the opponent's weight is back on their heels, they have explosive backward movement options including standing up, sitting through to guard, or collapsing the turtle to prevent leg access. Loading the front of their base on their hands is what limits those backward defensive reactions and exposes the near leg. If their weight is back, use alternative attacks like a traditional back take attempt or front headlock to force them to shift weight forward, creating the entry window for the Truck.",
         "distractors": {
           "plausible": [
-            "Yes — weight settled on the heels anchors their hips in place, making the near leg easier to hook for the Truck.",
-            "Yes, but enter from the opposite side first so your hook slides in behind their loaded rear leg."
+            "Yes, attack immediately",
+            "No, abandon leg attacks"
           ],
           "trap": [
-            "Yes — dive straight under their hips; with their weight back they can't base out, so commit to the leg immediately."
+            "Yes, force it through anyway"
+          ]
+        },
+        "answer_line": "No, wait for forward weight"
+      },
+      {
+        "question": "What are the three simultaneous control points you must maintain during the hook threading phase?",
+        "answer": "First, upper body control through a cross-face, collar tie, or shoulder grip that prevents the opponent from standing, granby rolling, or sitting through. Second, the far arm grip on the opponent's far knee or shin that anchors the target leg and prevents extraction. Third, chest or hip pressure against the opponent's near-side body that pins them in place and prevents lateral escape. Losing any one of these three points during the threading phase creates a defensive window the opponent can exploit to escape before the leg entanglement is established.",
+        "answer_line": "Upper body, far knee, chest",
+        "distractors": {
+          "plausible": [
+            "Seatbelt, hooks, chin control",
+            "Two hooks and head control"
+          ],
+          "trap": [
+            "Grip belt, release far leg"
           ]
         }
       },
       {
-        "question": "What are the three simultaneous control points you must maintain during the hook threading phase?",
-        "answer": "First, upper body control through a cross-face, collar tie, or shoulder grip that prevents the opponent from standing, granby rolling, or sitting through. Second, the far arm grip on the opponent's far knee or shin that anchors the target leg and prevents extraction. Third, chest or hip pressure against the opponent's near-side body that pins them in place and prevents lateral escape. Losing any one of these three points during the threading phase creates a defensive window the opponent can exploit to escape before the leg entanglement is established."
-      },
-      {
         "question": "You have threaded your hook but the opponent begins extracting their trapped leg before you lock the triangle - what is your response?",
-        "answer": "Immediately accelerate the triangle lock by driving your far leg over to meet your near foot. Simultaneously extend your hips away from the opponent to create tension on the trapped leg, making extraction harder. If the leg is nearly free, abandon the triangle attempt and use your threading leg to transition to a traditional back hook while re-establishing seatbelt control. The failed Truck entry has already disrupted their turtle structure, making the subsequent back take attempt higher percentage than it would have been before the entry."
+        "answer": "Immediately accelerate the triangle lock by driving your far leg over to meet your near foot. Simultaneously extend your hips away from the opponent to create tension on the trapped leg, making extraction harder. If the leg is nearly free, abandon the triangle attempt and use your threading leg to transition to a traditional back hook while re-establishing seatbelt control. The failed Truck entry has already disrupted their turtle structure, making the subsequent back take attempt higher percentage than it would have been before the entry.",
+        "answer_line": "Rush the lock or pivot to back",
+        "distractors": {
+          "plausible": [
+            "Release everything and reset",
+            "Hold still and wait it out"
+          ],
+          "trap": [
+            "Chase the leg, drop upper body"
+          ]
+        }
       },
       {
         "question": "How should you generate the force for threading your leg through - explosive kick or scooping hip motion?",
-        "answer": "Always use a controlled scooping hip motion rather than an explosive kick. The hip-driven motion keeps your base stable, maintains chest pressure on the opponent, and does not telegraph the entry attempt. An explosive kick lifts your weight off the opponent, creates visible movement the opponent can react to, and often causes your shin to bounce off their thigh gap instead of threading through it. The scooping motion uses your hip as the power source while your shin slides smoothly through the available space like threading a needle."
+        "answer": "Always use a controlled scooping hip motion rather than an explosive kick. The hip-driven motion keeps your base stable, maintains chest pressure on the opponent, and does not telegraph the entry attempt. An explosive kick lifts your weight off the opponent, creates visible movement the opponent can react to, and often causes your shin to bounce off their thigh gap instead of threading through it. The scooping motion uses your hip as the power source while your shin slides smoothly through the available space like threading a needle.",
+        "answer_line": "Scoop with hips, not a kick",
+        "distractors": {
+          "plausible": [
+            "Explosive kick for power",
+            "Fast snap with the shin"
+          ],
+          "trap": [
+            "Lunge in, lift off the mat"
+          ]
+        }
       },
       {
         "question": "Your opponent performs an explosive granby roll just as you begin threading the hook - how do you respond?",
-        "answer": "Follow the granby roll while maintaining contact with your threading leg. The key insight is that their rotation often helps complete the entry from the opposite angle, as your leg stays hooked during their movement. Maintain chest contact and grip on their far leg throughout the roll. If you lose the hook during the roll, immediately transition to back control by following their momentum with seatbelt grip establishment. The worst response is to freeze or pull away, as the opponent will complete the granby and recover guard while you reset to neutral."
+        "answer": "Follow the granby roll while maintaining contact with your threading leg. The key insight is that their rotation often helps complete the entry from the opposite angle, as your leg stays hooked during their movement. Maintain chest contact and grip on their far leg throughout the roll. If you lose the hook during the roll, immediately transition to back control by following their momentum with seatbelt grip establishment. The worst response is to freeze or pull away, as the opponent will complete the granby and recover guard while you reset to neutral.",
+        "answer_line": "Follow the roll, keep the hook",
+        "distractors": {
+          "plausible": [
+            "Release and reset neutral",
+            "Pull back to stop the roll"
+          ],
+          "trap": [
+            "Freeze and hold position"
+          ]
+        }
       },
       {
         "question": "Why must you transition to a perpendicular side-lying position after locking the triangle rather than staying on top of the opponent?",
-        "answer": "The perpendicular side-lying position is essential because it creates the proper mechanical angles for all Truck submissions. Staying on top limits your ability to extend your hips (needed for Twister and calf slicer pressure), allows the opponent to potentially bridge and roll you over their head, and prevents you from controlling their upper body for submission setups. The side-lying perpendicular angle also maximizes your leg triangle's effectiveness by creating lateral pressure on the trapped leg rather than downward pressure, which is biomechanically stronger for controlling the entanglement."
+        "answer": "The perpendicular side-lying position is essential because it creates the proper mechanical angles for all Truck submissions. Staying on top limits your ability to extend your hips (needed for Twister and calf slicer pressure), allows the opponent to potentially bridge and roll you over their head, and prevents you from controlling their upper body for submission setups. The side-lying perpendicular angle also maximizes your leg triangle's effectiveness by creating lateral pressure on the trapped leg rather than downward pressure, which is biomechanically stronger for controlling the entanglement.",
+        "answer_line": "Opens hip angle for Twister",
+        "distractors": {
+          "plausible": [
+            "Keeps more chest pressure",
+            "Easier to control their arms"
+          ],
+          "trap": [
+            "Stay stacked flat on top"
+          ]
+        }
       },
       {
         "question": "What attack chain should you follow if the opponent defends the Truck entry by blocking your reaching arm with their near elbow?",
-        "answer": "First, use your cross-face to push their head away, which structurally opens the elbow gap by forcing their upper body to follow their head. If the gap still does not open, switch your attack vector entirely: their elbow commitment to blocking the Truck entry means their neck is less defended, so transition to front headlock attacks such as anaconda or darce choke setups. Alternatively, the committed elbow creates an arm isolation opportunity for crucifix entry if you can trap the blocking arm. The principle is to attack whatever the opponent exposes by defending something else."
+        "answer": "First, use your cross-face to push their head away, which structurally opens the elbow gap by forcing their upper body to follow their head. If the gap still does not open, switch your attack vector entirely: their elbow commitment to blocking the Truck entry means their neck is less defended, so transition to front headlock attacks such as anaconda or darce choke setups. Alternatively, the committed elbow creates an arm isolation opportunity for crucifix entry if you can trap the blocking arm. The principle is to attack whatever the opponent exposes by defending something else.",
+        "answer_line": "Cross-face head, attack neck",
+        "distractors": {
+          "plausible": [
+            "Force the arm with pressure",
+            "Switch to the far leg instead"
+          ],
+          "trap": [
+            "Let go and reset the entry"
+          ]
+        }
       },
       {
         "question": "How does the Turtle to Truck Entry create a defensive dilemma for the opponent, and what two things must they choose between?",
-        "answer": "The entry forces the opponent to choose between defending the leg entanglement or defending their back. If they focus on extracting their trapped leg by straightening it or pulling away, they necessarily open space and compromise their turtle structure, making traditional back takes easier. If they focus on maintaining a tight turtle and defending the back with elbow-to-knee structure, they cannot address the leg threading happening below. This fork means the opponent cannot optimally defend both threats simultaneously, and the attacker can read their defensive priority and attack the opposite opening."
+        "answer": "The entry forces the opponent to choose between defending the leg entanglement or defending their back. If they focus on extracting their trapped leg by straightening it or pulling away, they necessarily open space and compromise their turtle structure, making traditional back takes easier. If they focus on maintaining a tight turtle and defending the back with elbow-to-knee structure, they cannot address the leg threading happening below. This fork means the opponent cannot optimally defend both threats simultaneously, and the attacker can read their defensive priority and attack the opposite opening.",
+        "answer_line": "Defend the leg or the back",
+        "distractors": {
+          "plausible": [
+            "Defend the arm or the neck",
+            "Defend the hips or the head"
+          ],
+          "trap": [
+            "Ignore both, stand straight up"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat during the entry attempt - how do you exploit this?",
-        "answer": "A posted far hand means the opponent has removed that arm from their defensive shell to create a base point. This opens two immediate opportunities: first, the posting arm can no longer protect the gap between their elbow and knee on that side, making the far leg grip and hook threading easier. Second, the posted arm itself becomes vulnerable to a kimura attack or can be trapped for a crucifix entry. The best response is to capitalize on the opened elbow-knee gap by accelerating your hook thread, since their posting has prioritized base over defending the leg entry path."
+        "answer": "A posted far hand means the opponent has removed that arm from their defensive shell to create a base point. This opens two immediate opportunities: first, the posting arm can no longer protect the gap between their elbow and knee on that side, making the far leg grip and hook threading easier. Second, the posted arm itself becomes vulnerable to a kimura attack or can be trapped for a crucifix entry. The best response is to capitalize on the opened elbow-knee gap by accelerating your hook thread, since their posting has prioritized base over defending the leg entry path.",
+        "answer_line": "Attack the open elbow-knee gap",
+        "distractors": {
+          "plausible": [
+            "Grip the posted hand itself",
+            "Wait for them to reset base"
+          ],
+          "trap": [
+            "Drop the leg, chase the arm"
+          ]
+        }
       },
       {
         "question": "What grip on the opponent's far leg is most critical for the entry, and what happens if you lose it mid-thread?",
-        "answer": "The grip on the inside of the opponent's far knee or shin is the anchor for the entire entry. This grip serves three functions: it prevents the opponent from pulling their leg away, it creates the slack needed for your threading leg to pass through, and it breaks their four-point base symmetry. If you lose this grip mid-thread, the opponent can immediately straighten their far leg and pull it away from your threading shin, collapsing the entry. If the grip is lost after your shin is partially through, you must accelerate the triangle lock with your far leg before the opponent can react, as the window without the anchor grip is extremely narrow."
+        "answer": "The grip on the inside of the opponent's far knee or shin is the anchor for the entire entry. This grip serves three functions: it prevents the opponent from pulling their leg away, it creates the slack needed for your threading leg to pass through, and it breaks their four-point base symmetry. If you lose this grip mid-thread, the opponent can immediately straighten their far leg and pull it away from your threading shin, collapsing the entry. If the grip is lost after your shin is partially through, you must accelerate the triangle lock with your far leg before the opponent can react, as the window without the anchor grip is extremely narrow.",
+        "answer_line": "Grip inside the far knee/shin",
+        "distractors": {
+          "plausible": [
+            "Grip the far ankle instead",
+            "Grip over top of the knee"
+          ],
+          "trap": [
+            "Let go to free your hands"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Turtle to Truck Entry involves leg entanglement that can generate significant torque on the knee joint of both practitioners. During the threading phase, the inserting practitioner should use controlled hip-driven motion rather than explosive kicks to prevent accidentally striking the training partner's inner thigh or groin. Once the leg triangle is locked, apply pressure gradually and maintain communication with your partner about intensity levels. The trapped leg is particularly vulnerable to lateral knee stress during the triangle lock, so release immediately upon any tap signal. Partners in turtle should tap early if they feel knee pressure before the triangle fully locks rather than waiting, as the pressure can escalate quickly once the configuration is established. Avoid forcing the entry if the angle is incorrect - reset and try again rather than cranking the leg into position. Be especially careful during the roll to side-lying position, as awkward weight distribution with legs entangled can strain knee ligaments for both practitioners.",
@@ -423,23 +534,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a Truck entry rather than a standard back take?",
-        "answer": "The earliest cue is the attacker shifting from central chest pressure on your spine to lateral pressure against your ribs while dropping their hips low against your near hip. A standard back take maintains central pressure and seeks seatbelt control, while the Truck entry requires a perpendicular angle and lateral hip contact. The secondary cue is feeling their far arm diving underneath your torso toward your far knee rather than reaching over your shoulder for harness grips."
+        "answer": "The earliest cue is the attacker shifting from central chest pressure on your spine to lateral pressure against your ribs while dropping their hips low against your near hip. A standard back take maintains central pressure and seeks seatbelt control, while the Truck entry requires a perpendicular angle and lateral hip contact. The secondary cue is feeling their far arm diving underneath your torso toward your far knee rather than reaching over your shoulder for harness grips.",
+        "answer_line": "Lateral rib pressure, hips low",
+        "distractors": {
+          "plausible": [
+            "Central spine pressure rising",
+            "Arm reaching over shoulder"
+          ],
+          "trap": [
+            "Ignore it, normal back take"
+          ]
+        }
       },
       {
         "question": "Why is keeping your weight slightly rearward in turtle the most important preventive measure against the Truck entry?",
-        "answer": "Rearward weight distribution gives you explosive backward movement options (sit-back, standup) that directly counter the entry requirements. The Truck entry requires the defender's weight to be forward on their hands, which loads the front of the base and limits backward reactions. With rearward weight, you can instantly sit back to crush the reaching arm, stand explosively to both feet, or drive your hips backward to destroy the perpendicular angle the attacker needs. Forward weight commits you to the exact position the attacker is exploiting."
+        "answer": "Rearward weight distribution gives you explosive backward movement options (sit-back, standup) that directly counter the entry requirements. The Truck entry requires the defender's weight to be forward on their hands, which loads the front of the base and limits backward reactions. With rearward weight, you can instantly sit back to crush the reaching arm, stand explosively to both feet, or drive your hips backward to destroy the perpendicular angle the attacker needs. Forward weight commits you to the exact position the attacker is exploiting.",
+        "answer_line": "Keeps sit-back, stand-up options",
+        "distractors": {
+          "plausible": [
+            "Makes you heavier to move",
+            "Protects neck from chokes"
+          ],
+          "trap": [
+            "Shift weight forward, stay tight"
+          ]
+        }
       },
       {
         "question": "Your opponent has gripped your far leg but has not yet threaded their hook - what is your best defensive action?",
-        "answer": "Immediately straighten and pull your far leg away from their grip while simultaneously driving your far knee toward the mat. This removes the target limb from the threading path. Simultaneously use your near-side elbow to block or push against their reaching arm. If you cannot break the grip, execute an explosive sit-back to crush their arm between your legs and remove the forward base they need. The critical window is narrow: once the threading leg begins moving, these defenses become significantly harder to execute successfully."
+        "answer": "Immediately straighten and pull your far leg away from their grip while simultaneously driving your far knee toward the mat. This removes the target limb from the threading path. Simultaneously use your near-side elbow to block or push against their reaching arm. If you cannot break the grip, execute an explosive sit-back to crush their arm between your legs and remove the forward base they need. The critical window is narrow: once the threading leg begins moving, these defenses become significantly harder to execute successfully.",
+        "answer_line": "Pull leg free, block the arm",
+        "distractors": {
+          "plausible": [
+            "Push hips forward to escape",
+            "Wait for the hook, then react"
+          ],
+          "trap": [
+            "Extend leg toward their grip"
+          ]
+        }
       },
       {
         "question": "How does the defensive dilemma work from the defender's perspective, and how can you exploit it?",
-        "answer": "The attacker creates a fork where defending the leg entanglement opens the back and defending the back opens the leg entry. As a defender, you can exploit this by refusing to commit fully to either defense. Instead of choosing between tight turtle (defending back but allowing leg access) or leg extraction (defending entry but opening back), use explosive directional changes that disrupt both attack paths simultaneously. The sit-back defends the leg entry while keeping your back protected, and the granby roll addresses both threats through positional change rather than static defense."
+        "answer": "The attacker creates a fork where defending the leg entanglement opens the back and defending the back opens the leg entry. As a defender, you can exploit this by refusing to commit fully to either defense. Instead of choosing between tight turtle (defending back but allowing leg access) or leg extraction (defending entry but opening back), use explosive directional changes that disrupt both attack paths simultaneously. The sit-back defends the leg entry while keeping your back protected, and the granby roll addresses both threats through positional change rather than static defense.",
+        "answer_line": "Explosive change beats commitment",
+        "distractors": {
+          "plausible": [
+            "Commit fully to tight turtle",
+            "Commit fully to leg extraction"
+          ],
+          "trap": [
+            "Stall in place, absorb pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the hook thread and is beginning to lock the triangle - is it too late to defend?",
-        "answer": "It is not too late but the defensive options have narrowed significantly. You must immediately fight the triangle lock by straightening your trapped leg explosively before the figure-four completes, while simultaneously driving your hips away from the attacker to create tension that makes locking difficult. If the triangle begins to close, transition your defense from entry prevention to Truck bottom escape: protect your neck, fight the boot pressure on your hip, and work toward granby roll or leg extraction escapes. The key is recognizing that the defense has shifted from entry denial to position escape and adapting your response accordingly."
+        "answer": "It is not too late but the defensive options have narrowed significantly. You must immediately fight the triangle lock by straightening your trapped leg explosively before the figure-four completes, while simultaneously driving your hips away from the attacker to create tension that makes locking difficult. If the triangle begins to close, transition your defense from entry prevention to Truck bottom escape: protect your neck, fight the boot pressure on your hip, and work toward granby roll or leg extraction escapes. The key is recognizing that the defense has shifted from entry denial to position escape and adapting your response accordingly.",
+        "answer_line": "No, straighten leg before lock",
+        "distractors": {
+          "plausible": [
+            "Yes, tap before it's locked",
+            "No, just relax and wait"
+          ],
+          "trap": [
+            "Push the leg into the triangle"
+          ]
+        }
       }
     ],
     "training_progressions": [

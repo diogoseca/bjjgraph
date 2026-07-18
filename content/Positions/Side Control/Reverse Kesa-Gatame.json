@@ -342,35 +342,115 @@
     "flashcards": [
       {
         "question": "What is the primary grip configuration for controlling the opponent's far arm in Reverse Kesa-Gatame?",
-        "answer": "The far arm should be clamped tightly under your armpit with your elbow squeezed against your ribs, or controlled with a deep overhook grip. The armpit clamp creates a complete seal around the arm, preventing extraction. You should feel constant resistance if the opponent attempts to pull their arm free. This control is the foundation of the position's effectiveness."
+        "answer": "The far arm should be clamped tightly under your armpit with your elbow squeezed against your ribs, or controlled with a deep overhook grip. The armpit clamp creates a complete seal around the arm, preventing extraction. You should feel constant resistance if the opponent attempts to pull their arm free. This control is the foundation of the position's effectiveness.",
+        "answer_line": "Armpit clamp, elbow to ribs",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist tightly",
+            "Cross-face on far shoulder"
+          ],
+          "trap": [
+            "Underhook their near arm"
+          ]
+        }
       },
       {
         "question": "How should your weight be distributed to maximize chest pressure while maintaining stability?",
-        "answer": "Your weight should drive through your chest and sternum directly onto the opponent's upper torso, not supported by your arms. Shoulders should be lower than your hips, creating a forward lean. Your hips stay low and heavy against their near-side ribs. The far leg extends wide for base while the near leg bends for stability, forming a tripod with your hips."
+        "answer": "Your weight should drive through your chest and sternum directly onto the opponent's upper torso, not supported by your arms. Shoulders should be lower than your hips, creating a forward lean. Your hips stay low and heavy against their near-side ribs. The far leg extends wide for base while the near leg bends for stability, forming a tripod with your hips.",
+        "answer_line": "Chest weight, hips low",
+        "distractors": {
+          "plausible": [
+            "Push down with your arms",
+            "Shoulders higher than hips"
+          ],
+          "trap": [
+            "Post up high on your arms"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a strong bridge attempt - what adjustment prevents them from creating space?",
-        "answer": "Widen your base immediately by extending your far leg further and posting your near foot. Drop your hips even lower to increase the weight on their torso. Maintain your armpit clamp on their far arm - this prevents them from using that arm to aid the bridge. Ride the bridge by staying connected rather than tensing up, letting their energy dissipate as they return to the mat."
+        "answer": "Widen your base immediately by extending your far leg further and posting your near foot. Drop your hips even lower to increase the weight on their torso. Maintain your armpit clamp on their far arm - this prevents them from using that arm to aid the bridge. Ride the bridge by staying connected rather than tensing up, letting their energy dissipate as they return to the mat.",
+        "answer_line": "Widen base, drop hips, ride it",
+        "distractors": {
+          "plausible": [
+            "Narrow base for stability",
+            "Release the arm to post"
+          ],
+          "trap": [
+            "Tense up and resist bridge"
+          ]
+        }
       },
       {
         "question": "What indicates your opponent is about to attempt an elbow escape, and how do you counter it?",
-        "answer": "Signs include the opponent turning slightly onto their far side, bringing their near elbow toward their hip, and beginning to shrimp their hips away. Counter by driving your hips forward to follow their movement, maintaining chest pressure. If they create significant space, transition immediately to mount or knee-on-belly rather than chasing the reverse kesa position."
+        "answer": "Signs include the opponent turning slightly onto their far side, bringing their near elbow toward their hip, and beginning to shrimp their hips away. Counter by driving your hips forward to follow their movement, maintaining chest pressure. If they create significant space, transition immediately to mount or knee-on-belly rather than chasing the reverse kesa position.",
+        "answer_line": "Drive hips forward, follow",
+        "distractors": {
+          "plausible": [
+            "Chase the space they create",
+            "Grab their retreating leg"
+          ],
+          "trap": [
+            "Release pressure and reset"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining dominant control in this position?",
-        "answer": "Let your skeletal structure and gravity do the work rather than muscular effort. Your chest weight should rest naturally on their torso without active pushing. Arms remain light and ready for transitions, not supporting weight. Use your base from your legs rather than gripping intensely. Threatening submissions cyclically keeps the opponent defensive without requiring constant maximum pressure."
+        "answer": "Let your skeletal structure and gravity do the work rather than muscular effort. Your chest weight should rest naturally on their torso without active pushing. Arms remain light and ready for transitions, not supporting weight. Use your base from your legs rather than gripping intensely. Threatening submissions cyclically keeps the opponent defensive without requiring constant maximum pressure.",
+        "answer_line": "Skeletal weight, not muscle",
+        "distractors": {
+          "plausible": [
+            "Grip as hard as possible",
+            "Push down with arm strength"
+          ],
+          "trap": [
+            "Constant max pressure always"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their body toward you attempting to face you - what is the optimal response?",
-        "answer": "This exposes their back and creates an excellent back take opportunity. Maintain your chest connection and begin circling toward their back as they turn. Your armpit control on their far arm makes it easy to establish a seatbelt grip as you transition. Alternatively, if they expose their neck, you can attack with an arm triangle by sliding your head-side arm under their neck."
+        "answer": "This exposes their back and creates an excellent back take opportunity. Maintain your chest connection and begin circling toward their back as they turn. Your armpit control on their far arm makes it easy to establish a seatbelt grip as you transition. Alternatively, if they expose their neck, you can attack with an arm triangle by sliding your head-side arm under their neck.",
+        "answer_line": "Circle to take the back",
+        "distractors": {
+          "plausible": [
+            "Switch to mount immediately",
+            "Release grips to re-angle"
+          ],
+          "trap": [
+            "Sprawl out, lose the angle"
+          ]
+        }
       },
       {
         "question": "What is the relationship between base width and submission threat in this position?",
-        "answer": "Wider base provides stability against escapes but can limit submission mobility. When threatening submissions, you may temporarily narrow your base to create better angles for attacks like the kimura or americana. After the submission attempt concludes, immediately re-establish wide base. This creates a rhythm of base-narrow-attack, base-wide-control that keeps opponents guessing."
+        "answer": "Wider base provides stability against escapes but can limit submission mobility. When threatening submissions, you may temporarily narrow your base to create better angles for attacks like the kimura or americana. After the submission attempt concludes, immediately re-establish wide base. This creates a rhythm of base-narrow-attack, base-wide-control that keeps opponents guessing.",
+        "answer_line": "Narrow base briefly to attack",
+        "distractors": {
+          "plausible": [
+            "Always keep base maximally wide",
+            "Widen base to attack arms"
+          ],
+          "trap": [
+            "Abandon base for the choke"
+          ]
+        }
       },
       {
         "question": "How do you recover position if your opponent partially escapes and inserts a knee shield?",
-        "answer": "Don't fight the knee shield directly. Instead, transition to a different position that negates their defense. Options include: sliding to north-south by walking around their head, transitioning to knee-on-belly by posting your knee on their abdomen, or switching to standard side control and working to remove the knee shield. The key is recognizing when reverse kesa is compromised and flowing to the next position."
+        "answer": "Don't fight the knee shield directly. Instead, transition to a different position that negates their defense. Options include: sliding to north-south by walking around their head, transitioning to knee-on-belly by posting your knee on their abdomen, or switching to standard side control and working to remove the knee shield. The key is recognizing when reverse kesa is compromised and flowing to the next position.",
+        "answer_line": "Flow to a new position",
+        "distractors": {
+          "plausible": [
+            "Force the knee shield out",
+            "Stay and fight the frame"
+          ],
+          "trap": [
+            "Muscle through the knee"
+          ]
+        }
       }
     ],
     "clips": [
@@ -669,35 +749,115 @@
     "flashcards": [
       {
         "question": "What is the first defensive priority when your opponent establishes Reverse Kesa-Gatame?",
-        "answer": "Immediately establish a frame with your free arm against your opponent's hip or shoulder to prevent them from fully settling their weight. Simultaneously, turn slightly onto your side away from the opponent to create an angle for hip escape. This prevents position consolidation and protects your neck from choke attempts. Never remain flat on your back."
+        "answer": "Immediately establish a frame with your free arm against your opponent's hip or shoulder to prevent them from fully settling their weight. Simultaneously, turn slightly onto your side away from the opponent to create an angle for hip escape. This prevents position consolidation and protects your neck from choke attempts. Never remain flat on your back.",
+        "answer_line": "Frame, turn onto your side",
+        "distractors": {
+          "plausible": [
+            "Push their chest straight up",
+            "Grab a deep underhook first"
+          ],
+          "trap": [
+            "Stay flat and cover up"
+          ]
+        }
       },
       {
         "question": "How do you protect your trapped arm from Americana and Kimura attacks in this position?",
-        "answer": "Keep your trapped arm bent at approximately 90 degrees with your elbow tight to your body. Avoid extending the arm or allowing it to be pulled away from your torso. If the opponent begins isolating your arm, use your free hand to grab your own wrist or gi and defend the grip. Simultaneously work hip escapes to create space that relieves pressure on the trapped arm."
+        "answer": "Keep your trapped arm bent at approximately 90 degrees with your elbow tight to your body. Avoid extending the arm or allowing it to be pulled away from your torso. If the opponent begins isolating your arm, use your free hand to grab your own wrist or gi and defend the grip. Simultaneously work hip escapes to create space that relieves pressure on the trapped arm.",
+        "answer_line": "Elbow tight, arm bent 90°",
+        "distractors": {
+          "plausible": [
+            "Extend arm to push them off",
+            "Grip their far sleeve tight"
+          ],
+          "trap": [
+            "Straighten arm to frame"
+          ]
+        }
       },
       {
         "question": "Your opponent's weight is high on your chest - what escape opportunity does this create?",
-        "answer": "When the opponent sits too high, their base is compromised and their weight is not properly distributed over your hips. This creates an excellent bridging opportunity. Execute an explosive bridge toward your trapped side while simultaneously turning - this can roll them over or create enough space for immediate guard recovery. The key is recognizing this window quickly before they adjust."
+        "answer": "When the opponent sits too high, their base is compromised and their weight is not properly distributed over your hips. This creates an excellent bridging opportunity. Execute an explosive bridge toward your trapped side while simultaneously turning - this can roll them over or create enough space for immediate guard recovery. The key is recognizing this window quickly before they adjust.",
+        "answer_line": "Bridge toward trapped side",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up and over",
+            "Push their hips off first"
+          ],
+          "trap": [
+            "Wait for them to settle"
+          ]
+        }
       },
       {
         "question": "How should you sequence your escape attempts against a skilled opponent who maintains proper pressure?",
-        "answer": "Use a systematic approach: first establish frames to create breathing room and prevent position advancement. Then execute small hip escapes to incrementally create space - don't rely on one explosive movement. As space accumulates, work to extract your trapped arm by shrimping your shoulder free. Finally, insert your knee between your bodies to establish half guard or continue shrimping to recover full guard."
+        "answer": "Use a systematic approach: first establish frames to create breathing room and prevent position advancement. Then execute small hip escapes to incrementally create space - don't rely on one explosive movement. As space accumulates, work to extract your trapped arm by shrimping your shoulder free. Finally, insert your knee between your bodies to establish half guard or continue shrimping to recover full guard.",
+        "answer_line": "Frame, then small hip escapes",
+        "distractors": {
+          "plausible": [
+            "One explosive bridge attempt",
+            "Extract arm before framing"
+          ],
+          "trap": [
+            "Skip frames, shrimp hard"
+          ]
+        }
       },
       {
         "question": "What indicates your opponent is about to transition to Mount, and how do you prevent it?",
-        "answer": "Signs include the opponent shifting their weight toward your far hip, lifting their near knee, or releasing arm control to post for the transition. Counter by immediately framing against their far hip with your free arm, keeping your near knee high to block their leg, and shrimping your hips away. If they begin stepping over, pursue them with your hips to insert a knee shield before they can settle."
+        "answer": "Signs include the opponent shifting their weight toward your far hip, lifting their near knee, or releasing arm control to post for the transition. Counter by immediately framing against their far hip with your free arm, keeping your near knee high to block their leg, and shrimping your hips away. If they begin stepping over, pursue them with your hips to insert a knee shield before they can settle.",
+        "answer_line": "Frame far hip, knee shield",
+        "distractors": {
+          "plausible": [
+            "Push their near knee down",
+            "Bridge explosively to reverse"
+          ],
+          "trap": [
+            "Relax and let them settle"
+          ]
+        }
       },
       {
         "question": "When is transitioning to Turtle a better option than fighting for guard recovery?",
-        "answer": "Turtle becomes preferable when: the opponent is transitioning to North-South and you can't stop them with frames; when your trapped arm is deeply controlled and you need to change the dynamic; or when repeated shrimping has created distance but not enough for guard recovery. Turning to turtle can relieve chest pressure and reset the positional battle, though you must immediately work to stand or recover guard from turtle."
+        "answer": "Turtle becomes preferable when: the opponent is transitioning to North-South and you can't stop them with frames; when your trapped arm is deeply controlled and you need to change the dynamic; or when repeated shrimping has created distance but not enough for guard recovery. Turning to turtle can relieve chest pressure and reset the positional battle, though you must immediately work to stand or recover guard from turtle.",
+        "answer_line": "When frames can't stop N-S",
+        "distractors": {
+          "plausible": [
+            "Whenever pressure feels heavy",
+            "As a first-choice escape"
+          ],
+          "trap": [
+            "Turtle immediately every time"
+          ]
+        }
       },
       {
         "question": "How do you manage breathing and energy conservation when trapped in this position?",
-        "answer": "Take short, controlled breaths using your diaphragm rather than chest breathing, which is restricted by the pressure. Don't waste energy on wild escape attempts - work methodically. Use frames to create micro-spaces for breathing rather than constantly pushing. Time your explosive escape attempts for when the opponent shifts weight or attacks submissions, conserving energy between windows."
+        "answer": "Take short, controlled breaths using your diaphragm rather than chest breathing, which is restricted by the pressure. Don't waste energy on wild escape attempts - work methodically. Use frames to create micro-spaces for breathing rather than constantly pushing. Time your explosive escape attempts for when the opponent shifts weight or attacks submissions, conserving energy between windows.",
+        "answer_line": "Diaphragm breathing, time bursts",
+        "distractors": {
+          "plausible": [
+            "Hold your breath and push",
+            "Constant steady low-level effort"
+          ],
+          "trap": [
+            "Wild explosive attempts always"
+          ]
+        }
       },
       {
         "question": "What role does your far leg play in successful escapes from Reverse Kesa-Gatame?",
-        "answer": "Your far leg provides the base and driving power for hip escapes. Keep it bent with the foot flat on the mat, ready to push. This leg drives your shrimping motion and prevents you from being flattened. Critically, do not bring this knee toward your opponent - this feeds them a path to mount. Instead, use it to push your hips away while keeping your near leg mobile for knee shield insertion."
+        "answer": "Your far leg provides the base and driving power for hip escapes. Keep it bent with the foot flat on the mat, ready to push. This leg drives your shrimping motion and prevents you from being flattened. Critically, do not bring this knee toward your opponent - this feeds them a path to mount. Instead, use it to push your hips away while keeping your near leg mobile for knee shield insertion.",
+        "answer_line": "Base to push hips away",
+        "distractors": {
+          "plausible": [
+            "Pull knee to your chest",
+            "Keep both legs straight"
+          ],
+          "trap": [
+            "Bring knee toward opponent"
+          ]
+        }
       }
     ],
     "clips": [
@@ -733,35 +893,115 @@
   "flashcards_position": [
     {
       "question": "What body configuration defines Reverse Kesa-Gatame and distinguishes it from traditional Kesa-Gatame?",
-      "answer": "Both positions are perpendicular scarf holds where the top player's torso lies across the bottom player's chest at roughly a right angle to their spine. The defining difference is orientation: in Reverse Kesa-Gatame the top player faces toward the bottom player's legs and hips rather than toward the head. Because the facing is reversed, the top player's back and hips now occupy the head-side space while the chest and shoulder load down toward the opponent's far arm and lower torso instead of toward the neck. The result is a mechanically distinct pin that keeps the scarf-hold family's chest-across-chest connection but inverts where control and weight are concentrated."
+      "answer": "Both positions are perpendicular scarf holds where the top player's torso lies across the bottom player's chest at roughly a right angle to their spine. The defining difference is orientation: in Reverse Kesa-Gatame the top player faces toward the bottom player's legs and hips rather than toward the head. Because the facing is reversed, the top player's back and hips now occupy the head-side space while the chest and shoulder load down toward the opponent's far arm and lower torso instead of toward the neck. The result is a mechanically distinct pin that keeps the scarf-hold family's chest-across-chest connection but inverts where control and weight are concentrated.",
+      "answer_line": "Top player faces the legs",
+      "distractors": {
+        "plausible": [
+          "Top player faces the head",
+          "Parallel body, no scarf angle"
+        ],
+        "trap": [
+          "Same as standard side control"
+        ]
+      }
     },
     {
       "question": "Why does the reverse orientation deny the bottom player the defensive frames that are available in standard side control?",
-      "answer": "In standard side control the top player's head and shoulders are near the bottom player's head, giving the bottom player a natural target to frame against the neck, jaw, and near shoulder. In Reverse Kesa-Gatame the top player's back and hips occupy that space instead, so the bottom player's hands find only the hip and lower back rather than a framable head or shoulder. Removing the face-and-neck frame strips away the primary tool used to create elbow-escape space. Both players' games therefore reorganize around hip movement and the far arm rather than around framing."
+      "answer": "In standard side control the top player's head and shoulders are near the bottom player's head, giving the bottom player a natural target to frame against the neck, jaw, and near shoulder. In Reverse Kesa-Gatame the top player's back and hips occupy that space instead, so the bottom player's hands find only the hip and lower back rather than a framable head or shoulder. Removing the face-and-neck frame strips away the primary tool used to create elbow-escape space. Both players' games therefore reorganize around hip movement and the far arm rather than around framing.",
+      "answer_line": "No head or neck to frame",
+      "distractors": {
+        "plausible": [
+          "Frame against their far hip",
+          "Frame the near shoulder instead"
+        ],
+        "trap": [
+          "Frame their head as usual"
+        ]
+      }
     },
     {
       "question": "How is the bottom player's far arm isolated as a natural consequence of the position rather than through a deliberate setup?",
-      "answer": "Because the top player faces the legs, their near-side torso and armpit come to rest directly over the bottom player's far arm, trapping it against the mat or clamping it to the ribs. The bottom player cannot easily retract that arm because the top player's chest and shoulder weight sit on top of it. This isolation exists the moment the pin is established, without any separate arm-hunting motion. It is why the position is inherently a launch point for far-arm attacks like the kimura and americana for the top and a constant defensive concern for the bottom."
+      "answer": "Because the top player faces the legs, their near-side torso and armpit come to rest directly over the bottom player's far arm, trapping it against the mat or clamping it to the ribs. The bottom player cannot easily retract that arm because the top player's chest and shoulder weight sit on top of it. This isolation exists the moment the pin is established, without any separate arm-hunting motion. It is why the position is inherently a launch point for far-arm attacks like the kimura and americana for the top and a constant defensive concern for the bottom.",
+      "answer_line": "Torso weight traps arm passively",
+      "distractors": {
+        "plausible": [
+          "Requires a separate arm-drag",
+          "Isolated only after a sweep"
+        ],
+        "trap": [
+          "Arm stays free to frame"
+        ]
+      }
     },
     {
       "question": "Where must the top player's weight be directed for the pin to function, and how does the bottom player experience that pressure?",
-      "answer": "The pin depends on chest and hip weight driving downward through the bottom player's sternum, ribcage, and shoulder complex rather than the top player propping up on their arms. Because the connection is chest-to-chest and perpendicular, the compression concentrates on the diaphragm and upper torso, restricting breathing and rotation. The bottom player feels this as difficulty drawing a full breath and an inability to turn toward the trapped side. This shared pressure dynamic is the core reason the position is dominant for the top and urgent to escape for the bottom."
+      "answer": "The pin depends on chest and hip weight driving downward through the bottom player's sternum, ribcage, and shoulder complex rather than the top player propping up on their arms. Because the connection is chest-to-chest and perpendicular, the compression concentrates on the diaphragm and upper torso, restricting breathing and rotation. The bottom player feels this as difficulty drawing a full breath and an inability to turn toward the trapped side. This shared pressure dynamic is the core reason the position is dominant for the top and urgent to escape for the bottom.",
+      "answer_line": "Chest weight into sternum",
+      "distractors": {
+        "plausible": [
+          "Weight low on the hips",
+          "Push down through the legs"
+        ],
+        "trap": [
+          "Base on your arms, not chest"
+        ]
+      }
     },
     {
       "question": "What role does the top player's leg and base configuration play in the stability of Reverse Kesa-Gatame?",
-      "answer": "The top player typically sprawls with the far leg extended wide and long while the near leg bends to post, forming a broad tripod with the hips. This wide base is what lets chest pressure stay heavy without the whole structure being tipped by a bridge. The bottom player's main reversal threat is generating a bridge when the base is narrow or the hips ride too high, so base width is the pivot point of the position's stability for both sides. A collapsed or narrow base converts the pin from stable control into a roll or sweep opportunity."
+      "answer": "The top player typically sprawls with the far leg extended wide and long while the near leg bends to post, forming a broad tripod with the hips. This wide base is what lets chest pressure stay heavy without the whole structure being tipped by a bridge. The bottom player's main reversal threat is generating a bridge when the base is narrow or the hips ride too high, so base width is the pivot point of the position's stability for both sides. A collapsed or narrow base converts the pin from stable control into a roll or sweep opportunity.",
+      "answer_line": "Wide base, tripod with hips",
+      "distractors": {
+        "plausible": [
+          "Both knees tucked in tight",
+          "Narrow base for mobility"
+        ],
+        "trap": [
+          "Keep hips riding high"
+        ]
+      }
     },
     {
       "question": "Why does Reverse Kesa-Gatame function as a transitional hub between several pinning positions?",
-      "answer": "The perpendicular scarf alignment sits geometrically between north-south, standard side control, and mount, so small rotations or hip walks carry the top player into any of them. Turning toward the head flows to north-south, squaring back up returns to side control, and stepping across when the bottom player creates space leads to mount. The same crossroads means the bottom player's escapes and the top player's advances both pass through these adjacent states rather than staying static. This hub quality is why the position is valued as much for its transitions as for its holding power."
+      "answer": "The perpendicular scarf alignment sits geometrically between north-south, standard side control, and mount, so small rotations or hip walks carry the top player into any of them. Turning toward the head flows to north-south, squaring back up returns to side control, and stepping across when the bottom player creates space leads to mount. The same crossroads means the bottom player's escapes and the top player's advances both pass through these adjacent states rather than staying static. This hub quality is why the position is valued as much for its transitions as for its holding power.",
+      "answer_line": "Bridges N-S, side control, mount",
+      "distractors": {
+        "plausible": [
+          "Only leads back to side control",
+          "Dead-end, no other transitions"
+        ],
+        "trap": [
+          "Commit to only one transition"
+        ]
+      }
     },
     {
       "question": "How does the effectiveness of Reverse Kesa-Gatame change between gi and no-gi grappling?",
-      "answer": "The position relies on direct chest compression and physical arm isolation rather than on collar or lapel grips, so it loses none of its core control when the gi is removed. In no-gi it often becomes comparatively more valuable because the bottom player also loses the collar and sleeve grips they would otherwise use to manage distance and frame. The pin's pressure-and-arm-trap mechanics are equally available to both players regardless of ruleset. This grip-independence is a defining trait that separates it from scarf holds that lean on cloth-based control."
+      "answer": "The position relies on direct chest compression and physical arm isolation rather than on collar or lapel grips, so it loses none of its core control when the gi is removed. In no-gi it often becomes comparatively more valuable because the bottom player also loses the collar and sleeve grips they would otherwise use to manage distance and frame. The pin's pressure-and-arm-trap mechanics are equally available to both players regardless of ruleset. This grip-independence is a defining trait that separates it from scarf holds that lean on cloth-based control.",
+      "answer_line": "Equally strong, no gi needed",
+      "distractors": {
+        "plausible": [
+          "Much weaker without gi grips",
+          "Only works well in the gi"
+        ],
+        "trap": [
+          "Relies on collar grip control"
+        ]
+      }
     },
     {
       "question": "What is the significance of maintaining a true perpendicular angle rather than facing too far toward the opponent's legs?",
-      "answer": "The position's control depends on the top player's sternum pressing across the bottom player's upper chest at a right angle to their centerline. If the top player over-rotates toward the legs, chest-to-chest contact thins out and the bottom player gains room to turn in toward the now-open space. That lost pressure simultaneously weakens the far-arm trap and the breathing restriction that make the pin work. Both players read this angle closely: the top preserves the perpendicular to keep control, while the bottom hunts for any drift off it as the opening to recover."
+      "answer": "The position's control depends on the top player's sternum pressing across the bottom player's upper chest at a right angle to their centerline. If the top player over-rotates toward the legs, chest-to-chest contact thins out and the bottom player gains room to turn in toward the now-open space. That lost pressure simultaneously weakens the far-arm trap and the breathing restriction that make the pin work. Both players read this angle closely: the top preserves the perpendicular to keep control, while the bottom hunts for any drift off it as the opening to recover.",
+      "answer_line": "Keep sternum perpendicular",
+      "distractors": {
+        "plausible": [
+          "Angle further toward the legs",
+          "Face fully toward their head"
+        ],
+        "trap": [
+          "Rotate hips toward their legs"
+        ]
+      }
     }
   ],
   "clips": [

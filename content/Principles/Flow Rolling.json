@@ -367,35 +367,115 @@
   "flashcards": [
     {
       "question": "What is flow rolling and how does it differ from competitive sparring?",
-      "answer": "Flow rolling is continuous cooperative sparring at roughly 30-50% intensity that prioritizes smooth movement, transitions, and technical exploration, whereas competitive sparring filters every exchange through winning, applying maximum resistance to dominate position and finish submissions."
+      "answer": "Flow rolling is continuous cooperative sparring at roughly 30-50% intensity that prioritizes smooth movement, transitions, and technical exploration, whereas competitive sparring filters every exchange through winning, applying maximum resistance to dominate position and finish submissions.",
+      "answer_line": "Low-intensity cooperative sparring",
+      "distractors": {
+        "plausible": [
+          "Same as sparring but slower",
+          "Only for beginners' warmups"
+        ],
+        "trap": [
+          "Max resistance every exchange"
+        ]
+      }
     },
     {
       "question": "What intensity range defines effective flow rolling?",
-      "answer": "Roughly 30-50% of maximum effort: low enough to sustain continuous movement without fatigue or injury, yet structured enough that partners keep realistic base and posture rather than total compliance."
+      "answer": "Roughly 30-50% of maximum effort: low enough to sustain continuous movement without fatigue or injury, yet structured enough that partners keep realistic base and posture rather than total compliance.",
+      "answer_line": "Roughly 30-50% max effort",
+      "distractors": {
+        "plausible": [
+          "As hard as possible, safely",
+          "Totally relaxed, no resistance"
+        ],
+        "trap": [
+          "100% resistance, controlled speed"
+        ]
+      }
     },
     {
       "question": "How should you provide resistance to a partner during flow rolling?",
-      "answer": "Offer realistic structure and base appropriate to the position, then yield once the partner executes a technique correctly, simulating genuine defensive postures without preventing successful completion of the movement."
+      "answer": "Offer realistic structure and base appropriate to the position, then yield once the partner executes a technique correctly, simulating genuine defensive postures without preventing successful completion of the movement.",
+      "answer_line": "Realistic base, yield on success",
+      "distractors": {
+        "plausible": [
+          "Full resistance until tapped",
+          "No resistance, let it happen"
+        ],
+        "trap": [
+          "Stiff-arm to block the technique"
+        ]
+      }
     },
     {
       "question": "What is the most common way flow rolling breaks down, and how do you fix it?",
-      "answer": "Intensity gradually escalates until the round becomes competitive sparring; correct it by setting a clear intensity ceiling beforehand and consciously dropping back to the cooperative baseline whenever ego or speed creeps in."
+      "answer": "Intensity gradually escalates until the round becomes competitive sparring; correct it by setting a clear intensity ceiling beforehand and consciously dropping back to the cooperative baseline whenever ego or speed creeps in.",
+      "answer_line": "Set ceiling, reset when it escalates",
+      "distractors": {
+        "plausible": [
+          "Push harder to test partner",
+          "Stop rolling once it speeds up"
+        ],
+        "trap": [
+          "Match their rising intensity"
+        ]
+      }
     },
     {
       "question": "Why is position offering a core skill in flow rolling?",
-      "answer": "Deliberately yielding advantageous positions or grips creates continuous transitions and gives both partners reps they would never reach if one person simply maintained dominance, turning the round into mutual technical development."
+      "answer": "Deliberately yielding advantageous positions or grips creates continuous transitions and gives both partners reps they would never reach if one person simply maintained dominance, turning the round into mutual technical development.",
+      "answer_line": "Yield position for shared reps",
+      "distractors": {
+        "plausible": [
+          "Hold dominant position longer",
+          "Give up back for excitement"
+        ],
+        "trap": [
+          "Never surrender the top spot"
+        ]
+      }
     },
     {
       "question": "How does flow rolling support training longevity and recovery?",
-      "answer": "Used at 30-40% on recovery days between hard sessions, it preserves technical sharpness and movement quality while minimizing accumulated fatigue and injury risk, letting practitioners train more frequently over a longer career."
+      "answer": "Used at 30-40% on recovery days between hard sessions, it preserves technical sharpness and movement quality while minimizing accumulated fatigue and injury risk, letting practitioners train more frequently over a longer career.",
+      "answer_line": "30-40% on recovery days",
+      "distractors": {
+        "plausible": [
+          "Skip rolling entirely to rest",
+          "Go hard to build endurance"
+        ],
+        "trap": [
+          "Full sparring intensity, no rest"
+        ]
+      }
     },
     {
       "question": "What is the danger of overly compliant resistance in flow rolling?",
-      "answer": "Excessive compliance builds false confidence in techniques that collapse under real resistance, producing flow-only sequences that fail to transfer to competition; resistance must stay realistic even while yielding on success."
+      "answer": "Excessive compliance builds false confidence in techniques that collapse under real resistance, producing flow-only sequences that fail to transfer to competition; resistance must stay realistic even while yielding on success.",
+      "answer_line": "Builds false confidence, no transfer",
+      "distractors": {
+        "plausible": [
+          "Makes techniques faster overall",
+          "Improves cardio efficiency"
+        ],
+        "trap": [
+          "Guarantees competition success"
+        ]
+      }
     },
     {
       "question": "How does flow rolling function as a technical laboratory?",
-      "answer": "The reduced-consequence environment lets practitioners attempt unfamiliar techniques, unorthodox positions, and creative solutions without fear of failure, accelerating skill expansion and problem-solving that competitive pressure normally suppresses."
+      "answer": "The reduced-consequence environment lets practitioners attempt unfamiliar techniques, unorthodox positions, and creative solutions without fear of failure, accelerating skill expansion and problem-solving that competitive pressure normally suppresses.",
+      "answer_line": "Low-risk space to try new moves",
+      "distractors": {
+        "plausible": [
+          "Only for perfecting known moves",
+          "Best for competition prep drills"
+        ],
+        "trap": [
+          "Avoid risky moves to stay safe"
+        ]
+      }
     }
   ],
   "clips": [

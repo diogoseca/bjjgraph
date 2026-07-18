@@ -264,61 +264,143 @@
     "flashcards": [
       {
         "question": "What is the primary visual cue that your opponent has created an opportunity for the triangle to back transition?",
-        "answer": "When the opponent begins turning their shoulders away from the choking leg or driving forward in a stacking motion, they create rotational back exposure. The key is recognizing their commitment to a directional escape rather than maintaining a neutral defended position. This rotational commitment is the trigger because once they invest their weight and momentum in one direction, they cannot easily reverse course to prevent the back take."
+        "answer": "When the opponent begins turning their shoulders away from the choking leg or driving forward in a stacking motion, they create rotational back exposure. The key is recognizing their commitment to a directional escape rather than maintaining a neutral defended position. This rotational commitment is the trigger because once they invest their weight and momentum in one direction, they cannot easily reverse course to prevent the back take.",
+        "answer_line": "Shoulders rotate away or stack",
+        "distractors": {
+          "plausible": [
+            "Opponent postures straight up",
+            "Opponent taps the mat lightly"
+          ],
+          "trap": [
+            "Hips remain square, no turn"
+          ]
+        }
       },
       {
         "question": "Why must you establish the overhook or collar grip before releasing the triangle configuration?",
-        "answer": "The triangle provides your primary structural control during the transition. If you release it before establishing an upper body grip on their far shoulder, the opponent can freely turn back into you, sit to guard, or completely disengage. The overhook or collar grip replaces the triangle's anti-rotation function, ensuring continuous control throughout the transition. Without this grip, there is a gap in your control chain that experienced opponents will exploit immediately."
+        "answer": "The triangle provides your primary structural control during the transition. If you release it before establishing an upper body grip on their far shoulder, the opponent can freely turn back into you, sit to guard, or completely disengage. The overhook or collar grip replaces the triangle's anti-rotation function, ensuring continuous control throughout the transition. Without this grip, there is a gap in your control chain that experienced opponents will exploit immediately.",
+        "answer_line": "Prevents opponent turning back in",
+        "distractors": {
+          "plausible": [
+            "Frees your hands for hooks",
+            "Keeps their head control tight"
+          ],
+          "trap": [
+            "Release triangle before gripping"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand firmly on the mat and stops your rotation during the transition. How do you adjust?",
-        "answer": "You have three primary options when the opponent posts successfully. First, use your transitioning leg to kick their posted arm out from underneath them, collapsing their base. Second, accept a technical mount position by placing your first hook and settling your weight rather than forcing the full rotation, then work to back control from technical mount. Third, if their arm is extended during the post, attack a kimura grip to either force them down or create a submission threat that opens the back take pathway."
+        "answer": "You have three primary options when the opponent posts successfully. First, use your transitioning leg to kick their posted arm out from underneath them, collapsing their base. Second, accept a technical mount position by placing your first hook and settling your weight rather than forcing the full rotation, then work to back control from technical mount. Third, if their arm is extended during the post, attack a kimura grip to either force them down or create a submission threat that opens the back take pathway.",
+        "answer_line": "Kick out their post, or kimura",
+        "distractors": {
+          "plausible": [
+            "Force through the full rotation",
+            "Release grips and reset guard"
+          ],
+          "trap": [
+            "Abandon control, stand up"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip position during the leg swing phase of this transition?",
-        "answer": "Your hips must be angled approximately 90 degrees perpendicular to the opponent's spine before initiating the leg swing over their hip. This perpendicular angle is critical because it creates the mechanical arc needed for your leg to clear their body cleanly and establishes the first hook on the far side. If your hips remain parallel to the opponent, the leg swing will be blocked by their torso, and you will end up in a scramble without established control points."
+        "answer": "Your hips must be angled approximately 90 degrees perpendicular to the opponent's spine before initiating the leg swing over their hip. This perpendicular angle is critical because it creates the mechanical arc needed for your leg to clear their body cleanly and establishes the first hook on the far side. If your hips remain parallel to the opponent, the leg swing will be blocked by their torso, and you will end up in a scramble without established control points.",
+        "answer_line": "Hips perpendicular to their spine",
+        "distractors": {
+          "plausible": [
+            "Hips parallel, drive forward",
+            "Hips flat, squeeze the legs"
+          ],
+          "trap": [
+            "Hips square, sit back flat"
+          ]
+        }
       },
       {
         "question": "Why should you never cross your ankles after completing the transition to back control?",
-        "answer": "Crossing your ankles in back control creates an immediate vulnerability to a straight ankle lock. Your opponent can grab your top foot, extend their hips, and apply breaking pressure to your ankle joint, forcing you to either release back control to defend or risk ligament damage. Proper back control requires uncrossed ankles with active hooks pulling inward across the opponent's inner thighs, with feet positioned near their hips generating control through inward heel pressure rather than a crossed lock."
+        "answer": "Crossing your ankles in back control creates an immediate vulnerability to a straight ankle lock. Your opponent can grab your top foot, extend their hips, and apply breaking pressure to your ankle joint, forcing you to either release back control to defend or risk ligament damage. Proper back control requires uncrossed ankles with active hooks pulling inward across the opponent's inner thighs, with feet positioned near their hips generating control through inward heel pressure rather than a crossed lock.",
+        "answer_line": "Crossed ankles risk an ankle lock",
+        "distractors": {
+          "plausible": [
+            "Crossed ankles give tighter hooks",
+            "Crossed ankles stop them turning"
+          ],
+          "trap": [
+            "Cross ankles, squeeze bodylock"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending the triangle effectively but staying square without turning. Should you attempt the back take?",
         "answer": "No — continue attacking the triangle, since the back take requires rotational exposure that only exists when the opponent turns or commits weight. Against a square, neutral defense with no rotation, keep working the choke by adjusting your angle, pulling their head down, and breaking their grip defense. Alternatively, shift to the armbar when they posture, or threaten the omoplata when they drive forward. Only transition to the back take when their defensive movement creates genuine back exposure.",
         "distractors": {
           "plausible": [
-            "Yes — attacking the back first forces them to turn, which creates the rotation you need to come back and finish the triangle.",
-            "Yes, but only after they fully defend the choke; a stalled triangle means the back is the highest-percentage option remaining."
+            "Yes, force the rotation anyway",
+            "Yes, switch straight to hooks"
           ],
           "trap": [
-            "Yes — open your triangle lock and swing your hips out toward their back before they can settle into their square base."
+            "Release the choke, go for back"
+          ]
+        },
+        "answer_line": "No, keep attacking the triangle"
+      },
+      {
+        "question": "What grip configuration should you prioritize first on the opponent's upper body during the initial phase of this transition?",
+        "answer": "Prioritize a deep overhook on the opponent's far shoulder or a deep collar grip reaching behind their shoulder blade. This grip serves as the primary anti-turn-in control that prevents the opponent from rotating back to face you during the transition. The grip must be as deep as possible to maximize rotational control. It replaces the triangle's structural function of preventing the opponent from changing direction, bridging the control gap between triangle release and hook establishment.",
+        "answer_line": "Deep overhook on far shoulder",
+        "distractors": {
+          "plausible": [
+            "Underhook on the near side",
+            "Collar tie on the near lapel"
+          ],
+          "trap": [
+            "Grip their belt for control"
           ]
         }
       },
       {
-        "question": "What grip configuration should you prioritize first on the opponent's upper body during the initial phase of this transition?",
-        "answer": "Prioritize a deep overhook on the opponent's far shoulder or a deep collar grip reaching behind their shoulder blade. This grip serves as the primary anti-turn-in control that prevents the opponent from rotating back to face you during the transition. The grip must be as deep as possible to maximize rotational control. It replaces the triangle's structural function of preventing the opponent from changing direction, bridging the control gap between triangle release and hook establishment."
-      },
-      {
         "question": "How does the triangle frame function as a steering mechanism during the transition?",
-        "answer": "The triangle creates a closed loop structure around the opponent's head and shoulder that acts as a steering wheel for controlling their rotational movement. By positioning your hips perpendicular to their spine and maintaining tension in the triangle loop, you dictate the direction and speed of their rotation. When the opponent attempts to turn away from the choking pressure, the leg across their back guides their movement while preventing reversal. This steering effect converts chaotic defensive scrambling into controlled, predictable rotation that you can follow directly into back control."
+        "answer": "The triangle creates a closed loop structure around the opponent's head and shoulder that acts as a steering wheel for controlling their rotational movement. By positioning your hips perpendicular to their spine and maintaining tension in the triangle loop, you dictate the direction and speed of their rotation. When the opponent attempts to turn away from the choking pressure, the leg across their back guides their movement while preventing reversal. This steering effect converts chaotic defensive scrambling into controlled, predictable rotation that you can follow directly into back control.",
+        "answer_line": "Triangle steers their rotation",
+        "distractors": {
+          "plausible": [
+            "Triangle only tightens the choke",
+            "Legs generate all the power"
+          ],
+          "trap": [
+            "Release loop to speed rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to explosively stand while you are mid-transition with one hook in. What is your immediate response?",
-        "answer": "Maintain your overhook grip and the established hook. Do not release all connection points simultaneously. Use your body weight hanging from the overhook to pull them off-balance or back to the ground. If they fully stand, transition to standing back control using your hook to off-balance them and look for a trip or drag them back to the mat. If you cannot maintain the position, use the hook to trip them and pull guard rather than falling into a position with no control. The worst outcome is releasing everything and falling to the mat disconnected."
+        "answer": "Maintain your overhook grip and the established hook. Do not release all connection points simultaneously. Use your body weight hanging from the overhook to pull them off-balance or back to the ground. If they fully stand, transition to standing back control using your hook to off-balance them and look for a trip or drag them back to the mat. If you cannot maintain the position, use the hook to trip them and pull guard rather than falling into a position with no control. The worst outcome is releasing everything and falling to the mat disconnected.",
+        "answer_line": "Keep overhook and hook, hang weight",
+        "distractors": {
+          "plausible": [
+            "Release grips, pull guard fast",
+            "Jump straight to standing hooks"
+          ],
+          "trap": [
+            "Let go and scramble to reset"
+          ]
+        }
       },
       {
         "question": "When during your opponent's triangle defense is the optimal moment to initiate the back take?",
         "answer": "Initiate the back take when the opponent genuinely commits their weight and momentum to a directional escape, past the point of easy reversal. This shows up when they begin rotating their shoulders away from the choking leg or drive forward aggressively to stack. The commitment must be genuine, not exploratory — wait for their center of gravity to shift beyond easy recovery. Initiating too early, while they are only testing the direction, lets them change course; initiating too late, after they have created significant distance, means you have lost the connection needed for the transition.",
         "distractors": {
           "plausible": [
-            "Initiate the moment they first test an escape direction, so you beat them to the back before they can build any momentum.",
-            "Wait until they have fully cleared the triangle, then chase the back as they disengage and turn away to recover posture."
+            "As soon as they start to move",
+            "Right when they posture upward"
           ],
           "trap": [
-            "Release the triangle lock early to free your hips, so you can spin to the back the instant any escape attempt begins."
+            "After they fully stand away"
           ]
-        }
+        },
+        "answer_line": "When weight commits past recovery"
       }
     ],
     "safety_considerations": "The triangle to back transition involves dynamic rotational movement and rapid position changes that require careful progressive practice. Protect your own spine during the rotation by maintaining proper alignment and never allowing the opponent to stack your weight directly onto your neck or cervical spine. When practicing, begin with slow cooperative drilling to establish smooth movement patterns before adding any resistance. Partners must communicate clearly and stop immediately if either person feels compressed, twisted, or unstable in an unsafe way. Be particularly careful of your own ankles during the transition phase, as premature ankle crossing creates vulnerability to ankle lock attacks. The person being taken to back control should understand basic back escape principles to safely manage the position without panicking or making explosive defensive movements that could injure either partner. Control your descent throughout and never drop your full weight suddenly onto the training partner during the consolidation phase.",
@@ -423,23 +505,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from triangle to back take rather than continuing the choke?",
-        "answer": "The earliest cue is feeling the opponent's hips begin rotating perpendicular to your spine rather than maintaining the standard triangle choking angle. Simultaneously, you will feel the choking pressure decrease as they redirect their leg from squeezing your neck to steering your rotation. The grip change from your head to your far shoulder confirms the transition. Recognizing the hip rotation is critical because it occurs before the grip change and gives you maximum time to initiate defensive action."
+        "answer": "The earliest cue is feeling the opponent's hips begin rotating perpendicular to your spine rather than maintaining the standard triangle choking angle. Simultaneously, you will feel the choking pressure decrease as they redirect their leg from squeezing your neck to steering your rotation. The grip change from your head to your far shoulder confirms the transition. Recognizing the hip rotation is critical because it occurs before the grip change and gives you maximum time to initiate defensive action.",
+        "answer_line": "Hips rotate before grip changes",
+        "distractors": {
+          "plausible": [
+            "Grip shifts to the far shoulder",
+            "Choke pressure suddenly increases"
+          ],
+          "trap": [
+            "Wait for the hook to insert"
+          ]
+        }
       },
       {
         "question": "Why is turning back into the opponent the most effective initial defensive response?",
-        "answer": "Turning into the opponent directly opposes their rotational goal and forces them to fight through your resistance rather than following your movement. The back take requires them to rotate around your body, and turning into them collapses the rotational arc they need. This either forces them to return to the triangle position where you can resume established escape sequences, or creates a scramble where their control is compromised. Turning away from the opponent, conversely, provides the exact rotational energy they need to complete the back take."
+        "answer": "Turning into the opponent directly opposes their rotational goal and forces them to fight through your resistance rather than following your movement. The back take requires them to rotate around your body, and turning into them collapses the rotational arc they need. This either forces them to return to the triangle position where you can resume established escape sequences, or creates a scramble where their control is compromised. Turning away from the opponent, conversely, provides the exact rotational energy they need to complete the back take.",
+        "answer_line": "Collapses their rotational arc",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Buys time to regrip collar"
+          ],
+          "trap": [
+            "Turn away to create separation"
+          ]
+        }
       },
       {
         "question": "Your opponent has released the triangle and has one hook in but no seat belt grip yet. What is your defensive priority?",
-        "answer": "Your immediate priority is preventing the seat belt grip from being established while simultaneously working to clear the single hook. With only one hook and no upper body control, the opponent's back position is unstable. Clamp your elbows to your ribs to block the underhook entry, then use hip movement to face toward the hook side and begin extracting the hook using standard back escape hip movements. The single hook without seat belt is the weakest phase of their back control and offers the highest probability escape window."
+        "answer": "Your immediate priority is preventing the seat belt grip from being established while simultaneously working to clear the single hook. With only one hook and no upper body control, the opponent's back position is unstable. Clamp your elbows to your ribs to block the underhook entry, then use hip movement to face toward the hook side and begin extracting the hook using standard back escape hip movements. The single hook without seat belt is the weakest phase of their back control and offers the highest probability escape window.",
+        "answer_line": "Block seatbelt, clear the hook",
+        "distractors": {
+          "plausible": [
+            "Grab their far wrist tightly",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Let seatbelt in, then escape"
+          ]
+        }
       },
       {
         "question": "When during the triangle to back transition is the defender's best window for escape?",
-        "answer": "The best escape window occurs during the opponent's grip change phase, when they release their head control grip to reach for the far shoulder overhook or collar grip. During this brief moment, the opponent's upper body control is at its weakest because neither the triangle's head pull nor the back take's overhook is fully established. Explosive posture recovery or a turn-in during this window catches the opponent between two control systems, neither of which is active. This is typically a one-to-two second window that requires pre-planned defensive response."
+        "answer": "The best escape window occurs during the opponent's grip change phase, when they release their head control grip to reach for the far shoulder overhook or collar grip. During this brief moment, the opponent's upper body control is at its weakest because neither the triangle's head pull nor the back take's overhook is fully established. Explosive posture recovery or a turn-in during this window catches the opponent between two control systems, neither of which is active. This is typically a one-to-two second window that requires pre-planned defensive response.",
+        "answer_line": "During their grip-change moment",
+        "distractors": {
+          "plausible": [
+            "Right when the hook goes in",
+            "As soon as triangle locks tight"
+          ],
+          "trap": [
+            "Wait until seatbelt is set"
+          ]
+        }
       },
       {
         "question": "How should your defensive approach differ when caught in a triangle to back versus a standard back take from turtle?",
-        "answer": "Against the triangle to back, your primary advantage is that you can disrupt the transition before back control is established by turning back into the opponent and re-engaging the triangle defense position. In a standard turtle back take, the opponent already has back exposure and is working to insert hooks. The triangle to back defender should focus on preventing the transition from completing rather than accepting back control and working escapes. Specifically, the turn-in defense is available during triangle to back because the opponent must release their triangle to complete the take, creating a control gap that does not exist in a standard back take from turtle."
+        "answer": "Against the triangle to back, your primary advantage is that you can disrupt the transition before back control is established by turning back into the opponent and re-engaging the triangle defense position. In a standard turtle back take, the opponent already has back exposure and is working to insert hooks. The triangle to back defender should focus on preventing the transition from completing rather than accepting back control and working escapes. Specifically, the turn-in defense is available during triangle to back because the opponent must release their triangle to complete the take, creating a control gap that does not exist in a standard back take from turtle.",
+        "answer_line": "Turn in before hooks are set",
+        "distractors": {
+          "plausible": [
+            "Accept back, escape like turtle",
+            "Fight grips, ignore rotation"
+          ],
+          "trap": [
+            "Turn away, defend like turtle"
+          ]
+        }
       }
     ],
     "training_progressions": [

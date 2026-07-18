@@ -269,35 +269,115 @@
     "flashcards": [
       {
         "question": "What must be established before initiating the leg extraction phase of the backstep?",
-        "answer": "Upper body control must be established first, either through a crossface, collar tie, far hip grip, or underhook. Without this control, the opponent can follow your hip movement and re-establish the entanglement, or sit up to recover guard. The upper body control anchors them in place while your lower body disengages."
+        "answer": "Upper body control must be established first, either through a crossface, collar tie, far hip grip, or underhook. Without this control, the opponent can follow your hip movement and re-establish the entanglement, or sit up to recover guard. The upper body control anchors them in place while your lower body disengages.",
+        "answer_line": "Upper body control first",
+        "distractors": {
+          "plausible": [
+            "Grip the far ankle first",
+            "Post on the near knee first"
+          ],
+          "trap": [
+            "Release all grips and reset"
+          ]
+        }
       },
       {
         "question": "Your opponent begins re-hooking your ankle as you extract from the leg knot - how do you respond?",
-        "answer": "Accelerate the hip switch and increase forward pressure into the opponent's chest to complete the extraction before the hook solidifies. If the hook is already set, immediately pummel the leg free using knee extension and ankle rotation rather than pulling with arms. If re-entangled, reset upper body control and try again rather than fighting a losing tug-of-war with the legs."
+        "answer": "Accelerate the hip switch and increase forward pressure into the opponent's chest to complete the extraction before the hook solidifies. If the hook is already set, immediately pummel the leg free using knee extension and ankle rotation rather than pulling with arms. If re-entangled, reset upper body control and try again rather than fighting a losing tug-of-war with the legs.",
+        "answer_line": "Accelerate switch, add pressure",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped leg with arms",
+            "Stop and try to re-hook first"
+          ],
+          "trap": [
+            "Drop upper body grips for legs"
+          ]
+        }
       },
       {
         "question": "What is the primary mechanical driver of the backstep - arm strength or hip rotation?",
-        "answer": "Hip rotation is the primary mechanical driver. The backstep works through a hip switching motion that creates rotational force to extract the trapped leg, not through pulling the legs free with arm strength. Using arms to pull causes rapid fatigue and rarely overcomes the opponent's leg hooks. The legs extract as a natural consequence of the hip rotation combined with forward body weight distribution."
+        "answer": "Hip rotation is the primary mechanical driver. The backstep works through a hip switching motion that creates rotational force to extract the trapped leg, not through pulling the legs free with arm strength. Using arms to pull causes rapid fatigue and rarely overcomes the opponent's leg hooks. The legs extract as a natural consequence of the hip rotation combined with forward body weight distribution.",
+        "answer_line": "Hip rotation, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Arm strength pulls legs free",
+            "Equal mix of arms and hips"
+          ],
+          "trap": [
+            "Yank legs free with your arms"
+          ]
+        }
       },
       {
         "question": "When should you choose to backstep and pass rather than continue hunting leg lock submissions from leg knot?",
-        "answer": "Choose the backstep when the opponent has strong heel hook defense and your submission threats are being neutralized, when the entanglement is neutral rather than advantageous for finishing, in points-based competition where three points for the pass outweigh the risk of a leg lock exchange, or when your energy is depleting and a positional pin allows recovery while maintaining control."
+        "answer": "Choose the backstep when the opponent has strong heel hook defense and your submission threats are being neutralized, when the entanglement is neutral rather than advantageous for finishing, in points-based competition where three points for the pass outweigh the risk of a leg lock exchange, or when your energy is depleting and a positional pin allows recovery while maintaining control.",
+        "answer_line": "When subs are neutralized, pass",
+        "distractors": {
+          "plausible": [
+            "Always chase the heel hook first",
+            "The moment you feel any resistance"
+          ],
+          "trap": [
+            "Abandon control to chase a sub"
+          ]
+        }
       },
       {
         "question": "What happens if you hesitate mid-backstep with one leg still partially entangled?",
-        "answer": "Hesitation creates a critical window for the opponent to re-hook the partially freed leg, insert their knee for half guard, or sit up to establish frames. The half-committed position is worse than either the starting leg knot or the completed side control because you have neither the entanglement control nor the pinning control. The backstep must be committed and fluid from initiation through consolidation."
+        "answer": "Hesitation creates a critical window for the opponent to re-hook the partially freed leg, insert their knee for half guard, or sit up to establish frames. The half-committed position is worse than either the starting leg knot or the completed side control because you have neither the entanglement control nor the pinning control. The backstep must be committed and fluid from initiation through consolidation.",
+        "answer_line": "Commit fully, no hesitation",
+        "distractors": {
+          "plausible": [
+            "Pause to reassess your grips",
+            "Slow down to stay safe"
+          ],
+          "trap": [
+            "Freeze and hold the position"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts their knee as you complete the backstep - what is your best response?",
-        "answer": "Drive the crossface harder to prevent them from turning, and use your near hand to push their knee below your hip line. If the knee is already deeply inserted and half guard is established, accept the position and switch to a half guard passing sequence rather than trying to fight back to the backstep. Forcing the backstep against an established knee shield wastes energy and creates scramble opportunities for the opponent."
+        "answer": "Drive the crossface harder to prevent them from turning, and use your near hand to push their knee below your hip line. If the knee is already deeply inserted and half guard is established, accept the position and switch to a half guard passing sequence rather than trying to fight back to the backstep. Forcing the backstep against an established knee shield wastes energy and creates scramble opportunities for the opponent.",
+        "answer_line": "Crossface harder, block the knee",
+        "distractors": {
+          "plausible": [
+            "Force back to backstep anyway",
+            "Grab the leg to remove the knee"
+          ],
+          "trap": [
+            "Fight the knee, ignore crossface"
+          ]
+        }
       },
       {
         "question": "What are the five critical control points when consolidating side control after the backstep?",
-        "answer": "The five control points are: crossface with forearm or bicep pressure across the opponent's face and neck, perpendicular chest contact distributing weight across their torso, hip-to-hip connection with your hips heavy against theirs, near hand blocking the far hip to prevent knee insertion, and appropriate leg positioning with near knee posted and far leg sprawled for base. All five must be established quickly after the backstep to prevent guard recovery."
+        "answer": "The five control points are: crossface with forearm or bicep pressure across the opponent's face and neck, perpendicular chest contact distributing weight across their torso, hip-to-hip connection with your hips heavy against theirs, near hand blocking the far hip to prevent knee insertion, and appropriate leg positioning with near knee posted and far leg sprawled for base. All five must be established quickly after the backstep to prevent guard recovery.",
+        "answer_line": "Crossface, chest, hips, hand, legs",
+        "distractors": {
+          "plausible": [
+            "Crossface and chest pressure only",
+            "Hip pin without a hand block"
+          ],
+          "trap": [
+            "Release hand to grip far arm"
+          ]
+        }
       },
       {
         "question": "How does the direction of your backstep relate to the leg knot configuration?",
-        "answer": "The backstep must follow the natural rotation of the entanglement, stepping in the direction that allows the smoothest leg extraction. Backstepping against the entanglement geometry makes extraction impossible and can tighten the opponent's control. Before committing, assess which direction your hip switch naturally opens and which path your trapped leg can follow with the least resistance from the opponent's hooks."
+        "answer": "The backstep must follow the natural rotation of the entanglement, stepping in the direction that allows the smoothest leg extraction. Backstepping against the entanglement geometry makes extraction impossible and can tighten the opponent's control. Before committing, assess which direction your hip switch naturally opens and which path your trapped leg can follow with the least resistance from the opponent's hooks.",
+        "answer_line": "Follow entanglement's natural path",
+        "distractors": {
+          "plausible": [
+            "Always step toward your strong side",
+            "Step away from opponent's hips"
+          ],
+          "trap": [
+            "Step against the entanglement grain"
+          ]
+        }
       }
     ],
     "safety_considerations": "The backstep from leg knot involves significant rotational forces on both practitioners' knees and ankles during the extraction phase. Always practice with controlled speed initially, as explosive backsteps can catch training partners' legs at awkward angles. Pay attention to any knee discomfort during the hip switch, as twisting motions under load can strain the MCL and meniscus. If your leg feels stuck in the entanglement, reset position rather than forcing through with strength. Communicate with your training partner throughout the drilling process to ensure neither practitioner's joints are being stressed beyond safe ranges.",
@@ -411,19 +491,59 @@
       },
       {
         "question": "Your opponent has extracted one leg and is mid-backstep - is it better to fight for re-entanglement or insert your knee for half guard?",
-        "answer": "At this stage, inserting your knee for half guard is the higher-percentage option. Once the leg has cleared your hooks, re-entanglement requires catching a moving target while the opponent has forward momentum. The knee insertion works with their forward motion rather than against it, and half guard provides a stable defensive position with known escape and sweep sequences. Fighting for re-entanglement at this stage typically results in a failed attempt that delays your guard recovery."
+        "answer": "At this stage, inserting your knee for half guard is the higher-percentage option. Once the leg has cleared your hooks, re-entanglement requires catching a moving target while the opponent has forward momentum. The knee insertion works with their forward motion rather than against it, and half guard provides a stable defensive position with known escape and sweep sequences. Fighting for re-entanglement at this stage typically results in a failed attempt that delays your guard recovery.",
+        "answer_line": "Insert knee for half guard",
+        "distractors": {
+          "plausible": [
+            "Fight to re-hook the ankle",
+            "Push away and stand up"
+          ],
+          "trap": [
+            "Chase the leg lock, ignore position"
+          ]
+        }
       },
       {
         "question": "Why is it important to stay on your side rather than flat on your back when defending the backstep?",
-        "answer": "Staying on your side preserves hip mobility, which is essential for both re-entanglement and guard recovery. A flat position locks your hips to the mat, eliminating the rotation needed to follow the opponent's movement or create escape angles. Additionally, being on your side makes it mechanically harder for the opponent to establish a crossface, as your shoulder positioning creates a natural frame that they must work around."
+        "answer": "Staying on your side preserves hip mobility, which is essential for both re-entanglement and guard recovery. A flat position locks your hips to the mat, eliminating the rotation needed to follow the opponent's movement or create escape angles. Additionally, being on your side makes it mechanically harder for the opponent to establish a crossface, as your shoulder positioning creates a natural frame that they must work around.",
+        "answer_line": "Stay on your side, not flat",
+        "distractors": {
+          "plausible": [
+            "Flatten out to base heavy",
+            "Turn face-down to hide your neck"
+          ],
+          "trap": [
+            "Lie flat and post both hands"
+          ]
+        }
       },
       {
         "question": "What should your hand priorities be when you feel the backstep beginning?",
-        "answer": "Primary hand priority shifts from controlling the opponent's legs to defending your neck and creating upper body frames. Your near hand should frame against the opponent's shoulder or bicep to prevent crossface establishment. Your far hand should either control the opponent's far arm to prevent the underhook or reach for their far hip to help with your own hip escape. Maintaining leg grips at the expense of upper body defense results in being passed and pinned."
+        "answer": "Primary hand priority shifts from controlling the opponent's legs to defending your neck and creating upper body frames. Your near hand should frame against the opponent's shoulder or bicep to prevent crossface establishment. Your far hand should either control the opponent's far arm to prevent the underhook or reach for their far hip to help with your own hip escape. Maintaining leg grips at the expense of upper body defense results in being passed and pinned.",
+        "answer_line": "Frame the face, block far arm/hip",
+        "distractors": {
+          "plausible": [
+            "Keep both hands on their legs",
+            "Grip both ankles tighter"
+          ],
+          "trap": [
+            "Hold leg grips, ignore your neck"
+          ]
+        }
       },
       {
         "question": "How do you create the optimal conditions for recovering open guard after a backstep attempt?",
-        "answer": "Create distance with a strong hip escape away from the opponent while simultaneously framing against both shoulders with your forearms. As the distance increases, immediately insert both feet onto the opponent's hips before they can close the gap. The key is committing fully to the guard recovery rather than splitting your effort between re-entangling and recovering guard. Speed and decisiveness matter more than technique quality in this transitional moment."
+        "answer": "Create distance with a strong hip escape away from the opponent while simultaneously framing against both shoulders with your forearms. As the distance increases, immediately insert both feet onto the opponent's hips before they can close the gap. The key is committing fully to the guard recovery rather than splitting your effort between re-entangling and recovering guard. Speed and decisiveness matter more than technique quality in this transitional moment.",
+        "answer_line": "Escape hips, frame, insert feet",
+        "distractors": {
+          "plausible": [
+            "Split effort between re-entangling",
+            "Bridge and roll to escape"
+          ],
+          "trap": [
+            "Grab legs while framing shoulders"
+          ]
+        }
       }
     ],
     "training_progressions": [

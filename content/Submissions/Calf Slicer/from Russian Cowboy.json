@@ -293,52 +293,152 @@
       {
         "question": "What anatomical structures does the calf slicer from Russian Cowboy primarily attack?",
         "answer": "The calf slicer primarily attacks the gastrocnemius and soleus muscles of the calf through direct compression against the attacker's shin bone. Secondary targets include the Achilles tendon, which is placed under strain as the foot is folded, and the connective tissue behind the knee joint including the popliteal fossa. The compression can also affect the peroneal and tibial nerves running through the calf, creating sharp nerve pain that often triggers the tap before muscle damage occurs.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf muscle against your shin",
+        "distractors": {
+          "plausible": [
+            "Only the Achilles tendon",
+            "Knee ligaments primarily"
+          ],
+          "trap": [
+            "Foot and ankle bones"
+          ]
+        }
       },
       {
         "question": "What specific indicators tell you the calf slicer has reached the breaking point and you must not apply further pressure?",
         "answer": "Key indicators include the opponent's body going rigid with involuntary tension, sudden vocalization or grunting that differs from normal exertion sounds, visible blanching of the skin around the compression point, and the opponent's free limbs flailing rather than making purposeful defensive movements. Any of these signals means you are at or past the threshold for tissue damage. In training, you should never reach this point because the opponent should be tapping well before these signs appear. If you see these signs without a tap, release immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rigid, blanching, flailing limbs",
+        "distractors": {
+          "plausible": [
+            "Waiting for a verbal tap only",
+            "Slight tension increase"
+          ],
+          "trap": [
+            "Keep applying until they tap"
+          ]
+        }
       },
       {
         "question": "Why is the Russian Cowboy particularly effective as a calf slicer entry compared to other positions?",
         "answer": "The Russian Cowboy provides a built-in advantage because the single hook is already threaded under the opponent's leg, meaning the attacking shin is already in proximity to the target area behind the knee. From truck or other entanglements, you typically need to create the leg positioning from scratch, which is more telegraphed. Additionally, the Russian Cowboy's seatbelt upper body control occupies the opponent's defensive attention on their neck, creating a natural distraction window for the leg attack transition. The position also maintains strong upper body pressure that prevents the opponent from creating the space needed to straighten their leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook already behind the knee",
+        "distractors": {
+          "plausible": [
+            "Faster than triangle entries",
+            "Works best on flexible legs"
+          ],
+          "trap": [
+            "Release seatbelt for the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped leg as you start threading your shin — what adjustment prevents the escape?",
         "answer": "Immediately use your free hand to hook behind their heel or grab their toes and pull the foot back toward their buttock, re-bending the knee before they achieve full extension. Simultaneously drive your hooking knee deeper behind their leg to block the straightening motion at the source. If they have significant extension momentum, abandon the foot capture temporarily and use both your hook and your free leg to scissor around their thigh, physically preventing the extension. Once the knee is re-bent, quickly establish the foot grip before they attempt to straighten again.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook heel, re-bend the knee",
+        "distractors": {
+          "plausible": [
+            "Pull harder with grip strength",
+            "Wait for them to tire out"
+          ],
+          "trap": [
+            "Let go and reset position"
+          ]
+        }
       },
       {
         "question": "How should you release the calf slicer after your training partner taps?",
         "answer": "Immediately stop all hip extension force and relax your pulling grip on their foot. Do not simply let go and spring away, as this can cause a sudden positional shift that jars the compressed tissue. Instead, gradually remove tension by bringing your hips back to neutral, then slowly release your grip on their foot allowing their leg to unfold naturally. Remove your shin from behind their knee in a controlled motion without twisting. Allow your partner to extend their leg fully at their own pace, then check that they have normal sensation and range of motion in the calf before continuing training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ease hips, release grip slowly",
+        "distractors": {
+          "plausible": [
+            "Release grip before hips",
+            "Twist shin out quickly"
+          ],
+          "trap": [
+            "Let go and spring away fast"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control over the opponent's foot during the finish?",
         "answer": "The strongest configuration is a gable grip around the opponent's heel and midfoot, hugging it tight against your chest with your elbows squeezed together. This distributes the control force across both arms rather than relying on finger strength. An alternative is to thread your free leg over their shin and lock a figure-four with your legs, which frees your hands but requires more positional setup. For maximum security in competition, combine both by locking the figure-four with your legs while maintaining the gable grip on the foot, creating redundant control that is extremely difficult to escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip plus figure-four",
+        "distractors": {
+          "plausible": [
+            "Figure-four legs only",
+            "Gable grip on foot only"
+          ],
+          "trap": [
+            "Grip with fingers on toes"
+          ]
+        }
       },
       {
         "question": "When should you abandon the calf slicer attempt and return to standard Russian Cowboy control?",
         "answer": "Abandon the attempt if the opponent successfully straightens their leg fully before you can establish the fulcrum, as forcing the position from there risks losing back control entirely. Also abort if you lose chest-to-back contact during the transition, because without upper body control the opponent can turn to face you and recover guard. Reset if the opponent creates a strong frame against your hip that prevents the hip extension needed to finish. In each case, return to seatbelt control and re-establish the hook before attempting again or transitioning to a different attack like the choke or truck entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg straightens, lose back control",
+        "distractors": {
+          "plausible": [
+            "Opponent taps early",
+            "Your grip gets fatigued"
+          ],
+          "trap": [
+            "Force it through their frame"
+          ]
+        }
       },
       {
         "question": "What is the ideal shin placement angle relative to the opponent's leg for maximum compression?",
         "answer": "The shin should cross perpendicular (90 degrees) to the opponent's calf, positioned directly behind the knee crease where the gastrocnemius meets the popliteal fossa. The hard flat of your shin bone, not the rounded edge, should contact the soft tissue for maximum pressure concentration. Your ankle should extend past the outside of their leg and your knee past the inside, creating a bar that cannot slide sideways. If the angle is too diagonal, compression spreads across a wider area and the opponent can tolerate significantly more pressure before tapping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular shin, knee crease",
+        "distractors": {
+          "plausible": [
+            "45-degree diagonal angle",
+            "Round edge of shin bone"
+          ],
+          "trap": [
+            "Shin parallel along the calf"
+          ]
+        }
       },
       {
         "question": "How does hip extension generate the finishing force and what common mistake reduces its effectiveness?",
         "answer": "Hip extension drives your shin bone forward into the calf tissue while your grip on the foot prevents the leg from moving with the force, creating compression between two opposing forces. This is far more powerful and sustainable than arm pulling alone because the hip extensors (glutes and hamstrings) are among the strongest muscles in the body. The most common mistake is pulling with the arms while keeping the hips static, which fatigues the grip quickly and generates inconsistent pressure. The arms should hold the foot in place while the hips do the actual finishing work through a steady bridge-like extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips drive, grip holds foot",
+        "distractors": {
+          "plausible": [
+            "Pull foot toward your chest",
+            "Squeeze knees for power"
+          ],
+          "trap": [
+            "Pull with arms, hips static"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes the success rate of this submission?",
         "answer": "Use the calf slicer as a secondary attack after threatening the rear naked choke or truck entry from Russian Cowboy. When the opponent commits their hands to defending the neck or blocking the truck transition, their legs become unmonitored, creating the ideal window for the shin repositioning. In competition, the time pressure of a defended choke attempt often causes opponents to tunnel-vision on hand fighting, leaving the leg attack wide open. Set up the pattern by threatening the choke two or three times before transitioning to the slicer, conditioning the opponent to focus their defense upward.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain off choke/truck threats",
+        "distractors": {
+          "plausible": [
+            "Attack the legs first always",
+            "Isolate slicer as opener"
+          ],
+          "trap": [
+            "Announce the leg attack early"
+          ]
+        }
       }
     ],
     "clips": [
@@ -451,22 +551,62 @@
       {
         "question": "How do you recognize the calf slicer is being set up from Russian Cowboy before it is locked in?",
         "answer": "The primary recognition cue is feeling the attacker's shin rotate from its normal position under your thigh to a perpendicular cross behind your knee crease. You will feel increased pressure behind the knee rather than on your inner thigh. Additionally, if the attacker releases their underhook or adjusts their seatbelt grip to reach toward your lower leg, this signals they are transitioning from positional control to the submission setup. Early detection at this stage is critical because the escape window closes rapidly once the fulcrum is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin rotates behind your knee",
+        "distractors": {
+          "plausible": [
+            "Increased grip on your wrist",
+            "Sudden hip pressure increase"
+          ],
+          "trap": [
+            "Ignore legs, watch only hands"
+          ]
+        }
       },
       {
         "question": "When is the correct time to tap to the calf slicer from Russian Cowboy and why is early tapping important?",
         "answer": "Tap immediately when you feel the attacker's shin locked behind your knee with your foot controlled and any compression pressure beginning through their hip extension. Do not wait to see if you can escape — the calf slicer applies force extremely quickly once the fulcrum is set, and the difference between manageable pressure and tissue damage can be less than a second of additional extension. The calf muscle, Achilles tendon, and knee ligaments are all at risk, with potential injuries ranging from weeks to months of recovery. Early tapping preserves your training longevity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap the instant fulcrum locks",
+        "distractors": {
+          "plausible": [
+            "Tap only when pain is unbearable",
+            "Wait to test your escape first"
+          ],
+          "trap": [
+            "Try to escape before tapping"
+          ]
+        }
       },
       {
         "question": "What are the primary defensive options available before the calf slicer fulcrum is fully established?",
         "answer": "The highest-percentage defense is forcefully straightening your trapped leg the moment you feel the shin rotating behind your knee, denying the bent-knee angle necessary for the fulcrum. If the leg is already partially bent, use two-on-one grip fighting to prevent the attacker from capturing your foot, which is the final control point they need. You can also hip escape away while pushing against their hooking knee to change the angle of contact. The key principle across all defenses is acting during the transition phase before the fulcrum is locked, as defenses become dramatically less effective once the foot is captured.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg before it bends",
+        "distractors": {
+          "plausible": [
+            "Two-on-one grip fight for foot",
+            "Hip escape to change the angle"
+          ],
+          "trap": [
+            "Wait until foot is captured"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to focus solely on neck defense when trapped in Russian Cowboy?",
         "answer": "Focusing exclusively on neck defense leaves the leg hook completely unmonitored, which is exactly the window the attacker exploits for the calf slicer transition. The attacker's strategy from Russian Cowboy is often to threaten the choke to draw both of your hands to your neck, then redirect to the calf slicer while your legs are undefended. Effective defense requires dividing awareness between upper and lower body threats, periodically checking the hook position by feel, and recognizing that a momentary reduction in neck defense to address a shin rotation is often the safer choice than allowing the calf slicer to lock in uncontested.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leaves the leg hook unwatched",
+        "distractors": {
+          "plausible": [
+            "Neck defense is not needed",
+            "Hands are needed for grips"
+          ],
+          "trap": [
+            "Ignore neck, watch legs only"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -243,39 +243,129 @@
       },
       {
         "question": "Why should you angle your body to the side rather than sitting straight backward during the guard pull?",
-        "answer": "Sitting at an angle reduces strain on the lower back and tailbone, creates better angular positioning for establishing specific guard types like De La Riva or butterfly guard, provides better leverage for grip control, and makes it easier to track opponent's movement. The angle also naturally facilitates entry into asymmetric guard positions that are tactically stronger in modern BJJ, and it prevents the opponent from driving straight into you along your centerline."
+        "answer": "Sitting at an angle reduces strain on the lower back and tailbone, creates better angular positioning for establishing specific guard types like De La Riva or butterfly guard, provides better leverage for grip control, and makes it easier to track opponent's movement. The angle also naturally facilitates entry into asymmetric guard positions that are tactically stronger in modern BJJ, and it prevents the opponent from driving straight into you along your centerline.",
+        "answer_line": "Angle sideways, not straight back",
+        "distractors": {
+          "plausible": [
+            "Sit straight back for speed",
+            "Square up facing opponent"
+          ],
+          "trap": [
+            "Sit directly onto tailbone"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your sleeve grip as you begin sitting - what do you do?",
-        "answer": "If you still have your collar or primary grip, complete the sit quickly and immediately use your free hand to re-grip or frame on the opponent's body. If your only grip is broken, abort the pull and use a technical standup to return to standing rather than completing the sit without connection. Sitting without any grip leaves you isolated and easy to pass. The worst option is to continue sitting and hope to re-grip from the ground - you must either maintain connection or stand back up."
+        "answer": "If you still have your collar or primary grip, complete the sit quickly and immediately use your free hand to re-grip or frame on the opponent's body. If your only grip is broken, abort the pull and use a technical standup to return to standing rather than completing the sit without connection. Sitting without any grip leaves you isolated and easy to pass. The worst option is to continue sitting and hope to re-grip from the ground - you must either maintain connection or stand back up.",
+        "answer_line": "Keep grip or stand back up",
+        "distractors": {
+          "plausible": [
+            "Finish sit, re-grip after",
+            "Grab a different grip fast"
+          ],
+          "trap": [
+            "Sit anyway with no grip"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after your glutes contact the mat during the sitting guard pull?",
-        "answer": "Immediately activate your feet by establishing frames, hooks, or controlling positions on opponent's body. Your feet should never remain static on the mat after landing. Common options include placing feet on opponent's hips for distance control, inserting butterfly hooks, establishing De La Riva hook, or creating shin-to-shin connection. Active foot placement prevents immediate passing attempts and gives your guard its defensive and offensive structure."
+        "answer": "Immediately activate your feet by establishing frames, hooks, or controlling positions on opponent's body. Your feet should never remain static on the mat after landing. Common options include placing feet on opponent's hips for distance control, inserting butterfly hooks, establishing De La Riva hook, or creating shin-to-shin connection. Active foot placement prevents immediate passing attempts and gives your guard its defensive and offensive structure.",
+        "answer_line": "Activate feet immediately",
+        "distractors": {
+          "plausible": [
+            "Reset grips first",
+            "Sit still, assess guard"
+          ],
+          "trap": [
+            "Let feet rest on mat"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward with heavy pressure the moment you sit - how do you respond?",
-        "answer": "Create strong frames with both feet on their hips or knees instantly to establish minimum safe distance. Use your grips to pull their posture down and disrupt their forward momentum. If they penetrate past your feet, immediately transition to butterfly hooks to elevate them or hip escape to recover half guard. The critical error is accepting the pressure passively - you must either frame them away or transition to a guard that handles pressure, like butterfly or half guard."
+        "answer": "Create strong frames with both feet on their hips or knees instantly to establish minimum safe distance. Use your grips to pull their posture down and disrupt their forward momentum. If they penetrate past your feet, immediately transition to butterfly hooks to elevate them or hip escape to recover half guard. The critical error is accepting the pressure passively - you must either frame them away or transition to a guard that handles pressure, like butterfly or half guard.",
+        "answer_line": "Frame hips, then hooks",
+        "distractors": {
+          "plausible": [
+            "Pull them into closed guard",
+            "Push away with hands"
+          ],
+          "trap": [
+            "Accept pressure, stay flat"
+          ]
+        }
       },
       {
         "question": "What grip configuration gives you the best control during the sitting motion in the gi?",
-        "answer": "A same-side collar grip combined with opposite sleeve control provides the most versatile configuration. The collar grip controls their posture and prevents them from driving into you during the sit, while the sleeve grip prevents them from establishing their own passing grips. This combination also sets up multiple guard types: the sleeve grip feeds directly into lasso, spider, or collar-sleeve guard, while the collar grip supports De La Riva and butterfly entries. The key is that both grips maintain tension throughout the descent."
+        "answer": "A same-side collar grip combined with opposite sleeve control provides the most versatile configuration. The collar grip controls their posture and prevents them from driving into you during the sit, while the sleeve grip prevents them from establishing their own passing grips. This combination also sets up multiple guard types: the sleeve grip feeds directly into lasso, spider, or collar-sleeve guard, while the collar grip supports De La Riva and butterfly entries. The key is that both grips maintain tension throughout the descent.",
+        "answer_line": "Same collar, opposite sleeve",
+        "distractors": {
+          "plausible": [
+            "Both sleeves, no collar",
+            "Cross collar, same sleeve"
+          ],
+          "trap": [
+            "Grab both pant cuffs"
+          ]
+        }
       },
       {
         "question": "How does the sitting guard pull differ from a jumping guard pull, and when should you choose each?",
-        "answer": "The sitting guard pull emphasizes control, safety, and reliability with a smooth descent maintaining constant grip tension. The jumping guard pull is faster and can catch opponents off-guard but carries higher injury risk for both practitioners and requires more athleticism and precise timing. Choose the sitting pull when safety is priority, when you want to select your specific guard type deliberately, or against larger opponents where jumping is risky. Choose jumping pulls when you need to close distance rapidly against a disengaging opponent or when competition urgency demands speed over control."
+        "answer": "The sitting guard pull emphasizes control, safety, and reliability with a smooth descent maintaining constant grip tension. The jumping guard pull is faster and can catch opponents off-guard but carries higher injury risk for both practitioners and requires more athleticism and precise timing. Choose the sitting pull when safety is priority, when you want to select your specific guard type deliberately, or against larger opponents where jumping is risky. Choose jumping pulls when you need to close distance rapidly against a disengaging opponent or when competition urgency demands speed over control.",
+        "answer_line": "Sitting is safer, controlled",
+        "distractors": {
+          "plausible": [
+            "Jumping is safer overall",
+            "Sitting is faster to close"
+          ],
+          "trap": [
+            "Jump against bigger opponents"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating a sitting guard pull in a competition match?",
-        "answer": "The best window is immediately after establishing your preferred grip configuration while your opponent is still processing the grip exchange. Other strong windows include when your opponent momentarily stalls or resets their stance, when they are focused on breaking your grips rather than advancing, or when they step into a committed position that makes chasing you difficult. Avoid pulling when your opponent has dominant grips, when they are actively driving forward with pressure, or when you lack any meaningful grip connection."
+        "answer": "The best window is immediately after establishing your preferred grip configuration while your opponent is still processing the grip exchange. Other strong windows include when your opponent momentarily stalls or resets their stance, when they are focused on breaking your grips rather than advancing, or when they step into a committed position that makes chasing you difficult. Avoid pulling when your opponent has dominant grips, when they are actively driving forward with pressure, or when you lack any meaningful grip connection.",
+        "answer_line": "Right after grip established",
+        "distractors": {
+          "plausible": [
+            "When opponent has dominant grips",
+            "Mid-scramble with no grips"
+          ],
+          "trap": [
+            "While they drive forward"
+          ]
+        }
       },
       {
         "question": "After a successful sitting guard pull to butterfly guard, your opponent begins to stand up - what is your immediate chain attack?",
-        "answer": "As they stand, your butterfly hooks lose effectiveness but new opportunities open. Transition your feet to their hips for seated open guard distance control, or immediately enter single leg X-guard by hooking their lead leg as they rise. You can also use your grips to pull them forward off-balance as they stand, creating a sweep opportunity. The key is that their standing motion shifts their weight and base, creating a brief window where they are vulnerable to off-balancing attacks. Do not simply sit passively as they stand - use their movement against them."
+        "answer": "As they stand, your butterfly hooks lose effectiveness but new opportunities open. Transition your feet to their hips for seated open guard distance control, or immediately enter single leg X-guard by hooking their lead leg as they rise. You can also use your grips to pull them forward off-balance as they stand, creating a sweep opportunity. The key is that their standing motion shifts their weight and base, creating a brief window where they are vulnerable to off-balancing attacks. Do not simply sit passively as they stand - use their movement against them.",
+        "answer_line": "Hook leg into single leg X",
+        "distractors": {
+          "plausible": [
+            "Stay flat, reset butterfly",
+            "Release grips, backstep"
+          ],
+          "trap": [
+            "Let them stand, disengage"
+          ]
+        }
       },
       {
         "question": "Why is maintaining grip tension during the descent phase considered the most critical mechanical detail?",
-        "answer": "Grip tension during the descent is the bridge between your standing control and your seated guard. Without maintained tension, there is a gap where you have no connection to your opponent - they can step back, circle away, or drive forward unopposed. The grips also control the distance at which you land relative to your opponent, ensuring you are within range for foot placement. Additionally, maintained grip tension pulls your opponent slightly forward as you sit, keeping them off-balance and preventing them from immediately initiating their passing game. The descent is the most vulnerable moment, and grip tension is what protects you through it."
+        "answer": "Grip tension during the descent is the bridge between your standing control and your seated guard. Without maintained tension, there is a gap where you have no connection to your opponent - they can step back, circle away, or drive forward unopposed. The grips also control the distance at which you land relative to your opponent, ensuring you are within range for foot placement. Additionally, maintained grip tension pulls your opponent slightly forward as you sit, keeping them off-balance and preventing them from immediately initiating their passing game. The descent is the most vulnerable moment, and grip tension is what protects you through it.",
+        "answer_line": "Bridges standing to seated control",
+        "distractors": {
+          "plausible": [
+            "Keeps hands free to post",
+            "Controls opponent's feet"
+          ],
+          "trap": [
+            "Release grip, sit fast"
+          ]
+        }
       }
     ],
     "safety_considerations": "The sitting guard pull is one of the safest guard pull variations when executed with proper technique. The primary safety concern is protecting the tailbone and lower back during the sitting motion - always control your descent rather than dropping or falling heavily. Practice on appropriate matting with adequate padding, especially during initial learning phases. Ensure sufficient space behind you before sitting to avoid collisions with walls, other practitioners, or mat edges. Partners should maintain appropriate distance and avoid driving weight onto you during your sitting motion. In competition, be aware of mat boundaries and adjust your positioning accordingly. Progress gradually from static drilling to dynamic resistance to minimize risk of awkward falls.",
@@ -389,23 +479,73 @@
     "flashcards": [
       {
         "question": "What is the most dangerous moment for the person pulling sitting guard, and how should you exploit it?",
-        "answer": "The most dangerous moment is during the descent phase, specifically the 1-2 seconds when the opponent's glutes are landing on the mat and their feet have not yet established guard frames or hooks. During this window, their base is compromised and their guard is not yet functional. Exploit it by either driving forward immediately with pressure and underhooks, or by grabbing both legs and initiating a toreando or leg drag pass before they can place feet on your body. Hesitation eliminates this window entirely."
+        "answer": "The most dangerous moment is during the descent phase, specifically the 1-2 seconds when the opponent's glutes are landing on the mat and their feet have not yet established guard frames or hooks. During this window, their base is compromised and their guard is not yet functional. Exploit it by either driving forward immediately with pressure and underhooks, or by grabbing both legs and initiating a toreando or leg drag pass before they can place feet on your body. Hesitation eliminates this window entirely.",
+        "answer_line": "Attack during their descent",
+        "distractors": {
+          "plausible": [
+            "Wait until guard is set",
+            "Attack after hooks are in"
+          ],
+          "trap": [
+            "Back away and reset stance"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong collar grip and begins sitting - you cannot break the grip in time. What is your best response?",
-        "answer": "If you cannot break the grip before they sit, use their collar grip connection to your advantage by driving forward with strong chest pressure as they descend. Their own grip pulls you toward them, and if you time your forward drive with their sitting motion, you can achieve chest-to-chest contact before their feet become active. Alternatively, circle hard to the side opposite their collar grip where their control is weakest, and attack the angle with a leg drag or toreando before they can adjust their guard to your new position."
+        "answer": "If you cannot break the grip before they sit, use their collar grip connection to your advantage by driving forward with strong chest pressure as they descend. Their own grip pulls you toward them, and if you time your forward drive with their sitting motion, you can achieve chest-to-chest contact before their feet become active. Alternatively, circle hard to the side opposite their collar grip where their control is weakest, and attack the angle with a leg drag or toreando before they can adjust their guard to your new position.",
+        "answer_line": "Drive forward or circle away",
+        "distractors": {
+          "plausible": [
+            "Pull back to break the grip",
+            "Sprawl flat immediately"
+          ],
+          "trap": [
+            "Stand still and push in"
+          ]
+        }
       },
       {
         "question": "How do you identify whether an opponent is about to pull sitting guard versus attempt a takedown?",
-        "answer": "Guard pull cues include: weight shifting to heels rather than forward, rounding of the shoulders and posture breaking downward, tightening of grips with a pulling rather than pushing force, one foot stepping slightly back to prepare the sit, and the opponent checking space behind them. Takedown cues are opposite: weight shifts forward to the balls of the feet, level change is aggressive and forward, head drives into your chest or hip, and the opponent's eyes track your legs. Grip patterns also differ - guard pullers often seek collar grips while takedown artists seek underhooks or head-and-arm ties."
+        "answer": "Guard pull cues include: weight shifting to heels rather than forward, rounding of the shoulders and posture breaking downward, tightening of grips with a pulling rather than pushing force, one foot stepping slightly back to prepare the sit, and the opponent checking space behind them. Takedown cues are opposite: weight shifts forward to the balls of the feet, level change is aggressive and forward, head drives into your chest or hip, and the opponent's eyes track your legs. Grip patterns also differ - guard pullers often seek collar grips while takedown artists seek underhooks or head-and-arm ties.",
+        "answer_line": "Weight back, pulling grips",
+        "distractors": {
+          "plausible": [
+            "Head driving into your hip",
+            "Level change, forward drive"
+          ],
+          "trap": [
+            "Sudden double-leg shot"
+          ]
+        }
       },
       {
         "question": "After your opponent successfully establishes seated guard with grips, what is your passing priority sequence?",
-        "answer": "First, establish your own dominant grips on their collar, sleeves, or pants to limit their offensive options. Second, control at least one of their legs to reduce their mobility and sweep threat. Third, create an angle by circling to one side rather than standing directly in front where their legs have maximum leverage. Fourth, initiate your passing sequence from the angle - toreando, leg drag, or knee slice depending on their guard configuration. The key principle is grips before pressure, angle before advancement."
+        "answer": "First, establish your own dominant grips on their collar, sleeves, or pants to limit their offensive options. Second, control at least one of their legs to reduce their mobility and sweep threat. Third, create an angle by circling to one side rather than standing directly in front where their legs have maximum leverage. Fourth, initiate your passing sequence from the angle - toreando, leg drag, or knee slice depending on their guard configuration. The key principle is grips before pressure, angle before advancement.",
+        "answer_line": "Grips, then leg, then angle",
+        "distractors": {
+          "plausible": [
+            "Pressure first, grips later",
+            "Stand square, then pass"
+          ],
+          "trap": [
+            "Dive straight through center"
+          ]
+        }
       },
       {
         "question": "Why is maintaining standing posture advantageous when defending against the sitting guard pull?",
-        "answer": "Standing posture provides superior mobility for circling, angle changes, and rapid direction shifts that a kneeling or crouching position cannot match. It keeps your hips away from the opponent's hooks and sweeping leverage. Standing also gives you the option to disengage completely and reset if needed, which is impossible once you drop to knees. Additionally, standing posture makes it harder for the opponent to break your balance with pulling forces because your center of gravity is further from their control points. Only abandon standing posture when you have established clear passing grips and are committed to a specific pass."
+        "answer": "Standing posture provides superior mobility for circling, angle changes, and rapid direction shifts that a kneeling or crouching position cannot match. It keeps your hips away from the opponent's hooks and sweeping leverage. Standing also gives you the option to disengage completely and reset if needed, which is impossible once you drop to knees. Additionally, standing posture makes it harder for the opponent to break your balance with pulling forces because your center of gravity is further from their control points. Only abandon standing posture when you have established clear passing grips and are committed to a specific pass.",
+        "answer_line": "Standing keeps mobility, options",
+        "distractors": {
+          "plausible": [
+            "Kneeling gives more control",
+            "Drop level to match them"
+          ],
+          "trap": [
+            "Commit to knees immediately"
+          ]
+        }
       }
     ],
     "training_progressions": [

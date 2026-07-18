@@ -142,7 +142,17 @@
       },
       {
         "question": "What grip configuration provides the strongest control for the inside heel hook finish?",
-        "answer": "The optimal grip uses a two-on-one configuration where both hands control the ankle and heel. Your blade hand (the hand closer to the heel) wraps around the Achilles tendon with the blade of your wrist positioned against the heel. Your secondary hand grabs your own wrist or forearm to reinforce the position. Keep elbows tight to your body and the foot tucked into your armpit for maximum breaking power."
+        "answer": "The optimal grip uses a two-on-one configuration where both hands control the ankle and heel. Your blade hand (the hand closer to the heel) wraps around the Achilles tendon with the blade of your wrist positioned against the heel. Your secondary hand grabs your own wrist or forearm to reinforce the position. Keep elbows tight to your body and the foot tucked into your armpit for maximum breaking power.",
+        "answer_line": "Two-on-one grip, blade on heel",
+        "distractors": {
+          "plausible": [
+            "One-on-one grip, foot in armpit",
+            "Two-on-one grip, elbows flared out"
+          ],
+          "trap": [
+            "Grip toes instead of the heel"
+          ]
+        }
       },
       {
         "question": "Your opponent hides their heel by pressing it against their own hip - what pressure application forces the exposure?",

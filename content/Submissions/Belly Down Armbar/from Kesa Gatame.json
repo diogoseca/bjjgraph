@@ -295,52 +295,152 @@
       {
         "question": "What anatomical structure does the belly down armbar from Kesa Gatame primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it against its natural range of motion. The submission creates pressure on the ulnar collateral ligament and the joint capsule by using hip extension as a fulcrum against the back of the elbow while the wrist is controlled and lifted. Secondary stress is placed on the biceps tendon as it resists the forced extension under the attacker's full body weight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint",
+            "Wrist joint"
+          ],
+          "trap": [
+            "Biceps tendon primarily"
+          ]
+        }
       },
       {
         "question": "What grip must be established before initiating the step-over rotation from Kesa Gatame?",
         "answer": "Secure two-on-one wrist control with both hands gripping the opponent's wrist and forearm before beginning any rotation. Single-hand grip is insufficient because the rotational forces during the step-over can easily break a one-handed grip, resulting in loss of the arm and a compromised position. The near hand controls the wrist joint while the far hand reinforces on the forearm just above it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one wrist control",
+        "distractors": {
+          "plausible": [
+            "One-hand wrist grip",
+            "Grip the far shoulder"
+          ],
+          "trap": [
+            "Let go, control the neck"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together during the transition—what adjustment prevents escape?",
         "answer": "Drive your hips forward into their clasped hands to create separation force on the grip. You can also wedge your knee between their forearms to pry the grip apart mechanically. If the grip remains locked, consider switching to a kimura attack on the top arm or controlling the clasped unit for an americana. Do not try to simply overpower a locked Gable grip with arm strength alone as this wastes energy.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip pressure, wedge knee to pry",
+        "distractors": {
+          "plausible": [
+            "Pull straight up with both hands",
+            "Switch to kimura immediately"
+          ],
+          "trap": [
+            "Overpower grip with arm strength"
+          ]
+        }
       },
       {
         "question": "At what point during the belly down armbar sequence does the opponent's realistic escape window close?",
         "answer": "The critical point of no escape occurs when the attacker has fully committed to the belly-down prone position with knees squeezed together and the opponent's arm isolated between the thighs with proper thumb-up alignment. Before this point, during the step-over and rotation phases, the defender has realistic escape opportunities through arm extraction, following the rotation, or explosive bridging. Once the prone position is locked, the mechanical advantage is overwhelming.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prone lock, knees squeezed shut",
+        "distractors": {
+          "plausible": [
+            "Once wrist grip is secured",
+            "During the step-over rotation"
+          ],
+          "trap": [
+            "When head control is lost"
+          ]
+        }
       },
       {
         "question": "How should you release the belly down armbar after your training partner taps?",
         "answer": "Release extension pressure first by lowering the wrist back toward neutral position, removing the hyperextension force on the elbow. Then release your knee squeeze to free the trapped arm. Finally, disengage your body position completely and allow your partner to recover. Never maintain the position after a tap even momentarily. Check on your partner's arm mobility and comfort before continuing training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist first, then knee, then let go",
+        "distractors": {
+          "plausible": [
+            "Release knee squeeze first",
+            "Let go of everything at once"
+          ],
+          "trap": [
+            "Hold briefly to check the tap"
+          ]
+        }
       },
       {
         "question": "Why is progressive pressure application especially critical for this particular armbar variation?",
         "answer": "The belly-down position creates significantly more mechanical advantage than a standard supine armbar because the attacker's full body weight and hip extension power are concentrated against the elbow joint. This amplified leverage means the joint can be damaged much faster than practitioners expect. Jerking or spiking the arm can cause catastrophic ligament damage before the defender has time to recognize danger and tap. Slow, steady extension is always sufficient given the extreme leverage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Body weight, hips amplify leverage",
+        "distractors": {
+          "plausible": [
+            "Elbow joint is unusually weak",
+            "Defender can't feel it coming"
+          ],
+          "trap": [
+            "A fast spike finish is fine here"
+          ]
+        }
       },
       {
         "question": "What thumb orientation should you verify before applying the finishing extension?",
         "answer": "The opponent's thumb should be pointing upward toward the ceiling when you are in the belly-down position. This orientation ensures that the hyperextension force is directed correctly against the elbow joint's natural bending plane. If the thumb rotates downward or to the side, the pressure angle shifts and may allow the hitchhiker escape or apply torsional stress rather than clean hyperextension. Follow any thumb rotation with your body to maintain proper alignment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumb pointing up",
+        "distractors": {
+          "plausible": [
+            "Thumb pointing to the side",
+            "Thumb pointing toward the mat"
+          ],
+          "trap": [
+            "Thumb rotation doesn't matter"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to bridge during your step-over—what is your best response?",
         "answer": "Stay heavy on their chest by driving your weight down through your hips during the transition. If the bridge is particularly explosive, you have two options: abandon the belly-down attempt and re-settle into stable Kesa Gatame to maintain dominant position, or use their bridge momentum to complete your rotation faster by timing the step-over to coincide with their upward movement. The decision depends on how secure your wrist grip remains during the bridge.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stay heavy, ride or reset Kesa",
+        "distractors": {
+          "plausible": [
+            "Release grip and re-attack later",
+            "Force the step-over regardless"
+          ],
+          "trap": [
+            "Lift hips to avoid the bridge"
+          ]
+        }
       },
       {
         "question": "What distinguishes the belly down armbar entry from Kesa Gatame compared to entries from mount?",
         "answer": "From Kesa Gatame, the attacker is already perpendicular to the opponent with the arm trapped under the armpit, meaning the rotation distance to belly-down is shorter and the arm is pre-isolated. From mount, the attacker must first isolate an arm, then swing their leg over the head and transition from sitting upright to prone. The Kesa Gatame entry is more direct because the body angle already faces the correct direction for the prone finish, and the opponent's head control limits their ability to sit up and follow the rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shorter rotation, arm pre-isolated",
+        "distractors": {
+          "plausible": [
+            "Same distance as from mount",
+            "Must isolate arm first, like mount"
+          ],
+          "trap": [
+            "Head control is unnecessary here"
+          ]
+        }
       },
       {
         "question": "How do you maintain control if the opponent partially extracts their arm during the transition?",
         "answer": "If you feel the arm slipping during rotation, immediately abort the belly-down transition and return to Kesa Gatame control. Do not chase a partially freed arm into the prone position as this creates scramble situations where you may end up in an inferior position. Re-establish the arm trap under your armpit, re-secure head control, and reset the submission sequence. A failed attempt from Kesa Gatame returns you to a dominant position with no risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abort, reset to Kesa Gatame",
+        "distractors": {
+          "plausible": [
+            "Speed up the rotation instead",
+            "Trade grip hands mid-transition"
+          ],
+          "trap": [
+            "Chase the arm into prone position"
+          ]
+        }
       }
     ],
     "clips": [
@@ -453,27 +553,77 @@
       {
         "question": "How do you recognize that a belly down armbar is being set up from Kesa Gatame?",
         "answer": "The primary recognition cue is the opponent releasing their head-wrapping arm and transitioning both hands to control your trapped wrist and forearm. This grip change is the necessary precursor to the step-over rotation. Secondary cues include feeling the opponent's far leg lift off the mat and their weight shifting from perpendicular chest pressure toward your arm and shoulder area. React immediately upon detecting the first grip change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Releases head, grips your wrist",
+        "distractors": {
+          "plausible": [
+            "Feels their far leg lift first",
+            "Weight shifts to chest pressure"
+          ],
+          "trap": [
+            "Opponent tightens head control"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the belly down armbar from Kesa Gatame?",
         "answer": "Tap loudly and clearly using any available method: verbal tap saying 'tap' clearly, physical hand tap on the attacker's body or mat with your free hand, or foot tap on the mat. Because your trapped arm is immobilized, your free hand and verbal signals are the primary options. Tap early when you feel extension beginning rather than waiting until pain is severe. The belly-down position amplifies force so rapidly that delayed tapping risks genuine ligament injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap loud and early, voice or hand",
+        "distractors": {
+          "plausible": [
+            "Foot tap only, stay silent",
+            "Use trapped hand to tap out"
+          ],
+          "trap": [
+            "Wait until pain is unbearable"
+          ]
+        }
       },
       {
         "question": "What defensive options are available during the step-over transition phase?",
         "answer": "During the step-over, the attacker's base is temporarily compromised as they lift their leg. Your primary options are: clasp your hands together to prevent arm isolation, bridge explosively into the attacker to disrupt their balance, turn your body to follow their rotation direction preventing arm isolation, or pull your elbow tight and rotate away toward turtle. The most reliable defense combines the hand clasp with bridging, addressing both grip prevention and base disruption simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clasp hands, bridge together",
+        "distractors": {
+          "plausible": [
+            "Follow rotation, turn body only",
+            "Pull elbow tight, spin to turtle"
+          ],
+          "trap": [
+            "Relax the arm to save energy"
+          ]
+        }
       },
       {
         "question": "Why is defending the belly down armbar after the prone position is established so difficult?",
         "answer": "The prone position gives the attacker their full body weight plus hip extension power concentrated against the isolated elbow joint. Unlike a standard supine armbar where the defender can stack, posture, or rotate to relieve pressure, the belly-down position eliminates these defensive angles. The attacker's thigh squeeze prevents arm extraction, the floor prevents downward movement, and the mechanical advantage ratio is among the highest of any submission in grappling.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No stack, posture, or roll angles",
+        "distractors": {
+          "plausible": [
+            "Can still posture up to defend",
+            "Rotating away relieves pressure"
+          ],
+          "trap": [
+            "Bridge hard to reverse the position"
+          ]
+        }
       },
       {
         "question": "Your opponent has your wrist controlled but has not stepped over yet—what is your highest percentage response?",
         "answer": "Immediately clasp both hands together using a Gable grip or S-grip to prevent arm isolation. Simultaneously, pull your trapped elbow tight against your ribcage and begin bridging into the opponent to compress the space they need for the step-over. If you can break the wrist control entirely, immediately re-establish defensive frames for standard Kesa Gatame bottom escapes. The pre-step-over phase is your best defensive window since options decrease significantly once the leg clears your head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clasp hands, elbow tight, bridge",
+        "distractors": {
+          "plausible": [
+            "Posture up to create space",
+            "Try to break the wrist grip"
+          ],
+          "trap": [
+            "Wait until they step over to react"
+          ]
+        }
       }
     ],
     "training_progressions": [

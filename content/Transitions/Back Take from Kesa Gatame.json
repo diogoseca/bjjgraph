@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "When is the optimal timing window to initiate the back take from Kesa Gatame?",
-        "answer": "The best timing windows occur during weight shifts: when the opponent sits back heavily to consolidate their control (creating space under their chest) or when they lean forward to attempt submissions like americana or arm triangle (shifting their base forward). Both scenarios reduce the opponent's ability to resist the rotation. Avoid initiating when the opponent's weight is stacked directly and evenly over your sternum, as bridging against maximal centered pressure is inefficient."
+        "answer": "The best timing windows occur during weight shifts: when the opponent sits back heavily to consolidate their control (creating space under their chest) or when they lean forward to attempt submissions like americana or arm triangle (shifting their base forward). Both scenarios reduce the opponent's ability to resist the rotation. Avoid initiating when the opponent's weight is stacked directly and evenly over your sternum, as bridging against maximal centered pressure is inefficient.",
+        "answer_line": "During weight shifts (sit-back/lean)",
+        "distractors": {
+          "plausible": [
+            "As soon as Kesa Gatame is secured",
+            "When opponent is fully relaxed"
+          ],
+          "trap": [
+            "When weight is centered on you"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's far arm critical before initiating the rotation?",
-        "answer": "The far arm is the opponent's primary posting tool. If it remains free when you bridge and turn, they simply post their hand on the mat to block the rotation, nullifying your bridge while maintaining Kesa Gatame. Controlling the far arm at the wrist, elbow, or sleeve removes this defensive option and ensures your bridge momentum translates into actual rotation rather than being absorbed by their post."
+        "answer": "The far arm is the opponent's primary posting tool. If it remains free when you bridge and turn, they simply post their hand on the mat to block the rotation, nullifying your bridge while maintaining Kesa Gatame. Controlling the far arm at the wrist, elbow, or sleeve removes this defensive option and ensures your bridge momentum translates into actual rotation rather than being absorbed by their post.",
+        "answer_line": "Control far arm before bridging",
+        "distractors": {
+          "plausible": [
+            "Control the near arm first",
+            "Trap both arms before turning"
+          ],
+          "trap": [
+            "Ignore arms, bridge for speed"
+          ]
+        }
       },
       {
         "question": "What makes turning into the opponent more effective than turning away in Kesa Gatame?",
-        "answer": "Turning away (standard shrimping) is ineffective because Kesa Gatame's perpendicular angle means your hip escape pushes you directly into the opponent's hips rather than creating usable distance. Turning into the opponent exploits the geometric weakness unique to Kesa Gatame: the exposed back. By rotating toward them, you move along the path of least resistance and target the one direction where their control is structurally weakest."
+        "answer": "Turning away (standard shrimping) is ineffective because Kesa Gatame's perpendicular angle means your hip escape pushes you directly into the opponent's hips rather than creating usable distance. Turning into the opponent exploits the geometric weakness unique to Kesa Gatame: the exposed back. By rotating toward them, you move along the path of least resistance and target the one direction where their control is structurally weakest.",
+        "answer_line": "Turn into them, not away",
+        "distractors": {
+          "plausible": [
+            "Shrimp away like standard escapes",
+            "Turn away to create distance"
+          ],
+          "trap": [
+            "Bridge straight up and out"
+          ]
+        }
       },
       {
         "question": "What is the first control point you must establish after reaching the opponent's back?",
-        "answer": "The bottom hook—inserting your foot inside the opponent's near-side thigh—is the absolute first priority after reaching the back. This single hook prevents the opponent from spinning away or turning to face you, which is their most immediate defensive reaction. Without a hook anchoring your position, even a perfect harness grip cannot prevent them from rotating out of your control within seconds."
+        "answer": "The bottom hook—inserting your foot inside the opponent's near-side thigh—is the absolute first priority after reaching the back. This single hook prevents the opponent from spinning away or turning to face you, which is their most immediate defensive reaction. Without a hook anchoring your position, even a perfect harness grip cannot prevent them from rotating out of your control within seconds.",
+        "answer_line": "Insert the bottom hook first",
+        "distractors": {
+          "plausible": [
+            "Secure seatbelt grip first",
+            "Control both hooks immediately"
+          ],
+          "trap": [
+            "Go for the choke immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping over to mount as you turn into them—how do you adjust?",
-        "answer": "Use your outside leg to hook their stepping leg before it clears your body, catching it at the knee or thigh. This blocks the mount transition and pulls them into half guard, which is a significant positional improvement over Kesa Gatame. From half guard you can work standard escapes or even continue pursuing the back take through different pathways like the back take from half guard bottom."
+        "answer": "Use your outside leg to hook their stepping leg before it clears your body, catching it at the knee or thigh. This blocks the mount transition and pulls them into half guard, which is a significant positional improvement over Kesa Gatame. From half guard you can work standard escapes or even continue pursuing the back take through different pathways like the back take from half guard bottom.",
+        "answer_line": "Hook their leg into half guard",
+        "distractors": {
+          "plausible": [
+            "Push them off to reset position",
+            "Follow them up to take mount"
+          ],
+          "trap": [
+            "Let them mount, then bridge"
+          ]
+        }
       },
       {
         "question": "What are the critical mechanical differences between the sit-up and bridge-and-turn variants?",
-        "answer": "The sit-up variant works when the opponent sits back with their weight on their own hips, creating space above you. You sit directly up into their body using core strength rather than bridging force. The bridge-and-turn variant is for opponents driving heavy forward pressure. It requires explosive hip extension directed at 45 degrees toward the opponent to disrupt their stacked weight before rotating. Choose based on where the opponent's weight is distributed."
+        "answer": "The sit-up variant works when the opponent sits back with their weight on their own hips, creating space above you. You sit directly up into their body using core strength rather than bridging force. The bridge-and-turn variant is for opponents driving heavy forward pressure. It requires explosive hip extension directed at 45 degrees toward the opponent to disrupt their stacked weight before rotating. Choose based on where the opponent's weight is distributed.",
+        "answer_line": "Match variant to weight placement",
+        "distractors": {
+          "plausible": [
+            "Always bridge regardless of weight",
+            "Always sit up, never bridge"
+          ],
+          "trap": [
+            "Bridge hard when they sit back"
+          ]
+        }
       },
       {
         "question": "How do you handle the opponent transitioning to North-South when they feel your rotation starting?",
-        "answer": "Follow their movement with your hips, maintaining chest contact and preventing them from establishing full North-South control. If they commit to circling toward your head, use their movement momentum to assist your own rotation—their circling can actually help you get behind them if you track their movement with your hips rather than staying static. If they complete the North-South transition, you have at least escaped Kesa Gatame."
+        "answer": "Follow their movement with your hips, maintaining chest contact and preventing them from establishing full North-South control. If they commit to circling toward your head, use their movement momentum to assist your own rotation—their circling can actually help you get behind them if you track their movement with your hips rather than staying static. If they complete the North-South transition, you have at least escaped Kesa Gatame.",
+        "answer_line": "Track with hips, use their momentum",
+        "distractors": {
+          "plausible": [
+            "Stay flat and wait it out",
+            "Block the transition entirely"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize in the gi versus no-gi when executing this back take?",
-        "answer": "In the gi, a cross-collar grip on the opponent's far lapel provides continuous pulling leverage throughout the rotation and transitions directly into collar-based attacks from back control. In no-gi, an overhook around the opponent's far arm or a grip behind their neck gives you the pulling handle needed for rotation. In both cases, the grip serves the same function: anchoring your rotation and preventing the opponent from creating separation during the turning sequence."
+        "answer": "In the gi, a cross-collar grip on the opponent's far lapel provides continuous pulling leverage throughout the rotation and transitions directly into collar-based attacks from back control. In no-gi, an overhook around the opponent's far arm or a grip behind their neck gives you the pulling handle needed for rotation. In both cases, the grip serves the same function: anchoring your rotation and preventing the opponent from creating separation during the turning sequence.",
+        "answer_line": "Cross-collar gi, overhook no-gi",
+        "distractors": {
+          "plausible": [
+            "Underhook the near arm both times",
+            "Grip the far pant leg always"
+          ],
+          "trap": [
+            "Release all grips before turning"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Back Take from Kesa Gatame involves significant rotational forces on the spine and neck during the turning sequence. During drilling, ensure smooth controlled rotations rather than explosive jerking movements that could strain the cervical spine. Partners should communicate immediately if neck pressure becomes excessive when the bottom player is turning through the head-trapped position. When practicing at full speed, be mindful of knee and ankle positions during the hip rotation to prevent joint injuries from legs getting caught underneath. The bridge-and-turn variant in particular requires careful progressive resistance training to prevent the bottom player from over-rotating and landing awkwardly on their training partner.",
@@ -397,19 +477,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a back take attempt is being initiated from Kesa Gatame bottom?",
-        "answer": "The earliest cue is the bottom player's hips beginning to rotate toward you rather than remaining flat or shrimping away. You feel their belt line turning to face your body rather than the ceiling. This hip rotation precedes the bridge and framing that power the back take, making it the first detectable signal. Secondary cues include increased pressure from their far arm frame directed toward your back and attempts to grip your far posting arm."
+        "answer": "The earliest cue is the bottom player's hips beginning to rotate toward you rather than remaining flat or shrimping away. You feel their belt line turning to face your body rather than the ceiling. This hip rotation precedes the bridge and framing that power the back take, making it the first detectable signal. Secondary cues include increased pressure from their far arm frame directed toward your back and attempts to grip your far posting arm.",
+        "answer_line": "Hips rotating to face you",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge",
+            "Far arm grip on your collar"
+          ],
+          "trap": [
+            "Wait for full back exposure"
+          ]
+        }
       },
       {
         "question": "How does your hip position directly affect your vulnerability to the back take from Kesa Gatame?",
-        "answer": "When your hips are elevated or sitting back away from the opponent, you create space underneath your body that the bottom player exploits for rotation. The higher your hips sit, the less bridging force they need to initiate the turn. Keeping your hips sunk low with weight driven forward through your chest eliminates this space, forcing the bottom player to generate significantly more force to create any rotational momentum. Low hips also bring your center of gravity closer to the mat, making you harder to displace."
+        "answer": "When your hips are elevated or sitting back away from the opponent, you create space underneath your body that the bottom player exploits for rotation. The higher your hips sit, the less bridging force they need to initiate the turn. Keeping your hips sunk low with weight driven forward through your chest eliminates this space, forcing the bottom player to generate significantly more force to create any rotational momentum. Low hips also bring your center of gravity closer to the mat, making you harder to displace.",
+        "answer_line": "Keep hips low and driven forward",
+        "distractors": {
+          "plausible": [
+            "Keep hips high for mobility",
+            "Sit back to create space"
+          ],
+          "trap": [
+            "Post hips back to relax pressure"
+          ]
+        }
       },
       {
         "question": "What is the optimal counter-transition when the bottom player has committed to turning into you and is approaching chest-to-chest?",
-        "answer": "The optimal counter is transitioning to mount by stepping your far leg over their body, using their own turning momentum to facilitate the mount establishment. At the chest-to-chest phase, they have already created the hip angle that makes maintaining Kesa Gatame difficult, but their turn also creates the space for your mount transition. Attempting to force them back into Kesa Gatame at this stage is less effective than accepting the positional evolution and advancing to mount, which is worth more points and maintains your dominance."
+        "answer": "The optimal counter is transitioning to mount by stepping your far leg over their body, using their own turning momentum to facilitate the mount establishment. At the chest-to-chest phase, they have already created the hip angle that makes maintaining Kesa Gatame difficult, but their turn also creates the space for your mount transition. Attempting to force them back into Kesa Gatame at this stage is less effective than accepting the positional evolution and advancing to mount, which is worth more points and maintains your dominance.",
+        "answer_line": "Step over to mount, don't fight it",
+        "distractors": {
+          "plausible": [
+            "Fight to reestablish Kesa Gatame",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Sprawl back to flatten them"
+          ]
+        }
       },
       {
         "question": "Why is proactively controlling the bottom player's far arm an effective preventive defense?",
-        "answer": "The far arm is the bottom player's primary tool for both framing space against your shoulder and controlling your far posting arm. Without the far arm, they cannot create the initial space needed for hip rotation, cannot eliminate your posting base, and cannot pull themselves through the rotation. Controlling it proactively removes the mechanical prerequisites for the back take before the attempt even begins, making it significantly more effective than reactive defense after the rotation has started."
+        "answer": "The far arm is the bottom player's primary tool for both framing space against your shoulder and controlling your far posting arm. Without the far arm, they cannot create the initial space needed for hip rotation, cannot eliminate your posting base, and cannot pull themselves through the rotation. Controlling it proactively removes the mechanical prerequisites for the back take before the attempt even begins, making it significantly more effective than reactive defense after the rotation has started.",
+        "answer_line": "Control far arm before it starts",
+        "distractors": {
+          "plausible": [
+            "Control the near arm proactively",
+            "Frame on their hips early"
+          ],
+          "trap": [
+            "Post both hands on the mat"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -377,7 +377,17 @@
       {
         "question": "How do you coordinate hip extension with arm contraction to generate maximum finishing pressure?",
         "answer": "The hips and arms create opposing forces that amplify compression on the neck. Push your hips forward and slightly arch your back to drive the opponent's trapped neck into the forearm blade, while simultaneously contracting your arms to pull their head into your chest. The key timing is to initiate hip extension first to set the angle, then add the arm squeeze progressively. This coordination lets skeletal structure and body weight do the work rather than relying on grip strength alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips first, then arm squeeze",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms first, hips last",
+            "Pull head in, skip hip drive"
+          ],
+          "trap": [
+            "Just grip harder, no hip drive"
+          ]
+        }
       },
       {
         "question": "Your opponent begins passing your guard while you hold the guillotine grip—what is the correct decision and why?",

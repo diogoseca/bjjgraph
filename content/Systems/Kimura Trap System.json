@@ -336,43 +336,143 @@
   "flashcards": [
     {
       "question": "What is the core philosophy that separates the Kimura Trap System from treating the kimura as a single submission?",
-      "answer": "The system uses the figure-four grip primarily as a control mechanism and steering wheel rather than a finish, chaining back takes, mounts, sweeps, and submissions so every defensive reaction opens a new attack."
+      "answer": "The system uses the figure-four grip primarily as a control mechanism and steering wheel rather than a finish, chaining back takes, mounts, sweeps, and submissions so every defensive reaction opens a new attack.",
+      "answer_line": "Control grip fuels chained attacks",
+      "distractors": {
+        "plausible": [
+          "Kimura is one fast submission",
+          "Grip strength alone wins it"
+        ],
+        "trap": [
+          "Abandon grip once mount is won"
+        ]
+      }
     },
     {
       "question": "When the opponent extends or straightens the trapped arm to relieve kimura pressure, which pathway does the system prioritize?",
-      "answer": "The back take — the extended arm becomes an anchor to climb onto the back, with the kimura grip transitioning naturally into seat-belt control as you secure the back."
+      "answer": "The back take — the extended arm becomes an anchor to climb onto the back, with the kimura grip transitioning naturally into seat-belt control as you secure the back.",
+      "answer_line": "Take the back off the arm",
+      "distractors": {
+        "plausible": [
+          "Force the kimura finish harder",
+          "Switch to armbar instead"
+        ],
+        "trap": [
+          "Release grip to reset position"
+        ]
+      }
     },
     {
       "question": "What grip detail distinguishes a controlling kimura grip from one the opponent can easily strip?",
-      "answer": "A deep, wrist-to-wrist (figure-four) connection with the elbow tight to your own body, rather than a shallow finger grip; depth controls the shoulder girdle and resists strength-based extraction."
+      "answer": "A deep, wrist-to-wrist (figure-four) connection with the elbow tight to your own body, rather than a shallow finger grip; depth controls the shoulder girdle and resists strength-based extraction.",
+      "answer_line": "Deep wrist-to-wrist, elbow tight",
+      "distractors": {
+        "plausible": [
+          "Shallow finger grip is enough",
+          "Elbow flared out for leverage"
+        ],
+        "trap": [
+          "Grip the sleeve, not the wrist"
+        ]
+      }
     },
     {
       "question": "How does the Kimura Trap System create a 'dilemma' that fatigues and breaks the opponent?",
-      "answer": "Every defensive choice solves one threat while exposing another — defend the submission and you lose your back; defend the back and you concede mount — forcing the opponent into a chain of losing decisions."
+      "answer": "Every defensive choice solves one threat while exposing another — defend the submission and you lose your back; defend the back and you concede mount — forcing the opponent into a chain of losing decisions.",
+      "answer_line": "Every defense opens new attack",
+      "distractors": {
+        "plausible": [
+          "Opponent can defend everything",
+          "Only the submission is threatened"
+        ],
+        "trap": [
+          "Let them choose their defense"
+        ]
+      }
     },
     {
       "question": "From which positions can the Kimura Trap System be initiated?",
-      "answer": "Side control, half guard, turtle, north-south, and even standing or scramble situations; the figure-four grip is the common thread that connects these otherwise separate positions into one offensive system."
+      "answer": "Side control, half guard, turtle, north-south, and even standing or scramble situations; the figure-four grip is the common thread that connects these otherwise separate positions into one offensive system.",
+      "answer_line": "Many positions share the grip",
+      "distractors": {
+        "plausible": [
+          "Only works from side control",
+          "Only from full mount top"
+        ],
+        "trap": [
+          "Only usable in guard passing"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when first learning the system?",
-      "answer": "Hunting the submission finish prematurely before establishing positional control, which lets the opponent escape; the system demands a position-over-submission mindset, treating the finish as one of several outcomes."
+      "answer": "Hunting the submission finish prematurely before establishing positional control, which lets the opponent escape; the system demands a position-over-submission mindset, treating the finish as one of several outcomes.",
+      "answer_line": "Chasing the tap, not position",
+      "distractors": {
+        "plausible": [
+          "Securing mount before attacking",
+          "Taking the back too early"
+        ],
+        "trap": [
+          "Finish fast before they defend"
+        ]
+      }
     },
     {
       "question": "What is the rolling kimura and when is it the right tool?",
-      "answer": "A forward roll performed while retaining the figure-four grip, using rotational momentum to break a defender who has neutralized static attacks by maintaining strong posture and base."
+      "answer": "A forward roll performed while retaining the figure-four grip, using rotational momentum to break a defender who has neutralized static attacks by maintaining strong posture and base.",
+      "answer_line": "Roll through grip to break base",
+      "distractors": {
+        "plausible": [
+          "Static grip crank increases pain",
+          "Switch grip to underhook"
+        ],
+        "trap": [
+          "Let go and re-shoot the grip"
+        ]
+      }
     },
     {
       "question": "If an opponent uses superior strength to rip the trapped arm free, what should the practitioner adjust?",
-      "answer": "Shift from grip strength to body positioning and angle creation, using hip and shoulder pressure to multiply holding power, and favor the back-take pathway, which relies less on raw grip strength."
+      "answer": "Shift from grip strength to body positioning and angle creation, using hip and shoulder pressure to multiply holding power, and favor the back-take pathway, which relies less on raw grip strength.",
+      "answer_line": "Angle and hips, not grip strength",
+      "distractors": {
+        "plausible": [
+          "Squeeze the figure-four harder",
+          "Add a second hand to grip"
+        ],
+        "trap": [
+          "Chase the arm across your body"
+        ]
+      }
     },
     {
       "question": "Why is the kimura grip described as neutralizing 'half' of the opponent's defensive capacity?",
-      "answer": "Controlling one arm in the figure-four removes a primary framing and posting limb, so the opponent can no longer use that side to frame, base, or hand-fight, simplifying your subsequent attacks."
+      "answer": "Controlling one arm in the figure-four removes a primary framing and posting limb, so the opponent can no longer use that side to frame, base, or hand-fight, simplifying your subsequent attacks.",
+      "answer_line": "Removes one arm from framing",
+      "distractors": {
+        "plausible": [
+          "Removes both arms from defense",
+          "Only blocks the submission arm"
+        ],
+        "trap": [
+          "Frees opponent's far-side frame"
+        ]
+      }
     },
     {
       "question": "What does mastery of the system look like in terms of pathway recognition speed?",
-      "answer": "Advanced practitioners react instantly or anticipatorily to the defender's movement, committing to the correct pathway within a single movement cycle rather than pausing several seconds to observe and decide."
+      "answer": "Advanced practitioners react instantly or anticipatorily to the defender's movement, committing to the correct pathway within a single movement cycle rather than pausing several seconds to observe and decide.",
+      "answer_line": "Instant reaction, no hesitation",
+      "distractors": {
+        "plausible": [
+          "Pause a few seconds to plan",
+          "React only after arm is free"
+        ],
+        "trap": [
+          "Wait for opponent to commit fully"
+        ]
+      }
     }
   ]
 }

@@ -266,35 +266,115 @@
     "flashcards": [
       {
         "question": "What is the correct sequence for dismantling Russian Leg Lasso controls before attempting the pass?",
-        "answer": "The correct sequence is to break the collar grip first using a two-on-one strip, then neutralize the sleeve grip on the trapped arm, next create a lateral passing angle that reduces the lasso's mechanical advantage, and then address the lasso leg itself by pushing it off the arm. Breaking grips in the wrong order allows the remaining controls to compensate and maintain the guard's effectiveness."
+        "answer": "The correct sequence is to break the collar grip first using a two-on-one strip, then neutralize the sleeve grip on the trapped arm, next create a lateral passing angle that reduces the lasso's mechanical advantage, and then address the lasso leg itself by pushing it off the arm. Breaking grips in the wrong order allows the remaining controls to compensate and maintain the guard's effectiveness.",
+        "answer_line": "Collar, then sleeve, angle, leg",
+        "distractors": {
+          "plausible": [
+            "Lasso leg first, then grips",
+            "Sleeve before collar grip"
+          ],
+          "trap": [
+            "Skip grips, drive pass now"
+          ]
+        }
       },
       {
         "question": "Why must you control the non-lasso leg throughout the grip-breaking process?",
-        "answer": "The non-lasso leg serves as a secondary control point that enables combination attacks including De La Riva hooks, butterfly hooks, and shin-to-shin contact. If left uncontrolled, the guard player establishes these secondary hooks while you focus on breaking grips, dramatically increasing the complexity of the pass and creating powerful sweep chains that exploit your divided attention."
+        "answer": "The non-lasso leg serves as a secondary control point that enables combination attacks including De La Riva hooks, butterfly hooks, and shin-to-shin contact. If left uncontrolled, the guard player establishes these secondary hooks while you focus on breaking grips, dramatically increasing the complexity of the pass and creating powerful sweep chains that exploit your divided attention.",
+        "answer_line": "Pin non-lasso leg too",
+        "distractors": {
+          "plausible": [
+            "Focus only on lasso leg",
+            "Control it after grips break"
+          ],
+          "trap": [
+            "Let it hook freely"
+          ]
+        }
       },
       {
         "question": "Your opponent re-establishes their collar grip immediately after you break it - how do you adjust your approach?",
-        "answer": "Rather than engaging in an endless grip-breaking cycle, consider transitioning to a toreando-style pass that works around the collar control, or time your grip break with a simultaneous forward drive so the guard player cannot re-grip before you have committed to the pass. You can also switch to controlling their collar-grip hand with your own grip to prevent re-establishment while you address other control points."
+        "answer": "Rather than engaging in an endless grip-breaking cycle, consider transitioning to a toreando-style pass that works around the collar control, or time your grip break with a simultaneous forward drive so the guard player cannot re-grip before you have committed to the pass. You can also switch to controlling their collar-grip hand with your own grip to prevent re-establishment while you address other control points.",
+        "answer_line": "Switch to toreando pass",
+        "distractors": {
+          "plausible": [
+            "Keep re-breaking same grip",
+            "Wait for them to release"
+          ],
+          "trap": [
+            "Yank harder, no timing"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical principle that makes the lasso dangerous, and how does your passing strategy address it?",
-        "answer": "The lasso functions as a pulley system where the guard player's leg threaded through your arm creates a fulcrum for generating rotational force. Your passing strategy addresses this by maintaining upright posture with hips back, which minimizes the fulcrum's effectiveness, and by breaking the supporting grips that allow the guard player to amplify this rotational force through collar and sleeve control."
+        "answer": "The lasso functions as a pulley system where the guard player's leg threaded through your arm creates a fulcrum for generating rotational force. Your passing strategy addresses this by maintaining upright posture with hips back, which minimizes the fulcrum's effectiveness, and by breaking the supporting grips that allow the guard player to amplify this rotational force through collar and sleeve control.",
+        "answer_line": "Upright posture, hips back",
+        "distractors": {
+          "plausible": [
+            "Hunch forward, drive through",
+            "Pull the trapped arm free"
+          ],
+          "trap": [
+            "Lean into the lasso arm"
+          ]
+        }
       },
       {
         "question": "You feel the guard player beginning to initiate a sweep as you break their sleeve grip - what is your immediate response?",
-        "answer": "Immediately abandon the grip break and prioritize base recovery by sprawling your hips back and widening your stance. Once stable, resume the grip-breaking sequence. Attempting to complete the grip break while being swept results in losing position entirely. The guard player's sweep timing is often designed to exploit the exact moment of grip break when the passer's hands are occupied."
+        "answer": "Immediately abandon the grip break and prioritize base recovery by sprawling your hips back and widening your stance. Once stable, resume the grip-breaking sequence. Attempting to complete the grip break while being swept results in losing position entirely. The guard player's sweep timing is often designed to exploit the exact moment of grip break when the passer's hands are occupied.",
+        "answer_line": "Sprawl and recover base",
+        "distractors": {
+          "plausible": [
+            "Finish grip break first",
+            "Post out with free hand"
+          ],
+          "trap": [
+            "Push forward into pass"
+          ]
+        }
       },
       {
         "question": "What should your weight distribution and posture look like during the grip-breaking phase?",
-        "answer": "Weight should be distributed through your legs and hips with a wide stance for stability, and your center of gravity should be positioned low and back rather than forward over the guard player. Upper body should remain upright with shoulders back, never hunching forward into the lasso. This distribution absorbs sweep attempts while keeping your hands mobile for grip fighting."
+        "answer": "Weight should be distributed through your legs and hips with a wide stance for stability, and your center of gravity should be positioned low and back rather than forward over the guard player. Upper body should remain upright with shoulders back, never hunching forward into the lasso. This distribution absorbs sweep attempts while keeping your hands mobile for grip fighting.",
+        "answer_line": "Wide stance, low and back",
+        "distractors": {
+          "plausible": [
+            "Weight forward over guard",
+            "Narrow base, hunched down"
+          ],
+          "trap": [
+            "Lean weight onto their hips"
+          ]
+        }
       },
       {
         "question": "After breaking all grips and clearing the lasso, what is the most common mistake practitioners make?",
-        "answer": "The most common mistake is pausing or hesitating before committing to the pass. The guard player can re-establish all controls within two to three seconds, so there must be zero delay between clearing the lasso and driving into the pass. Treat grip breaking and pass completion as one continuous action, with forward pressure beginning the instant the lasso is compromised."
+        "answer": "The most common mistake is pausing or hesitating before committing to the pass. The guard player can re-establish all controls within two to three seconds, so there must be zero delay between clearing the lasso and driving into the pass. Treat grip breaking and pass completion as one continuous action, with forward pressure beginning the instant the lasso is compromised.",
+        "answer_line": "Hesitating before driving pass",
+        "distractors": {
+          "plausible": [
+            "Resetting grips first",
+            "Checking posture too long"
+          ],
+          "trap": [
+            "Backing off to reset"
+          ]
+        }
       },
       {
         "question": "How does the direction of force you apply change between the grip-breaking phase and the pass-completion phase?",
-        "answer": "During grip breaking, force is directed upward and away from the guard player as you posture up, strip grips, and create distance that reduces lasso effectiveness. During pass completion, force direction reverses to forward and downward as you drive chest pressure through the guard player, close distance rapidly, and establish side control. This directional shift must happen immediately and decisively when transitioning between phases."
+        "answer": "During grip breaking, force is directed upward and away from the guard player as you posture up, strip grips, and create distance that reduces lasso effectiveness. During pass completion, force direction reverses to forward and downward as you drive chest pressure through the guard player, close distance rapidly, and establish side control. This directional shift must happen immediately and decisively when transitioning between phases.",
+        "answer_line": "Up-away, then forward-down",
+        "distractors": {
+          "plausible": [
+            "Forward pressure throughout",
+            "Downward force during breaks"
+          ],
+          "trap": [
+            "Pull opponent up to sweep"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard passing against Russian Leg Lasso involves significant rotational forces on the trapped arm and shoulder joint. Avoid explosive yanking motions to extract the arm from the lasso, as this can cause shoulder or elbow injuries to either practitioner. If the lasso creates sharp pain in the trapped arm's shoulder, stop and reset position rather than fighting through potential injury. When drilling at high intensity, both partners should communicate about shoulder comfort levels, particularly regarding the binding effect of the lasso on the arm and the rotational stress generated during sweep attempts.",
@@ -411,23 +491,73 @@
     "flashcards": [
       {
         "question": "What is your highest priority grip to maintain when defending against the Russian Leg Lasso pass?",
-        "answer": "The collar grip is the highest priority because it controls the passer's posture and provides the lever through which rotational sweeps generate force. Without the collar grip, sweep effectiveness drops dramatically and the passer can maintain the upright posture that minimizes the lasso's mechanical advantage. Re-establishing this grip immediately after it is broken should take precedence over all other defensive actions."
+        "answer": "The collar grip is the highest priority because it controls the passer's posture and provides the lever through which rotational sweeps generate force. Without the collar grip, sweep effectiveness drops dramatically and the passer can maintain the upright posture that minimizes the lasso's mechanical advantage. Re-establishing this grip immediately after it is broken should take precedence over all other defensive actions.",
+        "answer_line": "Re-grip the collar",
+        "distractors": {
+          "plausible": [
+            "Re-grip the sleeve",
+            "Reset the lasso leg"
+          ],
+          "trap": [
+            "Push for a sweep instead"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate a sweep during the passer's dismantling sequence?",
-        "answer": "The optimal timing is during the exact moment the passer commits both hands to a grip break, because their base is most compromised when their hands are occupied stripping your grips rather than posting or maintaining balance. This window typically lasts one to two seconds and requires pre-loading your sweep mechanics so you can execute immediately when you feel both their hands engage your grip."
+        "answer": "The optimal timing is during the exact moment the passer commits both hands to a grip break, because their base is most compromised when their hands are occupied stripping your grips rather than posting or maintaining balance. This window typically lasts one to two seconds and requires pre-loading your sweep mechanics so you can execute immediately when you feel both their hands engage your grip.",
+        "answer_line": "When both hands break grip",
+        "distractors": {
+          "plausible": [
+            "Right after grip breaks",
+            "When passer postures up"
+          ],
+          "trap": [
+            "Wait until pass is done"
+          ]
+        }
       },
       {
         "question": "The passer has broken your collar grip and is beginning to work on your sleeve grip - what are your options?",
-        "answer": "You have three primary options: immediately re-establish the collar grip before they progress further in the sequence, initiate an offensive action such as a triangle or omoplata attempt that exploits the space created by their grip break, or begin transitioning to an alternative guard position such as De La Riva or Spider Guard if you assess that the Russian Leg Lasso is becoming untenable with only the lasso remaining."
+        "answer": "You have three primary options: immediately re-establish the collar grip before they progress further in the sequence, initiate an offensive action such as a triangle or omoplata attempt that exploits the space created by their grip break, or begin transitioning to an alternative guard position such as De La Riva or Spider Guard if you assess that the Russian Leg Lasso is becoming untenable with only the lasso remaining.",
+        "answer_line": "Re-grip collar or attack",
+        "distractors": {
+          "plausible": [
+            "Fight only for the sleeve",
+            "Hold the lasso leg tighter"
+          ],
+          "trap": [
+            "Release everything, reset"
+          ]
+        }
       },
       {
         "question": "How do you recognize that the Russian Leg Lasso is compromised beyond recovery and you should transition to a different guard?",
-        "answer": "The position is compromised beyond recovery when both the collar grip and sleeve grip have been broken and the passer has established a lateral passing angle. At this point, the lasso alone cannot generate sufficient control or sweep power to be effective. Key indicators include feeling the passer's weight shifting laterally past your hip line and losing the ability to create meaningful rotational force despite maintaining the lasso thread."
+        "answer": "The position is compromised beyond recovery when both the collar grip and sleeve grip have been broken and the passer has established a lateral passing angle. At this point, the lasso alone cannot generate sufficient control or sweep power to be effective. Key indicators include feeling the passer's weight shifting laterally past your hip line and losing the ability to create meaningful rotational force despite maintaining the lasso thread.",
+        "answer_line": "Both grips gone, angle lost",
+        "distractors": {
+          "plausible": [
+            "Lasso leg feels loose",
+            "Only collar grip broken"
+          ],
+          "trap": [
+            "Hold on and wait it out"
+          ]
+        }
       },
       {
         "question": "What role does the non-lasso leg play in defending against the guard pass?",
-        "answer": "The non-lasso leg serves as a secondary control point and sweep platform that prevents the passer from isolating the lasso as the only problem to solve. By maintaining active positioning with De La Riva hooks, butterfly hooks, or foot-on-hip frames, the non-lasso leg forces the passer to address multiple threats simultaneously and provides the secondary leverage point needed for combination sweep attacks."
+        "answer": "The non-lasso leg serves as a secondary control point and sweep platform that prevents the passer from isolating the lasso as the only problem to solve. By maintaining active positioning with De La Riva hooks, butterfly hooks, or foot-on-hip frames, the non-lasso leg forces the passer to address multiple threats simultaneously and provides the secondary leverage point needed for combination sweep attacks.",
+        "answer_line": "Secondary hooks and threat",
+        "distractors": {
+          "plausible": [
+            "Backup for lasso only",
+            "Just balance, no offense"
+          ],
+          "trap": [
+            "Let it dangle free"
+          ]
+        }
       }
     ],
     "training_progressions": [

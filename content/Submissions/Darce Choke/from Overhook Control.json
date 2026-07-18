@@ -296,52 +296,152 @@
       {
         "question": "What anatomical structures does the Darce Choke from Overhook Control primarily attack?",
         "answer": "The Darce from Overhook Control attacks both carotid arteries simultaneously through bilateral compression. The choking forearm compresses the near-side carotid while the bicep of the supporting arm compresses the far-side carotid. The opponent's own trapped shoulder provides the third point of compression, completing the triangle of pressure that restricts blood flow to the brain. When applied correctly, this produces unconsciousness within 8-12 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids simultaneously",
+        "distractors": {
+          "plausible": [
+            "Only near-side carotid",
+            "Trachea and carotid both"
+          ],
+          "trap": [
+            "Crush the windpipe"
+          ]
+        }
       },
       {
         "question": "What indicator tells you the choke is positioned correctly for a blood choke rather than a windpipe crush?",
         "answer": "When positioned correctly as a blood choke, the forearm blade sits against the lateral neck over the sternocleidomastoid muscle rather than centered on the trachea. The opponent will not cough or gasp for air but instead will feel immediate lightheadedness and pressure behind their eyes. If you hear choking or gagging sounds, your forearm is too far forward on the throat and you need to adjust the angle laterally to target the carotid arteries instead.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "No gagging, lightheaded fast",
+        "distractors": {
+          "plausible": [
+            "Coughing means it's working",
+            "Center forearm on trachea"
+          ],
+          "trap": [
+            "Push forearm deeper on throat"
+          ]
+        }
       },
       {
         "question": "What control requirements must be established before transitioning from overhook to Darce grip?",
         "answer": "Before transitioning, you must confirm four control elements: tight armpit seal with zero gap over the opponent's shoulder, opponent's arm elevated above their defensive plane, your hips close enough to prevent them from creating escape distance, and the opponent's head below your shoulder level or driving forward. Missing any of these requirements significantly reduces the probability of successfully threading the choking arm and completing the figure-four.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Armpit seal, arm up, hips close",
+        "distractors": {
+          "plausible": [
+            "Just trap the wrist first",
+            "Underhook the far leg first"
+          ],
+          "trap": [
+            "Chase grip with gap in armpit"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up as you attempt to thread the choking arm - what adjustment prevents escape?",
         "answer": "When the opponent postures, abandon the Darce entry and capitalize on their upward movement with an alternative attack. Drive your overhook weight downward while shooting for a Kimura grip on their rising arm, or release the overhook entirely to hit an arm drag as they create space. Never chase the Darce against a posturing opponent because the neck angle becomes inaccessible. Return to the overhook decision tree and wait for the next forward pressure reaction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to Kimura or arm drag",
+        "distractors": {
+          "plausible": [
+            "Muscle through the thread",
+            "Pull them back down first"
+          ],
+          "trap": [
+            "Chase the neck angle anyway"
+          ]
+        }
       },
       {
         "question": "At what point during the Darce entry does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs when the figure-four grip is fully locked with the choking hand gripping the supporting arm's bicep and the supporting hand placed behind the opponent's head. Before this point, the opponent can strip the threading arm or posture out. After the figure-four locks, escape becomes extremely difficult because any movement the opponent makes tends to tighten the configuration. The sprawl simply converts the already-locked position into active compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four grip fully locked",
+        "distractors": {
+          "plausible": [
+            "Once overhook is secured",
+            "When head is below shoulder"
+          ],
+          "trap": [
+            "Once forearm touches neck"
+          ]
+        }
       },
       {
         "question": "What grip adjustment do you make if your choking arm cannot reach your opposite bicep during the figure-four?",
         "answer": "If you cannot reach the bicep, the arm has not been threaded deep enough. Do not accept a shallow grip on the forearm as this converts the technique into an ineffective crank. Release partial pressure, drive your shoulder forward to collapse the opponent's posture further, and re-thread your arm deeper. Use your chest weight to compress their head and shoulder closer together, shortening the distance your arm must travel. If anatomy prevents a deep grip, transition to an Anaconda or arm triangle instead.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thread deeper, don't grip forearm",
+        "distractors": {
+          "plausible": [
+            "Grip forearm as shallow fix",
+            "Yank harder to close gap"
+          ],
+          "trap": [
+            "Grip forearm, crank the neck"
+          ]
+        }
       },
       {
         "question": "What is the primary safety concern when applying the Darce Choke from Overhook Control in training?",
         "answer": "The primary safety concern is the speed of unconsciousness onset. Because the Darce compresses both carotid arteries simultaneously, unconsciousness can occur within 8-12 seconds of full compression, sometimes faster. Training partners may not recognize the severity before losing consciousness. Always apply pressure progressively over 3-5 seconds minimum, maintain constant communication, and release immediately upon any tap signal. Never hold the choke after a tap, as the compression effect continues for seconds after release.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Fast KO, apply pressure slowly",
+        "distractors": {
+          "plausible": [
+            "Risk of shoulder injury",
+            "Choking sound means danger"
+          ],
+          "trap": [
+            "Hold it a beat after tap"
+          ]
+        }
       },
       {
         "question": "How should you release the Darce Choke from Overhook Control after a tap?",
         "answer": "Release by first unclamping your hands from the figure-four grip, then removing your shoulder pressure from their neck and trapped arm. Extract your choking arm slowly and smoothly to avoid jerking their neck. Do not simply drop your arms and roll away, as this can cause a sudden neck movement. Allow your partner to recover in a seated or prone position and monitor them for 30 seconds for signs of dizziness, disorientation, or delayed effects from the arterial compression.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unclamp, ease arm out slow",
+        "distractors": {
+          "plausible": [
+            "Drop arms, roll away fast",
+            "Release shoulder before hands"
+          ],
+          "trap": [
+            "Jerk arm free immediately"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful Darce finish from overhook versus other entry positions?",
         "answer": "The overhook entry provides the critical advantage of pre-isolated arm position. From other entries like front headlock or half guard, the attacker must first fight to isolate and elevate the opponent's arm before threading the choke. From overhook control, the arm is already trapped and elevated, allowing the attacker to skip directly to the choking arm thread. This reduces the total time to finish and eliminates the most commonly defended phase of the Darce attack, making the overhook entry one of the highest-percentage Darce setups.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm already isolated and up",
+        "distractors": {
+          "plausible": [
+            "Faster hand speed needed",
+            "Requires less base control"
+          ],
+          "trap": [
+            "Skip the figure-four lock"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes the probability of finishing the Darce from Overhook Control?",
         "answer": "In competition, create the overhook from turtle top or front headlock rather than waiting for it to appear. Drive forward pressure into the opponent to force their head down, then transition quickly from overhook to Darce before they can adjust defensively. Speed of transition is critical because experienced opponents recognize the Darce setup within 1-2 seconds. Chain the attempt with Anaconda and arm triangle threats so that defending one exposes them to another, forcing reaction-based mistakes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Force overhook, chain attacks",
+        "distractors": {
+          "plausible": [
+            "Wait for overhook to appear",
+            "Go slow to avoid scrambles"
+          ],
+          "trap": [
+            "Telegraph early, single attack"
+          ]
+        }
       }
     ],
     "clips": [
@@ -455,27 +555,77 @@
       {
         "question": "How do you recognize that a Darce Choke from Overhook Control is being set up?",
         "answer": "The primary recognition cue is feeling the attacker's overhook hand release behind your back while the armpit pressure intensifies rather than releasing. This indicates they are transitioning from arm control to choke entry. Secondary cues include increased forward shoulder pressure collapsing your posture, their arm beginning to snake beneath your chin, and their free hand moving toward their own arm to prepare the figure-four connection.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Armpit tightens, arm snakes to chin",
+        "distractors": {
+          "plausible": [
+            "Overhook grip tightens harder",
+            "Free hand grabs your collar"
+          ],
+          "trap": [
+            "Feel them backing away"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Darce Choke from Overhook Control?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Verbally say 'tap' while physically tapping the attacker's body with your free hand and tapping the mat with your foot. Because the Darce compresses both carotid arteries, unconsciousness can occur within seconds of full compression. Do not try to endure the choke or wait to see if you can escape once the squeeze begins. Tapping when you feel the first clear compression is always safer than waiting until lightheadedness sets in.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, multiple signals",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only when very dizzy"
+          ],
+          "trap": [
+            "Endure it, then verbal tap"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Darce Choke from Overhook Control?",
         "answer": "The primary defensive options depend on the attack phase. Before the arm threads: posture up and create distance to deny neck access. During the arm thread: hand fight to prevent the figure-four connection and keep chin tucked. After partial lock: turn into the attacker toward your trapped arm side to reduce compression angle. After full lock: pull guard to deny the sprawl extension, or attempt to extract your head by pushing off the mat. The earlier you respond, the higher your escape probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Match defense to attack phase",
+        "distractors": {
+          "plausible": [
+            "Always pull guard immediately",
+            "Wait for full lock, then act"
+          ],
+          "trap": [
+            "Yank head straight back"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker more effective than pulling away when the Darce is partially locked?",
         "answer": "Pulling away from any arm triangle variant increases the extension and tightening force on the choke because it increases the distance between your head and the attacker's body, which stretches the figure-four tighter. Turning into the attacker reduces the compression angle by bringing your head closer to the small side of the triangle where the gap exists. This counterintuitive movement creates space for head extraction while simultaneously reducing the arterial compression that causes unconsciousness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, don't pull away",
+        "distractors": {
+          "plausible": [
+            "Pull away to create space",
+            "Push off with both hands"
+          ],
+          "trap": [
+            "Extend arm to gain space"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain to prevent the Darce setup from Overhook Control?",
         "answer": "Maintain upright posture with your chin tucked firmly against your chest to deny neck access. Keep your trapped arm fighting to return below shoulder level rather than accepting the elevated position. Frame your free arm against the attacker's shoulder or hip to prevent them from collapsing your posture forward. Keep your hips mobile and ready to establish guard hooks if the attacker begins transitioning to the choke. Active posture maintenance is the single most effective preventive measure against the overhook Darce.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tucked, posture upright",
+        "distractors": {
+          "plausible": [
+            "Keep elbows wide for base",
+            "Grip fight the near wrist"
+          ],
+          "trap": [
+            "Relax and wait it out"
+          ]
+        }
       }
     ],
     "training_progressions": [

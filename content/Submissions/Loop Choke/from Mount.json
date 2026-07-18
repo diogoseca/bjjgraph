@@ -301,62 +301,182 @@
       {
         "question": "What is the minimum time period you should take to apply full pressure in the loop choke from mount during training?",
         "answer": "The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application is never appropriate in training and significantly increases injury risk. The choke should tighten gradually, allowing your partner to feel the progression and tap at any point.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 seconds, build gradually",
+        "distractors": {
+          "plausible": [
+            "1-2 seconds, then hold",
+            "10+ seconds to be safe"
+          ],
+          "trap": [
+            "Apply full pressure instantly"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the loop choke from mount attack to cause unconsciousness?",
         "answer": "The loop choke attacks the carotid arteries and jugular veins on both sides of the neck. When applied correctly, the collar creates a constricting loop that compresses these blood vessels bilaterally, restricting blood flow to and from the brain. This bilateral carotid compression causes rapid unconsciousness (typically within 8-12 seconds of full application) without attacking the airway. A properly applied blood choke is distinguishable from an air choke by the rapid onset and lack of tracheal discomfort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Carotid arteries, both sides",
+        "distractors": {
+          "plausible": [
+            "Trachea and airway",
+            "One-side neck pressure"
+          ],
+          "trap": [
+            "Cervical spine and neck bones"
+          ]
+        }
       },
       {
         "question": "Why is a deep collar grip more effective than a shallow grip for the loop choke?",
         "answer": "A deep collar grip that reaches past the trachea toward the back of the neck creates a true blood choke by compressing the carotid arteries on both sides of the neck, resulting in a quick and relatively painless tap. A shallow grip that only reaches the front of the neck creates an air choke on the trachea, which is less effective, takes much longer to work, causes unnecessary discomfort, and has higher injury potential. The deep grip allows the collar to act as a noose around the neck's major blood vessels rather than crushing the windpipe.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep grip chokes blood vessels",
+        "distractors": {
+          "plausible": [
+            "Shallow grip is quicker",
+            "Deep grip locks in faster"
+          ],
+          "trap": [
+            "Shallow grip causes less pain"
+          ]
+        }
       },
       {
         "question": "What are the proper vectors of force for finishing the loop choke?",
         "answer": "The loop choke requires diagonal opposing vectors of force, creating an 'X' pattern with your forearms. One hand pulls the deep collar grip toward your same-side hip, while the other hand pulls the near lapel grip across their neck toward your opposite shoulder. This crossing diagonal motion creates the loop-tightening mechanism that compresses the carotid arteries. Pulling both grips in the same direction or straight down will not properly tighten the choke and demonstrates a fundamental misunderstanding of the technique's mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Diagonal X: opposing pulls",
+        "distractors": {
+          "plausible": [
+            "Both grips pull straight down",
+            "Both hands pull toward you"
+          ],
+          "trap": [
+            "Release lapel grip to add pressure"
+          ]
+        }
       },
       {
         "question": "What immediate actions must you take when your training partner taps to the loop choke?",
         "answer": "Upon feeling or hearing a tap, you must immediately release both collar grips completely and remove all chest pressure by sitting back to neutral mount position. After release, check your partner's alertness and awareness before continuing training. Allow a minimum of 60 seconds recovery time before resuming. Never hesitate or delay the release, and never question whether the tap was 'real' - all tap signals must be honored instantly without exception. This immediate response is a fundamental safety requirement that prevents injury and maintains trust in the training environment.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grips instantly, sit back",
+        "distractors": {
+          "plausible": [
+            "Ease pressure slowly first",
+            "Confirm the tap is real first"
+          ],
+          "trap": [
+            "Hold a few seconds to be sure"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up and creating frames while you have the deep collar grip established - what adjustment prevents escape?",
         "answer": "When they posture up or create frames, immediately lower your chest toward their head and drive your weight through the collar grip. Use your hips to pin their shoulders back to the mat rather than allowing them to create vertical space. The frames they create can actually help tighten the choke if you drive forward into them while maintaining your diagonal pulling vectors. If they successfully create significant space, consider transitioning to a mounted triangle or armbar on the framing arm rather than losing the position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lower chest, drive weight forward",
+        "distractors": {
+          "plausible": [
+            "Sit up to reset base",
+            "Release grip, re-establish mount"
+          ],
+          "trap": [
+            "Let them create space, then re-grip"
+          ]
+        }
       },
       {
         "question": "Why is arm control important before attempting the loop choke from mount?",
         "answer": "Controlling or trapping the opponent's near-side arm is essential because it removes their primary defensive tool for protecting their collar and preventing your grips. Without arm control, the opponent can frame against your hips, strip your collar grips, or create barriers that prevent you from establishing the deep collar penetration required for an effective choke. The arm control also prevents them from using that arm to assist in bridging and escaping mount, helping you maintain positional dominance throughout the submission attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Removes their collar defense",
+        "distractors": {
+          "plausible": [
+            "Prevents bridging escape only",
+            "Sets up armbar finish"
+          ],
+          "trap": [
+            "Arm control is optional, not needed"
+          ]
+        }
       },
       {
         "question": "What should you do if the loop choke doesn't produce a tap within 5-6 seconds of applying pressure?",
         "answer": "If the choke hasn't worked within 5-6 seconds of proper pressure application, the setup is likely incorrect and you should release the pressure and reset the technique rather than continuing to force it. Continuing to apply pressure when the choke isn't working properly often means you have a shallow grip creating an air choke rather than a blood choke, which is both ineffective and potentially dangerous. Reset your grips, ensure proper depth and positioning, or transition to a different attack. Forcing a poorly-positioned choke demonstrates poor technical understanding and creates injury risk.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, reset grips",
+        "distractors": {
+          "plausible": [
+            "Keep squeezing harder",
+            "Switch to air choke technique"
+          ],
+          "trap": [
+            "Force it, they'll tap eventually"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that tell you the choke is properly positioned before applying finishing pressure?",
         "answer": "Key indicators of proper positioning include: your deep collar grip reaches past the trachea with four fingers behind the neck and thumb against the side of the neck, your elbow is high and pointing toward their opposite shoulder, your lapel grip creates tension across their neck toward your opposite hip, your weight is distributed forward with chest pressure on their upper body, and your opponent's near arm is controlled or trapped. Additionally, when you begin light pressure, you should feel the collar tightening around the sides of their neck rather than across the front of the throat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep grip, elbow high, arm trapped",
+        "distractors": {
+          "plausible": [
+            "Shallow grip with chin tucked",
+            "Both hands gripping same lapel"
+          ],
+          "trap": [
+            "Feel pressure across the throat"
+          ]
+        }
       },
       {
         "question": "How does maintaining mount position contribute to the effectiveness of the loop choke?",
         "answer": "Mount position provides the weight distribution and postural control necessary to establish and maintain the collar grips while preventing escapes. The dominant top position allows you to pin the opponent's shoulders and hips, limiting their bridging and shrimping escapes. Additionally, the mount position creates the proper angle for your upper body to generate the diagonal pulling vectors required for the choke. Unlike many submissions that require sacrificing position, the loop choke can be finished while maintaining full mount control, meaning you never give up positional dominance even if the submission fails.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pins shoulders, enables vectors",
+        "distractors": {
+          "plausible": [
+            "Only useful for base, not choke",
+            "Must transition to side control"
+          ],
+          "trap": [
+            "Sacrifice mount to lock choke"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if your opponent turns their chin strongly toward your deep collar grip side?",
         "answer": "When they turn their chin toward your deep grip, it can actually help create a tighter choke if you adjust properly. Drive your choking elbow higher over their face, using their chin turn to deepen the collar penetration. Simultaneously, pull your lapel grip more aggressively across their neck in the opposite direction to maintain the diagonal vector. If they turn significantly, consider following their movement into technical mount where the angle naturally supports the loop configuration. Their defensive turning motion can become the mechanism that tightens the choke if you maintain proper grip depth.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive elbow higher, follow turn",
+        "distractors": {
+          "plausible": [
+            "Switch grip to other side",
+            "Release and re-angle mount"
+          ],
+          "trap": [
+            "Force chin back to center"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategies maximize your completion rate with the loop choke from mount?",
         "answer": "Competition finishing strategies include: establish grips incrementally while your opponent focuses on preventing mount escapes rather than collar defense, use other attacks (Americana, armbar) to create reactions that expose the collar, time your finish attempt when opponent is exhausted from defensive bridging, apply finishing pressure during their attempted escapes when their focus is divided, and commit fully once both grips are established rather than gradually tightening. Additionally, maintain your base throughout to prevent losing position if the choke fails, allowing you to maintain mount and attack again.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Time finish off other attacks",
+        "distractors": {
+          "plausible": [
+            "Rush the grips immediately",
+            "Finish slow and gradual only"
+          ],
+          "trap": [
+            "Abandon mount if grips fail"
+          ]
+        }
       }
     ],
     "clips": [
@@ -476,27 +596,77 @@
       {
         "question": "What is the single most effective moment to defend the loop choke from mount?",
         "answer": "The most effective moment is during the initial collar grip insertion, before the attacker establishes four fingers deep into the collar. At this stage, simply tucking the chin and using your near-side hand to block the collar opening can prevent the entire attack from developing. Once the deep grip is established, every subsequent defensive action becomes progressively more difficult because the attacker can use the existing grip as an anchor while establishing the second grip. Early prevention requires far less energy and carries far less risk than late-stage escape attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block collar before deep grip",
+        "distractors": {
+          "plausible": [
+            "Wait, then strip lapel grip",
+            "Bridge hard once grip is set"
+          ],
+          "trap": [
+            "Escape only after choke tightens"
+          ]
+        }
       },
       {
         "question": "When should you tap to the loop choke rather than continue attempting to escape?",
         "answer": "You should tap immediately when you feel bilateral compression on both carotid arteries with the attacker's weight committed to the finish and both grips fully established in the diagonal configuration. Once the loop is locked with proper vectors and the attacker's chest weight is driving the pressure, unconsciousness can occur within 8-12 seconds. There is no safe escape window once the choke is fully applied with correct mechanics. Continuing to resist a properly locked blood choke risks loss of consciousness, which is far more dangerous than tapping and resetting. In training, always err on the side of tapping early.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at bilateral neck pressure",
+        "distractors": {
+          "plausible": [
+            "Try to escape once, then tap",
+            "Wait for chin to fully tuck"
+          ],
+          "trap": [
+            "Fight through it, it'll pass"
+          ]
+        }
       },
       {
         "question": "Why is stripping the lapel grip more effective than stripping the deep collar grip as a defensive strategy?",
         "answer": "The lapel grip is more accessible and requires less force to strip because it is typically a shallower grip on the near-side of your body where you have better hand positioning. The deep collar grip is buried behind your neck where you have poor mechanical leverage to remove it, and attempting to strip it requires extending your arms into vulnerable positions. More importantly, the loop choke requires both grips working in opposition to function - removing either grip breaks the mechanism, so targeting the easier grip achieves the same result with less risk. Stripping the lapel grip also keeps your arms closer to defensive position rather than reaching behind your own head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lapel grip is easier to strip",
+        "distractors": {
+          "plausible": [
+            "Deep grip breaks choke faster",
+            "Both grips equally easy to strip"
+          ],
+          "trap": [
+            "Reach behind neck to strip collar"
+          ]
+        }
       },
       {
         "question": "What defensive body position best prevents the loop choke finishing mechanics from mount?",
         "answer": "The optimal defensive position combines a strongly tucked chin pressed toward your chest, your near-side hand actively protecting the collar opening, elbows tight to your ribs, and hips slightly angled rather than completely flat. This combination blocks collar grip insertion with the chin, provides active hand defense against grip attempts, protects your arms from isolation, and creates instability in the attacker's mount through the hip angle. Additionally, keeping your shoulders slightly elevated off the mat by engaging your core prevents the attacker from using gravity to drive the collar deeper during grip insertion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tucked, hand blocks collar",
+        "distractors": {
+          "plausible": [
+            "Flat hips, arms wide for base",
+            "Chin up, push off their chest"
+          ],
+          "trap": [
+            "Arms extended to frame face"
+          ]
+        }
       },
       {
         "question": "How does the attacker's weight shift during the loop choke setup create escape opportunities for the defender?",
         "answer": "The attacker must shift their weight in predictable ways during the setup: they lean forward and to one side when feeding the deep collar grip, momentarily compromising their base. When they reach for the second lapel grip, one posting hand leaves the mat entirely. During the finish, they commit their chest weight forward toward your head. Each of these weight shifts creates a brief window where their mount base is compromised. The most exploitable moment is when they reach for the secondary grip, because both hands are occupied with collar work rather than posting for balance, making this the optimal time for an explosive bridge escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge when they reach 2nd grip",
+        "distractors": {
+          "plausible": [
+            "Bridge during initial collar feed",
+            "Escape during finishing pressure"
+          ],
+          "trap": [
+            "Wait until choke fully locks"
+          ]
+        }
       }
     ],
     "training_progressions": [

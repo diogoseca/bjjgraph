@@ -368,35 +368,115 @@
     "flashcards": [
       {
         "question": "What weight distribution maintains optimal control from Zombie Top against an active lockdown?",
-        "answer": "Weight should be distributed primarily through your hips and chest, driving forward and downward into the opponent. Your hips stay low to prevent being elevated for sweeps, while chest pressure on their upper body prevents them from creating angles. The free leg posts wide for base, allowing you to absorb their lockdown stretches without being off-balanced. Avoid sitting back on your heels, which makes you vulnerable to Old School Sweep attempts."
+        "answer": "Weight should be distributed primarily through your hips and chest, driving forward and downward into the opponent. Your hips stay low to prevent being elevated for sweeps, while chest pressure on their upper body prevents them from creating angles. The free leg posts wide for base, allowing you to absorb their lockdown stretches without being off-balanced. Avoid sitting back on your heels, which makes you vulnerable to Old School Sweep attempts.",
+        "answer_line": "Low hips, heavy chest, wide base",
+        "distractors": {
+          "plausible": [
+            "Weight forward, hips high",
+            "Balance evenly, stay upright"
+          ],
+          "trap": [
+            "Sit back on your heels"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Zombie Top position?",
-        "answer": "The primary grip is the crossface, where your forearm drives across the opponent's jaw and neck to control their head and prevent them from turning into you. Secondary control includes either a whizzer on the underhook side to neutralize their underhook threat, or far hip control to prevent them from creating angles. Hand placement should prevent them from establishing chest-to-chest connection while controlling their ability to frame."
+        "answer": "The primary grip is the crossface, where your forearm drives across the opponent's jaw and neck to control their head and prevent them from turning into you. Secondary control includes either a whizzer on the underhook side to neutralize their underhook threat, or far hip control to prevent them from creating angles. Hand placement should prevent them from establishing chest-to-chest connection while controlling their ability to frame.",
+        "answer_line": "Crossface + whizzer/hip control",
+        "distractors": {
+          "plausible": [
+            "Collar tie and same-side grip",
+            "Underhook first, crossface second"
+          ],
+          "trap": [
+            "Let them get chest-to-chest"
+          ]
+        }
       },
       {
         "question": "How do you shut down the Old School Sweep from Zombie Top?",
-        "answer": "When you feel the opponent begin to post on their far foot and drive their hips toward you, immediately drop your weight forward and drive heavy crossface pressure into their face. This flattens them back down and prevents them from completing the posting motion. Additionally, shift your base wider toward the underhook side to counter their lifting force. If they get significant elevation, abandon the pass temporarily and re-establish base before they can complete the sweep."
+        "answer": "When you feel the opponent begin to post on their far foot and drive their hips toward you, immediately drop your weight forward and drive heavy crossface pressure into their face. This flattens them back down and prevents them from completing the posting motion. Additionally, shift your base wider toward the underhook side to counter their lifting force. If they get significant elevation, abandon the pass temporarily and re-establish base before they can complete the sweep.",
+        "answer_line": "Drive weight, crossface flattens",
+        "distractors": {
+          "plausible": [
+            "Pull your leg back explosively",
+            "Post out to stop their lift"
+          ],
+          "trap": [
+            "Sit back to block the sweep"
+          ]
+        }
       },
       {
         "question": "What grip priority should you follow when the opponent has a deep underhook from Zombie Bottom?",
-        "answer": "First priority is preventing their underhook from getting chest-to-chest connection - immediately establish a strong whizzer by threading your arm over their underhook arm and gripping near their wrist or forearm. Second priority is head control through crossface to prevent them from turning their face toward you. Third priority is hip control on the far side. Never allow them to connect their head to your chest while maintaining their underhook, as this creates maximum sweep leverage."
+        "answer": "First priority is preventing their underhook from getting chest-to-chest connection - immediately establish a strong whizzer by threading your arm over their underhook arm and gripping near their wrist or forearm. Second priority is head control through crossface to prevent them from turning their face toward you. Third priority is hip control on the far side. Never allow them to connect their head to your chest while maintaining their underhook, as this creates maximum sweep leverage.",
+        "answer_line": "Kill underhook first with whizzer",
+        "distractors": {
+          "plausible": [
+            "Crossface defense before whizzer",
+            "Hip control before whizzer"
+          ],
+          "trap": [
+            "Let them connect chest-to-chest"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to stretch the lockdown aggressively - what pressure adjustment do you make?",
-        "answer": "When you feel the lockdown stretch pulling your leg, don't fight against it by trying to pull your leg back explosively. Instead, drop your weight even further forward, driving your chest into their face and shoulder. This shifts the fulcrum point and reduces the leverage they have on your leg. Simultaneously, widen your base with your free leg and work to get your hips lower than theirs. The stretch loses power when you eliminate the space they need to complete the elevation."
+        "answer": "When you feel the lockdown stretch pulling your leg, don't fight against it by trying to pull your leg back explosively. Instead, drop your weight even further forward, driving your chest into their face and shoulder. This shifts the fulcrum point and reduces the leverage they have on your leg. Simultaneously, widen your base with your free leg and work to get your hips lower than theirs. The stretch loses power when you eliminate the space they need to complete the elevation.",
+        "answer_line": "Drop weight forward, chest in face",
+        "distractors": {
+          "plausible": [
+            "Post wide without dropping weight",
+            "Raise hips above theirs"
+          ],
+          "trap": [
+            "Yank your leg back explosively"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure effectively from Zombie Top without exhausting yourself?",
-        "answer": "Effective pressure comes from skeletal alignment rather than muscular effort. Position your shoulder directly over their face with your forearm across their jaw, allowing gravity to do the work. Keep your elbows tight and use your body weight rather than arm strength. Your chest should be heavy on their chest without you actively pushing down. Breathe normally and maintain the position statically rather than constantly adjusting - the opponent will tire faster than you if you're structurally sound."
+        "answer": "Effective pressure comes from skeletal alignment rather than muscular effort. Position your shoulder directly over their face with your forearm across their jaw, allowing gravity to do the work. Keep your elbows tight and use your body weight rather than arm strength. Your chest should be heavy on their chest without you actively pushing down. Breathe normally and maintain the position statically rather than constantly adjusting - the opponent will tire faster than you if you're structurally sound.",
+        "answer_line": "Skeletal structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Push down hard with your arms",
+            "Constantly adjust to stay heavy"
+          ],
+          "trap": [
+            "Flare elbows for more reach"
+          ]
+        }
       },
       {
         "question": "What do you do when the opponent partially escapes and starts to recover half guard frames?",
-        "answer": "When they begin creating space and inserting knee shields or frames, you have a critical window before they fully recover. Either immediately switch to a leg weave or knee slice pass before the frame solidifies, or accept the frame temporarily and work to collapse it systematically. Don't allow them to establish both a knee shield and an underhook simultaneously. If they're recovering successfully, sometimes the best option is to disengage slightly and reset to a more advantageous passing position rather than fighting through a strengthening defensive structure."
+        "answer": "When they begin creating space and inserting knee shields or frames, you have a critical window before they fully recover. Either immediately switch to a leg weave or knee slice pass before the frame solidifies, or accept the frame temporarily and work to collapse it systematically. Don't allow them to establish both a knee shield and an underhook simultaneously. If they're recovering successfully, sometimes the best option is to disengage slightly and reset to a more advantageous passing position rather than fighting through a strengthening defensive structure.",
+        "answer_line": "Pass fast before frame solidifies",
+        "distractors": {
+          "plausible": [
+            "Muscle through the knee shield",
+            "Wait for full guard recovery"
+          ],
+          "trap": [
+            "Let them get shield and underhook"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when the opponent refuses to release lockdown for several minutes?",
-        "answer": "Accept that the lockdown game can be a war of attrition. Rather than constantly working to extract your leg, settle into a dominant crossface position and make them carry your weight. Cycle between passing attempts - try crossface pressure for 30 seconds, then switch to leg weave positioning, then threaten smash pass. This keeps them reactive while you maintain consistent pressure. The key is maintaining heavy top position without burning energy on explosive escape attempts. Eventually their grip will fatigue from maintaining lockdown tension against your constant forward pressure."
+        "answer": "Accept that the lockdown game can be a war of attrition. Rather than constantly working to extract your leg, settle into a dominant crossface position and make them carry your weight. Cycle between passing attempts - try crossface pressure for 30 seconds, then switch to leg weave positioning, then threaten smash pass. This keeps them reactive while you maintain consistent pressure. The key is maintaining heavy top position without burning energy on explosive escape attempts. Eventually their grip will fatigue from maintaining lockdown tension against your constant forward pressure.",
+        "answer_line": "Cycle passes, let them carry weight",
+        "distractors": {
+          "plausible": [
+            "Hold one heavy pass attempt",
+            "Match their grip strength"
+          ],
+          "trap": [
+            "Rip your leg free explosively"
+          ]
+        }
       }
     ],
     "clips": [
@@ -712,35 +792,115 @@
     "flashcards": [
       {
         "question": "What weight distribution and hip positioning maintains the Zombie Bottom position effectively?",
-        "answer": "Your weight should be primarily on your hip and shoulder, staying on your side rather than flat on your back. The hip closest to the opponent should be angled slightly upward to maintain mobility for shrimping and sweep attempts. Never allow both shoulders to touch the mat simultaneously - this signals you've been flattened and lost the position. Your lockdown leg carries the opponent's weight through the entanglement, which should feel like controlled tension rather than desperate gripping."
+        "answer": "Your weight should be primarily on your hip and shoulder, staying on your side rather than flat on your back. The hip closest to the opponent should be angled slightly upward to maintain mobility for shrimping and sweep attempts. Never allow both shoulders to touch the mat simultaneously - this signals you've been flattened and lost the position. Your lockdown leg carries the opponent's weight through the entanglement, which should feel like controlled tension rather than desperate gripping.",
+        "answer_line": "Stay on your side, hip angled up",
+        "distractors": {
+          "plausible": [
+            "Keep hips squared to the mat",
+            "Grip lockdown, ignore your base"
+          ],
+          "trap": [
+            "Let both shoulders touch the mat"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and frames for maintaining Zombie Bottom?",
-        "answer": "The primary frame is your near-side arm, positioned with your forearm against the opponent's chest, shoulder, or neck to prevent them from driving forward and flattening you. Your far-side arm should be fighting for underhook position or controlling the opponent's far arm to prevent crossface establishment. The lockdown grip on their leg - foot hooked behind their calf with thigh squeeze active - is your primary lower body control. Secondary grips include collar ties or wrist control depending on the opponent's positioning."
+        "answer": "The primary frame is your near-side arm, positioned with your forearm against the opponent's chest, shoulder, or neck to prevent them from driving forward and flattening you. Your far-side arm should be fighting for underhook position or controlling the opponent's far arm to prevent crossface establishment. The lockdown grip on their leg - foot hooked behind their calf with thigh squeeze active - is your primary lower body control. Secondary grips include collar ties or wrist control depending on the opponent's positioning.",
+        "answer_line": "Frame, underhook fight, lockdown",
+        "distractors": {
+          "plausible": [
+            "Double underhooks, no frame",
+            "Collar tie as primary control"
+          ],
+          "trap": [
+            "Release frame to grip collar"
+          ]
+        }
       },
       {
         "question": "How do you shut down the crossface pass from Zombie Bottom?",
-        "answer": "When you feel the opponent driving their shoulder toward your face for the crossface, immediately turn your head away and drive your near-side frame into their shoulder or chest. This creates a wedge that prevents them from completing the crossface connection. Simultaneously, maintain active underhook fighting with your far arm and use your lockdown to disrupt their base by stretching their trapped leg. If the crossface starts to establish, immediately shrimp your hips away to create space and prevent them from settling their weight."
+        "answer": "When you feel the opponent driving their shoulder toward your face for the crossface, immediately turn your head away and drive your near-side frame into their shoulder or chest. This creates a wedge that prevents them from completing the crossface connection. Simultaneously, maintain active underhook fighting with your far arm and use your lockdown to disrupt their base by stretching their trapped leg. If the crossface starts to establish, immediately shrimp your hips away to create space and prevent them from settling their weight.",
+        "answer_line": "Turn head, wedge frame, shrimp away",
+        "distractors": {
+          "plausible": [
+            "Push their head with both hands",
+            "Hold flat and absorb pressure"
+          ],
+          "trap": [
+            "Turn face into their chest"
+          ]
+        }
       },
       {
         "question": "What grip priority should you follow when the opponent is attempting to smash pass?",
-        "answer": "First priority is maintaining the lockdown - this is your anchor and primary disruption tool against smash passing. Second priority is your near-side frame, which must stay active against their chest pressure. Third priority is head positioning - turn your face away from their crossface and keep your chin tucked. Fourth priority is far-side underhook fighting. If you must choose, sacrifice the underhook before releasing the lockdown, as the lockdown is what keeps you from being completely smashed."
+        "answer": "First priority is maintaining the lockdown - this is your anchor and primary disruption tool against smash passing. Second priority is your near-side frame, which must stay active against their chest pressure. Third priority is head positioning - turn your face away from their crossface and keep your chin tucked. Fourth priority is far-side underhook fighting. If you must choose, sacrifice the underhook before releasing the lockdown, as the lockdown is what keeps you from being completely smashed.",
+        "answer_line": "Keep lockdown, sacrifice underhook",
+        "distractors": {
+          "plausible": [
+            "Underhook first, lockdown last",
+            "Head position is top priority"
+          ],
+          "trap": [
+            "Release lockdown to save underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to drive heavy shoulder pressure into your face - what adjustment do you make?",
-        "answer": "Turn your head away from the pressure while simultaneously shrimping your hips in the opposite direction. This creates an angle that reduces the effectiveness of their pressure. Simultaneously, activate your lockdown stretch to disrupt their base - when they're heavy on your upper body, their leg is more vulnerable to being stretched and off-balanced. Your near-side frame should be pushing against their shoulder rather than their face. If the pressure is overwhelming, consider a Granby Roll to completely reset the position."
+        "answer": "Turn your head away from the pressure while simultaneously shrimping your hips in the opposite direction. This creates an angle that reduces the effectiveness of their pressure. Simultaneously, activate your lockdown stretch to disrupt their base - when they're heavy on your upper body, their leg is more vulnerable to being stretched and off-balanced. Your near-side frame should be pushing against their shoulder rather than their face. If the pressure is overwhelming, consider a Granby Roll to completely reset the position.",
+        "answer_line": "Turn head, shrimp, stretch lockdown",
+        "distractors": {
+          "plausible": [
+            "Push straight back with your neck",
+            "Frame against their face directly"
+          ],
+          "trap": [
+            "Stay still and absorb pressure"
+          ]
+        }
       },
       {
         "question": "How do you apply lockdown tension effectively without exhausting yourself?",
-        "answer": "Effective lockdown comes from proper positioning rather than muscular effort. Your foot should hook deep behind their calf with your instep, not just your toes. The squeeze comes from your thighs pressing together around their leg, using your adductor muscles which have great endurance. Apply constant moderate tension rather than intermittent maximum tension. When you need to stretch them for a sweep, combine hip extension with the lockdown stretch for maximum leverage. Think of it as controlling their mobility rather than trying to damage their knee."
+        "answer": "Effective lockdown comes from proper positioning rather than muscular effort. Your foot should hook deep behind their calf with your instep, not just your toes. The squeeze comes from your thighs pressing together around their leg, using your adductor muscles which have great endurance. Apply constant moderate tension rather than intermittent maximum tension. When you need to stretch them for a sweep, combine hip extension with the lockdown stretch for maximum leverage. Think of it as controlling their mobility rather than trying to damage their knee.",
+        "answer_line": "Deep hook, steady thigh squeeze",
+        "distractors": {
+          "plausible": [
+            "Grip with toes, squeeze in bursts",
+            "Max squeeze only when sweeping"
+          ],
+          "trap": [
+            "Crank max tension constantly"
+          ]
+        }
       },
       {
         "question": "What do you do when the opponent starts to successfully extract their leg from your lockdown?",
-        "answer": "The moment you feel your lockdown weakening, you have a critical decision point. If they're creating backward pressure to extract, immediately attempt the Old School Sweep while you still have some lockdown tension - their backward movement actually helps your sweep. If they're driving forward while extracting, transition immediately to Deep Half Guard by ducking under them. If neither is available, release the lockdown completely and immediately reframe with your legs, establishing knee shield or butterfly hooks to prevent the pass. Never hold a failing lockdown - transition before it's completely broken."
+        "answer": "The moment you feel your lockdown weakening, you have a critical decision point. If they're creating backward pressure to extract, immediately attempt the Old School Sweep while you still have some lockdown tension - their backward movement actually helps your sweep. If they're driving forward while extracting, transition immediately to Deep Half Guard by ducking under them. If neither is available, release the lockdown completely and immediately reframe with your legs, establishing knee shield or butterfly hooks to prevent the pass. Never hold a failing lockdown - transition before it's completely broken.",
+        "answer_line": "Sweep, deep half, or reframe fast",
+        "distractors": {
+          "plausible": [
+            "Re-grip and reset the lockdown",
+            "Wait and see what they do"
+          ],
+          "trap": [
+            "Hold the lockdown as it breaks"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when the opponent is patiently pressuring without giving sweep opportunities?",
-        "answer": "Accept that the position may require sustained defense before offensive opportunities appear. Maintain your frames with skeletal structure rather than muscular effort - your elbow should be anchored against your ribs with your forearm creating the frame. Keep your lockdown active but not maximal. Breathe steadily and wait for the opponent to make a committed passing attempt. The moment they shift their weight for a pass, that's when you need to explode into your counter. Patience is key - a controlled Zombie that doesn't waste energy will outlast an opponent who's burning energy trying to pass."
+        "answer": "Accept that the position may require sustained defense before offensive opportunities appear. Maintain your frames with skeletal structure rather than muscular effort - your elbow should be anchored against your ribs with your forearm creating the frame. Keep your lockdown active but not maximal. Breathe steadily and wait for the opponent to make a committed passing attempt. The moment they shift their weight for a pass, that's when you need to explode into your counter. Patience is key - a controlled Zombie that doesn't waste energy will outlast an opponent who's burning energy trying to pass.",
+        "answer_line": "Skeletal frames, wait, then explode",
+        "distractors": {
+          "plausible": [
+            "Maximal lockdown squeeze always",
+            "Attack constantly to force a sweep"
+          ],
+          "trap": [
+            "Panic and scramble nonstop"
+          ]
+        }
       }
     ],
     "clips": [
@@ -776,35 +936,115 @@
   "flashcards_position": [
     {
       "question": "What structural elements define the Zombie position and distinguish it from a standard half guard?",
-      "answer": "The Zombie is a 10th Planet half-guard variation defined by the bottom player fusing a lockdown leg entanglement with active upper-body framing rather than the passive shell of ordinary half guard. The lockdown triangles one of the top player's legs, with the bottom foot hooked behind the calf and the thighs squeezing to create constant stretching tension. The bottom player stays on their side with a near-side frame and contested underhook, keeping the configuration mobile and offensive. This combination is what converts a defensive bottom game into a platform that simultaneously stalls the pass and threatens sweeps."
+      "answer": "The Zombie is a 10th Planet half-guard variation defined by the bottom player fusing a lockdown leg entanglement with active upper-body framing rather than the passive shell of ordinary half guard. The lockdown triangles one of the top player's legs, with the bottom foot hooked behind the calf and the thighs squeezing to create constant stretching tension. The bottom player stays on their side with a near-side frame and contested underhook, keeping the configuration mobile and offensive. This combination is what converts a defensive bottom game into a platform that simultaneously stalls the pass and threatens sweeps.",
+      "answer_line": "Lockdown plus active frame",
+      "distractors": {
+        "plausible": [
+          "Just a tight passive half guard",
+          "Deep half guard with underhooks"
+        ],
+        "trap": [
+          "A passive shell waiting to escape"
+        ]
+      }
     },
     {
       "question": "Why is the lockdown considered the central control mechanic that alters the passing equation in the Zombie?",
-      "answer": "The lockdown wraps and triangles one of the top player's legs, tying up their base so that leg can no longer post freely or drive weight forward without resistance. By stretching that trapped leg, the bottom player can lengthen and off-balance the top player, robbing them of the compact base needed to smash or pass. This means the exchange is not decided by upper-body pressure alone as in standard half guard; the top player must solve a lower-body entanglement first. The tension the lockdown generates is the shared fulcrum that both players fight over throughout the position."
+      "answer": "The lockdown wraps and triangles one of the top player's legs, tying up their base so that leg can no longer post freely or drive weight forward without resistance. By stretching that trapped leg, the bottom player can lengthen and off-balance the top player, robbing them of the compact base needed to smash or pass. This means the exchange is not decided by upper-body pressure alone as in standard half guard; the top player must solve a lower-body entanglement first. The tension the lockdown generates is the shared fulcrum that both players fight over throughout the position.",
+      "answer_line": "Ties up their base, no free posting",
+      "distractors": {
+        "plausible": [
+          "Controls their far-side underhook",
+          "Just slows their passing tempo"
+        ],
+        "trap": [
+          "It's mainly a submission threat"
+        ]
+      }
     },
     {
       "question": "Why is the Zombie treated as a transitional position rather than a resting destination for either player?",
-      "answer": "Neither player can hold the Zombie statically because the lockdown creates a live tension that constantly shifts the balance of leverage. For the bottom player, staying still allows the top to methodically consolidate crossface and underhook control and grind toward a pass, so movement is survival. For the top player, settling too long invites the Old School and Electric Chair threats that build off any weight or base error. The position therefore functions as a decision hub where small changes in weight distribution immediately open sweeps, passes, or escapes for one side or the other."
+      "answer": "Neither player can hold the Zombie statically because the lockdown creates a live tension that constantly shifts the balance of leverage. For the bottom player, staying still allows the top to methodically consolidate crossface and underhook control and grind toward a pass, so movement is survival. For the top player, settling too long invites the Old School and Electric Chair threats that build off any weight or base error. The position therefore functions as a decision hub where small changes in weight distribution immediately open sweeps, passes, or escapes for one side or the other.",
+      "answer_line": "Neither side can hold it statically",
+      "distractors": {
+        "plausible": [
+          "Bottom player can rest and recover",
+          "Top player can settle in safely"
+        ],
+        "trap": [
+          "Stall in position to save energy"
+        ]
+      }
     },
     {
       "question": "How does weight distribution and the crossface-versus-underhook battle govern who controls the Zombie?",
-      "answer": "Control hinges on the upper-body connection: the top player seeks a heavy crossface driving into the jaw and neck to flatten and turn the bottom player's head, while the bottom player fights for the underhook and a near-side frame to prevent chest-to-chest contact. Whoever wins this exchange dictates the position, because the crossface enables flattening and passing while a dominant underhook enables elevation and sweeps. Layered onto this is the lockdown's lower-body pull, so both players must simultaneously manage the head-and-shoulder fight and the leg tension. The equilibrium between top-side flattening pressure and bottom-side framing plus lockdown stretch is what makes the position dynamic."
+      "answer": "Control hinges on the upper-body connection: the top player seeks a heavy crossface driving into the jaw and neck to flatten and turn the bottom player's head, while the bottom player fights for the underhook and a near-side frame to prevent chest-to-chest contact. Whoever wins this exchange dictates the position, because the crossface enables flattening and passing while a dominant underhook enables elevation and sweeps. Layered onto this is the lockdown's lower-body pull, so both players must simultaneously manage the head-and-shoulder fight and the leg tension. The equilibrium between top-side flattening pressure and bottom-side framing plus lockdown stretch is what makes the position dynamic.",
+      "answer_line": "Whoever wins crossface vs underhook",
+      "distractors": {
+        "plausible": [
+          "Whoever squeezes lockdown harder",
+          "Whoever has better base wins"
+        ],
+        "trap": [
+          "Ignore upper body, focus on legs"
+        ]
+      }
     },
     {
       "question": "What role does maintaining side positioning play in the mechanics of the Zombie for both players?",
-      "answer": "The bottom player's on-the-side orientation, with the near hip angled toward the opponent, is the mechanical prerequisite for every offensive and escape option the Zombie offers. As long as both shoulders do not touch the mat simultaneously, the bottom player retains the ability to shrimp, stretch the lockdown, and rotate into sweeps or guard recovery. The top player's entire passing project is therefore aimed at flattening those shoulders to the mat and killing that side angle. The tug-of-war over whether the bottom player stays on their side or gets flattened is the single most important spatial dynamic in the position."
+      "answer": "The bottom player's on-the-side orientation, with the near hip angled toward the opponent, is the mechanical prerequisite for every offensive and escape option the Zombie offers. As long as both shoulders do not touch the mat simultaneously, the bottom player retains the ability to shrimp, stretch the lockdown, and rotate into sweeps or guard recovery. The top player's entire passing project is therefore aimed at flattening those shoulders to the mat and killing that side angle. The tug-of-war over whether the bottom player stays on their side or gets flattened is the single most important spatial dynamic in the position.",
+      "answer_line": "Stay on side, avoid flat shoulders",
+      "distractors": {
+        "plausible": [
+          "Square hips to flatten yourself",
+          "Stay flat for maximum stability"
+        ],
+        "trap": [
+          "Let both shoulders pin the mat"
+        ]
+      }
     },
     {
       "question": "How does the Zombie differ from a traditional turtle despite both being defensive structures?",
-      "answer": "A traditional turtle has the practitioner curled into a compact ball facing down with no leg entanglement, prioritizing pure protection and waiting to explode out. The Zombie instead keeps the practitioner on their side with a lockdown wrapping the opponent's leg, retaining an active offensive connection to the opponent's base. Where the turtle offers back exposure and mostly defensive escapes, the Zombie's lockdown converts the bottom player's position into a live sweep-and-submission threat. This is the essence of the 10th Planet philosophy of turning a compromised position into offense rather than merely surviving it."
+      "answer": "A traditional turtle has the practitioner curled into a compact ball facing down with no leg entanglement, prioritizing pure protection and waiting to explode out. The Zombie instead keeps the practitioner on their side with a lockdown wrapping the opponent's leg, retaining an active offensive connection to the opponent's base. Where the turtle offers back exposure and mostly defensive escapes, the Zombie's lockdown converts the bottom player's position into a live sweep-and-submission threat. This is the essence of the 10th Planet philosophy of turning a compromised position into offense rather than merely surviving it.",
+      "answer_line": "Active lockdown, not a passive curl",
+      "distractors": {
+        "plausible": [
+          "Both expose the back equally",
+          "Turtle also uses leg entanglement"
+        ],
+        "trap": [
+          "Curl into a ball like turtle"
+        ]
+      }
     },
     {
       "question": "What makes the Zombie a source of dilemmas where the top player's advancement creates openings for the bottom player?",
-      "answer": "Because the lockdown links the two players' bases, most of the top player's attempts to improve position force a weight commitment that the lockdown can exploit. When the top player posts or pulls to free the trapped leg, they expose their base to the Old School Sweep; when they drive forward to flatten, they can be ducked under toward Deep Half Guard. The bottom player reads these weight shifts and channels the top player's own committed movement into a sweep or transition. This built-in trade-off, where advancing the pass simultaneously loosens control somewhere else, is what defines the Zombie as a dilemma-driven configuration."
+      "answer": "Because the lockdown links the two players' bases, most of the top player's attempts to improve position force a weight commitment that the lockdown can exploit. When the top player posts or pulls to free the trapped leg, they expose their base to the Old School Sweep; when they drive forward to flatten, they can be ducked under toward Deep Half Guard. The bottom player reads these weight shifts and channels the top player's own committed movement into a sweep or transition. This built-in trade-off, where advancing the pass simultaneously loosens control somewhere else, is what defines the Zombie as a dilemma-driven configuration.",
+      "answer_line": "Every pass attempt opens a sweep",
+      "distractors": {
+        "plausible": [
+          "Top can pass safely with patience",
+          "Bottom must attack to create gaps"
+        ],
+        "trap": [
+          "Bottom stays passive, doesn't react"
+        ]
+      }
     },
     {
       "question": "How does lockdown tension function as a shared fulcrum that both players must understand biomechanically?",
-      "answer": "The lockdown creates a lever whose pivot is the top player's triangled leg, with the bottom player's hip extension and thigh squeeze supplying the stretching force. Extending the hips and lengthening the entanglement pulls the top player's base long and drops their weight forward, which is precisely the leverage a sweep needs. The top player counters not by fighting the leg directly but by lowering their hips beneath the bottom player's and driving weight forward to collapse the space the lever requires. Both players are effectively competing to control the same fulcrum, so understanding how tension translates into off-balancing is essential to either establishing or defeating the position."
+      "answer": "The lockdown creates a lever whose pivot is the top player's triangled leg, with the bottom player's hip extension and thigh squeeze supplying the stretching force. Extending the hips and lengthening the entanglement pulls the top player's base long and drops their weight forward, which is precisely the leverage a sweep needs. The top player counters not by fighting the leg directly but by lowering their hips beneath the bottom player's and driving weight forward to collapse the space the lever requires. Both players are effectively competing to control the same fulcrum, so understanding how tension translates into off-balancing is essential to either establishing or defeating the position.",
+      "answer_line": "Drop hips under theirs to counter",
+      "distractors": {
+        "plausible": [
+          "Fight the stretch with arm strength",
+          "Pull the trapped leg free instead"
+        ],
+        "trap": [
+          "Raise your hips to escape tension"
+        ]
+      }
     }
   ],
   "clips": [

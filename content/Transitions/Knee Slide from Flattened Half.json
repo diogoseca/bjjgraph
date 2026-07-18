@@ -254,31 +254,101 @@
     "flashcards": [
       {
         "question": "What must be established before you can attempt the knee slide from flattened half guard?",
-        "answer": "Before attempting the knee slide, you must have established solid crossface control turning the opponent's head away, chest-to-chest pressure with their back flat against the mat, collapsed frames with no active knee shield between your bodies, and control of the far side through an underhook or shoulder pressure. Attempting the slide without these prerequisites allows the bottom player to defend effectively during the weight transfer."
+        "answer": "Before attempting the knee slide, you must have established solid crossface control turning the opponent's head away, chest-to-chest pressure with their back flat against the mat, collapsed frames with no active knee shield between your bodies, and control of the far side through an underhook or shoulder pressure. Attempting the slide without these prerequisites allows the bottom player to defend effectively during the weight transfer.",
+        "answer_line": "Crossface, flat, collapsed, far side",
+        "distractors": {
+          "plausible": [
+            "Crossface control alone is enough",
+            "Underhook first, skip flattening"
+          ],
+          "trap": [
+            "Slide as soon as frames touch"
+          ]
+        }
       },
       {
         "question": "Why is creating a hip angle critical before driving the knee across?",
-        "answer": "Attempting to drive the knee straight through the half guard hook meets direct resistance from the bottom player's leg grip. Shifting your hips laterally toward the passing side creates an angular lane that converts your forward pressure into a diagonal sliding force. This angle lets the knee shear across the thigh line rather than pushing directly against the hook, making the extraction mechanically efficient and difficult to defend."
+        "answer": "Attempting to drive the knee straight through the half guard hook meets direct resistance from the bottom player's leg grip. Shifting your hips laterally toward the passing side creates an angular lane that converts your forward pressure into a diagonal sliding force. This angle lets the knee shear across the thigh line rather than pushing directly against the hook, making the extraction mechanically efficient and difficult to defend.",
+        "answer_line": "Hip angle creates diagonal lane",
+        "distractors": {
+          "plausible": [
+            "More hip pressure beats the hook",
+            "Speed through the hook, not angle"
+          ],
+          "trap": [
+            "Drive knee straight through hook"
+          ]
+        }
       },
       {
         "question": "Your opponent shrimps and starts to re-insert their knee shield as you begin the slide - how do you respond?",
-        "answer": "Immediately increase your forward crossface pressure and drop your chest weight onto their torso to close the space they created with the shrimp. If their knee is only partially inserted, drive your chest over the knee to re-flatten it before the shield is established. If the knee shield is fully re-inserted, do not force through it. Reset to flattened half guard by re-collapsing their frames, then re-attempt the slide or transition to a smash pass that addresses the knee shield directly."
+        "answer": "Immediately increase your forward crossface pressure and drop your chest weight onto their torso to close the space they created with the shrimp. If their knee is only partially inserted, drive your chest over the knee to re-flatten it before the shield is established. If the knee shield is fully re-inserted, do not force through it. Reset to flattened half guard by re-collapsing their frames, then re-attempt the slide or transition to a smash pass that addresses the knee shield directly.",
+        "answer_line": "Increase pressure, close the space",
+        "distractors": {
+          "plausible": [
+            "Speed up before shield fully sets",
+            "Switch to a different pass instantly"
+          ],
+          "trap": [
+            "Force through the reinserted shield"
+          ]
+        }
       },
       {
         "question": "What is the role of the free non-trapped leg during the knee slide execution?",
-        "answer": "The free leg serves as both the balance platform and the primary driving engine for the pass. It must be firmly posted on the mat with toes dug in to provide a stable base during the weight transfer. During the slide, you push off this foot to generate the forward and lateral momentum that drives the trapped knee across the opponent's thigh line. Without proper free leg posting, you lack the force to complete the extraction and become vulnerable to sweeps during the transition."
+        "answer": "The free leg serves as both the balance platform and the primary driving engine for the pass. It must be firmly posted on the mat with toes dug in to provide a stable base during the weight transfer. During the slide, you push off this foot to generate the forward and lateral momentum that drives the trapped knee across the opponent's thigh line. Without proper free leg posting, you lack the force to complete the extraction and become vulnerable to sweeps during the transition.",
+        "answer_line": "Free leg posts, drives the slide",
+        "distractors": {
+          "plausible": [
+            "Free leg stays relaxed for balance",
+            "Free leg mirrors the trapped knee"
+          ],
+          "trap": [
+            "Free leg lifts off mat for reach"
+          ]
+        }
       },
       {
         "question": "Why should you never lift your chest during the knee slide?",
-        "answer": "Lifting the chest creates space between your torso and the opponent's body, which is exactly what the bottom player needs to re-establish defensive frames. Even a momentary lift allows them to insert an elbow, recover a knee shield, or initiate a hip escape that stalls the pass. The knee must travel underneath your settled body weight, driven by hip angle and free leg pushing force rather than by creating space above the opponent's body."
+        "answer": "Lifting the chest creates space between your torso and the opponent's body, which is exactly what the bottom player needs to re-establish defensive frames. Even a momentary lift allows them to insert an elbow, recover a knee shield, or initiate a hip escape that stalls the pass. The knee must travel underneath your settled body weight, driven by hip angle and free leg pushing force rather than by creating space above the opponent's body.",
+        "answer_line": "Chest stays down, no space given",
+        "distractors": {
+          "plausible": [
+            "Lift briefly to reset your grips",
+            "Chest up helps see the knee path"
+          ],
+          "trap": [
+            "Rise up to drive knee with gravity"
+          ]
+        }
       },
       {
         "question": "How does the knee slide integrate with other passing options from flattened half guard?",
-        "answer": "The knee slide forms one arm of a passing chain from flattened half guard. If the bottom player defends by blocking the knee path with their hook, you can transition to a crossface pass that goes around their legs rather than through them. If they turn away to prevent the slide, you follow their rotation for a back take. If they extend their arms to push your knee away, their arm isolation opens arm triangle or kimura entries. Each defense to the knee slide opens a different offensive pathway."
+        "answer": "The knee slide forms one arm of a passing chain from flattened half guard. If the bottom player defends by blocking the knee path with their hook, you can transition to a crossface pass that goes around their legs rather than through them. If they turn away to prevent the slide, you follow their rotation for a back take. If they extend their arms to push your knee away, their arm isolation opens arm triangle or kimura entries. Each defense to the knee slide opens a different offensive pathway.",
+        "answer_line": "Each defense opens a new attack",
+        "distractors": {
+          "plausible": [
+            "Abandon pass if knee slide fails",
+            "Always finish with crossface pass"
+          ],
+          "trap": [
+            "Force the same knee slide repeatedly"
+          ]
+        }
       },
       {
         "question": "What should happen immediately after your knee clears the opponent's leg hook?",
-        "answer": "The instant your knee clears the hook, you must drop your hips to the mat against the opponent's hip. This creates a hip-to-hip seal that prevents them from re-inserting any guard structure. Leaving your hips elevated after clearing the leg is a critical error because it creates space that allows re-guard. The hip drop should be immediate and heavy, a gravity drop not a controlled descent. Only after the hip seal is established should you adjust your upper body grips for side control consolidation."
+        "answer": "The instant your knee clears the hook, you must drop your hips to the mat against the opponent's hip. This creates a hip-to-hip seal that prevents them from re-inserting any guard structure. Leaving your hips elevated after clearing the leg is a critical error because it creates space that allows re-guard. The hip drop should be immediate and heavy, a gravity drop not a controlled descent. Only after the hip seal is established should you adjust your upper body grips for side control consolidation.",
+        "answer_line": "Drop hips instantly, seal the hip",
+        "distractors": {
+          "plausible": [
+            "Adjust grips first, then drop hips",
+            "Drop hips slowly to stay balanced"
+          ],
+          "trap": [
+            "Keep hips elevated, secure grips"
+          ]
+        }
       },
       {
         "question": "Your opponent secures an underhook during your knee slide attempt - what are your options?",
@@ -391,23 +461,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a knee slide is about to be attempted from flattened half guard?",
-        "answer": "The earliest cue is the top player shifting their hips laterally toward the passing side. This hip displacement creates the angular lane needed for the knee to travel across your thigh line. Before the knee moves, you will feel the weight distribution change as their hips shift. Recognizing this cue gives you the maximum defensive window to respond before the slide momentum begins."
+        "answer": "The earliest cue is the top player shifting their hips laterally toward the passing side. This hip displacement creates the angular lane needed for the knee to travel across your thigh line. Before the knee moves, you will feel the weight distribution change as their hips shift. Recognizing this cue gives you the maximum defensive window to respond before the slide momentum begins.",
+        "answer_line": "Hips shift toward passing side",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure suddenly rising",
+            "Knee touching your thigh line"
+          ],
+          "trap": [
+            "Wait until knee crosses to react"
+          ]
+        }
       },
       {
         "question": "Why should you prioritize blocking the knee over fighting the crossface when defending the knee slide?",
-        "answer": "The crossface is uncomfortable but does not directly complete the guard pass. The knee crossing your thigh line does. If you split your attention between both, neither defense gets enough commitment to succeed. By accepting the crossface temporarily and directing all defensive effort to the knee path, you address the immediate threat of position loss. Once the passing attempt is neutralized, you can then work on crossface removal and frame recovery."
+        "answer": "The crossface is uncomfortable but does not directly complete the guard pass. The knee crossing your thigh line does. If you split your attention between both, neither defense gets enough commitment to succeed. By accepting the crossface temporarily and directing all defensive effort to the knee path, you address the immediate threat of position loss. Once the passing attempt is neutralized, you can then work on crossface removal and frame recovery.",
+        "answer_line": "Block the knee, accept crossface",
+        "distractors": {
+          "plausible": [
+            "Fight crossface first, then knee",
+            "Split effort evenly between both"
+          ],
+          "trap": [
+            "Ignore knee, escape crossface fully"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun the knee slide and their knee is approaching your thigh line - what is your last effective defensive option?",
-        "answer": "Your last effective option is a committed hip escape timed with their forward weight transfer, combined with immediate knee shield insertion. As their weight shifts to drive the knee through, their base is momentarily compromised. Use this instant to shrimp your hips away hard and jam your knee into the space between your bodies. This must be done as one explosive, committed movement because you will not get a second chance at this timing. If the knee has already crossed your thigh line, transition immediately to side control defensive frames."
+        "answer": "Your last effective option is a committed hip escape timed with their forward weight transfer, combined with immediate knee shield insertion. As their weight shifts to drive the knee through, their base is momentarily compromised. Use this instant to shrimp your hips away hard and jam your knee into the space between your bodies. This must be done as one explosive, committed movement because you will not get a second chance at this timing. If the knee has already crossed your thigh line, transition immediately to side control defensive frames.",
+        "answer_line": "Explosive hip escape, jam the knee",
+        "distractors": {
+          "plausible": [
+            "Slow steady hip escape works best",
+            "Frame on their hip to stop momentum"
+          ],
+          "trap": [
+            "Wait for a better opening later"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a deep half entry against a knee slide?",
-        "answer": "The optimal moment is when the top player commits their weight forward for the slide, creating forward momentum that you can redirect. As they drive forward, you dive underneath their hips by turning your body and threading under their center of gravity. Their forward commitment means they cannot easily reverse direction to prevent your entry. However, this timing window is extremely narrow and the technique requires extensive practice to execute from a flattened position."
+        "answer": "The optimal moment is when the top player commits their weight forward for the slide, creating forward momentum that you can redirect. As they drive forward, you dive underneath their hips by turning your body and threading under their center of gravity. Their forward commitment means they cannot easily reverse direction to prevent your entry. However, this timing window is extremely narrow and the technique requires extensive practice to execute from a flattened position.",
+        "answer_line": "Dive deep as they commit forward",
+        "distractors": {
+          "plausible": [
+            "Enter deep half after pass is done",
+            "Wait for them to sit back first"
+          ],
+          "trap": [
+            "Shrimp away, then attempt deep half"
+          ]
+        }
       },
       {
         "question": "How should your defensive approach change if the knee slide has already progressed past the point of no return?",
-        "answer": "If the knee has crossed your thigh line and the leg is being extracted, do not waste energy fighting for half guard retention. Immediately transition your defensive effort to preparing for side control defense. Get your near-side elbow tight to your hip, establish a frame on their shoulder with your far arm, and begin turning your hips to face them rather than remaining flat. Early preparation for side control defense from the moment you recognize the pass is complete gives you the best chance of executing an immediate escape before they consolidate."
+        "answer": "If the knee has crossed your thigh line and the leg is being extracted, do not waste energy fighting for half guard retention. Immediately transition your defensive effort to preparing for side control defense. Get your near-side elbow tight to your hip, establish a frame on their shoulder with your far arm, and begin turning your hips to face them rather than remaining flat. Early preparation for side control defense from the moment you recognize the pass is complete gives you the best chance of executing an immediate escape before they consolidate.",
+        "answer_line": "Abandon half, frame for side control",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for half guard grip",
+            "Turn away and turtle up instead"
+          ],
+          "trap": [
+            "Stay flat and wait to recover guard"
+          ]
+        }
       }
     ],
     "training_progressions": [

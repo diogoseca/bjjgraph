@@ -249,27 +249,87 @@
     "flashcards": [
       {
         "question": "Your arm is trapped in Meathook and the bottom player has a deep collar grip pulling your head down—what is your immediate first action?",
-        "answer": "Post your free arm wide on the mat to create a triangular base structure before attempting anything else. Without base, you have no leverage for extraction and no platform for posture recovery. The wide post creates opposing force against the shin hook's lever system. Only after base is established should you begin addressing the collar grip and preparing for arm extraction."
+        "answer": "Post your free arm wide on the mat to create a triangular base structure before attempting anything else. Without base, you have no leverage for extraction and no platform for posture recovery. The wide post creates opposing force against the shin hook's lever system. Only after base is established should you begin addressing the collar grip and preparing for arm extraction.",
+        "answer_line": "Post free arm wide for base",
+        "distractors": {
+          "plausible": [
+            "Rip trapped arm out first",
+            "Break the collar grip first"
+          ],
+          "trap": [
+            "Stand straight up to escape"
+          ]
+        }
       },
       {
         "question": "Why is rotational arm extraction mechanically superior to straight pulling against the Meathook shin hook?",
-        "answer": "The shin hook creates a lever that resists force in the direct pull-back plane most effectively. Straight pulling aligns with this maximum resistance angle, wasting energy and risking shoulder strain. Rotational extraction—internally rotating the shoulder and spiraling the elbow—applies force along the hook's weaker diagonal angles, exploiting gaps in the lever mechanics that straight pulling cannot access. The corkscrew motion also changes the cross-section of the arm passing through the hook."
+        "answer": "The shin hook creates a lever that resists force in the direct pull-back plane most effectively. Straight pulling aligns with this maximum resistance angle, wasting energy and risking shoulder strain. Rotational extraction—internally rotating the shoulder and spiraling the elbow—applies force along the hook's weaker diagonal angles, exploiting gaps in the lever mechanics that straight pulling cannot access. The corkscrew motion also changes the cross-section of the arm passing through the hook.",
+        "answer_line": "Spirals past the hook's weak angle",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Speed beats hook leverage"
+          ],
+          "trap": [
+            "Force a straight-line pull"
+          ]
+        }
       },
       {
         "question": "The bottom player begins adjusting their hip angle while you are trapped in Meathook—what does this signal and how should you respond?",
-        "answer": "Hip adjustment signals a transition between control maintenance and submission setup. During hip repositioning, the shin hook pressure briefly decreases as the bottom player redistributes weight and changes angles. This transitional moment is your optimal extraction window. Load your rotational pre-tension and execute the explosive spiral extraction timed precisely to their hip movement. Missing this window means waiting for the next transition."
+        "answer": "Hip adjustment signals a transition between control maintenance and submission setup. During hip repositioning, the shin hook pressure briefly decreases as the bottom player redistributes weight and changes angles. This transitional moment is your optimal extraction window. Load your rotational pre-tension and execute the explosive spiral extraction timed precisely to their hip movement. Missing this window means waiting for the next transition.",
+        "answer_line": "Spiral extract during hip shift",
+        "distractors": {
+          "plausible": [
+            "Wait for hook to fully release",
+            "Push hips down harder now"
+          ],
+          "trap": [
+            "Try to stand up and pass"
+          ]
+        }
       },
       {
         "question": "After successfully extracting your trapped arm, what is the critical next action and why must it happen immediately?",
-        "answer": "Immediately recover posture by planting both hands and driving upward through the spine. There must be zero pause between extraction and posture recovery. The bottom player will instantly attempt to re-capture your arm, re-establish Rubber Guard, or transition to traditional Closed Guard attacks. Every fraction of a second with broken posture and a free arm is wasted opportunity—the window for posture recovery closes rapidly as the bottom player adapts."
+        "answer": "Immediately recover posture by planting both hands and driving upward through the spine. There must be zero pause between extraction and posture recovery. The bottom player will instantly attempt to re-capture your arm, re-establish Rubber Guard, or transition to traditional Closed Guard attacks. Every fraction of a second with broken posture and a free arm is wasted opportunity—the window for posture recovery closes rapidly as the bottom player adapts.",
+        "answer_line": "Drive posture up immediately",
+        "distractors": {
+          "plausible": [
+            "Secure grips before posture",
+            "Pause to check position first"
+          ],
+          "trap": [
+            "Reach for a submission first"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player's hips rotating behind you as you create space during posture recovery—what is happening and how do you respond?",
-        "answer": "The bottom player is attempting to take your back by following your space creation with hip rotation. This is the primary counter risk during posture recovery. Immediately sit your hips back and low to prevent them from threading hooks behind you. Address this back take threat before continuing posture recovery—losing the back is worse than remaining in Meathook temporarily. Re-establish hip-to-hip connection and restart the recovery sequence."
+        "answer": "The bottom player is attempting to take your back by following your space creation with hip rotation. This is the primary counter risk during posture recovery. Immediately sit your hips back and low to prevent them from threading hooks behind you. Address this back take threat before continuing posture recovery—losing the back is worse than remaining in Meathook temporarily. Re-establish hip-to-hip connection and restart the recovery sequence.",
+        "answer_line": "Sit hips back low, deny hooks",
+        "distractors": {
+          "plausible": [
+            "Keep pushing space creation",
+            "Speed up posture recovery"
+          ],
+          "trap": [
+            "Turn away to create distance"
+          ]
+        }
       },
       {
         "question": "Why is accepting Closed Guard after arm extraction strategically correct compared to forcing an immediate pass?",
-        "answer": "Remaining in Meathook guarantees submission completion through Gogoplata, Triangle, or Omoplata. Closed Guard with recovered posture is a neutral position where you retain top position, both arms are free, and systematic guard opening and passing are available. Forcing an immediate pass with compromised posture risks re-capture into Rubber Guard. The strategic calculus is clear: escape to Closed Guard first, then pass methodically with full positional advantage."
+        "answer": "Remaining in Meathook guarantees submission completion through Gogoplata, Triangle, or Omoplata. Closed Guard with recovered posture is a neutral position where you retain top position, both arms are free, and systematic guard opening and passing are available. Forcing an immediate pass with compromised posture risks re-capture into Rubber Guard. The strategic calculus is clear: escape to Closed Guard first, then pass methodically with full positional advantage.",
+        "answer_line": "Escape to closed guard first",
+        "distractors": {
+          "plausible": [
+            "Force the pass immediately",
+            "Stay in meathook, wear them down"
+          ],
+          "trap": [
+            "Force pass with broken posture"
+          ]
+        }
       }
     ],
     "safety_considerations": "Posture recovery from Meathook carries moderate injury risk centered on the trapped shoulder and elbow. Never yank the trapped arm explosively without rotational mechanics, as straight-line force against the shin hook creates sustained tension on the rotator cuff and can cause strain or tears. If the bottom player transitions to a submission during recovery attempts, tap early rather than fighting through mechanically compromised positions. Partners drilling this technique should communicate clearly about shoulder discomfort and release hook pressure immediately upon request. The bottom player must never crank the shin hook aggressively to prevent extraction, as this can hyperextend the trapped elbow or compress the shoulder beyond safe range.",
@@ -377,19 +437,59 @@
     "flashcards": [
       {
         "question": "The top player posts their free arm wide and begins internally rotating their trapped shoulder—what are they preparing and how should you respond?",
-        "answer": "They are loading rotational pre-tension for an explosive spiral arm extraction. The wide base provides leverage and the internal rotation sets up the corkscrew motion. Respond immediately by tightening the shin hook pressure, pulling your knee toward your chest to deepen the hook angle, and reinforcing your head grip. Additionally, consider preemptive hip adjustment toward triangle angle so their extraction attempt feeds directly into your next submission."
+        "answer": "They are loading rotational pre-tension for an explosive spiral arm extraction. The wide base provides leverage and the internal rotation sets up the corkscrew motion. Respond immediately by tightening the shin hook pressure, pulling your knee toward your chest to deepen the hook angle, and reinforcing your head grip. Additionally, consider preemptive hip adjustment toward triangle angle so their extraction attempt feeds directly into your next submission.",
+        "answer_line": "Tighten hook, deepen knee angle",
+        "distractors": {
+          "plausible": [
+            "Loosen grip to bait extraction",
+            "Switch to collar choke attempt"
+          ],
+          "trap": [
+            "Release the shin hook to reset"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully extracts their arm from the Meathook and begins driving posture upward—what is your highest-percentage counter?",
-        "answer": "Follow their upward drive with a hip pivot to take their back. The space they create for posture recovery simultaneously exposes their hips for hook insertion. As they drive up, shoot your hips behind theirs and thread your hooks inside their thighs. Their posture recovery momentum actually assists your back take entry. This is why the back take counter has 20% probability in the outcome model—it is a real and dangerous threat during every recovery attempt."
+        "answer": "Follow their upward drive with a hip pivot to take their back. The space they create for posture recovery simultaneously exposes their hips for hook insertion. As they drive up, shoot your hips behind theirs and thread your hooks inside their thighs. Their posture recovery momentum actually assists your back take entry. This is why the back take counter has 20% probability in the outcome model—it is a real and dangerous threat during every recovery attempt.",
+        "answer_line": "Pivot hips to take the back",
+        "distractors": {
+          "plausible": [
+            "Reclaim collar grip fast",
+            "Reset to closed guard control"
+          ],
+          "trap": [
+            "Push them away to reset guard"
+          ]
+        }
       },
       {
         "question": "Why is it critical to minimize the duration of hip adjustments when maintaining Meathook control?",
-        "answer": "Hip adjustments temporarily reduce shin hook pressure as you redistribute weight and change angles. Experienced top players time their explosive extraction attempts precisely to these transitional moments when your hook is weakest. Every hip adjustment must be executed rapidly and purposefully, minimizing the window of reduced pressure. Slow or unnecessary hip movements give the opponent repeated extraction opportunities with each adjustment."
+        "answer": "Hip adjustments temporarily reduce shin hook pressure as you redistribute weight and change angles. Experienced top players time their explosive extraction attempts precisely to these transitional moments when your hook is weakest. Every hip adjustment must be executed rapidly and purposefully, minimizing the window of reduced pressure. Slow or unnecessary hip movements give the opponent repeated extraction opportunities with each adjustment.",
+        "answer_line": "Hook weakens during hip shifts",
+        "distractors": {
+          "plausible": [
+            "Adjust hips slowly for comfort",
+            "Ignore hook during hip shifts"
+          ],
+          "trap": [
+            "Take your time repositioning"
+          ]
+        }
       },
       {
         "question": "The top player is attempting incremental grip stripping on your collar control rather than explosive extraction—how should you adapt your defense?",
-        "answer": "Against incremental grip stripping, you cannot simply wait—your energy cost in Meathook is high and time works against static holding. Accelerate your attack timeline. Begin transitioning toward your highest-percentage submission immediately rather than trying to outlast their systematic approach. The incremental strategy is designed to be patient, so force urgency by threatening finishes that demand their attention shift from grip stripping to survival."
+        "answer": "Against incremental grip stripping, you cannot simply wait—your energy cost in Meathook is high and time works against static holding. Accelerate your attack timeline. Begin transitioning toward your highest-percentage submission immediately rather than trying to outlast their systematic approach. The incremental strategy is designed to be patient, so force urgency by threatening finishes that demand their attention shift from grip stripping to survival.",
+        "answer_line": "Accelerate toward top submission",
+        "distractors": {
+          "plausible": [
+            "Wait out their grip stripping",
+            "Match their patient pace"
+          ],
+          "trap": [
+            "Hold static position and rest"
+          ]
+        }
       }
     ],
     "training_progressions": [

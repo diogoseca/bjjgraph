@@ -244,43 +244,143 @@
     "flashcards": [
       {
         "question": "Why is it critical to tuck your chin during a rolling to guard movement?",
-        "answer": "Tucking the chin protects the cervical spine by ensuring the roll occurs across the upper back and shoulders rather than directly on the head or neck. Without the chin tuck, body weight landing on the crown or back of the head creates dangerous compression forces on the cervical vertebrae. Additionally, a tucked chin keeps the neck muscles engaged as stabilizers throughout the rotation, prevents the opponent from accessing the neck for chokes during the transitional moment, and maintains better visual tracking of the opponent's position."
+        "answer": "Tucking the chin protects the cervical spine by ensuring the roll occurs across the upper back and shoulders rather than directly on the head or neck. Without the chin tuck, body weight landing on the crown or back of the head creates dangerous compression forces on the cervical vertebrae. Additionally, a tucked chin keeps the neck muscles engaged as stabilizers throughout the rotation, prevents the opponent from accessing the neck for chokes during the transitional moment, and maintains better visual tracking of the opponent's position.",
+        "answer_line": "Protects neck, rolls on shoulders",
+        "distractors": {
+          "plausible": [
+            "Keeps eyes on the opponent",
+            "Prevents a collar grab"
+          ],
+          "trap": [
+            "Look up to track opponent"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the roll from turtle?",
-        "answer": "The optimal window occurs when the top player's weight shifts forward during a grip transition, when they reach for a new control point (such as switching from hip control to seatbelt), or when they commit their weight forward to flatten you. These moments create brief instability in their base that prevents them from following your rotation effectively. You should also have created sufficient space through frames (6-12 inches minimum). Initiating against fully settled, heavy pressure with hooks established is the worst timing - the opponent can simply ride the roll and maintain back control throughout."
+        "answer": "The optimal window occurs when the top player's weight shifts forward during a grip transition, when they reach for a new control point (such as switching from hip control to seatbelt), or when they commit their weight forward to flatten you. These moments create brief instability in their base that prevents them from following your rotation effectively. You should also have created sufficient space through frames (6-12 inches minimum). Initiating against fully settled, heavy pressure with hooks established is the worst timing - the opponent can simply ride the roll and maintain back control throughout.",
+        "answer_line": "When they shift weight forward",
+        "distractors": {
+          "plausible": [
+            "As soon as you turtle up",
+            "When you feel any hand movement"
+          ],
+          "trap": [
+            "Once hooks are fully locked in"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt Rolling to Guard?",
-        "answer": "Four conditions are necessary: First, you must have created minimum 6-12 inches of space through frames against the opponent's body. Second, you must be positioned on your side with a shoulder loaded toward the mat rather than flat on your stomach. Third, the opponent's weight must be distributed or in transition rather than fully settled with hooks and harness control. Fourth, you must have a clear rolling path without collision risk from mat boundaries or other training pairs. Attempting without these conditions dramatically increases failure rate and back exposure risk."
+        "answer": "Four conditions are necessary: First, you must have created minimum 6-12 inches of space through frames against the opponent's body. Second, you must be positioned on your side with a shoulder loaded toward the mat rather than flat on your stomach. Third, the opponent's weight must be distributed or in transition rather than fully settled with hooks and harness control. Fourth, you must have a clear rolling path without collision risk from mat boundaries or other training pairs. Attempting without these conditions dramatically increases failure rate and back exposure risk.",
+        "answer_line": "6-12 inches of space via frames",
+        "distractors": {
+          "plausible": [
+            "Any space, roll immediately",
+            "Wait until you're on your back"
+          ],
+          "trap": [
+            "Roll once hooks are locked in"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that powers the rolling escape?",
-        "answer": "The explosive upward hip drive initiated by the glutes and core muscles is the critical movement. The hips must generate sufficient upward momentum to carry the legs through the full rotation arc over the shoulders. This movement originates from a contraction of the glutes driving the pelvis toward the ceiling, then redirecting that momentum over the loaded shoulder. Weak or tentative hip drive results in stalled rotations where the practitioner gets stuck on their upper back with legs in the air - a position worse than turtle because the opponent can immediately advance to mount or side control."
+        "answer": "The explosive upward hip drive initiated by the glutes and core muscles is the critical movement. The hips must generate sufficient upward momentum to carry the legs through the full rotation arc over the shoulders. This movement originates from a contraction of the glutes driving the pelvis toward the ceiling, then redirecting that momentum over the loaded shoulder. Weak or tentative hip drive results in stalled rotations where the practitioner gets stuck on their upper back with legs in the air - a position worse than turtle because the opponent can immediately advance to mount or side control.",
+        "answer_line": "Explosive hip drive from the glutes",
+        "distractors": {
+          "plausible": [
+            "Arch the back hard",
+            "Push off with the legs"
+          ],
+          "trap": [
+            "Kick legs overhead first"
+          ]
+        }
       },
       {
         "question": "What grip setup optimizes your chances before initiating the roll?",
-        "answer": "The optimal grip configuration involves controlling the opponent's sleeve or wrist on the side you are rolling toward - this prevents them from posting to follow your rotation. A secondary collar grip on the same side can pull them off-balance in the direction of your roll. These grips must be released at the moment of roll initiation because holding them through the rotation inhibits your rotational freedom and can tangle your arms. The release should be explosive, converting pulling energy into rotational momentum. Immediately upon completing the roll, seek new grips appropriate to the guard position you establish."
+        "answer": "The optimal grip configuration involves controlling the opponent's sleeve or wrist on the side you are rolling toward - this prevents them from posting to follow your rotation. A secondary collar grip on the same side can pull them off-balance in the direction of your roll. These grips must be released at the moment of roll initiation because holding them through the rotation inhibits your rotational freedom and can tangle your arms. The release should be explosive, converting pulling energy into rotational momentum. Immediately upon completing the roll, seek new grips appropriate to the guard position you establish.",
+        "answer_line": "Control wrist, release explosively",
+        "distractors": {
+          "plausible": [
+            "Grip collar on the far side",
+            "Grip both sleeves evenly"
+          ],
+          "trap": [
+            "Hold grips through the roll"
+          ]
+        }
       },
       {
         "question": "Why must you roll at 45 degrees rather than straight backward?",
-        "answer": "Rolling straight backward keeps you on the same line as the opponent, allowing them to simply follow your movement path and maintain chest-to-back pressure throughout the entire rotation. A 45-degree diagonal roll across your shoulder creates lateral separation from the opponent's centerline, forcing them to change direction to follow. This directional change buys you the fraction of a second needed to complete the roll and insert your legs. Additionally, the diagonal path naturally orients your body to face the opponent upon completion, whereas a straight backward roll tends to leave you facing away from them with your back exposed."
+        "answer": "Rolling straight backward keeps you on the same line as the opponent, allowing them to simply follow your movement path and maintain chest-to-back pressure throughout the entire rotation. A 45-degree diagonal roll across your shoulder creates lateral separation from the opponent's centerline, forcing them to change direction to follow. This directional change buys you the fraction of a second needed to complete the roll and insert your legs. Additionally, the diagonal path naturally orients your body to face the opponent upon completion, whereas a straight backward roll tends to leave you facing away from them with your back exposed.",
+        "answer_line": "Roll diagonal, not straight back",
+        "distractors": {
+          "plausible": [
+            "Any diagonal angle works",
+            "Roll toward your dominant side"
+          ],
+          "trap": [
+            "Roll straight back for full speed"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat as you initiate the roll - how do you adjust?",
-        "answer": "When an opponent posts their hand, they commit that limb to a fixed point on the mat, simultaneously creating a structural anchor that blocks your roll in that direction and removing that hand from controlling your body. Immediately adjust your rolling angle away from the posted hand, rolling toward the opposite shoulder. Their posted arm also creates a temporary opening - you may be able to roll underneath the posted arm if it is extended wide. Use the committed post as information about their weight distribution and exploit the fact that one of their control hands is now occupied with the mat rather than controlling your movement."
+        "answer": "When an opponent posts their hand, they commit that limb to a fixed point on the mat, simultaneously creating a structural anchor that blocks your roll in that direction and removing that hand from controlling your body. Immediately adjust your rolling angle away from the posted hand, rolling toward the opposite shoulder. Their posted arm also creates a temporary opening - you may be able to roll underneath the posted arm if it is extended wide. Use the committed post as information about their weight distribution and exploit the fact that one of their control hands is now occupied with the mat rather than controlling your movement.",
+        "answer_line": "Roll away from the posted hand",
+        "distractors": {
+          "plausible": [
+            "Push off their posted hand",
+            "Stop and reset position"
+          ],
+          "trap": [
+            "Roll straight into the post"
+          ]
+        }
       },
       {
         "question": "Your opponent is driving forward aggressively from turtle top - how does this affect your rolling timing?",
-        "answer": "Aggressive forward pressure is actually the optimal trigger for the roll because the opponent's weight has committed past their base, making them unable to quickly change direction when you rotate. Time your roll initiation at the peak of their forward drive, using their own momentum to accelerate your rotation. Your frames absorb the initial pressure, then convert to redirecting force as you begin the roll. Less muscular effort is required when working with their energy rather than against it. The danger is rolling too early before they fully commit, which gives them time to abort and follow, or too late when they have already flattened you and eliminated your rolling space."
+        "answer": "Aggressive forward pressure is actually the optimal trigger for the roll because the opponent's weight has committed past their base, making them unable to quickly change direction when you rotate. Time your roll initiation at the peak of their forward drive, using their own momentum to accelerate your rotation. Your frames absorb the initial pressure, then convert to redirecting force as you begin the roll. Less muscular effort is required when working with their energy rather than against it. The danger is rolling too early before they fully commit, which gives them time to abort and follow, or too late when they have already flattened you and eliminated your rolling space.",
+        "answer_line": "Use their forward drive as trigger",
+        "distractors": {
+          "plausible": [
+            "Roll the instant pressure starts",
+            "Brace and stall against pressure"
+          ],
+          "trap": [
+            "Wait until fully flattened out"
+          ]
+        }
       },
       {
         "question": "How do you chain Rolling to Guard with other escapes when the initial roll is blocked?",
-        "answer": "The key principle is that each escape attempt should load the next option rather than resetting to neutral. If the roll is blocked by hip pressure or sprawl, use the space your roll attempt created to immediately shrimp and re-guard using hip escape mechanics. If the opponent loads forward to stop your backward rotation, their weight commitment opens sit-through or deep half entry opportunities underneath them. If they grab your legs during the roll, transition to technical standup since your upper body is free. Recognize the block within the first quarter of the roll and redirect immediately - forcing a blocked roll results in worse position than intelligently transitioning mid-attempt."
+        "answer": "The key principle is that each escape attempt should load the next option rather than resetting to neutral. If the roll is blocked by hip pressure or sprawl, use the space your roll attempt created to immediately shrimp and re-guard using hip escape mechanics. If the opponent loads forward to stop your backward rotation, their weight commitment opens sit-through or deep half entry opportunities underneath them. If they grab your legs during the roll, transition to technical standup since your upper body is free. Recognize the block within the first quarter of the roll and redirect immediately - forcing a blocked roll results in worse position than intelligently transitioning mid-attempt.",
+        "answer_line": "Redirect into shrimp or sit-through",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral, then retry",
+            "Repeat the same roll harder"
+          ],
+          "trap": [
+            "Force the roll through the block"
+          ]
+        }
       },
       {
         "question": "What distinguishes high-level execution of this technique from beginner-level execution?",
-        "answer": "High-level practitioners execute three things that beginners do not. First, they maintain continuous motion from frame creation through roll completion to guard establishment as one seamless action with no pauses between phases. Second, they have superior spatial awareness, constantly tracking the opponent throughout the roll and making real-time directional adjustments mid-rotation. Third, they immediately threaten sweeps or submissions within 1-2 seconds of establishing guard, converting the defensive recovery into offensive pressure before the opponent can stabilize a passing position. Beginners typically pause between steps, roll without tracking the opponent, and remain passive after establishing guard."
+        "answer": "High-level practitioners execute three things that beginners do not. First, they maintain continuous motion from frame creation through roll completion to guard establishment as one seamless action with no pauses between phases. Second, they have superior spatial awareness, constantly tracking the opponent throughout the roll and making real-time directional adjustments mid-rotation. Third, they immediately threaten sweeps or submissions within 1-2 seconds of establishing guard, converting the defensive recovery into offensive pressure before the opponent can stabilize a passing position. Beginners typically pause between steps, roll without tracking the opponent, and remain passive after establishing guard.",
+        "answer_line": "Seamless motion, then attack fast",
+        "distractors": {
+          "plausible": [
+            "Pause to check each step",
+            "Roll fast, then stay defensive"
+          ],
+          "trap": [
+            "Stop moving once guard is set"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing Rolling to Guard, controlled execution is paramount to prevent neck and spine injuries. Always tuck your chin firmly to your chest and ensure the roll occurs across the upper back and shoulders, never directly on the head or neck. Begin practice on soft surfaces and progress gradually to standard mats. Avoid explosive or uncontrolled rolling during initial learning phases, building speed only as mechanics become consistent. Be aware of training partners and mat boundaries during the dynamic movement - collisions during rolling are a significant injury source. Partners should provide progressive resistance and should never attempt to spike, compress, or drive the rolling player's head into the mat. Stop immediately if any neck discomfort, numbness, or tingling occurs. Practitioners with existing cervical spine issues, herniated discs, or shoulder injuries should consult medical professionals before practicing this technique.",
@@ -399,23 +499,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt Rolling to Guard?",
-        "answer": "The earliest cue is frame creation - when the bottom player begins placing their hands on your hips, shoulders, or biceps and pushing to generate space. This precedes the shoulder loading and hip shifting that follow. Frame creation is the necessary first step because the roll cannot be executed without initial separation. Recognizing this moment allows you to counter-pressure immediately by driving your hips forward and chest down, denying the space before the roll sequence can develop further."
+        "answer": "The earliest cue is frame creation - when the bottom player begins placing their hands on your hips, shoulders, or biceps and pushing to generate space. This precedes the shoulder loading and hip shifting that follow. Frame creation is the necessary first step because the roll cannot be executed without initial separation. Recognizing this moment allows you to counter-pressure immediately by driving your hips forward and chest down, denying the space before the roll sequence can develop further.",
+        "answer_line": "Hands framing on hips or shoulders",
+        "distractors": {
+          "plausible": [
+            "Hips start elevating",
+            "Shoulder loads to one side"
+          ],
+          "trap": [
+            "Wait until they fully turn away"
+          ]
+        }
       },
       {
         "question": "Your opponent has already initiated the roll and is halfway through the rotation - what is your highest-percentage response?",
-        "answer": "Follow the roll by keeping your chest attached to their back and circling in the same direction as their rotation. Do not resist or pull backward, as this creates separation that guarantees they complete the roll into guard. Instead, use their rolling momentum to advance your own position - insert the near-side hook during the rotation and secure seatbelt control. When they complete the roll, you should arrive in back control rather than being separated. The key is maintaining physical connection throughout the transition rather than fighting against the rotation's direction."
+        "answer": "Follow the roll by keeping your chest attached to their back and circling in the same direction as their rotation. Do not resist or pull backward, as this creates separation that guarantees they complete the roll into guard. Instead, use their rolling momentum to advance your own position - insert the near-side hook during the rotation and secure seatbelt control. When they complete the roll, you should arrive in back control rather than being separated. The key is maintaining physical connection throughout the transition rather than fighting against the rotation's direction.",
+        "answer_line": "Follow, insert hook, take the back",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to block their hips",
+            "Grab their legs to stop it"
+          ],
+          "trap": [
+            "Pull back to stay chest-to-chest"
+          ]
+        }
       },
       {
         "question": "How do you differentiate between a genuine roll attempt and a feint designed to open alternative escapes?",
-        "answer": "A genuine roll attempt shows committed shoulder loading where the bottom player's weight transfers onto one shoulder with chin tucked and hips beginning to elevate. A feint typically shows the initial frame creation and shoulder movement but without the full weight commitment to the rolling shoulder. Watch for hip elevation - if their hips begin driving upward with real force, the roll is committed. If the hip movement is minimal or reverses direction, they are likely setting up a sit-through, technical standup, or directional change. Respond to feints by maintaining centered pressure rather than over-committing to one counter direction."
+        "answer": "A genuine roll attempt shows committed shoulder loading where the bottom player's weight transfers onto one shoulder with chin tucked and hips beginning to elevate. A feint typically shows the initial frame creation and shoulder movement but without the full weight commitment to the rolling shoulder. Watch for hip elevation - if their hips begin driving upward with real force, the roll is committed. If the hip movement is minimal or reverses direction, they are likely setting up a sit-through, technical standup, or directional change. Respond to feints by maintaining centered pressure rather than over-committing to one counter direction.",
+        "answer_line": "Committed shoulder load, hips drive",
+        "distractors": {
+          "plausible": [
+            "Any frame push signals a roll",
+            "Watch their grip changes only"
+          ],
+          "trap": [
+            "React hard to first shoulder dip"
+          ]
+        }
       },
       {
         "question": "What positional adjustments make you most resistant to Rolling to Guard attempts from turtle top?",
-        "answer": "Three adjustments create maximum resistance: First, maintain constant chest-to-back pressure with your weight driving forward and down at approximately 45 degrees, eliminating the space needed for rotation. Second, control the near-side hip and far-side shoulder simultaneously, which prevents the diagonal body rotation that initiates the roll. Third, keep your hips close to theirs rather than leaving them elevated, as high hips create space underneath that the bottom player can exploit for hip drive. A compact, heavy, connected turtle top position with good hip-to-hip contact is extremely difficult to roll from."
+        "answer": "Three adjustments create maximum resistance: First, maintain constant chest-to-back pressure with your weight driving forward and down at approximately 45 degrees, eliminating the space needed for rotation. Second, control the near-side hip and far-side shoulder simultaneously, which prevents the diagonal body rotation that initiates the roll. Third, keep your hips close to theirs rather than leaving them elevated, as high hips create space underneath that the bottom player can exploit for hip drive. A compact, heavy, connected turtle top position with good hip-to-hip contact is extremely difficult to roll from.",
+        "answer_line": "45° chest pressure, hips tight",
+        "distractors": {
+          "plausible": [
+            "Sit high on their hips",
+            "Control only the far shoulder"
+          ],
+          "trap": [
+            "Post wide for extra balance"
+          ]
+        }
       },
       {
         "question": "Your opponent chains a failed roll attempt directly into a sit-through - how should you adjust?",
-        "answer": "When the roll fails and they immediately redirect into a sit-through, their hips will drop and rotate toward you rather than continuing overhead. Immediately shift your weight to the side they are sitting through toward, using a crossface or head control to drive them back to their knees. If they complete the sit-through partially, switch from back-pressure to front-headlock positioning by circling to the side their head is facing. The critical principle is recognizing the transition between escape types within the first half-second and adjusting your weight placement and grip targets accordingly rather than continuing to defend the roll that is no longer happening."
+        "answer": "When the roll fails and they immediately redirect into a sit-through, their hips will drop and rotate toward you rather than continuing overhead. Immediately shift your weight to the side they are sitting through toward, using a crossface or head control to drive them back to their knees. If they complete the sit-through partially, switch from back-pressure to front-headlock positioning by circling to the side their head is facing. The critical principle is recognizing the transition between escape types within the first half-second and adjusting your weight placement and grip targets accordingly rather than continuing to defend the roll that is no longer happening.",
+        "answer_line": "Crossface, drive them back down",
+        "distractors": {
+          "plausible": [
+            "Keep defending the roll",
+            "Switch hips slowly to match"
+          ],
+          "trap": [
+            "Chase the original rolling side"
+          ]
+        }
       }
     ],
     "training_progressions": [

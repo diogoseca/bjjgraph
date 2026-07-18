@@ -270,70 +270,143 @@
     "flashcards": [
       {
         "question": "What is the primary biomechanical principle that makes the rolling Kimura escape effective?",
-        "answer": "The rolling motion temporarily changes the geometric angle of the shoulder lock by rotating your entire body in the direction of the force being applied. This rotation relieves direct pressure on the shoulder joint by transforming the locked position into a different geometric relationship between your shoulder, their grip, and the force vector. Rather than resisting against the lock's direction, you move with it in a way that creates momentary relief and allows repositioning into guard."
+        "answer": "The rolling motion temporarily changes the geometric angle of the shoulder lock by rotating your entire body in the direction of the force being applied. This rotation relieves direct pressure on the shoulder joint by transforming the locked position into a different geometric relationship between your shoulder, their grip, and the force vector. Rather than resisting against the lock's direction, you move with it in a way that creates momentary relief and allows repositioning into guard.",
+        "answer_line": "Rotate body to change lock angle",
+        "distractors": {
+          "plausible": [
+            "Roll to break the grip open",
+            "Speed up before shoulder maxes"
+          ],
+          "trap": [
+            "Resist directly against the lock"
+          ]
+        }
       },
       {
         "question": "Your opponent has the Kimura locked but their weight is shifted backward rather than driving forward - should you attempt the rolling escape?",
         "answer": "No, do not attempt the roll: with their weight shifted backward the opponent has the base to follow your rotation and maintain the grip throughout. The rolling escape works specifically because the opponent's forward weight commitment compromises their ability to adjust laterally. With their weight back, use the space their positioning creates to work conventional escapes: straighten your arm toward their hips, hip escape to create angle, or address their grip with your free hand.",
         "distractors": {
           "plausible": [
-            "Yes, roll immediately: their backward weight means less finishing pressure, giving you a safer window to complete the rotation.",
-            "Yes, but roll toward their hips instead of forward so your rotation goes underneath their backward-shifted base."
+            "Roll anyway, commit fully",
+            "Roll toward their base side"
           ],
           "trap": [
-            "Yes, roll explosively anyway; the momentum of a committed forward roll will strip their grip no matter where their weight sits."
+            "Force the roll through their base"
           ]
-        }
+        },
+        "answer_line": "Don't roll, hip escape instead"
       },
       {
         "question": "At what point in the Kimura attack sequence is the optimal timing window for initiating the roll?",
         "answer": "Initiate the roll after traditional defenses have failed but before the opponent reaches maximum submission pressure on your shoulder. This typically occurs when the opponent has secured a tight figure-four grip and is driving forward with their weight to finish, but your shoulder's range of motion is not yet fully exhausted. Waiting too long dramatically increases injury risk, while attempting too early wastes this high-risk technique when safer options remain viable.",
         "distractors": {
           "plausible": [
-            "Roll the instant the opponent secures the figure-four grip, before they can begin applying any finishing pressure.",
-            "Wait until you feel the first sharp pain in your shoulder, since that confirms the lock is real before you commit to the roll."
+            "As soon as grip is secured",
+            "Only at max shoulder pressure"
           ],
           "trap": [
-            "Wait until your shoulder is fully at end range, because the stored joint tension slingshots you through the rotation."
+            "Wait until shoulder maxes out"
+          ]
+        },
+        "answer_line": "After defenses fail, before max"
+      },
+      {
+        "question": "What grip adjustment should you make with your free hand before initiating the roll?",
+        "answer": "Your free hand should be positioned to assist the rolling motion rather than fighting the Kimura grip. Place your free palm flat on the mat near your trapped shoulder to push off and guide your body into the roll. Attempting to grip-fight or break the Kimura configuration with your free hand immediately before the roll wastes time and telegraphs your intention. Your free arm's role during the roll is to facilitate smooth rotation and then immediately establish frames upon landing.",
+        "answer_line": "Palm flat on mat, push off",
+        "distractors": {
+          "plausible": [
+            "Grip fight to break the lock",
+            "Post on opponent's hip"
+          ],
+          "trap": [
+            "Grab their sleeve to stall"
           ]
         }
       },
       {
-        "question": "What grip adjustment should you make with your free hand before initiating the roll?",
-        "answer": "Your free hand should be positioned to assist the rolling motion rather than fighting the Kimura grip. Place your free palm flat on the mat near your trapped shoulder to push off and guide your body into the roll. Attempting to grip-fight or break the Kimura configuration with your free hand immediately before the roll wastes time and telegraphs your intention. Your free arm's role during the roll is to facilitate smooth rotation and then immediately establish frames upon landing."
-      },
-      {
         "question": "Your roll attempt stalls halfway through because your opponent widens their base - what is your immediate response?",
-        "answer": "Do not attempt to force the remaining rotation or try a second roll, as this creates maximum shoulder vulnerability at a compromised angle. Instead, immediately redirect into an explosive hip escape laterally, using whatever angle change the partial roll created. The partial rotation may have shifted the Kimura angle enough to make hip escape viable where it previously was not. Frame against their head or shoulder with your free arm and shrimp away aggressively."
+        "answer": "Do not attempt to force the remaining rotation or try a second roll, as this creates maximum shoulder vulnerability at a compromised angle. Instead, immediately redirect into an explosive hip escape laterally, using whatever angle change the partial roll created. The partial rotation may have shifted the Kimura angle enough to make hip escape viable where it previously was not. Frame against their head or shoulder with your free arm and shrimp away aggressively.",
+        "answer_line": "Abort roll, hip escape laterally",
+        "distractors": {
+          "plausible": [
+            "Force a second roll attempt",
+            "Push through to complete roll"
+          ],
+          "trap": [
+            "Keep rotating into the lock"
+          ]
+        }
       },
       {
         "question": "What are the critical setup conditions that must exist before you commit to the rolling escape?",
-        "answer": "Five conditions must be present: opponent has a secured figure-four Kimura grip with active finishing pressure; adequate mat space exists in front of your trapped shoulder for a full forward roll; your shoulder has not yet reached maximum range of motion under the lock; opponent's weight is committed forward compromising their lateral base; and conventional defenses have genuinely failed. Missing any of these conditions, particularly insufficient mat space or the shoulder already being at end range, makes the technique too dangerous to attempt."
+        "answer": "Five conditions must be present: opponent has a secured figure-four Kimura grip with active finishing pressure; adequate mat space exists in front of your trapped shoulder for a full forward roll; your shoulder has not yet reached maximum range of motion under the lock; opponent's weight is committed forward compromising their lateral base; and conventional defenses have genuinely failed. Missing any of these conditions, particularly insufficient mat space or the shoulder already being at end range, makes the technique too dangerous to attempt.",
+        "answer_line": "All 5 setup conditions must hold",
+        "distractors": {
+          "plausible": [
+            "Just need grip and space",
+            "Any two conditions are enough"
+          ],
+          "trap": [
+            "Roll even at max shoulder ROM"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the Kimura grip during your roll and immediately dives for your back - how do you prevent the counter?",
-        "answer": "As you complete the roll, prioritize getting your back off the mat and your hips oriented to face them rather than simply landing flat. Immediately draw your knees to your chest to create a barrier and use your arms to frame against their shoulders, preventing them from establishing chest-to-back connection. If they are already circling behind you, turn aggressively in their direction while posting on your hands and getting your legs into play. Establishing any form of guard, even seated guard, prevents the back take."
+        "answer": "As you complete the roll, prioritize getting your back off the mat and your hips oriented to face them rather than simply landing flat. Immediately draw your knees to your chest to create a barrier and use your arms to frame against their shoulders, preventing them from establishing chest-to-back connection. If they are already circling behind you, turn aggressively in their direction while posting on your hands and getting your legs into play. Establishing any form of guard, even seated guard, prevents the back take.",
+        "answer_line": "Face them, knees up, frame arms",
+        "distractors": {
+          "plausible": [
+            "Land flat then reorient after",
+            "Turtle up to protect the back"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       },
       {
         "question": "Why is this escape considered a last-resort technique and what must you exhaust before attempting it?",
-        "answer": "The rolling escape carries inherent injury risk because it requires explosive movement while your shoulder is under significant lock pressure. Before attempting it, you must first exhaust: grip fighting to prevent the figure-four from being secured; posture recovery and arm positioning to neutralize the lock angle; hip escape to create distance and change the angle; and conventional frame-based defense to relieve pressure. Only when all these options have been tried and failed, and the submission is progressing toward a finish, should the rolling escape be considered."
+        "answer": "The rolling escape carries inherent injury risk because it requires explosive movement while your shoulder is under significant lock pressure. Before attempting it, you must first exhaust: grip fighting to prevent the figure-four from being secured; posture recovery and arm positioning to neutralize the lock angle; hip escape to create distance and change the angle; and conventional frame-based defense to relieve pressure. Only when all these options have been tried and failed, and the submission is progressing toward a finish, should the rolling escape be considered.",
+        "answer_line": "Try grip fight, hips, frames first",
+        "distractors": {
+          "plausible": [
+            "Roll first to save time",
+            "Use it as the primary defense"
+          ],
+          "trap": [
+            "Skip straight to the roll"
+          ]
+        }
       },
       {
         "question": "What body position signals that the rolling escape window has closed and you must tap?",
         "answer": "Tap immediately once your shoulder hits its range limit, you are flattened out, your arm is driven behind your back, or you cannot tuck your chin. Specifically: joint compression or sharp pain at the shoulder's range of motion limit; complete flattening that eliminates your ability to generate rolling momentum; the arm driven behind your back at an extreme angle where rolling would worsen the lock geometry; or the opponent's head or shoulder positioning blocking your rotation path so you cannot tuck your chin properly. The escape window closes when explosive forward movement is no longer possible without causing immediate joint damage.",
         "distractors": {
           "plausible": [
-            "Tap only when you feel actual sharp pain in the shoulder; positional signals alone do not mean the escape window has closed.",
-            "Being flattened means you should tap, but joint compression at end range still leaves you enough time to attempt the roll."
+            "Grip feels slightly tighter",
+            "Opponent shifts their hips"
           ],
           "trap": [
-            "Never tap while any roll is physically possible; an explosive rotation at end range always beats conceding the submission."
+            "Keep fighting for the roll"
           ]
-        }
+        },
+        "answer_line": "Flattened out, can't tuck chin"
       },
       {
         "question": "How does the direction of your roll relate to the direction of the Kimura force, and why does this matter?",
-        "answer": "You roll forward over your trapped shoulder, which means you are rotating in the same direction that the Kimura lock is driving your arm. This is counterintuitive because it feels like rolling into the submission. However, the Kimura's finishing mechanics require your body to remain stationary while your arm rotates behind your back. By rotating your entire body in the same direction, you eliminate the differential between arm rotation and body position, temporarily neutralizing the lock's leverage. Rolling in any other direction would increase the angle disparity and worsen the submission."
+        "answer": "You roll forward over your trapped shoulder, which means you are rotating in the same direction that the Kimura lock is driving your arm. This is counterintuitive because it feels like rolling into the submission. However, the Kimura's finishing mechanics require your body to remain stationary while your arm rotates behind your back. By rotating your entire body in the same direction, you eliminate the differential between arm rotation and body position, temporarily neutralizing the lock's leverage. Rolling in any other direction would increase the angle disparity and worsen the submission.",
+        "answer_line": "Roll same direction as the lock",
+        "distractors": {
+          "plausible": [
+            "Roll opposite the lock's force",
+            "Roll sideways away from grip"
+          ],
+          "trap": [
+            "Roll backward out of the lock"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Rolling Kimura Escape is one of the highest-risk defensive techniques in Brazilian Jiu-Jitsu due to the combination of shoulder joint stress and dynamic rolling mechanics. This escape should ONLY be practiced with experienced training partners who understand the technique and can release pressure appropriately. Always ensure adequate mat space before attempting the roll. The technique requires complete commitment; hesitation mid-execution dramatically increases injury risk to both shoulder and neck. Practitioners with any shoulder injuries, instability, or previous dislocations should avoid this technique entirely and focus on alternative Kimura defenses. Never practice at full speed or pressure until rolling mechanics are mastered through hundreds of safe repetitions. Both partners must have clear communication and established tap protocols. If pressure increases rather than decreases during the escape, tap immediately. This technique is recommended only for advanced practitioners (purple belt and above) with excellent body awareness and significant mat experience.",
@@ -451,23 +524,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to attempt a rolling Kimura escape?",
-        "answer": "The earliest cues are: opponent tucks their chin sharply to their chest (protecting neck for the roll), places their free hand flat on the mat near their trapped shoulder (creating a push-off point), stops actively resisting the Kimura direction and begins shifting weight forward, and their breathing changes to a sharp preparatory exhale. These cues typically appear 1-2 seconds before the roll initiates, giving you a narrow but actionable window to adjust your base and prevent the escape."
+        "answer": "The earliest cues are: opponent tucks their chin sharply to their chest (protecting neck for the roll), places their free hand flat on the mat near their trapped shoulder (creating a push-off point), stops actively resisting the Kimura direction and begins shifting weight forward, and their breathing changes to a sharp preparatory exhale. These cues typically appear 1-2 seconds before the roll initiates, giving you a narrow but actionable window to adjust your base and prevent the escape.",
+        "answer_line": "Chin tuck and hand plants for push",
+        "distractors": {
+          "plausible": [
+            "Opponent grips tighter suddenly",
+            "Opponent stops all movement"
+          ],
+          "trap": [
+            "Opponent relaxes their grip"
+          ]
+        }
       },
       {
         "question": "Why is following the roll generally a better strategy than rigidly resisting it?",
-        "answer": "Rigidly resisting creates two problems: first, the rotational force often breaks your grip anyway, resulting in a clean escape; second, maintaining a locked submission position during uncontrolled dynamic movement creates serious injury risk for your training partner. Following the roll while maintaining grip and chest connection converts the escape into a back take opportunity, because the same rotation that relieves the Kimura angle delivers you directly behind your opponent. You trade a submission attempt for the most dominant position in BJJ."
+        "answer": "Rigidly resisting creates two problems: first, the rotational force often breaks your grip anyway, resulting in a clean escape; second, maintaining a locked submission position during uncontrolled dynamic movement creates serious injury risk for your training partner. Following the roll while maintaining grip and chest connection converts the escape into a back take opportunity, because the same rotation that relieves the Kimura angle delivers you directly behind your opponent. You trade a submission attempt for the most dominant position in BJJ.",
+        "answer_line": "Follow roll, take their back",
+        "distractors": {
+          "plausible": [
+            "Resist to save the grip fully",
+            "Break contact and reset guard"
+          ],
+          "trap": [
+            "Fight the rotation to hold lock"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates the roll and your Kimura grip begins slipping - what is the correct decision sequence?",
-        "answer": "First, attempt to maintain the grip by tightening your figure-four and staying connected to their body as they rotate. If the grip continues slipping despite your efforts, immediately redirect your energy toward positional control rather than fighting a losing grip battle. Drive your chest into their back and work to insert hooks for back control, or collapse your weight over their centerline to establish mount. The key principle is recognizing the transition point from submission hunting to position hunting within the first half-second of grip failure."
+        "answer": "First, attempt to maintain the grip by tightening your figure-four and staying connected to their body as they rotate. If the grip continues slipping despite your efforts, immediately redirect your energy toward positional control rather than fighting a losing grip battle. Drive your chest into their back and work to insert hooks for back control, or collapse your weight over their centerline to establish mount. The key principle is recognizing the transition point from submission hunting to position hunting within the first half-second of grip failure.",
+        "answer_line": "Try grip, then chase back control",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the grip forever",
+            "Release and reset to neutral"
+          ],
+          "trap": [
+            "Chase the arm, ignore position"
+          ]
+        }
       },
       {
         "question": "How should you adjust your Kimura finishing mechanics to prevent the rolling escape from being viable?",
-        "answer": "Apply finishing pressure through proper arm mechanics and hip positioning rather than driving your entire body weight forward. Keep your base wide with hips low, which removes the forward momentum that the rolling escape exploits. Finish by rotating their wrist toward their spine using your figure-four grip mechanics while your body remains balanced, not by driving forward. This denies the opponent the forward weight commitment they need to power the roll and forces them to rely on less effective conventional escape methods."
+        "answer": "Apply finishing pressure through proper arm mechanics and hip positioning rather than driving your entire body weight forward. Keep your base wide with hips low, which removes the forward momentum that the rolling escape exploits. Finish by rotating their wrist toward their spine using your figure-four grip mechanics while your body remains balanced, not by driving forward. This denies the opponent the forward weight commitment they need to power the roll and forces them to rely on less effective conventional escape methods.",
+        "answer_line": "Keep base wide, hips low, no lean",
+        "distractors": {
+          "plausible": [
+            "Drive weight forward for power",
+            "Widen base but lean forward"
+          ],
+          "trap": [
+            "Lean full weight into the finish"
+          ]
+        }
       },
       {
         "question": "Your opponent completes the roll and breaks your Kimura grip, but you maintained chest contact throughout - what position should you be in?",
-        "answer": "If you maintained chest-to-back contact throughout the roll, you should be directly behind your opponent in a back control position. Immediately insert your hooks inside their thighs and transition your arms from the broken Kimura grip to a seatbelt configuration (one arm over their shoulder, one under their armpit). The opponent expected to land in open guard facing you, but your connection through the roll means they land with you attached to their back. This is the highest-value counter to the rolling escape and why following rather than resisting is the superior strategy."
+        "answer": "If you maintained chest-to-back contact throughout the roll, you should be directly behind your opponent in a back control position. Immediately insert your hooks inside their thighs and transition your arms from the broken Kimura grip to a seatbelt configuration (one arm over their shoulder, one under their armpit). The opponent expected to land in open guard facing you, but your connection through the roll means they land with you attached to their back. This is the highest-value counter to the rolling escape and why following rather than resisting is the superior strategy.",
+        "answer_line": "Insert hooks, get seatbelt grip",
+        "distractors": {
+          "plausible": [
+            "Reset to open guard facing them",
+            "Chase the broken Kimura grip"
+          ],
+          "trap": [
+            "Let go and stand up to reset"
+          ]
+        }
       }
     ],
     "training_progressions": [

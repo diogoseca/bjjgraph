@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What is the critical directional principle when executing a counter rotation from a toe hold?",
-        "answer": "You must rotate your entire body in the same direction that the opponent is rotating your foot. This eliminates the rotational differential between your foot and body, which is what creates the submission torque. Rotating in the opposite direction would catastrophically increase the torque on your ankle and accelerate injury. Take one to two seconds to identify the rotational direction before committing to the movement."
+        "answer": "You must rotate your entire body in the same direction that the opponent is rotating your foot. This eliminates the rotational differential between your foot and body, which is what creates the submission torque. Rotating in the opposite direction would catastrophically increase the torque on your ankle and accelerate injury. Take one to two seconds to identify the rotational direction before committing to the movement.",
+        "answer_line": "Rotate same way as your foot",
+        "distractors": {
+          "plausible": [
+            "Pull straight out of the hold",
+            "React the instant pressure hits"
+          ],
+          "trap": [
+            "Rotate the opposite direction"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep toe hold grip and begins applying moderate rotational pressure - what determines whether you should attempt counter rotation or tap?",
-        "answer": "The determining factor is whether the submission has reached maximum locked torque. Counter rotation must be initiated before the toe hold is fully locked at peak pressure. If you feel the joint is at or near its rotational limit with significant pain and no room for movement, tap immediately. The technique requires anticipatory timing during the pressure build-up phase, not reactive movement through an already-locked submission."
+        "answer": "The determining factor is whether the submission has reached maximum locked torque. Counter rotation must be initiated before the toe hold is fully locked at peak pressure. If you feel the joint is at or near its rotational limit with significant pain and no room for movement, tap immediately. The technique requires anticipatory timing during the pressure build-up phase, not reactive movement through an already-locked submission.",
+        "answer_line": "Act before the lock peaks",
+        "distractors": {
+          "plausible": [
+            "Wait until pressure peaks first",
+            "Go once the grip feels deep"
+          ],
+          "trap": [
+            "Push through a fully locked hold"
+          ]
+        }
       },
       {
         "question": "Why is hooking the opponent's leg with your free leg during rotation essential rather than optional?",
-        "answer": "Without the free leg hook, your rotation relieves ankle pressure but leaves you disconnected from the opponent in open space. The opponent can immediately re-engage with a fresh attack from a superior angle, negating your escape entirely. The hook creates the 50-50 entanglement that converts your defensive rotation into a positional transition, giving you equal standing rather than simply momentary freedom."
+        "answer": "Without the free leg hook, your rotation relieves ankle pressure but leaves you disconnected from the opponent in open space. The opponent can immediately re-engage with a fresh attack from a superior angle, negating your escape entirely. The hook creates the 50-50 entanglement that converts your defensive rotation into a positional transition, giving you equal standing rather than simply momentary freedom.",
+        "answer_line": "Hook the leg to lock 50-50",
+        "distractors": {
+          "plausible": [
+            "Optional if rotation is fast",
+            "Only needed if they resist"
+          ],
+          "trap": [
+            "Skip the hook, create space"
+          ]
+        }
       },
       {
         "question": "You begin counter rotating but feel the opponent release their toe hold grip and start threading their leg across your hip line - what is happening and how do you respond?",
-        "answer": "The opponent is abandoning the toe hold to transition into the saddle position, which is significantly more dangerous as it exposes you to inside heel hook attacks. Immediately stop your rotation and focus on preventing the far hook by using your free leg to block their leg from crossing your hip line. Prioritize inside position control over completing the rotation. If you can prevent full saddle establishment, work back to half guard or open guard instead."
+        "answer": "The opponent is abandoning the toe hold to transition into the saddle position, which is significantly more dangerous as it exposes you to inside heel hook attacks. Immediately stop your rotation and focus on preventing the far hook by using your free leg to block their leg from crossing your hip line. Prioritize inside position control over completing the rotation. If you can prevent full saddle establishment, work back to half guard or open guard instead.",
+        "answer_line": "Block the far hook, stop rotating",
+        "distractors": {
+          "plausible": [
+            "Keep rotating to finish escape",
+            "Grab a fresh toe hold grip"
+          ],
+          "trap": [
+            "Let them cross, fight after"
+          ]
+        }
       },
       {
         "question": "What role does hip rotation play compared to upper body rotation in this technique?",
-        "answer": "Hip rotation is the primary engine of the entire technique. The ankle torque exists between your foot and your lower body, so the hips must rotate to neutralize it. Upper body rotation alone does not transfer to the trapped foot and leaves the toe hold pressure completely intact. The correct sequence is hip-first rotation that carries through the entire kinetic chain, with the upper body following the hips rather than leading the movement."
+        "answer": "Hip rotation is the primary engine of the entire technique. The ankle torque exists between your foot and your lower body, so the hips must rotate to neutralize it. Upper body rotation alone does not transfer to the trapped foot and leaves the toe hold pressure completely intact. The correct sequence is hip-first rotation that carries through the entire kinetic chain, with the upper body following the hips rather than leading the movement.",
+        "answer_line": "Hips lead the rotation",
+        "distractors": {
+          "plausible": [
+            "Shoulders lead, hips follow",
+            "Rotate hips and arms together"
+          ],
+          "trap": [
+            "Twist upper body, hips still"
+          ]
+        }
       },
       {
         "question": "After completing the counter rotation into 50-50, what is your immediate priority?",
-        "answer": "Establish controlling grips on the opponent's heel and ankle before they establish grips on yours. Whoever achieves superior grip control in 50-50 has the offensive initiative and first-attack advantage. Target their heel with a cupping grip while controlling the ankle with your second hand. Do not settle passively into 50-50 or you surrender the positional advantage you gained by successfully escaping the toe hold."
+        "answer": "Establish controlling grips on the opponent's heel and ankle before they establish grips on yours. Whoever achieves superior grip control in 50-50 has the offensive initiative and first-attack advantage. Target their heel with a cupping grip while controlling the ankle with your second hand. Do not settle passively into 50-50 or you surrender the positional advantage you gained by successfully escaping the toe hold.",
+        "answer_line": "Grip their heel and ankle first",
+        "distractors": {
+          "plausible": [
+            "Reset your base before gripping",
+            "Control their hip to stall"
+          ],
+          "trap": [
+            "Settle passively into position"
+          ]
+        }
       },
       {
         "question": "How do you control rotation speed to avoid overshooting the 50-50 position?",
-        "answer": "Use your posted arm as a braking mechanism and engage your core to regulate rotational momentum. The goal is arriving precisely in 50-50 configuration where your legs symmetrically mirror the opponent's entanglement. Overshooting exposes your back or creates worse entanglements like saddle. Practice stopping at the exact mirror point during drilling, developing proprioceptive awareness of where 50-50 exists in the rotational arc."
+        "answer": "Use your posted arm as a braking mechanism and engage your core to regulate rotational momentum. The goal is arriving precisely in 50-50 configuration where your legs symmetrically mirror the opponent's entanglement. Overshooting exposes your back or creates worse entanglements like saddle. Practice stopping at the exact mirror point during drilling, developing proprioceptive awareness of where 50-50 exists in the rotational arc.",
+        "answer_line": "Post arm, brace core to brake",
+        "distractors": {
+          "plausible": [
+            "Rotate as fast as you can",
+            "Let momentum carry you through"
+          ],
+          "trap": [
+            "Rotate past 50-50 into saddle"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks your hip rotation by posting their free hand on your knee - how do you adjust?",
-        "answer": "Use your near-side hand to strip the blocking grip from your knee before recommitting to the rotation. If grip stripping fails on the first attempt, redirect your rotational vector by bridging over your opposite shoulder instead of rotating flat along the mat surface. The hip block only works against one rotational plane, so changing the elevation and angle of your rotation bypasses the block through a different movement pathway."
+        "answer": "Use your near-side hand to strip the blocking grip from your knee before recommitting to the rotation. If grip stripping fails on the first attempt, redirect your rotational vector by bridging over your opposite shoulder instead of rotating flat along the mat surface. The hip block only works against one rotational plane, so changing the elevation and angle of your rotation bypasses the block through a different movement pathway.",
+        "answer_line": "Strip the grip, then rotate",
+        "distractors": {
+          "plausible": [
+            "Push through the blocked angle",
+            "Switch your rotation direction"
+          ],
+          "trap": [
+            "Stop rotating, reset to neutral"
+          ]
+        }
       }
     ],
     "safety_considerations": "Counter Rotation from Toe Hold involves dynamic movement through an active joint lock scenario, creating significant injury potential if executed with poor timing or incorrect direction. Always rotate in the same direction as the pressure - opposite rotation can cause immediate ankle ligament damage. Never attempt this technique when the toe hold is fully locked at maximum torque; tap instead. During training, partners should apply toe hold pressure gradually and communicate clearly about pressure levels. Both practitioners must prioritize joint safety over positional outcomes, maintaining a tap-early culture when practicing this technique.",
@@ -399,19 +479,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a counter rotation?",
-        "answer": "The earliest cue is their hips beginning to rotate in the same direction as your toe hold pressure, combined with them posting on their near-side arm to create a pivot point. Before the full body rotation commits, you will feel a sudden decrease in resistance against your grip as they stop fighting the rotation and prepare to move with it. This window of recognition is typically one to two seconds before full commitment."
+        "answer": "The earliest cue is their hips beginning to rotate in the same direction as your toe hold pressure, combined with them posting on their near-side arm to create a pivot point. Before the full body rotation commits, you will feel a sudden decrease in resistance against your grip as they stop fighting the rotation and prepare to move with it. This window of recognition is typically one to two seconds before full commitment.",
+        "answer_line": "Hips turn with pressure, arm posts",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in resistance",
+            "They grab your far collar"
+          ],
+          "trap": [
+            "Wait for a verbal tap warning"
+          ]
+        }
       },
       {
         "question": "Your opponent begins counter rotating and your toe hold grip is losing effectiveness - should you tighten the grip or transition?",
-        "answer": "Transition rather than tighten. Once the counter rotation has neutralized the angular relationship between your grip and their ankle, increasing grip pressure creates dangerous and unpredictable force vectors without improving submission probability. Instead, use their rotation as a transition opportunity to thread your leg into saddle position, which converts their escape attempt into a worse entanglement for them."
+        "answer": "Transition rather than tighten. Once the counter rotation has neutralized the angular relationship between your grip and their ankle, increasing grip pressure creates dangerous and unpredictable force vectors without improving submission probability. Instead, use their rotation as a transition opportunity to thread your leg into saddle position, which converts their escape attempt into a worse entanglement for them.",
+        "answer_line": "Transition to saddle, don't tighten",
+        "distractors": {
+          "plausible": [
+            "Tighten grip and hold position",
+            "Reset to a fresh figure-four"
+          ],
+          "trap": [
+            "Crank harder for a fast finish"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from establishing the 50-50 hook with their free leg during counter rotation?",
-        "answer": "Use your hip positioning and free leg to block their free leg from hooking around your leg during the rotation. Position your hip close to their rotating body to limit the space available for their hook, and use your non-entangled leg to actively push their free leg away or pin it against the mat. Denying this hook prevents the 50-50 structure from forming and keeps you in a dominant entanglement position."
+        "answer": "Use your hip positioning and free leg to block their free leg from hooking around your leg during the rotation. Position your hip close to their rotating body to limit the space available for their hook, and use your non-entangled leg to actively push their free leg away or pin it against the mat. Denying this hook prevents the 50-50 structure from forming and keeps you in a dominant entanglement position.",
+        "answer_line": "Block leg with hip and knee",
+        "distractors": {
+          "plausible": [
+            "Speed up your own rotation",
+            "Grab their far ankle first"
+          ],
+          "trap": [
+            "Let them hook, fight after"
+          ]
+        }
       },
       {
         "question": "Why is following the rotation with your own body sometimes the best defensive response?",
-        "answer": "Following the rotation preserves the angular relationship between your figure-four grip and their ankle, which is what creates the submission torque. If you remain stationary while they rotate, the angle changes and your grip loses effectiveness. By rotating with them, you maintain the same relative positioning even though both bodies have moved, keeping your toe hold threat alive from a new absolute angle on the mat."
+        "answer": "Following the rotation preserves the angular relationship between your figure-four grip and their ankle, which is what creates the submission torque. If you remain stationary while they rotate, the angle changes and your grip loses effectiveness. By rotating with them, you maintain the same relative positioning even though both bodies have moved, keeping your toe hold threat alive from a new absolute angle on the mat.",
+        "answer_line": "Keeps grip angle, saves toe hold",
+        "distractors": {
+          "plausible": [
+            "Stay still, rely on grip strength",
+            "Release grip, reset to guard"
+          ],
+          "trap": [
+            "Fight the rotation, hold ground"
+          ]
+        }
       }
     ],
     "training_progressions": [

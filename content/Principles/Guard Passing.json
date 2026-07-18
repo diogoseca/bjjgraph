@@ -403,43 +403,143 @@
   "flashcards": [
     {
       "question": "What is the single best predictor of guard passing success before any movement begins?",
-      "answer": "Grip dominance—winning the grip-fighting exchange typically determines whether a pass succeeds or fails, because superior grips let you control posture, distance, and the opponent's hips before passing even starts."
+      "answer": "Grip dominance—winning the grip-fighting exchange typically determines whether a pass succeeds or fails, because superior grips let you control posture, distance, and the opponent's hips before passing even starts.",
+      "answer_line": "Grip dominance",
+      "distractors": {
+        "plausible": [
+          "Superior athleticism",
+          "Speed of first movement"
+        ],
+        "trap": [
+          "Rushing straight to legs"
+        ]
+      }
     },
     {
       "question": "Why should you control the opponent's hips before clearing their legs?",
-      "answer": "Hip mobility is the primary engine of guard retention; if the hips stay free the opponent re-pommels and recovers guard despite cleared legs, creating endless passing cycles without consolidation."
+      "answer": "Hip mobility is the primary engine of guard retention; if the hips stay free the opponent re-pommels and recovers guard despite cleared legs, creating endless passing cycles without consolidation.",
+      "answer_line": "Hips drive guard recovery",
+      "distractors": {
+        "plausible": [
+          "Legs cause most sweeps",
+          "Clearing legs traps hips"
+        ],
+        "trap": [
+          "Clear legs first, hips later"
+        ]
+      }
     },
     {
       "question": "How do you decide which pressure type to apply against a given guard?",
-      "answer": "Match pressure to the guard's retention mechanics: heavy smashing pressure collapses connected guards like closed and half guard, while light floating pressure beats mobility-based guards such as De La Riva and spider that feed off your weight."
+      "answer": "Match pressure to the guard's retention mechanics: heavy smashing pressure collapses connected guards like closed and half guard, while light floating pressure beats mobility-based guards such as De La Riva and spider that feed off your weight.",
+      "answer_line": "Match pressure to guard type",
+      "distractors": {
+        "plausible": [
+          "Always use heavy pressure",
+          "Always float, never smash"
+        ],
+        "trap": [
+          "Same pressure for every guard"
+        ]
+      }
     },
     {
       "question": "What is the correct response when a passing attempt stalls against strong resistance?",
-      "answer": "Commit long enough to read the defense, but if the approach is genuinely shut down, switch to an alternative passing system rather than abandoning instantly or grinding a dead pass—balance persistence with strategic change."
+      "answer": "Commit long enough to read the defense, but if the approach is genuinely shut down, switch to an alternative passing system rather than abandoning instantly or grinding a dead pass—balance persistence with strategic change.",
+      "answer_line": "Switch systems if truly stuck",
+      "distractors": {
+        "plausible": [
+          "Abandon immediately, switch guard",
+          "Grind the same pass harder"
+        ],
+        "trap": [
+          "Force it through and overcommit"
+        ]
+      }
     },
     {
       "question": "Why is consolidating each passing stage more efficient than rushing to side control?",
-      "answer": "Skipping consolidation leaves control gaps the opponent exploits to recover guard, wasting energy on repeated cycles; methodical stage-by-stage control actually accelerates overall passing by preventing re-guards."
+      "answer": "Skipping consolidation leaves control gaps the opponent exploits to recover guard, wasting energy on repeated cycles; methodical stage-by-stage control actually accelerates overall passing by preventing re-guards.",
+      "answer_line": "Prevents costly re-guards",
+      "distractors": {
+        "plausible": [
+          "Rushing is always faster",
+          "Consolidation wastes time"
+        ],
+        "trap": [
+          "Skip control, sprint to mount"
+        ]
+      }
     },
     {
       "question": "What does the Headquarters position represent in a passing sequence?",
-      "answer": "Headquarters is a critical intermediate passing stage where hip control, base, and leg management converge, serving as a launch point for knee slice, leg drag, or back-step passes before final side control consolidation."
+      "answer": "Headquarters is a critical intermediate passing stage where hip control, base, and leg management converge, serving as a launch point for knee slice, leg drag, or back-step passes before final side control consolidation.",
+      "answer_line": "Key mid-pass control hub",
+      "distractors": {
+        "plausible": [
+          "Final pass consolidation",
+          "Starting grip-fighting phase"
+        ],
+        "trap": [
+          "Optional position to skip"
+        ]
+      }
     },
     {
       "question": "How does maintaining base relate to passing offense?",
-      "answer": "Base is the prerequisite that prevents sweeps during advancement; without a stable wide base and managed weight distribution, the opponent reverses you mid-pass regardless of your technical passing knowledge."
+      "answer": "Base is the prerequisite that prevents sweeps during advancement; without a stable wide base and managed weight distribution, the opponent reverses you mid-pass regardless of your technical passing knowledge.",
+      "answer_line": "Base prevents being swept",
+      "distractors": {
+        "plausible": [
+          "Base only matters in mount",
+          "Narrow base speeds passing"
+        ],
+        "trap": [
+          "Sacrifice base for speed"
+        ]
+      }
     },
     {
       "question": "Why does using the same pass against every guard limit a passer's effectiveness?",
-      "answer": "Each guard has distinct retention mechanics, so a pass that beats one guard fails against another; elite passers carry a varied arsenal and select the approach matched to the specific guard type they face."
+      "answer": "Each guard has distinct retention mechanics, so a pass that beats one guard fails against another; elite passers carry a varied arsenal and select the approach matched to the specific guard type they face.",
+      "answer_line": "Each guard needs different pass",
+      "distractors": {
+        "plausible": [
+          "One pass masters all guards",
+          "Guard type rarely matters"
+        ],
+        "trap": [
+          "Force favorite pass regardless"
+        ]
+      }
     },
     {
       "question": "What is the role of posture while inside an opponent's guard?",
-      "answer": "Maintaining upright spinal alignment and structural integrity prevents the forward collapse that fuels guard attacks like chokes, armbars, and sweeps, keeping you safe while preserving the mobility needed to pass."
+      "answer": "Maintaining upright spinal alignment and structural integrity prevents the forward collapse that fuels guard attacks like chokes, armbars, and sweeps, keeping you safe while preserving the mobility needed to pass.",
+      "answer_line": "Posture blocks guard attacks",
+      "distractors": {
+        "plausible": [
+          "Posture only aids passing speed",
+          "Posture matters after passing"
+        ],
+        "trap": [
+          "Collapse forward for pressure"
+        ]
+      }
     },
     {
       "question": "How should a passer treat the transition from a successful pass to a submission?",
-      "answer": "Prioritize position over submission—secure and consolidate side control or mount with hip control and base before hunting submissions, since premature attacking opens escape and re-guard opportunities."
+      "answer": "Prioritize position over submission—secure and consolidate side control or mount with hip control and base before hunting submissions, since premature attacking opens escape and re-guard opportunities.",
+      "answer_line": "Secure position before submitting",
+      "distractors": {
+        "plausible": [
+          "Attack submission immediately",
+          "Submission and position equal"
+        ],
+        "trap": [
+          "Abandon control, hunt the tap"
+        ]
+      }
     }
   ],
   "clips": [

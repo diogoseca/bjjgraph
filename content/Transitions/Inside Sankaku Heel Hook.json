@@ -256,35 +256,115 @@
     "flashcards": [
       {
         "question": "Your opponent is actively hiding their heel by pressing it against their hip—what systematic approach do you use to force exposure?",
-        "answer": "Apply steady forward hip pressure to create tension on their hip flexor, making the hidden position exhausting to maintain. Simultaneously use your inside leg to slightly elevate their knee, which changes the angle and makes heel hiding harder. If they maintain the hide, threaten a toe hold by grabbing their toes—this forces them to address a different submission vector, often momentarily exposing the heel as they adjust their defense. The key is creating a dilemma where defending one threat exposes another."
+        "answer": "Apply steady forward hip pressure to create tension on their hip flexor, making the hidden position exhausting to maintain. Simultaneously use your inside leg to slightly elevate their knee, which changes the angle and makes heel hiding harder. If they maintain the hide, threaten a toe hold by grabbing their toes—this forces them to address a different submission vector, often momentarily exposing the heel as they adjust their defense. The key is creating a dilemma where defending one threat exposes another.",
+        "answer_line": "Threaten toe hold to force exposure",
+        "distractors": {
+          "plausible": [
+            "Pry the heel out with your fingers",
+            "Wait for the opponent to tire out"
+          ],
+          "trap": [
+            "Abandon hip pressure to grab foot"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to transition from positional control to the heel hook submission attempt?",
-        "answer": "The optimal window opens when three conditions align simultaneously: your hip connection is fully established with no gap, the knee line is controlled so the opponent cannot rotate defensively, and either the heel is already exposed or you have a clear path to strip the protection. Additionally, the opponent should be in a reactive rather than proactive defensive mode—meaning they are responding to your pressure rather than executing a pre-planned escape sequence. Attempting the heel hook during an active escape attempt significantly reduces success rates."
+        "answer": "The optimal window opens when three conditions align simultaneously: your hip connection is fully established with no gap, the knee line is controlled so the opponent cannot rotate defensively, and either the heel is already exposed or you have a clear path to strip the protection. Additionally, the opponent should be in a reactive rather than proactive defensive mode—meaning they are responding to your pressure rather than executing a pre-planned escape sequence. Attempting the heel hook during an active escape attempt significantly reduces success rates.",
+        "answer_line": "All three: hip, knee, heel align",
+        "distractors": {
+          "plausible": [
+            "Attack the instant grip is secure",
+            "Go as soon as the heel is exposed"
+          ],
+          "trap": [
+            "Attack during their escape attempt"
+          ]
+        }
       },
       {
         "question": "Where exactly should your wrist blade be positioned relative to the opponent's heel anatomy for maximum breaking efficiency?",
-        "answer": "The blade (ulnar/pinky side) of your wrist should be positioned directly against the Achilles tendon at the base of the calcaneus (heel bone), sitting in the natural groove between the bottom of the calf muscle and the top of the heel. Your fingers wrap around the heel bone itself from the outside. This placement creates a fulcrum point that transmits rotational force most efficiently to the knee's ligaments. Placement too high on the calf reduces leverage, and too low on the foot shifts force away from the knee."
+        "answer": "The blade (ulnar/pinky side) of your wrist should be positioned directly against the Achilles tendon at the base of the calcaneus (heel bone), sitting in the natural groove between the bottom of the calf muscle and the top of the heel. Your fingers wrap around the heel bone itself from the outside. This placement creates a fulcrum point that transmits rotational force most efficiently to the knee's ligaments. Placement too high on the calf reduces leverage, and too low on the foot shifts force away from the knee.",
+        "answer_line": "Ulnar wrist in Achilles/heel groove",
+        "distractors": {
+          "plausible": [
+            "Blade placed high on the calf",
+            "Blade placed low on the foot"
+          ],
+          "trap": [
+            "Grip toes and pull straight up"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your primary grip hand off their heel—what is your immediate response?",
-        "answer": "Immediately re-grip with the same hand from a different angle or switch to the opposite hand as the new primary grip. If they committed both hands to strip your grip, their legs and hips are momentarily undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible due to bodyweight pressure. Never chase a lost grip with the same approach that was just defeated. Change the angle, change the hand, or change the finishing variant."
+        "answer": "Immediately re-grip with the same hand from a different angle or switch to the opposite hand as the new primary grip. If they committed both hands to strip your grip, their legs and hips are momentarily undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible due to bodyweight pressure. Never chase a lost grip with the same approach that was just defeated. Change the angle, change the hand, or change the finishing variant.",
+        "answer_line": "Switch hand or angle, don't chase",
+        "distractors": {
+          "plausible": [
+            "Immediately shift to belly-down",
+            "Re-grip the exact same way"
+          ],
+          "trap": [
+            "Chase the grip with same hand"
+          ]
+        }
       },
       {
         "question": "What critical mechanical detail distinguishes a properly applied inside heel hook from an ineffective one?",
-        "answer": "The critical distinction is rotational alignment perpendicular to the knee's natural bending axis. A properly applied inside heel hook rotates the heel away from the knee in the direction that loads the MCL and ACL—specifically, the heel rotates laterally while the knee is prevented from following. An ineffective attempt applies force along the knee's natural bending plane (flexion/extension) rather than against its rotational resistance. The entanglement must prevent the opponent from rotating their entire body with the force, so knee line control is inseparable from the submission mechanics."
+        "answer": "The critical distinction is rotational alignment perpendicular to the knee's natural bending axis. A properly applied inside heel hook rotates the heel away from the knee in the direction that loads the MCL and ACL—specifically, the heel rotates laterally while the knee is prevented from following. An ineffective attempt applies force along the knee's natural bending plane (flexion/extension) rather than against its rotational resistance. The entanglement must prevent the opponent from rotating their entire body with the force, so knee line control is inseparable from the submission mechanics.",
+        "answer_line": "Rotate perpendicular to knee's bend",
+        "distractors": {
+          "plausible": [
+            "Maximum grip strength alone",
+            "Rotate the heel toward the knee"
+          ],
+          "trap": [
+            "Force along the bending plane"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a rolling escape by dipping their shoulder and loading their hip to rotate—how do you respond?",
-        "answer": "Immediately drive your weight down into the entanglement by pulling their trapped knee tighter to your body with your legs. Use your outside hand to post on the mat or grab their far hip to block the rotation before it develops momentum. If they commit fully to the roll, follow the rolling motion while maintaining your grip—their roll can actually improve your finishing angle as it often transitions the position toward Saddle where you have even tighter control. The key is reading the roll early from the shoulder and hip loading cues rather than reacting after it's initiated."
+        "answer": "Immediately drive your weight down into the entanglement by pulling their trapped knee tighter to your body with your legs. Use your outside hand to post on the mat or grab their far hip to block the rotation before it develops momentum. If they commit fully to the roll, follow the rolling motion while maintaining your grip—their roll can actually improve your finishing angle as it often transitions the position toward Saddle where you have even tighter control. The key is reading the roll early from the shoulder and hip loading cues rather than reacting after it's initiated.",
+        "answer_line": "Drive weight down, block rotation",
+        "distractors": {
+          "plausible": [
+            "Release and re-establish position",
+            "Wait for the roll to finish"
+          ],
+          "trap": [
+            "Let go to avoid getting rolled"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you use for the two-on-one reinforcement and why is it superior to a single-hand grip?",
-        "answer": "The two-on-one uses your secondary hand gripping your primary hand's wrist in either a monkey grip or gable grip, doubling effective grip strength at the contact point. This is superior because the heel hook requires maintaining grip against the opponent's entire body rotating defensively, which generates forces that overwhelm any single-hand grip. The reinforcement also creates a rigid structure that transmits rotational force more efficiently from your core to the heel. Without reinforcement, the defender can defeat the submission through simple two-on-one grip fighting against your single gripping hand."
+        "answer": "The two-on-one uses your secondary hand gripping your primary hand's wrist in either a monkey grip or gable grip, doubling effective grip strength at the contact point. This is superior because the heel hook requires maintaining grip against the opponent's entire body rotating defensively, which generates forces that overwhelm any single-hand grip. The reinforcement also creates a rigid structure that transmits rotational force more efficiently from your core to the heel. Without reinforcement, the defender can defeat the submission through simple two-on-one grip fighting against your single gripping hand.",
+        "answer_line": "Monkey/gable grip reinforces wrist",
+        "distractors": {
+          "plausible": [
+            "Single hand grip, free hand posts",
+            "Interlock fingers for max grip"
+          ],
+          "trap": [
+            "Release primary grip to re-angle"
+          ]
+        }
       },
       {
         "question": "When finishing the heel hook, should the force come primarily from your arms or from a different part of your body?",
-        "answer": "The rotational force should come primarily from your core and back, not your arms. The arms function as transmission cables connecting your core's rotational power to the heel, not as the force generators themselves. The finish is executed by arching your back and rotating your shoulders away from the opponent while your arms maintain a rigid, tight connection. Arms fatigue rapidly under load and generate significantly less force than the core musculature. Keeping elbows tight to the body ensures efficient force transfer from the larger muscle groups through to the submission point."
+        "answer": "The rotational force should come primarily from your core and back, not your arms. The arms function as transmission cables connecting your core's rotational power to the heel, not as the force generators themselves. The finish is executed by arching your back and rotating your shoulders away from the opponent while your arms maintain a rigid, tight connection. Arms fatigue rapidly under load and generate significantly less force than the core musculature. Keeping elbows tight to the body ensures efficient force transfer from the larger muscle groups through to the submission point.",
+        "answer_line": "Core and back, arms just transmit",
+        "distractors": {
+          "plausible": [
+            "Arms curl the heel toward you",
+            "Shoulders alone generate the force"
+          ],
+          "trap": [
+            "Yank hard with just your arms"
+          ]
+        }
       }
     ],
     "safety_considerations": "The inside heel hook is among the most dangerous techniques in grappling, targeting the MCL, ACL, and meniscus through rotational force that can cause catastrophic, career-ending injury in milliseconds. Always apply force progressively and slowly in training, never explosively. Release immediately upon any tap signal—verbal, physical, or ambiguous. Train heel hooks only with experienced partners who understand the submission's danger. Beginners should drill grip placement without any force application until mechanics are automatic. In competition, apply with control appropriate to the level of competition. Never hold the submission after the tap. If you feel the knee give before your partner taps, release immediately.",
@@ -407,11 +487,31 @@
     "flashcards": [
       {
         "question": "What is the correct defensive priority sequence when trapped in Inside Sankaku facing a heel hook attempt?",
-        "answer": "The correct priority sequence is: (1) Protect the heel immediately by hiding it against your own hip with toes turned inward, (2) Fight any grips the opponent establishes using two-on-one grip stripping, (3) Work on positional escape through hip movement and leg extraction only after the submission threat is neutralized. Reversing this order—attempting escape before protecting the heel—is the most common cause of injury from heel hooks because the heel becomes exposed during escape movements."
+        "answer": "The correct priority sequence is: (1) Protect the heel immediately by hiding it against your own hip with toes turned inward, (2) Fight any grips the opponent establishes using two-on-one grip stripping, (3) Work on positional escape through hip movement and leg extraction only after the submission threat is neutralized. Reversing this order—attempting escape before protecting the heel—is the most common cause of injury from heel hooks because the heel becomes exposed during escape movements.",
+        "answer_line": "Protect heel first, then escape",
+        "distractors": {
+          "plausible": [
+            "Escape first, protect heel after",
+            "Strip grips before protecting heel"
+          ],
+          "trap": [
+            "Rush hip movement to escape now"
+          ]
+        }
       },
       {
         "question": "Your opponent has a wrist blade grip against your Achilles and their second hand is reaching for reinforcement—what do you do?",
-        "answer": "This is the critical intervention window. Use both hands immediately to strip their primary gripping hand before the two-on-one is established. Target their wrist and peel it away from your Achilles by pushing their hand toward your toes and away from the Achilles groove. Once their reinforcement hand connects, the grip becomes exponentially harder to break. If you cannot strip the grip before reinforcement is established and they begin applying rotation, tap immediately—the window for safe escape has closed."
+        "answer": "This is the critical intervention window. Use both hands immediately to strip their primary gripping hand before the two-on-one is established. Target their wrist and peel it away from your Achilles by pushing their hand toward your toes and away from the Achilles groove. Once their reinforcement hand connects, the grip becomes exponentially harder to break. If you cannot strip the grip before reinforcement is established and they begin applying rotation, tap immediately—the window for safe escape has closed.",
+        "answer_line": "Strip the grip before it doubles",
+        "distractors": {
+          "plausible": [
+            "Wait and tap if rotation starts",
+            "Try to out-muscle both hands"
+          ],
+          "trap": [
+            "Turn into them to break the grip"
+          ]
+        }
       },
       {
         "question": "Why is turning into the opponent to escape Inside Sankaku the most dangerous defensive movement?",
@@ -419,7 +519,17 @@
       },
       {
         "question": "When is counter-entangling to 50-50 Guard a viable defensive strategy versus when should you focus on extraction?",
-        "answer": "Counter-entangling to 50-50 is viable when the opponent creates space between their legs during their submission attempt—typically when they overcommit to reaching for your heel with both hands. The gap allows your free leg to thread into the entanglement. Focus on extraction instead when your hips have space to move backward and the opponent's figure-four is loosening. Counter-entanglement is riskier because bringing your second leg closer to the opponent can lead to Saddle if the threading fails. Extraction is generally the safer default strategy."
+        "answer": "Counter-entangling to 50-50 is viable when the opponent creates space between their legs during their submission attempt—typically when they overcommit to reaching for your heel with both hands. The gap allows your free leg to thread into the entanglement. Focus on extraction instead when your hips have space to move backward and the opponent's figure-four is loosening. Counter-entanglement is riskier because bringing your second leg closer to the opponent can lead to Saddle if the threading fails. Extraction is generally the safer default strategy.",
+        "answer_line": "Counter only if they overcommit/gap",
+        "distractors": {
+          "plausible": [
+            "Always counter-entangle when trapped",
+            "Extract by turning into opponent"
+          ],
+          "trap": [
+            "Thread leg in whenever possible"
+          ]
+        }
       },
       {
         "question": "How do you know when it is too late to escape and you must tap?",

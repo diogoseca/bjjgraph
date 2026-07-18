@@ -233,7 +233,17 @@
       },
       {
         "question": "What is the correct direction of force application when finishing the anaconda choke?",
-        "answer": "Pull your choking elbow toward your own hip while simultaneously expanding your chest outward. This creates a scissoring action that compresses the carotid arteries. The forearm should angle approximately 45 degrees across the side of their neck - attacking blood flow rather than the windpipe. Avoid straight pushing into the throat."
+        "answer": "Pull your choking elbow toward your own hip while simultaneously expanding your chest outward. This creates a scissoring action that compresses the carotid arteries. The forearm should angle approximately 45 degrees across the side of their neck - attacking blood flow rather than the windpipe. Avoid straight pushing into the throat.",
+        "answer_line": "Pull elbow to hip, expand chest",
+        "distractors": {
+          "plausible": [
+            "Push forearm straight into windpipe",
+            "Pull elbow up toward your head"
+          ],
+          "trap": [
+            "Drive knee into their spine instead"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls their trapped arm free during your anaconda setup - what immediate adjustment do you make?",
@@ -253,7 +263,17 @@
       },
       {
         "question": "When should you transition from anaconda to back take instead of continuing the choke attempt?",
-        "answer": "Transition to back take when the opponent turns into your grip exposing their back. This defensive reaction gives you access to hooks and seat belt control for a higher-percentage position than fighting a contested choke. Also consider the transition if opponent has successfully created enough space that the choke is no longer tight, or if you're in competition and position points become valuable."
+        "answer": "Transition to back take when the opponent turns into your grip exposing their back. This defensive reaction gives you access to hooks and seat belt control for a higher-percentage position than fighting a contested choke. Also consider the transition if opponent has successfully created enough space that the choke is no longer tight, or if you're in competition and position points become valuable.",
+        "answer_line": "When they turn in, exposing the back",
+        "distractors": {
+          "plausible": [
+            "The moment the grip first connects",
+            "Only after the choke fully sinks"
+          ],
+          "trap": [
+            "When they extend the trapped arm"
+          ]
+        }
       },
       {
         "question": "What role does the gator roll play in the anaconda finishing mechanics beyond simply changing position?",
@@ -380,19 +400,59 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for defending the anaconda choke?",
-        "answer": "The most critical window is before the attacker connects their hands on the far side. Once the loop closes, escape probability drops dramatically. You must attack the threading wrist with your free hand and begin circling away from the trapped arm side immediately when you feel the arm threading under your near arm. Prevention of the completed grip is far more effective than escaping an established anaconda."
+        "answer": "The most critical window is before the attacker connects their hands on the far side. Once the loop closes, escape probability drops dramatically. You must attack the threading wrist with your free hand and begin circling away from the trapped arm side immediately when you feel the arm threading under your near arm. Prevention of the completed grip is far more effective than escaping an established anaconda.",
+        "answer_line": "Before hands connect on far side",
+        "distractors": {
+          "plausible": [
+            "Right after the roll begins",
+            "Once the squeeze starts tightening"
+          ],
+          "trap": [
+            "Wait until chest pressure arrives"
+          ]
+        }
       },
       {
         "question": "Your near arm is trapped and the attacker has locked their grip - which direction do you circle and why?",
-        "answer": "Circle away from the trapped arm side. If your right arm is trapped, circle to your left. Circling away opens the angle of the constricting loop and creates space for potential arm extraction. Circling toward the trapped side feeds into the choke by tightening the loop. While circling, your free hand should be pulling on the attacker's choking wrist or elbow to create additional space at the neck."
+        "answer": "Circle away from the trapped arm side. If your right arm is trapped, circle to your left. Circling away opens the angle of the constricting loop and creates space for potential arm extraction. Circling toward the trapped side feeds into the choke by tightening the loop. While circling, your free hand should be pulling on the attacker's choking wrist or elbow to create additional space at the neck.",
+        "answer_line": "Circle away from trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Circle toward the trapped arm side",
+            "Circle away but yank the arm free"
+          ],
+          "trap": [
+            "Turn into them to flatten their base"
+          ]
+        }
       },
       {
         "question": "The attacker begins stepping over your back for the gator roll - what is your immediate defensive response?",
-        "answer": "Post your free hand firmly on the mat or against the attacker's hip to block the step-over and deny them the angle needed to complete the roll. Simultaneously sprawl your legs back to lower your center of gravity and make the roll more difficult. If the step is already mid-flight, consider going with the roll momentum and scrambling immediately on landing rather than trying to stop a committed roll. Timing determines which response is appropriate."
+        "answer": "Post your free hand firmly on the mat or against the attacker's hip to block the step-over and deny them the angle needed to complete the roll. Simultaneously sprawl your legs back to lower your center of gravity and make the roll more difficult. If the step is already mid-flight, consider going with the roll momentum and scrambling immediately on landing rather than trying to stop a committed roll. Timing determines which response is appropriate.",
+        "answer_line": "Post free hand, sprawl legs back",
+        "distractors": {
+          "plausible": [
+            "Curl into a ball and wait it out",
+            "Pull the trapped arm out first"
+          ],
+          "trap": [
+            "Turn belly-up to block the step"
+          ]
+        }
       },
       {
         "question": "How should you manage your trapped arm to reduce the effectiveness of the anaconda choke?",
-        "answer": "Keep the trapped arm bent with your elbow pulled tight to your ribcage rather than extending it. An extended arm increases the loop size and gives the attacker more leverage for the squeeze. Try to rotate the trapped arm so the elbow points toward the ground, which changes the compression angle and reduces the mechanical advantage. Never try to yank the arm straight out through brute force, as this typically tightens the choke against you."
+        "answer": "Keep the trapped arm bent with your elbow pulled tight to your ribcage rather than extending it. An extended arm increases the loop size and gives the attacker more leverage for the squeeze. Try to rotate the trapped arm so the elbow points toward the ground, which changes the compression angle and reduces the mechanical advantage. Never try to yank the arm straight out through brute force, as this typically tightens the choke against you.",
+        "answer_line": "Bend elbow, pin it to ribcage",
+        "distractors": {
+          "plausible": [
+            "Extend the arm to create space",
+            "Rotate elbow up toward the ceiling"
+          ],
+          "trap": [
+            "Yank the arm straight out by force"
+          ]
+        }
       },
       {
         "question": "When defending the anaconda, what breathing strategy helps you survive longer under pressure?",

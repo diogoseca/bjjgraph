@@ -278,35 +278,115 @@
     "flashcards": [
       {
         "question": "What is the most critical mechanical requirement before initiating any counter throw variant from standing rear clinch?",
-        "answer": "The most critical requirement is dropping your level so your hips are below the opponent's hip line. This level change creates the fulcrum around which the throw operates. Without getting below the opponent's center of gravity, you cannot generate the mechanical advantage needed to redirect their mass, and the throw becomes a muscular fight you will likely lose against a committed rear clinch controller."
+        "answer": "The most critical requirement is dropping your level so your hips are below the opponent's hip line. This level change creates the fulcrum around which the throw operates. Without getting below the opponent's center of gravity, you cannot generate the mechanical advantage needed to redirect their mass, and the throw becomes a muscular fight you will likely lose against a committed rear clinch controller.",
+        "answer_line": "Drop level below their hips",
+        "distractors": {
+          "plausible": [
+            "Break their grip first",
+            "Turn shoulders to angle out"
+          ],
+          "trap": [
+            "Stand taller for leverage"
+          ]
+        }
       },
       {
         "question": "Your opponent has a tight body lock and heavy forward pressure on your back - which throw variant offers the highest success probability?",
-        "answer": "The lateral drop offers the highest probability against a tight body lock with forward pressure. The locked grip means the opponent cannot post or separate during the throw, and their forward pressure provides the momentum source. Drop your level, control their clasped hands, and sit through explosively to one side. Their own body lock becomes the mechanism that pulls them through the throwing arc, converting their control strength into your throwing leverage."
+        "answer": "The lateral drop offers the highest probability against a tight body lock with forward pressure. The locked grip means the opponent cannot post or separate during the throw, and their forward pressure provides the momentum source. Drop your level, control their clasped hands, and sit through explosively to one side. Their own body lock becomes the mechanism that pulls them through the throwing arc, converting their control strength into your throwing leverage.",
+        "answer_line": "Lateral drop, sit through",
+        "distractors": {
+          "plausible": [
+            "Hip throw rotation",
+            "Sacrifice throw with leg block"
+          ],
+          "trap": [
+            "Try to break the lock"
+          ]
+        }
       },
       {
         "question": "Why is half-committing to the counter throw more dangerous than either fully committing or not attempting it at all?",
-        "answer": "Half-commitment creates the worst possible outcome because you have already compromised your standing base and defensive frames without generating enough force to complete the throw. The opponent maintains their back angle and grip while you have voluntarily put yourself in a lower, more vulnerable position. This accelerates their transition from standing rear clinch to ground-based back control with hooks, which is a significantly worse defensive position than the standing clinch you started in."
+        "answer": "Half-commitment creates the worst possible outcome because you have already compromised your standing base and defensive frames without generating enough force to complete the throw. The opponent maintains their back angle and grip while you have voluntarily put yourself in a lower, more vulnerable position. This accelerates their transition from standing rear clinch to ground-based back control with hooks, which is a significantly worse defensive position than the standing clinch you started in.",
+        "answer_line": "Lets them lock ground hooks",
+        "distractors": {
+          "plausible": [
+            "Simply wastes your energy",
+            "Only telegraphs the throw"
+          ],
+          "trap": [
+            "Still safer than full commit"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to sprawl their hips backward as you initiate the level change for a hip throw - how do you adjust?",
-        "answer": "Immediately abort the hip throw and post your hands to prevent being driven facedown to the mat. The sprawl removes the forward pressure that powers the hip throw, making completion mechanically impossible. Switch to a sit-out or Peterson roll escape that works with downward pressure rather than against it. Alternatively, if the sprawl is shallow, redirect into a sacrifice throw variant that uses the downward force as the throwing mechanism rather than requiring forward momentum."
+        "answer": "Immediately abort the hip throw and post your hands to prevent being driven facedown to the mat. The sprawl removes the forward pressure that powers the hip throw, making completion mechanically impossible. Switch to a sit-out or Peterson roll escape that works with downward pressure rather than against it. Alternatively, if the sprawl is shallow, redirect into a sacrifice throw variant that uses the downward force as the throwing mechanism rather than requiring forward momentum.",
+        "answer_line": "Abort, post hands, sit-out",
+        "distractors": {
+          "plausible": [
+            "Push through the sprawl",
+            "Switch to lateral drop"
+          ],
+          "trap": [
+            "Force the hip rotation"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before initiating any counter throw, and why is this grip essential?",
-        "answer": "You must establish control of at least one of the opponent's arms or their clasped hands before throwing. This grip serves three critical functions: it prevents the opponent from posting a free hand to stop the rotation, it anchors the throwing direction by keeping the opponent connected to your rotational arc, and it protects against choke attempts during the vulnerable transition phase. Without this grip control, the throw success rate drops dramatically because the opponent can simply extend an arm and arrest the rotation."
+        "answer": "You must establish control of at least one of the opponent's arms or their clasped hands before throwing. This grip serves three critical functions: it prevents the opponent from posting a free hand to stop the rotation, it anchors the throwing direction by keeping the opponent connected to your rotational arc, and it protects against choke attempts during the vulnerable transition phase. Without this grip control, the throw success rate drops dramatically because the opponent can simply extend an arm and arrest the rotation.",
+        "answer_line": "Control an arm or their hands",
+        "distractors": {
+          "plausible": [
+            "Secure a collar tie",
+            "Grip their far ankle"
+          ],
+          "trap": [
+            "Release grips to move faster"
+          ]
+        }
       },
       {
         "question": "After successfully landing the counter throw, what is the most common error that causes practitioners to lose their positional advantage?",
-        "answer": "The most common post-throw error is releasing grip control upon landing. Practitioners treat the throw and the mount establishment as two separate techniques rather than one continuous sequence. When grips are released during landing, the opponent scrambles to turtle, recovers guard with frames, or re-establishes back control from the ground. The correction is drilling the entire throw-to-mount sequence as a single movement pattern where grips are maintained throughout and mount is established before any grip adjustment occurs."
+        "answer": "The most common post-throw error is releasing grip control upon landing. Practitioners treat the throw and the mount establishment as two separate techniques rather than one continuous sequence. When grips are released during landing, the opponent scrambles to turtle, recovers guard with frames, or re-establishes back control from the ground. The correction is drilling the entire throw-to-mount sequence as a single movement pattern where grips are maintained throughout and mount is established before any grip adjustment occurs.",
+        "answer_line": "Releasing grips on landing",
+        "distractors": {
+          "plausible": [
+            "Rushing to mount too fast",
+            "Not adjusting foot position"
+          ],
+          "trap": [
+            "Chasing a submission immediately"
+          ]
+        }
       },
       {
         "question": "How do you provoke the forward pressure needed for the counter throw when the opponent is maintaining a rear clinch with their weight sitting back on their own hips?",
-        "answer": "Initiate a convincing grip-fighting escape attempt or standing switch fake that forces the opponent to tighten their forward pressure to maintain control. As they drive forward to prevent your escape, their weight loads onto your back creating the mechanical conditions needed for the throw. The key is making the fake escape genuine enough to provoke the forward drive reaction but maintaining enough composure to immediately transition from fake escape to throw execution during the opponent's forward commitment."
+        "answer": "Initiate a convincing grip-fighting escape attempt or standing switch fake that forces the opponent to tighten their forward pressure to maintain control. As they drive forward to prevent your escape, their weight loads onto your back creating the mechanical conditions needed for the throw. The key is making the fake escape genuine enough to provoke the forward drive reaction but maintaining enough composure to immediately transition from fake escape to throw execution during the opponent's forward commitment.",
+        "answer_line": "Fake an escape to bait pressure",
+        "distractors": {
+          "plausible": [
+            "Push straight into them",
+            "Wait for them to attack"
+          ],
+          "trap": [
+            "Yank them off balance"
+          ]
+        }
       },
       {
         "question": "When facing a significantly heavier opponent in standing rear clinch, which throw variant should you prioritize and why?",
-        "answer": "The sacrifice throw (tani otoshi style) is most effective against heavier opponents because it does not require lifting or hip-loading their mass. Instead, you drop your body weight suddenly while blocking their far leg, creating a fulcrum that topples them over you using gravity rather than muscular effort. The weight difference actually becomes an advantage for the sacrifice throw because the heavier opponent has more momentum to redirect and less ability to recover balance once their base is compromised by the leg block and your sudden level drop."
+        "answer": "The sacrifice throw (tani otoshi style) is most effective against heavier opponents because it does not require lifting or hip-loading their mass. Instead, you drop your body weight suddenly while blocking their far leg, creating a fulcrum that topples them over you using gravity rather than muscular effort. The weight difference actually becomes an advantage for the sacrifice throw because the heavier opponent has more momentum to redirect and less ability to recover balance once their base is compromised by the leg block and your sudden level drop.",
+        "answer_line": "Sacrifice throw, block far leg",
+        "distractors": {
+          "plausible": [
+            "Hip throw for leverage",
+            "Lateral drop to the side"
+          ],
+          "trap": [
+            "Try to out-muscle the lift"
+          ]
+        }
       }
     ],
     "safety_considerations": "Counter throws from standing involve significant impact forces and rotational stresses that require careful training progression. Always practice on appropriate mat surfaces with sufficient padding. Begin all throw training at reduced speed with a cooperative partner until mechanics are reliable. Use crash pads for full-speed drilling of lateral drops and sacrifice throws. Both practitioners must know proper breakfall technique (ukemi) before training throws at any intensity. Be particularly cautious with the hip throw variant, as poor execution can result in the opponent landing on their head or neck. Never practice standing throws on hard surfaces or when fatigued to the point where control is compromised. The bottom player (person being thrown) should tap or verbally signal immediately if they feel their neck or spine is being loaded dangerously during any throwing attempt.",
@@ -424,19 +504,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a counter throw is being initiated from standing rear clinch?",
-        "answer": "The earliest cue is the bottom player dropping their level by bending their knees deeply. This level change is the mechanical prerequisite for every throw variant and occurs before any rotation or directional commitment. When you feel the opponent's hips dropping below your hip line while your weight is on their back, a throw is likely being set up. This is your window for prevention through sitting your own hips back."
+        "answer": "The earliest cue is the bottom player dropping their level by bending their knees deeply. This level change is the mechanical prerequisite for every throw variant and occurs before any rotation or directional commitment. When you feel the opponent's hips dropping below your hip line while your weight is on their back, a throw is likely being set up. This is your window for prevention through sitting your own hips back.",
+        "answer_line": "Their knees bend, level drops",
+        "distractors": {
+          "plausible": [
+            "They tighten grip fast",
+            "They shift feet wider"
+          ],
+          "trap": [
+            "They lean head forward"
+          ]
+        }
       },
       {
         "question": "Why is maintaining hip offset angle the most effective preventive defense against counter throws?",
-        "answer": "Hip offset angle (approximately 45 degrees to one side rather than directly behind) prevents the bottom player from creating a single clean fulcrum point for the throw. Most throw variants require loading the opponent's weight across a central axis, and the offset disrupts this alignment. The lateral drop requires weight directly behind for the sit-through, the hip throw requires the opponent centered for the rotation, and the sacrifice throw needs forward momentum. The offset compromises all three variant entries simultaneously."
+        "answer": "Hip offset angle (approximately 45 degrees to one side rather than directly behind) prevents the bottom player from creating a single clean fulcrum point for the throw. Most throw variants require loading the opponent's weight across a central axis, and the offset disrupts this alignment. The lateral drop requires weight directly behind for the sit-through, the hip throw requires the opponent centered for the rotation, and the sacrifice throw needs forward momentum. The offset compromises all three variant entries simultaneously.",
+        "answer_line": "Disrupts fulcrum for all throws",
+        "distractors": {
+          "plausible": [
+            "Makes you harder to grip",
+            "Keeps weight off their hips"
+          ],
+          "trap": [
+            "Squares up for more power"
+          ]
+        }
       },
       {
         "question": "If you cannot prevent the throw and will be taken to the ground, what should your defensive priority be during the fall?",
-        "answer": "Your priority during an unavoidable throw is maintaining chest-to-back connection with hooks and seatbelt intact throughout the fall. Accept the takedown but ensure you land in ground-based back control rather than losing all positional advantage. Keep your chin tucked and your hooks driving inward, and maintain your seatbelt grip through impact. Landing in back control on the ground is still a highly dominant position that preserves most of your advantage despite being thrown."
+        "answer": "Your priority during an unavoidable throw is maintaining chest-to-back connection with hooks and seatbelt intact throughout the fall. Accept the takedown but ensure you land in ground-based back control rather than losing all positional advantage. Keep your chin tucked and your hooks driving inward, and maintain your seatbelt grip through impact. Landing in back control on the ground is still a highly dominant position that preserves most of your advantage despite being thrown.",
+        "answer_line": "Keep seatbelt and hooks locked",
+        "distractors": {
+          "plausible": [
+            "Tuck and roll away",
+            "Brace arms to stop the fall"
+          ],
+          "trap": [
+            "Let go to protect your head"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates what appears to be a counter throw but then immediately switches to a standing switch escape in the opposite direction - how do you respond?",
-        "answer": "This is a common combination where the throw fake draws your weight backward and creates the opening for the switch. If you recognize the switch after committing to the throw defense, immediately reverse your hip direction and re-drive forward pressure to prevent the switch completion. The key is not over-committing to any single defense direction. Maintain your base wide enough that you can redirect your pressure in either direction without losing balance. Use your chest connection as the constant rather than your hip angle, which should remain adaptable."
+        "answer": "This is a common combination where the throw fake draws your weight backward and creates the opening for the switch. If you recognize the switch after committing to the throw defense, immediately reverse your hip direction and re-drive forward pressure to prevent the switch completion. The key is not over-committing to any single defense direction. Maintain your base wide enough that you can redirect your pressure in either direction without losing balance. Use your chest connection as the constant rather than your hip angle, which should remain adaptable.",
+        "answer_line": "Reverse hips, redrive forward",
+        "distractors": {
+          "plausible": [
+            "Commit harder to throw defense",
+            "Widen base and freeze"
+          ],
+          "trap": [
+            "Chase the switch direction"
+          ]
+        }
       }
     ],
     "training_progressions": [

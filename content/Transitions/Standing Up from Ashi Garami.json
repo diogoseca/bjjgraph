@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "What is the most common error when attempting to stand up from ashi garami, and why is it dangerous?",
-        "answer": "The most common error is hesitating between maintaining ashi garami control and committing to the stand-up. This half-commitment is dangerous because it abandons the offensive leg entanglement positioning without gaining the benefits of a clean standing position, leaving the practitioner in a vulnerable transitional state where they can be swept, re-entangled, or have their exposed legs attacked. Full commitment to either option is always safer than lingering between positions."
+        "answer": "The most common error is hesitating between maintaining ashi garami control and committing to the stand-up. This half-commitment is dangerous because it abandons the offensive leg entanglement positioning without gaining the benefits of a clean standing position, leaving the practitioner in a vulnerable transitional state where they can be swept, re-entangled, or have their exposed legs attacked. Full commitment to either option is always safer than lingering between positions.",
+        "answer_line": "Commit fully, never linger",
+        "distractors": {
+          "plausible": [
+            "Ease up slowly, stay flexible",
+            "Keep one hook as backup plan"
+          ],
+          "trap": [
+            "Release all control at once"
+          ]
+        }
       },
       {
         "question": "In what order should you release your hooks and connections when standing up from ashi garami?",
-        "answer": "Release secondary hooks first—typically the outside hook or foot positioning that provides least control value. Maintain your primary inside hook and any controlling grips as long as possible during the standing motion. Frames should be established before any hooks are released, and the final leg connection should be cleared last, timed with the explosive hip drive to prevent the opponent from re-catching your leg during extraction."
+        "answer": "Release secondary hooks first—typically the outside hook or foot positioning that provides least control value. Maintain your primary inside hook and any controlling grips as long as possible during the standing motion. Frames should be established before any hooks are released, and the final leg connection should be cleared last, timed with the explosive hip drive to prevent the opponent from re-catching your leg during extraction.",
+        "answer_line": "Frames first, primary hook last",
+        "distractors": {
+          "plausible": [
+            "Release primary hook first",
+            "Drop all hooks simultaneously"
+          ],
+          "trap": [
+            "Release frames before hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their hooks as you begin to stand—should you continue the stand-up or abort?",
-        "answer": "Generally abort the stand-up and immediately re-establish your ashi garami control position. Fighting against tightened hooks during the standing phase creates an awkward half-position that is worse than either ashi garami bottom or standing. The exception is if you have already created significant distance with your hip drive and only one loose hook remains—in that case, a committed final extraction may succeed if executed explosively before they can re-secure the connection."
+        "answer": "Generally abort the stand-up and immediately re-establish your ashi garami control position. Fighting against tightened hooks during the standing phase creates an awkward half-position that is worse than either ashi garami bottom or standing. The exception is if you have already created significant distance with your hip drive and only one loose hook remains—in that case, a committed final extraction may succeed if executed explosively before they can re-secure the connection.",
+        "answer_line": "Abort, re-secure ashi garami",
+        "distractors": {
+          "plausible": [
+            "Push through, finish standing",
+            "Match their grip, stall it out"
+          ],
+          "trap": [
+            "Rip free ignoring position"
+          ]
+        }
       },
       {
         "question": "Why is backward hip movement critical during the standing phase, and what happens without it?",
-        "answer": "Backward hip movement creates distance between you and the opponent, which is essential for preventing them from re-establishing guard hooks, pulling you back into entanglement, or following your standing motion with their own attacks. Without backward hip movement, rising straight up keeps you within the opponent's reach and control range, allowing them to easily re-catch your legs, sit up into your base, or establish new grips that compromise your standing position."
+        "answer": "Backward hip movement creates distance between you and the opponent, which is essential for preventing them from re-establishing guard hooks, pulling you back into entanglement, or following your standing motion with their own attacks. Without backward hip movement, rising straight up keeps you within the opponent's reach and control range, allowing them to easily re-catch your legs, sit up into your base, or establish new grips that compromise your standing position.",
+        "answer_line": "Hips back to create distance",
+        "distractors": {
+          "plausible": [
+            "Rise straight up quickly",
+            "Drive hips forward into them"
+          ],
+          "trap": [
+            "Stay close and out-muscle them"
+          ]
+        }
       },
       {
         "question": "When is standing up from ashi garami the optimal tactical choice versus continuing the leg lock exchange?",
-        "answer": "Standing up is optimal when the leg lock exchange has stalled with the opponent maintaining strong defensive positioning that prevents hierarchy advancement, when you recognize a bilateral threat where the opponent's counter-attacks are more dangerous than your offensive options, when you want to reset the engagement from a different entry angle, or when energy management considerations favor disengagement over continued ground exchange. It is not optimal when you have clear advancement pathways or finishing opportunities available."
+        "answer": "Standing up is optimal when the leg lock exchange has stalled with the opponent maintaining strong defensive positioning that prevents hierarchy advancement, when you recognize a bilateral threat where the opponent's counter-attacks are more dangerous than your offensive options, when you want to reset the engagement from a different entry angle, or when energy management considerations favor disengagement over continued ground exchange. It is not optimal when you have clear advancement pathways or finishing opportunities available.",
+        "answer_line": "When exchange stalls or is risky",
+        "distractors": {
+          "plausible": [
+            "Whenever ahead in hierarchy",
+            "As soon as fatigue starts"
+          ],
+          "trap": [
+            "When you have a finish lined up"
+          ]
+        }
       },
       {
         "question": "What frames should you establish before releasing your hooks, and where should they be placed?",
-        "answer": "Primary frames should be placed against the opponent's near hip or knee to create a structural barrier preventing them from closing distance during the standing motion. Secondary frames can be posted on the mat behind you to support the hip drive. Frames must be established before any hooks are released because they replace the control that hooks provided—without frames in place, releasing hooks gives the opponent complete freedom to immediately attack or follow your movement."
+        "answer": "Primary frames should be placed against the opponent's near hip or knee to create a structural barrier preventing them from closing distance during the standing motion. Secondary frames can be posted on the mat behind you to support the hip drive. Frames must be established before any hooks are released because they replace the control that hooks provided—without frames in place, releasing hooks gives the opponent complete freedom to immediately attack or follow your movement.",
+        "answer_line": "Frame on near hip/knee first",
+        "distractors": {
+          "plausible": [
+            "Frame on far knee only",
+            "Post hands on mat only"
+          ],
+          "trap": [
+            "Release hooks before framing"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls open guard as you complete the stand-up—how do you respond?",
-        "answer": "Accept the open guard top position rather than trying to force complete disengagement. Immediately establish passing grips on their legs or pants, maintain proper posture with hips back and chest up, and begin a systematic passing sequence. The transition from ashi garami bottom to open guard passer is a legitimate tactical outcome—you have moved from a bilateral leg lock exchange to a position where you have clear top advantage and can work methodically to advance position."
+        "answer": "Accept the open guard top position rather than trying to force complete disengagement. Immediately establish passing grips on their legs or pants, maintain proper posture with hips back and chest up, and begin a systematic passing sequence. The transition from ashi garami bottom to open guard passer is a legitimate tactical outcome—you have moved from a bilateral leg lock exchange to a position where you have clear top advantage and can work methodically to advance position.",
+        "answer_line": "Accept it, start passing guard",
+        "distractors": {
+          "plausible": [
+            "Force full disengage, back away",
+            "Drop back to ashi garami"
+          ],
+          "trap": [
+            "Sit down to re-engage legs"
+          ]
+        }
       },
       {
         "question": "What role does the standing threat play in the broader ashi garami strategic framework?",
-        "answer": "The standing threat prevents opponents from adopting purely defensive postures in ashi garami by forcing them to maintain active engagement. If an opponent knows you can simply stand up and re-engage from a different angle, they cannot rely on stalling or defensive positioning to neutralize the leg lock threat. This creates a strategic dilemma where defensive inactivity leads to positional reset on the attacker's terms, while active defense creates openings for leg lock advancement through the hierarchy."
+        "answer": "The standing threat prevents opponents from adopting purely defensive postures in ashi garami by forcing them to maintain active engagement. If an opponent knows you can simply stand up and re-engage from a different angle, they cannot rely on stalling or defensive positioning to neutralize the leg lock threat. This creates a strategic dilemma where defensive inactivity leads to positional reset on the attacker's terms, while active defense creates openings for leg lock advancement through the hierarchy.",
+        "answer_line": "Forces engagement, denies stalling",
+        "distractors": {
+          "plausible": [
+            "Only useful for escaping subs",
+            "Signals you're abandoning legs"
+          ],
+          "trap": [
+            "Lets opponent safely stall out"
+          ]
+        }
       }
     ],
     "safety_considerations": "Standing up from ashi garami carries moderate injury risk during the leg extraction phase. Avoid explosive ripping motions that could torque your own knee during extraction. If the opponent maintains a heel hook grip during your standing attempt, stop immediately and address the submission threat rather than trying to stand through it—standing with a heel hook engaged dramatically increases rotational force on the knee joint. Always tap early if you feel any heel exposure or rotational pressure during the transition. In training, communicate with your partner about the speed and intensity of standing attempts to prevent accidental knee injuries during the disengagement sequence.",
@@ -399,19 +479,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to stand up from ashi garami?",
-        "answer": "The earliest cues include the opponent posting their hands on the mat or on your body to establish frames, releasing secondary leg hooks while maintaining primary control in a sequential pattern, and shifting their hips backward and upward rather than maintaining low ashi garami posture. You may also notice grip changes from leg control configurations to upper body frames and posts, and a general shift in their attention from leg lock advancement to base establishment."
+        "answer": "The earliest cues include the opponent posting their hands on the mat or on your body to establish frames, releasing secondary leg hooks while maintaining primary control in a sequential pattern, and shifting their hips backward and upward rather than maintaining low ashi garami posture. You may also notice grip changes from leg control configurations to upper body frames and posts, and a general shift in their attention from leg lock advancement to base establishment.",
+        "answer_line": "Posting frames, releasing hooks",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip thrust",
+            "Tapping mat like a tap out"
+          ],
+          "trap": [
+            "Tightening leg entanglement"
+          ]
+        }
       },
       {
         "question": "Should you try to prevent the stand-up or allow it and prepare to counter?",
-        "answer": "The decision depends on your current position quality within the leg lock exchange. If you have active counter-entanglements or advantageous positioning with your own offensive threats, preventing the stand-up maintains those opportunities. However, if you are in a disadvantaged leg lock position where your heel is exposed or the opponent has superior hierarchy position, allowing the stand-up may be preferable since it returns you to neutral standing where you are no longer under immediate submission threat. Rapid assessment of your current positional quality determines the optimal response."
+        "answer": "The decision depends on your current position quality within the leg lock exchange. If you have active counter-entanglements or advantageous positioning with your own offensive threats, preventing the stand-up maintains those opportunities. However, if you are in a disadvantaged leg lock position where your heel is exposed or the opponent has superior hierarchy position, allowing the stand-up may be preferable since it returns you to neutral standing where you are no longer under immediate submission threat. Rapid assessment of your current positional quality determines the optimal response.",
+        "answer_line": "Depends on your position quality",
+        "distractors": {
+          "plausible": [
+            "Always prevent it, no exceptions",
+            "Always allow it to reset safely"
+          ],
+          "trap": [
+            "Fight it with exposed heel"
+          ]
+        }
       },
       {
         "question": "Your opponent has committed to standing and has their hips elevated—what is the highest-percentage counter?",
-        "answer": "The highest-percentage counter is to follow their hips upward by sitting up and immediately establishing open guard hooks on their hips or legs before they can fully disengage. This prevents the clean standing exit and transitions the exchange into an open guard scenario where you maintain connection and some degree of control. If you have speed advantage, you can also race to standing and establish grips during the transition, potentially gaining the initiative in the subsequent standing exchange."
+        "answer": "The highest-percentage counter is to follow their hips upward by sitting up and immediately establishing open guard hooks on their hips or legs before they can fully disengage. This prevents the clean standing exit and transitions the exchange into an open guard scenario where you maintain connection and some degree of control. If you have speed advantage, you can also race to standing and establish grips during the transition, potentially gaining the initiative in the subsequent standing exchange.",
+        "answer_line": "Sit up, hook their hips/legs",
+        "distractors": {
+          "plausible": [
+            "Pull guard tighter and wait",
+            "Grab ankle for heel hook try"
+          ],
+          "trap": [
+            "Lie flat, let them fully stand"
+          ]
+        }
       },
       {
         "question": "How does the opponent's standing attempt change the risk profile of the leg lock exchange for you?",
-        "answer": "The standing attempt temporarily reduces your risk because the opponent is abandoning their offensive leg lock positioning and transitioning to a neutral stance. During the transition, their attention shifts from attacking your leg to managing the stand-up mechanics, creating a window where submission threat against you decreases significantly. However, if you fail to capitalize on this window and the opponent completes a clean disengage, you return to neutral standing where they may immediately re-enter with a different, potentially more dangerous approach to leg entanglements."
+        "answer": "The standing attempt temporarily reduces your risk because the opponent is abandoning their offensive leg lock positioning and transitioning to a neutral stance. During the transition, their attention shifts from attacking your leg to managing the stand-up mechanics, creating a window where submission threat against you decreases significantly. However, if you fail to capitalize on this window and the opponent completes a clean disengage, you return to neutral standing where they may immediately re-enter with a different, potentially more dangerous approach to leg entanglements.",
+        "answer_line": "Temporary safety, attack shifts",
+        "distractors": {
+          "plausible": [
+            "Risk stays exactly the same",
+            "Danger increases as they rise"
+          ],
+          "trap": [
+            "Chase heel while they escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

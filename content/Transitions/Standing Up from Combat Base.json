@@ -258,35 +258,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the stand-up from combat base?",
-        "answer": "The optimal window is when the opponent's pulling grips are broken or weakened and their feet are not actively hooked on your hips or legs. This typically occurs after a successful grip strip, when the opponent is resetting their guard structure, or when they push your hips away with feet on hips creating distance that makes kneeling passes ineffective. Standing during grip transitions exploits the brief period where the opponent lacks the pulling control needed to prevent elevation."
+        "answer": "The optimal window is when the opponent's pulling grips are broken or weakened and their feet are not actively hooked on your hips or legs. This typically occurs after a successful grip strip, when the opponent is resetting their guard structure, or when they push your hips away with feet on hips creating distance that makes kneeling passes ineffective. Standing during grip transitions exploits the brief period where the opponent lacks the pulling control needed to prevent elevation.",
+        "answer_line": "Grips broken, no hooks in",
+        "distractors": {
+          "plausible": [
+            "Opponent posturing to pass",
+            "Right after initial grips"
+          ],
+          "trap": [
+            "While their hooks are set"
+          ]
+        }
       },
       {
         "question": "What grips must be established before initiating the stand-up from combat base?",
-        "answer": "At minimum, one controlling grip on the opponent's pants at the knee line or ankle is required to prevent free hook insertion during the stand. Ideally, both hands grip the opponent's pants at the knees, providing bilateral control of their leg positioning throughout the transition. In no-gi, cup behind both knees or control the shins. These grips serve the dual purpose of preventing the opponent from following your upward movement with hooks and providing immediate passing control upon reaching standing."
+        "answer": "At minimum, one controlling grip on the opponent's pants at the knee line or ankle is required to prevent free hook insertion during the stand. Ideally, both hands grip the opponent's pants at the knees, providing bilateral control of their leg positioning throughout the transition. In no-gi, cup behind both knees or control the shins. These grips serve the dual purpose of preventing the opponent from following your upward movement with hooks and providing immediate passing control upon reaching standing.",
+        "answer_line": "Both hands on pants at knees",
+        "distractors": {
+          "plausible": [
+            "One grip on the collar",
+            "Underhooks on both arms"
+          ],
+          "trap": [
+            "No grips, hands free to post"
+          ]
+        }
       },
       {
         "question": "Your opponent has feet on your hips pushing you away from combat base - should you fight to close distance or stand up?",
-        "answer": "Standing up is the superior tactical choice in this scenario. The opponent's feet-on-hips configuration creates distance that neutralizes kneeling passes but also means their hooks are extended rather than close-range entanglements. By standing, you convert their pushing distance into your passing distance. Grip their pants at the ankles, stand explosively, and redirect their legs laterally for a toreando pass. Fighting to close distance against feet on hips burns energy against a mechanically advantaged frame."
+        "answer": "Standing up is the superior tactical choice in this scenario. The opponent's feet-on-hips configuration creates distance that neutralizes kneeling passes but also means their hooks are extended rather than close-range entanglements. By standing, you convert their pushing distance into your passing distance. Grip their pants at the ankles, stand explosively, and redirect their legs laterally for a toreando pass. Fighting to close distance against feet on hips burns energy against a mechanically advantaged frame.",
+        "answer_line": "Stand, convert push to pass",
+        "distractors": {
+          "plausible": [
+            "Fight forward to close distance",
+            "Pull guard to reset"
+          ],
+          "trap": [
+            "Bull rush into closed guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the stand-up succeeds or fails?",
-        "answer": "The vertical drive through the hips rather than forward lean at the waist is the single most critical mechanical detail. A vertical drive maintains your center of gravity above your base, keeps your head above your hips preventing collar pull vulnerability, and creates upward momentum that separates you from the opponent's hook range. Forward lean at the waist shifts your center of gravity over the opponent, invites collar pulls and guillotine entries, and creates the exact proximity that distance guards exploit."
+        "answer": "The vertical drive through the hips rather than forward lean at the waist is the single most critical mechanical detail. A vertical drive maintains your center of gravity above your base, keeps your head above your hips preventing collar pull vulnerability, and creates upward momentum that separates you from the opponent's hook range. Forward lean at the waist shifts your center of gravity over the opponent, invites collar pulls and guillotine entries, and creates the exact proximity that distance guards exploit.",
+        "answer_line": "Vertical drive through hips",
+        "distractors": {
+          "plausible": [
+            "Fast explosive leg drive",
+            "Wide stance for balance"
+          ],
+          "trap": [
+            "Lean forward at the waist"
+          ]
+        }
       },
       {
         "question": "What is the primary danger if you stand up without first breaking the opponent's collar grip?",
-        "answer": "An unbroken collar grip gives the opponent a direct mechanical connection to your posture and balance center. As you stand, they can pull the collar grip downward, collapsing your posture forward and either pulling you back into their guard or using the forward momentum to set up a sweep or guard pull. From standing, a strong collar grip also enables snap-downs, armdrag entries, and lasso guard establishments that immediately negate the advantage of the standing position."
+        "answer": "An unbroken collar grip gives the opponent a direct mechanical connection to your posture and balance center. As you stand, they can pull the collar grip downward, collapsing your posture forward and either pulling you back into their guard or using the forward momentum to set up a sweep or guard pull. From standing, a strong collar grip also enables snap-downs, armdrag entries, and lasso guard establishments that immediately negate the advantage of the standing position.",
+        "answer_line": "Collar pull collapses posture",
+        "distractors": {
+          "plausible": [
+            "Opponent sweeps with hooks",
+            "Get stacked from below"
+          ],
+          "trap": [
+            "Nothing, collar grip is harmless"
+          ]
+        }
       },
       {
         "question": "Your opponent threads a De La Riva hook around your lead leg as you begin to stand - how do you respond?",
-        "answer": "Immediately drive the hooked knee forward and inward while pushing the opponent's hooking foot off your hip with your same-side hand. Do not step backward, which deepens the hook. If the hook is too deep to strip in motion, switch your lead leg by stepping over to the opposite stance, effectively removing the hook by changing which leg is forward. Alternatively, complete the stand explosively and use the standing position's elevation advantage to backstep around the DLR hook before it develops into a sweep threat."
+        "answer": "Immediately drive the hooked knee forward and inward while pushing the opponent's hooking foot off your hip with your same-side hand. Do not step backward, which deepens the hook. If the hook is too deep to strip in motion, switch your lead leg by stepping over to the opposite stance, effectively removing the hook by changing which leg is forward. Alternatively, complete the stand explosively and use the standing position's elevation advantage to backstep around the DLR hook before it develops into a sweep threat.",
+        "answer_line": "Push hook off, drive knee in",
+        "distractors": {
+          "plausible": [
+            "Immediately sit back down",
+            "Pull leg free with both hands"
+          ],
+          "trap": [
+            "Step backward to create room"
+          ]
+        }
       },
       {
         "question": "Why is stepping back immediately after reaching standing position critical to the transition's success?",
-        "answer": "Stepping back creates the optimal passing distance where your pants grips are effective but the opponent's feet and hooks cannot reach your legs for entanglement. If you remain close to the opponent after standing, they immediately insert butterfly hooks, shin-to-shin contact, or lasso grips that pull you back into close-range engagement where the standing advantage is neutralized. The small backstep establishes the distance sweet spot where standing passes like toreando and leg drag operate with maximum effectiveness."
+        "answer": "Stepping back creates the optimal passing distance where your pants grips are effective but the opponent's feet and hooks cannot reach your legs for entanglement. If you remain close to the opponent after standing, they immediately insert butterfly hooks, shin-to-shin contact, or lasso grips that pull you back into close-range engagement where the standing advantage is neutralized. The small backstep establishes the distance sweet spot where standing passes like toreando and leg drag operate with maximum effectiveness.",
+        "answer_line": "Creates safe passing distance",
+        "distractors": {
+          "plausible": [
+            "Lets you catch your breath",
+            "Sets up a takedown slam"
+          ],
+          "trap": [
+            "Stay close to smother guard"
+          ]
+        }
       },
       {
         "question": "What chain of attacks should you prepare if your initial standing pass attempt is blocked after the stand-up?",
-        "answer": "Prepare a three-deep passing chain: if the toreando is blocked by the opponent recovering hip position, immediately switch to a leg drag by pulling one leg across their body. If the leg drag is defended by the opponent turning into you, transition to an x-pass by stepping around the far side. If all standing passes are defended and the opponent establishes a strong distance guard, you can return to combat base with the knowledge gained about their defensive patterns. The ability to chain standing passes prevents the opponent from committing fully to any single defensive response."
+        "answer": "Prepare a three-deep passing chain: if the toreando is blocked by the opponent recovering hip position, immediately switch to a leg drag by pulling one leg across their body. If the leg drag is defended by the opponent turning into you, transition to an x-pass by stepping around the far side. If all standing passes are defended and the opponent establishes a strong distance guard, you can return to combat base with the knowledge gained about their defensive patterns. The ability to chain standing passes prevents the opponent from committing fully to any single defensive response.",
+        "answer_line": "Toreando, leg drag, then X-pass",
+        "distractors": {
+          "plausible": [
+            "Double leg takedown attempt",
+            "Immediately go for a submission"
+          ],
+          "trap": [
+            "Dive to guard and stay there"
+          ]
+        }
       }
     ],
     "safety_considerations": "Standing up from combat base carries relatively low injury risk compared to submission techniques but requires attention to knee mechanics during the kneeling-to-standing transition. Ensure the posted knee rises smoothly without lateral torque, particularly if the opponent has any hooks or entanglements that resist the movement. Avoid explosively extending the knees if the opponent has established a deep hook that could cause knee hyperextension. In training, communicate with your partner if they maintain grips that create awkward joint angles during the elevation. On slippery mats, plant the foot firmly before committing weight to avoid slipping during the transition.",
@@ -404,23 +484,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is preparing to stand up from combat base?",
-        "answer": "The earliest cue is the top player beginning to strip your collar and sleeve grips while maintaining or establishing control on your pants. This grip exchange signals their intention to remove your pulling connections before committing to the elevation. The moment you feel them actively breaking your upper body grips while their hands move toward your legs, you should immediately tighten your existing grips and prepare your counter before they complete the grip transition."
+        "answer": "The earliest cue is the top player beginning to strip your collar and sleeve grips while maintaining or establishing control on your pants. This grip exchange signals their intention to remove your pulling connections before committing to the elevation. The moment you feel them actively breaking your upper body grips while their hands move toward your legs, you should immediately tighten your existing grips and prepare your counter before they complete the grip transition.",
+        "answer_line": "They strip collar/sleeve grips",
+        "distractors": {
+          "plausible": [
+            "They shift weight to one hip",
+            "They grab your pants first"
+          ],
+          "trap": [
+            "They pull you into closed guard"
+          ]
+        }
       },
       {
         "question": "Why is the squat phase of the opponent's stand-up the optimal window for your counter attack?",
-        "answer": "During the squat phase, the opponent has both feet on the mat but their center of gravity is transitioning between the kneeling base and standing base. This creates a brief moment of reduced stability where they are neither settled in combat base nor established in standing. Their legs are bent under load, making them vulnerable to pulling attacks and hook entries that can collapse their base forward or laterally. Once they reach full standing extension, their base widens and their center of gravity stabilizes, making counters significantly harder."
+        "answer": "During the squat phase, the opponent has both feet on the mat but their center of gravity is transitioning between the kneeling base and standing base. This creates a brief moment of reduced stability where they are neither settled in combat base nor established in standing. Their legs are bent under load, making them vulnerable to pulling attacks and hook entries that can collapse their base forward or laterally. Once they reach full standing extension, their base widens and their center of gravity stabilizes, making counters significantly harder.",
+        "answer_line": "Base unstable between stances",
+        "distractors": {
+          "plausible": [
+            "Their grips are strongest there",
+            "They can't see you clearly"
+          ],
+          "trap": [
+            "They're fully balanced there"
+          ]
+        }
       },
       {
         "question": "The opponent has successfully stood up and broken all your grips - what is your immediate defensive priority?",
-        "answer": "Your immediate priority is to establish feet-on-hips connection to manage distance and prevent the opponent from controlling your legs for a passing sequence. Bring both feet to their hips or thighs to create a frame that keeps them at arm's length. From this position, work to re-establish collar or sleeve grips while using your feet to control their forward movement. This buys time to transition into an organized distance guard like De La Riva, collar-sleeve, or spider guard rather than being passed from a flat, gripless position."
+        "answer": "Your immediate priority is to establish feet-on-hips connection to manage distance and prevent the opponent from controlling your legs for a passing sequence. Bring both feet to their hips or thighs to create a frame that keeps them at arm's length. From this position, work to re-establish collar or sleeve grips while using your feet to control their forward movement. This buys time to transition into an organized distance guard like De La Riva, collar-sleeve, or spider guard rather than being passed from a flat, gripless position.",
+        "answer_line": "Feet on hips to manage distance",
+        "distractors": {
+          "plausible": [
+            "Sit up and grab their collar",
+            "Bridge to reverse position"
+          ],
+          "trap": [
+            "Turtle up to protect your back"
+          ]
+        }
       },
       {
         "question": "Your collar grip is strong but the opponent is powering through the stand-up anyway - should you maintain the grip or abandon it?",
-        "answer": "Maintain the grip and use it to transition rather than abandoning it. As the opponent stands, convert the collar grip into a guard pull entry by pulling your hips toward them while inserting a foot on their hip or threading a De La Riva hook. The collar grip becomes the anchor for your new guard establishment rather than purely a pulling tool. Abandoning a strong grip leaves you without connection in a worse position. The grip's value shifts from preventing the stand to facilitating your guard transition."
+        "answer": "Maintain the grip and use it to transition rather than abandoning it. As the opponent stands, convert the collar grip into a guard pull entry by pulling your hips toward them while inserting a foot on their hip or threading a De La Riva hook. The collar grip becomes the anchor for your new guard establishment rather than purely a pulling tool. Abandoning a strong grip leaves you without connection in a worse position. The grip's value shifts from preventing the stand to facilitating your guard transition.",
+        "answer_line": "Maintain, convert to guard pull",
+        "distractors": {
+          "plausible": [
+            "Abandon it, grab pants instead",
+            "Pull straight back to break stand"
+          ],
+          "trap": [
+            "Release grip, disengage entirely"
+          ]
+        }
       },
       {
         "question": "How does defending the stand-up differ in no-gi versus gi contexts?",
-        "answer": "In gi, collar and sleeve grips provide strong persistent connections that can physically resist the stand-up through pulling force. The defensive focus is on maintaining these textile grips throughout the transition. In no-gi, wrist control and collar ties provide weaker pulling connections that are easier for the opponent to strip. The no-gi defense shifts emphasis toward leg-based counters—shin-to-shin entries, ankle picks during the squat phase, and underhook sit-ups for single leg attacks. Without gi grips, the defender must be more proactive with physical interception rather than relying on pulling resistance."
+        "answer": "In gi, collar and sleeve grips provide strong persistent connections that can physically resist the stand-up through pulling force. The defensive focus is on maintaining these textile grips throughout the transition. In no-gi, wrist control and collar ties provide weaker pulling connections that are easier for the opponent to strip. The no-gi defense shifts emphasis toward leg-based counters—shin-to-shin entries, ankle picks during the squat phase, and underhook sit-ups for single leg attacks. Without gi grips, the defender must be more proactive with physical interception rather than relying on pulling resistance.",
+        "answer_line": "No-gi: leg counters not grips",
+        "distractors": {
+          "plausible": [
+            "No-gi relies on wrist grips too",
+            "Gi defense uses leg attacks"
+          ],
+          "trap": [
+            "No difference between rulesets"
+          ]
+        }
       }
     ],
     "training_progressions": [

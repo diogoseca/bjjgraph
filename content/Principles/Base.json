@@ -421,7 +421,17 @@
     },
     {
       "question": "How should your base behave during a positional transition?",
-      "answer": "Base must stay functional throughout the transition. Establish new support points before releasing old ones so you are never completely without a base, eliminating the vulnerable gap an opponent can exploit to sweep or reverse."
+      "answer": "Base must stay functional throughout the transition. Establish new support points before releasing old ones so you are never completely without a base, eliminating the vulnerable gap an opponent can exploit to sweep or reverse.",
+      "answer_line": "New support set before old released",
+      "distractors": {
+        "plausible": [
+          "Release old base first, then reset",
+          "Move fast and rebuild base after"
+        ],
+        "trap": [
+          "Commit weight forward mid-transition"
+        ]
+      }
     }
   ],
   "clips": [

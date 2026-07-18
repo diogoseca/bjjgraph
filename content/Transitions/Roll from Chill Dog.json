@@ -251,67 +251,140 @@
         "answer": "The optimal window is when the opponent shifts weight backward, momentarily loosens grips, or commits pressure to one side mid-adjustment. Specifically, the moment between the opponent abandoning one grip sequence and beginning another creates a brief period of reduced control where the roll can succeed. Initiating during a period of maximum opponent pressure is the most common cause of failure because the opponent can simply drive you flat.",
         "distractors": {
           "plausible": [
-            "Roll as soon as the opponent secures a new grip, since their attention is consumed by the grip fight.",
-            "Time the roll for when the opponent leans their chest forward onto you, borrowing their forward momentum."
+            "When they post on far hip",
+            "Right as they secure grips"
           ],
           "trap": [
-            "Initiate while the opponent drives maximum pressure into you, so you can use their force to flip them over."
+            "During their heaviest pressure"
           ]
-        }
+        },
+        "answer_line": "During their grip transition"
       },
       {
         "question": "What body position must be maintained throughout the roll to ensure clean rotation?",
-        "answer": "The compact Chill Dog shape must be preserved throughout the entire roll - chin tucked firmly to chest, elbows pressed against the body, knees tucked tight. This rounded ball shape provides the curvature needed for smooth rotation and prevents the opponent from grabbing extended limbs. Any deviation from this compact shape creates handles for the opponent and disrupts rolling momentum, making the roll slower and more vulnerable to being stopped or followed."
+        "answer": "The compact Chill Dog shape must be preserved throughout the entire roll - chin tucked firmly to chest, elbows pressed against the body, knees tucked tight. This rounded ball shape provides the curvature needed for smooth rotation and prevents the opponent from grabbing extended limbs. Any deviation from this compact shape creates handles for the opponent and disrupts rolling momentum, making the roll slower and more vulnerable to being stopped or followed.",
+        "answer_line": "Stay tucked tight throughout",
+        "distractors": {
+          "plausible": [
+            "Extend arms to build speed",
+            "Open knees for more torque"
+          ],
+          "trap": [
+            "Extend limbs for momentum"
+          ]
+        }
       },
       {
         "question": "Your opponent increases downward chest pressure as you prepare to roll - should you still attempt the technique?",
         "answer": "No — settling downward pressure kills the upward lift you need to initiate the forward roll's rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment.",
         "distractors": {
           "plausible": [
-            "Yes, but execute the roll faster than usual to beat their pressure before it fully settles.",
-            "No — instead redirect to a forward roll toward the opposite side, angling away from their chest pressure."
+            "No, wait for pressure to ease",
+            "No, but stay in Chill Dog"
           ],
           "trap": [
-            "Yes — their downward drive is free momentum, so commit hard to the roll and let their weight carry you over."
+            "Yes, push through pressure"
+          ]
+        },
+        "answer_line": "No — switch to Granby roll"
+      },
+      {
+        "question": "What grip conditions must exist before initiating the roll?",
+        "answer": "The opponent must not have secure grip control on both your hips and shoulders simultaneously. Ideally, you initiate during a grip transition when their primary control has loosened. At minimum, their hand position should allow your forward rotation without providing them an anchor to stop the movement. If they have an established harness or seatbelt grip, the roll becomes extremely difficult because they can follow your rotation while maintaining their upper body control connection throughout.",
+        "answer_line": "No hip+shoulder grip control",
+        "distractors": {
+          "plausible": [
+            "Only shoulders need to loosen",
+            "Any looseness is a green light"
+          ],
+          "trap": [
+            "Roll through a seatbelt grip"
           ]
         }
       },
       {
-        "question": "What grip conditions must exist before initiating the roll?",
-        "answer": "The opponent must not have secure grip control on both your hips and shoulders simultaneously. Ideally, you initiate during a grip transition when their primary control has loosened. At minimum, their hand position should allow your forward rotation without providing them an anchor to stop the movement. If they have an established harness or seatbelt grip, the roll becomes extremely difficult because they can follow your rotation while maintaining their upper body control connection throughout."
-      },
-      {
         "question": "In which direction should you angle the roll and why?",
-        "answer": "Roll diagonally forward at approximately 45 degrees, angling away from the opponent's strongest grip or heaviest weight concentration. The diagonal angle creates lateral separation that a straight forward roll cannot achieve, making it significantly harder for the opponent to simply drive forward and maintain back contact through the rotation. If the opponent's weight is centered, roll over your lead shoulder toward whichever side gives more available space."
+        "answer": "Roll diagonally forward at approximately 45 degrees, angling away from the opponent's strongest grip or heaviest weight concentration. The diagonal angle creates lateral separation that a straight forward roll cannot achieve, making it significantly harder for the opponent to simply drive forward and maintain back contact through the rotation. If the opponent's weight is centered, roll over your lead shoulder toward whichever side gives more available space.",
+        "answer_line": "Diagonal, away from strong grip",
+        "distractors": {
+          "plausible": [
+            "Straight forward at full speed",
+            "Toward the open space always"
+          ],
+          "trap": [
+            "Roll into their heaviest side"
+          ]
+        }
       },
       {
         "question": "What is the primary force direction that drives the rolling motion?",
-        "answer": "The force originates from an explosive push off both hands driving your body forward and downward into the tucked roll position. Your hands push backward against the mat while your shoulder tucks under, creating rotational force that carries your compact body through the forward roll. The momentum must be sufficient to complete the full rotation in one continuous movement because partial force results in getting stuck inverted where the opponent can capitalize on your exposed position."
+        "answer": "The force originates from an explosive push off both hands driving your body forward and downward into the tucked roll position. Your hands push backward against the mat while your shoulder tucks under, creating rotational force that carries your compact body through the forward roll. The momentum must be sufficient to complete the full rotation in one continuous movement because partial force results in getting stuck inverted where the opponent can capitalize on your exposed position.",
+        "answer_line": "Explosive push off both hands",
+        "distractors": {
+          "plausible": [
+            "Pull with legs, then rotate",
+            "Drive off one strong shoulder"
+          ],
+          "trap": [
+            "Partial push, adjust mid-roll"
+          ]
+        }
       },
       {
         "question": "The opponent follows your roll and is reaching for your hips as you land - what is your immediate response?",
-        "answer": "Immediately extend both legs into their hips or chest to create distance while posting your hands behind you for base. This creates an instant open guard frame that prevents them from closing the distance. If their hands reach your hips before your feet get into position, scoot your hips away while using your hands to strip their grips. The critical action is establishing feet-on-hips contact before they can drive through to pass or re-establish back control."
+        "answer": "Immediately extend both legs into their hips or chest to create distance while posting your hands behind you for base. This creates an instant open guard frame that prevents them from closing the distance. If their hands reach your hips before your feet get into position, scoot your hips away while using your hands to strip their grips. The critical action is establishing feet-on-hips contact before they can drive through to pass or re-establish back control.",
+        "answer_line": "Extend legs, frame feet on hips",
+        "distractors": {
+          "plausible": [
+            "Scramble up to standing base",
+            "Grab their wrists to control"
+          ],
+          "trap": [
+            "Turtle back up immediately"
+          ]
+        }
       },
       {
         "question": "Your first roll attempt is stuffed by the opponent's sprawl - what escape should you chain to next?",
-        "answer": "If the forward roll is stuffed by a sprawl, the opponent has committed their weight forward and downward. This creates the ideal setup for a Granby roll to the side, as their forward commitment means they cannot easily follow a lateral rolling movement. The chain from stuffed forward roll to Granby is the highest-percentage follow-up. Alternatively, if the sprawl drives you completely flat, immediately work to re-establish the Chill Dog defensive frame rather than forcing a second roll from a compromised position."
+        "answer": "If the forward roll is stuffed by a sprawl, the opponent has committed their weight forward and downward. This creates the ideal setup for a Granby roll to the side, as their forward commitment means they cannot easily follow a lateral rolling movement. The chain from stuffed forward roll to Granby is the highest-percentage follow-up. Alternatively, if the sprawl drives you completely flat, immediately work to re-establish the Chill Dog defensive frame rather than forcing a second roll from a compromised position.",
+        "answer_line": "Chain into a Granby roll",
+        "distractors": {
+          "plausible": [
+            "Retry the same forward roll",
+            "Bridge and shrimp to guard"
+          ],
+          "trap": [
+            "Turtle up and stall"
+          ]
+        }
       },
       {
         "question": "How does the Roll from Chill Dog differ mechanically from the Granby Roll escape?",
-        "answer": "The Roll from Chill Dog moves forward and diagonally through the space in front of the bottom player using a forward rotation over the shoulder. The Granby roll moves backward and to the side, inverting through a shoulder roll that moves away from the opponent. The forward roll requires clear space ahead and works when the opponent's weight is behind or to the side, while the Granby works best when the opponent drives forward with committed chest pressure. They are complementary escapes that exploit opposite weight distributions and should be trained as a paired system."
+        "answer": "The Roll from Chill Dog moves forward and diagonally through the space in front of the bottom player using a forward rotation over the shoulder. The Granby roll moves backward and to the side, inverting through a shoulder roll that moves away from the opponent. The forward roll requires clear space ahead and works when the opponent's weight is behind or to the side, while the Granby works best when the opponent drives forward with committed chest pressure. They are complementary escapes that exploit opposite weight distributions and should be trained as a paired system.",
+        "answer_line": "Forward diagonal vs lateral roll",
+        "distractors": {
+          "plausible": [
+            "Both roll the same direction",
+            "Only speed differs, not path"
+          ],
+          "trap": [
+            "Use them interchangeably"
+          ]
+        }
       },
       {
         "question": "What signals tell you that the roll has failed mid-execution and you need to abort?",
         "answer": "Abort when their grips tighten as you rotate, their weight drives you flat, or their chest stays glued to your back through the roll. The chest-to-back contact following your rotation is the clearest signal — it means they anticipated the roll and will establish back control. To abort, stop forward motion, pull elbows back to knees to re-establish Chill Dog posture, reset your rounded back structure, then switch to an alternative escape.",
         "distractors": {
           "plausible": [
-            "Abort only if you end up fully flat on your stomach; grip tightening is normal resistance to roll through.",
-            "The main abort signal is losing visual contact with the opponent's legs midway through the rotation."
+            "They start breathing heavier",
+            "You feel your feet leave mat"
           ],
           "trap": [
-            "If you feel them following your rotation, accelerate and finish the roll anyway — speed beats their chest connection."
+            "Push harder if they follow"
           ]
-        }
+        },
+        "answer_line": "Chest stays glued to your back"
       }
     ],
     "safety_considerations": "The Roll from Chill Dog requires cervical spine mobility and should be practiced on soft mats with gradual progression from solo drilling to resistance. Never force the roll if your neck feels compressed or strained during the rotation. Practitioners with existing neck injuries should avoid this technique until cleared by a medical professional. Always warm up your neck and shoulders thoroughly before drilling forward rolls. When training with a partner, communicate clearly about the intensity of top pressure to prevent unexpected cervical compression during the roll. Stop immediately if you feel any sharp pain in the neck, shoulders, or spine during execution.",
@@ -420,23 +493,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing to roll forward from Chill Dog?",
-        "answer": "The earliest cue is a subtle forward weight shift onto the hands, often accompanied by a slight widening of hand placement on the mat. The bottom player needs to test whether forward space exists before committing to the roll. You may also feel a momentary increase in muscular tension through their back as they prepare for the explosive push-off. When you detect this forward shift, immediately increase your downward chest pressure and tighten your grip on their near hip to shut down the roll before it starts."
+        "answer": "The earliest cue is a subtle forward weight shift onto the hands, often accompanied by a slight widening of hand placement on the mat. The bottom player needs to test whether forward space exists before committing to the roll. You may also feel a momentary increase in muscular tension through their back as they prepare for the explosive push-off. When you detect this forward shift, immediately increase your downward chest pressure and tighten your grip on their near hip to shut down the roll before it starts.",
+        "answer_line": "Subtle forward weight shift",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in leg kicks",
+            "Loud exhale before movement"
+          ],
+          "trap": [
+            "Wait for the roll to start"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates the roll and has already begun rotating - is it better to try to stop the roll or follow it?",
-        "answer": "Once the roll has genuinely begun with momentum, it is almost always better to follow it than to try to stop it mid-rotation. Attempting to stop a roll in progress usually results in losing contact entirely as the bottom player's momentum carries them through and away from you. Following the roll with tight chest-to-back contact positions you to insert hooks and establish back control as they land. The key is committing to following within the first quarter-rotation - hesitation results in losing the physical connection entirely."
+        "answer": "Once the roll has genuinely begun with momentum, it is almost always better to follow it than to try to stop it mid-rotation. Attempting to stop a roll in progress usually results in losing contact entirely as the bottom player's momentum carries them through and away from you. Following the roll with tight chest-to-back contact positions you to insert hooks and establish back control as they land. The key is committing to following within the first quarter-rotation - hesitation results in losing the physical connection entirely.",
+        "answer_line": "Follow it, don't try to stop",
+        "distractors": {
+          "plausible": [
+            "Brace hard to stop the roll",
+            "Release contact, reset base"
+          ],
+          "trap": [
+            "Grab a leg to halt momentum"
+          ]
+        }
       },
       {
         "question": "How should you position your weight to preemptively discourage roll attempts without overcommitting forward?",
-        "answer": "Distribute your weight primarily through your chest onto the bottom player's upper back between the shoulder blades, angled slightly downward at approximately 45 degrees rather than directly forward. Keep your hips low and close to their body rather than elevated above them. This downward angle makes forward rolling extremely difficult because the bottom player cannot generate the upward lift needed to initiate rotation. Avoid pushing straight forward as this actually assists their roll by providing forward momentum they can redirect into the rotation."
+        "answer": "Distribute your weight primarily through your chest onto the bottom player's upper back between the shoulder blades, angled slightly downward at approximately 45 degrees rather than directly forward. Keep your hips low and close to their body rather than elevated above them. This downward angle makes forward rolling extremely difficult because the bottom player cannot generate the upward lift needed to initiate rotation. Avoid pushing straight forward as this actually assists their roll by providing forward momentum they can redirect into the rotation.",
+        "answer_line": "Chest down at 45°, hips low",
+        "distractors": {
+          "plausible": [
+            "Hips high, chest light",
+            "Sit back, disengage chest"
+          ],
+          "trap": [
+            "Push straight forward hard"
+          ]
+        }
       },
       {
         "question": "The bottom player's roll attempt fails and they immediately chain to a Granby roll - how do you counter the chain?",
-        "answer": "When a forward roll transitions to a lateral Granby, immediately shift your weight to the side they are rolling toward and drop your hip to block their rotation path. Your near arm should reach under their rolling shoulder to stop the inversion while your far hand controls their hip. The key insight is that the failed forward roll leaves them momentarily displaced from their proper Chill Dog defensive structure, making the chain escape less powerful than a fresh Granby attempt from a settled position. Use this structural disadvantage to drive them flat before the Granby builds momentum."
+        "answer": "When a forward roll transitions to a lateral Granby, immediately shift your weight to the side they are rolling toward and drop your hip to block their rotation path. Your near arm should reach under their rolling shoulder to stop the inversion while your far hand controls their hip. The key insight is that the failed forward roll leaves them momentarily displaced from their proper Chill Dog defensive structure, making the chain escape less powerful than a fresh Granby attempt from a settled position. Use this structural disadvantage to drive them flat before the Granby builds momentum.",
+        "answer_line": "Shift weight, block their hip",
+        "distractors": {
+          "plausible": [
+            "Chase the rotation from top",
+            "Reset to neutral top pressure"
+          ],
+          "trap": [
+            "Release contact, re-square up"
+          ]
+        }
       },
       {
         "question": "What is the most reliable method to prevent the roll before it even begins?",
-        "answer": "Maintaining constant hip control with at least one hand on or near the bottom player's near hip combined with heavy chest pressure on their upper back. This combination removes both prerequisites for the roll: hip control prevents the explosive push-off needed for initiation, and chest pressure eliminates the forward space required for rotation. When you feel any forward weight shift, increase both simultaneously. The bottom player cannot generate sufficient force to roll against properly positioned chest pressure combined with active hip control."
+        "answer": "Maintaining constant hip control with at least one hand on or near the bottom player's near hip combined with heavy chest pressure on their upper back. This combination removes both prerequisites for the roll: hip control prevents the explosive push-off needed for initiation, and chest pressure eliminates the forward space required for rotation. When you feel any forward weight shift, increase both simultaneously. The bottom player cannot generate sufficient force to roll against properly positioned chest pressure combined with active hip control.",
+        "answer_line": "Control hip + heavy chest pressure",
+        "distractors": {
+          "plausible": [
+            "Chest pressure alone is enough",
+            "Hip control alone is enough"
+          ],
+          "trap": [
+            "Ease pressure to bait a move"
+          ]
+        }
       }
     ],
     "training_progressions": [

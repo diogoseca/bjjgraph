@@ -342,35 +342,115 @@
     "flashcards": [
       {
         "question": "What is the first priority when you find yourself trapped in Outside Ashi-Garami Top?",
-        "answer": "Your first priority is protecting your heel by keeping it hidden from your opponent's grip. The heel must remain tucked inward with toes pointing toward your body. Heel exposure is the most immediate danger as it enables the opponent to secure a heel hook grip and finish the submission rapidly. All other defensive actions are secondary to heel protection."
+        "answer": "Your first priority is protecting your heel by keeping it hidden from your opponent's grip. The heel must remain tucked inward with toes pointing toward your body. Heel exposure is the most immediate danger as it enables the opponent to secure a heel hook grip and finish the submission rapidly. All other defensive actions are secondary to heel protection.",
+        "answer_line": "Hide heel, toes inward",
+        "distractors": {
+          "plausible": [
+            "Break their grip first",
+            "Frame on hips first"
+          ],
+          "trap": [
+            "Pull leg straight out"
+          ]
+        }
       },
       {
         "question": "Why does maintaining an elevated or standing posture significantly improve your escape success rate?",
-        "answer": "Standing or elevated posture creates a height differential that limits your opponent's leverage for submissions and control. When standing, you can use gravity and your bodyweight to assist leg extraction, your opponent cannot generate the hip extension needed for heel hook finishing mechanics, and you maintain options to step over or around their guard. Dropping to their level eliminates these advantages and gives them superior angles."
+        "answer": "Standing or elevated posture creates a height differential that limits your opponent's leverage for submissions and control. When standing, you can use gravity and your bodyweight to assist leg extraction, your opponent cannot generate the hip extension needed for heel hook finishing mechanics, and you maintain options to step over or around their guard. Dropping to their level eliminates these advantages and gives them superior angles.",
+        "answer_line": "Stand to kill their leverage",
+        "distractors": {
+          "plausible": [
+            "Drop level to match them",
+            "Square hips to their chest"
+          ],
+          "trap": [
+            "Sit back and pull guard"
+          ]
+        }
       },
       {
         "question": "Your opponent begins aggressively hunting for your heel - what immediate adjustment should you make?",
-        "answer": "Immediately rotate your hip internally, turning your knee inward rather than allowing it to point outward. Simultaneously create frames on their hips or chest with your hands to establish distance. If they already have heel access, you must break their grip before continuing any escape attempt. Consider switching to a counter-entanglement strategy if their grip is too strong to break directly."
+        "answer": "Immediately rotate your hip internally, turning your knee inward rather than allowing it to point outward. Simultaneously create frames on their hips or chest with your hands to establish distance. If they already have heel access, you must break their grip before continuing any escape attempt. Consider switching to a counter-entanglement strategy if their grip is too strong to break directly.",
+        "answer_line": "Rotate knee in, frame off",
+        "distractors": {
+          "plausible": [
+            "Pull leg out immediately",
+            "Grip fight for their heel"
+          ],
+          "trap": [
+            "Point knee outward"
+          ]
+        }
       },
       {
         "question": "Why is pulling your leg straight out against the figure-4 triangle counterproductive?",
-        "answer": "Straight pulling actually strengthens the opponent's leg triangle by driving your leg deeper into their lock configuration. It also exposes your heel by rotating it toward their grip, and creates leverage that assists their submission mechanics. Instead, you must rotate your hip internally and collapse their triangle structure through circular movement before extracting."
+        "answer": "Straight pulling actually strengthens the opponent's leg triangle by driving your leg deeper into their lock configuration. It also exposes your heel by rotating it toward their grip, and creates leverage that assists their submission mechanics. Instead, you must rotate your hip internally and collapse their triangle structure through circular movement before extracting.",
+        "answer_line": "Feeds the triangle, bares heel",
+        "distractors": {
+          "plausible": [
+            "Only wastes stored energy",
+            "Only risks losing frames"
+          ],
+          "trap": [
+            "Best way to snap out fast"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to attempt a counter leg entanglement rather than pure escape?",
-        "answer": "Counter-entanglement is appropriate when your opponent's legs become exposed during their transition or submission attempt. Specifically, when they release their leg triangle to readjust, when their inside leg becomes accessible during a position change, or when they commit heavily to a heel hook attempt and create openings. The mutual threat created forces them to defend, often facilitating your escape."
+        "answer": "Counter-entanglement is appropriate when your opponent's legs become exposed during their transition or submission attempt. Specifically, when they release their leg triangle to readjust, when their inside leg becomes accessible during a position change, or when they commit heavily to a heel hook attempt and create openings. The mutual threat created forces them to defend, often facilitating your escape.",
+        "answer_line": "When their leg opens up",
+        "distractors": {
+          "plausible": [
+            "Anytime you feel strong",
+            "Right when position starts"
+          ],
+          "trap": [
+            "Release your own frames first"
+          ]
+        }
       },
       {
         "question": "What role do frames play in the escape sequence and where should they be positioned?",
-        "answer": "Frames create and maintain the distance necessary for leg extraction and prevent your opponent from closing space to improve their finishing mechanics. Position frames on your opponent's hips or chest using both hands and potentially your free leg. Frames must be maintained throughout the escape sequence, not abandoned once established, as they prevent the opponent from re-advancing their position."
+        "answer": "Frames create and maintain the distance necessary for leg extraction and prevent your opponent from closing space to improve their finishing mechanics. Position frames on your opponent's hips or chest using both hands and potentially your free leg. Frames must be maintained throughout the escape sequence, not abandoned once established, as they prevent the opponent from re-advancing their position.",
+        "answer_line": "Hips or chest, held constant",
+        "distractors": {
+          "plausible": [
+            "Only during initial escape",
+            "On their far shoulder"
+          ],
+          "trap": [
+            "Drop frames once space opens"
+          ]
+        }
       },
       {
         "question": "Your opponent's leg triangle feels loose - what escape approach becomes available?",
-        "answer": "A loose leg triangle indicates the opportunity for a direct technical stand-up or simple leg extraction. Maintain your frames, continue protecting your heel, and use internal hip rotation combined with the looseness to thread your leg out. Once partially extracted, immediately elevate to standing and create distance. The loose triangle also makes counter-entanglement entries easier if you prefer an offensive transition."
+        "answer": "A loose leg triangle indicates the opportunity for a direct technical stand-up or simple leg extraction. Maintain your frames, continue protecting your heel, and use internal hip rotation combined with the looseness to thread your leg out. Once partially extracted, immediately elevate to standing and create distance. The loose triangle also makes counter-entanglement entries easier if you prefer an offensive transition.",
+        "answer_line": "Rotate hip, thread leg out",
+        "distractors": {
+          "plausible": [
+            "Muscle the leg out fast",
+            "Wait for them to retighten"
+          ],
+          "trap": [
+            "Yank leg straight out"
+          ]
+        }
       },
       {
         "question": "How does panic affect your escape success rate and what mental approach should you maintain?",
-        "answer": "Panic leads to rushed, uncontrolled movements that expose your heel, waste energy, and create opportunities for your opponent to improve their position. The correct mental approach is calm, methodical problem-solving through systematic escape sequences. Breathe deeply, assess your heel position, identify whether their triangle is tight or loose, then execute the appropriate technique. Trust your drilling and technique rather than explosive scrambling."
+        "answer": "Panic leads to rushed, uncontrolled movements that expose your heel, waste energy, and create opportunities for your opponent to improve their position. The correct mental approach is calm, methodical problem-solving through systematic escape sequences. Breathe deeply, assess your heel position, identify whether their triangle is tight or loose, then execute the appropriate technique. Trust your drilling and technique rather than explosive scrambling.",
+        "answer_line": "Stay calm, assess then act",
+        "distractors": {
+          "plausible": [
+            "Explode out immediately",
+            "Rely on pure strength"
+          ],
+          "trap": [
+            "Rush before they resettle"
+          ]
+        }
       }
     ],
     "clips": [
@@ -661,35 +741,115 @@
     "flashcards": [
       {
         "question": "What is the primary weight distribution and body angle for maintaining control in Outside Ashi-Garami Bottom?",
-        "answer": "Your body should maintain a perpendicular or diagonal angle (45-90 degrees) to your opponent's leg line, with your torso facing toward their trapped leg. Weight distribution centers on your hips, which should be slightly elevated off the mat to create tension. The figure-4 leg configuration bears most of the positional load, with constant squeezing pressure through both legs to eliminate space."
+        "answer": "Your body should maintain a perpendicular or diagonal angle (45-90 degrees) to your opponent's leg line, with your torso facing toward their trapped leg. Weight distribution centers on your hips, which should be slightly elevated off the mat to create tension. The figure-4 leg configuration bears most of the positional load, with constant squeezing pressure through both legs to eliminate space.",
+        "answer_line": "45-90°, hips lifted, torso to leg",
+        "distractors": {
+          "plausible": [
+            "Flat square-up to opponent",
+            "Weight forward onto chest"
+          ],
+          "trap": [
+            "Lie flat, release hip tension"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining this position and what does each control?",
-        "answer": "The two essential grips are heel/foot control and knee/thigh control. The heel grip (typically near-side hand cupping the Achilles with fingers toward toes) enables heel hook and ankle lock attacks. The knee/thigh grip (typically far-side hand on their knee or upper thigh) prevents hip external rotation and escape. Both grips must be maintained simultaneously for effective control."
+        "answer": "The two essential grips are heel/foot control and knee/thigh control. The heel grip (typically near-side hand cupping the Achilles with fingers toward toes) enables heel hook and ankle lock attacks. The knee/thigh grip (typically far-side hand on their knee or upper thigh) prevents hip external rotation and escape. Both grips must be maintained simultaneously for effective control.",
+        "answer_line": "Heel grip + knee/thigh grip",
+        "distractors": {
+          "plausible": [
+            "Both hands on the heel",
+            "Collar tie plus ankle grip"
+          ],
+          "trap": [
+            "Grip their far wrist only"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their knee outward to escape - what adjustment do you make?",
-        "answer": "Immediately increase pressure with your knee/thigh grip to block the external rotation. Simultaneously tighten your leg triangle by pulling your inside foot closer to your buttocks. This external rotation attempt is also an opportunity - if you cannot stop it, flow with their rotation into an inside ashi entry or use the rotational momentum to finish an outside heel hook before they complete the escape."
+        "answer": "Immediately increase pressure with your knee/thigh grip to block the external rotation. Simultaneously tighten your leg triangle by pulling your inside foot closer to your buttocks. This external rotation attempt is also an opportunity - if you cannot stop it, flow with their rotation into an inside ashi entry or use the rotational momentum to finish an outside heel hook before they complete the escape.",
+        "answer_line": "Block rotation, cinch triangle",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset position",
+            "Chase the knee with hands"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       },
       {
         "question": "Why is maintaining constant submission pressure important for position retention?",
-        "answer": "Constant submission pressure keeps your opponent in a defensive mindset, limiting their ability to execute systematic escapes. When you remain static without threats, the opponent has time to work their escape sequence methodically. Flowing between heel hook and ankle lock setups forces them to continually address immediate danger rather than focusing on positional escape."
+        "answer": "Constant submission pressure keeps your opponent in a defensive mindset, limiting their ability to execute systematic escapes. When you remain static without threats, the opponent has time to work their escape sequence methodically. Flowing between heel hook and ankle lock setups forces them to continually address immediate danger rather than focusing on positional escape.",
+        "answer_line": "Keeps them defensive, not escaping",
+        "distractors": {
+          "plausible": [
+            "Only tires them out",
+            "Only for show of dominance"
+          ],
+          "trap": [
+            "Hold static without threats"
+          ]
+        }
       },
       {
         "question": "How do you prevent an opponent from using their free leg to establish base and stand?",
-        "answer": "Monitor their free leg positioning constantly and adjust your body angle to prevent strong posting. When they attempt to post with their free leg, angle your hips away from that side to reduce their leverage. You can also use your leg configuration to crowd their free leg or transition toward saddle to control both legs. Their free leg positioning often telegraphs escape attempts."
+        "answer": "Monitor their free leg positioning constantly and adjust your body angle to prevent strong posting. When they attempt to post with their free leg, angle your hips away from that side to reduce their leverage. You can also use your leg configuration to crowd their free leg or transition toward saddle to control both legs. Their free leg positioning often telegraphs escape attempts.",
+        "answer_line": "Angle hips away, crowd leg",
+        "distractors": {
+          "plausible": [
+            "Ignore it, focus on grips",
+            "Pin free leg with your hand"
+          ],
+          "trap": [
+            "Square up to their free leg"
+          ]
+        }
       },
       {
         "question": "Your opponent is driving forward aggressively to stack or smash - what options do you have?",
-        "answer": "Forward pressure actually creates opportunities. Their forward drive exposes their far leg for inside ashi entry (higher percentage than outside ashi). Alternatively, their driving momentum can be redirected into a kneebar setup as their knee extends. Do not fight their pressure directly - use it to facilitate transitions. The worst response is lying flat and absorbing the stack."
+        "answer": "Forward pressure actually creates opportunities. Their forward drive exposes their far leg for inside ashi entry (higher percentage than outside ashi). Alternatively, their driving momentum can be redirected into a kneebar setup as their knee extends. Do not fight their pressure directly - use it to facilitate transitions. The worst response is lying flat and absorbing the stack.",
+        "answer_line": "Use drive: inside ashi/kneebar",
+        "distractors": {
+          "plausible": [
+            "Absorb pressure, hold tight",
+            "Retreat to guard immediately"
+          ],
+          "trap": [
+            "Lie flat and eat the stack"
+          ]
+        }
       },
       {
         "question": "What determines whether you should finish from outside ashi or transition to a more dominant entanglement?",
-        "answer": "Outside ashi is primarily a transitional position rather than a primary finishing position. Finish from outside ashi when the opponent is static and presents their heel cleanly, or when you have perfect hip angle and leg configuration. Transition to inside ashi or saddle when the opponent is actively escaping, when their heel is protected, or when they create angles that make outside ashi less effective. Advanced practitioners treat outside ashi as a gateway position."
+        "answer": "Outside ashi is primarily a transitional position rather than a primary finishing position. Finish from outside ashi when the opponent is static and presents their heel cleanly, or when you have perfect hip angle and leg configuration. Transition to inside ashi or saddle when the opponent is actively escaping, when their heel is protected, or when they create angles that make outside ashi less effective. Advanced practitioners treat outside ashi as a gateway position.",
+        "answer_line": "Finish if static & heel exposed",
+        "distractors": {
+          "plausible": [
+            "Always finish from here",
+            "Never finish, always transition"
+          ],
+          "trap": [
+            "Force finish through the escape"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to maintain the position over extended periods?",
-        "answer": "Energy management centers on using skeletal structure rather than muscular effort. The figure-4 leg configuration should lock in place without requiring constant squeeze - position your legs so the triangle holds naturally. Maintain grips efficiently using finger hooks rather than death grips. Flow between submission threats rather than holding any single position. Let your opponent's escape attempts create your offensive opportunities rather than constantly attacking."
+        "answer": "Energy management centers on using skeletal structure rather than muscular effort. The figure-4 leg configuration should lock in place without requiring constant squeeze - position your legs so the triangle holds naturally. Maintain grips efficiently using finger hooks rather than death grips. Flow between submission threats rather than holding any single position. Let your opponent's escape attempts create your offensive opportunities rather than constantly attacking.",
+        "answer_line": "Structure over squeeze, flow",
+        "distractors": {
+          "plausible": [
+            "Squeeze legs maximally always",
+            "Hold single choke tight"
+          ],
+          "trap": [
+            "Death-grip every position"
+          ]
+        }
       }
     ],
     "clips": [
@@ -725,31 +885,101 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines Outside Ashi-Garami and distinguishes it from other ashi variations?",
-      "answer": "Outside Ashi-Garami is defined by a figure-four leg clamp built on the outside of the opponent's trapped leg: the entangler's outside leg crosses over the opponent's thigh while the inside leg triangles underneath the knee, and the closing foot pulls back to cinch the loop so no space remains. The defining feature is that the knee line is controlled from the outside angle, which sets up outside-heel-hook and straight-ankle geometry rather than the inside exposure of inside ashi. This outside orientation is what the position's name references and what dictates every submission and escape available. Because both players are oriented around the same isolated limb, the geometry of the clamp is the shared reference that defines the exchange, even though the two roles pursue opposite goals within it."
+      "answer": "Outside Ashi-Garami is defined by a figure-four leg clamp built on the outside of the opponent's trapped leg: the entangler's outside leg crosses over the opponent's thigh while the inside leg triangles underneath the knee, and the closing foot pulls back to cinch the loop so no space remains. The defining feature is that the knee line is controlled from the outside angle, which sets up outside-heel-hook and straight-ankle geometry rather than the inside exposure of inside ashi. This outside orientation is what the position's name references and what dictates every submission and escape available. Because both players are oriented around the same isolated limb, the geometry of the clamp is the shared reference that defines the exchange, even though the two roles pursue opposite goals within it.",
+      "answer_line": "Outside figure-4 on trapped leg",
+      "distractors": {
+        "plausible": [
+          "Both legs triangle from inside",
+          "Foot pinned under armpit"
+        ],
+        "trap": [
+          "Knee-on-belly with leg trap"
+        ]
+      }
     },
     {
       "question": "Why is the 45-to-90-degree body angle between the two players so central to how this position functions?",
-      "answer": "The perpendicular-to-diagonal angle is the mechanical hinge of Outside Ashi-Garami because it determines who owns the trapped leg's rotational plane. At 45 to 90 degrees the entangling player's torso faces the trapped limb, maximizing leverage to rotate the foot and expose the heel, while a squarer or flatter angle collapses that leverage and lets the trapped player extract. For both players the fight is fundamentally about controlling this angle: the entangler works to keep it, and the trapped player works to square up or stand to destroy it. Because the angle governs leverage rather than any single grip, it is the shared variable that decides the exchange regardless of role."
+      "answer": "The perpendicular-to-diagonal angle is the mechanical hinge of Outside Ashi-Garami because it determines who owns the trapped leg's rotational plane. At 45 to 90 degrees the entangling player's torso faces the trapped limb, maximizing leverage to rotate the foot and expose the heel, while a squarer or flatter angle collapses that leverage and lets the trapped player extract. For both players the fight is fundamentally about controlling this angle: the entangler works to keep it, and the trapped player works to square up or stand to destroy it. Because the angle governs leverage rather than any single grip, it is the shared variable that decides the exchange regardless of role.",
+      "answer_line": "Angle controls rotational plane",
+      "distractors": {
+        "plausible": [
+          "Angle only affects comfort",
+          "Angle determines grip strength"
+        ],
+        "trap": [
+          "Square up to add pressure"
+        ]
+      }
     },
     {
       "question": "How does heel exposure geometry govern the danger level of this position for both players?",
-      "answer": "The submission threat in Outside Ashi-Garami is a function of whether the trapped leg's heel is rotationally accessible, not merely whether it is gripped. When the knee is allowed to turn outward and the hip externally rotates, the heel presents to the outside angle where the figure-four already sits, creating the finishing line for an outside heel hook. When the knee stays pointed forward and the heel is hidden inward, the same clamp controls the leg but has no rotational finish. This single geometric relationship is why heel position is the shared reference point for both players: it simultaneously defines the attacker's finish and the defender's survival."
+      "answer": "The submission threat in Outside Ashi-Garami is a function of whether the trapped leg's heel is rotationally accessible, not merely whether it is gripped. When the knee is allowed to turn outward and the hip externally rotates, the heel presents to the outside angle where the figure-four already sits, creating the finishing line for an outside heel hook. When the knee stays pointed forward and the heel is hidden inward, the same clamp controls the leg but has no rotational finish. This single geometric relationship is why heel position is the shared reference point for both players: it simultaneously defines the attacker's finish and the defender's survival.",
+      "answer_line": "Knee turn-out exposes the heel",
+      "distractors": {
+        "plausible": [
+          "Any grip exposes the heel",
+          "Distance exposes the heel"
+        ],
+        "trap": [
+          "Point knee outward to hide it"
+        ]
+      }
     },
     {
       "question": "What makes Outside Ashi-Garami a transitional gateway rather than a terminal finishing position?",
-      "answer": "Outside Ashi-Garami controls only one of the opponent's legs from a comparatively shallow outside angle, which gives the trapped player a defensible line to hide the heel and work extraction. Because the finish window is narrow and the control is a single-leg clamp, the position is treated as an entry into deeper entanglements rather than a place to camp. The canonical progression runs outside ashi to inside ashi to saddle, each step trapping the leg more deeply or adding the second leg to raise the finishing percentage. This transitional nature is a shared truth of the position: the entangler advances through it and the trapped player exploits its shallowness to escape."
+      "answer": "Outside Ashi-Garami controls only one of the opponent's legs from a comparatively shallow outside angle, which gives the trapped player a defensible line to hide the heel and work extraction. Because the finish window is narrow and the control is a single-leg clamp, the position is treated as an entry into deeper entanglements rather than a place to camp. The canonical progression runs outside ashi to inside ashi to saddle, each step trapping the leg more deeply or adding the second leg to raise the finishing percentage. This transitional nature is a shared truth of the position: the entangler advances through it and the trapped player exploits its shallowness to escape.",
+      "answer_line": "Shallow control, easy to escape",
+      "distractors": {
+        "plausible": [
+          "Deepest, most secure trap",
+          "Same finish rate as saddle"
+        ],
+        "trap": [
+          "Camp here for the finish"
+        ]
+      }
     },
     {
       "question": "How does Outside Ashi-Garami differ mechanically from the saddle and from inside ashi-garami?",
-      "answer": "The distinction is where the knee line is trapped and how deeply. Outside ashi controls the leg from the outside of the thigh with a single figure-four, exposing the heel to the outside angle. Inside ashi shifts the entanglement to the inside of the knee, changing the rotational line and increasing control. The saddle, or honey hole, threads the trapped leg between both of the entangler's legs so the knee is cross-bodied and pinned, trapping the limb far more deeply and unlocking inside heel hooks with much higher finish rates. Each variation is a different clamp geometry on the same limb, and outside ashi is the shallowest of the three."
+      "answer": "The distinction is where the knee line is trapped and how deeply. Outside ashi controls the leg from the outside of the thigh with a single figure-four, exposing the heel to the outside angle. Inside ashi shifts the entanglement to the inside of the knee, changing the rotational line and increasing control. The saddle, or honey hole, threads the trapped leg between both of the entangler's legs so the knee is cross-bodied and pinned, trapping the limb far more deeply and unlocking inside heel hooks with much higher finish rates. Each variation is a different clamp geometry on the same limb, and outside ashi is the shallowest of the three.",
+      "answer_line": "Outside knee trap, shallowest",
+      "distractors": {
+        "plausible": [
+          "Same depth as saddle",
+          "Traps both legs like saddle"
+        ],
+        "trap": [
+          "Deeper than inside ashi"
+        ]
+      }
     },
     {
       "question": "Why does the height differential between a low and an elevated player so strongly shape this position?",
-      "answer": "Outside Ashi-Garami is typically contested with one player low on their back or side controlling the leg and the other more elevated on knees or standing. Elevation matters because standing removes the entangler's ability to generate the hip extension needed to rotate the trapped foot, and it lets gravity and bodyweight assist extraction of the leg. The lower player, conversely, needs the trapped player at or near their level to align the finishing mechanics. This height relationship is a shared dynamic of the position: it favors escape as the trapped player rises and favors the finish as both players stay low."
+      "answer": "Outside Ashi-Garami is typically contested with one player low on their back or side controlling the leg and the other more elevated on knees or standing. Elevation matters because standing removes the entangler's ability to generate the hip extension needed to rotate the trapped foot, and it lets gravity and bodyweight assist extraction of the leg. The lower player, conversely, needs the trapped player at or near their level to align the finishing mechanics. This height relationship is a shared dynamic of the position: it favors escape as the trapped player rises and favors the finish as both players stay low.",
+      "answer_line": "Standing favors the escape",
+      "distractors": {
+        "plausible": [
+          "Height makes no difference",
+          "Standing favors the finisher"
+        ],
+        "trap": [
+          "Drop lower to escape faster"
+        ]
+      }
     },
     {
       "question": "Why must the figure-four clamp remain tight with the foot pulled toward the buttocks for the position to hold?",
-      "answer": "The entire control of Outside Ashi-Garami rests on eliminating space inside the figure-four, and the mechanism for that is pulling the closing foot back toward the buttocks so the loop cinches against the trapped thigh and knee. Any gap in the clamp lets the trapped leg slide, lets the knee rotate free, and lets the angle square up, all of which dissolve the leverage the position depends on. A loose triangle is therefore the shared signal both players read: it tells the entangler to re-cinch and squeeze, and it tells the trapped player that extraction or a stand-up has opened. Tightness is not a detail but the structural precondition that keeps the leg isolated."
+      "answer": "The entire control of Outside Ashi-Garami rests on eliminating space inside the figure-four, and the mechanism for that is pulling the closing foot back toward the buttocks so the loop cinches against the trapped thigh and knee. Any gap in the clamp lets the trapped leg slide, lets the knee rotate free, and lets the angle square up, all of which dissolve the leverage the position depends on. A loose triangle is therefore the shared signal both players read: it tells the entangler to re-cinch and squeeze, and it tells the trapped player that extraction or a stand-up has opened. Tightness is not a detail but the structural precondition that keeps the leg isolated.",
+      "answer_line": "Cinched foot to glutes, no gaps",
+      "distractors": {
+        "plausible": [
+          "Loose grip saves energy",
+          "Tightness only matters early"
+        ],
+        "trap": [
+          "Let the loop loosen to rest"
+        ]
+      }
     }
   ],
   "clips": [

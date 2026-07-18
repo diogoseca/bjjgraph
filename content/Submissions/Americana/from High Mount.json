@@ -318,52 +318,152 @@
       {
         "question": "What anatomical structure does the Americana from High Mount primarily attack?",
         "answer": "The Americana primarily attacks the glenohumeral (shoulder) joint by forcing external rotation beyond its natural range of motion. The rotational pressure stresses the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the labrum. Secondary stress is placed on the AC joint and biceps tendon. The mechanism is a forced external rotation with the elbow pinned as a fulcrum, creating a lever that amplifies rotational force on the shoulder joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist flexion and extension"
+          ],
+          "trap": [
+            "Internal rotation of shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their arm as you attempt to establish the figure-four grip - what do you do?",
         "answer": "A straightened arm is actually an invitation to armbar rather than a failed Americana attempt. Immediately transition by stepping your leg over their head, controlling the straightened arm at the wrist with both hands, and falling back for the armbar finish. The key is recognizing that the opponent's defensive reaction to the Americana creates the exact arm position needed for the armbar. This is why the Americana-to-armbar chain is one of the highest-percentage sequences from high mount.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Step over, control wrist, armbar",
+        "distractors": {
+          "plausible": [
+            "Force figure-four grip anyway",
+            "Switch to kimura grip instead"
+          ],
+          "trap": [
+            "Let go and reset the position"
+          ]
+        }
       },
       {
         "question": "What control must be established before you begin the paint stroke finish?",
         "answer": "Three control points must be locked before initiating the finish: (1) the wrist must be firmly pinned to the mat with no mobility, (2) the figure-four grip must be fully secured with your threading hand grabbing your own wrist, and (3) the opponent's elbow must be clamped to the mat between your forearms acting as the fulcrum. Additionally, your body weight should be distributed forward through your hips to pin the opponent's shoulder blade to the mat, and cross-face or head control should prevent them from turning toward the attacked arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist pinned, elbow clamped to mat",
+        "distractors": {
+          "plausible": [
+            "Cross-face grip locked in first",
+            "Both knees flared out wide"
+          ],
+          "trap": [
+            "Elbow lifted for extra torque"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging as you have the figure-four locked - how do you maintain the attack?",
         "answer": "Drive your hips down into their chest and widen your base slightly by spreading your knees. If they bridge toward the attacked arm side, use the bridge momentum to transition to technical mount while maintaining the figure-four grip if possible—the Americana can often be finished from technical mount with a modified angle. If they bridge away from the attacked arm, their bridge actually increases rotational pressure on the shoulder, potentially accelerating the tap. The key is staying heavy and using their movement rather than fighting it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive hips down, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Release grip and repost hands",
+            "Sit back to flatten their hips"
+          ],
+          "trap": [
+            "Muscle through with arm strength"
+          ]
+        }
       },
       {
         "question": "What is the point of no return for the defender once you have secured the Americana grip from High Mount?",
         "answer": "The point of no return occurs when the wrist has been dragged past the midpoint of the arc (roughly level with the opponent's ear) with the elbow still firmly pinned to the mat. At this point, the shoulder joint is near its end range of external rotation, and the opponent cannot generate enough force to reverse the rotational direction without first freeing the elbow fulcrum—which is pinned by both your forearm clamp and your body weight. Before this midpoint, the defender still has realistic options to straighten the arm, bridge, or resist the rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist past ear, elbow still pinned",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip fully locked",
+            "Opponent's back flat on mat"
+          ],
+          "trap": [
+            "Cross-face pressure applied"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors when applying the Americana from High Mount?",
         "answer": "The three most common finishing errors are: (1) allowing the elbow to lift off the mat, which eliminates the fulcrum and removes all rotational pressure; (2) rushing the paint stroke with a sudden jerk instead of smooth progressive pressure, which creates escape opportunities and risks injury; and (3) using only arm strength rather than engaging body weight and hip pressure for the finish, which leads to fatigue and insufficient force against strong opponents. Each error stems from the same root cause—prioritizing speed over positional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow lifts, jerks, arm-only force",
+        "distractors": {
+          "plausible": [
+            "Turning hips too early",
+            "Grip too tight too fast"
+          ],
+          "trap": [
+            "Applying pressure too slowly"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt to resist the arm rotation - how do you break this grip?",
         "answer": "Several options exist for breaking the belt grip. First, insert your fingers under their grip hand and peel it away while maintaining your figure-four on the wrist—strip the weakest fingers first (pinky and ring finger). Second, drive their elbow toward the mat with increased downward pressure through your figure-four, which stretches their arm and makes maintaining the grip progressively harder. Third, if the grip proves difficult to break, switch targets—attack the other arm or transition to a cross-collar choke while both their hands are occupied below their waist.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip pinky/ring, drive elbow down",
+        "distractors": {
+          "plausible": [
+            "Pry with one hand only",
+            "Yank the wrist away hard"
+          ],
+          "trap": [
+            "Release the wrist to peel grip"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are needed if the opponent has unusually flexible shoulders?",
         "answer": "Against flexible opponents, the standard paint stroke arc may not generate enough rotational pressure to force the tap. Adjust by driving the wrist further toward the hip rather than stopping at the standard finishing point, extending the arc of rotation. You can also increase the leverage by lifting your elbow slightly to create a steeper downward angle on the wrist while keeping their elbow pinned. If flexibility prevents the finish entirely, use the Americana attempt as a setup to chain into armbar or transition to mounted triangle, as their flexibility defense still commits their arm to a vulnerable position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extend arc further toward hip",
+        "distractors": {
+          "plausible": [
+            "Apply pressure faster",
+            "Switch to a straight armlock grip"
+          ],
+          "trap": [
+            "Release grip and reset stance"
+          ]
+        }
       },
       {
         "question": "What is the proper application speed and release protocol for the Americana from High Mount?",
         "answer": "The paint stroke must be applied slowly and progressively, taking a minimum of 3-5 seconds from initial rotational pressure to expected tap. In drilling, apply no more than 10-20% of your finishing pressure. Upon feeling or hearing any tap signal—verbal, hand tap, foot tap, or distress vocalization—immediately stop all rotational pressure, release the figure-four grip, and carefully lower the arm to a neutral position. Never drop the arm suddenly. Check verbally with your partner. The shoulder joint is vulnerable to sudden injury because the damage mechanism is cumulative rotation, not impact—this means injury can occur at the very end of the range with minimal additional force.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow 3-5 sec, stop instantly on tap",
+        "distractors": {
+          "plausible": [
+            "Fast single decisive jerk",
+            "Full pressure during drilling"
+          ],
+          "trap": [
+            "Continue briefly after tap"
+          ]
+        }
       },
       {
         "question": "How should you release the Americana from High Mount after your partner taps?",
         "answer": "Upon recognizing the tap, immediately freeze all rotational movement—do not continue the arc even slightly. Release the figure-four grip by opening your threading hand first, then carefully lower the opponent's arm back to a neutral position beside their body with controlled movement. Do not simply let go and drop the arm, as the shoulder may be at its end range and a sudden release can cause the arm to snap back painfully. Maintain mount control while verbally checking that your partner is okay. If they report any pain, encourage gentle shoulder mobility and suggest medical evaluation if discomfort persists beyond a few minutes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Freeze, release, lower arm gently",
+        "distractors": {
+          "plausible": [
+            "Quickly unhook and stand up",
+            "Loosen grip, keep mount pressure"
+          ],
+          "trap": [
+            "Let go and drop the arm"
+          ]
+        }
       }
     ],
     "clips": [
@@ -486,27 +586,77 @@
       {
         "question": "How do you recognize that the Americana from High Mount is being set up?",
         "answer": "The primary recognition cues are: the attacker's hand grabbing your wrist and driving it toward the mat beside your head, a hand threading under your tricep to establish the figure-four, the attacker's weight shifting to one side as they commit to isolating one arm, and increased cross-face pressure to prevent you from turning. Recognizing the setup during the wrist pin phase is critical because defensive success rates are highest before the figure-four is locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist pinned, hand threads tricep",
+        "distractors": {
+          "plausible": [
+            "Opponent grabs both wrists evenly",
+            "Sudden hip switch to knee-on-belly"
+          ],
+          "trap": [
+            "Opponent postures up tall"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Americana from High Mount?",
         "answer": "Tap clearly and immediately using multiple signals: verbal tap (saying 'tap' loudly), physical hand tap on the opponent or mat with your free hand (minimum 2 taps), or foot tapping the mat. Use multiple signals simultaneously to ensure the attacker recognizes the tap even in noisy training environments. Tap before you feel sharp pain—the shoulder joint reaches its damage threshold quickly under rotational pressure, and waiting for maximum pain means damage may already be occurring. There is no shame in early tapping to a locked submission from a dominant position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap verbally and hand/foot, early",
+        "distractors": {
+          "plausible": [
+            "Single quiet tap on their leg",
+            "Say 'stop' once and relax"
+          ],
+          "trap": [
+            "Wait for sharp pain first"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Americana from High Mount?",
         "answer": "The primary defensive options in order of preference are: (1) keep elbows tight and hands clasped to prevent wrist isolation entirely, (2) fight the wrist pin aggressively during the initial grip phase, (3) bridge toward the attacked arm when the attacker shifts weight for the grip transition, (4) straighten the arm as a last resort to prevent figure-four establishment while accepting armbar risk, and (5) turn toward the attacked arm to reduce rotational range if the lock is already established. The key is defending early—each progressive stage offers fewer options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbows tight, hands clasped",
+        "distractors": {
+          "plausible": [
+            "Turn away from attacked arm",
+            "Push attacker's hips off first"
+          ],
+          "trap": [
+            "Straighten arm immediately"
+          ]
+        }
       },
       {
         "question": "The attacker has pinned your wrist but has not secured the figure-four yet - what should you do?",
         "answer": "This is your highest-percentage defensive window. Immediately pull your elbow tight to your rib cage to prevent the attacker from threading their hand under your tricep. Simultaneously, attempt to bridge toward the attacked arm side—the attacker has committed one hand to the wrist pin and their second hand is reaching for the figure-four, meaning their base is compromised. If the bridge creates space, insert your knee and recover guard. If you cannot bridge, clasp your free hand onto the pinned wrist and use two-arm strength to pull it free from the pin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull elbow in, bridge to that side",
+        "distractors": {
+          "plausible": [
+            "Push their hips away and stand",
+            "Grab your own belt for support"
+          ],
+          "trap": [
+            "Let them thread the figure-four"
+          ]
+        }
       },
       {
         "question": "You feel rotational pressure beginning on your shoulder from a locked Americana - what is your immediate priority?",
         "answer": "Your immediate priority is to assess whether you can turn your body toward the attacked arm to reduce the rotational range. If turning provides relief, continue working to create frames and escape. If you cannot turn or the rotational pressure is already near your end range, tap immediately without hesitation. A locked Americana from high mount with the paint stroke in progress is one of the hardest submissions to escape—the attacker's body weight, the figure-four mechanical advantage, and the pinned elbow fulcrum create a system that amplifies force beyond what your shoulder can resist. Tapping is the correct decision.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Turn in, or tap immediately",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to escape",
+            "Push their head away"
+          ],
+          "trap": [
+            "Fight through the pain"
+          ]
+        }
       }
     ],
     "training_progressions": [

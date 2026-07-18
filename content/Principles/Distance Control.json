@@ -403,7 +403,17 @@
   "flashcards": [
     {
       "question": "What is the core biomechanical premise behind Distance Control?",
-      "answer": "Compression equals control and space equals opportunity — every escape first requires converting an opponent's tight pressure into usable distance for movement."
+      "answer": "Compression equals control and space equals opportunity — every escape first requires converting an opponent's tight pressure into usable distance for movement.",
+      "answer_line": "Tight=control, space=opportunity",
+      "distractors": {
+        "plausible": [
+          "Speed always beats strength",
+          "Strength creates control"
+        ],
+        "trap": [
+          "Stay tight and hold pressure"
+        ]
+      }
     },
     {
       "question": "Why must a frame be established before initiating hip movement?",
@@ -411,27 +421,87 @@
     },
     {
       "question": "Why is space best created in increments rather than one explosive movement?",
-      "answer": "Large explosive attempts are telegraphed, energy-expensive, and easily countered; building breathing room, then hip mobility, then escape paths makes each stage easier and conserves your gas tank."
+      "answer": "Large explosive attempts are telegraphed, energy-expensive, and easily countered; building breathing room, then hip mobility, then escape paths makes each stage easier and conserves your gas tank.",
+      "answer_line": "Small stages, not one explosion",
+      "distractors": {
+        "plausible": [
+          "One big explosive escape attempt",
+          "Move fast to save energy"
+        ],
+        "trap": [
+          "Go all-in on first attempt"
+        ]
+      }
     },
     {
       "question": "When are the best windows to attempt space creation against a skilled top player?",
-      "answer": "During weight transitions — when the opponent shifts weight, re-grips, or advances position — because their base and pressure are momentarily compromised and easiest to exploit."
+      "answer": "During weight transitions — when the opponent shifts weight, re-grips, or advances position — because their base and pressure are momentarily compromised and easiest to exploit.",
+      "answer_line": "During opponent weight shifts",
+      "distractors": {
+        "plausible": [
+          "Right after they settle in",
+          "When you feel strongest"
+        ],
+        "trap": [
+          "Right as they lock pressure"
+        ]
+      }
     },
     {
       "question": "How does the primary space-creation mechanic differ between mount and side control?",
-      "answer": "Mount relies mainly on bridging to elevate and disrupt the opponent's base, while side control relies on shoulder frames combined with hip escape (shrimping) to generate lateral distance."
+      "answer": "Mount relies mainly on bridging to elevate and disrupt the opponent's base, while side control relies on shoulder frames combined with hip escape (shrimping) to generate lateral distance.",
+      "answer_line": "Mount bridges, side frames+shrimps",
+      "distractors": {
+        "plausible": [
+          "Both rely on bridging only",
+          "Both use shoulder frames"
+        ],
+        "trap": [
+          "Side control relies on bridging"
+        ]
+      }
     },
     {
       "question": "What is the most common error when shrimping, and how is it corrected?",
-      "answer": "Shrimping with flat hips, which yields no leverage; the fix is to turn onto your side and create a hip angle (one shoulder lower) before driving the hips away from the opponent."
+      "answer": "Shrimping with flat hips, which yields no leverage; the fix is to turn onto your side and create a hip angle (one shoulder lower) before driving the hips away from the opponent.",
+      "answer_line": "Angle hips before shrimping",
+      "distractors": {
+        "plausible": [
+          "Push off mat with palms",
+          "Shrimp harder, same angle"
+        ],
+        "trap": [
+          "Bridge up instead of shrimping"
+        ]
+      }
     },
     {
       "question": "Why should a bridge be directed toward the opponent's weak side rather than straight up?",
-      "answer": "A straight bridge lets the opponent settle right back down; angling toward their head or narrower base disrupts their structure and opens a genuine escape path."
+      "answer": "A straight bridge lets the opponent settle right back down; angling toward their head or narrower base disrupts their structure and opens a genuine escape path.",
+      "answer_line": "Bridge toward their weak side",
+      "distractors": {
+        "plausible": [
+          "Bridge straight up each time",
+          "Bridge to your strong side"
+        ],
+        "trap": [
+          "Bridge into their base"
+        ]
+      }
     },
     {
       "question": "What must happen the instant space is created, and why?",
-      "answer": "It must be used immediately — inserting a knee shield, recovering guard, or continuing the escape — because an aware opponent recovers compression within roughly one to two seconds."
+      "answer": "It must be used immediately — inserting a knee shield, recovering guard, or continuing the escape — because an aware opponent recovers compression within roughly one to two seconds.",
+      "answer_line": "Use the space immediately",
+      "distractors": {
+        "plausible": [
+          "Rest before continuing",
+          "Reset base then move"
+        ],
+        "trap": [
+          "Wait for a better opening"
+        ]
+      }
     }
   ],
   "clips": [

@@ -302,7 +302,17 @@
       },
       {
         "question": "What indicators tell you truck maintenance is failing and you should transition to back control?",
-        "answer": "Key failure indicators include: boot pressure reduced below effective torque despite re-seating attempts, opponent's trapped leg more than halfway extracted from entanglement, opponent achieving significant hip rotation toward facing you, or opponent establishing a strong frame that prevents re-establishment of chest pressure. When two or more of these occur simultaneously, immediately transition to back control by inserting hooks rather than fighting a losing maintenance battle."
+        "answer": "Key failure indicators include: boot pressure reduced below effective torque despite re-seating attempts, opponent's trapped leg more than halfway extracted from entanglement, opponent achieving significant hip rotation toward facing you, or opponent establishing a strong frame that prevents re-establishment of chest pressure. When two or more of these occur simultaneously, immediately transition to back control by inserting hooks rather than fighting a losing maintenance battle.",
+        "answer_line": "2+ warning signs, insert hooks",
+        "distractors": {
+          "plausible": [
+            "Boot pressure drops, re-seat",
+            "Wait for leg to fully escape"
+          ],
+          "trap": [
+            "Hold pressure, ignore frame"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a granby roll while you maintain truck—what is your response?",

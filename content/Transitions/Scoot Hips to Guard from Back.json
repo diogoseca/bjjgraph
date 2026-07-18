@@ -263,7 +263,17 @@
       },
       {
         "question": "Which hook should you target first when clearing hooks during the hip scoot escape?",
-        "answer": "Target the bottom hook first because it provides the foundational control for the opponent's lower body position. Clearing the bottom hook destabilizes their entire hook structure and creates the space necessary for the turning motion into guard. The top hook becomes much less effective once the bottom hook is removed."
+        "answer": "Target the bottom hook first because it provides the foundational control for the opponent's lower body position. Clearing the bottom hook destabilizes their entire hook structure and creates the space necessary for the turning motion into guard. The top hook becomes much less effective once the bottom hook is removed.",
+        "answer_line": "Bottom hook first",
+        "distractors": {
+          "plausible": [
+            "Top hook first",
+            "Both hooks simultaneously"
+          ],
+          "trap": [
+            "Ignore hooks, attack the neck first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins tightening their hooks as you start scooting downward - what adjustment do you make?",
@@ -271,11 +281,31 @@
       },
       {
         "question": "What is the critical direction you must turn when completing the escape to recover guard?",
-        "answer": "You must turn into your opponent by rotating your inside shoulder toward their chest, never away from them. Turning into them maintains physical connection and allows immediate guard establishment with knee insertion. Turning away creates space for them to follow your rotation, re-take back control, or transition to mount."
+        "answer": "You must turn into your opponent by rotating your inside shoulder toward their chest, never away from them. Turning into them maintains physical connection and allows immediate guard establishment with knee insertion. Turning away creates space for them to follow your rotation, re-take back control, or transition to mount.",
+        "answer_line": "Turn into them, shoulder to chest",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Turn flat onto your back"
+          ],
+          "trap": [
+            "Roll away toward their far side"
+          ]
+        }
       },
       {
         "question": "How does the presence of a body triangle change your approach to this escape?",
-        "answer": "A body triangle fundamentally changes the mechanics because the locked legs cannot be cleared through simple hook removal or downward scooting. You must first address the body triangle by turning toward the triangle lock side to reduce the squeeze and create space, then work to unlock the triangle before attempting the hip scoot. The standard scooting motion is significantly less effective against body triangle control."
+        "answer": "A body triangle fundamentally changes the mechanics because the locked legs cannot be cleared through simple hook removal or downward scooting. You must first address the body triangle by turning toward the triangle lock side to reduce the squeeze and create space, then work to unlock the triangle before attempting the hip scoot. The standard scooting motion is significantly less effective against body triangle control.",
+        "answer_line": "Unlock triangle before scooting",
+        "distractors": {
+          "plausible": [
+            "Scoot faster to beat the lock",
+            "Clear hooks like normal first"
+          ],
+          "trap": [
+            "Turn away from the triangle side"
+          ]
+        }
       },
       {
         "question": "What immediate actions must you take after completing the turn to prevent being passed to side control?",
@@ -283,7 +313,17 @@
       },
       {
         "question": "When is the optimal timing window to initiate the hip scoot during back control defense?",
-        "answer": "The optimal window is immediately after successfully defending a submission attempt when the opponent's grip loosens slightly, or after establishing solid two-on-one hand fighting control that prevents the opponent from attacking the neck. The opponent's momentary focus on re-establishing their choking grip creates the window for hip movement that is hardest to counter."
+        "answer": "The optimal window is immediately after successfully defending a submission attempt when the opponent's grip loosens slightly, or after establishing solid two-on-one hand fighting control that prevents the opponent from attacking the neck. The opponent's momentary focus on re-establishing their choking grip creates the window for hip movement that is hardest to counter.",
+        "answer_line": "Right after defending a submission",
+        "distractors": {
+          "plausible": [
+            "The instant hooks are first locked",
+            "Right before they attack the neck"
+          ],
+          "trap": [
+            "Mid-choke while hands are trapped"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves significant spinal movement and neck pressure throughout its execution. Ensure your chin remains tucked at all times to protect cervical vertebrae from choke pressure during the transition. Never force the scooting motion if you feel sharp pain in your neck or spine. During training, communicate with your partner about the intensity of their hooks and choke attempts. Tap immediately if a choke is secured during practice rather than continuing the escape attempt. Build the scooting motion gradually through repetition before applying it under full resistance to prevent injury.",
@@ -401,11 +441,31 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating a hip scoot escape?",
-        "answer": "The earliest cue is feeling small alternating shoulder movements against your chest as they begin walking their shoulders toward your feet. This shoulder walking motion precedes any visible hip movement and represents the initial phase of the escape before hooks are directly threatened. Responding at this stage with body adjustment is far easier than waiting for noticeable hip displacement."
+        "answer": "The earliest cue is feeling small alternating shoulder movements against your chest as they begin walking their shoulders toward your feet. This shoulder walking motion precedes any visible hip movement and represents the initial phase of the escape before hooks are directly threatened. Responding at this stage with body adjustment is far easier than waiting for noticeable hip displacement.",
+        "answer_line": "Small alternating shoulder walking",
+        "distractors": {
+          "plausible": [
+            "Sudden bridge and roll attempt",
+            "Hands gripping your pants first"
+          ],
+          "trap": [
+            "Visible hip displacement backward"
+          ]
+        }
       },
       {
         "question": "Your opponent clears your bottom hook during the scoot - what is your best immediate response?",
-        "answer": "Immediately transition to mount by driving your hips forward over their hip and establishing mount position before they can insert their knee for half guard. The moment between hook clearance and guard establishment is a brief window where mount is highly achievable. If mount is not available, re-insert the hook immediately or lock a body triangle with the remaining hook."
+        "answer": "Immediately transition to mount by driving your hips forward over their hip and establishing mount position before they can insert their knee for half guard. The moment between hook clearance and guard establishment is a brief window where mount is highly achievable. If mount is not available, re-insert the hook immediately or lock a body triangle with the remaining hook.",
+        "answer_line": "Drive hips forward, take mount",
+        "distractors": {
+          "plausible": [
+            "Re-lock both hooks immediately",
+            "Flatten them out with body weight"
+          ],
+          "trap": [
+            "Chase the far arm for a choke"
+          ]
+        }
       },
       {
         "question": "How does transitioning to body triangle prevent the hip scoot escape?",

@@ -261,42 +261,122 @@
       {
         "question": "What anatomical structures does the cross collar choke from body triangle target?",
         "answer": "The cross collar choke targets both carotid arteries on the lateral sides of the neck. The crossed wrists create a scissoring action that compresses the carotid arteries bilaterally, restricting blood flow to the brain. This is a blood choke, not an air choke, and produces unconsciousness within seconds when properly applied.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Only one carotid artery",
+            "Vagus nerve pressure point"
+          ],
+          "trap": [
+            "Center of the windpipe"
+          ]
+        }
       },
       {
         "question": "Your opponent aggressively strips your first collar grip before you can secure the second - what adjustment prevents this cycle from repeating?",
         "answer": "Immediately switch to a rear naked choke attempt when their hands leave your wrist to fight your collar grip. This creates a dilemma where defending the collar exposes the neck to the RNC, and defending the RNC exposes the collar. Chain between these two attacks so each defensive reaction opens the other submission pathway.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten RNC when grip is stripped",
+        "distractors": {
+          "plausible": [
+            "Re-grip the same collar again",
+            "Switch to a bow and arrow choke"
+          ],
+          "trap": [
+            "Open the triangle to re-grip"
+          ]
+        }
       },
       {
         "question": "What role does the body triangle squeeze play during the cross collar choke finishing sequence?",
         "answer": "The body triangle squeeze restricts the opponent's diaphragm and compresses their ribcage, creating breathing difficulty that compounds with the blood choke. This dual pressure forces the opponent to address two simultaneous threats and often accelerates the tap. Maintaining or increasing the squeeze during the choke prevents the opponent from settling into calm defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compounds pressure, splits attention",
+        "distractors": {
+          "plausible": [
+            "Only provides positional control",
+            "Release it to focus on the choke"
+          ],
+          "trap": [
+            "Loosen triangle to sink choke deeper"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the choke is correctly applied to the carotid arteries rather than the trachea?",
         "answer": "A correctly applied blood choke produces a feeling of tightness on the sides of the neck, and the opponent may show facial color change within seconds. If the opponent is coughing, gagging, or the pressure is concentrated on the front of the throat, the choke is misapplied to the trachea. Wrist position against the lateral neck and elbow retraction toward the hips indicate correct arterial targeting.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Neck-side tightness, no gagging",
+        "distractors": {
+          "plausible": [
+            "Coughing means it's working",
+            "Pressure builds on front of throat"
+          ],
+          "trap": [
+            "Wait for opponent to gasp loudly"
+          ]
+        }
       },
       {
         "question": "How should you release the cross collar choke from body triangle after your partner taps?",
         "answer": "Immediately release both collar grips upon any tap signal. Then open the body triangle by unlocking the figure-four leg configuration. Allow your partner space to recover breathing and circulation. Check their alertness and ensure full recovery before continuing training. Never hold any pressure past the tap, as blood chokes can cause unconsciousness within seconds of effective application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grips, open triangle, check",
+        "distractors": {
+          "plausible": [
+            "Open triangle before releasing grips",
+            "Ease pressure off slowly first"
+          ],
+          "trap": [
+            "Hold briefly to confirm the tap"
+          ]
+        }
       },
       {
         "question": "What finishing mechanic produces the strongest choke - squeezing the hands together or pulling elbows toward the hips?",
         "answer": "Pulling the elbows toward the hips while expanding the chest forward produces a far stronger and more sustainable finish. This uses the large muscles of the back and the mechanical advantage of chest expansion rather than forearm and grip strength. Squeezing hands together fatigues quickly and often creates tracheal pressure rather than clean arterial compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull elbows to hips, expand chest",
+        "distractors": {
+          "plausible": [
+            "Squeeze the hands together harder",
+            "Pull elbows straight up and back"
+          ],
+          "trap": [
+            "Rely on grip and forearm strength"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin deeply to prevent collar access - what strategy opens the collar for grip insertion?",
         "answer": "Increase the body triangle squeeze to force them to address breathing, which loosens the chin tuck as they reflexively lift their head. Alternatively, use a cross-face or jaw pressure with one hand to create space for the collar hand. You can also feed the collar grip from below the chin rather than over the shoulder, working the fingers along the jaw line into the collar.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze triangle, add jaw pressure",
+        "distractors": {
+          "plausible": [
+            "Pry the chin up with both hands",
+            "Grip collar over the shoulder"
+          ],
+          "trap": [
+            "Release triangle to reposition"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to apply this choke at full speed during training, and what is the proper application speed?",
         "answer": "Blood chokes can cause unconsciousness in as little as 3-4 seconds when properly applied to both carotid arteries. At full competition speed, a training partner may not have adequate time to recognize the choke is locked and signal a tap before losing consciousness. The proper training application speed is 3-5 seconds minimum, with progressive pressure that gives the partner clear opportunity to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, 3-5 seconds minimum",
+        "distractors": {
+          "plausible": [
+            "Speed doesn't matter much here",
+            "Apply moderate, 1-2 seconds"
+          ],
+          "trap": [
+            "Full speed lets partner react faster"
+          ]
+        }
       }
     ],
     "clips": [
@@ -419,42 +499,122 @@
       {
         "question": "How do you recognize that the cross collar choke from body triangle is being set up?",
         "answer": "The primary cue is the attacker releasing their seatbelt or upper body control to begin feeding a hand over your shoulder toward your collar. You will feel fingers entering your collar fabric and the attacker pulling slack from the material. Increased body triangle squeeze pressure often accompanies collar grip attempts as a distraction tactic.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand feeds over shoulder to collar",
+        "distractors": {
+          "plausible": [
+            "Increased squeeze alone signals it",
+            "Hooks tightening around the waist"
+          ],
+          "trap": [
+            "Ignore squeeze, watch legs only"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the cross collar choke from body triangle?",
         "answer": "Tap clearly and early using any available signal: verbal tap, hand tap on the attacker's body or mat, or foot tap. Because the body triangle restricts torso movement, ensure you can reach the attacker or mat with at least one hand. If your hands are trapped, use a verbal tap immediately. Do not wait to see if you can escape a locked blood choke, as unconsciousness can occur within seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early - verbal, hand, or foot",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only when vision blurs"
+          ],
+          "trap": [
+            "Try to fight through the pressure"
+          ]
+        }
       },
       {
         "question": "Why should collar grip defense be prioritized over body triangle escape when the attacker begins collar work?",
         "answer": "The cross collar choke is the immediate finishing threat that can end the match in seconds. The body triangle, while uncomfortable, is a controlling position that does not directly produce a submission. Addressing the body triangle while ignoring collar grips allows the attacker to set up an uncontested choke, whereas defending the collar first neutralizes the immediate danger and gives you time to work the positional escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collar choke is the immediate threat",
+        "distractors": {
+          "plausible": [
+            "Both are equal priority always",
+            "Escape the position, ignore collar"
+          ],
+          "trap": [
+            "Focus on triangle escape first"
+          ]
+        }
       },
       {
         "question": "What defensive options are available once both collar grips are already set deep?",
         "answer": "Once both grips are set, your options are limited but not zero. Frame your forearm across the attacker's forearm to block the finishing motion. Attempt to peel the most recently set grip using two-on-one technique. Turn aggressively into the attacker to change the choking angle. If the elbows are already retracting and pressure is building on your carotid arteries, tap immediately rather than risking unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Frame forearm, peel grip, turn in",
+        "distractors": {
+          "plausible": [
+            "Pull straight back and away",
+            "Push down on opponent's hips"
+          ],
+          "trap": [
+            "Power out using pure strength"
+          ]
+        }
       },
       {
         "question": "Your attacker switches between collar grip attempts and rear naked choke setups - how should you adjust your defense?",
         "answer": "Keep one hand always positioned to defend the neck and the other fighting collar grips. When the attacker switches to RNC, redirect your collar-defense hand to neck protection. When they switch back to collar, move one hand to collar defense. Avoid committing both hands to one threat, as this opens the other submission pathway. Accept that you cannot fully prevent both attacks and focus on surviving long enough to create an escape opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "One hand always guards the neck",
+        "distractors": {
+          "plausible": [
+            "Commit both hands to the collar",
+            "Commit both hands to the RNC"
+          ],
+          "trap": [
+            "Ignore the RNC, focus collar only"
+          ]
+        }
       },
       {
         "question": "How does your body angle affect the effectiveness of the cross collar choke being applied to you?",
         "answer": "Turning your torso toward the attacker's body reduces the scissoring angle of their crossed wrists against your carotid arteries, making the choke significantly less effective. Staying flat or angled away maximizes the attacker's mechanical advantage and choke tightness. Even a partial turn of 30-45 degrees disrupts the collar alignment and buys time for grip fighting. Use this angle change in combination with grip strips rather than relying on turning alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn into attacker, reduce angle",
+        "distractors": {
+          "plausible": [
+            "Turn away to create more space",
+            "Stay flat and only grip fight"
+          ],
+          "trap": [
+            "Arch your back to escape pressure"
+          ]
+        }
       },
       {
         "question": "When is attempting to turn into the attacker the right defensive choice versus staying in position and grip fighting?",
         "answer": "Turn into the attacker when they have committed both hands to collar work, as this means they have minimal upper body control to prevent your rotation. If only one collar grip is set and their other hand maintains seatbelt or upper body control, stay in position and focus on stripping the single grip before it becomes a completed choke. Turning against a strong seatbelt grip often fails and wastes energy, while turning against a two-handed collar attack exploits their over-commitment to the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn when both hands grip collar",
+        "distractors": {
+          "plausible": [
+            "Always turn in immediately",
+            "Turn as soon as one grip is set"
+          ],
+          "trap": [
+            "Turn against a strong seatbelt hold"
+          ]
+        }
       },
       {
         "question": "How should you manage the compounding effect of breathing restriction from the body triangle while defending collar grips?",
         "answer": "Take controlled, shallow chest breaths rather than attempting deep diaphragmatic breathing that the body triangle restricts. Avoid holding your breath during grip fights, as this accelerates oxygen depletion and panic. Work in measured bursts of grip defense followed by brief recovery moments rather than sustained maximum effort. Recognize that your timeline is limited by oxygen management and make decisive defensive choices rather than passive resistance that prolongs time under compounding pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shallow breaths, measured bursts",
+        "distractors": {
+          "plausible": [
+            "Hold your breath during grip fights",
+            "Breathe deep with the diaphragm"
+          ],
+          "trap": [
+            "Sustain maximum effort throughout"
+          ]
+        }
       }
     ],
     "training_progressions": [

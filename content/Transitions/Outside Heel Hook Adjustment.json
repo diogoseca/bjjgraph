@@ -224,23 +224,73 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Outside Heel Hook Adjustment?",
-        "answer": "The primary goal is to reposition your grips and body angle to create effective heel hook finishing leverage from the reversed Ushiro Ashi-Garami configuration. The opponent's inversion changes optimal attack angles, so this adjustment restores the biomechanical advantage needed for the rotational finish on the knee ligaments."
+        "answer": "The primary goal is to reposition your grips and body angle to create effective heel hook finishing leverage from the reversed Ushiro Ashi-Garami configuration. The opponent's inversion changes optimal attack angles, so this adjustment restores the biomechanical advantage needed for the rotational finish on the knee ligaments.",
+        "answer_line": "Restore angle for heel hook leverage",
+        "distractors": {
+          "plausible": [
+            "Re-establish inside ashi-garami",
+            "Reset to standard 50-50 position"
+          ],
+          "trap": [
+            "Release legs and stand up"
+          ]
+        }
       },
       {
         "question": "What position do you start Outside Heel Hook Adjustment from?",
-        "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement that occurs when an opponent attempts to escape standard ashi-garami by inverting their hips. You maintain leg entanglement despite their rotation and adjust your attacks for the new configuration."
+        "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement that occurs when an opponent attempts to escape standard ashi-garami by inverting their hips. You maintain leg entanglement despite their rotation and adjust your attacks for the new configuration.",
+        "answer_line": "Ushiro Ashi-Garami (top)",
+        "distractors": {
+          "plausible": [
+            "Standard Outside Ashi-Garami (top)",
+            "Saddle (top)"
+          ],
+          "trap": [
+            "Turtle Top"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Outside Heel Hook Adjustment?",
-        "answer": "The primary grip is a figure-four configuration where your attacking hand cups the heel bone with forearm along the calf, while your secondary hand locks over your primary wrist. This creates a secure grip that prevents heel slippage during the rotational finish while maximizing torque transmission to the knee."
+        "answer": "The primary grip is a figure-four configuration where your attacking hand cups the heel bone with forearm along the calf, while your secondary hand locks over your primary wrist. This creates a secure grip that prevents heel slippage during the rotational finish while maximizing torque transmission to the knee.",
+        "answer_line": "Figure-four cupping the heel bone",
+        "distractors": {
+          "plausible": [
+            "Single-hand grip on the Achilles",
+            "Both hands gripping the toes"
+          ],
+          "trap": [
+            "Grip the shin and pull to chest"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to prevent your hip rotation—how do you adjust?",
-        "answer": "When the opponent posts to block your hip rotation, use your outside hand to control or strip their posting arm while maintaining the heel grip with your primary hand. Alternatively, change finishing angle by rotating toward their knee rather than away, using their post as a pivot point."
+        "answer": "When the opponent posts to block your hip rotation, use your outside hand to control or strip their posting arm while maintaining the heel grip with your primary hand. Alternatively, change finishing angle by rotating toward their knee rather than away, using their post as a pivot point.",
+        "answer_line": "Strip the post or pivot off it",
+        "distractors": {
+          "plausible": [
+            "Release heel grip to fight the post",
+            "Wait for the post to tire out"
+          ],
+          "trap": [
+            "Yank the leg straight up"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail for generating finishing torque?",
-        "answer": "The critical detail is driving your elbows toward your opposite hip while extending your hips away from the opponent. This creates rotational torque from your entire body rather than just arm strength. Your elbows should stay tight to your ribs throughout, not flare outward."
+        "answer": "The critical detail is driving your elbows toward your opposite hip while extending your hips away from the opponent. This creates rotational torque from your entire body rather than just arm strength. Your elbows should stay tight to your ribs throughout, not flare outward.",
+        "answer_line": "Elbows to hip, hips extend away",
+        "distractors": {
+          "plausible": [
+            "Pull with the arms and shoulders",
+            "Squeeze knees together hard"
+          ],
+          "trap": [
+            "Flare elbows out for leverage"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window for attempting this adjustment?",
@@ -373,7 +423,17 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize the Outside Heel Hook Adjustment beginning?",
-        "answer": "Immediately establish and maintain maximum dorsiflexion by pulling your toes hard toward your shin. This hides the heel bone from the attacker's cupping grip and is the foundation upon which all other defenses are built. Without consistent boot defense, no amount of grip fighting or escape attempts will prevent the submission."
+        "answer": "Immediately establish and maintain maximum dorsiflexion by pulling your toes hard toward your shin. This hides the heel bone from the attacker's cupping grip and is the foundation upon which all other defenses are built. Without consistent boot defense, no amount of grip fighting or escape attempts will prevent the submission.",
+        "answer_line": "Max dorsiflexion, toes toward shin",
+        "distractors": {
+          "plausible": [
+            "Point toes to reduce grip surface",
+            "Kick the free leg to create space"
+          ],
+          "trap": [
+            "Pull knee tight to your chest"
+          ]
+        }
       },
       {
         "question": "When is the best moment to attempt a counter-entanglement on the attacker's legs?",

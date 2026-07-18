@@ -298,51 +298,151 @@
       {
         "question": "What anatomical structure does the belly down armbar from New York primarily attack and why is the belly down position particularly dangerous for this target?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it to stress the ulnar collateral ligament and joint capsule. The belly down position is particularly dangerous because the prone orientation creates a mechanical advantage ratio exceeding 5:1 against the elbow joint. Unlike a standard supine armbar where the attacker must lift their hips against gravity, the belly down position allows gravity to assist the extension force, meaning even small hip elevations generate significant hyperextension pressure. This amplified leverage means damage can occur much faster than practitioners expect.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow, gravity boosts leverage",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint, like kimura",
+            "Wrist joint, twist pressure"
+          ],
+          "trap": [
+            "Ribs, compression damage"
+          ]
+        }
       },
       {
         "question": "Your opponent starts pulling their trapped elbow back toward their hip during the transition from overhook to leg clamp - what adjustment prevents the escape?",
         "answer": "Do not chase the retracting arm. Instead, maintain the deep overhook pressure and use your leg that was crossing their back to immediately hook over their shoulder, creating a secondary barrier to extraction. If their arm is partially extracted, transition to a triangle setup since their arm withdrawal creates the inside position needed for the triangle lock. If the overhook is still deep enough, re-consolidate New York control and wait for a better opening rather than forcing a compromised armbar attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook shoulder, don't chase arm",
+        "distractors": {
+          "plausible": [
+            "Grab wrist and pull harder",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Release overhook to regrip"
+          ]
+        }
       },
       {
         "question": "What is the correct grip configuration on the opponent's wrist during the belly down finish and why does it matter?",
         "answer": "Use a two-on-one grip with both hands wrapping the wrist, thumbs pointing toward the opponent's fingers and palms overlapping around the wrist. Pull the wrist tight against your chest so it maintains contact with your sternum throughout the rotation. This grip configuration matters because it prevents the opponent from bending their elbow to relieve hyperextension pressure. A single-hand grip or a loose two-hand grip allows enough wrist rotation for the opponent to turn their arm and find extraction angles during the belly down rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one, thumbs to fingers",
+        "distractors": {
+          "plausible": [
+            "One hand grip, other on hip",
+            "Two hands, palms facing out"
+          ],
+          "trap": [
+            "Grab sleeve instead of wrist"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together to defend the arm extension after you have completed the belly down rotation - what is your finishing strategy?",
         "answer": "The belly down position makes hand clasping a delay rather than an escape. Maintain patient position and use small incremental hip bridges to gradually stress the grip until it breaks. Alternatively, use one hand to peel the clasping fingers while maintaining hip pressure with the other hand controlling the wrist. You can also walk your hips slightly higher toward the opponent's shoulder to increase the lever angle, which multiplies force against the clasped grip without requiring additional strength. Never rush or jerk against a clasped grip as this risks injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Small bridges, break the grip",
+        "distractors": {
+          "plausible": [
+            "Pry fingers apart fast",
+            "Wait for opponent to tire"
+          ],
+          "trap": [
+            "Jerk hard to snap the grip"
+          ]
+        }
       },
       {
         "question": "What is the critical fulcrum point for the belly down armbar finish and how do you verify it is correctly positioned?",
         "answer": "The critical fulcrum is the line of your hip bones pressing against the back of the opponent's elbow. Verify correct positioning by feeling the bony point of their elbow directly against your hip crease before initiating finishing pressure. If the elbow is too high (toward your waist), the lever is inefficient and the opponent can resist. If too low (toward your thighs), you risk the arm slipping free during extension. The correct position is confirmed when a very small hip bridge produces immediate and clear pressure on the opponent's elbow joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip bone on back of elbow",
+        "distractors": {
+          "plausible": [
+            "Hip bone on their bicep",
+            "Thigh pressing the forearm"
+          ],
+          "trap": [
+            "Knee driving into triceps"
+          ]
+        }
       },
       {
         "question": "During the belly down rotation, your opponent attempts a hitchhiker escape by rotating their thumb toward the mat - how do you counter this?",
         "answer": "Follow their rotation by adjusting your hip angle to stay perpendicular to their upper arm rather than their body. Squeeze your knees tighter to prevent the arm from rotating within your thigh clamp. The belly down position actually makes the hitchhiker significantly less effective than against a standard supine armbar because your body weight pins their shoulder, preventing the full body rotation the hitchhiker escape requires. If they persist, walk your hips slightly in the direction of their rotation to re-center the elbow against your hip fulcrum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stay perpendicular, knees tight",
+        "distractors": {
+          "plausible": [
+            "Release knees to re-angle",
+            "Switch to straight armbar"
+          ],
+          "trap": [
+            "Let them rotate freely"
+          ]
+        }
       },
       {
         "question": "Why must you establish a perpendicular hip angle before initiating the belly down rotation and what happens if you skip this step?",
         "answer": "The perpendicular hip angle is essential because it aligns your rotation axis with the arm isolation plane. Without this angle, rotating belly down requires you to simultaneously turn and reposition, creating a complex movement where the arm can shift off the hip fulcrum. Skipping this step typically results in either losing wrist control during an awkward rotation, the opponent's elbow sliding to an ineffective position between your thighs, or the rotation stalling at the halfway point where the opponent can stack and extract their arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Aligns rotation with arm isolation",
+        "distractors": {
+          "plausible": [
+            "Keeps hips low for base",
+            "Prevents opponent from bridging"
+          ],
+          "trap": [
+            "Only needed for bigger opponents"
+          ]
+        }
       },
       {
         "question": "What are the key safety protocols when applying the belly down armbar finish in training?",
         "answer": "Apply extension through slow, controlled hip elevation over 2-3 seconds minimum, never jerking or spiking the arm. The belly down position amplifies force far beyond what most practitioners expect, so what feels like light pressure to the attacker may produce serious hyperextension for the defender. Release immediately upon any tap signal. Practice the rotation and the finishing pressure as separate components until both are controlled. Never apply this technique on partners with known elbow injuries. Beginners should work at 50% pressure maximum until control is consistent.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow 2-3 sec controlled extension",
+        "distractors": {
+          "plausible": [
+            "Fast spike for quick tap",
+            "Full pressure builds control"
+          ],
+          "trap": [
+            "Jerk arm to force quick tap"
+          ]
+        }
       },
       {
         "question": "How should you release the belly down armbar after receiving a tap signal?",
         "answer": "Release extension pressure first by lowering your hips back to the mat and dropping the wrist downward, removing all hyperextension force from the elbow immediately. Then release your knee squeeze to free the arm from the thigh clamp. Finally, disengage completely by rolling off and creating space. Do not release in reverse order because opening the knees while maintaining wrist tension can cause the arm to jerk into a different hyperextension angle. Monitor your partner's arm mobility after release and check for signs of injury before continuing training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lower hips, drop wrist first",
+        "distractors": {
+          "plausible": [
+            "Release knees first, then wrist",
+            "Roll away immediately"
+          ],
+          "trap": [
+            "Open knees while holding wrist"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending intelligently by keeping their elbow bent and posture low - what strategy forces the opening for the belly down armbar from New York?",
-        "answer": "Use attack cycling to force a defensive error. Threaten the triangle by shooting your leg over their shoulder, then when they defend the triangle by posturing their head back, their trapped arm straightens momentarily as they redirect defensive effort. This straightening creates the window to clamp the arm and initiate the belly down rotation. Alternatively, use a hip bump to off-balance them forward, forcing them to post with their free hand, which isolates the overhook arm for the armbar entry. The key is making the armbar the second threat in a chain, not the first."
+        "answer": "Use attack cycling to force a defensive error. Threaten the triangle by shooting your leg over their shoulder, then when they defend the triangle by posturing their head back, their trapped arm straightens momentarily as they redirect defensive effort. This straightening creates the window to clamp the arm and initiate the belly down rotation. Alternatively, use a hip bump to off-balance them forward, forcing them to post with their free hand, which isolates the overhook arm for the armbar entry. The key is making the armbar the second threat in a chain, not the first.",
+        "answer_line": "Chain triangle threat first",
+        "distractors": {
+          "plausible": [
+            "Isolate arm before threatening",
+            "Increase pressure, wait it out"
+          ],
+          "trap": [
+            "Force the armbar directly"
+          ]
+        }
       }
     ],
     "clips": [
@@ -456,26 +556,76 @@
       {
         "question": "How do you recognize the belly down armbar from New York is being set up before the leg crosses over your head?",
         "answer": "The earliest cue is the attacker releasing their shin grip while maintaining the deep overhook, indicating they are transitioning from guard retention to submission setup. You will also feel their hips begin to elevate and angle perpendicular to your body as they create space for the leg swing. Their focus shifts from pulling your head down to controlling your wrist area. React immediately to these cues by fighting for posture recovery and pulling your elbow back toward your hip before the leg completes its path over your head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin grip releases, hips angle",
+        "distractors": {
+          "plausible": [
+            "Overhook tightens suddenly",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Opponent pulls head down harder"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a fully locked belly down armbar?",
         "answer": "Tap immediately using multiple signals simultaneously: verbal tap saying 'tap' clearly, physical hand tap on the attacker's body or the mat with your free hand, and foot tap on the mat with either leg. Use all available signals because the prone position may muffle verbal taps and limit the attacker's ability to feel hand taps. Do not wait to see if you can escape first - the belly down position creates extreme leverage that can cause serious elbow damage within 1-2 seconds of extension pressure beginning. Tapping early preserves your training longevity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap verbal, hand, and foot",
+        "distractors": {
+          "plausible": [
+            "Wait, then tap if it hurts",
+            "Tap only verbally, loud"
+          ],
+          "trap": [
+            "Try to escape before tapping"
+          ]
+        }
       },
       {
         "question": "What is the highest-percentage defensive window during the belly down armbar transition from New York?",
         "answer": "The highest-percentage window is between the attacker releasing their shin grip and their leg fully crossing over your head. During this 1-2 second window, the attacker's control structure is temporarily weakened because they have abandoned the shin control that maintained New York but have not yet established the leg clamp for the armbar. Use this window to explosively recover posture by driving your head upward and pulling your trapped elbow back toward your hip. If you miss this window, the next opportunity is during the belly down rotation before wrist control is secured, but this is significantly lower percentage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Between shin release and leg cross",
+        "distractors": {
+          "plausible": [
+            "During the belly down rotation",
+            "After wrist control is set"
+          ],
+          "trap": [
+            "Once fully belly down locked"
+          ]
+        }
       },
       {
         "question": "What defensive options remain after the attacker has completed the belly down rotation?",
         "answer": "Options are very limited once the rotation is complete. Hand clasping by grabbing your own wrist or bicep can delay the finish temporarily but will eventually fail against the mechanical advantage. The hitchhiker escape by rotating your thumb toward the mat and spinning has reduced effectiveness against belly down compared to standard armbar but may work if the attacker's wrist control is imperfect. Realistically, if the belly down position is fully locked with tight knees and two-on-one wrist control, the correct response is to tap immediately rather than risk injury fighting an unwinnable position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap — options are very limited",
+        "distractors": {
+          "plausible": [
+            "Hitchhiker escape, spin free",
+            "Clasp hands, hold indefinitely"
+          ],
+          "trap": [
+            "Bridge explosively to escape"
+          ]
+        }
       },
       {
         "question": "How do you prevent the initial arm isolation from New York that leads to the belly down armbar?",
-        "answer": "Prevent arm isolation by addressing it at the source: fight the deep overhook by keeping your elbow tight to your body and working to extract it through grip fighting on the attacker's overhook hand. Maintain as much posture as possible within New York by widening your base and using your free hand to frame against the attacker's hip. When you feel the attacker begin releasing their shin grip (the earliest transition cue), immediately pull your trapped elbow back toward your hip and drive your head upward for posture. The goal is making the overhook shallow enough that the attacker cannot maintain arm control through the leg transition."
+        "answer": "Prevent arm isolation by addressing it at the source: fight the deep overhook by keeping your elbow tight to your body and working to extract it through grip fighting on the attacker's overhook hand. Maintain as much posture as possible within New York by widening your base and using your free hand to frame against the attacker's hip. When you feel the attacker begin releasing their shin grip (the earliest transition cue), immediately pull your trapped elbow back toward your hip and drive your head upward for posture. The goal is making the overhook shallow enough that the attacker cannot maintain arm control through the leg transition.",
+        "answer_line": "Fight overhook, elbow tight",
+        "distractors": {
+          "plausible": [
+            "Widen base, ignore the arm",
+            "Wait for shin grip release"
+          ],
+          "trap": [
+            "Pull arm straight to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

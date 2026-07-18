@@ -265,47 +265,157 @@
     "flashcards": [
       {
         "question": "Why is the triangle to armbar transition considered a high-percentage attack combination?",
-        "answer": "The transition is high-percentage because defending the triangle choke naturally positions the opponent's arm in vulnerable placement for the armbar. The leg control established during the triangle remains intact during the transition, preventing escape. The opponent's defensive focus on relieving choking pressure creates cognitive distraction from the developing armbar threat, and the trapped arm is already isolated inside the triangle configuration, eliminating the most difficult step of any armbar attack."
+        "answer": "The transition is high-percentage because defending the triangle choke naturally positions the opponent's arm in vulnerable placement for the armbar. The leg control established during the triangle remains intact during the transition, preventing escape. The opponent's defensive focus on relieving choking pressure creates cognitive distraction from the developing armbar threat, and the trapped arm is already isolated inside the triangle configuration, eliminating the most difficult step of any armbar attack.",
+        "answer_line": "Defended arm is already isolated",
+        "distractors": {
+          "plausible": [
+            "Choke pressure alone forces tap",
+            "Opponent tires from leg squeeze"
+          ],
+          "trap": [
+            "Release legs to grab the arm"
+          ]
+        }
       },
       {
         "question": "What is the primary timing indicator that signals readiness to transition from triangle to armbar?",
-        "answer": "The primary indicator is when the opponent commits their trapped arm to a defensive action inside the triangle, typically framing against your thigh, pushing on your hip, or attempting to create space to relieve choking pressure. This committed arm movement exposes the limb for overhook isolation. Attempting the transition before the opponent commits to this defense often results in loss of control because the arm is not yet sufficiently exposed."
+        "answer": "The primary indicator is when the opponent commits their trapped arm to a defensive action inside the triangle, typically framing against your thigh, pushing on your hip, or attempting to create space to relieve choking pressure. This committed arm movement exposes the limb for overhook isolation. Attempting the transition before the opponent commits to this defense often results in loss of control because the arm is not yet sufficiently exposed.",
+        "answer_line": "Arm frames/pushes to defend choke",
+        "distractors": {
+          "plausible": [
+            "Opponent taps from choke pressure",
+            "Opponent postures fully upright"
+          ],
+          "trap": [
+            "Pivot immediately off the entry"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to stack forward aggressively during your pivot to armbar. How do you adjust?",
-        "answer": "When the opponent stacks forward, you have two primary options. First, use their forward momentum to transition to omoplata by releasing the far leg from their neck and swinging it over their back while maintaining arm control. Second, abandon the armbar temporarily and return to tight triangle control, breaking their posture back down with head control grips before resetting the angle. The key is recognizing the stack early and flowing to the appropriate response rather than forcing the armbar against strong forward pressure."
+        "answer": "When the opponent stacks forward, you have two primary options. First, use their forward momentum to transition to omoplata by releasing the far leg from their neck and swinging it over their back while maintaining arm control. Second, abandon the armbar temporarily and return to tight triangle control, breaking their posture back down with head control grips before resetting the angle. The key is recognizing the stack early and flowing to the appropriate response rather than forcing the armbar against strong forward pressure.",
+        "answer_line": "Flow to omoplata or reset triangle",
+        "distractors": {
+          "plausible": [
+            "Power through with hip extension",
+            "Release arm to re-grip wrist"
+          ],
+          "trap": [
+            "Let go of both legs and stand"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during this transition and why?",
-        "answer": "The perpendicular pivot is the most critical hip movement. You must swing your hips out to the side until your body forms a 90-degree angle with the opponent's torso. This angle creates optimal leverage for the armbar by positioning your hips directly across their shoulder line, which serves as the fulcrum for elbow hyperextension. Insufficient angle means weak leverage and easy defense. Excessive angle means you overshoot and lose the arm control that makes the finish possible."
+        "answer": "The perpendicular pivot is the most critical hip movement. You must swing your hips out to the side until your body forms a 90-degree angle with the opponent's torso. This angle creates optimal leverage for the armbar by positioning your hips directly across their shoulder line, which serves as the fulcrum for elbow hyperextension. Insufficient angle means weak leverage and easy defense. Excessive angle means you overshoot and lose the arm control that makes the finish possible.",
+        "answer_line": "Perpendicular 90-degree pivot",
+        "distractors": {
+          "plausible": [
+            "Pull hips tight to their chest",
+            "Rotate fully past their head"
+          ],
+          "trap": [
+            "Flatten hips straight down"
+          ]
+        }
       },
       {
         "question": "What grip sequence should you follow when transitioning from overhook to finishing control?",
-        "answer": "Begin with a deep overhook pulling the arm tight across your chest during the initial isolation phase. As you pivot your hips perpendicular, transition one hand to the opponent's wrist while maintaining the overhook with the other. Once the angle is fully established and knees are pinched, switch to two-handed wrist or forearm control with thumbs on the inside of the wrist. This progression ensures you never have a moment without arm control during the transition."
+        "answer": "Begin with a deep overhook pulling the arm tight across your chest during the initial isolation phase. As you pivot your hips perpendicular, transition one hand to the opponent's wrist while maintaining the overhook with the other. Once the angle is fully established and knees are pinched, switch to two-handed wrist or forearm control with thumbs on the inside of the wrist. This progression ensures you never have a moment without arm control during the transition.",
+        "answer_line": "Overhook first, then wrist control",
+        "distractors": {
+          "plausible": [
+            "Wrist grip before the overhook",
+            "Collar grip through the finish"
+          ],
+          "trap": [
+            "Release arm control to switch hands"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbow glued tight to their body, preventing arm isolation. What options do you have?",
-        "answer": "When the opponent clamps their elbow tight, return to triangle choke pressure to force them to use that arm defensively. You can also attack the opposite arm if it reaches inside the triangle during their defensive adjustment. A third option is to use a gift wrap grip by reaching under their armpit and controlling their far wrist, which forces the near arm to separate from the body. The key principle is that static elbow defense cannot be maintained indefinitely against active triangle pressure."
+        "answer": "When the opponent clamps their elbow tight, return to triangle choke pressure to force them to use that arm defensively. You can also attack the opposite arm if it reaches inside the triangle during their defensive adjustment. A third option is to use a gift wrap grip by reaching under their armpit and controlling their far wrist, which forces the near arm to separate from the body. The key principle is that static elbow defense cannot be maintained indefinitely against active triangle pressure.",
+        "answer_line": "Reapply choke to force the arm out",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow open by force",
+            "Abandon attack, pass the guard"
+          ],
+          "trap": [
+            "Release the legs to strip elbow"
+          ]
+        }
       },
       {
         "question": "Why must you maintain leg pressure throughout the transition even though you are switching attacks?",
-        "answer": "Maintaining leg pressure preserves positional control and prevents the opponent from posturing up or creating escape space during the vulnerable transition phase. The legs provide the foundational control system constraining the opponent's movement options, keeping their head and shoulders controlled even as you shift focus to attacking the arm. Releasing leg pressure prematurely is the most common cause of losing both submissions, as the opponent can explosively posture and extract themselves from danger."
+        "answer": "Maintaining leg pressure preserves positional control and prevents the opponent from posturing up or creating escape space during the vulnerable transition phase. The legs provide the foundational control system constraining the opponent's movement options, keeping their head and shoulders controlled even as you shift focus to attacking the arm. Releasing leg pressure prematurely is the most common cause of losing both submissions, as the opponent can explosively posture and extract themselves from danger.",
+        "answer_line": "Legs prevent posture and escape",
+        "distractors": {
+          "plausible": [
+            "Legs generate the choke pressure",
+            "Legs create the pivot angle"
+          ],
+          "trap": [
+            "Release legs once overhook is set"
+          ]
+        }
       },
       {
         "question": "Describe the optimal body angle relationship between you and your opponent during the armbar finish from this transition?",
-        "answer": "Your body should be perpendicular (90 degrees) to your opponent's torso, with your hips aligned across their shoulder line and the trapped arm secured across your centerline. The leg across their face provides downward pressure preventing them from turning into you, while the other leg hooks behind their shoulder or across their chest. This perpendicular alignment maximizes leverage on the elbow joint while minimizing the opponent's ability to roll, stack, or escape the position."
+        "answer": "Your body should be perpendicular (90 degrees) to your opponent's torso, with your hips aligned across their shoulder line and the trapped arm secured across your centerline. The leg across their face provides downward pressure preventing them from turning into you, while the other leg hooks behind their shoulder or across their chest. This perpendicular alignment maximizes leverage on the elbow joint while minimizing the opponent's ability to roll, stack, or escape the position.",
+        "answer_line": "Perpendicular, hips on shoulder line",
+        "distractors": {
+          "plausible": [
+            "Parallel alignment along the spine",
+            "Facing opponent square on"
+          ],
+          "trap": [
+            "Angle away from trapped arm"
+          ]
+        }
       },
       {
         "question": "What are the key differences between the overhook and wrist control phases of arm isolation?",
-        "answer": "The overhook is established earlier in the sequence and prevents the opponent from retracting their arm during the initial pivot phase. It provides superior control during dynamic hip movement because it wraps completely around the arm. Wrist control is established after the angle is set and provides precise directional control for the finishing phase, preventing the opponent from gripping hands together or creating defensive connections. Advanced practitioners transition smoothly from overhook to wrist control as they complete the pivot."
+        "answer": "The overhook is established earlier in the sequence and prevents the opponent from retracting their arm during the initial pivot phase. It provides superior control during dynamic hip movement because it wraps completely around the arm. Wrist control is established after the angle is set and provides precise directional control for the finishing phase, preventing the opponent from gripping hands together or creating defensive connections. Advanced practitioners transition smoothly from overhook to wrist control as they complete the pivot.",
+        "answer_line": "Overhook early, wrist late to finish",
+        "distractors": {
+          "plausible": [
+            "Wrist control always comes first",
+            "Overhook only used at the finish"
+          ],
+          "trap": [
+            "Drop overhook before wrist is set"
+          ]
+        }
       },
       {
         "question": "How does the triangle to armbar transition create a dilemma for the defending opponent?",
-        "answer": "The opponent faces a three-way dilemma. If they defend the triangle by posturing up or using their trapped arm to frame, the armbar becomes available. If they defend the armbar by stacking forward, the omoplata opens. If they defend both by extracting the trapped arm, the back take presents itself. Every defensive response to one attack directly enables another, creating a system where the opponent cannot address all threats simultaneously. This forces them into reactive decision-making under increasing fatigue and pressure."
+        "answer": "The opponent faces a three-way dilemma. If they defend the triangle by posturing up or using their trapped arm to frame, the armbar becomes available. If they defend the armbar by stacking forward, the omoplata opens. If they defend both by extracting the trapped arm, the back take presents itself. Every defensive response to one attack directly enables another, creating a system where the opponent cannot address all threats simultaneously. This forces them into reactive decision-making under increasing fatigue and pressure.",
+        "answer_line": "Every defense opens another attack",
+        "distractors": {
+          "plausible": [
+            "Only the armbar is ever live",
+            "Stacking shuts down all threats"
+          ],
+          "trap": [
+            "Any single defense stops it all"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you should attempt this transition rather than continuing the triangle choke?",
-        "answer": "Attempt the transition when the opponent has successfully reduced the choking pressure of your triangle through posture, hand positioning, or shoulder rotation, but has not escaped the leg configuration. Specifically, look for their trapped arm actively pushing against your thigh or hip rather than being compressed against their own neck. If the triangle choke is still viable and the opponent is fading, finish the choke rather than transitioning. The armbar transition is a response to effective triangle defense, not a replacement for a working choke."
+        "answer": "Attempt the transition when the opponent has successfully reduced the choking pressure of your triangle through posture, hand positioning, or shoulder rotation, but has not escaped the leg configuration. Specifically, look for their trapped arm actively pushing against your thigh or hip rather than being compressed against their own neck. If the triangle choke is still viable and the opponent is fading, finish the choke rather than transitioning. The armbar transition is a response to effective triangle defense, not a replacement for a working choke.",
+        "answer_line": "Choke fading, arm pushes free",
+        "distractors": {
+          "plausible": [
+            "Anytime the triangle is locked",
+            "Opponent's arm is fully trapped"
+          ],
+          "trap": [
+            "Abandon a still-working choke"
+          ]
+        }
       }
     ],
     "safety_considerations": "The triangle to armbar transition is generally safe to practice at all training intensities when proper communication and tapping protocols are observed. The primary safety concern is the armbar finish itself: apply extension pressure gradually and smoothly, never explosively jerking the joint. Partners must tap early when they feel elbow pressure, as hyperextension injuries can occur rapidly once the arm straightens past its natural range. During the transition phase, be aware of neck pressure from leg configuration changes and pause if your partner indicates discomfort or restricted breathing. When drilling, maintain control throughout rather than rushing through steps, as uncontrolled pivoting can result in accidental knee contact to the face. Beginners should spend extensive time with cooperative drilling before applying in live situations. Always establish clear tapping protocols before drilling armbar sequences.",
@@ -429,19 +539,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from triangle to armbar?",
-        "answer": "The earliest cue is feeling the opponent secure an overhook on your trapped arm, pulling it across their chest and away from your body. This overhook is the prerequisite for the entire transition. If you can prevent or strip the overhook before the hip pivot begins, the transition cannot proceed. The secondary cue is feeling the opponent's hip pressure shift laterally as they begin rotating their body away from center."
+        "answer": "The earliest cue is feeling the opponent secure an overhook on your trapped arm, pulling it across their chest and away from your body. This overhook is the prerequisite for the entire transition. If you can prevent or strip the overhook before the hip pivot begins, the transition cannot proceed. The secondary cue is feeling the opponent's hip pressure shift laterally as they begin rotating their body away from center.",
+        "answer_line": "Feel the overhook secure your arm",
+        "distractors": {
+          "plausible": [
+            "Feel their hips squeeze the choke",
+            "Feel them posture straight up"
+          ],
+          "trap": [
+            "Wait until wrist control is set"
+          ]
+        }
       },
       {
         "question": "Why is stacking forward effective as a defense against this transition?",
-        "answer": "Stacking forward compresses the opponent's hips and spine against the mat, eliminating the space they need to create a perpendicular angle and generate hip extension for the armbar finish. It also shifts your weight over their center of gravity, making it difficult for them to pivot or fall back. However, stacking must be done with awareness that it opens the omoplata counter if the opponent redirects the forward momentum by swinging their far leg over your back."
+        "answer": "Stacking forward compresses the opponent's hips and spine against the mat, eliminating the space they need to create a perpendicular angle and generate hip extension for the armbar finish. It also shifts your weight over their center of gravity, making it difficult for them to pivot or fall back. However, stacking must be done with awareness that it opens the omoplata counter if the opponent redirects the forward momentum by swinging their far leg over your back.",
+        "answer_line": "Kills space needed for the pivot",
+        "distractors": {
+          "plausible": [
+            "Relieves all choking pressure",
+            "Frees the trapped arm fully"
+          ],
+          "trap": [
+            "Swing your leg over their back"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the pivot and has both hands on your wrist. What is your defensive priority?",
-        "answer": "At this late stage, your immediate priority is preventing full arm extension by bending the elbow aggressively, rotating your thumb toward the ceiling, and clasping your hands together if possible. Simultaneously, use your hips and legs to drive forward into a stacking position to compress their finishing space. This buys time to work a hitchhiker escape by rotating the elbow across your body while turning to turtle, or to strip one of their hands from your wrist to begin systematic arm extraction."
+        "answer": "At this late stage, your immediate priority is preventing full arm extension by bending the elbow aggressively, rotating your thumb toward the ceiling, and clasping your hands together if possible. Simultaneously, use your hips and legs to drive forward into a stacking position to compress their finishing space. This buys time to work a hitchhiker escape by rotating the elbow across your body while turning to turtle, or to strip one of their hands from your wrist to begin systematic arm extraction.",
+        "answer_line": "Bend elbow, thumb up, clasp hands",
+        "distractors": {
+          "plausible": [
+            "Extend arm to slip the grip",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Straighten arm to muscle out"
+          ]
+        }
       },
       {
         "question": "How does defending the triangle choke create vulnerability to the armbar transition?",
-        "answer": "When defending the triangle, you naturally use your trapped arm to push against the opponent's thigh or hip to create space and relieve choking pressure. This pushing action extends your arm away from your body and exposes it for the opponent's overhook. The very movement that defends the choke isolates the arm for the armbar. Understanding this dilemma allows you to defend the triangle through posture and hip positioning rather than relying on arm-based defenses that open the secondary threat."
+        "answer": "When defending the triangle, you naturally use your trapped arm to push against the opponent's thigh or hip to create space and relieve choking pressure. This pushing action extends your arm away from your body and exposes it for the opponent's overhook. The very movement that defends the choke isolates the arm for the armbar. Understanding this dilemma allows you to defend the triangle through posture and hip positioning rather than relying on arm-based defenses that open the secondary threat.",
+        "answer_line": "Pushing to defend extends the arm",
+        "distractors": {
+          "plausible": [
+            "Turning the head causes exposure",
+            "Gripping their collar exposes arm"
+          ],
+          "trap": [
+            "Pull the arm in tight to defend"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain to make the transition as difficult as possible for your opponent?",

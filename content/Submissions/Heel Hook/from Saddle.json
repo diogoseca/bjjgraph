@@ -316,52 +316,152 @@
       {
         "question": "What anatomical structures does the heel hook from saddle primarily attack, and why is this submission considered more dangerous than most joint locks?",
         "answer": "The heel hook attacks the knee's ligamentous complex—primarily the ACL (anterior cruciate ligament) and MCL (medial collateral ligament)—through rotational force transmitted via the heel and shin as a lever. It is considered more dangerous than most joint locks because the knee's ligaments provide almost no pain warning before catastrophic failure. Unlike an armbar where the defender feels increasing elbow pain before structural damage, a heel hook can cause complete ligament rupture before the defender registers significant discomfort, making the tap window extremely small.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ligaments tear before pain warns",
+        "distractors": {
+          "plausible": [
+            "Attacks knee like an armbar",
+            "Rotational force injures the ankle"
+          ],
+          "trap": [
+            "Slow buildup like an armbar"
+          ]
+        }
       },
       {
         "question": "At what point during the heel hook application should you recognize that the submission is locked and further pressure risks injury?",
         "answer": "The point of no return occurs when rotational pressure engages the knee ligaments—typically felt as a sudden increase in resistance followed by the opponent's body involuntarily stiffening or flinching. Once you feel the rotational pressure reaching the joint, any further pressure risks immediate structural damage. In training, you should stop well before this point and rely on positional dominance to secure the tap. Competition finishing requires reaching this threshold, but training should always leave a significant safety margin.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sudden pressure spike, body stiffens",
+        "distractors": {
+          "plausible": [
+            "When opponent starts grip fighting",
+            "When you feel full extension"
+          ],
+          "trap": [
+            "Push through resistance for tap"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully hides their heel by pressing it against their own hip—what submission dilemma can you create to force heel re-exposure?",
         "answer": "Transition to a straight ankle lock or toe hold threat by adjusting your grip to attack the exposed ankle and foot. When the opponent defends the ankle lock by pulling their toes back and flexing their foot, this motion naturally rotates the heel away from their hip and back toward your centerline. The moment they adjust to defend the ankle, re-attack the heel hook. This creates a continuous dilemma where defending one submission opens the pathway for the other, eventually exhausting the defender's ability to manage both threats simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten ankle lock to expose heel",
+        "distractors": {
+          "plausible": [
+            "Pry heel off hip with both hands",
+            "Switch to kneebar to force reset"
+          ],
+          "trap": [
+            "Yank the leg straight by force"
+          ]
+        }
       },
       {
         "question": "What are the critical control requirements that must be verified before transitioning to the finishing grip sequence?",
         "answer": "Four control points must be confirmed: (1) Perpendicular body alignment to the opponent, ensuring maximum mechanical advantage, (2) Hip pressure actively pinning the opponent's hip through your outside leg driving across their thigh, (3) Inside position secured between the opponent's legs, blocking their ability to face you or turn away, (4) Opponent's defensive frames cleared or neutralized so they cannot push your hips away during the grip transition. Skipping any of these creates escape opportunities during the vulnerable grip transition phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip pressure, inside position first",
+        "distractors": {
+          "plausible": [
+            "Grip fight before anything else",
+            "Perpendicular angle is enough"
+          ],
+          "trap": [
+            "Rush the grip before they adjust"
+          ]
+        }
       },
       {
         "question": "How should you adjust your finishing mechanics when the opponent attempts to straighten their trapped leg to relieve rotational pressure?",
         "answer": "When the opponent straightens their leg, maintain your grip configuration and increase hip pressure to prevent them from extending fully. Use your inside leg to hook behind their knee and pull it back into a bent position, which restores the lever mechanics needed for the finish. If they succeed in fully extending, consider transitioning to a kneebar attack which becomes higher percentage against a straightened leg, then re-attack the heel hook when they re-bend to defend the kneebar.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook the knee, re-bend the leg",
+        "distractors": {
+          "plausible": [
+            "Pull harder to force the bend",
+            "Switch to straight ankle lock"
+          ],
+          "trap": [
+            "Release grips and reset position"
+          ]
+        }
       },
       {
         "question": "What grip adjustment should you make if the opponent begins to strip your figure-four configuration during the finishing attempt?",
         "answer": "Immediately tuck their foot deeper into your armpit and clamp your elbow tight to your body, making the grip harder to access with their hands. If they strip your top hand, use it to control their grip-fighting hand while maintaining the blade-of-wrist contact with your bottom hand. Re-establish the figure-four when their hand is controlled. Throughout this exchange, maintain hip pressure and leg control—the position is still dominant even without the finishing grip, so there is no urgency that should compromise control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck foot deep, clamp elbow tight",
+        "distractors": {
+          "plausible": [
+            "Re-grip quickly before they adjust",
+            "Attack the exposed ankle instead"
+          ],
+          "trap": [
+            "Let go and re-shoot the entry"
+          ]
+        }
       },
       {
         "question": "In competition, what indicators tell you the heel hook is reaching the finishing threshold and the opponent is about to tap?",
         "answer": "Key indicators include: the opponent's body suddenly tensing or stiffening as rotational pressure reaches the joint, frantic increase in grip-fighting intensity as they recognize the position is lost, their free leg beginning to flail or post desperately rather than making technical defensive movements, and audible changes such as sharp breathing or involuntary vocalization. At this point, maintain steady pressure without increasing force—the submission is working and additional force only increases injury risk.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Body stiffens, frantic grip fighting",
+        "distractors": {
+          "plausible": [
+            "Opponent taps loudly and clearly",
+            "Opponent goes completely limp"
+          ],
+          "trap": [
+            "Increase force when they tense"
+          ]
+        }
       },
       {
         "question": "Why is it critical to generate rotational force with your torso and hips rather than your arms, and how does this affect the finish?",
         "answer": "Torso and hip-generated rotation provides significantly more mechanical power than arm strength alone while maintaining positional control. When you use only your arms, they disengage from their positional control function, creating escape opportunities. Additionally, arms fatigue rapidly under sustained tension, making grip fighting increasingly difficult. By keeping elbows tight and generating rotation through chest expansion, shoulder movement, and hip drive, you create a power system that is sustainable, powerful, and maintains control throughout the finishing sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate with hips, not arms",
+        "distractors": {
+          "plausible": [
+            "Pull hard with both arms",
+            "Use shoulder strength mainly"
+          ],
+          "trap": [
+            "Grip harder and yank fast"
+          ]
+        }
       },
       {
         "question": "What is the correct response if your training partner does not tap but you feel the heel hook reaching the joint's structural limit?",
         "answer": "Release the submission immediately. In training, the attacker bears responsibility for their partner's safety regardless of whether a tap signal is received. Some practitioners freeze or do not recognize the danger in time to tap—this does not give you permission to finish the submission. Release, check on your partner, and discuss what happened. If a pattern develops where a particular partner consistently fails to tap to heel hooks, address this directly or decline to practice heel hooks with that individual.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release immediately, no tap needed",
+        "distractors": {
+          "plausible": [
+            "Wait for verbal tap first",
+            "Ease off slowly to be safe"
+          ],
+          "trap": [
+            "Finish since no tap was given"
+          ]
+        }
       },
       {
         "question": "How do you adapt your heel hook finishing strategy against an opponent who consistently counter-entangles to 50-50 during your finishing attempts?",
         "answer": "First, address the root cause by strengthening your inside position control with your top leg before committing to the finish. If they consistently find the counter-entangle pathway, your inside position is likely loosening during the grip transition. Second, accelerate your grip establishment by drilling the positional-to-finishing grip transition until it requires minimal positional adjustment. Third, consider attacking the heel hook earlier in the control sequence when you feel them loading up for the counter-entangle, using their commitment to the escape as the moment their defensive structure is weakest.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lock inside control, finish quicker",
+        "distractors": {
+          "plausible": [
+            "Avoid 50-50 by staying static",
+            "Switch to a different leg attack"
+          ],
+          "trap": [
+            "Force the finish through 50-50"
+          ]
+        }
       }
     ],
     "clips": [
@@ -485,27 +585,77 @@
       {
         "question": "What is the first action you should take when you feel the attacker beginning to transition from positional grips to heel hook grips?",
         "answer": "Immediately hide your heel by pressing it tightly against your own hip while rotating your knee inward toward your centerline. Simultaneously, reach down with both hands to protect your foot and ankle, creating a physical barrier between the attacker's hands and your heel. This buys critical seconds to initiate your escape sequence before the finishing configuration can be established.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hide heel against your own hip",
+        "distractors": {
+          "plausible": [
+            "Grab their wrists to strip grips",
+            "Try to stand up immediately"
+          ],
+          "trap": [
+            "Straighten your leg to pull free"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to attempt a standing escape while your leg is still trapped in the saddle entanglement?",
         "answer": "Standing with a trapped leg provides the attacker with elevation they can use to increase mechanical advantage on the heel hook. Your body weight now works against you as gravity pulls your center of mass upward while your heel remains controlled at a lower level, creating additional torsional force on the knee. The standing position also eliminates your ability to frame effectively with your free leg and makes heel hiding nearly impossible.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Standing adds attacker leverage",
+        "distractors": {
+          "plausible": [
+            "Standing lets you frame better",
+            "Standing helps hide the heel"
+          ],
+          "trap": [
+            "Stand up to escape the entanglement"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to continue defending or tap when caught in a heel hook from saddle?",
         "answer": "Tap immediately if any of the following are true: the attacker has established full figure-four grip on your heel with blade-of-wrist contact against your Achilles, you feel any rotational pressure transmitting through your shin to your knee, you cannot freely move your foot within their grip, or your escape attempts have failed and the attacker is progressing toward the finish. If your heel is still hidden and they have not secured finishing grips, continued defense is warranted. When in doubt, always tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap on figure-four grip or rotation",
+        "distractors": {
+          "plausible": [
+            "Tap only when pain becomes sharp",
+            "Keep defending until foot goes numb"
+          ],
+          "trap": [
+            "Wait it out, tapping shows weakness"
+          ]
+        }
       },
       {
         "question": "What makes counter-entangling to 50-50 guard the most favorable defensive outcome against a heel hook from saddle?",
         "answer": "Counter-entangling to 50-50 guard converts the asymmetric advantage of the saddle—where the attacker has overwhelming positional dominance—into a symmetrical entanglement where both practitioners have equal control and vulnerability. In 50-50, neither player has inside position, the knee line is neutralized for both, and both heel hooks are equally available or equally defended. This dramatically reduces the attacker's finishing probability from approximately 50% to parity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turns advantage into symmetry",
+        "distractors": {
+          "plausible": [
+            "Fully escapes the entanglement",
+            "Gives you the dominant heel hook"
+          ],
+          "trap": [
+            "Lets you relax and stop defending"
+          ]
+        }
       },
       {
         "question": "After successfully escaping a heel hook attempt but remaining in a leg entanglement, what should your immediate priorities be?",
         "answer": "Your immediate priorities in order are: verify your heel is hidden and not exposed to re-attack, assess which entanglement you are now in and whether it is more or less dangerous than the previous saddle, begin working toward full leg extraction if possible or at minimum maintain a symmetrical entanglement like 50-50, and control your breathing and energy to prepare for continued defense. Do not relax because the immediate heel hook threat has passed—the attacker will immediately work to re-establish saddle control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hide heel, assess, then extract",
+        "distractors": {
+          "plausible": [
+            "Relax since threat has passed",
+            "Immediately attack their back"
+          ],
+          "trap": [
+            "Fully extend leg to test freedom"
+          ]
+        }
       }
     ],
     "training_progressions": [

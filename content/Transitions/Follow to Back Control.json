@@ -213,51 +213,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Follow to Back Control?",
-        "answer": "The primary goal is to capitalize on an opponent's committed inversion escape by abandoning low-percentage leg attacks and transitioning to the dominant back control position. Rather than forcing heel hooks against a rapidly rotating opponent, you follow their defensive momentum to secure a position with multiple high-percentage submission threats."
+        "answer": "The primary goal is to capitalize on an opponent's committed inversion escape by abandoning low-percentage leg attacks and transitioning to the dominant back control position. Rather than forcing heel hooks against a rapidly rotating opponent, you follow their defensive momentum to secure a position with multiple high-percentage submission threats.",
+        "answer_line": "Abandon leg lock, take the back",
+        "distractors": {
+          "plausible": [
+            "Force the heel hook faster",
+            "Reset to neutral position"
+          ],
+          "trap": [
+            "Chase the leg lock harder"
+          ]
+        }
       },
       {
         "question": "What position do you start Follow to Back Control from?",
-        "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where you have maintained control despite the opponent's inversion attempt. The position is characterized by your outside leg crossing over their knee line with inside leg underneath, creating a figure-four from a reversed angle."
+        "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where you have maintained control despite the opponent's inversion attempt. The position is characterized by your outside leg crossing over their knee line with inside leg underneath, creating a figure-four from a reversed angle.",
+        "answer_line": "Ushiro Ashi-Garami (top)",
+        "distractors": {
+          "plausible": [
+            "Standard 50-50 guard",
+            "Saddle/Inside Ashi-Garami"
+          ],
+          "trap": [
+            "Already in back control"
+          ]
+        }
       },
       {
         "question": "Your opponent's hips have rotated 45 degrees and they are hand fighting—should you release the leg entanglement?",
-        "answer": "No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing."
+        "answer": "No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing.",
+        "answer_line": "No, too early to release",
+        "distractors": {
+          "plausible": [
+            "Yes, release right away",
+            "Release only the top hook"
+          ],
+          "trap": [
+            "Release and chase overhook"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Follow to Back Control?",
-        "answer": "The critical grip is the seat belt (over-under): one arm over the opponent's shoulder with hand reaching toward opposite pectoral, one arm under their opposite armpit with hand clasping the over-arm hand at sternum level. The underhook must be deep with elbow tight to ribcage to prevent peeling."
+        "answer": "The critical grip is the seat belt (over-under): one arm over the opponent's shoulder with hand reaching toward opposite pectoral, one arm under their opposite armpit with hand clasping the over-arm hand at sternum level. The underhook must be deep with elbow tight to ribcage to prevent peeling.",
+        "answer_line": "Seat belt: deep over-under",
+        "distractors": {
+          "plausible": [
+            "Double underhooks only",
+            "Collar and sleeve grip"
+          ],
+          "trap": [
+            "Loose overhooks both arms"
+          ]
+        }
       },
       {
         "question": "Why must the bottom hook be inserted before the top hook?",
-        "answer": "The bottom hook controls the opponent's hip movement and prevents granby roll escapes. Without bottom hook control, the opponent can granby roll over the attempted top hook insertion, escaping back control entirely. The bottom hook anchors your position, making top hook insertion safe."
+        "answer": "The bottom hook controls the opponent's hip movement and prevents granby roll escapes. Without bottom hook control, the opponent can granby roll over the attempted top hook insertion, escaping back control entirely. The bottom hook anchors your position, making top hook insertion safe.",
+        "answer_line": "Stops granby roll escape",
+        "distractors": {
+          "plausible": [
+            "Gets to the choke faster",
+            "Controls the far arm"
+          ],
+          "trap": [
+            "Top hook always goes first"
+          ]
+        }
       },
       {
         "question": "How do you counter an opponent who reaches back to block your underhook?",
-        "answer": "Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm laterally, exposing their back on the cleared side. Once the arm is controlled, establish the seat belt grip before they can retract the arm for another defensive attempt."
+        "answer": "Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm laterally, exposing their back on the cleared side. Once the arm is controlled, establish the seat belt grip before they can retract the arm for another defensive attempt.",
+        "answer_line": "Arm drag, two-on-one grip",
+        "distractors": {
+          "plausible": [
+            "Force the underhook through",
+            "Switch to overhook grip"
+          ],
+          "trap": [
+            "Release seat belt entirely"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Follow to Back Control?",
-        "answer": "The optimal timing is when the opponent's hip rotation has crossed the commitment threshold (past 90 degrees) and they are actively rotating toward turtle position. Their defensive attention is focused on clearing the leg entanglement rather than defending upper body control, creating a window for back access."
+        "answer": "The optimal timing is when the opponent's hip rotation has crossed the commitment threshold (past 90 degrees) and they are actively rotating toward turtle position. Their defensive attention is focused on clearing the leg entanglement rather than defending upper body control, creating a window for back access.",
+        "answer_line": "Past 90°, rotating to turtle",
+        "distractors": {
+          "plausible": [
+            "As soon as hips rotate",
+            "After they reach turtle"
+          ],
+          "trap": [
+            "While still hand fighting"
+          ]
+        }
       },
       {
         "question": "Your opponent is faster than you and always reaches turtle before you establish grips—how do you adjust?",
-        "answer": "Release the leg entanglement earlier, before their rotation reaches peak acceleration. Anticipate the commitment rather than reacting to it. If they consistently reach turtle despite earlier release, accept this outcome and transition to turtle attack series—front headlock, clock choke, or spiral ride—rather than forcing a compromised back take."
+        "answer": "Release the leg entanglement earlier, before their rotation reaches peak acceleration. Anticipate the commitment rather than reacting to it. If they consistently reach turtle despite earlier release, accept this outcome and transition to turtle attack series—front headlock, clock choke, or spiral ride—rather than forcing a compromised back take.",
+        "answer_line": "Release earlier, attack turtle",
+        "distractors": {
+          "plausible": [
+            "Grip the legs harder",
+            "Match their rotation speed"
+          ],
+          "trap": [
+            "Force heel hook mid-rotation"
+          ]
+        }
       },
       {
         "question": "What indicates the opponent may be baiting the back take to re-guard?",
-        "answer": "Watch for opponents who rotate past 90 degrees but keep their elbows connected to their knees, maintain strong frames with their hands, or rotate without urgency. These signs suggest they are creating false commitment to draw you off the legs, then will shoot their hips back as you release to re-establish guard. Maintain leg control longer against these opponents."
+        "answer": "Watch for opponents who rotate past 90 degrees but keep their elbows connected to their knees, maintain strong frames with their hands, or rotate without urgency. These signs suggest they are creating false commitment to draw you off the legs, then will shoot their hips back as you release to re-establish guard. Maintain leg control longer against these opponents.",
+        "answer_line": "Elbows to knees, no urgency",
+        "distractors": {
+          "plausible": [
+            "Fast explosive rotation",
+            "Arms extended overhead"
+          ],
+          "trap": [
+            "Release legs immediately"
+          ]
+        }
       },
       {
         "question": "You have seat belt but cannot flatten your opponent to insert hooks—what options do you have?",
-        "answer": "If the opponent maintains a strong turtle, shift to turtle attack variations: attempt clock choke, transition to crucifix by threading over their near arm, or insert a single hook and work for body triangle from three-quarter back. Alternatively, maintain seat belt and hip pressure until they fatigue and flatten naturally."
+        "answer": "If the opponent maintains a strong turtle, shift to turtle attack variations: attempt clock choke, transition to crucifix by threading over their near arm, or insert a single hook and work for body triangle from three-quarter back. Alternatively, maintain seat belt and hip pressure until they fatigue and flatten naturally.",
+        "answer_line": "Attack turtle: clock, crucifix",
+        "distractors": {
+          "plausible": [
+            "Force the flatten with strength",
+            "Release seat belt and reset"
+          ],
+          "trap": [
+            "Abandon and re-chase legs"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when following your opponent's rotation?",
-        "answer": "The force should be directed forward and around, following the arc of the opponent's rotation rather than cutting across it. Drive your sternum toward their far shoulder blade while your hips track their hip line. Lateral force (reaching across) creates space, while rotational force (following the arc) maintains chest-to-back connection throughout the transition."
+        "answer": "The force should be directed forward and around, following the arc of the opponent's rotation rather than cutting across it. Drive your sternum toward their far shoulder blade while your hips track their hip line. Lateral force (reaching across) creates space, while rotational force (following the arc) maintains chest-to-back connection throughout the transition.",
+        "answer_line": "Forward and around the arc",
+        "distractors": {
+          "plausible": [
+            "Reach across laterally",
+            "Pull straight backward"
+          ],
+          "trap": [
+            "Cut across to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially cleared your legs but their back is still exposed—do you continue to back take or re-engage the legs?",
-        "answer": "Continue to back take. Once the opponent has partially cleared the leg entanglement, attempting to re-establish the figure-four is lower percentage than following through to back control. Their partial clearing has already committed their rotation, and their back exposure is at maximum. Abandoning the back take to chase legs wastes the positional opportunity their escape created."
+        "answer": "Continue to back take. Once the opponent has partially cleared the leg entanglement, attempting to re-establish the figure-four is lower percentage than following through to back control. Their partial clearing has already committed their rotation, and their back exposure is at maximum. Abandoning the back take to chase legs wastes the positional opportunity their escape created.",
+        "answer_line": "Continue to the back take",
+        "distractors": {
+          "plausible": [
+            "Re-secure the figure-four",
+            "Reset to neutral position"
+          ],
+          "trap": [
+            "Chase the leg lock again"
+          ]
+        }
       }
     ],
     "safety_considerations": "Follow to Back Control is a relatively safe transition with low injury risk when practiced correctly. The primary safety concern is avoiding neck cranking during seat belt establishment—apply chest pressure to opponent's upper back rather than pulling backward on their neck. During training, allow partners to tap early if the transition traps their arm in an uncomfortable position. Beginners should avoid explosive hip driving that could cause training partner's face to contact the mat. When drilling at high speeds, communicate clearly about commitment levels to prevent collisions during the rotation phase.",
@@ -371,27 +491,87 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from leg attack to back take?",
-        "answer": "The earliest cue is feeling the figure-four leg configuration release combined with a forward push off your trapped leg. The attacker actively pushes away from your leg to generate momentum toward your upper body. This release of leg pressure is the signal to immediately accelerate your rotation or prepare defensive frames."
+        "answer": "The earliest cue is feeling the figure-four leg configuration release combined with a forward push off your trapped leg. The attacker actively pushes away from your leg to generate momentum toward your upper body. This release of leg pressure is the signal to immediately accelerate your rotation or prepare defensive frames.",
+        "answer_line": "Figure-four release, push off",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "Opponent stops moving"
+          ],
+          "trap": [
+            "Opponent extends the leg lock"
+          ]
+        }
       },
       {
         "question": "Your opponent has released their legs and is following your rotation—should you try to re-engage the leg entanglement or continue to turtle?",
-        "answer": "In most cases, continue to turtle. Once the attacker has released and committed their hips to following, attempting to re-engage legs requires reversing your momentum entirely, which is slower than their forward drive. Complete your rotation to consolidated turtle where you have established defensive options. Only reverse direction if you detect the release very early and the attacker hesitates before committing to the follow."
+        "answer": "In most cases, continue to turtle. Once the attacker has released and committed their hips to following, attempting to re-engage legs requires reversing your momentum entirely, which is slower than their forward drive. Complete your rotation to consolidated turtle where you have established defensive options. Only reverse direction if you detect the release very early and the attacker hesitates before committing to the follow.",
+        "answer_line": "Continue rotating to turtle",
+        "distractors": {
+          "plausible": [
+            "Reverse, re-engage the legs",
+            "Stop and reset to neutral"
+          ],
+          "trap": [
+            "Chase the abandoned leg lock"
+          ]
+        }
       },
       {
         "question": "The attacker has established seat belt but no hooks—what is your immediate defensive priority?",
-        "answer": "Your immediate priority is preventing hook insertion, specifically the bottom hook. Use your bottom leg to kick back and strip any hooking attempts while pinching your knees together. Simultaneously, fight the underhook arm of the seat belt by stripping it with two-on-one control. Without hooks, the attacker cannot consolidate back control even with seat belt, giving you time to create escape angles."
+        "answer": "Your immediate priority is preventing hook insertion, specifically the bottom hook. Use your bottom leg to kick back and strip any hooking attempts while pinching your knees together. Simultaneously, fight the underhook arm of the seat belt by stripping it with two-on-one control. Without hooks, the attacker cannot consolidate back control even with seat belt, giving you time to create escape angles.",
+        "answer_line": "Strip the bottom hook attempt",
+        "distractors": {
+          "plausible": [
+            "Fight the seat belt hands first",
+            "Turn toward the top-hook side"
+          ],
+          "trap": [
+            "Extend arms to push off"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain during the inversion rotation to minimize back exposure?",
-        "answer": "Maintain chin tucked tightly to chest, elbows driven into your knees creating a tight shell, and a rounded upper back. Your rotation should be compact and fast rather than extended and slow. Keep your arms connected to your torso throughout—never extend them behind you. This compact defensive ball minimizes the surface area the attacker can grip during the transition."
+        "answer": "Maintain chin tucked tightly to chest, elbows driven into your knees creating a tight shell, and a rounded upper back. Your rotation should be compact and fast rather than extended and slow. Keep your arms connected to your torso throughout—never extend them behind you. This compact defensive ball minimizes the surface area the attacker can grip during the transition.",
+        "answer_line": "Chin tucked, elbows to knees",
+        "distractors": {
+          "plausible": [
+            "Arms extended for balance",
+            "Slow, controlled rotation"
+          ],
+          "trap": [
+            "Post hands out behind you"
+          ]
+        }
       },
       {
         "question": "How does the timing of your initial inversion affect your vulnerability to the back take?",
-        "answer": "Slow, telegraphed inversions give the attacker time to read the rotation and prepare their release and follow. Fast, explosive inversions create separation between you and the attacker, making it harder for them to track your rotation and arrive at your back in time. The ideal inversion is committed, explosive, and completed in a single motion rather than a gradual rotation that the attacker can pace themselves against."
+        "answer": "Slow, telegraphed inversions give the attacker time to read the rotation and prepare their release and follow. Fast, explosive inversions create separation between you and the attacker, making it harder for them to track your rotation and arrive at your back in time. The ideal inversion is committed, explosive, and completed in a single motion rather than a gradual rotation that the attacker can pace themselves against.",
+        "answer_line": "Fast, explosive beats slow",
+        "distractors": {
+          "plausible": [
+            "Slow and controlled is safer",
+            "Speed doesn't matter much"
+          ],
+          "trap": [
+            "Pause mid-rotation to reset"
+          ]
+        }
       },
       {
         "question": "Your opponent has one hook in and seat belt—what escape direction should you pursue?",
-        "answer": "Escape toward the side of the inserted hook. By turning into the hook, you can use your hip movement to strip it by extending your leg and using knee pressure against their foot. Escaping away from the hook tightens it and makes removal harder. Simultaneously, fight the seat belt underhook with two-on-one grips to create upper body separation as you turn."
+        "answer": "Escape toward the side of the inserted hook. By turning into the hook, you can use your hip movement to strip it by extending your leg and using knee pressure against their foot. Escaping away from the hook tightens it and makes removal harder. Simultaneously, fight the seat belt underhook with two-on-one grips to create upper body separation as you turn.",
+        "answer_line": "Turn into the hooked side",
+        "distractors": {
+          "plausible": [
+            "Turn away from the hook",
+            "Push straight backward"
+          ],
+          "trap": [
+            "Extend the leg to strip it"
+          ]
+        }
       }
     ],
     "training_progressions": [

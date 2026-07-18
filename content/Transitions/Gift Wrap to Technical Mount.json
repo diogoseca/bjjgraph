@@ -239,7 +239,17 @@
       },
       {
         "question": "Which hook do you remove first and why?",
-        "answer": "Remove the far side hook first while maintaining the near side hook. The near hook serves as the pivot point that keeps you connected during rotation and guides the opponent into the mounted position. Removing the near hook first eliminates your anchor and causes you to slide off their back."
+        "answer": "Remove the far side hook first while maintaining the near side hook. The near hook serves as the pivot point that keeps you connected during rotation and guides the opponent into the mounted position. Removing the near hook first eliminates your anchor and causes you to slide off their back.",
+        "answer_line": "Far hook first, keep near hook",
+        "distractors": {
+          "plausible": [
+            "Near hook first for control",
+            "Remove both hooks together"
+          ],
+          "trap": [
+            "Remove near hook, keep far hook"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free arm against your transitioning knee - how do you respond?",

@@ -207,11 +207,31 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Shin Removal to Pass?",
-        "answer": "The primary goal is to systematically extract your head from gogoplata control while simultaneously completing a pass to side control. This transforms a defensive emergency into an offensive position, capitalizing on the extraction to immediately establish dominant control."
+        "answer": "The primary goal is to systematically extract your head from gogoplata control while simultaneously completing a pass to side control. This transforms a defensive emergency into an offensive position, capitalizing on the extraction to immediately establish dominant control.",
+        "answer_line": "Extract head, pass to side control",
+        "distractors": {
+          "plausible": [
+            "Force a tap via choke pressure",
+            "Escape back to closed guard"
+          ],
+          "trap": [
+            "Grab shin and rip it off throat"
+          ]
+        }
       },
       {
         "question": "Why does pulling straight backward fail as an escape from gogoplata?",
-        "answer": "The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally to break the mechanical structure."
+        "answer": "The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally to break the mechanical structure.",
+        "answer_line": "Foot anchor tightens the closed loop",
+        "distractors": {
+          "plausible": [
+            "Backward pull loses hip control",
+            "Backward pull is too slow"
+          ],
+          "trap": [
+            "Backward pull opens triangle entry"
+          ]
+        }
       },
       {
         "question": "What are the key grips and hand positions needed for Shin Removal to Pass?",
@@ -223,27 +243,87 @@
       },
       {
         "question": "When is the best time to attempt Shin Removal to Pass?",
-        "answer": "The optimal timing is when opponent adjusts their position to tighten the submission, as this often temporarily compromises their hip elevation or foot position. Also attempt when you have successfully dropped their hips through hand pressure or when they attempt to transition to alternative attacks."
+        "answer": "The optimal timing is when opponent adjusts their position to tighten the submission, as this often temporarily compromises their hip elevation or foot position. Also attempt when you have successfully dropped their hips through hand pressure or when they attempt to transition to alternative attacks.",
+        "answer_line": "When they adjust to retighten grip",
+        "distractors": {
+          "plausible": [
+            "Only after choke fully releases",
+            "Right when gogoplata first locks"
+          ],
+          "trap": [
+            "Wait until you nearly black out"
+          ]
+        }
       },
       {
         "question": "How do you counter if opponent transitions to triangle as you extract your head?",
-        "answer": "Keep your extracted shoulder elevated and immediately posture when your head clears the shin. Do not allow them to lock the triangle by keeping your arm inside their legs during extraction. If triangle is established, immediately address the angle and leg configuration before they can finish."
+        "answer": "Keep your extracted shoulder elevated and immediately posture when your head clears the shin. Do not allow them to lock the triangle by keeping your arm inside their legs during extraction. If triangle is established, immediately address the angle and leg configuration before they can finish.",
+        "answer_line": "Posture up, keep arm inside legs",
+        "distractors": {
+          "plausible": [
+            "Pull head back through their legs",
+            "Grab their foot behind your head"
+          ],
+          "trap": [
+            "Drop your shoulder and duck down"
+          ]
+        }
       },
       {
         "question": "What direction should you move your head during extraction and why?",
-        "answer": "Move laterally toward the side opposite the choking leg, not straight backward. This changes the angle of shin pressure and allows your head to slip out from under the shin. Backward movement tightens the closed loop system created by the foot-behind-head configuration."
+        "answer": "Move laterally toward the side opposite the choking leg, not straight backward. This changes the angle of shin pressure and allows your head to slip out from under the shin. Backward movement tightens the closed loop system created by the foot-behind-head configuration.",
+        "answer_line": "Laterally, away from choking leg",
+        "distractors": {
+          "plausible": [
+            "Straight back, away from shin",
+            "Toward the choking leg's side"
+          ],
+          "trap": [
+            "Push forward into their hips"
+          ]
+        }
       },
       {
         "question": "What critical action must you take immediately after extracting your head from gogoplata?",
-        "answer": "Complete the pass to side control immediately without hesitation. Drive into perpendicular chest contact, establish crossface control, and block the far hip. Any pause or space creation allows opponent to recover guard and potentially re-attack with gogoplata or transition to other rubber guard submissions."
+        "answer": "Complete the pass to side control immediately without hesitation. Drive into perpendicular chest contact, establish crossface control, and block the far hip. Any pause or space creation allows opponent to recover guard and potentially re-attack with gogoplata or transition to other rubber guard submissions.",
+        "answer_line": "Drive straight into side control",
+        "distractors": {
+          "plausible": [
+            "Pause and reset base first",
+            "Create space before advancing"
+          ],
+          "trap": [
+            "Back away to check for damage"
+          ]
+        }
       },
       {
         "question": "Your opponent is actively pulling their foot deeper behind your head while you attempt to address the anchor - how do you adapt?",
-        "answer": "Refocus both hands on hip control and drive their hips to the mat with heavy downward pressure. When they concentrate on deepening the foot position, they typically sacrifice hip elevation to generate the pulling force. This creates your extraction window because the reduced hip angle decreases shin compression, allowing lateral head movement even with the foot still partially behind your head."
+        "answer": "Refocus both hands on hip control and drive their hips to the mat with heavy downward pressure. When they concentrate on deepening the foot position, they typically sacrifice hip elevation to generate the pulling force. This creates your extraction window because the reduced hip angle decreases shin compression, allowing lateral head movement even with the foot still partially behind your head.",
+        "answer_line": "Drive hips down, wait for window",
+        "distractors": {
+          "plausible": [
+            "Match their pull, fight the foot",
+            "Abandon hip control, grab shin"
+          ],
+          "trap": [
+            "Yank your head straight backward"
+          ]
+        }
       },
       {
         "question": "You have cleared the shin but your opponent immediately recloses their guard around your waist - what went wrong and how do you adjust?",
-        "answer": "The error was pausing after head extraction instead of immediately driving into side control. When the shin clears, you must pin their leg with your shoulder and arm while driving your chest perpendicular to their torso in one continuous motion. Any separation or hesitation after extraction gives the opponent time to recover leg configuration and re-establish guard. The pass must be a continuation of the extraction, not a separate action."
+        "answer": "The error was pausing after head extraction instead of immediately driving into side control. When the shin clears, you must pin their leg with your shoulder and arm while driving your chest perpendicular to their torso in one continuous motion. Any separation or hesitation after extraction gives the opponent time to recover leg configuration and re-establish guard. The pass must be a continuation of the extraction, not a separate action.",
+        "answer_line": "Pin leg, pass in one motion",
+        "distractors": {
+          "plausible": [
+            "Reset posture before advancing",
+            "Control the head before passing"
+          ],
+          "trap": [
+            "Step back to create passing room"
+          ]
+        }
       }
     ],
     "safety_considerations": "When training this escape, establish clear communication protocols with training partners. The gogoplata creates direct airway compression that can become dangerous quickly. Always tap early when training the submission and ensure the person in bottom position understands to release immediately when tap is felt. Progress resistance levels gradually - the timing and mechanics should be solid before attempting against full resistance. Avoid training this technique when fatigued as poor technique under pressure can result in neck strain or injury. If you feel sharp pain rather than pressure, tap immediately and reassess technique.",
@@ -342,19 +422,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is beginning a systematic Shin Removal escape rather than panicking?",
-        "answer": "The earliest cue is when they turn their chin toward the attacking shin rather than pulling away or grabbing the leg frantically. This chin adjustment indicates they understand the proper escape mechanics and are creating breathing space as step one of the systematic sequence. A panicking opponent pulls backward or grabs the shin, while a knowledgeable opponent addresses their breathing first."
+        "answer": "The earliest cue is when they turn their chin toward the attacking shin rather than pulling away or grabbing the leg frantically. This chin adjustment indicates they understand the proper escape mechanics and are creating breathing space as step one of the systematic sequence. A panicking opponent pulls backward or grabs the shin, while a knowledgeable opponent addresses their breathing first.",
+        "answer_line": "Chin turns toward the attacking shin",
+        "distractors": {
+          "plausible": [
+            "Frantic grabbing at your shin",
+            "Opponent taps their own leg"
+          ],
+          "trap": [
+            "Opponent pulls hard straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully dropped your hips to the mat - what is your immediate priority?",
-        "answer": "Immediately re-elevate your hips through an explosive bridge while simultaneously pulling your foot deeper behind their head with both hands. The dropped hips reduce shin compression but the closed loop system can still prevent extraction if the foot anchor remains deep. Use the bridge to restore perpendicular shin angle before they can capitalize on the reduced compression to begin lateral head movement."
+        "answer": "Immediately re-elevate your hips through an explosive bridge while simultaneously pulling your foot deeper behind their head with both hands. The dropped hips reduce shin compression but the closed loop system can still prevent extraction if the foot anchor remains deep. Use the bridge to restore perpendicular shin angle before they can capitalize on the reduced compression to begin lateral head movement.",
+        "answer_line": "Bridge hips, deepen foot anchor",
+        "distractors": {
+          "plausible": [
+            "Release foot, reset the choke",
+            "Switch immediately to triangle"
+          ],
+          "trap": [
+            "Let hips stay down, pull backward"
+          ]
+        }
       },
       {
         "question": "When should you abandon the gogoplata and recover to closed guard instead of continuing to fight for the submission?",
-        "answer": "Abandon the gogoplata when your shin has been cleared from their throat and your foot is being removed from behind their head. At this point, the submission structure is mechanically broken and attempting to re-establish wastes time the opponent uses to complete the pass. Close your guard immediately while their posture is still compromised from the extraction effort, before they can drive into side control."
+        "answer": "Abandon the gogoplata when your shin has been cleared from their throat and your foot is being removed from behind their head. At this point, the submission structure is mechanically broken and attempting to re-establish wastes time the opponent uses to complete the pass. Close your guard immediately while their posture is still compromised from the extraction effort, before they can drive into side control.",
+        "answer_line": "Once shin is cleared and foot freed",
+        "distractors": {
+          "plausible": [
+            "As soon as hips first drop",
+            "Only after they pass to mount"
+          ],
+          "trap": [
+            "Keep fighting the choke longer"
+          ]
+        }
       },
       {
         "question": "How does maintaining your own foot control behind their head prevent the systematic extraction sequence?",
-        "answer": "Your hands controlling your own foot behind their head preserves the closed loop anchor that makes the shin-across-throat configuration self-reinforcing. Without addressing this anchor, lateral head movement is blocked because the foot prevents the head from sliding out in any direction. If you control the foot with both hands, the opponent must first defeat your hand control before they can address the structural anchor, adding a critical layer to their escape sequence."
+        "answer": "Your hands controlling your own foot behind their head preserves the closed loop anchor that makes the shin-across-throat configuration self-reinforcing. Without addressing this anchor, lateral head movement is blocked because the foot prevents the head from sliding out in any direction. If you control the foot with both hands, the opponent must first defeat your hand control before they can address the structural anchor, adding a critical layer to their escape sequence.",
+        "answer_line": "Anchor blocks lateral head slip",
+        "distractors": {
+          "plausible": [
+            "It keeps their hips pinned down",
+            "It sets up a triangle finish"
+          ],
+          "trap": [
+            "Release foot to reset angle"
+          ]
+        }
       },
       {
         "question": "Your opponent begins moving their head laterally - what triangle transition option becomes available?",

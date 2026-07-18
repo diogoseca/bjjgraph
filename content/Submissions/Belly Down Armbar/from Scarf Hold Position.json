@@ -299,32 +299,92 @@
       {
         "question": "What anatomical structure does the belly down armbar from scarf hold primarily attack?",
         "answer": "The submission primarily attacks the elbow joint through forced hyperextension, targeting the ulnar collateral ligament and the joint capsule. The prone position creates a lever system where the attacker's hips act as a fulcrum on the back of the elbow while the wrist is held against the chest, generating extension force that the elbow cannot withstand. Secondary stress falls on the biceps tendon as it resists the extension force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow via hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder via rotation force",
+            "Wrist via compression"
+          ],
+          "trap": [
+            "Neck via choke pressure"
+          ]
+        }
       },
       {
         "question": "Why does scarf hold provide a superior entry to the belly down armbar compared to standard side control?",
         "answer": "Scarf hold provides superior entry because the opponent's near arm is already isolated and trapped between the attacker's arm and torso as a fundamental element of the position. This eliminates the arm isolation step that is typically the most difficult and time-consuming part of any armbar setup. Additionally, the perpendicular angle of scarf hold means the attacker's step-over rotation is shorter, and the opponent's limited hip mobility under scarf hold pressure reduces their ability to defend during the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm already isolated",
+        "distractors": {
+          "plausible": [
+            "Shorter rotation angle needed",
+            "Opponent's hips are pinned"
+          ],
+          "trap": [
+            "You control both their legs"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the elbow is approaching its structural limit during the belly down finish?",
         "answer": "Key indicators include the opponent's arm becoming rigid and trembling under extension pressure, visible hyperextension of the elbow past its natural straight-line range, the opponent's body tensing and elevating off the mat as they attempt to relieve pressure, and any vocalization of pain or distress. When you feel the arm lock completely straight against your hip pressure with no remaining flex, you are at the structural limit. Reduce speed immediately and allow time for the tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm rigid, locked straight",
+        "distractors": {
+          "plausible": [
+            "Opponent taps verbally only",
+            "Slow steady resistance felt"
+          ],
+          "trap": [
+            "Wait for audible pop"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together to prevent the arm extension—what grip-breaking sequence should you use?",
         "answer": "First, walk your grip control toward their wrist to maximize your leverage advantage over their clasped hands. Second, apply steady hip pressure into the back of the elbow while maintaining wrist control—this creates increasing pain that often forces the grip open without aggressive prying. Third, if the grip holds, use your hands to peel their top hand's fingers while maintaining hip pressure. Never jerk or spike the arm to break the grip, as this can cause injury before they can tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist control, hip pressure, peel",
+        "distractors": {
+          "plausible": [
+            "Pry fingers apart immediately",
+            "Pull the arm straight fast"
+          ],
+          "trap": [
+            "Jerk and spike the arm"
+          ]
+        }
       },
       {
         "question": "What is the critical control requirement that must be maintained throughout the entire scarf hold to belly down transition?",
         "answer": "Two-on-one arm control on the opponent's trapped wrist and forearm must be maintained without any break from the moment you release head control through the completion of the prone rotation. Any gap in arm control—even momentarily releasing one hand to post for balance—gives the opponent an extraction window. Both hands must remain locked on the arm while your body rotates around it, treating the arm as a fixed axis of rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip, never break",
+        "distractors": {
+          "plausible": [
+            "One hand posts for balance",
+            "Head control until rotation ends"
+          ],
+          "trap": [
+            "Release grip to swim to legs"
+          ]
+        }
       },
       {
         "question": "At what point during the belly down armbar sequence does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs once the attacker has completed the full prone rotation with both knees squeezed around the upper arm and hips positioned directly over the elbow. Before this point, the defender can extract the arm during the rotation window. After this point, the mechanical advantage of the belly-down position is too great to overcome through strength alone—the defender must tap or risk joint damage. This makes the transition itself the decisive phase of the technique.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees pinch, hips over elbow",
+        "distractors": {
+          "plausible": [
+            "Step-over foot lands first",
+            "Head control fully released"
+          ],
+          "trap": [
+            "Once wrist grip is broken"
+          ]
+        }
       },
       {
         "question": "How should you release the belly down armbar safely after your training partner taps?",
@@ -334,17 +394,47 @@
       {
         "question": "Your opponent starts bridging and turning into you as you begin stepping over their head—what adjustment prevents escape?",
         "answer": "Accelerate through the rotation rather than pausing or retreating. Their bridge creates momentum you can use by continuing your step-over and using their turning motion to complete your prone rotation faster. Maintain death-grip arm control with both hands and drive your near knee into the mat beside their head to block their turn. If they achieve a partial turn, your arm isolation still holds—complete the belly down position on their turned body and the armbar remains viable from the adjusted angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Accelerate rotation, block turn",
+        "distractors": {
+          "plausible": [
+            "Pause and reset grip first",
+            "Retreat to re-angle entry"
+          ],
+          "trap": [
+            "Release arm to control hips"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes the success rate of the belly down armbar from scarf hold?",
         "answer": "Chain the belly down armbar off defensive reactions to other attacks. Threaten the americana first, which forces the opponent to straighten their arm and turn away—both reactions expose the arm for the belly down transition. Alternatively, threaten the kimura by rotating their arm the opposite direction, and when they resist by pulling the arm straight, immediately switch to the belly down. The highest competition success rate comes from the opponent never seeing the belly down armbar as the primary threat until it is already locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain off americana/kimura threats",
+        "distractors": {
+          "plausible": [
+            "Set it up as first attack",
+            "Isolate arm with pure strength"
+          ],
+          "trap": [
+            "Announce the armbar early"
+          ]
+        }
       },
       {
         "question": "Why is it critical to apply finishing pressure through hip extension rather than pulling with your arms?",
         "answer": "The hip extensors (glutes, hamstrings) generate dramatically more force than the arm muscles used in pulling. An arm pull against a resisting opponent produces roughly 30-50 pounds of force, while hip extension against the elbow creates hundreds of pounds of pressure through mechanical advantage. Additionally, arm-pulling fatigues the grip rapidly, giving the opponent time to work an escape. Hip extension is sustainable, powerful, and keeps both hands free to maintain wrist control without splitting their effort between holding and pulling.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension, not arm pulling",
+        "distractors": {
+          "plausible": [
+            "Equal pull from arms and hips",
+            "Fast arm pull before they set"
+          ],
+          "trap": [
+            "Yank arm hard for quick tap"
+          ]
+        }
       }
     ],
     "clips": [
@@ -468,27 +558,77 @@
       {
         "question": "What is the earliest recognition cue that a belly down armbar is being set up from scarf hold?",
         "answer": "The earliest cue is the attacker releasing head control with their far arm and redirecting both hands to your trapped near arm. In standard scarf hold, one arm controls the head and one controls the arm. When both arms shift to arm control simultaneously, the belly down transition is imminent. This head control release is your primary escape trigger—act immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both hands shift to arm control",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips start rotating",
+            "Attacker's knee touches mat"
+          ],
+          "trap": [
+            "Wait until knees are squeezed"
+          ]
+        }
       },
       {
         "question": "When should you tap to the belly down armbar to prevent injury?",
         "answer": "Tap immediately when you feel your arm reach full extension against the attacker's hips with their knees squeezed around your upper arm. Do not wait for pain—the mechanical advantage of the prone position means damage occurs almost simultaneously with full extension. If your clasp breaks and your arm straightens with their hips on the elbow, tap before they apply additional pressure. Use verbal tap, hand tap, or foot tap—any signal that communicates submission clearly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at full extension, no pain wait",
+        "distractors": {
+          "plausible": [
+            "Tap only when it hurts",
+            "Wait for clasp to fully break"
+          ],
+          "trap": [
+            "Tough it out, work an escape"
+          ]
+        }
       },
       {
         "question": "Why is the transition window the most critical moment for defense rather than the finished position?",
         "answer": "During the transition, the attacker has released head control and is balancing on one leg while stepping over—their base is compromised and their control is at its weakest point. Once belly-down with hips over the elbow and knees pinched, the position generates hundreds of pounds of force through hip extension that no amount of defensive strength can overcome. Defending the transition gives you a realistic chance of escape, while defending the finished position is nearly impossible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Transition, attacker off-balance",
+        "distractors": {
+          "plausible": [
+            "Finished position, easier to escape",
+            "Both equally defensible"
+          ],
+          "trap": [
+            "Wait until fully locked to defend"
+          ]
+        }
       },
       {
         "question": "What defensive body position should you maintain to make the belly down armbar as difficult as possible?",
         "answer": "Keep your trapped arm bent with elbow pulled tight against your ribs, making it significantly harder for the attacker to achieve full extension. Turn your body toward the attacker rather than lying flat on your back, as this reduces the angle available for the step-over. Use your free hand to grip your own wrist or forearm of the trapped arm, creating a defensive clasp. Keep your hips active and mobile rather than flat on the mat, ready to bridge into the attacker when the transition begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow tight, turn in, clasp hands",
+        "distractors": {
+          "plausible": [
+            "Lie flat, arm straight out",
+            "Pull away, arm fully extended"
+          ],
+          "trap": [
+            "Relax arm to reduce pressure"
+          ]
+        }
       },
       {
         "question": "What options remain if the attacker successfully achieves the full belly-down position with hips on your elbow?",
         "answer": "Your primary option is clasping your hands together to prevent arm extension while working to hip-escape toward the attacker's head, reducing the extension angle. If the clasp holds, attempt to roll your entire body toward the attacker to reduce hip pressure on the elbow. However, these are low-percentage survival techniques. If your clasp breaks and the arm extends, tap immediately. The honest reality is that the fully locked belly-down position is a near-certain submission—defense must focus on preventing this position, not escaping it.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Clasp hands, hip-escape to head",
+        "distractors": {
+          "plausible": [
+            "Muscle the arm free by force",
+            "Wait out the position calmly"
+          ],
+          "trap": [
+            "Fight the extension with strength"
+          ]
+        }
       }
     ],
     "training_progressions": [

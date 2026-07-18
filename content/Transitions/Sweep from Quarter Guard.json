@@ -253,39 +253,129 @@
     "flashcards": [
       {
         "question": "What conditions must exist before you commit to the sweep from quarter guard?",
-        "answer": "Four conditions must be present before committing: a deep underhook with your forearm on their lat and elbow pointing toward the ceiling, at least a thirty-degree hip angle off the mat so you are not flattened, your free foot posted flat near your hip for driving power, and—most critically—the top player's weight committed forward during pass completion rather than settled in a wide base. If any of these are missing, recover a defensive frame instead of sweeping, because an under-prepared attempt only accelerates the pass."
+        "answer": "Four conditions must be present before committing: a deep underhook with your forearm on their lat and elbow pointing toward the ceiling, at least a thirty-degree hip angle off the mat so you are not flattened, your free foot posted flat near your hip for driving power, and—most critically—the top player's weight committed forward during pass completion rather than settled in a wide base. If any of these are missing, recover a defensive frame instead of sweeping, because an under-prepared attempt only accelerates the pass.",
+        "answer_line": "Underhook, angle, weight forward",
+        "distractors": {
+          "plausible": [
+            "Deep underhook is enough alone",
+            "Angle set, weight still balanced"
+          ],
+          "trap": [
+            "Commit once underhook feels deep"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip for initiating the sweep from quarter guard?",
-        "answer": "The deep underhook is the most critical grip, as it provides the primary lever for elevating the opponent and redirecting their weight. The underhook must be deep enough that your forearm contacts their lat muscle with your elbow pointing toward the ceiling. Without sufficient underhook depth, the sweep lacks the mechanical advantage needed to overcome the top player's positional advantage and weight pressure."
+        "answer": "The deep underhook is the most critical grip, as it provides the primary lever for elevating the opponent and redirecting their weight. The underhook must be deep enough that your forearm contacts their lat muscle with your elbow pointing toward the ceiling. Without sufficient underhook depth, the sweep lacks the mechanical advantage needed to overcome the top player's positional advantage and weight pressure.",
+        "answer_line": "Deep underhook on their lat",
+        "distractors": {
+          "plausible": [
+            "Overhook on their far arm",
+            "Collar grip for control"
+          ],
+          "trap": [
+            "Grab both pants cuffs"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the sweep from quarter guard?",
-        "answer": "The optimal timing window occurs when the top player commits their weight forward to complete the pass or when they post their hand on the mat to adjust their base. During these moments, their center of gravity shifts forward and their defensive base narrows, creating maximum vulnerability to the underhook-driven reversal. Initiating the sweep while they are settled with wide base significantly reduces success probability."
+        "answer": "The optimal timing window occurs when the top player commits their weight forward to complete the pass or when they post their hand on the mat to adjust their base. During these moments, their center of gravity shifts forward and their defensive base narrows, creating maximum vulnerability to the underhook-driven reversal. Initiating the sweep while they are settled with wide base significantly reduces success probability.",
+        "answer_line": "When they commit weight forward",
+        "distractors": {
+          "plausible": [
+            "Right after underhook is secured",
+            "As soon as guard is passed"
+          ],
+          "trap": [
+            "When they're settled in wide base"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you attempt the sweep—how do you adjust?",
-        "answer": "When the opponent posts their far hand, they create a defensive tripod that prevents the sweep in the original direction. Adjust by redirecting the sweep angle toward their posted hand side, using your far hip control to pull them over the post. Alternatively, abandon the sweep and attack the back take since their posted hand exposes their back and removes one arm from defensive position."
+        "answer": "When the opponent posts their far hand, they create a defensive tripod that prevents the sweep in the original direction. Adjust by redirecting the sweep angle toward their posted hand side, using your far hip control to pull them over the post. Alternatively, abandon the sweep and attack the back take since their posted hand exposes their back and removes one arm from defensive position.",
+        "answer_line": "Redirect sweep toward posted hand",
+        "distractors": {
+          "plausible": [
+            "Push harder in original direction",
+            "Switch to opposite-side underhook"
+          ],
+          "trap": [
+            "Let go of underhook, grab the post"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play during sweep execution?",
-        "answer": "The free leg serves as the primary power generator for the sweep, providing the pushing force that combines with the underhook pull to create the opposing forces needed for the reversal. The foot must be posted flat on the mat near your hip with the knee bent at approximately ninety degrees to generate maximum explosive force. Without proper free leg posting, the sweep relies entirely on upper body strength and consistently fails."
+        "answer": "The free leg serves as the primary power generator for the sweep, providing the pushing force that combines with the underhook pull to create the opposing forces needed for the reversal. The foot must be posted flat on the mat near your hip with the knee bent at approximately ninety degrees to generate maximum explosive force. Without proper free leg posting, the sweep relies entirely on upper body strength and consistently fails.",
+        "answer_line": "Posted foot drives explosive power",
+        "distractors": {
+          "plausible": [
+            "Free leg hooks their far leg",
+            "Free leg frames on their hip"
+          ],
+          "trap": [
+            "Free leg kicks away for space"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from recovering guard during the sweep follow-through?",
-        "answer": "During follow-through, maintain continuous chest-to-chest contact and keep your underhook connected until you have fully rotated to top position. The most common guard recovery occurs when the sweeper creates space between bodies during the transition. After achieving top position, immediately transition from underhook to crossface control and establish heavy hip pressure to prevent knee insertion."
+        "answer": "During follow-through, maintain continuous chest-to-chest contact and keep your underhook connected until you have fully rotated to top position. The most common guard recovery occurs when the sweeper creates space between bodies during the transition. After achieving top position, immediately transition from underhook to crossface control and establish heavy hip pressure to prevent knee insertion.",
+        "answer_line": "Stay chest-to-chest, keep underhook",
+        "distractors": {
+          "plausible": [
+            "Release underhook once rotating",
+            "Post both hands wide for base"
+          ],
+          "trap": [
+            "Create space to spin to their back"
+          ]
+        }
       },
       {
         "question": "What happens if you attempt the sweep without first creating an angle with your hips?",
-        "answer": "Attempting the sweep from a flat position without hip angle results in insufficient mechanical leverage because your body cannot generate the rotational force needed to elevate the opponent. The flat position also allows the top player to use their weight directly against you since your underhook lacks the angular advantage needed to redirect their mass. Always create at least a thirty-degree hip angle through hip escape before committing to the sweep."
+        "answer": "Attempting the sweep from a flat position without hip angle results in insufficient mechanical leverage because your body cannot generate the rotational force needed to elevate the opponent. The flat position also allows the top player to use their weight directly against you since your underhook lacks the angular advantage needed to redirect their mass. Always create at least a thirty-degree hip angle through hip escape before committing to the sweep.",
+        "answer_line": "No leverage, can't elevate them",
+        "distractors": {
+          "plausible": [
+            "Sweep is slower but still works",
+            "Underhook alone compensates"
+          ],
+          "trap": [
+            "Push harder to force it through"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a wide far-side post and the direct elevation stalls—what chain attacks open up?",
-        "answer": "A blocked sweep is a launch point, not a dead end. With the underhook still connected and their hand posted away from their body, immediately climb the back take by walking your underhook arm around their shoulder and inserting your free leg as the first hook. Alternatively, hook their exposed far leg with your posting leg to enter the electric chair, converting the failed elevation into a leg-and-spine submission threat that forces them to surrender either the pass or the leg."
+        "answer": "A blocked sweep is a launch point, not a dead end. With the underhook still connected and their hand posted away from their body, immediately climb the back take by walking your underhook arm around their shoulder and inserting your free leg as the first hook. Alternatively, hook their exposed far leg with your posting leg to enter the electric chair, converting the failed elevation into a leg-and-spine submission threat that forces them to surrender either the pass or the leg.",
+        "answer_line": "Back take or electric chair entry",
+        "distractors": {
+          "plausible": [
+            "Reset and retry the same sweep",
+            "Switch straight to closed guard"
+          ],
+          "trap": [
+            "Release underhook, frame off"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back when you begin the sweep—what is the correct response?",
-        "answer": "When the opponent sprawls backward, they remove their center of gravity from the sweep arc but also create space between hips. Use this space immediately to either recover full half guard by inserting your knee for a knee shield, transition to deep half guard by threading underneath their elevated hips, or attempt a back take by following their backward movement and coming up on their far side with the underhook still connected."
+        "answer": "When the opponent sprawls backward, they remove their center of gravity from the sweep arc but also create space between hips. Use this space immediately to either recover full half guard by inserting your knee for a knee shield, transition to deep half guard by threading underneath their elevated hips, or attempt a back take by following their backward movement and coming up on their far side with the underhook still connected.",
+        "answer_line": "Use space: half guard or back take",
+        "distractors": {
+          "plausible": [
+            "Chase their hips, force the sweep",
+            "Reset to full guard, no advance"
+          ],
+          "trap": [
+            "Let go of underhook, disengage"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Quarter Guard is a relatively low-risk reversal technique with no direct joint manipulation or choking pressure. Primary safety concern is neck strain during aggressive crossface pressure from the top player—communicate with training partners about pressure levels. During the sweep itself, ensure controlled landing when achieving top position to avoid knee-on-knee collisions. Partners should practice cooperative drilling before adding resistance to prevent injury from unexpected weight shifts during the reversal.",
@@ -403,19 +493,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is setting up a sweep from quarter guard?",
-        "answer": "The earliest cues include the bottom player fighting aggressively for underhook depth rather than defending the pass, their hips escaping away to create an angle rather than staying flat, their free leg posting on the mat with foot flat rather than hooking or framing, and their free hand reaching for your far hip rather than framing against your chest. These combined actions indicate sweep preparation rather than guard recovery."
+        "answer": "The earliest cues include the bottom player fighting aggressively for underhook depth rather than defending the pass, their hips escaping away to create an angle rather than staying flat, their free leg posting on the mat with foot flat rather than hooking or framing, and their free hand reaching for your far hip rather than framing against your chest. These combined actions indicate sweep preparation rather than guard recovery.",
+        "answer_line": "Fighting for deep underhook + angle",
+        "distractors": {
+          "plausible": [
+            "Framing hard against your chest",
+            "Trying to stand and create space"
+          ],
+          "trap": [
+            "Staying flat and turtling up"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to prevent the sweep while maintaining pass progression?",
-        "answer": "Distribute weight in a wide base with approximately sixty percent on your far side to resist the underhook-driven lift direction. Keep your hips low and heavy against the bottom player's body rather than elevated. Your far hand should be ready to post on the mat to absorb sweep force, and your crossface shoulder should be driving pressure into their neck to prevent angle creation and maintain flattening control."
+        "answer": "Distribute weight in a wide base with approximately sixty percent on your far side to resist the underhook-driven lift direction. Keep your hips low and heavy against the bottom player's body rather than elevated. Your far hand should be ready to post on the mat to absorb sweep force, and your crossface shoulder should be driving pressure into their neck to prevent angle creation and maintain flattening control.",
+        "answer_line": "Wide base, 60% weight far side",
+        "distractors": {
+          "plausible": [
+            "Weight centered, hips elevated",
+            "All weight loaded on near side"
+          ],
+          "trap": [
+            "Post hands close, hips high"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep underhook and begins driving upward—what is your immediate defensive priority?",
-        "answer": "Your immediate priority is to sprawl your hips backward and drive your crossface shoulder into their neck to flatten them back down. This removes your center of gravity from the sweep arc and uses your weight advantage to counter their underhook leverage. Simultaneously begin stripping the underhook by overhooking their arm and driving their elbow toward the mat. If sweep momentum is already committed, base out with your far hand and post wide to absorb force."
+        "answer": "Your immediate priority is to sprawl your hips backward and drive your crossface shoulder into their neck to flatten them back down. This removes your center of gravity from the sweep arc and uses your weight advantage to counter their underhook leverage. Simultaneously begin stripping the underhook by overhooking their arm and driving their elbow toward the mat. If sweep momentum is already committed, base out with your far hand and post wide to absorb force.",
+        "answer_line": "Sprawl hips, crossface flatten them",
+        "distractors": {
+          "plausible": [
+            "Post far hand and wait it out",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Stand up to escape the underhook"
+          ]
+        }
       },
       {
         "question": "When is it better to commit to completing the pass rather than defending the sweep from quarter guard top?",
-        "answer": "Commit to pass completion when you recognize sweep setup indicators but still have a clear passing lane available before the sweep can be fully initiated. If the bottom player's underhook is still developing and their angle is minimal, aggressive pass completion is often the highest-percentage defensive option. However, if all sweep prerequisites are established, focus on neutralizing the sweep first before resuming pass progression to avoid being caught mid-transition."
+        "answer": "Commit to pass completion when you recognize sweep setup indicators but still have a clear passing lane available before the sweep can be fully initiated. If the bottom player's underhook is still developing and their angle is minimal, aggressive pass completion is often the highest-percentage defensive option. However, if all sweep prerequisites are established, focus on neutralizing the sweep first before resuming pass progression to avoid being caught mid-transition.",
+        "answer_line": "Finish pass before angle/hook set",
+        "distractors": {
+          "plausible": [
+            "Never stop passing, ignore setup",
+            "Always defend the sweep first"
+          ],
+          "trap": [
+            "Rush the pass once underhook is deep"
+          ]
+        }
       }
     ],
     "training_progressions": [

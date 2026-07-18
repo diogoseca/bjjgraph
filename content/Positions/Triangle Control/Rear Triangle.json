@@ -342,35 +342,115 @@
     "flashcards": [
       {
         "question": "What is the optimal hip angle for maintaining rear triangle control and why does this matter?",
-        "answer": "Angle your hips toward the trapped arm side at approximately 45 degrees to maximize carotid pressure. This hip orientation creates the cutting angle across the neck that compresses the carotid artery on the trapped arm side. Without this angle, the choke becomes a less effective air choke rather than a blood choke, giving opponent more time to escape."
+        "answer": "Angle your hips toward the trapped arm side at approximately 45 degrees to maximize carotid pressure. This hip orientation creates the cutting angle across the neck that compresses the carotid artery on the trapped arm side. Without this angle, the choke becomes a less effective air choke rather than a blood choke, giving opponent more time to escape.",
+        "answer_line": "45° angle toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Square hips to opponent",
+            "45° away from trapped arm"
+          ],
+          "trap": [
+            "Sit back, relax the squeeze"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to turn into you to relieve choking pressure - what adjustment do you make?",
-        "answer": "Extend your hips away from opponent while simultaneously tightening the triangle lock by squeezing knees together. Use your chest pressure and free hand to prevent their rotation. If they continue turning, use the rotation to transition to crucifix position by controlling their far arm during the turn. Never let them face you completely."
+        "answer": "Extend your hips away from opponent while simultaneously tightening the triangle lock by squeezing knees together. Use your chest pressure and free hand to prevent their rotation. If they continue turning, use the rotation to transition to crucifix position by controlling their far arm during the turn. Never let them face you completely.",
+        "answer_line": "Extend hips, tighten triangle",
+        "distractors": {
+          "plausible": [
+            "Let them turn, then re-attack",
+            "Push their head down"
+          ],
+          "trap": [
+            "Let go of trapped arm"
+          ]
+        }
       },
       {
         "question": "What are the essential grip priorities when your hands are free in rear triangle position?",
-        "answer": "Primary priority is controlling the opponent's free arm to prevent defensive gripping and frame establishment. Secondary priority is wrist control or collar grip on the trapped arm side to set up rear naked choke or bow and arrow attempts. Your hands should never be idle - they cycle between controlling the free arm and attacking submissions."
+        "answer": "Primary priority is controlling the opponent's free arm to prevent defensive gripping and frame establishment. Secondary priority is wrist control or collar grip on the trapped arm side to set up rear naked choke or bow and arrow attempts. Your hands should never be idle - they cycle between controlling the free arm and attacking submissions.",
+        "answer_line": "Control the opponent's free arm",
+        "distractors": {
+          "plausible": [
+            "Grip collar first, arm second",
+            "Secure trapped arm's wrist first"
+          ],
+          "trap": [
+            "Ignore free arm, attack choke"
+          ]
+        }
       },
       {
         "question": "How do you prevent opponent from extracting their trapped arm from the triangle structure?",
-        "answer": "Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips toward the trapped arm side to create pressure that pins the arm against their own body. Use your hands to actively fight any grip breaks on the trapped arm. If they create space, immediately tighten the triangle lock before continuing attacks."
+        "answer": "Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips toward the trapped arm side to create pressure that pins the arm against their own body. Use your hands to actively fight any grip breaks on the trapped arm. If they create space, immediately tighten the triangle lock before continuing attacks.",
+        "answer_line": "Squeeze knees, angle hips in",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm tighter",
+            "Chase the arm with your hands"
+          ],
+          "trap": [
+            "Loosen the lock to reposition"
+          ]
+        }
       },
       {
         "question": "What is the proper leg threading depth for the rear triangle and why is this critical?",
-        "answer": "Thread the choking leg deep under the armpit until your calf crosses behind the opponent's neck, not in front. The leg should emerge on the opposite side of their neck from where it entered. This creates the proper posterior choking angle that attacks the carotid from behind, making chin tucking an ineffective defense compared to front triangle positioning."
+        "answer": "Thread the choking leg deep under the armpit until your calf crosses behind the opponent's neck, not in front. The leg should emerge on the opposite side of their neck from where it entered. This creates the proper posterior choking angle that attacks the carotid from behind, making chin tucking an ineffective defense compared to front triangle positioning.",
+        "answer_line": "Calf must cross behind neck",
+        "distractors": {
+          "plausible": [
+            "Thread leg in front of neck",
+            "Shallow thread, ankle at armpit"
+          ],
+          "trap": [
+            "Cross leg over their chin"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges hard and creates space between your chest and their back - how do you recover?",
-        "answer": "Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle."
+        "answer": "Immediately follow them with your hips, closing the gap before they can rotate or stand. Use your free hand to push off the mat and drive your chest back into contact. Tighten the triangle lock to restrict their hip movement. If significant space is created, consider transitioning back to traditional back control with seat belt grip before re-establishing the triangle.",
+        "answer_line": "Follow hips, close the gap",
+        "distractors": {
+          "plausible": [
+            "Wait for them to tire out",
+            "Push down on their shoulders"
+          ],
+          "trap": [
+            "Release hooks to re-grip"
+          ]
+        }
       },
       {
         "question": "How do you distribute your weight to maintain rear triangle without fatiguing your legs prematurely?",
-        "answer": "Let your skeletal structure do the work rather than muscular squeezing. Lock the ankle deep into the knee crook so the figure-four holds itself structurally. Use your body weight draped over the opponent's back as the primary control force rather than constant leg tension. Reserve active squeezing for moments when you need to tighten during escape attempts or submission finishes. Between attacks, maintain a firm but relaxed triangle lock."
+        "answer": "Let your skeletal structure do the work rather than muscular squeezing. Lock the ankle deep into the knee crook so the figure-four holds itself structurally. Use your body weight draped over the opponent's back as the primary control force rather than constant leg tension. Reserve active squeezing for moments when you need to tighten during escape attempts or submission finishes. Between attacks, maintain a firm but relaxed triangle lock.",
+        "answer_line": "Lock ankle, relax between attacks",
+        "distractors": {
+          "plausible": [
+            "Squeeze constantly for control",
+            "Rest legs, use only chest weight"
+          ],
+          "trap": [
+            "Release the lock to rest"
+          ]
+        }
       },
       {
         "question": "After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?",
-        "answer": "Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails."
+        "answer": "Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails.",
+        "answer_line": "Keep lock, cycle to arm attacks",
+        "distractors": {
+          "plausible": [
+            "Abandon triangle, restart position",
+            "Wait and reset grips fully"
+          ],
+          "trap": [
+            "Release triangle to reset"
+          ]
+        }
       }
     ],
     "clips": [
@@ -687,35 +767,115 @@
     "flashcards": [
       {
         "question": "What is the first priority when caught in a fully locked rear triangle and why?",
-        "answer": "The first priority is to protect your chin by tucking it tightly to your chest and turning your face toward the non-choking leg side. This creates a defensive structure that reduces the effectiveness of the blood choke by protecting the carotid arteries from full compression. Chin protection buys you critical time to work your escape sequence before loss of consciousness."
+        "answer": "The first priority is to protect your chin by tucking it tightly to your chest and turning your face toward the non-choking leg side. This creates a defensive structure that reduces the effectiveness of the blood choke by protecting the carotid arteries from full compression. Chin protection buys you critical time to work your escape sequence before loss of consciousness.",
+        "answer_line": "Tuck chin, turn away from choke",
+        "distractors": {
+          "plausible": [
+            "Pull on the choking leg first",
+            "Turn face into choking leg"
+          ],
+          "trap": [
+            "Push against their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to angle their hips more aggressively to finish the choke - what adjustment do you make?",
-        "answer": "Grip the opponent's choking leg at the ankle or behind the knee with your free hand to prevent further hip adjustment. Simultaneously attempt to create rotation by turning your body toward the non-choking leg side. Use your trapped arm to push against the opponent's leg rather than trying to pull it out. These combined actions disrupt their finishing angle."
+        "answer": "Grip the opponent's choking leg at the ankle or behind the knee with your free hand to prevent further hip adjustment. Simultaneously attempt to create rotation by turning your body toward the non-choking leg side. Use your trapped arm to push against the opponent's leg rather than trying to pull it out. These combined actions disrupt their finishing angle.",
+        "answer_line": "Grip choking leg, rotate away",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm free",
+            "Rotate toward choking leg side"
+          ],
+          "trap": [
+            "Grab their hands behind head"
+          ]
+        }
       },
       {
         "question": "Why should you extract the trapped arm before attempting to remove your head from the triangle?",
-        "answer": "The trapped arm is what makes the triangle effective as a choke - it fills the space that would otherwise exist between your neck and the opponent's legs. Attempting to remove your head first actually tightens the choke because it drives your shoulder more deeply into your neck. By extracting the arm first, you eliminate the mechanical wedge and create space for your head to escape."
+        "answer": "The trapped arm is what makes the triangle effective as a choke - it fills the space that would otherwise exist between your neck and the opponent's legs. Attempting to remove your head first actually tightens the choke because it drives your shoulder more deeply into your neck. By extracting the arm first, you eliminate the mechanical wedge and create space for your head to escape.",
+        "answer_line": "Extract arm before your head",
+        "distractors": {
+          "plausible": [
+            "Work both out simultaneously",
+            "Push away with trapped arm"
+          ],
+          "trap": [
+            "Pull head out first"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish with your free hand when escaping rear triangle?",
-        "answer": "Primary grip is on the opponent's choking leg ankle or behind the knee to prevent tightening and create escape leverage. Secondary grip is on your trapped arm's wrist to assist with arm extraction. Never waste the free hand reaching for your opponent's hands behind your head - this is ineffective and exposes you to wrist control."
+        "answer": "Primary grip is on the opponent's choking leg ankle or behind the knee to prevent tightening and create escape leverage. Secondary grip is on your trapped arm's wrist to assist with arm extraction. Never waste the free hand reaching for your opponent's hands behind your head - this is ineffective and exposes you to wrist control.",
+        "answer_line": "Grip choking leg, then wrist",
+        "distractors": {
+          "plausible": [
+            "Grab opponent's near hand",
+            "Frame on their hip first"
+          ],
+          "trap": [
+            "Reach for hands behind your head"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the triangle is transitioning to an armbar and what is your immediate response?",
-        "answer": "The armbar transition shows when opponent begins extending their hips away while pulling down on your trapped arm and shifting their body perpendicular to yours. Immediate response is to keep your trapped arm bent and tight to your body, clasp your hands together if possible, and turn your body toward the trapped arm side to prevent elbow extension."
+        "answer": "The armbar transition shows when opponent begins extending their hips away while pulling down on your trapped arm and shifting their body perpendicular to yours. Immediate response is to keep your trapped arm bent and tight to your body, clasp your hands together if possible, and turn your body toward the trapped arm side to prevent elbow extension.",
+        "answer_line": "Bend arm, clasp hands, turn in",
+        "distractors": {
+          "plausible": [
+            "Straighten arm to push out",
+            "Turn away from trapped arm"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent loosens the triangle to adjust position - how do you capitalize on this window?",
-        "answer": "This is your escape opportunity. Immediately work arm extraction by pulling elbow tight to ribs and threading forearm across your centerline. Simultaneously shrimp your hips away and work to insert your knee between bodies. If the triangle is loose enough, you can roll toward the non-choking leg side to escape to guard. Speed is critical during this adjustment window."
+        "answer": "This is your escape opportunity. Immediately work arm extraction by pulling elbow tight to ribs and threading forearm across your centerline. Simultaneously shrimp your hips away and work to insert your knee between bodies. If the triangle is loose enough, you can roll toward the non-choking leg side to escape to guard. Speed is critical during this adjustment window.",
+        "answer_line": "Extract arm, shrimp, knee in",
+        "distractors": {
+          "plausible": [
+            "Wait for more space first",
+            "Push straight up to stand"
+          ],
+          "trap": [
+            "Reach for their hands to pry"
+          ]
+        }
       },
       {
         "question": "How do you manage breathing and energy when trapped in rear triangle under sustained pressure?",
-        "answer": "Breathe through your nose in controlled patterns rather than gasping through your mouth. Focus on diaphragmatic breathing rather than chest breathing. Conserve energy by using technical movements rather than explosive escape attempts. Accept that escape will take multiple small movements rather than one big effort. Mental composure directly affects your breathing efficiency and escape timing."
+        "answer": "Breathe through your nose in controlled patterns rather than gasping through your mouth. Focus on diaphragmatic breathing rather than chest breathing. Conserve energy by using technical movements rather than explosive escape attempts. Accept that escape will take multiple small movements rather than one big effort. Mental composure directly affects your breathing efficiency and escape timing.",
+        "answer_line": "Nose breathe, small movements",
+        "distractors": {
+          "plausible": [
+            "Take deep gasping breaths",
+            "One big explosive escape"
+          ],
+          "trap": [
+            "Hold breath, muscle out fast"
+          ]
+        }
       },
       {
         "question": "After successfully extracting your trapped arm, what is the immediate follow-up to complete the escape?",
-        "answer": "Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free."
+        "answer": "Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free.",
+        "answer_line": "Frame, shrimp, knee, turtle",
+        "distractors": {
+          "plausible": [
+            "Stand straight up immediately",
+            "Grab guard directly"
+          ],
+          "trap": [
+            "Stop moving to rest"
+          ]
+        }
       }
     ],
     "clips": [
@@ -751,35 +911,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the Rear Triangle and distinguishes it from standard back control?",
-      "answer": "The Rear Triangle is a back-control variation in which one leg is threaded under the opponent's near armpit and across the back of their neck, then locked into a figure-four by tucking that ankle into the crook of the opposite knee. This encloses the opponent's head together with one trapped arm inside a single closed loop, rather than merely hooking both legs around the torso as in standard back mount. The trapped arm is the defining feature: it occupies the space beside the neck that would otherwise allow blood flow and let the defender frame. Because the legs both control and choke, the top player's hands are freed for secondary attacks, which is the trade-off that separates this hybrid from a pure positional back ride."
+      "answer": "The Rear Triangle is a back-control variation in which one leg is threaded under the opponent's near armpit and across the back of their neck, then locked into a figure-four by tucking that ankle into the crook of the opposite knee. This encloses the opponent's head together with one trapped arm inside a single closed loop, rather than merely hooking both legs around the torso as in standard back mount. The trapped arm is the defining feature: it occupies the space beside the neck that would otherwise allow blood flow and let the defender frame. Because the legs both control and choke, the top player's hands are freed for secondary attacks, which is the trade-off that separates this hybrid from a pure positional back ride.",
+      "answer_line": "Leg + arm locked in figure-four",
+      "distractors": {
+        "plausible": [
+          "Both legs hooked around torso",
+          "Leg only, no arm trapped"
+        ],
+        "trap": [
+          "Same as standard back mount"
+        ]
+      }
     },
     {
       "question": "Why must the choking leg cross behind the neck rather than in front for the position to function?",
-      "answer": "A leg crossing in front of the throat produces only an airway compression that the defender easily nullifies by tucking the chin. Threading the leg deep under the armpit so the calf emerges behind the neck creates a posterior angle that pins the trapped-arm-side carotid against the shoulder, converting the loop into a blood choke. This rear angle is what makes chin-tucking an ineffective defense, unlike a front triangle. The distinction is structural rather than cosmetic: the same figure-four applied in front is a weak headlock, while applied behind it becomes one of the tightest strangles in the game."
+      "answer": "A leg crossing in front of the throat produces only an airway compression that the defender easily nullifies by tucking the chin. Threading the leg deep under the armpit so the calf emerges behind the neck creates a posterior angle that pins the trapped-arm-side carotid against the shoulder, converting the loop into a blood choke. This rear angle is what makes chin-tucking an ineffective defense, unlike a front triangle. The distinction is structural rather than cosmetic: the same figure-four applied in front is a weak headlock, while applied behind it becomes one of the tightest strangles in the game.",
+      "answer_line": "Behind neck cuts the carotid",
+      "distractors": {
+        "plausible": [
+          "Front angle is equally tight",
+          "Either angle works the same"
+        ],
+        "trap": [
+          "Cross in front for chin choke"
+        ]
+      }
     },
     {
       "question": "What role does the trapped arm play in making the Rear Triangle a functioning choke rather than a mere leg entanglement?",
-      "answer": "The trapped arm acts as the mechanical wedge that fills the loop, pressing the opponent's own shoulder and bicep into the near-side carotid as the triangle tightens. Without an arm inside, the loop would surround only the neck and leave slack that the defender could rotate or slip out of. With the arm in, every increment of knee compression drives the shoulder deeper into the artery, so the trapped limb is effectively choking its own owner. This is why the entire positional battle centers on that arm: its presence defines the position, and its extraction dissolves the choke back into ordinary back control."
+      "answer": "The trapped arm acts as the mechanical wedge that fills the loop, pressing the opponent's own shoulder and bicep into the near-side carotid as the triangle tightens. Without an arm inside, the loop would surround only the neck and leave slack that the defender could rotate or slip out of. With the arm in, every increment of knee compression drives the shoulder deeper into the artery, so the trapped limb is effectively choking its own owner. This is why the entire positional battle centers on that arm: its presence defines the position, and its extraction dissolves the choke back into ordinary back control.",
+      "answer_line": "Arm wedges shoulder into neck",
+      "distractors": {
+        "plausible": [
+          "Arm only blocks their vision",
+          "Arm control is optional here"
+        ],
+        "trap": [
+          "Let the arm slip out early"
+        ]
+      }
     },
     {
       "question": "How does hip angle relative to the trapped-arm side govern the tightness of the Rear Triangle for both players?",
-      "answer": "Angling the hips toward the trapped-arm side aligns the cutting edge of the triangle across the carotid rather than squarely across the back of the neck, sharpening the blood-choke pressure. Squared-up hips leave the compression diffuse and give the defender room to posture and rotate. For the bottom player, this same geometry is why turning the face toward the non-choking-leg side reduces effectiveness. The angle is a shared axis of the position: whoever wins the fight over hip orientation relative to the trapped arm controls how sharply the loop bites."
+      "answer": "Angling the hips toward the trapped-arm side aligns the cutting edge of the triangle across the carotid rather than squarely across the back of the neck, sharpening the blood-choke pressure. Squared-up hips leave the compression diffuse and give the defender room to posture and rotate. For the bottom player, this same geometry is why turning the face toward the non-choking-leg side reduces effectiveness. The angle is a shared axis of the position: whoever wins the fight over hip orientation relative to the trapped arm controls how sharply the loop bites.",
+      "answer_line": "Angle hips to trapped-arm side",
+      "distractors": {
+        "plausible": [
+          "Square hips for even pressure",
+          "Angle away from trapped arm"
+        ],
+        "trap": [
+          "Flatten hips to conserve energy"
+        ]
+      }
     },
     {
       "question": "What is the significance of chest-to-back connection as a defining dynamic of the Rear Triangle?",
-      "answer": "Constant chest-to-back contact keeps the top player's weight committed forward and denies the bottom player the rotational space needed to face their opponent or stand. Because the legs are occupied forming the triangle rather than hooking as conventional back hooks do, the torso connection becomes the primary anti-rotation mechanism. If a gap opens between chest and back, the defender can turn in, dump the top player's weight, or begin unwinding the loop. The position therefore lives or dies on this connection, since the leg configuration alone cannot supply it."
+      "answer": "Constant chest-to-back contact keeps the top player's weight committed forward and denies the bottom player the rotational space needed to face their opponent or stand. Because the legs are occupied forming the triangle rather than hooking as conventional back hooks do, the torso connection becomes the primary anti-rotation mechanism. If a gap opens between chest and back, the defender can turn in, dump the top player's weight, or begin unwinding the loop. The position therefore lives or dies on this connection, since the leg configuration alone cannot supply it.",
+      "answer_line": "Chest contact stops rotation",
+      "distractors": {
+        "plausible": [
+          "Leg hooks alone stop rotation",
+          "Head control stops rotation"
+        ],
+        "trap": [
+          "Sit up to see submission"
+        ]
+      }
     },
     {
       "question": "How does the Rear Triangle differ from the Body Triangle despite both being figure-four leg configurations from the back?",
-      "answer": "The Body Triangle wraps both legs around the opponent's torso, functioning purely as a control and posture-breaking device with no direct strangle threat from the legs themselves. The Rear Triangle instead encircles the neck and one arm, so the same figure-four becomes an active choke rather than a torso clamp. This shifts the position from a patient control platform toward an immediate submission dilemma, and it commits one leg to the neck instead of leaving both around the waist. The two share the figure-four mechanic but differ fundamentally in what is trapped and therefore in what the position threatens."
+      "answer": "The Body Triangle wraps both legs around the opponent's torso, functioning purely as a control and posture-breaking device with no direct strangle threat from the legs themselves. The Rear Triangle instead encircles the neck and one arm, so the same figure-four becomes an active choke rather than a torso clamp. This shifts the position from a patient control platform toward an immediate submission dilemma, and it commits one leg to the neck instead of leaving both around the waist. The two share the figure-four mechanic but differ fundamentally in what is trapped and therefore in what the position threatens.",
+      "answer_line": "Rear triangle chokes the neck",
+      "distractors": {
+        "plausible": [
+          "Both are pure control holds",
+          "Body triangle also chokes neck"
+        ],
+        "trap": [
+          "Treat both the same way"
+        ]
+      }
     },
     {
       "question": "Why does the Rear Triangle create a submission dilemma that neither player can neutralize by defending a single threat?",
-      "answer": "The closed loop simultaneously exposes the trapped arm to armbar-style extension and the neck to strangulation, so any defensive commitment to one relieves the other. Defending the choke by fighting the leg tends to straighten and offer the trapped arm, while protecting the arm by keeping it bent and tight leaves the carotid compressed. Because the top player's hands are free while the legs maintain control, threats can be cycled faster than the defender can re-solve each one. This dilemma, not any single finish, is the strategic essence of the position and what makes it more dangerous than plain back control."
+      "answer": "The closed loop simultaneously exposes the trapped arm to armbar-style extension and the neck to strangulation, so any defensive commitment to one relieves the other. Defending the choke by fighting the leg tends to straighten and offer the trapped arm, while protecting the arm by keeping it bent and tight leaves the carotid compressed. Because the top player's hands are free while the legs maintain control, threats can be cycled faster than the defender can re-solve each one. This dilemma, not any single finish, is the strategic essence of the position and what makes it more dangerous than plain back control.",
+      "answer_line": "Defend one, expose the other",
+      "distractors": {
+        "plausible": [
+          "Focus only on the choke",
+          "Focus only on the trapped arm"
+        ],
+        "trap": [
+          "Fight the leg to save the arm"
+        ]
+      }
     },
     {
       "question": "What determines whether the Rear Triangle progresses toward a finish or dissolves back into an adjacent position?",
-      "answer": "The pivotal variable is the status of the trapped arm inside the loop: while it remains wedged, the position holds its choke and armbar threats intact. If the defender extracts that arm, the loop loses its wedge and the position degrades toward standard back control, seatbelt control, or a scramble to turtle. Conversely, if the defender over-rotates trying to face the attacker, the position can convert into a crucifix rather than release. The shared boundary conditions are therefore arm extraction on one side and over-rotation on the other, with a sustained closed loop being the only state that keeps it a true Rear Triangle."
+      "answer": "The pivotal variable is the status of the trapped arm inside the loop: while it remains wedged, the position holds its choke and armbar threats intact. If the defender extracts that arm, the loop loses its wedge and the position degrades toward standard back control, seatbelt control, or a scramble to turtle. Conversely, if the defender over-rotates trying to face the attacker, the position can convert into a crucifix rather than release. The shared boundary conditions are therefore arm extraction on one side and over-rotation on the other, with a sustained closed loop being the only state that keeps it a true Rear Triangle.",
+      "answer_line": "Trapped arm status decides it",
+      "distractors": {
+        "plausible": [
+          "Choke tightness alone decides",
+          "Leg lock strength decides it"
+        ],
+        "trap": [
+          "Ignore the arm, watch the legs"
+        ]
+      }
     }
   ],
   "clips": [

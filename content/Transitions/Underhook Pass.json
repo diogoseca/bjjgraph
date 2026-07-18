@@ -320,7 +320,17 @@
       },
       {
         "question": "What are the key differences in executing the underhook pass against a knee shield half guard versus a traditional half guard with no shield?",
-        "answer": "Against knee shield, the primary challenge is dealing with the extended frame that prevents chest-to-chest pressure. You must first address the knee shield by either controlling the knee and driving it to the mat, stepping over it, or transitioning to a different passing angle (like knee cut). The underhook remains important but the crossface pressure is harder to establish initially. Against traditional half guard without knee shield, you can more directly establish chest-to-chest pressure and begin the flattening process immediately. The traditional half guard allows faster entry into the flattening phase but may have stronger lockdown or underhook battle threats, while knee shield provides more initial defensive structure but less sweep threat once bypassed."
+        "answer": "Against knee shield, the primary challenge is dealing with the extended frame that prevents chest-to-chest pressure. You must first address the knee shield by either controlling the knee and driving it to the mat, stepping over it, or transitioning to a different passing angle (like knee cut). The underhook remains important but the crossface pressure is harder to establish initially. Against traditional half guard without knee shield, you can more directly establish chest-to-chest pressure and begin the flattening process immediately. The traditional half guard allows faster entry into the flattening phase but may have stronger lockdown or underhook battle threats, while knee shield provides more initial defensive structure but less sweep threat once bypassed.",
+        "answer_line": "Clear knee shield before crossface",
+        "distractors": {
+          "plausible": [
+            "Underhook alone beats the shield",
+            "Same pressure as no-shield guard"
+          ],
+          "trap": [
+            "Crash chest-to-chest into shield"
+          ]
+        }
       },
       {
         "question": "Why is it important to keep your base wide with your free leg during the underhook pass, and how does this affect your passing mechanics?",
@@ -571,7 +581,17 @@
       },
       {
         "question": "At what specific point during the underhook pass sequence does your window for successful defense narrow most dramatically?",
-        "answer": "The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately."
+        "answer": "The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately.",
+        "answer_line": "Escape before shoulder blades pin",
+        "distractors": {
+          "plausible": [
+            "Escape once hip control is set",
+            "React only once fully flattened"
+          ],
+          "trap": [
+            "Wait for high-energy escape window"
+          ]
+        }
       },
       {
         "question": "How do you use a knee shield defensively when you have already lost the underhook battle against the top player?",

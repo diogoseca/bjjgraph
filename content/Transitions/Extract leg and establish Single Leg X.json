@@ -211,7 +211,17 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting this extraction?",
-        "answer": "The optimal window occurs during opponent's transitional moments: when they reach for a submission grip, adjust their leg position, shift weight to attack, or transition between entanglement configurations. These moments create brief gaps where their control is weakest. The extraction also works well when you have successfully hidden your heel and opponent must adjust their attack angle, as the repositioning creates space for extraction."
+        "answer": "The optimal window occurs during opponent's transitional moments: when they reach for a submission grip, adjust their leg position, shift weight to attack, or transition between entanglement configurations. These moments create brief gaps where their control is weakest. The extraction also works well when you have successfully hidden your heel and opponent must adjust their attack angle, as the repositioning creates space for extraction.",
+        "answer_line": "Opponent transitions or adjusts grip",
+        "distractors": {
+          "plausible": [
+            "Right after you hide your heel",
+            "When opponent locks in finish"
+          ],
+          "trap": [
+            "Whenever you feel strong enough"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before committing to the extraction?",
@@ -219,7 +229,17 @@
       },
       {
         "question": "What is the critical mechanical detail that makes limp leg extraction effective?",
-        "answer": "Complete relaxation of the trapped leg combined with hip rotation creates smooth extraction without telegraphing. When you pull with muscle tension, opponent feels resistance and tightens control. Limp leg mechanics use the hip rotation to slide the leg through the entanglement while the relaxed leg offers no resistance for opponent to grip or react to. The hip generates the movement, not the leg muscles."
+        "answer": "Complete relaxation of the trapped leg combined with hip rotation creates smooth extraction without telegraphing. When you pull with muscle tension, opponent feels resistance and tightens control. Limp leg mechanics use the hip rotation to slide the leg through the entanglement while the relaxed leg offers no resistance for opponent to grip or react to. The hip generates the movement, not the leg muscles.",
+        "answer_line": "Relax leg, rotate hip to slide free",
+        "distractors": {
+          "plausible": [
+            "Flex leg hard then twist free",
+            "Pull leg straight out fast"
+          ],
+          "trap": [
+            "Yank leg while muscles tense"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points during the extraction sequence?",
@@ -227,19 +247,59 @@
       },
       {
         "question": "What grips must you establish as your leg clears the entanglement?",
-        "answer": "As the leg clears, your hands must immediately capture opponent's ankle and foot to control their leg and prevent disengagement. The inside foot hooks behind opponent's far knee while the outside leg wraps at hip level. The ankle grip must be established before sitting up into Single Leg X posture—if you sit up first without grips, opponent can simply step out and reset to a passing position."
+        "answer": "As the leg clears, your hands must immediately capture opponent's ankle and foot to control their leg and prevent disengagement. The inside foot hooks behind opponent's far knee while the outside leg wraps at hip level. The ankle grip must be established before sitting up into Single Leg X posture—if you sit up first without grips, opponent can simply step out and reset to a passing position.",
+        "answer_line": "Capture ankle/foot before sitting up",
+        "distractors": {
+          "plausible": [
+            "Sit up first, then grip the ankle",
+            "Grab the knee before the ankle"
+          ],
+          "trap": [
+            "Sit up immediately, grip comes later"
+          ]
+        }
       },
       {
         "question": "In which direction should your force be applied during the extraction phase?",
-        "answer": "Hip rotation should be toward the direction your trapped leg needs to exit the entanglement. Your free leg pushes against opponent's hip to facilitate this rotation. The force is rotational and directional through the hips, never a straight pull through the leg itself. Rotating away from the correct side creates space on the extraction path while your hip movement slides the leg through. The angle also pre-positions your body for Single Leg X entry."
+        "answer": "Hip rotation should be toward the direction your trapped leg needs to exit the entanglement. Your free leg pushes against opponent's hip to facilitate this rotation. The force is rotational and directional through the hips, never a straight pull through the leg itself. Rotating away from the correct side creates space on the extraction path while your hip movement slides the leg through. The angle also pre-positions your body for Single Leg X entry.",
+        "answer_line": "Rotate hips, not a straight leg pull",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped leg straight back",
+            "Push straight forward with hips"
+          ],
+          "trap": [
+            "Yank the leg hard through the gap"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls forward and drives heavy pressure as you begin hip rotation - how do you adapt?",
-        "answer": "When opponent sprawls and drives forward, the standard hip rotation extraction path is blocked. Redirect to a Granby roll extraction, using the forward pressure to fuel the inverting motion that bypasses their sprawl. Alternatively, accept their forward commitment and threaten 50-50 Guard entry, which draws a defensive reaction that may create a new extraction window. Never try to force the original extraction against heavy forward pressure."
+        "answer": "When opponent sprawls and drives forward, the standard hip rotation extraction path is blocked. Redirect to a Granby roll extraction, using the forward pressure to fuel the inverting motion that bypasses their sprawl. Alternatively, accept their forward commitment and threaten 50-50 Guard entry, which draws a defensive reaction that may create a new extraction window. Never try to force the original extraction against heavy forward pressure.",
+        "answer_line": "Granby roll or threaten 50-50",
+        "distractors": {
+          "plausible": [
+            "Push through with more hip force",
+            "Abandon extraction, reset guard"
+          ],
+          "trap": [
+            "Force the original rotation path"
+          ]
+        }
       },
       {
         "question": "Your leg clears but opponent is already re-attacking with fresh leg entanglement - what is your immediate response?",
-        "answer": "Accelerate Single Leg X-Guard hook establishment without pausing to consolidate. Your inside hook must set behind their knee immediately while your hands grip their ankle with maximum urgency. Apply constant pulling pressure on their captured leg to prevent them from setting up new entanglement. If they manage to partially re-entangle, use the momentum of your initial extraction to chain directly into a sweep threat that disrupts their attack."
+        "answer": "Accelerate Single Leg X-Guard hook establishment without pausing to consolidate. Your inside hook must set behind their knee immediately while your hands grip their ankle with maximum urgency. Apply constant pulling pressure on their captured leg to prevent them from setting up new entanglement. If they manage to partially re-entangle, use the momentum of your initial extraction to chain directly into a sweep threat that disrupts their attack.",
+        "answer_line": "Rush hook and ankle grip, no pause",
+        "distractors": {
+          "plausible": [
+            "Pause to consolidate position first",
+            "Reset to neutral before continuing"
+          ],
+          "trap": [
+            "Let go and re-attempt extraction"
+          ]
+        }
       },
       {
         "question": "What indicates your extraction attempt is failing and you should abort?",
@@ -247,7 +307,17 @@
       },
       {
         "question": "After establishing Single Leg X-Guard, what are the primary chain attacks if opponent defends the initial sweep?",
-        "answer": "From established Single Leg X-Guard, if the initial off-balancing sweep is defended, chain into an inside ashi garami entry by rotating underneath their base and capturing the leg in entanglement. If they post wide to resist sweeps, transition to standard X-Guard for a different sweep angle. If they attempt to pull their leg free, follow with an ankle pick sweep or technical standup to a single leg. The key is maintaining offensive momentum rather than settling into a static guard position."
+        "answer": "From established Single Leg X-Guard, if the initial off-balancing sweep is defended, chain into an inside ashi garami entry by rotating underneath their base and capturing the leg in entanglement. If they post wide to resist sweeps, transition to standard X-Guard for a different sweep angle. If they attempt to pull their leg free, follow with an ankle pick sweep or technical standup to a single leg. The key is maintaining offensive momentum rather than settling into a static guard position.",
+        "answer_line": "Ashi garami, X-Guard, or ankle pick",
+        "distractors": {
+          "plausible": [
+            "Reset to closed guard and rebuild",
+            "Hold position and wait for reaction"
+          ],
+          "trap": [
+            "Release the leg to reattack fresh"
+          ]
+        }
       }
     ],
     "safety_considerations": "This technique involves leg entanglement positions where knee and ankle injuries are possible. During training, communicate clearly with partners about resistance levels and tap immediately if any leg lock pressure is applied during extraction attempts. The extraction motion itself is relatively safe, but failed attempts may leave you in worse leg lock positions. Practice at controlled speeds initially, only adding speed as the mechanical pattern becomes automatic. Partners should never explosively attack leg submissions during extraction drilling. In live training, recognize that forcing extraction against tight control risks knee injury if opponent has heel hook or kneebar position. When in doubt about joint safety, tap and reset rather than fighting through a bad position.",
@@ -348,7 +418,17 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is preparing a leg extraction attempt?",
-        "answer": "The earliest cues are: the trapped leg going completely limp and relaxed (indicating limp leg mechanics preparation), increased pushing and framing activity from their free leg against your hip or body, subtle hip rotation toward the extraction side, and their hands repositioning from defensive foot/ankle protection toward reaching for your leg to capture it. Recognizing these precursors before the actual extraction motion begins gives you the most time to respond effectively."
+        "answer": "The earliest cues are: the trapped leg going completely limp and relaxed (indicating limp leg mechanics preparation), increased pushing and framing activity from their free leg against your hip or body, subtle hip rotation toward the extraction side, and their hands repositioning from defensive foot/ankle protection toward reaching for your leg to capture it. Recognizing these precursors before the actual extraction motion begins gives you the most time to respond effectively.",
+        "answer_line": "Leg goes limp, hands reach to grip",
+        "distractors": {
+          "plausible": [
+            "Opponent grips harder on your leg",
+            "Opponent stops moving entirely"
+          ],
+          "trap": [
+            "Opponent posts and pushes down hard"
+          ]
+        }
       },
       {
         "question": "How should you adjust your leg entanglement control when you sense an extraction attempt beginning?",

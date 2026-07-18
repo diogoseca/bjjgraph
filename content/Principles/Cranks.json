@@ -342,43 +342,143 @@
   "flashcards": [
     {
       "question": "What distinguishes a crank from a choke or a joint lock?",
-      "answer": "A crank forces the spine, neck, or jaw beyond its safe range through rotational, lateral, or compressive force, attacking the vertebral column directly rather than the blood vessels, airway, or limb joints that chokes and joint locks target."
+      "answer": "A crank forces the spine, neck, or jaw beyond its safe range through rotational, lateral, or compressive force, attacking the vertebral column directly rather than the blood vessels, airway, or limb joints that chokes and joint locks target.",
+      "answer_line": "Twists/compresses the spine itself",
+      "distractors": {
+        "plausible": [
+          "Cuts off blood to the brain",
+          "Hyperextends a joint"
+        ],
+        "trap": [
+          "Just a slower version of a choke"
+        ]
+      }
     },
     {
       "question": "Why are cranks considered the highest-injury-risk submission category in BJJ?",
-      "answer": "The cervical spine is not built to be twisted or compressed under load, and its small vertebrae, discs, and ligaments can suffer structural damage before the sharp pain signal gives the defender any time to tap."
+      "answer": "The cervical spine is not built to be twisted or compressed under load, and its small vertebrae, discs, and ligaments can suffer structural damage before the sharp pain signal gives the defender any time to tap.",
+      "answer_line": "Spine injures before pain warns you",
+      "distractors": {
+        "plausible": [
+          "Neck muscles fatigue fast",
+          "Joints hyperextend quickly"
+        ],
+        "trap": [
+          "Pain always signals in time"
+        ]
+      }
     },
     {
       "question": "How should a crank be applied in training?",
-      "answer": "Always slowly and progressively, never explosively, giving your partner clear time to feel the force and tap, because spinal injuries can occur at relatively low force levels when applied suddenly."
+      "answer": "Always slowly and progressively, never explosively, giving your partner clear time to feel the force and tap, because spinal injuries can occur at relatively low force levels when applied suddenly.",
+      "answer_line": "Apply slow, never explosive",
+      "distractors": {
+        "plausible": [
+          "Fast but controlled",
+          "Full speed if warmed up"
+        ],
+        "trap": [
+          "Snap it on quickly to test grip"
+        ]
+      }
     },
     {
       "question": "What is the correct defensive response the instant you feel spinal rotation or compression?",
-      "answer": "Tap immediately and without hesitation. Unlike joint locks or chokes there is no safe window to muscle through a crank, and cervical injuries can be permanent or career-ending, so there is no upside to enduring the pressure."
+      "answer": "Tap immediately and without hesitation. Unlike joint locks or chokes there is no safe window to muscle through a crank, and cervical injuries can be permanent or career-ending, so there is no upside to enduring the pressure.",
+      "answer_line": "Tap immediately, no hesitation",
+      "distractors": {
+        "plausible": [
+          "Try to posture out first",
+          "Wait to see if it worsens"
+        ],
+        "trap": [
+          "Muscle through like a joint lock"
+        ]
+      }
     },
     {
       "question": "How does the can opener crank work and why does it matter for beginners?",
-      "answer": "From inside closed guard the attacker clasps both hands behind the head and forcibly flexes the cervical spine forward and down. It is commonly encountered early and is banned in most lower-belt gi rulesets."
+      "answer": "From inside closed guard the attacker clasps both hands behind the head and forcibly flexes the cervical spine forward and down. It is commonly encountered early and is banned in most lower-belt gi rulesets.",
+      "answer_line": "Clasped hands flex head forward",
+      "distractors": {
+        "plausible": [
+          "Squeezes the head laterally",
+          "Pulls head back to arch spine"
+        ],
+        "trap": [
+          "Legal at all belt levels"
+        ]
+      }
     },
     {
       "question": "How can a choke attempt unintentionally turn into a crank?",
-      "answer": "When a guillotine, crossface, or rear naked choke slides off the arteries onto the jaw, the force redirects into the cervical spine. If a partner reports jaw or neck pain rather than a choking sensation, adjust the angle."
+      "answer": "When a guillotine, crossface, or rear naked choke slides off the arteries onto the jaw, the force redirects into the cervical spine. If a partner reports jaw or neck pain rather than a choking sensation, adjust the angle.",
+      "answer_line": "Jaw pain means adjust the angle",
+      "distractors": {
+        "plausible": [
+          "Push through to finish the choke",
+          "Reposition hands, same angle"
+        ],
+        "trap": [
+          "Increase pressure to power through"
+        ]
+      }
     },
     {
       "question": "What is the primary defensive principle that prevents most cranks from materializing?",
-      "answer": "Maintaining good posture keeps the spine in neutral alignment and resistant to rotational and compressive force, which is why breaking posture is usually the first step an attacker takes in any crank setup."
+      "answer": "Maintaining good posture keeps the spine in neutral alignment and resistant to rotational and compressive force, which is why breaking posture is usually the first step an attacker takes in any crank setup.",
+      "answer_line": "Maintain posture, keep spine neutral",
+      "distractors": {
+        "plausible": [
+          "Grip fight to stop the hands",
+          "Turn your head away quickly"
+        ],
+        "trap": [
+          "Relax your neck to absorb force"
+        ]
+      }
     },
     {
       "question": "Why should you often convert a crank angle into a choke when the option exists?",
-      "answer": "Many head-control positions can produce either a crank or a choke; the choke applies vascular compression that is both far safer for the partner and a more reliable, repeatable finishing mechanic."
+      "answer": "Many head-control positions can produce either a crank or a choke; the choke applies vascular compression that is both far safer for the partner and a more reliable, repeatable finishing mechanic.",
+      "answer_line": "Choke instead, safer and reliable",
+      "distractors": {
+        "plausible": [
+          "Crank first, then switch to choke",
+          "Use both simultaneously"
+        ],
+        "trap": [
+          "Cranks finish faster, use those"
+        ]
+      }
     },
     {
       "question": "What communication should precede any crank-adjacent training?",
-      "answer": "Confirm with your partner before the round whether cranks are included, ask about any neck injury history, and agree that both partners will apply force slowly and tap early at the first sign of spinal pressure."
+      "answer": "Confirm with your partner before the round whether cranks are included, ask about any neck injury history, and agree that both partners will apply force slowly and tap early at the first sign of spinal pressure.",
+      "answer_line": "Ask limits, agree to tap early",
+      "distractors": {
+        "plausible": [
+          "Just start light and see",
+          "Assume it's fine unless told"
+        ],
+        "trap": [
+          "Skip talk, ease in slowly"
+        ]
+      }
     },
     {
       "question": "How does the twister generate force against the spine?",
-      "answer": "The twister controls the opponent's leg and head simultaneously to create full-body lateral rotation that twists the spine. It requires specific entanglement and should only be drilled with extreme caution."
+      "answer": "The twister controls the opponent's leg and head simultaneously to create full-body lateral rotation that twists the spine. It requires specific entanglement and should only be drilled with extreme caution.",
+      "answer_line": "Leg and head control twist spine",
+      "distractors": {
+        "plausible": [
+          "Pure leg lock pressure",
+          "Head control alone twists spine"
+        ],
+        "trap": [
+          "Safe to drill at full speed"
+        ]
+      }
     }
   ],
   "clips": [

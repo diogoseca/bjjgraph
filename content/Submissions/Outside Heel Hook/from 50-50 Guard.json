@@ -309,42 +309,122 @@
       {
         "question": "What anatomical structures does the outside heel hook from 50-50 guard primarily attack?",
         "answer": "The outside heel hook primarily attacks the knee ligaments through lateral rotation. The ACL (anterior cruciate ligament) and MCL (medial collateral ligament) are the primary targets, with secondary stress on the meniscus, LCL, and PCL. The rotational force through the figure-four grip twists the tibia relative to the femur, stressing these stabilizing structures simultaneously. The ankle ligaments receive secondary stress from the grip mechanics.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "ACL and MCL primarily",
+        "distractors": {
+          "plausible": [
+            "Ankle ligaments primarily",
+            "Meniscus and LCL equally"
+          ],
+          "trap": [
+            "Achilles tendon and calf"
+          ]
+        }
       },
       {
         "question": "What is the correct finishing mechanic that generates the tap from the outside heel hook?",
         "answer": "The finish combines hip extension driving forward with lateral heel rotation through the figure-four grip. Your hips extend to push the opponent's knee line forward while the figure-four rotates the heel laterally away from the opponent's body. The knee pinch prevents spinning defense. This creates a rotational shearing force on the knee ligaments that makes the position untenable. The power comes from the hips, not the arms.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension plus heel rotation",
+        "distractors": {
+          "plausible": [
+            "Arm strength cranks the foot",
+            "Pull the foot toward your chest"
+          ],
+          "trap": [
+            "Explosive twist for max torque"
+          ]
+        }
       },
       {
         "question": "Your opponent hides their heel using the boot defense with strong inward knee rotation - what is the correct tactical response?",
         "answer": "First attempt two-on-one grip fighting to control the foot and forcibly rotate it outward to re-expose the heel. If the boot defense is well-established after three to five seconds of effort, abandon the heel hook and transition to an alternative attack. The kneebar is available by controlling above the knee, the transition to outside ashi-garami provides a better finishing angle, or a back take capitalizes on the space created during leg extraction attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight briefly, then transition",
+        "distractors": {
+          "plausible": [
+            "Force heel exposure indefinitely",
+            "Muscle through the rotation now"
+          ],
+          "trap": [
+            "Release grips and reset guard"
+          ]
+        }
       },
       {
         "question": "What role does knee line control play in completing the outside heel hook from 50-50?",
         "answer": "Knee line control through pinching your knees together around the opponent's thigh above their knee joint is essential for preventing the spinning defense. Without it, the opponent simply rotates their body toward the direction of heel rotation, completely relieving all rotational stress on the knee ligaments. The knee pinch locks the femur in place so that your rotational force transfers directly to the knee joint through the tibia rather than being absorbed by whole-body rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pinch knees to stop the spin",
+        "distractors": {
+          "plausible": [
+            "Grip strength alone holds it",
+            "Pull the leg straight and back"
+          ],
+          "trap": [
+            "Let them rotate then re-attack"
+          ]
+        }
       },
       {
         "question": "Why must the outside heel hook be applied with slow progressive pressure rather than explosive rotational force?",
         "answer": "Heel hooks cause ligament damage before pain signals reach the brain, meaning the defender cannot feel the injury happening in time to tap. Explosive application can tear the ACL and MCL within fractions of a second, causing career-ending injuries. Slow progressive pressure over five or more seconds gives the defender time to recognize the positional danger and tap before structural damage occurs. This is a non-negotiable safety requirement in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pain lags behind ligament damage",
+        "distractors": {
+          "plausible": [
+            "Slow pressure finishes it faster",
+            "Fast pressure signals a real tap"
+          ],
+          "trap": [
+            "Explosive rotation ensures the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins spinning their body toward the rotation direction during your heel hook attempt - what adjustment do you make?",
         "answer": "Immediately tighten knee line control by squeezing your knees harder together around their thigh to restrict their spinning range. Follow their spin with your own hip adjustment to maintain your perpendicular angle relative to their leg. If they manage partial rotation, re-angle your hips and re-establish the finishing position from the new alignment before they can complete the full spin and reset their defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten knees, follow their spin",
+        "distractors": {
+          "plausible": [
+            "Release and reset the grip",
+            "Power through with more speed"
+          ],
+          "trap": [
+            "Let go and chase a new angle"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if your initial figure-four position is too shallow on the heel?",
         "answer": "Do not attempt to finish from a shallow grip that only catches the toes or ball of the foot. Pause the rotational pressure and walk your forearm deeper behind the heel by incrementally adjusting your wrist bone position toward the Achilles tendon. Use your free hand to control the opponent's foot position while repositioning. A properly seated grip has the wrist bone firmly behind the heel curve with the forearm flush against the calf.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk grip deeper behind heel",
+        "distractors": {
+          "plausible": [
+            "Finish anyway with more force",
+            "Switch hands to re-grip fast"
+          ],
+          "trap": [
+            "Crank hard from the toes"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic factors determine whether to pursue the outside heel hook versus transitioning to the inside heel hook from 50-50?",
         "answer": "The outside heel hook is preferred when you have strong inside position and the opponent's heel is naturally exposed on the outside of the entanglement. Transition to inside heel hook by moving to honey hole or inside ashi when the opponent's boot defense effectively hides the heel from the outside angle. Competition strategy also considers the ruleset: ADCC and most no-gi rulesets allow both, while IBJJF restricts heel hooks by belt level. The outside heel hook from 50-50 carries less positional risk as failure returns you to 50-50 top.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Heel exposed with strong inside",
+        "distractors": {
+          "plausible": [
+            "Always finish outside regardless",
+            "Inside heel hook is always safer"
+          ],
+          "trap": [
+            "Force outside despite boot defense"
+          ]
+        }
       }
     ],
     "clips": [
@@ -458,27 +538,77 @@
       {
         "question": "How do you recognize that the outside heel hook from 50-50 guard is being set up?",
         "answer": "The primary recognition cues are the attacker initiating two-on-one grip fighting to strip your defensive grips, their hands shifting to control your toes and ankle for heel exposure, and their hips angling perpendicular to your trapped leg. The attacker threading their forearm behind your heel and pinching their knees around your thigh are late-stage cues indicating the submission is nearly locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight, hips turn perpendicular",
+        "distractors": {
+          "plausible": [
+            "Sudden hip escape attempt",
+            "Opponent flattening you out"
+          ],
+          "trap": [
+            "They're stacking for a pass"
+          ]
+        }
       },
       {
         "question": "What is the safest response when you feel rotational pressure on your knee from a locked outside heel hook?",
         "answer": "Tap immediately using verbal tap, hand tap on the partner or mat, or foot tap with your free leg. Heel hooks damage knee ligaments before pain signals reach the brain, meaning structural damage can occur before you feel it. There is no safe way to resist a locked heel hook with rotational pressure already applied. A slightly early tap prevents months of rehabilitation from a torn ACL or MCL.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, don't resist",
+        "distractors": {
+          "plausible": [
+            "Try to spin out under pressure",
+            "Push through since it's early"
+          ],
+          "trap": [
+            "Muscle out with explosive force"
+          ]
+        }
       },
       {
         "question": "What defensive options are available before the figure-four grip is fully locked?",
         "answer": "Before the figure-four is locked, you can use boot defense by rotating your knee inward to hide the heel, two-on-one grip strip to break the attacker's hand control on your foot, spinning toward the rotation direction if partial control is established, or leg extraction by straightening and pushing off their hip to disengage entirely. Each option has diminishing effectiveness the further the attack progresses.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Boot defense or leg extraction",
+        "distractors": {
+          "plausible": [
+            "Wait it out passively",
+            "Pull knee straight into their hip"
+          ],
+          "trap": [
+            "Spin away from rotation direction"
+          ]
+        }
       },
       {
         "question": "Why is explosive movement particularly dangerous when caught in a locked outside heel hook?",
         "answer": "Explosive movement against the rotational force of a locked heel hook accelerates ligament damage rather than creating escape. The mechanical advantage of the figure-four grip with knee line control means your muscular force cannot overcome the positional leverage. Rapid movement under load tears the ACL and MCL faster than slow progressive pressure would, converting a survivable position into a catastrophic injury within fractions of a second.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Speeds up ligament damage risk",
+        "distractors": {
+          "plausible": [
+            "Creates opening to escape fast",
+            "Overpowers the figure-four grip"
+          ],
+          "trap": [
+            "Explode early to beat the lock"
+          ]
+        }
       },
       {
         "question": "How do you decide between fighting for position reversal versus extracting to standing from 50-50 bottom?",
         "answer": "Assess inside position control within the first three to five seconds. If you have inside position parity or can quickly recover it, fight for reversal using sweep mechanics and counter-attacks. If the attacker has clear inside control advantage that you cannot match, immediately shift strategy to leg extraction and standing. Fighting for reversal without inside position wastes energy, increases submission risk, and extends your time in a disadvantageous configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Assess inside position first",
+        "distractors": {
+          "plausible": [
+            "Always fight for the reversal",
+            "Always extract to standing fast"
+          ],
+          "trap": [
+            "Keep fighting without inside control"
+          ]
+        }
       }
     ],
     "training_progressions": [

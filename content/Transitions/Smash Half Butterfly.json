@@ -258,39 +258,129 @@
     "flashcards": [
       {
         "question": "What is the most critical body position adjustment that neutralizes the butterfly hook's lifting power?",
-        "answer": "Dropping your hips below the hook's leverage point while driving chest pressure diagonally across the bottom player's body toward the hook side. This combination removes the mechanical advantage the hook needs to generate upward force by placing your center of gravity below its optimal operating angle and flattening the bottom player's hips to eliminate rotational freedom."
+        "answer": "Dropping your hips below the hook's leverage point while driving chest pressure diagonally across the bottom player's body toward the hook side. This combination removes the mechanical advantage the hook needs to generate upward force by placing your center of gravity below its optimal operating angle and flattening the bottom player's hips to eliminate rotational freedom.",
+        "answer_line": "Drop hips, drive diagonal to hook",
+        "distractors": {
+          "plausible": [
+            "Drive straight down, full weight",
+            "Secure underhook before hips drop"
+          ],
+          "trap": [
+            "Raise hips to add downward force"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to commit to the smash rather than another passing option from half butterfly top?",
-        "answer": "Commit to the smash when you have already secured upper body control (crossface or underhook) and the bottom player is holding the hook passively to maintain position rather than actively elevating for a sweep. If they are mid-elevation or scrambling for the underhook, address that threat first—the smash works best against a defensive, retention-focused hook, not an attacking one."
+        "answer": "Commit to the smash when you have already secured upper body control (crossface or underhook) and the bottom player is holding the hook passively to maintain position rather than actively elevating for a sweep. If they are mid-elevation or scrambling for the underhook, address that threat first—the smash works best against a defensive, retention-focused hook, not an attacking one.",
+        "answer_line": "Have crossface, hook is passive",
+        "distractors": {
+          "plausible": [
+            "Right after passing to half guard",
+            "Once you feel any hook contact"
+          ],
+          "trap": [
+            "Commit while they're mid-elevation"
+          ]
+        }
       },
       {
         "question": "Your opponent elevates with their butterfly hook just as you begin lowering your hips—how do you recover?",
-        "answer": "Immediately widen your base by sprawling both feet outward and drive your chest forward into their upper body. If they achieve partial elevation, swim your near-side arm under their lifting leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. Re-establish chest-to-chest pressure before reattempting the smash sequence."
+        "answer": "Immediately widen your base by sprawling both feet outward and drive your chest forward into their upper body. If they achieve partial elevation, swim your near-side arm under their lifting leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. Re-establish chest-to-chest pressure before reattempting the smash sequence.",
+        "answer_line": "Sprawl wide, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Post hands and wait it out",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Let the sweep complete, reset"
+          ]
+        }
       },
       {
         "question": "What upper body control must be established before committing to the smash sequence?",
-        "answer": "Secure either a deep crossface driving your shoulder under their chin with your hand gripping their far shoulder, or a controlling underhook on the near side. The crossface is generally preferred because it limits the bottom player's ability to turn toward you and build frames. Without this control, the bottom player can freely angle their hips and maintain hook effectiveness regardless of your pressure."
+        "answer": "Secure either a deep crossface driving your shoulder under their chin with your hand gripping their far shoulder, or a controlling underhook on the near side. The crossface is generally preferred because it limits the bottom player's ability to turn toward you and build frames. Without this control, the bottom player can freely angle their hips and maintain hook effectiveness regardless of your pressure.",
+        "answer_line": "Deep crossface, or underhook",
+        "distractors": {
+          "plausible": [
+            "Overhook on far-side arm",
+            "Underhook on far side"
+          ],
+          "trap": [
+            "Grab both pant legs first"
+          ]
+        }
       },
       {
         "question": "How do you confirm the butterfly hook is fully neutralized before attempting to extract past it?",
-        "answer": "The hook is neutralized when you feel no upward pressure against your thigh, the bottom player's hips are flat on the mat, and their hook-side knee is pinned between your shin and the mat. Test by slightly shifting your weight—if the bottom player cannot generate any elevation response, the hook is dead. Attempting extraction before these conditions are met risks the hook catching your leg mid-transition."
+        "answer": "The hook is neutralized when you feel no upward pressure against your thigh, the bottom player's hips are flat on the mat, and their hook-side knee is pinned between your shin and the mat. Test by slightly shifting your weight—if the bottom player cannot generate any elevation response, the hook is dead. Attempting extraction before these conditions are met risks the hook catching your leg mid-transition.",
+        "answer_line": "No lift felt, hips flat, knee pinned",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "You feel their grips loosen"
+          ],
+          "trap": [
+            "Extract as soon as chest is heavy"
+          ]
+        }
       },
       {
         "question": "Your opponent fights for an underhook during the smash—what is your immediate response?",
-        "answer": "Immediately counter with a deep overhook or whizzer on their underhook arm while maintaining your crossface pressure. Drive your shoulder into their chin to turn their head away, which weakens their underhook leverage. If they achieve the underhook fully, switch to driving them flat with concentrated hip pressure rather than trying to strip the underhook—a flat opponent with an underhook has limited offensive capability."
+        "answer": "Immediately counter with a deep overhook or whizzer on their underhook arm while maintaining your crossface pressure. Drive your shoulder into their chin to turn their head away, which weakens their underhook leverage. If they achieve the underhook fully, switch to driving them flat with concentrated hip pressure rather than trying to strip the underhook—a flat opponent with an underhook has limited offensive capability.",
+        "answer_line": "Whizzer their arm, turn their chin",
+        "distractors": {
+          "plausible": [
+            "Strip the underhook immediately",
+            "Release crossface to re-grip"
+          ],
+          "trap": [
+            "Fight to strip a secured underhook"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are needed when transitioning from the smash to half guard top consolidation?",
-        "answer": "As you clear the butterfly hook, maintain your crossface grip but shift your hip pressure to center over the remaining half guard entanglement. Your inside hand should immediately control their bottom knee or hip to prevent butterfly hook reinsertion. Avoid releasing the crossface during this transition, as the bottom player's primary recovery window occurs during the moment you shift from smash pressure to half guard top control."
+        "answer": "As you clear the butterfly hook, maintain your crossface grip but shift your hip pressure to center over the remaining half guard entanglement. Your inside hand should immediately control their bottom knee or hip to prevent butterfly hook reinsertion. Avoid releasing the crossface during this transition, as the bottom player's primary recovery window occurs during the moment you shift from smash pressure to half guard top control.",
+        "answer_line": "Keep crossface, control bottom knee",
+        "distractors": {
+          "plausible": [
+            "Switch to a fresh overhook grip",
+            "Release crossface, grab far hip"
+          ],
+          "trap": [
+            "Release crossface mid-transition"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of driving force during the smash and why does it matter?",
-        "answer": "The driving force must be diagonal—across the bottom player's body toward the butterfly hook side—rather than straight down. Straight downward pressure allows the bottom player to maintain hip rotation and angle their body to preserve hook effectiveness. Diagonal pressure flattens both hips simultaneously and drives the hook-side hip into the mat, removing the rotational freedom the hook requires to generate elevation."
+        "answer": "The driving force must be diagonal—across the bottom player's body toward the butterfly hook side—rather than straight down. Straight downward pressure allows the bottom player to maintain hip rotation and angle their body to preserve hook effectiveness. Diagonal pressure flattens both hips simultaneously and drives the hook-side hip into the mat, removing the rotational freedom the hook requires to generate elevation.",
+        "answer_line": "Diagonal toward the hook side",
+        "distractors": {
+          "plausible": [
+            "Straight down through the chest",
+            "Diagonal away from the hook"
+          ],
+          "trap": [
+            "Pull back to create space"
+          ]
+        }
       },
       {
         "question": "Your smash stalls because the opponent successfully frames and prevents flattening—what do you chain into?",
-        "answer": "Treat the stalled smash as the opening move of a passing chain rather than forcing it. If they frame hard and turn into you, switch to a knee slice by cutting your trapped knee across their thigh into the space their frame creates, or transition to a body lock pass to re-pressure from a different angle. Reading the direction of their framing tells you which follow-up has the clearest lane—pass into the space their defense opens."
+        "answer": "Treat the stalled smash as the opening move of a passing chain rather than forcing it. If they frame hard and turn into you, switch to a knee slice by cutting your trapped knee across their thigh into the space their frame creates, or transition to a body lock pass to re-pressure from a different angle. Reading the direction of their framing tells you which follow-up has the clearest lane—pass into the space their defense opens.",
+        "answer_line": "Chain to knee slice or bodylock",
+        "distractors": {
+          "plausible": [
+            "Force the same smash harder",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Keep grinding the same angle"
+          ]
+        }
       }
     ],
     "safety_considerations": "When executing the Smash Half Butterfly, be mindful of the pressure applied to your partner's knee and hip joints through the butterfly hook. Excessive lateral force on the trapped hook can strain the medial collateral ligament or hip flexors. Apply pressure progressively rather than explosively, and be responsive to your training partner's discomfort signals. In drilling, communicate about pressure intensity and allow your partner to tap to positional discomfort, not just submissions. Avoid dropping your full bodyweight suddenly onto a loaded butterfly hook.",
@@ -407,23 +497,73 @@
     "flashcards": [
       {
         "question": "What are the earliest tactile cues indicating a smash pass attempt from half butterfly top?",
-        "answer": "The first cue is a significant drop in the top player's hip height combined with increased diagonal chest pressure toward your butterfly hook side. You will feel their weight shifting from balanced distribution to concentrated pressure on the hook side, and their inside knee or shin will begin moving toward your hook foot. Recognizing these cues before the hook is pinned gives you the maximum defensive window to respond."
+        "answer": "The first cue is a significant drop in the top player's hip height combined with increased diagonal chest pressure toward your butterfly hook side. You will feel their weight shifting from balanced distribution to concentrated pressure on the hook side, and their inside knee or shin will begin moving toward your hook foot. Recognizing these cues before the hook is pinned gives you the maximum defensive window to respond.",
+        "answer_line": "Hip drop, diagonal chest, knee creep",
+        "distractors": {
+          "plausible": [
+            "Sudden crossface grip only",
+            "Opponent posts hand on mat"
+          ],
+          "trap": [
+            "Wait until hook is fully pinned"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a sweep counter against the smash?",
-        "answer": "The best window is during the top player's transition from upright posture to smash posture—specifically as they commit weight forward and begin dropping their hips. At this moment, their base is temporarily compromised because they are actively changing position. A well-timed butterfly hook elevation combined with an underhook can exploit this transitional instability before the smash pressure is fully established."
+        "answer": "The best window is during the top player's transition from upright posture to smash posture—specifically as they commit weight forward and begin dropping their hips. At this moment, their base is temporarily compromised because they are actively changing position. A well-timed butterfly hook elevation combined with an underhook can exploit this transitional instability before the smash pressure is fully established.",
+        "answer_line": "As they transition into the smash",
+        "distractors": {
+          "plausible": [
+            "After the smash is fully set",
+            "Right when hip pressure begins"
+          ],
+          "trap": [
+            "Wait until hook gets pinned"
+          ]
+        }
       },
       {
         "question": "Your butterfly hook is being progressively pinned—what is your best alternative defensive strategy?",
-        "answer": "If the hook is losing effectiveness, immediately transition to deep half guard by shooting your outside arm under the top player's hips and angling your body underneath them before they can fully flatten you. This abandons the half butterfly structure but establishes a strong alternative sweeping position. The key is making this transition before you are completely flattened, as deep half requires hip mobility that flat positioning eliminates entirely."
+        "answer": "If the hook is losing effectiveness, immediately transition to deep half guard by shooting your outside arm under the top player's hips and angling your body underneath them before they can fully flatten you. This abandons the half butterfly structure but establishes a strong alternative sweeping position. The key is making this transition before you are completely flattened, as deep half requires hip mobility that flat positioning eliminates entirely.",
+        "answer_line": "Shoot to deep half before flat",
+        "distractors": {
+          "plausible": [
+            "Fight harder to save the hook",
+            "Switch to full guard retention"
+          ],
+          "trap": [
+            "Wait until fully flat, then shift"
+          ]
+        }
       },
       {
         "question": "How should you adjust your frames when the top player begins driving angular pressure toward the hook side?",
-        "answer": "Shift your primary frame to the far-side shoulder or bicep to create a wedge against the angular drive. Your near-side hand should control the crossface arm to prevent deep shoulder pressure under your chin. The frame should be angled to redirect their pressure away from your hook rather than trying to stop it head-on—work at an angle perpendicular to their driving direction for maximum mechanical efficiency."
+        "answer": "Shift your primary frame to the far-side shoulder or bicep to create a wedge against the angular drive. Your near-side hand should control the crossface arm to prevent deep shoulder pressure under your chin. The frame should be angled to redirect their pressure away from your hook rather than trying to stop it head-on—work at an angle perpendicular to their driving direction for maximum mechanical efficiency.",
+        "answer_line": "Frame far shoulder, angle it off",
+        "distractors": {
+          "plausible": [
+            "Frame straight into their chest",
+            "Push both hands on their hips"
+          ],
+          "trap": [
+            "Push straight back head-on"
+          ]
+        }
       },
       {
         "question": "What role does underhook fighting play in preventing the smash from succeeding?",
-        "answer": "The underhook on the hook side is your most powerful structural defense against the smash because it prevents the top player from achieving the chest-to-chest connection needed to flatten your hips. With the underhook, you maintain the ability to angle your body, create elevation with the hook, and threaten sweeps that force the top player to address your offense rather than methodically executing the smash. Losing the underhook battle is often the decisive moment that allows the smash to succeed."
+        "answer": "The underhook on the hook side is your most powerful structural defense against the smash because it prevents the top player from achieving the chest-to-chest connection needed to flatten your hips. With the underhook, you maintain the ability to angle your body, create elevation with the hook, and threaten sweeps that force the top player to address your offense rather than methodically executing the smash. Losing the underhook battle is often the decisive moment that allows the smash to succeed.",
+        "answer_line": "Underhook blocks chest connection",
+        "distractors": {
+          "plausible": [
+            "Underhook only helps late passes",
+            "Underhook mainly protects the neck"
+          ],
+          "trap": [
+            "Give up underhook, frame instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

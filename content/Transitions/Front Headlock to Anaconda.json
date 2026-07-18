@@ -263,51 +263,171 @@
     "flashcards": [
       {
         "question": "What is the correct direction to roll when executing the anaconda choke, and why is this direction critical for the technique's success?",
-        "answer": "You must always roll toward your choking-arm side (the arm threaded across their neck). This direction is critical because rolling toward the choking arm tightens the noose-like configuration around the neck and trapped arm. Rolling the opposite direction would actually loosen the choke and allow easy escape, as it would open space rather than eliminate it. The rolling motion toward the choking side creates the characteristic spiraling pressure that makes the anaconda so effective."
+        "answer": "You must always roll toward your choking-arm side (the arm threaded across their neck). This direction is critical because rolling toward the choking arm tightens the noose-like configuration around the neck and trapped arm. Rolling the opposite direction would actually loosen the choke and allow easy escape, as it would open space rather than eliminate it. The rolling motion toward the choking side creates the characteristic spiraling pressure that makes the anaconda so effective.",
+        "answer_line": "Roll toward choking-arm side",
+        "distractors": {
+          "plausible": [
+            "Roll away from choking arm",
+            "Roll toward your strong side"
+          ],
+          "trap": [
+            "Direction doesn't matter"
+          ]
+        }
       },
       {
         "question": "Why is trapping the opponent's near arm essential for the anaconda choke, and what happens if this arm remains free during the execution?",
-        "answer": "Trapping the near arm is essential because it serves multiple critical functions: prevents the opponent from posting during the roll (which would stop the technique entirely), creates additional pressure against their own neck (their trapped arm becomes part of the choking mechanism), and eliminates their primary defensive tool. If the arm remains free, the opponent can post as you attempt to roll, preventing completion of the technique and often allowing them to establish top position or escape the front headlock entirely. The trapped arm is what makes it an 'anaconda' rather than just a rolling choke."
+        "answer": "Trapping the near arm is essential because it serves multiple critical functions: prevents the opponent from posting during the roll (which would stop the technique entirely), creates additional pressure against their own neck (their trapped arm becomes part of the choking mechanism), and eliminates their primary defensive tool. If the arm remains free, the opponent can post as you attempt to roll, preventing completion of the technique and often allowing them to establish top position or escape the front headlock entirely. The trapped arm is what makes it an 'anaconda' rather than just a rolling choke.",
+        "answer_line": "Prevents them from posting",
+        "distractors": {
+          "plausible": [
+            "Improves your grip strength",
+            "Keeps their head pinned down"
+          ],
+          "trap": [
+            "Not needed until the roll"
+          ]
+        }
       },
       {
         "question": "Describe the optimal figure-four grip configuration for the anaconda and explain how grip depth affects choking effectiveness?",
-        "answer": "The optimal figure-four involves threading the choking arm deeply across the neck (elbow passing the far shoulder), then reaching the non-choking arm underneath their body to grip your own wrist, bicep, or establish palm-to-palm Gable grip. Grip depth is critical—shallow threading creates a weak angle that opponent can defend by tucking chin or turning. Deep threading positions the choking forearm directly across the carotid artery and creates maximum leverage when squeezing elbows together. The figure-four should feel tight and enclosed before initiating the roll, with no gaps or loose connections."
+        "answer": "The optimal figure-four involves threading the choking arm deeply across the neck (elbow passing the far shoulder), then reaching the non-choking arm underneath their body to grip your own wrist, bicep, or establish palm-to-palm Gable grip. Grip depth is critical—shallow threading creates a weak angle that opponent can defend by tucking chin or turning. Deep threading positions the choking forearm directly across the carotid artery and creates maximum leverage when squeezing elbows together. The figure-four should feel tight and enclosed before initiating the roll, with no gaps or loose connections.",
+        "answer_line": "Thread deep, elbow past shoulder",
+        "distractors": {
+          "plausible": [
+            "Shallow grip is fine if tight",
+            "Grip depth barely matters"
+          ],
+          "trap": [
+            "Grab wrist only, skip figure-four"
+          ]
+        }
       },
       {
         "question": "What are the key biomechanical principles that make the anaconda choke effective, and how does the rolling motion enhance these principles?",
-        "answer": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates an enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed."
+        "answer": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates an enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed.",
+        "answer_line": "Rolling spirals the loop tighter",
+        "distractors": {
+          "plausible": [
+            "Squeezing elbows alone finishes it",
+            "Arm strength alone closes the loop"
+          ],
+          "trap": [
+            "Skip the roll, just squeeze harder"
+          ]
+        }
       },
       {
         "question": "How would you recognize the optimal moment to transition from front headlock to anaconda versus choosing an alternative attack like Darce or back take?",
-        "answer": "The optimal anaconda opportunity is recognized when: (1) Opponent's posture is broken forward and down, (2) Their near arm is positioned away from their body or can be easily scooped, (3) You have clear space to thread arm deeply without obstruction, (4) Opponent is relatively static in turtle or posted position rather than actively moving. Choose Darce instead when opponent's near arm is tight to their body but their far arm is exposed. Choose back take when opponent is mobile and turning, or when their hips are elevated. The decision comes from reading their defensive structure—anaconda works best against a compact turtle with accessible near arm, while other attacks are better for different defensive configurations. Advanced practitioners develop an instinctive feel for which attack matches the opponent's current vulnerability."
+        "answer": "The optimal anaconda opportunity is recognized when: (1) Opponent's posture is broken forward and down, (2) Their near arm is positioned away from their body or can be easily scooped, (3) You have clear space to thread arm deeply without obstruction, (4) Opponent is relatively static in turtle or posted position rather than actively moving. Choose Darce instead when opponent's near arm is tight to their body but their far arm is exposed. Choose back take when opponent is mobile and turning, or when their hips are elevated. The decision comes from reading their defensive structure—anaconda works best against a compact turtle with accessible near arm, while other attacks are better for different defensive configurations. Advanced practitioners develop an instinctive feel for which attack matches the opponent's current vulnerability.",
+        "answer_line": "Static turtle, near arm exposed",
+        "distractors": {
+          "plausible": [
+            "Any front headlock moment works",
+            "Best when opponent is mobile"
+          ],
+          "trap": [
+            "Attempt it as they turn away"
+          ]
+        }
       },
       {
         "question": "What safety considerations must be observed when practicing the anaconda choke, and what are the immediate steps if your partner shows signs of distress?",
-        "answer": "Critical safety considerations include: (1) Apply pressure gradually over 3-5 seconds minimum, allowing partner to recognize the submission and tap, (2) Ensure adequate mat space before rolling to avoid rolling partner into obstacles or off the mat, (3) Monitor partner continuously for tap signals (hand tap, foot tap, verbal tap, or loss of resistance), (4) In training, use controlled pressure rather than maximum force even when choke is locked. If partner shows distress (face discoloration, loss of consciousness, or unusual sounds): immediately release all pressure, uncross your ankles/unlock grip, roll partner to recovery position on their side, elevate their legs, call for instructor assistance, and do not move them unnecessarily. Never hold a choke after resistance stops or a tap is felt—release instantly. Prevention through controlled application is always preferable to managing emergencies."
+        "answer": "Critical safety considerations include: (1) Apply pressure gradually over 3-5 seconds minimum, allowing partner to recognize the submission and tap, (2) Ensure adequate mat space before rolling to avoid rolling partner into obstacles or off the mat, (3) Monitor partner continuously for tap signals (hand tap, foot tap, verbal tap, or loss of resistance), (4) In training, use controlled pressure rather than maximum force even when choke is locked. If partner shows distress (face discoloration, loss of consciousness, or unusual sounds): immediately release all pressure, uncross your ankles/unlock grip, roll partner to recovery position on their side, elevate their legs, call for instructor assistance, and do not move them unnecessarily. Never hold a choke after resistance stops or a tap is felt—release instantly. Prevention through controlled application is always preferable to managing emergencies.",
+        "answer_line": "Release fast, recovery position",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, keep grip loose",
+            "Wait for verbal tap only"
+          ],
+          "trap": [
+            "Hold briefly to confirm they're out"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat as you begin the rolling motion - how do you adjust?",
-        "answer": "If opponent posts during the roll, you must immediately address the post before continuing the roll. Drive your chest weight into their posting arm shoulder to collapse the post, or use your non-choking-side hand to sweep their posting arm away from the mat. Alternatively, if the post is on your choking-arm side, your rolling momentum can carry over the post if you commit explosively and drive your hips hard through the rotation. If the post is too strong to overcome, do not force the roll—instead, maintain your grip and wait for them to retract the post, or transition to a Darce configuration where the post actually helps your arm threading. Forcing a roll against a strong post typically results in a loose position with poor finishing angle."
+        "answer": "If opponent posts during the roll, you must immediately address the post before continuing the roll. Drive your chest weight into their posting arm shoulder to collapse the post, or use your non-choking-side hand to sweep their posting arm away from the mat. Alternatively, if the post is on your choking-arm side, your rolling momentum can carry over the post if you commit explosively and drive your hips hard through the rotation. If the post is too strong to overcome, do not force the roll—instead, maintain your grip and wait for them to retract the post, or transition to a Darce configuration where the post actually helps your arm threading. Forcing a roll against a strong post typically results in a loose position with poor finishing angle.",
+        "answer_line": "Collapse the post, drive through",
+        "distractors": {
+          "plausible": [
+            "Grab post hand and pull",
+            "Switch to Darce immediately"
+          ],
+          "trap": [
+            "Force the roll regardless"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement when transitioning from front headlock to anaconda control position?",
-        "answer": "The most critical hip movement is the initial hip switch and step-over that precedes the roll. You must step your choking-arm-side leg over the opponent's back while simultaneously loading your weight onto the choking-side shoulder. This hip rotation creates the angular momentum needed for a smooth roll. Without this initial step-over, the roll becomes a clumsy flop that doesn't generate enough rotational force to bring the opponent with you. The hip must drive forward and around in an arc, not straight over—think of drawing a half-circle with your hip as you rotate. The non-choking-side leg pushes off the mat to provide the driving force for this hip arc."
+        "answer": "The most critical hip movement is the initial hip switch and step-over that precedes the roll. You must step your choking-arm-side leg over the opponent's back while simultaneously loading your weight onto the choking-side shoulder. This hip rotation creates the angular momentum needed for a smooth roll. Without this initial step-over, the roll becomes a clumsy flop that doesn't generate enough rotational force to bring the opponent with you. The hip must drive forward and around in an arc, not straight over—think of drawing a half-circle with your hip as you rotate. The non-choking-side leg pushes off the mat to provide the driving force for this hip arc.",
+        "answer_line": "Step over, arc hip forward",
+        "distractors": {
+          "plausible": [
+            "Push straight over their back",
+            "Load weight on your knees"
+          ],
+          "trap": [
+            "Skip the hip switch, just pull"
+          ]
+        }
       },
       {
         "question": "What grip type should you prioritize for the anaconda figure-four and what are the specific hand positioning requirements?",
-        "answer": "The Gable grip (palm-to-palm) is the highest-priority grip for the anaconda because it distributes force evenly across both hands and creates the strongest structural lock. Position your choking arm's hand palm-up and your non-choking arm's hand palm-down, pressing them flat together with fingers pointing in opposite directions. Keep wrists straight and pull elbows tight together to close the loop. The S-grip (fingers interlocked) provides decent strength but can be stripped more easily. The wrist-grab provides directional control but is weaker overall. For practitioners with shorter arms, grabbing your own bicep with the non-choking hand while the choking hand cups your non-choking arm's shoulder creates excellent leverage despite reduced reach."
+        "answer": "The Gable grip (palm-to-palm) is the highest-priority grip for the anaconda because it distributes force evenly across both hands and creates the strongest structural lock. Position your choking arm's hand palm-up and your non-choking arm's hand palm-down, pressing them flat together with fingers pointing in opposite directions. Keep wrists straight and pull elbows tight together to close the loop. The S-grip (fingers interlocked) provides decent strength but can be stripped more easily. The wrist-grab provides directional control but is weaker overall. For practitioners with shorter arms, grabbing your own bicep with the non-choking hand while the choking hand cups your non-choking arm's shoulder creates excellent leverage despite reduced reach.",
+        "answer_line": "Gable grip, palms flat together",
+        "distractors": {
+          "plausible": [
+            "S-grip, fingers interlocked",
+            "Wrist-grab for directional control"
+          ],
+          "trap": [
+            "Loose grip lets you adjust fast"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the anaconda by circling away and creating angle - what chain attack becomes available?",
-        "answer": "When the opponent circles away from the anaconda setup, they expose their back and create the ideal angle for a back take. As they circle, maintain your head control and follow their rotation, looking to establish hooks or seat belt control as their back opens toward you. The key recognition point is when their hips turn away from your chest—this is the moment to abandon the anaconda attempt and commit to the back take. You can also chain to the Darce choke if their circling motion brings their far arm across their body. The critical principle is never chasing the anaconda against an opponent who is successfully creating angle; the defensive movement itself reveals the next attack opportunity."
+        "answer": "When the opponent circles away from the anaconda setup, they expose their back and create the ideal angle for a back take. As they circle, maintain your head control and follow their rotation, looking to establish hooks or seat belt control as their back opens toward you. The key recognition point is when their hips turn away from your chest—this is the moment to abandon the anaconda attempt and commit to the back take. You can also chain to the Darce choke if their circling motion brings their far arm across their body. The critical principle is never chasing the anaconda against an opponent who is successfully creating angle; the defensive movement itself reveals the next attack opportunity.",
+        "answer_line": "Follow rotation, take the back",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to Darce",
+            "Reset to front headlock"
+          ],
+          "trap": [
+            "Chase the anaconda harder"
+          ]
+        }
       },
       {
         "question": "What conditions in the opponent's body must exist before you commit to the rolling motion of the anaconda?",
-        "answer": "Four conditions must be confirmed before committing to the roll: (1) Your choking arm elbow has passed the opponent's far shoulder, ensuring sufficient depth for the choke to work, (2) The opponent's near arm is trapped within your grip loop, preventing them from posting, (3) Your figure-four grip is locked tight with no gaps or looseness—test with a small squeeze before rolling, (4) The opponent's base is compromised, meaning their weight is forward or their knees are close together. If any of these conditions is missing, the roll will fail. Additionally, verify you have adequate mat space in the rolling direction. Committing to the roll with a shallow grip, free near arm, or strong opponent base almost always results in a failed attempt and positional loss."
+        "answer": "Four conditions must be confirmed before committing to the roll: (1) Your choking arm elbow has passed the opponent's far shoulder, ensuring sufficient depth for the choke to work, (2) The opponent's near arm is trapped within your grip loop, preventing them from posting, (3) Your figure-four grip is locked tight with no gaps or looseness—test with a small squeeze before rolling, (4) The opponent's base is compromised, meaning their weight is forward or their knees are close together. If any of these conditions is missing, the roll will fail. Additionally, verify you have adequate mat space in the rolling direction. Committing to the roll with a shallow grip, free near arm, or strong opponent base almost always results in a failed attempt and positional loss.",
+        "answer_line": "Deep grip, trapped arm, bad base",
+        "distractors": {
+          "plausible": [
+            "Just a locked figure-four grip",
+            "Any moment grip feels snug"
+          ],
+          "trap": [
+            "Roll fast before they adjust"
+          ]
+        }
       },
       {
         "question": "How does the direction of force application differ between the setup phase and the finishing phase of the anaconda?",
-        "answer": "During setup, the primary force direction is downward and lateral—your shoulder drives opponent's head down while your threading arm travels horizontally across their neck. The force is about collapsing their structure and creating the enclosed loop. During the finishing phase post-roll, the force direction shifts to inward compression and rotational torque. Your elbows squeeze together (inward force), your chest expands against their shoulder (outward force creating the squeeze), and your choking-side shoulder drives forward and down to rotate their head (rotational force). The finish uses your entire torso as a compression mechanism rather than just your arms. This shift from structural breakdown to compression finishing is why many practitioners who set up well still fail to finish—they continue applying setup-phase forces instead of transitioning to finishing mechanics."
+        "answer": "During setup, the primary force direction is downward and lateral—your shoulder drives opponent's head down while your threading arm travels horizontally across their neck. The force is about collapsing their structure and creating the enclosed loop. During the finishing phase post-roll, the force direction shifts to inward compression and rotational torque. Your elbows squeeze together (inward force), your chest expands against their shoulder (outward force creating the squeeze), and your choking-side shoulder drives forward and down to rotate their head (rotational force). The finish uses your entire torso as a compression mechanism rather than just your arms. This shift from structural breakdown to compression finishing is why many practitioners who set up well still fail to finish—they continue applying setup-phase forces instead of transitioning to finishing mechanics.",
+        "answer_line": "Setup collapses, finish compresses",
+        "distractors": {
+          "plausible": [
+            "Both phases use downward force",
+            "Finish relies on arm strength only"
+          ],
+          "trap": [
+            "Keep pulling down through finish"
+          ]
+        }
       }
     ],
     "safety_considerations": "⚠️ CRITICAL SAFETY NOTICE: The anaconda choke is a blood choke that can cause unconsciousness in 3-8 seconds if applied with full force. During training, apply pressure gradually over 3-5 seconds minimum to allow partner adequate time to recognize the submission and tap. Monitor partner continuously throughout application and release IMMEDIATELY upon any tap signal (hand, foot, verbal, or loss of resistance). Before rolling, ensure adequate mat space in all directions to avoid rolling partner into obstacles, walls, or off the mat. The rolling motion can disorient both practitioners—maintain awareness of surroundings throughout execution. When practicing as the person being choked, tap early and clearly at the first sign of pressure or discomfort. Do not attempt to 'tough it out' or test your limits with chokes—this serves no training purpose and risks injury. If applying choke causes partner's face to rapidly change color or they make unusual sounds, release immediately even without a tap. Both partners share responsibility for safe training: the person applying must control pressure and release quickly, while the person receiving must tap appropriately and communicate any concerns. Never hold a choke after resistance stops. In competition, judges and referees monitor choke safety, but in training you are your partner's primary safety monitor.",
@@ -430,23 +550,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action to prevent the anaconda setup from front headlock?",
-        "answer": "Keeping your near arm clamped tight to your body is the single most important defensive action. The anaconda choke requires trapping your near arm within the choking loop—without this trapped arm, the attacker cannot generate sufficient compression to finish the choke and cannot prevent you from defending your neck with both hands. By keeping your elbow pinched to your ribs and your arm glued to your side, you deny the fundamental structural element the anaconda needs. This is more important than fighting the choking arm or creating distance, because those defenses can fail and the choke still won't work if the arm isn't trapped."
+        "answer": "Keeping your near arm clamped tight to your body is the single most important defensive action. The anaconda choke requires trapping your near arm within the choking loop—without this trapped arm, the attacker cannot generate sufficient compression to finish the choke and cannot prevent you from defending your neck with both hands. By keeping your elbow pinched to your ribs and your arm glued to your side, you deny the fundamental structural element the anaconda needs. This is more important than fighting the choking arm or creating distance, because those defenses can fail and the choke still won't work if the arm isn't trapped.",
+        "answer_line": "Clamp near arm to your body",
+        "distractors": {
+          "plausible": [
+            "Fight the choking arm hard",
+            "Create distance immediately"
+          ],
+          "trap": [
+            "Let arm hang loose, defend neck"
+          ]
+        }
       },
       {
         "question": "At what phase of the anaconda setup is defense most effective, and why does waiting reduce escape probability?",
-        "answer": "Defense is most effective during the threading phase, when the attacker is sliding their arm across your neck but has not yet secured the figure-four grip. At this point, the attacker has only one arm engaged (the threading arm) while their other hand is releasing the headlock or searching for the grip. This creates a window where the attacker's control is weakest and their balance is most compromised. Waiting until the figure-four grip is locked reduces escape probability dramatically because the closed loop around your neck and arm creates structural compression that is extremely difficult to break. Waiting until the roll begins reduces it further because your body is now being moved by the attacker's momentum. Each successive phase exponentially decreases your escape options."
+        "answer": "Defense is most effective during the threading phase, when the attacker is sliding their arm across your neck but has not yet secured the figure-four grip. At this point, the attacker has only one arm engaged (the threading arm) while their other hand is releasing the headlock or searching for the grip. This creates a window where the attacker's control is weakest and their balance is most compromised. Waiting until the figure-four grip is locked reduces escape probability dramatically because the closed loop around your neck and arm creates structural compression that is extremely difficult to break. Waiting until the roll begins reduces it further because your body is now being moved by the attacker's momentum. Each successive phase exponentially decreases your escape options.",
+        "answer_line": "During the threading phase",
+        "distractors": {
+          "plausible": [
+            "Once figure-four is locked",
+            "Wait until the roll begins"
+          ],
+          "trap": [
+            "Wait until choke feels tight"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked the figure-four grip but has not yet stepped over to roll - what defensive options remain?",
-        "answer": "With the grip locked but before the roll, you still have viable defensive options. First, use your free hand to attack the grip connection point—peel at their fingers, push on the wrist, or wedge your hand between their hands to break the grip. Second, flatten your body and sprawl your legs back to deny the rolling platform the attacker needs for the step-over. Third, circle aggressively away from the choking arm side to widen the loop and reduce compression. Fourth, if you can get your chin tucked deeply toward your free shoulder, the choke pressure is reduced enough to buy time. Do not attempt to stand at this point, as it may tighten the locked grip. Your best chance is grip breaking combined with directional movement."
+        "answer": "With the grip locked but before the roll, you still have viable defensive options. First, use your free hand to attack the grip connection point—peel at their fingers, push on the wrist, or wedge your hand between their hands to break the grip. Second, flatten your body and sprawl your legs back to deny the rolling platform the attacker needs for the step-over. Third, circle aggressively away from the choking arm side to widen the loop and reduce compression. Fourth, if you can get your chin tucked deeply toward your free shoulder, the choke pressure is reduced enough to buy time. Do not attempt to stand at this point, as it may tighten the locked grip. Your best chance is grip breaking combined with directional movement.",
+        "answer_line": "Break grip, sprawl, circle away",
+        "distractors": {
+          "plausible": [
+            "Circle toward the choking arm",
+            "Pull hard against the grip"
+          ],
+          "trap": [
+            "Stand up to create space"
+          ]
+        }
       },
       {
         "question": "How should your escape direction differ depending on whether the attacker is setting up anaconda versus Darce from front headlock?",
-        "answer": "For anaconda defense, circle away from your trapped arm (away from the choking arm side), because the anaconda loop tightens when your arm is compressed inward. Moving away widens the loop. For Darce defense, the threading angle is different—the attacker's arm goes under your far arm rather than your near arm, so you should circle toward the Darce side (toward the choking arm) to compress the loop and prevent the attacker from achieving finishing depth. Recognizing which choke is being set up determines your escape direction. The key identifier is which of your arms the attacker is targeting: near arm trapped means anaconda (circle away), far arm underhooked means Darce (circle toward)."
+        "answer": "For anaconda defense, circle away from your trapped arm (away from the choking arm side), because the anaconda loop tightens when your arm is compressed inward. Moving away widens the loop. For Darce defense, the threading angle is different—the attacker's arm goes under your far arm rather than your near arm, so you should circle toward the Darce side (toward the choking arm) to compress the loop and prevent the attacker from achieving finishing depth. Recognizing which choke is being set up determines your escape direction. The key identifier is which of your arms the attacker is targeting: near arm trapped means anaconda (circle away), far arm underhooked means Darce (circle toward).",
+        "answer_line": "Away for anaconda, toward Darce",
+        "distractors": {
+          "plausible": [
+            "Circle toward both chokes",
+            "Away from Darce, toward anaconda"
+          ],
+          "trap": [
+            "Circle toward anaconda side"
+          ]
+        }
       },
       {
         "question": "Why is the roll-through defense considered a last resort, and what makes it risky compared to earlier-phase defenses?",
-        "answer": "The roll-through is a last resort because it accepts the attacker's locked grip and rolling momentum, gambling that the chaotic landing will create enough looseness to escape. The risk is substantial: if the attacker maintains a tight grip through the roll, you end up in anaconda control bottom with the choke already compressed from the rolling motion. Unlike earlier-phase defenses that prevent the position from forming, the roll-through fights from within a nearly completed submission. The success rate drops significantly compared to threading-phase defenses. It should only be attempted when the grip is locked, the step-over is happening, and you've failed to prevent the roll through other means."
+        "answer": "The roll-through is a last resort because it accepts the attacker's locked grip and rolling momentum, gambling that the chaotic landing will create enough looseness to escape. The risk is substantial: if the attacker maintains a tight grip through the roll, you end up in anaconda control bottom with the choke already compressed from the rolling motion. Unlike earlier-phase defenses that prevent the position from forming, the roll-through fights from within a nearly completed submission. The success rate drops significantly compared to threading-phase defenses. It should only be attempted when the grip is locked, the step-over is happening, and you've failed to prevent the roll through other means.",
+        "answer_line": "Last resort, risky if grip holds",
+        "distractors": {
+          "plausible": [
+            "Safe backup if grip is loose",
+            "Best used early in the setup"
+          ],
+          "trap": [
+            "Use it instead of early defenses"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating a technical stand up from open guard?",
-        "answer": "The optimal timing is immediately after creating distance with your leg frames, when your opponent is momentarily retreating or resetting their grips. The worst time is when they are actively advancing with forward pressure or have established controlling grips. Look for the moment between their passing attempts when they are recalibrating, as this provides the largest window before they can react to your initial posting movement."
+        "answer": "The optimal timing is immediately after creating distance with your leg frames, when your opponent is momentarily retreating or resetting their grips. The worst time is when they are actively advancing with forward pressure or have established controlling grips. Look for the moment between their passing attempts when they are recalibrating, as this provides the largest window before they can react to your initial posting movement.",
+        "answer_line": "As opponent resets or retreats",
+        "distractors": {
+          "plausible": [
+            "Mid passing attempt",
+            "Right after guard break"
+          ],
+          "trap": [
+            "During their forward pressure"
+          ]
+        }
       },
       {
         "question": "Why must at least one foot remain on the opponent's body throughout most of the stand-up sequence?",
-        "answer": "The foot on the opponent's hip or knee serves as your primary distance control mechanism during the transition. Without it, the opponent can immediately close the gap and re-engage before you complete standing, resulting in a scramble from a compromised position. The foot frame also provides pushing force that aids your hip elevation and gives you sensory feedback about the opponent's forward movement or shot attempts."
+        "answer": "The foot on the opponent's hip or knee serves as your primary distance control mechanism during the transition. Without it, the opponent can immediately close the gap and re-engage before you complete standing, resulting in a scramble from a compromised position. The foot frame also provides pushing force that aids your hip elevation and gives you sensory feedback about the opponent's forward movement or shot attempts.",
+        "answer_line": "Foot frame controls distance",
+        "distractors": {
+          "plausible": [
+            "Foot frame is just for balance",
+            "Only needed at the very start"
+          ],
+          "trap": [
+            "Remove foot to stand faster"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your near-side ankle as you begin elevating your hips - how do you respond?",
-        "answer": "Circle your ankle outward in a small rotational motion to break the grip, as straight pulling against a grip is much weaker than rotational breaking. If the grip persists, use your free foot to push on their gripping-side shoulder to create separation, or apply pressure to their wrist to force a release. Never continue the stand-up with a controlled ankle, as your opponent will use it to run the pipe or initiate a single leg entry."
+        "answer": "Circle your ankle outward in a small rotational motion to break the grip, as straight pulling against a grip is much weaker than rotational breaking. If the grip persists, use your free foot to push on their gripping-side shoulder to create separation, or apply pressure to their wrist to force a release. Never continue the stand-up with a controlled ankle, as your opponent will use it to run the pipe or initiate a single leg entry.",
+        "answer_line": "Circle ankle out to break grip",
+        "distractors": {
+          "plausible": [
+            "Pull straight back to escape",
+            "Kick free with other leg first"
+          ],
+          "trap": [
+            "Keep standing with ankle held"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between posting your hand too far back versus at the correct distance?",
-        "answer": "When the posting hand is too far behind your body, the distance between your hand and feet creates a flat, weak tripod that requires more muscular effort to elevate the hips and generates less upward force. The correct posting distance is approximately six inches directly behind your hip, which creates a steep, powerful tripod angle. This close posting position allows your arm to act as a strong piston that drives your hips up efficiently rather than supporting your weight at a mechanical disadvantage."
+        "answer": "When the posting hand is too far behind your body, the distance between your hand and feet creates a flat, weak tripod that requires more muscular effort to elevate the hips and generates less upward force. The correct posting distance is approximately six inches directly behind your hip, which creates a steep, powerful tripod angle. This close posting position allows your arm to act as a strong piston that drives your hips up efficiently rather than supporting your weight at a mechanical disadvantage.",
+        "answer_line": "Post hand six inches from hip",
+        "distractors": {
+          "plausible": [
+            "Post hand as far back as reach",
+            "Post hand under center of mass"
+          ],
+          "trap": [
+            "Post hand far back for balance"
+          ]
+        }
       },
       {
         "question": "How does the presence of a credible technical stand-up threat improve your overall open guard game?",
-        "answer": "When your opponent knows you can and will stand up, they must maintain engagement and forward pressure rather than backing away to reset or disengage. This committed forward pressure paradoxically creates better conditions for sweeps like butterfly hooks, collar drags, and scissor sweeps that exploit forward momentum. The stand-up threat forces opponents to address your hip movement, which opens up angle-based attacks and creates a strategic dilemma where stopping your stand-up exposes them to guard attacks."
+        "answer": "When your opponent knows you can and will stand up, they must maintain engagement and forward pressure rather than backing away to reset or disengage. This committed forward pressure paradoxically creates better conditions for sweeps like butterfly hooks, collar drags, and scissor sweeps that exploit forward momentum. The stand-up threat forces opponents to address your hip movement, which opens up angle-based attacks and creates a strategic dilemma where stopping your stand-up exposes them to guard attacks.",
+        "answer_line": "Forces pressure, opens sweeps",
+        "distractors": {
+          "plausible": [
+            "Makes opponent retreat fully",
+            "Only matters in scrambles"
+          ],
+          "trap": [
+            "Encourages opponent to disengage"
+          ]
+        }
       },
       {
         "question": "What are the key grip management priorities before initiating the stand-up in gi versus no-gi?",
-        "answer": "In gi, you must strip or neutralize the opponent's collar and sleeve grips before standing, as these grips give them tremendous pulling power to drag you back down or redirect you into a snap-down. Maintaining your own collar grip during the stand-up provides distance control. In no-gi, the primary concern is preventing wrist and ankle grips. Without gi friction, you can push off the opponent's body more effectively with your feet, but their underhooks become more dangerous as you approach standing because they facilitate body lock takedowns."
+        "answer": "In gi, you must strip or neutralize the opponent's collar and sleeve grips before standing, as these grips give them tremendous pulling power to drag you back down or redirect you into a snap-down. Maintaining your own collar grip during the stand-up provides distance control. In no-gi, the primary concern is preventing wrist and ankle grips. Without gi friction, you can push off the opponent's body more effectively with your feet, but their underhooks become more dangerous as you approach standing because they facilitate body lock takedowns.",
+        "answer_line": "Strip their grips, keep yours",
+        "distractors": {
+          "plausible": [
+            "Break all grips both ways",
+            "Same priorities in gi and no-gi"
+          ],
+          "trap": [
+            "Ignore opponent's underhooks"
+          ]
+        }
       },
       {
         "question": "Your opponent begins shooting a double leg as you reach the final standing phase - what is your immediate response?",
-        "answer": "Immediately sprawl by driving your hips backward and downward while posting both hands on their head and shoulders to stuff the shot. If the sprawl is successful, circle to their head side and look to establish a front headlock or snap down. If you recognize the shot too late to sprawl effectively, sit back and pull guard rather than getting taken down to a worse position. The key is making a decisive choice between sprawling or pulling guard rather than being caught compromised in a half-standing position."
+        "answer": "Immediately sprawl by driving your hips backward and downward while posting both hands on their head and shoulders to stuff the shot. If the sprawl is successful, circle to their head side and look to establish a front headlock or snap down. If you recognize the shot too late to sprawl effectively, sit back and pull guard rather than getting taken down to a worse position. The key is making a decisive choice between sprawling or pulling guard rather than being caught compromised in a half-standing position.",
+        "answer_line": "Sprawl hips back immediately",
+        "distractors": {
+          "plausible": [
+            "Pull guard right away",
+            "Post hands and wait it out"
+          ],
+          "trap": [
+            "Try to finish standing up"
+          ]
+        }
       },
       {
         "question": "What directional angle should you use when standing up relative to your opponent's position?",
-        "answer": "Stand up at approximately a forty-five degree angle away from your opponent's centerline rather than directly toward or away from them. This angle makes it significantly harder for them to shoot directly at your hips and creates a natural distance buffer. Choose the angle that takes you toward their weak side, typically away from their dominant gripping hand. Standing directly upward into their centerline is the most common error, as it places you in optimal range for their clinch or takedown entries."
+        "answer": "Stand up at approximately a forty-five degree angle away from your opponent's centerline rather than directly toward or away from them. This angle makes it significantly harder for them to shoot directly at your hips and creates a natural distance buffer. Choose the angle that takes you toward their weak side, typically away from their dominant gripping hand. Standing directly upward into their centerline is the most common error, as it places you in optimal range for their clinch or takedown entries.",
+        "answer_line": "Stand at 45-degree angle off",
+        "distractors": {
+          "plausible": [
+            "Stand straight up and back",
+            "Stand toward their strong side"
+          ],
+          "trap": [
+            "Stand directly into centerline"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Technical Stand Up from Open Guard is a low-risk transition with no submission danger, but practitioners should be aware of potential knee strain from improper foot positioning during the posting phase. Ensure your base foot is flat with the knee tracking over the toes to avoid lateral knee stress. When training with partners, communicate clearly about the level of resistance for shot attempts during the standing phase to prevent collision injuries. Avoid practicing on slippery surfaces where the posting hand or feet may slip during hip elevation.",
@@ -391,23 +471,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing a technical stand up from open guard?",
-        "answer": "The earliest cue is the opponent shifting their weight to one hip while their hand begins reaching behind their body toward the mat for the posting position. This posting hand placement is the prerequisite for the entire stand-up sequence and occurs before any visible hip elevation. Secondary cues include increased pushing force through their feet on your hips to create distance and sudden grip releases as they free their posting hand. Recognizing these preparatory movements gives you the maximum reaction time."
+        "answer": "The earliest cue is the opponent shifting their weight to one hip while their hand begins reaching behind their body toward the mat for the posting position. This posting hand placement is the prerequisite for the entire stand-up sequence and occurs before any visible hip elevation. Secondary cues include increased pushing force through their feet on your hips to create distance and sudden grip releases as they free their posting hand. Recognizing these preparatory movements gives you the maximum reaction time.",
+        "answer_line": "Hand reaching back to post",
+        "distractors": {
+          "plausible": [
+            "Hips already elevating",
+            "Feet pushing hard on your hips"
+          ],
+          "trap": [
+            "Wait until they're fully standing"
+          ]
+        }
       },
       {
         "question": "Why is closing distance more effective than retreating when defending against a technical stand up?",
-        "answer": "The technical stand up requires space between the bottom player and their opponent to execute properly. The posting hand, hip elevation, and trailing leg sweep all depend on having sufficient room to complete the biomechanical sequence. By closing distance with forward pressure, you collapse the space needed for the tripod base and force the bottom player to use their energy managing your pressure rather than standing. Retreating gives them exactly the distance they need and allows them to stand with zero resistance."
+        "answer": "The technical stand up requires space between the bottom player and their opponent to execute properly. The posting hand, hip elevation, and trailing leg sweep all depend on having sufficient room to complete the biomechanical sequence. By closing distance with forward pressure, you collapse the space needed for the tripod base and force the bottom player to use their energy managing your pressure rather than standing. Retreating gives them exactly the distance they need and allows them to stand with zero resistance.",
+        "answer_line": "Close distance, deny space",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset space",
+            "Match their pace evenly"
+          ],
+          "trap": [
+            "Back away to create room"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully elevated their hips and is sweeping their trailing leg through - what is your best counter at this late stage?",
-        "answer": "At this late stage, your best option is to time a takedown entry as they transition from tripod to standing. Their base is narrowest when the trailing foot first contacts the mat behind them and before they establish shoulder-width stance. A well-timed single leg on their base foot or a body lock from clinch range can topple them during this brief instability window. Attempting to push them back down at this stage is less effective because their tripod is already established and they have upward momentum."
+        "answer": "At this late stage, your best option is to time a takedown entry as they transition from tripod to standing. Their base is narrowest when the trailing foot first contacts the mat behind them and before they establish shoulder-width stance. A well-timed single leg on their base foot or a body lock from clinch range can topple them during this brief instability window. Attempting to push them back down at this stage is less effective because their tripod is already established and they have upward momentum.",
+        "answer_line": "Shoot as trailing foot lands",
+        "distractors": {
+          "plausible": [
+            "Push them back down now",
+            "Wait until they're fully up"
+          ],
+          "trap": [
+            "Try to muscle them back down"
+          ]
+        }
       },
       {
         "question": "How should your defensive strategy differ when defending the technical stand up in gi versus no-gi?",
-        "answer": "In gi, you have superior grip options to prevent the stand-up. Maintaining sleeve grips prevents the posting hand from reaching the mat, and collar grips allow you to pull them back down during hip elevation. Pant grips on the legs prevent the base foot from setting. In no-gi, without these friction-based grips, you must rely more on body positioning and pressure. Closing distance quickly with underhooks or body lock is essential because you cannot control their limbs from range effectively."
+        "answer": "In gi, you have superior grip options to prevent the stand-up. Maintaining sleeve grips prevents the posting hand from reaching the mat, and collar grips allow you to pull them back down during hip elevation. Pant grips on the legs prevent the base foot from setting. In no-gi, without these friction-based grips, you must rely more on body positioning and pressure. Closing distance quickly with underhooks or body lock is essential because you cannot control their limbs from range effectively.",
+        "answer_line": "Gi: grips; no-gi: pressure",
+        "distractors": {
+          "plausible": [
+            "Same defense in both rulesets",
+            "Rely on strength in no-gi"
+          ],
+          "trap": [
+            "Give up distance in no-gi"
+          ]
+        }
       },
       {
         "question": "What is the risk of shooting a takedown too early versus too late during the opponent's stand-up sequence?",
-        "answer": "Shooting too early, while the opponent is still seated with their legs active in guard, exposes you to guillotines, front headlock attacks, and snap-downs because you are driving into their defensive guard structure rather than catching them in transition. Shooting too late, after they have established a full standing base with feet apart, means you are attacking a balanced opponent who can sprawl effectively. The optimal window is during the final phase when they are transitioning from tripod to standing, when their feet are closest together and their hands are occupied."
+        "answer": "Shooting too early, while the opponent is still seated with their legs active in guard, exposes you to guillotines, front headlock attacks, and snap-downs because you are driving into their defensive guard structure rather than catching them in transition. Shooting too late, after they have established a full standing base with feet apart, means you are attacking a balanced opponent who can sprawl effectively. The optimal window is during the final phase when they are transitioning from tripod to standing, when their feet are closest together and their hands are occupied.",
+        "answer_line": "Shoot during their transition",
+        "distractors": {
+          "plausible": [
+            "Shoot the instant they sit up",
+            "Wait for full standing base"
+          ],
+          "trap": [
+            "Shoot while they're still seated"
+          ]
+        }
       }
     ],
     "training_progressions": [

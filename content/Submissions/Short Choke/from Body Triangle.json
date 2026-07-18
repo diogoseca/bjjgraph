@@ -284,52 +284,152 @@
       {
         "question": "What specific anatomical structures does the short choke from body triangle compress to produce the tap?",
         "answer": "The short choke compresses both carotid arteries simultaneously by seating the lapel diagonally across the neck in the grooves on either side of the trachea. The carotid arteries supply blood to the brain, and bilateral compression causes rapid cerebral ischemia that produces loss of consciousness within 8-12 seconds if unaddressed. The choke does not target the windpipe—proper placement avoids the trachea entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe/trachea",
+            "One carotid artery"
+          ],
+          "trap": [
+            "Jugular veins only"
+          ]
+        }
       },
       {
         "question": "How do you confirm the lapel is properly positioned across both carotid arteries before finishing?",
         "answer": "You should feel the lapel fabric seated in the soft grooves on either side of the trachea, not sitting on the hard cartilage of the windpipe. The material crosses diagonally from one side of the neck to the other. When properly placed, even light tension produces a noticeable defensive reaction from the opponent—they will attempt to create space or strip the grip immediately rather than simply enduring discomfort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "In grooves, not on windpipe",
+        "distractors": {
+          "plausible": [
+            "Fabric flat across the throat",
+            "Confirm only at the finish"
+          ],
+          "trap": [
+            "Wait for opponent to go still"
+          ]
+        }
       },
       {
         "question": "What control must be established before you commit your hands to the lapel feed?",
         "answer": "The body triangle must be fully locked with a deep figure-four configuration around the opponent's lower ribcage, foot tucked firmly behind your own knee. Your chest must be tight against their back with hips positioned on the mat for stability. Without this settled base, committing both hands to collar work creates a window for the opponent to clear the hooks and escape the back control position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Body triangle locked tight",
+        "distractors": {
+          "plausible": [
+            "Just seatbelt grip secured",
+            "One hook in, triangle loose"
+          ],
+          "trap": [
+            "Hands free, hips off the mat"
+          ]
+        }
       },
       {
         "question": "At what stage does the short choke become functionally inescapable for the defender?",
         "answer": "Once the cross-grip is secured with the lapel seated tightly across both carotid arteries and all slack removed from the fabric, the choke is extremely difficult to defend. The point of no return is when the attacker begins the finishing pull with elbows retracting toward their own body—at this stage, stripping the grip requires more time than the defender has before losing consciousness, making the tap the only safe option.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Once the finishing pull starts",
+        "distractors": {
+          "plausible": [
+            "When lapel first touches neck",
+            "As soon as cross-grip is set"
+          ],
+          "trap": [
+            "Only after they stop breathing"
+          ]
+        }
       },
       {
         "question": "What is the most common grip error that causes this choke to fail at the finish?",
         "answer": "Gripping the lapel too far from the neck, leaving excessive slack between the fabric and the carotid arteries. This loose configuration lacks the mechanical advantage to compress the blood vessels effectively, allowing the defender to breathe through the choke and escape. The correction is to grip as close to the neck as possible and pull all slack out of the lapel before attempting the finishing squeeze.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gripping too far from neck",
+        "distractors": {
+          "plausible": [
+            "Grabbing the wrong lapel side",
+            "Pulling too early in the feed"
+          ],
+          "trap": [
+            "Crank hard to force it shut"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin hard to block the lapel feed—what adjustment secures the choke?",
         "answer": "Work the lapel along the jawline rather than trying to force it directly under the chin. Use your free hand to apply gentle upward pressure on the forehead or pull the collar to create a gap between the chin and chest. The body triangle gives you unlimited time, so patience is the primary tool. Alternatively, threaten the rear naked choke to force their hands up, then immediately switch back to the lapel feed when the chin lifts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Work along jaw, be patient",
+        "distractors": {
+          "plausible": [
+            "Force it under the chin fast",
+            "Switch hands and yank harder"
+          ],
+          "trap": [
+            "Abandon back, go for armbar"
+          ]
+        }
       },
       {
         "question": "How does coordinating the body triangle squeeze with the choke finish accelerate the submission?",
         "answer": "The body triangle compresses the ribcage and diaphragm, restricting breathing and creating oxygen debt. When you pulse the leg squeeze simultaneously with the choking pressure, the defender faces arterial compression and breathing restriction at the same time. This dual pressure forces them to split their defensive resources between two threats and accelerates the onset of cerebral ischemia, shortening the time to tap significantly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulse both together",
+        "distractors": {
+          "plausible": [
+            "Finish triangle, then choke",
+            "Choke first, triangle after"
+          ],
+          "trap": [
+            "Loosen triangle to focus choke"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when training the short choke from body triangle?",
         "answer": "Apply pressure slowly and progressively over three to five seconds minimum, never with sudden jerking motions. Monitor your partner continuously for tap signals including verbal taps, hand taps, foot taps, or going limp. Release immediately upon any signal. The dual pressure from the body triangle and choke compounds rapidly, so be extra vigilant—unconsciousness can occur faster than with a standalone choke. Never reapply after unconsciousness in the same session.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, watch for taps",
+        "distractors": {
+          "plausible": [
+            "Sudden squeeze, check after",
+            "Fast finish, verbal tap only"
+          ],
+          "trap": [
+            "Reapply immediately if unclear"
+          ]
+        }
       },
       {
         "question": "How should you release the short choke after your partner taps?",
         "answer": "Immediately release the lapel grip and remove all pulling pressure from the neck. Then unlock the body triangle and remove your legs from around their torso to restore full breathing capacity. Check your partner's alertness and breathing before standing up or moving away. The release sequence must address both the arterial compression and the breathing restriction, not just one or the other, because the compounding effects can persist briefly after release.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip and legs together",
+        "distractors": {
+          "plausible": [
+            "Release lapel, keep triangle",
+            "Release legs, keep collar grip"
+          ],
+          "trap": [
+            "Hold briefly to confirm tap"
+          ]
+        }
       },
       {
         "question": "In competition, how do you use the body triangle position to set up the short choke when the opponent is defending their neck aggressively?",
         "answer": "Use the body triangle squeeze to create urgency and force the defender to address breathing first, which pulls their hands away from neck defense. Alternate between threatening the rear naked choke and the short choke to create a dilemma—each time they defend one attack, immediately transition to the other. The body triangle ensures positional security throughout these transitions, allowing you to chain attacks indefinitely until an opening appears for the lapel feed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain RNC and short choke threats",
+        "distractors": {
+          "plausible": [
+            "Only threaten one choke repeatedly",
+            "Loosen triangle to reach lapel"
+          ],
+          "trap": [
+            "Rush the feed before triangle set"
+          ]
+        }
       }
     ],
     "clips": [
@@ -446,27 +546,77 @@
       {
         "question": "How do you recognize that the short choke from body triangle is being set up before the lapel crosses your neck?",
         "answer": "The primary cue is feeling the opponent's hand leave seatbelt control to pull on your gi collar or lapel, creating slack in the fabric. You may feel their fingers working near your jawline or feel the gi material shifting across your upper chest. A hip angle adjustment from the attacker to improve their reaching angle is another early indicator. Recognizing these cues before the lapel crosses your neck gives you the best defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand leaves seatbelt for collar",
+        "distractors": {
+          "plausible": [
+            "Sudden hip triangle squeeze",
+            "Legs repositioning on hips"
+          ],
+          "trap": [
+            "Wait until pressure on throat"
+          ]
+        }
       },
       {
         "question": "When should you tap to the short choke from body triangle to prevent injury?",
         "answer": "Tap immediately once you feel the lapel seated across both sides of your neck with the cross-grip secured and finishing pressure beginning. Blood chokes from body triangle can produce unconsciousness within 8-12 seconds, and the body triangle prevents any last-second escape attempt. If you cannot strip the grip within two to three seconds of the finish starting, tap without hesitation. The compounding effect of breathing restriction from the triangle means you have even less time than with a standalone choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap when lapel seats, grip locks",
+        "distractors": {
+          "plausible": [
+            "Tap only once vision blurs",
+            "Tap after several seconds pass"
+          ],
+          "trap": [
+            "Try to fight through it first"
+          ]
+        }
       },
       {
         "question": "What is the highest-priority defensive action when you feel the lapel being fed across your neck?",
         "answer": "Immediately tuck your chin hard to your chest and use your hand to trap or strip the lapel fabric before it reaches the far side of your neck. The feed is most vulnerable before the cross-grip is secured—once both of the attacker's hands control the lapel on opposite sides of your neck, stripping becomes exponentially harder. Focus on blocking the completion of the feed rather than trying to escape the entire position simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, strip the lapel",
+        "distractors": {
+          "plausible": [
+            "Try to clear the hooks first",
+            "Turn into attacker immediately"
+          ],
+          "trap": [
+            "Wait for cross-grip to confirm"
+          ]
+        }
       },
       {
         "question": "What defensive options remain once the attacker has fully secured the cross-lapel grip?",
         "answer": "Your options narrow significantly once the cross-grip is locked. Attempt a two-handed grip strip targeting the weaker grip point, accepting the temporary neck exposure. If you cannot break the grip within a few seconds, your best option is to turn aggressively into the attacker to reduce the choking angle, though the body triangle limits this movement. Realistically, once a skilled attacker has the cross-grip fully seated, tapping is the safest choice to prevent unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Two-hand strip or tap",
+        "distractors": {
+          "plausible": [
+            "Turn hard into the attacker",
+            "Bridge and roll to escape"
+          ],
+          "trap": [
+            "Pull own chin down and wait"
+          ]
+        }
       },
       {
         "question": "How does defending the short choke differ when the attacker has a body triangle versus standard hooks?",
         "answer": "Standard hooks allow you to use hip movement to create escape angles while defending the choke, and clearing hooks frees you to turn into the attacker. The body triangle eliminates hip rotation almost entirely, meaning your escape options are drastically reduced during choke defense. Additionally, the breathing restriction from the body triangle compounds with the blood flow restriction from the choke, giving you less time and less energy to execute defensive sequences compared to the same choke from standard back control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle kills hip escape angle",
+        "distractors": {
+          "plausible": [
+            "Hooks and triangle defend the same",
+            "Only grip strength matters more"
+          ],
+          "trap": [
+            "Ignore breathing, focus neck only"
+          ]
+        }
       }
     ],
     "training_progressions": [

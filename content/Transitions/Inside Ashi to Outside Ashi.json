@@ -265,35 +265,115 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals you should transition from inside ashi to outside ashi rather than continuing to attack from inside?",
-        "answer": "The primary trigger is the opponent rotating their knee outward to defend inside heel hook exposure. This defensive rotation naturally opens the outside angle and makes inside ashi attacks less effective while simultaneously creating the optimal conditions for outside ashi entry. Attempting inside attacks against strong outward knee rotation wastes energy and gives the opponent time to develop their escape sequence."
+        "answer": "The primary trigger is the opponent rotating their knee outward to defend inside heel hook exposure. This defensive rotation naturally opens the outside angle and makes inside ashi attacks less effective while simultaneously creating the optimal conditions for outside ashi entry. Attempting inside attacks against strong outward knee rotation wastes energy and gives the opponent time to develop their escape sequence.",
+        "answer_line": "Opponent rotates knee outward",
+        "distractors": {
+          "plausible": [
+            "Opponent's grip loosens",
+            "Opponent's hips flatten out"
+          ],
+          "trap": [
+            "Wait for them to stand up"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain heel control throughout the transition rather than releasing and re-gripping?",
-        "answer": "Heel control is the single most important retention mechanism during the transition. The brief moment when legs are being reconfigured creates the only real escape window for the opponent. If heel control is maintained, even a temporarily loose leg triangle cannot be exploited because the opponent cannot withdraw their foot. Releasing and re-gripping creates a complete gap in control that allows immediate leg extraction and loss of the entire entanglement."
+        "answer": "Heel control is the single most important retention mechanism during the transition. The brief moment when legs are being reconfigured creates the only real escape window for the opponent. If heel control is maintained, even a temporarily loose leg triangle cannot be exploited because the opponent cannot withdraw their foot. Releasing and re-gripping creates a complete gap in control that allows immediate leg extraction and loss of the entire entanglement.",
+        "answer_line": "Never release the heel grip",
+        "distractors": {
+          "plausible": [
+            "Re-grip once angle is set",
+            "Switch hands then re-grip heel"
+          ],
+          "trap": [
+            "Release heel to reset grip"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the outside ashi by rotating their knee back inward after you begin the transition—how should you respond?",
-        "answer": "Recognize this as an opportunity rather than a setback. Their inward knee rotation re-exposes them to inside ashi attacks from an improved angle since your body has already begun the directional change. Reverse the transition back to inside ashi and immediately attack from the inside angle. This oscillation between inside and outside defense creates submission windows on each direction change as the opponent is always one step behind your angle adjustments."
+        "answer": "Recognize this as an opportunity rather than a setback. Their inward knee rotation re-exposes them to inside ashi attacks from an improved angle since your body has already begun the directional change. Reverse the transition back to inside ashi and immediately attack from the inside angle. This oscillation between inside and outside defense creates submission windows on each direction change as the opponent is always one step behind your angle adjustments.",
+        "answer_line": "Reverse back to inside attack",
+        "distractors": {
+          "plausible": [
+            "Push through to finish outside",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Abandon entanglement, disengage"
+          ]
+        }
       },
       {
         "question": "What is the optimal body angle relative to the opponent after completing the transition to outside ashi?",
-        "answer": "The optimal angle is perpendicular (approximately 90 degrees) or slightly diagonal to the opponent's body, with your torso facing their trapped leg from the outside. This angle maximizes leverage for outside heel hook finishing mechanics by allowing full hip extension away from the opponent while the heel remains controlled. Angles that are too acute reduce finishing leverage, while angles that are too wide compromise leg triangle tightness."
+        "answer": "The optimal angle is perpendicular (approximately 90 degrees) or slightly diagonal to the opponent's body, with your torso facing their trapped leg from the outside. This angle maximizes leverage for outside heel hook finishing mechanics by allowing full hip extension away from the opponent while the heel remains controlled. Angles that are too acute reduce finishing leverage, while angles that are too wide compromise leg triangle tightness.",
+        "answer_line": "Perpendicular, ~90 degrees",
+        "distractors": {
+          "plausible": [
+            "Flat and parallel to opponent",
+            "Facing opponent's head directly"
+          ],
+          "trap": [
+            "Fully behind, back exposed"
+          ]
+        }
       },
       {
         "question": "What is the most common grip configuration for threatening an outside heel hook immediately after completing the transition?",
-        "answer": "The most common configuration is the wrist-behind-Achilles grip where your wrist bone sits directly behind the opponent's Achilles tendon with your forearm curling around their heel. Your other hand clasps your own wrist or forearm to create a figure-four grip structure. This configuration allows you to generate rotational force on the heel by turning your body away from the opponent while the grip prevents the heel from escaping."
+        "answer": "The most common configuration is the wrist-behind-Achilles grip where your wrist bone sits directly behind the opponent's Achilles tendon with your forearm curling around their heel. Your other hand clasps your own wrist or forearm to create a figure-four grip structure. This configuration allows you to generate rotational force on the heel by turning your body away from the opponent while the grip prevents the heel from escaping.",
+        "answer_line": "Wrist behind the Achilles",
+        "distractors": {
+          "plausible": [
+            "Palm cupping the heel bone",
+            "Grip the toes and rotate"
+          ],
+          "trap": [
+            "Grip above the knee joint"
+          ]
+        }
       },
       {
         "question": "How do you minimize the vulnerability window during the leg switch portion of the transition?",
-        "answer": "Minimize the window by executing the leg switch as a single continuous motion driven by hip rotation rather than sequential individual leg movements. The inside leg should withdraw and outside leg reposition simultaneously, taking less than one second. Additionally, maintaining chest-to-leg connection throughout prevents the opponent from using the brief looseness to create space. The hip rotation serves as the engine that moves both legs at once rather than requiring separate deliberate movements."
+        "answer": "Minimize the window by executing the leg switch as a single continuous motion driven by hip rotation rather than sequential individual leg movements. The inside leg should withdraw and outside leg reposition simultaneously, taking less than one second. Additionally, maintaining chest-to-leg connection throughout prevents the opponent from using the brief looseness to create space. The hip rotation serves as the engine that moves both legs at once rather than requiring separate deliberate movements.",
+        "answer_line": "One motion via hip rotation",
+        "distractors": {
+          "plausible": [
+            "Switch legs one at a time",
+            "Release grip, reposition, re-grip"
+          ],
+          "trap": [
+            "Pause to reset base first"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip with their free leg as you begin the transition—what adjustment prevents the escape?",
-        "answer": "Address the frame by using your near-side hand to control their free leg while maintaining heel grip with the far-side hand. Alternatively, accelerate through the transition using hip rotation momentum to move past the frame angle before it can generate enough force to push you away. If the frame is strong and established before you begin, delay the transition and attack from inside ashi first to force them to address the immediate submission threat rather than maintaining the frame."
+        "answer": "Address the frame by using your near-side hand to control their free leg while maintaining heel grip with the far-side hand. Alternatively, accelerate through the transition using hip rotation momentum to move past the frame angle before it can generate enough force to push you away. If the frame is strong and established before you begin, delay the transition and attack from inside ashi first to force them to address the immediate submission threat rather than maintaining the frame.",
+        "answer_line": "Control frame, keep heel grip",
+        "distractors": {
+          "plausible": [
+            "Push through frame with force",
+            "Release heel to clear frame"
+          ],
+          "trap": [
+            "Let go and stand to reset"
+          ]
+        }
       },
       {
         "question": "When should you abort the transition and return to inside ashi attacks instead of forcing the outside ashi configuration?",
-        "answer": "Abort the transition when the opponent breaks your heel grip during the switch, they achieve standing posture with strong base during the reconfiguration, their free leg establishes a powerful frame that prevents you from completing the angle change, or they begin a successful counter-entanglement during the vulnerability window. In all these cases, forcing the transition risks losing the entanglement entirely. Returning to inside ashi preserves your attacking position and allows you to try again later."
+        "answer": "Abort the transition when the opponent breaks your heel grip during the switch, they achieve standing posture with strong base during the reconfiguration, their free leg establishes a powerful frame that prevents you from completing the angle change, or they begin a successful counter-entanglement during the vulnerability window. In all these cases, forcing the transition risks losing the entanglement entirely. Returning to inside ashi preserves your attacking position and allows you to try again later.",
+        "answer_line": "If heel grip breaks or they stand",
+        "distractors": {
+          "plausible": [
+            "Only if it takes over 5 seconds",
+            "When triangle feels slightly loose"
+          ],
+          "trap": [
+            "Never abort, force through it"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves reconfiguring a leg entanglement that can lead directly to heel hook submissions. During training, execute the transition at controlled speed and communicate clearly with your training partner about the angle change. The outside ashi configuration provides direct access to outside heel hooks, which apply rotational force to the knee ligaments. Always apply submissions slowly and progressively, giving your partner time to tap. If your partner's leg position changes unexpectedly during the transition, pause and verify their comfort before continuing. Never combine explosive transition movement with immediate submission application.",
@@ -412,19 +492,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from inside ashi to outside ashi?",
-        "answer": "The earliest cue is feeling the attacker's hips begin to rotate away from the inside angle toward the outside of your trapped leg. This hip rotation precedes the actual leg switch and signals the directional change in their body alignment. You may also notice reduced pressure from their inside leg across your hip as it begins to withdraw. Reacting to the hip rotation rather than waiting for the leg switch gives you the maximum time to execute your defensive response."
+        "answer": "The earliest cue is feeling the attacker's hips begin to rotate away from the inside angle toward the outside of your trapped leg. This hip rotation precedes the actual leg switch and signals the directional change in their body alignment. You may also notice reduced pressure from their inside leg across your hip as it begins to withdraw. Reacting to the hip rotation rather than waiting for the leg switch gives you the maximum time to execute your defensive response.",
+        "answer_line": "Hips rotate away from inside",
+        "distractors": {
+          "plausible": [
+            "Foot pressure suddenly vanishes",
+            "Grip tightens on trapped leg"
+          ],
+          "trap": [
+            "Wait for the full leg switch"
+          ]
+        }
       },
       {
         "question": "Why is the transition vulnerability window your best escape opportunity rather than defending the established outside ashi?",
-        "answer": "During the transition, the attacker's figure-four triangle is temporarily loosened as they reconfigure their legs. This brief looseness creates the only moment where the structural integrity of the entanglement is compromised. Once outside ashi is fully established with a tight triangle, the escape requires overcoming complete positional control. The transition window may last less than one second, but it represents a significantly higher probability of successful escape than fighting a fully locked position."
+        "answer": "During the transition, the attacker's figure-four triangle is temporarily loosened as they reconfigure their legs. This brief looseness creates the only moment where the structural integrity of the entanglement is compromised. Once outside ashi is fully established with a tight triangle, the escape requires overcoming complete positional control. The transition window may last less than one second, but it represents a significantly higher probability of successful escape than fighting a fully locked position.",
+        "answer_line": "Triangle loosens during switch",
+        "distractors": {
+          "plausible": [
+            "Outside ashi grip is weaker",
+            "Attacker is off-balance longer"
+          ],
+          "trap": [
+            "Fight the locked position instead"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the transition but you cannot extract your leg during the vulnerability window—what should your next defensive priority be?",
-        "answer": "If you cannot escape during the transition window, immediately prioritize hiding your heel by rotating your knee inward and tucking your foot toward your body. The outside ashi configuration provides direct access to outside heel hooks, which are the primary danger. By protecting the heel first, you buy time to work a systematic escape from the established outside ashi position. Additionally, establish frames with your free leg and hands to prevent the attacker from closing distance for finishing mechanics."
+        "answer": "If you cannot escape during the transition window, immediately prioritize hiding your heel by rotating your knee inward and tucking your foot toward your body. The outside ashi configuration provides direct access to outside heel hooks, which are the primary danger. By protecting the heel first, you buy time to work a systematic escape from the established outside ashi position. Additionally, establish frames with your free leg and hands to prevent the attacker from closing distance for finishing mechanics.",
+        "answer_line": "Hide the heel, tuck foot in",
+        "distractors": {
+          "plausible": [
+            "Grab their far collar instead",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Extend leg straight to power out"
+          ]
+        }
       },
       {
         "question": "How does defending the Inside Ashi to Outside Ashi transition differ from defending a direct outside ashi entry?",
-        "answer": "The key difference is the vulnerability window. A direct outside ashi entry typically occurs from a scramble or guard pass where the attacker establishes control in one motion. The transition from inside to outside ashi requires the attacker to disassemble one configuration before establishing another, creating a brief gap in control. Your defensive strategy should specifically exploit this gap, which does not exist in direct entries. The transition also telegraphs the direction change through recognizable hip rotation cues."
+        "answer": "The key difference is the vulnerability window. A direct outside ashi entry typically occurs from a scramble or guard pass where the attacker establishes control in one motion. The transition from inside to outside ashi requires the attacker to disassemble one configuration before establishing another, creating a brief gap in control. Your defensive strategy should specifically exploit this gap, which does not exist in direct entries. The transition also telegraphs the direction change through recognizable hip rotation cues.",
+        "answer_line": "Transition creates a control gap",
+        "distractors": {
+          "plausible": [
+            "Direct entry is always slower",
+            "Outside ashi lacks finishing grip"
+          ],
+          "trap": [
+            "No real difference exists"
+          ]
+        }
       }
     ],
     "training_progressions": [

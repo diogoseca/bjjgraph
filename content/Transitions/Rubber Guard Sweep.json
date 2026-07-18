@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What body position change in your opponent signals the optimal timing window for initiating the Rubber Guard Sweep?",
-        "answer": "The optimal window opens when the opponent shifts their weight backward or upward to recover posture. You feel their hips rising and their head pulling away from your chest through the rubber guard control. This backward momentum provides the energy you redirect into the sweep. Attempting the sweep against a settled, forward-pressuring opponent is significantly less effective because there is no existing momentum to exploit."
+        "answer": "The optimal window opens when the opponent shifts their weight backward or upward to recover posture. You feel their hips rising and their head pulling away from your chest through the rubber guard control. This backward momentum provides the energy you redirect into the sweep. Attempting the sweep against a settled, forward-pressuring opponent is significantly less effective because there is no existing momentum to exploit.",
+        "answer_line": "Hips rise, head pulls back",
+        "distractors": {
+          "plausible": [
+            "Opponent flattens down heavy",
+            "Grip changes on your sleeve"
+          ],
+          "trap": [
+            "Opponent settles, presses forward"
+          ]
+        }
       },
       {
         "question": "Why must the hip bridge be directed at a 45-degree angle rather than straight upward during this sweep?",
-        "answer": "The 45-degree angle exploits the specific base weakness created by the rubber guard arm trap. The trapped arm prevents the opponent from posting on that side, so bridging toward the trapped-arm side forces them to rely on a base that does not exist. A straight upward bridge allows them to use their free hand to post and resist, negating the structural advantage that rubber guard provides."
+        "answer": "The 45-degree angle exploits the specific base weakness created by the rubber guard arm trap. The trapped arm prevents the opponent from posting on that side, so bridging toward the trapped-arm side forces them to rely on a base that does not exist. A straight upward bridge allows them to use their free hand to post and resist, negating the structural advantage that rubber guard provides.",
+        "answer_line": "Bridge toward trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Bridge away from trapped arm",
+            "Bridge up first, then angle"
+          ],
+          "trap": [
+            "Bridge straight up for power"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully extracts their trapped arm during your sweep attempt - what is your immediate tactical response?",
-        "answer": "Transition immediately to a triangle setup. The arm extraction creates the exact space needed for your leg to swing across their shoulder line and lock behind their head. The sweep attempt disguised the triangle entry, and the opponent's arm extraction motion actually facilitates the submission setup by creating the gap between their arm and neck that the triangle requires."
+        "answer": "Transition immediately to a triangle setup. The arm extraction creates the exact space needed for your leg to swing across their shoulder line and lock behind their head. The sweep attempt disguised the triangle entry, and the opponent's arm extraction motion actually facilitates the submission setup by creating the gap between their arm and neck that the triangle requires.",
+        "answer_line": "Swing leg through for triangle",
+        "distractors": {
+          "plausible": [
+            "Reset rubber guard grip",
+            "Chase arm back to re-trap"
+          ],
+          "trap": [
+            "Release guard and stand up"
+          ]
+        }
       },
       {
         "question": "What is the critical grip function of the free hand during sweep execution?",
-        "answer": "The free hand pulls the opponent's head and shoulder in the sweep direction, creating rotational force that combines with the hip bridge elevation. Without this upper body control, the bridge alone is often insufficient against a resisting opponent because it produces primarily vertical force. The free hand transforms the linear upward force into a rotational sweep that exploits the opponent's compromised base on the trapped-arm side."
+        "answer": "The free hand pulls the opponent's head and shoulder in the sweep direction, creating rotational force that combines with the hip bridge elevation. Without this upper body control, the bridge alone is often insufficient against a resisting opponent because it produces primarily vertical force. The free hand transforms the linear upward force into a rotational sweep that exploits the opponent's compromised base on the trapped-arm side.",
+        "answer_line": "Pull head/shoulder to rotate",
+        "distractors": {
+          "plausible": [
+            "Push on opponent's hip",
+            "Grip pants for base control"
+          ],
+          "trap": [
+            "Post hand on mat for balance"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from inserting a knee and recovering half guard during the sweep-to-mount transition?",
-        "answer": "Maintain the rubber guard leg across the opponent's back throughout the sweep until past the tipping point, then immediately drive your hips forward as you arrive on top. Keep your chest connected to their body during the entire transition with zero gap between sweep completion and mount establishment. The seamless connection eliminates the space creation needed for knee insertion or frame building."
+        "answer": "Maintain the rubber guard leg across the opponent's back throughout the sweep until past the tipping point, then immediately drive your hips forward as you arrive on top. Keep your chest connected to their body during the entire transition with zero gap between sweep completion and mount establishment. The seamless connection eliminates the space creation needed for knee insertion or frame building.",
+        "answer_line": "Keep leg on back, chest connected",
+        "distractors": {
+          "plausible": [
+            "Release leg once sweep lands",
+            "Post hands before hips arrive"
+          ],
+          "trap": [
+            "Pause to secure grip first"
+          ]
+        }
       },
       {
         "question": "What conditions in rubber guard make the sweep a better tactical choice than pursuing a submission?",
-        "answer": "The sweep becomes the superior option when the opponent defends submissions by keeping their arms tight and chin tucked but commits to posturing up to escape rubber guard control. Their defensive posture blocks submission entries but creates the backward weight shift that feeds the sweep. The sweep is also preferable when competition time pressure demands a positional scoring opportunity rather than a higher-risk submission attempt."
+        "answer": "The sweep becomes the superior option when the opponent defends submissions by keeping their arms tight and chin tucked but commits to posturing up to escape rubber guard control. Their defensive posture blocks submission entries but creates the backward weight shift that feeds the sweep. The sweep is also preferable when competition time pressure demands a positional scoring opportunity rather than a higher-risk submission attempt.",
+        "answer_line": "Opponent defends tight, postures up",
+        "distractors": {
+          "plausible": [
+            "Opponent's arm goes fully limp",
+            "Opponent taps grips, stays flat"
+          ],
+          "trap": [
+            "Wait for opponent to relax"
+          ]
+        }
       },
       {
         "question": "Your opponent bases wide with their free hand to resist your sweep - how do you adapt your attack?",
-        "answer": "The wide base creates vulnerability to submission entries because the posting hand is far from their centerline and cannot defend the neck. Switch to a triangle setup since the wide posting position leaves the neck exposed. Alternatively, use the sweep fake as a setup for New York entry, as the wide base and lowered head position create the conditions for advancing through the rubber guard positional hierarchy toward dominant control."
+        "answer": "The wide base creates vulnerability to submission entries because the posting hand is far from their centerline and cannot defend the neck. Switch to a triangle setup since the wide posting position leaves the neck exposed. Alternatively, use the sweep fake as a setup for New York entry, as the wide base and lowered head position create the conditions for advancing through the rubber guard positional hierarchy toward dominant control.",
+        "answer_line": "Switch to triangle or NY entry",
+        "distractors": {
+          "plausible": [
+            "Break grip and reset guard",
+            "Attack the far ankle lock"
+          ],
+          "trap": [
+            "Pull guard tighter, wait it out"
+          ]
+        }
       },
       {
         "question": "What mechanical role does the rubber guard leg serve during the sweep motion?",
-        "answer": "The rubber guard leg across the opponent's back functions as a lever that amplifies the hip bridge force. It creates a fulcrum point near the opponent's shoulder line, converting your upward hip drive into rotational force that topples them. Additionally, it prevents the opponent from creating distance or disengaging during the sweep, ensuring your force is transmitted efficiently through their center of mass rather than dissipating into space."
+        "answer": "The rubber guard leg across the opponent's back functions as a lever that amplifies the hip bridge force. It creates a fulcrum point near the opponent's shoulder line, converting your upward hip drive into rotational force that topples them. Additionally, it prevents the opponent from creating distance or disengaging during the sweep, ensuring your force is transmitted efficiently through their center of mass rather than dissipating into space.",
+        "answer_line": "Lever fulcrum, blocks distance",
+        "distractors": {
+          "plausible": [
+            "Purely holds opponent's posture",
+            "Only used for triangle setup"
+          ],
+          "trap": [
+            "Release leg to gain space"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Rubber Guard Sweep requires significant hip and hamstring flexibility. Never force the rubber guard leg position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate clearly with your partner about sweep timing to prevent neck compression injuries during the roll. Ensure adequate warm-up focusing on hip mobility and hamstring flexibility before practicing this technique. When landing in mount after the sweep, control your descent to avoid dropping full body weight onto your partner's torso or ribs unexpectedly.",
@@ -391,19 +471,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Rubber Guard Sweep attempt is imminent from the top position?",
-        "answer": "The earliest cue is the bottom player's hip loading, felt as their lower back lifting slightly off the mat creating space for the explosive bridge. This often accompanies a subtle body angle change where their torso shifts toward a 45-degree line aimed at your trapped-arm side. Recognizing this pre-sweep positioning gives you the maximum reaction window to post, drive hips forward, or begin arm extraction."
+        "answer": "The earliest cue is the bottom player's hip loading, felt as their lower back lifting slightly off the mat creating space for the explosive bridge. This often accompanies a subtle body angle change where their torso shifts toward a 45-degree line aimed at your trapped-arm side. Recognizing this pre-sweep positioning gives you the maximum reaction window to post, drive hips forward, or begin arm extraction.",
+        "answer_line": "Lower back lifts, hips load",
+        "distractors": {
+          "plausible": [
+            "Opponent's grip tightens hard",
+            "Head pushes into your chest"
+          ],
+          "trap": [
+            "Opponent relaxes and breathes"
+          ]
+        }
       },
       {
         "question": "Why is explosive upward posture recovery particularly dangerous when trapped in rubber guard?",
-        "answer": "Explosive upward posture recovery provides the backward weight shift that the sweep relies on as its primary momentum source. The rubber guard bottom player times the sweep to coincide with this upward movement, redirecting your posture recovery energy into the rotational force that completes the reversal. Gradual posture recovery through incremental adjustments denies this momentum while still progressing toward escape."
+        "answer": "Explosive upward posture recovery provides the backward weight shift that the sweep relies on as its primary momentum source. The rubber guard bottom player times the sweep to coincide with this upward movement, redirecting your posture recovery energy into the rotational force that completes the reversal. Gradual posture recovery through incremental adjustments denies this momentum while still progressing toward escape.",
+        "answer_line": "Feeds the sweep's momentum",
+        "distractors": {
+          "plausible": [
+            "Only risks losing grips",
+            "Mainly exposes neck to choke"
+          ],
+          "trap": [
+            "Best way to escape guard"
+          ]
+        }
       },
       {
         "question": "How do you maintain defensive awareness for both the sweep and submission threats simultaneously from rubber guard top?",
-        "answer": "Maintain a compromise position with moderate forward pressure and one hand ready to post for sweep defense while keeping your trapped arm tight and chin tucked for submission defense. Avoid overcommitting to either threat since staying too heavy forward feeds omoplatas while pulling back feeds the sweep. Read which attack the bottom player is setting up through their grip changes and hip positioning, then adjust your defensive priority accordingly."
+        "answer": "Maintain a compromise position with moderate forward pressure and one hand ready to post for sweep defense while keeping your trapped arm tight and chin tucked for submission defense. Avoid overcommitting to either threat since staying too heavy forward feeds omoplatas while pulling back feeds the sweep. Read which attack the bottom player is setting up through their grip changes and hip positioning, then adjust your defensive priority accordingly.",
+        "answer_line": "Moderate pressure, ready to post",
+        "distractors": {
+          "plausible": [
+            "Full forward pressure, heavy",
+            "Pull back and create space"
+          ],
+          "trap": [
+            "Commit fully to posting hand"
+          ]
+        }
       },
       {
         "question": "Your free hand is posted to resist the sweep but the bottom player immediately switches to a triangle attempt - how do you respond?",
-        "answer": "Immediately retract the posted hand and tuck it tight to your body while driving your hips forward with strong base. The triangle requires space between your shoulder and their leg to lock. Removing your posting hand and driving forward eliminates the triangle entry angle while your forward pressure simultaneously re-establishes sweep defense. This rapid oscillation between sweep and submission defense is the core defensive skill required in rubber guard top."
+        "answer": "Immediately retract the posted hand and tuck it tight to your body while driving your hips forward with strong base. The triangle requires space between your shoulder and their leg to lock. Removing your posting hand and driving forward eliminates the triangle entry angle while your forward pressure simultaneously re-establishes sweep defense. This rapid oscillation between sweep and submission defense is the core defensive skill required in rubber guard top.",
+        "answer_line": "Retract hand, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Keep posting, add more pressure",
+            "Grab opponent's ankle to defend"
+          ],
+          "trap": [
+            "Push down hard on their head"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -256,35 +256,115 @@
     "flashcards": [
       {
         "question": "What is the most dangerous risk during Reverse Half Guard guard recovery and how do you mitigate it?",
-        "answer": "The most dangerous risk is a back take, because reverse half guard already has your back partially exposed to the opponent. Mitigate this by tucking your far-side elbow tight to your ribs and chinning your far shoulder before initiating any rotation. This denies the seatbelt grip that enables back control. Additionally, always rotate toward the opponent rather than away from them, which reduces back exposure with every degree of rotation rather than increasing it."
+        "answer": "The most dangerous risk is a back take, because reverse half guard already has your back partially exposed to the opponent. Mitigate this by tucking your far-side elbow tight to your ribs and chinning your far shoulder before initiating any rotation. This denies the seatbelt grip that enables back control. Additionally, always rotate toward the opponent rather than away from them, which reduces back exposure with every degree of rotation rather than increasing it.",
+        "answer_line": "Tuck far elbow, rotate toward them",
+        "distractors": {
+          "plausible": [
+            "Chin down, then rotate away",
+            "Frame far arm before rotating"
+          ],
+          "trap": [
+            "Rotate away from opponent"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the half guard leg hook critical throughout the rotation and what happens if you lose it?",
-        "answer": "The half guard hook is the only thing preventing the opponent from freely extracting their leg during the rotation. If you lose the hook, the opponent immediately steps over to mount, side control, or knee on belly—positions far worse than reverse half guard. The hook serves as both a positional anchor that holds the opponent in half guard and a rotational anchor that gives your bridge and hip movement something to pivot around during the turn."
+        "answer": "The half guard hook is the only thing preventing the opponent from freely extracting their leg during the rotation. If you lose the hook, the opponent immediately steps over to mount, side control, or knee on belly—positions far worse than reverse half guard. The hook serves as both a positional anchor that holds the opponent in half guard and a rotational anchor that gives your bridge and hip movement something to pivot around during the turn.",
+        "answer_line": "Hook anchors position and rotation",
+        "distractors": {
+          "plausible": [
+            "Hook only blocks knee slice",
+            "Hook is optional if you bridge"
+          ],
+          "trap": [
+            "Release hook to rotate faster"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a seatbelt grip on your back before you could begin rotating—what is your recovery strategy?",
-        "answer": "Strip the choking arm (the arm across your neck) first by gripping their wrist with both hands and pulling it across your body to your far hip. Pin their wrist against your body with your elbow. Then immediately accelerate the rotation toward them using the momentum of the grip strip. The seatbelt must be addressed before rotation continues—attempting to rotate with the seatbelt engaged allows the opponent to follow your rotation and establish full back control with hooks."
+        "answer": "Strip the choking arm (the arm across your neck) first by gripping their wrist with both hands and pulling it across your body to your far hip. Pin their wrist against your body with your elbow. Then immediately accelerate the rotation toward them using the momentum of the grip strip. The seatbelt must be addressed before rotation continues—attempting to rotate with the seatbelt engaged allows the opponent to follow your rotation and establish full back control with hooks.",
+        "answer_line": "Strip choking arm, then rotate",
+        "distractors": {
+          "plausible": [
+            "Strip arm, then bridge for space",
+            "Post hand, then rotate away"
+          ],
+          "trap": [
+            "Rotate immediately, strip after"
+          ]
+        }
       },
       {
         "question": "Why is knee shield half guard a better initial recovery target than closed guard from reverse half guard?",
-        "answer": "Knee shield half guard requires only enough rotation to face the opponent and insert one knee, which can be achieved relatively quickly from the reverse position. Closed guard requires complete rotation plus extracting your legs from the half guard entanglement and wrapping both around the opponent's torso—a much longer sequence with more vulnerability windows. Knee shield provides immediate structural defense that stops the opponent's advancement, giving you a stable platform to then work toward full guard recovery if desired."
+        "answer": "Knee shield half guard requires only enough rotation to face the opponent and insert one knee, which can be achieved relatively quickly from the reverse position. Closed guard requires complete rotation plus extracting your legs from the half guard entanglement and wrapping both around the opponent's torso—a much longer sequence with more vulnerability windows. Knee shield provides immediate structural defense that stops the opponent's advancement, giving you a stable platform to then work toward full guard recovery if desired.",
+        "answer_line": "Needs less rotation, stops advance",
+        "distractors": {
+          "plausible": [
+            "Gives better submission access",
+            "Fully neutralizes the pass"
+          ],
+          "trap": [
+            "Go straight for closed guard"
+          ]
+        }
       },
       {
         "question": "What role does head positioning play during the rotation from reverse half guard to standard half guard?",
-        "answer": "Your head acts as a wedge during the rotation. By driving your head under the opponent's chin or against their chest, you create the physical space needed for your shoulders and torso to rotate underneath their weight. The head wedge also prevents the opponent from flattening you back down with crossface pressure, because your head position forces their chin up and limits their ability to drive their shoulder into your face. Without active head positioning, the rotation stalls because there is no space creation mechanism for the turn."
+        "answer": "Your head acts as a wedge during the rotation. By driving your head under the opponent's chin or against their chest, you create the physical space needed for your shoulders and torso to rotate underneath their weight. The head wedge also prevents the opponent from flattening you back down with crossface pressure, because your head position forces their chin up and limits their ability to drive their shoulder into your face. Without active head positioning, the rotation stalls because there is no space creation mechanism for the turn.",
+        "answer_line": "Head wedges space, blocks crossface",
+        "distractors": {
+          "plausible": [
+            "Head controls opponent's posture",
+            "Head protects neck from chokes"
+          ],
+          "trap": [
+            "Tuck head down, chin to chest"
+          ]
+        }
       },
       {
         "question": "Your rotation stalls at approximately 90 degrees—you are on your side but not yet facing the opponent—what grip should you prioritize and why?",
-        "answer": "Prioritize the underhook on the side closest to the opponent. At 90 degrees, you have enough chest orientation to swim your near arm under the opponent's armpit. The underhook at this stage serves dual purposes: it prevents the opponent from re-crossfacing you back to the fully reversed position, and it provides a pulling anchor that drives the remaining rotation from 90 degrees to full face-to-face orientation. Without the underhook at this critical midpoint, the opponent's crossface pressure will stall or reverse your rotation progress."
+        "answer": "Prioritize the underhook on the side closest to the opponent. At 90 degrees, you have enough chest orientation to swim your near arm under the opponent's armpit. The underhook at this stage serves dual purposes: it prevents the opponent from re-crossfacing you back to the fully reversed position, and it provides a pulling anchor that drives the remaining rotation from 90 degrees to full face-to-face orientation. Without the underhook at this critical midpoint, the opponent's crossface pressure will stall or reverse your rotation progress.",
+        "answer_line": "Near-side underhook drives rotation",
+        "distractors": {
+          "plausible": [
+            "Overhook to stop crossface",
+            "Underhook far-side arm instead"
+          ],
+          "trap": [
+            "Release grip, bridge harder"
+          ]
+        }
       },
       {
         "question": "How do you adjust the recovery when the opponent has established a lockdown on your legs from reverse half guard top?",
-        "answer": "The opponent's lockdown from top reverse half guard pins your leg and restricts your hip mobility for the bridge. First, address the lockdown by straightening your trapped leg and driving your knee toward the mat to break the figure-four lock. If you cannot break it, use the pummel-based rotation variant instead of the bridge variant—drive the rotation through arm pummeling and head wedging rather than relying on hip bridge power. The lockdown limits your lower body contribution to the rotation, so the upper body must compensate."
+        "answer": "The opponent's lockdown from top reverse half guard pins your leg and restricts your hip mobility for the bridge. First, address the lockdown by straightening your trapped leg and driving your knee toward the mat to break the figure-four lock. If you cannot break it, use the pummel-based rotation variant instead of the bridge variant—drive the rotation through arm pummeling and head wedging rather than relying on hip bridge power. The lockdown limits your lower body contribution to the rotation, so the upper body must compensate.",
+        "answer_line": "Straighten leg, then pummel arms",
+        "distractors": {
+          "plausible": [
+            "Bridge harder to break lockdown",
+            "Kick free using both legs"
+          ],
+          "trap": [
+            "Ignore lockdown, force the bridge"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back during your bridge attempt, completely denying rotation space—what alternative mechanism drives the rotation?",
-        "answer": "Switch to arm pummeling as the primary rotation engine. Use your near-side arm to swim under the opponent's arm in a pummeling motion, fighting for the underhook. The act of pummeling your arm underneath theirs physically rotates your torso toward the opponent without requiring bridge space. Combine this with small hip bumps rather than full bridges to create incremental rotation. The pummel approach works because it does not require vertical space—it operates in the horizontal plane where the opponent's sprawl pressure has less effect."
+        "answer": "Switch to arm pummeling as the primary rotation engine. Use your near-side arm to swim under the opponent's arm in a pummeling motion, fighting for the underhook. The act of pummeling your arm underneath theirs physically rotates your torso toward the opponent without requiring bridge space. Combine this with small hip bumps rather than full bridges to create incremental rotation. The pummel approach works because it does not require vertical space—it operates in the horizontal plane where the opponent's sprawl pressure has less effect.",
+        "answer_line": "Pummel arm underneath for rotation",
+        "distractors": {
+          "plausible": [
+            "Bridge harder into the sprawl",
+            "Push their hips down first"
+          ],
+          "trap": [
+            "Wait for them to release sprawl"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard recovery from reverse half guard involves rotational movement under an opponent's weight that can stress the cervical spine and lower back. Avoid explosive bridging when the opponent has significant chest pressure on your back, as this can compress the spine. The half guard hook must be maintained with leg strength rather than twisting the knee—ensure the hook comes from hip and thigh engagement, not knee rotation. During training, communicate with your partner about pressure levels, particularly when practicing the rotation under crossface pressure, to prevent neck compression injuries.",
@@ -387,23 +467,73 @@
     "flashcards": [
       {
         "question": "Why is reverse half guard such an advantageous position for the top player compared to standard half guard?",
-        "answer": "In reverse half guard, the bottom player's back is partially exposed and their guard frames face the wrong direction—they cannot establish the knee shield or underhook that make standard half guard defensively strong. This gives the top player three offensive options that are not available in standard half guard: back take via seatbelt from the exposed back, easier leg extraction because the bottom player's guard frames are misoriented, and sustained pressure on a position where the bottom player's defensive tools are limited."
+        "answer": "In reverse half guard, the bottom player's back is partially exposed and their guard frames face the wrong direction—they cannot establish the knee shield or underhook that make standard half guard defensively strong. This gives the top player three offensive options that are not available in standard half guard: back take via seatbelt from the exposed back, easier leg extraction because the bottom player's guard frames are misoriented, and sustained pressure on a position where the bottom player's defensive tools are limited.",
+        "answer_line": "Exposed back, frames face wrong way",
+        "distractors": {
+          "plausible": [
+            "Bottom has no underhook option",
+            "Top gets automatic submission"
+          ],
+          "trap": [
+            "Bottom's knee shield stops it"
+          ]
+        }
       },
       {
         "question": "How can you use the bottom player's bridge rotation attempt to extract your trapped leg from their half guard hook?",
-        "answer": "The bottom player's bridge creates vertical space and often loosens their half guard hook because their focus shifts from hook maintenance to rotation mechanics. During the bridge, slide your knee toward the gap created by their upward hip movement, windshield-wipering your foot through the loosened hook. The timing is critical—extract during the peak of their bridge when the hook is weakest, not during the settling when they re-tighten. This converts their recovery attempt into your advancement opportunity."
+        "answer": "The bottom player's bridge creates vertical space and often loosens their half guard hook because their focus shifts from hook maintenance to rotation mechanics. During the bridge, slide your knee toward the gap created by their upward hip movement, windshield-wipering your foot through the loosened hook. The timing is critical—extract during the peak of their bridge when the hook is weakest, not during the settling when they re-tighten. This converts their recovery attempt into your advancement opportunity.",
+        "answer_line": "Slide knee through bridge peak",
+        "distractors": {
+          "plausible": [
+            "Extract leg after bridge settles",
+            "Pull knee free before they bridge"
+          ],
+          "trap": [
+            "Force extraction against the hook"
+          ]
+        }
       },
       {
         "question": "The bottom player has successfully established an underhook after partial rotation—what is your best response to prevent full recovery?",
-        "answer": "Once the underhook is established, address it immediately through a whizzer (overhook) on the underhooking arm, driving your shoulder into their face to limit further rotation. If you cannot strip the underhook, switch your strategy from maintaining reverse half guard to an aggressive passing approach—use the whizzer to flatten them and work a knee slice or crossface pass before they can insert the knee shield. The underhook means they have passed the most critical rotation threshold, so maintaining reverse position is no longer viable."
+        "answer": "Once the underhook is established, address it immediately through a whizzer (overhook) on the underhooking arm, driving your shoulder into their face to limit further rotation. If you cannot strip the underhook, switch your strategy from maintaining reverse half guard to an aggressive passing approach—use the whizzer to flatten them and work a knee slice or crossface pass before they can insert the knee shield. The underhook means they have passed the most critical rotation threshold, so maintaining reverse position is no longer viable.",
+        "answer_line": "Whizzer the underhook, then pass",
+        "distractors": {
+          "plausible": [
+            "Strip grip, return to reverse half",
+            "Block with far-side crossface"
+          ],
+          "trap": [
+            "Retreat to guard, reset position"
+          ]
+        }
       },
       {
         "question": "What are the three primary strategic options available to the top player when the bottom player initiates guard recovery from reverse half guard?",
-        "answer": "The three options are: first, deny the rotation entirely through crossface and shoulder pressure on the back of the head to maintain the reverse half guard advantage; second, escalate to back control by establishing a seatbelt grip during the bottom player's turning attempts when their far arm lifts away from their body; third, advance past the half guard by extracting your trapped leg during the bottom player's bridge when their hook loosens. The choice depends on the bottom player's specific recovery method and which opportunities their movement creates."
+        "answer": "The three options are: first, deny the rotation entirely through crossface and shoulder pressure on the back of the head to maintain the reverse half guard advantage; second, escalate to back control by establishing a seatbelt grip during the bottom player's turning attempts when their far arm lifts away from their body; third, advance past the half guard by extracting your trapped leg during the bottom player's bridge when their hook loosens. The choice depends on the bottom player's specific recovery method and which opportunities their movement creates.",
+        "answer_line": "Deny, back take, or pass the leg",
+        "distractors": {
+          "plausible": [
+            "Deny, submit, or stand up",
+            "Back take, submit, or reset guard"
+          ],
+          "trap": [
+            "Always deny rotation with pressure"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to pursue a back take versus denying rotation when the bottom player begins their recovery?",
-        "answer": "Pursue the back take when the bottom player's far arm lifts away from their body during rotation, creating a clear seatbelt entry point, and when you can secure the grip without extending your base beyond recovery. Deny rotation through pressure when the bottom player keeps their elbows tight and does not expose seatbelt entries, or when you do not have a secure enough base to reach for back control without risking the top position. The key indicator is the bottom player's elbow position—tucked means stay with pressure, floating means attack the back."
+        "answer": "Pursue the back take when the bottom player's far arm lifts away from their body during rotation, creating a clear seatbelt entry point, and when you can secure the grip without extending your base beyond recovery. Deny rotation through pressure when the bottom player keeps their elbows tight and does not expose seatbelt entries, or when you do not have a secure enough base to reach for back control without risking the top position. The key indicator is the bottom player's elbow position—tucked means stay with pressure, floating means attack the back.",
+        "answer_line": "Floating elbow = attack the back",
+        "distractors": {
+          "plausible": [
+            "Tight base = always attack back",
+            "Any arm movement = seatbelt now"
+          ],
+          "trap": [
+            "Extend base fully to chase back"
+          ]
+        }
       }
     ],
     "training_progressions": [

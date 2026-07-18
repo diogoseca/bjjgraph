@@ -268,35 +268,115 @@
     "flashcards": [
       {
         "question": "Why must you circle toward the trapped arm side rather than the free arm side during the escape?",
-        "answer": "Circling toward the trapped arm side mechanically opens the triangle lock by moving your body away from the opponent's optimal choking angle. The triangle choke works by creating a perpendicular angle between the opponent's legs and your neck. Moving toward the trapped arm side increases this angle beyond the effective choking range and creates slack in the leg lock, enabling extraction. Moving toward the free arm side closes this angle and tightens the choke."
+        "answer": "Circling toward the trapped arm side mechanically opens the triangle lock by moving your body away from the opponent's optimal choking angle. The triangle choke works by creating a perpendicular angle between the opponent's legs and your neck. Moving toward the trapped arm side increases this angle beyond the effective choking range and creates slack in the leg lock, enabling extraction. Moving toward the free arm side closes this angle and tightens the choke.",
+        "answer_line": "Widens choke angle, creates slack",
+        "distractors": {
+          "plausible": [
+            "Circle away from both legs",
+            "Stack forward, skip circling"
+          ],
+          "trap": [
+            "Circle toward the free arm side"
+          ]
+        }
       },
       {
         "question": "What is the correct arm extraction mechanic and why is linear pulling dangerous?",
-        "answer": "The correct extraction uses a rotational corkscrew motion where the elbow leads in a circular arc toward your own hip, keeping the extraction path below the opponent's armbar grip line. Linear pulling straight backward is dangerous because it drives your shoulder deeper into the choking crux of the triangle, actually tightening the choke, and simultaneously creates a clean angle for the opponent to isolate your arm for an armbar transition. The rotational path avoids both of these dangers."
+        "answer": "The correct extraction uses a rotational corkscrew motion where the elbow leads in a circular arc toward your own hip, keeping the extraction path below the opponent's armbar grip line. Linear pulling straight backward is dangerous because it drives your shoulder deeper into the choking crux of the triangle, actually tightening the choke, and simultaneously creates a clean angle for the opponent to isolate your arm for an armbar transition. The rotational path avoids both of these dangers.",
+        "answer_line": "Corkscrew elbow toward hip",
+        "distractors": {
+          "plausible": [
+            "Pull arm straight up and out",
+            "Rotate wrist to slip the grip"
+          ],
+          "trap": [
+            "Yank the arm straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins scooting their hips to match your circular stepping direction - how do you respond?",
-        "answer": "Increase your forward stacking pressure while maintaining the circular step. The opponent cannot simultaneously maintain hip elevation for effective choking power and perform lateral hip movement to match your angle. By intensifying the stack, you force them to choose between preserving their angle which requires hip mobility and preserving their choking pressure which requires hip elevation and connection. This creates a dilemma that favors your escape progression."
+        "answer": "Increase your forward stacking pressure while maintaining the circular step. The opponent cannot simultaneously maintain hip elevation for effective choking power and perform lateral hip movement to match your angle. By intensifying the stack, you force them to choose between preserving their angle which requires hip mobility and preserving their choking pressure which requires hip elevation and connection. This creates a dilemma that favors your escape progression.",
+        "answer_line": "Increase stacking pressure",
+        "distractors": {
+          "plausible": [
+            "Match their hip scoot speed",
+            "Slow down your circular step"
+          ],
+          "trap": [
+            "Release pressure, reset base"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt the arm extraction phase?",
-        "answer": "You should feel unmistakable looseness in the triangle lock resulting from the combined effect of sustained forward stacking pressure and accumulated angular change from circular stepping. The trapped arm should have perceptible space between the opponent's thigh and your shoulder, and the choking pressure on your neck should be noticeably reduced. Attempting extraction before these conditions exist typically tightens the triangle and exposes you to armbar transitions."
+        "answer": "You should feel unmistakable looseness in the triangle lock resulting from the combined effect of sustained forward stacking pressure and accumulated angular change from circular stepping. The trapped arm should have perceptible space between the opponent's thigh and your shoulder, and the choking pressure on your neck should be noticeably reduced. Attempting extraction before these conditions exist typically tightens the triangle and exposes you to armbar transitions.",
+        "answer_line": "Feel looseness and space open",
+        "distractors": {
+          "plausible": [
+            "As soon as posture is regained",
+            "Right after first hip escape"
+          ],
+          "trap": [
+            "Extract immediately on contact"
+          ]
+        }
       },
       {
         "question": "How do you defend against the armbar transition that commonly occurs during triangle escape attempts?",
-        "answer": "Keep your trapped arm elbow pinned tightly against your ribs throughout the entire escape sequence, from initial posture recovery through complete extraction. If the opponent begins pivoting their hips for armbar isolation, turn sharply toward your trapped arm side and increase forward stacking pressure. Follow their rotation rather than pulling away, using your body weight to prevent arm extension. The key is maintaining elbow-to-rib contact which denies them the space needed to isolate and extend the arm."
+        "answer": "Keep your trapped arm elbow pinned tightly against your ribs throughout the entire escape sequence, from initial posture recovery through complete extraction. If the opponent begins pivoting their hips for armbar isolation, turn sharply toward your trapped arm side and increase forward stacking pressure. Follow their rotation rather than pulling away, using your body weight to prevent arm extension. The key is maintaining elbow-to-rib contact which denies them the space needed to isolate and extend the arm.",
+        "answer_line": "Pin elbow to ribs, turn in",
+        "distractors": {
+          "plausible": [
+            "Pull the arm free immediately",
+            "Post free hand, lean away"
+          ],
+          "trap": [
+            "Extend arm to break the grip"
+          ]
+        }
       },
       {
         "question": "Why is it critical to immediately engage closed guard after extracting from the triangle rather than pausing?",
-        "answer": "Any pause between extraction and guard engagement creates a window where the opponent can re-shoot their legs for another triangle attempt, transition to alternative attacks like leg entanglements or sweeps, or establish dominant grips that prevent your guard passing. The escape converts defensive survival into offensive opportunity only when the extraction flows seamlessly into guard top posture establishment. The opponent is often momentarily disoriented after their triangle fails, making this the optimal window for passing pressure."
+        "answer": "Any pause between extraction and guard engagement creates a window where the opponent can re-shoot their legs for another triangle attempt, transition to alternative attacks like leg entanglements or sweeps, or establish dominant grips that prevent your guard passing. The escape converts defensive survival into offensive opportunity only when the extraction flows seamlessly into guard top posture establishment. The opponent is often momentarily disoriented after their triangle fails, making this the optimal window for passing pressure.",
+        "answer_line": "Immediately close the guard",
+        "distractors": {
+          "plausible": [
+            "Pause to recover breath first",
+            "Posture up before engaging"
+          ],
+          "trap": [
+            "Stand up to create space"
+          ]
+        }
       },
       {
         "question": "What is the proper weight distribution during the stacking phase and how does improper distribution create vulnerability?",
-        "answer": "Weight should be driven forward through your legs and hips with a wide knee base, creating a forward and downward pressure vector through the opponent's hips toward their shoulders. Your weight must be centered over your base, never leaning forward from the upper body alone. Improper distribution such as leaning forward shifts your center of gravity ahead of your base, making you vulnerable to sweeps when the opponent releases triangle pressure, and reduces the effectiveness of the stack."
+        "answer": "Weight should be driven forward through your legs and hips with a wide knee base, creating a forward and downward pressure vector through the opponent's hips toward their shoulders. Your weight must be centered over your base, never leaning forward from the upper body alone. Improper distribution such as leaning forward shifts your center of gravity ahead of your base, making you vulnerable to sweeps when the opponent releases triangle pressure, and reduces the effectiveness of the stack.",
+        "answer_line": "Weight through hips, wide base",
+        "distractors": {
+          "plausible": [
+            "Push weight onto your hands",
+            "Center weight on knees only"
+          ],
+          "trap": [
+            "Lean forward with upper body"
+          ]
+        }
       },
       {
         "question": "Your initial escape attempt fails and the opponent re-locks the triangle tighter - what is the correct recovery sequence?",
-        "answer": "Immediately halt all escape movement and re-establish fundamental defensive posture: pin trapped arm elbow to ribs, re-post free hand on opponent's hip, drive posture upward, and re-establish wide base. Take a controlled breath to verify consciousness and blood flow. Do not attempt to continue a failed escape sequence. Reset completely and reinitiate the full escape from the beginning, treating each attempt as independent. Build systematic pressure through repeated correct technique rather than escalating desperation."
+        "answer": "Immediately halt all escape movement and re-establish fundamental defensive posture: pin trapped arm elbow to ribs, re-post free hand on opponent's hip, drive posture upward, and re-establish wide base. Take a controlled breath to verify consciousness and blood flow. Do not attempt to continue a failed escape sequence. Reset completely and reinitiate the full escape from the beginning, treating each attempt as independent. Build systematic pressure through repeated correct technique rather than escalating desperation.",
+        "answer_line": "Reset posture, restart fully",
+        "distractors": {
+          "plausible": [
+            "Push harder without resetting",
+            "Skip straight to extraction"
+          ],
+          "trap": [
+            "Force through same sequence"
+          ]
+        }
       }
     ],
     "safety_considerations": "While the Complete Triangle Escape does not directly apply submission force, it occurs within an active triangle choke scenario where consciousness loss is a genuine risk. Practitioners must tap immediately if vision narrows, hearing distorts, or lightheadedness develops rather than continuing escape attempts. Training partners applying the triangle should maintain awareness of the defender's responsiveness and release immediately if the defender goes limp or stops actively defending. During drilling, partners should apply triangle pressure progressively and communicate openly about pressure levels. The stacking mechanics used in the escape can strain the opponent's cervical spine, so the escaping practitioner must stack gradually rather than explosively, particularly in training scenarios.",
@@ -421,19 +501,59 @@
     "flashcards": [
       {
         "question": "How do you counter the opponent's circular stepping pattern that is progressively opening your triangle lock?",
-        "answer": "Match their circular stepping by scooting your hips laterally in the same direction, maintaining the perpendicular angle between your legs and their neck that provides maximum choking effectiveness. If stacking pressure prevents hip scooting, use your hands behind their head to create counter-rotational pulling force that resists their circular movement. When both methods fail, recognize the triangle is compromised and transition to armbar on the trapped arm."
+        "answer": "Match their circular stepping by scooting your hips laterally in the same direction, maintaining the perpendicular angle between your legs and their neck that provides maximum choking effectiveness. If stacking pressure prevents hip scooting, use your hands behind their head to create counter-rotational pulling force that resists their circular movement. When both methods fail, recognize the triangle is compromised and transition to armbar on the trapped arm.",
+        "answer_line": "Scoot hips to match the angle",
+        "distractors": {
+          "plausible": [
+            "Squeeze the triangle tighter",
+            "Pull escaping leg back by hand"
+          ],
+          "trap": [
+            "Release the choke to reposition"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing for transitioning from triangle to armbar during the opponent's escape attempt?",
-        "answer": "The optimal armbar transition window opens when the opponent begins their rotational arm extraction, as this mechanic temporarily separates their trapped arm elbow from their ribs and positions the arm in the plane needed for armbar isolation. This moment typically occurs during Steps 4-5 of their escape sequence. Transitioning too early means releasing a still-effective triangle unnecessarily. Transitioning too late means the arm has already extracted and the opportunity has passed."
+        "answer": "The optimal armbar transition window opens when the opponent begins their rotational arm extraction, as this mechanic temporarily separates their trapped arm elbow from their ribs and positions the arm in the plane needed for armbar isolation. This moment typically occurs during Steps 4-5 of their escape sequence. Transitioning too early means releasing a still-effective triangle unnecessarily. Transitioning too late means the arm has already extracted and the opportunity has passed.",
+        "answer_line": "When they begin arm extraction",
+        "distractors": {
+          "plausible": [
+            "As soon as hips go flat",
+            "Right after they posture up"
+          ],
+          "trap": [
+            "Release triangle immediately"
+          ]
+        }
       },
       {
         "question": "Your triangle is being stacked and you cannot maintain hip elevation - what defensive options remain?",
-        "answer": "When stacking has fully compromised your hip elevation and triangle effectiveness, immediately evaluate secondary attack options in priority order: armbar on the trapped arm if elbow has separated from ribs, omoplata transition if your choking leg can swing over their shoulder, or at minimum re-guard to closed guard by releasing the triangle and establishing full guard closure before they can pass. Continuing to hold a structurally compromised triangle wastes energy and misses higher-percentage transition opportunities."
+        "answer": "When stacking has fully compromised your hip elevation and triangle effectiveness, immediately evaluate secondary attack options in priority order: armbar on the trapped arm if elbow has separated from ribs, omoplata transition if your choking leg can swing over their shoulder, or at minimum re-guard to closed guard by releasing the triangle and establishing full guard closure before they can pass. Continuing to hold a structurally compromised triangle wastes energy and misses higher-percentage transition opportunities.",
+        "answer_line": "Armbar, omoplata, or re-guard",
+        "distractors": {
+          "plausible": [
+            "Keep squeezing the triangle",
+            "Switch straight to a choke"
+          ],
+          "trap": [
+            "Hold the triangle and wait"
+          ]
+        }
       },
       {
         "question": "How do you recognize when your triangle is definitively compromised versus temporarily challenged?",
-        "answer": "A temporarily challenged triangle still maintains hip elevation capability, intact figure-four lock, and reduced but active choking pressure producing defensive reactions. A definitively compromised triangle has lost two or more of these elements: flat hips with no elevation, significant slack in the figure-four despite readjustment, and the opponent demonstrates free movement within the triangle space without distress. When two or more elements are lost, immediate transition to secondary attacks is required."
+        "answer": "A temporarily challenged triangle still maintains hip elevation capability, intact figure-four lock, and reduced but active choking pressure producing defensive reactions. A definitively compromised triangle has lost two or more of these elements: flat hips with no elevation, significant slack in the figure-four despite readjustment, and the opponent demonstrates free movement within the triangle space without distress. When two or more elements are lost, immediate transition to secondary attacks is required.",
+        "answer_line": "Lost two or more key elements",
+        "distractors": {
+          "plausible": [
+            "Any single sign of resistance",
+            "Opponent postures up once"
+          ],
+          "trap": [
+            "Still choking, so hold on"
+          ]
+        }
       }
     ],
     "training_progressions": [

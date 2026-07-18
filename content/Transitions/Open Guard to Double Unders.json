@@ -215,23 +215,73 @@
     "flashcards": [
       {
         "question": "Why must both underhooks be dug simultaneously rather than one arm at a time?",
-        "answer": "Reaching one arm at a time leaves the slow side exposed for the opponent to insert a knee shield or re-pummel a foot inside, which blocks the second underhook and stuffs the entry. A single explosive scoop with both forearms penetrating together denies that framing window and ensures neither side is left open during the most vulnerable moment of the commitment."
+        "answer": "Reaching one arm at a time leaves the slow side exposed for the opponent to insert a knee shield or re-pummel a foot inside, which blocks the second underhook and stuffs the entry. A single explosive scoop with both forearms penetrating together denies that framing window and ensures neither side is left open during the most vulnerable moment of the commitment.",
+        "answer_line": "Both underhooks, one motion",
+        "distractors": {
+          "plausible": [
+            "Stronger arm first",
+            "Whichever side opens first"
+          ],
+          "trap": [
+            "Pause to secure grip after"
+          ]
+        }
       },
       {
         "question": "What is the correct order of operations between stacking the hips and clasping the hands?",
-        "answer": "Stack first, clasp second. You must elevate the opponent's hips and drive their knees toward their shoulders to compromise their frames and mobility before you lock your grip. Clasping first traps an opponent who still has framing and shrimping options, allowing them to recover guard despite the grip. The stack is what makes the locked control meaningful."
+        "answer": "Stack first, clasp second. You must elevate the opponent's hips and drive their knees toward their shoulders to compromise their frames and mobility before you lock your grip. Clasping first traps an opponent who still has framing and shrimping options, allowing them to recover guard despite the grip. The stack is what makes the locked control meaningful.",
+        "answer_line": "Stack hips before clasping",
+        "distractors": {
+          "plausible": [
+            "Clasp hands, then stack",
+            "Stack and clasp together"
+          ],
+          "trap": [
+            "Clasp immediately to control"
+          ]
+        }
       },
       {
         "question": "How deep should the underhooks be, and why does depth matter?",
-        "answer": "The forearms must penetrate fully under the thighs so your shoulders end up beneath the opponent's hamstrings, not merely under the knees. Shallow control under the knees lets the opponent separate their legs and prevents the stack from consolidating. Deep underhooks under the thighs turn both legs into a single controllable unit and make the stacking pressure effective."
+        "answer": "The forearms must penetrate fully under the thighs so your shoulders end up beneath the opponent's hamstrings, not merely under the knees. Shallow control under the knees lets the opponent separate their legs and prevents the stack from consolidating. Deep underhooks under the thighs turn both legs into a single controllable unit and make the stacking pressure effective.",
+        "answer_line": "Shoulders under the hamstrings",
+        "distractors": {
+          "plausible": [
+            "Forearms under the knees",
+            "Just past the knee line"
+          ],
+          "trap": [
+            "Grip pants at the ankle"
+          ]
+        }
       },
       {
         "question": "Since committing both arms removes your ability to post, what keeps your back safe during this entry?",
-        "answer": "Your head position, chest pressure, and wide base replace the missing post. Driving your head into the opponent's chest or near hip blocks their rotation toward your back, dropping chest weight onto the thighs consolidates the stack, and a wide base on the balls of your feet lets you ride a bridge or lateral roll without being turned over. Without these, the committed posture invites back-takes and reversals."
+        "answer": "Your head position, chest pressure, and wide base replace the missing post. Driving your head into the opponent's chest or near hip blocks their rotation toward your back, dropping chest weight onto the thighs consolidates the stack, and a wide base on the balls of your feet lets you ride a bridge or lateral roll without being turned over. Without these, the committed posture invites back-takes and reversals.",
+        "answer_line": "Head, chest, wide base",
+        "distractors": {
+          "plausible": [
+            "Post one hand to balance",
+            "Keep knees together for base"
+          ],
+          "trap": [
+            "Lean back onto your heels"
+          ]
+        }
       },
       {
         "question": "When the opponent inserts a strong knee shield before you complete both underhooks, what is the better adjustment than forcing the symmetric entry?",
-        "answer": "Stop fighting to force both arms in against the established frame and instead commit to the single underhook you already secured, transitioning to a leg-weave or over-under control on the framing side. Chasing both legs against a knee shield only creates space and stalls; redirecting to a one-side pressure control keeps your advantage and avoids resetting to neutral."
+        "answer": "Stop fighting to force both arms in against the established frame and instead commit to the single underhook you already secured, transitioning to a leg-weave or over-under control on the framing side. Chasing both legs against a knee shield only creates space and stalls; redirecting to a one-side pressure control keeps your advantage and avoids resetting to neutral.",
+        "answer_line": "Switch to single-underhook control",
+        "distractors": {
+          "plausible": [
+            "Force the second underhook",
+            "Reset to neutral stance"
+          ],
+          "trap": [
+            "Chase the far leg harder"
+          ]
+        }
       }
     ],
     "safety_considerations": "This entry stacks the opponent's weight onto their head, neck, and upper back, so apply elevation and pressure progressively rather than slamming the hips overhead - sudden or forced stacking can compress the cervical spine. The defender should always have room to roll or tap, and partners must communicate during heavy stacking drills. The passer's committed arms also create scramble and rolling situations, so train on adequate mat space and control the speed of any bridge or roll to protect both practitioners' necks and shoulders.",
@@ -335,15 +385,45 @@
     "flashcards": [
       {
         "question": "What is the single most important moment to recognize when defending the Double Unders entry?",
-        "answer": "The moment the passer clears your feet off their hips and steps forward to close distance to your thighs. This is the alarm that the underhook entry is imminent. Acting in that narrow window - framing on the hip and inserting a knee shield before both arms are under your thighs - is far easier than escaping a fully locked and stacked control after the hands have clasped."
+        "answer": "The moment the passer clears your feet off their hips and steps forward to close distance to your thighs. This is the alarm that the underhook entry is imminent. Acting in that narrow window - framing on the hip and inserting a knee shield before both arms are under your thighs - is far easier than escaping a fully locked and stacked control after the hands have clasped.",
+        "answer_line": "Feet cleared, opponent steps in",
+        "distractors": {
+          "plausible": [
+            "When hands clasp behind back",
+            "When hips get stacked"
+          ],
+          "trap": [
+            "Wait until fully locked up"
+          ]
+        }
       },
       {
         "question": "Why does turning your hips to one side beat accepting a flat stack?",
-        "answer": "A flat, square back lets the passer stack you completely and clasp behind your back to finish the locked control with no escape angle remaining. Turning your hips to one side reduces the stacking pressure on your spine and preserves two escape paths: a deep half entry on the low side and a bridge-and-roll on the high side. Staying angled keeps the position dynamic instead of letting it consolidate."
+        "answer": "A flat, square back lets the passer stack you completely and clasp behind your back to finish the locked control with no escape angle remaining. Turning your hips to one side reduces the stacking pressure on your spine and preserves two escape paths: a deep half entry on the low side and a bridge-and-roll on the high side. Staying angled keeps the position dynamic instead of letting it consolidate.",
+        "answer_line": "Angle hips, don't go flat",
+        "distractors": {
+          "plausible": [
+            "Square hips to block stack",
+            "Turn away completely"
+          ],
+          "trap": [
+            "Stay flat and bridge later"
+          ]
+        }
       },
       {
         "question": "How can the passer's commitment of both arms under your legs be turned against them?",
-        "answer": "Because both of the passer's arms are buried under your legs, they cannot post, which leaves their back and their balance exposed. Before their hands clasp and their head anchors, you can dive your head below their hip line into deep half guard, or bridge sharply toward the open side to tip their unpostable base over and come up on top. Their commitment becomes your reversal opportunity."
+        "answer": "Because both of the passer's arms are buried under your legs, they cannot post, which leaves their back and their balance exposed. Before their hands clasp and their head anchors, you can dive your head below their hip line into deep half guard, or bridge sharply toward the open side to tip their unpostable base over and come up on top. Their commitment becomes your reversal opportunity.",
+        "answer_line": "Dive deep half or bridge",
+        "distractors": {
+          "plausible": [
+            "Wait for hands to clasp",
+            "Push away and reset guard"
+          ],
+          "trap": [
+            "Turn away to give up back"
+          ]
+        }
       }
     ],
     "training_progressions": [

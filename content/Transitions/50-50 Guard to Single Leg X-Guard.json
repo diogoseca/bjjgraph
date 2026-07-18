@@ -241,23 +241,73 @@
     "flashcards": [
       {
         "question": "What is the primary strategic goal of transitioning from 50-50 to Single Leg X-Guard?",
-        "answer": "The primary goal is converting a symmetrical defensive position into an asymmetrical attacking platform. While 50-50 bottom places you at submission risk with limited offensive options, Single Leg X-Guard provides immediate access to high-percentage sweeps, technical stand-ups, and passing opportunities without heel hook danger. You change the category of engagement entirely rather than competing for marginal advantage within the same entanglement."
+        "answer": "The primary goal is converting a symmetrical defensive position into an asymmetrical attacking platform. While 50-50 bottom places you at submission risk with limited offensive options, Single Leg X-Guard provides immediate access to high-percentage sweeps, technical stand-ups, and passing opportunities without heel hook danger. You change the category of engagement entirely rather than competing for marginal advantage within the same entanglement.",
+        "answer_line": "Trade symmetry for attack angles",
+        "distractors": {
+          "plausible": [
+            "Fight for inside position control",
+            "Improve grip before staying put"
+          ],
+          "trap": [
+            "Grind for the 50-50 heel hook"
+          ]
+        }
       },
       {
         "question": "What heel position must be verified before attempting this transition?",
-        "answer": "Your heel must be hidden and defended with your knee rotated inward toward your opposite hip before initiating any transition. The movement temporarily compromises your defensive structure as the leg extraction changes your entanglement geometry. If opponent has any grip access to your heel when you begin, the extraction motion can exacerbate rotational force on your knee, creating immediate submission danger."
+        "answer": "Your heel must be hidden and defended with your knee rotated inward toward your opposite hip before initiating any transition. The movement temporarily compromises your defensive structure as the leg extraction changes your entanglement geometry. If opponent has any grip access to your heel when you begin, the extraction motion can exacerbate rotational force on your knee, creating immediate submission danger.",
+        "answer_line": "Knee rotated in, heel hidden",
+        "distractors": {
+          "plausible": [
+            "Heel hidden, knee rotated outward",
+            "Ankle grip released, knee inward"
+          ],
+          "trap": [
+            "Extract leg before checking heel"
+          ]
+        }
       },
       {
         "question": "What are the essential grips needed throughout the entire transition sequence?",
-        "answer": "Two-handed control on opponent's ankle or Achilles area is essential throughout the entire transition from start to finish. This grip prevents opponent from disengaging during your positional change, provides the control needed to establish Single Leg X-Guard hooks, and serves as your anchor point during the hip escape. Never release both hands simultaneously at any point during the movement."
+        "answer": "Two-handed control on opponent's ankle or Achilles area is essential throughout the entire transition from start to finish. This grip prevents opponent from disengaging during your positional change, provides the control needed to establish Single Leg X-Guard hooks, and serves as your anchor point during the hip escape. Never release both hands simultaneously at any point during the movement.",
+        "answer_line": "Two hands on ankle throughout",
+        "distractors": {
+          "plausible": [
+            "One hand ankle, one hand hip",
+            "Grip ankle only until hooks set"
+          ],
+          "trap": [
+            "Release grip to switch hands"
+          ]
+        }
       },
       {
         "question": "Your opponent drives their hips forward aggressively as you begin extracting your leg - how do you adapt?",
-        "answer": "Use their forward drive to accelerate your transition rather than fighting it. Their forward momentum loads their weight onto your establishing hooks, creating an immediate sweep opportunity. Continue establishing your butterfly hook while using their drive to elevate and off-balance them. The key insight is that their forward commitment helps your cause because their weight is moving toward your hooks."
+        "answer": "Use their forward drive to accelerate your transition rather than fighting it. Their forward momentum loads their weight onto your establishing hooks, creating an immediate sweep opportunity. Continue establishing your butterfly hook while using their drive to elevate and off-balance them. The key insight is that their forward commitment helps your cause because their weight is moving toward your hooks.",
+        "answer_line": "Use their drive to load your hook",
+        "distractors": {
+          "plausible": [
+            "Brace and stall their drive",
+            "Retreat to reset your angle"
+          ],
+          "trap": [
+            "Release ankle grip and backstep"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate this transition?",
-        "answer": "The optimal window occurs when opponent commits to attacking your heel, meaning their focus shifts from position maintenance to submission offense, or when they release hip pressure to adjust their grips or reposition. Both moments create brief windows where their defensive reactions to your positional change are delayed because their attention and physical commitment are directed elsewhere."
+        "answer": "The optimal window occurs when opponent commits to attacking your heel, meaning their focus shifts from position maintenance to submission offense, or when they release hip pressure to adjust their grips or reposition. Both moments create brief windows where their defensive reactions to your positional change are delayed because their attention and physical commitment are directed elsewhere.",
+        "answer_line": "Their heel attack or hip release",
+        "distractors": {
+          "plausible": [
+            "Right after you break their grip",
+            "When you feel their hips flatten"
+          ],
+          "trap": [
+            "Wait for opponent to pass guard"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for establishing hooks during the transition?",
@@ -265,23 +315,73 @@
       },
       {
         "question": "How does the critical hip escape motion function biomechanically in this transition?",
-        "answer": "The hip escape creates lateral displacement that changes the angle between your leg and the 50-50 entanglement. In the static 50-50, your outside leg is locked by the mirror configuration. The lateral hip escape breaks this geometric lock by moving your hips perpendicular to the entanglement axis, allowing your leg to slide free along a path of least resistance rather than pulling directly against the lock."
+        "answer": "The hip escape creates lateral displacement that changes the angle between your leg and the 50-50 entanglement. In the static 50-50, your outside leg is locked by the mirror configuration. The lateral hip escape breaks this geometric lock by moving your hips perpendicular to the entanglement axis, allowing your leg to slide free along a path of least resistance rather than pulling directly against the lock.",
+        "answer_line": "Lateral escape breaks the leg lock",
+        "distractors": {
+          "plausible": [
+            "Straight backward pull frees leg",
+            "Forward drive breaks the lock"
+          ],
+          "trap": [
+            "Yank leg straight through lock"
+          ]
+        }
       },
       {
         "question": "What should you do if opponent begins attacking your heel mid-transition?",
-        "answer": "Immediately abort the transition and return to full heel defense. Pull your extracting leg back into the entanglement, rotate your knee inward to hide the heel, and fight their grips aggressively with both hands. This is the most dangerous scenario and the primary reason timing is critical. Never try to complete the transition through a heel hook attack. Reset and wait for a safer window."
+        "answer": "Immediately abort the transition and return to full heel defense. Pull your extracting leg back into the entanglement, rotate your knee inward to hide the heel, and fight their grips aggressively with both hands. This is the most dangerous scenario and the primary reason timing is critical. Never try to complete the transition through a heel hook attack. Reset and wait for a safer window.",
+        "answer_line": "Abort, retract leg, defend heel",
+        "distractors": {
+          "plausible": [
+            "Push through to finish the hook",
+            "Slow down but keep extracting"
+          ],
+          "trap": [
+            "Continue transition, ignore heel"
+          ]
+        }
       },
       {
         "question": "What follow-up attacks should you chain immediately upon establishing Single Leg X-Guard?",
-        "answer": "Immediate high-percentage options include: technical stand-up to top passing position by rising while maintaining ankle control, elevation sweep by extending hooks to drive opponent backward over their base, single leg takedown by standing with their trapped leg, and leg drag pass by controlling ankle and stepping around their leg. The position is a launching platform for these attacks, not a resting position."
+        "answer": "Immediate high-percentage options include: technical stand-up to top passing position by rising while maintaining ankle control, elevation sweep by extending hooks to drive opponent backward over their base, single leg takedown by standing with their trapped leg, and leg drag pass by controlling ankle and stepping around their leg. The position is a launching platform for these attacks, not a resting position.",
+        "answer_line": "Stand-up, sweep, TD, or leg drag",
+        "distractors": {
+          "plausible": [
+            "Switch back to 50-50 for control",
+            "Wait for opponent to react first"
+          ],
+          "trap": [
+            "Release ankle grip to stand up"
+          ]
+        }
       },
       {
         "question": "Why is this transition preferable to fighting for inside position parity in 50-50?",
-        "answer": "Fighting for inside position in 50-50 against skilled opponents is energy-intensive with uncertain results, as both players have similar mechanical access to the inside position battle. This transition completely changes the positional dynamic by moving to a different guard system. The Single Leg X-Guard removes heel hook danger while creating sweep opportunities that simply do not exist from 50-50 bottom, making it a more efficient use of energy and effort."
+        "answer": "Fighting for inside position in 50-50 against skilled opponents is energy-intensive with uncertain results, as both players have similar mechanical access to the inside position battle. This transition completely changes the positional dynamic by moving to a different guard system. The Single Leg X-Guard removes heel hook danger while creating sweep opportunities that simply do not exist from 50-50 bottom, making it a more efficient use of energy and effort.",
+        "answer_line": "Removes heel risk, adds sweeps",
+        "distractors": {
+          "plausible": [
+            "Wins the inside position battle",
+            "Tires opponent out faster"
+          ],
+          "trap": [
+            "Grind for symmetry, then attack"
+          ]
+        }
       },
       {
         "question": "Your opponent posts both hands on your hips during your hip escape attempt - what grip adjustment enables you to continue?",
-        "answer": "When opponent posts on your hips, their hands are no longer threatening your heel or controlling your ankle, which actually improves your safety. Use one hand to arm drag their posting arm while maintaining ankle control with the other hand, creating off-balance that assists your extraction. Alternatively, reverse your hip escape direction to create angle from the opposite side, exploiting the fact that their posting creates a rigid frame you can move around."
+        "answer": "When opponent posts on your hips, their hands are no longer threatening your heel or controlling your ankle, which actually improves your safety. Use one hand to arm drag their posting arm while maintaining ankle control with the other hand, creating off-balance that assists your extraction. Alternatively, reverse your hip escape direction to create angle from the opposite side, exploiting the fact that their posting creates a rigid frame you can move around.",
+        "answer_line": "Arm drag their post or reverse angle",
+        "distractors": {
+          "plausible": [
+            "Push through their post forcefully",
+            "Switch grip to their far ankle"
+          ],
+          "trap": [
+            "Release ankle grip to arm drag"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves leg entanglement positions where knee injuries are possible if movements are rushed or forced. Practice with controlled speed initially and ensure training partners understand tap signals for any knee discomfort. The 50-50 starting position carries inherent heel hook risk - never attempt this transition if opponent has a strong grip on your heel, as the extraction movement can exacerbate rotational force on your knee. Both practitioners should have clear communication about training intensity. Beginners should only practice this technique under instructor supervision until proper mechanics and timing recognition are established. Always prioritize aborting the transition over completing it if heel safety becomes compromised mid-movement.",
@@ -390,23 +490,73 @@
     "flashcards": [
       {
         "question": "What is the earliest physical cue that your opponent is attempting this transition from 50-50 bottom?",
-        "answer": "The earliest cue is a strong lateral hip escape motion where their hips move sideways rather than remaining flat. This hip escape creates the extraction angle needed for their outside leg to clear the entanglement. You may also feel their grip tighten on your ankle as they establish the anchor needed for the transition. Recognizing this motion within the first second gives you the maximum window to counter effectively."
+        "answer": "The earliest cue is a strong lateral hip escape motion where their hips move sideways rather than remaining flat. This hip escape creates the extraction angle needed for their outside leg to clear the entanglement. You may also feel their grip tighten on your ankle as they establish the anchor needed for the transition. Recognizing this motion within the first second gives you the maximum window to counter effectively.",
+        "answer_line": "Sideways hip escape, grip tightens",
+        "distractors": {
+          "plausible": [
+            "Opponent flattens hips completely",
+            "Opponent releases ankle grip first"
+          ],
+          "trap": [
+            "Opponent relaxes and stalls action"
+          ]
+        }
       },
       {
         "question": "Why does attacking the opponent's heel become more effective during their extraction attempt?",
-        "answer": "During the extraction attempt, opponent must change their leg configuration, which temporarily alters their knee rotation and heel positioning. The hip escape motion that enables extraction simultaneously compromises the defensive knee rotation that hides their heel. Their focus is divided between executing the transition and defending their heel, meaning their defensive reactions are slower and less coordinated than in static 50-50 defense."
+        "answer": "During the extraction attempt, opponent must change their leg configuration, which temporarily alters their knee rotation and heel positioning. The hip escape motion that enables extraction simultaneously compromises the defensive knee rotation that hides their heel. Their focus is divided between executing the transition and defending their heel, meaning their defensive reactions are slower and less coordinated than in static 50-50 defense.",
+        "answer_line": "Divided focus opens their heel",
+        "distractors": {
+          "plausible": [
+            "Their grip strength doubles then",
+            "Their base weakens, easy sweep"
+          ],
+          "trap": [
+            "Wait until they finish transition"
+          ]
+        }
       },
       {
         "question": "Your opponent has already established a butterfly hook behind your knee - is forward pressure still the correct response?",
-        "answer": "No, forward pressure after the butterfly hook is established is counterproductive. Once the hook is in place, your forward momentum loads your weight onto their hook, accelerating their sweep from the developing Single Leg X-Guard. At this point, switch to disengagement by backstepping to extract your leg from the new configuration, or address the hook directly by clearing it before it becomes the foundation of a full Single Leg X-Guard."
+        "answer": "No, forward pressure after the butterfly hook is established is counterproductive. Once the hook is in place, your forward momentum loads your weight onto their hook, accelerating their sweep from the developing Single Leg X-Guard. At this point, switch to disengagement by backstepping to extract your leg from the new configuration, or address the hook directly by clearing it before it becomes the foundation of a full Single Leg X-Guard.",
+        "answer_line": "No—backstep or clear the hook",
+        "distractors": {
+          "plausible": [
+            "Yes, drive forward to flatten",
+            "Push forward, then clear hook"
+          ],
+          "trap": [
+            "Drive forward into their hook"
+          ]
+        }
       },
       {
         "question": "What is your optimal defensive strategy if opponent has broken your heel grip but not yet begun the extraction?",
-        "answer": "Immediately re-establish heel control before they can initiate the hip escape. Without heel threat, they have no reason to delay the transition. Alternatively, drive hips forward aggressively to flatten them and prevent the hip escape motion, then re-establish grips from the improved control position. The grip break is their first prerequisite, so denying progress at this stage prevents the entire sequence."
+        "answer": "Immediately re-establish heel control before they can initiate the hip escape. Without heel threat, they have no reason to delay the transition. Alternatively, drive hips forward aggressively to flatten them and prevent the hip escape motion, then re-establish grips from the improved control position. The grip break is their first prerequisite, so denying progress at this stage prevents the entire sequence.",
+        "answer_line": "Re-grip heel or drive forward",
+        "distractors": {
+          "plausible": [
+            "Wait and see what they do",
+            "Attack submission immediately"
+          ],
+          "trap": [
+            "Let go and reset entirely"
+          ]
+        }
       },
       {
         "question": "How do you decide between forward drive and backstep disengagement when defending this transition?",
-        "answer": "The decision depends on how far the extraction has progressed. If opponent is in early phases (hip escape beginning, leg not yet cleared), forward drive to collapse the space is preferred because it directly prevents the extraction. If opponent has already cleared their outside leg and is establishing hooks, backstep disengagement is better because forward pressure would load your weight onto their developing hooks. The butterfly hook is the decision point: no hook means drive forward, hook established means disengage."
+        "answer": "The decision depends on how far the extraction has progressed. If opponent is in early phases (hip escape beginning, leg not yet cleared), forward drive to collapse the space is preferred because it directly prevents the extraction. If opponent has already cleared their outside leg and is establishing hooks, backstep disengagement is better because forward pressure would load your weight onto their developing hooks. The butterfly hook is the decision point: no hook means drive forward, hook established means disengage.",
+        "answer_line": "No hook: drive; hook: disengage",
+        "distractors": {
+          "plausible": [
+            "Always drive forward regardless",
+            "Always backstep to be safe"
+          ],
+          "trap": [
+            "Drive forward once hook is set"
+          ]
+        }
       }
     ],
     "training_progressions": [

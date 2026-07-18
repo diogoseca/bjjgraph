@@ -222,51 +222,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Granby Roll to Guard?",
-        "answer": "The primary goal is to escape the deteriorating turtle position under Buggy Choke threat and recover to a guard position where you can implement offensive tactics. Rather than fighting a losing grip battle in turtle, the granby provides a complete positional reset that eliminates the submission threat and reestablishes your defensive structure."
+        "answer": "The primary goal is to escape the deteriorating turtle position under Buggy Choke threat and recover to a guard position where you can implement offensive tactics. Rather than fighting a losing grip battle in turtle, the granby provides a complete positional reset that eliminates the submission threat and reestablishes your defensive structure.",
+        "answer_line": "Escape turtle, recover to guard",
+        "distractors": {
+          "plausible": [
+            "Strip the grip, stay in turtle",
+            "Roll through to back control"
+          ],
+          "trap": [
+            "Turtle up tighter and wait"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the Granby Roll?",
-        "answer": "The optimal window is when the opponent's weight commits forward as they reach to secure their second grip or adjust position, and before their body pressure fully consolidates. This moment provides maximum space for rotation while the opponent is temporarily off-balance during their adjustment."
+        "answer": "The optimal window is when the opponent's weight commits forward as they reach to secure their second grip or adjust position, and before their body pressure fully consolidates. This moment provides maximum space for rotation while the opponent is temporarily off-balance during their adjustment.",
+        "answer_line": "As weight shifts for 2nd grip",
+        "distractors": {
+          "plausible": [
+            "The instant contact is made",
+            "After pressure fully settles in"
+          ],
+          "trap": [
+            "Once mount is fully secured"
+          ]
+        }
       },
       {
         "question": "Why must you tuck your chin during the rolling motion?",
-        "answer": "Tucking the chin protects your cervical spine from hyperextension during the inverted roll, prevents the opponent from catching your neck during rotation, and ensures smooth rolling mechanics by allowing the roll to travel diagonally across your upper back rather than compressing your neck vertebrae."
+        "answer": "Tucking the chin protects your cervical spine from hyperextension during the inverted roll, prevents the opponent from catching your neck during rotation, and ensures smooth rolling mechanics by allowing the roll to travel diagonally across your upper back rather than compressing your neck vertebrae.",
+        "answer_line": "Protects neck from hyperextension",
+        "distractors": {
+          "plausible": [
+            "Keeps head hidden from grips",
+            "Helps you see the exit path"
+          ],
+          "trap": [
+            "Look up to spot your landing"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls heavily as you initiate the granby—how do you adjust?",
-        "answer": "Abort the granby attempt and switch to sitting to half guard instead. Use their forward sprawl momentum against them by shooting your hips away and sliding underneath to establish half guard. Their committed forward pressure actually assists this alternative escape once you redirect the movement."
+        "answer": "Abort the granby attempt and switch to sitting to half guard instead. Use their forward sprawl momentum against them by shooting your hips away and sliding underneath to establish half guard. Their committed forward pressure actually assists this alternative escape once you redirect the movement.",
+        "answer_line": "Switch to sitting to half guard",
+        "distractors": {
+          "plausible": [
+            "Power through the granby anyway",
+            "Bridge and buck them off"
+          ],
+          "trap": [
+            "Push into their sprawl for space"
+          ]
+        }
       },
       {
         "question": "What is the most critical action immediately upon completing the roll?",
-        "answer": "Establishing immediate leg contact with the opponent is the most critical action. Get your feet on their hips or close to closed guard before anything else. Without this defensive structure, the opponent will pass your guard immediately and you will have traded one bad position for another."
+        "answer": "Establishing immediate leg contact with the opponent is the most critical action. Get your feet on their hips or close to closed guard before anything else. Without this defensive structure, the opponent will pass your guard immediately and you will have traded one bad position for another.",
+        "answer_line": "Get feet/legs on them immediately",
+        "distractors": {
+          "plausible": [
+            "Grip fight for collar control",
+            "Scramble up to your feet"
+          ],
+          "trap": [
+            "Pause to reset your breathing"
+          ]
+        }
       },
       {
         "question": "Why is the hip extension at the apex of the roll important?",
-        "answer": "The hip extension creates distance between you and the opponent, preventing them from following directly into mount or side control. Without this extension, you complete the roll but remain too close to the opponent, allowing them to immediately consolidate a passing position."
+        "answer": "The hip extension creates distance between you and the opponent, preventing them from following directly into mount or side control. Without this extension, you complete the roll but remain too close to the opponent, allowing them to immediately consolidate a passing position.",
+        "answer_line": "Creates distance to block the pass",
+        "distractors": {
+          "plausible": [
+            "Adds power to the roll itself",
+            "Protects your neck on landing"
+          ],
+          "trap": [
+            "Pull them in tight after roll"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains their collar grip through your granby roll—what guard should you establish?",
-        "answer": "Accept the collar grip and establish closed guard where you can control their posture and work grip strips from a stable position. The collar grip is manageable from closed guard, whereas trying to strip it mid-roll often compromises your escape. Prioritize completing the escape, then address the grip."
+        "answer": "Accept the collar grip and establish closed guard where you can control their posture and work grip strips from a stable position. The collar grip is manageable from closed guard, whereas trying to strip it mid-roll often compromises your escape. Prioritize completing the escape, then address the grip.",
+        "answer_line": "Accept it, settle into closed guard",
+        "distractors": {
+          "plausible": [
+            "Strip the grip mid-roll first",
+            "Switch guard to avoid the grip"
+          ],
+          "trap": [
+            "Abandon the escape to fight grip"
+          ]
+        }
       },
       {
         "question": "What makes partial execution of the granby particularly dangerous?",
-        "answer": "Stopping mid-roll leaves you inverted and vulnerable with your back exposed. The opponent can easily take back control or establish mount while you are stuck in a compromised inverted position. Partial execution combines the vulnerability of the roll with none of the escape benefits, making it worse than not attempting at all."
+        "answer": "Stopping mid-roll leaves you inverted and vulnerable with your back exposed. The opponent can easily take back control or establish mount while you are stuck in a compromised inverted position. Partial execution combines the vulnerability of the roll with none of the escape benefits, making it worse than not attempting at all.",
+        "answer_line": "Leaves you inverted, back exposed",
+        "distractors": {
+          "plausible": [
+            "Costs you extra energy only",
+            "Makes the choke tighter"
+          ],
+          "trap": [
+            "Still better than staying put"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip to block the roll initiation—what grip adjustment enables the escape?",
-        "answer": "Strip the posting hand with your near-side arm by cupping their wrist and peeling it off your hip toward the mat. Simultaneously begin the hip bump to create space. If you cannot strip the grip, use it as a pivot point by rolling toward their posting arm rather than away from it, converting their block into an anchor for a reverse granby variation that catches them off guard."
+        "answer": "Strip the posting hand with your near-side arm by cupping their wrist and peeling it off your hip toward the mat. Simultaneously begin the hip bump to create space. If you cannot strip the grip, use it as a pivot point by rolling toward their posting arm rather than away from it, converting their block into an anchor for a reverse granby variation that catches them off guard.",
+        "answer_line": "Strip the post, hip bump through",
+        "distractors": {
+          "plausible": [
+            "Push past the post with force",
+            "Wait for the grip to release"
+          ],
+          "trap": [
+            "Retreat back into deep turtle"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that generates the rotational momentum for the granby?",
-        "answer": "The initial hip bump backward combined with the knee drive creates the angular momentum needed for the roll. Your hips must shift away from the opponent first to create space, then the drive off the knees converts linear energy into rotational momentum as you tuck and roll over the posted shoulder. Without the preliminary hip bump, the roll lacks sufficient momentum to clear the opponent's control and complete the inversion."
+        "answer": "The initial hip bump backward combined with the knee drive creates the angular momentum needed for the roll. Your hips must shift away from the opponent first to create space, then the drive off the knees converts linear energy into rotational momentum as you tuck and roll over the posted shoulder. Without the preliminary hip bump, the roll lacks sufficient momentum to clear the opponent's control and complete the inversion.",
+        "answer_line": "Hip bump back, then knee drive",
+        "distractors": {
+          "plausible": [
+            "Explosive bridge into the roll",
+            "Shoulder shrug starts rotation"
+          ],
+          "trap": [
+            "Pull head down first, then hips"
+          ]
+        }
       },
       {
         "question": "If the granby is blocked and you cannot roll, what chain attack should you pursue?",
-        "answer": "Immediately transition to a sit-out escape by planting your far hand and swinging your near leg through to face the opponent. If the sit-out is also blocked, reverse direction into a Peterson roll by threading your arm through to secure an underhook and rolling back toward the opponent. The key is never remaining static after a failed attempt—each blocked escape should flow directly into the next option in your turtle defense chain."
+        "answer": "Immediately transition to a sit-out escape by planting your far hand and swinging your near leg through to face the opponent. If the sit-out is also blocked, reverse direction into a Peterson roll by threading your arm through to secure an underhook and rolling back toward the opponent. The key is never remaining static after a failed attempt—each blocked escape should flow directly into the next option in your turtle defense chain.",
+        "answer_line": "Sit-out, then Peterson roll",
+        "distractors": {
+          "plausible": [
+            "Repeat the granby harder",
+            "Switch to standing base up"
+          ],
+          "trap": [
+            "Freeze and reassess grips"
+          ]
+        }
       },
       {
         "question": "What grip on the opponent do you need to establish before initiating the granby from Buggy Choke bottom?",
-        "answer": "No offensive grip is required to initiate the granby—this is a grip-free escape that relies on timing and momentum rather than control. However, you must address the opponent's choking grip by either stripping it with your near hand or accepting it will follow you. The critical pre-roll action is reducing their hip control, not establishing your own grips. This grip-independence is what makes the granby viable even when your arms are compromised by the choke setup."
+        "answer": "No offensive grip is required to initiate the granby—this is a grip-free escape that relies on timing and momentum rather than control. However, you must address the opponent's choking grip by either stripping it with your near hand or accepting it will follow you. The critical pre-roll action is reducing their hip control, not establishing your own grips. This grip-independence is what makes the granby viable even when your arms are compromised by the choke setup.",
+        "answer_line": "None — grip-free, timing based",
+        "distractors": {
+          "plausible": [
+            "Secure a same-side underhook",
+            "Grab their far ankle first"
+          ],
+          "trap": [
+            "Fight to break both their grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice the granby roll movement pattern extensively before applying it against resistance. The inverted rolling motion places stress on the cervical spine if performed incorrectly—always maintain a tucked chin and roll diagonally across the shoulder blade rather than over the top of the head. Start with soft mats and gradually increase drilling intensity. Avoid this technique if you have neck injuries or cervical spine issues. When drilling with partners, communicate clearly about intensity levels and establish tap signals for any neck discomfort during training. The roll should feel smooth and controlled; any grinding or pressure on the neck indicates incorrect mechanics.",
@@ -384,23 +504,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a Granby Roll?",
-        "answer": "The earliest cue is the bottom player driving their hips backward to create a small gap between their body and your chest pressure. This space creation is the prerequisite for every granby attempt because without that gap, there is no room for the shoulder to rotate. Feeling this hip shift through proprioception allows you to react with forward pressure before the roll even begins."
+        "answer": "The earliest cue is the bottom player driving their hips backward to create a small gap between their body and your chest pressure. This space creation is the prerequisite for every granby attempt because without that gap, there is no room for the shoulder to rotate. Feeling this hip shift through proprioception allows you to react with forward pressure before the roll even begins.",
+        "answer_line": "Hips drive back, creating a gap",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of forward pressure",
+            "Hand posts flat on the mat"
+          ],
+          "trap": [
+            "Opponent's breathing slows down"
+          ]
+        }
       },
       {
         "question": "Your opponent has already begun the granby roll and is past the halfway point—what is your best defensive response?",
-        "answer": "Stop trying to prevent the roll and immediately switch to following it. Maintain chest-to-back connection as they rotate, hook their near leg with your leg, and establish a seatbelt grip as they complete the inversion. Your goal shifts from maintaining Buggy Choke to converting to back control. Fighting a roll with full momentum wastes energy and costs you the connection needed for the back take."
+        "answer": "Stop trying to prevent the roll and immediately switch to following it. Maintain chest-to-back connection as they rotate, hook their near leg with your leg, and establish a seatbelt grip as they complete the inversion. Your goal shifts from maintaining Buggy Choke to converting to back control. Fighting a roll with full momentum wastes energy and costs you the connection needed for the back take.",
+        "answer_line": "Follow the roll to the back",
+        "distractors": {
+          "plausible": [
+            "Sprawl harder to stop rotation",
+            "Chase the choke grip instead"
+          ],
+          "trap": [
+            "Dive for a heavy crossface"
+          ]
+        }
       },
       {
         "question": "Why is blocking the far-side posting arm an effective preventive defense against the Granby Roll?",
-        "answer": "The posted arm establishes the pivot point that enables the diagonal shoulder roll. Without this pivot, the bottom player cannot generate the proper rotational arc and the roll either stalls completely or forces them onto their head, which they will avoid. By pinning or trapping the posting arm before it reaches the mat, you eliminate the mechanical foundation of the entire escape."
+        "answer": "The posted arm establishes the pivot point that enables the diagonal shoulder roll. Without this pivot, the bottom player cannot generate the proper rotational arc and the roll either stalls completely or forces them onto their head, which they will avoid. By pinning or trapping the posting arm before it reaches the mat, you eliminate the mechanical foundation of the entire escape.",
+        "answer_line": "Removes the roll's pivot point",
+        "distractors": {
+          "plausible": [
+            "Weakens their overall base",
+            "Blocks their view of space"
+          ],
+          "trap": [
+            "Frees up their hips to bump"
+          ]
+        }
       },
       {
         "question": "How should your weight distribution change when defending against the granby versus maintaining the Buggy Choke attack?",
-        "answer": "During active Buggy Choke attack, weight is distributed between chest pressure and hip control in roughly equal measure. When defending the granby, shift more weight forward onto their shoulders and upper back to counter the backward hip bump that initiates the escape. Keep your hips low but drive your chest diagonally downward toward their far shoulder, creating a pinning vector that opposes the rotational direction of the granby."
+        "answer": "During active Buggy Choke attack, weight is distributed between chest pressure and hip control in roughly equal measure. When defending the granby, shift more weight forward onto their shoulders and upper back to counter the backward hip bump that initiates the escape. Keep your hips low but drive your chest diagonally downward toward their far shoulder, creating a pinning vector that opposes the rotational direction of the granby.",
+        "answer_line": "Drive chest toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Sink all weight onto their hips",
+            "Flatten out across their back"
+          ],
+          "trap": [
+            "Lighten pressure to stay mobile"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully completes the granby roll and lands facing you—what is your immediate priority?",
-        "answer": "Immediately address their legs before they can close guard or establish foot-on-hip frames. Drive forward with your hips while controlling their knees or ankles to prevent guard closure. If you cannot prevent guard establishment within the first two seconds, accept the guard position and begin working your guard passing sequence rather than scrambling wildly. The critical error is hesitating in no-man's-land where they can lock closed guard while you have no base."
+        "answer": "Immediately address their legs before they can close guard or establish foot-on-hip frames. Drive forward with your hips while controlling their knees or ankles to prevent guard closure. If you cannot prevent guard establishment within the first two seconds, accept the guard position and begin working your guard passing sequence rather than scrambling wildly. The critical error is hesitating in no-man's-land where they can lock closed guard while you have no base.",
+        "answer_line": "Attack legs before guard closes",
+        "distractors": {
+          "plausible": [
+            "Grip fight for the collar first",
+            "Circle to their back quickly"
+          ],
+          "trap": [
+            "Back away to create distance"
+          ]
+        }
       }
     ],
     "training_progressions": [

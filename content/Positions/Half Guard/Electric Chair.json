@@ -94,35 +94,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts extending their hips to increase the Electric Chair pressure - what immediate adjustment do you make?",
-        "answer": "Drive your chest weight forward onto opponent while simultaneously relaxing your trapped leg (limp leg). This prevents them from achieving the perpendicular angle needed for maximum submission pressure. Use your free leg to push their hips flat to the mat, reducing their extension leverage."
+        "answer": "Drive your chest weight forward onto opponent while simultaneously relaxing your trapped leg (limp leg). This prevents them from achieving the perpendicular angle needed for maximum submission pressure. Use your free leg to push their hips flat to the mat, reducing their extension leverage.",
+        "answer_line": "Chest forward, relax trapped leg",
+        "distractors": {
+          "plausible": [
+            "Posture up to relieve pressure",
+            "Base out with free leg only"
+          ],
+          "trap": [
+            "Post hands behind for base"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and controls for maintaining defensive posture in Electric Chair Top?",
-        "answer": "Prioritize crossface control with your nearside arm to prevent opponent from achieving optimal angle. Use your farside arm to control their underhook or establish a whizzer. Your free leg must post wide for base while your head drives into their shoulder on the crossface side."
+        "answer": "Prioritize crossface control with your nearside arm to prevent opponent from achieving optimal angle. Use your farside arm to control their underhook or establish a whizzer. Your free leg must post wide for base while your head drives into their shoulder on the crossface side.",
+        "answer_line": "Crossface + whizzer, wide base",
+        "distractors": {
+          "plausible": [
+            "Underhook both sides tightly",
+            "Flatten hips before gripping"
+          ],
+          "trap": [
+            "Post hands back for balance"
+          ]
+        }
       },
       {
         "question": "How do you shut down the Old School sweep attempt from this position?",
-        "answer": "When opponent begins rolling backward for the Old School, immediately establish a deep whizzer on their underhooking arm and sprawl your hips away. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents them from completing the roll and can be used to counter to side control."
+        "answer": "When opponent begins rolling backward for the Old School, immediately establish a deep whizzer on their underhooking arm and sprawl your hips away. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents them from completing the roll and can be used to counter to side control.",
+        "answer_line": "Whizzer + sprawl hips away",
+        "distractors": {
+          "plausible": [
+            "Post free leg wide only",
+            "Push their head down flat"
+          ],
+          "trap": [
+            "Let them roll then base out"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for breaking the lockdown?",
-        "answer": "First, establish forward pressure to limit opponent's angle. Second, address the foot triangle by using your free hand to separate their feet or knee pressure to open the triangle. Third, relax your trapped leg (limp leg) to reduce the grip. Finally, extract your leg by driving your knee toward opponent's hip while maintaining upper body control."
+        "answer": "First, establish forward pressure to limit opponent's angle. Second, address the foot triangle by using your free hand to separate their feet or knee pressure to open the triangle. Third, relax your trapped leg (limp leg) to reduce the grip. Finally, extract your leg by driving your knee toward opponent's hip while maintaining upper body control.",
+        "answer_line": "Pressure, unlock feet, then extract",
+        "distractors": {
+          "plausible": [
+            "Extract leg before base pressure",
+            "Break lockdown before feet"
+          ],
+          "trap": [
+            "Yank leg out explosively first"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to minimize sweep and submission threats?",
-        "answer": "Keep approximately 70% of your weight forward on your chest and shoulder pressure against opponent. Never lean back or post hands behind you. Your free leg should be posted wide at a 45-degree angle for maximum base. Hips should stay as low as possible while driving forward."
+        "answer": "Keep approximately 70% of your weight forward on your chest and shoulder pressure against opponent. Never lean back or post hands behind you. Your free leg should be posted wide at a 45-degree angle for maximum base. Hips should stay as low as possible while driving forward.",
+        "answer_line": "70% weight forward, hips low",
+        "distractors": {
+          "plausible": [
+            "50/50 weight, leg wide",
+            "Weight back, base with arms"
+          ],
+          "trap": [
+            "Post hands behind for base"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly releases lockdown pressure to transition - what do you do?",
-        "answer": "Immediately extract your trapped leg by driving your knee toward their hip. Transition directly to passing by establishing knee slice position or smash pass posture before they can re-engage the lockdown. Do not hesitate - any delay allows them to reestablish control or transition to another guard."
+        "answer": "Immediately extract your trapped leg by driving your knee toward their hip. Transition directly to passing by establishing knee slice position or smash pass posture before they can re-engage the lockdown. Do not hesitate - any delay allows them to reestablish control or transition to another guard.",
+        "answer_line": "Extract knee, pass immediately",
+        "distractors": {
+          "plausible": [
+            "Wait to see their next move",
+            "Reset base before advancing"
+          ],
+          "trap": [
+            "Retreat to guard recovery"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when stuck in the Electric Chair position?",
-        "answer": "Avoid explosive escape attempts that drain energy quickly. Work methodically through the lockdown break sequence, making small adjustments rather than large movements. Use breathing control to stay relaxed. Let opponent expend energy attacking while you maintain defensive posture and wait for the right moment to escape."
+        "answer": "Avoid explosive escape attempts that drain energy quickly. Work methodically through the lockdown break sequence, making small adjustments rather than large movements. Use breathing control to stay relaxed. Let opponent expend energy attacking while you maintain defensive posture and wait for the right moment to escape.",
+        "answer_line": "Small adjustments, stay patient",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts to break free",
+            "Match their pace constantly"
+          ],
+          "trap": [
+            "Muscle out with grip strength"
+          ]
+        }
       },
       {
         "question": "After partially escaping the lockdown but before fully passing, your opponent regrips - how do you recover?",
-        "answer": "Immediately re-establish crossface pressure and wide base. If they've secured a new lockdown, restart the break sequence from the beginning. If they're transitioning to another guard, use the moment of transition to advance your position before their new guard is established. Never allow them to settle into a new controlling position."
+        "answer": "Immediately re-establish crossface pressure and wide base. If they've secured a new lockdown, restart the break sequence from the beginning. If they're transitioning to another guard, use the moment of transition to advance your position before their new guard is established. Never allow them to settle into a new controlling position.",
+        "answer_line": "Reset crossface, restart break",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully settle",
+            "Retreat to neutral position"
+          ],
+          "trap": [
+            "Relax and reassess passively"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -406,35 +486,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts driving their weight forward to flatten you - what adjustment do you make to maintain the Electric Chair?",
-        "answer": "Use the underhook to pull yourself toward their far hip while simultaneously extending the lockdown to prevent them from settling their weight. Angle your hips further perpendicular to create more splitting pressure. If they commit too far forward, immediately transition to the Old School sweep using their momentum."
+        "answer": "Use the underhook to pull yourself toward their far hip while simultaneously extending the lockdown to prevent them from settling their weight. Angle your hips further perpendicular to create more splitting pressure. If they commit too far forward, immediately transition to the Old School sweep using their momentum.",
+        "answer_line": "Underhook pull, angle perpendicular",
+        "distractors": {
+          "plausible": [
+            "Release lockdown to reset angle",
+            "Flatten hips to match them"
+          ],
+          "trap": [
+            "Let them settle then retry"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Electric Chair Bottom?",
-        "answer": "Three primary controls: 1) Lockdown leg configuration trapping opponent's near leg with heel on thigh and figure-four behind their calf, 2) Deep underhook reaching across opponent's back to their far lat or belt, 3) Far hand controlling opponent's near ankle, pulling it toward your hip. All three must work in coordination."
+        "answer": "Three primary controls: 1) Lockdown leg configuration trapping opponent's near leg with heel on thigh and figure-four behind their calf, 2) Deep underhook reaching across opponent's back to their far lat or belt, 3) Far hand controlling opponent's near ankle, pulling it toward your hip. All three must work in coordination.",
+        "answer_line": "Lockdown, underhook, ankle control",
+        "distractors": {
+          "plausible": [
+            "Lockdown plus double underhook",
+            "Ankle control without underhook"
+          ],
+          "trap": [
+            "Grab their far leg instead"
+          ]
+        }
       },
       {
         "question": "How do you shut down your opponent's primary lockdown escape attempt?",
-        "answer": "When opponent tries to extract their leg by driving knee toward your hip, increase lockdown tension by pulling your heel down harder and extending your hips. Simultaneously pull with the underhook to prevent them from creating space. If they persist, immediately transition to Truck entry as their leg extraction motion exposes the crab ride hook position."
+        "answer": "When opponent tries to extract their leg by driving knee toward your hip, increase lockdown tension by pulling your heel down harder and extending your hips. Simultaneously pull with the underhook to prevent them from creating space. If they persist, immediately transition to Truck entry as their leg extraction motion exposes the crab ride hook position.",
+        "answer_line": "Heel down, pull, transition Truck",
+        "distractors": {
+          "plausible": [
+            "Release lockdown to reset grip",
+            "Chase the leg with your hands"
+          ],
+          "trap": [
+            "Let leg go, reset position"
+          ]
+        }
       },
       {
         "question": "What is the correct grip sequence when establishing the Electric Chair from lockdown?",
-        "answer": "First establish tight lockdown with proper heel and instep positioning. Second, secure deep underhook reaching to opponent's far lat before they can establish crossface. Third, once underhook is secure, release near hand to control opponent's ankle. Never sacrifice lockdown tension for grip changes."
+        "answer": "First establish tight lockdown with proper heel and instep positioning. Second, secure deep underhook reaching to opponent's far lat before they can establish crossface. Third, once underhook is secure, release near hand to control opponent's ankle. Never sacrifice lockdown tension for grip changes.",
+        "answer_line": "Lockdown first, then underhook",
+        "distractors": {
+          "plausible": [
+            "Ankle control before underhook",
+            "Crossface before lockdown"
+          ],
+          "trap": [
+            "Release lockdown for grips"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure to maximize both sweep and submission threat?",
-        "answer": "Extend your lockdown while pulling opponent's ankle toward your hip, creating a splitting action through their groin and hip. Pull with underhook to stretch their upper body in opposite direction. This creates a dilemma: if they resist the stretch, they become light for the sweep; if they base to prevent sweep, they take more submission pressure."
+        "answer": "Extend your lockdown while pulling opponent's ankle toward your hip, creating a splitting action through their groin and hip. Pull with underhook to stretch their upper body in opposite direction. This creates a dilemma: if they resist the stretch, they become light for the sweep; if they base to prevent sweep, they take more submission pressure.",
+        "answer_line": "Split legs, stretch upper body",
+        "distractors": {
+          "plausible": [
+            "Pull ankle only, ignore upper body",
+            "Push their hips flat instead"
+          ],
+          "trap": [
+            "Release ankle to control head"
+          ]
+        }
       },
       {
         "question": "Your opponent postures up to relieve the pressure - what do you do?",
-        "answer": "Their posturing increases effectiveness of the Electric Chair submission. Immediately extend your hips powerfully while pulling the ankle to maximize the split. If they posture high enough, the submission becomes available. If they try to drop back down, use the momentum shift to hit the Old School sweep."
+        "answer": "Their posturing increases effectiveness of the Electric Chair submission. Immediately extend your hips powerfully while pulling the ankle to maximize the split. If they posture high enough, the submission becomes available. If they try to drop back down, use the momentum shift to hit the Old School sweep.",
+        "answer_line": "Extend hips, maximize the split",
+        "distractors": {
+          "plausible": [
+            "Ease pressure, let them settle",
+            "Chase posture with grips only"
+          ],
+          "trap": [
+            "Sit up to match their posture"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when maintaining Electric Chair against a defensive opponent?",
-        "answer": "Apply consistent but not maximal pressure through lockdown and underhook. Use opponent's resistance against them by timing sweep attempts with their defensive movements. Rest between attacking cycles by maintaining position without full extension. Force opponent to carry your weight through the underhook."
+        "answer": "Apply consistent but not maximal pressure through lockdown and underhook. Use opponent's resistance against them by timing sweep attempts with their defensive movements. Rest between attacking cycles by maintaining position without full extension. Force opponent to carry your weight through the underhook.",
+        "answer_line": "Steady pressure, time the sweep",
+        "distractors": {
+          "plausible": [
+            "Max pressure at all times",
+            "Rest fully, ignore underhook"
+          ],
+          "trap": [
+            "Attack constantly at full extension"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes the lockdown but you still have the underhook - how do you recover or transition?",
-        "answer": "If lockdown is compromised but underhook remains, immediately transition to Deep Half Guard by diving underneath opponent toward their far hip. Alternatively, if they've created space, use the underhook to sit up toward Dogfight position. Never try to re-engage a broken lockdown against a moving opponent - flow to the next available position."
+        "answer": "If lockdown is compromised but underhook remains, immediately transition to Deep Half Guard by diving underneath opponent toward their far hip. Alternatively, if they've created space, use the underhook to sit up toward Dogfight position. Never try to re-engage a broken lockdown against a moving opponent - flow to the next available position.",
+        "answer_line": "Flow to Deep Half via underhook",
+        "distractors": {
+          "plausible": [
+            "Re-lock the same lockdown",
+            "Chase their leg to reset"
+          ],
+          "trap": [
+            "Fight to restore lost lockdown"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -669,35 +829,115 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines the Electric Chair position?",
-      "answer": "The Electric Chair is built on the lockdown, a figure-four leg entanglement in which the bottom player traps one of the top player's legs by wrapping their own legs around it, hooking the instep behind the calf and pulling the heel down on the thigh to stretch the leg long. On top of that lockdown, the top player's near ankle or foot is controlled and drawn across the bottom player's centerline, trapping the leg in a splayed, splitting orientation rather than a simple knee-pin. The distinguishing feature versus a plain lockdown is that the trapped leg is being actively abducted and stretched away from the top player's other leg, opening the hips and loading the groin and hip flexor. This active leg stretch, not just the figure-four hold, is what converts the configuration into an attacking platform."
+      "answer": "The Electric Chair is built on the lockdown, a figure-four leg entanglement in which the bottom player traps one of the top player's legs by wrapping their own legs around it, hooking the instep behind the calf and pulling the heel down on the thigh to stretch the leg long. On top of that lockdown, the top player's near ankle or foot is controlled and drawn across the bottom player's centerline, trapping the leg in a splayed, splitting orientation rather than a simple knee-pin. The distinguishing feature versus a plain lockdown is that the trapped leg is being actively abducted and stretched away from the top player's other leg, opening the hips and loading the groin and hip flexor. This active leg stretch, not just the figure-four hold, is what converts the configuration into an attacking platform.",
+      "answer_line": "Lockdown + ankle pulled across",
+      "distractors": {
+        "plausible": [
+          "Simple knee-pin lockdown only",
+          "Both legs trapped symmetrically"
+        ],
+        "trap": [
+          "Trapped leg kept bent and loose"
+        ]
+      }
     },
     {
       "question": "Where does the splitting pressure that names the position actually get applied?",
-      "answer": "The pressure concentrates at the adductor, groin, and hip flexor of the trapped leg, with secondary load on the medial knee and hip joint. The lockdown stretches the leg long while the controlled ankle is pulled across and away from the body's midline, abducting the femur past its comfortable range. Because the top player's other leg is based elsewhere, the two legs are being forced apart like a splitting wedge, which is why the finish is also called the banana split. The trapped knee experiences torque as a byproduct, but the primary threat is the crotch-splitting hip and groin stretch rather than a rotational knee attack."
+      "answer": "The pressure concentrates at the adductor, groin, and hip flexor of the trapped leg, with secondary load on the medial knee and hip joint. The lockdown stretches the leg long while the controlled ankle is pulled across and away from the body's midline, abducting the femur past its comfortable range. Because the top player's other leg is based elsewhere, the two legs are being forced apart like a splitting wedge, which is why the finish is also called the banana split. The trapped knee experiences torque as a byproduct, but the primary threat is the crotch-splitting hip and groin stretch rather than a rotational knee attack.",
+      "answer_line": "Groin, adductor, hip flexor",
+      "distractors": {
+        "plausible": [
+          "Primarily the knee joint",
+          "Lower back and spine"
+        ],
+        "trap": [
+          "Ankle and foot joint"
+        ]
+      }
     },
     {
       "question": "Why does the underhook function as a load-bearing structural anchor in this position?",
-      "answer": "The bottom player's deep underhook, reaching across the top player's back toward the far lat or belt, is what lets the leg stretch translate into a whole-body dilemma rather than a leg the top player can simply pull out. By anchoring the upper body, the underhook keeps the top player from posturing up or circling away, so the hips stay committed over the trapped leg. It also creates the counter-tension: the upper body is pulled one direction while the lower-body split drives the other, elongating the top player across their own base. Without that upper-body connection the position degrades into a loose lockdown with no splitting leverage."
+      "answer": "The bottom player's deep underhook, reaching across the top player's back toward the far lat or belt, is what lets the leg stretch translate into a whole-body dilemma rather than a leg the top player can simply pull out. By anchoring the upper body, the underhook keeps the top player from posturing up or circling away, so the hips stay committed over the trapped leg. It also creates the counter-tension: the upper body is pulled one direction while the lower-body split drives the other, elongating the top player across their own base. Without that upper-body connection the position degrades into a loose lockdown with no splitting leverage.",
+      "answer_line": "Locks torso, builds counter-tension",
+      "distractors": {
+        "plausible": [
+          "Just controls their far arm",
+          "Prevents them from sitting up only"
+        ],
+        "trap": [
+          "Secondary grip, easily released"
+        ]
+      }
     },
     {
       "question": "How does the angle between the two players' hips amplify the splitting mechanism?",
-      "answer": "The bottom player angles their hips to roughly 45 degrees relative to the top player rather than lying square underneath them. This off-square orientation lines the lockdown's stretching vector up against the abduction axis of the trapped leg, so hip extension by the bottom player translates efficiently into a split. Squaring back up collapses the angle and bleeds off the leverage, while over-rotating loosens the lockdown's grip on the leg. The shared dynamic is that pressure scales with how well the bottom player can hold that angle, which is why both players fight over it throughout the exchange."
+      "answer": "The bottom player angles their hips to roughly 45 degrees relative to the top player rather than lying square underneath them. This off-square orientation lines the lockdown's stretching vector up against the abduction axis of the trapped leg, so hip extension by the bottom player translates efficiently into a split. Squaring back up collapses the angle and bleeds off the leverage, while over-rotating loosens the lockdown's grip on the leg. The shared dynamic is that pressure scales with how well the bottom player can hold that angle, which is why both players fight over it throughout the exchange.",
+      "answer_line": "Angle hips 45 degrees to opponent",
+      "distractors": {
+        "plausible": [
+          "Stay squared underneath them",
+          "Rotate fully perpendicular"
+        ],
+        "trap": [
+          "Flatten hips flush to the mat"
+        ]
+      }
     },
     {
       "question": "What makes the Electric Chair a dual sweep-and-submission threat rather than a single attack?",
-      "answer": "The same lockdown extension and underhook connection that load the split also break the top player's base to one side, so committing to defend either threat opens the other. If the top player postures up and bases to stop being swept, they feed the hip extension and angle that finish the split; if they drop their weight forward and stay low to relieve the groin stretch, they go light on their base and become vulnerable to the Old School sweep. This is the structural no-win dilemma at the heart of the position. Because a single set of controls powers both outcomes, the top player cannot fully neutralize one threat without conceding the other."
+      "answer": "The same lockdown extension and underhook connection that load the split also break the top player's base to one side, so committing to defend either threat opens the other. If the top player postures up and bases to stop being swept, they feed the hip extension and angle that finish the split; if they drop their weight forward and stay low to relieve the groin stretch, they go light on their base and become vulnerable to the Old School sweep. This is the structural no-win dilemma at the heart of the position. Because a single set of controls powers both outcomes, the top player cannot fully neutralize one threat without conceding the other.",
+      "answer_line": "Defending one feeds the other",
+      "distractors": {
+        "plausible": [
+          "Posturing up defuses both threats",
+          "Dropping weight defuses both"
+        ],
+        "trap": [
+          "Split the difference, stay still"
+        ]
+      }
     },
     {
       "question": "How does the top player's trapped-leg rigidity govern how much pressure the position generates?",
-      "answer": "A stiff, fully extended trapped leg feeds the mechanism, because a straight lever stretches easily and gives the lockdown a long, rigid limb to split. Softening the leg, the limp leg concept, bends the knee and relaxes the adductor so there is less rigid structure for the stretch to act on and the leg becomes easier to shorten and extract. The bottom player therefore works to keep the leg long and loaded while the top player works to make it soft and short. This shared tug over the trapped leg's rigidity is a defining dynamic of the configuration and a direct determinant of finishing pressure."
+      "answer": "A stiff, fully extended trapped leg feeds the mechanism, because a straight lever stretches easily and gives the lockdown a long, rigid limb to split. Softening the leg, the limp leg concept, bends the knee and relaxes the adductor so there is less rigid structure for the stretch to act on and the leg becomes easier to shorten and extract. The bottom player therefore works to keep the leg long and loaded while the top player works to make it soft and short. This shared tug over the trapped leg's rigidity is a defining dynamic of the configuration and a direct determinant of finishing pressure.",
+      "answer_line": "Stiff leg feeds it, limp leg escapes",
+      "distractors": {
+        "plausible": [
+          "Bent leg increases the stretch",
+          "Rigidity doesn't affect pressure"
+        ],
+        "trap": [
+          "Straighten leg hard to escape"
+        ]
+      }
     },
     {
       "question": "How does the Electric Chair differ from the lockdown and Old School positions it grows out of?",
-      "answer": "The plain lockdown is a defensive holding configuration: the figure-four traps a leg to prevent the pass and stall, with no active leg stretch or ankle control. The Electric Chair adds the far-side underhook plus control of the top player's near ankle drawn across the midline, converting that static hold into an active hip-abduction stretch and sweep engine. Old School, by contrast, is the sweeping action itself, driving the underhook and rolling the top player over the stretched base, whereas the Electric Chair is the loaded, dilemma-creating platform those attacks fire from. Compared with adjacent half-guard entries like Deep Half, the Electric Chair keeps the upper bodies connected and the leg splayed rather than diving beneath the opponent's center of gravity."
+      "answer": "The plain lockdown is a defensive holding configuration: the figure-four traps a leg to prevent the pass and stall, with no active leg stretch or ankle control. The Electric Chair adds the far-side underhook plus control of the top player's near ankle drawn across the midline, converting that static hold into an active hip-abduction stretch and sweep engine. Old School, by contrast, is the sweeping action itself, driving the underhook and rolling the top player over the stretched base, whereas the Electric Chair is the loaded, dilemma-creating platform those attacks fire from. Compared with adjacent half-guard entries like Deep Half, the Electric Chair keeps the upper bodies connected and the leg splayed rather than diving beneath the opponent's center of gravity.",
+      "answer_line": "Adds underhook+ankle to static hold",
+      "distractors": {
+        "plausible": [
+          "Same as plain lockdown hold",
+          "Same action as Old School sweep"
+        ],
+        "trap": [
+          "Dive under like Deep Half instead"
+        ]
+      }
     },
     {
       "question": "Why is there no safe posture range for the top player caught in a loaded Electric Chair?",
-      "answer": "Heavy forward weight and high posture each defuse one threat while arming the other, so the top player is squeezed into a narrow middle band. Driving weight forward flattens the bottom player and closes the angle to relieve some groin stretch, but it loads the underhook and shifts the top player's mass toward the bottom player's spine, which is exactly the alignment that powers the Old School sweep. Posturing high instead unloads the underhook but feeds the hip extension and split. Because both extremes are punished by different threats, the top player has no static posture that is safe, and the bottom player attacks whichever extreme they drift toward."
+      "answer": "Heavy forward weight and high posture each defuse one threat while arming the other, so the top player is squeezed into a narrow middle band. Driving weight forward flattens the bottom player and closes the angle to relieve some groin stretch, but it loads the underhook and shifts the top player's mass toward the bottom player's spine, which is exactly the alignment that powers the Old School sweep. Posturing high instead unloads the underhook but feeds the hip extension and split. Because both extremes are punished by different threats, the top player has no static posture that is safe, and the bottom player attacks whichever extreme they drift toward.",
+      "answer_line": "No safe extreme, only a middle band",
+      "distractors": {
+        "plausible": [
+          "Forward posture is always safest",
+          "High posture is always safest"
+        ],
+        "trap": [
+          "Post hands back to find balance"
+        ]
+      }
     }
   ],
   "clips": [

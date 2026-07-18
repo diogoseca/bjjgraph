@@ -333,62 +333,182 @@
       {
         "question": "What is the minimum application time for Reverse Kimura in training and why is this submission particularly dangerous?",
         "answer": "Minimum 4-6 seconds with progressive pressure and constant communication. The Reverse Kimura is particularly dangerous because the reversed grip angle can cause the submission to complete more suddenly than standard Kimura, potentially injuring the opponent before they can tap. The internal rotation of the shoulder happens rapidly once the joint reaches its limit, creating high injury risk if applied too quickly. Always stop well before the finish point in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "4-6 sec, progressive pressure",
+        "distractors": {
+          "plausible": [
+            "Same speed as standard Kimura",
+            "10+ seconds, slow buildup"
+          ],
+          "trap": [
+            "Snap it fast before they defend"
+          ]
+        }
       },
       {
         "question": "How does the grip configuration differ between standard Kimura and Reverse Kimura, and what mechanical advantage does this provide?",
         "answer": "In standard Kimura, your grabbing hand reaches behind the opponent's arm to grip your wrist, creating a figure-four with your forearm behind their arm. In Reverse Kimura, your grabbing hand reaches in front of their arm to grip your wrist, creating the figure-four with your forearm in front of their arm. This reverse configuration often provides tighter control in dynamic situations, different leverage angles, and better control during scrambles. The reverse grip naturally drives internal rotation when you pull toward your body, making it mechanically efficient from standing and front headlock positions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm in front, not behind",
+        "distractors": {
+          "plausible": [
+            "Same figure-four as standard Kimura",
+            "Grip behind arm for more torque"
+          ],
+          "trap": [
+            "Release grip to change the angle"
+          ]
+        }
       },
       {
         "question": "What are the mandatory tap signals for standing Reverse Kimura submissions and why is verbal communication especially important?",
         "answer": "All standard tap signals apply: verbal tap, physical hand tap, foot tap, or any distress signal. Verbal tap is especially important for standing submissions because the opponent may have limited ability to physically tap while maintaining balance and defending. Additionally, standing submissions can progress to dangerous falls if not controlled, so clear communication allows both practitioners to safely manage the descent or release. Never restrict your partner's ability to verbally tap by covering their mouth or applying pressure that prevents speech.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Verbal, hand, foot, any distress",
+        "distractors": {
+          "plausible": [
+            "Physical tap only counts standing",
+            "Tap only if hand is free"
+          ],
+          "trap": [
+            "Cover mouth, watch body instead"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning into the Reverse Kimura lock to relieve shoulder pressure while you have the grip secured from front headlock - what immediate adjustment prevents their escape?",
         "answer": "When the opponent turns into the lock, this is your best opportunity for a back take rather than forcing the finish. Maintain your reverse Kimura grip and follow their rotation, using the grip as a steering mechanism. As they turn, their back becomes exposed - step over with your near leg and begin inserting hooks while keeping the grip. If they stop turning mid-rotation, they are now in an even worse position with their shoulder compromised and their back partially exposed. The critical error would be trying to resist their turn and force the finish from the original angle, which often results in losing the grip entirely. Flow with their movement and convert their defensive rotation into positional advancement to back control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow rotation, take the back",
+        "distractors": {
+          "plausible": [
+            "Force the finish from this angle",
+            "Release grip, reset position"
+          ],
+          "trap": [
+            "Muscle through, resist their turn"
+          ]
+        }
       },
       {
         "question": "You have the Reverse Kimura grip locked from standing and feel your opponent's shoulder reach the point where their arm can no longer move freely - what determines whether the submission is past the point of no escape?",
         "answer": "The point of no escape for the Reverse Kimura occurs when three conditions converge: the reverse figure-four grip is fully locked with deep wrist-on-wrist connection, the shoulder has been rotated past approximately 70-80 degrees of internal rotation where muscular resistance alone cannot overcome the mechanical advantage, and your body position prevents the defender from turning into or away from the lock. At this point, the only options for the defender are to tap or sustain injury. In training, you should never reach this point - stop at 45-60 degrees and wait for the tap. The defender's flexibility and grip strength may extend this window slightly in competition, but once all three conditions are met, the submission is mechanically inevitable.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Grip locked + 70-80° + can't turn",
+        "distractors": {
+          "plausible": [
+            "Any rotation past 30 degrees",
+            "Opponent stops resisting the grip"
+          ],
+          "trap": [
+            "Once they stop verbally protesting"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol if your partner taps to Reverse Kimura from standing position?",
         "answer": "Immediately stop all rotational pressure, release the grip completely, and step back to create space. Allow your partner to externally rotate their shoulder naturally—never force the arm back to neutral position as this can cause additional injury. Control your partner's descent if they are off-balance to prevent falls. Check verbally with your partner before continuing training and ensure they have no shoulder discomfort. If applying from standing, be especially careful to prevent uncontrolled falls during the release by maintaining body control and stepping away safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, let shoulder recover",
+        "distractors": {
+          "plausible": [
+            "Slowly return arm to neutral",
+            "Keep light pressure, ask if okay"
+          ],
+          "trap": [
+            "Force arm back to starting angle"
+          ]
+        }
       },
       {
         "question": "Why must you maintain control of the opponent's head or body with your free hand during Reverse Kimura application?",
         "answer": "Controlling the head or body with your free hand prevents the opponent from turning into the lock (the most effective defense), scrambling away, or countering your position. From standing, head control prevents forward movement and maintains your leverage. From ground positions, body pressure prevents rotation and escape attempts. Without this control, opponents can easily defend by turning toward you or creating space to pull their arm free. The reverse Kimura requires two-point control—the grip itself and body/head control—to be effective and safe.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks them turning into the lock",
+        "distractors": {
+          "plausible": [
+            "Free hand grips their belt or hip",
+            "Free hand adds more rotation force"
+          ],
+          "trap": [
+            "Release control to finish faster"
+          ]
+        }
       },
       {
         "question": "What anatomical structures are targeted by the Reverse Kimura and what are the primary injury risks?",
         "answer": "The Reverse Kimura targets the shoulder joint and rotator cuff complex. The primary injury risks include rotator cuff tears (requiring 3-6 months recovery with potential surgery), shoulder dislocation (6-12 weeks recovery), AC joint separation (4-8 weeks), and labrum tears (6-12 months with surgery likely). The submission creates internal rotation stress on the shoulder joint, and the reversed grip angle can accelerate the breaking mechanism compared to standard Kimura. This makes controlled, progressive application absolutely critical to prevent catastrophic injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder/rotator cuff tear risk",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension mainly",
+            "Wrist and forearm tendon strain"
+          ],
+          "trap": [
+            "Minor strain, rarely serious"
+          ]
+        }
       },
       {
         "question": "You are applying a Reverse Kimura and feel the resistance suddenly spike as you rotate past approximately 45 degrees - what does this tell you and how should you respond in training versus competition?",
         "answer": "The sudden spike in resistance at approximately 45 degrees indicates you are approaching the shoulder's end range of motion for internal rotation. The joint capsule and surrounding ligaments are now bearing load, and further rotation will begin damaging tissue. In training, this is your absolute stopping point - hold position and wait for the tap, giving your partner time to recognize the submission and respond. Do not apply any additional force past this point. In competition, you may continue with slow progressive pressure, but the transition from controlled rotation to tissue failure can be instantaneous at this range. The key tactile cue is the feeling shifting from smooth muscular resistance to a sudden structural wall. Training yourself to recognize this distinction through thousands of controlled repetitions is essential for applying shoulder locks safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, hold, wait for the tap",
+        "distractors": {
+          "plausible": [
+            "Push slowly through the wall",
+            "Ease off, keep circling for angle"
+          ],
+          "trap": [
+            "Add a quick jerk to finish it"
+          ]
+        }
       },
       {
         "question": "Your Reverse Kimura grip begins slipping due to sweat as you increase rotational pressure from front headlock control - what grip adjustment maintains control during the finishing sequence?",
         "answer": "When the reverse Kimura grip slips under pressure, immediately stop all rotational force and re-establish the grip before continuing. Drive your grabbing hand deeper through the space to achieve a tighter wrist-on-wrist lock. If standard wrist-on-wrist continues slipping, transition to an S-grip or palm-to-palm grip variation that provides more surface contact and better friction. You can also adjust by clamping your forearm tighter against their arm to create additional friction points beyond the wrist connection alone. Never continue applying finishing pressure with a compromised grip - this creates unpredictable leverage that can cause sudden injury if the grip shifts during rotation. In sweaty no-gi conditions, consider using your body weight and positioning to create additional compression against the arm rather than relying solely on grip strength for control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Reset deeper, try S-grip variant",
+        "distractors": {
+          "plausible": [
+            "Push through with more speed",
+            "Switch to standard Kimura grip"
+          ],
+          "trap": [
+            "Force finish despite the slip"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked a strong two-on-one defensive grip on their own body for several seconds while you hold a Reverse Kimura from standing - what is your best course of action?",
         "answer": "After several seconds of failing to break their defensive grip, forcing the finish becomes counterproductive. Your best course of action is to use the Reverse Kimura control to transition to positional advancement rather than continuing a stalemate. The reverse grip still provides excellent steering control even without submission finishing pressure. Follow their body movement to take the back if they turn, use the grip to drag them to the ground and establish side control, or release one hand from the lock to strip their defensive grip before re-establishing. A controlled transition to back control or dominant top position beats an extended grip-fighting stalemate from standing, where both practitioners risk falling uncontrolled. The general principle is: if the submission is not progressing within 5-8 seconds of committed effort, the position's value shifts from submission to transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Transition to back/top control",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder for the tap",
+            "Hold position and wait them out"
+          ],
+          "trap": [
+            "Abandon everything, reset neutral"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent grabs their own shorts with their free hand to defend your Reverse Kimura - how do you break this defensive grip and complete the finish?",
         "answer": "When the opponent anchors by grabbing their shorts, you have several strategic options. First, use your free hand in a two-on-one peel at their wrist junction to strip the grip - attack where their fingers wrap rather than pulling against the full grip. Second, change the angle of your rotational force slightly by adding a lifting component, which shifts the force vector and makes their grip alignment less effective. Third, increase overall body pressure to fatigue their grip - maintaining a defensive grip under heavy pressure is exhausting. Fourth, if their grip proves unbreakable, transition to positional advancement instead. Their commitment to the grip defense often leaves their back exposed, and back control points in competition may be more valuable than forcing a locked-up submission. The key competition principle is never to waste time forcing through a strong defensive grip when transitions to equally valuable positions are available.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel wrist grip, shift the angle",
+        "distractors": {
+          "plausible": [
+            "Pull straight against the grip",
+            "Wait for their grip to fatigue"
+          ],
+          "trap": [
+            "Yank arm free, ignore their grip"
+          ]
+        }
       }
     ],
     "clips": [
@@ -507,27 +627,77 @@
       {
         "question": "What is the most critical early recognition cue that a Reverse Kimura is being set up, and why does early detection matter?",
         "answer": "The most critical cue is feeling the attacker thread their arm through the space in front of your arm (between your arm and torso from the front side) rather than behind it. Early detection matters enormously because preventing the reverse grip from locking is far easier than escaping once it is secured. At the threading stage, simply pulling your elbow tight to your ribs and using your free hand to block grip completion can shut down the entire attack. Once the wrist-on-wrist connection is made, your defensive options narrow significantly and the submission can progress rapidly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm threading in front, not behind",
+        "distractors": {
+          "plausible": [
+            "Feeling grip tighten on your wrist",
+            "Sudden shoulder rotation pain"
+          ],
+          "trap": [
+            "Wait until wrist connects to react"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker during Reverse Kimura defense the most dangerous mistake you can make?",
         "answer": "Turning away from the attacker exposes your back completely, which is exactly the secondary attack the attacker is hoping for. The reverse Kimura naturally creates a dilemma: if you stay, the shoulder lock progresses; if you turn away, the attacker follows your rotation with their grip still intact and transitions directly to back control. Back control is arguably a worse position than the original submission threat because it opens up rear naked choke, additional Kimura attempts, and other attacks. Always turn toward the attacker to relieve shoulder pressure while keeping your back protected.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward attacker, not away",
+        "distractors": {
+          "plausible": [
+            "Turn away to release pressure",
+            "Pull arm free before turning"
+          ],
+          "trap": [
+            "Turn away, sprint out of range"
+          ]
+        }
       },
       {
         "question": "What specific grip-breaking technique should you prioritize when defending an established Reverse Kimura?",
         "answer": "Target the wrist-on-wrist connection where the attacker grips their own wrist. This is the weakest structural point of any figure-four lock. Use your free hand to peel or pry at this connection while simultaneously keeping your elbow tight to your body to limit rotational space. Attack the grip with your fingers working under their hand at the wrist junction rather than trying to pull your trapped arm free. Two-on-one grip fighting at this connection point is far more efficient than trying to overpower the entire figure-four structure by muscling your arm out.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel the wrist-on-wrist connection",
+        "distractors": {
+          "plausible": [
+            "Muscle trapped arm straight out",
+            "Attack their far-side grip hand"
+          ],
+          "trap": [
+            "Pull elbow away from your ribs"
+          ]
+        }
       },
       {
         "question": "When caught in a standing Reverse Kimura, what is the immediate safety priority before attempting any escape?",
         "answer": "The immediate safety priority is stabilizing your base and controlling the potential for uncontrolled falls. Standing shoulder locks carry dual injury risks: the submission itself and the fall. Plant your feet in a wide athletic stance, keep your knees bent, and maintain your center of gravity low. Only then begin your escape sequence. If you feel yourself losing balance during the escape attempt, communicate verbally with your partner and control the descent to the ground rather than fighting the fall. An uncontrolled fall with a locked shoulder submission can cause catastrophic injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wide stable base, low center",
+        "distractors": {
+          "plausible": [
+            "Immediately attempt to escape",
+            "Grip fight before stabilizing"
+          ],
+          "trap": [
+            "Fight the fall, refuse to go down"
+          ]
+        }
       },
       {
         "question": "How does recovering upright posture change the mechanics of the Reverse Kimura defense?",
         "answer": "When you achieve upright standing posture with your torso vertical, the attacker loses most of their leverage for the reverse Kimura. The submission relies on the attacker having a downward angle or perpendicular body position relative to your arm to generate effective rotation. Standing upright changes the force vectors so that the attacker must now lift your arm rather than rotate it, which requires significantly more strength. Additionally, your standing base gives you the mobility to circle, change angles, and use your full body weight to resist rotation—advantages that disappear when you are bent over or grounded.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Upright posture kills leverage",
+        "distractors": {
+          "plausible": [
+            "Bend forward to reduce the angle",
+            "Drop level to escape rotation"
+          ],
+          "trap": [
+            "Stay bent over, brace harder"
+          ]
+        }
       }
     ],
     "training_progressions": [

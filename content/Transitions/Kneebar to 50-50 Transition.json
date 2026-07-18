@@ -254,19 +254,59 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the kneebar to 50-50 transition?",
-        "answer": "The optimal window opens when the opponent demonstrates sustained kneebar defense with a firmly bent knee for 10-15 seconds and your finishing pressure is not making progress. The transition should occur while the opponent is fully committed to their kneebar defense, as their defensive posture creates the conditions for 50-50 threading and their mental focus on knee defense leaves them unprepared for the positional shift."
+        "answer": "The optimal window opens when the opponent demonstrates sustained kneebar defense with a firmly bent knee for 10-15 seconds and your finishing pressure is not making progress. The transition should occur while the opponent is fully committed to their kneebar defense, as their defensive posture creates the conditions for 50-50 threading and their mental focus on knee defense leaves them unprepared for the positional shift.",
+        "answer_line": "Bent knee holds 10-15 sec",
+        "distractors": {
+          "plausible": [
+            "Right when knee first bends",
+            "As soon as they start defending"
+          ],
+          "trap": [
+            "Switch the instant they resist"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before attempting the kneebar to 50-50 transition?",
-        "answer": "Four conditions must be present: the kneebar finish must be clearly defended with the opponent maintaining a bent knee and defensive grips; you must retain sufficient leg contact with their trapped leg to enable threading; your arms must still control their lower leg enough to prevent extraction during the transition; and you must have assessed that the finish probability is too low to justify continued effort versus the 50-50 alternative."
+        "answer": "Four conditions must be present: the kneebar finish must be clearly defended with the opponent maintaining a bent knee and defensive grips; you must retain sufficient leg contact with their trapped leg to enable threading; your arms must still control their lower leg enough to prevent extraction during the transition; and you must have assessed that the finish probability is too low to justify continued effort versus the 50-50 alternative.",
+        "answer_line": "Leg contact + arm control held",
+        "distractors": {
+          "plausible": [
+            "Just a bent knee is enough",
+            "Opponent grips loosening slightly"
+          ],
+          "trap": [
+            "Release grips to free hands first"
+          ]
+        }
       },
       {
         "question": "What is the most critical leg threading mechanic during this transition?",
-        "answer": "The most critical mechanic is threading the inside leg across the opponent's hip line before releasing kneebar arm grips. The inside leg must establish contact with the opponent's thigh and begin the 50-50 weave while arms still maintain control of the lower leg. This overlap ensures there is no moment of zero control. The outside leg follows to complete the triangle, but the inside leg establishes the entanglement structure."
+        "answer": "The most critical mechanic is threading the inside leg across the opponent's hip line before releasing kneebar arm grips. The inside leg must establish contact with the opponent's thigh and begin the 50-50 weave while arms still maintain control of the lower leg. This overlap ensures there is no moment of zero control. The outside leg follows to complete the triangle, but the inside leg establishes the entanglement structure.",
+        "answer_line": "Inside leg threads before release",
+        "distractors": {
+          "plausible": [
+            "Outside leg leads the weave",
+            "Release grips then thread legs"
+          ],
+          "trap": [
+            "Drop both grips to thread faster"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their leg as you release kneebar grips to thread into 50-50 - how do you recover?",
-        "answer": "If extraction begins during grip transition, immediately re-secure whatever grip remains rather than continuing the 50-50 threading. Use the arm nearest their heel to maintain control while your legs try to re-establish kneebar entanglement. If their leg is already partially free, transition to a straight ankle lock on the exposed ankle or follow their retreating leg to chase into 50-50 from a different entry angle rather than forcing the original path."
+        "answer": "If extraction begins during grip transition, immediately re-secure whatever grip remains rather than continuing the 50-50 threading. Use the arm nearest their heel to maintain control while your legs try to re-establish kneebar entanglement. If their leg is already partially free, transition to a straight ankle lock on the exposed ankle or follow their retreating leg to chase into 50-50 from a different entry angle rather than forcing the original path.",
+        "answer_line": "Re-secure grip, not force 50-50",
+        "distractors": {
+          "plausible": [
+            "Keep forcing original 50-50 path",
+            "Fully release to reset guard"
+          ],
+          "trap": [
+            "Release all grips, chase leg"
+          ]
+        }
       },
       {
         "question": "What grip sequence ensures continuous control throughout the transition from kneebar to 50-50?",
@@ -274,15 +314,45 @@
       },
       {
         "question": "In which direction should your hips move during the transition to establish 50-50 top position?",
-        "answer": "Your hips should drive forward and downward toward the opponent's lower abdomen during the transition. This accomplishes two goals: it maintains top position pressure that prevents the opponent from sitting up, and it positions your pelvis at the correct height relative to their entangled leg for optimal 50-50 control. Avoid moving hips laterally or backward, as this creates space for the opponent to escape or equalize."
+        "answer": "Your hips should drive forward and downward toward the opponent's lower abdomen during the transition. This accomplishes two goals: it maintains top position pressure that prevents the opponent from sitting up, and it positions your pelvis at the correct height relative to their entangled leg for optimal 50-50 control. Avoid moving hips laterally or backward, as this creates space for the opponent to escape or equalize.",
+        "answer_line": "Forward and down onto abdomen",
+        "distractors": {
+          "plausible": [
+            "Laterally toward the near hip",
+            "Downward only, hips stay back"
+          ],
+          "trap": [
+            "Backward to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on your hip to block leg threading - how do you adjust?",
-        "answer": "Strip their posting hand with your near arm using a quick two-on-one grip break before they settle the post. If the post is firmly established, use a hip switch variation to change the threading angle and bypass their blocking hand entirely. A third option is to temporarily abandon the 50-50 transition and re-commit to kneebar finishing pressure, as their hand posting on your hip removes one of their kneebar defensive grips."
+        "answer": "Strip their posting hand with your near arm using a quick two-on-one grip break before they settle the post. If the post is firmly established, use a hip switch variation to change the threading angle and bypass their blocking hand entirely. A third option is to temporarily abandon the 50-50 transition and re-commit to kneebar finishing pressure, as their hand posting on your hip removes one of their kneebar defensive grips.",
+        "answer_line": "Strip post with two-on-one",
+        "distractors": {
+          "plausible": [
+            "Switch angle, ignore the hand",
+            "Recommit to kneebar pressure"
+          ],
+          "trap": [
+            "Force leg through their post"
+          ]
+        }
       },
       {
         "question": "The transition to 50-50 is blocked and you cannot complete the leg threading - what are your immediate options?",
-        "answer": "Three immediate options exist: first, return to kneebar finishing pressure since the opponent's defensive resources may have shifted during your transition attempt; second, transition to inside ashi-garami by adjusting your leg positioning without fully threading into 50-50; third, use the existing leg contact to sweep to a dominant top position rather than pursuing any leg entanglement. The key is responding within 2-3 seconds rather than continuing to force the blocked transition."
+        "answer": "Three immediate options exist: first, return to kneebar finishing pressure since the opponent's defensive resources may have shifted during your transition attempt; second, transition to inside ashi-garami by adjusting your leg positioning without fully threading into 50-50; third, use the existing leg contact to sweep to a dominant top position rather than pursuing any leg entanglement. The key is responding within 2-3 seconds rather than continuing to force the blocked transition.",
+        "answer_line": "Return to kneebar or ashi-garami",
+        "distractors": {
+          "plausible": [
+            "Sweep to top, abandon leg",
+            "Wait for opening, stay still"
+          ],
+          "trap": [
+            "Keep forcing the blocked thread"
+          ]
+        }
       }
     ],
     "safety_considerations": "The kneebar to 50-50 transition involves leg entanglement near the knee joint. During training, execute the transition with controlled speed to prevent accidental knee torque during leg threading. Communicate with your partner before drilling, especially when threading legs around their knee. Be aware that 50-50 position opens heel hook opportunities that can damage the knee if applied suddenly. Always maintain awareness of both practitioners' knee alignment throughout the transition sequence and release immediately upon tap.",
@@ -396,23 +466,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is transitioning from kneebar to 50-50?",
-        "answer": "The earliest cues are a decrease in kneebar finishing pressure on your knee joint combined with a shift in the attacker's leg positioning around your trapped leg. You will feel their inside leg begin to move across your hip line rather than maintaining kneebar fulcrum position. Their arm grips may also loosen slightly as they prepare to transition from finishing configuration to threading control."
+        "answer": "The earliest cues are a decrease in kneebar finishing pressure on your knee joint combined with a shift in the attacker's leg positioning around your trapped leg. You will feel their inside leg begin to move across your hip line rather than maintaining kneebar fulcrum position. Their arm grips may also loosen slightly as they prepare to transition from finishing configuration to threading control.",
+        "answer_line": "Pressure eases, leg crosses hip",
+        "distractors": {
+          "plausible": [
+            "Grips tighten, knee locks harder",
+            "Rapid crank before any shift"
+          ],
+          "trap": [
+            "No warning signs exist at all"
+          ]
+        }
       },
       {
         "question": "Your opponent begins threading their legs for 50-50 entry - what immediate action gives you the best chance of preventing the transition?",
-        "answer": "The highest-percentage prevention is posting your near hand firmly on their hip to block their inside leg from passing across your hip line. This physical barrier prevents the first threading step that establishes 50-50. Simultaneously hip escape away from their threading direction to increase the distance their legs must travel. If both actions execute within the first second of their threading attempt, prevention success rate is significantly higher than later interventions."
+        "answer": "The highest-percentage prevention is posting your near hand firmly on their hip to block their inside leg from passing across your hip line. This physical barrier prevents the first threading step that establishes 50-50. Simultaneously hip escape away from their threading direction to increase the distance their legs must travel. If both actions execute within the first second of their threading attempt, prevention success rate is significantly higher than later interventions.",
+        "answer_line": "Post hand on hip, block thread",
+        "distractors": {
+          "plausible": [
+            "Grab their far ankle instead",
+            "Push their head down first"
+          ],
+          "trap": [
+            "Pull knee in, invite the wrap"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition moment the most critical window for escaping the kneebar to 50-50 transition?",
-        "answer": "The grip transition moment is critical because the attacker must release their kneebar finishing grips to reposition arms for 50-50 control. During this 1-2 second window, the attacker has minimal arm control over your leg while their legs are only partially threaded into the new configuration. This represents the lowest total control point in the entire transition sequence, making leg extraction through hip escape most likely to succeed."
+        "answer": "The grip transition moment is critical because the attacker must release their kneebar finishing grips to reposition arms for 50-50 control. During this 1-2 second window, the attacker has minimal arm control over your leg while their legs are only partially threaded into the new configuration. This represents the lowest total control point in the entire transition sequence, making leg extraction through hip escape most likely to succeed.",
+        "answer_line": "Control is lowest, legs half-set",
+        "distractors": {
+          "plausible": [
+            "Attacker grips are strongest then",
+            "Their legs are fully locked in"
+          ],
+          "trap": [
+            "Wait for full 50-50 to escape"
+          ]
+        }
       },
       {
         "question": "You failed to prevent the 50-50 entry and your opponent is settling into top position - what is your first priority?",
-        "answer": "Your absolute first priority is fighting for inside position with your inside leg before the attacker can settle hip pressure. Inside position control determines who has submission priority in 50-50. Simultaneously hide your heel by rotating your knee inward to prevent immediate heel hook attacks. Do not waste energy on escape attempts until you have addressed these two defensive priorities, as escaping without inside position control or heel protection dramatically increases submission risk."
+        "answer": "Your absolute first priority is fighting for inside position with your inside leg before the attacker can settle hip pressure. Inside position control determines who has submission priority in 50-50. Simultaneously hide your heel by rotating your knee inward to prevent immediate heel hook attacks. Do not waste energy on escape attempts until you have addressed these two defensive priorities, as escaping without inside position control or heel protection dramatically increases submission risk.",
+        "answer_line": "Fight inside position, hide heel",
+        "distractors": {
+          "plausible": [
+            "Escape first, ignore inside fight",
+            "Attack their far leg immediately"
+          ],
+          "trap": [
+            "Turn belly down to defend"
+          ]
+        }
       },
       {
         "question": "Your opponent releases their kneebar grips but you feel their legs beginning to wrap around yours - how do you create distance?",
-        "answer": "Execute an immediate hip escape in the direction away from their wrapping legs while simultaneously using both hands to push against their hip or thigh. The hip escape must be explosive and directional, not just a general shrimp. Target creating enough distance that their threading legs cannot complete the 50-50 triangle. If you cannot fully escape, use the created distance to insert a knee shield between your bodies, which prevents them from settling top pressure even if the 50-50 entanglement forms."
+        "answer": "Execute an immediate hip escape in the direction away from their wrapping legs while simultaneously using both hands to push against their hip or thigh. The hip escape must be explosive and directional, not just a general shrimp. Target creating enough distance that their threading legs cannot complete the 50-50 triangle. If you cannot fully escape, use the created distance to insert a knee shield between your bodies, which prevents them from settling top pressure even if the 50-50 entanglement forms.",
+        "answer_line": "Explosive hip escape plus push",
+        "distractors": {
+          "plausible": [
+            "Slow general shrimp away",
+            "Pull knees to chest, stall"
+          ],
+          "trap": [
+            "Grab their collar, sit up"
+          ]
+        }
       }
     ],
     "training_progressions": [

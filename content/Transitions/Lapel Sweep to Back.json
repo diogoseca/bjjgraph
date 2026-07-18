@@ -229,51 +229,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Lapel Sweep to Back?",
-        "answer": "The primary goal is to use the sweep threat to force a defensive reaction from the opponent, then follow their rotation to establish back control. The technique creates a dilemma where defending the sweep exposes the back, making it a two-for-one attack."
+        "answer": "The primary goal is to use the sweep threat to force a defensive reaction from the opponent, then follow their rotation to establish back control. The technique creates a dilemma where defending the sweep exposes the back, making it a two-for-one attack.",
+        "answer_line": "Force reaction, then take back",
+        "distractors": {
+          "plausible": [
+            "Sweep them to mount",
+            "Break their base to pass guard"
+          ],
+          "trap": [
+            "Abandon grips to chase sweep"
+          ]
+        }
       },
       {
         "question": "Why is sleeve control essential for this technique?",
-        "answer": "Sleeve control prevents the opponent from posting their hand to base when you initiate the sweep. Without this control, they can simply post and stabilize, eliminating both the sweep threat and the back take opportunity. The sleeve grip is non-negotiable for the back take pathway to open."
+        "answer": "Sleeve control prevents the opponent from posting their hand to base when you initiate the sweep. Without this control, they can simply post and stabilize, eliminating both the sweep threat and the back take opportunity. The sleeve grip is non-negotiable for the back take pathway to open.",
+        "answer_line": "Stops them posting to base",
+        "distractors": {
+          "plausible": [
+            "Keeps their hips flat",
+            "Controls their far leg"
+          ],
+          "trap": [
+            "Let go of sleeve to grab collar"
+          ]
+        }
       },
       {
         "question": "What should you do when the opponent begins rotating to defend the sweep?",
-        "answer": "Follow their rotation aggressively while maintaining your lapel grip. Do not release grips or hesitate—sit up and pursue the back immediately. Their defensive rotation IS the technique working correctly; it's opening the pathway to their back. The lapel grip keeps you attached throughout."
+        "answer": "Follow their rotation aggressively while maintaining your lapel grip. Do not release grips or hesitate—sit up and pursue the back immediately. Their defensive rotation IS the technique working correctly; it's opening the pathway to their back. The lapel grip keeps you attached throughout.",
+        "answer_line": "Follow rotation, keep lapel grip",
+        "distractors": {
+          "plausible": [
+            "Reset grips and restart sweep",
+            "Switch to a different sweep"
+          ],
+          "trap": [
+            "Release grips and repost"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight and drives forward to flatten you—how do you adjust?",
-        "answer": "Use their forward pressure to load a different sweep direction or transition to squid guard by redirecting the lapel around their posting arm. Their forward drive aids this reconfiguration. Alternatively, use their momentum for an elevator sweep variation that works with forward pressure rather than against it."
+        "answer": "Use their forward pressure to load a different sweep direction or transition to squid guard by redirecting the lapel around their posting arm. Their forward drive aids this reconfiguration. Alternatively, use their momentum for an elevator sweep variation that works with forward pressure rather than against it.",
+        "answer_line": "Redirect into squid guard/sweep",
+        "distractors": {
+          "plausible": [
+            "Push back to regain base",
+            "Pull guard tighter and wait"
+          ],
+          "trap": [
+            "Let go of lapel, turtle up"
+          ]
+        }
       },
       {
         "question": "How do you counter the backstep escape when opponent recognizes your attack?",
-        "answer": "Follow their backstep aggressively with your sit-up motion—their backstep actually accelerates your path to their back if you stay attached via the lapel grip. Maintain sleeve control to prevent posting. The backstep escape only works if you release grips; staying attached converts their escape into your technique."
+        "answer": "Follow their backstep aggressively with your sit-up motion—their backstep actually accelerates your path to their back if you stay attached via the lapel grip. Maintain sleeve control to prevent posting. The backstep escape only works if you release grips; staying attached converts their escape into your technique.",
+        "answer_line": "Follow backstep, stay attached",
+        "distractors": {
+          "plausible": [
+            "Reset guard and rebuild grips",
+            "Chase legs for a leglock"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful back take attempt from a failed sweep?",
-        "answer": "The distinction is in commitment and recognition. A failed sweep happens when you treat the opponent's rotation as technique failure and release grips. A successful back take recognizes that rotation IS the goal—the sweep threat is the setup, not the end goal. Maintaining grips and following the rotation converts 'failed sweep' into successful back take."
+        "answer": "The distinction is in commitment and recognition. A failed sweep happens when you treat the opponent's rotation as technique failure and release grips. A successful back take recognizes that rotation IS the goal—the sweep threat is the setup, not the end goal. Maintaining grips and following the rotation converts 'failed sweep' into successful back take.",
+        "answer_line": "Keep grips, follow rotation",
+        "distractors": {
+          "plausible": [
+            "Speed of the initial pull",
+            "Choosing sweep over back"
+          ],
+          "trap": [
+            "Release grips when they turn"
+          ]
+        }
       },
       {
         "question": "When is it better to complete the sweep rather than pursue the back?",
-        "answer": "Complete the sweep when the opponent doesn't rotate (they accept the sweep rather than expose the back), when you've lost sleeve control and they can post effectively, or when their rotation is minimal and mount is more accessible than back. Read the opponent's reaction to determine which path offers higher success probability."
+        "answer": "Complete the sweep when the opponent doesn't rotate (they accept the sweep rather than expose the back), when you've lost sleeve control and they can post effectively, or when their rotation is minimal and mount is more accessible than back. Read the opponent's reaction to determine which path offers higher success probability.",
+        "answer_line": "They don't rotate or lose grip",
+        "distractors": {
+          "plausible": [
+            "Always finish sweep first",
+            "Whenever opponent postures up"
+          ],
+          "trap": [
+            "Force the back with no sleeve grip"
+          ]
+        }
       },
       {
         "question": "What grips must be maintained throughout the entire transition to the back?",
-        "answer": "The lapel grip must be maintained throughout the entire transition—it's your anchor that keeps you attached as the opponent rotates. The sleeve grip should be maintained until you can convert it to seatbelt control. Only release the lapel after hooks and seatbelt are fully established."
+        "answer": "The lapel grip must be maintained throughout the entire transition—it's your anchor that keeps you attached as the opponent rotates. The sleeve grip should be maintained until you can convert it to seatbelt control. Only release the lapel after hooks and seatbelt are fully established.",
+        "answer_line": "Keep lapel grip the whole time",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip is the priority",
+            "Both grips equally throughout"
+          ],
+          "trap": [
+            "Release lapel to grab hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your sleeve grip mid-sweep but you still have the lapel—what is your best option?",
-        "answer": "Abort the back take pathway and commit to completing the sweep instead, since without sleeve control the opponent can post and block your path to the back. Use the remaining lapel grip to finish the sweep to mount, then re-establish control from the top position. Alternatively, immediately re-grip the sleeve before they can fully post."
+        "answer": "Abort the back take pathway and commit to completing the sweep instead, since without sleeve control the opponent can post and block your path to the back. Use the remaining lapel grip to finish the sweep to mount, then re-establish control from the top position. Alternatively, immediately re-grip the sleeve before they can fully post.",
+        "answer_line": "Finish sweep, not the back",
+        "distractors": {
+          "plausible": [
+            "Force the back take anyway",
+            "Let go of lapel too"
+          ],
+          "trap": [
+            "Release lapel to re-grip sleeve"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the sit-up toward the back?",
-        "answer": "The optimal timing window is the moment the opponent shifts their weight to defend the sweep—specifically when they begin rotating their hips or lifting their base to prevent being swept. This weight shift creates a brief window where their back is exposed and their momentum is already moving in the direction you want to follow. Initiating too early telegraphs the back take; too late allows them to complete their defensive rotation."
+        "answer": "The optimal timing window is the moment the opponent shifts their weight to defend the sweep—specifically when they begin rotating their hips or lifting their base to prevent being swept. This weight shift creates a brief window where their back is exposed and their momentum is already moving in the direction you want to follow. Initiating too early telegraphs the back take; too late allows them to complete their defensive rotation.",
+        "answer_line": "When they shift weight to defend",
+        "distractors": {
+          "plausible": [
+            "Right at the start of the grip",
+            "After they fully sit up"
+          ],
+          "trap": [
+            "Wait until they're flat and stable"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by driving into you aggressively and you cannot load the sweep—what chain attack opens up?",
-        "answer": "Their forward drive opens the omoplata pathway. As they commit weight forward, redirect your hips underneath their posting arm while maintaining lapel control, threading your leg over their shoulder into omoplata position. Their forward commitment makes it difficult to pull back and defend the shoulder lock. This is the classic lapel guard dilemma—defending the sweep opens the submission."
+        "answer": "Their forward drive opens the omoplata pathway. As they commit weight forward, redirect your hips underneath their posting arm while maintaining lapel control, threading your leg over their shoulder into omoplata position. Their forward commitment makes it difficult to pull back and defend the shoulder lock. This is the classic lapel guard dilemma—defending the sweep opens the submission.",
+        "answer_line": "Omoplata under posting arm",
+        "distractors": {
+          "plausible": [
+            "Triangle from the top",
+            "Armbar off the lapel grip"
+          ],
+          "trap": [
+            "Pull guard and reset grips"
+          ]
+        }
       },
       {
         "question": "What direction of force should the lapel grip apply during the sweep loading phase?",
-        "answer": "The lapel grip should pull diagonally across the opponent's centerline and slightly downward, disrupting their base by directing their weight over their lead knee. This diagonal pull creates the off-balancing necessary to force a defensive reaction. Pulling straight toward you is less effective because it allows them to post both hands. The cross-body angle combined with your hip elevation creates the genuine sweep threat that triggers the back take opportunity."
+        "answer": "The lapel grip should pull diagonally across the opponent's centerline and slightly downward, disrupting their base by directing their weight over their lead knee. This diagonal pull creates the off-balancing necessary to force a defensive reaction. Pulling straight toward you is less effective because it allows them to post both hands. The cross-body angle combined with your hip elevation creates the genuine sweep threat that triggers the back take opportunity.",
+        "answer_line": "Diagonal pull, slightly down",
+        "distractors": {
+          "plausible": [
+            "Straight pull toward you",
+            "Upward lift on the lapel"
+          ],
+          "trap": [
+            "Push the lapel away from you"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Lapel Sweep to Back is generally a low-risk technique with minimal injury potential when executed with control. Primary safety considerations include avoiding excessive twisting force on the opponent's knee when using worm guard configurations, and ensuring controlled transitions that don't result in falling heavily onto training partners. When drilling, communicate with partners about grip pressure intensity on lapels to prevent gi damage and finger injuries. Avoid yanking or jerking motions that could strain fingers or wrists. During the back take transition, maintain awareness of head position to prevent accidental head collisions. Partners should tap if they feel knee discomfort from the lapel wrap configuration.",
@@ -381,23 +501,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Lapel Sweep to Back is being set up?",
-        "answer": "The earliest cue is when the attacker secures sleeve or wrist control on your far arm while already holding a lapel configuration. This dual-grip establishment signals the dilemma is being constructed—the lapel provides the sweep mechanics while the sleeve grip removes your posting ability. Recognizing this combination before the sweep is loaded gives you the maximum defensive window."
+        "answer": "The earliest cue is when the attacker secures sleeve or wrist control on your far arm while already holding a lapel configuration. This dual-grip establishment signals the dilemma is being constructed—the lapel provides the sweep mechanics while the sleeve grip removes your posting ability. Recognizing this combination before the sweep is loaded gives you the maximum defensive window.",
+        "answer_line": "Sleeve grip plus lapel wrap",
+        "distractors": {
+          "plausible": [
+            "Deep underhook on far side",
+            "Collar tie from the top"
+          ],
+          "trap": [
+            "Ignore grips until sweep loads"
+          ]
+        }
       },
       {
         "question": "Why is rotating away from the sweep the worst defensive response?",
-        "answer": "Rotating away from the sweep is exactly what the attacker wants because the lapel grip keeps them attached to you during the rotation. Your turn exposes your back and the attacker follows your movement using the lapel as an anchor, arriving at back control with momentum. The technique is designed to exploit this natural defensive instinct, converting your escape attempt into the attacker's finishing position."
+        "answer": "Rotating away from the sweep is exactly what the attacker wants because the lapel grip keeps them attached to you during the rotation. Your turn exposes your back and the attacker follows your movement using the lapel as an anchor, arriving at back control with momentum. The technique is designed to exploit this natural defensive instinct, converting your escape attempt into the attacker's finishing position.",
+        "answer_line": "Lapel follows you into back take",
+        "distractors": {
+          "plausible": [
+            "It slows their sweep attempt",
+            "It only risks losing points"
+          ],
+          "trap": [
+            "Turn away and sprawl hard"
+          ]
+        }
       },
       {
         "question": "Your opponent has the lapel wrapped and grabs your far sleeve—what is your immediate defensive priority?",
-        "answer": "Your immediate priority is freeing the controlled sleeve through a wrist circle or grip break, then posting that hand on the mat for base. A posted hand simultaneously eliminates the back take pathway and provides base against the sweep, collapsing the entire dilemma at once. Addressing the sleeve first is more efficient than fighting the lapel because posting solves both problems."
+        "answer": "Your immediate priority is freeing the controlled sleeve through a wrist circle or grip break, then posting that hand on the mat for base. A posted hand simultaneously eliminates the back take pathway and provides base against the sweep, collapsing the entire dilemma at once. Addressing the sleeve first is more efficient than fighting the lapel because posting solves both problems.",
+        "answer_line": "Free sleeve, then post hand",
+        "distractors": {
+          "plausible": [
+            "Strip the lapel grip first",
+            "Sit up and bridge hard"
+          ],
+          "trap": [
+            "Pull your arm in and turtle"
+          ]
+        }
       },
       {
         "question": "When is it tactically correct to accept the sweep rather than risk the back take?",
-        "answer": "Accept the sweep when the technique is already loaded and you cannot clear either the lapel or sleeve grip in time. Turn toward the attacker during the sweep to land in mount bottom or half guard bottom rather than giving up back control. Mount escape has roughly a 52% success rate while back control bottom has only a 42% escape rate, making the sweep concession the better tactical choice when both are on the table."
+        "answer": "Accept the sweep when the technique is already loaded and you cannot clear either the lapel or sleeve grip in time. Turn toward the attacker during the sweep to land in mount bottom or half guard bottom rather than giving up back control. Mount escape has roughly a 52% success rate while back control bottom has only a 42% escape rate, making the sweep concession the better tactical choice when both are on the table.",
+        "answer_line": "Turn toward them, land in mount",
+        "distractors": {
+          "plausible": [
+            "Whenever a sweep is loaded",
+            "Fight grips until they slip"
+          ],
+          "trap": [
+            "Turn away, land in back control"
+          ]
+        }
       },
       {
         "question": "How should you address the lapel configuration if the attacker has a deep worm guard wrap behind your knee?",
-        "answer": "Control the attacker's gripping hand with your same-side hand to prevent them from adjusting the wrap, then use your free hand to systematically unwind the fabric from behind your knee. Work the lapel off by straightening your leg and using small circular motions rather than explosive pulling. The wrap is mechanical, not muscular, so technical unwinding beats force. Alternatively, backstep to change the angle of the wrap, reducing its effectiveness while you address the configuration."
+        "answer": "Control the attacker's gripping hand with your same-side hand to prevent them from adjusting the wrap, then use your free hand to systematically unwind the fabric from behind your knee. Work the lapel off by straightening your leg and using small circular motions rather than explosive pulling. The wrap is mechanical, not muscular, so technical unwinding beats force. Alternatively, backstep to change the angle of the wrap, reducing its effectiveness while you address the configuration.",
+        "answer_line": "Control hand, unwind lapel",
+        "distractors": {
+          "plausible": [
+            "Yank the lapel out fast",
+            "Kick leg free explosively"
+          ],
+          "trap": [
+            "Ignore the wrap and stand up"
+          ]
+        }
       }
     ],
     "training_progressions": [

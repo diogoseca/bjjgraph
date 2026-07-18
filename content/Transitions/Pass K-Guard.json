@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the K-Guard pass?",
-        "answer": "The optimal window opens when you have broken the bottom player's dominant grips and partially neutralized at least one of their two hooks through pressure and angle manipulation. Look for the moment when the inverted hook tension weakens as you redirect it through hip pressure - this is when their retention system is most vulnerable. Attempting to pass while both hooks maintain active tension and their grips are intact consistently results in failed pass attempts and counter-sweeps."
+        "answer": "The optimal window opens when you have broken the bottom player's dominant grips and partially neutralized at least one of their two hooks through pressure and angle manipulation. Look for the moment when the inverted hook tension weakens as you redirect it through hip pressure - this is when their retention system is most vulnerable. Attempting to pass while both hooks maintain active tension and their grips are intact consistently results in failed pass attempts and counter-sweeps.",
+        "answer_line": "Grips broken, one hook neutralized",
+        "distractors": {
+          "plausible": [
+            "As soon as hip pressure is on",
+            "After stripping all grips only"
+          ],
+          "trap": [
+            "While both hooks still active"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully attempt the K-Guard pass?",
-        "answer": "Four prerequisites are essential: established forward hip pressure compressing the guard structure, at least one dominant grip such as crossface or far hip control, partial neutralization of the butterfly hook elevation threat through weight distribution, and a stable base with your free leg posted wide to resist sweep attempts. Missing any single condition significantly reduces pass success probability and increases vulnerability to counter-attacks."
+        "answer": "Four prerequisites are essential: established forward hip pressure compressing the guard structure, at least one dominant grip such as crossface or far hip control, partial neutralization of the butterfly hook elevation threat through weight distribution, and a stable base with your free leg posted wide to resist sweep attempts. Missing any single condition significantly reduces pass success probability and increases vulnerability to counter-attacks.",
+        "answer_line": "Pressure, grip, hook control, base",
+        "distractors": {
+          "plausible": [
+            "Hip pressure and grip alone",
+            "Crossface grip before pressure"
+          ],
+          "trap": [
+            "Rush pass with hooks still live"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines K-Guard pass success?",
-        "answer": "Far hip control is the single most critical element. Without anchoring the bottom player's far hip, every other aspect of the pass is undermined because they can freely hip escape to recover angles, reestablish hook tension, and reset the guard. The far hip must be controlled through direct grip or underhook before and throughout the entire passing sequence. Loss of far hip control at any point requires immediately re-establishing it before continuing."
+        "answer": "Far hip control is the single most critical element. Without anchoring the bottom player's far hip, every other aspect of the pass is undermined because they can freely hip escape to recover angles, reestablish hook tension, and reset the guard. The far hip must be controlled through direct grip or underhook before and throughout the entire passing sequence. Loss of far hip control at any point requires immediately re-establishing it before continuing.",
+        "answer_line": "Control the far hip first",
+        "distractors": {
+          "plausible": [
+            "Crossface is most critical",
+            "Neutralize both hooks first"
+          ],
+          "trap": [
+            "Ignore far hip, drive forward"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point when passing K-Guard at intermediate level?",
-        "answer": "The most common failure is attempting to pass before adequately breaking down the bottom player's hook system and grips. Intermediate practitioners often recognize the correct passing technique but execute it prematurely against active hooks and defensive grips. The bottom player uses their intact retention system to redirect passing energy into sweeps or guard recovery. The correction is investing additional time in the pressure and grip-fighting phases before committing to the pass itself."
+        "answer": "The most common failure is attempting to pass before adequately breaking down the bottom player's hook system and grips. Intermediate practitioners often recognize the correct passing technique but execute it prematurely against active hooks and defensive grips. The bottom player uses their intact retention system to redirect passing energy into sweeps or guard recovery. The correction is investing additional time in the pressure and grip-fighting phases before committing to the pass itself.",
+        "answer_line": "Passing before breaking hooks",
+        "distractors": {
+          "plausible": [
+            "Using wrong knee slice angle",
+            "Not gripping fast enough"
+          ],
+          "trap": [
+            "Rushing the pass on first grip"
+          ]
+        }
       },
       {
         "question": "What grips should you prioritize when setting up the K-Guard pass?",
-        "answer": "First priority is far hip control through underhook or direct grip to anchor their position and prevent the hip escapes that power guard recovery. Second is crossface with your near arm driving across their jaw to control their head, prevent angle creation, and enable spine-flattening pressure. Third is controlling their inside arm to prevent re-framing and block the underhook attempt that leads to back takes."
+        "answer": "First priority is far hip control through underhook or direct grip to anchor their position and prevent the hip escapes that power guard recovery. Second is crossface with your near arm driving across their jaw to control their head, prevent angle creation, and enable spine-flattening pressure. Third is controlling their inside arm to prevent re-framing and block the underhook attempt that leads to back takes.",
+        "answer_line": "Far hip, crossface, inside arm",
+        "distractors": {
+          "plausible": [
+            "Crossface first, then far hip",
+            "Collar tie before far hip"
+          ],
+          "trap": [
+            "Grip the far ankle instead"
+          ]
+        }
       },
       {
         "question": "In which direction should you apply primary force during the K-Guard pass?",
-        "answer": "Primary force should be directed forward and slightly downward at a diagonal angle toward the bottom player's far shoulder. This vector simultaneously compresses their hook system, drives their head away via crossface, and begins the spine-flattening process that eliminates retention mechanics. Purely downward force creates a stalemate against the hooks, and purely forward force exposes you to butterfly hook elevation. The diagonal combines both benefits while minimizing risk."
+        "answer": "Primary force should be directed forward and slightly downward at a diagonal angle toward the bottom player's far shoulder. This vector simultaneously compresses their hook system, drives their head away via crossface, and begins the spine-flattening process that eliminates retention mechanics. Purely downward force creates a stalemate against the hooks, and purely forward force exposes you to butterfly hook elevation. The diagonal combines both benefits while minimizing risk.",
+        "answer_line": "Diagonal toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight down through hips",
+            "Straight forward, no angle"
+          ],
+          "trap": [
+            "Pull back away from hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent loads their butterfly hook and begins elevating your weight during your pass attempt - how do you respond?",
-        "answer": "Immediately widen your free leg base for lateral stability and drop your hips lower rather than fighting the elevation vertically. Redirect your weight laterally into the butterfly hook side rather than trying to push back down. Simultaneously tighten your far hip grip to prevent them from completing the sweep motion. If elevation continues despite these adjustments, disengage by backstepping the trapped leg free and re-engaging from a neutral position rather than getting swept."
+        "answer": "Immediately widen your free leg base for lateral stability and drop your hips lower rather than fighting the elevation vertically. Redirect your weight laterally into the butterfly hook side rather than trying to push back down. Simultaneously tighten your far hip grip to prevent them from completing the sweep motion. If elevation continues despite these adjustments, disengage by backstepping the trapped leg free and re-engaging from a neutral position rather than getting swept.",
+        "answer_line": "Widen base, drop hips, redirect",
+        "distractors": {
+          "plausible": [
+            "Push straight down against it",
+            "Sprawl back and disengage fast"
+          ],
+          "trap": [
+            "Fight elevation by standing tall"
+          ]
+        }
       },
       {
         "question": "If your initial knee slice pass is blocked from K-Guard, what should you chain to next?",
-        "answer": "When the knee slice is blocked, the bottom player typically reinforces their inverted hook and frames against your shoulder. Chain immediately to a smash pass by dropping your hips low and redirecting pressure over their bottom leg. If the smash is also defended, backstep your trapped leg behind their hook system to attack from the opposite angle. The key is maintaining pressure and connection while changing the passing angle rather than resetting to neutral, which allows them to fully re-establish their guard."
+        "answer": "When the knee slice is blocked, the bottom player typically reinforces their inverted hook and frames against your shoulder. Chain immediately to a smash pass by dropping your hips low and redirecting pressure over their bottom leg. If the smash is also defended, backstep your trapped leg behind their hook system to attack from the opposite angle. The key is maintaining pressure and connection while changing the passing angle rather than resetting to neutral, which allows them to fully re-establish their guard.",
+        "answer_line": "Chain to smash pass low",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral position",
+            "Backstep immediately first"
+          ],
+          "trap": [
+            "Release pressure and grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "When passing K-Guard, be mindful of knee torque on both your trapped leg and your partner's legs during hook neutralization. Avoid sudden explosive movements that could twist the knee joint while it is entangled in the hook system. If your partner's foot catches during the pass and they signal discomfort, stop immediately and carefully extract before continuing. During drilling, establish clear communication protocols for knee discomfort, especially when working with the inverted hook configuration where unexpected angles can stress the joint.",
@@ -406,19 +486,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a K-Guard pass attempt is beginning?",
-        "answer": "The earliest cues are the passer dropping their hips forward to increase pressure, beginning to strip your dominant grips on their collar or sleeves, and driving their crossface arm across your jaw to control head position. These grip and pressure changes typically precede actual hook neutralization by several seconds, giving you a critical early warning window to reinforce your retention structure or prepare counter-attacks before the passer reaches the execution phase of their pass."
+        "answer": "The earliest cues are the passer dropping their hips forward to increase pressure, beginning to strip your dominant grips on their collar or sleeves, and driving their crossface arm across your jaw to control head position. These grip and pressure changes typically precede actual hook neutralization by several seconds, giving you a critical early warning window to reinforce your retention structure or prepare counter-attacks before the passer reaches the execution phase of their pass.",
+        "answer_line": "Hip drop, grip strip, crossface",
+        "distractors": {
+          "plausible": [
+            "Hook neutralized first sign",
+            "Sudden hard hip pressure only"
+          ],
+          "trap": [
+            "Wait for the pass to land"
+          ]
+        }
       },
       {
         "question": "When should you abandon K-Guard retention and transition to an alternative guard?",
-        "answer": "Transition when both hooks have been significantly compromised and your spine angle has been flattened past the point of recovery. Specifically, if the passer has neutralized your inverted hook and established crossface control that prevents you from recovering side position, attempting to maintain K-Guard becomes counterproductive. At this point, transition to Deep Half Guard by diving under their weight, or recover half guard with knee shield. The key is making this decision before you are completely flattened rather than fighting a lost retention battle."
+        "answer": "Transition when both hooks have been significantly compromised and your spine angle has been flattened past the point of recovery. Specifically, if the passer has neutralized your inverted hook and established crossface control that prevents you from recovering side position, attempting to maintain K-Guard becomes counterproductive. At this point, transition to Deep Half Guard by diving under their weight, or recover half guard with knee shield. The key is making this decision before you are completely flattened rather than fighting a lost retention battle.",
+        "answer_line": "Hooks dead, spine flattened",
+        "distractors": {
+          "plausible": [
+            "As soon as one hook is gone",
+            "When crossface grip is set"
+          ],
+          "trap": [
+            "Never abandon, fight it out"
+          ]
+        }
       },
       {
         "question": "How do you exploit the passer's forward pressure commitment to set up a back take?",
-        "answer": "When the passer drives forward pressure to compress your hooks, their weight distribution shifts toward you and creates vulnerability on their near side. Time your underhook attempt for the moment they transition grips - specifically when their crossface arm adjusts or they release one grip to establish another. Swim your inside arm deep for the underhook while simultaneously using your inverted hook to redirect their forward momentum laterally. Follow with seatbelt grip and hook insertion as their base collapses from the force redirection."
+        "answer": "When the passer drives forward pressure to compress your hooks, their weight distribution shifts toward you and creates vulnerability on their near side. Time your underhook attempt for the moment they transition grips - specifically when their crossface arm adjusts or they release one grip to establish another. Swim your inside arm deep for the underhook while simultaneously using your inverted hook to redirect their forward momentum laterally. Follow with seatbelt grip and hook insertion as their base collapses from the force redirection.",
+        "answer_line": "Underhook as grips transition",
+        "distractors": {
+          "plausible": [
+            "Underhook right at pressure start",
+            "Grab seatbelt before underhook"
+          ],
+          "trap": [
+            "Push back straight into pressure"
+          ]
+        }
       },
       {
         "question": "What is the defensive priority hierarchy when your K-Guard is being systematically passed?",
-        "answer": "First priority is preventing back exposure during your own defensive transitions - never turn away from the passer in ways that expose your back. Second priority is maintaining at least half guard rather than conceding full pass to side control. Third priority is recovering full K-Guard or transitioning to an alternative guard with active hooks. Fourth priority is launching counter-attacks like sweeps or back takes. This hierarchy ensures you maintain a viable position even when your preferred defense fails at each level."
+        "answer": "First priority is preventing back exposure during your own defensive transitions - never turn away from the passer in ways that expose your back. Second priority is maintaining at least half guard rather than conceding full pass to side control. Third priority is recovering full K-Guard or transitioning to an alternative guard with active hooks. Fourth priority is launching counter-attacks like sweeps or back takes. This hierarchy ensures you maintain a viable position even when your preferred defense fails at each level.",
+        "answer_line": "Protect back, keep guard, attack",
+        "distractors": {
+          "plausible": [
+            "Counter-attack is top priority",
+            "Recover full guard first"
+          ],
+          "trap": [
+            "Turn away to escape pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [

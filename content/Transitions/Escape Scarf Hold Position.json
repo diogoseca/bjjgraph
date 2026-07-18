@@ -275,35 +275,115 @@
     "flashcards": [
       {
         "question": "Why are standard side control shrimping escapes ineffective against scarf hold and what movement pattern replaces them?",
-        "answer": "The perpendicular angle of scarf hold means lateral hip movement slides along the opponent's body rather than creating distance perpendicular to their pressure. Bridge-and-turn mechanics replace shrimping because they exploit the perpendicular angle by rotating toward or away from the opponent, loading their weight onto their shoulder line where base is weakest."
+        "answer": "The perpendicular angle of scarf hold means lateral hip movement slides along the opponent's body rather than creating distance perpendicular to their pressure. Bridge-and-turn mechanics replace shrimping because they exploit the perpendicular angle by rotating toward or away from the opponent, loading their weight onto their shoulder line where base is weakest.",
+        "answer_line": "Bridge and turn, not shrimp",
+        "distractors": {
+          "plausible": [
+            "Shrimp harder against pressure",
+            "Shrimp straight to make space"
+          ],
+          "trap": [
+            "Repeat shrimp until it works"
+          ]
+        }
       },
       {
         "question": "What must you accomplish before committing to an explosive bridge attempt from scarf hold bottom?",
-        "answer": "You must compromise the opponent's base by trapping their far arm or removing their posting ability. Without this setup, the opponent simply rides the bridge using their posted arm for stability. Additionally, you need a bottom leg hook on their near leg to prevent mount transition and your defensive frame must be established to prevent smothering during the bridge."
+        "answer": "You must compromise the opponent's base by trapping their far arm or removing their posting ability. Without this setup, the opponent simply rides the bridge using their posted arm for stability. Additionally, you need a bottom leg hook on their near leg to prevent mount transition and your defensive frame must be established to prevent smothering during the bridge.",
+        "answer_line": "Trap far arm, hook near leg",
+        "distractors": {
+          "plausible": [
+            "Get full guard back first",
+            "Control head, then bridge"
+          ],
+          "trap": [
+            "Bridge immediately, full power"
+          ]
+        }
       },
       {
         "question": "Your opponent attacks americana on your trapped arm during your escape attempt - how do you respond?",
-        "answer": "Straighten the threatened arm immediately and grip your own thigh or belt to anchor it, turning your thumb toward the ceiling to prevent figure-four completion. Then recognize that the americana attack creates an escape window because the opponent must release some head control or positional connection to pursue the submission. Use this window to execute your escape rather than purely defending the submission."
+        "answer": "Straighten the threatened arm immediately and grip your own thigh or belt to anchor it, turning your thumb toward the ceiling to prevent figure-four completion. Then recognize that the americana attack creates an escape window because the opponent must release some head control or positional connection to pursue the submission. Use this window to execute your escape rather than purely defending the submission.",
+        "answer_line": "Straighten arm, thumb up, escape",
+        "distractors": {
+          "plausible": [
+            "Muscle the arm free by force",
+            "Freeze and wait out the sub"
+          ],
+          "trap": [
+            "Drop your frame to save the arm"
+          ]
+        }
       },
       {
         "question": "What is the correct angle for the bridge when executing the bridge-and-roll escape from scarf hold?",
-        "answer": "The bridge should be directed at a 45-degree angle toward the opponent's trapped arm side, not straight upward. This angle loads the opponent's weight onto their shoulder line where they have minimal base, making it possible to roll them over their shoulder. Bridging straight up allows the opponent to settle back into position when you return to the mat."
+        "answer": "The bridge should be directed at a 45-degree angle toward the opponent's trapped arm side, not straight upward. This angle loads the opponent's weight onto their shoulder line where they have minimal base, making it possible to roll them over their shoulder. Bridging straight up allows the opponent to settle back into position when you return to the mat.",
+        "answer_line": "45 degrees toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Straight up with full power",
+            "90 degrees away from the arm"
+          ],
+          "trap": [
+            "Bridge straight up repeatedly"
+          ]
+        }
       },
       {
         "question": "Why is the bottom leg hook on the opponent's near leg critical before attempting any escape from scarf hold?",
-        "answer": "The leg hook serves dual purpose. First, it prevents the opponent from transitioning to mount during escape attempts, which would result in a significantly worse position. Second, it provides a control point to disrupt their base during the bridge phase by controlling their nearest support structure. Without this hook, escape attempts frequently result in mount rather than freedom."
+        "answer": "The leg hook serves dual purpose. First, it prevents the opponent from transitioning to mount during escape attempts, which would result in a significantly worse position. Second, it provides a control point to disrupt their base during the bridge phase by controlling their nearest support structure. Without this hook, escape attempts frequently result in mount rather than freedom.",
+        "answer_line": "Blocks mount, kills their base",
+        "distractors": {
+          "plausible": [
+            "Sets up a direct sweep",
+            "Frees your hips to shrimp"
+          ],
+          "trap": [
+            "Skip it and bridge explosively"
+          ]
+        }
       },
       {
         "question": "Your bridge-and-roll attempt is defended because the opponent widens their base - what do you do next?",
-        "answer": "Immediately transition to the ghost escape variant. When the opponent widens base and drops hips to counter the bridge, they create space behind their body. Turn into the opponent and come to your knees behind them, using the backdoor escape pathway. The key is flowing immediately from the failed bridge into the next technique rather than resetting and losing the positional disruption you created."
+        "answer": "Immediately transition to the ghost escape variant. When the opponent widens base and drops hips to counter the bridge, they create space behind their body. Turn into the opponent and come to your knees behind them, using the backdoor escape pathway. The key is flowing immediately from the failed bridge into the next technique rather than resetting and losing the positional disruption you created.",
+        "answer_line": "Flow straight into ghost escape",
+        "distractors": {
+          "plausible": [
+            "Reset and re-bridge harder",
+            "Switch straight to guard recovery"
+          ],
+          "trap": [
+            "Keep forcing the same roll"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure during an extended period trapped in scarf hold bottom?",
-        "answer": "Prioritize controlled diaphragmatic breathing despite chest compression, using belly breathing rather than chest expansion. Work escapes in tactical bursts timed to opponent's weight shifts rather than constant struggling. Chain escape attempts efficiently so each failed technique flows directly into the next rather than resetting. Accept turtle as a valid intermediate escape position rather than fighting exhaustingly for guard from disadvantaged angles."
+        "answer": "Prioritize controlled diaphragmatic breathing despite chest compression, using belly breathing rather than chest expansion. Work escapes in tactical bursts timed to opponent's weight shifts rather than constant struggling. Chain escape attempts efficiently so each failed technique flows directly into the next rather than resetting. Accept turtle as a valid intermediate escape position rather than fighting exhaustingly for guard from disadvantaged angles.",
+        "answer_line": "Belly breathe, burst escapes",
+        "distractors": {
+          "plausible": [
+            "Struggle constantly at max effort",
+            "Hold your breath and brace hard"
+          ],
+          "trap": [
+            "Fight nonstop for guard"
+          ]
+        }
       },
       {
         "question": "What are the primary recognition cues that indicate a timing window for escape from scarf hold bottom?",
-        "answer": "The primary cues are tactile rather than visual: feeling the opponent's weight shift forward when attacking submissions or transitioning positions, sensing loosened head control when they adjust grips, detecting base narrowing when they reach for attacks. The most reliable window occurs when the opponent releases head control to attack your far arm, as this momentarily frees your head mobility for escape mechanics."
+        "answer": "The primary cues are tactile rather than visual: feeling the opponent's weight shift forward when attacking submissions or transitioning positions, sensing loosened head control when they adjust grips, detecting base narrowing when they reach for attacks. The most reliable window occurs when the opponent releases head control to attack your far arm, as this momentarily frees your head mobility for escape mechanics.",
+        "answer_line": "Feel weight shift, head loosen",
+        "distractors": {
+          "plausible": [
+            "Watch the opponent's eyes",
+            "Wait for the ref to reset you"
+          ],
+          "trap": [
+            "Ignore cues, bridge on a timer"
+          ]
+        }
       }
     ],
     "safety_considerations": "Escaping scarf hold involves explosive bridging movements that stress the cervical spine and lower back. Practice bridge mechanics gradually with progressive resistance to build tolerance. Tap immediately if opponent secures deep submission grips during escape attempts rather than fighting through joint locks. Avoid violent bridging without proper warm-up. When drilling, partners should communicate about pressure levels to prevent rib injuries from sustained hip compression. Stop immediately if experiencing sharp neck pain during bridge-and-turn execution.",
@@ -421,19 +501,59 @@
     "flashcards": [
       {
         "question": "What are the three pillars of scarf hold control that you must maintain to prevent escapes?",
-        "answer": "The three pillars are heavy hip pressure through the ribcage restricting breathing and movement, tight head control with the far arm preventing rotational angles necessary for bridge-and-turn escapes, and firm near arm isolation that eliminates the bottom player's strongest defensive tool. When one pillar is temporarily compromised, the remaining two must compensate while you restore full control."
+        "answer": "The three pillars are heavy hip pressure through the ribcage restricting breathing and movement, tight head control with the far arm preventing rotational angles necessary for bridge-and-turn escapes, and firm near arm isolation that eliminates the bottom player's strongest defensive tool. When one pillar is temporarily compromised, the remaining two must compensate while you restore full control.",
+        "answer_line": "Hip pressure, head, near arm",
+        "distractors": {
+          "plausible": [
+            "Leg control, grips, posture",
+            "Back control, hips, wrist lock"
+          ],
+          "trap": [
+            "Neck crank, hip pressure, legs"
+          ]
+        }
       },
       {
         "question": "Your opponent hooks your near leg and reaches for your far arm - what escape are they setting up and how do you counter it?",
-        "answer": "They are setting up the bridge-and-roll escape, which requires eliminating your posting ability and controlling your base before bridging at 45 degrees toward your trapped arm side. Counter by immediately widening your base with back leg extension, driving hip pressure deeper into their ribs, and either extracting your far arm from their grip or switching to mount transition since their bridge attempt creates the space necessary for stepping over."
+        "answer": "They are setting up the bridge-and-roll escape, which requires eliminating your posting ability and controlling your base before bridging at 45 degrees toward your trapped arm side. Counter by immediately widening your base with back leg extension, driving hip pressure deeper into their ribs, and either extracting your far arm from their grip or switching to mount transition since their bridge attempt creates the space necessary for stepping over.",
+        "answer_line": "Widen base, deepen hips, free arm",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately to escape",
+            "Shrimp away to create space"
+          ],
+          "trap": [
+            "Relax and let the setup finish"
+          ]
+        }
       },
       {
         "question": "When should you transition from defending scarf hold to advancing to mount during an escape attempt?",
-        "answer": "Transition to mount when the bottom player commits to turning away from you or bridging toward your trapped arm side, creating space between their hips and your lower body. The optimal timing is during their committed bridge movement when they cannot redirect defensively. Step over their head or body while maintaining upper body control, converting their escape energy into your positional advancement."
+        "answer": "Transition to mount when the bottom player commits to turning away from you or bridging toward your trapped arm side, creating space between their hips and your lower body. The optimal timing is during their committed bridge movement when they cannot redirect defensively. Step over their head or body while maintaining upper body control, converting their escape energy into your positional advancement.",
+        "answer_line": "When they commit to bridge/turn",
+        "distractors": {
+          "plausible": [
+            "As soon as you feel any movement",
+            "Only after they fully escape"
+          ],
+          "trap": [
+            "Chase the submission instead"
+          ]
+        }
       },
       {
         "question": "How do you counter the ghost escape when the bottom player attempts to turn into your back and come to their knees?",
-        "answer": "The ghost escape exploits forward weight commitment, so the counter begins with recognizing the setup cues. When you feel them turning toward your back, immediately shift weight backward and sit your hips down, removing the space they need to complete the turn. Re-establish head control and pull them back to their side. If they partially complete the turn, switch to attacking their turtle position rather than forcing scarf hold from an awkward angle."
+        "answer": "The ghost escape exploits forward weight commitment, so the counter begins with recognizing the setup cues. When you feel them turning toward your back, immediately shift weight backward and sit your hips down, removing the space they need to complete the turn. Re-establish head control and pull them back to their side. If they partially complete the turn, switch to attacking their turtle position rather than forcing scarf hold from an awkward angle.",
+        "answer_line": "Sit hips back, re-control head",
+        "distractors": {
+          "plausible": [
+            "Chase the far arm harder",
+            "Sprawl forward onto shoulders"
+          ],
+          "trap": [
+            "Force the original angle back"
+          ]
+        }
       }
     ],
     "training_progressions": [

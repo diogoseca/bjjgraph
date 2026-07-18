@@ -258,27 +258,87 @@
     "flashcards": [
       {
         "question": "What is the most critical safety consideration when attempting a heel strip from Ashi Garami?",
-        "answer": "If the heel hook rotation has already begun—meaning the opponent is actively twisting your heel against your knee—you must tap immediately rather than attempt a strip. The stripping motion can actually increase rotational force on the knee during active application, making a bad situation catastrophically worse. The heel strip is a preventive technique that must be executed BEFORE the opponent begins finishing rotation."
+        "answer": "If the heel hook rotation has already begun—meaning the opponent is actively twisting your heel against your knee—you must tap immediately rather than attempt a strip. The stripping motion can actually increase rotational force on the knee during active application, making a bad situation catastrophically worse. The heel strip is a preventive technique that must be executed BEFORE the opponent begins finishing rotation.",
+        "answer_line": "Tap if rotation already started",
+        "distractors": {
+          "plausible": [
+            "Strip through active rotation",
+            "Wait for a clearer opening"
+          ],
+          "trap": [
+            "Strip harder to beat the finish"
+          ]
+        }
       },
       {
         "question": "Why must the grip be stripped below the ankle line rather than simply pulled sideways?",
-        "answer": "Stripping sideways leaves the opponent's hand at the same height as your heel, allowing them to immediately slide their grip back into heel-controlling position. Stripping below the ankle line—down toward the toes—clears the hand past the widest part of the heel, creating physical distance that requires the opponent to completely re-establish their grip rather than simply adjusting."
+        "answer": "Stripping sideways leaves the opponent's hand at the same height as your heel, allowing them to immediately slide their grip back into heel-controlling position. Stripping below the ankle line—down toward the toes—clears the hand past the widest part of the heel, creating physical distance that requires the opponent to completely re-establish their grip rather than simply adjusting.",
+        "answer_line": "Strip down past the ankle line",
+        "distractors": {
+          "plausible": [
+            "Pull the grip straight sideways",
+            "Push grip up toward the calf"
+          ],
+          "trap": [
+            "Yank grip up and toward you"
+          ]
+        }
       },
       {
         "question": "Your opponent has a tight Gable grip on your heel in Inside Ashi—how do you establish your two-on-one?",
-        "answer": "Target the wrist of the hand that is directly cupping under your heel. In a Gable grip, breaking the hand connection is the priority. Wedge your fingers between their clasped hands at the wrist junction, then pry the controlling hand off your heel using both hands for leverage. If the Gable grip is too strong, create angle by hip-escaping to reduce their leverage before re-attempting the pry."
+        "answer": "Target the wrist of the hand that is directly cupping under your heel. In a Gable grip, breaking the hand connection is the priority. Wedge your fingers between their clasped hands at the wrist junction, then pry the controlling hand off your heel using both hands for leverage. If the Gable grip is too strong, create angle by hip-escaping to reduce their leverage before re-attempting the pry.",
+        "answer_line": "Wedge and pry the cupping wrist",
+        "distractors": {
+          "plausible": [
+            "Grab both wrists at once",
+            "Pry the top hand first"
+          ],
+          "trap": [
+            "Yank leg free while gripped"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after successfully stripping the opponent's heel grip?",
-        "answer": "Straighten your leg forcefully and push against the opponent's body with your free foot in one continuous motion. Do not pause after the strip—immediately transition to leg extraction and guard recovery. Place feet on hips and establish controlling grips within two seconds of extracting the leg. The strip-to-guard-recovery must be one unbroken sequence to prevent re-gripping."
+        "answer": "Straighten your leg forcefully and push against the opponent's body with your free foot in one continuous motion. Do not pause after the strip—immediately transition to leg extraction and guard recovery. Place feet on hips and establish controlling grips within two seconds of extracting the leg. The strip-to-guard-recovery must be one unbroken sequence to prevent re-gripping.",
+        "answer_line": "Extract leg, recover guard fast",
+        "distractors": {
+          "plausible": [
+            "Pause to check your position",
+            "Reset grip before extracting"
+          ],
+          "trap": [
+            "Stay entangled to control leg"
+          ]
+        }
       },
       {
         "question": "Your opponent switches from heel hook to toe hold grip as you begin your heel strip—how do you adjust?",
-        "answer": "Recognize the submission switch immediately and redirect your defense. For a toe hold, the primary danger is foot rotation rather than heel exposure. Straighten your leg to resist the toe hold rotation and work to free your foot from their figure-four grip. The two-on-one strip mechanics still apply but target a different grip configuration and force direction."
+        "answer": "Recognize the submission switch immediately and redirect your defense. For a toe hold, the primary danger is foot rotation rather than heel exposure. Straighten your leg to resist the toe hold rotation and work to free your foot from their figure-four grip. The two-on-one strip mechanics still apply but target a different grip configuration and force direction.",
+        "answer_line": "Straighten leg, free the foot",
+        "distractors": {
+          "plausible": [
+            "Keep defending the heel hook",
+            "Curl the foot to escape faster"
+          ],
+          "trap": [
+            "Twist your foot against grip"
+          ]
+        }
       },
       {
         "question": "Why is the boot defense essential before initiating the heel strip?",
-        "answer": "The boot defense—straightening the leg and pointing the toes—buys time by making it mechanically difficult for the opponent to apply heel hook rotation even while maintaining grip contact. Without this preliminary defense, the opponent can finish the heel hook while you are still working to establish your two-on-one grip. The boot defense creates the safety window during which you transition from passive defense to active grip fighting."
+        "answer": "The boot defense—straightening the leg and pointing the toes—buys time by making it mechanically difficult for the opponent to apply heel hook rotation even while maintaining grip contact. Without this preliminary defense, the opponent can finish the heel hook while you are still working to establish your two-on-one grip. The boot defense creates the safety window during which you transition from passive defense to active grip fighting.",
+        "answer_line": "Straighten leg, point the toes",
+        "distractors": {
+          "plausible": [
+            "Grip fight before defending",
+            "Bend knee to reduce pressure"
+          ],
+          "trap": [
+            "Rotate hips into the grip"
+          ]
+        }
       },
       {
         "question": "In what Ashi Garami variation is the heel strip most urgent and why?",
@@ -395,15 +455,45 @@
     "flashcards": [
       {
         "question": "What is the earliest cue that your opponent is about to attempt a heel strip from Ashi Garami?",
-        "answer": "The earliest cue is the opponent straightening their trapped leg and pointing their toes in boot defense, which typically precedes the strip by one to two seconds. This boot defense reduces your finishing mechanics and signals preparation for active grip fighting. Recognize this cue and immediately make a decision: reinforce your grip, switch grip angle, or accelerate your finish before the two-on-one materializes on your wrist."
+        "answer": "The earliest cue is the opponent straightening their trapped leg and pointing their toes in boot defense, which typically precedes the strip by one to two seconds. This boot defense reduces your finishing mechanics and signals preparation for active grip fighting. Recognize this cue and immediately make a decision: reinforce your grip, switch grip angle, or accelerate your finish before the two-on-one materializes on your wrist.",
+        "answer_line": "Opponent straightens, points toes",
+        "distractors": {
+          "plausible": [
+            "Opponent grabs your other leg",
+            "Opponent postures up and pauses"
+          ],
+          "trap": [
+            "Opponent taps to reset position"
+          ]
+        }
       },
       {
         "question": "Your opponent has established two-on-one control on your heel-controlling wrist—what is your best response?",
-        "answer": "Release and immediately re-grip from a different angle rather than fighting the two-on-one with strength. Let go of the heel with the targeted hand, circle your wrist free from their control, and re-establish your heel grip from behind their hands. Alternatively, use the moment they are focused on your wrist to advance your leg position to Saddle or Cross Ashi, where the stronger entanglement compensates for temporary grip loss."
+        "answer": "Release and immediately re-grip from a different angle rather than fighting the two-on-one with strength. Let go of the heel with the targeted hand, circle your wrist free from their control, and re-establish your heel grip from behind their hands. Alternatively, use the moment they are focused on your wrist to advance your leg position to Saddle or Cross Ashi, where the stronger entanglement compensates for temporary grip loss.",
+        "answer_line": "Release, re-grip from new angle",
+        "distractors": {
+          "plausible": [
+            "Pull harder against both hands",
+            "Hold grip until they tire out"
+          ],
+          "trap": [
+            "Fight strength against two hands"
+          ]
+        }
       },
       {
         "question": "How should you maintain offensive pressure when your heel grip has been partially stripped by the opponent?",
-        "answer": "Transition immediately to an alternative submission—straight ankle lock or toe hold—using the same leg entanglement that remains intact. The stripped heel grip means the heel hook is temporarily unavailable, but your positional control through leg entanglement remains. Apply the alternative submission to maintain offensive pressure while simultaneously working to re-establish heel control for the primary attack."
+        "answer": "Transition immediately to an alternative submission—straight ankle lock or toe hold—using the same leg entanglement that remains intact. The stripped heel grip means the heel hook is temporarily unavailable, but your positional control through leg entanglement remains. Apply the alternative submission to maintain offensive pressure while simultaneously working to re-establish heel control for the primary attack.",
+        "answer_line": "Switch to ankle lock or toe hold",
+        "distractors": {
+          "plausible": [
+            "Abandon entanglement, reset guard",
+            "Wait to fully regrip the heel"
+          ],
+          "trap": [
+            "Force the heel hook grip back on"
+          ]
+        }
       }
     ],
     "training_progressions": [

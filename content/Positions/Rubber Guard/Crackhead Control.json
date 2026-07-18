@@ -320,35 +320,115 @@
     "flashcards": [
       {
         "question": "What is the primary defensive priority when trapped in Crackhead Control from top?",
-        "answer": "The primary defensive priority is systematic arm extraction combined with posture recovery. The trapped arm severely limits passing mechanics and defensive options, so freeing it must precede any serious passing attempts. This should be done through small circular motions rather than explosive pulling, which triggers omoplata entries."
+        "answer": "The primary defensive priority is systematic arm extraction combined with posture recovery. The trapped arm severely limits passing mechanics and defensive options, so freeing it must precede any serious passing attempts. This should be done through small circular motions rather than explosive pulling, which triggers omoplata entries.",
+        "answer_line": "Small circles, free the arm",
+        "distractors": {
+          "plausible": [
+            "Posture up before freeing arm",
+            "Fight grips, ignore posture"
+          ],
+          "trap": [
+            "Yank arm free explosively"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution to avoid triggering gogoplata setups?",
-        "answer": "Maintain moderate forward pressure through your hips and chest rather than diving your head forward. Excessive forward pressure triggers gogoplata and Carni transitions because it provides the bottom player with the momentum needed to thread their shin across your throat. Keep pressure steady but not overwhelming."
+        "answer": "Maintain moderate forward pressure through your hips and chest rather than diving your head forward. Excessive forward pressure triggers gogoplata and Carni transitions because it provides the bottom player with the momentum needed to thread their shin across your throat. Keep pressure steady but not overwhelming.",
+        "answer_line": "Moderate pressure, no head dive",
+        "distractors": {
+          "plausible": [
+            "Sit back to reduce pressure",
+            "Drive chest down hard"
+          ],
+          "trap": [
+            "Dive head forward heavily"
+          ]
+        }
       },
       {
         "question": "Your opponent's hip angle suddenly changes as they shift weight to their left hip - what does this signal?",
-        "answer": "Hip angle changes signal specific submission entries. A shift to one hip typically indicates omoplata setup if rotating the trapped arm outward, or triangle setup if the hips are opening to create space for the leg to swing over. Recognizing these cues allows preemptive defensive adjustments before the submission is fully established."
+        "answer": "Hip angle changes signal specific submission entries. A shift to one hip typically indicates omoplata setup if rotating the trapped arm outward, or triangle setup if the hips are opening to create space for the leg to swing over. Recognizing these cues allows preemptive defensive adjustments before the submission is fully established.",
+        "answer_line": "Signals omoplata or triangle",
+        "distractors": {
+          "plausible": [
+            "Signals a sweep attempt",
+            "Signals guard retention only"
+          ],
+          "trap": [
+            "Ignore it, press forward"
+          ]
+        }
       },
       {
         "question": "What are the essential base fundamentals for surviving Crackhead Control from top?",
-        "answer": "Keep feet wide with knees slightly bent to create a stable platform that resists sweeps. The free arm must remain posted to provide counter-pressure and prevent being rolled. Weight distribution should be balanced - not too far forward (triggers gogoplata) or too far back (allows free hip movement). Base must be mobile and reactive to opponent's movements."
+        "answer": "Keep feet wide with knees slightly bent to create a stable platform that resists sweeps. The free arm must remain posted to provide counter-pressure and prevent being rolled. Weight distribution should be balanced - not too far forward (triggers gogoplata) or too far back (allows free hip movement). Base must be mobile and reactive to opponent's movements.",
+        "answer_line": "Wide base, post arm, balance",
+        "distractors": {
+          "plausible": [
+            "Narrow base for mobility",
+            "Weight forward for control"
+          ],
+          "trap": [
+            "Lean back on heels fully"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to attempt a back take from top position in Crackhead Control?",
-        "answer": "The back take window opens when the bottom player commits aggressively to submission finishes, particularly when they extend their legs for triangle or omoplata setups. This extension creates temporary back exposure. The key is recognizing these moments rather than forcing the back take, as premature attempts result in the opponent simply returning to closed guard."
+        "answer": "The back take window opens when the bottom player commits aggressively to submission finishes, particularly when they extend their legs for triangle or omoplata setups. This extension creates temporary back exposure. The key is recognizing these moments rather than forcing the back take, as premature attempts result in the opponent simply returning to closed guard.",
+        "answer_line": "Take back when legs extend",
+        "distractors": {
+          "plausible": [
+            "Any leg movement signals it",
+            "Wait for full mount instead"
+          ],
+          "trap": [
+            "Release overhook, dive for back"
+          ]
+        }
       },
       {
         "question": "What should you do immediately if your opponent establishes double underhooks from Crackhead Control?",
-        "answer": "If you're the top player and opponent gets double underhooks, this actually signals danger for THEM - they've abandoned the overhook control. Immediately capitalize by stacking and passing, as they've given up their primary control mechanism. However, be aware they may be setting up a sweep, so maintain wide base during the pass."
+        "answer": "If you're the top player and opponent gets double underhooks, this actually signals danger for THEM - they've abandoned the overhook control. Immediately capitalize by stacking and passing, as they've given up their primary control mechanism. However, be aware they may be setting up a sweep, so maintain wide base during the pass.",
+        "answer_line": "Stack and pass immediately",
+        "distractors": {
+          "plausible": [
+            "Retreat to guard immediately",
+            "Ignore it, keep hunting sub"
+          ],
+          "trap": [
+            "Release overhook to counter"
+          ]
+        }
       },
       {
         "question": "How do you recover position after partially escaping but still having posture broken?",
-        "answer": "Work incrementally rather than trying to fully posture in one movement. First, establish your free arm as a strong post. Then begin small arm circles to reduce overhook depth while maintaining base. Use hip pressure combined with gradual posture elevation. The goal is systematic improvement of your position rather than explosive escape attempts."
+        "answer": "Work incrementally rather than trying to fully posture in one movement. First, establish your free arm as a strong post. Then begin small arm circles to reduce overhook depth while maintaining base. Use hip pressure combined with gradual posture elevation. The goal is systematic improvement of your position rather than explosive escape attempts.",
+        "answer_line": "Post arm, small circles, gradual",
+        "distractors": {
+          "plausible": [
+            "Grip fight before posting arm",
+            "One big explosive posture up"
+          ],
+          "trap": [
+            "Push off with head first"
+          ]
+        }
       },
       {
         "question": "Why is passive defense particularly dangerous in Crackhead Control top position?",
-        "answer": "Passive defense allows the bottom player to freely cycle through their submission chain without time pressure or positional degradation. They can optimize their offense by making incremental angle adjustments until finding a successful entry. Active defense forces mistakes and prevents the bottom player from establishing their preferred submission sequence."
+        "answer": "Passive defense allows the bottom player to freely cycle through their submission chain without time pressure or positional degradation. They can optimize their offense by making incremental angle adjustments until finding a successful entry. Active defense forces mistakes and prevents the bottom player from establishing their preferred submission sequence.",
+        "answer_line": "Stay active, deny angle time",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to tire",
+            "Match their pace calmly"
+          ],
+          "trap": [
+            "Turtle up defensively"
+          ]
+        }
       }
     ],
     "clips": [
@@ -658,35 +738,115 @@
     "flashcards": [
       {
         "question": "What is the minimum overhook depth required for sustainable Crackhead Control?",
-        "answer": "The overhooking hand must reach behind the opponent's shoulder blade or lat muscle, with the elbow pointing toward the ceiling and forearm crossing diagonally across their back. Anything shallower - such as gripping at the elbow - allows the opponent to extract the arm through straightening and posturing, collapsing the position entirely."
+        "answer": "The overhooking hand must reach behind the opponent's shoulder blade or lat muscle, with the elbow pointing toward the ceiling and forearm crossing diagonally across their back. Anything shallower - such as gripping at the elbow - allows the opponent to extract the arm through straightening and posturing, collapsing the position entirely.",
+        "answer_line": "Past shoulder blade, elbow up",
+        "distractors": {
+          "plausible": [
+            "Grip at the elbow is enough",
+            "Hook forearm only, skip shoulder"
+          ],
+          "trap": [
+            "Grip only the wrist tightly"
+          ]
+        }
       },
       {
         "question": "How do you maintain constant downward pressure with the leg across the opponent's back?",
-        "answer": "Actively pull the knee toward your chest while keeping the shin pressed across the opponent's upper back or neck. The leg should feel like it's constantly dragging their posture down rather than passively resting on them. This creates a lever system where their posturing attempts actually increase pressure on the trapped arm."
+        "answer": "Actively pull the knee toward your chest while keeping the shin pressed across the opponent's upper back or neck. The leg should feel like it's constantly dragging their posture down rather than passively resting on them. This creates a lever system where their posturing attempts actually increase pressure on the trapped arm.",
+        "answer_line": "Pull knee to chest, drag down",
+        "distractors": {
+          "plausible": [
+            "Rest shin passively on back",
+            "Push shin down with foot"
+          ],
+          "trap": [
+            "Let leg relax between attempts"
+          ]
+        }
       },
       {
         "question": "Your opponent starts circling toward your exposed back side - what immediate adjustment do you make?",
-        "answer": "Immediately engage your free leg more actively - either by establishing a strong butterfly hook on their hip, posting on the mat, or hooking behind their leg to arrest the hip rotation. If they continue the movement, abandon the submission hunting and transition to closed guard or technical standup before the back exposure becomes critical."
+        "answer": "Immediately engage your free leg more actively - either by establishing a strong butterfly hook on their hip, posting on the mat, or hooking behind their leg to arrest the hip rotation. If they continue the movement, abandon the submission hunting and transition to closed guard or technical standup before the back exposure becomes critical.",
+        "answer_line": "Hook free leg, arrest rotation",
+        "distractors": {
+          "plausible": [
+            "Squeeze overhook tighter",
+            "Ignore it, finish the sub"
+          ],
+          "trap": [
+            "Let them complete the roll"
+          ]
+        }
       },
       {
         "question": "What are the grip priorities for maintaining Crackhead Control?",
-        "answer": "The deep overhook is the primary anchor and must never be compromised. Hand placement behind the shoulder blade with elbow pointing up is critical. Secondary priority is the leg position across their back maintaining downward pressure. The free leg connection for hip control comes third but becomes first priority if back exposure danger emerges."
+        "answer": "The deep overhook is the primary anchor and must never be compromised. Hand placement behind the shoulder blade with elbow pointing up is critical. Secondary priority is the leg position across their back maintaining downward pressure. The free leg connection for hip control comes third but becomes first priority if back exposure danger emerges.",
+        "answer_line": "Overhook first, leg second",
+        "distractors": {
+          "plausible": [
+            "Free leg hip control first",
+            "Leg-across-back is top priority"
+          ],
+          "trap": [
+            "Release overhook for leg control"
+          ]
+        }
       },
       {
         "question": "How do you recognize when to transition from gogoplata attempt to omoplata?",
-        "answer": "When the opponent defends the gogoplata by keeping their head posture strong and pulling back rather than driving forward, the omoplata becomes available. Their arm pulling back motion actually sets up the omoplata rotation. Recognize this through the direction of their weight shift - backward momentum favors omoplata, forward momentum favors gogoplata continuation."
+        "answer": "When the opponent defends the gogoplata by keeping their head posture strong and pulling back rather than driving forward, the omoplata becomes available. Their arm pulling back motion actually sets up the omoplata rotation. Recognize this through the direction of their weight shift - backward momentum favors omoplata, forward momentum favors gogoplata continuation.",
+        "answer_line": "Backward pull signals omoplata",
+        "distractors": {
+          "plausible": [
+            "Forward pressure signals omoplata",
+            "Tap if defense pulls back"
+          ],
+          "trap": [
+            "Force gogoplata regardless"
+          ]
+        }
       },
       {
         "question": "Your opponent achieves double underhooks while you're hunting a submission - what's your immediate response?",
-        "answer": "Double underhooks signal critical danger requiring immediate position change regardless of how close your submission attempt is. Abandon the attack and either transition to closed guard by releasing the overhook and closing your legs, or initiate technical standup. This is a red-line trigger that overrides all offensive intentions because stack passes and back takes become extremely high percentage from double underhooks."
+        "answer": "Double underhooks signal critical danger requiring immediate position change regardless of how close your submission attempt is. Abandon the attack and either transition to closed guard by releasing the overhook and closing your legs, or initiate technical standup. This is a red-line trigger that overrides all offensive intentions because stack passes and back takes become extremely high percentage from double underhooks.",
+        "answer_line": "Abandon attack, standup or guard",
+        "distractors": {
+          "plausible": [
+            "Finish the submission quickly",
+            "Fight grips before responding"
+          ],
+          "trap": [
+            "Keep hunting the submission"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to make Crackhead Control sustainable?",
-        "answer": "The deep overhook maintains control without constant grip fighting, so let it do the work rather than squeezing hard. Cycle through submission attempts smoothly rather than forcing individual techniques. Keep the leg across the back engaged but not cramping by pulling with hip flexors rather than just the leg muscles. The position should feel sustainable - if it requires maximum effort to maintain, the mechanics are wrong."
+        "answer": "The deep overhook maintains control without constant grip fighting, so let it do the work rather than squeezing hard. Cycle through submission attempts smoothly rather than forcing individual techniques. Keep the leg across the back engaged but not cramping by pulling with hip flexors rather than just the leg muscles. The position should feel sustainable - if it requires maximum effort to maintain, the mechanics are wrong.",
+        "answer_line": "Let overhook work, don't squeeze",
+        "distractors": {
+          "plausible": [
+            "Grip as hard as possible",
+            "Force each submission fully"
+          ],
+          "trap": [
+            "Muscle through with max effort"
+          ]
+        }
       },
       {
         "question": "What flexibility requirements must be developed to safely use Crackhead Control?",
-        "answer": "Hip flexor and external rotation flexibility are essential for maintaining the leg across the opponent's back without excessive strain. If you experience cramping or discomfort in the hip area, your flexibility is insufficient and you should use Mission Control or New York instead while developing mobility. Forcing the position with inadequate flexibility leads to unsustainable positions and potential injury."
+        "answer": "Hip flexor and external rotation flexibility are essential for maintaining the leg across the opponent's back without excessive strain. If you experience cramping or discomfort in the hip area, your flexibility is insufficient and you should use Mission Control or New York instead while developing mobility. Forcing the position with inadequate flexibility leads to unsustainable positions and potential injury.",
+        "answer_line": "Hip flexor mobility, or switch out",
+        "distractors": {
+          "plausible": [
+            "Push through the cramping pain",
+            "Only shoulder flexibility matters"
+          ],
+          "trap": [
+            "Force the leg position anyway"
+          ]
+        }
       }
     ],
     "clips": [
@@ -722,35 +882,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Crackhead Control and distinguishes it from other rubber guard positions?",
-      "answer": "Crackhead Control is defined by an exceptionally deep overhook on the opponent's arm combined with a leg draped across the opponent's upper back or neck, breaking their posture forward. The overhook must penetrate past the opponent's shoulder blade so the arm is genuinely hooked rather than merely controlled. This deep-overhook-plus-leg pairing creates an asymmetric trap that isolates one of the opponent's arms while pulling their spine into flexion. It is this depth and the accepted back exposure that separate it from tighter, safer rubber guard configurations like Mission Control."
+      "answer": "Crackhead Control is defined by an exceptionally deep overhook on the opponent's arm combined with a leg draped across the opponent's upper back or neck, breaking their posture forward. The overhook must penetrate past the opponent's shoulder blade so the arm is genuinely hooked rather than merely controlled. This deep-overhook-plus-leg pairing creates an asymmetric trap that isolates one of the opponent's arms while pulling their spine into flexion. It is this depth and the accepted back exposure that separate it from tighter, safer rubber guard configurations like Mission Control.",
+      "answer_line": "Deep overhook plus leg across back",
+      "distractors": {
+        "plausible": [
+          "Both arms overhooked symmetrically",
+          "Leg across back, no overhook"
+        ],
+        "trap": [
+          "Shallow overhook, tight guard"
+        ]
+      }
     },
     {
       "question": "How does the interaction between the deep overhook and the leg across the back function as a single lever system?",
-      "answer": "The overhook anchors the opponent's trapped arm while the leg pressing across their upper back drives their posture forward and down. Because both control points act on the same shoulder girdle, any attempt to posture upward feeds tension back into the trapped arm rather than relieving it. The knee actively pulling toward the bottom player's chest tightens this loop, so the two contact points reinforce each other instead of working independently. This coupling is why posture recovery from the position cannot be achieved through a single explosive movement."
+      "answer": "The overhook anchors the opponent's trapped arm while the leg pressing across their upper back drives their posture forward and down. Because both control points act on the same shoulder girdle, any attempt to posture upward feeds tension back into the trapped arm rather than relieving it. The knee actively pulling toward the bottom player's chest tightens this loop, so the two contact points reinforce each other instead of working independently. This coupling is why posture recovery from the position cannot be achieved through a single explosive movement.",
+      "answer_line": "Overhook and leg lock together",
+      "distractors": {
+        "plausible": [
+          "They work independently",
+          "Leg controls, overhook passive"
+        ],
+        "trap": [
+          "Release leg to free the overhook"
+        ]
+      }
     },
     {
       "question": "Why is the position described as a forcing mechanism that denies the opponent a neutral option?",
-      "answer": "The deep overhook and posture break place both players in immediate tactical tension where remaining passive is not viable. If the top player commits weight forward, they open gogoplata and Carni threats; if they pull back or posture, they expose the trapped arm to omoplata and triangle entries. Every defensive choice therefore opens a different attacking pathway rather than resolving the danger. This dilemma-creation dynamic, central to the 10th Planet approach, is what makes the position mechanically distinct from waiting-game guards."
+      "answer": "The deep overhook and posture break place both players in immediate tactical tension where remaining passive is not viable. If the top player commits weight forward, they open gogoplata and Carni threats; if they pull back or posture, they expose the trapped arm to omoplata and triangle entries. Every defensive choice therefore opens a different attacking pathway rather than resolving the danger. This dilemma-creation dynamic, central to the 10th Planet approach, is what makes the position mechanically distinct from waiting-game guards.",
+      "answer_line": "Every defense opens new attack",
+      "distractors": {
+        "plausible": [
+          "Staying still is always safest",
+          "Only forward pressure is risky"
+        ],
+        "trap": [
+          "Posture straight up to escape"
+        ]
+      }
     },
     {
       "question": "What role does the back-exposure trade-off play in the fundamental character of Crackhead Control?",
-      "answer": "The position deliberately sacrifices positional safety by rotating the bottom player's hips and exposing their back in exchange for submission access and control depth. This exposure is the defining risk that gives the position its name and shapes the dynamics for both players. The free leg and hip connection become the sole mechanism keeping the exposure from being completed into a back take, while the opposing central opportunity is capitalizing on that same exposure. The entire exchange revolves around whether the exposure is converted before the overhook produces a finish."
+      "answer": "The position deliberately sacrifices positional safety by rotating the bottom player's hips and exposing their back in exchange for submission access and control depth. This exposure is the defining risk that gives the position its name and shapes the dynamics for both players. The free leg and hip connection become the sole mechanism keeping the exposure from being completed into a back take, while the opposing central opportunity is capitalizing on that same exposure. The entire exchange revolves around whether the exposure is converted before the overhook produces a finish.",
+      "answer_line": "Trades back exposure for subs",
+      "distractors": {
+        "plausible": [
+          "No real risk to bottom player",
+          "Exposure only matters late"
+        ],
+        "trap": [
+          "Abandon hip control for offense"
+        ]
+      }
     },
     {
       "question": "Why does establishing double underhooks fundamentally change the balance of Crackhead Control?",
-      "answer": "Double underhooks by the top player mean the deep overhook control has been compromised, because the trapped arm can no longer be isolated once the opponent frames underneath. This collapses the lever system that makes the position work and shifts momentum decisively toward stacking and passing. It functions as a red-line trigger: its presence signals that the configuration has broken down rather than that a submission is imminent. For this reason both players treat double-underhook establishment as the pivotal event that ends the position's characteristic tension."
+      "answer": "Double underhooks by the top player mean the deep overhook control has been compromised, because the trapped arm can no longer be isolated once the opponent frames underneath. This collapses the lever system that makes the position work and shifts momentum decisively toward stacking and passing. It functions as a red-line trigger: its presence signals that the configuration has broken down rather than that a submission is imminent. For this reason both players treat double-underhook establishment as the pivotal event that ends the position's characteristic tension.",
+      "answer_line": "Underhooks break the overhook lock",
+      "distractors": {
+        "plausible": [
+          "Underhooks mean sub is close",
+          "Underhooks are low priority"
+        ],
+        "trap": [
+          "Keep attacking, ignore underhooks"
+        ]
+      }
     },
     {
       "question": "Why does Crackhead Control carry an asymmetric energy cost between its two players?",
-      "answer": "The deep overhook maintains control passively through skeletal hooking rather than continuous grip strength, and the leg across the back is held with hip flexor engagement rather than raw leg squeezing, so the attacking side sustains control with modest effort. The defending top player, by contrast, carries a high cognitive and physical load managing the trapped arm and cycling through shifting threats. This energy asymmetry lets the offense cycle through the submission chain while the defense fatigues. It is a defining feature that makes the position more sustainable than its chaotic appearance suggests."
+      "answer": "The deep overhook maintains control passively through skeletal hooking rather than continuous grip strength, and the leg across the back is held with hip flexor engagement rather than raw leg squeezing, so the attacking side sustains control with modest effort. The defending top player, by contrast, carries a high cognitive and physical load managing the trapped arm and cycling through shifting threats. This energy asymmetry lets the offense cycle through the submission chain while the defense fatigues. It is a defining feature that makes the position more sustainable than its chaotic appearance suggests.",
+      "answer_line": "Attacker rests, defender fatigues",
+      "distractors": {
+        "plausible": [
+          "Both players tire equally",
+          "Bottom player works hardest"
+        ],
+        "trap": [
+          "Top player should relax fully"
+        ]
+      }
     },
     {
       "question": "What connects the position's multiple submission threats into a continuous chain rather than isolated attacks?",
-      "answer": "The deep overhook acts as a constant anchor point that remains secured while the legs reconfigure between triangle, omoplata, and gogoplata setups. Because control is never fully released to switch attacks, a successful defense of one submission typically feeds directly into the entry angle for the next. Hip angle adjustments alone shift which threat is live without rebuilding the position from scratch. This submission-chain connectivity is a core dynamic of the configuration and is why defending a single attack rarely produces genuine safety."
+      "answer": "The deep overhook acts as a constant anchor point that remains secured while the legs reconfigure between triangle, omoplata, and gogoplata setups. Because control is never fully released to switch attacks, a successful defense of one submission typically feeds directly into the entry angle for the next. Hip angle adjustments alone shift which threat is live without rebuilding the position from scratch. This submission-chain connectivity is a core dynamic of the configuration and is why defending a single attack rarely produces genuine safety.",
+      "answer_line": "Overhook anchors a chain of subs",
+      "distractors": {
+        "plausible": [
+          "Each submission resets position",
+          "Defending one ends all threats"
+        ],
+        "trap": [
+          "Release overhook between attempts"
+        ]
+      }
     },
     {
       "question": "How does Crackhead Control differ from the Mission Control and New York positions it commonly transitions from?",
-      "answer": "Mission Control and New York are the more conservative rubber guard anchors that prioritize a stable posture break with less committed hip rotation and shallower overhook engagement. Crackhead Control emerges from these when the overhook is driven deeper and the hips rotate further, trading their relative safety for submission density and accepting back exposure. The adjacent positions can therefore be recovered to as a safer fallback when exposure becomes dangerous, whereas Crackhead is the higher-risk terminal expression of the same overhook family. The distinction is one of overhook depth and committed exposure rather than a different control mechanism."
+      "answer": "Mission Control and New York are the more conservative rubber guard anchors that prioritize a stable posture break with less committed hip rotation and shallower overhook engagement. Crackhead Control emerges from these when the overhook is driven deeper and the hips rotate further, trading their relative safety for submission density and accepting back exposure. The adjacent positions can therefore be recovered to as a safer fallback when exposure becomes dangerous, whereas Crackhead is the higher-risk terminal expression of the same overhook family. The distinction is one of overhook depth and committed exposure rather than a different control mechanism.",
+      "answer_line": "Deeper overhook, more risk-reward",
+      "distractors": {
+        "plausible": [
+          "Same control, different name only",
+          "Mission Control is higher risk"
+        ],
+        "trap": [
+          "Fall back to Crackhead in danger"
+        ]
+      }
     }
   ],
   "clips": [

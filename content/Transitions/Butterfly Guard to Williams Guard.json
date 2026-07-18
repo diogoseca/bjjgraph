@@ -243,31 +243,101 @@
     "flashcards": [
       {
         "question": "Why must you collapse the opponent's elbow before threading the figure-four?",
-        "answer": "A straight arm slides out of the shoulder lock because there is no bend to bind the joint, so the opponent simply extracts the limb. Collapsing the elbow toward your chest shortens the lever, isolates the shoulder, and creates the folded structure the figure-four needs to control shoulder rotation and pose a genuine submission threat."
+        "answer": "A straight arm slides out of the shoulder lock because there is no bend to bind the joint, so the opponent simply extracts the limb. Collapsing the elbow toward your chest shortens the lever, isolates the shoulder, and creates the folded structure the figure-four needs to control shoulder rotation and pose a genuine submission threat.",
+        "answer_line": "Fold elbow to isolate shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip low at the wrist first",
+            "Keep arm straight, lock fast"
+          ],
+          "trap": [
+            "Lock straight arm right away"
+          ]
+        }
       },
       {
         "question": "How does the opponent's own action create the entry into Williams Guard from butterfly?",
-        "answer": "The entry relies on the opponent committing their arm forward. When they reach to grip your collar, post a hand on the mat to defend a sweep, or drive forward to pressure your butterfly guard, they feed that arm directly into your overhook range. Letting these reactions deliver the arm is higher percentage than forcing the lock on a defended, retracted limb."
+        "answer": "The entry relies on the opponent committing their arm forward. When they reach to grip your collar, post a hand on the mat to defend a sweep, or drive forward to pressure your butterfly guard, they feed that arm directly into your overhook range. Letting these reactions deliver the arm is higher percentage than forcing the lock on a defended, retracted limb.",
+        "answer_line": "Let them feed the arm forward",
+        "distractors": {
+          "plausible": [
+            "Grip fight for the overhook",
+            "Wait for them to retreat"
+          ],
+          "trap": [
+            "Force the overhook through guard"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent rips their arm out before you finish the figure-four?",
-        "answer": "Do not chase the escaping arm, as over-extending exposes you to a pass. Instead re-pommel for the overhook or switch to a same-side underhook, reset your butterfly hooks and frames, and retain butterfly guard. The failure outcome should always return you to a safe guard rather than a scramble that concedes top position."
+        "answer": "Do not chase the escaping arm, as over-extending exposes you to a pass. Instead re-pommel for the overhook or switch to a same-side underhook, reset your butterfly hooks and frames, and retain butterfly guard. The failure outcome should always return you to a safe guard rather than a scramble that concedes top position.",
+        "answer_line": "Reset to butterfly, don't chase",
+        "distractors": {
+          "plausible": [
+            "Chase the arm to re-grip",
+            "Switch to closed guard"
+          ],
+          "trap": [
+            "Dive for a scramble sweep"
+          ]
+        }
       },
       {
         "question": "Why do you angle your hips away from the opponent's free arm once the lock is set?",
-        "answer": "Angling away from the free arm deepens the shoulder isolation, removes the space the opponent needs to dig a defensive underhook, and lines your legs up to threaten sweeps and the omoplata. Staying squared lets them drive forward and underhook, which neutralizes the shoulder lock and stalls your offense."
+        "answer": "Angling away from the free arm deepens the shoulder isolation, removes the space the opponent needs to dig a defensive underhook, and lines your legs up to threaten sweeps and the omoplata. Staying squared lets them drive forward and underhook, which neutralizes the shoulder lock and stalls your offense.",
+        "answer_line": "Deepens isolation, blocks underhook",
+        "distractors": {
+          "plausible": [
+            "Square up to control both arms",
+            "Angle toward the free arm"
+          ],
+          "trap": [
+            "Flatten out and drive forward"
+          ]
+        }
       },
       {
         "question": "Where should the figure-four grip sit and why does grip height matter?",
-        "answer": "The figure-four should sit high around the opponent's upper arm near the shoulder joint, not low at the wrist or forearm. A high grip controls shoulder rotation and produces a real joint threat, while a low grip only traps the forearm and lets the opponent rotate their shoulder free, so the lock never becomes the dilemma that defines Williams Guard."
+        "answer": "The figure-four should sit high around the opponent's upper arm near the shoulder joint, not low at the wrist or forearm. A high grip controls shoulder rotation and produces a real joint threat, while a low grip only traps the forearm and lets the opponent rotate their shoulder free, so the lock never becomes the dilemma that defines Williams Guard.",
+        "answer_line": "High, near the shoulder joint",
+        "distractors": {
+          "plausible": [
+            "Low at the wrist",
+            "Mid-forearm for leverage"
+          ],
+          "trap": [
+            "Grip low to trap the forearm"
+          ]
+        }
       },
       {
         "question": "How do you keep the entry safe so a failed shoulder lock does not cost you the guard?",
-        "answer": "Maintain at least one active butterfly hook or leg frame throughout the entire entry rather than committing both legs to the arm. With a hook or frame still managing distance, a denied shoulder lock simply leaves you in butterfly guard, so the worst realistic outcome is a reset rather than being flattened and passed."
+        "answer": "Maintain at least one active butterfly hook or leg frame throughout the entire entry rather than committing both legs to the arm. With a hook or frame still managing distance, a denied shoulder lock simply leaves you in butterfly guard, so the worst realistic outcome is a reset rather than being flattened and passed.",
+        "answer_line": "Keep a hook or frame active",
+        "distractors": {
+          "plausible": [
+            "Commit both legs to the arm",
+            "Release hooks to isolate arm"
+          ],
+          "trap": [
+            "Abandon hooks, trap both legs"
+          ]
+        }
       },
       {
         "question": "What makes this entry especially valuable in no-gi grappling?",
-        "answer": "Williams Guard controls through a shoulder lock rather than collar-and-sleeve grips, so it retains its threat when sweat and a lack of fabric defeat traditional gripping guards. The butterfly entry gives a grip-independent on-ramp into a retention-and-attack platform, making it a reliable way to escalate a neutral no-gi exchange into a submission-driven control hub."
+        "answer": "Williams Guard controls through a shoulder lock rather than collar-and-sleeve grips, so it retains its threat when sweat and a lack of fabric defeat traditional gripping guards. The butterfly entry gives a grip-independent on-ramp into a retention-and-attack platform, making it a reliable way to escalate a neutral no-gi exchange into a submission-driven control hub.",
+        "answer_line": "Grip-independent, no fabric needed",
+        "distractors": {
+          "plausible": [
+            "Relies on collar and sleeve",
+            "Only works with a strong gi grip"
+          ],
+          "trap": [
+            "Depends on a strong collar grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The figure-four creates real shoulder-lock pressure, so apply the rotation slowly and stop immediately at your partner's tap, especially during reactive drilling where the opponent may feed the arm faster than expected. Avoid cranking the lock to force the entry; the shoulder is a vulnerable joint and a sudden jerk can injure the rotator cuff or labrum. Keep your own head off the centerline to protect against guillotine counters, and communicate clearly with newer partners before adding resistance.",
@@ -372,15 +442,45 @@
     "flashcards": [
       {
         "question": "What is the clearest early sign that a butterfly opponent is entering Williams Guard rather than just sweeping?",
-        "answer": "The defining cue is a deep overhook on one of your arms combined with the bottom player angling their hips away from your free arm. A routine butterfly exchange focuses on hooks and elevation, but a tight overhook that folds your elbow toward their chest while they shrimp off-angle signals a shoulder-lock entry, giving you a narrow window to strip the grip before the figure-four closes."
+        "answer": "The defining cue is a deep overhook on one of your arms combined with the bottom player angling their hips away from your free arm. A routine butterfly exchange focuses on hooks and elevation, but a tight overhook that folds your elbow toward their chest while they shrimp off-angle signals a shoulder-lock entry, giving you a narrow window to strip the grip before the figure-four closes.",
+        "answer_line": "Deep overhook plus hip angle away",
+        "distractors": {
+          "plausible": [
+            "Tight underhook and flat hips",
+            "Aggressive hook fighting alone"
+          ],
+          "trap": [
+            "Both hands gripping your collar"
+          ]
+        }
       },
       {
         "question": "Why should you retract a trapped arm straight back toward your hip instead of circling it out?",
-        "answer": "The figure-four shoulder lock wants rotational movement, so circling or yanking the elbow across your body feeds exactly the motion that tightens the lock and can hand the opponent an omoplata or armbar. Pulling the elbow straight back along the shortest line toward your own hip works with the joint's structure and extracts the arm before the shoulder is isolated."
+        "answer": "The figure-four shoulder lock wants rotational movement, so circling or yanking the elbow across your body feeds exactly the motion that tightens the lock and can hand the opponent an omoplata or armbar. Pulling the elbow straight back along the shortest line toward your own hip works with the joint's structure and extracts the arm before the shoulder is isolated.",
+        "answer_line": "Pull elbow straight to your hip",
+        "distractors": {
+          "plausible": [
+            "Circle elbow away sideways",
+            "Push elbow across your chest"
+          ],
+          "trap": [
+            "Rotate arm hard to rip free"
+          ]
+        }
       },
       {
         "question": "How can defending the shoulder-lock entry simultaneously set up a guard pass?",
-        "answer": "When the lock is only partially set, digging a deep free-arm underhook and driving your chest forward kills the hip angle the shoulder lock depends on. That same pressure flattens the bottom player's butterfly hooks, so a single committed defensive action both stalls the isolation and opens a path to pass into top position, turning defense into offense."
+        "answer": "When the lock is only partially set, digging a deep free-arm underhook and driving your chest forward kills the hip angle the shoulder lock depends on. That same pressure flattens the bottom player's butterfly hooks, so a single committed defensive action both stalls the isolation and opens a path to pass into top position, turning defense into offense.",
+        "answer_line": "Underhook and drive, kill angle",
+        "distractors": {
+          "plausible": [
+            "Push away and re-butterfly",
+            "Grab a collar tie and post"
+          ],
+          "trap": [
+            "Pull guard to reset distance"
+          ]
+        }
       }
     ],
     "training_progressions": [

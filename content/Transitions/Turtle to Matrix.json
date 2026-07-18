@@ -256,35 +256,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Transition to Matrix from turtle top?",
-        "answer": "The optimal timing window occurs when the opponent's base is momentarily static or during a weight shift that temporarily freezes their defensive adjustments. Specific triggers include: after they defend a traditional back take attempt and settle into their defensive posture, during the brief pause after they complete a grip fight, or when they shift weight to one side in response to your pressure manipulation. The entry should never be attempted against an actively moving opponent whose base is dynamically adjusting."
+        "answer": "The optimal timing window occurs when the opponent's base is momentarily static or during a weight shift that temporarily freezes their defensive adjustments. Specific triggers include: after they defend a traditional back take attempt and settle into their defensive posture, during the brief pause after they complete a grip fight, or when they shift weight to one side in response to your pressure manipulation. The entry should never be attempted against an actively moving opponent whose base is dynamically adjusting.",
+        "answer_line": "Static base or weight shift",
+        "distractors": {
+          "plausible": [
+            "Any moment you're on top",
+            "After they secure deep grips"
+          ],
+          "trap": [
+            "While they're actively moving"
+          ]
+        }
       },
       {
         "question": "Why must the arm be threaded before the leg during the Matrix entry sequence?",
-        "answer": "The threaded arm serves as the primary rotation control that prevents the opponent from turning to face you during the leg insertion. Without this anchor, inserting the leg through the elbow-knee gap exposes you to the opponent simply rotating toward the inserted leg, which eliminates the back-take angle and creates a scramble. The arm anchored against their ribs with your shoulder pressing in restricts their ability to rotate, making the subsequent leg insertion safe and controlled."
+        "answer": "The threaded arm serves as the primary rotation control that prevents the opponent from turning to face you during the leg insertion. Without this anchor, inserting the leg through the elbow-knee gap exposes you to the opponent simply rotating toward the inserted leg, which eliminates the back-take angle and creates a scramble. The arm anchored against their ribs with your shoulder pressing in restricts their ability to rotate, making the subsequent leg insertion safe and controlled.",
+        "answer_line": "Arm anchors to block rotation",
+        "distractors": {
+          "plausible": [
+            "Leg is harder to insert first",
+            "Arm secures a stronger grip"
+          ],
+          "trap": [
+            "Leg first blocks their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains an extremely tight turtle with elbows welded to knees and no gap for entry. How do you create the space needed?",
-        "answer": "Use directional pressure changes to force defensive reactions that open gaps. Push heavy forward pressure toward their head to force them to post hands wider, then immediately redirect laterally. Use crossface pressure to rotate their shoulders, which naturally separates the near-side elbow from the knee. Feint a front headlock approach by circling toward their head, forcing them to tuck their chin and adjust posture, which often opens the far-side gap. The gap is created through pressure manipulation, not by forcing through a closed structure."
+        "answer": "Use directional pressure changes to force defensive reactions that open gaps. Push heavy forward pressure toward their head to force them to post hands wider, then immediately redirect laterally. Use crossface pressure to rotate their shoulders, which naturally separates the near-side elbow from the knee. Feint a front headlock approach by circling toward their head, forcing them to tuck their chin and adjust posture, which often opens the far-side gap. The gap is created through pressure manipulation, not by forcing through a closed structure.",
+        "answer_line": "Shift pressure to open gaps",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow off the knee",
+            "Pull hard on the far arm"
+          ],
+          "trap": [
+            "Force the leg through the gap"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that determines whether the arm threading provides sufficient control?",
-        "answer": "The critical detail is the depth of insertion measured by whether your shoulder presses against the opponent's ribs. If only your hand or forearm reaches past the armpit, the anchor is too shallow and the opponent can easily rotate against it. When your shoulder contacts their ribs, the entire weight of your upper body can resist their rotation attempts. The shoulder-to-rib contact creates a structural block rather than a grip-dependent control, which is far more reliable under pressure."
+        "answer": "The critical detail is the depth of insertion measured by whether your shoulder presses against the opponent's ribs. If only your hand or forearm reaches past the armpit, the anchor is too shallow and the opponent can easily rotate against it. When your shoulder contacts their ribs, the entire weight of your upper body can resist their rotation attempts. The shoulder-to-rib contact creates a structural block rather than a grip-dependent control, which is far more reliable under pressure.",
+        "answer_line": "Shoulder pressed to their ribs",
+        "distractors": {
+          "plausible": [
+            "Hand past the armpit",
+            "Deep grip on the far hip"
+          ],
+          "trap": [
+            "Forearm across their chest"
+          ]
+        }
       },
       {
         "question": "How does the far-side hip grip contribute to each phase of the transition?",
-        "answer": "During angle creation, the hip grip prevents the opponent from rotating their hips away as you walk your knees to the side. During arm threading, it anchors their torso in place so the threading arm can penetrate deeply without the opponent sliding away. During leg insertion, it controls their hip orientation to maintain the elbow-knee gap long enough for the leg to pass through. After establishing Matrix position, it prevents last-resort hip escapes. The grip serves a different but critical function at every phase of the entry."
+        "answer": "During angle creation, the hip grip prevents the opponent from rotating their hips away as you walk your knees to the side. During arm threading, it anchors their torso in place so the threading arm can penetrate deeply without the opponent sliding away. During leg insertion, it controls their hip orientation to maintain the elbow-knee gap long enough for the leg to pass through. After establishing Matrix position, it prevents last-resort hip escapes. The grip serves a different but critical function at every phase of the entry.",
+        "answer_line": "Controls hips every phase",
+        "distractors": {
+          "plausible": [
+            "Only matters for the takedown",
+            "Mainly stops arm defense"
+          ],
+          "trap": [
+            "Release it once leg is in"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning into you aggressively as you thread your arm under their armpit. Should you abandon the Matrix entry?",
-        "answer": "Not necessarily. If your arm is already deeply threaded with shoulder-to-rib contact, maintain the anchor and follow their turn. Their rotation often brings you into front headlock or darce control position, which are strong attacking positions. Only abandon if the arm is shallow and losing connection. The decision depends on threading depth: deep arm means follow and transition to a new attack; shallow arm means disengage and re-establish turtle top control before the opponent completes their escape."
+        "answer": "Not necessarily. If your arm is already deeply threaded with shoulder-to-rib contact, maintain the anchor and follow their turn. Their rotation often brings you into front headlock or darce control position, which are strong attacking positions. Only abandon if the arm is shallow and losing connection. The decision depends on threading depth: deep arm means follow and transition to a new attack; shallow arm means disengage and re-establish turtle top control before the opponent completes their escape.",
+        "answer_line": "Depth decides: follow or bail",
+        "distractors": {
+          "plausible": [
+            "Always abandon and reset",
+            "Always follow into darce"
+          ],
+          "trap": [
+            "Force the leg in regardless"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control during the angular movement phase?",
-        "answer": "The strongest configuration uses the far hand gripping the opponent's far-side hip or belt line, and the near hand controlling their near-side shoulder, lat, or collar. The hip grip is the more critical of the two because it directly controls the opponent's ability to rotate away from your angle creation. The shoulder control manages their forward-backward movement. Together these grips create a two-point control system that restricts movement in all directions while your knees walk to create the entry angle."
+        "answer": "The strongest configuration uses the far hand gripping the opponent's far-side hip or belt line, and the near hand controlling their near-side shoulder, lat, or collar. The hip grip is the more critical of the two because it directly controls the opponent's ability to rotate away from your angle creation. The shoulder control manages their forward-backward movement. Together these grips create a two-point control system that restricts movement in all directions while your knees walk to create the entry angle.",
+        "answer_line": "Far hip + near shoulder grip",
+        "distractors": {
+          "plausible": [
+            "Both hands on far hip",
+            "Near hip + far shoulder"
+          ],
+          "trap": [
+            "Overhook the near arm only"
+          ]
+        }
       },
       {
         "question": "After establishing the Matrix position, what determines whether you should proceed to Matrix Back Take versus transitioning to truck or crucifix?",
-        "answer": "The decision depends on the opponent's defensive reaction once you achieve Matrix position. If they remain relatively static with their base intact, proceed to Matrix Back Take by initiating the hip slide. If they begin rolling or inverting in response to your perpendicular pressure, follow their roll into truck position for leg attack options. If they extend an arm to post or push against your entry, exploit the exposed arm for crucifix. The Matrix position is a decision point, and reading the opponent's reaction in the first one to two seconds determines the highest-percentage follow-up."
+        "answer": "The decision depends on the opponent's defensive reaction once you achieve Matrix position. If they remain relatively static with their base intact, proceed to Matrix Back Take by initiating the hip slide. If they begin rolling or inverting in response to your perpendicular pressure, follow their roll into truck position for leg attack options. If they extend an arm to post or push against your entry, exploit the exposed arm for crucifix. The Matrix position is a decision point, and reading the opponent's reaction in the first one to two seconds determines the highest-percentage follow-up.",
+        "answer_line": "Read reaction: static, roll, post",
+        "distractors": {
+          "plausible": [
+            "Always go straight to back take",
+            "Always chase truck position"
+          ],
+          "trap": [
+            "Force back take regardless"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to Matrix involves angular body movements around a turtled opponent that require controlled execution to prevent injury. The primary risk is during the leg threading phase, where an overly aggressive or poorly timed entry can cause the attacker's knee to impact the defender's ribs or hip. Always drill the threading motion slowly before adding speed. The defender in turtle should communicate immediately if they feel pressure on their neck or spine from the angular weight transfer. When practicing the pressure manipulation phase, avoid dropping full body weight suddenly, as the turtled opponent's spine is vulnerable to compressive forces. Progress through resistance levels gradually and ensure both partners understand the entry mechanics before live drilling.",
@@ -402,23 +482,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is setting up a Matrix entry rather than a standard back take?",
-        "answer": "The earliest cue is the attacker walking their knees laterally to create angle while maintaining chest pressure, rather than staying centered behind you and working for hooks or seatbelt directly. A standard back take involves the attacker staying behind you; the Matrix involves them moving perpendicular to your torso. Feeling the pressure shift from centered on your upper back to angled against your near-side ribs confirms the Matrix entry is being set up."
+        "answer": "The earliest cue is the attacker walking their knees laterally to create angle while maintaining chest pressure, rather than staying centered behind you and working for hooks or seatbelt directly. A standard back take involves the attacker staying behind you; the Matrix involves them moving perpendicular to your torso. Feeling the pressure shift from centered on your upper back to angled against your near-side ribs confirms the Matrix entry is being set up.",
+        "answer_line": "Knees walk to create angle",
+        "distractors": {
+          "plausible": [
+            "Hooks going in early",
+            "Seatbelt grip tightening"
+          ],
+          "trap": [
+            "Weight staying centered on back"
+          ]
+        }
       },
       {
         "question": "Why is sitting back onto your heels one of the highest-percentage defenses against Matrix entry?",
-        "answer": "Sitting back eliminates the space between your elbow and knee that the attacker absolutely must have to thread their leg through. Without this gap, the attacker cannot position their body to achieve the perpendicular alignment the Matrix requires. It also lowers your center of gravity, making their angular pressure less effective. This single structural adjustment removes the primary mechanical requirement of the technique."
+        "answer": "Sitting back eliminates the space between your elbow and knee that the attacker absolutely must have to thread their leg through. Without this gap, the attacker cannot position their body to achieve the perpendicular alignment the Matrix requires. It also lowers your center of gravity, making their angular pressure less effective. This single structural adjustment removes the primary mechanical requirement of the technique.",
+        "answer_line": "Closes the elbow-knee gap",
+        "distractors": {
+          "plausible": [
+            "Raises your center of gravity",
+            "Speeds up your escape"
+          ],
+          "trap": [
+            "Post hands wide and stand up"
+          ]
+        }
       },
       {
         "question": "The attacker has established a deep arm anchor under your armpit and is beginning to insert their leg. What is your best option?",
-        "answer": "Your best option at this late stage is an aggressive turn into the attacker before the leg insertion completes. Rotate your torso forcefully toward the attacker's body to eliminate the back-take angle. The deeply threaded arm becomes a liability in a face-to-face position. If turning is not possible due to the arm anchor's depth, execute an explosive granby roll away from the entry direction to separate from their connections and recover guard."
+        "answer": "Your best option at this late stage is an aggressive turn into the attacker before the leg insertion completes. Rotate your torso forcefully toward the attacker's body to eliminate the back-take angle. The deeply threaded arm becomes a liability in a face-to-face position. If turning is not possible due to the arm anchor's depth, execute an explosive granby roll away from the entry direction to separate from their connections and recover guard.",
+        "answer_line": "Turn in hard before leg lands",
+        "distractors": {
+          "plausible": [
+            "Sit back and frame the hip",
+            "Strip the far-hip grip"
+          ],
+          "trap": [
+            "Wait and defend the hooks"
+          ]
+        }
       },
       {
         "question": "How does the attacker's commitment to Matrix entry create counter-attacking opportunities for the defender?",
-        "answer": "The attacker's angular movement shifts their weight distribution to one side and compromises their base. When they commit to threading their arm and creating the perpendicular angle, their ability to follow you in the opposite direction is reduced. This creates opportunities for granby rolls away from the entry direction, technical standups exploiting the unbalanced top pressure, and guard recovery through the space created on the side they moved away from. Their offensive commitment is your defensive opportunity."
+        "answer": "The attacker's angular movement shifts their weight distribution to one side and compromises their base. When they commit to threading their arm and creating the perpendicular angle, their ability to follow you in the opposite direction is reduced. This creates opportunities for granby rolls away from the entry direction, technical standups exploiting the unbalanced top pressure, and guard recovery through the space created on the side they moved away from. Their offensive commitment is your defensive opportunity.",
+        "answer_line": "Roll or stand away from angle",
+        "distractors": {
+          "plausible": [
+            "Attack the far-side leg",
+            "Sit back to flatten out"
+          ],
+          "trap": [
+            "Turn into the entry direction"
+          ]
+        }
       },
       {
         "question": "What role does the far-hip grip play in the attacker's entry, and how does stripping it affect the transition?",
-        "answer": "The far-hip grip controls your ability to rotate your hips away from the entry direction. It anchors your orientation so the attacker can thread arm and leg without you simply turning away. Stripping this grip restores your hip rotation freedom, which means you can turn to face the attacker, adjust your base angle, or rotate away from the entry. Without hip control, the attacker's angular movement becomes disconnected from your body position, making the entry far less effective."
+        "answer": "The far-hip grip controls your ability to rotate your hips away from the entry direction. It anchors your orientation so the attacker can thread arm and leg without you simply turning away. Stripping this grip restores your hip rotation freedom, which means you can turn to face the attacker, adjust your base angle, or rotate away from the entry. Without hip control, the attacker's angular movement becomes disconnected from your body position, making the entry far less effective.",
+        "answer_line": "Strip it to regain hip turn",
+        "distractors": {
+          "plausible": [
+            "Grip controls your shoulders",
+            "Only affects leg insertion"
+          ],
+          "trap": [
+            "Grab their wrist instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

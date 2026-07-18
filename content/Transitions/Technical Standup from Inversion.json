@@ -235,43 +235,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Technical Standup from Inversion?",
-        "answer": "The primary goal is to safely transition from the inverted grasshopper guard position to a standing open guard engagement when the inversion is no longer tactically advantageous. This preserves offensive initiative by establishing a sustainable standing guard rather than exhausting energy in an inverted position that has diminishing returns."
+        "answer": "The primary goal is to safely transition from the inverted grasshopper guard position to a standing open guard engagement when the inversion is no longer tactically advantageous. This preserves offensive initiative by establishing a sustainable standing guard rather than exhausting energy in an inverted position that has diminishing returns.",
+        "answer_line": "Reset to standing open guard",
+        "distractors": {
+          "plausible": [
+            "Chain straight into a leg lock",
+            "Return to closed guard"
+          ],
+          "trap": [
+            "Stay inverted for a submission"
+          ]
+        }
       },
       {
         "question": "What position do you start Technical Standup from Inversion from?",
-        "answer": "This technique starts from Grasshopper Guard/Bottom, where the practitioner is inverted with shoulders on the mat and hips elevated. The inverted posture with legs oriented toward the standing opponent provides the starting configuration for the hip rotation and standup sequence."
+        "answer": "This technique starts from Grasshopper Guard/Bottom, where the practitioner is inverted with shoulders on the mat and hips elevated. The inverted posture with legs oriented toward the standing opponent provides the starting configuration for the hip rotation and standup sequence.",
+        "answer_line": "Grasshopper Guard, inverted",
+        "distractors": {
+          "plausible": [
+            "Grasshopper Guard, standing",
+            "Any bottom guard, inverted"
+          ],
+          "trap": [
+            "Turtle position, hips low"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement in this technique?",
-        "answer": "The semicircular hip rotation from the elevated inverted position to underneath the torso is the most critical movement. This rotation must convert the inverted momentum into forward standup drive without pausing in the middle. The hips must swing from above-shoulder level to below the posting hand in one smooth arc, creating the base needed for the explosive standup drive."
+        "answer": "The semicircular hip rotation from the elevated inverted position to underneath the torso is the most critical movement. This rotation must convert the inverted momentum into forward standup drive without pausing in the middle. The hips must swing from above-shoulder level to below the posting hand in one smooth arc, creating the base needed for the explosive standup drive.",
+        "answer_line": "Semicircular hip rotation to base",
+        "distractors": {
+          "plausible": [
+            "Snap hips straight up fast",
+            "Rotate hips away from opponent"
+          ],
+          "trap": [
+            "Pause mid-rotation to reset"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the technical standup from grasshopper guard?",
-        "answer": "The optimal window is when the opponent retreats beyond effective hooking range or establishes a wide defensive base that prevents leg entanglement. Additional triggers include recognizing personal fatigue that will soon compromise hip elevation, or when the opponent has successfully cleared all leg hooks and is beginning to disengage. Initiating during these moments ensures the standup faces minimal resistance."
+        "answer": "The optimal window is when the opponent retreats beyond effective hooking range or establishes a wide defensive base that prevents leg entanglement. Additional triggers include recognizing personal fatigue that will soon compromise hip elevation, or when the opponent has successfully cleared all leg hooks and is beginning to disengage. Initiating during these moments ensures the standup faces minimal resistance.",
+        "answer_line": "Opponent retreats out of range",
+        "distractors": {
+          "plausible": [
+            "As soon as hips are elevated",
+            "When opponent grips your legs"
+          ],
+          "trap": [
+            "While opponent is rushing in"
+          ]
+        }
       },
       {
         "question": "Your opponent rushes forward with a stack pass as you begin the hip rotation - how do you adjust?",
-        "answer": "Abort the standup immediately and redirect into a Granby roll, using the opponent's forward momentum to pull them over you and into your guard structure. The key is recognizing the rush early during the rotation phase when you can still redirect rather than committing fully to the standup. Convert their pressure into a guard recovery opportunity by threading your legs back into closed guard or butterfly hooks as they come forward."
+        "answer": "Abort the standup immediately and redirect into a Granby roll, using the opponent's forward momentum to pull them over you and into your guard structure. The key is recognizing the rush early during the rotation phase when you can still redirect rather than committing fully to the standup. Convert their pressure into a guard recovery opportunity by threading your legs back into closed guard or butterfly hooks as they come forward.",
+        "answer_line": "Abort, Granby roll to guard",
+        "distractors": {
+          "plausible": [
+            "Power through the standup",
+            "Sprawl and re-invert"
+          ],
+          "trap": [
+            "Post hard and turtle up"
+          ]
+        }
       },
       {
         "question": "What grip or posting requirements must be met before initiating the standup?",
-        "answer": "At least one hand must be completely free from opponent grips to serve as the posting base. The posting hand needs to plant 12-18 inches behind the hip landing point with fingers angled outward. If both hands are trapped in grips, you must strip at least one grip before attempting the standup. Attempting the transition without a free posting hand results in collapse during the weight transfer phase."
+        "answer": "At least one hand must be completely free from opponent grips to serve as the posting base. The posting hand needs to plant 12-18 inches behind the hip landing point with fingers angled outward. If both hands are trapped in grips, you must strip at least one grip before attempting the standup. Attempting the transition without a free posting hand results in collapse during the weight transfer phase.",
+        "answer_line": "One hand free to post",
+        "distractors": {
+          "plausible": [
+            "Both hands gripping legs is fine",
+            "Post hand plants under hips"
+          ],
+          "trap": [
+            "Standup works with both trapped"
+          ]
+        }
       },
       {
         "question": "What direction of force should the standup drive generate and why?",
-        "answer": "The drive should be primarily vertical and slightly backward, away from the opponent. Driving forward toward the opponent during the standup brings you into their clinch range before your base is established, making you vulnerable to snap-downs and takedowns. The slight backward angle creates distance that allows you to complete the standup and establish a defensive standing posture before the opponent can close the gap."
+        "answer": "The drive should be primarily vertical and slightly backward, away from the opponent. Driving forward toward the opponent during the standup brings you into their clinch range before your base is established, making you vulnerable to snap-downs and takedowns. The slight backward angle creates distance that allows you to complete the standup and establish a defensive standing posture before the opponent can close the gap.",
+        "answer_line": "Vertical and slightly backward",
+        "distractors": {
+          "plausible": [
+            "Straight up, no angle",
+            "Forward into clinch range"
+          ],
+          "trap": [
+            "Drive hard forward at opponent"
+          ]
+        }
       },
       {
         "question": "The opponent grabs your ankle mid-transition - what is your response?",
-        "answer": "Rather than fighting to free the ankle, use the trapped leg as a hook to pull yourself toward the opponent and re-enter leg entanglement. The ankle grip gives you a connection point that can be converted into inside ashi-garami or single leg X entry. This turns the opponent's counter into your offensive opportunity by redirecting back into the grasshopper attack system rather than forcing a compromised standup."
+        "answer": "Rather than fighting to free the ankle, use the trapped leg as a hook to pull yourself toward the opponent and re-enter leg entanglement. The ankle grip gives you a connection point that can be converted into inside ashi-garami or single leg X entry. This turns the opponent's counter into your offensive opportunity by redirecting back into the grasshopper attack system rather than forcing a compromised standup.",
+        "answer_line": "Hook back into leg entanglement",
+        "distractors": {
+          "plausible": [
+            "Kick free and keep standing",
+            "Abandon standup, retreat"
+          ],
+          "trap": [
+            "Yank the leg free, expose back"
+          ]
+        }
       },
       {
         "question": "How does this technique chain with other attacks if the standup is blocked?",
-        "answer": "If the standup is blocked by forward pressure, chain into Granby roll to guard recovery or back to grasshopper sweep attempts. If blocked by ankle control, redirect into single leg X or inside ashi-garami entries. If the opponent circles behind, accelerate the rotation into a sit-through or turtle position for a back take defense. The standup should never be forced - failed attempts should flow into alternative transitions within the grasshopper system."
+        "answer": "If the standup is blocked by forward pressure, chain into Granby roll to guard recovery or back to grasshopper sweep attempts. If blocked by ankle control, redirect into single leg X or inside ashi-garami entries. If the opponent circles behind, accelerate the rotation into a sit-through or turtle position for a back take defense. The standup should never be forced - failed attempts should flow into alternative transitions within the grasshopper system.",
+        "answer_line": "Flow into Granby or leg entry",
+        "distractors": {
+          "plausible": [
+            "Force the standup regardless",
+            "Always default to sit-through"
+          ],
+          "trap": [
+            "Stall in a seated position"
+          ]
+        }
       },
       {
         "question": "Why is pausing between the hip rotation and the standup drive considered a critical error?",
-        "answer": "Pausing creates a static seated position that is the worst of both worlds - you have abandoned the inversion's offensive potential without yet establishing the standing guard's defensive structure. This static moment gives the opponent a clear window to rush forward with a pass, snap you down, or establish dominant grips. The entire sequence must flow as one continuous motion to minimize the time spent in this vulnerable transitional state."
+        "answer": "Pausing creates a static seated position that is the worst of both worlds - you have abandoned the inversion's offensive potential without yet establishing the standing guard's defensive structure. This static moment gives the opponent a clear window to rush forward with a pass, snap you down, or establish dominant grips. The entire sequence must flow as one continuous motion to minimize the time spent in this vulnerable transitional state.",
+        "answer_line": "Creates vulnerable static seat",
+        "distractors": {
+          "plausible": [
+            "Only wastes a little time",
+            "Signals a fake to opponent"
+          ],
+          "trap": [
+            "Gives a safe reset moment"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Technical Standup from Inversion involves rotational forces through the cervical and thoracic spine during the hip rotation phase. Practitioners must ensure adequate neck and spine warm-up before drilling this technique. Never force the rotation if you feel compression or pinching in the neck - instead, flatten out and reset. The inverted starting position places body weight on the shoulders and upper back, which can aggravate existing neck injuries or disc issues. Beginners should master the basic technical standup from seated position before attempting the inverted variant. When drilling with a partner, communicate clearly about resistance levels to prevent the partner from stacking during the vulnerable rotation phase, which can cause neck compression injuries. Practitioners with any history of cervical spine issues should consult a medical professional before incorporating inverted movements into their training.",
@@ -380,23 +480,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a technical standup from grasshopper guard?",
-        "answer": "The earliest cue is the retraction of both legs toward their chest, breaking all hooks and leg contact with your lower body. This compact leg position signals they are loading for the hip rotation. Additional confirmation comes from their hips beginning to rotate from elevated inverted position toward one side of the mat, and their hand reaching behind their body to prepare the posting base."
+        "answer": "The earliest cue is the retraction of both legs toward their chest, breaking all hooks and leg contact with your lower body. This compact leg position signals they are loading for the hip rotation. Additional confirmation comes from their hips beginning to rotate from elevated inverted position toward one side of the mat, and their hand reaching behind their body to prepare the posting base.",
+        "answer_line": "Legs retract, breaking hooks",
+        "distractors": {
+          "plausible": [
+            "Hips already fully rotated",
+            "Hand already posted, driving"
+          ],
+          "trap": [
+            "Opponent extends legs fully"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to rush forward the instant you see your opponent's legs disengage?",
-        "answer": "Rushing forward before they fully commit to the standup is dangerous because they may be feinting the standup to draw your forward pressure into their sweep or guard recovery mechanics. If their legs are still capable of re-engaging, your forward momentum feeds directly into elevation sweeps or butterfly hook conversions. You should wait for confirmed hip rotation before driving in, as this confirms they have abandoned the inversion structure and cannot easily redirect back to leg attacks."
+        "answer": "Rushing forward before they fully commit to the standup is dangerous because they may be feinting the standup to draw your forward pressure into their sweep or guard recovery mechanics. If their legs are still capable of re-engaging, your forward momentum feeds directly into elevation sweeps or butterfly hook conversions. You should wait for confirmed hip rotation before driving in, as this confirms they have abandoned the inversion structure and cannot easily redirect back to leg attacks.",
+        "answer_line": "Could be a feint into sweep",
+        "distractors": {
+          "plausible": [
+            "Wastes your positional edge",
+            "Lets them re-grip your legs"
+          ],
+          "trap": [
+            "Rush in the instant legs move"
+          ]
+        }
       },
       {
         "question": "Your opponent has planted their posting hand and is beginning to drive upward - what is the highest-percentage counter at this stage?",
-        "answer": "At this stage, sprawling heavily on their hips is the highest-percentage counter. Their posting hand is bearing weight and cannot be used defensively, and their hip structure is at its most vulnerable during the drive phase before full standing base is achieved. Drive your bodyweight downward through their center of mass to collapse the posting structure. This also prevents the sit-through escape because your sprawl pressure pins their hips to the mat."
+        "answer": "At this stage, sprawling heavily on their hips is the highest-percentage counter. Their posting hand is bearing weight and cannot be used defensively, and their hip structure is at its most vulnerable during the drive phase before full standing base is achieved. Drive your bodyweight downward through their center of mass to collapse the posting structure. This also prevents the sit-through escape because your sprawl pressure pins their hips to the mat.",
+        "answer_line": "Sprawl heavy on their hips",
+        "distractors": {
+          "plausible": [
+            "Grab the posting arm",
+            "Circle behind to the back"
+          ],
+          "trap": [
+            "Pull guard and reset"
+          ]
+        }
       },
       {
         "question": "How should you position yourself relative to the grasshopper guard player to best prevent the standup attempt?",
-        "answer": "Maintain a medium-range distance where you are close enough to reach their legs or hips within one step but far enough that their inverted leg attacks cannot reach you without full extension. Stay centered on their body rather than offset to one side, as this gives you the ability to react to rotation in either direction. Keep your weight slightly forward on the balls of your feet with knees bent so you can drive forward explosively when the standup begins."
+        "answer": "Maintain a medium-range distance where you are close enough to reach their legs or hips within one step but far enough that their inverted leg attacks cannot reach you without full extension. Stay centered on their body rather than offset to one side, as this gives you the ability to react to rotation in either direction. Keep your weight slightly forward on the balls of your feet with knees bent so you can drive forward explosively when the standup begins.",
+        "answer_line": "Centered, medium range, ready",
+        "distractors": {
+          "plausible": [
+            "Stay far outside kicking range",
+            "Offset to one side, weight back"
+          ],
+          "trap": [
+            "Back away to punish inversion"
+          ]
+        }
       },
       {
         "question": "What should you do if you arrive late and your opponent has already reached a half-standing position?",
-        "answer": "If they are already half-standing, an ankle pick or snap-down is more effective than a sprawl. Target their lead leg with an inside trip or ankle pick to collapse the base they just established, rather than trying to drive them back down through hip pressure at this stage. Alternatively, shoot for a low single leg on the posted foot, as their weight is committed forward through that foot and they cannot easily retract it. The goal shifts from preventing the standup to immediately attacking the newly established base before they can settle into stable standing guard."
+        "answer": "If they are already half-standing, an ankle pick or snap-down is more effective than a sprawl. Target their lead leg with an inside trip or ankle pick to collapse the base they just established, rather than trying to drive them back down through hip pressure at this stage. Alternatively, shoot for a low single leg on the posted foot, as their weight is committed forward through that foot and they cannot easily retract it. The goal shifts from preventing the standup to immediately attacking the newly established base before they can settle into stable standing guard.",
+        "answer_line": "Ankle pick or low single leg",
+        "distractors": {
+          "plausible": [
+            "Sprawl hard like normal timing",
+            "Wait for full standup, engage"
+          ],
+          "trap": [
+            "Try to stack them back down"
+          ]
+        }
       }
     ],
     "training_progressions": [

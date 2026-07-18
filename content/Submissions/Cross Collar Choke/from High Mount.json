@@ -301,52 +301,152 @@
       {
         "question": "What anatomical structures does the Cross Collar Choke target, and how does the choking mechanism work?",
         "answer": "The Cross Collar Choke targets both carotid arteries on the lateral sides of the neck, restricting blood flow to the brain. The wrist blades of both hands create a scissoring action across the neck when the elbows are pulled down and the chest expands. This is a blood choke, not an airway choke—proper technique compresses the carotid arteries bilaterally while the trachea passes between the wrists without direct compression. Unconsciousness occurs within 5-8 seconds of effective bilateral carotid restriction.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids, wrist-blade scissor",
+        "distractors": {
+          "plausible": [
+            "Trachea crushed by forearms",
+            "Only one carotid compressed"
+          ],
+          "trap": [
+            "Squeeze biceps into the throat"
+          ]
+        }
       },
       {
         "question": "How do you recognize the breaking point where the choke transitions from uncomfortable pressure to effective carotid compression?",
         "answer": "The breaking point occurs when both wrist blades are properly aligned against the carotid arteries and the elbows begin pulling down toward the hips. You feel a distinct tightening as the collar material cinches around the neck. The opponent's resistance typically changes—they may begin tapping immediately, their face may flush or become pale, and their defensive movements become less coordinated. The transition from pressure to effective choke happens quickly once both grips are deep and the finishing angle is correct.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist blades set, elbows pull down",
+        "distractors": {
+          "plausible": [
+            "Opponent taps at first pressure",
+            "Collar just feels snug"
+          ],
+          "trap": [
+            "Wait until they stop moving"
+          ]
+        }
       },
       {
         "question": "What control must be established before committing both hands to collar grips from high mount?",
         "answer": "Before committing both hands to collar work, you must establish stable high mount with knees near the armpits and forward weight distribution that neutralizes bridging. At minimum, one of the opponent's arms should be controlled through positional pressure or pinning. Your base must be secure enough that removing both hands from posting will not compromise your balance. Without these prerequisites, committing both hands to grips leaves you vulnerable to being swept or bucked off during the grip-fighting exchange.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Mount + one arm pinned, base solid",
+        "distractors": {
+          "plausible": [
+            "Both arms trapped, no base yet",
+            "Just heavy mount is enough"
+          ],
+          "trap": [
+            "Commit both hands, worry later"
+          ]
+        }
       },
       {
         "question": "At what point during the choke sequence does the opponent reach the point of no escape?",
         "answer": "The point of no escape occurs when both grips are established deep past the midline, the elbows are pulled tight against the opponent's chest, and the attacker's forehead is driving down beside the opponent's head eliminating all space. At this stage, the opponent cannot insert their hands between the arms and their neck, cannot bridge effectively due to the forward weight distribution, and the collar is loaded with enough tension that any movement tightens the choke further. The only remaining option is to tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep grips, elbows tight, head down",
+        "distractors": {
+          "plausible": [
+            "Both grips in, arms still loose",
+            "One grip deep, forehead down"
+          ],
+          "trap": [
+            "Sit back to load the choke"
+          ]
+        }
       },
       {
         "question": "What finishing error causes tracheal compression instead of carotid compression, and how do you correct it?",
         "answer": "Squeezing the arms inward using bicep strength drives the forearms directly into the front of the throat, compressing the trachea. This causes pain and coughing but does not restrict blood flow effectively, allowing the opponent to endure the choke for extended periods. The correction is to finish by pulling both elbows down toward your hips while expanding your chest forward—this creates a spreading, scissoring action that presses the wrist blades against the lateral carotid arteries while the trachea passes untouched between the wrists.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Squeezing arms in with biceps",
+        "distractors": {
+          "plausible": [
+            "Pulling elbows down too fast",
+            "Grips inserted too shallow"
+          ],
+          "trap": [
+            "Squeeze harder to force the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent starts fighting your first collar grip by grabbing your sleeve—what adjustment prevents escape while capitalizing on their defense?",
         "answer": "When they grab your sleeve, their arm is now extended and exposed. First, use your free hand to pin their gripping hand to your arm, trapping it in an extended position. Then you have two options: strip their grip and continue with the choke, or immediately pivot to an armbar on their extended arm. The key insight is that their defensive grip is also an arm extension that you can exploit. If you choose to continue the choke, use your body weight to drive through their sleeve grip rather than engaging in a hand-fighting exchange.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin their hand, attack the arm",
+        "distractors": {
+          "plausible": [
+            "Strip grip and re-insert fast",
+            "Hand-fight until they release"
+          ],
+          "trap": [
+            "Yank arm free, restart grips"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip depth if the opponent's collar is loose versus tight?",
         "answer": "With a loose collar, you can feed deeper and faster, but the loose material may reduce finishing pressure unless you compensate by pulling more material tight before applying the choke. Gather excess collar material in your grip to eliminate slack. With a tight collar, grip insertion is harder but the finishing pressure is more direct since there is less material cushioning the wrists against the neck. For tight collars, use a rocking motion to gradually walk your hand deeper rather than trying to force the grip in one movement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Loose: gather slack; tight: rock in",
+        "distractors": {
+          "plausible": [
+            "Loose: grip shallower always",
+            "Tight: force hand in fast"
+          ],
+          "trap": [
+            "Loose collar means skip the choke"
+          ]
+        }
       },
       {
         "question": "What is the correct response if your opponent loses consciousness during a Cross Collar Choke application?",
         "answer": "Release the choke immediately—do not wait to confirm unconsciousness. Place the partner on their side in the recovery position. Ensure their airway is clear. Most people regain consciousness within 5-15 seconds after release. Monitor their breathing and responsiveness. Do not shake them or slap their face—allow natural recovery. If they do not regain consciousness within 20 seconds, call for medical assistance immediately. After recovery, allow them several minutes before resuming any training activity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, recovery position, monitor",
+        "distractors": {
+          "plausible": [
+            "Hold briefly to confirm out",
+            "Slap face to wake them"
+          ],
+          "trap": [
+            "Keep choke on a few more seconds"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up and create distance while you have only the first collar grip established—what adjustment prevents escape?",
         "answer": "Pull them back down using the established collar grip while simultaneously driving your knees tighter into their armpits and scooting your hips forward to re-establish high mount pressure. The first grip acts as an anchor—use it to break their posture rather than chasing them upward. If they create significant distance, you may need to temporarily abandon the choke and re-consolidate high mount control. Never chase a second grip while your positional control is compromised, as this exposes you to reversal.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull collar, drive knees to pits",
+        "distractors": {
+          "plausible": [
+            "Chase the second grip fast",
+            "Release grip, reset from scratch"
+          ],
+          "trap": [
+            "Follow them up, abandon base"
+          ]
+        }
       },
       {
         "question": "In competition, what strategies maximize finishing rate when your opponent is actively defending the choke?",
         "answer": "In competition, establish the first grip deep and use it as an anchor point—never release a deep grip to readjust. Apply constant forward pressure to limit their defensive mobility. If they block the second grip, threaten armbar to force them to bring their hands back to their body, then immediately return to the collar. Use time pressure psychologically—in a match with a point lead, the opponent must take risks to escape, which creates grip openings. Maintaining the choke threat from high mount is itself a winning strategy as it prevents escape while threatening the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Anchor deep grip, threaten armbar",
+        "distractors": {
+          "plausible": [
+            "Release and reset grips often",
+            "Rush the second grip early"
+          ],
+          "trap": [
+            "Trade grips in a hand fight"
+          ]
+        }
       }
     ],
     "clips": [
@@ -474,27 +574,77 @@
       {
         "question": "What is the single most important moment to defend the Cross Collar Choke from High Mount?",
         "answer": "The most important defensive moment is when the attacker inserts their first hand into the collar. At this point, you have maximum defensive advantage because only one of their hands is committed, leaving them with reduced base and only one grip to fight. Using two-on-one wrist control to strip this first grip is far more effective than trying to fight two established grips. Every second of delay after the first grip insertion allows the attacker to secure depth, pin your arm, and begin inserting the second grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip the very first hand in",
+        "distractors": {
+          "plausible": [
+            "Defend once both grips are set",
+            "Wait, then fight the elbows"
+          ],
+          "trap": [
+            "Let first grip in, block second"
+          ]
+        }
       },
       {
         "question": "How do you create an effective escape window when the attacker is working collar grips from high mount?",
         "answer": "The escape window opens when the attacker commits their second hand to the collar, removing it from posting position. This creates a momentary base weakness on the side where they were posting. Time your bridge toward that side—their inability to post makes the bridge more effective. Additionally, any grip transition where the attacker adjusts hand position creates a brief window where their weight shifts. Read these weight shifts and use them to initiate hip escapes or bridges.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge toward the posting-hand side",
+        "distractors": {
+          "plausible": [
+            "Bridge away from both grips",
+            "Escape only after both grips set"
+          ],
+          "trap": [
+            "Wait for the choke to lock fully"
+          ]
+        }
       },
       {
         "question": "At what point should you tap rather than continue defending the Cross Collar Choke?",
         "answer": "Tap immediately when both grips are deep, the attacker's elbows are pulling down, and you feel pressure on both sides of your neck simultaneously with no hands available to create a barrier. Once the choke is properly set with bilateral carotid compression, unconsciousness occurs within 5-8 seconds. Continuing to fight a fully locked choke risks going unconscious, which is dangerous because the attacker may not recognize the unconsciousness immediately. There is no shame in tapping to a well-executed choke—the time to defend was before the grips reached full depth.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both grips deep, elbows pulling down",
+        "distractors": {
+          "plausible": [
+            "Tap at first hint of discomfort",
+            "Fight on, it's still escapable"
+          ],
+          "trap": [
+            "Wait to feel dizzy before tapping"
+          ]
+        }
       },
       {
         "question": "What defensive adjustment do you make if the attacker switches from choke to armbar mid-sequence?",
         "answer": "When the attacker abandons the choke and transitions to armbar, immediately pull your elbows tight to your body and grip your own collar or lapel to keep the targeted arm bent. The transition from choke to armbar requires the attacker to release collar grips and reposition—this weight shift is your escape window. Use the transition moment to bridge and hip escape rather than simply defending the armbar statically. Getting swept during the transition is preferable to having your arm isolated in S-Mount.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbows in, grip own collar, bridge",
+        "distractors": {
+          "plausible": [
+            "Defend armbar statically only",
+            "Chase the collar grip back"
+          ],
+          "trap": [
+            "Straighten arm to push them off"
+          ]
+        }
       },
       {
         "question": "How should you position your chin and neck when defending against collar grip insertion?",
         "answer": "Tuck your chin toward your chest and slightly toward the side where the grip is being inserted. This positions your jaw as a barrier that blocks deep grip penetration past the midline. Do not turn your head away from the gripping hand—this exposes the lateral carotid artery and actually assists the choke. Keep your neck muscles engaged but not rigid, maintaining enough mobility to adjust your chin position as the attacker changes their angle of grip insertion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin toward the gripping side",
+        "distractors": {
+          "plausible": [
+            "Turn head away from the grip",
+            "Keep neck fully rigid and stiff"
+          ],
+          "trap": [
+            "Lift chin to see the grip coming"
+          ]
+        }
       }
     ],
     "training_progressions": [

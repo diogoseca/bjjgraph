@@ -349,35 +349,115 @@
     "flashcards": [
       {
         "question": "What is the primary strategic objective when facing shin-to-shin guard from top position?",
-        "answer": "The primary objective is to systematically neutralize the shin connection while preventing transitions to more dangerous positions like single leg X or X-guard. This requires establishing upper body control first to prevent distance management grips, then methodically clearing the shin using circling, backsteps, or controlled pressure rather than forcing directly through the connection."
+        "answer": "The primary objective is to systematically neutralize the shin connection while preventing transitions to more dangerous positions like single leg X or X-guard. This requires establishing upper body control first to prevent distance management grips, then methodically clearing the shin using circling, backsteps, or controlled pressure rather than forcing directly through the connection.",
+        "answer_line": "Control grips, then clear shin",
+        "distractors": {
+          "plausible": [
+            "Clear the shin before gripping",
+            "Drive forward through the shin"
+          ],
+          "trap": [
+            "Rip leg free and ignore grips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins elevating their hips and adjusting their angle toward your trapped leg—what are the early warning signs of a single leg X entry?",
-        "answer": "Watch for hip elevation combined with angle adjustment toward your leg, their free leg beginning to thread underneath yours, increased pulling pressure on your ankle or lower leg, and their upper body starting to recline backward. These movements indicate they're building entry mechanics for single leg X. Immediately address by controlling their hip, widening your base, and circling away from the elevation angle."
+        "answer": "Watch for hip elevation combined with angle adjustment toward your leg, their free leg beginning to thread underneath yours, increased pulling pressure on your ankle or lower leg, and their upper body starting to recline backward. These movements indicate they're building entry mechanics for single leg X. Immediately address by controlling their hip, widening your base, and circling away from the elevation angle.",
+        "answer_line": "Hips rise, angle shifts toward leg",
+        "distractors": {
+          "plausible": [
+            "Their free leg posts on the mat",
+            "They squeeze both knees together"
+          ],
+          "trap": [
+            "Ignore it, keep pushing forward"
+          ]
+        }
       },
       {
         "question": "Why should you establish upper body grips before attempting to clear the shin connection?",
-        "answer": "Upper body grips prevent the guard player from achieving effective distance management and posture control through sleeve and collar grips. Without this control, you cannot safely clear the shin because any clearing attempt leaves you vulnerable to being pulled off-balance into sweeps or transitions. Dominant upper body control also prevents them from sitting up into your base during clearing sequences."
+        "answer": "Upper body grips prevent the guard player from achieving effective distance management and posture control through sleeve and collar grips. Without this control, you cannot safely clear the shin because any clearing attempt leaves you vulnerable to being pulled off-balance into sweeps or transitions. Dominant upper body control also prevents them from sitting up into your base during clearing sequences.",
+        "answer_line": "Denies grips that fuel sweeps",
+        "distractors": {
+          "plausible": [
+            "Makes your base heavier overall",
+            "Speeds up the shin-clearing step"
+          ],
+          "trap": [
+            "Skip grips, drive straight in"
+          ]
+        }
       },
       {
         "question": "What base adjustments should you make when you feel the opponent increasing upward pressure through the shin connection?",
-        "answer": "Widen your stance to lower your center of gravity, shift weight toward your heels to resist forward pulling, and consider dropping to combat base if standing. Keep your hips mobile and ready to circle rather than planting statically. Maintain grip control on their upper body to prevent them from using the increased pressure to generate sweeping momentum."
+        "answer": "Widen your stance to lower your center of gravity, shift weight toward your heels to resist forward pulling, and consider dropping to combat base if standing. Keep your hips mobile and ready to circle rather than planting statically. Maintain grip control on their upper body to prevent them from using the increased pressure to generate sweeping momentum.",
+        "answer_line": "Widen stance, weight to heels",
+        "distractors": {
+          "plausible": [
+            "Narrow stance, weight on toes",
+            "Plant both feet and lean forward"
+          ],
+          "trap": [
+            "Stay flat-footed and push in"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between safe moments to apply forward passing pressure versus dangerous moments that invite sweeps?",
-        "answer": "Safe moments occur when you've successfully contested or broken their upper body grips, when you've cleared or significantly weakened the shin connection, or when their hips are flat rather than elevated. Dangerous moments are when they have strong sleeve/collar grips, when the shin connection is active with good angle, when their hips are elevated and mobile, or when they've begun transition mechanics to X-guard or single leg X."
+        "answer": "Safe moments occur when you've successfully contested or broken their upper body grips, when you've cleared or significantly weakened the shin connection, or when their hips are flat rather than elevated. Dangerous moments are when they have strong sleeve/collar grips, when the shin connection is active with good angle, when their hips are elevated and mobile, or when they've begun transition mechanics to X-guard or single leg X.",
+        "answer_line": "Push once grips are broken",
+        "distractors": {
+          "plausible": [
+            "Push whenever you feel tired",
+            "Push after breaking just one grip"
+          ],
+          "trap": [
+            "Push while hips are elevated"
+          ]
+        }
       },
       {
         "question": "Your opponent switches from active shin pressure to a more passive connection—what does this indicate and how should you respond?",
-        "answer": "A passive shin connection often indicates the guard player is either fatigued, has lost their ideal angle, or is setting up a different attack vector. This creates an immediate passing opportunity—capitalize by combining grip pressure with forward advancement before they can re-establish active pressure or transition to a different guard. Move directly into your passing sequence rather than giving them time to reset."
+        "answer": "A passive shin connection often indicates the guard player is either fatigued, has lost their ideal angle, or is setting up a different attack vector. This creates an immediate passing opportunity—capitalize by combining grip pressure with forward advancement before they can re-establish active pressure or transition to a different guard. Move directly into your passing sequence rather than giving them time to reset.",
+        "answer_line": "Attack now with grips and pressure",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset the angle",
+            "Match their pace and stay passive"
+          ],
+          "trap": [
+            "Back off and reset your grips"
+          ]
+        }
       },
       {
         "question": "What is the relationship between clearing speed and base maintenance when addressing the shin connection?",
-        "answer": "There's an inverse relationship—faster clearing attempts typically compromise base stability, creating openings for sweeps or transitions. Systematic, controlled clearing maintains your balance and weight distribution while still making progress. The key is consistent pressure with proper timing rather than explosive movements. Rushed clearing plays into the guard player's off-balancing mechanics."
+        "answer": "There's an inverse relationship—faster clearing attempts typically compromise base stability, creating openings for sweeps or transitions. Systematic, controlled clearing maintains your balance and weight distribution while still making progress. The key is consistent pressure with proper timing rather than explosive movements. Rushed clearing plays into the guard player's off-balancing mechanics.",
+        "answer_line": "Fast clearing costs your base",
+        "distractors": {
+          "plausible": [
+            "Speed and base rise together",
+            "Base only matters once passing"
+          ],
+          "trap": [
+            "Explode through for a fast clear"
+          ]
+        }
       },
       {
         "question": "How should you modify your passing approach if the opponent has particularly strong upper body grips despite your grip fighting?",
-        "answer": "When they maintain strong grips, direct forward pressure becomes extremely dangerous. Instead, use movement-based clearing approaches like circling and long stepping that don't require driving into their grip structure. Break grips methodically as opportunities arise rather than forcing the pass. Consider whether backing away to reset the grip exchange is more efficient than continuing to fight compromised grips."
+        "answer": "When they maintain strong grips, direct forward pressure becomes extremely dangerous. Instead, use movement-based clearing approaches like circling and long stepping that don't require driving into their grip structure. Break grips methodically as opportunities arise rather than forcing the pass. Consider whether backing away to reset the grip exchange is more efficient than continuing to fight compromised grips.",
+        "answer_line": "Circle and step, don't force grips",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder before moving",
+            "Switch immediately to a submission"
+          ],
+          "trap": [
+            "Drive straight through their grips"
+          ]
+        }
       }
     ],
     "clips": [
@@ -719,35 +799,115 @@
     "flashcards": [
       {
         "question": "What is the optimal placement and angle for the shin connection in shin-to-shin guard?",
-        "answer": "Position your shin across the lower third of the opponent's tibia at approximately 45 degrees perpendicular to their leg. This placement creates maximum leverage for off-balancing while making it mechanically difficult for them to clear without exposing themselves to transitions. Too high (near knee) reduces leverage; too low (near ankle) allows easy clearing; too shallow an angle provides insufficient control over their base."
+        "answer": "Position your shin across the lower third of the opponent's tibia at approximately 45 degrees perpendicular to their leg. This placement creates maximum leverage for off-balancing while making it mechanically difficult for them to clear without exposing themselves to transitions. Too high (near knee) reduces leverage; too low (near ankle) allows easy clearing; too shallow an angle provides insufficient control over their base.",
+        "answer_line": "Lower third of tibia, 45 degrees",
+        "distractors": {
+          "plausible": [
+            "Near the knee for more leverage",
+            "Near the ankle for easy control"
+          ],
+          "trap": [
+            "Flat parallel contact along shin"
+          ]
+        }
       },
       {
         "question": "Your opponent begins circling to their right while attempting to strip your ankle grip—how do you maintain the shin connection?",
-        "answer": "Follow their movement by adjusting your hip angle in the same direction, keeping your shin pressure constant while rotating to match their circle. Simultaneously reinforce your grip or establish a new control point on their leg before the original is stripped. If they continue circling aggressively, this often creates ideal timing for single leg X entry as their weight shifts over the trapped leg."
+        "answer": "Follow their movement by adjusting your hip angle in the same direction, keeping your shin pressure constant while rotating to match their circle. Simultaneously reinforce your grip or establish a new control point on their leg before the original is stripped. If they continue circling aggressively, this often creates ideal timing for single leg X entry as their weight shifts over the trapped leg.",
+        "answer_line": "Follow their circle, regrip fast",
+        "distractors": {
+          "plausible": [
+            "Hold your angle, ignore the circle",
+            "Chase their ankle with your hand"
+          ],
+          "trap": [
+            "Release and reset your position"
+          ]
+        }
       },
       {
         "question": "What are the primary grips you should prioritize from shin-to-shin bottom and why?",
-        "answer": "Prioritize sleeve grip on the same side as your shin connection to prevent them from posting and to assist with off-balancing, combined with either collar grip for posture control or pants/belt grip for distance management. These grips prevent the opponent from achieving dominant passing grips while allowing you to manage distance and set up sweeps. Without upper body control, the shin connection alone is insufficient to prevent being passed."
+        "answer": "Prioritize sleeve grip on the same side as your shin connection to prevent them from posting and to assist with off-balancing, combined with either collar grip for posture control or pants/belt grip for distance management. These grips prevent the opponent from achieving dominant passing grips while allowing you to manage distance and set up sweeps. Without upper body control, the shin connection alone is insufficient to prevent being passed.",
+        "answer_line": "Same-side sleeve plus collar grip",
+        "distractors": {
+          "plausible": [
+            "Opposite-side sleeve and pant grip",
+            "Both collars for posture control"
+          ],
+          "trap": [
+            "No grips, rely on shin alone"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight and begins driving forward with pressure—what transition should you initiate?",
-        "answer": "Their forward pressure actually creates the ideal setup for butterfly sweep or elevation to X-guard. Use their forward momentum against them by transitioning your shin-to-shin hook to a butterfly hook, then execute the butterfly sweep using their committed weight. Alternatively, if you can get underneath them, use the forward pressure to facilitate X-guard entry by getting your second hook in and elevating."
+        "answer": "Their forward pressure actually creates the ideal setup for butterfly sweep or elevation to X-guard. Use their forward momentum against them by transitioning your shin-to-shin hook to a butterfly hook, then execute the butterfly sweep using their committed weight. Alternatively, if you can get underneath them, use the forward pressure to facilitate X-guard entry by getting your second hook in and elevating.",
+        "answer_line": "Butterfly sweep off their momentum",
+        "distractors": {
+          "plausible": [
+            "Retreat and reset your guard",
+            "Pull guard tighter and stall"
+          ],
+          "trap": [
+            "Push back against their pressure"
+          ]
+        }
       },
       {
         "question": "How do you recognize when shin-to-shin has been neutralized and it's time to transition?",
-        "answer": "Key indicators include: your shin pressure no longer affecting their base, opponent has established dominant upper body grips that control your posture, you cannot generate off-balancing force despite hip adjustment, opponent's weight is no longer threatened by your connection, or they've successfully changed the angle to make your shin contact ineffective. When these occur, immediately flow to single leg X, De La Riva, or butterfly rather than fighting a losing battle."
+        "answer": "Key indicators include: your shin pressure no longer affecting their base, opponent has established dominant upper body grips that control your posture, you cannot generate off-balancing force despite hip adjustment, opponent's weight is no longer threatened by your connection, or they've successfully changed the angle to make your shin contact ineffective. When these occur, immediately flow to single leg X, De La Riva, or butterfly rather than fighting a losing battle.",
+        "answer_line": "No more leverage — flow to SLX/DLR",
+        "distractors": {
+          "plausible": [
+            "Reset the same shin connection",
+            "Wait longer for pressure to return"
+          ],
+          "trap": [
+            "Keep fighting the same connection"
+          ]
+        }
       },
       {
         "question": "What role does hip mobility play in maintaining effective shin-to-shin guard?",
-        "answer": "Hip mobility is essential for creating dynamic pressure adjustments, maintaining the shin connection angle as opponents move, generating off-balancing force without relying solely on arm strength, enabling smooth transitions to related guards, and recovering position when partially cleared. Mobile hips allow you to constantly threaten while making your guard an active puzzle rather than a static barrier that can be systematically dismantled."
+        "answer": "Hip mobility is essential for creating dynamic pressure adjustments, maintaining the shin connection angle as opponents move, generating off-balancing force without relying solely on arm strength, enabling smooth transitions to related guards, and recovering position when partially cleared. Mobile hips allow you to constantly threaten while making your guard an active puzzle rather than a static barrier that can be systematically dismantled.",
+        "answer_line": "Adjusts angle and off-balances them",
+        "distractors": {
+          "plausible": [
+            "Adds raw strength to the connection",
+            "Keeps your hips locked and heavy"
+          ],
+          "trap": [
+            "Plant hips still for max stability"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully clears your shin and begins their knee slice pass—what is your highest-percentage recovery option?",
-        "answer": "As the shin is cleared during a knee slice, your best option is typically to pummel your inside leg to establish knee shield in their path while simultaneously establishing frames and recovering guard angle. If the knee slice is already past the initial stage, transition to half guard retention or consider using their forward momentum to enter deep half guard. The key is immediate recognition—the sooner you respond, the more options remain available."
+        "answer": "As the shin is cleared during a knee slice, your best option is typically to pummel your inside leg to establish knee shield in their path while simultaneously establishing frames and recovering guard angle. If the knee slice is already past the initial stage, transition to half guard retention or consider using their forward momentum to enter deep half guard. The key is immediate recognition—the sooner you respond, the more options remain available.",
+        "answer_line": "Pummel to knee shield, frame up",
+        "distractors": {
+          "plausible": [
+            "Turtle away from the pressure",
+            "Post your hand and stand up"
+          ],
+          "trap": [
+            "Flatten out and turtle away"
+          ]
+        }
       },
       {
         "question": "How should you manage your free leg (the one not creating the shin connection) to prevent it from being used against you?",
-        "answer": "Keep your free leg active and positioned to serve multiple functions: use it to frame against their hip or shoulder to control distance, post it on the mat for base adjustments and hip mobility, use it to threaten secondary entries like De La Riva or butterfly, and most importantly, keep it moving so they cannot grip it and use it as a handle to break your structure. A static free leg is easily controlled and becomes a liability."
+        "answer": "Keep your free leg active and positioned to serve multiple functions: use it to frame against their hip or shoulder to control distance, post it on the mat for base adjustments and hip mobility, use it to threaten secondary entries like De La Riva or butterfly, and most importantly, keep it moving so they cannot grip it and use it as a handle to break your structure. A static free leg is easily controlled and becomes a liability.",
+        "answer_line": "Keep it active, frame and threaten",
+        "distractors": {
+          "plausible": [
+            "Tuck it under your body and still",
+            "Wrap it around their far leg"
+          ],
+          "trap": [
+            "Leave it flat and motionless"
+          ]
+        }
       }
     ],
     "clips": [
@@ -783,35 +943,115 @@
   "flashcards_position": [
     {
       "question": "What configuration defines Shin-to-Shin Guard and distinguishes it from other seated open guards?",
-      "answer": "Shin-to-Shin Guard is defined by the bottom player pressing one shin across the opponent's same-side shin, forming a perpendicular crossing point roughly at the lower third of the tibia. This single lower-body connection is the position's signature, distinguishing it from De La Riva (which wraps the outside of the leg) or butterfly (which hooks under the thighs). The crossing shins create a lever rather than a hook, so the connection controls the opponent's base through angular pressure instead of elevation. Both players orient around this contact point, making it the fulcrum that governs distance, balance, and every available transition."
+      "answer": "Shin-to-Shin Guard is defined by the bottom player pressing one shin across the opponent's same-side shin, forming a perpendicular crossing point roughly at the lower third of the tibia. This single lower-body connection is the position's signature, distinguishing it from De La Riva (which wraps the outside of the leg) or butterfly (which hooks under the thighs). The crossing shins create a lever rather than a hook, so the connection controls the opponent's base through angular pressure instead of elevation. Both players orient around this contact point, making it the fulcrum that governs distance, balance, and every available transition.",
+      "answer_line": "Crossed shins, same-side lever",
+      "distractors": {
+        "plausible": [
+          "Shin hooked under both thighs",
+          "Leg wrapped outside their knee"
+        ],
+        "trap": [
+          "Flat parallel shin, no angle"
+        ]
+      }
     },
     {
       "question": "Why is the perpendicular angle of the shin contact more important than the amount of force applied through it?",
-      "answer": "The perpendicular crossing turns the shin into a lever, so the bottom player can compromise the opponent's base with minimal energy rather than a strength contest. A shallow or parallel angle lets the top player simply slide their leg free or step over with little resistance, collapsing the connection entirely. At roughly 45 degrees across the lower tibia, the shin sits where the opponent has the least mechanical advantage to clear it, forcing them to either fight the angle or expose themselves to a transition. This is why both players constantly contest the angle itself, not just push harder into the contact."
+      "answer": "The perpendicular crossing turns the shin into a lever, so the bottom player can compromise the opponent's base with minimal energy rather than a strength contest. A shallow or parallel angle lets the top player simply slide their leg free or step over with little resistance, collapsing the connection entirely. At roughly 45 degrees across the lower tibia, the shin sits where the opponent has the least mechanical advantage to clear it, forcing them to either fight the angle or expose themselves to a transition. This is why both players constantly contest the angle itself, not just push harder into the contact.",
+      "answer_line": "Lever at 45° beats raw strength",
+      "distractors": {
+        "plausible": [
+          "More force always beats angle",
+          "Higher on the thigh gives leverage"
+        ],
+        "trap": [
+          "Push shin flat and parallel"
+        ]
+      }
     },
     {
       "question": "What is the fundamental dilemma the shin connection imposes on the standing player?",
-      "answer": "The crossing shin blocks safe forward pressure while simultaneously threatening the standing player's base, creating a lose-lose choice. If they try to clear the shin by lifting or stepping the leg over, they shift weight onto the trapped leg and open entries to single leg X and outside ashi. If instead they hold distance and stall, the seated player keeps the initiative to adjust angles and build sweeps. This dilemma structure is what makes the position dynamic for both sides: every clearing method the top player chooses answers one threat by exposing another."
+      "answer": "The crossing shin blocks safe forward pressure while simultaneously threatening the standing player's base, creating a lose-lose choice. If they try to clear the shin by lifting or stepping the leg over, they shift weight onto the trapped leg and open entries to single leg X and outside ashi. If instead they hold distance and stall, the seated player keeps the initiative to adjust angles and build sweeps. This dilemma structure is what makes the position dynamic for both sides: every clearing method the top player chooses answers one threat by exposing another.",
+      "answer_line": "Clearing the leg opens SLX entry",
+      "distractors": {
+        "plausible": [
+          "Standing still avoids any danger",
+          "Driving forward removes the threat"
+        ],
+        "trap": [
+          "Muscle the leg free with force"
+        ]
+      }
     },
     {
       "question": "How does weight distribution and posture typically differ between the two players in Shin-to-Shin Guard?",
-      "answer": "The standing player carries weight distributed between both legs in combat base or an upright stance, kept slightly back to avoid being pulled forward over the shin barrier. The seated player sits with mobile, angled hips and an upright spine, staying off a flat back so they can rotate and pump pressure through the shin. Neither player is settled or heavy the way they would be in a pinning position; the position rewards dynamic, adjustable posture on both sides. Whoever loses their structural posture first, whether the standing player planting flat-footed or the seated player collapsing their back, cedes control of the crossing point."
+      "answer": "The standing player carries weight distributed between both legs in combat base or an upright stance, kept slightly back to avoid being pulled forward over the shin barrier. The seated player sits with mobile, angled hips and an upright spine, staying off a flat back so they can rotate and pump pressure through the shin. Neither player is settled or heavy the way they would be in a pinning position; the position rewards dynamic, adjustable posture on both sides. Whoever loses their structural posture first, whether the standing player planting flat-footed or the seated player collapsing their back, cedes control of the crossing point.",
+      "answer_line": "Weight back standing, spine upright",
+      "distractors": {
+        "plausible": [
+          "Both players sit with flat backs",
+          "Standing player leans forward heavy"
+        ],
+        "trap": [
+          "Seated player collapses flat back"
+        ]
+      }
     },
     {
       "question": "What makes hip mobility the central athletic requirement for sustaining the position rather than grip or leg strength?",
-      "answer": "Because the shin connection is a single moving contact point, it can only be maintained by continuously re-aiming it as the opponent circles, steps, or shifts weight. Mobile hips let the seated player chase the angle and keep the perpendicular crossing intact, while the standing player uses their own hip and foot movement to try to walk the angle away. Static hips on either side make the position readable and easy to dismantle, since the crossing point becomes a fixed target. The exchange is therefore governed less by how hard either player pulls or pushes and more by who can adjust angle and pressure faster."
+      "answer": "Because the shin connection is a single moving contact point, it can only be maintained by continuously re-aiming it as the opponent circles, steps, or shifts weight. Mobile hips let the seated player chase the angle and keep the perpendicular crossing intact, while the standing player uses their own hip and foot movement to try to walk the angle away. Static hips on either side make the position readable and easy to dismantle, since the crossing point becomes a fixed target. The exchange is therefore governed less by how hard either player pulls or pushes and more by who can adjust angle and pressure faster.",
+      "answer_line": "Re-aims the moving contact point",
+      "distractors": {
+        "plausible": [
+          "Grip strength controls the angle",
+          "Leg strength alone holds the shin"
+        ],
+        "trap": [
+          "Keep hips still for a firm base"
+        ]
+      }
     },
     {
       "question": "Why is upper-body control considered a necessary second layer rather than optional in Shin-to-Shin Guard?",
-      "answer": "The shin connection alone controls only the opponent's base, leaving their posture and hands free to work independently, so a second layer of contact is needed to close that gap. The seated player fights for sleeve, collar, pants, or ankle control to prevent the standing player from posting, driving weight down, or establishing passing grips, while the standing player contests those same grips to free their passing options. Without this upper-body management, either player can neutralize the shin by controlling the opposite end of the body. The position is therefore a two-layer system, lower-body lever plus upper-body management, and losing either layer collapses the whole structure."
+      "answer": "The shin connection alone controls only the opponent's base, leaving their posture and hands free to work independently, so a second layer of contact is needed to close that gap. The seated player fights for sleeve, collar, pants, or ankle control to prevent the standing player from posting, driving weight down, or establishing passing grips, while the standing player contests those same grips to free their passing options. Without this upper-body management, either player can neutralize the shin by controlling the opposite end of the body. The position is therefore a two-layer system, lower-body lever plus upper-body management, and losing either layer collapses the whole structure.",
+      "answer_line": "Upper grips block what shin can't",
+      "distractors": {
+        "plausible": [
+          "Shin control alone is sufficient",
+          "Leg pressure replaces grip fighting"
+        ],
+        "trap": [
+          "Skip grips, trust the shin alone"
+        ]
+      }
     },
     {
       "question": "How does Shin-to-Shin Guard relate to single leg X and X-Guard within the same connected system?",
-      "answer": "Shin-to-Shin functions as an entry hub whose crossing point flows directly into deeper leg entanglements when the opponent reacts. When the standing player steps forward or posts weight onto the trapped leg, the seated player can thread underneath to enter single leg X, and from there elevate into full X-Guard. Because the shin connection already occupies the same-side leg, these transitions require only a change in depth and hook placement rather than a fresh entry. This is why the position is treated not as a static guard but as a launching platform, tightly linked to the single leg X and X-Guard family it feeds into."
+      "answer": "Shin-to-Shin functions as an entry hub whose crossing point flows directly into deeper leg entanglements when the opponent reacts. When the standing player steps forward or posts weight onto the trapped leg, the seated player can thread underneath to enter single leg X, and from there elevate into full X-Guard. Because the shin connection already occupies the same-side leg, these transitions require only a change in depth and hook placement rather than a fresh entry. This is why the position is treated not as a static guard but as a launching platform, tightly linked to the single leg X and X-Guard family it feeds into.",
+      "answer_line": "Hub feeding into SLX and X-guard",
+      "distractors": {
+        "plausible": [
+          "Separate guard unrelated to SLX",
+          "Requires switching to the far leg"
+        ],
+        "trap": [
+          "Abandon shin to chase X-guard early"
+        ]
+      }
     },
     {
       "question": "What distinguishes an active, threatening shin connection from a passive one that the opponent can ignore?",
-      "answer": "An active connection drives constant pressure and angle into the opponent's base so their weight is genuinely threatened and they must respond to stay balanced. A passive connection merely rests the shin against the opponent's leg without leverage, letting them clear it, step over, or pressure forward with little consequence. The difference is felt in whether the standing player's base is being compromised moment to moment or whether they can move freely as if the contact were not there. Because the position offers no barrier by itself, its entire value depends on the connection staying live, which is why a passive shin effectively surrenders the guard."
+      "answer": "An active connection drives constant pressure and angle into the opponent's base so their weight is genuinely threatened and they must respond to stay balanced. A passive connection merely rests the shin against the opponent's leg without leverage, letting them clear it, step over, or pressure forward with little consequence. The difference is felt in whether the standing player's base is being compromised moment to moment or whether they can move freely as if the contact were not there. Because the position offers no barrier by itself, its entire value depends on the connection staying live, which is why a passive shin effectively surrenders the guard.",
+      "answer_line": "Active threatens base, passive rests",
+      "distractors": {
+        "plausible": [
+          "Passive connections still threaten",
+          "Active connection needs less angle"
+        ],
+        "trap": [
+          "Rest the shin once contact is made"
+        ]
+      }
     }
   ],
   "clips": [

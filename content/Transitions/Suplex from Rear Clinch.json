@@ -265,35 +265,115 @@
     "flashcards": [
       {
         "question": "What is the primary power source for the suplex lift, and why is this important?",
-        "answer": "The primary power source is hip extension and leg drive, not arm or back strength. This is important because the legs generate far more force than the arms, the spinal loading from arm-based lifting risks back injury, and leg-driven lifts are sustainable across multiple attempts without premature fatigue. The arms serve only as the connection point to transmit leg power into the opponent's body."
+        "answer": "The primary power source is hip extension and leg drive, not arm or back strength. This is important because the legs generate far more force than the arms, the spinal loading from arm-based lifting risks back injury, and leg-driven lifts are sustainable across multiple attempts without premature fatigue. The arms serve only as the connection point to transmit leg power into the opponent's body.",
+        "answer_line": "Hip extension, leg drive",
+        "distractors": {
+          "plausible": [
+            "Upper back strength",
+            "Arm pulling strength"
+          ],
+          "trap": [
+            "Lift with lower back"
+          ]
+        }
       },
       {
         "question": "Why must the throwing arc be directed laterally rather than straight overhead?",
-        "answer": "Lateral throwing direction ensures the opponent lands on their upper back or side rather than their head or neck, dramatically reducing the risk of cervical spine injuries. Many competition rulesets penalize or disqualify overhead throws that result in head-first landings. Additionally, the lateral arc naturally positions the attacker for side control establishment upon landing, making the transition to ground control more efficient."
+        "answer": "Lateral throwing direction ensures the opponent lands on their upper back or side rather than their head or neck, dramatically reducing the risk of cervical spine injuries. Many competition rulesets penalize or disqualify overhead throws that result in head-first landings. Additionally, the lateral arc naturally positions the attacker for side control establishment upon landing, making the transition to ground control more efficient.",
+        "answer_line": "Protects neck, lands on side",
+        "distractors": {
+          "plausible": [
+            "Overhead arc for max height",
+            "Drop straight back for takedown"
+          ],
+          "trap": [
+            "Spike them head-first"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight and widens their base as you begin to lift—how do you adapt?",
-        "answer": "Abandon the direct overhead lift and switch to a lateral suplay or lateral drop variation that uses their lowered center of gravity against them. Alternatively, use the failed suplex attempt as a setup for a mat return or body lock takedown, which are more effective against a lowered base. The key is recognizing immediately when the opponent's defense has neutralized the primary lift and transitioning to a complementary technique rather than forcing."
+        "answer": "Abandon the direct overhead lift and switch to a lateral suplay or lateral drop variation that uses their lowered center of gravity against them. Alternatively, use the failed suplex attempt as a setup for a mat return or body lock takedown, which are more effective against a lowered base. The key is recognizing immediately when the opponent's defense has neutralized the primary lift and transitioning to a complementary technique rather than forcing.",
+        "answer_line": "Switch to lateral suplay/drop",
+        "distractors": {
+          "plausible": [
+            "Force overhead lift anyway",
+            "Reset and circle away"
+          ],
+          "trap": [
+            "Muscle it up with your back"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure control for executing the suplex?",
-        "answer": "A high body lock with hands clasped using a gable grip or S-grip around the opponent's lower ribcage provides the most secure control. The lock should be positioned high enough to control the opponent's torso but low enough to maintain mechanical advantage for the lift. The seatbelt grip offers more submission threats but is easier to strip during the lift, making the locked body lock the preferred configuration for suplex execution specifically."
+        "answer": "A high body lock with hands clasped using a gable grip or S-grip around the opponent's lower ribcage provides the most secure control. The lock should be positioned high enough to control the opponent's torso but low enough to maintain mechanical advantage for the lift. The seatbelt grip offers more submission threats but is easier to strip during the lift, making the locked body lock the preferred configuration for suplex execution specifically.",
+        "answer_line": "High locked body lock (gable grip)",
+        "distractors": {
+          "plausible": [
+            "Seatbelt grip for submissions",
+            "Low grip around the hips"
+          ],
+          "trap": [
+            "Single underhook, no lock"
+          ]
+        }
       },
       {
         "question": "At what moment during the rear clinch exchange is the optimal timing window for initiating the suplex?",
-        "answer": "The optimal timing window is when the opponent shifts their weight forward during grip fighting, takes a step that momentarily narrows their base, or relaxes briefly after successfully defending a different takedown attempt. The suplex is most effective when the opponent's center of gravity is already moving in a direction that complements your lifting vector, requiring less force to break their connection to the ground."
+        "answer": "The optimal timing window is when the opponent shifts their weight forward during grip fighting, takes a step that momentarily narrows their base, or relaxes briefly after successfully defending a different takedown attempt. The suplex is most effective when the opponent's center of gravity is already moving in a direction that complements your lifting vector, requiring less force to break their connection to the ground.",
+        "answer_line": "When their weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Right after securing clinch",
+            "When they widen their base"
+          ],
+          "trap": [
+            "When they're braced and heavy"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel the opponent hook your leg during the lift attempt?",
-        "answer": "If you feel the hook before full commitment to the lift, abort immediately and re-establish your position by stepping your hooked leg free and resetting the body lock. If already mid-lift, commit to a lateral direction that drives through the hook, accepting a potential scramble but maintaining forward pressure. Never attempt to complete a vertical lift with a hooked leg, as this almost certainly results in falling underneath the opponent."
+        "answer": "If you feel the hook before full commitment to the lift, abort immediately and re-establish your position by stepping your hooked leg free and resetting the body lock. If already mid-lift, commit to a lateral direction that drives through the hook, accepting a potential scramble but maintaining forward pressure. Never attempt to complete a vertical lift with a hooked leg, as this almost certainly results in falling underneath the opponent.",
+        "answer_line": "Abort, reset the body lock",
+        "distractors": {
+          "plausible": [
+            "Power through the vertical lift",
+            "Switch grips and retry immediately"
+          ],
+          "trap": [
+            "Force the vertical lift through"
+          ]
+        }
       },
       {
         "question": "How does the suplex threat integrate with other takedown options from the rear clinch?",
-        "answer": "The suplex creates a high-low takedown dilemma. When you threaten the suplex, opponents lower their base, which makes the mat return and body lock takedown more effective. Conversely, when opponents maintain upright posture to defend the mat return, they become more vulnerable to the explosive suplex lift. This complementary relationship means you should chain these techniques together, using the threat of one to create openings for the others."
+        "answer": "The suplex creates a high-low takedown dilemma. When you threaten the suplex, opponents lower their base, which makes the mat return and body lock takedown more effective. Conversely, when opponents maintain upright posture to defend the mat return, they become more vulnerable to the explosive suplex lift. This complementary relationship means you should chain these techniques together, using the threat of one to create openings for the others.",
+        "answer_line": "Threat sets up mat return/body lock",
+        "distractors": {
+          "plausible": [
+            "Only use suplex in isolation",
+            "Suplex replaces other takedowns"
+          ],
+          "trap": [
+            "Abandon suplex if defended once"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when drilling the suplex with a training partner?",
-        "answer": "Always use adequate mat padding and ensure sufficient clear space around the drilling area. Begin with cooperative partners who assist the lift and practice controlled landings before adding resistance. Communicate clearly about intensity level and landing direction before each repetition. Never attempt overhead throws onto hard surfaces. The thrower must maintain grip throughout the landing to control descent speed and protect both practitioners from impact injuries."
+        "answer": "Always use adequate mat padding and ensure sufficient clear space around the drilling area. Begin with cooperative partners who assist the lift and practice controlled landings before adding resistance. Communicate clearly about intensity level and landing direction before each repetition. Never attempt overhead throws onto hard surfaces. The thrower must maintain grip throughout the landing to control descent speed and protect both practitioners from impact injuries.",
+        "answer_line": "Pad mats, cooperative reps first",
+        "distractors": {
+          "plausible": [
+            "Full resistance from day one",
+            "Skip communication, just drill"
+          ],
+          "trap": [
+            "Release grip mid-throw to reset"
+          ]
+        }
       }
     ],
     "safety_considerations": "The suplex carries significant injury risk for both practitioners and demands strict safety protocols. Always direct throws laterally rather than overhead to prevent head and cervical spine injuries. Use crash mats or adequate padding during initial drilling phases. Maintain grip throughout the throw to control the opponent's landing—never release mid-air. Both practitioners should warm up thoroughly with emphasis on neck, shoulders, and spine mobility. Communicate clearly about intensity and direction before each repetition. In competition, verify ruleset legality as some organizations restrict or penalize suplexes. Never attempt suplexes on concrete, thin mats, or near walls and boundaries. The thrower bears responsibility for their partner's safe landing at all times.",
@@ -402,19 +482,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a suplex attempt is imminent from the rear clinch?",
-        "answer": "The earliest cues include the opponent tightening their body lock grip with increased compression around your midsection, dropping their hips below yours by bending their knees while maintaining chest contact, positioning their feet between or behind your feet, and a brief moment of stillness before the explosive movement. The hip drop below your center of gravity is the most reliable indicator because the opponent cannot generate lifting force without first positioning their hips below yours."
+        "answer": "The earliest cues include the opponent tightening their body lock grip with increased compression around your midsection, dropping their hips below yours by bending their knees while maintaining chest contact, positioning their feet between or behind your feet, and a brief moment of stillness before the explosive movement. The hip drop below your center of gravity is the most reliable indicator because the opponent cannot generate lifting force without first positioning their hips below yours.",
+        "answer_line": "Hips drop below yours",
+        "distractors": {
+          "plausible": [
+            "Grip loosens before the attempt",
+            "They step wide and backward"
+          ],
+          "trap": [
+            "Sudden forward shove signals it"
+          ]
+        }
       },
       {
         "question": "Why is dropping your base the single most important defensive response to a suplex setup?",
-        "answer": "Dropping your base lowers your center of gravity closer to the ground, dramatically increasing the force required to lift you. The suplex relies on the attacker positioning their hips below yours to create an upward lifting vector—by dropping your hips in response, you negate this positioning advantage and force them to lift significantly more of your weight against gravity. A low wide base also creates lateral stability that resists the rotational forces of lateral suplex variations."
+        "answer": "Dropping your base lowers your center of gravity closer to the ground, dramatically increasing the force required to lift you. The suplex relies on the attacker positioning their hips below yours to create an upward lifting vector—by dropping your hips in response, you negate this positioning advantage and force them to lift significantly more of your weight against gravity. A low wide base also creates lateral stability that resists the rotational forces of lateral suplex variations.",
+        "answer_line": "Lowers center of gravity",
+        "distractors": {
+          "plausible": [
+            "Widening stance alone",
+            "Leaning forward into them"
+          ],
+          "trap": [
+            "Standing taller to resist"
+          ]
+        }
       },
       {
         "question": "If you are already being lifted and cannot prevent the throw, what actions minimize positional damage?",
-        "answer": "Tuck your chin to protect your cervical spine from impact, round your spine to distribute landing force across a larger surface area, and actively direct your body toward a lateral landing angle if possible. Try to hook the opponent's leg during the arc to entangle them and potentially reverse the landing position. Stay active and mobile rather than going stiff, as a controlled body absorbs impact more safely and creates more opportunities to scramble during the landing phase."
+        "answer": "Tuck your chin to protect your cervical spine from impact, round your spine to distribute landing force across a larger surface area, and actively direct your body toward a lateral landing angle if possible. Try to hook the opponent's leg during the arc to entangle them and potentially reverse the landing position. Stay active and mobile rather than going stiff, as a controlled body absorbs impact more safely and creates more opportunities to scramble during the landing phase.",
+        "answer_line": "Tuck chin, round spine, go lateral",
+        "distractors": {
+          "plausible": [
+            "Stay stiff to control landing",
+            "Arch back to slow the throw"
+          ],
+          "trap": [
+            "Fight the arc, plant your feet"
+          ]
+        }
       },
       {
         "question": "How does the leg hook defense work against the suplex, and when should you deploy it?",
-        "answer": "The leg hook defense involves wrapping your foot behind the opponent's knee or ankle as they position for the lift. This prevents them from fully extending their hips, which is the primary power source for the suplex. Deploy it when you feel the opponent step their feet between yours during the setup phase, before the lift initiates. The hook must be deep enough to genuinely block hip extension—a shallow hook can be powered through. If the hook holds during a lift attempt, the resulting tangle often creates a scramble where you can fight for top position."
+        "answer": "The leg hook defense involves wrapping your foot behind the opponent's knee or ankle as they position for the lift. This prevents them from fully extending their hips, which is the primary power source for the suplex. Deploy it when you feel the opponent step their feet between yours during the setup phase, before the lift initiates. The hook must be deep enough to genuinely block hip extension—a shallow hook can be powered through. If the hook holds during a lift attempt, the resulting tangle often creates a scramble where you can fight for top position.",
+        "answer_line": "Hook their knee to block hip drive",
+        "distractors": {
+          "plausible": [
+            "Hook shallow early in the setup",
+            "Hook after the lift begins"
+          ],
+          "trap": [
+            "Hook, then post hands on mat"
+          ]
+        }
       }
     ],
     "training_progressions": [

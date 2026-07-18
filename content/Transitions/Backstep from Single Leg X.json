@@ -268,15 +268,45 @@
     "flashcards": [
       {
         "question": "What is the most critical setup action before initiating the backstep rotation from SLX?",
-        "answer": "Controlling or stripping the bottom player's hip hook is the most critical setup action. The hip hook is the mechanism that allows the bottom player to follow your rotation and maintain guard. Without addressing this hook first, the backstep rotation will fail because the bottom player can simply track your movement with their foot and re-establish SLX configuration on the other side. Strip it by peeling the foot off your hip, or pin it to the mat with your hand."
+        "answer": "Controlling or stripping the bottom player's hip hook is the most critical setup action. The hip hook is the mechanism that allows the bottom player to follow your rotation and maintain guard. Without addressing this hook first, the backstep rotation will fail because the bottom player can simply track your movement with their foot and re-establish SLX configuration on the other side. Strip it by peeling the foot off your hip, or pin it to the mat with your hand.",
+        "answer_line": "Strip the hip hook first",
+        "distractors": {
+          "plausible": [
+            "Break upper body grips first",
+            "Secure crossface grip first"
+          ],
+          "trap": [
+            "Rotate immediately, skip setup"
+          ]
+        }
       },
       {
         "question": "Your opponent's hip hook is stripped but they immediately grab your same-side sleeve as you begin the rotation - how do you adjust?",
-        "answer": "If the sleeve grip is established just as you begin rotating, you must make a split-second decision. If the grip is loose, power through the rotation using your momentum to break the grip as you turn. If the grip is strong, abort the backstep immediately by returning your weight to the posted leg and strip the grip before re-attempting. Continuing a backstep against a strong sleeve grip will result in being pulled off balance mid-rotation, which is the worst possible outcome."
+        "answer": "If the sleeve grip is established just as you begin rotating, you must make a split-second decision. If the grip is loose, power through the rotation using your momentum to break the grip as you turn. If the grip is strong, abort the backstep immediately by returning your weight to the posted leg and strip the grip before re-attempting. Continuing a backstep against a strong sleeve grip will result in being pulled off balance mid-rotation, which is the worst possible outcome.",
+        "answer_line": "Abort, reset, then strip grip",
+        "distractors": {
+          "plausible": [
+            "Power through using momentum",
+            "Switch to a different grip"
+          ],
+          "trap": [
+            "Force rotation through strong grip"
+          ]
+        }
       },
       {
         "question": "In which direction should the free leg step during the backstep, and why does the stepping radius matter?",
-        "answer": "The free leg should step in a wide arc behind the bottom player's far hip, landing on the opposite side of their body. The stepping radius matters enormously because a wider arc creates a more complete hip rotation, which is what mechanically clears the trapped leg from the inside hook. A narrow step produces insufficient rotation and leaves the trapped leg still caught in the entanglement. Always err on the side of stepping wider rather than shorter."
+        "answer": "The free leg should step in a wide arc behind the bottom player's far hip, landing on the opposite side of their body. The stepping radius matters enormously because a wider arc creates a more complete hip rotation, which is what mechanically clears the trapped leg from the inside hook. A narrow step produces insufficient rotation and leaves the trapped leg still caught in the entanglement. Always err on the side of stepping wider rather than shorter.",
+        "answer_line": "Wide arc behind their far hip",
+        "distractors": {
+          "plausible": [
+            "Short step behind near hip",
+            "Straight step, minimal arc"
+          ],
+          "trap": [
+            "Step forward into their guard"
+          ]
+        }
       },
       {
         "question": "You complete the rotation and clear the hooks but the bottom player immediately inserts their knee before you can establish crossface - what went wrong and how do you prevent it?",
@@ -284,19 +314,59 @@
       },
       {
         "question": "What grip should your hands prioritize during the backstep rotation itself?",
-        "answer": "During the actual rotation, one hand should control the bottom player's top leg or ankle to prevent the hip hook from chasing, while the other hand posts on the mat for balance support during the transition. Once the rotation is complete and you are landing in side control, the posting hand immediately transitions to crossface while the leg-controlling hand drops to block the far hip. The grip priorities shift from control and balance during rotation to crossface and hip block upon landing."
+        "answer": "During the actual rotation, one hand should control the bottom player's top leg or ankle to prevent the hip hook from chasing, while the other hand posts on the mat for balance support during the transition. Once the rotation is complete and you are landing in side control, the posting hand immediately transitions to crossface while the leg-controlling hand drops to block the far hip. The grip priorities shift from control and balance during rotation to crossface and hip block upon landing.",
+        "answer_line": "Control leg, post other hand",
+        "distractors": {
+          "plausible": [
+            "Grip collar, post other hand",
+            "Both hands control the leg"
+          ],
+          "trap": [
+            "Both hands grip for a submission"
+          ]
+        }
       },
       {
         "question": "Your opponent has very tight inside hook tension around your ankle that resists rotational clearance - what adjustments enable the backstep to succeed?",
-        "answer": "When the inside hook is exceptionally tight, drive your trapped knee forward toward the bottom player's chest to change the angle of the hook and reduce its grip strength. You can also use your hand to peel their inside leg off your ankle momentarily before rotating. Another approach is the backstep to knee slide variant where you initiate the backstep for the angle change but finish by driving your knee through the remaining hook rather than relying purely on rotational clearance."
+        "answer": "When the inside hook is exceptionally tight, drive your trapped knee forward toward the bottom player's chest to change the angle of the hook and reduce its grip strength. You can also use your hand to peel their inside leg off your ankle momentarily before rotating. Another approach is the backstep to knee slide variant where you initiate the backstep for the angle change but finish by driving your knee through the remaining hook rather than relying purely on rotational clearance.",
+        "answer_line": "Drive knee forward to change angle",
+        "distractors": {
+          "plausible": [
+            "Yank the leg straight back",
+            "Increase rotation speed only"
+          ],
+          "trap": [
+            "Force through with more power"
+          ]
+        }
       },
       {
         "question": "How does the backstep from SLX differ mechanically from a backstep from De La Riva guard?",
-        "answer": "The key difference is the hook configuration you must defeat. In DLR, the primary hook wraps behind your lead knee from the outside, so the backstep clears it by stepping behind the hook's wrapping direction. In SLX, you face both an inside ankle wrap and a hip hook working together, requiring you to address the hip hook before rotating and relying on rotation to clear the inside hook. SLX backsteps typically require more preparatory grip work and a wider rotation arc because the inside hook has deeper purchase around the ankle."
+        "answer": "The key difference is the hook configuration you must defeat. In DLR, the primary hook wraps behind your lead knee from the outside, so the backstep clears it by stepping behind the hook's wrapping direction. In SLX, you face both an inside ankle wrap and a hip hook working together, requiring you to address the hip hook before rotating and relying on rotation to clear the inside hook. SLX backsteps typically require more preparatory grip work and a wider rotation arc because the inside hook has deeper purchase around the ankle.",
+        "answer_line": "SLX needs hip hook cleared first",
+        "distractors": {
+          "plausible": [
+            "Both defeat identical hook types",
+            "DLR needs wider rotation arc"
+          ],
+          "trap": [
+            "Same technique, no adjustment needed"
+          ]
+        }
       },
       {
         "question": "During live rolling, your backstep attempt fails because the bottom player follows your rotation and retains SLX - what chain attack should you immediately threaten?",
-        "answer": "After a failed backstep, immediately threaten a direct pass in the opposite direction such as a headquarters pass or standing leg extraction. The bottom player committed their hooks to following your rotation in one direction, which means they are momentarily committed in that direction and vulnerable to a sudden reversal of passing direction. Alternatively, if they over-commit to chasing, their legs may extend and create a window for a knee bar or ankle lock counter-attack on the trapped leg."
+        "answer": "After a failed backstep, immediately threaten a direct pass in the opposite direction such as a headquarters pass or standing leg extraction. The bottom player committed their hooks to following your rotation in one direction, which means they are momentarily committed in that direction and vulnerable to a sudden reversal of passing direction. Alternatively, if they over-commit to chasing, their legs may extend and create a window for a knee bar or ankle lock counter-attack on the trapped leg.",
+        "answer_line": "Reverse pass the opposite way",
+        "distractors": {
+          "plausible": [
+            "Repeat the same backstep again",
+            "Retreat and reset the position"
+          ],
+          "trap": [
+            "Force the original direction harder"
+          ]
+        }
       }
     ],
     "safety_considerations": "The backstep from SLX involves rapid rotational movement that can stress knee and ankle joints for both practitioners. The top player must control rotation speed to avoid sudden twisting pressure on the bottom player's hooks, particularly their inside hook around the ankle which bears rotational torque during the pass. The bottom player's knee is vulnerable if they resist hook clearance with a locked leg during rotation. Both partners should communicate clearly and tap immediately if any joint pressure becomes excessive. When drilling, begin with slow controlled rotations and gradually increase speed. Avoid explosive backsteps until both partners are comfortable with the mechanics.",
@@ -419,19 +489,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a backstep from SLX is being initiated?",
-        "answer": "The earliest cues are the top player stripping your upper body grips with urgency, shifting their weight predominantly to the free posted leg so the trapped leg feels lighter, and their free hand reaching down to control or strip your hip hook. These preparatory actions precede the actual rotation by one to two seconds and provide the critical window for pre-emptive defense. Reacting to the rotation itself is usually too late."
+        "answer": "The earliest cues are the top player stripping your upper body grips with urgency, shifting their weight predominantly to the free posted leg so the trapped leg feels lighter, and their free hand reaching down to control or strip your hip hook. These preparatory actions precede the actual rotation by one to two seconds and provide the critical window for pre-emptive defense. Reacting to the rotation itself is usually too late.",
+        "answer_line": "Urgent grip strip, weight shift",
+        "distractors": {
+          "plausible": [
+            "Sudden hip escape movement",
+            "Opponent grabbing your collar"
+          ],
+          "trap": [
+            "Wait until rotation begins"
+          ]
+        }
       },
       {
         "question": "Why is chasing with the hip hook more effective than holding a static hook position against the backstep?",
-        "answer": "The backstep works by rotating past the plane of your hooks' mechanical advantage. A static hook loses contact as the top player's hip rotates beyond its engagement angle. A chasing hip hook follows the rotation and re-engages on the far side of their hip, maintaining the SLX configuration despite the rotational attempt. The dynamic hook tracks movement rather than relying on a fixed angle that the rotation is specifically designed to defeat."
+        "answer": "The backstep works by rotating past the plane of your hooks' mechanical advantage. A static hook loses contact as the top player's hip rotates beyond its engagement angle. A chasing hip hook follows the rotation and re-engages on the far side of their hip, maintaining the SLX configuration despite the rotational attempt. The dynamic hook tracks movement rather than relying on a fixed angle that the rotation is specifically designed to defeat.",
+        "answer_line": "Chasing hook re-engages far side",
+        "distractors": {
+          "plausible": [
+            "Static hook has stronger grip",
+            "Chasing hook saves more energy"
+          ],
+          "trap": [
+            "Release hook, grab belt instead"
+          ]
+        }
       },
       {
         "question": "At what point during the backstep rotation is the top player most vulnerable to a counter-attack?",
-        "answer": "The top player is most vulnerable at approximately 90 degrees of rotation when their weight is transitioning between the posted free leg and the stepping leg. At this midpoint, they have committed to the rotation but have not yet landed in side control, their base is split between two positions, and their back is partially turned. This is the optimal window for bridges, sweeps, or leg entanglement entries because the top player cannot effectively defend from this unstable transitional position."
+        "answer": "The top player is most vulnerable at approximately 90 degrees of rotation when their weight is transitioning between the posted free leg and the stepping leg. At this midpoint, they have committed to the rotation but have not yet landed in side control, their base is split between two positions, and their back is partially turned. This is the optimal window for bridges, sweeps, or leg entanglement entries because the top player cannot effectively defend from this unstable transitional position.",
+        "answer_line": "At 90 degrees, weight splitting",
+        "distractors": {
+          "plausible": [
+            "Right as rotation begins",
+            "After landing in side control"
+          ],
+          "trap": [
+            "Wait until they're fully settled"
+          ]
+        }
       },
       {
         "question": "Your hip hook has been stripped and the top player begins rotating - what is your best remaining defensive option?",
-        "answer": "With the hip hook stripped, your best remaining defense is to maximize inside hook tension on their ankle while simultaneously threading your free leg toward an ashi garami entry on their rotating leg. The inside hook alone can slow the rotation enough to create time, and their commitment to rotating actually exposes their leg to entanglement. If the ashi entry is not available, use the inside hook tension to pull yourself toward them and insert a knee to recover half guard before they can consolidate side control."
+        "answer": "With the hip hook stripped, your best remaining defense is to maximize inside hook tension on their ankle while simultaneously threading your free leg toward an ashi garami entry on their rotating leg. The inside hook alone can slow the rotation enough to create time, and their commitment to rotating actually exposes their leg to entanglement. If the ashi entry is not available, use the inside hook tension to pull yourself toward them and insert a knee to recover half guard before they can consolidate side control.",
+        "answer_line": "Max inside hook, thread ashi entry",
+        "distractors": {
+          "plausible": [
+            "Release hook, scramble to guard",
+            "Grab their far collar tightly"
+          ],
+          "trap": [
+            "Let go and turtle up immediately"
+          ]
+        }
       }
     ],
     "training_progressions": [

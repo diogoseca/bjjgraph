@@ -224,11 +224,31 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Crackhead Control to Mission Control transition?",
-        "answer": "The primary goal is to reset from a high-risk, high-reward attacking position to a more stable rubber guard control platform. This transition allows you to escape back exposure danger, consolidate when submission chains stall, or attack from a different angle when opponents have adapted to Crackhead Control offense."
+        "answer": "The primary goal is to reset from a high-risk, high-reward attacking position to a more stable rubber guard control platform. This transition allows you to escape back exposure danger, consolidate when submission chains stall, or attack from a different angle when opponents have adapted to Crackhead Control offense.",
+        "answer_line": "Reset to stable rubber guard control",
+        "distractors": {
+          "plausible": [
+            "Escape to closed guard fully",
+            "Finish submission chain faster"
+          ],
+          "trap": [
+            "Release all leg control for space"
+          ]
+        }
       },
       {
         "question": "What is the critical sequence for grip transition - what must happen before releasing the overhook?",
-        "answer": "Hip elevation must be secured before any grip change occurs. The elevated hips create the foundational structure that makes Mission Control possible. Releasing the overhook before establishing hip elevation causes complete position collapse as the opponent recovers full posture with no control remaining."
+        "answer": "Hip elevation must be secured before any grip change occurs. The elevated hips create the foundational structure that makes Mission Control possible. Releasing the overhook before establishing hip elevation causes complete position collapse as the opponent recovers full posture with no control remaining.",
+        "answer_line": "Secure hip elevation first",
+        "distractors": {
+          "plausible": [
+            "Reposition leg first",
+            "Grip head control first"
+          ],
+          "trap": [
+            "Release overhook immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent begins recovering posture while you're in Crackhead Control - how do you time the transition?",
@@ -236,15 +256,45 @@
       },
       {
         "question": "What should you do if opponent drives forward explosively during your overhook release?",
-        "answer": "Abort the Mission Control transition entirely and use their forward pressure offensively. Forward drive assists Carni transitions and gogoplata setups - redirect their momentum into these attacks rather than fighting it to establish Mission Control. Their aggressive forward energy becomes your submission setup."
+        "answer": "Abort the Mission Control transition entirely and use their forward pressure offensively. Forward drive assists Carni transitions and gogoplata setups - redirect their momentum into these attacks rather than fighting it to establish Mission Control. Their aggressive forward energy becomes your submission setup.",
+        "answer_line": "Abandon for Carni/gogoplata attack",
+        "distractors": {
+          "plausible": [
+            "Brace and force Mission Control",
+            "Reset back to neutral guard"
+          ],
+          "trap": [
+            "Push them back to reset posture"
+          ]
+        }
       },
       {
         "question": "How do you maintain control continuity during the grip transition from overhook to head control?",
-        "answer": "The transition must be one fluid motion with zero gap between releasing the overhook and establishing head control. Practice swimming the releasing hand directly to head control without pausing in neutral. Any control void allows arm extraction and posture recovery, returning the match to neutral."
+        "answer": "The transition must be one fluid motion with zero gap between releasing the overhook and establishing head control. Practice swimming the releasing hand directly to head control without pausing in neutral. Any control void allows arm extraction and posture recovery, returning the match to neutral.",
+        "answer_line": "One fluid motion, no gap",
+        "distractors": {
+          "plausible": [
+            "Pause briefly at neutral grip",
+            "Release then re-grip quickly"
+          ],
+          "trap": [
+            "Let go and reset both grips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their arm during the transition - what is your response?",
-        "answer": "Follow the extracting arm into omoplata rather than fighting to reestablish control. Their extraction motion actually sets up the omoplata rotation perfectly - the direction they're pulling creates the rotation angle you need. Use their defensive movement as your attack setup."
+        "answer": "Follow the extracting arm into omoplata rather than fighting to reestablish control. Their extraction motion actually sets up the omoplata rotation perfectly - the direction they're pulling creates the rotation angle you need. Use their defensive movement as your attack setup.",
+        "answer_line": "Follow arm into omoplata",
+        "distractors": {
+          "plausible": [
+            "Re-secure the overhook grip",
+            "Chase the wrist to stop it"
+          ],
+          "trap": [
+            "Release the leg to regrip arm"
+          ]
+        }
       },
       {
         "question": "Where must the leg be positioned during Mission Control establishment and why?",
@@ -256,11 +306,31 @@
       },
       {
         "question": "When should you NOT initiate this transition from Crackhead Control?",
-        "answer": "Do not transition when viable Crackhead submissions remain available - this wastes high-percentage opportunities. Also avoid transitioning when opponent has achieved double underhooks (abandon to closed guard instead) or when their forward pressure favors Carni/gogoplata setups. The transition is a strategic reset, not an escape from discomfort."
+        "answer": "Do not transition when viable Crackhead submissions remain available - this wastes high-percentage opportunities. Also avoid transitioning when opponent has achieved double underhooks (abandon to closed guard instead) or when their forward pressure favors Carni/gogoplata setups. The transition is a strategic reset, not an escape from discomfort.",
+        "answer_line": "When Crackhead subs still viable",
+        "distractors": {
+          "plausible": [
+            "When opponent seems calm",
+            "Anytime grip feels fatigued"
+          ],
+          "trap": [
+            "Whenever opponent postures up"
+          ]
+        }
       },
       {
         "question": "How can you use this transition offensively rather than as a pure positional retreat?",
-        "answer": "The opponent's relief when sensing the overhook release creates vulnerability. Their reduced defensive tension during this moment opens attack opportunities. Advanced practitioners attack during the transition itself - the leg repositioning can become a triangle entry, the momentary control shift can set up sweeps, and opponent reactions to the transition can be redirected into submissions."
+        "answer": "The opponent's relief when sensing the overhook release creates vulnerability. Their reduced defensive tension during this moment opens attack opportunities. Advanced practitioners attack during the transition itself - the leg repositioning can become a triangle entry, the momentary control shift can set up sweeps, and opponent reactions to the transition can be redirected into submissions.",
+        "answer_line": "Attack during their relief moment",
+        "distractors": {
+          "plausible": [
+            "Rush straight to Mission Control",
+            "Reset grips then reassess"
+          ],
+          "trap": [
+            "Release everything and restart"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves rapid grip and control changes that can create joint stress on the opponent's shoulder if performed aggressively. Release the overhook smoothly rather than explosively to prevent sudden shoulder torque on the trapped arm. Both practitioners should be aware that the transition creates a brief vulnerability window where uncontrolled scrambles can occur. Train at reduced speed initially to develop proper timing before adding resistance. Practitioners with shoulder injuries should approach cautiously.",
@@ -388,11 +458,31 @@
       },
       {
         "question": "Your opponent's overhook begins loosening while their hips drive upward - what does this tell you and how should you respond?",
-        "answer": "This indicates the transition has been initiated - hip elevation is the foundational step before the overhook release. You should prepare to act immediately. As the overhook fully releases, explosively recover posture by driving your head up and hips back, or extract the trapped arm by circling it outward. Do not wait for the head control to establish - the moment between overhook release and head control is your narrowest but most valuable escape opportunity."
+        "answer": "This indicates the transition has been initiated - hip elevation is the foundational step before the overhook release. You should prepare to act immediately. As the overhook fully releases, explosively recover posture by driving your head up and hips back, or extract the trapped arm by circling it outward. Do not wait for the head control to establish - the moment between overhook release and head control is your narrowest but most valuable escape opportunity.",
+        "answer_line": "Transition started, act immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for head control to lock",
+            "Wait for the leg to reposition"
+          ],
+          "trap": [
+            "Relax and let posture settle"
+          ]
+        }
       },
       {
         "question": "Why is pulling your trapped arm straight backward during extraction a critical defensive error?",
-        "answer": "Pulling straight back creates the exact rotational angle the bottom player needs for omoplata entry. The direction of your pull aligns with their omoplata rotation, effectively doing their work for them. Instead, circle the arm outward and upward while rotating your shoulder away from the bottom player, which breaks the angle needed for omoplata and creates distance that disrupts the entire rubber guard configuration."
+        "answer": "Pulling straight back creates the exact rotational angle the bottom player needs for omoplata entry. The direction of your pull aligns with their omoplata rotation, effectively doing their work for them. Instead, circle the arm outward and upward while rotating your shoulder away from the bottom player, which breaks the angle needed for omoplata and creates distance that disrupts the entire rubber guard configuration.",
+        "answer_line": "Feeds the omoplata rotation angle",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, slows escape",
+            "Loses grip on their collar"
+          ],
+          "trap": [
+            "Sets up your own armbar"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a genuine transition attempt and a feint designed to bait your escape reaction?",
@@ -400,7 +490,17 @@
       },
       {
         "question": "What should you do if you miss the transition window and Mission Control has been fully established?",
-        "answer": "Immediately switch to Mission Control-specific defensive protocols rather than continuing to fight the completed transition. Focus on preventing deep head control by using your free hand to strip grips, maintain some posture by distributing weight evenly rather than loading the trapped shoulder, and work systematic arm extraction through patient outward circling rather than explosive pulling. Accept that the escape will now require a longer, more methodical process."
+        "answer": "Immediately switch to Mission Control-specific defensive protocols rather than continuing to fight the completed transition. Focus on preventing deep head control by using your free hand to strip grips, maintain some posture by distributing weight evenly rather than loading the trapped shoulder, and work systematic arm extraction through patient outward circling rather than explosive pulling. Accept that the escape will now require a longer, more methodical process.",
+        "answer_line": "Switch to Mission Control defense",
+        "distractors": {
+          "plausible": [
+            "Explosively pull arm free now",
+            "Keep fighting the same grip"
+          ],
+          "trap": [
+            "Load weight onto trapped shoulder"
+          ]
+        }
       }
     ],
     "training_progressions": [

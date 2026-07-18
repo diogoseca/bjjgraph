@@ -384,39 +384,129 @@
   "flashcards": [
     {
       "question": "What is posture in the context of guard, and why is breaking it the primary offensive priority from the bottom?",
-      "answer": "Posture is the opponent's spinal and head alignment that lets them generate passing pressure and defend submissions. Breaking it is the priority because a posture-broken opponent cannot pass, submit, or maintain stable base, which opens sweeps and submissions."
+      "answer": "Posture is the opponent's spinal and head alignment that lets them generate passing pressure and defend submissions. Breaking it is the priority because a posture-broken opponent cannot pass, submit, or maintain stable base, which opens sweeps and submissions.",
+      "answer_line": "Broken posture kills pass & sub",
+      "distractors": {
+        "plausible": [
+          "Only stops passing, not subs",
+          "Mainly for comfort, not offense"
+        ],
+        "trap": [
+          "Posture barely matters on bottom"
+        ]
+      }
     },
     {
       "question": "Why does breaking posture with arm strength alone usually fail against a competent opponent?",
-      "answer": "The arms are far weaker than the opponent's legs and core, so isolated arm pulling rapidly fatigues you while they easily maintain alignment. Effective posture breaking integrates leg squeeze, hooks, or frames plus hip angles for genuine mechanical advantage."
+      "answer": "The arms are far weaker than the opponent's legs and core, so isolated arm pulling rapidly fatigues you while they easily maintain alignment. Effective posture breaking integrates leg squeeze, hooks, or frames plus hip angles for genuine mechanical advantage.",
+      "answer_line": "Arms are weak, add legs/hips too",
+      "distractors": {
+        "plausible": [
+          "Pull harder using both arms",
+          "Use one strong arm, save other"
+        ],
+        "trap": [
+          "Yank straight down, arms only"
+        ]
+      }
     },
     {
       "question": "When is the optimal timing window to break an opponent's posture?",
-      "answer": "During weight shifts, grip changes, or forward movement, when their structure is transitional rather than statically braced. Attacking a settled, braced opponent demands far more energy and produces much lower success rates."
+      "answer": "During weight shifts, grip changes, or forward movement, when their structure is transitional rather than statically braced. Attacking a settled, braced opponent demands far more energy and produces much lower success rates.",
+      "answer_line": "During shifts, grip changes, moves",
+      "distractors": {
+        "plausible": [
+          "Timing doesn't really matter",
+          "Only once their grips are broken"
+        ],
+        "trap": [
+          "Attack their braced, set base"
+        ]
+      }
     },
     {
       "question": "Why must broken posture be maintained throughout an offensive sequence rather than released early?",
-      "answer": "If you release posture control mid-technique, the opponent re-postures and defends the sweep or submission. Premature release is a primary reason guard attacks fail despite correct execution, so posture control should be the last thing you release."
+      "answer": "If you release posture control mid-technique, the opponent re-postures and defends the sweep or submission. Premature release is a primary reason guard attacks fail despite correct execution, so posture control should be the last thing you release.",
+      "answer_line": "Hold posture control till finish",
+      "distractors": {
+        "plausible": [
+          "Release once the sweep starts",
+          "Ease up right after the break"
+        ],
+        "trap": [
+          "Let go to free hands for attack"
+        ]
+      }
     },
     {
       "question": "How does head control contribute to breaking and keeping posture broken?",
-      "answer": "Controlling the head via collar grips, overhooks, or direct placement prevents the opponent from lifting their chin and extending their spine. Removing chin extension eliminates their ability to generate forward pressure and creates immediate submission vulnerability."
+      "answer": "Controlling the head via collar grips, overhooks, or direct placement prevents the opponent from lifting their chin and extending their spine. Removing chin extension eliminates their ability to generate forward pressure and creates immediate submission vulnerability.",
+      "answer_line": "Blocks chin from extending up",
+      "distractors": {
+        "plausible": [
+          "Grab shoulders to stop posting",
+          "Control hips to stop head rise"
+        ],
+        "trap": [
+          "Push on chest to flatten them"
+        ]
+      }
     },
     {
       "question": "Why is pulling an opponent straight down often less effective than pulling at an angle?",
-      "answer": "Straight pulling lets the opponent distribute weight across a wide base and stay stable. Combining the pull with hip movement that creates an angle off their centerline produces rotational force that compromises their base and prevents stable posting."
+      "answer": "Straight pulling lets the opponent distribute weight across a wide base and stay stable. Combining the pull with hip movement that creates an angle off their centerline produces rotational force that compromises their base and prevents stable posting.",
+      "answer_line": "Angle pull breaks their base",
+      "distractors": {
+        "plausible": [
+          "Pull straight down, just harder",
+          "Pull down, then square back up"
+        ],
+        "trap": [
+          "Pull straight back, drop hips"
+        ]
+      }
     },
     {
       "question": "How does posture breaking function as a defensive guard-retention tool, not just offense?",
-      "answer": "A posture-broken opponent cannot generate the forward pressure needed to pass. By breaking posture before they establish a passing position, you neutralize passing pressure at its source, making posture breaking simultaneously offense and guard retention."
+      "answer": "A posture-broken opponent cannot generate the forward pressure needed to pass. By breaking posture before they establish a passing position, you neutralize passing pressure at its source, making posture breaking simultaneously offense and guard retention.",
+      "answer_line": "No posture means no pass power",
+      "distractors": {
+        "plausible": [
+          "Only useful for submissions",
+          "Helps offense, not retention"
+        ],
+        "trap": [
+          "Let them posture to bait a pass"
+        ]
+      }
     },
     {
       "question": "How do posture-breaking mechanics differ between closed guard and spider guard?",
-      "answer": "Closed guard uses a leg squeeze plus collar-and-sleeve grips to pull the opponent forward and down. Spider guard uses foot pressure on the biceps with sleeve grips to extend the arms, removing their ability to bring hands close for postural support."
+      "answer": "Closed guard uses a leg squeeze plus collar-and-sleeve grips to pull the opponent forward and down. Spider guard uses foot pressure on the biceps with sleeve grips to extend the arms, removing their ability to bring hands close for postural support.",
+      "answer_line": "Squeeze-pull vs foot-extend arms",
+      "distractors": {
+        "plausible": [
+          "Both rely on identical grips",
+          "Spider also squeezes with legs"
+        ],
+        "trap": [
+          "Push chest down in both guards"
+        ]
+      }
     },
     {
       "question": "What signals confirm an opponent's posture is sufficiently broken to launch an attack?",
-      "answer": "Their spine is curved forward, their head is below their hips, and they cannot generate forward pressure. These signs indicate the structure is compromised enough that planned sweeps or submissions will not be easily defended."
+      "answer": "Their spine is curved forward, their head is below their hips, and they cannot generate forward pressure. These signs indicate the structure is compromised enough that planned sweeps or submissions will not be easily defended.",
+      "answer_line": "Curved spine, head below hips",
+      "distractors": {
+        "plausible": [
+          "Head tucked but spine straight",
+          "They stop moving forward only"
+        ],
+        "trap": [
+          "They post both hands wide"
+        ]
+      }
     }
   ],
   "clips": [

@@ -246,35 +246,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Step Over from X-Guard?",
-        "answer": "The optimal timing window occurs when the bottom player's inside hook behind your knee has become shallow, typically after sustained knee-forward pressure or following a failed sweep attempt that leaves their guard structure momentarily compromised. The step over should be a finishing move, not an opening technique."
+        "answer": "The optimal timing window occurs when the bottom player's inside hook behind your knee has become shallow, typically after sustained knee-forward pressure or following a failed sweep attempt that leaves their guard structure momentarily compromised. The step over should be a finishing move, not an opening technique.",
+        "answer_line": "When inside hook goes shallow",
+        "distractors": {
+          "plausible": [
+            "The moment X-Guard is entered",
+            "Anytime opponent grips your ankle"
+          ],
+          "trap": [
+            "While opponent is mid-sweep"
+          ]
+        }
       },
       {
         "question": "Why must you control the opponent's far hip before stepping over?",
-        "answer": "Controlling the far hip prevents the bottom player from creating defensive angles, inverting, or generating the hip elevation needed to maintain guard structure or initiate sweeps during the step over. Without hip control, the bottom player can freely adjust their position and counter the pass."
+        "answer": "Controlling the far hip prevents the bottom player from creating defensive angles, inverting, or generating the hip elevation needed to maintain guard structure or initiate sweeps during the step over. Without hip control, the bottom player can freely adjust their position and counter the pass.",
+        "answer_line": "Stops hip escape and inversion",
+        "distractors": {
+          "plausible": [
+            "Sets up the ankle grip break",
+            "Keeps their shoulders pinned"
+          ],
+          "trap": [
+            "Let go of hip to break grip"
+          ]
+        }
       },
       {
         "question": "Your opponent re-establishes deep hooks just as you begin the step over - how do you respond?",
-        "answer": "Immediately abort the step over and reset to your standing base. Drive your knee forward to re-compress the hooks and return to systematic passing pressure. Forcing the step over against deep hooks will result in a sweep. Re-create the shallow hook conditions before attempting again."
+        "answer": "Immediately abort the step over and reset to your standing base. Drive your knee forward to re-compress the hooks and return to systematic passing pressure. Forcing the step over against deep hooks will result in a sweep. Re-create the shallow hook conditions before attempting again.",
+        "answer_line": "Abort, reset knee pressure",
+        "distractors": {
+          "plausible": [
+            "Power through the step over anyway",
+            "Switch immediately to knee slice"
+          ],
+          "trap": [
+            "Force the step over through hooks"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the Step Over and a Knee Slice from X-Guard?",
-        "answer": "The knee slice cuts through the guard by driving the knee across the bottom player's thigh line and requires sustained forward pressure throughout the pass. The step over clears the guard entirely by lifting the free leg over the opponent's body, requiring explosive timing but less grinding pressure. The step over is faster but has a narrower execution window."
+        "answer": "The knee slice cuts through the guard by driving the knee across the bottom player's thigh line and requires sustained forward pressure throughout the pass. The step over clears the guard entirely by lifting the free leg over the opponent's body, requiring explosive timing but less grinding pressure. The step over is faster but has a narrower execution window.",
+        "answer_line": "Explosive lift vs grinding cut",
+        "distractors": {
+          "plausible": [
+            "Step over needs more pressure",
+            "Knee slice is the faster option"
+          ],
+          "trap": [
+            "Both work at any hook depth"
+          ]
+        }
       },
       {
         "question": "What grip must be broken before the step over can succeed?",
-        "answer": "The bottom player's grip on your trapped ankle or pant leg must be broken or neutralized. This grip is the primary mechanism for re-engaging hooks and preventing leg extraction. Without breaking this grip, the bottom player can simply pull your leg back into the X-Guard configuration during or after the step over."
+        "answer": "The bottom player's grip on your trapped ankle or pant leg must be broken or neutralized. This grip is the primary mechanism for re-engaging hooks and preventing leg extraction. Without breaking this grip, the bottom player can simply pull your leg back into the X-Guard configuration during or after the step over.",
+        "answer_line": "Their grip on your trapped ankle",
+        "distractors": {
+          "plausible": [
+            "Their collar grip on your gi",
+            "Their grip on your far sleeve"
+          ],
+          "trap": [
+            "No grip break needed, just step"
+          ]
+        }
       },
       {
         "question": "Your opponent catches your stepping leg during the arc - what is the correct response?",
-        "answer": "Drive the stepping leg through with aggressive hip power rather than pulling it free. The forward momentum should carry the leg past their grip. If they manage to secure it, transition to a knee slice finish using the forward pressure already generated, rather than retreating back to standing."
+        "answer": "Drive the stepping leg through with aggressive hip power rather than pulling it free. The forward momentum should carry the leg past their grip. If they manage to secure it, transition to a knee slice finish using the forward pressure already generated, rather than retreating back to standing.",
+        "answer_line": "Drive through, shift to knee slice",
+        "distractors": {
+          "plausible": [
+            "Pull the leg back to reset",
+            "Freeze and re-grip the ankle"
+          ],
+          "trap": [
+            "Retreat back to standing base"
+          ]
+        }
       },
       {
         "question": "Why is forward hip drive critical during the step over movement?",
-        "answer": "Forward hip drive keeps your center of gravity moving toward the target position rather than shifting backward. Without forward drive, your weight sits behind your support leg, creating the perfect leverage angle for the bottom player to sweep you backward. The hips must lead the movement throughout the entire arc."
+        "answer": "Forward hip drive keeps your center of gravity moving toward the target position rather than shifting backward. Without forward drive, your weight sits behind your support leg, creating the perfect leverage angle for the bottom player to sweep you backward. The hips must lead the movement throughout the entire arc.",
+        "answer_line": "Prevents backward sweep leverage",
+        "distractors": {
+          "plausible": [
+            "Speeds up the stepping motion",
+            "Keeps shoulders square to opponent"
+          ],
+          "trap": [
+            "Let weight settle on back leg"
+          ]
+        }
       },
       {
         "question": "How does the step over integrate into a broader X-Guard passing chain?",
-        "answer": "The step over functions as a finishing technique within a passing chain that typically begins with pressure-based approaches like knee pin or smash pass. These initial attempts weaken the bottom player's hook depth and grip strength. When hooks become shallow from sustained pressure, the step over provides an explosive conclusion that capitalizes on the accumulated structural damage."
+        "answer": "The step over functions as a finishing technique within a passing chain that typically begins with pressure-based approaches like knee pin or smash pass. These initial attempts weaken the bottom player's hook depth and grip strength. When hooks become shallow from sustained pressure, the step over provides an explosive conclusion that capitalizes on the accumulated structural damage.",
+        "answer_line": "Finishes after pressure passes",
+        "distractors": {
+          "plausible": [
+            "Opens the passing sequence",
+            "Replaces need for pressure passing"
+          ],
+          "trap": [
+            "Use it as your first pass attempt"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Step Over from X-Guard is a relatively low-risk technique with no direct joint lock or choking mechanism. The primary safety concern involves the top player losing balance during the single-leg phase and falling onto the bottom player with uncontrolled weight. Both practitioners should be aware of knee and ankle stress on the bottom player's hooked legs during compression phases. In training, start with controlled speed and cooperative partners before progressing to resistance. Avoid slamming or dropping weight aggressively during the landing phase.",
@@ -383,19 +463,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a step over pass is being set up?",
-        "answer": "The earliest cue is the top player breaking your grip on their trapped ankle. This is the prerequisite action that precedes all step over attempts, as the ankle grip prevents leg extraction and hook re-engagement. When you feel this grip being stripped, immediately re-grip and elevate hips to prevent further setup progression."
+        "answer": "The earliest cue is the top player breaking your grip on their trapped ankle. This is the prerequisite action that precedes all step over attempts, as the ankle grip prevents leg extraction and hook re-engagement. When you feel this grip being stripped, immediately re-grip and elevate hips to prevent further setup progression.",
+        "answer_line": "Top player strips ankle grip",
+        "distractors": {
+          "plausible": [
+            "Top player flattens your hips",
+            "Top player circles to the far side"
+          ],
+          "trap": [
+            "Let the grip go, it's not important"
+          ]
+        }
       },
       {
         "question": "Why is the single-leg balance phase the best moment to attempt a sweep?",
-        "answer": "During the single-leg phase, the top player has removed one of their two base points and is balancing on the leg that is still partially trapped in your guard. This creates maximum vulnerability to lateral force because they cannot post with their free leg to recover balance. A well-timed directional push at this moment requires minimal force to complete a sweep."
+        "answer": "During the single-leg phase, the top player has removed one of their two base points and is balancing on the leg that is still partially trapped in your guard. This creates maximum vulnerability to lateral force because they cannot post with their free leg to recover balance. A well-timed directional push at this moment requires minimal force to complete a sweep.",
+        "answer_line": "They're balanced on one leg",
+        "distractors": {
+          "plausible": [
+            "They've just secured the pass",
+            "Their base is strongest here"
+          ],
+          "trap": [
+            "Wait until both feet are planted"
+          ]
+        }
       },
       {
         "question": "When should you transition from X-Guard to Single Leg X instead of trying to maintain your current position?",
-        "answer": "Transition to Single Leg X when your inside hook behind the knee has become too shallow to re-seat despite hip elevation attempts, but your outside leg still has foot-on-hip contact. Rather than fighting for a compromised X-Guard, SLX maintains leg control through a different configuration that requires the top player to restart their passing approach entirely."
+        "answer": "Transition to Single Leg X when your inside hook behind the knee has become too shallow to re-seat despite hip elevation attempts, but your outside leg still has foot-on-hip contact. Rather than fighting for a compromised X-Guard, SLX maintains leg control through a different configuration that requires the top player to restart their passing approach entirely.",
+        "answer_line": "Inside hook shallow, hip hook holds",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent stands up",
+            "Only after losing all leg contact"
+          ],
+          "trap": [
+            "Release both hooks and re-guard"
+          ]
+        }
       },
       {
         "question": "What is the biggest risk of attempting to block the stepping leg with your hands?",
-        "answer": "If you release your ankle grip to frame against the stepping leg and your frames are too weak to stop the arc, you lose both your primary control point and your hand position for guard recovery. The top player completes the pass with your hands displaced from any useful defensive structure, making side control consolidation almost guaranteed."
+        "answer": "If you release your ankle grip to frame against the stepping leg and your frames are too weak to stop the arc, you lose both your primary control point and your hand position for guard recovery. The top player completes the pass with your hands displaced from any useful defensive structure, making side control consolidation almost guaranteed.",
+        "answer_line": "Loses ankle grip and frames",
+        "distractors": {
+          "plausible": [
+            "Slows the opponent's pass down",
+            "Creates a scramble opportunity"
+          ],
+          "trap": [
+            "Always frame instead of gripping"
+          ]
+        }
       }
     ],
     "training_progressions": [

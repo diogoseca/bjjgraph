@@ -388,35 +388,115 @@
   "flashcards": [
     {
       "question": "What does the Maximum Efficiency Principle mean in BJJ?",
-      "answer": "It means achieving control or submission with the least necessary energy — using leverage, timing, and skeletal structure instead of muscular strength, adapted from Judo's seiryoku zenyo (maximum efficiency, minimum effort)."
+      "answer": "It means achieving control or submission with the least necessary energy — using leverage, timing, and skeletal structure instead of muscular strength, adapted from Judo's seiryoku zenyo (maximum efficiency, minimum effort).",
+      "answer_line": "Leverage over muscle",
+      "distractors": {
+        "plausible": [
+          "Speed over strength",
+          "Technique beats size"
+        ],
+        "trap": [
+          "Muscle through every position"
+        ]
+      }
     },
     {
       "question": "How can you tell during a roll that you are violating the efficiency principle?",
-      "answer": "Telltale signs include gasping for air within a single round, forearms burning from over-gripping, and using arm strength to hold positions that body weight and skeletal structure should maintain."
+      "answer": "Telltale signs include gasping for air within a single round, forearms burning from over-gripping, and using arm strength to hold positions that body weight and skeletal structure should maintain.",
+      "answer_line": "Gasping air, burning forearms",
+      "distractors": {
+        "plausible": [
+          "Feeling too relaxed",
+          "Winning too easily"
+        ],
+        "trap": [
+          "Strong grips, feeling powerful"
+        ]
+      }
     },
     {
       "question": "Why should you load an opponent with skeletal structure rather than muscular tension?",
-      "answer": "Bones can bear weight indefinitely while muscles fatigue quickly, so aligning your frame to channel gravity lets you keep pressure and control for entire matches without tiring."
+      "answer": "Bones can bear weight indefinitely while muscles fatigue quickly, so aligning your frame to channel gravity lets you keep pressure and control for entire matches without tiring.",
+      "answer_line": "Bones hold weight, muscles tire",
+      "distractors": {
+        "plausible": [
+          "Muscles react faster",
+          "More pressure with strength"
+        ],
+        "trap": [
+          "Muscle up for max pressure"
+        ]
+      }
     },
     {
       "question": "What is force redirection and why is it more efficient than blocking?",
-      "answer": "Force redirection guides an opponent's momentum past or against their own base instead of meeting it head-on, avoiding strength-versus-strength exchanges that favor the bigger, more athletic athlete."
+      "answer": "Force redirection guides an opponent's momentum past or against their own base instead of meeting it head-on, avoiding strength-versus-strength exchanges that favor the bigger, more athletic athlete.",
+      "answer_line": "Redirect momentum, don't block",
+      "distractors": {
+        "plausible": [
+          "Match their strength head-on",
+          "Absorb force with base"
+        ],
+        "trap": [
+          "Meet force with more force"
+        ]
+      }
     },
     {
       "question": "When should you actually exert maximal effort under the efficiency principle?",
-      "answer": "Only at critical decision points — the brief windows when an opponent's structure is compromised — while staying relaxed during neutral exchanges to bank energy for those decisive moments."
+      "answer": "Only at critical decision points — the brief windows when an opponent's structure is compromised — while staying relaxed during neutral exchanges to bank energy for those decisive moments.",
+      "answer_line": "Burst only at their weak point",
+      "distractors": {
+        "plausible": [
+          "Go hard the whole match",
+          "Explode at every opportunity"
+        ],
+        "trap": [
+          "Stay relaxed, never push hard"
+        ]
+      }
     },
     {
       "question": "How does the closed guard exemplify maximum efficiency?",
-      "answer": "It uses leg structure and hip angle to control posture and break the opponent down, conserving upper-body energy for grips and attacks instead of constantly pulling with the arms."
+      "answer": "It uses leg structure and hip angle to control posture and break the opponent down, conserving upper-body energy for grips and attacks instead of constantly pulling with the arms.",
+      "answer_line": "Legs control, arms stay fresh",
+      "distractors": {
+        "plausible": [
+          "Pull posture down with arms",
+          "Grip and drag with hands"
+        ],
+        "trap": [
+          "Muscle their posture down"
+        ]
+      }
     },
     {
       "question": "What common error most undermines efficiency for physically strong practitioners?",
-      "answer": "Relying on muscular strength and grip intensity, which causes rapid fatigue, technique that deteriorates as rounds progress, and a game that collapses against larger or younger opponents."
+      "answer": "Relying on muscular strength and grip intensity, which causes rapid fatigue, technique that deteriorates as rounds progress, and a game that collapses against larger or younger opponents.",
+      "answer_line": "Overreliance on strength/grips",
+      "distractors": {
+        "plausible": [
+          "Ignoring positional hierarchy",
+          "Rushing every submission"
+        ],
+        "trap": [
+          "Grip harder as rounds go on"
+        ]
+      }
     },
     {
       "question": "How do timing windows multiply mechanical advantage?",
-      "answer": "Executing a technique exactly as the opponent shifts weight, exhales, or divides attention means their compromised structure does much of the work, so the move succeeds with minimal force."
+      "answer": "Executing a technique exactly as the opponent shifts weight, exhales, or divides attention means their compromised structure does much of the work, so the move succeeds with minimal force.",
+      "answer_line": "Attack the exact weight shift",
+      "distractors": {
+        "plausible": [
+          "Attack at highest speed",
+          "Attack with most strength"
+        ],
+        "trap": [
+          "Wait for opponent to rest"
+        ]
+      }
     }
   ],
   "clips": [

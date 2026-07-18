@@ -259,43 +259,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the toreando pass against DLR guard?",
-        "answer": "The optimal timing window is immediately after successfully stripping the ankle grip and clearing the DLR hook, before the guard player can re-establish their control structure or transition to an alternative guard. This window typically lasts one to two seconds. Attempting the pass while the hook is still active invites sweeps, and waiting too long after clearing allows recovery."
+        "answer": "The optimal timing window is immediately after successfully stripping the ankle grip and clearing the DLR hook, before the guard player can re-establish their control structure or transition to an alternative guard. This window typically lasts one to two seconds. Attempting the pass while the hook is still active invites sweeps, and waiting too long after clearing allows recovery.",
+        "answer_line": "Instantly after clearing DLR hook",
+        "distractors": {
+          "plausible": [
+            "While still breaking the ankle grip",
+            "After several seconds recovering"
+          ],
+          "trap": [
+            "While the DLR hook is still active"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt the toreando from DLR?",
-        "answer": "You need upright posture with hips behind your knees to resist forward sweeps, the DLR ankle grip must be broken or at least weakened, the DLR hook must be cleared or shallow enough to neutralize in one motion, and you must be able to establish bilateral grips on the opponent's pants or ankles. Attempting the pass without clearing these prerequisites creates high sweep vulnerability."
+        "answer": "You need upright posture with hips behind your knees to resist forward sweeps, the DLR ankle grip must be broken or at least weakened, the DLR hook must be cleared or shallow enough to neutralize in one motion, and you must be able to establish bilateral grips on the opponent's pants or ankles. Attempting the pass without clearing these prerequisites creates high sweep vulnerability.",
+        "answer_line": "Posture up, hook cleared, grips set",
+        "distractors": {
+          "plausible": [
+            "Hook cleared but grip still active",
+            "Posture up, hips pushed forward"
+          ],
+          "trap": [
+            "Attempt before hook is cleared"
+          ]
+        }
       },
       {
         "question": "Why must you apply downward pressure when redirecting the opponent's legs during the toreando?",
-        "answer": "Downward pressure flattens the opponent's hips against the mat, eliminating their ability to track your lateral movement by rotating, maintain hip elevation for guard transitions to X-Guard or butterfly, or initiate inversions for berimbolo entries. Without this downward component, the force vector is purely lateral and the opponent retains hip mobility to counter the pass."
+        "answer": "Downward pressure flattens the opponent's hips against the mat, eliminating their ability to track your lateral movement by rotating, maintain hip elevation for guard transitions to X-Guard or butterfly, or initiate inversions for berimbolo entries. Without this downward component, the force vector is purely lateral and the opponent retains hip mobility to counter the pass.",
+        "answer_line": "Flattens hips, kills inversions",
+        "distractors": {
+          "plausible": [
+            "Speeds up the lateral redirection",
+            "Loosens opponent's pant grip"
+          ],
+          "trap": [
+            "Pull hips up to break posture"
+          ]
+        }
       },
       {
         "question": "Your opponent re-establishes their DLR hook immediately after you strip their ankle grip. How do you adjust?",
-        "answer": "Do not force the pass through an active hook. Instead, restart the grip strip and hook removal sequence, recognizing that the opponent's re-hook was faster than your transition. Increase your tempo by combining the grip strip and hook clear into one flowing motion rather than treating them as separate steps. Consider changing to a backstep method for hook removal, as it physically removes your leg from the hook's reach rather than trying to collapse it in place."
+        "answer": "Do not force the pass through an active hook. Instead, restart the grip strip and hook removal sequence, recognizing that the opponent's re-hook was faster than your transition. Increase your tempo by combining the grip strip and hook clear into one flowing motion rather than treating them as separate steps. Consider changing to a backstep method for hook removal, as it physically removes your leg from the hook's reach rather than trying to collapse it in place.",
+        "answer_line": "Restart, fuse strip and clear",
+        "distractors": {
+          "plausible": [
+            "Re-strip ankle grip, wait it out",
+            "Switch straight to a knee slice"
+          ],
+          "trap": [
+            "Force the pass through the hook"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control during the leg redirection phase?",
-        "answer": "Bilateral grips on both pants legs at the knee crease with thumbs inside the fabric and four fingers outside provide the strongest control. This grip placement offers maximum leverage for both the downward hip-flattening pressure and the lateral redirection force. Gripping too low at the ankles reduces control over hip movement, while gripping too high on the thighs lacks the mechanical advantage needed for explosive redirection."
+        "answer": "Bilateral grips on both pants legs at the knee crease with thumbs inside the fabric and four fingers outside provide the strongest control. This grip placement offers maximum leverage for both the downward hip-flattening pressure and the lateral redirection force. Gripping too low at the ankles reduces control over hip movement, while gripping too high on the thighs lacks the mechanical advantage needed for explosive redirection.",
+        "answer_line": "Knee crease, thumbs inside pants",
+        "distractors": {
+          "plausible": [
+            "Grip low at the ankles",
+            "Grip high on the thighs"
+          ],
+          "trap": [
+            "Single grip, free hand posting"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force vector be applied when redirecting the opponent's legs?",
-        "answer": "The force should be applied diagonally: both laterally to one side and downward toward the mat. This diagonal vector simultaneously pins the opponent's hips flat while redirecting their legs away from your passing path. A purely lateral force allows the opponent to maintain hip elevation and track your movement. The ideal angle is approximately forty-five degrees between horizontal and vertical."
+        "answer": "The force should be applied diagonally: both laterally to one side and downward toward the mat. This diagonal vector simultaneously pins the opponent's hips flat while redirecting their legs away from your passing path. A purely lateral force allows the opponent to maintain hip elevation and track your movement. The ideal angle is approximately forty-five degrees between horizontal and vertical.",
+        "answer_line": "Diagonal: lateral and downward",
+        "distractors": {
+          "plausible": [
+            "Straight down onto the hips",
+            "Straight lateral, no downward angle"
+          ],
+          "trap": [
+            "Pull legs upward and outward"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting for a berimbolo as you commit to the lateral passing arc. What is your response?",
-        "answer": "Immediately halt your lateral movement and drop your hips directly onto the opponent's inverting body to sprawl and flatten them. An inversion requires hip elevation and rotational momentum, both of which are eliminated by downward pressure. Once the inversion is smashed, re-establish bilateral grips and flatten their hips before restarting the lateral pass or switching to a smash pass that punishes the compromised position."
+        "answer": "Immediately halt your lateral movement and drop your hips directly onto the opponent's inverting body to sprawl and flatten them. An inversion requires hip elevation and rotational momentum, both of which are eliminated by downward pressure. Once the inversion is smashed, re-establish bilateral grips and flatten their hips before restarting the lateral pass or switching to a smash pass that punishes the compromised position.",
+        "answer_line": "Halt, sprawl hips to flatten him",
+        "distractors": {
+          "plausible": [
+            "Speed up the lateral pass",
+            "Chase the roll with grips"
+          ],
+          "trap": [
+            "Release grips and back away"
+          ]
+        }
       },
       {
         "question": "Why should you maintain bilateral grip control until chest-to-chest contact is established during consolidation?",
-        "answer": "Releasing a grip prematurely allows the opponent to pull their free leg back to center and insert a knee between your bodies, recovering to half guard or butterfly guard. The pants grips serve as your primary control mechanism during the entire passing arc and transition to side control. Only after your chest weight commits to the pin do you have an alternative control mechanism that prevents reguarding."
+        "answer": "Releasing a grip prematurely allows the opponent to pull their free leg back to center and insert a knee between your bodies, recovering to half guard or butterfly guard. The pants grips serve as your primary control mechanism during the entire passing arc and transition to side control. Only after your chest weight commits to the pin do you have an alternative control mechanism that prevents reguarding.",
+        "answer_line": "Prevents knee insert, reguarding",
+        "distractors": {
+          "plausible": [
+            "Frees a hand for the collar tie",
+            "Speeds transition to side control"
+          ],
+          "trap": [
+            "Release grips once hips are flat"
+          ]
+        }
       },
       {
         "question": "What secondary passing options become available when the opponent successfully defends the initial toreando by framing on your hips?",
-        "answer": "When the opponent frames on your hips to block the lateral arc, three primary chain options open up. First, a knee slice pass becomes available because their legs are separated and one knee can be driven across their thigh. Second, a leg drag becomes available by redirecting one leg across their body instead of both legs to one side. Third, a backstep pass becomes viable by reversing direction entirely and attacking the back side of their guard structure."
+        "answer": "When the opponent frames on your hips to block the lateral arc, three primary chain options open up. First, a knee slice pass becomes available because their legs are separated and one knee can be driven across their thigh. Second, a leg drag becomes available by redirecting one leg across their body instead of both legs to one side. Third, a backstep pass becomes viable by reversing direction entirely and attacking the back side of their guard structure.",
+        "answer_line": "Knee slice, leg drag, backstep",
+        "distractors": {
+          "plausible": [
+            "Retry the same lateral toreando",
+            "Switch to a double leg takedown"
+          ],
+          "trap": [
+            "Release grips and stack the legs"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical failure point when purple and brown belts attempt the toreando from DLR?",
-        "answer": "The most common failure point is insufficient commitment to the lateral arc, manifesting as slow or tentative footwork during the passing sprint. Many practitioners execute the grip strip and hook removal cleanly but then transition to a careful walking pace instead of an explosive sprint during the actual pass. This speed reduction gives the guard player adequate time to recover hooks, re-establish grips, or transition to alternative guard positions, negating all the preparatory work."
+        "answer": "The most common failure point is insufficient commitment to the lateral arc, manifesting as slow or tentative footwork during the passing sprint. Many practitioners execute the grip strip and hook removal cleanly but then transition to a careful walking pace instead of an explosive sprint during the actual pass. This speed reduction gives the guard player adequate time to recover hooks, re-establish grips, or transition to alternative guard positions, negating all the preparatory work.",
+        "answer_line": "Tentative footwork, no sprint",
+        "distractors": {
+          "plausible": [
+            "Gripping the wrong pant fabric",
+            "Clearing the hook too early"
+          ],
+          "trap": [
+            "Rushing grips before hook clear"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Toreando Pass from De La Riva is a relatively low-risk technique for both practitioners. The primary safety concern for the passer involves knee strain during explosive direction changes, particularly on soft or uneven training surfaces. For the guard player, rapid leg redirections should be performed with control during drilling to avoid applying excessive torque to the knee or hip joints. Both practitioners should communicate immediately if the DLR hook position creates uncomfortable pressure behind the knee. During live training, the passer should avoid violently yanking the opponent's legs in ways that could strain hip flexors or adductors, and should release pants grips if the opponent verbally taps or signals discomfort during the redirection phase.",
@@ -404,23 +504,73 @@
     "flashcards": [
       {
         "question": "What is the most effective first line of defense against the toreando from DLR?",
-        "answer": "The most effective first line of defense is aggressive grip retention. Maintaining the ankle grip and DLR hook tension makes the toreando structurally impossible because the passer cannot establish bilateral grips or execute lateral movement while tethered by the hook. Fighting to preserve these controls should take priority over all other defensive actions."
+        "answer": "The most effective first line of defense is aggressive grip retention. Maintaining the ankle grip and DLR hook tension makes the toreando structurally impossible because the passer cannot establish bilateral grips or execute lateral movement while tethered by the hook. Fighting to preserve these controls should take priority over all other defensive actions.",
+        "answer_line": "Fight to keep grip and hook",
+        "distractors": {
+          "plausible": [
+            "Frame early on the far hip",
+            "Invert immediately for berimbolo"
+          ],
+          "trap": [
+            "Release the hook to reset guard"
+          ]
+        }
       },
       {
         "question": "When should you abandon DLR recovery and transition to an alternative guard position?",
-        "answer": "Abandon DLR recovery when the passer has successfully cleared both the ankle grip and the DLR hook and is establishing bilateral grips on your legs. At this point, attempting to re-establish the hook is mechanically impossible against a competent passer. Instead, immediately transition to X-Guard, Single Leg X, butterfly guard, or begin the hip escape sequence for half guard recovery."
+        "answer": "Abandon DLR recovery when the passer has successfully cleared both the ankle grip and the DLR hook and is establishing bilateral grips on your legs. At this point, attempting to re-establish the hook is mechanically impossible against a competent passer. Instead, immediately transition to X-Guard, Single Leg X, butterfly guard, or begin the hip escape sequence for half guard recovery.",
+        "answer_line": "Once bilateral grips are set",
+        "distractors": {
+          "plausible": [
+            "As soon as ankle grip is stripped",
+            "Only after side control is secured"
+          ],
+          "trap": [
+            "Keep fighting to rehook the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your ankle grip but you still have the DLR hook active. What is your immediate priority?",
-        "answer": "Your immediate priority is re-establishing the ankle grip before the passer can address the now-unsupported hook. The DLR hook without the ankle grip loses most of its sweeping power and becomes easy to strip. Simultaneously increase hook tension by pulling your knee toward your chest aggressively to buy time for grip recovery. If re-gripping is not possible within one to two seconds, transition proactively to X-Guard by threading your bottom foot."
+        "answer": "Your immediate priority is re-establishing the ankle grip before the passer can address the now-unsupported hook. The DLR hook without the ankle grip loses most of its sweeping power and becomes easy to strip. Simultaneously increase hook tension by pulling your knee toward your chest aggressively to buy time for grip recovery. If re-gripping is not possible within one to two seconds, transition proactively to X-Guard by threading your bottom foot.",
+        "answer_line": "Re-grip ankle before hook falls",
+        "distractors": {
+          "plausible": [
+            "Increase hook tension only",
+            "Immediately shoot for X-Guard"
+          ],
+          "trap": [
+            "Release the hook to reset"
+          ]
+        }
       },
       {
         "question": "How does the passer's lateral momentum during the toreando create a counter-attack opportunity for the defender?",
-        "answer": "When the passer commits fully to one lateral direction, their base becomes compromised along the perpendicular axis. This directional commitment creates an opportunity for the defender to time an inversion, sweep, or guard recovery that exploits the passer's inability to change direction mid-sprint. The passer's momentum can be redirected by tracking their movement with hip rotation and timing a knee insertion or berimbolo entry during their directional commitment."
+        "answer": "When the passer commits fully to one lateral direction, their base becomes compromised along the perpendicular axis. This directional commitment creates an opportunity for the defender to time an inversion, sweep, or guard recovery that exploits the passer's inability to change direction mid-sprint. The passer's momentum can be redirected by tracking their movement with hip rotation and timing a knee insertion or berimbolo entry during their directional commitment.",
+        "answer_line": "Time inversion against his commit",
+        "distractors": {
+          "plausible": [
+            "Push straight into his chest",
+            "Wait passively for him to stop"
+          ],
+          "trap": [
+            "Pull him further in his direction"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play in defending the toreando from DLR?",
-        "answer": "The free leg serves as the critical secondary defense mechanism that prevents the passer from establishing bilateral grips even after the DLR hook is cleared. By actively framing on the passer's hip, bicep, or shoulder, the free leg maintains distance and creates a physical barrier that the passer must overcome before they can secure both legs for redirection. Without active free leg framing, the passer transitions directly from hook removal to bilateral grip establishment without interruption."
+        "answer": "The free leg serves as the critical secondary defense mechanism that prevents the passer from establishing bilateral grips even after the DLR hook is cleared. By actively framing on the passer's hip, bicep, or shoulder, the free leg maintains distance and creates a physical barrier that the passer must overcome before they can secure both legs for redirection. Without active free leg framing, the passer transitions directly from hook removal to bilateral grip establishment without interruption.",
+        "answer_line": "Frame on hip to block grips",
+        "distractors": {
+          "plausible": [
+            "Kick toward his head for space",
+            "Pull the leg in tight to chest"
+          ],
+          "trap": [
+            "Drop the leg flat to the mat"
+          ]
+        }
       }
     ],
     "training_progressions": [

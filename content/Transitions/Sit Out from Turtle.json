@@ -275,35 +275,115 @@
     "flashcards": [
       {
         "question": "What weight distribution from your opponent creates the optimal timing window for initiating the sit out?",
-        "answer": "The sit out works best when opponent's weight is committed forward onto your shoulders or shifted predominantly to one side. Forward weight commitment means their hips are lighter on yours, creating the space needed for hip rotation. A side-heavy distribution means the opposite side has minimal pressure, allowing you to thread your leg through that opening. The worst time to attempt the sit out is when opponent has centered, heavy hip-to-hip pressure."
+        "answer": "The sit out works best when opponent's weight is committed forward onto your shoulders or shifted predominantly to one side. Forward weight commitment means their hips are lighter on yours, creating the space needed for hip rotation. A side-heavy distribution means the opposite side has minimal pressure, allowing you to thread your leg through that opening. The worst time to attempt the sit out is when opponent has centered, heavy hip-to-hip pressure.",
+        "answer_line": "Forward or side-heavy weight",
+        "distractors": {
+          "plausible": [
+            "Right after securing grips",
+            "When opponent is flat on you"
+          ],
+          "trap": [
+            "Centered hip-to-hip pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains heavy chest pressure centered on your upper back with hands controlling your hips - how do you create the conditions needed for a sit out?",
-        "answer": "You need to displace their weight distribution before attempting the sit out. Use a feinted granby roll or hip switch to force them to shift their weight forward or to one side in reaction. When they adjust to counter your feint, the weight displacement creates the brief window needed for the sit out. Alternatively, use explosive hand fighting to strip one of their hip controls, then immediately initiate the sit out before they can re-establish the grip."
+        "answer": "You need to displace their weight distribution before attempting the sit out. Use a feinted granby roll or hip switch to force them to shift their weight forward or to one side in reaction. When they adjust to counter your feint, the weight displacement creates the brief window needed for the sit out. Alternatively, use explosive hand fighting to strip one of their hip controls, then immediately initiate the sit out before they can re-establish the grip.",
+        "answer_line": "Feint a roll to shift weight",
+        "distractors": {
+          "plausible": [
+            "Muscle through the hip grip",
+            "Wait for them to get tired"
+          ],
+          "trap": [
+            "Sit out straight into pressure"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail about the posting hand position during the sit out?",
-        "answer": "The posting hand must be planted approximately shoulder-width from the body with a slightly bent elbow and fingers spread wide, pointed away from the opponent. This position creates a stable tripod with the near-side knee that can support full bodyweight during rotation. Posting too wide creates a weak lever arm that collapses under load. Posting too close prevents the leg from threading through. The slight elbow bend absorbs the weight transfer dynamically rather than locking out and risking collapse."
+        "answer": "The posting hand must be planted approximately shoulder-width from the body with a slightly bent elbow and fingers spread wide, pointed away from the opponent. This position creates a stable tripod with the near-side knee that can support full bodyweight during rotation. Posting too wide creates a weak lever arm that collapses under load. Posting too close prevents the leg from threading through. The slight elbow bend absorbs the weight transfer dynamically rather than locking out and risking collapse.",
+        "answer_line": "Shoulder-width, elbow bent",
+        "distractors": {
+          "plausible": [
+            "Post as wide as possible",
+            "Fingers pointed at opponent"
+          ],
+          "trap": [
+            "Elbow locked out straight"
+          ]
+        }
       },
       {
         "question": "You initiate the sit out but feel your opponent immediately follow your hip rotation and stay connected to your back - what should you do?",
-        "answer": "Do not continue the sit out into a seated position with the opponent still behind you. If you feel them following, immediately chain into a secondary escape: either complete a full granby roll using the momentum you have already generated, or reverse direction and hit an explosive technical standup since their weight has committed to following your original rotation direction. The key principle is never settling into a position where the opponent is behind you with connection maintained."
+        "answer": "Do not continue the sit out into a seated position with the opponent still behind you. If you feel them following, immediately chain into a secondary escape: either complete a full granby roll using the momentum you have already generated, or reverse direction and hit an explosive technical standup since their weight has committed to following your original rotation direction. The key principle is never settling into a position where the opponent is behind you with connection maintained.",
+        "answer_line": "Chain to granby or reverse",
+        "distractors": {
+          "plausible": [
+            "Force through the rotation",
+            "Pause and reset your base"
+          ],
+          "trap": [
+            "Settle into seated position"
+          ]
+        }
       },
       {
         "question": "Why is it critical to establish guard frames immediately after completing the hip rotation rather than securing grips first?",
-        "answer": "Guard frames using your legs create structural barriers between you and the opponent that cannot be easily bypassed. If you try to secure grips first while your legs are not yet in position, the opponent can drive forward with chest pressure and achieve a pass to side control before your hands can create meaningful resistance. Legs between you and the opponent provide the strongest frames in grappling. Once leg frames are established, you have time to then secure complementary upper body grips."
+        "answer": "Guard frames using your legs create structural barriers between you and the opponent that cannot be easily bypassed. If you try to secure grips first while your legs are not yet in position, the opponent can drive forward with chest pressure and achieve a pass to side control before your hands can create meaningful resistance. Legs between you and the opponent provide the strongest frames in grappling. Once leg frames are established, you have time to then secure complementary upper body grips.",
+        "answer_line": "Frame with legs before grips",
+        "distractors": {
+          "plausible": [
+            "Frame with arms, not legs",
+            "Set the far-side frame first"
+          ],
+          "trap": [
+            "Secure grips before framing"
+          ]
+        }
       },
       {
         "question": "What grip must you address from the opponent before attempting the sit out, and why is it the highest priority?",
-        "answer": "The seatbelt or harness grip with over-under control around your torso must be addressed first because it allows the opponent to follow every hip movement and maintain chest-to-back connection throughout the rotation. With seatbelt intact, the opponent simply rotates with you and ends up behind you in the same or worse position. Strip the choking hand first, then the underhook hand, before committing to the sit out movement."
+        "answer": "The seatbelt or harness grip with over-under control around your torso must be addressed first because it allows the opponent to follow every hip movement and maintain chest-to-back connection throughout the rotation. With seatbelt intact, the opponent simply rotates with you and ends up behind you in the same or worse position. Strip the choking hand first, then the underhook hand, before committing to the sit out movement.",
+        "answer_line": "Strip seatbelt/harness grip first",
+        "distractors": {
+          "plausible": [
+            "Strip underhook before choke hand",
+            "Strip a leg hook first"
+          ],
+          "trap": [
+            "Ignore grips, post immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent reads your sit out and snaps your head down as you begin to post - how should you adjust?",
-        "answer": "If the snap down occurs before you have committed to the leg thread, abort the sit out and immediately tuck your chin and circle away from the opponent's power hand while staying tight to prevent the front headlock from deepening. If the snap catches you mid-rotation, use the momentum to complete the rotation into a seated guard position rather than fighting the snap directly. The chin must stay tucked to the far shoulder throughout to minimize the snap down's effectiveness."
+        "answer": "If the snap down occurs before you have committed to the leg thread, abort the sit out and immediately tuck your chin and circle away from the opponent's power hand while staying tight to prevent the front headlock from deepening. If the snap catches you mid-rotation, use the momentum to complete the rotation into a seated guard position rather than fighting the snap directly. The chin must stay tucked to the far shoulder throughout to minimize the snap down's effectiveness.",
+        "answer_line": "Tuck chin, abort or complete",
+        "distractors": {
+          "plausible": [
+            "Power through the snap down",
+            "Stop and reset your posture"
+          ],
+          "trap": [
+            "Let chin drop, keep posting"
+          ]
+        }
       },
       {
         "question": "How does the sit out from turtle differ mechanically from a wrestling sit out, and what BJJ-specific adjustments are necessary?",
-        "answer": "The wrestling sit out emphasizes completing the rotation and immediately returning to a base or attacking position for a reversal. The BJJ adaptation must account for the opponent's ability to follow with submissions and back control attempts that do not exist in wrestling rulesets. BJJ-specific adjustments include immediate guard establishment after rotation rather than seeking top position, chin protection against choke entries during the rotation phase, and awareness of hook insertion attempts as you complete the turn. Guard recovery is the primary objective rather than the reversal."
+        "answer": "The wrestling sit out emphasizes completing the rotation and immediately returning to a base or attacking position for a reversal. The BJJ adaptation must account for the opponent's ability to follow with submissions and back control attempts that do not exist in wrestling rulesets. BJJ-specific adjustments include immediate guard establishment after rotation rather than seeking top position, chin protection against choke entries during the rotation phase, and awareness of hook insertion attempts as you complete the turn. Guard recovery is the primary objective rather than the reversal.",
+        "answer_line": "Recover guard, not reversal",
+        "distractors": {
+          "plausible": [
+            "Base up for the reversal",
+            "Aim for top position instead"
+          ],
+          "trap": [
+            "Ignore chin, rush the turn"
+          ]
+        }
       }
     ],
     "safety_considerations": "The sit out involves rapid hip rotation and weight bearing on the posted arm, creating potential for wrist, shoulder, and neck strain if performed with poor mechanics. Always warm up wrists and shoulders before drilling. Partners should provide graduated resistance rather than sudden explosive counters that could cause the posting arm to collapse. Keep chin tucked throughout to protect the cervical spine during rotation. In live sparring, avoid forcing the sit out when opponent has deep grips on your neck, as the rotation against neck control can cause cervical injury. Communicate with training partners about intensity level before positional rounds.",
@@ -421,19 +501,59 @@
     "flashcards": [
       {
         "question": "What early indicators should you watch for that signal a sit out attempt from turtle bottom?",
-        "answer": "The primary indicators are: opponent shifting weight distinctly onto one hand while the other lightens, far-side leg lifting or repositioning underneath the body, sudden increase in hip activity after stillness, and aggressive grip stripping on your controlling hands. The posting hand placement is the most reliable early indicator because the sit out cannot initiate without a stable pivot point. Recognizing these cues within the first fraction of a second allows defensive intervention before the rotation begins."
+        "answer": "The primary indicators are: opponent shifting weight distinctly onto one hand while the other lightens, far-side leg lifting or repositioning underneath the body, sudden increase in hip activity after stillness, and aggressive grip stripping on your controlling hands. The posting hand placement is the most reliable early indicator because the sit out cannot initiate without a stable pivot point. Recognizing these cues within the first fraction of a second allows defensive intervention before the rotation begins.",
+        "answer_line": "Posting hand placement",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip activity",
+            "Far-side leg repositioning"
+          ],
+          "trap": [
+            "Wait for the rotation to start"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully initiates a sit out and is halfway through the rotation - what is your best response at this point?",
-        "answer": "Once the rotation is past the halfway point, trying to stop it is usually counterproductive and creates scramble situations. Instead, follow the rotation by maintaining chest connection and circling with their movement to stay behind them. Keep your hips close to theirs and your harness control tight. If you can stay behind them as the rotation completes, you maintain the advantageous position. Alternatively, if chest connection is lost, immediately drive forward to flatten them before they can establish guard frames."
+        "answer": "Once the rotation is past the halfway point, trying to stop it is usually counterproductive and creates scramble situations. Instead, follow the rotation by maintaining chest connection and circling with their movement to stay behind them. Keep your hips close to theirs and your harness control tight. If you can stay behind them as the rotation completes, you maintain the advantageous position. Alternatively, if chest connection is lost, immediately drive forward to flatten them before they can establish guard frames.",
+        "answer_line": "Follow rotation, stay connected",
+        "distractors": {
+          "plausible": [
+            "Release grips and reset",
+            "Drop back to base position"
+          ],
+          "trap": [
+            "Fight to stop the rotation"
+          ]
+        }
       },
       {
         "question": "How does your weight distribution on turtle top affect the sit out threat, and what is the optimal balance?",
-        "answer": "Forward-heavy weight distribution on opponent's shoulders is the primary condition that enables the sit out, as it removes pressure from the hips where the rotation originates. Too far back with weight on their hips prevents the sit out but makes you vulnerable to granby rolls and forward rolling escapes. The optimal balance places approximately 60% of pressure through your chest onto their upper back while maintaining connected hip pressure through your hips being low and tight to their body. This centered distribution prevents both forward escapes and rolling escapes simultaneously."
+        "answer": "Forward-heavy weight distribution on opponent's shoulders is the primary condition that enables the sit out, as it removes pressure from the hips where the rotation originates. Too far back with weight on their hips prevents the sit out but makes you vulnerable to granby rolls and forward rolling escapes. The optimal balance places approximately 60% of pressure through your chest onto their upper back while maintaining connected hip pressure through your hips being low and tight to their body. This centered distribution prevents both forward escapes and rolling escapes simultaneously.",
+        "answer_line": "60% chest forward, hips tight",
+        "distractors": {
+          "plausible": [
+            "Weight fully back on hips",
+            "Even split, weight centered"
+          ],
+          "trap": [
+            "All weight on their shoulders"
+          ]
+        }
       },
       {
         "question": "What is the most effective proactive strategy to eliminate the sit out as a viable escape option entirely?",
-        "answer": "Establishing full back control with at least one hook inserted and seatbelt grip secured mechanically prevents the sit out because the hook blocks the leg threading motion and the seatbelt prevents the posting hand from establishing freely. Without both the post and the thread, the sit out is impossible. Therefore, prioritizing rapid hook insertion and harness establishment from turtle top eliminates the sit out along with most other turtle escapes, transitioning the engagement from a defensive battle to an offensive back attack sequence."
+        "answer": "Establishing full back control with at least one hook inserted and seatbelt grip secured mechanically prevents the sit out because the hook blocks the leg threading motion and the seatbelt prevents the posting hand from establishing freely. Without both the post and the thread, the sit out is impossible. Therefore, prioritizing rapid hook insertion and harness establishment from turtle top eliminates the sit out along with most other turtle escapes, transitioning the engagement from a defensive battle to an offensive back attack sequence.",
+        "answer_line": "Insert hook, lock seatbelt",
+        "distractors": {
+          "plausible": [
+            "Flatten out with chest pressure",
+            "Control both wrists tightly"
+          ],
+          "trap": [
+            "Chase a pin, skip the hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [

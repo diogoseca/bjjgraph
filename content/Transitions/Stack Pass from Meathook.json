@@ -276,35 +276,115 @@
     "flashcards": [
       {
         "question": "What is the single most critical safety measure before initiating the forward drive in the Stack Pass from Meathook?",
-        "answer": "Tucking the chin firmly against the chest and turning the head away from the opponent's hooking leg. This protects the throat from gogoplata entry as the forward drive brings you directly into the path of the opponent's shin. Failing to tuck the chin before driving forward is the most dangerous error because it positions the throat into immediate choke range."
+        "answer": "Tucking the chin firmly against the chest and turning the head away from the opponent's hooking leg. This protects the throat from gogoplata entry as the forward drive brings you directly into the path of the opponent's shin. Failing to tuck the chin before driving forward is the most dangerous error because it positions the throat into immediate choke range.",
+        "answer_line": "Tuck chin, turn head away",
+        "distractors": {
+          "plausible": [
+            "Control the trapped arm first",
+            "Post the free arm wide first"
+          ],
+          "trap": [
+            "Drive forward hard immediately"
+          ]
+        }
       },
       {
         "question": "Why should the shoulder be the primary contact point rather than the head during the stacking drive?",
-        "answer": "The shoulder drives into the opponent's hip crease at a safe angle that generates stacking compression while keeping the head behind or beside the shoulder, away from gogoplata range. Leading with the head positions the throat directly into the shin's path and provides less mechanical advantage for compression. The shoulder also creates a wider surface area for pressure distribution."
+        "answer": "The shoulder drives into the opponent's hip crease at a safe angle that generates stacking compression while keeping the head behind or beside the shoulder, away from gogoplata range. Leading with the head positions the throat directly into the shin's path and provides less mechanical advantage for compression. The shoulder also creates a wider surface area for pressure distribution.",
+        "answer_line": "Shoulder into hip crease",
+        "distractors": {
+          "plausible": [
+            "Shoulder into the chest",
+            "Forearm across the throat"
+          ],
+          "trap": [
+            "Head down into the chest"
+          ]
+        }
       },
       {
         "question": "Your opponent begins adjusting their shin toward your throat as you initiate the stack. How do you respond?",
-        "answer": "Immediately stop the forward drive and assess whether you can redirect laterally or need to abort entirely. If the shin is approaching the throat, retreat to posture recovery rather than forcing through. The gogoplata threat escalates with every inch of forward progress past the critical point where the shin can contact the neck."
+        "answer": "Immediately stop the forward drive and assess whether you can redirect laterally or need to abort entirely. If the shin is approaching the throat, retreat to posture recovery rather than forcing through. The gogoplata threat escalates with every inch of forward progress past the critical point where the shin can contact the neck.",
+        "answer_line": "Stop, retreat to posture",
+        "distractors": {
+          "plausible": [
+            "Push through the stack fast",
+            "Trap the shin with your hand"
+          ],
+          "trap": [
+            "Keep driving to finish pass"
+          ]
+        }
       },
       {
         "question": "At what point during the stack should you attempt to extract the trapped arm?",
-        "answer": "Extract the arm at the moment of maximum compression when the opponent's hips are stacked over their shoulders. This is when the shin hook is at its weakest mechanical position because the folding of the body changes the angle of the leg and reduces the lever force the hook can apply against the tricep. Attempting extraction before full compression fights against maximum hook resistance."
+        "answer": "Extract the arm at the moment of maximum compression when the opponent's hips are stacked over their shoulders. This is when the shin hook is at its weakest mechanical position because the folding of the body changes the angle of the leg and reduces the lever force the hook can apply against the tricep. Attempting extraction before full compression fights against maximum hook resistance.",
+        "answer_line": "At peak hip-over-shoulder stack",
+        "distractors": {
+          "plausible": [
+            "As soon as the stack begins",
+            "After posting the free arm"
+          ],
+          "trap": [
+            "Before compression, pull hard"
+          ]
+        }
       },
       {
         "question": "Why is rotational arm extraction more effective than straight pulling against the Meathook shin hook?",
-        "answer": "The shin hook's strongest resistance is along the straight-line pulling axis. Rotational extraction spirals the arm through the hook, changing the angle of contact and exploiting gaps in the shin's grip mechanics. This reduces the force required for extraction significantly and prevents the shoulder strain that comes from sustained straight-line pulling against the hook's resistance."
+        "answer": "The shin hook's strongest resistance is along the straight-line pulling axis. Rotational extraction spirals the arm through the hook, changing the angle of contact and exploiting gaps in the shin's grip mechanics. This reduces the force required for extraction significantly and prevents the shoulder strain that comes from sustained straight-line pulling against the hook's resistance.",
+        "answer_line": "Rotate the arm, don't pull straight",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Twist the wrist only"
+          ],
+          "trap": [
+            "Yank arm straight up fast"
+          ]
+        }
       },
       {
         "question": "Your opponent hip escapes laterally while you are mid-stack. What adjustment do you make?",
-        "answer": "Follow their hip movement by walking your own hips in the same direction to prevent them from creating the angle needed for triangle or omoplata setups. If they achieve significant lateral angle despite your adjustment, abandon the stack and transition to posture recovery because continuing the drive at a compromised angle increases submission vulnerability without improving passing position."
+        "answer": "Follow their hip movement by walking your own hips in the same direction to prevent them from creating the angle needed for triangle or omoplata setups. If they achieve significant lateral angle despite your adjustment, abandon the stack and transition to posture recovery because continuing the drive at a compromised angle increases submission vulnerability without improving passing position.",
+        "answer_line": "Walk hips to match their angle",
+        "distractors": {
+          "plausible": [
+            "Reset to center and repost",
+            "Increase downward pressure"
+          ],
+          "trap": [
+            "Ignore it, keep driving forward"
+          ]
+        }
       },
       {
         "question": "What is the correct base position for the free arm during the stacking sequence?",
-        "answer": "The free arm posts wide on the mat at approximately 45 degrees from the body with strong palm or fist contact on the mat surface. This wide post creates a triangular base that generates both the forward driving force needed for stacking and the lateral stability needed to prevent sweeps during the drive. Narrow posting provides insufficient leverage and leaves you vulnerable to lateral rolls."
+        "answer": "The free arm posts wide on the mat at approximately 45 degrees from the body with strong palm or fist contact on the mat surface. This wide post creates a triangular base that generates both the forward driving force needed for stacking and the lateral stability needed to prevent sweeps during the drive. Narrow posting provides insufficient leverage and leaves you vulnerable to lateral rolls.",
+        "answer_line": "Free arm posts wide at 45°",
+        "distractors": {
+          "plausible": [
+            "Free arm tucked close in",
+            "Free arm posted narrow"
+          ],
+          "trap": [
+            "Free arm grabs their belt"
+          ]
+        }
       },
       {
         "question": "After successfully extracting the arm, what must happen immediately and why?",
-        "answer": "Immediately begin walking hips laterally to clear the opponent's legs and establish passing position. Any pause between arm extraction and passing allows the bottom player to recover guard structure, re-insert their legs for Rubber Guard re-establishment, or transition to alternative attacks like triangle or closed guard submissions. The extraction-to-pass must be one continuous flowing sequence."
+        "answer": "Immediately begin walking hips laterally to clear the opponent's legs and establish passing position. Any pause between arm extraction and passing allows the bottom player to recover guard structure, re-insert their legs for Rubber Guard re-establishment, or transition to alternative attacks like triangle or closed guard submissions. The extraction-to-pass must be one continuous flowing sequence.",
+        "answer_line": "Immediately walk hips to clear legs",
+        "distractors": {
+          "plausible": [
+            "Pause to secure grip first",
+            "Switch to knee slice pass"
+          ],
+          "trap": [
+            "Rest and reset base first"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Stack Pass from Meathook carries significant neck and throat risk due to the gogoplata danger inherent in forward driving against Rubber Guard positions. Always tuck the chin before initiating any forward movement. If you feel shin contact near the throat at any point during the drive, immediately stop and retreat rather than forcing through. Tap immediately to any gogoplata that locks the shin against the throat. The trapped shoulder is also at risk during aggressive extraction attempts. Use rotational mechanics rather than brute force pulling to prevent shoulder strain. During training, communicate clearly with partners about resistance levels and establish tap protocols before drilling.",
@@ -413,23 +493,73 @@
     "flashcards": [
       {
         "question": "Why does the stack pass actually create opportunities for the bottom Meathook player rather than purely threatening their position?",
-        "answer": "The stack pass drives the top player forward, which is the exact direction that feeds into gogoplata, triangle, and omoplata setups from Meathook. Their forward momentum carries them deeper into submission range while their commitment to the stack limits their ability to retreat or change direction. A properly countered stack attempt is more dangerous for the passer than maintaining neutral Meathook."
+        "answer": "The stack pass drives the top player forward, which is the exact direction that feeds into gogoplata, triangle, and omoplata setups from Meathook. Their forward momentum carries them deeper into submission range while their commitment to the stack limits their ability to retreat or change direction. A properly countered stack attempt is more dangerous for the passer than maintaining neutral Meathook.",
+        "answer_line": "Forward drive feeds submissions",
+        "distractors": {
+          "plausible": [
+            "It only tires the top player",
+            "It slows their passing tempo"
+          ],
+          "trap": [
+            "It's safe, so relax the hook"
+          ]
+        }
       },
       {
         "question": "What are the earliest recognition cues that your opponent is about to attempt a stack pass from your Meathook?",
-        "answer": "The top player tucks their chin firmly and turns their head away from the hooking leg, posts their free arm wide at approximately 45 degrees for driving base, and shifts weight forward with shoulder pressing into your hip. Their trapped arm stops individual extraction attempts and tucks tight. Recognizing these cues early gives you time to pre-position for counter-attacks before their momentum builds."
+        "answer": "The top player tucks their chin firmly and turns their head away from the hooking leg, posts their free arm wide at approximately 45 degrees for driving base, and shifts weight forward with shoulder pressing into your hip. Their trapped arm stops individual extraction attempts and tucks tight. Recognizing these cues early gives you time to pre-position for counter-attacks before their momentum builds.",
+        "answer_line": "Chin tucked, arm posted wide",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of forward speed",
+            "Deep breathing, slow pace"
+          ],
+          "trap": [
+            "They relax and stop moving"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun stacking you with good chin protection preventing gogoplata. What alternative defensive response should you employ?",
-        "answer": "Hip escape laterally before full compression immobilizes your hips. Lateral movement prevents the direct compression angle needed for arm extraction and creates angles for triangle or omoplata transitions. Maintain hook control during the lateral escape if possible, but prioritize hip mobility over hook retention. The angle change opens new submission pathways that bypass their chin protection."
+        "answer": "Hip escape laterally before full compression immobilizes your hips. Lateral movement prevents the direct compression angle needed for arm extraction and creates angles for triangle or omoplata transitions. Maintain hook control during the lateral escape if possible, but prioritize hip mobility over hook retention. The angle change opens new submission pathways that bypass their chin protection.",
+        "answer_line": "Hip escape laterally early",
+        "distractors": {
+          "plausible": [
+            "Push their head down harder",
+            "Grab a fresh underhook"
+          ],
+          "trap": [
+            "Stay still and absorb pressure"
+          ]
+        }
       },
       {
         "question": "How should you adjust your shin hook positioning when you recognize a stack attempt versus a standard arm extraction attempt?",
-        "answer": "During a stack attempt, consider transitioning the shin from tricep isolation position toward the throat for gogoplata entry, rotating your hip slightly and extending the hooking leg to intercept their forward drive. During standard arm extraction, maintain the tricep position for maximum isolation leverage. The attack angle changes based on the opponent's escape direction: forward drive feeds gogoplata, lateral pull maintains arm isolation."
+        "answer": "During a stack attempt, consider transitioning the shin from tricep isolation position toward the throat for gogoplata entry, rotating your hip slightly and extending the hooking leg to intercept their forward drive. During standard arm extraction, maintain the tricep position for maximum isolation leverage. The attack angle changes based on the opponent's escape direction: forward drive feeds gogoplata, lateral pull maintains arm isolation.",
+        "answer_line": "Shift shin toward the throat",
+        "distractors": {
+          "plausible": [
+            "Keep shin on the tricep always",
+            "Move shin to the far hip"
+          ],
+          "trap": [
+            "Release the shin hook entirely"
+          ]
+        }
       },
       {
         "question": "What role does your non-hooking leg play in defending against the stack pass?",
-        "answer": "The non-hooking leg must actively control the opponent's hip or wrap their back to prevent them from walking laterally during the stack. If they can walk their hips to the side while stacking, they create the passing angle that bypasses your guard. Keeping the non-hooking leg active as a secondary anchor prevents lateral drift and maintains the guard structure that supports your counter-attack options."
+        "answer": "The non-hooking leg must actively control the opponent's hip or wrap their back to prevent them from walking laterally during the stack. If they can walk their hips to the side while stacking, they create the passing angle that bypasses your guard. Keeping the non-hooking leg active as a secondary anchor prevents lateral drift and maintains the guard structure that supports your counter-attack options.",
+        "answer_line": "Control hip to block lateral walk",
+        "distractors": {
+          "plausible": [
+            "Push on their far shoulder",
+            "Squeeze the near knee shut"
+          ],
+          "trap": [
+            "Let it hang loose for reach"
+          ]
+        }
       }
     ],
     "training_progressions": [

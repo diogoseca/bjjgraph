@@ -259,35 +259,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the backstep from reverse half guard?",
-        "answer": "The optimal window opens when the bottom player commits to turning toward you to recover standard half guard. Their rotational movement simultaneously exposes their back further and compromises their defensive base. Initiating the backstep while they are mid-rotation means they cannot effectively block the stepping leg or counter the back take, as their momentum carries them in a direction that aids the transition."
+        "answer": "The optimal window opens when the bottom player commits to turning toward you to recover standard half guard. Their rotational movement simultaneously exposes their back further and compromises their defensive base. Initiating the backstep while they are mid-rotation means they cannot effectively block the stepping leg or counter the back take, as their momentum carries them in a direction that aids the transition.",
+        "answer_line": "When they turn to recover guard",
+        "distractors": {
+          "plausible": [
+            "As soon as you land in reverse half",
+            "When they flatten belly-down"
+          ],
+          "trap": [
+            "After they secure an underhook"
+          ]
+        }
       },
       {
         "question": "What grip must be established before beginning the backstep motion?",
-        "answer": "The seatbelt grip must be secured before initiating the backstep. Thread one arm over the opponent's shoulder and the other under their far armpit, clasping hands together. This grip maintains upper body connection throughout the leg movement and prevents the opponent from creating separation during the transition. Without the seatbelt, the backstep creates a momentary gap that allows defensive recovery."
+        "answer": "The seatbelt grip must be secured before initiating the backstep. Thread one arm over the opponent's shoulder and the other under their far armpit, clasping hands together. This grip maintains upper body connection throughout the leg movement and prevents the opponent from creating separation during the transition. Without the seatbelt, the backstep creates a momentary gap that allows defensive recovery.",
+        "answer_line": "Seatbelt grip",
+        "distractors": {
+          "plausible": [
+            "Crossface grip",
+            "Far-side underhook"
+          ],
+          "trap": [
+            "Two-on-one wrist control"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the leg arc of the backstep?",
-        "answer": "Maintaining chest-to-back connection throughout the entire arc is the single most critical detail. The stepping leg must swing in a smooth controlled arc while your chest pressure remains constant against the opponent's back. Any lifting of the chest during the step creates space for the opponent to turn, flatten, or initiate an escape sequence that defeats the back take attempt."
+        "answer": "Maintaining chest-to-back connection throughout the entire arc is the single most critical detail. The stepping leg must swing in a smooth controlled arc while your chest pressure remains constant against the opponent's back. Any lifting of the chest during the step creates space for the opponent to turn, flatten, or initiate an escape sequence that defeats the back take attempt.",
+        "answer_line": "Keep chest glued to their back",
+        "distractors": {
+          "plausible": [
+            "Step over with a wide leg swing",
+            "Post your hand for balance"
+          ],
+          "trap": [
+            "Lift chest to clear the leg"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point when executing the backstep from reverse half guard?",
-        "answer": "The most common failure occurs when the attacker lifts their chest away from the opponent's back during the stepping motion to create room for the leg swing. This momentary separation allows the bottom player to either turn to face the attacker and recover half guard, or flatten to the mat and deny hook insertion. The fix is to think of the step as a rotation around the opponent rather than a step over them."
+        "answer": "The most common failure occurs when the attacker lifts their chest away from the opponent's back during the stepping motion to create room for the leg swing. This momentary separation allows the bottom player to either turn to face the attacker and recover half guard, or flatten to the mat and deny hook insertion. The fix is to think of the step as a rotation around the opponent rather than a step over them.",
+        "answer_line": "Lifting chest off their back",
+        "distractors": {
+          "plausible": [
+            "Stepping too slowly",
+            "Losing the seatbelt grip"
+          ],
+          "trap": [
+            "Fighting the opponent's bridge"
+          ]
+        }
       },
       {
         "question": "Your opponent flattens belly-down when you initiate the backstep—how do you adjust?",
-        "answer": "Switch your objective from direct hook insertion to establishing a body-lock style control. Wrap both legs around their waist from the flattened position and use the seatbelt grip to begin lifting one shoulder off the mat. Once you create an angle under their flattened body, insert hooks progressively starting with the bottom-side hook and using it as a lever to create space for the second hook."
+        "answer": "Switch your objective from direct hook insertion to establishing a body-lock style control. Wrap both legs around their waist from the flattened position and use the seatbelt grip to begin lifting one shoulder off the mat. Once you create an angle under their flattened body, insert hooks progressively starting with the bottom-side hook and using it as a lever to create space for the second hook.",
+        "answer_line": "Body-lock, lift shoulder, hook",
+        "distractors": {
+          "plausible": [
+            "Force the original hook entry",
+            "Switch to a crossface pin"
+          ],
+          "trap": [
+            "Abandon back take, pass guard"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for establishing back control after the stepping leg lands?",
-        "answer": "The correct sequence is: insert first hook immediately upon landing, use the hook and seatbelt as anchors to extract the trapped leg from half guard, insert the second hook as soon as the trapped leg is free, then consolidate all control points. Rushing to extract the trapped leg before the first hook is established removes the anchor needed for controlled extraction and creates escape opportunities."
+        "answer": "The correct sequence is: insert first hook immediately upon landing, use the hook and seatbelt as anchors to extract the trapped leg from half guard, insert the second hook as soon as the trapped leg is free, then consolidate all control points. Rushing to extract the trapped leg before the first hook is established removes the anchor needed for controlled extraction and creates escape opportunities.",
+        "answer_line": "Insert hook before extracting leg",
+        "distractors": {
+          "plausible": [
+            "Extract leg, then insert hook",
+            "Insert both hooks simultaneously"
+          ],
+          "trap": [
+            "Release seatbelt to free the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges and turns explosively during your backstep arc—what is the correct response?",
-        "answer": "Do not fight the turn. Instead, follow the rotation with your seatbelt grip, staying glued to their back as they turn. If you maintain chest connection through the roll, you often end up in back control on the opposite side. Fighting against an explosive bridge wastes energy and often breaks your seatbelt grip, while following the movement preserves your dominant control throughout."
+        "answer": "Do not fight the turn. Instead, follow the rotation with your seatbelt grip, staying glued to their back as they turn. If you maintain chest connection through the roll, you often end up in back control on the opposite side. Fighting against an explosive bridge wastes energy and often breaks your seatbelt grip, while following the movement preserves your dominant control throughout.",
+        "answer_line": "Follow the roll, stay glued",
+        "distractors": {
+          "plausible": [
+            "Sprawl to stop the bridge",
+            "Base out with a wide stance"
+          ],
+          "trap": [
+            "Fight the bridge with weight"
+          ]
+        }
       },
       {
         "question": "How does the backstep from reverse half guard connect to the broader backstep passing chain?",
-        "answer": "The backstep from reverse half guard is the natural completion of the backstep passing system. A passer enters reverse half guard by executing backstep passes from De La Riva, deep half, K-guard, or standard half guard. Once in reverse half guard, the back take is the highest-value progression available. This creates a systematic pathway where any backstep pass that achieves reverse half guard feeds directly into back control through this technique."
+        "answer": "The backstep from reverse half guard is the natural completion of the backstep passing system. A passer enters reverse half guard by executing backstep passes from De La Riva, deep half, K-guard, or standard half guard. Once in reverse half guard, the back take is the highest-value progression available. This creates a systematic pathway where any backstep pass that achieves reverse half guard feeds directly into back control through this technique.",
+        "answer_line": "Completes the backstep pass chain",
+        "distractors": {
+          "plausible": [
+            "Only works from standard half guard",
+            "Requires a separate guard pass first"
+          ],
+          "trap": [
+            "Best attempted from full guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The backstep from reverse half guard is a positional transition with low direct injury risk compared to submissions. However, practitioners should be mindful of knee stress on the trapped leg during extraction, particularly if the bottom player maintains a tight clamp. Avoid jerking the trapped leg free with explosive force, as this can stress the knee joint in both training partners. The stepping arc should be smooth and controlled to prevent accidentally striking the bottom player with the knee or shin. Partners should communicate if trapped leg pressure becomes uncomfortable, and the top player should prioritize controlled extraction over speed. During drilling, start with zero resistance to establish safe movement patterns before adding progressive resistance.",
@@ -396,23 +476,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is initiating a backstep from reverse half guard?",
-        "answer": "The first cue is a change in weight distribution—you feel the opponent's weight shift from both legs to the trapped leg side as they prepare to lift the free leg. Simultaneously, their upper body grip may tighten or transition from crossface to seatbelt configuration. These weight and grip changes typically precede the stepping motion by one to two seconds, providing your defensive window for reaction."
+        "answer": "The first cue is a change in weight distribution—you feel the opponent's weight shift from both legs to the trapped leg side as they prepare to lift the free leg. Simultaneously, their upper body grip may tighten or transition from crossface to seatbelt configuration. These weight and grip changes typically precede the stepping motion by one to two seconds, providing your defensive window for reaction.",
+        "answer_line": "Weight shifts, grip tightens",
+        "distractors": {
+          "plausible": [
+            "They release the crossface",
+            "Their far hand posts on mat"
+          ],
+          "trap": [
+            "Wait until the leg starts moving"
+          ]
+        }
       },
       {
         "question": "What is the highest-priority defensive action when you recognize the backstep is being initiated?",
-        "answer": "The highest priority is turning explosively toward the attacker before the stepping leg completes its arc. This turn must be timed during the moment when the attacker's free leg is airborne, as this is when their base is most compromised by the single-leg weight distribution. Combine the turn with a strong frame against their hip to create separation and disrupt their balance during the vulnerable transition."
+        "answer": "The highest priority is turning explosively toward the attacker before the stepping leg completes its arc. This turn must be timed during the moment when the attacker's free leg is airborne, as this is when their base is most compromised by the single-leg weight distribution. Combine the turn with a strong frame against their hip to create separation and disrupt their balance during the vulnerable transition.",
+        "answer_line": "Turn into them, frame the hip",
+        "distractors": {
+          "plausible": [
+            "Push their head to the mat",
+            "Grab the far ankle to block step"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "Why is preventing the seatbelt grip more important than blocking the stepping leg?",
-        "answer": "The seatbelt grip provides the attacker with continuous upper body control that survives the entire backstep transition regardless of what the legs do. Without it, the backstep creates a momentary separation between their chest and your back that you can exploit to turn and face them. With the seatbelt locked in, even successful leg defense is temporary because the attacker maintains upper body connection and can reattempt the step."
+        "answer": "The seatbelt grip provides the attacker with continuous upper body control that survives the entire backstep transition regardless of what the legs do. Without it, the backstep creates a momentary separation between their chest and your back that you can exploit to turn and face them. With the seatbelt locked in, even successful leg defense is temporary because the attacker maintains upper body connection and can reattempt the step.",
+        "answer_line": "Seatbelt gives lasting control",
+        "distractors": {
+          "plausible": [
+            "Blocking the leg stops it fully",
+            "Leg defense matters more than grips"
+          ],
+          "trap": [
+            "Ignore the grip, block the leg"
+          ]
+        }
       },
       {
         "question": "Your defensive turn fails and the attacker inserts the first hook—what should you do next?",
-        "answer": "Immediately focus on preventing the second hook insertion, as back control with one hook is incomplete and escape remains realistic. Use your same-side leg to push the established hook out while fighting the seatbelt grip with your hands. Angle your body toward the hook side to reduce the attacker's ability to control your hip rotation. If the second hook goes in, immediately transition to standard back control escape protocol."
+        "answer": "Immediately focus on preventing the second hook insertion, as back control with one hook is incomplete and escape remains realistic. Use your same-side leg to push the established hook out while fighting the seatbelt grip with your hands. Angle your body toward the hook side to reduce the attacker's ability to control your hip rotation. If the second hook goes in, immediately transition to standard back control escape protocol.",
+        "answer_line": "Block second hook, strip first",
+        "distractors": {
+          "plausible": [
+            "Immediately try to stand up",
+            "Attack a leg lock from bottom"
+          ],
+          "trap": [
+            "Relax and accept back mount"
+          ]
+        }
       },
       {
         "question": "When should you abandon defending the backstep and transition to back control escape fundamentals?",
-        "answer": "Once both hooks are inserted and the seatbelt is locked, the backstep has succeeded and continuing to fight it wastes energy. Immediately transition to standard back control defense: protect your neck with two-on-one grip fighting on the choking arm, work to strip hooks systematically starting with the weaker side, and execute hip escape sequences to create angles for turning and escaping."
+        "answer": "Once both hooks are inserted and the seatbelt is locked, the backstep has succeeded and continuing to fight it wastes energy. Immediately transition to standard back control defense: protect your neck with two-on-one grip fighting on the choking arm, work to strip hooks systematically starting with the weaker side, and execute hip escape sequences to create angles for turning and escaping.",
+        "answer_line": "Once both hooks are locked in",
+        "distractors": {
+          "plausible": [
+            "As soon as one hook lands",
+            "When you lose the underhook fight"
+          ],
+          "trap": [
+            "Never stop fighting the hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [

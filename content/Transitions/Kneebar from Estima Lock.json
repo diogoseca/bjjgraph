@@ -265,35 +265,115 @@
     "flashcards": [
       {
         "question": "Your opponent counter-rotates their foot to neutralize the Estima Lock pressure—what specific signals tell you the kneebar transition is available?",
-        "answer": "The key signals are: diminishing rotational pressure on the ankle despite your maintained grip, the opponent's foot angle flattening as they counter-rotate, their leg beginning to straighten as they prepare to extract their foot, and their defensive focus shifting to the foot rather than maintaining overall guard structure. When the Estima Lock's effectiveness fades despite maintained grip, the opponent's defensive posture has created the alignment needed for kneebar entry. Their straightened leg provides the hyperextension pathway, and their focused foot defense creates a gap in knee protection."
+        "answer": "The key signals are: diminishing rotational pressure on the ankle despite your maintained grip, the opponent's foot angle flattening as they counter-rotate, their leg beginning to straighten as they prepare to extract their foot, and their defensive focus shifting to the foot rather than maintaining overall guard structure. When the Estima Lock's effectiveness fades despite maintained grip, the opponent's defensive posture has created the alignment needed for kneebar entry. Their straightened leg provides the hyperextension pathway, and their focused foot defense creates a gap in knee protection.",
+        "answer_line": "Pressure fades, leg straightens",
+        "distractors": {
+          "plausible": [
+            "Opponent grips foot tighter",
+            "Foot pulls into your armpit"
+          ],
+          "trap": [
+            "Wait for tap, then switch"
+          ]
+        }
       },
       {
         "question": "What is the critical hip placement for the kneebar and why does positioning a few inches too high completely negate the submission?",
-        "answer": "Your hip bone must land directly on the crease of the opponent's knee joint—the exact point where the femur meets the tibia. If you position even a few inches too high on the thigh, your hip acts as a fulcrum above the joint rather than across it, which means your bridging motion compresses the thigh muscle rather than hyperextending the knee. The opponent can freely bend their knee when the fulcrum is above the joint, completely eliminating any submission threat. Precise hip-to-knee alignment is non-negotiable for a functional kneebar."
+        "answer": "Your hip bone must land directly on the crease of the opponent's knee joint—the exact point where the femur meets the tibia. If you position even a few inches too high on the thigh, your hip acts as a fulcrum above the joint rather than across it, which means your bridging motion compresses the thigh muscle rather than hyperextending the knee. The opponent can freely bend their knee when the fulcrum is above the joint, completely eliminating any submission threat. Precise hip-to-knee alignment is non-negotiable for a functional kneebar.",
+        "answer_line": "Hip bone right on knee crease",
+        "distractors": {
+          "plausible": [
+            "Hip on mid-thigh for leverage",
+            "Hip just below the knee joint"
+          ],
+          "trap": [
+            "Hip anywhere, squeeze harder"
+          ]
+        }
       },
       {
         "question": "During the grip change from foot control to thigh control, your opponent begins pulling their leg back aggressively—how do you prevent losing the leg entirely?",
-        "answer": "Overlap your control points during the grip change rather than creating a sequential release-then-grab pattern. Begin wrapping your arms around the thigh while your original grip is still partially on the foot, using your body against their leg as a third contact point. If they pull aggressively, clamp your knees together around their leg to create friction that slows extraction while you complete the thigh grip. The key principle is maintaining at least two points of contact at all times during the transition—never allow a moment where only one hand is touching their leg."
+        "answer": "Overlap your control points during the grip change rather than creating a sequential release-then-grab pattern. Begin wrapping your arms around the thigh while your original grip is still partially on the foot, using your body against their leg as a third contact point. If they pull aggressively, clamp your knees together around their leg to create friction that slows extraction while you complete the thigh grip. The key principle is maintaining at least two points of contact at all times during the transition—never allow a moment where only one hand is touching their leg.",
+        "answer_line": "Overlap grips, never let go",
+        "distractors": {
+          "plausible": [
+            "Release foot, then grab thigh",
+            "Switch grips as fast as possible"
+          ],
+          "trap": [
+            "Let go and re-grab higher"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the kneebar transition from Estima Lock?",
-        "answer": "The optimal window occurs when the opponent has committed fully to their Estima Lock defense but has not yet completed their escape. Specifically, this is the moment when they have successfully counter-rotated their foot to reduce ankle pressure, their leg has straightened as part of the extraction effort, and their free leg is engaged in pushing or framing rather than available for new defensive tasks. Transitioning too early abandons a still-viable footlock; transitioning too late means the opponent has already extracted and recovered guard. The sweet spot is when their defensive movement is at peak commitment and their structural alignment favors kneebar entry."
+        "answer": "The optimal window occurs when the opponent has committed fully to their Estima Lock defense but has not yet completed their escape. Specifically, this is the moment when they have successfully counter-rotated their foot to reduce ankle pressure, their leg has straightened as part of the extraction effort, and their free leg is engaged in pushing or framing rather than available for new defensive tasks. Transitioning too early abandons a still-viable footlock; transitioning too late means the opponent has already extracted and recovered guard. The sweet spot is when their defensive movement is at peak commitment and their structural alignment favors kneebar entry.",
+        "answer_line": "Leg straight, free leg busy framing",
+        "distractors": {
+          "plausible": [
+            "As soon as they defend at all",
+            "After they fully escape guard"
+          ],
+          "trap": [
+            "Wait until they tap the mat"
+          ]
+        }
       },
       {
         "question": "Your opponent uses their free leg to push your hips forcefully during the hip switch—what immediate adjustment prevents the transition from failing?",
-        "answer": "If the free leg push catches you mid-transition, you have two primary options depending on the push direction. If they push your hips directly away, switch to a rolling kneebar entry that uses the momentum of their push to roll through to the far side while maintaining thigh control—their push actually assists the roll. If they push laterally, underhook their free leg with your nearside arm to pin it before re-attempting the hip switch. The fundamental lesson is that the free leg must be addressed before committing to the transition; if you are already mid-switch when the push lands, convert to the rolling variant rather than fighting the push statically."
+        "answer": "If the free leg push catches you mid-transition, you have two primary options depending on the push direction. If they push your hips directly away, switch to a rolling kneebar entry that uses the momentum of their push to roll through to the far side while maintaining thigh control—their push actually assists the roll. If they push laterally, underhook their free leg with your nearside arm to pin it before re-attempting the hip switch. The fundamental lesson is that the free leg must be addressed before committing to the transition; if you are already mid-switch when the push lands, convert to the rolling variant rather than fighting the push statically.",
+        "answer_line": "Roll with push or underhook leg",
+        "distractors": {
+          "plausible": [
+            "Push back against their leg",
+            "Abandon transition, reset guard"
+          ],
+          "trap": [
+            "Release thigh grip to block push"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest thigh control during the transition and why?",
-        "answer": "A gable grip (palm-to-palm) behind the opponent's knee while hugging their thigh tightly to your chest provides the strongest control during the transition. This grip is superior to a clasped-hand or S-grip because it distributes force across both forearms equally and is harder to strip. The thigh should be pulled tight against your sternum so that your entire torso acts as a clamp rather than relying solely on arm strength. Your forearms should cross behind the knee with your elbows squeezing inward, creating a structural lock that maintains control even if one hand is partially disrupted during the hip switch."
+        "answer": "A gable grip (palm-to-palm) behind the opponent's knee while hugging their thigh tightly to your chest provides the strongest control during the transition. This grip is superior to a clasped-hand or S-grip because it distributes force across both forearms equally and is harder to strip. The thigh should be pulled tight against your sternum so that your entire torso acts as a clamp rather than relying solely on arm strength. Your forearms should cross behind the knee with your elbows squeezing inward, creating a structural lock that maintains control even if one hand is partially disrupted during the hip switch.",
+        "answer_line": "Gable grip, thigh to chest",
+        "distractors": {
+          "plausible": [
+            "S-grip with hands on ankle",
+            "Clasp hands, arms extended out"
+          ],
+          "trap": [
+            "One-hand grip, free hand posts"
+          ]
+        }
       },
       {
         "question": "You have completed the hip switch but the opponent is aggressively trying to bend their knee before you can establish the leg clamp—what is your priority?",
-        "answer": "Your immediate priority is clamping your legs around their limb before perfecting any other detail. Triangle your legs around their leg with your top leg crossing over their hip and your bottom leg hooking behind their thigh, then squeeze your knees together forcefully. The leg clamp is the single most important control element of the kneebar because it prevents knee bending—without it, no amount of hip pressure creates submission threat. Even if your hip placement is slightly off, establish the leg clamp first, then adjust your hip position while the clamp prevents their escape."
+        "answer": "Your immediate priority is clamping your legs around their limb before perfecting any other detail. Triangle your legs around their leg with your top leg crossing over their hip and your bottom leg hooking behind their thigh, then squeeze your knees together forcefully. The leg clamp is the single most important control element of the kneebar because it prevents knee bending—without it, no amount of hip pressure creates submission threat. Even if your hip placement is slightly off, establish the leg clamp first, then adjust your hip position while the clamp prevents their escape.",
+        "answer_line": "Clamp legs before anything else",
+        "distractors": {
+          "plausible": [
+            "Perfect hip pressure first",
+            "Secure grip on the foot first"
+          ],
+          "trap": [
+            "Chase a finer finish, ignore knee"
+          ]
+        }
       },
       {
         "question": "How does the direction of force application differ between the Estima Lock finish and the kneebar from the same position?",
-        "answer": "The Estima Lock applies rotational force to the ankle joint—twisting the inverted foot toward the opponent's body while the forearm acts as a fulcrum across the top of the foot. The force vector is primarily rotational around the ankle's axis. The kneebar applies linear hyperextension force to the knee joint—bridging your hips forward into the knee crease while pulling the foot and ankle toward your chest. The force vector is perpendicular to the leg's natural bending direction. This fundamental difference in force direction is what makes the chain attack effective: defending the rotation exposes the leg to hyperextension, and defending the hyperextension may re-expose the ankle to rotation."
+        "answer": "The Estima Lock applies rotational force to the ankle joint—twisting the inverted foot toward the opponent's body while the forearm acts as a fulcrum across the top of the foot. The force vector is primarily rotational around the ankle's axis. The kneebar applies linear hyperextension force to the knee joint—bridging your hips forward into the knee crease while pulling the foot and ankle toward your chest. The force vector is perpendicular to the leg's natural bending direction. This fundamental difference in force direction is what makes the chain attack effective: defending the rotation exposes the leg to hyperextension, and defending the hyperextension may re-expose the ankle to rotation.",
+        "answer_line": "Rotation on ankle, linear on knee",
+        "distractors": {
+          "plausible": [
+            "Both apply same rotational force",
+            "Kneebar rotates the hip instead"
+          ],
+          "trap": [
+            "Estima hyperextends, kneebar twists"
+          ]
+        }
       }
     ],
     "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause catastrophic injury to the ACL, PCL, and surrounding ligaments if applied explosively or without control. Always apply kneebar pressure gradually and steadily after establishing full control—never crank during the transition itself when the opponent may not yet recognize the new threat. In training, communicate clearly with your partner when transitioning from the Estima Lock to the kneebar, as the change in attack vector can catch defenders off-guard. Honor tap signals immediately and be especially cautious with less experienced training partners who may not recognize kneebar danger cues as quickly. The transition itself should be practiced at slow speed before increasing to competition tempo. Check your gym's ruleset regarding kneebar legality at your belt level before drilling in live sparring.",
@@ -408,23 +488,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from Estima Lock to kneebar?",
-        "answer": "The earliest and most reliable cue is the release of the figure-four grip on your foot. When you feel the inverted footlock pressure diminish and their hands begin moving from your foot up toward your thigh, the kneebar transition has begun. This recognition must trigger immediate defensive response—activating your free leg and bending your knee—because the window between grip release and kneebar consolidation is the only reliable escape opportunity."
+        "answer": "The earliest and most reliable cue is the release of the figure-four grip on your foot. When you feel the inverted footlock pressure diminish and their hands begin moving from your foot up toward your thigh, the kneebar transition has begun. This recognition must trigger immediate defensive response—activating your free leg and bending your knee—because the window between grip release and kneebar consolidation is the only reliable escape opportunity.",
+        "answer_line": "Foot grip releases, hands move up",
+        "distractors": {
+          "plausible": [
+            "Hip pressure suddenly increases",
+            "They switch to attack other leg"
+          ],
+          "trap": [
+            "Wait for full leg clamp to react"
+          ]
+        }
       },
       {
         "question": "Why is bending your knee the single most important defensive action when the attacker begins the kneebar transition?",
-        "answer": "A bent knee cannot be hyperextended, which means the fundamental mechanism of the kneebar submission is neutralized as long as the knee remains bent. The attacker needs your leg straight to apply hyperextension pressure across the joint. Bending your knee immediately upon recognizing the transition buys critical time for other defensive actions—free leg posting, body rotation, grip fighting—and prevents the attacker from threatening submission even if they complete the hip switch and leg clamp."
+        "answer": "A bent knee cannot be hyperextended, which means the fundamental mechanism of the kneebar submission is neutralized as long as the knee remains bent. The attacker needs your leg straight to apply hyperextension pressure across the joint. Bending your knee immediately upon recognizing the transition buys critical time for other defensive actions—free leg posting, body rotation, grip fighting—and prevents the attacker from threatening submission even if they complete the hip switch and leg clamp.",
+        "answer_line": "Bent knee can't be hyperextended",
+        "distractors": {
+          "plausible": [
+            "Posting free leg matters most",
+            "Grip fighting hands is priority"
+          ],
+          "trap": [
+            "Straighten leg to power out"
+          ]
+        }
       },
       {
         "question": "Your opponent releases your foot and you feel their arms wrapping your thigh—your free leg is flat on the mat—what is the correct sequence of defensive actions?",
-        "answer": "First, bend the trapped knee immediately to prevent hyperextension. Second, activate your free leg by driving it up to post on the attacker's hip, shoulder, or face to create distance and disrupt their hip switch. Third, turn your body toward the attacker rather than away to reduce the hyperextension angle. Fourth, if they complete the position despite your defense, focus on breaking the leg clamp by prying their top leg over your hip while maintaining your knee bend. If you cannot break free and they begin bridging, tap immediately."
+        "answer": "First, bend the trapped knee immediately to prevent hyperextension. Second, activate your free leg by driving it up to post on the attacker's hip, shoulder, or face to create distance and disrupt their hip switch. Third, turn your body toward the attacker rather than away to reduce the hyperextension angle. Fourth, if they complete the position despite your defense, focus on breaking the leg clamp by prying their top leg over your hip while maintaining your knee bend. If you cannot break free and they begin bridging, tap immediately.",
+        "answer_line": "Bend knee, post leg, rotate in",
+        "distractors": {
+          "plausible": [
+            "Post leg first, then bend knee",
+            "Rotate away, then bend knee"
+          ],
+          "trap": [
+            "Straighten leg and kick free"
+          ]
+        }
       },
       {
         "question": "Why is rotating toward the attacker safer than rotating away when caught in a kneebar?",
-        "answer": "Rotating toward the attacker reduces the hyperextension angle at the knee joint because your body moves in the same direction the knee naturally bends, decreasing the stress on the ligaments. Rotating away from the attacker amplifies the hyperextension because your body movement adds to the force pushing the knee beyond its natural range—effectively you are extending the submission for the attacker. Rotating toward also creates opportunities for scrambles and guard recovery by closing the distance rather than stretching it under dangerous joint pressure."
+        "answer": "Rotating toward the attacker reduces the hyperextension angle at the knee joint because your body moves in the same direction the knee naturally bends, decreasing the stress on the ligaments. Rotating away from the attacker amplifies the hyperextension because your body movement adds to the force pushing the knee beyond its natural range—effectively you are extending the submission for the attacker. Rotating toward also creates opportunities for scrambles and guard recovery by closing the distance rather than stretching it under dangerous joint pressure.",
+        "answer_line": "Toward reduces hyperextension angle",
+        "distractors": {
+          "plausible": [
+            "Away creates space to escape",
+            "Direction doesn't change angle"
+          ],
+          "trap": [
+            "Rotate away to power through"
+          ]
+        }
       },
       {
         "question": "At what point should you abandon escape attempts and tap to the kneebar?",
-        "answer": "Tap when the attacker has their hips directly across your knee crease, their legs clamped tightly around your isolated leg preventing knee bending, and they begin bridging or extending their hips. At this point, the mechanical advantage is overwhelmingly in their favor and continued resistance risks catastrophic knee ligament injury. Additional signals include sharp pain in the knee, inability to bend your knee despite maximum effort, and the sensation of your knee being pushed past its natural extension range. Tap early and decisively—no match or training round is worth a knee reconstruction."
+        "answer": "Tap when the attacker has their hips directly across your knee crease, their legs clamped tightly around your isolated leg preventing knee bending, and they begin bridging or extending their hips. At this point, the mechanical advantage is overwhelmingly in their favor and continued resistance risks catastrophic knee ligament injury. Additional signals include sharp pain in the knee, inability to bend your knee despite maximum effort, and the sensation of your knee being pushed past its natural extension range. Tap early and decisively—no match or training round is worth a knee reconstruction.",
+        "answer_line": "Hips set, clamp tight, bridge starts",
+        "distractors": {
+          "plausible": [
+            "Only when you feel sharp pain",
+            "Wait for the ref to call it"
+          ],
+          "trap": [
+            "Fight through to escape grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

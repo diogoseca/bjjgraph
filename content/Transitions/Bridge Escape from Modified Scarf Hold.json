@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the bridge escape from Modified Scarf Hold?",
-        "answer": "The optimal moment is when the top player shifts their weight, which typically occurs during grip adjustments, submission setup attempts, head repositioning, or transition preparations. Bridging against fully settled weight has dramatically lower success rates. Feel for the moment their chest pressure lightens or their hips lift even slightly, then commit immediately to the directional bridge before they can resettle."
+        "answer": "The optimal moment is when the top player shifts their weight, which typically occurs during grip adjustments, submission setup attempts, head repositioning, or transition preparations. Bridging against fully settled weight has dramatically lower success rates. Feel for the moment their chest pressure lightens or their hips lift even slightly, then commit immediately to the directional bridge before they can resettle.",
+        "answer_line": "The instant their weight shifts",
+        "distractors": {
+          "plausible": [
+            "Once they're fully settled",
+            "Right after initial pin lands"
+          ],
+          "trap": [
+            "Bridge continuously and often"
+          ]
+        }
       },
       {
         "question": "Why should you bridge directionally rather than straight up from Modified Scarf Hold?",
-        "answer": "Bridging straight up allows the opponent to simply spread their base and absorb the vertical force, settling right back into the same position. A directional bridge at 45 degrees toward the opponent's head side targets their weakest base angle where they have the least structural support. This directional force displaces their weight laterally rather than just lifting it, creating actual space for hip rotation and knee insertion."
+        "answer": "Bridging straight up allows the opponent to simply spread their base and absorb the vertical force, settling right back into the same position. A directional bridge at 45 degrees toward the opponent's head side targets their weakest base angle where they have the least structural support. This directional force displaces their weight laterally rather than just lifting it, creating actual space for hip rotation and knee insertion.",
+        "answer_line": "Angles force toward their head",
+        "distractors": {
+          "plausible": [
+            "Straight up, they just spread",
+            "Any direction disrupts base"
+          ],
+          "trap": [
+            "Bridge away from their head"
+          ]
+        }
       },
       {
         "question": "What should your free arm be doing before and during the bridge escape attempt?",
-        "answer": "Before the bridge, the free arm establishes a forearm frame against the opponent's hip or shoulder, creating a structural barrier that prevents them from driving forward. During the bridge, this frame amplifies the directional force and prevents the opponent from simply driving their chest back down into you as the bridge peaks. Never use the free arm to push straight up, as this creates arm triangle and kimura vulnerabilities."
+        "answer": "Before the bridge, the free arm establishes a forearm frame against the opponent's hip or shoulder, creating a structural barrier that prevents them from driving forward. During the bridge, this frame amplifies the directional force and prevents the opponent from simply driving their chest back down into you as the bridge peaks. Never use the free arm to push straight up, as this creates arm triangle and kimura vulnerabilities.",
+        "answer_line": "Frame against hip or shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar tightly",
+            "Hook underneath their near arm"
+          ],
+          "trap": [
+            "Push straight up on their chest"
+          ]
+        }
       },
       {
         "question": "Your bridge creates six inches of space but the opponent immediately drives forward to resettle - what went wrong?",
-        "answer": "The most likely error is failing to rotate the hips immediately after the bridge peaked. Creating space without changing the angle allows the opponent to simply drive forward into the same chest-to-chest position. The hip rotation must begin before the bridge starts descending, changing the geometry so the opponent cannot simply reapply the same pressure vector. Additionally, the frame arm may not have been properly positioned to block the forward drive."
+        "answer": "The most likely error is failing to rotate the hips immediately after the bridge peaked. Creating space without changing the angle allows the opponent to simply drive forward into the same chest-to-chest position. The hip rotation must begin before the bridge starts descending, changing the geometry so the opponent cannot simply reapply the same pressure vector. Additionally, the frame arm may not have been properly positioned to block the forward drive.",
+        "answer_line": "Hips didn't rotate in time",
+        "distractors": {
+          "plausible": [
+            "Bridge wasn't explosive enough",
+            "Space created was too small"
+          ],
+          "trap": [
+            "Waited for bigger space first"
+          ]
+        }
       },
       {
         "question": "How do you adjust the escape when the opponent steps over toward mount during your bridge?",
-        "answer": "The moment you feel the opponent's knee lifting to step over, abandon the guard recovery and immediately shoot your near knee across their path to block the mount transition. If the step-over is already too advanced to block, switch immediately to mount escape protocols rather than trying to recover to the scarf hold position. Prevention is key - a properly directional bridge toward their head makes stepping over more difficult because it disrupts the balance needed for the transition."
+        "answer": "The moment you feel the opponent's knee lifting to step over, abandon the guard recovery and immediately shoot your near knee across their path to block the mount transition. If the step-over is already too advanced to block, switch immediately to mount escape protocols rather than trying to recover to the scarf hold position. Prevention is key - a properly directional bridge toward their head makes stepping over more difficult because it disrupts the balance needed for the transition.",
+        "answer_line": "Shoot knee across to block",
+        "distractors": {
+          "plausible": [
+            "Keep pushing for full guard",
+            "Grab their far leg instantly"
+          ],
+          "trap": [
+            "Relax and let them settle"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between a bridge escape from Modified Scarf Hold versus a bridge escape from standard mount?",
-        "answer": "From mount, the upa seeks a complete reversal by trapping the arm and leg on one side and rolling the opponent over. From Modified Scarf Hold, the bridge primarily creates space for half guard recovery rather than a full reversal. The scarf hold configuration makes complete reversal difficult because the opponent's body alignment is alongside you rather than directly on top. The bridge direction, hip rotation mechanics, and follow-up actions are all fundamentally different."
+        "answer": "From mount, the upa seeks a complete reversal by trapping the arm and leg on one side and rolling the opponent over. From Modified Scarf Hold, the bridge primarily creates space for half guard recovery rather than a full reversal. The scarf hold configuration makes complete reversal difficult because the opponent's body alignment is alongside you rather than directly on top. The bridge direction, hip rotation mechanics, and follow-up actions are all fundamentally different.",
+        "answer_line": "Creates space, not full reversal",
+        "distractors": {
+          "plausible": [
+            "Same upa mechanics apply",
+            "Scarf bridge is always faster"
+          ],
+          "trap": [
+            "Try to roll them over fully"
+          ]
+        }
       },
       {
         "question": "Your first bridge attempt fails and the opponent tightens their control - what sequence do you follow next?",
-        "answer": "Never repeat the same failed bridge pattern. After a failed bridge, immediately transition to an alternative escape: use the frame arm to hip escape laterally while the opponent is recovering their base, attempt a turtle transition by turning belly-down during any remaining space, or create a frame sequence to build incremental space for a shrimp escape. The bridge may have created micro-advantages in positioning even though it did not succeed fully, so capitalize on any angular change it produced rather than resetting to square one."
+        "answer": "Never repeat the same failed bridge pattern. After a failed bridge, immediately transition to an alternative escape: use the frame arm to hip escape laterally while the opponent is recovering their base, attempt a turtle transition by turning belly-down during any remaining space, or create a frame sequence to build incremental space for a shrimp escape. The bridge may have created micro-advantages in positioning even though it did not succeed fully, so capitalize on any angular change it produced rather than resetting to square one.",
+        "answer_line": "Switch to a new escape option",
+        "distractors": {
+          "plausible": [
+            "Bridge again, harder this time",
+            "Wait and reset to square one"
+          ],
+          "trap": [
+            "Repeat the same bridge pattern"
+          ]
+        }
       },
       {
         "question": "How do you prevent telegraphing the bridge escape to an experienced opponent?",
-        "answer": "Experienced opponents watch for heel positioning, core tensing, and breathing changes that signal an incoming bridge. Counter this by making foot adjustments gradually throughout the position rather than in a sudden burst. Maintain steady breathing rhythm until the moment of execution. Use small preliminary movements like minor hip shifts to disguise the setup. Consider using a frame adjustment or grip fight as a distraction that masks the foot positioning needed for the bridge."
+        "answer": "Experienced opponents watch for heel positioning, core tensing, and breathing changes that signal an incoming bridge. Counter this by making foot adjustments gradually throughout the position rather than in a sudden burst. Maintain steady breathing rhythm until the moment of execution. Use small preliminary movements like minor hip shifts to disguise the setup. Consider using a frame adjustment or grip fight as a distraction that masks the foot positioning needed for the bridge.",
+        "answer_line": "Adjust feet gradually, not suddenly",
+        "distractors": {
+          "plausible": [
+            "Hold breath until you explode",
+            "Set up feet in one quick burst"
+          ],
+          "trap": [
+            "Tense your core early to prep"
+          ]
+        }
       }
     ],
     "safety_considerations": "Bridge escapes involve explosive spinal extension that can strain the lower back if performed with poor mechanics or insufficient warm-up. Practitioners with cervical spine issues should exercise particular caution since the head bears partial weight during the bridge. Always warm up thoroughly with progressive bridging drills before training explosive escapes. Communicate with training partners about intensity levels to prevent neck strain or accidental collisions during the explosive movement phase. Avoid repeatedly drilling bridges at maximum intensity in a single session to prevent cumulative lower back fatigue.",
@@ -393,19 +473,59 @@
     "flashcards": [
       {
         "question": "What is the earliest indicator that your opponent is preparing a bridge escape from Modified Scarf Hold?",
-        "answer": "The earliest indicator is foot repositioning - the bottom player drawing their heels close to their buttocks and planting feet flat on the mat. This is the mechanical prerequisite for any effective bridge and typically occurs before core tensing or breathing changes. Monitoring foot position through peripheral awareness or feeling the mat vibration through your own base allows preemptive counter-adjustment."
+        "answer": "The earliest indicator is foot repositioning - the bottom player drawing their heels close to their buttocks and planting feet flat on the mat. This is the mechanical prerequisite for any effective bridge and typically occurs before core tensing or breathing changes. Monitoring foot position through peripheral awareness or feeling the mat vibration through your own base allows preemptive counter-adjustment.",
+        "answer_line": "Heels drawing close, feet flat",
+        "distractors": {
+          "plausible": [
+            "Sudden change in breathing",
+            "Core tensing up noticeably"
+          ],
+          "trap": [
+            "Wait for the bridge to launch"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base when you feel your opponent beginning to bridge explosively?",
-        "answer": "Immediately sprawl your hips backward and downward while driving your chest forward at a descending angle into the opponent's sternum. Stay on your toes rather than settling flat, as dynamic pressure is far more effective at absorbing directional bridges than static weight. The sprawl counters the upward force while the forward chest drive counters the directional component of the bridge."
+        "answer": "Immediately sprawl your hips backward and downward while driving your chest forward at a descending angle into the opponent's sternum. Stay on your toes rather than settling flat, as dynamic pressure is far more effective at absorbing directional bridges than static weight. The sprawl counters the upward force while the forward chest drive counters the directional component of the bridge.",
+        "answer_line": "Sprawl hips, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Settle flat and add more weight",
+            "Post hands and wait it out"
+          ],
+          "trap": [
+            "Stand up and step back fully"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges powerfully toward your head side and creates significant space - how do you convert this into a mount transition?",
-        "answer": "Ride the bridge momentum rather than fighting it. As the opponent's hips rise and your chest lifts, immediately step your far knee over to the opposite side of their body, using the space they created for your mount transition. Drive your hips down into their midsection as you complete the step-over and establish low mount with grapevines before they can react to the position change."
+        "answer": "Ride the bridge momentum rather than fighting it. As the opponent's hips rise and your chest lifts, immediately step your far knee over to the opposite side of their body, using the space they created for your mount transition. Drive your hips down into their midsection as you complete the step-over and establish low mount with grapevines before they can react to the position change.",
+        "answer_line": "Step far knee over, drive hips down",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge and resettle",
+            "Grab a leg for a leglock instead"
+          ],
+          "trap": [
+            "Sit back and pull guard"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between defending a directional bridge versus a straight-up bridge?",
-        "answer": "A straight-up bridge can be absorbed by simply maintaining settled weight and spreading base. A directional bridge requires active counter-movement because the lateral force component displaces your weight to one side. Against a directional bridge, you must sprawl in the opposite direction of the bridge force while simultaneously driving chest pressure. Failing to counter the directional component is the primary reason bridges succeed against experienced top players."
+        "answer": "A straight-up bridge can be absorbed by simply maintaining settled weight and spreading base. A directional bridge requires active counter-movement because the lateral force component displaces your weight to one side. Against a directional bridge, you must sprawl in the opposite direction of the bridge force while simultaneously driving chest pressure. Failing to counter the directional component is the primary reason bridges succeed against experienced top players.",
+        "answer_line": "Must sprawl opposite the force",
+        "distractors": {
+          "plausible": [
+            "Just add more downward weight",
+            "Post an arm and wait it out"
+          ],
+          "trap": [
+            "Match their bridge direction"
+          ]
+        }
       }
     ],
     "training_progressions": [

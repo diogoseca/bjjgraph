@@ -247,51 +247,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Hip Escape to Guard?",
-        "answer": "The primary goal is to escape the Gift Wrap position and recover to open guard where you have restored full defensive capability. This involves creating space through sequential hip escapes, extracting the trapped arm, and establishing guard frames with feet on hips before opponent can re-engage."
+        "answer": "The primary goal is to escape the Gift Wrap position and recover to open guard where you have restored full defensive capability. This involves creating space through sequential hip escapes, extracting the trapped arm, and establishing guard frames with feet on hips before opponent can re-engage.",
+        "answer_line": "Recover to open guard",
+        "distractors": {
+          "plausible": [
+            "Free the trapped arm only",
+            "Bridge to reversal"
+          ],
+          "trap": [
+            "Turtle up for safety"
+          ]
+        }
       },
       {
         "question": "What position do you start Hip Escape to Guard from?",
-        "answer": "This technique starts from Gift Wrap Bottom, where your opponent has back control with one of your arms trapped diagonally across your body. The trapped arm significantly limits your defensive options, making systematic escape essential before submission attacks succeed."
+        "answer": "This technique starts from Gift Wrap Bottom, where your opponent has back control with one of your arms trapped diagonally across your body. The trapped arm significantly limits your defensive options, making systematic escape essential before submission attacks succeed.",
+        "answer_line": "Gift Wrap Bottom",
+        "distractors": {
+          "plausible": [
+            "Back mount, arm free",
+            "Turtle position"
+          ],
+          "trap": [
+            "Full mount bottom"
+          ]
+        }
       },
       {
         "question": "Why must you maintain neck defense throughout the entire escape sequence?",
-        "answer": "The rear naked choke becomes the highest percentage attack from Gift Wrap because your trapped arm cannot assist with neck defense. Removing your free hand from neck protection even momentarily creates an immediate finishing opportunity. Survival takes absolute priority over positional escape at every stage."
+        "answer": "The rear naked choke becomes the highest percentage attack from Gift Wrap because your trapped arm cannot assist with neck defense. Removing your free hand from neck protection even momentarily creates an immediate finishing opportunity. Survival takes absolute priority over positional escape at every stage.",
+        "answer_line": "RNC is highest-percentage attack",
+        "distractors": {
+          "plausible": [
+            "Armbar is main threat",
+            "Guillotine is the risk"
+          ],
+          "trap": [
+            "Drop hand to escape faster"
+          ]
+        }
       },
       {
         "question": "What creates the space for arm extraction - arm strength or hip movement?",
-        "answer": "Hip movement creates the space for arm extraction. Attempting to muscle the arm free wastes energy and often tightens the trap through feedback. By shrimping your hips away and rotating your trapped shoulder forward, you create an angular path that allows the arm to withdraw along the path of least resistance."
+        "answer": "Hip movement creates the space for arm extraction. Attempting to muscle the arm free wastes energy and often tightens the trap through feedback. By shrimping your hips away and rotating your trapped shoulder forward, you create an angular path that allows the arm to withdraw along the path of least resistance.",
+        "answer_line": "Hip movement, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Pull the arm free with strength",
+            "Push off the mat with legs"
+          ],
+          "trap": [
+            "Yank the arm out fast"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your first hip escape and maintains chest connection - what adjustment do you make?",
-        "answer": "Continue with sequential hip escapes in the same direction rather than switching or stopping. Each escape creates incremental space, and the cumulative distance eventually becomes impossible to follow while maintaining Gift Wrap control. Three to four consecutive hip escapes typically create enough space for frame insertion and arm extraction."
+        "answer": "Continue with sequential hip escapes in the same direction rather than switching or stopping. Each escape creates incremental space, and the cumulative distance eventually becomes impossible to follow while maintaining Gift Wrap control. Three to four consecutive hip escapes typically create enough space for frame insertion and arm extraction.",
+        "answer_line": "Keep shrimping same direction",
+        "distractors": {
+          "plausible": [
+            "Switch escape direction",
+            "Stop and reset frames"
+          ],
+          "trap": [
+            "Reverse direction to confuse"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the hip escape?",
-        "answer": "The optimal timing is when your opponent shifts weight to initiate a submission attack or adjusts their position. These moments require them to loosen their positional control slightly, creating the gap your escape exploits. Attempting escape when they are settled in maximum control position is far less effective and wastes energy."
+        "answer": "The optimal timing is when your opponent shifts weight to initiate a submission attack or adjusts their position. These moments require them to loosen their positional control slightly, creating the gap your escape exploits. Attempting escape when they are settled in maximum control position is far less effective and wastes energy.",
+        "answer_line": "When opponent shifts to attack",
+        "distractors": {
+          "plausible": [
+            "When they're fully settled",
+            "Right after taking back"
+          ],
+          "trap": [
+            "Wait for them to submit first"
+          ]
+        }
       },
       {
         "question": "What frame must you insert immediately after the hip escape before attempting arm extraction?",
-        "answer": "Insert your bottom knee between yourself and opponent's torso with your shin across their hip line. This frame prevents them from immediately closing the space you created. Without this frame, they follow your movement and re-establish tight control, wasting your escape attempt entirely."
+        "answer": "Insert your bottom knee between yourself and opponent's torso with your shin across their hip line. This frame prevents them from immediately closing the space you created. Without this frame, they follow your movement and re-establish tight control, wasting your escape attempt entirely.",
+        "answer_line": "Knee frame across hip line",
+        "distractors": {
+          "plausible": [
+            "Underhook their far arm",
+            "Post hand on their knee"
+          ],
+          "trap": [
+            "Grab their choking arm only"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to mounted Gift Wrap during your escape attempt - how do you respond?",
-        "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. The mount is worse positionally, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes."
+        "answer": "Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. The mount is worse positionally, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.",
+        "answer_line": "Accept mount, extract arm",
+        "distractors": {
+          "plausible": [
+            "Fight the mount transition",
+            "Bridge to stop the mount"
+          ],
+          "trap": [
+            "Give up the trapped arm fight"
+          ]
+        }
       },
       {
         "question": "Why should you keep your trapped arm relaxed rather than fighting against the control?",
-        "answer": "Fighting the arm trap with strength exhausts your energy rapidly while providing your opponent feedback that helps them tighten their control. A relaxed arm creates less tension in the system, making it easier to withdraw when space is created through hip movement. Energy conservation is critical in this survival position."
+        "answer": "Fighting the arm trap with strength exhausts your energy rapidly while providing your opponent feedback that helps them tighten their control. A relaxed arm creates less tension in the system, making it easier to withdraw when space is created through hip movement. Energy conservation is critical in this survival position.",
+        "answer_line": "Conserves energy, less feedback",
+        "distractors": {
+          "plausible": [
+            "Builds strength for later",
+            "Signals surrender to escape"
+          ],
+          "trap": [
+            "Fight hard to break the trap"
+          ]
+        }
       },
       {
         "question": "What indicates the escape is complete and you can stop the sequence?",
-        "answer": "The escape is complete only when you have established open guard with both feet on opponent's hips and hands controlling their upper body through sleeve, wrist, or collar grips. Simply extracting the arm is not sufficient. You must establish distance and defensive frames before opponent can re-engage with passing pressure."
+        "answer": "The escape is complete only when you have established open guard with both feet on opponent's hips and hands controlling their upper body through sleeve, wrist, or collar grips. Simply extracting the arm is not sufficient. You must establish distance and defensive frames before opponent can re-engage with passing pressure.",
+        "answer_line": "Open guard, feet on hips",
+        "distractors": {
+          "plausible": [
+            "Arm extracted is enough",
+            "Standing back up fully"
+          ],
+          "trap": [
+            "Turning to turtle position"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attacking the rear naked choke mid-escape - what is the correct priority?",
-        "answer": "Immediately abandon the escape attempt and redirect all defensive resources to choke defense. Use your free hand to grip fight the choking arm while tucking your chin hard toward your chest. Positional escape is meaningless if you get choked unconscious. Only resume the hip escape sequence after the choke threat is fully neutralized."
+        "answer": "Immediately abandon the escape attempt and redirect all defensive resources to choke defense. Use your free hand to grip fight the choking arm while tucking your chin hard toward your chest. Positional escape is meaningless if you get choked unconscious. Only resume the hip escape sequence after the choke threat is fully neutralized.",
+        "answer_line": "Stop, defend the choke first",
+        "distractors": {
+          "plausible": [
+            "Finish the escape quickly",
+            "Extract arm before defending"
+          ],
+          "trap": [
+            "Ignore choke, keep escaping"
+          ]
+        }
       },
       {
         "question": "How does the direction of your hip escape relate to the direction of shoulder rotation for arm extraction?",
-        "answer": "Your hips shrimp away from the opponent while your trapped shoulder rotates forward toward the space you created. This opposing angular movement creates a widening gap between the arm trap and your torso. The combination of hip withdrawal and shoulder rotation follows the arm's natural extraction path rather than fighting directly against the control line."
+        "answer": "Your hips shrimp away from the opponent while your trapped shoulder rotates forward toward the space you created. This opposing angular movement creates a widening gap between the arm trap and your torso. The combination of hip withdrawal and shoulder rotation follows the arm's natural extraction path rather than fighting directly against the control line.",
+        "answer_line": "Hips away, shoulder forward",
+        "distractors": {
+          "plausible": [
+            "Hips and shoulder same way",
+            "Shoulder back, hips forward"
+          ],
+          "trap": [
+            "Twist neck toward the trap"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Hip Escape to Guard is a relatively low-risk defensive technique, but certain precautions apply. The primary danger comes from abandoning neck defense prematurely, which can result in being choked unconscious. Always maintain free hand on neck until guard is fully established. During drilling, partners should apply controlled pressure rather than cranking submissions when the defender makes defensive errors. Avoid explosive bridging movements that could cause neck strain if improperly executed. When training at higher resistance levels, establish clear tap protocols since the Gift Wrap position can transition to chokes quickly. Practitioners with shoulder injuries should be cautious as the trapped arm position places stress on the shoulder joint, particularly if resistance is applied incorrectly.",
@@ -406,23 +526,73 @@
     "flashcards": [
       {
         "question": "What is the most critical physical connection to maintain when your opponent begins hip escaping from Gift Wrap?",
-        "answer": "Chest-to-back connection is the most critical connection. When your chest stays glued to their back, their hip escapes generate minimal usable distance because your body follows their movement. Drive your hips forward to close any gap immediately, treating any separation as an emergency."
+        "answer": "Chest-to-back connection is the most critical connection. When your chest stays glued to their back, their hip escapes generate minimal usable distance because your body follows their movement. Drive your hips forward to close any gap immediately, treating any separation as an emergency.",
+        "answer_line": "Maintain chest-to-back connection",
+        "distractors": {
+          "plausible": [
+            "Control their far wrist",
+            "Hook both their legs"
+          ],
+          "trap": [
+            "Release grips to re-angle"
+          ]
+        }
       },
       {
         "question": "Your opponent removes their free hand from neck defense to create a frame on your hip - what is your immediate response?",
-        "answer": "Immediately attack the rear naked choke since their neck is now undefended. Their frame on your hip is less dangerous than the finishing opportunity their exposed neck presents. This forces them to abandon the escape and return to choke defense, resetting their escape progress entirely."
+        "answer": "Immediately attack the rear naked choke since their neck is now undefended. Their frame on your hip is less dangerous than the finishing opportunity their exposed neck presents. This forces them to abandon the escape and return to choke defense, resetting their escape progress entirely.",
+        "answer_line": "Attack the choke immediately",
+        "distractors": {
+          "plausible": [
+            "Defend the new hip frame",
+            "Wait for a better opening"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "When should you transition from back control to mount during your opponent's hip escape sequence?",
-        "answer": "Transition to mount when your opponent has created enough lateral distance that maintaining back control requires significant effort and risks losing position entirely. The mount transition should happen proactively while you still have the arm trap secured, not reactively after control has already degraded. Mounted Gift Wrap preserves your advantage."
+        "answer": "Transition to mount when your opponent has created enough lateral distance that maintaining back control requires significant effort and risks losing position entirely. The mount transition should happen proactively while you still have the arm trap secured, not reactively after control has already degraded. Mounted Gift Wrap preserves your advantage.",
+        "answer_line": "Proactively, before control fades",
+        "distractors": {
+          "plausible": [
+            "Reactively after losing back",
+            "Only if they ask for it"
+          ],
+          "trap": [
+            "Never transition, stay on back"
+          ]
+        }
       },
       {
         "question": "How does keeping the trapped arm high across the chest prevent the arm extraction that follows hip escapes?",
-        "answer": "High arm positioning across the chest toward the opposite shoulder minimizes the gap between the arm trap and opponent's torso. When the arm is high, shoulder rotation alone cannot create enough space for extraction. If the arm drifts low toward the waist, the larger gap near the hip allows easier extraction through the natural rotation created by shrimping."
+        "answer": "High arm positioning across the chest toward the opposite shoulder minimizes the gap between the arm trap and opponent's torso. When the arm is high, shoulder rotation alone cannot create enough space for extraction. If the arm drifts low toward the waist, the larger gap near the hip allows easier extraction through the natural rotation created by shrimping.",
+        "answer_line": "High arm minimizes escape gap",
+        "distractors": {
+          "plausible": [
+            "Low arm is easier to keep",
+            "Arm height doesn't matter"
+          ],
+          "trap": [
+            "Pull arm high to your chest"
+          ]
+        }
       },
       {
         "question": "Your opponent chains three consecutive hip escapes and inserts a knee frame - what is your counter-strategy?",
-        "answer": "At this stage, closing the distance back to tight Gift Wrap is difficult. Your best option is to transition to mounted Gift Wrap by stepping over their bottom hip while maintaining the arm trap. Alternatively, attack the rear naked choke aggressively because the knee frame insertion often corresponds with weakened neck defense as they redirect their free hand to manage frames."
+        "answer": "At this stage, closing the distance back to tight Gift Wrap is difficult. Your best option is to transition to mounted Gift Wrap by stepping over their bottom hip while maintaining the arm trap. Alternatively, attack the rear naked choke aggressively because the knee frame insertion often corresponds with weakened neck defense as they redirect their free hand to manage frames.",
+        "answer_line": "Transition to mounted Gift Wrap",
+        "distractors": {
+          "plausible": [
+            "Force back to tight position",
+            "Release grips to reset"
+          ],
+          "trap": [
+            "Let them stand up completely"
+          ]
+        }
       }
     ],
     "training_progressions": [

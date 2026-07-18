@@ -270,35 +270,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the level change against a standing opponent?",
-        "answer": "The optimal timing window occurs when the opponent is mid-step during lateral movement, when they are adjusting or breaking a grip, or immediately after a push-pull sequence disrupts their weight distribution. These moments create brief windows of roughly half a second where their base is compromised and defensive reaction time is delayed, making the level change far more effective than shooting against a settled, balanced opponent."
+        "answer": "The optimal timing window occurs when the opponent is mid-step during lateral movement, when they are adjusting or breaking a grip, or immediately after a push-pull sequence disrupts their weight distribution. These moments create brief windows of roughly half a second where their base is compromised and defensive reaction time is delayed, making the level change far more effective than shooting against a settled, balanced opponent.",
+        "answer_line": "Mid-step or grip break",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent squares up",
+            "Right after they set a grip"
+          ],
+          "trap": [
+            "Shoot on a settled, balanced stance"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best setup for a double leg entry from a disadvantaged standing position?",
-        "answer": "A collar tie with the lead hand combined with wrist control on the opposite side provides the ideal setup configuration. The collar tie allows you to snap the opponent's head down or pull them forward to shift their weight to their toes, while the wrist control prevents them from posting on your head during the shot. Releasing both grips simultaneously during the level change ensures your hands are free to secure the legs on entry."
+        "answer": "A collar tie with the lead hand combined with wrist control on the opposite side provides the ideal setup configuration. The collar tie allows you to snap the opponent's head down or pull them forward to shift their weight to their toes, while the wrist control prevents them from posting on your head during the shot. Releasing both grips simultaneously during the level change ensures your hands are free to secure the legs on entry.",
+        "answer_line": "Collar tie + wrist control",
+        "distractors": {
+          "plausible": [
+            "Double overhooks, both sides",
+            "Underhook and collar tie"
+          ],
+          "trap": [
+            "Both hands on the collar tie"
+          ]
+        }
       },
       {
         "question": "How should you position your head during the penetration step to prevent guillotine counters?",
-        "answer": "Your head must be positioned on the inside of the opponent's hip line with your ear pressed tightly against their ribcage or hip. Never allow your head to drop below the opponent's arm line or hang in the center between their legs. The forehead drives into their hip crease while your chin stays tucked to protect the neck. This inside head position makes guillotine attempts mechanically impossible because your head is past their centerline and their arm cannot close the angle."
+        "answer": "Your head must be positioned on the inside of the opponent's hip line with your ear pressed tightly against their ribcage or hip. Never allow your head to drop below the opponent's arm line or hang in the center between their legs. The forehead drives into their hip crease while your chin stays tucked to protect the neck. This inside head position makes guillotine attempts mechanically impossible because your head is past their centerline and their arm cannot close the angle.",
+        "answer_line": "Ear inside hip, past centerline",
+        "distractors": {
+          "plausible": [
+            "Ear on the outside of the hip",
+            "Chin up, head held high"
+          ],
+          "trap": [
+            "Head centered between the legs"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully sprawls on your initial shot - what immediate chain attack prevents returning to neutral?",
-        "answer": "Immediately transition to a single leg by securing the near-side leg with both arms while shifting your head to the outside position. Drive your body perpendicular to the opponent's sprawled position, using their extended hips as leverage. If the single leg is also defended, circle toward their back while maintaining leg contact to expose the ankle for a pick or transition to a body lock by climbing your grip up to their waist below the whizzer."
+        "answer": "Immediately transition to a single leg by securing the near-side leg with both arms while shifting your head to the outside position. Drive your body perpendicular to the opponent's sprawled position, using their extended hips as leverage. If the single leg is also defended, circle toward their back while maintaining leg contact to expose the ankle for a pick or transition to a body lock by climbing your grip up to their waist below the whizzer.",
+        "answer_line": "Chain to single leg, head outside",
+        "distractors": {
+          "plausible": [
+            "Retry the same double leg shot",
+            "Duck under for the back instead"
+          ],
+          "trap": [
+            "Release the leg, back up to reset"
+          ]
+        }
       },
       {
         "question": "What physical cue tells you the opponent is most vulnerable to a takedown attempt?",
-        "answer": "Watch for the opponent's weight shifting to their heels, indicated by their torso leaning backward or their toes lifting slightly. This heel-heavy distribution means they cannot sprawl effectively because sprawling requires driving hips backward, which is impossible when weight is already committed rearward. Other vulnerability cues include feet planted parallel and square rather than staggered, crossed feet during lateral movement, and arms extended forward reaching for grips with elevated elbows."
+        "answer": "Watch for the opponent's weight shifting to their heels, indicated by their torso leaning backward or their toes lifting slightly. This heel-heavy distribution means they cannot sprawl effectively because sprawling requires driving hips backward, which is impossible when weight is already committed rearward. Other vulnerability cues include feet planted parallel and square rather than staggered, crossed feet during lateral movement, and arms extended forward reaching for grips with elevated elbows.",
+        "answer_line": "Weight shifted onto the heels",
+        "distractors": {
+          "plausible": [
+            "Weight balanced on the toes",
+            "Elbows tucked in tight"
+          ],
+          "trap": [
+            "Wait for a heavy sprawl reaction"
+          ]
+        }
       },
       {
         "question": "What direction should force be applied during the finishing drive of a double leg takedown?",
-        "answer": "Force should be applied diagonally and laterally rather than straight forward. After making contact with the opponent's legs, turn the corner by driving your chest through their near hip while angling approximately 45 degrees to one side. This lateral pressure displaces their base to the side where they have no supporting foot, making it mechanically impossible to maintain balance regardless of their upper body defense. Straight-ahead driving allows them to post, brace, and build a defensive frame."
+        "answer": "Force should be applied diagonally and laterally rather than straight forward. After making contact with the opponent's legs, turn the corner by driving your chest through their near hip while angling approximately 45 degrees to one side. This lateral pressure displaces their base to the side where they have no supporting foot, making it mechanically impossible to maintain balance regardless of their upper body defense. Straight-ahead driving allows them to post, brace, and build a defensive frame.",
+        "answer_line": "Drive diagonal, turn the corner",
+        "distractors": {
+          "plausible": [
+            "Drive straight through their hips",
+            "Pull the legs straight up and back"
+          ],
+          "trap": [
+            "Push straight forward, head up"
+          ]
+        }
       },
       {
         "question": "Your opponent catches a whizzer during your single leg attempt - how do you complete the takedown?",
-        "answer": "When the opponent secures a whizzer, immediately lower your level further and drive your head across to the opposite hip, switching from outside to inside head position. Simultaneously, elevate their trapped leg higher to reduce the power of the whizzer by loading their weight onto the posting leg. Execute a trip or sweep of the posting leg with your inside foot while maintaining the single leg grip. The combination of elevation and the posting leg trip nullifies the whizzer's defensive value entirely."
+        "answer": "When the opponent secures a whizzer, immediately lower your level further and drive your head across to the opposite hip, switching from outside to inside head position. Simultaneously, elevate their trapped leg higher to reduce the power of the whizzer by loading their weight onto the posting leg. Execute a trip or sweep of the posting leg with your inside foot while maintaining the single leg grip. The combination of elevation and the posting leg trip nullifies the whizzer's defensive value entirely.",
+        "answer_line": "Elevate leg, trip the posting foot",
+        "distractors": {
+          "plausible": [
+            "Fight to break the whizzer grip",
+            "Switch to a double leg shot"
+          ],
+          "trap": [
+            "Stand up, drive into their shoulder"
+          ]
+        }
       },
       {
         "question": "How do you adjust your takedown entry when the opponent maintains a staggered stance with one leg positioned far back?",
-        "answer": "Target the lead leg with a low single leg attack rather than attempting a double leg, which requires reaching the far leg across a wide stance. Snap down on their head to shift weight to the front foot, then change levels and attack the exposed lead leg by dropping to your near knee and cupping behind their ankle. Alternatively, use an inside trip on the lead leg by hooking your foot behind their ankle while driving chest pressure forward through their shoulder to topple them over the hooked point."
+        "answer": "Target the lead leg with a low single leg attack rather than attempting a double leg, which requires reaching the far leg across a wide stance. Snap down on their head to shift weight to the front foot, then change levels and attack the exposed lead leg by dropping to your near knee and cupping behind their ankle. Alternatively, use an inside trip on the lead leg by hooking your foot behind their ankle while driving chest pressure forward through their shoulder to topple them over the hooked point.",
+        "answer_line": "Attack the lead leg, low single",
+        "distractors": {
+          "plausible": [
+            "Reach across for the trail leg",
+            "Go for a standard double leg"
+          ],
+          "trap": [
+            "Shoot the back leg across stance"
+          ]
+        }
       }
     ],
     "safety_considerations": "Takedown drilling requires controlled environments with properly padded mats and attentive training partners. The level change and penetration step place significant stress on the knees, particularly the lead knee that contacts the mat during the shot. Always warm up thoroughly with dynamic hip, knee, and ankle mobility exercises before takedown practice. Never drive an opponent directly onto their head or neck during the finish - lateral pressure finishes are both more effective and safer. In training, release immediately if your partner signals discomfort or lands awkwardly, and communicate speed and intensity expectations before live rounds begin.",
@@ -416,23 +496,73 @@
     "flashcards": [
       {
         "question": "What body position change in your opponent most reliably signals an incoming takedown attempt?",
-        "answer": "The most reliable signal is a sudden bend in the knees combined with a forward torso lean where the opponent's head drops below their normal posture line. This level change is biomechanically necessary before any penetration step and provides a brief warning window. Secondary signals include grip releases, sudden weight shifts to the balls of the feet, and the opponent's eyes tracking your hips or legs rather than maintaining their normal chest-level focus during the grip exchange."
+        "answer": "The most reliable signal is a sudden bend in the knees combined with a forward torso lean where the opponent's head drops below their normal posture line. This level change is biomechanically necessary before any penetration step and provides a brief warning window. Secondary signals include grip releases, sudden weight shifts to the balls of the feet, and the opponent's eyes tracking your hips or legs rather than maintaining their normal chest-level focus during the grip exchange.",
+        "answer_line": "Knees bend, head drops low",
+        "distractors": {
+          "plausible": [
+            "Sudden backward torso lean",
+            "Hands drop down to the hips"
+          ],
+          "trap": [
+            "Opponent stands taller, relaxed"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between an effective sprawl and simply dropping your weight?",
-        "answer": "An effective sprawl involves driving the hips backward and downward while keeping the chest heavy and forward on the attacker's upper back. Simply dropping weight straight down lands your hips on top of the attacker's head or shoulders, which does not stop their forward drive and may actually assist their penetration by loading them but not removing your legs. The backward hip drive removes your legs from the attacker's reach while the forward chest pressure pins them flat to the mat. The sprawl is a directional movement, not a collapse."
+        "answer": "An effective sprawl involves driving the hips backward and downward while keeping the chest heavy and forward on the attacker's upper back. Simply dropping weight straight down lands your hips on top of the attacker's head or shoulders, which does not stop their forward drive and may actually assist their penetration by loading them but not removing your legs. The backward hip drive removes your legs from the attacker's reach while the forward chest pressure pins them flat to the mat. The sprawl is a directional movement, not a collapse.",
+        "answer_line": "Hips back, chest heavy forward",
+        "distractors": {
+          "plausible": [
+            "Push hips forward into the shot",
+            "Weight down, chest light and high"
+          ],
+          "trap": [
+            "Drop weight straight down on them"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a single leg grip on your lead leg - what immediate action prevents completion?",
-        "answer": "Immediately whizzer the near arm by driving your overhook deep over their arm and lock your hand to your hip. Simultaneously drive your crossface forearm across their jaw to turn their head away from the trapped leg. Hop your free foot backward while pushing your trapped leg's hip forward and down to create downward pressure that makes elevation extremely difficult. If they persist, execute a limp leg by bending the trapped knee sharply and pulling your foot through their grip opening."
+        "answer": "Immediately whizzer the near arm by driving your overhook deep over their arm and lock your hand to your hip. Simultaneously drive your crossface forearm across their jaw to turn their head away from the trapped leg. Hop your free foot backward while pushing your trapped leg's hip forward and down to create downward pressure that makes elevation extremely difficult. If they persist, execute a limp leg by bending the trapped knee sharply and pulling your foot through their grip opening.",
+        "answer_line": "Whizzer, crossface, hop back",
+        "distractors": {
+          "plausible": [
+            "Pull the leg straight out",
+            "Sprawl your hips backward"
+          ],
+          "trap": [
+            "Push forward into their grip"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive stance when you recognize your opponent is a strong takedown artist?",
-        "answer": "Lower your center of gravity by increasing knee bend to approximately 25-30 degrees from your normal stance. Widen your stance slightly and stagger your feet with the weaker leg forward as a sacrificial target. Keep your hips back with weight distributed toward your heels to enable instant sprawl reaction. Maintain active collar tie or bicep control to create a frame barrier between your opponent's head and your legs. Consider proactive strategies like pulling guard early to eliminate the takedown threat entirely if your guard game is significantly stronger than your wrestling."
+        "answer": "Lower your center of gravity by increasing knee bend to approximately 25-30 degrees from your normal stance. Widen your stance slightly and stagger your feet with the weaker leg forward as a sacrificial target. Keep your hips back with weight distributed toward your heels to enable instant sprawl reaction. Maintain active collar tie or bicep control to create a frame barrier between your opponent's head and your legs. Consider proactive strategies like pulling guard early to eliminate the takedown threat entirely if your guard game is significantly stronger than your wrestling.",
+        "answer_line": "Lower stance, weight on heels",
+        "distractors": {
+          "plausible": [
+            "Square stance, weight forward",
+            "Wide stance, hands low"
+          ],
+          "trap": [
+            "Weight forward on your toes"
+          ]
+        }
       },
       {
         "question": "When is pulling guard a better defensive option than sprawling against a takedown?",
-        "answer": "Pulling guard is preferable when you have missed the initial sprawl timing and the attacker has already established deep penetration with inside control around your legs. At this point, a late sprawl is unlikely to succeed and will result in being taken down directly to side control. By sitting to guard before the attacker completes the finish, you establish closed guard control and deny them the passing position they would achieve with the completed takedown. Guard pulling is also strategic when your opponent's top game is demonstrably weaker than their takedown ability."
+        "answer": "Pulling guard is preferable when you have missed the initial sprawl timing and the attacker has already established deep penetration with inside control around your legs. At this point, a late sprawl is unlikely to succeed and will result in being taken down directly to side control. By sitting to guard before the attacker completes the finish, you establish closed guard control and deny them the passing position they would achieve with the completed takedown. Guard pulling is also strategic when your opponent's top game is demonstrably weaker than their takedown ability.",
+        "answer_line": "After missing sprawl, deep control",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent shoots at all",
+            "Before they change levels"
+          ],
+          "trap": [
+            "Never pull guard, always sprawl"
+          ]
+        }
       }
     ],
     "training_progressions": [

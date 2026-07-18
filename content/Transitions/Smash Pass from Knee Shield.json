@@ -248,35 +248,115 @@
     "flashcards": [
       {
         "question": "Your opponent frames against your shoulder with both hands as you begin the smash pass—how do you adjust?",
-        "answer": "Do not fight the frames directly by pushing through them. Instead, swim your crossface arm underneath their near frame to re-establish shoulder-to-jaw contact. Use your controlling grip on the shield leg to continue the lateral collapse while your upper body works past their frames. If both frames are strong, adjust your angle further to redirect their pushing force away from your centerline, then re-engage the collapse from the new angle."
+        "answer": "Do not fight the frames directly by pushing through them. Instead, swim your crossface arm underneath their near frame to re-establish shoulder-to-jaw contact. Use your controlling grip on the shield leg to continue the lateral collapse while your upper body works past their frames. If both frames are strong, adjust your angle further to redirect their pushing force away from your centerline, then re-engage the collapse from the new angle.",
+        "answer_line": "Swim arm under their frame",
+        "distractors": {
+          "plausible": [
+            "Push straight through frames",
+            "Release grip, then re-crossface"
+          ],
+          "trap": [
+            "Release the shield leg grip"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that enables the smash pass to clear the knee shield?",
-        "answer": "The hip switch is the critical movement—rotating your hips from facing the opponent to facing their legs as the shield collapses past their centerline. This rotation pins the collapsed shield knee to the mat with your hip weight, converting the shield from a defensive barrier into a trapped position. The hip switch must be decisive and complete; partial hip switches allow the bottom player to spring the shield back into position."
+        "answer": "The hip switch is the critical movement—rotating your hips from facing the opponent to facing their legs as the shield collapses past their centerline. This rotation pins the collapsed shield knee to the mat with your hip weight, converting the shield from a defensive barrier into a trapped position. The hip switch must be decisive and complete; partial hip switches allow the bottom player to spring the shield back into position.",
+        "answer_line": "Rotate hips to face their legs",
+        "distractors": {
+          "plausible": [
+            "Only partially rotate hips",
+            "Drop weight onto the knee"
+          ],
+          "trap": [
+            "Keep hips squared to opponent"
+          ]
+        }
       },
       {
         "question": "The bottom player gets an underhook as you attempt to collapse the shield—what is your immediate response?",
-        "answer": "Immediately whizzer their underhook arm by threading your arm over theirs and clamping your elbow tight to your body. Drive your weight forward and down to prevent them from elevating to dogfight position. If the whizzer is secure, you can continue the smash sequence while controlling the underhook. If they achieve a deep underhook that you cannot whizzer, switch to a crossface cradle or front headlock position rather than continuing the pass with a compromised position."
+        "answer": "Immediately whizzer their underhook arm by threading your arm over theirs and clamping your elbow tight to your body. Drive your weight forward and down to prevent them from elevating to dogfight position. If the whizzer is secure, you can continue the smash sequence while controlling the underhook. If they achieve a deep underhook that you cannot whizzer, switch to a crossface cradle or front headlock position rather than continuing the pass with a compromised position.",
+        "answer_line": "Whizzer the underhook arm",
+        "distractors": {
+          "plausible": [
+            "Push their arm back down",
+            "Retreat and reset your grips"
+          ],
+          "trap": [
+            "Let them elevate to dogfight"
+          ]
+        }
       },
       {
         "question": "What grip on the knee shield leg is most important for controlling the shield during the pass?",
-        "answer": "The ankle or pants grip at the lower shin of the knee shield leg provides the greatest mechanical advantage for redirecting the shield. Controlling the distal end of the lever (ankle) requires less force than controlling the proximal end (knee). In gi, a strong pants grip at the ankle allows you to steer the entire shield. In no-gi, cupping the ankle or hooking behind the Achilles provides similar control. The grip must be maintained throughout the collapse and hip switch until hip weight replaces hand control."
+        "answer": "The ankle or pants grip at the lower shin of the knee shield leg provides the greatest mechanical advantage for redirecting the shield. Controlling the distal end of the lever (ankle) requires less force than controlling the proximal end (knee). In gi, a strong pants grip at the ankle allows you to steer the entire shield. In no-gi, cupping the ankle or hooking behind the Achilles provides similar control. The grip must be maintained throughout the collapse and hip switch until hip weight replaces hand control.",
+        "answer_line": "Grip the ankle, not the knee",
+        "distractors": {
+          "plausible": [
+            "Grip mid-shin for balance",
+            "Grip the knee for control"
+          ],
+          "trap": [
+            "Release grip once it collapses"
+          ]
+        }
       },
       {
         "question": "Your opponent hip escapes as you drive the shield across—how do you follow and maintain pressure?",
-        "answer": "Follow their hip escape by walking your knees in the same direction, maintaining your chest connection to their upper body. Do not allow any gap between your shoulder and their chest. Use your crossface to drive their head further away, which limits the effectiveness of their hip escape. If they create significant space, re-angle and re-engage the collapse rather than reaching with your arms. Your forward pressure must track their movement—if they move left, you follow left while continuing the shield collapse."
+        "answer": "Follow their hip escape by walking your knees in the same direction, maintaining your chest connection to their upper body. Do not allow any gap between your shoulder and their chest. Use your crossface to drive their head further away, which limits the effectiveness of their hip escape. If they create significant space, re-angle and re-engage the collapse rather than reaching with your arms. Your forward pressure must track their movement—if they move left, you follow left while continuing the shield collapse.",
+        "answer_line": "Walk knees, stay chest-connected",
+        "distractors": {
+          "plausible": [
+            "Chase hips without chest contact",
+            "Re-angle without following hips"
+          ],
+          "trap": [
+            "Reach with arms to close the gap"
+          ]
+        }
       },
       {
         "question": "In what direction should you drive the knee shield to collapse it most effectively?",
-        "answer": "Drive the knee shield laterally across the opponent's body toward the far side, not straight down toward the mat. Angled force exploits the structural weakness of the shield—the shin is strongest when resisting perpendicular force but weak against lateral redirection. The ideal driving angle is approximately 45 degrees across and down, which both flattens the bottom player and moves the shield out of your passing path simultaneously."
+        "answer": "Drive the knee shield laterally across the opponent's body toward the far side, not straight down toward the mat. Angled force exploits the structural weakness of the shield—the shin is strongest when resisting perpendicular force but weak against lateral redirection. The ideal driving angle is approximately 45 degrees across and down, which both flattens the bottom player and moves the shield out of your passing path simultaneously.",
+        "answer_line": "Drive laterally at ~45 degrees",
+        "distractors": {
+          "plausible": [
+            "Straight down onto the shin",
+            "Push knee toward their chest"
+          ],
+          "trap": [
+            "Release ankle grip, drive down"
+          ]
+        }
       },
       {
         "question": "The defender transitions to deep half guard as you attempt the smash—what is your best response?",
-        "answer": "If they successfully dive to deep half, abandon the smash sequence and transition to deep half passing. Establish a whizzer on their underhook arm, sprawl your hips back to prevent them from getting fully underneath you, and begin working the deep half passing sequence (either backstep, hip switch, or limp leg extraction). Trying to force the smash pass after they have established deep half is counterproductive and wastes energy against a position designed to absorb pressure."
+        "answer": "If they successfully dive to deep half, abandon the smash sequence and transition to deep half passing. Establish a whizzer on their underhook arm, sprawl your hips back to prevent them from getting fully underneath you, and begin working the deep half passing sequence (either backstep, hip switch, or limp leg extraction). Trying to force the smash pass after they have established deep half is counterproductive and wastes energy against a position designed to absorb pressure.",
+        "answer_line": "Whizzer, sprawl, pass deep half",
+        "distractors": {
+          "plausible": [
+            "Post hands and stand to pass",
+            "Stack hard to smash the half"
+          ],
+          "trap": [
+            "Keep forcing the original smash"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully attempt the smash pass from knee shield?",
-        "answer": "Four conditions are essential: crossface or shoulder pressure controlling the opponent's upper body must be established first; a controlling grip on the knee shield leg at the ankle or pants must be secured; your base must be wide and stable enough to absorb sweep attempts during the pass; and the bottom player's underhook arm must be controlled or blocked. Attempting the smash without all four conditions dramatically reduces success rate and exposes you to sweeps and guard recoveries."
+        "answer": "Four conditions are essential: crossface or shoulder pressure controlling the opponent's upper body must be established first; a controlling grip on the knee shield leg at the ankle or pants must be secured; your base must be wide and stable enough to absorb sweep attempts during the pass; and the bottom player's underhook arm must be controlled or blocked. Attempting the smash without all four conditions dramatically reduces success rate and exposes you to sweeps and guard recoveries.",
+        "answer_line": "Crossface, grip, base, underhook",
+        "distractors": {
+          "plausible": [
+            "Just crossface and ankle grip",
+            "Speed beats setup conditions"
+          ],
+          "trap": [
+            "Rush in without base or grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The smash pass applies significant compressive pressure to the opponent's ribcage, spine, and jaw through shoulder driving and body weight. Apply pressure progressively rather than explosively to prevent rib injuries and intercostal strains. Be mindful of your training partner's breathing—if they signal distress or tap from pressure alone, release immediately. During the hip switch phase, be careful not to torque the opponent's trapped leg at an unnatural angle, as this can stress the knee and ankle joints. In training, communicate with your partner about pressure intensity and build gradually to full pressure over multiple repetitions.",
@@ -394,23 +474,73 @@
     "flashcards": [
       {
         "question": "You feel the opponent driving your knee shield laterally across your body—what is your first defensive action?",
-        "answer": "Immediately frame on their far shoulder with your free hand to create counter-pressure against the lateral drive, and simultaneously hip escape in the opposite direction of the shield's travel. This combination of framing and hip movement re-establishes the shield angle before it crosses your centerline. If the shield has already passed the midpoint, abandon the re-shield attempt and transition to deep half guard by diving underneath their hips."
+        "answer": "Immediately frame on their far shoulder with your free hand to create counter-pressure against the lateral drive, and simultaneously hip escape in the opposite direction of the shield's travel. This combination of framing and hip movement re-establishes the shield angle before it crosses your centerline. If the shield has already passed the midpoint, abandon the re-shield attempt and transition to deep half guard by diving underneath their hips.",
+        "answer_line": "Frame far shoulder, hip escape away",
+        "distractors": {
+          "plausible": [
+            "Push straight up to reset",
+            "Pull knee back toward you"
+          ],
+          "trap": [
+            "Fight the drive with your leg"
+          ]
+        }
       },
       {
         "question": "What are the earliest recognition cues that a smash pass is being initiated rather than a knee slice?",
-        "answer": "The smash pass is distinguished by the passer angling their body at approximately 45 degrees to your shield while driving shoulder pressure into your upper chest rather than slicing their knee through a gap. The passer's grip will target your shield leg ankle for lateral control rather than seeking to separate your knees. You will feel lateral force on your shield moving it across your body, whereas a knee slice produces a splitting force between your knees."
+        "answer": "The smash pass is distinguished by the passer angling their body at approximately 45 degrees to your shield while driving shoulder pressure into your upper chest rather than slicing their knee through a gap. The passer's grip will target your shield leg ankle for lateral control rather than seeking to separate your knees. You will feel lateral force on your shield moving it across your body, whereas a knee slice produces a splitting force between your knees.",
+        "answer_line": "Shoulder pressure, ankle grip",
+        "distractors": {
+          "plausible": [
+            "Knee splitting your legs apart",
+            "Grip fighting your collar only"
+          ],
+          "trap": [
+            "Ignore it, treat as knee slice"
+          ]
+        }
       },
       {
         "question": "The passer has collapsed your knee shield halfway—how do you recover or transition?",
-        "answer": "At the halfway point, you have a critical decision: either explosive hip escape combined with a strong frame to re-establish the shield before the hip switch, or abandon the shield and transition to deep half guard by threading your near arm under the passer's far leg and diving your head underneath their hips. The wrong choice is to passively resist the remaining collapse. Read the passer's commitment level—if they are fully loaded on the pass, deep half is safer; if they are still establishing grips, the re-shield attempt has better odds."
+        "answer": "At the halfway point, you have a critical decision: either explosive hip escape combined with a strong frame to re-establish the shield before the hip switch, or abandon the shield and transition to deep half guard by threading your near arm under the passer's far leg and diving your head underneath their hips. The wrong choice is to passively resist the remaining collapse. Read the passer's commitment level—if they are fully loaded on the pass, deep half is safer; if they are still establishing grips, the re-shield attempt has better odds.",
+        "answer_line": "Explosive hip escape or deep half",
+        "distractors": {
+          "plausible": [
+            "Passively resist the collapse",
+            "Always fight back to re-shield"
+          ],
+          "trap": [
+            "Stay still and brace with strength"
+          ]
+        }
       },
       {
         "question": "What hip position is critical for preventing the smash pass from succeeding?",
-        "answer": "Your hips must remain angled on their side facing the passer rather than flat on the mat. This angle preserves your ability to hip escape, re-angle your shield, and generate the mobility needed for guard transitions. Once your hips flatten, the passer can pin them with their body weight and complete the pass without resistance. Active hip positioning means constantly micro-adjusting your angle to match the passer's pressure direction."
+        "answer": "Your hips must remain angled on their side facing the passer rather than flat on the mat. This angle preserves your ability to hip escape, re-angle your shield, and generate the mobility needed for guard transitions. Once your hips flatten, the passer can pin them with their body weight and complete the pass without resistance. Active hip positioning means constantly micro-adjusting your angle to match the passer's pressure direction.",
+        "answer_line": "Stay angled, not flat on mat",
+        "distractors": {
+          "plausible": [
+            "Square hips to increase power",
+            "Flatten hips for stability"
+          ],
+          "trap": [
+            "Let hips go flat to rest"
+          ]
+        }
       },
       {
         "question": "The passer has established crossface and is driving into you—what underhook strategy can you use to counter?",
-        "answer": "Wait for the passer to commit forward pressure during the shield collapse phase, then swim your near arm underneath their far armpit to establish a deep underhook. The timing is critical—attempt the underhook when their weight is forward and their near arm is occupied with crossface pressure. Once the underhook is established, immediately begin elevating to dogfight by driving off your bottom foot and pulling your underhook arm upward. The forward momentum the passer used for the smash becomes a liability during the underhook sweep."
+        "answer": "Wait for the passer to commit forward pressure during the shield collapse phase, then swim your near arm underneath their far armpit to establish a deep underhook. The timing is critical—attempt the underhook when their weight is forward and their near arm is occupied with crossface pressure. Once the underhook is established, immediately begin elevating to dogfight by driving off your bottom foot and pulling your underhook arm upward. The forward momentum the passer used for the smash becomes a liability during the underhook sweep.",
+        "answer_line": "Underhook as they drive forward",
+        "distractors": {
+          "plausible": [
+            "Underhook before they commit",
+            "Underhook, then stay flat"
+          ],
+          "trap": [
+            "Push them away, avoid underhook"
+          ]
+        }
       }
     ],
     "training_progressions": [

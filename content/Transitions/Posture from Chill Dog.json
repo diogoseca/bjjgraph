@@ -244,39 +244,129 @@
     "flashcards": [
       {
         "question": "What is the most critical grip to establish before initiating the lift from Chill Dog top?",
-        "answer": "The near-side hip underhook is the most critical grip because it controls the bottom player's hip rotation, preventing Granby roll escapes and providing the primary leverage point for the lifting and rotating mechanics. Without hip control, the bottom player can simply rotate away from your lift or execute their preferred escape during the transition. The hip underhook should be established before attempting any upward force."
+        "answer": "The near-side hip underhook is the most critical grip because it controls the bottom player's hip rotation, preventing Granby roll escapes and providing the primary leverage point for the lifting and rotating mechanics. Without hip control, the bottom player can simply rotate away from your lift or execute their preferred escape during the transition. The hip underhook should be established before attempting any upward force.",
+        "answer_line": "Near-side hip underhook",
+        "distractors": {
+          "plausible": [
+            "Collar tie for control",
+            "Far-side overhook first"
+          ],
+          "trap": [
+            "Chase the neck, ignore hips"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains an airtight Chill Dog frame with both elbows locked to their knees — how do you create an opening for the underhook?",
-        "answer": "Use short, sharp hip drives through your chest pressure to create micro-gaps in the defensive shell rather than sustained pulling. Each hip drive forces the bottom player to absorb impact, and their frame will momentarily loosen during the absorption phase. Time your underhook threading to coincide with these micro-gaps. Alternatively, fake a front headlock attack by shifting toward their head, which often causes them to adjust their frame and open the near-side hip momentarily."
+        "answer": "Use short, sharp hip drives through your chest pressure to create micro-gaps in the defensive shell rather than sustained pulling. Each hip drive forces the bottom player to absorb impact, and their frame will momentarily loosen during the absorption phase. Time your underhook threading to coincide with these micro-gaps. Alternatively, fake a front headlock attack by shifting toward their head, which often causes them to adjust their frame and open the near-side hip momentarily.",
+        "answer_line": "Short hip drives, not pulling",
+        "distractors": {
+          "plausible": [
+            "Pry the elbows apart by force",
+            "Pull the near arm outward"
+          ],
+          "trap": [
+            "Abandon frame, dive for a choke"
+          ]
+        }
       },
       {
         "question": "Why is the knee post against the near hip critical to the success of this transition?",
-        "answer": "The knee post creates a structural block that prevents the bottom player from collapsing back into the Chill Dog shell once you begin the posture change. Without this block, the most common defensive response — simply re-tightening the frame and re-turtling — succeeds easily because there is nothing stopping the backward collapse. The knee post forces the transition to be one-directional, meaning once you begin opening their posture, they cannot reverse the movement."
+        "answer": "The knee post creates a structural block that prevents the bottom player from collapsing back into the Chill Dog shell once you begin the posture change. Without this block, the most common defensive response — simply re-tightening the frame and re-turtling — succeeds easily because there is nothing stopping the backward collapse. The knee post forces the transition to be one-directional, meaning once you begin opening their posture, they cannot reverse the movement.",
+        "answer_line": "Blocks the re-turtle collapse",
+        "distractors": {
+          "plausible": [
+            "Adds extra downward pressure",
+            "Frees up the far-side underhook"
+          ],
+          "trap": [
+            "Lets you release chest pressure"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player beginning to rotate underneath you during the lift — what is happening and how should you respond?",
-        "answer": "The bottom player is using your lifting momentum to initiate a barrel roll for a back take. This is the highest-risk counter to the posture transition. Immediately drop your weight by driving your hips down and re-establishing heavy chest pressure rather than fighting the rotation from a compromised position. Trying to continue the lift while they rotate underneath creates a scramble that favors the bottom player. Reset to chest pressure, re-establish your controls, and wait for a cleaner opportunity."
+        "answer": "The bottom player is using your lifting momentum to initiate a barrel roll for a back take. This is the highest-risk counter to the posture transition. Immediately drop your weight by driving your hips down and re-establishing heavy chest pressure rather than fighting the rotation from a compromised position. Trying to continue the lift while they rotate underneath creates a scramble that favors the bottom player. Reset to chest pressure, re-establish your controls, and wait for a cleaner opportunity.",
+        "answer_line": "Drop weight, reset pressure",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation, keep lifting",
+            "Speed up the lift to finish"
+          ],
+          "trap": [
+            "Release grips and re-shoot"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt the posture transition versus continuing to pursue back control from Chill Dog top?",
-        "answer": "The posture transition is the right choice when traditional turtle attacks have stalled against tight Chill Dog defense, when match time is limited and you need to create positional progress, or when your guard passing game is significantly stronger than your turtle attacking game. Continue pursuing back control when the defensive frame shows signs of breaking, when you have established hooks or near-hook positions, or when you have superior turtle attack systems. The posture transition is always a secondary option to back control."
+        "answer": "The posture transition is the right choice when traditional turtle attacks have stalled against tight Chill Dog defense, when match time is limited and you need to create positional progress, or when your guard passing game is significantly stronger than your turtle attacking game. Continue pursuing back control when the defensive frame shows signs of breaking, when you have established hooks or near-hook positions, or when you have superior turtle attack systems. The posture transition is always a secondary option to back control.",
+        "answer_line": "Turtle defense stalled, time low",
+        "distractors": {
+          "plausible": [
+            "Use it as your primary plan",
+            "Switch the moment hooks land"
+          ],
+          "trap": [
+            "Abandon working back attacks"
+          ]
+        }
       },
       {
         "question": "What is the most common reason practitioners fail at the final step of establishing posture in the resulting guard?",
-        "answer": "The most common failure is treating the guard recovery as the end of the technique rather than the beginning of a new positional battle. Practitioners relax momentarily when they feel the legs close around their waist, and the bottom player uses that fraction of a second to establish collar ties or overhook control and break posture. The posture establishment must be explosive and immediate — hips back, spine straight, hands on hips — within the first two seconds of guard recovery. This requires conditioning the response as a reflexive continuation of the lift, not a separate action."
+        "answer": "The most common failure is treating the guard recovery as the end of the technique rather than the beginning of a new positional battle. Practitioners relax momentarily when they feel the legs close around their waist, and the bottom player uses that fraction of a second to establish collar ties or overhook control and break posture. The posture establishment must be explosive and immediate — hips back, spine straight, hands on hips — within the first two seconds of guard recovery. This requires conditioning the response as a reflexive continuation of the lift, not a separate action.",
+        "answer_line": "Relaxing right after legs close",
+        "distractors": {
+          "plausible": [
+            "Not locking the guard tight enough",
+            "Reaching for collar too soon"
+          ],
+          "trap": [
+            "Staying bent over passively"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to initiate the lift from Chill Dog top?",
-        "answer": "Initiate the lift the instant the elbow-knee frame loosens on one side — typically when the bottom player adjusts position, fights a grip, or shifts weight to defend a different attack. The frame is never weaker than during these micro-adjustments. Pre-load your underhook and knee post beforehand so you can commit the moment the gap appears, because the window lasts only one to two seconds before they re-seal the frame. Initiating against a fully intact frame wastes energy and telegraphs your intent."
+        "answer": "Initiate the lift the instant the elbow-knee frame loosens on one side — typically when the bottom player adjusts position, fights a grip, or shifts weight to defend a different attack. The frame is never weaker than during these micro-adjustments. Pre-load your underhook and knee post beforehand so you can commit the moment the gap appears, because the window lasts only one to two seconds before they re-seal the frame. Initiating against a fully intact frame wastes energy and telegraphs your intent.",
+        "answer_line": "The instant the frame loosens",
+        "distractors": {
+          "plausible": [
+            "Right after they re-turtle fully",
+            "Only when totally exhausted"
+          ],
+          "trap": [
+            "Against a fully sealed frame"
+          ]
+        }
       },
       {
         "question": "Once your underhooks are set, in which direction do you drive force to break the compact ball?",
-        "answer": "Drive upward and forward simultaneously, rotating the defender onto their near hip rather than pulling straight up. The motion should feel like opening a book — the spine extends as you peel the top of their body away from their knees. A purely vertical pull fights their strongest structural line and gasses your arms; the diagonal lift-and-rotate exploits the weak axis of the compact posture and lets your chest drive do the work instead of your biceps."
+        "answer": "Drive upward and forward simultaneously, rotating the defender onto their near hip rather than pulling straight up. The motion should feel like opening a book — the spine extends as you peel the top of their body away from their knees. A purely vertical pull fights their strongest structural line and gasses your arms; the diagonal lift-and-rotate exploits the weak axis of the compact posture and lets your chest drive do the work instead of your biceps.",
+        "answer_line": "Up and forward, rotate to hip",
+        "distractors": {
+          "plausible": [
+            "Straight up, vertical pull",
+            "Backward to break their base"
+          ],
+          "trap": [
+            "Drive straight down first"
+          ]
+        }
       },
       {
         "question": "The bottom player re-turtles and seals the frame every time you reach for an underhook — what do you chain into instead?",
-        "answer": "Shift back toward their head and threaten a front headlock or back-take entry. Forcing them to defend their neck or a hook pulls their attention and hands away from squeezing the elbow-knee frame, which opens the near-side hip for your underhook. Alternate between the head-side threat and the hip underhook so each defensive reaction creates the opening for the other — the posture transition works best as the counter to their re-turtle, not as a standalone first option."
+        "answer": "Shift back toward their head and threaten a front headlock or back-take entry. Forcing them to defend their neck or a hook pulls their attention and hands away from squeezing the elbow-knee frame, which opens the near-side hip for your underhook. Alternate between the head-side threat and the hip underhook so each defensive reaction creates the opening for the other — the posture transition works best as the counter to their re-turtle, not as a standalone first option.",
+        "answer_line": "Threaten front headlock/back",
+        "distractors": {
+          "plausible": [
+            "Repeat the same underhook reach",
+            "Switch to a leg lock entry"
+          ],
+          "trap": [
+            "Give up and settle for top"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves lifting and rotating an opponent from turtle to guard, which places load on the lower back and shoulders of both practitioners. The top player should use hip and chest leverage rather than muscular pulling to avoid lower back strain. The bottom player can experience neck compression if the top player drives them forward while their head is tucked. Both practitioners should tap immediately if they feel any neck compression or spine loading in unexpected directions. In drilling, the bottom player should communicate clearly if they feel unstable during the rotation phase.",
@@ -383,23 +473,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that tells you the top player is attempting a posture transition rather than a back take?",
-        "answer": "The earliest cue is the shift in grip focus from your neck and upper back (which targets seatbelt and harness control for back takes) to your hips and armpits (which targets underhook leverage for the posture transition). This grip change is the clearest signal that their intention has shifted from back control to positional transition. You may also feel the pressure change from sustained downward compression to intermittent upward lifting force."
+        "answer": "The earliest cue is the shift in grip focus from your neck and upper back (which targets seatbelt and harness control for back takes) to your hips and armpits (which targets underhook leverage for the posture transition). This grip change is the clearest signal that their intention has shifted from back control to positional transition. You may also feel the pressure change from sustained downward compression to intermittent upward lifting force.",
+        "answer_line": "Grip shift: hips over neck",
+        "distractors": {
+          "plausible": [
+            "Faster breathing from the top",
+            "Increased downward pressure"
+          ],
+          "trap": [
+            "Hands moving to your ankles"
+          ]
+        }
       },
       {
         "question": "Your defensive frame is holding but you can feel yourself getting fatigued — what should you do?",
-        "answer": "Shift your strategy from sustaining the Chill Dog defense to preparing for an optimal guard recovery. Begin pre-positioning your grips for the moment the guard transition happens — prepare to grab collar or head control the instant your legs close around their waist. Attempting to hold Chill Dog until exhaustion results in a sloppy transition where the top player establishes clean posture. A controlled, prepared transition to closed guard with immediate posture breaking is far better than a fatigued collapse into open guard."
+        "answer": "Shift your strategy from sustaining the Chill Dog defense to preparing for an optimal guard recovery. Begin pre-positioning your grips for the moment the guard transition happens — prepare to grab collar or head control the instant your legs close around their waist. Attempting to hold Chill Dog until exhaustion results in a sloppy transition where the top player establishes clean posture. A controlled, prepared transition to closed guard with immediate posture breaking is far better than a fatigued collapse into open guard.",
+        "answer_line": "Pre-grip for guard recovery",
+        "distractors": {
+          "plausible": [
+            "Hold the frame until exhausted",
+            "Explode into a stand-up escape"
+          ],
+          "trap": [
+            "Release the frame and go limp"
+          ]
+        }
       },
       {
         "question": "The top player has established a deep underhook under your near hip and is beginning to lift — what is your best counter option?",
-        "answer": "Your best option is the barrel roll back take, but only if the top player has committed both arms to the lift. If they have only one underhook, the roll is risky because they can post with their free hand. With both arms committed, wait until you feel your weight lifting off the mat, then tuck your near shoulder and rotate your hips toward the near side. The top player's own lifting momentum helps propel the rotation. If the timing window has passed, immediately transition to catching half guard with your near leg to establish a strong defensive guard position."
+        "answer": "Your best option is the barrel roll back take, but only if the top player has committed both arms to the lift. If they have only one underhook, the roll is risky because they can post with their free hand. With both arms committed, wait until you feel your weight lifting off the mat, then tuck your near shoulder and rotate your hips toward the near side. The top player's own lifting momentum helps propel the rotation. If the timing window has passed, immediately transition to catching half guard with your near leg to establish a strong defensive guard position.",
+        "answer_line": "Barrel roll if both arms in",
+        "distractors": {
+          "plausible": [
+            "Barrel roll regardless of arms",
+            "Post on the mat and stall"
+          ],
+          "trap": [
+            "Stiff-arm and turtle harder"
+          ]
+        }
       },
       {
         "question": "Why is closed guard bottom actually a favorable recovery position after a successful posture transition by the top player?",
-        "answer": "Closed guard bottom is an offensive position where you control the opponent's hips with your legs, can break their posture with combined arm and leg pressure, and have access to numerous sweeps and submissions. Compared to Chill Dog bottom, which is purely defensive with no submission threats and limited advancement options, closed guard bottom gives you the initiative to attack. The key is that you must immediately establish offensive grips and break posture before the top player settles into a strong passing base."
+        "answer": "Closed guard bottom is an offensive position where you control the opponent's hips with your legs, can break their posture with combined arm and leg pressure, and have access to numerous sweeps and submissions. Compared to Chill Dog bottom, which is purely defensive with no submission threats and limited advancement options, closed guard bottom gives you the initiative to attack. The key is that you must immediately establish offensive grips and break posture before the top player settles into a strong passing base.",
+        "answer_line": "Offensive: sweeps and subs",
+        "distractors": {
+          "plausible": [
+            "Easier to defend than turtle",
+            "Better for stalling out time"
+          ],
+          "trap": [
+            "Let them settle before gripping"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for the barrel roll back take counter?",
-        "answer": "The timing window opens when the top player has committed both arms to the lift and their base is compromised by the upward force they are generating. You feel this as your weight beginning to leave the mat — this is the trigger. The window closes once you are rotated past your near hip and approaching your back, at which point the roll becomes a scramble rather than a controlled back take. The window is approximately one to two seconds, which is why recognition and preparation must happen before the lift begins."
+        "answer": "The timing window opens when the top player has committed both arms to the lift and their base is compromised by the upward force they are generating. You feel this as your weight beginning to leave the mat — this is the trigger. The window closes once you are rotated past your near hip and approaching your back, at which point the roll becomes a scramble rather than a controlled back take. The window is approximately one to two seconds, which is why recognition and preparation must happen before the lift begins.",
+        "answer_line": "Weight lifts, both arms committed",
+        "distractors": {
+          "plausible": [
+            "After you're fully on your back",
+            "Before the lift even begins"
+          ],
+          "trap": [
+            "Once you've rotated past your hip"
+          ]
+        }
       }
     ],
     "training_progressions": [

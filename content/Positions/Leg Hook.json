@@ -92,35 +92,115 @@
     "flashcards": [
       {
         "question": "What three points of contact form the stable tripod base in Leg Hook Top position?",
-        "answer": "The stable tripod base consists of the hooked leg, the grounded knee, and upper body pressure distributed through chest and shoulder contact. This three-point distribution creates maximum stability while resisting the bottom player's attempts to off-balance or reverse you. The weight should shift dynamically between these points based on opponent reactions."
+        "answer": "The stable tripod base consists of the hooked leg, the grounded knee, and upper body pressure distributed through chest and shoulder contact. This three-point distribution creates maximum stability while resisting the bottom player's attempts to off-balance or reverse you. The weight should shift dynamically between these points based on opponent reactions.",
+        "answer_line": "Hooked leg, knee, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Two hooks and chest pressure",
+            "Hooked leg and crossface only"
+          ],
+          "trap": [
+            "Lift chest, focus on leg control"
+          ]
+        }
       },
       {
         "question": "Your opponent starts hip escaping away from your hook - what adjustment do you make?",
-        "answer": "Immediately follow their hip movement by circling your hips in the same direction while maintaining the hook tension. Use your far hand to control their hip and prevent further escape distance. Drive your chest pressure forward and slightly toward the direction they're escaping to cut off the angle. If they create significant space, transition to leg drag mechanics to re-establish control."
+        "answer": "Immediately follow their hip movement by circling your hips in the same direction while maintaining the hook tension. Use your far hand to control their hip and prevent further escape distance. Drive your chest pressure forward and slightly toward the direction they're escaping to cut off the angle. If they create significant space, transition to leg drag mechanics to re-establish control.",
+        "answer_line": "Circle hips, control far hip",
+        "distractors": {
+          "plausible": [
+            "Increase hook tension only",
+            "Square up flat to follow them"
+          ],
+          "trap": [
+            "Release hook to reposition"
+          ]
+        }
       },
       {
         "question": "Why is controlling the far hip critical for maintaining Leg Hook Top position?",
-        "answer": "Far hip control prevents the bottom player from executing hip escapes, turning into you, or creating the angular movement needed to recover guard. Without this control, they can use their free leg to push off your hips or establish butterfly hooks. The far hip grip acts as a tether that keeps them flat and limits their defensive options to only those that don't require hip mobility."
+        "answer": "Far hip control prevents the bottom player from executing hip escapes, turning into you, or creating the angular movement needed to recover guard. Without this control, they can use their free leg to push off your hips or establish butterfly hooks. The far hip grip acts as a tether that keeps them flat and limits their defensive options to only those that don't require hip mobility.",
+        "answer_line": "Blocks hip escape and turn-in",
+        "distractors": {
+          "plausible": [
+            "Prevents leg extraction only",
+            "Controls their far shoulder"
+          ],
+          "trap": [
+            "Let hips move, control chest"
+          ]
+        }
       },
       {
         "question": "What is the primary error that allows bottom players to recover guard from Leg Hook Top?",
-        "answer": "Lifting chest and shoulder pressure off the bottom player's upper body to focus entirely on leg control is the primary error. This allows them to sit up, establish frames, or create space for guard recovery. The leg hook alone provides insufficient control - it must be combined with constant upper body pressure to create a complete control system that addresses both halves of their body."
+        "answer": "Lifting chest and shoulder pressure off the bottom player's upper body to focus entirely on leg control is the primary error. This allows them to sit up, establish frames, or create space for guard recovery. The leg hook alone provides insufficient control - it must be combined with constant upper body pressure to create a complete control system that addresses both halves of their body.",
+        "answer_line": "Lifting chest, losing pressure",
+        "distractors": {
+          "plausible": [
+            "Gripping far hip too tightly",
+            "Hooking too shallow a depth"
+          ],
+          "trap": [
+            "Passing before hip is flattened"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a butterfly hook with their free leg - how do you respond?",
-        "answer": "Immediately flatten the butterfly hook by driving your hip weight down onto their thigh while maintaining your primary leg hook. Use your free hand to push their knee to the mat or pin it against their other leg. Shift to a more smashing pressure distribution to eliminate the space they need to elevate you with the butterfly hook. If the hook is deep, consider transitioning to a smash pass variation."
+        "answer": "Immediately flatten the butterfly hook by driving your hip weight down onto their thigh while maintaining your primary leg hook. Use your free hand to push their knee to the mat or pin it against their other leg. Shift to a more smashing pressure distribution to eliminate the space they need to elevate you with the butterfly hook. If the hook is deep, consider transitioning to a smash pass variation.",
+        "answer_line": "Drive hip weight, pin the knee",
+        "distractors": {
+          "plausible": [
+            "Switch to knee slice pass now",
+            "Retreat hips to create space"
+          ],
+          "trap": [
+            "Let them elevate, then re-hook"
+          ]
+        }
       },
       {
         "question": "What angle should your body maintain relative to the bottom player during Leg Hook Top?",
-        "answer": "Position your body at 45-90 degrees relative to the bottom player rather than squared up directly. This passing angle creates efficient force direction for pass completion, limits their framing effectiveness, and provides better mobility to adjust to their defensive reactions. A squared-up posture makes you vulnerable to their frames and limits your passing options."
+        "answer": "Position your body at 45-90 degrees relative to the bottom player rather than squared up directly. This passing angle creates efficient force direction for pass completion, limits their framing effectiveness, and provides better mobility to adjust to their defensive reactions. A squared-up posture makes you vulnerable to their frames and limits your passing options.",
+        "answer_line": "45-90 degrees, not squared up",
+        "distractors": {
+          "plausible": [
+            "Fully squared for max pressure",
+            "Flat behind their far hip"
+          ],
+          "trap": [
+            "Square up to smash both hips"
+          ]
+        }
       },
       {
         "question": "How do you prevent being swept when transitioning from Leg Hook Top to knee slice pass?",
-        "answer": "Maintain the far hip control grip throughout the transition and keep your weight low with hips driving forward. Don't lift your weight to create the slice - drive through with hip pressure while keeping chest contact. The common sweep opportunity occurs when passers elevate their hips too high during the knee slice entry, so keep your center of gravity low and use lateral pressure rather than upward movement."
+        "answer": "Maintain the far hip control grip throughout the transition and keep your weight low with hips driving forward. Don't lift your weight to create the slice - drive through with hip pressure while keeping chest contact. The common sweep opportunity occurs when passers elevate their hips too high during the knee slice entry, so keep your center of gravity low and use lateral pressure rather than upward movement.",
+        "answer_line": "Keep hips low, drive forward",
+        "distractors": {
+          "plausible": [
+            "Release far hip to slice faster",
+            "Speed through, skip hip control"
+          ],
+          "trap": [
+            "Elevate hips to angle the slice"
+          ]
+        }
       },
       {
         "question": "What indicates the optimal timing to advance from Leg Hook Top to pass completion?",
-        "answer": "The optimal timing is when the bottom player's defensive frames collapse or when they commit to a single escape direction. Signs include: their far leg stops actively defending, their upper body flattens to the mat, they stop fighting the crossface, or they commit to turning away. Attempting to advance while they're actively framing and mobile typically results in guard recovery or scramble opportunities."
+        "answer": "The optimal timing is when the bottom player's defensive frames collapse or when they commit to a single escape direction. Signs include: their far leg stops actively defending, their upper body flattens to the mat, they stop fighting the crossface, or they commit to turning away. Attempting to advance while they're actively framing and mobile typically results in guard recovery or scramble opportunities.",
+        "answer_line": "Frames collapse, they flatten",
+        "distractors": {
+          "plausible": [
+            "They increase crossface defense",
+            "Their hook tension increases"
+          ],
+          "trap": [
+            "Advance while still framing hard"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -452,35 +532,115 @@
     "flashcards": [
       {
         "question": "What is the essential hip position for maintaining offensive options from Leg Hook Bottom?",
-        "answer": "Stay on your side with an active hip angle rather than flat on your back. Use your bottom elbow as a posting point to prevent being flattened completely. This side position maintains hip mobility essential for transitions and sweeps. When flat on your back, you lose all mobility and offensive capability, making sweeps impossible and allowing opponent to advance position."
+        "answer": "Stay on your side with an active hip angle rather than flat on your back. Use your bottom elbow as a posting point to prevent being flattened completely. This side position maintains hip mobility essential for transitions and sweeps. When flat on your back, you lose all mobility and offensive capability, making sweeps impossible and allowing opponent to advance position.",
+        "answer_line": "On side, active hip angle",
+        "distractors": {
+          "plausible": [
+            "Flat back, elbows framing high",
+            "Square hips facing opponent"
+          ],
+          "trap": [
+            "Flatten out to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent starts driving forward with heavy crossface pressure - what immediate adjustments do you make?",
-        "answer": "First, fight the crossface with your near-side hand, framing at their neck or shoulder to prevent head control. Simultaneously increase leg hook tension and consider transitioning to deep half guard by using their forward momentum to duck underneath. If their pressure is committed, the deep half entry becomes higher percentage because their weight is already moving in the direction you need it to go."
+        "answer": "First, fight the crossface with your near-side hand, framing at their neck or shoulder to prevent head control. Simultaneously increase leg hook tension and consider transitioning to deep half guard by using their forward momentum to duck underneath. If their pressure is committed, the deep half entry becomes higher percentage because their weight is already moving in the direction you need it to go.",
+        "answer_line": "Frame crossface, enter deep half",
+        "distractors": {
+          "plausible": [
+            "Push away, flatten to your back",
+            "Release hook, create distance"
+          ],
+          "trap": [
+            "Match pressure, chest to chest"
+          ]
+        }
       },
       {
         "question": "What are the three primary functions of the leg hook in this position?",
-        "answer": "The leg hook serves three critical functions: controlling opponent's base and preventing them from freely distributing weight for passing, restricting their mobility so they cannot step over or create passing angles, and providing a connection point that creates off-balancing opportunities for sweeps. The hook must remain dynamic with constant tension adjustments based on opponent movement."
+        "answer": "The leg hook serves three critical functions: controlling opponent's base and preventing them from freely distributing weight for passing, restricting their mobility so they cannot step over or create passing angles, and providing a connection point that creates off-balancing opportunities for sweeps. The hook must remain dynamic with constant tension adjustments based on opponent movement.",
+        "answer_line": "Control base, limit pass, sweep",
+        "distractors": {
+          "plausible": [
+            "Only prevents leg extraction",
+            "Just adds extra hip pressure"
+          ],
+          "trap": [
+            "Purely a submission setup"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from extracting their trapped leg?",
-        "answer": "Constantly adjust leg hook tension, angle, and depth based on opponent's escape attempts. When they try to pull the leg out, increase hook depth and angle your hips to follow their movement. Combine the leg hook with upper body frames that prevent them from creating the space needed for extraction. If they step back, immediately transition to single leg X or other elevated guard positions."
+        "answer": "Constantly adjust leg hook tension, angle, and depth based on opponent's escape attempts. When they try to pull the leg out, increase hook depth and angle your hips to follow their movement. Combine the leg hook with upper body frames that prevent them from creating the space needed for extraction. If they step back, immediately transition to single leg X or other elevated guard positions.",
+        "answer_line": "Adjust tension, follow, frame",
+        "distractors": {
+          "plausible": [
+            "Grip harder and stay still",
+            "Release and re-hook shallow"
+          ],
+          "trap": [
+            "Let leg go, chase with hands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing up while in your leg hook - how do you respond?",
-        "answer": "Transition immediately to single leg X guard or X-guard positions that are designed for standing opponents. Maintain the leg hook connection while extending your body underneath them. Use your free leg to establish additional hooks on their standing leg. The standing position actually creates better sweeping opportunities for you if you adjust your guard configuration appropriately."
+        "answer": "Transition immediately to single leg X guard or X-guard positions that are designed for standing opponents. Maintain the leg hook connection while extending your body underneath them. Use your free leg to establish additional hooks on their standing leg. The standing position actually creates better sweeping opportunities for you if you adjust your guard configuration appropriately.",
+        "answer_line": "Transition to single leg X",
+        "distractors": {
+          "plausible": [
+            "Pull them back down by hook",
+            "Release hook, stand with them"
+          ],
+          "trap": [
+            "Stay flat, hold basic half guard"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play in Leg Hook Bottom position retention?",
-        "answer": "The free leg is a crucial dynamic tool that serves multiple purposes: pushing opponent's hips to create distance and prevent smashing pressure, establishing butterfly hooks as secondary control points, preparing for deep half or X-guard transitions, and creating barriers that prevent opponent from stepping through or around your guard. A passive free leg wastes a critical defensive resource."
+        "answer": "The free leg is a crucial dynamic tool that serves multiple purposes: pushing opponent's hips to create distance and prevent smashing pressure, establishing butterfly hooks as secondary control points, preparing for deep half or X-guard transitions, and creating barriers that prevent opponent from stepping through or around your guard. A passive free leg wastes a critical defensive resource.",
+        "answer_line": "Push hips, hook, block passing",
+        "distractors": {
+          "plausible": [
+            "Kept still for balance only",
+            "Used only to post on the mat"
+          ],
+          "trap": [
+            "Tuck it away, protect from grips"
+          ]
+        }
       },
       {
         "question": "When should you attempt sweeps versus focusing on guard retention?",
-        "answer": "Attempt sweeps only after establishing proper frames and using the leg hook to off-balance opponent. The timing window opens when opponent commits their weight forward without proper base, attempts to extract their trapped leg creating momentum you can redirect, or when their defensive reactions to your frames create an opening. Attempting sweeps while under heavy pressure without frames results in failed attempts and wasted energy."
+        "answer": "Attempt sweeps only after establishing proper frames and using the leg hook to off-balance opponent. The timing window opens when opponent commits their weight forward without proper base, attempts to extract their trapped leg creating momentum you can redirect, or when their defensive reactions to your frames create an opening. Attempting sweeps while under heavy pressure without frames results in failed attempts and wasted energy.",
+        "answer_line": "After frames, on weight commit",
+        "distractors": {
+          "plausible": [
+            "Immediately upon hook insertion",
+            "Whenever hook tension is tight"
+          ],
+          "trap": [
+            "Sweep while under heavy pressure"
+          ]
+        }
       },
       {
         "question": "What indicates you should transition from Leg Hook to Deep Half Guard?",
-        "answer": "Transition to deep half when opponent drives heavy forward pressure, as their momentum aids your entry underneath them. Also transition when they flatten you despite your frames, as going deeper removes their shoulder pressure effectiveness. The key indicator is when staying in standard leg hook becomes defensive with diminishing offensive options - deep half restores your attacking capability from underneath their base."
+        "answer": "Transition to deep half when opponent drives heavy forward pressure, as their momentum aids your entry underneath them. Also transition when they flatten you despite your frames, as going deeper removes their shoulder pressure effectiveness. The key indicator is when staying in standard leg hook becomes defensive with diminishing offensive options - deep half restores your attacking capability from underneath their base.",
+        "answer_line": "Heavy forward pressure, flattened",
+        "distractors": {
+          "plausible": [
+            "Opponent retreats hips away",
+            "Your frames are working well"
+          ],
+          "trap": [
+            "Stay in leg hook, keep framing"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -765,35 +925,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines the Leg Hook position and separates it from a standard half guard?",
-      "answer": "One player's leg is threaded as an active hook around the opponent's leg rather than passively wrapped, creating a dynamic entanglement instead of a static clamp. The hooking leg maintains constant tension against the trapped limb, controlling that leg's base and hip mobility as a mechanical lever. This live connection is what makes the position transitional: it invites continuous adjustment and off-balancing rather than the stationary knee-line battle of classic half guard. Because the hook can steer weight, it bridges half guard into deep half, X-guard, and leg-entanglement systems that a passive wrap cannot access."
+      "answer": "One player's leg is threaded as an active hook around the opponent's leg rather than passively wrapped, creating a dynamic entanglement instead of a static clamp. The hooking leg maintains constant tension against the trapped limb, controlling that leg's base and hip mobility as a mechanical lever. This live connection is what makes the position transitional: it invites continuous adjustment and off-balancing rather than the stationary knee-line battle of classic half guard. Because the hook can steer weight, it bridges half guard into deep half, X-guard, and leg-entanglement systems that a passive wrap cannot access.",
+      "answer_line": "Active threaded hook, not a wrap",
+      "distractors": {
+        "plausible": [
+          "Deeper knee shield placement",
+          "Crossface plus underhook combo"
+        ],
+        "trap": [
+          "A static clamp on the leg"
+        ]
+      }
     },
     {
       "question": "Why is the hooked leg described as a mechanical lever rather than merely a restraint in this position?",
-      "answer": "The hook does more than hold a limb still; it transmits force through the opponent's trapped leg into their base, letting whoever controls the hook redirect weight and disrupt posture. By elevating, angling, or extending the hook, that player alters the opponent's center of gravity and steers where their weight must travel. This leverage is the engine behind both sweeps from the entangling side and steering the pass from the disentangling side. A restraint only prevents movement, but a lever actively creates the off-balance that generates transitions for either player."
+      "answer": "The hook does more than hold a limb still; it transmits force through the opponent's trapped leg into their base, letting whoever controls the hook redirect weight and disrupt posture. By elevating, angling, or extending the hook, that player alters the opponent's center of gravity and steers where their weight must travel. This leverage is the engine behind both sweeps from the entangling side and steering the pass from the disentangling side. A restraint only prevents movement, but a lever actively creates the off-balance that generates transitions for either player.",
+      "answer_line": "It redirects opponent's weight",
+      "distractors": {
+        "plausible": [
+          "It just locks the leg in place",
+          "It measures distance to pass"
+        ],
+        "trap": [
+          "It only restrains, no leverage"
+        ]
+      }
     },
     {
       "question": "How does the interplay between upper-body frames and the leg hook create the position's central dilemma for both players?",
-      "answer": "The position is only stable when leg control and upper-body control operate as one unified system rather than in isolation. Whoever holds the hook must pair it with a frame, underhook, or crossface, because the hook alone controls only the lower body and leaves the torso free to escape or advance. This coupling forces both players into a two-front problem: committing pressure or attention to one half of the body opens the other half. The central dilemma is that neither player can fully win the legs and the torso at once, so every adjustment on one axis concedes something on the other."
+      "answer": "The position is only stable when leg control and upper-body control operate as one unified system rather than in isolation. Whoever holds the hook must pair it with a frame, underhook, or crossface, because the hook alone controls only the lower body and leaves the torso free to escape or advance. This coupling forces both players into a two-front problem: committing pressure or attention to one half of the body opens the other half. The central dilemma is that neither player can fully win the legs and the torso at once, so every adjustment on one axis concedes something on the other.",
+      "answer_line": "Winning legs concedes the torso",
+      "distractors": {
+        "plausible": [
+          "Hook alone secures full control",
+          "Frames matter more than the hook"
+        ],
+        "trap": [
+          "Focus purely on hook, no frames"
+        ]
+      }
     },
     {
       "question": "What makes the Leg Hook a transitional decision point rather than a stable holding position?",
-      "answer": "The active hook cannot be maintained indefinitely because both players are constantly working the shared leg connection, so the configuration naturally decays toward one of several branching outcomes. Weight commitment, leg extraction attempts, and framing exchanges continuously shift the balance, opening pathways to deep half, single leg X, guard recovery, or pass completion. Whoever times these shifts to the opponent's weight distribution captures the transition; whoever hesitates gets left in a degrading position. This is why the position rewards recognizing pathways over settling, unlike a pin that rewards patience."
+      "answer": "The active hook cannot be maintained indefinitely because both players are constantly working the shared leg connection, so the configuration naturally decays toward one of several branching outcomes. Weight commitment, leg extraction attempts, and framing exchanges continuously shift the balance, opening pathways to deep half, single leg X, guard recovery, or pass completion. Whoever times these shifts to the opponent's weight distribution captures the transition; whoever hesitates gets left in a degrading position. This is why the position rewards recognizing pathways over settling, unlike a pin that rewards patience.",
+      "answer_line": "It decays toward branch points",
+      "distractors": {
+        "plausible": [
+          "It locks in like a stable pin",
+          "It only matters at fight's start"
+        ],
+        "trap": [
+          "Settle in and wait it out"
+        ]
+      }
     },
     {
       "question": "How is hip angle and mobility the shared currency that governs control for both players in the Leg Hook?",
-      "answer": "Both players fight to keep their own hips mobile and angled while flattening or immobilizing the opponent's hips. The player working from underneath stays on their side with an active hip line to preserve sweep and transition options, while the player on top drives to flatten those hips and kill the angle. Whoever loses hip mobility loses the ability to generate off-balancing or defensive movement, collapsing their options. Because the hook connects the hips through the trapped leg, every hip adjustment by one player directly loads or unloads the other's structure."
+      "answer": "Both players fight to keep their own hips mobile and angled while flattening or immobilizing the opponent's hips. The player working from underneath stays on their side with an active hip line to preserve sweep and transition options, while the player on top drives to flatten those hips and kill the angle. Whoever loses hip mobility loses the ability to generate off-balancing or defensive movement, collapsing their options. Because the hook connects the hips through the trapped leg, every hip adjustment by one player directly loads or unloads the other's structure.",
+      "answer_line": "Stay mobile, flatten opponent's hips",
+      "distractors": {
+        "plausible": [
+          "Square hips to maximize power",
+          "Stay flat, conserve energy"
+        ],
+        "trap": [
+          "Let your hips go passive"
+        ]
+      }
     },
     {
       "question": "How does the Leg Hook relate to and feed into adjacent leg-entanglement positions like deep half, X-guard, and single leg X?",
-      "answer": "The Leg Hook sits as a hub within the half guard family, sharing the core mechanic of controlling one of the opponent's legs but with a more dynamic hook than a static wrap. When the opponent drives forward, the entangling player can duck under into deep half using that committed momentum; when the opponent stands or steps back, the same connection converts to X-guard or single leg X to attack the newly weighted standing leg. These aren't separate positions so much as reachable states from the same hook, chosen by how the opponent distributes weight. This connectivity is precisely why the position is valued as a launching point rather than a destination."
+      "answer": "The Leg Hook sits as a hub within the half guard family, sharing the core mechanic of controlling one of the opponent's legs but with a more dynamic hook than a static wrap. When the opponent drives forward, the entangling player can duck under into deep half using that committed momentum; when the opponent stands or steps back, the same connection converts to X-guard or single leg X to attack the newly weighted standing leg. These aren't separate positions so much as reachable states from the same hook, chosen by how the opponent distributes weight. This connectivity is precisely why the position is valued as a launching point rather than a destination.",
+      "answer_line": "Hub state branching by weight shift",
+      "distractors": {
+        "plausible": [
+          "A dead end position, no options",
+          "Only leads into deep half"
+        ],
+        "trap": [
+          "Abandon hook to enter deep half"
+        ]
+      }
     },
     {
       "question": "What role does the free (non-hooking) leg play in shaping the dynamics of the Leg Hook for whoever holds it?",
-      "answer": "The free leg is a second active lever that determines whether the entanglement can escalate or must merely hold. It can post to create barriers, insert a butterfly hook as a secondary elevation point, push against the opponent's hip to manage distance, or prepare a transition to another guard. Left passive, it wastes a control surface and lets the opponent pressure or step through unopposed. Because the primary hook is already committed to one leg, the free leg is what converts static control into the off-balancing or re-guarding threat that keeps the position live."
+      "answer": "The free leg is a second active lever that determines whether the entanglement can escalate or must merely hold. It can post to create barriers, insert a butterfly hook as a secondary elevation point, push against the opponent's hip to manage distance, or prepare a transition to another guard. Left passive, it wastes a control surface and lets the opponent pressure or step through unopposed. Because the primary hook is already committed to one leg, the free leg is what converts static control into the off-balancing or re-guarding threat that keeps the position live.",
+      "answer_line": "Second lever: post, hook, push",
+      "distractors": {
+        "plausible": [
+          "Purely a balance counterweight",
+          "Kept tucked to protect the knee"
+        ],
+        "trap": [
+          "Leave it passive, save energy"
+        ]
+      }
     },
     {
       "question": "Why does the Leg Hook carry higher scramble and reversal risk than a settled pin or a locked half guard?",
-      "answer": "The dynamic hook keeps the shared leg connection in constant motion, so the position never reaches the mechanical stability of a fully secured pin. Both players are actively steering weight through the entanglement, meaning any committed shift by one creates momentum the other can redirect, which is fertile ground for sweeps, reversals, and scrambles. A locked half guard or a pin removes this leverage by killing movement, but the leg hook trades that safety for the mobility that enables its transitions. The same active tension that makes it offensively versatile is what makes it inherently unstable for whoever fails to control the tempo."
+      "answer": "The dynamic hook keeps the shared leg connection in constant motion, so the position never reaches the mechanical stability of a fully secured pin. Both players are actively steering weight through the entanglement, meaning any committed shift by one creates momentum the other can redirect, which is fertile ground for sweeps, reversals, and scrambles. A locked half guard or a pin removes this leverage by killing movement, but the leg hook trades that safety for the mobility that enables its transitions. The same active tension that makes it offensively versatile is what makes it inherently unstable for whoever fails to control the tempo.",
+      "answer_line": "Motion never settles like a pin",
+      "distractors": {
+        "plausible": [
+          "Because grips are weaker there",
+          "Because opponent is always faster"
+        ],
+        "trap": [
+          "Lock it down like a pin to be safe"
+        ]
+      }
     }
   ],
   "clips": [

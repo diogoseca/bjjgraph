@@ -259,39 +259,129 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage of the pummeling escape compared to direct grip-breaking methods?",
-        "answer": "Pummeling inserts structural wedges (your elbows and forearms) between the opponent's arms and your torso, using skeletal frames to mechanically disrupt the lock from the inside. This creates bone-on-bone leverage that is far more sustainable than the muscular effort required to pull apart locked hands from the outside. The wedge effect expands the space between their arms and your body progressively, making the lock increasingly difficult to maintain regardless of the opponent's grip strength."
+        "answer": "Pummeling inserts structural wedges (your elbows and forearms) between the opponent's arms and your torso, using skeletal frames to mechanically disrupt the lock from the inside. This creates bone-on-bone leverage that is far more sustainable than the muscular effort required to pull apart locked hands from the outside. The wedge effect expands the space between their arms and your body progressively, making the lock increasingly difficult to maintain regardless of the opponent's grip strength.",
+        "answer_line": "Elbow wedge beats muscle grip",
+        "distractors": {
+          "plausible": [
+            "Grip strength breaks the lock",
+            "Faster hands force a release"
+          ],
+          "trap": [
+            "Lean back to create space"
+          ]
+        }
       },
       {
         "question": "Why is hip rotation essential during the pummeling entry and what angle should you target?",
-        "answer": "Hip rotation of approximately 30-45 degrees creates space between the opponent's forearm and your ribcage by partially breaking the chest-to-back seal that makes the body lock effective. Without this rotation, the opponent's tight chest connection compresses your torso against their arms, leaving no gap for your elbow to thread through. The rotation must be sharp and committed to open sufficient space before the opponent can adjust their position to follow your hip movement."
+        "answer": "Hip rotation of approximately 30-45 degrees creates space between the opponent's forearm and your ribcage by partially breaking the chest-to-back seal that makes the body lock effective. Without this rotation, the opponent's tight chest connection compresses your torso against their arms, leaving no gap for your elbow to thread through. The rotation must be sharp and committed to open sufficient space before the opponent can adjust their position to follow your hip movement.",
+        "answer_line": "Rotate hips 30-45° for space",
+        "distractors": {
+          "plausible": [
+            "Rotate hips a full 90°",
+            "Rotate shoulders, not hips"
+          ],
+          "trap": [
+            "Skip rotation, thread arm fast"
+          ]
+        }
       },
       {
         "question": "Your opponent re-locks their grip immediately after your first pummel entry - how do you adjust your approach?",
-        "answer": "Never pause between pummel entries. The first pummel must flow directly into the second as a continuous two-beat motion. If the opponent is consistently re-locking after your first entry, you are likely pausing too long between pummels. Increase the speed of your second arm's entry by pre-loading the opposite hip rotation during your first pummel. Alternatively, switch to the single-arm-pummel-to-whizzer variant, using one underhook plus one overhook to disrupt the lock without requiring a second pummel."
+        "answer": "Never pause between pummel entries. The first pummel must flow directly into the second as a continuous two-beat motion. If the opponent is consistently re-locking after your first entry, you are likely pausing too long between pummels. Increase the speed of your second arm's entry by pre-loading the opposite hip rotation during your first pummel. Alternatively, switch to the single-arm-pummel-to-whizzer variant, using one underhook plus one overhook to disrupt the lock without requiring a second pummel.",
+        "answer_line": "Flow second pummel, no pause",
+        "distractors": {
+          "plausible": [
+            "Reset and restart from scratch",
+            "Push harder on same entry"
+          ],
+          "trap": [
+            "Pause to reset your grip"
+          ]
+        }
       },
       {
         "question": "What base fundamentals must be maintained throughout the pummeling sequence and why?",
-        "answer": "Knees must remain bent at least 30 degrees with feet shoulder-width apart or wider throughout the entire escape sequence. Weight stays on the balls of the feet with hips low. This base serves dual purposes: it resists the opponent's throwing and lifting attempts that become more likely during the dynamic movement of pummeling, and it provides the hip mobility needed to generate rotational space for arm threading. Losing your base during a pummel converts a controlled escape into an uncontrolled scramble where the opponent has significant advantages."
+        "answer": "Knees must remain bent at least 30 degrees with feet shoulder-width apart or wider throughout the entire escape sequence. Weight stays on the balls of the feet with hips low. This base serves dual purposes: it resists the opponent's throwing and lifting attempts that become more likely during the dynamic movement of pummeling, and it provides the hip mobility needed to generate rotational space for arm threading. Losing your base during a pummel converts a controlled escape into an uncontrolled scramble where the opponent has significant advantages.",
+        "answer_line": "Knees bent, wide base, hips low",
+        "distractors": {
+          "plausible": [
+            "Stand tall for better leverage",
+            "Feet together for quick pivots"
+          ],
+          "trap": [
+            "Rise up to generate power"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the pummeling escape?",
-        "answer": "The best timing windows are when the opponent shifts their weight for an attack (loading for a throw, adjusting for a mat return), when they transition their grip configuration (switching from gable grip to another lock type), or in the moment immediately after defending one of their attacks when their body lock has temporarily loosened. Initiating the pummel during these transitions exploits the opponent's divided attention and the micro-gaps that appear in their grip during positional adjustments."
+        "answer": "The best timing windows are when the opponent shifts their weight for an attack (loading for a throw, adjusting for a mat return), when they transition their grip configuration (switching from gable grip to another lock type), or in the moment immediately after defending one of their attacks when their body lock has temporarily loosened. Initiating the pummel during these transitions exploits the opponent's divided attention and the micro-gaps that appear in their grip during positional adjustments.",
+        "answer_line": "Strike during their transitions",
+        "distractors": {
+          "plausible": [
+            "Wait for a fully locked position",
+            "Attack right when locked in"
+          ],
+          "trap": [
+            "Force through their tightest grip"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after successfully breaking the body lock?",
-        "answer": "Immediately grip the opponent's wrists or biceps to prevent them from re-shooting for the body lock. Establish clinch control through collar ties or two-on-one grips while creating lateral distance by circling away. The critical error most practitioners make is celebrating the grip break without controlling the transition, which allows the opponent to dive right back into a body lock. Treat the grip break as a transition point, not an endpoint, and establish your preferred standing engagement position before releasing defensive grips."
+        "answer": "Immediately grip the opponent's wrists or biceps to prevent them from re-shooting for the body lock. Establish clinch control through collar ties or two-on-one grips while creating lateral distance by circling away. The critical error most practitioners make is celebrating the grip break without controlling the transition, which allows the opponent to dive right back into a body lock. Treat the grip break as a transition point, not an endpoint, and establish your preferred standing engagement position before releasing defensive grips.",
+        "answer_line": "Control wrists, don't disengage",
+        "distractors": {
+          "plausible": [
+            "Step back and reset distance",
+            "Grip their head immediately"
+          ],
+          "trap": [
+            "Release grips and back away"
+          ]
+        }
       },
       {
         "question": "How do you modify the pummeling escape when the opponent has an extremely tight chest-to-back seal?",
-        "answer": "Use the drop level variant. Lower your level significantly by deepening your knee bend, which changes the angle of the opponent's arms relative to your torso and creates space at your waist where the lock is less tight. The level change forces their arms higher on your body where they have less mechanical advantage. From the lowered position, initiate the hip rotation and pummel entry through the space created at your midsection before they can readjust their grip height."
+        "answer": "Use the drop level variant. Lower your level significantly by deepening your knee bend, which changes the angle of the opponent's arms relative to your torso and creates space at your waist where the lock is less tight. The level change forces their arms higher on your body where they have less mechanical advantage. From the lowered position, initiate the hip rotation and pummel entry through the space created at your midsection before they can readjust their grip height.",
+        "answer_line": "Drop level to open space",
+        "distractors": {
+          "plausible": [
+            "Rise up to loosen their seal",
+            "Rotate hips harder, same level"
+          ],
+          "trap": [
+            "Straighten legs and pull back"
+          ]
+        }
       },
       {
         "question": "In which directions do you drive your arms and hips at the moment of breaking the lock, and why both at once?",
-        "answer": "Drive both elbows outward laterally away from your centerline to pry the opponent's hands apart, while simultaneously stepping your hips straight backward to retract your torso out of their grip. The outward elbow drive defeats the grip connection itself; the backward hip step removes the surface the grip was clamped around. Performing only one fails: outward elbows alone and the opponent shuffles forward to re-seal the gap, while hips back alone simply drags their still-locked hands along with you. The two opposing force vectors applied together make the locked grip geometrically impossible to retain."
+        "answer": "Drive both elbows outward laterally away from your centerline to pry the opponent's hands apart, while simultaneously stepping your hips straight backward to retract your torso out of their grip. The outward elbow drive defeats the grip connection itself; the backward hip step removes the surface the grip was clamped around. Performing only one fails: outward elbows alone and the opponent shuffles forward to re-seal the gap, while hips back alone simply drags their still-locked hands along with you. The two opposing force vectors applied together make the locked grip geometrically impossible to retain.",
+        "answer_line": "Elbows out + hips back together",
+        "distractors": {
+          "plausible": [
+            "Elbows out only, hold position",
+            "Hips back only, arms relaxed"
+          ],
+          "trap": [
+            "Pull hands forward and down"
+          ]
+        }
       },
       {
         "question": "Both pummel entries are stonewalled by an extremely tight grip - what do you chain into instead of forcing a second underhook?",
-        "answer": "Stop racing for double unders and commit to the single-arm-pummel-to-whizzer chain: keep the one underhook you won, throw a hard overhook (whizzer) on the opposite side, and use that asymmetric inside-outside frame to peel apart the chest-to-back seal. If even the first underhook is denied, chain into a drop-level entry - sharply lower your level so their arms ride up to a higher, weaker point on your torso, then re-attack the pummel through the fresh space that opens at your waist. The governing principle is to keep flowing between entries rather than stalling and arm-wrestling a single contested pummel."
+        "answer": "Stop racing for double unders and commit to the single-arm-pummel-to-whizzer chain: keep the one underhook you won, throw a hard overhook (whizzer) on the opposite side, and use that asymmetric inside-outside frame to peel apart the chest-to-back seal. If even the first underhook is denied, chain into a drop-level entry - sharply lower your level so their arms ride up to a higher, weaker point on your torso, then re-attack the pummel through the fresh space that opens at your waist. The governing principle is to keep flowing between entries rather than stalling and arm-wrestling a single contested pummel.",
+        "answer_line": "Whizzer chain, keep flowing",
+        "distractors": {
+          "plausible": [
+            "Force the second underhook",
+            "Reset to neutral and retry"
+          ],
+          "trap": [
+            "Grip fight for the same pummel"
+          ]
+        }
       }
     ],
     "safety_considerations": "The pummeling escape involves dynamic rotational movements under pressure that can stress shoulder joints if arms are forced through tight spaces without proper technique. Always warm up shoulder joints thoroughly before drilling. During training, partners should release the body lock if the escaping player signals pain or discomfort in their shoulders. Avoid using explosive jerking motions to force pummels through extremely tight grips, as this can cause shoulder impingement or rotator cuff strain. Progress resistance gradually during drilling phases.",
@@ -409,15 +499,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a pummeling escape?",
-        "answer": "The earliest cue is feeling their elbow pressing inward against the inside of your forearm in a rotational scooping motion, often preceded by a hip rotation of 30-45 degrees to one side. This hip rotation is a preparatory movement that creates space for the pummel entry. Recognizing the hip rotation gives you an additional half-second to react before the actual arm threading begins, which is enough time to squeeze your elbows inward and close the available space."
+        "answer": "The earliest cue is feeling their elbow pressing inward against the inside of your forearm in a rotational scooping motion, often preceded by a hip rotation of 30-45 degrees to one side. This hip rotation is a preparatory movement that creates space for the pummel entry. Recognizing the hip rotation gives you an additional half-second to react before the actual arm threading begins, which is enough time to squeeze your elbows inward and close the available space.",
+        "answer_line": "Feel their hip rotate first",
+        "distractors": {
+          "plausible": [
+            "Wait for the arm to fully thread",
+            "Watch their eyes for intent"
+          ],
+          "trap": [
+            "Ignore hip movement, react late"
+          ]
+        }
       },
       {
         "question": "Why should you treat pummeling attempts as triggers for your own offensive transitions rather than purely defensive reactions?",
-        "answer": "The body lock is an inherently transitional position that degrades over time as the opponent continues making escape attempts. Each pummel weakens your grip incrementally, and purely defensive re-locking will eventually fail against a persistent opponent. By using pummeling attempts as triggers for throws, mat returns, or back take transitions, you convert the opponent's escape energy into offensive opportunities. Their movement and weight shifts during pummeling often create ideal conditions for your attacks."
+        "answer": "The body lock is an inherently transitional position that degrades over time as the opponent continues making escape attempts. Each pummel weakens your grip incrementally, and purely defensive re-locking will eventually fail against a persistent opponent. By using pummeling attempts as triggers for throws, mat returns, or back take transitions, you convert the opponent's escape energy into offensive opportunities. Their movement and weight shifts during pummeling often create ideal conditions for your attacks.",
+        "answer_line": "Turn their escape into offense",
+        "distractors": {
+          "plausible": [
+            "Re-lock tighter every time",
+            "Wait them out passively"
+          ],
+          "trap": [
+            "Retreat to reset the position"
+          ]
+        }
       },
       {
         "question": "How do you maintain body lock control when the opponent successfully threads one arm inside your grip?",
-        "answer": "When one arm gets inside, you have a narrow window to prevent the second. Immediately transition your grip lower on their torso where the underhook has not yet reached, maintaining the lock below their inserted arm. Simultaneously drive maximum forward hip pressure to keep them loaded and prevent them from establishing base for the second pummel. If re-locking below is not possible, immediately transition to back control by using the space created by their escape movement to insert your hooks while maintaining whatever grip connection remains."
+        "answer": "When one arm gets inside, you have a narrow window to prevent the second. Immediately transition your grip lower on their torso where the underhook has not yet reached, maintaining the lock below their inserted arm. Simultaneously drive maximum forward hip pressure to keep them loaded and prevent them from establishing base for the second pummel. If re-locking below is not possible, immediately transition to back control by using the space created by their escape movement to insert your hooks while maintaining whatever grip connection remains.",
+        "answer_line": "Re-lock lower, drive pressure",
+        "distractors": {
+          "plausible": [
+            "Re-lock at the same height",
+            "Release fully and re-shoot"
+          ],
+          "trap": [
+            "Back off to create distance"
+          ]
+        }
       }
     ],
     "training_progressions": [

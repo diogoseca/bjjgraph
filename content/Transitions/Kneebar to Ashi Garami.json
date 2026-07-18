@@ -244,35 +244,115 @@
     "flashcards": [
       {
         "question": "Your opponent keeps their knee strongly bent and has both hands clasping their own leg during your kneebar attempt - how do you initiate the transition to ashi garami?",
-        "answer": "First tighten your arm grip pulling their leg closer to your torso. Then begin threading your inside leg across their near hip while maintaining arm control as the anchor. Their hands are occupied defending the knee, so they cannot fight your leg reconfiguration. Use their static defensive posture as an opportunity for a deliberate, precise transition rather than rushing. Their bent knee actually assists the transition because it keeps their leg close and accessible for ashi-garami threading."
+        "answer": "First tighten your arm grip pulling their leg closer to your torso. Then begin threading your inside leg across their near hip while maintaining arm control as the anchor. Their hands are occupied defending the knee, so they cannot fight your leg reconfiguration. Use their static defensive posture as an opportunity for a deliberate, precise transition rather than rushing. Their bent knee actually assists the transition because it keeps their leg close and accessible for ashi-garami threading.",
+        "answer_line": "Tighten grip, thread inside leg",
+        "distractors": {
+          "plausible": [
+            "Free hands, then reposition legs",
+            "Thread leg first, grip after"
+          ],
+          "trap": [
+            "Release grip to attack armbar"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip to maintain during the leg reconfiguration from kneebar to inside ashi-garami?",
-        "answer": "The arm grip around the opponent's lower leg is the critical constant throughout the entire transition. Your arms serve as the anchor point: they maintain control while your legs reconfigure around them. Specifically, maintain a tight figure-four or gable grip around the lower calf and ankle area with elbows squeezed together and the leg pinned to your chest. This grip prevents leg extraction during the vulnerable reconfiguration window and provides the continuous control needed to bridge the gap between kneebar structure and ashi-garami hooks."
+        "answer": "The arm grip around the opponent's lower leg is the critical constant throughout the entire transition. Your arms serve as the anchor point: they maintain control while your legs reconfigure around them. Specifically, maintain a tight figure-four or gable grip around the lower calf and ankle area with elbows squeezed together and the leg pinned to your chest. This grip prevents leg extraction during the vulnerable reconfiguration window and provides the continuous control needed to bridge the gap between kneebar structure and ashi-garami hooks.",
+        "answer_line": "Figure-four grip on lower leg",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar tight",
+            "Underhook their near leg"
+          ],
+          "trap": [
+            "Release arms to grab both ankles"
+          ]
+        }
       },
       {
         "question": "During the transition, your opponent begins explosively pulling their leg free - what adjustment prevents the escape?",
-        "answer": "Immediately clamp your legs together around whatever portion of their leg you still control and follow their movement by scooting your hips toward them rather than fighting their momentum with arm strength alone. If they are straightening their leg, this actually creates a direct ankle lock opportunity since their foot is now extended. Transition your grip toward their heel and attack the straightened ankle rather than trying to maintain the original plan. Convert their escape attempt into a different offensive opportunity."
+        "answer": "Immediately clamp your legs together around whatever portion of their leg you still control and follow their movement by scooting your hips toward them rather than fighting their momentum with arm strength alone. If they are straightening their leg, this actually creates a direct ankle lock opportunity since their foot is now extended. Transition your grip toward their heel and attack the straightened ankle rather than trying to maintain the original plan. Convert their escape attempt into a different offensive opportunity.",
+        "answer_line": "Follow hips in, attack ankle",
+        "distractors": {
+          "plausible": [
+            "Pull back hard against the pull",
+            "Release leg, reset position"
+          ],
+          "trap": [
+            "Fight momentum, hold grip static"
+          ]
+        }
       },
       {
         "question": "What is the optimal inside leg placement when establishing ashi-garami from kneebar control?",
-        "answer": "The inside leg must cross directly across the opponent's near hip bone with your foot planted firmly on the far side of their body at hip level. The shin creates a barrier against hip rotation, which is the opponent's primary escape mechanism from ashi-garami. Placing the leg too high on the torso allows easy clearing through hip rotation, while placing it too low toward the thigh provides insufficient rotational control. The hip bone is the precise target because it offers the best mechanical advantage for controlling their entire lower body movement."
+        "answer": "The inside leg must cross directly across the opponent's near hip bone with your foot planted firmly on the far side of their body at hip level. The shin creates a barrier against hip rotation, which is the opponent's primary escape mechanism from ashi-garami. Placing the leg too high on the torso allows easy clearing through hip rotation, while placing it too low toward the thigh provides insufficient rotational control. The hip bone is the precise target because it offers the best mechanical advantage for controlling their entire lower body movement.",
+        "answer_line": "Foot planted at hip level",
+        "distractors": {
+          "plausible": [
+            "Leg placed high on the torso",
+            "Leg placed low near the thigh"
+          ],
+          "trap": [
+            "Cross leg over their far shoulder"
+          ]
+        }
       },
       {
         "question": "You have successfully transitioned to inside ashi-garami but your opponent immediately starts rotating their knee outward away from you - what is your next move?",
-        "answer": "Their outward knee rotation is actually an invitation to advance position. When they rotate their knee away, their heel becomes directly exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel with your wrist behind the Achilles. Use this moment to consider advancing to honey hole or saddle by threading your outside leg deeper. Do not chase the ankle lock against outward rotation. Instead, flow to the higher-percentage position that their defensive reaction has created."
+        "answer": "Their outward knee rotation is actually an invitation to advance position. When they rotate their knee away, their heel becomes directly exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel with your wrist behind the Achilles. Use this moment to consider advancing to honey hole or saddle by threading your outside leg deeper. Do not chase the ankle lock against outward rotation. Instead, flow to the higher-percentage position that their defensive reaction has created.",
+        "answer_line": "Switch to figure-four, attack heel",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset stance",
+            "Push their knee back inward"
+          ],
+          "trap": [
+            "Chase the ankle lock aggressively"
+          ]
+        }
       },
       {
         "question": "What are the primary submission options available after successfully completing the transition to inside ashi-garami?",
-        "answer": "Inside ashi-garami provides direct access to three primary submission families. The straight ankle lock is the foundational option, requiring a C-grip on the heel with hip extension as the finishing mechanism. The heel hook becomes available when the opponent's knee is controlled and heel is exposed, requiring figure-four grip configuration. The toe hold targets the foot through rotational force and is available when ankle alignment permits. Additionally, the position serves as a gateway to the kneebar from the other direction if the opponent straightens their leg. Each submission chains to the others based on defensive reactions."
+        "answer": "Inside ashi-garami provides direct access to three primary submission families. The straight ankle lock is the foundational option, requiring a C-grip on the heel with hip extension as the finishing mechanism. The heel hook becomes available when the opponent's knee is controlled and heel is exposed, requiring figure-four grip configuration. The toe hold targets the foot through rotational force and is available when ankle alignment permits. Additionally, the position serves as a gateway to the kneebar from the other direction if the opponent straightens their leg. Each submission chains to the others based on defensive reactions.",
+        "answer_line": "Ankle lock, heel hook, toe hold",
+        "distractors": {
+          "plausible": [
+            "Kimura is the primary option",
+            "Only straight ankle lock works"
+          ],
+          "trap": [
+            "Abandon legs, go for armbar"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges upward as you begin reconfiguring your legs from kneebar to ashi - how do you maintain control?",
-        "answer": "Absorb the bridge by tightening your arm grip and riding the upward movement rather than fighting it. Keep your center of gravity low and let their bridge energy dissipate while you maintain the leg connection. As they settle back down from the bridge, immediately continue the leg reconfiguration. If their bridge is strong enough to create significant space, use the elevated position to thread your inside leg across their hip faster since the gap between their hips and the mat creates room for your shin to slide through. Convert their explosive movement into an assist for your transition."
+        "answer": "Absorb the bridge by tightening your arm grip and riding the upward movement rather than fighting it. Keep your center of gravity low and let their bridge energy dissipate while you maintain the leg connection. As they settle back down from the bridge, immediately continue the leg reconfiguration. If their bridge is strong enough to create significant space, use the elevated position to thread your inside leg across their hip faster since the gap between their hips and the mat creates room for your shin to slide through. Convert their explosive movement into an assist for your transition.",
+        "answer_line": "Absorb bridge, thread leg faster",
+        "distractors": {
+          "plausible": [
+            "Fight bridge with arm strength",
+            "Release grip, reset base"
+          ],
+          "trap": [
+            "Stand up to block the bridge"
+          ]
+        }
       },
       {
         "question": "What is the ideal timing window for initiating this transition relative to the opponent's kneebar defense?",
-        "answer": "The optimal window is when the opponent has established effective kneebar defense but has not yet begun their active escape sequence. Specifically, initiate when you feel their knee is fully bent against your extension pressure and their posture is consolidated, but before they start working to extract the leg or rotate away. This window typically occurs 5-8 seconds into a committed kneebar defense. Transitioning too early wastes a viable kneebar attempt that might have finished. Transitioning too late means fighting against an opponent already executing their escape plan, dramatically reducing success probability."
+        "answer": "The optimal window is when the opponent has established effective kneebar defense but has not yet begun their active escape sequence. Specifically, initiate when you feel their knee is fully bent against your extension pressure and their posture is consolidated, but before they start working to extract the leg or rotate away. This window typically occurs 5-8 seconds into a committed kneebar defense. Transitioning too early wastes a viable kneebar attempt that might have finished. Transitioning too late means fighting against an opponent already executing their escape plan, dramatically reducing success probability.",
+        "answer_line": "After defense sets, before escape",
+        "distractors": {
+          "plausible": [
+            "Immediately upon knee bending",
+            "Once they start escaping"
+          ],
+          "trap": [
+            "Wait until they fully extract leg"
+          ]
+        }
       }
     ],
     "safety_considerations": "Kneebar to ashi-garami transitions involve significant knee joint vulnerability during the reconfiguration phase as forces shift from extension-based pressure to potential rotational threats. Maintain controlled, progressive movement throughout, never yanking or twisting the opponent's knee during the transition. Both practitioners must maintain tap awareness as the position changes: the attacker may inadvertently apply submission pressure during reconfiguration, and the opponent's knee is in a compromised position throughout. During training, communicate clearly with partners when practicing this transition to establish boundaries around heel hook exposure. Always release immediately upon tap or verbal submission. Drill at slow speed initially, increasing tempo only after both practitioners are comfortable with the control mechanics.",
@@ -380,23 +460,73 @@
     "flashcards": [
       {
         "question": "What is the most reliable cue that your opponent is transitioning from kneebar to ashi-garami rather than simply resting their kneebar pressure?",
-        "answer": "The most reliable cue is feeling their legs begin to shift position around your trapped leg while they maintain or tighten their arm grip. When an attacker rests, everything stays static. When they transition, you will feel their hips settle back and their legs begin loosening their kneebar configuration. The combination of released hip extension pressure with maintained arm control and leg movement is the definitive signal that a transition is underway rather than a brief rest."
+        "answer": "The most reliable cue is feeling their legs begin to shift position around your trapped leg while they maintain or tighten their arm grip. When an attacker rests, everything stays static. When they transition, you will feel their hips settle back and their legs begin loosening their kneebar configuration. The combination of released hip extension pressure with maintained arm control and leg movement is the definitive signal that a transition is underway rather than a brief rest.",
+        "answer_line": "Legs shift, arm grip stays tight",
+        "distractors": {
+          "plausible": [
+            "They release the arm grip",
+            "They simply pause movement"
+          ],
+          "trap": [
+            "Assume any pause is a transition"
+          ]
+        }
       },
       {
         "question": "Why is the transition window between kneebar and ashi-garami your best escape opportunity?",
-        "answer": "During the reconfiguration, the attacker's legs are between positions and provide neither kneebar control nor ashi-garami control. Their arms alone are holding you in place while their lower body reorganizes. This means you are fighting against only arm control rather than the combined arm-plus-leg control structure of either established position. The attacker cannot simultaneously reconfigure their legs and resist your escape attempts with full force, creating a brief asymmetry where your explosive effort meets their reduced control capacity."
+        "answer": "During the reconfiguration, the attacker's legs are between positions and provide neither kneebar control nor ashi-garami control. Their arms alone are holding you in place while their lower body reorganizes. This means you are fighting against only arm control rather than the combined arm-plus-leg control structure of either established position. The attacker cannot simultaneously reconfigure their legs and resist your escape attempts with full force, creating a brief asymmetry where your explosive effort meets their reduced control capacity.",
+        "answer_line": "Only arms control you, not legs",
+        "distractors": {
+          "plausible": [
+            "Both grips are strongest here",
+            "Kneebar pressure peaks now"
+          ],
+          "trap": [
+            "Wait, let position fully set"
+          ]
+        }
       },
       {
         "question": "Your opponent begins threading their inside leg across your near hip - what defensive action has the highest success rate?",
-        "answer": "Rotate your hips away from their threading leg while simultaneously pushing their shin off your hip with your near hand. The hip rotation closes the path their leg needs to travel across your body, while the hand push redirects the leg below your hip line. This combined action must happen before their foot plants on your far side. If their foot lands, the inside ashi-garami structure is established and this defense becomes dramatically harder. Speed of recognition and reaction is the determining factor."
+        "answer": "Rotate your hips away from their threading leg while simultaneously pushing their shin off your hip with your near hand. The hip rotation closes the path their leg needs to travel across your body, while the hand push redirects the leg below your hip line. This combined action must happen before their foot plants on your far side. If their foot lands, the inside ashi-garami structure is established and this defense becomes dramatically harder. Speed of recognition and reaction is the determining factor.",
+        "answer_line": "Rotate hips, push shin off hip",
+        "distractors": {
+          "plausible": [
+            "Grab their ankle and pull",
+            "Push their knee, not the shin"
+          ],
+          "trap": [
+            "Wait for foot to plant, then react"
+          ]
+        }
       },
       {
         "question": "If you fail to escape during the transition and the attacker establishes inside ashi-garami, what should be your immediate priority?",
-        "answer": "Immediately protect your heel by rotating your knee inward and curling your foot toward your own body to deny the attacker C-grip access on your heel bone. Simultaneously begin working your standard inside ashi-garami escape: fight to extract your heel from their grip, work to clear their inside leg from your hip, and prepare to either boot-scoot away or invert to clear the entanglement. The heel is the primary target from ashi-garami, so denying heel access buys time for a proper escape sequence."
+        "answer": "Immediately protect your heel by rotating your knee inward and curling your foot toward your own body to deny the attacker C-grip access on your heel bone. Simultaneously begin working your standard inside ashi-garami escape: fight to extract your heel from their grip, work to clear their inside leg from your hip, and prepare to either boot-scoot away or invert to clear the entanglement. The heel is the primary target from ashi-garami, so denying heel access buys time for a proper escape sequence.",
+        "answer_line": "Rotate knee in, protect heel",
+        "distractors": {
+          "plausible": [
+            "Push their hip away first",
+            "Grab their far leg for control"
+          ],
+          "trap": [
+            "Extend leg straight to escape"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when defending both the initial kneebar and the subsequent transition to ashi-garami?",
-        "answer": "Use structural defense during the kneebar phase by keeping your knee bent and posture strong without burning grip strength, reserving your explosive energy for the transition window. When you feel the kneebar pressure release, commit your saved energy to one decisive escape attempt rather than multiple half-efforts. If the escape fails and ashi-garami is established, immediately switch to efficient structural defense again to reset for the next escape window. The pattern is: conserve during established positions, explode during transitions, conserve again if caught in the new position."
+        "answer": "Use structural defense during the kneebar phase by keeping your knee bent and posture strong without burning grip strength, reserving your explosive energy for the transition window. When you feel the kneebar pressure release, commit your saved energy to one decisive escape attempt rather than multiple half-efforts. If the escape fails and ashi-garami is established, immediately switch to efficient structural defense again to reset for the next escape window. The pattern is: conserve during established positions, explode during transitions, conserve again if caught in the new position.",
+        "answer_line": "Conserve, explode in transition",
+        "distractors": {
+          "plausible": [
+            "Explode the whole time",
+            "Conserve energy the entire time"
+          ],
+          "trap": [
+            "Grip fight hard throughout kneebar"
+          ]
+        }
       }
     ],
     "training_progressions": [

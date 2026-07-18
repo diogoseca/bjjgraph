@@ -254,39 +254,129 @@
     "flashcards": [
       {
         "question": "Why must overhook extraction occur before leg removal when escaping New York Control?",
-        "answer": "The overhook traps your arm against your body and prevents effective defensive hand fighting. If you attempt to remove the leg control while the overhook persists, you cannot use your trapped arm to push the leg away or protect against submissions. Meanwhile, the bottom player freely cycles between gogoplata, triangle, and omoplata threats because your arm remains immobilized. Extracting the overhook first restores your ability to use both hands defensively, after which the leg wrap alone provides substantially weaker control."
+        "answer": "The overhook traps your arm against your body and prevents effective defensive hand fighting. If you attempt to remove the leg control while the overhook persists, you cannot use your trapped arm to push the leg away or protect against submissions. Meanwhile, the bottom player freely cycles between gogoplata, triangle, and omoplata threats because your arm remains immobilized. Extracting the overhook first restores your ability to use both hands defensively, after which the leg wrap alone provides substantially weaker control.",
+        "answer_line": "Free the trapped arm first",
+        "distractors": {
+          "plausible": [
+            "Clear the leg control first",
+            "Extract arm and leg together"
+          ],
+          "trap": [
+            "Power through with legs alone"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement during the lateral angle creation phase of the escape?",
-        "answer": "Shift your hips laterally toward the trapped arm side while keeping them low and heavy on the mat. This lateral shift changes the angle of your arm relative to the bottom player's overhook grip, reducing its mechanical advantage. The movement must be controlled and deliberate rather than explosive, maintaining your wide base throughout. Shifting toward the trapped side specifically creates the angle that allows shoulder rotation for extraction, whereas shifting away would actually deepen the overhook control."
+        "answer": "Shift your hips laterally toward the trapped arm side while keeping them low and heavy on the mat. This lateral shift changes the angle of your arm relative to the bottom player's overhook grip, reducing its mechanical advantage. The movement must be controlled and deliberate rather than explosive, maintaining your wide base throughout. Shifting toward the trapped side specifically creates the angle that allows shoulder rotation for extraction, whereas shifting away would actually deepen the overhook control.",
+        "answer_line": "Shift hips toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Shift hips away from trapped arm",
+            "Pop hips up explosively"
+          ],
+          "trap": [
+            "Sprawl hips high and light"
+          ]
+        }
       },
       {
         "question": "Your opponent adjusts their overhook grip mid-escape - how do you exploit this window?",
-        "answer": "Grip adjustments create one to two seconds where the overhook depth temporarily decreases and pulling pressure relaxes. Immediately accelerate your shoulder rotation forward and pull your elbow toward your hip during this window. Time your maximum extraction effort to coincide with their grip transition rather than fighting against their full control. If the window closes before extraction completes, reset to defensive base and wait for the next adjustment rather than forcing through re-established control."
+        "answer": "Grip adjustments create one to two seconds where the overhook depth temporarily decreases and pulling pressure relaxes. Immediately accelerate your shoulder rotation forward and pull your elbow toward your hip during this window. Time your maximum extraction effort to coincide with their grip transition rather than fighting against their full control. If the window closes before extraction completes, reset to defensive base and wait for the next adjustment rather than forcing through re-established control.",
+        "answer_line": "Explode rotation during adjustment",
+        "distractors": {
+          "plausible": [
+            "Wait for grip to fully release",
+            "Force through the reset grip"
+          ],
+          "trap": [
+            "Yank arm straight through overhook"
+          ]
+        }
       },
       {
         "question": "What grip should you establish immediately after freeing your trapped arm?",
-        "answer": "Post your freed hand on the bottom player's hip or bicep with a bent-arm frame. Do not extend your arm fully, as this creates triangle vulnerability. The hip frame prevents them from re-engaging the overhook by maintaining separation, while controlling their bicep prevents them from reaching for your head or establishing new grips. This defensive hand position must be established before you begin addressing the leg control, as even a brief moment without arm protection invites re-engagement of the overhook."
+        "answer": "Post your freed hand on the bottom player's hip or bicep with a bent-arm frame. Do not extend your arm fully, as this creates triangle vulnerability. The hip frame prevents them from re-engaging the overhook by maintaining separation, while controlling their bicep prevents them from reaching for your head or establishing new grips. This defensive hand position must be established before you begin addressing the leg control, as even a brief moment without arm protection invites re-engagement of the overhook.",
+        "answer_line": "Frame bent arm on hip or bicep",
+        "distractors": {
+          "plausible": [
+            "Extend arm straight to their hip",
+            "Address the leg control first"
+          ],
+          "trap": [
+            "Reach for a fresh submission grip"
+          ]
+        }
       },
       {
         "question": "The bottom player shoots their shin toward your neck for a gogoplata during your escape - what is your immediate response?",
-        "answer": "Tuck your chin firmly to your chest to close the throat and prevent the shin from settling across your trachea. Drive your head toward the mat on the side away from the incoming shin to reduce the angle. If possible, stack their hips by driving forward momentarily to compress the shin arc. As a last resort, stand up explosively to create distance that eliminates the shin-to-throat angle. Prevention is superior to reaction - maintaining chin-to-chest posture throughout the escape eliminates most gogoplata opportunities before they develop."
+        "answer": "Tuck your chin firmly to your chest to close the throat and prevent the shin from settling across your trachea. Drive your head toward the mat on the side away from the incoming shin to reduce the angle. If possible, stack their hips by driving forward momentarily to compress the shin arc. As a last resort, stand up explosively to create distance that eliminates the shin-to-throat angle. Prevention is superior to reaction - maintaining chin-to-chest posture throughout the escape eliminates most gogoplata opportunities before they develop.",
+        "answer_line": "Tuck chin, stack their hips",
+        "distractors": {
+          "plausible": [
+            "Pull head back and lean away",
+            "Stand up immediately first"
+          ],
+          "trap": [
+            "Push shin away with your hand"
+          ]
+        }
       },
       {
         "question": "How do you prevent being swept during the lateral weight shift phase of the escape?",
-        "answer": "Maintain a wide base with knees spread beyond shoulder width and hips heavy on the mat throughout the lateral shift. Your free hand should be prepared to post on the mat opposite to the shift direction if you feel sweep pressure. Move your weight laterally in small increments rather than committing large positional changes that compromise balance. If sweep momentum develops despite your base, immediately abandon the escape attempt and prioritize base recovery before the sweep completes, potentially accepting half guard rather than a full sweep to mount."
+        "answer": "Maintain a wide base with knees spread beyond shoulder width and hips heavy on the mat throughout the lateral shift. Your free hand should be prepared to post on the mat opposite to the shift direction if you feel sweep pressure. Move your weight laterally in small increments rather than committing large positional changes that compromise balance. If sweep momentum develops despite your base, immediately abandon the escape attempt and prioritize base recovery before the sweep completes, potentially accepting half guard rather than a full sweep to mount.",
+        "answer_line": "Wide base, post hand opposite",
+        "distractors": {
+          "plausible": [
+            "Commit to one big weight shift",
+            "Keep knees together for control"
+          ],
+          "trap": [
+            "Push forward to force the pass"
+          ]
+        }
       },
       {
         "question": "What specific conditions indicate the escape is safe to begin versus situations where you should wait?",
-        "answer": "Begin the escape when the bottom player's submissions are not actively being set up, your chin is securely tucked, both elbows are tight to your ribs, and you can establish a wide base without interference. Wait if the bottom player is mid-transition to a triangle or gogoplata, your arm is being actively pulled across your centerline, the overhook has just been freshly deepened after a failed attempt, or you feel your base is compromised by recent sweep pressure. Attempting escape during active submission setups dramatically increases the likelihood of getting caught."
+        "answer": "Begin the escape when the bottom player's submissions are not actively being set up, your chin is securely tucked, both elbows are tight to your ribs, and you can establish a wide base without interference. Wait if the bottom player is mid-transition to a triangle or gogoplata, your arm is being actively pulled across your centerline, the overhook has just been freshly deepened after a failed attempt, or you feel your base is compromised by recent sweep pressure. Attempting escape during active submission setups dramatically increases the likelihood of getting caught.",
+        "answer_line": "Chin tucked, elbows tight, safe",
+        "distractors": {
+          "plausible": [
+            "Begin once overhook feels loose",
+            "Start as soon as base is wide"
+          ],
+          "trap": [
+            "Escape mid submission setup"
+          ]
+        }
       },
       {
         "question": "If the bottom player deepens the overhook and stalls your extraction, what chain keeps you progressing instead of resetting?",
-        "answer": "Switch from fighting the arm to attacking the leg wrap's anchor: drive your hips forward to stack their hips upward, which both shortens the overhook's lever and forces them to choose between holding your arm and retaining the leg. As the stack loads their shoulders, re-fire the shoulder rotation during their adjustment. If they release the overhook to recover their hips, immediately clear the leg; if they keep it, the elevated hips weaken the leg wrap enough to slide your shoulder out laterally. Chaining the stack into the extraction prevents the position from resetting to a pure New York Control battle."
+        "answer": "Switch from fighting the arm to attacking the leg wrap's anchor: drive your hips forward to stack their hips upward, which both shortens the overhook's lever and forces them to choose between holding your arm and retaining the leg. As the stack loads their shoulders, re-fire the shoulder rotation during their adjustment. If they release the overhook to recover their hips, immediately clear the leg; if they keep it, the elevated hips weaken the leg wrap enough to slide your shoulder out laterally. Chaining the stack into the extraction prevents the position from resetting to a pure New York Control battle.",
+        "answer_line": "Stack their hips, then re-rotate",
+        "distractors": {
+          "plausible": [
+            "Reset fully and restart escape",
+            "Pull harder against the overhook"
+          ],
+          "trap": [
+            "Abandon base to yank the arm"
+          ]
+        }
       },
       {
         "question": "What is the precise direction of force for the shoulder rotation, and where do both hands stay during it?",
-        "answer": "Drive the trapped shoulder forward and diagonally downward toward the bottom player's far hip while pulling your elbow on a tight arc back toward your own same-side hip; the two opposing vectors create a wedge that peels the overhook loose. Throughout the rotation both hands stay framed at your neck and ribs rather than reaching out: the free hand pins their controlling wrist or biceps to stop re-deepening, and the trapped hand stays curled toward your chest so the extracting arm never straightens into triangle range. The force is rotational and compact, never a straight-line push."
+        "answer": "Drive the trapped shoulder forward and diagonally downward toward the bottom player's far hip while pulling your elbow on a tight arc back toward your own same-side hip; the two opposing vectors create a wedge that peels the overhook loose. Throughout the rotation both hands stay framed at your neck and ribs rather than reaching out: the free hand pins their controlling wrist or biceps to stop re-deepening, and the trapped hand stays curled toward your chest so the extracting arm never straightens into triangle range. The force is rotational and compact, never a straight-line push.",
+        "answer_line": "Shoulder down, elbow to own hip",
+        "distractors": {
+          "plausible": [
+            "Push shoulder straight forward",
+            "Pull elbow away from your body"
+          ],
+          "trap": [
+            "Extend arm out to create space"
+          ]
+        }
       }
     ],
     "safety_considerations": "The New York Control Escape involves shoulder rotation under load and lateral hip movement while managing an opponent's body weight. Be cautious of shoulder strain during overhook extraction, particularly if the bottom player resists aggressively. Communicate with training partners about pressure thresholds during drilling, and tap immediately if you feel joint stress in your trapped shoulder during live training. Neck safety requires maintaining chin-to-chest posture throughout to prevent gogoplata pressure on the trachea.",
@@ -395,23 +485,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is initiating a New York Control Escape?",
-        "answer": "The first reliable cue is the top player widening their knees and dropping their hips lower toward the mat, establishing the wide base needed for the lateral angle creation phase. This precedes the shoulder rotation and is your best window for proactive defense. Immediately deepen your overhook and increase active leg pressure when you observe this base change, as it indicates the escape protocol has begun before the arm extraction becomes the primary threat."
+        "answer": "The first reliable cue is the top player widening their knees and dropping their hips lower toward the mat, establishing the wide base needed for the lateral angle creation phase. This precedes the shoulder rotation and is your best window for proactive defense. Immediately deepen your overhook and increase active leg pressure when you observe this base change, as it indicates the escape protocol has begun before the arm extraction becomes the primary threat.",
+        "answer_line": "They widen knees, drop hips",
+        "distractors": {
+          "plausible": [
+            "They start pulling your arm",
+            "They begin standing up"
+          ],
+          "trap": [
+            "Wait until shoulder rotates"
+          ]
+        }
       },
       {
         "question": "How should you adjust when you feel the opponent's shoulder beginning to rotate forward under your overhook?",
-        "answer": "Immediately drive your controlling arm deeper under their armpit while pulling your elbow toward your own hip to increase overhook depth. Simultaneously increase active leg pressure by pulling your knee more aggressively toward their far shoulder. If the rotation continues despite deepening, begin transitioning your leg toward their neck for a triangle setup, converting their extraction movement into submission vulnerability. The shoulder rotation is the critical extraction mechanic and stopping it early is far easier than countering a completed extraction."
+        "answer": "Immediately drive your controlling arm deeper under their armpit while pulling your elbow toward your own hip to increase overhook depth. Simultaneously increase active leg pressure by pulling your knee more aggressively toward their far shoulder. If the rotation continues despite deepening, begin transitioning your leg toward their neck for a triangle setup, converting their extraction movement into submission vulnerability. The shoulder rotation is the critical extraction mechanic and stopping it early is far easier than countering a completed extraction.",
+        "answer_line": "Deepen overhook, add leg pressure",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Wait to see if rotation stops"
+          ],
+          "trap": [
+            "Loosen leg to reposition hips"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a sweep against someone escaping New York Control?",
-        "answer": "The optimal sweep timing is during the lateral weight shift phase when the top player moves their center of gravity off-center to create angle for overhook extraction. Their base is transitionally compromised during this movement, making hip bump sweeps and overhook-assisted off-balancing most effective. Attempting the sweep too early before they shift means fighting against a stable base, while attempting too late after arm extraction means you have lost the overhook leverage needed to power the sweep."
+        "answer": "The optimal sweep timing is during the lateral weight shift phase when the top player moves their center of gravity off-center to create angle for overhook extraction. Their base is transitionally compromised during this movement, making hip bump sweeps and overhook-assisted off-balancing most effective. Attempting the sweep too early before they shift means fighting against a stable base, while attempting too late after arm extraction means you have lost the overhook leverage needed to power the sweep.",
+        "answer_line": "During their lateral weight shift",
+        "distractors": {
+          "plausible": [
+            "Before they start shifting weight",
+            "After arm is fully extracted"
+          ],
+          "trap": [
+            "Sweep while they're still based"
+          ]
+        }
       },
       {
         "question": "Your overhook is failing and you cannot prevent arm extraction - what transition preserves offensive pressure?",
-        "answer": "Immediately transition to Mission Control or Crackhead Control by bringing your leg to their head and controlling posture with your shin before they can clear the leg wrap. Alternatively, if their arm is partially free, shoot for a triangle by threading your leg around their neck and freed arm. The key is recognizing overhook failure early enough to transition proactively rather than clinging to a lost grip. Any rubber guard control that maintains leg engagement preserves your offensive framework better than attempting to re-establish a compromised overhook."
+        "answer": "Immediately transition to Mission Control or Crackhead Control by bringing your leg to their head and controlling posture with your shin before they can clear the leg wrap. Alternatively, if their arm is partially free, shoot for a triangle by threading your leg around their neck and freed arm. The key is recognizing overhook failure early enough to transition proactively rather than clinging to a lost grip. Any rubber guard control that maintains leg engagement preserves your offensive framework better than attempting to re-establish a compromised overhook.",
+        "answer_line": "Slide leg to head, control posture",
+        "distractors": {
+          "plausible": [
+            "Re-grip and fight for overhook",
+            "Release everything and reset"
+          ],
+          "trap": [
+            "Let go of leg to chase the arm"
+          ]
+        }
       },
       {
         "question": "What prevents the top player from simply standing up explosively to escape New York Control?",
-        "answer": "Active leg pressure across their back combined with the deep overhook creates a structural connection that tracks upward movement and converts their elevation into submission angles. When they stand, the leg wrap tightens across their shoulder and the overhook pulls their posture forward, creating improved gogoplata and triangle angles. To defend against standing escapes specifically, drive your leg wrap deeper and pull your overhook arm downward as they begin to elevate, loading their posture forward while their base lifts away from them."
+        "answer": "Active leg pressure across their back combined with the deep overhook creates a structural connection that tracks upward movement and converts their elevation into submission angles. When they stand, the leg wrap tightens across their shoulder and the overhook pulls their posture forward, creating improved gogoplata and triangle angles. To defend against standing escapes specifically, drive your leg wrap deeper and pull your overhook arm downward as they begin to elevate, loading their posture forward while their base lifts away from them.",
+        "answer_line": "Leg wrap and overhook track them up",
+        "distractors": {
+          "plausible": [
+            "Only the overhook stops standing",
+            "Push down on their hips instead"
+          ],
+          "trap": [
+            "Release leg wrap to re-base"
+          ]
+        }
       }
     ],
     "training_progressions": [

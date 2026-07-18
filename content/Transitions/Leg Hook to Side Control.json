@@ -254,35 +254,115 @@
     "flashcards": [
       {
         "question": "What indicators signal the optimal moment to initiate the leg extraction for passing to side control?",
-        "answer": "The optimal window opens when the bottom player's defensive frames collapse, their shoulders flatten to the mat, they stop actively fighting the crossface, or they commit to a single escape direction that you can anticipate. Their leg clamp loosening or their far hip becoming controllable are additional indicators. Attempting extraction against active defense, strong frames, and mobile hips typically fails and risks sweep counters."
+        "answer": "The optimal window opens when the bottom player's defensive frames collapse, their shoulders flatten to the mat, they stop actively fighting the crossface, or they commit to a single escape direction that you can anticipate. Their leg clamp loosening or their far hip becoming controllable are additional indicators. Attempting extraction against active defense, strong frames, and mobile hips typically fails and risks sweep counters.",
+        "answer_line": "Frames collapse, shoulders flatten",
+        "distractors": {
+          "plausible": [
+            "As soon as crossface is locked",
+            "When they start to scramble"
+          ],
+          "trap": [
+            "Force it against tight frames"
+          ]
+        }
       },
       {
         "question": "What control points must be confirmed before initiating the leg extraction?",
-        "answer": "Three control points must be established before any leg movement: crossface locked with shoulder driving into the jaw line preventing the bottom player from turning toward you, far hip controlled with your free hand preventing hip escape, and the bottom player flattened or sufficiently compromised that their frames cannot create space during extraction. Missing any of these controls during the extraction creates exploitable gaps."
+        "answer": "Three control points must be established before any leg movement: crossface locked with shoulder driving into the jaw line preventing the bottom player from turning toward you, far hip controlled with your free hand preventing hip escape, and the bottom player flattened or sufficiently compromised that their frames cannot create space during extraction. Missing any of these controls during the extraction creates exploitable gaps.",
+        "answer_line": "Crossface, far hip, flattened",
+        "distractors": {
+          "plausible": [
+            "Crossface and near hip only",
+            "Far hip grip before crossface"
+          ],
+          "trap": [
+            "Skip crossface, grab both legs"
+          ]
+        }
       },
       {
         "question": "Why must the hip drive forward during extraction rather than pulling the leg backward?",
-        "answer": "Forward hip drive maintains body-to-body contact and pressure throughout the extraction, preventing the bottom player from creating space for guard recovery. Pulling the leg backward moves your weight away from the bottom player, opening a gap between bodies that they exploit for knee insertion, hip escape, or frame establishment. The mechanical principle is that your weight moves into the opponent while the leg changes angle to clear the entanglement."
+        "answer": "Forward hip drive maintains body-to-body contact and pressure throughout the extraction, preventing the bottom player from creating space for guard recovery. Pulling the leg backward moves your weight away from the bottom player, opening a gap between bodies that they exploit for knee insertion, hip escape, or frame establishment. The mechanical principle is that your weight moves into the opponent while the leg changes angle to clear the entanglement.",
+        "answer_line": "Drive hips in, not leg back",
+        "distractors": {
+          "plausible": [
+            "Pull leg back for more angle",
+            "Extract leg before hips drive"
+          ],
+          "trap": [
+            "Retreat hips to free the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their leg clamp as you begin the windshield wiper extraction - how do you adjust?",
-        "answer": "Switch to the hip switch extraction variant which changes the angle of force against their clamp. A tight clamp resists direct lateral windshield wiper motion but is vulnerable to the rotational angle change created by a hip switch. If the hip switch also fails, escalate to a backstep which bypasses the entanglement entirely by changing passing direction. Increase crossface pressure simultaneously, as splitting their attention between holding your leg and surviving upper body pressure often loosens the clamp."
+        "answer": "Switch to the hip switch extraction variant which changes the angle of force against their clamp. A tight clamp resists direct lateral windshield wiper motion but is vulnerable to the rotational angle change created by a hip switch. If the hip switch also fails, escalate to a backstep which bypasses the entanglement entirely by changing passing direction. Increase crossface pressure simultaneously, as splitting their attention between holding your leg and surviving upper body pressure often loosens the clamp.",
+        "answer_line": "Switch to hip switch variant",
+        "distractors": {
+          "plausible": [
+            "Yank harder on the same angle",
+            "Pause and reset the grip"
+          ],
+          "trap": [
+            "Release crossface to free leg"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical failure that allows guard recovery during this pass?",
-        "answer": "Lifting chest and shoulder pressure during the leg extraction to focus on freeing the hooked leg is the most common failure. This creates an immediate gap that the bottom player exploits by establishing frames, fighting for underhook, or initiating hip escape. The upper body pressure must increase during extraction to compensate for reduced lower body control. When practitioners lift their weight to extract the leg, they convert the pass from a pressure-driven sequence into a speed-based scramble where the bottom player has the advantage."
+        "answer": "Lifting chest and shoulder pressure during the leg extraction to focus on freeing the hooked leg is the most common failure. This creates an immediate gap that the bottom player exploits by establishing frames, fighting for underhook, or initiating hip escape. The upper body pressure must increase during extraction to compensate for reduced lower body control. When practitioners lift their weight to extract the leg, they convert the pass from a pressure-driven sequence into a speed-based scramble where the bottom player has the advantage.",
+        "answer_line": "Lifting chest pressure to extract",
+        "distractors": {
+          "plausible": [
+            "Rushing the extraction speed",
+            "Losing the far hip grip"
+          ],
+          "trap": [
+            "Standing up to clear the leg"
+          ]
+        }
       },
       {
         "question": "What role does far hip control play throughout this entire transition?",
-        "answer": "Far hip control prevents the bottom player's highest-percentage defense—hip escape—during every phase of the transition. Without this grip, the bottom player can shrimp away during the extraction window, recovering to knee shield, inserting butterfly hooks, or creating enough distance for full guard recovery. The grip must be maintained from the moment extraction begins until side control pins are fully consolidated, serving as a continuous tether that keeps the bottom player within your control sphere."
+        "answer": "Far hip control prevents the bottom player's highest-percentage defense—hip escape—during every phase of the transition. Without this grip, the bottom player can shrimp away during the extraction window, recovering to knee shield, inserting butterfly hooks, or creating enough distance for full guard recovery. The grip must be maintained from the moment extraction begins until side control pins are fully consolidated, serving as a continuous tether that keeps the bottom player within your control sphere.",
+        "answer_line": "Blocks hip escape the whole time",
+        "distractors": {
+          "plausible": [
+            "Only needed during extraction",
+            "Prevents underhook, not escape"
+          ],
+          "trap": [
+            "Release it once leg clears"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively as you begin clearing your leg past their entanglement - what do you do?",
-        "answer": "Widen your posted foot to absorb the bridge energy through a broad base rather than resisting rigidly. Keep your hips low and heavy while allowing the bridge to move through you without displacing your center of gravity. The bridge is a burst of energy that cannot sustain—once it collapses, immediately accelerate the extraction with intensified pressure. Never pause or retreat during a bridge, as that allows the bottom player to chain a second bridge or redirect into a hip escape."
+        "answer": "Widen your posted foot to absorb the bridge energy through a broad base rather than resisting rigidly. Keep your hips low and heavy while allowing the bridge to move through you without displacing your center of gravity. The bridge is a burst of energy that cannot sustain—once it collapses, immediately accelerate the extraction with intensified pressure. Never pause or retreat during a bridge, as that allows the bottom player to chain a second bridge or redirect into a hip escape.",
+        "answer_line": "Widen base, absorb, then accelerate",
+        "distractors": {
+          "plausible": [
+            "Brace rigid and stop moving",
+            "Retreat until bridge settles"
+          ],
+          "trap": [
+            "Pause and reset your grips"
+          ]
+        }
       },
       {
         "question": "If the direct pass to side control is blocked, what follow-up options exist from the leg hook position?",
-        "answer": "If the pass fails, three primary follow-up options remain from Leg Hook Top: consolidate to Half Guard Top via the Leg Hook to Half Guard transition for a stable passing reset, reattempt using a different extraction variant that addresses the specific defense that blocked the initial attempt, or chain into submission threats like kimura or darce choke that exploit the defensive commitments the bottom player made to block the pass. The worst option is to remain stalled in leg hook with no clear objective."
+        "answer": "If the pass fails, three primary follow-up options remain from Leg Hook Top: consolidate to Half Guard Top via the Leg Hook to Half Guard transition for a stable passing reset, reattempt using a different extraction variant that addresses the specific defense that blocked the initial attempt, or chain into submission threats like kimura or darce choke that exploit the defensive commitments the bottom player made to block the pass. The worst option is to remain stalled in leg hook with no clear objective.",
+        "answer_line": "Half guard, retry, or submission",
+        "distractors": {
+          "plausible": [
+            "Return fully to closed guard",
+            "Repeat the same extraction"
+          ],
+          "trap": [
+            "Stall in leg hook, no plan"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Leg Hook to Side Control transition carries low injury risk compared to submissions but requires attention to knee safety during the leg extraction phase. Avoid twisting or torquing either player's knee through the entanglement during extraction—the leg should clear through angular motion, not rotational force on the joint. During drilling, perform the extraction at controlled speed and communicate with training partners about knee discomfort. When consolidating side control, avoid placing full body weight directly on the sternum or floating ribs. Be mindful of neck pressure during the crossface—the shoulder should drive the jaw, not compress the windpipe.",
@@ -391,23 +471,73 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that the top player is about to attempt the leg extraction?",
-        "answer": "The earliest cue is a sudden intensification of crossface and shoulder pressure beyond the top player's normal holding pattern. This increase signals that they are preloading upper body control to compensate for the lower body control they are about to sacrifice during the extraction. Feeling this pressure spike should trigger immediate defensive preparation—tighten your leg clamp, prepare your frames, and ready your chosen counter-response."
+        "answer": "The earliest cue is a sudden intensification of crossface and shoulder pressure beyond the top player's normal holding pattern. This increase signals that they are preloading upper body control to compensate for the lower body control they are about to sacrifice during the extraction. Feeling this pressure spike should trigger immediate defensive preparation—tighten your leg clamp, prepare your frames, and ready your chosen counter-response.",
+        "answer_line": "Sudden spike in crossface pressure",
+        "distractors": {
+          "plausible": [
+            "Their grip on your leg loosens",
+            "They shift their hips wide"
+          ],
+          "trap": [
+            "Ignore it, they're just resetting"
+          ]
+        }
       },
       {
         "question": "Why is the extraction phase the best moment to attempt a sweep counter?",
-        "answer": "During the extraction, the top player's base is at its narrowest and most vulnerable because their weight is transitioning between two distinct control structures. They have partially released leg hook control but have not yet established side control base, creating a brief positional void where a well-timed sweep or bridge meets minimal resistance. This window does not exist in either the stable leg hook or stable side control positions, making the extraction your highest-percentage opportunity."
+        "answer": "During the extraction, the top player's base is at its narrowest and most vulnerable because their weight is transitioning between two distinct control structures. They have partially released leg hook control but have not yet established side control base, creating a brief positional void where a well-timed sweep or bridge meets minimal resistance. This window does not exist in either the stable leg hook or stable side control positions, making the extraction your highest-percentage opportunity.",
+        "answer_line": "Base narrowest mid-transition",
+        "distractors": {
+          "plausible": [
+            "Base is widest and most stable",
+            "Right after side control is set"
+          ],
+          "trap": [
+            "Wait until they fully pass"
+          ]
+        }
       },
       {
         "question": "Your knee shield insertion attempt is blocked and the top player's leg is clearing - what is your fallback?",
-        "answer": "Immediately transition to survival frames for side control: near-side forearm frame against the top player's neck or shoulder, far-side arm protecting against crossface deepening, inside elbow tight to your body to prevent arm isolation. The goal shifts from preventing the pass to establishing the best possible defensive structure within side control so that escape sequences can begin immediately. A well-framed side control bottom is recoverable; a pinned flat side control bottom is not."
+        "answer": "Immediately transition to survival frames for side control: near-side forearm frame against the top player's neck or shoulder, far-side arm protecting against crossface deepening, inside elbow tight to your body to prevent arm isolation. The goal shifts from preventing the pass to establishing the best possible defensive structure within side control so that escape sequences can begin immediately. A well-framed side control bottom is recoverable; a pinned flat side control bottom is not.",
+        "answer_line": "Build survival frames immediately",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the knee shield",
+            "Turtle away from the pressure"
+          ],
+          "trap": [
+            "Go flat and turn away"
+          ]
+        }
       },
       {
         "question": "How does maintaining hip angle affect your ability to defend this pass?",
-        "answer": "Staying on your side preserves hip mobility for escapes and sweeps, maintains the mechanical advantage of your leg clamp against extraction, allows your frames to generate pushing force rather than simply absorbing weight, and keeps sweep pathways viable. A flattened defender loses all of these advantages simultaneously because both shoulders contacting the mat eliminates rotational force generation and hip escape mechanics. Hip angle is the single most important structural element for pass defense."
+        "answer": "Staying on your side preserves hip mobility for escapes and sweeps, maintains the mechanical advantage of your leg clamp against extraction, allows your frames to generate pushing force rather than simply absorbing weight, and keeps sweep pathways viable. A flattened defender loses all of these advantages simultaneously because both shoulders contacting the mat eliminates rotational force generation and hip escape mechanics. Hip angle is the single most important structural element for pass defense.",
+        "answer_line": "Stay on your side, not flat",
+        "distractors": {
+          "plausible": [
+            "Square hips to build a frame",
+            "Post both shoulders for frames"
+          ],
+          "trap": [
+            "Turn flat to escape faster"
+          ]
+        }
       },
       {
         "question": "When should you abandon the leg clamp and redirect your defensive energy to other options?",
-        "answer": "Abandon the clamp when the hooked leg has cleared past the midpoint of extraction and continued clamping is burning energy without preventing progress. At this point, redirect energy immediately to the next defensive layer—knee shield insertion, butterfly hook establishment, or hip escape for guard recovery. Holding a failing clamp past the point of effectiveness exhausts your legs and delays establishing the defensive structures needed for the next phase. Early recognition of when the clamp has failed is crucial for preserving defensive resources."
+        "answer": "Abandon the clamp when the hooked leg has cleared past the midpoint of extraction and continued clamping is burning energy without preventing progress. At this point, redirect energy immediately to the next defensive layer—knee shield insertion, butterfly hook establishment, or hip escape for guard recovery. Holding a failing clamp past the point of effectiveness exhausts your legs and delays establishing the defensive structures needed for the next phase. Early recognition of when the clamp has failed is crucial for preserving defensive resources.",
+        "answer_line": "Once leg passes the midpoint",
+        "distractors": {
+          "plausible": [
+            "As soon as clamp feels tired",
+            "Only after fully passed"
+          ],
+          "trap": [
+            "Hold clamp until exhausted"
+          ]
+        }
       }
     ],
     "training_progressions": [

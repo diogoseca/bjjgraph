@@ -264,39 +264,129 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for transitioning from a sleeve grip break to pants control?",
-        "answer": "The transition must happen immediately—within a fraction of a second of breaking the grip. Any pause allows the opponent to re-establish their sleeve grip, which negates the effort of the break. The grip break and pants grab should feel like one continuous motion, not two separate actions. Train this as a single movement pattern where your hand travels directly from the breaking motion to the pants grip without returning to a neutral position."
+        "answer": "The transition must happen immediately—within a fraction of a second of breaking the grip. Any pause allows the opponent to re-establish their sleeve grip, which negates the effort of the break. The grip break and pants grab should feel like one continuous motion, not two separate actions. Train this as a single movement pattern where your hand travels directly from the breaking motion to the pants grip without returning to a neutral position.",
+        "answer_line": "One continuous motion, no pause",
+        "distractors": {
+          "plausible": [
+            "Break grip, then reset hands",
+            "Wait a beat before pants grab"
+          ],
+          "trap": [
+            "Return to neutral grip first"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their foot on your hip as you attempt to swing their legs laterally—how do you adjust?",
-        "answer": "Address the foot before continuing the toreando. Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact entirely. If the foot is deeply posted, consider switching to a knee slice on the posted-foot side, using the foot post as a pivot point for your passing angle. The worst option is trying to force the toreando through the foot frame, as this gives the opponent additional leverage to reguard or sweep."
+        "answer": "Address the foot before continuing the toreando. Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact entirely. If the foot is deeply posted, consider switching to a knee slice on the posted-foot side, using the foot post as a pivot point for your passing angle. The worst option is trying to force the toreando through the foot frame, as this gives the opponent additional leverage to reguard or sweep.",
+        "answer_line": "Swim elbow inside, clear foot",
+        "distractors": {
+          "plausible": [
+            "Grab and yank the foot away",
+            "Switch to a leg drag instead"
+          ],
+          "trap": [
+            "Force the pass through the foot"
+          ]
+        }
       },
       {
         "question": "Why is bilateral leg control essential before initiating the lateral toreando swing?",
-        "answer": "With only one leg controlled, the opponent's free leg can insert hooks, create lasso or spider guard configurations, post on your hip for distance, or actively block your lateral movement. Bilateral control eliminates all of these defensive options simultaneously, forcing the opponent to rely solely on hip movement and inversions to defend the pass. Controlling both legs at the knees also gives you the leverage to pin both legs to one side effectively."
+        "answer": "With only one leg controlled, the opponent's free leg can insert hooks, create lasso or spider guard configurations, post on your hip for distance, or actively block your lateral movement. Bilateral control eliminates all of these defensive options simultaneously, forcing the opponent to rely solely on hip movement and inversions to defend the pass. Controlling both legs at the knees also gives you the leverage to pin both legs to one side effectively.",
+        "answer_line": "Blocks hooks, lasso, hip posts",
+        "distractors": {
+          "plausible": [
+            "Mainly speeds up the pass",
+            "Stops opponent from standing"
+          ],
+          "trap": [
+            "Control just the near-side leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement in completing the toreando pass?",
-        "answer": "The circular hip movement that arcs past the opponent's legs on the opposite side of where they are pinned is the most critical element. Your hips must travel in a quarter-circle arc from your starting position to perpendicular alignment with the opponent's torso. Keeping hips low throughout this arc prevents the opponent from inserting frames or hooks. The hip circulation must be continuous and committed—stopping midway allows guard recovery."
+        "answer": "The circular hip movement that arcs past the opponent's legs on the opposite side of where they are pinned is the most critical element. Your hips must travel in a quarter-circle arc from your starting position to perpendicular alignment with the opponent's torso. Keeping hips low throughout this arc prevents the opponent from inserting frames or hooks. The hip circulation must be continuous and committed—stopping midway allows guard recovery.",
+        "answer_line": "Low, continuous quarter-circle arc",
+        "distractors": {
+          "plausible": [
+            "Fast straight sprint around legs",
+            "Raise hips for extra speed"
+          ],
+          "trap": [
+            "Pause mid-arc to reassess"
+          ]
+        }
       },
       {
         "question": "How do you determine which direction to pass when executing the toreando from double sleeve?",
-        "answer": "Assess three factors: the opponent's foot placement (pass toward the less active foot), their hip position (pass toward the flatter hip, as the elevated hip indicates they are loading that side for sweeps or guard retention), and their grip depth (pass away from their stronger sleeve grip since that side has better defensive control). Generally, pass toward the side where the opponent has less lower body activity and weaker defensive infrastructure."
+        "answer": "Assess three factors: the opponent's foot placement (pass toward the less active foot), their hip position (pass toward the flatter hip, as the elevated hip indicates they are loading that side for sweeps or guard retention), and their grip depth (pass away from their stronger sleeve grip since that side has better defensive control). Generally, pass toward the side where the opponent has less lower body activity and weaker defensive infrastructure.",
+        "answer_line": "Toward flatter hip, weaker grip",
+        "distractors": {
+          "plausible": [
+            "Always pass your dominant side",
+            "Toward the elevated, loaded hip"
+          ],
+          "trap": [
+            "Toward their strongest sleeve grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins closing their guard as you attempt to break the second sleeve grip—what is your immediate response?",
-        "answer": "Immediately posture up with hips back and wedge your lead elbow or knee between their closing legs to prevent the lock. Keep your chest up and drive your hips away from the opponent to create distance that prevents the guard from closing. If one leg is already controlled at the pants, use that control to push their leg down and away to break the closing angle. Never allow your posture to collapse forward during this exchange, as that accelerates the guard closure."
+        "answer": "Immediately posture up with hips back and wedge your lead elbow or knee between their closing legs to prevent the lock. Keep your chest up and drive your hips away from the opponent to create distance that prevents the guard from closing. If one leg is already controlled at the pants, use that control to push their leg down and away to break the closing angle. Never allow your posture to collapse forward during this exchange, as that accelerates the guard closure.",
+        "answer_line": "Posture up, wedge knee, hips back",
+        "distractors": {
+          "plausible": [
+            "Pull both ankles apart",
+            "Push down on opponent's hips"
+          ],
+          "trap": [
+            "Collapse chest forward to smother"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides optimal control for the lateral toreando swing?",
-        "answer": "Grip both pant legs at the knee crease with a pistol grip (four fingers inside, thumb outside), keeping your elbows close to your body. This grip position provides maximum leverage for the lateral swing while keeping your arms in a strong mechanical position. Gripping too low at the ankles reduces your control over hip movement, while gripping too high on the thighs puts your hands dangerously close to the opponent's hip frames and sweep setups."
+        "answer": "Grip both pant legs at the knee crease with a pistol grip (four fingers inside, thumb outside), keeping your elbows close to your body. This grip position provides maximum leverage for the lateral swing while keeping your arms in a strong mechanical position. Gripping too low at the ankles reduces your control over hip movement, while gripping too high on the thighs puts your hands dangerously close to the opponent's hip frames and sweep setups.",
+        "answer_line": "Pistol grip at knee crease",
+        "distractors": {
+          "plausible": [
+            "Grip low near the ankles",
+            "Thumb-inside wrap grip"
+          ],
+          "trap": [
+            "Grip high on the thighs"
+          ]
+        }
       },
       {
         "question": "The toreando is blocked and your opponent begins reguarding—what chain attack should you attempt?",
-        "answer": "When the toreando is blocked, immediately redirect to a knee slice pass on the opposite side from your toreando attempt, as the opponent's legs are likely displaced from the initial swing. If the knee slice is also blocked, transition to a leg drag by controlling one leg across the opponent's body. The key principle is never abandoning bilateral leg control to return to a neutral grip-fighting exchange—maintain your advantageous grips and chain to the next passing option."
+        "answer": "When the toreando is blocked, immediately redirect to a knee slice pass on the opposite side from your toreando attempt, as the opponent's legs are likely displaced from the initial swing. If the knee slice is also blocked, transition to a leg drag by controlling one leg across the opponent's body. The key principle is never abandoning bilateral leg control to return to a neutral grip-fighting exchange—maintain your advantageous grips and chain to the next passing option.",
+        "answer_line": "Knee slice opposite side",
+        "distractors": {
+          "plausible": [
+            "Leg drag before knee slice",
+            "Knee slice same side as swing"
+          ],
+          "trap": [
+            "Reset to neutral grip fighting"
+          ]
+        }
       },
       {
         "question": "What common failure point causes the passer to end up in half guard rather than completing to side control?",
-        "answer": "The most common failure is releasing pants control or lifting the chest too early before the hips have fully cleared the opponent's leg line. When you release control while your hips are still in line with their legs, the opponent inserts a knee shield or hooks your trailing leg with their bottom leg, catching you in half guard. The correction is maintaining bilateral leg control until your chest is dropping onto their upper body and your hips are fully past their legs."
+        "answer": "The most common failure is releasing pants control or lifting the chest too early before the hips have fully cleared the opponent's leg line. When you release control while your hips are still in line with their legs, the opponent inserts a knee shield or hooks your trailing leg with their bottom leg, catching you in half guard. The correction is maintaining bilateral leg control until your chest is dropping onto their upper body and your hips are fully past their legs.",
+        "answer_line": "Release control before hips clear",
+        "distractors": {
+          "plausible": [
+            "Passing too slowly overall",
+            "Weak collar tie during pass"
+          ],
+          "trap": [
+            "Release early to speed things up"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Toreando from Double Sleeve is a relatively low-risk technique in terms of injury potential, but practitioners should be mindful of several safety factors. During explosive grip breaks, avoid hyperextending your own wrists or elbows by using proper mechanics. When swinging the opponent's legs laterally, control the speed to prevent knee or hip strain on the bottom player. During training, communicate with your partner and avoid dropping your full weight aggressively when establishing side control, particularly with less experienced training partners.",
@@ -414,19 +504,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a toreando pass is being set up from double sleeve guard?",
-        "answer": "The earliest cue is the opponent's hand movement after breaking a sleeve grip—if their freed hand immediately moves downward toward your legs rather than attempting to establish collar or lapel control, a toreando setup is likely. Watch for the combined pattern of grip break followed by downward hand redirection and posture change from being pulled forward to standing upright with hips back. Recognizing this pattern early gives you the maximum window to regrip or transition guards."
+        "answer": "The earliest cue is the opponent's hand movement after breaking a sleeve grip—if their freed hand immediately moves downward toward your legs rather than attempting to establish collar or lapel control, a toreando setup is likely. Watch for the combined pattern of grip break followed by downward hand redirection and posture change from being pulled forward to standing upright with hips back. Recognizing this pattern early gives you the maximum window to regrip or transition guards.",
+        "answer_line": "Freed hand drops toward your legs",
+        "distractors": {
+          "plausible": [
+            "Hand reaches for your collar",
+            "Grip shifts to your far sleeve"
+          ],
+          "trap": [
+            "Wait until legs are controlled"
+          ]
+        }
       },
       {
         "question": "When should you prioritize closing guard versus regripping sleeves as a defensive response?",
-        "answer": "Prioritize regripping when the opponent's posture is still partially compromised and their hands have not yet secured your pants—regripping is always the superior option as it returns you to your preferred guard. Prioritize closing guard when the opponent has broken both grips and is within range but their posture has dropped forward, making guard closure mechanically available. Closing guard is an emergency defense when regripping is no longer viable, not a first-choice response."
+        "answer": "Prioritize regripping when the opponent's posture is still partially compromised and their hands have not yet secured your pants—regripping is always the superior option as it returns you to your preferred guard. Prioritize closing guard when the opponent has broken both grips and is within range but their posture has dropped forward, making guard closure mechanically available. Closing guard is an emergency defense when regripping is no longer viable, not a first-choice response.",
+        "answer_line": "Regrip first, guard as backup",
+        "distractors": {
+          "plausible": [
+            "Close guard as first response",
+            "Regrip after both grips broken"
+          ],
+          "trap": [
+            "Stay passive and wait it out"
+          ]
+        }
       },
       {
         "question": "Your opponent has controlled both your legs at the knees and begins the lateral swing—what is your best defensive option?",
-        "answer": "Hip escape aggressively in the opposite direction of the lateral swing while framing on the opponent's shoulder or bicep with both hands. Your hip movement must outpace their lateral circling to keep your legs between your body and theirs. Simultaneously work to free at least one leg by kicking through their grip or hooking their arm with your foot. If you can free one leg and insert it as a knee shield, you recover to half guard and prevent the complete pass."
+        "answer": "Hip escape aggressively in the opposite direction of the lateral swing while framing on the opponent's shoulder or bicep with both hands. Your hip movement must outpace their lateral circling to keep your legs between your body and theirs. Simultaneously work to free at least one leg by kicking through their grip or hooking their arm with your foot. If you can free one leg and insert it as a knee shield, you recover to half guard and prevent the complete pass.",
+        "answer_line": "Hip escape away, frame shoulder",
+        "distractors": {
+          "plausible": [
+            "Escape same direction as swing",
+            "Frame on opponent's hips only"
+          ],
+          "trap": [
+            "Stay flat and grip fight legs"
+          ]
+        }
       },
       {
         "question": "How do active feet prevent the toreando setup from developing?",
-        "answer": "Active feet posted on the opponent's hips or biceps create physical barriers that the opponent must address before they can transition their hands to pants control. A foot on the hip prevents the opponent from stepping forward into range for pants grips, while a foot on the bicep controls their arm path and makes grip transitions difficult. Active feet also allow you to push the opponent away to create distance if they attempt to reach for your legs, buying time to regrip or adjust your guard structure."
+        "answer": "Active feet posted on the opponent's hips or biceps create physical barriers that the opponent must address before they can transition their hands to pants control. A foot on the hip prevents the opponent from stepping forward into range for pants grips, while a foot on the bicep controls their arm path and makes grip transitions difficult. Active feet also allow you to push the opponent away to create distance if they attempt to reach for your legs, buying time to regrip or adjust your guard structure.",
+        "answer_line": "Feet post on hips and biceps",
+        "distractors": {
+          "plausible": [
+            "Feet post flat on the mat",
+            "Feet block collar grips only"
+          ],
+          "trap": [
+            "Keep feet passive, save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

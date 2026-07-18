@@ -338,35 +338,115 @@
     "flashcards": [
       {
         "question": "What is the primary risk when approaching a seated guard player without establishing grips first?",
-        "answer": "Approaching without grips allows the opponent to freely attack with sweeps, enter leg entanglements like Single Leg X-Guard, or execute a technical standup. Their legs remain uncontrolled and can push, hook, or entangle you. The seated player has excellent base from their posted hands, so they can react offensively to any uncommitted approach. Always establish at least one dominant grip (collar, sleeve, or pants) before closing distance."
+        "answer": "Approaching without grips allows the opponent to freely attack with sweeps, enter leg entanglements like Single Leg X-Guard, or execute a technical standup. Their legs remain uncontrolled and can push, hook, or entangle you. The seated player has excellent base from their posted hands, so they can react offensively to any uncommitted approach. Always establish at least one dominant grip (collar, sleeve, or pants) before closing distance.",
+        "answer_line": "Get a dominant grip first",
+        "distractors": {
+          "plausible": [
+            "Circle for a better angle",
+            "Wait for them to move first"
+          ],
+          "trap": [
+            "Charge in with no grips"
+          ]
+        }
       },
       {
         "question": "Why is stance switching between standing and kneeling important when passing seated guard?",
-        "answer": "Stance switching disrupts the opponent's timing and prevents them from calibrating their attacks. When you stay static in one stance, they can time sweeps, standups, and entries perfectly. Standing gives mobility but exposes you to ankle picks; kneeling provides pressure but allows hook insertion. By constantly alternating, you keep the opponent guessing and force them to constantly readjust their offensive timing."
+        "answer": "Stance switching disrupts the opponent's timing and prevents them from calibrating their attacks. When you stay static in one stance, they can time sweeps, standups, and entries perfectly. Standing gives mobility but exposes you to ankle picks; kneeling provides pressure but allows hook insertion. By constantly alternating, you keep the opponent guessing and force them to constantly readjust their offensive timing.",
+        "answer_line": "Switch stance to break timing",
+        "distractors": {
+          "plausible": [
+            "Stay low and kneel the whole time",
+            "Stand tall for full mobility"
+          ],
+          "trap": [
+            "Stay static to control pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent in seated guard starts to execute a technical standup - what is the optimal counter?",
-        "answer": "The optimal counter is a snap down to front headlock position. As they rise to stand, their head becomes exposed and they momentarily compromise their base. By snapping their head down with a collar or head tie, you can establish front headlock control which offers guillotine and go-behind opportunities. Alternatively, a quick toreando pass or bodylock can capitalize on their weight shift during the standup attempt."
+        "answer": "The optimal counter is a snap down to front headlock position. As they rise to stand, their head becomes exposed and they momentarily compromise their base. By snapping their head down with a collar or head tie, you can establish front headlock control which offers guillotine and go-behind opportunities. Alternatively, a quick toreando pass or bodylock can capitalize on their weight shift during the standup attempt.",
+        "answer_line": "Snap down to front headlock",
+        "distractors": {
+          "plausible": [
+            "Follow them up to standing",
+            "Shoot in for a takedown"
+          ],
+          "trap": [
+            "Back away and reset distance"
+          ]
+        }
       },
       {
         "question": "What angle should you approach from when passing seated guard, and why?",
-        "answer": "Approach from 45-degree angles outside the opponent's centerline rather than directly in front. When you pass straight forward, their legs have maximum leverage to frame, push, and create distance. From the angle, their legs cannot generate the same power to resist, and you can redirect their leg defense while advancing to the side. Think of going around their leg defense rather than through it."
+        "answer": "Approach from 45-degree angles outside the opponent's centerline rather than directly in front. When you pass straight forward, their legs have maximum leverage to frame, push, and create distance. From the angle, their legs cannot generate the same power to resist, and you can redirect their leg defense while advancing to the side. Think of going around their leg defense rather than through it.",
+        "answer_line": "Angle 45 degrees off centerline",
+        "distractors": {
+          "plausible": [
+            "Walk straight in, low stance",
+            "Circle fully behind them"
+          ],
+          "trap": [
+            "Push straight through their legs"
+          ]
+        }
       },
       {
         "question": "How do you prevent an opponent from inserting butterfly hooks as you drop your weight to pass?",
-        "answer": "The key is timing - only drop weight after you've cleared or controlled their legs. Maintain standing or kneeling posture until you've established a clear passing angle and leg control. If they try to insert hooks, immediately use knee slice or long step to cut through before hooks are fully established. Control at least one of their legs with your hands to limit their ability to create hook position."
+        "answer": "The key is timing - only drop weight after you've cleared or controlled their legs. Maintain standing or kneeling posture until you've established a clear passing angle and leg control. If they try to insert hooks, immediately use knee slice or long step to cut through before hooks are fully established. Control at least one of their legs with your hands to limit their ability to create hook position.",
+        "answer_line": "Clear legs before dropping weight",
+        "distractors": {
+          "plausible": [
+            "Drop weight fast to smash pass",
+            "Control one leg, drop right away"
+          ],
+          "trap": [
+            "Kneel down immediately to pass"
+          ]
+        }
       },
       {
         "question": "What grip combination provides the best control for preventing both sweeps and technical standups from seated guard?",
-        "answer": "A collar grip combined with same-side pants or sleeve control provides excellent control. The collar grip prevents them from sitting up for technical standup and breaks their posture. The pants/sleeve grip limits their leg mobility for sweeps. This combination allows you to pull them off-balance while controlling their primary offensive tools. Some practitioners prefer double pants grips for maximum leg control before establishing upper body control."
+        "answer": "A collar grip combined with same-side pants or sleeve control provides excellent control. The collar grip prevents them from sitting up for technical standup and breaks their posture. The pants/sleeve grip limits their leg mobility for sweeps. This combination allows you to pull them off-balance while controlling their primary offensive tools. Some practitioners prefer double pants grips for maximum leg control before establishing upper body control.",
+        "answer_line": "Collar grip + pants/sleeve",
+        "distractors": {
+          "plausible": [
+            "Double pants grips only",
+            "Both sleeves, no collar"
+          ],
+          "trap": [
+            "Single collar grip alone"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs both your ankles while you're standing over their seated guard - what is the correct response?",
-        "answer": "Immediately circle one foot free while maintaining posture - never allow both ankles to remain controlled. As you free one leg, use that freedom to establish a controlling grip on their collar or pants. If they commit fully to ankle control, their upper body becomes vulnerable to collar drags and snap downs. The worst response is to stand still or try to advance with both ankles controlled, as this invites ankle picks and single leg X entries."
+        "answer": "Immediately circle one foot free while maintaining posture - never allow both ankles to remain controlled. As you free one leg, use that freedom to establish a controlling grip on their collar or pants. If they commit fully to ankle control, their upper body becomes vulnerable to collar drags and snap downs. The worst response is to stand still or try to advance with both ankles controlled, as this invites ankle picks and single leg X entries.",
+        "answer_line": "Free one foot, grip collar",
+        "distractors": {
+          "plausible": [
+            "Pull both ankles back sharply",
+            "Sit down to break the grip"
+          ],
+          "trap": [
+            "Stand still and push forward"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to fully commit your weight forward during a seated guard pass?",
-        "answer": "Only commit full weight forward after you've cleared the opponent's legs and are moving into consolidation position. Premature weight commitment while their legs are still active allows them to insert hooks, close guard, or use your forward momentum for sweeps. The correct sequence is: establish grips, create angle, control legs, clear leg defense, then drop weight for consolidation. If you feel their legs are still threatening, maintain mobility instead of committing."
+        "answer": "Only commit full weight forward after you've cleared the opponent's legs and are moving into consolidation position. Premature weight commitment while their legs are still active allows them to insert hooks, close guard, or use your forward momentum for sweeps. The correct sequence is: establish grips, create angle, control legs, clear leg defense, then drop weight for consolidation. If you feel their legs are still threatening, maintain mobility instead of committing.",
+        "answer_line": "After clearing their legs",
+        "distractors": {
+          "plausible": [
+            "As soon as you get a grip",
+            "Right after switching stance"
+          ],
+          "trap": [
+            "Drive weight in immediately"
+          ]
+        }
       }
     ],
     "clips": [
@@ -713,35 +793,115 @@
     "flashcards": [
       {
         "question": "What is the optimal hand posting position for maintaining seated guard, and why does it matter?",
-        "answer": "Post hands slightly wider than shoulder-width apart, fingers pointing away from body, elbows slightly bent like springs. This creates a stable tripod base with your hips while allowing mobility. Too narrow collapses under pressure, too wide limits your ability to move laterally. The slight elbow bend creates a spring-like structure that absorbs pressure without collapsing, while engaging your lats provides additional structural support."
+        "answer": "Post hands slightly wider than shoulder-width apart, fingers pointing away from body, elbows slightly bent like springs. This creates a stable tripod base with your hips while allowing mobility. Too narrow collapses under pressure, too wide limits your ability to move laterally. The slight elbow bend creates a spring-like structure that absorbs pressure without collapsing, while engaging your lats provides additional structural support.",
+        "answer_line": "Shoulder-width, elbows springy",
+        "distractors": {
+          "plausible": [
+            "Hands narrow, arms locked straight",
+            "Hands wide, weight on palms"
+          ],
+          "trap": [
+            "Post hands far behind hips"
+          ]
+        }
       },
       {
         "question": "Your opponent is standing at distance without committing to pass - what is the best tactical response?",
-        "answer": "When opponent maintains distance without engaging, the technical standup is often the highest-percentage response. You have space to stand safely, and standing resets the position to neutral where you can re-engage on equal terms or shoot takedowns. Alternatively, you can scoot forward to force engagement, but this requires reading their reaction. A passive opponent at distance is an opportunity to improve your position."
+        "answer": "When opponent maintains distance without engaging, the technical standup is often the highest-percentage response. You have space to stand safely, and standing resets the position to neutral where you can re-engage on equal terms or shoot takedowns. Alternatively, you can scoot forward to force engagement, but this requires reading their reaction. A passive opponent at distance is an opportunity to improve your position.",
+        "answer_line": "Technical standup to reset",
+        "distractors": {
+          "plausible": [
+            "Scoot forward to engage",
+            "Wait passively for them to close"
+          ],
+          "trap": [
+            "Lie back and invite them in"
+          ]
+        }
       },
       {
         "question": "How should your feet function in seated guard, and what happens if they become passive?",
-        "answer": "Your feet should actively manage distance by pushing, pulling, framing, and probing. They detect opponent's weight distribution and act as barriers to prevent advancement. Active feet push on hips to maintain space, hook ankles for sweep setups, and frame against knees to prevent passes. Passive feet allow opponent to close distance at will, establish pressure, and pass without meaningful resistance. The difference between good and poor seated guard is primarily foot activity."
+        "answer": "Your feet should actively manage distance by pushing, pulling, framing, and probing. They detect opponent's weight distribution and act as barriers to prevent advancement. Active feet push on hips to maintain space, hook ankles for sweep setups, and frame against knees to prevent passes. Passive feet allow opponent to close distance at will, establish pressure, and pass without meaningful resistance. The difference between good and poor seated guard is primarily foot activity.",
+        "answer_line": "Feet actively push, frame, hook",
+        "distractors": {
+          "plausible": [
+            "Feet stay light, just balance",
+            "Feet only hook for sweeps"
+          ],
+          "trap": [
+            "Keep feet passive, save energy"
+          ]
+        }
       },
       {
         "question": "Opponent steps forward aggressively - what sweep options become available and why?",
-        "answer": "When opponent steps forward, their weight shifts onto their lead leg, compromising their base. This opens scissor sweep (catch stepping leg with your shin while driving with other leg), tripod sweep (feet on hip and ankle while pulling their sleeve), and butterfly sweep (insert hook and elevate as their weight commits forward). The key is recognizing the weight shift and attacking during the transition when their base is weakest."
+        "answer": "When opponent steps forward, their weight shifts onto their lead leg, compromising their base. This opens scissor sweep (catch stepping leg with your shin while driving with other leg), tripod sweep (feet on hip and ankle while pulling their sleeve), and butterfly sweep (insert hook and elevate as their weight commits forward). The key is recognizing the weight shift and attacking during the transition when their base is weakest.",
+        "answer_line": "Attack the weight-shifted leg",
+        "distractors": {
+          "plausible": [
+            "Wait for full commitment first",
+            "Pull guard closed immediately"
+          ],
+          "trap": [
+            "Retreat to create distance"
+          ]
+        }
       },
       {
         "question": "What is the correct response when opponent achieves chest-to-chest pressure in seated guard?",
-        "answer": "Once chest-to-chest pressure is established, seated guard has failed - you must immediately transition. Frame with forearms or elbows against their shoulders/chest to create space, then shrimp your hips away to recover half guard or butterfly guard. The key is not to accept the pressure but to immediately work to recover a more defensible position. Trying to maintain seated guard under chest pressure is futile and leads to getting passed."
+        "answer": "Once chest-to-chest pressure is established, seated guard has failed - you must immediately transition. Frame with forearms or elbows against their shoulders/chest to create space, then shrimp your hips away to recover half guard or butterfly guard. The key is not to accept the pressure but to immediately work to recover a more defensible position. Trying to maintain seated guard under chest pressure is futile and leads to getting passed.",
+        "answer_line": "Frame and shrimp to half guard",
+        "distractors": {
+          "plausible": [
+            "Hold seated guard, grip fight",
+            "Push hips up to reverse"
+          ],
+          "trap": [
+            "Flatten out and turtle up"
+          ]
+        }
       },
       {
         "question": "Why is constant hip movement essential in seated guard, and what should this movement look like?",
-        "answer": "Constant hip adjustment prevents opponent from establishing static control and timing their passes. Movement should include small lateral shifts, forward scoots to close distance for attacks, and backward movements to create space. You should always be micro-adjusting based on opponent's positioning. If opponent seems comfortable and is slowly advancing their position, you're too static. The movement makes it impossible for them to time grips and passes precisely."
+        "answer": "Constant hip adjustment prevents opponent from establishing static control and timing their passes. Movement should include small lateral shifts, forward scoots to close distance for attacks, and backward movements to create space. You should always be micro-adjusting based on opponent's positioning. If opponent seems comfortable and is slowly advancing their position, you're too static. The movement makes it impossible for them to time grips and passes precisely.",
+        "answer_line": "Constant micro hip adjustments",
+        "distractors": {
+          "plausible": [
+            "Big explosive movements only",
+            "Stay still, conserve energy"
+          ],
+          "trap": [
+            "Lie back to reset position"
+          ]
+        }
       },
       {
         "question": "When opponent controls one of your legs, what is the correct defensive response?",
-        "answer": "Immediately activate your free leg as both a defensive and offensive tool. The free leg can push on their hip to create distance, frame against their knee to prevent advancement, hook their ankle for sweep attempts, or set up Single Leg X-Guard entry. Never allow both legs to be controlled simultaneously. Think of your legs as independent systems - when one is compromised, the other compensates. The worst response is to try to free the controlled leg while leaving the other passive."
+        "answer": "Immediately activate your free leg as both a defensive and offensive tool. The free leg can push on their hip to create distance, frame against their knee to prevent advancement, hook their ankle for sweep attempts, or set up Single Leg X-Guard entry. Never allow both legs to be controlled simultaneously. Think of your legs as independent systems - when one is compromised, the other compensates. The worst response is to try to free the controlled leg while leaving the other passive.",
+        "answer_line": "Use free leg to push/frame/hook",
+        "distractors": {
+          "plausible": [
+            "Fight to free the trapped leg",
+            "Pull both legs in tight"
+          ],
+          "trap": [
+            "Let both legs go passive"
+          ]
+        }
       },
       {
         "question": "What visual cues indicate it's time to execute a technical standup rather than stay in seated guard?",
-        "answer": "Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available."
+        "answer": "Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available.",
+        "answer_line": "Space opens, they hesitate",
+        "distractors": {
+          "plausible": [
+            "Opponent closes distance fast",
+            "They commit to chest pressure"
+          ],
+          "trap": [
+            "Wait until fully passed"
+          ]
+        }
       }
     ],
     "clips": [
@@ -777,35 +937,115 @@
   "flashcards_position": [
     {
       "question": "What physical configuration defines Seated Guard and distinguishes it from other open guards?",
-      "answer": "Seated Guard is defined by the bottom player sitting with hips flat on the mat, torso upright, hands posted behind for a tripod base, and legs extended or bent toward a standing or kneeling opponent. Unlike closed or butterfly guard, no legs are wrapped or hooked around the opponent, preserving maximum freedom of leg movement for distance management. The upright posture with posted hands is the signature trait, because it keeps the sitting player one motion away from a technical standup. This makes the position simultaneously grounded and mobile rather than committed to a wrap or entanglement."
+      "answer": "Seated Guard is defined by the bottom player sitting with hips flat on the mat, torso upright, hands posted behind for a tripod base, and legs extended or bent toward a standing or kneeling opponent. Unlike closed or butterfly guard, no legs are wrapped or hooked around the opponent, preserving maximum freedom of leg movement for distance management. The upright posture with posted hands is the signature trait, because it keeps the sitting player one motion away from a technical standup. This makes the position simultaneously grounded and mobile rather than committed to a wrap or entanglement.",
+      "answer_line": "Upright, hands posted, legs free",
+      "distractors": {
+        "plausible": [
+          "Legs hooked around their hips",
+          "Flat on back, knees tucked"
+        ],
+        "trap": [
+          "Wrapped closed guard on the mat"
+        ]
+      }
     },
     {
       "question": "Why is the distance between the two players the central battleground in Seated Guard?",
-      "answer": "Distance is central because it determines which player's tools are active: at range the sitting player's feet and legs act as frames and probes to keep the standing player out, while up close the standing player's chest pressure and grips take over. The sitting player fights to preserve a gap where their legs can push, pull, and hook, whereas the passer fights to collapse that gap and reach chest-to-chest. Whoever controls the engagement distance dictates the exchange, so the position is essentially a continuous negotiation over that spacing. This is why passive feet or an uncommitted approach both surrender ground instantly."
+      "answer": "Distance is central because it determines which player's tools are active: at range the sitting player's feet and legs act as frames and probes to keep the standing player out, while up close the standing player's chest pressure and grips take over. The sitting player fights to preserve a gap where their legs can push, pull, and hook, whereas the passer fights to collapse that gap and reach chest-to-chest. Whoever controls the engagement distance dictates the exchange, so the position is essentially a continuous negotiation over that spacing. This is why passive feet or an uncommitted approach both surrender ground instantly.",
+      "answer_line": "Distance decides whose tools work",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides the pass",
+          "Hip speed decides the sweep"
+        ],
+        "trap": [
+          "Distance barely matters here"
+        ]
+      }
     },
     {
       "question": "What role do the posted hands play in the mechanics of Seated Guard for the seated player?",
-      "answer": "The posted hands form the rear legs of a tripod with the hips, giving the seated player a stable yet mobile base rather than a passive lean. Slightly bent elbows act like springs that absorb incoming pressure without collapsing the player onto their back. This base lets the seated player pivot on their hips to face a circling opponent and elevate the hips to generate power or initiate a standup. If the hands post too narrow, too wide, or too far back, the base weakens and the standing player can flatten or drive over the seated player."
+      "answer": "The posted hands form the rear legs of a tripod with the hips, giving the seated player a stable yet mobile base rather than a passive lean. Slightly bent elbows act like springs that absorb incoming pressure without collapsing the player onto their back. This base lets the seated player pivot on their hips to face a circling opponent and elevate the hips to generate power or initiate a standup. If the hands post too narrow, too wide, or too far back, the base weakens and the standing player can flatten or drive over the seated player.",
+      "answer_line": "Tripod base with springy elbows",
+      "distractors": {
+        "plausible": [
+          "Locked straight arms for power",
+          "Hands close together for speed"
+        ],
+        "trap": [
+          "Lean back on flat palms"
+        ]
+      }
     },
     {
       "question": "Why is Seated Guard considered a transitional position rather than a static holding position?",
-      "answer": "Seated Guard offers no wrap, hook, or grip that locks the two players together, so neither side can simply sit still and hold it. The seated player must constantly micro-adjust hips and feet to prevent the passer from timing grips and closing distance, while the passer must keep switching stance and angle to avoid being swept or countered on a standup. Staying static lets the opposing player calibrate and win the exchange, which is why constant movement is a shared requirement. The position is essentially a launch point that resolves quickly into a standup, a sweep, a pass, or a new guard."
+      "answer": "Seated Guard offers no wrap, hook, or grip that locks the two players together, so neither side can simply sit still and hold it. The seated player must constantly micro-adjust hips and feet to prevent the passer from timing grips and closing distance, while the passer must keep switching stance and angle to avoid being swept or countered on a standup. Staying static lets the opposing player calibrate and win the exchange, which is why constant movement is a shared requirement. The position is essentially a launch point that resolves quickly into a standup, a sweep, a pass, or a new guard.",
+      "answer_line": "No wrap locks it, must move",
+      "distractors": {
+        "plausible": [
+          "Hooks lock it in place",
+          "Grip fight settles it"
+        ],
+        "trap": [
+          "Hold still to control tempo"
+        ]
+      }
     },
     {
       "question": "How does the technical standup threat shape the dynamics for both players in Seated Guard?",
-      "answer": "Because the seated player can rise to standing in a single motion, the passer cannot bull-rush forward or overcommit weight without risking a scramble or reversal. This latent standup forces the top player to respect the sitting player's base, hold grips that pin the seat, and pass from angles rather than straight pressure. For the seated player, being physically and mentally ready to stand at any moment is what keeps the top player cautious and creates openings. The threat conditions the entire exchange even when no standup actually occurs."
+      "answer": "Because the seated player can rise to standing in a single motion, the passer cannot bull-rush forward or overcommit weight without risking a scramble or reversal. This latent standup forces the top player to respect the sitting player's base, hold grips that pin the seat, and pass from angles rather than straight pressure. For the seated player, being physically and mentally ready to stand at any moment is what keeps the top player cautious and creates openings. The threat conditions the entire exchange even when no standup actually occurs.",
+      "answer_line": "Threat of standup limits passer",
+      "distractors": {
+        "plausible": [
+          "Standup threat only matters if used",
+          "Passer ignores standup risk"
+        ],
+        "trap": [
+          "Passer can rush in safely"
+        ]
+      }
     },
     {
       "question": "Why does chest-to-chest pressure represent the failure point of Seated Guard for the bottom player?",
-      "answer": "Seated Guard depends on a gap that keeps the seated player's legs and frames between the two torsos, so when the passer establishes chest-to-chest contact that gap is gone and the legs can no longer function as barriers. At that point the seated player's base is compromised, their hips are pinned, and the upright posture collapses toward the back. The position has effectively ended, and the correct response shifts from playing Seated Guard to framing and shrimping toward half guard or butterfly recovery. This is the shared threshold both players recognize: reaching it is the passer's goal and the guard player's alarm."
+      "answer": "Seated Guard depends on a gap that keeps the seated player's legs and frames between the two torsos, so when the passer establishes chest-to-chest contact that gap is gone and the legs can no longer function as barriers. At that point the seated player's base is compromised, their hips are pinned, and the upright posture collapses toward the back. The position has effectively ended, and the correct response shifts from playing Seated Guard to framing and shrimping toward half guard or butterfly recovery. This is the shared threshold both players recognize: reaching it is the passer's goal and the guard player's alarm.",
+      "answer_line": "Gap closes, legs stop working",
+      "distractors": {
+        "plausible": [
+          "Pressure just needs more grips",
+          "Hips still control from here"
+        ],
+        "trap": [
+          "Keep playing seated guard"
+        ]
+      }
     },
     {
       "question": "How does controlling one versus both of the seated player's legs change the Seated Guard exchange?",
-      "answer": "As long as the seated player keeps at least one leg free, they retain an active tool to push, frame, hook, or enter an entanglement such as Single Leg X, preserving offense and distance. When the passer captures both legs simultaneously, the seated player loses mobility and distance control, allowing the top player to stack, pin, or pass with little resistance. Consequently the seated player treats their legs as independent systems and never lets both be trapped, while the passer specifically hunts double-leg control to neutralize the guard. This tug-of-war over how many legs are controlled is a defining mechanic of the position."
+      "answer": "As long as the seated player keeps at least one leg free, they retain an active tool to push, frame, hook, or enter an entanglement such as Single Leg X, preserving offense and distance. When the passer captures both legs simultaneously, the seated player loses mobility and distance control, allowing the top player to stack, pin, or pass with little resistance. Consequently the seated player treats their legs as independent systems and never lets both be trapped, while the passer specifically hunts double-leg control to neutralize the guard. This tug-of-war over how many legs are controlled is a defining mechanic of the position.",
+      "answer_line": "One leg free keeps offense alive",
+      "distractors": {
+        "plausible": [
+          "Either leg controlled ends guard",
+          "Free leg only helps escape"
+        ],
+        "trap": [
+          "Let both legs get controlled"
+        ]
+      }
     },
     {
       "question": "How does Seated Guard relate to butterfly guard, single leg X, and standing, and what triggers the shift to each?",
-      "answer": "Seated Guard sits at a hub of open-guard transitions because its upright, unwrapped posture connects cleanly to neighboring positions. Inserting a hook under the opponent's thigh as they close distance converts it to butterfly guard, while an opponent stepping a leg forward invites a Single Leg X entry. Rising off the posted hands takes the seated player to standing, resetting to neutral. The common thread is that each adjacent position is one committed motion away, which is precisely why Seated Guard functions as a versatile launch point rather than a destination."
+      "answer": "Seated Guard sits at a hub of open-guard transitions because its upright, unwrapped posture connects cleanly to neighboring positions. Inserting a hook under the opponent's thigh as they close distance converts it to butterfly guard, while an opponent stepping a leg forward invites a Single Leg X entry. Rising off the posted hands takes the seated player to standing, resetting to neutral. The common thread is that each adjacent position is one committed motion away, which is precisely why Seated Guard functions as a versatile launch point rather than a destination.",
+      "answer_line": "One motion away from each guard",
+      "distractors": {
+        "plausible": [
+          "Only leads into closed guard",
+          "Must return to seated first"
+        ],
+        "trap": [
+          "Stay seated to keep options"
+        ]
+      }
     }
   ],
   "clips": [

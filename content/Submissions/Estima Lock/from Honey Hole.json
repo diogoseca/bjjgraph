@@ -284,42 +284,122 @@
       {
         "question": "What anatomical structures does the Estima Lock from Honey Hole primarily attack?",
         "answer": "The Estima Lock attacks the ankle joint and foot through forced dorsiflexion. The primary targets are the deltoid ligament complex on the medial ankle, the talofibular ligaments laterally, and the tarsometatarsal (Lisfranc) joint ligaments. The forearm fulcrum against the front of the ankle creates bending force that stresses these structures beyond their normal range of motion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ankle ligaments via dorsiflexion",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments like ACL/MCL",
+            "Achilles tendon, not ankle"
+          ],
+          "trap": [
+            "Toe joints, not ankle crease"
+          ]
+        }
       },
       {
         "question": "Your opponent is hiding their heel deep and curling their toes — what does this defensive posture tell you about Estima Lock opportunity?",
         "answer": "This heel-hiding defense is your primary trigger to transition to the Estima Lock. When the opponent curls their foot to hide the heel, the dorsal surface of the foot becomes exposed and accessible. Their defensive commitment to heel concealment means they cannot simultaneously protect against the Estima Lock grip without releasing the heel. This creates the attack vector misdirection that makes the Estima Lock effective from Honey Hole.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trigger: switch to Estima Lock",
+        "distractors": {
+          "plausible": [
+            "Wait for heel to relax first",
+            "Switch to a toe hold instead"
+          ],
+          "trap": [
+            "Chase the heel hook harder"
+          ]
+        }
       },
       {
         "question": "What control must be maintained before and during the transition from heel hook grips to Estima Lock setup?",
         "answer": "The inside leg triangle around the opponent's thigh must maintain constant tension throughout the entire grip transition. Hip pressure through the outside leg crossing their hip must remain steady to prevent rotational escapes. If either the triangle loosens or hip pressure drops during the grip change, the opponent gains a window to retract their foot or initiate escape. Your legs maintain position control independently while your arms transition between attack grips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg triangle and hip pressure",
+        "distractors": {
+          "plausible": [
+            "Just grip the foot tighter",
+            "Speed over positional control"
+          ],
+          "trap": [
+            "Release triangle to reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent starts pulling their knee toward their chest to extract their foot mid-application — how do you maintain the Estima Lock?",
         "answer": "Drive your hips forward to close the space they are creating while tightening the inside leg triangle around their thigh. Use your outside leg to push their hip back down, preventing the knee retraction. If your forearm is already positioned across the ankle, their knee pull can actually increase dorsiflexion pressure in your favor. If they succeed in creating significant slack, immediately switch back to heel hook attack as the extraction movement likely re-exposes the heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive hips in, tighten triangle",
+        "distractors": {
+          "plausible": [
+            "Pull harder on their foot",
+            "Switch grip to a toe hold"
+          ],
+          "trap": [
+            "Let go and reset the position"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error when applying the Estima Lock from Honey Hole?",
         "answer": "The most common error is placing the forearm too high on the foot across the toes or midfoot rather than directly against the ankle joint crease. This misplacement dramatically reduces mechanical advantage because the flexible toe joints absorb force rather than transferring it to the ankle ligaments. The radius bone must sit precisely in the ankle crease where the foot meets the shin to create the rigid fulcrum needed for effective dorsiflexion leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm too high, off ankle crease",
+        "distractors": {
+          "plausible": [
+            "Applying pressure too slowly",
+            "Hands not clasped tight enough"
+          ],
+          "trap": [
+            "Crank harder to compensate"
+          ]
+        }
       },
       {
         "question": "Your initial forearm position slips off the ankle during pressure application — what grip adjustment do you make?",
         "answer": "Stop applying pressure immediately and re-establish the forearm position before continuing. Release your hand clasp, reposition the radius bone back into the ankle crease, and re-secure with a tighter gable grip with elbows pulled closer to your torso. Slippage typically occurs because the initial forearm placement was too high or the grip configuration had slack. Do not try to force the finish from a compromised forearm position as this wastes energy and risks injury from uncontrolled force vectors.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stop, reset forearm in the crease",
+        "distractors": {
+          "plausible": [
+            "Just squeeze the clasp harder",
+            "Swap to your other arm"
+          ],
+          "trap": [
+            "Push through the slippage"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the Estima Lock and why is this especially critical for this submission?",
         "answer": "Application speed must be extremely slow — minimum five to seven seconds from initial pressure to maximum force. This is critical because the foot contains small bones and ligaments that have limited pain feedback before structural failure occurs. Unlike chokes where discomfort builds gradually, foot locks can cause ligament tears or fractures with minimal warning. The slow application gives your training partner adequate time to recognize the pressure, evaluate their escape options, and tap before any structural damage occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, five to seven seconds min",
+        "distractors": {
+          "plausible": [
+            "Fast, before they can escape",
+            "Same pace as a choke"
+          ],
+          "trap": [
+            "One quick explosive snap"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending the heel hook effectively from Honey Hole — how do you set up and transition to the Estima Lock?",
         "answer": "Threaten the heel hook convincingly first to force deep heel concealment. When the opponent commits both hands to hiding their heel and curling their foot, execute the grip transition in one fluid motion — release the heel hook grip and immediately wrap your forearm over the exposed dorsal foot surface. The competition context allows faster transitions since your opponent is actively defending. The key is recognizing the exact moment their heel defense creates the foot exposure, then committing fully to the transition without hesitation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten heel hook, transition fast",
+        "distractors": {
+          "plausible": [
+            "Abandon Honey Hole entirely",
+            "Wait passively for an opening"
+          ],
+          "trap": [
+            "Force the heel hook regardless"
+          ]
+        }
       }
     ],
     "clips": [
@@ -441,27 +521,77 @@
       {
         "question": "How do you recognize the Estima Lock setup is beginning from Honey Hole bottom?",
         "answer": "The primary recognition cue is feeling the attacker release their heel hook grips and reach over the top of your foot rather than underneath toward the heel. You will feel their forearm crossing the dorsal surface of your foot. The pressure direction changes from rotational to downward dorsiflexion. This grip transition is your critical defensive window — once the forearm is positioned and hands are clasped, defensive options are severely limited.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel forearm cross top of foot",
+        "distractors": {
+          "plausible": [
+            "Feel their hip pressure increase",
+            "Feel their grip loosen briefly"
+          ],
+          "trap": [
+            "Ignore it, heel is protected"
+          ]
+        }
       },
       {
         "question": "What is the safest response when the Estima Lock is fully locked and dorsiflexion pressure is increasing?",
         "answer": "Tap immediately using any available signal — verbal, hand tap, or foot tap. The Estima Lock attacks small foot and ankle structures that have minimal pain buffer before structural failure. Unlike shoulder locks where progressive discomfort provides warning, foot locks can cause torn ligaments or fractures with very little advance pain. Once the forearm is locked across the ankle and pressure is building, escape probability is near zero and injury risk escalates rapidly with each second of delay.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Wait to see if pressure stops",
+            "Try to rotate your hip out"
+          ],
+          "trap": [
+            "Push through to test the lock"
+          ]
+        }
       },
       {
         "question": "What defensive options are available before the attacker secures the full Estima Lock configuration?",
         "answer": "Three primary options exist during the grip transition window: First, immediate foot retraction the instant you feel heel hook grips release — pull your foot back before the forearm can wrap over it. Second, two-handed grip stripping if the forearm has contacted your foot but hands are not yet clasped. Third, explosive hip rotation to extract the trapped leg entirely while the attacker's control is compromised during grip transition. All three options require immediate reaction — hesitation of even one second dramatically reduces success probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract foot, strip grip, rotate",
+        "distractors": {
+          "plausible": [
+            "Grab your own knee for base",
+            "Push their head away first"
+          ],
+          "trap": [
+            "Wait until pressure builds"
+          ]
+        }
       },
       {
         "question": "Your attacker releases heel hook grips and reaches for your foot — what is your immediate response?",
         "answer": "Retract your foot immediately by pulling your knee toward your chest while simultaneously reaching with both hands to intercept their forearm before it wraps over your foot. Do not wait to confirm which attack they are transitioning to — any grip release in Honey Hole is your escape window. If your foot is already partially captured, commit both hands to stripping the grip before the lock configuration is completed. Speed of reaction is the single most important factor in successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract foot, strip forearm fast",
+        "distractors": {
+          "plausible": [
+            "Confirm which attack it is first",
+            "Reinforce heel hook defense"
+          ],
+          "trap": [
+            "Stay still, conserve energy"
+          ]
+        }
       },
       {
         "question": "Why is it particularly dangerous to delay tapping to the Estima Lock compared to other leg lock submissions?",
         "answer": "The Estima Lock targets the foot and ankle through dorsiflexion, attacking small ligaments and bones that have significantly less pain tolerance before structural failure compared to larger joints. Heel hooks attack the knee with some progressive discomfort, and armbars create clear escalating pain in the elbow. Foot locks can cause torn tarsometatarsal ligaments or metatarsal fractures with minimal warning pain. Additionally, the compact lever system means pressure increases rapidly with small attacker adjustments, leaving almost no reaction time once breaking force is reached.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Small bones, minimal pain warning",
+        "distractors": {
+          "plausible": [
+            "Faster blood flow restriction",
+            "Higher overall joint mobility"
+          ],
+          "trap": [
+            "Same risk level as heel hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [

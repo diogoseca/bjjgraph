@@ -242,7 +242,17 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical weakness in the body triangle that you target during the escape?",
-        "answer": "The foot tucked behind the opponent's own knee is the structural vulnerability of the figure-four lock. The entire lock depends on this anchor point remaining secure. By creating space through hip adjustment and attacking the ankle position with your hand, you can break the lock without significant strength because the mechanical advantage shifts once the foot begins to slide out of position."
+        "answer": "The foot tucked behind the opponent's own knee is the structural vulnerability of the figure-four lock. The entire lock depends on this anchor point remaining secure. By creating space through hip adjustment and attacking the ankle position with your hand, you can break the lock without significant strength because the mechanical advantage shifts once the foot begins to slide out of position.",
+        "answer_line": "Foot tucked behind the knee",
+        "distractors": {
+          "plausible": [
+            "The choking arm's grip",
+            "Opponent's crossed ankle lock"
+          ],
+          "trap": [
+            "Opponent's top hook placement"
+          ]
+        }
       },
       {
         "question": "Why must you turn toward the triangle leg side rather than away from it during the escape?",
@@ -254,7 +264,17 @@
       },
       {
         "question": "What grip configuration must you maintain during the escape and why is it critical?",
-        "answer": "One hand must remain defending your neck at all times through chin tuck reinforcement and grip fighting on the opponent's choking arm. The second hand transitions from neck defense to attacking the triangle lock only when the immediate choking threat is neutralized. Removing both hands simultaneously creates a window for rear naked choke entry that ends the match before the escape succeeds."
+        "answer": "One hand must remain defending your neck at all times through chin tuck reinforcement and grip fighting on the opponent's choking arm. The second hand transitions from neck defense to attacking the triangle lock only when the immediate choking threat is neutralized. Removing both hands simultaneously creates a window for rear naked choke entry that ends the match before the escape succeeds.",
+        "answer_line": "One hand always defends the neck",
+        "distractors": {
+          "plausible": [
+            "Both hands grip the triangle leg",
+            "One hand posts on the mat"
+          ],
+          "trap": [
+            "Free both hands to clear the lock"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the body triangle clearing attempt?",
@@ -262,15 +282,45 @@
       },
       {
         "question": "After clearing the triangle lock, what is the most critical immediate action?",
-        "answer": "Insert your elbow or forearm into the space between your body and the opponent's legs to create a physical barrier preventing re-locking. Do not pause to rest after breaking the lock. Continue turning into your opponent while maintaining this frame, because any hesitation of even two or three seconds allows the opponent to re-thread their foot and re-establish the figure-four configuration."
+        "answer": "Insert your elbow or forearm into the space between your body and the opponent's legs to create a physical barrier preventing re-locking. Do not pause to rest after breaking the lock. Continue turning into your opponent while maintaining this frame, because any hesitation of even two or three seconds allows the opponent to re-thread their foot and re-establish the figure-four configuration.",
+        "answer_line": "Frame elbow between hips and legs",
+        "distractors": {
+          "plausible": [
+            "Stand up to break contact",
+            "Grab both of their ankles"
+          ],
+          "trap": [
+            "Pause briefly to recover breath"
+          ]
+        }
       },
       {
         "question": "How should you manage breathing during the escape to maintain effectiveness under restriction?",
-        "answer": "Take controlled shallow chest breaths rather than attempting deep diaphragmatic breathing which the triangle restricts. Accept reduced oxygen availability and work in short, precise technical bursts rather than sustained maximum effort. Save explosive movement for the critical moment of clearing the lock, using calm measured technique for positioning phases to prevent accelerated oxygen depletion."
+        "answer": "Take controlled shallow chest breaths rather than attempting deep diaphragmatic breathing which the triangle restricts. Accept reduced oxygen availability and work in short, precise technical bursts rather than sustained maximum effort. Save explosive movement for the critical moment of clearing the lock, using calm measured technique for positioning phases to prevent accelerated oxygen depletion.",
+        "answer_line": "Controlled shallow chest breaths",
+        "distractors": {
+          "plausible": [
+            "Hold your breath through the squeeze",
+            "Force deep diaphragm breaths"
+          ],
+          "trap": [
+            "Exhale fully then explode nonstop"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from body triangle to standard hooks as you begin clearing - what do you do?",
-        "answer": "Recognize this as a significant victory and immediately shift to standard back escape sequences. Hooks are dramatically easier to clear than the body triangle lock. Target the bottom hook first with hip escape mechanics, then address the top hook. The transition period between triangle and hooks offers the best escape window since the opponent's leg control is momentarily disrupted during the configuration change."
+        "answer": "Recognize this as a significant victory and immediately shift to standard back escape sequences. Hooks are dramatically easier to clear than the body triangle lock. Target the bottom hook first with hip escape mechanics, then address the top hook. The transition period between triangle and hooks offers the best escape window since the opponent's leg control is momentarily disrupted during the configuration change.",
+        "answer_line": "Escape hooks starting with bottom",
+        "distractors": {
+          "plausible": [
+            "Re-lock the triangle yourself",
+            "Immediately stand and turn in"
+          ],
+          "trap": [
+            "Attack their choking arm first"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice escape techniques under controlled conditions with progressive resistance before applying in live sparring. The breathing restriction from body triangle creates genuine physiological stress that can impair judgment and trigger panic responses. Always tap immediately if a choke is locked in during escape attempts rather than continuing to fight the triangle position. Neck strain can occur during aggressive turning movements, so develop the rotation gradually. Communicate with training partners about squeeze pressure intensity during drilling phases.",
@@ -388,7 +438,17 @@
     "flashcards": [
       {
         "question": "What visual and tactile cues indicate your opponent is about to attempt a body triangle escape?",
-        "answer": "Watch for hip shifting toward your triangle leg side, hands moving from neck defense toward your legs, and a transition from panicked to controlled breathing indicating mental preparation. Tactile cues include reduced tension on your choking arm, weight shifting in their hips, and their torso beginning to angle toward your crossing leg rather than remaining flat against you."
+        "answer": "Watch for hip shifting toward your triangle leg side, hands moving from neck defense toward your legs, and a transition from panicked to controlled breathing indicating mental preparation. Tactile cues include reduced tension on your choking arm, weight shifting in their hips, and their torso beginning to angle toward your crossing leg rather than remaining flat against you.",
+        "answer_line": "Hip shift toward triangle-leg side",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of frantic movement",
+            "Hands gripping your belt tightly"
+          ],
+          "trap": [
+            "Increased pressure on your neck"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attacking the foot behind your knee - what is your immediate response?",

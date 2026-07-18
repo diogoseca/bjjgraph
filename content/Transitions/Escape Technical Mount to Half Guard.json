@@ -267,47 +267,157 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the hip escape from Technical Mount Bottom?",
-        "answer": "The optimal window occurs when the top player shifts their weight forward to set up the armbar or triangle. This forward commitment decreases hip pressure on the bottom player's body, creating space for the hip escape. You should feel their weight move toward your head and shoulders, momentarily lightening the load on your hips. Initiating the hip escape during this weight shift exploits the brief mechanical disadvantage rather than trying to move against their settled weight."
+        "answer": "The optimal window occurs when the top player shifts their weight forward to set up the armbar or triangle. This forward commitment decreases hip pressure on the bottom player's body, creating space for the hip escape. You should feel their weight move toward your head and shoulders, momentarily lightening the load on your hips. Initiating the hip escape during this weight shift exploits the brief mechanical disadvantage rather than trying to move against their settled weight.",
+        "answer_line": "Move as weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Escape when pressure feels heaviest",
+            "Escape once they posture fully"
+          ],
+          "trap": [
+            "Release arm to push off hips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins shifting weight forward to set up the armbar—how do you coordinate your escape with this movement?",
-        "answer": "Maintain your arm protection grip while using the forward weight shift as your trigger. Bridge explosively as their weight moves forward, riding their momentum upward. Immediately follow with the hip escape toward their posted leg side. The key is that their forward commitment makes it difficult for them to follow your lateral hip movement. You are converting their vertical weight shift into your lateral escape—their attack becomes your escape window. Never release arm protection during this coordination."
+        "answer": "Maintain your arm protection grip while using the forward weight shift as your trigger. Bridge explosively as their weight moves forward, riding their momentum upward. Immediately follow with the hip escape toward their posted leg side. The key is that their forward commitment makes it difficult for them to follow your lateral hip movement. You are converting their vertical weight shift into your lateral escape—their attack becomes your escape window. Never release arm protection during this coordination.",
+        "answer_line": "Bridge into shift then escape",
+        "distractors": {
+          "plausible": [
+            "Escape first then bridge up",
+            "Bridge only, skip hip escape"
+          ],
+          "trap": [
+            "Release grip to bridge harder"
+          ]
+        }
       },
       {
         "question": "What is the most critical arm position throughout the entire escape sequence?",
-        "answer": "The threatened arm—the one closest to the stepped leg—must remain bent with the elbow tight against the ribs at all times. The hand should grip your own lapel, collar, or opposite shoulder to create a structural lock that prevents forced extension. This position must be maintained from the moment you recognize you are in technical mount until you have fully established half guard. Any momentary straightening of this arm during the escape creates an immediate armbar opportunity that the top player will exploit."
+        "answer": "The threatened arm—the one closest to the stepped leg—must remain bent with the elbow tight against the ribs at all times. The hand should grip your own lapel, collar, or opposite shoulder to create a structural lock that prevents forced extension. This position must be maintained from the moment you recognize you are in technical mount until you have fully established half guard. Any momentary straightening of this arm during the escape creates an immediate armbar opportunity that the top player will exploit.",
+        "answer_line": "Elbow tight, grip your own lapel",
+        "distractors": {
+          "plausible": [
+            "Push opponent's hip away first",
+            "Frame on their far shoulder"
+          ],
+          "trap": [
+            "Straighten arm to create space"
+          ]
+        }
       },
       {
         "question": "Why should you hip escape toward the posted leg side rather than away from it?",
-        "answer": "The posted leg is the top player's base—it provides their stability but also limits their lateral mobility on that side. When you shrimp toward the posted leg, the top player cannot easily follow your hip movement because their base structure prevents lateral pursuit in that direction. Conversely, escaping toward the hooked leg side moves you into their strongest control zone where they can follow your movement with their connected leg. The posted leg side also creates the optimal angle for inserting your knee between bodies."
+        "answer": "The posted leg is the top player's base—it provides their stability but also limits their lateral mobility on that side. When you shrimp toward the posted leg, the top player cannot easily follow your hip movement because their base structure prevents lateral pursuit in that direction. Conversely, escaping toward the hooked leg side moves you into their strongest control zone where they can follow your movement with their connected leg. The posted leg side also creates the optimal angle for inserting your knee between bodies.",
+        "answer_line": "Shrimp toward posted leg side",
+        "distractors": {
+          "plausible": [
+            "Shrimp toward hooked leg side",
+            "Shrimp straight back away"
+          ],
+          "trap": [
+            "Turn belly-down toward hook leg"
+          ]
+        }
       },
       {
         "question": "What grip should your threatened hand maintain during the escape to prevent arm isolation?",
-        "answer": "Grip your own lapel at chest level, grab your opposite shoulder, or clasp both hands together in a gable grip if both arms are threatened. The lapel grip is generally preferred because it creates a structural anchor that the top player must break before they can extend your arm. The grip transforms arm protection from a muscular effort into a structural one—you are using fabric or bone alignment to resist extension rather than relying on bicep strength against their entire body leverage."
+        "answer": "Grip your own lapel at chest level, grab your opposite shoulder, or clasp both hands together in a gable grip if both arms are threatened. The lapel grip is generally preferred because it creates a structural anchor that the top player must break before they can extend your arm. The grip transforms arm protection from a muscular effort into a structural one—you are using fabric or bone alignment to resist extension rather than relying on bicep strength against their entire body leverage.",
+        "answer_line": "Grip own lapel or shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip their sleeve tightly",
+            "Push against their chest"
+          ],
+          "trap": [
+            "Release grip to frame on hip"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes your hip escape and begins transitioning to back control—what adjustment do you make?",
-        "answer": "Immediately prioritize establishing half guard hooks over continued hip escape. The moment you feel them shift to follow your rotation toward back control, stop the lateral shrimp and aggressively insert your knee to trap their leg. Half guard—even a poor half guard—prevents them from fully establishing back control by keeping one of their legs entangled. If you have already turned too far, fight to keep your back toward the mat rather than giving them a clean path to your back, and work to insert a butterfly hook to disrupt their hook insertion."
+        "answer": "Immediately prioritize establishing half guard hooks over continued hip escape. The moment you feel them shift to follow your rotation toward back control, stop the lateral shrimp and aggressively insert your knee to trap their leg. Half guard—even a poor half guard—prevents them from fully establishing back control by keeping one of their legs entangled. If you have already turned too far, fight to keep your back toward the mat rather than giving them a clean path to your back, and work to insert a butterfly hook to disrupt their hook insertion.",
+        "answer_line": "Insert knee, block the back take",
+        "distractors": {
+          "plausible": [
+            "Keep shrimping toward space",
+            "Turtle up to protect your back"
+          ],
+          "trap": [
+            "Let them finish taking your back"
+          ]
+        }
       },
       {
         "question": "What role does the bridge play before the hip escape, and why is it insufficient as a standalone escape?",
-        "answer": "The bridge creates vertical space by lifting the opponent's weight off your hips, disrupting their settled base and making the subsequent hip escape possible. However, the bridge alone is insufficient because the opponent will simply ride the bridge and re-settle when you come back down—the asymmetric base of technical mount is specifically designed to resist bridging. The bridge must be immediately followed by the hip escape, which converts the temporary vertical space into permanent lateral distance. Together they form an integrated sequence; either movement alone fails against a competent top player."
+        "answer": "The bridge creates vertical space by lifting the opponent's weight off your hips, disrupting their settled base and making the subsequent hip escape possible. However, the bridge alone is insufficient because the opponent will simply ride the bridge and re-settle when you come back down—the asymmetric base of technical mount is specifically designed to resist bridging. The bridge must be immediately followed by the hip escape, which converts the temporary vertical space into permanent lateral distance. Together they form an integrated sequence; either movement alone fails against a competent top player.",
+        "answer_line": "Bridge lifts then escape converts",
+        "distractors": {
+          "plausible": [
+            "Bridge alone fully escapes hips",
+            "Escape first, bridge afterward"
+          ],
+          "trap": [
+            "Bridge repeatedly without shrimp"
+          ]
+        }
       },
       {
         "question": "After inserting your knee shield, what must you do immediately to prevent the top player from re-passing?",
-        "answer": "Lock your legs around the opponent's nearest leg to establish the half guard entanglement, then immediately fight for the underhook on the trapped leg side or reinforce your knee shield with proper shin-across-torso positioning. You must get onto your side facing the opponent rather than remaining flat on your back. The first two seconds after knee insertion determine whether you arrive in a functional half guard or a compromised position that gets passed immediately. Establishing structural control—either underhook or knee shield—before the top player adjusts is critical to making the escape permanent."
+        "answer": "Lock your legs around the opponent's nearest leg to establish the half guard entanglement, then immediately fight for the underhook on the trapped leg side or reinforce your knee shield with proper shin-across-torso positioning. You must get onto your side facing the opponent rather than remaining flat on your back. The first two seconds after knee insertion determine whether you arrive in a functional half guard or a compromised position that gets passed immediately. Establishing structural control—either underhook or knee shield—before the top player adjusts is critical to making the escape permanent.",
+        "answer_line": "Lock legs, turn onto your side",
+        "distractors": {
+          "plausible": [
+            "Stay flat, secure knee shield",
+            "Push away, create distance"
+          ],
+          "trap": [
+            "Relax and rest before continuing"
+          ]
+        }
       },
       {
         "question": "Your first hip escape attempt fails and the top player re-settles—what is your strategy for the second attempt?",
-        "answer": "Reset to your protected position with arm tucked and frame re-established rather than immediately forcing another attempt. Each failed attempt still creates micro-space that accumulates over successive tries. Wait for the next genuine weight shift rather than trying to manufacture one through bridging alone. Chain attempts in a rhythm—bridge, shrimp, reset, bridge, shrimp—so each successive escape builds on residual space from the previous one. The key is patience between attempts and maintaining arm protection during resets, not increasing the force of individual efforts."
+        "answer": "Reset to your protected position with arm tucked and frame re-established rather than immediately forcing another attempt. Each failed attempt still creates micro-space that accumulates over successive tries. Wait for the next genuine weight shift rather than trying to manufacture one through bridging alone. Chain attempts in a rhythm—bridge, shrimp, reset, bridge, shrimp—so each successive escape builds on residual space from the previous one. The key is patience between attempts and maintaining arm protection during resets, not increasing the force of individual efforts.",
+        "answer_line": "Reset, protect arm, wait again",
+        "distractors": {
+          "plausible": [
+            "Force harder on second attempt",
+            "Bridge repeatedly until it works"
+          ],
+          "trap": [
+            "Abandon arm frame to try again"
+          ]
+        }
       },
       {
         "question": "How does the direction of force application change between the bridge and the hip escape phases?",
-        "answer": "The bridge directs force vertically, driving your hips straight up toward the ceiling to lift the opponent's weight and create separation from the mat. The hip escape immediately redirects force laterally, driving your hips away from the opponent toward their posted leg side. This perpendicular change in force direction is what makes the sequence effective—the vertical bridge disrupts the opponent's settled weight, and the lateral shrimp converts that disruption into distance before they can re-settle. Trying to combine both directions simultaneously reduces the effectiveness of each."
+        "answer": "The bridge directs force vertically, driving your hips straight up toward the ceiling to lift the opponent's weight and create separation from the mat. The hip escape immediately redirects force laterally, driving your hips away from the opponent toward their posted leg side. This perpendicular change in force direction is what makes the sequence effective—the vertical bridge disrupts the opponent's settled weight, and the lateral shrimp converts that disruption into distance before they can re-settle. Trying to combine both directions simultaneously reduces the effectiveness of each.",
+        "answer_line": "Bridge up, then shrimp laterally",
+        "distractors": {
+          "plausible": [
+            "Push laterally, then bridge up",
+            "Combine both directions at once"
+          ],
+          "trap": [
+            "Push straight into their hips"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt the knee shield recovery variant versus the standard half guard entry?",
-        "answer": "Choose the knee shield recovery when the top player is heavy and likely to attempt an immediate re-pass after your escape, or when there is insufficient space for a full leg entanglement. The knee shield provides a stronger transitional barrier because your shin across their torso creates a structural frame they must address before re-establishing mount. Choose the standard half guard entry when you have created enough space for full leg entanglement and the top player is slower to react. The standard entry is more stable long-term but requires more space to establish than the knee shield."
+        "answer": "Choose the knee shield recovery when the top player is heavy and likely to attempt an immediate re-pass after your escape, or when there is insufficient space for a full leg entanglement. The knee shield provides a stronger transitional barrier because your shin across their torso creates a structural frame they must address before re-establishing mount. Choose the standard half guard entry when you have created enough space for full leg entanglement and the top player is slower to react. The standard entry is more stable long-term but requires more space to establish than the knee shield.",
+        "answer_line": "Use shield if heavy or tight space",
+        "distractors": {
+          "plausible": [
+            "Always use full leg entanglement",
+            "Always use knee shield first"
+          ],
+          "trap": [
+            "Let go of frame, stand up fast"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape carries moderate injury risk primarily from arm exposure during hip escape movements. If your arm becomes trapped during the escape attempt, immediately prioritize defending the armbar rather than continuing the escape—tap early if caught in a submission during the transition. Avoid explosive movements when your arm is not properly protected, as forced escapes under armbar threat can result in elbow hyperextension injuries. Bridge movements should come from hip extension, not neck strain, to prevent cervical injury. During training, communicate with partners about intensity level and practice at controlled speeds before adding resistance. Partners maintaining technical mount should apply submissions at training-appropriate speed to allow proper defensive recognition.",
@@ -429,23 +539,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing to escape to half guard?",
-        "answer": "The earliest cue is repositioning of the bottom player's far foot to generate pushing force for the hip escape. Before any visible hip movement occurs, the foot slides to a position that allows lateral driving. You may also feel increased tension through their bridge as they load their hips for the explosive movement. Recognizing this preparatory phase gives you time to increase pressure or begin your own transition before the escape attempt fully develops."
+        "answer": "The earliest cue is repositioning of the bottom player's far foot to generate pushing force for the hip escape. Before any visible hip movement occurs, the foot slides to a position that allows lateral driving. You may also feel increased tension through their bridge as they load their hips for the explosive movement. Recognizing this preparatory phase gives you time to increase pressure or begin your own transition before the escape attempt fully develops.",
+        "answer_line": "Watch for their far foot reposition",
+        "distractors": {
+          "plausible": [
+            "Watch for their hip lift first",
+            "Watch for their grip release"
+          ],
+          "trap": [
+            "Wait for full hip escape to react"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the bottom player begin to hip escape?",
-        "answer": "Drop your weight immediately by driving your hips toward the mat and increasing shoulder-to-chest pressure on the side the bottom player is escaping toward. Your posted leg should shift to block their hip movement by angling the shin to cut off their shrimp path. Simultaneously tighten your arm control to maintain the armbar threat—the combination of increased pressure and submission threat forces them to abort the escape or risk arm exposure. Avoid rising up, which creates the space they need."
+        "answer": "Drop your weight immediately by driving your hips toward the mat and increasing shoulder-to-chest pressure on the side the bottom player is escaping toward. Your posted leg should shift to block their hip movement by angling the shin to cut off their shrimp path. Simultaneously tighten your arm control to maintain the armbar threat—the combination of increased pressure and submission threat forces them to abort the escape or risk arm exposure. Avoid rising up, which creates the space they need.",
+        "answer_line": "Drop weight, block hip with shin",
+        "distractors": {
+          "plausible": [
+            "Rise up to reset your base",
+            "Release arm to chase their hips"
+          ],
+          "trap": [
+            "Stand up to follow their escape"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully inserts a knee between your bodies during the escape—what is your best immediate response?",
-        "answer": "You have a brief window before they establish full half guard hooks. First option: drive your hip through their knee shield aggressively to clear the knee and re-establish mount before they lock their legs. Second option: if the knee is too well-established to clear, immediately transition to half guard top with strong crossface and underhook, accepting the position change but maintaining top control. The worst response is sitting in a compromised position between technical mount and half guard—commit to either clearing the knee or establishing dominant half guard top."
+        "answer": "You have a brief window before they establish full half guard hooks. First option: drive your hip through their knee shield aggressively to clear the knee and re-establish mount before they lock their legs. Second option: if the knee is too well-established to clear, immediately transition to half guard top with strong crossface and underhook, accepting the position change but maintaining top control. The worst response is sitting in a compromised position between technical mount and half guard—commit to either clearing the knee or establishing dominant half guard top.",
+        "answer_line": "Clear the knee or take half top",
+        "distractors": {
+          "plausible": [
+            "Sit back and wait it out",
+            "Push their leg away, stay mount"
+          ],
+          "trap": [
+            "Stay stuck between, do nothing"
+          ]
+        }
       },
       {
         "question": "When should you transition from maintaining technical mount to taking the back during an escape attempt?",
-        "answer": "Transition to back control when the bottom player has created enough lateral distance that re-flattening them requires significant energy expenditure, and they are turning to their side during the hip escape. The key indicator is when their far shoulder lifts off the mat—this rotation creates the pathway to their back. Release arm control, establish seat belt grip immediately, and follow their rotation. The decision must be made quickly—hesitating leaves you in no-man's land where you lose both technical mount control and the back take opportunity."
+        "answer": "Transition to back control when the bottom player has created enough lateral distance that re-flattening them requires significant energy expenditure, and they are turning to their side during the hip escape. The key indicator is when their far shoulder lifts off the mat—this rotation creates the pathway to their back. Release arm control, establish seat belt grip immediately, and follow their rotation. The decision must be made quickly—hesitating leaves you in no-man's land where you lose both technical mount control and the back take opportunity.",
+        "answer_line": "Take back when far shoulder lifts",
+        "distractors": {
+          "plausible": [
+            "Take back the moment hips move",
+            "Keep armbar threat, ignore back"
+          ],
+          "trap": [
+            "Hesitate, hold both options open"
+          ]
+        }
       },
       {
         "question": "Why is maintaining offensive pressure critical for preventing the escape, even when you feel secure in technical mount?",
-        "answer": "Constant submission threat forces the bottom player to allocate their attention and arm positioning toward defense rather than escape. If you sit passively in technical mount, the bottom player can focus entirely on timing their hip escape and knee insertion without worrying about immediate submission danger. The armbar threat specifically keeps their threatened arm occupied with protection, which means they have fewer limbs available for framing and escape movement. Active offensive pressure creates a defensive tax that makes escape execution significantly more difficult."
+        "answer": "Constant submission threat forces the bottom player to allocate their attention and arm positioning toward defense rather than escape. If you sit passively in technical mount, the bottom player can focus entirely on timing their hip escape and knee insertion without worrying about immediate submission danger. The armbar threat specifically keeps their threatened arm occupied with protection, which means they have fewer limbs available for framing and escape movement. Active offensive pressure creates a defensive tax that makes escape execution significantly more difficult.",
+        "answer_line": "Keep constant submission threat",
+        "distractors": {
+          "plausible": [
+            "Relax pressure once mount is set",
+            "Focus only on positional control"
+          ],
+          "trap": [
+            "Release arm threat to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

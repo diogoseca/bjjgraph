@@ -253,35 +253,115 @@
     "flashcards": [
       {
         "question": "What is the most critical error to avoid when the opponent increases shoulder pressure on your jaw?",
-        "answer": "The most critical error is extending your near arm to push the opponent's shoulder away from your face. This is the reaction the Shoulder of Justice position is specifically designed to provoke, and it immediately exposes your arm to a high-percentage kimura attack that is nearly impossible to defend from flat on your back. Instead, keep your near arm tucked tight to your ribcage and create space only through forearm micro-frames that never extend beyond your chest centerline."
+        "answer": "The most critical error is extending your near arm to push the opponent's shoulder away from your face. This is the reaction the Shoulder of Justice position is specifically designed to provoke, and it immediately exposes your arm to a high-percentage kimura attack that is nearly impossible to defend from flat on your back. Instead, keep your near arm tucked tight to your ribcage and create space only through forearm micro-frames that never extend beyond your chest centerline.",
+        "answer_line": "Extending near arm at shoulder",
+        "distractors": {
+          "plausible": [
+            "Extending far arm outward",
+            "Bridging hard right away"
+          ],
+          "trap": [
+            "Reaching across for underhook"
+          ]
+        }
       },
       {
         "question": "Why must you breathe through your nose rather than your mouth when trapped in Shoulder of Justice?",
-        "answer": "Nasal breathing activates the parasympathetic nervous system, maintaining composure and preventing the panic response that mouth breathing triggers under jaw pressure. Mouth breathing accelerates heart rate, increases cortisol release, and leads to desperate reactive movements like arm extensions and wild bridges that play directly into the top player's submission dilemma system. Maintaining nasal breathing keeps you calm enough to identify genuine escape windows."
+        "answer": "Nasal breathing activates the parasympathetic nervous system, maintaining composure and preventing the panic response that mouth breathing triggers under jaw pressure. Mouth breathing accelerates heart rate, increases cortisol release, and leads to desperate reactive movements like arm extensions and wild bridges that play directly into the top player's submission dilemma system. Maintaining nasal breathing keeps you calm enough to identify genuine escape windows.",
+        "answer_line": "Keeps calm, prevents panic",
+        "distractors": {
+          "plausible": [
+            "Conserves oxygen for escape",
+            "Hides effort from opponent"
+          ],
+          "trap": [
+            "Mouth-breathe to power bridge"
+          ]
+        }
       },
       {
         "question": "What specific indicator tells you the opponent's weight has shifted enough to attempt the hip escape?",
-        "answer": "Key indicators include the opponent adjusting their shoulder angle, reaching to establish new grips, shifting their far knee position, or beginning a transition toward a submission setup. Any movement that temporarily lightens their hip-to-hip pressure connection creates the escape window. The most reliable indicator is feeling their hips lift or shift even slightly off your near hip line, which means their weight has redistributed enough for your hip escape to generate meaningful distance."
+        "answer": "Key indicators include the opponent adjusting their shoulder angle, reaching to establish new grips, shifting their far knee position, or beginning a transition toward a submission setup. Any movement that temporarily lightens their hip-to-hip pressure connection creates the escape window. The most reliable indicator is feeling their hips lift or shift even slightly off your near hip line, which means their weight has redistributed enough for your hip escape to generate meaningful distance.",
+        "answer_line": "Their hips lift off your hip",
+        "distractors": {
+          "plausible": [
+            "They regrip your far sleeve",
+            "Their shoulder angle changes"
+          ],
+          "trap": [
+            "Wait for jaw pressure to ease"
+          ]
+        }
       },
       {
         "question": "Your forearm micro-frame is in place but the opponent drives through it with heavier pressure. How do you respond?",
-        "answer": "Do not fight the increased pressure by muscling your frame harder, as this leads to rapid forearm fatigue and eventual frame collapse. Instead, maintain your frame position through bone alignment while absorbing the pressure, and wait for the opponent to readjust. Driving heavier pressure requires the opponent to shift their weight forward, which temporarily lightens their hip connection and creates the weight shift window you need for the subsequent hip escape."
+        "answer": "Do not fight the increased pressure by muscling your frame harder, as this leads to rapid forearm fatigue and eventual frame collapse. Instead, maintain your frame position through bone alignment while absorbing the pressure, and wait for the opponent to readjust. Driving heavier pressure requires the opponent to shift their weight forward, which temporarily lightens their hip connection and creates the weight shift window you need for the subsequent hip escape.",
+        "answer_line": "Hold frame, wait for weight shift",
+        "distractors": {
+          "plausible": [
+            "Muscle the frame harder",
+            "Push off and re-frame lower"
+          ],
+          "trap": [
+            "Release frame and bridge hard"
+          ]
+        }
       },
       {
         "question": "What is the correct angle for inserting your knee shield during the escape?",
-        "answer": "Your shin should angle across the opponent's body at approximately 45 degrees with your knee pointing toward their far shoulder. This angle creates a structural barrier that prevents the opponent from collapsing back into chest-to-chest pressure while giving you enough space to capture their leg for half guard. A flat horizontal shin provides less structural integrity, while a vertical shin can be collapsed inward. The 45-degree angle maximizes the load-bearing capacity of your skeletal structure."
+        "answer": "Your shin should angle across the opponent's body at approximately 45 degrees with your knee pointing toward their far shoulder. This angle creates a structural barrier that prevents the opponent from collapsing back into chest-to-chest pressure while giving you enough space to capture their leg for half guard. A flat horizontal shin provides less structural integrity, while a vertical shin can be collapsed inward. The 45-degree angle maximizes the load-bearing capacity of your skeletal structure.",
+        "answer_line": "45-degree shin to far shoulder",
+        "distractors": {
+          "plausible": [
+            "Flat horizontal shin block",
+            "Vertical shin straight up"
+          ],
+          "trap": [
+            "No shin, hook their far leg"
+          ]
+        }
       },
       {
         "question": "You successfully create space with a hip escape but the opponent begins stepping over for mount. What is your immediate response?",
-        "answer": "Immediately redirect your knee shield to block the crossing leg before it clears your body. Your knee should intercept their leg at the thigh level, preventing the mount entry. If you can trap their crossing leg between your knees as it comes over, you recover directly into half guard with the opponent's leg already captured. Speed of knee shield insertion is critical because the mount transition window only lasts one to two seconds."
+        "answer": "Immediately redirect your knee shield to block the crossing leg before it clears your body. Your knee should intercept their leg at the thigh level, preventing the mount entry. If you can trap their crossing leg between your knees as it comes over, you recover directly into half guard with the opponent's leg already captured. Speed of knee shield insertion is critical because the mount transition window only lasts one to two seconds.",
+        "answer_line": "Block crossing leg with knee",
+        "distractors": {
+          "plausible": [
+            "Bridge to stop the mount",
+            "Grab their far ankle"
+          ],
+          "trap": [
+            "Turn away to give up back"
+          ]
+        }
       },
       {
         "question": "Why is half guard the primary escape target rather than full closed guard or standing position?",
-        "answer": "Half guard is the most achievable target because the escape mechanics naturally deposit you into half guard position. The hip escape creates lateral distance while the knee insertion captures one of the opponent's legs, forming the half guard entanglement organically. Full closed guard requires significantly more space and both legs free, while technical standup requires even more distance and an angle that the Shoulder of Justice position prevents. Half guard provides immediate offensive options through sweeps and back takes with minimal additional positional work required."
+        "answer": "Half guard is the most achievable target because the escape mechanics naturally deposit you into half guard position. The hip escape creates lateral distance while the knee insertion captures one of the opponent's legs, forming the half guard entanglement organically. Full closed guard requires significantly more space and both legs free, while technical standup requires even more distance and an angle that the Shoulder of Justice position prevents. Half guard provides immediate offensive options through sweeps and back takes with minimal additional positional work required.",
+        "answer_line": "Escape mechanics land you there",
+        "distractors": {
+          "plausible": [
+            "Best position to attack legs",
+            "Easiest to stand up from"
+          ],
+          "trap": [
+            "Push for full guard instead"
+          ]
+        }
       },
       {
         "question": "What must you do immediately after consolidating half guard to prevent the opponent from reestablishing Shoulder of Justice?",
-        "answer": "Immediately establish an underhook on the far side with your bottom arm and begin threatening sweeps. The underhook prevents the opponent from re-flattening you and driving shoulder pressure back into your jaw, while sweep threats force them to address your offensive potential rather than work to re-pass. If you simply hold half guard passively without threatening, the opponent can methodically break down your position and reestablish the Shoulder of Justice or pass to side control."
+        "answer": "Immediately establish an underhook on the far side with your bottom arm and begin threatening sweeps. The underhook prevents the opponent from re-flattening you and driving shoulder pressure back into your jaw, while sweep threats force them to address your offensive potential rather than work to re-pass. If you simply hold half guard passively without threatening, the opponent can methodically break down your position and reestablish the Shoulder of Justice or pass to side control.",
+        "answer_line": "Underhook far side, threaten sweep",
+        "distractors": {
+          "plausible": [
+            "Grip their near collar tight",
+            "Flatten out and stall there"
+          ],
+          "trap": [
+            "Let go and scoot to open guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves intense jaw and temporomandibular joint pressure that can cause discomfort and potential injury if the top player applies excessive force. During training, communicate with your partner about pressure intensity levels and establish clear verbal or tap signals to reduce pressure when needed. Practitioners with pre-existing TMJ conditions, cervical spine issues, or jaw injuries should exercise caution and inform training partners before drilling this position. Never attempt explosive escapes without proper warmup of the neck and jaw muscles.",
@@ -390,50 +470,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing a planned escape rather than enduring passively?",
-        "answer": "The earliest and most reliable cue is the bottom player establishing deliberate nasal breathing with a steady rhythm. This indicates they have shifted from panic or passive endurance to active escape preparation, as controlled breathing is the necessary first step of any systematic escape from Shoulder of Justice. Secondary cues include their far foot planting flat on the mat and their near forearm beginning to create a subtle wedge against your chest."
+        "answer": "The earliest and most reliable cue is the bottom player establishing deliberate nasal breathing with a steady rhythm. This indicates they have shifted from panic or passive endurance to active escape preparation, as controlled breathing is the necessary first step of any systematic escape from Shoulder of Justice. Secondary cues include their far foot planting flat on the mat and their near forearm beginning to create a subtle wedge against your chest.",
+        "answer_line": "Steady deliberate nasal breathing",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge attempt",
+            "Far foot planting flat first"
+          ],
+          "trap": [
+            "Loud gasping breath pattern"
+          ]
+        }
       },
       {
         "question": "Why is hip-to-hip connection more important than shoulder pressure intensity for preventing the escape?",
-        "answer": "Hip-to-hip connection physically blocks the primary escape mechanism, which is the hip escape that creates lateral distance. Shoulder pressure creates discomfort and provokes reactions, but it is the hip connection that actually prevents the bottom player's hips from moving away. A top player with moderate shoulder pressure but excellent hip connection is far more difficult to escape than one with maximum shoulder pressure but disconnected hips, because the bottom player can shrimp away regardless of jaw discomfort."
+        "answer": "Hip-to-hip connection physically blocks the primary escape mechanism, which is the hip escape that creates lateral distance. Shoulder pressure creates discomfort and provokes reactions, but it is the hip connection that actually prevents the bottom player's hips from moving away. A top player with moderate shoulder pressure but excellent hip connection is far more difficult to escape than one with maximum shoulder pressure but disconnected hips, because the bottom player can shrimp away regardless of jaw discomfort.",
+        "answer_line": "Blocks the hip escape directly",
+        "distractors": {
+          "plausible": [
+            "Maximizes discomfort and panic",
+            "Controls the near-side arm"
+          ],
+          "trap": [
+            "Focus all pressure on the jaw"
+          ]
+        }
       },
       {
         "question": "The bottom player creates a forearm micro-frame without extending their arm. Should you attack the arm?",
         "answer": "No; a correct micro-frame stays inside the centerline, so collapse it with pressure instead of trying to isolate the arm. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight — exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection.",
         "distractors": {
           "plausible": [
-            "Yes, but only with an americana, since the kimura needs more space than the micro-frame concedes.",
-            "No; ease your pressure slightly and wait for the frame to extend so the arm becomes available to grab."
+            "Yes, isolate for a kimura",
+            "No, wait for them to bridge"
           ],
           "trap": [
-            "Yes; post up and swim under the forearm to isolate it — the submission threat is worth the momentary weight shift."
+            "Yes, release hips to grab arm"
           ]
-        }
+        },
+        "answer_line": "No, collapse frame with pressure"
       },
       {
         "question": "When is the optimal moment to transition to mount rather than re-consolidating Shoulder of Justice?",
         "answer": "Mount immediately after their hip escape creates clear space between your bodies but before they insert a knee shield. This window typically lasts one to two seconds. If you can step your near leg over their body and settle into mount before the knee shield arrives, you have converted their escape attempt into a worse positional outcome. If their knee is already moving across your hip line, re-consolidation is the safer choice.",
         "distractors": {
           "plausible": [
-            "Mount at the first hint of hip movement, stepping over before any space opens between your bodies.",
-            "Only transition after you have fully re-consolidated shoulder pressure, since mount must come from a stabilized position."
+            "After they fully recover guard",
+            "Once their knee crosses your hip"
           ],
           "trap": [
-            "Mount during their explosive bridge, riding the bridge upward — the higher their hips rise, the easier your leg swings over."
+            "Wait for a stronger grip first"
           ]
-        }
+        },
+        "answer_line": "Before knee shield inserts"
       },
       {
         "question": "How do you distinguish between a panic reaction and a planned escape attempt from the bottom player?",
         "answer": "Panic reactions look explosive but uncoordinated, while planned escapes show controlled breathing, subtle frames, and deliberate positioning. Panic is characterized by wild bridges without follow-through, full arm extensions pushing at your shoulder, holding breath followed by gasping, and desperate turning movements. Planned escape attempts show controlled breathing, subtle frame building without arm extension, deliberate foot positioning, and small preliminary hip tests before committing. Panic reactions are easier to counter because they create larger openings, while planned attempts require proactive prevention through maintaining connection and monitoring preparation cues.",
         "distractors": {
           "plausible": [
-            "Explosive movement signals a planned escape, since trained opponents commit full power; panic shows as small tentative motions.",
-            "The main cue is speed alone — fast movement always means panic, while slow movement always means a planned escape."
+            "Fast movement means it's planned",
+            "Held breath means they're planning"
           ],
           "trap": [
-            "Treat every movement as panic and briefly release pressure to bait a bigger explosion you can counter."
+            "Ignore all bridges as panic"
           ]
-        }
+        },
+        "answer_line": "Controlled breathing vs wild bridge"
       }
     ],
     "training_progressions": [

@@ -287,13 +287,14 @@
         "answer": "Immediately abandon the sweep and transition to a leg entanglement such as Ashi Garami or Outside Ashi-Garami, keeping their trapped leg controlled. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks from the seated entanglement. Keep constant pressure on their leg and begin attacking with heel hooks or transition to kneebar entries from the new position.",
         "distractors": {
           "plausible": [
-            "Keep driving the sweep harder in the same direction, since sitting weakens their base and the original sweep will still finish.",
-            "Pull them forward into closed guard to reset the exchange and rebuild your attack from a more familiar position."
+            "Force the sweep through anyway",
+            "Reset grip and retry sweep"
           ],
           "trap": [
-            "Release the trapped leg and scramble up to wrestle for top position before they can settle into their seated base."
+            "Let go of the leg entirely"
           ]
-        }
+        },
+        "answer_line": "Switch to leg entanglement"
       },
       {
         "question": "What specific grip placement on the heel distinguishes this from an inferior ankle grip?",

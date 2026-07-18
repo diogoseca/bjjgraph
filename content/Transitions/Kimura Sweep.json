@@ -339,7 +339,17 @@
       },
       {
         "question": "How does the Kimura Sweep integrate with the hip bump sweep as a combination attack?",
-        "answer": "Attempt hip bump first to force opponent to post their hand for base. The posting hand becomes the target for Kimura grip, and the sweep executes in the opposite direction from the hip bump, catching opponent in transition between defensive positions."
+        "answer": "Attempt hip bump first to force opponent to post their hand for base. The posting hand becomes the target for Kimura grip, and the sweep executes in the opposite direction from the hip bump, catching opponent in transition between defensive positions.",
+        "answer_line": "Hip bump baits post-hand kimura",
+        "distractors": {
+          "plausible": [
+            "Kimura first, hip bump second",
+            "Sweep same side as hip bump"
+          ],
+          "trap": [
+            "Grip far arm, ignore the post"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the sweep once the Kimura grip is secured?",

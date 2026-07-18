@@ -320,35 +320,115 @@
     "flashcards": [
       {
         "question": "What is the first priority when you find yourself in Squid Guard Top?",
-        "answer": "The first priority is maintaining vertical posture and preventing forward collapse. Falling into the bottom player's attack range exposes you to inversions, back takes, and submission threats. Establish a wide base, keep your hips back, and focus on posture before attempting any passing sequences. Only after securing stable posture should you begin addressing the lapel entanglements."
+        "answer": "The first priority is maintaining vertical posture and preventing forward collapse. Falling into the bottom player's attack range exposes you to inversions, back takes, and submission threats. Establish a wide base, keep your hips back, and focus on posture before attempting any passing sequences. Only after securing stable posture should you begin addressing the lapel entanglements.",
+        "answer_line": "Posture up, wide base first",
+        "distractors": {
+          "plausible": [
+            "Strip lapel before basing",
+            "Chase a fast knee slice"
+          ],
+          "trap": [
+            "Lean forward to close space"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting while maintaining tight lapel control - what immediate adjustment prevents back exposure?",
-        "answer": "Execute a backstep motion by stepping your trapped leg backward while simultaneously establishing shoulder pressure or crossface on their upper body. This cuts off their inversion angle and prevents them from completing the rotation to your back. The backstep must be timed as they initiate the inversion, not after they achieve full rotation. Combine this with grip fighting to strip their lapel control."
+        "answer": "Execute a backstep motion by stepping your trapped leg backward while simultaneously establishing shoulder pressure or crossface on their upper body. This cuts off their inversion angle and prevents them from completing the rotation to your back. The backstep must be timed as they initiate the inversion, not after they achieve full rotation. Combine this with grip fighting to strip their lapel control.",
+        "answer_line": "Backstep leg, add crossface",
+        "distractors": {
+          "plausible": [
+            "Strip lapel, then backstep",
+            "Wait for full rotation to react"
+          ],
+          "trap": [
+            "Try to muscle through the spin"
+          ]
+        }
       },
       {
         "question": "Why must you clear the lapel entanglement before attempting traditional passing mechanics?",
-        "answer": "The lapel creates a mechanical tether that restricts your movement and provides constant off-balancing leverage to the bottom player. Attempting passes like knee slice or toreando while still entangled allows them to redirect your momentum into sweeps or use the tension to recover guard. Systematically unwrapping or stripping the lapel first removes their primary control point and allows you to pass with normal mechanics."
+        "answer": "The lapel creates a mechanical tether that restricts your movement and provides constant off-balancing leverage to the bottom player. Attempting passes like knee slice or toreando while still entangled allows them to redirect your momentum into sweeps or use the tension to recover guard. Systematically unwrapping or stripping the lapel first removes their primary control point and allows you to pass with normal mechanics.",
+        "answer_line": "Lapel tether powers their sweeps",
+        "distractors": {
+          "plausible": [
+            "Pass first, clear lapel later",
+            "Clear lapel only if convenient"
+          ],
+          "trap": [
+            "Force knee slice through tension"
+          ]
+        }
       },
       {
         "question": "How should you respond when the bottom player's lapel grip momentarily loosens?",
-        "answer": "Immediately capitalize on the window by explosively advancing your pass. A loose lapel grip indicates either fatigue or transition, both opportunities to clear the entanglement entirely or pass before they can re-establish control. Time your knee slice or toreando entry to this moment, using their grip weakness against them. Don't allow them to reset and re-secure the lapel."
+        "answer": "Immediately capitalize on the window by explosively advancing your pass. A loose lapel grip indicates either fatigue or transition, both opportunities to clear the entanglement entirely or pass before they can re-establish control. Time your knee slice or toreando entry to this moment, using their grip weakness against them. Don't allow them to reset and re-secure the lapel.",
+        "answer_line": "Explode now, clear or pass",
+        "distractors": {
+          "plausible": [
+            "Wait for grip to fully release",
+            "Reset your own grips first"
+          ],
+          "trap": [
+            "Ease off to conserve energy"
+          ]
+        }
       },
       {
         "question": "What is the critical base adjustment to prevent being swept by lapel tension?",
-        "answer": "Maintain a wide stance with weight distributed evenly between both legs, keeping your hips low and centered over your base. Avoid standing tall on straight legs, which makes you vulnerable to off-balancing. When you feel lapel tension pulling in one direction, counterbalance by shifting weight to the opposite leg and widening your base further in that direction. The goal is to make yourself heavy and immovable despite their pulling."
+        "answer": "Maintain a wide stance with weight distributed evenly between both legs, keeping your hips low and centered over your base. Avoid standing tall on straight legs, which makes you vulnerable to off-balancing. When you feel lapel tension pulling in one direction, counterbalance by shifting weight to the opposite leg and widening your base further in that direction. The goal is to make yourself heavy and immovable despite their pulling.",
+        "answer_line": "Wide low base, counterweight pull",
+        "distractors": {
+          "plausible": [
+            "Stand tall on straight legs",
+            "Shift weight toward the pull"
+          ],
+          "trap": [
+            "Lean forward into the tension"
+          ]
+        }
       },
       {
         "question": "Your opponent achieves full inversion and threatens to take your back - what recovery sequence should you execute?",
-        "answer": "Immediately sprawl your hips backward while driving shoulder pressure into their inverted body to flatten them. Strip any lapel grips with your hands while maintaining this pressure. If they've already started circling to your back, spin in the same direction they're moving to face them, abandoning the pass in favor of preventing the back take. Re-establish neutral positioning before attempting to pass again."
+        "answer": "Immediately sprawl your hips backward while driving shoulder pressure into their inverted body to flatten them. Strip any lapel grips with your hands while maintaining this pressure. If they've already started circling to your back, spin in the same direction they're moving to face them, abandoning the pass in favor of preventing the back take. Re-establish neutral positioning before attempting to pass again.",
+        "answer_line": "Sprawl, flatten, spin to face them",
+        "distractors": {
+          "plausible": [
+            "Chase their legs to finish pass",
+            "Stay square and push through"
+          ],
+          "trap": [
+            "Turn your back to break free"
+          ]
+        }
       },
       {
         "question": "Why is controlling the bottom player's free hand essential when passing Squid Guard?",
-        "answer": "The free hand is their primary tool for deepening lapel control, adjusting grips, and reinforcing their guard structure. Allowing them to freely manipulate the lapel means they can progressively tighten entanglements and create more complex passing problems. By controlling their free hand through wrist control or sleeve grips, you prevent them from improving their position while you work to clear the existing entanglement."
+        "answer": "The free hand is their primary tool for deepening lapel control, adjusting grips, and reinforcing their guard structure. Allowing them to freely manipulate the lapel means they can progressively tighten entanglements and create more complex passing problems. By controlling their free hand through wrist control or sleeve grips, you prevent them from improving their position while you work to clear the existing entanglement.",
+        "answer_line": "Control wrist to stop grip fixes",
+        "distractors": {
+          "plausible": [
+            "Focus only on the lapel hand",
+            "Grab both sleeves for control"
+          ],
+          "trap": [
+            "Ignore the free hand, pass fast"
+          ]
+        }
       },
       {
         "question": "How do you recognize when to abandon a specific passing direction and switch sides?",
-        "answer": "Watch for defensive overcommitment - when the bottom player shifts their hips heavily to one side, loads their hook in a specific direction, or adjusts their lapel wrap to defend a particular pass. This defensive commitment creates vulnerability on the opposite side. Recognizing these patterns allows you to bait their defensive reactions and immediately attack the newly opened passing lane before they can readjust."
+        "answer": "Watch for defensive overcommitment - when the bottom player shifts their hips heavily to one side, loads their hook in a specific direction, or adjusts their lapel wrap to defend a particular pass. This defensive commitment creates vulnerability on the opposite side. Recognizing these patterns allows you to bait their defensive reactions and immediately attack the newly opened passing lane before they can readjust.",
+        "answer_line": "Hips overload one side, hit other",
+        "distractors": {
+          "plausible": [
+            "Switch sides every few seconds",
+            "Wait for them to fully commit"
+          ],
+          "trap": [
+            "Push harder into the loaded side"
+          ]
+        }
       }
     ],
     "clips": [
@@ -671,35 +751,115 @@
     "flashcards": [
       {
         "question": "What are the essential grips required to maintain effective Squid Guard control?",
-        "answer": "The primary grip is on the opponent's lapel, wrapped around their leg or body to create constant tension and restrict their mobility. Secondary grips include sleeve control on their far arm to prevent grip stripping, and collar grip to break their posture. The lapel grip is non-negotiable - without it, Squid Guard degenerates into standard De La Riva and loses its unique advantages. At minimum, maintain the lapel wrap plus one upper body grip."
+        "answer": "The primary grip is on the opponent's lapel, wrapped around their leg or body to create constant tension and restrict their mobility. Secondary grips include sleeve control on their far arm to prevent grip stripping, and collar grip to break their posture. The lapel grip is non-negotiable - without it, Squid Guard degenerates into standard De La Riva and loses its unique advantages. At minimum, maintain the lapel wrap plus one upper body grip.",
+        "answer_line": "Lapel wrap plus one upper grip",
+        "distractors": {
+          "plausible": [
+            "Collar grip alone is enough",
+            "Two sleeve grips, skip lapel"
+          ],
+          "trap": [
+            "Drop lapel for double unders"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight and position your hips to maximize guard retention?",
-        "answer": "Keep your hips angled at approximately 45 degrees to your opponent rather than flat on your back. This angle creates better leverage for sweeps and makes it harder for them to stack or pressure pass. Your weight should be slightly on the hip of your non-threading leg, which allows rapid hip adjustment and creates rotational power. Avoid being flat - it eliminates your mobility and sweep potential."
+        "answer": "Keep your hips angled at approximately 45 degrees to your opponent rather than flat on your back. This angle creates better leverage for sweeps and makes it harder for them to stack or pressure pass. Your weight should be slightly on the hip of your non-threading leg, which allows rapid hip adjustment and creates rotational power. Avoid being flat - it eliminates your mobility and sweep potential.",
+        "answer_line": "Angle hips 45°, not flat",
+        "distractors": {
+          "plausible": [
+            "Stay flat for max stability",
+            "Weight center on threading leg"
+          ],
+          "trap": [
+            "Lie flat on your back"
+          ]
+        }
       },
       {
         "question": "Your opponent starts standing upright with good posture - what immediate threat should you create?",
-        "answer": "When they stand tall with neutral weight distribution, attack with sweeping movements that exploit their height and narrow base. Pull the lapel to break their posture while simultaneously extending your threading leg to elevate their far leg. This combination of pulling and lifting creates immediate off-balancing that threatens sweeps. The taller they stand, the more vulnerable they are to elevation-based attacks."
+        "answer": "When they stand tall with neutral weight distribution, attack with sweeping movements that exploit their height and narrow base. Pull the lapel to break their posture while simultaneously extending your threading leg to elevate their far leg. This combination of pulling and lifting creates immediate off-balancing that threatens sweeps. The taller they stand, the more vulnerable they are to elevation-based attacks.",
+        "answer_line": "Pull lapel, lift leg to sweep",
+        "distractors": {
+          "plausible": [
+            "Wait for them to sit down",
+            "Pull collar to break posture"
+          ],
+          "trap": [
+            "Release lapel, try to stand"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward with heavy pressure attempting to stack you - how do you respond?",
-        "answer": "Use their forward momentum against them by initiating back take sequences. When they drive forward, they're essentially loading your guard and creating the energy you need for inversions. Time your berimbolo or Kiss of the Dragon entry to their forward pressure, using their momentum to accelerate your rotation underneath them. The key is recognizing their commitment early and initiating your inversion before they flatten you."
+        "answer": "Use their forward momentum against them by initiating back take sequences. When they drive forward, they're essentially loading your guard and creating the energy you need for inversions. Time your berimbolo or Kiss of the Dragon entry to their forward pressure, using their momentum to accelerate your rotation underneath them. The key is recognizing their commitment early and initiating your inversion before they flatten you.",
+        "answer_line": "Use pressure to berimbolo",
+        "distractors": {
+          "plausible": [
+            "Brace and push straight back",
+            "Wait for pressure to ease"
+          ],
+          "trap": [
+            "Flatten out and turtle up"
+          ]
+        }
       },
       {
         "question": "What is the primary danger to your threading leg and how do you protect it?",
-        "answer": "The threading leg is exposed to leg lock attacks, particularly heel hooks and kneebars, when opponents recognize the vulnerability. Protect it by maintaining constant movement and tension - a stationary threading leg is an easy target. If you sense them reaching for your heel or shifting to attack the leg, immediately withdraw the thread and transition to Spider Guard or Lasso Guard. Never allow them to isolate the threading leg with both hands."
+        "answer": "The threading leg is exposed to leg lock attacks, particularly heel hooks and kneebars, when opponents recognize the vulnerability. Protect it by maintaining constant movement and tension - a stationary threading leg is an easy target. If you sense them reaching for your heel or shifting to attack the leg, immediately withdraw the thread and transition to Spider Guard or Lasso Guard. Never allow them to isolate the threading leg with both hands.",
+        "answer_line": "Stay active, pull leg if isolated",
+        "distractors": {
+          "plausible": [
+            "Lock the leg still for control",
+            "Push deeper to escape the grip"
+          ],
+          "trap": [
+            "Let them isolate it, muscle out"
+          ]
+        }
       },
       {
         "question": "How do you recover when your opponent strips your lapel grip?",
-        "answer": "The moment your lapel grip breaks, you must immediately transition to another guard or re-establish control. Don't try to maintain Squid Guard without the lapel - it's the defining element. Options include: re-feeding the lapel if possible, transitioning to standard De La Riva by maintaining your hook, shifting to Spider Guard using your sleeve grip, or threatening a triangle to force them to give you the space to re-establish. Prioritize maintaining some control over forcing the lapel back."
+        "answer": "The moment your lapel grip breaks, you must immediately transition to another guard or re-establish control. Don't try to maintain Squid Guard without the lapel - it's the defining element. Options include: re-feeding the lapel if possible, transitioning to standard De La Riva by maintaining your hook, shifting to Spider Guard using your sleeve grip, or threatening a triangle to force them to give you the space to re-establish. Prioritize maintaining some control over forcing the lapel back.",
+        "answer_line": "Shift guards, don't chase lapel",
+        "distractors": {
+          "plausible": [
+            "Force the lapel grip back on",
+            "Pause to reset your position"
+          ],
+          "trap": [
+            "Let go of all grips and reset"
+          ]
+        }
       },
       {
         "question": "Your opponent turns away from your threading leg pressure - what attack sequence should you follow?",
-        "answer": "When they turn away, they're exposing their back to escape your leg pressure. Immediately pursue with back take sequences - use your threading leg to follow their hip rotation while pulling on your lapel and upper body grips to accelerate their turn. Your non-threading leg should hook their hip to prevent them from completing a full escape. The goal is to convert their defensive turn into your offensive back take before they can stabilize in a new position."
+        "answer": "When they turn away, they're exposing their back to escape your leg pressure. Immediately pursue with back take sequences - use your threading leg to follow their hip rotation while pulling on your lapel and upper body grips to accelerate their turn. Your non-threading leg should hook their hip to prevent them from completing a full escape. The goal is to convert their defensive turn into your offensive back take before they can stabilize in a new position.",
+        "answer_line": "Chase the turn, hook to back",
+        "distractors": {
+          "plausible": [
+            "Release grips to let them turn",
+            "Switch to a leg lock attack"
+          ],
+          "trap": [
+            "Stay still and reset guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining active Squid Guard?",
-        "answer": "Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position."
+        "answer": "Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position.",
+        "answer_line": "Frame with legs, let lapel work",
+        "distractors": {
+          "plausible": [
+            "Muscle the lapel constantly",
+            "Hold position no matter what"
+          ],
+          "trap": [
+            "Grip and pull as hard as possible"
+          ]
+        }
       }
     ],
     "clips": [
@@ -735,31 +895,101 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Squid Guard and distinguishes it from a standard open guard?",
-      "answer": "Squid Guard is an asymmetrical lapel guard in which the bottom player threads one leg behind the top player's knee as a deep hook while simultaneously wrapping the top player's own lapel around that same leg or the body. The defining feature is the combination of a hook and a fabric tether working on the same limb, which no bilateral open guard offers. This pairing creates a mechanical anchor that resists both extraction of the hook and disengagement by the top player. Without the lapel wrap the configuration collapses into ordinary De La Riva, so the lapel-plus-hook coupling is what makes the position what it is."
+      "answer": "Squid Guard is an asymmetrical lapel guard in which the bottom player threads one leg behind the top player's knee as a deep hook while simultaneously wrapping the top player's own lapel around that same leg or the body. The defining feature is the combination of a hook and a fabric tether working on the same limb, which no bilateral open guard offers. This pairing creates a mechanical anchor that resists both extraction of the hook and disengagement by the top player. Without the lapel wrap the configuration collapses into ordinary De La Riva, so the lapel-plus-hook coupling is what makes the position what it is.",
+      "answer_line": "Deep hook plus lapel wrap combo",
+      "distractors": {
+        "plausible": [
+          "Two symmetric hooks, no lapel",
+          "Lapel wrap with no leg hook"
+        ],
+        "trap": [
+          "Just a standard De La Riva hook"
+        ]
+      }
     },
     {
       "question": "Why is the lapel wrap the non-negotiable control point that anchors the entire position for both players?",
-      "answer": "The lapel wrap converts the top player's own gi into a semi-rigid tether that mechanically restricts their leg and posture without requiring the bottom player to spend continuous muscular effort. Because the fabric is looped around a limb, tension is maintained even during transitions, giving the bottom player a persistent anchor and forcing the top player to actively clear it before any normal passing mechanics work. For the top player, the lapel is the primary thing that must be stripped or unwrapped; for the bottom player, it is the element that must be preserved above all others. This shared centrality is why both roles orient their entire strategy around the fabric connection rather than the hook alone."
+      "answer": "The lapel wrap converts the top player's own gi into a semi-rigid tether that mechanically restricts their leg and posture without requiring the bottom player to spend continuous muscular effort. Because the fabric is looped around a limb, tension is maintained even during transitions, giving the bottom player a persistent anchor and forcing the top player to actively clear it before any normal passing mechanics work. For the top player, the lapel is the primary thing that must be stripped or unwrapped; for the bottom player, it is the element that must be preserved above all others. This shared centrality is why both roles orient their entire strategy around the fabric connection rather than the hook alone.",
+      "answer_line": "Fabric tether, no muscle needed",
+      "distractors": {
+        "plausible": [
+          "Hook alone provides the same hold",
+          "Hand grip works just as well"
+        ],
+        "trap": [
+          "Trade lapel for a sleeve grip"
+        ]
+      }
     },
     {
       "question": "How does the deep hook behind the knee shape the base and posture battle in Squid Guard?",
-      "answer": "The hook threaded behind the top player's knee disrupts their base and prevents them from settling weight forward or squaring their hips into the bottom player. This denies the top player a stable platform to drive pressure straight down and forces them to widen their stance to stay balanced against the hook's tension. For the bottom player, maintaining constant tension on that hook is what keeps the top player from consolidating hip-to-hip pressure. The result is a configuration where the top player is structurally blocked from settling their weight until the hook is cleared."
+      "answer": "The hook threaded behind the top player's knee disrupts their base and prevents them from settling weight forward or squaring their hips into the bottom player. This denies the top player a stable platform to drive pressure straight down and forces them to widen their stance to stay balanced against the hook's tension. For the bottom player, maintaining constant tension on that hook is what keeps the top player from consolidating hip-to-hip pressure. The result is a configuration where the top player is structurally blocked from settling their weight until the hook is cleared.",
+      "answer_line": "Hook denies square hip pressure",
+      "distractors": {
+        "plausible": [
+          "Hook mainly controls the far arm",
+          "Hook only matters for sweeps"
+        ],
+        "trap": [
+          "Allow hips to square early"
+        ]
+      }
     },
     {
       "question": "What role does angle play in Squid Guard, and why do both players fight over it?",
-      "answer": "Effective Squid Guard depends on the bottom player keeping their hips perpendicular or at roughly 45 degrees to the top player's hips rather than flat on the back. This angle preserves the leverage needed to off-balance and threaten sweeps or back exposure, and it keeps the hook and lapel loaded. The top player's counter is to flatten that angle by squaring up or stacking, which neutralizes the sweeping and inverting threats. The constant contest over hip angle is therefore central to the position's dynamics for both players, since whoever controls the angle controls whether the guard is offensive or passable."
+      "answer": "Effective Squid Guard depends on the bottom player keeping their hips perpendicular or at roughly 45 degrees to the top player's hips rather than flat on the back. This angle preserves the leverage needed to off-balance and threaten sweeps or back exposure, and it keeps the hook and lapel loaded. The top player's counter is to flatten that angle by squaring up or stacking, which neutralizes the sweeping and inverting threats. The constant contest over hip angle is therefore central to the position's dynamics for both players, since whoever controls the angle controls whether the guard is offensive or passable.",
+      "answer_line": "45° hips preserve sweep leverage",
+      "distractors": {
+        "plausible": [
+          "Flat hips maximize control",
+          "Angle only matters for hooks"
+        ],
+        "trap": [
+          "Bottom should square up flat"
+        ]
+      }
     },
     {
       "question": "How do the two legs perform different jobs in Squid Guard's asymmetrical structure?",
-      "answer": "The threading leg forms the deep hook behind the opponent's knee and carries the primary off-balancing and posture-disrupting load in coordination with the lapel. The non-threading leg works separately as a distance manager and frame, typically posting on the near hip or bicep to control spacing and prevent the top player from closing in. This division of labor is what makes the guard asymmetrical, unlike bilateral guards where both legs mirror one another. If either leg goes passive the structure fails, so the roles of the two legs are distinct but interdependent for both maintaining and passing the position."
+      "answer": "The threading leg forms the deep hook behind the opponent's knee and carries the primary off-balancing and posture-disrupting load in coordination with the lapel. The non-threading leg works separately as a distance manager and frame, typically posting on the near hip or bicep to control spacing and prevent the top player from closing in. This division of labor is what makes the guard asymmetrical, unlike bilateral guards where both legs mirror one another. If either leg goes passive the structure fails, so the roles of the two legs are distinct but interdependent for both maintaining and passing the position.",
+      "answer_line": "Thread hooks, other leg frames",
+      "distractors": {
+        "plausible": [
+          "Both legs mirror each other",
+          "Non-threading leg attacks lapel"
+        ],
+        "trap": [
+          "Let non-threading leg go passive"
+        ]
+      }
     },
     {
       "question": "In what way does the lapel wrap around the leg expose the threading leg to specific dangers for both players?",
-      "answer": "Because one leg is deeply committed behind the opponent's knee and often further entangled by the lapel, that leg can become isolated and vulnerable to leg-lock entries such as heel hooks and kneebars if it stops moving. This vulnerability shapes play for both sides: the bottom player must keep the leg active and be ready to withdraw the thread, while the top player may attack the exposed leg instead of passing conventionally. The same deep commitment that generates the guard's control is also its structural liability. Managing that trade-off between control depth and leg exposure is a shared mechanical reality of the position."
+      "answer": "Because one leg is deeply committed behind the opponent's knee and often further entangled by the lapel, that leg can become isolated and vulnerable to leg-lock entries such as heel hooks and kneebars if it stops moving. This vulnerability shapes play for both sides: the bottom player must keep the leg active and be ready to withdraw the thread, while the top player may attack the exposed leg instead of passing conventionally. The same deep commitment that generates the guard's control is also its structural liability. Managing that trade-off between control depth and leg exposure is a shared mechanical reality of the position.",
+      "answer_line": "Still leg risks heel hooks",
+      "distractors": {
+        "plausible": [
+          "Only the free leg is at risk",
+          "Lapel wrap protects the leg fully"
+        ],
+        "trap": [
+          "Keep the leg still and locked"
+        ]
+      }
     },
     {
       "question": "How does Squid Guard differ from its parent De La Riva and Reverse De La Riva positions?",
-      "answer": "Squid Guard borrows the hook mechanics of De La Riva and Reverse De La Riva but adds the lapel wrap as an additional, semi-permanent point of control on the same limb. Where De La Riva relies on the hook plus hand grips that can be stripped relatively quickly, Squid Guard's fabric tether creates a more durable entanglement that persists through movement and restricts the top player's mobility more aggressively. This makes the guard more resistant to standard extraction but also more gi-dependent, since removing the lapel returns the exchange to a De La Riva dynamic. The lapel is thus the single element that separates Squid Guard from its hook-based relatives."
+      "answer": "Squid Guard borrows the hook mechanics of De La Riva and Reverse De La Riva but adds the lapel wrap as an additional, semi-permanent point of control on the same limb. Where De La Riva relies on the hook plus hand grips that can be stripped relatively quickly, Squid Guard's fabric tether creates a more durable entanglement that persists through movement and restricts the top player's mobility more aggressively. This makes the guard more resistant to standard extraction but also more gi-dependent, since removing the lapel returns the exchange to a De La Riva dynamic. The lapel is thus the single element that separates Squid Guard from its hook-based relatives.",
+      "answer_line": "Lapel adds durable tether vs grips",
+      "distractors": {
+        "plausible": [
+          "Uses no-gi grips instead of lapel",
+          "Identical mechanics, different name"
+        ],
+        "trap": [
+          "Relies purely on hand strength"
+        ]
+      }
     }
   ],
   "clips": [

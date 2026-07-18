@@ -256,35 +256,115 @@
     "flashcards": [
       {
         "question": "What structural weakness in the opponent's base makes the Meathook sweep mechanically viable?",
-        "answer": "The shin hook isolates the opponent's arm, removing it from defensive and base-building functions. This means they can only post with one arm, creating a unilateral base weakness on the trapped arm side. The sweep targets this exact side because the opponent literally cannot post to prevent being toppled in that direction, regardless of their strength or technical awareness."
+        "answer": "The shin hook isolates the opponent's arm, removing it from defensive and base-building functions. This means they can only post with one arm, creating a unilateral base weakness on the trapped arm side. The sweep targets this exact side because the opponent literally cannot post to prevent being toppled in that direction, regardless of their strength or technical awareness.",
+        "answer_line": "Can't post on trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Opponent overall off-balance",
+            "Both hips equally weak"
+          ],
+          "trap": [
+            "Free-arm side lacks base"
+          ]
+        }
       },
       {
         "question": "Which direction must the sweeping force be applied relative to the opponent's trapped arm?",
-        "answer": "All sweeping force must be directed toward the trapped arm side. This is the fundamental mechanical principle of the technique. The arm isolation removes posting ability specifically on that side, so directing force there exploits the structural gap. Sweeping in any other direction allows the opponent to post with their free arm and resist the sweep easily."
+        "answer": "All sweeping force must be directed toward the trapped arm side. This is the fundamental mechanical principle of the technique. The arm isolation removes posting ability specifically on that side, so directing force there exploits the structural gap. Sweeping in any other direction allows the opponent to post with their free arm and resist the sweep easily.",
+        "answer_line": "Toward trapped arm side",
+        "distractors": {
+          "plausible": [
+            "Straight back, either side",
+            "Whichever side feels lighter"
+          ],
+          "trap": [
+            "Toward the free arm side"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base by posting their free arm far to the side as you begin loading the sweep. What should you do?",
-        "answer": "Immediately abandon the sweep attempt and transition to a submission attack. The wide arm post that prevents the sweep simultaneously opens their neck for gogoplata and creates space for triangle entry. Their defensive choice against the sweep has made them vulnerable to submissions. Flow to the attack that their defense opens rather than forcing a sweep against improved base."
+        "answer": "Immediately abandon the sweep attempt and transition to a submission attack. The wide arm post that prevents the sweep simultaneously opens their neck for gogoplata and creates space for triangle entry. Their defensive choice against the sweep has made them vulnerable to submissions. Flow to the attack that their defense opens rather than forcing a sweep against improved base.",
+        "answer_line": "Abandon sweep, attack gogo/triangle",
+        "distractors": {
+          "plausible": [
+            "Grab the free arm and control it",
+            "Wait for them to overextend"
+          ],
+          "trap": [
+            "Keep driving sweep against post"
+          ]
+        }
       },
       {
         "question": "Why must hip elevation precede the directional drive in the sweep sequence?",
-        "answer": "Without vertical hip elevation first, the opponent's weight remains settled on their base and directional force merely slides them laterally without toppling. The bridge lifts their center of gravity above their base, creating instability. Only after this unweighting can directional force effectively tilt them over the trapped arm side. Skipping elevation turns the sweep into an ineffective push."
+        "answer": "Without vertical hip elevation first, the opponent's weight remains settled on their base and directional force merely slides them laterally without toppling. The bridge lifts their center of gravity above their base, creating instability. Only after this unweighting can directional force effectively tilt them over the trapped arm side. Skipping elevation turns the sweep into an ineffective push.",
+        "answer_line": "Bridge to unweight before driving",
+        "distractors": {
+          "plausible": [
+            "Drive direction first, then bridge",
+            "Elevate hips after tilt starts"
+          ],
+          "trap": [
+            "Push straight down and drive"
+          ]
+        }
       },
       {
         "question": "How does the collar or overhook grip on the non-trapped side contribute to the sweep mechanics?",
-        "answer": "The grip serves as a directional steering mechanism that pulls the opponent's head and upper body toward the trapped arm side during the sweep. It creates an opposing force with the shin hook: the hook controls the arm from below while the grip pulls from above. Together they generate the rotational moment that topples the opponent. Without this grip, the sweep lacks the upper body control needed for directional force application."
+        "answer": "The grip serves as a directional steering mechanism that pulls the opponent's head and upper body toward the trapped arm side during the sweep. It creates an opposing force with the shin hook: the hook controls the arm from below while the grip pulls from above. Together they generate the rotational moment that topples the opponent. Without this grip, the sweep lacks the upper body control needed for directional force application.",
+        "answer_line": "Pulls head toward trapped side",
+        "distractors": {
+          "plausible": [
+            "Pulls head away from trapped side",
+            "Controls hips, not upper body"
+          ],
+          "trap": [
+            "Push opponent's head straight down"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively to prevent your hip elevation. How do you convert this defensive reaction?",
-        "answer": "Forward driving pressure from the opponent feeds directly into gogoplata. Their forward momentum carries their neck deeper into the shin hook's choking angle. Rather than fighting against their pressure to execute the sweep, redirect the shin from tricep to throat and establish gogoplata control. The harder they drive forward to prevent the sweep, the deeper they enter the choke. This is the core dilemma of the Meathook attack system."
+        "answer": "Forward driving pressure from the opponent feeds directly into gogoplata. Their forward momentum carries their neck deeper into the shin hook's choking angle. Rather than fighting against their pressure to execute the sweep, redirect the shin from tricep to throat and establish gogoplata control. The harder they drive forward to prevent the sweep, the deeper they enter the choke. This is the core dilemma of the Meathook attack system.",
+        "answer_line": "Redirect shin to throat for gogo",
+        "distractors": {
+          "plausible": [
+            "Fight the pressure, force the sweep",
+            "Switch to underhook and stand"
+          ],
+          "trap": [
+            "Release hook and reset guard"
+          ]
+        }
       },
       {
         "question": "What is the critical error practitioners make when transitioning from Meathook to mount during the sweep?",
-        "answer": "Releasing the shin hook control too early during the rotation to mount. When the hook is released before mount is fully established, the opponent's previously trapped arm becomes available for posting, allowing them to catch themselves mid-sweep or insert a knee for half guard recovery. The hook must be maintained throughout the entire rotation until hips are settled heavy in mount position."
+        "answer": "Releasing the shin hook control too early during the rotation to mount. When the hook is released before mount is fully established, the opponent's previously trapped arm becomes available for posting, allowing them to catch themselves mid-sweep or insert a knee for half guard recovery. The hook must be maintained throughout the entire rotation until hips are settled heavy in mount position.",
+        "answer_line": "Releasing shin hook too early",
+        "distractors": {
+          "plausible": [
+            "Releasing grip too early",
+            "Rotating too slowly to mount"
+          ],
+          "trap": [
+            "Letting go to grab both arms"
+          ]
+        }
       },
       {
         "question": "How should the sweep attempt integrate with the broader Meathook submission attack tree?",
-        "answer": "The sweep should be layered with gogoplata, triangle, and omoplata threats as a unified system. Submission feints manipulate the opponent's weight distribution into patterns favorable for sweeping. When they defend chokes by pulling their head back, their weight shifts rearward, creating the optimal sweep window. When they defend the sweep by driving forward, submissions open. This creates an unsolvable dilemma where every defense opens the complementary attack."
+        "answer": "The sweep should be layered with gogoplata, triangle, and omoplata threats as a unified system. Submission feints manipulate the opponent's weight distribution into patterns favorable for sweeping. When they defend chokes by pulling their head back, their weight shifts rearward, creating the optimal sweep window. When they defend the sweep by driving forward, submissions open. This creates an unsolvable dilemma where every defense opens the complementary attack.",
+        "answer_line": "Layer sweep with gogo & triangle",
+        "distractors": {
+          "plausible": [
+            "Only attack after sweep lands",
+            "Pick one attack and commit"
+          ],
+          "trap": [
+            "Ignore submissions, force the sweep"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Meathook sweep involves significant rotational force through the opponent's shoulder via the trapped arm. Practitioners must ensure the shin hook does not apply excessive downward or twisting pressure to the shoulder joint during the sweep rotation, as the combination of arm isolation and rotational momentum can strain the glenohumeral joint. Release the hook immediately if your partner signals discomfort or taps. Both practitioners should develop the sweep gradually with cooperative drilling before applying full resistance. Avoid explosive sweep attempts without first confirming proper hook depth and partner readiness.",
@@ -402,19 +482,59 @@
     "flashcards": [
       {
         "question": "Why does the Meathook sweep specifically target the trapped arm side rather than any other direction?",
-        "answer": "The trapped arm cannot post or create base on that side due to the shin hook isolation. This removes half the opponent's defensive structure in one specific direction. Any other sweep direction allows the free arm to post and resist. The sweep exploits the precise structural gap that Meathook creates, making directional awareness the most critical element of sweep defense."
+        "answer": "The trapped arm cannot post or create base on that side due to the shin hook isolation. This removes half the opponent's defensive structure in one specific direction. Any other sweep direction allows the free arm to post and resist. The sweep exploits the precise structural gap that Meathook creates, making directional awareness the most critical element of sweep defense.",
+        "answer_line": "Trapped arm can't post there",
+        "distractors": {
+          "plausible": [
+            "Opponent is weaker there generally",
+            "It's the shortest path to mount"
+          ],
+          "trap": [
+            "Free arm side, easier angle"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player's hips beginning to elevate while in Meathook top. What immediate base adjustment prevents the sweep?",
-        "answer": "Post your free arm wide toward the trapped arm side immediately, creating a tripod base structure. Simultaneously shift your weight toward the non-trapped arm side to counterbalance the directional force. These two adjustments together create structural resistance to the sweep. However, recognize that the wide post opens submission angles, so you must begin working on arm extraction or posture recovery immediately."
+        "answer": "Post your free arm wide toward the trapped arm side immediately, creating a tripod base structure. Simultaneously shift your weight toward the non-trapped arm side to counterbalance the directional force. These two adjustments together create structural resistance to the sweep. However, recognize that the wide post opens submission angles, so you must begin working on arm extraction or posture recovery immediately.",
+        "answer_line": "Post wide toward trapped side",
+        "distractors": {
+          "plausible": [
+            "Post wide toward free side",
+            "Sit back and pull guard"
+          ],
+          "trap": [
+            "Drive forward into their frame"
+          ]
+        }
       },
       {
         "question": "Why does driving forward as a sweep defense often create a worse situation than being swept?",
-        "answer": "Forward driving pressure carries your head and neck directly into the shin hook's choking angle, enabling gogoplata. Being swept to mount bottom is a recoverable positional disadvantage with established escape systems. Being caught in a gogoplata is a submission threat that can end the match. The sweep is a four-point loss; the gogoplata is match over. Always prefer the lesser positional consequence."
+        "answer": "Forward driving pressure carries your head and neck directly into the shin hook's choking angle, enabling gogoplata. Being swept to mount bottom is a recoverable positional disadvantage with established escape systems. Being caught in a gogoplata is a submission threat that can end the match. The sweep is a four-point loss; the gogoplata is match over. Always prefer the lesser positional consequence.",
+        "answer_line": "Forward drive feeds gogoplata",
+        "distractors": {
+          "plausible": [
+            "Forward drive stalls sweep safely",
+            "Forward drive improves posture"
+          ],
+          "trap": [
+            "Better to drive than get swept"
+          ]
+        }
       },
       {
         "question": "What defensive approach addresses both the sweep threat and the submission threats from Meathook simultaneously?",
-        "answer": "Explosive posture recovery addresses all threats because it removes the Meathook control structure entirely. By breaking posture free and extracting the trapped arm, you eliminate the foundation of both sweeps and submissions. No other single defensive action resolves both threat categories. This is why posture recovery should be the primary objective, with base adjustment serving as interim protection while working toward full escape."
+        "answer": "Explosive posture recovery addresses all threats because it removes the Meathook control structure entirely. By breaking posture free and extracting the trapped arm, you eliminate the foundation of both sweeps and submissions. No other single defensive action resolves both threat categories. This is why posture recovery should be the primary objective, with base adjustment serving as interim protection while working toward full escape.",
+        "answer_line": "Explosive posture recovery",
+        "distractors": {
+          "plausible": [
+            "Base widening only",
+            "Attacking their far leg"
+          ],
+          "trap": [
+            "Grip fighting the collar tie"
+          ]
+        }
       }
     ],
     "training_progressions": [

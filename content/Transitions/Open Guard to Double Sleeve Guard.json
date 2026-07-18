@@ -250,35 +250,115 @@
     "flashcards": [
       {
         "question": "Why is it critical to maintain at least one foot on the opponent's hip during the grip acquisition phase?",
-        "answer": "The foot-on-hip frame is your primary distance management tool during the vulnerable grip-fighting phase. Without it, the opponent can drive forward and collapse the distance before you establish sleeve control, converting your grip attempt into a smash passing opportunity. The foot provides a structural barrier that the opponent must address before advancing, buying you the time needed to complete the grip sequence."
+        "answer": "The foot-on-hip frame is your primary distance management tool during the vulnerable grip-fighting phase. Without it, the opponent can drive forward and collapse the distance before you establish sleeve control, converting your grip attempt into a smash passing opportunity. The foot provides a structural barrier that the opponent must address before advancing, buying you the time needed to complete the grip sequence.",
+        "answer_line": "Blocks smash pass distance",
+        "distractors": {
+          "plausible": [
+            "Sets up sweep angle early",
+            "Hooks their leg for control"
+          ],
+          "trap": [
+            "Free foot to grip faster"
+          ]
+        }
       },
       {
         "question": "What grip depth and configuration provides optimal sleeve control with minimal fatigue?",
-        "answer": "Grip deep at the cuff with four fingers inside the sleeve opening and thumb on the outside, forming a pistol grip. This configuration places your grip at the narrowest point of the sleeve where the opponent has minimal leverage for grip breaking. Keeping your elbows tight to your ribs creates a structural frame where your skeleton supports the grip rather than relying solely on forearm muscles, significantly reducing fatigue over extended exchanges."
+        "answer": "Grip deep at the cuff with four fingers inside the sleeve opening and thumb on the outside, forming a pistol grip. This configuration places your grip at the narrowest point of the sleeve where the opponent has minimal leverage for grip breaking. Keeping your elbows tight to your ribs creates a structural frame where your skeleton supports the grip rather than relying solely on forearm muscles, significantly reducing fatigue over extended exchanges.",
+        "answer_line": "Deep cuff, thumb out, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Shallow grip, elbows flared out",
+            "Four fingers and thumb inside"
+          ],
+          "trap": [
+            "Grip loosely with straight arms"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat after you secure the first sleeve grip. How do you exploit this to acquire the second grip?",
-        "answer": "A posted hand is a committed hand. Push their same-side hip with your foot to further load weight onto the posting hand, then use your first sleeve grip to pull their controlled arm across your centerline. This diagonal force rotates their torso and makes it impossible to maintain the post. As they lift their posting hand to recover balance, immediately shoot your free hand to their cuff before they can retract the arm."
+        "answer": "A posted hand is a committed hand. Push their same-side hip with your foot to further load weight onto the posting hand, then use your first sleeve grip to pull their controlled arm across your centerline. This diagonal force rotates their torso and makes it impossible to maintain the post. As they lift their posting hand to recover balance, immediately shoot your free hand to their cuff before they can retract the arm.",
+        "answer_line": "Load post, pull arm across, grab",
+        "distractors": {
+          "plausible": [
+            "Pull straight back to strip post",
+            "Push opposite hip, not same side"
+          ],
+          "trap": [
+            "Release grip to attack post arm"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the transition to double sleeve guard?",
-        "answer": "The slight hip elevation and lateral angle during grip acquisition is the most critical hip movement. Your hips should never be flat on the mat during the transition. Elevating your hips slightly allows you to angle toward the side of your initial grip target, shortening the distance your hand must travel. After securing both grips, angling your hips loads sweep potential to one side and creates the asymmetric guard structure needed for effective push-pull offense."
+        "answer": "The slight hip elevation and lateral angle during grip acquisition is the most critical hip movement. Your hips should never be flat on the mat during the transition. Elevating your hips slightly allows you to angle toward the side of your initial grip target, shortening the distance your hand must travel. After securing both grips, angling your hips loads sweep potential to one side and creates the asymmetric guard structure needed for effective push-pull offense.",
+        "answer_line": "Elevate hips, angle to target",
+        "distractors": {
+          "plausible": [
+            "Keep hips flat and square",
+            "Angle away from grip target"
+          ],
+          "trap": [
+            "Flatten hips to add pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your first sleeve grip using wrist rotation before you can secure the second. What is your immediate response?",
-        "answer": "If the grip strip is in progress but not complete, curl your wrist inward and pull your elbow tighter to your rib while extending your same-side leg to push them away, which reduces the effectiveness of their rotation. If the grip breaks entirely, immediately re-grip the same sleeve or transition your free hand to a collar grip to maintain at least one control point. Never fight for a losing grip with extended arms, as this compromises your guard structure."
+        "answer": "If the grip strip is in progress but not complete, curl your wrist inward and pull your elbow tighter to your rib while extending your same-side leg to push them away, which reduces the effectiveness of their rotation. If the grip breaks entirely, immediately re-grip the same sleeve or transition your free hand to a collar grip to maintain at least one control point. Never fight for a losing grip with extended arms, as this compromises your guard structure.",
+        "answer_line": "Curl wrist, tuck elbow, push leg",
+        "distractors": {
+          "plausible": [
+            "Straighten arm and pull harder",
+            "Release grip, reset to neutral"
+          ],
+          "trap": [
+            "Fight grip with extended arm"
+          ]
+        }
       },
       {
         "question": "Against what type of passer should you avoid attempting the double sleeve transition?",
-        "answer": "Avoid this transition against pressure passers who have already established strong pants grips at your knees or ankles. Their leg control creates a grip-fighting disadvantage where you are reaching for sleeves while they control your lower body. Similarly, opponents who keep their elbows pinched tight to their body and maintain a very low posture present poor targets for sleeve gripping. Against these opponents, butterfly guard, half guard, or closed guard entries are more appropriate."
+        "answer": "Avoid this transition against pressure passers who have already established strong pants grips at your knees or ankles. Their leg control creates a grip-fighting disadvantage where you are reaching for sleeves while they control your lower body. Similarly, opponents who keep their elbows pinched tight to their body and maintain a very low posture present poor targets for sleeve gripping. Against these opponents, butterfly guard, half guard, or closed guard entries are more appropriate.",
+        "answer_line": "Pressure passers with leg grips",
+        "distractors": {
+          "plausible": [
+            "Opponents with tight high guard",
+            "Passers who grip your collar"
+          ],
+          "trap": [
+            "Any opponent bigger than you"
+          ]
+        }
       },
       {
         "question": "How does the diagonal force created by one sleeve grip plus opposite-side foot pressure facilitate the second grip acquisition?",
-        "answer": "Pulling one sleeve toward your hip while pushing the opposite hip with your foot creates a rotational force through the opponent's torso. This rotation brings their free arm forward involuntarily as they attempt to maintain balance. The diagonal force also compromises their base in a way that straight push-pull cannot, because it attacks their equilibrium along an axis they cannot easily resist with standard posture adjustments. This makes the second grip acquisition a consequence of the first rather than an independent action."
+        "answer": "Pulling one sleeve toward your hip while pushing the opposite hip with your foot creates a rotational force through the opponent's torso. This rotation brings their free arm forward involuntarily as they attempt to maintain balance. The diagonal force also compromises their base in a way that straight push-pull cannot, because it attacks their equilibrium along an axis they cannot easily resist with standard posture adjustments. This makes the second grip acquisition a consequence of the first rather than an independent action.",
+        "answer_line": "Rotation drags free arm forward",
+        "distractors": {
+          "plausible": [
+            "Straight pull drags arm forward",
+            "Foot pressure alone opens grip"
+          ],
+          "trap": [
+            "Push same-side hip, not opposite"
+          ]
+        }
       },
       {
         "question": "If your sweep attempt from double sleeve guard is blocked and opponent begins to regain posture, what chain attack should you pursue?",
-        "answer": "Maintain your sleeve grips and immediately transition your foot placement. If a scissor sweep was blocked, redirect to a pendulum sweep in the opposite direction using the opponent's recovery momentum. If they posture strongly with both arms pulled back, their backward weight distribution creates an opportunity for a sit-up guard transition or technical stand-up. Alternatively, convert one sleeve grip to a lasso or spider configuration to enter a different guard system that exploits the angle their recovery created."
+        "answer": "Maintain your sleeve grips and immediately transition your foot placement. If a scissor sweep was blocked, redirect to a pendulum sweep in the opposite direction using the opponent's recovery momentum. If they posture strongly with both arms pulled back, their backward weight distribution creates an opportunity for a sit-up guard transition or technical stand-up. Alternatively, convert one sleeve grip to a lasso or spider configuration to enter a different guard system that exploits the angle their recovery created.",
+        "answer_line": "Chain to pendulum or lasso entry",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset to guard",
+            "Repeat same sweep harder"
+          ],
+          "trap": [
+            "Let go and stand up to reset"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves sustained grip fighting which can cause finger and forearm injuries over time. Use proper pistol grip technique to distribute load across all fingers rather than relying on fingertip grips. Release grips immediately if you feel sharp pain in finger joints or tendons. Avoid forcing grip acquisition against explosive resistance that could hyperextend your fingers. Tape fingers prophylactically if you train this position frequently. Communicate with training partners about grip intensity during drilling to prevent accidental joint injuries.",
@@ -395,19 +475,59 @@
     "flashcards": [
       {
         "question": "Why is preventing the first sleeve grip more important than breaking it after establishment?",
-        "answer": "The first grip provides the bottom player with a lever to manipulate your posture through diagonal pulling combined with foot pressure. This postural manipulation naturally brings your second arm forward and into gripping range, making the second grip acquisition far easier. By preventing the first grip entirely, you deny the cascading effect that makes bilateral control almost inevitable once the sequence begins."
+        "answer": "The first grip provides the bottom player with a lever to manipulate your posture through diagonal pulling combined with foot pressure. This postural manipulation naturally brings your second arm forward and into gripping range, making the second grip acquisition far easier. By preventing the first grip entirely, you deny the cascading effect that makes bilateral control almost inevitable once the sequence begins.",
+        "answer_line": "Stops the grip cascade early",
+        "distractors": {
+          "plausible": [
+            "Easier to break established grip",
+            "Second grip matters more than first"
+          ],
+          "trap": [
+            "Fight the grip once it's set"
+          ]
+        }
       },
       {
         "question": "What mechanical principle makes wrist rotation more effective than straight pulling for breaking cuff grips?",
-        "answer": "Cuff grips with four fingers inside the sleeve opening are strongest against linear pulling forces because the grip wraps around the cylindrical wrist. Wrist rotation toward the opponent's thumb attacks the weakest axis of their grip, where only the thumb opposes the breaking force. Combined with hip movement and stepping, the rotational break uses your entire body against their isolated grip strength rather than matching forearm against forearm."
+        "answer": "Cuff grips with four fingers inside the sleeve opening are strongest against linear pulling forces because the grip wraps around the cylindrical wrist. Wrist rotation toward the opponent's thumb attacks the weakest axis of their grip, where only the thumb opposes the breaking force. Combined with hip movement and stepping, the rotational break uses your entire body against their isolated grip strength rather than matching forearm against forearm.",
+        "answer_line": "Rotate toward thumb, weak axis",
+        "distractors": {
+          "plausible": [
+            "Pull straight to snap the grip",
+            "Twist away from their thumb"
+          ],
+          "trap": [
+            "Match strength, pull straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent has one sleeve grip and is using diagonal force to set up the second grip. What is your immediate priority?",
-        "answer": "Your immediate priority is preventing the postural break rather than fighting the grip directly. Widen your base, sit your hips back, and engage your core to resist the diagonal pull. Post your free hand on the mat briefly if needed to maintain balance. Once your posture is stabilized, address the grip using wrist rotation while the opponent's diagonal force strategy has been neutralized. Fighting the grip while your posture is compromised leads to worse positions."
+        "answer": "Your immediate priority is preventing the postural break rather than fighting the grip directly. Widen your base, sit your hips back, and engage your core to resist the diagonal pull. Post your free hand on the mat briefly if needed to maintain balance. Once your posture is stabilized, address the grip using wrist rotation while the opponent's diagonal force strategy has been neutralized. Fighting the grip while your posture is compromised leads to worse positions.",
+        "answer_line": "Stabilize posture before gripping",
+        "distractors": {
+          "plausible": [
+            "Strip the grip immediately",
+            "Pull away to break contact"
+          ],
+          "trap": [
+            "Extend arms to fight the grip"
+          ]
+        }
       },
       {
         "question": "How should you exploit the moment when your opponent reaches for your second sleeve?",
-        "answer": "When the opponent reaches for your second sleeve, they momentarily have only one hand contributing to guard retention and one foot may come off your hip to create the extending angle. This creates a passing window. Drive forward aggressively toward the side of their reaching arm, using their overextension against them. Their reaching arm cannot defend the pass and their compromised foot positioning reduces their ability to retain guard. This is the highest-percentage moment for passing during the entire double sleeve establishment sequence."
+        "answer": "When the opponent reaches for your second sleeve, they momentarily have only one hand contributing to guard retention and one foot may come off your hip to create the extending angle. This creates a passing window. Drive forward aggressively toward the side of their reaching arm, using their overextension against them. Their reaching arm cannot defend the pass and their compromised foot positioning reduces their ability to retain guard. This is the highest-percentage moment for passing during the entire double sleeve establishment sequence.",
+        "answer_line": "Drive pass toward reaching arm",
+        "distractors": {
+          "plausible": [
+            "Retract to reset guard shape",
+            "Attack the far side instead"
+          ],
+          "trap": [
+            "Wait for them to finish gripping"
+          ]
+        }
       }
     ],
     "training_progressions": [

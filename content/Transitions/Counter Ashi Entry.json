@@ -218,51 +218,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Counter Ashi Entry?",
-        "answer": "The primary goal is to establish your own leg entanglement control while your opponent holds your leg in Ashi Garami, transforming a defensive situation into an offensive opportunity where you gain positional advantage in the resulting bilateral exchange."
+        "answer": "The primary goal is to establish your own leg entanglement control while your opponent holds your leg in Ashi Garami, transforming a defensive situation into an offensive opportunity where you gain positional advantage in the resulting bilateral exchange.",
+        "answer_line": "Establish own ashi control",
+        "distractors": {
+          "plausible": [
+            "Just survive their ashi lock",
+            "Escape and reset to neutral"
+          ],
+          "trap": [
+            "Ignore heel, rush to counter"
+          ]
+        }
       },
       {
         "question": "What position do you start Counter Ashi Entry from?",
-        "answer": "Counter Ashi Entry starts from Ashi Garami/Top, meaning your opponent has established leg entanglement control on one of your legs while you maintain standing or kneeling base above them."
+        "answer": "Counter Ashi Entry starts from Ashi Garami/Top, meaning your opponent has established leg entanglement control on one of your legs while you maintain standing or kneeling base above them.",
+        "answer_line": "Ashi Garami (top)",
+        "distractors": {
+          "plausible": [
+            "Ashi Garami (bottom)",
+            "Closed Guard (top)"
+          ],
+          "trap": [
+            "Saddle (bottom)"
+          ]
+        }
       },
       {
         "question": "What must you verify before attempting the counter entry?",
-        "answer": "You must verify that your heel on the trapped leg is protected and not exposed to immediate finishing mechanics. If your heel is exposed and opponent has submission grip, you should straighten the leg and protect the heel before attempting any counter entry."
+        "answer": "You must verify that your heel on the trapped leg is protected and not exposed to immediate finishing mechanics. If your heel is exposed and opponent has submission grip, you should straighten the leg and protect the heel before attempting any counter entry.",
+        "answer_line": "Protect exposed heel first",
+        "distractors": {
+          "plausible": [
+            "Check grip tightness first",
+            "Verify hip alignment first"
+          ],
+          "trap": [
+            "Ignore heel, insert leg fast"
+          ]
+        }
       },
       {
         "question": "Where should your knee be positioned after successful leg insertion?",
-        "answer": "Your knee should be positioned on the inside of opponent's near-side thigh, driving toward the mat to establish inside space control. This knee-inside positioning gives you hierarchical advantage in the leg entanglement exchange."
+        "answer": "Your knee should be positioned on the inside of opponent's near-side thigh, driving toward the mat to establish inside space control. This knee-inside positioning gives you hierarchical advantage in the leg entanglement exchange.",
+        "answer_line": "Knee inside near-side thigh",
+        "distractors": {
+          "plausible": [
+            "Knee outside far-side thigh",
+            "Knee flat on the mat"
+          ],
+          "trap": [
+            "Knee pointed away from hips"
+          ]
+        }
       },
       {
         "question": "Why is upper body control important during the entry sequence?",
-        "answer": "Upper body control through lapel grip, bicep control, or underhook prevents opponent from hip escaping away from your entry. Without this connection, opponent can disengage and nullify your counter entry while potentially advancing their own position."
+        "answer": "Upper body control through lapel grip, bicep control, or underhook prevents opponent from hip escaping away from your entry. Without this connection, opponent can disengage and nullify your counter entry while potentially advancing their own position.",
+        "answer_line": "Lapel/bicep grip stops hip escape",
+        "distractors": {
+          "plausible": [
+            "Grab far leg for control",
+            "Underhook just for balance"
+          ],
+          "trap": [
+            "Release grips to free hands"
+          ]
+        }
       },
       {
         "question": "Your opponent adjusts their grip on your trapped leg. How should you respond?",
-        "answer": "Grip adjustment creates an entry window because opponent's control momentarily weakens. This is the optimal time to thread your free leg between their thighs and establish your counter entanglement before they resecure their position."
+        "answer": "Grip adjustment creates an entry window because opponent's control momentarily weakens. This is the optimal time to thread your free leg between their thighs and establish your counter entanglement before they resecure their position.",
+        "answer_line": "Thread leg in grip window",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Reset your base first"
+          ],
+          "trap": [
+            "Pull knee out to escape"
+          ]
+        }
       },
       {
         "question": "What should you do if opponent begins heel hook mechanics as you start entry?",
-        "answer": "Immediately prioritize heel protection by straightening your trapped leg and hiding the heel. Abort the counter entry if your heel becomes exposed—no counter entry is worth a knee injury from a completed heel hook."
+        "answer": "Immediately prioritize heel protection by straightening your trapped leg and hiding the heel. Abort the counter entry if your heel becomes exposed—no counter entry is worth a knee injury from a completed heel hook.",
+        "answer_line": "Straighten leg, hide heel",
+        "distractors": {
+          "plausible": [
+            "Push through the entry fast",
+            "Grip fight for the heel"
+          ],
+          "trap": [
+            "Keep entry, ignore heel hook"
+          ]
+        }
       },
       {
         "question": "How does Counter Ashi Entry relate to the leg entanglement positional hierarchy?",
-        "answer": "Counter Ashi Entry typically establishes Outside Ashi-Garami position, which is the entry point of the leg lock hierarchy. From there, you should advance systematically through Inside Ashi to Cross Ashi to Saddle before attempting finishes, while maintaining defensive awareness of opponent's original position."
+        "answer": "Counter Ashi Entry typically establishes Outside Ashi-Garami position, which is the entry point of the leg lock hierarchy. From there, you should advance systematically through Inside Ashi to Cross Ashi to Saddle before attempting finishes, while maintaining defensive awareness of opponent's original position.",
+        "answer_line": "Enters at Outside Ashi-Garami",
+        "distractors": {
+          "plausible": [
+            "Enters straight into Saddle",
+            "Enters at Cross Ashi-Garami"
+          ],
+          "trap": [
+            "Skip to heel hook finish"
+          ]
+        }
       },
       {
         "question": "What follow-up attacks become available after successful Counter Ashi Entry?",
-        "answer": "After establishing Outside Ashi through counter entry, you can pursue straight ankle lock immediately or work to advance position through Inside Ashi Entry toward Saddle for heel hook opportunities. The counter-attacker often has momentum advantage in the subsequent exchange."
+        "answer": "After establishing Outside Ashi through counter entry, you can pursue straight ankle lock immediately or work to advance position through Inside Ashi Entry toward Saddle for heel hook opportunities. The counter-attacker often has momentum advantage in the subsequent exchange.",
+        "answer_line": "Straight ankle or advance in",
+        "distractors": {
+          "plausible": [
+            "Immediate heel hook attempt",
+            "Kimura from the outside"
+          ],
+          "trap": [
+            "Abandon position, stand up"
+          ]
+        }
       },
       {
         "question": "When should you abandon the counter entry and simply extract your leg?",
-        "answer": "Abandon counter entry when opponent creates significant distance through hip escape, when your heel becomes exposed without ability to protect, or when opponent's tight hip positioning completely blocks inside space access. Standard leg extraction may be safer than forcing a compromised entry."
+        "answer": "Abandon counter entry when opponent creates significant distance through hip escape, when your heel becomes exposed without ability to protect, or when opponent's tight hip positioning completely blocks inside space access. Standard leg extraction may be safer than forcing a compromised entry.",
+        "answer_line": "Heel exposed, hips blocked",
+        "distractors": {
+          "plausible": [
+            "Anytime opponent resists",
+            "When you feel fatigued"
+          ],
+          "trap": [
+            "Force entry despite exposure"
+          ]
+        }
       },
       {
         "question": "Your opponent threads their free leg deeply and begins driving their knee inside your thigh - what is happening and how do you counter?",
-        "answer": "The opponent is executing the same Counter Ashi Entry technique against you, attempting to establish reciprocal inside space control. You must address their inserting leg immediately by clamping your thighs together and hip escaping to deny inside space. Alternatively, accelerate your own submission attempt to force them to prioritize defense over counter-entry."
+        "answer": "The opponent is executing the same Counter Ashi Entry technique against you, attempting to establish reciprocal inside space control. You must address their inserting leg immediately by clamping your thighs together and hip escaping to deny inside space. Alternatively, accelerate your own submission attempt to force them to prioritize defense over counter-entry.",
+        "answer_line": "Clamp thighs, hip escape",
+        "distractors": {
+          "plausible": [
+            "Grip fight their ankle",
+            "Push their knee outward only"
+          ],
+          "trap": [
+            "Ignore it, chase submission"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when inserting the free leg during Counter Ashi Entry?",
-        "answer": "The force should be directed inward and downward, driving your knee toward the mat on the inside of opponent's near-side thigh. This creates a wedge that controls inside space. Avoid pushing forward or outward, which would create shallow contact that the opponent can easily clear. The downward angle locks your knee inside their thigh and makes clearing your leg structurally difficult."
+        "answer": "The force should be directed inward and downward, driving your knee toward the mat on the inside of opponent's near-side thigh. This creates a wedge that controls inside space. Avoid pushing forward or outward, which would create shallow contact that the opponent can easily clear. The downward angle locks your knee inside their thigh and makes clearing your leg structurally difficult.",
+        "answer_line": "Drive knee inward and down",
+        "distractors": {
+          "plausible": [
+            "Push knee straight forward",
+            "Drive knee outward and up"
+          ],
+          "trap": [
+            "Push leg out and disengage"
+          ]
+        }
       }
     ],
     "safety_considerations": "Counter Ashi Entry involves significant knee ligament risk for both practitioners due to the bilateral nature of leg entanglements. Never attempt counter entry when your heel is exposed—tap immediately if opponent achieves heel hook grip. During training, communicate clearly with partner about resistance levels and tap early to any submission threat. Avoid explosive or jerky movements during entry that could torque either practitioner's knee. Both partners should understand heel hook safety and release protocols before drilling leg entanglement exchanges.",
@@ -379,23 +499,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting Counter Ashi Entry?",
-        "answer": "The earliest cue is the opponent shifting weight onto their trapped leg and lifting or angling their free leg inward toward the space between your thighs. This weight shift and leg repositioning precedes the actual insertion and gives you the maximum defensive window to close inside space or accelerate your own offense."
+        "answer": "The earliest cue is the opponent shifting weight onto their trapped leg and lifting or angling their free leg inward toward the space between your thighs. This weight shift and leg repositioning precedes the actual insertion and gives you the maximum defensive window to close inside space or accelerate your own offense.",
+        "answer_line": "Weight shift, leg angles in",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "Opponent's breathing changes"
+          ],
+          "trap": [
+            "Wait for knee to fully insert"
+          ]
+        }
       },
       {
         "question": "Why is maintaining offensive pressure the most effective defense against Counter Ashi Entry?",
-        "answer": "Constant offensive pressure forces the opponent to prioritize defending your submissions over initiating counter entry. Counter Ashi Entry requires composure, precise timing, and deliberate positioning—all of which are disrupted when the opponent must address immediate heel hook or ankle lock threats. An opponent defending a submission cannot simultaneously execute a coordinated counter entry."
+        "answer": "Constant offensive pressure forces the opponent to prioritize defending your submissions over initiating counter entry. Counter Ashi Entry requires composure, precise timing, and deliberate positioning—all of which are disrupted when the opponent must address immediate heel hook or ankle lock threats. An opponent defending a submission cannot simultaneously execute a coordinated counter entry.",
+        "answer_line": "Forces them to defend, not enter",
+        "distractors": {
+          "plausible": [
+            "It tires out the opponent",
+            "It hides your own heel"
+          ],
+          "trap": [
+            "Stall to control the pace"
+          ]
+        }
       },
       {
         "question": "Your opponent has already inserted their free leg partway into your inside space but has not secured upper body connection. What is your best response?",
-        "answer": "Frame on their inserting knee with your hand and push it outward while simultaneously hip escaping to close the remaining inside space. Because they lack upper body connection, they cannot prevent your hip escape or anchor their entry. This is the last reliable defensive window—once they secure both leg insertion and upper body grip, the exchange becomes bilateral and much harder to control."
+        "answer": "Frame on their inserting knee with your hand and push it outward while simultaneously hip escaping to close the remaining inside space. Because they lack upper body connection, they cannot prevent your hip escape or anchor their entry. This is the last reliable defensive window—once they secure both leg insertion and upper body grip, the exchange becomes bilateral and much harder to control.",
+        "answer_line": "Frame knee, hip escape now",
+        "distractors": {
+          "plausible": [
+            "Grab underhook immediately",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Wait for grips to secure"
+          ]
+        }
       },
       {
         "question": "How can you use the opponent's counter entry attempt to advance your own position?",
-        "answer": "When the opponent drives their hips forward to insert their free leg, their forward weight commitment creates opportunity for you to advance to Inside Ashi-Garami or Cross Ashi-Garami. Their forward pressure actually assists your positional advancement by bringing their hip closer to your inside leg. Thread your inside leg deeper across their hip during their forward drive to achieve hierarchically superior position."
+        "answer": "When the opponent drives their hips forward to insert their free leg, their forward weight commitment creates opportunity for you to advance to Inside Ashi-Garami or Cross Ashi-Garami. Their forward pressure actually assists your positional advancement by bringing their hip closer to your inside leg. Thread your inside leg deeper across their hip during their forward drive to achieve hierarchically superior position.",
+        "answer_line": "Thread leg deeper on their drive",
+        "distractors": {
+          "plausible": [
+            "Pull back to reset space",
+            "Switch to standing base"
+          ],
+          "trap": [
+            "Sit back and give up top"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of using a hand to frame against the opponent's inserting knee?",
-        "answer": "Using a hand to frame on their knee temporarily removes one grip from controlling their trapped leg, which weakens your submission setup and may create a brief window where they can extract their heel or adjust their defensive positioning. The trade-off is worth it only if their leg insertion is imminent—otherwise maintain both grips on their trapped leg and use hip positioning alone to deny inside space."
+        "answer": "Using a hand to frame on their knee temporarily removes one grip from controlling their trapped leg, which weakens your submission setup and may create a brief window where they can extract their heel or adjust their defensive positioning. The trade-off is worth it only if their leg insertion is imminent—otherwise maintain both grips on their trapped leg and use hip positioning alone to deny inside space.",
+        "answer_line": "Weakens your trapped-leg grip",
+        "distractors": {
+          "plausible": [
+            "Slows down your hip escape",
+            "Tires out your framing arm"
+          ],
+          "trap": [
+            "Always frame regardless of timing"
+          ]
+        }
       }
     ],
     "training_progressions": [

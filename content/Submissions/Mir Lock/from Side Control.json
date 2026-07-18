@@ -320,62 +320,182 @@
       {
         "question": "What are the minimum application speed and pressure progression requirements for the Mir Lock in training environments?",
         "answer": "The Mir Lock must be applied over a minimum of 5-7 seconds with progressive pressure in training environments. The pressure should start light and gradually increase while constantly monitoring for tap signals. This slow application allows the training partner to recognize the submission and tap before any structural damage occurs to the shoulder joint. Competition application may be faster, but training must always prioritize safety over speed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "5-7 sec, progressive pressure",
+        "distractors": {
+          "plausible": [
+            "2-3 sec like competition",
+            "Fast then ease off"
+          ],
+          "trap": [
+            "Apply max pressure immediately"
+          ]
+        }
       },
       {
         "question": "Why is the 45-degree body angle critical to the Mir Lock's effectiveness and control?",
         "answer": "The 45-degree body angle relative to the opponent's torso serves two critical functions: First, it prevents the opponent from rolling toward you to escape the submission by creating an off-balance angle that makes rolling mechanically difficult. Second, it optimizes the leverage angle for applying rotational pressure to the shoulder joint, allowing you to drive your body weight through the shoulder while maintaining control. A perpendicular position would allow easy rolling escapes, while a parallel position would lack the necessary leverage for effective shoulder rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks roll, adds leverage",
+        "distractors": {
+          "plausible": [
+            "Stops opponent posting up",
+            "Keeps hips squared flat"
+          ],
+          "trap": [
+            "Go perpendicular for control"
+          ]
+        }
       },
       {
         "question": "What specific injuries can result from improper Mir Lock application, and what are their typical recovery timeframes?",
         "answer": "Improper Mir Lock application can cause multiple severe shoulder injuries: rotator cuff tears (CRITICAL severity, 3-6 months recovery, often requiring surgery), shoulder dislocations both anterior and posterior (High severity, 6-12 weeks with physical therapy), labral tears to the glenoid labrum (High severity, 4-8 months often requiring surgery), biceps tendon ruptures (Medium severity, 8-12 weeks), and shoulder capsule damage (High severity, 3-6 months with potential chronic instability). These injuries emphasize why controlled application and immediate tap response are absolutely essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotator cuff tear, 3-6 months",
+        "distractors": {
+          "plausible": [
+            "Dislocation, 6-12 weeks",
+            "Labral tear, 4-8 months"
+          ],
+          "trap": [
+            "Minor soreness, days only"
+          ]
+        }
       },
       {
         "question": "How should you respond if an opponent attempts to defend the Mir Lock by grabbing their own gi or belt?",
         "answer": "When the opponent grabs their own gi or belt to create a defensive frame, you should break the grip by driving your weight through their elbow while using your free hand to peel their defensive grip open. Once the grip is broken, immediately re-establish your figure-four control before they can re-grip. The key is to use your body weight and positioning to make maintaining their grip mechanically exhausting, rather than engaging in a pure strength battle. If the grip proves too strong, consider transitioning to alternative attacks from the same position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive weight, peel grip open",
+        "distractors": {
+          "plausible": [
+            "Pull arm straight through grip",
+            "Wait for grip to fatigue"
+          ],
+          "trap": [
+            "Yank the arm to break grip"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol when a training partner taps to the Mir Lock?",
         "answer": "Upon receiving any tap signal (verbal, physical hand or foot tap, or distress vocalization), immediately stop all rotational pressure on the shoulder, release your grip on both the wrist and elbow control, and allow the arm to return to neutral position naturally without any manipulation. Do not pull or push the arm after release. Verbally check with your partner to confirm they are uninjured before resuming training, and allow full recovery time if any discomfort is reported. The release must occur within 1 second of the tap signal to prevent injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, no manipulation",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly first",
+            "Hold briefly to confirm tap"
+          ],
+          "trap": [
+            "Push arm back to neutral"
+          ]
+        }
       },
       {
         "question": "Why must the elbow be elevated while the wrist is controlled downward during the Mir Lock execution?",
         "answer": "Elevating the elbow while controlling the wrist downward creates the hyperextension angle at the shoulder joint that makes the submission effective. This mechanical configuration combines external rotation with backward leverage against the shoulder's natural range of motion. Without the elbow elevation (typically 2-3 inches off the mat), the submission lacks the necessary leverage to overcome the shoulder's structural strength, and the opponent can easily defend by keeping their arm flat. The simultaneous elevation and wrist control creates a fulcrum effect that multiplies the applied force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Creates hyperextension fulcrum",
+        "distractors": {
+          "plausible": [
+            "Just for tighter grip control",
+            "Prevents opponent's escape roll"
+          ],
+          "trap": [
+            "Keep elbow flat, wrist high"
+          ]
+        }
       },
       {
         "question": "What training restrictions must be observed when practicing the Mir Lock?",
         "answer": "The Mir Lock has several critical training restrictions: it must never be applied at competition speed during training, never jerked or spiked in application, requires constant verbal communication during drilling, must stop immediately if the partner shows any hesitation to tap, is prohibited for white belts without direct instructor supervision, and must never be practiced on training partners with existing shoulder injuries or known shoulder problems. These restrictions exist because the Mir Lock has significant injury potential, and creating a safe training culture requires strict adherence to these safety protocols.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "No full speed, no solo whites",
+        "distractors": {
+          "plausible": [
+            "Only with advanced partners",
+            "Full speed but light pressure"
+          ],
+          "trap": [
+            "Fine on injured shoulders slowly"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the Mir Lock primarily attack, and why is it particularly vulnerable?",
         "answer": "The Mir Lock primarily attacks the glenohumeral joint (the ball-and-socket shoulder joint) through a combination of hyperextension and external rotation. This joint is particularly vulnerable because unlike hinge joints such as the elbow, the shoulder sacrifices structural stability for mobility. The rotator cuff muscles and shoulder capsule provide the primary structural support, but these soft tissues can be easily overwhelmed by the leverage created when the elbow is elevated and the wrist is driven downward while chest weight compresses the shoulder. The straight-arm position removes the protective flexion that makes the traditional Americana somewhat slower to cause injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Glenohumeral joint, hyperextension",
+        "distractors": {
+          "plausible": [
+            "Elbow joint, like Americana",
+            "Rotator cuff, via rotation only"
+          ],
+          "trap": [
+            "Wrist joint, via compression"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the Mir Lock is approaching the breaking point and you should expect a tap?",
         "answer": "Key indicators include: the opponent's face showing visible strain or pain, their body tensing significantly, audible grunting or sharp breathing, cessation of defensive movement as they focus on the joint pressure, and subtle attempts to relieve pressure by turning the shoulder or adjusting their body. The arm may also begin to rotate more freely as the muscles fail to protect the joint. Crucially, in training you should never reach the actual breaking point - these early indicators should prompt you to slow your pressure application and give your partner time to recognize the submission and tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Strain, tension, grunting, stillness",
+        "distractors": {
+          "plausible": [
+            "Loud verbal tapping out",
+            "Opponent goes limp completely"
+          ],
+          "trap": [
+            "Increased frantic struggling"
+          ]
+        }
       },
       {
         "question": "How do grip adjustments during the finish affect the Mir Lock's effectiveness?",
         "answer": "The figure-four grip must be maintained with the controlling forearm perpendicular to the opponent's arm and your elbow pointing toward their head. As you apply finishing pressure, avoid the temptation to slide your grip toward the opponent's wrist for more leverage - this reduces control and allows escape. Instead, maintain the grip position and generate pressure through body weight placement. If the opponent begins escaping, readjust by tightening the figure-four before continuing rather than trying to rush the finish with compromised grips. Proper grip maintenance throughout the finish is what distinguishes a controlled submission from a scramble.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep figure-four, don't slide grip",
+        "distractors": {
+          "plausible": [
+            "Slide toward wrist for leverage",
+            "Switch to one-hand grip"
+          ],
+          "trap": [
+            "Loosen grip to reposition"
+          ]
+        }
       },
       {
         "question": "What distinguishes competition finishing strategies from training application of the Mir Lock?",
         "answer": "In competition, the Mir Lock can be applied with faster pressure progression (still controlled, but 2-3 seconds rather than 5-7) because the opponent understands the risks and referees are present to stop the match. However, this faster application should NEVER be practiced in the training room where the goal is skill development and partner preservation. Competition finishing also involves more commitment to the position without concern for injuring a training partner. The fundamental technique remains identical, but training emphasizes controlled pressure that allows tapping, while competition emphasizes efficient finishing once control is established. A practitioner who cannot finish slowly in training lacks the control necessary for safe competition application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Comp faster, training always slow",
+        "distractors": {
+          "plausible": [
+            "Comp uses more force overall",
+            "Training skips control phase"
+          ],
+          "trap": [
+            "Train at competition speed"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Mir Lock attempt and transition to another technique?",
         "answer": "Abandon the Mir Lock when: the opponent successfully establishes a grip defense you cannot break within 5-10 seconds, they create sufficient angle through rolling or bridging that your chest loses connection to their shoulder, they straighten their arm and begin escaping before you can elevate the elbow, or your base becomes compromised by their movement. Rather than fighting a losing battle, transition to Kimura by adjusting your grip angle, take the back if they roll toward you, or reset to side control and look for other attacks. The Mir Lock requires specific positional control - forcing it from compromised positions leads to failed submissions and wasted energy.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip defense holds 5-10 sec",
+        "distractors": {
+          "plausible": [
+            "Opponent shifts hips slightly",
+            "Any resistance to the grip"
+          ],
+          "trap": [
+            "Force it through the scramble"
+          ]
+        }
       }
     ],
     "clips": [
@@ -495,27 +615,77 @@
       {
         "question": "What is the most critical early defensive action when you feel your arm being isolated from bottom side control?",
         "answer": "The most critical early defensive action is to grip your own belt, gi lapel, or pants with the threatened hand to create an anchor that prevents the attacker from extending your arm and establishing the figure-four grip. This must happen before the attacker locks the figure-four, because once the grip is secured and the elbow begins to elevate, your defensive options narrow dramatically. Simultaneously, you should pull your elbow tight toward your ribs and begin hip escaping to create distance from the attacker's chest pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grab own belt or lapel first",
+        "distractors": {
+          "plausible": [
+            "Bridge hard immediately",
+            "Push attacker's chest away"
+          ],
+          "trap": [
+            "Straighten arm to create space"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to bridge away from the trapped arm when defending the Mir Lock?",
         "answer": "Bridging away from the trapped arm increases the distance between your torso and the captured arm, which opens the shoulder angle and actually makes the hyperextension worse. The Mir Lock works by creating external rotation combined with backward leverage - bridging away amplifies this mechanical disadvantage. Instead, you should bridge and turn toward the trapped arm side, which closes the angle between your arm and torso, reduces the hyperextension force, and potentially allows you to roll into the attacker to disrupt their base and grip structure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Opens angle, worsens hyperextension",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, tires you out",
+            "Exposes back to attacker"
+          ],
+          "trap": [
+            "Bridge away to create space"
+          ]
+        }
       },
       {
         "question": "At what point should you abandon escape attempts and tap to the Mir Lock?",
         "answer": "You should tap immediately when you feel the figure-four grip is fully locked, your elbow is elevated, and the attacker's chest weight is driving through your shoulder with the wrist being pulled toward your hip. At this stage, the submission is past the point of no return and continuing to resist risks catastrophic injury including shoulder dislocation, rotator cuff tears, or labral damage. The transition from discomfort to structural damage in the Mir Lock is extremely rapid due to the straight-arm mechanics, often occurring within 1-2 seconds of the breaking angle being achieved. Tap early, tap often, and live to train another day.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Figure-four locked, elbow raised",
+        "distractors": {
+          "plausible": [
+            "First sign of any discomfort",
+            "When chest pressure appears"
+          ],
+          "trap": [
+            "Keep fighting til real pain"
+          ]
+        }
       },
       {
         "question": "How does the defender's body rotation affect the Mir Lock's effectiveness?",
         "answer": "Turning your body toward the trapped arm (rolling onto your side facing the captured arm) closes the angle between your torso and the extended arm, which directly reduces the hyperextension force the attacker can generate. This rotation takes the shoulder out of the vulnerable externally-rotated and hyperextended position and brings it closer to a neutral anatomical position. Conversely, remaining flat on your back or turning away from the trapped arm opens this angle and makes the submission tighter. Defensive body rotation should be combined with bridging and grip fighting for maximum effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward arm closes angle",
+        "distractors": {
+          "plausible": [
+            "Turn away to create distance",
+            "Stay flat, brace with legs"
+          ],
+          "trap": [
+            "Roll away from trapped arm"
+          ]
+        }
       },
       {
         "question": "What distinguishes the Mir Lock defense from a standard Americana defense?",
         "answer": "The key difference is urgency and the direction of danger. The standard Americana attacks a bent arm with lateral rotation and the defender can buy time by bending the arm deeper or straightening it slightly. The Mir Lock attacks a straight or near-straight arm with hyperextension and external rotation, meaning straightening the arm (which helps against Americana) actually makes the Mir Lock worse. Against the Mir Lock, the defender must bend the arm and pull the elbow tight to the ribs, bridge toward the trapped arm rather than away, and recognize that the submission reaches its breaking point much faster due to the body-weight-driven mechanics. The defensive window is significantly shorter.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bend arm in, don't straighten",
+        "distractors": {
+          "plausible": [
+            "Straighten arm like Americana",
+            "Same defense, more urgency"
+          ],
+          "trap": [
+            "Extend arm to relieve pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [

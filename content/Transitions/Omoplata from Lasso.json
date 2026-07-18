@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the omoplata entry from lasso guard?",
-        "answer": "The optimal timing is when the opponent's posture breaks forward, either from your lasso pressure pulling them down or from their own forward drive attempting to pass or pressure the guard. Their forward weight commitment assists your hip rotation and makes it much harder for them to retract their arm. Attempting the entry against a fully postured opponent dramatically reduces success rate because they can easily pull their arm free."
+        "answer": "The optimal timing is when the opponent's posture breaks forward, either from your lasso pressure pulling them down or from their own forward drive attempting to pass or pressure the guard. Their forward weight commitment assists your hip rotation and makes it much harder for them to retract their arm. Attempting the entry against a fully postured opponent dramatically reduces success rate because they can easily pull their arm free.",
+        "answer_line": "When their posture breaks forward",
+        "distractors": {
+          "plausible": [
+            "Immediately after locking lasso",
+            "When they sit back defensively"
+          ],
+          "trap": [
+            "While they're fully postured up"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in your lasso control before you should attempt the omoplata entry?",
-        "answer": "The lasso must be deep with your shin across the opponent's tricep area rather than superficially over the forearm. Your sleeve grip must be tight and secure, ideally a pistol grip near the wrist. Your hips should be angled at least 45 degrees perpendicular to the opponent to provide the rotation arc. If any of these conditions are missing, improve your lasso control first before attempting the transition."
+        "answer": "The lasso must be deep with your shin across the opponent's tricep area rather than superficially over the forearm. Your sleeve grip must be tight and secure, ideally a pistol grip near the wrist. Your hips should be angled at least 45 degrees perpendicular to the opponent to provide the rotation arc. If any of these conditions are missing, improve your lasso control first before attempting the transition.",
+        "answer_line": "Shin deep across the tricep",
+        "distractors": {
+          "plausible": [
+            "Shin over the forearm is fine",
+            "Grip anywhere on the sleeve"
+          ],
+          "trap": [
+            "Hips squared, facing forward"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the leg swing phase of the transition?",
-        "answer": "The most critical detail is maintaining the sleeve grip throughout the entire rotation. Your sleeve hand must never release to post or assist the rotation. The leg swing itself must be committed and explosive, clearing the opponent's shoulder and head in one motion. A tentative or slow swing allows the opponent time to retract their arm or step over the leg. The calf should land across the upper back and neck area."
+        "answer": "The most critical detail is maintaining the sleeve grip throughout the entire rotation. Your sleeve hand must never release to post or assist the rotation. The leg swing itself must be committed and explosive, clearing the opponent's shoulder and head in one motion. A tentative or slow swing allows the opponent time to retract their arm or step over the leg. The calf should land across the upper back and neck area.",
+        "answer_line": "Never release the sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Post with sleeve hand if needed",
+            "Swing leg slow and controlled"
+          ],
+          "trap": [
+            "Release grip to speed up swing"
+          ]
+        }
       },
       {
         "question": "What is the most common reason this technique fails at the intermediate level?",
-        "answer": "The most common failure point is attempting the entry with a shallow lasso where the shin is only across the forearm rather than deep across the tricep. This shallow control provides insufficient arm isolation during the critical rotation phase, allowing the opponent to pull their arm free before the omoplata establishes. The secondary failure point is releasing the sleeve grip during the rotation, which immediately frees the opponent's arm."
+        "answer": "The most common failure point is attempting the entry with a shallow lasso where the shin is only across the forearm rather than deep across the tricep. This shallow control provides insufficient arm isolation during the critical rotation phase, allowing the opponent to pull their arm free before the omoplata establishes. The secondary failure point is releasing the sleeve grip during the rotation, which immediately frees the opponent's arm.",
+        "answer_line": "Shallow lasso, shin on forearm",
+        "distractors": {
+          "plausible": [
+            "Releasing sleeve grip early",
+            "Hips not angled enough"
+          ],
+          "trap": [
+            "Swinging the leg too explosively"
+          ]
+        }
       },
       {
         "question": "What specific grip is required on the lassoed arm and why is it critical to the entry?",
-        "answer": "A strong pistol grip or C-grip on the sleeve near the opponent's wrist is essential. This grip must be maintained continuously from lasso guard through the completed omoplata position. It serves as the only connection preventing the opponent from retracting their arm during the rotation. Without it, the opponent has a clear window to pull their arm back to their body when you release the lasso threading to swing your leg over."
+        "answer": "A strong pistol grip or C-grip on the sleeve near the opponent's wrist is essential. This grip must be maintained continuously from lasso guard through the completed omoplata position. It serves as the only connection preventing the opponent from retracting their arm during the rotation. Without it, the opponent has a clear window to pull their arm back to their body when you release the lasso threading to swing your leg over.",
+        "answer_line": "Pistol grip on sleeve at wrist",
+        "distractors": {
+          "plausible": [
+            "Grip the elbow, not the wrist",
+            "Release grip once leg swings over"
+          ],
+          "trap": [
+            "Switch to overhook mid-transition"
+          ]
+        }
       },
       {
         "question": "Which direction should you apply force with your lasso leg and sleeve grip during the entry setup?",
-        "answer": "The lasso leg should extend and push against the opponent's tricep toward their far side while the sleeve grip pulls the wrist toward the mat and toward your chest. This creates opposing forces that off-balance the opponent forward and isolate their arm away from their body. The push-pull creates the rotational space needed for the leg swing. Both forces should be diagonal rather than linear to maximize the off-balancing effect."
+        "answer": "The lasso leg should extend and push against the opponent's tricep toward their far side while the sleeve grip pulls the wrist toward the mat and toward your chest. This creates opposing forces that off-balance the opponent forward and isolate their arm away from their body. The push-pull creates the rotational space needed for the leg swing. Both forces should be diagonal rather than linear to maximize the off-balancing effect.",
+        "answer_line": "Push tricep, pull wrist to mat",
+        "distractors": {
+          "plausible": [
+            "Pull tricep, push wrist away",
+            "Apply force in straight line"
+          ],
+          "trap": [
+            "Push opponent's shoulder back"
+          ]
+        }
       },
       {
         "question": "Your opponent postures up strongly as you begin the hip rotation - how do you adapt?",
-        "answer": "If they posture explosively during your rotation, you have two primary options based on how far the rotation has progressed. If early in the rotation, abort and return to lasso guard, then use their upright posture to attack with a sickle sweep instead. If your leg has already partially cleared their shoulder, convert immediately to a triangle entry by swinging your non-lasso leg over their head while pulling their posture back down with the sleeve grip."
+        "answer": "If they posture explosively during your rotation, you have two primary options based on how far the rotation has progressed. If early in the rotation, abort and return to lasso guard, then use their upright posture to attack with a sickle sweep instead. If your leg has already partially cleared their shoulder, convert immediately to a triangle entry by swinging your non-lasso leg over their head while pulling their posture back down with the sleeve grip.",
+        "answer_line": "Abort early, triangle if late",
+        "distractors": {
+          "plausible": [
+            "Always finish the rotation anyway",
+            "Release grip and reset guard"
+          ],
+          "trap": [
+            "Force through their full posture"
+          ]
+        }
       },
       {
         "question": "What chain attacks become available if the opponent successfully blocks the omoplata entry?",
-        "answer": "If they posture up to prevent the entry, attack with the sickle sweep or pendulum sweep using the lasso leverage. If they drive forward to stack, redirect into a triangle by throwing the non-lasso leg over their neck. If they step over the rotating leg, hook their leg and sweep laterally. If they retract the arm completely and break the lasso, transition to spider guard or De La Riva using whatever grip remains. Each defensive response opens a specific chain attack."
+        "answer": "If they posture up to prevent the entry, attack with the sickle sweep or pendulum sweep using the lasso leverage. If they drive forward to stack, redirect into a triangle by throwing the non-lasso leg over their neck. If they step over the rotating leg, hook their leg and sweep laterally. If they retract the arm completely and break the lasso, transition to spider guard or De La Riva using whatever grip remains. Each defensive response opens a specific chain attack.",
+        "answer_line": "Match chain attack to their defense",
+        "distractors": {
+          "plausible": [
+            "Always finish the omoplata",
+            "Retreat to neutral guard"
+          ],
+          "trap": [
+            "Abandon grip and stand up"
+          ]
+        }
       }
     ],
     "safety_considerations": "The omoplata entry from lasso involves significant rotational force on the opponent's shoulder joint. During drilling, execute the hip rotation at controlled speed and pause before applying finishing pressure to allow your partner to tap or verbally signal discomfort. The transition from lasso to omoplata can happen quickly, and the shoulder can be compromised before either partner fully recognizes the danger. In competition, maintain control throughout the transition to prevent your own knee or ankle from being trapped during the rotation. Always tap early when caught in the omoplata position during training.",
@@ -411,23 +491,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an omoplata from lasso is being initiated?",
-        "answer": "The earliest cue is the bottom player's non-lasso foot posting on your hip combined with an increased pull on your trapped sleeve toward the mat. This push-pull combination indicates they are creating the rotational space needed for the omoplata entry. Recognizing this early gives you the maximum response window before the leg clears your shoulder."
+        "answer": "The earliest cue is the bottom player's non-lasso foot posting on your hip combined with an increased pull on your trapped sleeve toward the mat. This push-pull combination indicates they are creating the rotational space needed for the omoplata entry. Recognizing this early gives you the maximum response window before the leg clears your shoulder.",
+        "answer_line": "Foot on hip + sleeve pull down",
+        "distractors": {
+          "plausible": [
+            "Increased pressure on your chest",
+            "Sudden hip escape to the side"
+          ],
+          "trap": [
+            "They release the sleeve grip"
+          ]
+        }
       },
       {
         "question": "Why is driving forward with pressure a dangerous response when caught in lasso guard?",
-        "answer": "Forward pressure is dangerous because it is the exact weight commitment the bottom player needs to execute the omoplata entry. Your forward drive breaks your own posture and commits your weight over the bottom player, making it nearly impossible to retract your arm when they begin the hip rotation. The bottom player exploits your forward momentum to assist their rotation rather than having to generate all the movement themselves."
+        "answer": "Forward pressure is dangerous because it is the exact weight commitment the bottom player needs to execute the omoplata entry. Your forward drive breaks your own posture and commits your weight over the bottom player, making it nearly impossible to retract your arm when they begin the hip rotation. The bottom player exploits your forward momentum to assist their rotation rather than having to generate all the movement themselves.",
+        "answer_line": "It fuels their rotation setup",
+        "distractors": {
+          "plausible": [
+            "It creates space to escape",
+            "It flattens their hips down"
+          ],
+          "trap": [
+            "It smashes their guard open"
+          ]
+        }
       },
       {
         "question": "What defensive adjustment prevents the leg from clearing over your shoulder during the transition?",
-        "answer": "The most effective adjustment is immediately tucking your trapped elbow tight to your ribs and driving it toward your hip when you recognize the rotation beginning. This closes the space between your arm and body that the leg needs to clear over your shoulder. Combined with upright posture, this makes it physically difficult for the leg to pass over because there is no gap to thread through."
+        "answer": "The most effective adjustment is immediately tucking your trapped elbow tight to your ribs and driving it toward your hip when you recognize the rotation beginning. This closes the space between your arm and body that the leg needs to clear over your shoulder. Combined with upright posture, this makes it physically difficult for the leg to pass over because there is no gap to thread through.",
+        "answer_line": "Tuck elbow tight to your ribs",
+        "distractors": {
+          "plausible": [
+            "Post hand on their hip",
+            "Sprawl your legs back wide"
+          ],
+          "trap": [
+            "Extend arm to block the leg"
+          ]
+        }
       },
       {
         "question": "When is the forward roll escape appropriate and when should you avoid it?",
-        "answer": "The forward roll is appropriate only when the omoplata has fully established and you cannot extract your arm, but the bottom player has NOT secured hip control via belt, pants grip, or body lock. If they have hip control, the roll will be blocked and you waste energy. Before rolling, always check if their near hand is controlling your hip. If it is, strip that grip first or posture up instead of rolling."
+        "answer": "The forward roll is appropriate only when the omoplata has fully established and you cannot extract your arm, but the bottom player has NOT secured hip control via belt, pants grip, or body lock. If they have hip control, the roll will be blocked and you waste energy. Before rolling, always check if their near hand is controlling your hip. If it is, strip that grip first or posture up instead of rolling.",
+        "answer_line": "Roll only if hips aren't controlled",
+        "distractors": {
+          "plausible": [
+            "Roll immediately when caught",
+            "Roll after stripping any grip"
+          ],
+          "trap": [
+            "Roll even with hip control locked"
+          ]
+        }
       },
       {
         "question": "How should you manage the lasso guard position to minimize the omoplata threat while still working to pass?",
-        "answer": "Address the sleeve grip systematically before applying forward pressure. Use grip breaks combined with posture to reduce the lasso's effectiveness. When the lasso is partially neutralized, pass laterally around the guard rather than driving forward. Stepping over the lasso leg or using backstep passes reduces the perpendicular angle that enables the omoplata entry. Never settle into a static position where the bottom player can optimize their lasso depth."
+        "answer": "Address the sleeve grip systematically before applying forward pressure. Use grip breaks combined with posture to reduce the lasso's effectiveness. When the lasso is partially neutralized, pass laterally around the guard rather than driving forward. Stepping over the lasso leg or using backstep passes reduces the perpendicular angle that enables the omoplata entry. Never settle into a static position where the bottom player can optimize their lasso depth.",
+        "answer_line": "Break grip, then pass laterally",
+        "distractors": {
+          "plausible": [
+            "Drive forward to flatten guard",
+            "Ignore grip, pass over top"
+          ],
+          "trap": [
+            "Force pass straight through center"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -277,42 +277,122 @@
       {
         "question": "What anatomical structure does the belly down armbar finish primarily attack and how does the prone position change the force application?",
         "answer": "The belly down armbar attacks the elbow joint by hyperextending it beyond its natural range, specifically stressing the ulnar collateral ligament and the joint capsule. The prone position changes force application dramatically because hip extension drives the fulcrum forward against the back of the elbow while gravity assists the extension. Unlike a supine armbar where the attacker lifts their hips upward against gravity, the belly down position uses bodyweight and hip drive in the same direction as gravity, generating substantially more breaking force with less effort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip drive + gravity extend elbow",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint takes the strain",
+            "Hips lift up like supine armbar"
+          ],
+          "trap": [
+            "Wrench wrist to twist shoulder"
+          ]
+        }
       },
       {
         "question": "How do you recognize that sufficient breaking pressure is being applied to the elbow during the belly down finish?",
         "answer": "Sufficient pressure indicators include feeling the opponent's arm reaching full extension with no remaining bend at the elbow, sensing the resistance transition from muscular tension to structural resistance of the ligaments, and the opponent showing clear distress signals such as tapping, vocalizing, or tensing their entire body. In training, you should never push to these structural limits. Apply pressure progressively until you feel the arm straighten and then hold position, allowing the opponent time to tap before any ligament engagement occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Full extension, stiff resistance",
+        "distractors": {
+          "plausible": [
+            "Opponent grips mat tightly",
+            "Hips stop moving forward"
+          ],
+          "trap": [
+            "Push to feel a pop"
+          ]
+        }
       },
       {
         "question": "What grip control must be established before initiating the rotation from Kuzure Kesa-Gatame to belly down position?",
         "answer": "You must establish secure two-on-one wrist control before any rotation begins. Both hands grip the opponent's wrist or distal forearm with the near hand establishing contact first while the armpit trap still maintains pressure, then the far hand joins to complete the grip. This overlapping control ensures the arm is never free during the transition. The grip should be positioned so that the opponent's thumb faces upward, pre-aligning the elbow for hyperextension in the finished position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one wrist, thumb up",
+        "distractors": {
+          "plausible": [
+            "Single hand grip on wrist",
+            "Grip forearm, thumb down"
+          ],
+          "trap": [
+            "Release armpit before gripping wrist"
+          ]
+        }
       },
       {
         "question": "At what stage of the belly down armbar transition does the technique become nearly impossible to defend?",
         "answer": "The point of no escape occurs when the attacker's leg has cleared the opponent's head and the attacker begins dropping to belly down position with knees squeezing around the upper arm. At this stage, the defender can no longer turn into the attacker, the arm is fully isolated from the body, and the mechanical advantage of the prone position makes clasped-hand defense the only remaining option. Once the attacker's hips settle behind the elbow with knees pinched tight, even the clasped-hand defense becomes a temporary delay rather than an escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg clears head, knees squeeze",
+        "distractors": {
+          "plausible": [
+            "Grip switches to wrist control",
+            "Foot posts near opponent's head"
+          ],
+          "trap": [
+            "Only after hands are clasped"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical error when applying the finishing pressure in belly down position?",
         "answer": "The most common error is using arm strength to pull the wrist upward rather than driving the hips forward into the mat. Pulling with the arms creates insufficient pressure because the biceps and shoulders fatigue quickly against the opponent's defensive grip strength. The correct mechanic uses hip extension as the primary force generator, driving the pelvis forward and down while the arms simply maintain wrist position. This engages the entire posterior chain and bodyweight, producing dramatically more force than arm pulling alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulling wrist with arms not hips",
+        "distractors": {
+          "plausible": [
+            "Squeezing knees too early",
+            "Leaning back instead of forward"
+          ],
+          "trap": [
+            "Yank the wrist explosively"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip during the transition from scarf hold armpit control to the belly down wrist control?",
         "answer": "The grip transition must overlap, never creating a gap. Start by sliding your near-side hand from the armpit trap down to the opponent's wrist while your armpit still clamps their upper arm. Once the near hand secures the wrist, add your far hand to create a two-on-one grip. Only then do you release the armpit pressure to begin the rotation. Throughout the step-over, maintain wrist control by pulling the arm tight against your torso. After landing belly down, reposition both hands to optimize the thumb-up alignment for the finishing extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Near hand grips wrist before release",
+        "distractors": {
+          "plausible": [
+            "Release armpit then grab wrist",
+            "Far hand grips first, then near"
+          ],
+          "trap": [
+            "Let go both hands mid step-over"
+          ]
+        }
       },
       {
         "question": "Why is controlled, progressive application of pressure especially critical in the belly down armbar compared to other armbar variations?",
         "answer": "The belly down position amplifies force far beyond what most practitioners expect because hip extension combined with gravity creates a massive mechanical advantage over the elbow joint. In a standard supine armbar, the attacker lifts their hips against gravity, which provides a natural speed limiter. In belly down, the force direction aligns with gravity, so even small hip movements produce significant extension pressure. Additionally, the defender's proprioceptive feedback is reduced in the belly down position because they cannot see the arm angle, making it harder for them to judge when to tap. These factors combine to make jerking or spiking the arm extremely dangerous.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gravity+hips remove natural limiter",
+        "distractors": {
+          "plausible": [
+            "Defender can see arm angle clearly",
+            "Same force as supine armbar"
+          ],
+          "trap": [
+            "Spike the arm for quick tap"
+          ]
+        }
       },
       {
         "question": "Your opponent is stalling defensively in Kuzure Kesa-Gatame with their trapped arm bent tight against their body - how do you create the opening for the belly down armbar transition?",
         "answer": "Threaten the americana first by walking your wrist grip toward the mat beside their hip, which forces them to straighten their arm to resist the shoulder rotation. As they extend to defend the americana, immediately switch to the two-on-one wrist grip and initiate the rotation for the belly down armbar. The arm extension they create to defend the americana is exactly the arm position you need to begin the step-over. This is the core dilemma of Kuzure Kesa-Gatame: defending the bent-arm attacks requires arm extension, which opens the straight-arm attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten americana to straighten arm",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow open by force",
+            "Wait for opponent to relax grip"
+          ],
+          "trap": [
+            "Abandon position, reset to guard"
+          ]
+        }
       }
     ],
     "clips": [
@@ -425,27 +505,77 @@
       {
         "question": "How do you recognize that your opponent is transitioning from Kuzure Kesa-Gatame to a belly down armbar attempt?",
         "answer": "The primary recognition cues are sequential: first, the attacker shifts their grip from the armpit trap to grabbing your wrist or forearm with both hands. Next, they post their far-side foot near your head and begin rising. Finally, their leg begins to swing over your head in an arc. The earliest cue—the grip switch—is the critical moment for defense because it represents the point where your defensive options are still numerous and effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip switches to two-hand wrist",
+        "distractors": {
+          "plausible": [
+            "Opponent posts foot near head",
+            "Leg swings over your head"
+          ],
+          "trap": [
+            "Wait for hips to settle first"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap during a belly down armbar when your arm mobility is restricted?",
         "answer": "When caught in a belly down armbar, your trapped arm cannot tap, so use your free hand to tap rapidly on the attacker's leg, hip, or the mat. If your free hand is also restricted, tap loudly with either foot on the mat. Verbal taps are always available - clearly say 'tap' or make any loud vocalization. Tap early in this position because the prone mechanical advantage produces injury-level force faster than most other armbars. Never attempt to resist through full arm extension in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap free hand or foot, or say tap",
+        "distractors": {
+          "plausible": [
+            "Wait until arm fully extends",
+            "Try to verbally negotiate release"
+          ],
+          "trap": [
+            "Try to power out then tap"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each phase of the belly down armbar transition from Kuzure Kesa-Gatame?",
         "answer": "In the early phase during grip transition, retract your trapped arm by bending the elbow sharply when armpit pressure decreases. In the mid phase during the step-over, turn aggressively into the attacker to prevent belly down establishment. In the late phase after belly down is reached, clasp hands in a Gable grip and work the hitchhiker escape by rotating your thumb toward the floor and spinning your body to follow. Each phase offers progressively fewer options, making early recognition and response essential.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract, turn in, then hitchhiker",
+        "distractors": {
+          "plausible": [
+            "Clasp hands from the start",
+            "Turn in during grip transition"
+          ],
+          "trap": [
+            "Wait until belly down to defend"
+          ]
+        }
       },
       {
         "question": "Why is early defense dramatically more effective than late defense against the belly down armbar?",
         "answer": "The belly down position creates a mechanical advantage that increases exponentially as the attacker settles in. During the grip transition, defending requires only arm retraction against momentarily reduced pressure. During the step-over, the attacker's base is compromised and a turn-in easily disrupts the rotation. But once belly down is fully established with knees squeezing and hips aligned, even a strong grip defense is temporary because the attacker's hip extension leverage vastly exceeds the defender's grip strength. The physics increasingly favor the attacker with each passing phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leverage compounds each phase",
+        "distractors": {
+          "plausible": [
+            "Grip strength always wins late",
+            "Late defense equally effective"
+          ],
+          "trap": [
+            "Save energy, defend only late"
+          ]
+        }
       },
       {
         "question": "After partially defending the rotation and preventing full belly down establishment, how do you complete your escape to a safe position?",
         "answer": "If you turned into the attacker and prevented the full belly down, immediately pull your trapped arm tight to your body and work to recover guard by inserting your knees between your bodies. If you disrupted the rotation but the attacker still has wrist control, continue turning toward them while tucking your chin and curling into a defensive ball to prevent them from re-establishing scarf hold. From this scramble, prioritize guard recovery over standing up, as the attacker may still transition to a modified armbar if given space.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull arm tight, recover guard",
+        "distractors": {
+          "plausible": [
+            "Stand up immediately to space",
+            "Chase back mount from scramble"
+          ],
+          "trap": [
+            "Extend arm to create distance"
+          ]
+        }
       }
     ],
     "training_progressions": [

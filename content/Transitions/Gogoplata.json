@@ -223,7 +223,17 @@
     "flashcards": [
       {
         "question": "What is the primary choking mechanism in the Gogoplata?",
-        "answer": "The Gogoplata uses your shin bone pressed directly across the opponent's trachea while your hands pull their head down into this pressure. This creates both airway obstruction and blood choke elements as the shin compresses the anterior throat structures. The combination of pulling and pressing creates a scissoring action that accelerates the submission timeline compared to pure blood or air chokes."
+        "answer": "The Gogoplata uses your shin bone pressed directly across the opponent's trachea while your hands pull their head down into this pressure. This creates both airway obstruction and blood choke elements as the shin compresses the anterior throat structures. The combination of pulling and pressing creates a scissoring action that accelerates the submission timeline compared to pure blood or air chokes.",
+        "answer_line": "Shin across trachea, pull head down",
+        "distractors": {
+          "plausible": [
+            "Blood choke via carotid pressure",
+            "Shin presses jaw not throat"
+          ],
+          "trap": [
+            "Squeeze legs to compress ribs"
+          ]
+        }
       },
       {
         "question": "Why is Mission Control the preferred entry position for Gogoplata?",
@@ -243,11 +253,31 @@
       },
       {
         "question": "Your opponent grabs your choking foot and begins to strip it from behind their head - what are your options?",
-        "answer": "If they grab your foot with their far arm, that arm is now extended and vulnerable - release the Gogoplata and attack the armbar on that arm. If they use their near arm, transition to omoplata as their shoulder is already compromised from the original Mission Control position. Never fight to maintain a Gogoplata that's being actively stripped - the transitions available are often higher percentage than forcing the original attack."
+        "answer": "If they grab your foot with their far arm, that arm is now extended and vulnerable - release the Gogoplata and attack the armbar on that arm. If they use their near arm, transition to omoplata as their shoulder is already compromised from the original Mission Control position. Never fight to maintain a Gogoplata that's being actively stripped - the transitions available are often higher percentage than forcing the original attack.",
+        "answer_line": "Far arm grabs = attack the armbar",
+        "distractors": {
+          "plausible": [
+            "Re-thread the foot immediately",
+            "Grip harder to outmuscle strip"
+          ],
+          "trap": [
+            "Hold the foot position at all costs"
+          ]
+        }
       },
       {
         "question": "How does the Mounted Gogoplata differ from the guard version in terms of finishing mechanics?",
-        "answer": "In the Mounted Gogoplata, gravity assists your finishing pressure rather than working against you. You can drive your weight down through the shin into their throat while pulling their head up into that pressure. The opponent also has fewer escape options as they cannot post their arms or use their hips as effectively from bottom mount. The mount version often finishes faster but requires following their bridge and roll successfully to achieve."
+        "answer": "In the Mounted Gogoplata, gravity assists your finishing pressure rather than working against you. You can drive your weight down through the shin into their throat while pulling their head up into that pressure. The opponent also has fewer escape options as they cannot post their arms or use their hips as effectively from bottom mount. The mount version often finishes faster but requires following their bridge and roll successfully to achieve.",
+        "answer_line": "Gravity drives shin down into throat",
+        "distractors": {
+          "plausible": [
+            "Requires more hip elevation",
+            "Opponent postures more easily"
+          ],
+          "trap": [
+            "Opponent can post arms freely"
+          ]
+        }
       },
       {
         "question": "What physical attributes most affect Gogoplata success rate, and how should practitioners adapt?",
@@ -255,7 +285,17 @@
       },
       {
         "question": "Your shin is positioned across opponent's face rather than throat - how do you correct this mid-attempt?",
-        "answer": "Thread your foot deeper behind their head by pulling their head further down while simultaneously elevating your hip. The foot needs to travel further so the shin crosses at throat level rather than the face. You may need to momentarily release head pressure to adjust the foot position, then re-establish your grip. If they begin to posture during this adjustment, immediately transition to an alternative attack rather than continuing repositioning attempts."
+        "answer": "Thread your foot deeper behind their head by pulling their head further down while simultaneously elevating your hip. The foot needs to travel further so the shin crosses at throat level rather than the face. You may need to momentarily release head pressure to adjust the foot position, then re-establish your grip. If they begin to posture during this adjustment, immediately transition to an alternative attack rather than continuing repositioning attempts.",
+        "answer_line": "Pull head down, thread foot deeper",
+        "distractors": {
+          "plausible": [
+            "Push shin upward into the throat",
+            "Rotate hips only, foot stays put"
+          ],
+          "trap": [
+            "Yank the foot back and re-lock fast"
+          ]
+        }
       },
       {
         "question": "What makes the Gogoplata particularly effective against opponents unfamiliar with Rubber Guard attacks?",
@@ -381,11 +421,31 @@
     "flashcards": [
       {
         "question": "What is your first defensive priority when you feel a shin sliding across your throat from Mission Control?",
-        "answer": "Turn your chin immediately toward the crook of the choking leg's knee to reduce direct tracheal compression. This single action buys critical seconds by shifting pressure from the windpipe to the less vulnerable chin and jaw area. Only after establishing this breathing space should you commit to a full escape sequence - whether that is foot stripping, posture recovery, or emergency rolling."
+        "answer": "Turn your chin immediately toward the crook of the choking leg's knee to reduce direct tracheal compression. This single action buys critical seconds by shifting pressure from the windpipe to the less vulnerable chin and jaw area. Only after establishing this breathing space should you commit to a full escape sequence - whether that is foot stripping, posture recovery, or emergency rolling.",
+        "answer_line": "Turn chin toward the knee crook",
+        "distractors": {
+          "plausible": [
+            "Pull head straight back immediately",
+            "Grab the shin and push it off"
+          ],
+          "trap": [
+            "Tuck chin down toward your chest"
+          ]
+        }
       },
       {
         "question": "Why does pulling your head straight backward fail as a Gogoplata escape?",
-        "answer": "The opponent's foot secured behind your head creates a closed-loop system. When you pull backward, the foot acts as a backstop that prevents extraction while simultaneously driving your throat harder into the shin bone. The backward pulling motion actually increases tracheal compression rather than relieving it. You must address the foot position first or use lateral movement to change the angle before any backward extraction becomes viable."
+        "answer": "The opponent's foot secured behind your head creates a closed-loop system. When you pull backward, the foot acts as a backstop that prevents extraction while simultaneously driving your throat harder into the shin bone. The backward pulling motion actually increases tracheal compression rather than relieving it. You must address the foot position first or use lateral movement to change the angle before any backward extraction becomes viable.",
+        "answer_line": "Foot backstops, choke tightens more",
+        "distractors": {
+          "plausible": [
+            "Neck muscles can't generate force",
+            "Backward pull loosens their grip"
+          ],
+          "trap": [
+            "Keep pulling back until foot slips"
+          ]
+        }
       },
       {
         "question": "Your opponent is threading their foot behind your head from Mission Control but has not yet secured it - what should you do?",
@@ -393,11 +453,31 @@
       },
       {
         "question": "Your opponent has a fully locked Gogoplata and you cannot breathe - what is your emergency escape option?",
-        "answer": "Execute an emergency tuck and roll, accepting the positional concession to mount or back exposure. Tuck your chin as much as possible, commit to rolling toward the choking leg side, and use your arms to post through the roll. This explosive movement breaks both the shin angle and foot position simultaneously. You will likely end up in mount bottom or give up back exposure, but both are survivable positions with established escape methodologies, unlike a locked Gogoplata where unconsciousness is imminent."
+        "answer": "Execute an emergency tuck and roll, accepting the positional concession to mount or back exposure. Tuck your chin as much as possible, commit to rolling toward the choking leg side, and use your arms to post through the roll. This explosive movement breaks both the shin angle and foot position simultaneously. You will likely end up in mount bottom or give up back exposure, but both are survivable positions with established escape methodologies, unlike a locked Gogoplata where unconsciousness is imminent.",
+        "answer_line": "Tuck chin, roll toward choking leg",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up explosively",
+            "Pull the shin off with both hands"
+          ],
+          "trap": [
+            "Stay still and ride out the pressure"
+          ]
+        }
       },
       {
         "question": "Where should you direct your hands when defending a partially locked Gogoplata and why?",
-        "answer": "Direct your hands to two targets in order of priority: first, the opponent's hips to drive them flat and eliminate the hip elevation that creates the perpendicular choke angle. Second, reach behind your own head to locate and strip the opponent's foot that is anchored there. Never waste hand effort pulling at the shin across your throat - your arms cannot overcome your opponent's leg strength in that configuration, and the effort removes your hands from productive defensive work."
+        "answer": "Direct your hands to two targets in order of priority: first, the opponent's hips to drive them flat and eliminate the hip elevation that creates the perpendicular choke angle. Second, reach behind your own head to locate and strip the opponent's foot that is anchored there. Never waste hand effort pulling at the shin across your throat - your arms cannot overcome your opponent's leg strength in that configuration, and the effort removes your hands from productive defensive work.",
+        "answer_line": "Flatten hips, then strip the foot",
+        "distractors": {
+          "plausible": [
+            "Pull the shin off your throat",
+            "Push their chest away from you"
+          ],
+          "trap": [
+            "Pull at the shin with both arms"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -254,39 +254,129 @@
     "flashcards": [
       {
         "question": "What is the most critical error that exposes you to sweeps during the commitment phase of a standing guard pass?",
-        "answer": "Leaning forward with your weight past your feet is the most dangerous error during commitment. When your center of gravity extends beyond your base, the guard player can redirect your momentum laterally or overhead using hooks and grips. The correction is keeping hips back while generating passing movement through lateral footwork, ensuring your weight stays centered over your feet throughout the directional commitment."
+        "answer": "Leaning forward with your weight past your feet is the most dangerous error during commitment. When your center of gravity extends beyond your base, the guard player can redirect your momentum laterally or overhead using hooks and grips. The correction is keeping hips back while generating passing movement through lateral footwork, ensuring your weight stays centered over your feet throughout the directional commitment.",
+        "answer_line": "Weight past your feet",
+        "distractors": {
+          "plausible": [
+            "Passing to the weaker side",
+            "Releasing grips too soon"
+          ],
+          "trap": [
+            "Driving straight into them"
+          ]
+        }
       },
       {
         "question": "Your opponent has established collar and sleeve grips while you are standing in their guard—what is the correct sequence to neutralize these grips before passing?",
-        "answer": "Address the collar grip first as it represents the greater threat to your posture, using a two-on-one grip break where both hands work to peel their grip. Once the collar grip is stripped, immediately establish your own control on their leg before addressing the sleeve grip. Never attempt to break both grips simultaneously as this leaves you without defensive frames against being pulled forward into their guard."
+        "answer": "Address the collar grip first as it represents the greater threat to your posture, using a two-on-one grip break where both hands work to peel their grip. Once the collar grip is stripped, immediately establish your own control on their leg before addressing the sleeve grip. Never attempt to break both grips simultaneously as this leaves you without defensive frames against being pulled forward into their guard.",
+        "answer_line": "Break collar grip first",
+        "distractors": {
+          "plausible": [
+            "Break sleeve grip first",
+            "Break both grips at once"
+          ],
+          "trap": [
+            "Ignore grips, drive forward"
+          ]
+        }
       },
       {
         "question": "How do you determine which side to pass when facing a guard player with symmetric defensive positioning?",
-        "answer": "Test both sides with small lateral feints, observing which direction generates a slower or weaker defensive response. Additionally, assess their grip configuration and pass toward the side where they have weaker grip control. If their defensive structure appears truly symmetric, commit to your stronger passing side and use the speed advantage of your preferred direction to create a timing edge over their reaction."
+        "answer": "Test both sides with small lateral feints, observing which direction generates a slower or weaker defensive response. Additionally, assess their grip configuration and pass toward the side where they have weaker grip control. If their defensive structure appears truly symmetric, commit to your stronger passing side and use the speed advantage of your preferred direction to create a timing edge over their reaction.",
+        "answer_line": "Feint both, test weaker side",
+        "distractors": {
+          "plausible": [
+            "Always pass to your right",
+            "Pick side with more space"
+          ],
+          "trap": [
+            "Alternate sides repeatedly"
+          ]
+        }
       },
       {
         "question": "What is the correct hand transition sequence when clearing the opponent's legs to establish side control?",
-        "answer": "As your hips clear past the opponent's hip line, the near hand transitions from leg control to crossface position across their jaw and neck while the far hand moves from their other leg to their far hip to block guard recovery. This transition must overlap—maintain at least one point of leg control until upper body control is established, never releasing both legs simultaneously as this creates a window for guard re-insertion."
+        "answer": "As your hips clear past the opponent's hip line, the near hand transitions from leg control to crossface position across their jaw and neck while the far hand moves from their other leg to their far hip to block guard recovery. This transition must overlap—maintain at least one point of leg control until upper body control is established, never releasing both legs simultaneously as this creates a window for guard re-insertion.",
+        "answer_line": "Keep one leg pinned until secured",
+        "distractors": {
+          "plausible": [
+            "Switch hands leg to leg",
+            "Secure hip control first"
+          ],
+          "trap": [
+            "Release both legs simultaneously"
+          ]
+        }
       },
       {
         "question": "Your initial passing direction is blocked by a strong shin shield—how do you adjust mid-pass without losing positional control?",
-        "answer": "Immediately change direction rather than forcing through the shin shield. Maintain your existing grips on their legs while explosively redirecting your footwork to the opposite side. The shin shield takes a moment to reposition, creating a timing advantage for your redirection. If the second direction is also blocked, return to standing control position and reset rather than chaining multiple failed attempts that deplete energy and telegraph your patterns."
+        "answer": "Immediately change direction rather than forcing through the shin shield. Maintain your existing grips on their legs while explosively redirecting your footwork to the opposite side. The shin shield takes a moment to reposition, creating a timing advantage for your redirection. If the second direction is also blocked, return to standing control position and reset rather than chaining multiple failed attempts that deplete energy and telegraph your patterns.",
+        "answer_line": "Switch direction immediately",
+        "distractors": {
+          "plausible": [
+            "Force through the shin shield",
+            "Chain multiple fast attempts"
+          ],
+          "trap": [
+            "Release grips to reset stance"
+          ]
+        }
       },
       {
         "question": "What tactile and visual feedback tells you the optimal moment to commit to the passing direction?",
-        "answer": "The key sensation is feeling the opponent's defensive weight shift to one side through your grip connection—their resistance becomes heavy and committed in one direction, making their opposite side light and vulnerable. Visually, watch for their hip angle committing to face one direction. Additionally, feeling a momentary relaxation in their grip pressure during a grip adjustment creates a timing window. The commitment must be immediate when these signals appear, as they last only fractions of a second."
+        "answer": "The key sensation is feeling the opponent's defensive weight shift to one side through your grip connection—their resistance becomes heavy and committed in one direction, making their opposite side light and vulnerable. Visually, watch for their hip angle committing to face one direction. Additionally, feeling a momentary relaxation in their grip pressure during a grip adjustment creates a timing window. The commitment must be immediate when these signals appear, as they last only fractions of a second.",
+        "answer_line": "Feel weight shift heavy/light",
+        "distractors": {
+          "plausible": [
+            "Wait for their grip to tighten",
+            "Watch their eyes for direction"
+          ],
+          "trap": [
+            "Hesitate to confirm the read"
+          ]
+        }
       },
       {
         "question": "If you are swept to Half Guard Bottom during a passing attempt, what went wrong mechanically in your execution?",
-        "answer": "Being swept to Half Guard Bottom indicates your weight was too far forward over your feet during the commitment phase, likely combined with insufficient awareness of the opponent's hook placement on your legs. The sweep succeeded because your center of gravity extended past your base while the guard player had a controlling hook or grip that redirected your momentum. The correction is maintaining lower hips, wider base, and constant monitoring of opponent's hooks that threaten sweeps during passing."
+        "answer": "Being swept to Half Guard Bottom indicates your weight was too far forward over your feet during the commitment phase, likely combined with insufficient awareness of the opponent's hook placement on your legs. The sweep succeeded because your center of gravity extended past your base while the guard player had a controlling hook or grip that redirected your momentum. The correction is maintaining lower hips, wider base, and constant monitoring of opponent's hooks that threaten sweeps during passing.",
+        "answer_line": "Weight too far forward",
+        "distractors": {
+          "plausible": [
+            "Passed to the wrong side",
+            "Broke grips out of order"
+          ],
+          "trap": [
+            "Passed too slowly and cautiously"
+          ]
+        }
       },
       {
         "question": "Which grips must you secure before initiating a committed pass, and why is bilateral control non-negotiable?",
-        "answer": "Secure bilateral control of both legs at the knees or pants, or control both hips through belt/waistband grips, before committing. Bilateral control is non-negotiable because controlling only one leg lets the guard player use the free leg to insert a hook, build a frame, or create the asymmetric angle that powers most guard retention and sweep entries. Only once both sides are pinned can you safely redirect their legs and clear your passing lane."
+        "answer": "Secure bilateral control of both legs at the knees or pants, or control both hips through belt/waistband grips, before committing. Bilateral control is non-negotiable because controlling only one leg lets the guard player use the free leg to insert a hook, build a frame, or create the asymmetric angle that powers most guard retention and sweep entries. Only once both sides are pinned can you safely redirect their legs and clear your passing lane.",
+        "answer_line": "Control both legs or both hips",
+        "distractors": {
+          "plausible": [
+            "Control one leg, one hip",
+            "Control strongest arm only"
+          ],
+          "trap": [
+            "Control only the far leg"
+          ]
+        }
       },
       {
         "question": "In which direction should your force be applied during the commitment phase—into the opponent or around them?",
-        "answer": "Your force should travel laterally around the opponent's guard, led by your hips clearing past their hip line, while your hands redirect their legs away from your passing line. You are moving your body around their guard rather than trying to push their guard out of the way. Driving force straight into the opponent only stacks them and gives a strong frame to push against; circling around their hip line is what actually completes the pass to side control."
+        "answer": "Your force should travel laterally around the opponent's guard, led by your hips clearing past their hip line, while your hands redirect their legs away from your passing line. You are moving your body around their guard rather than trying to push their guard out of the way. Driving force straight into the opponent only stacks them and gives a strong frame to push against; circling around their hip line is what actually completes the pass to side control.",
+        "answer_line": "Circle laterally around hips",
+        "distractors": {
+          "plausible": [
+            "Push down through their hips",
+            "Move upper body, hips stay square"
+          ],
+          "trap": [
+            "Drive straight into their guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "Maintain controlled movements during passing sequences to avoid accidentally dropping weight onto the guard player's face or neck with your knee or shin during the leg clearing phase. When using pressure-based passing variations, apply weight gradually rather than slamming down to prevent rib injuries. Be particularly careful with directional changes near the guard player's knees, as sudden lateral forces while their foot is planted can stress the knee joint. In training, avoid explosive smash passes against significantly smaller partners and always establish clear communication about intensity levels before positional sparring from standing.",
@@ -405,19 +495,59 @@
     "flashcards": [
       {
         "question": "What are the three most reliable recognition cues that a standing guard pass is about to be initiated?",
-        "answer": "The three primary cues are: first, the passer systematically strips your grips without re-engaging in grip fighting, clearing the path for passing. Second, they establish bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles. Third, they begin lateral stepping with a weight shift to one side, signaling the directional commitment phase is imminent and the pass is about to begin."
+        "answer": "The three primary cues are: first, the passer systematically strips your grips without re-engaging in grip fighting, clearing the path for passing. Second, they establish bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles. Third, they begin lateral stepping with a weight shift to one side, signaling the directional commitment phase is imminent and the pass is about to begin.",
+        "answer_line": "Strip grips, control, lateral step",
+        "distractors": {
+          "plausible": [
+            "Grip fighting intensifies",
+            "They pull you into guard"
+          ],
+          "trap": [
+            "They stand still and wait"
+          ]
+        }
       },
       {
         "question": "Your opponent has established control of both your pants at the knee and begins stepping laterally to your right—what is your immediate defensive response?",
-        "answer": "Immediately turn your hips to face their passing direction and insert your left shin as a shield across their hip line. Use your left hand to grip their passing-side sleeve or wrist to break their lateral momentum. Simultaneously hip escape away from their passing direction to increase the distance they must travel. The shin shield combined with the hip escape creates a physical barrier and distance that forces them to either change direction or abandon the pass attempt entirely."
+        "answer": "Immediately turn your hips to face their passing direction and insert your left shin as a shield across their hip line. Use your left hand to grip their passing-side sleeve or wrist to break their lateral momentum. Simultaneously hip escape away from their passing direction to increase the distance they must travel. The shin shield combined with the hip escape creates a physical barrier and distance that forces them to either change direction or abandon the pass attempt entirely.",
+        "answer_line": "Shin shield + hip escape away",
+        "distractors": {
+          "plausible": [
+            "Sit up and grab both legs",
+            "Turn away from their direction"
+          ],
+          "trap": [
+            "Post hands and stay square"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a sweep against a standing guard passer?",
-        "answer": "The optimal sweep timing is during the passer's directional commitment phase, specifically the moment they shift weight laterally and forward to execute the pass. At this point, their center of gravity has moved past their base of support in one direction, making them vulnerable to forces applied perpendicular to their movement. Their commitment means they cannot easily abort and rebalance, so use their momentum against them by applying sweep force in the direction they are already traveling."
+        "answer": "The optimal sweep timing is during the passer's directional commitment phase, specifically the moment they shift weight laterally and forward to execute the pass. At this point, their center of gravity has moved past their base of support in one direction, making them vulnerable to forces applied perpendicular to their movement. Their commitment means they cannot easily abort and rebalance, so use their momentum against them by applying sweep force in the direction they are already traveling.",
+        "answer_line": "Their weight commits laterally",
+        "distractors": {
+          "plausible": [
+            "Before they grip your legs",
+            "After they establish side control"
+          ],
+          "trap": [
+            "When they're squared and balanced"
+          ]
+        }
       },
       {
         "question": "How do you prevent the passer from establishing bilateral leg control when you are playing open guard from bottom?",
-        "answer": "Keep your feet active and between your body and the passer's hands at all times. Use your feet on their hips, biceps, or collar to create distance and prevent them from simultaneously controlling both legs. When they grip one leg, use the free leg to push on their hip or shoulder to create an angle that prevents them from reaching the second leg. Maintain at least one controlling grip on their sleeve or collar to restrict their ability to reach for bilateral control."
+        "answer": "Keep your feet active and between your body and the passer's hands at all times. Use your feet on their hips, biceps, or collar to create distance and prevent them from simultaneously controlling both legs. When they grip one leg, use the free leg to push on their hip or shoulder to create an angle that prevents them from reaching the second leg. Maintain at least one controlling grip on their sleeve or collar to restrict their ability to reach for bilateral control.",
+        "answer_line": "Keep feet active, block reach",
+        "distractors": {
+          "plausible": [
+            "Grip both sleeves tightly",
+            "Pull guard closed immediately"
+          ],
+          "trap": [
+            "Let both legs go passive"
+          ]
+        }
       }
     ],
     "training_progressions": [

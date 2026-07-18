@@ -250,35 +250,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the back take from Twister Side Control?",
-        "answer": "The optimal window opens when the defender has committed to turning away to relieve spinal or shoulder pressure but has not yet established effective defensive frames in the new orientation. This creates a brief period where the back is exposed and the defender's arms are transitioning between defensive positions. Initiating too early forces you against a defender who is still facing you, while initiating too late allows established frames that block hook insertion."
+        "answer": "The optimal window opens when the defender has committed to turning away to relieve spinal or shoulder pressure but has not yet established effective defensive frames in the new orientation. This creates a brief period where the back is exposed and the defender's arms are transitioning between defensive positions. Initiating too early forces you against a defender who is still facing you, while initiating too late allows established frames that block hook insertion.",
+        "answer_line": "Mid-turn, frames not yet set",
+        "distractors": {
+          "plausible": [
+            "The moment they start turning",
+            "Once they fully face away"
+          ],
+          "trap": [
+            "Ease off to let them turn"
+          ]
+        }
       },
       {
         "question": "Which grip must you establish before releasing the leg entanglement during the transition?",
-        "answer": "The seatbelt grip must be fully established before releasing the leg entanglement. This means threading the choking arm over the far shoulder, sliding the other arm under the near armpit, and clasping hands together on the opponent's chest. Releasing legs before the seatbelt creates a control gap where the defender has both hip and arm freedom simultaneously, making escape or reversal highly probable."
+        "answer": "The seatbelt grip must be fully established before releasing the leg entanglement. This means threading the choking arm over the far shoulder, sliding the other arm under the near armpit, and clasping hands together on the opponent's chest. Releasing legs before the seatbelt creates a control gap where the defender has both hip and arm freedom simultaneously, making escape or reversal highly probable.",
+        "answer_line": "Full seatbelt grip",
+        "distractors": {
+          "plausible": [
+            "One arm over the shoulder",
+            "Underhook on near arm"
+          ],
+          "trap": [
+            "Release legs, chase seatbelt"
+          ]
+        }
       },
       {
         "question": "Which hook should you insert first when transitioning to Back Control, and why?",
-        "answer": "The near-side hook should be inserted first because it is closest to your current position and requires the least body movement to establish. Inserting the near-side hook creates a hip control anchor point that prevents the defender from rotating away while you work to establish the far-side hook. Attempting the far-side hook first would require crossing your body past the defender's centerline, compromising your base and creating reversal opportunities."
+        "answer": "The near-side hook should be inserted first because it is closest to your current position and requires the least body movement to establish. Inserting the near-side hook creates a hip control anchor point that prevents the defender from rotating away while you work to establish the far-side hook. Attempting the far-side hook first would require crossing your body past the defender's centerline, compromising your base and creating reversal opportunities.",
+        "answer_line": "Near-side hook first",
+        "distractors": {
+          "plausible": [
+            "Far-side hook first",
+            "Both hooks simultaneously"
+          ],
+          "trap": [
+            "Cross body for far hook first"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far arm to brace against the mat and prevent you from circling to their back - how do you adjust?",
-        "answer": "Use the posted arm as an opportunity rather than an obstacle. The posting arm is weight-bearing and cannot be used for defensive frames or grip fighting. Increase forward chest pressure to load weight onto their posted arm, then work your seatbelt grip around their posted arm to isolate it. Alternatively, swim your choking arm under their posted arm to establish an underhook that helps you circle to the back while their arm is committed to posting."
+        "answer": "Use the posted arm as an opportunity rather than an obstacle. The posting arm is weight-bearing and cannot be used for defensive frames or grip fighting. Increase forward chest pressure to load weight onto their posted arm, then work your seatbelt grip around their posted arm to isolate it. Alternatively, swim your choking arm under their posted arm to establish an underhook that helps you circle to the back while their arm is committed to posting.",
+        "answer_line": "Load weight onto posted arm",
+        "distractors": {
+          "plausible": [
+            "Pry the posted arm free",
+            "Wait for them to reset arm"
+          ],
+          "trap": [
+            "Grab and yank the posted arm"
+          ]
+        }
       },
       {
         "question": "What is the critical hip position that determines success or failure during the final phase of this transition?",
-        "answer": "Your hips must drop below the opponent's hip line during the transition to back control. If your hips remain level with or above the opponent's hips, you ride high on their back and they can bridge and roll you over. Dropping your hips below theirs creates a low center of gravity that makes your back control stable and resistant to reversal attempts. This low hip position also enables effective hook insertion by angling your legs downward into the thigh gap."
+        "answer": "Your hips must drop below the opponent's hip line during the transition to back control. If your hips remain level with or above the opponent's hips, you ride high on their back and they can bridge and roll you over. Dropping your hips below theirs creates a low center of gravity that makes your back control stable and resistant to reversal attempts. This low hip position also enables effective hook insertion by angling your legs downward into the thigh gap.",
+        "answer_line": "Hips below opponent's hips",
+        "distractors": {
+          "plausible": [
+            "Hips level with theirs",
+            "Hips high for leverage"
+          ],
+          "trap": [
+            "Hips high to ride the back"
+          ]
+        }
       },
       {
         "question": "How do you maintain control continuity when releasing the Twister Side Control leg hook to insert back control hooks?",
-        "answer": "Control continuity requires the seatbelt grip to be carrying the entire control load before any leg movement begins. Once the seatbelt is secure, release the leg entanglement gradually while driving your chest forward to prevent any gap. The near-side hook must be inserted immediately as the leg clears, ensuring that at no point during the transition are both legs free without established back control hooks. The transition should feel like exchanging one control system for another rather than releasing and re-establishing."
+        "answer": "Control continuity requires the seatbelt grip to be carrying the entire control load before any leg movement begins. Once the seatbelt is secure, release the leg entanglement gradually while driving your chest forward to prevent any gap. The near-side hook must be inserted immediately as the leg clears, ensuring that at no point during the transition are both legs free without established back control hooks. The transition should feel like exchanging one control system for another rather than releasing and re-establishing.",
+        "answer_line": "Secure seatbelt before releasing",
+        "distractors": {
+          "plausible": [
+            "Release leg, then grab seatbelt",
+            "Insert hook, then seatbelt"
+          ],
+          "trap": [
+            "Let both legs go free briefly"
+          ]
+        }
       },
       {
         "question": "If the opponent defends the back take by turning into you rather than away, what submission chain becomes available?",
-        "answer": "When the defender turns toward you, they expose their neck from the front, creating opportunities for front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body into the choking position. The anaconda choke is available if you can circle to the opposite side during their turn. You can also abandon the back take entirely and return to twister side control with a deeper shoulder drive, using their turning momentum to drive their shoulder further to the mat."
+        "answer": "When the defender turns toward you, they expose their neck from the front, creating opportunities for front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body into the choking position. The anaconda choke is available if you can circle to the opposite side during their turn. You can also abandon the back take entirely and return to twister side control with a deeper shoulder drive, using their turning momentum to drive their shoulder further to the mat.",
+        "answer_line": "Darce or anaconda choke",
+        "distractors": {
+          "plausible": [
+            "Switch to armbar attack",
+            "Go for rear naked choke"
+          ],
+          "trap": [
+            "Chase the back take harder"
+          ]
+        }
       },
       {
         "question": "What is the most common grip configuration error that causes the transition to fail during the seatbelt establishment phase?",
-        "answer": "The most common error is clasping the seatbelt too loosely or too far from the opponent's body, creating slack that allows the defender to insert frames between your arms and their torso. The seatbelt must be cinched tight against the opponent's chest with no space for their arms to work inside the grip. The clasping point should be on the opponent's sternum area rather than floating in front of their body, and the choking arm elbow should be tight against the side of their neck."
+        "answer": "The most common error is clasping the seatbelt too loosely or too far from the opponent's body, creating slack that allows the defender to insert frames between your arms and their torso. The seatbelt must be cinched tight against the opponent's chest with no space for their arms to work inside the grip. The clasping point should be on the opponent's sternum area rather than floating in front of their body, and the choking arm elbow should be tight against the side of their neck.",
+        "answer_line": "Seatbelt too loose, not cinched",
+        "distractors": {
+          "plausible": [
+            "Clasping too far from sternum",
+            "Elbow away from their neck"
+          ],
+          "trap": [
+            "Skip the clasp, use one arm"
+          ]
+        }
       }
     ],
     "safety_considerations": "The rotational mechanics of this transition place stress on the bottom player's cervical and thoracic spine, particularly during the turning phase that exposes the back. Both practitioners must communicate about discomfort, and the top player should never force rapid rotation against a locked or braced spine. During training, drill the complete transition at slow speed before adding resistance. If the bottom player's spine is already near its rotational limit from the twister position, extra caution is required as the back take adds additional rotational force. The transition should be abandoned immediately if the bottom player signals discomfort in the neck or spine. Tap early and reset rather than fighting through structural pain.",
@@ -388,23 +468,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is abandoning the twister attack in favor of a back take?",
-        "answer": "The earliest cue is a change in pressure direction from lateral shoulder drive pushing you toward the mat to a forward circling motion wrapping around your body. Additionally, the opponent's grip begins transitioning from twister-specific chin strap or spinal control positions toward the seatbelt configuration with an arm threading over your far shoulder. Recognizing this shift early provides the maximum defensive window before back exposure becomes established."
+        "answer": "The earliest cue is a change in pressure direction from lateral shoulder drive pushing you toward the mat to a forward circling motion wrapping around your body. Additionally, the opponent's grip begins transitioning from twister-specific chin strap or spinal control positions toward the seatbelt configuration with an arm threading over your far shoulder. Recognizing this shift early provides the maximum defensive window before back exposure becomes established.",
+        "answer_line": "Pressure shifts to circling",
+        "distractors": {
+          "plausible": [
+            "They release spinal control",
+            "They stop chin strap grip"
+          ],
+          "trap": [
+            "Wait for hook insertion"
+          ]
+        }
       },
       {
         "question": "Why is framing against the attacker's shoulder more effective than pushing their hip during back take defense?",
-        "answer": "The shoulder frame directly addresses the attacker's primary control mechanism for the back take: the chest-to-back connection and seatbelt grip. By framing the shoulder, you prevent the attacker from squaring their chest behind your back, which is the prerequisite for effective hook insertion. Hip frames only address lower body positioning and can be bypassed by the attacker using upper body control to drag you back. The shoulder frame simultaneously creates distance and prevents the rotational movement the attacker needs."
+        "answer": "The shoulder frame directly addresses the attacker's primary control mechanism for the back take: the chest-to-back connection and seatbelt grip. By framing the shoulder, you prevent the attacker from squaring their chest behind your back, which is the prerequisite for effective hook insertion. Hip frames only address lower body positioning and can be bypassed by the attacker using upper body control to drag you back. The shoulder frame simultaneously creates distance and prevents the rotational movement the attacker needs.",
+        "answer_line": "Frame the shoulder, not hip",
+        "distractors": {
+          "plausible": [
+            "Push their hip away",
+            "Frame both hip and shoulder"
+          ],
+          "trap": [
+            "Push hip, ignore shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent has established one hook but not yet secured the seatbelt grip - what is your priority defensive action?",
-        "answer": "Your priority is preventing the seatbelt grip establishment, not removing the single hook. A single hook without a seatbelt provides minimal control, and the attacker will struggle to insert the second hook or maintain position without upper body dominance. Keep your elbows tight to your body, use your hands to strip or block any arm threading over your shoulder, and maintain your facing position toward the attacker. Once the seatbelt is denied, address the single hook through hip escape and leg extraction."
+        "answer": "Your priority is preventing the seatbelt grip establishment, not removing the single hook. A single hook without a seatbelt provides minimal control, and the attacker will struggle to insert the second hook or maintain position without upper body dominance. Keep your elbows tight to your body, use your hands to strip or block any arm threading over your shoulder, and maintain your facing position toward the attacker. Once the seatbelt is denied, address the single hook through hip escape and leg extraction.",
+        "answer_line": "Deny the seatbelt grip",
+        "distractors": {
+          "plausible": [
+            "Strip the single hook first",
+            "Hip escape immediately"
+          ],
+          "trap": [
+            "Let seatbelt land, fight hook"
+          ]
+        }
       },
       {
         "question": "What defensive body position minimizes back exposure during the transition from Twister Side Control?",
-        "answer": "The optimal defensive position keeps your shoulders and chest angled toward the attacker's hips rather than turned away. Your elbows should be tight against your body to prevent arm threading for the seatbelt. Your near knee should be driven toward your chest to create a frame barrier against the attacker's forward pressure. Your hips should be as flat as possible rather than elevated, as hip elevation from the twister entanglement creates the space behind your body where hooks need to be inserted."
+        "answer": "The optimal defensive position keeps your shoulders and chest angled toward the attacker's hips rather than turned away. Your elbows should be tight against your body to prevent arm threading for the seatbelt. Your near knee should be driven toward your chest to create a frame barrier against the attacker's forward pressure. Your hips should be as flat as possible rather than elevated, as hip elevation from the twister entanglement creates the space behind your body where hooks need to be inserted.",
+        "answer_line": "Chest angled toward their hips",
+        "distractors": {
+          "plausible": [
+            "Shoulders squared to mat",
+            "Hips elevated for space"
+          ],
+          "trap": [
+            "Turn shoulders fully away"
+          ]
+        }
       },
       {
         "question": "When should you accept turtle position rather than continue fighting the back take from Twister Side Control bottom?",
-        "answer": "Accept turtle when the attacker has established one hook and the seatbelt grip but has not yet secured the second hook. At this point, turning to turtle removes the lateral angle that the twister position created and puts you in a familiar defensive position with established escape protocols. Turtle against a single hook and seatbelt is significantly more defensible than continuing to fight from the compromised twister bottom where your spine is partially rotated and your defensive options are limited by the unfamiliar positioning."
+        "answer": "Accept turtle when the attacker has established one hook and the seatbelt grip but has not yet secured the second hook. At this point, turning to turtle removes the lateral angle that the twister position created and puts you in a familiar defensive position with established escape protocols. Turtle against a single hook and seatbelt is significantly more defensible than continuing to fight from the compromised twister bottom where your spine is partially rotated and your defensive options are limited by the unfamiliar positioning.",
+        "answer_line": "One hook + seatbelt, no 2nd hook",
+        "distractors": {
+          "plausible": [
+            "Before any hook is in",
+            "After both hooks land"
+          ],
+          "trap": [
+            "Never turtle, keep fighting"
+          ]
+        }
       }
     ],
     "training_progressions": [

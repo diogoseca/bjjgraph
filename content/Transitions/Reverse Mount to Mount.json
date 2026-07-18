@@ -256,39 +256,129 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the rotation from reverse mount to standard mount?",
-        "answer": "The rotation should be initiated within 3-5 seconds of achieving reverse mount. This window exists because reverse mount is inherently transitional—every second spent there allows the bottom player to develop frames, begin hip escapes, and prepare defensive counters timed to the rotation. Executing within this window catches the opponent before they organize their defense."
+        "answer": "The rotation should be initiated within 3-5 seconds of achieving reverse mount. This window exists because reverse mount is inherently transitional—every second spent there allows the bottom player to develop frames, begin hip escapes, and prepare defensive counters timed to the rotation. Executing within this window catches the opponent before they organize their defense.",
+        "answer_line": "Rotate within 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to settle",
+            "Take your time, no rush"
+          ],
+          "trap": [
+            "Wait 30+ seconds to set up"
+          ]
+        }
       },
       {
         "question": "Your opponent begins shrimping to their right side while you are in reverse mount—which direction should you spin and why?",
-        "answer": "You have two viable options: spin to your left (away from their escape direction) to complete the mount conversion without encountering their frames, or abandon the mount rotation entirely and follow their hip escape toward back control by inserting hooks. If they have already created significant angle, the back take is often higher percentage than forcing the mount rotation against their movement direction."
+        "answer": "You have two viable options: spin to your left (away from their escape direction) to complete the mount conversion without encountering their frames, or abandon the mount rotation entirely and follow their hip escape toward back control by inserting hooks. If they have already created significant angle, the back take is often higher percentage than forcing the mount rotation against their movement direction.",
+        "answer_line": "Spin left or take the back",
+        "distractors": {
+          "plausible": [
+            "Always spin right regardless",
+            "Force mount, ignore the escape"
+          ],
+          "trap": [
+            "Spin toward their escape side"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that prevents the opponent from inserting a knee shield during the rotation?",
-        "answer": "Maintaining constant hip-to-chest pressure throughout the entire rotational arc is the key mechanical detail. The hips must drag across the opponent's sternum without any lift or gap. The inside knee anchored against the ribs serves as the pivot point while the outside leg swings tight against the body. Any lift creates the space needed for knee insertion, so the weight must transfer as a continuous grind rather than a hop-and-land."
+        "answer": "Maintaining constant hip-to-chest pressure throughout the entire rotational arc is the key mechanical detail. The hips must drag across the opponent's sternum without any lift or gap. The inside knee anchored against the ribs serves as the pivot point while the outside leg swings tight against the body. Any lift creates the space needed for knee insertion, so the weight must transfer as a continuous grind rather than a hop-and-land.",
+        "answer_line": "Drag hips, no lift or gap",
+        "distractors": {
+          "plausible": [
+            "Hop and land quickly",
+            "Push off their hip for speed"
+          ],
+          "trap": [
+            "Lift hips to swing leg over"
+          ]
+        }
       },
       {
         "question": "What are the grip requirements before initiating the rotation from reverse mount?",
-        "answer": "At minimum, one hand must be posted on the mat in the direction of the intended rotation to guide balance and prepare for the crossface. The other hand can control the opponent's hip to prevent bridging or post on the opposite side for additional base. No specific gi grips are required, but all opponent frames should be cleared before initiating. The posted hand position near the opponent's head is critical because it transitions directly into the crossface upon rotation completion."
+        "answer": "At minimum, one hand must be posted on the mat in the direction of the intended rotation to guide balance and prepare for the crossface. The other hand can control the opponent's hip to prevent bridging or post on the opposite side for additional base. No specific gi grips are required, but all opponent frames should be cleared before initiating. The posted hand position near the opponent's head is critical because it transitions directly into the crossface upon rotation completion.",
+        "answer_line": "Post hand, aim for crossface",
+        "distractors": {
+          "plausible": [
+            "Grip both collars first",
+            "Control both hips symmetrically"
+          ],
+          "trap": [
+            "Release all grips before spin"
+          ]
+        }
       },
       {
         "question": "Why is hesitating mid-rotation considered worse than either completing or aborting the spin?",
-        "answer": "The perpendicular position at the midpoint of rotation represents the narrowest base and weakest structural alignment. Your weight is distributed across the opponent's body at an angle that provides them maximum leverage for bumping or bridging. Pausing here gives the opponent a clear window to execute their counter. Committing to complete the spin quickly passes through this vulnerable angle, while aborting returns you to the stable reverse mount base."
+        "answer": "The perpendicular position at the midpoint of rotation represents the narrowest base and weakest structural alignment. Your weight is distributed across the opponent's body at an angle that provides them maximum leverage for bumping or bridging. Pausing here gives the opponent a clear window to execute their counter. Committing to complete the spin quickly passes through this vulnerable angle, while aborting returns you to the stable reverse mount base.",
+        "answer_line": "Midpoint is weakest, commit fast",
+        "distractors": {
+          "plausible": [
+            "Pause to check opponent's frames",
+            "Slow down for control"
+          ],
+          "trap": [
+            "Stop and reassess mid-spin"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges just as you begin the rotation—how do you respond?",
-        "answer": "Immediately pause the rotation, spread your base wide, and drive your hips down to ride the bridge. Do not continue spinning during the bridge as your compromised weight distribution will likely result in being thrown off. Wait for them to land from the bridge—this post-bridge moment is when they are flattest and most exhausted. Resume the rotation during this recovery window when their defensive capacity is temporarily diminished."
+        "answer": "Immediately pause the rotation, spread your base wide, and drive your hips down to ride the bridge. Do not continue spinning during the bridge as your compromised weight distribution will likely result in being thrown off. Wait for them to land from the bridge—this post-bridge moment is when they are flattest and most exhausted. Resume the rotation during this recovery window when their defensive capacity is temporarily diminished.",
+        "answer_line": "Widen base, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Keep spinning through the bridge",
+            "Post hand and wait it out"
+          ],
+          "trap": [
+            "Continue rotation into the bridge"
+          ]
+        }
       },
       {
         "question": "What distinguishes the stepover conversion variant from the standard spinning rotation?",
-        "answer": "The stepover conversion is a deliberate two-phase movement rather than a continuous spin. The attacker posts one foot on the mat and steps over the opponent's body, then pivots on that foot to bring the trailing leg across. This sacrifices speed for maximum weight control and is preferred against larger opponents or when the opponent is actively bridging. The trade-off is that the slower execution gives the opponent more time to react, but the control is more secure throughout."
+        "answer": "The stepover conversion is a deliberate two-phase movement rather than a continuous spin. The attacker posts one foot on the mat and steps over the opponent's body, then pivots on that foot to bring the trailing leg across. This sacrifices speed for maximum weight control and is preferred against larger opponents or when the opponent is actively bridging. The trade-off is that the slower execution gives the opponent more time to react, but the control is more secure throughout.",
+        "answer_line": "Step over, then pivot trailing leg",
+        "distractors": {
+          "plausible": [
+            "Same speed, more control",
+            "Jump over in one motion"
+          ],
+          "trap": [
+            "Lift hips to swing over fast"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point in this transition and what does it typically result in?",
-        "answer": "The most common failure is lifting the hips during the rotation to create clearance for the swinging leg. This creates a momentary gap between the attacker's weight and the opponent's chest, which the bottom player exploits by inserting a knee shield or bridging into the space. The typical result is the opponent recovering half guard, converting the attacker's dominant position into a neutral guard battle. The correction is to drag the weight across rather than lifting over."
+        "answer": "The most common failure is lifting the hips during the rotation to create clearance for the swinging leg. This creates a momentary gap between the attacker's weight and the opponent's chest, which the bottom player exploits by inserting a knee shield or bridging into the space. The typical result is the opponent recovering half guard, converting the attacker's dominant position into a neutral guard battle. The correction is to drag the weight across rather than lifting over.",
+        "answer_line": "Lifting hips lets in knee shield",
+        "distractors": {
+          "plausible": [
+            "Losing the crossface grip",
+            "Spinning too fast overall"
+          ],
+          "trap": [
+            "Hopping over for extra speed"
+          ]
+        }
       },
       {
         "question": "If the mount rotation fails and you end up in the opponent's half guard, what is your immediate chain attack?",
-        "answer": "From the resulting half guard top position, immediately establish crossface and underhook control to prevent the opponent from developing offensive half guard structures. Initiate a knee slice pass to re-advance to side control or mount. The positional regression from mount attempt to half guard is recoverable if you immediately apply top pressure rather than trying to re-establish reverse mount. The key is to accept the new position and work forward from there rather than attempting to return to the failed position."
+        "answer": "From the resulting half guard top position, immediately establish crossface and underhook control to prevent the opponent from developing offensive half guard structures. Initiate a knee slice pass to re-advance to side control or mount. The positional regression from mount attempt to half guard is recoverable if you immediately apply top pressure rather than trying to re-establish reverse mount. The key is to accept the new position and work forward from there rather than attempting to return to the failed position.",
+        "answer_line": "Crossface, underhook, knee slice",
+        "distractors": {
+          "plausible": [
+            "Retry the mount rotation again",
+            "Stall and reset base"
+          ],
+          "trap": [
+            "Abandon top position, stand up"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition carries moderate injury risk primarily from the opponent's defensive reactions during the rotation. The bottom player may bridge explosively as weight shifts, risking collision between the rotating practitioner's head and the mat or the opponent's body. During training, both partners should communicate clearly about resistance levels and the top player should avoid dropping full weight abruptly after rotation completion. Knee injury risk exists for the pivot knee if it catches on the mat during the spin—ensure the training surface provides adequate slide. The bottom player should avoid bridging their neck to prevent cervical spine strain.",
@@ -393,23 +483,73 @@
     "flashcards": [
       {
         "question": "What proprioceptive cue tells you the attacker is about to initiate the rotation from reverse mount?",
-        "answer": "The primary cue is a weight shift to one side of your chest as the attacker posts their hand in the rotation direction. You will feel increased pressure from one knee against your ribs while the other knee lightens slightly. This asymmetric pressure change is the earliest detectable indicator that the spin is imminent and provides the maximum defensive reaction window."
+        "answer": "The primary cue is a weight shift to one side of your chest as the attacker posts their hand in the rotation direction. You will feel increased pressure from one knee against your ribs while the other knee lightens slightly. This asymmetric pressure change is the earliest detectable indicator that the spin is imminent and provides the maximum defensive reaction window.",
+        "answer_line": "Weight shifts, knee lightens",
+        "distractors": {
+          "plausible": [
+            "Attacker's breathing changes",
+            "Attacker grips your far collar"
+          ],
+          "trap": [
+            "Attacker already at mount"
+          ]
+        }
       },
       {
         "question": "Why is the midpoint of the attacker's rotation the optimal moment for your defensive action?",
-        "answer": "At the midpoint, the attacker is perpendicular to your body with their narrowest possible base. Their weight is distributed along their body's shortest axis, making them maximally vulnerable to any lateral force from bridging or hip movement. Before this point, they can easily abort the spin. After this point, they are nearly in standard mount. The midpoint provides the best ratio of attacker vulnerability to defensive leverage."
+        "answer": "At the midpoint, the attacker is perpendicular to your body with their narrowest possible base. Their weight is distributed along their body's shortest axis, making them maximally vulnerable to any lateral force from bridging or hip movement. Before this point, they can easily abort the spin. After this point, they are nearly in standard mount. The midpoint provides the best ratio of attacker vulnerability to defensive leverage.",
+        "answer_line": "Narrowest base, most vulnerable",
+        "distractors": {
+          "plausible": [
+            "Attacker's grip is weakest there",
+            "Momentum makes them careless"
+          ],
+          "trap": [
+            "Wait until they reach mount"
+          ]
+        }
       },
       {
         "question": "If you successfully insert a knee shield during the rotation, what should your immediate follow-up be?",
-        "answer": "Immediately fight for the underhook on the trapped leg side to establish offensive half guard rather than defensive half guard. The attacker will attempt to flatten you with crossface pressure, so establishing the underhook quickly converts the position from a survival situation into an offensive platform. Begin threatening sweeps and back takes immediately to prevent them from re-establishing a passing campaign from top half guard."
+        "answer": "Immediately fight for the underhook on the trapped leg side to establish offensive half guard rather than defensive half guard. The attacker will attempt to flatten you with crossface pressure, so establishing the underhook quickly converts the position from a survival situation into an offensive platform. Begin threatening sweeps and back takes immediately to prevent them from re-establishing a passing campaign from top half guard.",
+        "answer_line": "Fight for underhook, go offensive",
+        "distractors": {
+          "plausible": [
+            "Stall and wait for opponent",
+            "Focus purely on defense"
+          ],
+          "trap": [
+            "Release the knee shield to reset"
+          ]
+        }
       },
       {
         "question": "What makes bridging too early against this transition a critical tactical error?",
-        "answer": "Bridging before the attacker commits to the rotation means you are bridging against a stable reverse mount base where their weight is centered and their knees are wide. The bridge will be easily absorbed and you expend significant energy without effect. Worse, you will be flatter and more exhausted when they subsequently initiate the actual rotation, reducing your ability to counter at the critical moment. Patience in timing the bridge to the rotation's vulnerable midpoint is essential."
+        "answer": "Bridging before the attacker commits to the rotation means you are bridging against a stable reverse mount base where their weight is centered and their knees are wide. The bridge will be easily absorbed and you expend significant energy without effect. Worse, you will be flatter and more exhausted when they subsequently initiate the actual rotation, reducing your ability to counter at the critical moment. Patience in timing the bridge to the rotation's vulnerable midpoint is essential.",
+        "answer_line": "Wastes energy vs stable base",
+        "distractors": {
+          "plausible": [
+            "Confuses the attacker's timing",
+            "Prevents crossface entirely"
+          ],
+          "trap": [
+            "Bridge repeatedly until tired"
+          ]
+        }
       },
       {
         "question": "Your frame attempt fails and the attacker successfully completes the rotation to standard mount—what is your immediate priority?",
-        "answer": "Immediately establish defensive frames before the attacker settles their weight and consolidates control. Get your elbows connected to your knees, maintain a slight angle rather than lying flat, and protect your neck from choke entries. Begin the standard mount escape hierarchy: prevent advancement to high mount, create incremental space through hip escapes, and work toward knee insertion for half guard recovery. The key is not to freeze after the failed defense but to immediately transition to mount escape protocol."
+        "answer": "Immediately establish defensive frames before the attacker settles their weight and consolidates control. Get your elbows connected to your knees, maintain a slight angle rather than lying flat, and protect your neck from choke entries. Begin the standard mount escape hierarchy: prevent advancement to high mount, create incremental space through hip escapes, and work toward knee insertion for half guard recovery. The key is not to freeze after the failed defense but to immediately transition to mount escape protocol.",
+        "answer_line": "Frame elbows to knees immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for a better moment",
+            "Focus only on neck protection"
+          ],
+          "trap": [
+            "Freeze and stall flat on back"
+          ]
+        }
       }
     ],
     "training_progressions": [

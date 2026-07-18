@@ -362,11 +362,31 @@
   "flashcards": [
     {
       "question": "What is the defining grip of the Marcelo Garcia Guillotine System?",
-      "answer": "The high-elbow guillotine grip, in which the choking arm's elbow rides high on the opponent's shoulder line while the hands connect in front of the chest, maximizing carotid pressure while wedging out defensive hands."
+      "answer": "The high-elbow guillotine grip, in which the choking arm's elbow rides high on the opponent's shoulder line while the hands connect in front of the chest, maximizing carotid pressure while wedging out defensive hands.",
+      "answer_line": "High elbow, hands at chest",
+      "distractors": {
+        "plausible": [
+          "Elbow tucked low to chest",
+          "Grip hands under their chin"
+        ],
+        "trap": [
+          "Cross-face grip over shoulder"
+        ]
+      }
     },
     {
       "question": "When should you switch from the high-elbow guillotine to the arm-in variation?",
-      "answer": "Switch to arm-in when the opponent's posture is broken forward or they defend the high-elbow grip; trapping their arm inside removes their post, limits defense, and yields a higher-percentage finish."
+      "answer": "Switch to arm-in when the opponent's posture is broken forward or they defend the high-elbow grip; trapping their arm inside removes their post, limits defense, and yields a higher-percentage finish.",
+      "answer_line": "Posture broken, trap arm inside",
+      "distractors": {
+        "plausible": [
+          "Wait until they stand up straight",
+          "Switch right when grip is set"
+        ],
+        "trap": [
+          "Release grip to switch hands"
+        ]
+      }
     },
     {
       "question": "Why does combining the guillotine with sweeps from closed guard create a dilemma?",
@@ -374,23 +394,73 @@
     },
     {
       "question": "What is the most common reason a guillotine fails even with a solid grip?",
-      "answer": "Relying on arm strength instead of hip positioning. An effective finish needs a perpendicular angle created by hip escaping; with square hips the opponent can posture, survive, and tire the attacker out."
+      "answer": "Relying on arm strength instead of hip positioning. An effective finish needs a perpendicular angle created by hip escaping; with square hips the opponent can posture, survive, and tire the attacker out.",
+      "answer_line": "Escape hips for perpendicular angle",
+      "distractors": {
+        "plausible": [
+          "Pull their head down harder",
+          "Get a deeper underhook first"
+        ],
+        "trap": [
+          "Muscle it with square hips"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent rolls backward over their shoulder to escape?",
-      "answer": "Follow the roll while keeping connection and arrive in high guard or mount with the choke intact, or read the roll early and switch to a back take as they expose their back during the escape attempt."
+      "answer": "Follow the roll while keeping connection and arrive in high guard or mount with the choke intact, or read the roll early and switch to a back take as they expose their back during the escape attempt.",
+      "answer_line": "Follow the roll, keep the grip",
+      "distractors": {
+        "plausible": [
+          "Release grip and reset guard",
+          "Stop the roll, pull them back"
+        ],
+        "trap": [
+          "Let go and chase the far leg"
+        ]
+      }
     },
     {
       "question": "What entry converts a failed takedown or aggressive shot into a guillotine?",
-      "answer": "The standing-to-guard-pull entry: establish head control and the guillotine grip as the opponent lowers their head or shoots, then pull guard in one fluid motion while maintaining connection throughout."
+      "answer": "The standing-to-guard-pull entry: establish head control and the guillotine grip as the opponent lowers their head or shoots, then pull guard in one fluid motion while maintaining connection throughout.",
+      "answer_line": "Grip head, then pull guard",
+      "distractors": {
+        "plausible": [
+          "Sprawl first, then grip the head",
+          "Pull guard, then find the grip"
+        ],
+        "trap": [
+          "Jump to their back as they shoot"
+        ]
+      }
     },
     {
       "question": "Why is grip sequencing critical during the guard pull entry?",
-      "answer": "You must fully establish and verify the grip before pulling guard; rushing the pull before securing the connection lets the opponent extract their head, so the sequence is grip, confirm, then pull as one motion."
+      "answer": "You must fully establish and verify the grip before pulling guard; rushing the pull before securing the connection lets the opponent extract their head, so the sequence is grip, confirm, then pull as one motion.",
+      "answer_line": "Confirm grip fully before pulling",
+      "distractors": {
+        "plausible": [
+          "Pull guard fast before they react",
+          "Grip and pull simultaneously"
+        ],
+        "trap": [
+          "Pull guard first, grip after"
+        ]
+      }
     },
     {
       "question": "How does the system attack a turtled opponent?",
-      "answer": "Through front-headlock control, selecting the high-elbow or arm-in guillotine based on how they defend, and transitioning to a back take when their weight and posture favor exposing the back over the choke."
+      "answer": "Through front-headlock control, selecting the high-elbow or arm-in guillotine based on how they defend, and transitioning to a back take when their weight and posture favor exposing the back over the choke.",
+      "answer_line": "Headlock, choke, or take the back",
+      "distractors": {
+        "plausible": [
+          "Always finish with the choke",
+          "Flatten them out then armbar"
+        ],
+        "trap": [
+          "Release headlock to hunt the back"
+        ]
+      }
     }
   ]
 }

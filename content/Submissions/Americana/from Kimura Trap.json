@@ -307,52 +307,152 @@
       {
         "question": "What anatomical structure does the Americana from Kimura Trap primarily attack?",
         "answer": "The Americana attacks the glenohumeral (shoulder) joint through external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, and subscapularis), the shoulder capsule, and the labrum. The lever created by pinning the elbow and driving the wrist forces the humeral head into an extreme externally rotated position that exceeds the joint's natural range of motion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder via external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow via hyperextension",
+            "Wrist via hyperflexion"
+          ],
+          "trap": [
+            "Rotator cuff via internal rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the Kimura by straightening their arm completely—how do you adjust?",
         "answer": "A straightened arm eliminates the Americana angle but opens the Kimura path. Immediately redirect back to the standard Kimura by pulling their now-extended wrist behind their back. The straight arm also exposes armbar opportunities from top position. This is the core dilemma of the Kimura Trap system—the defense for one submission creates the setup for another. Never try to force the Americana on a straight arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Redirect back to standard Kimura",
+        "distractors": {
+          "plausible": [
+            "Switch straight to armbar",
+            "Wait for arm to rebend"
+          ],
+          "trap": [
+            "Force Americana on straight arm"
+          ]
+        }
       },
       {
         "question": "What specific defensive posture from the opponent signals you should redirect from Kimura to Americana?",
         "answer": "The trigger is feeling the opponent pull their elbow tight against their ribcage and actively drive their hand toward the mat or their own hip. You will feel their arm become heavy and resistant to upward Kimura pressure. Their forearm will angle downward rather than remaining neutral or angling upward. This committed Kimura defense positions their arm perfectly for the Americana redirect because their elbow is already near the mat and their wrist is already low.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow tight, hand driving down",
+        "distractors": {
+          "plausible": [
+            "Arm fully straightened out",
+            "Hand pushing up and away"
+          ],
+          "trap": [
+            "Wrist rotating loosely outward"
+          ]
+        }
       },
       {
         "question": "Why is pinning the elbow to the mat essential before applying Americana rotational pressure?",
         "answer": "The pinned elbow serves as the fixed fulcrum point for the entire Americana lever system. Without it, when you drive the wrist, the entire arm simply moves together as a unit and no torque is generated on the shoulder joint. The elbow pin creates two separate lever segments: the upper arm is fixed to the mat, and the forearm rotates around the elbow, creating the external rotation that stresses the shoulder. Without this fulcrum, the submission is mechanically impossible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow is the fixed fulcrum",
+        "distractors": {
+          "plausible": [
+            "Increases wrist pressure only",
+            "Prevents opponent from bridging"
+          ],
+          "trap": [
+            "Lets you skip figure-four grip"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the Americana from Kimura Trap and why?",
         "answer": "The Americana must be applied slowly and progressively over 3-5 seconds minimum from initial pressure to expected tap. The shoulder joint can be damaged before the defender registers pain, particularly because the transition from Kimura defense catches them off-guard. In drilling, use 10-20% pressure maximum. Never spike or jerk the rotational force. The slow application gives partners time to tap and prevents catastrophic injuries like shoulder dislocation or rotator cuff tears that can end careers.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, 3-5 seconds minimum",
+        "distractors": {
+          "plausible": [
+            "Fast, before they defend",
+            "Match their breathing pace"
+          ],
+          "trap": [
+            "Snap it quickly for the tap"
+          ]
+        }
       },
       {
         "question": "How should you release the Americana from Kimura Trap after your partner taps?",
         "answer": "Immediately stop all rotational pressure on the shoulder first—this is the most urgent step. Then release the figure-four grip on the wrist and carefully lower their arm back to a neutral position without dropping it suddenly. Release elbow control and allow your partner to move freely. Verbally check that they are okay. If they indicate any pain, encourage gentle shoulder mobility and recommend medical attention if pain persists. Never celebrate or move away before confirming your partner is uninjured.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotation, then release grip",
+        "distractors": {
+          "plausible": [
+            "Release grip, then stop pressure",
+            "Drop the arm and move away fast"
+          ],
+          "trap": [
+            "Hold grip until they nod okay"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt with their trapped hand to anchor against the Americana—what is your response?",
         "answer": "Grip anchoring is a delay tactic, not an escape. Maintain steady Americana pressure and use your body weight advantage—their grip endurance cannot match your weight-based leverage over time. Walk your feet toward their head to increase the finishing angle and mechanical advantage. You can also peel the grip by driving your knee into their forearm or changing the angle of wrist pressure to break their grip. Stay patient and maintain position rather than trying to rip through the grip with strength.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Outlast grip, walk feet to head",
+        "distractors": {
+          "plausible": [
+            "Rip through the grip fast",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Yank the wrist hard to break it"
+          ]
+        }
       },
       {
         "question": "In competition, when should you choose the Americana redirect versus continuing to work the Kimura from Kimura Trap Top?",
         "answer": "Choose the Americana redirect when you feel the opponent has committed to the standard Kimura defense with their elbow pinned and hand driven low. If they are actively fighting the grip or attempting to straighten their arm, the Kimura remains the better option. In competition, the Americana is particularly effective in the final minutes when opponents are fatigued and their Kimura defense becomes predictable. The key is to genuinely threaten the Kimura first—a half-hearted setup will not draw the defensive reaction you need for the redirect.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When elbow pinned, hand driven low",
+        "distractors": {
+          "plausible": [
+            "Anytime you have the grip",
+            "Early, before threatening Kimura"
+          ],
+          "trap": [
+            "Force it while they still resist"
+          ]
+        }
       },
       {
         "question": "What are the breaking-point indicators that tell you the Americana finish is imminent and you must control the pace?",
         "answer": "The breaking point is signaled by the opponent's forearm reaching the mat-parallel position while their elbow stays pinned, their shoulder visibly rotating externally past the neutral line, and a sudden loss of resistance as the joint reaches end range. At this stage the tap is seconds away, so you must slow your pace, not accelerate. Continuing to drive past this point risks rotator cuff or capsule damage before the partner can react, so apply the final degrees of rotation gradually and stop the instant you feel the tap or see distress.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Forearm mat-parallel, sudden give",
+        "distractors": {
+          "plausible": [
+            "Opponent taps loudly first",
+            "Wrist reaches shoulder height"
+          ],
+          "trap": [
+            "Speed up to finish it fast"
+          ]
+        }
       },
       {
         "question": "At what moment does the defender pass the point of no escape against this Americana?",
         "answer": "The point of no escape is when the elbow is firmly pinned to the mat as a fixed fulcrum AND your chest weight has settled to prevent the arm from straightening. Once both conditions are met, the defender can no longer straighten the arm to kill the angle or bridge effectively to lift your weight, leaving only the tap. Recognizing this moment matters for safety as much as finishing—because escape is gone, the attacker carries full responsibility for a slow, controlled finish, and the defender should tap rather than risk the joint.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow pinned plus chest weight set",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip fully locked",
+            "Opponent's hips flat on mat"
+          ],
+          "trap": [
+            "Once wrist passes ear level"
+          ]
+        }
       }
     ],
     "clips": [
@@ -458,27 +558,77 @@
       {
         "question": "How do you recognize when the attacker is redirecting from a Kimura attempt to an Americana from Kimura Trap?",
         "answer": "The primary recognition cue is a pressure direction change on your wrist—instead of being pulled upward behind your back for the Kimura, your wrist begins being pressed downward toward the mat. You will also feel the attacker's chest weight settle heavier onto your shoulder area, and they may walk their feet toward your head to change their finishing angle. The transition happens within the same grip, so there is no grip break to signal the change—only the direction of force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist pressed down, not pulled up",
+        "distractors": {
+          "plausible": [
+            "Grip breaks then re-grips",
+            "Opponent switches base wide"
+          ],
+          "trap": [
+            "Only notice after arm is straight"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Americana from Kimura Trap to prevent injury?",
         "answer": "Tap clearly and immediately using multiple signals: verbal tap by saying 'tap' loudly, physical tap with your free hand on the attacker's body or the mat with at least two distinct taps, and foot taps on the mat if your hand is not free. Tap before you reach your shoulder's rotational limit—the damage threshold can be reached before maximum pain. In training, there is never a reason to delay the tap on a shoulder lock. If you cannot tap with your hand, vocalize immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap loud, tap hard, tap early",
+        "distractors": {
+          "plausible": [
+            "Wait until pain peaks to tap",
+            "Tap once quietly to save face"
+          ],
+          "trap": [
+            "Try to power out before tapping"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Americana from Kimura Trap at different stages of the attack?",
         "answer": "Early stage (pressure direction changes): straighten your arm to remove the Americana angle, or immediately bridge and turn to disrupt the attacker's position. Mid stage (elbow approaching mat): bridge explosively into the attacker to prevent the elbow pin and create scramble opportunity, or pull your arm across your body to recover guard. Late stage (elbow pinned, arc beginning): your options are severely limited—tap if you cannot immediately bridge to lift the attacker's weight off your pinned elbow. The earlier you react, the more options you have.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten arm or bridge early",
+        "distractors": {
+          "plausible": [
+            "Pull elbow tight to your ribs",
+            "Wait for the ref to stop it"
+          ],
+          "trap": [
+            "Pull arm tight, hand toward mat"
+          ]
+        }
       },
       {
         "question": "Why does defending the Kimura by pulling your elbow tight actually make the Americana easier for the attacker?",
         "answer": "The standard Kimura defense—pulling your elbow tight to your ribs and driving your hand toward the mat—positions your arm exactly where the attacker needs it for the Americana. Your elbow is already near the mat (ready to be pinned as the fulcrum), and your wrist is already low (ready for the downward paintbrush arc). You have essentially done half the attacker's work for them. This is why you must change your defensive posture the moment you recognize the Americana redirect rather than maintaining static Kimura defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "It preloads elbow and wrist spot",
+        "distractors": {
+          "plausible": [
+            "It only slows down the Kimura",
+            "It protects the shoulder joint"
+          ],
+          "trap": [
+            "It has no effect on Americana"
+          ]
+        }
       },
       {
         "question": "What is the risk of straightening your arm to defend the Americana from Kimura Trap?",
         "answer": "Straightening the arm effectively removes the Americana angle because the submission requires a bent arm with the elbow as a fulcrum. However, the straight arm re-exposes you to the standard Kimura finish because the attacker still has the figure-four grip and can immediately redirect back to pulling your wrist behind your back. A fully extended arm may also expose armbar opportunities. You must follow the straightening with immediate framing and hip escape to recover guard before the attacker can redirect to another attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-exposes you to the Kimura",
+        "distractors": {
+          "plausible": [
+            "Only risks minor wrist strain",
+            "Makes escape completely safe"
+          ],
+          "trap": [
+            "Keep arm straight and relax"
+          ]
+        }
       }
     ],
     "training_progressions": [

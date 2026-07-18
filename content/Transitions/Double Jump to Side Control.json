@@ -255,35 +255,115 @@
     "flashcards": [
       {
         "question": "When is the optimal timing to abandon back-take attempts and transition to side control from Double Jump?",
-        "answer": "The optimal timing is when the opponent has successfully defended multiple back-take attempts by maintaining a tight turtle shell with elbows tucked, chin protected, and hips sealed against hook elevation. The transition should be initiated while you still have strong upper body control through crossface or harness—not after the position has begun deteriorating. If the opponent's defense is focused entirely on preventing back exposure with a sealed posture, the lateral pathway to side control is typically open."
+        "answer": "The optimal timing is when the opponent has successfully defended multiple back-take attempts by maintaining a tight turtle shell with elbows tucked, chin protected, and hips sealed against hook elevation. The transition should be initiated while you still have strong upper body control through crossface or harness—not after the position has begun deteriorating. If the opponent's defense is focused entirely on preventing back exposure with a sealed posture, the lateral pathway to side control is typically open.",
+        "answer_line": "Sealed tight, control still strong",
+        "distractors": {
+          "plausible": [
+            "After back-take attempts fail",
+            "Once position starts to slip"
+          ],
+          "trap": [
+            "Force the back-take anyway"
+          ]
+        }
       },
       {
         "question": "What upper body control must be established before beginning the hook extraction sequence?",
-        "answer": "You must establish either a deep crossface with your forearm driving firmly across the opponent's jawline and neck on the side you intend to establish side control, or a tight seatbelt grip with one arm over the shoulder and one under the armpit. This upper body control serves as your primary positional anchor during the entire transition—without it, removing your leg hooks eliminates hip control without any compensating mechanism, allowing the opponent to freely scramble or recover guard."
+        "answer": "You must establish either a deep crossface with your forearm driving firmly across the opponent's jawline and neck on the side you intend to establish side control, or a tight seatbelt grip with one arm over the shoulder and one under the armpit. This upper body control serves as your primary positional anchor during the entire transition—without it, removing your leg hooks eliminates hip control without any compensating mechanism, allowing the opponent to freely scramble or recover guard.",
+        "answer_line": "Crossface or seatbelt grip first",
+        "distractors": {
+          "plausible": [
+            "Both hooks deep before control",
+            "Underhook on far side only"
+          ],
+          "trap": [
+            "Extract hooks, then get grips"
+          ]
+        }
       },
       {
         "question": "Which hook should you extract first during the lateral transition and why?",
-        "answer": "Extract the far-side hook first—the hook furthest from your intended side control direction. This allows you to post that freed foot on the mat behind you for stability while maintaining the near-side hook as continued lower body influence during the critical early lateral hip-walk phase. Extracting the near-side hook first would eliminate control on the transition side and leave you without base for the lateral movement."
+        "answer": "Extract the far-side hook first—the hook furthest from your intended side control direction. This allows you to post that freed foot on the mat behind you for stability while maintaining the near-side hook as continued lower body influence during the critical early lateral hip-walk phase. Extracting the near-side hook first would eliminate control on the transition side and leave you without base for the lateral movement.",
+        "answer_line": "Extract far hook first",
+        "distractors": {
+          "plausible": [
+            "Extract near hook first",
+            "Extract both hooks together"
+          ],
+          "trap": [
+            "Release upper body grip first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a sit-out as you extract your first hook—how do you adjust?",
-        "answer": "Immediately abandon the side control transition and follow the opponent's sitting motion to take the back or enter crab ride. Their sit-out actually exposes their back more than the sealed turtle did. Use your remaining hook and upper body control to follow their movement, redirecting from the lateral transition to a rear control entry. Forcing the side control path against an actively sitting opponent typically results in half guard or a scramble."
+        "answer": "Immediately abandon the side control transition and follow the opponent's sitting motion to take the back or enter crab ride. Their sit-out actually exposes their back more than the sealed turtle did. Use your remaining hook and upper body control to follow their movement, redirecting from the lateral transition to a rear control entry. Forcing the side control path against an actively sitting opponent typically results in half guard or a scramble.",
+        "answer_line": "Follow sit-out, take the back",
+        "distractors": {
+          "plausible": [
+            "Force side control anyway",
+            "Stop and reset to turtle"
+          ],
+          "trap": [
+            "Release hooks and disengage"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force during the lateral hip-walk phase of this transition?",
-        "answer": "The primary force direction is lateral and downward, walking your hips around the opponent's body while driving continuous chest pressure forward and down into their upper back and near shoulder. The crossface drives the opponent's head away from you toward the mat, which simultaneously creates the angle for perpendicular alignment and collapses their turtle base. Your hips should stay heavy against their near hip throughout the walk-around."
+        "answer": "The primary force direction is lateral and downward, walking your hips around the opponent's body while driving continuous chest pressure forward and down into their upper back and near shoulder. The crossface drives the opponent's head away from you toward the mat, which simultaneously creates the angle for perpendicular alignment and collapses their turtle base. Your hips should stay heavy against their near hip throughout the walk-around.",
+        "answer_line": "Walk hips laterally, press down",
+        "distractors": {
+          "plausible": [
+            "Drive straight forward only",
+            "Pull opponent's head upward"
+          ],
+          "trap": [
+            "Lean back to create space"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you establish immediately upon reaching side control alignment?",
-        "answer": "Upon reaching perpendicular alignment, immediately establish standard side control grips: crossface with your far arm driving forearm across the opponent's neck and face, and your near hand blocking the opponent's far hip to prevent knee insertion and guard recovery. The hip block is the highest priority grip because it closes the primary escape pathway. Drop your hips low and heavy against their hips while sprawling your legs wide for stable base."
+        "answer": "Upon reaching perpendicular alignment, immediately establish standard side control grips: crossface with your far arm driving forearm across the opponent's neck and face, and your near hand blocking the opponent's far hip to prevent knee insertion and guard recovery. The hip block is the highest priority grip because it closes the primary escape pathway. Drop your hips low and heavy against their hips while sprawling your legs wide for stable base.",
+        "answer_line": "Crossface plus far-hip block",
+        "distractors": {
+          "plausible": [
+            "Underhook plus far-arm trap",
+            "Both arms crossface only"
+          ],
+          "trap": [
+            "Chase the far-side arm first"
+          ]
+        }
       },
       {
         "question": "The transition stalls because your opponent keeps recovering turtle base after partial hook extraction—what do you do?",
-        "answer": "If the opponent successfully retucks after partial extraction, you have two options: re-insert the extracted hook to return to full Double Jump and attempt the transition from a different angle after further base degradation, or switch to a more aggressive approach by sprawling heavy weight onto their back to collapse the turtle before attempting hook extraction again. You can also redirect to a completely different attack pathway such as crab ride or truck entry."
+        "answer": "If the opponent successfully retucks after partial extraction, you have two options: re-insert the extracted hook to return to full Double Jump and attempt the transition from a different angle after further base degradation, or switch to a more aggressive approach by sprawling heavy weight onto their back to collapse the turtle before attempting hook extraction again. You can also redirect to a completely different attack pathway such as crab ride or truck entry.",
+        "answer_line": "Re-insert hook or sprawl heavy",
+        "distractors": {
+          "plausible": [
+            "Force the same extraction again",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Release all control and reset"
+          ]
+        }
       },
       {
         "question": "How does this transition create a strategic dilemma within the broader Double Jump attack system?",
-        "answer": "The side control transition creates a dilemma because it punishes the exact defensive posture that prevents back takes. When the opponent seals their back tightly with tucked elbows and chin to defend hook elevation to back control, they inadvertently expose the lateral pathway to side control. If they widen their base to prevent the lateral transition, they create gaps for the primary back-take entries. This dual threat forces the defender into narrow defensive corridors where protecting against one pathway opens the other."
+        "answer": "The side control transition creates a dilemma because it punishes the exact defensive posture that prevents back takes. When the opponent seals their back tightly with tucked elbows and chin to defend hook elevation to back control, they inadvertently expose the lateral pathway to side control. If they widen their base to prevent the lateral transition, they create gaps for the primary back-take entries. This dual threat forces the defender into narrow defensive corridors where protecting against one pathway opens the other.",
+        "answer_line": "Defending one opens the other",
+        "distractors": {
+          "plausible": [
+            "Only affects back-take defense",
+            "Wide base defends both threats"
+          ],
+          "trap": [
+            "Ignore side control, seal back"
+          ]
+        }
       }
     ],
     "safety_considerations": "Double Jump to Side Control is a positional transition without direct submission threat, making it relatively safe during training. The primary safety concern involves maintaining controlled pressure during the lateral hip walk to avoid sudden weight drops onto the opponent's ribcage or spine. The crossface pressure maintained throughout the transition can stress the defender's cervical spine if applied with excessive force. Partners should communicate about pressure intensity during drilling. When extracting hooks, move deliberately rather than explosively to prevent the opponent's knees or ankles from being torqued by sudden hook removal. During live sparring, be aware that the rapid positional change from turtle to side control can disorient the defender.",
@@ -401,23 +481,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the opponent is transitioning from Double Jump to side control rather than continuing back-take attempts?",
-        "answer": "The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while crossface pressure simultaneously intensifies, the top player's chest pressure shifting from centered on your spine toward one shoulder indicating the lateral direction, and feeling their hips begin to walk around your body in small steps rather than maintaining the stationary position behind you. The combination of hook withdrawal with increased upper body pressure signals the side control transition."
+        "answer": "The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while crossface pressure simultaneously intensifies, the top player's chest pressure shifting from centered on your spine toward one shoulder indicating the lateral direction, and feeling their hips begin to walk around your body in small steps rather than maintaining the stationary position behind you. The combination of hook withdrawal with increased upper body pressure signals the side control transition.",
+        "answer_line": "Hook loosens, pressure shifts",
+        "distractors": {
+          "plausible": [
+            "Hands reposition for choke",
+            "Weight suddenly drops to hips"
+          ],
+          "trap": [
+            "Both hooks release at once"
+          ]
+        }
       },
       {
         "question": "During which phase of the transition is defensive action most likely to succeed?",
-        "answer": "The most effective defensive window occurs during the first hook extraction, when bilateral hip control is reduced to unilateral. This creates a brief period where the top player's lower body influence is halved while they are repositioning. Sit-outs, granby rolls, and base recovery attempts have the highest success probability during this extraction phase before the lateral hip walk establishes new pressure angles."
+        "answer": "The most effective defensive window occurs during the first hook extraction, when bilateral hip control is reduced to unilateral. This creates a brief period where the top player's lower body influence is halved while they are repositioning. Sit-outs, granby rolls, and base recovery attempts have the highest success probability during this extraction phase before the lateral hip walk establishes new pressure angles.",
+        "answer_line": "During the first hook extraction",
+        "distractors": {
+          "plausible": [
+            "During the final hip walk",
+            "Right after grips are set"
+          ],
+          "trap": [
+            "Wait until side control locks"
+          ]
+        }
       },
       {
         "question": "Your opponent has extracted one hook and is walking their hips laterally—what is your immediate defensive response?",
-        "answer": "Immediately initiate a sit-out in the opposite direction of their lateral movement, using the asymmetric weight distribution to your advantage. Post your far hand on the mat and rotate your hips away from the direction they are walking. Their commitment to the lateral path makes it difficult to follow your opposite-direction movement. If the sit-out timing has passed, turn to face the opponent and insert your knee frame between bodies before they reach perpendicular alignment."
+        "answer": "Immediately initiate a sit-out in the opposite direction of their lateral movement, using the asymmetric weight distribution to your advantage. Post your far hand on the mat and rotate your hips away from the direction they are walking. Their commitment to the lateral path makes it difficult to follow your opposite-direction movement. If the sit-out timing has passed, turn to face the opponent and insert your knee frame between bodies before they reach perpendicular alignment.",
+        "answer_line": "Sit out away from their walk",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up and over",
+            "Push their head away"
+          ],
+          "trap": [
+            "Follow their direction of walk"
+          ]
+        }
       },
       {
         "question": "Why is static sealed turtle defense ineffective against the side control transition despite being effective against back takes?",
-        "answer": "Static sealed turtle with tucked elbows and protected back prevents hook elevation to back control by closing the pathways the top player needs for traditional back-take entries. However, this same sealed posture leaves the lateral pathway completely open because the defender is not actively resisting the hip walk-around. The tight defensive shell that blocks back access creates a stable surface for the top player to maintain pressure while walking their hips to side control alignment."
+        "answer": "Static sealed turtle with tucked elbows and protected back prevents hook elevation to back control by closing the pathways the top player needs for traditional back-take entries. However, this same sealed posture leaves the lateral pathway completely open because the defender is not actively resisting the hip walk-around. The tight defensive shell that blocks back access creates a stable surface for the top player to maintain pressure while walking their hips to side control alignment.",
+        "answer_line": "No resistance to lateral walk",
+        "distractors": {
+          "plausible": [
+            "Elbows too tucked to move",
+            "Chin position causes exposure"
+          ],
+          "trap": [
+            "Sealing tighter stops the walk"
+          ]
+        }
       },
       {
         "question": "How can you exploit the top player's lateral weight commitment to create a reversal opportunity?",
-        "answer": "When the top player commits weight laterally for the side control transition, their balance is temporarily biased toward one side with reduced ability to follow movement in the opposite direction. Execute a sit-out or turn toward the opposite side of their weight commitment, using their own directional commitment against them. The further they have progressed in the lateral walk, the more difficult it becomes for them to redirect and follow your opposite-direction movement, creating the scramble opportunity for guard recovery."
+        "answer": "When the top player commits weight laterally for the side control transition, their balance is temporarily biased toward one side with reduced ability to follow movement in the opposite direction. Execute a sit-out or turn toward the opposite side of their weight commitment, using their own directional commitment against them. The further they have progressed in the lateral walk, the more difficult it becomes for them to redirect and follow your opposite-direction movement, creating the scramble opportunity for guard recovery.",
+        "answer_line": "Turn opposite their weight shift",
+        "distractors": {
+          "plausible": [
+            "Bridge into their commitment",
+            "Push straight into their chest"
+          ],
+          "trap": [
+            "Follow their lateral direction"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -304,7 +304,17 @@
       },
       {
         "question": "How does the Tripod Sweep fit into a comprehensive spider guard attack system, and what other techniques should it be chained with?",
-        "answer": "The Tripod Sweep functions as a primary distance-management attack in spider guard that creates reactions you can exploit. It chains naturally with: triangle setup (when opponent sits back to defend), omoplata (when they post second hand), Sickle Sweep (when they base wide and sit back), and overhead sweeps (when they post both hands forward). The tripod structure itself can transition to technical standup for takedown scenarios. Advanced practitioners use Tripod Sweep as the centerpiece of a decision tree where every defensive reaction opens another high-percentage attack, creating the dilemma-based guard system that characterizes modern competition BJJ."
+        "answer": "The Tripod Sweep functions as a primary distance-management attack in spider guard that creates reactions you can exploit. It chains naturally with: triangle setup (when opponent sits back to defend), omoplata (when they post second hand), Sickle Sweep (when they base wide and sit back), and overhead sweeps (when they post both hands forward). The tripod structure itself can transition to technical standup for takedown scenarios. Advanced practitioners use Tripod Sweep as the centerpiece of a decision tree where every defensive reaction opens another high-percentage attack, creating the dilemma-based guard system that characterizes modern competition BJJ.",
+        "answer_line": "Chain into triangle or omoplata",
+        "distractors": {
+          "plausible": [
+            "Just a stand-alone single sweep",
+            "Combine only with pass sequence"
+          ],
+          "trap": [
+            "Release spider hook to chain"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration must be established before initiating the Tripod Sweep, and why is each grip essential?",
@@ -336,7 +346,17 @@
       },
       {
         "question": "Your opponent strips your collar grip mid-setup but you still have the sleeve grip and spider hook - how do you recover or adapt?",
-        "answer": "Without the collar grip, you lose the primary pulling force that creates the diagonal off-balance. Immediately re-grip the collar before continuing, as the sweep without collar control lacks sufficient force to complete. If re-gripping is not possible, use your free hand to grip their belt or far lapel as a substitute pulling point. Alternatively, transition to a different attack that works with sleeve-only control, such as switching the spider hook foot to lasso position for a lasso sweep, or pulling the sleeve grip to create an armbar or triangle entry. Do not attempt the Tripod Sweep without a pulling grip on the upper body."
+        "answer": "Without the collar grip, you lose the primary pulling force that creates the diagonal off-balance. Immediately re-grip the collar before continuing, as the sweep without collar control lacks sufficient force to complete. If re-gripping is not possible, use your free hand to grip their belt or far lapel as a substitute pulling point. Alternatively, transition to a different attack that works with sleeve-only control, such as switching the spider hook foot to lasso position for a lasso sweep, or pulling the sleeve grip to create an armbar or triangle entry. Do not attempt the Tripod Sweep without a pulling grip on the upper body.",
+        "answer_line": "Re-grip collar before sweeping",
+        "distractors": {
+          "plausible": [
+            "Force sweep off sleeve grip alone",
+            "Switch straight to Sickle Sweep"
+          ],
+          "trap": [
+            "Attempt sweep with no upper grip"
+          ]
+        }
       },
       {
         "question": "You initiate the Tripod Sweep and your opponent steps their far leg backward out of ankle grip range - what is your immediate tactical response?",

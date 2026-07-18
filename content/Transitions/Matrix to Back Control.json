@@ -251,35 +251,115 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that your opponent is setting up a Matrix rotation from bottom?",
-        "answer": "The earliest indicators are hip elevation above normal turtle level, shoulder posting where one shoulder drives into the mat as a pivot point, and grip changes as they establish connection points on your belt, pants, or legs. Weight shifting to one side signals the rotation direction. Recognizing these micro-movements provides the critical one-to-two second window needed to decide between sprawl defense and follow-through counter."
+        "answer": "The earliest indicators are hip elevation above normal turtle level, shoulder posting where one shoulder drives into the mat as a pivot point, and grip changes as they establish connection points on your belt, pants, or legs. Weight shifting to one side signals the rotation direction. Recognizing these micro-movements provides the critical one-to-two second window needed to decide between sprawl defense and follow-through counter.",
+        "answer_line": "Hip elevation, shoulder post, grips",
+        "distractors": {
+          "plausible": [
+            "Opponent squares hips to you",
+            "Sudden burst of forward pressure"
+          ],
+          "trap": [
+            "Heavy downward pressure only"
+          ]
+        }
       },
       {
         "question": "Why is following the rotation more effective than resisting it when the Matrix entry is fully committed?",
-        "answer": "Once the Matrix rotation has sufficient momentum, resisting directly often fails because the rotational force is designed to overcome static resistance. Following the rotation uses the opponent's own momentum to deliver you to their back, converting their offensive energy into your positional advantage. Resistance keeps you in front of them, while following places you behind them. The opponent's commitment to the roll means their back is necessarily exposed during the inversion phase."
+        "answer": "Once the Matrix rotation has sufficient momentum, resisting directly often fails because the rotational force is designed to overcome static resistance. Following the rotation uses the opponent's own momentum to deliver you to their back, converting their offensive energy into your positional advantage. Resistance keeps you in front of them, while following places you behind them. The opponent's commitment to the roll means their back is necessarily exposed during the inversion phase.",
+        "answer_line": "Momentum delivers you to their back",
+        "distractors": {
+          "plausible": [
+            "Resisting stops their rotation",
+            "Following requires less energy"
+          ],
+          "trap": [
+            "Sprawling hard always stops it"
+          ]
+        }
       },
       {
         "question": "At what point during the opponent's Matrix rotation must you begin inserting your first hook?",
-        "answer": "Begin threading the first hook as soon as the opponent's hips pass their centerline and their back becomes exposed during the inversion phase. This occurs while they are still mid-rotation and inverted, before they complete the roll and can establish defensive structure. Waiting until after the rotation completes gives them time to tuck elbows, block hook entry, and begin turning to face you, dramatically reducing success rate."
+        "answer": "Begin threading the first hook as soon as the opponent's hips pass their centerline and their back becomes exposed during the inversion phase. This occurs while they are still mid-rotation and inverted, before they complete the roll and can establish defensive structure. Waiting until after the rotation completes gives them time to tuck elbows, block hook entry, and begin turning to face you, dramatically reducing success rate.",
+        "answer_line": "When hips pass center, back exposed",
+        "distractors": {
+          "plausible": [
+            "After the roll fully completes",
+            "As soon as grips change"
+          ],
+          "trap": [
+            "Wait until they turn to face you"
+          ]
+        }
       },
       {
         "question": "Your opponent starts a Matrix roll but you hesitate between sprawling and following - what is the consequence?",
-        "answer": "Hesitation is the worst possible outcome because you end up with neither a strong defensive base nor a committed follow-through. Your weight is uncommitted and your position is transitional, making you vulnerable to the Matrix completing successfully, to being off-balanced if the opponent aborts and attacks, or to ending up in an awkward scramble where neither player has positional advantage. The decision must be immediate and fully committed."
+        "answer": "Hesitation is the worst possible outcome because you end up with neither a strong defensive base nor a committed follow-through. Your weight is uncommitted and your position is transitional, making you vulnerable to the Matrix completing successfully, to being off-balanced if the opponent aborts and attacks, or to ending up in an awkward scramble where neither player has positional advantage. The decision must be immediate and fully committed.",
+        "answer_line": "Uncommitted, vulnerable to scramble",
+        "distractors": {
+          "plausible": [
+            "Safe neutral holding pattern",
+            "Guaranteed to stop the Matrix"
+          ],
+          "trap": [
+            "Better than committing either way"
+          ]
+        }
       },
       {
         "question": "How do you maintain chest-to-back contact during a fast Matrix rotation without being pulled over the opponent?",
-        "answer": "Lead with your hips rather than your head and shoulders during the follow. Your center of gravity stays controlled through core engagement while your chest drives forward into their back. Keep your arms ready to post if you begin to go over. The key is controlled forward pressure rather than diving or lunging. Your hip connection provides the anchor that prevents you from being pulled over while your chest maintains the contact that prevents separation."
+        "answer": "Lead with your hips rather than your head and shoulders during the follow. Your center of gravity stays controlled through core engagement while your chest drives forward into their back. Keep your arms ready to post if you begin to go over. The key is controlled forward pressure rather than diving or lunging. Your hip connection provides the anchor that prevents you from being pulled over while your chest maintains the contact that prevents separation.",
+        "answer_line": "Lead with hips, drive chest forward",
+        "distractors": {
+          "plausible": [
+            "Lead with head and shoulders",
+            "Dive and lunge for contact"
+          ],
+          "trap": [
+            "Grip their far arm and pull"
+          ]
+        }
       },
       {
         "question": "Your opponent aborts their Matrix mid-rotation after sensing your follow - what do you do?",
-        "answer": "Immediately transition to conventional turtle top attacks since their aborted rotation typically leaves them in a compromised turtle position with weakened base and disrupted grips. Options include establishing seatbelt from standard turtle top, transitioning to front headlock if their head is exposed, or attacking with darce or anaconda chokes if their arm positioning allows. Do not continue the follow-through motion if the rotation has stopped, as you will arrive at empty space."
+        "answer": "Immediately transition to conventional turtle top attacks since their aborted rotation typically leaves them in a compromised turtle position with weakened base and disrupted grips. Options include establishing seatbelt from standard turtle top, transitioning to front headlock if their head is exposed, or attacking with darce or anaconda chokes if their arm positioning allows. Do not continue the follow-through motion if the rotation has stopped, as you will arrive at empty space.",
+        "answer_line": "Attack their compromised turtle",
+        "distractors": {
+          "plausible": [
+            "Keep chasing the original arc",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Continue the follow-through motion"
+          ]
+        }
       },
       {
         "question": "What grip or connection point is most important to maintain throughout the follow-through?",
-        "answer": "Hip-to-hip contact or a belt grip is the most critical connection point because it keeps you physically attached to the opponent's rotational path. Without this connection, your follow-through happens independently of their position, meaning you arrive behind them without actual contact or control. The hip connection ensures that as they rotate, your body follows the same arc and arrives directly against their back rather than offset to one side."
+        "answer": "Hip-to-hip contact or a belt grip is the most critical connection point because it keeps you physically attached to the opponent's rotational path. Without this connection, your follow-through happens independently of their position, meaning you arrive behind them without actual contact or control. The hip connection ensures that as they rotate, your body follows the same arc and arrives directly against their back rather than offset to one side.",
+        "answer_line": "Hip-to-hip or belt grip contact",
+        "distractors": {
+          "plausible": [
+            "Overhook on their far arm",
+            "Collar grip for control"
+          ],
+          "trap": [
+            "Let go to sprint around faster"
+          ]
+        }
       },
       {
         "question": "If the follow-through succeeds but you only get one hook in, what should you prioritize next?",
-        "answer": "Prioritize establishing the seatbelt grip before inserting the second hook. Upper body control through the seatbelt prevents the opponent from turning to face you and provides structural stability that makes the second hook insertion much easier. With seatbelt control and one hook, you have sufficient control to methodically work the second hook in. Attempting the second hook without upper body control often results in the opponent turning into you and escaping to guard."
+        "answer": "Prioritize establishing the seatbelt grip before inserting the second hook. Upper body control through the seatbelt prevents the opponent from turning to face you and provides structural stability that makes the second hook insertion much easier. With seatbelt control and one hook, you have sufficient control to methodically work the second hook in. Attempting the second hook without upper body control often results in the opponent turning into you and escaping to guard.",
+        "answer_line": "Get seatbelt before the second hook",
+        "distractors": {
+          "plausible": [
+            "Force the second hook immediately",
+            "Switch to a body triangle first"
+          ],
+          "trap": [
+            "Release the hook to reset grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves dynamic rotational movement where both practitioners are in motion simultaneously. Maintain awareness of surrounding mat space to avoid collisions with other training partners. When following the rotation, control your forward momentum to prevent driving your opponent's face or neck into the mat. During training, reduce speed until both partners are comfortable with the timing and movement pattern. Avoid cranking the neck or applying excessive downward pressure during the follow-through phase. Communicate with your training partner about intensity level before drilling.",
@@ -397,7 +477,17 @@
     "flashcards": [
       {
         "question": "What is the primary tactile cue that distinguishes a follow-through counter from a standard sprawl defense?",
-        "answer": "In a sprawl defense, you feel the opponent's weight pushing downward and backward against your rotation, creating resistance that your momentum must overcome. In a follow-through counter, you feel the opponent's chest staying connected and their weight moving with your rotation in the same direction. The absence of resistance is the key indicator: the opponent feels light and connected rather than heavy and opposing. This distinction must be recognized within the first quarter of the rotation."
+        "answer": "In a sprawl defense, you feel the opponent's weight pushing downward and backward against your rotation, creating resistance that your momentum must overcome. In a follow-through counter, you feel the opponent's chest staying connected and their weight moving with your rotation in the same direction. The absence of resistance is the key indicator: the opponent feels light and connected rather than heavy and opposing. This distinction must be recognized within the first quarter of the rotation.",
+        "answer_line": "Opponent feels light and connected",
+        "distractors": {
+          "plausible": [
+            "Heavy downward resisting pressure",
+            "Fast rotation speed increases"
+          ],
+          "trap": [
+            "Any resistance means follow safely"
+          ]
+        }
       },
       {
         "question": "Why is aborting the Matrix and accepting a reset position preferable to completing it against a following opponent?",
@@ -405,11 +495,31 @@
       },
       {
         "question": "Your opponent follows your Matrix rotation and you feel them arriving at your back mid-roll - what is your immediate priority?",
-        "answer": "Your immediate priority is preventing hook insertion by pinching your elbows tight to your body and drawing your knees toward your chest. This defensive posture creates barriers to both hook entry and seatbelt establishment. Simultaneously, redirect any remaining rotational momentum toward pulling your knees through to establish guard rather than continuing the back take path. Accepting half guard is far preferable to conceding full back control with hooks."
+        "answer": "Your immediate priority is preventing hook insertion by pinching your elbows tight to your body and drawing your knees toward your chest. This defensive posture creates barriers to both hook entry and seatbelt establishment. Simultaneously, redirect any remaining rotational momentum toward pulling your knees through to establish guard rather than continuing the back take path. Accepting half guard is far preferable to conceding full back control with hooks.",
+        "answer_line": "Pinch elbows, knees in, block hooks",
+        "distractors": {
+          "plausible": [
+            "Keep rotating to complete Matrix",
+            "Post hands to stop the roll"
+          ],
+          "trap": [
+            "Relax and accept the back take"
+          ]
+        }
       },
       {
         "question": "How should you modify your Matrix game once you know your opponent has the follow-through counter?",
-        "answer": "Vary your Matrix timing and entry angle to prevent the opponent from anticipating the rotation. Develop feints where you show Matrix indicators but transition to alternative attacks like arm drags or conventional rolling back takes. Mix Matrix attempts with techniques from the same starting position to make the entry unpredictable. The follow-through counter requires the opponent to commit to following, so false Matrix entries can create openings for other attacks when they commit to the follow."
+        "answer": "Vary your Matrix timing and entry angle to prevent the opponent from anticipating the rotation. Develop feints where you show Matrix indicators but transition to alternative attacks like arm drags or conventional rolling back takes. Mix Matrix attempts with techniques from the same starting position to make the entry unpredictable. The follow-through counter requires the opponent to commit to following, so false Matrix entries can create openings for other attacks when they commit to the follow.",
+        "answer_line": "Vary timing, mix in false entries",
+        "distractors": {
+          "plausible": [
+            "Always commit to full Matrix",
+            "Switch position entirely for good"
+          ],
+          "trap": [
+            "Rotate slower so they can't follow"
+          ]
+        }
       }
     ],
     "training_progressions": [

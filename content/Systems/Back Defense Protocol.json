@@ -353,15 +353,45 @@
   "flashcards": [
     {
       "question": "What is the first priority when defending against back control?",
-      "answer": "Chin protection — tuck your chin tight to your chest and bring both hands to defend the neck, denying the attacker space to insert a choking forearm. Survival always precedes any escape attempt."
+      "answer": "Chin protection — tuck your chin tight to your chest and bring both hands to defend the neck, denying the attacker space to insert a choking forearm. Survival always precedes any escape attempt.",
+      "answer_line": "Tuck chin, hands defend neck",
+      "distractors": {
+        "plausible": [
+          "Strip the hooks immediately",
+          "Bridge explosively to escape"
+        ],
+        "trap": [
+          "Grab their choking arm first"
+        ]
+      }
     },
     {
       "question": "Why does the Back Defense Protocol work against all back attacks rather than against specific submissions?",
-      "answer": "Because it addresses the position itself — protecting the neck, building frames, and systematically clearing hooks — rather than reacting to any single submission, it neutralizes rear naked chokes, collar chokes, and arm attacks alike."
+      "answer": "Because it addresses the position itself — protecting the neck, building frames, and systematically clearing hooks — rather than reacting to any single submission, it neutralizes rear naked chokes, collar chokes, and arm attacks alike.",
+      "answer_line": "Defends the position, not one move",
+      "distractors": {
+        "plausible": [
+          "Counters chokes only, not locks",
+          "Memorize escape for each attack"
+        ],
+        "trap": [
+          "Wait to see which attack comes"
+        ]
+      }
     },
     {
       "question": "How should you respond when the opponent secures a body triangle?",
-      "answer": "First prioritize hand fighting to prevent the finish, then turn into the opponent and use your elbow to pry the ankle off your hip. Accept temporary stalling if needed to fatigue their triangle before resuming the escape."
+      "answer": "First prioritize hand fighting to prevent the finish, then turn into the opponent and use your elbow to pry the ankle off your hip. Accept temporary stalling if needed to fatigue their triangle before resuming the escape.",
+      "answer_line": "Turn in, pry ankle with elbow",
+      "distractors": {
+        "plausible": [
+          "Pry the triangle open first",
+          "Turn away to create space"
+        ],
+        "trap": [
+          "Let go of grips, grab the leg"
+        ]
+      }
     },
     {
       "question": "What frame prevents the opponent from flattening you out under back control?",
@@ -369,19 +399,59 @@
     },
     {
       "question": "In what order does the protocol sequence its defensive actions?",
-      "answer": "Protect the neck, fight the grips, establish frames, hip escape, remove the hooks, then recover guard or standing — each stage only begins once the previous threat has been fully neutralized."
+      "answer": "Protect the neck, fight the grips, establish frames, hip escape, remove the hooks, then recover guard or standing — each stage only begins once the previous threat has been fully neutralized.",
+      "answer_line": "Neck, grips, frames, escape, hooks",
+      "distractors": {
+        "plausible": [
+          "Hooks first, then neck safety",
+          "Frames first, then neck defense"
+        ],
+        "trap": [
+          "Escape hips before defending neck"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when escaping back control?",
-      "answer": "Exploding out with random athletic movement instead of using systematic technique, which burns energy without producing an effective escape and frequently opens new submission opportunities for the attacker."
+      "answer": "Exploding out with random athletic movement instead of using systematic technique, which burns energy without producing an effective escape and frequently opens new submission opportunities for the attacker.",
+      "answer_line": "Random explosive movement",
+      "distractors": {
+        "plausible": [
+          "Escaping too slowly",
+          "Focusing only on the hooks"
+        ],
+        "trap": [
+          "Bridging hard, early and often"
+        ]
+      }
     },
     {
       "question": "Why must you block the top hook while shrimping during the escape?",
-      "answer": "If you create space without simultaneously blocking re-entry, the opponent will immediately re-establish hooks. Using your inside arm to block the top hook and keeping your knee positioning tight prevents re-hooking as you escape."
+      "answer": "If you create space without simultaneously blocking re-entry, the opponent will immediately re-establish hooks. Using your inside arm to block the top hook and keeping your knee positioning tight prevents re-hooking as you escape.",
+      "answer_line": "Blocks re-entry with inside arm",
+      "distractors": {
+        "plausible": [
+          "Grip fight the top hand only",
+          "Shrimp fast, ignore the hook"
+        ],
+        "trap": [
+          "Strip the hook with both hands"
+        ]
+      }
     },
     {
       "question": "What positions can you recover to after clearing both hooks?",
-      "answer": "Closed guard if space allows, turtle if the opponent drives forward aggressively, or a technical standup and combat base if they create distance — the choice is dictated by the opponent's reaction during the escape."
+      "answer": "Closed guard if space allows, turtle if the opponent drives forward aggressively, or a technical standup and combat base if they create distance — the choice is dictated by the opponent's reaction during the escape.",
+      "answer_line": "Guard, turtle, or standup",
+      "distractors": {
+        "plausible": [
+          "Always stand up immediately",
+          "Always recover closed guard"
+        ],
+        "trap": [
+          "Turn belly-down and stay flat"
+        ]
+      }
     }
   ]
 }

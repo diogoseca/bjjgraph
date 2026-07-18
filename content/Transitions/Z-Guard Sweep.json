@@ -252,27 +252,87 @@
     "flashcards": [
       {
         "question": "Your opponent posts their far hand on the mat when you initiate the Z-Guard Sweep - how do you adjust?",
-        "answer": "Switch your far-side grip target from their collar or sleeve to their posting wrist or hand. Capture the posting arm and pull it across their body to remove the base that is preventing the sweep. Once the post is removed, reinitiate the knee shield extension and hip drive to complete the sweep. Alternatively, use their posting reaction as an opportunity to switch to an underhook entry since their far arm is occupied with posting."
+        "answer": "Switch your far-side grip target from their collar or sleeve to their posting wrist or hand. Capture the posting arm and pull it across their body to remove the base that is preventing the sweep. Once the post is removed, reinitiate the knee shield extension and hip drive to complete the sweep. Alternatively, use their posting reaction as an opportunity to switch to an underhook entry since their far arm is occupied with posting.",
+        "answer_line": "Grip posting wrist, pull across",
+        "distractors": {
+          "plausible": [
+            "Push knee shield through the post",
+            "Switch immediately to underhook"
+          ],
+          "trap": [
+            "Force the sweep despite the post"
+          ]
+        }
       },
       {
         "question": "What is the most critical body position that must be established before initiating the Z-Guard Sweep?",
-        "answer": "The hips must be angled at approximately 45 degrees with weight on the shoulder blade rather than flat on the back. This angle aligns the knee shield extension force with the optimal sweeping direction, creating lateral displacement rather than pushing straight up into the opponent's center of gravity. Without this angle, the extension simply creates distance rather than generating the rotational torque needed to topple the opponent."
+        "answer": "The hips must be angled at approximately 45 degrees with weight on the shoulder blade rather than flat on the back. This angle aligns the knee shield extension force with the optimal sweeping direction, creating lateral displacement rather than pushing straight up into the opponent's center of gravity. Without this angle, the extension simply creates distance rather than generating the rotational torque needed to topple the opponent.",
+        "answer_line": "Angle hips 45°, weight on shoulder",
+        "distractors": {
+          "plausible": [
+            "Flat back, push straight up",
+            "Square hips, grip collar first"
+          ],
+          "trap": [
+            "Stay flat, drive knee shield hard"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight and sprawls their hips when you extend the knee shield - what should you do?",
-        "answer": "Recognize that their low, sprawled posture has created space underneath them that is ideal for a deep half guard entry. Abandon the sweep attempt and dive underneath their hips using the existing frame to slide your body under theirs. The low posture that defends the sweep is precisely the body position that exposes them to deep half attacks. Alternatively, the sprawl may open an underhook opportunity since their arms are often occupied maintaining low posture."
+        "answer": "Recognize that their low, sprawled posture has created space underneath them that is ideal for a deep half guard entry. Abandon the sweep attempt and dive underneath their hips using the existing frame to slide your body under theirs. The low posture that defends the sweep is precisely the body position that exposes them to deep half attacks. Alternatively, the sprawl may open an underhook opportunity since their arms are often occupied maintaining low posture.",
+        "answer_line": "Dive under for deep half guard",
+        "distractors": {
+          "plausible": [
+            "Keep extending knee shield harder",
+            "Switch to underhook entry"
+          ],
+          "trap": [
+            "Push up into their sprawled hips"
+          ]
+        }
       },
       {
         "question": "What grip on the far side is most essential for preventing the opponent from stopping the Z-Guard Sweep?",
-        "answer": "The grip that controls the opponent's far-side posting ability is most critical. A deep cross-collar grip behind the neck provides the strongest pulling leverage, but a far-side sleeve grip or wrist control is equally effective for removing their posting ability. The specific grip matters less than the function it serves: preventing the opponent from placing their hand on the mat to resist the rotational force of the sweep."
+        "answer": "The grip that controls the opponent's far-side posting ability is most critical. A deep cross-collar grip behind the neck provides the strongest pulling leverage, but a far-side sleeve grip or wrist control is equally effective for removing their posting ability. The specific grip matters less than the function it serves: preventing the opponent from placing their hand on the mat to resist the rotational force of the sweep.",
+        "answer_line": "Grip that kills their far post",
+        "distractors": {
+          "plausible": [
+            "Deep cross-collar grip only",
+            "Underhook on far arm"
+          ],
+          "trap": [
+            "Grip their belt for control"
+          ]
+        }
       },
       {
         "question": "In what direction should the knee shield extend during the Z-Guard Sweep?",
-        "answer": "The knee shield should extend at an approximately 45-degree angle toward the opponent's far shoulder, not straight upward into their center of gravity. This diagonal extension direction creates lateral displacement that works with the far-side pulling grip to generate rotational torque. Pushing straight up allows the opponent to simply ride the extension and settle back down, while the angled push moves their weight across the centerline of their trapped leg where their base is weakest."
+        "answer": "The knee shield should extend at an approximately 45-degree angle toward the opponent's far shoulder, not straight upward into their center of gravity. This diagonal extension direction creates lateral displacement that works with the far-side pulling grip to generate rotational torque. Pushing straight up allows the opponent to simply ride the extension and settle back down, while the angled push moves their weight across the centerline of their trapped leg where their base is weakest.",
+        "answer_line": "45° toward their far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight up into their center",
+            "45° toward their near hip"
+          ],
+          "trap": [
+            "Drive knee shield into their hips"
+          ]
+        }
       },
       {
         "question": "You attempt the Z-Guard Sweep but your opponent begins backstep passing to avoid your knee shield angle - how do you respond?",
-        "answer": "Recognize the backstep as an offensive opportunity rather than a defensive problem. As the opponent circles around your knee shield, follow their rotation with your hips and use your far-side grip to pull yourself toward their back. Convert the backstep defense into a back take by climbing onto their back as they circle. Their rotational momentum actually assists your transition to back control. If the back take is not available, use the angle change to reinsert the knee shield and reset the sweep threat."
+        "answer": "Recognize the backstep as an offensive opportunity rather than a defensive problem. As the opponent circles around your knee shield, follow their rotation with your hips and use your far-side grip to pull yourself toward their back. Convert the backstep defense into a back take by climbing onto their back as they circle. Their rotational momentum actually assists your transition to back control. If the back take is not available, use the angle change to reinsert the knee shield and reset the sweep threat.",
+        "answer_line": "Follow rotation, take their back",
+        "distractors": {
+          "plausible": [
+            "Reinsert knee shield and reset",
+            "Chase with straight guard recovery"
+          ],
+          "trap": [
+            "Let go of grip and re-guard"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence of body movements during the Z-Guard Sweep execution?",
@@ -280,15 +340,45 @@
       },
       {
         "question": "Your knee shield is partially collapsed but you still have the far-side collar grip - should you continue the sweep attempt?",
-        "answer": "No, do not continue the sweep from a compromised knee shield position. The collapsed knee shield eliminates the primary lever that generates sweeping force. Instead, use the far-side collar grip for a different purpose: either pull yourself into a deep half guard entry underneath the opponent, use the grip to maintain distance while re-establishing the knee shield through hip escape, or convert the grip into a collar drag to create a different off-balancing opportunity. Forcing a sweep without the mechanical advantage of the knee shield wastes energy and exposes you to being flattened."
+        "answer": "No, do not continue the sweep from a compromised knee shield position. The collapsed knee shield eliminates the primary lever that generates sweeping force. Instead, use the far-side collar grip for a different purpose: either pull yourself into a deep half guard entry underneath the opponent, use the grip to maintain distance while re-establishing the knee shield through hip escape, or convert the grip into a collar drag to create a different off-balancing opportunity. Forcing a sweep without the mechanical advantage of the knee shield wastes energy and exposes you to being flattened.",
+        "answer_line": "Abandon sweep, shift to deep half",
+        "distractors": {
+          "plausible": [
+            "Force sweep using collar grip",
+            "Re-shrimp to reset knee shield"
+          ],
+          "trap": [
+            "Push through, drive hips upward"
+          ]
+        }
       },
       {
         "question": "When during the opponent's pressure cycle is the optimal timing window for initiating the Z-Guard Sweep?",
-        "answer": "The optimal timing window is at the peak of the opponent's forward pressure commitment, when their weight is maximally loaded into the knee shield. At this moment, their center of gravity is forward of their base, making them most vulnerable to rotational displacement. Initiating too early (before they commit forward) means fighting their base directly, while initiating too late (after they settle and widen base) means they have already stabilized. The sweet spot is when you feel their chest weight driving into your knee shield as they attempt to collapse it."
+        "answer": "The optimal timing window is at the peak of the opponent's forward pressure commitment, when their weight is maximally loaded into the knee shield. At this moment, their center of gravity is forward of their base, making them most vulnerable to rotational displacement. Initiating too early (before they commit forward) means fighting their base directly, while initiating too late (after they settle and widen base) means they have already stabilized. The sweet spot is when you feel their chest weight driving into your knee shield as they attempt to collapse it.",
+        "answer_line": "Peak of their forward pressure",
+        "distractors": {
+          "plausible": [
+            "Before they commit forward",
+            "After they settle and widen base"
+          ],
+          "trap": [
+            "Whenever the grip feels secure"
+          ]
+        }
       },
       {
         "question": "How does the Z-Guard Sweep differ from the underhook-based Sweep from Z-Guard, and when should you choose one over the other?",
-        "answer": "The Z-Guard Sweep uses far-side collar or sleeve control with knee shield extension as the primary sweeping mechanism, while the Sweep from Z-Guard relies on a deep underhook combined with knee shield leverage to drive to mount. Choose the Z-Guard Sweep when the underhook battle is contested, when the opponent is defending the underhook with crossface or pummel, or when you have superior far-side grips established. Choose the underhook sweep when you have secured the deep underhook and the opponent's posture is elevated. The two sweeps complement each other by addressing different grip configurations from the same position."
+        "answer": "The Z-Guard Sweep uses far-side collar or sleeve control with knee shield extension as the primary sweeping mechanism, while the Sweep from Z-Guard relies on a deep underhook combined with knee shield leverage to drive to mount. Choose the Z-Guard Sweep when the underhook battle is contested, when the opponent is defending the underhook with crossface or pummel, or when you have superior far-side grips established. Choose the underhook sweep when you have secured the deep underhook and the opponent's posture is elevated. The two sweeps complement each other by addressing different grip configurations from the same position.",
+        "answer_line": "Grip sweep when underhook contested",
+        "distractors": {
+          "plausible": [
+            "Use underhook sweep if grip is weak",
+            "Always prefer the underhook version"
+          ],
+          "trap": [
+            "Fight underhook against crossface"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Z-Guard Sweep is a relatively low-risk technique with minimal joint stress on either player. The primary safety concern is controlled landing during sweep completion to avoid dropping weight suddenly onto the opponent. Practice the sweep with progressive resistance, ensuring the top player understands how to break-fall when swept. The bottom player should avoid hyperextending their own knee during explosive knee shield extension, particularly when the opponent's full weight is loaded onto the shin. Communication between training partners about intensity level prevents unexpected sweep completions that could result in impact injuries.",
@@ -406,19 +496,59 @@
     "flashcards": [
       {
         "question": "You feel the bottom player beginning to extend their knee shield forcefully while pulling your collar - what is your immediate response?",
-        "answer": "Immediately strip the collar grip with a two-on-one grip break, pulling their hand away from your collar while simultaneously dropping your hips and widening your base. Address the pulling force first because the knee shield extension alone cannot generate sufficient rotational torque for the sweep. Once the grip is stripped, the sweep mechanism is neutralized and you can resume your passing strategy from a stable base position."
+        "answer": "Immediately strip the collar grip with a two-on-one grip break, pulling their hand away from your collar while simultaneously dropping your hips and widening your base. Address the pulling force first because the knee shield extension alone cannot generate sufficient rotational torque for the sweep. Once the grip is stripped, the sweep mechanism is neutralized and you can resume your passing strategy from a stable base position.",
+        "answer_line": "Strip the collar grip first",
+        "distractors": {
+          "plausible": [
+            "Widen base without stripping grip",
+            "Push down on the knee shield only"
+          ],
+          "trap": [
+            "Post hand and lean into the pull"
+          ]
+        }
       },
       {
         "question": "What is the most important grip to prevent the Z-Guard Sweep from being initiated?",
-        "answer": "Control the opponent's far-side arm to prevent them from establishing any pulling grip on your collar, sleeve, or wrist. Whether you use a wrist pin, sleeve grip, or crossface pressure that limits their reach, preventing the far-side connection eliminates the pulling force that creates the push-pull torque mechanism. Without this grip, the knee shield extension can only create distance, not rotational sweeping force."
+        "answer": "Control the opponent's far-side arm to prevent them from establishing any pulling grip on your collar, sleeve, or wrist. Whether you use a wrist pin, sleeve grip, or crossface pressure that limits their reach, preventing the far-side connection eliminates the pulling force that creates the push-pull torque mechanism. Without this grip, the knee shield extension can only create distance, not rotational sweeping force.",
+        "answer_line": "Control their far-side arm",
+        "distractors": {
+          "plausible": [
+            "Control their near-side arm",
+            "Grip their far ankle instead"
+          ],
+          "trap": [
+            "Let them grip while you posture up"
+          ]
+        }
       },
       {
         "question": "The bottom player has secured a deep collar grip and is coming up on their shoulder blade with an angled body position - what should you prioritize?",
-        "answer": "Prioritize stripping the collar grip immediately since the angled body position combined with the deep grip indicates the sweep is being loaded. Use a two-on-one grip break, pushing their gripping hand toward their own chest to break the collar hold. Simultaneously drop your hip weight directly onto their angled hips to eliminate the space they need for the lateral hip drive. If you cannot strip the grip quickly, post your far hand on the mat as an emergency brace while driving your crossface pressure to flatten them out of the angle."
+        "answer": "Prioritize stripping the collar grip immediately since the angled body position combined with the deep grip indicates the sweep is being loaded. Use a two-on-one grip break, pushing their gripping hand toward their own chest to break the collar hold. Simultaneously drop your hip weight directly onto their angled hips to eliminate the space they need for the lateral hip drive. If you cannot strip the grip quickly, post your far hand on the mat as an emergency brace while driving your crossface pressure to flatten them out of the angle.",
+        "answer_line": "Strip grip, flatten their hip angle",
+        "distractors": {
+          "plausible": [
+            "Posture up high immediately",
+            "Push their knee shield down only"
+          ],
+          "trap": [
+            "Pull away creating scramble space"
+          ]
+        }
       },
       {
         "question": "How can you convert a failed Z-Guard Sweep attempt into a passing opportunity?",
-        "answer": "When the opponent commits to the sweep but fails due to your defensive response, their knee shield is often partially extended and their grips are broken or weakened. This is the optimal moment to initiate a pass because their primary defensive structure is compromised. Drive forward with crossface pressure to collapse the weakened knee shield, sliding your knee through the gap created by their extension. The failed sweep creates precisely the opening that the Z-Guard normally prevents. Follow through aggressively to side control before they can re-establish the knee shield frame."
+        "answer": "When the opponent commits to the sweep but fails due to your defensive response, their knee shield is often partially extended and their grips are broken or weakened. This is the optimal moment to initiate a pass because their primary defensive structure is compromised. Drive forward with crossface pressure to collapse the weakened knee shield, sliding your knee through the gap created by their extension. The failed sweep creates precisely the opening that the Z-Guard normally prevents. Follow through aggressively to side control before they can re-establish the knee shield frame.",
+        "answer_line": "Crossface, collapse shield, pass",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset guard",
+            "Retreat to re-establish base"
+          ],
+          "trap": [
+            "Back away to reset distance"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -258,35 +258,115 @@
     "flashcards": [
       {
         "question": "What is the primary direction of rotation during the backstep pass and why?",
-        "answer": "You rotate away from the lasso side by stepping your free leg behind you. The rotation goes toward the side of your free arm, which removes the perpendicular angle that gives the lasso its control. Rotating toward the lasso would tighten the entanglement further, making the position worse."
+        "answer": "You rotate away from the lasso side by stepping your free leg behind you. The rotation goes toward the side of your free arm, which removes the perpendicular angle that gives the lasso its control. Rotating toward the lasso would tighten the entanglement further, making the position worse.",
+        "answer_line": "Rotate away from the lasso side",
+        "distractors": {
+          "plausible": [
+            "Rotate toward the lasso side",
+            "Stay square, don't rotate yet"
+          ],
+          "trap": [
+            "Spin hard toward the lasso leg"
+          ]
+        }
       },
       {
         "question": "Why is reducing sleeve grip tension critical before initiating the backstep?",
-        "answer": "If the opponent maintains full sleeve grip tension, the backstep rotation will tighten the lasso rather than freeing your arm. Even partial grip reduction allows the arm to slide free during rotation. Without addressing the grip first, the backstep can actually worsen your positional disadvantage significantly."
+        "answer": "If the opponent maintains full sleeve grip tension, the backstep rotation will tighten the lasso rather than freeing your arm. Even partial grip reduction allows the arm to slide free during rotation. Without addressing the grip first, the backstep can actually worsen your positional disadvantage significantly.",
+        "answer_line": "Break grip tension first",
+        "distractors": {
+          "plausible": [
+            "Break the leg hook first",
+            "Wait for opponent to release"
+          ],
+          "trap": [
+            "Backstep hard regardless of grip"
+          ]
+        }
       },
       {
         "question": "Your opponent extends their lasso leg fully as you begin to backstep—how do you adjust?",
-        "answer": "A fully extended lasso creates maximum leverage but also maximum commitment from the guard player. Use this against them by accelerating your backstep with an aggressive deep rotation that exploits their rigid leg position. Alternatively, push their extending knee inward to collapse the lasso structure before completing the backstep."
+        "answer": "A fully extended lasso creates maximum leverage but also maximum commitment from the guard player. Use this against them by accelerating your backstep with an aggressive deep rotation that exploits their rigid leg position. Alternatively, push their extending knee inward to collapse the lasso structure before completing the backstep.",
+        "answer_line": "Push the knee inward to collapse",
+        "distractors": {
+          "plausible": [
+            "Slow down and wait it out",
+            "Pull the leg straight to break it"
+          ],
+          "trap": [
+            "Retreat and reset the pass"
+          ]
+        }
       },
       {
         "question": "What role does the non-lasso leg play in defending against the backstep, and how do you neutralize it?",
-        "answer": "The non-lasso leg can follow your backstep rotation to establish a De La Riva hook, post on your hip to maintain distance, or create butterfly hooks for reguarding. Control it at the knee or ankle with your free hand before initiating the backstep to eliminate these defensive options and clear the rotation path."
+        "answer": "The non-lasso leg can follow your backstep rotation to establish a De La Riva hook, post on your hip to maintain distance, or create butterfly hooks for reguarding. Control it at the knee or ankle with your free hand before initiating the backstep to eliminate these defensive options and clear the rotation path.",
+        "answer_line": "Pin the free knee before stepping",
+        "distractors": {
+          "plausible": [
+            "Ignore it, focus on lasso leg",
+            "Push it away after backstep begins"
+          ],
+          "trap": [
+            "Let it hook DLR, pass around"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the backstep pass?",
-        "answer": "The optimal window opens when the opponent adjusts their lasso grip, reaches for a secondary grip like a collar, or shifts their hips to set up a sweep. These moments create brief lapses in lasso tension and attention that allow the backstep to succeed before they can re-establish full control and defensive readiness."
+        "answer": "The optimal window opens when the opponent adjusts their lasso grip, reaches for a secondary grip like a collar, or shifts their hips to set up a sweep. These moments create brief lapses in lasso tension and attention that allow the backstep to succeed before they can re-establish full control and defensive readiness.",
+        "answer_line": "During opponent's grip adjustment",
+        "distractors": {
+          "plausible": [
+            "Immediately at guard formation",
+            "After opponent fully commits weight"
+          ],
+          "trap": [
+            "Anytime, timing doesn't matter"
+          ]
+        }
       },
       {
         "question": "Your backstep clears the lasso but the opponent immediately shoots their hips to recover guard—what do you do?",
-        "answer": "Immediately drop your weight and drive crossface pressure to pin them to the mat. Do not pause or attempt to stand after clearing the arm. The transition from arm clearance to consolidated side control pressure must be seamless—any hesitation gives the opponent time to insert knee shields, reguard, or invert."
+        "answer": "Immediately drop your weight and drive crossface pressure to pin them to the mat. Do not pause or attempt to stand after clearing the arm. The transition from arm clearance to consolidated side control pressure must be seamless—any hesitation gives the opponent time to insert knee shields, reguard, or invert.",
+        "answer_line": "Drive crossface, no pause",
+        "distractors": {
+          "plausible": [
+            "Stand up to reset posture",
+            "Secure underhook before pressure"
+          ],
+          "trap": [
+            "Pause to check grips first"
+          ]
+        }
       },
       {
         "question": "What grip should your free hand establish during the backstep rotation?",
-        "answer": "Your free hand should control the opponent's pants at the knee on the non-lasso side throughout the backstep. This grip prevents reguarding and provides a steering mechanism during rotation. After the arm clears, transition this grip to an underhook or crossface as you consolidate into side control or headquarters position."
+        "answer": "Your free hand should control the opponent's pants at the knee on the non-lasso side throughout the backstep. This grip prevents reguarding and provides a steering mechanism during rotation. After the arm clears, transition this grip to an underhook or crossface as you consolidate into side control or headquarters position.",
+        "answer_line": "Grip pants at the far knee",
+        "distractors": {
+          "plausible": [
+            "Grip the far collar",
+            "Underhook immediately, skip pants"
+          ],
+          "trap": [
+            "Grab the lasso ankle directly"
+          ]
+        }
       },
       {
         "question": "If your backstep attempt fails and you end up back in lasso guard, what should your immediate strategy be?",
-        "answer": "Do not immediately reattempt the backstep—the opponent is now anticipating that direction. Instead, change levels or angles with a different passing approach such as a stack pass or knee cut to reset their defensive focus. Return to the backstep only after establishing a different threat that forces them to redistribute their attention and grip configuration."
+        "answer": "Do not immediately reattempt the backstep—the opponent is now anticipating that direction. Instead, change levels or angles with a different passing approach such as a stack pass or knee cut to reset their defensive focus. Return to the backstep only after establishing a different threat that forces them to redistribute their attention and grip configuration.",
+        "answer_line": "Switch angles, not backstep again",
+        "distractors": {
+          "plausible": [
+            "Immediately retry the backstep",
+            "Pause and reset grips only"
+          ],
+          "trap": [
+            "Force the backstep repeatedly"
+          ]
+        }
       }
     ],
     "safety_considerations": "The backstep pass is generally low-risk from a safety perspective, but the rotation can place stress on the trapped arm's shoulder joint if the opponent maintains a tight lasso grip during the turn. Never force the rotation against locked resistance—reduce the grip first. Partners should release the lasso immediately if the passer reports shoulder discomfort during the backstep rotation. Avoid explosive backstep attempts when warming up or training with less experienced partners who may not release grips smoothly.",
@@ -404,19 +484,59 @@
     "flashcards": [
       {
         "question": "What is the earliest visual cue that a backstep pass is being initiated from lasso guard?",
-        "answer": "The earliest cue is the passer repositioning their free foot and shifting weight onto the trapped-side leg. This weight shift precedes the actual backstep rotation and indicates the rotational direction. Recognizing this pre-movement allows you to tighten your sleeve grip and prepare your defensive hip movement before full rotation begins."
+        "answer": "The earliest cue is the passer repositioning their free foot and shifting weight onto the trapped-side leg. This weight shift precedes the actual backstep rotation and indicates the rotational direction. Recognizing this pre-movement allows you to tighten your sleeve grip and prepare your defensive hip movement before full rotation begins.",
+        "answer_line": "Weight shifts onto trapped leg",
+        "distractors": {
+          "plausible": [
+            "Hip escape begins first",
+            "Grip changes to the collar"
+          ],
+          "trap": [
+            "Full rotation is already underway"
+          ]
+        }
       },
       {
         "question": "Why is following the passer's rotation with your hips more effective than pulling them back with grips?",
-        "answer": "Pulling against the backstep direction fights the passer's momentum and overextends your arms, compromising structural frames. Following the rotation with hip movement maintains the perpendicular angle between your shin and their arm—the angle that gives the lasso its power. Hip movement preserves mechanical advantage while pulling creates a strength contest the top player typically wins."
+        "answer": "Pulling against the backstep direction fights the passer's momentum and overextends your arms, compromising structural frames. Following the rotation with hip movement maintains the perpendicular angle between your shin and their arm—the angle that gives the lasso its power. Hip movement preserves mechanical advantage while pulling creates a strength contest the top player typically wins.",
+        "answer_line": "Preserves the lasso's shin angle",
+        "distractors": {
+          "plausible": [
+            "Pulling regains grip strength",
+            "Both work equally well"
+          ],
+          "trap": [
+            "Pull hard against the rotation"
+          ]
+        }
       },
       {
         "question": "Your lasso has been cleared mid-backstep—what is your immediate defensive priority?",
-        "answer": "Immediately abandon lasso recovery and establish an alternative guard. Priority is hip escape and knee insertion to create a barrier against the passer's consolidation attempt. Butterfly guard, De La Riva, or closed guard are all viable transitions depending on distance and the passer's position after the backstep clears your control."
+        "answer": "Immediately abandon lasso recovery and establish an alternative guard. Priority is hip escape and knee insertion to create a barrier against the passer's consolidation attempt. Butterfly guard, De La Riva, or closed guard are all viable transitions depending on distance and the passer's position after the backstep clears your control.",
+        "answer_line": "Hip escape, insert the knee",
+        "distractors": {
+          "plausible": [
+            "Fight to regrip the lasso",
+            "Turtle up to defend"
+          ],
+          "trap": [
+            "Chase the lost lasso grip"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt an inversion back take during the backstep?",
-        "answer": "The peak vulnerability occurs during the mid-rotation phase when the passer's weight is transitioning between their two feet and their back becomes partially exposed as they rotate away. Inverting at this moment catches the passer mid-turn before they can consolidate. Attempting too early meets their stable base, and too late encounters their settled post-pass side control position."
+        "answer": "The peak vulnerability occurs during the mid-rotation phase when the passer's weight is transitioning between their two feet and their back becomes partially exposed as they rotate away. Inverting at this moment catches the passer mid-turn before they can consolidate. Attempting too early meets their stable base, and too late encounters their settled post-pass side control position.",
+        "answer_line": "Mid-rotation, weight transitioning",
+        "distractors": {
+          "plausible": [
+            "Right as backstep begins",
+            "After they settle side control"
+          ],
+          "trap": [
+            "The instant lasso grip breaks"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -105,35 +105,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts to hip escape and turn to their side during your quarter guard top—what adjustment do you make?",
-        "answer": "Immediately increase crossface pressure by driving your shoulder into their jaw and far cheek to flatten them back down. Simultaneously walk your hips toward their head to cut off the angle they're creating. If they continue turning despite pressure, recognize this as a back take opportunity rather than forcing the pass—follow their rotation and transition to back control since their movement has exposed their back."
+        "answer": "Immediately increase crossface pressure by driving your shoulder into their jaw and far cheek to flatten them back down. Simultaneously walk your hips toward their head to cut off the angle they're creating. If they continue turning despite pressure, recognize this as a back take opportunity rather than forcing the pass—follow their rotation and transition to back control since their movement has exposed their back.",
+        "answer_line": "Crossface hard, follow to back take",
+        "distractors": {
+          "plausible": [
+            "Flatten harder, force the pass",
+            "Stand up to reset base"
+          ],
+          "trap": [
+            "Release crossface, chase legs"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and control points for maintaining quarter guard top position?",
-        "answer": "The primary control points are crossface pressure with your shoulder against their far cheek or jaw, far hip control with your hand preventing rotation, and chest-to-chest connection distributing weight through their upper body. Secondary controls include near-side arm pinning to prevent frames and knee positioning past their hip line to block guard recovery. The crossface is the most critical—without it, all other controls become less effective."
+        "answer": "The primary control points are crossface pressure with your shoulder against their far cheek or jaw, far hip control with your hand preventing rotation, and chest-to-chest connection distributing weight through their upper body. Secondary controls include near-side arm pinning to prevent frames and knee positioning past their hip line to block guard recovery. The crossface is the most critical—without it, all other controls become less effective.",
+        "answer_line": "Crossface + far hip control",
+        "distractors": {
+          "plausible": [
+            "Underhook + chest pressure",
+            "Knee on belly control"
+          ],
+          "trap": [
+            "Grab both legs, ignore upper body"
+          ]
+        }
       },
       {
         "question": "How do you shut down the bottom player's primary escape of recovering knee shield half guard?",
-        "answer": "Prevent knee shield recovery by maintaining forward hip pressure that closes the space needed for knee insertion, controlling their near-side knee with your hand or shin pressure to push it toward the mat, and keeping your chest heavy on their upper body so they cannot create the angle needed for knee shield. If you feel them attempting to insert the knee, immediately slide your passing knee across faster to cut off the space before the shield can establish."
+        "answer": "Prevent knee shield recovery by maintaining forward hip pressure that closes the space needed for knee insertion, controlling their near-side knee with your hand or shin pressure to push it toward the mat, and keeping your chest heavy on their upper body so they cannot create the angle needed for knee shield. If you feel them attempting to insert the knee, immediately slide your passing knee across faster to cut off the space before the shield can establish.",
+        "answer_line": "Pin the knee, close hip space",
+        "distractors": {
+          "plausible": [
+            "Flatten with crossface only",
+            "Push their far shoulder down"
+          ],
+          "trap": [
+            "Back away to create space"
+          ]
+        }
       },
       {
         "question": "What is the correct weight distribution for maintaining quarter guard top while staying mobile for pass completion?",
-        "answer": "Distribute approximately seventy percent of your weight forward through your chest and shoulder into opponent's upper body, with thirty percent remaining on your base leg and posting hand for sweep defense. The weight should feel like controlled directional pressure toward their far shoulder rather than simply heavy downward pressure. Your hips should remain light and mobile, ready to slide across instantly when defensive structure breaks."
+        "answer": "Distribute approximately seventy percent of your weight forward through your chest and shoulder into opponent's upper body, with thirty percent remaining on your base leg and posting hand for sweep defense. The weight should feel like controlled directional pressure toward their far shoulder rather than simply heavy downward pressure. Your hips should remain light and mobile, ready to slide across instantly when defensive structure breaks.",
+        "answer_line": "70% forward chest, 30% base leg",
+        "distractors": {
+          "plausible": [
+            "50/50 balanced weight",
+            "100% weight straight down"
+          ],
+          "trap": [
+            "All weight on trail knee"
+          ]
+        }
       },
       {
         "question": "How do you apply crossface pressure effectively without gassing out during extended passing sequences?",
-        "answer": "Use skeletal structure rather than muscular effort by positioning your shoulder blade as the pressure point against their face, letting your body weight create the pressure rather than actively pushing. Keep your elbow tight to your ribs and drive through your legs and hips rather than your arms. The pressure should feel effortless to maintain—if you're getting tired from crossface, you're muscling it rather than using proper positioning and weight distribution."
+        "answer": "Use skeletal structure rather than muscular effort by positioning your shoulder blade as the pressure point against their face, letting your body weight create the pressure rather than actively pushing. Keep your elbow tight to your ribs and drive through your legs and hips rather than your arms. The pressure should feel effortless to maintain—if you're getting tired from crossface, you're muscling it rather than using proper positioning and weight distribution.",
+        "answer_line": "Use skeletal structure, not arms",
+        "distractors": {
+          "plausible": [
+            "Push hard with your bicep",
+            "Grip tighter, squeeze longer"
+          ],
+          "trap": [
+            "Muscle the crossface with your hand"
+          ]
+        }
       },
       {
         "question": "Your opponent creates an underhook on your near side while you're in quarter guard top—what immediate adjustments are needed?",
-        "answer": "When opponent establishes underhook, immediately increase downward pressure to prevent them from using it to come up to their side. You have two options: whizzer the underhook by overhooking their arm and driving your weight down while continuing the pass, or switch to underhook pass variation by accepting their underhook and using it as a control point while stepping around. Never ignore the underhook—it's their primary tool for sweeping or recovering guard."
+        "answer": "When opponent establishes underhook, immediately increase downward pressure to prevent them from using it to come up to their side. You have two options: whizzer the underhook by overhooking their arm and driving your weight down while continuing the pass, or switch to underhook pass variation by accepting their underhook and using it as a control point while stepping around. Never ignore the underhook—it's their primary tool for sweeping or recovering guard.",
+        "answer_line": "Whizzer it or pass around it",
+        "distractors": {
+          "plausible": [
+            "Ignore it, keep pushing pass",
+            "Pull it out immediately"
+          ],
+          "trap": [
+            "Let go of crossface to strip it"
+          ]
+        }
       },
       {
         "question": "How do you manage energy while maintaining pressure in quarter guard top to prevent fatigue during competition?",
-        "answer": "Energy management requires using your body weight and positioning rather than muscular effort. Let gravity do the work by positioning your chest at the correct angle where weight naturally transfers through opponent. Breathe steadily and avoid holding tension in muscles not actively engaged. Keep the position transitional—spending five to ten seconds maximum before completing pass. If you're fatiguing in quarter guard, you're either muscling or staying too long."
+        "answer": "Energy management requires using your body weight and positioning rather than muscular effort. Let gravity do the work by positioning your chest at the correct angle where weight naturally transfers through opponent. Breathe steadily and avoid holding tension in muscles not actively engaged. Keep the position transitional—spending five to ten seconds maximum before completing pass. If you're fatiguing in quarter guard, you're either muscling or staying too long.",
+        "answer_line": "Weight not muscle, pass fast",
+        "distractors": {
+          "plausible": [
+            "Hold position, wait it out",
+            "Squeeze tight, breathe hard"
+          ],
+          "trap": [
+            "Rest your weight, stall it out"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes your crossface and begins turning in—how do you recover control versus when do you follow to back take?",
-        "answer": "If they're less than forty-five degrees turned and you can re-establish crossface by driving your shoulder back across their face, recover the crossface and continue the original pass. If they've turned past forty-five degrees and your crossface has slipped to their shoulder or back, follow their momentum immediately to back control rather than trying to flatten them again. The decision point is whether your shoulder can contact their face—if yes, recover; if no, take the back."
+        "answer": "If they're less than forty-five degrees turned and you can re-establish crossface by driving your shoulder back across their face, recover the crossface and continue the original pass. If they've turned past forty-five degrees and your crossface has slipped to their shoulder or back, follow their momentum immediately to back control rather than trying to flatten them again. The decision point is whether your shoulder can contact their face—if yes, recover; if no, take the back.",
+        "answer_line": "Recover under 45°, else take back",
+        "distractors": {
+          "plausible": [
+            "Always re-flatten with crossface",
+            "Stand up and reset the pass"
+          ],
+          "trap": [
+            "Chase the far arm for kimura"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -492,35 +572,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts applying heavy crossface pressure to flatten you—what adjustment do you make to maintain position?",
-        "answer": "Immediately turn your head away from the crossface while driving your underhook elbow toward the ceiling to create space. Use your free leg to frame against their hip or post on the mat to prevent being flattened. Hip escape away from the pressure to create an angle that reduces the effectiveness of their crossface. If crossface becomes too dominant, transition immediately to deep half guard by getting underneath their weight rather than fighting the pressure directly."
+        "answer": "Immediately turn your head away from the crossface while driving your underhook elbow toward the ceiling to create space. Use your free leg to frame against their hip or post on the mat to prevent being flattened. Hip escape away from the pressure to create an angle that reduces the effectiveness of their crossface. If crossface becomes too dominant, transition immediately to deep half guard by getting underneath their weight rather than fighting the pressure directly.",
+        "answer_line": "Turn head, elbow up, hip escape",
+        "distractors": {
+          "plausible": [
+            "Push their head off with hand",
+            "Bridge and roll them over"
+          ],
+          "trap": [
+            "Turn into the crossface pressure"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and control points for surviving quarter guard bottom?",
-        "answer": "The underhook is absolutely essential—your forearm must be deeply connected to opponent's lat or armpit with elbow pointing toward ceiling. Secondary controls include free leg positioning as a frame or hook against their hip, your non-underhook hand blocking crossface attempts or controlling their posting arm, and hip angle maintenance at thirty to forty-five degrees off the mat. Without the underhook, you have no offensive options and will be passed within seconds."
+        "answer": "The underhook is absolutely essential—your forearm must be deeply connected to opponent's lat or armpit with elbow pointing toward ceiling. Secondary controls include free leg positioning as a frame or hook against their hip, your non-underhook hand blocking crossface attempts or controlling their posting arm, and hip angle maintenance at thirty to forty-five degrees off the mat. Without the underhook, you have no offensive options and will be passed within seconds.",
+        "answer_line": "Deep underhook, elbow to ceiling",
+        "distractors": {
+          "plausible": [
+            "Overhook their far arm",
+            "Grab both their collars"
+          ],
+          "trap": [
+            "Flatten out and turtle up"
+          ]
+        }
       },
       {
         "question": "How do you shut down the top player's primary attack of completing the pass to side control?",
-        "answer": "Prevent pass completion by maintaining hip mobility through constant angle adjustments away from the passing direction. Use your free leg to create frames against their chest or hip that prevent their weight from settling. Keep your underhook active by pulling their weight toward you rather than letting them drive through. If they flatten you completely, the pass is inevitable—staying on your side with active underhook is the key defensive principle."
+        "answer": "Prevent pass completion by maintaining hip mobility through constant angle adjustments away from the passing direction. Use your free leg to create frames against their chest or hip that prevent their weight from settling. Keep your underhook active by pulling their weight toward you rather than letting them drive through. If they flatten you completely, the pass is inevitable—staying on your side with active underhook is the key defensive principle.",
+        "answer_line": "Angle out, frame, keep underhook",
+        "distractors": {
+          "plausible": [
+            "Go flat and bridge hard",
+            "Push their hips straight back"
+          ],
+          "trap": [
+            "Drop underhook, frame both hands"
+          ]
+        }
       },
       {
         "question": "What is the priority order for grips when your underhook is being stripped by crossface pressure?",
-        "answer": "Priority order: First, fight to maintain underhook depth by turning into opponent and driving elbow toward ceiling. Second, if underhook is being stripped, immediately use that arm to frame against their neck to prevent crossface while hip escaping to recover angle. Third, use free leg to establish butterfly hook or knee shield as you fight for underhook recovery. Never go flat without either the underhook or a strong frame—being flat without controls means immediate pass completion."
+        "answer": "Priority order: First, fight to maintain underhook depth by turning into opponent and driving elbow toward ceiling. Second, if underhook is being stripped, immediately use that arm to frame against their neck to prevent crossface while hip escaping to recover angle. Third, use free leg to establish butterfly hook or knee shield as you fight for underhook recovery. Never go flat without either the underhook or a strong frame—being flat without controls means immediate pass completion.",
+        "answer_line": "Fight underhook, then frame neck",
+        "distractors": {
+          "plausible": [
+            "Grab their far pant leg first",
+            "Push off their hip immediately"
+          ],
+          "trap": [
+            "Go flat, wait for opportunity"
+          ]
+        }
       },
       {
         "question": "How do you apply offensive pressure from quarter guard bottom rather than just defending?",
-        "answer": "Offensive pressure comes from the underhook combined with hip movement. Pull opponent's weight onto you using the underhook while simultaneously hip escaping to create angles for sweeps. Attack immediately when they post their hand to base—this is the moment for old school sweep or back take. Use your free leg to off-balance by pushing against their hip in the opposite direction of your underhook pull. The threat of sweeps is what prevents them from committing fully to the pass."
+        "answer": "Offensive pressure comes from the underhook combined with hip movement. Pull opponent's weight onto you using the underhook while simultaneously hip escaping to create angles for sweeps. Attack immediately when they post their hand to base—this is the moment for old school sweep or back take. Use your free leg to off-balance by pushing against their hip in the opposite direction of your underhook pull. The threat of sweeps is what prevents them from committing fully to the pass.",
+        "answer_line": "Pull with underhook, attack the post",
+        "distractors": {
+          "plausible": [
+            "Push them away, create distance",
+            "Wait for them to overextend"
+          ],
+          "trap": [
+            "Release underhook to grab both legs"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near hand on the mat during passing pressure—what immediate opportunity does this create?",
-        "answer": "A posted hand creates a back take opportunity because their weight is distributed away from you and their back is exposed. Immediately use your underhook to start climbing toward their back while your free leg kicks through for the first hook. Alternatively, the posted hand removes their ability to prevent the old school sweep—drive into them with your underhook while using your free leg to elevate, and they cannot base without removing the post. Recognize posted hand as green light for immediate offensive action."
+        "answer": "A posted hand creates a back take opportunity because their weight is distributed away from you and their back is exposed. Immediately use your underhook to start climbing toward their back while your free leg kicks through for the first hook. Alternatively, the posted hand removes their ability to prevent the old school sweep—drive into them with your underhook while using your free leg to elevate, and they cannot base without removing the post. Recognize posted hand as green light for immediate offensive action.",
+        "answer_line": "Climb to back or sweep the post",
+        "distractors": {
+          "plausible": [
+            "Wait for a stronger grip first",
+            "Push their hand back to the mat"
+          ],
+          "trap": [
+            "Let go of underhook, grab the post"
+          ]
+        }
       },
       {
         "question": "How do you manage energy while defending quarter guard bottom under sustained pressure?",
-        "answer": "Energy management requires using frames and positioning rather than muscling against pressure. Let your skeletal structure absorb pressure through proper angles rather than fighting with strength. Time your explosive movements for when opponent commits weight or posts—don't fight continuously but rather create brief windows for sweeps. If you're getting exhausted, recognize that quarter guard is not sustainable and commit to either sweep, back take, or guard recovery within five seconds rather than extending the fight."
+        "answer": "Energy management requires using frames and positioning rather than muscling against pressure. Let your skeletal structure absorb pressure through proper angles rather than fighting with strength. Time your explosive movements for when opponent commits weight or posts—don't fight continuously but rather create brief windows for sweeps. If you're getting exhausted, recognize that quarter guard is not sustainable and commit to either sweep, back take, or guard recovery within five seconds rather than extending the fight.",
+        "answer_line": "Frame smart, explode on their post",
+        "distractors": {
+          "plausible": [
+            "Muscle out continuously",
+            "Stall and wait them out"
+          ],
+          "trap": [
+            "Hold static frame indefinitely"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped leg—how do you determine whether to fight for retention or transition to a different position?",
-        "answer": "If your underhook is deep and you still have hip angle, fight for retention by tightening your leg engagement and using underhook to prevent them from posturing away. If your underhook is compromised or you're flattened, don't waste energy on retention—immediately transition. Options include: deep half guard entry if their weight is forward, butterfly guard recovery using the free leg, or back take if they're turning away during extraction. The decision point is underhook quality—good underhook means fight, compromised underhook means transition immediately."
+        "answer": "If your underhook is deep and you still have hip angle, fight for retention by tightening your leg engagement and using underhook to prevent them from posturing away. If your underhook is compromised or you're flattened, don't waste energy on retention—immediately transition. Options include: deep half guard entry if their weight is forward, butterfly guard recovery using the free leg, or back take if they're turning away during extraction. The decision point is underhook quality—good underhook means fight, compromised underhook means transition immediately.",
+        "answer_line": "Underhook quality decides the switch",
+        "distractors": {
+          "plausible": [
+            "Always fight for retention",
+            "Always transition immediately"
+          ],
+          "trap": [
+            "Let leg go, stand straight up"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -797,35 +957,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration distinguishes quarter guard from full half guard?",
-      "answer": "Quarter guard exists when the bottom player has lost roughly three-quarters of their leg entanglement, retaining only minimal contact through a weakened knee shield, a partial butterfly hook without full insertion, or a quarter lockdown with reduced squeeze. The top player's hips have already advanced past the bottom player's hip centerline by roughly six inches, whereas in full half guard the passer's hips remain trapped behind that line. This produces an asymmetric roughly 3:1 control advantage for the top player instead of half guard's near-even entanglement. The reduced leg connection is the defining feature: enough to prevent an instant pass, but not enough to sustain the position statically."
+      "answer": "Quarter guard exists when the bottom player has lost roughly three-quarters of their leg entanglement, retaining only minimal contact through a weakened knee shield, a partial butterfly hook without full insertion, or a quarter lockdown with reduced squeeze. The top player's hips have already advanced past the bottom player's hip centerline by roughly six inches, whereas in full half guard the passer's hips remain trapped behind that line. This produces an asymmetric roughly 3:1 control advantage for the top player instead of half guard's near-even entanglement. The reduced leg connection is the defining feature: enough to prevent an instant pass, but not enough to sustain the position statically.",
+      "answer_line": "Passer's hips past the centerline",
+      "distractors": {
+        "plausible": [
+          "Full lockdown with deep hooks",
+          "Even leg entanglement both ways"
+        ],
+        "trap": [
+          "No leg contact at all remains"
+        ]
+      }
     },
     {
       "question": "Why is the underhook the pivotal control point that governs the entire position for both players?",
-      "answer": "The underhook is the single contested anchor around which quarter guard resolves: the player who owns it dictates whether the position becomes a sweep and back-take platform or a completed pass. For the bottom player it prevents the top player's shoulder pressure from flattening them and supplies the pulling leverage needed to off-balance. For the top player, stripping or neutralizing that underhook with crossface pressure is the prerequisite to consolidating side control. Because leg control is nearly gone, upper-body connection through the underhook substitutes for the leg engagement that would normally do this work in full half guard."
+      "answer": "The underhook is the single contested anchor around which quarter guard resolves: the player who owns it dictates whether the position becomes a sweep and back-take platform or a completed pass. For the bottom player it prevents the top player's shoulder pressure from flattening them and supplies the pulling leverage needed to off-balance. For the top player, stripping or neutralizing that underhook with crossface pressure is the prerequisite to consolidating side control. Because leg control is nearly gone, upper-body connection through the underhook substitutes for the leg engagement that would normally do this work in full half guard.",
+      "answer_line": "Underhook decides sweep vs pass",
+      "distractors": {
+        "plausible": [
+          "Leg entanglement decides outcome",
+          "Grip fighting on collar decides it"
+        ],
+        "trap": [
+          "Whoever postures up wins the fight"
+        ]
+      }
     },
     {
       "question": "What role does hip angle play in determining whether quarter guard progresses toward a pass or a sweep?",
-      "answer": "The bottom player must keep their hips and shoulders turned to roughly a thirty to forty-five degree angle off the mat, because that angle preserves the mobility required to generate sweeps and recover guard. The top player's countervailing goal is to flatten those hips to parallel with the mat, since a flattened bottom player loses all sweeping leverage and the pass becomes mechanical. This makes hip angle the central tug-of-war: every crossface, frame, and weight shift is ultimately a fight to either preserve or destroy that side angle. Whoever controls the hip line controls the outcome."
+      "answer": "The bottom player must keep their hips and shoulders turned to roughly a thirty to forty-five degree angle off the mat, because that angle preserves the mobility required to generate sweeps and recover guard. The top player's countervailing goal is to flatten those hips to parallel with the mat, since a flattened bottom player loses all sweeping leverage and the pass becomes mechanical. This makes hip angle the central tug-of-war: every crossface, frame, and weight shift is ultimately a fight to either preserve or destroy that side angle. Whoever controls the hip line controls the outcome.",
+      "answer_line": "30-45° angle preserves sweep threat",
+      "distractors": {
+        "plausible": [
+          "Flat hips generate more power",
+          "Angle only matters for guard pull"
+        ],
+        "trap": [
+          "Square hips up for stability"
+        ]
+      }
     },
     {
       "question": "From what situations does quarter guard typically arise, given that neither player deliberately settles there?",
-      "answer": "Quarter guard most often emerges when a bottom player attempting to retain half guard cannot fully stop the pass, so their leg entanglement erodes to a fraction of its normal engagement. It also appears mid-scramble as both players transition between positions and the leg connection momentarily thins to a single weak contact point. Less commonly it is entered deliberately from systematic half guard as a gateway to specific attacks like the old school sweep or electric chair. In every case it is a waypoint produced by degrading control rather than a structure either player builds and holds, which is why both sides treat arrival there as a trigger for immediate action."
+      "answer": "Quarter guard most often emerges when a bottom player attempting to retain half guard cannot fully stop the pass, so their leg entanglement erodes to a fraction of its normal engagement. It also appears mid-scramble as both players transition between positions and the leg connection momentarily thins to a single weak contact point. Less commonly it is entered deliberately from systematic half guard as a gateway to specific attacks like the old school sweep or electric chair. In every case it is a waypoint produced by degrading control rather than a structure either player builds and holds, which is why both sides treat arrival there as a trigger for immediate action.",
+      "answer_line": "Half guard erodes mid-scramble",
+      "distractors": {
+        "plausible": [
+          "Deliberately built from mount",
+          "Started fresh from standing"
+        ],
+        "trap": [
+          "Held deliberately as a stall"
+        ]
+      }
     },
     {
       "question": "Why is quarter guard considered inherently transitional rather than a sustainable holding position?",
-      "answer": "The near-total loss of leg entanglement means neither player can lock the position into stalemate, so it deteriorates within roughly five to ten seconds under competent pressure. The top player lacks the fixed leg control that lets half guard top settle, and the bottom player lacks the leg engagement that lets half guard bottom stall and rebuild. Consequently both players are forced into an immediate race: the passer toward pass completion, the bottom player toward a sweep, back take, or guard recovery. Static play by either side simply hands the initiative to the opponent, which is why the position functions as a decision point rather than a resting state."
+      "answer": "The near-total loss of leg entanglement means neither player can lock the position into stalemate, so it deteriorates within roughly five to ten seconds under competent pressure. The top player lacks the fixed leg control that lets half guard top settle, and the bottom player lacks the leg engagement that lets half guard bottom stall and rebuild. Consequently both players are forced into an immediate race: the passer toward pass completion, the bottom player toward a sweep, back take, or guard recovery. Static play by either side simply hands the initiative to the opponent, which is why the position functions as a decision point rather than a resting state.",
+      "answer_line": "No leg lock means no stalemate",
+      "distractors": {
+        "plausible": [
+          "Both players can rest here safely",
+          "Referee resets it after time"
+        ],
+        "trap": [
+          "Stall here to catch your breath"
+        ]
+      }
     },
     {
       "question": "What free-leg mechanics matter to both players while the position resolves?",
-      "answer": "The bottom player's non-trapped leg becomes a critical secondary tool, framing against the top player's hip or chest, replacing as a knee shield, or hooking to slow advancement and buy time for a sweep. The top player must simultaneously neutralize that free leg, either pinning the near knee toward the mat or sliding the passing knee across before a fresh shield can be inserted. Because the trapped leg offers so little control, this free leg often decides whether the bottom player regains a defensive structure or gets flattened. Both players therefore treat the free leg, not the minimally trapped leg, as the more consequential lower-body battleground."
+      "answer": "The bottom player's non-trapped leg becomes a critical secondary tool, framing against the top player's hip or chest, replacing as a knee shield, or hooking to slow advancement and buy time for a sweep. The top player must simultaneously neutralize that free leg, either pinning the near knee toward the mat or sliding the passing knee across before a fresh shield can be inserted. Because the trapped leg offers so little control, this free leg often decides whether the bottom player regains a defensive structure or gets flattened. Both players therefore treat the free leg, not the minimally trapped leg, as the more consequential lower-body battleground.",
+      "answer_line": "Free leg frames; top must pin it",
+      "distractors": {
+        "plausible": [
+          "Trapped leg controls the outcome",
+          "Free leg stays passive throughout"
+        ],
+        "trap": [
+          "Ignore the free leg, focus crossface"
+        ]
+      }
     },
     {
       "question": "How does quarter guard differ from deep half guard even though both can arise from the same passing exchange?",
-      "answer": "In deep half guard the bottom player has burrowed underneath the top player's hips and center of gravity, using that low position to threaten sweeps by attacking the base directly. In quarter guard the bottom player remains on the outside with the top player's weight already stacked over and past them, fighting to prevent being flattened rather than working from beneath. The control mechanism also differs: deep half relies on trapping a leg deep between the knees, while quarter guard relies on the underhook and hip angle with almost no leg control. Deep half is often a deliberate entry, whereas quarter guard is usually an unstable waypoint that a player passes through."
+      "answer": "In deep half guard the bottom player has burrowed underneath the top player's hips and center of gravity, using that low position to threaten sweeps by attacking the base directly. In quarter guard the bottom player remains on the outside with the top player's weight already stacked over and past them, fighting to prevent being flattened rather than working from beneath. The control mechanism also differs: deep half relies on trapping a leg deep between the knees, while quarter guard relies on the underhook and hip angle with almost no leg control. Deep half is often a deliberate entry, whereas quarter guard is usually an unstable waypoint that a player passes through.",
+      "answer_line": "Deep half is under; quarter outside",
+      "distractors": {
+        "plausible": [
+          "Both trap the leg equally deep",
+          "Quarter attacks base from below"
+        ],
+        "trap": [
+          "Burrow under like deep half guard"
+        ]
+      }
     },
     {
       "question": "What makes the near-side crossface such a decisive frame in quarter guard for both competitors?",
-      "answer": "The crossface, the top player's shoulder or upper arm pressing across the bottom player's jaw and far cheek, is the mechanism that rotates the bottom player's head and shoulders toward flat, directly attacking the hip angle that sustains the position. When it is established the bottom player cannot turn back in to recover the underhook or generate a sweep, which is why bottom-player defense centers on turning the head away and framing against the crossfacing arm before it settles. Establishing it is likewise the top player's prerequisite to committing weight into the final pass. The crossface is thus the specific upper-body frame that translates pressure into a flattened, passable opponent."
+      "answer": "The crossface, the top player's shoulder or upper arm pressing across the bottom player's jaw and far cheek, is the mechanism that rotates the bottom player's head and shoulders toward flat, directly attacking the hip angle that sustains the position. When it is established the bottom player cannot turn back in to recover the underhook or generate a sweep, which is why bottom-player defense centers on turning the head away and framing against the crossfacing arm before it settles. Establishing it is likewise the top player's prerequisite to committing weight into the final pass. The crossface is thus the specific upper-body frame that translates pressure into a flattened, passable opponent.",
+      "answer_line": "Crossface flattens hips for the pass",
+      "distractors": {
+        "plausible": [
+          "Underhook is the decisive frame",
+          "Free leg controls the outcome"
+        ],
+        "trap": [
+          "Ignore the crossface, chase legs"
+        ]
+      }
     }
   ],
   "clips": [

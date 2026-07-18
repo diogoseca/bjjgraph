@@ -251,43 +251,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Sweep from Zombie Guard?",
-        "answer": "The optimal timing is when the opponent commits their weight forward attempting to pass or establish crossface pressure. Their forward weight shift adds momentum to your sweep direction, reducing the force you need to generate. A secondary timing window opens when they attempt to extract their trapped leg from the lockdown, as the pulling motion temporarily compromises their base and creates space for your hip elevation."
+        "answer": "The optimal timing is when the opponent commits their weight forward attempting to pass or establish crossface pressure. Their forward weight shift adds momentum to your sweep direction, reducing the force you need to generate. A secondary timing window opens when they attempt to extract their trapped leg from the lockdown, as the pulling motion temporarily compromises their base and creates space for your hip elevation.",
+        "answer_line": "Opponent shifts weight forward",
+        "distractors": {
+          "plausible": [
+            "Immediately after entry is set",
+            "When opponent postures upright"
+          ],
+          "trap": [
+            "When they're flat and settled"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can attempt the sweep?",
-        "answer": "Four conditions must be met simultaneously: active lockdown with instep hooked behind the calf and thigh squeeze engaged, a deep underhook with chest-to-chest connection reaching the opponent's far lat, side positioning with your hips angled toward the opponent rather than flat on your back, and far-side hand controlling the opponent's upper body or posting for leverage. Attempting the sweep without any single condition dramatically reduces success probability."
+        "answer": "Four conditions must be met simultaneously: active lockdown with instep hooked behind the calf and thigh squeeze engaged, a deep underhook with chest-to-chest connection reaching the opponent's far lat, side positioning with your hips angled toward the opponent rather than flat on your back, and far-side hand controlling the opponent's upper body or posting for leverage. Attempting the sweep without any single condition dramatically reduces success probability.",
+        "answer_line": "Lockdown, deep underhook, hip angle",
+        "distractors": {
+          "plausible": [
+            "Lockdown and underhook only",
+            "Flat back with underhook set"
+          ],
+          "trap": [
+            "Underhook without lockdown first"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that determines whether the sweep succeeds or fails?",
-        "answer": "The coordination between lockdown stretch direction and underhook drive angle is the critical mechanical detail. The lockdown must stretch the opponent's leg laterally while the underhook drives forward and upward simultaneously. When these forces align correctly, they create a rotational moment the opponent cannot resist by posting. If either force is misaligned or mistimed, the opponent can absorb the sweep attempt through base adjustment alone."
+        "answer": "The coordination between lockdown stretch direction and underhook drive angle is the critical mechanical detail. The lockdown must stretch the opponent's leg laterally while the underhook drives forward and upward simultaneously. When these forces align correctly, they create a rotational moment the opponent cannot resist by posting. If either force is misaligned or mistimed, the opponent can absorb the sweep attempt through base adjustment alone.",
+        "answer_line": "Lockdown stretch + underhook sync",
+        "distractors": {
+          "plausible": [
+            "Underhook depth alone",
+            "Lockdown thigh squeeze intensity"
+          ],
+          "trap": [
+            "Explosive single bridge motion"
+          ]
+        }
       },
       {
         "question": "What are the three most common failure points when executing this sweep?",
-        "answer": "First, insufficient underhook depth which removes the rotational axis and allows the opponent to whizzer and flatten you back down. Second, attempting the sweep while flat on your back rather than on your side, which eliminates the hip angle needed for force generation. Third, poor timing when the opponent's weight is shifted away from the sweep direction, requiring maximum force against their strongest base alignment rather than catching them during a transition."
+        "answer": "First, insufficient underhook depth which removes the rotational axis and allows the opponent to whizzer and flatten you back down. Second, attempting the sweep while flat on your back rather than on your side, which eliminates the hip angle needed for force generation. Third, poor timing when the opponent's weight is shifted away from the sweep direction, requiring maximum force against their strongest base alignment rather than catching them during a transition.",
+        "answer_line": "Weak underhook, flat back, mistimed",
+        "distractors": {
+          "plausible": [
+            "Wrong grip on far arm",
+            "Lockdown squeeze too tight"
+          ],
+          "trap": [
+            "Sweeping off lockdown alone"
+          ]
+        }
       },
       {
         "question": "What grip requirements must be met for the sweep to achieve maximum effectiveness?",
-        "answer": "The primary grip is the underhook, which should be deep enough that your hand reaches the opponent's far lat or shoulder blade for maximum rotational leverage. The lockdown is the secondary grip requiring your instep hooked deep behind their calf with active thigh adductor engagement providing constant tension. Your far hand should control the opponent's far tricep to prevent posting, grip their collar for pulling leverage, or post on the mat for additional elevation force."
+        "answer": "The primary grip is the underhook, which should be deep enough that your hand reaches the opponent's far lat or shoulder blade for maximum rotational leverage. The lockdown is the secondary grip requiring your instep hooked deep behind their calf with active thigh adductor engagement providing constant tension. Your far hand should control the opponent's far tricep to prevent posting, grip their collar for pulling leverage, or post on the mat for additional elevation force.",
+        "answer_line": "Deep underhook to far lat",
+        "distractors": {
+          "plausible": [
+            "Lockdown grip is primary",
+            "Underhook grips near shoulder"
+          ],
+          "trap": [
+            "Grip only the pant leg"
+          ]
+        }
       },
       {
         "question": "In what direction should force be applied during the sweep execution?",
-        "answer": "Force should be applied in two coordinated vectors: the lockdown stretches the opponent's leg laterally away from your body, while the underhook and hip drive push diagonally forward and upward into the opponent's chest. The combined effect creates rotational force around the axis formed by your underhook contact point. Your bridge drives your hips toward the ceiling while your shoulder drives into their sternum, creating opposing moments that overcome their base."
+        "answer": "Force should be applied in two coordinated vectors: the lockdown stretches the opponent's leg laterally away from your body, while the underhook and hip drive push diagonally forward and upward into the opponent's chest. The combined effect creates rotational force around the axis formed by your underhook contact point. Your bridge drives your hips toward the ceiling while your shoulder drives into their sternum, creating opposing moments that overcome their base.",
+        "answer_line": "Stretch leg, drive underhook upward",
+        "distractors": {
+          "plausible": [
+            "Push straight up with bridge only",
+            "Pull opponent straight backward"
+          ],
+          "trap": [
+            "Drive straight down into mat"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat to resist the sweep - how do you adjust?",
-        "answer": "Redirect your far hand to attack their posting arm by either pulling it across your body or pushing their elbow inward to collapse the post. Alternatively, increase lockdown stretch intensity to pull their base further apart, making the single-hand post insufficient to maintain balance. If the post is too strong to overcome directly, transition to an Electric Chair attack by driving your hips upward while maintaining the lockdown, splitting their legs through the opening their wide post creates."
+        "answer": "Redirect your far hand to attack their posting arm by either pulling it across your body or pushing their elbow inward to collapse the post. Alternatively, increase lockdown stretch intensity to pull their base further apart, making the single-hand post insufficient to maintain balance. If the post is too strong to overcome directly, transition to an Electric Chair attack by driving your hips upward while maintaining the lockdown, splitting their legs through the opening their wide post creates.",
+        "answer_line": "Attack post; else Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Push harder against the post",
+            "Abandon sweep, reset guard"
+          ],
+          "trap": [
+            "Release lockdown to re-angle"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you pursue if the initial sweep attempt is blocked?",
-        "answer": "If blocked by heavy crossface, transition to Deep Half Guard entry by ducking under the opponent's chest. If blocked by whizzer, convert to an Old School Sweep variation or fight to re-establish the underhook through swimming motions. If blocked by wide base posting, transition to Electric Chair submission by elevating your hips and splitting the opponent's legs. The sweep threat creates openings for all these alternatives because the opponent cannot defend everything simultaneously."
+        "answer": "If blocked by heavy crossface, transition to Deep Half Guard entry by ducking under the opponent's chest. If blocked by whizzer, convert to an Old School Sweep variation or fight to re-establish the underhook through swimming motions. If blocked by wide base posting, transition to Electric Chair submission by elevating your hips and splitting the opponent's legs. The sweep threat creates openings for all these alternatives because the opponent cannot defend everything simultaneously.",
+        "answer_line": "Chain based on their block type",
+        "distractors": {
+          "plausible": [
+            "Always default to Old School Sweep",
+            "Repeat same sweep attempt"
+          ],
+          "trap": [
+            "Abandon underhook, switch base"
+          ]
+        }
       },
       {
         "question": "How should you adjust the sweep when facing a significantly heavier opponent?",
-        "answer": "Against heavier opponents, timing becomes paramount since you must catch them during weight transitions rather than trying to move their static mass. Increase the lockdown stretch duration to maximize base disruption before initiating the sweep. Use smaller incremental angle adjustments rather than attempting one explosive motion. The Whip-Up variation works well here because it uses their forward momentum against them, and be ready to chain into Electric Chair when the direct sweep stalls."
+        "answer": "Against heavier opponents, timing becomes paramount since you must catch them during weight transitions rather than trying to move their static mass. Increase the lockdown stretch duration to maximize base disruption before initiating the sweep. Use smaller incremental angle adjustments rather than attempting one explosive motion. The Whip-Up variation works well here because it uses their forward momentum against them, and be ready to chain into Electric Chair when the direct sweep stalls.",
+        "answer_line": "Time transitions, not brute force",
+        "distractors": {
+          "plausible": [
+            "Use maximum explosive force",
+            "Rely on lockdown squeeze alone"
+          ],
+          "trap": [
+            "Try one big explosive bridge"
+          ]
+        }
       },
       {
         "question": "What is the role of head positioning throughout the sweep execution?",
-        "answer": "Your head should remain below the opponent's head level throughout the entire sweep sequence. This prevents them from establishing a crossface which would flatten you and kill the sweep, and creates a physical wedge that drives upward into their chest during execution. Think of your forehead driving into their sternum as an additional force vector complementing the underhook drive. If your head rises above theirs, you lose mechanical advantage and become vulnerable to being driven back to flat positioning."
+        "answer": "Your head should remain below the opponent's head level throughout the entire sweep sequence. This prevents them from establishing a crossface which would flatten you and kill the sweep, and creates a physical wedge that drives upward into their chest during execution. Think of your forehead driving into their sternum as an additional force vector complementing the underhook drive. If your head rises above theirs, you lose mechanical advantage and become vulnerable to being driven back to flat positioning.",
+        "answer_line": "Keep head below opponent's",
+        "distractors": {
+          "plausible": [
+            "Head level with opponent's chin",
+            "Look up to check posture"
+          ],
+          "trap": [
+            "Post head high for base"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Sweep from Zombie Guard involves significant rotational forces on both practitioners' knees due to the lockdown entanglement. Release the lockdown immediately if either practitioner experiences sharp knee pain or popping sensations. The lockdown stretch should create controlled tension through muscular engagement, not acute joint stress on the knee or ankle. During training, communicate with your partner about lockdown pressure intensity and complete the sweep with smooth controlled rotation rather than explosive jerking movements to minimize injury risk. Practitioners with existing knee or ankle injuries should exercise particular caution and consider modified lockdown depth.",
@@ -396,19 +496,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Sweep from Zombie Guard is being set up?",
-        "answer": "The earliest cue is the bottom player beginning to walk their feet toward your hips to create a perpendicular body angle. This angle adjustment precedes the active sweep execution by several seconds and is the most reliable early indicator. You may also feel the underhook deepening and their head dropping below your chin level. Addressing this angle creation immediately by driving crossface pressure prevents the sweep from developing to its mechanical tipping point."
+        "answer": "The earliest cue is the bottom player beginning to walk their feet toward your hips to create a perpendicular body angle. This angle adjustment precedes the active sweep execution by several seconds and is the most reliable early indicator. You may also feel the underhook deepening and their head dropping below your chin level. Addressing this angle creation immediately by driving crossface pressure prevents the sweep from developing to its mechanical tipping point.",
+        "answer_line": "Feet walking to perpendicular angle",
+        "distractors": {
+          "plausible": [
+            "Underhook suddenly deepens",
+            "Head drops below your chin"
+          ],
+          "trap": [
+            "Wait for full hip elevation"
+          ]
+        }
       },
       {
         "question": "Which defensive response should you prioritize when you feel the lockdown stretch and the underhook drive simultaneously?",
-        "answer": "Prioritize neutralizing the underhook with either a deep whizzer or by swimming your arm through to re-establish your own underhook control. The underhook provides the rotational axis without which the sweep cannot complete regardless of how intense the lockdown stretch becomes. While the lockdown creates base disruption, it alone cannot reverse you without the underhook creating the critical turning moment. Once the underhook is neutralized, the lockdown stretch becomes manageable."
+        "answer": "Prioritize neutralizing the underhook with either a deep whizzer or by swimming your arm through to re-establish your own underhook control. The underhook provides the rotational axis without which the sweep cannot complete regardless of how intense the lockdown stretch becomes. While the lockdown creates base disruption, it alone cannot reverse you without the underhook creating the critical turning moment. Once the underhook is neutralized, the lockdown stretch becomes manageable.",
+        "answer_line": "Neutralize the underhook first",
+        "distractors": {
+          "plausible": [
+            "Fight the lockdown squeeze first",
+            "Post far hand immediately"
+          ],
+          "trap": [
+            "Push away and stand up straight"
+          ]
+        }
       },
       {
         "question": "How do you maintain top position when the sweep has already progressed past the midpoint of execution?",
-        "answer": "If the sweep is past the mechanical tipping point, your best option is to post your far hand on the mat and immediately work to insert a knee between you and the opponent to prevent them from achieving full mount. Accept the positional change but fight for top half guard rather than allowing clean mount by inserting your knee shield frame during the reversal. This damage control approach preserves a recoverable position rather than fighting a losing battle."
+        "answer": "If the sweep is past the mechanical tipping point, your best option is to post your far hand on the mat and immediately work to insert a knee between you and the opponent to prevent them from achieving full mount. Accept the positional change but fight for top half guard rather than allowing clean mount by inserting your knee shield frame during the reversal. This damage control approach preserves a recoverable position rather than fighting a losing battle.",
+        "answer_line": "Post hand, insert knee shield",
+        "distractors": {
+          "plausible": [
+            "Fight the reversal at all costs",
+            "Grab their far leg to block"
+          ],
+          "trap": [
+            "Sprawl flat to resist harder"
+          ]
+        }
       },
       {
         "question": "What base adjustments prevent the lockdown stretch from compromising your stability?",
-        "answer": "Widen your free leg post significantly and angle it perpendicular to the lockdown's lateral pulling direction. Drop your hip on the locked side toward the mat to lower your center of gravity below the sweep's effective elevation range. Drive forward pressure through your chest rather than posting upright on your hands. The triangular base created by your free leg, your locked leg contact, and your chest pressure provides three-point stability that resists the sweep's rotational force."
+        "answer": "Widen your free leg post significantly and angle it perpendicular to the lockdown's lateral pulling direction. Drop your hip on the locked side toward the mat to lower your center of gravity below the sweep's effective elevation range. Drive forward pressure through your chest rather than posting upright on your hands. The triangular base created by your free leg, your locked leg contact, and your chest pressure provides three-point stability that resists the sweep's rotational force.",
+        "answer_line": "Widen base, drop hip, drive chest",
+        "distractors": {
+          "plausible": [
+            "Post upright on both hands",
+            "Keep both legs together"
+          ],
+          "trap": [
+            "Straighten up and lean back"
+          ]
+        }
       }
     ],
     "training_progressions": [

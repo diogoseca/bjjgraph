@@ -253,51 +253,171 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of transitioning to combat base rather than passing directly from half guard?",
-        "answer": "Combat base provides a stable passing platform with maximum options for attacking. Rather than committing to a single pass from half guard, combat base allows you to read opponent's defensive response and choose from multiple passing pathways including toreando, knee slice, long step, and pressure passes. This methodical approach reduces risk and increases overall passing success by maintaining positional stability throughout."
+        "answer": "Combat base provides a stable passing platform with maximum options for attacking. Rather than committing to a single pass from half guard, combat base allows you to read opponent's defensive response and choose from multiple passing pathways including toreando, knee slice, long step, and pressure passes. This methodical approach reduces risk and increases overall passing success by maintaining positional stability throughout.",
+        "answer_line": "Stable base, multiple pass options",
+        "distractors": {
+          "plausible": [
+            "Locks in the fastest single pass",
+            "Skips need for far-arm control"
+          ],
+          "trap": [
+            "Release crossface to reset"
+          ]
+        }
       },
       {
         "question": "What is the correct motion for extracting your trapped leg during this transition?",
-        "answer": "Extract using a circular arc motion: knee up and backward, then down and outward. This circular path follows the natural anatomy of the opponent's leg entanglement, making it mechanically difficult for them to maintain their grip. Pulling straight backward creates a stronger lock and makes extraction much more difficult. The circular motion also helps maintain forward pressure on the crossface throughout extraction."
+        "answer": "Extract using a circular arc motion: knee up and backward, then down and outward. This circular path follows the natural anatomy of the opponent's leg entanglement, making it mechanically difficult for them to maintain their grip. Pulling straight backward creates a stronger lock and makes extraction much more difficult. The circular motion also helps maintain forward pressure on the crossface throughout extraction.",
+        "answer_line": "Circular arc: knee up, back, out",
+        "distractors": {
+          "plausible": [
+            "Pull leg straight back hard",
+            "Push knee straight down first"
+          ],
+          "trap": [
+            "Yank leg free, drop crossface"
+          ]
+        }
       },
       {
         "question": "Why must crossface pressure be maintained throughout the entire transition?",
-        "answer": "The crossface is your primary control mechanism that prevents opponent from following your hip movement, turning into you, creating frames, or recovering guard. Any release of crossface pressure creates space and opportunity for opponent to counter the transition. The crossface must remain heavy until you are fully established in combat base with appropriate grip controls secured."
+        "answer": "The crossface is your primary control mechanism that prevents opponent from following your hip movement, turning into you, creating frames, or recovering guard. Any release of crossface pressure creates space and opportunity for opponent to counter the transition. The crossface must remain heavy until you are fully established in combat base with appropriate grip controls secured.",
+        "answer_line": "Stops follow, frames, and guard",
+        "distractors": {
+          "plausible": [
+            "Only matters at the very start",
+            "Ease off once leg starts moving"
+          ],
+          "trap": [
+            "Release crossface to move faster"
+          ]
+        }
       },
       {
         "question": "How do you respond if opponent establishes lockdown on your trapped leg during this transition?",
-        "answer": "Address the lockdown before attempting extraction. Options include: swimming your foot free by rotating it outward, posting on hands and walking hips backward to create slack in the lock, or switching to whip-up pass that uses the lockdown's momentum against them. Forcing extraction against an established lockdown wastes energy and often fails."
+        "answer": "Address the lockdown before attempting extraction. Options include: swimming your foot free by rotating it outward, posting on hands and walking hips backward to create slack in the lock, or switching to whip-up pass that uses the lockdown's momentum against them. Forcing extraction against an established lockdown wastes energy and often fails.",
+        "answer_line": "Free the foot, walk hips, or whip-up",
+        "distractors": {
+          "plausible": [
+            "Force the leg out through the lock",
+            "Abandon the pass, reset guard"
+          ],
+          "trap": [
+            "Yank knee straight back hard"
+          ]
+        }
       },
       {
         "question": "What makes combat base superior to simply completing the pass from half guard in certain situations?",
-        "answer": "Combat base provides positional stability, multiple passing options, and lower risk compared to committing to a single pass. From combat base you can observe opponent's defensive positioning and choose the highest percentage pass for that specific situation. If your initial pass attempt is defended, you remain in a stable position to immediately chain into alternative passes without having to reset or losing positional advantage."
+        "answer": "Combat base provides positional stability, multiple passing options, and lower risk compared to committing to a single pass. From combat base you can observe opponent's defensive positioning and choose the highest percentage pass for that specific situation. If your initial pass attempt is defended, you remain in a stable position to immediately chain into alternative passes without having to reset or losing positional advantage.",
+        "answer_line": "Stability, options, lower risk",
+        "distractors": {
+          "plausible": [
+            "Always faster than a direct pass",
+            "Forces an immediate submission"
+          ],
+          "trap": [
+            "Commit fully to one pass line"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far arm on your bicep as you begin extracting your leg - how do you adjust?",
-        "answer": "Swim your underhook arm over their framing arm to strip the post, or grab their wrist with your free hand and pull it across their body while maintaining crossface pressure. The key is to keep constant forward shoulder pressure so their frame lacks structural integrity. If they post high on your head instead, drive your forehead into their chest and use the angle change to collapse the frame before continuing extraction."
+        "answer": "Swim your underhook arm over their framing arm to strip the post, or grab their wrist with your free hand and pull it across their body while maintaining crossface pressure. The key is to keep constant forward shoulder pressure so their frame lacks structural integrity. If they post high on your head instead, drive your forehead into their chest and use the angle change to collapse the frame before continuing extraction.",
+        "answer_line": "Swim over, strip the post",
+        "distractors": {
+          "plausible": [
+            "Pull straight back against the post",
+            "Switch sides immediately"
+          ],
+          "trap": [
+            "Release crossface to free your hand"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the leg extraction phase?",
-        "answer": "The critical movement is the circular arc of the trapped knee: lifting it upward first, then sweeping it backward and outward in one continuous motion. This circumvents the opponent's leg clamp by moving through the path of least resistance rather than fighting directly against their grip. Your hips should stay loaded forward on the crossface side throughout, only shifting weight rearward once the leg clears and you post into combat base."
+        "answer": "The critical movement is the circular arc of the trapped knee: lifting it upward first, then sweeping it backward and outward in one continuous motion. This circumvents the opponent's leg clamp by moving through the path of least resistance rather than fighting directly against their grip. Your hips should stay loaded forward on the crossface side throughout, only shifting weight rearward once the leg clears and you post into combat base.",
+        "answer_line": "Knee up, then back and out",
+        "distractors": {
+          "plausible": [
+            "Hips back first, then knee up",
+            "Straight backward knee pull"
+          ],
+          "trap": [
+            "Drop crossface to load the hips"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need before initiating the extraction phase?",
-        "answer": "You need a secure crossface with your forearm blade driving across opponent's jaw and neck, turning their head away. Your other hand must control their far arm through either an underhook threaded under their armpit or a wrist pin holding their hand against their chest or the mat. Both controls must be established before you begin walking your free foot to create the extraction angle, as attempting extraction without far arm control allows them to frame and follow."
+        "answer": "You need a secure crossface with your forearm blade driving across opponent's jaw and neck, turning their head away. Your other hand must control their far arm through either an underhook threaded under their armpit or a wrist pin holding their hand against their chest or the mat. Both controls must be established before you begin walking your free foot to create the extraction angle, as attempting extraction without far arm control allows them to frame and follow.",
+        "answer_line": "Crossface plus far-arm control",
+        "distractors": {
+          "plausible": [
+            "Crossface alone is enough",
+            "Underhook without crossface"
+          ],
+          "trap": [
+            "Release far arm to free a hand"
+          ]
+        }
       },
       {
         "question": "What is the direction of force during the crossface and how does it change throughout the transition?",
-        "answer": "The crossface force drives diagonally across the opponent's face toward the mat on their far side, turning their head away and flattening their shoulders. During the extraction phase, this force intensifies slightly as compensating for the hip movement. Upon establishing combat base, the force transitions from the crossface forearm to grip-based controls on collar and pants in gi, or head and wrist in no-gi, redirecting from a pinning vector to a distance-management vector that keeps opponent flat while you maintain upright posture."
+        "answer": "The crossface force drives diagonally across the opponent's face toward the mat on their far side, turning their head away and flattening their shoulders. During the extraction phase, this force intensifies slightly as compensating for the hip movement. Upon establishing combat base, the force transitions from the crossface forearm to grip-based controls on collar and pants in gi, or head and wrist in no-gi, redirecting from a pinning vector to a distance-management vector that keeps opponent flat while you maintain upright posture.",
+        "answer_line": "Diagonal pin, shifts to grips",
+        "distractors": {
+          "plausible": [
+            "Force stays constant throughout",
+            "Force lightens near the end"
+          ],
+          "trap": [
+            "Push straight down, then let go"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hip escaping to follow your movement as you extract your leg - what do you do?",
-        "answer": "Immediately increase crossface shoulder pressure downward to pin their far shoulder to the mat, then use your free hand to stuff their near hip back to the mat. The hip follow must be stopped before it develops momentum. If they have already turned significantly, abandon the combat base transition temporarily, re-flatten them with heavy chest pressure, re-establish crossface and far arm control, then restart the extraction. Attempting to force the transition against an active hip follow typically results in losing the position entirely."
+        "answer": "Immediately increase crossface shoulder pressure downward to pin their far shoulder to the mat, then use your free hand to stuff their near hip back to the mat. The hip follow must be stopped before it develops momentum. If they have already turned significantly, abandon the combat base transition temporarily, re-flatten them with heavy chest pressure, re-establish crossface and far arm control, then restart the extraction. Attempting to force the transition against an active hip follow typically results in losing the position entirely.",
+        "answer_line": "Pin far shoulder, stuff the hip",
+        "distractors": {
+          "plausible": [
+            "Speed up the extraction instantly",
+            "Switch to an opposite-side pass"
+          ],
+          "trap": [
+            "Ease crossface, chase the hip"
+          ]
+        }
       },
       {
         "question": "If your initial combat base establishment is blocked by opponent inserting knee shield, what chain attacks are available?",
-        "answer": "Against knee shield insertion, you have several chain options: drive through the knee shield into a smash pass by dropping your hips and flattening their knee across their body, switch to a backstep pass by stepping your free leg behind their knee shield and spinning to north-south, or re-engage crossface pressure to flatten the knee shield and reattempt the combat base entry. You can also use the knee shield contact point as leverage for a long step pass by stepping your free leg wide and circling around their guard entirely."
+        "answer": "Against knee shield insertion, you have several chain options: drive through the knee shield into a smash pass by dropping your hips and flattening their knee across their body, switch to a backstep pass by stepping your free leg behind their knee shield and spinning to north-south, or re-engage crossface pressure to flatten the knee shield and reattempt the combat base entry. You can also use the knee shield contact point as leverage for a long step pass by stepping your free leg wide and circling around their guard entirely.",
+        "answer_line": "Smash, backstep, or re-flatten",
+        "distractors": {
+          "plausible": [
+            "Abandon the pass, return to guard",
+            "Force base through the shield"
+          ],
+          "trap": [
+            "Release crossface to reset"
+          ]
+        }
       },
       {
         "question": "When would you choose this transition over completing a direct pass like the knee slice or crossface pass?",
-        "answer": "Choose this transition when opponent is defending well against direct passes but you have solid crossface control, when you want to assess their defensive positioning before committing to a specific pass, when opponent has strong guard recovery and you need a stable platform to prevent reguard, or when you want to create passing chains with multiple options rather than betting on a single technique."
+        "answer": "Choose this transition when opponent is defending well against direct passes but you have solid crossface control, when you want to assess their defensive positioning before committing to a specific pass, when opponent has strong guard recovery and you need a stable platform to prevent reguard, or when you want to create passing chains with multiple options rather than betting on a single technique.",
+        "answer_line": "Strong defense or reguard risk",
+        "distractors": {
+          "plausible": [
+            "Always, on every half guard pass",
+            "Only when opponent is tired"
+          ],
+          "trap": [
+            "When you lack far-arm control"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice the crossface pressure progressively, allowing your training partner to adjust to the sensation and tap if the pressure becomes uncomfortable or dangerous. The crossface creates significant pressure on the neck and jaw that can cause injury if applied suddenly or excessively. Partners should communicate clearly if experiencing sharp neck pain, difficulty breathing, or jaw discomfort. When extracting the trapped leg, avoid explosive pulling motions that could hyperextend your partner's knee if they maintain their grip. The circular extraction motion should be controlled and deliberate rather than violent. Ensure adequate mat space as the transition involves significant weight shifting. Partners with existing neck injuries, jaw problems, or knee issues should consult instructors before practicing this technique. Build pressure intensity gradually over multiple training sessions rather than applying maximum force immediately.",
@@ -420,23 +540,73 @@
     "flashcards": [
       {
         "question": "What is the earliest and most effective defensive action against this transition?",
-        "answer": "The earliest and most effective defense is winning the underhook battle on the trapped-leg side before the crossface is established. The underhook prevents flattening, enables you to turn into your opponent, and provides the offensive pathway for sweeps and back takes. Once the crossface is secured and you are flattened, all subsequent defensive actions become significantly harder and lower percentage."
+        "answer": "The earliest and most effective defense is winning the underhook battle on the trapped-leg side before the crossface is established. The underhook prevents flattening, enables you to turn into your opponent, and provides the offensive pathway for sweeps and back takes. Once the crossface is secured and you are flattened, all subsequent defensive actions become significantly harder and lower percentage.",
+        "answer_line": "Win the underhook first",
+        "distractors": {
+          "plausible": [
+            "Frame on the crossface arm",
+            "Hip escape immediately"
+          ],
+          "trap": [
+            "Go flat to absorb pressure"
+          ]
+        }
       },
       {
         "question": "Why is maintaining your side angle critical when defending this transition?",
-        "answer": "Maintaining your side angle prevents the crossface from achieving maximum effectiveness and keeps your hips mobile for following opponent's movement. When flat on your back, the crossface pins your head and shoulders to the mat with gravity assisting, making it nearly impossible to create frames or follow the extraction. On your side, you can generate hip escape motion, maintain frame structure, and threaten sweeps that force the top player to address your offense."
+        "answer": "Maintaining your side angle prevents the crossface from achieving maximum effectiveness and keeps your hips mobile for following opponent's movement. When flat on your back, the crossface pins your head and shoulders to the mat with gravity assisting, making it nearly impossible to create frames or follow the extraction. On your side, you can generate hip escape motion, maintain frame structure, and threaten sweeps that force the top player to address your offense.",
+        "answer_line": "Keeps hips mobile, blunts crossface",
+        "distractors": {
+          "plausible": [
+            "Protects mainly against back takes",
+            "Sets up an armbar attack"
+          ],
+          "trap": [
+            "Turn flat to create space"
+          ]
+        }
       },
       {
         "question": "What should you do if you recognize the leg extraction has already begun?",
-        "answer": "If extraction has started, immediately hip escape in the same direction as your opponent's movement to follow their hips and prevent separation. Simultaneously tighten your leg clamp and try to re-entangle their leg by hooking your top foot behind their knee. If the leg clears despite your efforts, immediately insert your feet on their hips or establish butterfly hooks to prevent combat base consolidation and recover to an open guard position."
+        "answer": "If extraction has started, immediately hip escape in the same direction as your opponent's movement to follow their hips and prevent separation. Simultaneously tighten your leg clamp and try to re-entangle their leg by hooking your top foot behind their knee. If the leg clears despite your efforts, immediately insert your feet on their hips or establish butterfly hooks to prevent combat base consolidation and recover to an open guard position.",
+        "answer_line": "Hip escape with them, reclamp",
+        "distractors": {
+          "plausible": [
+            "Pull the leg back against them",
+            "Stay still and wait it out"
+          ],
+          "trap": [
+            "Push away to create distance"
+          ]
+        }
       },
       {
         "question": "When is lockdown the appropriate defensive response versus fighting for the underhook?",
-        "answer": "Lockdown is appropriate when you have already lost the underhook battle and are partially flattened, making it impossible to recover the underhook in time. The lockdown serves as a last-resort entanglement that prevents leg extraction entirely and gives you time to work back to a better position. However, if you still have the ability to fight for the underhook, that is always the superior choice because underhook provides offensive options while lockdown is primarily a stalling mechanism that delays rather than reverses the position."
+        "answer": "Lockdown is appropriate when you have already lost the underhook battle and are partially flattened, making it impossible to recover the underhook in time. The lockdown serves as a last-resort entanglement that prevents leg extraction entirely and gives you time to work back to a better position. However, if you still have the ability to fight for the underhook, that is always the superior choice because underhook provides offensive options while lockdown is primarily a stalling mechanism that delays rather than reverses the position.",
+        "answer_line": "Underhook always beats lockdown",
+        "distractors": {
+          "plausible": [
+            "Lockdown first, then underhook",
+            "Both are equally offensive"
+          ],
+          "trap": [
+            "Give up the underhook to lock down"
+          ]
+        }
       },
       {
         "question": "Your opponent has crossface established and begins walking their free foot toward your head - what is happening and how do you respond?",
-        "answer": "They are creating the extraction angle by shifting their body position to generate mechanical advantage for pulling their trapped leg free. Respond by immediately tightening your leg clamp, hip escaping toward them to close the angle they are creating, and using your far arm to frame on their bicep or shoulder to prevent them from driving forward. If possible, use the angle change to sneak your near-side knee in as a shield. The foot walk is the clearest signal that extraction is imminent."
+        "answer": "They are creating the extraction angle by shifting their body position to generate mechanical advantage for pulling their trapped leg free. Respond by immediately tightening your leg clamp, hip escaping toward them to close the angle they are creating, and using your far arm to frame on their bicep or shoulder to prevent them from driving forward. If possible, use the angle change to sneak your near-side knee in as a shield. The foot walk is the clearest signal that extraction is imminent.",
+        "answer_line": "Tighten clamp, close the angle",
+        "distractors": {
+          "plausible": [
+            "Let it happen, they're stuck",
+            "It only matters near a submission"
+          ],
+          "trap": [
+            "Loosen the leg clamp to reposition"
+          ]
+        }
       }
     ],
     "training_progressions": [

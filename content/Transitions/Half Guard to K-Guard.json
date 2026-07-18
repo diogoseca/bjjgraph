@@ -265,50 +265,112 @@
         "answer": "Initiate the K-Guard hook switch when the top player commits their weight forward onto your trapped leg. This typically occurs during a passing attempt like a knee slice or when they drive forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky.",
         "distractors": {
           "plausible": [
-            "Initiate the hook switch when the top player sits back onto their heels, since their weight is off your trapped leg.",
-            "Initiate the hook switch the moment you establish half guard, before the top player settles any pressure at all."
+            "As soon as guard is established",
+            "When they posture up to pass"
           ],
           "trap": [
-            "Wait until the top player has flattened you out completely, then explode into the hook switch using their pinning pressure."
+            "When they sit back on heels"
+          ]
+        },
+        "answer_line": "Opponent commits weight forward"
+      },
+      {
+        "question": "What are the entry requirements that must exist before attempting the Transition to K-Guard?",
+        "answer": "Four conditions must be present: first, you must have half guard with your inside leg controlling the opponent's leg. Second, you must have at least one active frame creating distance to protect the hook switch. Third, your hips must be angled on your side with sufficient clearance to rotate the inside hook. Fourth, the opponent's weight must be committed forward onto their trapped leg so they cannot extract it during the reconfiguration. If any condition is missing, work to establish it before attempting the entry.",
+        "answer_line": "Frame, hip angle, weight forward",
+        "distractors": {
+          "plausible": [
+            "Underhook and crossface control",
+            "Opponent flat on their back"
+          ],
+          "trap": [
+            "Opponent sitting back light"
           ]
         }
       },
       {
-        "question": "What are the entry requirements that must exist before attempting the Transition to K-Guard?",
-        "answer": "Four conditions must be present: first, you must have half guard with your inside leg controlling the opponent's leg. Second, you must have at least one active frame creating distance to protect the hook switch. Third, your hips must be angled on your side with sufficient clearance to rotate the inside hook. Fourth, the opponent's weight must be committed forward onto their trapped leg so they cannot extract it during the reconfiguration. If any condition is missing, work to establish it before attempting the entry."
-      },
-      {
         "question": "What is the most critical mechanical detail during the inside hook inversion?",
-        "answer": "The most critical detail is the hip angle that provides clearance for the rotation. Your hips must be angled at least 30-45 degrees from the mat, achieved through a preliminary shrimp, to give your inside knee the space to sweep an arc from outside the opponent's leg to across the front of their thigh into the inverted position. Without this hip angle, the rotation gets blocked by the opponent's trapped leg and you end up with a shallow, ineffective hook that lacks the lateral pulling force that defines K-Guard."
+        "answer": "The most critical detail is the hip angle that provides clearance for the rotation. Your hips must be angled at least 30-45 degrees from the mat, achieved through a preliminary shrimp, to give your inside knee the space to sweep an arc from outside the opponent's leg to across the front of their thigh into the inverted position. Without this hip angle, the rotation gets blocked by the opponent's trapped leg and you end up with a shallow, ineffective hook that lacks the lateral pulling force that defines K-Guard.",
+        "answer_line": "Shrimp for 30-45 degree hip angle",
+        "distractors": {
+          "plausible": [
+            "Speed of the hook rotation",
+            "Grip strength on the pant leg"
+          ],
+          "trap": [
+            "Flatten hips to the mat first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped leg the moment you release your standard inside hook - how do you respond?",
-        "answer": "Do not chase the retreating leg with the K-Guard hook configuration. Instead, immediately follow their retreating leg with your hips by scooting forward, and engage your outside leg as a butterfly hook on whatever part of their leg remains in range. From there, pursue single leg X-Guard or standard butterfly guard depending on the distance created. The key is recognizing within the first half-second that the K-Guard entry window has closed and transitioning to the best available alternative guard rather than forcing a failed reconfiguration."
+        "answer": "Do not chase the retreating leg with the K-Guard hook configuration. Instead, immediately follow their retreating leg with your hips by scooting forward, and engage your outside leg as a butterfly hook on whatever part of their leg remains in range. From there, pursue single leg X-Guard or standard butterfly guard depending on the distance created. The key is recognizing within the first half-second that the K-Guard entry window has closed and transitioning to the best available alternative guard rather than forcing a failed reconfiguration.",
+        "answer_line": "Scoot hips, hook butterfly guard",
+        "distractors": {
+          "plausible": [
+            "Grip fight to reinsert hook",
+            "Sit up to reclaim guard"
+          ],
+          "trap": [
+            "Chase the retreating leg"
+          ]
+        }
       },
       {
         "question": "What grip or frame requirements must be maintained throughout the entire hook transition?",
-        "answer": "Your inside arm must maintain an active frame against the opponent's shoulder, bicep, or neck throughout the entire transition. This frame serves as the defensive shield during the vulnerable moment when your hooks are being reconfigured. The frame prevents the opponent from collapsing chest-to-chest contact and pinning you flat during the switch. Your outside arm should be free to assist with the transition or control the opponent's posting hand. Never sacrifice the inside arm frame to assist with the hook rotation."
+        "answer": "Your inside arm must maintain an active frame against the opponent's shoulder, bicep, or neck throughout the entire transition. This frame serves as the defensive shield during the vulnerable moment when your hooks are being reconfigured. The frame prevents the opponent from collapsing chest-to-chest contact and pinning you flat during the switch. Your outside arm should be free to assist with the transition or control the opponent's posting hand. Never sacrifice the inside arm frame to assist with the hook rotation.",
+        "answer_line": "Keep inside arm frame active",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm",
+            "Grip both sleeves tightly"
+          ],
+          "trap": [
+            "Release frame to aid hook switch"
+          ]
+        }
       },
       {
         "question": "What direction of force should each hook generate once K-Guard is established?",
-        "answer": "The inverted inside hook generates lateral pulling force, dragging the opponent's trapped leg across your centerline toward the butterfly hook side. This disrupts their base by pulling their support out from under them laterally. The outside butterfly hook generates vertical upward force, threatening to elevate the opponent and remove their ability to settle weight. These opposing force vectors create a push-pull dynamic that makes the opponent's base unstable in two dimensions simultaneously, which is the fundamental mechanical advantage of K-Guard over standard half guard."
+        "answer": "The inverted inside hook generates lateral pulling force, dragging the opponent's trapped leg across your centerline toward the butterfly hook side. This disrupts their base by pulling their support out from under them laterally. The outside butterfly hook generates vertical upward force, threatening to elevate the opponent and remove their ability to settle weight. These opposing force vectors create a push-pull dynamic that makes the opponent's base unstable in two dimensions simultaneously, which is the fundamental mechanical advantage of K-Guard over standard half guard.",
+        "answer_line": "Inside pulls, outside elevates",
+        "distractors": {
+          "plausible": [
+            "Both hooks push forward",
+            "Both hooks pull backward"
+          ],
+          "trap": [
+            "Both hooks drive straight down"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong crossface during your hook switch attempt - should you continue the K-Guard entry?",
         "answer": "No — a strong crossface during the hook switch means the entry window has closed, so abort the K-Guard attempt. The crossface will flatten your spine, eliminate the hip angle needed for the hook inversion, and allow the opponent to drive through to a pass. Immediately abort the entry by recovering your standard half guard inside hook and use your frame to fight off the crossface. Once you have reestablished distance and hip angle, you can reattempt the entry on their next forward pressure commitment. Alternatively, use the crossface pressure to redirect into a deep half entry by diving underneath their weight.",
         "distractors": {
           "plausible": [
-            "Yes — finish the hook switch quickly before the crossface fully settles, since speed beats pressure in this exchange.",
-            "No — abandon guard entirely and turn away to your knees, since the crossface has already won the position."
+            "Yes, power through crossface",
+            "Yes, rush the rotation faster"
           ],
           "trap": [
-            "Yes — accept the crossface and invert harder underneath it, using their head pressure as a pivot point for the hooks."
+            "Turn away and turtle up"
           ]
-        }
+        },
+        "answer_line": "No, abort and recover hook"
       },
       {
         "question": "If your K-Guard entry succeeds but the opponent immediately begins smashing to neutralize your hooks, what chain attack should you pursue?",
-        "answer": "When the opponent drives heavy forward pressure into your established K-Guard, use their forward commitment against them. The primary chain is to load the butterfly hook with their weight and transition to a deep half entry by diving underneath, or redirect into an X-Guard or single leg X-Guard entry by extending your hooks and creating elevation. Their smash pressure actually provides the forward momentum needed for these transitions. The key principle is that heavy forward commitment in K-Guard opens underneath transitions, while sitting back opens elevation-based sweeps."
+        "answer": "When the opponent drives heavy forward pressure into your established K-Guard, use their forward commitment against them. The primary chain is to load the butterfly hook with their weight and transition to a deep half entry by diving underneath, or redirect into an X-Guard or single leg X-Guard entry by extending your hooks and creating elevation. Their smash pressure actually provides the forward momentum needed for these transitions. The key principle is that heavy forward commitment in K-Guard opens underneath transitions, while sitting back opens elevation-based sweeps.",
+        "answer_line": "Dive to deep half or X-Guard",
+        "distractors": {
+          "plausible": [
+            "Strip the crossface first",
+            "Push them back to reset"
+          ],
+          "trap": [
+            "Release hooks and reguard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Transition to K-Guard is generally low-risk when practiced with proper progression and control. The primary safety consideration is protecting the inside knee during the hook inversion, as forcing the rotation against resistance or with poor angle can strain the medial collateral ligament. Beginners should drill the hook rotation slowly with a cooperative partner before adding resistance, focusing on smooth mechanics rather than speed. Partners providing top pressure during drilling should apply gradual, steady force rather than explosive weight drops that could catch the bottom player mid-transition. Practitioners with existing knee injuries, particularly to the MCL or meniscus, should consult their instructor before practicing the inverted hook rotation, as the crossing motion places lateral stress on the inside knee. During live training, if you find yourself stuck mid-transition with hooks partially reconfigured, do not force the completion. Instead, recover to standard half guard and reset rather than fighting from a compromised position.",
@@ -417,23 +479,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to transition from half guard to K-Guard?",
-        "answer": "The earliest cue is the deliberate shrimp creating hip angle combined with increased inside arm frame pressure against your shoulder. These precursor movements happen before any hook change and are the bottom player creating the prerequisites for the hook rotation. The shrimp provides the hip clearance needed for the inversion while the frame increase creates distance protection. Recognizing these movements gives you the maximum defensive window before the hook switch begins."
+        "answer": "The earliest cue is the deliberate shrimp creating hip angle combined with increased inside arm frame pressure against your shoulder. These precursor movements happen before any hook change and are the bottom player creating the prerequisites for the hook rotation. The shrimp provides the hip clearance needed for the inversion while the frame increase creates distance protection. Recognizing these movements gives you the maximum defensive window before the hook switch begins.",
+        "answer_line": "Shrimp and rising frame pressure",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip bump",
+            "Grip change on your sleeve"
+          ],
+          "trap": [
+            "Leg suddenly going limp"
+          ]
+        }
       },
       {
         "question": "Why is the moment of inside hook release the critical defensive window for the top player?",
-        "answer": "When the bottom player releases their standard inside hook to begin the inversion, there is a brief window of reduced entanglement where your trapped leg is momentarily free from active hook control. This is your best opportunity to extract the leg through a sprawl or backstep because the bottom player's guard structure is at its weakest point during the transition between configurations. Once the inverted hook crosses over and engages, the entanglement is re-established and extraction becomes significantly harder."
+        "answer": "When the bottom player releases their standard inside hook to begin the inversion, there is a brief window of reduced entanglement where your trapped leg is momentarily free from active hook control. This is your best opportunity to extract the leg through a sprawl or backstep because the bottom player's guard structure is at its weakest point during the transition between configurations. Once the inverted hook crosses over and engages, the entanglement is re-established and extraction becomes significantly harder.",
+        "answer_line": "Trapped leg is momentarily free",
+        "distractors": {
+          "plausible": [
+            "Opponent's grip is weakest here",
+            "Their hips are most flattened"
+          ],
+          "trap": [
+            "Wait for the hook to fully invert"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully established K-Guard with both hooks under active tension - what is your systematic approach to neutralize it?",
-        "answer": "Do not attempt to strip individual hooks, as this creates the off-balancing dynamics the K-Guard system exploits. Instead, work systematically: first, establish crossface or underhook control on their upper body. Second, drive your hips forward and low to compress both hooks simultaneously rather than fighting them individually. Third, control their far hip to prevent the angle changes that power their sweeps. Fourth, work to flatten their spine by driving your shoulder into their chest. Only attempt to pass once their hook tension is degraded and their angle generation is limited."
+        "answer": "Do not attempt to strip individual hooks, as this creates the off-balancing dynamics the K-Guard system exploits. Instead, work systematically: first, establish crossface or underhook control on their upper body. Second, drive your hips forward and low to compress both hooks simultaneously rather than fighting them individually. Third, control their far hip to prevent the angle changes that power their sweeps. Fourth, work to flatten their spine by driving your shoulder into their chest. Only attempt to pass once their hook tension is degraded and their angle generation is limited.",
+        "answer_line": "Crossface, compress, control hip",
+        "distractors": {
+          "plausible": [
+            "Strip the outside hook first",
+            "Pull both legs apart"
+          ],
+          "trap": [
+            "Fight each hook individually"
+          ]
+        }
       },
       {
         "question": "How should you adjust your half guard top strategy against an opponent known to frequently enter K-Guard?",
-        "answer": "Against a known K-Guard player, prioritize crossface control and spine flattening from the start of half guard top. Keep constant chest-to-chest pressure to deny the frame distance they need for the hook switch. Maintain your trapped leg heavy with forward weight commitment to make the inversion mechanically difficult. Consider a backstep passing approach that removes your leg from entanglement range rather than forward pressure passes that load your weight onto their hooks. Grip fight aggressively to control their inside arm and deny the frame that protects their transition."
+        "answer": "Against a known K-Guard player, prioritize crossface control and spine flattening from the start of half guard top. Keep constant chest-to-chest pressure to deny the frame distance they need for the hook switch. Maintain your trapped leg heavy with forward weight commitment to make the inversion mechanically difficult. Consider a backstep passing approach that removes your leg from entanglement range rather than forward pressure passes that load your weight onto their hooks. Grip fight aggressively to control their inside arm and deny the frame that protects their transition.",
+        "answer_line": "Crossface early, deny frame",
+        "distractors": {
+          "plausible": [
+            "Posture up for space",
+            "Pass to the trapped-leg side"
+          ],
+          "trap": [
+            "Sit back to create distance"
+          ]
+        }
       },
       {
         "question": "What is the correct defensive response if you feel your opponent's inside hook begin to disengage from standard position?",
-        "answer": "The instant you feel the inside hook disengage, you have two primary options based on your current control. If you have crossface and upper body control established, immediately increase forward pressure to flatten them before the hook rotation completes, simultaneously driving your trapped knee down to reinstate the half guard entanglement. If you do not have upper body control, immediately sprawl your trapped leg backward to extract it from the loosened entanglement while widening your base. Speed of reaction matters more than technique selection in this window."
+        "answer": "The instant you feel the inside hook disengage, you have two primary options based on your current control. If you have crossface and upper body control established, immediately increase forward pressure to flatten them before the hook rotation completes, simultaneously driving your trapped knee down to reinstate the half guard entanglement. If you do not have upper body control, immediately sprawl your trapped leg backward to extract it from the loosened entanglement while widening your base. Speed of reaction matters more than technique selection in this window.",
+        "answer_line": "Flatten and drive knee, or sprawl",
+        "distractors": {
+          "plausible": [
+            "Wait to see their next move",
+            "Grip fight the pant cuff"
+          ],
+          "trap": [
+            "Chase the hook with your hand"
+          ]
+        }
       }
     ],
     "training_progressions": [

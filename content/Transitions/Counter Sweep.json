@@ -246,43 +246,143 @@
     "flashcards": [
       {
         "question": "What are the three primary indicators that a sweep attempt is being initiated from open guard?",
-        "answer": "The three primary indicators are: (1) grip changes where opponent establishes stronger control on your sleeves, collar, or posture, (2) hip and shoulder movement where opponent begins to create angles or elevate their hips off the mat, and (3) your own posture being broken forward or pulled in a specific direction indicating they are loading the sweep mechanics. Advanced practitioners also recognize the subtle weight shifts and tension changes that precede visible movement."
+        "answer": "The three primary indicators are: (1) grip changes where opponent establishes stronger control on your sleeves, collar, or posture, (2) hip and shoulder movement where opponent begins to create angles or elevate their hips off the mat, and (3) your own posture being broken forward or pulled in a specific direction indicating they are loading the sweep mechanics. Advanced practitioners also recognize the subtle weight shifts and tension changes that precede visible movement.",
+        "answer_line": "Grips, hip shift, posture break",
+        "distractors": {
+          "plausible": [
+            "Only watch their hip movement",
+            "Wait until they finish sweeping"
+          ],
+          "trap": [
+            "Let your posture break on purpose"
+          ]
+        }
       },
       {
         "question": "When defending a butterfly sweep, why is driving your chest down and sprawling your hips back more effective than simply widening your base?",
-        "answer": "Driving your chest down and sprawling attacks the mechanical principle of the butterfly sweep which relies on elevating your hips with their hooks while pulling your upper body forward. By driving your chest into their face and upper chest and sprawling your hips back, you create a downward pressure vector that their hooks cannot overcome, while simultaneously increasing the distance between your center of gravity and their elevating force. Simply widening base leaves your hips elevated and vulnerable to the lifting motion, whereas the sprawl fundamentally breaks their sweep mechanics."
+        "answer": "Driving your chest down and sprawling attacks the mechanical principle of the butterfly sweep which relies on elevating your hips with their hooks while pulling your upper body forward. By driving your chest into their face and upper chest and sprawling your hips back, you create a downward pressure vector that their hooks cannot overcome, while simultaneously increasing the distance between your center of gravity and their elevating force. Simply widening base leaves your hips elevated and vulnerable to the lifting motion, whereas the sprawl fundamentally breaks their sweep mechanics.",
+        "answer_line": "Sprawl chest down, hips back",
+        "distractors": {
+          "plausible": [
+            "Widen your base instead",
+            "Sprawl hips forward not back"
+          ],
+          "trap": [
+            "Sit up to look for an opening"
+          ]
+        }
       },
       {
         "question": "Why should you never post your hand far from your body when defending a sweep?",
-        "answer": "Posting your hand far from your body creates a straight-arm position that is extremely vulnerable to kimura, armbar, and triangle attacks. When your arm is extended and bearing weight during sweep defense, your elbow joint is compromised and easily attacked. Opponent can trap the extended arm and either finish a submission immediately or use it to complete their sweep with added leverage. Proper posting keeps your hand close to their body with elbow positioned protectively, allowing you to defend the sweep while maintaining submission defense."
+        "answer": "Posting your hand far from your body creates a straight-arm position that is extremely vulnerable to kimura, armbar, and triangle attacks. When your arm is extended and bearing weight during sweep defense, your elbow joint is compromised and easily attacked. Opponent can trap the extended arm and either finish a submission immediately or use it to complete their sweep with added leverage. Proper posting keeps your hand close to their body with elbow positioned protectively, allowing you to defend the sweep while maintaining submission defense.",
+        "answer_line": "Keep hand close, elbow tucked",
+        "distractors": {
+          "plausible": [
+            "Post hand wide for base",
+            "Straighten arm for reach"
+          ],
+          "trap": [
+            "Post far to stiff-arm them"
+          ]
+        }
       },
       {
         "question": "How does the concept of following the sweep differ from blocking the sweep, and when is each appropriate?",
-        "answer": "Blocking the sweep means directly opposing the sweep direction with your base and pressure, stopping their momentum completely. Following the sweep means moving with their sweep direction while maintaining superior position, essentially letting them move you while you stay on top and in control. Blocking is appropriate when you have strong base and recognize the sweep early enough to stop it with minimal effort. Following is superior when the sweep has momentum and blocking would require excessive energy, when you want to use their momentum to pass around their committed leg, or when following leads to an even better position than where you started."
+        "answer": "Blocking the sweep means directly opposing the sweep direction with your base and pressure, stopping their momentum completely. Following the sweep means moving with their sweep direction while maintaining superior position, essentially letting them move you while you stay on top and in control. Blocking is appropriate when you have strong base and recognize the sweep early enough to stop it with minimal effort. Following is superior when the sweep has momentum and blocking would require excessive energy, when you want to use their momentum to pass around their committed leg, or when following leads to an even better position than where you started.",
+        "answer_line": "Follow if momentum, block early",
+        "distractors": {
+          "plausible": [
+            "Always block, never follow",
+            "Follow only after being swept"
+          ],
+          "trap": [
+            "Brace hard against full sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent loads a scissor sweep from closed guard - what grip adjustments should you prioritize?",
-        "answer": "Immediately prioritize stripping the collar grip that controls your posture and breaking the sleeve grip controlling your posting arm. The scissor sweep requires broken posture and a controlled posting arm to complete. Without collar control, they cannot pull you forward into the sweep. Without sleeve control, you can freely post your hand to base out. Secondary priority is controlling their top chopping leg at the knee to prevent the scissoring motion. Establishing your own pants grip near their knee gives you leverage to drive their legs to the mat and flatten their hips."
+        "answer": "Immediately prioritize stripping the collar grip that controls your posture and breaking the sleeve grip controlling your posting arm. The scissor sweep requires broken posture and a controlled posting arm to complete. Without collar control, they cannot pull you forward into the sweep. Without sleeve control, you can freely post your hand to base out. Secondary priority is controlling their top chopping leg at the knee to prevent the scissoring motion. Establishing your own pants grip near their knee gives you leverage to drive their legs to the mat and flatten their hips.",
+        "answer_line": "Strip collar and sleeve grips",
+        "distractors": {
+          "plausible": [
+            "Control their top leg first",
+            "Push their hips down first"
+          ],
+          "trap": [
+            "Grab their far ankle instead"
+          ]
+        }
       },
       {
         "question": "Why is maintaining forward pressure important even while defending a sweep, and what is the risk of pulling away from the guard?",
-        "answer": "Maintaining forward pressure while defending a sweep keeps you in passing position ready to immediately capitalize when the sweep is defended, prevents opponent from easily resetting to their preferred guard, and maintains offensive initiative. Pulling away from the guard sacrifices your passing position, gives opponent time and space to establish strong guard structure, allows them to choose their best guard variation, and mentally shifts momentum in their favor. The correct mindset is solving the sweep problem while staying in the fight, not retreating to safety."
+        "answer": "Maintaining forward pressure while defending a sweep keeps you in passing position ready to immediately capitalize when the sweep is defended, prevents opponent from easily resetting to their preferred guard, and maintains offensive initiative. Pulling away from the guard sacrifices your passing position, gives opponent time and space to establish strong guard structure, allows them to choose their best guard variation, and mentally shifts momentum in their favor. The correct mindset is solving the sweep problem while staying in the fight, not retreating to safety.",
+        "answer_line": "Keep pressure, stay engaged",
+        "distractors": {
+          "plausible": [
+            "Pull away to reset guard",
+            "Pause to reassess options"
+          ],
+          "trap": [
+            "Retreat fully to safe distance"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a hip bump sweep and you successfully base out - what is the optimal immediate follow-up?",
-        "answer": "The optimal follow-up is to immediately drive forward with your chest into their guard while circling your hips to one side to begin a guard pass. Their hip bump attempt has lifted their hips off the mat, creating space between their back and the ground. By driving forward immediately, you flatten them back to the mat while they are off-balance from the failed sweep. Simultaneously, attack one of their legs with a knee slice, leg drag, or toreando motion. The failed hip bump leaves them with compromised grips and disrupted hip position."
+        "answer": "The optimal follow-up is to immediately drive forward with your chest into their guard while circling your hips to one side to begin a guard pass. Their hip bump attempt has lifted their hips off the mat, creating space between their back and the ground. By driving forward immediately, you flatten them back to the mat while they are off-balance from the failed sweep. Simultaneously, attack one of their legs with a knee slice, leg drag, or toreando motion. The failed hip bump leaves them with compromised grips and disrupted hip position.",
+        "answer_line": "Drive chest forward, circle pass",
+        "distractors": {
+          "plausible": [
+            "Sit back and reset guard",
+            "Grab both legs and stand"
+          ],
+          "trap": [
+            "Chase a submission immediately"
+          ]
+        }
       },
       {
         "question": "What is the most common timing mistake when attempting to counter an opponent's sweep from bottom position?",
-        "answer": "The most common timing mistake is initiating your counter-sweep while your opponent is still in their defensive shell rather than waiting for them to commit to defending your initial sweep. Effective counter-sweeping requires patience to threaten your first sweep convincingly enough that they commit their weight, base, or grips to stopping it. Only when they have made this defensive commitment are they vulnerable to your counter. Rushing the counter before they have committed means you are attempting to sweep a balanced and ready opponent."
+        "answer": "The most common timing mistake is initiating your counter-sweep while your opponent is still in their defensive shell rather than waiting for them to commit to defending your initial sweep. Effective counter-sweeping requires patience to threaten your first sweep convincingly enough that they commit their weight, base, or grips to stopping it. Only when they have made this defensive commitment are they vulnerable to your counter. Rushing the counter before they have committed means you are attempting to sweep a balanced and ready opponent.",
+        "answer_line": "Wait for their commitment",
+        "distractors": {
+          "plausible": [
+            "Counter as soon as guard opens",
+            "Threaten sweep then quit early"
+          ],
+          "trap": [
+            "Rush the counter immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes De La Riva hook and begins loading a sweep - how do you address this while maintaining passing position?",
-        "answer": "First, strip the pant grip on your far leg that anchors their De La Riva hook, using a two-on-one break or pushing their knee inward across their centerline. Simultaneously, backstep your hooked leg to reduce their hook depth and take away their leverage angle. Drive your knee forward through their guard while establishing a collar or lapel grip to control their upper body. The key is not retreating from the hook but rather circling through it while maintaining forward pressure, which often converts directly into a leg drag or knee slice passing opportunity."
+        "answer": "First, strip the pant grip on your far leg that anchors their De La Riva hook, using a two-on-one break or pushing their knee inward across their centerline. Simultaneously, backstep your hooked leg to reduce their hook depth and take away their leverage angle. Drive your knee forward through their guard while establishing a collar or lapel grip to control their upper body. The key is not retreating from the hook but rather circling through it while maintaining forward pressure, which often converts directly into a leg drag or knee slice passing opportunity.",
+        "answer_line": "Strip grip, backstep, drive knee",
+        "distractors": {
+          "plausible": [
+            "Retreat the leg fully away",
+            "Only strip the pant grip"
+          ],
+          "trap": [
+            "Yank leg back and disengage"
+          ]
+        }
       },
       {
         "question": "An opponent with strong butterfly hooks elevates you and begins the sweep - the sweep is already in motion, what do you do?",
-        "answer": "When the butterfly sweep is already in motion, do not fight the direction. Instead, follow the sweep by posting your far hand on the mat in the direction you are being swept, then immediately circle your hips away from their hooks and drive your chest back into them as your body rotation breaks the hook connection. This converts their sweep momentum into your passing angle. The critical detail is posting and circling rather than bracing, because bracing against a committed butterfly sweep wastes energy and usually fails. By following and redirecting, you use their energy expenditure against them."
+        "answer": "When the butterfly sweep is already in motion, do not fight the direction. Instead, follow the sweep by posting your far hand on the mat in the direction you are being swept, then immediately circle your hips away from their hooks and drive your chest back into them as your body rotation breaks the hook connection. This converts their sweep momentum into your passing angle. The critical detail is posting and circling rather than bracing, because bracing against a committed butterfly sweep wastes energy and usually fails. By following and redirecting, you use their energy expenditure against them.",
+        "answer_line": "Post far hand, circle, drive back",
+        "distractors": {
+          "plausible": [
+            "Brace hard against the lift",
+            "Post near hand and push"
+          ],
+          "trap": [
+            "Lean back to counter weight"
+          ]
+        }
       }
     ],
     "safety_considerations": "Counter-sweep training is generally low risk for injury as it emphasizes defensive positioning and base maintenance rather than explosive movements. However, practitioners should be aware that rapid base adjustments and posting can strain ankles, knees, and wrists if done with poor technique. When practicing counter-sweeps at speed, ensure proper mat space to avoid collisions with walls or other training partners during dynamic movements. Partners should communicate clearly about resistance levels, especially when drilling chain defenses where multiple directional changes occur rapidly. Beginners should master static defensive positions before progressing to full-speed sweep defense to avoid developing compensatory movement patterns that rely on strength rather than proper mechanics.",
@@ -384,23 +484,73 @@
     "flashcards": [
       {
         "question": "Your butterfly sweep is stuffed because the top player sprawled and drove their chest into you - what is your immediate recovery sequence?",
-        "answer": "Immediately retract your butterfly hooks and replace them with feet on their hips to create distance. Simultaneously recover your grips to collar and sleeve rather than the underhook you used for the sweep. Shrimp your hips back to create space and establish a neutral open guard or transition to a different guard system like De La Riva or collar-sleeve guard. The critical error would be to keep trying to re-elevate with the hooks against their sprawled weight."
+        "answer": "Immediately retract your butterfly hooks and replace them with feet on their hips to create distance. Simultaneously recover your grips to collar and sleeve rather than the underhook you used for the sweep. Shrimp your hips back to create space and establish a neutral open guard or transition to a different guard system like De La Riva or collar-sleeve guard. The critical error would be to keep trying to re-elevate with the hooks against their sprawled weight.",
+        "answer_line": "Retract hooks, shrimp, reguard",
+        "distractors": {
+          "plausible": [
+            "Switch to overhook, stay close",
+            "Push off and try to stand"
+          ],
+          "trap": [
+            "Keep re-elevating with hooks"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to chain to a secondary sweep or abandon to guard recovery after your first sweep is countered?",
-        "answer": "The decision hinges on the top player's weight commitment. If they have overcommitted their base in one direction to defend your first sweep, chain to the opposite direction sweep because their weight distribution creates the vulnerability. If they maintained centered base and simply neutralized your sweep without overcommitting, abandon to guard recovery because a secondary sweep against a balanced opponent has low probability of success and further compromises your guard. Read their hip position: shifted hips mean chain, centered hips mean recover."
+        "answer": "The decision hinges on the top player's weight commitment. If they have overcommitted their base in one direction to defend your first sweep, chain to the opposite direction sweep because their weight distribution creates the vulnerability. If they maintained centered base and simply neutralized your sweep without overcommitting, abandon to guard recovery because a secondary sweep against a balanced opponent has low probability of success and further compromises your guard. Read their hip position: shifted hips mean chain, centered hips mean recover.",
+        "answer_line": "Chain if hips shifted, else recover",
+        "distractors": {
+          "plausible": [
+            "Always chain to next sweep",
+            "Recover guard every time"
+          ],
+          "trap": [
+            "Chain sweep against balanced base"
+          ]
+        }
       },
       {
         "question": "What is the biggest danger in the moment immediately after your sweep attempt fails?",
-        "answer": "The biggest danger is the guard pass, not a submission. After a failed sweep, your hips are displaced, your grips are disrupted, and your legs are out of their optimal guard configuration. The top player's highest-percentage response is to immediately pass your compromised guard, typically with a leg drag or pressure pass that exploits the angle your body created during the sweep attempt. This is why guard frame recovery must be your first priority, not attempting another offensive technique."
+        "answer": "The biggest danger is the guard pass, not a submission. After a failed sweep, your hips are displaced, your grips are disrupted, and your legs are out of their optimal guard configuration. The top player's highest-percentage response is to immediately pass your compromised guard, typically with a leg drag or pressure pass that exploits the angle your body created during the sweep attempt. This is why guard frame recovery must be your first priority, not attempting another offensive technique.",
+        "answer_line": "Guard pass, not submission",
+        "distractors": {
+          "plausible": [
+            "Watch for a counter choke",
+            "Expect an armbar attempt"
+          ],
+          "trap": [
+            "Attack another submission"
+          ]
+        }
       },
       {
         "question": "Your scissor sweep fails because the top player posts their leg back - your top leg is still across their body. What should you do?",
-        "answer": "Use the leg that is across their body as a frame rather than a sweep tool. Convert it into a knee shield by pulling your knee to your chest and positioning your shin across their torso to create distance. Simultaneously recover your collar grip with your free hand and establish a knee shield half guard or reguard to open guard. The leg across their body is an asset for framing even though it failed as a sweep tool. Never leave it passively draped across them where they can pin it and pass."
+        "answer": "Use the leg that is across their body as a frame rather than a sweep tool. Convert it into a knee shield by pulling your knee to your chest and positioning your shin across their torso to create distance. Simultaneously recover your collar grip with your free hand and establish a knee shield half guard or reguard to open guard. The leg across their body is an asset for framing even though it failed as a sweep tool. Never leave it passively draped across them where they can pin it and pass.",
+        "answer_line": "Convert leg to knee shield",
+        "distractors": {
+          "plausible": [
+            "Keep leg draped, reset grips",
+            "Swing leg for another sweep"
+          ],
+          "trap": [
+            "Leave leg passive across them"
+          ]
+        }
       },
       {
         "question": "When should you choose to create a scramble rather than attempt a clean reguard after a failed sweep?",
-        "answer": "Choose scramble when the top player has already advanced past your leg frames and is beginning to establish a passing position where clean reguard is no longer mechanically possible. If their shoulder is past your hip line or they have cleared your legs to one side, a clean reguard requires them to retreat, which they will not do voluntarily. In this case, explosive movement like a granby roll, inversion, or sit-through creates chaos that prevents them from consolidating the pass. The scramble is the emergency option when systematic guard recovery has been preempted."
+        "answer": "Choose scramble when the top player has already advanced past your leg frames and is beginning to establish a passing position where clean reguard is no longer mechanically possible. If their shoulder is past your hip line or they have cleared your legs to one side, a clean reguard requires them to retreat, which they will not do voluntarily. In this case, explosive movement like a granby roll, inversion, or sit-through creates chaos that prevents them from consolidating the pass. The scramble is the emergency option when systematic guard recovery has been preempted.",
+        "answer_line": "Scramble when reguard is blocked",
+        "distractors": {
+          "plausible": [
+            "Always attempt clean reguard",
+            "Wait for them to retreat"
+          ],
+          "trap": [
+            "Stay still and rebuild frames"
+          ]
+        }
       }
     ],
     "training_progressions": [

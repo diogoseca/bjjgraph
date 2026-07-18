@@ -242,43 +242,143 @@
     "flashcards": [
       {
         "question": "What is the primary strategic advantage of standing to reset rather than fighting the lapel wrap from the ground?",
-        "answer": "Standing eliminates the bottom player's secondary control points (hooks, frames, shin shields) that combine with the lapel wrap to create sweeping leverage. On the ground, the bottom player can coordinate hip movement, leg hooks, and lapel tension into multi-angle attacks. Standing isolates the lapel grip as the single problem to solve, dramatically reducing the threat level and simplifying the extraction."
+        "answer": "Standing eliminates the bottom player's secondary control points (hooks, frames, shin shields) that combine with the lapel wrap to create sweeping leverage. On the ground, the bottom player can coordinate hip movement, leg hooks, and lapel tension into multi-angle attacks. Standing isolates the lapel grip as the single problem to solve, dramatically reducing the threat level and simplifying the extraction.",
+        "answer_line": "Isolates lapel as only threat",
+        "distractors": {
+          "plausible": [
+            "Gains a big strength advantage",
+            "Buys time to catch your breath"
+          ],
+          "trap": [
+            "Muscle through the wrap instead"
+          ]
+        }
       },
       {
         "question": "Why must your center of gravity remain posterior during the standing sequence?",
-        "answer": "The lapel wrap creates a forward-pulling force vector. If your weight shifts forward over the trapped leg during the stand, the bottom player can load your momentum onto the wrap and redirect it into a sweep. Keeping your center of gravity posterior (hips back, weight on the free leg) resists this pull and prevents the bottom player from using your own standing energy against you."
+        "answer": "The lapel wrap creates a forward-pulling force vector. If your weight shifts forward over the trapped leg during the stand, the bottom player can load your momentum onto the wrap and redirect it into a sweep. Keeping your center of gravity posterior (hips back, weight on the free leg) resists this pull and prevents the bottom player from using your own standing energy against you.",
+        "answer_line": "Hips back, weight on free leg",
+        "distractors": {
+          "plausible": [
+            "Weight evenly on both legs",
+            "Lean forward to snap the grip"
+          ],
+          "trap": [
+            "Drive weight onto trapped leg"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inverting as you stand to re-establish the wrap. How do you adjust?",
-        "answer": "Accelerate backward stepping while simultaneously stripping the grip. Inversion requires the bottom player to commit their hips upward and forward, which means they cannot simultaneously maintain full tension on the wrap and invert. Step backward aggressively to create distance that exceeds their inversion range, making the re-wrap mechanically impossible from their angle. If they commit fully to the inversion, their base is compromised and you can pass immediately."
+        "answer": "Accelerate backward stepping while simultaneously stripping the grip. Inversion requires the bottom player to commit their hips upward and forward, which means they cannot simultaneously maintain full tension on the wrap and invert. Step backward aggressively to create distance that exceeds their inversion range, making the re-wrap mechanically impossible from their angle. If they commit fully to the inversion, their base is compromised and you can pass immediately.",
+        "answer_line": "Step back fast, strip the grip",
+        "distractors": {
+          "plausible": [
+            "Sit back down to smash them",
+            "Chase the inversion with grips"
+          ],
+          "trap": [
+            "Follow forward to stack them"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use for the lapel extraction once standing?",
-        "answer": "One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line to exploit the weakest axis of grip strength. The other hand creates slack in the wrap by pushing the lapel material away from your trapped leg. This two-handed configuration applies opposing forces that mechanically defeat the friction of the wrap more efficiently than a single-direction pull."
+        "answer": "One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line to exploit the weakest axis of grip strength. The other hand creates slack in the wrap by pushing the lapel material away from your trapped leg. This two-handed configuration applies opposing forces that mechanically defeat the friction of the wrap more efficiently than a single-direction pull.",
+        "answer_line": "Peel toward thumb, push slack",
+        "distractors": {
+          "plausible": [
+            "Pull straight up with one hand",
+            "Grip fight for both lapels"
+          ],
+          "trap": [
+            "Yank the lapel toward your hip"
+          ]
+        }
       },
       {
         "question": "The bottom player grabs a collar grip as you stand. Should you address it before or after the lapel extraction?",
-        "answer": "Address the collar grip first if it is deep enough to pull you forward and compromise your posterior center of gravity. A shallow collar grip can be tolerated during extraction. The decision point is whether the collar grip creates enough forward pull to override your ability to maintain posterior hip loading. If it does, break it with a quick strip before committing to the lapel extraction. If not, proceed with extraction and address it after clearing the lapel."
+        "answer": "Address the collar grip first if it is deep enough to pull you forward and compromise your posterior center of gravity. A shallow collar grip can be tolerated during extraction. The decision point is whether the collar grip creates enough forward pull to override your ability to maintain posterior hip loading. If it does, break it with a quick strip before committing to the lapel extraction. If not, proceed with extraction and address it after clearing the lapel.",
+        "answer_line": "Strip only if it pulls you forward",
+        "distractors": {
+          "plausible": [
+            "Always clear collar grip first",
+            "Ignore any grip while standing"
+          ],
+          "trap": [
+            "Let it pull you into a hug"
+          ]
+        }
       },
       {
         "question": "Why is circular stepping more effective than pulling straight backward during extraction?",
-        "answer": "The lapel wrap creates friction that resists a straight pull, requiring excessive force that generates jerky movements the bottom player can redirect into sweeps. Circular stepping changes the angle of the wrap progressively, reducing friction at each step and allowing the lapel to unwind naturally. This requires less force, maintains smoother movement, and is harder for the bottom player to predict and counter."
+        "answer": "The lapel wrap creates friction that resists a straight pull, requiring excessive force that generates jerky movements the bottom player can redirect into sweeps. Circular stepping changes the angle of the wrap progressively, reducing friction at each step and allowing the lapel to unwind naturally. This requires less force, maintains smoother movement, and is harder for the bottom player to predict and counter.",
+        "answer_line": "Reduces friction, unwinds wrap",
+        "distractors": {
+          "plausible": [
+            "Straight pull is faster overall",
+            "Circling just confuses them"
+          ],
+          "trap": [
+            "Yank straight back with force"
+          ]
+        }
       },
       {
         "question": "You clear the lapel but the opponent immediately shoots their legs into De La Riva Guard. Was the reset successful?",
-        "answer": "Yes, this is a successful outcome. The purpose of the standing reset is to escape the mechanically disadvantaged Ringworm configuration, not necessarily to pass guard immediately. Any standard open guard (De La Riva, Spider, Collar Sleeve) is a vastly better position for the top player than Ringworm Guard. You now have full mobility, uncompromised base, and access to your complete passing repertoire against a guard system that does not involve lapel entanglement."
+        "answer": "Yes, this is a successful outcome. The purpose of the standing reset is to escape the mechanically disadvantaged Ringworm configuration, not necessarily to pass guard immediately. Any standard open guard (De La Riva, Spider, Collar Sleeve) is a vastly better position for the top player than Ringworm Guard. You now have full mobility, uncompromised base, and access to your complete passing repertoire against a guard system that does not involve lapel entanglement.",
+        "answer_line": "Yes, any open guard beats it",
+        "distractors": {
+          "plausible": [
+            "No, you must prevent new guard",
+            "Only if you stop the DLR hook"
+          ],
+          "trap": [
+            "Failed, re-secure the lapel"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window between clearing the lapel and the opponent establishing a new guard?",
-        "answer": "The window is approximately one to two seconds. After the lapel clears, the bottom player must reconfigure their grips and establish new control points. During this brief window, they have no primary control system active. You must have your passing grips pre-planned and transition to them automatically. Hesitation during this window allows the opponent to establish a new guard that may be equally difficult to pass, wasting the advantage gained from the extraction."
+        "answer": "The window is approximately one to two seconds. After the lapel clears, the bottom player must reconfigure their grips and establish new control points. During this brief window, they have no primary control system active. You must have your passing grips pre-planned and transition to them automatically. Hesitation during this window allows the opponent to establish a new guard that may be equally difficult to pass, wasting the advantage gained from the extraction.",
+        "answer_line": "1-2 seconds, pre-plan pass grips",
+        "distractors": {
+          "plausible": [
+            "5+ seconds to reset grips",
+            "No rush, guard resets slowly"
+          ],
+          "trap": [
+            "Wait for them to grip first"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight between your legs during the standing extraction?",
-        "answer": "Approximately 70-80% of your weight should be on the free (non-trapped) leg throughout the extraction. The trapped leg should be as light as possible to facilitate the circular stepping motion and reduce the bottom player's ability to load it for sweeps. Only shift weight back to the formerly trapped leg after the lapel is fully cleared and you are transitioning to passing grips with both legs free."
+        "answer": "Approximately 70-80% of your weight should be on the free (non-trapped) leg throughout the extraction. The trapped leg should be as light as possible to facilitate the circular stepping motion and reduce the bottom player's ability to load it for sweeps. Only shift weight back to the formerly trapped leg after the lapel is fully cleared and you are transitioning to passing grips with both legs free.",
+        "answer_line": "70-80% of weight on free leg",
+        "distractors": {
+          "plausible": [
+            "50/50 balanced weight split",
+            "Shift weight gradually each step"
+          ],
+          "trap": [
+            "Load weight onto trapped leg"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to a single leg attack as you stand. What is the correct defensive response?",
-        "answer": "Immediately sprawl your hips back and lower your center of gravity while maintaining grip on the lapel area. Use the still-attached lapel material as a frame against their head and shoulder. Drive your trapped leg into their chest to create separation. From the sprawl, you can either complete the extraction from the new angle or transition to a front headlock position if they over-commit to the single leg. Do not try to continue standing through the takedown attempt."
+        "answer": "Immediately sprawl your hips back and lower your center of gravity while maintaining grip on the lapel area. Use the still-attached lapel material as a frame against their head and shoulder. Drive your trapped leg into their chest to create separation. From the sprawl, you can either complete the extraction from the new angle or transition to a front headlock position if they over-commit to the single leg. Do not try to continue standing through the takedown attempt.",
+        "answer_line": "Sprawl hips back, frame lapel",
+        "distractors": {
+          "plausible": [
+            "Pull guard immediately",
+            "Sprint backward to break grip"
+          ],
+          "trap": [
+            "Keep standing tall through it"
+          ]
+        }
       }
     ],
     "safety_considerations": "The standing reset involves explosive upward movement from an entangled position, which creates risk of knee torque on the trapped leg if the lapel wrap is tight around the knee joint. Always ensure the lapel is wrapped around the thigh rather than directly over the knee before driving upward. If you feel sharp knee pain during the stand, abort the attempt and work a ground-based extraction instead. During training, partners should release the lapel wrap immediately if the top player signals discomfort rather than maintaining competitive grip tension. The circular stepping phase can also stress the ankle of the trapped leg, so practitioners with ankle instability should use the backward stepping variant instead of lateral circles. Never attempt this technique explosively without first warming up the knees, ankles, and hips.",
@@ -386,23 +486,73 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to attempt a sweep or back take against the standing reset?",
-        "answer": "The optimal window is during the transition itself, in the first one to two seconds as the opponent drives from combat base to full standing. During this phase, their base is narrowed to a single leg, their hands are occupied with generating upward force rather than defending, and their weight is shifting through unstable intermediate positions. Once they achieve full standing with a wide base, your sweep leverage diminishes dramatically."
+        "answer": "The optimal window is during the transition itself, in the first one to two seconds as the opponent drives from combat base to full standing. During this phase, their base is narrowed to a single leg, their hands are occupied with generating upward force rather than defending, and their weight is shifting through unstable intermediate positions. Once they achieve full standing with a wide base, your sweep leverage diminishes dramatically.",
+        "answer_line": "First 1-2 sec of the stand-up",
+        "distractors": {
+          "plausible": [
+            "Once they reach full standing",
+            "Right as they grip the collar"
+          ],
+          "trap": [
+            "Wait until they start passing"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your collar grip before standing. What does this signal and how should you respond?",
-        "answer": "This signals an experienced passer who understands that the collar grip is the primary mechanism for loading their weight forward and preventing the stand. Respond by switching to a sleeve grip on the same arm they used to strip, which maintains upper body connection and creates a new pulling vector. Alternatively, immediately establish a foot-on-hip frame that replaces the collar grip's forward-loading function with mechanical pushing distance control."
+        "answer": "This signals an experienced passer who understands that the collar grip is the primary mechanism for loading their weight forward and preventing the stand. Respond by switching to a sleeve grip on the same arm they used to strip, which maintains upper body connection and creates a new pulling vector. Alternatively, immediately establish a foot-on-hip frame that replaces the collar grip's forward-loading function with mechanical pushing distance control.",
+        "answer_line": "Switch to sleeve, same arm",
+        "distractors": {
+          "plausible": [
+            "Re-grip the same collar spot",
+            "Grab a fresh collar elsewhere"
+          ],
+          "trap": [
+            "Let go and reset to neutral"
+          ]
+        }
       },
       {
         "question": "The opponent has achieved full standing height and begins circular stepping for extraction. What is your highest-percentage counter?",
-        "answer": "The highest-percentage counter at this stage is following the rotation with a back-take entry. As the opponent circles away from your strong side, their far-side back angle opens progressively. Elevate your hips and thread a hook behind their far knee while using the remaining lapel tension to pull yourself toward their back. The rotation they need for extraction is mechanically identical to the rotation that exposes their back for the take. If the back take fails, you can still transition to De La Riva guard using the same hip elevation movement."
+        "answer": "The highest-percentage counter at this stage is following the rotation with a back-take entry. As the opponent circles away from your strong side, their far-side back angle opens progressively. Elevate your hips and thread a hook behind their far knee while using the remaining lapel tension to pull yourself toward their back. The rotation they need for extraction is mechanically identical to the rotation that exposes their back for the take. If the back take fails, you can still transition to De La Riva guard using the same hip elevation movement.",
+        "answer_line": "Follow rotation, take the back",
+        "distractors": {
+          "plausible": [
+            "Pull guard and reset position",
+            "Chase their hips with grips"
+          ],
+          "trap": [
+            "Stand up to match their base"
+          ]
+        }
       },
       {
         "question": "You feel the lapel wrap loosening beyond recovery. What is the correct defensive sequence?",
-        "answer": "Immediately release the failing lapel grip and use both hands to establish a new guard configuration. Priority order: first secure a De La Riva hook on their standing leg to maintain leg control, then establish a collar or sleeve grip to prevent them from immediately initiating a toreando or leg drag pass. The goal is not to maintain Ringworm Guard but to ensure you have meaningful grips and hooks established before they complete the transition to their passing game. A guard with established grips is far better than gripless open guard."
+        "answer": "Immediately release the failing lapel grip and use both hands to establish a new guard configuration. Priority order: first secure a De La Riva hook on their standing leg to maintain leg control, then establish a collar or sleeve grip to prevent them from immediately initiating a toreando or leg drag pass. The goal is not to maintain Ringworm Guard but to ensure you have meaningful grips and hooks established before they complete the transition to their passing game. A guard with established grips is far better than gripless open guard.",
+        "answer_line": "DLR hook first, then re-grip",
+        "distractors": {
+          "plausible": [
+            "Re-tighten the failing wrap",
+            "Grab any grip immediately"
+          ],
+          "trap": [
+            "Release everything, stand up"
+          ]
+        }
       },
       {
         "question": "How do secondary controls (hooks, frames, collar ties) prevent the standing reset from succeeding?",
-        "answer": "Secondary controls force the opponent to solve multiple problems simultaneously before they can stand. A collar grip creates a forward-pulling force that counteracts their posterior hip drive. Foot-on-hip frames prevent them from closing distance for the stand. Butterfly hooks under their thighs block the upward driving motion. Each additional control point requires them to break or neutralize it before standing, extending the timeline and creating windows for sweeps and back takes during their attempts to clear each control."
+        "answer": "Secondary controls force the opponent to solve multiple problems simultaneously before they can stand. A collar grip creates a forward-pulling force that counteracts their posterior hip drive. Foot-on-hip frames prevent them from closing distance for the stand. Butterfly hooks under their thighs block the upward driving motion. Each additional control point requires them to break or neutralize it before standing, extending the timeline and creating windows for sweeps and back takes during their attempts to clear each control.",
+        "answer_line": "Each grip adds another obstacle",
+        "distractors": {
+          "plausible": [
+            "Only the lapel wrap matters",
+            "Hooks alone stop the stand"
+          ],
+          "trap": [
+            "One clean strip fixes them all"
+          ]
+        }
       }
     ],
     "training_progressions": [

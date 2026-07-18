@@ -257,11 +257,31 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to initiate the back turn from technical mount bottom?",
-        "answer": "The optimal moment is when the opponent commits their weight forward during the armbar setup and begins the leg swing-over. Their forward commitment temporarily compromises their ability to follow your rotation immediately, and their weight shift reduces the lateral pressure that would otherwise block your turning motion. Initiating before the armbar grip is fully secured but after the opponent has committed to the attack creates the widest window for successful rotation."
+        "answer": "The optimal moment is when the opponent commits their weight forward during the armbar setup and begins the leg swing-over. Their forward commitment temporarily compromises their ability to follow your rotation immediately, and their weight shift reduces the lateral pressure that would otherwise block your turning motion. Initiating before the armbar grip is fully secured but after the opponent has committed to the attack creates the widest window for successful rotation.",
+        "answer_line": "During opponent's leg swing-over",
+        "distractors": {
+          "plausible": [
+            "Before opponent commits weight",
+            "Once armbar grip feels secure"
+          ],
+          "trap": [
+            "After the armbar is fully locked"
+          ]
+        }
       },
       {
         "question": "What is the single most critical arm position during the back turn rotation?",
-        "answer": "The threatened arm must be tucked with the elbow pinned tightly against the ribs and the hand gripping your own collar, lapel, or opposite shoulder throughout the entire rotation. This position prevents the arm from extending during the turn, which would allow the opponent to finish the armbar mid-rotation. The arm must never straighten or separate from the body at any point during the turning sequence—even brief extension creates a finishing opportunity for the opponent."
+        "answer": "The threatened arm must be tucked with the elbow pinned tightly against the ribs and the hand gripping your own collar, lapel, or opposite shoulder throughout the entire rotation. This position prevents the arm from extending during the turn, which would allow the opponent to finish the armbar mid-rotation. The arm must never straighten or separate from the body at any point during the turning sequence—even brief extension creates a finishing opportunity for the opponent.",
+        "answer_line": "Elbow pinned, hand on own collar",
+        "distractors": {
+          "plausible": [
+            "Arm tucked but hand relaxed",
+            "Elbow tight, arm partly extended"
+          ],
+          "trap": [
+            "Extend arm to post and balance"
+          ]
+        }
       },
       {
         "question": "Why is a half-committed turn more dangerous than either staying in technical mount or completing the full turn?",
@@ -269,35 +289,115 @@
       },
       {
         "question": "Your opponent blocks your initial rotation attempt by driving their weight onto your far shoulder—how do you adjust?",
-        "answer": "If the rotation is blocked, do not force the turn repeatedly as this wastes energy and telegraphs your intent. Instead, switch to a hip escape in the opposite direction to create space, or use the momentum change to attempt a bridge and roll to the blocked side where the opponent's weight is now committed. The blocked turn may actually create an opening for a different escape because the opponent has shifted their weight to prevent your rotation, compromising their balance on the other side."
+        "answer": "If the rotation is blocked, do not force the turn repeatedly as this wastes energy and telegraphs your intent. Instead, switch to a hip escape in the opposite direction to create space, or use the momentum change to attempt a bridge and roll to the blocked side where the opponent's weight is now committed. The blocked turn may actually create an opening for a different escape because the opponent has shifted their weight to prevent your rotation, compromising their balance on the other side.",
+        "answer_line": "Hip escape away or bridge-roll",
+        "distractors": {
+          "plausible": [
+            "Push through the same rotation",
+            "Wait for opponent to reset"
+          ],
+          "trap": [
+            "Flatten out and go stomach-down"
+          ]
+        }
       },
       {
         "question": "What defensive actions must happen within the first two seconds after completing the back turn?",
-        "answer": "Within the first two seconds: chin must be tucked to chest to prevent rear naked choke insertion, both hands must move to collar and neck area for defensive hand fighting, and hips should begin driving away from the opponent to create distance that delays hook insertion. The chin tuck is the absolute first priority as the choking arm is the most immediate threat. Hand positioning on the collar creates the framework for two-on-one grip control that forms the foundation of all back control escape sequences."
+        "answer": "Within the first two seconds: chin must be tucked to chest to prevent rear naked choke insertion, both hands must move to collar and neck area for defensive hand fighting, and hips should begin driving away from the opponent to create distance that delays hook insertion. The chin tuck is the absolute first priority as the choking arm is the most immediate threat. Hand positioning on the collar creates the framework for two-on-one grip control that forms the foundation of all back control escape sequences.",
+        "answer_line": "Tuck chin, hands to collar/neck",
+        "distractors": {
+          "plausible": [
+            "Hands to collar, chin comes later",
+            "Hips first, then chin tuck"
+          ],
+          "trap": [
+            "Reach back to strip the hooks"
+          ]
+        }
       },
       {
         "question": "How does the back turn from technical mount connect to the broader back control escape system?",
-        "answer": "The back turn is the entry point into the back control defense system from mount offense. Upon completing the turn, you immediately transition into the standard back control escape hierarchy: neck defense through chin tuck and hand fighting, seatbelt grip stripping to free the upper body, hook removal through hip escape and leg manipulation, and finally rotation to face the opponent and recover guard. The quality of the back turn execution determines your starting position within this escape hierarchy—a clean turn with good arm protection puts you in the strongest defensive starting position."
+        "answer": "The back turn is the entry point into the back control defense system from mount offense. Upon completing the turn, you immediately transition into the standard back control escape hierarchy: neck defense through chin tuck and hand fighting, seatbelt grip stripping to free the upper body, hook removal through hip escape and leg manipulation, and finally rotation to face the opponent and recover guard. The quality of the back turn execution determines your starting position within this escape hierarchy—a clean turn with good arm protection puts you in the strongest defensive starting position.",
+        "answer_line": "Entry point into back-escape chain",
+        "distractors": {
+          "plausible": [
+            "Skips straight to hook removal",
+            "Replaces need for neck defense"
+          ],
+          "trap": [
+            "A standalone move, not connected"
+          ]
+        }
       },
       {
         "question": "Under what circumstances should you choose the back turn over other technical mount escapes?",
-        "answer": "The back turn should be chosen only when the opponent has secured arm isolation making armbar imminent, hip escape pathways are blocked by the opponent's leg positioning, bridge attempts have failed to create sufficient space, and guard recovery is not available. It is specifically a last-resort technique when submission is imminent and other defensive options have been exhausted. Choosing it prematurely when conventional escapes remain viable unnecessarily worsens your position from technical mount bottom to back control bottom without tactical justification."
+        "answer": "The back turn should be chosen only when the opponent has secured arm isolation making armbar imminent, hip escape pathways are blocked by the opponent's leg positioning, bridge attempts have failed to create sufficient space, and guard recovery is not available. It is specifically a last-resort technique when submission is imminent and other defensive options have been exhausted. Choosing it prematurely when conventional escapes remain viable unnecessarily worsens your position from technical mount bottom to back control bottom without tactical justification.",
+        "answer_line": "Last resort when armbar is imminent",
+        "distractors": {
+          "plausible": [
+            "Anytime hip escape feels slow",
+            "As a first response to mount"
+          ],
+          "trap": [
+            "Use it early to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent catches your wrist as you begin turning—what grip break do you use to continue the rotation?",
-        "answer": "If the opponent catches your wrist mid-turn, use rotational force to strip the grip by continuing to drive your elbow toward your opposite hip while rotating your forearm inward. The circular motion of the turn itself generates grip-breaking torque that is difficult to maintain against. If the wrist grip holds, immediately clasp your hands together in a gable grip to reinforce the bent arm position and prevent extension while completing the rotation. Never stop mid-turn to fight the grip statically—use the momentum of the rotation as your primary grip-breaking mechanism."
+        "answer": "If the opponent catches your wrist mid-turn, use rotational force to strip the grip by continuing to drive your elbow toward your opposite hip while rotating your forearm inward. The circular motion of the turn itself generates grip-breaking torque that is difficult to maintain against. If the wrist grip holds, immediately clasp your hands together in a gable grip to reinforce the bent arm position and prevent extension while completing the rotation. Never stop mid-turn to fight the grip statically—use the momentum of the rotation as your primary grip-breaking mechanism.",
+        "answer_line": "Rotate elbow to opposite hip",
+        "distractors": {
+          "plausible": [
+            "Stop and pry the fingers off",
+            "Pull straight back against grip"
+          ],
+          "trap": [
+            "Freeze and fight grip statically"
+          ]
+        }
       },
       {
         "question": "What is the correct posting arm position and how does it control rotation speed?",
-        "answer": "The posting arm plants palm-down on the mat near your far hip with the elbow slightly bent, creating a pivot point that controls both the speed and direction of your rotation. Pushing harder accelerates the turn while reducing push allows you to slow and control the transition. The post also prevents you from flopping flat onto your stomach uncontrolled, which would allow the opponent to flatten you out and establish back control with your arms trapped underneath your body. The post must be abandoned the instant rotation completes—bringing it immediately to neck defense."
+        "answer": "The posting arm plants palm-down on the mat near your far hip with the elbow slightly bent, creating a pivot point that controls both the speed and direction of your rotation. Pushing harder accelerates the turn while reducing push allows you to slow and control the transition. The post also prevents you from flopping flat onto your stomach uncontrolled, which would allow the opponent to flatten you out and establish back control with your arms trapped underneath your body. The post must be abandoned the instant rotation completes—bringing it immediately to neck defense.",
+        "answer_line": "Palm-down post near far hip",
+        "distractors": {
+          "plausible": [
+            "Post with straight locked elbow",
+            "Keep posting after turn completes"
+          ],
+          "trap": [
+            "Push off and drop flat to stomach"
+          ]
+        }
       },
       {
         "question": "How do you generate rotational momentum when the opponent's weight is heavy on your chest?",
-        "answer": "Use a bridge-and-turn combination rather than trying to rotate purely from shoulder movement. Explosively bridge your hips upward to momentarily unweight the opponent's chest pressure, then immediately redirect that upward force into lateral rotation by driving your far shoulder toward the mat. The bridge creates the separation needed to initiate the turn, and the transition from vertical to rotational force must be immediate—any delay allows the opponent to re-settle their weight and block the rotation attempt."
+        "answer": "Use a bridge-and-turn combination rather than trying to rotate purely from shoulder movement. Explosively bridge your hips upward to momentarily unweight the opponent's chest pressure, then immediately redirect that upward force into lateral rotation by driving your far shoulder toward the mat. The bridge creates the separation needed to initiate the turn, and the transition from vertical to rotational force must be immediate—any delay allows the opponent to re-settle their weight and block the rotation attempt.",
+        "answer_line": "Bridge explosively, then rotate",
+        "distractors": {
+          "plausible": [
+            "Rotate shoulders without bridging",
+            "Bridge, pause, then rotate"
+          ],
+          "trap": [
+            "Push straight up and hold bridge"
+          ]
+        }
       },
       {
         "question": "After completing the turn, your opponent has one hook in but no seatbelt—what is your escape priority?",
-        "answer": "With only one hook and no seatbelt, you have a narrow window to escape before full back control is established. Prioritize preventing the seatbelt by keeping both hands at your collar and neck. Simultaneously, use hip movement to strip the single hook by pushing their foot off with your leg and hip-escaping toward the hook side. Without the seatbelt, the opponent cannot maintain effective upper body control, so addressing the single hook before the second arrives or the seatbelt is established gives you the best chance of recovering to turtle or half guard."
+        "answer": "With only one hook and no seatbelt, you have a narrow window to escape before full back control is established. Prioritize preventing the seatbelt by keeping both hands at your collar and neck. Simultaneously, use hip movement to strip the single hook by pushing their foot off with your leg and hip-escaping toward the hook side. Without the seatbelt, the opponent cannot maintain effective upper body control, so addressing the single hook before the second arrives or the seatbelt is established gives you the best chance of recovering to turtle or half guard.",
+        "answer_line": "Block seatbelt, strip lone hook",
+        "distractors": {
+          "plausible": [
+            "Strip hook before blocking seatbelt",
+            "Wait for second hook to defend"
+          ],
+          "trap": [
+            "Let seatbelt in, then defend hooks"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice at controlled speed initially as the rotation under an armbar threat carries real injury risk to the elbow and shoulder joints. Partners should release armbar pressure immediately if the arm begins to extend during the turn. Never force the rotation against a fully locked armbar—tap and restart rather than risking joint damage. Communication with training partners about resistance levels is essential during progressive drilling phases. Build speed incrementally only after the arm protection mechanics are fully ingrained.",
@@ -398,23 +498,73 @@
     "flashcards": [
       {
         "question": "What is the first physical cue that tells you the bottom player is about to turn from technical mount?",
-        "answer": "The earliest cue is the far shoulder dropping toward the mat, typically accompanied by the opponent's head turning away from you. This shoulder rotation precedes hip movement and gives you a critical half-second advantage for response. The arm tuck follows immediately after, with the opponent pulling their threatened elbow tight to their body. Recognizing the shoulder drop gives you maximum time to decide between following to back control or maintaining arm control for armbar."
+        "answer": "The earliest cue is the far shoulder dropping toward the mat, typically accompanied by the opponent's head turning away from you. This shoulder rotation precedes hip movement and gives you a critical half-second advantage for response. The arm tuck follows immediately after, with the opponent pulling their threatened elbow tight to their body. Recognizing the shoulder drop gives you maximum time to decide between following to back control or maintaining arm control for armbar.",
+        "answer_line": "Far shoulder drops, head turns",
+        "distractors": {
+          "plausible": [
+            "Hip movement starts the turn",
+            "Arm tuck happens before shoulder"
+          ],
+          "trap": [
+            "Wait for full rotation to react"
+          ]
+        }
       },
       {
         "question": "When should you commit to the armbar catch versus following to back control during the opponent's turn?",
-        "answer": "Commit to armbar if you maintain solid wrist control through the first quarter of the opponent's rotation—their turning motion actually creates better armbar mechanics by extending the arm as the body rotates away from it. Commit to back take if wrist control slips during the initial rotation or if the opponent has tucked the arm so tightly that armbar angle is lost. The decision point occurs within the first one to two seconds of rotation and must be made decisively—straddling both options results in achieving neither."
+        "answer": "Commit to armbar if you maintain solid wrist control through the first quarter of the opponent's rotation—their turning motion actually creates better armbar mechanics by extending the arm as the body rotates away from it. Commit to back take if wrist control slips during the initial rotation or if the opponent has tucked the arm so tightly that armbar angle is lost. The decision point occurs within the first one to two seconds of rotation and must be made decisively—straddling both options results in achieving neither.",
+        "answer_line": "Armbar if wrist control holds",
+        "distractors": {
+          "plausible": [
+            "Always follow to back control",
+            "Wait several seconds to decide"
+          ],
+          "trap": [
+            "Split effort between both options"
+          ]
+        }
       },
       {
         "question": "How do you transition your leg position from technical mount to back control when following the opponent's turn?",
-        "answer": "Your stepped leg (the one over the opponent's body) becomes your first hook as they rotate—as their body turns, your leg naturally falls into hook position on the near side. Use this leg immediately as an anchor while your other leg swings around to establish the second hook on the far side. The key is that the stepped leg transitions smoothly from mount control to hook control without requiring you to reposition—the opponent's rotation does the positioning work for you if you maintain hip contact throughout."
+        "answer": "Your stepped leg (the one over the opponent's body) becomes your first hook as they rotate—as their body turns, your leg naturally falls into hook position on the near side. Use this leg immediately as an anchor while your other leg swings around to establish the second hook on the far side. The key is that the stepped leg transitions smoothly from mount control to hook control without requiring you to reposition—the opponent's rotation does the positioning work for you if you maintain hip contact throughout.",
+        "answer_line": "Stepped leg becomes first hook",
+        "distractors": {
+          "plausible": [
+            "Swing both legs in together",
+            "Reposition stepped leg fully"
+          ],
+          "trap": [
+            "Release hip contact to reset legs"
+          ]
+        }
       },
       {
         "question": "What is the risk of over-committing to preventing the turn rather than following it?",
-        "answer": "Over-committing to blocking the rotation by driving all your weight onto the opponent's far shoulder creates vulnerability on the opposite side. The opponent can use your forward weight commitment as leverage for a hip escape in the direction you are not blocking, potentially recovering guard or creating scramble opportunities. Additionally, forcing prevention of the turn burns your energy against their rotation while following the turn into back control gives you a superior position with less effort expended."
+        "answer": "Over-committing to blocking the rotation by driving all your weight onto the opponent's far shoulder creates vulnerability on the opposite side. The opponent can use your forward weight commitment as leverage for a hip escape in the direction you are not blocking, potentially recovering guard or creating scramble opportunities. Additionally, forcing prevention of the turn burns your energy against their rotation while following the turn into back control gives you a superior position with less effort expended.",
+        "answer_line": "Opens escape on the far side",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out quickly",
+            "Secures full back control faster"
+          ],
+          "trap": [
+            "Drive all weight to fully block"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates the turn but stops halfway and attempts to recover guard instead—how do you capitalize?",
-        "answer": "A half-turn is the worst position for the bottom player because it simultaneously exposes the back and leaves the arm vulnerable. If they stall mid-rotation, immediately re-establish arm control on the now-extended limb and drive your weight back into technical mount. Their half-turned position weakens their framing ability on both sides. If the arm is available, commit to the armbar finish since their rotated torso actually improves your attacking angle. Never allow them to settle in the half-turned position—attack immediately before they can choose a direction."
+        "answer": "A half-turn is the worst position for the bottom player because it simultaneously exposes the back and leaves the arm vulnerable. If they stall mid-rotation, immediately re-establish arm control on the now-extended limb and drive your weight back into technical mount. Their half-turned position weakens their framing ability on both sides. If the arm is available, commit to the armbar finish since their rotated torso actually improves your attacking angle. Never allow them to settle in the half-turned position—attack immediately before they can choose a direction.",
+        "answer_line": "Recontrol arm, attack armbar now",
+        "distractors": {
+          "plausible": [
+            "Let them recover guard safely",
+            "Wait for them to fully commit"
+          ],
+          "trap": [
+            "Chase back control instead"
+          ]
+        }
       }
     ],
     "training_progressions": [

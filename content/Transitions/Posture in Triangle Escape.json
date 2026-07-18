@@ -259,43 +259,143 @@
     "flashcards": [
       {
         "question": "Your opponent cups both hands behind your head and pulls forcefully downward while squeezing their triangle tighter - what is your immediate response?",
-        "answer": "Maintain your chin firmly tucked to chest and focus on generating upward force through hip drive rather than fighting the head pull directly. Walk your knees forward to establish your base under your center of gravity, then engage your posterior chain through hip extension to build posture incrementally against their pulling force. The posterior chain generates substantially more force than their arms can pull, provided your base is properly positioned. Never attempt to lift your head against their pull using neck muscles alone."
+        "answer": "Maintain your chin firmly tucked to chest and focus on generating upward force through hip drive rather than fighting the head pull directly. Walk your knees forward to establish your base under your center of gravity, then engage your posterior chain through hip extension to build posture incrementally against their pulling force. The posterior chain generates substantially more force than their arms can pull, provided your base is properly positioned. Never attempt to lift your head against their pull using neck muscles alone.",
+        "answer_line": "Chin tucked, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Fight the pull with neck strength",
+            "Push away with hands on mat"
+          ],
+          "trap": [
+            "Arch back to escape the squeeze"
+          ]
+        }
       },
       {
         "question": "What is the most critical spine alignment required for successful posture recovery against a locked triangle?",
-        "answer": "The spine must achieve vertical alignment from tailbone through the crown of the head, creating a structural column that distributes the triangle's compressive force along the entire spinal structure rather than concentrating it on the neck. The chin must remain firmly tucked throughout to protect the carotid arteries, and the chest must drive forward and upward simultaneously. This vertical column, combined with squared shoulders relative to the opponent's hips, disrupts both the vertical compression and the angular geometry that power the triangle choke."
+        "answer": "The spine must achieve vertical alignment from tailbone through the crown of the head, creating a structural column that distributes the triangle's compressive force along the entire spinal structure rather than concentrating it on the neck. The chin must remain firmly tucked throughout to protect the carotid arteries, and the chest must drive forward and upward simultaneously. This vertical column, combined with squared shoulders relative to the opponent's hips, disrupts both the vertical compression and the angular geometry that power the triangle choke.",
+        "answer_line": "Vertical spine, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Lean shoulders back for space",
+            "Square hips, ignore spine angle"
+          ],
+          "trap": [
+            "Arch neck back to lift head"
+          ]
+        }
       },
       {
         "question": "You feel the triangle loosening momentarily as your opponent readjusts their figure-four leg position - how do you exploit this window?",
-        "answer": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
+        "answer": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds.",
+        "answer_line": "Urgent hip drive, step trapped side",
+        "distractors": {
+          "plausible": [
+            "Explosive jerk to rip free",
+            "Wait for full release first"
+          ],
+          "trap": [
+            "Pull trapped arm out fast"
+          ]
+        }
       },
       {
         "question": "What is the correct placement and function of the free hand during posture recovery?",
-        "answer": "The free hand should be posted firmly on the opponent's hip or thigh on the choking leg side, pressing downward with sustained force. It serves two critical functions: preventing hip elevation that enables the opponent to create the perpendicular finishing angle, and providing a structural base point that assists your upward drive. The hand must never be extended into the guard space where it could be captured. It functions simultaneously as a hip control mechanism and a stabilization post throughout the entire posture sequence."
+        "answer": "The free hand should be posted firmly on the opponent's hip or thigh on the choking leg side, pressing downward with sustained force. It serves two critical functions: preventing hip elevation that enables the opponent to create the perpendicular finishing angle, and providing a structural base point that assists your upward drive. The hand must never be extended into the guard space where it could be captured. It functions simultaneously as a hip control mechanism and a stabilization post throughout the entire posture sequence.",
+        "answer_line": "Post free hand on their hip",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar instead",
+            "Push against their chest"
+          ],
+          "trap": [
+            "Reach into guard for underhook"
+          ]
+        }
       },
       {
         "question": "What direction of force should your legs generate during the posture recovery phase?",
-        "answer": "Your legs should generate a forward-and-upward force vector through hip extension, driving your weight through your hips and into the opponent's midsection while simultaneously creating vertical spine height. The drive originates from the balls of your feet through extended legs, powering the posterior chain. Your knees should remain spread wide for lateral stability. The force must never be purely upward, as this creates a backward weight shift. The forward component stacks the opponent while the upward component achieves posture, and both are essential."
+        "answer": "Your legs should generate a forward-and-upward force vector through hip extension, driving your weight through your hips and into the opponent's midsection while simultaneously creating vertical spine height. The drive originates from the balls of your feet through extended legs, powering the posterior chain. Your knees should remain spread wide for lateral stability. The force must never be purely upward, as this creates a backward weight shift. The forward component stacks the opponent while the upward component achieves posture, and both are essential.",
+        "answer_line": "Forward-and-upward hip drive",
+        "distractors": {
+          "plausible": [
+            "Straight upward push only",
+            "Push backward to create space"
+          ],
+          "trap": [
+            "Kick legs out straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pivoting their hips to isolate your trapped arm for an armbar transition during your posture attempt - how do you respond?",
-        "answer": "Pin your trapped arm elbow firmly against your ribs and turn your body toward the trapped arm side. Increase forward stacking pressure onto their hips to limit the mobility they need for the armbar pivot. If they commit to opening the triangle for the armbar, follow their hip rotation by stepping around toward your trapped arm side while maintaining forward drive. Never pull backward, as this gives them the arm extension they need to finish. The stacking pressure restricts their hip movement for both the triangle and the armbar."
+        "answer": "Pin your trapped arm elbow firmly against your ribs and turn your body toward the trapped arm side. Increase forward stacking pressure onto their hips to limit the mobility they need for the armbar pivot. If they commit to opening the triangle for the armbar, follow their hip rotation by stepping around toward your trapped arm side while maintaining forward drive. Never pull backward, as this gives them the arm extension they need to finish. The stacking pressure restricts their hip movement for both the triangle and the armbar.",
+        "answer_line": "Pin elbow to ribs, stack hips",
+        "distractors": {
+          "plausible": [
+            "Pull trapped arm back sharply",
+            "Extend arm to break grip"
+          ],
+          "trap": [
+            "Pull away creating arm space"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the trapped arm prevents it from becoming an armbar target during posture attempts?",
-        "answer": "The trapped arm's elbow must be pinned tight against your ribcage with your hand positioned near your own chest, gripping your own collar in gi or pressing your palm against your sternum in no-gi. This creates a structural frame where the arm is protected by your torso mass rather than extended into space where it can be isolated. The shoulder should be rotated inward to reduce the attack surface, and the entire arm should function as a single unit connected to your torso rather than an independent limb vulnerable to leverage."
+        "answer": "The trapped arm's elbow must be pinned tight against your ribcage with your hand positioned near your own chest, gripping your own collar in gi or pressing your palm against your sternum in no-gi. This creates a structural frame where the arm is protected by your torso mass rather than extended into space where it can be isolated. The shoulder should be rotated inward to reduce the attack surface, and the entire arm should function as a single unit connected to your torso rather than an independent limb vulnerable to leverage.",
+        "answer_line": "Elbow pinned to ribs, hand to chest",
+        "distractors": {
+          "plausible": [
+            "Arm extended for base",
+            "Grip their sleeve for control"
+          ],
+          "trap": [
+            "Post trapped hand on mat"
+          ]
+        }
       },
       {
         "question": "After achieving partial posture but before full escape, your opponent re-breaks your posture by pulling you back down - what is the correct recovery approach?",
-        "answer": "Reset immediately to fundamental defensive configuration: re-pin your trapped arm elbow to ribs, re-post your free hand on their hip, re-tuck your chin, and re-establish your knee base. Take a controlled breath to stabilize before reinitiating the complete posture sequence from the beginning with emphasis on hip drive rather than continuing a broken sequence. Each recovery attempt must start from the fundamentals rather than trying to salvage a failed attempt. Build systematic pressure through repeated correct technique, as the opponent's grip fatigue from multiple re-breaking efforts progressively weakens their defense."
+        "answer": "Reset immediately to fundamental defensive configuration: re-pin your trapped arm elbow to ribs, re-post your free hand on their hip, re-tuck your chin, and re-establish your knee base. Take a controlled breath to stabilize before reinitiating the complete posture sequence from the beginning with emphasis on hip drive rather than continuing a broken sequence. Each recovery attempt must start from the fundamentals rather than trying to salvage a failed attempt. Build systematic pressure through repeated correct technique, as the opponent's grip fatigue from multiple re-breaking efforts progressively weakens their defense.",
+        "answer_line": "Reset fundamentals, restart sequence",
+        "distractors": {
+          "plausible": [
+            "Push through with more force",
+            "Speed up next attempt"
+          ],
+          "trap": [
+            "Abandon arm control to escape"
+          ]
+        }
       },
       {
         "question": "Which side should you step and circle toward as the triangle loosens, and why does direction matter?",
-        "answer": "Always step and circle toward your trapped arm side, never toward the free arm side. Moving toward the trapped arm opens the triangle's leg structure and works with the natural escape geometry, whereas circling toward the free arm drives you deeper into the choking angle the opponent wants and tightens the lock. As you gain posture, this directional discipline converts your upward drive into a clearing path toward half guard top rather than feeding the submission."
+        "answer": "Always step and circle toward your trapped arm side, never toward the free arm side. Moving toward the trapped arm opens the triangle's leg structure and works with the natural escape geometry, whereas circling toward the free arm drives you deeper into the choking angle the opponent wants and tightens the lock. As you gain posture, this directional discipline converts your upward drive into a clearing path toward half guard top rather than feeding the submission.",
+        "answer_line": "Step toward trapped arm side",
+        "distractors": {
+          "plausible": [
+            "Circle toward your free arm",
+            "Stay put, drive straight up"
+          ],
+          "trap": [
+            "Spin toward the choking angle"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before posture recovery becomes a realistic high-percentage option?",
-        "answer": "You need at least one knee or foot posted on the mat to generate hip-driven force, a free arm available to control the opponent's hip rather than being captured, your trapped-arm elbow pinned to your ribs, chin tucked to protect the carotids, and crucially a triangle that is not yet fully cinched at the optimal perpendicular angle. Against a fully locked triangle with a perfected angle, posture recovery is one of the lowest-percentage scenarios; the realistic window is during the opponent's leg adjustments when the lock briefly loosens."
+        "answer": "You need at least one knee or foot posted on the mat to generate hip-driven force, a free arm available to control the opponent's hip rather than being captured, your trapped-arm elbow pinned to your ribs, chin tucked to protect the carotids, and crucially a triangle that is not yet fully cinched at the optimal perpendicular angle. Against a fully locked triangle with a perfected angle, posture recovery is one of the lowest-percentage scenarios; the realistic window is during the opponent's leg adjustments when the lock briefly loosens.",
+        "answer_line": "Base posted, arm pinned, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Any grip break signals go",
+            "Try anytime, angle irrelevant"
+          ],
+          "trap": [
+            "Force it against a full lock"
+          ]
+        }
       }
     ],
     "safety_considerations": "Posture recovery during triangle escapes involves direct resistance against an active choking mechanism that compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Never attempt to fight through a fully locked triangle past the point where you feel tunnel vision, lightheadedness, or bilateral neck pressure distortion. Tap immediately when consciousness is threatened rather than risking loss of consciousness during the posture attempt. The stacking component places compressive force on the opponent's cervical spine, so stack gradually rather than explosively during training to protect your partner. Training partners should communicate openly about pressure levels and release immediately upon tap. Never explosively jerk your head upward against locked triangle pressure, as this risks cervical vertebrae compression injuries.",
@@ -413,23 +513,73 @@
     "flashcards": [
       {
         "question": "What are the three interconnected defensive mechanisms for preventing posture recovery, and why must they work together?",
-        "answer": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off the opponent's centerline. They must work together because each individually is insufficient against a technically correct posture-up. Head control alone is overpowered by posterior chain hip drive. Hip extension without proper angle is geometrically weak. Angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts."
+        "answer": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off the opponent's centerline. They must work together because each individually is insufficient against a technically correct posture-up. Head control alone is overpowered by posterior chain hip drive. Hip extension without proper angle is geometrically weak. Angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts.",
+        "answer_line": "Head control + hips + angle",
+        "distractors": {
+          "plausible": [
+            "Head control alone suffices",
+            "Angle alone stops posture"
+          ],
+          "trap": [
+            "Relax legs to save energy"
+          ]
+        }
       },
       {
         "question": "You feel your opponent posting their free hand firmly on your hip and beginning to walk their knees forward - what is the earliest defensive response?",
-        "answer": "The earliest response is to pull down aggressively on their head with both hands while simultaneously extending your hips and squeezing your knees together. This pre-emptive defensive engagement addresses the posture attempt before meaningful upward force is generated. Additionally, use your free leg or hip movement to disrupt their knee-walking by shifting your angle, making it harder for them to establish stable base underneath their center of gravity."
+        "answer": "The earliest response is to pull down aggressively on their head with both hands while simultaneously extending your hips and squeezing your knees together. This pre-emptive defensive engagement addresses the posture attempt before meaningful upward force is generated. Additionally, use your free leg or hip movement to disrupt their knee-walking by shifting your angle, making it harder for them to establish stable base underneath their center of gravity.",
+        "answer_line": "Pull head, extend hips, squeeze",
+        "distractors": {
+          "plausible": [
+            "Wait until posture is achieved",
+            "Grab their far arm instead"
+          ],
+          "trap": [
+            "Release knee squeeze to reset"
+          ]
+        }
       },
       {
         "question": "Your opponent has gained partial posture despite your defensive efforts - should you continue fighting for triangle or transition to armbar?",
-        "answer": "Evaluate whether your triangle structure retains two or more of these elements: hip elevation capability, intact figure-four lock with active pressure, and perpendicular angle producing visible distress in the opponent. If two or more elements are lost, the triangle is definitively compromised and you should transition to armbar on the trapped arm before the extraction window closes. The armbar transition is most effective when the opponent's elbow has separated from their ribs during posture recovery, creating the isolation angle you need."
+        "answer": "Evaluate whether your triangle structure retains two or more of these elements: hip elevation capability, intact figure-four lock with active pressure, and perpendicular angle producing visible distress in the opponent. If two or more elements are lost, the triangle is definitively compromised and you should transition to armbar on the trapped arm before the extraction window closes. The armbar transition is most effective when the opponent's elbow has separated from their ribs during posture recovery, creating the isolation angle you need.",
+        "answer_line": "Two elements lost, go to armbar",
+        "distractors": {
+          "plausible": [
+            "Never abandon the triangle",
+            "Switch after any posture gain"
+          ],
+          "trap": [
+            "Release trapped arm to reset"
+          ]
+        }
       },
       {
         "question": "How does understanding that the opponent's posture recovery is hip-driven inform your defensive strategy?",
-        "answer": "Knowing the posture is hip-driven means your defense must address their hip movement and base positioning rather than just fighting the head position. If they used neck muscles alone, simple head pulling would suffice. Against hip drive, you must prevent their hips from moving forward and upward. Use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, squeeze your knees to compress their shoulder structure, and disrupt their base by not allowing stable knee positioning underneath their center of gravity."
+        "answer": "Knowing the posture is hip-driven means your defense must address their hip movement and base positioning rather than just fighting the head position. If they used neck muscles alone, simple head pulling would suffice. Against hip drive, you must prevent their hips from moving forward and upward. Use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, squeeze your knees to compress their shoulder structure, and disrupt their base by not allowing stable knee positioning underneath their center of gravity.",
+        "answer_line": "Block hips, not just the head",
+        "distractors": {
+          "plausible": [
+            "Focus only on head control",
+            "Rely on arm strength alone"
+          ],
+          "trap": [
+            "Release hip pressure, grab head"
+          ]
+        }
       },
       {
         "question": "Your opponent is incrementally gaining posture through repeated controlled extensions rather than explosive attempts - how do you disrupt this systematic approach?",
-        "answer": "Counter their incremental approach by varying your defensive timing and intensity to prevent them from finding a sustainable rhythm. Alternate between pulling their head down forcefully and releasing slightly to bait an overcommitment to upward drive that opens sweep or armbar opportunities. Adjust your angle unpredictably to force them to constantly recalibrate their squaring effort. The goal is converting their systematic sequence into a reactive scramble where they cannot execute the controlled incremental approach that makes hip-driven posture recovery effective."
+        "answer": "Counter their incremental approach by varying your defensive timing and intensity to prevent them from finding a sustainable rhythm. Alternate between pulling their head down forcefully and releasing slightly to bait an overcommitment to upward drive that opens sweep or armbar opportunities. Adjust your angle unpredictably to force them to constantly recalibrate their squaring effort. The goal is converting their systematic sequence into a reactive scramble where they cannot execute the controlled incremental approach that makes hip-driven posture recovery effective.",
+        "answer_line": "Vary timing to break rhythm",
+        "distractors": {
+          "plausible": [
+            "Match their steady pace",
+            "Hold one constant defense"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -311,42 +311,122 @@
       {
         "question": "What anatomical structure does the Americana from Reverse Kesa-Gatame primarily attack?",
         "answer": "The Americana primarily attacks the glenohumeral joint of the shoulder, specifically targeting the rotator cuff complex including the supraspinatus, infraspinatus, subscapularis, and teres minor muscles. The figure-four grip creates external rotation and abduction of the humerus beyond its natural range of motion, placing extreme stress on the shoulder capsule and surrounding ligaments. Secondary stress affects the AC joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint (glenohumeral)",
+        "distractors": {
+          "plausible": [
+            "Elbow joint (like armbar)",
+            "Wrist joint directly"
+          ],
+          "trap": [
+            "Neck via collar pressure"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the defender's shoulder is approaching its breaking point?",
         "answer": "Watch for the defender's face showing visible distress, their body tensing or arching involuntarily, verbal sounds indicating pain, and resistance becoming frantic rather than technical and controlled. The arm will reach a point where further rotation meets hard anatomical resistance rather than muscular resistance. At this point the defender should tap immediately and you must be prepared to release instantly upon any signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face distress, frantic resistance",
+        "distractors": {
+          "plausible": [
+            "Verbal tap only",
+            "Arm goes limp and relaxed"
+          ],
+          "trap": [
+            "Wait for audible pop"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before beginning the Americana finish?",
         "answer": "You must have consolidated reverse kesa-gatame with heavy chest pressure on the defender's upper torso, the far arm isolated from their body with the wrist pinned to the mat beside their head and the elbow bent at approximately ninety degrees, the figure-four grip locked with all slack removed, and a wide base with sprawled legs providing stability. Without all four elements in place, the submission attempt will likely fail or compromise your position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pressure, wrist pin, grip, base",
+        "distractors": {
+          "plausible": [
+            "Figure-four grip alone is enough",
+            "Just pin the wrist to the mat"
+          ],
+          "trap": [
+            "Release chest pressure to grip"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana application does escape become nearly impossible for the defender?",
         "answer": "Once the figure-four grip is fully locked with all slack removed and the wrist is pinned firmly to the mat, escape becomes extremely difficult. The critical control point is the combination of chest pressure pinning the shoulder, the figure-four eliminating independent arm movement, and the wrist pinned to the mat preventing any shoulder rotation. Before the figure-four is completed, the defender has multiple viable escape windows to exploit.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, wrist pinned",
+        "distractors": {
+          "plausible": [
+            "As soon as reverse kesa starts",
+            "Once far arm is grabbed"
+          ],
+          "trap": [
+            "After first rotation attempt"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their arm as you attempt the wrist pin—what is the correct adjustment?",
         "answer": "Immediately transition to a kimura attack by maintaining your grip on their wrist and switching your other hand to grip your own wrist from underneath their extended arm. The straightened arm actually improves your angle for the kimura because you can now drive the arm behind their back with superior leverage. This Americana-to-kimura chain is one of the highest-percentage submission sequences available from reverse kesa-gatame.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to kimura grip",
+        "distractors": {
+          "plausible": [
+            "Force the Americana harder",
+            "Abandon attack, reset position"
+          ],
+          "trap": [
+            "Let go and re-grip wrist only"
+          ]
+        }
       },
       {
         "question": "How should grip adjustments be made if the defender begins extracting their wrist during rotation?",
         "answer": "If the wrist begins sliding free, immediately stop the rotation and re-establish the pin before continuing. Drive your body weight downward through your chest onto their shoulder to flatten them completely, then use your forearm to press their wrist back to the mat. Never chase a slipping grip with arm strength alone as this sacrifices positional pressure. If the wrist escapes entirely, return to position maintenance and restart the isolation sequence from the beginning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stop, flatten, re-pin wrist",
+        "distractors": {
+          "plausible": [
+            "Chase grip with arm strength",
+            "Speed up the rotation"
+          ],
+          "trap": [
+            "Muscle the wrist back by force"
+          ]
+        }
       },
       {
         "question": "What is the correct speed of application when finishing the Americana in training?",
         "answer": "Apply rotational pressure slowly over a minimum of three to five seconds from initial engagement to expected tap. In drilling, use no more than ten to twenty percent of your available force. Never jerk, spike, or apply sudden force to the shoulder joint under any circumstances. The slow application gives your training partner adequate time to recognize the submission and tap safely while simultaneously improving your control and feel for the finishing mechanics.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, 3-5 seconds, 10-20% force",
+        "distractors": {
+          "plausible": [
+            "Fast to prevent escape",
+            "Full force once locked"
+          ],
+          "trap": [
+            "Quick jerk to spike pain"
+          ]
+        }
       },
       {
         "question": "How do you maintain position if the defender attempts a bridge and roll during the Americana application?",
         "answer": "Widen your base immediately by extending your far leg further out and posting your near foot firmly on the mat. Drop your hips lower to increase downward pressure on their torso and ribs. Maintain the figure-four grip but pause the rotation until the bridge attempt subsides completely. Ride the bridge by staying connected to their body rather than tensing rigidly against the movement. Once they settle back to the mat, resume the slow progressive rotational pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, drop hips, ride it",
+        "distractors": {
+          "plausible": [
+            "Tense rigidly against bridge",
+            "Release grip, reset position"
+          ],
+          "trap": [
+            "Chase the roll, lose base"
+          ]
+        }
       }
     ],
     "clips": [
@@ -459,22 +539,62 @@
       {
         "question": "How do you recognize that the Americana from Reverse Kesa-Gatame is being set up?",
         "answer": "The primary recognition cues are the attacker's near-side hand reaching for your far wrist or forearm while maintaining reverse kesa chest pressure, your arm being pulled away from your body toward the mat beside your head, and the attacker beginning to thread their far hand under your upper arm for the figure-four grip. The earlier you recognize this sequence, the more defensive options remain available to prevent the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist isolated, figure-4 forming",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your far leg",
+            "Opponent switches to mount"
+          ],
+          "trap": [
+            "Ignore hand near your wrist"
+          ]
+        }
       },
       {
         "question": "What is the safest approach to tapping when caught in the Americana from Reverse Kesa-Gatame?",
         "answer": "Tap early and clearly using multiple simultaneous signals. Use your free hand to tap firmly on the attacker's body or the mat at least two times while giving a verbal tap by saying 'tap' clearly. If your free hand is trapped, use foot taps on the mat. Never try to tough out a locked Americana in training because the shoulder joint can sustain permanent damage within seconds once the rotational limit is reached, potentially requiring months of recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, verbal plus physical",
+        "distractors": {
+          "plausible": [
+            "Tap only once lightly",
+            "Wait to see if it worsens"
+          ],
+          "trap": [
+            "Try to power out instead"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Americana from Reverse Kesa-Gatame?",
         "answer": "The primary defensive options are grip fighting to prevent wrist isolation by anchoring your arm to your own body, straightening the arm momentarily combined with a bridge to prevent figure-four establishment, timing a hip escape when the attacker lifts chest pressure to work on arm control, and turning into the attacker to close the rotational angle. The most critical principle is early intervention before the figure-four is fully locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight, bridge, early escape",
+        "distractors": {
+          "plausible": [
+            "Wait for figure-four to lock",
+            "Pull elbow to your body only"
+          ],
+          "trap": [
+            "Push into the submission"
+          ]
+        }
       },
       {
         "question": "When should you prioritize escaping the position over defending the submission specifically?",
         "answer": "Prioritize position escape when the attacker's chest pressure lifts during their submission setup, creating a window for hip movement. If you feel space developing between your upper body and the attacker's chest, immediately invest in a hip escape toward guard recovery rather than simply defending the arm. A successful position escape eliminates all submission threats simultaneously, while pure arm defense only delays the inevitable against a skilled attacker who will chain to kimura and arm triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When chest pressure lifts",
+        "distractors": {
+          "plausible": [
+            "Only after tapping once",
+            "When grip fully locked"
+          ],
+          "trap": [
+            "Never, always fight the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

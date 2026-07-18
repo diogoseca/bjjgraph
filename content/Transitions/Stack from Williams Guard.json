@@ -241,35 +241,115 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the stack from Williams Guard?",
-        "answer": "The best moment to initiate the stack is when the bottom player commits to the shoulder lock submission attempt and pulls your arm deeper into the lock configuration. Their focus on grip tightening reduces awareness of the stacking threat, and their grip commitment prevents the hip escape needed to defend the stack. Initiating when they are actively hunting the submission rather than maintaining neutral control creates the largest vulnerability window."
+        "answer": "The best moment to initiate the stack is when the bottom player commits to the shoulder lock submission attempt and pulls your arm deeper into the lock configuration. Their focus on grip tightening reduces awareness of the stacking threat, and their grip commitment prevents the hip escape needed to defend the stack. Initiating when they are actively hunting the submission rather than maintaining neutral control creates the largest vulnerability window.",
+        "answer_line": "When they commit to the lock",
+        "distractors": {
+          "plausible": [
+            "Right when they first grip arm",
+            "As they retreat to neutral"
+          ],
+          "trap": [
+            "While your posture is broken"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can successfully attempt the stack from Williams Guard?",
-        "answer": "Your shoulder must be properly aligned with elbow bent to prevent immediate submission during the forward drive. You need a functional base with at least one foot posted and your free hand available for hip control rather than posted on the mat. The bottom player's legs must not have secondary frames like knee shield or butterfly hooks blocking forward pressure, and your hips must be low enough to generate forward driving force rather than pushing from an upright position."
+        "answer": "Your shoulder must be properly aligned with elbow bent to prevent immediate submission during the forward drive. You need a functional base with at least one foot posted and your free hand available for hip control rather than posted on the mat. The bottom player's legs must not have secondary frames like knee shield or butterfly hooks blocking forward pressure, and your hips must be low enough to generate forward driving force rather than pushing from an upright position.",
+        "answer_line": "Elbow bent, base set, hips low",
+        "distractors": {
+          "plausible": [
+            "Free hand posted on the mat",
+            "Hips high, pushing from top"
+          ],
+          "trap": [
+            "Elbow straight, arm extended"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the stacking sequence?",
-        "answer": "The progressive forward walk of the hips past the bottom player's centerline is the most critical movement. Each incremental step increases the stacking angle and folds the bottom player's hips toward their head. This movement must be controlled and methodical rather than explosive, as sudden lunges allow the bottom player to redirect momentum into sweeps or omoplata transitions that convert your energy against you."
+        "answer": "The progressive forward walk of the hips past the bottom player's centerline is the most critical movement. Each incremental step increases the stacking angle and folds the bottom player's hips toward their head. This movement must be controlled and methodical rather than explosive, as sudden lunges allow the bottom player to redirect momentum into sweeps or omoplata transitions that convert your energy against you.",
+        "answer_line": "Walk hips forward, controlled",
+        "distractors": {
+          "plausible": [
+            "Push straight down, no walk",
+            "Step out to the side first"
+          ],
+          "trap": [
+            "One explosive forward lunge"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the stack fails against experienced Williams Guard players?",
-        "answer": "The most common failure is rushing the stacking sequence by driving forward too aggressively without establishing progressive pressure. This allows the bottom player to use forward momentum to execute an omoplata transition or hook sweep, converting your passing energy into their offensive advantage. Methodical, incremental pressure with constant base adjustment prevents these momentum-based counters entirely."
+        "answer": "The most common failure is rushing the stacking sequence by driving forward too aggressively without establishing progressive pressure. This allows the bottom player to use forward momentum to execute an omoplata transition or hook sweep, converting your passing energy into their offensive advantage. Methodical, incremental pressure with constant base adjustment prevents these momentum-based counters entirely.",
+        "answer_line": "Rushing, no progressive pressure",
+        "distractors": {
+          "plausible": [
+            "Weak shoulder lock grip",
+            "Not enough base adjustments"
+          ],
+          "trap": [
+            "Waiting too long to commit"
+          ]
+        }
       },
       {
         "question": "What grips or controls should you maintain with your free hand during the stacking sequence?",
-        "answer": "Your free hand should control the bottom player's far hip or the back of their knee on the non-trapped side. This prevents hip escape to the far side, which is the primary stack defense. Avoid posting the free hand on the mat as this creates a vulnerable target for triangle attacks and reduces your ability to control their hip angle throughout the stacking sequence."
+        "answer": "Your free hand should control the bottom player's far hip or the back of their knee on the non-trapped side. This prevents hip escape to the far side, which is the primary stack defense. Avoid posting the free hand on the mat as this creates a vulnerable target for triangle attacks and reduces your ability to control their hip angle throughout the stacking sequence.",
+        "answer_line": "Control far hip or knee",
+        "distractors": {
+          "plausible": [
+            "Grip their same-side hip",
+            "Control their far ankle"
+          ],
+          "trap": [
+            "Post hand flat on the mat"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force be applied during the stack?",
-        "answer": "The primary force vector should drive forward and slightly downward at approximately a 45-degree angle through the bottom player's hip line toward their far shoulder. This angle maximizes the folding effect on their guard structure while maintaining your base. Driving too vertically loses base stability, while driving too horizontally fails to create sufficient stacking pressure on their hips to compress the guard."
+        "answer": "The primary force vector should drive forward and slightly downward at approximately a 45-degree angle through the bottom player's hip line toward their far shoulder. This angle maximizes the folding effect on their guard structure while maintaining your base. Driving too vertically loses base stability, while driving too horizontally fails to create sufficient stacking pressure on their hips to compress the guard.",
+        "answer_line": "45° forward-down to far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight down, vertical push",
+            "Flat forward, no downward angle"
+          ],
+          "trap": [
+            "Push straight up and back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hip escaping to their right as you initiate the stack—how do you adjust?",
-        "answer": "Immediately shift your pressure to follow their hip movement, driving your shoulder and chest into their right thigh to block the escape angle. Use your free hand to push their far hip back toward center. If they create significant angle, consider switching to a knee slice pass on the side they have exposed rather than fighting to re-center the stack, since their hip escape often opens a direct knee cut passing lane."
+        "answer": "Immediately shift your pressure to follow their hip movement, driving your shoulder and chest into their right thigh to block the escape angle. Use your free hand to push their far hip back toward center. If they create significant angle, consider switching to a knee slice pass on the side they have exposed rather than fighting to re-center the stack, since their hip escape often opens a direct knee cut passing lane.",
+        "answer_line": "Follow pressure, block angle",
+        "distractors": {
+          "plausible": [
+            "Force stack back to center",
+            "Immediately switch knee cut"
+          ],
+          "trap": [
+            "Ignore it, keep same pressure"
+          ]
+        }
       },
       {
         "question": "If the bottom player releases their shoulder lock grip to defend the stack, what is your immediate follow-up?",
-        "answer": "The instant the grip releases, capitalize by immediately extracting your freed arm using a circular elbow rotation and establishing crossface control before they can re-grip or transition to another guard. Drive your freed arm's shoulder into their jaw line, drop your hips to consolidate half guard top, and begin your preferred passing sequence. Hesitation allows them to re-establish grips or recover to open guard, wasting the positional advantage."
+        "answer": "The instant the grip releases, capitalize by immediately extracting your freed arm using a circular elbow rotation and establishing crossface control before they can re-grip or transition to another guard. Drive your freed arm's shoulder into their jaw line, drop your hips to consolidate half guard top, and begin your preferred passing sequence. Hesitation allows them to re-establish grips or recover to open guard, wasting the positional advantage.",
+        "answer_line": "Free arm fast, crossface",
+        "distractors": {
+          "plausible": [
+            "Wait for them to re-grip",
+            "Re-grip the shoulder lock"
+          ],
+          "trap": [
+            "Pause and reset your base"
+          ]
+        }
       }
     ],
     "safety_considerations": "The stacking motion places significant pressure on the bottom player's cervical spine and lower back. Apply pressure gradually and progressively rather than suddenly dropping weight onto a folded training partner. Monitor your partner's comfort level during stacking sequences and immediately release pressure if they signal discomfort or tap. Avoid explosive forward drives that could cause whiplash-type forces on the neck. In drilling, communicate with your partner about pressure intensity and allow them to adjust their positioning for comfort.",
@@ -378,23 +458,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate a stack attempt from Williams Guard?",
-        "answer": "The earliest cues are the top player lowering their hips toward the mat, shifting weight forward rather than maintaining upright posture, and their free hand moving toward your far hip to block escape. You will feel increasing compression through the shoulder lock as their chest pressure increases into your thighs. Additionally, the sensation of small forward foot steps and your hips beginning to lift from the mat confirms stacking intent."
+        "answer": "The earliest cues are the top player lowering their hips toward the mat, shifting weight forward rather than maintaining upright posture, and their free hand moving toward your far hip to block escape. You will feel increasing compression through the shoulder lock as their chest pressure increases into your thighs. Additionally, the sensation of small forward foot steps and your hips beginning to lift from the mat confirms stacking intent.",
+        "answer_line": "Hips lower, weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive forward drive",
+            "Tighter grip on your sleeve"
+          ],
+          "trap": [
+            "They sit back and reset"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to initiate hip escape defense against the stack?",
-        "answer": "Hip escape must begin at the earliest possible moment when you feel forward pressure increasing, before the stacking angle elevates your hips significantly. Once the top player has walked their hips past your centerline and your hips are raised toward your shoulders, hip escape becomes extremely difficult. The window closes rapidly, so immediate reaction to the initial forward drive is critical for successful stack defense."
+        "answer": "Hip escape must begin at the earliest possible moment when you feel forward pressure increasing, before the stacking angle elevates your hips significantly. Once the top player has walked their hips past your centerline and your hips are raised toward your shoulders, hip escape becomes extremely difficult. The window closes rapidly, so immediate reaction to the initial forward drive is critical for successful stack defense.",
+        "answer_line": "Immediately at first pressure",
+        "distractors": {
+          "plausible": [
+            "Once hips are near shoulders",
+            "After they secure crossface"
+          ],
+          "trap": [
+            "Wait to see how far it goes"
+          ]
+        }
       },
       {
         "question": "How should you decide between maintaining shoulder lock grip versus releasing it to defend the stack?",
-        "answer": "Maintain the grip as long as you can effectively hip escape and create angles to prevent the stack from folding you. If the stacking pressure has progressed to the point where your hips are elevated over your shoulders and you cannot create defensive angles, release the grip and immediately transition to recovering open guard or half guard frames. A completed stack with grip retention leads to guard pass, while timely release preserves guard recovery options."
+        "answer": "Maintain the grip as long as you can effectively hip escape and create angles to prevent the stack from folding you. If the stacking pressure has progressed to the point where your hips are elevated over your shoulders and you cannot create defensive angles, release the grip and immediately transition to recovering open guard or half guard frames. A completed stack with grip retention leads to guard pass, while timely release preserves guard recovery options.",
+        "answer_line": "Release once angles run out",
+        "distractors": {
+          "plausible": [
+            "Release at the very first push",
+            "Hold grip, ignore your hips"
+          ],
+          "trap": [
+            "Keep grip even once folded flat"
+          ]
+        }
       },
       {
         "question": "What sweep opportunity becomes available when the top player overcommits to the stack?",
-        "answer": "When the top player drives forward aggressively with excessive commitment, their base becomes vulnerable to being rolled through. Use the momentum of their forward drive combined with a bridge and hip thrust to roll them over your shoulder toward the controlled arm side. Alternatively, channel their forward energy into an omoplata rotation. Both counters convert their passing attempt into a positional reversal to half guard top."
+        "answer": "When the top player drives forward aggressively with excessive commitment, their base becomes vulnerable to being rolled through. Use the momentum of their forward drive combined with a bridge and hip thrust to roll them over your shoulder toward the controlled arm side. Alternatively, channel their forward energy into an omoplata rotation. Both counters convert their passing attempt into a positional reversal to half guard top.",
+        "answer_line": "Bridge and roll them over",
+        "distractors": {
+          "plausible": [
+            "Push them away and stand up",
+            "Pull guard closed tightly"
+          ],
+          "trap": [
+            "Try to power out with strength"
+          ]
+        }
       },
       {
         "question": "How do you transition to guard recovery when the stack is partially successful?",
-        "answer": "As stacking pressure increases, release the shoulder lock grip early enough to retain hand fighting capability. Use your legs to immediately reclamp around their waist or establish butterfly hooks to create new distance frames. Hip escape to create angle, then work to close your guard or establish knee shield half guard. The critical factor is transitioning before you are completely folded, maintaining enough hip mobility to insert defensive leg frames."
+        "answer": "As stacking pressure increases, release the shoulder lock grip early enough to retain hand fighting capability. Use your legs to immediately reclamp around their waist or establish butterfly hooks to create new distance frames. Hip escape to create angle, then work to close your guard or establish knee shield half guard. The critical factor is transitioning before you are completely folded, maintaining enough hip mobility to insert defensive leg frames.",
+        "answer_line": "Release early, reclamp legs",
+        "distractors": {
+          "plausible": [
+            "Hold grip until fully stacked",
+            "Push away and scramble up"
+          ],
+          "trap": [
+            "Wait until fully folded to react"
+          ]
+        }
       }
     ],
     "training_progressions": [

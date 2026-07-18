@@ -241,39 +241,129 @@
     "flashcards": [
       {
         "question": "What is the correct frame structure and why must elbows remain bent throughout the escape?",
-        "answer": "Frames should be built with elbows bent at approximately ninety degrees and connected to the body, creating structural barriers rather than muscular pushing. Straight-arm frames create vulnerability to kimura, americana, and other arm attacks, and they fatigue rapidly because they rely on muscular endurance. Bent-elbow frames redirect force through bone structure, making them sustainable and resistant to collapse under heavy pressure."
+        "answer": "Frames should be built with elbows bent at approximately ninety degrees and connected to the body, creating structural barriers rather than muscular pushing. Straight-arm frames create vulnerability to kimura, americana, and other arm attacks, and they fatigue rapidly because they rely on muscular endurance. Bent-elbow frames redirect force through bone structure, making them sustainable and resistant to collapse under heavy pressure.",
+        "answer_line": "Bent elbows, tight to body",
+        "distractors": {
+          "plausible": [
+            "Straight arms for max reach",
+            "Elbows flared wide for space"
+          ],
+          "trap": [
+            "Push hard with straight arms"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to establish initial frames against the top player?",
-        "answer": "The optimal window occurs when the top player shifts their weight forward to pursue twister submissions or choke attacks, momentarily reducing their base stability and leg entanglement effectiveness. This weight shift creates a brief period where shoulder pressure decreases slightly, allowing the bottom player to insert frames more easily than during settled, heavy positional control."
+        "answer": "The optimal window occurs when the top player shifts their weight forward to pursue twister submissions or choke attacks, momentarily reducing their base stability and leg entanglement effectiveness. This weight shift creates a brief period where shoulder pressure decreases slightly, allowing the bottom player to insert frames more easily than during settled, heavy positional control.",
+        "answer_line": "When top shifts weight forward",
+        "distractors": {
+          "plausible": [
+            "Right after they pass guard",
+            "When they settle heavy pressure"
+          ],
+          "trap": [
+            "Wait until twister is locked"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you commit to the frame escape from twister side control?",
-        "answer": "Your spine must not be locked in a finishing twister position, you need at least one hand free from the opponent's grips, and you should have read the top player's weight distribution to identify framing targets. If your spine is under active rotational torque or both hands are controlled, prioritize spine protection and grip fighting first before attempting any framing sequence."
+        "answer": "Your spine must not be locked in a finishing twister position, you need at least one hand free from the opponent's grips, and you should have read the top player's weight distribution to identify framing targets. If your spine is under active rotational torque or both hands are controlled, prioritize spine protection and grip fighting first before attempting any framing sequence.",
+        "answer_line": "Spine free, one hand free",
+        "distractors": {
+          "plausible": [
+            "Both hands trapped is fine",
+            "Any moment while underneath"
+          ],
+          "trap": [
+            "Commit while spine is torquing"
+          ]
+        }
       },
       {
         "question": "Your opponent collapses your shoulder frame with heavy pressure - how do you respond?",
-        "answer": "Do not repeatedly attempt the same frame that was collapsed. Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience. Alternatively, use the momentary weight commitment of their frame collapse to execute a hip escape in the opposite direction, creating space from a different angle. Adapting frame type to counter-pressure is essential."
+        "answer": "Do not repeatedly attempt the same frame that was collapsed. Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience. Alternatively, use the momentary weight commitment of their frame collapse to execute a hip escape in the opposite direction, creating space from a different angle. Adapting frame type to counter-pressure is essential.",
+        "answer_line": "Switch to elbow-knee frame",
+        "distractors": {
+          "plausible": [
+            "Add more push to that frame",
+            "Frame off the far hip instead"
+          ],
+          "trap": [
+            "Force the arm straight to push"
+          ]
+        }
       },
       {
         "question": "Why must leg extraction follow upper body frame creation rather than being attempted simultaneously?",
-        "answer": "Attempting leg extraction without established upper body frames allows the top player to drive their shoulder into the space created by hip movement, worsening the position and potentially deepening the entanglement into truck. Upper body frames create the separation necessary for the hips to move freely during extraction. Without this separation, leg movement is countered by weight collapse into the torso."
+        "answer": "Attempting leg extraction without established upper body frames allows the top player to drive their shoulder into the space created by hip movement, worsening the position and potentially deepening the entanglement into truck. Upper body frames create the separation necessary for the hips to move freely during extraction. Without this separation, leg movement is countered by weight collapse into the torso.",
+        "answer_line": "Frames create space first",
+        "distractors": {
+          "plausible": [
+            "Extract legs and arms together",
+            "Hip escape opens frame later"
+          ],
+          "trap": [
+            "Extract legs before framing up"
+          ]
+        }
       },
       {
         "question": "What grip should you establish immediately after recovering half guard and why is this critical?",
-        "answer": "Immediately establish a knee shield or fight for the underhook on the trapped leg side. The knee shield creates a physical barrier preventing the opponent from re-establishing chest-to-chest pressure and transitioning back to twister side control. Failing to establish retention grips immediately leaves you vulnerable to being re-passed before the half guard position is consolidated."
+        "answer": "Immediately establish a knee shield or fight for the underhook on the trapped leg side. The knee shield creates a physical barrier preventing the opponent from re-establishing chest-to-chest pressure and transitioning back to twister side control. Failing to establish retention grips immediately leaves you vulnerable to being re-passed before the half guard position is consolidated.",
+        "answer_line": "Knee shield or underhook fast",
+        "distractors": {
+          "plausible": [
+            "Cross grip on the far collar",
+            "Overhook the near-side arm"
+          ],
+          "trap": [
+            "Wait before gripping anything"
+          ]
+        }
       },
       {
         "question": "How do you prevent back exposure during the framing and hip escape sequence?",
-        "answer": "Maintain facing toward the opponent's hips throughout all frame movements and hip escapes. Never turn your back during any phase of the escape, as this gifts back control and potentially deepens twister mechanics. The hip escape should move your hips away while your shoulders and chest continue facing the opponent. If back exposure begins, halt the escape and re-orient before continuing."
+        "answer": "Maintain facing toward the opponent's hips throughout all frame movements and hip escapes. Never turn your back during any phase of the escape, as this gifts back control and potentially deepens twister mechanics. The hip escape should move your hips away while your shoulders and chest continue facing the opponent. If back exposure begins, halt the escape and re-orient before continuing.",
+        "answer_line": "Keep facing their hips always",
+        "distractors": {
+          "plausible": [
+            "Turn away briefly to shrimp",
+            "Face their shoulders instead"
+          ],
+          "trap": [
+            "Turn back to escape faster"
+          ]
+        }
       },
       {
         "question": "Your opponent attacks your framing arm with a kimura grip - what is the correct response?",
-        "answer": "Immediately withdraw the endangered arm by pulling the elbow tight to your body and tucking the hand against your chest. Do not fight the kimura grip with an extended arm. Once the arm is safe, re-establish a frame from the opposite side or use a shorter elbow-knee connection frame that does not expose the arm to isolation. No single frame is worth risking a submission."
+        "answer": "Immediately withdraw the endangered arm by pulling the elbow tight to your body and tucking the hand against your chest. Do not fight the kimura grip with an extended arm. Once the arm is safe, re-establish a frame from the opposite side or use a shorter elbow-knee connection frame that does not expose the arm to isolation. No single frame is worth risking a submission.",
+        "answer_line": "Pull elbow tight, hand to chest",
+        "distractors": {
+          "plausible": [
+            "Fight the grip, arm extended",
+            "Post the hand to break grip"
+          ],
+          "trap": [
+            "Keep frame arm straight, resist"
+          ]
+        }
       },
       {
         "question": "Your shoulder frame keeps collapsing and the leg entanglement is tight - what chain of options do you pursue?",
-        "answer": "Switch from the extended frame to a compact elbow-knee connection frame for structural resilience, and if the top player commits weight forward to collapse it, redirect that momentum into a hip escape away from the pressure or a granby roll that changes the angle of engagement entirely toward open guard. The principle is to adapt frame type and force direction rather than forcing the same collapsed structure repeatedly."
+        "answer": "Switch from the extended frame to a compact elbow-knee connection frame for structural resilience, and if the top player commits weight forward to collapse it, redirect that momentum into a hip escape away from the pressure or a granby roll that changes the angle of engagement entirely toward open guard. The principle is to adapt frame type and force direction rather than forcing the same collapsed structure repeatedly.",
+        "answer_line": "Compact frame, then hip escape",
+        "distractors": {
+          "plausible": [
+            "Extended frame, push harder",
+            "Muscle out straight-armed"
+          ],
+          "trap": [
+            "Keep pushing same collapsed frame"
+          ]
+        }
       }
     ],
     "safety_considerations": "Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops.",
@@ -375,19 +465,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is initiating a frame escape from twister side control?",
-        "answer": "The earliest cues include the bottom player's hands moving from defensive positions toward your shoulder or hip, a subtle shift in their hip angle as they prepare to shrimp, and changes in their breathing pattern indicating imminent exertion. Their near-side forearm will begin to angle against your shoulder, and you may feel a slight reduction in their resistance to your leg entanglement as they redirect energy to upper body framing."
+        "answer": "The earliest cues include the bottom player's hands moving from defensive positions toward your shoulder or hip, a subtle shift in their hip angle as they prepare to shrimp, and changes in their breathing pattern indicating imminent exertion. Their near-side forearm will begin to angle against your shoulder, and you may feel a slight reduction in their resistance to your leg entanglement as they redirect energy to upper body framing.",
+        "answer_line": "Hands move to shoulder, hip shifts",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip escapes",
+            "Breathing slows and relaxes"
+          ],
+          "trap": [
+            "Increased resistance to hooks"
+          ]
+        }
       },
       {
         "question": "How should you adjust weight distribution when you detect frame creation beginning?",
-        "answer": "Immediately increase shoulder pressure by dropping your chest weight into the frame before it becomes structurally established. A partially built frame is much easier to collapse than a fully established one. Simultaneously tighten your leg hook by squeezing your legs together to prevent the hip movement that accompanies framing. The goal is to address the escape at its inception rather than after meaningful separation is created."
+        "answer": "Immediately increase shoulder pressure by dropping your chest weight into the frame before it becomes structurally established. A partially built frame is much easier to collapse than a fully established one. Simultaneously tighten your leg hook by squeezing your legs together to prevent the hip movement that accompanies framing. The goal is to address the escape at its inception rather than after meaningful separation is created.",
+        "answer_line": "Drop chest weight, squeeze legs",
+        "distractors": {
+          "plausible": [
+            "Wait until frame is fully built",
+            "Ease pressure to bait mistake"
+          ],
+          "trap": [
+            "Back off and reset position"
+          ]
+        }
       },
       {
         "question": "When should you transition to back take versus collapsing frames during an escape attempt?",
-        "answer": "Transition to back take when the bottom player has created enough separation that collapsing frames would require over-committing weight forward, potentially creating reversal opportunities. If the frames are still being established and the leg entanglement remains tight, collapsing frames is the more direct and lower-risk response. If the bottom player has partially extracted legs and is turning, the back take becomes higher percentage."
+        "answer": "Transition to back take when the bottom player has created enough separation that collapsing frames would require over-committing weight forward, potentially creating reversal opportunities. If the frames are still being established and the leg entanglement remains tight, collapsing frames is the more direct and lower-risk response. If the bottom player has partially extracted legs and is turning, the back take becomes higher percentage.",
+        "answer_line": "Back take once separation exists",
+        "distractors": {
+          "plausible": [
+            "Always collapse frames first",
+            "Take the back immediately always"
+          ],
+          "trap": [
+            "Over-commit weight to collapse"
+          ]
+        }
       },
       {
         "question": "What submission opportunities become available during the bottom player's frame escape attempt?",
-        "answer": "Extended framing arms create kimura opportunities when the elbow straightens beyond safe range. If the bottom player turns their head away during hip escape, the neck may become exposed for darce or anaconda choke entries. If leg extraction creates space at the lower body while upper body control is maintained, calf slicer or knee bar positions may open. Recognizing these transforms defense into offense."
+        "answer": "Extended framing arms create kimura opportunities when the elbow straightens beyond safe range. If the bottom player turns their head away during hip escape, the neck may become exposed for darce or anaconda choke entries. If leg extraction creates space at the lower body while upper body control is maintained, calf slicer or knee bar positions may open. Recognizing these transforms defense into offense.",
+        "answer_line": "Kimura on extended framing arm",
+        "distractors": {
+          "plausible": [
+            "Armbar when hips extract",
+            "Guillotine when they shrimp"
+          ],
+          "trap": [
+            "Attack the bent, tucked arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -216,70 +216,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Inversion to Turtle?",
-        "answer": "The primary goal is to escape the Ushiro Ashi-Garami leg entanglement by committing to a full rotational movement that terminates in turtle position. This eliminates immediate heel hook threats and provides a stable platform for subsequent guard recovery. The escape trades leg attack danger for manageable back exposure defense."
+        "answer": "The primary goal is to escape the Ushiro Ashi-Garami leg entanglement by committing to a full rotational movement that terminates in turtle position. This eliminates immediate heel hook threats and provides a stable platform for subsequent guard recovery. The escape trades leg attack danger for manageable back exposure defense.",
+        "answer_line": "Rotate fully into turtle",
+        "distractors": {
+          "plausible": [
+            "Fight for guard recovery first",
+            "Strip the leg entanglement"
+          ],
+          "trap": [
+            "Stay put and defend the hook"
+          ]
+        }
       },
       {
         "question": "What foot position must you maintain throughout the entire escape and why?",
-        "answer": "Maintain maximum dorsiflexion—foot flexed strongly toward your shin with toes pulled up—throughout the entire escape sequence. This position pulls the heel tight against your lower leg, eliminating the slack that attackers need to establish finishing heel hook grips. Even during successful rotation, a relaxed foot allows heel hook completion."
+        "answer": "Maintain maximum dorsiflexion—foot flexed strongly toward your shin with toes pulled up—throughout the entire escape sequence. This position pulls the heel tight against your lower leg, eliminating the slack that attackers need to establish finishing heel hook grips. Even during successful rotation, a relaxed foot allows heel hook completion.",
+        "answer_line": "Keep foot dorsiflexed throughout",
+        "distractors": {
+          "plausible": [
+            "Flex foot only during rotation",
+            "Dorsiflex only after finishing"
+          ],
+          "trap": [
+            "Relax foot to move faster"
+          ]
+        }
       },
       {
         "question": "Your opponent has deep inside leg control—should you attempt this escape?",
         "answer": "No; when the opponent's inside leg deeply controls your thigh, rotating to turtle typically lets them transition straight into the saddle. Deep control requires grip fighting to reduce entanglement depth first, or selecting alternative escapes like deep half guard entry that work with rather than against their leg positioning.",
         "distractors": {
           "plausible": [
-            "Yes, provided you rotate quickly enough to beat their leg pummel before the saddle locks in.",
-            "Yes, as long as you rotate away from their inside leg so the entanglement unwinds during the spin."
+            "No, but rotate slowly anyway",
+            "Yes, if you dorsiflex hard"
           ],
           "trap": [
-            "Yes—first extend your trapped leg straight to create space, then spin out to turtle from there."
+            "Yes, rotate immediately"
+          ]
+        },
+        "answer_line": "No, reduce grip depth first"
+      },
+      {
+        "question": "What role do your hands play before initiating the rotation?",
+        "answer": "Your hands must control the opponent's inside knee before any rotation begins. This grip prevents them from stepping through to saddle during your escape, creates a frame that generates separation, and provides leverage for the push-pull mechanics that drive rotational momentum. Without inside knee control, escape success drops dramatically.",
+        "answer_line": "Control the inside knee first",
+        "distractors": {
+          "plausible": [
+            "Grab their far ankle first",
+            "Post on the mat for base"
+          ],
+          "trap": [
+            "Release grips to move faster"
           ]
         }
       },
       {
-        "question": "What role do your hands play before initiating the rotation?",
-        "answer": "Your hands must control the opponent's inside knee before any rotation begins. This grip prevents them from stepping through to saddle during your escape, creates a frame that generates separation, and provides leverage for the push-pull mechanics that drive rotational momentum. Without inside knee control, escape success drops dramatically."
-      },
-      {
         "question": "The opponent follows your rotation and is reaching for your back—what should you do?",
-        "answer": "Accelerate your rotation and immediately sit through to guard rather than establishing turtle. The sit-through denies back control by keeping your hips mobile and facing the opponent. If their hands are reaching rather than secured, you have time to complete the sit-through before they establish seatbelt or hooks."
+        "answer": "Accelerate your rotation and immediately sit through to guard rather than establishing turtle. The sit-through denies back control by keeping your hips mobile and facing the opponent. If their hands are reaching rather than secured, you have time to complete the sit-through before they establish seatbelt or hooks.",
+        "answer_line": "Sit through to guard fast",
+        "distractors": {
+          "plausible": [
+            "Slow down and reach turtle",
+            "Stop and fight the hands"
+          ],
+          "trap": [
+            "Continue to turtle as planned"
+          ]
+        }
       },
       {
         "question": "Why is stopping halfway through the rotation worse than not attempting the escape at all?",
-        "answer": "A halfway stop leaves you inverted with your leg still fully trapped—the worst possible configuration. Your inverted hips maximize heel exposure, your defensive hand position is compromised, and your opponent can easily adjust to finish the submission. Either commit fully to reach turtle or don't initiate at all."
+        "answer": "A halfway stop leaves you inverted with your leg still fully trapped—the worst possible configuration. Your inverted hips maximize heel exposure, your defensive hand position is compromised, and your opponent can easily adjust to finish the submission. Either commit fully to reach turtle or don't initiate at all.",
+        "answer_line": "Leaves you inverted, leg trapped",
+        "distractors": {
+          "plausible": [
+            "Wastes time, no real risk",
+            "Loses only your position"
+          ],
+          "trap": [
+            "Safe pause to reassess grips"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to initiate this escape?",
         "answer": "Initiate during the opponent's grip adjustments, when a hand releases to reposition or their legs shift to deepen control. These adjustment moments create brief control gaps where the rotation encounters minimal resistance. Attempting against fully consolidated control reduces success significantly.",
         "distractors": {
           "plausible": [
-            "Initiate once their control is fully consolidated, since a settled opponent reacts more slowly to rotation.",
-            "Initiate only after you have broken every grip completely, since any remaining connection dooms the rotation."
+            "Right when they secure hooks",
+            "As soon as legs are entangled"
           ],
           "trap": [
-            "Wait until they lock their heel hook grip, then explosively spin out before they can finish the breaking mechanics."
+            "Against fully locked control"
           ]
-        }
+        },
+        "answer_line": "During their grip adjustments"
       },
       {
         "question": "How does your free leg contribute to the escape mechanics?",
-        "answer": "The free leg provides the primary driving force for rotation by pushing against the opponent's hip. Place your foot solidly on their near hip bone, then push forcefully while simultaneously pulling their inside knee. This push-pull coordination generates the rotational momentum needed to strip their leg control during the inversion."
+        "answer": "The free leg provides the primary driving force for rotation by pushing against the opponent's hip. Place your foot solidly on their near hip bone, then push forcefully while simultaneously pulling their inside knee. This push-pull coordination generates the rotational momentum needed to strip their leg control during the inversion.",
+        "answer_line": "Push their hip, pull their knee",
+        "distractors": {
+          "plausible": [
+            "Push their far foot away",
+            "Kick to create separation"
+          ],
+          "trap": [
+            "Pull your leg straight out"
+          ]
+        }
       },
       {
         "question": "What turtle position attributes must you establish immediately upon completing rotation?",
         "answer": "Immediately establish a tight defensive turtle: elbows pinned to knees as a shell, chin tucked, and hips held low to block hook insertion. This compact position prevents easy back takes and gives you time to assess follow-up options. Extended arms or elevated hips invite immediate back control.",
         "distractors": {
           "plausible": [
-            "Post your arms wide for a strong base first, so the opponent cannot flatten you out of turtle.",
-            "Raise your hips high right away so you can wrestle up before the opponent settles into position."
+            "Arms out to frame off hips",
+            "Hips high to block hooks"
           ],
           "trap": [
-            "Reach back and grab the opponent's head or sleeve as you land to stop them circling toward your back."
+            "Extend arms to push away"
           ]
-        }
+        },
+        "answer_line": "Elbows in, chin tucked, hips low"
       },
       {
         "question": "If you feel the opponent's heel hook grip tightening during your rotation, should you stop?",
-        "answer": "No—continue and even accelerate the rotation. The finishing mechanics for heel hooks become progressively compromised as your full inversion completes. The rotation actually helps strip heel hook grips by changing the angle and creating movement that disrupts their finishing position. Stopping leaves you in their optimal finishing configuration."
+        "answer": "No—continue and even accelerate the rotation. The finishing mechanics for heel hooks become progressively compromised as your full inversion completes. The rotation actually helps strip heel hook grips by changing the angle and creating movement that disrupts their finishing position. Stopping leaves you in their optimal finishing configuration.",
+        "answer_line": "Keep rotating, don't stop",
+        "distractors": {
+          "plausible": [
+            "Pause to check the angle",
+            "Slow down to control heel"
+          ],
+          "trap": [
+            "Stop and reset your position"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape involves rapid spinal rotation under load, requiring proper warm-up and flexibility development before training. Never attempt with a pre-existing lower back or neck injury. When drilling, partners should release leg control progressively rather than holding through forced rotation to prevent knee and ankle strain on the escaping practitioner. Maintain dorsiflexion religiously—a relaxed foot during live training can result in heel hook injury even during successful escapes. If you feel your heel becoming exposed mid-rotation, tap immediately rather than hoping to complete the escape. When landing in turtle, protect your neck by tucking your chin; extended neck positions combined with back take attempts can cause cervical strain.",
@@ -389,23 +462,73 @@
     "flashcards": [
       {
         "question": "Your opponent places both hands on your inside knee while in Ushiro Ashi-Garami—what does this signal and how should you respond?",
-        "answer": "Both hands on your inside knee is the primary telegraph for an Inversion to Turtle attempt. They are establishing the pulling grip needed for push-pull rotational mechanics. Respond by immediately tightening your inside leg pressure on their thigh, considering a step-through to saddle to deepen entanglement, or accelerating your heel hook attack before they can redirect focus from defense to escape. Do not ignore this grip change."
+        "answer": "Both hands on your inside knee is the primary telegraph for an Inversion to Turtle attempt. They are establishing the pulling grip needed for push-pull rotational mechanics. Respond by immediately tightening your inside leg pressure on their thigh, considering a step-through to saddle to deepen entanglement, or accelerating your heel hook attack before they can redirect focus from defense to escape. Do not ignore this grip change.",
+        "answer_line": "Tighten leg pressure or attack",
+        "distractors": {
+          "plausible": [
+            "Switch to a different attack",
+            "Wait for them to commit fully"
+          ],
+          "trap": [
+            "Ignore it, keep current pace"
+          ]
+        }
       },
       {
         "question": "When should you abandon the leg entanglement and follow to back control instead?",
-        "answer": "Follow to back control when the rotation has developed sufficient momentum that your leg entanglement is degrading beyond recovery, when their dorsiflexion has been maintained and your heel hook probability is low, or when you have already lost your outside leg position. The key indicator is whether your inside leg can still advance to saddle—if it cannot, the back take becomes the higher-percentage option."
+        "answer": "Follow to back control when the rotation has developed sufficient momentum that your leg entanglement is degrading beyond recovery, when their dorsiflexion has been maintained and your heel hook probability is low, or when you have already lost your outside leg position. The key indicator is whether your inside leg can still advance to saddle—if it cannot, the back take becomes the higher-percentage option.",
+        "answer_line": "When entanglement is degrading",
+        "distractors": {
+          "plausible": [
+            "Only after saddle is lost",
+            "When they first start rotating"
+          ],
+          "trap": [
+            "Never, always finish the hook"
+          ]
+        }
       },
       {
         "question": "How do you convert an opponent's inversion attempt into a saddle transition?",
-        "answer": "As the opponent initiates rotation, their movement actually creates space between their trapped leg and your advancing inside leg. Step your inside leg deeper through this gap while maintaining outside leg pressure across their knee line. Their rotational energy helps your leg advance if timed correctly. The saddle configuration should be established before they complete quarter-rotation, at which point their momentum works against your advancement."
+        "answer": "As the opponent initiates rotation, their movement actually creates space between their trapped leg and your advancing inside leg. Step your inside leg deeper through this gap while maintaining outside leg pressure across their knee line. Their rotational energy helps your leg advance if timed correctly. The saddle configuration should be established before they complete quarter-rotation, at which point their momentum works against your advancement.",
+        "answer_line": "Step inside leg deeper to saddle",
+        "distractors": {
+          "plausible": [
+            "Wait for full rotation to finish",
+            "Pull your outside leg free"
+          ],
+          "trap": [
+            "Chase the heel hook grip instead"
+          ]
+        }
       },
       {
         "question": "What is the risk of committing fully to a heel hook finish during an active inversion escape?",
-        "answer": "Committing to the finish during rotation means you are prioritizing grip closure over position retention. If the finish fails—because their dorsiflexion holds, the angle changes, or they accelerate through your grip—you lose both the submission and the entanglement simultaneously. This creates a worst-case scenario where you end up with no offensive position at all. Only commit when heel exposure is clear and your grip is locked."
+        "answer": "Committing to the finish during rotation means you are prioritizing grip closure over position retention. If the finish fails—because their dorsiflexion holds, the angle changes, or they accelerate through your grip—you lose both the submission and the entanglement simultaneously. This creates a worst-case scenario where you end up with no offensive position at all. Only commit when heel exposure is clear and your grip is locked.",
+        "answer_line": "Risk losing hook and position both",
+        "distractors": {
+          "plausible": [
+            "Only risks losing the finish",
+            "Safe since grip is already set"
+          ],
+          "trap": [
+            "Always finish, entanglement holds"
+          ]
+        }
       },
       {
         "question": "Your opponent's free leg contacts your hip—what does this mean for your defensive timing?",
-        "answer": "Their free foot on your hip means they have loaded the pushing force that will drive rotational momentum. The inversion attempt is seconds away. You have a narrow window to respond before the push-pull mechanics activate. Options include pinning their free hip with your hand to deny the push, immediately stepping through to saddle before they can generate momentum, or tightening your overall entanglement to increase the resistance their push must overcome."
+        "answer": "Their free foot on your hip means they have loaded the pushing force that will drive rotational momentum. The inversion attempt is seconds away. You have a narrow window to respond before the push-pull mechanics activate. Options include pinning their free hip with your hand to deny the push, immediately stepping through to saddle before they can generate momentum, or tightening your overall entanglement to increase the resistance their push must overcome.",
+        "answer_line": "Push is loading, act now",
+        "distractors": {
+          "plausible": [
+            "No urgency, control is stable",
+            "Wait for the actual push"
+          ],
+          "trap": [
+            "Relax grip, rotation is slow"
+          ]
+        }
       }
     ],
     "training_progressions": [

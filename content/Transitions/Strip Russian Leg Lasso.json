@@ -257,31 +257,101 @@
       },
       {
         "question": "Why should you never pull your arm straight back when trying to extract it from the lasso?",
-        "answer": "Pulling straight back tightens the lasso binding rather than releasing it because the lasso functions as a loop around your arm. The binding effect increases with linear force applied against the direction of the loop. Instead, rotate your arm in a spiral motion toward the outside, following the natural path through which the loop can be opened. This rotational extraction uses geometry rather than force to clear the leg."
+        "answer": "Pulling straight back tightens the lasso binding rather than releasing it because the lasso functions as a loop around your arm. The binding effect increases with linear force applied against the direction of the loop. Instead, rotate your arm in a spiral motion toward the outside, following the natural path through which the loop can be opened. This rotational extraction uses geometry rather than force to clear the leg.",
+        "answer_line": "Spiral rotation, not straight pull",
+        "distractors": {
+          "plausible": [
+            "Rotate but pull hard too",
+            "Twist arm inward toward body"
+          ],
+          "trap": [
+            "Pull arm straight back hard"
+          ]
+        }
       },
       {
         "question": "Your opponent re-grips your collar immediately after you strip it - how do you adjust your approach?",
-        "answer": "Maintain two-on-one control on the collar grip for an extra beat after breaking it to prevent immediate re-gripping. If they do re-grip, break it again but this time pin their wrist to their chest or redirect their hand toward their own body. Consider speeding up the subsequent steps to reduce the window for re-gripping. If they consistently re-grip, switch to the angle-based strip variant to make their collar grip mechanically less useful."
+        "answer": "Maintain two-on-one control on the collar grip for an extra beat after breaking it to prevent immediate re-gripping. If they do re-grip, break it again but this time pin their wrist to their chest or redirect their hand toward their own body. Consider speeding up the subsequent steps to reduce the window for re-gripping. If they consistently re-grip, switch to the angle-based strip variant to make their collar grip mechanically less useful.",
+        "answer_line": "Hold 2-on-1 grip, re-strip after",
+        "distractors": {
+          "plausible": [
+            "Immediately grip sleeve instead",
+            "Release grip, reset position"
+          ],
+          "trap": [
+            "Let them re-grip, ignore it"
+          ]
+        }
       },
       {
         "question": "What should your first action be the instant your arm clears the lasso?",
-        "answer": "Both hands must immediately control the opponent's legs by gripping their pants at the knees or pinning their shins together. This is the single highest-priority action after extraction. Skilled guard players can re-establish Russian Leg Lasso or transition to an alternative guard within one to two seconds of losing the lasso, so leg control must happen before any other consideration including posture adjustment or passing setup."
+        "answer": "Both hands must immediately control the opponent's legs by gripping their pants at the knees or pinning their shins together. This is the single highest-priority action after extraction. Skilled guard players can re-establish Russian Leg Lasso or transition to an alternative guard within one to two seconds of losing the lasso, so leg control must happen before any other consideration including posture adjustment or passing setup.",
+        "answer_line": "Both hands control their legs",
+        "distractors": {
+          "plausible": [
+            "Adjust your posture first",
+            "Grab a new collar grip"
+          ],
+          "trap": [
+            "Start setting up the pass"
+          ]
+        }
       },
       {
         "question": "Your opponent begins elevating their hips for a sweep as you start breaking their sleeve grip - what do you do?",
-        "answer": "Immediately abandon the sleeve grip break and focus entirely on base recovery. Widen your stance, sprawl your hips back and down, and drive weight through your legs. A failed strip attempt is vastly preferable to being swept. Once your base is re-established and the sweep threat neutralized, restart the stripping sequence from step one. Never sacrifice base stability for grip break completion."
+        "answer": "Immediately abandon the sleeve grip break and focus entirely on base recovery. Widen your stance, sprawl your hips back and down, and drive weight through your legs. A failed strip attempt is vastly preferable to being swept. Once your base is re-established and the sweep threat neutralized, restart the stripping sequence from step one. Never sacrifice base stability for grip break completion.",
+        "answer_line": "Abandon grip break, recover base",
+        "distractors": {
+          "plausible": [
+            "Finish sleeve break, then base",
+            "Grip fight harder for sleeve"
+          ],
+          "trap": [
+            "Keep pulling sleeve through sweep"
+          ]
+        }
       },
       {
         "question": "How does the standing posture strip differ from the combat base strip in terms of risk and reward?",
-        "answer": "The standing posture strip offers greater leverage for grip breaks and more natural hip distance for creating slack, but carries higher sweep risk because the elevated center of gravity is less stable. The combat base strip provides superior stability against sweeps through the posted knee but requires working closer to the opponent where the lasso has more binding force. Choose standing when the opponent's sweep threats are manageable and you want faster execution, choose combat base when sweep threats are high and you need maximum stability."
+        "answer": "The standing posture strip offers greater leverage for grip breaks and more natural hip distance for creating slack, but carries higher sweep risk because the elevated center of gravity is less stable. The combat base strip provides superior stability against sweeps through the posted knee but requires working closer to the opponent where the lasso has more binding force. Choose standing when the opponent's sweep threats are manageable and you want faster execution, choose combat base when sweep threats are high and you need maximum stability.",
+        "answer_line": "Standing = risky, combat = stable",
+        "distractors": {
+          "plausible": [
+            "Standing always safer choice",
+            "Combat base gives more leverage"
+          ],
+          "trap": [
+            "Standing when sweep threat high"
+          ]
+        }
       },
       {
         "question": "What role does controlling the non-lasso leg play during the strip sequence?",
-        "answer": "The non-lasso leg is the opponent's primary tool for creating secondary control and sweep threats during the strip. If left uncontrolled, the opponent uses it to establish butterfly hooks, De La Riva hooks, or shin-to-shin contact that generates sweep opportunities precisely when you are most vulnerable during grip transitions. Controlling or pinning the non-lasso leg eliminates these secondary threats and isolates the lasso as the only problem to solve, dramatically increasing strip success rate."
+        "answer": "The non-lasso leg is the opponent's primary tool for creating secondary control and sweep threats during the strip. If left uncontrolled, the opponent uses it to establish butterfly hooks, De La Riva hooks, or shin-to-shin contact that generates sweep opportunities precisely when you are most vulnerable during grip transitions. Controlling or pinning the non-lasso leg eliminates these secondary threats and isolates the lasso as the only problem to solve, dramatically increasing strip success rate.",
+        "answer_line": "Pin non-lasso leg to stop hooks",
+        "distractors": {
+          "plausible": [
+            "Ignore it, focus only on lasso",
+            "Grip it loosely as backup only"
+          ],
+          "trap": [
+            "Let it hook for balance"
+          ]
+        }
       },
       {
         "question": "Why is it important to chain the strip directly into a passing attempt rather than pausing after extraction?",
-        "answer": "The window between a successful lasso extraction and the opponent re-establishing a guard system is extremely narrow, typically one to three seconds for a skilled guard player. Pausing after extraction allows them to insert hooks, establish new grips, and rebuild their defensive structure. Immediately chaining into a pass exploits the brief period where the opponent has no established guard, dramatically increasing passing success rate compared to stripping and then setting up a separate passing sequence."
+        "answer": "The window between a successful lasso extraction and the opponent re-establishing a guard system is extremely narrow, typically one to three seconds for a skilled guard player. Pausing after extraction allows them to insert hooks, establish new grips, and rebuild their defensive structure. Immediately chaining into a pass exploits the brief period where the opponent has no established guard, dramatically increasing passing success rate compared to stripping and then setting up a separate passing sequence.",
+        "answer_line": "Chain straight into the pass",
+        "distractors": {
+          "plausible": [
+            "Pause to reset grips first",
+            "Celebrate then start pass"
+          ],
+          "trap": [
+            "Wait for them to re-guard first"
+          ]
+        }
       }
     ],
     "safety_considerations": "Strip Russian Leg Lasso is a low-injury-risk technique as it involves grip fighting and positional adjustments rather than joint manipulation or compression. However, practitioners should be aware that aggressive arm extraction against a tight lasso can strain the shoulder joint of the trapped arm. Always create slack before extracting rather than forcing through resistance. The bottom player should release the lasso if the top player's shoulder is being stressed in an unnatural direction. During training, communicate clearly when beginning the strip sequence so the bottom player can adjust grip tension appropriately.",
@@ -399,23 +469,73 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to attempt a sweep during the opponent's strip sequence?",
-        "answer": "The optimal sweep window occurs during the grip break transitions, specifically when the opponent has committed both hands to a two-on-one grip break on your collar or sleeve. At this moment, their base is most compromised because both hands are occupied with grip fighting rather than maintaining balance. The transition between breaking the collar grip and addressing the sleeve grip is particularly vulnerable because they must release their grip break to change targets."
+        "answer": "The optimal sweep window occurs during the grip break transitions, specifically when the opponent has committed both hands to a two-on-one grip break on your collar or sleeve. At this moment, their base is most compromised because both hands are occupied with grip fighting rather than maintaining balance. The transition between breaking the collar grip and addressing the sleeve grip is particularly vulnerable because they must release their grip break to change targets.",
+        "answer_line": "When both hands break your grip",
+        "distractors": {
+          "plausible": [
+            "Right when lasso first locks in",
+            "As soon as they grip your collar"
+          ],
+          "trap": [
+            "Wait until they finish passing"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your collar grip - what is your immediate priority response?",
-        "answer": "Immediately reach for a new collar grip before the opponent can progress to stripping the sleeve grip. The collar grip is the most important reinforcing control because it enables your sweep mechanics and controls their posture. Without it, the sleeve grip and lasso lose approximately sixty percent of their effectiveness. If you cannot re-grip the collar, immediately initiate an attack using the remaining lasso and sleeve control before those are also addressed."
+        "answer": "Immediately reach for a new collar grip before the opponent can progress to stripping the sleeve grip. The collar grip is the most important reinforcing control because it enables your sweep mechanics and controls their posture. Without it, the sleeve grip and lasso lose approximately sixty percent of their effectiveness. If you cannot re-grip the collar, immediately initiate an attack using the remaining lasso and sleeve control before those are also addressed.",
+        "answer_line": "Re-grip collar before sleeve strip",
+        "distractors": {
+          "plausible": [
+            "Switch straight to attacking",
+            "Re-grip sleeve instead"
+          ],
+          "trap": [
+            "Let it go, reset the guard"
+          ]
+        }
       },
       {
         "question": "How do you maintain lasso tension when the opponent steps back to create slack?",
-        "answer": "Elevate your hips by bridging upward and driving your lasso foot deeper past their shoulder. Follow their backward movement with your hip elevation to maintain the distance ratio that keeps the lasso tight. If they step far enough back that hip elevation alone cannot maintain tension, consider transitioning to an alternative guard rather than holding a compromised Russian Leg Lasso position where the lasso has lost its binding effectiveness."
+        "answer": "Elevate your hips by bridging upward and driving your lasso foot deeper past their shoulder. Follow their backward movement with your hip elevation to maintain the distance ratio that keeps the lasso tight. If they step far enough back that hip elevation alone cannot maintain tension, consider transitioning to an alternative guard rather than holding a compromised Russian Leg Lasso position where the lasso has lost its binding effectiveness.",
+        "answer_line": "Bridge hips up, drive foot deeper",
+        "distractors": {
+          "plausible": [
+            "Pull them back with the lasso",
+            "Sit up to close the distance"
+          ],
+          "trap": [
+            "Hold lasso position, don't adjust"
+          ]
+        }
       },
       {
         "question": "What should you do when the strip is partially successful and your sleeve grip has been broken?",
-        "answer": "Immediately use your non-lasso leg to establish an alternative control point before the opponent addresses the lasso itself. Insert a De La Riva hook, butterfly hook, or shin-to-shin contact to create a secondary defensive layer. Simultaneously attempt to re-grip the sleeve or transition to an alternative guard system. A partially stripped Russian Leg Lasso with no sleeve grip is unsustainable, so either restore the grip or transition rather than holding a weakened position."
+        "answer": "Immediately use your non-lasso leg to establish an alternative control point before the opponent addresses the lasso itself. Insert a De La Riva hook, butterfly hook, or shin-to-shin contact to create a secondary defensive layer. Simultaneously attempt to re-grip the sleeve or transition to an alternative guard system. A partially stripped Russian Leg Lasso with no sleeve grip is unsustainable, so either restore the grip or transition rather than holding a weakened position.",
+        "answer_line": "Insert hook, re-grip or transition",
+        "distractors": {
+          "plausible": [
+            "Hold lasso alone and rebuild",
+            "Focus only on regripping sleeve"
+          ],
+          "trap": [
+            "Ignore it, keep lasso as is"
+          ]
+        }
       },
       {
         "question": "Why is keeping the non-lasso leg active critical during strip defense?",
-        "answer": "The active non-lasso leg forces the opponent to divide their attention between the strip sequence and managing the secondary threat. If the non-lasso leg is threatening sweeps through butterfly hooks or De La Riva positioning, the opponent cannot fully commit both hands to grip breaks without risking being swept. This divided attention slows the strip sequence and creates more counter opportunities. A passive non-lasso leg allows the opponent to ignore it entirely and focus all resources on dismantling the lasso system."
+        "answer": "The active non-lasso leg forces the opponent to divide their attention between the strip sequence and managing the secondary threat. If the non-lasso leg is threatening sweeps through butterfly hooks or De La Riva positioning, the opponent cannot fully commit both hands to grip breaks without risking being swept. This divided attention slows the strip sequence and creates more counter opportunities. A passive non-lasso leg allows the opponent to ignore it entirely and focus all resources on dismantling the lasso system.",
+        "answer_line": "Active leg divides their attention",
+        "distractors": {
+          "plausible": [
+            "Keep it still to save energy",
+            "Use it only for base support"
+          ],
+          "trap": [
+            "Let it go passive, focus on grips"
+          ]
+        }
       }
     ],
     "training_progressions": [

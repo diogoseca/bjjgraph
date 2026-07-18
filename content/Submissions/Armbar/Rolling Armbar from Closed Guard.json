@@ -326,17 +326,47 @@
       {
         "question": "What is the most critical safety consideration when applying the rolling armbar, and why must you never spike the submission?",
         "answer": "The most critical safety consideration is applying slow, controlled extension over 3-5 seconds minimum because the rolling motion already creates significant torque and surprise on the elbow joint. Spiking or jerking the submission can cause immediate elbow dislocation, ligament rupture, or complete joint capsule failure requiring surgical reconstruction. The dynamic nature of the roll means the opponent often doesn't realize they're in danger until the submission is locked, making controlled application essential to allow time for the tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extend slowly, 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Crank fast so they can't escape",
+            "Hold static, no extension needed"
+          ],
+          "trap": [
+            "Spike hard for an instant finish"
+          ]
+        }
       },
       {
         "question": "Why must you tuck your chin and roll over your shoulder rather than your neck, and what injury can result from improper rolling mechanics?",
         "answer": "Rolling over your neck instead of your shoulder can cause severe cervical spine injury, neck strain, or even vertebral damage. The proper mechanics involve tucking your chin to your chest, looking toward your hip, and driving your shoulder to the mat first. The roll should travel diagonally across your back from shoulder to opposite hip. Rolling over your neck not only risks serious injury but also causes loss of control, allowing the opponent to escape or counter-attack effectively.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tuck chin, roll over shoulder",
+        "distractors": {
+          "plausible": [
+            "Look up and roll straight back",
+            "Roll over the top of your head"
+          ],
+          "trap": [
+            "Roll over your neck for speed"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the rolling armbar attack, and what are the warning signs that indicate the breaking point is approaching?",
         "answer": "The rolling armbar attacks the elbow joint, specifically hyperextending it by applying force against the natural bending direction. The primary structures at risk are the ulnar collateral ligament (UCL), lateral collateral ligament (LCL), and the joint capsule itself. Warning signs approaching the breaking point include visible straightening of the arm past neutral, the opponent's increasing resistance followed by sudden relaxation, verbal or physical tap attempts, and any popping or cracking sensations. The submission should be released immediately at the first sign of any of these indicators.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow joint - release at first tap",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint - release at popping",
+            "Wrist joint - watch for resistance"
+          ],
+          "trap": [
+            "Keep cranking past any resistance"
+          ]
+        }
       },
       {
         "question": "What are the key differences in arm control between a rolling armbar and a traditional armbar from mount?",
@@ -351,12 +381,32 @@
       {
         "question": "Why is creating a 45-degree angle essential before initiating the roll, and what happens if you attempt the technique straight on?",
         "answer": "The 45-degree angle off center is critical because it creates the proper rotational axis for the rolling mechanics and prevents you from rolling directly backwards over your neck. This angle allows your shoulder to contact the mat first and provides the geometric pathway for your body to rotate smoothly while maintaining arm control. Attempting the roll straight on without this angle results in rolling over your neck (dangerous), getting stuck mid-roll without completing the rotation, or losing arm control as the improper angle creates slack in your grip. The angle also helps break the opponent's base and prevents them from simply posting out and stopping the roll.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle prevents rolling over neck",
+        "distractors": {
+          "plausible": [
+            "Angle just breaks their posture",
+            "Angle only needed for big opponents"
+          ],
+          "trap": [
+            "Roll straight back, no angle needed"
+          ]
+        }
       },
       {
         "question": "What is the purpose of crossing your ankles and pinching your knees after completing the roll, and how does this differ from an uncrossed leg position?",
         "answer": "Crossing the ankles and pinching the knees creates a tight structural frame that maximizes control and leverage on the arm while preventing the opponent from escaping. The crossed ankles act as a locking mechanism that prevents them from pulling their arm free or turning into you, while the pinched knees create downward pressure on their body and prevent them from bringing their arm back to their chest. An uncrossed position with spread knees offers minimal control - the opponent can easily pull their arm out, rotate their body, or stack you. The crossed-ankle position transforms your legs from simple hooks into a rigid control frame that multiplies the effectiveness of your hip extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locks arm, stops opponent escaping",
+        "distractors": {
+          "plausible": [
+            "Just for balance during the roll",
+            "Only needed against bigger opponents"
+          ],
+          "trap": [
+            "Spread knees for more hip power"
+          ]
+        }
       },
       {
         "question": "How does timing the roll with the opponent's forward pressure or posture increase success rate, and what happens if you force the roll against their resistance?",
@@ -366,22 +416,62 @@
       {
         "question": "Your opponent begins rotating their thumb away (hitchhiking) as you complete the roll - what grip adjustment prevents them from escaping the finish?",
         "answer": "When the opponent hitchhikes, immediately clamp your knees together tightly to prevent further rotation of their forearm. Simultaneously, use both hands to grip their wrist and forcefully rotate their arm back to the thumb-up position. Pull their wrist down toward your hip rather than straight to your chest - this creates a mechanical disadvantage for their hitchhike attempt. If their rotation continues despite these adjustments, transition to a belly-down armbar by rolling onto your stomach while maintaining the arm, which reverses the hitchhike direction and reapplies pressure to the elbow joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees clamp, rotate wrist back down",
+        "distractors": {
+          "plausible": [
+            "Pull wrist straight to your chest",
+            "Switch hands and re-grip higher"
+          ],
+          "trap": [
+            "Let rotation continue, crank harder"
+          ]
+        }
       },
       {
         "question": "What indicators tell you that you have secured the point of no escape in the rolling armbar finishing position?",
         "answer": "The point of no escape is achieved when: your hips are tight against their shoulder with zero gap, their arm is fully extended with elbow positioned above your hip line, your ankles are crossed over their torso creating a locked frame, your knees are pinched together preventing arm rotation, and their wrist is controlled with both hands below your chest level. At this point, even minimal hip elevation creates immediate elbow pressure. If any of these elements are missing - particularly the hip contact or knee pinch - the opponent still has escape routes available and you should adjust before applying finishing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips tight, ankles crossed",
+        "distractors": {
+          "plausible": [
+            "Just need the arm fully extended",
+            "Wrist control alone is enough"
+          ],
+          "trap": [
+            "Elevate hips before hips are tight"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending aggressively and you sense the roll might fail mid-technique - what is the safest recovery strategy?",
         "answer": "If the roll is failing mid-technique, immediately prioritize maintaining your grip on their arm while abandoning the rolling motion. Use your free leg to post on the mat and stabilize your position. From here, you have several options: transition to triangle choke if their head and arm alignment is favorable, move to omoplata by pivoting your hips, or simply recover to closed guard while maintaining the arm control. The worst option is to continue forcing a failed roll, which typically results in losing position entirely and potentially ending up in bottom side control. Recognizing early failure and transitioning is superior to stubbornly committing to a doomed technique.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep grip, post leg, switch attack",
+        "distractors": {
+          "plausible": [
+            "Release arm and reset to guard",
+            "Keep spinning until roll completes"
+          ],
+          "trap": [
+            "Force the roll, commit fully"
+          ]
+        }
       },
       {
         "question": "What finishing error commonly causes training partners to get injured during the rolling armbar, and how do you prevent it?",
         "answer": "The most common finishing error causing injuries is applying the extension too rapidly after completing the roll. The momentum and surprise of the rolling entry often means the opponent hasn't fully realized they're in danger until the submission is locked. If you immediately hyperextend with full force, they have no time to tap. Prevention requires deliberately slowing down the finishing phase regardless of how explosive the rolling entry was. Apply extension progressively over 3-5 seconds, watching for tap signals throughout. The position and leverage create the tap, not speed - a properly locked rolling armbar requires minimal force to finish safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extending too fast after the roll",
+        "distractors": {
+          "plausible": [
+            "Not crossing ankles in time",
+            "Gripping the wrist too tightly"
+          ],
+          "trap": [
+            "Snap the arm as roll completes"
+          ]
+        }
       }
     ],
     "clips": [
@@ -502,27 +592,77 @@
       {
         "question": "What is the earliest recognition cue that a rolling armbar is being set up, and what should your immediate response be?",
         "answer": "The earliest cue is feeling a two-on-one grip being established on your arm, with the attacker controlling both your wrist and above your elbow simultaneously. Your immediate response must be to retract your elbow tight to your hip and circle your arm out of their control before they can pull it across their centerline. Every second of delay after this grip is established makes the defense exponentially harder, as the attacker only needs the arm isolated and an angle to initiate the roll.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip - retract elbow",
+        "distractors": {
+          "plausible": [
+            "Wait until hips start to roll",
+            "Pull arm away only if it hurts"
+          ],
+          "trap": [
+            "Post the trapped hand on the mat"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to attempt a hitchhiker escape when your arm is already near full extension in the rolling armbar finishing position?",
         "answer": "When the arm is near full extension, rotating your thumb away and turning belly-down can cause the elbow joint to hyperextend further during the rotation, potentially tearing the UCL or LCL ligaments or causing dislocation. The hitchhiker escape relies on creating slack in the arm by rotating before significant extension pressure is applied. If pressure is already substantial, the safest option is to tap immediately rather than risk a catastrophic joint injury from a late escape attempt. The ego cost of tapping is always less than the physical cost of a torn ligament.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap - rotating can tear the joint",
+        "distractors": {
+          "plausible": [
+            "Rotate slowly to test the room",
+            "Push off with your free leg first"
+          ],
+          "trap": [
+            "Rotate hard and fast to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the roll and is transitioning to the finishing position - what body mechanics prevent the submission from being applied?",
         "answer": "Keep your elbow bent at maximum flexion and pull your hand toward your own chest or shoulder, creating a defensive frame that resists extension. Simultaneously, turn your body toward the attacker and attempt to get your trapped elbow to the mat on the attacker's hip side, which removes the angle needed for hyperextension. Pinch your knees together toward the attacker and attempt to stack forward to compress their finishing structure. The combination of bent arm, body rotation toward attacker, and forward pressure can neutralize the finishing mechanics long enough to work an escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bend arm, turn in, elbow to mat",
+        "distractors": {
+          "plausible": [
+            "Straighten arm to slip the grip",
+            "Pull straight back away from them"
+          ],
+          "trap": [
+            "Turn away and extend the arm"
+          ]
+        }
       },
       {
         "question": "How should you adjust your overall guard passing approach once you recognize your opponent frequently attacks with rolling armbars?",
         "answer": "Maintain disciplined elbow position throughout all passing sequences, never allowing a single arm to extend away from your body or across the attacker's centerline. Favor passing strategies that keep both hands connected to your opponent's body rather than posting on the mat. When in closed guard, keep your elbows pinched tight to your ribs and address any two-on-one grip attempts instantly. Stand to break guard rather than staying on your knees where the rolling angle is easier to create. When you feel your posture being broken, prioritize posture recovery over continuing your pass attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbows tight, hands connected",
+        "distractors": {
+          "plausible": [
+            "Post hands on the mat for base",
+            "Pass on your knees to stay low"
+          ],
+          "trap": [
+            "Extend one arm to control the hip"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between defending the rolling armbar during the rolling phase versus after the roll is completed?",
         "answer": "During the rolling phase, your primary defense is following the rotation by turning your body with the roll while keeping your arm bent and tight, which can land you in top position as the roll completes. After the roll is completed and the attacker has established the finishing position with legs crossed and hips against your shoulder, the defensive options narrow significantly to hitchhiker escape, stacking, or clasping your hands together to prevent extension. The rolling phase offers higher-percentage defensive options with better positional outcomes, while post-roll defenses are last-resort measures with higher injury risk if timed incorrectly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll phase: turn with it, arm bent",
+        "distractors": {
+          "plausible": [
+            "Both phases defend the same way",
+            "After roll: hitchhike is highest %"
+          ],
+          "trap": [
+            "Resist the roll by pulling back"
+          ]
+        }
       }
     ],
     "training_progressions": [

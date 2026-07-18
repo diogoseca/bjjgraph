@@ -103,35 +103,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts pulling their trapped arm backward forcefully - what immediate adjustment do you make?",
-        "answer": "When opponent pulls back, immediately transition to a Kimura grip by releasing your hand grip and securing the figure-four on their wrist. Their backward pulling motion actually assists your Kimura entry by bending their arm into the proper position. Do not fight their pull with strength - use it to enter the submission. If they manage to create distance, follow by transitioning to an arm drag to take their back."
+        "answer": "When opponent pulls back, immediately transition to a Kimura grip by releasing your hand grip and securing the figure-four on their wrist. Their backward pulling motion actually assists your Kimura entry by bending their arm into the proper position. Do not fight their pull with strength - use it to enter the submission. If they manage to create distance, follow by transitioning to an arm drag to take their back.",
+        "answer_line": "Transition to Kimura grip",
+        "distractors": {
+          "plausible": [
+            "Grip harder to stop the pull",
+            "Re-seal armpit and hold position"
+          ],
+          "trap": [
+            "Let go and reset guard"
+          ]
+        }
       },
       {
         "question": "What are the three essential connection points for maintaining effective overhook control from top position?",
-        "answer": "The three essential connection points are: first, the armpit seal over opponent's shoulder with zero gap, which creates the primary control mechanism; second, hip-to-hip proximity that prevents opponent from circling away or creating escape angles; and third, head positioning either tight to theirs or controlling their head with your free hand. These three points working together create inescapable control - losing any one significantly weakens the position."
+        "answer": "The three essential connection points are: first, the armpit seal over opponent's shoulder with zero gap, which creates the primary control mechanism; second, hip-to-hip proximity that prevents opponent from circling away or creating escape angles; and third, head positioning either tight to theirs or controlling their head with your free hand. These three points working together create inescapable control - losing any one significantly weakens the position.",
+        "answer_line": "Armpit seal, hips, head control",
+        "distractors": {
+          "plausible": [
+            "Grip strength, hips, legs",
+            "Armpit seal, legs, posture"
+          ],
+          "trap": [
+            "Hand grip strength alone"
+          ]
+        }
       },
       {
         "question": "You feel your armpit seal starting to loosen as opponent rotates their shoulder - how do you recover the control?",
-        "answer": "Immediately drive your hips forward while simultaneously pulling your elbow tight to your ribs, re-sealing the armpit connection. Drop your shoulder weight downward onto their shoulder to flatten them and reestablish the seal. If the gap has opened too much, transition immediately to an alternative control - either secure a front headlock or transition to a back take attempt rather than fighting to recover a compromised overhook."
+        "answer": "Immediately drive your hips forward while simultaneously pulling your elbow tight to your ribs, re-sealing the armpit connection. Drop your shoulder weight downward onto their shoulder to flatten them and reestablish the seal. If the gap has opened too much, transition immediately to an alternative control - either secure a front headlock or transition to a back take attempt rather than fighting to recover a compromised overhook.",
+        "answer_line": "Drive hips in, elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Grip harder with trapped hand",
+            "Push down on their head"
+          ],
+          "trap": [
+            "Keep pulling to force the seal back"
+          ]
+        }
       },
       {
         "question": "What is the primary weight distribution error that allows opponents to escape overhook control?",
-        "answer": "Overcommitting weight forward without maintaining base is the primary error. When you lean too far forward, opponent can use your momentum to roll you over or escape underneath. The correct distribution maintains forward pressure through the overhook while keeping your feet positioned to support dynamic movement. You should be able to pressure forward but instantly adjust if opponent creates an escape opportunity - balance constant pressure with reactive mobility."
+        "answer": "Overcommitting weight forward without maintaining base is the primary error. When you lean too far forward, opponent can use your momentum to roll you over or escape underneath. The correct distribution maintains forward pressure through the overhook while keeping your feet positioned to support dynamic movement. You should be able to pressure forward but instantly adjust if opponent creates an escape opportunity - balance constant pressure with reactive mobility.",
+        "answer_line": "Overcommitting weight forward",
+        "distractors": {
+          "plausible": [
+            "Sitting back off the hips",
+            "Squaring hips too flat"
+          ],
+          "trap": [
+            "Driving all weight onto the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively into your overhook - what submission entry does this create?",
-        "answer": "Forward driving creates optimal entry for Darce or Anaconda chokes. As they drive in, their head drops forward and their arm is already controlled by your overhook. Thread your choking arm around their neck (Darce goes arm-side first, Anaconda goes head-side first), secure the figure-four grip, and finish by sprawling your hips away while pulling their head down. Their forward momentum assists your choke entry rather than hindering it."
+        "answer": "Forward driving creates optimal entry for Darce or Anaconda chokes. As they drive in, their head drops forward and their arm is already controlled by your overhook. Thread your choking arm around their neck (Darce goes arm-side first, Anaconda goes head-side first), secure the figure-four grip, and finish by sprawling your hips away while pulling their head down. Their forward momentum assists your choke entry rather than hindering it.",
+        "answer_line": "Darce or Anaconda choke",
+        "distractors": {
+          "plausible": [
+            "Kimura from the overhook",
+            "Arm-triangle from the top"
+          ],
+          "trap": [
+            "Release arm and go for guillotine"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when maintaining overhook control against a defensive opponent?",
-        "answer": "Energy management requires understanding that overhook is transitional, not positional. Maximum control time is 3-5 seconds before attacking or advancing. Use skeletal alignment rather than muscular tension - your armpit seal should rest on their shoulder, not grip it with arm strength. Transfer pressure through body positioning rather than squeezing. If opponent is successfully defending, don't fight to maintain - transition to alternative attacks or reset to another control position."
+        "answer": "Energy management requires understanding that overhook is transitional, not positional. Maximum control time is 3-5 seconds before attacking or advancing. Use skeletal alignment rather than muscular tension - your armpit seal should rest on their shoulder, not grip it with arm strength. Transfer pressure through body positioning rather than squeezing. If opponent is successfully defending, don't fight to maintain - transition to alternative attacks or reset to another control position.",
+        "answer_line": "Rest structure, don't grip-squeeze",
+        "distractors": {
+          "plausible": [
+            "Hold tight and wait them out",
+            "Alternate grip pressure rhythmically"
+          ],
+          "trap": [
+            "Muscle the grip harder over time"
+          ]
+        }
       },
       {
         "question": "You've partially lost the overhook as opponent circles their arm toward escape - what recovery options exist?",
-        "answer": "Three recovery options depending on how far the escape has progressed: if arm is still elevated, quickly re-establish armpit seal by driving your shoulder down and forward; if they've brought their arm to centerline, immediately transition to an arm drag and pursue back control; if their arm is nearly free, release the overhook entirely and secure a front headlock or snap them down before they can recompose. Never chase a failing grip - transition proactively."
+        "answer": "Three recovery options depending on how far the escape has progressed: if arm is still elevated, quickly re-establish armpit seal by driving your shoulder down and forward; if they've brought their arm to centerline, immediately transition to an arm drag and pursue back control; if their arm is nearly free, release the overhook entirely and secure a front headlock or snap them down before they can recompose. Never chase a failing grip - transition proactively.",
+        "answer_line": "Re-seal, arm drag, or headlock",
+        "distractors": {
+          "plausible": [
+            "Chase the grip and re-clasp hands",
+            "Squeeze harder to stop the circle"
+          ],
+          "trap": [
+            "Hold on and wait for a mistake"
+          ]
+        }
       },
       {
         "question": "What specific grip height provides maximum leverage from top overhook position?",
-        "answer": "The grip should be high on opponent's shoulder blade or behind their neck, never low on their back near the waist. High grip positioning provides maximum control over their posture and structure - you can drive their shoulder down and restrict their head movement. Low grips allow opponent to use their body movement to escape because the lever arm is too short. As they move, constantly adjust your grip upward to maintain the high position."
+        "answer": "The grip should be high on opponent's shoulder blade or behind their neck, never low on their back near the waist. High grip positioning provides maximum control over their posture and structure - you can drive their shoulder down and restrict their head movement. Low grips allow opponent to use their body movement to escape because the lever arm is too short. As they move, constantly adjust your grip upward to maintain the high position.",
+        "answer_line": "High on shoulder blade or neck",
+        "distractors": {
+          "plausible": [
+            "Mid-back for stability",
+            "Wrist control for leverage"
+          ],
+          "trap": [
+            "Low grip near the waist"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -457,35 +537,115 @@
     "flashcards": [
       {
         "question": "Your opponent begins driving forward with pressure into your overhook side - what sweep opportunity does this create?",
-        "answer": "Forward driving pressure creates the ideal setup for the overhook sweep. As they drive in, their weight commits forward and their base becomes narrow. Use your outside leg to hook over their back while your inside foot pushes off their hip. Pull their trapped arm across your body while elevating with your legs. Their forward momentum combines with your sweeping motion to roll them directly into mount. Time the sweep with their pressure rather than fighting against it."
+        "answer": "Forward driving pressure creates the ideal setup for the overhook sweep. As they drive in, their weight commits forward and their base becomes narrow. Use your outside leg to hook over their back while your inside foot pushes off their hip. Pull their trapped arm across your body while elevating with your legs. Their forward momentum combines with your sweeping motion to roll them directly into mount. Time the sweep with their pressure rather than fighting against it.",
+        "answer_line": "Overhook sweep into mount",
+        "distractors": {
+          "plausible": [
+            "Scissor sweep off the hip",
+            "Push them straight back flat"
+          ],
+          "trap": [
+            "Pull guard and reset to bottom"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining overhook control while preserving guard mobility from bottom?",
-        "answer": "The primary grip is the armpit seal over opponent's shoulder - this must remain tight regardless of other grip changes. Secondary grip options include: gripping high on their shoulder blade or neck for maximum leverage, figure-four grip with your hands clasped for control during transitions, or a grip on their belt or pants to prevent them from pulling away. Your opposite arm should control their head, sleeve, or collar rather than remaining passive."
+        "answer": "The primary grip is the armpit seal over opponent's shoulder - this must remain tight regardless of other grip changes. Secondary grip options include: gripping high on their shoulder blade or neck for maximum leverage, figure-four grip with your hands clasped for control during transitions, or a grip on their belt or pants to prevent them from pulling away. Your opposite arm should control their head, sleeve, or collar rather than remaining passive.",
+        "answer_line": "Armpit seal plus head/collar control",
+        "distractors": {
+          "plausible": [
+            "Both hands locked behind back",
+            "Underhook plus ankle control"
+          ],
+          "trap": [
+            "Both arms wrapped, legs passive"
+          ]
+        }
       },
       {
         "question": "You feel opponent beginning to pass to your overhook side despite your control - what adjustment saves the position?",
-        "answer": "When being passed to overhook side, immediately use your hips to create angle away from the pass direction while maintaining the armpit seal. If the pass has progressed too far, release the overhook and use that arm to frame against their hip or shoulder while hip escaping to re-guard. The critical error is maintaining overhook when it prevents effective guard recovery - recognize when to release and transition to defensive frames rather than holding a grip that's become a liability."
+        "answer": "When being passed to overhook side, immediately use your hips to create angle away from the pass direction while maintaining the armpit seal. If the pass has progressed too far, release the overhook and use that arm to frame against their hip or shoulder while hip escaping to re-guard. The critical error is maintaining overhook when it prevents effective guard recovery - recognize when to release and transition to defensive frames rather than holding a grip that's become a liability.",
+        "answer_line": "Angle hips away, frame to recover",
+        "distractors": {
+          "plausible": [
+            "Squeeze tighter to block the pass",
+            "Pull them into closed guard"
+          ],
+          "trap": [
+            "Hold overhook and let them pass"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape when opponent attempts to limp-arm out of your overhook?",
-        "answer": "Counter the limp-arm by immediately driving your overhook shoulder down while pulling your elbow tight to your ribs, eliminating any gap. As they attempt to slip out, follow their arm rotation with your body angle - don't let them create space between your armpit and their shoulder. If they're successfully creating space, transition immediately to an arm drag using their pulling motion against them. The limp-arm escape requires them to move their shoulder away - pursue that shoulder rather than holding static position."
+        "answer": "Counter the limp-arm by immediately driving your overhook shoulder down while pulling your elbow tight to your ribs, eliminating any gap. As they attempt to slip out, follow their arm rotation with your body angle - don't let them create space between your armpit and their shoulder. If they're successfully creating space, transition immediately to an arm drag using their pulling motion against them. The limp-arm escape requires them to move their shoulder away - pursue that shoulder rather than holding static position.",
+        "answer_line": "Drive shoulder down, elbow tight",
+        "distractors": {
+          "plausible": [
+            "Grip the wrist tighter",
+            "Pull their arm straight up"
+          ],
+          "trap": [
+            "Hold static and wait it out"
+          ]
+        }
       },
       {
         "question": "What pressure application from bottom overhook prevents opponent from establishing dominant passing grips?",
-        "answer": "Constant upward and outward pressure on their trapped arm prevents grip establishment. By keeping their arm elevated above their power line, they cannot use it to crossface, underhook, or post effectively. Combine this with your opposite arm controlling their head or collar to deny their other hand's effectiveness. The pressure should make them feel one-armed - they have bilateral capability but you've removed one arm's function through the overhook elevation and structure-breaking pressure."
+        "answer": "Constant upward and outward pressure on their trapped arm prevents grip establishment. By keeping their arm elevated above their power line, they cannot use it to crossface, underhook, or post effectively. Combine this with your opposite arm controlling their head or collar to deny their other hand's effectiveness. The pressure should make them feel one-armed - they have bilateral capability but you've removed one arm's function through the overhook elevation and structure-breaking pressure.",
+        "answer_line": "Elevate trapped arm, control head",
+        "distractors": {
+          "plausible": [
+            "Pull arm down across their body",
+            "Frame on their hips with legs"
+          ],
+          "trap": [
+            "Release arm to grip their collar"
+          ]
+        }
       },
       {
         "question": "Your opponent postures back strongly attempting to pull their arm free - what immediate attack does this create?",
-        "answer": "Backward posturing creates arm drag and back take opportunities. As they pull back, follow their movement by sitting up with them while maintaining overhook control. Use their pulling energy to transition to a two-on-one grip on their trapped arm and drag it across your body while you circle behind. Alternatively, their upward posture exposes their neck for triangle entries - shoot your overhook-side leg over their shoulder as they posture. Their pulling motion opens attack paths rather than closing them."
+        "answer": "Backward posturing creates arm drag and back take opportunities. As they pull back, follow their movement by sitting up with them while maintaining overhook control. Use their pulling energy to transition to a two-on-one grip on their trapped arm and drag it across your body while you circle behind. Alternatively, their upward posture exposes their neck for triangle entries - shoot your overhook-side leg over their shoulder as they posture. Their pulling motion opens attack paths rather than closing them.",
+        "answer_line": "Arm drag to back, or triangle",
+        "distractors": {
+          "plausible": [
+            "Kimura as they posture up",
+            "Push them back down flat"
+          ],
+          "trap": [
+            "Release grip and reset guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when maintaining bottom overhook against a patient passer who isn't providing reactions?",
-        "answer": "Against a patient opponent, you must create the reactions rather than waiting for them. Use your legs to bump, off-balance, or threaten sweeps that force them to adjust. The overhook provides control but requires active engagement - never settle into static holding. If opponent refuses to engage, use the overhook as a base to sit up, threatening technical stand-up or arm drags. Bottom overhook energy cost increases when you wait passively - decrease it by constantly threatening attacks that make opponent react."
+        "answer": "Against a patient opponent, you must create the reactions rather than waiting for them. Use your legs to bump, off-balance, or threaten sweeps that force them to adjust. The overhook provides control but requires active engagement - never settle into static holding. If opponent refuses to engage, use the overhook as a base to sit up, threatening technical stand-up or arm drags. Bottom overhook energy cost increases when you wait passively - decrease it by constantly threatening attacks that make opponent react.",
+        "answer_line": "Create reactions, threaten sweeps",
+        "distractors": {
+          "plausible": [
+            "Hold still and conserve energy",
+            "Wait for them to overextend"
+          ],
+          "trap": [
+            "Squeeze tighter to tire them out"
+          ]
+        }
       },
       {
         "question": "After a partial sweep attempt fails, how do you recover full overhook control without losing guard position?",
-        "answer": "After failed sweep, immediately re-center your hips while maintaining the armpit seal - don't let the failed sweep open space in your overhook. Use your legs to block opponent's passing attempts while you recompose hip position. Re-establish your secondary grip (head control, collar, sleeve) before attempting another attack. The critical element is keeping the armpit sealed during recovery - if that connection breaks during your recomposition, opponent will escape or pass. Move your hips and legs while keeping your upper body connection intact."
+        "answer": "After failed sweep, immediately re-center your hips while maintaining the armpit seal - don't let the failed sweep open space in your overhook. Use your legs to block opponent's passing attempts while you recompose hip position. Re-establish your secondary grip (head control, collar, sleeve) before attempting another attack. The critical element is keeping the armpit sealed during recovery - if that connection breaks during your recomposition, opponent will escape or pass. Move your hips and legs while keeping your upper body connection intact.",
+        "answer_line": "Re-center hips, keep seal sealed",
+        "distractors": {
+          "plausible": [
+            "Attempt the sweep again immediately",
+            "Release overhook to reset base"
+          ],
+          "trap": [
+            "Let go and scramble to standing"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -743,23 +903,73 @@
   "flashcards_position": [
     {
       "question": "What physical configuration defines Overhook Control and distinguishes it from a simple arm grip?",
-      "answer": "Overhook Control, or the whizzer, is defined by one player wrapping an arm over the top of the opponent's extended arm from above and sealing the armpit down over the opponent's shoulder. The wrapping arm passes on the outside of the opponent's upper arm rather than threading underneath it, which is what separates the whizzer from an underhook. The controlling hand then clasps behind the opponent's shoulder, neck, or back to close the loop. The result is a vice around the opponent's shoulder joint that traps the arm from above rather than lifting it from below."
+      "answer": "Overhook Control, or the whizzer, is defined by one player wrapping an arm over the top of the opponent's extended arm from above and sealing the armpit down over the opponent's shoulder. The wrapping arm passes on the outside of the opponent's upper arm rather than threading underneath it, which is what separates the whizzer from an underhook. The controlling hand then clasps behind the opponent's shoulder, neck, or back to close the loop. The result is a vice around the opponent's shoulder joint that traps the arm from above rather than lifting it from below.",
+      "answer_line": "Arm wraps over, armpit sealed",
+      "distractors": {
+        "plausible": [
+          "Arm threads under for underhook",
+          "Wrist grip with arm extended"
+        ],
+        "trap": [
+          "Hand grips wrist, arm unengaged"
+        ]
+      }
     },
     {
       "question": "Why is the armpit seal, rather than the hand grip, the primary source of control in the overhook?",
-      "answer": "The armpit seal presses the controlling player's shoulder and lat directly onto the opponent's shoulder, clamping the joint against the body with skeletal structure instead of grip strength. This zero-gap connection is what pins the trapped arm and prevents the opponent from rotating the shoulder free, whereas the hand grip behind the back merely closes the loop and can be broken. When a gap opens between armpit and shoulder, the opponent gains room to circle the arm out or limp-arm escape regardless of how tight the hand grip is. This is why both players fight over the seal first and the grip second."
+      "answer": "The armpit seal presses the controlling player's shoulder and lat directly onto the opponent's shoulder, clamping the joint against the body with skeletal structure instead of grip strength. This zero-gap connection is what pins the trapped arm and prevents the opponent from rotating the shoulder free, whereas the hand grip behind the back merely closes the loop and can be broken. When a gap opens between armpit and shoulder, the opponent gains room to circle the arm out or limp-arm escape regardless of how tight the hand grip is. This is why both players fight over the seal first and the grip second.",
+      "answer_line": "Skeletal seal pins the joint",
+      "distractors": {
+        "plausible": [
+          "Hand grip strength holds it",
+          "Wrist lock secures the arm"
+        ],
+        "trap": [
+          "Squeezing biceps stops the escape"
+        ]
+      }
     },
     {
       "question": "How does elevating the trapped arm above shoulder height change the mechanics of the exchange?",
-      "answer": "Raising the opponent's arm above shoulder height drives it past the line where they can generate meaningful pushing or posting force, effectively removing that limb from play. An arm held high cannot post on the mat, cannot underhook, and cannot crossface, so the opponent's structure and base are compromised on that side. This upward-and-backward pressure also tilts their posture and shoulders, opening the neck and back. The controlling player therefore keeps constant elevation because the moment the arm drops back below the power line, the opponent regains a functional post."
+      "answer": "Raising the opponent's arm above shoulder height drives it past the line where they can generate meaningful pushing or posting force, effectively removing that limb from play. An arm held high cannot post on the mat, cannot underhook, and cannot crossface, so the opponent's structure and base are compromised on that side. This upward-and-backward pressure also tilts their posture and shoulders, opening the neck and back. The controlling player therefore keeps constant elevation because the moment the arm drops back below the power line, the opponent regains a functional post.",
+      "answer_line": "Removes their arm from play",
+      "distractors": {
+        "plausible": [
+          "Makes their grip stronger",
+          "Only affects their balance"
+        ],
+        "trap": [
+          "Lets them post and stand up"
+        ]
+      }
     },
     {
       "question": "What role does hip-to-hip connection play in keeping the overhook viable for either player?",
-      "answer": "Close hip proximity denies the opponent the space and angle needed to circle away from the arm control, which is the most common way the position dissolves. Because the overhook isolates only one arm, the opponent's natural escape is to rotate their hips and body around the controlled side until the arm slips free; staying hip-to-hip cuts off that arc. The controlling player uses body position, not just the arm, to trap the opponent against them. Losing hip connection isolates the arm control from the rest of the body and turns the overhook into a grip the opponent can simply walk out of."
+      "answer": "Close hip proximity denies the opponent the space and angle needed to circle away from the arm control, which is the most common way the position dissolves. Because the overhook isolates only one arm, the opponent's natural escape is to rotate their hips and body around the controlled side until the arm slips free; staying hip-to-hip cuts off that arc. The controlling player uses body position, not just the arm, to trap the opponent against them. Losing hip connection isolates the arm control from the rest of the body and turns the overhook into a grip the opponent can simply walk out of.",
+      "answer_line": "Cuts off their circling escape",
+      "distractors": {
+        "plausible": [
+          "Adds extra pinning weight",
+          "Improves submission leverage"
+        ],
+        "trap": [
+          "Frees your hips to attack legs"
+        ]
+      }
     },
     {
       "question": "What is the mechanical asymmetry that makes the overhook advantageous regardless of which player holds it?",
-      "answer": "The overhook trades one of the controlling player's arms to fully neutralize one of the opponent's arms, but the controlling player retains a free arm while the opponent's controlled arm is functionally dead. This reduces the exchange to a one-armed contest in which the holder keeps bilateral capability and the opponent is left with single-arm defense. The free arm can then attack the head, establish a second grip, or thread for a choke while the opponent has no equivalent resource. The whole position is built to exploit this two-against-one dynamic before the opponent can free the trapped arm."
+      "answer": "The overhook trades one of the controlling player's arms to fully neutralize one of the opponent's arms, but the controlling player retains a free arm while the opponent's controlled arm is functionally dead. This reduces the exchange to a one-armed contest in which the holder keeps bilateral capability and the opponent is left with single-arm defense. The free arm can then attack the head, establish a second grip, or thread for a choke while the opponent has no equivalent resource. The whole position is built to exploit this two-against-one dynamic before the opponent can free the trapped arm.",
+      "answer_line": "You stay two-armed, they're one",
+      "distractors": {
+        "plausible": [
+          "Both players lose one arm equally",
+          "It only restricts their legs"
+        ],
+        "trap": [
+          "It frees both of their hands"
+        ]
+      }
     },
     {
       "question": "How does the overhook differ mechanically from the underhook, and why do players fight to convert one into the other?",
@@ -767,7 +977,17 @@
     },
     {
       "question": "Why is the overhook treated as a transitional control with a short lifespan rather than a position to hold?",
-      "answer": "The overhook isolates only a single arm, so the opponent always retains a free hand, mobile hips, and their base to work an escape, meaning the control decays quickly if nothing is done with it. Holding it statically simply gives a patient opponent time to reestablish the armpit seal from their side, circle their hips, or limp-arm the trapped arm loose. Its value lies in the brief window of broken structure it creates, which must be cashed in for a submission, sweep, or positional advance within a few seconds. Both players understand this clock, which is why the exchange is fast and reactive rather than a settled hold like side control or mount."
+      "answer": "The overhook isolates only a single arm, so the opponent always retains a free hand, mobile hips, and their base to work an escape, meaning the control decays quickly if nothing is done with it. Holding it statically simply gives a patient opponent time to reestablish the armpit seal from their side, circle their hips, or limp-arm the trapped arm loose. Its value lies in the brief window of broken structure it creates, which must be cashed in for a submission, sweep, or positional advance within a few seconds. Both players understand this clock, which is why the exchange is fast and reactive rather than a settled hold like side control or mount.",
+      "answer_line": "Only traps one arm, decays fast",
+      "distractors": {
+        "plausible": [
+          "It's illegal to hold too long",
+          "Grip strength always fails first"
+        ],
+        "trap": [
+          "Hold it as long as possible"
+        ]
+      }
     }
   ],
   "clips": [

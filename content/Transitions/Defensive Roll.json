@@ -238,51 +238,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Defensive Roll from Twister Control?",
-        "answer": "The primary goal is to reduce spinal rotation and escape to a recoverable defensive position such as Turtle or Half Guard. The escape works by redirecting the opponent's rotational energy through a controlled roll rather than fighting the torque directly."
+        "answer": "The primary goal is to reduce spinal rotation and escape to a recoverable defensive position such as Turtle or Half Guard. The escape works by redirecting the opponent's rotational energy through a controlled roll rather than fighting the torque directly.",
+        "answer_line": "Escape to turtle or half guard",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation directly",
+            "Reverse to top position"
+          ],
+          "trap": [
+            "Push into full twister lock"
+          ]
+        }
       },
       {
         "question": "Why must you roll WITH the direction of spinal rotation rather than against it?",
-        "answer": "Rolling against the rotation dramatically increases spinal torque and can cause serious injury to the cervical and thoracic spine. Rolling with the rotation uses the opponent's own momentum to reduce stress on your spine while creating the escape angle."
+        "answer": "Rolling against the rotation dramatically increases spinal torque and can cause serious injury to the cervical and thoracic spine. Rolling with the rotation uses the opponent's own momentum to reduce stress on your spine while creating the escape angle.",
+        "answer_line": "Roll with rotation, not against",
+        "distractors": {
+          "plausible": [
+            "Brace neck and stop the spin",
+            "Roll opposite to unwind"
+          ],
+          "trap": [
+            "Force reversal against rotation"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to initiate the Defensive Roll?",
-        "answer": "The optimal timing is when your opponent transitions their grip to hunt for the Twister finish. This grip adjustment momentarily weakens their leg control and creates a window where the roll can successfully break their entanglement. Rolling too early or late significantly reduces success probability."
+        "answer": "The optimal timing is when your opponent transitions their grip to hunt for the Twister finish. This grip adjustment momentarily weakens their leg control and creates a window where the roll can successfully break their entanglement. Rolling too early or late significantly reduces success probability.",
+        "answer_line": "When they adjust grip for finish",
+        "distractors": {
+          "plausible": [
+            "As soon as legs are entangled",
+            "Right after they secure hooks"
+          ],
+          "trap": [
+            "Wait until twister is fully locked"
+          ]
+        }
       },
       {
         "question": "How should you protect your neck during the Defensive Roll?",
-        "answer": "Tuck your chin firmly to your chest before initiating any rolling movement and use your free hand to create a frame against potential choking attempts. Maintain the chin tuck throughout the entire roll to prevent guillotine or neck crank submissions during the transition."
+        "answer": "Tuck your chin firmly to your chest before initiating any rolling movement and use your free hand to create a frame against potential choking attempts. Maintain the chin tuck throughout the entire roll to prevent guillotine or neck crank submissions during the transition.",
+        "answer_line": "Tuck chin, frame with free hand",
+        "distractors": {
+          "plausible": [
+            "Turn head away from pressure",
+            "Brace neck stiff and still"
+          ],
+          "trap": [
+            "Extend neck to create space"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after completing the Defensive Roll?",
-        "answer": "Immediately establish a defensive position - either strong Turtle with active frames or begin working to recover Half Guard with a knee shield. Do not pause or rest in the intermediate position, as the opponent will attempt to re-establish back control or return to Twister entries."
+        "answer": "Immediately establish a defensive position - either strong Turtle with active frames or begin working to recover Half Guard with a knee shield. Do not pause or rest in the intermediate position, as the opponent will attempt to re-establish back control or return to Twister entries.",
+        "answer_line": "Establish turtle or half guard",
+        "distractors": {
+          "plausible": [
+            "Pause to catch your breath",
+            "Turn to face and scramble up"
+          ],
+          "trap": [
+            "Sit still in neutral position"
+          ]
+        }
       },
       {
         "question": "Your opponent anticipates your roll and tightens their leg control. How do you respond?",
-        "answer": "Abort the roll attempt and return to incremental escape methods - hand fighting their grips and working small adjustments to loosen the leg control. Attempting to force through tightened leg control risks injury and typically fails. Wait for a better timing opportunity."
+        "answer": "Abort the roll attempt and return to incremental escape methods - hand fighting their grips and working small adjustments to loosen the leg control. Attempting to force through tightened leg control risks injury and typically fails. Wait for a better timing opportunity.",
+        "answer_line": "Abort roll, hand fight grips",
+        "distractors": {
+          "plausible": [
+            "Force the roll through anyway",
+            "Switch to opposite roll direction"
+          ],
+          "trap": [
+            "Yank knee free with force"
+          ]
+        }
       },
       {
         "question": "How do you extract your trapped leg during the rolling motion?",
-        "answer": "Actively pull your knee toward your chest as you roll through. The rolling momentum changes the angle of leg entanglement, creating space to extract the trapped leg. This must be an active effort during the roll, not an afterthought once the roll is complete."
+        "answer": "Actively pull your knee toward your chest as you roll through. The rolling momentum changes the angle of leg entanglement, creating space to extract the trapped leg. This must be an active effort during the roll, not an afterthought once the roll is complete.",
+        "answer_line": "Pull knee to chest while rolling",
+        "distractors": {
+          "plausible": [
+            "Extract leg after roll ends",
+            "Kick leg straight to free it"
+          ],
+          "trap": [
+            "Leave leg trapped, finish roll"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your roll and establishes back control. What is your immediate response?",
-        "answer": "Post strongly with both hands upon completing the roll to prevent them from flattening you out. Immediately sit through to guard by turning into them before they can secure their hooks. Speed is critical - the longer you remain in Turtle with an opponent on your back, the worse your position becomes."
+        "answer": "Post strongly with both hands upon completing the roll to prevent them from flattening you out. Immediately sit through to guard by turning into them before they can secure their hooks. Speed is critical - the longer you remain in Turtle with an opponent on your back, the worse your position becomes.",
+        "answer_line": "Post hands, sit through to guard",
+        "distractors": {
+          "plausible": [
+            "Stay in turtle and turtle up",
+            "Roll again to scramble free"
+          ],
+          "trap": [
+            "Pause to reset base first"
+          ]
+        }
       },
       {
         "question": "What grip configuration on your posting arm provides the best guidance through the roll?",
-        "answer": "Plant your posting arm with an open palm flat on the mat in the direction of the intended roll, fingers pointing away from your body. This open-hand post allows your arm to absorb the rolling momentum and steer your trajectory. A fist or closed hand risks wrist injury under the rotational load and provides less directional control."
+        "answer": "Plant your posting arm with an open palm flat on the mat in the direction of the intended roll, fingers pointing away from your body. This open-hand post allows your arm to absorb the rolling momentum and steer your trajectory. A fist or closed hand risks wrist injury under the rotational load and provides less directional control.",
+        "answer_line": "Open palm flat, fingers away",
+        "distractors": {
+          "plausible": [
+            "Closed fist for a strong post",
+            "Palm facing body for control"
+          ],
+          "trap": [
+            "Grab their gi sleeve instead"
+          ]
+        }
       },
       {
         "question": "When should you NOT attempt the Defensive Roll?",
-        "answer": "Do not attempt when the opponent's leg control is fully locked and their Twister grip is already secured. At this point, the escape window has closed and attempting the roll can increase spinal stress and accelerate injury. In this situation, protect your neck and tap if necessary for safety."
+        "answer": "Do not attempt when the opponent's leg control is fully locked and their Twister grip is already secured. At this point, the escape window has closed and attempting the roll can increase spinal stress and accelerate injury. In this situation, protect your neck and tap if necessary for safety.",
+        "answer_line": "When twister grip fully locked",
+        "distractors": {
+          "plausible": [
+            "When chest pressure is heavy",
+            "When legs are lightly entangled"
+          ],
+          "trap": [
+            "Force the roll anyway, risk tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins adjusting from Truck to full Twister Control - should you roll now or wait?",
-        "answer": "This transition moment is actually the best window for the Defensive Roll. As your opponent shifts from Truck to Twister Control, their leg entanglement briefly loosens during the positional adjustment. Initiate the roll during this reconfiguration phase rather than waiting until full Twister Control is established and their grips are set."
+        "answer": "This transition moment is actually the best window for the Defensive Roll. As your opponent shifts from Truck to Twister Control, their leg entanglement briefly loosens during the positional adjustment. Initiate the roll during this reconfiguration phase rather than waiting until full Twister Control is established and their grips are set.",
+        "answer_line": "Roll now, control is loosening",
+        "distractors": {
+          "plausible": [
+            "Wait for full twister lock",
+            "Wait until hooks are secured"
+          ],
+          "trap": [
+            "Wait for the submission attempt"
+          ]
+        }
       },
       {
         "question": "You complete the roll but land in Turtle with your opponent still attached. What determines whether you recover Half Guard or stay in Turtle defense?",
-        "answer": "The determining factor is whether your trapped leg was fully extracted during the roll. If the leg is free, immediately insert your knee between your bodies to establish knee shield Half Guard, which offers better offensive options. If the leg remains partially trapped, prioritize Turtle defense with strong frames and active hip positioning while continuing to work the leg free incrementally."
+        "answer": "The determining factor is whether your trapped leg was fully extracted during the roll. If the leg is free, immediately insert your knee between your bodies to establish knee shield Half Guard, which offers better offensive options. If the leg remains partially trapped, prioritize Turtle defense with strong frames and active hip positioning while continuing to work the leg free incrementally.",
+        "answer_line": "Whether trapped leg is free",
+        "distractors": {
+          "plausible": [
+            "Which direction you rolled",
+            "How tired the opponent is"
+          ],
+          "trap": [
+            "Always default to flat turtle"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Defensive Roll involves movement of the spine while under rotational stress, making proper execution critical for injury prevention. Never attempt this escape without first understanding the direction of spinal rotation - rolling the wrong direction can cause serious cervical and thoracic spine injuries. During training, partners should apply Twister Control progressively and communicate clearly about pressure levels. If you feel sharp pain or cannot breathe, tap immediately rather than attempting the escape. The neck is particularly vulnerable during this technique, so maintaining a strong chin tuck throughout is essential. Practice with a qualified instructor before attempting in live rolling, and never drill this technique at high speed until the mechanics are fully understood. When in doubt about timing or ability to escape, tapping is always the safest option.",
@@ -391,23 +511,73 @@
     "flashcards": [
       {
         "question": "What are the three conditions the bottom player needs for a successful Defensive Roll, and how do you deny each one?",
-        "answer": "The three conditions are: momentary loosening of leg control (deny by maintaining constant tight leg entanglement even during grip transitions), a free posting arm (deny by controlling or pinning their free arm), and committed hip drive in the rolling direction (deny by maintaining heavy chest pressure that compresses their ability to load their hips). Removing any single condition prevents the roll."
+        "answer": "The three conditions are: momentary loosening of leg control (deny by maintaining constant tight leg entanglement even during grip transitions), a free posting arm (deny by controlling or pinning their free arm), and committed hip drive in the rolling direction (deny by maintaining heavy chest pressure that compresses their ability to load their hips). Removing any single condition prevents the roll.",
+        "answer_line": "Keep legs, arm, hips controlled",
+        "distractors": {
+          "plausible": [
+            "Only deny the posting arm",
+            "Only maintain chest pressure"
+          ],
+          "trap": [
+            "Loosen legs to chase submission"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player tuck their chin and begin tensing their core. What should your immediate response be?",
-        "answer": "These are classic preparation signals for the Defensive Roll. Immediately tighten your leg entanglement, drive your chest pressure heavier into their upper back, and look to control their free arm. If possible, accelerate your own attack sequence - either commit to the Twister finish or transition to an alternative submission. The goal is to either finish before they roll or remove the conditions needed for the escape."
+        "answer": "These are classic preparation signals for the Defensive Roll. Immediately tighten your leg entanglement, drive your chest pressure heavier into their upper back, and look to control their free arm. If possible, accelerate your own attack sequence - either commit to the Twister finish or transition to an alternative submission. The goal is to either finish before they roll or remove the conditions needed for the escape.",
+        "answer_line": "Tighten legs, control free arm",
+        "distractors": {
+          "plausible": [
+            "Wait and see what they do",
+            "Loosen grips to reposition"
+          ],
+          "trap": [
+            "Reach for finish grip now"
+          ]
+        }
       },
       {
         "question": "The bottom player initiates the roll and you cannot stop it. What is the optimal follow-up strategy?",
-        "answer": "Ride the roll by maintaining chest-to-back connection throughout the rotational movement. As they complete the roll into Turtle, immediately work to insert your hooks and establish a seatbelt harness for conventional back control. Do not release and reset - the brief scramble during the roll is your best window to secure back control before they can establish defensive Turtle frames."
+        "answer": "Ride the roll by maintaining chest-to-back connection throughout the rotational movement. As they complete the roll into Turtle, immediately work to insert your hooks and establish a seatbelt harness for conventional back control. Do not release and reset - the brief scramble during the roll is your best window to secure back control before they can establish defensive Turtle frames.",
+        "answer_line": "Ride roll, secure back control",
+        "distractors": {
+          "plausible": [
+            "Release and reset to neutral",
+            "Chase leg lock instead"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to loosen leg control while reaching for the Twister finish grip?",
-        "answer": "Loosening leg control to reach for the finish creates the exact timing window the bottom player is waiting for to initiate the Defensive Roll. The leg entanglement is the foundation of Twister Control - without it, the rotational constraint that makes the position dangerous disappears. Always maintain leg control as the top priority and adjust upper body grips incrementally rather than sacrificing leg pressure for the finish."
+        "answer": "Loosening leg control to reach for the finish creates the exact timing window the bottom player is waiting for to initiate the Defensive Roll. The leg entanglement is the foundation of Twister Control - without it, the rotational constraint that makes the position dangerous disappears. Always maintain leg control as the top priority and adjust upper body grips incrementally rather than sacrificing leg pressure for the finish.",
+        "answer_line": "Loosen legs = opens roll window",
+        "distractors": {
+          "plausible": [
+            "It slows the submission attempt",
+            "It tires out your grip strength"
+          ],
+          "trap": [
+            "Trade legs for the finish grip"
+          ]
+        }
       },
       {
         "question": "How does maintaining chest pressure specifically prevent the Defensive Roll?",
-        "answer": "Chest pressure compresses the bottom player's torso against the mat, eliminating the hip elevation they need to generate rolling momentum. The Defensive Roll requires the bottom player to drive their hips forcefully in the rolling direction, which is only possible if they have space to load and explode. Heavy chest pressure removes this space, keeping them flat and unable to create the directional force needed for the escape."
+        "answer": "Chest pressure compresses the bottom player's torso against the mat, eliminating the hip elevation they need to generate rolling momentum. The Defensive Roll requires the bottom player to drive their hips forcefully in the rolling direction, which is only possible if they have space to load and explode. Heavy chest pressure removes this space, keeping them flat and unable to create the directional force needed for the escape.",
+        "answer_line": "Removes hip space to explode",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out over time",
+            "Blocks their vision and grips"
+          ],
+          "trap": [
+            "Relax pressure to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

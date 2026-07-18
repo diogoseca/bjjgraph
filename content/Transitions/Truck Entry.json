@@ -248,43 +248,143 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage the leg hook provides in Truck Entry?",
-        "answer": "The leg hook acts as a lever under the opponent's center of mass, allowing you to manipulate their entire body position using your stronger leg muscles rather than arm strength. It creates a structural connection that prevents them from using their base effectively while enabling you to control their rotation and off-balance them toward your desired position. The hook also limits their hip mobility, which is essential for most turtle escapes."
+        "answer": "The leg hook acts as a lever under the opponent's center of mass, allowing you to manipulate their entire body position using your stronger leg muscles rather than arm strength. It creates a structural connection that prevents them from using their base effectively while enabling you to control their rotation and off-balance them toward your desired position. The hook also limits their hip mobility, which is essential for most turtle escapes.",
+        "answer_line": "Lever controls hips, not strength",
+        "distractors": {
+          "plausible": [
+            "Hook mainly blocks their base",
+            "Hook just limits guard return"
+          ],
+          "trap": [
+            "Muscle them with arm strength"
+          ]
+        }
       },
       {
         "question": "Why must the leg hook thread completely across the opponent's centerline rather than stopping halfway?",
-        "answer": "A shallow hook allows the opponent to extract their leg by simply pulling it backward or sitting back to guard because you lack the leverage to prevent this escape. Threading completely across the centerline positions your shin and knee on the far side of their body, creating a locked structure where their own body weight and skeletal structure trap your hook in place. This deep position also maximizes your control over their far hip, which is essential for completing the roll to Truck position."
+        "answer": "A shallow hook allows the opponent to extract their leg by simply pulling it backward or sitting back to guard because you lack the leverage to prevent this escape. Threading completely across the centerline positions your shin and knee on the far side of their body, creating a locked structure where their own body weight and skeletal structure trap your hook in place. This deep position also maximizes your control over their far hip, which is essential for completing the roll to Truck position.",
+        "answer_line": "Locks under their own bodyweight",
+        "distractors": {
+          "plausible": [
+            "Improves hip pressure control",
+            "Prevents them standing up"
+          ],
+          "trap": [
+            "Stop halfway to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls forward over their shoulder during your Truck Entry attempt - how should you respond?",
-        "answer": "Maintain your leg hook connection and follow their forward roll rather than fighting against it. If you stay attached with your hook engaged, their roll often delivers them directly into Truck position as they complete the rotation. The key is to keep chest pressure and not release your connections - their escape attempt becomes your entry mechanism. This principle of following opponent momentum is fundamental to Truck entries."
+        "answer": "Maintain your leg hook connection and follow their forward roll rather than fighting against it. If you stay attached with your hook engaged, their roll often delivers them directly into Truck position as they complete the rotation. The key is to keep chest pressure and not release your connections - their escape attempt becomes your entry mechanism. This principle of following opponent momentum is fundamental to Truck entries.",
+        "answer_line": "Follow the roll, keep hook locked",
+        "distractors": {
+          "plausible": [
+            "Stop the roll to reset position",
+            "Release grip to avoid scramble"
+          ],
+          "trap": [
+            "Fight against their rotation"
+          ]
+        }
       },
       {
         "question": "What is the relationship between upper body control timing and successful Truck Entry completion?",
-        "answer": "Upper body control must be established before initiating the roll to Truck position. Without seatbelt grip, head control, or arm isolation, the opponent can separate from you during the roll transition, leading to a scramble or their escape. The upper body connection is what binds them to you so that when you roll using your leg hook, they are forced to roll with you into the Truck configuration rather than slipping away."
+        "answer": "Upper body control must be established before initiating the roll to Truck position. Without seatbelt grip, head control, or arm isolation, the opponent can separate from you during the roll transition, leading to a scramble or their escape. The upper body connection is what binds them to you so that when you roll using your leg hook, they are forced to roll with you into the Truck configuration rather than slipping away.",
+        "answer_line": "Secure seatbelt before rolling",
+        "distractors": {
+          "plausible": [
+            "Grip head control before hook",
+            "Roll fast before they adjust"
+          ],
+          "trap": [
+            "Roll immediately once hook set"
+          ]
+        }
       },
       {
         "question": "Your opponent flattens their hips to the mat as you attempt to thread the hook - what adjustment do you make?",
-        "answer": "When the opponent flattens their hips to deny the leg hook, you have two primary options. First, apply strong shoulder pressure to one side while pulling their far arm to force them onto their side, which re-opens the hip space for threading. Second, abandon the Truck Entry temporarily and switch to alternative turtle attacks such as Crucifix entry on the exposed arm or transition to front headlock position. The flattened hip defense is effective but leaves the opponent vulnerable to other attacks."
+        "answer": "When the opponent flattens their hips to deny the leg hook, you have two primary options. First, apply strong shoulder pressure to one side while pulling their far arm to force them onto their side, which re-opens the hip space for threading. Second, abandon the Truck Entry temporarily and switch to alternative turtle attacks such as Crucifix entry on the exposed arm or transition to front headlock position. The flattened hip defense is effective but leaves the opponent vulnerable to other attacks.",
+        "answer_line": "Shoulder pressure + pull far arm",
+        "distractors": {
+          "plausible": [
+            "Force hips up with hip pressure",
+            "Push their head down harder"
+          ],
+          "trap": [
+            "Yank the leg straight through"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure upper body control for the roll phase?",
-        "answer": "The seatbelt grip (one arm over the far shoulder, one arm under the near armpit, hands clasped) provides the most secure upper body control for the roll. This grip creates a diagonal connection across the opponent's torso that prevents them from separating regardless of roll direction. The over-arm controls their shoulder rotation while the under-arm prevents them from pulling away. Hands should be clasped with the over-arm hand on top to maintain squeeze pressure throughout the roll."
+        "answer": "The seatbelt grip (one arm over the far shoulder, one arm under the near armpit, hands clasped) provides the most secure upper body control for the roll. This grip creates a diagonal connection across the opponent's torso that prevents them from separating regardless of roll direction. The over-arm controls their shoulder rotation while the under-arm prevents them from pulling away. Hands should be clasped with the over-arm hand on top to maintain squeeze pressure throughout the roll.",
+        "answer_line": "Seatbelt: over-under arms clasped",
+        "distractors": {
+          "plausible": [
+            "Double underhooks both arms",
+            "Collar tie plus far wrist grip"
+          ],
+          "trap": [
+            "Grab both ankles for control"
+          ]
+        }
       },
       {
         "question": "How does the angle of your body relative to opponent's spine affect Truck Entry success?",
-        "answer": "The perpendicular angle (your body forming a T-shape with opponent's spine) provides optimal leverage for threading your leg hook and creates the proper geometry for the subsequent roll. If your angle is too parallel to their spine, you cannot generate the torque needed to rotate them into Truck. If your angle is too acute, you lack the space to thread your leg effectively. The 90-degree perpendicular position maximizes both your control and your ability to manipulate their body into the final Truck structure."
+        "answer": "The perpendicular angle (your body forming a T-shape with opponent's spine) provides optimal leverage for threading your leg hook and creates the proper geometry for the subsequent roll. If your angle is too parallel to their spine, you cannot generate the torque needed to rotate them into Truck. If your angle is too acute, you lack the space to thread your leg effectively. The 90-degree perpendicular position maximizes both your control and your ability to manipulate their body into the final Truck structure.",
+        "answer_line": "Perpendicular T-shape to spine",
+        "distractors": {
+          "plausible": [
+            "Parallel angle for more control",
+            "Tight acute angle for space"
+          ],
+          "trap": [
+            "Face directly behind their spine"
+          ]
+        }
       },
       {
         "question": "Your hook is established but the opponent is actively fighting your seatbelt - should you roll immediately or wait?",
-        "answer": "You should not roll until upper body control is secured, even if the hook is deep. Rolling without the seatbelt or equivalent upper body connection allows the opponent to separate from you mid-roll, resulting in a scramble where you lose all advantage. Instead, use your hook to limit their hip movement and off-balance them while you work to secure the seatbelt. If they are successfully preventing the seatbelt, consider pulling them onto your hook side to partially complete the roll and create a tighter connection angle before finishing the grip."
+        "answer": "You should not roll until upper body control is secured, even if the hook is deep. Rolling without the seatbelt or equivalent upper body connection allows the opponent to separate from you mid-roll, resulting in a scramble where you lose all advantage. Instead, use your hook to limit their hip movement and off-balance them while you work to secure the seatbelt. If they are successfully preventing the seatbelt, consider pulling them onto your hook side to partially complete the roll and create a tighter connection angle before finishing the grip.",
+        "answer_line": "Wait, secure seatbelt first",
+        "distractors": {
+          "plausible": [
+            "Roll now before they recover",
+            "Switch hands to force grip"
+          ],
+          "trap": [
+            "Roll immediately with hook only"
+          ]
+        }
       },
       {
         "question": "What determines whether to use the standard far-hip entry versus the near-side entry variant?",
-        "answer": "The decision depends on the opponent's weight distribution and which leg is accessible. Use the standard far-hip entry when opponent's weight is centered or slightly toward you, as this provides the deepest hook path with maximum leverage for the roll. Use the near-side entry when the opponent is defending the traditional entry by shifting weight to their far side, or when you already control their near leg from a previous attack sequence. The near-side entry is also useful when the far hip is pressed tightly to the mat, blocking the standard threading path."
+        "answer": "The decision depends on the opponent's weight distribution and which leg is accessible. Use the standard far-hip entry when opponent's weight is centered or slightly toward you, as this provides the deepest hook path with maximum leverage for the roll. Use the near-side entry when the opponent is defending the traditional entry by shifting weight to their far side, or when you already control their near leg from a previous attack sequence. The near-side entry is also useful when the far hip is pressed tightly to the mat, blocking the standard threading path.",
+        "answer_line": "Weight distribution picks the side",
+        "distractors": {
+          "plausible": [
+            "Always use far-hip by default",
+            "Pick based on your dominant leg"
+          ],
+          "trap": [
+            "Switch sides mid-roll randomly"
+          ]
+        }
       },
       {
         "question": "What chain attacks should you prepare if the Truck Entry is blocked and you remain on turtle top?",
-        "answer": "If the entry fails and you maintain turtle top position, immediately chain into alternative attacks: transition to front headlock by circling toward the head for guillotine or darce entries, attempt a Crucifix by trapping the near-side arm that they used to defend, or drive for a traditional back take by establishing seatbelt and inserting hooks. The key is not returning to a neutral position after a failed attempt but flowing directly into the next highest-percentage attack based on their defensive posture."
+        "answer": "If the entry fails and you maintain turtle top position, immediately chain into alternative attacks: transition to front headlock by circling toward the head for guillotine or darce entries, attempt a Crucifix by trapping the near-side arm that they used to defend, or drive for a traditional back take by establishing seatbelt and inserting hooks. The key is not returning to a neutral position after a failed attempt but flowing directly into the next highest-percentage attack based on their defensive posture.",
+        "answer_line": "Flow to guillotine, darce, crucifix",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral turtle position",
+            "Repeat same hook entry again"
+          ],
+          "trap": [
+            "Abandon top and stand up"
+          ]
+        }
       }
     ],
     "safety_considerations": "Truck Entry is generally a safe transition technique with minimal injury risk during the entry phase itself, though practitioners should be aware of potential knee stress when threading the leg hook under resistance. Ensure your knee is properly warmed up before practicing as the threading motion places rotational stress on the joint. When drilling with partners, communicate clearly about pace and resistance level, especially during the rolling phase where uncontrolled momentum can cause both practitioners to fall awkwardly. The primary safety concerns arise not from the entry itself but from the submissions available from Truck position (Twister, Calf Slicer), so practitioners should be educated about these submission mechanics before training Truck entries at full resistance. Always progress gradually through the training phases outlined above rather than attempting full-speed entries immediately.",
@@ -408,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the most critical moment to defend against a Truck Entry and why?",
-        "answer": "The most critical defensive moment is before the leg hook threads past your centerline. Once the attacker's shin passes completely under your hips with their foot emerging on the far side, the hook becomes structurally locked by your own body weight and is extremely difficult to remove. Defending early by flattening hips, sitting back, or stripping the threading leg is dramatically more effective than trying to escape after the hook is established. Early recognition of the perpendicular angle setup is therefore the key to successful defense."
+        "answer": "The most critical defensive moment is before the leg hook threads past your centerline. Once the attacker's shin passes completely under your hips with their foot emerging on the far side, the hook becomes structurally locked by your own body weight and is extremely difficult to remove. Defending early by flattening hips, sitting back, or stripping the threading leg is dramatically more effective than trying to escape after the hook is established. Early recognition of the perpendicular angle setup is therefore the key to successful defense.",
+        "answer_line": "Before hook threads past centerline",
+        "distractors": {
+          "plausible": [
+            "Once hook is fully locked in",
+            "After seatbelt grip is secured"
+          ],
+          "trap": [
+            "Wait until Truck is finished"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a partial hook but does not yet have seatbelt control - what should you prioritize?",
-        "answer": "Prioritize removing the partial hook immediately before the attacker can add upper body control. Use your hands to push their foot back under your hips while simultaneously sitting back toward guard or flattening your hips to deny the hook deepening. Once the attacker adds seatbelt control to an established hook, escape probability drops significantly because they can initiate the roll. The window between partial hook and complete entry is your best opportunity to abort their attack."
+        "answer": "Prioritize removing the partial hook immediately before the attacker can add upper body control. Use your hands to push their foot back under your hips while simultaneously sitting back toward guard or flattening your hips to deny the hook deepening. Once the attacker adds seatbelt control to an established hook, escape probability drops significantly because they can initiate the roll. The window between partial hook and complete entry is your best opportunity to abort their attack.",
+        "answer_line": "Strip the foot before grip lands",
+        "distractors": {
+          "plausible": [
+            "Wait and defend seatbelt only",
+            "Sit back without clearing hook"
+          ],
+          "trap": [
+            "Ignore hook, fight upper body"
+          ]
+        }
       },
       {
         "question": "How does flattening your hips defend against Truck Entry and what are the tradeoffs?",
-        "answer": "Flattening your hips removes the space under your body that the attacker needs to thread their leg hook. Without this space, their shin cannot pass under your torso and the hook cannot be established. However, the tradeoff is significant: a flattened turtle position is vulnerable to Crucifix entries where the attacker traps your arm, and it makes guard recovery harder because your hips are pinned. You should use hip flattening as a temporary defensive measure and immediately work to recover turtle structure or sit back to guard afterward."
+        "answer": "Flattening your hips removes the space under your body that the attacker needs to thread their leg hook. Without this space, their shin cannot pass under your torso and the hook cannot be established. However, the tradeoff is significant: a flattened turtle position is vulnerable to Crucifix entries where the attacker traps your arm, and it makes guard recovery harder because your hips are pinned. You should use hip flattening as a temporary defensive measure and immediately work to recover turtle structure or sit back to guard afterward.",
+        "answer_line": "Blocks hook, but risks Crucifix",
+        "distractors": {
+          "plausible": [
+            "Improves guard recovery odds",
+            "Removes all escape risk"
+          ],
+          "trap": [
+            "Flatten hips and stay there long"
+          ]
+        }
       },
       {
         "question": "The attacker has fully established the Truck position with deep hook and seatbelt - what is your best defensive strategy?",
-        "answer": "Once Truck is fully established, your immediate priority shifts to defending submissions (neck protection for Twister, leg defense for Calf Slicer) while working to clear the boot pressure on your hip. Address the boot first by using your free hand to fight it while the other hand protects your neck. If you can reduce the boot pressure, attempt a granby roll or hip escape to create enough space to extract your trapped leg. Accept that escape from a fully locked Truck is low-percentage and focus on preventing the finish while looking for moments of loosened control."
+        "answer": "Once Truck is fully established, your immediate priority shifts to defending submissions (neck protection for Twister, leg defense for Calf Slicer) while working to clear the boot pressure on your hip. Address the boot first by using your free hand to fight it while the other hand protects your neck. If you can reduce the boot pressure, attempt a granby roll or hip escape to create enough space to extract your trapped leg. Accept that escape from a fully locked Truck is low-percentage and focus on preventing the finish while looking for moments of loosened control.",
+        "answer_line": "Protect neck, fight boot pressure",
+        "distractors": {
+          "plausible": [
+            "Rush an escape roll immediately",
+            "Focus only on leg extraction"
+          ],
+          "trap": [
+            "Ignore neck to free trapped leg"
+          ]
+        }
       },
       {
         "question": "Why is sitting back to guard the highest-percentage defense against Truck Entry?",
-        "answer": "Sitting back to guard works because it fundamentally removes the conditions the attacker needs: your turtle base and the space under your hips. By dropping your hips backward and turning to face the attacker, you simultaneously deny the threading angle, remove available hip space, and transition to a guard position where the attacker must start a new passing sequence. The motion must be initiated early, before the hook is established, because once the hook is in, sitting back can actually assist the attacker's roll by providing rotation in their desired direction."
+        "answer": "Sitting back to guard works because it fundamentally removes the conditions the attacker needs: your turtle base and the space under your hips. By dropping your hips backward and turning to face the attacker, you simultaneously deny the threading angle, remove available hip space, and transition to a guard position where the attacker must start a new passing sequence. The motion must be initiated early, before the hook is established, because once the hook is in, sitting back can actually assist the attacker's roll by providing rotation in their desired direction.",
+        "answer_line": "Removes hip space and angle early",
+        "distractors": {
+          "plausible": [
+            "Works best after hook locks in",
+            "Mainly improves top position"
+          ],
+          "trap": [
+            "Sit back once hook is set"
+          ]
+        }
       }
     ],
     "training_progressions": [

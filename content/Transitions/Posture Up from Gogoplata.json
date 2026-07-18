@@ -260,23 +260,73 @@
     "flashcards": [
       {
         "question": "What is the first adjustment you should make when caught in a partially established gogoplata to buy time for systematic escape?",
-        "answer": "Turn your chin slightly toward the attacking shin to redirect compression away from the direct center of the trachea onto the more muscular lateral neck tissues. This subtle angle change creates breathing space without significantly alerting the bottom player to your escape intentions, buying critical seconds to begin the systematic extraction sequence."
+        "answer": "Turn your chin slightly toward the attacking shin to redirect compression away from the direct center of the trachea onto the more muscular lateral neck tissues. This subtle angle change creates breathing space without significantly alerting the bottom player to your escape intentions, buying critical seconds to begin the systematic extraction sequence.",
+        "answer_line": "Turn chin toward the shin",
+        "distractors": {
+          "plausible": [
+            "Pull head straight back",
+            "Grab the shin immediately"
+          ],
+          "trap": [
+            "Turn chin away from the shin"
+          ]
+        }
       },
       {
         "question": "Why should you control the opponent's hips with your hands rather than grab the choking leg directly?",
-        "answer": "The leg positioned across your throat is structurally stronger than your arms can overcome through direct pulling. Controlling the hips prevents the bottom player from elevating to maintain optimal perpendicular choke angle, addresses the root mechanical cause of the submission pressure, and provides a stable platform for generating posture recovery force through hip extension."
+        "answer": "The leg positioned across your throat is structurally stronger than your arms can overcome through direct pulling. Controlling the hips prevents the bottom player from elevating to maintain optimal perpendicular choke angle, addresses the root mechanical cause of the submission pressure, and provides a stable platform for generating posture recovery force through hip extension.",
+        "answer_line": "Control hips, not the leg",
+        "distractors": {
+          "plausible": [
+            "Pull the choking leg down",
+            "Grip both of their ankles"
+          ],
+          "trap": [
+            "Pull the leg with both arms"
+          ]
+        }
       },
       {
         "question": "What is the critical sequence for addressing the foot-behind-head configuration before head extraction?",
-        "answer": "Locate the heel of the foot behind your head with one hand while maintaining hip control with the other. Push the heel laterally to create slack in the closed-loop system rather than pulling it directly backward. Only after loosening the foot position should you drive your hips back to create separation, as attempting head extraction with the foot still anchored will only tighten the choke."
+        "answer": "Locate the heel of the foot behind your head with one hand while maintaining hip control with the other. Push the heel laterally to create slack in the closed-loop system rather than pulling it directly backward. Only after loosening the foot position should you drive your hips back to create separation, as attempting head extraction with the foot still anchored will only tighten the choke.",
+        "answer_line": "Push heel out, then drive hips",
+        "distractors": {
+          "plausible": [
+            "Pull heel straight back first",
+            "Drive hips back immediately"
+          ],
+          "trap": [
+            "Pull your head out first"
+          ]
+        }
       },
       {
         "question": "Your opponent re-elevates their hips as you begin driving backward - how do you respond?",
-        "answer": "Pause the backward drive immediately and use both hands to push their hips back toward the mat. Their hip elevation is what maintains the perpendicular shin angle across your throat that creates effective compression. Without elevated hips, the shin shifts to a parallel angle with minimal choking effect. Once you suppress the hip elevation, resume your posture recovery drive before they can re-elevate."
+        "answer": "Pause the backward drive immediately and use both hands to push their hips back toward the mat. Their hip elevation is what maintains the perpendicular shin angle across your throat that creates effective compression. Without elevated hips, the shin shifts to a parallel angle with minimal choking effect. Once you suppress the hip elevation, resume your posture recovery drive before they can re-elevate.",
+        "answer_line": "Pause, push their hips back down",
+        "distractors": {
+          "plausible": [
+            "Keep driving through it",
+            "Switch grips to their legs"
+          ],
+          "trap": [
+            "Speed up the backward drive"
+          ]
+        }
       },
       {
         "question": "What direction of force should power the main posture recovery movement?",
-        "answer": "The force should come from hip extension driving backward and upward through your legs and core, not from pulling with your arms or pushing off with your hands. Think of standing up from a deep squat while moving your hips away from the opponent. This generates sustainable power from the largest muscle groups and avoids exposing your arms to armbar attacks during the escape."
+        "answer": "The force should come from hip extension driving backward and upward through your legs and core, not from pulling with your arms or pushing off with your hands. Think of standing up from a deep squat while moving your hips away from the opponent. This generates sustainable power from the largest muscle groups and avoids exposing your arms to armbar attacks during the escape.",
+        "answer_line": "Hip extension, not arm pulling",
+        "distractors": {
+          "plausible": [
+            "Push off the mat with hands",
+            "Pull the leg with your arms"
+          ],
+          "trap": [
+            "Rip your arms free overhead"
+          ]
+        }
       },
       {
         "question": "You feel the shin sliding off your throat during posture recovery - what risk must you immediately manage?",
@@ -284,15 +334,45 @@
       },
       {
         "question": "What physical indicator tells you the escape is succeeding and you should commit to full head extraction?",
-        "answer": "When you can breathe freely through both nostrils and feel the shin pressure shift from your throat to your chin or jaw line, the choke is no longer threatening. This is the moment to accelerate the hip drive and extract your head laterally through the space created, transitioning immediately to upright posture and open guard top control before the bottom player can readjust."
+        "answer": "When you can breathe freely through both nostrils and feel the shin pressure shift from your throat to your chin or jaw line, the choke is no longer threatening. This is the moment to accelerate the hip drive and extract your head laterally through the space created, transitioning immediately to upright posture and open guard top control before the bottom player can readjust.",
+        "answer_line": "Breathing clears, shin hits jaw",
+        "distractors": {
+          "plausible": [
+            "Grip pressure feels lighter",
+            "Opponent's hips drop flat"
+          ],
+          "trap": [
+            "Opponent's foot grip loosens"
+          ]
+        }
       },
       {
         "question": "In what scenario should you abandon systematic posture recovery and use an emergency escape instead?",
-        "answer": "When the gogoplata is fully locked with deep foot position, maximally elevated hips, and perpendicular shin alignment restricting breathing to the point where you cannot maintain clear thinking for technical escape execution. In this situation, execute an emergency tuck-and-roll toward turtle position accepting back exposure risk, or tap depending on severity. Attempting systematic escape without adequate breathing leads to unconsciousness."
+        "answer": "When the gogoplata is fully locked with deep foot position, maximally elevated hips, and perpendicular shin alignment restricting breathing to the point where you cannot maintain clear thinking for technical escape execution. In this situation, execute an emergency tuck-and-roll toward turtle position accepting back exposure risk, or tap depending on severity. Attempting systematic escape without adequate breathing leads to unconsciousness.",
+        "answer_line": "Locked, can't breathe or think",
+        "distractors": {
+          "plausible": [
+            "Whenever hips are elevated",
+            "As soon as chin makes contact"
+          ],
+          "trap": [
+            "Only once about to pass out"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong collar grips pulling your head down in addition to the gogoplata - how does this change your escape approach?",
-        "answer": "The collar grips must be stripped before the posture recovery drive can succeed, as they add a secondary pulling force that reinforces the shin pressure. Use two-on-one grip breaks to strip the collar grips first, starting with the grip closest to the choking shin. Once the hands are freed, immediately transition to the hip control and posture recovery sequence before they can re-grip."
+        "answer": "The collar grips must be stripped before the posture recovery drive can succeed, as they add a secondary pulling force that reinforces the shin pressure. Use two-on-one grip breaks to strip the collar grips first, starting with the grip closest to the choking shin. Once the hands are freed, immediately transition to the hip control and posture recovery sequence before they can re-grip.",
+        "answer_line": "Strip collar grips first",
+        "distractors": {
+          "plausible": [
+            "Control hips before grips",
+            "Break both grips at once"
+          ],
+          "trap": [
+            "Ignore grips, drive hips now"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice posture recovery at controlled intensity with clear communication between training partners. The gogoplata applies direct trachea compression that can cause airway injury if explosive movements are used against a fully locked position. Always tap early when the choke is fully secured and breathing is significantly restricted. Partners establishing gogoplata should increase pressure gradually during drilling, never snapping the position on at full force. Ensure both practitioners understand tap signals and release protocols before training this escape at higher resistance levels.",
@@ -401,23 +481,73 @@
     "flashcards": [
       {
         "question": "What is the earliest physical indicator that your opponent is beginning a posture recovery attempt from your gogoplata?",
-        "answer": "Their hands shift from defensive framing to your hips, and you feel their spine beginning to straighten rather than remaining collapsed forward. This hand repositioning and spinal alignment change precede the actual hip drive by one to two seconds, giving you a critical window to respond by deepening your foot position and re-elevating your hips before their backward momentum builds."
+        "answer": "Their hands shift from defensive framing to your hips, and you feel their spine beginning to straighten rather than remaining collapsed forward. This hand repositioning and spinal alignment change precede the actual hip drive by one to two seconds, giving you a critical window to respond by deepening your foot position and re-elevating your hips before their backward momentum builds.",
+        "answer_line": "Hands move to hips, spine lifts",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar tighter",
+            "Opponent's breathing quickens"
+          ],
+          "trap": [
+            "Opponent's legs go still"
+          ]
+        }
       },
       {
         "question": "Your opponent gets one hand on the foot behind their head and begins pushing - what is your immediate response?",
-        "answer": "Use both hands immediately to re-secure the foot and pull it deeper behind their head, temporarily accepting reduced grip control elsewhere. The foot-behind-head configuration is the structural foundation of the entire gogoplata position. Without it, the shin has no anchor and can be displaced freely. Prioritize foot retention above all other control aspects during this critical moment."
+        "answer": "Use both hands immediately to re-secure the foot and pull it deeper behind their head, temporarily accepting reduced grip control elsewhere. The foot-behind-head configuration is the structural foundation of the entire gogoplata position. Without it, the shin has no anchor and can be displaced freely. Prioritize foot retention above all other control aspects during this critical moment.",
+        "answer_line": "Both hands re-secure the foot",
+        "distractors": {
+          "plausible": [
+            "Switch to controlling their hips",
+            "Grab their pushing wrist"
+          ],
+          "trap": [
+            "Release foot, grab hips instead"
+          ]
+        }
       },
       {
         "question": "At what point should you abandon maintaining the gogoplata and transition to an alternative attack?",
-        "answer": "When the opponent creates enough hip separation that your shin angle shifts from perpendicular to parallel relative to their throat, the gogoplata submission threat is effectively neutralized. Rather than fighting to re-establish a structurally compromised position, immediately transition to triangle by switching leg configuration, omoplata by using their turning movement, or armbar by attacking arms extended during their escape attempt."
+        "answer": "When the opponent creates enough hip separation that your shin angle shifts from perpendicular to parallel relative to their throat, the gogoplata submission threat is effectively neutralized. Rather than fighting to re-establish a structurally compromised position, immediately transition to triangle by switching leg configuration, omoplata by using their turning movement, or armbar by attacking arms extended during their escape attempt.",
+        "answer_line": "Switch to triangle/omoplata/armbar",
+        "distractors": {
+          "plausible": [
+            "Fight to re-establish gogoplata",
+            "Reset the shin angle instead"
+          ],
+          "trap": [
+            "Hold on and wait it out"
+          ]
+        }
       },
       {
         "question": "How does your hip elevation directly affect your ability to maintain gogoplata control against posture recovery?",
-        "answer": "Hip elevation maintains the perpendicular angle of your shin across the opponent's throat, which is essential for airway and blood vessel compression. When your hips drop flat, the shin shifts to a parallel angle that applies minimal meaningful pressure. During posture recovery attempts, actively drive your hips higher and forward to counteract the opponent's backward drive and preserve the compression geometry."
+        "answer": "Hip elevation maintains the perpendicular angle of your shin across the opponent's throat, which is essential for airway and blood vessel compression. When your hips drop flat, the shin shifts to a parallel angle that applies minimal meaningful pressure. During posture recovery attempts, actively drive your hips higher and forward to counteract the opponent's backward drive and preserve the compression geometry.",
+        "answer_line": "Keeps the shin angle perpendicular",
+        "distractors": {
+          "plausible": [
+            "Increases grip strength on collar",
+            "Prevents their leg movement"
+          ],
+          "trap": [
+            "Let hips drop for a stable base"
+          ]
+        }
       },
       {
         "question": "What training approach best develops the ability to maintain gogoplata control against progressively stronger posture recovery attempts?",
-        "answer": "Progressive resistance drilling where training partners attempt posture recovery at increasing intensity levels. Start at thirty percent resistance focusing purely on recognizing escape patterns and their early indicators. Increase to fifty percent practicing real-time hip and foot adjustments. Then seventy percent developing transition timing for when maintenance fails. This structured progression builds both the physical endurance for sustained hip elevation and the tactical pattern recognition needed for competition-level defense."
+        "answer": "Progressive resistance drilling where training partners attempt posture recovery at increasing intensity levels. Start at thirty percent resistance focusing purely on recognizing escape patterns and their early indicators. Increase to fifty percent practicing real-time hip and foot adjustments. Then seventy percent developing transition timing for when maintenance fails. This structured progression builds both the physical endurance for sustained hip elevation and the tactical pattern recognition needed for competition-level defense.",
+        "answer_line": "Progressive resistance drilling",
+        "distractors": {
+          "plausible": [
+            "Max resistance from day one",
+            "Isolated hip strength training"
+          ],
+          "trap": [
+            "Only drill with no resistance"
+          ]
+        }
       }
     ],
     "training_progressions": [

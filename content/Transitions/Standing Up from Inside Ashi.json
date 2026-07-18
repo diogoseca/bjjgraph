@@ -245,31 +245,101 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for initiating the standup from Inside Ashi-Garami?",
-        "answer": "The optimal timing is when the opponent is actively defending their heel by pulling their leg back or rotating their knee. During this defensive reaction, their attention and physical effort are directed toward their trapped leg rather than monitoring your base or attacking your balance. This creates a one-to-two second window where your posting hand can establish base without being grabbed or redirected, significantly increasing standup success rate."
+        "answer": "The optimal timing is when the opponent is actively defending their heel by pulling their leg back or rotating their knee. During this defensive reaction, their attention and physical effort are directed toward their trapped leg rather than monitoring your base or attacking your balance. This creates a one-to-two second window where your posting hand can establish base without being grabbed or redirected, significantly increasing standup success rate.",
+        "answer_line": "While they defend the trapped heel",
+        "distractors": {
+          "plausible": [
+            "The moment ashi lock is secured",
+            "Once they stop moving at all"
+          ],
+          "trap": [
+            "When both their hands grip your leg"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your posting wrist as you reach back to base—how do you adjust?",
-        "answer": "Immediately switch to posting with the opposite hand on the other side of your body. If both hands are compromised, use your elbow as a posting point and drive your hips upward from a lower angle. Alternatively, abandon the standup temporarily and threaten a heel hook or ankle lock to force the opponent to release your wrist and address the submission threat, then reattempt the post when their hands return to defending their leg."
+        "answer": "Immediately switch to posting with the opposite hand on the other side of your body. If both hands are compromised, use your elbow as a posting point and drive your hips upward from a lower angle. Alternatively, abandon the standup temporarily and threaten a heel hook or ankle lock to force the opponent to release your wrist and address the submission threat, then reattempt the post when their hands return to defending their leg.",
+        "answer_line": "Switch post to your other hand",
+        "distractors": {
+          "plausible": [
+            "Yank your wrist free first",
+            "Push through with the same hand"
+          ],
+          "trap": [
+            "Let go of the heel to grab back"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you maintain on the opponent's leg during the standup?",
-        "answer": "Maintain a C-grip on the heel with your remaining hand throughout the early phases of the standup, releasing or adjusting only once your feet are securely under you. If planning a standing ankle lock, transition the grip to a two-on-one figure-four configuration around the ankle once standing. If planning full disengagement, release the heel at the moment you achieve a stable standing base and immediately create distance by stepping backward at a 45-degree angle."
+        "answer": "Maintain a C-grip on the heel with your remaining hand throughout the early phases of the standup, releasing or adjusting only once your feet are securely under you. If planning a standing ankle lock, transition the grip to a two-on-one figure-four configuration around the ankle once standing. If planning full disengagement, release the heel at the moment you achieve a stable standing base and immediately create distance by stepping backward at a 45-degree angle.",
+        "answer_line": "C-grip heel until base is set",
+        "distractors": {
+          "plausible": [
+            "Grip the toes for more control",
+            "Switch grips right at the start"
+          ],
+          "trap": [
+            "Release the heel immediately"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point during the standup and how do you prevent it?",
-        "answer": "The most common failure occurs during the knee recovery phase when your inside leg swings underneath your body. At this moment, your base is narrow, your center of gravity is transitioning vertically, and you are most vulnerable to being pulled back down or swept. Prevent this by driving your hips high before attempting the knee recovery, keeping your chest up rather than folding forward, and ensuring your posted hand is directly under your shoulder for maximum structural support."
+        "answer": "The most common failure occurs during the knee recovery phase when your inside leg swings underneath your body. At this moment, your base is narrow, your center of gravity is transitioning vertically, and you are most vulnerable to being pulled back down or swept. Prevent this by driving your hips high before attempting the knee recovery, keeping your chest up rather than folding forward, and ensuring your posted hand is directly under your shoulder for maximum structural support.",
+        "answer_line": "Drive hips high before kneeing",
+        "distractors": {
+          "plausible": [
+            "Recover the knee before hips rise",
+            "Keep your head down for stability"
+          ],
+          "trap": [
+            "Rush the knee recovery early"
+          ]
+        }
       },
       {
         "question": "How does your decision to maintain or release leg control affect the standup mechanics?",
-        "answer": "Maintaining leg control requires keeping one hand on the heel throughout the standup, which limits you to a single posting hand and makes balance more challenging. This path leads to standing ankle lock opportunities but increases standup difficulty. Releasing leg control allows both hands for posting, making the standup faster and more stable, but sacrifices the attacking position entirely. The decision must be made before initiating the standup because switching plans mid-transition creates dangerous hesitation."
+        "answer": "Maintaining leg control requires keeping one hand on the heel throughout the standup, which limits you to a single posting hand and makes balance more challenging. This path leads to standing ankle lock opportunities but increases standup difficulty. Releasing leg control allows both hands for posting, making the standup faster and more stable, but sacrifices the attacking position entirely. The decision must be made before initiating the standup because switching plans mid-transition creates dangerous hesitation.",
+        "answer_line": "Decide leg control before rising",
+        "distractors": {
+          "plausible": [
+            "Keep both hands on heel always",
+            "Decide only if opponent resists"
+          ],
+          "trap": [
+            "Switch plans mid-transition"
+          ]
+        }
       },
       {
         "question": "Your opponent hooks their free leg around your thigh as you begin rising—what do you do?",
-        "answer": "Immediately address the hook by pushing their hooking leg down with your near-side hand while continuing to drive upward with your legs. If you cannot clear the hook, angle your hips away from the hooking leg to reduce its mechanical effectiveness. If the hook is deep and preventing your standup entirely, consider abandoning the attempt and re-engaging from ashi garami with a submission threat, as forcing the standup against a secured hook often results in losing balance and falling into the opponent's open guard."
+        "answer": "Immediately address the hook by pushing their hooking leg down with your near-side hand while continuing to drive upward with your legs. If you cannot clear the hook, angle your hips away from the hooking leg to reduce its mechanical effectiveness. If the hook is deep and preventing your standup entirely, consider abandoning the attempt and re-engaging from ashi garami with a submission threat, as forcing the standup against a secured hook often results in losing balance and falling into the opponent's open guard.",
+        "answer_line": "Push down the hook, drive up",
+        "distractors": {
+          "plausible": [
+            "Power through the standup fast",
+            "Switch your base to the far side"
+          ],
+          "trap": [
+            "Ignore hook and stand up hard"
+          ]
+        }
       },
       {
         "question": "What direction should your standup movement travel relative to the opponent's body?",
-        "answer": "Rise at approximately 45 degrees away from the opponent rather than straight upward. Moving directly vertical leaves you within easy reach for them to grab your legs and pull you back down. Angling away creates increasing distance as you stand, making it progressively harder for them to counter as the standup advances. The 45-degree angle also positions you to immediately step back and establish safe distance once fully standing, preventing guard pull attempts."
+        "answer": "Rise at approximately 45 degrees away from the opponent rather than straight upward. Moving directly vertical leaves you within easy reach for them to grab your legs and pull you back down. Angling away creates increasing distance as you stand, making it progressively harder for them to counter as the standup advances. The 45-degree angle also positions you to immediately step back and establish safe distance once fully standing, preventing guard pull attempts.",
+        "answer_line": "Rise at 45 degrees away",
+        "distractors": {
+          "plausible": [
+            "Angle 45 degrees toward them",
+            "Rise straight up, then step back"
+          ],
+          "trap": [
+            "Stand straight up for power"
+          ]
+        }
       }
     ],
     "safety_considerations": "When standing up from Inside Ashi-Garami, exercise particular caution with the opponent's trapped leg. The transition from supine to standing changes the leverage angle on the knee and ankle joints, potentially creating unexpected torque. If maintaining heel control during the standup, apply pressure gradually rather than explosively. Always release immediately if your training partner signals discomfort through tapping or verbal communication. Avoid jerky movements during the intermediate phase that could wrench the trapped knee. Communicate your intent to stand with your training partner to allow them to prepare for the position change and reduce injury risk.",
@@ -378,23 +448,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt standing from Inside Ashi-Garami?",
-        "answer": "The earliest cue is the release of one hand from your heel. When the bottom ashi player removes one hand from your trapped leg to post behind their hip, they are preparing to initiate the standup sequence. This grip change is the most reliable predictor because maintaining two hands on the heel is incompatible with the posting base required for standing. Recognizing this moment gives you maximum reaction time to counter before they establish structural base."
+        "answer": "The earliest cue is the release of one hand from your heel. When the bottom ashi player removes one hand from your trapped leg to post behind their hip, they are preparing to initiate the standup sequence. This grip change is the most reliable predictor because maintaining two hands on the heel is incompatible with the posting base required for standing. Recognizing this moment gives you maximum reaction time to counter before they establish structural base.",
+        "answer_line": "They release one hand from heel",
+        "distractors": {
+          "plausible": [
+            "They start rotating their knee",
+            "Their hips lift off the mat"
+          ],
+          "trap": [
+            "They grip your heel with both hands"
+          ]
+        }
       },
       {
         "question": "Your opponent has already posted one hand and begun elevating their hips—what is your best counter option?",
-        "answer": "Attack their posted arm by grabbing the wrist or sleeve and pulling it toward you to collapse their base structure. Simultaneously drive your free leg's knee toward their chest to push their hips back to the mat. If you cannot reach the posting arm, hook your free leg behind their far hip and use a scissoring motion to sweep them during the elevation phase when their balance is most compromised and their base is narrowest."
+        "answer": "Attack their posted arm by grabbing the wrist or sleeve and pulling it toward you to collapse their base structure. Simultaneously drive your free leg's knee toward their chest to push their hips back to the mat. If you cannot reach the posting arm, hook your free leg behind their far hip and use a scissoring motion to sweep them during the elevation phase when their balance is most compromised and their base is narrowest.",
+        "answer_line": "Collapse their post, knee to chest",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully stand",
+            "Grab their far leg to sweep"
+          ],
+          "trap": [
+            "Release ashi and reset guard"
+          ]
+        }
       },
       {
         "question": "How should you position your free leg to maximize your ability to counter the standup attempt?",
-        "answer": "Keep your free leg bent with your foot posted on the mat near the opponent's hip, ready to either push against their body to prevent elevation or hook behind their leg to initiate a sweep. Avoid extending your free leg straight out, as this removes your primary counterbalancing tool and eliminates your ability to follow their upward movement. Your free leg should function as both a defensive frame and an offensive weapon throughout the transition."
+        "answer": "Keep your free leg bent with your foot posted on the mat near the opponent's hip, ready to either push against their body to prevent elevation or hook behind their leg to initiate a sweep. Avoid extending your free leg straight out, as this removes your primary counterbalancing tool and eliminates your ability to follow their upward movement. Your free leg should function as both a defensive frame and an offensive weapon throughout the transition.",
+        "answer_line": "Keep free leg bent, foot posted",
+        "distractors": {
+          "plausible": [
+            "Wrap free leg around their back",
+            "Post free leg out to the side"
+          ],
+          "trap": [
+            "Extend free leg straight out"
+          ]
+        }
       },
       {
         "question": "When should you attempt to extract your trapped leg during the standup rather than countering it?",
-        "answer": "Attempt leg extraction during the knee recovery phase when the attacker transitions their inside leg from the hip frame to a kneeling position. At this moment, the inside leg pressure on your hip releases briefly, creating space to rotate your knee outward and pull your heel free. The attacker's remaining grip is typically only one hand on your heel, making this the moment of weakest control during the entire standup sequence."
+        "answer": "Attempt leg extraction during the knee recovery phase when the attacker transitions their inside leg from the hip frame to a kneeling position. At this moment, the inside leg pressure on your hip releases briefly, creating space to rotate your knee outward and pull your heel free. The attacker's remaining grip is typically only one hand on your heel, making this the moment of weakest control during the entire standup sequence.",
+        "answer_line": "During their knee recovery phase",
+        "distractors": {
+          "plausible": [
+            "As soon as hips start lifting",
+            "Once they are fully standing"
+          ],
+          "trap": [
+            "While both hands grip your heel"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully reaches standing while maintaining heel control on your trapped leg—what is your immediate priority?",
-        "answer": "Immediately establish connection points on their legs with your hands and free foot to prevent them from stepping away and creating space for a standing ankle lock finish. Use your free leg to hook behind their near knee, disrupting their standing base while pulling your trapped leg toward your body to reduce the extension angle on your ankle. If you cannot break the grip, sit up and grab their opposite leg to threaten a sweep, forcing them to address their balance rather than finishing the submission."
+        "answer": "Immediately establish connection points on their legs with your hands and free foot to prevent them from stepping away and creating space for a standing ankle lock finish. Use your free leg to hook behind their near knee, disrupting their standing base while pulling your trapped leg toward your body to reduce the extension angle on your ankle. If you cannot break the grip, sit up and grab their opposite leg to threaten a sweep, forcing them to address their balance rather than finishing the submission.",
+        "answer_line": "Hook their knee, pull leg in",
+        "distractors": {
+          "plausible": [
+            "Sit up and strike immediately",
+            "Kick your legs to break grip"
+          ],
+          "trap": [
+            "Let them step back and finish"
+          ]
+        }
       }
     ],
     "training_progressions": [
